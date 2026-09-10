@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 21</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 21</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="953"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x24066"><!-- l7c21 -->
+        <head xml:id="szdada-x24066-Hd1e101">Caput 21</head>
+        <head xml:id="szdada-x24066-Hd1e103" type="question-title">Utrum angeli nulla interveniente mora, statim in secundo instanti peccaverint</head>
+        <p xml:id="szdada-x24066-d1e106">
+          <lb ed="#P" n="65"/>CAPUT XXI.
+          <lb ed="#P" n="66"/>UTRUM ANGELI NULLA INTERVENIENTE MORA, 
+          STA<lb break="no" ed="#P" n="67"/>TIM IN SECUNDO INSTANTI PECCAVERINT.
+        </p>
+        <p xml:id="szdada-x24066-d1e115">
+          <lb ed="#P" n="68"/>1. In primo sensu sententia negans, ejusque
+          <lb ed="#P" n="69"/>fundamentum. — Impugnatur. — Haec questio
+          <lb ed="#P" n="70"/>dupliciter intelligi potest, videlicet, aut de
+          <lb ed="#P" n="71"/>primo instanti nostri temporis, seu dc Angelo
+          <lb ed="#P" n="72"/>illi soli coexistenti: vel de primo instanti 
+          an<lb break="no" ed="#P" n="73"/>gelico ita permanente, ut alicui tempori 
+          nos<lb break="no" ed="#P" n="74"/>tro coextiterit. In priori sensu aliqui dixerunt,
+          <lb ed="#P" n="75"/>non potuisse Angelum peccare immediate post
+          <lb ed="#P" n="76"/>primum instans suum omnino indivisibile, per
+          <lb ed="#P" n="77"/>coexistentiam ad unicum instans nostri 
+          tem<lb break="no" ed="#P" n="78"/>poris: quia alias actus, quem in primo 
+          instan<lb break="no" ed="#P" n="79"/>ti habuit Angelus, desineret per ultimum sui
+          <lb ed="#P" n="80"/>esse, et alius inciperet per ultimum non esse
+          <lb ed="#P" n="81"/>secundum coexistentiam ad nostrum tempus,
+          <lb ed="#P" n="82"/>quod repugnat: sed haec ratio nullius est 
+          mo<lb break="no" ed="#P" n="83"/>menti, ut supra lib. 6, cap. 2, in fine, ostendi:
+          <lb ed="#P" n="84"/>ubi propterea dixi potuisse primum instans
+          <lb ed="#P" n="85"/>in sanctis Angelis pro unico tantum instanti
+          <lb ed="#P" n="86"/>temporis durare: eademque ratio est de malis,
+          <lb ed="#P" n="87"/>et discursus paulo antea factus respondendo
+          <lb ed="#P" n="88"/>ad rationem contrariae sententiae, satis 
+          decla<lb break="no" ed="#P" n="89"/>rat, quomodo potuerint Angeli peccare 
+          imme<lb break="no" ed="#P" n="90"/>diate post primum instans suae creationis,
+          <lb ed="#P" n="91"/>quod unico instanti nostri temporis 
+          coextite<lb break="no" ed="#P" n="92"/>rit. Est etiam optima ratio, quia postquam
+          <lb ed="#P" n="93"/>Angeli in primo instanti suae creationis 
+          ha<lb break="no" ed="#P" n="94"/>buerunt actum bonum coexistentem uni 
+          in<lb break="no" ed="#P" n="95"/>stanti nostro, nihil erat, quod eis necessitatem
+          <lb ed="#P" n="96"/>perseverandi pro aliqua mora in eodem actu
+          <lb ed="#P" n="97"/>imponeret: ergo immediate post de alio 
+          ob<lb break="no" ed="#P" n="98"/>jecto, seu negotio cogitare, ac deliberare, et
+          <lb ed="#P" n="99"/>in eo male eligere potuerunt.
+        </p>
+        <p xml:id="szdada-x24066-d1e187">
+          <lb ed="#P" n="100"/>2. Proponitur et suadetur pars affirmans.
+          <lb ed="#P" n="101"/>— An vero Anggeli de facto peccaverint in 
+          se<lb break="no" ed="#P" n="102"/>cundo instanti in praedicto sensu, incertum
+          <lb ed="#P" n="103"/>est, pendetque ex illa quaestione, quam libro
+          <lb ed="#P" n="104"/>praecedenti, capite tertio, in hunc locum
+          <lb ed="#P" n="105"/>remisimus, videlicet, an primum instans
+          <lb ed="#P" n="106"/>angelicum fuerit omnino indivisibile, etiam
+          <lb ed="#P" n="107"/>per coexistentiam ad nostrum tempus: vel
+          <pb ed="#P" n="954"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pro aliquo tempore duraverit. In qua nihil fere
+          <lb ed="#P" n="2"/>definire possumus: quia utrumque fuit 
+          possi<lb break="no" ed="#P" n="3"/>bile, et neutrum potest auctoritate probari:
+          <lb ed="#P" n="4"/>et in re, quae ad solum factum pertinet, ratio,
+          <lb ed="#P" n="5"/>vel conjectura parum valere potest. Videri 
+          au<lb break="no" ed="#P" n="6"/>tem potest facilius dicere, illud instans fuisse
+          <lb ed="#P" n="7"/>omnino indivisibile: quia, si dixerimus, 
+          du<lb break="no" ed="#P" n="8"/>rasse per tempus, nullum certum terminum
+          <lb ed="#P" n="9"/>illlus secundum nostrum tempus assignare
+          <lb ed="#P" n="10"/>possumus: et liberum erit unicuique dicere
+          <lb ed="#P" n="11"/>per plures dies vel menses durasse. Cum ergo
+          <lb ed="#P" n="12"/>nulla sit necessitas illius permanentiae, nec
+          <lb ed="#P" n="13"/>certus ejus terminus designari possit; 
+          verisi<lb break="no" ed="#P" n="14"/>milius dicetur, nullam talem permanentiam
+          <lb ed="#P" n="15"/>fuisse: sed tantum indivisibile instans, in quo
+          <lb ed="#P" n="16"/>creatio Dei terminata est; nam tunc manet
+          <lb ed="#P" n="17"/>Angelus expeditus ad deliberandum in 
+          quoli<lb break="no" ed="#P" n="18"/>bet tempore sequenti, et ante quodlibet instans
+          <lb ed="#P" n="19"/>in eo signatum post ultimum non esse ejus;
+          <lb ed="#P" n="20"/>ac subinde immediate post idem primum 
+          in<lb break="no" ed="#P" n="21"/>stans creationis: Angelus autem cum non 
+          ha<lb break="no" ed="#P" n="22"/>beat impedimentum, quamprimum potest 
+          de<lb break="no" ed="#P" n="23"/>liberat: ergo malus Angelus immediate post
+          <lb ed="#P" n="24"/>deliberando statim peccavit.
+        </p>
+        <p xml:id="szdada-x24066-d1e264">
+          <lb ed="#P" n="25"/>3. Verior est sententia negativa.—
+          Nihilomi<lb break="no" ed="#P" n="26"/>nus tamen credibilius videtur, Angelos malos
+          <lb ed="#P" n="27"/>priusquam peccarent, fuisse bonos per aliquam
+          <lb ed="#P" n="28"/>moram coexistentem alicui tempori nostro. In
+          <lb ed="#P" n="29"/>hoc assentimus Gregorio, et consentit Gabriel,
+          <lb ed="#P" n="30"/>in 2, dist. 5, art. 3, dub. 2, cum Scoto, quem
+          <lb ed="#P" n="31"/>allegat, dist. 4, q., et Alense, quem etiam 
+          re<lb break="no" ed="#P" n="32"/>fert 2 p., q. 109, m. 11, nunc autem quaestio
+          <lb ed="#P" n="33"/>est 98, et in memb. 11, satis obscure loquitur.
+          <lb ed="#P" n="34"/>Idemque sentit Altisiodorensis, lib. 2, Sum.,
+          <lb ed="#P" n="35"/>tr. 2. cap.1, et citant Origenem, Damascenum,
+          <lb ed="#P" n="36"/>et alios, qui nihil clare dicunt. Ponderant item
+          <lb ed="#P" n="37"/>verba Ezechielis: Perfectus in deliciis 
+          Para<lb break="no" ed="#P" n="38"/>disi fuisti, et infra: In medio lapidum 
+          ignito<lb break="no" ed="#P" n="39"/>rum ambulasti, perfectus in viis tuis a die 
+          con<lb break="no" ed="#P" n="40"/>ditionis tuae, dnec inventa est iniqu'tas in te.
+          <lb ed="#P" n="41"/>Quae quidem verba majorem moram, quam
+          <lb ed="#P" n="42"/>unius indivisibilis instantis nostri temporis 
+          in<lb break="no" ed="#P" n="43"/>dicant; tamen, quia immediate dicta sunt de
+          <lb ed="#P" n="44"/>humano principe, applicata per metaphoram,
+          <lb ed="#P" n="45"/>vel allegoriam ad Angelum, minus effticacia
+          <lb ed="#P" n="46"/>sunt. Ratione potest haec sententia suaderi,
+          <lb ed="#P" n="47"/>quia magis naturale est, cuicumque intellectui,
+          <lb ed="#P" n="48"/>et voluntati creatae permanere aliquantulum
+          <lb ed="#P" n="49"/>in actu libere elicito et indivisibili, quam 
+          su<lb break="no" ed="#P" n="50"/>bito actum perfectum facere, et statim illum
+          <lb ed="#P" n="51"/>relinquere, vel immediate post idem instans
+          <lb ed="#P" n="52"/>indivisibile ad alium transire; nam hoc, et
+          <lb ed="#P" n="53"/>difficillimum apparet, et nimiam 
+          imperfectio<lb break="no" ed="#P" n="54"/>nem et mutabilitatem indicat. Ergo 
+          verisi<lb break="no" ed="#P" n="55"/>milius est Angelum non fuisse illo modo mu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tatum ab actibus, quos in primo instanti 
+          ha<lb break="no" ed="#P" n="57"/>buit: sed in illa dispositione aliquantulum
+          <lb ed="#P" n="58"/>permansisse.
+        </p>
+        <p xml:id="szdada-x24066-d1e342">
+          <lb ed="#P" n="59"/>4. Potest hoc amplius explicari; nam Deus
+          <lb ed="#P" n="60"/>in primo instanti fidem Trinitatis omnibus 
+          An<lb break="no" ed="#P" n="61"/>gelis revelavit: suique actualem amorem 
+          in<lb break="no" ed="#P" n="62"/>fudit, et (ut in superioribus saepe tetigimus)
+          <lb ed="#P" n="63"/>probabile valde est, secundum instans 
+          Ange<lb break="no" ed="#P" n="64"/>lorum omnium, tam bonorum, quam 
+          malo<lb break="no" ed="#P" n="65"/>rum per novam Dei excitationem ac 
+          revela<lb break="no" ed="#P" n="66"/>tionem, seu novi objecti, vel praecepti 
+          pro<lb break="no" ed="#P" n="67"/>positionem inchoatum esse. Non est autem
+          <lb ed="#P" n="68"/>verisimile, in eodem momento indivisibili in
+          <lb ed="#P" n="69"/>se, et quoad nos, Deum abstuhsse cogitationem
+          <lb ed="#P" n="70"/>de mysterio Trinitatis: ut novam 
+          cogitatio<lb break="no" ed="#P" n="71"/>nem de mysterio Incarnationis immediate post
+          <lb ed="#P" n="72"/>immitteret; tum, quia magis connaturale est,
+          <lb ed="#P" n="73"/>ut hi actus indivisibiles indivisibiliter 
+          incipe<lb break="no" ed="#P" n="74"/>rent, etiam secundum coexistentiam ad 
+          nos<lb break="no" ed="#P" n="75"/>trum tempus; quo posito inter indivisibilia
+          <lb ed="#P" n="76"/>utriusque revelationis initia aliquam 
+          duratio<lb break="no" ed="#P" n="77"/>nem nostri temporis veram, vel imaginariam
+          <lb ed="#P" n="78"/>intercessisse necesse est; tum etiam, quia illa
+          <lb ed="#P" n="79"/>tam velox mutatio prioris cogitationis, seu
+          <lb ed="#P" n="80"/>revelationis non videtur consentanea viro 
+          pru<lb break="no" ed="#P" n="81"/>denti modo operanti, nedum sapientiae et 
+          pro<lb break="no" ed="#P" n="82"/>videntiae Dei.
+        </p>
+        <p xml:id="szdada-x24066-d1e397">
+          <lb ed="#P" n="83"/>5. Ad suasionem partis affirmativae in n.2.
+          <lb ed="#P" n="84"/>— Et ita satis responsum est ad oppositam
+          <lb ed="#P" n="85"/>conjecturam: nam licet absolute, et (ut ita
+          <lb ed="#P" n="86"/>dicam ) physice posset Angelus relinquere 
+          pri<lb break="no" ed="#P" n="87"/>mum actum in eodem instanti indivisibili 
+          om<lb break="no" ed="#P" n="88"/>nino, et ad alium transire: nihilominus non
+          <lb ed="#P" n="89"/>est hoc ita connaturale, nec prudenti modo
+          <lb ed="#P" n="90"/>operandi satis consentaneum: et ideo non est
+          <lb ed="#P" n="91"/>praesumendum de Angelis bonis: et 
+          conse<lb break="no" ed="#P" n="92"/>quenter, nec de malis, cum simul uitrique 
+          de<lb break="no" ed="#P" n="93"/>liberaverint, ut probabilius creditur: et 
+          maxi<lb break="no" ed="#P" n="94"/>me, cum per novam Dei motionem ad plenam
+          <lb ed="#P" n="95"/>deliberationem excitati fuerint. Et hinc recte
+          <lb ed="#P" n="96"/>sequitur inter creationem et lapsum 
+          Angelo<lb break="no" ed="#P" n="97"/>rum aliquam moram nostri temporis 
+          interces<lb break="no" ed="#P" n="98"/>sisse: quanta vero illa fuerit, post definitum
+          <lb ed="#P" n="99"/>secundum sensum quaestionis explicabimus.
+        </p>
+        <p xml:id="szdada-x24066-d1e436">
+          <lb ed="#P" n="100"/>6. In secundo quaestionis sensu distinctione
+          <lb ed="#P" n="101"/>resolvit D. Thowmas. — Erat ergo secundus
+          <lb ed="#P" n="102"/>quaestionis sensus, an loquendo de instantibus
+          <lb ed="#P" n="103"/>angelicis Angeli mali immediate post primum
+          <lb ed="#P" n="104"/>instans, in secundo peccaverint? In quo puncto
+          <lb ed="#P" n="105"/>D. Thomas, d. quaest. 73, art. 6, sub 
+          distinc<lb break="no" ed="#P" n="106"/>tione respondet, nam si Angeli non fuerint
+          <lb ed="#P" n="107"/>creati in. gratia, negandum est, peccasse 
+          im<lb break="no" ed="#P" n="108"/>mediate in secundo instanti, sed in tertio: quia
+          <lb ed="#P" n="109"/>in secundo debuerunt prius sanctificari; quia
+          <lb ed="#P" n="110"/>prima gratia omnibus fuit aequalter a Deo
+          <pb ed="#P" n="955"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>oblata. Si vero fuerint creati in gratia, 
+          neces<lb break="no" ed="#P" n="2"/>sarium putat, ut immediate post in secundo
+          <lb ed="#P" n="3"/>instanti peccaverint. Utrumque autem habet
+          <lb ed="#P" n="4"/>nonnullam difficultatem. Primum quidem,quia
+          <lb ed="#P" n="5"/>si Angeli non fuerunt creati in gratia, 
+          quam<lb break="no" ed="#P" n="6"/>vis in secundo Deus omnibus suam gratiam
+          <lb ed="#P" n="7"/>obtulerit, potuerunt boni ad illam se 
+          dispo<lb break="no" ed="#P" n="8"/>nere, vel obicem non ponere: et mali in 
+          eo<lb break="no" ed="#P" n="9"/>dem instanti potuerunt gratiae obicem ponere
+          <lb ed="#P" n="10"/>peccando, et ita peccare in secundo instanti,
+          <lb ed="#P" n="11"/>licet creati in gratia non fuerint.
+        </p>
+        <p xml:id="szdada-x24066-d1e491">
+          <lb ed="#P" n="12"/>7. Respondeo, argumentum convincere, 
+          or<lb break="no" ed="#P" n="13"/>dinem illum, quem D. Thomas indicat, non
+          <lb ed="#P" n="14"/>fuisse absolute, et nulla facta suppositione 
+          ne<lb break="no" ed="#P" n="15"/>cessarium: at D. Thomas supponit omnes 
+          An<lb break="no" ed="#P" n="16"/>gelos tam bonos, quam malos, in aliqua mora
+          <lb ed="#P" n="17"/>seu duratione viae fuisse justos et sanctos,
+          <lb ed="#P" n="18"/>quod nos supra in principio libri quinti 
+          specia<lb break="no" ed="#P" n="19"/>Iiter ostendimus: et ideo, si mali non fuissent
+          <lb ed="#P" n="20"/>sanctificati in primo instanti, saltem in 
+          secun<lb break="no" ed="#P" n="21"/>do sancti fuissent: et ideo non potuissent in
+          <lb ed="#P" n="22"/>illo peccare, facta scilicet tali compositione;
+          <lb ed="#P" n="23"/>ideoque aliquod instans inter creationem et
+          <lb ed="#P" n="24"/>lapsum intercedere debuit, altera suppositione
+          <lb ed="#P" n="25"/>facta, quod Angeli non fuerint simul creati
+          <lb ed="#P" n="26"/>et sanctificati. Unde non procedit conjectura
+          <lb ed="#P" n="27"/>in contrarium inducta; quia licet absolute
+          <lb ed="#P" n="28"/>possit creatura libere resistere primae 
+          sanctifi<lb break="no" ed="#P" n="29"/>cationi: nihilominus sicut in prima creatione
+          <lb ed="#P" n="30"/>decuit DEUM ita movere creaturam in 
+          crea<lb break="no" ed="#P" n="31"/>tione sua, ut non statim peccaret, ut, capite
+          <lb ed="#P" n="32"/>praecedenti, dictum est: ita etiam decuit, ut
+          <lb ed="#P" n="33"/>in prima sanctificatione, quam Deus generatim
+          <lb ed="#P" n="34"/>et velut per modum naturae conferebat, ita
+          <lb ed="#P" n="35"/>moveret omnes, et singulos Angelos per 
+          con<lb break="no" ed="#P" n="36"/>gruentem gratiam, ut nullus ei resisteret, et
+          <lb ed="#P" n="37"/>consequenter non peccaret.
+        </p>
+        <p xml:id="szdada-x24066-d1e550">
+          <lb ed="#P" n="38"/>8. Circa alterum membrum etiam est 
+          diffi<lb break="no" ed="#P" n="39"/>cultas; quia supponere videtur D. Thomas in
+          <lb ed="#P" n="40"/>illo discursu, Angelum semel sanctificatum,
+          <lb ed="#P" n="41"/>si casurus sit, in primo instanti post primam
+          <lb ed="#P" n="42"/>justificationem cadere: ideoque, si instans
+          <lb ed="#P" n="43"/>creationis, et primae justificationis idem fuerit,
+          <lb ed="#P" n="44"/>peccatum in secundo instanti committi 
+          opor<lb break="no" ed="#P" n="45"/>tere: si vero instans primae justificationis 
+          dis<lb break="no" ed="#P" n="46"/>tinctum ab instanti creationis, ac proinde 
+          se<lb break="no" ed="#P" n="47"/>cundum fuerit, necessario peccatum futurum
+          <lb ed="#P" n="48"/>esse in tertio, utique si futurum est; at vero
+          <lb ed="#P" n="49"/>haec consecutio nec necessaria videtur, nec
+          <lb ed="#P" n="50"/>habere fundamentum: quia post primam
+          <lb ed="#P" n="51"/>sanctificationem posset Angelus prius bene
+          <lb ed="#P" n="52"/>mercri, per novum actum fidei, vel charitatis:
+          <lb ed="#P" n="53"/>et ita novum instans post primum creationis,
+          <lb ed="#P" n="54"/>et justificationis constituere, et postea in alia
+          <lb ed="#P" n="55"/>morula, seu instanti in superbiam efferri: et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ita inter creationem, vel primam 
+          sanctifica<lb break="no" ed="#P" n="57"/>Uonem, et lapsum potuit aliqua mora 
+          interce<lb break="no" ed="#P" n="58"/>dere. :
+        </p>
+        <p xml:id="szdada-x24066-d1e601">
+          <lb ed="#P" n="59"/>9. Dissolvitur objectio et D. Thomae 
+          senten<lb break="no" ed="#P" n="60"/>tia confir matur.—Nihilominus etiam illa pars
+          <lb ed="#P" n="61"/>sententiae D. Thomae vera est, et communis
+          <lb ed="#P" n="62"/>Thomistarum, et expositorum ejus, tam in
+          <lb ed="#P" n="63"/>illa quaest. 63, art. 6, quam in 62. art. 4 et 5.
+          <lb ed="#P" n="64"/>Eamdem docet Alensis, 2 p., q. 29, mem. 1,
+          <lb ed="#P" n="65"/>art. 5, et reliqui in2, d. 4 et 5, illi praesertim,
+          <lb ed="#P" n="66"/>qui sentiunt Angelos fuisse in gratia creatos,
+          <lb ed="#P" n="67"/>quos supra, lib. 5, cap. 3, allegavimus. Alu
+          <lb ed="#P" n="68"/>vero, qui dicunt creatos fuisse in pura natura,
+          <lb ed="#P" n="69"/>formaliter ( ut sic dicam ) in hoc consentiunt,
+          <lb ed="#P" n="70"/>quod Angeli mali, si aliquando fuerunt sancti,
+          <lb ed="#P" n="71"/>et meruerunt, post primum meritum, in 
+          proxi<lb break="no" ed="#P" n="72"/>mo, et immediato instanti peccaverint. Ratio
+          <lb ed="#P" n="73"/>enim eadem cst, nimirum, consentaneum 
+          an<lb break="no" ed="#P" n="74"/>gelicae naturae esse, ut per unam perfectam
+          <lb ed="#P" n="75"/>deliberationem in via ejus terminetur. Et hac
+          <lb ed="#P" n="76"/>ratione diximus, inlibrosexto, sanctos Angelos,
+          <lb ed="#P" n="77"/>post primum deliberatum meritum, statim,
+          <lb ed="#P" n="78"/>id est, immediate post, praemium recipisse; et
+          <lb ed="#P" n="79"/>pari ratione, si Angeli mali post primum 
+          in<lb break="no" ed="#P" n="80"/>stans creationis et sanctificationis suae, 
+          ha<lb break="no" ed="#P" n="81"/>buissent in secundo instanti novum meritum,
+          <lb ed="#P" n="82"/>jam illud habuissent cum plena deliberatione,
+          <lb ed="#P" n="83"/>et consequenter immediate post praevenirentur
+          <lb ed="#P" n="84"/>per beatitudinis praemium, ne peccare possent,
+          <lb ed="#P" n="85"/>sicut de facto boni praeventi fuerunt; quia
+          <lb ed="#P" n="86"/>Deus non acciperet personas; nec discerneret
+          <lb ed="#P" n="87"/>iuter illos, si ex parte sua aeque perseverassent
+          <lb ed="#P" n="88"/>in secunda mora. Cum ergo constet de facto
+          <lb ed="#P" n="89"/>non perseverasse, consequenter dicendum est,
+          <lb ed="#P" n="90"/>in secunda mora posuisse obicem huic 
+          perse<lb break="no" ed="#P" n="91"/>verantiae viae, ac subinde peccasse. Et hic est
+          <lb ed="#P" n="92"/>discursus D. Thomae, et consonat discursui
+          <lb ed="#P" n="93"/>Anselmi de Casu diaboli, art. cap. 4, usque
+          <lb ed="#P" n="94"/>ad 10.
+        </p>
+        <p xml:id="szdada-x24066-d1e682">
+          <lb ed="#P" n="95"/>10. Evasioni occurritur. — Dices, potuisse
+          <lb ed="#P" n="96"/>Luciferum in secundo instanti nec peccare,
+          <lb ed="#P" n="97"/>nec mereri, seu meritum confirmare. 
+          Respon<lb break="no" ed="#P" n="98"/>deo, fingi non posse hunc statum medium:
+          <lb ed="#P" n="99"/>tum quia si Angelus non mutavit actum 
+          bo<lb break="no" ed="#P" n="100"/>num, et meritorium, quem in primo instanti
+          <lb ed="#P" n="101"/>habuit, non transivit ad secundum instans
+          <lb ed="#P" n="102"/>suum, sed in primo semper mansit: si autem
+          <lb ed="#P" n="103"/>mutavit illum, necessario transivit ad actum
+          <lb ed="#P" n="104"/>bonum, vel malum; quia nec inter hos datur
+          <lb ed="#P" n="105"/>medium, praesertim in Angelo; nec etiam in
+          <lb ed="#P" n="106"/>eo datur neuter (ut sic dicam) quia non 
+          muta<lb break="no" ed="#P" n="107"/>tur Angelus ab actu ad non actum, sed ab uno
+          <lb ed="#P" n="108"/>actu ad alium; nam licet contrarium possibile
+          <lb ed="#P" n="109"/>absolute sit, non tamen est consentaneum illi
+          <lb ed="#P" n="110"/>naturae, unde neque praesumi potest; praeser-
+          <pb ed="#P" n="956"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tim, cum dictum sit, secundum instans 
+          ince<lb break="no" ed="#P" n="2"/>pisse per novam Dei excitationem, vel 
+          revela<lb break="no" ed="#P" n="3"/>tionem, cui obedire, vel resistere necessarium
+          <lb ed="#P" n="4"/>erat. Ergo cum mali Angeli in secundo instanti
+          <lb ed="#P" n="5"/>non transierint ad actum bonum, quia alias
+          <lb ed="#P" n="6"/>in illo consumerent meritum suum, et 
+          confir<lb break="no" ed="#P" n="7"/>marentur in bono, necesse est, dicere 
+          imme<lb break="no" ed="#P" n="8"/>diate post primum instans peccasse, nec 
+          con<lb break="no" ed="#P" n="9"/>tra hoc objecto alicujus momenti occurrit.
+        </p>
+        <p xml:id="szdada-x24066-d1e743">
+          <lb ed="#P" n="10"/>11. Quamdiu Lucifer iu gratiaperseveraverit.
+          <lb ed="#P" n="11"/>—Prima opinio autem asserit perseverasseusque
+          <lb ed="#P" n="12"/>ad tentationem hominum.--Rejicitur.--
+          Interro<lb break="no" ed="#P" n="13"/>gabit autem aliquis, quando incepit hoc 
+          secun<lb break="no" ed="#P" n="14"/>dum instans Angelorum malorum secundum
+          <lb ed="#P" n="15"/>coexistentiam ad nostrum tempus, et 
+          conse<lb break="no" ed="#P" n="16"/>quenter, quamtum duraverit primum instans
+          <lb ed="#P" n="17"/>secundum eamdem coexistentiam;quod est 
+          quae<lb break="no" ed="#P" n="18"/>rere, quando incepit peccatum Angelorum 
+          se<lb break="no" ed="#P" n="19"/>cundum mensuram dierum nostri temporis, qui
+          <lb ed="#P" n="20"/>in principio mundi numerari coeperunt ab 
+          in<lb break="no" ed="#P" n="21"/>stanti creationis ejus; quia (ut probabilius est)
+          <lb ed="#P" n="22"/>immediate post creationem coeli et terrae, 
+          pri<lb break="no" ed="#P" n="23"/>mum moblile suo proprio motu agitari coepit.
+          <lb ed="#P" n="24"/>In quo aliqui dixerunt, non peccasse 
+          Lucife<lb break="no" ed="#P" n="25"/>rum, donec homines tentavit; ita senserunt
+          <lb ed="#P" n="26"/>Justinus, in Dialog. cum Tryphone, et 
+          Ire<lb break="no" ed="#P" n="27"/>naeus, l. 4, cap. 78; unde sequitur Luciferum
+          <lb ed="#P" n="28"/>in bono per aliquos dies nostri temporis 
+          per<lb break="no" ed="#P" n="29"/>severasse; quia probabilius est Adamum in
+          <lb ed="#P" n="30"/>primo die non peccasse, et fortasse nec in 
+          se<lb break="no" ed="#P" n="31"/>cundo: sed haec opinio evidenter falsa est, quia
+          <lb ed="#P" n="32"/>Angelus malus prius erat serpens, quam 
+          ten<lb break="no" ed="#P" n="33"/>taret Adam, id est, jam erat coelo ejectus, et
+          <lb ed="#P" n="34"/>in terra versabatur, et terrena quaerebat: et
+          <lb ed="#P" n="35"/>ideo invidia ardebat, ut recte expendit 
+          Cas<lb break="no" ed="#P" n="36"/>sianus, coll. 8, c. 10, et Augustinus, lib. 11,
+          <lb ed="#P" n="37"/>Gen. ad litt., cap. 16, unde in lib. 1, de Mirab.
+          <lb ed="#P" n="38"/>sacr. Script., c.2, nomine illius dicitur, Asit,
+          <lb ed="#P" n="39"/>ut sentiamus Angelum potuisse homini 
+          per<lb break="no" ed="#P" n="40"/>suadere peccatum in terra. nisi prius ipse 
+          pec<lb break="no" ed="#P" n="41"/>casset in caelo, et idem sentiunt alii Patres, qui
+          <lb ed="#P" n="42"/>negant, invidiam, vel seductionem hominis
+          <lb ed="#P" n="43"/>fuisse primum peccatum Satanae, sed aliud
+          <lb ed="#P" n="44"/>jam antea praecise affirmant, quos in 
+          superio<lb break="no" ed="#P" n="45"/>ribus allegavimus; et plures refert Fevardus,
+          <lb ed="#P" n="46"/>in Scholio, ad citatum locum lrenad. 
+          Speciali<lb break="no" ed="#P" n="47"/>ter vero Isidorus, l. 1 Sent., c. 10, dicit, prius
+          <lb ed="#P" n="48"/>peccasse Angeium, quam homo crearetur :
+          <lb ed="#P" n="49"/>quem imitatur Beda, in lib. Variar. quaest.,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="50"/>q. 9, et habetur nomine Augustini, dicto lib.
+          <lb ed="#P" n="51"/>nomine Cypriani, lib. de Cardinal. Christi
+          <lb ed="#P" n="52"/>operib., cap. de Jejunio et tentat.
+        </p>
+        <p xml:id="szdada-x24066-d1e841">
+          <lb ed="#P" n="53"/>12. Unde verisimile non est, quod aliqui
+          <lb ed="#P" n="54"/>dixerunt Angelos malos non peccasse 
+          impri<lb break="no" ed="#P" n="55"/>mis sex diebus, sed in gratia perstitisse; quia
+          <lb ed="#P" n="56"/>in fine illorum dicitur vidit Deus cuncta, quae
+          <lb ed="#P" n="57"/>fecerat, et erant calde bona. Sed hoc dictum »
+          <lb ed="#P" n="58"/>est de operibus propriis Dei, non de operibus
+          <lb ed="#P" n="59"/>Angelorum; nec est verisimile, per integros
+          <lb ed="#P" n="60"/>sex dies perstitisse Angelos immutatos in 
+          pri<lb break="no" ed="#P" n="61"/>mo actu, quem in principium habuerunt; nec
+          <lb ed="#P" n="62"/>id est consentaneum Patribus, ut jam dicam.
+          <lb ed="#P" n="63"/>Alii vero dixerunt Angelos peccasse in secundo
+          <lb ed="#P" n="64"/>die, et ideo Deum illi non benedixisse, et 
+          Ec<lb break="no" ed="#P" n="65"/>clesiam dicere Missam de Angelisillo die 
+          prop<lb break="no" ed="#P" n="66"/>ter victoriam bonorum. Referunt Petrus 
+          Co<lb break="no" ed="#P" n="67"/>mestius, cap. 4, in Genes., et Altisiodorensis,
+          <lb ed="#P" n="68"/>lib. 2 Sum., tract. 2, c. 4. Verumtamen rationes
+          <lb ed="#P" n="69"/>illae frivolae sunt, et gratis excogitatae; unde
+          <lb ed="#P" n="70"/>illa sententia, vel rejicienda est, vel saltem, ut
+          <lb ed="#P" n="71"/>incerta relinquenda.
+        </p>
+        <p xml:id="szdada-x24066-d1e885">
+          <lb ed="#P" n="72"/>13. Probabilius est Angelos in primo die
+          <lb ed="#P" n="73"/>peccasse.—Probabilius igitur creditur, peccasse
+          <lb ed="#P" n="74"/>in primo die, ut Altisiodorensis, supra dieit.
+          <lb ed="#P" n="75"/>cum Glos. in id Genes.: et divisit lucem a 
+          tene<lb break="no" ed="#P" n="76"/>bris. Fuitque haec celebris sententia Augustini
+          <lb ed="#P" n="77"/>dicentis divisionem lucis a tenebris prima die
+          <lb ed="#P" n="78"/>factam fuisse separationem malorum 
+          Angelo<lb break="no" ed="#P" n="79"/>rum a bonis; in quo clare supponit Angelos
+          <lb ed="#P" n="80"/>in primo die peccasse: ut diserte explicat lib. 1,
+          <lb ed="#P" n="81"/>Genes. ad litt., c. 17, et in Imperf., c. 5, et
+          <lb ed="#P" n="82"/>lib. 11, de Civit., c. 19, et aliis multis in locis;
+          <lb ed="#P" n="83"/>eumque Beda, Rupertus, Petrus Comestius et
+          <lb ed="#P" n="84"/>Glossa in Genes., secuti sunt. Et quamvis 
+          sen<lb break="no" ed="#P" n="85"/>sus ille non litteralis, ut suo loco dicemus in
+          <lb ed="#P" n="86"/>tractatu sequenti, sententia ipsa per se est
+          <lb ed="#P" n="87"/>valde probabilis; quia Angeli creati sunt in
+          <lb ed="#P" n="88"/>principio primi diei; et intra brevissimum 
+          tem<lb break="no" ed="#P" n="89"/>pus peccarunt, ut est per se verisimile, et 
+          insi<lb break="no" ed="#P" n="90"/>nuatur in locis Scripturae et Patrum in 
+          capiti<lb break="no" ed="#P" n="91"/>bus ante praecedentem citatis. Ergo verisimile
+          <lb ed="#P" n="92"/>est, illud primum instans Angelicum tantum
+          <lb ed="#P" n="93"/>alicui parti illius primi diei coextitisse. 
+          Quan<lb break="no" ed="#P" n="94"/>ta vero illa fuerit, incertum est: de ipso vero
+          <lb ed="#P" n="95"/>secundo instanti, in quo peccaverunt, quale
+          <lb ed="#P" n="96"/>fuerit, vel quantum duraverit in principio libri
+          <lb ed="#P" n="97"/>sequentis tractabitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

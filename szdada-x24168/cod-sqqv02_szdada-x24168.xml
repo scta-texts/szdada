@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="958"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x24168"><!-- l8prae -->
+        <head xml:id="szdada-x24168-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-x24168-d1e103">
+          <pb ed="#P" n="958"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER OCTAVUS.
+          <lb ed="#P" n="2"/>DE POENIS ANGELUM
+          <lb ed="#P" n="3"/>QUI PECCAVERUNT
+          <lb ed="#P" n="4"/>ET DE BELLO, QUOD CONTRA DEUM ET HOMINES GERUNT.
+        </p>
+        <p xml:id="szdada-x24168-d1e119">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="5"/>Sicut bonis operibus praemium, ita peccatis
+          <lb ed="#P" n="6"/>poena apud DEUM respondet; et ideo sicut de
+          <lb ed="#P" n="7"/>bonis Angelis post eorum meritum statum
+          <lb ed="#P" n="8"/>beatitudinis eorum consideravimus, ita de 
+          ma<lb break="no" ed="#P" n="9"/>lis postquam eorum peccata, et mala pro virili
+          <lb ed="#P" n="10"/>exposuimus, superest ut de statu damnationis
+          <lb ed="#P" n="11"/>eorum diligenter pertractemus: sicut autem
+          <lb ed="#P" n="12"/>sancti Angeli in ministerium mittuntur propter
+          <lb ed="#P" n="13"/>eos, qui luereditatem capiunt salutis, ita mal
+          <lb ed="#P" n="14"/>Angeli homines tentare permittuntur, ut 
+          ten<lb break="no" ed="#P" n="15"/>tationibus suis coronas illorum augeant, qui
+          <lb ed="#P" n="16"/>electi sunt, nam onmia propter electos, ut et
+          <lb ed="#P" n="17"/>ipsi salutem consequentur; et ideo, sicut post
+          <lb ed="#P" n="18"/>statum beatorum Angelorum ministeria etiam
+          <lb ed="#P" n="19"/>illorum exposuimus; ita hic simul cum poenis
+          <lb ed="#P" n="20"/>daemonum, eorum negationes iniquas, et 
+          ten<lb break="no" ed="#P" n="21"/>tationes varias, et potentiam, qua 
+          hominesper<lb break="no" ed="#P" n="22"/>sequuntur, explicaturi sumus. Habebit igitur
+          <lb ed="#P" n="23"/>hic liber duas praecipuas partes, prior 
+          disputa<lb break="no" ed="#P" n="24"/>tionem de ponnis, altera tractationem de 
+          perni<lb break="no" ed="#P" n="25"/>ciosis operibus, vel officiis daemonum 
+          conti<lb break="no" ed="#P" n="26"/>nebit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

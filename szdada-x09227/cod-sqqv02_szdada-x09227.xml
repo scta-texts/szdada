@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 40</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 40</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="368"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x09227"><!-- l2c40 -->
+        <head xml:id="szdada-x09227-Hd1e101">Caput 40</head>
+        <head xml:id="szdada-x09227-Hd1e103" type="question-title">Utrum in angelis sit cognitio matutina, et vespertina, et quid utraque sit</head>
+        <p xml:id="szdada-x09227-d1e106">
+          <lb ed="#P" n="85"/>CAPUT XL.
+          <lb ed="#P" n="86"/>UTRUM IN ANGELIS SIT COGNITIO MATUTINA, ET
+          <lb ed="#P" n="87"/>VESPERTINA, ET QUID UTRAQUE SIT.
+        </p>
+        <p xml:id="szdada-x09227-d1e115">
+          <lb ed="#P" n="88"/>1. Matutiva et vespertina cognitio. — Haec
+          <lb ed="#P" n="89"/>tractat D. Thomas in fine hujus materiae de
+          <lb ed="#P" n="90"/>cognitione Angelorum, 1 part., quaest. 58,
+          <lb ed="#P" n="91"/>art. 6et 7. Et tractatur communiter a theologi
+          <lb ed="#P" n="92"/>in 2, dist. 3, vel 11. Tamen in illa distinctione
+          <lb ed="#P" n="93"/>praecipuum membrum, scilicet cognitio 
+          matu<lb break="no" ed="#P" n="94"/>tina ad scientiam beatam Angelorum spectat,
+          <lb ed="#P" n="95"/>et ex hac parte magis pertinet illa distinctio
+          <lb ed="#P" n="96"/>ad quaestionem 62 D. Thomae, vel ad librum
+          <lb ed="#P" n="97"/>quintum, qui de illa cognitione futurus est,
+          <lb ed="#P" n="98"/>sine cujus notitia, nec vespertina, ut illo 
+          no<lb break="no" ed="#P" n="99"/>mine significatur, satis intelligi potest. 
+          Ve<lb break="no" ed="#P" n="100"/>rumtamen quia illa cognitio ab Augustino 
+          spe<lb break="no" ed="#P" n="101"/>cialiter inventa est ad explicandos sex dies
+          <lb ed="#P" n="102"/>creationis mundi, ideo in tractatum de illis 
+          die<lb break="no" ed="#P" n="103"/>bus eam reservamus, quia et ibi maxime 
+          ne<lb break="no" ed="#P" n="104"/>cessaria est, et ex subjecta materia, habita
+          <lb ed="#P" n="105"/>jam cognitione status beatifici Angelorum,
+          <lb ed="#P" n="106"/>melius, et facilius intelligetur. De illa igitur
+          <lb ed="#P" n="107"/>in tractatu sequenti, lib. 1, cap. 11, 
+          dice<lb break="no" ed="#P" n="108"/>mus. Et ideo de intellectu angelico haec sint
+          <lb ed="#P" n="109"/>satis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

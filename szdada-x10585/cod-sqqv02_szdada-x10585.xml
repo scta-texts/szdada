@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="421"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x10585"><!-- l4prae -->
+        <head xml:id="szdada-x10585-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-x10585-d1e103">
+          <pb ed="#P" n="421"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER QUARTUS.
+          <lb ed="#P" n="2"/>DE ANGELORUM POTENTIA
+          <lb ed="#P" n="3"/>AD TRANSEUNTES ACTIONES, SEU MUTATIONES EFFICIENDAS.
+        </p>
+        <p xml:id="szdada-x10585-d1e116">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>1. Angelorum attributa quot. — Eoctra Deum
+          <lb ed="#P" n="5"/>omni activae potentiae respondet aliqua passiva.
+          <lb ed="#P" n="6"/>—Reduximus in hujus materiae principio ad
+          <lb ed="#P" n="7"/>tria capita, seu attributa, Angelorum 
+          proprie<lb break="no" ed="#P" n="8"/>tates, scilicet, intellectum, voluntatem, et
+          <lb ed="#P" n="9"/>potentiam transeuntem, ad instar divinorum
+          <lb ed="#P" n="10"/>attributorum: et hactenus de intellectu, et 
+          vo<lb break="no" ed="#P" n="11"/>luntate diximus, unde solum superest, ut de
+          <lb ed="#P" n="12"/>potentia dicamus. Quia vero intellectus, et 
+          vo<lb break="no" ed="#P" n="13"/>luntas in Angelis etiam sunt verae, et propriae
+          <lb ed="#P" n="14"/>potentiae, ut intelligatur, de qua potentia 
+          lo<lb break="no" ed="#P" n="15"/>quamur, addimus sermonem esse de potentia
+          <lb ed="#P" n="16"/>per actionem transeuntem operante, utique
+          <lb ed="#P" n="17"/>per se proxime, et quasi eliciendo actionem 
+          ip<lb break="no" ed="#P" n="18"/>sam. Nam intellectus, et voluntas proxime, et
+          <lb ed="#P" n="19"/>per se non eliciunt actus nisi manentes in 
+          ip<lb break="no" ed="#P" n="20"/>sis, et ex seipsis, tanquam ex materia, seu 
+          sub<lb break="no" ed="#P" n="21"/>jecto, quia actus propterea immanentes 
+          dicun<lb break="no" ed="#P" n="22"/>tur, potentia autem, de qua tractamus, non
+          <lb ed="#P" n="23"/>est, ut in se operetur (ut sic dicam) nec ad 
+          ac<lb break="no" ed="#P" n="24"/>iuandum seipsam, sed est ad aliud subjectum
+          <lb ed="#P" n="25"/>aliquo modo transmutandum. Ac proinde 
+          po<lb break="no" ed="#P" n="26"/>tentia, de qua agimus, est pure activa, 
+          intel<lb break="no" ed="#P" n="27"/>lectus autem, et voluntas passivae etiam sunt,
+          <lb ed="#P" n="28"/>ut per se notum est: quia vero extra Deum
+          <lb ed="#P" n="29"/>omni activae potentiae, aliqua passiva 
+          respon<lb break="no" ed="#P" n="30"/>det: consequenter exponere oportebit, quae
+          <lb ed="#P" n="31"/>passiva potentia huic activae correspondeat.
+        </p>
+        <p xml:id="szdada-x10585-d1e181">
+          <lb ed="#P" n="32"/>2. De attributo potentie motive tractandum.
+          <lb ed="#P" n="33"/>—Haec autem potentia (quae general 
+          appella<lb break="no" ed="#P" n="34"/>tione motiva dici potest) respectum habet, vel
+          <lb ed="#P" n="35"/>ad suppositum in quo est, vel ad alia. Sub hac
+          <lb ed="#P" n="36"/>ergo potentia comprehendimus et illam, per
+          <lb ed="#P" n="37"/>quam Angelus alia a se, et seipsum movere
+          <lb ed="#P" n="38"/>potest: quia etiam illa potentia est pure 
+          acti<lb break="no" ed="#P" n="39"/>va, et ideo ejus actio transiens est: quia licet
+          <lb ed="#P" n="40"/>maneat in eodem supposito, non tamen in 
+          ip<lb break="no" ed="#P" n="41"/>samet potentia, quasi formahter et intrinsece
+          <lb ed="#P" n="42"/>actuando illam. Et ideo in hoc libro prius 
+          di<lb break="no" ed="#P" n="43"/>cemus de potestate, quam Angelus habet ad
+          <lb ed="#P" n="44"/>movendum seipsum motu locali. Supponimus
+          <lb ed="#P" n="45"/>enim extra cognitionem, et affectum, Ange-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="46"/>lum non esse capacem alterius mutationis 
+          prae<lb break="no" ed="#P" n="47"/>ter localem, quia neque augeri potest, aut 
+          mi<lb break="no" ed="#P" n="48"/>nui, nec ad quahtates alias, praeter eas, quae
+          <lb ed="#P" n="49"/>intellectui, aut voluntati deserviunt, et in eis
+          <lb ed="#P" n="50"/>recipiuntur, transmutari potest. Nam licet 
+          ali<lb break="no" ed="#P" n="51"/>qui dixerint posse Angelum recipere, nescio
+          <lb ed="#P" n="52"/>quas formas, seu qualitates, quae non sint 
+          spe<lb break="no" ed="#P" n="53"/>cies intelligibiles, nec actus mentis, sed tantum
+          <lb ed="#P" n="54"/>signa quaedam, vel naturalia, vel ad placitum,
+          <lb ed="#P" n="55"/>sententiam illam, ut parum probabilem, supra
+          <lb ed="#P" n="56"/>rejicimus. Praeterquam quod auctores illius 
+          o<lb break="no" ed="#P" n="57"/>pinionis qualitates illas extra intellectum non
+          <lb ed="#P" n="58"/>ponunt, et ab illo fieri existimant, quod tamen
+          <lb ed="#P" n="59"/>nec explicare, nec suadere possunt, ut in libro
+          <lb ed="#P" n="60"/>secundo ostendi. Et ideo in praesenti suppono;
+          <lb ed="#P" n="61"/>solum esse sermonem de potentia motiva, qua
+          <lb ed="#P" n="62"/>Angelus seipsum movere potest. Postea vero
+          <lb ed="#P" n="63"/>dicemus de hac potentia, respectu aliorum,
+          <lb ed="#P" n="64"/>quam partem in alias subdistinguemus: nam
+          <lb ed="#P" n="65"/>prius dicemus de potestate Angeli ad agendum
+          <lb ed="#P" n="66"/>in alios Angelos, vel in animam separatam,
+          <lb ed="#P" n="67"/>deinde de potestate ad agendum in hominem,
+          <lb ed="#P" n="68"/>seu in animam conjunctam, ac tandem de
+          <lb ed="#P" n="69"/>potestate res alias corporales transmutandi. In
+          <lb ed="#P" n="70"/>his autem omnibus supponimus sermonem
+          <lb ed="#P" n="71"/>esse de potentia naturali, per quam Angelus
+          <lb ed="#P" n="72"/>tanquam principalis causa proxima operari
+          <lb ed="#P" n="73"/>potest: nam de supernaturali efficientia, ad
+          <lb ed="#P" n="74"/>quam potest ut divinum instrumentum elevari,
+          <lb ed="#P" n="75"/>non est hic dicendi locus, quia nec ad 
+          expli<lb break="no" ed="#P" n="76"/>candam angelicam naturam pertinet, nec 
+          doc<lb break="no" ed="#P" n="77"/>trinam peculiarem habet, praeter eam, quae
+          <lb ed="#P" n="78"/>aliis divinis instrumentis communis est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="583"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x14708"><!-- l5c5 -->
+        <head xml:id="szdada-x14708-Hd1e101">Caput 5</head>
+        <head xml:id="szdada-x14708-Hd1e103" type="question-title">Utrum angeli in via habuerint cognitionem dei supernaturalem, et per se infusam</head>
+        <p xml:id="szdada-x14708-d1e106">
+          <lb ed="#P" n="68"/>CAPUT V.
+          <lb ed="#P" n="69"/>UTRUM ANGELI IN VIA HABUERINT COGNITIONEM DEI
+          <lb ed="#P" n="70"/>SUPERNATURALEM, ET PER SE INFUSAM.
+        </p>
+        <p xml:id="szdada-x14708-d1e115">
+          <lb ed="#P" n="71"/>1. Duplex ponitur justificatio. — Diximus,
+          <lb ed="#P" n="72"/>Angelos fuisse justificatos in primo instanti
+          <lb ed="#P" n="73"/>suae creationis: superest, ut explicemus 
+          mo<lb break="no" ed="#P" n="74"/>dum, quo justificati sunt, et gradum justitiae,
+          <lb ed="#P" n="75"/>quem consecuti sunt, et causas justificationis
+          <lb ed="#P" n="76"/>eorum: postea vero, de augmento 
+          justifica<lb break="no" ed="#P" n="77"/>tionis eorum, ac perseverantia et merito 
+          dice<lb break="no" ed="#P" n="78"/>mus, vestigia Concilii Tridentini, nostram 
+          jus<lb break="no" ed="#P" n="79"/>tificationem explicantis, sequentes. 
+          Supponi<lb break="no" ed="#P" n="80"/>mus autem ex dictis justificationem Angelorum
+          <lb ed="#P" n="81"/>fuisse viatorum, et non comprehensorum, quia
+          <lb ed="#P" n="82"/>non fuerunt a principio beati, ut postea 
+          dice<lb break="no" ed="#P" n="83"/>mus. Duplex autem est justificatio, una est, a
+          <lb ed="#P" n="84"/>contrario in contrarium, (ut sic dicam ) id est,
+          <lb ed="#P" n="85"/>per translationem ab statu peccati ad statum
+          <lb ed="#P" n="86"/>Justitiae, qualis est nostra justificatio; alia est,
+          <lb ed="#P" n="87"/>a privatione ad habitum, id est, a sola 
+          caren<lb break="no" ed="#P" n="88"/>tia gratiae, ad infusionem ejus, quae potest
+          <lb ed="#P" n="89"/>esse, vel a carentia, quae tempore praecesserit,
+          <lb ed="#P" n="90"/>vel quae tantum ordine naturae antecedat, seu
+          <lb ed="#P" n="91"/>a carentia, quae in eodem instanti, et ex 
+          natu<lb break="no" ed="#P" n="92"/>ra rei esset, si Deus suam gratiam in illo non
+          <lb ed="#P" n="93"/>infudisset. Et talis fuit prima justificatio 
+          An<lb break="no" ed="#P" n="94"/>gelorum, ut capite praecedenti visum est. 
+          Rur<lb break="no" ed="#P" n="95"/>sus duplex est modus justificandi viatores,
+          <lb ed="#P" n="96"/>unus sine propria illorum dispositione, per
+          <lb ed="#P" n="97"/>solam habitualis gratiae infusionem: quo modo
+          <lb ed="#P" n="98"/>justificantur parvuli in Baptismo, et póssunt
+          <lb ed="#P" n="99"/>justificari adulti, si Deus velit, praesertim 
+          quan<lb break="no" ed="#P" n="100"/>do justificatio non fit ex statu peccati, sed ex
+          <lb ed="#P" n="101"/>simplici negatione gratiae: et maxime quando
+          <lb ed="#P" n="102"/>illa negatio non tempore, sed natura 
+          praece<lb break="no" ed="#P" n="103"/>dit. Alius modus justificationis est per 
+          pro<lb break="no" ed="#P" n="104"/>priam dispositionem, ut nunc fit in peccatore
+          <lb ed="#P" n="105"/>adulto, et esse potest in omni creatura 
+          intel<lb break="no" ed="#P" n="106"/>lectuali utente ratione, etiamsi non ex peccato,
+          <lb ed="#P" n="107"/>sed ex sola naturali carentia gratiae justifice-
+          <pb ed="#P" n="584"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tur. Et hoc est, quod praecipue declarare de
+          <lb ed="#P" n="2"/>justificatione Angelorum intendimus.
+        </p>
+        <p xml:id="szdada-x14708-d1e206">
+          <lb ed="#P" n="3"/>2. Alie suppositiones. — De dispositione ex
+          <lb ed="#P" n="4"/>parte intellectus tria queruntur. — 
+          Supponi<lb break="no" ed="#P" n="5"/>mus deinde, idem esse justificari per propriam
+          <lb ed="#P" n="6"/>dispositionem, quod justificari per proprios
+          <lb ed="#P" n="7"/>actus, quia gratia habitualis non requirit
+          <lb ed="#P" n="8"/>aliam dispositionem, quae sit per modum 
+          ac<lb break="no" ed="#P" n="9"/>tus primi, alias illa esset alius habitus, et sic
+          <lb ed="#P" n="10"/>procederetur in infinitum. Propter quod etiam
+          <lb ed="#P" n="11"/>habitus operativus non requirit dispositionem,
+          <lb ed="#P" n="12"/>quae sit per modum actus primi, sed solum 
+          ac<lb break="no" ed="#P" n="13"/>tus secundi, ut in acquisitis videre licet, et in
+          <lb ed="#P" n="14"/>infusis, si per se soli ratione suorum actuum
+          <lb ed="#P" n="15"/>infundantur: nam ordinarie infunduntur per
+          <lb ed="#P" n="16"/>modum proprietatum consequentium gratiam,
+          <lb ed="#P" n="17"/>quam supponunt ordine naturae, non ut 
+          dis<lb break="no" ed="#P" n="18"/>positionem, sed ut formam, et radicem, et
+          <lb ed="#P" n="19"/>tunc aliam dispositionem non requirunt, nisi
+          <lb ed="#P" n="20"/>quam gratia ipsa postulat, et hoc modo 
+          Ange<lb break="no" ed="#P" n="21"/>lis infusi sunt. De sola igitur dispositione ad
+          <lb ed="#P" n="22"/>gratiam videndum superest. De qua tandem
+          <lb ed="#P" n="23"/>supponimus illam solum consistere in actibus
+          <lb ed="#P" n="24"/>intellectus, et voluntatis, ut Concilium 
+          Tri<lb break="no" ed="#P" n="25"/>dentinum in nostra docuit, eademque est ratio
+          <lb ed="#P" n="26"/>de justificatione Angelorum, quia etiam 
+          jus<lb break="no" ed="#P" n="27"/>tificantur, ut personae ratione seu intellectu
+          <lb ed="#P" n="28"/>utentes, ac liberae, et capaces divinae amicitiae,
+          <lb ed="#P" n="29"/>et conversionis in Deum tanquam in finem 
+          ul<lb break="no" ed="#P" n="30"/>timum supernaturalem. Solum est differentia,
+          <lb ed="#P" n="31"/>quod in nobis, quia ex peccato justificamur,
+          <lb ed="#P" n="32"/>dispositio necessaria est recognitio, et 
+          accusa<lb break="no" ed="#P" n="33"/>tio peccati, ejusque poenitentia, et dolor: qui
+          <lb ed="#P" n="34"/>actus non fuerunt necessarii, imo neque 
+          pos<lb break="no" ed="#P" n="35"/>sibiles in prima Angelorum justificatione, quia
+          <lb ed="#P" n="36"/>non ex peccato justificati sunt. Dicendum 
+          er<lb break="no" ed="#P" n="37"/>go superest de aliis actibus, et prius de 
+          intel<lb break="no" ed="#P" n="38"/>lectu, quia voluntatem praecedit. Tria vero
+          <lb ed="#P" n="39"/>possunt de actu intellectus inquiri, unum est
+          <lb ed="#P" n="40"/>an fuerit necessaria Angelo ad salutem aliqua
+          <lb ed="#P" n="41"/>supernaturalis cognitio in statu viae: aliud est,
+          <lb ed="#P" n="42"/>an illam habuerit in primo instanti, tertium
+          <lb ed="#P" n="43"/>erit an in eodem instanti ordine naturae 
+          prae<lb break="no" ed="#P" n="44"/>cesserit tanquam dispositio ad gratiam.
+        </p>
+        <p xml:id="szdada-x14708-d1e301">
+          <lb ed="#P" n="45"/>3. Primum est, an Angeli habuerint in via
+          <lb ed="#P" n="46"/>cognitionem Dei supernaturulem. — Pars 
+          ne<lb break="no" ed="#P" n="47"/>gativa probatur. — Circa primum, de quo
+          <lb ed="#P" n="48"/>specialiter in hoc capite tractamus, ratio
+          <lb ed="#P" n="49"/>dubitandi esse potest, quia Angelus naturaliter
+          <lb ed="#P" n="50"/>cognoscit Deum perfecte, et sine periculo 
+          er<lb break="no" ed="#P" n="51"/>roris; ergo non est cur illi sit alia cognitio ad
+          <lb ed="#P" n="52"/>salutem necessaria. Maxime vero augetur 
+          dif<lb break="no" ed="#P" n="53"/>ficultas, quia vel illa cognitio est fidei, aut 
+          vi<lb break="no" ed="#P" n="54"/>sionis Dei: non visionis, quia ostensum est in
+          <lb ed="#P" n="55"/>primo instanti non vidisse Deum, idemque de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>toto tempore viae infra ostendemus: 
+          praeter<lb break="no" ed="#P" n="57"/>quam quod visio non posset esse dispositio ad
+          <lb ed="#P" n="58"/>gratiam, sed potius ejus complementum. Nec
+          <lb ed="#P" n="59"/>etiam videtur, potuisse esse fidem, tum quia
+          <lb ed="#P" n="60"/>fides est cognitio infallibilis, et obscura, 
+          om<lb break="no" ed="#P" n="61"/>nem evidentiam excludens: Angelus autem
+          <lb ed="#P" n="62"/>non videtur capax cognitionis ita infallibilis,
+          <lb ed="#P" n="63"/>et obscurae, quia fides necessario fundatur in
+          <lb ed="#P" n="64"/>locutione, Angelus autem evidenter videt,
+          <lb ed="#P" n="65"/>quis sibi loquatur, et consequenter si videt
+          <lb ed="#P" n="66"/>esse Deum, jam ron obscure procedet: si 
+          au<lb break="no" ed="#P" n="67"/>tem videt non esse Deum, non infallibiliter,
+          <lb ed="#P" n="68"/>neque cum certitudine assentit. Tum etiam,
+          <lb ed="#P" n="69"/>quia fides in revelatione fundatur, per quam
+          <lb ed="#P" n="70"/>res revelata in se non videatur: Angelus 
+          au<lb break="no" ed="#P" n="71"/>tem non videtur capax hujus revelationis.
+          <lb ed="#P" n="72"/>Quia revelatio ita obscura quoad rem 
+          revela<lb break="no" ed="#P" n="73"/>tam, non fit per species ipsarum rerum: ergo
+          <lb ed="#P" n="74"/>fit per signa ad placitum significantia, ut sunt
+          <lb ed="#P" n="75"/>verba, vel litterae: Angeli autem non sunt 
+          ca<lb break="no" ed="#P" n="76"/>paces talium signorum, neque per illa 
+          loquun<lb break="no" ed="#P" n="77"/>tur (ut supra vidimus); ergo nec sunt capaces
+          <lb ed="#P" n="78"/>talis revelationis. Tum denique, quia de 
+          ra<lb break="no" ed="#P" n="79"/>tione fidei est, ut sit actus liber: in Angelis
+          <lb ed="#P" n="80"/>autem non potuit esse cognitio 
+          supernatura<lb break="no" ed="#P" n="81"/>lis libera, aliter potuissent etiam tali 
+          revela<lb break="no" ed="#P" n="82"/>tioni non assentire, et in haeresim labi, etiam
+          <lb ed="#P" n="83"/>in primo instanti, si in illo facta est illis talis
+          <lb ed="#P" n="84"/>revelatio. Ergo nulla supernaturalis cognitio
+          <lb ed="#P" n="85"/>potuit esse in Angelis viatoribus necessaria.
+          <lb ed="#P" n="86"/>Probatur haec consequentia, quia praeter fidem,
+          <lb ed="#P" n="87"/>non est aliud genus cognitionis supernaturalis,
+          <lb ed="#P" n="88"/>quod secundum legem ordinariam creaturis
+          <lb ed="#P" n="89"/>communicetur, et ad eorum sanctificationem
+          <lb ed="#P" n="90"/>ordinetur, ut in sequentibus ostendam.
+        </p>
+        <p xml:id="szdada-x14708-d1e405">
+          <lb ed="#P" n="91"/>4. Prima conclusio affirmans de revelatione
+          <lb ed="#P" n="92"/>et cognitione supernaturalis. — Nihilominus
+          <lb ed="#P" n="93"/>communis, et certa doctrina theologorum est,
+          <lb ed="#P" n="94"/>Angelos in via habuisse revelationem 
+          superna<lb break="no" ed="#P" n="95"/>turalium mysteriorum Dei, et per illam 
+          co<lb break="no" ed="#P" n="96"/>gnitionem naturalem eorum mysteriorum 
+          ha<lb break="no" ed="#P" n="97"/>buisse. Ita docet D. Thomas, 1 part., q. 57,
+          <lb ed="#P" n="98"/>art. 5, quaest. 94, art. 1, ad 4, et alii theologi
+          <lb ed="#P" n="99"/>statim allegandi. Et ratio est, quia Angeli non
+          <lb ed="#P" n="100"/>potuerunt cognoscere supernaturalia mysteria
+          <lb ed="#P" n="101"/>sine revelatione divina: sed cognitio talium
+          <lb ed="#P" n="102"/>mysteriorum erat illis ad salutem necessaria ;
+          <lb ed="#P" n="103"/>ergo etiam revelatio erat illis necesseria; ergo
+          <lb ed="#P" n="104"/>habuerunt illam in statu viae. Major late 
+          trac<lb break="no" ed="#P" n="105"/>tata, et probata est in libro decimo. Minor est
+          <lb ed="#P" n="106"/>certa ex illis Scripturae testimoniis, et 
+          Conci<lb break="no" ed="#P" n="107"/>liorum definitionibus, quibus ostenditur, esse
+          <lb ed="#P" n="108"/>hominibus hanc cognitionem necessariam ad
+          <lb ed="#P" n="109"/>salutem, quia quoad hoc eadem est ratio de
+          <lb ed="#P" n="110"/>Angelis: nam omnes ad eamdem beatitudinem
+          <pb ed="#P" n="585"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>supernaturalem ordinantur, et ad eam per
+          <lb ed="#P" n="2"/>suos actus tendunt: non possunt autem in 
+          il<lb break="no" ed="#P" n="3"/>lam tendere, nisi illam cognoscant, et 
+          aucto<lb break="no" ed="#P" n="4"/>rem ejus; ergo necesse est, ut istorum 
+          myste<lb break="no" ed="#P" n="5"/>riorum supernaturalem cognitionem habeant,
+          <lb ed="#P" n="6"/>ac subinde revelationem, quia cognitio 
+          super<lb break="no" ed="#P" n="7"/>naturalis, sine supernaturali manifestatione
+          <lb ed="#P" n="8"/>haberi non potest, ut per se notum est. Unde
+          <lb ed="#P" n="9"/>facile probatur ultima consequentia, quin Deus,
+          <lb ed="#P" n="10"/>qui ex se volebat Angelos salvare, non potuit
+          <lb ed="#P" n="11"/>illis media necessaria ad salutem denegare, sed
+          <lb ed="#P" n="12"/>revelatio haec erat necessaria; ergo dedit illam.
+          <lb ed="#P" n="13"/>Atque de hac cognitione optime intelligi 
+          po<lb break="no" ed="#P" n="14"/>test illud Ezech. 28: 7Tu Cherub plenus 
+          sa<lb break="no" ed="#P" n="15"/>pientia a principic. Magisque ex dicendis 
+          com<lb break="no" ed="#P" n="16"/>probabitur.
+        </p>
+        <p xml:id="szdada-x14708-d1e490">
+          <lb ed="#P" n="17"/>5. Secunda conclusio de auxilio 
+          supernatu<lb break="no" ed="#P" n="18"/>rale ad cognitionem. — Secundo, dicendum est
+          <lb ed="#P" n="19"/>non solam generationem, sed etiam auxilium
+          <lb ed="#P" n="20"/>gratiae fuisse Angelis necessarium ad illam 
+          su<lb break="no" ed="#P" n="21"/>pernaturalem cognitionem, quae illis fuit in
+          <lb ed="#P" n="22"/>via necessaria ad salutem. Censeo esse 
+          conclu<lb break="no" ed="#P" n="23"/>sionem certum ex illo principio posito in 
+          ca<lb break="no" ed="#P" n="24"/>pite primo, quod auxilium gratiae fuit Angelis
+          <lb ed="#P" n="25"/>necessarium ad salutem. Et declaratur, nam
+          <lb ed="#P" n="26"/>duobus modis potest cognitio esse 
+          superna<lb break="no" ed="#P" n="27"/>turalis. Primo, ex parte materialis objecti:
+          <lb ed="#P" n="28"/>secundo ex parte ipsiusmet actus cognoscendi,
+          <lb ed="#P" n="29"/>seu ex formali objecto, seu ex parte principii,
+          <lb ed="#P" n="30"/>haec enim tria, vel in idem recidunt, vel sese
+          <lb ed="#P" n="31"/>comitantur, ut ex materia de Gratia suppono.
+          <lb ed="#P" n="32"/>Cognitio ergo supernaturalis primo modo 
+          An<lb break="no" ed="#P" n="33"/>gelis necessaria est ad salutem, ut in priori
+          <lb ed="#P" n="34"/>assertione probatum est, sola tamen illa 
+          super<lb break="no" ed="#P" n="35"/>naturalitas cognitionis non sufficit. Quia etiam
+          <lb ed="#P" n="36"/>daemones habentcognitionem supernaturalium
+          <lb ed="#P" n="37"/>mysteriorum, quae non suflicit ad salutem,
+          <lb ed="#P" n="38"/>etiam ex parte intellectus, seu cognitionis.
+          <lb ed="#P" n="39"/>Oportet ergo, ut illa cognitio fuerit 
+          superna<lb break="no" ed="#P" n="40"/>turalis, etiam posteriori modo. Probatur 
+          pri<lb break="no" ed="#P" n="41"/>mo, quia sola revelatio solum habet rationem
+          <lb ed="#P" n="42"/>doctrinae, ac sola doctrina non suffticit ad 
+          sa<lb break="no" ed="#P" n="43"/>lutem, seu ad cognitionem salutarem; ergo
+          <lb ed="#P" n="44"/>nec sola revelatio sufticit, sed ultra illam est
+          <lb ed="#P" n="45"/>necessaria gratia auxilians, ac subinde est 
+          ne<lb break="no" ed="#P" n="46"/>cessarius actus in se supernaturalhs, et ex 
+          mo<lb break="no" ed="#P" n="47"/>tivo supernaturali. Totus discursus fundatus
+          <lb ed="#P" n="48"/>est in doctrina Augustini toto libro de Gratia
+          <lb ed="#P" n="49"/>Christi, et saepissime in aliis locis: habetque
+          <lb ed="#P" n="50"/>eamdem vim in Angelis, quam in hominibus,
+          <lb ed="#P" n="51"/>quia ex hac parte non minus est illis 
+          necessa<lb break="no" ed="#P" n="52"/>ria. Secundo, quia alias, si posita revelatione,
+          <lb ed="#P" n="53"/>cognitio, et assensio esset ex solo naturali 
+          lu<lb break="no" ed="#P" n="54"/>mine, vel ex solo libero arbitrio Angeli, 
+          ini<lb break="no" ed="#P" n="55"/>tium propriae salutis esset ab ipso Angelo, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ita gratia in illo non esset gratia, neque gratis
+          <lb ed="#P" n="57"/>daretur, sed retribueretur ei, ut in nobis 
+          Au<lb break="no" ed="#P" n="58"/>gustinus argumentatur. Tertio, quia cognitio
+          <lb ed="#P" n="59"/>naturalis de objecto supernaturali, non potest
+          <lb ed="#P" n="60"/>esse nisi valde imperfecta, et improportionata,
+          <lb ed="#P" n="61"/>qualis est fides acquisita, sive in homine, sive
+          <lb ed="#P" n="62"/>in Angelo. Denique, quia amor charitatis in
+          <lb ed="#P" n="63"/>Angelis viatoribus fuit in te supernaturalis, et
+          <lb ed="#P" n="64"/>per se infusus, nam de Angelis etiam illud 
+          ve<lb break="no" ed="#P" n="65"/>rum est, Charitas Dei diffusa est in cordibus
+          <lb ed="#P" n="66"/>nostris, ut ex Augustino supra retulimus: sed
+          <lb ed="#P" n="67"/>cognitio debet esse proportionata amori; ergo
+          <lb ed="#P" n="68"/>etiam cognitio debuit esse in se, et ex parte
+          <lb ed="#P" n="69"/>principii naturalis. Eademque ratio fieri potest
+          <lb ed="#P" n="70"/>de spe, ut statim dicam.
+        </p>
+        <p xml:id="szdada-x14708-d1e612">
+          <lb ed="#P" n="71"/>6. Tertia conclusio de cognitione per fidem.—
+          <lb ed="#P" n="72"/>Tertio, ut hoc distinctius probetur, dicendum
+          <lb ed="#P" n="73"/>est, Angelos per fidem divinam et 
+          supernatu<lb break="no" ed="#P" n="74"/>ralem in via ambulasse: eamque fuisse illis ad
+          <lb ed="#P" n="75"/>salutem necessariam. Ita docet D. Thomas 2,
+          <lb ed="#P" n="76"/>2. quaest. 5, art. 1, et ibi omnes scribentes, et
+          <lb ed="#P" n="77"/>quaest. 18, de Veritate, art. 2, Paludanus, in
+          <lb ed="#P" n="78"/>3, dist. 23, quaest. 4, cum quadam limitatione
+          <lb ed="#P" n="79"/>infra tractanda. Generalius ibi Palacino, d. 9,
+          <lb ed="#P" n="80"/>et Carthusianus 2, dist. 5, quaest. 1, Albertus,
+          <lb ed="#P" n="81"/>2 part. Summ., q. 20, memb. 2, Viguerius, in
+          <lb ed="#P" n="82"/>Instit., cap. 20, S 1, vers. 4, Turrecremata,
+          <lb ed="#P" n="83"/>lib. 1, de Eccles., cap. 25, num. 1, et alii 
+          mo<lb break="no" ed="#P" n="84"/>derni, inter quos hoc optime docuit Ruardus,
+          <lb ed="#P" n="85"/>art. 2, non longe a principio, S Est tamen,
+          <lb ed="#P" n="86"/>dicens, Non sclum hominibus,sed etiam Angelis
+          <lb ed="#P" n="87"/>necessarium fuit, ut ex spiritu fidei nascerentur
+          <lb ed="#P" n="88"/>fli Dei. Nam immobiles et indispensabiles
+          <lb ed="#P" n="89"/>sunt, sequunturque naturam gratie filiorum
+          <lb ed="#P" n="90"/>Dei, etiam in Angelis hae ordinationes. Qui non
+          <lb ed="#P" n="91"/>credit, jam judicatus est, quia non credit in 
+          no<lb break="no" ed="#P" n="92"/>mine unigeniti Filii Dei. Qui non crediderit,
+          <lb ed="#P" n="93"/>condemnabitur. Qui incredulus est Filio, non
+          <lb ed="#P" n="94"/>videbit vitam. Idem repetit in art. S, S Ut 
+          igi<lb break="no" ed="#P" n="95"/>tur a peccatis, post medium, ubi etiam indueit
+          <lb ed="#P" n="96"/>illud: Sine fide impossibile est placere Deo: nam
+          <lb ed="#P" n="97"/>hoc, ait, quamcumque creaturan, etiam 
+          angc<lb break="no" ed="#P" n="98"/>licam, non videntem Deum comprehendit. Wem
+          <lb ed="#P" n="99"/>illud: Gratia estis salvati per fidem, et hoc non
+          <lb ed="#P" n="100"/>ex colis, domun enim Dei est, ut ne quis 
+          glo<lb break="no" ed="#P" n="101"/>rietur, Angelis commune esse dicit, quia 
+          nul<lb break="no" ed="#P" n="102"/>lus etiam sanctorum Angelorum gloriari 
+          po<lb break="no" ed="#P" n="103"/>test. Idemque dicit inferius S Exv quibus, de
+          <lb ed="#P" n="104"/>illa sententia Pauli 1, Cor. 4: Quid habes, quod
+          <lb ed="#P" n="105"/>non accepisti? quod si accepisti, quid gloriaris
+          <lb ed="#P" n="106"/>quasi non acceperis? Eademque ratio est de
+          <lb ed="#P" n="107"/>aliis similibus, ut est illud ad Hebr. 10, Habac.
+          <lb ed="#P" n="108"/>2: Justus ea fide vavit.
+        </p>
+        <p xml:id="szdada-x14708-d1e697">
+          <lb ed="#P" n="109"/>7. Probatur conclusio primo em Scriptura.
+          <lb ed="#P" n="110"/>— Optimus vero locus est ad Rom. 10, ubi
+          <pb ed="#P" n="586"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Paulus fidei necessitatem ita probat: Omnis
+          <lb ed="#P" n="2"/>qui invocacerit nomen Domini, salvus erit - sed
+          <lb ed="#P" n="3"/>quomodo invocabunt, in quem non crediderunt?
+          <lb ed="#P" n="4"/>quomodo credent ei, quem non audierun:? Quae
+          <lb ed="#P" n="5"/>ratio attente spectata, etiam in Angelis 
+          proce<lb break="no" ed="#P" n="6"/>dit, nam etiam est illis necessaria ad salutem
+          <lb ed="#P" n="7"/>et meritum, invocatio Dei supernaturalis; ergo
+          <lb ed="#P" n="8"/>etiam fides. Praeterea valde ad eamdem rem
+          <lb ed="#P" n="9"/>faciunt verba Pauli 2, Cor. 5: Dum sumus in
+          <lb ed="#P" n="10"/>corpore, peregrinamur a Domino. per fidem enim
+          <lb ed="#P" n="11"/>ambulamus, et non per speciem. Nam licet 
+          lo<lb break="no" ed="#P" n="12"/>quatur de hominibus in corpore mortali 
+          de<lb break="no" ed="#P" n="13"/>gentibus, tamen illud materiale est (ut sic rem
+          <lb ed="#P" n="14"/>explicem) formaliter autem considerandum est
+          <lb ed="#P" n="15"/>loqui de viatoribus, quos dicit per fidem 
+          am<lb break="no" ed="#P" n="16"/>bulare, et hanc fidem opponere visioni: tacite
+          <lb ed="#P" n="17"/>docens omnes viatores, dum ad speciem non
+          <lb ed="#P" n="18"/>perveniunt, per fidem ambulare. Unde solvitur
+          <lb ed="#P" n="19"/>objectio, quia in his regulis non 
+          comprehendi<lb break="no" ed="#P" n="20"/>tur Christus; ergo nec Angeli. Negatur etenim
+          <lb ed="#P" n="21"/>consequentia, tum quia Christus erat 
+          compre<lb break="no" ed="#P" n="22"/>hensor, et ideo non erat capax fidei: tum etiam
+          <lb ed="#P" n="23"/>quia Christus erat per se gratus, sanctus et
+          <lb ed="#P" n="24"/>placens Deo: Angeli vero sunt purae creaturae,
+          <lb ed="#P" n="25"/>fueruntque aliquaudo puri viatores, et ideo
+          <lb ed="#P" n="26"/>necessarium eis fuit per fidem ambulare et
+          <lb ed="#P" n="27"/>placere Deo. Neque est dubium, quin dicta
+          <lb ed="#P" n="28"/>testimonia de propria fide loquantur, ut patet
+          <lb ed="#P" n="29"/>evidenter ex Paulo, sic verba illa exponente,
+          <lb ed="#P" n="30"/>definiendo fidem ad Hebr. 11, et alibi dicente,
+          <lb ed="#P" n="31"/>per hanc fidem intellectum captivari in 
+          obse<lb break="no" ed="#P" n="32"/>quium Dei.
+        </p>
+        <p xml:id="szdada-x14708-d1e778">
+          <lb ed="#P" n="33"/>8. Ratione morali suadetur secundo assertio.
+          <lb ed="#P" n="34"/>— Ratione morali hoc ipsum probari potest,
+          <lb ed="#P" n="35"/>quia non minus oportebat Angelos per fidem
+          <lb ed="#P" n="36"/>justificari et ad visionem pervenire, quam 
+          ho<lb break="no" ed="#P" n="37"/>mines: tum quia etiam decebat, Angelos 
+          cap<lb break="no" ed="#P" n="38"/>tivare intellectus suos in obsequium Dei. Tum
+          <lb ed="#P" n="39"/>etiam, quia visio quadam peculiari ratione 
+          fi<lb break="no" ed="#P" n="40"/>dei respondet, tanquam praemium illi 
+          speciah<lb break="no" ed="#P" n="41"/>ter proportionatum. Tum praeterea, quia fides
+          <lb ed="#P" n="42"/>est dispositio maxime accommodata, per quam
+          <lb ed="#P" n="43"/>paulatim ad scientiam pervenitur, quia oportet
+          <lb ed="#P" n="44"/>addiscentem credere, Angel vero respectu
+          <lb ed="#P" n="45"/>scientie clarae Dei, prout in se est, quasi 
+          ad<lb break="no" ed="#P" n="46"/>discentes in via erant. Tum denique, quia 
+          An<lb break="no" ed="#P" n="47"/>gelis, qui non videbant, necessarium erat per
+          <lb ed="#P" n="48"/>firmam spem tendere in beatitudinem: fides
+          <lb ed="#P" n="49"/>autem est fundamentum spei, nam est 
+          substan<lb break="no" ed="#P" n="50"/>Lia rerum sperandarum, teste Paulo; ergo etiam
+          <lb ed="#P" n="51"/>necessarium eis fuit per fidem ambulare.
+        </p>
+        <p xml:id="szdada-x14708-d1e823">
+          <lb ed="#P" n="52"/>9. Ratione speculativa confir natur tertio 
+          ea<lb break="no" ed="#P" n="53"/>d^m conclusio. — Propria vero ratione 
+          specula<lb break="no" ed="#P" n="54"/>tiva idem probari potest, quia illa cognitio
+          <lb ed="#P" n="55"/>Angelorum, per quam in via justificati sunt et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>meruerunt, supernaturalis erat, ut ostendimns;
+          <lb ed="#P" n="57"/>ergo erat infallibilus, ac omnino certa, et non
+          <lb ed="#P" n="58"/>erat clara et evidens; ergo erat obscura et 
+          cer<lb break="no" ed="#P" n="59"/>ta; ergo erat fides. Prima consequentia 
+          proba<lb break="no" ed="#P" n="60"/>tur, tum quia supernaturalis cognitio, cum sit
+          <lb ed="#P" n="61"/>ex peculiari infusione divina, non potest esse
+          <lb ed="#P" n="62"/>falsitati exposita, cum verbum Dei certissimum
+          <lb ed="#P" n="63"/>esse oporteat. Tum etiam, quia cognitio 
+          in<lb break="no" ed="#P" n="64"/>certa non potest fundare firmam spem, nec
+          <lb ed="#P" n="65"/>charitatem, omnem naturalem amorem 
+          supe<lb break="no" ed="#P" n="66"/>rantem. Antecedens vero probatur, primo quia
+          <lb ed="#P" n="67"/>si talis cognitio esset evidens, vel esset 
+          eviden<lb break="no" ed="#P" n="68"/>tia rei cognitionis in se, vel evidentia solius
+          <lb ed="#P" n="69"/>justificantis. Primum dici non potest. tum quia
+          <lb ed="#P" n="70"/>talis cognitio esset quaedam scientia talium 
+          re<lb break="no" ed="#P" n="71"/>rum supernaturalis, ac per se infusa: haec 
+          au<lb break="no" ed="#P" n="72"/>temnon est Angelis viatoribus debita, nec etiam
+          <lb ed="#P" n="73"/>est statui viatorum conveniens, Christo enim
+          <lb ed="#P" n="74"/>data est, tum propter excellentiam personae
+          <lb ed="#P" n="75"/>suae, tum etiam, quia semper fuit 
+          comprehen<lb break="no" ed="#P" n="76"/>sor. Et fortasse comprehensoribus datur ad
+          <lb ed="#P" n="77"/>abundantiam perfectionis, ut per modum 
+          pro<lb break="no" ed="#P" n="78"/>prietatis consequentis essentialem 
+          beatitudi<lb break="no" ed="#P" n="79"/>nem. Viatoribus autem non est accommodata,
+          <lb ed="#P" n="80"/>tum quia in ea non est meritum, sicut est in
+          <lb ed="#P" n="81"/>fide, et ita non habet rationem principii (ut
+          <lb ed="#P" n="82"/>sic dicam) sed potius termini. Tum praeterea,
+          <lb ed="#P" n="83"/>quia multa oportuit Angelos credere, quae sub
+          <lb ed="#P" n="84"/>talem scientiam abstractivam, vel cadere non
+          <lb ed="#P" n="85"/>possunt, ut sunt divinae promissiones, et 
+          for<lb break="no" ed="#P" n="86"/>tasse aliqua supernaturalia mysteria, vel licet
+          <lb ed="#P" n="87"/>cadere possint, non expedit, ut cognitio 
+          pro<lb break="no" ed="#P" n="88"/>priae justitiae, seu gratiae, ut in libro secundo
+          <lb ed="#P" n="89"/>tactum est, et in libro septimo iterum 
+          attinge<lb break="no" ed="#P" n="90"/>tur. Secundum autem membrum de evidentia
+          <lb ed="#P" n="91"/>justificantis, respondendo ad difficultatem in
+          <lb ed="#P" n="92"/>principio positam excludetur, quoniam Angeli
+          <lb ed="#P" n="93"/>vel talem evidentiam non habuerunt, vel non
+          <lb ed="#P" n="94"/>tali modo, ut fidem excluderet.
+        </p>
+        <p xml:id="szdada-x14708-d1e921">
+          <lb ed="#P" n="95"/>10. Restat ergo, ut illa cognitio 
+          supernatu<lb break="no" ed="#P" n="96"/>ralis, quam Angeli in via habuerunt, non nisi
+          <lb ed="#P" n="97"/>fides esse potuerit. Dices, esse potuisse lumen
+          <lb ed="#P" n="98"/>propheticum. Respondeo imprimis, lumen 
+          pro<lb break="no" ed="#P" n="99"/>pheticum per se loquendo, non dari propter
+          <lb ed="#P" n="100"/>sanctificationem recipientis, sed propter bonum
+          <lb ed="#P" n="101"/>aliorum, et ideo inter gratias gratis datas 
+          com<lb break="no" ed="#P" n="102"/>putatur, et per illud revelari solent multa, quae
+          <lb ed="#P" n="103"/>ad salutem ejus, cui revelantur, non pertinent,
+          <lb ed="#P" n="104"/>sed ad alios fines divinae providentiae. Ideoque
+          <lb ed="#P" n="105"/>non datur per modum habitus permanentis,
+          <lb ed="#P" n="106"/>sed revelationis transeuntis. Cognitio autem
+          <lb ed="#P" n="107"/>supernaturalis Angelis in statu viae necessaria
+          <lb ed="#P" n="108"/>pertinebat ad gratiam gratum facientem 
+          tan<lb break="no" ed="#P" n="109"/>quam fundamentum ejus, et ideo dari debuit
+          <lb ed="#P" n="110"/>per modum hab:tus de se permanentis, ideo-
+          <pb ed="#P" n="587"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>que dici non potest, ad lumen propheticum
+          <lb ed="#P" n="2"/>pertinuisse. Et deinde lumen propheticum, vel
+          <lb ed="#P" n="3"/>est evidens, vel obscurum: si evidens, non est
+          <lb ed="#P" n="4"/>fides, sed pertinet ad scientiam transeunter,
+          <lb ed="#P" n="5"/>seu per modum actus collatam: si vero est
+          <lb ed="#P" n="6"/>obscurum, non distinguitur essentialiter a fide,
+          <lb ed="#P" n="7"/>sed tantum in modo, quo per modum specialis
+          <lb ed="#P" n="8"/>illuminationis, seu revelationis confertur, et
+          <lb ed="#P" n="9"/>ordinarie de objecto materiali per se non 
+          per<lb break="no" ed="#P" n="10"/>tinente ad salutem, nec al communem fidem.
+          <lb ed="#P" n="11"/>Cognitio autem Angelorum non erat evidens
+          <lb ed="#P" n="12"/>in via, ut ostensum est; ergo essentialiter erat
+          <lb ed="#P" n="13"/>fides, et alioqui non est collata, nisi de rebus
+          <lb ed="#P" n="14"/>per se pertinentibus ad propriam salutem, et
+          <lb ed="#P" n="15"/>per modum generalis revelationis omnibus
+          <lb ed="#P" n="16"/>propositae; ergo nec accidentaliter dici potest
+          <lb ed="#P" n="17"/>prophetia, sed propria fides.
+        </p>
+        <p xml:id="szdada-x14708-d1e999">
+          <lb ed="#P" n="18"/>11. Quarta conclusio. — Praedicta cognitio
+          <lb ed="#P" n="19"/>fuit etiam actualis in instanti creationis. —
+          <lb ed="#P" n="20"/>Ultimo dicendum est, probabilius videri 
+          Ange<lb break="no" ed="#P" n="21"/>los recepisse hanc fidem in primo instanti
+          <lb ed="#P" n="22"/>creationis suae, non in habitu tantum, sed 
+          e<lb break="no" ed="#P" n="23"/>tiam in actu. De habitu jam dictum est, quia
+          <lb ed="#P" n="24"/>gratia non infunditur sine virtutibus, 
+          praeser<lb break="no" ed="#P" n="25"/>tim theologalibus, quarum prima via 
+          genera<lb break="no" ed="#P" n="26"/>tionis est fides. Cum autem dicimus recepisse
+          <lb ed="#P" n="27"/>Angelos actum hujus fidei in primo instanti,
+          <lb ed="#P" n="28"/>non id intelligimus de actu adaequato (ut sic
+          <lb ed="#P" n="29"/>dicam) toti materiae illius fidei, ita ut Angeli
+          <lb ed="#P" n="30"/>in primo instanti cognoverint, quidquid per
+          <lb ed="#P" n="31"/>illam fidem cognoscere debuerunt aut 
+          potue<lb break="no" ed="#P" n="32"/>runt, de hoc enim in capite sequenti 
+          videbi<lb break="no" ed="#P" n="33"/>mus. Solum ergo intelligimus, aliquid super
+          <lb ed="#P" n="34"/>naturale in primo instanti suae creationis 
+          co<lb break="no" ed="#P" n="35"/>gnovisse et credidisse. In hoc ergo sensu 
+          as<lb break="no" ed="#P" n="36"/>sertio sumitur ex D. Thoma, dicta quaest. 62 et
+          <lb ed="#P" n="37"/>63, dicente, Angelos se convertisse in Deum in
+          <lb ed="#P" n="38"/>primo instanti, conversione utique gratuita
+          <lb ed="#P" n="39"/>supernatural, quae cognitionem ejusdem 
+          ordi<lb break="no" ed="#P" n="40"/>nis supponit. Et idem sentiunt omnes, qui
+          <lb ed="#P" n="41"/>dicunt, omnes Angelos fuisse sanctificatos per
+          <lb ed="#P" n="42"/>propriam dispositionem (quod esse verissimum
+          <lb ed="#P" n="43"/>infra dicemus): et in illa dispositione 
+          necessa<lb break="no" ed="#P" n="44"/>rio includitur actus fidei, quia et est dispositio
+          <lb ed="#P" n="45"/>ex parte intellectus, et est fundamentum omnis
+          <lb ed="#P" n="46"/>bonae dispositionis voluntatis. Unde est, etiam
+          <lb ed="#P" n="47"/>optima congruentia, quia fides voluntaria est:
+          <lb ed="#P" n="48"/>unde non expedit alicui utenti ratione, et 
+          vo<lb break="no" ed="#P" n="49"/>Iuntate libera infundi fidem voluntario 
+          con<lb break="no" ed="#P" n="50"/>sensu ejus; ergo nec Angelis debuit infundi
+          <lb ed="#P" n="51"/>habitus fidei, nisi voluntario illorum consensu
+          <lb ed="#P" n="52"/>interveniente, seu ordine naturae antecedente,
+          <lb ed="#P" n="53"/>qui consensus non praestatur, nisi per actualem
+          <lb ed="#P" n="54"/>fidem. Probatur consequentia, quia Angelus in
+          <lb ed="#P" n="55"/>primo instanti perfectius ratione uti poterat,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quam homo in discursu vitae uti possit; ergo si
+          <lb ed="#P" n="57"/>DEUS legem illam cum hominibus ratione
+          <lb ed="#P" n="58"/>utentibus servat, multo magis credendum est
+          <lb ed="#P" n="59"/>cum Angelis servasse.
+        </p>
+        <p xml:id="szdada-x14708-d1e1095">
+          <lb ed="#P" n="60"/>12. Objectio. — Solutio. — Dices, quomodo
+          <lb ed="#P" n="61"/>poterat praecedere voluntas libera ad 
+          infusio<lb break="no" ed="#P" n="62"/>nem fidei, cum fides sit primus actus 
+          superna<lb break="no" ed="#P" n="63"/>turalis intellectus: et voluntas necessario 
+          sup<lb break="no" ed="#P" n="64"/>ponat cognitionem in qua fundetur? 
+          Respon<lb break="no" ed="#P" n="65"/>deo difficultatem hanc non in solo primo
+          <lb ed="#P" n="66"/>instanti, sed absolute in primo actu fidei 
+          pro<lb break="no" ed="#P" n="67"/>cedere, sive in primo, sive in secundo instanti
+          <lb ed="#P" n="68"/>habeatur, nec solum in Angelis, sed etiam in
+          <lb ed="#P" n="69"/>hominibus posse proponi. Dicendum ergo est,
+          <lb ed="#P" n="70"/>commune esse Angelis, et hominibus, servata
+          <lb ed="#P" n="71"/>proportione, ut fidem ex auditu concipiant,
+          <lb ed="#P" n="72"/>juxta illud Pauli ad Rom. 10, Fides ec auditu.
+          <lb ed="#P" n="73"/>Praecedit ergo auditus fidei, vel tempore, vel
+          <lb ed="#P" n="74"/>natura, ipsum credendi assensum: auditus 
+          au<lb break="no" ed="#P" n="75"/>tem fidei non fit sine cognitione aliqua, per
+          <lb ed="#P" n="76"/>quam et apprehendantur, seu concipiantur
+          <lb ed="#P" n="77"/>res credendae, et praeterea credibiles 
+          judicen<lb break="no" ed="#P" n="78"/>tur: quia non potest quis credere, nisi prius
+          <lb ed="#P" n="79"/>judicet esse credibile, quod credit. Et haec 
+          co<lb break="no" ed="#P" n="80"/>gnitio, quae ordine naturae judicium fidei 
+          prae<lb break="no" ed="#P" n="81"/>cedit, sufficit ut voluntas credendi fundetur,
+          <lb ed="#P" n="82"/>et fidem ipsam praecedat. Et hic ordo in nobis
+          <lb ed="#P" n="83"/>servatur, mediante sensihili auditu, per quem
+          <lb ed="#P" n="84"/>nobis res credendae proponuntur, et signis, vel
+          <lb ed="#P" n="85"/>aliis modis evidenter credibiles fiunt. Idem
+          <lb ed="#P" n="86"/>ergo servari potest in Angelis per auditum
+          <lb ed="#P" n="87"/>intellectualem, et per vocem Dei loquentis in
+          <lb ed="#P" n="88"/>ipsis spirituali locutione, faciendo efficaciter,
+          <lb ed="#P" n="89"/>ut concipiant tale objectum, tanquam sibi 
+          pro<lb break="no" ed="#P" n="90"/>positum sub testimonio divino, et credibile, ac
+          <lb ed="#P" n="91"/>credendum ex divina auctoritate. Nec enim est
+          <lb ed="#P" n="92"/>difficile Deo, ita immutare intellectum Angeli,
+          <lb ed="#P" n="93"/>vel per species inditas ordinis naturalis, ita
+          <lb ed="#P" n="94"/>illis utendo, easque componendo, ut ad talem
+          <lb ed="#P" n="95"/>apprehensionem sufficiant, vel si necesse sit,
+          <lb ed="#P" n="96"/>novas species infundendo: simulque ita 
+          intel<lb break="no" ed="#P" n="97"/>lectum immutando, ut credibile fiat Deum
+          <lb ed="#P" n="98"/>esse, qui loquitur, et testificatur.
+        </p>
+        <p xml:id="szdada-x14708-d1e1182">
+          <lb ed="#P" n="99"/>13. Confirmatur. — Unde quod Augustinus
+          <lb ed="#P" n="100"/>dixit, lib. de Praedest. sanct., cap. 2: Quod
+          <lb ed="#P" n="101"/>non cvideat, prius esse cogitare, quam credere
+          <lb ed="#P" n="102"/>nullus quippe credit aliquid, nisi prius 
+          cogita<lb break="no" ed="#P" n="103"/>cerit esse credendum, etiam in Angelis locum
+          <lb ed="#P" n="104"/>habet. Est tamen differentia inter nos, et 
+          An<lb break="no" ed="#P" n="105"/>gelos, quod nos ordinarie, et ex natura rei 
+          in<lb break="no" ed="#P" n="106"/>digemus tempore, et discursu, ut fidei 
+          propo<lb break="no" ed="#P" n="107"/>sitionem, et credibilitatem apprehendamus
+          <lb ed="#P" n="108"/>sufficienter, et prudenter judicemus: Angelus
+          <lb ed="#P" n="109"/>autem simul, et in momento hoc totum facere
+          <lb ed="#P" n="110"/>potest, et fidem voluntarie praestare. Quod op-
+          <pb ed="#P" n="588"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>time declarant verba, quae ibi Augustinus 
+          sub<lb break="no" ed="#P" n="2"/>jungit, cum proportione applicata: Quamcis
+          <lb ed="#P" n="3"/>ait. raptim, quamvis celerrime voluntatem 
+          que<lb break="no" ed="#P" n="4"/>dam cogitationes antevolent, moeque illa ita
+          <lb ed="#P" n="5"/>sequatur, ut conjunctissima comitetur, necesse
+          <lb ed="#P" n="6"/>est tamen, ut omnia, quae creduntur, 
+          preeve<lb break="no" ed="#P" n="7"/>niente cogitatione credantur. Totum ergo hoc
+          <lb ed="#P" n="8"/>in Angelo, summa celeritate fieri potest, id
+          <lb ed="#P" n="9"/>est. in instanti: et ideo hoc nihil obstat, quo
+          <lb ed="#P" n="10"/>minus Angeli in primo instanti actualem fidem
+          <lb ed="#P" n="11"/>habere potuerint. Et confirmatur, quia docuit
+          <lb ed="#P" n="12"/>Angelum in primo instanti simul naturam et
+          <lb ed="#P" n="13"/>actualem ejus operationem accipere, et non
+          <lb ed="#P" n="14"/>solum incipere aptum ad intelligendum, sed
+          <lb ed="#P" n="15"/>etiam actu intelligentem. Ergo in ordine 
+          gra<lb break="no" ed="#P" n="16"/>tiae non debuit in minori perfectione produci:
+          <lb ed="#P" n="17"/>accepit ergo gratiam, et operationem ejus, et
+          <lb ed="#P" n="18"/>non tantum habilitatem credendi, sed etiam
+          <lb ed="#P" n="19"/>actualem fidem. Denique potest hoc 
+          confir<lb break="no" ed="#P" n="20"/>mari, quia verisimile est, malos Angelos in vi
+          <lb ed="#P" n="21"/>babuisse aliquem actum fidei, estque valde
+          <lb ed="#P" n="22"/>verisimile, non habuisse illum in secundo 
+          in<lb break="no" ed="#P" n="23"/>stanti (ut postea videbimus); ergo habuerunt
+          <lb ed="#P" n="24"/>in primo; ergo idem de omnibus censendum
+          <lb ed="#P" n="25"/>est. Quarum autem rerum fuerit illa fides, 
+          ca<lb break="no" ed="#P" n="26"/>pite sequenti explicabimus.
+        </p>
+        <p xml:id="szdada-x14708-d1e1271">
+          <lb ed="#P" n="27"/>14. Respondetur argumentis opposite 
+          sen<lb break="no" ed="#P" n="28"/>tentice in n. 3. — Circa rationes ergo dubitandi
+          <lb ed="#P" n="29"/>in principio positas, imprimis advertimus,
+          <lb ed="#P" n="30"/>illas non tantum de primo instanti, sed etiam
+          <lb ed="#P" n="31"/>de toto tempore viae procedere, et ideo 
+          mino<lb break="no" ed="#P" n="32"/>ris efficaciae esse posse. Deinde ad principalem
+          <lb ed="#P" n="33"/>rationem dicitur, ad summum probare, non
+          <lb ed="#P" n="34"/>fuisse ita necessariam Angelis fidem, de his,
+          <lb ed="#P" n="35"/>quod de Deo, vel de seipsis, vel de rebus aliis
+          <lb ed="#P" n="36"/>naturahter cognoscere possunt, sicut est nobis,
+          <lb ed="#P" n="37"/>quia illi facilius, et evidentius possunt illa 
+          co<lb break="no" ed="#P" n="38"/>gnoscere. Nihilominus per se, ac principaliter,
+          <lb ed="#P" n="39"/>fuit illis necessaria fides de mysteriis 
+          superna<lb break="no" ed="#P" n="40"/>turalibus: consequenter vero etiam factum
+          <lb ed="#P" n="41"/>est, ut ipsa naturalia firmius, et altiori modo
+          <lb ed="#P" n="42"/>cognoscerent. (Quia hoc ad perfectionem 
+          per<lb break="no" ed="#P" n="43"/>tinet, et consequenter necessarium est ad
+          <lb ed="#P" n="44"/>ipsam fidem supernaturalem, ut ex propria
+          <lb ed="#P" n="45"/>materia suppono, et in capite sequenti 
+          attin<lb break="no" ed="#P" n="46"/>gam.
+        </p>
+        <p xml:id="szdada-x14708-d1e1318">
+          <lb ed="#P" n="47"/>15. Circa prinam impugnationem queeritur,
+          <lb ed="#P" n="48"/>an revelatio angelica fuerit evidens in 
+          testift<lb break="no" ed="#P" n="49"/>cante. — Prima sententia affirmativa, que
+          <lb ed="#P" n="50"/>er hoc capite negat in Angelis fidem. — Ad
+          <lb ed="#P" n="51"/>alteram vero rationem respondetur, hanc 
+          su<lb break="no" ed="#P" n="52"/>pernaturalem cognitionem Angelorum, non
+          <lb ed="#P" n="53"/>fuisse visionem, nec fuisse evidentem de rebus
+          <lb ed="#P" n="54"/>ipsis revelatis, sed fuisse fidem divino 
+          testi<lb break="no" ed="#P" n="55"/>conio innixam, ac proinde fuisse certam, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>obscuram, sicut dictum est. In prima vero
+          <lb ed="#P" n="57"/>impugnatione contra hoc facta, petitur vulgata
+          <lb ed="#P" n="58"/>quaestio, an fides angelica fuerit evidens in 
+          tes<lb break="no" ed="#P" n="59"/>tificante, et consequenter an haec evidentia 
+          fi<lb break="no" ed="#P" n="60"/>dei repugnet. Multi enim theologi 
+          supponen<lb break="no" ed="#P" n="61"/>tes, revelationem factam Angelis viatoribus,
+          <lb ed="#P" n="62"/>fuisse evidentem quoad Deum revelantem, et
+          <lb ed="#P" n="63"/>hanc evidentiam repugnare fidei: 
+          consequen<lb break="no" ed="#P" n="64"/>ter negant, illam cognitionem fuisse fidem,
+          <lb ed="#P" n="65"/>sed altiorem intelligentiam, seu scientiam,
+          <lb ed="#P" n="66"/>non intuitivam, seu per iutrinseca media, sec
+          <lb ed="#P" n="67"/>per extrinsecum testimonium primae veritatis.
+          <lb ed="#P" n="68"/>Quomodo dicitur Christus habuisse scientiam
+          <lb ed="#P" n="69"/>infusam aliquorum mysteriorum, quae non
+          <lb ed="#P" n="70"/>nisi per testimonium evidens Dei revelantis
+          <lb ed="#P" n="71"/>agnoscebat. ita de Angelis opinatus est 
+          Duran<lb break="no" ed="#P" n="72"/>dus 3, dist. 23, q. 9, num. 12 et 13, ubi etiam
+          <lb ed="#P" n="73"/>Gabriel in ultimis verbis quaestionis 2 negat,
+          <lb ed="#P" n="74"/>Angelos in via fidem habuisse. Addit vero, a
+          <lb ed="#P" n="75"/>quidain volunt, in quo judicat non omnmo ex
+          <lb ed="#P" n="76"/>propria sententia id asserere. Donaventura 
+          e<lb break="no" ed="#P" n="77"/>tiam, eadem dist., artic. 2, q. 3, dicit, Quod 
+          L<lb break="no" ed="#P" n="78"/>cet Angeli in sua conditione habuerint 
+          cognitio<lb break="no" ed="#P" n="79"/>nem Trinitatis, nihiloininus illa non merebatur
+          <lb ed="#P" n="80"/>tunc dici fides, imo potius cognitio 
+          contempla<lb break="no" ed="#P" n="81"/>tionis propter absentiam enigmatis. Et addit
+          <lb ed="#P" n="82"/>in daemonibus post lapsum mansisse illam 
+          co<lb break="no" ed="#P" n="83"/>gnitionem sub ratione fidei, propter 
+          superve<lb break="no" ed="#P" n="84"/>niens enigma. Quam doctrinam sumpsit 
+          Bo<lb break="no" ed="#P" n="85"/>naventura ex Alense, 3 p., q. 64, membr. S,
+          <lb ed="#P" n="86"/>qui alias refertur in Summa de virtutibus,
+          <lb ed="#P" n="87"/>collat. 35, art. 2, et collat. 38, art. 1 et 8. Et
+          <lb ed="#P" n="88"/>proeadem sententia citatur Henricus, quodl.7,
+          <lb ed="#P" n="89"/>q. 14, apud quem nihil invenire potui. Etiam
+          <lb ed="#P" n="90"/>citatur Tartaretius, in 2, d. 7, dub. 2, Pelbarus,
+          <lb ed="#P" n="91"/>in Rosario, 3 par., Palacios infra citandus.
+          <lb ed="#P" n="92"/>Scotus autem in 1, dist. 10, q. 8, ad2 et 3,
+          <lb ed="#P" n="93"/>sentire videtur, Angelis non esse necessariam
+          <lb ed="#P" n="94"/>fidem, quia de mysteriis gratise nobiliorem
+          <lb ed="#P" n="95"/>habent cognitionem, scilicet intuitivam 
+          natu<lb break="no" ed="#P" n="96"/>ralem, si non impediantur. Paludanus vero
+          <lb ed="#P" n="97"/>in 3, dist. 23, q. 4, in fine, in primo Angelo
+          <lb ed="#P" n="98"/>ait non fuisse fidem, propter argumentum 
+          Du<lb break="no" ed="#P" n="99"/>randi: in inferioribus autem illam admittit,
+          <lb ed="#P" n="100"/>quia non habuerunt revelationem a Deo 
+          im<lb break="no" ed="#P" n="101"/>mediate, sed mediante superiori Angelo.
+        </p>
+        <p xml:id="szdada-x14708-d1e1442">
+          <lb ed="#P" n="102"/>16. Haec sententia rejicitur. — Hanc vero
+          <lb ed="#P" n="103"/>sententiam totam, quatenus veram, ac 
+          pro<lb break="no" ed="#P" n="104"/>priam fidem in Angelis viatoribus fuisse negat,
+          <lb ed="#P" n="105"/>falsam esse, et omnino improbandam censeo,
+          <lb ed="#P" n="106"/>propter ea, quae in probatione ultimae 
+          asser<lb break="no" ed="#P" n="107"/>tionis adducta sunt, quia justitia, et sanctitas
+          <lb ed="#P" n="108"/>in Angelis viatoribus, ejusdem rationis fuit
+          <lb ed="#P" n="109"/>cum nostra justitia, et sanctitate, sicut gloria
+          <lb ed="#P" n="110"/>consummata est ejusdem rationis in utriusque;
+          <pb ed="#P" n="589"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ergo non minus in intellectu, quam in 
+          volun<lb break="no" ed="#P" n="2"/>tate fuit ejusdem rationis. Specialiter autem
+          <lb ed="#P" n="3"/>probatur contra singulas ex dictis sententus.
+          <lb ed="#P" n="4"/>Et primo contra Durandum dicimus, 
+          eviden<lb break="no" ed="#P" n="5"/>tiam testificantis, quando solum est naturahs,
+          <lb ed="#P" n="6"/>et ex conjecturis, non excludere 
+          supernatura<lb break="no" ed="#P" n="7"/>lem fidem, quia assensus fidei supernaturalis,
+          <lb ed="#P" n="8"/>et certitudo ejus, non innititur per se naturali
+          <lb ed="#P" n="9"/>certitudini ex conjecturis quantumvis 
+          eviden<lb break="no" ed="#P" n="10"/>tibus desumptae. Et ratio est, quia major est
+          <lb ed="#P" n="11"/>certitudo assensus fidei, quam illius judici
+          <lb ed="#P" n="12"/>naturalis, quo Deus ut revelans per signa 
+          na<lb break="no" ed="#P" n="13"/>turalia cognoscitur; ergo non potest 
+          superna<lb break="no" ed="#P" n="14"/>turalis assensus in illo naturali per se ac 
+          di<lb break="no" ed="#P" n="15"/>recte fundari. Ergo talis naturalis evidentia
+          <lb ed="#P" n="16"/>Dei revelantis non repugnat fidei.
+        </p>
+        <p xml:id="szdada-x14708-d1e1503">
+          <lb ed="#P" n="17"/>17. Quin potius tunc fides magis est 
+          spon<lb break="no" ed="#P" n="18"/>tanea, et quodammodo major est, quia 
+          fir<lb break="no" ed="#P" n="19"/>miori assensu credit per fidem tam res 
+          reve<lb break="no" ed="#P" n="20"/>latas, quam Deum esse revelantem, quam per
+          <lb ed="#P" n="21"/>naturalia signa id judicet. Et ita potuerunt
+          <lb ed="#P" n="22"/>Angeli, et debuerunt credere res a Deo 
+          reve<lb break="no" ed="#P" n="23"/>latas, simulque, ac eodem actu credebant, et
+          <lb ed="#P" n="24"/>veras esse, et a Deo esse revelatas. Sicut et
+          <lb ed="#P" n="25"/>nos credimus, vel eodem actu, vel saltem 
+          eo<lb break="no" ed="#P" n="26"/>dem habitu, quia hoc est de ratione fidei 
+          in<lb break="no" ed="#P" n="27"/>fusae, ut in propria materia explicandum est.
+          <lb ed="#P" n="28"/>Illud autem judicium naturaliter evidens,
+          <lb ed="#P" n="29"/>quod Deus ipsis loqueretur, poterat conferre
+          <lb ed="#P" n="30"/>ad efficaciorem propositionem fidei, et ad 
+          ma<lb break="no" ed="#P" n="31"/>jorem quamdam evidentiam credibilitatis ,
+          <lb ed="#P" n="32"/>non tamen per se ad formalem assensum fidei
+          <lb ed="#P" n="33"/>infusae. Et hoc modo non est inconveniens 
+          ad<lb break="no" ed="#P" n="34"/>mittere illam evidentiam in omnibus Angelis,
+          <lb ed="#P" n="35"/>quia fortasse probabilius est, Deum in prima
+          <lb ed="#P" n="36"/>fidei promulgatione, immediate omnes 
+          Ange<lb break="no" ed="#P" n="37"/>los illuminasse. Imo etiam modus ille 
+          propo<lb break="no" ed="#P" n="38"/>nendi fidem de rebus supernaturalibus, 
+          infun<lb break="no" ed="#P" n="39"/>dendo species, vel specialiter movendo 
+          intel<lb break="no" ed="#P" n="40"/>lectum ad usum earum, est tam proprius Dei,
+          <lb ed="#P" n="41"/>ut nullus Angelus possit naturaliter ita inalium
+          <lb ed="#P" n="42"/>operari. Et ita ex modo locutionis omnes 
+          po<lb break="no" ed="#P" n="43"/>tuerunt evidenter conjectare Deum esse, qui
+          <lb ed="#P" n="44"/>loquebatur, et nihilominus omnes credere
+          <lb ed="#P" n="45"/>potuerunt altiori modo et majori certitudine
+          <lb ed="#P" n="46"/>propter solam Dei auctoritatem, quam per
+          <lb ed="#P" n="47"/>signa judicarent Deum esse, qui loquebatur.
+          <lb ed="#P" n="48"/>Christus autem Dominus non credidit hoc
+          <lb ed="#P" n="49"/>modo, sed fortasse per idem lumen 
+          superna<lb break="no" ed="#P" n="50"/>turale evidens potuit cognoscere aliqua ex
+          <lb ed="#P" n="51"/>testimonio divino, videndo per idem lumen
+          <lb ed="#P" n="52"/>Deum esse, qui revelabat; et ideo illa cognitio
+          <lb ed="#P" n="53"/>non erat fidei, sed scientiae infusae, quam 
+          An<lb break="no" ed="#P" n="54"/>geli non habuerunt, ut dixi.
+        </p>
+        <p xml:id="szdada-x14708-d1e1588">
+          <lb ed="#P" n="55"/>18. Secundo refutatur Bonaventura et Alen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sis. — Unde ad Bonaventuram et Alensem
+          <lb ed="#P" n="57"/>respondemus negando cognitionem 
+          Angelo<lb break="no" ed="#P" n="58"/>rum in via aenigmate caruisse. Nam revera
+          <lb ed="#P" n="59"/>intrinsece, et essentialiter erat obscura, quia
+          <lb ed="#P" n="60"/>nec videbant Angeli res, quas credebant, nec
+          <lb ed="#P" n="61"/>etiam videbant revelationem, per illud fidei
+          <lb ed="#P" n="62"/>lumen, per quod dicta ejus credebant. Neque
+          <lb ed="#P" n="63"/>obstat, quod Bonaventura dicit, illam fuisse
+          <lb ed="#P" n="64"/>cognitionem contemplationis in Angelis 
+          viato<lb break="no" ed="#P" n="65"/>ribus: nam cognitio contemplationis non 
+          op<lb break="no" ed="#P" n="66"/>ponitur generatim cognitioni fidei, quia etiam
+          <lb ed="#P" n="67"/>per fidem esse potest altissima contemplatio,
+          <lb ed="#P" n="68"/>et talis esse in Angelis potuit: quod vero
+          <lb ed="#P" n="69"/>Alensis ait, illam cognitionem Angelorum in
+          <lb ed="#P" n="70"/>via, fuisse lucem claram, non admiatam 
+          tene<lb break="no" ed="#P" n="71"/>bris, licet diminutam respectu luminis, glorie,
+          <lb ed="#P" n="72"/>et quod iterum subdit, fuisse cogitationem in
+          <lb ed="#P" n="73"/>divina causa seu in lumine causae diviue, que
+          <lb ed="#P" n="74"/>est summa sapientia, posset admitti, et 
+          intel<lb break="no" ed="#P" n="75"/>ligi, si de cognitione naturali sermo esset, de
+          <lb ed="#P" n="76"/>supernaturali autem cognitione viae, et 
+          abs<lb break="no" ed="#P" n="77"/>tractiva, et est gratis dictum, quia sine 
+          fun<lb break="no" ed="#P" n="78"/>damento, et non potest intelligi qualis sit illa
+          <lb ed="#P" n="79"/>lux evidens, quia respectu aliquorum 
+          myste<lb break="no" ed="#P" n="80"/>riorum supernaturalium, vel nulla esse potest
+          <lb ed="#P" n="81"/>abstractiva, et per causam, aut in causa, aut
+          <lb ed="#P" n="82"/>in lumine ejus, vel eo modo quo esse potest,
+          <lb ed="#P" n="83"/>non est nisi per scientiam supernaturaliter
+          <lb ed="#P" n="84"/>infusam, quae Angelis viatoribus tribuenda
+          <lb ed="#P" n="85"/>non est.
+        </p>
+        <p xml:id="szdada-x14708-d1e1660">
+          <lb ed="#P" n="86"/>19. Et praeterea, quod isti auctores addunt,
+          <lb ed="#P" n="87"/>cognitionem illam, ut fuit gratuita, et infusa
+          <lb ed="#P" n="88"/>mansisse in Angelis damnatis, et in eis 
+          man<lb break="no" ed="#P" n="89"/>sisse aenigmaticam, esseque fidem, licet prius
+          <lb ed="#P" n="90"/>non esset. Hoc, inquam, omumno 
+          improban<lb break="no" ed="#P" n="91"/>dum est, ut notavit Palacios, in 3, dist. 23,
+          <lb ed="#P" n="92"/>disp. 9, tum quia Angeli mali, et omnes 
+          dam<lb break="no" ed="#P" n="93"/>nati privantur omnibus gratuitis, licet 
+          natu<lb break="no" ed="#P" n="94"/>ralia in eis integra maneant: teste Dionysio
+          <lb ed="#P" n="95"/>4, c.de div. Nominibus, p. 4, et BedaLucae 16.
+          <lb ed="#P" n="96"/>Tum etiam, quia daemones, licet cogantur
+          <lb ed="#P" n="97"/>credere naturali fide, vel ex memoria 
+          praete<lb break="no" ed="#P" n="98"/>ritae revelationis, vel ex his, quae postea 
+          au<lb break="no" ed="#P" n="99"/>dierunt, et viderunt: nihillominus non 
+          adhi<lb break="no" ed="#P" n="100"/>bent fidem voluntariam, et sola Dei 
+          auctori<lb break="no" ed="#P" n="101"/>tate innixam; ergo non habent actus fidei
+          <lb ed="#P" n="102"/>supernaturalis, ideoque fides, quam nunc 
+          ha<lb break="no" ed="#P" n="103"/>bent, censeri non potest ejusdem substantiae,
+          <lb ed="#P" n="104"/>cum supernaturali cognitione, quam 
+          habue<lb break="no" ed="#P" n="105"/>runt in via, sive in actu, sive in habitu. Tum
+          <lb ed="#P" n="106"/>etiam quia intelligi non potest, cognitionem
+          <lb ed="#P" n="107"/>prius non aenigmaticam, transire in 
+          aenigma<lb break="no" ed="#P" n="108"/>ticam, aut e contrario, per alterationem
+          <lb ed="#P" n="109"/>ejusdem habitus, sine mutatione ab uno in
+          <lb ed="#P" n="110"/>alium, ut dicti auctores dicunt. Nam illud
+          <pb ed="#P" n="590"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>eenigma, quod est de ratione fidei, est etiam
+          <lb ed="#P" n="2"/>de ratione illius habitus, vel actus, qui est 
+          fi<lb break="no" ed="#P" n="3"/>des: et e contrario cognitio, quae aliquando
+          <lb ed="#P" n="4"/>est clara, non potest eadem fieri obscura, licet
+          <lb ed="#P" n="5"/>possit amitti, et alia loco illius imperfectior
+          <lb ed="#P" n="6"/>induci, ut in Metaphysica latius ostenditur, et
+          <lb ed="#P" n="7"/>patet breviter, quia si Angeli ante lapsum,
+          <lb ed="#P" n="8"/>non cognoverunt mysteria gratiae per fidem,
+          <lb ed="#P" n="9"/>non assentiebantur propter Dei auctoritatem :
+          <lb ed="#P" n="10"/>post lapsum vero, vel inviti credunt, ut 
+          Ja<lb break="no" ed="#P" n="11"/>cobus ait, et ita assentiuntur testimonio Dei,
+          <lb ed="#P" n="12"/>quod naturaliter negare non possunt: item
+          <lb ed="#P" n="13"/>prior cognitio supernaturalis fuit, posterior
+          <lb ed="#P" n="14"/>est acquisita ex evidentia signorum: non sunt
+          <lb ed="#P" n="15"/>ergo ejusdem rationis.
+        </p>
+        <p xml:id="szdada-x14708-d1e1754">
+          <lb ed="#P" n="16"/>20. Ad secundam impugnationem in num. 3.
+          <lb ed="#P" n="17"/>—Ad secundam impugnationem contra hanc
+          <lb ed="#P" n="18"/>fidem Angelorum, sumptam ex modo eis 
+          pro<lb break="no" ed="#P" n="19"/>ponendi res credendas per signa abstractiva,
+          <lb ed="#P" n="20"/>et obscura, jam responsum est, non oportere,
+          <lb ed="#P" n="21"/>ut haec propositio fiat per signa ad placitum,
+          <lb ed="#P" n="22"/>sed per species, vel conceptus rerum 
+          creata<lb break="no" ed="#P" n="23"/>rum, vel rationum communium Deo, et 
+          crea<lb break="no" ed="#P" n="24"/>turis, ut sunt ratio entis, unius, etc., et per
+          <lb ed="#P" n="25"/>aliquem imperfectum, et connotativum 
+          con<lb break="no" ed="#P" n="26"/>ceptum Dei, nam in hoc fere aequiparantur
+          <lb ed="#P" n="27"/>Angeli nobis, quoad concipiendum imperfecto
+          <lb ed="#P" n="28"/>modo Deum, non clare visum, et quae ad eum
+          <lb ed="#P" n="29"/>pertinent, licet intra illum modum Angeli
+          <lb ed="#P" n="30"/>perfectius, et altius res divinas naturaliter 
+          con<lb break="no" ed="#P" n="31"/>cipiant, et in hoc perficientur; si per 
+          illumi<lb break="no" ed="#P" n="32"/>nationem supernaturalem, ad hujusmodi 
+          ap<lb break="no" ed="#P" n="33"/>prehensionem faciendam adjuventur, et ita
+          <lb ed="#P" n="34"/>possunt concipere res fidei, priusquam illis
+          <lb ed="#P" n="35"/>assentiantur et deinde illis libere assentire.
+        </p>
+        <p xml:id="szdada-x14708-d1e1801">
+          <lb ed="#P" n="36"/>21. Ad tertiam impugnationem ibidem. —
+          <lb ed="#P" n="37"/>Ad ultimam vero impugnationem, quod 
+          se<lb break="no" ed="#P" n="38"/>quatur, potuisse Angelos in principio peccare
+          <lb ed="#P" n="39"/>per infidelitatem, non reputo illud esse 
+          in<lb break="no" ed="#P" n="40"/>conveniens, quantum ex parte illorum, si per
+          <lb ed="#P" n="41"/>speciale Dei auxilium efficax, non 
+          praeserven<lb break="no" ed="#P" n="42"/>tur: quomodo autem hoc intelligendum sit
+          <lb ed="#P" n="43"/>in libro septimo explicabitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

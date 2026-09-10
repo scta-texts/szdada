@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="633"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x15958"><!-- l6c1 -->
+        <head xml:id="szdada-x15958-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-x15958-Hd1e103" type="question-title">Utrum angeli sancti statim in secundo instanti, seu intrinseco termino suae vitae, essentiale praemium suorum meritorum receperint</head>
+        <p xml:id="szdada-x15958-d1e106">
+          <lb ed="#P" n="24"/>CAPUT PRIMUM.
+          <lb ed="#P" n="25"/>UTRUM ANGELI SANCTI STATIM IN SECUNDO INSTANTI,
+          <lb ed="#P" n="26"/>SEU INTRINSECO TERMINO SUAE VITAE, 
+          ESSENTIA<lb break="no" ed="#P" n="27"/>LE PRAEMIUM SUORUM MERITORUM RECEPERINT.
+        </p>
+        <p xml:id="szdada-x15958-d1e117">
+          <lb ed="#P" n="28"/>1. Expediuntur Patres qui Angelos Deum
+          <lb ed="#P" n="29"/>videre negasse putarentur. — Suppono, 
+          prae<lb break="no" ed="#P" n="30"/>mium hoc sanctorum Angelorum esse 
+          beatitu<lb break="no" ed="#P" n="31"/>dinem ultimam, ac perfectam, quae in Dei 
+          vi<lb break="no" ed="#P" n="32"/>sione clara, perfecto amore, ac fruitione 
+          consis<lb break="no" ed="#P" n="33"/>tit. Nam in hoc eadem est ratio Angelorum, et
+          <lb ed="#P" n="34"/>hominum. Imo in hoc valde gratia Dei erga
+          <lb ed="#P" n="35"/>homines commendatur, quod homines voluerit
+          <lb ed="#P" n="36"/>esse sicut Angelos DEI in coelo. Possent autem
+          <lb ed="#P" n="37"/>hic objici nonnulla loca Patrum, qui interdum
+          <lb ed="#P" n="38"/>Angelis claram Dei visionem negare videntur.
+          <lb ed="#P" n="39"/>Sed punctum illud in superiori tomo, tractat. 1,
+          <lb ed="#P" n="40"/>lib. 2, de Attributis Dei, cap. 7, tractatum est;
+          <lb ed="#P" n="41"/>ubi sententias Patrum variis modis 
+          exposui<lb break="no" ed="#P" n="42"/>mus. Et praecipua expositio est, cum negant
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="43"/>Angelos videre DEUM prout est, de ipsius 
+          com<lb break="no" ed="#P" n="44"/>prehensione loqui: nam iidem, qui in uno
+          <lb ed="#P" n="45"/>loco hoc negare videntur, in alio affirmant.
+          <lb ed="#P" n="46"/>Nullus enim luculentius docuit Angelos videre
+          <lb ed="#P" n="47"/>Deum clare, et omnia in ipso, quam 
+          Augusti<lb break="no" ed="#P" n="48"/>nus et tamen in lib. 4, Genes. ad htt., cap. 8,
+          <lb ed="#P" n="49"/>ait: IVon esse notam Angelis Dei substantiam,
+          <lb ed="#P" n="50"/>sicut ipsa est sibi, et Martialis, in Epist. ad 
+          Tho<lb break="no" ed="#P" n="51"/>losanum, cap. 27, dixit: Visionem Dei esse, qua
+          <lb ed="#P" n="52"/>soli Angeli perfruuntur, et omnes perfecti in
+          <lb ed="#P" n="53"/>dilectione ejus, ad quam pervenire desideramus.
+          <lb ed="#P" n="54"/>Et tamen in Epist. ad Burdigalensem, cap. 10.
+          <lb ed="#P" n="55"/>Trinitatem, dicit, solam seipsam nosse, quia
+          <lb ed="#P" n="56"/>ultra omnem sensum angelicarum virtutum, et
+          <lb ed="#P" n="57"/>potestatum vera divinitas excellit. Quod tamen
+          <lb ed="#P" n="58"/>exponens subdit: Quam impossibile est etiam
+          <lb ed="#P" n="59"/>ab spiritibus angelicis comprehendi. Idem de
+          <lb ed="#P" n="60"/>Chrysostomo et aliis in dicto loco diximus.
+        </p>
+        <p xml:id="szdada-x15958-d1e193">
+          <lb ed="#P" n="61"/>2. Prima sententia affirmans. — Hoc ergo
+          <lb ed="#P" n="62"/>supposito, idem est quaerere, an sancti Angeli
+          <lb ed="#P" n="63"/>in eodcm instanti, in quo meritum 
+          consum<lb break="no" ed="#P" n="64"/>marunt praemium ejus essentiale receperint,
+          <lb ed="#P" n="65"/>et quaerere, an statim, et in eodem momento
+          <lb ed="#P" n="66"/>ad claram Dei visionem assumpti fuerint. In
+          <lb ed="#P" n="67"/>quo puncto multi scholastici docuerunt, simul
+          <lb ed="#P" n="68"/>duratione, hoc est, (ut tollatur omnis 
+          aequivo<lb break="no" ed="#P" n="69"/>catio) in eodem tempore, vel instanti nostri
+          <lb ed="#P" n="70"/>temporis meruisse sanctos Angelos 
+          essentia<lb break="no" ed="#P" n="71"/>lem beatitudinem, et illam recepisse. Hanc
+          <lb ed="#P" n="72"/>opinionem tenuit D. Thomas, in 2, dist. 5,
+          <lb ed="#P" n="73"/>quaest. 2, art. 2, et quodl. 9, art. 8, 
+          Bonaven<lb break="no" ed="#P" n="74"/>tura 2, dist. 5, art. 3. quaest. 1, Richardus,
+          <lb ed="#P" n="75"/>art. 2, quaest. 1, AEgidius, quaest. 2, art. 2,
+          <lb ed="#P" n="76"/>ubi etiam Argentina et Major probabile putant.
+          <lb ed="#P" n="77"/>Et sequitur Marsilius 2, quaest. 4, art. 2, concl. 4,
+          <lb ed="#P" n="78"/>Maironius, in 3, dist. 17, quaest. 1, Albertus,
+          <lb ed="#P" n="79"/>in Summ., 2 part., tract. 4, quaest. 19, et idem
+          <lb ed="#P" n="80"/>sentit Cajetanus, 1 part., quaest. 63, art. 0,
+          <lb ed="#P" n="81"/>quem aliqui moderni sequuntur. Est autem
+          <lb ed="#P" n="82"/>nonnulla differentia inter Cajetanum, et alios,
+          <lb ed="#P" n="83"/>quod alii supponunt, Augelos in primo instanti
+          <lb ed="#P" n="84"/>creationis non meruisse, quia non fuerunt in
+          <pb ed="#P" n="634"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gratia creati, et ita totum eorum meritum 
+          si<lb break="no" ed="#P" n="2"/>mul duratione cum praemio in secundo instanti
+          <lb ed="#P" n="3"/>possunt. Cajetanus vero concedit Angelos in
+          <lb ed="#P" n="4"/>primo instanti habuisse meritum, non tamen
+          <lb ed="#P" n="5"/>consummatum, sed inchoatum, sicut mali
+          <lb ed="#P" n="6"/>etiam illud habuerunt; in secundo vero 
+          in<lb break="no" ed="#P" n="7"/>stanti sanctos Angelos consummasse meritum,
+          <lb ed="#P" n="8"/>prius natura, quam praemium in eodeminstanti
+          <lb ed="#P" n="9"/>temporis reciperent.
+        </p>
+        <p xml:id="szdada-x15958-d1e272">
+          <lb ed="#P" n="10"/>3. Probatur ratione. — Fundamentum 
+          hu<lb break="no" ed="#P" n="11"/>jus sententiae est, quia non repugnat meritum
+          <lb ed="#P" n="12"/>et praemium esse simul duratione, dummodo
+          <lb ed="#P" n="13"/>meritum naturae ordine praecedat; ergo non
+          <lb ed="#P" n="14"/>est Angelis major dilatio, vel successio, inter
+          <lb ed="#P" n="15"/>praemium et terminum tribuenda. Antecedens
+          <lb ed="#P" n="16"/>probatur primo ratione generali, quia quando
+          <lb ed="#P" n="17"/>via est indivisibilis in se, et terminus etiam
+          <lb ed="#P" n="18"/>simul totus fieri potest, non est necessaria 
+          prio<lb break="no" ed="#P" n="19"/>ritas durationis viae ad terminum, sed naturae
+          <lb ed="#P" n="20"/>sufficit: sed meritum, et praemium 
+          comparan<lb break="no" ed="#P" n="21"/>tur, ut via et terminus, et meritum fit ab 
+          An<lb break="no" ed="#P" n="22"/>gelis in instanti etiam nostri temporis, et 
+          prae<lb break="no" ed="#P" n="23"/>mium totum simu! confertur: ergo ex se 
+          pos<lb break="no" ed="#P" n="24"/>sunt esse simul duratione. Secundo probatur
+          <lb ed="#P" n="25"/>exemplo, quia in eodem instanti, in quo quis
+          <lb ed="#P" n="26"/>meretur augmentum gratiae, recipit illud, cum
+          <lb ed="#P" n="27"/>tamen augmentum illud sit praemium meriti:
+          <lb ed="#P" n="28"/>ergo in quocumque alio praemio, quod possit
+          <lb ed="#P" n="29"/>indivisibiliter fieri, id non repugnat. 
+          Conse<lb break="no" ed="#P" n="30"/>quentia principalis rationis probatur, quia ex
+          <lb ed="#P" n="31"/>parte Dei nulla est causa differendi praemium,
+          <lb ed="#P" n="32"/>quia de se promptissimus est ad praemiandum,
+          <lb ed="#P" n="33"/>ut in dicto exemplo de augmento gratiae 
+          osten<lb break="no" ed="#P" n="34"/>ditur. Nec etiam ex parte Angeli est causa 
+          di<lb break="no" ed="#P" n="35"/>lationis, quia jam supponitur ad terminum 
+          in<lb break="no" ed="#P" n="36"/>trinsecum viae pervenisse bene merendo, et in
+          <lb ed="#P" n="37"/>eo potuit suum meritum consummare, et 
+          alio<lb break="no" ed="#P" n="38"/>qui desiderat, ac expectat suum praemium,
+          <lb ed="#P" n="39"/>quam primum fieri possit,
+        </p>
+        <p xml:id="szdada-x15958-d1e340">
+          <lb ed="#P" n="40"/>4. Objicitur in contrarium. — Sed instahit
+          <lb ed="#P" n="41"/>aliquis, nam inde sequitur, Angelos recepisse
+          <lb ed="#P" n="42"/>praemium beatitudinis in primo instanti 
+          crea<lb break="no" ed="#P" n="43"/>tionis, quia tota haec ratio potest ad illud 
+          in<lb break="no" ed="#P" n="44"/>stans applicari. Ad hoc Zgidius, in 2, dist. 5,
+          <lb ed="#P" n="45"/>quaest. 2, art. 2, putat concedendam esse 
+          se<lb break="no" ed="#P" n="46"/>quelam, consequenter loquendo, et ideo ipse
+          <lb ed="#P" n="47"/>cum aliis negat Angelos in primo instanti 
+          crea<lb break="no" ed="#P" n="48"/>tionis meruisse, et similiter negant, malos 
+          An<lb break="no" ed="#P" n="49"/>eclos habuisse aliquod bonum meritum in 
+          ah<lb break="no" ed="#P" n="50"/>quo suae viae instanti. Sed revera non est 
+          ne<lb break="no" ed="#P" n="51"/>cessaria consecutio. Et ita Cajetanus negat
+          <lb ed="#P" n="52"/>sequelam, quia licet Angeli sancti in primo
+          <lb ed="#P" n="53"/>instanti creationis habucrint, vel inchoaverint
+          <lb ed="#P" n="54"/>meritum, non tamen consummarunt illud, et
+          <lb ed="#P" n="55"/>ideo non statim receperunt praemium, nam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>oportuit consummationem meriti expectari.
+          <lb ed="#P" n="57"/>Illa autem consummatio meriti, juxta 
+          Cajeta<lb break="no" ed="#P" n="58"/>num, non consistit in sola carentia obicis,
+          <lb ed="#P" n="59"/>quae in Angelis sanctis in secundo instanti 
+          fue<lb break="no" ed="#P" n="60"/>rit: sicut dicebat Ferrara quem supra 
+          impu<lb break="no" ed="#P" n="61"/>gnavimus, sed posita fuit in additione novi
+          <lb ed="#P" n="62"/>meriti per novum actum liberum, vel saltem
+          <lb ed="#P" n="63"/>per continuationem prioris, quae continuatio
+          <lb ed="#P" n="64"/>meritum auget: et ita Angeli sancti vere 
+          cre<lb break="no" ed="#P" n="65"/>verunt in merito, quod augmentum 
+          expectan<lb break="no" ed="#P" n="66"/>dum fuit, priusquam eis praemium daretur.
+        </p>
+        <p xml:id="szdada-x15958-d1e403">
+          <lb ed="#P" n="67"/>5. Ratio autem, ob quam talis consummatio
+          <lb ed="#P" n="68"/>meriti necessaria fuit, reddi potest, vel ex parte
+          <lb ed="#P" n="69"/>Dei, ejusque sapientissimae providentiae, qua
+          <lb ed="#P" n="70"/>statuit, ut Angeli, vel per tot actus, vel per 
+          ta<lb break="no" ed="#P" n="71"/>lem, tantamque durationem, ac 
+          perseveran<lb break="no" ed="#P" n="72"/>tiam suam beatitudinem consequerentur, et
+          <lb ed="#P" n="73"/>quod in termino intrinseco talis morae, aut
+          <lb ed="#P" n="74"/>meriti. statim sine majori dilatione praemium
+          <lb ed="#P" n="75"/>acciperent. Vel etiam ex parte ipsius angelicae
+          <lb ed="#P" n="76"/>naturae, quae in solo primo instanti creationis
+          <lb ed="#P" n="77"/>non potest statim plene deliberare in omni
+          <lb ed="#P" n="78"/>materia necessaria ad salutem, et ideo post
+          <lb ed="#P" n="79"/>illud conveniens fuit aliud tempus, vel instans,
+          <lb ed="#P" n="80"/>seu moram illi concedi, in qua potuerit plene
+          <lb ed="#P" n="81"/>deliberare, et inter bonum, et malum omnino
+          <lb ed="#P" n="82"/>libere velle, et eligere. Vel denique ex parte
+          <lb ed="#P" n="83"/>Christi reddi potest ratio, quia oportuit 
+          Ange<lb break="no" ed="#P" n="84"/>los, antequam beati fierent, peculiarem Christi
+          <lb ed="#P" n="85"/>Domini cognitionem habere, eumque venerari,
+          <lb ed="#P" n="86"/>quod non potuit commode fieri in primo 
+          in<lb break="no" ed="#P" n="87"/>stanti, juxta superius dicta: et ideo 
+          secun<lb break="no" ed="#P" n="88"/>dum instans viae spectandum fuit, ut 
+          beatifi<lb break="no" ed="#P" n="89"/>carentur.
+        </p>
+        <p xml:id="szdada-x15958-d1e455">
+          <lb ed="#P" n="90"/>6. Secunda et vera sententiunegans.—
+          bNihil<lb break="no" ed="#P" n="91"/>ominus dicendum est, beatitudinis praemium
+          <lb ed="#P" n="92"/>non esse datum sanctis Angelis in eodem 
+          in<lb break="no" ed="#P" n="93"/>stanti, in quo suum meritum consummarunt,
+          <lb ed="#P" n="94"/>id est, in quo aliquid meriti habuerunt, quod
+          <lb ed="#P" n="95"/>praecedenti merito addiderunt. Ita docet divus
+          <lb ed="#P" n="96"/>Thomas, 1 part., quaest. 64, art. 6, et ibi 
+          fre<lb break="no" ed="#P" n="97"/>quentius recentiores Thomistae, et Capreolus,
+          <lb ed="#P" n="98"/>in 2, dist. 4, quaest. 1, art. 1, conclus. 5, et ad
+          <lb ed="#P" n="99"/>argumenta contra illam, et contra 3 conclus.,
+          <lb ed="#P" n="100"/>et quoad hanc partem etiam consentit Ferrara,
+          <lb ed="#P" n="101"/>libr. 3, contra Gentes, cap. 100, circa finem.
+          <lb ed="#P" n="102"/>Licet enim differat in explicatione, utique 
+          ne<lb break="no" ed="#P" n="103"/>gando meritum secundi instantis, convenit in
+          <lb ed="#P" n="104"/>illo principio, quod beatitudo non datur simul
+          <lb ed="#P" n="105"/>cum merito. Et similiter idem tenent omnes,
+          <lb ed="#P" n="106"/>qui tria instantia, vel tres moras in Angelis
+          <lb ed="#P" n="107"/>distinguunt a primo instanti creationis, usque
+          <lb ed="#P" n="108"/>ad primum instans termini, seu beatitudinis
+          <lb ed="#P" n="109"/>inclusive, seu utrumque extremum includenco.
+          <lb ed="#P" n="110"/>Nam licet inter illos auctores sit aliquod dis-
+          <pb ed="#P" n="635"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>crimen in declarandis actibus, vel statum 
+          gra<lb break="no" ed="#P" n="2"/>Uae, aut purae naturae, quem Angeli in primo
+          <lb ed="#P" n="3"/>instanti creationis habuerunt, nihilominus in
+          <lb ed="#P" n="4"/>hoc conveniunt, quod non simul duratione,
+          <lb ed="#P" n="5"/>sed in diversis moris habuerint integrum 
+          me<lb break="no" ed="#P" n="6"/>ritum, et praemium beatitudinis acceperunt.
+          <lb ed="#P" n="7"/>Et ita tenent Scotus, in 2, dist. 5, quaest. 1,
+          <lb ed="#P" n="8"/>Gabriel, quaest. 1, art. 2, Bassolis, q. 1, art. 3.
+          <lb ed="#P" n="9"/>Denique consentit Gregorius 2, dist. 5, q. 1,
+          <lb ed="#P" n="10"/>art. 3.
+        </p>
+        <p xml:id="szdada-x15958-d1e529">
+          <lb ed="#P" n="11"/>7. Ratione precipua probatur primo.—
+          ha<lb break="no" ed="#P" n="12"/>tiones pro hac sententia varia afferuntur:
+          <lb ed="#P" n="13"/>una vero apud me est praecipua, quam sic 
+          de<lb break="no" ed="#P" n="14"/>claro. Nam omne meritum gloriae fundatur in
+          <lb ed="#P" n="15"/>cognitione supernaturali; ergo etiam in 
+          Ange<lb break="no" ed="#P" n="16"/>lis hoc fundamentum habere debuit: sed 
+          fun<lb break="no" ed="#P" n="17"/>damentum meriti angelici non fuit visio beata,
+          <lb ed="#P" n="18"/>ergo fuit cognitio fidei, ergo quamdiu duravit
+          <lb ed="#P" n="19"/>meritum, non potuit simul conferri praemium
+          <lb ed="#P" n="20"/>beatitudinis, quod est ipsa visio beatifica, ut
+          <lb ed="#P" n="21"/>in principio supponimus. Primum antecedens
+          <lb ed="#P" n="22"/>in nobis certum de fide est, tum quia sine fide
+          <lb ed="#P" n="23"/>impossibile est placere Deo, tum quia fides est
+          <lb ed="#P" n="24"/>fundamentum rerum sperandarum, et 
+          conse<lb break="no" ed="#P" n="25"/>quenter etiam est fundamentum meriti, in
+          <lb ed="#P" n="26"/>quo proxime spes beatitudinis nititur: tum
+          <lb ed="#P" n="27"/>denique, quia fides est radix justitiae apud
+          <lb ed="#P" n="28"/>Deum; ergo, et meriti, quod in justitia 
+          funda<lb break="no" ed="#P" n="29"/>tur. Et hinc probata manet prima 
+          consequen<lb break="no" ed="#P" n="30"/>tia, quia ostensum in superioribus est, has 
+          re<lb break="no" ed="#P" n="31"/>gulas Scripturae Angelos, etiam comprehendere,
+          <lb ed="#P" n="32"/>quia justitia, sanctitas, et gratia ejusdem 
+          ra<lb break="no" ed="#P" n="33"/>tionis est in illis, et in nobis, et tam 
+          superna<lb break="no" ed="#P" n="34"/>turalis est illis, sicut nobis, et ideo non minus
+          <lb ed="#P" n="35"/>requirit supernaturale fundamentum in 
+          Ange<lb break="no" ed="#P" n="36"/>lis, quam in nobis; ergo etiam meritum idem
+          <lb ed="#P" n="37"/>fundamentum requirit, cum ipsum, et placere
+          <lb ed="#P" n="38"/>debeat Deo, et in gratia niti debeat.
+        </p>
+        <p xml:id="szdada-x15958-d1e592">
+          <lb ed="#P" n="39"/>8. Progreditur probatio. — Secundum vero
+          <lb ed="#P" n="40"/>antecedens, seu minor propositio, nimirum,
+          <lb ed="#P" n="41"/>illam cognitionem, quae est fundamentum 
+          me<lb break="no" ed="#P" n="42"/>riti angelici, non esse visionem bceatam, in 
+          ca<lb break="no" ed="#P" n="43"/>pite tertio ex professo fundandum est. Nunc
+          <lb ed="#P" n="44"/>vero probatione non indiget, quia ab 
+          auctori<lb break="no" ed="#P" n="45"/>bus contrariae sententiae admittitur, ac 
+          suppo<lb break="no" ed="#P" n="46"/>nitur. Dicunt enim meritum Angeli prius 
+          na<lb break="no" ed="#P" n="47"/>tura antecessisse beatitudinem in re ipsa, et
+          <lb ed="#P" n="48"/>secundum veram causalitat em. Ergo supponit
+          <lb ed="#P" n="49"/>illud meritum cognitionemdistinctam a visione
+          <lb ed="#P" n="50"/>beata, a qua oriatur, quia impossibile est esse
+          <lb ed="#P" n="51"/>prius naiura ipsa visione beata, et in illa 
+          fun<lb break="no" ed="#P" n="52"/>dari, ab eave originem ducere, ut est per se
+          <lb ed="#P" n="53"/>notum, si termini intelligantur. Secunda vero
+          <lb ed="#P" n="54"/>consequentia manifesta est ex dictis in 
+          supe<lb break="no" ed="#P" n="55"/>rioribus. Ostendemus enim, in Angelis in pri-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mo instanti creationis non fuisse aliam 
+          super<lb break="no" ed="#P" n="57"/>naturalem cognitionem praeter fidem, et 
+          con<lb break="no" ed="#P" n="58"/>sequenter in illa fundatum fuisse meritum
+          <lb ed="#P" n="59"/>pruni instantis. Post illud vero instans nullam
+          <lb ed="#P" n="60"/>aliam cognitionem supernaturalem acceperunt
+          <lb ed="#P" n="61"/>ante visionem beatam, sive ordine durationis,
+          <lb ed="#P" n="62"/>sive ordine natura: sed in eadem fide, vel
+          <lb ed="#P" n="63"/>immutata, vel aucta, et extensa ad nova 
+          mys<lb break="no" ed="#P" n="64"/>teria credenda, permanserunt. Tum, quia nulla
+          <lb ed="#P" n="65"/>est ratio fingendi mutationem in substantia,
+          <lb ed="#P" n="66"/>seu specie cognitionis pro statu viae, et ante
+          <lb ed="#P" n="67"/>visionem beatam. Tum etiam quia ante claram
+          <lb ed="#P" n="68"/>visionem Dei non datur supernaturalis scientia
+          <lb ed="#P" n="69"/>supernaturalium mysteriorum, praesertim 
+          Tri<lb break="no" ed="#P" n="70"/>nitatis, et Incarnationis, et sanctificantis 
+          gra<lb break="no" ed="#P" n="71"/>tiae. Ergo cognitio illa supernaturalis, quam
+          <lb ed="#P" n="72"/>Angeli sancti in secundo instanti retinuerunt,
+          <lb ed="#P" n="73"/>priusquam visionem Dei reciperent, fuit 
+          co<lb break="no" ed="#P" n="74"/>enitio fidei. Quod etiam confirmant testimonia
+          <lb ed="#P" n="75"/>sacrae Scripturae allata, quae non scientiam,
+          <lb ed="#P" n="76"/>sed fidei spiritum dicunt esse radicem justitiae,
+          <lb ed="#P" n="77"/>et meriti. Ultima vero consequentia nititur in
+          <lb ed="#P" n="78"/>alio principio, quod simul cum visione 
+          beatifi<lb break="no" ed="#P" n="79"/>ca, non manet actualis fides, praesertim 
+          ea<lb break="no" ed="#P" n="80"/>rumdem rerum, quae videntur, quod 
+          princi<lb break="no" ed="#P" n="81"/>pium certum a theologis reputatur exillo Pauli
+          <lb ed="#P" n="82"/>prima ad Corint. 13: Cum venerit, quod 
+          per<lb break="no" ed="#P" n="83"/>fectum est, evacuabitur, quod em parte est. De
+          <lb ed="#P" n="84"/>quo alias.
+        </p>
+        <p xml:id="szdada-x15958-d1e697">
+          <lb ed="#P" n="85"/>9. Probatur secundo. — Secundo est alia 
+          ra<lb break="no" ed="#P" n="86"/>tio, et repugnantia in contraria sententia. Nam
+          <lb ed="#P" n="87"/>vel ponit sanctos Angelos in secundo instanti,
+          <lb ed="#P" n="88"/>et prius natura, quam mererentur, fuisse 
+          li<lb break="no" ed="#P" n="89"/>beros tantum ad merendum et non ad 
+          peccan<lb break="no" ed="#P" n="90"/>dum, vel cum plena libertate ad utrumque.
+          <lb ed="#P" n="91"/>Primum quidem licet generatim sumptum, et
+          <lb ed="#P" n="92"/>secundum se non repugnet, quia libertas 
+          quo<lb break="no" ed="#P" n="93"/>ad exercitium suflicere potest ad meritum, ut
+          <lb ed="#P" n="94"/>patet in Christo, et potuit alteri communicari,
+          <lb ed="#P" n="95"/>tamen in praesenti materia habet peculiarem
+          <lb ed="#P" n="96"/>repugnantiam, quia illa necessitas non 
+          pec<lb break="no" ed="#P" n="97"/>candi non fuit in Angelis sanctis nisi ex visione
+          <lb ed="#P" n="98"/>beata, ut sanctus Augustinus et alii Patres 
+          su<lb break="no" ed="#P" n="99"/>pra citati docent. Ergo si in illo priori naturae
+          <lb ed="#P" n="100"/>jam habebant necessitatem non peccandi, jam
+          <lb ed="#P" n="101"/>videbant Deum, imo prius natura oportuit 
+          vi<lb break="no" ed="#P" n="102"/>dere Deum, quam habere necessitatem non
+          <lb ed="#P" n="103"/>peccandi, quia haec necessitas est effectus 
+          vi<lb break="no" ed="#P" n="104"/>sionis: ergo illo posito non potuissent habere
+          <lb ed="#P" n="105"/>meritum prius natura, quam visionem. Item,
+          <lb ed="#P" n="106"/>quia necessitas non peccandi in videntibus
+          <lb ed="#P" n="107"/>Deum proxime sequitur ex amore Dei perfecto
+          <lb ed="#P" n="108"/>et necessario simpliciter quoad exercitium,
+          <lb ed="#P" n="109"/>ergo si in illo priori naturae jam erant 
+          impec<lb break="no" ed="#P" n="110"/>cabiles, jam amabant Deum amore beatifico et
+          <pb ed="#P" n="636"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>necessario, ergo ille fuit primus actus, quem
+          <lb ed="#P" n="2"/>in illo instanti secundo Angelus sanctus 
+          ha<lb break="no" ed="#P" n="3"/>buit, etiam secundum ordinem natura; ergo
+          <lb ed="#P" n="4"/>non potuit beatitudo supponere meritum, quod
+          <lb ed="#P" n="5"/>natura prius fuerit. Secundum etiam 
+          mem<lb break="no" ed="#P" n="6"/>brum repugnantiam involvit, quia si Angeli
+          <lb ed="#P" n="7"/>in illo secundo instanti potuerunt peccare, non
+          <lb ed="#P" n="8"/>potuerunt in eodem instanti fieri impeccabiles;
+          <lb ed="#P" n="9"/>ergo nec potuerunt in eodem instanti Deum
+          <lb ed="#P" n="10"/>videre, eumve amore simpliciter necessario
+          <lb ed="#P" n="11"/>diligere, quia per hujusmodi visionem et 
+          amo<lb break="no" ed="#P" n="12"/>rem fit beatus impeccabilis, duo enim 
+          priva<lb break="no" ed="#P" n="13"/>tive opposita non potuerunt inesse Angelo in
+          <lb ed="#P" n="14"/>eodem durationis instanti. Loquimur enim (ut
+          <lb ed="#P" n="15"/>monuil) de instanti omnino indivisibili 
+          secun<lb break="no" ed="#P" n="16"/>dum coexistentiam ad nostrum tempus, seu de
+          <lb ed="#P" n="17"/>merito et praemio simul existentibus in eadem
+          <lb ed="#P" n="18"/>duratione secundum idem, seu secundum se
+          <lb ed="#P" n="19"/>totam.
+        </p>
+        <p xml:id="szdada-x15958-d1e801">
+          <lb ed="#P" n="20"/>10. Occurrit primo Cajetanus. — 
+          Impugna<lb break="no" ed="#P" n="21"/>tur. — Respondet Cajetanus supra, habuisse
+          <lb ed="#P" n="22"/>Angelum sanctum in eodem instanti 
+          potesta<lb break="no" ed="#P" n="23"/>tem cadendi, et standi, et merendi, et 
+          deme<lb break="no" ed="#P" n="24"/>rendi, et nihilominus in eodem recepisse 
+          bea<lb break="no" ed="#P" n="25"/>titudinem, quia illud instans non erat pura
+          <lb ed="#P" n="26"/>via, sed terminus viae. Quoniam actus ille (
+          in<lb break="no" ed="#P" n="27"/>quit) ut inchoatur ex libero arbitrio et gratia,
+          <lb ed="#P" n="28"/>meritorius est, in quantum vero completur per
+          <lb ed="#P" n="29"/>gloriam, beatitudo est. Per quae verba indicat
+          <lb ed="#P" n="30"/>Cajetanus eumdem actum in eodem instanti
+          <lb ed="#P" n="31"/>reali esse prius natura meritum, et posterius
+          <lb ed="#P" n="32"/>natura esse praemium. Quod facile potest 
+          im<lb break="no" ed="#P" n="33"/>pugnari, quia nec in intellectu potest idem
+          <lb ed="#P" n="34"/>actus, qui prius natura est fundamentum 
+          me<lb break="no" ed="#P" n="35"/>riti, fieri praemium in posteriori natura, quia
+          <lb ed="#P" n="36"/>nec actus fidei potest in eodem instanti fieri
+          <lb ed="#P" n="37"/>visio ob aliquam naturae posterioritatem, nec
+          <lb ed="#P" n="38"/>cadem visio potest esse fundamentum meriti
+          <lb ed="#P" n="39"/>secundum aliquam naturae prioritatem, cum
+          <lb ed="#P" n="40"/>absolute meritum supponere dicatur. Et 
+          simi<lb break="no" ed="#P" n="41"/>liter ex parte voluntatis non potest idem actus
+          <lb ed="#P" n="42"/>amoris in eodem instanti esse prius natura
+          <lb ed="#P" n="43"/>liber, et posterius natura necessarius 
+          simplici<lb break="no" ed="#P" n="44"/>ter quoad exercitium; ergo non potest in eodem
+          <lb ed="#P" n="45"/>instanti esse meritorius et beatificus secundum
+          <lb ed="#P" n="46"/>diversa signa naturae. Verumtamen Cajetanus
+          <lb ed="#P" n="47"/>paulo post indicat, illos actus, meritorium et
+          <lb ed="#P" n="48"/>beatificum esse distinctos, exponendo enim
+          <lb ed="#P" n="49"/>quod D. Thomas ait, Angelum pervenire ad
+          <lb ed="#P" n="50"/>beatitudinem per unum actum, adit, unum
+          <lb ed="#P" n="51"/>scilicet, ut viam, cum quo stat, quod evigatur
+          <lb ed="#P" n="52"/>alter, ut terminus, via enim pura in uno 
+          consis<lb break="no" ed="#P" n="53"/>lit, sed aggregatum ex via et termino ex duobus
+          <lb ed="#P" n="54"/>actibus meritoriis et instantibus constat.
+        </p>
+        <p xml:id="szdada-x15958-d1e879">
+          <lb ed="#P" n="55"/>11. Occurrit secundo Cajetanus. — Rejicitur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>primo.— Per hoc autem Cajetanus non recedit
+          <lb ed="#P" n="57"/>a priori dicendi modo. Nam ponit quidem duos
+          <lb ed="#P" n="58"/>actus meritorios in duobus instantibus, primo
+          <lb ed="#P" n="59"/>et secundo: tamen primum vult esse pure 
+          me<lb break="no" ed="#P" n="60"/>ritorium, secundum vero meritorium et 
+          bea<lb break="no" ed="#P" n="61"/>tificum. Quoniam actus ille (ait paulo superius),
+          <lb ed="#P" n="62"/>ut inchoat ex libero arbitrio et gratia, 
+          merito<lb break="no" ed="#P" n="63"/>rius est, in quantum vero completur per 
+          glo<lb break="no" ed="#P" n="64"/>rium, beatitudo est. Contra quam distinctionem
+          <lb ed="#P" n="65"/>procedit utraque ratio facta. Tum, quia si ille
+          <lb ed="#P" n="66"/>actus inchoat per liberum arbitrium et 
+          gra<lb break="no" ed="#P" n="67"/>tiam, etiam per fidem inchoat, quomodo ergo
+          <lb ed="#P" n="68"/>in eodem instanti completur per gloriam 
+          vi<lb break="no" ed="#P" n="69"/>sionis beatae? Tum etiam, quia si ille actus est
+          <lb ed="#P" n="70"/>prius liber, et postea completus per gloriam,
+          <lb ed="#P" n="71"/>id est, visionem, est beatitudo, simul erit liber
+          <lb ed="#P" n="72"/>et necessarius, quod repugnat. Unde etiam 
+          re<lb break="no" ed="#P" n="73"/>pugnat, quod ait in eodem instanti potuisse
+          <lb ed="#P" n="74"/>Angelum sanctum prius natura ponere obicem
+          <lb ed="#P" n="75"/>gratiae, et in posteriori naturae beatificari, quia
+          <lb ed="#P" n="76"/>beatitudo dat necessitatem non peccandi, et
+          <lb ed="#P" n="77"/>potentia peccandi, ac necessitas non peccandi
+          <lb ed="#P" n="78"/>absoluta et praeveniens, repugnant esse simul
+          <lb ed="#P" n="79"/>in eadem voluntate, in eodem instanti reali, et
+          <lb ed="#P" n="80"/>secundum diversa signa naturae, quae tantum
+          <lb ed="#P" n="81"/>ratione distinguuntur, sicut repugnant esse in
+          <lb ed="#P" n="82"/>eodem instanti durationis peccatum et gratia,
+          <lb ed="#P" n="83"/>et in universum forma, et privatio secundum
+          <lb ed="#P" n="84"/>diversa signa naturae.
+        </p>
+        <p xml:id="szdada-x15958-d1e949">
+          <lb ed="#P" n="85"/>12. Rejicitur secundo. — Nec juvat 
+          Cajeta<lb break="no" ed="#P" n="86"/>num distinctio illa de merito in via, et de 
+          me<lb break="no" ed="#P" n="87"/>rito in termino viae. Oportet enim hic uti 
+          dis<lb break="no" ed="#P" n="88"/>tinctione philosophica de termino intrinseco,
+          <lb ed="#P" n="89"/>vel extrinseco: nam quoad desitionem 
+          intrin<lb break="no" ed="#P" n="90"/>secus dicitur, id quo res ultimo est, et post
+          <lb ed="#P" n="91"/>quem non erit, extrinsecus vero, in quo res
+          <lb ed="#P" n="92"/>primo non est, et immediate antea fuit. 
+          Ea<lb break="no" ed="#P" n="93"/>demque distinctio datur de initio viae, seu
+          <lb ed="#P" n="94"/>existentia rei. Prima ergo distinctio applicari
+          <lb ed="#P" n="95"/>potest termino viae, seu statui merendi. Nam,
+          <lb ed="#P" n="96"/>quia ista angelica instantia, de quibus 
+          loqui<lb break="no" ed="#P" n="97"/>mur, sunt immediata, ideo secundum instans
+          <lb ed="#P" n="98"/>angelicum potest dici terminus viae, utique
+          <lb ed="#P" n="99"/>intrinsecus, quia in eo via est, seu durat, et
+          <lb ed="#P" n="100"/>nihilominus tertium etiam instans dici potest
+          <lb ed="#P" n="101"/>terminus extrinsecus viae, quia in eo primo
+          <lb ed="#P" n="102"/>non est. Et cum eadem proportione distingui
+          <lb ed="#P" n="103"/>potest initium praemii, habet enim initium 
+          in<lb break="no" ed="#P" n="104"/>trinsecum, in quo primo est, et antea non fuit,
+          <lb ed="#P" n="105"/>et extrinsecum in quo nondum est, et 
+          imme<lb break="no" ed="#P" n="106"/>diate post illud erit. Meritum ergo, quod est
+          <lb ed="#P" n="107"/>in termino intrinseco viae, non potest simul
+          <lb ed="#P" n="108"/>esse cum initio intrinseco praemii, et ultimum
+          <lb ed="#P" n="109"/>esse unius non potest esse primum esse 
+          alte<lb break="no" ed="#P" n="110"/>rius, quia repugnant esse simul, ut ostensum
+          <pb ed="#P" n="637"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est. sed tantum potest cum ultimo esse meriti,
+          <lb ed="#P" n="2"/>esse simul ultimum non esse praemii. Et in hoc
+          <lb ed="#P" n="3"/>solum distingui potest in praesenti meritum in
+          <lb ed="#P" n="4"/>termino viae, a merito in principio viae, seu in
+          <lb ed="#P" n="5"/>primo instanti apto ad meritum, quod hoc nec
+          <lb ed="#P" n="6"/>est initium intrinsecum praemii, nec 
+          extrinse<lb break="no" ed="#P" n="7"/>cum. illud vero est extrinsecum initium 
+          prae<lb break="no" ed="#P" n="8"/>mii, intrinsecum vero non potest esse. Nam in
+          <lb ed="#P" n="9"/>hoc tantam repugnantiam habet praemium 
+          ul<lb break="no" ed="#P" n="10"/>timum cum merito in termino intrinseco viae,
+          <lb ed="#P" n="11"/>sicut cum primo merito, ut ostensum est. Et e
+          <lb ed="#P" n="12"/>contrario initium intrinsecum praemii non 
+          po<lb break="no" ed="#P" n="13"/>test esse in ipso termino intrinseco viae, sed
+          <lb ed="#P" n="14"/>tantum immediate post illud.
+        </p>
+        <p xml:id="szdada-x15958-d1e1043">
+          <lb ed="#P" n="15"/>13. Probatur tertio nostra sententia. — 
+          Ter<lb break="no" ed="#P" n="16"/>tiam rationem addere possumus ex D. Thoma
+          <lb ed="#P" n="17"/>illa vero ad praecedentes revocanda est, ut sic
+          <lb ed="#P" n="18"/>efficax, easque in virtute continet: ipse ergo
+          <lb ed="#P" n="19"/>dicta q. 62, art. 4, in corpore, et art. 5, ad2,
+          <lb ed="#P" n="20"/>probat non posse esse simul in Angelo actum 
+          me<lb break="no" ed="#P" n="21"/>ritorium beatitudinis, et ipsam beatitudinem,
+          <lb ed="#P" n="22"/>quia actus meritorius informatur gratia 
+          imper<lb break="no" ed="#P" n="23"/>fecta, beatitudo autem est actus gratiae 
+          consum<lb break="no" ed="#P" n="24"/>matae. Ubi per gratiam imperfectam non est 
+          in<lb break="no" ed="#P" n="25"/>telligenda gratia remissa, aut minus intensa,
+          <lb ed="#P" n="26"/>quam alia, quia interdum potest gratia viatoris,
+          <lb ed="#P" n="27"/>quae est principium meriti, esse intensior, quam
+          <lb ed="#P" n="28"/>sit gratia comprehensoris, ut alibi ostensum est:
+          <lb ed="#P" n="29"/>sed gratiam imperfectam vocat, quoad statum,
+          <lb ed="#P" n="30"/>quia est gratia viae, quae fidei conjuncta est, et
+          <lb ed="#P" n="31"/>est mutabilis, et quasi corruptibilis, et 
+          amissi<lb break="no" ed="#P" n="32"/>bilis ex vi status. Et sic verum est, non posse
+          <lb ed="#P" n="33"/>actum, vel actus simul informari gratia 
+          imper<lb break="no" ed="#P" n="34"/>fecta, et consummata. Et sic dixit idem D. 
+          Tho<lb break="no" ed="#P" n="35"/>mas, 2, 2. quaest. 24, art. 7, ad 3, et art. 8,
+          <lb ed="#P" n="36"/>charitatem viae non posse pervenire ad 
+          perfec<lb break="no" ed="#P" n="37"/>tionem charitatis patriae, quia quantitas 
+          cha<lb break="no" ed="#P" n="38"/>ritatis patriae sequitur visionem apertam, quod
+          <lb ed="#P" n="39"/>non de quantitate intensionis, sed de 
+          perfec<lb break="no" ed="#P" n="40"/>tionibus aliis ad modum operandi 
+          pertinenti<lb break="no" ed="#P" n="41"/>bus intelligitur. Sic ergo in praesenti de gratia
+          <lb ed="#P" n="42"/>perfecta, et imperfecta loquitur, et sic illa 
+          ra<lb break="no" ed="#P" n="43"/>tio cum nostris coincidit, et per illa explicatur.
+          <lb ed="#P" n="44"/>Et ita ibi aperte docet nostram sententiam.
+          <lb ed="#P" n="45"/>Quomodo autem non contradicat in quaest. 63,
+          <lb ed="#P" n="46"/>art. 3, jam dictum est cap. 12, praec. lib., et
+          <lb ed="#P" n="47"/>in sequentibus amplius explicabitur.
+        </p>
+        <p xml:id="szdada-x15958-d1e1117">
+          <lb ed="#P" n="48"/>14. Solvitur contrarium fundamentum in
+          <lb ed="#P" n="49"/>n. 3. — Ad fundamentum ergo contrariae 
+          sen<lb break="no" ed="#P" n="50"/>tentiae dicimus imprimis, meritum non tam
+          <lb ed="#P" n="51"/>proprie dici viam ad terminum, quam causam
+          <lb ed="#P" n="52"/>ejus moralem, et in suo genere, nam via 
+          pro<lb break="no" ed="#P" n="53"/>pria dicitur ipsum intrinsecum fieri rei, seu
+          <lb ed="#P" n="54"/>termini, id est, actio vel mutatio, per quam
+          <lb ed="#P" n="55"/>ipsa res, quae est terminus, fit: meritum au-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tem non ita comparatur ad proprium 
+          prae<lb break="no" ed="#P" n="57"/>mium, sed sunt actiones distinctae, ut in 
+          exem<lb break="no" ed="#P" n="58"/>plo, quod affertur de augmento gratiae, et
+          <lb ed="#P" n="59"/>merito ejus videre licet. Est ergo meritum
+          <lb ed="#P" n="60"/>causa praemii in suo genere. Fatemur tamen
+          <lb ed="#P" n="61"/>esse talem causam, quae ininstanti potest fieri,
+          <lb ed="#P" n="62"/>et esse, et similiter dicemus praemium posse
+          <lb ed="#P" n="63"/>esse tale, ut in instanti dari, ac recipi, et esse
+          <lb ed="#P" n="64"/>possit. Unde etiam addimus, ex parte modi,
+          <lb ed="#P" n="65"/>quo utrumque fit, non repugnare fieri simul.
+          <lb ed="#P" n="66"/>et praemium posse intrinsece incipere in eodem
+          <lb ed="#P" n="67"/>instanti, in quo intrinsece existit, vel incipit
+          <lb ed="#P" n="68"/>meritum, ut probat recte exemplum de 
+          aug<lb break="no" ed="#P" n="69"/>mento gratiae, et ratio facta, quia utrumque
+          <lb ed="#P" n="70"/>fieri potest in instanti. Unde ex hac parte non
+          <lb ed="#P" n="71"/>magis repugnaret dari Angelis praemium in
+          <lb ed="#P" n="72"/>primo instanti sui meriti, quam in secundo,
+          <lb ed="#P" n="73"/>seu in termino viae. At vero tametsi aliunde
+          <lb ed="#P" n="74"/>meritum includat conditiones repugnantes
+          <lb ed="#P" n="75"/>praemio, tunc non poterit dari intrinsece 
+          prae<lb break="no" ed="#P" n="76"/>mium, quamdiu intrinsece durat meritum, et
+          <lb ed="#P" n="77"/>ita est in ultimo praemio beatitudinis 
+          compa<lb break="no" ed="#P" n="78"/>rato ad meritum puri viatoris, qui per fidem,
+          <lb ed="#P" n="79"/>et cum libertate peccandi meretur, ut satis 
+          de<lb break="no" ed="#P" n="80"/>claratum est. Addi etiam potest, quamvis de
+          <lb ed="#P" n="81"/>absoluta potentia possit esse meritum vitae
+          <lb ed="#P" n="82"/>aeternae simul duratione cum praemio ultimo,
+          <lb ed="#P" n="83"/>ut conjungendo aliam supernaturalem Dei 
+          co<lb break="no" ed="#P" n="84"/>gnitionem abstractivam simul cum visione,
+          <lb ed="#P" n="85"/>vel alio simili modo, nihilominus de potentia
+          <lb ed="#P" n="86"/>ordinaria non fuisse conveniens. Quia melius
+          <lb ed="#P" n="87"/>fuit, ut omnes, qui ad illam beatitudinem 
+          ten<lb break="no" ed="#P" n="88"/>dunt ut viatores, et purae creaturae, priusillam
+          <lb ed="#P" n="89"/>sperent, et pro illa laborent, et in 
+          ejusinquisi<lb break="no" ed="#P" n="90"/>tione aliquamdiu perseverent. Sicut Deus in
+          <lb ed="#P" n="91"/>hominibus ordinavit, et in Angelis idem est
+          <lb ed="#P" n="92"/>valde conveniens, et per se credibile, cum 
+          a<lb break="no" ed="#P" n="93"/>liud revelatum non sit, nec ratione firma 
+          ni<lb break="no" ed="#P" n="94"/>tatur. Quod etiam ex dicendis infra de malis
+          <lb ed="#P" n="95"/>Angelis amplius confirmabitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

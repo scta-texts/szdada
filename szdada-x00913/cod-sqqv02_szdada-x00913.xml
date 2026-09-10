@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="37"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x00913"><!-- l1c9 -->
+        <head xml:id="szdada-x00913-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-x00913-Hd1e103" type="question-title">Utrum angeli omnino incorruptibiles sint, et necessaria entia dici possint</head>
+        <p xml:id="szdada-x00913-d1e106">
+          <lb ed="#P" n="25"/>CAPUT IX.
+          <lb ed="#P" n="26"/>UTRUM ANGELI OMNINO INCORRUPTIBILES SINT, ET
+          <lb ed="#P" n="27"/>NECESSARIA ENTIA DICI POSSINT.
+        </p>
+        <p xml:id="szdada-x00913-d1e115">
+          <lb ed="#P" n="28"/>1. Duobus modis potest aliquid dici 
+          incor<lb break="no" ed="#P" n="29"/>ruptibile. — Hactenus explicui nonnullas 
+          pro<lb break="no" ed="#P" n="30"/>prietates, vel attributa divina negativa, quae
+          <lb ed="#P" n="31"/>Angelis convenire non possunt, quia in Dei
+          <lb ed="#P" n="32"/>infinitate fundantur. Haec vero, de qua nunc
+          <lb ed="#P" n="33"/>tractamus, videtur magis in divina 
+          immate<lb break="no" ed="#P" n="34"/>rialitate, seu spiritualitate fundari, et ideo 
+          de<lb break="no" ed="#P" n="35"/>clarandum breviter est, quomodo Angeli cum
+          <lb ed="#P" n="36"/>Deo in illa convenire possint, aut differre. Ad
+          <lb ed="#P" n="37"/>hoc ergo explicandum praemittere oportet,
+          <lb ed="#P" n="38"/>duobus modis posse aliquid incorruptibile dici.
+          <lb ed="#P" n="39"/>Uno modo ut incorruptibile solum excludit
+          <lb ed="#P" n="40"/>proprium modum corruptionis, quae propriae
+          <lb ed="#P" n="41"/>generationi opponitur, quia sicut de ratione
+          <lb ed="#P" n="42"/>generationis propriae est, ut ex praesupposito
+          <lb ed="#P" n="43"/>subjecto fiat, ita de ratione proprie 
+          corrup<lb break="no" ed="#P" n="44"/>Uonis est, ut in ea subjectum maneat, ex qua
+          <lb ed="#P" n="45"/>generetur aliud, vel saltem possit generari.
+          <lb ed="#P" n="46"/>Alio modo sumi potest incorruptibile, ut 
+          om<lb break="no" ed="#P" n="47"/>nino desitionem, et capacitatem amittendi
+          <lb ed="#P" n="48"/>esse quocumque modo excludat, quod majoris
+          <lb ed="#P" n="49"/>explicationis gratia dici potest inannihibile.
+        </p>
+        <p xml:id="szdada-x00913-d1e165">
+          <lb ed="#P" n="50"/>2. Prima conclusio. — Certm est Angelos
+          <lb ed="#P" n="51"/>aliquo modo incorruptibiles esse. —Primo ergo
+          <lb ed="#P" n="52"/>certum est, Angelos esse aliquo modo 
+          incorrup<lb break="no" ed="#P" n="53"/>tibiles, seu immortales. In hoc omnes theologi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>conveniunt. Et probatur primo ab effectu,
+          <lb ed="#P" n="55"/>quia certum de fide est, Angelos perpetuo esse
+          <lb ed="#P" n="56"/>duraturos, bonos in gloria et malos in poena,
+          <lb ed="#P" n="57"/>ergo creati a Deo sunt, ut in aeternum 
+          perma<lb break="no" ed="#P" n="58"/>neant, juxta illud Ps. 149. Statuit ea in 
+          eeter<lb break="no" ed="#P" n="59"/>mum, et in seeculum seculi. Loquebatur autem
+          <lb ed="#P" n="60"/>de Angelis, quos cum aliis rebus coelestibus
+          <lb ed="#P" n="61"/>ad laudem Dei provocaverat: ergo receperunt
+          <lb ed="#P" n="62"/>naturam de se aptam ad permanendum 
+          per<lb break="no" ed="#P" n="63"/>petuo, quod est esse incorruptibilem. Secundo
+          <lb ed="#P" n="64"/>ita loquitur de anima humana Concilium 
+          La<lb break="no" ed="#P" n="65"/>teranense sub Leone X, sess. 8, nam in 
+          qua<lb break="no" ed="#P" n="66"/>dam fidei declaratione Leonis papae a toto
+          <lb ed="#P" n="67"/>Concilio approbata contra eos, qui de natura
+          <lb ed="#P" n="68"/>animce rationalis loguentes, dicunt esse 
+          morta<lb break="no" ed="#P" n="69"/>lem, dicitur, hunc esse umn ex perniciosis 
+          er<lb break="no" ed="#P" n="70"/>roribus a fidelibus semper eaplosis. Et subditur:
+          <lb ed="#P" n="71"/>Hoc sacro approbante Concilio, damnamus, et
+          <lb ed="#P" n="72"/>reprobamus omnes asserentes, animam esse
+          <lb ed="#P" n="73"/>mortalem, utique natura sua, hunc enim 
+          sen<lb break="no" ed="#P" n="74"/>sum verba praecedentia declarant, et 
+          subsequen<lb break="no" ed="#P" n="75"/>tia. Additur enim: Cum illa non sohmn vere
+          <lb ed="#P" n="76"/>per se, et essentialiter human corporis forma
+          <lb ed="#P" n="77"/>existat, verum et immortalis, ergo a fortiori
+          <lb ed="#P" n="78"/>idem est de Angelis dicendum, quia 
+          superio<lb break="no" ed="#P" n="79"/>res, et magis immateriales sunt. Unde 
+          Dio<lb break="no" ed="#P" n="80"/>nysius, cap. 4, de divin. Nominibus, prius
+          <lb ed="#P" n="81"/>dixit, Angelos habere a Deo vitam 
+          indeficien<lb break="no" ed="#P" n="82"/>tem, et inviolabilem, a corruptione, et morte
+          <lb ed="#P" n="83"/>longissime remotam, et postea dicit, animam
+          <lb ed="#P" n="84"/>humanam post Angelos habere immortalem
+          <lb ed="#P" n="85"/>vitam, ut sit, et possit ad Angelorum aspicere
+          <lb ed="#P" n="86"/>vitas.
+        </p>
+        <p xml:id="szdada-x00913-d1e251">
+          <lb ed="#P" n="87"/>3. Tertio ita loquuntur de Angelis sanctis
+          <lb ed="#P" n="88"/>communiter. Nam praeter Dionysium, loco 
+          ci<lb break="no" ed="#P" n="89"/>tato, Damascenus, lib. 2, de Fide, cap. 3,
+          <lb ed="#P" n="90"/>dicit, Angelum essentiam intelligentem, et
+          <lb ed="#P" n="91"/>natura immortalitatem divinitus esse 
+          conse<lb break="no" ed="#P" n="92"/>utum. Et in lib. de Decret. et Placit., etc.,
+          <lb ed="#P" n="93"/>cap. 7, ait: Quod vacat corpore, id rationis est
+          <lb ed="#P" n="94"/>particeps, et immortale, ut animus, Angelus et
+          <lb ed="#P" n="95"/>daemon. Et ita etiam Athanasius, in definitione
+          <lb ed="#P" n="96"/>Angeli posuit esse immortalem, ut supra 
+          alle<lb break="no" ed="#P" n="97"/>gavi ex libro de communi essentia divinitatis.
+          <lb ed="#P" n="98"/>Et in tract. de Definitionibus, in principio, dicit,
+          <lb ed="#P" n="99"/>Angelum, et animum dici aeternos, quia licet
+          <lb ed="#P" n="100"/>initium habuerint, immortales sunt, et 
+          ceter<lb break="no" ed="#P" n="101"/>num vivunt. Et sic etiam Basilius, in principio,
+          <lb ed="#P" n="102"/>Psalm. 44, Angelos non esse mutabiles in suo
+          <lb ed="#P" n="103"/>esse, quia àin quo statu creantur, in eo perpetuo
+          <lb ed="#P" n="104"/>remanent, servata simplici, et eadem immutabili
+          <lb ed="#P" n="105"/>proprie nature substantia. Augustinus etiam
+          <lb ed="#P" n="106"/>12. de Civit., cap. 15, Angelos vocat creaturas
+          <lb ed="#P" n="107"/>immortales, quorum immortalitas (inquit) in
+          <lb ed="#P" n="108"/>tempore, nec preeterita est, quasi jam non sit,
+          <pb ed="#P" n="38"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nec futura, quasi nondum sit. Et in tractatu
+          <lb ed="#P" n="2"/>de Cognitione verae vitae Augustino attributo,
+          <lb ed="#P" n="3"/>cap. 6, Angelus detinitur, quod sit substantia
+          <lb ed="#P" n="4"/>incorporea, intellectualis, immortalis. Et 
+          Isi<lb break="no" ed="#P" n="5"/>dorus, lib. 1, Sentent., cap. 1, Angeli (inquit)
+          <lb ed="#P" n="6"/>et anime immortales sunt, sed immutabiles non
+          <lb ed="#P" n="7"/>sunt, ideoque solus dicitur immortalis, quia 
+          so<lb break="no" ed="#P" n="8"/>lus est incommutabilis. Et Julianus, 
+          archiepis<lb break="no" ed="#P" n="9"/>copus Toletanus, in lib. 1, de Orig. hum. mort.,
+          <lb ed="#P" n="10"/>cap. 2. tom. 9, Biblioth. Angelum dicit ita esse
+          <lb ed="#P" n="11"/>a Deo conditum, ut licet peccaret, omnino
+          <lb ed="#P" n="12"/>mori non posset, hominem vero ita, ut si 
+          obe<lb break="no" ed="#P" n="13"/>diens esset, non moreretur, sed Angelica cum
+          <lb ed="#P" n="14"/>immortalitas sequeretur. Ratione declarabitur
+          <lb ed="#P" n="15"/>haec veritas, modum angelicae immortalitatis
+          <lb ed="#P" n="16"/>explicando.
+        </p>
+        <p xml:id="szdada-x00913-d1e340">
+          <lb ed="#P" n="17"/>4. Secunda conclusio. — Angeli nec 
+          divini<lb break="no" ed="#P" n="18"/>tus corrumpi physice possunt.—Secundo ergo
+          <lb ed="#P" n="19"/>fit certum, si incorruptibile sumatur, ut 
+          tan<lb break="no" ed="#P" n="20"/>tum excludit propriam physicam 
+          corruptio<lb break="no" ed="#P" n="21"/>nem, Angelum esse incorruptibilem non solum
+          <lb ed="#P" n="22"/>in ordine ad causas creatas, sed etiam ad Deum
+          <lb ed="#P" n="23"/>ipsum comparatum. Probatur, quia propria
+          <lb ed="#P" n="24"/>corruptio physica non fit, nisi per 
+          separatio<lb break="no" ed="#P" n="25"/>nem formae a materia, ita ut post 
+          corruptio<lb break="no" ed="#P" n="26"/>nem totius aliquid illius maneat, scilicet, 
+          ma<lb break="no" ed="#P" n="27"/>teria, sed Angelus non est capax talis 
+          corrup<lb break="no" ed="#P" n="28"/>tionis in ordine ad quamcumque potentiam
+          <lb ed="#P" n="29"/>etiam Dei, ergo. Majorem supponimus ex 
+          de<lb break="no" ed="#P" n="30"/>finitione corruptionis physicae, et de illa sub
+          <lb ed="#P" n="31"/>dicta ratione accepta, nos hic loqui 
+          declara<lb break="no" ed="#P" n="32"/>mus. Nam in eo distinguitur corruptio ab 
+          an<lb break="no" ed="#P" n="33"/>nihilatione, et a transubstantiatione, ut est
+          <lb ed="#P" n="34"/>vulgare. Minor autem evidens est quia 
+          ange<lb break="no" ed="#P" n="35"/>lica natura est simplex, et indivisibilis, ergo
+          <lb ed="#P" n="36"/>per nullam potentiam dividi potest, seu in
+          <lb ed="#P" n="37"/>materiam, et formam resolvi, ex quibus non
+          <lb ed="#P" n="38"/>componitur. Unde in hoc differt multum 
+          in<lb break="no" ed="#P" n="39"/>corruptibilitas Angelorum ab incorruptibilitate
+          <lb ed="#P" n="40"/>coeli. Nam licet coelum sit incorruptibile 
+          res<lb break="no" ed="#P" n="41"/>pectu cujuscumque causae creatae, vel etiam
+          <lb ed="#P" n="42"/>creabilis, quia nulla vis creata esse potest,
+          <lb ed="#P" n="43"/>quae unionem formae coeli cum sua materia
+          <lb ed="#P" n="44"/>dissolvat, nihilominus respectu Dei non potest
+          <lb ed="#P" n="45"/>dici omnino incorruptibile, quia Deus potest
+          <lb ed="#P" n="46"/>separare formam coeli a materia ejus, aliam
+          <lb ed="#P" n="47"/>formam loco illius introducendo, vel 
+          mate<lb break="no" ed="#P" n="48"/>riam sine forma conservando: Angelis vero
+          <lb ed="#P" n="49"/>nullius talis corruptionis capax est ob 
+          ratio<lb break="no" ed="#P" n="50"/>nem factam.
+        </p>
+        <p xml:id="szdada-x00913-d1e416">
+          <lb ed="#P" n="51"/>5. Tertia conclusio. — Angeli sunt 
+          annili<lb break="no" ed="#P" n="52"/>labiles, et eo modo corruptibiles.—Conclusio est
+          <lb ed="#P" n="53"/>de fide. — Tertio certum est, Angelum posse
+          <lb ed="#P" n="54"/>a creatore suo privari suo esse et hac ratione
+          <lb ed="#P" n="55"/>non esse omnino incorruptibilem, si haec vox
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>omnem desitionis modum etiam 
+          annihilatio<lb break="no" ed="#P" n="57"/>nem excludat, ac proinde in contrario sensu
+          <lb ed="#P" n="58"/>posse dici corruptibilem. Hoc de fide certum
+          <lb ed="#P" n="59"/>est, quia de fide est, Angelos a Deo pendere
+          <lb ed="#P" n="60"/>non solum in fieri, sed etiam in conservati et
+          <lb ed="#P" n="61"/>similiter de fide certum est, Deum sicut libere
+          <lb ed="#P" n="62"/>creavit Angelos, ita libere etiam eos 
+          conser<lb break="no" ed="#P" n="63"/>vare, et posse Deum eos non conservare, si
+          <lb ed="#P" n="64"/>velit, absolute, ac per se loquendo. Quae omnia
+          <lb ed="#P" n="65"/>generalia sunt omnibus rebus creatis, et 
+          eam<lb break="no" ed="#P" n="66"/>dem rationem habent in Angelis, ideoque 
+          am<lb break="no" ed="#P" n="67"/>plius ea probare non est necesse: id enim
+          <lb ed="#P" n="68"/>egimus in disput. 21 Metaphysicae. Atque ita
+          <lb ed="#P" n="69"/>in hunc modum sancti Patres ad verba Paul 1,
+          <lb ed="#P" n="70"/>ad Tim. 6: Qui solus habet immortalitatem,
+          <lb ed="#P" n="71"/>inter alias expositiones hanc tradunt, quod 
+          so<lb break="no" ed="#P" n="72"/>lus Deus non potest ullo modo desinere esse,
+          <lb ed="#P" n="73"/>quia solus in suo esse ab alio non pendet:e
+          <lb ed="#P" n="74"/>contrario vero Angelos esse mortales, prout
+          <lb ed="#P" n="75"/>mortalitas immortalitati opponitur. Unde 
+          Jus<lb break="no" ed="#P" n="76"/>tinus, in quaestionibus, quas gentes Christianis
+          <lb ed="#P" n="77"/>proponunt, in principio, ad 11, 
+          interrogatio<lb break="no" ed="#P" n="78"/>nem, solum Deum immortalitatem habere 
+          di<lb break="no" ed="#P" n="79"/>cit, quia non ab alterius voluntate pendet, sed
+          <lb ed="#P" n="80"/>suapte natura haec in eum cadit. Similiter 
+          Hie<lb break="no" ed="#P" n="81"/>ronymus, Dialog. 2, contr. Pelag., parum ab
+          <lb ed="#P" n="82"/>initio: Solus Deus habet immortalitatem, quia
+          <lb ed="#P" n="83"/>per naturam habet, et non per gratiam. Et 
+          si<lb break="no" ed="#P" n="84"/>milia habet Ambrosius, lib. 3, de Fide ad
+          <lb ed="#P" n="85"/>Gratian., cap. 2. Idemque sentiunt alii sancti
+          <lb ed="#P" n="86"/>statim citandi.
+        </p>
+        <p xml:id="szdada-x00913-d1e499">
+          <lb ed="#P" n="87"/>6. Quarta conclusio bipartita. — Angeli ab
+          <lb ed="#P" n="88"/>intrinseco sunt indefectililes, etc. — Quarto 
+          di<lb break="no" ed="#P" n="89"/>cendum est, Angelos non posse desinere per
+          <lb ed="#P" n="90"/>intrinsecam potentiam realem, sed per solam
+          <lb ed="#P" n="91"/>extrinsecam potentiam Dei, et ideo 
+          immuta<lb break="no" ed="#P" n="92"/>bilitatem essendi, postquam producti sunt,
+          <lb ed="#P" n="93"/>esse illis aliquo modo connaturalem. Haec est
+          <lb ed="#P" n="94"/>sententia D. Thomae, dicta quaest. 50, art. 5,
+          <lb ed="#P" n="95"/>quam communiter ejus discipuli, et 
+          exposito<lb break="no" ed="#P" n="96"/>res sequuntur. Et praesertim illam recte 
+          de<lb break="no" ed="#P" n="97"/>clarat Cajetanus ibi, et Ferrariensis, 3 contr.
+          <lb ed="#P" n="98"/>Gent.. cap. 55, et sequitur Durandus, in 1,
+          <lb ed="#P" n="99"/>d. S, part. 1, quaest. 2. Et probatur prior pars.
+          <lb ed="#P" n="100"/>Quia omnis potentia realis intrinseca est 
+          acti<lb break="no" ed="#P" n="101"/>va, vel passiva, neutram autem habent Angeli
+          <lb ed="#P" n="102"/>ad non esse, ergo non possunt desinere esse
+          <lb ed="#P" n="103"/>per realem potentiam intrinsecam. Major nota
+          <lb ed="#P" n="104"/>ex philosophia. Minor quoad priorem partem
+          <lb ed="#P" n="105"/>de potentia activa per se nota est, quia 
+          Ange<lb break="no" ed="#P" n="106"/>lus nihil potest agere, ut seipsum destruat aut
+          <lb ed="#P" n="107"/>existentia privet, cum enim sit indivisibilis,
+          <lb ed="#P" n="108"/>non habet partes, ut per unam in aliam agendo,
+          <lb ed="#P" n="109"/>possit se corrumpere, ad eum modum, quo in
+          <lb ed="#P" n="110"/>corporalibus viventibus contingit mors et cor-
+          <pb ed="#P" n="39"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ruptio per activam potentiam aliquo modo 
+          in<lb break="no" ed="#P" n="2"/>trinsecam: Nec etiam cogitari potest activa
+          <lb ed="#P" n="3"/>potentia in Angelo, per quam idem secundum
+          <lb ed="#P" n="4"/>se totum, et quasi per se primo agat ad sui
+          <lb ed="#P" n="5"/>corruptionem, tum quia vel nulla res agit hoc
+          <lb ed="#P" n="6"/>modo in seipsam, vel agit solum ad sui 
+          per<lb break="no" ed="#P" n="7"/>fectionem, tum maxime, quia ut agat in se,
+          <lb ed="#P" n="8"/>necessario supponit se, suamque existentiam
+          <lb ed="#P" n="9"/>tam in ratione agentis, quam in ratione 
+          pa<lb break="no" ed="#P" n="10"/>tientis, ergo per talem actionem non potest se
+          <lb ed="#P" n="11"/>interimere. Unde facile probatur altera pars
+          <lb ed="#P" n="12"/>de potentia passiva, quia potentia passiva 
+          nun<lb break="no" ed="#P" n="13"/>quam est directe ad non esse, sed ad aliquod,
+          <lb ed="#P" n="14"/>vel aliud esse incompossibile alteri esse, unde
+          <lb ed="#P" n="15"/>in simplici entitate talis potentia intelligi non
+          <lb ed="#P" n="16"/>potest, ut per se notum videtur: ergo nec 
+          po<lb break="no" ed="#P" n="17"/>test in Angelo esse potentia intrinseca passiva
+          <lb ed="#P" n="18"/>ad non esse, ergo non potest desinere per 
+          in<lb break="no" ed="#P" n="19"/>trinsecam potentiam realem, quia nihil aliud
+          <lb ed="#P" n="20"/>est, posse desinere, quam posse non esse.
+        </p>
+        <p xml:id="szdada-x00913-d1e601">
+          <lb ed="#P" n="21"/>7. Probatur deinde altera conclusionis pars.
+          <lb ed="#P" n="22"/>Quia quidquid est conforme inclinationi 
+          natu<lb break="no" ed="#P" n="23"/>rah rei, est illi connaturale: at vero esse, ac
+          <lb ed="#P" n="24"/>perpetuo esse, est maxime conforme naturali
+          <lb ed="#P" n="25"/>appetitui Angelorum; ergo perpetuitas in suo
+          <lb ed="#P" n="26"/>esse simpliciter est illis connaturalis. Secundo
+          <lb ed="#P" n="27"/>explicatur amplius, quia ex quo res est a Deo
+          <lb ed="#P" n="28"/>producta, conservatio ejus ei connaturalis 
+          di<lb break="no" ed="#P" n="29"/>ci potest, quia ex quodam connaturali ordine
+          <lb ed="#P" n="30"/>illi debita est: et nulla potest esse causa 
+          natu<lb break="no" ed="#P" n="31"/>ralis, seu creata, quae hanc conservationem
+          <lb ed="#P" n="32"/>respectu angelicae naturae impediat, ergo 
+          per<lb break="no" ed="#P" n="33"/>petua conservatio est connaturalis Angelo, ac
+          <lb ed="#P" n="34"/>subinde etiam perpetuitas essendi, seu ( quod
+          <lb ed="#P" n="35"/>idem est) absoluta incorruptibilitas illi 
+          conna<lb break="no" ed="#P" n="36"/>turalis est. Tertio quamvis de absoluta 
+          poten<lb break="no" ed="#P" n="37"/>tia possit Deus annihilare Angelum, 
+          nihilo<lb break="no" ed="#P" n="38"/>minus annihilatio ipsa non est naturalis 
+          An<lb break="no" ed="#P" n="39"/>gelo, sed potius est praeternaturalis illi, imo
+          <lb ed="#P" n="40"/>quasi supernaturalis, ergo e contrario duratio
+          <lb ed="#P" n="41"/>immutabihs et perpetua est connaturalis 
+          An<lb break="no" ed="#P" n="42"/>gelo, et consequenter Angelus non est 
+          natura<lb break="no" ed="#P" n="43"/>liter destructibilis, ut sic dicam, etiamsi per
+          <lb ed="#P" n="44"/>divinam potentiam destrui possit. Confirmatur
+          <lb ed="#P" n="45"/>a simili, quia igni naturale est ex necessitate
+          <lb ed="#P" n="46"/>calefacere praesente passo, quamvis sine 
+          in<lb break="no" ed="#P" n="47"/>fluxu Dei calefacere non possit, et Deus libere
+          <lb ed="#P" n="48"/>possit illum concursum non dare, quia satis
+          <lb ed="#P" n="49"/>est, quod ille concursus sit illi connaturaliter
+          <lb ed="#P" n="50"/>debitus et quod denegatio ejus sit 
+          praeterna<lb break="no" ed="#P" n="51"/>turalis: ergo similiter Angelo naturale est, ex
+          <lb ed="#P" n="52"/>necessitate semper existere non possit, et Deus
+          <lb ed="#P" n="53"/>pro sua libertate influsum negare valeat, quia
+          <lb ed="#P" n="54"/>ad illam necessitatem satis est, quod ille 
+          in<lb break="no" ed="#P" n="55"/>fluxus sit connaturaliter debitus, nec sine mi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>raculo et praeternaturali modo negari possit.
+        </p>
+        <p xml:id="szdada-x00913-d1e684">
+          <lb ed="#P" n="57"/>8. Aliquorum evasio. — Impugnatur. — In
+          <lb ed="#P" n="58"/>tractatu de voluntario, disputatione secunda,
+          <lb ed="#P" n="59"/>queestione secunda. — Dicunt aliqui esse 
+          diver<lb break="no" ed="#P" n="60"/>sam rationem, quia ignis habet innatam vim
+          <lb ed="#P" n="61"/>ad calefaciendum, ita ut si negetur concursus,
+          <lb ed="#P" n="62"/>violentum sit illi non calefacere: Angelus vero
+          <lb ed="#P" n="63"/>non habet innatam vim ad se conservandum
+          <lb ed="#P" n="64"/>cum concursu Dei, et ex se non magis repugnat
+          <lb ed="#P" n="65"/>illi non esse, quam esse, neque habet 
+          inclina<lb break="no" ed="#P" n="66"/>tionem per modum potentiae adesse, cum in eo
+          <lb ed="#P" n="67"/>essentia a suo esse non distinguatur. Sed non
+          <lb ed="#P" n="68"/>satisfacit responsio, quia multa ex privata 
+          opi<lb break="no" ed="#P" n="69"/>nione supponit, quae vel incerta vel minus 
+          pro<lb break="no" ed="#P" n="70"/>babilia, minusque communia sunt. Nam 
+          im<lb break="no" ed="#P" n="71"/>primis quod carentia actionis in igne ex sola
+          <lb ed="#P" n="72"/>negatione concursus divini sit violenta, 
+          incer<lb break="no" ed="#P" n="73"/>tum est et minus receptum: quia licet non sit
+          <lb ed="#P" n="74"/>naturale, fortasse non est violentum, sed 
+          obe<lb break="no" ed="#P" n="75"/>dientiale. Deinde videtur supponere illa 
+          res<lb break="no" ed="#P" n="76"/>ponsio, violentum tantum esse respectu 
+          poten<lb break="no" ed="#P" n="77"/>tiae receptivae, quod falsum esse alibi 
+          ostendi<lb break="no" ed="#P" n="78"/>mus. Unde licet verum sit, naturam Angeli non
+          <lb ed="#P" n="79"/>habere vim activam ad se conservandum, sicut
+          <lb ed="#P" n="80"/>calor habet ad calefaciendum lignum, hoc nihil
+          <lb ed="#P" n="81"/>ad argumentum refert, quia hic non fit 
+          com<lb break="no" ed="#P" n="82"/>paratio aequalitatis seu similitudinis m eodem
+          <lb ed="#P" n="83"/>genere potentiae, sed proportionalitatis: nam
+          <lb ed="#P" n="84"/>sicut calori debetur concursus ad agendum 
+          ra<lb break="no" ed="#P" n="85"/>tione virtutis activae naturalis, ita substantiae
+          <lb ed="#P" n="86"/>spirituali debetur influxus ad existendum, quia
+          <lb ed="#P" n="87"/>est naturaliter receptiva talis existentiae, et 
+          il<lb break="no" ed="#P" n="88"/>lam naturaliter appetit.
+        </p>
+        <p xml:id="szdada-x00913-d1e757">
+          <lb ed="#P" n="89"/>9. Impugnatio progreditur.—Unde cum 
+          di<lb break="no" ed="#P" n="90"/>citur non appetere illum per modum potentie,
+          <lb ed="#P" n="91"/>si intelligatur de potentia activa, verum 
+          qui<lb break="no" ed="#P" n="92"/>dem est, sed non obstat, quia ut actus sit 
+          con<lb break="no" ed="#P" n="93"/>naturalis, et secundum ordinem naturae 
+          debi<lb break="no" ed="#P" n="94"/>tus, non est necessarium, ut ratione potentiae
+          <lb ed="#P" n="95"/>activae sit debitus: nam materiae primae est 
+          de<lb break="no" ed="#P" n="96"/>bita forma, etiamsi ad illam non habeat 
+          appe<lb break="no" ed="#P" n="97"/>titum potentiae activae et formae, ac materiae
+          <lb ed="#P" n="98"/>coeli connaturalis est inseparabilitas earum 
+          in<lb break="no" ed="#P" n="99"/>ter se, quamvis in neutra earum sit potentia
+          <lb ed="#P" n="100"/>activa ad unionem, sed tantum passiva et 
+          for<lb break="no" ed="#P" n="101"/>malis. Si vero intelligatur de quacumque 
+          po<lb break="no" ed="#P" n="102"/>tentia etiam receptiva, falsum est quod dicitur,
+          <lb ed="#P" n="103"/>quia omnis essentia creata est suo modo in 
+          po<lb break="no" ed="#P" n="104"/>tentia receptiva actualis existentiae a Deo. Et
+          <lb ed="#P" n="105"/>quamvis haec potentia ante rei productionem
+          <lb ed="#P" n="106"/>sit tantum objectiva, quia tantum supponitur
+          <lb ed="#P" n="107"/>res inesse possibili cum ordine ad existentiam
+          <lb ed="#P" n="108"/>actualem, quam percreationem potest recipere;
+          <lb ed="#P" n="109"/>nihilominus postquam res est producta. jam
+          <lb ed="#P" n="110"/>habet actualem entitatem, per quam nata est
+          <pb ed="#P" n="40"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>recipere perpetuitatem in existendo, quam 
+          per<lb break="no" ed="#P" n="2"/>petuitatem naturaliter appetit. Neque ad hoc
+          <lb ed="#P" n="3"/>est necessarium, ut essentia distinguatur ab
+          <lb ed="#P" n="4"/>existentia; sed satis est, quod perseverare sit
+          <lb ed="#P" n="5"/>aliquo modo distinctum abesse, sicut 
+          conser<lb break="no" ed="#P" n="6"/>vatio est aliquo modo distincta a productione,
+          <lb ed="#P" n="7"/>non quidem physice aut actualiter, sed virtute
+          <lb ed="#P" n="8"/>et eminenter.
+        </p>
+        <p xml:id="szdada-x00913-d1e829">
+          <lb ed="#P" n="9"/>10. Declaratur amplius. — Quod declaratur
+          <lb ed="#P" n="10"/>optime ex appetitu elicito, nam Angelus non
+          <lb ed="#P" n="11"/>potest desiderare vel petere creari, aut primo
+          <lb ed="#P" n="12"/>esse: jam vero creatus et existens potest 
+          desi<lb break="no" ed="#P" n="13"/>derare, ac petere perpetuo conservari et 
+          exis<lb break="no" ed="#P" n="14"/>tere: hoc autem desiderium est maxime 
+          con<lb break="no" ed="#P" n="15"/>sentaneum naturali inclinationi. Quis enim
+          <lb ed="#P" n="16"/>hoc neget? ergo hoc satis est, ut conservatio
+          <lb ed="#P" n="17"/>dicatur connaturalis Angelo, et consequenter
+          <lb ed="#P" n="18"/>etiam ejus perpetuitas sit ei non minus debita
+          <lb ed="#P" n="19"/>secundum naturalem ordinem, quam sit 
+          debi<lb break="no" ed="#P" n="20"/>tus calori concursus ad agendum. Et ideo illam
+          <lb ed="#P" n="21"/>aequiparationem videtur expresse facere 
+          Cyril<lb break="no" ed="#P" n="22"/>lus, lib. 8, Thesauri, cap. 2, dicens: Que 
+          nata<lb break="no" ed="#P" n="23"/>re precijnte insunt, ea respectu creatoris Dei
+          <lb ed="#P" n="24"/>nihil sunt. Quare sicut ignis combustivus quidem
+          <lb ed="#P" n="25"/>est, sed non Deo, sic et Angelus immortalis 
+          qui<lb break="no" ed="#P" n="26"/>dem est, sed non Deo. Quorum verborum sensus
+          <lb ed="#P" n="27"/>est: sicut naturale est igni comburere, et 
+          nihil<lb break="no" ed="#P" n="28"/>ominus Deus facere potest, ut non comburat,
+          <lb ed="#P" n="29"/>ita naturale est Angelo esse immortalem, et
+          <lb ed="#P" n="30"/>nihilominus per Dei potentiam et voluntatem
+          <lb ed="#P" n="31"/>potest suo esse privari. Unde necesse est, ut ibi
+          <lb ed="#P" n="32"/>immortale non opponatur ei, quod proprie
+          <lb ed="#P" n="33"/>mori potest: nam hoc modo non potest 
+          Ange<lb break="no" ed="#P" n="34"/>lus mori per potentiam Dei, ut declaravi. 
+          Su<lb break="no" ed="#P" n="35"/>mitur ergo pro re, quae nullo modo potest 
+          na<lb break="no" ed="#P" n="36"/>turahter deficere, nam illa etiam per potentiam
+          <lb ed="#P" n="37"/>Dei destrui potest. Talis ergo est Angelus ex
+          <lb ed="#P" n="38"/>sententia Cyrilli.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

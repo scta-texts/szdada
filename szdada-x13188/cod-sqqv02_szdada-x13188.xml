@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 28</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 28</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="523"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x13188"><!-- l4c28 -->
+        <head xml:id="szdada-x13188-Hd1e101">Caput 28</head>
+        <head xml:id="szdada-x13188-Hd1e103" type="question-title">Utrum unus angelus alium movere possit</head>
+        <p xml:id="szdada-x13188-d1e106">
+          <lb ed="#P" n="20"/>CAPUT XXVIII.
+          <lb ed="#P" n="21"/>UTRUM UNUS ANGELUS ALIUM MOVERE POSSIT.
+        </p>
+        <p xml:id="szdada-x13188-d1e113">
+          <lb ed="#P" n="22"/>1. Excluduntur mutationes alie Angeli in
+          <lb ed="#P" n="23"/>Angelum preeter localem. — Diximus de 
+          po<lb break="no" ed="#P" n="24"/>testate Angelorum ad agendum circa corpora:
+          <lb ed="#P" n="25"/>nunc aliquid de actione ipsorum inter se 
+          di<lb break="no" ed="#P" n="26"/>cendum est. Hic vero solum de mutatione 
+          lo<lb break="no" ed="#P" n="27"/>cali dicemus: quoniam de alhis mutationibus
+          <lb ed="#P" n="28"/>naturalibus nulla superest quaestio. Quia in
+          <lb ed="#P" n="29"/>Angelis nulla potest esse mutauo ad 
+          substan<lb break="no" ed="#P" n="30"/>tiam: neque etiam esse potest mutatio ad 
+          qua<lb break="no" ed="#P" n="31"/>litatem ordinis naturalis (quae possit ab 
+          extrin<lb break="no" ed="#P" n="32"/>seco agente fieri) nisi fortasse aliquam speciem
+          <lb ed="#P" n="33"/>intelligibilem. De hac vero quomodo ab uno
+          <lb ed="#P" n="34"/>Angelo possit in alium fieri solum per modum
+          <lb ed="#P" n="35"/>objecti, et non per aliud genus potestatis, in
+          <lb ed="#P" n="36"/>secundo libro satis declaratum est. Dixi autem,
+          <lb ed="#P" n="37"/>sermonem esse de mutatione, quae possit ab
+          <lb ed="#P" n="38"/>extrinseco agente fieri, propter mutationem,
+          <lb ed="#P" n="39"/>quae fit per actus immanentes: nam de illis
+          <lb ed="#P" n="40"/>certius est non posse ab uno Angelo in alium
+          <lb ed="#P" n="41"/>fieri, ut in eodem libro dixi. Idemque est de
+          <lb ed="#P" n="42"/>mutatione ad habitus, si qui forte naturaliter
+          <lb ed="#P" n="43"/>acquiruntur ab Angelo per actus: nam illae
+          <lb ed="#P" n="44"/>etiam qualitates illum modum productionis
+          <lb ed="#P" n="45"/>naturaliter sibi determinant. Unde neque a solo
+          <lb ed="#P" n="46"/>DEO connaturaliter fieri possunt, sed tantum
+          <lb ed="#P" n="47"/>per miraculum, seu per naturalem modum
+          <lb ed="#P" n="48"/>operandi. Locutus sum etiam de solis 
+          mutatio<lb break="no" ed="#P" n="49"/>nibus ordinis naturalis, nam de his, quae 
+          per<lb break="no" ed="#P" n="50"/>tinent ad ordinem gratiae, clarum est, non
+          <lb ed="#P" n="51"/>posse effici ab Angelo viribus naturahbus etiam
+          <lb ed="#P" n="52"/>in seipso, nedum in alio. An vero supernatu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>raliter possit unus immutare alium per 
+          illumi<lb break="no" ed="#P" n="54"/>nationem, et quomodo id fiat, in libro sexto
+          <lb ed="#P" n="55"/>dicemus.
+        </p>
+        <p xml:id="szdada-x13188-d1e191">
+          <lb ed="#P" n="56"/>2. Opinio Vasquii negativa in hoc capite.—
+          <lb ed="#P" n="57"/>Igitur in solo motu locali proposita dubitatio
+          <lb ed="#P" n="58"/>locum habet. Quam attingens Vasquez, 
+          dis<lb break="no" ed="#P" n="59"/>put. 194, cap. 3, § Ultim., ait trivolum esse
+          <lb ed="#P" n="60"/>quod quidam comminiscuntur, Angelos aliquos
+          <lb ed="#P" n="61"/>tantae esse virtutis, ut aliquo impulsu, quasi
+          <lb ed="#P" n="62"/>impresso Angelo alteri, ipsum moveant ad
+          <lb ed="#P" n="63"/>alium locum, vel alicui loco alligent. 
+          Funda<lb break="no" ed="#P" n="64"/>tur solum, quia hoc videtur esse proprium
+          <lb ed="#P" n="65"/>corporum Et ideo eos, qui ita sentiunt, 
+          imagi<lb break="no" ed="#P" n="66"/>natione potius quam ratione duci, putat. 
+          Ni<lb break="no" ed="#P" n="67"/>hilominus tamen adjungit, virtute Dei, et 
+          im<lb break="no" ed="#P" n="68"/>perio posse unum Angelum alium loco pellere,
+          <lb ed="#P" n="69"/>vel alligare: nam hoc videtur interdum 
+          An<lb break="no" ed="#P" n="70"/>gelus bonus circa malum efficere, etiam 
+          invi<lb break="no" ed="#P" n="71"/>tum; ergo signum est id non facere virtute
+          <lb ed="#P" n="72"/>naturali, sed divina,
+        </p>
+        <p xml:id="szdada-x13188-d1e231">
+          <lb ed="#P" n="73"/>3 Vera sententia affirmans. — Ergo vero
+          <lb ed="#P" n="74"/>semper in hac sententia sui, quod possit unus
+          <lb ed="#P" n="75"/>Angelus movere alium, etiam efficaciter 
+          com<lb break="no" ed="#P" n="76"/>pellendo illum, nisi ille sit fortior ad 
+          resisten<lb break="no" ed="#P" n="77"/>dum, et velit resistere. Et ita scripsi in 
+          Meta<lb break="no" ed="#P" n="78"/>physica, disput. 35, sect. 6, num. 28, et 
+          eam<lb break="no" ed="#P" n="79"/>dem sententiam secuti sunt aliqui moderni,
+          <lb ed="#P" n="80"/>1 p.. q. 53, praesertim Pesantius, a. 1, disp. 2,
+          <lb ed="#P" n="81"/>et Cumelius, art. 3, quaest. 5, et idem tenuit
+          <lb ed="#P" n="82"/>Major, in 2, distinct. 2, quaest. 7, in 
+          probatio<lb break="no" ed="#P" n="83"/>nibus primae assertionis. Et argumentatur in
+          <lb ed="#P" n="84"/>hunc modum: Angelus potest movere cerpus
+          <lb ed="#P" n="85"/>secundum omnes, ergo potest movere Angelum
+          <lb ed="#P" n="86"/>inferioris, vel ejusdem speciei. Quam 
+          conse<lb break="no" ed="#P" n="87"/>quentiam non probat, per se tamen videtur
+          <lb ed="#P" n="88"/>valde probabilis, ut in Metaphysica dixi, quia
+          <lb ed="#P" n="89"/>magis proportonatus videtur unus spiritus
+          <lb ed="#P" n="90"/>respectu alterius, quam corpus respectu 
+          Ange<lb break="no" ed="#P" n="91"/>li. Unde argumentor secundo, quia Angelus
+          <lb ed="#P" n="92"/>potest moveri passive tantum ab extrinseco
+          <lb ed="#P" n="93"/>motore; ergo virtus ad efficiendum hunc 
+          mo<lb break="no" ed="#P" n="94"/>tum non est cur excedat virtutem activam 
+          An<lb break="no" ed="#P" n="95"/>geli. Antecedens commune est theologorum,
+          <lb ed="#P" n="96"/>et certissimum, quia Deus potest quemlibet
+          <lb ed="#P" n="97"/>Angelum localiter movere. Et ratio est, quia
+          <lb ed="#P" n="98"/>motus localis per se, et intrinsece, non est 
+          ac<lb break="no" ed="#P" n="99"/>tus vitalis, aut immanens, et ideo ex se non
+          <lb ed="#P" n="100"/>repugnat fieri ab extrinseco agente per 
+          actio<lb break="no" ed="#P" n="101"/>nem, seu passionem transeuntem. Prima vero
+          <lb ed="#P" n="102"/>consequentia probatur, quia ad hanc 
+          mutatio<lb break="no" ed="#P" n="103"/>nem efficiendam non requiritur virtus infinita,
+          <lb ed="#P" n="104"/>ut est per se notum, tum quia alias neque 
+          An<lb break="no" ed="#P" n="105"/>gelus posset movere seipsum: tum etiam quia,
+          <lb ed="#P" n="106"/>nec in termino, nec in modo talis actionis 
+          in<lb break="no" ed="#P" n="107"/>venitur aliquid propter quod inftinitas virtutis
+          <pb ed="#P" n="524"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>necessaria sit. Neque etiam inter Angelos 
+          ali<lb break="no" ed="#P" n="2"/>qua disproportio invenitur, quae huic potestati
+          <lb ed="#P" n="3"/>repugnet: nam omnes sunt compositi ex 
+          sub<lb break="no" ed="#P" n="4"/>jecto mobili, et ipso motu, seu termino, et
+          <lb ed="#P" n="5"/>omnes habent potentiam activam motus 
+          loca<lb break="no" ed="#P" n="6"/>lis, cur ergo non habebit unus in alium hanc
+          <lb ed="#P" n="7"/>potestatem ?
+        </p>
+        <p xml:id="szdada-x13188-d1e329">
+          <lb ed="#P" n="8"/>4. Confirmatur impugnando fundamentum
+          <lb ed="#P" n="9"/>Vasquii in num. 2. — Unde non video, in quo
+          <lb ed="#P" n="10"/>vero sensu dicatur hoc esse proprium 
+          corpo<lb break="no" ed="#P" n="11"/>rum. Nam si dicatur proprium esse corporum
+          <lb ed="#P" n="12"/>moveri ab extrinseco motore, hoc evidenter
+          <lb ed="#P" n="13"/>falsum est, ut de Angelo probavimus, qui sic
+          <lb ed="#P" n="14"/>potest a Deo moveri. Neque dici potest illud
+          <lb ed="#P" n="15"/>esse miraculosum, aut per potentiam DEIT 
+          in<lb break="no" ed="#P" n="16"/>finitam, cum neque in effectu, nec in modo
+          <lb ed="#P" n="17"/>faciendi illum, interveniat aliquid. quod 
+          crea<lb break="no" ed="#P" n="18"/>tarum rerum naturas superare videatur. Si
+          <lb ed="#P" n="19"/>vero sit sensus, esse proprium corporum posse
+          <lb ed="#P" n="20"/>moveri a tali extrinseco movente, scilicet 
+          An<lb break="no" ed="#P" n="21"/>gelo, vel e contrario esse proprium Angeli 
+          ha<lb break="no" ed="#P" n="22"/>bere virtutem motivam, quasi determinatam
+          <lb ed="#P" n="23"/>ad corpora. in utroque petitur principium:
+          <lb ed="#P" n="24"/>nam hoc est, quod investigamus, an sola 
+          cor<lb break="no" ed="#P" n="25"/>pora, vel etiam spiritus possint ab Angelis 
+          mo<lb break="no" ed="#P" n="26"/>veri: et e converso, an virtus motiva Angeli
+          <lb ed="#P" n="27"/>ad extra limitetur ad corpora, vel ad alios 
+          An<lb break="no" ed="#P" n="28"/>gelos extendatur. In hoc ergo sensu illa 
+          pro<lb break="no" ed="#P" n="29"/>positio falsa est. Praeterquam quod sine 
+          funda<lb break="no" ed="#P" n="30"/>mento profertur.
+        </p>
+        <p xml:id="szdada-x13188-d1e381">
+          <lb ed="#P" n="31"/>5. Item diluendo quod ibidem probationis 
+          lo<lb break="no" ed="#P" n="32"/>co additur. — WHlud autem quod probationis
+          <lb ed="#P" n="33"/>loco addi videtur, scilicet quia nostra sententia
+          <lb ed="#P" n="34"/>non ratione, sed imaginatione ducitur, quia de
+          <lb ed="#P" n="35"/>spiritibus, ac si essent corpora, philosophatur,
+          <lb ed="#P" n="36"/>hoc, inquam, partim habere potest sensum
+          <lb ed="#P" n="37"/>verum, in quo nihil nobis obstat, sed potius
+          <lb ed="#P" n="38"/>juvat, partim habere potest sensum falsum, in
+          <lb ed="#P" n="39"/>quo etiam inutilis est probatio. Priorem 
+          par<lb break="no" ed="#P" n="40"/>tem ita declaro: nam philosophari de spiritibus
+          <lb ed="#P" n="41"/>instar corporum in iis, quibus servare possunt
+          <lb ed="#P" n="42"/>proportionem juxta materiae capacitatem, non
+          <lb ed="#P" n="43"/>solius est imaginationis, sed rationis recte 
+          phi<lb break="no" ed="#P" n="44"/>losophantium. Nam sicut corpus in suo ordine
+          <lb ed="#P" n="45"/>est mobile ab extrinseco, ita et Angelus in suo:
+          <lb ed="#P" n="46"/>et sicut ex parte mobilis non repugnat corpus
+          <lb ed="#P" n="47"/>moveri ab spiritu, ita etiam in Angelo non 
+          re<lb break="no" ed="#P" n="48"/>pugnat ex parte illius, qui movendus est, ut
+          <lb ed="#P" n="49"/>probavimus, et ipsi etiam concedunt, unum
+          <lb ed="#P" n="50"/>Angelum posse moveri ab alio, saltem ut 
+          mi<lb break="no" ed="#P" n="51"/>nistro DEI. Denique sicut ex parte moventis
+          <lb ed="#P" n="52"/>creati, et spiritualis non repugnat movere 
+          cor<lb break="no" ed="#P" n="53"/>pus; ita neque repugnat movere alium 
+          spiri<lb break="no" ed="#P" n="54"/>tum. His autem modis tantum philosophamur
+          <lb ed="#P" n="55"/>de spiritibus, non quidem ac si essent corpora,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sed per convenientem, et evidentem 
+          propor<lb break="no" ed="#P" n="57"/>tionem ad corpora.
+        </p>
+        <p xml:id="szdada-x13188-d1e444">
+          <lb ed="#P" n="58"/>6. Dilutio praecedens progreditur. — Unde
+          <lb ed="#P" n="59"/>altera pars declaratur: nam tunc aliquis 
+          pro<lb break="no" ed="#P" n="60"/>prie dicetur philosophari de motu Angelorum,
+          <lb ed="#P" n="61"/>ac si essent corporei, quando illis tribueret
+          <lb ed="#P" n="62"/>motum cum commensuratione, seu 
+          coexten<lb break="no" ed="#P" n="63"/>sione ad spatium, vel si diceret, solum moveri
+          <lb ed="#P" n="64"/>ab extrinseco agente, vel aliquid hujusmodi,
+          <lb ed="#P" n="65"/>nihil autem simile ex eo sequitur, quod unus
+          <lb ed="#P" n="66"/>Angelus alium movere possit. Nec facienda est
+          <lb ed="#P" n="67"/>vis in eo, quod in verbis illis tangitur de 
+          im<lb break="no" ed="#P" n="68"/>pulsu, quia doctrina data indifferens est, sive
+          <lb ed="#P" n="69"/>res una dicatur moveri ab alia per impulsum,
+          <lb ed="#P" n="70"/>sive per efficientiam immediatam ipsius 
+          mo<lb break="no" ed="#P" n="71"/>toris: nam quomodocumque fiat in 
+          corpori<lb break="no" ed="#P" n="72"/>bus, fieri poterit inter spiritus. Quid enim
+          <lb ed="#P" n="73"/>repugnat dari spiritualem mpulsum, si datur
+          <lb ed="#P" n="74"/>spiritualis motus: aut quid repugnat, Deum
+          <lb ed="#P" n="75"/>movere Angelum, vel per impulsum, vel sine
+          <lb ed="#P" n="76"/>illo? Ex hac ergo parte non repugnabit, unum
+          <lb ed="#P" n="77"/>Angelum moveri ab alio. An vero Angelus ad
+          <lb ed="#P" n="78"/>movencdam rem aliam illi imprimat impulsum,
+          <lb ed="#P" n="79"/>inferius dicam.
+        </p>
+        <p xml:id="szdada-x13188-d1e494">
+          <lb ed="#P" n="80"/>7. Probatur ultimo superior sententia 
+          affir<lb break="no" ed="#P" n="81"/>mans ex D. Thoma. — Ultimo resolutionem
+          <lb ed="#P" n="82"/>hanc mihi elicio ex doctrina D. Thomae, 1
+          <lb ed="#P" n="83"/>part.. quaest. 109, art. 2, dicentis, inter 
+          dae<lb break="no" ed="#P" n="84"/>mones esse praelationem ex naturali 
+          disposi<lb break="no" ed="#P" n="85"/>tione eorum, quia sicut in perfectione naturae,
+          <lb ed="#P" n="86"/>ita in actione inferiora superioribus 
+          natura<lb break="no" ed="#P" n="87"/>liter subordinantur. Ex qua doctrina colligo,
+          <lb ed="#P" n="88"/>superiores Angelos habere potestatem aliquam
+          <lb ed="#P" n="89"/>naturalem in inferiores, si pura natura 
+          insti<lb break="no" ed="#P" n="90"/>tuti ponantur: nam sine potestate unius in
+          <lb ed="#P" n="91"/>alium non potest intelligi praelatio, quae sit
+          <lb ed="#P" n="92"/>specialis relatio ab insequaltate perfectionis
+          <lb ed="#P" n="93"/>distincta. Haec autem potestas non videtur esse
+          <lb ed="#P" n="94"/>moralis. Nam haec solum esse potest potestas
+          <lb ed="#P" n="95"/>iurisdictionis. At vero non videntur Angeli
+          <lb ed="#P" n="96"/>superiores ex natura rei habere jurisdictionem
+          <lb ed="#P" n="97"/>in inferiores, quia non sunt principia, vel
+          <lb ed="#P" n="98"/>causae efficientes eorum, nec habent aliquod
+          <lb ed="#P" n="99"/>fundamentum intrinsecum naturalis dominii
+          <lb ed="#P" n="100"/>in ipsos. sola enim inaequalitas perfectionis ad
+          <lb ed="#P" n="101"/>hoc suflicere non potest. Alias infimus 
+          Ange<lb break="no" ed="#P" n="102"/>lus tot haberet superiores in se jurisdictionem
+          <lb ed="#P" n="103"/>habentes, quot habet Angelos supra se in 
+          na<lb break="no" ed="#P" n="104"/>tura perfectiores, quod per se incredibile 
+          vi<lb break="no" ed="#P" n="105"/>detur. Non est ergo illa potestas moralis; ergo
+          <lb ed="#P" n="106"/>oportet ut physica sit. Non potest autem 
+          in<lb break="no" ed="#P" n="107"/>telligi potestas physica unius Angeli in alium,
+          <lb ed="#P" n="108"/>nisi quoad motum localem, vel violentam 
+          de<lb break="no" ed="#P" n="109"/>tentionem in loco, ut ex dictis in principio
+          <lb ed="#P" n="110"/>hujus subietatis manifestum est.
+        </p>
+        <p xml:id="szdada-x13188-d1e564">
+          <pb ed="#P" n="525"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>8. Promovetur praecedens probatio. — Addo
+          <lb ed="#P" n="2"/>denique, licet inter Angelos in pura natura
+          <lb ed="#P" n="3"/>conditos admittatur potestas moralis 
+          jurisdic<lb break="no" ed="#P" n="4"/>tionis, sive ex natura rei congenita, sive ab
+          <lb ed="#P" n="5"/>auctore naturae data, sive ex communi 
+          con<lb break="no" ed="#P" n="6"/>sensu ipsorum Angelorum profecta, ad 
+          efti<lb break="no" ed="#P" n="7"/>caciam talis potestatis moralis necessariam
+          <lb ed="#P" n="8"/>esse aliquam potestatem coercitivam 
+          physi<lb break="no" ed="#P" n="9"/>cam, et executivam, ut sic dicam, coercitionis,
+          <lb ed="#P" n="10"/>seu coactionis, quae non aliter quam praedicto
+          <lb ed="#P" n="11"/>modo inter Angelos intelligi potest. Quod 
+          op<lb break="no" ed="#P" n="12"/>timo exemplo declaratur, et confirmatur :
+          <lb ed="#P" n="13"/>nam cum anima in statu peccati, et 
+          dam<lb break="no" ed="#P" n="14"/>nanda separatur a corpore, daemones violente
+          <lb ed="#P" n="15"/>rapiunt illam, et usque in infernum movent,
+          <lb ed="#P" n="16"/>ut est communis traditio Patrum, et 
+          theologo<lb break="no" ed="#P" n="17"/>rum. Non est autem verisimile id facere 
+          dae<lb break="no" ed="#P" n="18"/>mones virtute supernaturali, neque est illum
+          <lb ed="#P" n="19"/>fundamentum ad similem virtutem 
+          fingen<lb break="no" ed="#P" n="20"/>dam, faciunt ergo illud per naturalem 
+          virtu<lb break="no" ed="#P" n="21"/>tem motivam; ergo eadem ratione possunt
+          <lb ed="#P" n="22"/>daemones hanc virtutem exercere. Inter beatos
+          <lb ed="#P" n="23"/>autem Angelos licet haec potestas non desit,
+          <lb ed="#P" n="24"/>usus tamen ejus non invenitur. Tum quia
+          <lb ed="#P" n="25"/>status beatificus omnem modum violentise, et
+          <lb ed="#P" n="26"/>imperfectionis excludit: motus autem ab 
+          ex<lb break="no" ed="#P" n="27"/>trinseco in natura vivente, praesertim 
+          intel<lb break="no" ed="#P" n="28"/>lectuali vita, aut violentus est, aut valde 
+          im<lb break="no" ed="#P" n="29"/>perfectus. Tum etiam, quia Angelus beatus ad
+          <lb ed="#P" n="30"/>nutum alterius movet, quando alter 
+          impe<lb break="no" ed="#P" n="31"/>randi potestatem habet, et ideo sola locutio,
+          <lb ed="#P" n="32"/>sine alia extrinseca actione inter sanctos 
+          An<lb break="no" ed="#P" n="33"/>gelos sufficit, ut etiam* ex Apocalypsi, et ex
+          <lb ed="#P" n="34"/>aliis locis colligimus.
+        </p>
+        <p xml:id="szdada-x13188-d1e646">
+          <lb ed="#P" n="35"/>9. Declaratur exceptio in assertione 
+          adhi<lb break="no" ed="#P" n="36"/>Dita.—P6ententia Cumetii. — Dixi autem in 
+          as<lb break="no" ed="#P" n="37"/>sertione Angelum habere hanc potestatem
+          <lb ed="#P" n="38"/>movendi alium, nisi alter fortior sit, et 
+          resis<lb break="no" ed="#P" n="39"/>tat, ut indicarem, Angelum perfectiorem posse
+          <lb ed="#P" n="40"/>ex natura rei movere inferiorem, etiamsi
+          <lb ed="#P" n="41"/>renuat, e contrario vero inferiorem posse 
+          mo<lb break="no" ed="#P" n="42"/>vere superiorem, si non resistat, sed 
+          permit<lb break="no" ed="#P" n="43"/>tat, non vero ipso renuente. Et ratio est in
+          <lb ed="#P" n="44"/>promptu, quia a proporüone inaequalitatis non
+          <lb ed="#P" n="45"/>sequitur actio: vis autem Angeli superioris
+          <lb ed="#P" n="46"/>major est, et ideo, ipso resistente, non potest
+          <lb ed="#P" n="47"/>moveri ab inferiore qui minoris est virtutis.
+          <lb ed="#P" n="48"/>Quia vero illa resistentia voluntaria est, si 
+          su<lb break="no" ed="#P" n="49"/>perior nolit resistere, nihil erit quod motum
+          <lb ed="#P" n="50"/>inferioris impediat. Et eodem modo 
+          sentien<lb break="no" ed="#P" n="51"/>dum judico de Angelis aequalibus, si ejusdem
+          <lb ed="#P" n="52"/>speciei dantur. imo addunt aliqui quod 
+          Cume<lb break="no" ed="#P" n="53"/>lius sequitur, etiam superiorem Angeium non
+          <lb ed="#P" n="54"/>posse movere inferiorem ipso renuente. 
+          Fun<lb break="no" ed="#P" n="55"/>datur, quia virtus motiva Angeli non est, nisi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>voluntas, unde motio activa est ipsa volitio,
+          <lb ed="#P" n="57"/>quae ab ipsa elicitur: non potest autem 
+          volun<lb break="no" ed="#P" n="58"/>tas pati violentiam in actu elicito; ergo nec in
+          <lb ed="#P" n="59"/>motu.
+        </p>
+        <p xml:id="szdada-x13188-d1e705">
+          <lb ed="#P" n="60"/>10. Refellitur multipliciter. — At vero haec
+          <lb ed="#P" n="61"/>ratio ex falso principio procedit, statim enim
+          <lb ed="#P" n="62"/>ostendemus, potentiam motivam Angeli esse
+          <lb ed="#P" n="63"/>distinctam a voluntate. Deinde etiam ilio 
+          prin<lb break="no" ed="#P" n="64"/>cipio dato, male infert. Quod a posteriori 
+          osten<lb break="no" ed="#P" n="65"/>ditur, quia alias neque Deus posset movere
+          <lb ed="#P" n="66"/>Angelum, cogendo iilum contra ejus 
+          volunta<lb break="no" ed="#P" n="67"/>tem, quod est evidenter falsum. Et sequela 
+          pa<lb break="no" ed="#P" n="68"/>tet, quia etiam Deus non potest voluntatem
+          <lb ed="#P" n="69"/>cogere ad actum elicitum. Igitur licet voluntas
+          <lb ed="#P" n="70"/>per suum actum elicitum immediate motum
+          <lb ed="#P" n="71"/>efliceret, nihilominus motus nunquam esset
+          <lb ed="#P" n="72"/>actus elicitus a voluntate, sed esset effectus 
+          e<lb break="no" ed="#P" n="73"/>jus, seu actus imperatus; ergo quamvis 
+          Ange<lb break="no" ed="#P" n="74"/>lus cogatur a superiore agente ad recipiendum
+          <lb ed="#P" n="75"/>motum, non cogetur ad actum eliciendum, sed
+          <lb ed="#P" n="76"/>ad recipiendum motum, qui est effectus actus
+          <lb ed="#P" n="77"/>eliciti. Tunc autem Angelus, qui movetur,
+          <lb ed="#P" n="78"/>non cogitur ad volendum motum, imo ideo
+          <lb ed="#P" n="79"/>cogitur ad ipsum motum, quia non vult illum.
+          <lb ed="#P" n="80"/>Nihil ergo repugnat Angelum initum ab alio
+          <lb ed="#P" n="81"/>moveri; ergo supposita majore efticacia 
+          An<lb break="no" ed="#P" n="82"/>geli superioris, poterit movere inferiorem,
+          <lb ed="#P" n="83"/>ipso invito. Et hoc contfirmant, quae de motu
+          <lb ed="#P" n="84"/>animae separatae a daemonibus, et de potestate
+          <lb ed="#P" n="85"/>coercitiva naturah inter Angelos adduximus.
+          <lb ed="#P" n="86"/>Nostra vero Immitatio, seu declaratio 
+          intelli<lb break="no" ed="#P" n="87"/>senda est solo naturaii ordine spectato: nam
+          <lb ed="#P" n="88"/>secundum ordinem gratiae, et gloriae potest
+          <lb ed="#P" n="89"/>sanctus Angelus in natura inferior malum in
+          <lb ed="#P" n="90"/>natura perfectiorem cogere: econtrario vero
+          <lb ed="#P" n="91"/>Angelus malus perfectior nuihil agere potest
+          <lb ed="#P" n="92"/>in inferiorem secundum naturam, quia virtus
+          <lb ed="#P" n="93"/>gratiae major est, quam naturae, ut recte D.
+          <lb ed="#P" n="94"/>Thomas docuit in dicta quaest. 109, per totam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

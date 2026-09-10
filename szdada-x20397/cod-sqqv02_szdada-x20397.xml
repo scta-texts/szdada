@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="809"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x20397"><!-- l7c4 -->
+        <head xml:id="szdada-x20397-Hd1e101">Caput 4</head>
+        <head xml:id="szdada-x20397-Hd1e103" type="question-title">Utrum in angelico intellectu ante peccatum potuerit praecedere defectus, qui occasio fuerit peccati, et quis ille fuerit</head>
+        <p xml:id="szdada-x20397-d1e106">
+          <lb ed="#P" n="14"/>CAPUT IV.
+          <lb ed="#P" n="15"/>UTRUM IN ANGELICO INTELLECTU ANTE PECCATUM
+          <lb ed="#P" n="16"/>POTUERIT PRAECEDERE DEFECTUS, QUI OCCASIO
+          <lb ed="#P" n="17"/>FUERIT PECCATI, ET QUIS ILLE FUERIT.
+        </p>
+        <p xml:id="szdada-x20397-d1e117">
+          <lb ed="#P" n="18"/>1. Argumenta pro parte negativa. — Nondum
+          <lb ed="#P" n="19"/>est a nobis radicitus expedita difficultas posita
+          <lb ed="#P" n="20"/>circa potestatem peccandi Angeli: nimirum,
+          <lb ed="#P" n="21"/>quia non potest in voluntate esse peccatum,
+          <lb ed="#P" n="22"/>nisi praecedat defectus in intellectu. Nullus
+          <lb ed="#P" n="23"/>autem defectus potest antecedere in intellectu
+          <lb ed="#P" n="24"/>Angeli, priusquam peccet, qui sit praedicandi
+          <lb ed="#P" n="25"/>occasio; ergo neque potestas peccandi potest
+          <lb ed="#P" n="26"/>esse in Angelo. Major supponitur ex communi
+          <lb ed="#P" n="27"/>theologorum axiomate, quod non est in 
+          volun<lb break="no" ed="#P" n="28"/>tate peccatum, nisi in intellectu defectu 
+          ali<lb break="no" ed="#P" n="29"/>quis praecedat. Quod tradit D. Thomas, 1, 2,
+          <lb ed="#P" n="30"/>q. 17, art. 2, estque conforme modo loquendi
+          <lb ed="#P" n="31"/>Scripturae et Aristotelis, ut ibi ex professo 
+          dis<lb break="no" ed="#P" n="32"/>putatur. Quae doctrina eamdem rationem 
+          ha<lb break="no" ed="#P" n="33"/>bet in Angelis, quam in hominibus: haec 
+          au<lb break="no" ed="#P" n="34"/>tem esse videtur, quia voluntas licet sit libera,
+          <lb ed="#P" n="35"/>semper sequitur ductum rationis, et ideo non
+          <lb ed="#P" n="36"/>potest ipsa deficere, nisi male ab intellectu
+          <lb ed="#P" n="37"/>gubernetur; intellectus autem non gubernat
+          <lb ed="#P" n="38"/>voluntatem, nisi per actus suos, et ideo non
+          <lb ed="#P" n="39"/>male gubernat, nisi defectum aliquem in suis
+          <lb ed="#P" n="40"/>actibus committendo. Minor autem probatur,
+          <lb ed="#P" n="41"/>quia defectus intellectus tantum esse potest
+          <lb ed="#P" n="42"/>error, ignorantia, vel inconsideratio: nullus
+          <lb ed="#P" n="43"/>autem ex his potuit in Angelo procedere ante
+          <lb ed="#P" n="44"/>peccatum.
+        </p>
+        <p xml:id="szdada-x20397-d1e178">
+          <lb ed="#P" n="45"/>2. De errore patet, tum quia in primo 
+          ho<lb break="no" ed="#P" n="46"/>mine non potuit praecedere; ergo multo minus
+          <lb ed="#P" n="47"/>in Angelo, tum etiam quia error intellectus est
+          <lb ed="#P" n="48"/>malum quoddam grave naturae rationalis, et
+          <lb ed="#P" n="49"/>si antecedat voluntatem, non erit malum 
+          cul<lb break="no" ed="#P" n="50"/>pae, quia sine voluntate culpa non 
+          committi<lb break="no" ed="#P" n="51"/>tur, nec etiam potest esse malum poenae, quia
+          <lb ed="#P" n="52"/>poena supponit culpam, ergo non potest esse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tale malum in Angelo, ante peccatum; tum
+          <lb ed="#P" n="54"/>denique quia Angelus ante peccatum fuit in
+          <lb ed="#P" n="55"/>omni scientia naturali perfectus, et de omni
+          <lb ed="#P" n="56"/>veritate supernaturah necessaria ad non 
+          pec<lb break="no" ed="#P" n="57"/>candum habuit revelationem et fidem; ergo in
+          <lb ed="#P" n="58"/>nulla materia errare potuit ante peccatum.
+          <lb ed="#P" n="59"/>Unde facile idem probatur de ignorantia, quia
+          <lb ed="#P" n="60"/>illa etiam est quoddam malum, et cum 
+          per<lb break="no" ed="#P" n="61"/>fecta scientia in naturalibus, et fide in 
+          superna<lb break="no" ed="#P" n="62"/>turalibus esse non potest. Nam licet aliqua
+          <lb ed="#P" n="63"/>carentia scientiae in Angelo cogitari possit, illa
+          <lb ed="#P" n="64"/>non erit ignorantia, sed pura nescientia, quae
+          <lb ed="#P" n="65"/>radix, aut causa peccati esse non potest. 
+          Su<lb break="no" ed="#P" n="66"/>perest ergo sola inconsideratio, de qua idem
+          <lb ed="#P" n="67"/>probatur, quia vel illa est mere naturalis, id
+          <lb ed="#P" n="68"/>est, necessaria, vel est voluntaria et libera.
+          <lb ed="#P" n="69"/>Prior aequiparatur nescientiae, quia non est
+          <lb ed="#P" n="70"/>culpabilis, unde non poterit esse causa 
+          peccan<lb break="no" ed="#P" n="71"/>di magis quam nescientia. Posterior vero 
+          sup<lb break="no" ed="#P" n="72"/>ponit in voluntate defectum et culpam, quia
+          <lb ed="#P" n="73"/>supponit voluntatem, non considerandi libere
+          <lb ed="#P" n="74"/>id, quod ad peccatum vitandum necessarium
+          <lb ed="#P" n="75"/>erat; ergo non est prima radix peccandi.
+        </p>
+        <p xml:id="szdada-x20397-d1e251">
+          <lb ed="#P" n="76"/>3. Proponitur questio generaliter de omni
+          <lb ed="#P" n="77"/>agenteli^ero creato, ejusque sensus ecpontur.—
+          <lb ed="#P" n="78"/>Vix potest hoc punctum de Angelis explicari,
+          <lb ed="#P" n="79"/>nisi prius in generali resolvamus, an ut 
+          vo<lb break="no" ed="#P" n="80"/>lIuntas possit, peccando, deficere, praecedere in
+          <lb ed="#P" n="81"/>intellectu aliquem defectum, necessarium sit.
+          <lb ed="#P" n="82"/>Hoc non tam de Angelo, quam de homine 
+          con<lb break="no" ed="#P" n="83"/>troverti potest, eamdemque rationem 
+          dubi<lb break="no" ed="#P" n="84"/>tandi, vel forte majorem in Angelis habet,
+          <lb ed="#P" n="85"/>ideoque pro loci hujus opportunitate 
+          praemit<lb break="no" ed="#P" n="86"/>tendum est. Ut autem sensus quaestionis melius
+          <lb ed="#P" n="87"/>intelligatur, advertimus, cum quaeritur, an
+          <lb ed="#P" n="88"/>possit esse peccatum in voluntate sine defectu
+          <lb ed="#P" n="89"/>in mente, seu judicio rationis, accipiendum id
+          <lb ed="#P" n="90"/>esse de defectu, qui et vitari possit ab eo, qui
+          <lb ed="#P" n="91"/>illum patitur habendo actum illi defectui 
+          con<lb break="no" ed="#P" n="92"/>trarium, et quod ablato defectu, seu contrario
+          <lb ed="#P" n="93"/>actu posito, etiam peccatum vitaretur. Nam si
+          <lb ed="#P" n="94"/>generalius loquamur de defectu, clarum est,
+          <lb ed="#P" n="95"/>non posse voluntatem peccare, quin praecedat
+          <lb ed="#P" n="96"/>in intellectu carentia visionis Dei, quae 
+          defec<lb break="no" ed="#P" n="97"/>tus quidem est, saltem negativus, et 
+          necessa<lb break="no" ed="#P" n="98"/>rius ad potestatem peccandi, quia visio Dei
+          <lb ed="#P" n="99"/>hanc potestatem auferre valet. Nihilominus
+          <lb ed="#P" n="100"/>tamen et quia illa visio non est in potestate
+          <lb ed="#P" n="101"/>hominis, vel Angeli viatoris, neque necessaria
+          <lb ed="#P" n="102"/>est ad peccatum vitandum, ideo ejus carentia
+          <lb ed="#P" n="103"/>neque propria dici potest origo, aut occasio
+          <lb ed="#P" n="104"/>peccandi, nec de illo defectu in praesenti 
+          lo<lb break="no" ed="#P" n="105"/>quimur, sed de illo, quem Angelus vitare 
+          pos<lb break="no" ed="#P" n="106"/>sit, habendo contrariam perfectionem, seu
+          <lb ed="#P" n="107"/>actum. De quo etiam addimus, talem esse de-
+          <pb ed="#P" n="810"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bere, ut illo posito vitaretur peccatum. Nam
+          <lb ed="#P" n="2"/>si cum illo actu simul esse posset peccatum,
+          <lb ed="#P" n="3"/>defectus, seu carentia ejus non esset ad 
+          pec<lb break="no" ed="#P" n="4"/>candum necessaria: et consequenter sine tali
+          <lb ed="#P" n="5"/>defectu posset simul esse peccatum.
+        </p>
+        <p xml:id="szdada-x20397-d1e338">
+          <lb ed="#P" n="6"/>4. Prima sententia. — Hoc supposito, est
+          <lb ed="#P" n="7"/>prima sententia dicens, non posse voluntatem
+          <lb ed="#P" n="8"/>peccando deficere, nisi praecedat in intellectu
+          <lb ed="#P" n="9"/>aliquis defectus, quo non existente, nec in 
+          vo<lb break="no" ed="#P" n="10"/>luntate esset peccatum. Hanc sententiam 
+          sup<lb break="no" ed="#P" n="11"/>ponit D. Thomas in hac materia, 1 p., q. 36,
+          <lb ed="#P" n="12"/>a. 3, ad 4, et a. 5, et tradit illam in 1,2, q. 77,
+          <lb ed="#P" n="13"/>art. 2, quibus locis eam sequuntur Cajetanus
+          <lb ed="#P" n="14"/>et reliqui Thomistae: idem D. Thomas 3, 
+          con<lb break="no" ed="#P" n="15"/>tra Gent., cap. 110, et ibi Ferrariensis. Item
+          <lb ed="#P" n="16"/>D. Thomas, quaest. 16, de Malo, art. 2, ad 6 et
+          <lb ed="#P" n="17"/>1, et in 2, dist. 5, quaest. L, art. 1, et tenuit
+          <lb ed="#P" n="18"/>Alensis, 2 part., quaest. 112, m. 4; Capreolus,
+          <lb ed="#P" n="19"/>in 2, dist. 4, art. 3, in princ., et in 3, dist. 36,
+          <lb ed="#P" n="20"/>quaest. 1, a. 3, ad argumentum Scoti, contra
+          <lb ed="#P" n="21"/>1 concl. Item Durandus, in 2, dist. 5, quaest. 1,
+          <lb ed="#P" n="22"/>num. 11, et dist. 7, q. 2, dist. 36, q. 1, Vasquez
+          <lb ed="#P" n="23"/>1, 2, disp. 128, c. 5 et 6, Malonius 2, dist. 6,
+          <lb ed="#P" n="24"/>disp. 3, et Buridana 7, Ethic quaest. 5, 6 et 7.
+          <lb ed="#P" n="25"/>Referuntur etiam Adrianus, Aureolus et 
+          Cor<lb break="no" ed="#P" n="26"/>dova. Sed vel sentiunt oppositum, vel lubrice
+          <lb ed="#P" n="27"/>loquuntur, ut infra dicam. Citatur etiam 
+          Aris<lb break="no" ed="#P" n="28"/>toteles 3. Ethic, cap. 1, magisque favet, l. 3,
+          <lb ed="#P" n="29"/>cap. 3. Denique allegantur varia Scripturae
+          <lb ed="#P" n="30"/>testimonia, et Augustini, quae postea attingam.
+          <lb ed="#P" n="31"/>Potissimum autem fundamentum est, quod in
+          <lb ed="#P" n="32"/>ratione dubitandi insinuavimus, et alia in 
+          dis<lb break="no" ed="#P" n="33"/>cursu nostrae resolutionis pro hujus loci 
+          op<lb break="no" ed="#P" n="34"/>portunitate, vel necessitate attingemus.
+        </p>
+        <p xml:id="szdada-x20397-d1e403">
+          <lb ed="#P" n="35"/>5. Secunda sententia. —Secunda sententia
+          <lb ed="#P" n="36"/>valde communis est, posse voluntatem peccare,
+          <lb ed="#P" n="37"/>nullo praecedente defectu in intellectu, 
+          praeser<lb break="no" ed="#P" n="38"/>tim in primo peccato. Hanc sententiam latius,
+          <lb ed="#P" n="39"/>quam caeteri tradidit Henricus, quodl 1, q. 17,
+          <lb ed="#P" n="40"/>et quodl. 10, q. 10, et insinuat Scotus, in 2,
+          <lb ed="#P" n="41"/>dist. 6, q. 1, praesertim ad 3, apertius illam 
+          tra<lb break="no" ed="#P" n="42"/>dit in 3, dist. 3€, art. 2, dub. 1, et ibi Gabriel,
+          <lb ed="#P" n="43"/>art. 2, concl. 3, Major, quaest. 3, Ocham in 3,
+          <lb ed="#P" n="44"/>quaest. 12, art. 3, principali quaest. 2. Idem
+          <lb ed="#P" n="45"/>sentit Marsilius, in2, quaest. 16, art. 1, in fim.,
+          <lb ed="#P" n="46"/>ad 3, contra 4 concl., et toto art. 5, 
+          Almat<lb break="no" ed="#P" n="47"/>nus, tractat. 3 Merc., cap, 2 et 4, Aureolus,
+          <lb ed="#P" n="48"/>in 3, dist. 4, art. 3. Quem videntur imitari
+          <lb ed="#P" n="49"/>Cordova, lib. 3, quaest. 12 et 13, et Valentia,
+          <lb ed="#P" n="50"/>in 2 tom., disp. 6, quaest. S, punct. 1 et2, etde
+          <lb ed="#P" n="51"/>Angelis idem docet, tom. 1, disp. 4, quaest. 14,
+          <lb ed="#P" n="52"/>punct. 3, et Molina, 1 p., quaest. 63, art. 3,
+          <lb ed="#P" n="53"/>membr. 5, qui etiam Scripturam, 
+          Augusti<lb break="no" ed="#P" n="54"/>num, et Aristotelem in suae sententiae 
+          confir<lb break="no" ed="#P" n="55"/>mationem adducunt. Sed illam nunc omitto,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quia non simpliciter totam assertionem, sed
+          <lb ed="#P" n="57"/>ex parte tantum aliquid probant, ut in 
+          dis<lb break="no" ed="#P" n="58"/>cursu videbitur. Fundamentum autem 
+          praeci<lb break="no" ed="#P" n="59"/>cipue ponitur in libertate voluntatis creatae
+          <lb ed="#P" n="60"/>non videntis Deum, quae per se sufflicit ad 
+          pec<lb break="no" ed="#P" n="61"/>candum, etiamsi intellectus, quantum per se
+          <lb ed="#P" n="62"/>potest, in contrarium conetur. :
+        </p>
+        <p xml:id="szdada-x20397-d1e468">
+          <lb ed="#P" n="63"/>6. Divisio defectus intellecius in 
+          speculati<lb break="no" ed="#P" n="64"/>vim et practicum. — Quoniam vero utriusque
+          <lb ed="#P" n="65"/>opinionis auctores de intellectu speculativo
+          <lb ed="#P" n="66"/>et practico, et de variis defectibus eorum 
+          con<lb break="no" ed="#P" n="67"/>fuse, ac varie loquuntur, operae pretium 
+          exis<lb break="no" ed="#P" n="68"/>timavi per omnes defectus intellectus, et de
+          <lb ed="#P" n="69"/>singulis expendere, utrum ad peccatum 
+          vo<lb break="no" ed="#P" n="70"/>luntatis aliquis necessario praecedere debeat.
+          <lb ed="#P" n="71"/>Nam si nullus inventus fuerit, optime 
+          con<lb break="no" ed="#P" n="72"/>cludemus, sine defectu intellectus posse 
+          pec<lb break="no" ed="#P" n="73"/>care voluntatem: vel si aliquis apparuerit
+          <lb ed="#P" n="74"/>necessarius, juxta illum fortasse dictas 
+          opi<lb break="no" ed="#P" n="75"/>niones componemus. Primo ergo dividi 
+          po<lb break="no" ed="#P" n="76"/>test defectus intellectus in speculativum et
+          <lb ed="#P" n="77"/>practicum: nam hujusmodi defectus non est,
+          <lb ed="#P" n="78"/>nisi vel actus disconveniens intellectui, vel 
+          ca<lb break="no" ed="#P" n="79"/>rentia alicujus perfectionis ipsius intellectus,
+          <lb ed="#P" n="80"/>qui speculativae cognitionis, et practicae capax
+          <lb ed="#P" n="81"/>est, et ita etiam speculativum et practicum
+          <lb ed="#P" n="82"/>defectum pati potest. Uterque etiam defectus
+          <lb ed="#P" n="83"/>potest esse, vel privativus tantum, vel 
+          positi<lb break="no" ed="#P" n="84"/>vus, excludens nimirum imperfectionem 
+          in<lb break="no" ed="#P" n="85"/>tellectus per formam contrariam intellectui, et
+          <lb ed="#P" n="86"/>homini disconvenientem. In hoc ergo et 
+          se<lb break="no" ed="#P" n="87"/>quenti capite de intellectu speculativo, postea
+          <lb ed="#P" n="88"/>vero de practico dicam.
+        </p>
+        <p xml:id="szdada-x20397-d1e527">
+          <lb ed="#P" n="89"/>7. Defectus speculativus subdividitur.—
+          Ilgi<lb break="no" ed="#P" n="90"/>tur in speculativo intellectu primus defectus
+          <lb ed="#P" n="91"/>est ignorantia privationis, quae consistit in
+          <lb ed="#P" n="92"/>carentia scientiae, seu cognitionis speculativae
+          <lb ed="#P" n="93"/>habitualis et actualis: utramque enim 
+          exclu<lb break="no" ed="#P" n="94"/>dit ignorantia proprie dicta. Nam si quis actu
+          <lb ed="#P" n="95"/>sciat, licet non sciat ex habitu, non potest dici
+          <lb ed="#P" n="96"/>ignorans: si quis vero sciat in habitu, actu
+          <lb ed="#P" n="97"/>vero non consideret, non dicetur ignorans,
+          <lb ed="#P" n="98"/>sed inconsideratus. Atque hic est secundus 
+          de<lb break="no" ed="#P" n="99"/>fectus intellectus speculativi, qui 
+          inconsidera<lb break="no" ed="#P" n="100"/>tio, vel incogitantia dicitur. Tertius vero 
+          de<lb break="no" ed="#P" n="101"/>fectus est ignorantia pravae dispositionis per
+          <lb ed="#P" n="102"/>positivum errorem actualem, sive procedat ex
+          <lb ed="#P" n="103"/>habitu falso, sive ex praesentanea deceptione.
+          <lb ed="#P" n="104"/>Si vero quis habeat falsum habitum, qui dici
+          <lb ed="#P" n="105"/>potest error speculativus habitualis, et illo actu
+          <lb ed="#P" n="106"/>non utatur, neque errorem eliciat, talis 
+          defec<lb break="no" ed="#P" n="107"/>tus impertinens est ad peccandum, vel non
+          <lb ed="#P" n="108"/>peccandum, et ideo non consideratur in 
+          prae<lb break="no" ed="#P" n="109"/>senti: nam cum illo esse potest actus 
+          contra<lb break="no" ed="#P" n="110"/>rius, et verus, vel si neuter actus sit, non erit
+          <pb ed="#P" n="811"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ignorantia pravae dispositionis, sed privationis.
+          <lb ed="#P" n="2"/>In intellectu vero practico cum proportione
+          <lb ed="#P" n="3"/>considerari potest, primus defectus per 
+          caren<lb break="no" ed="#P" n="4"/>tam judicii practici necessarii ad bene 
+          ope<lb break="no" ed="#P" n="5"/>randum, vel vitandum peccatum. Secundus
+          <lb ed="#P" n="6"/>defectus esse potest carentia imperii practici,
+          <lb ed="#P" n="7"/>quem multi a judicio distinguunt. Tertius 
+          po<lb break="no" ed="#P" n="8"/>test esse defectus positivus practici erroris.
+          <lb ed="#P" n="9"/>Per hos ergo defectus discurrendum est, 
+          eos<lb break="no" ed="#P" n="10"/>que praecipue in Angelis, de quibus agimus,
+          <lb ed="#P" n="11"/>considerabimus.
+        </p>
+        <p xml:id="szdada-x20397-d1e605">
+          <lb ed="#P" n="12"/>8. Assertio. — Nullus defectus speculativus
+          <lb ed="#P" n="13"/>ad peccatum requiritur.— Quoad ignorantiam
+          <lb ed="#P" n="14"/>probatur. — Hoc supposito, dico cum 
+          poste<lb break="no" ed="#P" n="15"/>riori sententia nullum defectum speculativum
+          <lb ed="#P" n="16"/>ex necessitate praecedere ad peccatum, imo
+          <lb ed="#P" n="17"/>stante integra perfectione speculativae 
+          cogni<lb break="no" ed="#P" n="18"/>tionis in intellcctu, potest contingere in 
+          vo<lb break="no" ed="#P" n="19"/>luntate peccatum. Hanc assertionem quoad
+          <lb ed="#P" n="20"/>ignorantiam et errorem omnes admittunt,
+          <lb ed="#P" n="21"/>praesertim in Angelis: idque suflicienter 
+          pro<lb break="no" ed="#P" n="22"/>bare videtur ratio dubitandi in principio 
+          po<lb break="no" ed="#P" n="23"/>sita. Et imprimis quoad ignorantiam, quia
+          <lb ed="#P" n="24"/>Angeli a principio habent scientiam rerum
+          <lb ed="#P" n="25"/>omnium tam naturalium, quam moralium, et
+          <lb ed="#P" n="26"/>similiter habuerunt revelationem, et fidem
+          <lb ed="#P" n="27"/>rerum omnium, quae ad honeste operandum
+          <lb ed="#P" n="28"/>in ordine naturali et supernaturali necessaria
+          <lb ed="#P" n="29"/>erat: ergo non potuerunt ex ignorantia 
+          pec<lb break="no" ed="#P" n="30"/>care: multo ergo minus fuit illis necessaria
+          <lb ed="#P" n="31"/>ignorantia ad peccandum, et haec ratio probat
+          <lb ed="#P" n="32"/>etiam de primo homine. De omnibus vero
+          <lb ed="#P" n="33"/>probari potest, quia licet in eis inveniri possit
+          <lb ed="#P" n="34"/>ignorantia, non tamen potest esse ad 
+          peccan<lb break="no" ed="#P" n="35"/>dum necessaria, tum quia possunt homines
+          <lb ed="#P" n="36"/>peccare ex passione, vel malitia, etiamsi non
+          <lb ed="#P" n="37"/>sint ignorantes, ut late ostendit Aristoteles,
+          <lb ed="#P" n="38"/>libro 7, Ethicor., cap. 3, et lib. 2, magn.
+          <lb ed="#P" n="39"/>Mor., cap. 6: Quia inconveniens (ait) 
+          scien<lb break="no" ed="#P" n="40"/>liam habet, licet illam non non exerceat; tum
+          <lb ed="#P" n="41"/>etiam quia in his, qui ex ignorantia peccant,
+          <lb ed="#P" n="42"/>non potest ipsa ignorantia esse prima ratio
+          <lb ed="#P" n="43"/>peccandi proprie, ac formaliter. Quia vel 
+          igno<lb break="no" ed="#P" n="44"/>rantia est invincibilis, et sic non est causa 
+          cul<lb break="no" ed="#P" n="45"/>pae, sed potius excusat a culpa, vel est 
+          culpa<lb break="no" ed="#P" n="46"/>bilis, et sic est voluntaria, et consequenter ad
+          <lb ed="#P" n="47"/>illam praecedit culpa negligentiae in expellendo
+          <lb ed="#P" n="48"/>talem ignorantiam: quae culpa antecedit 
+          ip<lb break="no" ed="#P" n="49"/>sam ignorantiam, ut voluntariam, sub qua
+          <lb ed="#P" n="50"/>tantum ratione esse potest causa novi peccati.
+          <lb ed="#P" n="51"/>Dices, quamvis ignorantia voluntaria, seu
+          <lb ed="#P" n="52"/>vincibilis sit, non est necessc, ut ipsum 
+          igno<lb break="no" ed="#P" n="53"/>rare sit culpabile, sed operari, aut velle cum
+          <lb ed="#P" n="54"/>tali, vel tali ignorantia esse potuit culpabile.
+          <lb ed="#P" n="55"/>Respondeo, esto aliquando ita sit hoc, nihil-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ominus prima ratio culpae non est ignorantia,
+          <lb ed="#P" n="57"/>sed voluntas temere cum illa operans. Ac
+          <lb ed="#P" n="58"/>subinde talis ignorantia non potest esse ad
+          <lb ed="#P" n="59"/>peccandum necessaria. Nam qui sic 
+          ignoran<lb break="no" ed="#P" n="60"/>ter peccat, forte multo magis peccaret, si
+          <lb ed="#P" n="61"/>sciret, vel, quod certius est, posse scienter 
+          pec<lb break="no" ed="#P" n="62"/>care.
+        </p>
+        <p xml:id="szdada-x20397-d1e721">
+          <lb ed="#P" n="63"/>9. Quoad errorem probatur. — De errore
+          <lb ed="#P" n="64"/>item speculativo, seu cognitionis, ut est rei 
+          co<lb break="no" ed="#P" n="65"/>gnitae conformis, vel difformis, omnes pro
+          <lb ed="#P" n="66"/>certo supponunt non praecessisse in Angelis
+          <lb ed="#P" n="67"/>ante peccatum, ac proinde non fuisse hunc
+          <lb ed="#P" n="68"/>defectum necessarium ad peccandum, imo nec
+          <lb ed="#P" n="69"/>praecedere potuisse ad peccatum. lIta docent
+          <lb ed="#P" n="70"/>utriusque opinionis auctores. Potest tamen 
+          al<lb break="no" ed="#P" n="71"/>tero e duobus modis declarari, et probari.
+          <lb ed="#P" n="72"/>Primo, ut praeservatio ab omni errore ante
+          <lb ed="#P" n="73"/>peccatum proveniat ex peculiari ordinatione,
+          <lb ed="#P" n="74"/>ac custodia ipsius Dei, sicut de hominibus in
+          <lb ed="#P" n="75"/>statu innocentiae dicemus in tractatu sequenti,
+          <lb ed="#P" n="76"/>libro tertio, capite decimo. Et quidem si natura
+          <lb ed="#P" n="77"/>angelica tali custodia divina, et protectione
+          <lb ed="#P" n="78"/>indiget, satis probabile argumentum ab 
+          ho<lb break="no" ed="#P" n="79"/>mine ad Angelum sumitur. Quia si Deus illud
+          <lb ed="#P" n="80"/>donum contulit homini, quia ex natura sua
+          <lb ed="#P" n="81"/>errare poterat, et decipi ante peccatum, et
+          <lb ed="#P" n="82"/>sine peccato, aut per invincibilem 
+          ignoran<lb break="no" ed="#P" n="83"/>tiam, aut si deceptio non esset in rebus ad
+          <lb ed="#P" n="84"/>honestos mores pertinentibus: cur non idem
+          <lb ed="#P" n="85"/>concessisset Angelo, si sibi relictus capax esset
+          <lb ed="#P" n="86"/>erroris ante culpam, et absque culpa? Nam
+          <lb ed="#P" n="87"/>omnes rationes, quae de hoc cogitari possunt,
+          <lb ed="#P" n="88"/>habent locum in Angelo, videlicet, ut non 
+          in<lb break="no" ed="#P" n="89"/>curreret malum poenae ante malum culpae, seu
+          <lb ed="#P" n="90"/>malum naturale ante malum morale; vel ne
+          <lb ed="#P" n="91"/>de ordinaretur in seipso prius, quam a Deo 
+          ali<lb break="no" ed="#P" n="92"/>quo modo deficeret.
+        </p>
+        <p xml:id="szdada-x20397-d1e789">
+          <lb ed="#P" n="93"/>10. Declaretur circa objecta necessaria. —
+          <lb ed="#P" n="94"/>Alter modus, et probabilior est, ut Angeli
+          <lb ed="#P" n="95"/>etiam in pura natura, vel cum gratia viae 
+          spec<lb break="no" ed="#P" n="96"/>tati, vel errare non potuerint, saltem omnem
+          <lb ed="#P" n="97"/>errorem vitare valuerint, imo in illum 
+          inci<lb break="no" ed="#P" n="98"/>dere non potuerint, nisi ex aliqua culpa. Hoc
+          <lb ed="#P" n="99"/>in rebus, quae subjacent naturali cognitioni
+          <lb ed="#P" n="100"/>Angeli, facile ostenditur ex dictis in libro 
+          se<lb break="no" ed="#P" n="101"/>cundo, quia de illis rebus omnibus, sive 
+          natu<lb break="no" ed="#P" n="102"/>ralibus, sive moralibus habent evidentem 
+          co<lb break="no" ed="#P" n="103"/>gnitionem; ergo sunt ab errore immunes. Sed
+          <lb ed="#P" n="104"/>in contingentibus cogitationibus cordium, et
+          <lb ed="#P" n="105"/>rebus supernaturalibus potest esse nonnulla
+          <lb ed="#P" n="106"/>difficultas. De his enim rebus Angeli ante 
+          pec<lb break="no" ed="#P" n="107"/>catum non habebant evidentiam: unde 
+          vi<lb break="no" ed="#P" n="108"/>dentur in eis potuisse decipi per conjecturas
+          <lb ed="#P" n="109"/>judicando, vel de effectibus futuris, vel 
+          occul<lb break="no" ed="#P" n="110"/>tis cordium: et inde possent etiam sumere occa-
+          <pb ed="#P" n="812"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sionem peccandi, vel temere de aliquo 
+          judi<lb break="no" ed="#P" n="2"/>cando, vel ob eam rem odium illius 
+          concipien<lb break="no" ed="#P" n="3"/>do. Et in materia etiam supernaturali errare
+          <lb ed="#P" n="4"/>possent vel per haeresim, vel per 
+          inconsidera<lb break="no" ed="#P" n="5"/>uonem, judicando, esse licitum, quod 
+          super<lb break="no" ed="#P" n="6"/>naturaliter prohibitum est, non advertando
+          <lb ed="#P" n="7"/>prohibitionem, ut sentit Durandus, in 2, dist.
+          <lb ed="#P" n="8"/>93, quaest. 1, n. 10.
+        </p>
+        <p xml:id="szdada-x20397-d1e852">
+          <lb ed="#P" n="9"/>11. Tum et an circa objecta contingentia.—
+          <lb ed="#P" n="10"/>Nihilominus asserentum est, etiam in his 
+          ma<lb break="no" ed="#P" n="11"/>teriis non solum potuisse Angelum facile 
+          ca<lb break="no" ed="#P" n="12"/>vere omnem errorem ante peccatum, sea etiam
+          <lb ed="#P" n="13"/>non potuisse in eis decipi, sine aliquo peccato:
+          <lb ed="#P" n="14"/>ita ut deceptio potius sequeretur peccatum,
+          <lb ed="#P" n="15"/>quam antecederet. Declaratur imprimis in 
+          fu<lb break="no" ed="#P" n="16"/>turis contingentibus et occultis cordium. Quia
+          <lb ed="#P" n="17"/>in hs facile est Angelis circa cordium 
+          cogita<lb break="no" ed="#P" n="18"/>tiones, vel conutingentia futura non errare.
+          <lb ed="#P" n="19"/>Quia possunt non ferre definitum judicium de
+          <lb ed="#P" n="20"/>re ipsa, sed tantum apparentia, vel 
+          probabili<lb break="no" ed="#P" n="21"/>tate, in quo non possent errare, quia cum 
+          evi<lb break="no" ed="#P" n="22"/>dentia et certitudine de modali propos:tione
+          <lb ed="#P" n="23"/>judicant. Et quamvis possent pro sua libertate
+          <lb ed="#P" n="24"/>de rebus ipsis judicare absolute, atque ita 
+          in<lb break="no" ed="#P" n="25"/>terdum errare, id non facerent sine aliqua 
+          cul<lb break="no" ed="#P" n="26"/>pa sa'tem levi. Quia illa determinatio sine actu
+          <lb ed="#P" n="27"/>liberae voluntatis esse non posset: talis autem
+          <lb ed="#P" n="28"/>actus imprudens esset, ideoque sine aliqua
+          <lb ed="#P" n="29"/>culpa saltem levi non haberetur. Illa vero 
+          cul<lb break="no" ed="#P" n="30"/>pa errorem praeiret, quia consisteret in ipsa
+          <lb ed="#P" n="31"/>voluntate sic julicandi, quae ipsum ju.licium
+          <lb ed="#P" n="32"/>praecederet, quia illa determinatio judicii non
+          <lb ed="#P" n="33"/>posset, nisi ex determinatione voluntatis fieri.
+        </p>
+        <p xml:id="szdada-x20397-d1e909">
+          <lb ed="#P" n="34"/>12. Denique circa superuaturalia. — Et idem
+          <lb ed="#P" n="35"/>fere discursus ad judicium de rebus 
+          superna<lb break="no" ed="#P" n="36"/>turalibus applicari potest. Nam in illo ordine
+          <lb ed="#P" n="37"/>dupliciter peccari potest, scilicet per defectum,
+          <lb ed="#P" n="38"/>non credendo post sufficientem revelationem,
+          <lb ed="#P" n="39"/>quae certa fide credenda sunt, vel illa falsa esse,
+          <lb ed="#P" n="40"/>et contraria vera esse existimando, aut per
+          <lb ed="#P" n="41"/>excelsum, credendo non solum illa, quae 
+          reve<lb break="no" ed="#P" n="42"/>lantur, et quae ex illis evidenter inferuntur,
+          <lb ed="#P" n="43"/>sed etiam alia, quae incerta sunt, et nec 
+          suffi<lb break="no" ed="#P" n="44"/>cienter proponuntur, nec in revelatis evidenter
+          <lb ed="#P" n="45"/>continentur. Priori molo peccare quidem 
+          po<lb break="no" ed="#P" n="46"/>test Angelus per omissionem sine positivo 
+          er<lb break="no" ed="#P" n="47"/>rore, ut si absolute nolt credere, quod non
+          <lb ed="#P" n="48"/>videt, quia in hoc liber est, ut infra dicam.
+          <lb ed="#P" n="49"/>Quae incredulitas peccaminosa est contra 
+          obh<lb break="no" ed="#P" n="50"/>gationem credendi Deo, sicut oportet, et sicut
+          <lb ed="#P" n="51"/>ei debitum est: et nullum falsum judicium
+          <lb ed="#P" n="52"/>speculativum per se, vel necessario includit,
+          <lb ed="#P" n="53"/>aut supponit, ut facile consideranti patebit.
+          <lb ed="#P" n="54"/>Possumus vero ulterius admittere (quanquam
+          <lb ed="#P" n="55"/>incertum sit, ut infra videbimus) peccatum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>commissionis in Ángelo per errorem, utique
+          <lb ed="#P" n="57"/>ferendo judicium contrarium rebus fidei. Quia
+          <lb ed="#P" n="58"/>probabile est, Angelum esse posse haereticum (ut
+          <lb ed="#P" n="59"/>infra dicam) tunc autem etiam praecedit ordine
+          <lb ed="#P" n="60"/>naturae voluntas credendi aliquid fidei 
+          contra<lb break="no" ed="#P" n="61"/>rium, vel id, quod fides docet, esse falsum:
+          <lb ed="#P" n="62"/>atque ita etiam praecedit tunc voluntatis culpa,
+          <lb ed="#P" n="63"/>antequam intellectus decipiatur. Denique in
+          <lb ed="#P" n="64"/>alio etiam molo credendi incerta, quae 
+          ordi<lb break="no" ed="#P" n="65"/>nem naturae superent, non cogitur errare 
+          An<lb break="no" ed="#P" n="66"/>gelus, nec potest, nisi per voluntarium 
+          judi<lb break="no" ed="#P" n="67"/>cium errare. Tale autem judicium errori 
+          expo<lb break="no" ed="#P" n="68"/>situm vitare debet Angelus in omni materia,
+          <lb ed="#P" n="69"/>cum facile possit, et ideo, si errat, ferendo 
+          ab<lb break="no" ed="#P" n="70"/>solutum judicium in materia supernaturali sibi
+          <lb ed="#P" n="71"/>non revelata mediate, vel immedaiate, 
+          volunta<lb break="no" ed="#P" n="72"/>rie errat, et ideo culpa voluntatis ordine 
+          sal<lb break="no" ed="#P" n="73"/>tem naturae praecedet errorem intellectus, quia
+          <lb ed="#P" n="74"/>illa volintas quasi temere judicandi, culpa
+          <lb ed="#P" n="75"/>non caret, licet haec pro materiae capacitate
+          <lb ed="#P" n="76"/>major et minor esse valeat. Ex quibus 
+          omni<lb break="no" ed="#P" n="77"/>bus recte concluditur, ante peccatum non 
+          pos<lb break="no" ed="#P" n="78"/>se esse in Angelo positivum errorem 
+          specula<lb break="no" ed="#P" n="79"/>uvum, ac proinde peccatum voluntatis in
+          <lb ed="#P" n="80"/>Angelo nunquam proveuire ex tal errore 
+          in<lb break="no" ed="#P" n="81"/>tellectus. Idemque dicemus inferius de homine
+          <lb ed="#P" n="82"/>in statu innocentiae. In hoc vero statu licet
+          <lb ed="#P" n="83"/>saepe ex errore peccet, non tamen semper, ut
+          <lb ed="#P" n="84"/>per se notum est, et ileo universaliter certum
+          <lb ed="#P" n="85"/>est, hujusmodli errorem non esse ad 
+          peecan<lb break="no" ed="#P" n="86"/>dum necessarium.
+        </p>
+        <p xml:id="szdada-x20397-d1e1029">
+          <lb ed="#P" n="87"/>13. Quoad inconsiderationem. — Prima 
+          sen<lb break="no" ed="#P" n="88"/>Lutia asserit esse necessariam ad peccatum. —
+          <lb ed="#P" n="89"/>Superest dicendum de inconsideratione 
+          spe<lb break="no" ed="#P" n="90"/>culativa, id est, privante actuali cognitione
+          <lb ed="#P" n="91"/>alicujus veritatis speculativae. In qua major
+          <lb ed="#P" n="92"/>est difficultas, quia D. Thomas et alii saltem
+          <lb ed="#P" n="93"/>hunc defectum praerequirunt in intellectu 
+          prae<lb break="no" ed="#P" n="94"/>sertim Angeli, ut peccatum in voluntate 
+          sub<lb break="no" ed="#P" n="95"/>sequi possit. Et Aristoteles, locis citatis, 
+          distin<lb break="no" ed="#P" n="96"/>guere videtur, inter habere scientiam, et 
+          exer<lb break="no" ed="#P" n="97"/>cere illam, id est, inter scientiam in habitu
+          <lb ed="#P" n="98"/>tantum, vel consideratione ejus in actu. et 
+          si<lb break="no" ed="#P" n="99"/>enificat, cum scientia in habitu posse esse 
+          ma<lb break="no" ed="#P" n="100"/>litiam, non vero cum actuali scientiae 
+          consi<lb break="no" ed="#P" n="101"/>deratione. Nihilominus non persistit 
+          Aristote<lb break="no" ed="#P" n="102"/>les in illa distinctione, sed fatetur cum aliquo
+          <lb ed="#P" n="103"/>exercitio, seu consideratione scientiae posse
+          <lb ed="#P" n="104"/>esse peccatum. Distinguit vero ulterius inter
+          <lb ed="#P" n="105"/>actualem scientiam universalem, vel 
+          particu<lb break="no" ed="#P" n="106"/>larem: nam prior est de principiis 
+          generali<lb break="no" ed="#P" n="107"/>bus, ut omnis fornicatio est mala, etc., 
+          poste<lb break="no" ed="#P" n="108"/>rior est de particulari veritate, vel conclusione,
+          <lb ed="#P" n="109"/>verbi gratia, haec actio hic et nunc est turpis,
+          <lb ed="#P" n="110"/>vel delectabilis, etc. Fatetur ergo Aristoteles,
+          <pb ed="#P" n="813"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et cum eo divus Thomas, et omnes, stante 
+          ac<lb break="no" ed="#P" n="2"/>tuali consideratione in universali posse 
+          volun<lb break="no" ed="#P" n="3"/>tatem peccare circa singulare factum, vel 
+          ob<lb break="no" ed="#P" n="4"/>jectum, quia cognitio universalis non est 
+          re<lb break="no" ed="#P" n="5"/>gula practica, et proxima operis: et ideo
+          <lb ed="#P" n="6"/>inconsideratio principii universalis non est 
+          ne<lb break="no" ed="#P" n="7"/>cessaria, ut voluntas peccandi deficiat, sicut e
+          <lb ed="#P" n="8"/>contrario consideratio generalis principii ad
+          <lb ed="#P" n="9"/>honestam actionem sufficiens non est, nisi ad
+          <lb ed="#P" n="10"/>particulare opus, seu objectum extendatur.
+          <lb ed="#P" n="11"/>Secus vero esse dicunt de consideratione, et
+          <lb ed="#P" n="12"/>judicio singularis propositionis: nam cum illo
+          <lb ed="#P" n="13"/>non potest simul esse actuale peccatum 
+          volun<lb break="no" ed="#P" n="14"/>tatis; et ideo talis inconsideratio particularis
+          <lb ed="#P" n="15"/>speculativa antecedere debet in intellectu, ut
+          <lb ed="#P" n="16"/>in voluntate possit sequi peccatum. Et hunc
+          <lb ed="#P" n="17"/>modum peccandi per inconsiderationem 
+          parti<lb break="no" ed="#P" n="18"/>cularem videtur Aristoteles supra tribuere 
+          in<lb break="no" ed="#P" n="19"/>continenti, qui ex passione peccat Nam licet
+          <lb ed="#P" n="20"/>speculative, et in universali sciat, et advertat,
+          <lb ed="#P" n="21"/>malum esse, verbhi gratia, fornicari, tamen
+          <lb ed="#P" n="22"/>non applicat illam speculationem ad opus, seu
+          <lb ed="#P" n="23"/>ad judicium particulare de opere, quod hic et
+          <lb ed="#P" n="24"/>nunc exercere cupit, sed passione ductus utitur
+          <lb ed="#P" n="25"/>alio principio universali, agendum esse, quod
+          <lb ed="#P" n="26"/>delectat, et sub illo subsumit, fornicationem 
+          de<lb break="no" ed="#P" n="27"/>lectare, et concludit, illam esse appetendam.
+        </p>
+        <p xml:id="szdada-x20397-d1e1146">
+          <lb ed="#P" n="28"/>14. Id ostenditur etiam ex D. Thoma. —
+          <lb ed="#P" n="29"/>Unde etiam D. Thomas, in dict. q 77, art. 2,
+          <lb ed="#P" n="30"/>ad 4, primae secundae dixit, quod ille, qui 
+          ha<lb break="no" ed="#P" n="31"/>Det scientiam in universali per passionem, 
+          im<lb break="no" ed="#P" n="32"/>peditur, ne possit sub universali assumere, et
+          <lb ed="#P" n="33"/>ad conclusionem pervenire. Sed assunit (inquit)
+          <lb ed="#P" n="34"/>sub alia universali, qua» suggerit inclinatio
+          <lb ed="#P" n="35"/>passionis, et sub ea concludt. Et statim allegat
+          <lb ed="#P" n="36"/>Aristotelem cicentem, quod syllogismus 
+          in<lb break="no" ed="#P" n="37"/>continentis habet quatuor propositiones, duas
+          <lb ed="#P" n="38"/>universales, unam rationis, et aliam 
+          passio<lb break="no" ed="#P" n="39"/>nis, et duas particulares illis proportionatas.
+          <lb ed="#P" n="40"/>Sed non intellhigit D. Thomas incontinentem
+          <lb ed="#P" n="41"/>actu considerare omnes quatuor propositiones;
+          <lb ed="#P" n="42"/>alias simul etiam sub utroque syllogismo 
+          con<lb break="no" ed="#P" n="43"/>cluderet, quia posita majori et minori in 
+          ac<lb break="no" ed="#P" n="44"/>tu, necessario sequitur conclusio, sed 
+          intelli<lb break="no" ed="#P" n="45"/>git, incontinentem syllogizantem habere illas
+          <lb ed="#P" n="46"/>quatuor proposit;ones, quasi in potentia 
+          proxi<lb break="no" ed="#P" n="47"/>ma, seu in virtute. Re tamen vera sub 
+          princi<lb break="no" ed="#P" n="48"/>pio universali rationis non subsumerc, nec
+          <lb ed="#P" n="49"/>concludere. Quia passio, inquit, ligat 
+          vatio<lb break="no" ed="#P" n="50"/>nem, ne assumdat, nec concludat sub prima .et
+          <lb ed="#P" n="51"/>ita secundum D. Thomam solum habet 
+          incon<lb break="no" ed="#P" n="52"/>tinens in actu tres passiones, duas universales,
+          <lb ed="#P" n="53"/>alteram rationis, sub qua non sumit, nec 
+          con<lb break="no" ed="#P" n="54"/>cludit, et alteram passionis: Et prima durante,
+          <lb ed="#P" n="55"/>ait, assumit, et concludit sub secunda, et hoc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modo defendit etiam hanc sententiam 
+          Buri<lb break="no" ed="#P" n="57"/>dana, dicta quaest. 7.
+        </p>
+        <p xml:id="szdada-x20397-d1e1217">
+          <lb ed="#P" n="58"/>15. Opposita sententia verior. — Probatur
+          <lb ed="#P" n="59"/>primo experientia. — Caeterum haec sententia
+          <lb ed="#P" n="60"/>in hoc sensu explicata etiam discipulis, et 
+          ex<lb break="no" ed="#P" n="61"/>positoribus D. Thomae difficilis visa est. Primo
+          <lb ed="#P" n="62"/>quia videtur contra experientiam; videmus
+          <lb ed="#P" n="63"/>enim multos peccare cum actuali remorsu 
+          con<lb break="no" ed="#P" n="64"/>scientiae, quae actu judicat turpe esse, quod 
+          fa<lb break="no" ed="#P" n="65"/>ciunt, vel contra praeceptum. Judicant, 
+          in<lb break="no" ed="#P" n="66"/>quam, non tantum in universali, sed etiam in
+          <lb ed="#P" n="67"/>particulari, ut evidentius apparet in his, quae
+          <lb ed="#P" n="68"/>tantum sunt contra praecepta positiva, seu quae
+          <lb ed="#P" n="69"/>sunt mala, quia prohibita, quorum malitia
+          <lb ed="#P" n="70"/>seepe non cernitur, nisi considerando actum
+          <lb ed="#P" n="71"/>in particulari hic et nunc, et cum his 
+          cir<lb break="no" ed="#P" n="72"/>cumstantiis: ut, verbi gratia, omittere sacrum
+          <lb ed="#P" n="73"/>tali die, et hora, etc., vel comedere carnes
+          <lb ed="#P" n="74"/>hodie sine legitima causa. Idem vero est cum
+          <lb ed="#P" n="75"/>proportione in fornicatione, et aliis, quae sunt
+          <lb ed="#P" n="76"/>contra legem naturae. Nam conscientia non
+          <lb ed="#P" n="77"/>accusat in generali, sed in particulari de hoc
+          <lb ed="#P" n="78"/>accessu ad hanc, quae non est mea, vel quia
+          <lb ed="#P" n="79"/>est aliena, etc.
+        </p>
+        <p xml:id="szdada-x20397-d1e1267">
+          <lb ed="#P" n="80"/>16. Probatur secundo ex Scriptura. — Et
+          <lb ed="#P" n="81"/>hanc experientiam confirmat, et reprehendit
+          <lb ed="#P" n="82"/>Scriptura Proverb. 2: Qui letantur, cum male
+          <lb ed="#P" n="83"/>fecerint, et exultant in rebus pessimis, et simile
+          <lb ed="#P" n="84"/>est Jacob. 4: Exultatis iu superbiis vestris,
+          <lb ed="#P" n="85"/>omnis caultatio talis maligna est, et adjungit:
+          <lb ed="#P" n="86"/>Scienti bonum, et non facienti, peccatum est
+          <lb ed="#P" n="87"/>ill. Cui consonat verbum Christi, Lucae 1: 
+          Ser<lb break="no" ed="#P" n="88"/>tus, qui cognovit voluntatem domini sui, et non
+          <lb ed="#P" n="89"/>facit, etc., loquitur enim non solum de illo,
+          <lb ed="#P" n="90"/>qui habitu, vel in universali novit, sed etiam
+          <lb ed="#P" n="91"/>in particulari id considerat, et ideo de illo 
+          di<lb break="no" ed="#P" n="92"/>cit, capuabit mults, et tales videntur esse, de
+          <lb ed="#P" n="93"/>quibus Job, cap. 34, dicit: Quasi de industria
+          <lb ed="#P" n="94"/>recesserunt ab eo, et hi maxime sunt, quos,
+          <lb ed="#P" n="95"/>cap. 24, Rebelles lumini, appellat, quia coutra
+          <lb ed="#P" n="96"/>conscientiae lumen, et dictamen rationis, imo
+          <lb ed="#P" n="97"/>etiam contra actualem Dei considerationem, et
+          <lb ed="#P" n="98"/>illuminationem rebelles, peccando, fiunt. Unde
+          <lb ed="#P" n="99"/>saepe etiam Scriptura docet, voluntatem 
+          excae<lb break="no" ed="#P" n="100"/>care intellectum, potius, quam e contrario, ut
+          <lb ed="#P" n="101"/>Sapient. 2. exceecavit eos malitia eorui, unde
+          <lb ed="#P" n="102"/>dicitur Exod. 23: Ne accipias munera, quae
+          <lb ed="#P" n="103"/>etiam excecant prudentes: nimirum, ut contra
+          <lb ed="#P" n="104"/>veritatem cognitam operentur. Sic etiam 
+          Au<lb break="no" ed="#P" n="105"/>gustinus, Conc. in Psalm. 54, circa illa verba:
+          <lb ed="#P" n="106"/>Descendant u infernum viventes, aM, cum scis
+          <lb ed="#P" n="107"/>malum esse, quod facis, et tamen facis, nonne
+          <lb ed="#P" n="108"/>vivus descendis cd inferos? et Conc. 2, in Psal.
+          <lb ed="#P" n="109"/>68, exponens illud: Fiat mensa eorum, coram
+          <lb ed="#P" n="110"/>ipsis in laqueum. Coram ipsis, ait, quia sunt
+          <pb ed="#P" n="814"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tales, qui iniquitatem suam noverunt, et in ea
+          <lb ed="#P" n="2"/>pertinacissime perseverarunt, et idem fere 
+          ha<lb break="no" ed="#P" n="3"/>bet in id Psalm. 123: Cum exurgerent homines
+          <lb ed="#P" n="4"/>in nos, forte vivos deglutissent nos, ubi etiam
+          <lb ed="#P" n="5"/>ait: Zi vcivi absorbentur, qui sciunt, malum
+          <lb ed="#P" n="6"/>esse, et consentiunt, et infra: Vivi absorpti
+          <lb ed="#P" n="7"/>sunt, quia thurificant idola, scientes, quia nihil
+          <lb ed="#P" n="8"/>est dubiwn.
+        </p>
+        <p xml:id="szdada-x20397-d1e1358">
+          <lb ed="#P" n="9"/>17. Probatur tertio ratione.—Sed quoniam
+          <lb ed="#P" n="10"/>dici ad hoc potest, in his locis sermonem esse
+          <lb ed="#P" n="11"/>de scientia vel habituali, vel ad summum de
+          <lb ed="#P" n="12"/>actuali scientia in universali, non vero de
+          <lb ed="#P" n="13"/>particulari judicio; contra hoc argumentor
+          <lb ed="#P" n="14"/>secundo, quia vix potest moraliter contingere,
+          <lb ed="#P" n="15"/>ut is, qui de peccato committendo hic et nunc,
+          <lb ed="#P" n="16"/>et circa tale objectum deliberat, actu cogitet,
+          <lb ed="#P" n="17"/>et judicet actum talis speciei, vel talis objecti
+          <lb ed="#P" n="18"/>specifici esse turpem, vel prohibitum, et non
+          <lb ed="#P" n="19"/>cogitet in particulari de illo objecto et actu,
+          <lb ed="#P" n="20"/>de quo deliberat. Ut in exemplo de illo, qui ad
+          <lb ed="#P" n="21"/>sacrificandum idolo a tyranno inducitur. Nam
+          <lb ed="#P" n="22"/>si ille cogitat, idolum nihil esse profecto cum
+          <lb ed="#P" n="23"/>etiam cogitet de hoc idolo, cujus adoratio ab
+          <lb ed="#P" n="24"/>ipso petitur, necesse est, ut etiam actu judicet,
+          <lb ed="#P" n="25"/>hoc idolum nihil esse, et illud colere turpe, et
+          <lb ed="#P" n="26"/>Deo contrarium. Idem est de illo, qui actu 
+          con<lb break="no" ed="#P" n="27"/>siderat in universali fornicationem esse 
+          tur<lb break="no" ed="#P" n="28"/>pem, et rationi contrariam, nam simul cogitat
+          <lb ed="#P" n="29"/>de accessu ad hanc foeminam, quam bene novit
+          <lb ed="#P" n="30"/>non esse suam, quia non movetur ad 
+          aggre<lb break="no" ed="#P" n="31"/>diendum opus, nisi in particulari 
+          considera<lb break="no" ed="#P" n="32"/>tum; ergo consequenter necessarium est, ut
+          <lb ed="#P" n="33"/>actu etiam cogitet, hunc accessum ad istam
+          <lb ed="#P" n="34"/>esse fornicationem; ergo vix fieri potest, quin
+          <lb ed="#P" n="35"/>actu etiam in particulari judicet, hunc 
+          acces<lb break="no" ed="#P" n="36"/>sum in individuo esse turpem, quia hoc 
+          parti<lb break="no" ed="#P" n="37"/>culare judicium est veluti conclusio illata ex
+          <lb ed="#P" n="38"/>majori et minori actu consideratis, scilicet,
+          <lb ed="#P" n="39"/>omnis fornicatio est turpis, et haec est 
+          forni<lb break="no" ed="#P" n="40"/>catio: ergo non solum peccat contra scientiam
+          <lb ed="#P" n="41"/>universalem de objecti malitia, sed etiam 
+          con<lb break="no" ed="#P" n="42"/>tra judicium particulare, quo malitia illa de
+          <lb ed="#P" n="43"/>tali actu, hic et nunc exercendo cognoscitur,
+          <lb ed="#P" n="44"/>et consideratur. Atque haec ratio multo magis
+          <lb ed="#P" n="45"/>urget in intellectu angelico, tum quia non 
+          in<lb break="no" ed="#P" n="46"/>diget discursu, an tempore, ut conclusionem
+          <lb ed="#P" n="47"/>in principio, vel particulare in universali
+          <lb ed="#P" n="48"/>cognoscat, et judicet; tum etiam quia non
+          <lb ed="#P" n="49"/>impeditur passione antecedente, quominus
+          <lb ed="#P" n="50"/>universale ad singulare applicet, ut de 
+          in<lb break="no" ed="#P" n="51"/>continente homine philosophare videtur 
+          Aris<lb break="no" ed="#P" n="52"/>toteles.
+        </p>
+        <p xml:id="szdada-x20397-d1e1456">
+          <lb ed="#P" n="53"/>18. Probatur quarto a priori.—Probatur 
+          an<lb break="no" ed="#P" n="54"/>tecedens in uno sensu er D. Augustino.— 
+          Proba<lb break="no" ed="#P" n="55"/>tur in altero sensu. — Et confirmatur. — Quarto
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est generalis ratio, et a priori, quia judicium
+          <lb ed="#P" n="57"/>rationis praesertim speculativum non infert
+          <lb ed="#P" n="58"/>necessitatem voluntati ad amandum, id quod
+          <lb ed="#P" n="59"/>intellectus judicat esse bonum, seu honestum,
+          <lb ed="#P" n="60"/>vel secundum rectam rationem faciendum.
+          <lb ed="#P" n="61"/>Ergo non obstante actuali judicio, et 
+          conside<lb break="no" ed="#P" n="62"/>ratione actus boni, vel mali in particulari, 
+          po<lb break="no" ed="#P" n="63"/>test voluntas peccare. Antecedens intellectum
+          <lb ed="#P" n="64"/>de scientia, seu judicio in universali, vel ipsa
+          <lb ed="#P" n="65"/>experientia evidentissimum cest. Nam de illa
+          <lb ed="#P" n="66"/>saltem scientia notum est, quod Augustinus,
+          <lb ed="#P" n="67"/>serm. 8, in Psalm. 118, dixit: Seepe quid 
+          agen<lb break="no" ed="#P" n="68"/>dum sit, videmus, nec agimus. Preevolat 
+          intel<lb break="no" ed="#P" n="69"/>lectus, et tarde sequitur, et aliquando non. 
+          se<lb break="no" ed="#P" n="70"/>quitur humanus, atque infirmus affectus. Ub
+          <lb ed="#P" n="71"/>de actuali judicio, et consideratione 
+          Augusti<lb break="no" ed="#P" n="72"/>nus aperte loquitur: nam intellectus non 
+          pre<lb break="no" ed="#P" n="73"/>colat, dum dormit, sed dum actu discurrit, vel
+          <lb ed="#P" n="74"/>contemplatur. Addo vero ulterius, etiam de
+          <lb ed="#P" n="75"/>particulari judicio esse verissimum antecedens.
+          <lb ed="#P" n="76"/>Primo a posteriori, quia alias nunquam 
+          volun<lb break="no" ed="#P" n="77"/>tas libere consentiret, quia sine praevio judicio
+          <lb ed="#P" n="78"/>non potest velle, et posito judicio necessario
+          <lb ed="#P" n="79"/>vult; ergo nunquam est in potestate ejus velle,
+          <lb ed="#P" n="80"/>vel non velle, positis omnibus ad agendum 
+          re<lb break="no" ed="#P" n="81"/>quisitis. Confirmatur, quia vel judicium illud
+          <lb ed="#P" n="82"/>particulare est liberum, vel necessarium: si
+          <lb ed="#P" n="83"/>liberum, supponit voluntatem judicandi, et
+          <lb ed="#P" n="84"/>tunc inquiritur de illa voluntate, quale 
+          judi<lb break="no" ed="#P" n="85"/>cium supponat, et ne procedatur in infinitum,
+          <lb ed="#P" n="86"/>sistendum erit in primo judicio non libero. De
+          <lb ed="#P" n="87"/>iHo ergo inquiritur, an necessitet voluntatem,
+          <lb ed="#P" n="88"/>necne: nam si necessitat, perit libertas 
+          volun<lb break="no" ed="#P" n="89"/>tatis, tum quia eadem est ratio de reliquis, tum
+          <lb ed="#P" n="90"/>etiam quia ex illa voluntate reliquae cum illa
+          <lb ed="#P" n="91"/>connexae, eadem necessitate consequuntur. Si
+          <lb ed="#P" n="92"/>vero posito primo judicio non necessario 
+          se<lb break="no" ed="#P" n="93"/>quitur consensus voluntatis, procedit ratio
+          <lb ed="#P" n="94"/>facta, quod talis actus voluntatis poterit esse
+          <lb ed="#P" n="95"/>culpabilis, etiamsi in intellectu speculativo,
+          <lb ed="#P" n="96"/>ejusque jidicio tam universali, quam 
+          particu<lb break="no" ed="#P" n="97"/>lari nullus defectus praecedat. Respondent vero
+          <lb ed="#P" n="98"/>aliqui negando hanc ultimam conseqventiam,
+          <lb ed="#P" n="99"/>quia licet judicium rectum particulare non
+          <lb ed="#P" n="100"/>necessitet voluntatem quoad exercitium, 
+          nihil<lb break="no" ed="#P" n="101"/>ominus necessitat quoad specificationem, ita
+          <lb ed="#P" n="102"/>ut si velit, necessario debeat honeste velle,
+          <lb ed="#P" n="103"/>conformando affectum suum praeexistenti 
+          ju<lb break="no" ed="#P" n="104"/>dicio. Sed contra hanc fugam paulo 
+          ostende<lb break="no" ed="#P" n="105"/>mus, falsum assumere.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 18</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 18</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="757"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x19096"><!-- l6c18 -->
+        <head xml:id="szdada-x19096-Hd1e101">Caput 18</head>
+        <head xml:id="szdada-x19096-Hd1e103" type="question-title">Quomodo inter angelos distributa sint ministeria angelicae custodiae</head>
+        <p xml:id="szdada-x19096-d1e106">
+          <lb ed="#P" n="19"/>CAPUT XVII.
+          <lb ed="#P" n="20"/>QUOMODO INTER ANGELOS DISTRIBUTA SINT 
+          MINISTE<lb break="no" ed="#P" n="21"/>RIA ANGELICAE CUSTODIAE.
+        </p>
+        <p xml:id="szdada-x19096-d1e115">
+          <lb ed="#P" n="22"/>1. Suppositio prima. — Rerum custodiam
+          <lb ed="#P" n="23"/>solis Angelis sanctis esse commissam, de F'ide
+          <lb ed="#P" n="24"/>est.—buo supersunt de hac custodia 
+          Angelo<lb break="no" ed="#P" n="25"/>rum declaranda; unum est, quibus Angelis
+          <lb ed="#P" n="26"/>committatur, aliud est, per quas actiones 
+          exer<lb break="no" ed="#P" n="27"/>ceatur. De primo in hoc capite, de secundo in
+          <lb ed="#P" n="28"/>sequenti agemus. Ad utrumque tamen 
+          decla<lb break="no" ed="#P" n="29"/>randum imprimis supponendum est, hanc 
+          cus<lb break="no" ed="#P" n="30"/>todiam, sive hominum, sive rerum 
+          inferio<lb break="no" ed="#P" n="31"/>rum, solis Angelis sanctis esse commissam.
+          <lb ed="#P" n="32"/>Prior parscerta, et de Fide est ex verbis 
+          Chris<lb break="no" ed="#P" n="33"/>ti: Angelorum semper vident faciem Patris,
+          <lb ed="#P" n="34"/>Matth. 18. Et in hoc sensu dixit David. 
+          Ange<lb break="no" ed="#P" n="35"/>lis suis Deus mandavit de te, ut custodiant te,
+          <lb ed="#P" n="36"/>Psal. 90, etc., Qui facit Angelos suos spiritus,
+          <lb ed="#P" n="37"/>Psal. 103. Nam licet omnes Angel sint Dei
+          <lb ed="#P" n="38"/>per creationem, soli tamen sancti sunt proprie
+          <lb ed="#P" n="39"/>ejus servi et speciales ministri, quos propterea
+          <lb ed="#P" n="40"/>suos specialiter appeliat. Et ratio est in 
+          promp<lb break="no" ed="#P" n="41"/>tu, quia haec custodia hominibus datur, ut per
+          <lb ed="#P" n="42"/>eam ad cognoscendum, et diligendum Deum,
+          <lb ed="#P" n="43"/>suamque salutem procurandam adjuventur;
+          <lb ed="#P" n="44"/>ergo non potuit nisi sanctis Angelis committi.
+          <lb ed="#P" n="45"/>Nam mali totis conatibus perdere homines
+          <lb ed="#P" n="46"/>procurant. Posterior item pars verissima est,
+          <lb ed="#P" n="47"/>et certa. Sumitur ex divo Thoma, 1 part.,
+          <lb ed="#P" n="48"/>quaest. 113, art. 3, et clarius ex Augustino,
+          <lb ed="#P" n="49"/>lib. 12, Genes. ad litt., cap. 35, ubi sic ait:
+          <lb ed="#P" n="50"/>Sancti Angeli his corporalibus judicandis, 
+          at<lb break="no" ed="#P" n="51"/>que adinistrandis, presunt, etc. Et optime
+          <lb ed="#P" n="52"/>lib. 3, de libero Arbitrio, cap. 11, Prius ait,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>sanctas, et sublimes creaturas caelestium, vel
+          <lb ed="#P" n="54"/>super caelestium potestatum esse, quibus Deus
+          <lb ed="#P" n="55"/>imperat, universus autet mundus subjectus est,
+          <lb ed="#P" n="56"/>et addit inferius: Illi data est potentia omnia
+          <lb ed="#P" n="57"/>cont:nendi officio proprio, guod rerum ordini
+          <lb ed="#P" n="58"/>deesse non posset. Negue ideo in bona voluntate
+          <lb ed="#P" n="59"/>permanet, quia hoc accepit officiumn, sed ideo
+          <lb ed="#P" n="60"/>accepit, quoniav ab illo, qui dedit, per nansura
+          <lb ed="#P" n="61"/>preevisa est.
+        </p>
+        <p xml:id="szdada-x19096-d1e206">
+          <lb ed="#P" n="62"/>2. Quibus verbis occurrit Augustinus 
+          ob<lb break="no" ed="#P" n="63"/>jectioni, quae fieri poterat: nam custodia 
+          uni<lb break="no" ed="#P" n="64"/>versi, praesertim rerum corporalium, ut 
+          ele<lb break="no" ed="#P" n="65"/>mentorum, et corporum coelestium, commissa
+          <lb ed="#P" n="66"/>est Angelis, prius quam peccarent: nam 
+          an<lb break="no" ed="#P" n="67"/>tea, ut credimus, coeli moveri coeperunt. 
+          Con<lb break="no" ed="#P" n="68"/>tngere ergo potuit, ut aliqui ex peccantibus
+          <lb ed="#P" n="69"/>motores coelorum fuerint; ergo non est 
+          neces<lb break="no" ed="#P" n="70"/>sarium illos ex sanctis Angelis existere. Et
+          <lb ed="#P" n="71"/>confirmatur: nam Damascenus, lib. 2, cap. 4,
+          <lb ed="#P" n="72"/>existimat praecipuum Angelum peccantem 
+          il<lb break="no" ed="#P" n="73"/>lum fuisse, qui terrestris ordinis principatum
+          <lb ed="#P" n="74"/>tenebat, cuique custodiendae terrae cura a Deo
+          <lb ed="#P" n="75"/>conmnissa fuerat. Juxsta hane vero Damasceni
+          <lb ed="#P" n="76"/>sententiam respondendum esset, malos 
+          Ange<lb break="no" ed="#P" n="77"/>los suum principatum peccando amisisse, et
+          <lb ed="#P" n="78"/>aliis Angelis sanctis datum esse: tum quia non
+          <lb ed="#P" n="79"/>decebat, nec expediebat Peum talibus 
+          minis<lb break="no" ed="#P" n="80"/>tris ad mundum gubernandum uti, tum etiam
+          <lb ed="#P" n="81"/>quia Angeli peccando omni honore, et 
+          prae<lb break="no" ed="#P" n="82"/>eminentia indigni facti sunt, et ita Angelis
+          <lb ed="#P" n="83"/>natura inferioribus subjecti permanserunt.
+          <lb ed="#P" n="84"/>Melius autem respondetur cum Augustino,
+          <lb ed="#P" n="85"/>il'am mutationem motorum, vel custodum,
+          <lb ed="#P" n="86"/>aut praesidentium universo, necessariam non
+          <lb ed="#P" n="87"/>fuisse, quia Deus futurorum praescius non nisi
+          <lb ed="#P" n="88"/>in sanctitate permansuris illa munera 
+          com<lb break="no" ed="#P" n="89"/>misit.
+        </p>
+        <p xml:id="szdada-x19096-d1e270">
+          <lb ed="#P" n="90"/>3. Suppositio secunda.— Angeli custodes ex
+          <lb ed="#P" n="91"/>quatuor primis ordinibus non sunt.—Secundo
+          <lb ed="#P" n="92"/>supponimus Angelos custodes non esse ex
+          <lb ed="#P" n="93"/>quatuor primis, ac supremis ordinibus 
+          Ange<lb break="no" ed="#P" n="94"/>lorum. Hoc supponit divus Thomas in dicta
+          <lb ed="#P" n="95"/>quaest. 113, praesertim art. 2 et 3, et sumitur
+          <lb ed="#P" n="96"/>ex Dionysio, cap. 4, 9et 13, de coel. Hierarch.
+          <lb ed="#P" n="97"/>Athanasius, in dicto lib. de Comm. essent., et
+          <lb ed="#P" n="98"/>sequitur manifeste ex dictis supra de Angelis,
+          <lb ed="#P" n="99"/>qui mittuntur. Diximus enim quatuor 
+          prima<lb break="no" ed="#P" n="100"/>rios ordines non mitti: Angeli autem custodes,
+          <lb ed="#P" n="101"/>cujuscumque ordinis sint, mittuntur ad sua
+          <lb ed="#P" n="102"/>ministeria obeunda, per quae ministeria 
+          cus<lb break="no" ed="#P" n="103"/>todiendi munus exequuntur; ergo custodes
+          <lb ed="#P" n="104"/>Angeli tantum sunt ex quinque inferioribus
+          <lb ed="#P" n="105"/>ordinibus. Solum potest objici Chrysostomus,
+          <lb ed="#P" n="106"/>hom. 60, in Matth. Nam dicit, Angelos 
+          custc<lb break="no" ed="#P" n="107"/>des esse ex excelleutibus, atque supremis. Sed
+          <pb ed="#P" n="758"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>opinor, ibi comparationem facere tantum ad
+          <lb ed="#P" n="2"/>malos Angelos, vel certe ad Angelos in pura
+          <lb ed="#P" n="3"/>natura spectatos, et secundum alterutram
+          <lb ed="#P" n="4"/>comparationem, omnes sanctos Angelos 
+          ex<lb break="no" ed="#P" n="5"/>cellentes, atque supremos vocare. Id autem ex
+          <lb ed="#P" n="6"/>eo colligo, quod ad probandam illam 
+          excellen<lb break="no" ed="#P" n="7"/>tiam, solum inducit, quod vident faciem 
+          Pa<lb break="no" ed="#P" n="8"/>tris. Sic enim ait, Zic vero non de Angelis
+          <lb ed="#P" n="9"/>simpliciter dicitur, sed de excellentibus, atque
+          <lb ed="#P" n="10"/>supremis. Nilil enim aliud designatur, cum
+          <lb ed="#P" n="11"/>faciem dicat Patris mei aspiciunt, quam 
+          sum<lb break="no" ed="#P" n="12"/>ma fiducia eorum, et honor precipuus. At hic
+          <lb ed="#P" n="13"/>honor communis est omnibus sanctis Angelis.
+          <lb ed="#P" n="14"/>Solum ergo declarare voluit, hanc custodiium
+          <lb ed="#P" n="15"/>non solum commendari ex perfectione 
+          na<lb break="no" ed="#P" n="16"/>turae angelicae (ut talis est ) sed maxime ex
+          <lb ed="#P" n="17"/>dignitate visionis beatae, quae longe est 
+          excel<lb break="no" ed="#P" n="18"/>lentior.
+        </p>
+        <p xml:id="szdada-x19096-d1e355">
+          <lb ed="#P" n="19"/>4. Ex proxima occursione consertarium.—
+          <lb ed="#P" n="20"/>Dubium an Dominationibus custodia commissi
+          <lb ed="#P" n="21"/>sit.—Resolvitur.—Et ideosupra contra aliquos
+          <lb ed="#P" n="22"/>modernos dixi, non esse verisimile, eumdem
+          <lb ed="#P" n="23"/>Angelum Michaelem appellatum, esse 
+          supre<lb break="no" ed="#P" n="24"/>mum omnium Angelorum, et Seraphinorum,
+          <lb ed="#P" n="25"/>et esse ex officio custodem alicujus gentis, vel
+          <lb ed="#P" n="26"/>communitatis, etiam totius Ecclesiae. 
+          Minus<lb break="no" ed="#P" n="27"/>que probabile est aliquos ex Seraphinis, vel
+          <lb ed="#P" n="28"/>Cherubinis, aut Thronis ad aliquod 
+          ordina<lb break="no" ed="#P" n="29"/>rium munus custodiae ex officio deputari. De
+          <lb ed="#P" n="30"/>ordine vero Dominationum magis dubitari
+          <lb ed="#P" n="31"/>posset, quia cum ad ministrantes pertineat,
+          <lb ed="#P" n="32"/>inter custodientes numerari potest: cum 
+          om<lb break="no" ed="#P" n="33"/>nia ministeria ad custodiam ordinentur (ut
+          <lb ed="#P" n="34"/>diximus ). Sed hoc dubium in sola vocis 
+          aequi<lb break="no" ed="#P" n="35"/>vocatione potest fundari: nos enim loquimur
+          <lb ed="#P" n="36"/>de Angelis, qui aliquas actiones ad custodiam
+          <lb ed="#P" n="37"/>pertinentes per seipsos exercent: et sic 
+          dici<lb break="no" ed="#P" n="38"/>mus etiam Dominationum ordinem inter 
+          cus<lb break="no" ed="#P" n="39"/>todientes Angelos non comprehendi. Si tamen
+          <lb ed="#P" n="40"/>custodes etiam dicantur illi, qui toti custodiae
+          <lb ed="#P" n="41"/>praesunt, et omnibus exercentibus illam 
+          impe<lb break="no" ed="#P" n="42"/>rant, et quid agere debeant. Dei nutu 
+          inti<lb break="no" ed="#P" n="43"/>mant, atque ordinant, sic verum est, hoc 
+          mu<lb break="no" ed="#P" n="44"/>nus ad Dominationes pertinere.
+        </p>
+        <p xml:id="szdada-x19096-d1e414">
+          <lb ed="#P" n="45"/>5. Tertia suppostio. — Custodia altera 
+          par<lb break="no" ed="#P" n="46"/>ticularis, altera universal/s. — Tertio 
+          suppo<lb break="no" ed="#P" n="47"/>nendum est, ex D. Thoma, dicta quaest. 113,
+          <lb ed="#P" n="48"/>art. 3, angelicam custodiam distingui in 
+          par<lb break="no" ed="#P" n="49"/>ticularem, et universalem. Particularem vocat
+          <lb ed="#P" n="50"/>illam, quae est circa singulares personas; 
+          uni<lb break="no" ed="#P" n="51"/>versalem vero omnem illam, quae vel circa
+          <lb ed="#P" n="52"/>species tantum, vel circa communitates, quae
+          <lb ed="#P" n="53"/>ex pluribus personis constant, versatur: vel
+          <lb ed="#P" n="54"/>etiam illam, quae non circa unam, vel alteram
+          <lb ed="#P" n="55"/>personam, communitatem, vel speciem occu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>patur, sed ad generale aliquod ministerium,
+          <lb ed="#P" n="57"/>vel modum operandi destinatur, licet circa res
+          <lb ed="#P" n="58"/>varias exerceri possit, ut est operatio 
+          miracu<lb break="no" ed="#P" n="59"/>lorum, coertio daemonum, et si quid aliquid
+          <lb ed="#P" n="60"/>est simile. Et utriusque custodiae actiones ad
+          <lb ed="#P" n="61"/>duos fines proxime ordinantur: quaedam sunt
+          <lb ed="#P" n="62"/>ad removenda mala, seu nocumenta, non 
+          tan<lb break="no" ed="#P" n="63"/>tum spiritualia, sed etiam corporalia: alia
+          <lb ed="#P" n="64"/>sunt ad conservandum, vel promovendum
+          <lb ed="#P" n="65"/>bonum, sic dixit Petrus Cellensis, lib. 1, 
+          Mys<lb break="no" ed="#P" n="66"/>tic. Expcsit. tabernacul. in fin., totum officium
+          <lb ed="#P" n="67"/>Angelorum quantum ad nos esse, ut nos a malo
+          <lb ed="#P" n="68"/>defendant, et in bono conservent. Quod 
+          intelli<lb break="no" ed="#P" n="69"/>gcendum est de bono tam corporis, quam 
+          ani<lb break="no" ed="#P" n="70"/>mae; nam utrumque nobis Angclh procurant,
+          <lb ed="#P" n="71"/>licet ad spiritale bonum tota custodia 
+          refera<lb break="no" ed="#P" n="72"/>tur. Deinde hujusmodi actiones, licet propter
+          <lb ed="#P" n="73"/>hominem praecipue fiant, tamen eodem modo
+          <lb ed="#P" n="74"/>circa circa illum fiunt. Aliquando enim actio
+          <lb ed="#P" n="75"/>Angeli omnino extra nos versatur removendo
+          <lb ed="#P" n="76"/>nociva, et applicando utilia, aliquando interius
+          <lb ed="#P" n="77"/>in nobis, et aliquando nobiscum operantur,
+          <lb ed="#P" n="78"/>utique nos instruendo, et illuminando circa
+          <lb ed="#P" n="79"/>malum vitandum, vel bonum amandum. Quas
+          <lb ed="#P" n="80"/>cogitationes nos saepe in nobis sentimus, et
+          <lb ed="#P" n="81"/>ab Angelo custode proveniunt, etiamsi nos in
+          <lb ed="#P" n="82"/>certo dijudicare non valeamus: nunquam 
+          ta<lb break="no" ed="#P" n="83"/>men in nobis habent effectum moraliter 
+          bo<lb break="no" ed="#P" n="84"/>num ab Angelo intentum, nisi nos 
+          consentia<lb break="no" ed="#P" n="85"/>mus, quem consensum Angelus effticaciter 
+          fa<lb break="no" ed="#P" n="86"/>cere non potest, nec ad illum proxime 
+          coope<lb break="no" ed="#P" n="87"/>rari, ut ex superioribus constat.
+        </p>
+        <p xml:id="szdada-x19096-d1e512">
+          <lb ed="#P" n="88"/>6. Custodia particularis hominum infime
+          <lb ed="#P" n="89"/>lhierarchiae commissa est. — His positis 
+          impri<lb break="no" ed="#P" n="90"/>mis est, custodiam particularem singulorum
+          <lb ed="#P" n="91"/>hominum Angelis infimi ordinis infimae 
+          Hie<lb break="no" ed="#P" n="92"/>rarchiae (quibus nomen Angelorum, quasi per
+          <lb ed="#P" n="93"/>antonomasiam appropriatum est) esse 
+          commis<lb break="no" ed="#P" n="94"/>sam. Ita D. Thomas, dicta q. 113, a. 3, et 
+          su<lb break="no" ed="#P" n="95"/>mitur ex Dionysio, c. 9, et expressius tradit
+          <lb ed="#P" n="96"/>Athanasius, dicto lib. de Comm. essent. seu
+          <lb ed="#P" n="97"/>libro Testimoniorum de naturali 
+          communica<lb break="no" ed="#P" n="98"/>tione, dicens: Postremi omnium sunt Angeli,
+          <lb ed="#P" n="99"/>qui et hoininum peedagogi sunt censcndi. Et in
+          <lb ed="#P" n="100"/>hac proprietate putat D. Thomas sumi 
+          Ange<lb break="no" ed="#P" n="101"/>lorum nomen in Ps. 90, cum dicitur, Angelis
+          <lb ed="#P" n="102"/>suis Deus mandavit de te. Et idem sentit 
+          Gre<lb break="no" ed="#P" n="103"/>gorius, hom. 34, in Evang, dum ait, munus
+          <lb ed="#P" n="104"/>horum Angelorum esse infima nuntiare. Nam
+          <lb ed="#P" n="105"/>haec videntur esse illa, de quibus singulae 
+          pri<lb break="no" ed="#P" n="106"/>vatae personae illuminandae sunt. Ratio vero
+          <lb ed="#P" n="107"/>est: quia ille ordo infimus Angelorum est
+          <lb ed="#P" n="108"/>proxime super homines; ergo habet 
+          immedia<lb break="no" ed="#P" n="109"/>tum ordinem ad illos; ergo secundum 
+          conve<lb break="no" ed="#P" n="110"/>nientem divinae providentiae dispositionem illi
+          <pb ed="#P" n="759"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sunt aptissimi, ut ad particularem custodiam
+          <lb ed="#P" n="2"/>singulorum hominum destinentur.
+        </p>
+        <p xml:id="szdada-x19096-d1e573">
+          <lb ed="#P" n="3"/>7. Utrum omnes chori infi me hierarchiae ad
+          <lb ed="#P" n="4"/>hominum custodiam deputentur .— Advertere
+          <lb ed="#P" n="5"/>autem opus est in infimo ordine Angelorum
+          <lb ed="#P" n="6"/>dari, secundum Dionysium, infimos, medios,
+          <lb ed="#P" n="7"/>et primos. Unde dubitari potest, ex quibus
+          <lb ed="#P" n="8"/>sint, isti Angeli hominum custodes. Nam D.
+          <lb ed="#P" n="9"/>Thomas, in d. art. 3, ad 1, censet probabile,
+          <lb ed="#P" n="10"/>Angelos custodes hominum esse ex supremis
+          <lb ed="#P" n="11"/>hujus infimi orlinis Angelorum. Et ita 
+          expo<lb break="no" ed="#P" n="12"/>nit Chrysostomum, quem nos supra aliter 
+          in<lb break="no" ed="#P" n="13"/>terpretati sumus. Erit autem hoc satis 
+          pro<lb break="no" ed="#P" n="14"/>babile, si duo gradus illius ordinis, infimus, et
+          <lb ed="#P" n="15"/>medius ducantur circa res inferiores occupari:
+          <lb ed="#P" n="16"/>infimus circa res insensibiles, et medius circa
+          <lb ed="#P" n="17"/>animalia bruta, supremus circa homines: quia
+          <lb ed="#P" n="18"/>nobilius est, unum singularem hominem 
+          cus<lb break="no" ed="#P" n="19"/>todire, quam unam inferiorem speciem. Sed
+          <lb ed="#P" n="20"/>hoc incertum est: ideoque determinate dicere
+          <lb ed="#P" n="21"/>non possumus, Angelos custodes hominum
+          <lb ed="#P" n="22"/>esse tantum ex supremis Angelis infimi 
+          or<lb break="no" ed="#P" n="23"/>dinis. D. Thomas mmn illo sensu est locutus, nam
+          <lb ed="#P" n="24"/>expresse dicit proLabile esse. majores 
+          Angeio<lb break="no" ed="#P" n="25"/>rum ad custodiendos homines, qui in gloria
+          <lb ed="#P" n="26"/>majores futuri sunt, deputari. Unde potius
+          <lb ed="#P" n="27"/>sentit, inferiores Angelos ad custodiendos 
+          ho<lb break="no" ed="#P" n="28"/>mines minoris sanctitatis etiam destinari.
+        </p>
+        <p xml:id="szdada-x19096-d1e632">
+          <lb ed="#P" n="29"/>8. Probatior sententia.—Occurrit vero 
+          com<lb break="no" ed="#P" n="30"/>munis objectio, quia in illo ordine, et 
+          quoh<lb break="no" ed="#P" n="31"/>bet gradu ejus, vel omnes Angeli sunt specie
+          <lb ed="#P" n="32"/>distincti, vel saltem intra illum sunt plures
+          <lb ed="#P" n="33"/>species, ex quibus sola infima est proxime 
+          su<lb break="no" ed="#P" n="34"/>perior homine; ergo vel unus solus Angelus,
+          <lb ed="#P" n="35"/>vel ad summum Angeli infimae speciei ultimi
+          <lb ed="#P" n="36"/>ordinis Angelorum homines custodiunt. Nam
+          <lb ed="#P" n="37"/>cum homines sint aequales in specie, aequales
+          <lb ed="#P" n="38"/>etiam Angelos custodes habere debent. Ad
+          <lb ed="#P" n="39"/>hanc objectionem respondet D. Thomas, dic.
+          <lb ed="#P" n="40"/>quaest. 113, artic.2 ad 2, quod licet non omnes
+          <lb ed="#P" n="41"/>Angeli infimi ordinis sint in perfectione 
+          na<lb break="no" ed="#P" n="42"/>turae immediati humanae speciei, nihilominus
+          <lb ed="#P" n="43"/>quoad munus custodiendi, et illuminandi 
+          ho<lb break="no" ed="#P" n="44"/>mines possunt habere immediatum ordinem
+          <lb ed="#P" n="45"/>ad illos. Sicut e contrario omnes ordines 
+          su<lb break="no" ed="#P" n="46"/>premae Hierarchiae immediate illuminantur a
+          <lb ed="#P" n="47"/>Deo, licet non omnes sint aque propinqui 
+          se<lb break="no" ed="#P" n="48"/>cundum perfectionem naturalem ipsi Deo.
+          <lb ed="#P" n="49"/>Quod quidem optime dictum est, quia, ut 
+          su<lb break="no" ed="#P" n="50"/>pra dixi, ad aliquam immediatam habitudinem
+          <lb ed="#P" n="51"/>sufficere potest convenientia in aliquo gradu,
+          <lb ed="#P" n="52"/>seu genere, licet non sit ultima differentia.
+          <lb ed="#P" n="53"/>Secundo addit D. Thomas, ibidem ad 3, licet
+          <lb ed="#P" n="54"/>homines sint aequales in natura specifica, a
+          <lb ed="#P" n="55"/>Deo tamen destinari ad inaequalia officia, vel
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>munera gratiae, et gloriae: et ita posse etiam
+          <lb ed="#P" n="57"/>esse inaequalitates in Angelis custodibus :
+          <lb ed="#P" n="58"/>quod est quidem verum, sed non videtur 
+          uni<lb break="no" ed="#P" n="59"/>versaliter necessarium; quia multi homines
+          <lb ed="#P" n="60"/>erunt aequales in gloria, et nihilominus 
+          pote<lb break="no" ed="#P" n="61"/>runt habere custodes Angelos inaequaliter 
+          per<lb break="no" ed="#P" n="62"/>fectos, praecipue si verum est, omnes Angelos
+          <lb ed="#P" n="63"/>esse diversae speciei. Nec id censeo 
+          inconve<lb break="no" ed="#P" n="64"/>niens propteridem principium proximetactum.
+          <lb ed="#P" n="65"/>Quia omnes Angeli infimi ordinis possunt ad
+          <lb ed="#P" n="66"/>totam speciem humanam habere immediatam
+          <lb ed="#P" n="67"/>habitudinem quoad ministerium custodiendi.
+          <lb ed="#P" n="68"/>Et ideo licet personae humanae sint aequales in
+          <lb ed="#P" n="69"/>natura, et gratia potest quilibet Angelus 
+          il<lb break="no" ed="#P" n="70"/>lius gradus ad illarum custodiam deputari,
+          <lb ed="#P" n="71"/>pro solo Dei arbitrio, sine respectu, vel 
+          consi<lb break="no" ed="#P" n="72"/>deratione inaequalitatis. Quamvis credibile sit,
+          <lb ed="#P" n="73"/>ubi talis respectus intercedit, Deum servare
+          <lb ed="#P" n="74"/>proportionem ad illum in cozstituendis 
+          Ange<lb break="no" ed="#P" n="75"/>lis custodibus.
+        </p>
+        <p xml:id="szdada-x19096-d1e740">
+          <lb ed="#P" n="76"/>9. Quam custodiam exerceant superiores 
+          or<lb break="no" ed="#P" n="77"/>dines iufime Hierurchiee. —Ex quo facile con
+          <lb ed="#P" n="78"/>jectari potest, quid de caeteris ordinibus 
+          dicen<lb break="no" ed="#P" n="79"/>dum sit. Generaliter enim docent Patres, duos
+          <lb ed="#P" n="80"/>superiores ordines ejusdem Hierarchiae aliquam
+          <lb ed="#P" n="81"/>custodiam immediate exercere, sed altiorem et
+          <lb ed="#P" n="82"/>universaliorem. Ita docet D. Thomas, d. art. 3,
+          <lb ed="#P" n="83"/>Gregorius, dicta hom. 34, in Evang., idemque
+          <lb ed="#P" n="84"/>habet lib. 4, Moral.. cap. 17, abas 31, ubi ait,
+          <lb ed="#P" n="85"/>Archangelos Angelis praeesse, eademque est
+          <lb ed="#P" n="86"/>sententia Dionysii, Athanasi, et fere aliorum
+          <lb ed="#P" n="87"/>in citatis locis. Et patet ex ratione generali 
+          op<lb break="no" ed="#P" n="88"/>timi ordinis divina providentiae. Quae autem
+          <lb ed="#P" n="89"/>pars ad Archangelos, quae vero ad principatus
+          <lb ed="#P" n="90"/>pertineat, incertum est. Unde D. Thomas sub
+          <lb ed="#P" n="91"/>disjunctione de illis loquitur in dicto art. 3,
+          <lb ed="#P" n="92"/>dicens: Custodia humane multitudinis pertinet
+          <lb ed="#P" n="93"/>ad Principatus, et fere ad Archangelos, qui d--
+          <lb ed="#P" n="94"/>cuntur Principes Angelorum. Nerumtamen
+          <lb ed="#P" n="95"/>quamvis generali modo Archangeli sint 
+          Prin<lb break="no" ed="#P" n="96"/>cipes respectu Angelorum, nihilominus 
+          Princi<lb break="no" ed="#P" n="97"/>pes proprie dicti, seu ordo Principatuum 
+          dis<lb break="no" ed="#P" n="98"/>tinctus est ab ordine Archangelorum, et ideo
+          <lb ed="#P" n="99"/>necesse est diversa ministeria custodiendi 
+          dis<lb break="no" ed="#P" n="100"/>tinctas personas illis assignari, si uterque ordo
+          <lb ed="#P" n="101"/>aliquam custodiam per se, et immediate 
+          exer<lb break="no" ed="#P" n="102"/>cet, ut creditur.
+        </p>
+        <p xml:id="szdada-x19096-d1e801">
+          <lb ed="#P" n="103"/>10. Archangeli insignium dignitate 
+          perso<lb break="no" ed="#P" n="104"/>narum curamn habent.— Principatus 
+          compauni<lb break="no" ed="#P" n="105"/>tates sercant.—VUnde probabile est, 
+          Archange<lb break="no" ed="#P" n="106"/>lis committi curam quarumdam insignium
+          <lb ed="#P" n="107"/>personarum, quatenus peculiarem dignitatem,
+          <lb ed="#P" n="108"/>vel publicum munus habent. Sicut Bernardus,
+          <lb ed="#P" n="109"/>epist. 77, dicit Gabrielem, qui supremus 
+          An<lb break="no" ed="#P" n="110"/>gelus secundi ordinis esse creditur, fuisse bea-
+          <pb ed="#P" n="760"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tissimae Virginis custodem, et eadem ratione
+          <lb ed="#P" n="2"/>dicuntur isti Angel nuntiare summa, ut ait
+          <lb ed="#P" n="3"/>Gregorius, d. hom. 34, in Evang. Adillos ergo
+          <lb ed="#P" n="4"/>pertinuit Apostolorum custodia, et 
+          Propheta<lb break="no" ed="#P" n="5"/>rum, ac Patriarcharum veteris Testamenti, et
+          <lb ed="#P" n="6"/>Pontificum, Episcoporum, Regum, etc. 
+          Princi<lb break="no" ed="#P" n="7"/>patibus vero specialiter commissa creditur
+          <lb ed="#P" n="8"/>custodia communitatum: sicut Michael dicitur
+          <lb ed="#P" n="9"/>unus de PFrincipibus, Dan. 10, ubi etiam 
+          Prin<lb break="no" ed="#P" n="10"/>cipes regnorum, Persarum et Graecorum 
+          com<lb break="no" ed="#P" n="11"/>memorantur. Et hoc confirmat regula Basilii,
+          <lb ed="#P" n="12"/>lib. 3, contra Eunom., dicentis: Quanto gens
+          <lb ed="#P" n="13"/>uni viro preponenda est, tanto majorem necesse
+          <lb ed="#P" n="14"/>est Angeli, qui gentis principatum habeat, esse
+          <lb ed="#P" n="15"/>dignitatem. Et idem sentit Origenes 1, Peri.,
+          <lb ed="#P" n="16"/>cap. 8, Hieronymus et Theodoretus, in 
+          Danie<lb break="no" ed="#P" n="17"/>lem.
+        </p>
+        <p xml:id="szdada-x19096-d1e862">
+          <lb ed="#P" n="18"/>11. Potestates specialiter humanum genus
+          <lb ed="#P" n="19"/>sercant. — Quid de Virtutibus D. Thomas 
+          cen<lb break="no" ed="#P" n="20"/>seat. — Aliter vero ad Virtutes et Potestates
+          <lb ed="#P" n="21"/>aliqua custodia immediate pertinet: nam illis
+          <lb ed="#P" n="22"/>ordinibus non est specialiter commissa aliqua
+          <lb ed="#P" n="23"/>persona privata, aut publica, vera aut mystica
+          <lb ed="#P" n="24"/>(ut sic dicam) sed ex parte actionum, ad quas
+          <lb ed="#P" n="25"/>ex officio destinantur, universalem quamdam
+          <lb ed="#P" n="26"/>custodiam habere dicuntur. Potestates enim,
+          <lb ed="#P" n="27"/>quae immediate sunt supra Principatus, 
+          cen<lb break="no" ed="#P" n="28"/>sentur specialiter custodire humanum genus,
+          <lb ed="#P" n="29"/>et totum universum, coercendo daemones (ut
+          <lb ed="#P" n="30"/>Gregorius et D. Thomas docent). Daemones
+          <lb ed="#P" n="31"/>enim infinitis modis nocerent hominibus et res
+          <lb ed="#P" n="32"/>universi perturbarent, si potestati, ac 
+          volun<lb break="no" ed="#P" n="33"/>tati suae relinquerentur; de facto vero id 
+          tan<lb break="no" ed="#P" n="34"/>tum possunt, quod eis a Deo permittitur; hoc
+          <lb ed="#P" n="35"/>autem sanctis Potestatibus revelatur, 
+          earum<lb break="no" ed="#P" n="36"/>que executioni committitur. Unde quod, 
+          Apo<lb break="no" ed="#P" n="37"/>cal. 9, legimus de quatuor Angelis, utique
+          <lb ed="#P" n="38"/>malis, ligatis in flumine Euphrate, et postea
+          <lb ed="#P" n="39"/>solutis, per Potestates factum esse intelligimus,
+          <lb ed="#P" n="40"/>et sic de aliis. De Virtutibus autem ait D. 
+          Tho<lb break="no" ed="#P" n="41"/>mas, dicto art. 3, habere custodian super omnes
+          <lb ed="#P" n="42"/>naturas corporeas. Ex quo aliqui colligunt,
+          <lb ed="#P" n="43"/>custodiam illam, quam diximus habere 
+          Ange<lb break="no" ed="#P" n="44"/>los de singulis speciebus rerum corporalium,
+          <lb ed="#P" n="45"/>similiter huic ordini Angelorum esse 
+          commis<lb break="no" ed="#P" n="46"/>sam, de cujus sententiae probabilitate in fine
+          <lb ed="#P" n="47"/>capitis sequentis dicam.
+        </p>
+        <p xml:id="szdada-x19096-d1e930">
+          <lb ed="#P" n="48"/>12. Ad quem ordinem pertineant cali 
+          moto<lb break="no" ed="#P" n="49"/>res. — De motoribus item coelestium orbium,
+          <lb ed="#P" n="50"/>dubitari potest, an transcendant medium 
+          gra<lb break="no" ed="#P" n="51"/>dum angelici ordinis. Quia licet motus coelorum
+          <lb ed="#P" n="52"/>ad conservationem et gubernationem universi
+          <lb ed="#P" n="53"/>ordinentur, et sub ea ratione quamdam 
+          uni<lb break="no" ed="#P" n="54"/>versalitatem habeant, et maximi momenti sint,
+          <lb ed="#P" n="55"/>nihilominus in se, et valde materialis, seu cor-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>poralis actio est, et infimi ordinis, utique non
+          <lb ed="#P" n="57"/>viventium, et ideo Angeli, etiam infimi 
+          ordi<lb break="no" ed="#P" n="58"/>nis, ad illam sufficere verisimile apparet. At
+          <lb ed="#P" n="59"/>vero D. Thomas 3, contra Gent., c. 80: 
+          Prin<lb break="no" ed="#P" n="60"/>cipium (ait) universalis operationis ad hunc
+          <lb ed="#P" n="61"/>ordinem utique Virtutum, pertinet - unde 
+          vide<lb break="no" ed="#P" n="62"/>tur quod ad eundem pertineat motus caelestium
+          <lb ed="#P" n="63"/>corporunm, ex quibus, sicut a quibusdam causis
+          <lb ed="#P" n="64"/>universalibus consequuntur particulares effectus
+          <lb ed="#P" n="65"/>in natura. Et ideo virtutes celorun 
+          nominan<lb break="no" ed="#P" n="66"/>tur, Luc. 21, ubi dicitur quod virtutes celorum
+          <lb ed="#P" n="67"/>movebuntur, et Opusc. 10, art. 17, idem dicit
+          <lb ed="#P" n="68"/>esse valde probabile, non tamen audet omnino
+          <lb ed="#P" n="69"/>affirmare, cujus in hoc consilium sequor. 
+          So<lb break="no" ed="#P" n="70"/>Ium notabo in loco illo Luc. 11, 21: Firtutes
+          <lb ed="#P" n="71"/>celorum, non significare motores coclorum,
+          <lb ed="#P" n="72"/>sed vel omnes coelestes spiritus et exercitus, ut
+          <lb ed="#P" n="73"/>antiqui Patres exponunt, vel astra omnia, et
+          <lb ed="#P" n="74"/>stellae, in quibus sunt virtutes coelorum ad 
+          in<lb break="no" ed="#P" n="75"/>fluendum in haec inferiora. Quare ex illo loco
+          <lb ed="#P" n="76"/>nullum sumitur argumentum. Ratio autem pro
+          <lb ed="#P" n="77"/>utraque parte probabilis est. Certius ergo est,
+          <lb ed="#P" n="78"/>ad hune ordinem Virtutum pertinere 
+          custo<lb break="no" ed="#P" n="79"/>diam hominum, et universi totius per opera
+          <lb ed="#P" n="80"/>miraculosa, vel praeter communem naturae 
+          or<lb break="no" ed="#P" n="81"/>dinem. Quod etiam docet D. Thomas, in dicto
+          <lb ed="#P" n="82"/>cap. 80, cum Gregorio, d. hom. 34, dicente
+          <lb ed="#P" n="83"/>ad hunc ordinem spectare divina signa. 
+          Idem<lb break="no" ed="#P" n="84"/>que sentit Dionysius, cap. 8, dicens: Virtutum
+          <lb ed="#P" n="85"/>nomine virilem quamdam, inconcussumque 
+          for<lb break="no" ed="#P" n="86"/>titudinem significari, qua ad Dei imitationem
+          <lb ed="#P" n="87"/>assur gunt, et neque per imbecillitatis ignaviam
+          <lb ed="#P" n="88"/>suos deserunt motus, etc. Unde probabile est ad
+          <lb ed="#P" n="89"/>hunc ordinem Virtutum pertinuisse Angelum,
+          <lb ed="#P" n="90"/>qui praecedebat populum Israel, Exod. 13 et
+          <lb ed="#P" n="91"/>23, et qui signa faciebant ad verbum Moysi
+          <lb ed="#P" n="92"/>coram Pharaone, et similes.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

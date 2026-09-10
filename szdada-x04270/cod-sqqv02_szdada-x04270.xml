@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="170"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x04270"><!-- l2c13 -->
+        <head xml:id="szdada-x04270-Hd1e101">Caput 13</head>
+        <head xml:id="szdada-x04270-Hd1e103" type="question-title">Utrum angelus per species inditas omnes res possibiles ordinis naturalis cognosgere valeat</head>
+        <p xml:id="szdada-x04270-d1e106">
+          <lb ed="#P" n="104"/>CAPUT XIII.
+          <lb ed="#P" n="105"/>UTRUM ANGELUS PER SPECIES INDITAS OMNES RES
+          <lb ed="#P" n="106"/>POSSIBILES ORDINIS NATURALIS COGNOSGERE 
+          VA<lb break="no" ed="#P" n="107"/>LEAT.
+        </p>
+        <p xml:id="szdada-x04270-d1e117">
+          <lb ed="#P" n="108"/>1. Declaratio quaestionis. — Diximus de re-
+          <pb ed="#P" n="171"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bus praesentibus, futuris, ac praeteritis; nunc
+          <lb ed="#P" n="2"/>de possibilibus, quae nunquam futurae sunt,
+          <lb ed="#P" n="3"/>dicendum superest. Loquimur autem, ut in 
+          ti<lb break="no" ed="#P" n="4"/>tulo dicitur, de rebus ordinis naturalis: nam
+          <lb ed="#P" n="5"/>licet ordo naturalis interdum dicatur ille,
+          <lb ed="#P" n="6"/>quem secundum ordinariam legem, et 
+          provi<lb break="no" ed="#P" n="7"/>dentiam Deus statuit, sub quo tantum res 
+          ali<lb break="no" ed="#P" n="8"/>quando futurae comprehenduntur, nihilominus
+          <lb ed="#P" n="9"/>in praesenti sumitur, ut distinguitur ab 
+          operi<lb break="no" ed="#P" n="10"/>bus gratiae, et miraculosis, quae Deo possibilia
+          <lb ed="#P" n="11"/>sunt, et comprehendit res possibiles ejusdem
+          <lb ed="#P" n="12"/>naturae et gradus, seu generis cum rebus 
+          crea<lb break="no" ed="#P" n="13"/>tis, quamvis illas facere non decreverit, ut sunt
+          <lb ed="#P" n="14"/>aliud universum, vel alii ordines Angelorum,
+          <lb ed="#P" n="15"/>aut aliarum substantiarum, quas sine dubio
+          <lb ed="#P" n="16"/>Deus facere posset. De his ergo rebus est 
+          quaes<lb break="no" ed="#P" n="17"/>tio, utrum Angeli naturalem scientiam tallum
+          <lb ed="#P" n="18"/>rerum, et consequenter species inditas illarum
+          <lb ed="#P" n="19"/>habeant.
+        </p>
+        <p xml:id="szdada-x04270-d1e167">
+          <lb ed="#P" n="20"/>2. In partem affirmantem videtur inclinare
+          <lb ed="#P" n="21"/>Henricus.—In qua re inter scholasticos solum
+          <lb ed="#P" n="22"/>Henricum invenio, cui pars affirmans attribui
+          <lb ed="#P" n="23"/>possit, quamvis enim ille species eo nomine in
+          <lb ed="#P" n="24"/>Angelis non admittat, ponit tamen 
+          scientia<lb break="no" ed="#P" n="25"/>lem habitum concreatum Angelo, qui illum
+          <lb ed="#P" n="26"/>constituit in actu primo sufticienter ad 
+          cognos<lb break="no" ed="#P" n="27"/>cendum omnia cognoscibilia naturahter ab
+          <lb ed="#P" n="28"/>ipso: supra vero ostendimus, habitum illum,
+          <lb ed="#P" n="29"/>si daretur, fore speciem quamdam 
+          intelligibi<lb break="no" ed="#P" n="30"/>lem valde universalem. Quod autem ille 
+          habi<lb break="no" ed="#P" n="31"/>tus sit principium cognoscendi omnia 
+          possibi<lb break="no" ed="#P" n="32"/>lia, declarat Henricus in illo quodlib. 5, q. 14,
+          <lb ed="#P" n="33"/>littera, R, dicens: habitum illum esse 
+          perfec<lb break="no" ed="#P" n="34"/>tum ad omnia ab Angelo naturaliter 
+          cognosci<lb break="no" ed="#P" n="35"/>bilia, quà virtute est omnino scibilia ab ipso, et
+          <lb ed="#P" n="36"/>naturalem colligationem habet ad ipsa, non 
+          se<lb break="no" ed="#P" n="37"/>cundum quod sunt, vel nata sunt eatra 
+          subsis<lb break="no" ed="#P" n="38"/>lere, hoc enim accidit scibili, secundum quod
+          <lb ed="#P" n="39"/>scibile est, ex hoc enim solo est aliquid scibile
+          <lb ed="#P" n="40"/>simpliciter, quia est aliquid per essentiam, 
+          ha<lb break="no" ed="#P" n="41"/>bens rationem eatra rem in Deo. Unde 
+          conclu<lb break="no" ed="#P" n="42"/>dit: Angelo ergo creato, et tali habitu ei 
+          natu<lb break="no" ed="#P" n="43"/>raliter concreato, habitu illo inclinabitur ad
+          <lb ed="#P" n="44"/>cognoscendum rerum omnium quidditates. In
+          <lb ed="#P" n="45"/>quibus verbis aperte loquitur de quidditatibus
+          <lb ed="#P" n="46"/>omnium rerum possibilium, quatenus scibiles
+          <lb ed="#P" n="47"/>sunt, abstrahendo ab omni ordine actualis
+          <lb ed="#P" n="48"/>existentiae, ac subinde ut sunt possibiles. Et in
+          <lb ed="#P" n="49"/>eisdem verbis indicat fundamentum, quia 
+          om<lb break="no" ed="#P" n="50"/>nia possibilia sunt scibilia ab Angelo, 
+          quan<lb break="no" ed="#P" n="51"/>tum est ex parte ipsius, et ad rationem 
+          scibi<lb break="no" ed="#P" n="52"/>lis accidentarium est, quod Deus statuerit 
+          crea<lb break="no" ed="#P" n="53"/>re, vel non creare rem scibilem, ergo omnia
+          <lb ed="#P" n="54"/>possibilia aeque repraesentantur per illum 
+          ha<lb break="no" ed="#P" n="55"/>bitum. Probatur consequentia, tum quia ille
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>habitus datur ad constituendum Angelum in
+          <lb ed="#P" n="57"/>actu primo, respectu omnium scibilium ab
+          <lb ed="#P" n="58"/>ipso: omnia autem possibilia sunt aeque 
+          scibi<lb break="no" ed="#P" n="59"/>lia, tum etiam quia non est major ratio, cur
+          <lb ed="#P" n="60"/>haec potius, quam illa repraesentet: nam ex 
+          de<lb break="no" ed="#P" n="61"/>creto Dei volentis, vel nolentis haec, vel illa
+          <lb ed="#P" n="62"/>producere, non potest reddi ratio, cum hoc
+          <lb ed="#P" n="63"/>accidentarium sit ad rationem scibilis. Et 
+          po<lb break="no" ed="#P" n="64"/>test confirmari consequenter loquendo in 
+          opi<lb break="no" ed="#P" n="65"/>nione Henrici: nam si Deus creare decrevisset
+          <lb ed="#P" n="66"/>alios coelos, vel cum istis qui nunc sunt, vel
+          <lb ed="#P" n="67"/>sine istis, Angelos illos cognosceret per 
+          eum<lb break="no" ed="#P" n="68"/>dem habitum scientialem, ergo etiam nunc
+          <lb ed="#P" n="69"/>repraesentat illos, licet tantum sint possibiles,
+          <lb ed="#P" n="70"/>quia extrinsecum Dei decretum habitus 
+          natu<lb break="no" ed="#P" n="71"/>ram non immutat, ergo idem erit de omnibus
+          <lb ed="#P" n="72"/>possibilius, quia est eadem ratio. 
+          Consequen<lb break="no" ed="#P" n="73"/>tiae sunt evidentes, et antecedens patet, quia
+          <lb ed="#P" n="74"/>secundum Henricum ille habitus non 
+          multipli<lb break="no" ed="#P" n="75"/>catur propter multitudinem rerum scibilium,
+          <lb ed="#P" n="76"/>alioqui nullo fundamento asserere potuisset,
+          <lb ed="#P" n="77"/>illum habitum nunc esse unum tantum in 
+          quo<lb break="no" ed="#P" n="78"/>libet Angelo, etiamsi innumera objecta per
+          <lb ed="#P" n="79"/>illum cognoscantur.
+        </p>
+        <p xml:id="szdada-x04270-d1e303">
+          <lb ed="#P" n="80"/>3. Quibus eamdem sententia tribui debeat.—
+          <lb ed="#P" n="81"/>Secundo, similem fere dicendi modum necesse
+          <lb ed="#P" n="82"/>est ut sequantur, qui dicunt, Angelos non 
+          in<lb break="no" ed="#P" n="83"/>digere speciebus intelligibilibus ad res 
+          quas<lb break="no" ed="#P" n="84"/>cumque existentes cognoscendas, neque etiam
+          <lb ed="#P" n="85"/>cooperatione effectiva objectorum, nec actuali
+          <lb ed="#P" n="86"/>existentia eorum ad ea abstractive 
+          cognoscen<lb break="no" ed="#P" n="87"/>da, sed per suam simplicem sui intellectus 
+          en<lb break="no" ed="#P" n="88"/>titatem esse in actu primo suffticiente, ac 
+          com<lb break="no" ed="#P" n="89"/>pleto ad hujusmodi cognitionem: nam ex his
+          <lb ed="#P" n="90"/>principiis sequitur, Angelum in se habere
+          <lb ed="#P" n="91"/>connaturale principium omni ex parte 
+          suffi<lb break="no" ed="#P" n="92"/>ciens ad cognoscenda omnia possibilia, ac
+          <lb ed="#P" n="93"/>proinde licet species non habeat, habere 
+          ni<lb break="no" ed="#P" n="94"/>hilominus aliquid aequivalens speciebus 
+          om<lb break="no" ed="#P" n="95"/>nium rerum possibilium, vel eminentius illis
+          <lb ed="#P" n="96"/>ac proinde actu etiam posse illa cognoscere,
+          <lb ed="#P" n="97"/>si velit. Probatur, nam quod Henricus tribuit
+          <lb ed="#P" n="98"/>intellectui angelico per unum habitum 
+          scien<lb break="no" ed="#P" n="99"/>tialem, qui sit res distincta ab intellectu 
+          Ange<lb break="no" ed="#P" n="100"/>Ii, vel quod alter possit illi tribuere per 
+          pluri<lb break="no" ed="#P" n="101"/>mas species rerum omnium possibilium, 
+          tri<lb break="no" ed="#P" n="102"/>buit illa sententia intellectui angelico per
+          <lb ed="#P" n="103"/>suam simplicem entitatem: nam per illam 
+          so<lb break="no" ed="#P" n="104"/>lam censet esse tantae actualitatis, et efficaciae,
+          <lb ed="#P" n="105"/>quantae ab aliis cogitatur per compositionem
+          <lb ed="#P" n="106"/>intellectus potentialis cum habitu, vel 
+          specie<lb break="no" ed="#P" n="107"/>bus. Quocirca licet haec opinio habitu, vel 
+          spe<lb break="no" ed="#P" n="108"/>ciebus non utatur, in re ipsa ponit Angelum
+          <lb ed="#P" n="109"/>in actu primo constitum ad cognoscenda 
+          om<lb break="no" ed="#P" n="110"/>nia possibilia, vel, quod idem est, habentem
+          <pb ed="#P" n="172"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>scientiam connaturalem omnium possibilium
+          <lb ed="#P" n="2"/>in actu primo, non per entitatem 
+          superaddi<lb break="no" ed="#P" n="3"/>tam, sed per suum simplex lumen intellectuale
+          <lb ed="#P" n="4"/>illam habet.
+        </p>
+        <p xml:id="szdada-x04270-d1e386">
+          <lb ed="#P" n="5"/>4. Vasquii doctrina hac in re, quae constituit
+          <lb ed="#P" n="6"/>secundam opinionem. — At vero P. Vasquez,
+          <lb ed="#P" n="7"/>licet illam habeat sententiam, simpliciter 
+          ne<lb break="no" ed="#P" n="8"/>gat, Angelos cognoscere res possibiles, quas
+          <lb ed="#P" n="9"/>Deus potest creare, imo neque aliquam 
+          illa<lb break="no" ed="#P" n="10"/>rum, nisi quatenus in potentia activa rerum
+          <lb ed="#P" n="11"/>factarum aliquae continentur, quae nunquam
+          <lb ed="#P" n="12"/>erunt. Nam illas dicit posse cognoscere per
+          <lb ed="#P" n="13"/>causas, in quarum virtute continentur, 
+          tan<lb break="no" ed="#P" n="14"/>quam per medium cognitum, quod postea 
+          vi<lb break="no" ed="#P" n="15"/>debimus: directe autem et immediate, quasi
+          <lb ed="#P" n="16"/>per speciem, seu per solum principium 
+          inco<lb break="no" ed="#P" n="17"/>gnitum, id omnino negat in disp. 208, capit.
+          <lb ed="#P" n="18"/>4, in fine, insinuatque duas rationes. Prima
+          <lb ed="#P" n="19"/>est, quia res possibiles sunt infinitae, ergo non
+          <lb ed="#P" n="20"/>potest Angelus cognoscere omnes, ergo 
+          nul<lb break="no" ed="#P" n="21"/>lam, quia nulla est major ratio de una, quam
+          <lb ed="#P" n="22"/>de alia. Secunda est, quia Angelus non habet
+          <lb ed="#P" n="23"/>aliquod principium naturale, unde singulas
+          <lb ed="#P" n="24"/>talium rerum possibilium cognoscere valeat.
+          <lb ed="#P" n="25"/>Tertiam rationem insinuaverat in disp. 200,
+          <lb ed="#P" n="26"/>cap. 3, in fine, quia possibilia, quae in sola
+          <lb ed="#P" n="27"/>Dei potentia continentur, non sunt objecta,
+          <lb ed="#P" n="28"/>quae ipsi potentiae angelicae, secundum ejus
+          <lb ed="#P" n="29"/>virtutem naturalem respondeant, et aequalia
+          <lb ed="#P" n="30"/>sint. In quo illa futuris contingentibus a causa
+          <lb ed="#P" n="31"/>libera aequiparat: et ideo circa illa (inquit) ut
+          <lb ed="#P" n="32"/>talia sunt, propria virtute naturaliter operari
+          <lb ed="#P" n="33"/>non potest Angelus.
+        </p>
+        <p xml:id="szdada-x04270-d1e451">
+          <lb ed="#P" n="34"/>5. Expenditur proxima doctrina. — 
+          Nihil<lb break="no" ed="#P" n="35"/>ominus difficile intelligi, ac defendi potest, 
+          quo<lb break="no" ed="#P" n="36"/>modo illa duo cohaereant, nimirum Angelum
+          <lb ed="#P" n="37"/>per solum intellectum suum esse sufficienter
+          <lb ed="#P" n="38"/>constitutum in actu primo ad cognoscenda
+          <lb ed="#P" n="39"/>omnia objecta scibilia ab ipso, et nihilominus
+          <lb ed="#P" n="40"/>non posse cognoscere essentias rerum 
+          possibi<lb break="no" ed="#P" n="41"/>lium, quae nunquam erunt. Oppositum enim
+          <lb ed="#P" n="42"/>videtur imprimis convincere fundamentum
+          <lb ed="#P" n="43"/>Henrici: nam ad rationem entis scibilis 
+          acci<lb break="no" ed="#P" n="44"/>dentarium est, quod Deus decreverit, vel non
+          <lb ed="#P" n="45"/>decreverit illud facere, ut patet in scientia 
+          sim<lb break="no" ed="#P" n="46"/>plicis intelligentiae divinae, in qua omnia 
+          pos<lb break="no" ed="#P" n="47"/>sibilia prius sunt scibilia, quam aliquid Deus
+          <lb ed="#P" n="48"/>de eis decreverit, ergo si ex parte 
+          intelligen<lb break="no" ed="#P" n="49"/>tis non desit principium et virtus intcelligendi,
+          <lb ed="#P" n="50"/>respectu cujuscumque intellectus scibilia sunt.
+          <lb ed="#P" n="51"/>Et ratio est, quia sicut res non habet, quod sit
+          <lb ed="#P" n="52"/>possibilis ex voluntate Dei, ita nec quod sit
+          <lb ed="#P" n="53"/>scibilis, sed id habet eo ipso, quod aliquo 
+          mo<lb break="no" ed="#P" n="54"/>do ens est, quia omne ens necessario est 
+          ve<lb break="no" ed="#P" n="55"/>rum, et scibile, ergo possibilia, quae ex divino
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>decreto nunquam erant, sunt de se scibilia 
+          se<lb break="no" ed="#P" n="57"/>cundum esse essentiae, ergo si talia sint 
+          ordi<lb break="no" ed="#P" n="58"/>nis naturalis (de his enim tantum loquimur)
+          <lb ed="#P" n="59"/>sunt proportionata menti angelicae, quia 
+          com<lb break="no" ed="#P" n="60"/>prehenduntur sub objecto adaequato ejus, 
+          ne<lb break="no" ed="#P" n="61"/>que ad hanc proportionem aliquid confert 
+          de<lb break="no" ed="#P" n="62"/>cretum Dei; ergo si intellectus Angeli est de
+          <lb ed="#P" n="63"/>se in actu primo ad res naturales 
+          cognoscen<lb break="no" ed="#P" n="64"/>das constitutus, profecto est etiam in actu 
+          pri<lb break="no" ed="#P" n="65"/>mo ad totum suum objectum adaequatum 
+          na<lb break="no" ed="#P" n="66"/>turale, quia non est major ratio de una parte,
+          <lb ed="#P" n="67"/>quam de alia, ergo poterit totum illud, seu
+          <lb ed="#P" n="68"/>quamlibet ejus partem cognoscere.
+        </p>
+        <p xml:id="szdada-x04270-d1e532">
+          <lb ed="#P" n="69"/>6. Inpugnatur adhuc. — Secundo 
+          declara<lb break="no" ed="#P" n="70"/>tur, confirmando dicta in opinione Henrici:
+          <lb ed="#P" n="71"/>nam si Deus decrevisset alios coelos, vel 
+          ani<lb break="no" ed="#P" n="72"/>malia creare, Angelus sine nova specie, vel
+          <lb ed="#P" n="73"/>additione, aut mutatione sui intellectus, per
+          <lb ed="#P" n="74"/>suum lumen posset ita cognoscere, quia non
+          <lb ed="#P" n="75"/>magis tunc indigeret Angelus speciebus, aut
+          <lb ed="#P" n="76"/>aliquo principio addito ad cognoscendas res
+          <lb ed="#P" n="77"/>naturales, quam nunc, illae autem res 
+          natura<lb break="no" ed="#P" n="78"/>los essent, ut constat, ergo etiam nunc est in
+          <lb ed="#P" n="79"/>Angelo sufficiens principrum cognoscendi res
+          <lb ed="#P" n="80"/>illas, et ex parte objecti, quoad quidditativam,
+          <lb ed="#P" n="81"/>et abstractivam cognitionem nihil desideratur,
+          <lb ed="#P" n="82"/>quia objectum non concurrit effective juxta
+          <lb ed="#P" n="83"/>illam opinionem, et ad terminandam 
+          abstrac<lb break="no" ed="#P" n="84"/>tivam cognitionem suflicit realitas essentiae
+          <lb ed="#P" n="85"/>possibilis, qualiscumque illa sit, sive ordinata
+          <lb ed="#P" n="86"/>fuerit ad existendum, sive non, hoc enim 
+          ex<lb break="no" ed="#P" n="87"/>trinsecum et accidentarium est. Et 
+          confirma<lb break="no" ed="#P" n="88"/>tur hoc ex differentia inter notitiam 
+          intuiti<lb break="no" ed="#P" n="89"/>vam et abstractivam, quod objectum 
+          termi<lb break="no" ed="#P" n="90"/>nat cognitionem intuitivam ut actu existens ,
+          <lb ed="#P" n="91"/>et ideo illa notitia supponit naturaliter 
+          exis<lb break="no" ed="#P" n="92"/>tentiam actualem objecti: abstractiva autem
+          <lb ed="#P" n="93"/>notitia terminatur ad objectum abstrahendo ab
+          <lb ed="#P" n="94"/>existentia, et ideo de se abstrahit ab existentia
+          <lb ed="#P" n="95"/>praesentii, praeterita et futura, quia ad solam
+          <lb ed="#P" n="96"/>quidditatem, ut sic, terminari potest, ergo si
+          <lb ed="#P" n="97"/>intellectus Angeli per se est sufficiens 
+          princi<lb break="no" ed="#P" n="98"/>pium talis cognitionis, ex parte objecti nihul
+          <lb ed="#P" n="99"/>deest, ut cognosci possit, etiamsi nunquam
+          <lb ed="#P" n="100"/>futurum sit. Tertio argumentor, quia juxta
+          <lb ed="#P" n="101"/>sententiam communem, quod Angelus 
+          indi<lb break="no" ed="#P" n="102"/>geat speciebus, si Angelus haberet species 
+          in<lb break="no" ed="#P" n="103"/>natas omnium rerum possibilium, quae in Dei
+          <lb ed="#P" n="104"/>potentia continentur, posset singulas earum
+          <lb ed="#P" n="105"/>cognoscere distincte ut quidditative, quia ex
+          <lb ed="#P" n="106"/>parte principii habet, quidquid necessarium
+          <lb ed="#P" n="107"/>est, et ex parte objecti nihil requiritur, nisi
+          <lb ed="#P" n="108"/>quod essentiam realem habeat, sed juxta hane
+          <lb ed="#P" n="109"/>sententiam Angelus sine speciebus super 
+          addi<lb break="no" ed="#P" n="110"/>tis, per suum lumen habet, quidquid per spe-
+          <pb ed="#P" n="173"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cies intelligibiles habet, juxta communem 
+          sen<lb break="no" ed="#P" n="2"/>tentiam, ergo consequenter loquendo, non
+          <lb ed="#P" n="3"/>potest in illa sententia negari, quin Angelus
+          <lb ed="#P" n="4"/>res illas cognoscere possit. Denique qui habet
+          <lb ed="#P" n="5"/>scientiam habitualem, potest illa uti circa
+          <lb ed="#P" n="6"/>quamlibet partem objecti ejus, nisi impediatur,
+          <lb ed="#P" n="7"/>sed Angelus juxta illam sententiam habet
+          <lb ed="#P" n="8"/>scientiam habitualem omnium rerum 
+          possibi<lb break="no" ed="#P" n="9"/>lium, quia scientia habitualis Angeli in illa
+          <lb ed="#P" n="10"/>opinione non est nisi lumen ejus intellectuale,
+          <lb ed="#P" n="11"/>ergo potest illa uti circa res possibiles, quia
+          <lb ed="#P" n="12"/>naturaliter nullum habet impedimentum, nec
+          <lb ed="#P" n="13"/>Deus ex eo solum quod tales res ad 
+          existen<lb break="no" ed="#P" n="14"/>dum ordinaverit, tale impedimentum apponit,
+          <lb ed="#P" n="15"/>ut per se notum videtur: ergo si Angelus non
+          <lb ed="#P" n="16"/>indiget speciebus, potest naturaliter 
+          cognos<lb break="no" ed="#P" n="17"/>cere omnia possibilia, neque unum sine alio
+          <lb ed="#P" n="18"/>cohaerenter affirmari potest.
+        </p>
+        <p xml:id="szdada-x04270-d1e669">
+          <lb ed="#P" n="19"/>7. Ad primam rationem innumero quarto.—Et
+          <lb ed="#P" n="20"/>hoc maxime confirmatur rationibus praedictae
+          <lb ed="#P" n="21"/>sententiae, quia non minus a suo fundamento,
+          <lb ed="#P" n="22"/>seu intento dissonant. Ad primam enim de
+          <lb ed="#P" n="23"/>infinitate, ac multitudine rerum possibilium
+          <lb ed="#P" n="24"/>licet concedatur prima consequentia cum 
+          con<lb break="no" ed="#P" n="25"/>sequente, de collectione tota illud intelligendo,
+          <lb ed="#P" n="26"/>id est, Angelum, licet sine speciebus ex vi sui
+          <lb ed="#P" n="27"/>Iuminis res intelligat, non posse simul 
+          cognos<lb break="no" ed="#P" n="28"/>cere totam collectionem rerum possibilium :
+          <lb ed="#P" n="29"/>nihilominus secunda illatio, quod nullam 
+          pos<lb break="no" ed="#P" n="30"/>sit cognoscere, nullius momenti est, quia 
+          po<lb break="no" ed="#P" n="31"/>test attendere ad singulas et non ad totam 
+          col<lb break="no" ed="#P" n="32"/>lectionem. Unde probatio illa quod non major
+          <lb ed="#P" n="33"/>ratio de una, quam de alia, probat recte quod
+          <lb ed="#P" n="34"/>habitu seu in actu primo sciat omnia, non
+          <lb ed="#P" n="35"/>vero in actu, quia in hoc major ratio facile
+          <lb ed="#P" n="36"/>redditur ex libertate arbitrii. Et ita illo 
+          ar<lb break="no" ed="#P" n="37"/>gumento solum probatur, Angelum posse 
+          cog<lb break="no" ed="#P" n="38"/>noscere singulas, vel quamcumque illarum
+          <lb ed="#P" n="39"/>distributive, non tamen collectionem totam
+          <lb ed="#P" n="40"/>simul. Quod si argumentum procedat de 
+          om<lb break="no" ed="#P" n="41"/>nibus distributive, sic neganda est prima 
+          con<lb break="no" ed="#P" n="42"/>sequentia, quia licet res possibiles sint infinitee,
+          <lb ed="#P" n="43"/>poterunt juxta illam sententiam simul in 
+          ha<lb break="no" ed="#P" n="44"/>bitu sciri, seu in actu primo, et potentia activa
+          <lb ed="#P" n="45"/>completa non minus, quam in passiva, quae
+          <lb ed="#P" n="46"/>potentia activa potest in actum reduci divisive
+          <lb ed="#P" n="47"/>circa omnes, seu circa quamlibet signatam, 
+          li<lb break="no" ed="#P" n="48"/>cet non possit simul reduci in actum 
+          comple<lb break="no" ed="#P" n="49"/>tum circa omnes collective.
+        </p>
+        <p xml:id="szdada-x04270-d1e739">
+          <lb ed="#P" n="50"/>Ad secundam. — Secundum autem 
+          argu<lb break="no" ed="#P" n="51"/>mentum, quod proxime contra hoc procedit,
+          <lb ed="#P" n="52"/>assumit aliquid contrarium assertioni illius
+          <lb ed="#P" n="53"/>sententiae. Nam si lumen angelicum per se et
+          <lb ed="#P" n="54"/>sine specie est sufficiens principium ad res
+          <lb ed="#P" n="55"/>naturales cognoscendas, cur illud idem non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>erit principium ad cognoscendas singulas res
+          <lb ed="#P" n="57"/>possibiles, cum extrinseca Dei ordinatio, quod
+          <lb ed="#P" n="58"/>res possibilis sit aliquando futura, vel non
+          <lb ed="#P" n="59"/>sit, neque objectum in ratione scibilis mutet,
+          <lb ed="#P" n="60"/>nec efficacitatem Iuminis ad cognoscendum
+          <lb ed="#P" n="61"/>minuat.
+        </p>
+        <p xml:id="szdada-x04270-d1e771">
+          <lb ed="#P" n="62"/>Ad tertiam. — Unde etiam non video, 
+          quo<lb break="no" ed="#P" n="63"/>modo possit subsistere, quod in tertia ratione
+          <lb ed="#P" n="64"/>sumitur, res tantum possibiles non esse 
+          ob<lb break="no" ed="#P" n="65"/>jecta, quae angelicae potentiae secundum 
+          vir<lb break="no" ed="#P" n="66"/>tutem naturalem respondeat et aequalia sint.
+          <lb ed="#P" n="67"/>Quia illae res, etiamsi non sint futurae, sunt res
+          <lb ed="#P" n="68"/>ordinis naturalis, et si Deus illas facere 
+          decre<lb break="no" ed="#P" n="69"/>visset, essent proportionatae angelicae 
+          poten<lb break="no" ed="#P" n="70"/>tiae, ergo etiam nunc sunt proportionatae, seu
+          <lb ed="#P" n="71"/>eequales lumini intellectivo Angeli in ratione
+          <lb ed="#P" n="72"/>objecti scibilis et potentiae cognoscitivae, hae
+          <lb ed="#P" n="73"/>namque rationes (ut saepe dixi) propter 
+          ordi<lb break="no" ed="#P" n="74"/>nationem extrinsecam Dei, ut res sit, vel non
+          <lb ed="#P" n="75"/>sit, non variantur.
+        </p>
+        <p xml:id="szdada-x04270-d1e804">
+          <lb ed="#P" n="76"/>8. Tertia opinio. — Probatur. — Tertia
+          <lb ed="#P" n="77"/>opinio in hoc puncto esse potest, habere 
+          u<lb break="no" ed="#P" n="78"/>numquemque Angelum species omnium rerum
+          <lb ed="#P" n="79"/>naturalium possibilium, per quas possit illas
+          <lb ed="#P" n="80"/>quidditative et abstractive cognoscere, etiamsi
+          <lb ed="#P" n="81"/>illae species et plures sint, ac propriae 
+          qualita<lb break="no" ed="#P" n="82"/>tes distinctae ab intellectu et vicem objecti
+          <lb ed="#P" n="83"/>supplentes. Probatur primo, quia omnes istae
+          <lb ed="#P" n="84"/>species sunt connaturales Angelo secundum
+          <lb ed="#P" n="85"/>potentiam receptivam et naturalem 
+          inclinatio<lb break="no" ed="#P" n="86"/>nem ejus, ergo illi a principio infunduntur.
+          <lb ed="#P" n="87"/>Consequentia tenet ex dictis in capite 
+          praece<lb break="no" ed="#P" n="88"/>denti. Antecedens vero ex his, quae in 
+          prae<lb break="no" ed="#P" n="89"/>senti diximus, suaderi potest; quia ordinatio
+          <lb ed="#P" n="90"/>extrinseca Dei circa actuale esse objecti scibilis
+          <lb ed="#P" n="91"/>non mutat naturam potentiae cognoscitivae, vel
+          <lb ed="#P" n="92"/>objecti scibilis, ergo eadem est capacitas 
+          na<lb break="no" ed="#P" n="93"/>turalis in intellectu Angeli, eademque 
+          inclina<lb break="no" ed="#P" n="94"/>tio naturalis ad haec objecta scibilia et species
+          <lb ed="#P" n="95"/>eorum, sive ad existendum ordinata sint, sive
+          <lb ed="#P" n="96"/>non sint. Secundo quia alias sequitur, privari
+          <lb ed="#P" n="97"/>Angelum perpetuo cognitione et speciebus 
+          in<lb break="no" ed="#P" n="98"/>finitarum rerum a se naturaliter scibilium, ad
+          <lb ed="#P" n="99"/>quam scientiam et species naturalem 
+          inclina<lb break="no" ed="#P" n="100"/>tionem habet: hoc autem nimis violentum
+          <lb ed="#P" n="101"/>Angelo videtur, ergo non sunt illi hujusmodi
+          <lb ed="#P" n="102"/>species rerum possibilium denegandae. Tertio
+          <lb ed="#P" n="103"/>addere possumus, non repugnare, dari Angelo
+          <lb ed="#P" n="104"/>species inditas omnium possibilium, ergo cum
+          <lb ed="#P" n="105"/>hoc sit consentaneum naturae ipsius, ut 
+          osten<lb break="no" ed="#P" n="106"/>sum est, non est ei denegandum. Antecedens
+          <lb ed="#P" n="107"/>probatur, quia tres repugnantiae afferri solent,
+          <lb ed="#P" n="108"/>illae autem vel repugnantiae non sunt, vel non
+          <lb ed="#P" n="109"/>subsistunt.
+        </p>
+        <p xml:id="szdada-x04270-d1e880">
+          <lb ed="#P" n="110"/>9. Excluditur prima repugnantia, quae af-
+          <pb ed="#P" n="174"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ferri posset contra hanc tertiam opinionem. —
+          <lb ed="#P" n="2"/>Excluditur secunda repugnantia. — Infinita
+          <lb ed="#P" n="3"/>numero objecta possunt repraesentari per finitas
+          <lb ed="#P" n="4"/>numero species. — Excluditur tertia. — Prima
+          <lb ed="#P" n="5"/>repugnantia est, quod sequatur, Angelum scire
+          <lb ed="#P" n="6"/>infinita, ad quam jam responsum est, si 
+          intel<lb break="no" ed="#P" n="7"/>ligatur de scientia in habitu, non esse 
+          incon<lb break="no" ed="#P" n="8"/>veniens nedum repugnans; si vero de scientia
+          <lb ed="#P" n="9"/>in actu tota simul, id non sequi, ut jam 
+          decla<lb break="no" ed="#P" n="10"/>ravi: si tandem de scientia in actu non tota
+          <lb ed="#P" n="11"/>simul, sed per successionem in infinitum, sic
+          <lb ed="#P" n="12"/>conceditur, posse esse infinitam 
+          syncathegore<lb break="no" ed="#P" n="13"/>matice (ut vocant) seu in infinitum, quia 
+          po<lb break="no" ed="#P" n="14"/>terit nunc Angelus unam rem possibilem 
+          con<lb break="no" ed="#P" n="15"/>templari, postea aliam et deinde aliam, et sic
+          <lb ed="#P" n="16"/>in infinitum, nunquam tamen perveniet ad
+          <lb ed="#P" n="17"/>terminum, neque exhauriet totum illud 
+          ob<lb break="no" ed="#P" n="18"/>jectum scibile, et ideo nunquam actualis 
+          scien<lb break="no" ed="#P" n="19"/>tia erit actu infinita. Secunda repugnantia est,
+          <lb ed="#P" n="20"/>quia sequitur Angelum habere simul infinitam
+          <lb ed="#P" n="21"/>multitudinem specierum intelligibilium, quae
+          <lb ed="#P" n="22"/>admittenda non est, quia erit quoddam 
+          infini<lb break="no" ed="#P" n="23"/>tum in actu in multitudine, seu quantitate
+          <lb ed="#P" n="24"/>discreta transcendentali, quod infinitum etiam
+          <lb ed="#P" n="25"/>in spiritualibus repugnat. Responderi autem
+          <lb ed="#P" n="26"/>potest, vel juxta opinionem, quae negat 
+          repu<lb break="no" ed="#P" n="27"/>gnare, dari infinitum in actu in multitudine
+          <lb ed="#P" n="28"/>specierum intentionalium spiritualium: vel
+          <lb ed="#P" n="29"/>dicendo, infinitas res intelligibiles posse per
+          <lb ed="#P" n="30"/>finitum numerum specierum repraesentari.
+          <lb ed="#P" n="31"/>Nam una species angelica universalis potest
+          <lb ed="#P" n="32"/>repraesentare infinita in aliquo genere, vel 
+          spe<lb break="no" ed="#P" n="33"/>cie, ut infra videbimus, ergo omnia objecta
+          <lb ed="#P" n="34"/>creabilia possunt sub gradibus, seu ordinibus,
+          <lb ed="#P" n="35"/>aut generibus numero finitis comprehendi et
+          <lb ed="#P" n="36"/>ita poterunt etiam repraesentari per finitum
+          <lb ed="#P" n="37"/>numerum specierum, quarum singulae singula
+          <lb ed="#P" n="38"/>ex illis capitibus universalibus cum omnibus
+          <lb ed="#P" n="39"/>rebus sub illis contentis repraesentent. Tertia
+          <lb ed="#P" n="40"/>repugnantia est, quia sequitur, Angelum 
+          com<lb break="no" ed="#P" n="41"/>prehendere omnipotentiam Dei, omnes ejus
+          <lb ed="#P" n="42"/>effectus comprehendendo. Sed hoc 
+          inconve<lb break="no" ed="#P" n="43"/>niens non sequitur, tum quia non cognoscit
+          <lb ed="#P" n="44"/>Angelus simul omnes illos effectus, tum etiam
+          <lb ed="#P" n="45"/>quia licet simul omnes illos cognosceret, non
+          <lb ed="#P" n="46"/>cognosceret illos in Verbo (tunc enim fortassis
+          <lb ed="#P" n="47"/>sequeretur comprehensio) sed cognosceret illos
+          <lb ed="#P" n="48"/>in seipsis et per omnes illos simul nunquam
+          <lb ed="#P" n="49"/>cognosceret Deum prout in se est, ac proinde
+          <lb ed="#P" n="50"/>nec quidditative, nedum comprehensive. Eo
+          <lb ed="#P" n="51"/>vel maxime, quod non sunt illi, de quibus 
+          lo<lb break="no" ed="#P" n="52"/>quimur, omnes effectus omnipotentiae divinae,
+          <lb ed="#P" n="53"/>quia solum de effectibus naturalibus 
+          tracta<lb break="no" ed="#P" n="54"/>mus. At praeter omnes hujusmodi eftectus 
+          pos<lb break="no" ed="#P" n="55"/>sibiles potest Deus facere effectus gratiae et ef-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fectus miraculosos, qui fortasse non possunt
+          <lb ed="#P" n="57"/>per proprias species repraesentari: nulla ergo
+          <lb ed="#P" n="58"/>repugnantia in hoc apparet, quod Angeli 
+          spe<lb break="no" ed="#P" n="59"/>cies omnium rerum naturalium possibilium
+          <lb ed="#P" n="60"/>species concreatas habeant.
+        </p>
+        <p xml:id="szdada-x04270-d1e1021">
+          <lb ed="#P" n="61"/>10. Vera sententia. — Probatur. — 
+          Abstrac<lb break="no" ed="#P" n="62"/>tiva cognitio in Deo fundatur in intuitiva. —
+          <lb ed="#P" n="63"/>Nihilominus communis opinio nobis magis
+          <lb ed="#P" n="64"/>probatur, quae affirmat, species concreatas 
+          An<lb break="no" ed="#P" n="65"/>gelis directe solum esse de rebus singularibus
+          <lb ed="#P" n="66"/>aliquando futuris et consequenter de 
+          specie<lb break="no" ed="#P" n="67"/>bus, aut generibus in illis contentis. Hanc 
+          sen<lb break="no" ed="#P" n="68"/>tentiam supponit aperte D. Thomas, 1 part.,
+          <lb ed="#P" n="69"/>quaest. 56, art. 2, ad 4, ubi ait, quod si Deus
+          <lb ed="#P" n="70"/>facturus fuisset novum Angelum, quem nunc
+          <lb ed="#P" n="71"/>non fecit, aliam speciem intentionalem creatis
+          <lb ed="#P" n="72"/>Angelis indidisset, quam nunc eis non 
+          infun<lb break="no" ed="#P" n="73"/>dit. Et consentiunt ibi expositores, et in q. 55,
+          <lb ed="#P" n="74"/>art. 2, et ibi specialiter Alexander Pesantius,
+          <lb ed="#P" n="75"/>concl. 6, et Daniel Malonius, in 2, d. 3, disp. 11.
+          <lb ed="#P" n="76"/>Et probatur primo, quia non est naturale 
+          An<lb break="no" ed="#P" n="77"/>gelo cognoscere possibilia, quae nunquam sunt
+          <lb ed="#P" n="78"/>existentiam habitura, ergo non est, cur 
+          creda<lb break="no" ed="#P" n="79"/>mus, species omnium illorum Angelis infundi,
+          <lb ed="#P" n="80"/>cum solum propter naturalem cognitionem, id
+          <lb ed="#P" n="81"/>est, naturae debitam, infundantur. Antecedens
+          <lb ed="#P" n="82"/>declaratur et probatur primo, quia illarum
+          <lb ed="#P" n="83"/>tantum rerum species sunt connaturales 
+          An<lb break="no" ed="#P" n="84"/>gelo, seu naturaliter illae debitae, quas 
+          nimi<lb break="no" ed="#P" n="85"/>rum res illa posset naturaliter cognoscere, si
+          <lb ed="#P" n="86"/>ab ipsis scientiam capere posset, quia naturae
+          <lb ed="#P" n="87"/>auctor ea tantum supplet, quae naturalis ordo
+          <lb ed="#P" n="88"/>rerum postulare videtur. Secundo quia omnis
+          <lb ed="#P" n="89"/>cognitio rerum possibilium ab existentibus 
+          su<lb break="no" ed="#P" n="90"/>mit initium, hicque videtur esse connaturalis
+          <lb ed="#P" n="91"/>ordo seu ratio cognoscendi, et ideo non est 
+          na<lb break="no" ed="#P" n="92"/>turale cognoscere primo, et per se possibilia,
+          <lb ed="#P" n="93"/>quae nunquam sunt existentiam habitura. Id
+          <lb ed="#P" n="94"/>declaratur optime ex divina scientia, quae non
+          <lb ed="#P" n="95"/>versatur circa possibilia, nisi ex 
+          comprehen<lb break="no" ed="#P" n="96"/>sione suae essentiae existentis: nam intuendo
+          <lb ed="#P" n="97"/>et comprehendendo se, in se cognoscit 
+          possi<lb break="no" ed="#P" n="98"/>bilia et ita etiam in Deo abstractiva cognitio
+          <lb ed="#P" n="99"/>fundatur in intuitiva saltem ejus rei, in qua
+          <lb ed="#P" n="100"/>altera continetur. Multo ergo minus potest esse
+          <lb ed="#P" n="101"/>naturale Angelo directe et per propriam 
+          spe<lb break="no" ed="#P" n="102"/>ciem cognoscere omnia possibilia nunquam
+          <lb ed="#P" n="103"/>futura, sed si aliqua cognoscit, id non est per
+          <lb ed="#P" n="104"/>species earum, sed per species aliquarum 
+          re<lb break="no" ed="#P" n="105"/>rum existentium, in quibus aliae virtute 
+          con<lb break="no" ed="#P" n="106"/>tinentur. Sic enim dicetur Angelus cognoscere
+          <lb ed="#P" n="107"/>ea, quae sunt in potentia causarum naturalium,
+          <lb ed="#P" n="108"/>ut postea videbimus: ea vero omnia, quae in
+          <lb ed="#P" n="109"/>sola Dei potentia continentur, naturaliter non
+          <lb ed="#P" n="110"/>potest cognoscere per ipsam potentiam cum
+          <pb ed="#P" n="175"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illam, prout in se est, non cognoscat, ergo
+          <lb ed="#P" n="2"/>nullo modo connaturali potest illas 
+          cognos<lb break="no" ed="#P" n="3"/>cere, ac subinde nec species illarum 
+          connatu<lb break="no" ed="#P" n="4"/>raliter postulat. Tertio argumentari possumus,
+          <lb ed="#P" n="5"/>quia Christi anima per gratiam non accepit
+          <lb ed="#P" n="6"/>scientiam omnium possibilium, ut communior
+          <lb ed="#P" n="7"/>habet sententia, ergo multo minus illam 
+          pos<lb break="no" ed="#P" n="8"/>tulant Angeli per naturam.
+        </p>
+        <p xml:id="szdada-x04270-d1e1154">
+          <lb ed="#P" n="9"/>11. Ad primam probationem in mumero 
+          oc<lb break="no" ed="#P" n="10"/>tavo. — Ad secundam probationem. — 
+          Confir<lb break="no" ed="#P" n="11"/>mabitur autem hoc amplius oppositionibus
+          <lb ed="#P" n="12"/>contrariis satisfaciendo. Ad primum 
+          argumen<lb break="no" ed="#P" n="13"/>tum negamus assumptum, nimirum omnes
+          <lb ed="#P" n="14"/>has species esse connaturales Angelo, et ad
+          <lb ed="#P" n="15"/>probationem dicimus, imprimis, esse 
+          discri<lb break="no" ed="#P" n="16"/>men inter potentiam intrinsecam activam, seu
+          <lb ed="#P" n="17"/>quasi activam per naturalem emanationem et
+          <lb ed="#P" n="18"/>potentiam pure receptivam, nam prior ab 
+          in<lb break="no" ed="#P" n="19"/>trinseco determinatum habet effectum, quem
+          <lb ed="#P" n="20"/>producere suo modo potest: potentia autem
+          <lb ed="#P" n="21"/>receptiva de se est indifferens ad multa et 
+          de<lb break="no" ed="#P" n="22"/>terminatur ab agente, a quo in actum 
+          reduci<lb break="no" ed="#P" n="23"/>tur: et sic materia prima licet sit capax 
+          plu<lb break="no" ed="#P" n="24"/>rium formarum, una contenta est, ad quam
+          <lb ed="#P" n="25"/>ab agente determinatur. Sic ergo cum 
+          poten<lb break="no" ed="#P" n="26"/>tia Angeli ad species intelligibiles receptiva
+          <lb ed="#P" n="27"/>tantum sit, non potest actuari simul per 
+          om<lb break="no" ed="#P" n="28"/>nes, quas potest recipere, sed illis tantum, ad
+          <lb ed="#P" n="29"/>quas secundum ordinem rerum ab auctore 
+          na<lb break="no" ed="#P" n="30"/>turae praestitutum consequenter determinatur.
+          <lb ed="#P" n="31"/>Nam sola capacitas passiva non suflicit, ut
+          <lb ed="#P" n="32"/>dixi, sine debito ordine naturali, cui etiam
+          <lb ed="#P" n="33"/>naturalis appetitus conformari censetur. Nam
+          <lb ed="#P" n="34"/>licet non fundetur in cognitione intrinseca,
+          <lb ed="#P" n="35"/>nihilominus in suo gradu est ordinatus, ita ut
+          <lb ed="#P" n="36"/>censeatur natura appetere metaphorice, quod
+          <lb ed="#P" n="37"/>ordinate appeteret proprie, si cognitionem 
+          ha<lb break="no" ed="#P" n="38"/>beret. Ordinate autem solum appetuntur 
+          spe<lb break="no" ed="#P" n="39"/>cies illarum rerum, quae primario existunt,
+          <lb ed="#P" n="40"/>quia illae sunt per se aptae ad immutandam
+          <lb ed="#P" n="41"/>potentiam, ut directe cognoscantur, aliae vero,
+          <lb ed="#P" n="42"/>quae non sunt, nec futurae sunt, non sunt per
+          <lb ed="#P" n="43"/>se primo cognoscibiles, sed tantum prout in
+          <lb ed="#P" n="44"/>existentibus continentur, et ideo appetitus
+          <lb ed="#P" n="45"/>etiam naturalis, seu naturale debitum non 
+          ex<lb break="no" ed="#P" n="46"/>tenditur ad ea, quae tantum possibilia sunt. Et
+          <lb ed="#P" n="47"/>ita etiam responsum est ad secundam, quia
+          <lb ed="#P" n="48"/>scibilia naturaliter, prout distinguuntur a 
+          su<lb break="no" ed="#P" n="49"/>pernaturalibus, miraculosis et liberis, duplicia
+          <lb ed="#P" n="50"/>sunt, videlicet, scibilia remote, aut proxime.
+          <lb ed="#P" n="51"/>Priori modo dici possunt naturaliter scibilia ab
+          <lb ed="#P" n="52"/>Angelo pure possibilia, quia si existerent, sub
+          <lb ed="#P" n="53"/>cognitionem naturalem caderent, tamen 
+          proxi<lb break="no" ed="#P" n="54"/>me non sunt scibilia, quia non habent statum
+          <lb ed="#P" n="55"/>accommodatum ad naturalem scientiam 
+          pro<lb break="no" ed="#P" n="56"/>priam, et distinctam rei in se. Priori modo
+          <lb ed="#P" n="57"/>concedo, multa esse naturalter scibilia, quae
+          <lb ed="#P" n="58"/>Angelus nescit, illa vero non est ignorantia
+          <lb ed="#P" n="59"/>propria, et privativa, sed nescientia negativa,
+          <lb ed="#P" n="60"/>quia non est carentia scientiae debitae, sed 
+          tan<lb break="no" ed="#P" n="61"/>tum remote possibilis, ac proinde talis 
+          nes<lb break="no" ed="#P" n="62"/>cientia non est violenta, quia contraria 
+          scien<lb break="no" ed="#P" n="63"/>tia non est naturalter debita, ut declaratum
+          <lb ed="#P" n="64"/>est.
+        </p>
+        <p xml:id="szdada-x04270-d1e1278">
+          <lb ed="#P" n="65"/>12. In tertio argumento petitur dubium, an
+          <lb ed="#P" n="66"/>fuerit possibile simpliciter, et de absoluta 
+          po<lb break="no" ed="#P" n="67"/>tentia dari Angelo species omnium rerum 
+          pos<lb break="no" ed="#P" n="68"/>sibilium, esto non fuerint debitae, nec 
+          possibi<lb break="no" ed="#P" n="69"/>les secundum ordinariam legem. Quod dubium
+          <lb ed="#P" n="70"/>tractavi in tom. 3, disp. 27, sect. 4, tractando
+          <lb ed="#P" n="71"/>de scientia infusa animae Christi, et in eam
+          <lb ed="#P" n="72"/>partem inclinavi, quod non implicet 
+          contradic<lb break="no" ed="#P" n="73"/>tionem communicari creaturae scientiam 
+          om<lb break="no" ed="#P" n="74"/>nium rerum possibilium extra Verbum, et per
+          <lb ed="#P" n="75"/>species infusas, ac lume intelectuale 
+          su<lb break="no" ed="#P" n="76"/>pernaturalis ordinis. Quod nunc etiam 
+          proba<lb break="no" ed="#P" n="77"/>bile censeo et consequenter, fateor tertiam 
+          ra<lb break="no" ed="#P" n="78"/>tionem de comprehensione Dei efficacem non
+          <lb ed="#P" n="79"/>esse, ut in toto illo loco latius docui. Propter
+          <lb ed="#P" n="80"/>alias vero duas rationes addo in praesenti,
+          <lb ed="#P" n="81"/>quod licet absolute non repugnet, habere 
+          spe<lb break="no" ed="#P" n="82"/>cies omnium possibilium rerum, nihilominus
+          <lb ed="#P" n="83"/>repugnat habere tam exactam cognitionem,
+          <lb ed="#P" n="84"/>seu repraesentationem per species naturales et
+          <lb ed="#P" n="85"/>commensuratas lumini naturali angelici 
+          intel<lb break="no" ed="#P" n="86"/>lectus. Quia non admittimus, posse tam 
+          ple<lb break="no" ed="#P" n="87"/>nam scientiam dari per infinitam 
+          multitudi<lb break="no" ed="#P" n="88"/>nem specierum intelligibilium, quia omnem
+          <lb ed="#P" n="89"/>talem multitudinem infinitam impossibilem
+          <lb ed="#P" n="90"/>esse censemus. Si autem sunt finitae, 
+          necessa<lb break="no" ed="#P" n="91"/>rium est, ut singule infinitas rerum species
+          <lb ed="#P" n="92"/>repraesentent, quia aliter non possunt omnes
+          <lb ed="#P" n="93"/>species rerum possibilium exhaurire: tales 
+          au<lb break="no" ed="#P" n="94"/>tem species non possunt esse connaturales 
+          An<lb break="no" ed="#P" n="95"/>gelo, quia licet Angelus possit habere species
+          <lb ed="#P" n="96"/>universales, ut infra dicemus, non tamen adeo,
+          <lb ed="#P" n="97"/>utuna infinitas rerum naturas et species, 
+          reprae<lb break="no" ed="#P" n="98"/>sentet. Ratio est, quia quidquid repraesentatur
+          <lb ed="#P" n="99"/>per unam speciem angelicam, potest ab 
+          Ange<lb break="no" ed="#P" n="100"/>lo unico simplici actu cognosci, ut postea 
+          dice<lb break="no" ed="#P" n="101"/>mus: non potest autem Angelus habere actum,
+          <lb ed="#P" n="102"/>quo simul infinita cognoscat, actum (inquam)
+          <lb ed="#P" n="103"/>naturalem, et suae virtuti naturali 
+          proportio<lb break="no" ed="#P" n="104"/>natum, quia non videtur possibile per lumen
+          <lb ed="#P" n="105"/>naturale finitum ad infinita simul attendere,
+          <lb ed="#P" n="106"/>proprie, ac perfecte singula intelligendo, ergo
+          <lb ed="#P" n="107"/>non potest dari species connaturalis Angelo,
+          <lb ed="#P" n="108"/>quae una existens infinitas res praesertim specie
+          <lb ed="#P" n="109"/>diversas repraesentet. Secus vero esse potest
+          <lb ed="#P" n="110"/>per species, et Iumen supernaturalis ordinis,
+          <pb ed="#P" n="176"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et ideo major repugnantia ex hac parte est in
+          <lb ed="#P" n="2"/>hoc, quod Angelus habeat species innatas, et
+          <lb ed="#P" n="3"/>proportionatas naturae suae, quae omnes res
+          <lb ed="#P" n="4"/>possibiles repraesentent, quam fuerit in scientia
+          <lb ed="#P" n="5"/>per se infusa animae Christi, quae altioris 
+          or<lb break="no" ed="#P" n="6"/>dinis fuit, ut ibi dixi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

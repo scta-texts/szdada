@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="40"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x00993"><!-- l1c10 -->
+        <head xml:id="szdada-x00993-Hd1e101">Caput 10</head>
+        <head xml:id="szdada-x00993-Hd1e103" type="question-title">Objectionibus contra doctrinam capitis superioris occurritur</head>
+        <p xml:id="szdada-x00993-d1e106">
+          <lb ed="#P" n="39"/>CAPUT X.
+          <lb ed="#P" n="40"/>OBJECTIONIBUS CONTRA DOCTRINAM CAPITIS
+          <lb ed="#P" n="41"/>SUPERIORIS OCCURRITUR.
+        </p>
+        <p xml:id="szdada-x00993-d1e115">
+          <lb ed="#P" n="42"/>1. Tria ait Vasquez in preesenti. — 
+          Doctri<lb break="no" ed="#P" n="43"/>nam in praecedenti capite traditam et ex divo
+          <lb ed="#P" n="44"/>Thoma sumptam, impugnat P. Vasquez, disp.
+          <lb ed="#P" n="45"/>182. et contendit imprimis, quod licet Angelus
+          <lb ed="#P" n="46"/>dicatur immortalis secundum naturam suam,
+          <lb ed="#P" n="47"/>sicut anima rationalis dicitur naturaliter 
+          im<lb break="no" ed="#P" n="48"/>mortalis, nihilominus utrumque sit 
+          intelligen<lb break="no" ed="#P" n="49"/>dum per respectum ad causas creatas, non 
+          res<lb break="no" ed="#P" n="50"/>pectu Dei. Unde dicit primo, respectu Dei
+          <lb ed="#P" n="51"/>Angelos non esse immortales per naturam, sed
+          <lb ed="#P" n="52"/>per gratiam. Quod confirmas testimoniis Pa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>trum ita loquentium, ut videre licet in 
+          Cy<lb break="no" ed="#P" n="54"/>rillo, dict. lib. 8, Thesauri, cap. 2, qui etiam
+          <lb ed="#P" n="55"/>lib. 2, contr. Julianum, similem sententiam
+          <lb ed="#P" n="56"/>ex Platone in Timaeo refert et non improbat.
+          <lb ed="#P" n="57"/>Et eodem modo loquuntur Sophronius, in
+          <lb ed="#P" n="58"/>Epistola relata in 6 Synodo, actione 11. Quos
+          <lb ed="#P" n="59"/>Patres multi ex doctoribus scholasticis 
+          imitan<lb break="no" ed="#P" n="60"/>tur, ut Bonaventura, in 1, d. 8, 1 part., art. 2,
+          <lb ed="#P" n="61"/>quaest. 2, Scotus et Gabriel, locis citandis, et
+          <lb ed="#P" n="62"/>Alensis, 1 part., quaest. 4, memb. 3. Propter
+          <lb ed="#P" n="63"/>quod addit dictus auctor secundo erroneum
+          <lb ed="#P" n="64"/>esse dicere, Angelum esse immortalem et 
+          in<lb break="no" ed="#P" n="65"/>corruptibilem per comparationem ad 
+          poten<lb break="no" ed="#P" n="66"/>tiam Dei, non per gratiam Dei, sed natura sua,
+          <lb ed="#P" n="67"/>quia hoc perinde esse putat, ac dicere, Angelos
+          <lb ed="#P" n="68"/>non pendere in conservari a libera voluntate
+          <lb ed="#P" n="69"/>Dei. Tertio addit, Angelos non solum esse 
+          an<lb break="no" ed="#P" n="70"/>nihilabiles per potentiam Dei extrinsecam, sed
+          <lb ed="#P" n="71"/>etiam ex intrinseca sua natura, ac subinde per
+          <lb ed="#P" n="72"/>realem et nativam potentiam. Probat primo,
+          <lb ed="#P" n="73"/>quia dicti Patres dicunt, Angelos non esse 
+          im<lb break="no" ed="#P" n="74"/>mortales simpliciter, id est, indefectibiles et
+          <lb ed="#P" n="75"/>inannihilabiles (ut sic dicam) natura sua, ergo
+          <lb ed="#P" n="76"/>sunt natura sua mortales et annihilabiles, quia
+          <lb ed="#P" n="77"/>ex duobus oppositis necesse est alterum esse
+          <lb ed="#P" n="78"/>connaturale secundum internam aliquam 
+          po<lb break="no" ed="#P" n="79"/>testatem. Secundo argumentor in hunc 
+          mo<lb break="no" ed="#P" n="80"/>dum, quia Angelus non ideo annihilabilis est,
+          <lb ed="#P" n="81"/>quia Deus potest illum annihilare, sed potius
+          <lb ed="#P" n="82"/>e contrario. Sicut non ideo est possibilis, quia
+          <lb ed="#P" n="83"/>Deus potest illum producere, sed potius a 
+          con<lb break="no" ed="#P" n="84"/>trario, quia potentia supponit objectum suum
+          <lb ed="#P" n="85"/>saltem ut possibile, ne circulus committatur :
+          <lb ed="#P" n="86"/>ergo Angelus ex se est annihilabilis per 
+          inter<lb break="no" ed="#P" n="87"/>nam potentiam et capacitatem, et non tantum
+          <lb ed="#P" n="88"/>per extrinsecam potentiam Dei.
+        </p>
+        <p xml:id="szdada-x00993-d1e222">
+          <lb ed="#P" n="89"/>2. Respondetur ad tria dicta. — Ad primum
+          <lb ed="#P" n="90"/>Angelus est immortalis proprie. — Quamvis
+          <lb ed="#P" n="91"/>autem haec dissensio magna ex parte sit in
+          <lb ed="#P" n="92"/>modo loquendi, vel hoc ipso judico non esse a
+          <lb ed="#P" n="93"/>modo loquendi D. Thomzae, ejusque sententia
+          <lb ed="#P" n="94"/>recedendum: maxime quia si in re potest 
+          ali<lb break="no" ed="#P" n="95"/>qua diversitas, reyera opinio D. Thomae 
+          pro<lb break="no" ed="#P" n="96"/>babilior est, ut rationes supra factae probant
+          <lb ed="#P" n="97"/>et respondendo ad illa tria dicta, quae 
+          retuli<lb break="no" ed="#P" n="98"/>mus, magis declarabitur. Ad primum enim
+          <lb ed="#P" n="99"/>dicimus, si immortale sumatur proprie, prout
+          <lb ed="#P" n="100"/>opponitur ei, quod per propriam corruptionem,
+          <lb ed="#P" n="101"/>seu mortem desinere potest, sic Angelum esse
+          <lb ed="#P" n="102"/>immortalem simphliciter respectu cujuscumque
+          <lb ed="#P" n="103"/>causae. Quia jam ostendimus, per nullam 
+          po<lb break="no" ed="#P" n="104"/>tentiam fieri posse, ut Angelus per 
+          corruptio<lb break="no" ed="#P" n="105"/>nem, seu mortem esse desinat, quia nec potest
+          <lb ed="#P" n="106"/>dividi integraliter, aut essentialiter, nec potest
+          <lb ed="#P" n="107"/>privari esse per separationem a subjecto, cum
+          <pb ed="#P" n="41"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ipse non sit forma alicujus subjecti, nec etiam
+          <lb ed="#P" n="2"/>potest existentia privari per inductionem 
+          ali<lb break="no" ed="#P" n="3"/>cujus formae, quia substantialis forma in ipsum
+          <lb ed="#P" n="4"/>induci non potest et accidentalis non potest 
+          il<lb break="no" ed="#P" n="5"/>lum destruere, cum existentiam illius 
+          necessa<lb break="no" ed="#P" n="6"/>rio supponat. In quo sensu maxime videtur
+          <lb ed="#P" n="7"/>loqui D. Thomas, dicto art. 5, et ita intellectae
+          <lb ed="#P" n="8"/>ratio, et assertio ejus non solum respectu 
+          cau<lb break="no" ed="#P" n="9"/>sae creatae, sed etiam respectu Dei, ejusque 
+          ab<lb break="no" ed="#P" n="10"/>solutae potentiae procedunt. Quod etiam in
+          <lb ed="#P" n="11"/>anima rationali verum est, nec oportet addere
+          <lb ed="#P" n="12"/>limitationem de respectu ad hanc, vel illam
+          <lb ed="#P" n="13"/>causam, quam nec Concilium Lateranense 
+          ad<lb break="no" ed="#P" n="14"/>didit, nec in voce ipsa secundum communem
+          <lb ed="#P" n="15"/>usum ejus includitur. Nec est necessaria, quia
+          <lb ed="#P" n="16"/>licet Deus possit annihilare animam in eodem
+          <lb ed="#P" n="17"/>instanti, in quo a corpore separatur, adhuc
+          <lb ed="#P" n="18"/>autem non faciet, aut facere potest, ut sit 
+          mor<lb break="no" ed="#P" n="19"/>talis, id est, ut ex vi separationis a corpore
+          <lb ed="#P" n="20"/>esse desinat, seu ut corrumpatur, seu 
+          commo<lb break="no" ed="#P" n="21"/>riatur cum homine, hoc enim modo et non
+          <lb ed="#P" n="22"/>alio, potest aliqua forma esse mortalis, seu 
+          cor<lb break="no" ed="#P" n="23"/>ruptibilis. In illo autem casu non desineret
+          <lb ed="#P" n="24"/>anima ex vi separationis a materia, et ita non
+          <lb ed="#P" n="25"/>commoreretur cum homine, sed per novum
+          <lb ed="#P" n="26"/>modum et per negationem sui influxus Deus
+          <lb ed="#P" n="27"/>illam destrueret. Sicut e contrario licet Deus
+          <lb ed="#P" n="28"/>creet animam in instanti, in quo homo 
+          gene<lb break="no" ed="#P" n="29"/>ratur, non congeneratur anima cum homine,
+          <lb ed="#P" n="30"/>nec congenerare ullo modo potest, quia ex
+          <lb ed="#P" n="31"/>materia educi non potest, neque ab illa in 
+          ge<lb break="no" ed="#P" n="32"/>nere causae materialis dependere, ut sapientes
+          <lb ed="#P" n="33"/>et cordati philosophi sentiunt.
+        </p>
+        <p xml:id="szdada-x00993-d1e343">
+          <lb ed="#P" n="34"/>3. Quomodo Angelus sit defectibilis. — Si
+          <lb ed="#P" n="35"/>vero sit sermo de immortali, ut opponitur omni
+          <lb ed="#P" n="36"/>desitioni, id est, de indefectibili omnino et ut
+          <lb ed="#P" n="37"/>excludit omnem potentiam tam extrinsecam,
+          <lb ed="#P" n="38"/>quam intrinsecam, sic quidem non est Angelus
+          <lb ed="#P" n="39"/>simphciter inconvertibilis (ut loquitur 
+          Bona<lb break="no" ed="#P" n="40"/>ventura) utique in nihilum, quia per 
+          respec<lb break="no" ed="#P" n="41"/>tum ad extrinsecam potentiam Dei et per 
+          de<lb break="no" ed="#P" n="42"/>nommnationem ab illa annihilabilis est. 
+          Nihilo<lb break="no" ed="#P" n="43"/>minus tamen si per illum terminum 
+          privati<lb break="no" ed="#P" n="44"/>vum solum excludatur ab Angelo intrinseca et
+          <lb ed="#P" n="45"/>realis potentia ad non esse, sic absolute est
+          <lb ed="#P" n="46"/>Angelus indefectibilis in esse respectu etiam
+          <lb ed="#P" n="47"/>Dei, quia etiam respectu illius non habet 
+          An<lb break="no" ed="#P" n="48"/>gelus intrinsecam potentiam ad non esse, sed
+          <lb ed="#P" n="49"/>solum per extrinsecam Dei potestatem et 
+          liber<lb break="no" ed="#P" n="50"/>tatem potest desinere. Cujus signum est, quia
+          <lb ed="#P" n="51"/>non potest desinere per actionem positivam,
+          <lb ed="#P" n="52"/>per quam aliquid recipiat, vel amittat, sed
+          <lb ed="#P" n="53"/>tantum per negationem actionis conservativae,
+          <lb ed="#P" n="54"/>ut tanquam certum suppono. Aliud etiam 
+          si<lb break="no" ed="#P" n="55"/>gnum est, quia haec defectibilitas Angeli non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tam provenit ex potentia Dei, ut sic, quam ex
+          <lb ed="#P" n="57"/>libertate. Nam si Deus ex necessitate naturae
+          <lb ed="#P" n="58"/>ageret, etiamsi aeque omnipotens esset in 
+          a<lb break="no" ed="#P" n="59"/>gendo, nihilominus Angelum annihilare non
+          <lb ed="#P" n="60"/>posset, nec suo esse privare, quia hoc non est
+          <lb ed="#P" n="61"/>agere, sed suspendere actionem, quod non
+          <lb ed="#P" n="62"/>pertinet ad potentiam per se spectatam, sed ut
+          <lb ed="#P" n="63"/>subest in agendo libertati voluntatis.
+        </p>
+        <p xml:id="szdada-x00993-d1e413">
+          <lb ed="#P" n="64"/>4. Respondetur ad Patres et auctores citatos
+          <lb ed="#P" n="65"/>pro eodem primo dicto. — Ad Patres et 
+          theolo<lb break="no" ed="#P" n="66"/>gos respondetur, hanc propositionem: Angelus
+          <lb ed="#P" n="67"/>natura sua est perpetuus, ac proinde 
+          indefecti<lb break="no" ed="#P" n="68"/>bDilis omnino, multiplicem habere sensum, quoad
+          <lb ed="#P" n="69"/>particulam illam natura sua: nam uno modo
+          <lb ed="#P" n="70"/>idem significat, quod, ex vi suae essentiae et a
+          <lb ed="#P" n="71"/>se sine influxu alterius, et in hoc sensu 
+          pro<lb break="no" ed="#P" n="72"/>positio est haeretica, quia in ea affirmatur,
+          <lb ed="#P" n="73"/>Angelum habere esse independens et 
+          incausa<lb break="no" ed="#P" n="74"/>tum, ut sic dicam. Et in eodem sensu negant
+          <lb ed="#P" n="75"/>Patres, Angelum, vel aliquid extra Deum esse
+          <lb ed="#P" n="76"/>natura sua immortalem. Et huic opponunt esse
+          <lb ed="#P" n="77"/>immortalem per gratiam, id est, per 
+          benefi<lb break="no" ed="#P" n="78"/>cium Dei, quale etiam est beneficium 
+          creatio<lb break="no" ed="#P" n="79"/>nis, utrumque enim beneficium creationis et
+          <lb ed="#P" n="80"/>conservationis ejusdem ordinis sunt, et 
+          quate<lb break="no" ed="#P" n="81"/>nus ex liberalitate Dei datur, gratia vocatur.
+          <lb ed="#P" n="82"/>Et eodem modo loquuntur Bonaventura et alii.
+          <lb ed="#P" n="83"/>Unde ex hoc probant, Angelum non esse 
+          na<lb break="no" ed="#P" n="84"/>tura sua inconvertibilem in nihilum, quia 
+          so<lb break="no" ed="#P" n="85"/>lum illud est tali modo inconvertibile, quod ex
+          <lb ed="#P" n="86"/>seipso habet, ut possit stare. Alio modo potest
+          <lb ed="#P" n="87"/>accipi particula illa aatura sua, ut solum 
+          si<lb break="no" ed="#P" n="88"/>gnificet naturalem inclinationem et appetitum
+          <lb ed="#P" n="89"/>in reali potentia activa, vel receptiva, aut
+          <lb ed="#P" n="90"/>quasi receptiva Angeli, vel alterius rei similis
+          <lb ed="#P" n="91"/>fundatum: et sic dici potest et debet, Angelus
+          <lb ed="#P" n="92"/>natura sua indefectibilis, quia hoc solum est
+          <lb ed="#P" n="93"/>illi connaturale, et postquam existens 
+          suppo<lb break="no" ed="#P" n="94"/>nitur, ad hoc tantum habet internam 
+          poten<lb break="no" ed="#P" n="95"/>tiam realem et aptitudinem.
+        </p>
+        <p xml:id="szdada-x00993-d1e485">
+          <lb ed="#P" n="96"/>5. Respondetur ad secundum dictum .— Non
+          <lb ed="#P" n="97"/>est erronewn dicere, Angelum esse natura sua
+          <lb ed="#P" n="98"/>indefectibilem. — Et in eodem sensu non est
+          <lb ed="#P" n="99"/>erroneum dicere, Angelum esse natura sua
+          <lb ed="#P" n="100"/>indefectibilem etiam respectu Dei, sed omnino
+          <lb ed="#P" n="101"/>verum, si legitime intelligatur. Non est enim
+          <lb ed="#P" n="102"/>sensus, quod Deus non possit annihilare illum,
+          <lb ed="#P" n="103"/>sed quod talis annihilatio nunquam esse possit
+          <lb ed="#P" n="104"/>secundum naturam Angeli, nec ex interna 
+          po<lb break="no" ed="#P" n="105"/>tentia reali, aut inclinatione ejus. Sicut lapis
+          <lb ed="#P" n="106"/>dici non potest natura sua mobilis sursum etiam
+          <lb ed="#P" n="107"/>respectu Dei, quia licet Deus possit movere 
+          la<lb break="no" ed="#P" n="108"/>pidem sursum, non potest tamen facere, ut
+          <lb ed="#P" n="109"/>talis motus sit ei naturalis, aut ab intrinseco,
+          <lb ed="#P" n="110"/>sed violenter, vel al summum obedientialter:
+          <pb ed="#P" n="42"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ita ergo est de annihilatione. Neque dictus
+          <lb ed="#P" n="2"/>auctor hoc negare potuit: nam in capite tertio
+          <lb ed="#P" n="3"/>fatetur, si Angelus annihilaretur, 
+          annihilatio<lb break="no" ed="#P" n="4"/>nem respectu illius fore aliquo modo 
+          superna<lb break="no" ed="#P" n="5"/>turalem, quia esset supra naturalem ordinem
+          <lb ed="#P" n="6"/>providentiae Dei, et similiter ait fore aliquo
+          <lb ed="#P" n="7"/>modo contra naturam et violentam Angelo jam
+          <lb ed="#P" n="8"/>existenti. Ergo Angelus jam existens recte in
+          <lb ed="#P" n="9"/>dicto sensu dicitur natura sua inannihilabilis,
+          <lb ed="#P" n="10"/>quia in sua natura non habet principium 
+          an<lb break="no" ed="#P" n="11"/>nihilationis, licet per extrinsecam potentiam
+          <lb ed="#P" n="12"/>possit annihilari. Et hoc etiam satis est, ut non
+          <lb ed="#P" n="13"/>annihilari sit gratia lato modo sumpta, id est,
+          <lb ed="#P" n="14"/>beneficium Dei gratuitum, licet ordinis 
+          natu<lb break="no" ed="#P" n="15"/>ralis, et naturae consentaneum, imo aliqualiter
+          <lb ed="#P" n="16"/>debitum rei jam existenti et carenti interna
+          <lb ed="#P" n="17"/>potentia ad non esse, sicut generalis concursus
+          <lb ed="#P" n="18"/>lato modo dicitur gratia, ut in proprio loco
+          <lb ed="#P" n="19"/>declaratum est.
+        </p>
+        <p xml:id="szdada-x00993-d1e566">
+          <lb ed="#P" n="20"/>6. Respondetur ad tertium. — Unde ad 
+          ter<lb break="no" ed="#P" n="21"/>tium negamus esse in Angelo intrinsecam 
+          po<lb break="no" ed="#P" n="22"/>tentiam realem ad non esse, contrarium enim,
+          <lb ed="#P" n="23"/>suflicienter probatum est. Ad primam 
+          proba<lb break="no" ed="#P" n="24"/>tionem ex Patribus respondeo, eo modo, quo
+          <lb ed="#P" n="25"/>Angeli non sunt natura sua immortales, id est,
+          <lb ed="#P" n="26"/>indefectibiles essentialiter, et ex vi suae naturae,
+          <lb ed="#P" n="27"/>etiam esse defectibiles, seu annihilabiles ex
+          <lb ed="#P" n="28"/>natura sua, quia ex natura sua habent, ut ab
+          <lb ed="#P" n="29"/>extrinseca causa effective pendeant in suo esse:
+          <lb ed="#P" n="30"/>haec autem defectibilitas ex parte illorum non
+          <lb ed="#P" n="31"/>est aliqua realis potentia passiva vel activa, ut
+          <lb ed="#P" n="32"/>ostensum est, sed est tantum non repugnantia,
+          <lb ed="#P" n="33"/>quia ex se et ex natura sua non habent unde
+          <lb ed="#P" n="34"/>repugnent annihilationi, si Deus velit illos 
+          an<lb break="no" ed="#P" n="35"/>nihilare, seu potius (licet in idem redeat) si
+          <lb ed="#P" n="36"/>nolit eos conservare. Nihilominus tamen illis
+          <lb ed="#P" n="37"/>simpliciter est naturale, posse quantum ex se
+          <lb ed="#P" n="38"/>est, perpetuo durare et carere intrinseco 
+          prin<lb break="no" ed="#P" n="39"/>cipio amissionis sui esse. Et hac ratione recte
+          <lb ed="#P" n="40"/>dicuntur ab intrinseco immutabiles in 
+          existen<lb break="no" ed="#P" n="41"/>do, quantum ex se est, licet sint ab extrinseco
+          <lb ed="#P" n="42"/>mutabiles. Unde facile respondetur ad 
+          secun<lb break="no" ed="#P" n="43"/>dam, fatemur enim, Angelum ita esse 
+          annihi<lb break="no" ed="#P" n="44"/>labilem, sicut est creabilis, at non est creabilis
+          <lb ed="#P" n="45"/>per realem potentiam in ipso existentem, sed
+          <lb ed="#P" n="46"/>objective est creabilis per non repugnantiam
+          <lb ed="#P" n="47"/>ex parte sua, ut esse recipiat, formaliter autem
+          <lb ed="#P" n="48"/>per denominationem a potentia creatoris. Et
+          <lb ed="#P" n="49"/>in universum objectum omnipotentiae Dei, ut
+          <lb ed="#P" n="50"/>condistinctum ab illa et a denominatione ab
+          <lb ed="#P" n="51"/>illa sumpta, solum intelligi potest per non 
+          re<lb break="no" ed="#P" n="52"/>pugnantiam, ut sit vel fiat, ut declaravi in 
+          dis<lb break="no" ed="#P" n="53"/>put. 30 Metaphysicae, sect. 18, a num. 10. 
+          Er<lb break="no" ed="#P" n="54"/>go simili modo Angelus est annihilabilis ante
+          <lb ed="#P" n="55"/>penominationem a potentia Dei per solam non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>repugnantiam, scilicet, quia non esse actu non
+          <lb ed="#P" n="57"/>repugnat essentiae angelicae, quia non est de
+          <lb ed="#P" n="58"/>essentia ejus existere, non tamen est 
+          annihila<lb break="no" ed="#P" n="59"/>bilis per realem potentiam intrinsecam, quia
+          <lb ed="#P" n="60"/>illam non habet. Atque ita illa denominatio,
+          <lb ed="#P" n="61"/>quae per vocem annihilabilis, vel vertibilis, vel
+          <lb ed="#P" n="62"/>mortalis, aut corruptibilis late sumpti 
+          signifi<lb break="no" ed="#P" n="63"/>catur, quatenus positiva est, solum est 
+          extrin<lb break="no" ed="#P" n="64"/>seca a libera potentia Dei.
+        </p>
+        <p xml:id="szdada-x00993-d1e668">
+          <lb ed="#P" n="65"/>7. Dices, illa non repugnantia fundatur in
+          <lb ed="#P" n="66"/>intrinseca natura Angeli, ergo id satis est, ut
+          <lb ed="#P" n="67"/>dicatur natura sua convertibilis in nihilum et
+          <lb ed="#P" n="68"/>negetur esse inconvertibilis natura sua. 
+          Respon<lb break="no" ed="#P" n="69"/>deo negando sequelam. Primo quidem, quia illa
+          <lb ed="#P" n="70"/>non repugnantia fundatur in natura Angeli, 
+          se<lb break="no" ed="#P" n="71"/>cundum esse essentiae praecise spectatae, quia
+          <lb ed="#P" n="72"/>ut sic indifferens est adesse, et non esse, et sic
+          <lb ed="#P" n="73"/>neutrum illi repugnat. Postquam vero 
+          suppo<lb break="no" ed="#P" n="74"/>nitur existens, jam habet positivam 
+          determi<lb break="no" ed="#P" n="75"/>nationem ad esse, et realem capacitatem 
+          in<lb break="no" ed="#P" n="76"/>trinsecam cum naturali inclinatione, et 
+          appe<lb break="no" ed="#P" n="77"/>tit ad perpetuitatem essendi, et ideo absolute
+          <lb ed="#P" n="78"/>est illi connaturale et posse semper esse, et
+          <lb ed="#P" n="79"/>actu perpetuo durare, quamvis semper habeat
+          <lb ed="#P" n="80"/>non repugnantiam ad carendum tali esse. 
+          Se<lb break="no" ed="#P" n="81"/>cundo, quia ista duo possunt esse simul, 
+          scili<lb break="no" ed="#P" n="82"/>cet, quod non repugnantia ad aliquem actum
+          <lb ed="#P" n="83"/>sit connaturalis, et nihilominus status 
+          contra<lb break="no" ed="#P" n="84"/>rius, et perpetuus si connaturalis, ut, verbi
+          <lb ed="#P" n="85"/>gratia, coelo non repugnat, ut forma ejus a
+          <lb ed="#P" n="86"/>materia separetur, et nihilominus 
+          inseparabi<lb break="no" ed="#P" n="87"/>litas perpetua est illi connaturalis.
+        </p>
+        <p xml:id="szdada-x00993-d1e720">
+          <lb ed="#P" n="88"/>8. Utrum Angeli dici possint entia 
+          necessa<lb break="no" ed="#P" n="89"/>ria. — Atque hinc deciditur alia quaestio, utrum
+          <lb ed="#P" n="90"/>Angeli dicendi sint entia necessaria, nec ne.
+          <lb ed="#P" n="91"/>Nam aliqui contendunt, non posse dici entia
+          <lb ed="#P" n="92"/>de se necessaria, quod sentit Scotus, in 1, d. 8,
+          <lb ed="#P" n="93"/>quaest. 5, art. 2, ad quaestionem, et in 4, d. 49,
+          <lb ed="#P" n="94"/>quaest. 6, in principio. Et idem sentit Gabriel,
+          <lb ed="#P" n="95"/>n 2, d. 2, quaest. 1, art. 2, concl. 6, quatenus
+          <lb ed="#P" n="96"/>dicit, quod Angelus non magis determinat 
+          si<lb break="no" ed="#P" n="97"/>bi ex se esse perpetuum, quam substantia 
+          cor<lb break="no" ed="#P" n="98"/>ruptibilis, quia ita potest Deus substantiam 
+          cor<lb break="no" ed="#P" n="99"/>ruptibilem conservare, sicut Angelum, 
+          idem<lb break="no" ed="#P" n="100"/>que dicit Ochamus, in2, quaest. 13, ad primam
+          <lb ed="#P" n="101"/>rationem. At vero D. Thomas, dicto art. 5,
+          <lb ed="#P" n="102"/>Angelos vocat entia necessaria et in q. 9, a.2,
+          <lb ed="#P" n="103"/>Angelos vocat immutabiles, et invariabiles 
+          se<lb break="no" ed="#P" n="104"/>cundum esse, dicitque carere potentia ad non
+          <lb ed="#P" n="105"/>esse, quod perinde est, ac dicere, esse entia
+          <lb ed="#P" n="106"/>necessaria. Et ad secundum declarat, hanc 
+          im<lb break="no" ed="#P" n="107"/>mutabilitatem essendi convenire Angelis 
+          sc<lb break="no" ed="#P" n="108"/>cundum naturam, immutabilitatem autem 
+          e<lb break="no" ed="#P" n="109"/>lectionis habere Angelos secundum divinam
+          <lb ed="#P" n="110"/>virtutem. Et 2, contr. Gent., cap. 30, dicit,
+          <pb ed="#P" n="43"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>res carentes materia simpliciter et absolute
+          <lb ed="#P" n="2"/>necessarias esse, seu ex necessitate existere.
+          <lb ed="#P" n="3"/>Quod ibi, et cap. 55, multis rationibus 
+          osten<lb break="no" ed="#P" n="4"/>dit, et quaest. 5, de Potent., art. 3. Et ita 
+          e<lb break="no" ed="#P" n="5"/>tiam communiter loquuntur Thomistae, 
+          Caje<lb break="no" ed="#P" n="6"/>tanus, Ferrariensis et alii moderni, citatis locis.
+          <lb ed="#P" n="7"/>Et haec sententia videtur ex dictis sequi, nam
+          <lb ed="#P" n="8"/>idem est, esse immutabile in esse simpliciter,
+          <lb ed="#P" n="9"/>quod esse ens necessarium; sed ostensum est,
+          <lb ed="#P" n="10"/>Angelum ex natura sua esse immutabilem in
+          <lb ed="#P" n="11"/>suo esse simpliciter, ergo ex natura sua est ens
+          <lb ed="#P" n="12"/>necessarium.
+        </p>
+        <p xml:id="szdada-x00993-d1e804">
+          <lb ed="#P" n="13"/>9. Vera sententia.—Angelus ew se est ens 
+          ne<lb break="no" ed="#P" n="14"/>cessarium a Deo tamen potest exmistentia 
+          pri<lb break="no" ed="#P" n="15"/>vari.—Sed diversitas haec solum in modo 
+          lo<lb break="no" ed="#P" n="16"/>quendi esse videtur, nam constat Angelum non
+          <lb ed="#P" n="17"/>esse ens ita necessarium, ut per nullam 
+          poten<lb break="no" ed="#P" n="18"/>tiam privari possit esse, et quia necessitas 
+          es<lb break="no" ed="#P" n="19"/>sendi absolute dicta videtur excludere omnem
+          <lb ed="#P" n="20"/>possibilitatem non essendi, sive per potentiam
+          <lb ed="#P" n="21"/>extrinsecam, sive per intrinsecam, ideo in eo
+          <lb ed="#P" n="22"/>sensu Angelo tribui non potest, nec tribuenda
+          <lb ed="#P" n="23"/>est sine additione aliqua, quae verum sensum
+          <lb ed="#P" n="24"/>declaret. Unde dici potest Angelus ens 
+          neces<lb break="no" ed="#P" n="25"/>sarium, quantum est ex se, et ex suis 
+          intrin<lb break="no" ed="#P" n="26"/>secis principiis, licet ab alio possit suo esse
+          <lb ed="#P" n="27"/>privari: ista enim duo non pugnant inter se,
+          <lb ed="#P" n="28"/>quia necessitas illa, quae est ex principiis 
+          in<lb break="no" ed="#P" n="29"/>trinsecis, habet causam extrinsecam, a qua
+          <lb ed="#P" n="30"/>pendet, et per quam cessare potest. Vel aliter
+          <lb ed="#P" n="31"/>potest idem declarari, quia duobus modis 
+          po<lb break="no" ed="#P" n="32"/>test aliquod ens esse necessarium ab intrinseco,
+          <lb ed="#P" n="33"/>scilicet, positive, et negative. Positive voco,
+          <lb ed="#P" n="34"/>quando res vel ex sua essentia est necessaria,
+          <lb ed="#P" n="35"/>ut si fingatur res aliqua, quae sit talis naturae,
+          <lb ed="#P" n="36"/>ut postquam facta est, conservari possit, seu
+          <lb ed="#P" n="37"/>durare sine influxu alterius, vel saltem habeat
+          <lb ed="#P" n="38"/>in se potentiam activam, qua se conservet in
+          <lb ed="#P" n="39"/>esse, saltem cum concursu alterius. Negative
+          <lb ed="#P" n="40"/>autem voco ens necessarium, quod postquam
+          <lb ed="#P" n="41"/>est, nullum habet in se principium non 
+          essen<lb break="no" ed="#P" n="42"/>di, neque potentiam realem et positivam ad
+          <lb ed="#P" n="43"/>non esse; tale enim ens, quantum in ipso est,
+          <lb ed="#P" n="44"/>semper existit, et ideo merito dici potest ens
+          <lb ed="#P" n="45"/>necessarium ad distinctionem illorum entium,
+          <lb ed="#P" n="46"/>quae habent potentiam intrinsecam ad non
+          <lb ed="#P" n="47"/>esse, et ideo contingentia vocantur. Nam 
+          ca<lb break="no" ed="#P" n="48"/>rentia contingentiae necessitas quaedam est.
+          <lb ed="#P" n="49"/>10. Angeli non sunt entia necessaria primo
+          <lb ed="#P" n="50"/>modo sed secundo.—Priori ergo modo non est
+          <lb ed="#P" n="51"/>Angelus ens necessarium, quia nec ex principiis
+          <lb ed="#P" n="52"/>essentialibus habet, quod sit actu ens, nec talis
+          <lb ed="#P" n="53"/>naturae est, ut postquam factum est existere
+          <lb ed="#P" n="54"/>per se possit sine influxu extrinsecae causae,
+          <lb ed="#P" n="55"/>hoc enim supra naturam est omnis entis crea-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ti, aut creabilis. Nec etiam habet potentiam
+          <lb ed="#P" n="57"/>qua se active ac positive conservet, quia hoc
+          <lb ed="#P" n="58"/>etiam involvit repugnantiam, cum omnis 
+          ef<lb break="no" ed="#P" n="59"/>fectio in omni monumento, in quo est, 
+          exis<lb break="no" ed="#P" n="60"/>tentiam rei pro eodem instanti supponat. Et
+          <lb ed="#P" n="61"/>hunc sensum intendunt Scholastici citati, 
+          il<lb break="no" ed="#P" n="62"/>Iumque magis declarat hRichardus, in 1, d. 8,
+          <lb ed="#P" n="63"/>quaest. 2, quamvis vocibus entis necessarii, aut
+          <lb ed="#P" n="64"/>contingentis non utatur. Posteriori autem 
+          mo<lb break="no" ed="#P" n="65"/>do Angelusrecte dicitur ens necessarium, 
+          quan<lb break="no" ed="#P" n="66"/>tum est ex se, quia in se non habet potentiam
+          <lb ed="#P" n="67"/>non essendi, et licet pendeat in conservari ab
+          <lb ed="#P" n="68"/>influxu Dei, huncmet influxum ex natura sua
+          <lb ed="#P" n="69"/>postulat, ut satis declaratum est. Et sic dixit
+          <lb ed="#P" n="70"/>Athanasius, tractatu de definitione, in 
+          princi<lb break="no" ed="#P" n="71"/>pio: Angeli non dicuntur sine principio, 
+          dicun<lb break="no" ed="#P" n="72"/>tur autem eterni, quando quidem immortales
+          <lb ed="#P" n="73"/>sunt, et determun vivent.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

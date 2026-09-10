@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="988"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x24940"><!-- l8c8 -->
+        <head xml:id="szdada-x24940-Hd1e101">Caput 8</head>
+        <head xml:id="szdada-x24940-Hd1e103" type="question-title">Utrum daemones sint ita obstinati in malo, ut nullum actum voluntatis undique honestum, habere possint</head>
+        <p xml:id="szdada-x24940-d1e106">
+          <lb ed="#P" n="62"/>CAPUT VIII.
+          <lb ed="#P" n="63"/>UTRUM DAEMONES SINT ITA OBSTINATI IN MALO,
+          <lb ed="#P" n="64"/>UT NULLUM ACTUM VOLUNTATIS UNDIQUE 
+          HO<lb break="no" ed="#P" n="65"/>NESTUM, HABERE POSSINT.
+        </p>
+        <p xml:id="szdada-x24940-d1e117">
+          <lb ed="#P" n="66"/>1. Opinio concedens daemoni, posse opus 
+          bo<lb break="no" ed="#P" n="67"/>num morale edere. — Aliquorum theologorum
+          <lb ed="#P" n="68"/>sententia fuit, daemones quantumcumque 
+          obs<lb break="no" ed="#P" n="69"/>tinati in suo peccato sint, non esse 
+          determi<lb break="no" ed="#P" n="70"/>natos ad semper peccandum, seu ad 
+          efficien<lb break="no" ed="#P" n="71"/>dum actum malum, quotiescumque aliquid -
+          <lb ed="#P" n="72"/>libere operantur, ac subinde posse daemones,
+          <lb ed="#P" n="73"/>vel damnatos aliquos actus efficere omni ex
+          <lb ed="#P" n="74"/>parte bonos moraliter, tam ex objecto, quam
+          <lb ed="#P" n="75"/>ex circumstantiis. Ita tenet Scotus, in 2, d. 7,
+          <lb ed="#P" n="76"/>quaest. unica, Tartaretus, quaest. 1, dub. 2,
+          <lb ed="#P" n="77"/>Bassolis, quaest. 1, artic. 3, Durandus, quaest. 2,
+          <lb ed="#P" n="78"/>sequitur Angles in florib. 2, sentent., d. 7,
+          <lb ed="#P" n="79"/>quaest. 2, conclus. S, dub. 6, et refertur 
+          Pel<lb break="no" ed="#P" n="80"/>bartus in Glossa, 2 part., verbo Daemones,
+          <lb ed="#P" n="81"/>titul. de Obstinat. daemon., S 38. Fundantur,
+          <lb ed="#P" n="82"/>quia voluntas, etiam in daemone est libera,
+          <lb ed="#P" n="83"/>vel in omnibus, vel in pluribus actibus, non
+          <lb ed="#P" n="84"/>tantum quoad exercitium, sed etiam quoad
+          <lb ed="#P" n="85"/>specificationem: ergo potest operari. et non
+          <lb ed="#P" n="86"/>operari similes actus, et cum operatur, potest
+          <lb ed="#P" n="87"/>bene, et sine ulla malitia operari: ergo ratione
+          <lb ed="#P" n="88"/>libertatis quoad exercitium, potest interdum
+          <lb ed="#P" n="89"/>nec peccare, nec bene agere, et ratione 
+          liber<lb break="no" ed="#P" n="90"/>tatis quoad specificationem potest aliquando
+          <lb ed="#P" n="91"/>opus simpliciter bonum facere.
+        </p>
+        <p xml:id="szdada-x24940-d1e176">
+          <lb ed="#P" n="92"/>2. De libertate quoad exercitium. — Prior
+          <lb ed="#P" n="93"/>pars declaratur, quia voluntas Angeli ex natura
+          <lb ed="#P" n="94"/>sua est libera, quoad exercitium in actibus 
+          or<lb break="no" ed="#P" n="95"/>dinis naturalis, non tantum quoad singulos 
+          ac<lb break="no" ed="#P" n="96"/>tus, sed etiam quoad totam eorum 
+          collectio<lb break="no" ed="#P" n="97"/>nem, quia nulla est causa necessitatem illi
+          <lb ed="#P" n="98"/>imponens ad exercendum aliquem actum 
+          con<lb break="no" ed="#P" n="99"/>fuse, seu disjunctim, magis quam determinate;
+          <lb ed="#P" n="100"/>ergo hanc libertatem retinet daemon, quia
+          <lb ed="#P" n="101"/>etiam in illo assignari non potest causa, 
+          con<lb break="no" ed="#P" n="102"/>trariam necessitatem imponens. Et quamvis
+          <lb ed="#P" n="103"/>daremus, voluntatem daemonis necessitari a
+          <lb ed="#P" n="104"/>DEO ad aliquem particularem actum, ille non
+          <lb ed="#P" n="105"/>esset malus, nec peccatum, et respectu aliorum
+          <lb ed="#P" n="106"/>omnium, esset quoad exercitium liber dicto
+          <lb ed="#P" n="107"/>modo, id est, respectu totius collectionis caete-
+          <pb ed="#P" n="989"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rorum actuum. Ex quo ulterius infertur, posse
+          <lb ed="#P" n="2"/>aliquando abstinere ab omni actuali peccato.
+          <lb ed="#P" n="3"/>Probatur consequentia, quia sic abstinendo ab
+          <lb ed="#P" n="4"/>actu, non peccaret peccato commissionis, quia
+          <lb ed="#P" n="5"/>tale peccatum non committitur sine actu: nec
+          <lb ed="#P" n="6"/>etiam peccaret omittendo, quia non habet 
+          pe<lb break="no" ed="#P" n="7"/>culiare praeceptum semper aliquid agendi; hoc
+          <lb ed="#P" n="8"/>enim praeceptum nec naturale est, nec est
+          <lb ed="#P" n="9"/>ulla ratio fingendi illud positivum in 
+          daemo<lb break="no" ed="#P" n="10"/>nibus.
+        </p>
+        <p xml:id="szdada-x24940-d1e240">
+          <lb ed="#P" n="11"/>3. De libertate quoad speciem. — Posterior
+          <lb ed="#P" n="12"/>item pars de libertate quoad specificationem
+          <lb ed="#P" n="13"/>eodem modo, et efficacius probari potest. Quia
+          <lb ed="#P" n="14"/>Angelus ex natura sua est liber, vel in 
+          omni<lb break="no" ed="#P" n="15"/>bus, vel fere in omnibus actibus suis quoad
+          <lb ed="#P" n="16"/>specificationem, seu determinationem inter 
+          bo<lb break="no" ed="#P" n="17"/>num et malum, ut est certissimum de Angelo
+          <lb ed="#P" n="18"/>in pura natura spectato: sed in daemone 
+          ma<lb break="no" ed="#P" n="19"/>net voluntas naturalis integra et perfecta, quia
+          <lb ed="#P" n="20"/>non est laesus in naturalibus, juxta commune
+          <lb ed="#P" n="21"/>axioma Dionysii et theologorum; ergo retinet
+          <lb ed="#P" n="22"/>eamdem libertatem. Dices, voluntatem 
+          daemo<lb break="no" ed="#P" n="23"/>nis in se mansisse integram, sed impeditam ad
+          <lb ed="#P" n="24"/>operandum bonum ratione peccati superadditi.
+          <lb ed="#P" n="25"/>Sed contra, quia peccatum semel commissum
+          <lb ed="#P" n="26"/>non potest omnino, et ex necessitate impedire
+          <lb ed="#P" n="27"/>indifferentiam quoad specificationem inter 
+          bo<lb break="no" ed="#P" n="28"/>num et malum actum; ergo nec potest 
+          om<lb break="no" ed="#P" n="29"/>nino tollere usum libertatis quoad 
+          specifica<lb break="no" ed="#P" n="30"/>tionem. Antecedens probatur, quia peccatum
+          <lb ed="#P" n="31"/>semel commissum ab Angelo, non semper, ac
+          <lb ed="#P" n="32"/>perpetuo durat in actuali voluntate, qui 
+          opor<lb break="no" ed="#P" n="33"/>teret voluntatem illam necessitari quoad 
+          exer<lb break="no" ed="#P" n="34"/>citium ad continuationem illius actus, quod
+          <lb ed="#P" n="35"/>cum fundamento dici non potest. Tantum ergo
+          <lb ed="#P" n="36"/>manet quoad maculam, vel reatum: sola 
+          au<lb break="no" ed="#P" n="37"/>tem habitualis culpa non potest necessitate 
+          vo<lb break="no" ed="#P" n="38"/>luntatem ad actum malum etiam quoad 
+          spe<lb break="no" ed="#P" n="39"/>cificationem; praesertim cum habitualis culpa
+          <lb ed="#P" n="40"/>tantum sit privatio quaedam physica, vel 
+          mo<lb break="no" ed="#P" n="41"/>ralis. Et quamvis ei conjungatur vitiosus 
+          habi<lb break="no" ed="#P" n="42"/>tus, ille non potest talem necessitatem 
+          impo<lb break="no" ed="#P" n="43"/>nere voluntati, quia habitibus utimur cum
+          <lb ed="#P" n="44"/>volumus, ut paulo post magis ostendemus.
+          <lb ed="#P" n="45"/>Concludit ergo Scotus, in daemonibus non
+          <lb ed="#P" n="46"/>deesse potestatem bene operandi moraliter :
+          <lb ed="#P" n="47"/>addit vero probabile esse, nunquam exire in
+          <lb ed="#P" n="48"/>actum per hanc potentiam, propter 
+          vehemen<lb break="no" ed="#P" n="49"/>tem malitiam, secundum quam (nquit) magis
+          <lb ed="#P" n="50"/>probabile est agere, quam secundum potestatem
+          <lb ed="#P" n="51"/>naturalem, quam habent ad oppositos actus.
+        </p>
+        <p xml:id="szdada-x24940-d1e331">
+          <lb ed="#P" n="52"/>4. Contraria sententia communis et vera. —
+          <lb ed="#P" n="53"/>Contraria sententia communis est 
+          theologo<lb break="no" ed="#P" n="54"/>rum, et vera, juxta quam duo dicenda sunt.
+          <lb ed="#P" n="55"/>Primum est, daemonem in omnibus actibus,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quos libere exercet, male moraliter operari.
+          <lb ed="#P" n="57"/>Secundum est, daemonem nunquam cessare ab
+          <lb ed="#P" n="58"/>omni actuali peccato, sed aliquod semper 
+          com<lb break="no" ed="#P" n="59"/>mittere, quamvis libere saltem quoad 
+          exerci<lb break="no" ed="#P" n="60"/>tium. Haec est sententia D. Thomae, 1 part.,
+          <lb ed="#P" n="61"/>quaest. 46, art. 2, ad 5, quaest. 16, de Malo,
+          <lb ed="#P" n="62"/>art. 5, et quaest. 24, de Verit., art. 10, et in2,
+          <lb ed="#P" n="63"/>d. 7, quaest. 1, art. 2, ubi Magister idem sentit,
+          <lb ed="#P" n="64"/>et defendit Capreolus, quaest. 1, et Cajetanus
+          <lb ed="#P" n="65"/>ac alii recentiores, d. art. 2, et Ferrariensis 4,
+          <lb ed="#P" n="66"/>contra Gent., cap. 95, Soto, in 4, d. 50, art. 4,
+          <lb ed="#P" n="67"/>concl. 2, et art. 5, Bonaventura, hichardus,
+          <lb ed="#P" n="68"/>Gregorius, Gabriel, Major, /Egidius, in dicta
+          <lb ed="#P" n="69"/>distinct. 7, quaest. 1, art. 2, et Marsilius, in 2,
+          <lb ed="#P" n="70"/>quaest. 5, art. 3, Holchot, quaest. 4, et 
+          Altisio<lb break="no" ed="#P" n="71"/>dorensis, lib. 2 Summae, tract. 2, cap. 7, q.1
+          <lb ed="#P" n="72"/>et 2. Alensis, 2 part., quaest. 102, memb. 2 et
+          <lb ed="#P" n="73"/>3, ubi non solum ait, daemones semper male
+          <lb ed="#P" n="74"/>agere, sed etiam demereri, et Henricus, 
+          quod<lb break="no" ed="#P" n="75"/>lib. 8, quaest. 11. Et idem sentit Adrianus, in
+          <lb ed="#P" n="76"/>4 tit., de Sacrament. poenit., quaest. 3, et alios
+          <lb ed="#P" n="77"/>refert, et sequitur Malonius, in 2, distinct. 7,
+          <lb ed="#P" n="78"/>disp. 15.
+        </p>
+        <p xml:id="szdada-x24940-d1e394">
+          <lb ed="#P" n="79"/>5. Probatur heec communis sententia ex 
+          Pa<lb break="no" ed="#P" n="80"/>tribus. — Primo probari potest haec sententia
+          <lb ed="#P" n="81"/>ex doctrina Patrum, praecipue ex Fulgentio,
+          <lb ed="#P" n="82"/>de Fide ad Petrum, cap. 3, cujus verba ex
+          <lb ed="#P" n="83"/>parte retulimus, et praecipue notanda sunt
+          <lb ed="#P" n="84"/>illa: /n quo (id est, in igne) omnes illi 
+          praeva<lb break="no" ed="#P" n="85"/>ricatores Angeli, nec mala possunt unquam 
+          vo<lb break="no" ed="#P" n="86"/>luntate carere, nec pona. Et infra: Ex quo
+          <lb ed="#P" n="87"/>ruince illius meriti in hanc inferiorem sunt 
+          de<lb break="no" ed="#P" n="88"/>trusi caliginem, bonam non poterunt resumere
+          <lb ed="#P" n="89"/>voluntatem. Et infra: Quam si amiserunt 
+          An<lb break="no" ed="#P" n="90"/>geli, ut amissum deinceps habere non possint,
+          <lb ed="#P" n="91"/>et multa similia de hac obstinatione docet, et
+          <lb ed="#P" n="92"/>tandem concludit, quod sicut beati nullas in se
+          <lb ed="#P" n="93"/>malae voluntatis reliquias habebunt, sic 
+          dum<lb break="no" ed="#P" n="94"/>nati nullam bonam habere poterunt voluntatem.
+          <lb ed="#P" n="95"/>Ex aliis vero Patribus adducit Malonius supra
+          <lb ed="#P" n="96"/>generales quasdam sententias, quas de 
+          dam<lb break="no" ed="#P" n="97"/>natis omnibus, eorumque statu proferunt, ut
+          <lb ed="#P" n="98"/>est illa Innocentii IIT, lib. 3, de Contemptu
+          <lb ed="#P" n="99"/>mundi, cap. 10: Voluntas damnati, licet 
+          ami<lb break="no" ed="#P" n="100"/>serit potestatis effectum, semper habebit 
+          mal<lb break="no" ed="#P" n="101"/>gnitatis affectum. Et ad eumdem loquitur
+          <lb ed="#P" n="102"/>Prosperus, lib. 3, de Vita contempl., cap. 12,
+          <lb ed="#P" n="103"/>ubi ait: ideo dixisse Christum, damnatos 
+          liga<lb break="no" ed="#P" n="104"/>tis pedibus et manibus, mitti in tenebras, quia
+          <lb ed="#P" n="105"/>in inferno, ubi Deo nemo coufitetur, actione 
+          pri<lb break="no" ed="#P" n="106"/>vantur. Quod intelligendum videtur de actione
+          <lb ed="#P" n="107"/>honesta, quia absolute non omni actione 
+          pri<lb break="no" ed="#P" n="108"/>vantur. Bernardus etiam, epistol. 253, 
+          damna<lb break="no" ed="#P" n="109"/>tos dicit semper persistere in voluntate 
+          pec<lb break="no" ed="#P" n="110"/>candi.
+        </p>
+        <p xml:id="szdada-x24940-d1e466">
+          <pb ed="#P" n="990"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>6. Favcet etiam Scriptura. — Et ad hunc
+          <lb ed="#P" n="2"/>modum possunt induci multa verba Scripturae,
+          <lb ed="#P" n="3"/>qualia sunt illa ad Galat. 6: Dum tempus 
+          ha<lb break="no" ed="#P" n="4"/>bemus, operemur bonum. Et Joann. 9: Fenit
+          <lb ed="#P" n="5"/>nor, in qua nemo potest operari, et cap. 11:
+          <lb ed="#P" n="6"/>Ambulate dum lucem habetis, ut non tenebree
+          <lb ed="#P" n="7"/>vos comprehendant. Ac denique iltud Eccles. 9:
+          <lb ed="#P" n="8"/>Neque opus, neque ratio, neque sapientia, neque
+          <lb ed="#P" n="9"/>scientia erunt apud inferos. Opus enim bonum
+          <lb ed="#P" n="10"/>sine aliqua prudentia, et recta ratione non fit:
+          <lb ed="#P" n="11"/>ubi autem neque ratio, neque sapientia est,
+          <lb ed="#P" n="12"/>profecto neque prudentia, neque recta ratio
+          <lb ed="#P" n="13"/>esse possunt. Unde Innocentius IlI supra, c. 7,
+          <lb ed="#P" n="14"/>illa verba tractans, ait: Tanta erit in reprobis
+          <lb ed="#P" n="15"/>mentis oblivio, tanta ceecitas animi, tanta 
+          con<lb break="no" ed="#P" n="16"/>fusio rationis, ut raro, vel uunquain ad 
+          cogi<lb break="no" ed="#P" n="17"/>tandum quidquam de Deo possint assurgere,
+          <lb ed="#P" n="18"/>nedum ad confitendum caleant aspirare. 
+          Spe<lb break="no" ed="#P" n="19"/>cialius vero Ignatius, Epist. S, ad Philippens.,
+          <lb ed="#P" n="20"/>de daemone loquens ait: Sapiens est ad male
+          <lb ed="#P" n="21"/>faciendum, bonum cero quid sit, ignorat. utique
+          <lb ed="#P" n="22"/>practice, sicut sequentia verba declarant :
+          <lb ed="#P" n="23"/>Ignorantia oppletus est propter voluntariam 
+          d<lb break="no" ed="#P" n="24"/>mentiam. Quo enim modo non est hujusmodi,
+          <lb ed="#P" n="25"/>qui nec ante pedes, et pro patulo positam 
+          ratio<lb break="no" ed="#P" n="26"/>nem videt? Addi etiam potest illud Job 10: Ubi
+          <lb ed="#P" n="27"/>nullus ordo, sed sempiternus horror inhabitat,
+          <lb ed="#P" n="28"/>ubi Gregorius, lib. 9 Moral., cap. 48, per 
+          de<lb break="no" ed="#P" n="29"/>fectum ordinis confusionem, quae in 
+          damnato<lb break="no" ed="#P" n="30"/>rum erit mente, intelligit, in quius (ait) nibil
+          <lb ed="#P" n="31"/>ordinate fieri poterit; nihil ergo boni erit, quia
+          <lb ed="#P" n="32"/>operatio non est bona, nisi recta, et ordinata
+          <lb ed="#P" n="33"/>sit. Unde cap. 41, de daemone saltem 
+          allego<lb break="no" ed="#P" n="34"/>rice dicitur: Cor ejus indurabitur tanquam
+          <lb ed="#P" n="35"/>lapis.
+        </p>
+        <p xml:id="szdada-x24940-d1e549">
+          <lb ed="#P" n="36"/>7. Ex citatis locis conjecturales rationes
+          <lb ed="#P" n="37"/>formantur. — Ex quibus, et similibus 
+          testi<lb break="no" ed="#P" n="38"/>moniis possumus aliquibus rationibus, vel
+          <lb ed="#P" n="39"/>conjecturis praedictam sententiam confirmare.
+          <lb ed="#P" n="40"/>Primo, quia si daemon posset actum facere
+          <lb ed="#P" n="41"/>omni ex parte moraliter bonum, posset velle
+          <lb ed="#P" n="42"/>honesium opus facere, quia honestum est, et
+          <lb ed="#P" n="43"/>rectae rationi conforme: sed daemon nunquam
+          <lb ed="#P" n="44"/>potest ita operari; ergo nec actum moraliter
+          <lb ed="#P" n="45"/>bonum facere. Consequentia est nota, et 
+          se<lb break="no" ed="#P" n="46"/>quela probatur, tum quia secundum vera 
+          prin<lb break="no" ed="#P" n="47"/>cipia moralia de ratione operis honesti est, ut
+          <lb ed="#P" n="48"/>ex motivo honesto formahter fiat, ut ex 1, 2,
+          <lb ed="#P" n="49"/>suppono. Tum etiam, quia saltem necessarium
+          <lb ed="#P" n="50"/>est, ut fiat propter honestum finem, 
+          qualiter<lb break="no" ed="#P" n="51"/>cumque id explicetur: unus autem finis 
+          ho<lb break="no" ed="#P" n="52"/>nestus, et naturalis ordinis est, ipsum 
+          hones<lb break="no" ed="#P" n="53"/>tum objectum, qua honestum est, et rectae 
+          ra<lb break="no" ed="#P" n="54"/>tioni conforme: si ergo daemon potest operari
+          <lb ed="#P" n="55"/>propter honestum finem naturalem, maxime
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>poterit propter ipsam honestatem naturalem
+          <lb ed="#P" n="57"/>operari, nam inter naturales fines hic est
+          <lb ed="#P" n="58"/>maxime consentaneus, et obvius, ac possibilis
+          <lb ed="#P" n="59"/>naturae rationah. Vel ergo daemon nihil potest
+          <lb ed="#P" n="60"/>bene operari, vel certe naturalem honestatem
+          <lb ed="#P" n="61"/>illo modo intenderenon potest. Quod autem id
+          <lb ed="#P" n="62"/>non possit, imprimis probari potest veluti a
+          <lb ed="#P" n="63"/>priori, quia daemon semper habet suam 
+          volun<lb break="no" ed="#P" n="64"/>tatem quasi formaliter adhaerentem pravo fini
+          <lb ed="#P" n="65"/>suo, cui repugnat intentio honesti, qua 
+          hones<lb break="no" ed="#P" n="66"/>tum est. Secundo a posteriori, et ab 
+          incom<lb break="no" ed="#P" n="67"/>modis, quia consequenter etiam posset odio 
+          ha<lb break="no" ed="#P" n="68"/>bere peccatum, quatenus contra rectam 
+          ratio<lb break="no" ed="#P" n="69"/>nem est. Item posset aliquid propter Deum
+          <lb ed="#P" n="70"/>facere, ut velle servare aliquod praeceptum
+          <lb ed="#P" n="71"/>ejus, quia hoc est rationi conforme, vel etiam
+          <lb ed="#P" n="72"/>posset laudare Deum, aut aliquomodo amare,
+          <lb ed="#P" n="73"/>quia bonus est. Haec enim omnia, et similia
+          <lb ed="#P" n="74"/>sunt honesta secundum raiionem naturalem.
+          <lb ed="#P" n="75"/>Unde si ratio contrariae sententiae fundata in
+          <lb ed="#P" n="76"/>libertate, et potestate naturali efficax esset, de
+          <lb ed="#P" n="77"/>illis omnibus aeque procederet. Absurdum 
+          au<lb break="no" ed="#P" n="78"/>tem esset haec similia in damnatis admittere,
+          <lb ed="#P" n="79"/>cum Psalm. 6 dicatur: Non est in morte, qui
+          <lb ed="#P" n="80"/>memor sit tui, in inferno autem quis 
+          confite<lb break="no" ed="#P" n="81"/>Litur tibi? et Proverb. 19: Impius cum in
+          <lb ed="#P" n="82"/>profundum venit, contemnit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

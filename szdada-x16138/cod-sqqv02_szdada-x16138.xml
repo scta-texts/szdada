@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="640"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x16138"><!-- l6c3 -->
+        <head xml:id="szdada-x16138-Hd1e101">Caput 3</head>
+        <head xml:id="szdada-x16138-Hd1e103" type="question-title">Utrum angeli sancti in tertio post suam creationem instanti beatitudinem acceperint</head>
+        <p xml:id="szdada-x16138-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>CAPUT III.
+          <lb ed="#P" n="53"/>UTRUM ANGELI SANCTI IN TERTIO POST SUAM 
+          CREA<lb break="no" ed="#P" n="54"/>TIONEM INSTANTI BEATITUDINEM ACCEPERINT.
+        </p>
+        <p xml:id="szdada-x16138-d1e117">
+          <lb ed="#P" n="55"/>1. Hoc dubium petitur in secunda ratione
+          <lb ed="#P" n="56"/>dubitandi posita in praecedenti capite, ejusque
+          <lb ed="#P" n="57"/>resolutio, quasi per partes in discursu libri
+          <lb ed="#P" n="58"/>quinti, simul cum dictis capite praecedenti 
+          con<lb break="no" ed="#P" n="59"/>tinetur. Sed ut clarius nostra sententia 
+          intelli<lb break="no" ed="#P" n="60"/>gatur, alias breviter recensebimus, quae cum
+          <lb ed="#P" n="61"/>doctrina data non subsistunt: et inde nostram
+          <lb ed="#P" n="62"/>concludemus, magisque explicabimus.
+        </p>
+        <p xml:id="szdada-x16138-d1e137">
+          <lb ed="#P" n="63"/>2. Prima sententia unum solum instans in
+          <lb ed="#P" n="64"/>negotio Angelorum agnoscens.— Predicta 
+          sen<lb break="no" ed="#P" n="65"/>tentia exploditur. — Prima ergo sententia esse
+          <lb ed="#P" n="66"/>peotest in unico indivisibili instanti totum 
+          ne<lb break="no" ed="#P" n="67"/>gotium sanctorum Angelorum fuisse per 
+          ac<lb break="no" ed="#P" n="68"/>tum, quia in primo instanti creationis 
+          sanctifi<lb break="no" ed="#P" n="69"/>cati sunt, et beatitudinem ultimam acceperunt,
+          <lb ed="#P" n="70"/>vel sine merito, vel cum merito, non tempore,
+          <lb ed="#P" n="71"/>sed natura antecedente: vel certe nullo modo
+          <lb ed="#P" n="72"/>antecedente, sed subsequente, et praeviso. 
+          Ve<lb break="no" ed="#P" n="73"/>rumtamen nullum invenio auctorem, qui hanc
+          <lb ed="#P" n="74"/>sententiam sub his terminis docuerit, quia 
+          om<lb break="no" ed="#P" n="75"/>nes negant Angelos fuisse beatos in primo 
+          in<lb break="no" ed="#P" n="76"/>stanti creationis praeter unum Ludovicum 
+          Vi<lb break="no" ed="#P" n="77"/>vem, qui licet id asserat in scholio ad 
+          Augusti<lb break="no" ed="#P" n="78"/>num, l. 11, de Civ., c. 9, non tamen explicat,
+          <lb ed="#P" n="79"/>an in illo instanti fuerint etiam viatores, vel
+          <lb ed="#P" n="80"/>an fuerint postea aliquando in statu merendi,
+          <lb ed="#P" n="81"/>licet viderent Deum. lIllam ergo sententiam
+          <lb ed="#P" n="82"/>tanquam omnino falsam, et improbabilem 
+          o<lb break="no" ed="#P" n="83"/>mittam. Nam, quod sine merito receperint, vel
+          <lb ed="#P" n="84"/>ex merito ejusdem durationis cum prioritate
+          <lb ed="#P" n="85"/>naturae, ita probatum jam est: contra merita
+          <lb ed="#P" n="86"/>vero subsequentia, et praevisa, in capite 
+          se<lb break="no" ed="#P" n="87"/>quenti disputabimus. In alio vero sensu posset
+          <lb ed="#P" n="88"/>haec sententia intelligi de unico instanti non
+          <lb ed="#P" n="89"/>existentiae (ut sic dicam) seu status merendi.
+          <lb ed="#P" n="90"/>Et in hoc sensu multi theologi restringunt
+          <lb ed="#P" n="91"/>viam sanctorum Angelorum ad unicum 
+          in<lb break="no" ed="#P" n="92"/>stans, in quo primum justificati sunt, 
+          merue<lb break="no" ed="#P" n="93"/>runt, et beatificati sunt, licet fateantur illud
+          <lb ed="#P" n="94"/>non fuisse primum instans existentiae 
+          Angelo<lb break="no" ed="#P" n="95"/>rum, sed secundum. Et ita in alio sensu duo
+          <lb ed="#P" n="96"/>instantia in negotio Angelorum admittunt,
+          <lb ed="#P" n="97"/>unum creationis, aliud sanctificationis 
+          consum<lb break="no" ed="#P" n="98"/>matae per gloriam, et in illis solis totum 
+          nego<lb break="no" ed="#P" n="99"/>tium Angelorum consummatum fuisse dicunt.
+          <lb ed="#P" n="100"/>Ita sensit olim D. Thomas, quodlib. 9, art. 8,
+          <lb ed="#P" n="101"/>et in 2, distinct. 5, quaest 2, art. 2, tenent
+          <lb ed="#P" n="102"/>Bonaventura, AEgidius, Richardus, Argentina
+          <lb ed="#P" n="103"/>et Marsilius 2, quaest. 3, art. 2, Albertus, in
+          <pb ed="#P" n="641"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Summ., 2 part., tract. 4, art. 19, Maironius,
+          <lb ed="#P" n="2"/>in 3, distinct. 17, quaest. 1. Haec vero 
+          senten<lb break="no" ed="#P" n="3"/>tia quoad distinctionem instantium creationis,
+          <lb ed="#P" n="4"/>et primae sanctificationis satis improbata fuit
+          <lb ed="#P" n="5"/>supra.
+        </p>
+        <p xml:id="szdada-x16138-d1e245">
+          <lb ed="#P" n="6"/>3. Secunda sententia duo quo instantia statuens
+          <lb ed="#P" n="7"/>expenditur. — Quoad alteram vero partem
+          <lb ed="#P" n="8"/>coincidit illa opinio cum alia, quam secundo
+          <lb ed="#P" n="9"/>loco ponimus, quae viam, et terminum 
+          Ange<lb break="no" ed="#P" n="10"/>lorum in duobus instantibus concludunt. Hanc
+          <lb ed="#P" n="11"/>tenent Cajetanus et Ferrariensis, sed diverso
+          <lb ed="#P" n="12"/>modo, nam Cajetanus putat utrumque fuisse
+          <lb ed="#P" n="13"/>instans vie et meriti. Alter vero, et aliter,
+          <lb ed="#P" n="14"/>nam primus fuit solius viae, secundus vero fuit
+          <lb ed="#P" n="15"/>viae, et termini, ac proinde secundum viae, et
+          <lb ed="#P" n="16"/>primum termini. Quae opinio quoad hanc 
+          se<lb break="no" ed="#P" n="17"/>cundam partem cum praecedenti convenit, ut in
+          <lb ed="#P" n="18"/>capite praecedenti dixi, ubi rejecta est. At vero
+          <lb ed="#P" n="19"/>Ferrariensis solum verum instans viae ac 
+          me<lb break="no" ed="#P" n="20"/>riti, aliudque termini admittit. Sed ista 
+          sen<lb break="no" ed="#P" n="21"/>tentia improbata est, quia negat meritum in
+          <lb ed="#P" n="22"/>sanctis Angelis pro illo instanti secundo, in
+          <lb ed="#P" n="23"/>quo peccare potuerunt. Alii vero, qui tale 
+          me<lb break="no" ed="#P" n="24"/>ritum concedunt, et negant distinctionem 
+          illo<lb break="no" ed="#P" n="25"/>rum instantium in bonis Angelis, cum eam in
+          <lb ed="#P" n="26"/>mals admittant, et ita in re fateantur tantum
+          <lb ed="#P" n="27"/>durasse illud primum instans bonorum 
+          Ange<lb break="no" ed="#P" n="28"/>lorum, sicut duo instantia malorum. Isti (
+          in<lb break="no" ed="#P" n="29"/>quam) auctores magis in modo loquendi,
+          <lb ed="#P" n="30"/>quam in re a nobis differunt. Quanquam de
+          <lb ed="#P" n="31"/>re potest esse controversia, an ille actus amoris
+          <lb ed="#P" n="32"/>quem Angeli in sua creatione habuerunt, 
+          im<lb break="no" ed="#P" n="33"/>mutatus manserit in tota illa mora, quam mali
+          <lb ed="#P" n="34"/>Angeli peccando consumpserunt. Nobis autem
+          <lb ed="#P" n="35"/>videtur imprimis ex parte intellectus factam
+          <lb ed="#P" n="36"/>esse magnam mutationem in mentibus 
+          sancto<lb break="no" ed="#P" n="37"/>rum Angelorum, quae sufficit ad mutationem
+          <lb ed="#P" n="38"/>instantium, quae magis in intellectu 
+          conside<lb break="no" ed="#P" n="39"/>randa sunt, quia intellectus est regula 
+          volun<lb break="no" ed="#P" n="40"/>tatis. Deinde etiam in ipso amore Dei 
+          verisi<lb break="no" ed="#P" n="41"/>milius esse credimus factam esse sufticientem
+          <lb ed="#P" n="42"/>mutationem, vel in actu ipso individuo, quia
+          <lb ed="#P" n="43"/>circa Deum alio modo, et secundum alium 
+          res<lb break="no" ed="#P" n="44"/>pectum versatur, vel in intentione, et fervore
+          <lb ed="#P" n="45"/>actus, vel in deliberatione, ut supra 
+          explica<lb break="no" ed="#P" n="46"/>tum est.
+        </p>
+        <p xml:id="szdada-x16138-d1e336">
+          <lb ed="#P" n="47"/>4. Tertia sententia quatuor instantia 
+          assi<lb break="no" ed="#P" n="48"/>gnans impugnatur .—Est ergo tertia sententia,
+          <lb ed="#P" n="49"/>quae in alio extremo has moras multiplicat, 
+          di<lb break="no" ed="#P" n="50"/>cens a creatione sanctorum Angelorum, usque
+          <lb ed="#P" n="51"/>ad bcatitudinem eorum fuisse quatuor 
+          instan<lb break="no" ed="#P" n="52"/>tia. Primum creationis purae naturae, 
+          secun<lb break="no" ed="#P" n="53"/>dum primae sanctificationis ejusdem naturae,
+          <lb ed="#P" n="54"/>tertium proprii meriti, perseverantiae, et 
+          aug<lb break="no" ed="#P" n="55"/>menti gratiae, quartum glorificationis. Hunc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modum refert Scotus 2, distinct. 5, quaest. 1,
+          <lb ed="#P" n="57"/>§ Ad primam queestionem, quem non omnino
+          <lb ed="#P" n="58"/>rejicit, et revera esset probabilis, si Angeli
+          <lb ed="#P" n="59"/>fuissent creati sine gratia in pura natura, sed
+          <lb ed="#P" n="60"/>quia illud fundamentum falsum est, ideo 
+          frus<lb break="no" ed="#P" n="61"/>tra duo illa prima instantia distinguntur. Et
+          <lb ed="#P" n="62"/>praeterea deficit ille modus, prout illum Scotus
+          <lb ed="#P" n="63"/>refert, quia secundum instans, seu primum
+          <lb ed="#P" n="64"/>sanctificationis ponit.sine ullo merito, quod
+          <lb ed="#P" n="65"/>supra improbatum est. Alio item modo refert
+          <lb ed="#P" n="66"/>ibi Scotus, esse multiplicata illa quatuor 
+          in<lb break="no" ed="#P" n="67"/>stantia, ponendo primum creationis solius
+          <lb ed="#P" n="68"/>naturae, sine nulla bona, vel mala operatione,
+          <lb ed="#P" n="69"/>secundum bonae operationis moralis intra 
+          or<lb break="no" ed="#P" n="70"/>dinem naturae, tertium sanctificationis, ac 
+          me<lb break="no" ed="#P" n="71"/>riti, et quartum glorificationis. De qua 
+          senten<lb break="no" ed="#P" n="72"/>tia nihil dicit, verumtamen illa auget 
+          falsita<lb break="no" ed="#P" n="73"/>tem praecedentis sententiae, quia duo distinguit
+          <lb ed="#P" n="74"/>instantia ante primam Angelorum 
+          sanctifica<lb break="no" ed="#P" n="75"/>tionem, quod est improbabile, et superfluum,
+          <lb ed="#P" n="76"/>cur enim non potuerint in primo instanti bene
+          <lb ed="#P" n="77"/>moraliter operari, etiamsi in gratia creati non
+          <lb ed="#P" n="78"/>fuissent? vel certe, licet in instanti creationis
+          <lb ed="#P" n="79"/>nullum actum naturalem, vel supernaturalem
+          <lb ed="#P" n="80"/>habuerint, in secundo instanti utrumque 
+          si<lb break="no" ed="#P" n="81"/>mul habere possent. Et praeterea juxta illam
+          <lb ed="#P" n="82"/>divisionem instantium boni Angeli nunquam
+          <lb ed="#P" n="83"/>habuissent meritum augmenti gratiae, nec 
+          per<lb break="no" ed="#P" n="84"/>severantiam in illa pro statu viae, neque mali
+          <lb ed="#P" n="85"/>habuissent gratiam aliquando: qua omnia
+          <lb ed="#P" n="86"/>improbata sunt. Unde potius illo modo essent
+          <lb ed="#P" n="87"/>quinque instantia distinguenda, duo purae 
+          na<lb break="no" ed="#P" n="88"/>turae absque gratia, et duo primae, et secundae
+          <lb ed="#P" n="89"/>sanctificationis sanctorum Angelorum, seu
+          <lb ed="#P" n="90"/>initii, et perseverantiae in sanctitate, ultimum
+          <lb ed="#P" n="91"/>glorificationis: sed duo prima jam satis 
+          ex<lb break="no" ed="#P" n="92"/>plosa sunt.
+        </p>
+        <p xml:id="szdada-x16138-d1e440">
+          <lb ed="#P" n="93"/>5. Quarta et vera sententia tres astruens 
+          mo<lb break="no" ed="#P" n="94"/>rulas. - Quarta ergo sententia est, Angelorum
+          <lb ed="#P" n="95"/>sanctorum viam, usque ad terminum cjus 
+          in<lb break="no" ed="#P" n="96"/>clusive, tribus instantibus, seu morulis fuisse
+          <lb ed="#P" n="97"/>peractam. Prima fuit creationis, et 
+          sanctifica<lb break="no" ed="#P" n="98"/>tionis, cum dispositione ad illam, et 
+          conse<lb break="no" ed="#P" n="99"/>quentur cum merito de condigno gloriae: 
+          se<lb break="no" ed="#P" n="100"/>cunda fuit perseverantiae ingratia, cum merito
+          <lb ed="#P" n="101"/>de condigno gratiae, et gloriae, tertium 
+          recep<lb break="no" ed="#P" n="102"/>tionis gloriae. Et haec sententia vera est, quae
+          <lb ed="#P" n="103"/>per partes sumitur ex D. Thoma, dicta q. 62
+          <lb ed="#P" n="104"/>et 63, quatenus ponit in sanctis Angelis 
+          meri<lb break="no" ed="#P" n="105"/>tum in primo instanti creationis sine potestate
+          <lb ed="#P" n="106"/>peccandi, et meritum aliud cum potestate 
+          pec<lb break="no" ed="#P" n="107"/>candi, quia mali peccabant, et praemium post
+          <lb ed="#P" n="108"/>meritum, et non simul cum illo. Tenet etiam
+          <lb ed="#P" n="109"/>Capreolus, in 2, dist. 4, q. 1, concl. 4 et 5, et
+          <lb ed="#P" n="110"/>ad argumenta contra illam. Et Scotus, et Ga-
+          <pb ed="#P" n="642"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>briel, qui in numero trium instantium 
+          conve<lb break="no" ed="#P" n="2"/>niunt, licet in statu, vel actionibus, quas in
+          <lb ed="#P" n="3"/>singulis instantibus Angeli habuerunt, inter se
+          <lb ed="#P" n="4"/>discrepent, ut satis in superioribus tractatum
+          <lb ed="#P" n="5"/>est. Haec igitur sententia satis est a nobis per
+          <lb ed="#P" n="6"/>singulas partes probata.
+        </p>
+        <p xml:id="szdada-x16138-d1e499">
+          <lb ed="#P" n="7"/>6. Probatur triplicem statum distinguendo.
+          <lb ed="#P" n="8"/>— Nec aliter nunc confirmatur, nisi quia in
+          <lb ed="#P" n="9"/>sanctis Angelis tres veluti status considerare
+          <lb ed="#P" n="10"/>debemus, unus fuit quodammodo naturalis
+          <lb ed="#P" n="11"/>quoad modum operandi, id est, vel cum aliqua
+          <lb ed="#P" n="12"/>necessitate quoad specificationem saltem, vel
+          <lb ed="#P" n="13"/>quasi acti ab auctore naturae, et gratiae. Ex
+          <lb ed="#P" n="14"/>quo factum est, ut in eo statu omnes fuerint
+          <lb ed="#P" n="15"/>uniformes: et in summa pace (ut sic dicam).
+          <lb ed="#P" n="16"/>Secundus status fuit, quasi plenae 
+          deliberatio<lb break="no" ed="#P" n="17"/>nis, et fortasse novae illuminationis, ac 
+          promul<lb break="no" ed="#P" n="18"/>gationis novi praecepti, plena libertate 
+          accep<lb break="no" ed="#P" n="19"/>tandi, et exequendi. Unde in illo statu 
+          habue<lb break="no" ed="#P" n="20"/>runt Angeli inter se diversitatem, et immane
+          <lb ed="#P" n="21"/>bellum, etin sanctis Angelis fuit perseverantia,
+          <lb ed="#P" n="22"/>et victoria. Tertius status in eisdem fuit 
+          bea<lb break="no" ed="#P" n="23"/>tificus. Hi autem status adeo sunt diversi, ut
+          <lb ed="#P" n="24"/>nullus cum aliquo aliorum simul duratione
+          <lb ed="#P" n="25"/>esse potuerit, ut a nobis ostensum est, ergo
+          <lb ed="#P" n="26"/>illis statibus tres morulae necessario 
+          respon<lb break="no" ed="#P" n="27"/>dent, et eodem modo concludi potest, non
+          <lb ed="#P" n="28"/>fuisse plures, quia non fuerint in Angelis 
+          plu<lb break="no" ed="#P" n="29"/>res status inter se successionem postulantes.
+          <lb ed="#P" n="30"/>Nam licet Angelus considerari possit in statu
+          <lb ed="#P" n="31"/>naturae, et gratiae, et in statu actualis 
+          opera<lb break="no" ed="#P" n="32"/>tionis, vel solius actus primi, hi status non 
+          pe<lb break="no" ed="#P" n="33"/>tunt inter se successionem, sed possunt esse
+          <lb ed="#P" n="34"/>simul, et quod a principio ita fuerint, 
+          perfec<lb break="no" ed="#P" n="35"/>tius est, et ipsorum naturae, ac providentiae
+          <lb ed="#P" n="36"/>Dei fuit magis consentaneum.
+        </p>
+        <p xml:id="szdada-x16138-d1e567">
+          <lb ed="#P" n="37"/>7. Solvitur secunda ratio in num. 1 capitis
+          <lb ed="#P" n="38"/>praecedentis, ei disquiritur de duratione 
+          cujus<lb break="no" ed="#P" n="39"/>que instantis.—De primo specialiter dubitatur.
+          <lb ed="#P" n="40"/>—Atque ita facile patet responsio ad 
+          secun<lb break="no" ed="#P" n="41"/>dam rationem dubitandi in praecedenti capite
+          <lb ed="#P" n="42"/>positam. Ad ejus vero majorem intelligentiam
+          <lb ed="#P" n="43"/>de unoquoque illorum instantium inquiri 
+          po<lb break="no" ed="#P" n="44"/>test, quantum duraverit. In quo non est 
+          diffi<lb break="no" ed="#P" n="45"/>cultas de tertio. Nam illud dicitur instans lato
+          <lb ed="#P" n="46"/>modo, id est, indivisibilis duratio, re tamen
+          <lb ed="#P" n="47"/>est vera quaedam aeternitas participata, qua
+          <lb ed="#P" n="48"/>beatifica visio mensuratur: nam ex quo 
+          inci<lb break="no" ed="#P" n="49"/>pit, semper durat, durabitque perpetuo, quia
+          <lb ed="#P" n="50"/>ex natura sua immutabilitatem postulat. De
+          <lb ed="#P" n="51"/>primo autem instanti est specialis difficultas,
+          <lb ed="#P" n="52"/>an solum duraverit per instans nostri 
+          tempo<lb break="no" ed="#P" n="53"/>ris, et coexistentiam ad solum illud, vel 
+          per<lb break="no" ed="#P" n="54"/>manentius fuerit, licet in se indivisibilis 
+          exti<lb break="no" ed="#P" n="55"/>terit. Aliqui enim putant impossibile fuisse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>durare priori modo, scilicet per solum instans
+          <lb ed="#P" n="57"/>nostri temporis, cum Gregorio 2, dist. 5. Quia
+          <lb ed="#P" n="58"/>non potest Angeli actus semel factus desinere
+          <lb ed="#P" n="59"/>per ultimum sui esse, eo quod res indivisibilis,
+          <lb ed="#P" n="60"/>ac permanens sit: si autem per solum instans
+          <lb ed="#P" n="61"/>nostri temporis durasset primum instans 
+          An<lb break="no" ed="#P" n="62"/>geli, necessario desineret actus ejus in eodem
+          <lb ed="#P" n="63"/>instanti, in quo inciperet, ac subinde per 
+          ulti<lb break="no" ed="#P" n="64"/>munmi sui esse.
+        </p>
+        <p xml:id="szdada-x16138-d1e632">
+          <lb ed="#P" n="65"/>8. Fera resolutio. — Nihilominus loquendo
+          <lb ed="#P" n="66"/>de possibili, hoc mihi possibile non est. Primo,
+          <lb ed="#P" n="67"/>quia non repugnat rem permanentem 
+          desi<lb break="no" ed="#P" n="68"/>nere per ultimum sui esse, ut in superioribus
+          <lb ed="#P" n="69"/>tractando de loco, et mutationibus Angelorum
+          <lb ed="#P" n="70"/>diximus, quia licet desinat per ultimum sui
+          <lb ed="#P" n="71"/>esse secundum coexistentiam ad nostrum
+          <lb ed="#P" n="72"/>tempus, nihilominus potest res tota simul 
+          de<lb break="no" ed="#P" n="73"/>sinere, id est, simul non esse immediate post
+          <lb ed="#P" n="74"/>tale instans, ita ut illa negatio essendi sit in
+          <lb ed="#P" n="75"/>toto tempore immediate sequenti, et in 
+          qua<lb break="no" ed="#P" n="76"/>libet ejus parte. Ut recte Scotus, in 3, d. 3,
+          <lb ed="#P" n="77"/>quaest. 1, Durandus, quaest. 2, num. 14, 
+          Hen<lb break="no" ed="#P" n="78"/>ricus, quodlib. 15, quaest. 13, littera C, et alii
+          <lb ed="#P" n="79"/>theologi docuerunt. Secundo, quia posset 
+          mu<lb break="no" ed="#P" n="80"/>tari primum instans angelicum sine desitione
+          <lb ed="#P" n="81"/>primi actus, per majorem ejus intensionem.
+          <lb ed="#P" n="82"/>Posset enim Angelus creari amando Deum, et
+          <lb ed="#P" n="83"/>immediate post instans creationis in eodem
+          <lb ed="#P" n="84"/>amore intensive crescere: nulla enim 
+          repug<lb break="no" ed="#P" n="85"/>nantia in hoc cogitari potest. Quia, in intensio
+          <lb ed="#P" n="86"/>fit in tempore, et ita incipere potest per 
+          ulti<lb break="no" ed="#P" n="87"/>mum non esse intensionis, supposito primo
+          <lb ed="#P" n="88"/>esse actus, et actus ipse capax est intensionis,
+          <lb ed="#P" n="89"/>quod saltem de amore supernaturali, de quo
+          <lb ed="#P" n="90"/>loquimur, dubitari non potest. Talis autem
+          <lb ed="#P" n="91"/>mutatio in actu sufficit, in instans angelicum
+          <lb ed="#P" n="92"/>mutetur: tum quia de ratione instantis est
+          <lb ed="#P" n="93"/>indivisibilitas durationis: tum quia et illo
+          <lb ed="#P" n="94"/>motu intensionis est tempus; ergo nova mora.
+          <lb ed="#P" n="95"/>Quanquam vero hoc fuerit possibile, incertum
+          <lb ed="#P" n="96"/>est an ita de facto contigerit, quid vero per
+          <lb ed="#P" n="97"/>conjecturam verisimilius sit in lib. 8, cap. 2,
+          <lb ed="#P" n="98"/>tractando de malis Angelis commodius 
+          dice<lb break="no" ed="#P" n="99"/>tur. Et ibi explicabimus similem difficultatem
+          <lb ed="#P" n="100"/>de secunda mora angelica, scilicet, quantum
+          <lb ed="#P" n="101"/>duraverit. Supponimus enim, in omnibus
+          <lb ed="#P" n="102"/>fuisse moram aequalem, et ex collatione inter
+          <lb ed="#P" n="103"/>bonos, et malos, melius intelligetur quanta in
+          <lb ed="#P" n="104"/>utrisque fuerit, et ideo ibi commodius 
+          trac<lb break="no" ed="#P" n="105"/>tabitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

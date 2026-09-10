@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="607"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x15306"><!-- l5c9 -->
+        <head xml:id="szdada-x15306-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-x15306-Hd1e103" type="question-title">Corollaria ex praecedenti doctrina, quibus gratia, et meritum angelorum in primo instanti magis explicantur</head>
+        <p xml:id="szdada-x15306-d1e106">
+          <lb ed="#P" n="14"/>CAPUT IX.
+          <lb ed="#P" n="15"/>COROLLARIA EX PRAECEDENTI DOCTRINA, QUIBUS
+          <lb ed="#P" n="16"/>GRATIA, ET MERITUM ANGELORUM IN PRIMO
+          <lb ed="#P" n="17"/>INSTANTI MAGIS EXPLICANTUR.
+        </p>
+        <p xml:id="szdada-x15306-d1e117">
+          <lb ed="#P" n="18"/>1. Primum Corollarium. — Primi actus 
+          su<lb break="no" ed="#P" n="19"/>pernaturales in Angelis ab habitibus non fuere
+          <lb ed="#P" n="20"/>eliciti. — Ex dictis in capite praecedenti 
+          infer<lb break="no" ed="#P" n="21"/>tur primo hunc primum actum, sive 
+          volunta<lb break="no" ed="#P" n="22"/>tis credendi, sive spei, aut charitatis, vel
+          <lb ed="#P" n="23"/>quemlibet alium similem, quem Angelus in
+          <lb ed="#P" n="24"/>primo instanti habuit, non fuisse elicitum ab
+          <lb ed="#P" n="25"/>habitu infuso, quia non potest praeparare ad
+          <lb ed="#P" n="26"/>illum, et procedere ab illo, ut declaravi, et ex
+          <lb ed="#P" n="27"/>materia de Gratia suppono. Loquor autem de
+          <lb ed="#P" n="28"/>actibus voluntatis, quia de assensu intellectus
+          <lb ed="#P" n="29"/>res potest esse magis dubia, quia per 
+          volunta<lb break="no" ed="#P" n="30"/>tem credendi, quae ordine naturae antecedit
+          <lb ed="#P" n="31"/>assensum, videtur Angelus vel homo 
+          morali<lb break="no" ed="#P" n="32"/>ter satis disponi, ut statim recipiat intellectuale
+          <lb ed="#P" n="33"/>lumen, per quod actum ipsum credendi eliciat.
+          <lb ed="#P" n="34"/>Quod si hoc ita est, actus ipse intellectus non
+          <lb ed="#P" n="35"/>erit dispositio ad habitum intellectualem fidei,
+          <lb ed="#P" n="36"/>sed erit tantum effectus: dispositio autem ad
+          <lb ed="#P" n="37"/>infusionem illius habitus intellectualis esse 
+          po<lb break="no" ed="#P" n="38"/>terit prima voluntas credendi, licet sit alterius
+          <lb ed="#P" n="39"/>potentiae actus, quia in dispositione morali, et
+          <lb ed="#P" n="40"/>non physica, hoc non est inconveniens, 
+          simul<lb break="no" ed="#P" n="41"/>que idem actus voluntatis erit dispositio ad
+          <lb ed="#P" n="42"/>proprium habitum, a quo similes actus postea
+          <lb ed="#P" n="43"/>connaturaliter eliciuntur: et ideo non poterit
+          <lb ed="#P" n="44"/>esse effective ab eodem habitu, sicut de aliis
+          <lb ed="#P" n="45"/>dictum est. Quia vero habitus intellectualis
+          <lb ed="#P" n="46"/>fidei alioquin non supponitur ante gratiam,
+          <lb ed="#P" n="47"/>sed cum illa, et ut consequens illam, ideo in
+          <lb ed="#P" n="48"/>Angelis verisimilius est, non antecessisse 
+          or<lb break="no" ed="#P" n="49"/>dine naturae actum credendi, ac proinde non
+          <lb ed="#P" n="50"/>fuisse principium eliciens illum, sed potius
+          <lb ed="#P" n="51"/>eum, ut dispositionem supposuisse. De qua re
+          <lb ed="#P" n="52"/>in materia de Gratia latius, et in hac materia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>consentit Malonius 2, dist. 4, disp. 4, et ex
+          <lb ed="#P" n="54"/>hypothesi etiam Molina supra.
+        </p>
+        <p xml:id="szdada-x15306-d1e202">
+          <lb ed="#P" n="55"/>2. Secundum corollarium, indiguerunt 
+          ta<lb break="no" ed="#P" n="56"/>men aucilio gratie. — Secundo sequitur, hos
+          <lb ed="#P" n="57"/>actus primos supernaturales, qui ab habitibus
+          <lb ed="#P" n="58"/>non eliciuntur, necessario debere fieri ex 
+          spe<lb break="no" ed="#P" n="59"/>ciali motione, et auxilio Dei. Ita docet divus
+          <lb ed="#P" n="60"/>Thomas, in dict. a. 2, ad 3, et censeo certum
+          <lb ed="#P" n="61"/>ex dictis in c. 1, hujus lib. Tum quia liberum
+          <lb ed="#P" n="62"/>arbitrium, etiam angelicum nihil potest suis
+          <lb ed="#P" n="63"/>solis viribus facere, quod ad aeternam salutem
+          <lb ed="#P" n="64"/>per se conducat. Tum etiam quia illi actus in
+          <lb ed="#P" n="65"/>suo esse supernaturales sunt etiam Angelis,
+          <lb ed="#P" n="66"/>ut ostendimus, et ideo non solum ab ipsorum
+          <lb ed="#P" n="67"/>potentia naturali fieri non possunt sine auxilio
+          <lb ed="#P" n="68"/>gratiae, verumetiam nec in suo ordine posset
+          <lb ed="#P" n="69"/>naturalis potentia in illos influere, nisi per 
+          di<lb break="no" ed="#P" n="70"/>vinam motionem aliquo modo elevaretur. 
+          Se<lb break="no" ed="#P" n="71"/>cundum autem est ex doctrina gratiae, duplex
+          <lb ed="#P" n="72"/>genus auxilii ad hujusmodi actus esse 
+          necessa<lb break="no" ed="#P" n="73"/>rium, scilicet excitans, et adjuvans, seu 
+          ope<lb break="no" ed="#P" n="74"/>rans, et cooperans, quarum vocum 
+          significa<lb break="no" ed="#P" n="75"/>tionem ex eadem materia suppono. Dixerunt
+          <lb ed="#P" n="76"/>ergo quidam apud Vasquez, 1 part., disp. 98,
+          <lb ed="#P" n="77"/>c. 2, n. 7, in Angelis non esse necessarium
+          <lb ed="#P" n="78"/>auxilium cooperans ad hujusmodi actus, sed
+          <lb ed="#P" n="79"/>operans sufficere. Quia idem de Angelis in
+          <lb ed="#P" n="80"/>hoc credendum est, quod de primo homine
+          <lb ed="#P" n="81"/>ante lapsum: at de homine primo ait 
+          Augus<lb break="no" ed="#P" n="82"/>ünus, l. 6, de Corrept. et Grat., c. 11: Ut 
+          bo<lb break="no" ed="#P" n="83"/>num reciperet, utique consentiendo, gratia non
+          <lb ed="#P" n="84"/>indigebat, id est, ad volendum bonum sibi
+          <lb ed="#P" n="85"/>oblatum non indigebat nova gratia, praeter
+          <lb ed="#P" n="86"/>eam, quae per oblationem boni, id est, per 
+          ex<lb break="no" ed="#P" n="87"/>citationem ad bonum illi offerebatur.
+        </p>
+        <p xml:id="szdada-x15306-d1e277">
+          <lb ed="#P" n="88"/>3. Contraria opinio tertia tenenda.—Sed haec
+          <lb ed="#P" n="89"/>sententia, si absolute omnem gratiam 
+          adju<lb break="no" ed="#P" n="90"/>vantem neget esse necessariam Angelis ad 
+          su<lb break="no" ed="#P" n="91"/>pernaturales actus, falsa est, et defendi non
+          <lb ed="#P" n="92"/>potest. Quia necessitas hujus gratiae in nobis
+          <lb ed="#P" n="93"/>non oritur ex peccato, vel ex aliqua speciali
+          <lb ed="#P" n="94"/>conditione naturae nostrae, vel statu: sed 
+          ori<lb break="no" ed="#P" n="95"/>tur ex intrinseca conditione ipsius actus 
+          con<lb break="no" ed="#P" n="96"/>versionis in Deum supernaturalem finem, qui
+          <lb ed="#P" n="97"/>in se, et in substantia sua supernaturalis est,
+          <lb ed="#P" n="98"/>tam respectu Angeli, quam nostri. Et ideofieri
+          <lb ed="#P" n="99"/>non potest sine peculiari cooperatione Dei, 
+          al<lb break="no" ed="#P" n="100"/>tioris rationis, quam sit commune auxilium
+          <lb ed="#P" n="101"/>natura debitum, et illa specialis cooperatio Dei
+          <lb ed="#P" n="102"/>vocatur gratia adjuvans, vel cooperans. Et hoc
+          <lb ed="#P" n="103"/>modo dixit D. Thomas, dicto a. 2, ad 2, 
+          con<lb break="no" ed="#P" n="104"/>verti ad beatitudinem ultimam homini esse 
+          dit<lb break="no" ed="#P" n="105"/>ficile, et quia est supra naturam, et quia habet
+          <lb ed="#P" n="106"/>impedimentum ex corpore infecto peccato :
+          <lb ed="#P" n="107"/>Angelo vero esse difficile propter hoc solu
+          <pb ed="#P" n="608"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quod est supernaturale. De qua difficultate
+          <lb ed="#P" n="2"/>dixerat talem esse, ut si desit auxilium, sit 
+          im<lb break="no" ed="#P" n="3"/>possibilitas. Et hac ratione dicit Augustinus,
+          <lb ed="#P" n="4"/>l. 12, de Civ., c. 9, Angelos factos esse a Deo
+          <lb ed="#P" n="5"/>cum amore casto, neque potuisse habere illum
+          <lb ed="#P" n="6"/>sine cooperatione Dei, quia alias possent 
+          me<lb break="no" ed="#P" n="7"/>liores a se fieri, quam Deus illos fecisset: et
+          <lb ed="#P" n="8"/>idem dicit de primo homine, lib. de Corrept.
+          <lb ed="#P" n="9"/>et Grat., c. 11, et lib., de Nat. et Grat., c. 96,
+          <lb ed="#P" n="10"/>generaliter dicit sicut oculus non potest videre
+          <lb ed="#P" n="11"/>sine lumine, ita et hominem perfectissime 
+          jus<lb break="no" ed="#P" n="12"/>tificatum, non posse recte operari, nisi divino
+          <lb ed="#P" n="13"/>Iumine juvetur: quod de homine in omni 
+          sta<lb break="no" ed="#P" n="14"/>tu, et consequenter etiam de Angelo intelligit.
+          <lb ed="#P" n="15"/>Idemque habet aliis locis, quae in capite 
+          un<lb break="no" ed="#P" n="16"/>decimo allegabimus. Hujus etiam gratiae 
+          co<lb break="no" ed="#P" n="17"/>operantis datae Angelis meminit Petrus 
+          Cellen<lb break="no" ed="#P" n="18"/>sis, lib. 1, de Tabernacul., tom. 9 Biblioth.
+        </p>
+        <p xml:id="szdada-x15306-d1e366">
+          <lb ed="#P" n="19"/>4. Aliquorum probatio pro gratia cooperante
+          <lb ed="#P" n="20"/>rejicitur. — Haec vero gratia cooperans, seu
+          <lb ed="#P" n="21"/>adjuvans, de qua Augustinus in locis allegatis
+          <lb ed="#P" n="22"/>loquitur, et ratio, qua necessitatem illius 
+          pro<lb break="no" ed="#P" n="23"/>bavimus, non solum in primo actu, qui ad 
+          in<lb break="no" ed="#P" n="24"/>fusionem gratiae habitualis disponit, sed etiam
+          <lb ed="#P" n="25"/>in aliis, qui per gratiam habitualem postea
+          <lb ed="#P" n="26"/>fiunt, locum habent, quia nullus talium 
+          ac<lb break="no" ed="#P" n="27"/>tuum sine adjutorio Dei actuali fieri potest. Et
+          <lb ed="#P" n="28"/>ideo addendum est, illum priorem actum esse
+          <lb ed="#P" n="29"/>ab specialiori gratia cooperante. Quia cum
+          <lb ed="#P" n="30"/>potentia tune non operetur per habitum, et
+          <lb ed="#P" n="31"/>consequenter non habeat in se intrinsecam 
+          vir<lb break="no" ed="#P" n="32"/>tutem naturaliter effectricem talis actus, 
+          ne<lb break="no" ed="#P" n="33"/>cesse est ut Deus speciali cooperatione sua 
+          effti<lb break="no" ed="#P" n="34"/>cientiam habitus suppleat, et haec est 
+          specia<lb break="no" ed="#P" n="35"/>lior gratia cooperans, quam D. Thomas in
+          <lb ed="#P" n="36"/>dicta solutione vocavit motionem Dei animam
+          <lb ed="#P" n="37"/>ad se convertentis. Quamvis possit etiam id
+          <lb ed="#P" n="38"/>recte intelligi de gratia praeveniente, et 
+          exci<lb break="no" ed="#P" n="39"/>tante, seu operante, per quam Deus animam,
+          <lb ed="#P" n="40"/>vel Angelum ad se convertit. Ex qua probant
+          <lb ed="#P" n="41"/>etiam aliqui necessitatem gratiae cooperantis in
+          <lb ed="#P" n="42"/>Angelo ad talem conversionem; quia ipsa 
+          gra<lb break="no" ed="#P" n="43"/>tia operans, et excitans voluntatem, quando
+          <lb ed="#P" n="44"/>ipsa voluntas consentit, illi etiam cooperetur,
+          <lb ed="#P" n="45"/>quia actu allicit et attrahit voluntatem; et ita
+          <lb ed="#P" n="46"/>consensus ipse illi etiam tribuitur tanquam 
+          co<lb break="no" ed="#P" n="47"/>operanti voluntati. Sed haec gratia probat 
+          tan<lb break="no" ed="#P" n="48"/>tum de gratia cooperante moraliter; quia illa
+          <lb ed="#P" n="49"/>attractio praevenientis vocationis, dese tantum
+          <lb ed="#P" n="50"/>moralis est: nos autem loquimur de 
+          coopera<lb break="no" ed="#P" n="51"/>tione physica, de qua prior ratio procedit, ut
+          <lb ed="#P" n="52"/>D. Augustinus, et D. Thomas loquuntur.
+        </p>
+        <p xml:id="szdada-x15306-d1e442">
+          <lb ed="#P" n="53"/>5. Hec vero placent, qui solam cooperantem
+          <lb ed="#P" n="54"/>in Angelis requirunt. — Aliqui vero indicant
+          <lb ed="#P" n="55"/>ita gratiam dictam, physice cooperantem, sut-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ficere Angelo ad hujusmodi actus, ut gratia
+          <lb ed="#P" n="57"/>excitante non indigeat. Quod videtur sentire
+          <lb ed="#P" n="58"/>Bellarminus, lib. de Gratia primi hominis,
+          <lb ed="#P" n="59"/>cap. 4. Verumtamen negari non potest, quin
+          <lb ed="#P" n="60"/>ad illam primam conversionem fucrit Angelo
+          <lb ed="#P" n="61"/>necessaria gratia excitans, quia sicut nos non
+          <lb ed="#P" n="62"/>possumus nostram inchoare salutem, ita nec
+          <lb ed="#P" n="63"/>Angelus suam: est enim eadem ratio, quia id
+          <lb ed="#P" n="64"/>provenit suftficienter ex eo, quod salus illa 
+          su<lb break="no" ed="#P" n="65"/>pernaturahls est. At vero initium salutis a 
+          gra<lb break="no" ed="#P" n="66"/>tia excitante, ac praeveniente sumitur, et 
+          prae<lb break="no" ed="#P" n="67"/>cipue ab illa, quae ad finem nos vocat: et 
+          ini<lb break="no" ed="#P" n="68"/>tium fidei, et sancta cogitatio ab ipsoappellatur,
+          <lb ed="#P" n="69"/>ab Augustino, in lib. de Praedest. sanct., c. 2
+          <lb ed="#P" n="70"/>et 3, et frequenter in alis locis, et ita totus
+          <lb ed="#P" n="71"/>discursus Augustini in illo libro, et in alis,
+          <lb ed="#P" n="72"/>quo probat initium salutis esse a Deo, reducendo
+          <lb ed="#P" n="73"/>illud initium ad sanctam cogitationem, aeque
+          <lb ed="#P" n="74"/>in Angelis procedit. Quia etiam in illis 
+          ne<lb break="no" ed="#P" n="75"/>cesse est, ut negotium salutis a sancta, et 
+          su<lb break="no" ed="#P" n="76"/>pernaturali cogitatione procedat, quam ex se
+          <lb ed="#P" n="77"/>habere non possunt, cum supernaturalis sit ;
+          <lb ed="#P" n="78"/>debuit ergo incipere a Deo excitante, et 
+          vo<lb break="no" ed="#P" n="79"/>cante Angelum ad actum superioris ordinis:
+          <lb ed="#P" n="80"/>et ita fuit illis necessaria, non tantum gratia
+          <lb ed="#P" n="81"/>cooperans, sed etiam operans. Neque opinor
+          <lb ed="#P" n="82"/>doctissimum Bellarminum contrarium in hoc
+          <lb ed="#P" n="83"/>sensisse; sed ibi loqui tantum de speciali 
+          gra<lb break="no" ed="#P" n="84"/>tia excitante, qua nos indigemus ad 
+          perseve<lb break="no" ed="#P" n="85"/>randum, de hac enim loquuntur testimonia
+          <lb ed="#P" n="86"/>Augustini, quibus utitur, et aliae rationes, quas
+          <lb ed="#P" n="87"/>indicat, de quo puncto in capite ultimo hujus
+          <lb ed="#P" n="88"/>libri dicemus.
+        </p>
+        <p xml:id="szdada-x15306-d1e525">
+          <lb ed="#P" n="89"/>6. Tertium corollarium. Angelos in primo
+          <lb ed="#P" n="90"/>instanti, primam gloriam meruisse, D. Thomas
+          <lb ed="#P" n="91"/>ita sentire videtur.—Tertio sequitur, meruisse
+          <lb ed="#P" n="92"/>Angelos in primo instanti primam gloriam
+          <lb ed="#P" n="93"/>suam. Ita indicat D. Thomas, dicta q. 62,ari. 4,
+          <lb ed="#P" n="94"/>ad 2, dum ait, Angelum non meruisse per 
+          na<lb break="no" ed="#P" n="95"/>turalem conversionem in Deum, sed 
+          conver<lb break="no" ed="#P" n="96"/>sione charitatis, quae est per gratium. Ergo
+          <lb ed="#P" n="97"/>cum D. Thomashanc conversionem tribuat 
+          An<lb break="no" ed="#P" n="98"/>gelis in primo instanti, etiam illis tribuit 
+          me<lb break="no" ed="#P" n="99"/>ritum pro eodem instanti. Quod expressius 
+          de<lb break="no" ed="#P" n="100"/>claravit in q. 63, a. 5, ad 4, ubi omnes 
+          Ange<lb break="no" ed="#P" n="101"/>los etiam qui postea ceciderunt, in primo
+          <lb ed="#P" n="102"/>instanti meruisse docet. Quod Capreolus infra
+          <lb ed="#P" n="103"/>contra mentem, et expressa verba D. Thomae
+          <lb ed="#P" n="104"/>exponit, non de proprio merito actus, sed de
+          <lb ed="#P" n="105"/>dignitate ipsius gratiae, ratione cujus dicitur
+          <lb ed="#P" n="106"/>infans, verbi gratia, mereri gloriam lato 
+          mo<lb break="no" ed="#P" n="107"/>do. At D. Thomas apertissime loquitur de
+          <lb ed="#P" n="108"/>proprio merito, quod est per actum liberum,
+          <lb ed="#P" n="109"/>ut ex eisdem locis manifestum est, et ex a. 6,
+          <lb ed="#P" n="110"/>q. 63, ubi sic ait: Si Angelus malus ponatur,
+          <pb ed="#P" n="609"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quod in primo instanti suae creationis in actum
+          <lb ed="#P" n="2"/>liberi arlitrii proruperit, et cum gratia fuerit
+          <lb ed="#P" n="3"/>creatus, ut supra diaimus. Fatetur ergo se id
+          <lb ed="#P" n="4"/>dixisse: et inde infert Angelum malum 
+          im<lb break="no" ed="#P" n="5"/>mediate post primum instans peccasse; et 
+          ra<lb break="no" ed="#P" n="6"/>tionem subdit, quia cum per unum actum 
+          me<lb break="no" ed="#P" n="7"/>ritorium Angeli ad beatitudinem perveniant, si
+          <lb ed="#P" n="8"/>in secundo instanti peccati impedimentum non
+          <lb ed="#P" n="9"/>posuisset, praemium sui merili acciperet, 
+          lo<lb break="no" ed="#P" n="10"/>quitur ergo de primo merito, qui est per 
+          pro<lb break="no" ed="#P" n="11"/>prium actum liberum. Et ita haec assertio est
+          <lb ed="#P" n="12"/>communiter recepta in schola D. Thomae, et
+          <lb ed="#P" n="13"/>communis omnium, qui docent, Angelum
+          <lb ed="#P" n="14"/>fuisse in primo instanti per actum proprium
+          <lb ed="#P" n="15"/>sanctificatum.
+        </p>
+        <p xml:id="szdada-x15306-d1e612">
+          <lb ed="#P" n="16"/>7. Ut ratione probetur corollarium, statuitur
+          <lb ed="#P" n="17"/>pervenisse Angelos per proprium meritum ad
+          <lb ed="#P" n="18"/>Deatitudinem. — Ut autem ratione probetur
+          <lb ed="#P" n="19"/>corollarium, magisque explicetur, 
+          supponen<lb break="no" ed="#P" n="20"/>dum est imprimis Angelos per proprium 
+          me<lb break="no" ed="#P" n="21"/>ritum ad beatitudinem pervenisse. Ita 
+          suppo<lb break="no" ed="#P" n="22"/>nit D. Thomas in locis allegatis, et praesertim
+          <lb ed="#P" n="23"/>in primo articulo, hac ratione probat, non
+          <lb ed="#P" n="24"/>fuisse Angelos creatos in supernaturali 
+          beati<lb break="no" ed="#P" n="25"/>tudine, quia oportuit, ut per sua merita illam
+          <lb ed="#P" n="26"/>conscquerentur, quod non fit, nisi per opera
+          <lb ed="#P" n="27"/>propria antecedentia beatitudinem. Praeterea
+          <lb ed="#P" n="28"/>licet inter alios theologos sit aliqua dissensio
+          <lb ed="#P" n="29"/>in tempore, vel modo hujus meriti; 
+          nihilomi<lb break="no" ed="#P" n="30"/>nus in assertione omnes conveniunt. Et eadem
+          <lb ed="#P" n="31"/>est Augustini, et aliorum Patrum communis
+          <lb ed="#P" n="32"/>sententia: docent enim Angelos sanctos 
+          me<lb break="no" ed="#P" n="33"/>rito suo a malis discretos fuisse, et suae aeternae
+          <lb ed="#P" n="34"/>salutis certitudinem accepisse, quos in capite
+          <lb ed="#P" n="35"/>secundo allegavi.
+        </p>
+        <p xml:id="szdada-x15306-d1e658">
+          <lb ed="#P" n="36"/>8. Ex qua Patrum doctrina optime 
+          sumun<lb break="no" ed="#P" n="37"/>tur rationes. Prima, quia Deus creavit omnes
+          <lb ed="#P" n="38"/>Angelos cum quadam aequaltate, seu 
+          unifor<lb break="no" ed="#P" n="39"/>mitate, quia ex parte sua non est verisimile
+          <lb ed="#P" n="40"/>inter eos discrevisse; ergo sicut Angelos malos
+          <lb ed="#P" n="41"/>creavit sine plena beatitudine, et capaces 
+          me<lb break="no" ed="#P" n="42"/>riti, et demeriti illius, ita etiam Angelos 
+          sanc<lb break="no" ed="#P" n="43"/>tos in principio creavit; ergo sicut mali 
+          beati<lb break="no" ed="#P" n="44"/>tudinem tandem suo merito perdiderunt; ita
+          <lb ed="#P" n="45"/>et boni suo merito illam obtinuerunt. Secunda,
+          <lb ed="#P" n="46"/>quia Angeli sancti ita creati sunt, ut demereri
+          <lb ed="#P" n="47"/>possent beatitudinem: sicut exemplum 
+          malo<lb break="no" ed="#P" n="48"/>rum ostendit; ergo etiam sunt creati apti ad
+          <lb ed="#P" n="49"/>eamdem beatitudinem promerendam. Justus
+          <lb ed="#P" n="50"/>enim, et misericors Deus neminem creavit in
+          <lb ed="#P" n="51"/>statu demerendi, cui non etiam locum, et 
+          vir<lb break="no" ed="#P" n="52"/>tutem merendi tribuat. Tertia, quia si Angeli
+          <lb ed="#P" n="53"/>non essent beatitudinem suis meritis 
+          consecu<lb break="no" ed="#P" n="54"/>turi, nulla ratio esset cur a principio non 
+          es<lb break="no" ed="#P" n="55"/>sent in statu beatitudinis creati; cum ergo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ostensum sit, non fuisse creatos a principio
+          <lb ed="#P" n="57"/>plene beatos; signum est, fuisse creatos 
+          via<lb break="no" ed="#P" n="58"/>tores: ita ut suis meritis beatitudinem 
+          obti<lb break="no" ed="#P" n="59"/>nere possent. Quarto sumitur argumentum ab
+          <lb ed="#P" n="60"/>homimnibus, quia homines per merita 
+          beatitu<lb break="no" ed="#P" n="61"/>dinem consequuntur: ergo etiam Angeli. 
+          Pro<lb break="no" ed="#P" n="62"/>batur consequentia, tum quia caeteris paribus
+          <lb ed="#P" n="63"/>aptiores sunt ad meritum apud Deum Angeli,
+          <lb ed="#P" n="64"/>quam homines: tum etiam e converso, quia
+          <lb ed="#P" n="65"/>si hominibus, qui imbecilliores sunt, non datur
+          <lb ed="#P" n="66"/>gloria sine merito, cur daretur Angelis? Tum
+          <lb ed="#P" n="67"/>denique quia in beatudine ipsa homines 
+          aequi<lb break="no" ed="#P" n="68"/>parantur Angelis; ergo etiam in via ad illam.
+        </p>
+        <p xml:id="szdada-x15306-d1e735">
+          <lb ed="#P" n="69"/>9. Denique ad hoc confirmandum adducit
+          <lb ed="#P" n="70"/>D. Thomas illud Apoc. 21. Mensura hominis,
+          <lb ed="#P" n="71"/>quae est Angeli, ita ut sensus sit, in coelesti
+          <lb ed="#P" n="72"/>beatitudine eamdem mensuram esse Angeli,
+          <lb ed="#P" n="73"/>et hominis, utique meritum. Quam 
+          expositio<lb break="no" ed="#P" n="74"/>nem aliqui rejiciunt tanquam omnino a vero
+          <lb ed="#P" n="75"/>sensu alienam; tamen licet non sit unica, nec
+          <lb ed="#P" n="76"/>fortasse primaria; nihilominus valde 
+          probabi<lb break="no" ed="#P" n="77"/>lis est, et Viegas ibi, sect. 2, exponens illa, et
+          <lb ed="#P" n="78"/>qui loquebatur mecum, habeat mensuram 
+          arun<lb break="no" ed="#P" n="79"/>dineam auream. ut metiretur civitatem, ait:
+          <lb ed="#P" n="80"/>Men»suram accipio hoc loco merita, sive 
+          gra<lb break="no" ed="#P" n="81"/>tium; charitatemve, juxta quam metitur Deus
+          <lb ed="#P" n="82"/>gloriam omnium beatorum. Quod certe 
+          proba<lb break="no" ed="#P" n="83"/>bilissimum est, et optime per mensuram 
+          au<lb break="no" ed="#P" n="84"/>ream significatur; cur ergo non potuerunt de
+          <lb ed="#P" n="85"/>eadem mensura alia subjuncta verba intelligi?
+          <lb ed="#P" n="86"/>Nam illa mensura dicitur fuisse ad civitatem,
+          <lb ed="#P" n="87"/>et murum ejus metiendum, et de eadem 
+          sub<lb break="no" ed="#P" n="88"/>ditur, et eamdem esse hominis, quae est 
+          An<lb break="no" ed="#P" n="89"/>geli. Unde idem auctor inferius circa eadem
+          <lb ed="#P" n="90"/>verba dicit, hanc esse unam ex communibus
+          <lb ed="#P" n="91"/>expositionibus illorum verborum. Denique esto
+          <lb ed="#P" n="92"/>illa expositio non acceptetur ut litteralis, 
+          nihil<lb break="no" ed="#P" n="93"/>ominus est congruentissima accommodatio, vel
+          <lb ed="#P" n="94"/>etiam aequiparatio. Nam alius sensus litteralis
+          <lb ed="#P" n="95"/>est, eadem mensura, seu eodem muro civitatis
+          <lb ed="#P" n="96"/>supernae Jerusalem (de qua ibi est sermo)
+          <lb ed="#P" n="97"/>Deum protegere hominem, et Angelum 
+          bea<lb break="no" ed="#P" n="98"/>tum: ergo similitudinem rationis optime 
+          in<lb break="no" ed="#P" n="99"/>ferri potest, eadem etiam mensura utriusque
+          <lb ed="#P" n="100"/>beatitudinem metiri, vel utrumque pari titulo
+          <lb ed="#P" n="101"/>ad beatitudinem admittere: ac proinde sicut
+          <lb ed="#P" n="102"/>mensura beatitudinis hominis est meritum, ita
+          <lb ed="#P" n="103"/>etiam beatitudinis Angeli.
+        </p>
+        <p xml:id="szdada-x15306-d1e813">
+          <lb ed="#P" n="104"/>10. Praedictum Angelorum meritum easdem
+          <lb ed="#P" n="105"/>conditiones meriti lumini habet. — Repicitur
+          <lb ed="#P" n="106"/>opinio Magistri circa conditionem quamdam
+          <lb ed="#P" n="107"/>meriti Angelici. — Ex quo ulterius infertur,
+          <lb ed="#P" n="108"/>easdem conditiones ad meritum in Angelo 
+          re<lb break="no" ed="#P" n="109"/>quiri, et sufficere, quae in homine sufficiunt,
+          <lb ed="#P" n="110"/>ac necessariae sunt. Quia si mensura utriusque
+          <pb ed="#P" n="610"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est meritum, et beatitudo ejusdem rationis est,
+          <lb ed="#P" n="2"/>et in ea est aequalitas, etiam conditiones meriti
+          <lb ed="#P" n="3"/>ejusdem rationis esse debent, et in eis etiam
+          <lb ed="#P" n="4"/>debet servari aequalitas, seu proportio. Hinc
+          <lb ed="#P" n="5"/>ergo recte colligimus, quod sicut hominibus
+          <lb ed="#P" n="6"/>proposita est visio, et bravium suorum 
+          certa<lb break="no" ed="#P" n="7"/>minum, ita et Angelis, et consequenter 
+          utris<lb break="no" ed="#P" n="8"/>que esse promissam sub conditione 
+          merito<lb break="no" ed="#P" n="9"/>rum: item in utrisque esse necessariam 
+          gra<lb break="no" ed="#P" n="10"/>tiam sanctificantem, et auxiliantem libertatem,
+          <lb ed="#P" n="11"/>ac honestatem supernaturalem operum ad 
+          ta<lb break="no" ed="#P" n="12"/>lia merita. Et obiter ex eodem principio 
+          colli<lb break="no" ed="#P" n="13"/>gitur, necessarium esse statum viae ad meritum
+          <lb ed="#P" n="14"/>beatitudinis, et consequenter improbatur 
+          opi<lb break="no" ed="#P" n="15"/>nio eorum, qui dixerunt Angelis datam esse
+          <lb ed="#P" n="16"/>beatitudinem propter opera praevisa in ipso
+          <lb ed="#P" n="17"/>statu beatitudinis, futura, scilicet ministeria,
+          <lb ed="#P" n="18"/>quae Angeli ex obedientia Dei pro salute 
+          homi<lb break="no" ed="#P" n="19"/>num exhibent. Quod docuit Magister, in 2,
+          <lb ed="#P" n="20"/>dist. 5, quem pauci ex antiquis scholasticis
+          <lb ed="#P" n="21"/>secuti sunt. Contra hanc vero sententiam 
+          di<lb break="no" ed="#P" n="22"/>cendum est ex professo, in lib. seq., c. 3, nunc
+          <lb ed="#P" n="23"/>enim nihil nobis obstat. Nam suppositis 
+          prin<lb break="no" ed="#P" n="24"/>cipiis positis, scilicet quod Angeli sancti non
+          <lb ed="#P" n="25"/>fuerunt semper beati, licet semper fuerint
+          <lb ed="#P" n="26"/>sancti: negari non potest, quin habere 
+          potue<lb break="no" ed="#P" n="27"/>rint meritum beatitudinis, priusquam ipsam
+          <lb ed="#P" n="28"/>beatitudinem reciperent; sive postea in ipsa
+          <lb ed="#P" n="29"/>beatitudine mereri potuerint, sive non, quod
+          <lb ed="#P" n="30"/>libro sequenti ex professo discutiendum est.
+          <lb ed="#P" n="31"/>11. Probatur jam ratione tertii corollarii.
+          <lb ed="#P" n="32"/>—Ekx his igitur tandem concluditur assertio
+          <lb ed="#P" n="33"/>intenta, seu tertium corollarium, nimirum
+          <lb ed="#P" n="34"/>omnes Angelos gloriam in primo instanti
+          <lb ed="#P" n="35"/>creationis suae de condigno meruisse. Quia in
+          <lb ed="#P" n="36"/>illis concurrerunt tunc omnia ad tale meritum
+          <lb ed="#P" n="37"/>necessaria. Probatur, quia illi erant tunc sancti,
+          <lb ed="#P" n="38"/>et per fidem vivam libere operabantur, se 
+          con<lb break="no" ed="#P" n="39"/>vertendo in Deum ex gratiae auxilio. Deus 
+          au<lb break="no" ed="#P" n="40"/>tem sic operantibus vitam aeternam promisit,
+          <lb ed="#P" n="41"/>juxta illud Jacob. 1: Accipet coronaum vite,
+          <lb ed="#P" n="42"/>quam repromisit Deus diligentibus se, et cap.2.
+          <lb ed="#P" n="43"/>Ft heredes regni, quod repromisit Deus 
+          dili<lb break="no" ed="#P" n="44"/>gentibus se. Haec enim verba non arctantur ad
+          <lb ed="#P" n="45"/>homines, sed ad omnes diligentes Deum ut
+          <lb ed="#P" n="46"/>sonat, extenduntur. Sicut illa Pauli 2. Timoth.
+          <lb ed="#P" n="47"/>A. In reliquo veposita est mihi corona justitie,
+          <lb ed="#P" n="48"/>et infra: JVon solum autem mihi, sed et his qui
+          <lb ed="#P" n="49"/>diligunt, etc. Nam sicut supra diximus, 
+          dog<lb break="no" ed="#P" n="50"/>mata tradita in sacra Scriptura de gratia, et
+          <lb ed="#P" n="51"/>charitate Dei ad Angelos extendi, ita eadem 
+          ra<lb break="no" ed="#P" n="52"/>tione de his, quae ad repromissionem gloriae
+          <lb ed="#P" n="53"/>fiunt, sentiendum est. Nam gratiam, et 
+          glo<lb break="no" ed="#P" n="54"/>riam dat Dominus, et gratiam propter 
+          glo<lb break="no" ed="#P" n="55"/>riam. Verumtamen sicut haec promissio in 
+          ho<lb break="no" ed="#P" n="56"/>mine includit conditionem si in gratia deces-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="57"/>serit, ut Concilium Tridentinum dixit, ita in
+          <lb ed="#P" n="58"/>Angelo includebat cum proportione 
+          conditio<lb break="no" ed="#P" n="59"/>nem, si pro statu viae, seu pro tempore a Deo
+          <lb ed="#P" n="60"/>praescripto, in amore Dei perseveraverit. Atque
+          <lb ed="#P" n="61"/>hoc modo in omnibus Angelis tam bonis, quam
+          <lb ed="#P" n="62"/>malis, qui tunc boni erant, omnes conditiones
+          <lb ed="#P" n="63"/>necessariae ad meritum de condigno etiam ex
+          <lb ed="#P" n="64"/>parte promissionis inventae sunt. Omnes ergo,
+          <lb ed="#P" n="65"/>et potuerunt de condigno et de facto primam
+          <lb ed="#P" n="66"/>gloriam per conversionem in Deum 
+          merue<lb break="no" ed="#P" n="67"/>runt.
+        </p>
+        <p xml:id="szdada-x15306-d1e982">
+          <lb ed="#P" n="68"/>12. Quid de merito prime gratiae, vel 
+          aug<lb break="no" ed="#P" n="69"/>mento ejus in ipso primo instanti. — Primam
+          <lb ed="#P" n="70"/>vero gratiam de condigno mereri non 
+          potue<lb break="no" ed="#P" n="71"/>runt, quia ante meritum dari illis debuit, ut de
+          <lb ed="#P" n="72"/>condigno mereri possent. Unde fit ut ipsa 
+          gra<lb break="no" ed="#P" n="73"/>Ua sanctificans sit radix meriti; non potest
+          <lb ed="#P" n="74"/>autem principium meriti cadere sub meritum,
+          <lb ed="#P" n="75"/>saltem secundum connaturalem ordinem, ut
+          <lb ed="#P" n="76"/>nunc supponimus. Et in idem redit, quod 
+          me<lb break="no" ed="#P" n="77"/>ritum debet praemium antecedere saltem 
+          na<lb break="no" ed="#P" n="78"/>turae ordine, actus autem conversionis in Deum,
+          <lb ed="#P" n="79"/>licet juxta nostram sententiam antecesserit,
+          <lb ed="#P" n="80"/>quoad substantiam et entitatem suam, gratiam
+          <lb ed="#P" n="81"/>habitualem; tamen ut meritum de condigno
+          <lb ed="#P" n="82"/>non antecessit illam, quia per illam formaliter
+          <lb ed="#P" n="83"/>constitutum est in ratione, et valore meriti de
+          <lb ed="#P" n="84"/>condigno, et ideo sub ratione talis meriti non
+          <lb ed="#P" n="85"/>potuit in eamdem gratiam retlecti. Idemque
+          <lb ed="#P" n="86"/>dicendum est secundum aliam sententiam,
+          <lb ed="#P" n="87"/>quae dicit gratiam habitualem ordine naturae
+          <lb ed="#P" n="88"/>praecessisse conversionem in Deum, tanquam
+          <lb ed="#P" n="89"/>principium efliciens illam, et in nullo genere
+          <lb ed="#P" n="90"/>causae fuisse illa posteriorem. Imo ex hoc
+          <lb ed="#P" n="91"/>etiam sequitur, quod nec de congruo 
+          potue<lb break="no" ed="#P" n="92"/>runt Angeli primam gratiam mereri, quia
+          <lb ed="#P" n="93"/>nullo modo illis infusa est propter eorum 
+          ac<lb break="no" ed="#P" n="94"/>tus, nec actus antecesserunt illam in aliquo
+          <lb ed="#P" n="95"/>genere, quod in omni merito necessarium est;
+          <lb ed="#P" n="96"/>secus vero est in nostra sententia. Nos ergo
+          <lb ed="#P" n="97"/>fatemur, Angelos primam gratiam habitualem
+          <lb ed="#P" n="98"/>meruisse de congruo perconversionem liberam
+          <lb ed="#P" n="99"/>in Deum ex speciali auxilio gratiae. Nam sicut
+          <lb ed="#P" n="100"/>Angeli per illam conversionem se praepararunt
+          <lb ed="#P" n="101"/>ad gratiam modo convenienti, et quasi 
+          conna<lb break="no" ed="#P" n="102"/>turali, ita per eamdem dispositionem gratiam
+          <lb ed="#P" n="103"/>impetrarunt et congrue meruerunt. Quod etiam
+          <lb ed="#P" n="104"/>de contritione peccatorum contitemur: est 
+          au<lb break="no" ed="#P" n="105"/>tem aliquo modo major ratio in prima 
+          justifi<lb break="no" ed="#P" n="106"/>catione Angeli, vel primi hominis in statu 
+          in<lb break="no" ed="#P" n="107"/>nocentiae, quia persona licet non esset digna
+          <lb ed="#P" n="108"/>simpliciter; nihilominus non erat indigna, 
+          si<lb break="no" ed="#P" n="109"/>cut est peccator. Et aliunde motio Spiritus
+          <lb ed="#P" n="110"/>sancti, et proportio actus, ad meritum de 
+          con<lb break="no" ed="#P" n="111"/>gruo suflicit. Unde etiam fit, ut non potuerint
+          <lb ed="#P" n="112"/>Angeli in primo instanti augmentum gratiae
+          <pb ed="#P" n="611"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mereri, quod in nostra sententia facile 
+          osten<lb break="no" ed="#P" n="2"/>ditur, quia prima gratia datur ratione talis
+          <lb ed="#P" n="3"/>actus, eidem respondet gloria eidem gratiae
+          <lb ed="#P" n="4"/>proportionata, ideoque non habet talis actus
+          <lb ed="#P" n="5"/>valorem ad novum gradum gratiae 
+          promeren<lb break="no" ed="#P" n="6"/>dum. Quod non tam facile defendet, qui 
+          di<lb break="no" ed="#P" n="7"/>cunt, actum illum procedere ab habituali 
+          gra<lb break="no" ed="#P" n="8"/>tia, et ita esse effectum ejus, ut nullo modo sit
+          <lb ed="#P" n="9"/>causa: nam actus sic procedens a gratia est
+          <lb ed="#P" n="10"/>meritorius augmenti ejus, ut in posterioribus
+          <lb ed="#P" n="11"/>actibus manifestum est. Sed de hoc latius in
+          <lb ed="#P" n="12"/>materia de Gratia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

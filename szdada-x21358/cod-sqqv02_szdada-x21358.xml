@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="847"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x21358"><!-- l7c9 -->
+        <head xml:id="szdada-x21358-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-x21358-Hd1e103" type="question-title">Utrum primum peccatum luciferi fuerit supebbia</head>
+        <p xml:id="szdada-x21358-d1e106">
+          <lb ed="#P" n="4"/>CAPUT IX.
+          <lb ed="#P" n="5"/>UTRUM PRIMUM PECCATUM LUCIFERI FUERIT
+          <lb ed="#P" n="6"/>SUPEBBIA.
+        </p>
+        <p xml:id="szdada-x21358-d1e115">
+          <lb ed="#P" n="7"/>1. Prima sententia Scoti negativa ecplicatur
+          <lb ed="#P" n="8"/>triplici suppositione. —In hoc puncto est nobis
+          <lb ed="#P" n="9"/>controversia cum Scoto qui in2, dist. 6, q. 2, et
+          <lb ed="#P" n="10"/>in Reportat.. in fin., contendit ostendere, 
+          pri<lb break="no" ed="#P" n="11"/>mum peccatum Angelinon fuisse, imo necesse
+          <lb ed="#P" n="12"/>potuisse superbiam: ne autem quis 
+          ambigui<lb break="no" ed="#P" n="13"/>tate verborum laboret, advertere opus est,
+          <lb ed="#P" n="14"/>insinuare Scotum divisionem superbiae in 
+          pro<lb break="no" ed="#P" n="15"/>priam, et impropriam, seu late dictam: 
+          pro<lb break="no" ed="#P" n="16"/>priam superbiam esse dicit immoderatum 
+          affec<lb break="no" ed="#P" n="17"/>tum excellentiae relate ad alios, quibus aliquis
+          <lb ed="#P" n="18"/>praeesse, vel antecellere cupit. Alio vero modo
+          <lb ed="#P" n="19"/>magis communi, et vulgari dicit solere 
+          appel<lb break="no" ed="#P" n="20"/>lari superbiam, quamcumque nimiam 
+          com<lb break="no" ed="#P" n="21"/>placentiam sui, quam aliquis habet cum magna
+          <lb ed="#P" n="22"/>eestimatione illius perfectionis, quam in se
+          <lb ed="#P" n="23"/>videt, et sibi amat. Ipce autem Scotus negat
+          <lb ed="#P" n="24"/>affectum hunc esse propriam superbiam; sed
+          <lb ed="#P" n="25"/>vocat illum spiritualem quamdam luxuriam,
+          <lb ed="#P" n="26"/>et lato modo superbiam. [ta sentit, licet 
+          sub<lb break="no" ed="#P" n="27"/>obscure in art. 2. Ubi Lychetus ita illum 
+          ex<lb break="no" ed="#P" n="28"/>ponit. Secundo supponit Scotus, primum 
+          pec<lb break="no" ed="#P" n="29"/>catum Angeli non potuisse committi per 
+          ac<lb break="no" ed="#P" n="30"/>tum nolendi, sed per actum volendi, quia
+          <lb ed="#P" n="31"/>omne nolle fundatur in aliquo velle, quod
+          <lb ed="#P" n="32"/>oportet, esse prius eo ipso, quod est 
+          fundamen<lb break="no" ed="#P" n="33"/>tum alterius: quam suppositionem nunc 
+          ad<lb break="no" ed="#P" n="34"/>mittimus, inferius vero examinabitur. Tertio
+          <lb ed="#P" n="35"/>distinguit ipsum velle in amorem amicitise,
+          <lb ed="#P" n="36"/>quo aliquem amamus propter se: et 
+          concupis<lb break="no" ed="#P" n="37"/>centiae, quo aliquid alicui volumus. Quae 
+          dis<lb break="no" ed="#P" n="38"/>tinctio satis vulgaris est, et aliis locis esta
+          <lb ed="#P" n="39"/>nobis declarata. Indicat vero ulterius Scotus,
+          <lb ed="#P" n="40"/>ut etiam Lychetus affirmat, hos amores esse
+          <lb ed="#P" n="41"/>actu distinctos in Angelo etiam respectu 
+          ejus<lb break="no" ed="#P" n="42"/>dem personae, vel sui ipsius; unde 
+          consequen<lb break="no" ed="#P" n="43"/>ter ait, amorem amicitiae esse priorem amore
+          <lb ed="#P" n="44"/>concupiscentiae: nam ex amore amicitia ad
+          <lb ed="#P" n="45"/>aliquem provenit ut ei aliquid concupiscamus,
+          <lb ed="#P" n="46"/>ex quo subinfert inordinationem amoris 
+          con<lb break="no" ed="#P" n="47"/>cupiscentiae oriri ex inordinatione amoris
+          <lb ed="#P" n="48"/>amicitiae, eamque supponere.
+        </p>
+        <p xml:id="szdada-x21358-d1e209">
+          <lb ed="#P" n="49"/>2. Ex dictis corollarium deducit Sceotus
+          <lb ed="#P" n="50"/>triplicis malitie in Angelis. — Et ex his 
+          ulte<lb break="no" ed="#P" n="51"/>rius concludit Scotus, deordinationem, seu
+          <lb ed="#P" n="52"/>malitiam primam in Angelo peccante fuisse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>in inordinato amore amicitiae sui: secundam
+          <lb ed="#P" n="54"/>vero fuisse in aliquo inordinato amore 
+          concu<lb break="no" ed="#P" n="55"/>piscentiae sui, absolute, et sine relatione ad
+          <lb ed="#P" n="56"/>alios: et ex his secutam esse tertiam per 
+          inor<lb break="no" ed="#P" n="57"/>dinatum appetitum excellentiae respectu 
+          alio<lb break="no" ed="#P" n="58"/>rum. Primum probat, quia prima inordinatio
+          <lb ed="#P" n="59"/>necessario fuit in actu volendi, et 
+          consequen<lb break="no" ed="#P" n="60"/>ter in actu amandi, qui est primus inter actus
+          <lb ed="#P" n="61"/>volendi voluntatis, ac subinde in amore 
+          ami<lb break="no" ed="#P" n="62"/>citiae, qui est prior, ut dictum est. Quod autem
+          <lb ed="#P" n="63"/>ille primus amor inordinatus Angeli fuit amor
+          <lb ed="#P" n="64"/>sui, et non alterius probat Scotus, quia ille
+          <lb ed="#P" n="65"/>non potuit esse amor Dei, quia amor Dei non
+          <lb ed="#P" n="66"/>potest esse inordinatus per excessum: nam
+          <lb ed="#P" n="67"/>quo amor Dei fuerit intentio, et efficacior, eo
+          <lb ed="#P" n="68"/>magis est consentaneus objecto, ac subinde
+          <lb ed="#P" n="69"/>magis ordinatus, nec est verisimile fuisse 
+          alte<lb break="no" ed="#P" n="70"/>rius personae creatae, quia in quocumque 
+          An<lb break="no" ed="#P" n="71"/>gelo amicitiae, seu benevolentive prius est ad
+          <lb ed="#P" n="72"/>seipsum, quam ad aliam creaturam, quia et
+          <lb ed="#P" n="73"/>magis ad seipsum naturaliter inclinatur: et
+          <lb ed="#P" n="74"/>magis, ac immediatius seipsum cognoscit, ac
+          <lb ed="#P" n="75"/>intuetur: ergo primus amor amicitiae 
+          inordi<lb break="no" ed="#P" n="76"/>natus in Angelo sine dubio fuit amor sui: et
+          <lb ed="#P" n="77"/>consequenter prima inordinatio simpliciter in
+          <lb ed="#P" n="78"/>voluntate Angeli fuit in amore benevolentiae
+          <lb ed="#P" n="79"/>sui ipsius.
+        </p>
+        <p xml:id="szdada-x21358-d1e282">
+          <lb ed="#P" n="80"/>3. Secundum autem, scilicet quod secunda
+          <lb ed="#P" n="81"/>inordinatio fuerit in concupiscendo aliquid sibi
+          <lb ed="#P" n="82"/>absolute, et secundum se, late Scotus probat :
+          <lb ed="#P" n="83"/>conaturque persuadere, illam inordinationem
+          <lb ed="#P" n="84"/>fuisse in nimia concupiscentia beatitudinis
+          <lb ed="#P" n="85"/>cum aliquo excessu: et summa rationum est,
+          <lb ed="#P" n="86"/>quia amor propriae beatitudinis est maxime
+          <lb ed="#P" n="87"/>naturalis: ergo proxime sequitur ex 
+          benevo<lb break="no" ed="#P" n="88"/>lentia sui: ergo ex inordinata benevolentia
+          <lb ed="#P" n="89"/>sui proxime sequitur inordinatus attectus 
+          pro<lb break="no" ed="#P" n="90"/>priae beatitudinis, qui est amor concupiscentie
+          <lb ed="#P" n="91"/>sui. Tertium autem membrum, scilicet quod
+          <lb ed="#P" n="92"/>tertio loco secuta fuerit mahtia per 
+          inordina<lb break="no" ed="#P" n="93"/>tum appetitum excellentiae cum comparatione
+          <lb ed="#P" n="94"/>ad alios, probat Scotus, quia appetitus 
+          excel<lb break="no" ed="#P" n="95"/>lentiae per comparationem ad alios, supponit
+          <lb ed="#P" n="96"/>affectum, vel concupiscentiam excellentiae 
+          per<lb break="no" ed="#P" n="97"/>fectionis in seipso, sicut respectus supponit 
+          ab<lb break="no" ed="#P" n="98"/>solutum: et e converso, ex nimia 
+          concupiscen<lb break="no" ed="#P" n="99"/>tia proprie excellentia absolute spectatae,
+          <lb ed="#P" n="100"/>statim veluti naturaliter sequitur appetitus
+          <lb ed="#P" n="101"/>excellentiae, respectu aliorum.
+        </p>
+        <p xml:id="szdada-x21358-d1e332">
+          <lb ed="#P" n="102"/>4. Probat tandem Scotus propriam 
+          super<lb break="no" ed="#P" n="103"/>biam non fuisse primum peccatum Angeli. —
+          <lb ed="#P" n="104"/>Atque hinc tandem concludit Scotus, primum
+          <lb ed="#P" n="105"/>peccatum Angeli non fuisse propriam 
+          super<lb break="no" ed="#P" n="106"/>biam. Probat, quia primum peccatum fuit in
+          <lb ed="#P" n="107"/>amore nimio amicitiae sui Ipsius: at propria
+          <pb ed="#P" n="848"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>superbia pertinet ad amorem concupiscentiae,
+          <lb ed="#P" n="2"/>ut est per se notum; ergo non potuit primum
+          <lb ed="#P" n="3"/>peccatum Angeli esse superbia. Secundo, quia
+          <lb ed="#P" n="4"/>amor inordinatus amicitiae erga alterum, non
+          <lb ed="#P" n="5"/>est superbia: ergo nec amor sui: eadem enim
+          <lb ed="#P" n="6"/>videtur esse utriusque ratio. Tertia ratio ex
+          <lb ed="#P" n="7"/>eodem formari potest: quia proprio superbia
+          <lb ed="#P" n="8"/>est inordinatus appetitus excellentiae, respectu
+          <lb ed="#P" n="9"/>aliorum: sed nimius amor amicitiae sui est
+          <lb ed="#P" n="10"/>omnino absolutus, et sine comparatione ad
+          <lb ed="#P" n="11"/>alios: ergo non est propria superbia. Idemque
+          <lb ed="#P" n="12"/>sentit Scotus de primo amore inordinato 
+          con<lb break="no" ed="#P" n="13"/>cupiscentiae sui, nimirum non fuisse 
+          super<lb break="no" ed="#P" n="14"/>biam, quia non fuit per respectum ad alos,
+          <lb ed="#P" n="15"/>sed tantum per nimiam concupiscentiam 
+          pro<lb break="no" ed="#P" n="16"/>priae beatitudinis. Imo comparando hos duos
+          <lb ed="#P" n="17"/>inordinatos amores sui, scilicet amicitiae, et
+          <lb ed="#P" n="18"/>concupiscentiae: de priori dicit esse aliquo
+          <lb ed="#P" n="19"/>modo superbiam, quia est affectus 
+          compla<lb break="no" ed="#P" n="20"/>centiae in bono proprio, tanquam magno, et
+          <lb ed="#P" n="21"/>prassumptio nominatur. Amor autem 
+          concu<lb break="no" ed="#P" n="22"/>piscentiae propriae beatitudinis magis est sub
+          <lb ed="#P" n="23"/>ratione delectabilis, et proprii commodi, et
+          <lb ed="#P" n="24"/>ideo nullo modo superbiam, aut 
+          praesumptio<lb break="no" ed="#P" n="25"/>nem illam appellat.
+        </p>
+        <p xml:id="szdada-x21358-d1e406">
+          <lb ed="#P" n="26"/>5. Cujus speciei fuerit primum peccatum 
+          An<lb break="no" ed="#P" n="27"/>geli jurta Scotum. — Quod si inquiras, ad
+          <lb ed="#P" n="28"/>quod vitium propric pertineat inordinatio 
+          il<lb break="no" ed="#P" n="29"/>lius amoris? respondit Scotus pertinere ad
+          <lb ed="#P" n="30"/>quamdam luxuriam spiritualem, quatenus 
+          cir<lb break="no" ed="#P" n="31"/>ca delectabile, ut sic, et propter nimiam 
+          delec<lb break="no" ed="#P" n="32"/>tationem versatur, et hanc opinionem sic fere
+          <lb ed="#P" n="33"/>expositam sequitur Lychetus ibi. Bassolis 
+          au<lb break="no" ed="#P" n="34"/>tem ibidem, articul. 3, ut probabilem illam 
+          de<lb break="no" ed="#P" n="35"/>fendit, licet tandem rem dubiam relinquat :
+          <lb ed="#P" n="36"/>eamdem in retenet ibi Gabriel, art.2, quamvis
+          <lb ed="#P" n="37"/>in modo loquendi videatur aliquid discrepare,
+          <lb ed="#P" n="38"/>quatenus primum amorem inordinatum 
+          ami<lb break="no" ed="#P" n="39"/>citiae dicit reduci ad primam speciem 
+          super<lb break="no" ed="#P" n="40"/>biae, quae est praesumptio: sed revera non 
+          con<lb break="no" ed="#P" n="41"/>tradic.t Scoto: sed ita illum exponit, nec est
+          <lb ed="#P" n="42"/>alienum a mente ejus, nam ipse vocat etiam
+          <lb ed="#P" n="43"/>illum amorem superbiam, non in ea 
+          genera<lb break="no" ed="#P" n="44"/>litate, quia omne peccatum solet dici 
+          super<lb break="no" ed="#P" n="45"/>bia, sed specialiori modo. quamvis minus 
+          pro<lb break="no" ed="#P" n="46"/>prio, quam sit in appetitu excellentiae, 
+          respec<lb break="no" ed="#P" n="47"/>tu aliorum; unde Holchot, in 2, quaestion. 3,
+          <lb ed="#P" n="48"/>in resolutione quaestionis ait, illud primum
+          <lb ed="#P" n="49"/>peccatum Angeli, quod in nimio amore sui
+          <lb ed="#P" n="50"/>fuit positum, sub diversis considerationibus
+          <lb ed="#P" n="51"/>posse vocari ingratitudinem, libidinem, et 
+          su<lb break="no" ed="#P" n="52"/>perbiam: et sentit haec omnia illi aequae primo
+          <lb ed="#P" n="53"/>convenire, et Herrera, in 2, disput. 17, quaest.
+          <lb ed="#P" n="54"/>3, concl. ult., etiam de amore concupiscentiae
+          <lb ed="#P" n="55"/>dicit esse quaestionem de nomine, an debeat
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>reduci ad spiritualem luxuriam, vel 
+          super<lb break="no" ed="#P" n="57"/>biam.
+        </p>
+        <p xml:id="szdada-x21358-d1e480">
+          <lb ed="#P" n="58"/>6. Sententia affirmativa tribus constat as
+          <lb ed="#P" n="59"/>sertionibus. — Verumtamen sententia 
+          com<lb break="no" ed="#P" n="60"/>munis theologorum quam omnino veram 
+          exis<lb break="no" ed="#P" n="61"/>timamus, est: primum peccatum Luciferi, seu
+          <lb ed="#P" n="62"/>primam malitiam seu deordinationem ejus,
+          <lb ed="#P" n="63"/>fuisse superbiam; et ne in hominibus tantum
+          <lb ed="#P" n="64"/>haereamus, primum ostendemus, simpliciter,
+          <lb ed="#P" n="65"/>et absolute ita nobis esse loquendum: et deinde
+          <lb ed="#P" n="66"/>hanc superbiam non esse distinctam a primo
+          <lb ed="#P" n="67"/>amore, et amore concupiscentiae, quo se 
+          Lu<lb break="no" ed="#P" n="68"/>cifer ordinate amavit, contra Scotum 
+          declara<lb break="no" ed="#P" n="69"/>bimus: ac denique illud primum peccatum
+          <lb ed="#P" n="70"/>propriissimam superbiam fuisse concludemus.
+        </p>
+        <p xml:id="szdada-x21358-d1e511">
+          <lb ed="#P" n="71"/>7. Prima assertio. — Lucifer per superbiam
+          <lb ed="#P" n="72"/>primo peccavit. — Dico ergo primo Luciferum
+          <lb ed="#P" n="73"/>per superbiam primo deliquisse. Probatur
+          <lb ed="#P" n="74"/>primo, quia ita sentiunt, et loquuntur proba
+          <lb ed="#P" n="75"/>tissimi theologi antiqui, et moderni. Imprimis
+          <lb ed="#P" n="76"/>D. Thomas, 1p., q.63, a.2et 3, etibi Cajetanus
+          <lb ed="#P" n="77"/>et communiter recentiores expositores, 
+          Magis<lb break="no" ed="#P" n="78"/>ter, in 2, dist. 6, et ibi Bonaventura, a. 1, q. 1,
+          <lb ed="#P" n="79"/>Jgidius, q. 4, a. 3, Argentina, q. 5, a. 2, 
+          Fu<lb break="no" ed="#P" n="80"/>chardus, a. 1, q. 1, Durandus, q. 2, et 
+          Alen<lb break="no" ed="#P" n="81"/>sis, 2 p., q. 98, m. 2, Altisiodorensis, 2 p.,
+          <lb ed="#P" n="82"/>sum. tract. 2, cap. 2, Albertus, in sum., 2 p.,
+          <lb ed="#P" n="83"/>tract. 5, q. 4, m. 2, et alii communiter. 
+          Se<lb break="no" ed="#P" n="84"/>cundo probatur ex sacra Scriptura et Patribus:
+          <lb ed="#P" n="85"/>nam imprimis omnia in superiori capite adducta
+          <lb ed="#P" n="86"/>de peccato Luciferi loquantur, multum favent,
+          <lb ed="#P" n="87"/>quatenus dicunt, Luciferum per superbiam
+          <lb ed="#P" n="88"/>cecidisse: per hoc enim satis declarant 
+          pri<lb break="no" ed="#P" n="89"/>mum illius peccatum fuisse superbiam, quia
+          <lb ed="#P" n="90"/>per primum peccatum proprio cecidit. Praeter
+          <lb ed="#P" n="91"/>illa vero, sunt alia, quae magis expresse de
+          <lb ed="#P" n="92"/>primo peccato loquuntur: et imprimis potest
+          <lb ed="#P" n="93"/>notari sententia Sapientis Eccles.. c. 10. 
+          7ui<lb break="no" ed="#P" n="94"/>tium omnis peccati est superbia, quod solet a
+          <lb ed="#P" n="95"/>Patribus exponi, vel quia in humano genere,
+          <lb ed="#P" n="96"/>primum Adae peccatum fuit superbia, ut 
+          tra<lb break="no" ed="#P" n="97"/>dit Augustinus 14, de Civ., c. 13, etin sequenti
+          <lb ed="#P" n="98"/>tract., lib. 4, ostendemus: vel quia primus
+          <lb ed="#P" n="99"/>Angelus malus a superbia initium peccandi
+          <lb ed="#P" n="100"/>sumpsit, et ipse fuit omnium aliorum 
+          pecca<lb break="no" ed="#P" n="101"/>torum causa, vel occasio, propter quod etiam
+          <lb ed="#P" n="102"/>dicitur Tob. 4: n superbia initiun sumpsit
+          <lb ed="#P" n="103"/>omnis perditio.
+        </p>
+        <p xml:id="szdada-x21358-d1e585">
+          <lb ed="#P" n="104"/>8. Unde Augustinus, lib. 11, Genes.. cap.14,
+          <lb ed="#P" n="105"/>tractans de primo peccato Angeli, dicit fuisse
+          <lb ed="#P" n="106"/>superbiam, quae est radix invidia, et statim
+          <lb ed="#P" n="107"/>cap. 15, id confirmat dictis verbis Sapientis,
+          <lb ed="#P" n="108"/>et addit: Zinc diabolus cecidit, qui non amavit
+          <lb ed="#P" n="109"/>pecuniam, sed proprium potestatem. Et lib. 12,
+          <lb ed="#P" n="110"/>de Civ., c. 1 et 6, causam ruina Angelorum
+          <pb ed="#P" n="849"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fuisse dicit, quia ad seipsos conversi, a Deo
+          <lb ed="#P" n="2"/>aversi sunt; et hoc vitium, subjungit, quid
+          <lb ed="#P" n="3"/>aliud, quam superbia muncupatur: initium
+          <lb ed="#P" n="4"/>quippe omnis peccati superbia; et iufra: Hic
+          <lb ed="#P" n="5"/>primus defectus, et prima inopia, primumque
+          <lb ed="#P" n="6"/>vitium ejus nature, quae ita creata erat, ut non
+          <lb ed="#P" n="7"/>summa esset, ektc.; et l. 14, c. 3, idem 
+          testimo<lb break="no" ed="#P" n="8"/>nium tractans, et explicans, quae sit superbia,
+          <lb ed="#P" n="9"/>quae peccandi initium fuit, tam in Angelo,
+          <lb ed="#P" n="10"/>quam in homine, dicit esse, perversae 
+          celsitudi<lb break="no" ed="#P" n="11"/>nis appetitum; unde, c. 11, dixerat: Superbum
+          <lb ed="#P" n="12"/>Angelum, ac per hoc invidum, per eamdem 
+          su<lb break="no" ed="#P" n="13"/>perbiam a Deo ad se fuisse conversum, et 
+          quo<lb break="no" ed="#P" n="14"/>dan tyrannico fastu gaudere subditis, quam esse
+          <lb ed="#P" n="15"/>subditum elegisse. Ex lib. 22, cap. 1, dicit 
+          ma<lb break="no" ed="#P" n="16"/>los Angelos per elationem summum bonum
+          <lb ed="#P" n="17"/>deseruisse. In quibus locis manifeste docet,
+          <lb ed="#P" n="18"/>primam radicem totius lapsus Angelorum 
+          su<lb break="no" ed="#P" n="19"/>perbiam fuisse.
+        </p>
+        <p xml:id="szdada-x21358-d1e649">
+          <lb ed="#P" n="20"/>9. Consentit Ambrosius, lib. 4, ep. 33, alias,
+          <lb ed="#P" n="21"/>ep. 84, dicens, sive in lapsu diaboli, sive in
+          <lb ed="#P" n="22"/>praevaricatione hominis initium peccati 
+          super<lb break="no" ed="#P" n="23"/>bia est. Quod late prosequitur, et in Psalm. 118,
+          <lb ed="#P" n="24"/>Oct. 7, circa id, superbi inique agebant, etc.;
+          <lb ed="#P" n="25"/>Mazcimum, inquit, peccatum in homine 
+          super<lb break="no" ed="#P" n="26"/>bia est, quandoquidem inde manavit nostri
+          <lb ed="#P" n="27"/>origo delecti; et infra, et quid de homine dicam?
+          <lb ed="#P" n="28"/>ipse diabolus per superbiam nature sue amisit
+          <lb ed="#P" n="29"/>gratiam. Ergo fuit primum peccatum. Accedit
+          <lb ed="#P" n="30"/>Fulgentius, 1. 1, ad Monim., c. 7, dicens: Si
+          <lb ed="#P" n="31"/>initiun peccati requiritur, nihil aliud nisi 
+          su<lb break="no" ed="#P" n="32"/>perbia invenitur. Dicit enim Scriptura: 
+          Ini<lb break="no" ed="#P" n="33"/>tium omnis peccati superbia. Quae tunc initium
+          <lb ed="#P" n="34"/>sumpsit, cum Angelus adversum Deum elatus
+          <lb ed="#P" n="35"/>est; et Rupertus, l. 1, in Gen., c. 16: 7Initium
+          <lb ed="#P" n="36"/>peccati ejus (scilicet daemonis) superbia fuit,
+          <lb ed="#P" n="37"/>quam statim complacentiam sui declarat.
+          <lb ed="#P" n="38"/>Idem habet, lib. 7, in Joan., c. 1. Acdenique
+          <lb ed="#P" n="39"/>Chrysostomus, hom. 15, in Joan.: Quia hac,
+          <lb ed="#P" n="40"/>inquit, amentia scelestius ? quid superbia majus?
+          <lb ed="#P" n="41"/>non esset e celo ejectus, nec in diabolum versus,
+          <lb ed="#P" n="42"/>cecidisset Angelus, nisi hoc se scelere 
+          inguinas<lb break="no" ed="#P" n="43"/>sei ? Non certe, quia nullum aliud crimen 
+          ha<lb break="no" ed="#P" n="44"/>buerit, sed quia illud caeterorum radix; unde
+          <lb ed="#P" n="45"/>adjungit: Hoc malorum omnium ei causa fuit.
+        </p>
+        <p xml:id="szdada-x21358-d1e708">
+          <lb ed="#P" n="46"/>10. Confirmari hoc potest ex Leone I, serm.
+          <lb ed="#P" n="47"/>4. de Collectis, ubi de diabolo ait: Inventor ille,
+          <lb ed="#P" n="48"/>auctorque peccati, primum superbus, ut caderet ;
+          <lb ed="#P" n="49"/>deinde invidus, eic.; et infra: Omnia 
+          deceptio<lb break="no" ed="#P" n="50"/>num genera de hoc venenatissimo artis suae fonte
+          <lb ed="#P" n="51"/>produait, ut ab illo bono, quod ipse sua sponte
+          <lb ed="#P" n="52"/>perdiderat, spem humunae devotionis excluderet,
+          <lb ed="#P" n="53"/>etc. Et epist, 93, ad Thuribium, c. 6. Quia 
+          pro<lb break="no" ed="#P" n="54"/>pria naturali excellentia male usus est, in 
+          veri<lb break="no" ed="#P" n="55"/>tate non stetit; sic etiam Prosper, lib. 1, de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Vita contempl., c. 3, causam ejectionis 
+          Luci<lb break="no" ed="#P" n="57"/>feri de coelo assignat: Quia contra creatorem
+          <lb ed="#P" n="58"/>suum typho superbiae lethalis hostihter se 
+          ea<lb break="no" ed="#P" n="59"/>tult. Bernardus etiam, serm. 17, in Cant., 
+          Lu<lb break="no" ed="#P" n="60"/>cifer (ait) qui mane oriebatur, prepropere 
+          ele<lb break="no" ed="#P" n="61"/>cabatur. Quam infra vocat assentionis 
+          appeti<lb break="no" ed="#P" n="62"/>tumn, ex loco Isa. 14. Idem fere habet, serm. 5,
+          <lb ed="#P" n="63"/>de verbis Isaiae, et Petrus Blesensis, epist. 3,
+          <lb ed="#P" n="64"/>cum vocat primum filium superbic, et infra:
+          <lb ed="#P" n="65"/>Iste erigebat sibi sedem, antequam laboraret.
+          <lb ed="#P" n="66"/>Consentit Innocentius III, inl. 2, de Contempt.
+          <lb ed="#P" n="67"/>mun.,c. 30. Idem sentit Nazianzenus, Orat. 27,
+          <lb ed="#P" n="68"/>cum dixit: ZHec, id est, invidia, Zuciferumn
+          <lb ed="#P" n="69"/>obscuravit ob mentis elationem prolapswum, etc.,
+          <lb ed="#P" n="70"/>et addi potest Damascenus, lib. 2, cap. 4, 
+          qua<lb break="no" ed="#P" n="71"/>tenus dicit, daemonem se contra Deum 
+          extol<lb break="no" ed="#P" n="72"/>lendo cecidisse. Plures alios qui videre 
+          desi<lb break="no" ed="#P" n="73"/>derat, legat Ascanium Martinengum, in Glos.
+          <lb ed="#P" n="74"/>mag. in Gen., ad illa verba: Factus est 
+          ves<lb break="no" ed="#P" n="75"/>pere, et mane dies unus, sub titulo de Lello 
+          an<lb break="no" ed="#P" n="76"/>getico, longe a principio, et in sequentibus,
+          <lb ed="#P" n="77"/>inquirendo hujus superbiae peculiare 
+          objec<lb break="no" ed="#P" n="78"/>tum, plures afferemus; et haec quidem 
+          proba<lb break="no" ed="#P" n="79"/>tio superest ad factum demonstrandum; 
+          tes<lb break="no" ed="#P" n="80"/>tibus enim fide dignis probandum est. Ratione
+          <lb ed="#P" n="81"/>autem, quantum materia patitur, idem 
+          osten<lb break="no" ed="#P" n="82"/>demus in fine hujus capitis, postquam 
+          decla<lb break="no" ed="#P" n="83"/>raverimus, qualis fuerit hujus superbiae 
+          mo<lb break="no" ed="#P" n="84"/>dus, seu affectus.
+        </p>
+        <p xml:id="szdada-x21358-d1e797">
+          <lb ed="#P" n="85"/>11. Secunda assertio tripartita. —In prima
+          <lb ed="#P" n="86"/>parte convenimus cum Scoto, et probatur em 
+          Au<lb break="no" ed="#P" n="87"/>gustino. —Dico ergo secundo. Primum 
+          pec<lb break="no" ed="#P" n="88"/>catum Angeli fuit nimius, et inordinatus amor
+          <lb ed="#P" n="89"/>sui, qui simul etiam fuit amor amicitiae, seu
+          <lb ed="#P" n="90"/>benevolentiae, et concupiscentiae, et idem 
+          om<lb break="no" ed="#P" n="91"/>nino cum primo actu superbiae. Per hanc 
+          as<lb break="no" ed="#P" n="92"/>sertionem respondemus Scoto, et cum eo in
+          <lb ed="#P" n="93"/>aliquo convenimus; in aliis vero differimus.
+          <lb ed="#P" n="94"/>Priorem ergo partem damus Scoto, scilicet
+          <lb ed="#P" n="95"/>primum peccatum Luciferi fuisse inordinatum
+          <lb ed="#P" n="96"/>sui amorem; id enim imprimis testatur 
+          Au<lb break="no" ed="#P" n="97"/>gustinus, l. 12, de Civit., c. 6, ubi cum 
+          dixis<lb break="no" ed="#P" n="98"/>set, causam beatitudinis sanctorum 
+          Angelo<lb break="no" ed="#P" n="99"/>rum esse, Quia ei adherent, qui summe est,
+          <lb ed="#P" n="100"/>subdit: Cum cero causa miserie malorum 
+          An<lb break="no" ed="#P" n="101"/>gelorum quaeritur, ea merito occurrit, quod ab
+          <lb ed="#P" n="102"/>illo, qui summe est, aversi, ad seipsos conversi
+          <lb ed="#P" n="103"/>sunt. Haec autem adhaesio, vel conversio per
+          <lb ed="#P" n="104"/>amorem primario fit; ergo primum peccatum
+          <lb ed="#P" n="105"/>Angeli secundum Augustinum fuit nimius 
+          qui<lb break="no" ed="#P" n="106"/>dam amor sui. De quo amore inordinato dixit
+          <lb ed="#P" n="107"/>idem Augustinus, 1. 14, c. ult.: Amorem sui
+          <lb ed="#P" n="108"/>usque ad contemptum Dei, diaboli regnum, seu
+          <lb ed="#P" n="109"/>terrenam civitatem edificasse. Et c. 23, dicit:
+          <lb ed="#P" n="110"/>Initiun malae voluntatis, esse sibi nmis pla-
+          <pb ed="#P" n="850"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cere. Àt vero sibi nimis placere, est nimium se
+          <lb ed="#P" n="2"/>diligere, quia complacentia illa quidam amor
+          <lb ed="#P" n="3"/>est; ergo initium malae voluntatis secundum
+          <lb ed="#P" n="4"/>Augustinum, etiam in Angelo fuit nimius
+          <lb ed="#P" n="5"/>amor sui, et l. 11 Genes. ad litt., c. 15, dicit:
+          <lb ed="#P" n="6"/>Angelum peccasse amando non pecuniam, sed
+          <lb ed="#P" n="7"/>propriam potestatem, et proinde (a) perversus
+          <lb ed="#P" n="8"/>sui amor privat sancta societate turgidum 
+          spi<lb break="no" ed="#P" n="9"/>ritum. Et inferius repetit duos amores, 
+          sanc<lb break="no" ed="#P" n="10"/>tum Dei, et perversum sui, praececisse in 
+          An<lb break="no" ed="#P" n="11"/>gelis, sanctum in bonis, perversum in malis;
+          <lb ed="#P" n="12"/>et distinxisse duas civitates.
+        </p>
+        <p xml:id="szdada-x21358-d1e886">
+          <lb ed="#P" n="13"/>12. Ratione item facile probatur haec pars,
+          <lb ed="#P" n="14"/>quia primum peccatum fuit in actu volendi,
+          <lb ed="#P" n="15"/>ut supra cum Scoto supposuimus, et probari
+          <lb ed="#P" n="16"/>etiam potest, quia fuit peccatum commissionis,
+          <lb ed="#P" n="17"/>et non solius omissionis, ut omnes docent; et
+          <lb ed="#P" n="18"/>ex Ipsa ratione superbiae, itemque ex 
+          magni<lb break="no" ed="#P" n="19"/>tudine illius peccati est manifestum, et in 
+          se<lb break="no" ed="#P" n="20"/>quentibus magis declarabitur. Inter actus 
+          au<lb break="no" ed="#P" n="21"/>tem volendi, primus est amor: quia est radix,
+          <lb ed="#P" n="22"/>et origo caeterorum actuum voluntatis, tam
+          <lb ed="#P" n="23"/>eorum, quibus bonum concupiscitur, vel 
+          quae<lb break="no" ed="#P" n="24"/>ritur, quam eorum, quibus malum 
+          contra<lb break="no" ed="#P" n="25"/>rium fugitur: ut eleganter exponit Augusü-
+          <lb ed="#P" n="26"/>nus 11, de Civit., cap. 6et 7, et in tractatu de
+          <lb ed="#P" n="27"/>Anima dicemus. Ergo primum peccatum 
+          An<lb break="no" ed="#P" n="28"/>geli in aliquo amore positum fuit, utique 
+          inor<lb break="no" ed="#P" n="29"/>dinato, nam inde habuit, ut peccatum esset.
+          <lb ed="#P" n="30"/>At vero ille amor non fuit Dei, ut est per se
+          <lb ed="#P" n="31"/>notum; ergo fuit amor sui, quia hicetiam prior
+          <lb ed="#P" n="32"/>est, quam amor aliorum Angelorum, vel 
+          alia<lb break="no" ed="#P" n="33"/>rum personarum creatarum, ut recte a Scoto
+          <lb ed="#P" n="34"/>probatum est: et in primo Angelo, de quo 
+          agi<lb break="no" ed="#P" n="35"/>mus, est per se manifestum
+        </p>
+        <p xml:id="szdada-x21358-d1e938">
+          <lb ed="#P" n="36"/>13. In secunda parte ab Scoto dissentimus,
+          <lb ed="#P" n="37"/>et probamus ex Cajetano. — Addimus vero in
+          <lb ed="#P" n="38"/>secunda parte assertionis, hunc amorem esse
+          <lb ed="#P" n="39"/>simul amicitiae et concupiscentiae, in quo ab
+          <lb ed="#P" n="40"/>Scoto dissentimus, qui hos amores ponit in
+          <lb ed="#P" n="41"/>Angelo tanquam actus distinctos. Contra quam
+          <lb ed="#P" n="42"/>nostram assertionem docet Cajetanus, 1. p.,
+          <lb ed="#P" n="43"/>q. 63, a. 2, S8 Ad 2 dubium, ubi primo 
+          impu<lb break="no" ed="#P" n="44"/>gnat divisionem Scoti ratione generali: quia
+          <lb ed="#P" n="45"/>non potest dari amor amicitiae, sive ad se, sive
+          <lb ed="#P" n="46"/>ad alium, qui sit purus, id est, absque aliqua
+          <lb ed="#P" n="47"/>concupiscentia; quia amare aliquem, est velle
+          <lb ed="#P" n="48"/>illi bonum, seu bonitatem aliquam, vel 
+          per<lb break="no" ed="#P" n="49"/>fectionem: et ita ille amor, ut est personae
+          <lb ed="#P" n="50"/>amatae, est amicitiae: ut vero est bonitatis,
+          <lb ed="#P" n="51"/>seu reiilli volitae, est concupiscentiae, ut supra,
+          <lb ed="#P" n="52"/>libro quarto, capite quarto, latius exposuimus.
+          <lb ed="#P" n="53"/>Ergo si Angelus peccavit inordinate se 
+          aman<lb break="no" ed="#P" n="54"/>do amore amicitia, ille etiam fuit inordinatus
+          <lb ed="#P" n="55"/>amor concupiscentia, et e converso, sine
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>causa; ergo distinguunt Scotus et Gabricl in
+          <lb ed="#P" n="57"/>Angelo duos amores sui inordinatos; non 
+          so<lb break="no" ed="#P" n="58"/>Ium ut distinctos, sed etiam ut habentes 
+          ma<lb break="no" ed="#P" n="59"/>litiam diversarum rationum. At vero posset
+          <lb ed="#P" n="60"/>pro Scoto responderi, necessario esse 
+          distin<lb break="no" ed="#P" n="61"/>guendos in Angelo duos amores sui: unum,
+          <lb ed="#P" n="62"/>quo delectatus est tantum in bonis, seu in 
+          per<lb break="no" ed="#P" n="63"/>fectione sua, quae est idem, quod ipse: et
+          <lb ed="#P" n="64"/>alium, quo amavit sibi rem a se distinctam,
+          <lb ed="#P" n="65"/>tanquam sibi bonam et commodam, sive illam
+          <lb ed="#P" n="66"/>jam habeat, sive illam non habeat, et habere
+          <lb ed="#P" n="67"/>cupiat. Prior actus dici potest pura amicitia,
+          <lb ed="#P" n="68"/>quia ibi non distinguitur bonum a re, cui volo
+          <lb ed="#P" n="69"/>bonum, et ideo nihil aliud est velle ei tale
+          <lb ed="#P" n="70"/>bonum, nisi velle ut illud bonum sit, et 
+          quam<lb break="no" ed="#P" n="71"/>vis ratione posset ibi distingui amicitia, et
+          <lb ed="#P" n="72"/>concupiscentia, ut in dicto libro quarto 
+          no<lb break="no" ed="#P" n="73"/>tavi, potuit nihilominusScotus, de tali 
+          dis<lb break="no" ed="#P" n="74"/>tinctione nihil curando, illum simpliciter 
+          vo<lb break="no" ed="#P" n="75"/>care amorem amicitiae, et alterum 
+          concupis<lb break="no" ed="#P" n="76"/>centiae.
+        </p>
+        <p xml:id="szdada-x21358-d1e1032">
+          <lb ed="#P" n="77"/>14. Sed imprimis fortasse necessarium non
+          <lb ed="#P" n="78"/>est, hos actus in Angelo esse distinctos, nam
+          <lb ed="#P" n="79"/>uno et eodem actu potest Angelus amare sibi,
+          <lb ed="#P" n="80"/>et bonitatem substantialem, quae a sua essentia
+          <lb ed="#P" n="81"/>non distinguitur, et potentias, et habitus 
+          eo<lb break="no" ed="#P" n="82"/>rum, et quidquid perfectionis in se habet per
+          <lb ed="#P" n="83"/>accidentia a substantia distincta: quia in hoc
+          <lb ed="#P" n="84"/>nulla est repugnantia, et universalis virtus
+          <lb ed="#P" n="85"/>Angeli potest facile haec omnia sub ratione
+          <lb ed="#P" n="86"/>unius perfectionis et excellentia sibi velle,
+          <lb ed="#P" n="87"/>quod est amare seipsum amore amicitiae, et
+          <lb ed="#P" n="88"/>omnia illa, quae sibi vult amore 
+          concupiscen<lb break="no" ed="#P" n="89"/>tiae. Verumtamen ne alias quaestiones 
+          digre<lb break="no" ed="#P" n="90"/>diamur, admittamus in Angelo illos duos actus
+          <lb ed="#P" n="91"/>amoris distinctos: et similiter ut vitemus etiam
+          <lb ed="#P" n="92"/>quaestionem de nomine, vocetur prior actus
+          <lb ed="#P" n="93"/>amor amicitiae sui, et alter appelletur 
+          concu<lb break="no" ed="#P" n="94"/>piscentiae: et nihilominus ostendamus 
+          doctri<lb break="no" ed="#P" n="95"/>nam sScoti de primo peccato Angeli non posse
+          <lb ed="#P" n="96"/>subsistere, nam secundum Scotum prior actus
+          <lb ed="#P" n="97"/>purae amicitiae sui, simpliciter fuit primus in
+          <lb ed="#P" n="98"/>voluntate Angeli, sed in illo pure spectato
+          <lb ed="#P" n="99"/>non potest inveniri malitia, quae constituat
+          <lb ed="#P" n="100"/>primum peccatum Angeli, sive in specie 
+          spiri<lb break="no" ed="#P" n="101"/>tualis luxuriae, sive in specie superbiae, tam
+          <lb ed="#P" n="102"/>proprie, quam communiter dictae: ergo 
+          ne<lb break="no" ed="#P" n="103"/>cesse est, ut aliquis actus propriae 
+          concupis<lb break="no" ed="#P" n="104"/>centiae adjunctus fuerit, ut Angelus per 
+          amo<lb break="no" ed="#P" n="105"/>rem sui peccaverit. Dico autem proprime 
+          con<lb break="no" ed="#P" n="106"/>cupiscentie, utique secundum ipsum Scotum,
+          <lb ed="#P" n="107"/>ut cum illo in nominibus conveniam: nam ille
+          <lb ed="#P" n="108"/>non vocat amorem concupiscentiae in Angelo,
+          <lb ed="#P" n="109"/>nisi illum, quo Angelus sibi vult bonum a se
+          <lb ed="#P" n="110"/>distinctum, juxta responsionem superius da-
+          <pb ed="#P" n="851"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tam, quae est discipulorum ejus. Nam juxta
+          <lb ed="#P" n="2"/>modum loquendi Cajetani. et nostrum, ipse
+          <lb ed="#P" n="3"/>amor amicitiae sui, quamvis sit per solam 
+          com<lb break="no" ed="#P" n="4"/>placentiam in propria perfectione non distincta
+          <lb ed="#P" n="5"/>a seipso, includit amorem concupiscentiae 
+          il<lb break="no" ed="#P" n="6"/>lius perfectionis, quam sibi quis diligit: et sic
+          <lb ed="#P" n="7"/>etiam dicimus hujusmodi amorem amicitiae,
+          <lb ed="#P" n="8"/>ut hanc solam concupiscentiae rationem 
+          inclu<lb break="no" ed="#P" n="9"/>dit, non esse ex se malum, nec illum solum
+          <lb ed="#P" n="10"/>primum peccatum Angeli esse potuisse.
+        </p>
+        <p xml:id="szdada-x21358-d1e1135">
+          <lb ed="#P" n="11"/>15. Id probatur de tali amore secundum suam
+          <lb ed="#P" n="12"/>substantiam spectato. — lta etiam docet 
+          Caje<lb break="no" ed="#P" n="13"/>tanus supra: et probatur, quia talis amor ex
+          <lb ed="#P" n="14"/>objecto est bonus et honestus, et non potest
+          <lb ed="#P" n="15"/>fieri malus ex circumstantia, nisi transeat in
+          <lb ed="#P" n="16"/>aliquem inordinatum concupiscentiae affectum:
+          <lb ed="#P" n="17"/>ergo non potest primum peccatum Angeli 
+          con<lb break="no" ed="#P" n="18"/>sistere in tali amore amicitiae. Major per se
+          <lb ed="#P" n="19"/>nota videtur; quia ille amor est valde 
+          natura<lb break="no" ed="#P" n="20"/>lis, et per se necessarius ad conservationem
+          <lb ed="#P" n="21"/>et perfectionem naturae, ac proinde per se 
+          lo<lb break="no" ed="#P" n="22"/>quendo est conformis rationi naturali; ergo de
+          <lb ed="#P" n="23"/>se honestus est. Probatur ergo minor, quia si
+          <lb ed="#P" n="24"/>ille actus non est ex objecto malus, non potest
+          <lb ed="#P" n="25"/>fieri malus, nisi ratione modi, quia nulla alia
+          <lb ed="#P" n="26"/>circumstantia cogitari potest, a qua malus fiat.
+          <lb ed="#P" n="27"/>Aut ergo ille modus est ex parte ipsius actus,
+          <lb ed="#P" n="28"/>aut ex parte objecti; nam in illo actu tantum
+          <lb ed="#P" n="29"/>illa duo reperiuntur, nec potest aliud 
+          princi<lb break="no" ed="#P" n="30"/>pium cogitari, ex quo fiat malus; cum ex se,
+          <lb ed="#P" n="31"/>seu ex objecto malus non sit. At vero neutrum
+          <lb ed="#P" n="32"/>illorum dici potest, praecise sistendo in tali
+          <lb ed="#P" n="33"/>objecto; ergo non potest fieri malus ille amor,
+          <lb ed="#P" n="34"/>nisi transeat in amorem concupiscentiae 
+          alte<lb break="no" ed="#P" n="35"/>rius rei, seu boni distincti ab ipso amante, et
+          <lb ed="#P" n="36"/>non consentanei rationi.
+        </p>
+        <p xml:id="szdada-x21358-d1e1194">
+          <lb ed="#P" n="37"/>16. Deinde probatur de illo spectato, secundum
+          <lb ed="#P" n="38"/>circumstantiam formalem, quae est intensio. —
+          <lb ed="#P" n="39"/>Ultima propositio subsumpta quoad priorem
+          <lb ed="#P" n="40"/>de modo amoris ex parte ipsius actus 
+          proba<lb break="no" ed="#P" n="41"/>tur, quia in actu non est alius modus, nisi 
+          in<lb break="no" ed="#P" n="42"/>tensio: actus autem bonus ex objecto, non fit
+          <lb ed="#P" n="43"/>malus propter solam intensionem. Quia tota
+          <lb ed="#P" n="44"/>intensio ejusdem actus tendit in idem 
+          objec<lb break="no" ed="#P" n="45"/>tum, et sub eadem ratione: unde si actus est
+          <lb ed="#P" n="46"/>substantialiter bonus ex objecto, quod fuerit
+          <lb ed="#P" n="47"/>intensior, erit melior per se loquendo, et 
+          se<lb break="no" ed="#P" n="48"/>clusa speciali prohibitione, et confirmatur a
+          <lb ed="#P" n="49"/>contrario, quia si actus sit bonus ex objecto,
+          <lb ed="#P" n="50"/>non fiet malus propter solam remissionem: ut,
+          <lb ed="#P" n="51"/>verbi gratia, actus charitatis Dei bonus est,
+          <lb ed="#P" n="52"/>etiamsi sit valde remissus, sicut alias de illo
+          <lb ed="#P" n="53"/>actu, et poenitentiae, et contritionis diximus.
+          <lb ed="#P" n="54"/>Accedit, quod Angeli si possunt elicere actus
+          <lb ed="#P" n="55"/>suos naturales, magis, vel minus intensos, ha-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bent terminum maximi conatus, quam 
+          adhi<lb break="no" ed="#P" n="57"/>bere possunt naturaliter in illis intense 
+          efficien<lb break="no" ed="#P" n="58"/>dis. Potest ergo Angelus se amare isto amore
+          <lb ed="#P" n="59"/>amicitiae summa intensione actus sibi 
+          possi<lb break="no" ed="#P" n="60"/>bih, et in hoc non peccat per se loquendo; quia
+          <lb ed="#P" n="61"/>illud objectum non est malum; et est de se
+          <lb ed="#P" n="62"/>dignum toto illo amore; unde verisimile cst,
+          <lb ed="#P" n="63"/>sanctos Angelos ita seipsos diligere, qvia in
+          <lb ed="#P" n="64"/>illo modo dilectionis nihil invenitur rect » 
+          ra<lb break="no" ed="#P" n="65"/>tioni dissonum: ergo in Angelo amor am itiae
+          <lb ed="#P" n="66"/>sui nunquam fit peccaminosus propter solam
+          <lb ed="#P" n="67"/>intensionem actus. Et declaratur amplius, quia
+          <lb ed="#P" n="68"/>amor de objecto creato bono, vel non malo,
+          <lb ed="#P" n="69"/>ratione intensionis (seclusa extrinseca, seu 
+          po<lb break="no" ed="#P" n="70"/>sitiva Dei prohibitione, quae in praesenti 
+          ne<lb break="no" ed="#P" n="71"/>gotio non potest cum fundamento cogitari)
+          <lb ed="#P" n="72"/>solum fieri potest malus ab extrinseco, seu 
+          cau<lb break="no" ed="#P" n="73"/>saliter, ut si affectusille adeo intensus impediat
+          <lb ed="#P" n="74"/>alium actum, quem in tali tempore operans
+          <lb ed="#P" n="75"/>efficere teneretur; vel si sit occasio 
+          transgre<lb break="no" ed="#P" n="76"/>diendi aliud praeceptum, ut contingit in amore
+          <lb ed="#P" n="77"/>sensibili. Neutra autem ex his rationibus 
+          ha<lb break="no" ed="#P" n="78"/>bet locum in Angelo, quia cum amore sui
+          <lb ed="#P" n="79"/>maxime intenso potest simul diligere DEUM
+          <lb ed="#P" n="80"/>super omnia, et vitare omnia peccata, ut 
+          re<lb break="no" ed="#P" n="81"/>vera fecerunt sancti Angeli, non obstante tali
+          <lb ed="#P" n="82"/>amore; unde ex ac parte non fuit amor ille
+          <lb ed="#P" n="83"/>malus propter intensionem.
+        </p>
+        <p xml:id="szdada-x21358-d1e1301">
+          <lb ed="#P" n="84"/>17. Ulterius vero in hoc puncto considerare
+          <lb ed="#P" n="85"/>oportet, quod quando amor hoc modo fit 
+          ma<lb break="no" ed="#P" n="86"/>Ius, non habet in se specialem malitiam, sed si
+          <lb ed="#P" n="87"/>denominatur malus, solum est a malitia 
+          effec<lb break="no" ed="#P" n="88"/>tus, cujus est causa, vel moralis occasio: ut si
+          <lb ed="#P" n="89"/>est causa non exercendi alium actum tunc
+          <lb ed="#P" n="90"/>praeceptum, non est malus, nisi malitia talis
+          <lb ed="#P" n="91"/>omissionis; vel si est moralis occasio eligendi
+          <lb ed="#P" n="92"/>medium iniquum juxta mahtiam talis medii,
+          <lb ed="#P" n="93"/>amor ipse redditur malus: si quis tam intense
+          <lb ed="#P" n="94"/>amet honorem, ut sitilli occasio furandi, amor
+          <lb ed="#P" n="95"/>ille participat malitiam injustitiae: si vero sit
+          <lb ed="#P" n="96"/>occasio committendi sacrilegium, illam 
+          mah<lb break="no" ed="#P" n="97"/>tiam induit, ut ex 1, 2, suppono. Unde licet in
+          <lb ed="#P" n="98"/>Angelo admitteremus, amorem sui fieri 
+          ma<lb break="no" ed="#P" n="99"/>Ium aliquo tali titulo propter intensionem,
+          <lb ed="#P" n="100"/>non posset dici malus certa, et quasi 
+          intrinse<lb break="no" ed="#P" n="101"/>ca malitia sive superbiae, sive luxuriae, sed 
+          so<lb break="no" ed="#P" n="102"/>Ium extrinsece juxta speciem malitiae, cujus
+          <lb ed="#P" n="103"/>esset occasio. Àc proinde si ex tali amore 
+          so<lb break="no" ed="#P" n="104"/>Ium sequatur aliqua omissio, ipse amor ad
+          <lb ed="#P" n="105"/>summunm» dici poterit malus malitia 
+          omissio<lb break="no" ed="#P" n="106"/>nis: sed hoc in primo Angelo non admittitur,
+          <lb ed="#P" n="107"/>ut jam dixi, et iterum dicam. Si vero sequatur
+          <lb ed="#P" n="108"/>aliqua commissio, aut illa est in affectu 
+          pro<lb break="no" ed="#P" n="109"/>pria superbiae: et tunc ille etiam amor 
+          parti<lb break="no" ed="#P" n="110"/>cipabit eamdem speciem superbiae, et sic ab
+          <pb ed="#P" n="852"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illa denominabitur peccatum superbiae, non
+          <lb ed="#P" n="2"/>tamen erit peccatum distinctum ab ipso affectu
+          <lb ed="#P" n="3"/>superbiae, nec esse poterit sic malus, sine 
+          a<lb break="no" ed="#P" n="4"/>more propriae concupiscentiae, ad quem 
+          ne<lb break="no" ed="#P" n="5"/>cessario pertinebit ille actus superbiae, ut 
+          sta<lb break="no" ed="#P" n="6"/>tim declarabitur, et ita primum peccatum
+          <lb ed="#P" n="7"/>Angeli solum erit propria superbia. Aut illa
+          <lb ed="#P" n="8"/>commissio est in alia specie peccati, et tunc
+          <lb ed="#P" n="9"/>etiam non erit illa malitia sine amore alterius
+          <lb ed="#P" n="10"/>boni, quod Angelus inordinate sibi 
+          concupis<lb break="no" ed="#P" n="11"/>cat: et sic etiam sequitur, quod nunc 
+          intende<lb break="no" ed="#P" n="12"/>mus, nimirum amorem amicitie Angeli ad
+          <lb ed="#P" n="13"/>seipsum, non ftieri malum ratione solius 
+          in<lb break="no" ed="#P" n="14"/>tensionis, sed quia extenditur ad novam 
+          con<lb break="no" ed="#P" n="15"/>cupiscentiam, eique conjungitur, et praeterea
+          <lb ed="#P" n="16"/>paulo post contra Scotum docebimus, illam
+          <lb ed="#P" n="17"/>concupiscentiam non fuisse in Angelo, nisi
+          <lb ed="#P" n="18"/>propriae excellentiae affectum.
+        </p>
+        <p xml:id="szdada-x21358-d1e1405">
+          <lb ed="#P" n="19"/>18. Denique probatur de eodem spectato, 
+          se<lb break="no" ed="#P" n="20"/>cundum circuanstantiam objectivam forte 
+          addi<lb break="no" ed="#P" n="21"/>tam.—Superest dicendum de altera parte 
+          ulti<lb break="no" ed="#P" n="22"/>mae propositionis sumptae, scilicet, de modo
+          <lb ed="#P" n="23"/>inordinato talis amoris ex parte objecti: de
+          <lb ed="#P" n="24"/>quo etiam dicimus, non posse intelligi sine
+          <lb ed="#P" n="25"/>additione aliqua ex parte objecti, seu boni
+          <lb ed="#P" n="26"/>amati, et consequenter necessarium esse, ut
+          <lb ed="#P" n="27"/>praeter intrinsecam, et connaturalem 
+          perfec<lb break="no" ed="#P" n="28"/>tionem, aliquod bonum Angcelus sibi amet,
+          <lb ed="#P" n="29"/>ratione cujus, amor sui inordinatus, vel 
+          ni<lb break="no" ed="#P" n="30"/>mius, seu regulam rectae rationis excedens,
+          <lb ed="#P" n="31"/>dici possit; nam si nullum novum bonum
+          <lb ed="#P" n="32"/>Angelus sibi amat, etiam ipse amor nullam
+          <lb ed="#P" n="33"/>mutationem recipit ex parte objecti: ergo non
+          <lb ed="#P" n="34"/>potest ex parte illius fieri magis ordinatus,
+          <lb ed="#P" n="35"/>quam antea erat: si autem novum bonum 
+          An<lb break="no" ed="#P" n="36"/>gelus sibi amat, jam ille amor est 
+          concupis<lb break="no" ed="#P" n="37"/>centiae; ergo amor amicitiae non fit malus,
+          <lb ed="#P" n="38"/>nisi per extensionem ad concupiscentiam, et
+          <lb ed="#P" n="39"/>tunc tota malitia illius amoris non erit alia,
+          <lb ed="#P" n="40"/>nisi quae redundaverit ex bono denuo 
+          concupi<lb break="no" ed="#P" n="41"/>to, quando illud non fuerit rectae rationi 
+          con<lb break="no" ed="#P" n="42"/>forme, juxta doctrinam proxime datam. Et
+          <lb ed="#P" n="43"/>confirmatur, nam in omni pravo affectu 
+          ali<lb break="no" ed="#P" n="44"/>cujus boni, quod nobis, vel alis inordinate
+          <lb ed="#P" n="45"/>amamus, unica est malitia sumpta ex 
+          deordi<lb break="no" ed="#P" n="46"/>natione objectiva talis boni, respectu rectae
+          <lb ed="#P" n="47"/>rationis: ergo similiter in illo amore, quo quis
+          <lb ed="#P" n="48"/>amando se, aliquid sibi contra rationem 
+          con<lb break="no" ed="#P" n="49"/>cupiscit, tantum est una malitia proveniens ex
+          <lb ed="#P" n="50"/>concupiscentia talis boni: et consequenter 
+          ip<lb break="no" ed="#P" n="51"/>se amor sui, ut consideratur ab Scoto purae
+          <lb ed="#P" n="52"/>amicitiae, non habet propriam et specialem
+          <lb ed="#P" n="53"/>malitiam a malitia concupiscentiae distinctam.
+        </p>
+        <p xml:id="szdada-x21358-d1e1483">
+          <lb ed="#P" n="54"/>19. Adversariorum evasio. — Ad hanc 
+          par<lb break="no" ed="#P" n="55"/>tem responderi potest, ipsum amorem sui, quo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Angelus vult sibi intrinseca bona, et 
+          deseho<lb break="no" ed="#P" n="57"/>nesta, posse fieri malum sine concupiscenua
+          <lb ed="#P" n="58"/>alicujus novi boni, ex solo modo volendi 
+          eam<lb break="no" ed="#P" n="59"/>dem bonitatem naturalem; nam complacentia
+          <lb ed="#P" n="60"/>in propriis bonis potest esse nimia, et 
+          inordi<lb break="no" ed="#P" n="61"/>nata sine affectu alterius boni extrinseci, et
+          <lb ed="#P" n="62"/>sine excessu ratione intensionis, propter 
+          mo<lb break="no" ed="#P" n="63"/>dum amandi, vel complacendi in propriis 
+          per<lb break="no" ed="#P" n="64"/>fectionibus intrinsecis, tanquam in bono sibi
+          <lb ed="#P" n="65"/>sufficiente et consequentertanquam in 
+          fineul<lb break="no" ed="#P" n="66"/>timo, caeteris bonis praeferendo; nam, quod
+          <lb ed="#P" n="67"/>talis amor proprius possibilis sit, videtur esse
+          <lb ed="#P" n="68"/>doctrina Augustini: hic enim videtur esse ille
+          <lb ed="#P" n="69"/>amor sui, de quo dixit 14, de Civit., capit.
+          <lb ed="#P" n="70"/>ult., aedificare terrenam civitatem. Unde lib.
+          <lb ed="#P" n="71"/>11, Genes., ad litt., cap. 13, 14 et 15, dicit:
+          <lb ed="#P" n="72"/>Ita factum esse. ut Angelus sua potestate 
+          prop<lb break="no" ed="#P" n="73"/>ter excellentium delectatus tumesceret superbia,
+          <lb ed="#P" n="74"/>et a societate sanctorum Angelorum 
+          segregare<lb break="no" ed="#P" n="75"/>tur. Et lib. 14, de Cavit., c. 13, cum dixisset,
+          <lb ed="#P" n="76"/>initium malae voluntatis esse superbiam, 
+          sub<lb break="no" ed="#P" n="77"/>dit: Hoc fit, cun sibi nimis placet. Quibus
+          <lb ed="#P" n="78"/>locis ante omnem appetitum excellentiae super
+          <lb ed="#P" n="79"/>alios, ac subinde ante propriam 
+          concupiscen<lb break="no" ed="#P" n="80"/>tiam boni quasi extrinseci, ponit Augustinus
+          <lb ed="#P" n="81"/>nimiam complacentiam sui, tanquam radicem
+          <lb ed="#P" n="82"/>alterius concupiscentiae. Non potest autem 
+          in<lb break="no" ed="#P" n="83"/>telligi, in quo talis amor absque altera 
+          concu<lb break="no" ed="#P" n="84"/>piscentia nimius sit, nisi in modo amandi 
+          pro<lb break="no" ed="#P" n="85"/>priam intrinsecam perfectionem, tanquam 
+          ma<lb break="no" ed="#P" n="86"/>gnam, et sibi suflicientem, et in illa suum
+          <lb ed="#P" n="87"/>ultimum finem constituendo; ita in illa 
+          sis<lb break="no" ed="#P" n="88"/>tendo, ac si absolute, et simpliciter summa
+          <lb ed="#P" n="89"/>existeret: et declaratur tandem, nam diligere
+          <lb ed="#P" n="90"/>creaturam plusquam Deum appretiative, est
+          <lb ed="#P" n="91"/>magna deordinatio amoris talis creaturae, non
+          <lb ed="#P" n="92"/>propter nimiam intensionem, nam haec, nec
+          <lb ed="#P" n="93"/>necessaria est, nec suflicit, ut alibi ostensum
+          <lb ed="#P" n="94"/>est: nec propter additionem aliquam ex parte
+          <lb ed="#P" n="95"/>rei amatae, nam haec etiam necessaria non est:
+          <lb ed="#P" n="96"/>quia ejusdem omnino creaturae possunt esse
+          <lb ed="#P" n="97"/>duae dilectiones; una mala, quia per illam 
+          di<lb break="no" ed="#P" n="98"/>ligitur super omnia; et alia non mala, quia
+          <lb ed="#P" n="99"/>non est ita vehemens, quae differentia non est,
+          <lb ed="#P" n="100"/>nisi in modo attingendi objectum; ergo 
+          simi<lb break="no" ed="#P" n="101"/>liter amor sui potest esse nimius per excessum
+          <lb ed="#P" n="102"/>appretiativum (ut sic dicam) absque 
+          intensio<lb break="no" ed="#P" n="103"/>ne, et sine extensione ad concupiscendumsibi
+          <lb ed="#P" n="104"/>aliud inordinatum bonum.
+        </p>
+        <p xml:id="szdada-x21358-d1e1598">
+          <lb ed="#P" n="105"/>20. Impugnatur evasio. — Quatuor modis
+          <lb ed="#P" n="106"/>id fieri potest, ut quis excedat amando bona
+          <lb ed="#P" n="107"/>sua etium vera. —In his omnibus modis 
+          exten<lb break="no" ed="#P" n="108"/>ditur amor sui ad alia objecta prava per 
+          con<lb break="no" ed="#P" n="109"/>cupiscentiam.—hespondeo imprimis: esto 
+          ve<lb break="no" ed="#P" n="110"/>rum sit posse aliquem immoderate se amare,
+          <pb ed="#P" n="853"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et delectari in veris bonis, quae habet sine
+          <lb ed="#P" n="2"/>concupiscentia aliarum rerum. non tamen sine
+          <lb ed="#P" n="3"/>concupiscentia peculiaris excellentiae in eisdem
+          <lb ed="#P" n="4"/>bonis, quae sit veluti ratio complens objectum
+          <lb ed="#P" n="5"/>nimis dilectum, et veluti ratio sub qua tale 
+          ob<lb break="no" ed="#P" n="6"/>jetum immoderate appetitur. Hoc insinuavit
+          <lb ed="#P" n="7"/>Cajetanus supra dicens, in tali amicitiae posse
+          <lb ed="#P" n="8"/>esse peccatum, si in modo amandi sit nimius.
+          <lb ed="#P" n="9"/>Quod, inquit, ad hoc reducitur, quod aliquid
+          <lb ed="#P" n="10"/>sibi vult, quod ei non convenit, quod est 
+          concu<lb break="no" ed="#P" n="11"/>piscere, puta, quod tantum se amet, ut non curet
+          <lb ed="#P" n="12"/>de divina beatitudine: hoc enim est velle sibi
+          <lb ed="#P" n="13"/>sufficientiam ad Leatitudinem. Quae ultima 
+          ver<lb break="no" ed="#P" n="14"/>ba superiora declarant, et proposito nostro
+          <lb ed="#P" n="15"/>maxime inserviunt. Nam, qui, verbi gratia,
+          <lb ed="#P" n="16"/>nimis sibi placet in sua virtute, vel gratia, 
+          va<lb break="no" ed="#P" n="17"/>riis modis potest in illa complacentia excedere.
+          <lb ed="#P" n="18"/>Unus est, si in virtute delectetur, tanquam in
+          <lb ed="#P" n="19"/>bono, quod ex se habet, et non ab alio: juxta
+          <lb ed="#P" n="20"/>illud Pauli 1, Corint. 4: S autem accepisti,
+          <lb ed="#P" n="21"/>quid gloriaris, quasi non acceperis. Alus non
+          <lb ed="#P" n="22"/>multum dissimilis est, si quis delectetur in illo
+          <lb ed="#P" n="23"/>bono, tanquam in praemio suorum meritorum,
+          <lb ed="#P" n="24"/>cum tamen illa non habuerit, sed gratis illud
+          <lb ed="#P" n="25"/>donum acceperit. Quam arrogantiam in 
+          Pela<lb break="no" ed="#P" n="26"/>gianis saepe reprehendit Augustinus: 
+          etutrius<lb break="no" ed="#P" n="27"/>que meminit Gregorius 23, Moral., cap. 4,
+          <lb ed="#P" n="28"/>alias 1, et D. Thomas 2, 2, q. 162. Qui addunt
+          <lb ed="#P" n="29"/>tertium excessum, si quis complaceat in bonis,
+          <lb ed="#P" n="30"/>quae non habet, sola sua existimatione, et 
+          co<lb break="no" ed="#P" n="31"/>gitatione sibi talia bona attribuens. Quartus
+          <lb ed="#P" n="32"/>cogitari potest, si quis ita in bonis propriis 
+          na<lb break="no" ed="#P" n="33"/>turalibus delectetur, ut alia despiciat, et per
+          <lb ed="#P" n="34"/>illa sibi sufficiens videatur. In his autem 
+          om<lb break="no" ed="#P" n="35"/>nibus modis involvitur amor excellentiae, quam
+          <lb ed="#P" n="36"/>quis non habet, vel aliquando etiam habere
+          <lb ed="#P" n="37"/>non potest. Ergo ex hac parte extenditur ille
+          <lb ed="#P" n="38"/>amor ad bonum sibiappetendum, quo amanti
+          <lb ed="#P" n="39"/>non convenit; quod est concupiscere, ut recte
+          <lb ed="#P" n="40"/>Cajetanus dixit. Nam qui se diligit nimis 
+          pri<lb break="no" ed="#P" n="41"/>mo inodo, revera appetit hanc singularem 
+          ex<lb break="no" ed="#P" n="42"/>cellentiam habendi a se bona, quae habet, quae
+          <lb ed="#P" n="43"/>distincta est ab ipsismet bonis, et non 
+          compe<lb break="no" ed="#P" n="44"/>Ut sic se amanti; ergo ille amor includit 
+          con<lb break="no" ed="#P" n="45"/>cupiscentiam talis perfectionis. Idemque 
+          ap<lb break="no" ed="#P" n="46"/>plicari potest ad secundum excessum, et ad
+          <lb ed="#P" n="47"/>quartum. In tertio vero modo licet ex falsa
+          <lb ed="#P" n="48"/>apprehensione affectus sit per modum 
+          compla<lb break="no" ed="#P" n="49"/>centiae in bono habito, re tamen vera affectus
+          <lb ed="#P" n="50"/>quidam ad bonum non habitum; ergo ex hac
+          <lb ed="#P" n="51"/>parte, et in reipsa ille amor ita est amicitiae
+          <lb ed="#P" n="52"/>ad se, ut sit etiam concupiscentiae illius boni,
+          <lb ed="#P" n="53"/>quod sibi appetit.
+        </p>
+        <p xml:id="szdada-x21358-d1e1734">
+          <lb ed="#P" n="54"/>21. Confirmatur primo. — Ut autem hic
+          <lb ed="#P" n="55"/>discursus melius intelligatur, alia aequivocatio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in verbo conctpiscendi, seu voce concupiscentiee
+          <lb ed="#P" n="57"/>cavenda est. Nam interdum ea tantum 
+          concu<lb break="no" ed="#P" n="58"/>piscere dicimur, quae amamus, et non 
+          habe<lb break="no" ed="#P" n="59"/>mus. Sic enim Augustinus dixit, dicto lib. 14,
+          <lb ed="#P" n="60"/>de Civit., cap. 6: Cum consentimus appetendo
+          <lb ed="#P" n="61"/>ea. quae volumts, cupiditas vocatur. Et solet
+          <lb ed="#P" n="62"/>etiam desiderium, vel concupiscentia 
+          appella<lb break="no" ed="#P" n="63"/>ri. In hac ergo stricta significatione amor 
+          con<lb break="no" ed="#P" n="64"/>cupiscentiae solum est de bonis nondum 
+          ha<lb break="no" ed="#P" n="65"/>bitis. Generahus autem concupiscere dicimur,
+          <lb ed="#P" n="66"/>quidquid amamus, tanquam nobis, vel alteri
+          <lb ed="#P" n="67"/>bonum, sive ametur per modum desiderii, quia
+          <lb ed="#P" n="68"/>nondum habetur, sive per modum 
+          complacen<lb break="no" ed="#P" n="69"/>tiae, quia jam habetur: et sic in praesenti 
+          lo<lb break="no" ed="#P" n="70"/>quimur de amore concupiscentiae, nam amor
+          <lb ed="#P" n="71"/>divitiarum, etiamsi possideantur, 
+          concupiscen<lb break="no" ed="#P" n="72"/>tiae est, comparatione illarum, non amicitiae,
+          <lb ed="#P" n="73"/>ut est per se notum. Ita ergo dicimus de 
+          Luci<lb break="no" ed="#P" n="74"/>fero, primum amorem inordinatum, et nimium
+          <lb ed="#P" n="75"/>sui, non potuisse purae amicitiae esse ipsi 
+          natu<lb break="no" ed="#P" n="76"/>rae consentaneum, quo illi amatur sola bonitas,
+          <lb ed="#P" n="77"/>et perfectio connaturalis, prout illa natura
+          <lb ed="#P" n="78"/>exigit: quia in hoc amore praecise spectato
+          <lb ed="#P" n="79"/>nulla est deordinatio, et ideo necessarium
+          <lb ed="#P" n="80"/>fuisse, ut per talem amorem, aliquam 
+          praeter<lb break="no" ed="#P" n="81"/>naturalem, aut indebitam excellentiam, vel
+          <lb ed="#P" n="82"/>perfectionem sibi amaverit, seu concupiscendo
+          <lb ed="#P" n="83"/>illa nondum habitam, sive complacendo in
+          <lb ed="#P" n="84"/>illa, ut jam habita vere, vel apparenter, seu
+          <lb ed="#P" n="85"/>in apprehensione, illam sibi proponendo, ut
+          <lb ed="#P" n="86"/>jam habitam. Quocumque enim modo ex istis
+          <lb ed="#P" n="87"/>talis excellentiae appetatur, amor ilhus est 
+          con<lb break="no" ed="#P" n="88"/>cupiscentiae, et non purae amicitiae sui, in sensu
+          <lb ed="#P" n="89"/>supra exphcato.
+        </p>
+        <p xml:id="szdada-x21358-d1e1817">
+          <lb ed="#P" n="90"/>22. Confirmatur secundo. — Unde ulterius
+          <lb ed="#P" n="91"/>licet inferre: quoties appetitus extrinsecae 
+          ex<lb break="no" ed="#P" n="92"/>cellentiae est actus distinctus ab illo puro amore
+          <lb ed="#P" n="93"/>sui, quo Angelus sibi tantum amat illa 
+          extrin<lb break="no" ed="#P" n="94"/>seca bona, quae ab ipso non distinguuntur, vel
+          <lb ed="#P" n="95"/>saltem sunt illi intrinseca, ut revera insunt
+          <lb ed="#P" n="96"/>ipsi, in eisque complacet, ut revera talia sunt,
+          <lb ed="#P" n="97"/>tunc totam malitiam esse in appetitu alterius
+          <lb ed="#P" n="98"/>excellentiae non debitae. Nam prior actus 
+          so<lb break="no" ed="#P" n="99"/>Ium causaliter denominabitur a posteriori, si sit
+          <lb ed="#P" n="100"/>aliquo modo ratio, vel causa ejus; non habet
+          <lb ed="#P" n="101"/>tamen malitiam specialem, et distinctam a
+          <lb ed="#P" n="102"/>malitia alterius appetitus. Si vero ponatur 
+          An<lb break="no" ed="#P" n="103"/>gelus inordinate complacere sibi in sola sua
+          <lb ed="#P" n="104"/>intrinseca perfectione indebito modo 
+          appre<lb break="no" ed="#P" n="105"/>hensa, sub ratione cujusdam excellentissimae
+          <lb ed="#P" n="106"/>perfectionis, aliquo modo ex supra numeratis:
+          <lb ed="#P" n="107"/>tunc quidem talis inordinatus amor sui unus
+          <lb ed="#P" n="108"/>tantum actus erit, quia tendit in illud 
+          objec<lb break="no" ed="#P" n="109"/>tum per modum unius, et sub una ratione 
+          for<lb break="no" ed="#P" n="110"/>mali, non tamen erit idem actus cum alio actu
+          <pb ed="#P" n="854"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>puri amoris sui honesti, et quasi connaturalis,
+          <lb ed="#P" n="2"/>sed erit distinctus etiam in substantia, seu 
+          en<lb break="no" ed="#P" n="3"/>titate sua, quia licet tendat in idem materiale
+          <lb ed="#P" n="4"/>objectum, tendit sub rationc excellentiae longe
+          <lb ed="#P" n="5"/>diversae, quam saltem, ut apprehensione 
+          pro<lb break="no" ed="#P" n="6"/>positam sibi appetit, quod priori actu non 
+          fa<lb break="no" ed="#P" n="7"/>ciebat. Est ergo distinctus actus, quia prior
+          <lb ed="#P" n="8"/>actus idem manens non potest extendi ad 
+          no<lb break="no" ed="#P" n="9"/>vum objectum, nec sub nowa ratione in illud
+          <lb ed="#P" n="10"/>ferri. Et tunc amor inordinatus unicus tantum
+          <lb ed="#P" n="11"/>est, qui respectu personae se amantis, est 
+          ami<lb break="no" ed="#P" n="12"/>citiae; respectu vero boni, quod tali modo sibi
+          <lb ed="#P" n="13"/>amat, est concupiscentiae, et in illo, ut sic, est
+          <lb ed="#P" n="14"/>tota deordinatio et malitia. Unde semper 
+          con<lb break="no" ed="#P" n="15"/>cluditur, in praeciso amore amicitiae Angeli non
+          <lb ed="#P" n="16"/>fuisse inordinationem, vel malitiam, sed solum
+          <lb ed="#P" n="17"/>quatenus aliquod praeternaturale bonum per
+          <lb ed="#P" n="18"/>illum sibi concupivit.
+        </p>
+        <p xml:id="szdada-x21358-d1e1908">
+          <lb ed="#P" n="19"/>23. Declaratur exemplo illius, qui in 
+          ordi<lb break="no" ed="#P" n="20"/>nate scire cupit. — Exemplo familiari, et 
+          hu<lb break="no" ed="#P" n="21"/>mano potest hoc declarari; nam si quis amet
+          <lb ed="#P" n="22"/>scientiam amore bono, vel saltem non malo,
+          <lb ed="#P" n="23"/>et ex illo amore procedat, ad culpabilem 
+          amo<lb break="no" ed="#P" n="24"/>rem ejusdem scientiae; non per intensionem
+          <lb ed="#P" n="25"/>tantum (quia ex illa sola nunquam fiet actus
+          <lb ed="#P" n="26"/>malus), sed per excessum ex parte objecti, 
+          duo<lb break="no" ed="#P" n="27"/>bus modis id facere potest. Primo ex vi prioris
+          <lb ed="#P" n="28"/>amoris; sumendo prava media ad scientiam
+          <lb ed="#P" n="29"/>acquirendam, ut studendo temporibus 
+          prohi<lb break="no" ed="#P" n="30"/>bitis, consulendo daemonem, vel quid simile.
+          <lb ed="#P" n="31"/>Secundo in ipsomet objecto scientiae addendo
+          <lb ed="#P" n="32"/>aliquid inordinatum, ut appetendo scientiam
+          <lb ed="#P" n="33"/>futurorum, vel perfectam scientiam, ut subito
+          <lb ed="#P" n="34"/>obtinendam, etc. Et tunc in priori modo potest
+          <lb ed="#P" n="35"/>idem amor scientiae manere, et illi adjungi
+          <lb ed="#P" n="36"/>alius actus malae electionis, a quo poterit prior
+          <lb ed="#P" n="37"/>denominari malus, quatenus est aliquo modo
+          <lb ed="#P" n="38"/>causa ejus, tamen in se non habebit aliam 
+          ma<lb break="no" ed="#P" n="39"/>litiam, quam affectus. At vero in posteriori
+          <lb ed="#P" n="40"/>modo necesse est mutari actum, quia 
+          termi<lb break="no" ed="#P" n="41"/>natur ad novum objectum, a quo propriam, et
+          <lb ed="#P" n="42"/>intrinsecam deformitatem habet. Ad hunc
+          <lb ed="#P" n="43"/>ergo modum de inordinato amore, seu 
+          com<lb break="no" ed="#P" n="44"/>placentia Angeli in propriis bonis cogitandum
+          <lb ed="#P" n="45"/>est. Inde tamen intelligi facile potest, 
+          natura<lb break="no" ed="#P" n="46"/>lem amorem, quo Angelus potest honeste 
+          com<lb break="no" ed="#P" n="47"/>placere in suodecore, et pulchritudine naturali,
+          <lb ed="#P" n="48"/>qualem habere potuerunt sancti Angeli, etiam
+          <lb ed="#P" n="49"/>in secunda mora, imo et nunc etiam in illo
+          <lb ed="#P" n="50"/>permanent: hunc, inquam, amorem non fuisse
+          <lb ed="#P" n="51"/>deordinatum, et nimium in malo Angelo, per
+          <lb ed="#P" n="52"/>mutationem ab uno actu in alium, quo eadem
+          <lb ed="#P" n="53"/>bona sub ratione nimiae excellentiae amaverit,
+          <lb ed="#P" n="54"/>tanquam praesentia, et complacendo in illis,
+          <lb ed="#P" n="55"/>sed per additionem alterius actus, quo majo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rem aliquam excellentiam appetiit, quam non
+          <lb ed="#P" n="57"/>habebat. Probatur, quia prior mutatio esse non
+          <lb ed="#P" n="58"/>poterat sine aliqua deceptione, et falsa 
+          appre<lb break="no" ed="#P" n="59"/>hensione, ut explicatum est, et in capite 
+          se<lb break="no" ed="#P" n="60"/>quenti magis declarabitur. At in Angelo non
+          <lb ed="#P" n="61"/>praecessit talis deceptio ante peccatum, ut 
+          su<lb break="no" ed="#P" n="62"/>pra diximus; ergo necessario esse debuit ille
+          <lb ed="#P" n="63"/>excessus posteriori modo. Atque ita 
+          concludi<lb break="no" ed="#P" n="64"/>tur in ordinationem amoris Angeli ad 
+          seip<lb break="no" ed="#P" n="65"/>sum incepisse a proprio amore concupiscentiae,
+          <lb ed="#P" n="66"/>respectu boni distincti ab ipso Angelo, et sibi
+          <lb ed="#P" n="67"/>amati, licet ille idem amor respectu suae 
+          per<lb break="no" ed="#P" n="68"/>sonae fuerit amicitiae ad seipsum. Et similiter
+          <lb ed="#P" n="69"/>concluditur, in toto illo amore unam tantum
+          <lb ed="#P" n="70"/>deordinationem, vel malitiam esse potuisse.
+          <lb ed="#P" n="71"/>Denique ex his etiam convincitur ultima 
+          asser<lb break="no" ed="#P" n="72"/>tionis pars, nimirum hanc malitiam fuisse 
+          ma<lb break="no" ed="#P" n="73"/>litiam superbiae, quia illa malitia completa fuit
+          <lb ed="#P" n="74"/>in appetitu inordinato alicujus excellentiae,
+          <lb ed="#P" n="75"/>haec autem est malitia superbiae. Haec autem
+          <lb ed="#P" n="76"/>pars in sequenti assertione melius declarabitur,
+          <lb ed="#P" n="77"/>et confirmabitur.
+        </p>
+        <p xml:id="szdada-x21358-d1e2041">
+          <lb ed="#P" n="78"/>24. Tertia assertio bipartita.—Prima pars
+          <lb ed="#P" n="79"/>probatur. — Dico ergo tertio. Primum peccatum
+          <lb ed="#P" n="80"/>Angeli simul fuit, et propriissima superbia, et
+          <lb ed="#P" n="81"/>inordinatus sui amor. Probatur prior pars,
+          <lb ed="#P" n="82"/>quae hic est principaliter intenta. Primo ex 
+          lo<lb break="no" ed="#P" n="83"/>cutionibus Scripturae et Patrum, quas supra
+          <lb ed="#P" n="84"/>retulimus, tum quia incredibile est, tam 
+          fre<lb break="no" ed="#P" n="85"/>quenter et multipliciter explicasse initium 
+          pec<lb break="no" ed="#P" n="86"/>cati angelici per superbiam, et semper locutos
+          <lb ed="#P" n="87"/>fuisse de superbia improprie, vel secundum
+          <lb ed="#P" n="88"/>communem aliquam rationem peccati, et non
+          <lb ed="#P" n="89"/>secundum propriam speciem superbiae. Tum
+          <lb ed="#P" n="90"/>etiam, quia saepe loquuntur de superbia, 
+          dis<lb break="no" ed="#P" n="91"/>tinguentes illam ab invidia, tanquam radicem
+          <lb ed="#P" n="92"/>ejus, illa autem non est, nisi proprissima, et
+          <lb ed="#P" n="93"/>specifica superbia. Unde argumentor secundo
+          <lb ed="#P" n="94"/>ratione: nam si illud primum peccatum 
+          inor<lb break="no" ed="#P" n="95"/>dinati amoris amicitiae ad seipsum est aliquo
+          <lb ed="#P" n="96"/>modo superbia, ut Scotus etiam admittit: 
+          in<lb break="no" ed="#P" n="97"/>terrogo, in quo sensu dicatur superbia 
+          commu<lb break="no" ed="#P" n="98"/>ni modo, et non proprio? Aut enim ille 
+          com<lb break="no" ed="#P" n="99"/>munis modus consistit in hoc, quod Angelus
+          <lb ed="#P" n="100"/>amavit se, plusquam Deum, et ita videtur
+          <lb ed="#P" n="101"/>per illum amorem contempsisse Deum, quod
+          <lb ed="#P" n="102"/>ad superbiam pertinet: vel consistit in hoc,
+          <lb ed="#P" n="103"/>quod non peccavit ambiendo, novam 
+          ex<lb break="no" ed="#P" n="104"/>cellentiam, sed praesumendo de illa, quam in
+          <lb ed="#P" n="105"/>se videbat, vel eam sibi arrogando, vel aliter
+          <lb ed="#P" n="106"/>intumescens. Primum nec ab Scoto, nec a 
+          sec<lb break="no" ed="#P" n="107"/>tatoribus ejus dicetur, neque dici potest, quia
+          <lb ed="#P" n="108"/>ille modus superbiae communis est omni 
+          pec<lb break="no" ed="#P" n="109"/>cato mortali, quia omnis mortaliter peccans,
+          <lb ed="#P" n="110"/>virtualiter, seu interpretative, diligit se plus-
+          <pb ed="#P" n="855"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quam Deum, et Deum contemnit et illi subdi
+          <lb ed="#P" n="2"/>non vult. Unde per illam superbiam non 
+          ex<lb break="no" ed="#P" n="3"/>plicatur primum peccatum Angeli in specie;
+          <lb ed="#P" n="4"/>imo nec in aliquo genere proximo, sed sub
+          <lb ed="#P" n="5"/>generalissima ratione peccati. Hoc autem est
+          <lb ed="#P" n="6"/>valde alienum amente sanctorum, ut ex 
+          supra<lb break="no" ed="#P" n="7"/>dictis est evidens. Est etiam impertinens ad
+          <lb ed="#P" n="8"/>quaestionem, quam tractamus, quia non 
+          inqui<lb break="no" ed="#P" n="9"/>rimus, an primum peccatum Luciferi fuerit
+          <lb ed="#P" n="10"/>mortale, hoc enim jam definitum est, sed 
+          in<lb break="no" ed="#P" n="11"/>quirimus, quare fuerit; eo vel maxime, quod
+          <lb ed="#P" n="12"/>Angelus non amavit se plusquam Deum 
+          ex<lb break="no" ed="#P" n="13"/>presse, et quasi formalem comparationem 
+          fa<lb break="no" ed="#P" n="14"/>ciendo: si autem virtualiter, vel interpretative
+          <lb ed="#P" n="15"/>ita se amavit, oportet explicare, qualis fuerit
+          <lb ed="#P" n="16"/>expressus, et formalis amor sui, in quo 
+          virtua<lb break="no" ed="#P" n="17"/>liter includitur contemptus Dei, et excessus
+          <lb ed="#P" n="18"/>supra amorem ejus, quod per vocem 
+          super<lb break="no" ed="#P" n="19"/>biae in illa generalitate sumptam non 
+          explica<lb break="no" ed="#P" n="20"/>tur.
+        </p>
+        <p xml:id="szdada-x21358-d1e2163">
+          <lb ed="#P" n="21"/>25. Alteram ergo partem eligunt 
+          commu<lb break="no" ed="#P" n="22"/>niter Scotistae, et ipse Scotus satis illam 
+          insi<lb break="no" ed="#P" n="23"/>nuat, distinguendo praesumptionem a propria
+          <lb ed="#P" n="24"/>superbia. Sed contra hoc obstant duo. Primo,
+          <lb ed="#P" n="25"/>quia ostensum est, quod si Angelus in primo
+          <lb ed="#P" n="26"/>inordinato amore sui aliquem excessum 
+          ha<lb break="no" ed="#P" n="27"/>buit per praesumptionem, vel arrogantiam,
+          <lb ed="#P" n="28"/>ille non fuit in solo amore de veris bonis jam
+          <lb ed="#P" n="29"/>habitis, ut talia sunt; sed fuisse in extensione
+          <lb ed="#P" n="30"/>ad appetendum novam excellentiam, quam
+          <lb ed="#P" n="31"/>non habebat, nec illi commensurata erat. Quia
+          <lb ed="#P" n="32"/>oportuit, ut illamet bona, ut majora, vel 
+          ex<lb break="no" ed="#P" n="33"/>cellentia, vel sub aliqua ratione eminentiae,
+          <lb ed="#P" n="34"/>quam revera non habent, cogitaverit, et 
+          ama<lb break="no" ed="#P" n="35"/>verit. Hoc autem posito talis affectus revera
+          <lb ed="#P" n="36"/>esset, non tantum impropria superbia, vel
+          <lb ed="#P" n="37"/>fundamentum, vel occasio ejus, sed vera, et
+          <lb ed="#P" n="38"/>propria superiora, ut aperte sentit Augustinus,
+          <lb ed="#P" n="39"/>in dictis locis de Civitat., praesertim, lib. 14,
+          <lb ed="#P" n="40"/>cap. 13, et recte docet Bonaventura, in dist. 5,
+          <lb ed="#P" n="41"/>art. 1, quaest. 1, et inclinat Gabriel et 
+          commu<lb break="no" ed="#P" n="42"/>niter docent Thomistae. Et probatur primo,
+          <lb ed="#P" n="43"/>quia talis affectus arrogantiae, vel 
+          praesumptio<lb break="no" ed="#P" n="44"/>nis, inter species, seu modos propriae superbiae
+          <lb ed="#P" n="45"/>a Gregorio supra, D. Thoma et aliis Patribus
+          <lb ed="#P" n="46"/>numeratur. Secundo, quia ille amor revera
+          <lb ed="#P" n="47"/>est appetitus inordinatus excellentiae, quia est
+          <lb ed="#P" n="48"/>affectus ad quemdam excellentiae modum 
+          mi<lb break="no" ed="#P" n="49"/>nime convenientem appetenti secundum 
+          rec<lb break="no" ed="#P" n="50"/>tam rationem. In hoc autem consistit propria
+          <lb ed="#P" n="51"/>ratio superbise, ut recte D. Thomas supra 
+          do<lb break="no" ed="#P" n="52"/>cet. Nam quod ille affectus ad exceilentiam sit
+          <lb ed="#P" n="53"/>per modum comp'acentiae, vel per modum 
+          de<lb break="no" ed="#P" n="54"/>siderii, variare quidem potest actus superbiae,
+          <lb ed="#P" n="55"/>non tamen proprietatem superbiae mutare. Et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>similiter, quamvis ex eo, quod immoderatio
+          <lb ed="#P" n="57"/>illius affectus sit per excellentiam 
+          compara<lb break="no" ed="#P" n="58"/>tam ad alios, vel per comparationem ad ipsum
+          <lb ed="#P" n="59"/>appetentem, quia videlicet excedit 
+          capacita<lb break="no" ed="#P" n="60"/>tem, vel conditionem ejus, possit variare 
+          ac<lb break="no" ed="#P" n="61"/>tus intra latitudinem superbiae, tamen in 
+          om<lb break="no" ed="#P" n="62"/>nibus propria malitia superbiae invenitur, quia
+          <lb ed="#P" n="63"/>in omnibus inest illa ratio inordinati appetitus
+          <lb ed="#P" n="64"/>excellentiae. Tertio probatur a contrario, quia
+          <lb ed="#P" n="65"/>ille affectus arrogantiae est formaliter 
+          opposi<lb break="no" ed="#P" n="66"/>tus humiltati, eamque proxime destruit; 
+          er<lb break="no" ed="#P" n="67"/>go est vera, et propria superbia.
+        </p>
+        <p xml:id="szdada-x21358-d1e2270">
+          <lb ed="#P" n="68"/>26. Quid Scotus respondeat ad hanc ultimam
+          <lb ed="#P" n="69"/>probationem. — Denique quia illa malitia est
+          <lb ed="#P" n="70"/>in aliqua propria specie vitii, ut est per se 
+          no<lb break="no" ed="#P" n="71"/>tum, et non alia nisi superbiae, nam quae alia
+          <lb ed="#P" n="72"/>fingi potest? Respondit Scotus reduci ad 
+          luxu<lb break="no" ed="#P" n="73"/>riam, propter delectationem, quam illa 
+          com<lb break="no" ed="#P" n="74"/>placentia sui importabat: sicut peccatum, 
+          in<lb break="no" ed="#P" n="75"/>quit, quo inordinate delectatur quis in 
+          specu<lb break="no" ed="#P" n="76"/>latione conclusionis geometricae ad luxuriam
+          <lb ed="#P" n="77"/>reducitur. In qua responsione, et exemplo,
+          <lb ed="#P" n="78"/>clarum est, non loqui Scotum de carnah 
+          luxu<lb break="no" ed="#P" n="79"/>ria, sed de quadam voluptate spirituali ad
+          <lb ed="#P" n="80"/>imitationem ejus. Imo cum dicit reduci ad
+          <lb ed="#P" n="81"/>Iuxuriam, non credo loqui proprie de luxuria,
+          <lb ed="#P" n="82"/>ut distinguitur agula, vel similibus 
+          intempe<lb break="no" ed="#P" n="83"/>rantiae vitiis: in quibus inordinatus 
+          delecta<lb break="no" ed="#P" n="84"/>tionis affectus invenitur; et quia non est 
+          ra<lb break="no" ed="#P" n="85"/>tio, ob quam magis ad unum, quam ad alium
+          <lb ed="#P" n="86"/>fiat reductio, cum eadem sit omnium imitatio.
+          <lb ed="#P" n="87"/>Uti ergo videtur Scotus, nomine luxuriae late,
+          <lb ed="#P" n="88"/>pro qualibet intemperantia per delectationis
+          <lb ed="#P" n="89"/>affectum. Removeatur igitur disputatio de 
+          vo<lb break="no" ed="#P" n="90"/>cibus, et res ipsa spectetur, et facile, ut 
+          exis<lb break="no" ed="#P" n="91"/>timo, convincetur falsitatis illa responsio. Nam,
+          <lb ed="#P" n="92"/>ut locum habeat talis inordinatio, quae per
+          <lb ed="#P" n="93"/>quamdam proportionem ad luxuriam 
+          redu<lb break="no" ed="#P" n="94"/>catur, non satis est, quod ex complacentia sui
+          <lb ed="#P" n="95"/>delectatio redundet, sed oportet ut illa 
+          de<lb break="no" ed="#P" n="96"/>lectatio sit per se, ac principaliter intenta,
+          <lb ed="#P" n="97"/>ut in corporali luxuria contingit; Angelus,
+          <lb ed="#P" n="98"/>vero, vel homo arrogans, qui nimium sibi
+          <lb ed="#P" n="99"/>complacet, non intendit per se delectationem,
+          <lb ed="#P" n="100"/>sed excellentiam et perfectionem propriam
+          <lb ed="#P" n="101"/>ex qua resultat delectatio; ergo malitia illa
+          <lb ed="#P" n="102"/>per se primo ad effectum inordinatum 
+          excel<lb break="no" ed="#P" n="103"/>lentiae, qui est proprie superbia, pertinet, non
+          <lb ed="#P" n="104"/>ad affectum delectationis.
+        </p>
+        <p xml:id="szdada-x21358-d1e2354">
+          <lb ed="#P" n="105"/>27. Secundum quia obstat contradictum 
+          mo<lb break="no" ed="#P" n="106"/>dwn superbiae in num. 25. — Secundo, si illa
+          <lb ed="#P" n="107"/>complacentia, ut est amor propriae 
+          perfectio<lb break="no" ed="#P" n="108"/>nis ex parte objecti non habere: excessum, sed
+          <lb ed="#P" n="109"/>esset amor propriae bonitatis in eo gradu 
+          per<lb break="no" ed="#P" n="110"/>fectionis et excellentiae, quem vere habet, h-
+          <pb ed="#P" n="856"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cet secum afferret delectationem, non esset
+          <lb ed="#P" n="2"/>malus, nec inordinatus; talem enim 
+          compla<lb break="no" ed="#P" n="3"/>centiam sui cum magna delectatione, etiam
+          <lb ed="#P" n="4"/>sancti Angeli habent. Quia cum talis amor ex
+          <lb ed="#P" n="5"/>objecto sit bonus, ut probavimus, etiam 
+          de<lb break="no" ed="#P" n="6"/>lectatio consequens illum bona et honesta est.
+          <lb ed="#P" n="7"/>Imo tunc licet objectum appeteretur propter 
+          de<lb break="no" ed="#P" n="8"/>lectationem, nullum esset peccatum, vel certe
+          <lb ed="#P" n="9"/>esset minimum, ac veniale, quia non esset 
+          ar<lb break="no" ed="#P" n="10"/>rogantia, vel praesumptio, sed esset defectus
+          <lb ed="#P" n="11"/>quidam parvus in recto ordine amandi se, et
+          <lb ed="#P" n="12"/>suam delectationem, alias de se honestam.
+          <lb ed="#P" n="13"/>Ergo si amor ille habet gravem 
+          deordinatio<lb break="no" ed="#P" n="14"/>nem, non est primario propter delectationem
+          <lb ed="#P" n="15"/>de se honestam, sed propter aliam rationem
+          <lb ed="#P" n="16"/>priorem ipsa delectatione, quae facit illam esse
+          <lb ed="#P" n="17"/>nimis inordinatam, ut est affectus excellentiae,
+          <lb ed="#P" n="18"/>ultra mensuram rectae rationis.
+        </p>
+        <p xml:id="szdada-x21358-d1e2413">
+          <lb ed="#P" n="19"/>28. Declaratur exemplo Scoti. — Et 
+          decla<lb break="no" ed="#P" n="20"/>ratur exemplo, quod adducit Scotus, de illo,
+          <lb ed="#P" n="21"/>qui immoderate delectatur, in speculatione
+          <lb ed="#P" n="22"/>geometrica, quia si illa inordinatio solum 
+          con<lb break="no" ed="#P" n="23"/>sistit in hoc, quod ille principaliter speculatur
+          <lb ed="#P" n="24"/>propter delectationem: illa profecto vel nulla
+          <lb ed="#P" n="25"/>inordinatio est, quia delectatio per se honesta
+          <lb ed="#P" n="26"/>est, et rationali naturae consentanea; vel si
+          <lb ed="#P" n="27"/>aliqua est, ad summum erit venialis, quia in
+          <lb ed="#P" n="28"/>illa intentione invertitur quodammodo ordo
+          <lb ed="#P" n="29"/>naturae, quae non opus propter delectationem,
+          <lb ed="#P" n="30"/>sed delectationem propter opus instituit: ibi
+          <lb ed="#P" n="31"/>autem e contrario speculatio propter 
+          delecta<lb break="no" ed="#P" n="32"/>tionem intenderetur, qui ad summum esset
+          <lb ed="#P" n="33"/>levis defectus, et ad curiositatem reduceretur.
+          <lb ed="#P" n="34"/>Unde ut illa speculatio delectabilis gravem
+          <lb ed="#P" n="35"/>deordinationem habeat, necessarium esset 
+          a<lb break="no" ed="#P" n="36"/>liunde, quam ex delectatione illam habere, ut
+          <lb ed="#P" n="37"/>si esset contra praeceptum, vel si pravo sine
+          <lb ed="#P" n="38"/>fieret, vel quid simile. Ita ergo servata 
+          pro<lb break="no" ed="#P" n="39"/>portione in praesenti contingit, nam 
+          deordina<lb break="no" ed="#P" n="40"/>tio illius complacentiae in propriis bonis, quae
+          <lb ed="#P" n="41"/>grave peccatum esse supponitur, non potest
+          <lb ed="#P" n="42"/>ex sola delectatione, quomodocumque 
+          inten<lb break="no" ed="#P" n="43"/>datur, sumi: ergo est alterius rationis, quae
+          <lb ed="#P" n="44"/>non potest esse nisi propriae superbiae.
+        </p>
+        <p xml:id="szdada-x21358-d1e2472">
+          <lb ed="#P" n="45"/>29. Denique probatur 3 prima pars 
+          asser<lb break="no" ed="#P" n="46"/>tionis. — Tertio principaliter objicimus contra
+          <lb ed="#P" n="47"/>Scotum, quia licet modus deordinationis in
+          <lb ed="#P" n="48"/>complacentia sui absolute sit possibilis, et in
+          <lb ed="#P" n="49"/>nobis frequenter inveniatur, nihilominus non
+          <lb ed="#P" n="50"/>est verisimile, hanc fuisse primam 
+          deordina<lb break="no" ed="#P" n="51"/>tionem amoris Luciferi erga seipsum: quia
+          <lb ed="#P" n="52"/>sine praevia falsa apprehensione, aut magna
+          <lb ed="#P" n="53"/>mentis caecitate non poterat Angelus illo modo
+          <lb ed="#P" n="54"/>in suis bonis naturalibus complacere, ut supra
+          <lb ed="#P" n="55"/>declaravi, et iterum in capite sequenti dicam.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Ergo excessus in illo amore proprio fuit per
+          <lb ed="#P" n="57"/>additionem ( ut sic dicam) novi appetitus 
+          alte<lb break="no" ed="#P" n="58"/>rius excellentiae, propriae naturae terminos 
+          ex<lb break="no" ed="#P" n="59"/>cedentis, quae est propriissima superbia. Ad
+          <lb ed="#P" n="60"/>hoc vero etiam dici potest ex Scoto, habuisse
+          <lb ed="#P" n="61"/>quidem Angelum excessum in amore 
+          concu<lb break="no" ed="#P" n="62"/>piscentiae addito amori amicitiae sui: sed illum
+          <lb ed="#P" n="63"/>etiam non fuisse superbiam, sed reduci magis
+          <lb ed="#P" n="64"/>ad luxuriam, quia fuit appetitus inordinatus
+          <lb ed="#P" n="65"/>propriae beatitudinis, quae maximum bonum
+          <lb ed="#P" n="66"/>delectabile est. Sed hoc etiam multis 
+          rationi<lb break="no" ed="#P" n="67"/>bus displicet. Primo quidem, quia in 
+          sequenti<lb break="no" ed="#P" n="68"/>bus ostendemus, primam concupiscentiam, seu
+          <lb ed="#P" n="69"/>appetitum inordinatum Luciferi non habuisse
+          <lb ed="#P" n="70"/>pro objecto proximo propriam beatitudinem,
+          <lb ed="#P" n="71"/>praesertim naturalem, quia appetitus talis 
+          bea<lb break="no" ed="#P" n="72"/>titudinis est de se maxime honestus, et 
+          con<lb break="no" ed="#P" n="73"/>sentaneus naturae, nec potest esse nimius aut
+          <lb ed="#P" n="74"/>inordinatus, nisi ex magna mentis deceptione,
+          <lb ed="#P" n="75"/>aut falsa apprehensione, aut non per 
+          commis<lb break="no" ed="#P" n="76"/>sionem, sed per omissionem, ut in sequenti 
+          ca<lb break="no" ed="#P" n="77"/>pite declarabimus. Secundo, quia ratio supra
+          <lb ed="#P" n="78"/>facta de complacentiasui, potest cum 
+          proportio<lb break="no" ed="#P" n="79"/>ne ad hunc beatitudinis affectum applicari. Nam
+          <lb ed="#P" n="80"/>licet beatitudo sit bonum maxime delectabile,
+          <lb ed="#P" n="81"/>non est necesse, ut propter delectationem 
+          prae<lb break="no" ed="#P" n="82"/>cipue ametur. Nec est verisimile ita esse 
+          ama<lb break="no" ed="#P" n="83"/>tum a Lucifero in prima delectatione sua, sed
+          <lb ed="#P" n="84"/>propter se, et propter perfectionem, et 
+          excel<lb break="no" ed="#P" n="85"/>lentiam suae naturae; ergo si quae deordinatio
+          <lb ed="#P" n="86"/>fuit in illo appetitu, magis sub ratione 
+          excel<lb break="no" ed="#P" n="87"/>lentiae, quam delectationis fuit; ac proinde ad
+          <lb ed="#P" n="88"/>propriam superbiam pertinuit, non ad 
+          luxu<lb break="no" ed="#P" n="89"/>riam, eo vel maxime quod illa delectatio 
+          ho<lb break="no" ed="#P" n="90"/>nestissima est, et illam appetere, vel 
+          beatitu<lb break="no" ed="#P" n="91"/>dinem propter illam, per se nullam 
+          deordina<lb break="no" ed="#P" n="92"/>tionem involvit, et licet aliqua cogitetur, erit
+          <lb ed="#P" n="93"/>levissima: sicut de primo amore ratiocinatum
+          <lb ed="#P" n="94"/>est. Ergo sive amor ille in Lucifero 
+          considere<lb break="no" ed="#P" n="95"/>tur, ut complacentia sui, sive ut 
+          concupiscen<lb break="no" ed="#P" n="96"/>tia beatitudinis, vel nullam habuit gravem
+          <lb ed="#P" n="97"/>malitiam, vel non fuit, nisi vera, et propria
+          <lb ed="#P" n="98"/>superbia.
+        </p>
+        <p xml:id="szdada-x21358-d1e2594">
+          <lb ed="#P" n="99"/>30. Probatur jam secunda parstertie 
+          assertio<lb break="no" ed="#P" n="100"/>nis.—Ex quo tandem concluditur altera pars 
+          as<lb break="no" ed="#P" n="101"/>sertionis, et conjunctio, et copulatio utriusque
+          <lb ed="#P" n="102"/>partis facile declaratur, et probatur; quia non
+          <lb ed="#P" n="103"/>repugnat, eumdem primum actum peccati, 
+          si<lb break="no" ed="#P" n="104"/>mul esse actum propriissimae superbiae, sive
+          <lb ed="#P" n="105"/>per modum arrogantiae, sive per modum 
+          am<lb break="no" ed="#P" n="106"/>bitionis, et esse proprium actum amoris, tum
+          <lb ed="#P" n="107"/>amicitiae suae persona,, tum concupiscentiae
+          <lb ed="#P" n="108"/>boni amati tali personae. Probatur quia 
+          om<lb break="no" ed="#P" n="109"/>nis propria superbia est appetitus proprie
+          <lb ed="#P" n="110"/>excellentiae; ergo per illam amat superbus ex-
+          <pb ed="#P" n="857"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cellentiam sibi; ergo illomet actu amat se
+          <lb ed="#P" n="2"/>amore amicitiae: quia amare aliquem nihil
+          <lb ed="#P" n="3"/>aliud est, quam velle illi bonum, et qui sibi
+          <lb ed="#P" n="4"/>amat excellentiam, vult sibi bonum, quod in
+          <lb ed="#P" n="5"/>ipsa excellentia apprehendit, et consequenter
+          <lb ed="#P" n="6"/>simul amat ipsam excellentiam amore 
+          concu<lb break="no" ed="#P" n="7"/>piscentiae; ergo ista duo ron repugnant, sed
+          <lb ed="#P" n="8"/>necessario conjunguntur, esse actum 
+          super<lb break="no" ed="#P" n="9"/>bise propriae, et esse inordinatum amorem sul,
+          <lb ed="#P" n="10"/>quamvis in nobis non convertantur. Nam 
+          po<lb break="no" ed="#P" n="11"/>test esse nimius amor sui, non per superbiam,
+          <lb ed="#P" n="12"/>sed per gulam, vel avaritiam, vel alia similia
+          <lb ed="#P" n="13"/>vitia.
+        </p>
+        <p xml:id="szdada-x21358-d1e2655">
+          <lb ed="#P" n="14"/>31. Respondetur ad secundum argumentum
+          <lb ed="#P" n="15"/>Scoti in num. 1.—Unde non recte 
+          argumen<lb break="no" ed="#P" n="16"/>tatur Scotus in hunc modum: Nimius amor
+          <lb ed="#P" n="17"/>alterius non est superbia; ergo nec nimius
+          <lb ed="#P" n="18"/>amor sui erit superbia; quia tam antecedens,
+          <lb ed="#P" n="19"/>quam consequens possunt indefinite sumi, 
+          sci<lb break="no" ed="#P" n="20"/>licet, non omnem amorem sui, vel alterius esse
+          <lb ed="#P" n="21"/>superbiam, et sic utrumque conceditur, quia
+          <lb ed="#P" n="22"/>non dicimus, omnem nimium amorem sui
+          <lb ed="#P" n="23"/>esse superbiam, sed illum, qui est per 
+          appeti<lb break="no" ed="#P" n="24"/>tum inordinatae excellentiae. Vel possunt 
+          an<lb break="no" ed="#P" n="25"/>tecedens, et consequens sumi universaliter ;
+          <lb ed="#P" n="26"/>sic dato antecedenti, negatur consequentia,
+          <lb ed="#P" n="27"/>quia superbia in proprio conceptu includit
+          <lb ed="#P" n="28"/>reflexionem supra ipsum, nam est appetitus
+          <lb ed="#P" n="29"/>propriae excellentiae; et ideo eo ipso quod 
+          al<lb break="no" ed="#P" n="30"/>quis excellentiam amat alteri, et non sibi,
+          <lb ed="#P" n="31"/>non extollitur ipse, nec supra se elevatur, qui
+          <lb ed="#P" n="32"/>est proprius quasi affectus formalis superbiae.
+          <lb ed="#P" n="33"/>Secundo vero addi potest, quod si aliquis amet
+          <lb ed="#P" n="34"/>alteri nimiam, et inordinatam excellentiam,
+          <lb ed="#P" n="35"/>participabit malitiam superbiae secundum 
+          rea<lb break="no" ed="#P" n="36"/>tum, licet non sit superbus secundum 
+          affec<lb break="no" ed="#P" n="37"/>tum, ut alias distinguit D. Thomas, d. q. 63,
+          <lb ed="#P" n="38"/>art. 2, quam distinctionem supra 
+          declaravi<lb break="no" ed="#P" n="39"/>mus. Nunc autem est sensus, ratione objecti
+          <lb ed="#P" n="40"/>illum contrahere malitiam superbiae; sicut qui
+          <lb ed="#P" n="41"/>est causa, ut alter superbiat, non tamen habet
+          <lb ed="#P" n="42"/>affectum, quo ipse formaliter superbus fiat,
+          <lb ed="#P" n="43"/>quem affectum habet, quando se inordinate
+          <lb ed="#P" n="44"/>amat,sibi appetendo inordinatam excellentiam.
+          <lb ed="#P" n="45"/>Et per haec satisfactum est omnibus quae ex
+          <lb ed="#P" n="46"/>Scoto retulimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

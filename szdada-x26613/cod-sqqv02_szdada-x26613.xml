@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1054"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x26613"><!-- l8c16 -->
+        <head xml:id="szdada-x26613-Hd1e101">Caput 16</head>
+        <head xml:id="szdada-x26613-Hd1e103" type="question-title">Utrum daemones in certo aliquo loco, qui infernus vel gehenna dicitur, ad eorum supplicium destinato, detineantur: vel quis sit eorum poenalis locus</head>
+        <p xml:id="szdada-x26613-d1e106">
+          <lb ed="#P" n="46"/>CAPUT XVI.
+          <lb ed="#P" n="47"/>UTRUM DAEMONES IN CERTO ALIQUO LOCO, QUI 
+          INFER<lb break="no" ed="#P" n="48"/>NUS VEL GEHENNA DICITUR, AD EORUM 
+          SUPPLI<lb break="no" ed="#P" n="49"/>CIUM DESTINATO, DETINEANTUR: VEL QUIS SIT
+          <lb ed="#P" n="50"/>EORUM POENALIS LOCUS.
+        </p>
+        <p xml:id="szdada-x26613-d1e119">
+          <lb ed="#P" n="51"/>1. Error antiquorum negantium certum 
+          lo<lb break="no" ed="#P" n="52"/>cum poenarum. — Haec sola quaestio circa sup-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>plicia daemonum explicanda superest. In qua
+          <lb ed="#P" n="54"/>omnes antiqui philosophi, quos cap. 11, retuli,
+          <lb ed="#P" n="55"/>qui negarunt ignem inferni corporeum; 
+          conse<lb break="no" ed="#P" n="56"/>quenter etiam negarunt dari aliquem locum
+          <lb ed="#P" n="57"/>certum ad punitionem malorum spirituum 
+          de<lb break="no" ed="#P" n="58"/>putatum, quod etiam sensit Philo ibidem 
+          alle<lb break="no" ed="#P" n="59"/>gatus, in lib. de Congressu quaerendae, erud.
+          <lb ed="#P" n="60"/>grat. Qui error solet etiam tribui Origeni, 
+          inho<lb break="no" ed="#P" n="61"/>mil. 9, in diver. Matth. locos, illam tamen non
+          <lb ed="#P" n="62"/>esse Origenis multi putant. Tamen in lib. 2,
+          <lb ed="#P" n="63"/>Periar., idem sentit, et illi tribuit Hieronymo,
+          <lb ed="#P" n="64"/>in Epistol. ad Avitum. Marcionistae dicuntur
+          <lb ed="#P" n="65"/>in hoc errore fuisse, item Albigenses, et 
+          Alma<lb break="no" ed="#P" n="66"/>ricus, qui dixerunt infernum nihil esse 
+          prae<lb break="no" ed="#P" n="67"/>ter conscientiam peccati. Ut refert Castro,
+          <lb ed="#P" n="68"/>verb. Infernus, Haeres. 1. Hunc errorem 
+          exci<lb break="no" ed="#P" n="69"/>tarunt Calvinus, Beza, Buccerus et alii haeretici
+          <lb ed="#P" n="70"/>nostri temporis, quos late refert, et confutat
+          <lb ed="#P" n="71"/>Bellarminus, lib. 4, deChristo, cap. S, et seqq.,
+          <lb ed="#P" n="72"/>et lib. 2. de Purgat. cap. 6, et Augustinus 
+          in<lb break="no" ed="#P" n="73"/>terdum dubitare visus est, an locus inferni 
+          cor<lb break="no" ed="#P" n="74"/>poreus sit, praesertim lib. 12, Gen. ad hit.,
+          <lb ed="#P" n="75"/>cap. 32, 33 et 34. Ubi licet veprobet errorem
+          <lb ed="#P" n="76"/>quorumdam, qui dixerunt inferos in hac vita
+          <lb ed="#P" n="77"/>explicari, nec esse post mortem, nihilominus
+          <lb ed="#P" n="78"/>dubius est, an loca poenarum ad quae animae
+          <lb ed="#P" n="79"/>et spiritus post hanc vitam feruntur, 
+          corpora<lb break="no" ed="#P" n="80"/>lia fere sint, vel tantum, ut corporalia 
+          reprae<lb break="no" ed="#P" n="81"/>sententur. Quodnam autem fuerit illius 
+          erro<lb break="no" ed="#P" n="82"/>ris fundamentum, vix invenimus: fortasse
+          <lb ed="#P" n="83"/>tamen philosophi loca poenarum negarunt,
+          <lb ed="#P" n="84"/>quia vel immortalitatem animarum, vel 
+          divi<lb break="no" ed="#P" n="85"/>nam providentiam et justitiam non 
+          agnosce<lb break="no" ed="#P" n="86"/>bant. Vel certe tam ipsi, quam haeretici 
+          cogi<lb break="no" ed="#P" n="87"/>tare potuerunt, res spirituales, nec ad 
+          prae<lb break="no" ed="#P" n="88"/>mium, nec ad poenam corporali loco indigere.
+        </p>
+        <p xml:id="szdada-x26613-d1e206">
+          <lb ed="#P" n="89"/>2. Assertio catholica et affirmatur. — Fides
+          <lb ed="#P" n="90"/>autem Catholica imprimis docet unum esse
+          <lb ed="#P" n="91"/>locum corporeum a Deo ad punitionem 
+          dam<lb break="no" ed="#P" n="92"/>natorum, sive damonum, sive hominum 
+          de<lb break="no" ed="#P" n="93"/>putatum. Probatur primo primo ex locis 
+          Scrip<lb break="no" ed="#P" n="94"/>turae, in quibus sub nomine inferni hic locus
+          <lb ed="#P" n="95"/>designatur: quae innumera sunt; et ideo pauca
+          <lb ed="#P" n="96"/>selectiora notabimus. Hujusmodi est illud 
+          Sa<lb break="no" ed="#P" n="97"/>pient. 5: Talia diverunt in inferno hi, qui 
+          pec<lb break="no" ed="#P" n="98"/>cacerunt, et id Psalm. 93: Nisi quia Dominus
+          <lb ed="#P" n="99"/>adjuvit ve, paulo minus habitasset in inferno
+          <lb ed="#P" n="100"/>anima mea. Nam anima non habitat in 
+          sepul<lb break="no" ed="#P" n="101"/>chro, sed in loco inferiori. Item illud Job. 7:
+          <lb ed="#P" n="102"/>S'icut consum tur nubes, et pertransit, sic qua
+          <lb ed="#P" n="103"/>descenderit ad inferos, non ascendet. Notat
+          <lb ed="#P" n="104"/>vero ibi Pineda, non solum haereticos, sed
+          <lb ed="#P" n="105"/>etiam aliquos catholicos interpretari hoc, et
+          <lb ed="#P" n="106"/>similia testimonia, ut inferorum nomine 
+          se<lb break="no" ed="#P" n="107"/>pulchrum intelligatur: ita ut descendere ad
+          <pb ed="#P" n="1055"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>inferos, nihil aliud sit quam mori et sepeliri;
+          <lb ed="#P" n="2"/>et ascendere ab inferis sit idem, quod 
+          resur<lb break="no" ed="#P" n="3"/>gere. Quam interpretationem confutat et 
+          la<lb break="no" ed="#P" n="4"/>tius Bellarminus in locis allegatis; et aliqua
+          <lb ed="#P" n="5"/>nos attigimus, in 2 tom 3 part., disput. 43,
+          <lb ed="#P" n="6"/>sect. 2. Onamvis enim fortasse in uno, vel alio
+          <lb ed="#P" n="7"/>loco illa interpretatio tolerari possit, 
+          nihilomi<lb break="no" ed="#P" n="8"/>nus dicere, nullibi significareloca substerranea,
+          <lb ed="#P" n="9"/>et receptacula animarum haeresis est 
+          mani<lb break="no" ed="#P" n="10"/>festa: ut ibi probatum est de testimoniis,
+          <lb ed="#P" n="11"/>quibus descensus animae Christi ad inferos,
+          <lb ed="#P" n="12"/>quae ibi ponderavimus, ex circumstantiis 
+          loco<lb break="no" ed="#P" n="13"/>rum, contextu sermonis, et verborum 
+          pro<lb break="no" ed="#P" n="14"/>prietate ac testimoniis Patrum probatur. Et
+          <lb ed="#P" n="15"/>de loco Purgatorio in 4 tom., 3 part., disp. 45,
+          <lb ed="#P" n="16"/>sect. 2, et specialiter allegata verba Job, 
+          op<lb break="no" ed="#P" n="17"/>time confirmant ex aliis ejusdem verbis in
+          <lb ed="#P" n="18"/>cap. 10: Dimitte me, ut plangam paululum
+          <lb ed="#P" n="19"/>dolorem meum, antequam vadam ad terram 
+          te<lb break="no" ed="#P" n="20"/>nebrosam, et opertam mortis caligine, terram
+          <lb ed="#P" n="21"/>miserie et tenebrarum, ubi umbra mortis, et
+          <lb ed="#P" n="22"/>nullus ordo, sed sempiternus horror inhabitat.
+          <lb ed="#P" n="23"/>His enim verbis evidentissime describit locum
+          <lb ed="#P" n="24"/>inferni, et declarat esse locum terrestrem 
+          poe<lb break="no" ed="#P" n="25"/>ris deputatum.
+        </p>
+        <p xml:id="szdada-x26613-d1e309">
+          <lb ed="#P" n="26"/>3. Loca inferorum varia intra ipsam terram.
+          <lb ed="#P" n="27"/>—Unde oportet advertere in inferno varia esse
+          <lb ed="#P" n="28"/>receptacula, ut loco citato ex quarto tomo 
+          de<lb break="no" ed="#P" n="29"/>claravi; quae omnia indifferenter solent inferni
+          <lb ed="#P" n="30"/>nomine in Scriptura significari, et ex 
+          circum<lb break="no" ed="#P" n="31"/>stantiis colligendum est, de quo illorum 
+          loco<lb break="no" ed="#P" n="32"/>rum sermo sit. Nihilominus tamen illa omnia
+          <lb ed="#P" n="33"/>loca in hoc conveniunt, quod sunt poenalia, et
+          <lb ed="#P" n="34"/>quod ad ea non descenditur, nisi propter 
+          pec<lb break="no" ed="#P" n="35"/>catum, vel mortale non remissum quoad 
+          cul<lb break="no" ed="#P" n="36"/>pam, ut gehenna, vel propter peccatum 
+          remis<lb break="no" ed="#P" n="37"/>sum quoad culpam, vel non integre quoad
+          <lb ed="#P" n="38"/>poenam, ut purgatorium, vel propter solum
+          <lb ed="#P" n="39"/>originale non remissum, ut limbus puerorum,
+          <lb ed="#P" n="40"/>vel propter solum reatum totius naturae 
+          non<lb break="no" ed="#P" n="41"/>dum solutum, ut sinus Abrahae. Quamvis ergo
+          <lb ed="#P" n="42"/>nomen inferni, ubi significat locum animarum
+          <lb ed="#P" n="43"/>subterraneum, non semper significet proprium
+          <lb ed="#P" n="44"/>locum inferni damnatorum, de quo 
+          tracta<lb break="no" ed="#P" n="45"/>mus: nihilominus quemcumque illorum 
+          signi<lb break="no" ed="#P" n="46"/>ficet, ex illo sumitur efficax argumentum.
+          <lb ed="#P" n="47"/>Nam si alia loca poenalia mitiora (ut sic dicam)
+          <lb ed="#P" n="48"/>sunt vera loca corporalia terrestria ad tale
+          <lb ed="#P" n="49"/>munus destinata, a fortiori proprius infernus
+          <lb ed="#P" n="50"/>illas debet habere quabtates. Et sic assertio
+          <lb ed="#P" n="51"/>optime comprobari potest omnibus ilhs 
+          testi<lb break="no" ed="#P" n="52"/>moniis, quibus descensus animae Christi ad 
+          in<lb break="no" ed="#P" n="53"/>feros persuadetur: quamvis probabile sit, 
+          il<lb break="no" ed="#P" n="54"/>Ium ad locum damnatorum non descendisse.
+          <lb ed="#P" n="55"/>Et ita priora verba Job indefinite probant dari
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>loca inferni: posteriora vero aperte declarant
+          <lb ed="#P" n="57"/>inter illa damnatorum locum compatari. Unde
+          <lb ed="#P" n="58"/>dixit ibi Augustinus: Vult requiescere, 
+          ante<lb break="no" ed="#P" n="59"/>quam eat ad ponas eternas, estque communis
+          <lb ed="#P" n="60"/>expositio, Gregorius, lib. 9 Moral., et aliorum
+          <lb ed="#P" n="61"/>ibi. Verba autem Jacob, Genes. 37, Lugens
+          <lb ed="#P" n="62"/>descendam ad filium meum in inferno, de sinu
+          <lb ed="#P" n="63"/>Abrahae sunt manifesta, sicut et illa David 2,
+          <lb ed="#P" n="64"/>Heg. 12, ubi de filio mortuo dicebat: Ego 
+          va<lb break="no" ed="#P" n="65"/>dam mag:s ad eum, ille vero non revertetur ad
+          <lb ed="#P" n="66"/>me. De inferno autem damnatorum sunt satis
+          <lb ed="#P" n="67"/>clara verba Ecclesiast. 21: Via peccantium
+          <lb ed="#P" n="68"/>complavtata lapidibus, et in fine illorum ingeri,
+          <lb ed="#P" n="69"/>et tenebre, et pona.
+        </p>
+        <p xml:id="szdada-x26613-d1e409">
+          <lb ed="#P" n="70"/>4. Probatur ulterius assertio ex plurbus 
+          lo<lb break="no" ed="#P" n="71"/>cis novi Testamenti. — Multo vero apertius,
+          <lb ed="#P" n="72"/>et frequentius est hoc in novo Testamento 
+          ex<lb break="no" ed="#P" n="73"/>plicatum, Matth. 11: Zt tu Carpharnaum
+          <lb ed="#P" n="74"/>numquid usque in celum exaltaberis? Usque ad
+          <lb ed="#P" n="75"/>inferos descendes. Ubi evidens est, inferos non
+          <lb ed="#P" n="76"/>mortem, vel sepulchrum, sed locum poenae 
+          ul<lb break="no" ed="#P" n="77"/>timae significare. Unde subdit Christus 
+          infe<lb break="no" ed="#P" n="78"/>rius: lVerumtamen dico volis, quia terrae 
+          Sodo<lb break="no" ed="#P" n="79"/>morum remissius erit an die Judicii, quam 
+          vo<lb break="no" ed="#P" n="80"/>Lis. Et Lucae 16: Mortuus est dives, et sepultus
+          <lb ed="#P" n="81"/>est in inferno. Ubi non potest infernus 
+          signi<lb break="no" ed="#P" n="82"/>ficare sepulchrum: nam ibi sepelitur corpus,
+          <lb ed="#P" n="83"/>Christus vero de anima locutus est, cum dixit,
+          <lb ed="#P" n="84"/>divitem sepultum in inferno fuisse, et potuisse
+          <lb ed="#P" n="85"/>cognoscere Abrahamum, et sentire poenas, et
+          <lb ed="#P" n="86"/>desiderare refrigeria. Item ibi vox iuferni non
+          <lb ed="#P" n="87"/>generaliter, sed pro loco damnatorum sumitur:
+          <lb ed="#P" n="88"/>nam et a sinu Abrahae distinguitur, et inter
+          <lb ed="#P" n="89"/>utrumque locum magnum chaos interjectum
+          <lb ed="#P" n="90"/>esse dicitur, et per antonomasiam, locus 
+          tor<lb break="no" ed="#P" n="91"/>mentorum appellatur, et infra sinum Abrahae
+          <lb ed="#P" n="92"/>collocatus indicatur, cum de divite dicitur, 
+          ele<lb break="no" ed="#P" n="93"/>vasse oculos suos ad videndum Abrahamum.
+        </p>
+        <p xml:id="szdada-x26613-d1e464">
+          <lb ed="#P" n="94"/>5. Specialiter de loco ubi puniuntur damnati
+          <lb ed="#P" n="95"/>probatur ea Epistola secunda Petri.—Praeterea
+          <lb ed="#P" n="96"/>de loco, in quo daemones puniuntur dicit 
+          Pe<lb break="no" ed="#P" n="97"/>trus; Epist. 2, cap. 2: Angelis peccantibus non
+          <lb ed="#P" n="98"/>pepercit Deus, sed iuferni rudentibus detractos
+          <lb ed="#P" n="99"/>in tartarum tradidit cruciandos. Ubi nomen
+          <lb ed="#P" n="100"/>inferni nullo modo potest mortem, aut 
+          sepul<lb break="no" ed="#P" n="101"/>chrum significare, cum hoc Angelis non 
+          con<lb break="no" ed="#P" n="102"/>veniat: significat ergo aliquem locum 
+          cor<lb break="no" ed="#P" n="103"/>poreum coelesti inferiorem, in quem Angeli
+          <lb ed="#P" n="104"/>peccantes ejecti sunt. Atque ita exponunt
+          <lb ed="#P" n="105"/>communiter Patres et Doctores catholici. Non
+          <lb ed="#P" n="106"/>tamen omnes exponunt de proprio iuferno 
+          ge<lb break="no" ed="#P" n="107"/>hennali: nam D. Augustinus, lib. 11, de Civ.,
+          <lb ed="#P" n="108"/>cap. 33, ita legit, et exponit locum illum :
+          <lb ed="#P" n="109"/>Peccasse quosdum Angelos, et in hujus mundi
+          <lb ed="#P" n="110"/>ima detrusos, qui eis velut carcer est usque ad
+          <pb ed="#P" n="1056"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ultimam in Judicii damnationem, Apostolus
+          <lb ed="#P" n="2"/>Petrus apertissime ostendit, dicens, quod Deus
+          <lb ed="#P" n="3"/>Angelis peccantibus non pepercerit, sed 
+          carceri<lb break="no" ed="#P" n="4"/>bus caliginis inferni retrudens, tradiderit in
+          <lb ed="#P" n="5"/>judicivm puniendos resercari. Ubi clare sentit
+          <lb ed="#P" n="6"/>per infernum non intellexisse Petrum illum
+          <lb ed="#P" n="7"/>locum, in quem post diem Judicii daemones
+          <lb ed="#P" n="8"/>detrudendi sunt, sed illum, in quo nunc 
+          ver<lb break="no" ed="#P" n="9"/>santur in hoc sublunari mundo, et in eo 
+          tan<lb break="no" ed="#P" n="10"/>quam in caliginoso carcere detinentur. Idem
+          <lb ed="#P" n="11"/>fere habet, lib. 21, cap. 23, et tom. 6, lib. de
+          <lb ed="#P" n="12"/>Nat., Boni, cap. 33, expressius ait: Quavis
+          <lb ed="#P" n="13"/>jam hunc infernum, hoc est, caliginosum aerem
+          <lb ed="#P" n="14"/>tanquam carcerem acceperint; et sequitur 
+          Gre<lb break="no" ed="#P" n="15"/>gorius, lib. 13 Moral., cap. 13. Potestque 
+          ex<lb break="no" ed="#P" n="16"/>positio suaderi, ex illius ejusdem versiculi 
+          ul<lb break="no" ed="#P" n="17"/>umis verbis, in judicium resercari: nam inde
+          <lb ed="#P" n="18"/>colligitur, non in ultimum supplicii locum esse
+          <lb ed="#P" n="19"/>traditos, sed in alium, in quo interim 
+          servan<lb break="no" ed="#P" n="20"/>tur. De quo etiam loqui videtur Judas dicens:
+          <lb ed="#P" n="21"/>Angelos, qui non servaverunt suum 
+          principa<lb break="no" ed="#P" n="22"/>tun, in judiciun magni diei vinculis eternis
+          <lb ed="#P" n="23"/>sub caligine reservavit. Ergo hunc tantum 
+          ca<lb break="no" ed="#P" n="24"/>liginosum locum, seu aerem nomine inferni,
+          <lb ed="#P" n="25"/>Petrus intellexit. Verumtamen quamvis haec
+          <lb ed="#P" n="26"/>expositio admittatur, vim testimonii non 
+          ener<lb break="no" ed="#P" n="27"/>vat, tum quia ex illo saltem proxime 
+          convin<lb break="no" ed="#P" n="28"/>citur dari locum corporalem, in quo tanquam
+          <lb ed="#P" n="29"/>in carccre mali Angeli, quasi catenis 
+          detinen<lb break="no" ed="#P" n="30"/>tur: tum etiam, quia cum ibi reserventur 
+          ul<lb break="no" ed="#P" n="31"/>timo puniendi, per illationem optime inferre
+          <lb ed="#P" n="32"/>licet, esse alium inferiorem, et ieteriorem 
+          lo<lb break="no" ed="#P" n="33"/>cum, in quem ultimo conjiciendi sunt.
+        </p>
+        <p xml:id="szdada-x26613-d1e579">
+          <lb ed="#P" n="34"/>6. Addo vero, licet illa sententia de aere
+          <lb ed="#P" n="35"/>caliginoso verissima sit, ut statim dicam in
+          <lb ed="#P" n="36"/>num. 29, nihilominus probabile esse Petrum
+          <lb ed="#P" n="37"/>non de illo tantum loco, sed gehennali, et 
+          pro<lb break="no" ed="#P" n="38"/>prio inferno fuisse locutum. Tum quia nomen
+          <lb ed="#P" n="39"/>inferni simpliciter sumptum, pro loco poenali,
+          <lb ed="#P" n="40"/>in quo damnati vinculis aeternis detinentur,
+          <lb ed="#P" n="41"/>solet accipi in sacra Scriptura, et non est ita in
+          <lb ed="#P" n="42"/>usu, quod aerem, vel locum aliquem hujus 
+          re<lb break="no" ed="#P" n="43"/>gionis sublunaris significet; tum etiam, quia
+          <lb ed="#P" n="44"/>idem locus Tartarus a Petro vocatur, quae vox
+          <lb ed="#P" n="45"/>in sua proprietate profundissimum locum 
+          poe<lb break="no" ed="#P" n="46"/>nalem apud Latinos significat, et non nisi 
+          du<lb break="no" ed="#P" n="47"/>rissime aeri tribuitur; tum praeterea, quia
+          <lb ed="#P" n="48"/>additur, traditos esse in tartarum cruciandos,
+          <lb ed="#P" n="49"/>quod per se et in rigore, in proprium 
+          infer<lb break="no" ed="#P" n="50"/>num convenit: nam in hoc aere cruciantur,
+          <lb ed="#P" n="51"/>nisi quatenus ex ipso tartaro cruciatum 
+          tra<lb break="no" ed="#P" n="52"/>hunt, ut mox dicemus. Denique etiamsi in
+          <lb ed="#P" n="53"/>infernum detrusi daemones sint, nihilominus
+          <lb ed="#P" n="54"/>etiam ibi, in judicium magmni Dei reservantur.
+          <lb ed="#P" n="55"/>Unde etiam probabilius videtur, cum Judas
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ait. vinculis eternis sub caligine, etc., inferm
+          <lb ed="#P" n="57"/>locum intelligere. Quia nec hic aer, etiam 
+          in<lb break="no" ed="#P" n="58"/>fimae sphaerae, solet nomine caliginis 
+          signifi<lb break="no" ed="#P" n="59"/>cari, cum frequenter lucidussit ac purus: nec
+          <lb ed="#P" n="60"/>in illo daemones vinculis aeternis detinendi
+          <lb ed="#P" n="61"/>sunt. Denique Apocal. 1, ait Christus, Haeo
+          <lb ed="#P" n="62"/>claves mortis et inferni, ubi est evidens, 
+          infer<lb break="no" ed="#P" n="63"/>num non significare sepulchrum, seu mortem,
+          <lb ed="#P" n="64"/>cum ab illa distinguatur, idemque sumitur ex
+          <lb ed="#P" n="65"/>cap. 6 et 20, circa quae loca videndus est 
+          Au<lb break="no" ed="#P" n="66"/>gustinus, lib. 20, de Civit., cap. 15, et P. 
+          Ri<lb break="no" ed="#P" n="67"/>bera ibi.
+        </p>
+        <p xml:id="szdada-x26613-d1e657">
+          <lb ed="#P" n="68"/>7. Loci alii ejusdem novi Testamenti pro
+          <lb ed="#P" n="69"/>assertione sub nomine Gehennae. — Confirmari
+          <lb ed="#P" n="70"/>denique possunt haec testimonia aliis, quibus
+          <lb ed="#P" n="71"/>idem inferni locus nomine gehennae ignis 
+          si<lb break="no" ed="#P" n="72"/>gnificatur, ut Matth. 5, 10, 16 et 23, et Marc.9:
+          <lb ed="#P" n="73"/>DBonum est tibi debilem intrare in vitam, quam
+          <lb ed="#P" n="74"/>duns manus habentem irein gehennam, inigne n
+          <lb ed="#P" n="75"/>inextinguibilem, et Luc. 12: Eum timete, qui
+          <lb ed="#P" n="76"/>habet pctestatem miitere in gehennam. In 
+          qui<lb break="no" ed="#P" n="77"/>bus locis gehennae nomine locus aliquis certus
+          <lb ed="#P" n="78"/>et particularis significatur, ut satis indicant
+          <lb ed="#P" n="79"/>verba, mittendi, et eundi illuc, et adverbium
+          <lb ed="#P" n="80"/>ubi, et quod additur, esse gehennam ignis 
+          ines<lb break="no" ed="#P" n="81"/>tinguibilis, et cum vita gehennae vitae aeternae
+          <lb ed="#P" n="82"/>contraponitur, aperte ostenditur gcehennam
+          <lb ed="#P" n="83"/>esse peculiarem locum, in quo damnati 
+          per<lb break="no" ed="#P" n="84"/>petuo puniuntur. Et ita intelligunt 
+          commu<lb break="no" ed="#P" n="85"/>niter Patres, et de nomine gehenne videri
+          <lb ed="#P" n="86"/>potest D. Hieronymus, Matth. 10, et Jerem. 7,
+          <lb ed="#P" n="87"/>et in tradit. Hebr. ad lib 2, Paralipom., ubi
+          <lb ed="#P" n="88"/>derivationem illius vocis late declarat. 
+          Dicit<lb break="no" ed="#P" n="89"/>que usum illius vocis in Veteri Testamento
+          <lb ed="#P" n="90"/>non reperiri, sed tantum in Novo, quod verum
+          <lb ed="#P" n="91"/>est de canonica Scriptura, nam lib. 4, Esdr.,
+          <lb ed="#P" n="92"/>cap. 2, invenitur. At vero Origines, libr. 6,
+          <lb ed="#P" n="93"/>contra Celsum, parum a principio, sentit 
+          ge<lb break="no" ed="#P" n="94"/>hennam esse locum purgationis animarum,
+          <lb ed="#P" n="95"/>indicatque ejus poenas non esse populo 
+          prae<lb break="no" ed="#P" n="96"/>dicandum, quia vix metu supplicii aeterni
+          <lb ed="#P" n="97"/>compescitur, eamdemque doctrinam habet
+          <lb ed="#P" n="98"/>libr. 8, in cap. 11, ad Roman., in fin. Re 
+          ta<lb break="no" ed="#P" n="99"/>men vera in Evangelio gehenna non nisilocum
+          <lb ed="#P" n="100"/>aeternorum suppliciorum significat, ut ex 
+          alla<lb break="no" ed="#P" n="101"/>tis testimoniis constat, et Hieronymus semper
+          <lb ed="#P" n="102"/>declarat, et Augustinus tradit, libro Quaest.,
+          <lb ed="#P" n="103"/>ad Dulcitium, quaest. 1, et in libro de Fide, et
+          <lb ed="#P" n="104"/>oper., cap. 14. Et Origenes caute intelligendus
+          <lb ed="#P" n="105"/>est, quia de aeternitate poenarum inferni non
+          <lb ed="#P" n="106"/>bene sentit.
+        </p>
+        <p xml:id="szdada-x26613-d1e744">
+          <lb ed="#P" n="107"/>8. Probatur ulterius assertio ec communi
+          <lb ed="#P" n="108"/>sensu Ecciesie. — Denique de loco infcerni,
+          <lb ed="#P" n="109"/>quod sit unus pro omnibus damnatis 
+          detini<lb break="no" ed="#P" n="110"/>tus, communis est sensus Ecclesiae et Catholi-
+          <pb ed="#P" n="1057"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>corum omnium ac Patrum. Ut in Concilio 
+          Flo<lb break="no" ed="#P" n="2"/>rentino, in litt. unionis, sess. ult.. definitur,
+          <lb ed="#P" n="3"/>Illorum animas, qui in actuali mortali peccato,
+          <lb ed="#P" n="4"/>cel solo originali decedunt, in infernum 
+          descen<lb break="no" ed="#P" n="5"/>dere, poenis tamen disparibus puniendas. Et hoc
+          <lb ed="#P" n="6"/>etiam confirmaut Symbola Apostolicum et
+          <lb ed="#P" n="7"/>Nicaenum: in quibus dicitur Christus ad 
+          infe<lb break="no" ed="#P" n="8"/>ros descendisse. Quae imitantur Concilium 
+          To<lb break="no" ed="#P" n="9"/>letanum IV, et Arelatense IV, ac fere alia
+          <lb ed="#P" n="10"/>in professionibus fidei. Tradunt etiam Patres
+          <lb ed="#P" n="11"/>cap..... allegatit: nam dum docent ignem 
+          in<lb break="no" ed="#P" n="12"/>ferni esse corporeum, consequenter dicunt
+          <lb ed="#P" n="13"/>illum in peculiari loco inferni esse ad 
+          punitio<lb break="no" ed="#P" n="14"/>nem damnatorum praeparatum. Praesertim
+          <lb ed="#P" n="15"/>Gregorius, lib. 9 Moral., cap. 38, alias 45 et
+          <lb ed="#P" n="16"/>sequentibus, et libr. 12, cap. 6, alias 7, in ipso
+          <lb ed="#P" n="17"/>inferno varia loca distinguit: quod ropetit
+          <lb ed="#P" n="18"/>lib. 13, cap. 16et 17, alias 21 et 22, et lib. 4,
+          <lb ed="#P" n="19"/>Dial.. cap. 36 et sequentibus, ex pluribus 
+          visio<lb break="no" ed="#P" n="20"/>nibus variis modis locum inferni describit.
+        </p>
+        <p xml:id="szdada-x26613-d1e804">
+          <lb ed="#P" n="21"/>9. Consentit Chrysostomus. — Praeterea 
+          Chry<lb break="no" ed="#P" n="22"/>sostomus, homil. 49 et 50, ad Popul., ex 
+          pro<lb break="no" ed="#P" n="23"/>fesso impugnat eos, qui locum gehennae 
+          ne<lb break="no" ed="#P" n="24"/>gant, ut ejus poenas non timeant, et in id
+          <lb ed="#P" n="25"/>Isaiae 5, Dilatavit infernus animam suam, de
+          <lb ed="#P" n="26"/>loco extremae ultionis, per prosopopoeiam 
+          lo<lb break="no" ed="#P" n="27"/>cum exponit. Et in Psalm. 48, in illa verba,
+          <lb ed="#P" n="28"/>Deus redimet animam mcam de manu inferi,
+          <lb ed="#P" n="29"/>Inferos interpretatur, supplicium et cruciatus
+          <lb ed="#P" n="30"/>illos intolerabiles. Idem Cyrillus Alexandrinus,
+          <lb ed="#P" n="31"/>lib. 1, in Isa., cap. 5, interrogat, Quae est 
+          in<lb break="no" ed="#P" n="32"/>ferni anima, et respondet, locus potius est 
+          in<lb break="no" ed="#P" n="33"/>fermus, et animarum miserarum carcer 
+          hor<lb break="no" ed="#P" n="34"/>rendus. Item, Justinus, lib. de Necessariis
+          <lb ed="#P" n="35"/>quaestionibus, quaest.15, ait: Improborum 
+          ani<lb break="no" ed="#P" n="36"/>mos ad inferorum loca deduci statim ac a 
+          cor<lb break="no" ed="#P" n="37"/>poribus separantur. Alia vero translatio habet,
+          <lb ed="#P" n="38"/>ad Orci loca, quod perinde est Et inducit illud
+          <lb ed="#P" n="39"/>Isaiae 14, quod ipse ita legit, inferi infra 
+          con<lb break="no" ed="#P" n="40"/>turbati sunt, cum tibi obviam prodierunt, id
+          <lb ed="#P" n="41"/>est, Regi Babylonis. Denique Augustinus,
+          <lb ed="#P" n="42"/>lib. 1 Retr., capit. 5, infernum intra mundum
+          <lb ed="#P" n="43"/>esse dixit, et lib. 2, cap. 24, retractat 
+          senten<lb break="no" ed="#P" n="44"/>tiam, quam in lib. 2, Genes. ad litt., cap. 33,
+          <lb ed="#P" n="45"/>insinuaverat: cujus verba infra referam, cum
+          <lb ed="#P" n="46"/>aliis ejusdem et aliorum testimoniis. Ex 
+          phi<lb break="no" ed="#P" n="47"/>losophis vero aliqua refert Eugubinus, lib. 1,
+          <lb ed="#P" n="48"/>de peren. Philosoph., cap. 22.
+        </p>
+        <p xml:id="szdada-x26613-d1e867">
+          <lb ed="#P" n="49"/>10. Proxima assertionis ratio est sola 
+          vo<lb break="no" ed="#P" n="50"/>luntas Dei.—hatione non potest convinci haec
+          <lb ed="#P" n="51"/>sententia, quia ex libera voluntate et 
+          ordina<lb break="no" ed="#P" n="52"/>tione pendet. Est tamen rationi naturali valde
+          <lb ed="#P" n="53"/>consentanea, considerata rationejust:tiae 
+          vindi<lb break="no" ed="#P" n="54"/>cativae, quam Deus juxta ordinatissimam 
+          pro<lb break="no" ed="#P" n="55"/>videntiam suam servare debet. Quam rationem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>declaro, supponendo imprimis Angelos omnes
+          <lb ed="#P" n="57"/>intra mundum esse creatos (ut supra ostensum
+          <lb ed="#P" n="58"/>est). Unde sicut boni in hoc mundo bene de
+          <lb ed="#P" n="59"/>Deo meruerunt; ita mali intra eumdem 
+          mun<lb break="no" ed="#P" n="60"/>dum peccaverunt. Est ergo rationi 
+          consenta<lb break="no" ed="#P" n="61"/>neum, ut sicut boni in hoc mundo praemium
+          <lb ed="#P" n="62"/>recipiunt; ita mali intra eumdum puniantur.
+          <lb ed="#P" n="63"/>Non possunt autem Angeli intra hunc 
+          mun<lb break="no" ed="#P" n="64"/>dum existere; nisi in aliquo certo loco ejus
+          <lb ed="#P" n="65"/>sint saltem per realem praesentiam, ut in libro
+          <lb ed="#P" n="66"/>quarto declaratum est: ergo si in hoc mundo,
+          <lb ed="#P" n="67"/>et in aliquo certo loco ejus puniri necesse est.
+          <lb ed="#P" n="68"/>Dices, hac ratione recte probari 
+          unumquem<lb break="no" ed="#P" n="69"/>que malum Angelum. dum punitur, in aliquo
+          <lb ed="#P" n="70"/>certo loco puniri; non tamen probari, vel
+          <lb ed="#P" n="71"/>omnes Angelos puniri in eodem loco communi
+          <lb ed="#P" n="72"/>omnibus, et ad carcerem et supplicium 
+          om<lb break="no" ed="#P" n="73"/>nium destinato; vel singulos puniri semper
+          <lb ed="#P" n="74"/>in eodem loco; possunt enim variare loca,
+          <lb ed="#P" n="75"/>etiamsi semper in determinato loco puniantur.
+        </p>
+        <p xml:id="szdada-x26613-d1e930">
+          <lb ed="#P" n="76"/>11. Assertio secunda. — Satisfaciens priori
+          <lb ed="#P" n="77"/>parti objectionis, dari unum communem locum
+          <lb ed="#P" n="78"/>dawnatorum.—Propter priorem partem 
+          objec<lb break="no" ed="#P" n="79"/>tionis dicendum est secundo, unum eesse 
+          in<lb break="no" ed="#P" n="80"/>ferni locum omnibus damnatis puniendis juste
+          <lb ed="#P" n="81"/>convenienterque destinatum. Ita docet 
+          Grego<lb break="no" ed="#P" n="82"/>rius, lib. 4 Dialog., cap. 43, et ex modo 
+          lo<lb break="no" ed="#P" n="83"/>quendi Scripturae aliisque Patribus citatis satis
+          <lb ed="#P" n="84"/>colligitur, et ratione probatur. Primo, quia
+          <lb ed="#P" n="85"/>sicut omnes daemones in uno loco creati sunt,
+          <lb ed="#P" n="86"/>et simul in eodem peccarunt, ita expediens
+          <lb ed="#P" n="87"/>fuit omnes in eodem loco puniri. Secundo,
+          <lb ed="#P" n="88"/>quia status beatorum unum communem locum
+          <lb ed="#P" n="89"/>postulat, in quo boni omnes praemia recipiant;
+          <lb ed="#P" n="90"/>ergo expedit pro omnibus damnatis, unum
+          <lb ed="#P" n="91"/>locum destinatum esse, in quo omnes 
+          crucien<lb break="no" ed="#P" n="92"/>tur. Tertio, quia mali Angeli suo modo 
+          com<lb break="no" ed="#P" n="93"/>ponunt unum politicum corpus, et habent
+          <lb ed="#P" n="94"/>inter se subordinationem, ut infra dicetur; et
+          <lb ed="#P" n="95"/>ideo congruum fuit omnes in eodem loco 
+          ag<lb break="no" ed="#P" n="96"/>gregari simul cum hominibus damnatis, quos
+          <lb ed="#P" n="97"/>aliquomodo subjectos habent. Quod de his, qui
+          <lb ed="#P" n="98"/>per proprios actus peccaverunt, intelgo: nam
+          <lb ed="#P" n="99"/>de his, qui tantum in originali decedunt, alia
+          <lb ed="#P" n="100"/>est ratio, ut suo loco dicetur. Denique, quia
+          <lb ed="#P" n="101"/>illa prava et inorlinata societas aliquomodo
+          <lb ed="#P" n="102"/>auget singulorum poenam, et fuit secundum
+          <lb ed="#P" n="103"/>ordinarium potentiam necessaria, ut omnes
+          <lb ed="#P" n="104"/>ab eodem igne corporeo eruciari possint; quia
+          <lb ed="#P" n="105"/>decuit illum ignem intra eumdem locum 
+          im<lb break="no" ed="#P" n="106"/>mobilem permanere; unde, vel hac etiam 
+          ra<lb break="no" ed="#P" n="107"/>tione fuit expediens omnes damnatos in unum
+          <lb ed="#P" n="108"/>locum constringi et operiri, ut omnes 
+          superio<lb break="no" ed="#P" n="109"/>res orbis partes ab eorum contagio liberae, ac
+          <lb ed="#P" n="110"/>purae post Judicii diem permanerent.
+        </p>
+        <p xml:id="szdada-x26613-d1e1008">
+          <pb ed="#P" n="1058"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>12. Contrarium sentientes falluntur, sive de
+          <lb ed="#P" n="2"/>Purgatorio, sive de gehenna loquantur. —
+          Con<lb break="no" ed="#P" n="3"/>tra hanc vero partem solet opinio quorumdam
+          <lb ed="#P" n="4"/>dicentium, non dari unum locum poenalem
+          <lb ed="#P" n="5"/>omnibus damnatis communem, sed 
+          unum<lb break="no" ed="#P" n="6"/>quemque puniri ubi peccavit. Sed de gehenna
+          <lb ed="#P" n="7"/>ignis aeterni catholicum neminem invenio hoc
+          <lb ed="#P" n="8"/>asseruisse, sed tantum de Purgatorio, de quo
+          <lb ed="#P" n="9"/>etiam sententia illa falsa est, ut in 4 tom.,
+          <lb ed="#P" n="10"/>3 part., disputat 45, sect. 2, ostendi; ubi ad
+          <lb ed="#P" n="11"/>quasdem revelationes, in quibus illa sententia
+          <lb ed="#P" n="12"/>nitebatur, respondi. Longe vero improbabilior
+          <lb ed="#P" n="13"/>est illa sententia de loco inferni: alioqui mali
+          <lb ed="#P" n="14"/>Angeli in coelo puniendi essent, ubi 
+          peccave<lb break="no" ed="#P" n="15"/>runt: cum tamen Christus dicens: 7te in ignem
+          <lb ed="#P" n="16"/>cternum, qui paratus est Diabolo et Angelis
+          <lb ed="#P" n="17"/>ejus, satis indicet Angelos malos, et homines
+          <lb ed="#P" n="18"/>damnatos in eodem loco puniri; et rationes
+          <lb ed="#P" n="19"/>factae de Purgatorio evidentius in 
+          praesentia<lb break="no" ed="#P" n="20"/>rum procedunt. Nec ad aliud sentiendum, 
+          ali<lb break="no" ed="#P" n="21"/>quod apparens fundamentum repetitur.
+        </p>
+        <p xml:id="szdada-x26613-d1e1060">
+          <lb ed="#P" n="22"/>13. Assertio tertia satisfaciens posteriori
+          <lb ed="#P" n="23"/>parti assertionis, singulos damnatos semper in
+          <lb ed="#P" n="24"/>eodem loco puniri.—Vertio propter aliam 
+          par<lb break="no" ed="#P" n="25"/>tem objectionis dicendum est, singulos 
+          dam<lb break="no" ed="#P" n="26"/>natos in eodem semper loco puniri. Probatur,
+          <lb ed="#P" n="27"/>quia semper intra illum communem carcerem
+          <lb ed="#P" n="28"/>continebuntur; quae ratio probat semper 
+          pu<lb break="no" ed="#P" n="29"/>niri in eodem communi loco. Àn vero intra
+          <lb ed="#P" n="30"/>illum semper immobiles permaneant, ita ut in
+          <lb ed="#P" n="31"/>eodem loco proprio, et adaequato semper 
+          pu<lb break="no" ed="#P" n="32"/>niantur, vel intra inferni ambitum possint
+          <lb ed="#P" n="33"/>moveri, et ita in diversis partibus illius 
+          com<lb break="no" ed="#P" n="34"/>munis loci, seu in propriis locis distinctis 
+          suc<lb break="no" ed="#P" n="35"/>cessive puniri, ignotum nobis est; et fortasse
+          <lb ed="#P" n="36"/>neutrum potest universaliter de omnibus 
+          af<lb break="no" ed="#P" n="37"/>firmari, vel negari; sed credibile est, in 
+          uno<lb break="no" ed="#P" n="38"/>quoque illud esse divina providentia 
+          disponen<lb break="no" ed="#P" n="39"/>dum, quod ad supplicium meritis ejus magis
+          <lb ed="#P" n="40"/>proportionatum esse oportuerit. Non enim 
+          vi<lb break="no" ed="#P" n="41"/>detur dubium, quin alligatio et coactio illa,
+          <lb ed="#P" n="42"/>quo major fuerit, eo magis aflliget, et ideo 
+          for<lb break="no" ed="#P" n="43"/>tasse non erit eadem in omnibus, sed pro 
+          me<lb break="no" ed="#P" n="44"/>ritorum diversitate. Denique in daemonibus
+          <lb ed="#P" n="45"/>haec intelligenda sunt, considerando jus (ut
+          <lb ed="#P" n="46"/>sic dicam ) seu destinationem ad poenam, non
+          <lb ed="#P" n="47"/>vero quoad integram ejus executionem, pro
+          <lb ed="#P" n="48"/>tempore praesenti, usque ad diem Judicii; nam
+          <lb ed="#P" n="49"/>damnati quidem sunt ad illum unicum, 
+          com<lb break="no" ed="#P" n="50"/>munem, ac perpetuum locum, seu carcerem,
+          <lb ed="#P" n="51"/>et ita jure illis debetur: executio autem plena
+          <lb ed="#P" n="52"/>dilata est usque ad diem Judicii, propter alias
+          <lb ed="#P" n="53"/>divinae providentiae rationes, ut mox dicemus.
+        </p>
+        <p xml:id="szdada-x26613-d1e1132">
+          <lb ed="#P" n="54"/>14. Assertio quarta locus dumnatorum est
+          <lb ed="#P" n="55"/>ima caecitas terre circa centvim. — Quarto di-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cendum est hunc inferni locum esse in 
+          infi<lb break="no" ed="#P" n="57"/>ma terrae concavitate circa centrum ejus. Haec
+          <lb ed="#P" n="58"/>assertio non est tam certa, sicut praecedens,
+          <lb ed="#P" n="59"/>quia non ita est in sacra Scriptura expressa.
+          <lb ed="#P" n="60"/>Et ideo Augustinus 20, de Civitat., cap. 16,
+          <lb ed="#P" n="61"/>ausus est de igne inferni dicere: Cujusmodi, et
+          <lb ed="#P" n="62"/>in qua mundi, vel rerum parte futurus sit, 
+          ho<lb break="no" ed="#P" n="63"/>minwum scire arbitror neminem, nisi forte cui
+          <lb ed="#P" n="64"/>divinus Spiritus ostendit. Et Gregorius, lib.4,
+          <lb ed="#P" n="65"/>Dialog.. cap. 42, quaestionem proponens ait,
+          <lb ed="#P" n="66"/>Hoac de re temere definire non audeo. Et ideo
+          <lb ed="#P" n="67"/>statim refert in confuso opinionem 
+          asseren<lb break="no" ed="#P" n="68"/>tem, infernum esse in aliqua parte terrae, 
+          uti<lb break="no" ed="#P" n="69"/>que super hanc ejus superficiem. Quae opinio
+          <lb ed="#P" n="70"/>in plures divisa est. Nam quidam arbitrati
+          <lb ed="#P" n="71"/>sunt gehennam esse in alio hemisphaerio huic
+          <lb ed="#P" n="72"/>nostro opposito, quod Antipodae inhabitant.
+          <lb ed="#P" n="73"/>Ita refert Soto, in 4, distin. 45, quaest. 1, a. 1,
+          <lb ed="#P" n="74"/>citatque Isidorum dicentem, in die Judicii 
+          So<lb break="no" ed="#P" n="75"/>lem et Lunam in Oriente et Occidente hujus
+          <lb ed="#P" n="76"/>nostri hemisphaerii permansura, et damnati
+          <lb ed="#P" n="77"/>illorum lumen videre possint: quae ratio 
+          sup<lb break="no" ed="#P" n="78"/>ponit damnatos futuros esse in alio 
+          hemi<lb break="no" ed="#P" n="79"/>sphaerio, in superficie terrae: nam si essent sub
+          <lb ed="#P" n="80"/>terra undique occlusi, ubicumque astra illa
+          <lb ed="#P" n="81"/>sisterent, illorum lumine gaudere nequirent.
+          <lb ed="#P" n="82"/>Verumtamen sententia illa, seu ratio apud 
+          Isi<lb break="no" ed="#P" n="83"/>dorum, non invenitur, nec Soto locum 
+          de<lb break="no" ed="#P" n="84"/>signat, neque consonat cum doctrina Isidori
+          <lb ed="#P" n="85"/>(ut jam videbimus). Si quis ergo illam 
+          senten<lb break="no" ed="#P" n="86"/>tiam amplexus est, forte credidit regionem
+          <lb ed="#P" n="87"/>illam esse respectu nostri in loco inferiori et
+          <lb ed="#P" n="88"/>profundissimo, et non esse habitabilem ob 
+          ex<lb break="no" ed="#P" n="89"/>cessum caloris; ideoque esse aptam, ut in eo
+          <lb ed="#P" n="90"/>gehenna existat, et nomine inferni appelletur.
+          <lb ed="#P" n="91"/>Verumtamen ipsa experientia falsitatis arguit
+          <lb ed="#P" n="92"/>praefatam sententiam: nam totum illud 
+          he<lb break="no" ed="#P" n="93"/>misphaerium, aeque ac nostrum habitatur, et
+          <lb ed="#P" n="94"/>non magis est infra nos, quam supra nos, sed
+          <lb ed="#P" n="95"/>utrumque pertinet ad superiorem hanc 
+          ter<lb break="no" ed="#P" n="96"/>ram, estque locus aeque superior nostro, si ad
+          <lb ed="#P" n="97"/>centrum terrae, ut fieri debet, comparentur.
+        </p>
+        <p xml:id="szdada-x26613-d1e1233">
+          <lb ed="#P" n="98"/>15. Alii ergo dixisse referuntur infernum
+          <lb ed="#P" n="99"/>esse in valle quadam prope Jerosoly mam 
+          vo<lb break="no" ed="#P" n="100"/>catam Gehennon; sed licet nomen gehennae
+          <lb ed="#P" n="101"/>inde fuerit derivatum, teste Hierony mo, in 
+          tra<lb break="no" ed="#P" n="102"/>ditionibus Hebrai.. ad 2, lib. Paralip., cap. 33,
+          <lb ed="#P" n="103"/>et in aliis supra citatis, et Isidorus, libr. 4,
+          <lb ed="#P" n="104"/>Etymolcgiar., cap. 9, S penult.; nihilominus
+          <lb ed="#P" n="105"/>ridiculum est putare in illa valle esse 
+          infer<lb break="no" ed="#P" n="106"/>num, cum et oculis omnium pateret, et 
+          deli<lb break="no" ed="#P" n="107"/>ciosa esset, irriguaque; ut constat ex Jos. i5
+          <lb ed="#P" n="108"/>et 18; nisi per metaphoram vocetur infernus,
+          <lb ed="#P" n="109"/>quia in ea horrenda peccata idololatriae 
+          commit<lb break="no" ed="#P" n="110"/>tebantur; ut constat ex 4, Reg. 23, nam quae
+          <pb ed="#P" n="1059"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ibi dicitur vallis filiorum Ennon, eadem, quae
+          <lb ed="#P" n="2"/>Gehennon est, ut ex aliis locis manifestum est.
+        </p>
+        <p xml:id="szdada-x26613-d1e1272">
+          <lb ed="#P" n="3"/>16. Alii somniarunt infernum esse in valle
+          <lb ed="#P" n="4"/>Josaphat, et non desunt, quod opinionem illam
+          <lb ed="#P" n="5"/>Chrysostomo tribuant. At ille, homil. 31, ad
+          <lb ed="#P" n="6"/>Rom., circa finem, illam referens, fabulosam
+          <lb ed="#P" n="7"/>appellat. Nonnulli, ait, fabulantes dicunt, quod
+          <lb ed="#P" n="8"/>n valle Josaphat, quod de bello quodam 
+          preete<lb break="no" ed="#P" n="9"/>rito dictum est, ad gehennam trahentes, 
+          Scrip<lb break="no" ed="#P" n="10"/>Ltura vero hoc non dicit. Et idem fere habet in
+          <lb ed="#P" n="11"/>hom. de Praemiis Sanctorum, in fine tom. 3.
+          <lb ed="#P" n="12"/>Ipse vero in eis locis arbitratur, potius 
+          gehen<lb break="no" ed="#P" n="13"/>nam extra totum terrarum orbem existere ;
+          <lb ed="#P" n="14"/>quod interpretari possumus de toto orbe 
+          habi<lb break="no" ed="#P" n="15"/>tabili ab hominibus, seu quoad totam 
+          super<lb break="no" ed="#P" n="16"/>ficiem terráe. At vero idem Chrysostomus, vel
+          <lb ed="#P" n="17"/>auctor Imperfecti, homil. 53, in Matth., 
+          vide<lb break="no" ed="#P" n="18"/>tur hanc expositionem excludere, dicens:
+          <lb ed="#P" n="19"/>Quidam dicunt nontantum esse anfernum 
+          deor<lb break="no" ed="#P" n="20"/>swn, sed extra mundum istum esse aliqua 
+          tene<lb break="no" ed="#P" n="21"/>Lrosissima loca. et ignea, in quibus puniuntur,
+          <lb ed="#P" n="22"/>qui digni sunt. Sed hoc dictum nec est 
+          Chry<lb break="no" ed="#P" n="23"/>sostomi, nec affirmatur ab illo auctore, sed
+          <lb ed="#P" n="24"/>tantum refertur, nec est probabile: quia extra
+          <lb ed="#P" n="25"/>totam sphaeram hujus mundi non sunt loca
+          <lb ed="#P" n="26"/>corporea. Nec illud consonat doctrinae fidei,
+          <lb ed="#P" n="27"/>aut modo loquendi Scripturae, imo nec 
+          Philo<lb break="no" ed="#P" n="28"/>sophiae: nec etiam morali congruentiae, quia
+          <lb ed="#P" n="29"/>ostensum est, Angelos et homines tanquam
+          <lb ed="#P" n="30"/>hujus mundi partes, et intra illum peccantes,
+          <lb ed="#P" n="31"/>intra illum puniri. Potuit autem in alio sensu
+          <lb ed="#P" n="32"/>dici infernus esse extra totum mundum, 
+          no<lb break="no" ed="#P" n="33"/>mine mundi non totum universum, ut coelis
+          <lb ed="#P" n="34"/>et elementis constat, sed tantum totum 
+          glo<lb break="no" ed="#P" n="35"/>bum terrae intelligendo. Et sic dixerunt alhi,
+          <lb ed="#P" n="36"/>infernum esse in sphaera ignis (ut refertur).
+          <lb ed="#P" n="37"/>Sed auctorem non invenio. Alii, quod sit in hoc
+          <lb ed="#P" n="38"/>aere caliginoso, et hoc sensit Gregorius 
+          Nysse<lb break="no" ed="#P" n="39"/>nus, in disputatione de Anima et Resurrect.,
+          <lb ed="#P" n="40"/>utrumque vero bene confutat Abulensis, lib.
+          <lb ed="#P" n="41"/>de statu Anim., concl. 5, 6et 7, et Paradox. 5,
+          <lb ed="#P" n="42"/>cap. 9 et sequentibus.
+        </p>
+        <p xml:id="szdada-x26613-d1e1361">
+          <lb ed="#P" n="43"/>17. Probatur jam assertio quarta quod locus
+          <lb ed="#P" n="44"/>damnatorum sit sub terra. — Veritasergo certa
+          <lb ed="#P" n="45"/>est infernum esse sub terra; ita concludit et
+          <lb ed="#P" n="46"/>late prosequitur Abulensis in citatis locis.
+          <lb ed="#P" n="47"/>Idemque ex multis Patribus probavi, agens de
+          <lb ed="#P" n="48"/>descensu Christi ad inferos, 2 tom., 3 part.,
+          <lb ed="#P" n="49"/>disput. 43, sect. 2.et acensde Purgat., tom. ^
+          <lb ed="#P" n="50"/>disput. 45, sect. 2, traditque Gregorius supra,
+          <lb ed="#P" n="51"/>et Isidorus, S ultim., dicens: Infernum 
+          appel<lb break="no" ed="#P" n="52"/>lari eo quod infra sit. Augustinus etiam, libr. 2
+          <lb ed="#P" n="53"/>Retract., cap. 24, recolens quod lib. 12, Genes.
+          <lb ed="#P" n="54"/>ad litt. dixerat, inquit: De inferis magis mihi
+          <lb ed="#P" n="55"/>videor docere debuisse, quod sub terris sint,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quam rationem reddere, cur sub terris esse 
+          cre<lb break="no" ed="#P" n="57"/>dantur, sive dicantur, quasi non ita sint. Idem
+          <lb ed="#P" n="58"/>lib. 4, in Num., quaest. 29, circa illa verba cap.
+          <lb ed="#P" n="59"/>16: Descenderunt viventes ad inferos (ait): 
+          IVo<lb break="no" ed="#P" n="60"/>tandum secundum locum terremum dici inferos,
+          <lb ed="#P" n="61"/>hoc est, in inferioribus terre partibus. Et infra
+          <lb ed="#P" n="62"/>declarat ibi: nferiores partes terre, inferorum
+          <lb ed="#P" n="63"/>vocabulo esse uuncupatas, in comparatione hujus
+          <lb ed="#P" n="64"/>superioris terrae, in cujus facie vivitur. 
+          Praete<lb break="no" ed="#P" n="65"/>rea, in Epist. 99, ad Evodi., quaest. 1, aperte
+          <lb ed="#P" n="66"/>supponit infernum esse corporalem, et sub
+          <lb ed="#P" n="67"/>terra esse. Idemque habet 20, de Civitat.,
+          <lb ed="#P" n="68"/>cap. 15, et in Enarrat. in Psal. 85, circa illa
+          <lb ed="#P" n="69"/>verba, Eruisti animam meam ex inferno 
+          infe<lb break="no" ed="#P" n="70"/>riori.QuamvisJulianus Toletanusreferendo 
+          Au<lb break="no" ed="#P" n="71"/>gustinum, inlibr.2 Prognost., cap.4, et seqq.,
+          <lb ed="#P" n="72"/>non recte de corporali loco inferni loquitur,
+          <lb ed="#P" n="73"/>nisi pie explicetur. Ilemque observandum est
+          <lb ed="#P" n="74"/>in Anselmo, in Elucid., versus tinem. Adde
+          <lb ed="#P" n="75"/>Euthymium, Psalm. 17, dicentem, infernum
+          <lb ed="#P" n="76"/>significare insuavem et injucundum locum,
+          <lb ed="#P" n="77"/>qui sub terra est; et hoc saltem intendunt 
+          Ba<lb break="no" ed="#P" n="78"/>silius, in exhort. ad Bapt., et Nazienzenus, in
+          <lb ed="#P" n="79"/>carm. de Natura humana, cum infernum
+          <lb ed="#P" n="80"/>vocent, Nigra tartara, et Simeon Styltas,
+          <lb ed="#P" n="81"/>serm. de Meditat. mort., vocans, loca obscura
+          <lb ed="#P" n="82"/>et tenebrosa, quo Diabolus preceps datus est.
+          <lb ed="#P" n="83"/>Et Petrus Chrysologus, serm. 124, dicens: $
+          <lb ed="#P" n="84"/>est sub terra tartari carcer, etc.
+        </p>
+        <p xml:id="szdada-x26613-d1e1457">
+          <lb ed="#P" n="85"/>18. Probatur deinde, quod sit ima cavitas.—
+          <lb ed="#P" n="86"/>Hi vero Patres solum dicunt infernum esse
+          <lb ed="#P" n="87"/>sub terra; alii vero addunt esse in 
+          profundis<lb break="no" ed="#P" n="88"/>sima illius parte, quae est centrum. Hoc 
+          signi<lb break="no" ed="#P" n="89"/>ficavit [sidorus supra, dicens: Sicut cor 
+          ani<lb break="no" ed="#P" n="90"/>malis in medio ejus, ita infernus in medio terre
+          <lb ed="#P" n="91"/>esse perhibetur. Unde in Evangelio legimus:
+          <lb ed="#P" n="92"/>àn corde terra. Cyrillus Alexandrinus, Orat. de
+          <lb ed="#P" n="93"/>Exitu animae, inter alia dicit: Animas, qua
+          <lb ed="#P" n="94"/>in peccatis moriuntur, in terrarum opaca deduci,
+          <lb ed="#P" n="95"/>in terram tenebrosam, et fuliginosum, in 
+          inft<lb break="no" ed="#P" n="96"/>mas infernorum carcerum partes, et infra: 
+          Cla<lb break="no" ed="#P" n="97"/>mant e profundis, et nemo flectitur, et 
+          Damas<lb break="no" ed="#P" n="98"/>cenus, in histor. Bar., lib. 1, cap. 10, dicit
+          <lb ed="#P" n="99"/>animam damnatam descendere in inferiores
+          <lb ed="#P" n="100"/>terrae partes. At vero Hugo de Sancto Victore,
+          <lb ed="#P" n="101"/>lib. 2, de Sacram., part. 16, cap. 3, de Inferno
+          <lb ed="#P" n="102"/>quidem ait: Zst inferior locus in imo terre
+          <lb ed="#P" n="103"/>positus, panis damnatorum preparatus; et 
+          ni<lb break="no" ed="#P" n="104"/>hilominus subdit incertum esse, in qua parte
+          <lb ed="#P" n="105"/>terrae sit, id est, an intra concavitatem illius,
+          <lb ed="#P" n="106"/>vel extrinsecus, concludit tamen verisimilius
+          <lb ed="#P" n="107"/>esse infra terram tanquam carcerem, et 
+          er<lb break="no" ed="#P" n="108"/>gastulum tenebrarum esse collocatum. At
+          <lb ed="#P" n="109"/>enim, quod infernus sit sub terra, dubitandum
+          <lb ed="#P" n="110"/>non est, propter communem sensum Patrum
+          <pb ed="#P" n="1060"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ita intelligentium Scripturas, quae semper de
+          <lb ed="#P" n="2"/>inferno tanquam de loco inferiori hoc mundo
+          <lb ed="#P" n="3"/>visibili loquuntur; et ideo motum in 
+          infer<lb break="no" ed="#P" n="4"/>num, semper descensum appellant. Et addi
+          <lb ed="#P" n="5"/>potest optima ratio: quia totus terrae ambitus,
+          <lb ed="#P" n="6"/>quoad superficiem ejus, est ab hominibus 
+          ha<lb break="no" ed="#P" n="7"/>bitabilis: ac proinde est generalis locus 
+          viato<lb break="no" ed="#P" n="8"/>rum; ergo locus damnatorum extra illum esse
+          <lb ed="#P" n="9"/>debet: ostensum est au'em non esse supra 
+          ter<lb break="no" ed="#P" n="10"/>ram; ergo necessarium est, ut sub terra sit.
+        </p>
+        <p xml:id="szdada-x26613-d1e1542">
+          <lb ed="#P" n="11"/>19. Quod autem sit in profundo terrae, et
+          <lb ed="#P" n="12"/>prope centrum, etiam est probabilius, et magis
+          <lb ed="#P" n="13"/>consentaneum Scripturis et Patribus. Ut autem
+          <lb ed="#P" n="14"/>clarius intelligatur, supponendum est ex 
+          com<lb break="no" ed="#P" n="15"/>muni doctrina theologorum, quatuor esse loca
+          <lb ed="#P" n="16"/>subterranea, quae receptacula animarum non
+          <lb ed="#P" n="17"/>videntium Deum appellantur. Unus est sinus
+          <lb ed="#P" n="18"/>Abrahae, in quo fuerunt Sanctoruin auimae
+          <lb ed="#P" n="19"/>purae ab omni propria macula, et reatu poenae
+          <lb ed="#P" n="20"/>ante Christi adventum, qui locus nunc est 
+          va<lb break="no" ed="#P" n="21"/>cnus. Alius est Purgatorium, tertius est 
+          lim<lb break="no" ed="#P" n="22"/>bus puerorum, quartus vero est gehenna. 
+          So<lb break="no" ed="#P" n="23"/>lent ergo omnes hi loci nomine inferorum 
+          si<lb break="no" ed="#P" n="24"/>gnificari: et interdum quilibet eorum infernus
+          <lb ed="#P" n="25"/>vocatur; et sic Christus dicitur descendisse ad
+          <lb ed="#P" n="26"/>inferos, vel in infernum, et Sancti antiqui ita
+          <lb ed="#P" n="27"/>Icquebantur; ut de Jacob et aliis allegavimus:
+          <lb ed="#P" n="28"/>de toto illo ergo locorum ambitu per modum
+          <lb ed="#P" n="29"/>unius considerato certum videtur esse in 
+          pro<lb break="no" ed="#P" n="30"/>fundissimo terrae loco, et prope centrum. Sic
+          <lb ed="#P" n="31"/>enim sinus Abrahae, ad quem Christus 
+          descen<lb break="no" ed="#P" n="32"/>dit, creditur esse in medio terrae propter verba
+          <lb ed="#P" n="33"/>Christi dicentis Matth. 12: Sicut fuit Jonas
+          <lb ed="#P" n="34"/>in centre ceti, sic erit filius hominis in corde
+          <lb ed="#P" n="35"/>terre, ut supra ex Isidoro retuli, et declarat
+          <lb ed="#P" n="36"/>etiam Hieronymus, Jonae 2, et confirmat Paulus
+          <lb ed="#P" n="37"/>ad Ephes. 4, dicens, descendisse Christum in
+          <lb ed="#P" n="38"/>inferiores partes terrae, id est, in locum 
+          infe<lb break="no" ed="#P" n="39"/>riorem animarum; ut exposuit lrenaeus, lib. 5,
+          <lb ed="#P" n="40"/>cap. 31, et alibilatius diximus. Ergo a fortiori
+          <lb ed="#P" n="41"/>reliqui loci sunt in profundo terrae. Maxime
+          <lb ed="#P" n="42"/>vero damnatorum locum ibi esse, credendum
+          <lb ed="#P" n="43"/>est: nam ille inferior est sinu Abrahae; et ideo
+          <lb ed="#P" n="44"/>Lucae 16, de divite dicitur, sepultum fuisse in
+          <lb ed="#P" n="45"/>inferno, et al videndum Abraham, oculos suos
+          <lb ed="#P" n="46"/>elevasse. Hinc totus infernus, praecipue vero
+          <lb ed="#P" n="47"/>locus damnatorum solet in Scriptura sacra 
+          pro<lb break="no" ed="#P" n="48"/>fundissimus locus appellari, Proverb. 9: 72
+          <lb ed="#P" n="49"/>profundis infernis convicae ejus. lsaioe 1: In
+          <lb ed="#P" n="50"/>profundum inferni, sive in eacelsum supra.
+          <lb ed="#P" n="51"/>Job 11, ad exaggerandam Dei immensitatem
+          <lb ed="#P" n="52"/>dicitur, profundior inferno, Vsaiae 1: In 
+          pro<lb break="no" ed="#P" n="53"/>fundum inferni, ctc., e cap. 14: VFerumtamen
+          <lb ed="#P" n="54"/>ad infernum detraheris in profundum laci; ubi
+          <lb ed="#P" n="55"/>Hieronymnus per nci profuaditatem, infernorum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ultimum significari dicit. Unde ctiam 
+          Tertul<lb break="no" ed="#P" n="57"/>lianus, iu Apolog., cap. 11, locum in quoimpii
+          <lb ed="#P" n="58"/>abstrahuntur, ipsum tartarun vocat, et a 
+          Gen<lb break="no" ed="#P" n="59"/>tibus dicit fuisse appellatum: Carcerem 
+          poena<lb break="no" ed="#P" n="60"/>rum infernarum. Et in hb. de Anima, cap. 5,
+          <lb ed="#P" n="61"/>sic infernum describit: Est in fossa terrae, et
+          <lb ed="#P" n="62"/>in alto castitas, et in ipsis visceribus ejus 
+          ab<lb break="no" ed="#P" n="63"/>strusa profunditas. Idque confirmat ex citatis
+          <lb ed="#P" n="64"/>verbis Christi: 7n corde terra, ut latius in loco
+          <lb ed="#P" n="65"/>supra allegato dixi.
+        </p>
+        <p xml:id="szdada-x26613-d1e1666">
+          <lb ed="#P" n="66"/>20. Probatur jam esse imam partem terree
+          <lb ed="#P" n="67"/>auctoritate. — Et rationibus congruentibus.—
+          <lb ed="#P" n="68"/>Cum ergo totus infernus sit in infimo terrae
+          <lb ed="#P" n="69"/>loco, comparando dictas quatuor ejus partes
+          <lb ed="#P" n="70"/>inter se, non est dubium, quin locus 
+          damna<lb break="no" ed="#P" n="71"/>torum sit inferior caeteris, et centro terrae 
+          pro<lb break="no" ed="#P" n="72"/>pinquissimus, propter quod jam per 
+          antono<lb break="no" ed="#P" n="73"/>masiam nomen inferni absolute obtinuit, ut
+          <lb ed="#P" n="74"/>in citatis testimoniis satis significatum est, et
+          <lb ed="#P" n="75"/>in aliis, in quibus ille locus specialiter vocatur
+          <lb ed="#P" n="76"/>abys:us, Lucae 8, ubi daemones rogabant 
+          Chris<lb break="no" ed="#P" n="77"/>tum, ne illos in a'yssum mitteret, et Ap. 20:
+          <lb ed="#P" n="78"/>Angelus misit et clausit Diabolum in abyssum.
+          <lb ed="#P" n="79"/>Vocatur etiam stagnum ignis, ibidem, et c. 19
+          <lb ed="#P" n="80"/>et 21. Item vocatur /lacus ire Dei magnus,
+          <lb ed="#P" n="81"/>Apocal. 14. et infernus inferior, Psalm. 85,
+          <lb ed="#P" n="82"/>juxta probabilem expositionem, quam ibi 
+          Au<lb break="no" ed="#P" n="83"/>gustinus posteriori loco ponit. Ac denique in
+          <lb ed="#P" n="84"/>hoc convincunt scholastici, quos late retuli in
+          <lb ed="#P" n="85"/>d. disput., 45, de Purg.. ubi ex professo 
+          si<lb break="no" ed="#P" n="86"/>tum, et ordinem illorum locorum investigavi.
+        </p>
+        <p xml:id="szdada-x26613-d1e1715">
+          <lb ed="#P" n="87"/>21. Assertio quinta tripartita.—Solum ergo
+          <lb ed="#P" n="88"/>superest rationem aliquam, seu congruentiam
+          <lb ed="#P" n="89"/>hujus partis reddere: verumtamen etiam haec
+          <lb ed="#P" n="90"/>est facilis ex dictis. Nam rationes, quibus 
+          os<lb break="no" ed="#P" n="91"/>tendimus, fuisse conveniens, unum locum ad
+          <lb ed="#P" n="92"/>punitionem damnatorum omnium esse 
+          depu<lb break="no" ed="#P" n="93"/>tatum, etiam persuadent debuisselocum illum
+          <lb ed="#P" n="94"/>esse abjectissimum et vilissimum, et ab omni
+          <lb ed="#P" n="95"/>Iuce Solis, et ab omni terra habitabili 
+          remo<lb break="no" ed="#P" n="96"/>tissimum: talis autem est infimus locus juxta
+          <lb ed="#P" n="97"/>centrum terrae; ergo ibi credendum est esse
+          <lb ed="#P" n="98"/>infernum. Item oppositorum proportonalis
+          <lb ed="#P" n="99"/>habenda est ratio: status autem damnationis
+          <lb ed="#P" n="100"/>et beatitudinis extreme oppositi sunt; ergo
+          <lb ed="#P" n="101"/>loca etiam extreme opposita pro illis destinari
+          <lb ed="#P" n="102"/>debuerunt. Sicut ergo supremus orbis in locis
+          <lb ed="#P" n="103"/>sanctis cum Christo regnantibus constitutus
+          <lb ed="#P" n="104"/>est, ita infimum terrae profundum Diabolo et
+          <lb ed="#P" n="105"/>Angelis ejus, et caeteris eorum in damnatione
+          <lb ed="#P" n="106"/>sociis paratus est. Denique inter illa quatuor
+          <lb ed="#P" n="107"/>subterranea receptacula animarum, 
+          manites<lb break="no" ed="#P" n="108"/>tum est inferiorem et profundiorem damnatis
+          <lb ed="#P" n="109"/>fuisse reservandum; sed totus infernus, ut illa
+          <lb ed="#P" n="110"/>omnia complectitur, in visceribus terrae, et in
+          <pb ed="#P" n="1061"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>medio ejus esse creditur, ut ex verbis Christi,
+          <lb ed="#P" n="2"/>ut a Patribus exponuntur, ostensum est; ergo
+          <lb ed="#P" n="3"/>locus damnatorum centroe est propinquissimus.
+        </p>
+        <p xml:id="szdada-x26613-d1e1780">
+          <lb ed="#P" n="4"/>22. Probatur prima pars: Omnes daemones
+          <lb ed="#P" n="5"/>destinatos esse ad dictum locum.—Ultimo 
+          ad<lb break="no" ed="#P" n="6"/>dendum est, quamvis daemones omnes ad hunc
+          <lb ed="#P" n="7"/>inferni locum damnati sint, et plures eorum
+          <lb ed="#P" n="8"/>semper in illo resideant: nihilominus usque
+          <lb ed="#P" n="9"/>ad diem Judicii non omnes esse illi loco 
+          alh<lb break="no" ed="#P" n="10"/>gatos, sed in hoc mundo et in aere; quem
+          <lb ed="#P" n="11"/>(quia in eo sunt tenebrae, nubes, nebulae, ac
+          <lb ed="#P" n="12"/>procellae) caliginosum vocant, ex divina 
+          per<lb break="no" ed="#P" n="13"/>missione versari. Prima pars hujus assertionis
+          <lb ed="#P" n="14"/>de fide certa est, ex verbis Christi, Matth. 25:
+          <lb ed="#P" n="15"/>lIte, maled:cli in ignem eeternum, qui paratus
+          <lb ed="#P" n="16"/>est Diasolo et Angelis ejus. Ubi nomine ignis
+          <lb ed="#P" n="17"/>a fortiori comprehenditur locus, in quo est ille
+          <lb ed="#P" n="18"/>ignis, qui dicitur aeternus; non tantum, quia
+          <lb ed="#P" n="19"/>in sua duratione aeternus sit, sed etiam, quia
+          <lb ed="#P" n="20"/>ejus poena est aeterna, ut ponderavit 
+          Augusti<lb break="no" ed="#P" n="21"/>nus ex verbis sequentibus: Ft ibunt hi in 
+          sup<lb break="no" ed="#P" n="22"/>plic um ctermin Wle autem locus est gehenna
+          <lb ed="#P" n="23"/>ignis inextinguibilis; ille ergo locus non minus
+          <lb ed="#P" n="24"/>pro Angelis malis, quam pro hominibus 
+          pa<lb break="no" ed="#P" n="25"/>ratus; imo principaliter, et quasi per se primo
+          <lb ed="#P" n="26"/>pro illis, pro hominibus vero quasi accessorie
+          <lb ed="#P" n="27"/>fuit destinatus, ut multi ex Patribus in verbis
+          <lb ed="#P" n="28"/>Christi Domini ponderarunt.
+        </p>
+        <p xml:id="szdada-x26613-d1e1837">
+          <lb ed="#P" n="29"/>23. Praeterea ipsimet daemones non sunt
+          <lb ed="#P" n="30"/>nunc hujus sua damnationis ignari: sed de
+          <lb ed="#P" n="31"/>illa jam acriter dolent et torqueutur, et quasi
+          <lb ed="#P" n="32"/>in perpetuo timore illius diei, in quo 
+          recluden<lb break="no" ed="#P" n="33"/>di sunt, versantur, ut ex verbis ipsorum 
+          con<lb break="no" ed="#P" n="34"/>jectare licet: Quid nobis, et tibi Jesu Fili Dei,
+          <lb ed="#P" n="35"/>venisti huc ante tempus torquere nos. Matt. 8,
+          <lb ed="#P" n="36"/>et addit Lucas, cap. 8, Ft rogabant illum, ne
+          <lb ed="#P" n="37"/>imperaret illis, ut iu ahyssum irent, quia de
+          <lb ed="#P" n="38"/>hoc maxime erant solliciti; ut ponderavit 
+          Am<lb break="no" ed="#P" n="39"/>brosius, in Lucam, et Victor Antiochenus,
+          <lb ed="#P" n="40"/>Marc. 5, et Chrysostomus, in Matth., hom. 19,
+          <lb ed="#P" n="41"/>et Euthy mius Theophylactus, in Matth., 
+          Hila<lb break="no" ed="#P" n="42"/>rius, can. 8, in Matth., ac denique omnes.
+          <lb ed="#P" n="43"/>Quamvis enim daemones certum diem Judicii
+          <lb ed="#P" n="44"/>ignorent; non ignorant aliquando esse 
+          futu<lb break="no" ed="#P" n="45"/>rum, et eos tunc esse in infernum detrudendos;
+          <lb ed="#P" n="46"/>ignorabant tamen an vellet Christus illud
+          <lb ed="#P" n="47"/>tempus anticipare; et ideo timebant.
+        </p>
+        <p xml:id="szdada-x26613-d1e1881">
+          <lb ed="#P" n="48"/>24. Denique hujus poenae executio futura in
+          <lb ed="#P" n="49"/>fine mendi in Apocalypsi describitur. Nam,
+          <lb ed="#P" n="50"/>cap. 12, deDracone, serpente antiquo dicitur:
+          <lb ed="#P" n="51"/>Projectus est in terram, et additur, Ve tere
+          <lb ed="#P" n="52"/>et mari, quia descendit ad vos Diabolus, habens
+          <lb ed="#P" n="53"/>irum magnam, sciens quia wod cum tempus
+          <lb ed="#P" n="54"/>habet, utique, ad tentandum. Praesentiet enim
+          <lb ed="#P" n="55"/>tempus Judicii, post quod in infernum reclu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dendus omnino est: ut cap. 20, additur, 
+          Dia<lb break="no" ed="#P" n="57"/>Dolus, qui seducebat eos, snissus est in stagnum
+          <lb ed="#P" n="58"/>ignis et sulphuris, ubi et Lestia, et 
+          Pseudo<lb break="no" ed="#P" n="59"/>propheta cruciabuntur die, ac nocte in secula
+          <lb ed="#P" n="60"/>seeculorum; et quoniam haec verba per 
+          antici<lb break="no" ed="#P" n="61"/>pationem dicta fuerant, statim describitur 
+          ju<lb break="no" ed="#P" n="62"/>dicium, in quo judicatum est de singulis 
+          se<lb break="no" ed="#P" n="63"/>cundum opera ipsorum, et infernus, et mors
+          <lb ed="#P" n="64"/>missi sunt in stagnum ignis. Heec est mors
+          <lb ed="#P" n="65"/>secunda, id est, omnes mah Angeli et 
+          homi<lb break="no" ed="#P" n="66"/>nes, vel (ut statim additur) omnis, qui non est
+          <lb ed="#P" n="67"/>inventus in libro vitae scriptus, missus est in
+          <lb ed="#P" n="68"/>stagnum ignis, utique, ut inde amphlus non
+          <lb ed="#P" n="69"/>exeat, quia et bellum finitum est, et judicium
+          <lb ed="#P" n="70"/>consummatum, ut copiose exponit Augustinus,
+          <lb ed="#P" n="71"/>lib. 20, de Civit., cap. 14, et sequentibus.
+        </p>
+        <p xml:id="szdada-x26613-d1e1938">
+          <lb ed="#P" n="72"/>25. Probatur deinde secunda pars 
+          assertio<lb break="no" ed="#P" n="73"/>nis aliquos deemones nunquam egredi em inferno.
+          <lb ed="#P" n="74"/>— Secunda pars assertionis, nimirum aliquos
+          <lb ed="#P" n="75"/>ex malis Angelis esse nunc in inferno, 
+          semper<lb break="no" ed="#P" n="76"/>que fuisse, et futuros esse ante diem Judicii,
+          <lb ed="#P" n="77"/>non est ita expressa in Scriptura, imo 
+          Augus<lb break="no" ed="#P" n="78"/>tinus sentire videtur, aerem hunc caliginosum
+          <lb ed="#P" n="79"/>assignatum esse omnibus Angelis, qui 
+          cecide<lb break="no" ed="#P" n="80"/>runt pro carcere, seu loco poenali, aut exili
+          <lb ed="#P" n="81"/>sui usque ad diem Judicii; et ideo hunc aerem
+          <lb ed="#P" n="82"/>intelligit nomine inferni, in quem ipsi Angeli
+          <lb ed="#P" n="83"/>in principio ejecti, et vinculis ligati sunt, ut
+          <lb ed="#P" n="84"/>supra retulimus, et in puncto sequenti plura
+          <lb ed="#P" n="85"/>ejus loca referemus. Nihilominus tamen 
+          scho<lb break="no" ed="#P" n="86"/>lastici communiter hanc partem docent cum
+          <lb ed="#P" n="87"/>D. Thoma, 1 part., q. 64, art. 3, et Alexander,
+          <lb ed="#P" n="88"/>2 part., q. 100, in ult.. per totum, et rationem
+          <lb ed="#P" n="89"/>reddunt, quia daemones, qui sunt 
+          impugnato<lb break="no" ed="#P" n="90"/>res hominum, sunt etiam eorum tortores; et
+          <lb ed="#P" n="91"/>ideo necesse est, ut ad torquendum homines
+          <lb ed="#P" n="92"/>damnatos, quos vicerunt, sint aliqui daemones
+          <lb ed="#P" n="93"/>in inferne.
+        </p>
+        <p xml:id="szdada-x26613-d1e1988">
+          <lb ed="#P" n="94"/>26. Quae ratio difficultate non caret: tum
+          <lb ed="#P" n="95"/>quia daemones non videntur in inferno 
+          neces<lb break="no" ed="#P" n="96"/>sarii ad homines puniendos, quia nihil 
+          pos<lb break="no" ed="#P" n="97"/>sunt ad propriam illius loci poenam, nimirum
+          <lb ed="#P" n="98"/>ignis, cooperari, quia ignis non agit ut 
+          instru<lb break="no" ed="#P" n="99"/>mentum daemonis, sed Dei, nec indiget aliqua
+          <lb ed="#P" n="100"/>applicatione, vel excitatione, quam per 
+          daemo<lb break="no" ed="#P" n="101"/>nem fieri oporteat. Quia locus ille totus est
+          <lb ed="#P" n="102"/>igne repletus, et in illo, tanquam in stagno,
+          <lb ed="#P" n="103"/>ignis quiescit, et damnatos intra se quasi 
+          im<lb break="no" ed="#P" n="104"/>mersos habet, semperque viget, et summam
+          <lb ed="#P" n="105"/>habet efficacitatem. Quod ergo ministerium
+          <lb ed="#P" n="106"/>daemonum circa illam poenam intervenire 
+          po<lb break="no" ed="#P" n="107"/>test ? Neque poena alia cogitari potest, propter
+          <lb ed="#P" n="108"/>quam praesentia daemonum in inferno 
+          necessa<lb break="no" ed="#P" n="109"/>ria sit. Nam si quam possunt inferre per 
+          intel<lb break="no" ed="#P" n="110"/>lectum, aut voluntatem, necesse est ut per lo-
+          <pb ed="#P" n="1062"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cutionem fiat, vel maledicendo, vel 
+          convi<lb break="no" ed="#P" n="2"/>ciando, vel blasphemando, vel aliqua objecta
+          <lb ed="#P" n="3"/>repraesentando, quae contristent: ad hujusmodi
+          <lb ed="#P" n="4"/>autem locutionem non est necessaria 
+          praesen<lb break="no" ed="#P" n="5"/>tia localis inter spiritus, ut in libro secundo
+          <lb ed="#P" n="6"/>visum est; ergo propter hunc finem, non est
+          <lb ed="#P" n="7"/>necessarium aliquos daemones esse in inferno
+          <lb ed="#P" n="8"/>praesentes ante Judicii diem. Et confirmatur,
+          <lb ed="#P" n="9"/>quia alias, antequam homines aliqui fuissent
+          <lb ed="#P" n="10"/>in inferno, daemones ibi non fuissent: quia
+          <lb ed="#P" n="11"/>non erant necessarii ad puniendos homines,
+          <lb ed="#P" n="12"/>quod non videtur verum, quia prius daemones
+          <lb ed="#P" n="13"/>fuere damnati, quam homines peccarent, vel
+          <lb ed="#P" n="14"/>crearentur.
+        </p>
+        <p xml:id="szdada-x26613-d1e2063">
+          <lb ed="#P" n="15"/>27. Qua ratione alia secunda pars 
+          assertio<lb break="no" ed="#P" n="16"/>nis suadeatur melius. — Videtur ergo mihi
+          <lb ed="#P" n="17"/>dicendum imprimis credibilius esse, daemones
+          <lb ed="#P" n="18"/>in primo lapsu, quando ejecti sunt de coelo,
+          <lb ed="#P" n="19"/>statim in profundum inferni, et in ignem ejus
+          <lb ed="#P" n="20"/>fuisse dejectos, juxta illud Isaiae 14: Detracta
+          <lb ed="#P" n="21"/>est ad inferos superbia tua, et infra: 
+          Verumta<lb break="no" ed="#P" n="22"/>men in infernum detraberis, usque ad 
+          profun<lb break="no" ed="#P" n="23"/>dum laci. Et juxta illud 2, Petri 2: Sed 
+          ruden<lb break="no" ed="#P" n="24"/>tibus inferni, etc., quod de proprio et maximo
+          <lb ed="#P" n="25"/>inferno supra exposuimus; et ratio est clara
+          <lb ed="#P" n="26"/>ex dictis, quia illa poena fuit a principio debita
+          <lb ed="#P" n="27"/>eorum superbiae, ideoque a principio ad illum
+          <lb ed="#P" n="28"/>locum definitiva sententia fuerunt damnati, ut
+          <lb ed="#P" n="29"/>jam cum Alense diximus. At in principio non
+          <lb ed="#P" n="30"/>fut necessarium illam suspendi, vel differri,
+          <lb ed="#P" n="31"/>et ideo convenientius fuit statim (ut sic dicam)
+          <lb ed="#P" n="32"/>in ejus possessionem mitti: donec creatis 
+          ho<lb break="no" ed="#P" n="33"/>minibus propter eorum bonum, et propter alias
+          <lb ed="#P" n="34"/>rationes providentiae divinae, licentiam inde
+          <lb ed="#P" n="35"/>exeundi acceperunt, ut mox dicemus, quia 
+          er<lb break="no" ed="#P" n="36"/>go praesentia daemonum in inferno est quasi
+          <lb ed="#P" n="37"/>ordinaria lex et regula, ut sic dicam; 
+          absen<lb break="no" ed="#P" n="38"/>tia vero est ex dispensatione, et propter 
+          extrin<lb break="no" ed="#P" n="39"/>secum finem: ideo per se credibile est, 
+          infer<lb break="no" ed="#P" n="40"/>num nunquam spoliari daemonibus omnibus,
+          <lb ed="#P" n="41"/>sed in eo numero permitti exire, qui ad 
+          exer<lb break="no" ed="#P" n="42"/>citium hominum sufficiat.
+        </p>
+        <p xml:id="szdada-x26613-d1e2126">
+          <lb ed="#P" n="43"/>28. Ratio conmunis adducta in num. 25, ut
+          <lb ed="#P" n="44"/>valeat.—Unde recte D. Thomas, in 4, dist. 44,
+          <lb ed="#P" n="45"/>quaest. 3, art. 3, quaestiunc. 3, alias quaest. 70,
+          <lb ed="#P" n="46"/>Addit. art. 3, ad 8, dixit, quod spiritus 
+          dam<lb break="no" ed="#P" n="47"/>nati nunquam sunt extra infermum, nisi ea 
+          dis<lb break="no" ed="#P" n="48"/>pensatione divina, vel ad instructionem, vel ad
+          <lb ed="#P" n="49"/>exercitium electorum. Et hinc etiam probabile
+          <lb ed="#P" n="50"/>cpparet, non esse daemonibus suo arbitrio 
+          re<lb break="no" ed="#P" n="51"/>lictum, ut quoties voluerint, inde exeant. sed
+          <lb ed="#P" n="52"/>inter ipsos aliquem servari ordinem et 
+          subor<lb break="no" ed="#P" n="53"/>dinationem, vel etiam per bonos Angelos posse
+          <lb ed="#P" n="54"/>in hoc coerceri, et modum aliquem, vel 
+          limi<lb break="no" ed="#P" n="55"/>tationem recipere. Hac ergo ratione videtur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>maxime probabile, aliquos daemones semper
+          <lb ed="#P" n="57"/>esse in inferno: nec contemnenda est illa 
+          ra<lb break="no" ed="#P" n="58"/>tio, quod etiam ibi assistant aliqui ad majorem
+          <lb ed="#P" n="59"/>afflictionem hominum damnatorum: nam 
+          li<lb break="no" ed="#P" n="60"/>cet ad poenam ignis non concurrant, ut ratio
+          <lb ed="#P" n="61"/>facta probare videtur; nihilominus sua 
+          prae<lb break="no" ed="#P" n="62"/>sentia et propinquitate etiam locali possunt
+          <lb ed="#P" n="63"/>eorum poenam accidentalem augere et fovere ;
+          <lb ed="#P" n="64"/>unde etiam quando animae damnatae illuc 
+          mit<lb break="no" ed="#P" n="65"/>tuntur, eas comitantur, ac deserunt, et quasi
+          <lb ed="#P" n="66"/>sibi subjectas habent, quod in earum poenam
+          <lb ed="#P" n="67"/>cedit.
+        </p>
+        <p xml:id="szdada-x26613-d1e2185">
+          <lb ed="#P" n="68"/>29. Tertia jam assertionis pars, quod aliqui
+          <lb ed="#P" n="69"/>daemmones in hoc aere versentur, probatur ex
+          <lb ed="#P" n="70"/>Scriptura. — Tertia denique pars, quod 
+          dae<lb break="no" ed="#P" n="71"/>mones in hoc aere caliginoso versentur, ad
+          <lb ed="#P" n="72"/>fidem Apostolicam pertinet, ut ait Augustinus,
+          <lb ed="#P" n="73"/>lib. 11, Genes. ad litt., cap. 26. Probaturque
+          <lb ed="#P" n="74"/>maxime ex Paulo ad Ephes. 6, dicente: 
+          7n<lb break="no" ed="#P" n="75"/>duite vos armaturam Dei, ut possitis stare 
+          ad<lb break="no" ed="#P" n="76"/>versus insidias Diaboli, quoniam non est nobis
+          <lb ed="#P" n="77"/>colluctatio adversus carnem et sanguinem, sed
+          <lb ed="#P" n="78"/>adversus principes et potestates, adversus mundi
+          <lb ed="#P" n="79"/>rectores (imo etiam pravorum hominum), f£
+          e<lb break="no" ed="#P" n="80"/>nebrarum harun, contra spiritualia nequitie
+          <lb ed="#P" n="81"/>in caelestibus, id est, qui pravos homines 
+          re<lb break="no" ed="#P" n="82"/>gunt, et in hoc aere versantur, qui nomine
+          <lb ed="#P" n="83"/>coeli saepe in Sceriptura significatur; sic enim
+          <lb ed="#P" n="84"/>exposuerunt hunc locum Patres, praesertim
+          <lb ed="#P" n="85"/>Augustinus, lib. de agone Christiano, c. 3 et 4,
+          <lb ed="#P" n="86"/>et enarratione in Psalm. 54, et consonat, quod
+          <lb ed="#P" n="87"/>idem Paulus, ad Ephes. 2, Diabolum vocat,
+          <lb ed="#P" n="88"/>Principem potestatis aeris Intjus, spiritus, qui
+          <lb ed="#P" n="89"/>nunc operatur in filios diffidentiee. Et hoc etiam
+          <lb ed="#P" n="90"/>modo potest recte intelligi, quod Judas ait:
+          <lb ed="#P" n="91"/>Sub caligine reservari spiritus, qui peccaverunt.
+          <lb ed="#P" n="92"/>Et idem probant omnia loca Evangeliorum, in
+          <lb ed="#P" n="93"/>quibus legimus, daemones inter nos versari,
+          <lb ed="#P" n="94"/>tentasse Christum, vexare homines, missos esse
+          <lb ed="#P" n="95"/>in porcos, et ex aliis corporibus hominum a
+          <lb ed="#P" n="96"/>Christo fuisse ejectos; et quod Petrus 1, Epist.,
+          <lb ed="#P" n="97"/>cap. 5, dicit Diabolo circuit, querens quem 
+          de<lb break="no" ed="#P" n="98"/>voret, et Apocal. 12, quod descendit ad nos 
+          ha<lb break="no" ed="#P" n="99"/>bens iram magnam, et similia.
+        </p>
+        <p xml:id="szdada-x26613-d1e2257">
+          <lb ed="#P" n="100"/>30. Probatur item ex Patribus. — Propter
+          <lb ed="#P" n="101"/>quae sancti Patres communiter eamdem tradunt
+          <lb ed="#P" n="102"/>veritatem. Irenaeus, lib. 5, cap. 24, Eusebius,
+          <lb ed="#P" n="103"/>lib. 3, de Demonstr. Evang., cap. 5, etlib. 4,
+          <lb ed="#P" n="104"/>cap. 8, et optime lib. 7, de Praecep., cap. 6,
+          <lb ed="#P" n="105"/>Isidorus, lib. 8, Etym., cap. ult., Augustinus
+          <lb ed="#P" n="106"/>supra, et lib. 3, Genes. ad htt., cap. 10, et
+          <lb ed="#P" n="107"/>lib. 8, de Civit., cap. 22, et lib. 11, cap. 23,
+          <lb ed="#P" n="108"/>lib. 14,cap. 3, et lib. 20, cap. 1, in Enchirid.,
+          <lb ed="#P" n="109"/>cap. 28, et lib. 4, quaest in Num., quaest. 29,
+          <lb ed="#P" n="110"/>lib. de Nat, boni, cap. 33. Hieronymus etiam
+          <pb ed="#P" n="1063"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ad Ephes. 6, ubi et locum illum ita exponit et
+          <lb ed="#P" n="2"/>addit: Hec omnium doctorum opinio est, quod
+          <lb ed="#P" n="3"/>aer iste, qui celum et terram medius dividens
+          <lb ed="#P" n="4"/>inane appelluntur., plemus est contrariis 
+          fortitu<lb break="no" ed="#P" n="5"/>dinibus. ldem sentit Chrysostomus, homil. 4,
+          <lb ed="#P" n="6"/>in epistola ad Ephes., et homil. 11, in primam
+          <lb ed="#P" n="7"/>ad Thessal.: Nescitis quam multi sunt 
+          demo<lb break="no" ed="#P" n="8"/>nes in hoc spatio, quam multae ferae, quam multa
+          <lb ed="#P" n="9"/>spiritualia nequitie, et in Orat. 6, ex decem,
+          <lb ed="#P" n="10"/>quae habentur in fine tomi 5, cujus verba paulo
+          <lb ed="#P" n="11"/>post referam. Prosper, l. 3, de Vita contempl.,
+          <lb ed="#P" n="12"/>cap. 2, Gregorius, l. 2, Moral., c. 24 alias 23,
+          <lb ed="#P" n="13"/>et lib. 33, Moral., cap. 2, Tertullianus, in
+          <lb ed="#P" n="14"/>Apolog., cap. 22. Dbi ait etiam Gentiles 
+          Phi<lb break="no" ed="#P" n="15"/>losophos hoc non ignorasse; quod late 
+          prose<lb break="no" ed="#P" n="16"/>quitur Theodoretus, lib. 3, de Curat. Graec.,
+          <lb ed="#P" n="17"/>et alia refert Eugubius, 1. 8, de Peren. Phil.,
+          <lb ed="#P" n="18"/>cap. 27.
+        </p>
+        <p xml:id="szdada-x26613-d1e2327">
+          <lb ed="#P" n="19"/>31. Item probatur a D. Thoma et aliis 
+          scho<lb break="no" ed="#P" n="20"/>lasticis ratione. — Addit Hugo de Sancto 
+          Vic<lb break="no" ed="#P" n="21"/>tore, in Summ. sent., tr. 2, cap. 4, quod 
+          Lu<lb break="no" ed="#P" n="22"/>cifer dejectus est in isthum aerem caliginosum
+          <lb ed="#P" n="23"/>cum omnibus illis, qui ei consenserunt, ad 
+          nos<lb break="no" ed="#P" n="24"/>tri probationem, ut sint nobis adminiculum
+          <lb ed="#P" n="25"/>exercitationis. Sed de illa upiversali parte 
+          in<lb break="no" ed="#P" n="26"/>fra dicemus. In assertione vero consentiunt
+          <lb ed="#P" n="27"/>theologi 2, dist. 16, cum D. Thoma et Alensi
+          <lb ed="#P" n="28"/>supra. Qui rationem reddunt ex ordine 
+          divi<lb break="no" ed="#P" n="29"/>nae providentiae, quae statuit, non solum 
+          bo<lb break="no" ed="#P" n="30"/>nis, sed etiam malis Angelis uti ad electorum
+          <lb ed="#P" n="31"/>hominum salutem: bonis quidem directe et
+          <lb ed="#P" n="32"/>per se, malis autem indirecte et per 
+          occa<lb break="no" ed="#P" n="33"/>sionem; quam rationem eleganter exposuit
+          <lb ed="#P" n="34"/>Chrysostomus, dicta orat., supra dicens: Deus
+          <lb ed="#P" n="35"/>ideo Diabolum hic reliquit, ut te fortiorem, et
+          <lb ed="#P" n="36"/>clariorem athletam efficeret, et complura etiam
+          <lb ed="#P" n="37"/>certamina nolis essent. Si quis igitur ojiciat -
+          <lb ed="#P" n="38"/>Quamobrem Deus Diabolum hic reliquit ? hoc
+          <lb ed="#P" n="39"/>pacto ipsi responde: Quia sobriis ille, et 
+          cir<lb break="no" ed="#P" n="40"/>cumspectis non solum non obfuit, sed etiam 
+          pro<lb break="no" ed="#P" n="41"/>fut.
+        </p>
+        <p xml:id="szdada-x26613-d1e2379">
+          <lb ed="#P" n="42"/>32. Ojectio.— Una vero superest circa hanc
+          <lb ed="#P" n="43"/>partem difficultas, quia ex illa videtur sequi,
+          <lb ed="#P" n="44"/>daemones, qui in hoc aere versantur, non 
+          cru<lb break="no" ed="#P" n="45"/>ciari ab igne inferni, quia nec illi alligati sunt,
+          <lb ed="#P" n="46"/>nec ignis potes: in res adeo distantes aliquid
+          <lb ed="#P" n="47"/>agere: consequens non videtur admittendum;
+          <lb ed="#P" n="48"/>ergo. Propter hoc non defuerunt, qui vel 
+          asse<lb break="no" ed="#P" n="49"/>rerent, daemones non cruciari ab igne inferni,
+          <lb ed="#P" n="50"/>usque ad diem Juüdici, vel illud in dubium 
+          re<lb break="no" ed="#P" n="51"/>vocarent; et juvari poterant verbis Christi: 7fe
+          <lb ed="#P" n="52"/>in ignem cetermum, qui paratus est Diabolo et
+          <lb ed="#P" n="53"/>Angelis ejus. Deum enim ait esse paratum, 
+          in<lb break="no" ed="#P" n="54"/>dicat actu non cruciare illos, usque ad 
+          fina<lb break="no" ed="#P" n="55"/>lem sententiam. Cui consonant verba Petri et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Judae dicentium, Angelos, qui peccarunt, 
+          re<lb break="no" ed="#P" n="57"/>servari in judicium; et hanc sententiam tenet
+          <lb ed="#P" n="58"/>Bonaventura, ut probabiliorem in 2, d. 6, a. 2,
+          <lb ed="#P" n="59"/>quaest. 2. et indicat Richardus ibi quaest. 1, 
+          di<lb break="no" ed="#P" n="60"/>cens, daemones nondum recepisse infernalis
+          <lb ed="#P" n="61"/>supplicii complementum, et magis id confirmat
+          <lb ed="#P" n="62"/>in solutione ad primum dicens, adhuc esse in
+          <lb ed="#P" n="63"/>statu demerendi; sed hoc supra improbatum
+          <lb ed="#P" n="64"/>est. Eadem sententia solet tribui Cajetano, in
+          <lb ed="#P" n="65"/>2. Pet. 2, sed illum in superioribus 
+          exposui<lb break="no" ed="#P" n="66"/>mus. Pro illa etiam citatur Cano, cujus 
+          opinio<lb break="no" ed="#P" n="67"/>nem, neque censura dignam, neque 
+          improba<lb break="no" ed="#P" n="68"/>bilem judicat Bannez, 1 p., quaest. 64, art. 4,
+          <lb ed="#P" n="69"/>dub. 4.
+        </p>
+        <p xml:id="szdada-x26613-d1e2445">
+          <lb ed="#P" n="70"/>33. Occurritur objectioni per sextam 
+          assertio<lb break="no" ed="#P" n="71"/>nem deemones etiam extra infernum semper 
+          tor<lb break="no" ed="#P" n="72"/>queri ab igne. — Nihilominus asserendum est,
+          <lb ed="#P" n="73"/>omnes daemones, ex quo de coelo ejecti fuere,
+          <lb ed="#P" n="74"/>poenam ignis pati irremissibiliter, et sine ulla
+          <lb ed="#P" n="75"/>interruptione. Haec est communis theologorum
+          <lb ed="#P" n="76"/>sententia; D. Thomas, ind., quaest. 64, art. 4,
+          <lb ed="#P" n="77"/>ad 3, et ideo dicit, 3 p., quaest. 59, art. 6, 
+          An<lb break="no" ed="#P" n="78"/>gelos a principio fuisse judicatos quoad 
+          prae<lb break="no" ed="#P" n="79"/>mium et poenam essentialem: et idem habet
+          <lb ed="#P" n="80"/>in additionibus quaest 89, art. 8, et expressius
+          <lb ed="#P" n="81"/>quaest. 70, art. 3, ad 8, alas in 4, dist. 44,
+          <lb ed="#P" n="82"/>quaest. 3, art. 3, quaestiunc. 3, ad 8, et tradit
+          <lb ed="#P" n="83"/>Glossa ordinaria in id Jacob 3: 7Inflammata
+          <lb ed="#P" n="84"/>a gehenna. Ponderatque verbum illud, ubi 
+          Ja<lb break="no" ed="#P" n="85"/>cobus daemonem ipsum gehennam vocat, quia
+          <lb ed="#P" n="86"/>tormentum gehennae secum semper portat:
+          <lb ed="#P" n="87"/>et ratio est, quia daemones statim ac 
+          peccea<lb break="no" ed="#P" n="88"/>runt fuerunt damnati, et puniti poena damni
+          <lb ed="#P" n="89"/>perpetua; ergo simul fuerunt puniti poena 
+          sen<lb break="no" ed="#P" n="90"/>sus essentiali, quae secundum ordinem 
+          justi<lb break="no" ed="#P" n="91"/>tiae peccato debetur propter conversionem ad
+          <lb ed="#P" n="92"/>bonum commnutabile; sed illa poena est aeque
+          <lb ed="#P" n="93"/>eeterna ac poena damni; ergo aeque 
+          inamissibi<lb break="no" ed="#P" n="94"/>lis est, continua et invariabilis. Et declaratur,
+          <lb ed="#P" n="95"/>quia negari non potest, quin daemones 
+          exis<lb break="no" ed="#P" n="96"/>tentes in inferno illam poenam patiantur; ergo
+          <lb ed="#P" n="97"/>etiam qui in aere versantur, iliam pati debent,
+          <lb ed="#P" n="98"/>quia non debent esse melioris conditionis, 
+          prae<lb break="no" ed="#P" n="99"/>ter justitiae aequalitatem, quod si dicatur, 
+          om<lb break="no" ed="#P" n="100"/>nes pati illam, quando sunt praesentes, non
+          <lb ed="#P" n="101"/>vero quando sunt absentes. Respondemus,
+          <lb ed="#P" n="102"/>hanc ipsam vicissitudinem esse contra 
+          aeterni<lb break="no" ed="#P" n="103"/>tatem poenae, et contra ordinariam justitiae 
+          le<lb break="no" ed="#P" n="104"/>gem, et secundum illam non posse 
+          aequalita<lb break="no" ed="#P" n="105"/>tem cum omnibus servari, quia forte non 
+          om<lb break="no" ed="#P" n="106"/>nes aequaliter exeunt ab inferno.
+        </p>
+        <p xml:id="szdada-x26613-d1e2528">
+          <lb ed="#P" n="107"/>34. Altera ratio a paritate.—In tractatu de
+          <lb ed="#P" n="108"/>Beatitudine, disp. 43, queest. 1.—benique 
+          ani<lb break="no" ed="#P" n="109"/>mae damnatae non sunt pejoris conditionis,
+          <lb ed="#P" n="110"/>quam daemones, sed illae sine intermissione
+          <pb ed="#P" n="1064"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illam poenam patiuntur; ergo a fortiori 
+          daemo<lb break="no" ed="#P" n="2"/>nes. Antecedens de Fide est, animus Sancto
+          <lb ed="#P" n="3"/>rum ac puras statim recipe:e praemium 
+          essen<lb break="no" ed="#P" n="4"/>tiale: ut ex materia de Beatitudine suppono,
+          <lb ed="#P" n="5"/>et eadem est ratio de damnatis, tum quia de
+          <lb ed="#P" n="6"/>illis dicitur Job. 21: Ducunt in bonis dies suos
+          <lb ed="#P" n="7"/>et in guncto ad inferna descendunt, et Luc. 16;
+          <lb ed="#P" n="8"/>Dives statim sepultus est in inferno, et in 
+          flam<lb break="no" ed="#P" n="9"/>ma cruciatus. Consequentia vero probatur 
+          im<lb break="no" ed="#P" n="10"/>primis a paritate rationis, vel a fortiori, quia
+          <lb ed="#P" n="11"/>daemones, ut moraliter credi potest, gravius
+          <lb ed="#P" n="12"/>peccarunt, generatim loquendo. Deinde, quia
+          <lb ed="#P" n="13"/>omnes damnati sive Angeli, sive homines sunt
+          <lb ed="#P" n="14"/>omnino extra viam; nam, ut Damascenus,
+          <lb ed="#P" n="15"/>dixit, l. 2, cap. 4, quod hominibus est mors,
+          <lb ed="#P" n="16"/>Angelis est casus, et ideo aequaliter 
+          consti<lb break="no" ed="#P" n="17"/>tuuntur in termino damnationis; tum 
+          praeter<lb break="no" ed="#P" n="18"/>ea, quia etiam animae damnatae, si quando in
+          <lb ed="#P" n="19"/>hoc mundo apparere permittuntur, tormentum
+          <lb ed="#P" n="20"/>ignis secum asserunt: ut multis revelationibus
+          <lb ed="#P" n="21"/>et apparitionibus ostensum est, quae in 
+          Sanc<lb break="no" ed="#P" n="22"/>torum historiis leguntur; tum denique quia
+          <lb ed="#P" n="23"/>eadem ratio ultimi praemii, et poenae in 
+          Ange<lb break="no" ed="#P" n="24"/>Iis intervenit; sicut ergo sancti Angeli 
+          com<lb break="no" ed="#P" n="25"/>pletam beatitudinem receperunt in termino
+          <lb ed="#P" n="26"/>viae, aqua non recedunt, quando in hunc 
+          mo<lb break="no" ed="#P" n="27"/>dum veniunt, nisi solum, quoad distantiam a
+          <lb ed="#P" n="28"/>loco coelesti; ita omnino cum proportione de
+          <lb ed="#P" n="29"/>daemonibus, et eorum poena sentiendum est.
+        </p>
+        <p xml:id="szdada-x26613-d1e2606">
+          <lb ed="#P" n="30"/>35. Quid ja respondeant quidam ad 
+          objec<lb break="no" ed="#P" n="31"/>tionem positam n. 3.— Refelluntur.—Ad 
+          objec<lb break="no" ed="#P" n="32"/>tionem ergo, theologi, qui dicunt ignem non
+          <lb ed="#P" n="33"/>torquere spiritus, nisi detentione violenta, 
+          di<lb break="no" ed="#P" n="34"/>cunt posse torquere distantes daemones, sola
+          <lb ed="#P" n="35"/>apprehensione, et firma credulitate, quod ad
+          <lb ed="#P" n="36"/>i'lum perpetuum carcerem et violentam 
+          de<lb break="no" ed="#P" n="37"/>tentionem immutabiliter destinati sunt; sed
+          <lb ed="#P" n="38"/>hanc responsionem supra rejicimus, quia 
+          re<lb break="no" ed="#P" n="39"/>vera illa non esset eadem realis poena, nec 
+          po<lb break="no" ed="#P" n="40"/>test esse tam gravis essentialiter, et secundum
+          <lb ed="#P" n="41"/>veram rerum aestimationem. Praeterquam quod
+          <lb ed="#P" n="42"/>falsum supponit, quatenus in sola detentione
+          <lb ed="#P" n="43"/>substantialem poenam ignis constituit. 
+          Suppo<lb break="no" ed="#P" n="44"/>sita ergo nostra sententia respondent alii, 
+          dae<lb break="no" ed="#P" n="45"/>mones quando in hunc mundum veniunt, non
+          <lb ed="#P" n="46"/>omnino separari localiter a toto igne inferni,
+          <lb ed="#P" n="47"/>sed portionem quamdam ignis secum atferre,
+          <lb ed="#P" n="48"/>quia in illa quodammodo sunt inclusi, eique
+          <lb ed="#P" n="49"/>uniti. Ita sentit Malonius 2, dist. 6, disput. 2,
+          <lb ed="#P" n="50"/>sectione 2, ad 8, et favere videtur Glossa citata
+          <lb ed="#P" n="51"/>Jacobi 3. Hanc vero rosponsionem merito 
+          im<lb break="no" ed="#P" n="52"/>pugnant JEgidius, in 2, dist. 6, quaest 2, art. 2,
+          <lb ed="#P" n="53"/>et Argentina, in 4, dist. 44, quaest. unic.,
+          <lb ed="#P" n="54"/>art. 4, quia licet non sit impossibilis absolute,
+          <lb ed="#P" n="55"/>requirit multa miracula, quae sine necessitate
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>multiplicanda non sunt. Unum esset, quod
+          <lb ed="#P" n="57"/>ignis ille coram oculis nostris existens non 
+          vi<lb break="no" ed="#P" n="58"/>deretur a nobis: aliud est, quod existens 
+          pro<lb break="no" ed="#P" n="59"/>pe hominem, vel intra illum, ipsum non 
+          cale<lb break="no" ed="#P" n="60"/>faceret, suspendente Deo concursum suum
+          <lb ed="#P" n="61"/>cum illo ad calefaciendum res alias praeter 
+          dae<lb break="no" ed="#P" n="62"/>monem, vel ad immutandum visum. Aliud
+          <lb ed="#P" n="63"/>quod per alia corpora penetraret, cum illis 
+          ea<lb break="no" ed="#P" n="64"/>dem replens loca, ut si daemon ingreditur 
+          cu<lb break="no" ed="#P" n="65"/>biculum undique clausum, vel si quando legio
+          <lb ed="#P" n="66"/>daemonum erat in uno homine, ita essent tot
+          <lb ed="#P" n="67"/>portiones corporalis ignis. Quae omnia magna
+          <lb ed="#P" n="68"/>sunt miracula non necessaria; nec Glossa illa
+          <lb ed="#P" n="69"/>id dixit, nam verba ejus sunt: Sicut gehenna
+          <lb ed="#P" n="70"/>semper ardet, ita Diabolus ulicumque sit, 
+          se<lb break="no" ed="#P" n="71"/>cum fert torinenta suarum flammarum. Non 
+          er<lb break="no" ed="#P" n="72"/>go ipsum ignem, sed tormentum ignis secum
+          <lb ed="#P" n="73"/>afferre dicit.
+        </p>
+        <p xml:id="szdada-x26613-d1e2706">
+          <lb ed="#P" n="74"/>36. Probatior responsio. —Aliter ergo 
+          res<lb break="no" ed="#P" n="75"/>pondit AEgidius, tunc tormentum, pront 
+          reci<lb break="no" ed="#P" n="76"/>pitur in daemone extra infernum existente esse
+          <lb ed="#P" n="77"/>idem, quod habet in inferno, non tamen esse
+          <lb ed="#P" n="78"/>ab igne, sed a Deo solo. Quod etiam potuit
+          <lb ed="#P" n="79"/>facere Deus: verumtamen nec decet, nec est
+          <lb ed="#P" n="80"/>ita consentaneum aeternitati et immutabiltati
+          <lb ed="#P" n="81"/>illius poena, nec proprie talis poena diceretur
+          <lb ed="#P" n="82"/>tor entum suarum flammarum, ut dicta Glossa
+          <lb ed="#P" n="83"/>loquitur. Melius ergo dicitur, Deum, quia 
+          ele<lb break="no" ed="#P" n="84"/>vat ignem ad agendum in Spiritum, elevare
+          <lb ed="#P" n="85"/>etiam illum ut non minus agat in distantem
+          <lb ed="#P" n="86"/>spiritum, quam in propinquum; nam hoc non
+          <lb ed="#P" n="87"/>repugnat, cum conditio propinquitatis ad 
+          sum<lb break="no" ed="#P" n="88"/>mum sit secundum naturalcm ordmem 
+          neces<lb break="no" ed="#P" n="89"/>saria et ad actionem, contactus virtualis, et
+          <lb ed="#P" n="90"/>essentialis dependentia sufficiat, quae sine illa
+          <lb ed="#P" n="91"/>conditione absque repugnantia subsistere 
+          pos<lb break="no" ed="#P" n="92"/>sunt: ut aliis locis tractando de divinis 
+          instru<lb break="no" ed="#P" n="93"/>mentis, et de Christi actione per suam 
+          huma<lb break="no" ed="#P" n="94"/>nitatem, et sacramenta declaratum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

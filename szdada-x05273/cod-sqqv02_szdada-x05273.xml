@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 21</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 21</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="210"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x05273"><!-- l2c21 -->
+        <head xml:id="szdada-x05273-Hd1e101">Caput 21</head>
+        <head xml:id="szdada-x05273-Hd1e103" type="question-title">Utrum unus angelus internos actus voluntatis alterius sine illius consensu cognoscat</head>
+        <p xml:id="szdada-x05273-d1e106">
+          <lb ed="#P" n="65"/>CAPUT XXI.
+          <lb ed="#P" n="66"/>UTRUM UNUS ANGELUS INTERNOS ACTUS 
+          VOLUNTA<lb break="no" ed="#P" n="67"/>TIS ALTERIUS SINE ILLIUS CONSENSU COGNOSCAT.
+        </p>
+        <p xml:id="szdada-x05273-d1e115">
+          <lb ed="#P" n="68"/>1. Cogitationes cordis in homine partim 
+          spi<lb break="no" ed="#P" n="69"/>rituales. partim materiales. — Materiales 
+          cor<lb break="no" ed="#P" n="70"/>dis cogitationes secundum esse physicum, non
+          <lb ed="#P" n="71"/>vero morale Angelis innotescunt. — Hactenus
+          <lb ed="#P" n="72"/>dictum est de cognitione rerum naturalium,
+          <lb ed="#P" n="73"/>nunc ad ordinem rerum liberarum 
+          ascendi<lb break="no" ed="#P" n="74"/>mus, quia licet in entitate sua ejusdem ordinis
+          <lb ed="#P" n="75"/>esse possint cum aliis rebus naturalibus, 
+          nimi<lb break="no" ed="#P" n="76"/>rum cum substantia, et potentia, a quibus
+          <lb ed="#P" n="77"/>manant, nihilominus in genere objecti 
+          co<lb break="no" ed="#P" n="78"/>gnoscibilis ad alium ordinem pertinere 
+          cen<lb break="no" ed="#P" n="79"/>sentur, propter rationem inferius 
+          assignan<lb break="no" ed="#P" n="80"/>dam. Inveniuntur autem hi actus tam in 
+          ho<lb break="no" ed="#P" n="81"/>minibus, quam in Angelis: in utrisque autem
+          <lb ed="#P" n="82"/>eamdem rationem in hac parte habent, et ideo
+          <lb ed="#P" n="83"/>de omnibus intelligitur quaestio: nam 
+          Scrip<lb break="no" ed="#P" n="84"/>turae etiam testimonia, quae de hominibus 
+          tan<lb break="no" ed="#P" n="85"/>tum saepe loquuntur, ad Angelos indifferenter
+          <lb ed="#P" n="86"/>a Patribus extenduntur, ut videbimus. Solent
+          <lb ed="#P" n="87"/>autem in Scriptura isti actus vocari 
+          cogitatio<lb break="no" ed="#P" n="88"/>nes cordium, quando Angelos latere dicuntur,
+          <lb ed="#P" n="89"/>et idem attente considerandum est in homine,
+          <lb ed="#P" n="90"/>qui intelligendo phantasmata speculatur 
+          co<lb break="no" ed="#P" n="91"/>gitationes cordium partim in superiori, ac 
+          spi<lb break="no" ed="#P" n="92"/>rituali parte animae, partim in inferiori, et 
+          sen<lb break="no" ed="#P" n="93"/>sibili reperiri. In praesenti ergo non est 
+          quaes<lb break="no" ed="#P" n="94"/>tio de parte sentiente, sive quoad internum
+          <lb ed="#P" n="95"/>sensum, seu phantasiam, vel cogitativam, sive
+          <lb ed="#P" n="96"/>quoad appetitum sensitivum: nam de his 
+          con<lb break="no" ed="#P" n="97"/>sentiunt theologi cum Augustino, 12, de 
+          Tri<lb break="no" ed="#P" n="98"/>nitate, cap. 17, et D. Thoma, locis infra 
+          cita<lb break="no" ed="#P" n="99"/>tis, posse Angelum virtute naturali cognoscere
+          <lb ed="#P" n="100"/>actus internos nostrae phantasiae, et appetitus
+          <lb ed="#P" n="101"/>sentientis intuitive quoad totam entitatem 
+          eo<lb break="no" ed="#P" n="102"/>rum, vel emanationem a potentiis propriis,
+          <lb ed="#P" n="103"/>etiamsi eos lateant proprietates morales eorum,
+          <lb ed="#P" n="104"/>quas per respectum, vel denominationem ab
+          <lb ed="#P" n="105"/>actibus voluntatis habere possunt, quod ad 
+          al<lb break="no" ed="#P" n="106"/>terum membrum disputandum pertinet. Ratio
+          <lb ed="#P" n="107"/>autem hujus partis est, quia isti actus sunt
+          <pb ed="#P" n="211"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>materiales, et ex natura sua necessarii, prout
+          <lb ed="#P" n="2"/>a suis potentiis eliciuntur, et ita per se non
+          <lb ed="#P" n="3"/>sunt actus morales, neque ad naturam 
+          ratio<lb break="no" ed="#P" n="4"/>nalem, ut rationalis est pertinent, et ideo non
+          <lb ed="#P" n="5"/>sunt per se occulti,nec de illis testimonia 
+          Scrip<lb break="no" ed="#P" n="6"/>turae loquuntur, ut videbimus.
+        </p>
+        <p xml:id="szdada-x05273-d1e222">
+          <lb ed="#P" n="7"/>2. Notationes alie pro praesenti questione.
+          <lb ed="#P" n="8"/>— Coniecturalem cognitionem cogitationum 
+          cor<lb break="no" ed="#P" n="9"/>dis naturaliter habere possunt Angeli. — 
+          Pro<lb break="no" ed="#P" n="10"/>Datur. — Rursus in actibus mentis distinguendi
+          <lb ed="#P" n="11"/>sunt actus intellectus, et voluntatis, qui in hoc
+          <lb ed="#P" n="12"/>differunt, quod actus voluntatis sunt 
+          formali<lb break="no" ed="#P" n="13"/>ter liberi, actus vero mentis solum per 
+          deno<lb break="no" ed="#P" n="14"/>minationem ab actu voluntatis, ut nunc 
+          sup<lb break="no" ed="#P" n="15"/>ponimus, et ideo quaestiones de illis 
+          distingui<lb break="no" ed="#P" n="16"/>mus, quia non sunt omnino ejusdem rationis,
+          <lb ed="#P" n="17"/>et prius de actibus voluntatis agimus, in 
+          qui<lb break="no" ed="#P" n="18"/>bus doctrina certior est. In ipsa tamen 
+          volun<lb break="no" ed="#P" n="19"/>tate possunt actus necessarii, et liberi 
+          distin<lb break="no" ed="#P" n="20"/>gui: liberi enim sunt, qui ad praesens proprie
+          <lb ed="#P" n="21"/>pertinent, obiter tamen etiam de naturalibus
+          <lb ed="#P" n="22"/>dicemus. Denique distinguendus est duplex
+          <lb ed="#P" n="23"/>modus cognoscendi internum affectum liberum
+          <lb ed="#P" n="24"/>voluntatis, scilicet, vel imperfecte, et in alio,
+          <lb ed="#P" n="25"/>ac per conjecturam, vel perfecte, et in se, seu
+          <lb ed="#P" n="26"/>intuitive. De priori modo non movemus 
+          quaes<lb break="no" ed="#P" n="27"/>tionem, quia certum est, posse daemonem 
+          con<lb break="no" ed="#P" n="28"/>jectari ex effectibus sensibilius internis, et 
+          ex<lb break="no" ed="#P" n="29"/>ternis, quid homo cogitet mente, aut velit,
+          <lb ed="#P" n="30"/>quia invisibilia Dei hoc modo cognoscimus:
+          <lb ed="#P" n="31"/>quid ergo mirum, quod per signa sensibilia
+          <lb ed="#P" n="32"/>possit Angelus conjectare internum effectum ?
+          <lb ed="#P" n="33"/>Item interna voluntas habet effectum 
+          sensibi<lb break="no" ed="#P" n="34"/>lem, qui est notus Angelo, ergo per effectum
+          <lb ed="#P" n="35"/>poterit conjectare causam cum majori, vel 
+          mi<lb break="no" ed="#P" n="36"/>nori verisimilitudine juxta modum 
+          connexio<lb break="no" ed="#P" n="37"/>nis effectus cum causa, vel secundum alias 
+          cir<lb break="no" ed="#P" n="38"/>cumstantias occurrentes. Denique homines 
+          pos<lb break="no" ed="#P" n="39"/>sunt hoc facere, ut experimento constat, ergo
+          <lb ed="#P" n="40"/>multo subtilius id possunt facere Angeli virtute
+          <lb ed="#P" n="41"/>naturali, seu daemones.
+        </p>
+        <p xml:id="szdada-x05273-d1e301">
+          <lb ed="#P" n="42"/>Animadversio circa citatum locun ex 
+          Augus<lb break="no" ed="#P" n="43"/>tino.—Et ita docet D. Thomas, 1 part., q. 51,
+          <lb ed="#P" n="44"/>art. 4, et aliis locis infra citandis. Et 
+          Hiero<lb break="no" ed="#P" n="45"/>nymus in id Matth. 15. De corde exeunt 
+          cogi<lb break="no" ed="#P" n="46"/>tationes. Non debemus (ax) opinari, deemonem
+          <lb ed="#P" n="47"/>occulta cordis rimari, sed ex corporis habitu,
+          <lb ed="#P" n="48"/>et gestibus eestimare, quid versemus 
+          intrinse<lb break="no" ed="#P" n="49"/>cus. Idem Augustinus, 1l. 12 Genes. ad htter.,
+          <lb ed="#P" n="50"/>cap. 17, et lib. de Divinat. daemon., cap. 5.
+          <lb ed="#P" n="51"/>Neque in lib. 2 Retract., cap. 5, assertionem
+          <lb ed="#P" n="52"/>hanc retractavit, quoad substantiam ejus, sed
+          <lb ed="#P" n="53"/>quoad specialem modum ibi obiter dictum, ut
+          <lb ed="#P" n="54"/>D. Thomas supra notavit. Nam rem ipsam 
+          po<lb break="no" ed="#P" n="55"/>tius in dict. cap. 5, confirmat, dicens: perce-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nire ista ad notitiam demonum, per nonnulla
+          <lb ed="#P" n="57"/>etiam experimenta compertum est. Sed quia in
+          <lb ed="#P" n="58"/>priori loco dixerat, ex cogitationibus internis
+          <lb ed="#P" n="59"/>interdum resultare in corpore cogitantis 
+          quae<lb break="no" ed="#P" n="60"/>dam signa nota daemonibus, et nobis occulta,
+          <lb ed="#P" n="61"/>hoc secundum retractat, non tanquam falsum :
+          <lb ed="#P" n="62"/>sed tanquam audacius dictum, eo quod occultum
+          <lb ed="#P" n="63"/>et sciri ab hominibus nequeat. Si enim nos 
+          ta<lb break="no" ed="#P" n="64"/>lia signa latent omnino, unde scire possumus,
+          <lb ed="#P" n="65"/>in re ipsa dari, et Angelis esse nota? Non 
+          omit<lb break="no" ed="#P" n="66"/>tam autem advertere, Augustinum in eo libro
+          <lb ed="#P" n="67"/>de Divinatione daemonum, procedere in ea 
+          sen<lb break="no" ed="#P" n="68"/>tentia, quod daemones habent corpora aera, ct
+          <lb ed="#P" n="69"/>sensus acutissimos, quibus celerrime, et 
+          subti<lb break="no" ed="#P" n="70"/>liter vident, et ideo illa signa sensibilia nimis
+          <lb ed="#P" n="71"/>subtilia in ipsis corporibus excogitasse, quae a
+          <lb ed="#P" n="72"/>daemonibus sentiri possint, etiamsi nobis non
+          <lb ed="#P" n="73"/>pateant, et de cognitione internarum 
+          affectio<lb break="no" ed="#P" n="74"/>num sensibilium, vel cogitationum phantasiae
+          <lb ed="#P" n="75"/>nullam mentionem fecisse, cum tamen haec
+          <lb ed="#P" n="76"/>sint praecipua signa, quibus uti possunt 
+          daemo<lb break="no" ed="#P" n="77"/>nes, licet non lateant.
+        </p>
+        <p xml:id="szdada-x05273-d1e384">
+          <lb ed="#P" n="78"/>3. Prima assertio de fide, in evposita 
+          quees<lb break="no" ed="#P" n="79"/>tione. — Probatur ea Scripturis. — His ergo
+          <lb ed="#P" n="80"/>suppositis dicendum est de actibus liberis 
+          vo<lb break="no" ed="#P" n="81"/>luntatis, et eorum certa, et evidenti cognitione
+          <lb ed="#P" n="82"/>in seipsis. In quo puncto omissis particularibus
+          <lb ed="#P" n="83"/>opinionibus theologorum, assertio catholica
+          <lb ed="#P" n="84"/>est, Angelum non posse naturaliter actum, seu
+          <lb ed="#P" n="85"/>consensum liberum voluntatis creatae in se
+          <lb ed="#P" n="86"/>certo, ac evidenter cognoscere, vel intueri,
+          <lb ed="#P" n="87"/>nisi ab habente talem liberum affectum alteri
+          <lb ed="#P" n="88"/>manifestatur. Quam assertionem ita indistincte
+          <lb ed="#P" n="89"/>sumptam censeo esse de fide, licet in modo 
+          ex<lb break="no" ed="#P" n="90"/>plicandi possit fortasse aliqua opinionum 
+          dis<lb break="no" ed="#P" n="91"/>sensio intervenire, vel permitti. Et ita in ea
+          <lb ed="#P" n="92"/>consentiunt D. Thomas, supra, et quaest. 16,
+          <lb ed="#P" n="93"/>de Malo, art. 8, et quaest. 9, de Verit., art.13,
+          <lb ed="#P" n="94"/>et 3, contr. Gent., cap. 154, ubilate 
+          Ferrarien<lb break="no" ed="#P" n="95"/>sis, et Cajetanus, et ali expositores, dicto art. 4,
+          <lb ed="#P" n="96"/>Alensis, 2 part., quaest. 26, in 3, Bonaventura,
+          <lb ed="#P" n="97"/>in 2, d. S8, part. 2, art. 1, quaest. 6, et ibid.
+          <lb ed="#P" n="98"/>Capreolus, Richardus et alii theologi, quos in
+          <lb ed="#P" n="99"/>discursu hujus, et sequentis capitis referemus.
+          <lb ed="#P" n="100"/>Et probatur primo ex Scriptura, in qua 
+          pro<lb break="no" ed="#P" n="101"/>prium Dei esse dicitur occulta cordium intueri.
+          <lb ed="#P" n="102"/>Testatur hoc Paulus 1, Corinth. 14, dicens:
+          <lb ed="#P" n="103"/>Si omnes prophetent, intret autem quis 
+          infide<lb break="no" ed="#P" n="104"/>lis, vel idiota, convincitur ab omnibus, 
+          dijudi<lb break="no" ed="#P" n="105"/>catur ab omnibus, occulta enim cordis ejus 
+          ma<lb break="no" ed="#P" n="106"/>nifesta fiunt, et ita cadens in faciem adorabit
+          <lb ed="#P" n="107"/>Dewun, pronuntians, quod vere Deus in vobis
+          <lb ed="#P" n="108"/>sit. Quam asseverationem ita Paulus refert, ut
+          <lb ed="#P" n="109"/>etiam approbet, et prophetiae necessitatem, et
+          <lb ed="#P" n="110"/>efficacitatem commendet. Occulta ergo cordis
+          <pb ed="#P" n="212"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>revelare ad verum donum Prophetiae spectat,
+          <lb ed="#P" n="2"/>et ideo proprium etiam est solius Dei ista 
+          co<lb break="no" ed="#P" n="3"/>gnoscere. Unde in secundo capite ejusdem 
+          epis<lb break="no" ed="#P" n="4"/>tolae dixerat idem Apostolus: Quis hominum
+          <lb ed="#P" n="5"/>scit, que sunt hominis, nisi Spiritus hominis,
+          <lb ed="#P" n="6"/>qui in ipso est? quod maxime propter occultos
+          <lb ed="#P" n="7"/>animi affectus dictum est. Et ob eamdem 
+          ra<lb break="no" ed="#P" n="8"/>tonem solus Deus dicitur posse hominum 
+          cor<lb break="no" ed="#P" n="9"/>da scrutari 3, Reg. 8. Tu solus nosti cor 
+          om<lb break="no" ed="#P" n="10"/>nium filiorun hominum: et idem sensus 
+          ha<lb break="no" ed="#P" n="11"/>betur 1, Paralipom. 28, licet exclusiva 
+          expres<lb break="no" ed="#P" n="12"/>se non addatur: Omnia corda scrutatur 
+          Do<lb break="no" ed="#P" n="13"/>mninus, et universas mentium cogitationes 
+          intel<lb break="no" ed="#P" n="14"/>ligit. Id enim quasi proprium, et speciale Deo
+          <lb ed="#P" n="15"/>tribuitur. Unde lib. 2, cap. 6, ait Salomon:
+          <lb ed="#P" n="16"/>Redde uniquique secundum vias suas, quas 
+          nos<lb break="no" ed="#P" n="17"/>ti habere in corde suo, tu enim solus nosti corda
+          <lb ed="#P" n="18"/>filiorum hominum. Unde Psalm. 43: pse novit
+          <lb ed="#P" n="19"/>abscondita cordis; et Psalm. 1: Scrutans corda
+          <lb ed="#P" n="20"/>et renes Deus, et Jerem. 17: Pravum est cor
+          <lb ed="#P" n="21"/>hominis, et inscrutabile, quis cognoscet illud ?
+          <lb ed="#P" n="22"/>ego Dominus scrutans cor. Ubi Hieronymus,
+          <lb ed="#P" n="23"/>Hinc discimus, quod nullus cogitationun 
+          secre<lb break="no" ed="#P" n="24"/>ta cognoscit, nisi solus Deus. Similia habentur
+          <lb ed="#P" n="25"/>Sapien. 1, Actor. 1, Roman. 8, ubi tanquam
+          <lb ed="#P" n="26"/>singulare Deo ponitur cognoscere, et scrutari
+          <lb ed="#P" n="27"/>corda. Et praesertim ad Hebr. 4, dicitur de
+          <lb ed="#P" n="28"/>Verbo Dei, quod sit, discretor cogitationum et
+          <lb ed="#P" n="29"/>intentionum cordis.
+        </p>
+        <p xml:id="szdada-x05273-d1e525">
+          <lb ed="#P" n="30"/>4. Durandi evasio circa allata testimonia.—
+          <lb ed="#P" n="31"/>Ha sacra pagina refellitur.—MHaec autem 
+          tes<lb break="no" ed="#P" n="32"/>timonia conatus est enervare Durandus, dicens,
+          <lb ed="#P" n="33"/>proprium esse Dei cognoscere cordis 
+          affectio<lb break="no" ed="#P" n="34"/>nes absolute, scilicet omnes tam futuras, quam
+          <lb ed="#P" n="35"/>praeteritas, vel praesentes: cognoscere autem
+          <lb ed="#P" n="36"/>cogitationes tantum jam factas, non esse 
+          pro<lb break="no" ed="#P" n="37"/>prium Dei, sed Angelis etiam esse possibile; ac
+          <lb ed="#P" n="38"/>proinde allegata testimonia in priori sensu 
+          es<lb break="no" ed="#P" n="39"/>se intelligenda. At haec glossa erronea est, et
+          <lb ed="#P" n="40"/>textum destruit. Primo, quia Paulus aperte
+          <lb ed="#P" n="41"/>loquitur de praesentibus cogitationibus, et in
+          <lb ed="#P" n="42"/>comparatione, quam in posteriori testimonio
+          <lb ed="#P" n="43"/>facit, aperte dicit, quod sicut ea, quae sunt in
+          <lb ed="#P" n="44"/>voluntate Dei, nemo scrutatur, nisi spiritus
+          <lb ed="#P" n="45"/>Dei, ita nec liberas hominis voluntates. 
+          Secun<lb break="no" ed="#P" n="46"/>do, quia in aliis testimoniis loquitur Scriptura
+          <lb ed="#P" n="47"/>vel de cogitationibus, quas homo actu 
+          praesen<lb break="no" ed="#P" n="48"/>tes habet, et illas dicit solum Deum cognoscere,
+          <lb ed="#P" n="49"/>ut in dicto loco 2 Paral. 6, vel de 
+          cogitationi<lb break="no" ed="#P" n="50"/>bus, quibus vel offenditur, vel colitur Deus,
+          <lb ed="#P" n="51"/>quae ab ipso solo judicantur et puniuntur, vel
+          <lb ed="#P" n="52"/>praemiantur: istae autem sunt eogitationes non
+          <lb ed="#P" n="53"/>futurae, sed quae jam factae sunt. Ulterius vero
+          <lb ed="#P" n="54"/>addi potest illud 1, Reg. 16. Homo cidet ea,
+          <lb ed="#P" n="55"/>qvae patent, Dominus autem intuetur cor. e
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illud Actor. 2. Tu, Domine, qui corda nosti 
+          om<lb break="no" ed="#P" n="57"/>nium: et quod Petrus dixit ad Jesum Joan. 21.
+          <lb ed="#P" n="58"/>Domine, tu omnia nosti, tu scis, quia amo te;
+          <lb ed="#P" n="59"/>ubi satis expresse de actu praesenti loquitur.
+          <lb ed="#P" n="60"/>Et licet in illis verbis non addatur exclusiva,
+          <lb ed="#P" n="61"/>aperte significatur, neminem posse intueri 
+          in<lb break="no" ed="#P" n="62"/>ternum amorem, nisi qui omnia scit.
+        </p>
+        <p xml:id="szdada-x05273-d1e601">
+          <lb ed="#P" n="63"/>5. Refellitur etiam aliter er Scriptura. —
+          <lb ed="#P" n="64"/>Unde quarto addere possumus illa testimonia,
+          <lb ed="#P" n="65"/>in quibus Evangelistae notant, Christum 
+          Domi<lb break="no" ed="#P" n="66"/>num fuisse cogitationum internarum jam 
+          exis<lb break="no" ed="#P" n="67"/>tentium cognitorem, ut indicent, illud fuisse
+          <lb ed="#P" n="68"/>certum signum divinitatis ejus. Ut Matth. 9:
+          <lb ed="#P" n="69"/>Cum vidisset J esus cogitationes eorum, et c.12:
+          <lb ed="#P" n="70"/>Jesus autem sciens cogitationes eorum; et Luc.
+          <lb ed="#P" n="71"/>15: Ut cognovit Jesus cogitationes eorum, et
+          <lb ed="#P" n="72"/>cap. 11. 7pse autem ut vidit cogitationes eorum;
+          <lb ed="#P" n="73"/>dirit. Ex quibus verbis sic argumentatur 
+          Hie<lb break="no" ed="#P" n="74"/>rony mus Jerem. 17: Jesus videt cogitationes
+          <lb ed="#P" n="75"/>et nullus potest internas cogitationes videre,
+          <lb ed="#P" n="76"/>nisi solus Deus, ergo Christus est Deus. Quae
+          <lb ed="#P" n="77"/>argumentatio efficax est, supposita doctrina,
+          <lb ed="#P" n="78"/>qua Christus dicebat, se esse Deum: nam 
+          alio<lb break="no" ed="#P" n="79"/>qui etiam homo sanctus, vel Angelus potest
+          <lb ed="#P" n="80"/>per divinam revelationem internas cogitationes
+          <lb ed="#P" n="81"/>cognoscere, sed nunc satis nobis illo 
+          argumen<lb break="no" ed="#P" n="82"/>to ostenditur, solum Deum posse sua naturali
+          <lb ed="#P" n="83"/>virtute internos voluntatis actus cognoscere.
+          <lb ed="#P" n="84"/>Atque hoc modo dicta testimonia Matthaei, et
+          <lb ed="#P" n="85"/>Lucae exponunt alii Sancti, inde divinitatem
+          <lb ed="#P" n="86"/>Christi probantes, tum super dicta loca, tum
+          <lb ed="#P" n="87"/>alibi, Hierony mus, Matth. 9 et 11, Ambrosius,
+          <lb ed="#P" n="88"/>Luc. 5, et 1, Corinth. 2, Chrysostomus, hom.
+          <lb ed="#P" n="89"/>30 et 42, in citata verba Matth. 9 et 11, ubi
+          <lb ed="#P" n="90"/>alia testimonia Scripturae sacrae allegat, et 
+          eo<lb break="no" ed="#P" n="91"/>dem modo divinitatem Christi ex illo effectu
+          <lb ed="#P" n="92"/>colligit, eumque imitatur Theophylactus, 
+          eis<lb break="no" ed="#P" n="93"/>dem locis, et optime ibi Christianus 
+          Druthma<lb break="no" ed="#P" n="94"/>rus ait: Ad cogitationes eorum respondit 
+          Domi<lb break="no" ed="#P" n="95"/>nus, quasi diceret: si legistis, quia nullus 
+          po<lb break="no" ed="#P" n="96"/>test peccata dimittere, nisi solus Deus, similiter
+          <lb ed="#P" n="97"/>legistis, quod nullus potest Lhominum 
+          cogitatio<lb break="no" ed="#P" n="98"/>nes scire, nisi solus Deus. Et similia fere 
+          ha<lb break="no" ed="#P" n="99"/>bet Petrus Chrysologus eadem verba tractans,
+          <lb ed="#P" n="100"/>serm. 50.
+        </p>
+        <p xml:id="szdada-x05273-d1e686">
+          <lb ed="#P" n="101"/>6. Deinde assertio ev Patribus probatur. —
+          <lb ed="#P" n="102"/>Unde potest veritas communi consensu, et 
+          tra<lb break="no" ed="#P" n="103"/>ditione Patrum comprobari. Optimum est 
+          Atha<lb break="no" ed="#P" n="104"/>nasii testimonium cognitionem cogitationum
+          <lb ed="#P" n="105"/>cum cognitione futurorum aequiparantis in
+          <lb ed="#P" n="106"/>quaest. 27, ad Antioch. Preescius (ait) rerum,
+          <lb ed="#P" n="107"/>et cordium cognitor solus est Deus: nec enim
+          <lb ed="#P" n="108"/>vel Angeli cordis abscondita, vel futura videre
+          <lb ed="#P" n="109"/>possunt :et Chrysostomus, homil. 23, in Joann.
+          <lb ed="#P" n="110"/>Humanorum cordiwn cognitio solius Dei est,
+          <pb ed="#P" n="213"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>qui ea formavit. Non opus erat Jesu testibus
+          <lb ed="#P" n="2"/>ad enas, quas formacerat mentes cognoscendas.
+          <lb ed="#P" n="3"/>Cyrillus, lib. 2, in Joann., cap. 19, expendens
+          <lb ed="#P" n="4"/>verba in Nathanael, Rabbi, tu es filus Dei.
+          <lb ed="#P" n="5"/>Noverat (inquit) soli Deo corda hominum 
+          pa<lb break="no" ed="#P" n="6"/>Lere. Td cum inesse Domino perspeaisset, filium
+          <lb ed="#P" n="7"/>Dei profftetur: et hb. 3, cap. 3, ponderat, 
+          so<lb break="no" ed="#P" n="8"/>litum fuisse Christum corda Judeorum 
+          aspi<lb break="no" ed="#P" n="9"/>cere, cogitationisque motus eorum emaminare,
+          <lb ed="#P" n="10"/>et ad ea, que illi mente versabant, orationem
+          <lb ed="#P" n="11"/>accommodare. Qua re macime natura se Deum
+          <lb ed="#P" n="12"/>esse ostendebat, quod libr. 4, cap. 5, exemplo
+          <lb ed="#P" n="13"/>demonstrat Origenes, libr. 1, in Job, circa
+          <lb ed="#P" n="14"/>verba illa, Circuivi terram. Videns (ait) 
+          uni<lb break="no" ed="#P" n="15"/>versa. quae opere fiunt, ea vero quae in corde,
+          <lb ed="#P" n="16"/>atque in animo tractantur, nesciens. Dasilius,
+          <lb ed="#P" n="17"/>libr. 3, contr. Eunomium ex verbis Pauli 1 
+          Co<lb break="no" ed="#P" n="18"/>rint. 2, supra citatis, sic divinitatem Spiritus
+          <lb ed="#P" n="19"/>sancti probat: Quemadmodum nemo aliemus, ac
+          <lb ed="#P" n="20"/>peregrinus intrinsecas potest animae 
+          cogitatic<lb break="no" ed="#P" n="21"/>nes inspicere, ita qui cum Deo in secretis cum
+          <lb ed="#P" n="22"/>eo communicat, non est alienus, vel peregrinus
+          <lb ed="#P" n="23"/>ab eo, quia profunditatem ejus investigare 
+          po<lb break="no" ed="#P" n="24"/>test. Indicat Damascenus, lib. 2, cap. 3, 
+          qua<lb break="no" ed="#P" n="25"/>tenus dicit, Angelos nec linguam, nec aures
+          <lb ed="#P" n="26"/>habere, quia circa sermonis adminiculum 
+          cogi<lb break="no" ed="#P" n="27"/>tationes suas, atque consilia inter se 
+          communi<lb break="no" ed="#P" n="28"/>cant, in hoc enim supponit Angelum non 
+          co<lb break="no" ed="#P" n="29"/>gnoscere alterius cogitationes, vel consilia,
+          <lb ed="#P" n="30"/>nisi ab illo sibi communicentur.
+        </p>
+        <p xml:id="szdada-x05273-d1e780">
+          <lb ed="#P" n="31"/>7. Idem, ut certum supponit Augustinus,
+          <lb ed="#P" n="32"/>dict. libr. 2 Retract, capit. 30, ut supra retuli,
+          <lb ed="#P" n="33"/>et idem significat tract. 32, in Joan, et clarius
+          <lb ed="#P" n="34"/>in Psalm. 7. Opera nostra (inquit) possunt esse
+          <lb ed="#P" n="35"/>nota hominibus, sed quo animo fiant, solus ille
+          <lb ed="#P" n="36"/>novit, qui scrutatur corda, Deus; et libr. 10
+          <lb ed="#P" n="37"/>Confession., cap. 2, tanquam singularem Dei
+          <lb ed="#P" n="38"/>excellentiam praedicat: Cuus oculis nuda est
+          <lb ed="#P" n="39"/>abyssus humane conscientie, et in Psalm. 4:
+          <lb ed="#P" n="40"/>Abyssus abyssum invocat, per abyssum cor 
+          ho<lb break="no" ed="#P" n="41"/>minis interpretatur: Quid enim (ait) est 
+          pro<lb break="no" ed="#P" n="42"/>fundius hoc abysso? Cujus cogitatio penetratur ?
+          <lb ed="#P" n="43"/>Cujus cor inspicitur ? et infra: Que tamen
+          <lb ed="#P" n="44"/>abyssus nuda est oculis Dei, utique solius. Et
+          <lb ed="#P" n="45"/>Psalm. 41, expendens verba Pauh 1, Corinth. 4:
+          <lb ed="#P" n="46"/>Nolite ante tempus judicare, etc. Antea quam
+          <lb ed="#P" n="47"/>hoc fiat (inquit) in hac peregrinatione 
+          morta<lb break="no" ed="#P" n="48"/>lis vitae quisque cor suun portat, et omne cor
+          <lb ed="#P" n="49"/>omni corde clauswm est. Item in Psalm. 141,
+          <lb ed="#P" n="50"/>illa verba: Effundo in conspectu ejus, etc., de
+          <lb ed="#P" n="51"/>interna oratione exponit, quae cogitatione fit,
+          <lb ed="#P" n="52"/>et subdit: bi ergo effunde precem tuam, ubi
+          <lb ed="#P" n="53"/>solus ille videt, qui remunerat. Unde ibidem
+          <lb ed="#P" n="54"/>Prosper eadem verba exponens, ait, id est, in
+          <lb ed="#P" n="55"/>secreto cordis, quod solus Deus audit, et videt.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Et praeterea circa id: Non erat qui cognosceret
+          <lb ed="#P" n="57"/>ie, de intentione exponit, dicens: Zanc 
+          aau<lb break="no" ed="#P" n="58"/>Lem intentionem nemo cognoscit, unde merito
+          <lb ed="#P" n="59"/>dixerat Deo- Tu cognovisti semitas meas. Idem
+          <lb ed="#P" n="60"/>confirmat Cassianus, collat. 7, cap. 13, 
+          affe<lb break="no" ed="#P" n="61"/>rens alia Scripturae loca. Unde tandem 
+          Gen<lb break="no" ed="#P" n="62"/>nadius, de Ecclesiast. dogmatibus, cap. S1,
+          <lb ed="#P" n="63"/>dixit: Internas animae cogitationes diabolum
+          <lb ed="#P" n="64"/>non videre certi sumnus.
+        </p>
+        <p xml:id="szdada-x05273-d1e859">
+          <lb ed="#P" n="65"/>8. Notatio circa dicta testimonia. —Notatio
+          <lb ed="#P" n="66"/>altera. — In his autem Patrum testimoniis duo
+          <lb ed="#P" n="67"/>sunt observanda. Unum est, saepe hoc Patres
+          <lb ed="#P" n="68"/>loqui in particulari de cordibus hominum, id
+          <lb ed="#P" n="69"/>est, de eorum cogitationibus, seu affectibus,
+          <lb ed="#P" n="70"/>ut Augustinus exponit, Psalm. 25, enarrat. 2,
+          <lb ed="#P" n="71"/>circa id: Ure renes meos et cor meum, 
+          nihilomi<lb break="no" ed="#P" n="72"/>nus tamen idem a fortiorr intellhigunt de 
+          vo<lb break="no" ed="#P" n="73"/>luntatibus angelicis, quia non minus est 
+          do<lb break="no" ed="#P" n="74"/>mina suorum actuum voluntas angelica, quam
+          <lb ed="#P" n="75"/>humana, nec ratio aliqua in voluntate humana
+          <lb ed="#P" n="76"/>inveniri potest, cur actus ejus sint aliis 
+          occul<lb break="no" ed="#P" n="77"/>ti, quae non in Angeli voluntate magis militet.
+          <lb ed="#P" n="78"/>Sed loquuntur Patres frequentius de 
+          homini<lb break="no" ed="#P" n="79"/>bus, quia ad ipsos et ad mores ipsorum 
+          ins<lb break="no" ed="#P" n="80"/>truendos loquebantur, sicut Scriptura etiam
+          <lb ed="#P" n="81"/>loquitur. Aliud est, saepe etiam solum dicere
+          <lb ed="#P" n="82"/>Patres, cor hominis esse occultum aliis 
+          homi<lb break="no" ed="#P" n="83"/>nibus, sicut dixit Gregorius 25, Moral. c. 7:
+          <lb ed="#P" n="84"/>Aliena corda humanis oculis clausa sunt et 
+          nes<lb break="no" ed="#P" n="85"/>citur, qui repellitur, quia penetrare nequeunt,
+          <lb ed="#P" n="86"/>quae ab unoquoque cogitantur: et lib. 18, cap.
+          <lb ed="#P" n="87"/>27, alias 31, de hominibus in beatitudine dicit,
+          <lb ed="#P" n="88"/>quod uniuscujusque mentem ab alterius oculis
+          <lb ed="#P" n="89"/>membrorum corpulentia non abscondet, unde 
+          si<lb break="no" ed="#P" n="90"/>gnificat nunc occultari cor unius hominis alis
+          <lb ed="#P" n="91"/>hominibus propter corporis impedimentum ,
+          <lb ed="#P" n="92"/>quod sine dubio Angelis obstare non potest.
+          <lb ed="#P" n="93"/>Verumtamen Gregorius ibi noluit causam 
+          ad<lb break="no" ed="#P" n="94"/>eequatam reddere, sed hominibus magis 
+          fami<lb break="no" ed="#P" n="95"/>liarem. Et in priori loco statim dicit 
+          cogitatio<lb break="no" ed="#P" n="96"/>nes, que latent homines, supremum Jjudicem
+          <lb ed="#P" n="97"/>1,0n latere, et similiter alii Patres omnem 
+          crea<lb break="no" ed="#P" n="98"/>turam excludunt, nam statim addunt, solum
+          <lb ed="#P" n="99"/>Den cogitationes internas cognoscere, et illa
+          <lb ed="#P" n="100"/>particula neino, seepe in hoc sensu in Scriptura
+          <lb ed="#P" n="101"/>sumitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

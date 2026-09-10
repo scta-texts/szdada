@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="49"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x01218"><!-- l1c12 -->
+        <head xml:id="szdada-x01218-Hd1e101">Caput 12</head>
+        <head xml:id="szdada-x01218-Hd1e103" type="question-title">Utrum omnes angeli sint ejusdem specifice naturae, vel inter eos essentialis distinctio inveniatur</head>
+        <p xml:id="szdada-x01218-d1e106">
+          <lb ed="#P" n="23"/>CAPUT XII.
+          <lb ed="#P" n="24"/>UTRUM OMNES ANGELI SINT EJUSDEM SPECIFICE
+          <lb ed="#P" n="25"/>NATURAE, VEL INTER EOS ESSENTIALIS 
+          DISTINC<lb break="no" ed="#P" n="26"/>TIO INVENIATUR ?
+        </p>
+        <p xml:id="szdada-x01218-d1e117">
+          <lb ed="#P" n="27"/>1. Prima ratio dubitandi em Patribus. —
+          <lb ed="#P" n="28"/>Prima dubitandi ratio sumitur ex variis dictis
+          <lb ed="#P" n="29"/>sanctorum Patrum, asserentium, omnes 
+          An<lb break="no" ed="#P" n="30"/>gelos esse ejusdem naturae, vel essentiae, quod
+          <lb ed="#P" n="31"/>absolute non nisi de rebus, ejusdem speciei 
+          di<lb break="no" ed="#P" n="32"/>citur, nemo enim dicet hominem et equum,
+          <lb ed="#P" n="33"/>imo neque leonem et equum esse ejusdem 
+          na<lb break="no" ed="#P" n="34"/>turae. Ita loquitur Basilius, lib. 3, contra Eun.,
+          <lb ed="#P" n="35"/>in principio, ubi non solum dicit: Angeli 
+          om<lb break="no" ed="#P" n="36"/>nes sicut appellationis unius, ita ejusdem sunt
+          <lb ed="#P" n="37"/>sunt nature inter se; sed etiam addit, hcet
+          <lb ed="#P" n="38"/>sint dispares in dignitate et principatu, non
+          <lb ed="#P" n="39"/>ideo naturam alteram habere. Et tandem vult,
+          <lb ed="#P" n="40"/>sicut Spiritus sanctus est ejusdem individuae
+          <lb ed="#P" n="41"/>naturae cum Patre et Filio, ita Angelos inter se
+          <lb ed="#P" n="42"/>esse ejusdem naturae communis. Unde videtur
+          <lb ed="#P" n="43"/>plane loqui de identitate naturae proxime post
+          <lb ed="#P" n="44"/>numericam. Apertissime item Gregorius 
+          Nys<lb break="no" ed="#P" n="45"/>senus, de Opifi. hom., capit. 17, ait, licet in
+          <lb ed="#P" n="46"/>Angelis non sit propagatio, nihilominus ad 
+          in<lb break="no" ed="#P" n="47"/>finita prope millia sic esse diffusos, ut et una
+          <lb ed="#P" n="48"/>et multi esse uwmero possint. Et in lib. de
+          <lb ed="#P" n="49"/>Orat. Domin., circa illa verba, Fiat voluntas
+          <lb ed="#P" n="50"/>tua sicut in celo, de natura angelica et 
+          huma<lb break="no" ed="#P" n="51"/>na tanquam de duabus essentiis, et speciebus
+          <lb ed="#P" n="52"/>loquitur. Item Athanasius, orat. in id, omnia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>mila tradita sunt, et circa finem, cum dixisset,
+          <lb ed="#P" n="54"/>homines posse vocari homousion, quia 
+          ejus<lb break="no" ed="#P" n="55"/>dem sunt naturae, subdit: Angeli quoque inter
+          <lb ed="#P" n="56"/>se generis ralione, et cetera omnia cognata
+          <lb ed="#P" n="57"/>sunt, et ejusdem natura. Et in Quaest. ad 
+          An<lb break="no" ed="#P" n="58"/>üoch., q. dicit, quod demon ab Angelo 
+          essen<lb break="no" ed="#P" n="59"/>tia non differt, sed voluntate. Et quaest. 4, 
+          di<lb break="no" ed="#P" n="60"/>cit, Angelorum, Archangelorum, etc., una est
+          <lb ed="#P" n="61"/>essentia, sicut una est essentia hominum. 
+          Da<lb break="no" ed="#P" n="62"/>mascenus, cum lib. 2, de Fide, cap. 2, dixisset
+          <lb ed="#P" n="63"/>solum Deum scire, nobisque compertum non
+          <lb ed="#P" n="64"/>esse, utrum Angeli sint essentia dispares, vel
+          <lb ed="#P" n="65"/>aequales, nihilominus lib. de Decret. et placit.,
+          <lb ed="#P" n="66"/>c. 1: Uniuscujusque speciei (inquit) una est
+          <lb ed="#P" n="67"/>natura, et omniun Angelorum una est natura,
+          <lb ed="#P" n="68"/>et omnium hominum, etc., et cap. 7: 
+          Incor<lb break="no" ed="#P" n="69"/>poream essentiam appello animum, Angelum,
+          <lb ed="#P" n="70"/>demonem, unumquodque enim istorum species
+          <lb ed="#P" n="71"/>est infirma. Et Anselmus, lib. 29: Cur Deus 
+          ho<lb break="no" ed="#P" n="72"/>mo, cap. 21, dicit, Angelos esse ejusdem 
+          natu<lb break="no" ed="#P" n="73"/>rae, licet non sint ejusdem generis, sicut 
+          homi<lb break="no" ed="#P" n="74"/>nes, nec enim sunt omnes Angeli de uno 
+          Ange<lb break="no" ed="#P" n="75"/>lo; sicut omnes homines de uno homine, ubi
+          <lb ed="#P" n="76"/>significat ita esse Angelos unius naturae, sicut
+          <lb ed="#P" n="77"/>homines, licet in modo multiplicationis 
+          ditfe<lb break="no" ed="#P" n="78"/>rant.
+        </p>
+        <p xml:id="szdada-x01218-d1e234">
+          <lb ed="#P" n="79"/>2. Secunda ratio dubitandi, seu theologica
+          <lb ed="#P" n="80"/>conjectura.—Secundo possumus theologicam
+          <lb ed="#P" n="81"/>conjecturam ex dictis facere: nam si quid 
+          es<lb break="no" ed="#P" n="82"/>set, quod nos cogeret ad constituendam inter
+          <lb ed="#P" n="83"/>Angelos differentiam essentialem, maxime quia
+          <lb ed="#P" n="84"/>Scriptura, et Patres in illis distinguunt 
+          Hierar<lb break="no" ed="#P" n="85"/>chias, et ordines Angelorum, et 
+          Archangelo<lb break="no" ed="#P" n="86"/>rum: sed ad hanc numerationem, et 
+          distinc<lb break="no" ed="#P" n="87"/>tionem non est necessaria distinctio essentialis,
+          <lb ed="#P" n="88"/>ergo non est a nobis admittenda. Major 
+          proba<lb break="no" ed="#P" n="89"/>tur, quia reliqua omnia, quae Scriptura de 
+          An<lb break="no" ed="#P" n="90"/>gelis tradit, omnibus communia sunt, et 
+          so<lb break="no" ed="#P" n="91"/>lum per illa nomina, vel aequivalentia 
+          distinc<lb break="no" ed="#P" n="92"/>tio aliqua ostenditur. Minor autem probatur
+          <lb ed="#P" n="93"/>tum ex dictis Patribus, qui distinctionem illam
+          <lb ed="#P" n="94"/>ordinum commemorantes, nihilominus 
+          essen<lb break="no" ed="#P" n="95"/>tialem distinctionem negant, vel saltem 
+          sen<lb break="no" ed="#P" n="96"/>tiunt, sine talh distinctione totam illam 
+          ordi<lb break="no" ed="#P" n="97"/>num angelicorum seriem posse subsistere.
+          <lb ed="#P" n="98"/>Quod alias sentit Bernardus, lib. 5, de 
+          Consi<lb break="no" ed="#P" n="99"/>deratione, capit. 4et 5, et Augustinus in 
+          En<lb break="no" ed="#P" n="100"/>chir., capit. 58, dum ait, quamvis nobis nota
+          <lb ed="#P" n="101"/>sint illa varia Angelorum nomina, ignorari
+          <lb ed="#P" n="102"/>autem a nobis, qualis sit illarum personarum
+          <lb ed="#P" n="103"/>differentia. Et similia habet in lib. contr. 
+          Pris<lb break="no" ed="#P" n="104"/>cillianist., c. 11. Consequentia denique 
+          proba<lb break="no" ed="#P" n="105"/>tur, quia seclusa auctoritate nulla est ratio,
+          <lb ed="#P" n="106"/>quae ad essentialem differentiam inter Angelos
+          <lb ed="#P" n="107"/>constituendam inducat. Quin potius quo inter
+          <pb ed="#P" n="50"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Angelos fuerit major unitas, eo videtur eorum
+          <lb ed="#P" n="2"/>status perfectior, quia unitas ad perfectionem
+          <lb ed="#P" n="3"/>pertinet, et ideo Deus summe unus est, ergo
+          <lb ed="#P" n="4"/>cum natura angelica non potuerit ad illam 
+          u<lb break="no" ed="#P" n="5"/>nitatem cum pluralitate personarum 
+          perveni<lb break="no" ed="#P" n="6"/>re, quo fuerit magis una, eo erit perfectior.
+        </p>
+        <p xml:id="szdada-x01218-d1e318">
+          <lb ed="#P" n="7"/>3. Tertia ratio dubitandi em Philosophia.—
+          <lb ed="#P" n="8"/>Tertio argumentantur aliqui philosophice,quia
+          <lb ed="#P" n="9"/>in tanta simplicitate, quanta est in angelica 
+          na<lb break="no" ed="#P" n="10"/>tura, videtur impossibilis specierum 
+          multipli<lb break="no" ed="#P" n="11"/>catio, cum in attributis omnibus, et potentis,
+          <lb ed="#P" n="12"/>intellectu scilicet, et voluntate, et in modo 
+          o<lb break="no" ed="#P" n="13"/>perandi conveniant. Et confirmatur, quia 
+          spi<lb break="no" ed="#P" n="14"/>ritualis substantia in duos gradus distincta est,
+          <lb ed="#P" n="15"/>rationalem, scilicet, et intellectualem, sed 
+          spi<lb break="no" ed="#P" n="16"/>ritus, seu anima rationals non potest 
+          secun<lb break="no" ed="#P" n="17"/>dum speciem multiplicari, ergo nec spiritus
+          <lb ed="#P" n="18"/>intellectualis, seu angelica natura illhus 
+          dis<lb break="no" ed="#P" n="19"/>tinctionis capax erit. Atque ita sententiam hanc
+          <lb ed="#P" n="20"/>ex antiquis theologis docuit Guillelmus 
+          Pari<lb break="no" ed="#P" n="21"/>siensis, in libr. de Uni., in 1 par., 2 partis,
+          <lb ed="#P" n="22"/>per multa capita, et Albertus Magnus, in sum.
+          <lb ed="#P" n="23"/>2 p., tract. 2, quaest. 8, et non dissentit 
+          Bona<lb break="no" ed="#P" n="24"/>ventura in 2, d. 3, art. 2, quaest. 1, hanc 
+          par<lb break="no" ed="#P" n="25"/>tem ut probabiliorem elgit.
+        </p>
+        <p xml:id="szdada-x01218-d1e362">
+          <lb ed="#P" n="26"/>4. Prima conclusio.— Possunt a Deo creari
+          <lb ed="#P" n="27"/>Angcli specie dijferentes.—Nihilominus 
+          dicen<lb break="no" ed="#P" n="28"/>dum est primo, potuisse a Deo creari Angelos
+          <lb ed="#P" n="29"/>specie differentes. Ita docuit in disp. 35 
+          Meta<lb break="no" ed="#P" n="30"/>physicae, sect. 3, art. 43, et fere nihil 
+          adden<lb break="no" ed="#P" n="31"/>dum occurrit, nec ibi dicta repetere oportet,
+          <lb ed="#P" n="32"/>quia res est clara, et videtur certissima. 
+          Eam<lb break="no" ed="#P" n="33"/>que supponere videniur Patres, non solum qui
+          <lb ed="#P" n="34"/>de facto illam distinctionem admittunt, sed
+          <lb ed="#P" n="35"/>etiam Augustinus, Damascenus, et Bernardus,
+          <lb ed="#P" n="36"/>dum enim dubitant, vel ignorare se asserunt,
+          <lb ed="#P" n="37"/>an ita sit, supponunt profecto esse possibilem.
+          <lb ed="#P" n="38"/>Et omnes scholastici id pro comperto habent ;
+          <lb ed="#P" n="39"/>et certe oppositum valde repugnat 
+          omnipoten<lb break="no" ed="#P" n="40"/>tiae Dei; mirabile enim est, quod in omnibus
+          <lb ed="#P" n="41"/>inferioribus rerum gradibus potuerit Deus tot
+          <lb ed="#P" n="42"/>rerum species producere, et in supremo gradu
+          <lb ed="#P" n="43"/>intellectuali unam tantum in suo ordine 
+          com<lb break="no" ed="#P" n="44"/>pletam cereare voluerit. Dico autem completam
+          <lb ed="#P" n="45"/>in tali gradu, quia licet anima rationalis, et
+          <lb ed="#P" n="46"/>Angelus in illo gradu aliquo modo conveniant
+          <lb ed="#P" n="47"/>et inter se specie differant, tamen anima non
+          <lb ed="#P" n="48"/>est in illo gradu completa substantia, nec 
+          om<lb break="no" ed="#P" n="49"/>nino a materia abstracta, cum essentialiter 
+          il<lb break="no" ed="#P" n="50"/>lam respiciat tanquam vera corporis forma.
+          <lb ed="#P" n="51"/>Quae autem ratio, vel repugnantia ex parte
+          <lb ed="#P" n="52"/>completi gradus intellectualis dari potest, ob
+          <lb ed="#P" n="53"/>quam non possint intra illum species 
+          essentia<lb break="no" ed="#P" n="54"/>liter distinctae multiplicari: profecto nulla. 
+          Er<lb break="no" ed="#P" n="55"/>go si Deus non posset illas producere, esset ex
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>defectu suae potentise, quod affirmare perinde
+          <lb ed="#P" n="57"/>est, atque ejus omnipotentiam negare. Minor
+          <lb ed="#P" n="58"/>probatur, quia si ex parte substantiae creatae
+          <lb ed="#P" n="59"/>spiritualis aliquid obstaret, aut esset 
+          simplici<lb break="no" ed="#P" n="60"/>tas ejus, aut perfectio, nihil enim aliud 
+          exco<lb break="no" ed="#P" n="61"/>gitari potest: at simplicitas non obstat, quia
+          <lb ed="#P" n="62"/>non est tanta, quae non admittat 
+          compositio<lb break="no" ed="#P" n="63"/>nem aliquam vel ex esse, et essentia, vel ex
+          <lb ed="#P" n="64"/>natura, et supposito, et a fortiori ex genere et
+          <lb ed="#P" n="65"/>differentia, ut supra ostensum est: tum etiam
+          <lb ed="#P" n="66"/>quia simplicitas opposita compositioni ex 
+          ma<lb break="no" ed="#P" n="67"/>teria, et forma, non excludit 
+          multiplicatio<lb break="no" ed="#P" n="68"/>nem essentialem, quia ratio propria hujus 
+          dis<lb break="no" ed="#P" n="69"/>tinctionis etiam in rebus sic compositis non est
+          <lb ed="#P" n="70"/>materia, sed forma, ergo multo melius 
+          repe<lb break="no" ed="#P" n="71"/>riri potest in formis subsistentibus sine 
+          mate<lb break="no" ed="#P" n="72"/>ria, vel ordine ad illam. Nec etiam obstat 
+          per<lb break="no" ed="#P" n="73"/>fectio illius gradus, quia omnis natura 
+          ange<lb break="no" ed="#P" n="74"/>lica est finita, et ideo facile intelligi potest 
+          a<lb break="no" ed="#P" n="75"/>lia essentialiter perfectior. Quae differentia a
+          <lb ed="#P" n="76"/>nobis per diversum operandi modum intelhgi
+          <lb ed="#P" n="77"/>potest, et explicari, ut infra dicemus; imo
+          <lb ed="#P" n="78"/>hinc sumitur efficax argumentum, quia omnis
+          <lb ed="#P" n="79"/>substantia angelica finito modo participat 
+          per<lb break="no" ed="#P" n="80"/>fectionem intellectualem Dei secundum 
+          mo<lb break="no" ed="#P" n="81"/>dum connaturalem creaturae, ergo potest 
+          faci<lb break="no" ed="#P" n="82"/>le intelligi esse possibilem superiorem 
+          substan<lb break="no" ed="#P" n="83"/>tiam spiritualem, quae perfectiori modo 
+          essen<lb break="no" ed="#P" n="84"/>tiali divinam perfectionem in illo gradu 
+          par<lb break="no" ed="#P" n="85"/>ticipet, ergo ex parte talium substantiarum
+          <lb ed="#P" n="86"/>nihil repugnat, quod inter eas essentialis 
+          di<lb break="no" ed="#P" n="87"/>versitas inveniatur, ergo neque ex parte Dei
+          <lb ed="#P" n="88"/>repugnare potest, ac proinde possibilis est 
+          ta<lb break="no" ed="#P" n="89"/>lis diversitas, et multiplicatio.
+        </p>
+        <p xml:id="szdada-x01218-d1e505">
+          <lb ed="#P" n="90"/>5. Secunda conclusio.— Probabilius est dari
+          <lb ed="#P" n="91"/>in Angelis diversitatem specierum. — Dico 
+          se<lb break="no" ed="#P" n="92"/>cundo. Longe probabilius est, in gradu 
+          ange<lb break="no" ed="#P" n="93"/>lico inveniri plures spiritus specie et essentia
+          <lb ed="#P" n="94"/>substantialiter differentes. Ita docent D. 
+          Tho<lb break="no" ed="#P" n="95"/>mas cum omnibus suis sectatoribus, et Alensis,
+          <lb ed="#P" n="96"/>Scotus, AEgidius et alii, quos capite decimo
+          <lb ed="#P" n="97"/>tertio referemus. Ex Scriptura vero et Patribus
+          <lb ed="#P" n="98"/>pauca possumus in hujus assertionis 
+          confirma<lb break="no" ed="#P" n="99"/>tionem afferre. Nam ex illis solum habemus
+          <lb ed="#P" n="100"/>varia nomina, quibus varii ordines et 
+          Hierar<lb break="no" ed="#P" n="101"/>chiae sanctorum spirituum significantur: 
+          quan<lb break="no" ed="#P" n="102"/>ta vero vel qualis sit distinctio, quae per illas
+          <lb ed="#P" n="103"/>voces significatur, nobis non explicant, neque
+          <lb ed="#P" n="104"/>ex ipsis vocibus nobis satis innotescit. Solum
+          <lb ed="#P" n="105"/>ergo possumus expendere aliqua verba, quibus
+          <lb ed="#P" n="106"/>in illis ordinibus distinguendis utuntur, quae
+          <lb ed="#P" n="107"/>multo facilius et verisimilius explicantur et
+          <lb ed="#P" n="108"/>accommodantur, si inter ipsos angelicos ordines
+          <lb ed="#P" n="109"/>naturarum distinctio supponatur. Sed hoc 
+          ar<lb break="no" ed="#P" n="110"/>gumentum in sequenti capite commodius pro-
+          <pb ed="#P" n="51"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sequemur. Ponderari etiam potest, quod dicere
+          <lb ed="#P" n="2"/>solent Patres, Angelos recepisse gratiam juxta
+          <lb ed="#P" n="3"/>proportionem naturalium: nam per hoc 
+          sup<lb break="no" ed="#P" n="4"/>ponunt mnaequalitatem in naturis eorum ante
+          <lb ed="#P" n="5"/>omnem gratiam. Item dicunt, Luciferum fuisse
+          <lb ed="#P" n="6"/>perfectiorem caeteris, vel omnibus simpliciter,
+          <lb ed="#P" n="7"/>vel saltem omnibus alicujus vel aliquorum 
+          or<lb break="no" ed="#P" n="8"/>dinum, perfectiorem, inquam, non tantum in
+          <lb ed="#P" n="9"/>gratia, sed etiam in natura et in vi, ac 
+          perspi<lb break="no" ed="#P" n="10"/>cacia intelligendi. Quod etiam significatur per
+          <lb ed="#P" n="11"/>varias metaphoras, in sensu vel mystico, vel
+          <lb ed="#P" n="12"/>secundario litterali Ezech. 28 et 31. Nam licet
+          <lb ed="#P" n="13"/>inter homines excessus ille, qui per illas 
+          meta<lb break="no" ed="#P" n="14"/>phoras declaratur, facile intelligatur secundum
+          <lb ed="#P" n="15"/>dominationem et principatum, ac potestatem
+          <lb ed="#P" n="16"/>politicam et similes perfectiones externas vel
+          <lb ed="#P" n="17"/>humanas, tamen inter Angelos non videtur
+          <lb ed="#P" n="18"/>posse accommodari, nec suffticiens illius ratio
+          <lb ed="#P" n="19"/>reddi, nisi talis excessus perfectionis seu status
+          <lb ed="#P" n="20"/>in substantia seu essentia fundamentum 
+          ha<lb break="no" ed="#P" n="21"/>beat.
+        </p>
+        <p xml:id="szdada-x01218-d1e603">
+          <lb ed="#P" n="22"/>6. Denique supposita possibilitate hujus 
+          va<lb break="no" ed="#P" n="23"/>rietatis essentialis inter Angelos, multo magis
+          <lb ed="#P" n="24"/>consentaneum est pulchritudini universi, et
+          <lb ed="#P" n="25"/>consequenter etiam ordini divinae sapientiae,
+          <lb ed="#P" n="26"/>quod Angeli fuerint in magna varietate 
+          spe<lb break="no" ed="#P" n="27"/>cierum creati. Primo quidem, quia distinctio
+          <lb ed="#P" n="28"/>et ordo specierum est per se, et magis auget
+          <lb ed="#P" n="29"/>perfectionem et nobilitatem universi, quam
+          <lb ed="#P" n="30"/>sola individuorum multiplicatio: ergo non 
+          so<lb break="no" ed="#P" n="31"/>Ium haec, sed illa maxime in angelico gradu
+          <lb ed="#P" n="32"/>esse debuit. Secundo quia multitudo specierum
+          <lb ed="#P" n="33"/>in inferioribus gradibus corporum, seu 
+          viven<lb break="no" ed="#P" n="34"/>tium mirum in modum ornat universum, 
+          di<lb break="no" ed="#P" n="35"/>vinamque sapientiam, bonitatem et potestatem
+          <lb ed="#P" n="36"/>ostendit: sed gradus substantiarum 
+          separata<lb break="no" ed="#P" n="37"/>rum magis pertinet ad universi perfectionem,
+          <lb ed="#P" n="38"/>quam omnes inferiores, ergo maxime debuit
+          <lb ed="#P" n="39"/>in illo haec varietas inveniri. Tertio quia in
+          <lb ed="#P" n="40"/>inferioribus invenimus inter extreme distantia
+          <lb ed="#P" n="41"/>in eodem gradu plures essentias medias, ut
+          <lb ed="#P" n="42"/>inter hominem et animalia imperfecta 
+          innu<lb break="no" ed="#P" n="43"/>merabiles species animalium perfectorum et
+          <lb ed="#P" n="44"/>irrationalium, et sic de aliis, ergo multo 
+          ma<lb break="no" ed="#P" n="45"/>gis inter Deum et hominem, qui sunt quasi
+          <lb ed="#P" n="46"/>extrema summe distantia in gradu 
+          intellec<lb break="no" ed="#P" n="47"/>tuali, debuerunt produci multi gradus 
+          natura<lb break="no" ed="#P" n="48"/>rum intellectualium specie diversarum. 
+          Tan<lb break="no" ed="#P" n="49"/>dem quarto in corporibus coelestibus et 
+          side<lb break="no" ed="#P" n="50"/>ribus varietas specierum invenitur, cur ergo
+          <lb ed="#P" n="51"/>non etiam in Angelis, vel coelorum motoribus,
+          <lb ed="#P" n="52"/>vel aliis dignioribus invenietur?
+        </p>
+        <p xml:id="szdada-x01218-d1e673">
+          <lb ed="#P" n="53"/>7. Respondetur ad Patrum testimonia in 
+          nu<lb break="no" ed="#P" n="54"/>mero primo.— Ad secundam rationem dubitandi
+          <lb ed="#P" n="55"/>in numero secundo.—Ad testimonia ergo Sanc-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>torum in principio allegata imprimis dici 
+          po<lb break="no" ed="#P" n="57"/>test, eos locutos fuisse de natura angelica 
+          tan<lb break="no" ed="#P" n="58"/>quam de una specie instar humanae, quia sicut
+          <lb ed="#P" n="59"/>id, in quo homines conveniunt, est in eis 
+          per<lb break="no" ed="#P" n="60"/>fectissimum, ita Angeli in eo maxime 
+          conve<lb break="no" ed="#P" n="61"/>niunt, quod in eis ad perfectionem simpliciter
+          <lb ed="#P" n="62"/>pertinet, ut est gradus intellectualis 
+          spiritua<lb break="no" ed="#P" n="63"/>lis, et omnino a materia abstractus. Et quia
+          <lb ed="#P" n="64"/>hoc fere solum de substantia Angelorum 
+          cog<lb break="no" ed="#P" n="65"/>noscimus, ideo de illorum natura instar 
+          hu<lb break="no" ed="#P" n="66"/>manae Sancti loquuntur. Et hinc etiam aliqui
+          <lb ed="#P" n="67"/>eorum in eam sententiam de unitate specifica
+          <lb ed="#P" n="68"/>Angelorum descendisse videntur, quod in re
+          <lb ed="#P" n="69"/>obscura et opinabili mirandum non est. Alii
+          <lb ed="#P" n="70"/>vero generaliter loquuntur de unitate naturae
+          <lb ed="#P" n="71"/>angelicae, vel abstrahendo a modo unitatis, vel
+          <lb ed="#P" n="72"/>dubitando quanta et qualis illa sit. Secundum
+          <lb ed="#P" n="73"/>vero argumentum petit, ut explicemus modum
+          <lb ed="#P" n="74"/>distinctionis inter Hierarchias et ordines 
+          An<lb break="no" ed="#P" n="75"/>gelorum, cui petitioni in sequenti capite 
+          satis<lb break="no" ed="#P" n="76"/>faciemus. Ad tertium per primam assertionem
+          <lb ed="#P" n="77"/>responsum est.
+        </p>
+        <p xml:id="szdada-x01218-d1e732">
+          <lb ed="#P" n="78"/>8. Ad tertiam et ad ejus confirmationem in
+          <lb ed="#P" n="79"/>numero tertio. — Ad confirmationem vero de
+          <lb ed="#P" n="80"/>unitate animae rationalis respondetur negando
+          <lb ed="#P" n="81"/>paritatem rationis, quia anima rationalis est
+          <lb ed="#P" n="82"/>alterum extremum totius latitudinis gradus
+          <lb ed="#P" n="83"/>intellectus, infimum sane, ac extreme a Deo
+          <lb ed="#P" n="84"/>distans, et ideo in illo infimo gradu non fuit
+          <lb ed="#P" n="85"/>necessaria naturarum multiplicatio, sed 
+          indi<lb break="no" ed="#P" n="86"/>viduorum suflicit, quae imperfectioni illius 
+          ex<lb break="no" ed="#P" n="87"/>tremi accommodata est: nam ex parte Dei, seu
+          <lb ed="#P" n="88"/>alterius extremi propter summam ejus 
+          perfec<lb break="no" ed="#P" n="89"/>tionem nulla multiplicatio naturae necessaria,
+          <lb ed="#P" n="90"/>vel possibilis fuit. At vero angelicus ordo est
+          <lb ed="#P" n="91"/>medius inter haec duo extrema, et ideo ad 
+          per<lb break="no" ed="#P" n="92"/>fectionem et quasi ad complementum ejus,
+          <lb ed="#P" n="93"/>varietas naturarum necessaria fuit, ut 
+          decla<lb break="no" ed="#P" n="94"/>ratum est. Poterat hic disputari, an sint 
+          possi<lb break="no" ed="#P" n="95"/>biles plures species formarum immaterialium
+          <lb ed="#P" n="96"/>et intellectualium informantium corpora ? Sed
+          <lb ed="#P" n="97"/>praesenti instituto non est necessaria haec 
+          quaes<lb break="no" ed="#P" n="98"/>tio, et fortasse in tractatu de anima attingetur.
+          <lb ed="#P" n="99"/>Nunc enim satis est, quod ad perfectionem 
+          il<lb break="no" ed="#P" n="100"/>lius gradus seu termini necessaria non est, nec
+          <lb ed="#P" n="101"/>intelligibilis secundum ordinem inferiorum
+          <lb ed="#P" n="102"/>corporum a Deo institutum. Quia non videtur
+          <lb ed="#P" n="103"/>posse secundum debitum naturarum 
+          intellec<lb break="no" ed="#P" n="104"/>tualium ordinem aliqua intellectualis 
+          substan<lb break="no" ed="#P" n="105"/>tia uniri corpori, ut forma, nisi per illud possit
+          <lb ed="#P" n="106"/>cognitionem accipere: non potest autem anima
+          <lb ed="#P" n="107"/>per corpus cognitionem accipere, nisi sit capax
+          <lb ed="#P" n="108"/>cognitionis sensitivae ad abstrahendam 
+          cogni<lb break="no" ed="#P" n="109"/>tionem intellectualem accommodatae. In illo
+          <lb ed="#P" n="110"/>autem modo cognoscendi, vel non oportuit es-
+          <pb ed="#P" n="52"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sentialem varietatem inveniri, quia 
+          imperfec<lb break="no" ed="#P" n="2"/>tus est, vel forte non potuit, quia nimis 
+          deter<lb break="no" ed="#P" n="3"/>minatus et particularis est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

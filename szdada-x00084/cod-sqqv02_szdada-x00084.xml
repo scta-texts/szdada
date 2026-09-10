@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="4"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x00084"><!-- l1c2 -->
+        <head xml:id="szdada-x00084-Hd1e101">Caput 2</head>
+        <head xml:id="szdada-x00084-Hd1e103" type="question-title">Utrum angeli sint aeterni, vel esse incoeperint</head>
+        <p xml:id="szdada-x00084-d1e106">
+          <lb ed="#P" n="51"/>CAPUT III
+          <lb ed="#P" n="52"/>UTRUM ANGELI SINT AETERNI, VEL ESSE
+          <lb ed="#P" n="53"/>INCOEPERINT.
+        </p>
+        <p xml:id="szdada-x00084-d1e115">
+          <lb ed="#P" n="54"/>1. Duobus modis potest aliquid esse 
+          aeter<lb break="no" ed="#P" n="55"/>num. — Hujus puncti resolutio ad 
+          complemen<lb break="no" ed="#P" n="56"/>tum quaestionis, an sint Angeli, pertinere 
+          vi<lb break="no" ed="#P" n="57"/>detur, et ideo priusquam ulterius, quid sit,
+          <lb ed="#P" n="58"/>inquiramus, vel explicemus, illam hoc loco
+          <lb ed="#P" n="59"/>expendere visum est. Duobus igitur modis 
+          in<lb break="no" ed="#P" n="60"/>telligi potest, aliquid esse aeternum, uno modo
+          <lb ed="#P" n="61"/>ab intrinseco, alio modo ex influxu alterius
+          <lb ed="#P" n="62"/>aeterno. Inter quos duos modos inter alias haec
+          <lb ed="#P" n="63"/>est differentia, quod res priori modo aeterna
+          <lb ed="#P" n="64"/>tam a parte ante, quam post, seu tam respectu
+          <lb ed="#P" n="65"/>praeteritae, quam respectu futurae durationis,
+          <lb ed="#P" n="66"/>sive realis, ac verae, sive possibilis, seu 
+          imagi<lb break="no" ed="#P" n="67"/>nariae, aeterna est. Quia cum per se et non ab
+          <lb ed="#P" n="68"/>alio sit, non potest habere initium, cumque a
+          <lb ed="#P" n="69"/>nullo pendeat, privari esse non potest, vel 
+          fi<lb break="no" ed="#P" n="70"/>nem durandi habere. Cur enim tale ens, quod
+          <lb ed="#P" n="71"/>a se, seu non ab alio esse dicitur, in tali 
+          punc<lb break="no" ed="#P" n="72"/>to esse incoepisset, potius quam antea ? vel si
+          <lb ed="#P" n="73"/>aliquando non esset, quomodo inciperet 
+          ha<lb break="no" ed="#P" n="74"/>bere esse, nisi ab alio ei daretur ? Est ergo
+          <lb ed="#P" n="75"/>evidens id, quod sine alterius effectione 
+          ali<lb break="no" ed="#P" n="76"/>quando habet esse, semper, ac necessario illud
+          <lb ed="#P" n="77"/>habuisse, quia non potuit habere, unde de
+          <lb ed="#P" n="78"/>novo pullulaverit, sed ideo sit, quia ex 
+          intrin<lb break="no" ed="#P" n="79"/>seca et essentiali ratione habet, quod sit ens
+          <lb ed="#P" n="80"/>actuale. Et inde etiam sit evidens, eadem 
+          ne<lb break="no" ed="#P" n="81"/>cessitate duraturum in perpetuum, quia 
+          sem<lb break="no" ed="#P" n="82"/>per eamdem habet existendi necessitatem, et
+          <lb ed="#P" n="83"/>quia nec seipsum destruet, nec ab alio pendet,
+          <lb ed="#P" n="84"/>a quo destrui possit. At vero si quares sit non
+          <lb ed="#P" n="85"/>ex se, sed ex beneficio alterius; illa licet 
+          sup<lb break="no" ed="#P" n="86"/>ponatur esse aeterna, esse poterit aeterna a
+          <lb ed="#P" n="87"/>parte ante; seu comparata ad praeteritam 
+          du<lb break="no" ed="#P" n="88"/>rationem, licet non sit perpetuo duratura:
+          <lb ed="#P" n="89"/>sicut etiam e contrario esse poterit in 
+          poste<lb break="no" ed="#P" n="90"/>rum aeterna, licet ab aeterno non fuerit, vel
+          <lb ed="#P" n="91"/>juxia modum operandi causae efficientis, et
+          <lb ed="#P" n="92"/>conservantis, vel juxta beneplacitum ejus, si
+          <lb ed="#P" n="93"/>libere agat, utrevera operatur Deus, ex 
+          utra<lb break="no" ed="#P" n="94"/>que parte aeterna esse poterit. Hic ergo 
+          prae<lb break="no" ed="#P" n="95"/>cipue agimus de duratione aeterna a parte
+          <lb ed="#P" n="96"/>ante, seu in praeteritum: de aeternitate vero
+          <lb ed="#P" n="97"/>Angelorum in futurum, in capite octavo 
+          dice<lb break="no" ed="#P" n="98"/>mus.
+        </p>
+        <p xml:id="szdada-x00084-d1e215">
+          <lb ed="#P" n="99"/>2. Prima conclusio bipartita.—Primo ergo
+          <lb ed="#P" n="100"/>sit certum, Angelos non esse aeternos ab 
+          intrin<lb break="no" ed="#P" n="101"/>seco, seu essentialiter, neque ex aliqua 
+          abso<lb break="no" ed="#P" n="102"/>luta necessitate, ac per se. Haec assertio non
+          <pb ed="#P" n="5"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>solum est de fide certissima, sed etiam 
+          evi<lb break="no" ed="#P" n="2"/>dens, supponendo, quod jam ostendimus, 
+          An<lb break="no" ed="#P" n="3"/>gelos esse in rerum natura. Et prior quidem
+          <lb ed="#P" n="4"/>pars facile probatur, quia non habent illud esse
+          <lb ed="#P" n="5"/>a se, sed ab aliqua efficiente causa, ergo non
+          <lb ed="#P" n="6"/>habent necessitatem essendi a se, ergo nec
+          <lb ed="#P" n="7"/>aeternitatem. Consequentia sunt evidentes.
+          <lb ed="#P" n="8"/>Antecedens autem est de fide, quae nos docet,
+          <lb ed="#P" n="9"/>Deum esse creatorem omnium visibilium et
+          <lb ed="#P" n="10"/>invisibilium, quae non sunt Deus, tales autem
+          <lb ed="#P" n="11"/>sunt Angeli, ut recte probat Athanasius, q. 1,
+          <lb ed="#P" n="12"/>ad Antioch., et Chrysostomus, homil. de Jejun.,
+          <lb ed="#P" n="13"/>post homilias in Genes., ex illo Ps. 148: 
+          Lau<lb break="no" ed="#P" n="14"/>date Deun omnes Angeli, et infra: Ipse dixit,
+          <lb ed="#P" n="15"/>et facta sunt, ibi enim inter opera Dei 
+          nume<lb break="no" ed="#P" n="16"/>rantur, et ad Deum laudandum a Propheta 
+          in<lb break="no" ed="#P" n="17"/>vitantur. Et simili modo Daniel, 3, postquam
+          <lb ed="#P" n="18"/>pueri dixerunt: Denedicite omnia opera 
+          Domi<lb break="no" ed="#P" n="19"/>ni Domino, etc., addiderunt: Benedicite 
+          An<lb break="no" ed="#P" n="20"/>geli Domini Domino. Et ad Coloss. 1, de 
+          Chris<lb break="no" ed="#P" n="21"/>to ait Paulus: 7n ipso condita sunt unicersa,
+          <lb ed="#P" n="22"/>sice throni, etc. Idemque probat D. Gregorius,
+          <lb ed="#P" n="23"/>l. 32, Moral., c. 9, ex illo Job 4: Ecce 
+          Behe<lb break="no" ed="#P" n="24"/>oth quem feci tecum. Ac denique inter fidei
+          <lb ed="#P" n="25"/>articulos ponitur Deum esse invisibilium 
+          crea<lb break="no" ed="#P" n="26"/>torem, ut in Concilio Niceno habetur. Et in
+          <lb ed="#P" n="27"/>sequenti tractatu, libro primo, capite primo,
+          <lb ed="#P" n="28"/>iterum dicemus. Ratione item ostendi potest
+          <lb ed="#P" n="29"/>ex alio principio tradito in Metaphysica, d. 28,
+          <lb ed="#P" n="30"/>sect. 1, et disp. 29, sect. 1, 2 et 3, nimirum
+          <lb ed="#P" n="31"/>ens a se non posse esse nisi unum tantum: ex
+          <lb ed="#P" n="32"/>hoc enim principio evidenter infertur, 
+          quid<lb break="no" ed="#P" n="33"/>quid est in rebus distinctum ab illo uno ente,
+          <lb ed="#P" n="34"/>quod ex se habet esse, non posse existere, nisi
+          <lb ed="#P" n="35"/>per efficientiam ejus,ut in eadem Metaphysica,
+          <lb ed="#P" n="36"/>disp. 20, deduximus et specialiter de Angelis,
+          <lb ed="#P" n="37"/>in disp. 29, sect. 2, a. n. 29, ergo Angeli ex
+          <lb ed="#P" n="38"/>se non sunt aeterni.
+        </p>
+        <p xml:id="szdada-x00084-d1e314">
+          <lb ed="#P" n="39"/>3. Probatur secunda pars.—hesponderi 
+          pos<lb break="no" ed="#P" n="40"/>set, etiamsi ex se non habeant esse, posse 
+          il<lb break="no" ed="#P" n="41"/>lud habere necessario, eo quod necessario a
+          <lb ed="#P" n="42"/>sua causa emanant, atque hoc modo posse 
+          ha<lb break="no" ed="#P" n="43"/>bere necessitatem durationis, ac subinde 
+          ae<lb break="no" ed="#P" n="44"/>ternitatem. Sed haec evasio (ut in eisdem locis
+          <lb ed="#P" n="45"/>Metaphysicae notatum est) facile refellitur, 
+          si<lb break="no" ed="#P" n="46"/>mulque probatur altera pars assertionis, quia
+          <lb ed="#P" n="47"/>haec absoluta necessitas est impossibilis. 
+          Quo<lb break="no" ed="#P" n="48"/>niam nec ex natura etconditione ipsius causae
+          <lb ed="#P" n="49"/>effectricis Angelorum, nec ex natura ipsorum
+          <lb ed="#P" n="50"/>Angelorum oriri potest, et ideo nulla ratione
+          <lb ed="#P" n="51"/>esse potest. Prior pars antecedentis probatur,
+          <lb ed="#P" n="52"/>quia repugnat Deo aliquid agere extra se ex
+          <lb ed="#P" n="53"/>necessitate naturae, tum quia intellectualis est
+          <lb ed="#P" n="54"/>in summa perfectione, ac proinde maxime 
+          li<lb break="no" ed="#P" n="55"/>ber, tum etiam quia nulla re extra se indiget,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et ideo nihil extra se ita amat, ut necessario
+          <lb ed="#P" n="57"/>illud esse, aut facere velit, tum etiam quia
+          <lb ed="#P" n="58"/>cum sit omnipotens et infinitae efficacitatis,
+          <lb ed="#P" n="59"/>nihil determinatum agere posset, nisi per 
+          li<lb break="no" ed="#P" n="60"/>beram voluntatem id determinaret. Nam si ex
+          <lb ed="#P" n="61"/>necessitate naturae ageret, cur potius hos 
+          An<lb break="no" ed="#P" n="62"/>gelos, quam alios possibiles, vel cur tot 
+          po<lb break="no" ed="#P" n="63"/>tius, quam plures creasset ? Unde facile 
+          de<lb break="no" ed="#P" n="64"/>monstratur pars altera, scilicet, hujusmodi
+          <lb ed="#P" n="65"/>necessitatem non posse ex peculiari conditione
+          <lb ed="#P" n="66"/>angelicae naturae provenire: tum quia cum sit
+          <lb ed="#P" n="67"/>finitae bonitatis et non sit finis Dei, nec illi
+          <lb ed="#P" n="68"/>aliquid conferat, non potest voluntatem ejus
+          <lb ed="#P" n="69"/>ad se amandum, vel efficiendum ex necessitate
+          <lb ed="#P" n="70"/>determinare, tum etiam quia cum infiniti À
+          n<lb break="no" ed="#P" n="71"/>geli possibiles sint, cur magis illi, qui facti
+          <lb ed="#P" n="72"/>sunt, hanc in Deum necessitatem invexissent,
+          <lb ed="#P" n="73"/>quam infiniti alii, qui facti non sunt? Est ergo
+          <lb ed="#P" n="74"/>evidens non habere Angelos aeternitatem non
+          <lb ed="#P" n="75"/>solum ut proprie dicit durationem per se 
+          ne<lb break="no" ed="#P" n="76"/>cessariam, et independentem ab alio, sed 
+          e<lb break="no" ed="#P" n="77"/>tiam ut dicere potest durationem quocumque
+          <lb ed="#P" n="78"/>titulo absolute necessariam.
+        </p>
+        <p xml:id="szdada-x00084-d1e405">
+          <lb ed="#P" n="79"/>4. Secunda conclusio. De fide Angeli non
+          <lb ed="#P" n="80"/>sunt ex eeternitate creati.—Secundo dicendum
+          <lb ed="#P" n="81"/>est, Angelos de facto non esse aeternos a parte
+          <lb ed="#P" n="82"/>ante, seu non fuisse ex aeternitate creatos.
+          <lb ed="#P" n="83"/>Hanc assertionem sola ratio naturalis assequi
+          <lb ed="#P" n="84"/>non potest saltem necessaria ratione, quia
+          <lb ed="#P" n="85"/>non potest certa ratione ostendi, esse 
+          impossi<lb break="no" ed="#P" n="86"/>bilem creationem aeternam ex libera Dei 
+          vo<lb break="no" ed="#P" n="87"/>Iuntate, ut in Metaphysica, disp. 20, sect. 6.
+          <lb ed="#P" n="88"/>Quod si aliqua est possibilis, maxime 
+          Angelo<lb break="no" ed="#P" n="89"/>rum, qui sunt inter res creatas maxime 
+          indi<lb break="no" ed="#P" n="90"/>visibiles, ac permanentes, quas duas 
+          conditio<lb break="no" ed="#P" n="91"/>nes aeternitas postulare potest. Unde eorum
+          <lb ed="#P" n="92"/>duratio intrinseca proxime ad aeternitatem 
+          ac<lb break="no" ed="#P" n="93"/>cedit, et aevum appellatur, ut theologi docent,
+          <lb ed="#P" n="94"/>et in Metaphysica, disp. 60, sect. 5 et 6, 
+          dic<lb break="no" ed="#P" n="95"/>tum est, et tradit D. Thomas cum 
+          expositori<lb break="no" ed="#P" n="96"/>bus, in 1. p., 10. Non potest ergo assertio 
+          ra<lb break="no" ed="#P" n="97"/>tione naturali demonstrari, licet suaderi 
+          ali<lb break="no" ed="#P" n="98"/>quo modo possit, ut infra dicam. Est 
+          nihil<lb break="no" ed="#P" n="99"/>ominus conclusio certa in theologia, in illa
+          <lb ed="#P" n="100"/>enim omnes theologi conveniunt, ut paulo
+          <lb ed="#P" n="101"/>post videbimus. Item Patres tam qui dicunt,
+          <lb ed="#P" n="102"/>Angelos incoepisse cum hoc modo corporeo,
+          <lb ed="#P" n="103"/>quam qui antea extitisse putarunt, omnes in
+          <lb ed="#P" n="104"/>hoc conveniunt, quod Angeli ex aeternitate
+          <lb ed="#P" n="105"/>non fuerunt.
+        </p>
+        <p xml:id="szdada-x00084-d1e466">
+          <lb ed="#P" n="106"/>5. Prima probatio. —Ex probari potest 
+          pri<lb break="no" ed="#P" n="107"/>mo ex Scriptura, Proverb. 8: Dominus 
+          posse<lb break="no" ed="#P" n="108"/>dit me in initio vciarum suarum, antequam
+          <lb ed="#P" n="109"/>quidquam faceret a principio, ubà aperte 
+          dici<lb break="no" ed="#P" n="110"/>tur, Deum, divinamque sapientiam extitisse,
+          <pb ed="#P" n="6"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>antequam aliquid crearet, et consequenter 
+          e<lb break="no" ed="#P" n="2"/>tiam ante Angelos: nam illi etiam sunt 
+          ah<lb break="no" ed="#P" n="3"/>quid factum. Nec refert, quod Septuaginta
+          <lb ed="#P" n="4"/>loco illorum verborum transtulerint, ad opera
+          <lb ed="#P" n="5"/>sua (qua lectione multi ex antiquis Patribus
+          <lb ed="#P" n="6"/>utuntur,) tum quia vulgata lectio sustinenda
+          <lb ed="#P" n="7"/>est, et ad probationem catholicam sufficit.
+          <lb ed="#P" n="8"/>Tum etiam quia illa lectio possedit me ad 
+          ope<lb break="no" ed="#P" n="9"/>ra sua, per aliam declaratur. Possidebat enim
+          <lb ed="#P" n="10"/>Deus sapientiam suam ad opera, etiam quando
+          <lb ed="#P" n="11"/>nihil extra operabatur, sicut dicitur quis 
+          ha<lb break="no" ed="#P" n="12"/>bere scientiam ad docendum etiam quando
+          <lb ed="#P" n="13"/>non docet. Tum praeterea, quia Ecclesia 
+          ca<lb break="no" ed="#P" n="14"/>tholica sententiam illam sub illis verbis publice
+          <lb ed="#P" n="15"/>decantat, et recipit, veramque sententiam 
+          con<lb break="no" ed="#P" n="16"/>tinere credit. Tum denique quod similia fere
+          <lb ed="#P" n="17"/>sunt verba ejusdem sapientiae Eecclesiast. 24:
+          <lb ed="#P" n="18"/>HEgo ec ore Altissimi prodivi primogenita ante
+          <lb ed="#P" n="19"/>omnem creaturam. Nam perinde dictum est,
+          <lb ed="#P" n="20"/>ante omnem creaturam, ac, antequam quidquam
+          <lb ed="#P" n="21"/>faceret. Praecessit efgo Deus, suaque sapientia
+          <lb ed="#P" n="22"/>ex aeternitate omnem creaturam, ac subinde
+          <lb ed="#P" n="23"/>etiam Angelos: non sunt ergo aeterni.
+        </p>
+        <p xml:id="szdada-x00084-d1e534">
+          <lb ed="#P" n="24"/>6. Et ideo Paulus ad Heb. 13, singulariter
+          <lb ed="#P" n="25"/>de Christo dixit: Heri, et hodie ipse est in 
+          se<lb break="no" ed="#P" n="26"/>cula, tanquam illi sit proprium semper esse,
+          <lb ed="#P" n="27"/>quod Angelis non convenit, ut Ambrosius,
+          <lb ed="#P" n="28"/>lib. 5, de Fide, ponderavit. Quocirca cum
+          <lb ed="#P" n="29"/>Christus Joan. 17, dicit, se habuisse claritatem
+          <lb ed="#P" n="30"/>apud Patrem priusquam mundus fieret, et cum
+          <lb ed="#P" n="31"/>Paulus ad Ephes. 1, dicit: Flegit nos in ipso
+          <lb ed="#P" n="32"/>ante mundi constitutionem, nomme mundi 
+          An<lb break="no" ed="#P" n="33"/>geli comprehenduntur: nam ad universi 
+          con<lb break="no" ed="#P" n="34"/>stitutionem, et complementum pertinent.
+          <lb ed="#P" n="35"/>Propter quod in Concilio Lateranense sub
+          <lb ed="#P" n="36"/>Innocentio HT, capite F'irmiter, dicitur, quod
+          <lb ed="#P" n="37"/>unus solus verus Deus est aeternus, Pater, 
+          sci<lb break="no" ed="#P" n="38"/>licet, Filius, et Spiritus sanctus, qui coaeterni
+          <lb ed="#P" n="39"/>sunt, vel, non tres eterni, sed unus ceternus,
+          <lb ed="#P" n="40"/>sicut in symbolo Athanasius dixit. Nec potest
+          <lb ed="#P" n="41"/>exponi, quod solus sit aeternus propria 
+          aeterni<lb break="no" ed="#P" n="42"/>tate independente ab omni causa, sed absolute
+          <lb ed="#P" n="43"/>quod solus perpetuo extiterit. Nam inde 
+          subin<lb break="no" ed="#P" n="44"/>fert, hunc Deum aeternum sua omnipotenti 
+          vir<lb break="no" ed="#P" n="45"/>tute in principio temporis utraque de nihilo
+          <lb ed="#P" n="46"/>condidisse creaturam: unde assertio posita
+          <lb ed="#P" n="47"/>tanquam de fide certa tenenda est.
+        </p>
+        <p xml:id="szdada-x00084-d1e589">
+          <lb ed="#P" n="48"/>7. Probatur secundo priori et em congruentiis.
+          <lb ed="#P" n="49"/>— Ratio vero a priori est libera voluntas Dei
+          <lb ed="#P" n="50"/>nobis sufhicienter revelata. Congruentia vero
+          <lb ed="#P" n="51"/>reddi potest, vel quia, ut Dei excellentia, et
+          <lb ed="#P" n="52"/>eminentia super omnem creaturam, et quam
+          <lb ed="#P" n="53"/>libere se ad extra communicet, evidentius
+          <lb ed="#P" n="54"/>manifestaretur, conveniens fuit etiam 
+          Angelo<lb break="no" ed="#P" n="55"/>rum productionem non esse aeternam, sed
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>hunc infinitatis modum productionibus ad 
+          in<lb break="no" ed="#P" n="57"/>tra reservari. Vel secundo, quia omnis 
+          crea<lb break="no" ed="#P" n="58"/>tura, etiam Angelica, mutabilis est secundum
+          <lb ed="#P" n="59"/>operationem, et ideo productio aeterna non est
+          <lb ed="#P" n="60"/>naturae ipsius satis consentanea. Nam res ab
+          <lb ed="#P" n="61"/>aterno producta in ea dispositione, in qua
+          <lb ed="#P" n="62"/>producitur, per infinitam quamdam 
+          duratio<lb break="no" ed="#P" n="63"/>nem necessario est per mansura, ut in 
+          Phy<lb break="no" ed="#P" n="64"/>sica, et Metaphysica ostenditur. Quoniam
+          <lb ed="#P" n="65"/>quidquid ab aeterno fit, per aeternitatem 
+          ali<lb break="no" ed="#P" n="66"/>quam, atque adeo per infinitam aliquam 
+          du<lb break="no" ed="#P" n="67"/>rationem permanere necesse est, sive illud,
+          <lb ed="#P" n="68"/>quod producitur, per se primo producatur, 
+          si<lb break="no" ed="#P" n="69"/>cut substantia, sive cum illa simul in ipsa
+          <lb ed="#P" n="70"/>eeternitate producatur, quia si ahquid tale
+          <lb ed="#P" n="71"/>tantum per finitam durationem permaneret,
+          <lb ed="#P" n="72"/>eo ipso haberet suae durationis initium, ac
+          <lb ed="#P" n="73"/>proinde aeternum non esset. Sicut etiam e
+          <lb ed="#P" n="74"/>contrario, si aliquis Angelus crearetur ab
+          <lb ed="#P" n="75"/>aeterno sine gratia, necessario sine illa 
+          mane<lb break="no" ed="#P" n="76"/>ret per infinitam durationem, et solum in 
+          ini<lb break="no" ed="#P" n="77"/>tio alicujus temporis, vel creatae durationis
+          <lb ed="#P" n="78"/>non posset illam recipere. Si ergo Angelus ab
+          <lb ed="#P" n="79"/>seterno crearetur, actum simul eliciens, in illo
+          <lb ed="#P" n="80"/>per infinitam durationem, necessario 
+          perma<lb break="no" ed="#P" n="81"/>neret: vel si absque actu crearetur, per 
+          aeter<lb break="no" ed="#P" n="82"/>nitatem sine actu maneret. Hic autem modus
+          <lb ed="#P" n="83"/>immobilitatis est praeter naturam Anggeli, et
+          <lb ed="#P" n="84"/>ideo creati sine initio, et novitate essendi, non
+          <lb ed="#P" n="85"/>est consentaneum naturae creatae etiam 
+          ange<lb break="no" ed="#P" n="86"/>licae, etiam si de potentia absoluta fieri non
+          <lb ed="#P" n="87"/>repugnet.
+        </p>
+        <p xml:id="szdada-x00084-d1e680">
+          <lb ed="#P" n="88"/>8. Objectio. — Contra hanc autem veritatem
+          <lb ed="#P" n="89"/>solum video posse objici verba Basilii, hom. 1,
+          <lb ed="#P" n="90"/>Exaem., circa illa verba: In principio creavit,
+          <lb ed="#P" n="91"/>etc., dicentis, credi posse aliquid ante hujus
+          <lb ed="#P" n="92"/>mundi constitutionem fuisse, quod explicans,
+          <lb ed="#P" n="93"/>subdit: Erat sane flatus quidum mundi 
+          gene<lb break="no" ed="#P" n="94"/>ratione superior abstractis illis a concretione
+          <lb ed="#P" n="95"/>materiae potentiis mundo preestantioribus pro
+          <lb ed="#P" n="96"/>decoro accommodatus temporis etiam conditione
+          <lb ed="#P" n="97"/>anterior, ceternus nimirum, ac perpes. In 
+          qui<lb break="no" ed="#P" n="98"/>bus verbis haec sola ultima aliquid 
+          obscurita<lb break="no" ed="#P" n="99"/>tis habent, nam in prioribus solum dicit 
+          Ba<lb break="no" ed="#P" n="100"/>silius, Angelos, quos potentias a materia 
+          ab<lb break="no" ed="#P" n="101"/>stractas vocat, habuisse statum quemdam 
+          su<lb break="no" ed="#P" n="102"/>periorem, anteriorem tempore, quem habere
+          <lb ed="#P" n="103"/>potuerunt, etiamsi ab aeterno non fuerint: an
+          <lb ed="#P" n="104"/>vero ita fuerint, statim videbimus. Quo vero
+          <lb ed="#P" n="105"/>addit, statum illum fuisse aeternum, non de
+          <lb ed="#P" n="106"/>aeternitate a parte ante, sed a parte post 
+          in<lb break="no" ed="#P" n="107"/>telligendum puto. Ponderoque non dixisse
+          <lb ed="#P" n="108"/>tantum fuisse ante tempus, sed dixisse, 
+          ante<lb break="no" ed="#P" n="109"/>riorem temporis conditione fuisse, quasi 
+          dice<lb break="no" ed="#P" n="110"/>ret, statum spiritualium creaturarum ideo du-
+          <pb ed="#P" n="7"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ratione tempus hoc materiale, et corporale
+          <lb ed="#P" n="2"/>praecessisse, quia etiam in conditione naturali
+          <lb ed="#P" n="3"/>illi superior est. Dixerat enim paulo antea :
+          <lb ed="#P" n="4"/>Quae ea tempore ceperunt, nec ita esse prorsus
+          <lb ed="#P" n="5"/>eadem, quin aliquando de futura sint, et 
+          con<lb break="no" ed="#P" n="6"/>summanda. Nunc vero ait, Angelos non 
+          coe<lb break="no" ed="#P" n="7"/>pisse ex tempore, utique coelesti, et corporeo,
+          <lb ed="#P" n="8"/>sed ante illud fuisse, quia non sunt defectibiles,
+          <lb ed="#P" n="9"/>sicut res corporeae, sed aeterni, ac perpetui,
+          <lb ed="#P" n="10"/>quem sensum addendo illam vocem perpes,
+          <lb ed="#P" n="11"/>satis explicavit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

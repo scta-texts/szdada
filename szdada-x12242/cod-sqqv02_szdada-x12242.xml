@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="486"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x12242"><!-- l4c16 -->
+        <head xml:id="szdada-x12242-Hd1e101">Caput 16</head>
+        <head xml:id="szdada-x12242-Hd1e103" type="question-title">Utrum motus angeli tantum inter positivos terminos, vel etiam inter priyativos esse possit</head>
+        <p xml:id="szdada-x12242-d1e106">
+          <lb ed="#P" n="31"/>CAPUT XVI.
+          <lb ed="#P" n="32"/>UTRUM MOTUS ANGELI TANTUM INTER POSITIVOS
+          <lb ed="#P" n="33"/>TERMINOS, VEL ETIAM INTER PRIYATIVOS ESSE
+          <lb ed="#P" n="34"/>POSSIT.
+        </p>
+        <p xml:id="szdada-x12242-d1e117">
+          <lb ed="#P" n="35"/>1. Tria genera motionum.— Ratio dubitandi
+          <lb ed="#P" n="36"/>pro parte negante. — Bassolis dictam partem
+          <lb ed="#P" n="37"/>negantem sequitur. — ria genera motionum
+          <lb ed="#P" n="38"/>distinxit Aristoteles, 5 Physicor., c. 1, quas his
+          <lb ed="#P" n="39"/>nominibus appellavit, a subjecto in subjectum,
+          <lb ed="#P" n="40"/>a on subjecto in subjectum, et a subjecto in non
+          <lb ed="#P" n="41"/>subjectum. HRejecta quarta combinatione ex
+          <lb ed="#P" n="42"/>utroque termino privativo tanquam inutih.
+          <lb ed="#P" n="43"/>Per subjectum autem intellgit terminum 
+          mo<lb break="no" ed="#P" n="44"/>tus ad quem, et a quo, unde perinde est ac si
+          <lb ed="#P" n="45"/>diceret motum interdum esse amittendo unum
+          <lb ed="#P" n="46"/>terminum positivum, et acquirendo alium
+          <lb ed="#P" n="47"/>etiam positivum, interdum vero fieri tantum
+          <lb ed="#P" n="48"/>acquirendo, id est, a privatione ad habitum
+          <lb ed="#P" n="49"/>transeundo: interdum vero tantum 
+          amit<lb break="no" ed="#P" n="50"/>tendo, seu transeundo ab habitu ad 
+          privatio<lb break="no" ed="#P" n="51"/>nem. Quae tria genera mutationum licet in
+          <lb ed="#P" n="52"/>qualitate facile inveniantur: in motu tamen
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>locali non videntur in corporibus reperiri
+          <lb ed="#P" n="54"/>Semper enim inter positivos terminos 
+          viden<lb break="no" ed="#P" n="55"/>tur corpora locahter moveri, acquirendo 
+          sci<lb break="no" ed="#P" n="56"/>licet unum locum, et amittendo alium, saltem
+          <lb ed="#P" n="57"/>secundum partes. Unde videtur colligi, idem
+          <lb ed="#P" n="58"/>esse dicendum de Angelis: quia nos non 
+          in<lb break="no" ed="#P" n="59"/>telligimus motum Angeli, nisi ad instar motus
+          <lb ed="#P" n="60"/>corporis, ergo sicut in corpore non datur 
+          ac<lb break="no" ed="#P" n="61"/>quisitio loci sine amissione, nec amissio sine
+          <lb ed="#P" n="62"/>acquisitione: ita neque in Angelo. Atque ita
+          <lb ed="#P" n="63"/>sentit Bassolis in 2, dist. 2, q. 4, art. 1, in2
+          <lb ed="#P" n="64"/>arg., quo probat, Angelum esse non posse nisi
+          <lb ed="#P" n="65"/>in loco adaequato. Et idem dicere coguntur qui
+          <lb ed="#P" n="66"/>sententiam illam de necessitate existendi in
+          <lb ed="#P" n="67"/>loco adaequato defendunt. Quia si semper 
+          Ange<lb break="no" ed="#P" n="68"/>lus est in adaequato loco, non potest totum illum
+          <lb ed="#P" n="69"/>mutare, nisi alium adaequatum acquirat, 
+          ne<lb break="no" ed="#P" n="70"/>que partem ejus, quin aequalem partem alibi
+          <lb ed="#P" n="71"/>acquirat, alias non semper esset in loco 
+          adae<lb break="no" ed="#P" n="72"/>quato. Et e contrario non potest aliquid novi
+          <lb ed="#P" n="73"/>loci acquirere, quin tantumdem prioris 
+          amit<lb break="no" ed="#P" n="74"/>tat, alias maneret in loco majori maximo, seu
+          <lb ed="#P" n="75"/>adaequato. Et confirmat hoc Bassolis quia
+          <lb ed="#P" n="76"/>mutatio deperditiva naturaliter non videtur
+          <lb ed="#P" n="77"/>per se fieri sine acquisitiva: quia generatio
+          <lb ed="#P" n="78"/>unius semper est corruptio alterius, qui ordo
+          <lb ed="#P" n="79"/>videtur ita naturalis, ut non possit immutari.
+        </p>
+        <p xml:id="szdada-x12242-d1e219">
+          <lb ed="#P" n="80"/>2. Conclusio affirmans. — Probatur quoad
+          <lb ed="#P" n="81"/>primum modum movendi.—Nihilominus 
+          dicen<lb break="no" ed="#P" n="82"/>dum est, Angelum posse moveri localiter 
+          om<lb break="no" ed="#P" n="83"/>nibus illis tribus modis ab Aristotele positis.
+          <lb ed="#P" n="84"/>Haec assertio infertur judicio meo evidenter ex
+          <lb ed="#P" n="85"/>fundamento praecedenti sententiae contrario,
+          <lb ed="#P" n="86"/>scilicet Angelum esse posse in loco minori
+          <lb ed="#P" n="87"/>maximo. Primo enim manifestum est, posse
+          <lb ed="#P" n="88"/>Angelum existentem in loco adaequato velle
+          <lb ed="#P" n="89"/>mutare locum permanendo semper in loco
+          <lb ed="#P" n="90"/>adaequato, quia in hoc nulla repugnantia, imo
+          <lb ed="#P" n="91"/>neque difficultas involvitur. Tunc ergo 
+          ne<lb break="no" ed="#P" n="92"/>cessario movetur inter positivos terminos, 
+          ac<lb break="no" ed="#P" n="93"/>quirendo, et amittendo locum, vel totum, vel
+          <lb ed="#P" n="94"/>partem ejus, juxta mutationis modum, vel
+          <lb ed="#P" n="95"/>continuum, vel discretum, si esse potest, quod
+          <lb ed="#P" n="96"/>in sequentibus videbimus. Et simili modo
+          <lb ed="#P" n="97"/>licet Angelus existat in loco adaequato, potest
+          <lb ed="#P" n="98"/>velle mutare locum non augendo, neque 
+          mi<lb break="no" ed="#P" n="99"/>nuendo magnitudinem loci: et tunc etiam
+          <lb ed="#P" n="100"/>necesse est, ut inter terminos positivos 
+          mo<lb break="no" ed="#P" n="101"/>veatur. Nam si acquireret aliquid loci, nihil
+          <lb ed="#P" n="102"/>de priori amittendo, augeretur prior locus, et
+          <lb ed="#P" n="103"/>e contrario si aliquid de priori amitteret, et
+          <lb ed="#P" n="104"/>nihil novi acquireret, prior minueretur locus.
+          <lb ed="#P" n="105"/>His ergo modis est in potestate Angeli inter
+          <lb ed="#P" n="106"/>positivos terminos localiter moveri.
+        </p>
+        <p xml:id="szdada-x12242-d1e281">
+          <lb ed="#P" n="107"/>3. Probatur quoad secundwmn et tertium mo-
+          <pb ed="#P" n="487"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dum movendi. — Secundo declarantur alii duo
+          <lb ed="#P" n="2"/>modi ex dicto principio, ex quo clare 
+          infe<lb break="no" ed="#P" n="3"/>runtur. Nam Angelus existens in loco 
+          adae<lb break="no" ed="#P" n="4"/>quato, potest ad minorem locum se reducere,
+          <lb ed="#P" n="5"/>et non totum relinquere; ergo potest amittere
+          <lb ed="#P" n="6"/>aliquid loci, nihil acquirendo; ergo tunc fit
+          <lb ed="#P" n="7"/>mutatio localis in Angelo inter terminos 
+          pri<lb break="no" ed="#P" n="8"/>vativos, ita ut terminus a quo, sit prior locus
+          <lb ed="#P" n="9"/>partialis, terminus autem ad quem, sit 
+          tan<lb break="no" ed="#P" n="10"/>tum privatio ejus. Dicunt aliqui non posse
+          <lb ed="#P" n="11"/>Angelum immediate minuere priorem locum:
+          <lb ed="#P" n="12"/>sed oportere, ut priusse transferat in alium
+          <lb ed="#P" n="13"/>locum, et postea ad prioris partem redeat.
+          <lb ed="#P" n="14"/>Sed, ut recte dixit Bassolis supra, ille 
+          circui<lb break="no" ed="#P" n="15"/>tus frustra fingitur solum ad difficultatem 
+          fu<lb break="no" ed="#P" n="16"/>giendam. Nam quando Angelus primo se
+          <lb ed="#P" n="17"/>transfert ad alium locum, vel ad sequalem, vel
+          <lb ed="#P" n="18"/>ad minorem, transfertur: si ad aequalem,
+          <lb ed="#P" n="19"/>eadem manet difficultas, quomodo postea ad
+          <lb ed="#P" n="20"/>minorem locum se transferat, si vero prior
+          <lb ed="#P" n="21"/>translatio fuit ad minorem locum, multo 
+          fa<lb break="no" ed="#P" n="22"/>cilius potuit Angelus partem prioris loci 
+          reti<lb break="no" ed="#P" n="23"/>nere, et partem relinquere. Quod enim ille
+          <lb ed="#P" n="24"/>locus minor sit omnino distinctus a priori loco,
+          <lb ed="#P" n="25"/>vel quod sit pars ejus, impertinens omnino
+          <lb ed="#P" n="26"/>est. Et simili modo facile ostenditur, posse 
+          An<lb break="no" ed="#P" n="27"/>gelum moveri a termino privativo ad 
+          positi<lb break="no" ed="#P" n="28"/>vum, acquirendo, scilicet, aliquid loci, et nihil
+          <lb ed="#P" n="29"/>amittendo. Nam si Angelus sit in loco 
+          inadae<lb break="no" ed="#P" n="30"/>quato, potest moveri donec adaequatum 
+          lo<lb break="no" ed="#P" n="31"/>cum acquirit, nihil de priori parte loci, cui
+          <lb ed="#P" n="32"/>praesens erat, relinquendo; ergo tunc est 
+          ac<lb break="no" ed="#P" n="33"/>quisitio loci partialis sine amissione. 
+          Antece<lb break="no" ed="#P" n="34"/>dens probatur, quia partialis locus qui tunc
+          <lb ed="#P" n="35"/>acquiritur, potest esse simul cum priori loco
+          <lb ed="#P" n="36"/>inadequato; ergo illi duo termini, seu 
+          par<lb break="no" ed="#P" n="37"/>tiales loci non habent inter se oppositionem,
+          <lb ed="#P" n="38"/>qua unus alium excludat; ergo in illo 
+          mu<lb break="no" ed="#P" n="39"/>tationis genere nulla repugnantia cogitari
+          <lb ed="#P" n="40"/>potest.
+        </p>
+        <p xml:id="szdada-x12242-d1e377">
+          <lb ed="#P" n="41"/>4. Differentia autem corpus et spiritum in
+          <lb ed="#P" n="42"/>acquirendo, et amittendo locum. — In hoc ergo
+          <lb ed="#P" n="43"/>necessario est constituenda differentia inter
+          <lb ed="#P" n="44"/>corpus, et spiritum. Et ratio differentiae ex
+          <lb ed="#P" n="45"/>eodem fundamento reddenda est: nam corpus
+          <lb ed="#P" n="46"/>necessario semper est in loco adaequato 
+          quan<lb break="no" ed="#P" n="47"/>titati, et extensioni suae, et ideo neque potest
+          <lb ed="#P" n="48"/>perdere partem loci, nisi acquirendo aequalem,
+          <lb ed="#P" n="49"/>nec e converso. At vero Angelus, quia non
+          <lb ed="#P" n="50"/>coextenditur loco, sed totus in toto, et totus in
+          <lb ed="#P" n="51"/>quahbet parte, nec ex necessitate naturae ad
+          <lb ed="#P" n="52"/>certum locum determinatur, sed per liberam
+          <lb ed="#P" n="53"/>voluntatem applicatur: ideo potest minuere
+          <lb ed="#P" n="54"/>locum, nihil acquirendo et augere nihi! 
+          amit<lb break="no" ed="#P" n="55"/>tendo, dum modo neque adaequatum locum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>excedat, nec omnem loci praesentiam relinquat.
+          <lb ed="#P" n="57"/>Posset quidem aliquid simile cogitari in 
+          cor<lb break="no" ed="#P" n="58"/>pore, quod per rarefactionem novam partem
+          <lb ed="#P" n="59"/>loci acquirit, et priorem locum non relinquit,
+          <lb ed="#P" n="60"/>et e contrario per condensationem partem loci
+          <lb ed="#P" n="61"/>amittit, et de novo nihil occupat.
+        </p>
+        <p xml:id="szdada-x12242-d1e427">
+          <lb ed="#P" n="62"/>5. Differentia adhuc intercedit quando 
+          cor<lb break="no" ed="#P" n="63"/>pus rarescit aut densatur. —Sed in hoc revera
+          <lb ed="#P" n="64"/>est diversa ratio, et modus valde distinctus.
+          <lb ed="#P" n="65"/>Nam imprimis mutationes illae non sunt 
+          loca<lb break="no" ed="#P" n="66"/>les per se primo, sed sunt ad quasdam 
+          quah<lb break="no" ed="#P" n="67"/>tates priores loco, quibus partes quantitatis
+          <lb ed="#P" n="68"/>ita disponuntur in ipso toto, ut inde 
+          necessa<lb break="no" ed="#P" n="69"/>rio sequatur totum, ipsum majorem, vel 
+          mi<lb break="no" ed="#P" n="70"/>norem locum occupare, et ita mutationes illae
+          <lb ed="#P" n="71"/>per se primo sunt inter terminos positivos a
+          <lb ed="#P" n="72"/>denso in rarum, vel e converso; in Angelo
+          <lb ed="#P" n="73"/>vero nulla talis mutatio praecedit, sed sola fit
+          <lb ed="#P" n="74"/>acquisitio, vel amissio partialis loci. Deinde
+          <lb ed="#P" n="75"/>additur etiam illam mutationem loci, quae 
+          ra<lb break="no" ed="#P" n="76"/>refactionem, vel condensationem comitatur,
+          <lb ed="#P" n="77"/>non fieri nisi inter terminos positivos. Nam in
+          <lb ed="#P" n="78"/>rarefactione partes, quae locum novum 
+          acqui<lb break="no" ed="#P" n="79"/>runt, antea existebant, et consequenter in loco
+          <lb ed="#P" n="80"/>erant, ergo illum per rarefactionem amittunt,
+          <lb ed="#P" n="81"/>et cum proportione idem in condensatione 
+          fa<lb break="no" ed="#P" n="82"/>cile cogitari potest: nam partes, quae a majori
+          <lb ed="#P" n="83"/>loco recedunt, non pereunt, ut supponimus,
+          <lb ed="#P" n="84"/>et consequenter in alium locum partialem
+          <lb ed="#P" n="85"/>transferuntur.
+        </p>
+        <p xml:id="szdada-x12242-d1e482">
+          <lb ed="#P" n="86"/>6. Ad rationem dubitandi initio propositam.
+          <lb ed="#P" n="87"/>— Et ita responsum est ad rationem dubitandi
+          <lb ed="#P" n="88"/>in principio positam, et ad fundamentum 
+          con<lb break="no" ed="#P" n="89"/>trariae sententiae: nam oppositum statuimus.
+          <lb ed="#P" n="90"/>Ad ultimam vero confirmationem Bassolis,
+          <lb ed="#P" n="91"/>quod naturaliter non detur mutatio privativa,
+          <lb ed="#P" n="92"/>sine acquisitiva, quia generatio unius est 
+          cor<lb break="no" ed="#P" n="93"/>ruptio alterius; respondemus hoc axioma non
+          <lb ed="#P" n="94"/>esse verum universaliter, nisi in generatione,
+          <lb ed="#P" n="95"/>et corruptione substantiali; in accidentali 
+          ve<lb break="no" ed="#P" n="96"/>ro, quae non fit inter propria contraria, saepe
+          <lb ed="#P" n="97"/>deficere, ut patet in acquisitione, vel amissione
+          <lb ed="#P" n="98"/>luminis, et similibus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

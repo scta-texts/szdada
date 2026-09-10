@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="790"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x19917"><!-- l7prae -->
+        <head xml:id="szdada-x19917-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-x19917-d1e103">
+          <pb ed="#P" n="790"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER SEPTIMUS.
+          <lb ed="#P" n="2"/>DE MALIS ANGELIS
+          <lb ed="#P" n="3"/>EORUMQUE LAPSU ET CULPA.
+          <lb ed="#P" n="4"/>PRAEFATIO.
+        </p>
+        <p xml:id="szdada-x19917-d1e119">
+          <lb ed="#P" n="5"/>Duplex status malorum Angelorum. — 
+          Dixi<lb break="no" ed="#P" n="6"/>mus de bonis Angelis, tam viatoribus, quam
+          <lb ed="#P" n="7"/>beatis: superest dicendum de malis, quorum
+          <lb ed="#P" n="8"/>duplex etiam status distinguendus est, viae 
+          sci<lb break="no" ed="#P" n="9"/>licet, et termini. Nam licet in istis Angelis 
+          du<lb break="no" ed="#P" n="10"/>plex fuerit status viae, bonitatis scilicet, et 
+          ma<lb break="no" ed="#P" n="11"/>litiae: tamen priorem illum communem cum
+          <lb ed="#P" n="12"/>sanctis Angelis habuerunt, et ideo in initio
+          <lb ed="#P" n="13"/>libri quinti de omnibus est communiter 
+          expli<lb break="no" ed="#P" n="14"/>catus. Quapropter nihil de illo nobis superest
+          <lb ed="#P" n="15"/>dicendum: solum obiter malos Angelos prius
+          <lb ed="#P" n="16"/>fuisse bonos, paulo post ostendemus, seu 
+          am<lb break="no" ed="#P" n="17"/>plius confirmabimus. Igitur Angelos malos
+          <lb ed="#P" n="18"/>solum ut malos, seu quoad malitiam in 
+          pra<lb break="no" ed="#P" n="19"/>senti consideramus. Duplex autem malum in
+          <lb ed="#P" n="20"/>eis invenitur, culpae, et poenae; quibus duplex
+          <lb ed="#P" n="21"/>status respondet, viae scilicet, et damnationis,
+          <lb ed="#P" n="22"/>seu termini, ex quibus via terminum, et culpa
+          <lb ed="#P" n="23"/>poenam antecedit, et ideo in praesenti libro de
+          <lb ed="#P" n="24"/>statu viae, et culpae, in sequenti vero de statu
+          <lb ed="#P" n="25"/>poenae, et termini disseremus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

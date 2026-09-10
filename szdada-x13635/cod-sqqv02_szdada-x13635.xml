@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 34</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 34</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="540"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x13635"><!-- l4c34 -->
+        <head xml:id="szdada-x13635-Hd1e101">Caput 34</head>
+        <head xml:id="szdada-x13635-Hd1e103" type="question-title">An corpora, quae angeli assumunt, vere talia sint, qualia apparent, quoad materiam, vel formam, vel substantiam ipsorum</head>
+        <p xml:id="szdada-x13635-d1e106">
+          <lb ed="#P" n="72"/>CAPUT XXXIV.
+          <lb ed="#P" n="73"/>AN CORPORA, QUAE ANGELI ASSUMUNT, VERE TALIA
+          <lb ed="#P" n="74"/>SINT, QUALIA APPARENT, QUOAD MATERIAM, VEL
+          <lb ed="#P" n="75"/>FORMAM, VEL SUBSTANTIAM IPSORUM.
+        </p>
+        <p xml:id="szdada-x13635-d1e117">
+          <lb ed="#P" n="76"/>1. Advertuntur aliqua ex Augustino pro
+          <lb ed="#P" n="77"/>prima quaestionis parte. — Distinximus supra
+          <lb ed="#P" n="78"/>corporis veritatem, vel sub generali ratione
+          <lb ed="#P" n="79"/>corporis externi, et visibilis vel sub particulari
+          <lb ed="#P" n="80"/>specie, quam prae se fert: supposita ergo priori
+          <lb ed="#P" n="81"/>veritate, de secunda dicendum superest, de
+          <lb ed="#P" n="82"/>qua multa etiam in dicto capite dixi, et varias
+          <lb ed="#P" n="83"/>opiniones retuli, et improbavi, quae omnia hic
+          <lb ed="#P" n="84"/>repetere necessarium non est. Solum ergo circa
+          <lb ed="#P" n="85"/>priorem partem quaestionis advertere oportet
+          <lb ed="#P" n="86"/>ex Augustino, lib. 3, de Trinit., cap. 10, 
+          ali<lb break="no" ed="#P" n="87"/>quando posse Angelum assumere corpus verum
+          <lb ed="#P" n="88"/>animalis praeexistentis: aliquando vero de novo
+          <lb ed="#P" n="89"/>formare corpus, ut illud assumat: ut, verbi
+          <lb ed="#P" n="90"/>gratia, quando daemon in specie serpentis cum
+          <lb ed="#P" n="91"/>Eva locutus est, fieri potuit, ut solum esset
+          <lb ed="#P" n="92"/>spectator serpentis, vel ut fuerit verum animal.
+          <lb ed="#P" n="93"/>Primum enim docuit Cyrillus, lib. 3, cont. 
+          Ju<lb break="no" ed="#P" n="94"/>lianum. Secundum autem sentit Augustinus 14,
+          <lb ed="#P" n="95"/>de Civit., cap. 11, et est communior sententia,
+          <lb ed="#P" n="96"/>quam late defendit Pererius, lib. 6, ad cap. 3,
+          <lb ed="#P" n="97"/>Genes., disp. 1, in princip., et Bellarminus,
+          <lb ed="#P" n="98"/>lib. 3, de amiss. Grat., cap. 3, et similis 
+          quaes<lb break="no" ed="#P" n="99"/>tio tractari solet de columba, sub cujus specie
+          <lb ed="#P" n="100"/>Spiritus sanctus apparuit in Christi 
+          baptisma<lb break="no" ed="#P" n="101"/>te: quam disputavi in 2 tom., 3 p., disp. 27,
+          <lb ed="#P" n="102"/>sect. 2, ubi cum Augustino docui, non fuisse
+          <lb ed="#P" n="103"/>veram columbam, sed simulacrum columbae,
+          <lb ed="#P" n="104"/>quamvis aliquando etiam Augustinus docuerit
+          <lb ed="#P" n="105"/>fuisse verum animal, non antea praeexistens,
+          <lb ed="#P" n="106"/>sed ad illud ministerium denuo productum.
+          <lb ed="#P" n="107"/>Quod quidem in illa apparitione sine errore
+          <pb ed="#P" n="541"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sustineri posset: quia etiamsi ministerio 
+          An<lb break="no" ed="#P" n="2"/>gelorum facta fuerit (ut libro sexto dicemus),
+          <lb ed="#P" n="3"/>nihilominus, quia ad repraesentandum 
+          Spiri<lb break="no" ed="#P" n="4"/>tum sanctum facta est, ejusdem Spiritus sancti
+          <lb ed="#P" n="5"/>virtute poterat verum, et novum animal ad
+          <lb ed="#P" n="6"/>illud ministerium procreari. Solum ergo id
+          <lb ed="#P" n="7"/>non admittitur, quia nec necessarium est, nec
+          <lb ed="#P" n="8"/>consuetum, nec narrationi Evangelistarum 
+          sa<lb break="no" ed="#P" n="9"/>tis consentaneum. Igitur si aliquando 
+          contin<lb break="no" ed="#P" n="10"/>git, Angelum assumere corpus praeexistentis
+          <lb ed="#P" n="11"/>animalis, ut per eum aliquo modo 
+          repraesen<lb break="no" ed="#P" n="12"/>tetur, et appareat, tunc locum non habet 
+          quaes<lb break="no" ed="#P" n="13"/>tio proposita: quia in ipso facto supponitur,
+          <lb ed="#P" n="14"/>corpus assumptum esse verum, etiam in 
+          pro<lb break="no" ed="#P" n="15"/>pria specie, in qua ostenditur. Et tunc cessat
+          <lb ed="#P" n="16"/>difficultas supra tacta: quia illud animal 
+          quan<lb break="no" ed="#P" n="17"/>do ab Angelo sumitur, non est de novo ab eo
+          <lb ed="#P" n="18"/>productum, sed solum ab eo motum, et 
+          assump<lb break="no" ed="#P" n="19"/>tum, ut eo tanquam organo utatur ad se 
+          in<lb break="no" ed="#P" n="20"/>sinuandum hominibus, et cum eis 
+          loquen<lb break="no" ed="#P" n="21"/>dum, etc., quod tam malo, quam bono Angelo
+          <lb ed="#P" n="22"/>esse possibile manifestum est. Existimo tamen
+          <lb ed="#P" n="23"/>hujusmodi apparitiones Angelorum raro sic
+          <lb ed="#P" n="24"/>fieri: quia necessarium non est, et quia 
+          cor<lb break="no" ed="#P" n="25"/>pora haec, quae Angeli assumunt, facile postea
+          <lb ed="#P" n="26"/>dissolvuntur. Unde nisi vel ex verbis sacrae
+          <lb ed="#P" n="27"/>Scripturae sufficienter constet talia esse 
+          corpo<lb break="no" ed="#P" n="28"/>ra, quae apparent, credendum non est 
+          prae<lb break="no" ed="#P" n="29"/>extitisse in ea forma, ac vera natura, sed esse
+          <lb ed="#P" n="30"/>ad illud ministerium efformata, et de illis 
+          pro<lb break="no" ed="#P" n="31"/>ponitur quaestio.
+        </p>
+        <p xml:id="szdada-x13635-d1e260">
+          <lb ed="#P" n="32"/>2. Circa secundam partem tituli de forma 
+          ap<lb break="no" ed="#P" n="33"/>paritionum. — Quoniam vero haec corpora
+          <lb ed="#P" n="34"/>frequentius assumuntur ab Angelis in specie
+          <lb ed="#P" n="35"/>alicujus animalis, ideo subdistinguere potest
+          <lb ed="#P" n="36"/>inter animalia, quae perfecta, vel imperfecta
+          <lb ed="#P" n="37"/>vocantur. Nam licet Angelus neutrum 
+          anima<lb break="no" ed="#P" n="38"/>lium genus possit per se, ac propria virtute 
+          ef<lb break="no" ed="#P" n="39"/>ficere, nihilominus applicando activa passivis
+          <lb ed="#P" n="40"/>potest, quasi artificioso modo, operari, ut 
+          hu<lb break="no" ed="#P" n="41"/>jusmodi animalia vera, et in propriis speciebus
+          <lb ed="#P" n="42"/>producantur, ut in dicto cap. 16, num. 6 et 7,
+          <lb ed="#P" n="43"/>dixi. Quocirca, si Angelus malus velit in specie
+          <lb ed="#P" n="44"/>animalis imperfecti apparere, et corpus ejus.
+          <lb ed="#P" n="45"/>ac figuram assumere, poterit id facere, verum
+          <lb ed="#P" n="46"/>corpus talis speciei assumendo, sicut diximus
+          <lb ed="#P" n="47"/>posse assumere verum animal praeexistens.
+          <lb ed="#P" n="48"/>Nam, supposita potestate formandi denuo tale
+          <lb ed="#P" n="49"/>animal verum, eadem est de utroque ratio.
+        </p>
+        <p xml:id="szdada-x13635-d1e303">
+          <lb ed="#P" n="50"/>3. Angeli communiter animalis perfecti 
+          ap<lb break="no" ed="#P" n="51"/>parentium sumunt. — Quia vero Angeli 
+          com<lb break="no" ed="#P" n="52"/>muniter non apparent, nisi sub specie hominis,
+          <lb ed="#P" n="53"/>vel alicujus animalis perfecti, ideo communiter
+          <lb ed="#P" n="54"/>dicunt doctores, hujusmodi corpora, quae 
+          An<lb break="no" ed="#P" n="55"/>geli assumunt, non esse vera in propriis specie
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bus. Ita sumitur ex D. Thoma, dicta quaest. 54,
+          <lb ed="#P" n="57"/>art. 1, et aliis theologis statim citandis. Quod
+          <lb ed="#P" n="58"/>quidem manifestum est, si intelligatur de 
+          ve<lb break="no" ed="#P" n="59"/>ritate corporis in tali specie substantiali. Primo,
+          <lb ed="#P" n="60"/>quia hoc non potest fieri virtute naturali, ut
+          <lb ed="#P" n="61"/>diximus: et ideo quoties Angelus assumens
+          <lb ed="#P" n="62"/>corpus est ex malis, est infaillibilis regula,
+          <lb ed="#P" n="63"/>quod talia corpora, seu animalia vera non sint,
+          <lb ed="#P" n="64"/>sed tantum illorum simulacra. Quando vero
+          <lb ed="#P" n="65"/>Angelus bonus sub tali specie apparet, potest
+          <lb ed="#P" n="66"/>esse nonnullum dubium, quia bonus Angelus
+          <lb ed="#P" n="67"/>potest supernaturaliter juvari, ut per suum
+          <lb ed="#P" n="68"/>ministerium verum animal, etiam perfectum
+          <lb ed="#P" n="69"/>producatur, sicut de columba baptismi Christi
+          <lb ed="#P" n="70"/>dicebam. Nihilominus etiam in Angelis sanctis
+          <lb ed="#P" n="71"/>generalis regula est, talia corpora ab eis 
+          as<lb break="no" ed="#P" n="72"/>sumpta non esse vera in sua substantia. Hoc
+          <lb ed="#P" n="73"/>est certum, quoties sub specie hominis 
+          appa<lb break="no" ed="#P" n="74"/>rent, quia non est putandum illa esse vera
+          <lb ed="#P" n="75"/>corpora humana, multoque minus quod 
+          ratio<lb break="no" ed="#P" n="76"/>nali anima informentur. Id enim sine nova
+          <lb ed="#P" n="77"/>creatione, vel sine resurrectione alicujus 
+          mor<lb break="no" ed="#P" n="78"/>tui fieri non potest, quod fingere in his 
+          ap<lb break="no" ed="#P" n="79"/>paritionibus vanum esset, et fortasse 
+          erro<lb break="no" ed="#P" n="80"/>ncum. Nam si de aliqua simili apparitione id
+          <lb ed="#P" n="81"/>potuit cogitari, maxime de Raphaele, qui Tobiae
+          <lb ed="#P" n="82"/>in specie juvenis occurrit, et per multos dies
+          <lb ed="#P" n="83"/>cum illo ambulavit, et tamen illum non fuisse
+          <lb ed="#P" n="84"/>verum corpus humanum, manifeste docetur,
+          <lb ed="#P" n="85"/>Tob. 9 et 12, et idem constat ex aliis locis
+          <lb ed="#P" n="86"/>Genes. 18 et 19, et similibus, quanquam 
+          Ter<lb break="no" ed="#P" n="87"/>tullianus aliquando contrarium significare 
+          vi<lb break="no" ed="#P" n="88"/>deatur, de cujus sententia in capite sequenti
+          <lb ed="#P" n="89"/>dicam. Et quod de humanis corporibus 
+          disi<lb break="no" ed="#P" n="90"/>mus, etiam de aliis apparitionibus, ut de forma
+          <lb ed="#P" n="91"/>columbae, vel similibus est probabilius, quia
+          <lb ed="#P" n="92"/>non oportet existimari majora miraculasine 
+          ne<lb break="no" ed="#P" n="93"/>cessitate. Hoc ergo posito quoad veritatem
+          <lb ed="#P" n="94"/>formae de veritate materiae, et dispositionum
+          <lb ed="#P" n="95"/>ejus aliqua possunt inquiri.
+        </p>
+        <p xml:id="szdada-x13635-d1e407">
+          <lb ed="#P" n="96"/>4. Circa tertiam partem tituli de nateria.—
+          <lb ed="#P" n="97"/>Variae opiniones. —Primum est, ex qua materia
+          <lb ed="#P" n="98"/>formentur corpora quae Angeli assumunt. Tu
+          <lb ed="#P" n="99"/>quo Tertullianus, lib. de Carne Christi, cap. 2,
+          <lb ed="#P" n="100"/>in fine sentit non assumi ex praejacente 
+          mate<lb break="no" ed="#P" n="101"/>ria, sed ex nihilo. Verumtamen, si hoc ut sonat
+          <lb ed="#P" n="102"/>intelligatur, omnino falsum est, quia talia
+          <lb ed="#P" n="103"/>corpora, nec possunt fieri ab Angelis, nec est
+          <lb ed="#P" n="104"/>necesse fingere novam creationem a Deo 
+          fac<lb break="no" ed="#P" n="105"/>tam, cum ex praejacente materia facile formari
+          <lb ed="#P" n="106"/>possint. Potest autem exponi Tertullianus, ut
+          <lb ed="#P" n="107"/>solum intellexerit talia corpora non fieri ex
+          <lb ed="#P" n="108"/>materia crassa, et visibili, nam statim adjungit,
+          <lb ed="#P" n="109"/>st non fuit initium visibile, nec finis. Alii 
+          dixe<lb break="no" ed="#P" n="110"/>runt, Angelos agsumere corpora ex materia
+          <pb ed="#P" n="542"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>coelesti, quod videtur indicare Isidorus, lib. 1,
+          <lb ed="#P" n="2"/>de summo Bono, c. 10, dicens, Angeli corpora
+          <lb ed="#P" n="3"/>in quibus hominibus apparent, de superno aere
+          <lb ed="#P" n="4"/>sumnunt, solidamque speciem de coelesti elemento
+          <lb ed="#P" n="5"/>induunt, per quam humanas obtutibus 
+          manifes<lb break="no" ed="#P" n="6"/>tius demonstrentur. Quae verba transcripsit
+          <lb ed="#P" n="7"/>Beda, lib. Variar. quaest., q. 9. Sed si hoc 
+          in<lb break="no" ed="#P" n="8"/>telligatur de propria materia coelorum, ut ab
+          <lb ed="#P" n="9"/>elementis distinguuntur, omnino improbabile
+          <lb ed="#P" n="10"/>est: quia materia coeli a suo corpore coelesti
+          <lb ed="#P" n="11"/>separabilis non est, nec condensari potest, aut
+          <lb ed="#P" n="12"/>aliis qualitatibus, elementorum affici. Isidorus
+          <lb ed="#P" n="13"/>autem de materia aeris loquitur aperte in 
+          prin<lb break="no" ed="#P" n="14"/>cipio, et eamdem postea vocat coelestem more
+          <lb ed="#P" n="15"/>Scripturae: et fortasse illo modo loquendi 
+          uti<lb break="no" ed="#P" n="16"/>tur, quia de bonis Angelis specialiter loquitur
+          <lb ed="#P" n="17"/>(ut statim dicam). Alii dixerunt, Angelos non
+          <lb ed="#P" n="18"/>indigere extrinseca materia, ut hujusmodi
+          <lb ed="#P" n="19"/>corpora forment, putant enim habere corpora
+          <lb ed="#P" n="20"/>sibi naturaliter unita, quae licet secundum
+          <lb ed="#P" n="21"/>connaturalem dispositionem subtilia sint, et
+          <lb ed="#P" n="22"/>invisibilia ab eis possunt densari, et solidari,
+          <lb ed="#P" n="23"/>ita ut et figurae et coloris, seu luminis capacia
+          <lb ed="#P" n="24"/>fiant. Quem dicendi modum indicat 
+          Augusti<lb break="no" ed="#P" n="25"/>nus 2, de Trinit., cap. 7. Sed merito in eo non
+          <lb ed="#P" n="26"/>persistit: nam revera probabihs non est. Nam
+          <lb ed="#P" n="27"/>imprimis supponit falsum, quia Angeli non
+          <lb ed="#P" n="28"/>habent corpora, ex quibus substantialiter 
+          com<lb break="no" ed="#P" n="29"/>ponantur, nec oppositum jam est probabile, ut
+          <lb ed="#P" n="30"/>in libro primo dixi. Et deinde etiamsi 
+          habe<lb break="no" ed="#P" n="31"/>rent corpora, non esset id verisimile, nec 
+          con<lb break="no" ed="#P" n="32"/>sequenter dictum: quia cum Angeli sint 
+          incor<lb break="no" ed="#P" n="33"/>ruptibiles, si corpora haberent, illa essent
+          <lb ed="#P" n="34"/>etiam incorruptibilia, et inalterabilia, 
+          ideo<lb break="no" ed="#P" n="35"/>que non possent in illam visibilem speciem
+          <lb ed="#P" n="36"/>formari.
+        </p>
+        <p xml:id="szdada-x13635-d1e524">
+          <lb ed="#P" n="37"/>5. Communis et vera sententia.—Communis
+          <lb ed="#P" n="38"/>igitur, et vera sententia est, illa corpora 
+          con<lb break="no" ed="#P" n="39"/>stare ex materia elementali, seu inferiorum
+          <lb ed="#P" n="40"/>rerum generabilium, et corruptibilium, quia
+          <lb ed="#P" n="41"/>illa saltem necessaria est, et sufficit. Dicunt
+          <lb ed="#P" n="42"/>etiam communiter theologi, hanc materiam
+          <lb ed="#P" n="43"/>sumi ex aere praejacente, seu circumstante in
+          <lb ed="#P" n="44"/>loco illo, in quo tale corpus formatur. ita sentit
+          <lb ed="#P" n="45"/>D. Thomas, dicto art. 2, ad 3, et consentiunt
+          <lb ed="#P" n="46"/>reliqui theologi, in 2, dist. 8, Bonaventura, in
+          <lb ed="#P" n="47"/>2 p. distinct., art. 2, q. 2, Richardus, art. 1,
+          <lb ed="#P" n="48"/>q. 3, Scotus, q. 1, Gabriel, q. 1, art. 2, 
+          Du<lb break="no" ed="#P" n="49"/>randus, q. 1, num. 7, Alensis, 2 p., quaest. 34,
+          <lb ed="#P" n="50"/>membr. 4. Est autem inter illos quaedam 
+          va<lb break="no" ed="#P" n="51"/>rietas. Nam quidam eorum indicant sumi haec
+          <lb ed="#P" n="52"/>corpora ex puro aere, ut est simplex 
+          elemen<lb break="no" ed="#P" n="53"/>tum, quod D. Thomae et Durando tribui 
+          so<lb break="no" ed="#P" n="54"/>let. At Scotus, Gabriel et alii declarant non
+          <lb ed="#P" n="55"/>esse ex puro aere, sed ex corpore aereo cras-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>siore, quod sit aliquod mixtum imperfectum,
+          <lb ed="#P" n="57"/>ut vapor, vel nubes. Quia haec materia est 
+          ap<lb break="no" ed="#P" n="58"/>tior, ut condensetur, usque ad soliditatem 
+          cor<lb break="no" ed="#P" n="59"/>poris figurae, et coloris capacis, atque etiam
+          <lb ed="#P" n="60"/>est sufficienter resolubilis, ut possit tale 
+          cor<lb break="no" ed="#P" n="61"/>pus iterum facile dissolvi, et dissipari. 
+          Verum<lb break="no" ed="#P" n="62"/>tamen existimo non esse in re dissentionem
+          <lb ed="#P" n="63"/>inter hos, nullum enim eorum dicit purum
+          <lb ed="#P" n="64"/>aerem esse materiam horum corporum, imo
+          <lb ed="#P" n="65"/>D. Thomas dixit aerem in sua raritate 
+          perma<lb break="no" ed="#P" n="66"/>nentem non suffhicere, sed condensatum instar
+          <lb ed="#P" n="67"/>nubium. Et Durandus dixit formari alia 
+          cor<lb break="no" ed="#P" n="68"/>pora ez aere inspissato, qui facillime colorari,
+          <lb ed="#P" n="69"/>et figurari potest, ut patet in nubibus.
+        </p>
+        <p xml:id="szdada-x13635-d1e600">
+          <lb ed="#P" n="70"/>6. Adnotatio circa promimam vel remotam
+          <lb ed="#P" n="71"/>materiam corporum, que Angeli assumunt. —
+          <lb ed="#P" n="72"/>Ad majorem autem intelligentiam notari 
+          po<lb break="no" ed="#P" n="73"/>test sermonem esse posse vel de materia ex
+          <lb ed="#P" n="74"/>qua proxime, seu intrinsece constat illud 
+          cor<lb break="no" ed="#P" n="75"/>pus, quod Angelus assumit in illo eodem 
+          tem<lb break="no" ed="#P" n="76"/>pore, in quo illum assumit, quae dici potest
+          <lb ed="#P" n="77"/>materia proxima: vel sermo esse potest de 
+          ma<lb break="no" ed="#P" n="78"/>teria extrinseca, seu remota, in qua etiam 
+          po<lb break="no" ed="#P" n="79"/>test esse latitudo: nam quaedam esse potest,
+          <lb ed="#P" n="80"/>quasi prima, et remotissima materia, alia 
+          ma<lb break="no" ed="#P" n="81"/>gis propinqua, id est, minus distans ab illa
+          <lb ed="#P" n="82"/>dispositione, quam corpus assumendum requi
+          <lb ed="#P" n="83"/>rit, ut speciem referat illius rei, quam Angelus
+          <lb ed="#P" n="84"/>repraesentare intendit. Loquendo ergo de 
+          ma<lb break="no" ed="#P" n="85"/>teria propinqua, seu intrinseca, certum est non
+          <lb ed="#P" n="86"/>posse esse solum elementum aeris. Imo 
+          for<lb break="no" ed="#P" n="87"/>tasse non semper quaelibet substantia vaporis
+          <lb ed="#P" n="88"/>alicujus, vel quasi nubes sufficeret, quia ad
+          <lb ed="#P" n="89"/>formanda talia corpora aliquando potest esse
+          <lb ed="#P" n="90"/>necessaria tanta condensatio, ut sub illa nec
+          <lb ed="#P" n="91"/>forma aeris, nec alterius communis vaporis,
+          <lb ed="#P" n="92"/>aut nubis conservari posset. Erit ergo tunc 
+          ali<lb break="no" ed="#P" n="93"/>qua substantia mixta resultans ex nimia 
+          com<lb break="no" ed="#P" n="94"/>pressione facta virtute angelica concurrente
+          <lb ed="#P" n="95"/>aliqua mixtione subtilium corporum per 
+          ar<lb break="no" ed="#P" n="96"/>tem angelicam (ut sic dicam) ita 
+          applicato<lb break="no" ed="#P" n="97"/>rum, et se invicem transmutantium, ut ex eis
+          <lb ed="#P" n="98"/>una substantia resultet, apta ad talis corporis
+          <lb ed="#P" n="99"/>formationem. Est enim hujusmodi corpus 
+          qua<lb break="no" ed="#P" n="100"/>tenus si formatum, quasi ens artificiale, cujus
+          <lb ed="#P" n="101"/>forma est figura, seu species, aut imago illa,
+          <lb ed="#P" n="102"/>quae apparet: materia vero est tota illa 
+          sub<lb break="no" ed="#P" n="103"/>stantia, in qua est illa species externa. Et hanc
+          <lb ed="#P" n="104"/>substantiam dicimus non esse aerem, nec 
+          sem<lb break="no" ed="#P" n="105"/>per habere propriam substantialem formam
+          <lb ed="#P" n="106"/>communium vaporum, aut nubium, sed 
+          alte<lb break="no" ed="#P" n="107"/>rius mixti imperfecti nobis ignoti, quamvis
+          <lb ed="#P" n="108"/>aliquando etiam possit esse substantia nubis,
+          <lb ed="#P" n="109"/>vel alicujus exhalationis juxta conditionem,
+          <lb ed="#P" n="110"/>et modum corporis assumpti.
+        </p>
+        <p xml:id="szdada-x13635-d1e691">
+          <pb ed="#P" n="543"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>7. Extrinseca materia corporis assumpti ab
+          <lb ed="#P" n="2"/>Angelo. — At vero loquendo de materia quasi
+          <lb ed="#P" n="3"/>extrinseca existimo non repugnare illam esse
+          <lb ed="#P" n="4"/>aerem, si de remotissima loquamur, quam
+          <lb ed="#P" n="5"/>etiam vocamus primam, non quia sit prima
+          <lb ed="#P" n="6"/>substantialiter, id est, pura potentia, sed quia
+          <lb ed="#P" n="7"/>est prima, ex qua quasi incipit tale corpus 
+          for<lb break="no" ed="#P" n="8"/>mari. Sic ergo non repugnat purum aerem
+          <lb ed="#P" n="9"/>esse materiam corporis assumendi: quia aer
+          <lb ed="#P" n="10"/>potest paulatim condensari, et ita mutari 
+          quan<lb break="no" ed="#P" n="11"/>tam ad formationem corporis necessarium
+          <lb ed="#P" n="12"/>fuerit, etiamsi oporteat substantialter 
+          trans<lb break="no" ed="#P" n="13"/>mutari, vel semel, vel aliquando etiam saepius,
+          <lb ed="#P" n="14"/>juxta conditionem, et exigentiam corporis
+          <lb ed="#P" n="15"/>assumendi. Et fortasse Angeli sancti saepe ita
+          <lb ed="#P" n="16"/>faciunt, assumendo corpora ex puriori, et 
+          su<lb break="no" ed="#P" n="17"/>periori aere, quod Beda, et Isidorus significare
+          <lb ed="#P" n="18"/>voluerunt. Quia vero alia corpora aerea, quae
+          <lb ed="#P" n="19"/>aliquam mixtionem habent, et crassiorem
+          <lb ed="#P" n="20"/>substantiam, sunt minus remota, et in suis
+          <lb ed="#P" n="21"/>dispositionibus similiora corporibus 
+          efforman<lb break="no" ed="#P" n="22"/>dis, et assumendis, ideo verisimile est ex 
+          hu<lb break="no" ed="#P" n="23"/>jusmodi materia formari, vel, ut ita dicam,
+          <lb ed="#P" n="24"/>inchoari formationes corporum, quae ordinarie
+          <lb ed="#P" n="25"/>Angeli assumunt, quia, et talis materia 
+          regu<lb break="no" ed="#P" n="26"/>lariter presto adest, et ad finem intentum
+          <lb ed="#P" n="27"/>facilior est, et in eamdem facile resolvi potest
+          <lb ed="#P" n="28"/>corpus assumptum, quando dimittitur, et 
+          dis<lb break="no" ed="#P" n="29"/>sipatur. Et de hac etiam materia verisimile est
+          <lb ed="#P" n="30"/>ab Angelis sanctis sumi ex purioribus 
+          corpori<lb break="no" ed="#P" n="31"/>bus, quae in superiori parte aeris inveniuntur,
+          <lb ed="#P" n="32"/>a daemonibus vero ex locis terrestribus 
+          humi<lb break="no" ed="#P" n="33"/>dioribus, et fortasse immundis, ac coenosis,
+          <lb ed="#P" n="34"/>quia in poenam suae malitiae, et pravae 
+          inten<lb break="no" ed="#P" n="35"/>Uonis, aliud eis non permittitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

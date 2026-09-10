@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="996"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x25147"><!-- l8c10 -->
+        <head xml:id="szdada-x25147-Hd1e101">Caput 10</head>
+        <head xml:id="szdada-x25147-Hd1e103" type="question-title">An daemonum obstinatio ex aliqua causa positiva intrinseca, vel extrinseca proveniat</head>
+        <p xml:id="szdada-x25147-d1e106">
+          <lb ed="#P" n="78"/>CAPUT X.
+          <lb ed="#P" n="79"/>AN DAEMONUM OBSTINATIO EX ALIQUA CAUSA 
+          PO<lb break="no" ed="#P" n="80"/>SITIVA INTRINSECA, VEL EXTRINSECA 
+          PROVE<lb break="no" ed="#P" n="81"/>NIAT.
+        </p>
+        <p xml:id="szdada-x25147-d1e117">
+          <lb ed="#P" n="82"/>1. Quidam pro causa positiva obstinationis
+          <lb ed="#P" n="83"/>assignant habitum pravum a Deo iufusum. —
+          <lb ed="#P" n="84"/>Secunda causa, quam initio superioris capitis
+          <lb ed="#P" n="85"/>bus cogitari posse diximus circa daemonum
+          <lb ed="#P" n="86"/>obstinationem, erat positiva aliqua res, vel
+          <lb ed="#P" n="87"/>forma ipsum impediens, ne valeat bene 
+          ope<lb break="no" ed="#P" n="88"/>rari; hanc ergo admittunt aliqui, et in ea 
+          assi<lb break="no" ed="#P" n="89"/>gnanda sunt etiam opiniones. Prima est, 
+          il<lb break="no" ed="#P" n="90"/>lam impotentiam provenire ab habitu 
+          vehe<lb break="no" ed="#P" n="91"/>menter inclinante voluntatem daemonis ad
+          <lb ed="#P" n="92"/>male operandum, et tantum necessitatem 
+          in<lb break="no" ed="#P" n="93"/>ferente, ut voluntas non possit ei resistere.
+          <lb ed="#P" n="94"/>Hunc autem habitum dicit haec sententia 
+          in<lb break="no" ed="#P" n="95"/>fundi a Deo, quia non potest alia ejus causa
+          <lb ed="#P" n="96"/>cogitari; nam Angelus malus non acquisivit
+          <lb ed="#P" n="97"/>talem habitum per proprium actum, quia
+          <lb ed="#P" n="98"/>solum peccavit una, vel alia specie peccati,
+          <lb ed="#P" n="99"/>per cujus actum nec potuit acquirere habitum
+          <lb ed="#P" n="100"/>in omnibus materiis vitiorum, et omnibus 
+          vir<lb break="no" ed="#P" n="101"/>tutibus contrarium: nec etiam per multos 
+          ac<lb break="no" ed="#P" n="102"/>tus potuisset tam vehementem habitum 
+          acqui<lb break="no" ed="#P" n="103"/>rere, ut voluntati necessitatem imponeret ;
+          <lb ed="#P" n="104"/>solus ergo Deus talem habitum potest 
+          infun<lb break="no" ed="#P" n="105"/>dere. Quod autem hic habitus sit necessarius,
+          <lb ed="#P" n="106"/>probatur, quia causa positiva obstinationis
+          <lb ed="#P" n="107"/>non potest esse, nisi dispositio intrinseca vo-
+          <pb ed="#P" n="997"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>luntatis, quia ab extrinseco non fit impotens,
+          <lb ed="#P" n="2"/>ut in praecedenti puncto probatum est, sed
+          <lb ed="#P" n="3"/>ilia dispositio non est aliquis actus, quia 
+          nul<lb break="no" ed="#P" n="4"/>lus est semper inhaerens voluntati Angeli; ergo
+          <lb ed="#P" n="5"/>oportet ut sit habitus, qui perpetuo in 
+          volun<lb break="no" ed="#P" n="6"/>tate permanet. Hanc opinionem defendit 
+          Au<lb break="no" ed="#P" n="7"/>reolus, in 2. d. 7, quaest. 1, a. 1; et sequitur
+          <lb ed="#P" n="8"/>Holchot, in 2, q. 4, versus finem, litt. K K, et
+          <lb ed="#P" n="9"/>probabilem reputat Major, in 2, d. 7, q. 1.
+        </p>
+        <p xml:id="szdada-x25147-d1e200">
+          <lb ed="#P" n="10"/>2. Improbatur primo. —Improbatur secundo,
+          <lb ed="#P" n="11"/>quod talis habitus non necessitet voluntatem,
+          <lb ed="#P" n="12"/>quoad exercitium. — Haec vero sententia 
+          nul<lb break="no" ed="#P" n="13"/>latenus probanda est. Nam, ut dixit Marsilius,
+          <lb ed="#P" n="14"/>in 2, q. 5, ad 3, male sonat, nam facit (
+          in<lb break="no" ed="#P" n="15"/>quit) Deum auctorem mali culpe. Hoc enim ex
+          <lb ed="#P" n="16"/>illa sequi videtur, quatenus ait, Deum 
+          inch<lb break="no" ed="#P" n="17"/>nare voluntatem ad malum, mediante habitu
+          <lb ed="#P" n="18"/>a se infuso, quod maxime repugnat divinae
+          <lb ed="#P" n="19"/>bonitati, etiamsi talis inclinatio necessitatem
+          <lb ed="#P" n="20"/>inducat, imo tunc maxime, quia tunc in 
+          so<lb break="no" ed="#P" n="21"/>Ium Deum talis de ordinatio voluntatis 
+          refun<lb break="no" ed="#P" n="22"/>ditur, ut paulo post contra aliam sententiam
+          <lb ed="#P" n="23"/>latius ostendemus. Deinde argumentor in hunc
+          <lb ed="#P" n="24"/>modum, quia vel ille habitus necessitat 
+          vo<lb break="no" ed="#P" n="25"/>luntatem, quoad exercitium actus mah, vel
+          <lb ed="#P" n="26"/>tantum quoad specificationem: neutrum dici
+          <lb ed="#P" n="27"/>potest; ergo non potest voluntas daemonis per
+          <lb ed="#P" n="28"/>hujusmodi habitum reddi simpliciter impotens
+          <lb ed="#P" n="29"/>ad operandum bonum; consequentia 
+          proba<lb break="no" ed="#P" n="30"/>tur, quia (juxta praedictam sententiam) 
+          impo<lb break="no" ed="#P" n="31"/>tentia simphciter operandi bonum oritur ex
+          <lb ed="#P" n="32"/>necessitate absoluta operandi malum per 
+          ha<lb break="no" ed="#P" n="33"/>bitum illi inducta, quae necessitas non nisi 
+          al<lb break="no" ed="#P" n="34"/>tera ex illis duabus esse potest. Probatur ergo
+          <lb ed="#P" n="35"/>minor de necessitate, quoad exercitium, quia
+          <lb ed="#P" n="36"/>voluntas essentialiter, vel saltem per seipsam
+          <lb ed="#P" n="37"/>est domina sui actus, sed per habitum 
+          super<lb break="no" ed="#P" n="38"/>additum non privatur illa potestate, imo per
+          <lb ed="#P" n="39"/>nullum habitum illa potestas diminuitur in se,
+          <lb ed="#P" n="40"/>et extrinsece, licet per additionem alicujus 
+          in<lb break="no" ed="#P" n="41"/>clinationis impediatur, et quasi extrinsece 
+          mi<lb break="no" ed="#P" n="42"/>nuatur, ut recte notavit D. Thomas 1, 2, q.
+          <lb ed="#P" n="43"/>85, art. 1, ad 2. Unde recte concludit, per
+          <lb ed="#P" n="44"/>multiplicationem peccatorum, vel 
+          quamcum<lb break="no" ed="#P" n="45"/>que intensionem habituum ab illis 
+          provenien<lb break="no" ed="#P" n="46"/>tem nunquam posse voluntatem privari 
+          liber<lb break="no" ed="#P" n="47"/>tate circa suum actum, vel circa usum talis
+          <lb ed="#P" n="48"/>habitus, quia nimirum voluntas in seipsa non
+          <lb ed="#P" n="49"/>minuitur, et ideo semper in illa manet integra
+          <lb ed="#P" n="50"/>potestas, vel suspender.di actum, vel alium 
+          re<lb break="no" ed="#P" n="51"/>pugnantem efficiendi, in qua potestate libertas
+          <lb ed="#P" n="52"/>consistit. Accedit, quod habitus voluntatis non
+          <lb ed="#P" n="53"/>tollit indifferentiam in judicio rationis, quae
+          <lb ed="#P" n="54"/>est radix libertatis: ergo quamvis voluntas
+          <lb ed="#P" n="55"/>sit tali habitu affecta, potest ratio proponere
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>objectum, ut bonum, in quo est aliqua ratio
+          <lb ed="#P" n="57"/>mali, imo et actum circa tale objectum potest
+          <lb ed="#P" n="58"/>proponere, ut bonum non necessarium (
+          loqui<lb break="no" ed="#P" n="59"/>mur enim de intellectu non vidente Deum);
+          <lb ed="#P" n="60"/>ergo nec objectum, nec actus, quamvis directe
+          <lb ed="#P" n="61"/>ut amabilis proponatur, potest illam 
+          necessi<lb break="no" ed="#P" n="62"/>tatem voluntati inferre; ergo cum alias 
+          potes<lb break="no" ed="#P" n="63"/>tas voluntatis integra in se maneat, non 
+          ob<lb break="no" ed="#P" n="64"/>stante habitu, libertas circa talem actum, et
+          <lb ed="#P" n="65"/>objectum integra manebit, ac subinde non
+          <lb ed="#P" n="66"/>potest solus habitus necessitatem quoad 
+          exer<lb break="no" ed="#P" n="67"/>citium inducere.
+        </p>
+        <p xml:id="szdada-x25147-d1e331">
+          <lb ed="#P" n="68"/>3. Deinde quod non necessitet, quoad speciem.
+          <lb ed="#P" n="69"/>— Altera vero pars de necessitate quoad 
+          speci<lb break="no" ed="#P" n="70"/>ficationem tantum, eodem fere discursu 
+          pro<lb break="no" ed="#P" n="71"/>bari potest, quia libertas illi necessitati 
+          oppo<lb break="no" ed="#P" n="72"/>sita etiam consistit in potestate intrinseca 
+          vo<lb break="no" ed="#P" n="73"/>luntatis ad efficiendum, non solum actum
+          <lb ed="#P" n="74"/>moralter malum, sed etiam bonum, et 
+          hones<lb break="no" ed="#P" n="75"/>tum, supposita indifferentia rationis jam 
+          ex<lb break="no" ed="#P" n="76"/>plicata: sed habitus neutrum horum 
+          intrin<lb break="no" ed="#P" n="77"/>sece diminuit; ergo nec potest tollere 
+          liberta<lb break="no" ed="#P" n="78"/>tem, quoad specificationem, seu, quod idem
+          <lb ed="#P" n="79"/>est, contrariam necessitatem inducere: et
+          <lb ed="#P" n="80"/>declaratur amplius, quia necessitas, quoad
+          <lb ed="#P" n="81"/>specificationem non est ad unum actum 
+          deter<lb break="no" ed="#P" n="82"/>minatum non solum in individuo, verum
+          <lb ed="#P" n="83"/>etiam nec in specie, vel proximo genere, ut
+          <lb ed="#P" n="84"/>in praesenti materia est manifestum; quia haec
+          <lb ed="#P" n="85"/>necessitas in praesenti solum dicitur esse inter
+          <lb ed="#P" n="86"/>bonum et malum morale: malum autem 
+          mo<lb break="no" ed="#P" n="87"/>rale indifferens est ad plurima vitia et 
+          pec<lb break="no" ed="#P" n="88"/>cata, inter quae dicitur manere libertas in 
+          vo<lb break="no" ed="#P" n="89"/>Iuntate daemonis, etiam quoad specificationem,
+          <lb ed="#P" n="90"/>licet insit necessitas intra latitudinem illius
+          <lb ed="#P" n="91"/>objecti: ergo talis necessitas non potest 
+          pro<lb break="no" ed="#P" n="92"/>venire ab aliquo habitu, quia omnis habitus
+          <lb ed="#P" n="93"/>inclinat ad determinatam speciem vitii; unde
+          <lb ed="#P" n="94"/>non facile potest intelligi habitus, qui inclinet
+          <lb ed="#P" n="95"/>voluntatem ad malum in communi, et veluti
+          <lb ed="#P" n="96"/>sub disjunctione ad omnes species mali. 
+          Prae<lb break="no" ed="#P" n="97"/>sertim, quia malum non potest intendi sub 
+          ra<lb break="no" ed="#P" n="98"/>tione mali, unde nec habitus potest inclinare
+          <lb ed="#P" n="99"/>ad malum, qua malum est, sed semper 
+          inch<lb break="no" ed="#P" n="100"/>nat sub aliqua ratione boni; nulla est autem
+          <lb ed="#P" n="101"/>ratio boni, cum qua conjunctum sit omne 
+          vi<lb break="no" ed="#P" n="102"/>tium, seu omne malum morale; ergo nec 
+          po<lb break="no" ed="#P" n="103"/>test cogitari habitus, qui ad malum in 
+          commu<lb break="no" ed="#P" n="104"/>ni determmnet voluntatem. Dices, licet haec
+          <lb ed="#P" n="105"/>necessitas ab uno solo habitu non proveniat,
+          <lb ed="#P" n="106"/>posset fieri per collectionem plurium, et totam
+          <lb ed="#P" n="107"/>illam daemonibus infundi; sed hoc refutatur
+          <lb ed="#P" n="108"/>ex dictis, tum quia hoc modo tribuitur Deo,
+          <lb ed="#P" n="109"/>quod sit principalis causa omnium peccatorum
+          <lb ed="#P" n="110"/>daemonum, et omnium vitiorum auctor, tum
+          <pb ed="#P" n="998"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>etiam quia nullus illorum habituum 
+          determi<lb break="no" ed="#P" n="2"/>nat voluntatem ad suum actum; ergo nec om
+          <lb ed="#P" n="3"/>nem simul potest determinare voluntatem
+          <lb ed="#P" n="4"/>quasi disjunctim, seu confuse ad aliquem 
+          vi<lb break="no" ed="#P" n="5"/>tiosum actum, quia semper manet in voluntate
+          <lb ed="#P" n="6"/>integra inclinatio, et potestas ad bonum.
+        </p>
+        <p xml:id="szdada-x25147-d1e444">
+          <lb ed="#P" n="7"/>4. Argumentum Aureoli pro astruendo 
+          ha<lb break="no" ed="#P" n="8"/>bitu. — Sed objicit Aureolus, quia habitus 
+          vi<lb break="no" ed="#P" n="9"/>tiorum inhaerentes voluntati difficilem reddunt
+          <lb ed="#P" n="10"/>electionem, seu determinationem ad bonum;
+          <lb ed="#P" n="11"/>ergo adeo possunt crescere, et intendi, ut 
+          red<lb break="no" ed="#P" n="12"/>dant impossibilem electionem boni. Probatur
+          <lb ed="#P" n="13"/>consequentia, quia quoties forma difficilem
+          <lb ed="#P" n="14"/>reddit actionem alterius formae sibi contrariae,
+          <lb ed="#P" n="15"/>adeo potest crescere, ut impossibillem reddat
+          <lb ed="#P" n="16"/>ejus actionem, ut patet in frigore respectu 
+          ca<lb break="no" ed="#P" n="17"/>loris, et in gravitate ponderis, respectu 
+          huma<lb break="no" ed="#P" n="18"/>narum virium, etc. Verumtamen si 
+          argu<lb break="no" ed="#P" n="19"/>mentum vim haberet, etiam probaret, posse
+          <lb ed="#P" n="20"/>hominem multiplicando peccata, amittere 
+          li<lb break="no" ed="#P" n="21"/>bertatem honeste operandi, quod omnino 
+          fal<lb break="no" ed="#P" n="22"/>sum est. Respondet ergo divus Thomas, dicta
+          <lb ed="#P" n="23"/>quaest. 85, negando consequentiam, quia 
+          ha<lb break="no" ed="#P" n="24"/>bitus non ingerit diflicultatem voluntati 
+          in<lb break="no" ed="#P" n="25"/>trinsece, potestatem ejus diminuendo, ut jam
+          <lb ed="#P" n="26"/>diximus; sed instari potest, urgendo exempla
+          <lb ed="#P" n="27"/>adducta, quia etiam frigus impedit actionem
+          <lb ed="#P" n="28"/>caloris, quamvis illum non diminuat, sed 
+          tan<lb break="no" ed="#P" n="29"/>tum illi resistat, et frigiditas membrorum tanta
+          <lb ed="#P" n="30"/>esse potest, ut omnino impossibilitatem 
+          ambu<lb break="no" ed="#P" n="31"/>landi inducat, quamvis potentiam in se non
+          <lb ed="#P" n="32"/>diminuat. Respondetur tamen facile, non esse
+          <lb ed="#P" n="33"/>simile de qualitatibus materialibus; nam illae
+          <lb ed="#P" n="34"/>habent determinatam vim agendi tantum 
+          se<lb break="no" ed="#P" n="35"/>cundum proportionem majoris ineequalitatis
+          <lb ed="#P" n="36"/>ad resistentiam passi, vel contrarii agentis, et
+          <lb ed="#P" n="37"/>inde fit, ut si resistentia sit major, vel saitem
+          <lb ed="#P" n="38"/>eequalis, omnino ab actione impediantur. 
+          Ali<lb break="no" ed="#P" n="39"/>quando etiam materialis potentia indiget 
+          or<lb break="no" ed="#P" n="40"/>gano, seu instrumento, vel medio certa 
+          dispo<lb break="no" ed="#P" n="41"/>sitione affecto, et ideo illa sublata, vel multum
+          <lb ed="#P" n="42"/>diminuta potest etiam actio talis omnino 
+          im<lb break="no" ed="#P" n="43"/>pedire, ut in visu, potentia motiva, et alis
+          <lb ed="#P" n="44"/>similipus videre licet. Voluntas autem est 
+          po<lb break="no" ed="#P" n="45"/>tentia spiritualis, quae per se non pendet ab
+          <lb ed="#P" n="46"/>organo, vel medio corporeo, nec proprie habet
+          <lb ed="#P" n="47"/>contrarium sibi resistens: nam habitus in ea
+          <lb ed="#P" n="48"/>existentes non resistunt activitati ejus, sed
+          <lb ed="#P" n="49"/>solum, quatenus ad alteram partem magis
+          <lb ed="#P" n="50"/>inclinant, ejus indifferentiam minuunt, et ideo
+          <lb ed="#P" n="51"/>quantumvis augeantur, auferre potestatem
+          <lb ed="#P" n="52"/>operandi circa contrarium objectum nunquam
+          <lb ed="#P" n="53"/>possunt. Praesertim, quia habitus semper est
+          <lb ed="#P" n="54"/>veluti instrumentum ipsius voluntatis, quo
+          <lb ed="#P" n="55"/>utitur, quando vult, et ideo impedire non po-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>test, quominus si voluntas velt, praeter, vel
+          <lb ed="#P" n="57"/>contra inclinationem talis habitus operetur.
+        </p>
+        <p xml:id="szdada-x25147-d1e559">
+          <lb ed="#P" n="58"/>5. Alii deinde pro causa positiva 
+          obstinatio<lb break="no" ed="#P" n="59"/>nis assignant odium Dei necessarium et iucom- .
+          <lb ed="#P" n="60"/>possibile bono operi. — Secundus ergo modus
+          <lb ed="#P" n="61"/>explicandi hanc impotentiam daemonum ad
+          <lb ed="#P" n="62"/>operandum bonum per formam positivam 
+          con<lb break="no" ed="#P" n="63"/>trariam voluntati inhaerentem fuit aliorum
+          <lb ed="#P" n="64"/>theologorum dicentium, illam qualitatem non
+          <lb ed="#P" n="65"/>esse habitum, sed actum quemdam, ita 
+          neces<lb break="no" ed="#P" n="66"/>sarium, ut non possit a voluntate suspendi, aut
+          <lb ed="#P" n="67"/>abjici, et ita pravum, et inordinatum, ut cum
+          <lb ed="#P" n="68"/>illo bonus actus moralis simul esse non possit.
+          <lb ed="#P" n="69"/>Hunc vero actum dicunt esse odium Dei, nam
+          <lb ed="#P" n="70"/>qui actu Deum odio habet, quidquid vult, et
+          <lb ed="#P" n="71"/>eligit, ex illo pravo affectu operatur, et ideo
+          <lb ed="#P" n="72"/>licet contingat talem actum voluntatis, vel
+          <lb ed="#P" n="73"/>electionem ex objecto, seu specie sua esse 
+          bo<lb break="no" ed="#P" n="74"/>nam, vel non malam, nihilominus in 
+          mdivi<lb break="no" ed="#P" n="75"/>duo ex pravo fine, et imperio praedicti odii
+          <lb ed="#P" n="76"/>semper est mala. Ad illud autem odium dicit
+          <lb ed="#P" n="77"/>haec sententia, necessitari voluntatem daemonis
+          <lb ed="#P" n="78"/>a Deo; vel, quia solus Deus efficit tale odium,
+          <lb ed="#P" n="79"/>ita ut voluntas tantum passive illud recipiat,
+          <lb ed="#P" n="80"/>ut voluit Gabriel, in 2, d. 7, quaest. 1, art. 1,
+          <lb ed="#P" n="81"/>cum Ocham, in 2, q. 19, et quodl. 1, q. 14,
+          <lb ed="#P" n="82"/>vel. quia licet actus ille sit effective a voluntate,
+          <lb ed="#P" n="83"/>nihilominus Deus illam necessitat, ut talem 
+          ac<lb break="no" ed="#P" n="84"/>tum semper eliciat.
+        </p>
+        <p xml:id="szdada-x25147-d1e620">
+          <lb ed="#P" n="85"/>6. Forum fundamentum. — Fundamentum
+          <lb ed="#P" n="86"/>hujus sententiae esse potest, quia imprimis non
+          <lb ed="#P" n="87"/>repugnat Deum necessitare voluntatem ad
+          <lb ed="#P" n="88"/>aliquem actum, vel utroque ex dictis modis,
+          <lb ed="#P" n="89"/>ve! saltem altero. Deinde nec in tah actu odii
+          <lb ed="#P" n="90"/>Dei specialis, ac propria repugnantia 
+          inveni<lb break="no" ed="#P" n="91"/>tur, quia quidquid non est peccatum, non 
+          re<lb break="no" ed="#P" n="92"/>pugnat fieri a Deo: illud autem odium si 
+          fac<lb break="no" ed="#P" n="93"/>tum, vel receptum non erit peccatum; ergo
+          <lb ed="#P" n="94"/>non repugnat sic fieri a Deo. Probatur minor,
+          <lb ed="#P" n="95"/>quia de ratione peccati est, ut sit actus liber,
+          <lb ed="#P" n="96"/>sed illud odium sic factum non est actus liber;
+          <lb ed="#P" n="97"/>ergo non est peccatum, ac proinde non 
+          repu<lb break="no" ed="#P" n="98"/>gnat sic fieri a Deo: et fortasse in hoc sensu
+          <lb ed="#P" n="99"/>dicunt ali Deum facere tunc talem actum,
+          <lb ed="#P" n="100"/>quoad entitatem, non quoad deformitatem. 
+          UI<lb break="no" ed="#P" n="101"/>terius vero posita non repugnantia concluditur
+          <lb ed="#P" n="102"/>valde probabiliter, ita fieri a Deo; tum quia
+          <lb ed="#P" n="103"/>talis actus tunc non habet rationem culpae, sed
+          <lb ed="#P" n="104"/>poenae, quam daemon condigne, ac juste 
+          mere<lb break="no" ed="#P" n="105"/>tur, tum etiam quia ille actus est consentaneus
+          <lb ed="#P" n="106"/>illi statui, quia est status termini omnino 
+          con<lb break="no" ed="#P" n="107"/>trarii statui beatitudinis, et ideo sicut in 
+          ter<lb break="no" ed="#P" n="108"/>mino beatitudinis voluntas ratione status ad
+          <lb ed="#P" n="109"/>Dei amorem necessitatur, ita consentaneum
+          <lb ed="#P" n="110"/>est, ut in termino damnationis ad contrarium
+          <pb ed="#P" n="999"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>actum odii Dei necessitetur: tum denique, quia
+          <lb ed="#P" n="2"/>nulla alia sufficiens causa obstinationis 
+          daemo<lb break="no" ed="#P" n="3"/>num, et damnatorum omnium reddi potest.
+        </p>
+        <p xml:id="szdada-x25147-d1e690">
+          <lb ed="#P" n="4"/>7. Impugnatur assignatum odium. — MHaec
+          <lb ed="#P" n="5"/>sententia absurdissima semper mihi visa est,
+          <lb ed="#P" n="6"/>et a caeteris theologis statim allegandis talis est
+          <lb ed="#P" n="7"/>judicata, quamvis non ab omnibus eodem
+          <lb ed="#P" n="8"/>modo impugnetur. Tria enim sunt in actu odii
+          <lb ed="#P" n="9"/>Dei: unum est generale, nimirum quod sit 
+          ac<lb break="no" ed="#P" n="10"/>tus vitalis voluntatis; secundum de se etiam
+          <lb ed="#P" n="11"/>generale est quod sit actus necessarius respectu
+          <lb ed="#P" n="12"/>voluntatis daemonis, ut illaopiniosupponit; 
+          ter<lb break="no" ed="#P" n="13"/>tium est, quod sit talis actus, nimirum odii,
+          <lb ed="#P" n="14"/>circa tale cbjectum; primo igitur impugnatur
+          <lb ed="#P" n="15"/>dicta opinio ex primo capite, quia non potest
+          <lb ed="#P" n="16"/>Deus se solo efficere actum vitalem in 
+          volun<lb break="no" ed="#P" n="17"/>tate, quo ipsa vere amet, aut odio habeat 
+          ni<lb break="no" ed="#P" n="18"/>hil efficiendo, sed tantum recipiendo. Hoc enim
+          <lb ed="#P" n="19"/>repugnat, quia qui amat, vel odit, actualem
+          <lb ed="#P" n="20"/>vitam exercet: actualis autem vita 
+          essentiali<lb break="no" ed="#P" n="21"/>ter requirit efficientiam in actum, qui est vita
+          <lb ed="#P" n="22"/>actualis accidentalis. Quae quidem ratio mea
+          <lb ed="#P" n="23"/>sententia verum, et satis firmum 
+          fundamen<lb break="no" ed="#P" n="24"/>tum sumit ad impugnandam dictam 
+          opinio<lb break="no" ed="#P" n="25"/>nem, verumtamen non adaequate improbat 
+          il<lb break="no" ed="#P" n="26"/>lam; non enim omnes illius opinionis 
+          defen<lb break="no" ed="#P" n="27"/>sores dicunt, actum odii fieri a solo Deo, nec
+          <lb ed="#P" n="28"/>id est necessarium ad daemonis obstinationem;
+          <lb ed="#P" n="29"/>satis enim erit, quod fiat necessitante Deo 
+          vo<lb break="no" ed="#P" n="30"/>luntatem, quamvis ab ipsa eliciatur. Solum
+          <lb ed="#P" n="31"/>ergo procedit illa ratio contra Ocham et 
+          Ga<lb break="no" ed="#P" n="32"/>brielem, qui revera dicunt rem impossibilem:
+          <lb ed="#P" n="33"/>et praeterea licet esset possibilis, frustra 
+          finge<lb break="no" ed="#P" n="34"/>retur tam grande miraculum, cum facilius
+          <lb ed="#P" n="35"/>posset fieri idem effectus, necessitando 
+          volun<lb break="no" ed="#P" n="36"/>tatem ad efficiendum similem actum. Secundo
+          <lb ed="#P" n="37"/>censeri potest ratio illa minus sufliciens, quia
+          <lb ed="#P" n="38"/>licet probet dictam opinionem esse falsam, non
+          <lb ed="#P" n="39"/>tamen in eo gradu, et censura, quam meretur,
+          <lb ed="#P" n="40"/>nam licet opinio, quae asserit posse hominem,
+          <lb ed="#P" n="41"/>vel Angelum intelligere, vel amare per actum
+          <lb ed="#P" n="42"/>non factum a se, sed receptum a Deo, sit falsa,
+          <lb ed="#P" n="43"/>et fortasse improbabilis juxta principia 
+          philo<lb break="no" ed="#P" n="44"/>sophiae, non tamen est intolerabilis, nec 
+          cen<lb break="no" ed="#P" n="45"/>sura digna ex principiis theologiae. llla vero
+          <lb ed="#P" n="46"/>opinio, quam impugnamus, intolerabilis est in
+          <lb ed="#P" n="47"/>theologia, et temeritatis, vel etiam impietatis
+          <lb ed="#P" n="48"/>censura digna est, ut fere omnes probati 
+          theo<lb break="no" ed="#P" n="49"/>logi sentiunt; ergo illa sola ratione non 
+          suffi<lb break="no" ed="#P" n="50"/>cienter, vel, ut sic dicam, non adaequate 
+          im<lb break="no" ed="#P" n="51"/>pugnatur.
+        </p>
+        <p xml:id="szdada-x25147-d1e797">
+          <lb ed="#P" n="52"/>8. Secundo. — Altera ratio. quae ex secundo
+          <lb ed="#P" n="53"/>capite sumitur, infirmior est; dicunt enim 
+          ali<lb break="no" ed="#P" n="54"/>qui, non solum non posse Deum necessitare
+          <lb ed="#P" n="55"/>voluntatem ad odium, vel amorem, se solo eft-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ficiendo tales actus in voluntate creata, verum
+          <lb ed="#P" n="57"/>etiam nec faciendo, ut ipsa ex necessitate illos
+          <lb ed="#P" n="58"/>eliciat, quando ab objecto clare viso non 
+          ne<lb break="no" ed="#P" n="59"/>cessitatur, et alioqui voluntas cum suffticiente
+          <lb ed="#P" n="60"/>advertentia intellectus operatur; unde hanc
+          <lb ed="#P" n="61"/>differentiam constituunt inter amorem et 
+          o<lb break="no" ed="#P" n="62"/>dium Dei, quod ad amandum Deum potest Deus
+          <lb ed="#P" n="63"/>ipse, ut objectum summe bonum, necessitare
+          <lb ed="#P" n="64"/>voluntatem, si clare videatur; illo autem modo
+          <lb ed="#P" n="65"/>non potest necessitare ad odium sui, ut est per
+          <lb ed="#P" n="66"/>se notum. Seclusa autem praedicta necessitate
+          <lb ed="#P" n="67"/>ex parte objecti, dicunt repugnare voluntati,
+          <lb ed="#P" n="68"/>necessitari quoad exercitium actus circa 
+          objec<lb break="no" ed="#P" n="69"/>tum indifferenter propositum ex vi judicii, et
+          <lb ed="#P" n="70"/>modi, quo voluntati proponitur. Cum ergo
+          <lb ed="#P" n="71"/>odium Dei semper sit circa objectum sic 
+          indif<lb break="no" ed="#P" n="72"/>ferens, id est, non necessitans voluntatem,
+          <lb ed="#P" n="73"/>impossibile est, ut Deus necessitatem inferat
+          <lb ed="#P" n="74"/>voluntati ad talem actum. Sed haec ratio 
+          de<lb break="no" ed="#P" n="75"/>bilior est, quam praecedens, quia procedit ex
+          <lb ed="#P" n="76"/>fundamento nimis falso. Nam Deus optime
+          <lb ed="#P" n="77"/>potest necessitare voluntatem ad eliciendum
+          <lb ed="#P" n="78"/>actum circa objectum plene cognitum, 
+          quam<lb break="no" ed="#P" n="79"/>vis objectum ipsum per se talem necessitatem
+          <lb ed="#P" n="80"/>inferre non valeat; quia efticacior est divina
+          <lb ed="#P" n="81"/>potentia, et in illo effectu nulla est 
+          repugnan<lb break="no" ed="#P" n="82"/>tia, ut in materia de Gratia, prolegom. 1, c. 4,
+          <lb ed="#P" n="83"/>late ostendimus: et praeterea, etiamsi 
+          princi<lb break="no" ed="#P" n="84"/>pium illud daretur, ex illo non pro dignitate,
+          <lb ed="#P" n="85"/>ut sic dicam, illa opinio impugnaretur, nec
+          <lb ed="#P" n="86"/>gradusfalsitatis ejus ostenderetur, quod in hunc
+          <lb ed="#P" n="87"/>modum magis declaro; quia juxta illam 
+          ratio<lb break="no" ed="#P" n="88"/>nem, saltem ex hypothesi concedendum esset,
+          <lb ed="#P" n="89"/>quod si potest Deus necessitare voluntatem ad
+          <lb ed="#P" n="90"/>amorem sui extra visionem beatam, possit
+          <lb ed="#P" n="91"/>etiam ad odium sui necessitare. Consequens
+          <lb ed="#P" n="92"/>autem valde absurdum est, alioqui opinio 
+          Ga<lb break="no" ed="#P" n="93"/>brielis non parum probabilis existimanda esset;
+          <lb ed="#P" n="94"/>nemo enim quantumvis protervus negare 
+          po<lb break="no" ed="#P" n="95"/>test, quin sit valde probabile, posse Deum 
+          ne<lb break="no" ed="#P" n="96"/>cessitare voluntatem ad amorem sui, etiam
+          <lb ed="#P" n="97"/>stante judicio rationis de se indifferente, ut est
+          <lb ed="#P" n="98"/>in abstractiva cognitione.
+        </p>
+        <p xml:id="szdada-x25147-d1e905">
+          <lb ed="#P" n="99"/>9. Tertio, et efficaciter. — Responsio 
+          quo<lb break="no" ed="#P" n="100"/>rumdam ad rationem nunc facta. — BEvertitur.
+          <lb ed="#P" n="101"/>— Tertia ergo, et propria ratio ex tertio capite
+          <lb ed="#P" n="102"/>sumenda est, nimirum, quia Deus non potest
+          <lb ed="#P" n="103"/>esse causa peccati, sed actus odii Dei est 
+          in<lb break="no" ed="#P" n="104"/>trinsece actus peccati; ergo non potest Deus se
+          <lb ed="#P" n="105"/>solo immittere voluntati creatae talem actum,
+          <lb ed="#P" n="106"/>aut sua potestate, et voluntate efficaciter 
+          face<lb break="no" ed="#P" n="107"/>re, ut Angelus faciat talem actum, vel e 
+          con<lb break="no" ed="#P" n="108"/>trario argumentando ab inconveniente, quia
+          <lb ed="#P" n="109"/>si Deus ita moveret voluntatem ad illum 
+          ac<lb break="no" ed="#P" n="110"/>tum, Deus esset auctor peccati: hoc autem di-
+          <pb ed="#P" n="1000"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cere impium est, et divinae bonitati, ac 
+          volun<lb break="no" ed="#P" n="2"/>tati contrarium, ut ratio ipsa naturalis docet,
+          <lb ed="#P" n="3"/>et frequenter Scripturae testantur, Psalm. 5:
+          <lb ed="#P" n="4"/>Non Deusvolens iniquitatemtu es: et Habacuc 1:
+          <lb ed="#P" n="5"/>Mundi sunt oculi tui, ne videant malum, et 
+          res<lb break="no" ed="#P" n="6"/>picere ad inquitatem non poteris, et similia;
+          <lb ed="#P" n="7"/>ergo. Respondent quidam, rationem hanc 
+          par<lb break="no" ed="#P" n="8"/>vipendentes, negando sequelam, quia de 
+          ra<lb break="no" ed="#P" n="9"/>tione peccati est, ut sic actus liber, et ideo si
+          <lb ed="#P" n="10"/>Deus necessitaret voluntatem a odium sui,
+          <lb ed="#P" n="11"/>eo ipso non esset auctor peccati, quia 
+          necessi<lb break="no" ed="#P" n="12"/>tatem inferendo, auferret adtali actu rationem
+          <lb ed="#P" n="13"/>peccati. Sed hoc effugium vim, et pondus 
+          ra<lb break="no" ed="#P" n="14"/>tionis non evacuat; quia in actu intrinsece
+          <lb ed="#P" n="15"/>malo, ut est odium Dei, distinguenda est 
+          ma<lb break="no" ed="#P" n="16"/>litiae deformitas (quam intrinsece habet, ex
+          <lb ed="#P" n="17"/>oppositione ad rationem rectam) a libertate
+          <lb ed="#P" n="18"/>actuali, quam habet per denominationem a
+          <lb ed="#P" n="19"/>potentia proxima, a qua elicitur, quando ita
+          <lb ed="#P" n="20"/>sit ab illa, ut possit non fieri. Deus ergo non
+          <lb ed="#P" n="21"/>tantum non potest esse propria causa talis 
+          ac<lb break="no" ed="#P" n="22"/>tus, si libere fiat, vel quia libere fit, sed etiam,
+          <lb ed="#P" n="23"/>ac praecipue, quia intrinsece malus est. Haec
+          <lb ed="#P" n="24"/>autem malitia ab illo non separatur, etiamsi
+          <lb ed="#P" n="25"/>fingatur necessario fieri; ergo etiam propter
+          <lb ed="#P" n="26"/>hanc praecisam rationem non potest Deus sua
+          <lb ed="#P" n="27"/>voluntate intendere tale malum, nec per se
+          <lb ed="#P" n="28"/>facere ut fiat, nam hoc etiam repugnat illis
+          <lb ed="#P" n="29"/>sententiis: Mundi sunt oculi tui, ne videant
+          <lb ed="#P" n="30"/>malum; et, non Deus volens iniquitatem tu es.
+        </p>
+        <p xml:id="szdada-x25147-d1e1003">
+          <lb ed="#P" n="31"/>10. Aliorum responsio. — Rejicitur optimo
+          <lb ed="#P" n="32"/>argumento. — Sed responderi adhuc potest,
+          <lb ed="#P" n="33"/>distinguendo inter malum naturale et morale,
+          <lb ed="#P" n="34"/>et consequenter dicendo, odium illud sine 
+          li<lb break="no" ed="#P" n="35"/>bertate factum esse quidem quoddam naturale
+          <lb ed="#P" n="36"/>malum, non autem morale, quia etiam de 
+          ra<lb break="no" ed="#P" n="37"/>tione mali moralis est libertas: nam esse 
+          mo<lb break="no" ed="#P" n="38"/>rale a libertate incipit, seu in illa fundatur, ac
+          <lb ed="#P" n="39"/>proinde non esse inconveniens, quod Deus sit
+          <lb ed="#P" n="40"/>auctor talis mali, quia Deus potest esse causa
+          <lb ed="#P" n="41"/>naturalis mal, et illud intendere, quamvis
+          <lb ed="#P" n="42"/>non possit esse auctor mali moralis, de quo
+          <lb ed="#P" n="43"/>allegata Scripturae testimonia, et alia similia
+          <lb ed="#P" n="44"/>loquuntur. Sed imprimis responsionem hanc
+          <lb ed="#P" n="45"/>cavendam censeo, vel ex eo, quod haeretici 
+          hu<lb break="no" ed="#P" n="46"/>jus temporis illa utuntur, ut Deum faciant
+          <lb ed="#P" n="47"/>auctorem omnium malorum actuum, quos nos
+          <lb ed="#P" n="48"/>committimus, et nihilominus verbis negent
+          <lb ed="#P" n="49"/>Deum esse causam, cur non peccemus, seu
+          <lb ed="#P" n="50"/>esse auctorem peccati, quia eo ipso quod a
+          <lb ed="#P" n="51"/>Deo sit, definit esse peccatum, seu morale 
+          ma<lb break="no" ed="#P" n="52"/>Ium, ut late ostendit Bellarminus, lib. 2. de
+          <lb ed="#P" n="53"/>Amiss. Gratiae, cap. 2, et sequentibus. In 
+          qui<lb break="no" ed="#P" n="54"/>bus eos convincit, negare verbis, quod reipsa
+          <lb ed="#P" n="55"/>docent. Deinde actus odii Dei, qui a daemone
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fit, sub duplici consideratione mali moralis
+          <lb ed="#P" n="57"/>considerari potest, scilicet, vel in ratione 
+          ac<lb break="no" ed="#P" n="58"/>tus, vel in ratione objecti: quod alias dici 
+          so<lb break="no" ed="#P" n="59"/>let, vel ut habens malitiam formalem, vel 
+          ob<lb break="no" ed="#P" n="60"/>jectivam. Priori modo talis actus consideratur,
+          <lb ed="#P" n="61"/>ut elicitus, verbi gratia, a daemone, et ut sic
+          <lb ed="#P" n="62"/>requirit libertatem, ut sit actus moralis: 
+          ideo<lb break="no" ed="#P" n="63"/>que si ex necessitate fiat, non imputatur
+          <lb ed="#P" n="64"/>proximo operanti, tanquam habens formaliter
+          <lb ed="#P" n="65"/>malitiam moralem; nihilominus tamen 
+          sem<lb break="no" ed="#P" n="66"/>per actus ipse est malus, et deformis moraliter
+          <lb ed="#P" n="67"/>objective, respectu cujuscumque voluntatis
+          <lb ed="#P" n="68"/>intendentis, et volentis illum libere, vel libere
+          <lb ed="#P" n="69"/>facientis, ut ab alio fiat cum necessitate: ergo
+          <lb ed="#P" n="70"/>Deus intendens, volens et faciens, ut 
+          damna<lb break="no" ed="#P" n="71"/>tus ipsum odio habeat, amat odium sui in
+          <lb ed="#P" n="72"/>Angelo; et per hunc amorem efficacem sui
+          <lb ed="#P" n="73"/>odii, necessitat Angelum ad talem actum 
+          fa<lb break="no" ed="#P" n="74"/>ciendum: talis autem amor non potest non
+          <lb ed="#P" n="75"/>esse contrarius rationi, et in se turpis: ergo
+          <lb ed="#P" n="76"/>impium est illum Deo tribuere.
+        </p>
+        <p xml:id="szdada-x25147-d1e1107">
+          <lb ed="#P" n="77"/>11. Evasio argumenti prorime facti.—
+          Ez<lb break="no" ed="#P" n="78"/>pugnatur.—bicet aliquis, talem voluntatem,
+          <lb ed="#P" n="79"/>vel amorem odii sui in alio, in Deo non esse
+          <lb ed="#P" n="80"/>peccatum, vel quia non est contra ullam 
+          le<lb break="no" ed="#P" n="81"/>gem, quia Deus nulla lege obligatur. At haec
+          <lb ed="#P" n="82"/>excusatio nullius momenti est, quia amare
+          <lb ed="#P" n="83"/>odium Dei ex se et ex vi talis objecti est 
+          in<lb break="no" ed="#P" n="84"/>trinsece malum respectu rationalis natura,
+          <lb ed="#P" n="85"/>quaecumque illa sit, sive creata, sive 
+          in<lb break="no" ed="#P" n="86"/>creata; et ideo, si per impossibile Deus 
+          habe<lb break="no" ed="#P" n="87"/>ret illum actum, malus esset, etiamsi non esset
+          <lb ed="#P" n="88"/>contra propriam legem praecipientem, quia 
+          es<lb break="no" ed="#P" n="89"/>set contra ipsam Dei naturam, et contra 
+          natu<lb break="no" ed="#P" n="90"/>ralem rationem, in quocumque sit; unde si
+          <lb ed="#P" n="91"/>peccatum cum illa proprietate sumatur, quod
+          <lb ed="#P" n="92"/>sit actus contra legem, et proprium 
+          praecep<lb break="no" ed="#P" n="93"/>tum superioris, sic actus ille non 
+          denominare<lb break="no" ed="#P" n="94"/>tur peccatum, nihilominus tamen esset actus
+          <lb ed="#P" n="95"/>inordinatus, et turpis, ac proinde repugnans
+          <lb ed="#P" n="96"/>Deo, non ex vi praecepti, sed ex vi infinitae
+          <lb ed="#P" n="97"/>bonitatis, ac rectitudinis divinae voluntatis.
+          <lb ed="#P" n="98"/>Sicut alibi diximus, in tract. de Fide, disp. 3,
+          <lb ed="#P" n="99"/>sect. 5, non posse Deum velle mentiri, quia
+          <lb ed="#P" n="100"/>est actus intrinsece malus, et ita etiam in Deo
+          <lb ed="#P" n="101"/>esset malus, si in Deo posset inveniri; quamvis
+          <lb ed="#P" n="102"/>in ipso non esset contra propriam legem, et
+          <lb ed="#P" n="103"/>ideo sub ea ratione posset non denominari
+          <lb ed="#P" n="104"/>peccatum, et nihilominus Deo repugnat, eo
+          <lb ed="#P" n="105"/>ipso, quod intrinsece malus est, et Deus summe
+          <lb ed="#P" n="106"/>bonus. Quocirca, quia tales actus per se mali
+          <lb ed="#P" n="107"/>inveniri non possunt, nisi in voluntate creata,
+          <lb ed="#P" n="108"/>quae alicui legi aeternae, vel temporali subdita
+          <lb ed="#P" n="109"/>est, ideo nullus est actus malus, qui non sit
+          <lb ed="#P" n="110"/>peccatum, id est, contra legem: ex hypothesi
+          <pb ed="#P" n="1001"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>autem, quod in Deo esset talis voluntas, 
+          dare<lb break="no" ed="#P" n="2"/>tur actus malus, sine illa rigorosa 
+          denomina<lb break="no" ed="#P" n="3"/>tione peccati, prout dicit praevaricationem a
+          <lb ed="#P" n="4"/>lege. Posset tamen verissime denominari 
+          pec<lb break="no" ed="#P" n="5"/>catum, quatenus esset contra rectam rationem,
+          <lb ed="#P" n="6"/>ac subinde contra summam naturalem 
+          intel<lb break="no" ed="#P" n="7"/>lectualem, ut talis est.
+        </p>
+        <p xml:id="szdada-x25147-d1e1203">
+          <lb ed="#P" n="8"/>12. Evasio altera exploditur. — Respondent
+          <lb ed="#P" n="9"/>alii, illam voluntatem in Deo non esse 
+          inordi<lb break="no" ed="#P" n="10"/>natam, quia non habet illam ex odio sui, sed
+          <lb ed="#P" n="11"/>ex affectu justae vindictae in ipso daemone. 
+          Ve<lb break="no" ed="#P" n="12"/>rumtamen non est majoris momenti haec fuga,
+          <lb ed="#P" n="13"/>quia ut actus voluntatis sit malus, satis est,
+          <lb ed="#P" n="14"/>quod sit de objecto intrinsece malo, etiamsi
+          <lb ed="#P" n="15"/>circumstantia boni finis vestiatur; quia sicut
+          <lb ed="#P" n="16"/>non sunt facienda mala, ut inde veniant bona,
+          <lb ed="#P" n="17"/>ita non est intendendus finis bonus per medium
+          <lb ed="#P" n="18"/>pravum. Et ideo non potest Deus velle unuum
+          <lb ed="#P" n="19"/>peccatum, ut puniat aliud, licet possit velle
+          <lb ed="#P" n="20"/>permittere unum peccatum in poenam alterius,
+          <lb ed="#P" n="21"/>quia permissio peccati simpliciter bona est;
+          <lb ed="#P" n="22"/>velle autem efficaciter facere odium sui in alio,
+          <lb ed="#P" n="23"/>non esset velle permittere peccatum, sed esset
+          <lb ed="#P" n="24"/>velle ipsum peccatum, seu malum, quale est
+          <lb ed="#P" n="25"/>odium Dei, etiamsi intendatur, ut ab alio 
+          fa<lb break="no" ed="#P" n="26"/>ciendum ex necessitate ab ipso Deo immissa;
+          <lb ed="#P" n="27"/>quia illa necessitas excusabit eum, qui 
+          neces<lb break="no" ed="#P" n="28"/>sitatur, ne illi turpitudo talis actus tribuatur,
+          <lb ed="#P" n="29"/>non tamen faciet, quin actus ipse semper sit
+          <lb ed="#P" n="30"/>in se turpis, et consequenter sit pravum 
+          objec<lb break="no" ed="#P" n="31"/>tum respectu ejus, qui illum intendit in alio,
+          <lb ed="#P" n="32"/>et per alium fieri vult, per quem facit, ut
+          <lb ed="#P" n="33"/>fiat.
+        </p>
+        <p xml:id="szdada-x25147-d1e1262">
+          <lb ed="#P" n="34"/>13. Quarto tandem impugnatur assignatum
+          <lb ed="#P" n="35"/>odium.—Denique possumus contra illam 
+          sen<lb break="no" ed="#P" n="36"/>tentiam objicere, quia etiam posito illo odio
+          <lb ed="#P" n="37"/>non potest esse adaequata causa, ob quam 
+          An<lb break="no" ed="#P" n="38"/>gelus malus nullum moralem actum bonum
+          <lb ed="#P" n="39"/>facere possit. Probatur, quia non omnis actus
+          <lb ed="#P" n="40"/>bonus mortalis habet formalem vel virtualem
+          <lb ed="#P" n="41"/>repugnantiam cum odio Dei; cur enim non
+          <lb ed="#P" n="42"/>potest Angelus, qui vult malum Deo, velle 
+          bo<lb break="no" ed="#P" n="43"/>num alteri Angelo solum ex naturali affectu
+          <lb ed="#P" n="44"/>ad naturam sibi similem ? aut cur non potest
+          <lb ed="#P" n="45"/>velle dicere verum, quia est rationi consonum?
+          <lb ed="#P" n="46"/>Certe ex solo odio Dei non videtur sumi 
+          suffi<lb break="no" ed="#P" n="47"/>ciens ratio, quia odium Dei non est odium
+          <lb ed="#P" n="48"/>omnis bonitatis, et honestatis particularis, nec
+          <lb ed="#P" n="49"/>est per modum intentionis finis, ad quem 
+          cae<lb break="no" ed="#P" n="50"/>tera opera omnia neces:ario dirigi debeant. In
+          <lb ed="#P" n="51"/>quo differt ab amore Dei, qui virtute 
+          complec<lb break="no" ed="#P" n="52"/>titur observantiam praeceptorum: tum, quia
+          <lb ed="#P" n="53"/>non potest sine illis subsistere, tum etiam, quia
+          <lb ed="#P" n="54"/>bonum ex integra causa: odium autem, et 
+          po<lb break="no" ed="#P" n="55"/>test esse circa Deum, etiamsi non sit circa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>proximum, et est malum, quod ex quocumque
+          <lb ed="#P" n="57"/>defectu committi potest.
+        </p>
+        <p xml:id="szdada-x25147-d1e1319">
+          <lb ed="#P" n="58"/>14. Responsio quorumdam ad prosimam 
+          im<lb break="no" ed="#P" n="59"/>pugnationem. — Hesponderi vero potest, licet
+          <lb ed="#P" n="60"/>hoc sit verum, loquendo in communi de odio
+          <lb ed="#P" n="61"/>Dei, tamen aliquod esse posse tam universale
+          <lb ed="#P" n="62"/>ex parte objecti, ut omnis actus honestus cum
+          <lb ed="#P" n="63"/>illo repugnet, praesertim in Angelo, qui 
+          ratio<lb break="no" ed="#P" n="64"/>nes rerum et actionum perfecte cognoscit. 
+          De<lb break="no" ed="#P" n="65"/>claratur. quia potest quis tam acerbo odio
+          <lb ed="#P" n="66"/>Deum prosequi, ut velit, et intendat in 
+          omni<lb break="no" ed="#P" n="67"/>bus illi displicere, quantum possibile fuerit, et
+          <lb ed="#P" n="68"/>ex vi talis actus odio habeat Deum tam in se,
+          <lb ed="#P" n="69"/>quam in sua imagine. et in omni persona, quae
+          <lb ed="#P" n="70"/>illi placet; cum tali autem odio nulla voluntas
+          <lb ed="#P" n="71"/>benefaciendi alteri, aut bonum operandi 
+          sub<lb break="no" ed="#P" n="72"/>sistere potest. Si autem Deus immittit daemoni
+          <lb ed="#P" n="73"/>odium sui, credibile est, tale odium ex omni
+          <lb ed="#P" n="74"/>parte esse maximum et acerbissimum; de hoc
+          <lb ed="#P" n="75"/>ergo odio probabilissimum est, de necessitate
+          <lb ed="#P" n="76"/>excludere omnem bonum actum, sed quo 
+          ma<lb break="no" ed="#P" n="77"/>litia talis odii magis exaggeratur, eo fit 
+          incre<lb break="no" ed="#P" n="78"/>dibilius et horribilius, quod Deus directe et
+          <lb ed="#P" n="79"/>efficaciter tale odium damnatis immittat.
+        </p>
+        <p xml:id="szdada-x25147-d1e1370">
+          <lb ed="#P" n="80"/>15. Refellitur dicta responsio. — 
+          Verumta<lb break="no" ed="#P" n="81"/>men ex illo sequitur, daemonem in omnibus
+          <lb ed="#P" n="82"/>aliis actibus suis nihil peccare, quod satis 
+          ab<lb break="no" ed="#P" n="83"/>surdum est; et contra verba Joan. 1 Canonica,
+          <lb ed="#P" n="84"/>cap. 3: Ab initio diabolus peccat; quae sic 
+          ex<lb break="no" ed="#P" n="85"/>ponit Augustinus, lib. 11, de Civit., cap. 13,
+          <lb ed="#P" n="86"/>ab initio sui peccati, seu ex quo peccare 
+          ince<lb break="no" ed="#P" n="87"/>pit, semper peccat: juxta illud Psal. 73: 
+          Su<lb break="no" ed="#P" n="88"/>perbia eorum, quà te oderunt, ascendit semper;
+          <lb ed="#P" n="89"/>et ita etiam exponunt Beda, Lyranus et alii in
+          <lb ed="#P" n="90"/>dictum locum Joannis. Patres etiam 
+          commu<lb break="no" ed="#P" n="91"/>niter inter peccata daemonis numerant 
+          invi<lb break="no" ed="#P" n="92"/>diam contra hominem, et quod ex illa 
+          Ada<lb break="no" ed="#P" n="93"/>mum ad peccandum induxit, et quodammodo
+          <lb ed="#P" n="94"/>occidit: nam de illo peccato daemonis multi
+          <lb ed="#P" n="95"/>interpretantur verba Christi, Joan. 8: 7lle 
+          ho<lb break="no" ed="#P" n="96"/>micida erat ab initio, ui in superioribus visum
+          <lb ed="#P" n="97"/>est. At vero illud peccatum commisit daemon
+          <lb ed="#P" n="98"/>jam damnatus, ac subinde in illo statu potest
+          <lb ed="#P" n="99"/>peccare: non potest igitur illud consequens
+          <lb ed="#P" n="100"/>admitti. Quod autem sequatur, patebit, quia
+          <lb ed="#P" n="101"/>nemo peccat in eo, quod ex necessitate facit,
+          <lb ed="#P" n="102"/>et vitare non valet: sed daemon juxta illam
+          <lb ed="#P" n="103"/>sententiam, necessario male facit, quidquid
+          <lb ed="#P" n="104"/>facit; ergo nunquam peccat. Item ad hominem,
+          <lb ed="#P" n="105"/>probatur sequela a contrario: quia si in his,
+          <lb ed="#P" n="106"/>quae daemon necessario facit, ex vi odii 
+          pecca<lb break="no" ed="#P" n="107"/>ret, etiam in ipso odio peccaret, et sic Deus
+          <lb ed="#P" n="108"/>esset auctor peccati.
+        </p>
+        <p xml:id="szdada-x25147-d1e1435">
+          <lb ed="#P" n="109"/>16. Ut occurrant nonnulli. — Rejeciuntur.—
+          <lb ed="#P" n="110"/>Responderi potest, in his, quae daemon facit ex
+          <pb ed="#P" n="1002"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vi odii cum necessitate quoad exercitium, non
+          <lb ed="#P" n="2"/>peccare, ut probat ratio: quia, quod sequitur
+          <lb ed="#P" n="3"/>ex suppositione necessaria simpliciter, quoad
+          <lb ed="#P" n="4"/>exercitium, si cum simili necessitate sequatur,
+          <lb ed="#P" n="5"/>non est ullo modc liberum, nec morale, et
+          <lb ed="#P" n="6"/>consequenter aeque non potest esse peccatum.
+          <lb ed="#P" n="7"/>Inde tamen non sequitur universaliter 
+          daemo<lb break="no" ed="#P" n="8"/>nem nunquam peccare, quia multa facit, ad
+          <lb ed="#P" n="9"/>quae ex vi odii non necessitatur quoad 
+          exerci<lb break="no" ed="#P" n="10"/>tium, sed contra hoc est, quia licet ad singulos
+          <lb ed="#P" n="11"/>actus malos (ut sic dicam) seu quoad 
+          substan<lb break="no" ed="#P" n="12"/>tiam eorum non necessitetur quoad exercitium,
+          <lb ed="#P" n="13"/>necessitatur nihilominus simpliciter quoad 
+          ma<lb break="no" ed="#P" n="14"/>litiam eorum, quia juxta illam sententiam non
+          <lb ed="#P" n="15"/>potest daemon vitare malitiam, quam tales 
+          ac<lb break="no" ed="#P" n="16"/>tus ab odio Dei ex necessitate participant; ergo
+          <lb ed="#P" n="17"/>actus ille, ut malus, non est liber, ac proinde
+          <lb ed="#P" n="18"/>nec malus moraliter, vel peccatum; nec 
+          suffi<lb break="no" ed="#P" n="19"/>ciet libertas in exercitio actus, quoad 
+          substan<lb break="no" ed="#P" n="20"/>tiam ejus, ut operanti malitia imputetur, quia
+          <lb ed="#P" n="21"/>non tenetur daemon abstinere ab omni actu
+          <lb ed="#P" n="22"/>libero, ne a necessario Dei odio inficiatur, quia
+          <lb ed="#P" n="23"/>illud moraliter impossibile est, nec ulla 
+          suffi<lb break="no" ed="#P" n="24"/>ciens ratio talis obligationis dari potest.
+        </p>
+        <p xml:id="szdada-x25147-d1e1498">
+          <lb ed="#P" n="25"/>17. Aliorum occursio. — Infringitur. — 
+          Ad<lb break="no" ed="#P" n="26"/>huc vero poterit responderi, hoc ad summum
+          <lb ed="#P" n="27"/>procedere de actibus ex objecto bonis, vel 
+          sal<lb break="no" ed="#P" n="28"/>tem indifferentibus: non vero de actibus de
+          <lb ed="#P" n="29"/>intrinseco malis ex objecto, ut sunt invidia,
+          <lb ed="#P" n="30"/>homicidium, mendacium, blasphemia, et 
+          si<lb break="no" ed="#P" n="31"/>miles, in quibus merito dicitur peccare 
+          dae<lb break="no" ed="#P" n="32"/>mon, quia libere se determinat ad talia 
+          objec<lb break="no" ed="#P" n="33"/>ta, a quibus propriam mal tiam habent: et ita
+          <lb ed="#P" n="34"/>secundum illam malitiam vere peccat daemon,
+          <lb ed="#P" n="35"/>et cum suflicienti libertate, licet malitia odii
+          <lb ed="#P" n="36"/>Dei, si in illos etiam actus redundat, ipsi non
+          <lb ed="#P" n="37"/>imputetur. Sed contra hoc etiam replicari 
+          po<lb break="no" ed="#P" n="38"/>test primo, quod supposito summo odio Dei,
+          <lb ed="#P" n="39"/>quale explicatum est, etiam illi actus non erunt
+          <lb ed="#P" n="40"/>liberi, quoad exercitium, quia daemonis odium
+          <lb ed="#P" n="41"/>tale est, ut ex vi illius cupiat inferre Deo omne
+          <lb ed="#P" n="42"/>malum, et omnem injur.am sibi possibilem,
+          <lb ed="#P" n="43"/>sed quoties illos actus exercet, repraesentantur
+          <lb ed="#P" n="44"/>ipsi, ut media necessaria ad explendum illum
+          <lb ed="#P" n="45"/>pravum affectum ad Deum, quem ex 
+          necessi<lb break="no" ed="#P" n="46"/>tate habet; ergo eadem necessitate tales actus
+          <lb ed="#P" n="47"/>facit, et consequenter in illis non magis 
+          pec<lb break="no" ed="#P" n="48"/>cat, quam in ipso odio. Secundo: potest e 
+          con<lb break="no" ed="#P" n="49"/>trario converti argumentum, quia si actus illi
+          <lb ed="#P" n="50"/>sunt liberi, poterit daemon ab illis semper 
+          abs<lb break="no" ed="#P" n="51"/>tinere, et solos actus bonos, vel indifferentes
+          <lb ed="#P" n="52"/>ex objecto facere, et sine malitia, quae ipsi 
+          im<lb break="no" ed="#P" n="53"/>putetur: consequens autem admitti non potest.
+          <lb ed="#P" n="54"/>juxta ea, quae adduximus; ergo ratio illa 
+          sump<lb break="no" ed="#P" n="55"/>ia ex necessitate odii Dei, et absurdo funda-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mento nititur, et illo etiam posito, 
+          difficulta<lb break="no" ed="#P" n="57"/>tem non omnino evacuat.
+        </p>
+        <p xml:id="szdada-x25147-d1e1574">
+          <lb ed="#P" n="58"/>18. Tertia sententia assignans pro causa
+          <lb ed="#P" n="59"/>obstinationis demonum ipsum eorum primum
+          <lb ed="#P" n="60"/>peccatum .— Non satisfacit — Tertia principalis
+          <lb ed="#P" n="61"/>sententia in hoc puncto est: Primum 
+          pecca<lb break="no" ed="#P" n="62"/>tum ab Angelo in via commissum esse 
+          sufti<lb break="no" ed="#P" n="63"/>cientem causam tantae obstinationis, ut 
+          nun<lb break="no" ed="#P" n="64"/>quam amplius bonum opus facere possit; quia
+          <lb ed="#P" n="65"/>semper operantur mali Angeli in virtute illius
+          <lb ed="#P" n="66"/>primae intentionis, cui immobiliter adhaerent:
+          <lb ed="#P" n="67"/>et ideo illa sufficit, ut omnes subsequentes 
+          ac<lb break="no" ed="#P" n="68"/>tus mali sint. Ita exponunt rationem D. 
+          Tho<lb break="no" ed="#P" n="69"/>mae, in dicto art. 2, Cajetanus ibi, et Ferrara
+          <lb ed="#P" n="70"/>supra, et insinuat D. Thomas 2, dist. 7, q. 1,
+          <lb ed="#P" n="71"/>art. 2, et quaest. 24, de Verit., art. 10 et 11, et
+          <lb ed="#P" n="72"/>consentit Richardus supra. Sed haec sententia
+          <lb ed="#P" n="73"/>satisfacere non potest; tum, quia principium
+          <lb ed="#P" n="74"/>illud de inflexibilitate voluntatis angelicae, 
+          dit<lb break="no" ed="#P" n="75"/>ficile est, et in sensu vero, quem habere 
+          po<lb break="no" ed="#P" n="76"/>test, non servit proposito: ut ex supra dictis
+          <lb ed="#P" n="77"/>facile constat; tum maxime, quia illa ratio
+          <lb ed="#P" n="78"/>confundit obstinationem solius impoenitentiae
+          <lb ed="#P" n="79"/>de peccato commisso, cum obstinatione semper
+          <lb ed="#P" n="80"/>male, et nunquam bene operandi, cum 
+          lon<lb break="no" ed="#P" n="81"/>gissime distent. Et illa ratio licet de priori
+          <lb ed="#P" n="82"/>obstinatione admittatur, nihil de posteriori
+          <lb ed="#P" n="83"/>probat; nam solum probat, daemonem semper,
+          <lb ed="#P" n="84"/>ac necessario in statu peccati esse; ex quo 
+          in<lb break="no" ed="#P" n="85"/>ferri non potest, omnem ejus actum esse 
+          pec<lb break="no" ed="#P" n="86"/>catum, ut per se notum est. Alioqui homo
+          <lb ed="#P" n="87"/>existens in peccato lethali in omni actu suo
+          <lb ed="#P" n="88"/>peccaret, quod sine errore dici non potest.
+          <lb ed="#P" n="89"/>Antecedens vero patet, quia peccatum, quod
+          <lb ed="#P" n="90"/>daemon in via commisit, nullo modo influit ex
+          <lb ed="#P" n="91"/>necessitate in omnes sequentes actus, quia nec
+          <lb ed="#P" n="92"/>actu permanet semper, nec per virtutem 
+          ali<lb break="no" ed="#P" n="93"/>quam relictam influit, sed tantum habituahter
+          <lb ed="#P" n="94"/>durat, quae omnia constant ex gencralibus
+          <lb ed="#P" n="95"/>principiis moralibus in 1, 2, traditis, vel 
+          tra<lb break="no" ed="#P" n="96"/>dendis; et ideo plura de hac opinione dicere
+          <lb ed="#P" n="97"/>necessarium non est: aliquid vero in capite
+          <lb ed="#P" n="98"/>sequenti addemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

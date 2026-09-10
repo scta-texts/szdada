@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="164"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x04112"><!-- l2c12 -->
+        <head xml:id="szdada-x04112-Hd1e101">Caput 12</head>
+        <head xml:id="szdada-x04112-Hd1e103" type="question-title">Quomodo angeli res praeteritas per species inditas certo cognoscant</head>
+        <p xml:id="szdada-x04112-d1e106">
+          <lb ed="#P" n="77"/>CAPUT XII.
+          <lb ed="#P" n="78"/>QUOMODO ANGELI RES PRAETERITAS PER SPECIES 
+          IN<lb break="no" ed="#P" n="79"/>DITAS CERTO COGNOSCANT.
+        </p>
+        <p xml:id="szdada-x04112-d1e115">
+          <lb ed="#P" n="80"/>1. Ratio dubitandi. — Prima conclusio 
+          prae<lb break="no" ed="#P" n="81"/>mattitur. — Hanc quaestionem attigit D. Thomas,
+          <lb ed="#P" n="82"/>dicta quaest. 57, art. 3, ad 3, et videtur 
+          praete<lb break="no" ed="#P" n="83"/>rita futuris aequiparare: nam in argumento de
+          <lb ed="#P" n="84"/>illis et de futuris difficultatem proposuerat, et
+          <lb ed="#P" n="85"/>postea nihil de praeteritis in speciali dicit, sed
+          <lb ed="#P" n="86"/>tantum de futuris, unde videtur tacite innuere,
+          <lb ed="#P" n="87"/>idem esse de praeteritis sentiendum. In 
+          contra<lb break="no" ed="#P" n="88"/>rium vero est, quia multo facilior est cognitio
+          <lb ed="#P" n="89"/>praeteritorum, quam futurorum, quia praeterita
+          <lb ed="#P" n="90"/>etiamsi libere sint facta, jam non sunt 
+          contin<lb break="no" ed="#P" n="91"/>centia, sed necessaria, unde fit, ut homines
+          <lb ed="#P" n="92"/>etiam illa certo cognoscere possint. Hoc ergo
+          <lb ed="#P" n="93"/>imprimis de Angelis supponendum est, habere
+          <lb ed="#P" n="94"/>nimirum posse certam cognitionem 
+          natura<lb break="no" ed="#P" n="95"/>lium effectuum praeteritorum, etiamsi libere
+          <lb ed="#P" n="96"/>et contingenter facti fuerint, dummodo non
+          <lb ed="#P" n="97"/>fuerint cogitationes cordium: nam de his nunc
+          <lb ed="#P" n="98"/>non agimus, et ideo de naturalibus effectibus
+          <lb ed="#P" n="99"/>locutus sum, ut ab actibus internis voluntatis
+          <lb ed="#P" n="100"/>et rationis illos distinguerem. Sic ergo assertio
+          <lb ed="#P" n="101"/>est certa et communis theologorum, primo ex
+          <lb ed="#P" n="102"/>ratione facta, quod praeterita sunt naturaliter
+          <lb ed="#P" n="103"/>cognoscibilia, ergo non potest deesse Angelo
+          <lb ed="#P" n="104"/>modus naturalis, quo illa cognoscat. Secundo,
+          <lb ed="#P" n="105"/>quia scientia praeteritorum necessaria est ad
+          <lb ed="#P" n="106"/>experientiam vel sagacitatem in rebus agendis,
+          <lb ed="#P" n="107"/>et ideo Patres frequenter tribuunt daemonibus
+          <lb ed="#P" n="108"/>experientiam, per quam sunt ad tentandum
+          <pb ed="#P" n="165"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sagacissimi et astutissimi. Tertio, quia 
+          memo<lb break="no" ed="#P" n="2"/>ria est de praeteritis, ut praeterita sunt. At vero
+          <lb ed="#P" n="3"/>Angeli memoriam rerum habent, nam haec ad
+          <lb ed="#P" n="4"/>perfectionem pertinet, et non est, cur Angelis
+          <lb ed="#P" n="5"/>negetur: nam licet propria memoria in actu
+          <lb ed="#P" n="6"/>primo supponat aliam imperfectionem, scilicet,
+          <lb ed="#P" n="7"/>non semper perseverare in actu secundo 
+          co<lb break="no" ed="#P" n="8"/>gnitionis semel factae, nihilominus, quia haec
+          <lb ed="#P" n="9"/>imperfectio in Angelis invenitur, necesse est,
+          <lb ed="#P" n="10"/>ut per thesaurum memoriae aliquo modo 
+          sup<lb break="no" ed="#P" n="11"/>pleatur, ac subinde ratione memoriae poterit
+          <lb ed="#P" n="12"/>Angelus praeterita cognoscere.
+        </p>
+        <p xml:id="szdada-x04112-d1e211">
+          <lb ed="#P" n="13"/>2. Difficultas cognoscendi res preeteritas.—
+          <lb ed="#P" n="14"/>Ut autem haec veritas intelligatur, principium
+          <lb ed="#P" n="15"/>et modum hujus cognitionis explicare necesse
+          <lb ed="#P" n="16"/>est, non enim res caret difficultate: nam vel
+          <lb ed="#P" n="17"/>Angelus cognoscit, res praeteritas fuisse, per
+          <lb ed="#P" n="18"/>species innatas immutatas in se permanentes,
+          <lb ed="#P" n="19"/>vel per aliquam mutationem in eis factam, vel
+          <lb ed="#P" n="20"/>per antiquarum specierum modificationem ,
+          <lb ed="#P" n="21"/>vel per novae speciei productionem: nihil 
+          ho<lb break="no" ed="#P" n="22"/>rum videtur dici posse, ergo non potest talis
+          <lb ed="#P" n="23"/>modus cognitionis esse in Angelo. 
+          Consequen<lb break="no" ed="#P" n="24"/>tia inde probatur, quod alius modus cogitari
+          <lb ed="#P" n="25"/>non potest, supposita necessitate specierum,
+          <lb ed="#P" n="26"/>vel si fingatur Angelus sine speciebus 
+          intelli<lb break="no" ed="#P" n="27"/>gere, eadem diflficultas in illa sententia 
+          inve<lb break="no" ed="#P" n="28"/>nietur, ut videbimus. Minor ergo quoad 
+          pri<lb break="no" ed="#P" n="29"/>mam partem probatur, quia per speciem 
+          inna<lb break="no" ed="#P" n="30"/>tam alicujus rei, non potest Angelus cognoscere
+          <lb ed="#P" n="31"/>illam esse futuram, antequam sit, ergo per
+          <lb ed="#P" n="32"/>eamdem immutatam non potest cognoscere
+          <lb ed="#P" n="33"/>esse praeteritam, quoniam jam non est. 
+          Proba<lb break="no" ed="#P" n="34"/>tur consequentia, quia sicut in re futura, 
+          futu<lb break="no" ed="#P" n="35"/>ritio non est aliquid reale actu existens in ipsa
+          <lb ed="#P" n="36"/>re, ut ad id possit terminari cognitio evidens
+          <lb ed="#P" n="37"/>rei futurae, ut sic, ita in re praeterita praeteritio,
+          <lb ed="#P" n="38"/>seu fuisse nihil reale est actu, nunc existens in
+          <lb ed="#P" n="39"/>re, quae fuit et jam non est, ergo non potest ex
+          <lb ed="#P" n="40"/>vi solius speciei evidenter cognosci in se et per
+          <lb ed="#P" n="41"/>modum intuitivae cognitionis. Altera item pars
+          <lb ed="#P" n="42"/>minoris probatur, quia si ex actuali existentia
+          <lb ed="#P" n="43"/>objecti non fit mutatio in speciebus concreatis
+          <lb ed="#P" n="44"/>Angelo, multo minus fieri poterit ex 
+          praeteri<lb break="no" ed="#P" n="45"/>üone rei. Probatur consequentia, tum quia
+          <lb ed="#P" n="46"/>minus existit res praeterita quam praesens, imo
+          <lb ed="#P" n="47"/>praeterito non addit aliquid, sed potius tollit
+          <lb ed="#P" n="48"/>actualem existentiam ejus, dicitur enim res
+          <lb ed="#P" n="49"/>praeteriisse, quae fuit et jam non est, vel quae
+          <lb ed="#P" n="50"/>praeterito tempori coexistit, non praesenti, quae
+          <lb ed="#P" n="51"/>negatio nihil ad immutandas species angelicas
+          <lb ed="#P" n="52"/>conferre potest: tum etiam quia omnes 
+          ratio<lb break="no" ed="#P" n="53"/>nes supra factae contra mutationem illarum
+          <lb ed="#P" n="54"/>specierum in praesentia obiecti, probant de re
+          <lb ed="#P" n="55"/>praeterita, quia intelligi non potest, quaenam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illa mutatio sit, nec a quo vel quo modo fiat.
+          <lb ed="#P" n="57"/>Et haec ratio probat, non posse talem 
+          muta<lb break="no" ed="#P" n="58"/>tionem esse antiquae speciei modificationem.
+          <lb ed="#P" n="59"/>Quod autem non sit novae speciei productio, ex
+          <lb ed="#P" n="60"/>supra dictis de infusis speciebus Angelorum
+          <lb ed="#P" n="61"/>potest supponi.
+        </p>
+        <p xml:id="szdada-x04112-d1e323">
+          <lb ed="#P" n="62"/>3. Notatio pro resolutione.— Notatio altera.
+          <lb ed="#P" n="63"/>— Ad hoc explicandum suppono, duphciter
+          <lb ed="#P" n="64"/>posse Angelum cognoscere rem praeteritam,
+          <lb ed="#P" n="65"/>scilicet, quasi mediate, et per aliud, scilicet per
+          <lb ed="#P" n="66"/>medium cognitum, vel directe immediate, et
+          <lb ed="#P" n="67"/>in se per speciem ejus, seu per solum medium
+          <lb ed="#P" n="68"/>incognitum, sicut de futuris diximus. De priori
+          <lb ed="#P" n="69"/>ergo modo cognoscendi per medium cognitum
+          <lb ed="#P" n="70"/>non est dubium, quin possit aliquando 
+          conjec<lb break="no" ed="#P" n="71"/>tare Angelus, rem aliquam, quae nunc non
+          <lb ed="#P" n="72"/>est, fuisse, si aliqua signa, vel vestigia suae
+          <lb ed="#P" n="73"/>praesentiae reliquit. Sicut nos etiam 
+          cognosce<lb break="no" ed="#P" n="74"/>mus hic fuisse ignem, si fumus adhuc 
+          perma<lb break="no" ed="#P" n="75"/>net, et ex praesenti effectu praeteritatem 
+          co<lb break="no" ed="#P" n="76"/>gnoscimus, aut conjectamus, inde enim 
+          pertur<lb break="no" ed="#P" n="77"/>batum legimus Josephum, Matth. 1, et de hoc
+          <lb ed="#P" n="78"/>genere cognitionis non est difficultas, quia non
+          <lb ed="#P" n="79"/>fit per propriam speciem rei praeteritae, sed per
+          <lb ed="#P" n="80"/>speciem effectus, vel vestigii relicti, et adhuc
+          <lb ed="#P" n="81"/>praesentis. Item est alius modus cognoscendi
+          <lb ed="#P" n="82"/>praeterita per aliorum relationem, et 
+          testimo<lb break="no" ed="#P" n="83"/>nium. Et hoc modo etiam est clarum, posse
+          <lb ed="#P" n="84"/>Angelos cognoscere praeterita, per relationem
+          <lb ed="#P" n="85"/>aliorum Angelorum, qui illa viderunt: tamen
+          <lb ed="#P" n="86"/>hic modus imperfectus est, ut constat, et prior
+          <lb ed="#P" n="87"/>etiam non sufficit, tum quia vel non praebet
+          <lb ed="#P" n="88"/>cognitionem certam, quando scilicet effectus,
+          <lb ed="#P" n="89"/>ac signa non sunt evidentia, vel saltem est
+          <lb ed="#P" n="90"/>imperfectus, quia est per effectum aliquem,
+          <lb ed="#P" n="91"/>non per propriamrel cognitionem. Et praeterea
+          <lb ed="#P" n="92"/>non omnes res praeteritae possunt hoc modo
+          <lb ed="#P" n="93"/>cognosci: multae enim ita transeunt, ut
+          <lb ed="#P" n="94"/>nullum sui vestigium relinquant, ut est 
+          tran<lb break="no" ed="#P" n="95"/>situs per mare, et similia, quae Sapiens 
+          Pro<lb break="no" ed="#P" n="96"/>verb. 30, enumerat. Itaque de cognitione
+          <lb ed="#P" n="97"/>praeteriti per speciem alienam effectus, aut
+          <lb ed="#P" n="98"/>vestigit a re praeterita relicti ita sentiendum
+          <lb ed="#P" n="99"/>est, cicut de cognitione cujuscumque causse
+          <lb ed="#P" n="100"/>per signa, vel effectus, vel sicut de 
+          cogni<lb break="no" ed="#P" n="101"/>tione futurorum per conjecturas, vel signa
+          <lb ed="#P" n="102"/>certa, et ideo de illa non loquimur, sed cum
+          <lb ed="#P" n="103"/>proportione applicari possunt, quae de simili
+          <lb ed="#P" n="104"/>cognitione futurorum diximus. Agimus ergo
+          <lb ed="#P" n="105"/>de cognitione per propriam speciem inditam
+          <lb ed="#P" n="106"/>rei praeteritae. Circa hujusmodi autem rem
+          <lb ed="#P" n="107"/>praeteritam dupliciter potest Angelus esse
+          <lb ed="#P" n="108"/>affectus: primo ut licet habeat speciem in
+          <lb ed="#P" n="109"/>ditam talis rei, nihilominus illam non 
+          vide<lb break="no" ed="#P" n="110"/>rit, neque ad illam attenderit, quando extitit:
+          <pb ed="#P" n="166"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nam cum Angelus non semper sit in actu 
+          se<lb break="no" ed="#P" n="2"/>cundo suarum specierum, neque ad omnia,
+          <lb ed="#P" n="3"/>quae in mundo fiunt, semper attendat, facile
+          <lb ed="#P" n="4"/>contingere potest, ut licet res antea fuerit,
+          <lb ed="#P" n="5"/>illam praesentem, et existentem non viderit:
+          <lb ed="#P" n="6"/>secundo fieri potest, ut illam viderit, jam vero
+          <lb ed="#P" n="7"/>non videat praesentem, quia esse desiit: et
+          <lb ed="#P" n="8"/>utrumque modum explicare necesse est.
+        </p>
+        <p xml:id="szdada-x04112-d1e453">
+          <lb ed="#P" n="9"/>4. Prima opinio circà proprium hujus 
+          ca<lb break="no" ed="#P" n="10"/>pitis dubium.—Est cnim, ut reperio, 
+          quorum<lb break="no" ed="#P" n="11"/>dam opinio mihi satis nova, dicentium, posse
+          <lb ed="#P" n="12"/>Angelum per species innatas videre praeterita
+          <lb ed="#P" n="13"/>saepissime, et per solum intuitum, etiamsi nec
+          <lb ed="#P" n="14"/>viderit illa praesentia, nec de illis cogitaverit.
+          <lb ed="#P" n="15"/>Ut explicatur optime, si ponamus, nunc creari
+          <lb ed="#P" n="16"/>a Deo novum Angelum eisdem instructum 
+          spe<lb break="no" ed="#P" n="17"/>ciebus, quibus alii Angeli in principio fuerunt,
+          <lb ed="#P" n="18"/>et non aliis: aiunt ergo, illum Angelum posse
+          <lb ed="#P" n="19"/>per illas species naturales virtute sui ingenii,
+          <lb ed="#P" n="20"/>seu luminis naturalis evidenter scire omnes
+          <lb ed="#P" n="21"/>effectus naturales, eorumque productiones, ut
+          <lb ed="#P" n="22"/>a principio temporis usque nunc facti sunt,
+          <lb ed="#P" n="23"/>etiamsi contingenter facti fuerint, et omnino
+          <lb ed="#P" n="24"/>praeterierint, nullumque sui vestigium in 
+          mun<lb break="no" ed="#P" n="25"/>do reliquerint. Ita tenet Vasquez, dicta disp.
+          <lb ed="#P" n="26"/>208. cap. ult., circa finem: nam hlvcet ille 
+          cre<lb break="no" ed="#P" n="27"/>dat Angelum cognoscere sine speciebus, tamen
+          <lb ed="#P" n="28"/>de illo docet, per solum lumen naturale suum
+          <lb ed="#P" n="29"/>posse dicto modo cognoscere omnia praeterita,
+          <lb ed="#P" n="30"/>quae nunquam vidit praesentia: et 
+          consequen<lb break="no" ed="#P" n="31"/>ter dicit, idem esse opinandum in sententia
+          <lb ed="#P" n="32"/>ponente species: quia licet inter illas 
+          senten<lb break="no" ed="#P" n="33"/>tias sit diversitas in modo constituendi 
+          ange<lb break="no" ed="#P" n="34"/>licum intellectum in actu primo ad 
+          intelligen<lb break="no" ed="#P" n="35"/>dum, vel per solam simplicem entitatem 
+          in<lb break="no" ed="#P" n="36"/>tellectus angelici, vel per compositionem cum
+          <lb ed="#P" n="37"/>specie, nihilominus utroque modo aequalis 
+          vir<lb break="no" ed="#P" n="38"/>tutis ad intelligendum cogitatur, ideoque si
+          <lb ed="#P" n="39"/>constitutus in actu primo per seipsum potest
+          <lb ed="#P" n="40"/>naturaliter praeterita cognoscere, idem poterit,
+          <lb ed="#P" n="41"/>licet per species in eodem actu primo 
+          consti<lb break="no" ed="#P" n="42"/>tuatur. Pro hac sententia nullum auctorem 
+          al<lb break="no" ed="#P" n="43"/>legat, nec positivam rationem adducit, sed 
+          ne<lb break="no" ed="#P" n="44"/>gativam, quia nullam (inquit) rationem invenio,
+          <lb ed="#P" n="45"/>ob quam non possit Angelus preeterita sic 
+          co<lb break="no" ed="#P" n="46"/>gnoscere. Unde etiam ab speciali 
+          argumenta<lb break="no" ed="#P" n="47"/>tur, quia Patres, et theologi solam scientiam
+          <lb ed="#P" n="48"/>futurorum contingentium Angelis denegant,
+          <lb ed="#P" n="49"/>ergo reliquorum omnium, etiam praeteritorum
+          <lb ed="#P" n="50"/>cognitionem illis concedunt. Denique Angelus
+          <lb ed="#P" n="51"/>habet species praeteritorum, cur ergo illa non
+          <lb ed="#P" n="52"/>cognoscet ?
+        </p>
+        <p xml:id="szdada-x04112-d1e551">
+          <lb ed="#P" n="53"/>5. Contraria opinio seu secunda conclusio
+          <lb ed="#P" n="54"/>propria huius capitis. — Ego vero censeo, non
+          <lb ed="#P" n="55"/>posse Angelum naturaliter cognoscere praete-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rita modo explicato. Hanc sententiam semper
+          <lb ed="#P" n="57"/>docui, et eam secuti sunt Cumelius, et 
+          Pesan<lb break="no" ed="#P" n="58"/>tius, in dicto art. 3, et expresse docet 
+          Grego<lb break="no" ed="#P" n="59"/>rjus, in 9, d. 3, q. 2, art. 3, concl. 1. D. 
+          Tho<lb break="no" ed="#P" n="60"/>mas, in dicto art. 3, inducendo litteram ejus
+          <lb ed="#P" n="61"/>modo in principio capitis proposito. 
+          Existimo<lb break="no" ed="#P" n="62"/>que eodem modo posse caeteris theologis 
+          tri<lb break="no" ed="#P" n="63"/>bui propter identitatem rationis inter 
+          praete<lb break="no" ed="#P" n="64"/>rita, et futura, quoad hanc partem, ut statim
+          <lb ed="#P" n="65"/>declarabo. Imo idem Vasquez, dist. 211, c. 12,
+          <lb ed="#P" n="66"/>num. 68, dicit, non posse Angelum cognoscere
+          <lb ed="#P" n="67"/>praeteritam cognitionem alterius per 
+          memo<lb break="no" ed="#P" n="68"/>riam, nisi prius illam praesentem agnoverit.
+          <lb ed="#P" n="69"/>Et probatur ex eo, quod Isa. 41, tam 
+          praeteri<lb break="no" ed="#P" n="70"/>torum, quam futurorum cognitio aliquo modo
+          <lb ed="#P" n="71"/>signum divinitatis ponitur, et propria Dei 
+          cen<lb break="no" ed="#P" n="72"/>setur, cum dicitur: Appropinquent, et 
+          annun<lb break="no" ed="#P" n="73"/>tient nobis, que ventura sunt, aut priora, quee
+          <lb ed="#P" n="74"/>erant dicite, etc., ubi Hieronymus. Dicite 
+          no<lb break="no" ed="#P" n="75"/>bDis vel preeterita, vel futura, etc. Et idem 
+          col<lb break="no" ed="#P" n="76"/>ligit Adamus, Isa. 46, circa illa verba: Non
+          <lb ed="#P" n="77"/>est similis mei, annuntians ab exordio 
+          novis<lb break="no" ed="#P" n="78"/>sima, etc. Unde dixit Gregorius, homil. 1, in
+          <lb ed="#P" n="79"/>Ezech, prophetiam non esse tantum de 
+          futu<lb break="no" ed="#P" n="80"/>ris, sed etiam de praeteritis. Est ergo aliquis
+          <lb ed="#P" n="81"/>modus cognoscendi praeterita proprius Dei,
+          <lb ed="#P" n="82"/>sicut etiam est illi proprium cognoscere 
+          futu<lb break="no" ed="#P" n="83"/>ra, nimirum intuendo illa in seipsis, 
+          prius<lb break="no" ed="#P" n="84"/>quam sint. Nam sicut hoc est proprium 
+          divi<lb break="no" ed="#P" n="85"/>nitatis, quia intuitus ejus aeternus extenditur
+          <lb ed="#P" n="86"/>ad totum tempus futurum, ac si esset praesens,
+          <lb ed="#P" n="87"/>ita cognoscere praeterita immediate, et in
+          <lb ed="#P" n="88"/>seipsis, est proprium divinitatis, quia intuitus
+          <lb ed="#P" n="89"/>ejus aeternus extenditur ad totum tempus 
+          prae<lb break="no" ed="#P" n="90"/>teritum, ac si esset praesens, ergo tam 
+          impos<lb break="no" ed="#P" n="91"/>sibile est Angelo intueri illo modo praeterita,
+          <lb ed="#P" n="92"/>quam futura.
+        </p>
+        <p xml:id="szdada-x04112-d1e642">
+          <lb ed="#P" n="93"/>6. Adversariorum responsio proffigitur. —
+          <lb ed="#P" n="94"/>hespondet negando paritatem, et rationem
+          <lb ed="#P" n="95"/>reddunt, quia futurum, ut futurum, est 
+          objec<lb break="no" ed="#P" n="96"/>tum improportionatum naturali lumini, vel
+          <lb ed="#P" n="97"/>speciei intelligibili intellectus angelici: 
+          objec<lb break="no" ed="#P" n="98"/>tum autem praeteritum non est ita 
+          impropor<lb break="no" ed="#P" n="99"/>Uüonatum. Sed haec ratio in simili impugnata
+          <lb ed="#P" n="100"/>est, quia petit principium, et non reddit 
+          ra<lb break="no" ed="#P" n="101"/>tionem illius diversitatis. Et urgetur amplius,
+          <lb ed="#P" n="102"/>quia sicut veritas futuri contingentis, licet
+          <lb ed="#P" n="103"/>non habeat determinationem in causa, 
+          nihil<lb break="no" ed="#P" n="104"/>ominus in se determinata est, et scibilis, 
+          ab<lb break="no" ed="#P" n="105"/>solute loquendo, ut supra declaravimus, ita
+          <lb ed="#P" n="106"/>veritas praeteriti de se contingentis 
+          determi<lb break="no" ed="#P" n="107"/>nata est, et tam necessarium est, futurum
+          <lb ed="#P" n="108"/>fore, sicut praeteritum fuisse, facta 
+          suppositio<lb break="no" ed="#P" n="109"/>ne veritatis, ut supra ex Petro Damiano 
+          dixi<lb break="no" ed="#P" n="110"/>mus. Rursus sicut res futura, quamdiu in statu
+          <pb ed="#P" n="167"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>futurae permanet, in se non habet existentiam
+          <lb ed="#P" n="2"/>actualem, ita et res praeterita, quae desiit esse,
+          <lb ed="#P" n="3"/>jam in se non habet existentiam, sed tam est
+          <lb ed="#P" n="4"/>nihil, sicut quae nondum fuit, ergo sicut circa
+          <lb ed="#P" n="5"/>rem futuram non potest dari cognitio creata
+          <lb ed="#P" n="6"/>per modum intuitionis, quae ad ipsam rem
+          <lb ed="#P" n="7"/>terminetur, ita nec circa praeteritam. Probatur
+          <lb ed="#P" n="8"/>consequentia ex differentia posita inter rem
+          <lb ed="#P" n="9"/>futuram et praesentem, nam eadem versatur
+          <lb ed="#P" n="10"/>inter rem praeteritam et praesentem, quia in
+          <lb ed="#P" n="11"/>utraque est diversitas entis actualis a non ente
+          <lb ed="#P" n="12"/>in se. Nec video rationem probabilem 
+          diffe<lb break="no" ed="#P" n="13"/>rentiae, quae assignari possit. Nam quod res
+          <lb ed="#P" n="14"/>praeterita aliquando fuerit, non autem futura,
+          <lb ed="#P" n="15"/>nihil refert. Quoniam ex eo, quod res fuerit,
+          <lb ed="#P" n="16"/>solum relinquitur relatio rationis ex parte 
+          ob<lb break="no" ed="#P" n="17"/>jecti, quae relatio non solum non potest esse
+          <lb ed="#P" n="18"/>ratio cognoscendi praeteritionem rei, verum
+          <lb ed="#P" n="19"/>etiam nec cognosci, aut fingi potest, nisi 
+          cog<lb break="no" ed="#P" n="20"/>noscendo prius aliquo modo rei existentiam in
+          <lb ed="#P" n="21"/>aliquo praeterito tempore. Unde confirmatur;
+          <lb ed="#P" n="22"/>quia si Angelus nunquam scivit, nec novit rem
+          <lb ed="#P" n="23"/>eesse, perinde se habet ad illam, ac si nunquam
+          <lb ed="#P" n="24"/>fuisset, ergo ex se non magis potest 
+          cognos<lb break="no" ed="#P" n="25"/>cere talem rem fuisse, etiamsi in re fuerit,
+          <lb ed="#P" n="26"/>quam si non fuisset. Probatur consequentia,
+          <lb ed="#P" n="27"/>quia ex eo, quod illa res fuerit, nulla mutatio
+          <lb ed="#P" n="28"/>in Angelo facta est, et ex parte objecti perinde
+          <lb ed="#P" n="29"/>se habet res, postquam desiit esse, ac si 
+          nun<lb break="no" ed="#P" n="30"/>quam fuisset, ergo nec ex parte speciei, nec ex
+          <lb ed="#P" n="31"/>parte objecti est aliquod principium, vel aliqua
+          <lb ed="#P" n="32"/>conditio, ob quam nunc possit Angelus magis
+          <lb ed="#P" n="33"/>cognoscere rem fuisse, postquam habuit esse,
+          <lb ed="#P" n="34"/>quam antequam illud haberet.
+        </p>
+        <p xml:id="szdada-x04112-d1e762">
+          <lb ed="#P" n="35"/>7. Ad rationem negativam in mumero quarto.
+          <lb ed="#P" n="36"/>— Ad rationem ab speciali in eodem numero.—
+          <lb ed="#P" n="37"/>Et ita patet responsio ad fundamentum 
+          nega<lb break="no" ed="#P" n="38"/>tivum contrariae sententiae, putamus enim 
+          ra<lb break="no" ed="#P" n="39"/>tionem factam non tantum sufficientem, sed
+          <lb ed="#P" n="40"/>etiam convincentem esse. Neque verisimile
+          <lb ed="#P" n="41"/>credimus, dictum auctorem, ut erat acuti 
+          in<lb break="no" ed="#P" n="42"/>genii, non vidisse illam, sed arbitramur apud
+          <lb ed="#P" n="43"/>illum non valuisse, quia etiam de futuris 
+          con<lb break="no" ed="#P" n="44"/>tingentibus dixerat, nullam sufficientem 
+          ratio<lb break="no" ed="#P" n="45"/>nem dari posse, ob quam non possint ab 
+          An<lb break="no" ed="#P" n="46"/>gelis evidenter, et in se videri. Unde rationem
+          <lb ed="#P" n="47"/>spectando, idem diceret de futuris, sed propter
+          <lb ed="#P" n="48"/>auctoritatem se continuit. Nos autem credimus,
+          <lb ed="#P" n="49"/>illud, quod in futuris est de fide certum, etiam
+          <lb ed="#P" n="50"/>ratione sufficiente fundari, et quia eamdem in
+          <lb ed="#P" n="51"/>praeteritis invenimus, idem de illis dicendum
+          <lb ed="#P" n="52"/>Jjudicamus. Et consequenter ad argumentum
+          <lb ed="#P" n="53"/>ab speciali respondemus, et Thomam, et alios
+          <lb ed="#P" n="54"/>theologos, vel etiam Patres in hoc genere 
+          co<lb break="no" ed="#P" n="55"/>gnitionis, de quo loquimur, non distinguere
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>futura a praeteritis, sed a praesentibus tantum,
+          <lb ed="#P" n="57"/>et in differentia, quam inter haec ponunt, satis
+          <lb ed="#P" n="58"/>indicare, idem dicendum esse de praeteritis,
+          <lb ed="#P" n="59"/>quod de futuris, proportione servata. 
+          Commu<lb break="no" ed="#P" n="60"/>ni autem loquendi modo de futuris potius,
+          <lb ed="#P" n="61"/>quam de praeteritis loquuntur, quia supponunt,
+          <lb ed="#P" n="62"/>Angelos cognoscere posse res praesentes, et
+          <lb ed="#P" n="63"/>per illas cognoscere praeterita per 
+          experien<lb break="no" ed="#P" n="64"/>tiam, et memoriam, et ideo simpliciter non ita
+          <lb ed="#P" n="65"/>negant, posse Angelos cognoscere praeterita,
+          <lb ed="#P" n="66"/>sicut futura. Ubicumque autem declarant ,
+          <lb ed="#P" n="67"/>quomodo Angeh praeterita cognoscant, per
+          <lb ed="#P" n="68"/>recordationem, et experimentum id facere 
+          di<lb break="no" ed="#P" n="69"/>cunt, ergo sentiunt, de re nunquam a se vias
+          <lb ed="#P" n="70"/>non posse Angelum cognoscere, fuisse, nisi ei
+          <lb ed="#P" n="71"/>reveletur, aut narretur, vel per alias 
+          conjectu<lb break="no" ed="#P" n="72"/>ras ostendatur, ac proinde quoad intuitivam
+          <lb ed="#P" n="73"/>cognitionem eodem modo de praeteritis, ac de
+          <lb ed="#P" n="74"/>futuris sentiunt. Tandem ultima ratio ex eo
+          <lb ed="#P" n="75"/>sumpta, quod Angeli habent species 
+          praeteri<lb break="no" ed="#P" n="76"/>tarum, eadem est cum simili supra facta de
+          <lb ed="#P" n="77"/>rebus futuris, et eodem modo est cum 
+          propor<lb break="no" ed="#P" n="78"/>tione solvenda, ut ex proxime dictis constat.
+          <lb ed="#P" n="79"/>Nam per illam speciem cognoscit Angelus rem
+          <lb ed="#P" n="80"/>praeteritam abstracte, et quoad essentiam, et
+          <lb ed="#P" n="81"/>existentiam possibilem, et quoad accidentia
+          <lb ed="#P" n="82"/>etiam possibilia, nescit tamen discernere ex vi
+          <lb ed="#P" n="83"/>illius speciei, an fuerit, necne, nec an futura
+          <lb ed="#P" n="84"/>sit, sed eodem modo se habet, ac si res illa
+          <lb ed="#P" n="85"/>nunquam fuisset.
+        </p>
+        <p xml:id="szdada-x04112-d1e877">
+          <lb ed="#P" n="86"/>8. Quo pacto memoria in Angelo.—
+          Senten<lb break="no" ed="#P" n="87"/>tia Vasquesis ejusque fundamentum. — 
+          Relin<lb break="no" ed="#P" n="88"/>quitur ergo, quoties Angelus per indicia, vel
+          <lb ed="#P" n="89"/>testimonium alterius non cognoscit rem 
+          prae<lb break="no" ed="#P" n="90"/>teritam extitisse, non posse per suas species
+          <lb ed="#P" n="91"/>cognoscere praecedentem existentiam ejus, 
+          se<lb break="no" ed="#P" n="92"/>cus vero esse, si illam praeexistentem viderit,
+          <lb ed="#P" n="93"/>tunc enim ex praeterita visione optime 
+          cognos<lb break="no" ed="#P" n="94"/>cere potest, rem fuisse. Sed explicandum 
+          su<lb break="no" ed="#P" n="95"/>perest, quid illa praesentis rei visio, ad 
+          cogni<lb break="no" ed="#P" n="96"/>tionem ejusdem, ut jam praeteritae, conferat.
+          <lb ed="#P" n="97"/>Et ratio dubitandi est, quia postquam res 
+          prae<lb break="no" ed="#P" n="98"/>ternt, etiam visio illius cessavit, ergo jam non
+          <lb ed="#P" n="99"/>potest per seipsam conferre ad cognoscendum,
+          <lb ed="#P" n="100"/>rem fuisse, sed nec species innata potest 
+          ma<lb break="no" ed="#P" n="101"/>gis descrvire post illam cognitionem, quam
+          <lb ed="#P" n="102"/>antea, quia mutata non est, nec illa intuitio
+          <lb ed="#P" n="103"/>rei praesentis aliquid in Angelo reliquit, a quo
+          <lb ed="#P" n="104"/>talis cognitio praeteriti fiat. Quid enim illud
+          <lb ed="#P" n="105"/>est? Aut a quo factum est? Quae difficultas 
+          pe<lb break="no" ed="#P" n="106"/>tit allam, nimirum, per quid fiat in Angelo
+          <lb ed="#P" n="107"/>actualis memoria praeteriti. Vasquez supra 
+          ne<lb break="no" ed="#P" n="108"/>gat memoriam hanc fieri in Angelo per 
+          spe<lb break="no" ed="#P" n="109"/>ciem relictam ex cognitione rei praesentis.
+          <lb ed="#P" n="110"/>Probat, quia memoria sensitiva fit sine tali
+          <pb ed="#P" n="168"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>specie praeteriti actus sui, ergo etiam fieri 
+          po<lb break="no" ed="#P" n="2"/>terit in Angelo. Antecedens patet, quia nullus
+          <lb ed="#P" n="3"/>sensus suam sensationem sentire potest, quia
+          <lb ed="#P" n="4"/>sensatio sensibilis non est. Alioqui sentiremus,
+          <lb ed="#P" n="5"/>in qua parte fiat sensatio, et quantae 
+          magni<lb break="no" ed="#P" n="6"/>tudinis sit. Consequentiam vero probat, quia
+          <lb ed="#P" n="7"/>sicut in sensu defendere possumus memoriam
+          <lb ed="#P" n="8"/>rei praeteritae, sine specie cognitionis 
+          praeteri<lb break="no" ed="#P" n="9"/>tae, per hoc solum, quod conservetur in 
+          sen<lb break="no" ed="#P" n="10"/>su species repraesentans rem praeteritam cum
+          <lb ed="#P" n="11"/>eisdem circumstantiis temporis, loci, etc., 
+          qui<lb break="no" ed="#P" n="12"/>bus antea cognita fuit, ita et in intellectu, ac
+          <lb ed="#P" n="13"/>subinde etiam in Angelo id explicare 
+          poteri<lb break="no" ed="#P" n="14"/>mus.
+        </p>
+        <p xml:id="szdada-x04112-d1e969">
+          <lb ed="#P" n="15"/>9. Ferior sententia, seu conclusio tertia
+          <lb ed="#P" n="16"/>hujus capitis. — Probatur. — Sed nihilominus
+          <lb ed="#P" n="17"/>assero, necessarium esse per cognitionem rei
+          <lb ed="#P" n="18"/>praesentis aliquid novum, et reale fieri in 
+          in<lb break="no" ed="#P" n="19"/>tellectu, seu speciebus Angeli, ut postea 
+          co<lb break="no" ed="#P" n="20"/>gnoscere possit, talem rem aliquando fuisse.
+          <lb ed="#P" n="21"/>Ita semper in hac materia docui, et sequuntur
+          <lb ed="#P" n="22"/>Cumelius et Pesantius supra, et sentit 
+          Marsi<lb break="no" ed="#P" n="23"/>lius, in 2, q. 7, art. 1, post. 9, conclus. in
+          <lb ed="#P" n="24"/>quadam solutione, ad. A4, ubi id, quod 
+          relin<lb break="no" ed="#P" n="25"/>quitur in mente Angeli, vocat habitum 
+          actua<lb break="no" ed="#P" n="26"/>lis cognitionis, quo cum Angelus vult, 
+          memo<lb break="no" ed="#P" n="27"/>ratur de re prius cognita. Consentit Gregorius,
+          <lb ed="#P" n="28"/>n 2, d. 3, q. 3, art. 3, concl. 1, dicit enim
+          <lb ed="#P" n="29"/>cognitionem recordativam fieri in Angelo per
+          <lb ed="#P" n="30"/>speciem, et quamvis non addat, fieri per 
+          spe<lb break="no" ed="#P" n="31"/>ciem acquisitam, tamen prius dixerat ex 
+          doc<lb break="no" ed="#P" n="32"/>irina Augustini, 2, Genes. ad htter., cap. 17,
+          <lb ed="#P" n="33"/>et toto lib. de Divinat. daemon., capit. 3 et 4,
+          <lb ed="#P" n="34"/>Angelos experientiam habere, quae ex multis
+          <lb ed="#P" n="35"/>memoriis acquiritur, teste Aristotele, in 
+          prin<lb break="no" ed="#P" n="36"/>cipio Metaphysicae, ubi de hominibus loquitur,
+          <lb ed="#P" n="37"/>verumtamen quoad hoc est eadem ratio de
+          <lb ed="#P" n="38"/>Angelis, quia est contra rationem experientiae,
+          <lb ed="#P" n="39"/>in quacumque creatura sit, quod sit infusa, ut
+          <lb ed="#P" n="40"/>declarabimus. Probatur haec sententia, primo
+          <lb ed="#P" n="41"/>ex dictis, quia postquam res praeteriit, non 
+          po<lb break="no" ed="#P" n="42"/>test cognoscere Angelus, eam fuisse per 
+          spe<lb break="no" ed="#P" n="43"/>cies infusas, praecise ut tales sunt, nisi 
+          praece<lb break="no" ed="#P" n="44"/>dat cognitio illius rei existentis, eo tempore
+          <lb ed="#P" n="45"/>quo extitit, ergo necesse est, ut haec visio rei
+          <lb ed="#P" n="46"/>in ejus praesentia aliquid postea conferat ad
+          <lb ed="#P" n="47"/>cognoscendum, fuisse talem rem, quia si 
+          ni<lb break="no" ed="#P" n="48"/>hil confert, superflue requiritur. Non potest
+          <lb ed="#P" n="49"/>autem aliquid conferre, nisi postea Angelus
+          <lb ed="#P" n="50"/>recordetur, se vidisse rem illam, et ex vi hujus
+          <lb ed="#P" n="51"/>memoriae sciat, rem fuisse, tum quia si omnino
+          <lb ed="#P" n="52"/>sit oblitus praeteritae visionis, perinde se 
+          habe<lb break="no" ed="#P" n="53"/>bit, ac si illa non praecessisset, tum etiam,
+          <lb ed="#P" n="54"/>quia si visio praecedens requiritur, est ut sit
+          <lb ed="#P" n="55"/>aliquo modo medium ad cognoscendum rem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fuisse: visio autem praeterita non est medium
+          <lb ed="#P" n="57"/>incognitum, quia nec est species, nec existit,
+          <lb ed="#P" n="58"/>ergo debet esse medium cognitum: non est
+          <lb ed="#P" n="59"/>autem medium cognitum, nisi Angelus per
+          <lb ed="#P" n="60"/>recordationem, seu memoriam nunc 
+          cognos<lb break="no" ed="#P" n="61"/>cat, se vidisse talem rem, quia, nisi hoc modo
+          <lb ed="#P" n="62"/>cognoscatur, prorsus ignorabitur, et ita non
+          <lb ed="#P" n="63"/>erit medium cognitum. Ergo non aliter 
+          Ange<lb break="no" ed="#P" n="64"/>lus per se ipsum, et suas species cognoscit rem
+          <lb ed="#P" n="65"/>fuisse, nisi quia recordatur se vidisse illam,
+          <lb ed="#P" n="66"/>quando extitit. Sed non potest habere hanc
+          <lb ed="#P" n="67"/>memoriam, nisi ex visione praeterita aliquid
+          <lb ed="#P" n="68"/>in suo intellectu, tanquam in thesauro 
+          memo<lb break="no" ed="#P" n="69"/>riae sit relictum, ergo non potest Angelus 
+          pos<lb break="no" ed="#P" n="70"/>tea cognoscere, rem fuisse, nisi aliquid 
+          acqui<lb break="no" ed="#P" n="71"/>sierit, vel mutatio aliqua in ejus speciebus
+          <lb ed="#P" n="72"/>facta fuerit ex vi praecedentis visionis.
+        </p>
+        <p xml:id="szdada-x04112-d1e1099">
+          <lb ed="#P" n="73"/>10. Progreditur probatio. —Solum superest
+          <lb ed="#P" n="74"/>probanda minor propositio proxime 
+          sub<lb break="no" ed="#P" n="75"/>sumpta, in qua est difficultas. Probatur autem
+          <lb ed="#P" n="76"/>primo, quia per solas species innatas non 
+          po<lb break="no" ed="#P" n="77"/>terat Angelus cognoscere, se vidisse talem
+          <lb ed="#P" n="78"/>rem, antequam illam videret, ut per se notum
+          <lb ed="#P" n="79"/>est, quia species id non repraesentabant, et
+          <lb ed="#P" n="80"/>quia esset falsa repraesentatio, et cognitio, et
+          <lb ed="#P" n="81"/>quia de aliis rebus ostensum est, non posse
+          <lb ed="#P" n="82"/>Angelum cognoscere illas fuisse, nisi prius
+          <lb ed="#P" n="83"/>illas viderit existentes, ergo minus poterit per
+          <lb ed="#P" n="84"/>species cognoscere se habuisse talem visionem,
+          <lb ed="#P" n="85"/>quam nondum habuit, ac proinde nec 
+          praesen<lb break="no" ed="#P" n="86"/>tem videre potuit. Quando autem Angelus 
+          vi<lb break="no" ed="#P" n="87"/>det praesentem, ipsam visionem non per rem
+          <lb ed="#P" n="88"/>species, sed per seipsam videt, ut supra 
+          osten<lb break="no" ed="#P" n="89"/>sum est, quia Angelo non infunduntur species
+          <lb ed="#P" n="90"/>suae substantiae, vel suorum accidentium, quae
+          <lb ed="#P" n="91"/>per seipsa, sicut et substantiam videre potest:
+          <lb ed="#P" n="92"/>inter quae accidentia unum est talis visio,
+          <lb ed="#P" n="93"/>ergo si visio illa nihil relinquit in intellectu
+          <lb ed="#P" n="94"/>Angeli, nullum habebit medium, quo 
+          recor<lb break="no" ed="#P" n="95"/>detur, et cognoscat se habuisse talem 
+          visio<lb break="no" ed="#P" n="96"/>nem, ergo ut possit postea cognoscere se 
+          vi<lb break="no" ed="#P" n="97"/>disse rem, et per visionem praeteritatem, 
+          tan<lb break="no" ed="#P" n="98"/>quam per medium cognitum rem fuisse sciat,
+          <lb ed="#P" n="99"/>necesse est, ut ex visione rei praesentis aliqua
+          <lb ed="#P" n="100"/>mutatio, vel acquisitio speciei, aut novi modi
+          <lb ed="#P" n="101"/>ejus per visionem rei praesentis facta fuerit.
+        </p>
+        <p xml:id="szdada-x04112-d1e1164">
+          <lb ed="#P" n="102"/>11. Probatur secundo. — Et augetur hujus
+          <lb ed="#P" n="103"/>rationis vis: nam licet daremus, Angelum
+          <lb ed="#P" n="104"/>habere speciem inditam talis visionis suae 
+          fu<lb break="no" ed="#P" n="105"/>turae, et per illam intueri eamdem visionem,
+          <lb ed="#P" n="106"/>quando existit, nihilominus nisi illi fuisset 
+          ali<lb break="no" ed="#P" n="107"/>quid additum, non posset Angelus post 
+          tran<lb break="no" ed="#P" n="108"/>sactam illam visionem recordari, se habuisse
+          <lb ed="#P" n="109"/>illam. Probatur ex dictis de rebus aliis 
+          reprae<lb break="no" ed="#P" n="110"/>sentatis per species inditas Angelorum: nam
+          <pb ed="#P" n="169"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ex vi solius speciei non cognoscitur res, ut
+          <lb ed="#P" n="2"/>existens, nisi in reipsa objectum sit praesens,
+          <lb ed="#P" n="3"/>et actu existens, et ideo per talem speciem
+          <lb ed="#P" n="4"/>non cognoscitur de re nondum ewxistente ,
+          <lb ed="#P" n="5"/>quod sit futura, et eadem ratione non 
+          cognos<lb break="no" ed="#P" n="6"/>citur, quod fuerit praeterita, nisi aliquod 
+          me<lb break="no" ed="#P" n="7"/>dium cognitum intercedat, ergo eadem ratione
+          <lb ed="#P" n="8"/>species innata visionis, si esset, posset quidem
+          <lb ed="#P" n="9"/>illam repraesentare praesentem, quando 
+          exis<lb break="no" ed="#P" n="10"/>teret, quia ex parte objecti concurrit conditio
+          <lb ed="#P" n="11"/>necessaria ad intuitivam visionem, non tamen
+          <lb ed="#P" n="12"/>ex vi talis speciei solius posset cognosci, ut
+          <lb ed="#P" n="13"/>praeterita, postquam transiit, si sola praecedens
+          <lb ed="#P" n="14"/>species sine ulla mutatione, vel acquisitione
+          <lb ed="#P" n="15"/>remaneret. Nam quod quidam dicunt, satis
+          <lb ed="#P" n="16"/>esse, quod maneat in specie antiqua quaedam
+          <lb ed="#P" n="17"/>habitudo ad praeteritum actum, quem fecit,
+          <lb ed="#P" n="18"/>frivolum profecto est, quia illa habitudo 
+          so<lb break="no" ed="#P" n="19"/>lum esse potest relatio rationis, quae nihil est,
+          <lb ed="#P" n="20"/>et multis titulis principium cognoscendi esse
+          <lb ed="#P" n="21"/>non potest, nec fortasse invenitur in Angelo,
+          <lb ed="#P" n="22"/>si illam non fingit, vel ut fingat, cognitionem
+          <lb ed="#P" n="23"/>visionis praeteritae, tanquam termini talis 
+          re<lb break="no" ed="#P" n="24"/>lationis supponere debet.
+        </p>
+        <p xml:id="szdada-x04112-d1e1242">
+          <lb ed="#P" n="25"/>12. Occurritur fundamento contrarie 
+          senten<lb break="no" ed="#P" n="26"/>tie in munero octavo. —Neque contra hoc obstat
+          <lb ed="#P" n="27"/>tundamentum priorissententise. Primo quidem,
+          <lb ed="#P" n="28"/>quia licet de memoria sensitiva daretur, quod
+          <lb ed="#P" n="29"/>in antecedenti sumitur, consequentia nullius
+          <lb ed="#P" n="30"/>est momenti. Duobus enim modis potest 
+          cogi<lb break="no" ed="#P" n="31"/>tari, memoriam sensitivam fieri. Primo per
+          <lb ed="#P" n="32"/>solam conservationem speciei objecti prius
+          <lb ed="#P" n="33"/>visi sine specie visionis praeteritae, et tunc 
+          ac<lb break="no" ed="#P" n="34"/>tus memoriae tantum erit, iterum cognoscere
+          <lb ed="#P" n="35"/>rem absentem, quam praesentem habui sine
+          <lb ed="#P" n="36"/>ulla cognitione visionis ejus praeteritae, seu
+          <lb ed="#P" n="37"/>quod illam viderim. Secundo potest actus 
+          me<lb break="no" ed="#P" n="38"/>moriae esse talis, ut non solum quis iterum
+          <lb ed="#P" n="39"/>rem ipsam concipiat, sed etiam recordetur, se
+          <lb ed="#P" n="40"/>vidisse talem rem. Dico ergo, quod licet 
+          dare<lb break="no" ed="#P" n="41"/>mus, memoriam sensitivam praesertim in
+          <lb ed="#P" n="42"/>brutis fieri tantum priori modo (quod nunc
+          <lb ed="#P" n="43"/>definire nolumus :) nihilominus in memoria
+          <lb ed="#P" n="44"/>intellectiva negari non potest, quin memoria
+          <lb ed="#P" n="45"/>posteriori etiam modo fiat. Probatur, quia in
+          <lb ed="#P" n="46"/>nobis ita experimur, quia non solum 
+          recorda<lb break="no" ed="#P" n="47"/>mur, nos vidisse talem rem, sed etiamsi 
+          per<lb break="no" ed="#P" n="48"/>fecta sit memoria recordamur, ubi, quando,
+          <lb ed="#P" n="49"/>et quoties illam viderimus, ergo multo magis
+          <lb ed="#P" n="50"/>Angelus hoc genus perfectae memoriae habet,
+          <lb ed="#P" n="51"/>illam autem habere non potest, sine reali 
+          mu<lb break="no" ed="#P" n="52"/>tatione, vel acquisitione speciei, ut ostendi.
+          <lb ed="#P" n="53"/>Imo est notanda differentia inter hominem, et
+          <lb ed="#P" n="54"/>Angelum, quia homo non habet species 
+          intel<lb break="no" ed="#P" n="55"/>lectus innatas, sed tantum acquisitas, et ideo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quamvis tantum conservaret in absentia 
+          ob<lb break="no" ed="#P" n="57"/>jecti speciem rei visae, et non visionis ullo 
+          mo<lb break="no" ed="#P" n="58"/>do, per discursum posset cognoscere se vidisse
+          <lb ed="#P" n="59"/>illam, quia experitur se posse recordari talis
+          <lb ed="#P" n="60"/>rei concipiendo illam, unde colligit se habere
+          <lb ed="#P" n="61"/>speciem ejus, et consequenter inferet, se 
+          ac<lb break="no" ed="#P" n="62"/>quisivisse illam, et quia scit, non acquiri tales
+          <lb ed="#P" n="63"/>species nisi per sensus, consequenter inferet ,
+          <lb ed="#P" n="64"/>se vidisse talem rem, aut per aliquem sensum
+          <lb ed="#P" n="65"/>illam percepisse. At vero, cum Angelus 
+          re<lb break="no" ed="#P" n="66"/>rum species innatas habeat, si post transactam
+          <lb ed="#P" n="67"/>intuitionem rei praesentis, nihil aliud, nisi
+          <lb ed="#P" n="68"/>priores species innatas retineret, nullo modo
+          <lb ed="#P" n="69"/>posset per tales species cognoscere, rem illam
+          <lb ed="#P" n="70"/>fuisse, nec directe, et immediate, ut 
+          proba<lb break="no" ed="#P" n="71"/>tum est, nec per illationem formalem, aut
+          <lb ed="#P" n="72"/>virtualem, quia licet in se experiatur, et 
+          vi<lb break="no" ed="#P" n="73"/>deat se habere species, quibus illam rem 
+          con<lb break="no" ed="#P" n="74"/>cipere, et abstractive ut possibilem cognoscere
+          <lb ed="#P" n="75"/>potest, inde inferre non potest, se vidisse 
+          il<lb break="no" ed="#P" n="76"/>lam existentem, cum ab illa speciem non 
+          ac<lb break="no" ed="#P" n="77"/>ceperit.
+        </p>
+        <p xml:id="szdada-x04112-d1e1362">
+          <lb ed="#P" n="78"/>13. Ad interrogationes prius factas in 
+          eo<lb break="no" ed="#P" n="79"/>dem wumero octavo. Ad priorem.—Ad 
+          interro<lb break="no" ed="#P" n="80"/>gationes vero illas quid sit id, quod ex visione
+          <lb ed="#P" n="81"/>rei praesentis in mente Angeli relinquitur, et a
+          <lb ed="#P" n="82"/>quo fiat, ad priorem respondeo, esse speciem
+          <lb ed="#P" n="83"/>quamdam propriam praeteritae visionis, quae
+          <lb ed="#P" n="84"/>quidem immediate, et directe non 
+          reprae<lb break="no" ed="#P" n="85"/>sentat rem prius visam, quia jam Angelus 
+          ha<lb break="no" ed="#P" n="86"/>bet permanentem speciem talis objecti, et non
+          <lb ed="#P" n="87"/>est naturaliter capax novae speciei ejusdem
+          <lb ed="#P" n="88"/>objecti, praeterquam quod nec ipsam objectum
+          <lb ed="#P" n="89"/>potest illam imprimere, ergo repraesentat illa
+          <lb ed="#P" n="90"/>species immediate, et directe actum visionis
+          <lb ed="#P" n="91"/>praeteritum, ille enim res est spiritualis, et
+          <lb ed="#P" n="92"/>consequenter est objectum actu intelligibile,
+          <lb ed="#P" n="93"/>ergo per speciem repraesentabile. Diximus 
+          au<lb break="no" ed="#P" n="94"/>tem a principio, non dari Angelo speciem 
+          in<lb break="no" ed="#P" n="95"/>ditam talis actus, praesertim in particulari, et
+          <lb ed="#P" n="96"/>individuo, quia ad cognoscendum illum 
+          prae<lb break="no" ed="#P" n="97"/>sentem, quando existit, non erat necessaria
+          <lb ed="#P" n="98"/>species: ut futurum autem cognosci poterat,
+          <lb ed="#P" n="99"/>et ideo, ut cognosci posset tanquam praeteritus,
+          <lb ed="#P" n="100"/>necessaria est ejus species. Imo ad eumdem
+          <lb ed="#P" n="101"/>finem necessarium fuit, illam speciem esse
+          <lb ed="#P" n="102"/>acquisitam, et non inditam: nam si esset 
+          in<lb break="no" ed="#P" n="103"/>dita, esset de se indifferens ad 
+          repraesentan<lb break="no" ed="#P" n="104"/>dam rem, tam quae nunquam fuit, et ideo per
+          <lb ed="#P" n="105"/>illam non posset determinate cognosci, rem
+          <lb ed="#P" n="106"/>fuisse, quia res in tali statu non determinat
+          <lb ed="#P" n="107"/>speciem ad illum repraesentandum, sed 
+          deter<lb break="no" ed="#P" n="108"/>minat res praesens, et actu existens, sicut jam
+          <lb ed="#P" n="109"/>explicuimus, ergo necessarium est, talem 
+          spe<lb break="no" ed="#P" n="110"/>ciem esse acquisitam. Et hoc etiam probat ra-
+          <pb ed="#P" n="170"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tio facta de experientia, quia per actualem 
+          co<lb break="no" ed="#P" n="2"/>gnitionem rei praesentis relinquitur habitualis
+          <lb ed="#P" n="3"/>experientia, ergo necessario debet esse 
+          acqui<lb break="no" ed="#P" n="4"/>sita per cognitionem rei praesentis. Probatur
+          <lb ed="#P" n="5"/>consequentia, quia si omnino esset indita, non
+          <lb ed="#P" n="6"/>esset in experientia fundata. Et ideo in Christo,
+          <lb ed="#P" n="7"/>ut supra dicebamus, licet aliqua scientia fuerit
+          <lb ed="#P" n="8"/>per se infusa, et alia per accidens, 
+          nihilomi<lb break="no" ed="#P" n="9"/>nus experimentalis cognitio debuit esse 
+          acqui<lb break="no" ed="#P" n="10"/>sita, quia actus experientiae acquisitus dici
+          <lb ed="#P" n="11"/>potest, quatenus ab eo fit, qui experimentum
+          <lb ed="#P" n="12"/>capit: habitualis autem experientia ex actuali
+          <lb ed="#P" n="13"/>relicta esse debet, vel experientia non est.
+        </p>
+        <p xml:id="szdada-x04112-d1e1469">
+          <lb ed="#P" n="14"/>14. Ad posteriorem interrogationem. — Tot
+          <lb ed="#P" n="15"/>manent in mente Angeli species rememorativee,
+          <lb ed="#P" n="16"/>quot sunt actus cognoscendi.—Ad alteram 
+          in<lb break="no" ed="#P" n="17"/>terrogationem respondetur, novam speciem
+          <lb ed="#P" n="18"/>fieri ab ipsomet actu videndi rem praesentem,
+          <lb ed="#P" n="19"/>quem prius Angelus habuit: quia nullam aliam
+          <lb ed="#P" n="20"/>magis proportionatam, et propinquam habere
+          <lb ed="#P" n="21"/>potest, et illa est aptissima, quia actus ille, 
+          li<lb break="no" ed="#P" n="22"/>cet sit cognitio, est etiam objectum 
+          cognosci<lb break="no" ed="#P" n="23"/>bile, et est intelligibile in actu: unde de se
+          <lb ed="#P" n="24"/>aptum est ad imprimendam sui speciem. 
+          Quam<lb break="no" ed="#P" n="25"/>vis autem talis species necessaria non sit, ut
+          <lb ed="#P" n="26"/>ille actus, quamdiu adest, videatur ab ipsomet
+          <lb ed="#P" n="27"/>Angelo, quia per seipsum cognosci potest, 
+          ni<lb break="no" ed="#P" n="28"/>hilominus ut sui memoriam conservet, 
+          neces<lb break="no" ed="#P" n="29"/>sarium est, ut speciem, quasi vestigium suum
+          <lb ed="#P" n="30"/>relinquat: imo, ut actus ille per talem 
+          spe<lb break="no" ed="#P" n="31"/>ciem cognosci postea possit, non solum 
+          secun<lb break="no" ed="#P" n="32"/>dum essentiam, aut possibilitatem, sed etiam
+          <lb ed="#P" n="33"/>secundum existentiam, quam habuit, id est,
+          <lb ed="#P" n="34"/>ut cognoscatur fuisse, necessarium est, ut illa
+          <lb ed="#P" n="35"/>species, per quam cognoscitur, ab ipsomet
+          <lb ed="#P" n="36"/>fuerit accepta, ita ut repraesentet illum non
+          <lb ed="#P" n="37"/>solum nt objectum, sed etiam ut causam; hoc
+          <lb ed="#P" n="38"/>enim discursus factus, judicio meo, satis 
+          con<lb break="no" ed="#P" n="39"/>vincit. Sed instari potest, quia sequitur, 
+          An<lb break="no" ed="#P" n="40"/>gelum tot acquirere species, quot actus 
+          cognos<lb break="no" ed="#P" n="41"/>cendi habet, et mutat, quod videtur 
+          inconve<lb break="no" ed="#P" n="42"/>niens. Respondeo, si omnium, et singulorum
+          <lb ed="#P" n="43"/>actuum precedentium memoria necessaria est,
+          <lb ed="#P" n="44"/>vel perfectioni Angeli valde consentanea, 
+          nul<lb break="no" ed="#P" n="45"/>lum potest esse inconveniens, aliquid semper
+          <lb ed="#P" n="46"/>acquirere, quo actus illi multiplicati ut 
+          praete<lb break="no" ed="#P" n="47"/>riti cognoscantur. Potest autem quis dicere,
+          <lb ed="#P" n="48"/>non esse distinctas species, sed post primam
+          <lb ed="#P" n="49"/>acquisitam illam postea modificari, et augeri,
+          <lb ed="#P" n="50"/>ut possit caeteros actus repraesentare. Ego vero
+          <lb ed="#P" n="51"/>quia modificationes istas difficile intelligo,
+          <lb ed="#P" n="52"/>nullum inconveniens in illa specierum 
+          multi<lb break="no" ed="#P" n="53"/>plicatione invenio. Quia ex ea parte, qua sunt
+          <lb ed="#P" n="54"/>acquisitae, et ab objectis particularibus fiunt,
+          <lb ed="#P" n="55"/>illis commensurantur, et omnino particulares
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sunt in repraesentando, et ita possunt facile
+          <lb ed="#P" n="57"/>vel specie, vel numero distingui, et ex parte
+          <lb ed="#P" n="58"/>subjecti nulla est in illa multiplicatione vel 
+          re<lb break="no" ed="#P" n="59"/>pugnantia, vel incommoditas.
+        </p>
+        <p xml:id="szdada-x04112-d1e1574">
+          <lb ed="#P" n="60"/>15. Objectio.—Solutio.—Ad actum 
+          recorda<lb break="no" ed="#P" n="61"/>tionis quae species concurrant. —Vandem 
+          dubi<lb break="no" ed="#P" n="62"/>tare potest aliquis, quia hic modus 
+          cognoscen<lb break="no" ed="#P" n="63"/>di praeterita videtur esse imperfectus, quia
+          <lb ed="#P" n="64"/>solum est quasi in attestante. Quando enim
+          <lb ed="#P" n="65"/>ego aliquid factum esse cognosco solum per
+          <lb ed="#P" n="66"/>narrationem, et attestationem alterius, 
+          imper<lb break="no" ed="#P" n="67"/>fecte, et obscure id agnosco: perinde autem
+          <lb ed="#P" n="68"/>se habet Angelus, quando per solam 
+          recorda<lb break="no" ed="#P" n="69"/>tionem praeteriti actus sul cognoscit rem illi
+          <lb ed="#P" n="70"/>actui objectam aliquando fuisse, quia veluti
+          <lb ed="#P" n="71"/>ipse sibi narrat, quid alio tempore viderit, et
+          <lb ed="#P" n="72"/>non ex reipsa visa, sed ex testimonio proprio
+          <lb ed="#P" n="73"/>(ut sic dicam) assentiatur. Et declaratur 
+          am<lb break="no" ed="#P" n="74"/>plius, quia illa species, quam Angelus accipit
+          <lb ed="#P" n="75"/>a suo actu, non repraesentat immediate 
+          objec<lb break="no" ed="#P" n="76"/>tum praecedentis actus, sed ipsum actum 
+          di<lb break="no" ed="#P" n="77"/>centem habitudinem ad tale objectum, ergo
+          <lb ed="#P" n="78"/>cognitio rei praeteritae per talem speciem,
+          <lb ed="#P" n="79"/>non est cognitio per propriam speciem, sed
+          <lb ed="#P" n="80"/>per alienam, ac proinde est imperfecta. 
+          Res<lb break="no" ed="#P" n="81"/>pondeo, cognitionem illam rei praeteritae 
+          com<lb break="no" ed="#P" n="82"/>paratam ad intuitivam cognitionem rei 
+          prae<lb break="no" ed="#P" n="83"/>sentis dici posse imperfectam, quia revera non
+          <lb ed="#P" n="84"/>potest Angelus ita intueri praeteritum, sicut
+          <lb ed="#P" n="85"/>praesens, hoc enim est proprium Dei, ut 
+          decla<lb break="no" ed="#P" n="86"/>ravi. Et ideo cognitio rei praesentis fit omnino
+          <lb ed="#P" n="87"/>immediate, et directe sine medio cognito, ex
+          <lb ed="#P" n="88"/>vi solius speciei, et objecti perfecto modo 
+          pro<lb break="no" ed="#P" n="89"/>positi: cognitio autem praeteriti semper fit per
+          <lb ed="#P" n="90"/>aliquod medium cognitum, ut per 
+          recordatio<lb break="no" ed="#P" n="91"/>nem, et cognitionem actus praeteriti. 
+          Nihil<lb break="no" ed="#P" n="92"/>ominus tamen illa cognitio rei praeteritae est
+          <lb ed="#P" n="93"/>satis perfecta, quantum ex genere suo in 
+          crea<lb break="no" ed="#P" n="94"/>tura esse potest, quia ad illam non solum 
+          con<lb break="no" ed="#P" n="95"/>currit species actus praeteriti, sed etiam 
+          pro<lb break="no" ed="#P" n="96"/>pria species rei, quae praecessit, quae 
+          repraesen<lb break="no" ed="#P" n="97"/>tat illam, prout in se fuit, et cum omnibus
+          <lb ed="#P" n="98"/>conditionibus existentiae, quas habuit, simul
+          <lb ed="#P" n="99"/>vero concurrit species praeteriti actus, quae 
+          os<lb break="no" ed="#P" n="100"/>tendit medium maxime proprium, et 
+          intrinse<lb break="no" ed="#P" n="101"/>cum, qui in Angelo reperiri potest, ad 
+          cognos<lb break="no" ed="#P" n="102"/>cendum rem ita fuisse, sicut per talem speciem
+          <lb ed="#P" n="103"/>repraesentatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

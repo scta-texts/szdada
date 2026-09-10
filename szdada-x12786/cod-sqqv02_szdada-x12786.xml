@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 22</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 22</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="507"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x12786"><!-- l4c22 -->
+        <head xml:id="szdada-x12786-Hd1e101">Caput 22</head>
+        <head xml:id="szdada-x12786-Hd1e103" type="question-title">Utrum ad locum etiam remotum in uno, vel pluribus instantibus angelus transire possit</head>
+        <p xml:id="szdada-x12786-d1e106">
+          <lb ed="#P" n="58"/>CAPUT XXII.
+          <lb ed="#P" n="59"/>UTRUM AD LOCUM ETIAM REMOTUM IN UNO, VEL
+          <lb ed="#P" n="60"/>PLURIBUS INSTANTIBUS ANGELUS TRANSIRE 
+          POS<lb break="no" ed="#P" n="61"/>SIT.
+        </p>
+        <p xml:id="szdada-x12786-d1e117">
+          <lb ed="#P" n="62"/>1. Expeditur quaestio in uno sensu. —
+          eso<lb break="no" ed="#P" n="63"/>lutio capitis praecedentis de mutatione unius
+          <lb ed="#P" n="64"/>loci in alium vicinum, ac omnino 
+          propin<lb break="no" ed="#P" n="65"/>quum, in instanti evidentior est, et 
+          difficulta<lb break="no" ed="#P" n="66"/>tem non habet. De loco autem remoto 
+          supe<lb break="no" ed="#P" n="67"/>rest aliqua controversia, quae dupliciter 
+          trac<lb break="no" ed="#P" n="68"/>tari potest. Primo supponendo sententiam
+          <lb ed="#P" n="69"/>asserentem posse Angelum transire ad 
+          distan<lb break="no" ed="#P" n="70"/>tem locum, non existendo in medio, et sic non
+          <lb ed="#P" n="71"/>est dubium, quin possit Angelus in instanti
+          <lb ed="#P" n="72"/>transire ad distantem locum, sicut potest ad
+          <lb ed="#P" n="73"/>propinquum. Quia rationes factae aeque 
+          proce<lb break="no" ed="#P" n="74"/>dunt, et quia medium nihil impedit juxta 
+          il<lb break="no" ed="#P" n="75"/>lam sententiam, et perinde reputatur, ac si
+          <lb ed="#P" n="76"/>non esset. Difficultas ergo est, an contingendo
+          <lb ed="#P" n="77"/>medium, et extremum, possit nihilominus
+          <lb ed="#P" n="78"/>Angelus in instanti transire ab extremo ad 
+          ex<lb break="no" ed="#P" n="79"/>tremum per medium.
+        </p>
+        <p xml:id="szdada-x12786-d1e159">
+          <lb ed="#P" n="80"/>2. Expeditur deinde in altero sensu. — Quid
+          <lb ed="#P" n="81"/>nonnulli contra opponant. — Ut tamen quaestio
+          <lb ed="#P" n="82"/>non sit de nomine, oportet supponere 
+          sermo<lb break="no" ed="#P" n="83"/>nem esse de loco medio adaequato, et extremo,
+          <lb ed="#P" n="84"/>qui extra totum illum sit, sive ille sit 
+          adaequa<lb break="no" ed="#P" n="85"/>tus, sive inadaequatus. Nam si locus medius,
+          <lb ed="#P" n="86"/>et remotus simul sumpti non excedant 
+          ma<lb break="no" ed="#P" n="87"/>enitudinem loci adaequati, non est dubium,
+          <lb ed="#P" n="88"/>quin juxta dicta possint in instanti acquiri,
+          <lb ed="#P" n="89"/>quia tunc non sunt proprie duo loca, sed duae
+          <lb ed="#P" n="90"/>partes ejusdem loci, una propinquior termino
+          <lb ed="#P" n="91"/>a quo, et altera remotior. Tunc autem quaestio
+          <lb ed="#P" n="92"/>erit de nomine, an possit dici Angelus moveri,
+          <lb ed="#P" n="93"/>seu mutari, aut transire ad partem remotam
+          <lb ed="#P" n="94"/>per propinquam tanquam per medium. Aliqui
+          <lb ed="#P" n="95"/>enim magnam vim faciunt in verbo, ftransire,
+          <lb ed="#P" n="96"/>et in particula, Per, ut ostendant id dici non
+          <lb ed="#P" n="97"/>posse. Quia cum Angelus maneat in parte
+          <lb ed="#P" n="98"/>propinqua, quando acquirit remotam non 
+          po<lb break="no" ed="#P" n="99"/>test dici transire per unam ad aliam. Item
+          <lb ed="#P" n="100"/>quia particula Per, dicit prioritatem, quae
+          <lb ed="#P" n="101"/>nulla esse potest, si simul est mobile in 
+          utra<lb break="no" ed="#P" n="102"/>que parte.
+        </p>
+        <p xml:id="szdada-x12786-d1e212">
+          <lb ed="#P" n="103"/>3. His satisfit.—Sed haec non cogunt, quia
+          <lb ed="#P" n="104"/>posset facile dici, non accipi verbum 
+          frans<lb break="no" ed="#P" n="105"/>eundi in eo rigore, ut involvat absentiam, vel
+          <lb ed="#P" n="106"/>desertionem loci medii, per quam transitus
+          <lb ed="#P" n="107"/>fieri dicitur, sed solum ut significat acquisitio-
+          <pb ed="#P" n="508"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem ulterioris loci, et excludit limitationem,
+          <lb ed="#P" n="2"/>seu continentiam in solo priori loco. Cur enim
+          <lb ed="#P" n="3"/>acquisitio illa loci remoti non poterit transitus
+          <lb ed="#P" n="4"/>ultra propinquum appellari, etiamsi locus 
+          me<lb break="no" ed="#P" n="5"/>dius non relinquatur? De particula autem Per,
+          <lb ed="#P" n="6"/>optime dici potest, non indicare ordinem 
+          tem<lb break="no" ed="#P" n="7"/>poris, sed naturae, et ideo licet medium et 
+          ex<lb break="no" ed="#P" n="8"/>tremum simul duratione acquirantur, 
+          nihil<lb break="no" ed="#P" n="9"/>ominus verum erit ordine naturae prius 
+          occu<lb break="no" ed="#P" n="10"/>pari medium, quam extremum, sicut ex Scoto
+          <lb ed="#P" n="11"/>supra referebamus. Potest ergo hoc solum 
+          de<lb break="no" ed="#P" n="12"/>notari, cum dicitur Angelus transire in eodem
+          <lb ed="#P" n="13"/>instanti per medium ad extremum, sicut sol
+          <lb ed="#P" n="14"/>dicitur illuminare terram per aerem, et nos
+          <lb ed="#P" n="15"/>dicimur videre parictem per diaphanum, vel
+          <lb ed="#P" n="16"/>hominem per speculum, licet tam iluminatio,
+          <lb ed="#P" n="17"/>quam visio in instanti omnia attingant. Neque
+          <lb ed="#P" n="18"/>in his exemplis quaerenda est similitudo in
+          <lb ed="#P" n="19"/>omnibus, sed in hoc solum quod particula Per,
+          <lb ed="#P" n="20"/>applicata ad medium, et extremum potest 
+          di<lb break="no" ed="#P" n="21"/>cere solam prioritatem naturae, si sufficiens
+          <lb ed="#P" n="22"/>ejus fundamentum inveniatur. Hic autem non
+          <lb ed="#P" n="23"/>deest, praesertim si supponamus, non posse
+          <lb ed="#P" n="24"/>Angelum transire ad partem remotam, nisi
+          <lb ed="#P" n="25"/>contingendo propinquam, sic enim invenitur
+          <lb ed="#P" n="26"/>prioritas, saltem in subsistendi consequentia,
+          <lb ed="#P" n="27"/>quia potest Angelus attingere locum proximum
+          <lb ed="#P" n="28"/>sine motu, non tamen e converso. Non est ergo
+          <lb ed="#P" n="29"/>de illis vocibus contendendum, et ideo non 
+          lo<lb break="no" ed="#P" n="30"/>quimur de locis inadaequatis, seu partialibus,
+          <lb ed="#P" n="31"/>sed de medio adaequato, et de loco remotiori.
+        </p>
+        <p xml:id="szdada-x12786-d1e297">
+          <lb ed="#P" n="32"/>4. Prima opinio in proprio sensu Intjus 
+          ca<lb break="no" ed="#P" n="33"/>pitis.—Secunda opinio extreme opposita. —n
+          <lb ed="#P" n="34"/>hoc ergo sensu est prima opinio, affirmans
+          <lb ed="#P" n="35"/>posse Angelum transire in uno instanti ab
+          <lb ed="#P" n="36"/>extremo ad extremum per medium. Ita tenet
+          <lb ed="#P" n="37"/>Albertus, in 1, distinct. 37, art. 23, Major,
+          <lb ed="#P" n="38"/>dist.9 q. 7. Greeorius, dist. 6, q. 3, a. 2,
+          <lb ed="#P" n="39"/>Marsilius, in 2, q. 7, art. 3, et Henricus,
+          <lb ed="#P" n="40"/>quodl. 13, q. 7. Fundamentum eorum est,
+          <lb ed="#P" n="41"/>quia Angelus mutatur ab extremo ad 
+          extre<lb break="no" ed="#P" n="42"/>mum per medium sine resistentia medii; ergo
+          <lb ed="#P" n="43"/>mutari potest in instanti si velit. Probatur
+          <lb ed="#P" n="44"/>consequentia, quia simili ratione probat 
+          Phi<lb break="no" ed="#P" n="45"/>losophus 4 Physicor., quod si corpus 
+          move<lb break="no" ed="#P" n="46"/>tur per vacuum, moveretur in instanti. 
+          Se<lb break="no" ed="#P" n="47"/>cunda vero opinio huic extreme contraria est,
+          <lb ed="#P" n="48"/>nec in pluribus instantibus posse Angelum
+          <lb ed="#P" n="49"/>transire ad locum distantem, contingendo
+          <lb ed="#P" n="50"/>medium, sed tantum motu continuo. Hanc
+          <lb ed="#P" n="51"/>opinionem cum ejus fundamento attigi supra
+          <lb ed="#P" n="52"/>in capite vigesimo, tertiam opinionem 
+          re<lb break="no" ed="#P" n="53"/>ferendo.
+        </p>
+        <p xml:id="szdada-x12786-d1e347">
+          <lb ed="#P" n="54"/>5. Prima conclusio negativa. — Nihilominus,
+          <lb ed="#P" n="55"/>dico primo, non posse Angelum virtute na-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>turali mutari in instanti ad extremum locum
+          <lb ed="#P" n="57"/>per medium adaequatum, id est, in toto illo
+          <lb ed="#P" n="58"/>existendo, et ultra illum, alium in eadem
+          <lb ed="#P" n="59"/>instanti acquirendo. Ita docent Bonaventura,
+          <lb ed="#P" n="60"/>in 1, dist. 37, in 9, ejus parte art. 9 q 3,
+          <lb ed="#P" n="61"/>Agidius, ibi 2, etiam p. q. 3, Richardus,
+          <lb ed="#P" n="62"/>artic. 3, q. 5, Scotus, in 2. dist. 2, q. 11, et
+          <lb ed="#P" n="63"/>Gabriel, q. 3, artic. 3, et a fortiori in hoc 
+          con<lb break="no" ed="#P" n="64"/>sentiunt D. Thomas, et omnes qui cum illo
+          <lb ed="#P" n="65"/>dicunt, Angelum non posse mutare locum in
+          <lb ed="#P" n="66"/>instanti. Ratio vero judicio meo concludens
+          <lb ed="#P" n="67"/>est, quia si Angelus sic mutaretur, simul esset
+          <lb ed="#P" n="68"/>in loco medio adaequato, et ultra illum in loco
+          <lb ed="#P" n="69"/>remotiori. Consequens excedit naturalem 
+          vir<lb break="no" ed="#P" n="70"/>tutem, vel capacitatem Angeli; ergo etiam
+          <lb ed="#P" n="71"/>ille mutationis modus est illi naturaliter 
+          im<lb break="no" ed="#P" n="72"/>possibilis. Minor probatur, quia tunc simul
+          <lb ed="#P" n="73"/>esset Angelus in loco majori maximo, quod
+          <lb ed="#P" n="74"/>ejus capacitatem superat, ut supra 
+          proba<lb break="no" ed="#P" n="75"/>tum est.
+        </p>
+        <p xml:id="szdada-x12786-d1e399">
+          <lb ed="#P" n="76"/>6. Gregorii et Majoris responsio 
+          impugna<lb break="no" ed="#P" n="77"/>tur.—hespondent Gregorius et Major, 
+          Ange<lb break="no" ed="#P" n="78"/>lum quidem non posse permanenter esse in
+          <lb ed="#P" n="79"/>loco majori maximo, transeunter autem posse.
+          <lb ed="#P" n="80"/>Sed hoc impugnatur primo, quia si Angelus in
+          <lb ed="#P" n="81"/>eodem instanti acquirit locum majorem 
+          ma<lb break="no" ed="#P" n="82"/>ximo, non magis transeunter est in una parte
+          <lb ed="#P" n="83"/>illius, quam in alia, quia nulla ratio magis de
+          <lb ed="#P" n="84"/>una, quam de alia assignari potest; ergo tam
+          <lb ed="#P" n="85"/>permanenter est in toto loco proximo, et 
+          adae<lb break="no" ed="#P" n="86"/>quato, sicut ut in ulteriori loco. Secundo, quia
+          <lb ed="#P" n="87"/>existentia Angeli in loco adaequato de se non
+          <lb ed="#P" n="88"/>est res transiens, sed permanens, quia nec
+          <lb ed="#P" n="89"/>habet in se successionem, et acquisitio illius
+          <lb ed="#P" n="90"/>indivisibilis positionem non habet in aliquo
+          <lb ed="#P" n="91"/>continuo successivo, ut supra declaravi: est
+          <lb ed="#P" n="92"/>ergo de se permanens, et divisibilis pro 
+          vo<lb break="no" ed="#P" n="93"/>luntate Angeli; ergosi potest Angelus simul
+          <lb ed="#P" n="94"/>acquirere locum majorem maximo, potest in
+          <lb ed="#P" n="95"/>illo permanere, quamdiu voluerit, quia non
+          <lb ed="#P" n="96"/>potest assignari major repugnantia in 
+          perma<lb break="no" ed="#P" n="97"/>nentia, quam in prima existentia.
+        </p>
+        <p xml:id="szdada-x12786-d1e449">
+          <lb ed="#P" n="98"/>7. Evasio quae posset excogitari. — 
+          Rejici<lb break="no" ed="#P" n="99"/>tur. —Tertio, quia alias posset Angelus, 
+          ac<lb break="no" ed="#P" n="100"/>quisito primo loco adaequato, in eodem 
+          ins<lb break="no" ed="#P" n="101"/>tanti acquirere secundum, et per secundum
+          <lb ed="#P" n="102"/>tertium in eodem instanti: et ita 
+          consequen<lb break="no" ed="#P" n="103"/>ter intra quemlibet signatum numerum. Quia
+          <lb ed="#P" n="104"/>eo ipso, quod ftranseunter, inillo sensu, id est,
+          <lb ed="#P" n="105"/>in eodem instanti, potest esse in duobus locis
+          <lb ed="#P" n="106"/>adaequatis simul, poterit esse in tribus, et ita
+          <lb ed="#P" n="107"/>in toto mundo, et simul in coelo, et in terra,
+          <lb ed="#P" n="108"/>quod et repugnat sententiis Patrum supra ad -
+          <lb ed="#P" n="109"/>ductis, et per se est incredibile, quia excedit
+          <lb ed="#P" n="110"/>limitationem angelicae naturae. Dicet fortasse
+          <pb ed="#P" n="509"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aliquis, dari aliquem terminum in illo 
+          pro<lb break="no" ed="#P" n="2"/>cessu et usque ad illum extendi locum 
+          adae<lb break="no" ed="#P" n="3"/>quatum Angeli, et sicut potest illum in 
+          in<lb break="no" ed="#P" n="4"/>stanti occupare, ita etiam permanenterretinere.
+          <lb ed="#P" n="5"/>Sed hoc est recedere a proprio sensu 
+          quaestio<lb break="no" ed="#P" n="6"/>nis, et ad priorem jam declaratum, et omissum
+          <lb ed="#P" n="7"/>reverti, quia tunc revera illa mutatio non esset
+          <lb ed="#P" n="8"/>ab extremo ad extremum per medium 
+          adae<lb break="no" ed="#P" n="9"/>quatum, sed esset ad unum locum 
+          adaequa<lb break="no" ed="#P" n="10"/>tum, et mediatum, vel ad partem ejus 
+          remo<lb break="no" ed="#P" n="11"/>tam per propinquam. Quod saltem est expresse
+          <lb ed="#P" n="12"/>contra sensum Gregorii, et ideo ipse non
+          <lb ed="#P" n="13"/>posset illo modo vim discursus, et processus
+          <lb ed="#P" n="14"/>ad quamcumque multitudinem similium 
+          lo<lb break="no" ed="#P" n="15"/>corum effugere. Unde ultimo instare 
+          possu<lb break="no" ed="#P" n="16"/>mus, quia alias etiam possit Angelus in uno
+          <lb ed="#P" n="17"/>instanti acquirere alium locum proximum,
+          <lb ed="#P" n="18"/>et adaequatum, non relicto pro eodem instanti
+          <lb ed="#P" n="19"/>priori loco. Consequens autem falsum est, ut
+          <lb ed="#P" n="20"/>constat ex supra dictis, quia illi duo termini
+          <lb ed="#P" n="21"/>opponuntur. Et ex aequiparatione ad corpus
+          <lb ed="#P" n="22"/>potest confirmari: nam corpus non potest, vel
+          <lb ed="#P" n="23"/>per instans esse in majori loco, quam sit
+          <lb ed="#P" n="24"/>adaequatus illi, neque potest in eodem 
+          tem<lb break="no" ed="#P" n="25"/>pore, vel instanti aliquid novi loci acquirere
+          <lb ed="#P" n="26"/>permanendo simul in toto priori loco; ergo
+          <lb ed="#P" n="27"/>neque in Angelo, respectu loci adaequati haec
+          <lb ed="#P" n="28"/>admitti possunt, quia in limitatione ad locum
+          <lb ed="#P" n="29"/>adaequatum proportionem servant.
+        </p>
+        <p xml:id="szdada-x12786-d1e547">
+          <lb ed="#P" n="30"/>8. Responsio Alberti ad proximam 
+          impugna<lb break="no" ed="#P" n="31"/>tionem. — Unde Albertus, dicto art. 23, circa
+          <lb ed="#P" n="32"/>finem hanc attingit objectionem, quod 
+          Ange<lb break="no" ed="#P" n="33"/>Ius simul esset (ut ipse ait) n motum esse a quo
+          <lb ed="#P" n="34"/>mocetur, et in moveri, id est, in termmno ad
+          <lb ed="#P" n="35"/>quem ultimo, et in termino a quo, et in medio.
+          <lb ed="#P" n="36"/>Respondet negando sequelam, quia Angelus,
+          <lb ed="#P" n="37"/>inquit, non movetur in tempore. Et addit:
+          <lb ed="#P" n="38"/>Probabilius mih videtur, quod a quo est motus,
+          <lb ed="#P" n="39"/>et per quod est motus, et in quo est, in motum
+          <lb ed="#P" n="40"/>esse, sunt tria nunc sese consequentia, et tumen
+          <lb ed="#P" n="41"/>illa tria non faciunt quantitatem, nisi forte 
+          dis<lb break="no" ed="#P" n="42"/>cretam. Sed in his verbis, et responsione, vel
+          <lb ed="#P" n="43"/>Albertus sibi est contrarius, et a priori 
+          senten<lb break="no" ed="#P" n="44"/>tia recedit, quia jam plura instantia in illo
+          <lb ed="#P" n="45"/>motu admittit, vel illam sententiam declarat,
+          <lb ed="#P" n="46"/>ut solum neget necessitatem motus continui,
+          <lb ed="#P" n="47"/>qui sensus nobis non est contrarius. Nos enim
+          <lb ed="#P" n="48"/>facile admittemus, posse Angelum moveri ab
+          <lb ed="#P" n="49"/>extremo ad extremum per medium, sine motu
+          <lb ed="#P" n="50"/>successivo continuo per duas, vel tres 
+          mutatio<lb break="no" ed="#P" n="51"/>nes instantaneas, secundum angelicam 
+          dura<lb break="no" ed="#P" n="52"/>tionem, imo hoc ex dictis a nobis necessario
+          <lb ed="#P" n="53"/>sequitur, sive illae mutationes dicantur 
+          compo<lb break="no" ed="#P" n="54"/>nere unam discretam, sive non, de quo dicam
+          <lb ed="#P" n="55"/>statim. Hinc vero non sequitur moveri Ange-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lum in uno instanti ab uno extremo ad aliud
+          <lb ed="#P" n="57"/>distans per medium, quia revera ibi 
+          interve<lb break="no" ed="#P" n="58"/>niunt duae mutationes, quarum una alteri
+          <lb ed="#P" n="59"/>succedit, et in diverso instanti existit, quae duo
+          <lb ed="#P" n="60"/>instantia non coexistunt uni instanti nostro,
+          <lb ed="#P" n="61"/>imo necesse est, ut altera illarum coexistat
+          <lb ed="#P" n="62"/>alicui tempori nostro, ut ex dictis patet. 
+          Qua<lb break="no" ed="#P" n="63"/>propter solutio illa juxta priorem sententiam,
+          <lb ed="#P" n="64"/>prout ab aliis auctoribus intelligitur, locum
+          <lb ed="#P" n="65"/>habere non potest.
+        </p>
+        <p xml:id="szdada-x12786-d1e631">
+          <lb ed="#P" n="66"/>9. Ad fundamentum contrariae sententiae in
+          <lb ed="#P" n="67"/>num. 4. — Fundamentum autem contrariae
+          <lb ed="#P" n="68"/>sententiae falsum supponit: nam licet corpus
+          <lb ed="#P" n="69"/>moveatur per vacuum, non moveretur in 
+          in<lb break="no" ed="#P" n="70"/>stanti, ut alias in 4, Physicor., diximus. Neque
+          <lb ed="#P" n="71"/>in hoc argumentum Aristotelis validum est,
+          <lb ed="#P" n="72"/>quia successio motus localis corporis non 
+          pro<lb break="no" ed="#P" n="73"/>venit ex sola resistentia medii: sed inde ad
+          <lb ed="#P" n="74"/>summum poterit major, vel minor velocitas
+          <lb ed="#P" n="75"/>motus resultare, caeteris paribus. Successio 
+          au<lb break="no" ed="#P" n="76"/>tem motus intrinsece oritur ex imitatione
+          <lb ed="#P" n="77"/>mobilis ad locum, cui coextenditur: nam inde
+          <lb ed="#P" n="78"/>fit, ut neque possit partem novi acquirere, nisi
+          <lb ed="#P" n="79"/>aequalem dimittat, nec etiam possit simul 
+          to<lb break="no" ed="#P" n="80"/>tam aliquam partem acquirere, vel dimittere,
+          <lb ed="#P" n="81"/>nisi successione continua (ut supra declaravi).
+          <lb ed="#P" n="82"/>Repugnat ergo corpus moveri in instanti per
+          <lb ed="#P" n="83"/>vacuum, alias vel in eodem instanti amitteret
+          <lb ed="#P" n="84"/>totum terminum, a quo, et acquireret totum
+          <lb ed="#P" n="85"/>terminum ad quem, vel simul esset in utroque,
+          <lb ed="#P" n="86"/>et praeterea simul esset in omnibus spatiis
+          <lb ed="#P" n="87"/>aqualibus intermediis, et in extremo; quod
+          <lb ed="#P" n="88"/>totum concedit Gregorius; sed in eo certe non
+          <lb ed="#P" n="89"/>sequitur Aristotelem. Nam ille, ne hoc 
+          absur<lb break="no" ed="#P" n="90"/>dum concederet, negavit potius posse corpus
+          <lb ed="#P" n="91"/>moveri per vacuum, quod falsum etiam est,
+          <lb ed="#P" n="92"/>licet minus absurdum. Quin potius aliqui 
+          pu<lb break="no" ed="#P" n="93"/>tant illud implicare contradictionem, ita ut
+          <lb ed="#P" n="94"/>nec Deus possit illo modo corpus movere in
+          <lb ed="#P" n="95"/>instanti ab extremo ad extremum per medium,
+          <lb ed="#P" n="96"/>quod etiam de Angelo dicunt. Verumtamen
+          <lb ed="#P" n="97"/>cum Deus possit ponere corpus, vel spiritus in
+          <lb ed="#P" n="98"/>pluribus locis adaequatis, quod ad rem spectat,
+          <lb ed="#P" n="99"/>non est dubium, quin possit constituere 
+          quod<lb break="no" ed="#P" n="100"/>libet mobile in instanti in toto medio, usque
+          <lb ed="#P" n="101"/>ad extremum, quasi replicando in tot locis 
+          a<lb break="no" ed="#P" n="102"/>daequatis, quot in medio fuerint, et tunc dici
+          <lb ed="#P" n="103"/>poterit moveri illud ab extremo ad extremum
+          <lb ed="#P" n="104"/>per medium in instanti. Dummodo verbum
+          <lb ed="#P" n="105"/>movendi large sumatur, ut mutationem 
+          instan<lb break="no" ed="#P" n="106"/>taneam includit, et verbum, transeundi, et 
+          par<lb break="no" ed="#P" n="107"/>ticula, Per, in significatione accommodata 
+          su<lb break="no" ed="#P" n="108"/>matur, ut in princip:o declaravi.
+        </p>
+        <p xml:id="szdada-x12786-d1e727">
+          <lb ed="#P" n="109"/>10. Secunda conclusio bipartita.— Probatur
+          <lb ed="#P" n="110"/>prima pars conclusionis.—bico secundo, posse
+          <pb ed="#P" n="510"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Angelum plura loca successive mutare, et per
+          <lb ed="#P" n="2"/>medium ad distantem transire in pluribus 
+          in<lb break="no" ed="#P" n="3"/>stantibus angelicis, unde probabile est, talem
+          <lb ed="#P" n="4"/>mutationem factam in tempore discreto esse
+          <lb ed="#P" n="5"/>aliquo modo unam, non simplicem, sed 
+          com<lb break="no" ed="#P" n="6"/>positam per modum quantitatis discretae. Haec
+          <lb ed="#P" n="7"/>assertio est juxta sententiam D. Thomae, et
+          <lb ed="#P" n="8"/>Thomistarum, et contra tertiam in capite 
+          vi<lb break="no" ed="#P" n="9"/>gesimo, relatam, quamvis, ut verum fatear,
+          <lb ed="#P" n="10"/>differentia in hoc puncto de modo tantum 
+          lo<lb break="no" ed="#P" n="11"/>quendi esse videatur. Probatur ergo prior pars
+          <lb ed="#P" n="12"/>ex dictis in capite praecedenti, quia Angelus
+          <lb ed="#P" n="13"/>potest simul dimittere totum locum, et alium
+          <lb ed="#P" n="14"/>propinquum simul totum acquirere; ergo 
+          ea<lb break="no" ed="#P" n="15"/>dem ratione potest per aliam similem 
+          muta<lb break="no" ed="#P" n="16"/>tionem ad tertium locum transire, et ab illo
+          <lb ed="#P" n="17"/>subito transire ad quartum, et sic de aliis; ergo
+          <lb ed="#P" n="18"/>potest successive mutare plura loca per plura
+          <lb ed="#P" n="19"/>instantia. Prima consequentia nota est, quia
+          <lb ed="#P" n="20"/>eadem est ratio in secundo, et caeteris locis,
+          <lb ed="#P" n="21"/>seu terminis ad quos, quae est in primo, nec
+          <lb ed="#P" n="22"/>enim est in illis major resistentia, aut 
+          repu<lb break="no" ed="#P" n="23"/>gnantia, nec Angeli virtus defatigatur, aut
+          <lb ed="#P" n="24"/>laxatur in his mutationibus, vel, ut ita dicam,
+          <lb ed="#P" n="25"/>saltibus, quantumvis successive 
+          multiplicen<lb break="no" ed="#P" n="26"/>tur. Secunda vero consequentia probatur, quia
+          <lb ed="#P" n="27"/>quaelibet illarum mutationum fit tota simul;
+          <lb ed="#P" n="28"/>ergo fit in instanti secundum propriam, et 
+          in<lb break="no" ed="#P" n="29"/>trinsecam durationem, quia sicut in suo esse
+          <lb ed="#P" n="30"/>non habet successionem, ita neque in 
+          duratio<lb break="no" ed="#P" n="31"/>ne: est ergo duratio indivisibilis, quae sicut
+          <lb ed="#P" n="32"/>incipit, ita etiam potest tota simul desinere,
+          <lb ed="#P" n="33"/>et talem durationem instans angelicum 
+          vo<lb break="no" ed="#P" n="34"/>camus.
+        </p>
+        <p xml:id="szdada-x12786-d1e812">
+          <lb ed="#P" n="35"/>11. Probatur secunda pars. — Hinc ergo
+          <lb ed="#P" n="36"/>probatur altera pars, quia in operationibus
+          <lb ed="#P" n="37"/>mentis, et voluntatis angelicae invenitur, 
+          tem<lb break="no" ed="#P" n="38"/>pus discretum ex hujusmodi instantibus 
+          com<lb break="no" ed="#P" n="39"/>positum, ut ex communi sententia 
+          theologo<lb break="no" ed="#P" n="40"/>rum dixi in disput. 50, Metaphysicae, sect. 7,
+          <lb ed="#P" n="41"/>num. 8. Ergo eadem ratione in externis 
+          muta<lb break="no" ed="#P" n="42"/>tionibus indivisibilibus Angelorum, quales
+          <lb ed="#P" n="43"/>sunt istae mutationes locales, admitti potest, et
+          <lb ed="#P" n="44"/>debet, quia idem modus durationis, et 
+          succes<lb break="no" ed="#P" n="45"/>sionis in eis invenitur. Deinde in mutationibus
+          <lb ed="#P" n="46"/>corporalibus, et localibus quantitas discreta
+          <lb ed="#P" n="47"/>reperitur, talis enim est oratio, quam 
+          Aristo<lb break="no" ed="#P" n="48"/>teles dixit esse unam per modum quantitatis
+          <lb ed="#P" n="49"/>discretae; ergo eadem ratione poterit ex illis
+          <lb ed="#P" n="50"/>mutationibus unus motus discretus componi,
+          <lb ed="#P" n="51"/>qui in simili tempore discreto fiat.
+        </p>
+        <p xml:id="szdada-x12786-d1e851">
+          <lb ed="#P" n="52"/>12. Tertio declaratur, quia dupliciter potest
+          <lb ed="#P" n="53"/>Angelus acquirere indivisibiliter aliquem 
+          lo<lb break="no" ed="#P" n="54"/>cum, primo ut in illo quiescat, et maneat, et
+          <lb ed="#P" n="55"/>tunc est una simplex, et indivisibilis mutatio,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quae nullam facit compositionem cum 
+          alia<lb break="no" ed="#P" n="57"/>Alio modo potest acquirere unum locum, 
+          trans<lb break="no" ed="#P" n="58"/>eundo tantum ad alium remotum, in quo 
+          re<lb break="no" ed="#P" n="59"/>mansurus est, et tunc omnes mutationes 
+          indi<lb break="no" ed="#P" n="60"/>visibiles, quae in medio successive fiunt, ratione
+          <lb ed="#P" n="61"/>ordinis. et termini ultimi, censentur habere
+          <lb ed="#P" n="62"/>quamdam unitatem non strictam, et rigorosam,
+          <lb ed="#P" n="63"/>sed qualis est in exercitu, et in aliis rebus 
+          si<lb break="no" ed="#P" n="64"/>milibus. In quo etiam considerandum est, fieri
+          <lb ed="#P" n="65"/>posse, ut prima mutatio ad locum propinquum,
+          <lb ed="#P" n="66"/>et existentia in tali loco tantum duret per 
+          in<lb break="no" ed="#P" n="67"/>stans, etiam secundum coexistentiam ad 
+          nos<lb break="no" ed="#P" n="68"/>trum tempus, et tunc optime intelligitur, qua
+          <lb ed="#P" n="69"/>ratione existentia in tali loco medio, dicatur
+          <lb ed="#P" n="70"/>esse in transitu, et ordinari ad acquisitionem
+          <lb ed="#P" n="71"/>alterius termini remoti, et ideo cx tali 
+          mu<lb break="no" ed="#P" n="72"/>tatione unum transitum discretum componi.
+          <lb ed="#P" n="73"/>Quando vero plura loca media transeunda sunt,
+          <lb ed="#P" n="74"/>tunc necessarium est, ut acquisitio alicujus
+          <lb ed="#P" n="75"/>loci medii, vel etiam plurium coexistat alicui
+          <lb ed="#P" n="76"/>tempori nostro, et ideo aliquo modo fieri 
+          vi<lb break="no" ed="#P" n="77"/>detur cum majori interruptione, vel 
+          perma<lb break="no" ed="#P" n="78"/>nentia per modum quietis, Nihilominus tamen
+          <lb ed="#P" n="79"/>illa mutatio secundum se indivisibilis est, et
+          <lb ed="#P" n="80"/>ideo si Angelus in ea tantum transitione duret
+          <lb ed="#P" n="81"/>animo tendendi ad alium locum, non dicetur
+          <lb ed="#P" n="82"/>ibi quiescere in propria mensura, ac proinde
+          <lb ed="#P" n="83"/>nihil obstabit, quominus ex illis mutationibus
+          <lb ed="#P" n="84"/>unus discretus transitus componatur. 
+          Potest<lb break="no" ed="#P" n="85"/>que exemplo materialis perfectionis hominis
+          <lb ed="#P" n="86"/>ab hoc loco ad alium remotum declarari. Nam
+          <lb ed="#P" n="87"/>licet in medio itinere saepius quiescat, 
+          nihilo<lb break="no" ed="#P" n="88"/>minus illa perfectio, seu iter unum aliquo
+          <lb ed="#P" n="89"/>modo censetur, et ita vocatur; ergo multo 
+          ma<lb break="no" ed="#P" n="90"/>gis, et perfectiori modo in praedictis 
+          mutatio<lb break="no" ed="#P" n="91"/>nibus Angelorum quidpiam simile inveniri
+          <lb ed="#P" n="92"/>potest.
+        </p>
+        <p xml:id="szdada-x12786-d1e945">
+          <lb ed="#P" n="93"/>13. Ad argumentum contrarie sententiae
+          <lb ed="#P" n="94"/>propositum c. 20, n. 5. — Et per haec 
+          respon<lb break="no" ed="#P" n="95"/>sum est ad motivum contrariae sententiae 
+          re<lb break="no" ed="#P" n="96"/>latae in numero quarto. Nam licet quaelibet
+          <lb ed="#P" n="97"/>illarum mutationum in se completa sit, 
+          quo<lb break="no" ed="#P" n="98"/>ad sui loci acquisitionem, tamen in ordine ad
+          <lb ed="#P" n="99"/>totam viam usque ad terminum ultimum est
+          <lb ed="#P" n="100"/>incompleta, et ita potest ordinari ad aliam, ut
+          <lb ed="#P" n="101"/>cum illa mutationem discretam componat. Ad
+          <lb ed="#P" n="102"/>primam item confirmationem patet responsio,
+          <lb ed="#P" n="103"/>quia licet Angelus aliquantulum maneat in
+          <lb ed="#P" n="104"/>loco intermedio, secundum coexistantiam ad
+          <lb ed="#P" n="105"/>nostrum tempus, vel ibi non quiescit, quoad
+          <lb ed="#P" n="106"/>propriam mensuram, sed semper est in illa
+          <lb ed="#P" n="107"/>actione, qua talem locum acquisivit, cum
+          <lb ed="#P" n="108"/>animo transeundi, vel licet admittatur aliqua
+          <lb ed="#P" n="109"/>quies, illa ion impedit compositionem 
+          discre<lb break="no" ed="#P" n="110"/>tam. Ad secundam vero confirmationem ne-
+          <pb ed="#P" n="511"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gatur sequela, quia dari potest ultimus 
+          ter<lb break="no" ed="#P" n="2"/>minus hujus motus discreti, in quo Angelus
+          <lb ed="#P" n="3"/>durabiliter permaneat, et quiescat, et ab omni
+          <lb ed="#P" n="4"/>actione acquirendi locum cesset, sicut etiam
+          <lb ed="#P" n="5"/>motus ejus successivus in aliquo loeo 
+          termi<lb break="no" ed="#P" n="6"/>natur, ac finitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

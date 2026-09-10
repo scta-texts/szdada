@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="842"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x21248"><!-- l7c8 -->
+        <head xml:id="szdada-x21248-Hd1e101">Caput 8</head>
+        <head xml:id="szdada-x21248-Hd1e103" type="question-title">Utrum luciferi peccatum superbiae propriae fuerit, vel esse potuerit</head>
+        <p xml:id="szdada-x21248-d1e106">
+          <lb ed="#P" n="80"/>CAPUT VII.
+          <lb ed="#P" n="81"/>UTRUM LUCIFERI PECCATUM SUPERBIAE PROPRIAE 
+          FUE<lb break="no" ed="#P" n="82"/>RIT, VEL ESSE POTUERIT.
+        </p>
+        <p xml:id="szdada-x21248-d1e115">
+          <lb ed="#P" n="83"/>1. Prima conclusio. — Peccatum superbiae
+          <lb ed="#P" n="84"/>potest iu Angelis inveniri. — Hactenus solum
+          <lb ed="#P" n="85"/>diximus de potestate peccandi in genere, quae
+          <lb ed="#P" n="86"/>in Angelis repetitur: jam specialius dicere
+          <lb ed="#P" n="87"/>oporteret de peccatis, quae in Angelis inveniri
+          <lb ed="#P" n="88"/>possunt, vel in eis dum fuerunt viatores, 
+          in<lb break="no" ed="#P" n="89"/>venta sunt: ut tamen brevius agamus, et 
+          re<lb break="no" ed="#P" n="90"/>petitiones vitemus, simul de possibili, et de
+          <lb ed="#P" n="91"/>facto dicemus: remque totam prius de 
+          Luci<lb break="no" ed="#P" n="92"/>fero expediemus: quia est aliquo modo causa
+          <lb ed="#P" n="93"/>et exemplar peccati aliorum: et quae de 
+          Luci<lb break="no" ed="#P" n="94"/>fero dicta fuerint, facile postea ad caeteros 
+          ap<lb break="no" ed="#P" n="95"/>plicabimus. Primo igitur dico, peccatum 
+          su<lb break="no" ed="#P" n="96"/>perbiae posse in Angelis inveniri, quod est
+          <lb ed="#P" n="97"/>manifestum, supposita in eis potestate 
+          pec<lb break="no" ed="#P" n="98"/>candi; quia peccatum superbiae habet 
+          mate<lb break="no" ed="#P" n="99"/>riam maxime proportionatam angelicae 
+          patu<lb break="no" ed="#P" n="100"/>rae, est enim superbia inordinatus excellentiae
+          <lb ed="#P" n="101"/>appetitus, teste Augustino 14, de Civitat.,
+          <lb ed="#P" n="102"/>cap. 13, et D. Thoma 2, 2, quaest. 162, a. 1
+          <lb ed="#P" n="103"/>et 2, appetitus autem excellentiae ex genere
+          <lb ed="#P" n="104"/>suo valde spiritalis est; ideoque naturae 
+          intel<lb break="no" ed="#P" n="105"/>lectualis, vel rationalis proprius est; et 
+          prae<lb break="no" ed="#P" n="106"/>cipue in pure intellectuali inveniri potest:
+          <lb ed="#P" n="107"/>ergo si natura intellectualis alias sit capax
+          <pb ed="#P" n="843"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>peccati, erit etiam capax hujus affectus ad
+          <lb ed="#P" n="2"/>excellentiam cum excessu, et inordinatione,
+          <lb ed="#P" n="3"/>ac proinde est capax superbiae: Angelus ergo
+          <lb ed="#P" n="4"/>quilibet per superbiam peccare potuit, cum sit
+          <lb ed="#P" n="5"/>intellectualis, et peccati capax, atque hoc ex
+          <lb ed="#P" n="6"/>dicendis fiet evidentius.
+        </p>
+        <p xml:id="szdada-x21248-d1e189">
+          <lb ed="#P" n="7"/>2. Secunda conclusio. — Lucifer in via per
+          <lb ed="#P" n="8"/>superbiam peccavit. — Secundo dico 
+          Lucife<lb break="no" ed="#P" n="9"/>rum in via per superbiam peccasse; haec est
+          <lb ed="#P" n="10"/>communis sententia theologorum sine 
+          dissen<lb break="no" ed="#P" n="11"/>sione, quantum existimo, nam licet in 
+          contra<lb break="no" ed="#P" n="12"/>rium soleat referri Scotus, in hoc non 
+          contra<lb break="no" ed="#P" n="13"/>dicit. Duas enim quaestiones in praesenti 
+          distin<lb break="no" ed="#P" n="14"/>guimus; una est, an Lucifer verum et proprium
+          <lb ed="#P" n="15"/>peccatum superbiae commiserit: alia est, an
+          <lb ed="#P" n="16"/>hoc fuerit primum peccatum ejus; in hoc ergo
+          <lb ed="#P" n="17"/>secundo habet Scotus singularem opinionem,
+          <lb ed="#P" n="18"/>quam mox tractabimus, nunc vero solam 
+          pri<lb break="no" ed="#P" n="19"/>mam definimus, et in illa non dissentit Scotus,
+          <lb ed="#P" n="20"/>nam in 2, d. 6, q. 2, S Viso igitur, postquam
+          <lb ed="#P" n="21"/>alia Luciferi peccata declaraverat, subdit: Viso
+          <lb ed="#P" n="22"/>igitur de primo inordinate concupito, potest
+          <lb ed="#P" n="23"/>poni, quia inordinate voluit sibi aliquid bonum,
+          <lb ed="#P" n="24"/>scilicet, excellentiam respectu aliorum; quae est
+          <lb ed="#P" n="25"/>formalissima superbia, et idem sentiunt alii
+          <lb ed="#P" n="26"/>sectatores Scoti infra citandi; alios vero 
+          auc<lb break="no" ed="#P" n="27"/>tores in sequenti puncto referemus.
+        </p>
+        <p xml:id="szdada-x21248-d1e238">
+          <lb ed="#P" n="28"/>3. Quid ibi nomine Luciferi intelligitur. —
+          <lb ed="#P" n="29"/>Prima expositio. —Probatur autem primo haec
+          <lb ed="#P" n="30"/>assertio ex nonnullis Scripturae testimoniis.
+          <lb ed="#P" n="31"/>Primum sumitur ex Isaiae 14: Quomodo 
+          ceci<lb break="no" ed="#P" n="32"/>disti de celo Lucifer, qui mane oriebaris, qui
+          <lb ed="#P" n="33"/>dicebas im corde tuo, in celum conscendum, 
+          su<lb break="no" ed="#P" n="34"/>per astra Dei exaltabo solium meum; sedebo in
+          <lb ed="#P" n="35"/>monte testaementi in lateribus Aquilonis, 
+          ascen<lb break="no" ed="#P" n="36"/>dam super altitudinem nubium; quae omnia
+          <lb ed="#P" n="37"/>verba non solum propriam, sed quidem 
+          ma<lb break="no" ed="#P" n="38"/>gnam, et ingentem superbiam apertissime 
+          at<lb break="no" ed="#P" n="39"/>tribuunt Lucifero, et illam dicunt fuisse 
+          cau<lb break="no" ed="#P" n="40"/>sam praecipuam ruinae ipsius; sed difticultas
+          <lb ed="#P" n="41"/>est, quis ibi nomine Luciferi significetur; aliqui
+          <lb ed="#P" n="42"/>non volunt de solo Angelo malo ibi esse 
+          sermo<lb break="no" ed="#P" n="43"/>nem; nec posse verba illa ad litteram in 
+          al<lb break="no" ed="#P" n="44"/>quem hominem convenire, refertur pro hac
+          <lb ed="#P" n="45"/>sententia Tertullianus, lib. 5, contra Marci.,
+          <lb ed="#P" n="46"/>cap. 11 et 17, sed ibi solum allegat verba lla
+          <lb ed="#P" n="47"/>de Angelo illa intelligendo, modum autem non
+          <lb ed="#P" n="48"/>declarat, et eodem modo citat locum illum
+          <lb ed="#P" n="49"/>Origenis, lib. 8, in ad Rom,, circa illa verba,
+          <lb ed="#P" n="50"/>cap. 11: Numquid sic offenderunt, ut caderent ?
+          <lb ed="#P" n="51"/>At vero, lib. 1, Periar., cap. 5, et l. 2, cap. 4,
+          <lb ed="#P" n="52"/>expresse contendit, non posse prophetiam 
+          il<lb break="no" ed="#P" n="53"/>lam de aliquo homine ad litteram intelligi,
+          <lb ed="#P" n="54"/>quod etiam aliis locis habet, quae refert Leo
+          <lb ed="#P" n="55"/>Castrensis, in illum locum, et satis probabili-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ter illam expositionem defendit; refert autem
+          <lb ed="#P" n="57"/>pro eadem sententia alios Patres, qui revera
+          <lb ed="#P" n="58"/>id non dicunt, ut ostendam.
+        </p>
+        <p xml:id="szdada-x21248-d1e310">
+          <lb ed="#P" n="59"/>4. Secunda expositio. — Nunc ergo 
+          suppo<lb break="no" ed="#P" n="60"/>nimus, lsaiam in principio illius capitis de Rege
+          <lb ed="#P" n="61"/>Babylonico sermonem instituisse, unde 
+          proba<lb break="no" ed="#P" n="62"/>bilius esse crecimus, illa verba: Quomodo 
+          ceci<lb break="no" ed="#P" n="63"/>disti, etc., de eodem ad litteram intelligi in
+          <lb ed="#P" n="64"/>primario sensu, ut ait Hieronymus et Cyrillus,
+          <lb ed="#P" n="65"/>ibi, et ex modernis bene Adamus exponunt, et
+          <lb ed="#P" n="66"/>Augustinus, lib. 3, de doct. Christ., cap. 37,
+          <lb ed="#P" n="67"/>dicens, verba illa esse dicta de daemone in 
+          fi<lb break="no" ed="#P" n="68"/>gura regis Babylonis, sentit ergo de illo rege
+          <lb ed="#P" n="69"/>principaliter fuisse locutum prophetam, licet
+          <lb ed="#P" n="70"/>in figura ejus etiam de daemone loquatur, et
+          <lb ed="#P" n="71"/>idem repetit, lib. 11, Gen. ad litt., cap. 24, et
+          <lb ed="#P" n="72"/>lib. 11, de Civit., cap. 15. Quibus locis aperte
+          <lb ed="#P" n="73"/>indicat, hunc sensum esse litteralem, licet 
+          se<lb break="no" ed="#P" n="74"/>cundarium, quod etiam Hieronymus in Isaiam
+          <lb ed="#P" n="75"/>sentit, si attente legatur a principio, cap. 13,
+          <lb ed="#P" n="76"/>per totum cap. 14. Possunt etiam pro hac 
+          sen<lb break="no" ed="#P" n="77"/>tentia Patres citari, qui simpliciter allegant
+          <lb ed="#P" n="78"/>verba illa de Lucifero, supponendo prophetam
+          <lb ed="#P" n="79"/>de illo loqui; quamvis non declarent, an de
+          <lb ed="#P" n="80"/>illo solo, nec de quo primario, vel secundario
+          <lb ed="#P" n="81"/>intelligenda sint.
+        </p>
+        <p xml:id="szdada-x21248-d1e362">
+          <lb ed="#P" n="82"/>5. Athanasii locus parum efficaz. — Citatur
+          <lb ed="#P" n="83"/>etiam Athanasius, in l. de Pass. et cruce Dom.,
+          <lb ed="#P" n="84"/>sed ibi, non longe a fine, magis videtur illa
+          <lb ed="#P" n="85"/>verba Prophetae per prosopopoeiam inducere,
+          <lb ed="#P" n="86"/>tanquam dicta a sanctis Angelis in 
+          contemp<lb break="no" ed="#P" n="87"/>tum Luciferi, quam in eo sensu ea referre; 
+          ta<lb break="no" ed="#P" n="88"/>men in q. 6, ad Antiochum ex illo loco 
+          pro<lb break="no" ed="#P" n="89"/>bat, diabolum peccasse per superbiam, 
+          prius<lb break="no" ed="#P" n="90"/>quam creatus esse Adam, et antiquum errorem
+          <lb ed="#P" n="91"/>illo testimonio confutat: ergo sensu illo, ut
+          <lb ed="#P" n="92"/>litterali utitur. Ambrosius etiam in Psal. 118,
+          <lb ed="#P" n="93"/>Oct. 3: Increpasti superbos, auctorem superbiae
+          <lb ed="#P" n="94"/>dicit esse diabolum: Que, ait, inducit propheta
+          <lb ed="#P" n="95"/>dicentem - Ponam thronum meum, etc., et idem
+          <lb ed="#P" n="96"/>fere habet Oct. 16, in id, suscipe servum tuum
+          <lb ed="#P" n="97"/>in bonumn, etc., etsuper ad Rom. 11, in id, 
+          gaum<lb break="no" ed="#P" n="98"/>quid sic offenderunt, etc., sic ait: Diabolum
+          <lb ed="#P" n="99"/>legimus cecidisse, dicente Isaia propheta- 
+          Quo<lb break="no" ed="#P" n="100"/>modo cecidisti? per casum apostasiam 
+          signifi<lb break="no" ed="#P" n="101"/>cans, et idem habet in expositione Symboli
+          <lb ed="#P" n="102"/>Apostolorum, cap. 13, et optime Eusebius,
+          <lb ed="#P" n="103"/>lib. 7, de Praepar., cap. 6, et lib. 4, de 
+          De<lb break="no" ed="#P" n="104"/>monstrat., cap. 9, ubi scholiastes hunc sensum
+          <lb ed="#P" n="105"/>mysticum appellat: Eusebius autem absolute
+          <lb ed="#P" n="106"/>dicit, propheticum Spiritum in Isaia per illa
+          <lb ed="#P" n="107"/>verba magnum daemonem reprehendisse, et
+          <lb ed="#P" n="108"/>similiter Prosper, in dimid. cap. 1 et 2,
+          <lb ed="#P" n="109"/>absolute refert: Pev Isa am diaisse de diabolo
+          <lb ed="#P" n="110"/>Deum: Quomodo cessti de celo, ete. Cypria-
+          <pb ed="#P" n="844"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nus vero, Epist. 55, alias libro 1, Epist. 3, cum
+          <lb ed="#P" n="2"/>dixisset, superbiam non oriri ex spiritu Christi,
+          <lb ed="#P" n="3"/>sed ex spiritu Antichristi, addit: Cui 
+          erpro<lb break="no" ed="#P" n="4"/>brans per prophetam Dominus, ait - Quomodo
+          <lb ed="#P" n="5"/>cecidisti ? Ubi per spiritum Antichristi 
+          daemo<lb break="no" ed="#P" n="6"/>nem intelligere videtur, et hos Patres fere 
+          ci<lb break="no" ed="#P" n="7"/>tat Leo Castrensis. sed non excludunt priorem
+          <lb ed="#P" n="8"/>sensum, ut ipse contendit.
+        </p>
+        <p xml:id="szdada-x21248-d1e449">
+          <lb ed="#P" n="9"/>6. Accedunt Cyrillus, etc. — Auctor imperfect.
+          <lb ed="#P" n="10"/>—His Patribus addi possunt Cyrillus in Isaiam;
+          <lb ed="#P" n="11"/>ubi, supposito litterali sensu de rege 
+          Babylo<lb break="no" ed="#P" n="12"/>niae, addit alium de daemone: videtur tamen
+          <lb ed="#P" n="13"/>ut spiritualem tantum, et mysticum illum
+          <lb ed="#P" n="14"/>tradere; et idem sentit Basilius, ibid. 
+          Chrysos<lb break="no" ed="#P" n="15"/>tomus, homil. de Adam, et Eva, eisdem Isaiae
+          <lb ed="#P" n="16"/>verbis peccatum Angeli declarat, Homilia
+          <lb ed="#P" n="17"/>vero 3, in verba lIsaiae, versus finem, cum 
+          dixis<lb break="no" ed="#P" n="18"/>set, Superbia virtutem incorpoream e sublimi
+          <lb ed="#P" n="19"/>dejecit, addit infra: Testem adducam Isaiam
+          <lb ed="#P" n="20"/>de illo loquentem: In celun ascendam, statim
+          <lb ed="#P" n="21"/>vero addit: Qui non libenter accipiunt 
+          allego<lb break="no" ed="#P" n="22"/>rias, calumniabuntur nostrum testimonium, et
+          <lb ed="#P" n="23"/>nihil respondet, sed alia exhibet testimonia;
+          <lb ed="#P" n="24"/>homil. denique 49, in Mat.,;in Imnperf., De
+          <lb ed="#P" n="25"/>diabolo. inquit, dictum est: Quomodo cecidisti
+          <lb ed="#P" n="26"/>de celo Lucifer: Quod Apostoli, et sancti 
+          in<lb break="no" ed="#P" n="27"/>Lterpretantur, non de altitudine celi ad terram,
+          <lb ed="#P" n="28"/>sed de angelica dignitate ad ignominiam 
+          tene<lb break="no" ed="#P" n="29"/>brarum. Gregorius autem Nazianzenus, Orat.
+          <lb ed="#P" n="30"/>42, solum dixit: 7lle ob splendorem Lucifer, ob
+          <lb ed="#P" n="31"/>superbiam caligo factus est. Nicetas vero 
+          in<lb break="no" ed="#P" n="32"/>tellexit allusisse Gregorium ad verba Isaise,
+          <lb ed="#P" n="33"/>dicens: quod Angeli non sint immobiles, 
+          per<lb break="no" ed="#P" n="34"/>suadet Isaias, dicens: quomodo cecidisti de
+          <lb ed="#P" n="35"/>cato Lucifer ? Item Gregorius, in Pastor., 2p.,
+          <lb ed="#P" n="36"/>c. 6, verba illa Isaiae, tanquam verba Luciferi
+          <lb ed="#P" n="37"/>refert. Idem latius, lib. 4, epist., cap. 28,
+          <lb ed="#P" n="38"/>alias, epist. 38, ad Joannem Episcopum 
+          Con<lb break="no" ed="#P" n="39"/>stantinopolitanum, et 1. 13. Moral., c. 18,
+          <lb ed="#P" n="40"/>alas 23, et Epiphanius, seu Proclus apud
+          <lb ed="#P" n="41"/>ipsum, haeresi 64, et Rupertus, lib. 8, in Joan.,
+          <lb ed="#P" n="42"/>in fine, sic etiam Andraeas Caesareensis in
+          <lb ed="#P" n="43"/>Apocal., suo c. 24; De diabolo, inquit, per
+          <lb ed="#P" n="44"/>Isaiam dictum est, quomodo cecidisti, etc.
+          <lb ed="#P" n="45"/>Idem habet Isodorus, lib. de Natur. Rerum,
+          <lb ed="#P" n="46"/>c. 26, et lib. 1, sent. seu de Sum. Bono, c. 19,
+          <lb ed="#P" n="47"/>ubi juxta regulam Tyronii locum explicat,
+          <lb ed="#P" n="48"/>sicut Augustinus. Ac denique Bernardus, serm.
+          <lb ed="#P" n="49"/>de Sancto Benedicto: Dicit Lucifer ille, 
+          se<lb break="no" ed="#P" n="50"/>debo, etc., et similia habet serm. 2, in Octav.
+          <lb ed="#P" n="51"/>Paschae.
+        </p>
+        <p xml:id="szdada-x21248-d1e545">
+          <lb ed="#P" n="52"/>7. Locus litteraliter de rege Babylonis, et
+          <lb ed="#P" n="53"/>de diemone intelligitur. — Ex quibus 
+          probabi<lb break="no" ed="#P" n="54"/>lius esse colligo, illa verba Isaiae, non per 
+          ac<lb break="no" ed="#P" n="55"/>commodationem tantum attribui daemoni, sed
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ex intentione Spiritus sancti de illo esse dicta;
+          <lb ed="#P" n="57"/>nam multi ex dictis Patribus aiunt per 
+          spiri<lb break="no" ed="#P" n="58"/>tum propheticum dicta fuisse de Lucifero; et
+          <lb ed="#P" n="59"/>quamvis aliqui ex citatis Patribus hunc 
+          sen<lb break="no" ed="#P" n="60"/>sum mysticum, spiritualem, vel allegoricum
+          <lb ed="#P" n="61"/>appellent: nihilominus alii communiter illum
+          <lb ed="#P" n="62"/>declarant, tanquam litteralem: et fortasse est
+          <lb ed="#P" n="63"/>tantum in modo loquendi diversitas, quatenus
+          <lb ed="#P" n="64"/>omnis sensus aliquo modo figuratus, vel 
+          me<lb break="no" ed="#P" n="65"/>taphoricus, solet interdum vocari mysticus:
+          <lb ed="#P" n="66"/>cum tamen revera litteralis sit, quando ipsa
+          <lb ed="#P" n="67"/>significatio metaphorica, seu figurata per verba
+          <lb ed="#P" n="68"/>est immediate, ac per se intenta, ut in illis
+          <lb ed="#P" n="69"/>verbis fuisse videtur, et quamvis in eo loco
+          <lb ed="#P" n="70"/>institutum Prophetae non esset tractare de
+          <lb ed="#P" n="71"/>peccato Angelorum, tamen per occasionem
+          <lb ed="#P" n="72"/>illud tetigit; vel quasi inducendo exemplum
+          <lb ed="#P" n="73"/>insigne, quo arrogantiam regis Babyloniae
+          <lb ed="#P" n="74"/>explicaret, vel ut declarando maximam 
+          ela<lb break="no" ed="#P" n="75"/>tionem capitis omnium superborum, per illam
+          <lb ed="#P" n="76"/>declararet singularem etiam arrogantiam 
+          cu<lb break="no" ed="#P" n="77"/>jusdam insignis membri ejus. Propter quod
+          <lb ed="#P" n="78"/>talibus verbis usus est Propheta, quae in 
+          utrum<lb break="no" ed="#P" n="79"/>que possunt optime convenire.
+        </p>
+        <p xml:id="szdada-x21248-d1e610">
+          <lb ed="#P" n="80"/>8. Secundum testimonium em Eszechiele pro
+          <lb ed="#P" n="81"/>eadem quarta conclusione. — De quo hic 
+          lo<lb break="no" ed="#P" n="82"/>cus intelligatur. — Secundum testimonium
+          <lb ed="#P" n="83"/>est simile praecedenti apud Ezechielem, c. 28,
+          <lb ed="#P" n="84"/>ab illis verbis, Hec dicit Dominus: Tu 
+          signa<lb break="no" ed="#P" n="85"/>culum similitudinis. Et infra, Tu Cherub 
+          eaten<lb break="no" ed="#P" n="86"/>tus, etc., de quo dicit, Inventa est iniquitas an
+          <lb ed="#P" n="87"/>te. lllam vero iniquitatem fuisse superbiam
+          <lb ed="#P" n="88"/>declarat, dicens: Elevatum est cor tuum in
+          <lb ed="#P" n="89"/>decoro tuo.De illo autem principe, seu Cherub,
+          <lb ed="#P" n="90"/>est eadem controversia, quis ad litteram 
+          signi<lb break="no" ed="#P" n="91"/>ficetur ? Aliqui enim de solo humano Principe
+          <lb ed="#P" n="92"/>Tyri illa omnia ad litteram intelligunt, quae
+          <lb ed="#P" n="93"/>fuit sententia Polychronii, auctoris antiqui, et
+          <lb ed="#P" n="94"/>juxta illam solam exponit illum locum 
+          Maldo<lb break="no" ed="#P" n="95"/>natus ibi; tantumque obiter dicit theologos
+          <lb ed="#P" n="96"/>de Lucifero locum interpretari; at vero 
+          Ori<lb break="no" ed="#P" n="97"/>genes supra contendit, non aliquem hominem,
+          <lb ed="#P" n="98"/>sed solum primum Angelum malum 
+          signifi<lb break="no" ed="#P" n="99"/>cari; et de illo tantum verba illa intelligenda
+          <lb ed="#P" n="100"/>esse. Idem habet, hom. 13, in Ezechielem ubi
+          <lb ed="#P" n="101"/>idem dixit Apollinarius; imo et Theodoretus,
+          <lb ed="#P" n="102"/>sessione sua 11, circa finem, et licet in 
+          princi<lb break="no" ed="#P" n="103"/>pio capitis dicat, ibi Prophetam promiscue
+          <lb ed="#P" n="104"/>loqui de visibili principe Tyri, et invisibili, id
+          <lb ed="#P" n="105"/>est, daemone; nihilominus haec verba: 
+          Fleva<lb break="no" ed="#P" n="106"/>tum est cor tuum, de solo diabolo putat esse
+          <lb ed="#P" n="107"/>intelligenda: et multum favet Hieronymus,
+          <lb ed="#P" n="108"/>Isa 54, circa finem, ubi stultum dicit esse
+          <lb ed="#P" n="109"/>putare, haec omnia de aliquo tantum homine
+          <lb ed="#P" n="110"/>dici.
+        </p>
+        <p xml:id="szdada-x21248-d1e681">
+          <pb ed="#P" n="845"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>9. Vera expositio primario de Rege 
+          Tyri<lb break="no" ed="#P" n="2"/>secundario de daemone ad litteram locum 
+          inter<lb break="no" ed="#P" n="3"/>pretatur. — Sed nihilominus idem de hoc 
+          tes<lb break="no" ed="#P" n="4"/>timonio, quod de praecedenti sentiendum est,
+          <lb ed="#P" n="5"/>nam de humano Principe ad litteram, ac 
+          pri<lb break="no" ed="#P" n="6"/>mario loquebatur Propheta: per occasionem
+          <lb ed="#P" n="7"/>autem transit ad Luciferi superbiam, et lapsum
+          <lb ed="#P" n="8"/>commemorandum, loquendo de uno in 
+          per<lb break="no" ed="#P" n="9"/>sona alterius: et e converso casum unius per
+          <lb ed="#P" n="10"/>alterius lapsum et superbiam explicando: ita
+          <lb ed="#P" n="11"/>ut sub eisdem verbis de utroque loquatur,
+          <lb ed="#P" n="12"/>ut ibi optime exponit Hierony mus, et Isai. 14,
+          <lb ed="#P" n="13"/>et similiter intelligendus est in citato loco: ita
+          <lb ed="#P" n="14"/>ut non putet, stultum esse illa verba de 
+          homi<lb break="no" ed="#P" n="15"/>ne interpretari: sed ita interpretari de homine,
+          <lb ed="#P" n="16"/>ut Angelus excludatur, et in eodem sensu 
+          in<lb break="no" ed="#P" n="17"/>differenter loquitur, epist. 146, ad Damas., 
+          cir<lb break="no" ed="#P" n="18"/>ca finem, eodemque modo Augustinus, locis 
+          su<lb break="no" ed="#P" n="19"/>pra citatis, pari ratione hunc, et praecedentem
+          <lb ed="#P" n="20"/>locum Isaia interpretatur, ut patet in dicto
+          <lb ed="#P" n="21"/>lib. 3, de Doct. Christ., cap. 37, et lib. 11,
+          <lb ed="#P" n="22"/>Genes. ad lit., cap. 25 et 11, de Civit., c. 15.
+        </p>
+        <p xml:id="szdada-x21248-d1e736">
+          <lb ed="#P" n="23"/>10. Accedit Tertullianus.—Sed etiam multi
+          <lb ed="#P" n="24"/>Patres affirmant, in citatis verbis, loqui 
+          Eze<lb break="no" ed="#P" n="25"/>chielem de Angelo peccante per superbiam,
+          <lb ed="#P" n="26"/>licet hominem non excludant; sic Tertullianus,
+          <lb ed="#P" n="27"/>lib. 2, Cant. Marci, cap. 10, ex ulis verbis
+          <lb ed="#P" n="28"/>convinci putat, Angelum prius fuisse bonum
+          <lb ed="#P" n="29"/>in die creationis suae, quam peccaret: et hunc
+          <lb ed="#P" n="30"/>putat esse sensum litteralem satis proprium,
+          <lb ed="#P" n="31"/>quamvis enim dicat, in persona Principis Tyri
+          <lb ed="#P" n="32"/>ad diabolum pronuntiatum: 7 es 
+          resignacu<lb break="no" ed="#P" n="33"/>lumn sinilitudinis, etc., nihilominus post omnia
+          <lb ed="#P" n="34"/>verba Prophetae adjungit: Que ad 
+          suggilla<lb break="no" ed="#P" n="35"/>tionem Angeli, non ad illius principis proprie
+          <lb ed="#P" n="36"/>pertinere manifestum est, ubi adverbium 
+          pro<lb break="no" ed="#P" n="37"/>grie, comparative intelligendum puto: quia
+          <lb ed="#P" n="38"/>licet verba Prophetae magna ex parte 
+          metapho<lb break="no" ed="#P" n="39"/>rica sint respectu utriusque, tamen facilius et
+          <lb ed="#P" n="40"/>proprius de Angelo, quam de homine 
+          dicun<lb break="no" ed="#P" n="41"/>tur. Simili modo Cyrillus Hierosoly mitanus,
+          <lb ed="#P" n="42"/>Cateches. 2, Illumin., eisdem verbis Ezechielis
+          <lb ed="#P" n="43"/>idem dogma comprobat, quod Angelus prius
+          <lb ed="#P" n="44"/>bonus fuerit, et libere peccaverit. Ambrosius,
+          <lb ed="#P" n="45"/>etiam, lib. de Paradiso, cap. 2; Principem (at)
+          <lb ed="#P" n="46"/>Tyri in figura accipimus diaboli, et Gregorius,
+          <lb ed="#P" n="47"/>lib. 32, Moral., cap. 18, alias 24, verba illa de
+          <lb ed="#P" n="48"/>diabolo late exponit, et praesertim expendit
+          <lb ed="#P" n="49"/>nomen illud, signaculum similitudinis Dei,
+          <lb ed="#P" n="50"/>tantum Lucifero per antonomasiam convenire,
+          <lb ed="#P" n="51"/>quod etiam habet Isidorus, lib. 1, de Sum. Bon.,
+          <lb ed="#P" n="52"/>cap. 10, ubi addit, per novem lapides ibi a 
+          Pro<lb break="no" ed="#P" n="53"/>pheta commemoratos novem choros 
+          Angelo<lb break="no" ed="#P" n="54"/>rum per metaphoram sgnificari, quem 
+          imita<lb break="no" ed="#P" n="55"/>tus est Beda, lib. Varar. quaest., quaest. 9; ac
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>denique Cyrillus, lib. 3, in Joan., cap. 29, 
+          di<lb break="no" ed="#P" n="57"/>cit illa verba: signaculum similitudinis, etc.,
+          <lb ed="#P" n="58"/>vel ut ipse legit, impressio similitudinis, 
+          ne<lb break="no" ed="#P" n="59"/>cessaria quadam ratione diabolo accommodari,
+          <lb ed="#P" n="60"/>in quo loquendi modo significat, non in 
+          pro<lb break="no" ed="#P" n="61"/>prio sensu, sed in mystico verba illa diabolo
+          <lb ed="#P" n="62"/>accommodari, sed cum addit, necessaria 
+          ra<lb break="no" ed="#P" n="63"/>tione hoc fieri, satis indicat sensum illum fuisse
+          <lb ed="#P" n="64"/>ab Spiritu sancto intentum, et a Propheta non
+          <lb ed="#P" n="65"/>ignoratum, quod ad minimum caeteri Patres
+          <lb ed="#P" n="66"/>allegati profitentur: nobisque sufficit, sive ille
+          <lb ed="#P" n="67"/>sensus litteralis dicatur, sive spiritualis. Mihi
+          <lb ed="#P" n="68"/>tamen, quod in priori testimonio dixi, hic etiam
+          <lb ed="#P" n="69"/>probabilior videtur, nimirum sensum hunc 
+          lit<lb break="no" ed="#P" n="70"/>teralem esse: nam in verbis ipsis, licet 
+          meta<lb break="no" ed="#P" n="71"/>phoricis immediate continetur, et est per se
+          <lb ed="#P" n="72"/>intentus, et ad rem, quam Propheta explicare
+          <lb ed="#P" n="73"/>volebat, saltem per modum exempli conducit,
+          <lb ed="#P" n="74"/>etiamsi in eisdem verbis alius sensus etiam 
+          lit<lb break="no" ed="#P" n="75"/>teralis, et toti contextui magis consentaneus
+          <lb ed="#P" n="76"/>contineatur: hoc enim nullum est 
+          inconve<lb break="no" ed="#P" n="77"/>niens, ut ex generalibus regulis explicandi
+          <lb ed="#P" n="78"/>Scripturam suppono.
+        </p>
+        <p xml:id="szdada-x21248-d1e862">
+          <lb ed="#P" n="79"/>11. Tertium testimonium ex Job. 41. — 
+          Ter<lb break="no" ed="#P" n="80"/>tium testimonium addi solet ex Job. 41, in
+          <lb ed="#P" n="81"/>fin.: Non est super terram potestas, quae 
+          com<lb break="no" ed="#P" n="82"/>paretur ei, quài factus est, ut nullum timeret :
+          <lb ed="#P" n="83"/>omne sublime videt; ipse est rem super omnes
+          <lb ed="#P" n="84"/>filios superbic. De quo testimonio circa prima
+          <lb ed="#P" n="85"/>verba ejus in superioribus tractavimus, an de
+          <lb ed="#P" n="86"/>daemone, vel de ceto grandi ad litteram 
+          intel<lb break="no" ed="#P" n="87"/>ligantur; sed ut verum sit, propriissimum, et
+          <lb ed="#P" n="88"/>proximum sensum esse de balaena, ut late ibi
+          <lb ed="#P" n="89"/>Pineda prosequitur; nihilominus 
+          probabilissi<lb break="no" ed="#P" n="90"/>mum est, sub descriptione illius ceti, et 
+          pro<lb break="no" ed="#P" n="91"/>prietatum ejus, Spiritum sanctum 
+          proprieta<lb break="no" ed="#P" n="92"/>tes daemonis adumbrasse; nam, sicut Paulus
+          <lb ed="#P" n="93"/>ait: IVumnquid de bobus cura est Deo, Cor. S,
+          <lb ed="#P" n="94"/>ita nos dicere possumus, numquid propter 
+          so<lb break="no" ed="#P" n="95"/>lam notitiam cujusdam piscis tam multa Deus
+          <lb ed="#P" n="96"/>locutus est? Credibile ergo est, per illud 
+          vo<lb break="no" ed="#P" n="97"/>luisse daemonem etiam adumbrare; atque ita
+          <lb ed="#P" n="98"/>superbiam daemonis non male testimonio illo
+          <lb ed="#P" n="99"/>comprobari, ut late prosequitur Gregorius,
+          <lb ed="#P" n="100"/>lib. 34, Moral., cap. 17 et 18, alias 15, et 
+          se<lb break="no" ed="#P" n="101"/>quentibus. Videri autem potest, etiam illo 
+          sen<lb break="no" ed="#P" n="102"/>su supposito, inde non probari daemonem per
+          <lb ed="#P" n="103"/>superbiam cecidisse, vel tempore viae per 
+          su<lb break="no" ed="#P" n="104"/>perbiam peccasse, sed ad summum hunc esse
+          <lb ed="#P" n="105"/>superbissimum. Sed consideranda sunt verba
+          <lb ed="#P" n="106"/>illa, quibus non tantum superbus dicitur, sed
+          <lb ed="#P" n="107"/>rez super omnes filios superbie, id est, pater,
+          <lb ed="#P" n="108"/>et dux omnium superborum, unde recte 
+          colli<lb break="no" ed="#P" n="109"/>gitur, ipsum daemonem superbiendo corruisse.
+        </p>
+        <p xml:id="szdada-x21248-d1e932">
+          <lb ed="#P" n="110"/>12. Quartum testimonium ex Luc. 10. —
+          <pb ed="#P" n="846"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Quartum testimonium est illud Luc. 10. 
+          Vide<lb break="no" ed="#P" n="2"/>bam Satanam sicut fulgur de celo cadentem,
+          <lb ed="#P" n="3"/>ibi enim loqui Christum de primo lapsu 
+          Ange<lb break="no" ed="#P" n="4"/>lorum per peccatum, Patres communiter 
+          inter<lb break="no" ed="#P" n="5"/>pretantur: et multi ex allegatis per haec verba
+          <lb ed="#P" n="6"/>explicant illa Isaiae: Quomodo cecidisti de colo,
+          <lb ed="#P" n="7"/>Lucifer ,ut videre licet in Hierony mo, Prospero
+          <lb ed="#P" n="8"/>et Origene supra. Gregorius 23, Moral., cap. 7,
+          <lb ed="#P" n="9"/>alias 4, et nomine Augustini, lib, 1, de 
+          Mi<lb break="no" ed="#P" n="10"/>rab. sacrae Scripturae, lib. 2; et Cyprianus,
+          <lb ed="#P" n="11"/>lib. de Cardin. Christi oper., cap. de Jejunio,
+          <lb ed="#P" n="12"/>et Tentat. Christi, et Ambrosius, lib. de Fuga
+          <lb ed="#P" n="13"/>seeculi, cap. 7, Chrysostomus, homil. 10, de
+          <lb ed="#P" n="14"/>Poenit., et quoad hanc partem approbat 
+          expo<lb break="no" ed="#P" n="15"/>sitionem hanc Theophylactus licet addat aliam,
+          <lb ed="#P" n="16"/>scilicet, ut Christus loquatur de casu daemonis
+          <lb ed="#P" n="17"/>ab illo statu honoris, et potentiae, quem prius
+          <lb ed="#P" n="18"/>in hominibus habebat, et ea quo per suum 
+          ad<lb break="no" ed="#P" n="19"/>ventum ejectus est, quae fuit expositio Basili,
+          <lb ed="#P" n="20"/>in homil: Quod Deus non sit auctor malorum,
+          <lb ed="#P" n="21"/>estque probabilis, sed prior est probabilior: et
+          <lb ed="#P" n="22"/>litterae, ac proprietati verborum magis 
+          consen<lb break="no" ed="#P" n="23"/>tanea, ut etiam Toletus notavit. Adduntque
+          <lb ed="#P" n="24"/>fere dicti Patres (Theophylactum excipio) 
+          dis<lb break="no" ed="#P" n="25"/>cipulos aliqua ductos elatione rediisse 
+          gauden<lb break="no" ed="#P" n="26"/>tes, quod spiritus subjicerunt eis, Christum
+          <lb ed="#P" n="27"/>vero exemplo daemonis, qui propter superbiam
+          <lb ed="#P" n="28"/>corruerat, eorum elationem reprimere 
+          voluis<lb break="no" ed="#P" n="29"/>se, quod maxime declarant Cyprianus, 
+          Hiero<lb break="no" ed="#P" n="30"/>nymus, et Gregorius, et consentit 
+          Chrysosto<lb break="no" ed="#P" n="31"/>mus, lib. de Virgin., cap. 36, dicens: 
+          Chris<lb break="no" ed="#P" n="32"/>tus nunquam eos laudat qui miracula faciunt .
+          <lb ed="#P" n="33"/>quin etium discipulos propter idipsum leitie
+          <lb ed="#P" n="34"/>elatos illis verbis ab hujusmodi animi voluptate
+          <lb ed="#P" n="35"/>deterret: Nolite gaudere, etc., et idem sentit,
+          <lb ed="#P" n="36"/>homiliaa trigesima tertia in Matthaeum, in fine,
+          <lb ed="#P" n="37"/>et Cyrillus, in Cathechesi 2, Illumin.
+        </p>
+        <p xml:id="szdada-x21248-d1e1021">
+          <lb ed="#P" n="38"/>13. Objicit Theophylactus. — Respondetur. —
+          <lb ed="#P" n="39"/>At vero Theophylactus negat, gaudium illud
+          <lb ed="#P" n="40"/>discipulorum fuisse ex elatione, aut 
+          reprehen<lb break="no" ed="#P" n="41"/>sibile, quia non in se, sed inChristo 
+          gloriaban<lb break="no" ed="#P" n="42"/>tur, et gaudebant; expresse enim dixerunt:
+          <lb ed="#P" n="43"/>ecce daemonia subjiciuntur nobis in nomine
+          <lb ed="#P" n="44"/>tuo, et idem sentit abbas Isaias, Oratione 
+          de<lb break="no" ed="#P" n="45"/>cima sexta, ad fratres, in tomo secundo 
+          Bi<lb break="no" ed="#P" n="46"/>bliothecae. Respondemus autem, quod hcet
+          <lb ed="#P" n="47"/>recognoscerent potestatem sibi datam esse a
+          <lb ed="#P" n="48"/>Christo, et in ejus virtute habuisse efticaciam;
+          <lb ed="#P" n="49"/>nihilominus potuerunt cum elatione aliqua,
+          <lb ed="#P" n="50"/>vel gloria vana gaudere de potestate sibi data,
+          <lb ed="#P" n="51"/>et de usu ejus tali, qui effectum habuerit, cujus
+          <lb ed="#P" n="52"/>ipsi boni ministri fuissent, sed instat Toletus,
+          <lb ed="#P" n="53"/>ibi, annot. 24,in hoc sequens Theophylactum,
+          <lb ed="#P" n="54"/>quia illud gaudium de se non erat malum,
+          <lb ed="#P" n="55"/>quia erat de re bona; et in Evangelio non si-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gnificatur, quod fuerit prava intentione, vel
+          <lb ed="#P" n="57"/>cum alia prava circumstantia conceptum; 
+          er<lb break="no" ed="#P" n="58"/>go non est talis malitia praesumenda, nec 
+          dis<lb break="no" ed="#P" n="59"/>cipulis tribuenda. Respondeo, ex Patribus 
+          al<lb break="no" ed="#P" n="60"/>legatis, quamvis Evangelista narrans gaudium,
+          <lb ed="#P" n="61"/>non explicaverit, quale fuerit: nihilominus
+          <lb ed="#P" n="62"/>Christum inspectorem cordium aliquam 
+          ela<lb break="no" ed="#P" n="63"/>tionem in suis discipulis, vel omnibus, vel 
+          ali<lb break="no" ed="#P" n="64"/>quibus inspexisse et hoc significasse in 
+          repre<lb break="no" ed="#P" n="65"/>hensione tacita, quam discipuls dedit in dictis
+          <lb ed="#P" n="66"/>verbis: Videlam Satanam tanquam fulgur de
+          <lb ed="#P" n="67"/>celo cadentem, non enim videntur posse illa 
+          ver<lb break="no" ed="#P" n="68"/>ba melioremintelligentiam, et connexionem 
+          ha<lb break="no" ed="#P" n="69"/>bere cum verbis discipulorum, et cum illis 
+          se<lb break="no" ed="#P" n="70"/>quentibus: Z'cce dedi vobis potestatem, etc., 
+          ve<lb break="no" ed="#P" n="71"/>rumtamen in hoc nolite gaudere.
+        </p>
+        <p xml:id="szdada-x21248-d1e1099">
+          <lb ed="#P" n="72"/>14. Quintum testimonium ex 1. Timoth. —
+          <lb ed="#P" n="73"/>Quintum testimonium est Pauli 1, Tim. 3,
+          <lb ed="#P" n="74"/>ubi cum dixisset, neophytum non esse in 
+          Epis<lb break="no" ed="#P" n="75"/>copum assumendum, rationem reddit: Ne in
+          <lb ed="#P" n="76"/>superbiam elatus in judicium indicat diaboli,
+          <lb ed="#P" n="77"/>significans, diabolum judicatum, et damnatum
+          <lb ed="#P" n="78"/>esse propter superbiam: et ita qui in 
+          super<lb break="no" ed="#P" n="79"/>biam effertur, diaboli judicium participare,
+          <lb ed="#P" n="80"/>sicut et culpam. Ita exposuit rationem illam
+          <lb ed="#P" n="81"/>Chrysostomus, homil. 10, dicens: Jye elatus,
+          <lb ed="#P" n="82"/>etc., hoc est, ne eamdem incurrat 
+          damnatio<lb break="no" ed="#P" n="83"/>nem, quam ille per arrogantiam pertulit. 
+          Si<lb break="no" ed="#P" n="84"/>milia habet homil. 3, in verba Isaiae, Vidi 
+          Do<lb break="no" ed="#P" n="85"/>minun, etc., et homil. 15, ac 66, in Matth.
+          <lb ed="#P" n="86"/>et 8, in Joan., ex his verbis Pauli, superbiam
+          <lb ed="#P" n="87"/>diaboli probat. Consentiunt Theodoretus et
+          <lb ed="#P" n="88"/>Theophylactus, ibi: et iterum Theodoretus,
+          <lb ed="#P" n="89"/>l. 5, Haeret. fab., seu Epitome divino decreto,
+          <lb ed="#P" n="90"/>cap de diabolo. Idem significat Hieronymus,
+          <lb ed="#P" n="91"/>Epist. 83, ad Oceanum: ubi hunc tractans
+          <lb ed="#P" n="92"/>locum, subdit, in fine: Judicium, et ruina 
+          dia<lb break="no" ed="#P" n="93"/>boli, nulli dubium, quin arrogantia sit. 
+          Inci<lb break="no" ed="#P" n="94"/>dunt in eam, qui in guuncto horae, nondum 
+          dis<lb break="no" ed="#P" n="95"/>cipuli, jam magistri sunt. Eamdemque 
+          sen<lb break="no" ed="#P" n="96"/>tentiam habet Dasilius, in Constit. monast.,
+          <lb ed="#P" n="97"/>c. 10. Et licet Apostolum non alleget, ad illius
+          <lb ed="#P" n="98"/>verba sine dubio alludit; unde hoc etiam 
+          tes<lb break="no" ed="#P" n="99"/>timonium valde probabile est. Quocirca, licet
+          <lb ed="#P" n="100"/>nullum ex his testimoniis evidenter convincat,
+          <lb ed="#P" n="101"/>quia habent alias probabiles expositiones, et
+          <lb ed="#P" n="102"/>ideo non faciant assertionem absolute de fide,
+          <lb ed="#P" n="103"/>nihilominus adjunctis Patrum testimoniis, et
+          <lb ed="#P" n="104"/>considerata Scripturarum consonantia, et
+          <lb ed="#P" n="105"/>multiplici insinuatione, rem faciunt satis 
+          cer<lb break="no" ed="#P" n="106"/>tam: et ut talem videntur illam Patres astruere,
+          <lb ed="#P" n="107"/>nec est, quod ratione illam probemus, cum res
+          <lb ed="#P" n="108"/>facti sit, et non juris: satis ergo est, quod tale
+          <lb ed="#P" n="109"/>peccati genus sit possibile: et valde 
+          propor<lb break="no" ed="#P" n="110"/>tionatum spirituali natura, et in capite se-
+          <pb ed="#P" n="847"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quenti magis hoc confirmabitur, et in eodem,
+          <lb ed="#P" n="2"/>ac sequentibus excludentur objectiones, quae
+          <lb ed="#P" n="3"/>contra veritatem hanc possunt occurrere.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

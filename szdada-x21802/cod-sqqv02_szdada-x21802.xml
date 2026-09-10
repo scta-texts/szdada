@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="864"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x21802"><!-- l7c11 -->
+        <head xml:id="szdada-x21802-Hd1e101">Caput 11</head>
+        <head xml:id="szdada-x21802-Hd1e103" type="question-title">Utrum primum peccatum luciferi fuerit inordinatus appetitus supernaturalis beatitudinis</head>
+        <p xml:id="szdada-x21802-d1e106">
+          <lb ed="#P" n="58"/>CAPUT XI.
+          <lb ed="#P" n="59"/>UTRUM PRIMUM PECCATUM LUCIFERI FUERIT 
+          INOR<lb break="no" ed="#P" n="60"/>DINATUS APPETITUS SUPERNATURALIS 
+          BEATITU<lb break="no" ed="#P" n="61"/>DINIS.
+        </p>
+        <p xml:id="szdada-x21802-d1e117">
+          <lb ed="#P" n="62"/>1. Prima sententia affirmans. — Theologi
+          <lb ed="#P" n="63"/>naturalem beatitudinem dixerunt credi posse
+          <lb ed="#P" n="64"/>objectum superbiae angelicae, idem sub 
+          disjunc<lb break="no" ed="#P" n="65"/>tione de supernaturah beatitudine senserunt.
+          <lb ed="#P" n="66"/>Ita D. Thomas supra et consentiunt fere 
+          expo<lb break="no" ed="#P" n="67"/>sitores ejus, et Hervaeus, Egidius, Richardus,
+          <lb ed="#P" n="68"/>et Dassolis, capite praecedenti, allegati. Et 
+          Sco<lb break="no" ed="#P" n="69"/>tus non dissentit, nam peccatum Angeli 
+          decla<lb break="no" ed="#P" n="70"/>rat non solum per complacentiam in bono 
+          ha<lb break="no" ed="#P" n="71"/>bito, sed etiam per appetitum beatitudinis non
+          <lb ed="#P" n="72"/>habitae, quae in Angelis non fuit, nisi 
+          superna<lb break="no" ed="#P" n="73"/>turalis. Discrepat vero, quatenus peccatum per
+          <lb ed="#P" n="74"/>talem concupiscentiam commissum, non putat
+          <lb ed="#P" n="75"/>fuisse superbiam, sed nescio quam luxuriam;
+          <lb ed="#P" n="76"/>in quo cum illo convenit Gabriel, contra quam
+          <lb ed="#P" n="77"/>partem jam satis dictum est. Praeter hos vero
+          <lb ed="#P" n="78"/>doctores, hanc partem solam docent in 2,d 5,
+          <lb ed="#P" n="79"/>Albertus, art. 3, Durandus, quaest. 1, num. 14,
+          <lb ed="#P" n="80"/>Argentina, dist. 6, quaest. 1, art. 1, et clarius
+          <lb ed="#P" n="81"/>in 4. Idem dicit probabile ibi Major, quaest. 2,
+          <lb ed="#P" n="82"/>quamvis absolute totam hanc rem, ut nobis
+          <lb ed="#P" n="83"/>ignotam relinquat. Idem sentiunt scholastici,
+          <lb ed="#P" n="84"/>qui dicunt Luciferum peccasse volendo 
+          conse<lb break="no" ed="#P" n="85"/>qui beatitudinem sine meritis: nam licet non
+          <lb ed="#P" n="86"/>addant fuisse supernaturalem beatitudinem,
+          <lb ed="#P" n="87"/>tamen id non fuisse peccatum, nisi respectu
+          <lb ed="#P" n="88"/>illius. Et ita loquitur Alensis, 2 part., q. 98,
+          <lb ed="#P" n="89"/>membr. 3 toto, Altisiodorensis, libr. 2, sum.,
+          <lb ed="#P" n="90"/>tract. 2. cap. 2, Marsilius etiam in2, quaest. 5,
+          <lb ed="#P" n="91"/>art. 2. concl. 6, illum modum loquendi 
+          imita<lb break="no" ed="#P" n="92"/>tur: sed magis accedit ad opinionem tractatam
+          <lb ed="#P" n="93"/>capite praecedenti.
+        </p>
+        <p xml:id="szdada-x21802-d1e189">
+          <lb ed="#P" n="94"/>2. Probatur haeec sententia. — Probari solet
+          <lb ed="#P" n="95"/>haec sententia ex Patribus: sed illos 
+          commo<lb break="no" ed="#P" n="96"/>dius inferius expendemus: nunc solum 
+          ratio<lb break="no" ed="#P" n="97"/>ne suadetur haec sententia, quia Angelus pec- :
+          <lb ed="#P" n="98"/>cavit inordinate appetendo excellentiam in
+          <lb ed="#P" n="99"/>sua beatitudine naturali, ut a nobis dictum
+          <lb ed="#P" n="100"/>est: ergo in supernaturali. Consequentia est
+          <lb ed="#P" n="101"/>ratione ex Scoto desumpta: quia Angelus 
+          pec<lb break="no" ed="#P" n="102"/>cavit in appetendo bonum delectabile, quia
+          <lb ed="#P" n="103"/>non potuit peccare appetendo honestum qua
+          <lb ed="#P" n="104"/>tale est, ut est per se notum, nec appetendo
+          <lb ed="#P" n="105"/>utile; quia utile non appetitur nisi propter
+          <lb ed="#P" n="106"/>aliud propter se amatum: ergo peccavit ap-
+          <pb ed="#P" n="865"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>petendo delectabile: ergo primo peccavit 
+          ap<lb break="no" ed="#P" n="2"/>petendo summe delectabile, quod est 
+          beatitu<lb break="no" ed="#P" n="3"/>do. Probatur haec ultima consequentia: quia
+          <lb ed="#P" n="4"/>unaquaeque potentia primo, ac per se appetit
+          <lb ed="#P" n="5"/>id, quod sibi est maxime delectabile intra 
+          lati<lb break="no" ed="#P" n="6"/>tudinem objecti sui, ut gustus summe 
+          delecta<lb break="no" ed="#P" n="7"/>bile gustui, et visus visui: ergo voluntas 
+          pri<lb break="no" ed="#P" n="8"/>mo fertur in beatitudinem, quae sibi maxime
+          <lb ed="#P" n="9"/>delectabilis est. Maxime vero confirmatur haec
+          <lb ed="#P" n="10"/>ratio, quia non est facile aliam excellentiam
+          <lb ed="#P" n="11"/>cogitare, quam Angelus potuerit inordinate
+          <lb ed="#P" n="12"/>appetere, praeter supernaturalem 
+          beatitudi<lb break="no" ed="#P" n="13"/>nem: quia omnem aliam sibi possibilem jam
+          <lb ed="#P" n="14"/>habebat, et impossibilem appetere non poterat :
+          <lb ed="#P" n="15"/>quod si alia fingatur fuisse possibilis Angelo,
+          <lb ed="#P" n="16"/>praeter supernaturalem beatitudinem, non 
+          ta<lb break="no" ed="#P" n="17"/>men erit secundum potentiam Dei ordinatam,
+          <lb ed="#P" n="18"/>sed secundum absolutam. Verisimilius autem
+          <lb ed="#P" n="19"/>est, cogitasse magis Angelum de summa 
+          ex<lb break="no" ed="#P" n="20"/>cellentia sibi possibili simpliciter, et proxime
+          <lb ed="#P" n="21"/>conjuncta naturae suae, quam de alia 
+          quacum<lb break="no" ed="#P" n="22"/>que: hoc autem est sola supernaturalis 
+          beati<lb break="no" ed="#P" n="23"/>tudo: ergo.
+        </p>
+        <p xml:id="szdada-x21802-d1e275">
+          <lb ed="#P" n="24"/>3. Proponitur tota ratio difficultatis contra
+          <lb ed="#P" n="25"/>hanc opinionem. —In hac vero sententia 
+          exph<lb break="no" ed="#P" n="26"/>canda statim occurrit difficultas in praecedenti
+          <lb ed="#P" n="27"/>capite proposita, nimirum qualis excessus, vel
+          <lb ed="#P" n="28"/>inordinatio inveniri potuerit in appetitu 
+          bea<lb break="no" ed="#P" n="29"/>titudinis supernaturalis, propter quam 
+          super<lb break="no" ed="#P" n="30"/>biae malitiam Angelus contraxerit: habet enim
+          <lb ed="#P" n="31"/>eamdem, vel majorem rationem difficultatis.
+          <lb ed="#P" n="32"/>Quia beatitudo supernaturalis est per se 
+          maxi<lb break="no" ed="#P" n="33"/>me amabils; unde ejus appetitus, desiderium,
+          <lb ed="#P" n="34"/>vel intentio obtinendi illam sunt honestissima:
+          <lb ed="#P" n="35"/>imo cadunt aliquo modo sub praeceptum, cum
+          <lb ed="#P" n="36"/>omnes viatores tam Angeli, quam homines ad
+          <lb ed="#P" n="37"/>illam beatitudinem aspirare teneantur: ergo
+          <lb ed="#P" n="38"/>ex parte objecti non potuit appetitus ejus esse
+          <lb ed="#P" n="39"/>superbia. Nec etiam ex circumstantiis, quia
+          <lb ed="#P" n="40"/>non ex parte finis, cum illa beatitudo non
+          <lb ed="#P" n="41"/>propter alium finem, sed propter seipsam 
+          ap<lb break="no" ed="#P" n="42"/>petatur, et eo ipso, quod propter se appetitur,
+          <lb ed="#P" n="43"/>propter Deum appetitur; quia ipse Deus est
+          <lb ed="#P" n="44"/>intrinsecum objectum illius beatitudinis, ac
+          <lb ed="#P" n="45"/>proinde in ipsamet beatitudo principalter 
+          ap<lb break="no" ed="#P" n="46"/>petitur. Nec etiam ex parte modi: quia quoad
+          <lb ed="#P" n="47"/>modum intensionis illa beatitudo est maxime
+          <lb ed="#P" n="48"/>appetibilis toto conatu possibili: ex aliis vero
+          <lb ed="#P" n="49"/>circumstantiis non potest cogitari excessus, vel
+          <lb ed="#P" n="50"/>inordinatio quoad modum appetendi, qui 
+          pos<lb break="no" ed="#P" n="51"/>sibihis fuerit Angelo sine errore, qui in eo 
+          prae<lb break="no" ed="#P" n="52"/>cesserit: et fuerit causa, vel occasio talis 
+          ex<lb break="no" ed="#P" n="53"/>cessus, ut discurrendo per varios modos, qui
+          <lb ed="#P" n="54"/>excogitati sunt, patebit. Cum ergo hujusmodi
+          <lb ed="#P" n="55"/>error in Angelis admittendus non sit, difficile
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>videtur, hunc modum superbiae circa tale 
+          ob<lb break="no" ed="#P" n="57"/>jectum explicare: et ideo varii modi 
+          excogi<lb break="no" ed="#P" n="58"/>tati sunt, quos expendere oportebit.
+        </p>
+        <p xml:id="szdada-x21802-d1e356">
+          <lb ed="#P" n="59"/>4. Quo pacto aliqui occurrant propositae 
+          dif<lb break="no" ed="#P" n="60"/>ficultati contra primam sententiam.— 
+          Eapli<lb break="no" ed="#P" n="61"/>catur ab AEgidio admittendo errorem in 
+          Ange<lb break="no" ed="#P" n="62"/>lis. — Primus valde communis est, excessisse
+          <lb ed="#P" n="63"/>Luciferum volendo habere supernaturalem
+          <lb ed="#P" n="64"/>beatitudinem suis viribus naturalibus, sine
+          <lb ed="#P" n="65"/>auxilio gratiae, vel meritis, totum hoc 
+          expres<lb break="no" ed="#P" n="66"/>se, ac formaliter ex parte objecti appetendo.
+          <lb ed="#P" n="67"/>Ita tenet aperte Agidius supra, quem in hoc
+          <lb ed="#P" n="68"/>Vasquez sequitur, tribuitque hanc opinionem
+          <lb ed="#P" n="69"/>D. Thomsae, Bonaventurae, Alensi, et aliis 
+          an<lb break="no" ed="#P" n="70"/>tiquioribus, quia cum aliud, inquit, non 
+          ex<lb break="no" ed="#P" n="71"/>plicent, ita sunt interpretandi, de quo postea
+          <lb ed="#P" n="72"/>dicam. Nunc res ipsa examinanda est. Diversa
+          <lb ed="#P" n="73"/>tamen via dicti duo auctores procedunt. Nam
+          <lb ed="#P" n="74"/>JEgidius ingenue fatetur Angelum errore in
+          <lb ed="#P" n="75"/>ilam animi elationem devenisse; nimirum
+          <lb ed="#P" n="76"/>quia credidit Lucifer, vel existimare potuit se
+          <lb ed="#P" n="77"/>posse viribus naturalibus ad visionem DEI
+          <lb ed="#P" n="78"/>claram pervenire, et cum hac existimatione
+          <lb ed="#P" n="79"/>peccavit, illo modo appetendo supernaturalem
+          <lb ed="#P" n="80"/>beatitudinem, ponendo in objecto modum 
+          ip<lb break="no" ed="#P" n="81"/>sum, tanquam sibi possibilem, et ad suam 
+          ex<lb break="no" ed="#P" n="82"/>cellentiam pertinentem. Et pro hac sententia
+          <lb ed="#P" n="83"/>quantum ad illam partem de errore, qui in
+          <lb ed="#P" n="84"/>Angelo praecessit, allegant aliqui D. Thomam,
+          <lb ed="#P" n="85"/>1 p., quaest. 64, art. 2, ad 3, quia dicit, nunc
+          <lb ed="#P" n="86"/>daemonem in eodem superbo appetitu 
+          excel<lb break="no" ed="#P" n="87"/>lentiae perseverare, quantum ad affectum, licet
+          <lb ed="#P" n="88"/>non quantum ad hoc, quod credat se posse 
+          ob<lb break="no" ed="#P" n="89"/>tinere. Idemque habet Bonaventura, in 2, d.7,
+          <lb ed="#P" n="90"/>P. 4 art. 1, queest. 2.
+        </p>
+        <p xml:id="szdada-x21802-d1e428">
+          <lb ed="#P" n="91"/>5. Impugnatur hic modus Agidii. — Sed
+          <lb ed="#P" n="92"/>haec sententia probanda non est. Primo, quia
+          <lb ed="#P" n="93"/>omnes theologi supponunt Luciferum non 
+          pec<lb break="no" ed="#P" n="94"/>casse ex errore, ut supra visum est. Secundo,
+          <lb ed="#P" n="95"/>quia Lucifer in primo instanti credidit se posse
+          <lb ed="#P" n="96"/>obtinere beatitudinem excellentiorem, quam
+          <lb ed="#P" n="97"/>sit naturalis, et illam speravit per 
+          gra<lb break="no" ed="#P" n="98"/>tiam Dei: unde etiam consequenter credidit
+          <lb ed="#P" n="99"/>sine auxilio divinae gratiae, non posse illam
+          <lb ed="#P" n="100"/>obtinere: non potuit ergo in contrarium 
+          er<lb break="no" ed="#P" n="101"/>rorem postea incurrere, nisi per infidelitatem
+          <lb ed="#P" n="102"/>et haeresim. Sed nullus est, qui hoc peccatum
+          <lb ed="#P" n="103"/>Angelo tribuat, et fortasse reperiri non potest,
+          <lb ed="#P" n="104"/>praesertim in primo Angelo. Ergo non est illi
+          <lb ed="#P" n="105"/>talis affingendus error. Tertio videtur error ille
+          <lb ed="#P" n="106"/>contra rationem naturalem, et in Angelo fuisse
+          <lb ed="#P" n="107"/>contra evidens experimentum, quod in se 
+          per<lb break="no" ed="#P" n="108"/>cipiebat. Nam ipse videbat et comprehendebat
+          <lb ed="#P" n="109"/>suas naturales vires, et consequenter 
+          experieba<lb break="no" ed="#P" n="110"/>tur, seco nari quantum naturaliter poterat ad co
+          <pb ed="#P" n="866"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gnoscendum DEUM, et nihilominus non 
+          co<lb break="no" ed="#P" n="2"/>gnoscere illum intuitive; ergo contra hanc 
+          evi<lb break="no" ed="#P" n="3"/>dentiam et experientiam persuaderi non 
+          po<lb break="no" ed="#P" n="4"/>tuit, quod naturali virtute sua, beatitudinem
+          <lb ed="#P" n="5"/>supernaturalem in visione DEI positam, 
+          obti<lb break="no" ed="#P" n="6"/>nere posset. Et confirmatur: nam daemon nunc
+          <lb ed="#P" n="7"/>evidenter cognoscit se non posse videre Deum,
+          <lb ed="#P" n="8"/>et similiter cognoscit vires ejus naturales non
+          <lb ed="#P" n="9"/>esse diminutas, nec cognitionem naturalem
+          <lb ed="#P" n="10"/>fuisse impeditam per peccatum; ergo etiam
+          <lb ed="#P" n="11"/>ante peccatum evidenter cognovit, se non 
+          pos<lb break="no" ed="#P" n="12"/>se consequi visionem Dei per naturales vires;
+          <lb ed="#P" n="13"/>ergo non potuit unquam contrario errori 
+          as<lb break="no" ed="#P" n="14"/>sentiri. Neque D. Thomas, aut Bonaventura
+          <lb ed="#P" n="15"/>oppositum tenuerunt: aliud est enim credere
+          <lb ed="#P" n="16"/>se posse beatitudinem naturalem consequi ,
+          <lb ed="#P" n="17"/>aliud se posse illam consequi per sua 
+          natura<lb break="no" ed="#P" n="18"/>lia. Primum autem asserunt dicti sancti, ut
+          <lb ed="#P" n="19"/>ex verbis eorum constat, non vero 
+          secun<lb break="no" ed="#P" n="20"/>dum. Et illud quidem prius verissimum est,
+          <lb ed="#P" n="21"/>quia daemones crediderunt, illam beatitudinem
+          <lb ed="#P" n="22"/>sibi fuisse simpliciter possibilem, vel per 
+          gra<lb break="no" ed="#P" n="23"/>tiam, vel saltem abstrahendo a modo; nunc
+          <lb ed="#P" n="24"/>vero jam non apprehendunt illam, ut sibi 
+          pos<lb break="no" ed="#P" n="25"/>sibilem. Quod etiam hominibus damnatis, illis
+          <lb ed="#P" n="26"/>praesertim qui in via talem fidem habuerunt,
+          <lb ed="#P" n="27"/>contingit.
+        </p>
+        <p xml:id="szdada-x21802-d1e537">
+          <lb ed="#P" n="28"/>6. Hesponsio adversariorum, quod potuerit
+          <lb ed="#P" n="29"/>Angelus mnultipliciter errare. — Dici vero 
+          po<lb break="no" ed="#P" n="30"/>test argumentum convincere non potuisse 
+          Lu<lb break="no" ed="#P" n="31"/>ciferum probabiliter, vel apparenter 
+          existima<lb break="no" ed="#P" n="32"/>re, solis viribus suis naturalibus se posse 
+          efti<lb break="no" ed="#P" n="33"/>cere physice illam perfectionem, vel actum,
+          <lb ed="#P" n="34"/>in quo supernaturalis beatitudo consistit. Nam
+          <lb ed="#P" n="35"/>praeter repugnantiam dictam, nullum 
+          moti<lb break="no" ed="#P" n="36"/>vum, vel conjecturam ad hoc credendum 
+          ha<lb break="no" ed="#P" n="37"/>buit. Nihilominus tamen aliis modis potuisse
+          <lb ed="#P" n="38"/>errare, credendo se posse consequi 
+          beatitudi<lb break="no" ed="#P" n="39"/>nem per sua naturalia. Primo quidem id 
+          intel<lb break="no" ed="#P" n="40"/>ligendo, non physico, sed morali modo, id est,
+          <lb ed="#P" n="41"/>potuisse propriss meritis, quae sua libera 
+          vo<lb break="no" ed="#P" n="42"/>luntate poterat facere, illam beatitudinem 
+          ob<lb break="no" ed="#P" n="43"/>unere, sicut Pelagius existimavit. Nam licet
+          <lb ed="#P" n="44"/>beatitudo a solo Deo supernaturali virtute fieri
+          <lb ed="#P" n="45"/>possit, potuit Angelus credere hoc ipsum Dei
+          <lb ed="#P" n="46"/>opus sibi deberi propter bona opera libertate
+          <lb ed="#P" n="47"/>sua facta. Vel secundo potuit Lucifer 
+          existi<lb break="no" ed="#P" n="48"/>mare sibi esse debitam illam beatitudinem sine
+          <lb ed="#P" n="49"/>meritis novis, propter solam suae naturae 
+          ex<lb break="no" ed="#P" n="50"/>cellentiam. Vel denique potuit existimare, se
+          <lb ed="#P" n="51"/>posse naturaliter illam obtinere, tum ex parte
+          <lb ed="#P" n="52"/>capacitatis receptivae suae nature, tum ex
+          <lb ed="#P" n="53"/>parte proximae virtutis activae, saltem 
+          inchoa<lb break="no" ed="#P" n="54"/>tae, cui Deus cooperationem suam negare non
+          <lb ed="#P" n="55"/>debuisset. ,
+        </p>
+        <p xml:id="szdada-x21802-d1e600">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>7. Probatur id fuisse possibile.—CQuod 
+          au<lb break="no" ed="#P" n="57"/>tem omnibus his modis potuerit errare 
+          Ange<lb break="no" ed="#P" n="58"/>lus, probatur, quia in his omnibus modis 
+          de<lb break="no" ed="#P" n="59"/>ceptionis error cadit in materiam aliquo modo
+          <lb ed="#P" n="60"/>supernaturalem, et ideo ex natura rei non 
+          re<lb break="no" ed="#P" n="61"/>pugnat talem errorem in Angelo inveniri. Nec
+          <lb ed="#P" n="62"/>etiam repugnare potuit ex vi fidei, quam in
+          <lb ed="#P" n="63"/>primo instanti habuit, tum quia potuit illam
+          <lb ed="#P" n="64"/>mutare pro sua libertate: tum etiam, quia non
+          <lb ed="#P" n="65"/>constat habuisse Angelos in primo instanti
+          <lb ed="#P" n="66"/>revelationem expressam omnium istarum 
+          ve<lb break="no" ed="#P" n="67"/>ritatum supernaturalium, videlicet quod nemo
+          <lb ed="#P" n="68"/>possit per naturalia opera liberi arbitrii 
+          su<lb break="no" ed="#P" n="69"/>pernaturalem beatitudinem mereri, vel quod
+          <lb ed="#P" n="70"/>illa beatitudo non sit connaturalis, vel 
+          conna<lb break="no" ed="#P" n="71"/>turaliter debita: vel quod in natura creata non
+          <lb ed="#P" n="72"/>sit talis potestas eftectiva illius beatitudinis,
+          <lb ed="#P" n="73"/>cui concursus divinus ad illam in se 
+          eflicien<lb break="no" ed="#P" n="74"/>dam sit connaturaliter debitus. Nec denique
+          <lb ed="#P" n="75"/>hoc repugnaret ordini providentiae divina,
+          <lb ed="#P" n="76"/>quia ille error esset voluntarius in Angelo,
+          <lb ed="#P" n="77"/>quia non ex rei evidentia, sed ex voluntatis
+          <lb ed="#P" n="78"/>daeterminatione contingere potuit. Unde non
+          <lb ed="#P" n="79"/>esset sine culpa, quia illa voluntas, aut 
+          haere<lb break="no" ed="#P" n="80"/>sim contineret, aut saltem esset valde 
+          temera<lb break="no" ed="#P" n="81"/>ria et arrogans, et consequenter error non
+          <lb ed="#P" n="82"/>esset tanquam causa subsequentis culpae, sed
+          <lb ed="#P" n="83"/>etiam effectus malae voluntatis praecedentis.
+        </p>
+        <p xml:id="szdada-x21802-d1e665">
+          <lb ed="#P" n="84"/>8. Haec responsio non est improbabilis. —
+          <lb ed="#P" n="85"/>Non tamen satisfacit. — Vropter haec videri
+          <lb ed="#P" n="86"/>potest haec sententia, aliquo modo ex his
+          <lb ed="#P" n="87"/>explicata, non improbabilis. Et ego quidem
+          <lb ed="#P" n="88"/>fateor me non videre repugnantiam apertam
+          <lb ed="#P" n="89"/>in hoc, quod AÁngelus ante inordinatum 
+          appe<lb break="no" ed="#P" n="90"/>titum supernaturalis beatitudinis, aliquo ex
+          <lb ed="#P" n="91"/>dictis modis circa illam erraverit, et ex illo
+          <lb ed="#P" n="92"/>errore in illum inordinatum affectum 
+          proru<lb break="no" ed="#P" n="93"/>perit. Verumtamen imprimis non video 
+          pro<lb break="no" ed="#P" n="94"/>babilem rationem, vel conjecturam ad suspi- !
+          <lb ed="#P" n="95"/>candum, nedum judicandum talem errorem j
+          <lb ed="#P" n="96"/>in Angelo fuisse. Deinde illo etiam permisso,
+          <lb ed="#P" n="97"/>non satis defenditur, beatitudinem supernatu- 1
+          <lb ed="#P" n="98"/>ralem fuisse objectum primi peccati Angeli;,
+          <lb ed="#P" n="99"/>nam ante appetitum illum praecessit culpa :
+          <lb ed="#P" n="100"/>nam ille error non potuit contingere sine 
+          pec<lb break="no" ed="#P" n="101"/>cato, ut mox dicebam. Imo illud peccatum 
+          de<lb break="no" ed="#P" n="102"/>buit esse superbia, vel aliunde superbiam
+          <lb ed="#P" n="103"/>supponere, juxta resolutionem superius 
+          da<lb break="no" ed="#P" n="104"/>tam, quod primum peccatum Angeli fuit 
+          su<lb break="no" ed="#P" n="105"/>perbia. Ergo oportet aliud objectum ilhus
+          <lb ed="#P" n="106"/>puioris superbiae assignare praeter 
+          supernatu<lb break="no" ed="#P" n="107"/>ralem beatitudinem. Sed de peccato erroris
+          <lb ed="#P" n="108"/>vel haeresis, quomodo in Angelo fuerit, vel
+          <lb ed="#P" n="109"/>esse potuerit, dicemus inferius. Nunc ergo
+          <lb ed="#P" n="110"/>satis nobis est supponere primum peccatum
+          <pb ed="#P" n="867"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Angeli, cujus objectum investigamus, non 
+          pro<lb break="no" ed="#P" n="2"/>cessisse ex errore, quod supra probatum est.
+        </p>
+        <p xml:id="szdada-x21802-d1e736">
+          <lb ed="#P" n="3"/>9. Vasquez alia via difficultati occurrit.—
+          <lb ed="#P" n="4"/>Aliter igitur defendit illum modum explicandi
+          <lb ed="#P" n="5"/>dictam sententiam Vasquez supra: nimirum
+          <lb ed="#P" n="6"/>potuisse Angelum appetere beatitudinem 
+          su<lb break="no" ed="#P" n="7"/>pernaturalem sine meritis, hoc totum expresse
+          <lb ed="#P" n="8"/>in objecto ponendo sine praevio errore. 
+          Fun<lb break="no" ed="#P" n="9"/>datur in illo principio supra insinuato, quod
+          <lb ed="#P" n="10"/>voluntas potest moveri ab objecto simplici
+          <lb ed="#P" n="11"/>apprehensione proposito: Absque judicio,
+          <lb ed="#P" n="12"/>inquit, compositionis et divisionis in intellectu.
+          <lb ed="#P" n="13"/>Unde infert, potuisse Angelum apprehendere
+          <lb ed="#P" n="14"/>beatitudinem supernaturalem, tanquam sibi
+          <lb ed="#P" n="15"/>possibilem et convenientem, ut propriis 
+          viri<lb break="no" ed="#P" n="16"/>bus obtinendam, et totum hoc apprehendere,
+          <lb ed="#P" n="17"/>ut quamdam excellentiam suam, et ut talem
+          <lb ed="#P" n="18"/>illam appetere, et in hoc peccare nullo 
+          prae<lb break="no" ed="#P" n="19"/>vio errore. Quia in illa simplici apprehensione
+          <lb ed="#P" n="20"/>non est veritas, nec falsitas: unde nec 
+          decep<lb break="no" ed="#P" n="21"/>tio, vel error esse potuit.
+        </p>
+        <p xml:id="szdada-x21802-d1e780">
+          <lb ed="#P" n="22"/>10. Rejicitur hic modus Vasquii.—Sed 
+          hu<lb break="no" ed="#P" n="23"/>jus sententiae fundamentum in capite 
+          praeceden<lb break="no" ed="#P" n="24"/>ti improbatum a nobis est. Non enim credimus
+          <lb ed="#P" n="25"/>voluntatem, praesertim Angeli, posse moveri
+          <lb ed="#P" n="26"/>sine aliquo judicio, in quo veritas, vel falsitas
+          <lb ed="#P" n="27"/>inveniatur. Quia ut in intellectu Angeli sit 
+          ve<lb break="no" ed="#P" n="28"/>ritas, non est necessaria compositio actuum
+          <lb ed="#P" n="29"/>ex parte intellectus angelici, sufficit enim 
+          sim<lb break="no" ed="#P" n="30"/>plex actus, quo rem talem esse, vel non esse
+          <lb ed="#P" n="31"/>Angelus cognoscat, quod per actum 
+          simpli<lb break="no" ed="#P" n="32"/>cem facere posse, in libro secundo, ostensum
+          <lb ed="#P" n="33"/>est. Ut autem voluntas Angeli amet, vel 
+          desi<lb break="no" ed="#P" n="34"/>deret aliquod objectum, necesse est, ut 
+          prae<lb break="no" ed="#P" n="35"/>cedat cognitio illius sub ratione boni, non
+          <lb ed="#P" n="36"/>abstrahendo, vel praescindendo ( ut sic dicam)
+          <lb ed="#P" n="37"/>ab esse, vel non esse, sed cognoscendo hoc esse
+          <lb ed="#P" n="38"/>bonum cognoscenti, et appetere illud esse sibi
+          <lb ed="#P" n="39"/>conveniens. Nam sine tali cognitione 
+          quomo<lb break="no" ed="#P" n="40"/>do voluntas movebitur ad appetendum illud?
+          <lb ed="#P" n="41"/>At vero illa cognitio, sive sit per actum 
+          simpli<lb break="no" ed="#P" n="42"/>cem, sive compositum, intrinsece includit 
+          ju<lb break="no" ed="#P" n="43"/>cium. Accedit quod illa apprehensio simplex
+          <lb ed="#P" n="44"/>solum dicitur suflicere ad simplicem affectum
+          <lb ed="#P" n="45"/>voluntatis, qui ad peccatum Angeli 
+          expli<lb break="no" ed="#P" n="46"/>candum non sufticit, ut latius dicemus 
+          infe<lb break="no" ed="#P" n="47"/>rius tractando de appetitu absolutae 
+          aequahta<lb break="no" ed="#P" n="48"/>tis Dei.
+        </p>
+        <p xml:id="szdada-x21802-d1e841">
+          <lb ed="#P" n="49"/>11. Secundus modus principalis occurrendi
+          <lb ed="#P" n="50"/>difficultati. — Est ergo secundus principalis
+          <lb ed="#P" n="51"/>modus explicandi hanc sententiam, quod 
+          An<lb break="no" ed="#P" n="52"/>gelus appetierit supernaturalem beatitudinem
+          <lb ed="#P" n="53"/>sine meritis, non positive (ut sic dicam) 
+          appo<lb break="no" ed="#P" n="54"/>nendo illud additum in objecto, seu directe
+          <lb ed="#P" n="55"/>volendo illam negationem, sed ex parte affec-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tus ab illa praescindendo, id est, volendo 
+          abso<lb break="no" ed="#P" n="57"/>lute ipsam beatitudinem, non cogitando de
+          <lb ed="#P" n="58"/>meritis, nec volendo expresse habere 
+          beatitu<lb break="no" ed="#P" n="59"/>dinem per merita. Nam eo ipso, quod 
+          Ange<lb break="no" ed="#P" n="60"/>lus non voluit beatitudinem per merita, 
+          vir<lb break="no" ed="#P" n="61"/>tute voluit sine illis eam habere. Hunc dicendi
+          <lb ed="#P" n="62"/>modum tradit D. Thomas, siattente legatur, in
+          <lb ed="#P" n="63"/>dicta quaest. 63, art. 1, ad 4, conjungendo 
+          doc<lb break="no" ed="#P" n="64"/>trinam illius solutionis cum his quae docet in
+          <lb ed="#P" n="65"/>art. 3. Et ita illum exponunt, et sequuntur
+          <lb ed="#P" n="66"/>Hervaeus, Capreolus, Cajetanus, Ferrara, et
+          <lb ed="#P" n="67"/>alii Thomistae: et consentiunt Durandus, 
+          Ar<lb break="no" ed="#P" n="68"/>gentina et Altisiodorensis. Et probatur primo
+          <lb ed="#P" n="69"/>a sufficienti partium enumeratione, quia 
+          Lu<lb break="no" ed="#P" n="70"/>cifer peccavit appetendo supernaturalem 
+          bea<lb break="no" ed="#P" n="71"/>uitudinem modo indebito, et non expresse 
+          vo<lb break="no" ed="#P" n="72"/>lendo ipsum modum ex parte objecti, ut 
+          dic<lb break="no" ed="#P" n="73"/>tum est; ergo implicite, seu virtualiter volendo
+          <lb ed="#P" n="74"/>illum modum, utique voluntarie exercendo 
+          ta<lb break="no" ed="#P" n="75"/>lem actum sine tali modo.
+        </p>
+        <p xml:id="szdada-x21802-d1e904">
+          <lb ed="#P" n="76"/>12. Haec vero sententia habet difficultates
+          <lb ed="#P" n="77"/>tactas in praecedente. Prima, quia non constat
+          <lb ed="#P" n="78"/>de obligatione apponendi talem modum in 
+          de<lb break="no" ed="#P" n="79"/>siderio, vel appetitu supernaturalis 
+          beatitudi<lb break="no" ed="#P" n="80"/>nis, nimirum, ut expresse tanquam 
+          consequen<lb break="no" ed="#P" n="81"/>da per auxilia gratiae appetatur, modum illum,
+          <lb ed="#P" n="82"/>quasi partem objecti expresse volendo. Nam
+          <lb ed="#P" n="83"/>qui vult finem, non semper vult expresse, vel
+          <lb ed="#P" n="84"/>determinate media, sed potest simpliciter velle
+          <lb ed="#P" n="85"/>sanitatem, nihil cogitando de mediis, nec an
+          <lb ed="#P" n="86"/>a Deo, vel ab alio obtinenda. Et quotidie 
+          af<lb break="no" ed="#P" n="87"/>fectum gloriae habemus, non expresse 
+          volen<lb break="no" ed="#P" n="88"/>do illam per auxilia gratiae, nec de illis 
+          cogi<lb break="no" ed="#P" n="89"/>tando, et non propterea peccamus, quia illa
+          <lb ed="#P" n="90"/>non excludimus, hcet ab illis praescindamus.
+          <lb ed="#P" n="91"/>Imo eo ipso quod illa non excludimus, virtute
+          <lb ed="#P" n="92"/>illa volumus, quia talis finis ex natura sua ila
+          <lb ed="#P" n="93"/>postulat. Ergo si Lucifer nihil aliud in expresso
+          <lb ed="#P" n="94"/>objecto suae voluntatis habuit, quam 
+          superna<lb break="no" ed="#P" n="95"/>turalem beatitudinem, et formaliter non 
+          exclu<lb break="no" ed="#P" n="96"/>sit merita, vel auxilia gratiae; ergo nec 
+          virtua<lb break="no" ed="#P" n="97"/>liter illa exclusit; ergo in eo non peccavit.
+        </p>
+        <p xml:id="szdada-x21802-d1e954">
+          <lb ed="#P" n="98"/>13. Adversariorum evasiones varie 
+          eaclu<lb break="no" ed="#P" n="99"/>duntur. — Dices illum peculiari praecepto fuisse
+          <lb ed="#P" n="100"/>obligatum ad volendam tunc beatitudinem tali
+          <lb ed="#P" n="101"/>modo. Sed contra primo, quia licet demus, hoc
+          <lb ed="#P" n="102"/>praeceptum aliquando obligare, cum tamen sit
+          <lb ed="#P" n="103"/>affirmativum, non obligat pro semper; cur ergo
+          <lb ed="#P" n="104"/>dicemus obligasse pro illo instanti ? Dices 
+          ha<lb break="no" ed="#P" n="105"/>buisse de hoc peculiare praeceptum positivum
+          <lb ed="#P" n="106"/>Dei. At hoc est divinare, quia de tali praecepto
+          <lb ed="#P" n="107"/>non constat. Dices, non fuisse omnino 
+          positi<lb break="no" ed="#P" n="108"/>vum, sed connaturale gratiae viatoris, et 
+          obli<lb break="no" ed="#P" n="109"/>gasse pro illo instanti, quia erat ultimum viae.
+          <lb ed="#P" n="110"/>Sed contra hoc etiam obstat, quia jam Lucifer
+          <pb ed="#P" n="868"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in primo instanti illud praeceptum impleverat.
+          <lb ed="#P" n="2"/>Replicari vero potest, quia in secundo instanti
+          <lb ed="#P" n="3"/>cum plene deliberabat, tenebatur, quasi 
+          rati<lb break="no" ed="#P" n="4"/>ficare priorem voluntatem minus deliberatam,
+          <lb ed="#P" n="5"/>ut secum meritum consummaret. Sed licet hoc
+          <lb ed="#P" n="6"/>sit probabile, est valde incertum, et 
+          insufti<lb break="no" ed="#P" n="7"/>ciens ad propriam malitiam peccati Luciferi,
+          <lb ed="#P" n="8"/>ejusque gravitatem explicandam.
+        </p>
+        <p xml:id="szdada-x21802-d1e1006">
+          <lb ed="#P" n="9"/>14. Refellitur secundo per dilemma. — Unde
+          <lb ed="#P" n="10"/>argumentor secundo: quia vel Lucifer in illo
+          <lb ed="#P" n="11"/>secundo instanti consideravit beatitudinem 
+          il<lb break="no" ed="#P" n="12"/>lam non posse sine meritis gratiae obtineri,
+          <lb ed="#P" n="13"/>vel hoc non consideravit, sed totus fuit quasi
+          <lb ed="#P" n="14"/>absorptus in excellentia illius beatitudinis 
+          con<lb break="no" ed="#P" n="15"/>templanda. Si dicatur primum, non videtur
+          <lb ed="#P" n="16"/>credibile, Angelum considerando actualem 
+          mo<lb break="no" ed="#P" n="17"/>dum necessarium ad illam beatitudinem 
+          obti<lb break="no" ed="#P" n="18"/>nendam, nihil per voluntatem circa illum 
+          de<lb break="no" ed="#P" n="19"/>crevisse, et appetendo illam beatitudinem 
+          ab<lb break="no" ed="#P" n="20"/>straxisse per voluntatem ab illo modo, si actu
+          <lb ed="#P" n="21"/>illum considerabat. Unde dicti auctores non
+          <lb ed="#P" n="22"/>admittunt talem considerationem, sed potius
+          <lb ed="#P" n="23"/>aiunt, Luciferum id non considerasse, et ideo
+          <lb ed="#P" n="24"/>per incogitantiam peccasse. Et confirmatur:
+          <lb ed="#P" n="25"/>nam si actu consideravit, beatitudinem illam
+          <lb ed="#P" n="26"/>propter merita gratiae esse obtinendam, vel
+          <lb ed="#P" n="27"/>apprehendit illa, ut necessaria, vel ut non 
+          ne<lb break="no" ed="#P" n="28"/>cessaria, sed tantum ut possibilia, vel utilia.
+          <lb ed="#P" n="29"/>Si primum dicatur, impossibile fuit velle 
+          effi<lb break="no" ed="#P" n="30"/>caciter beatitudinem, et non media necessaria
+          <lb ed="#P" n="31"/>judicata: si vero dicatur secundum, ponitur
+          <lb ed="#P" n="32"/>error in Angelo, quod existimaverit 
+          beatitu<lb break="no" ed="#P" n="33"/>dinem illam posse sine meritis comparari. Nec
+          <lb ed="#P" n="34"/>enim dici potest, Angelum cogitasse de illis
+          <lb ed="#P" n="35"/>mediis. non cogitando, an essent necessaria,
+          <lb ed="#P" n="36"/>necne, sed praescindendo. Hoc enim est 
+          con<lb break="no" ed="#P" n="37"/>tra naturalem modum cognoscendi Angeli,
+          <lb ed="#P" n="38"/>nam uno intuitu perfecte deliberat, et 
+          cogno<lb break="no" ed="#P" n="39"/>scit medium, et qualitatem, vel necessitatem
+          <lb ed="#P" n="40"/>ejus, praeterquam quod gratis omnino dicitur,
+          <lb ed="#P" n="41"/>Angelum habentem actualem considerationem
+          <lb ed="#P" n="42"/>gratiae, et gloriae actu voluisse gloriam, et non
+          <lb ed="#P" n="43"/>gratiam, ejusque auxilia, sive illa ut 
+          necessa<lb break="no" ed="#P" n="44"/>ria, sive ut utilia consideraverit, quia illa
+          <lb ed="#P" n="45"/>omnia libere velle poterant, et omnia 
+          pertine<lb break="no" ed="#P" n="46"/>bant ad magnam perfectionem, erantque 
+          in<lb break="no" ed="#P" n="47"/>ter se connexa. Unde ergo dicere possumus
+          <lb ed="#P" n="48"/>illa omnia actu considerasse, et unum, ac non
+          <lb ed="#P" n="49"/>aliud, voluisse.
+        </p>
+        <p xml:id="szdada-x21802-d1e1098">
+          <lb ed="#P" n="50"/>15. Secunda pars dilemmatis. — Si autem
+          <lb ed="#P" n="51"/>altera pars, quae communis est defendatur, 
+          ni<lb break="no" ed="#P" n="52"/>mirum per inconsiderationem voluisse 
+          beatitu<lb break="no" ed="#P" n="53"/>dinem sine meritis, statim interrogandum 
+          oc<lb break="no" ed="#P" n="54"/>currit, an illa inconsideratio fuerit omnino 
+          na<lb break="no" ed="#P" n="55"/>turalis, et involuntaria, vel fuerit volita. Nam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>si primum dicatur, quidquid ex illa secutum
+          <lb ed="#P" n="57"/>fuit, non potuit ad peccatum imputari, quia
+          <lb ed="#P" n="58"/>ignorantia invincibilis, ita inconsideratio 
+          natu<lb break="no" ed="#P" n="59"/>ralis a peccato excusat. Si autem fuit volita;
+          <lb ed="#P" n="60"/>ergo praecessit cogitatio ejus; ergo non fuit
+          <lb ed="#P" n="61"/>omnino inconsiderata. Dices, praecessisse 
+          ali<lb break="no" ed="#P" n="62"/>quam cogitationem generalem, quae sufticeret
+          <lb ed="#P" n="63"/>ad indirectum voluntarium, non ad directum.
+          <lb ed="#P" n="64"/>Sed contra, nam illud voluntarium, 
+          indirec<lb break="no" ed="#P" n="65"/>tum debuit necessario fundari in aliquo directo,
+          <lb ed="#P" n="66"/>id est, in voluntate applicandi mentem ad
+          <lb ed="#P" n="67"/>aliam considerationem, ex qua dicta 
+          inconsi<lb break="no" ed="#P" n="68"/>deratio resultaverit: et tunc in tali voluntate
+          <lb ed="#P" n="69"/>erit prima Angeli malitia, non in alio actu
+          <lb ed="#P" n="70"/>appetendi, qui ex subsequenti inconsideratione
+          <lb ed="#P" n="71"/>sequitur. Sed responderi poterit, hoc 
+          pecca<lb break="no" ed="#P" n="72"/>tum tanquam unum cum subsequenti affectu
+          <lb ed="#P" n="73"/>inordinato computari, quia illa voluntas solum
+          <lb ed="#P" n="74"/>est mala, quatenus media inconsideratione,
+          <lb ed="#P" n="75"/>causa est talis defectus in beatitudinis 
+          appeti<lb break="no" ed="#P" n="76"/>tu. Quapropter hae duae rationes licet 
+          probabi<lb break="no" ed="#P" n="77"/>les sint, et ostendant communem illam 
+          sen<lb break="no" ed="#P" n="78"/>tentiam fundari satis non posse et diflicilem
+          <lb ed="#P" n="79"/>creditu esse, non tamen efticaciter convincunt
+          <lb ed="#P" n="80"/>falsam esse.
+        </p>
+        <p xml:id="szdada-x21802-d1e1170">
+          <lb ed="#P" n="81"/>16. Refelluntur tertio argumento, tripartito.
+          <lb ed="#P" n="82"/>Tertia vero ratio in praecedenti capite adducta
+          <lb ed="#P" n="83"/>non minorem efticaciam in praesenti habere
+          <lb ed="#P" n="84"/>videtur, quia juxta illam sententiam peccatum
+          <lb ed="#P" n="85"/>Luciferi fuisset peccatum omissionis, et non
+          <lb ed="#P" n="86"/>commissionis, multoque minus fuisset 
+          pecca<lb break="no" ed="#P" n="87"/>tum superbiae, nec admodum grave. Probatur
+          <lb ed="#P" n="88"/>sequela quoad singulas partes. Quia imprimis
+          <lb ed="#P" n="89"/>amor beatitudinis simplex (ut sic dicam ) seu
+          <lb ed="#P" n="90"/>absolutus, et praecisus a volitione mediorum,
+          <lb ed="#P" n="91"/>per quae acquirenda est, non est de se malus:
+          <lb ed="#P" n="92"/>ergo si aliquando quis peccat, sic amando
+          <lb ed="#P" n="93"/>beatitudinem, non peccat in eo, quod agit, sed
+          <lb ed="#P" n="94"/>in eo, quod non agit, quando plus agere 
+          tene<lb break="no" ed="#P" n="95"/>batur; ergo peccat peccato omissionis, et non
+          <lb ed="#P" n="96"/>commissionis. Sicut qui solvit quinque, cum
+          <lb ed="#P" n="97"/>septem solvere debet, omittendo tantum 
+          pec<lb break="no" ed="#P" n="98"/>cat, quia non in eo, quod facit, sed in eo quod
+          <lb ed="#P" n="99"/>non agit, delinquit. Sic autem peccavit 
+          Ange<lb break="no" ed="#P" n="100"/>lus juxta illam sententiam, ut ex dictis patet.
+          <lb ed="#P" n="101"/>Et signum optimum est, quia nisi supponatur
+          <lb ed="#P" n="102"/>praeceptum aftfirmativum obligans pro illomet
+          <lb ed="#P" n="103"/>instanti ad volendum expresse gloriam per
+          <lb ed="#P" n="104"/>merita, nulla ratio culpae in illo simplici amore
+          <lb ed="#P" n="105"/>beatitudinis invenietur; ergo signum est, totam
+          <lb ed="#P" n="106"/>illam culpam in omissione positam esse. Et 
+          de<lb break="no" ed="#P" n="107"/>claratur amplius, quia ille modus volendi per
+          <lb ed="#P" n="108"/>merita non est circumstantia necessaria ad 
+          ho<lb break="no" ed="#P" n="109"/>nestatem amoris beatitudinis, potiusque est
+          <lb ed="#P" n="110"/>quasi eftectus hujus amoris, ad eum modum,
+          <pb ed="#P" n="869"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quo electio est effectus intentionis: qui autem
+          <lb ed="#P" n="2"/>bonum finem intendendo, non eligit apta 
+          me<lb break="no" ed="#P" n="3"/>dia, quando tenetur eligere, non peccat 
+          com<lb break="no" ed="#P" n="4"/>mittendo, sed omittendo, et in universum,
+          <lb ed="#P" n="5"/>qui habet principium operandi sine operatione
+          <lb ed="#P" n="6"/>debita, per omissionem tantum peccat; ergo
+          <lb ed="#P" n="7"/>idem est in nostro proposito.
+        </p>
+        <p xml:id="szdada-x21802-d1e1257">
+          <lb ed="#P" n="8"/>17. Probatur secunda pars argumenti. —
+          <lb ed="#P" n="9"/>Unde probatur altera pars: nam etiamsi quis
+          <lb ed="#P" n="10"/>dicat illum appetitum beatitudinis esse 
+          inor<lb break="no" ed="#P" n="11"/>dinatum, eo quod careat illo expresso respectu
+          <lb ed="#P" n="12"/>ad talia media, scilicet merita, vel auxilia
+          <lb ed="#P" n="13"/>gratiae; et ideo contendat illum actum esse 
+          pec<lb break="no" ed="#P" n="14"/>catum commissionis. Nihilominus non erit
+          <lb ed="#P" n="15"/>peccatum superbiae, sed mahtia talis actus
+          <lb ed="#P" n="16"/>erit ejusdem rationis cum omissione, etiamsi
+          <lb ed="#P" n="17"/>materialiter (ut sic dicam) ratione actus 
+          voce<lb break="no" ed="#P" n="18"/>tur commissio. Sequela probatur, quia illud
+          <lb ed="#P" n="19"/>peccatum non est per appetitum excellentiae
+          <lb ed="#P" n="20"/>improportionatae, nec omissio illius relationis
+          <lb ed="#P" n="21"/>ad merita nascitur ex appetitu ejusdem 
+          beati<lb break="no" ed="#P" n="22"/>tudinis, vel alterius nimiae excellentiae, sed ex
+          <lb ed="#P" n="23"/>sola quadam inadvertentia, ut alii auctores 
+          fa<lb break="no" ed="#P" n="24"/>tentur; ergo ibi non intervenit malitia 
+          super<lb break="no" ed="#P" n="25"/>biae, quae appetitum inordinatum excellentiae
+          <lb ed="#P" n="26"/>requirit. Neque dici potest, illammet 
+          inconsi<lb break="no" ed="#P" n="27"/>derationem supponere in affectu beatitudinis
+          <lb ed="#P" n="28"/>aliquem excessum a quo oritur alius defectus
+          <lb ed="#P" n="29"/>omissionis, et ratione illius excessus esse 
+          su<lb break="no" ed="#P" n="30"/>perbiam, hoc (inquam) dici non potest, quia in
+          <lb ed="#P" n="31"/>illo appetitu beatitudinis, nec est excessus in
+          <lb ed="#P" n="32"/>ipso objecto, quia est de se optimum, nec in
+          <lb ed="#P" n="33"/>modo intensionis, quia ex hoc capite actus non
+          <lb ed="#P" n="34"/>fit malus, ut saepe dixi, nec in modo 
+          appretia<lb break="no" ed="#P" n="35"/>üonis, quia ex vi illius appetitus nullum 
+          prae<lb break="no" ed="#P" n="36"/>ceptum violatur, quia cum toto illo atfectu 
+          pos<lb break="no" ed="#P" n="37"/>set esse consideratio meritorum, et relatio ad
+          <lb ed="#P" n="38"/>illa: quod si omittitur, erit aliunde ex libertate
+          <lb ed="#P" n="39"/>voluntatis; ergo inde non fit ille amor 
+          beati<lb break="no" ed="#P" n="40"/>tudinis in se malus, vel etiamsi fieret, non 
+          ha<lb break="no" ed="#P" n="41"/>beret malitiam distinctam a suo effectu: non
+          <lb ed="#P" n="42"/>ergo supponitur in illo malitia superbiae.
+        </p>
+        <p xml:id="szdada-x21802-d1e1335">
+          <lb ed="#P" n="43"/>18. Probatur tertia pars argumenti. — Ex
+          <lb ed="#P" n="44"/>quo tandem concluditur ultima pars, nimirum
+          <lb ed="#P" n="45"/>tale peccatum non multum grave esse potuisse,
+          <lb ed="#P" n="46"/>quia solum esset, vel omissio cujusdam 
+          prae<lb break="no" ed="#P" n="47"/>cepti, quod non est de re multum gravi; 
+          actua<lb break="no" ed="#P" n="48"/>lis enim relatio ad merita non est res multum
+          <lb ed="#P" n="49"/>ad salutem necessaria per se loquendo. Possunt
+          <lb ed="#P" n="50"/>enim fieri merita sine intentione merendi, sed
+          <lb ed="#P" n="51"/>tantum amandi Deum, vel propter ipsum bene
+          <lb ed="#P" n="52"/>operandi. Et ita etiam potest beatitudo per
+          <lb ed="#P" n="53"/>merita comparari, sine intentione volendi 
+          il<lb break="no" ed="#P" n="54"/>lam propter merita, vel per merita, operando
+          <lb ed="#P" n="55"/>simpliciter propter Deum. Denique potest bea-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>titudo desiderari, seu separari a Deo sine 
+          re<lb break="no" ed="#P" n="57"/>cordatione meritorum, et consequenter sine
+          <lb ed="#P" n="58"/>relatione ad illa; ergo licet fortasse haec relatio
+          <lb ed="#P" n="59"/>omittatur, quando praecipitur, et maxime, si
+          <lb ed="#P" n="60"/>per inconsiderationem contingat, licet aliqua
+          <lb ed="#P" n="61"/>culpa sit, non tamen adeo gravis, quantum
+          <lb ed="#P" n="62"/>peccatum Angeli esse creditur, et in Scriptura
+          <lb ed="#P" n="63"/>significatur.
+        </p>
+        <p xml:id="szdada-x21802-d1e1385">
+          <lb ed="#P" n="64"/>19. Afferuntur modi alii occurrendi 
+          difficul<lb break="no" ed="#P" n="65"/>tati Intjus capitis. — Unus modus traditus ab
+          <lb ed="#P" n="66"/>S coto. — Propter haec non videtur suflicienter
+          <lb ed="#P" n="67"/>dictis modis explicari, quomodo supernaturalis
+          <lb ed="#P" n="68"/>beatitudo potuerit esse superbiae objectum.
+          <lb ed="#P" n="69"/>Nihilominus tamen possumus alios excogitare.
+          <lb ed="#P" n="70"/>Unus est traditus ab Scoto supra, quia potuit
+          <lb ed="#P" n="71"/>Angelus appetere beatitudinem cum affectu
+          <lb ed="#P" n="72"/>celerius illam obtinendi, quam secundum 
+          re<lb break="no" ed="#P" n="73"/>gulam rationis, ac divinae providentiae possit.
+          <lb ed="#P" n="74"/>Quamvis enim in naturali beatitudine hic 
+          ex<lb break="no" ed="#P" n="75"/>cessus locum non habuerit, quia illa fuit 
+          con<lb break="no" ed="#P" n="76"/>juncta cum natura, alia ratio est de 
+          beatitu<lb break="no" ed="#P" n="77"/>dine supernaturali, quae non statim fuit collata,
+          <lb ed="#P" n="78"/>nec in primo instanti, nec in secundo. Potuit
+          <lb ed="#P" n="79"/>ergo Lucifer in illomet secundo instanti, cum
+          <lb ed="#P" n="80"/>se ad claram Dei visionem non statim elevari
+          <lb ed="#P" n="81"/>conspiceret, illam tanquam sibi debitam 
+          affec<lb break="no" ed="#P" n="82"/>tare, ejusque dilectionem indigne ferre. Hunc
+          <lb ed="#P" n="83"/>autem affectum concipere potuit sine errore,
+          <lb ed="#P" n="84"/>judicando solum exeellentiam illius 
+          beatitudi<lb break="no" ed="#P" n="85"/>nis esse sibi convenientissimam, et dilationem
+          <lb ed="#P" n="86"/>ejus esse sibi disconvenientem, et non 
+          consen<lb break="no" ed="#P" n="87"/>taneam perfectioni suae naturae, et meritis, quae
+          <lb ed="#P" n="88"/>in primo instanti jam habuerat, non 
+          conside<lb break="no" ed="#P" n="89"/>rando, an esset prius necessaria perseverantia
+          <lb ed="#P" n="90"/>per pleniorem, magisque deliberatam in Deum
+          <lb ed="#P" n="91"/>conversionem.
+        </p>
+        <p xml:id="szdada-x21802-d1e1448">
+          <lb ed="#P" n="92"/>20. Confirmatur primo ex Scriptura et 
+          Pa<lb break="no" ed="#P" n="93"/>tribus.—Sic ergo in illo affectu non est 
+          repu<lb break="no" ed="#P" n="94"/>gnantia, et fit verisimihs ex illo fundamento
+          <lb ed="#P" n="95"/>ab Ezechiele indicato, et a Patribus supra 
+          alle<lb break="no" ed="#P" n="96"/>gatis, tradito, quod captus amore sui, 
+          plus<lb break="no" ed="#P" n="97"/>quam oporteret, suam exaltationem 
+          concupi<lb break="no" ed="#P" n="98"/>vit. Et hoc etiam indicavit Anselmus, dicens,
+          <lb ed="#P" n="99"/>Angelum, insolenter appetendo bonum, quod
+          <lb ed="#P" n="100"/>nondum habebat, amisisse illud, quod 
+          habuis<lb break="no" ed="#P" n="101"/>set, si depito modo illud appetivisset. Merito
+          <lb ed="#P" n="102"/>enim dicitur quis insolenter appetere aliquid
+          <lb ed="#P" n="103"/>a superiore dandum, quando illud aliter, quam
+          <lb ed="#P" n="104"/>ab illo sit ordinatum, habere vult. Neque 
+          bo<lb break="no" ed="#P" n="105"/>num illud, quod Angelus habuisset, si per 
+          in<lb break="no" ed="#P" n="106"/>solentiam illud non amisisset, aliud, quam 
+          su<lb break="no" ed="#P" n="107"/>pernaturalis beatitudo esse potest. Item juxta
+          <lb ed="#P" n="108"/>hunc modum intelligi possunt Patres, quando
+          <lb ed="#P" n="109"/>dicunt peccasse Luciferum, Quia ipse sibi ad
+          <lb ed="#P" n="110"/>beatam vitam sufficere voluit, ut loquitur Au-
+          <pb ed="#P" n="870"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gustinus 12, de Civit., cap. 1, vel, guia se sibi
+          <lb ed="#P" n="2"/>sufficere judicavit, ut loquitur Gregorius, lib.
+          <lb ed="#P" n="3"/>34 Moral., cap. 14, alas 17; non enim 
+          intel<lb break="no" ed="#P" n="4"/>lexit Augustinus credidisse Angelum ipsum
+          <lb ed="#P" n="5"/>sine Deo sibi ad beatitudinem sufficere, vel 
+          ob<lb break="no" ed="#P" n="6"/>Jjective, vel efficienter, uterque enim est 
+          stul<lb break="no" ed="#P" n="7"/>tissimus error eontra rationem naturalem:
+          <lb ed="#P" n="8"/>intellexit ergo, ita Luciferum appetivisse 
+          su<lb break="no" ed="#P" n="9"/>pernaturalem beatitudinem, ac si ad illam sibi
+          <lb ed="#P" n="10"/>sufficeret: hoc enim merito intelligitur facere,
+          <lb ed="#P" n="11"/>qui appetit insolenter beatitudinem, et non 
+          se<lb break="no" ed="#P" n="12"/>cundum ordinem a Deo praescriptum. Vel 
+          e<lb break="no" ed="#P" n="13"/>uam intelligere potuit, quod Angelus se sibi
+          <lb ed="#P" n="14"/>sufficere judicavit ad obtinendam 
+          beatitudi<lb break="no" ed="#P" n="15"/>nem, non secundum puram suam naturam,
+          <lb ed="#P" n="16"/>sed illis virtutibus, et gratiis, ac meritis, 
+          qui<lb break="no" ed="#P" n="17"/>bus se in principio suae creationis ornatum
+          <lb ed="#P" n="18"/>conspiciebat. Judicavit, inquam, non 
+          specula<lb break="no" ed="#P" n="19"/>tive, sed practice, utique ita sibi proponendo
+          <lb ed="#P" n="20"/>beatitudinem appetendam, et expectandam,
+          <lb ed="#P" n="21"/>ac si jam illa sufficientissime dignus existeret.
+        </p>
+        <p xml:id="szdada-x21802-d1e1543">
+          <lb ed="#P" n="22"/>21. Confirmatur secundo ex aliis Patribus.
+          <lb ed="#P" n="23"/>—Possunt etiam in hunc modum intelligi 
+          Pa<lb break="no" ed="#P" n="24"/>itres, qui dicunt daemonem per insolentiae et
+          <lb ed="#P" n="25"/>arrogantia morbum corruisse: ut loquitur
+          <lb ed="#P" n="26"/>Theodoretus, 1. 5, de Divin. decret., cap. de
+          <lb ed="#P" n="27"/>Diabolo. Nullo enim modo melius explicatur
+          <lb ed="#P" n="28"/>insolentia, quam per illam voluntariam 
+          appe<lb break="no" ed="#P" n="29"/>tentiam pro indebito tempore. Sic etiam 
+          pos<lb break="no" ed="#P" n="30"/>set satis commodedici, quod in alio sensu dixit
+          <lb ed="#P" n="31"/>Tertullianus, Angelum per impatientiam 
+          cor<lb break="no" ed="#P" n="32"/>ruisse, quia impatiens morae in appetenda 
+          bea<lb break="no" ed="#P" n="33"/>titudine inventus est. Denique ita posset 
+          expo<lb break="no" ed="#P" n="34"/>ni, vellimitari, quod Lucifer appetiverit gloriam
+          <lb ed="#P" n="35"/>sine meritis, utique auctis, et confirmatis in
+          <lb ed="#P" n="36"/>secundo instanti; hoc enim facilius potuit sine
+          <lb ed="#P" n="37"/>errore per inconsiderationem appetere, 
+          judi<lb break="no" ed="#P" n="38"/>cando 1d fuisse simpliciter possibile, nullo 
+          con<lb break="no" ed="#P" n="39"/>siderato respectu ad divinam ordinationem,
+          <lb ed="#P" n="40"/>et ad majorem sui exaltationem suam, esse
+          <lb ed="#P" n="41"/>sibi valde conveniens. Est ergo hic modus 
+          pro<lb break="no" ed="#P" n="42"/>babilis, sed incertrs, parumque daemonis 
+          su<lb break="no" ed="#P" n="43"/>perbiam exaggerans.
+        </p>
+        <p xml:id="szdada-x21802-d1e1593">
+          <lb ed="#P" n="44"/>22. Alter modus qui posset afferri non 
+          con<lb break="no" ed="#P" n="45"/>temnendus.—Alius denique modus hujus 
+          inor<lb break="no" ed="#P" n="46"/>dinati atfectus esse potuit in ejus excellentia,
+          <lb ed="#P" n="47"/>seu intensione, non quidem ex parte actus
+          <lb ed="#P" n="48"/>appetendi; hoc enim satis jam improbatum est,
+          <lb ed="#P" n="49"/>sed ex parte beatitudinis concupitae. Itaque 
+          cre<lb break="no" ed="#P" n="50"/>dibile est appetivisse Luciferum beatitudinem
+          <lb ed="#P" n="51"/>singularis intensionis, claritatis, et excellentiae,
+          <lb ed="#P" n="52"/>ita ut super astra Dei exaltaret solium suum.
+          <lb ed="#P" n="53"/>Hic enim affectus possibilis profecto fuit, quia
+          <lb ed="#P" n="54"/>objectum erat simpliciter possibile, et 
+          appre<lb break="no" ed="#P" n="55"/>hendi potuit sine errore, ut absolute conve-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>niens Lucifero, ut per se patet, quia esset 
+          per<lb break="no" ed="#P" n="57"/>fectio accidentalis, quae naturam non 
+          destrue<lb break="no" ed="#P" n="58"/>ret, sed perficeret: et de se.erat sufficiens,
+          <lb ed="#P" n="59"/>imo, et magnum objectum superbiae. Quia licet
+          <lb ed="#P" n="60"/>visio Dei in quacumque intensione, et 
+          perfec<lb break="no" ed="#P" n="61"/>tione infra comprehensionem sit per se 
+          ama<lb break="no" ed="#P" n="62"/>bilis, et honesta, nihilominus appetere illam
+          <lb ed="#P" n="63"/>principahter propter eminentiam respectu 
+          alio<lb break="no" ed="#P" n="64"/>rum, et solum ex amore propriae naturae, et
+          <lb ed="#P" n="65"/>propter decorem, et dignitatem ejus 
+          natura<lb break="no" ed="#P" n="66"/>lem, affectus est superbiae inordinatissimus.
+          <lb ed="#P" n="67"/>Cujus rei aliquale exemplum fuit in duobus
+          <lb ed="#P" n="68"/>filiis Zebedai sedem dextram et sinistram a
+          <lb ed="#P" n="69"/>Christo petentibus, Matth. 20. Quanquam 
+          e<lb break="no" ed="#P" n="70"/>nim illi nihil de coelestibus sedibus cogitarent,
+          <lb ed="#P" n="71"/>tamen si eodem intuitu, et affectu illas 
+          pete<lb break="no" ed="#P" n="72"/>rent, non minus, imo magis superbi fuissent.
+        </p>
+        <p xml:id="szdada-x21802-d1e1661">
+          <lb ed="#P" n="73"/>23. Confirmatur ex Patribus. — Quibus 
+          mo<lb break="no" ed="#P" n="74"/>dis haec excellentior beatitudo intelligi possit.
+          <lb ed="#P" n="75"/>— Possumusque in hanc sententiam allegare
+          <lb ed="#P" n="76"/>Chrysostomum, homil. 17, in Genes. dicentem,
+          <lb ed="#P" n="77"/>diabolum fuisse de coedlo pulsum: Quia 
+          plus<lb break="no" ed="#P" n="78"/>quam dignitatis sue erat, sapere cohtit; et
+          <lb ed="#P" n="79"/>Hieronymum, in verba illa Ezech. 28: 
+          Perdi<lb break="no" ed="#P" n="80"/>disti sapientiam tuam in decore tuo, dicentem:
+          <lb ed="#P" n="81"/>Ut dum plus vis esse, quam conditus es, et 
+          ma<lb break="no" ed="#P" n="82"/>gis sapere, quam a Deo acceperas, etiam id 
+          per<lb break="no" ed="#P" n="83"/>deres, quod habebas. Addo etiam Gregorium 24
+          <lb ed="#P" n="84"/>Moral., cap. 4, alias 7, dicentem: Quisquis
+          <lb ed="#P" n="85"/>bonum locum se habere singulariter gaudet,
+          <lb ed="#P" n="86"/>quisquis videri sublimior ceeteris queerit, illum
+          <lb ed="#P" n="87"/>imitatur, qui despecto bono societatis 
+          Angelo<lb break="no" ed="#P" n="88"/>rum, sedein suam ad Aquilonem ponens, et 
+          Al<lb break="no" ed="#P" n="89"/>tissimi similitudinem superbe appetens per 
+          ini<lb break="no" ed="#P" n="90"/>quun desiderium, quasi ad quoddam culmen 
+          co<lb break="no" ed="#P" n="91"/>natus est singularitatis erumpere. Hic autem
+          <lb ed="#P" n="92"/>excessus intelligi potest, vel per 
+          comparatio<lb break="no" ed="#P" n="93"/>nem ad alios Angelos tantum, et ita videtur
+          <lb ed="#P" n="94"/>loqui Gregorius in eo tamen non videtur tam
+          <lb ed="#P" n="95"/>magnus superbiae tumor apparere. Potest etiam
+          <lb ed="#P" n="96"/>per comparationem ad Christum mente sibi
+          <lb ed="#P" n="97"/>propositum intelligi, et sic ingens invenitur
+          <lb ed="#P" n="98"/>superbia: illa vero aliam majorem supponit,
+          <lb ed="#P" n="99"/>de qua post sequens caput dicturi sumus.
+        </p>
+        <p xml:id="szdada-x21802-d1e1722">
+          <lb ed="#P" n="100"/>24. Aliqui ex his modis non sunt 
+          impossi<lb break="no" ed="#P" n="101"/>biles. — Vel etiam potuit Lucifer appetere 
+          sin<lb break="no" ed="#P" n="102"/>gularitatem in illa beatitudine respectu 
+          om<lb break="no" ed="#P" n="103"/>nium hominum, non solum volendo illos in
+          <lb ed="#P" n="104"/>perfectione gloriae suae superare, hoc enim
+          <lb ed="#P" n="105"/>magis esse tolerabile, sed etiam nolendo, ut
+          <lb ed="#P" n="106"/>homines illius beatitudinis participes, vel 
+          se<lb break="no" ed="#P" n="107"/>cum fierent consortes: quod habet locum 
+          jux<lb break="no" ed="#P" n="108"/>ta sententiam quamdam Bernardi infra 
+          trac<lb break="no" ed="#P" n="109"/>tandam. Ultimo tandem cog tari potest ille
+          <pb ed="#P" n="871"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>alios, sed etiam per modum cujusdam 
+          perfec<lb break="no" ed="#P" n="2"/>tionis absolutae, capacitatem personae creatae
+          <lb ed="#P" n="3"/>excedentis: ut si dicatur Lucifer appetisse
+          <lb ed="#P" n="4"/>comprehensionem Dei, seu infinitam ejus 
+          vi<lb break="no" ed="#P" n="5"/>sionem, vel intensive, vel extensive, vel 
+          sim<lb break="no" ed="#P" n="6"/>pliciter quoad omnia possibilia: vel saltem
+          <lb ed="#P" n="7"/>quoad omnia Dei consilia, et libera ejus decreta,
+          <lb ed="#P" n="8"/>et consequenter quoad omnia ejus opera 
+          prae<lb break="no" ed="#P" n="9"/>sentia, et futura. Ex quibus modis aliqui 
+          im<lb break="no" ed="#P" n="10"/>plicant contradictionem in ipso objecto, de 
+          qui<lb break="no" ed="#P" n="11"/>bus an potuerunt appeti, dicemus in capite
+          <lb ed="#P" n="12"/>sequenti. Alii vero non sunt impossibiles, et
+          <lb ed="#P" n="13"/>ideo appeti potuerunt, ut scire omnia secreta
+          <lb ed="#P" n="14"/>Dei, an vero de facto ita contigerit, sciri a 
+          no<lb break="no" ed="#P" n="15"/>bis non potest. Quid vero conjectari possit
+          <lb ed="#P" n="16"/>tractando de aliis objectis, in capitibus 
+          sequen<lb break="no" ed="#P" n="17"/>tibus attingemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

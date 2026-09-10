@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="676"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x17049"><!-- l6c9 -->
+        <head xml:id="szdada-x17049-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-x17049-Hd1e103" type="question-title">Utrum ex sanctis angelis, quidam assistentes, et alii ministrantes sint</head>
+        <p xml:id="szdada-x17049-d1e106">
+          <lb ed="#P" n="63"/>CAPUT IX.
+          <lb ed="#P" n="64"/>UTRUM EX SANCTIS ANGELIS, QUIDAM 
+          ASSISTEN<lb break="no" ed="#P" n="65"/>TES, ET ALII MINISTRANTES SINT.
+        </p>
+        <p xml:id="szdada-x17049-d1e115">
+          <lb ed="#P" n="66"/>1. Absolvimus priorem hujus libri partem,
+          <lb ed="#P" n="67"/>in qua de beatitudine sanctorum Angelorum,
+          <lb ed="#P" n="68"/>eorumque veluti contemplativo statu tractare
+          <lb ed="#P" n="69"/>proposuimus. Nunc alteram aggredimur, in
+          <lb ed="#P" n="70"/>qua de ipsorum ministerns, actibus, 
+          Hierar<lb break="no" ed="#P" n="71"/>chiis, missionibus, apparitionibus, aliisque
+          <lb ed="#P" n="72"/>actionibus, quas vel circa nos, vel inter se
+          <lb ed="#P" n="73"/>propter nos exercent, dicendum a nobis est.
+          <lb ed="#P" n="74"/>Prius autem quam ad peculiares, et quasi 
+          spe<lb break="no" ed="#P" n="75"/>cificas actiones descendamus, generaliter 
+          vi<lb break="no" ed="#P" n="76"/>dendum est, an omnes Angeli in his externis
+          <lb ed="#P" n="77"/>actionibus, ac ministeriis occupentur, vel hoc
+          <lb ed="#P" n="78"/>sit aliquorum ordinum proprium: hoc autem,
+          <lb ed="#P" n="79"/>explicando propriam partitionem de Angelis
+          <lb ed="#P" n="80"/>assistentibus et ministrantibus, commode fiet.
+        </p>
+        <p xml:id="szdada-x17049-d1e150">
+          <lb ed="#P" n="81"/>2. Dantur Angeli assistentes. — Dantur et
+          <lb ed="#P" n="82"/>ministrantes. — Haec autem divisio imprimis
+          <lb ed="#P" n="83"/>supponit Angelos sanctos Deo assistere: eta
+          <lb ed="#P" n="84"/>Deo etiam ad aliqua ministeria mitti, et 
+          u<lb break="no" ed="#P" n="85"/>trumque est certissimum ex divina Scriptura.
+          <lb ed="#P" n="86"/>Nam imprimis de assistentibus Angelis 
+          loqui<lb break="no" ed="#P" n="87"/>tur Raphael, Tobiae 12, dicens: Ego sum 
+          Ra<lb break="no" ed="#P" n="88"/>phael unus ea septem, qui astamus ante 
+          Domi<lb break="no" ed="#P" n="89"/>mun. Longe vero majorem numerum 
+          Angelo<lb break="no" ed="#P" n="90"/>rum assistentium Daniel vidit, dum ait, c. 7,
+          <lb ed="#P" n="91"/>AMillia millium administrabant ei, et decies
+          <lb ed="#P" n="92"/>mllies centena millia assistebant ei. Et de 
+          eis<lb break="no" ed="#P" n="93"/>dem assistentibus Angelis videtur loqui 
+          Joan<lb break="no" ed="#P" n="94"/>nes, Apoc. 5, cum ait: Fidi, et audivi vocem
+          <lb ed="#P" n="95"/>Angelorum multorum in circuitu throni, et 
+          ani<lb break="no" ed="#P" n="96"/>malium, et seniorum, et erat numerus eorum
+          <lb ed="#P" n="97"/>millia millium dicentium, etc. De Angelis item
+          <lb ed="#P" n="98"/>ad homines missis frequentissima sunt 
+          Scrip<lb break="no" ed="#P" n="99"/>turae testimonia, Genes. 24, dixit Abraham
+          <lb ed="#P" n="100"/>servo, Deus qui locutus est mihi, etc., ipse
+          <lb ed="#P" n="101"/>mittet Angelum suum. Et Exod. 23. Fece ego
+          <lb ed="#P" n="102"/>mittam Angelum meum, qui preecedat te: et
+          <lb ed="#P" n="103"/>infra, Preeceditque te Angelus meus. Num. 20.
+          <lb ed="#P" n="104"/>Quomodo clamaverimus ad Dominum, et 
+          exau<lb break="no" ed="#P" n="105"/>dierit nos, miseritque Angelum, quài edumerit
+          <lb ed="#P" n="106"/>nos, etc. Et in Evangelio, Missus est Angelus
+          <lb ed="#P" n="107"/>Gabriel, Luc. 1. et Matth. 26, dixit Christus
+          <pb ed="#P" n="677"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>An putas, quia non possum rogare Patrem
+          <lb ed="#P" n="2"/>meum, et exhibebit mihi plusquam duedecim 
+          le<lb break="no" ed="#P" n="3"/>giones Angelorum. Et Actor. 12, dixit Petrus,
+          <lb ed="#P" n="4"/>Nhunc scio vere, quia iisit Dominus Angelum
+          <lb ed="#P" n="5"/>suum, etc. Hoc ergo posito videndum 
+          supe<lb break="no" ed="#P" n="6"/>rest, quomodo illa membra distinguantur: id
+          <lb ed="#P" n="7"/>an iidem sint Angeli assistentes, qui et 
+          minis<lb break="no" ed="#P" n="8"/>trantes, licet illas denominationes diversis 
+          ra<lb break="no" ed="#P" n="9"/>tionibus suscipiant, vel si distinguuntur, unde
+          <lb ed="#P" n="10"/>illa distinctio sumatur, et an tanta sit, ut 
+          assis<lb break="no" ed="#P" n="11"/>tentes nunquam ministrent, neque e converso.
+          <lb ed="#P" n="12"/>In qua re duae sunt theologorum opiniones.
+        </p>
+        <p xml:id="szdada-x17049-d1e242">
+          <lb ed="#P" n="13"/>3. Prima opinio docens omnes esse 
+          assisten<lb break="no" ed="#P" n="14"/>tes et ministrantes.— Prima docet, omnes 
+          An<lb break="no" ed="#P" n="15"/>gelos ab infimo usque ad supremum 
+          ministra<lb break="no" ed="#P" n="16"/>re, ac mitti. Et ita non posse in hoc assistentes
+          <lb ed="#P" n="17"/>a ministrantibus perpetuo distingui. lta 
+          sen<lb break="no" ed="#P" n="18"/>tiunt Alensis, 2 part., quaest. 36, memb. 3, et
+          <lb ed="#P" n="19"/>Scotus, in 2, dist. 10, quaest. 1, et ibi 
+          Duran<lb break="no" ed="#P" n="20"/>dus, quaest. 1, et Argentina, art. 1, et Gabriel,
+          <lb ed="#P" n="21"/>art. 2. Malonius, disp. 2. ubi alios refert. Idem
+          <lb ed="#P" n="22"/>sensit Marsilius 2, quaest. 7, art. 3, in 2 part.
+          <lb ed="#P" n="23"/>ejus, Molina, 1 part.. ad quaest. 112. Allegari
+          <lb ed="#P" n="24"/>potest pro hac sententia Athanasius, serm. 2,
+          <lb ed="#P" n="25"/>contra Arian., circa finem, dicens: Angeli 
+          sur<lb break="no" ed="#P" n="26"/>sitm deorsum commeantes ministros se preebent,
+          <lb ed="#P" n="27"/>quod in serm. 3, ante medium magis declarat,
+          <lb ed="#P" n="28"/>dicens: Ad ministerium autem non unus, sed ea
+          <lb ed="#P" n="29"/>omnibus plures ad manus preesto sunt, quod
+          <lb ed="#P" n="30"/>Dominus, si celit, amandet. Multi enim 
+          Ar<lb break="no" ed="#P" n="31"/>changeli, multi Throni, multae Potestates et
+          <lb ed="#P" n="32"/>Dominationes, millies millia, et decies millia
+          <lb ed="#P" n="33"/>centena millia ministrorum adsistunt et 
+          appa<lb break="no" ed="#P" n="34"/>rent, qui se promptos offerunt, ut emittantur
+          <lb ed="#P" n="35"/>ubi omnes assistentes vult etiam esse 
+          minis<lb break="no" ed="#P" n="36"/>trantes. Et verba Danielis in hunc sensum 
+          ta<lb break="no" ed="#P" n="37"/>cite interpretatur.
+        </p>
+        <p xml:id="szdada-x17049-d1e299">
+          <lb ed="#P" n="38"/>4. Praecipuum fundamentum hujus 
+          senten<lb break="no" ed="#P" n="39"/>tiae sumitur ex verbis Pauli ad Hebr. 1: Omes
+          <lb ed="#P" n="40"/>sunt administratores spiritus in ministerium
+          <lb ed="#P" n="41"/>missi. Omnes enim sine ulla exceptione 
+          com<lb break="no" ed="#P" n="42"/>prehendit, ut omnes a Filii majestate secernat.
+          <lb ed="#P" n="43"/>Adduntur ctiam exempla ex sacra Scriptura
+          <lb ed="#P" n="44"/>quibus ostenditur, ex omnibus drdinibus etiam
+          <lb ed="#P" n="45"/>supremis Angelos mitti. Nam Isai. 6, Seraphim
+          <lb ed="#P" n="46"/>supremti ordinis ad Isaiam missus dicitur, et
+          <lb ed="#P" n="47"/>Genes. 3, Cherubim cum igneo gladio ante
+          <lb ed="#P" n="48"/>Paradisum collocatur. Et Ezech. 10, alia 
+          mi<lb break="no" ed="#P" n="49"/>nisteria sanctorum Cherubim leguntur. 
+          Prae<lb break="no" ed="#P" n="50"/>terea Michael ssepe missus legitur, qui unus
+          <lb ed="#P" n="51"/>ex primis principibus dicitur Daniel 10, et Luc
+          <lb ed="#P" n="52"/>1, Gabriel dicitur missus ad Virginem, cum
+          <lb ed="#P" n="53"/>tamen, vel maximum omnium Angelorum, vel
+          <lb ed="#P" n="54"/>de supremo ordine fuisse, credibile videatur.
+          <lb ed="#P" n="55"/>Tum ex altitudine mysteri, ad quod annun-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tiandum mittebatur. Tum auctoritate Bernardi,
+          <lb ed="#P" n="57"/>serm. 1, in Missus est. Et Raphael ad Tobiam
+          <lb ed="#P" n="58"/>missus ex septem assistentibus se esse dixit, ut
+          <lb ed="#P" n="59"/>jam citavimus: illi autem septem assistentes
+          <lb ed="#P" n="60"/>dicuntur in conspectu Throni Dei esse Apoc.
+          <lb ed="#P" n="61"/>1, utique tanquam praecipul inter assistentes.
+        </p>
+        <p xml:id="szdada-x17049-d1e356">
+          <lb ed="#P" n="62"/>5. Secunda opinio contraria alios solum 
+          mit<lb break="no" ed="#P" n="63"/>Li, alios solum assistere. — Secunda sententia
+          <lb ed="#P" n="64"/>docet Angelos assistentes et ministrantes 
+          pres<lb break="no" ed="#P" n="65"/>se sumptos, ita distingui, ut illi nunquam 
+          mit<lb break="no" ed="#P" n="66"/>tantur extra coelestem curiam, hi vero ad 
+          mi<lb break="no" ed="#P" n="67"/>nisteria exeant. Haec fuit sententia D. Thomae,
+          <lb ed="#P" n="68"/>1 part., quaest. 112, art. 2 et 3, ubi vult 
+          assis<lb break="no" ed="#P" n="69"/>tentes nunquam ad actiones externas mitti,
+          <lb ed="#P" n="70"/>etiam per dispensationem bDei, et e contrario
+          <lb ed="#P" n="71"/>ministrantes, licet semper assistant videndo
+          <lb ed="#P" n="72"/>clare Deum, tamen extra Verbum nunquam
+          <lb ed="#P" n="73"/>edoceri immediate a Deo, sed per assistentes
+          <lb ed="#P" n="74"/>Angelos, quorum proprium est in ipsa claritate
+          <lb ed="#P" n="75"/>divina essentie divina mysteria revelanda
+          <lb ed="#P" n="76"/>conspicere. Et hoc sequuntur ibi Cajetanus et
+          <lb ed="#P" n="77"/>nonnulli alii moderni. Et Capreolus 2, d. 10,
+          <lb ed="#P" n="78"/>ubi idem tenet Albertus, art. 3, referens, se
+          <lb ed="#P" n="79"/>alibi hoc prolixius tractasse. Idem afttirmat
+          <lb ed="#P" n="80"/>jonaventura ibi, art. 1, quaest. 2, Richardus,
+          <lb ed="#P" n="81"/>art. 11, quaest. 2, /Egidius, late quaest. 4 et 2,
+          <lb ed="#P" n="82"/>per totas. Qui omnes auctores in hoc 
+          conve<lb break="no" ed="#P" n="83"/>niunt, quod tres ordines primae Hierarchiae,
+          <lb ed="#P" n="84"/>Seraphim, Cherubim et Throni ita assistunt, ut
+          <lb ed="#P" n="85"/>nunquam mittantur, et e contrario quinque
+          <lb ed="#P" n="86"/>ordines inferiores: scilicet Principatus, qui est
+          <lb ed="#P" n="87"/>secundus ordo secundae Hierarchiae, et omnes
+          <lb ed="#P" n="88"/>inferiores, scilicet Potestates, Virtutes, 
+          Ar<lb break="no" ed="#P" n="89"/>changeli et Angeli sint proprie ministrantes.
+          <lb ed="#P" n="90"/>De quarto vero ordine omnium Angelorum, seu
+          <lb ed="#P" n="91"/>primo secundae Hierarchiae, scilicet, 
+          Domina<lb break="no" ed="#P" n="92"/>tionibus, est aliqua dissensio. Nam D. Thomas
+          <lb ed="#P" n="93"/>supra. art. 4, dicit etiam assistere et nunquam
+          <lb ed="#P" n="94"/>mitti, et sequuntur JEgidius et alit Thomistee,
+          <lb ed="#P" n="95"/>Richardus vero insinuat Dommnationes etiam
+          <lb ed="#P" n="96"/>mitti, alii vero doctores nihil explicant.
+        </p>
+        <p xml:id="szdada-x17049-d1e434">
+          <lb ed="#P" n="97"/>6. Probatur. — Sed omisso hoc puncto (de
+          <lb ed="#P" n="98"/>quo infra dicam) sententia haec potissimum
+          <lb ed="#P" n="99"/>fundatur in auctoritate Dionysii, hb. de coelest.
+          <lb ed="#P" n="100"/>Hierar., nam prius cap. 7 et sequcentibus, 
+          re<lb break="no" ed="#P" n="101"/>gulam generalem constituit, quod Angeli 
+          as<lb break="no" ed="#P" n="102"/>sistentes foris ad ministrandum non exeunt, et
+          <lb ed="#P" n="103"/>postea cap. 13, ne admittat exceptionem de
+          <lb ed="#P" n="104"/>Seraphim misso ad purganda labia Isaiae, varie
+          <lb ed="#P" n="105"/>locum illum interpretatur, ut postea 
+          videbi<lb break="no" ed="#P" n="106"/>mus. À quo non audet discedere Gregorius,
+          <lb ed="#P" n="107"/>hom. 34, in Evangel., licet rem omnino non
+          <lb ed="#P" n="108"/>definiat. Rationem vero add:t D. Thomas, quia
+          <lb ed="#P" n="109"/>certum est, Deum secundum legem communem
+          <lb ed="#P" n="110"/>gubernare inferiora per superiora: quamvis
+          <pb ed="#P" n="678"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>autem in gradu rerum naturalium saepe hunc
+          <lb ed="#P" n="2"/>ordinem mutet propter superiorem gradum
+          <lb ed="#P" n="3"/>gratiae, ut ad confirmandam fidem, vel quid
+          <lb ed="#P" n="4"/>simile, nihilominus inter Angelos non opus
+          <lb ed="#P" n="5"/>habet illam legem immutare, aut in ea 
+          dis<lb break="no" ed="#P" n="6"/>pensare, tum quia supra ordinem gratiae non
+          <lb ed="#P" n="7"/>est alius ordo superior, propter quem talis 
+          dis<lb break="no" ed="#P" n="8"/>pensatio fiat: tum quia neque ad fidei 
+          confir<lb break="no" ed="#P" n="9"/>mationem conducit, quod aliquis effectus in
+          <lb ed="#P" n="10"/>his inferioribus fiat per Angelum superiorem
+          <lb ed="#P" n="11"/>potius, quam per inferiorem, quia hoc non
+          <lb ed="#P" n="12"/>potest nobis innotescere, nec etiam propter
+          <lb ed="#P" n="13"/>ipsum effectum potest esse necessarium, quia
+          <lb ed="#P" n="14"/>Angeli ministrantes ex officio suo sunt, et 
+          nu<lb break="no" ed="#P" n="15"/>mero sufticientissimi, et virtute potentissimi
+          <lb ed="#P" n="16"/>ad similes effectus faciendos; ergo non est 
+          ne<lb break="no" ed="#P" n="17"/>cessaria talis dispensatio. Confirmatque hoc
+          <lb ed="#P" n="18"/>D. Thomas exemplo Annuntiationis 
+          Domini<lb break="no" ed="#P" n="19"/>cae Incarnationis. Nam si ad aliquod negotium
+          <lb ed="#P" n="20"/>mittendus esset aliquis Angelus supremi 
+          or<lb break="no" ed="#P" n="21"/>dinis, maxime ad illud: et tamen non est 
+          mis<lb break="no" ed="#P" n="22"/>sus nisi Gabriel, qui ex secundo ordine tertiae
+          <lb ed="#P" n="23"/>Hierarchiae supremus Archangelus esse 
+          credi<lb break="no" ed="#P" n="24"/>tur; ergo nunquam fit talis dispensatio.
+        </p>
+        <p xml:id="szdada-x17049-d1e523">
+          <lb ed="#P" n="25"/>7. Ut meam sententiam proferam, suppono
+          <lb ed="#P" n="26"/>imprimis doctrinam traditam, in libro primo,
+          <lb ed="#P" n="27"/>de distinctione trium Hierarchiarum, et 
+          no<lb break="no" ed="#P" n="28"/>vem ordinum Angelorum: illa enim distinctio
+          <lb ed="#P" n="29"/>maxime in beatitudine inter sanctos Angelos
+          <lb ed="#P" n="30"/>observata est, ut ibi diximus, et ordine 
+          digni<lb break="no" ed="#P" n="31"/>tatis ita collocantur, ut a perfectioribus 
+          inci<lb break="no" ed="#P" n="32"/>piendo, numerentur Seraphim, Cherubim,
+          <lb ed="#P" n="33"/>l'hroni, Dominationes, Virtutes, Potestates,
+          <lb ed="#P" n="34"/>Principatus, Archangeli, Angeli.
+        </p>
+        <p xml:id="szdada-x17049-d1e547">
+          <lb ed="#P" n="35"/>8. Auctoris sententia. — Suadetur ex D. 
+          Dio<lb break="no" ed="#P" n="36"/>nysio. — D. Gregorius concinit.—Hoc ergo 
+          sup<lb break="no" ed="#P" n="37"/>posito, dico, Angelos quosdam ita esse 
+          assis<lb break="no" ed="#P" n="38"/>tentes, ut ex officio non ministrent, nec 
+          mit<lb break="no" ed="#P" n="39"/>tantur, alios vero, qui ex officio ministrant, et
+          <lb ed="#P" n="40"/>non assistunt: et inter hos aliquos esse, qui
+          <lb ed="#P" n="41"/>non mittuntur ex vi sui muneris, plures vero
+          <lb ed="#P" n="42"/>esse, qui ad ministrandum mittantur. De hac
+          <lb ed="#P" n="43"/>posteriori parte dicam postea in num. 25. In
+          <lb ed="#P" n="44"/>priori autem parte videntur convenire 
+          theolo<lb break="no" ed="#P" n="45"/>gi utriusque opinionis, quia ad minimum hoc
+          <lb ed="#P" n="46"/>intendit D. Dionysius, lib. de coelesti Hierarch.,
+          <lb ed="#P" n="47"/>si attente legatur, praesertim a cap. 6, usque
+          <lb ed="#P" n="48"/>ad 13. Considerandum vero est, Dionysium in
+          <lb ed="#P" n="49"/>discursu illorum capitum praecipue declarare
+          <lb ed="#P" n="50"/>excellentiam Angelorum assistentium per hoc,
+          <lb ed="#P" n="51"/>quod immediate a DEO supernas illustrationes,
+          <lb ed="#P" n="52"/>et irradiationes recipiunt, et per eos ad 
+          infe<lb break="no" ed="#P" n="53"/>riores derivantur. Quod vero ad externa 
+          mi<lb break="no" ed="#P" n="54"/>nisteria nunquam mittantur, non ita expresse
+          <lb ed="#P" n="55"/>dicit, quanquam neque ipsis aperte has mis-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>siones, seu ministeria tribuat: sed absolute,
+          <lb ed="#P" n="57"/>et simphciter per solam assistentiam ad Deum,
+          <lb ed="#P" n="58"/>eorum statum declaret, et in cap. 13, 
+          eviden<lb break="no" ed="#P" n="59"/>ter supponit eos ex vi sui status, et muneris ad
+          <lb ed="#P" n="60"/>externas actiones non mitti, quandoquidem
+          <lb ed="#P" n="61"/>ibi specialem difficultatem movet, quo modo
+          <lb ed="#P" n="62"/>Seraphin ad purganda labia Isaise missus 
+          fue<lb break="no" ed="#P" n="63"/>rit, et omnino declarare conatur, non fuisse
+          <lb ed="#P" n="64"/>illud ministerium per aliquem Angelum 
+          su<lb break="no" ed="#P" n="65"/>premi ordinis peractum. Consentit etiam 
+          Gre<lb break="no" ed="#P" n="66"/>gorius, homilia 34, in Evangilia: nam licet
+          <lb ed="#P" n="67"/>in fine de particularibus effectibus, vel 
+          Scrip<lb break="no" ed="#P" n="68"/>turae locis dicat, se nolle affirmare, quod 
+          aper<lb break="no" ed="#P" n="69"/>tis testimoniis non probatur; nihilominus 
+          ge<lb break="no" ed="#P" n="70"/>neralem distinctionem assistentium, et 
+          minis<lb break="no" ed="#P" n="71"/>trantium Angelorum, saltem ex vi muneris, et
+          <lb ed="#P" n="72"/>officii approbat, et dicit esse consentaneam loco
+          <lb ed="#P" n="73"/>Danielis. Et inferius ait, quod licet specialia
+          <lb ed="#P" n="74"/>officia quorumdam Ordinum, aliis interdum
+          <lb ed="#P" n="75"/>communicentur, nihilominus appellationes
+          <lb ed="#P" n="76"/>proprias alicujus muneris illi ordini tribui,
+          <lb ed="#P" n="77"/>qui tale munus plenius accepit. Quae regula
+          <lb ed="#P" n="78"/>etiam in appellatione assistentium, et 
+          minis<lb break="no" ed="#P" n="79"/>trantium ad minimum observanda est. Ratione
+          <lb ed="#P" n="80"/>ostendetur haec veritas, praedicta verba 
+          assis<lb break="no" ed="#P" n="81"/>tendi, et ministrandi prius explicando.
+        </p>
+        <p xml:id="szdada-x17049-d1e655">
+          <lb ed="#P" n="82"/>9. Dubia proponuntur et enodantur. — Cum
+          <lb ed="#P" n="83"/>ergo in generali hoc certum sit, controversia
+          <lb ed="#P" n="84"/>praecipua inter doctores est, utrum aliquando
+          <lb ed="#P" n="85"/>in particularibus occasionibus, vel effectibus
+          <lb ed="#P" n="86"/>Angeli assistentes ex vi sui muneris officium
+          <lb ed="#P" n="87"/>ministrandi assumant, vel e contrario 
+          minis<lb break="no" ed="#P" n="88"/>trantes assistant, non tantum illa generali 
+          ra<lb break="no" ed="#P" n="89"/>tione, quia videndo Deum dicuntur illi 
+          assis<lb break="no" ed="#P" n="90"/>tere, sed etiam illa specialh, qua sublimiores
+          <lb ed="#P" n="91"/>Angeli dicuntur ex officio assistentes. Et cum
+          <lb ed="#P" n="92"/>his aliud dubium conjunctum est, nimirum
+          <lb ed="#P" n="93"/>qui ordines sint assistentes, quive ministrantes
+          <lb ed="#P" n="94"/>ex officio. Unde aliud etiam resolvendum est,
+          <lb ed="#P" n="95"/>scilicet, an omnes ordines, qui ministrant, 
+          mit<lb break="no" ed="#P" n="96"/>tantur, et e contrario. Prius vero, quam ad
+          <lb ed="#P" n="97"/>haec respondeamus, tria verba explicanda sunt,
+          <lb ed="#P" n="98"/>habent enim aliquam varietatem, et 
+          aequivo<lb break="no" ed="#P" n="99"/>cationem, scilicet, assistere, ministrare, et
+          <lb ed="#P" n="100"/>mitti.
+        </p>
+        <p xml:id="szdada-x17049-d1e699">
+          <lb ed="#P" n="101"/>10. Duplex significatio verbi assistendi. —
+          <lb ed="#P" n="102"/>Verbum ergo assistendi interdum generale est,
+          <lb ed="#P" n="103"/>prout idem significat, quod in praesentia Dei
+          <lb ed="#P" n="104"/>esse, et faciam ejus videre, et sic commune est
+          <lb ed="#P" n="105"/>omnibus Angelis, etiam infimis, ac 
+          ministran<lb break="no" ed="#P" n="106"/>tibus Deo assistere: quia omnes vident faciem
+          <lb ed="#P" n="107"/>Patris, ut dixit Christus Dominus Matth. 18, et
+          <lb ed="#P" n="108"/>notavit Gregorius, homil. 34, in Evang., et 2,
+          <lb ed="#P" n="109"/>Moral. 3, etlib. 17, cap. 9. In dicta vero 
+          divi<lb break="no" ed="#P" n="110"/>sione specialius sumitur, ut ex loco Danielis 10,
+          <pb ed="#P" n="679"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et communi Patrum, et theologorum sententia
+          <lb ed="#P" n="2"/>constat. Sic ergo specialius haec assistentia ad
+          <lb ed="#P" n="3"/>Deum, partim per positivam perfectionem, et
+          <lb ed="#P" n="4"/>dignitatem, partim per negationem explicari
+          <lb ed="#P" n="5"/>potest. Proprium enim est assistentium 
+          Ange<lb break="no" ed="#P" n="6"/>lorum, ut a Deo immediate illuminentur de
+          <lb ed="#P" n="7"/>his rebus, quas de novo eos cognoscere 
+          opor<lb break="no" ed="#P" n="8"/>tet, seu quae ex divino imperio, et ordine fieri
+          <lb ed="#P" n="9"/>praecipiuntur. Et in hoc maxime ponit 
+          Diony<lb break="no" ed="#P" n="10"/>sius proprietatem assistentium, quod 
+          imme<lb break="no" ed="#P" n="11"/>diate conjunguntur supremo lumini, ut radios
+          <lb ed="#P" n="12"/>ejus participent. Et consequenter ad hos 
+          perti<lb break="no" ed="#P" n="13"/>nere dicit, ut alios illuminent, ita ut divini
+          <lb ed="#P" n="14"/>radii per eos ad inferiores descendant. Haec 
+          er<lb break="no" ed="#P" n="15"/>go duo positiva sunt, ad illa vero duae 
+          nega<lb break="no" ed="#P" n="16"/>tones consequuntur, quae sunt non ministrare,
+          <lb ed="#P" n="17"/>et non mitti, quas postea declarando haec verba
+          <lb ed="#P" n="18"/>explicabimus.
+        </p>
+        <p xml:id="szdada-x17049-d1e767">
+          <lb ed="#P" n="19"/>11. Tertia significatio additur. — His addi
+          <lb ed="#P" n="20"/>potest tertia significatio verbi assistendi, seu
+          <lb ed="#P" n="21"/>adstandi, nam aliquando non dicit tantum
+          <lb ed="#P" n="22"/>generalem assistentiam per visionem beatam:
+          <lb ed="#P" n="23"/>nec specialissimam assistentiam per 
+          immedia<lb break="no" ed="#P" n="24"/>tam conjunctionem ad Deum in recipiendis
+          <lb ed="#P" n="25"/>specialibus revelationibus, sed dicit quamdam
+          <lb ed="#P" n="26"/>excellentiam in munere assistendi in ordine
+          <lb ed="#P" n="27"/>ad offlicium ministrandi a dextra. Quomodo
+          <lb ed="#P" n="28"/>Apocalyps. 1, septem Angeli dicuntur 
+          specia<lb break="no" ed="#P" n="29"/>liter assistere coram Deo. Et Tobiae 12, 
+          Ra<lb break="no" ed="#P" n="30"/>phael dicitur assistere coram Deo. Idemque de
+          <lb ed="#P" n="31"/>Gabriele dicitur Luc. 1, ubi Toletus id 
+          ani<lb break="no" ed="#P" n="32"/>madvertit. In quo autem illa praerogativa
+          <lb ed="#P" n="33"/>consistat, in capite sequenti explicabo.
+        </p>
+        <p xml:id="szdada-x17049-d1e802">
+          <lb ed="#P" n="34"/>12. Verbum ministrandi significat primo
+          <lb ed="#P" n="35"/>spirituale ministerium. — Circa verbum 
+          au<lb break="no" ed="#P" n="36"/>tem ministrandi advertendum est duplex 
+          mi<lb break="no" ed="#P" n="37"/>nisterium in Angelis distingui, unum est mere
+          <lb ed="#P" n="38"/>internum, et spirituale. Aliud est externum,
+          <lb ed="#P" n="39"/>et aliquo modo corporale. Priori modo 
+          illu<lb break="no" ed="#P" n="40"/>minatio, vel locutio Angelorum inter se facta
+          <lb ed="#P" n="41"/>ex ordinatione divina, et praesertim cum 
+          res<lb break="no" ed="#P" n="42"/>pectu ad salutem hominum potest dici 
+          minis<lb break="no" ed="#P" n="43"/>terium Angelicum, quia revera in eo Deo
+          <lb ed="#P" n="44"/>serviunt, et ministrant in ordine ad nostram
+          <lb ed="#P" n="45"/>salutem, et ideo nobis ministrare dici possunt.
+          <lb ed="#P" n="46"/>Est vero hoc ministerium internum, et 
+          spiri<lb break="no" ed="#P" n="47"/>tuale, quia immediate in solis mentibus 
+          ange<lb break="no" ed="#P" n="48"/>licis fit, et consummatur, licet remote ad 
+          ex<lb break="no" ed="#P" n="49"/>ternum aliquod ministerium ordinetur, quod
+          <lb ed="#P" n="50"/>aliquando contingere poterit, non est tamen
+          <lb ed="#P" n="51"/>semper necessarium. Quia potest aliquanco
+          <lb ed="#P" n="52"/>Angelus assistens illuminare inferiorem, non
+          <lb ed="#P" n="53"/>ut aliquid exterius agat, sed ut oret, vel ut
+          <lb ed="#P" n="54"/>de aliquo Dei decreto certior factus speciale
+          <lb ed="#P" n="55"/>gaudium accipiat. Atque hoc modo omnes An-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>geli etiam specialiter assistentes sunt 
+          minis<lb break="no" ed="#P" n="57"/>trantes. Quia omnes aliquod internum, et
+          <lb ed="#P" n="58"/>spirituale opus circa inferiores exercent ex
+          <lb ed="#P" n="59"/>ordinatione immediata ipsius Dei, cui in eo
+          <lb ed="#P" n="60"/>opere ministrant. Et in hoc sensu de omnibus
+          <lb ed="#P" n="61"/>etiam supremis verificari post dictum Pauli
+          <lb ed="#P" n="62"/>Hebraeorum 1. Oinnes sunt administrantes 
+          spi<lb break="no" ed="#P" n="63"/>ritus. Quod quidem non ex dispensatione, seu
+          <lb ed="#P" n="64"/>exceptione a generali regula, sed ex ofticio 
+          il<lb break="no" ed="#P" n="65"/>lius convenit, sic enim verum est dictum 
+          Atha<lb break="no" ed="#P" n="66"/>nasii supra relatum, Onmnes ad ministerium
+          <lb ed="#P" n="67"/>preesto sunt, centena millia ministrorum 
+          assis<lb break="no" ed="#P" n="68"/>tunt. Sic ergo ministrare, et assistere, etiam
+          <lb ed="#P" n="69"/>ex officio,.et ex vi propria dignitatis non sunt
+          <lb ed="#P" n="70"/>opposita, sed potius unum sequitur ex alio:
+          <lb ed="#P" n="71"/>nam ex eo quod supremi Angeli omnes, et 
+          so<lb break="no" ed="#P" n="72"/>li a Deo proxime illuminantur, sit ut illi sint
+          <lb ed="#P" n="73"/>ministri, quibus Deus utitur ad illuminandum
+          <lb ed="#P" n="74"/>alios, in quo ministerio non solum a sua 
+          digni<lb break="no" ed="#P" n="75"/>tate non recedunt, sed potius in ea quasi 
+          con<lb break="no" ed="#P" n="76"/>summantur: tum quia ipsi Deo immediate
+          <lb ed="#P" n="77"/>ministrant; tum etiam, quia in sua 
+          perfec<lb break="no" ed="#P" n="78"/>tione, et (ut ita dicam) in interiori aula Det
+          <lb ed="#P" n="79"/>immoti manentes, alios perficiunt. Hoc autem
+          <lb ed="#P" n="80"/>ministerium multum generale est, ideoque in
+          <lb ed="#P" n="81"/>dicta divisione verbum nstrandi non tam
+          <lb ed="#P" n="82"/>late sumitur, sed specialiori ratione, in qua
+          <lb ed="#P" n="83"/>possit a verbo assistendi distingui.
+        </p>
+        <p xml:id="szdada-x17049-d1e915">
+          <lb ed="#P" n="84"/>13. Secundo significat corporale 
+          ministe<lb break="no" ed="#P" n="85"/>rium. — Aliud ergo ministerium Angelorum est
+          <lb ed="#P" n="86"/>externum, et corporale aliquo modo, ad quod
+          <lb ed="#P" n="87"/>pertinent actiones omnes, quas Angel in hoc
+          <lb ed="#P" n="88"/>inferiori mundo exercent, sive circa res 
+          irra<lb break="no" ed="#P" n="89"/>tionales, vel insensibiles, ut movendo illas,
+          <lb ed="#P" n="90"/>verbi gratia, congregando nubes, vel 
+          dissipan<lb break="no" ed="#P" n="91"/>do, etc., sive cirea homines, custodiendo illos,
+          <lb ed="#P" n="92"/>annuntiando, illuminando, etc. Nam licet hae
+          <lb ed="#P" n="93"/>actiones interdum videri possint spirituales,
+          <lb ed="#P" n="94"/>quoad illuminandas, vel excitandas mentes
+          <lb ed="#P" n="95"/>hominum, nihilominus ab Angelis non sunt,
+          <lb ed="#P" n="96"/>nisi mediante aliqua actione circa corpus: et
+          <lb ed="#P" n="97"/>ideo haec omnia pertinent ad ministeria 
+          exter<lb break="no" ed="#P" n="98"/>na. Atque haec etiam ministeria duobus modis
+          <lb ed="#P" n="99"/>possunt ab Angelis exerceri, nimirum vel 
+          exe<lb break="no" ed="#P" n="100"/>quendo immediate per se tale ministerium,
+          <lb ed="#P" n="101"/>vel ordinando tantum, et dirigendo. Priori
+          <lb ed="#P" n="102"/>modo Angelus custos curam gerit hominis sibi
+          <lb ed="#P" n="103"/>commissi, et monet illum, etc. Posteriori 
+          mo<lb break="no" ed="#P" n="104"/>do Angelus superioris ordinis, ut 
+          Principa<lb break="no" ed="#P" n="105"/>tuum, vel Dominationum ordinat facienda
+          <lb ed="#P" n="106"/>per inferiores Angelos, et sic ministrat 
+          diri<lb break="no" ed="#P" n="107"/>gendo. Ab hoc ergo ministerio, sive exequendo
+          <lb ed="#P" n="108"/>sive dirigendo fiat, dicuntur speciali modo
+          <lb ed="#P" n="109"/>Angeli ministrantes: et sic sumitur in dicta
+          <lb ed="#P" n="110"/>partitione: et convenit quibusdam Angelis ex
+          <pb ed="#P" n="680"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>officio, et non aliis, ut ex eorum nominibus
+          <lb ed="#P" n="2"/>constat, prout latius in dicto libro 1, explicata
+          <lb ed="#P" n="3"/>sunt. Aliqui vero contendunt, ministrandi
+          <lb ed="#P" n="4"/>verbum solum significare cum proprietate
+          <lb ed="#P" n="5"/>operis executionem, et ideo non attribui 
+          pro<lb break="no" ed="#P" n="6"/>prie nisi Angelis exequentibus. Sed hoc gratis
+          <lb ed="#P" n="7"/>dicitur: nam ministri Regis dicuntur proprie,
+          <lb ed="#P" n="8"/>qui decreta Regis pronuntiant, eorumque 
+          exe<lb break="no" ed="#P" n="9"/>cutionem aliis imperant, et illius modum et
+          <lb ed="#P" n="10"/>ordinem disponunt. Quod si illamet ordinatio
+          <lb ed="#P" n="11"/>seu intimatio imperiri vocetur executio, est
+          <lb ed="#P" n="12"/>aequivocatio in voce, quia nos loquimur de
+          <lb ed="#P" n="13"/>executione propria externi effectus a Deo 
+          in<lb break="no" ed="#P" n="14"/>tenti, ut est, annuntiare aliquid homini, 
+          cor<lb break="no" ed="#P" n="15"/>pus assumere, movere, et similia.
+        </p>
+        <p xml:id="szdada-x17049-d1e1013">
+          <lb ed="#P" n="16"/>14. Quid verbum mittere significet. —
+          Tan<lb break="no" ed="#P" n="17"/>dem circa verbum mifttendi distinguunt 
+          theolo<lb break="no" ed="#P" n="18"/>giin Angelis duplicem missionem, invisibilem,
+          <lb ed="#P" n="19"/>et visibilem, sicut solent similem 
+          distinc<lb break="no" ed="#P" n="20"/>tionem tradere in missione divinarum 
+          perso<lb break="no" ed="#P" n="21"/>narum, ut in superiori tomo, l. 12. de Trinit.,
+          <lb ed="#P" n="22"/>cap. 4, explicavi. Illam ergo distinctionem ad
+          <lb ed="#P" n="23"/>Angelorum missionem accommodat D. Thomas,
+          <lb ed="#P" n="24"/>dicta quaest. 112, art. 2, ad 1, ubi concedit
+          <lb ed="#P" n="25"/>missione invisibili omnes Angelos mitti, etiam
+          <lb ed="#P" n="26"/>assistentes, et supremos: quia illa missio fit
+          <lb ed="#P" n="27"/>(ut aiunt) per internum, et spiritualem 
+          effec<lb break="no" ed="#P" n="28"/>tum, et ita potest per solam illuminationem
+          <lb ed="#P" n="29"/>fieri, et juxta hunc sensum verbi mittendi,
+          <lb ed="#P" n="30"/>ait D. Thomas intelligi posse verba Pauli
+          <lb ed="#P" n="31"/>Hebr. 1: Opmes sunt ad ministratorii spiritus
+          <lb ed="#P" n="32"/>in ministerium missi. At vero missio visibilis
+          <lb ed="#P" n="33"/>dicitur, quae est ad corporalem effectum, et
+          <lb ed="#P" n="34"/>sic solis Angelis ministrantibus convenit: et
+          <lb ed="#P" n="35"/>quoad hanc missionem, nullam vult D. 
+          Tho<lb break="no" ed="#P" n="36"/>mas admittendam esse exceptionem.
+        </p>
+        <p xml:id="szdada-x17049-d1e1062">
+          <lb ed="#P" n="37"/>15. Explicatur doctrina proxima D. 
+          Tho<lb break="no" ed="#P" n="38"/>mae. — Verumtamen haec doctrina, et distinctio
+          <lb ed="#P" n="39"/>majori indiget declaratione. Et imprimis 
+          no<lb break="no" ed="#P" n="40"/>tandum est duplex discrimen inter missionem
+          <lb ed="#P" n="41"/>divinarum personarum, vel Angelorum: unum
+          <lb ed="#P" n="42"/>est, quia missio divinae personae non est 
+          secun<lb break="no" ed="#P" n="43"/>dum imperium, sed secundum substantialem,
+          <lb ed="#P" n="44"/>et aeternam processionem, missio autem 
+          An<lb break="no" ed="#P" n="45"/>geli, ut a Deo fit, supponit quidem 
+          substantia<lb break="no" ed="#P" n="46"/>lem emanationem a Deo per creationem,
+          <lb ed="#P" n="47"/>proxime autem fit per voluntatem liberam Dei,
+          <lb ed="#P" n="48"/>per imperium Angelo intimatam. Aliud 
+          dis<lb break="no" ed="#P" n="49"/>crimen est, quia missio divinae personae, neque
+          <lb ed="#P" n="50"/>fit, nec fieri potest per mutationem, vel 
+          acqui<lb break="no" ed="#P" n="51"/>sitionem loci illius personae, quae mitti dicitur,
+          <lb ed="#P" n="52"/>sed solum per novum modum essendi in loco,
+          <lb ed="#P" n="53"/>ad quem mitti dicitur, propter novum effectum
+          <lb ed="#P" n="54"/>gratiae ibi factum. At vero propria Angelorum
+          <lb ed="#P" n="55"/>missio fit per mutationem persona misse,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>novum locum acquirendo, et priorem 
+          mitten<lb break="no" ed="#P" n="57"/>do: de qua missione propria loquuntur 
+          fre<lb break="no" ed="#P" n="58"/>quenter Scripturae, ut ex allatis testimoniis
+          <lb ed="#P" n="59"/>constat, et ex Gregorio, Damasceno, et aliis 
+          Pa<lb break="no" ed="#P" n="60"/>tribus supra libro quarto relatis, manifestum
+          <lb ed="#P" n="61"/>est. Anverode hac loquatur Paulus ad Hebr. 1,
+          <lb ed="#P" n="62"/>dicam postea.
+        </p>
+        <p xml:id="szdada-x17049-d1e1123">
+          <lb ed="#P" n="63"/>16. Rejicitur divisio in missionem visibilem,
+          <lb ed="#P" n="64"/>et invisibilem in quodam sensu. — Loquendo
+          <lb ed="#P" n="65"/>igitur de missione Angelorum in hac propria
+          <lb ed="#P" n="66"/>significatione, non habet locum distinctio 
+          ver<lb break="no" ed="#P" n="67"/>bi anittendi, in missionem visibilem, et 
+          invisi<lb break="no" ed="#P" n="68"/>bilem in sensu declarato. Quia quando 
+          supe<lb break="no" ed="#P" n="69"/>rior Angelus ex imperio Dei illuminat 
+          infe<lb break="no" ed="#P" n="70"/>riorem, ex vi talis imperii non movetur de
+          <lb ed="#P" n="71"/>loco in locum, quia ad illuminandum non est
+          <lb ed="#P" n="72"/>necessaria talis mutatio, ut libro secundo 
+          trac<lb break="no" ed="#P" n="73"/>tando de locutione dixi, et in discursu hujus
+          <lb ed="#P" n="74"/>libri de propria illuminatione dicam. Neque
+          <lb ed="#P" n="75"/>etiam hoc modo videtur posse applicari 
+          Ange<lb break="no" ed="#P" n="76"/>Iis modus ille metaphoricae missionis, qui 
+          per<lb break="no" ed="#P" n="77"/>sonis divinis ab alia procedentibus convenit.
+          <lb ed="#P" n="78"/>Quia missio illa divinae personae supponit ejus
+          <lb ed="#P" n="79"/>immensitatem, ratione cujus sine sui 
+          muta<lb break="no" ed="#P" n="80"/>tione potest incipere esse alicubi, vel in 
+          ah<lb break="no" ed="#P" n="81"/>qua persona, aut natura per novam 
+          operatio<lb break="no" ed="#P" n="82"/>nem in illam, atque adeo per mutationem 
+          al<lb break="no" ed="#P" n="83"/>terius extremi, ratione cujus dicitur Deus esse
+          <lb ed="#P" n="84"/>in illo novo modo, sine mutatione sui. 
+          Ange<lb break="no" ed="#P" n="85"/>lus vero non habet hanc immensitatem, et
+          <lb ed="#P" n="86"/>ideo quamvis ex praecepto Dei aliquid mere
+          <lb ed="#P" n="87"/>internum, et spirituale in alio operetur, non
+          <lb ed="#P" n="88"/>potest dici mitti ad illum missione illa 
+          meta<lb break="no" ed="#P" n="89"/>phorica, quia si distabat ab illo. non fit illi
+          <lb ed="#P" n="90"/>praesens, nec incipit esse in illo novo modo,
+          <lb ed="#P" n="91"/>cum non supponatur esse in illo. Imo licet
+          <lb ed="#P" n="92"/>supponantur esse simul Angelus illuminans,
+          <lb ed="#P" n="93"/>et illuminatus, cum antea unus non esset in
+          <lb ed="#P" n="94"/>alio, sed unusquisque esset in seipso, vel in
+          <lb ed="#P" n="95"/>alio spatio, vel corpore, in quo uterque 
+          existe<lb break="no" ed="#P" n="96"/>bat: etiamsi postea unus incipiat illuminare
+          <lb ed="#P" n="97"/>alium, non dicetur incipere esse in illo novo
+          <lb ed="#P" n="98"/>modo, quia nec antea existebat in illo, nec ex
+          <lb ed="#P" n="99"/>vi actionis illuminandi habet, quod sit in illo,
+          <lb ed="#P" n="100"/>quia illa actio de se non requirit illam
+          <lb ed="#P" n="101"/>praesentiam, seu existentiam illuminantis in
+          <lb ed="#P" n="102"/>illuminato.
+        </p>
+        <p xml:id="szdada-x17049-d1e1212">
+          <lb ed="#P" n="103"/>17. Angelorum missio localem terminum 
+          in<lb break="no" ed="#P" n="104"/>cludit. — Propter quod censeo, missionem 
+          An<lb break="no" ed="#P" n="105"/>geli non esse tam metaphoricam, et 
+          invisibi<lb break="no" ed="#P" n="106"/>lem, sed necessario includere localem 
+          termi<lb break="no" ed="#P" n="107"/>num, ac subinde illos tantum Angelos mitti,
+          <lb ed="#P" n="108"/>qui ex imperio Dei ad aliquem locum transeunt,
+          <lb ed="#P" n="109"/>vel in illo ad aliquem finem a Deo intentum
+          <lb ed="#P" n="110"/>permanent. Dico ex imperio Dei, quia missio
+          <pb ed="#P" n="681"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dicit necessariam habitudinem ad mittentem,
+          <lb ed="#P" n="2"/>quae in praesenti non potest fundari, nisi in
+          <lb ed="#P" n="3"/>impulsu moventis, seu mittentis, qui impulsus
+          <lb ed="#P" n="4"/>non est physicus, sed moralis, scilicet, per 
+          im<lb break="no" ed="#P" n="5"/>perium. Quia sola substantialis emanatio,
+          <lb ed="#P" n="6"/>qualhs est per creationem, non sufhicit: nam
+          <lb ed="#P" n="7"/>Angelus malus habet illam processionem a
+          <lb ed="#P" n="8"/>Deo, et tamen non mittitur a Deo, quoties
+          <lb ed="#P" n="9"/>ipse movet se: neque etiam est necessarius
+          <lb ed="#P" n="10"/>impulsus localis physicus, quia ille motionis
+          <lb ed="#P" n="11"/>modus est imperfectus; ergo motio per 
+          impe<lb break="no" ed="#P" n="12"/>rium necessaria est, et sufficit. Debet autem
+          <lb ed="#P" n="13"/>esse a Deo, ut Angelus dicatur missus ab ipso.
+          <lb ed="#P" n="14"/>Potest autem Deus vel immediate, vel per
+          <lb ed="#P" n="15"/>alium mittere, quia potest etiam unus alium
+          <lb ed="#P" n="16"/>imperare. Et ideo etiam potest unus Angelus
+          <lb ed="#P" n="17"/>alium mittere, veluti ministerialiter, ut sic
+          <lb ed="#P" n="18"/>dicam, ex Dionysio, cap. 3, de coelesti 
+          Hie<lb break="no" ed="#P" n="19"/>rarch., Gregorio, homil. 34, in Evangel, 
+          Ber<lb break="no" ed="#P" n="20"/>nardo, homil. 1, in Missus est, et sumitur ex
+          <lb ed="#P" n="21"/>Zacharia 2, Apocal. 7 et 16, et aliis locis 
+          pau<lb break="no" ed="#P" n="22"/>lo post referendis. Et ratio est, quia inferiores
+          <lb ed="#P" n="23"/>Angeli in ministeriis suis superioribus 
+          subor<lb break="no" ed="#P" n="24"/>dinantur, ideoque ab eis mitti possunt.
+        </p>
+        <p xml:id="szdada-x17049-d1e1288">
+          <lb ed="#P" n="25"/>18. In hoc maxime missio Angeli a missione
+          <lb ed="#P" n="26"/>personae distinguitur. — Dixi autem, hanc 
+          an<lb break="no" ed="#P" n="27"/>gelicam missionem fieri per mutationem 
+          loca<lb break="no" ed="#P" n="28"/>lem, quia ejus proximus terminus est localis
+          <lb ed="#P" n="29"/>praesentia, licet ad alium finem, seu effectum
+          <lb ed="#P" n="30"/>referatur, et quia in hoc maxime missio 
+          An<lb break="no" ed="#P" n="31"/>geli a missione personae divinae distinguitur.
+          <lb ed="#P" n="32"/>Et sic intelligitur, quod ait Chrysostomus, 
+          ora<lb break="no" ed="#P" n="33"/>tione 3, in ad Hebraeos: Filius ne fuit quidem
+          <lb ed="#P" n="34"/>missus (utique illo modo imperfecto) non enim
+          <lb ed="#P" n="35"/>a loco in locum transit, sed carnem suscepit -
+          <lb ed="#P" n="36"/>Angeli vero loca mutant, et prioribus in quibus
+          <lb ed="#P" n="37"/>sunt dimissis ad alia veniant, in quibus non
+          <lb ed="#P" n="38"/>erant. Dicere vero posset aliquis interdum
+          <lb ed="#P" n="39"/>posse sufficere permanentiam, seu 
+          conserva<lb break="no" ed="#P" n="40"/>tionem praesentiae in aliquo loco ex eodem 
+          im<lb break="no" ed="#P" n="41"/>perio Dei ad novum aliquem effectum aut
+          <lb ed="#P" n="42"/>finem, ut Angelus dicatur ad illum effectum
+          <lb ed="#P" n="43"/>aliqualiter missus, quia illa est quaedam 
+          vir<lb break="no" ed="#P" n="44"/>tualis motio in illum locum. Ut si Rex 
+          lega<lb break="no" ed="#P" n="45"/>tionem novam committat Petro jam Romae
+          <lb ed="#P" n="46"/>existenti, dicetur mittere illum in legatum,
+          <lb ed="#P" n="47"/>etiamsi non denuo illuc tendat; ergo. Et illo
+          <lb ed="#P" n="48"/>modo potest Angelus alicubi existens 
+          denomi<lb break="no" ed="#P" n="49"/>nari denuo illuc missus, propter novum 
+          effec<lb break="no" ed="#P" n="50"/>tum, ad quem mittitur, et quia novo modo,
+          <lb ed="#P" n="51"/>vel ex vi novi imperii illuc residet. Respondeo
+          <lb ed="#P" n="52"/>imprimis in bono sensu posse hoc concedi,
+          <lb ed="#P" n="53"/>dummodo declaretur, in eo casu, in quo 
+          Ange<lb break="no" ed="#P" n="54"/>lus alicubi existens jubetur ibidem aliquid de
+          <lb ed="#P" n="55"/>novo operari, esse potius virtualem missio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nem, quam actualem, quia non est mutatio
+          <lb ed="#P" n="57"/>loci, sed quasi quies, seu permanentia in 
+          prae<lb break="no" ed="#P" n="58"/>existente loco. Addo vero, cum Angelica 
+          mis<lb break="no" ed="#P" n="59"/>sio a Deo sit, hunc modum non habere, et DEO
+          <lb ed="#P" n="60"/>nova cogitatio non succedat, censendum esse
+          <lb ed="#P" n="61"/>misisse a principio ad talem effectum, licet
+          <lb ed="#P" n="62"/>forte a principio nihil de illo effectu illi 
+          reve<lb break="no" ed="#P" n="63"/>laverit, sed postea illum imperet, et ideo 
+          sim<lb break="no" ed="#P" n="64"/>pliciter verum est, Angelum mitti per 
+          muta<lb break="no" ed="#P" n="65"/>tionem localem, et de hac loqui Scripturam,
+          <lb ed="#P" n="66"/>et Patres, ut jam notavi, et latius libro quarto
+          <lb ed="#P" n="67"/>dixi.
+        </p>
+        <p xml:id="szdada-x17049-d1e1386">
+          <lb ed="#P" n="68"/>19. In alio sensu recipitur divisio missionis
+          <lb ed="#P" n="69"/>visibilis et invisibilis. — Nihilominus tamen
+          <lb ed="#P" n="70"/>haec ipsa missio vera, ut est mutatio localis
+          <lb ed="#P" n="71"/>Angeli ex imperio Dei facta, potest aliter 
+          di<lb break="no" ed="#P" n="72"/>vidi in visibilem et invisibilem. Quae membra
+          <lb ed="#P" n="73"/>distingui possunt, vel ex parte personae missae,
+          <lb ed="#P" n="74"/>vel ex parte effectus, ad quem mittitur, vel
+          <lb ed="#P" n="75"/>etiam ex parte modi, seu imperii, quo 
+          mitti<lb break="no" ed="#P" n="76"/>tur. Primo modo missio Angeli dicitur 
+          visibi<lb break="no" ed="#P" n="77"/>lis, quando mittitur in corpore assumpto: 
+          si<lb break="no" ed="#P" n="78"/>cut missus creditur Gabriel ad Virginem 
+          sanc<lb break="no" ed="#P" n="79"/>tissimam, vel quotiescumque persona missa
+          <lb ed="#P" n="80"/>sensibili signo manifestatur. Et de hac 
+          mis<lb break="no" ed="#P" n="81"/>sione visibili Angelorum frequenter loquitur
+          <lb ed="#P" n="82"/>Scriptura, ut in citatis locis Luc. 1, Exod. 23,
+          <lb ed="#P" n="83"/>num. 20, 1, Paralipom. 21, Tob. 3, Actor.
+          <lb ed="#P" n="84"/>12. etc. Invisibilis autem erit missio, quando
+          <lb ed="#P" n="85"/>Angelus vere descendit ex imperio Dei ad 
+          cus<lb break="no" ed="#P" n="86"/>todiendum hominem, vel aliquid agendum:
+          <lb ed="#P" n="87"/>ejus tamen praesentia in loco ad quem 
+          mitti<lb break="no" ed="#P" n="88"/>tur, nullo signo visibili manifestatur, sicut
+          <lb ed="#P" n="89"/>ordinarie fieri credimus. Et de illa fortasse 
+          lo<lb break="no" ed="#P" n="90"/>cutus est Abraham, Genes. 24, cum dicit: 7pse
+          <lb ed="#P" n="91"/>mittet Angelum swwmn. Atque hic sensus est
+          <lb ed="#P" n="92"/>valde proprius, et usitatus, et in eo maxime
+          <lb ed="#P" n="93"/>missio etiam personae divinae, in visibilem, et
+          <lb ed="#P" n="94"/>invisibilem dividi solet, ut in dicto loco 
+          expli<lb break="no" ed="#P" n="95"/>cavi.
+        </p>
+        <p xml:id="szdada-x17049-d1e1449">
+          <lb ed="#P" n="96"/>20. Secundo modo, scilicet, ex parte effectus
+          <lb ed="#P" n="97"/>potest dici missio haec visibilis, quia ad 
+          eftec<lb break="no" ed="#P" n="98"/>tum aliquo modo visibilem faciendum Angelus
+          <lb ed="#P" n="99"/>mittitur. Et talis est quoties Angelus ad 
+          ah<lb break="no" ed="#P" n="100"/>quod ministerium externum mittitur: quia
+          <lb ed="#P" n="101"/>licet interdum mittatur ad spirituales effectus
+          <lb ed="#P" n="102"/>in homine procurandos, ut fidem, 
+          poeniten<lb break="no" ed="#P" n="103"/>tiam, vel similes, semper fiunt ab Angelo 
+          me<lb break="no" ed="#P" n="104"/>dia corporali motione, ut supra dixi, et ideo
+          <lb ed="#P" n="105"/>semper ex parte effectus illa missio visibilis
+          <lb ed="#P" n="106"/>est. Potest vero aliqua esse invisibilis, si 
+          Ange<lb break="no" ed="#P" n="107"/>Ius non ad aliquem effectum faciendum in 
+          cor<lb break="no" ed="#P" n="108"/>poribus, sed tantum ad suam substantialem
+          <lb ed="#P" n="109"/>praesentiam exhibendam propter cultum, vel
+          <lb ed="#P" n="110"/>honorem Dei, ad aliquem inferiorem locum
+          <pb ed="#P" n="682"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mittatur, ut quando mittuntur ad Ecclesiam
+          <lb ed="#P" n="2"/>tempore Sacrificii solum, ut illi assistant, et
+          <lb ed="#P" n="3"/>Christum adorent, ut saepe Patres testantur: et
+          <lb ed="#P" n="4"/>specialiter Concilium Aquisgranense, cap. 132,
+          <lb ed="#P" n="5"/>et Ambrosius, Luc. 1: Non dubites assistere
+          <lb ed="#P" n="6"/>Angelum, quando Christus immolatur. Quod
+          <lb ed="#P" n="7"/>copiosus tradit Gregorius, lib. 4, Dialog., c. 58,
+          <lb ed="#P" n="8"/>et Chrysostomus, homil. 1, de Verb. Isaiae, et
+          <lb ed="#P" n="9"/>homil. 3, contra Anomaeos, et homil. 22, in
+          <lb ed="#P" n="10"/>Acta. Atque eodem modo dicuntur mitti Angeli
+          <lb ed="#P" n="11"/>ad comitandas sanctas animas, cum in coelum
+          <lb ed="#P" n="12"/>ascendunt, et praesertim beatissimae Virginis,
+          <lb ed="#P" n="13"/>ut late Damascenus describit in sermonibus de
+          <lb ed="#P" n="14"/>dormitione Virginis. Denique saepe in terram
+          <lb ed="#P" n="15"/>mitti possunt, ut ibi praesto sint ad aliquid
+          <lb ed="#P" n="16"/>agendum, et interim dum nihil agunt, visio
+          <lb ed="#P" n="17"/>est invisibilis ex parte effectus. Et sic dicit 
+          Au<lb break="no" ed="#P" n="18"/>gustinus, in Soliloq., cap. 7: Angelos sanctos
+          <lb ed="#P" n="19"/>vigilandi studia abesse nobis omnibus locis, et
+          <lb ed="#P" n="20"/>horis.
+        </p>
+        <p xml:id="szdada-x17049-d1e1533">
+          <lb ed="#P" n="21"/>21. Tertio, scilicet ex parte modi, ordinarie
+          <lb ed="#P" n="22"/>haec missio est indivisibilis: quia fit per 
+          im<lb break="no" ed="#P" n="23"/>perium invisibile, aliquando vero ipsum etiam
+          <lb ed="#P" n="24"/>imperium fit signo sensibili, et tunc poterit
+          <lb ed="#P" n="25"/>dici missio visibilis ex parte modi. Ut Zacharia
+          <lb ed="#P" n="26"/>2, unus Angelus ad alium dixit, Curre, et 
+          lo<lb break="no" ed="#P" n="27"/>quere, etc. et Apocal. 71: Quidam Angelus
+          <lb ed="#P" n="28"/>clamavit voce magna qnatuor Angelis, et c. 9,
+          <lb ed="#P" n="29"/>Joannes audivit vocem dicentem Angelo, 
+          Sol<lb break="no" ed="#P" n="30"/>ce quatuor Angelos, qui allegati sunt, et c. 16:
+          <lb ed="#P" n="31"/>Audivit vocem magnam de tevplo dicentem 
+          sep<lb break="no" ed="#P" n="32"/>tem Angelis, etc., illa enim vox sensibilis fuit,
+          <lb ed="#P" n="33"/>et per aliquem superiorem Angeluin formata.
+          <lb ed="#P" n="34"/>Et simili modo Daniel 8, audivit vocem 
+          di<lb break="no" ed="#P" n="35"/>centem: Gabriel fac intelligere istam 
+          visio<lb break="no" ed="#P" n="36"/>nemn.
+        </p>
+        <p xml:id="szdada-x17049-d1e1570">
+          <lb ed="#P" n="37"/>22. Primum corollarium ea dictis.—
+          Secun<lb break="no" ed="#P" n="38"/>dun corollar umn.—Ex quibus intelligi potest,
+          <lb ed="#P" n="39"/>in omnibus his modis includi veram rationem
+          <lb ed="#P" n="40"/>missionis angelicae supra declaratam, ac 
+          su<lb break="no" ed="#P" n="41"/>binde quemlibet illorum suflicere, ut Angelus
+          <lb ed="#P" n="42"/>proprie, ac simpliciter mitti dicatur. Secundo
+          <lb ed="#P" n="43"/>potest colligi ex dictis, non esse idem, nec 
+          in<lb break="no" ed="#P" n="44"/>ter se converti in Angelis ministrare, et mitti,
+          <lb ed="#P" n="45"/>sed illud prius latius patere: nam potest 
+          ali<lb break="no" ed="#P" n="46"/>quis Angelus ministrare, licet non mittatur,
+          <lb ed="#P" n="47"/>quamvis e converso omnes, qui mittuntur,
+          <lb ed="#P" n="48"/>ordinarie aliquod peculiare ministerium 
+          exer<lb break="no" ed="#P" n="49"/>cere soleant. Utrumque patet distinguendo
+          <lb ed="#P" n="50"/>duplicem ordinem ministrantium: nam 
+          qui<lb break="no" ed="#P" n="51"/>dam ministrant exequendo, alii tantum 
+          diri<lb break="no" ed="#P" n="52"/>gendo et ordinando, ut supra declaravi. 
+          Prio<lb break="no" ed="#P" n="53"/>res indigent praesentia, et propinquitate loci,
+          <lb ed="#P" n="54"/>ut suum ministerium exequantur, quia id 
+          fa<lb break="no" ed="#P" n="55"/>ciunt per aliquam actionem corpoream, quae
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>requirit praesentiam localem. Posteriores vero,
+          <lb ed="#P" n="57"/>quia immediate non exequuntur ministerium,
+          <lb ed="#P" n="58"/>ideo hanc praesentiam ad illud non requirunt,
+          <lb ed="#P" n="59"/>sed possunt suo modo ministrare in varis 
+          lo<lb break="no" ed="#P" n="60"/>cis sine sui mutatione. Sicut rex existens in
+          <lb ed="#P" n="61"/>suo solio operatur in locis regni distantibus.
+          <lb ed="#P" n="62"/>Et ideo isti ex vi sui status, et dignitatis non
+          <lb ed="#P" n="63"/>mittuntur, vel ut ita dicam, missibiles non
+          <lb ed="#P" n="64"/>sunt; illi vero ita ministrantes sunt, ut etiam
+          <lb ed="#P" n="65"/>ex se ad missiones sunt parati, et quasi ex 
+          of<lb break="no" ed="#P" n="66"/>ficio mittuntur.
+        </p>
+        <p xml:id="szdada-x17049-d1e1640">
+          <lb ed="#P" n="67"/>23. Tertium corollarium a D. Thoma 
+          posi<lb break="no" ed="#P" n="68"/>Lu. — Tertium hinc infert D. Thomas, dicta
+          <lb ed="#P" n="69"/>quaest. 112, art. 2 et 4, tres tantum esse 
+          ordi<lb break="no" ed="#P" n="70"/>nes Angelorum assistentium, nempe Seraphim,
+          <lb ed="#P" n="71"/>Cherubim, et Thronos; alios vero sex ordines
+          <lb ed="#P" n="72"/>Angelorum ministrantes esse, qui adaequate
+          <lb ed="#P" n="73"/>ab assistentibus distinguuntur. Angelos autem
+          <lb ed="#P" n="74"/>qui mittuntur, esse tantum quinque 
+          inferio<lb break="no" ed="#P" n="75"/>rum ordinum. Nam Dominationum ordo, qui
+          <lb ed="#P" n="76"/>est primus secundae Hierarchise ordinibus, quod
+          <lb ed="#P" n="77"/>non mittitur, sicut nec illi. Quae fuit etiam
+          <lb ed="#P" n="78"/>sententia Anselmi in ad Hebr. 1, in fine. Et
+          <lb ed="#P" n="79"/>ratio est, quia ille ordo non ministrat 
+          exequen<lb break="no" ed="#P" n="80"/>do, sed tantum ordinando. Quod ex ipso 
+          no<lb break="no" ed="#P" n="81"/>mine Dominationum colligit D. Thomas: NVam
+          <lb ed="#P" n="82"/>proprietates (inquit) sanctorum Angelorum ea
+          <lb ed="#P" n="83"/>eorum nominibus manifestantur, secundum
+          <lb ed="#P" n="84"/>Dionysium, cap. 7, de coelest. Hierarch. At
+          <lb ed="#P" n="85"/>in nominibus quinque inferiorum ordinum
+          <lb ed="#P" n="86"/>denotatur aliquod ministerium, quod postulat
+          <lb ed="#P" n="87"/>executionem. In nomine autem Dominationum
+          <lb ed="#P" n="88"/>non denotatur executio, sed imperium, et 
+          or<lb break="no" ed="#P" n="89"/>dinatio, et ideo licet ministrent, non tamen,
+          <lb ed="#P" n="90"/>ut exequentes, sed tantum, ut disponentes, et
+          <lb ed="#P" n="91"/>mandantes, quod per alios exequendum sit.
+          <lb ed="#P" n="92"/>Sicut architectus in humanis artibus, seu 
+          ope<lb break="no" ed="#P" n="93"/>ribus se gerit. Et in hoc potest assignari 
+          diffe<lb break="no" ed="#P" n="94"/>rentia inter Angelum, et hominem: nam 
+          ar<lb break="no" ed="#P" n="95"/>chitectus humanus saepe indiget saltem 
+          prae<lb break="no" ed="#P" n="96"/>sentia locali, ut disponat, et ordinet: Angeli
+          <lb ed="#P" n="97"/>vero dominantes non indigent, nisi praesentia
+          <lb ed="#P" n="98"/>ordinis, quam habent ad omnes sibi subditos,
+          <lb ed="#P" n="99"/>cum quibus, ubicumque sint, loqui possunt,
+          <lb ed="#P" n="100"/>et agenda ordinare, ideoque non indigent 
+          des<lb break="no" ed="#P" n="101"/>censu, aut mutatione loci, ut suo modo 
+          mi<lb break="no" ed="#P" n="102"/>nistrent, ac proinde ex vi sui status non 
+          mit<lb break="no" ed="#P" n="103"/>tuntur.
+        </p>
+        <p xml:id="szdada-x17049-d1e1723">
+          <lb ed="#P" n="104"/>24. Divisio pertractata in Angelos 
+          assisten<lb break="no" ed="#P" n="105"/>tes et ininistrantes, et est adequata, et amplius
+          <lb ed="#P" n="106"/>proponitur.—Rejicitur.— Atque haec doctrima
+          <lb ed="#P" n="107"/>D. Thomae satis verisimilis est in materia adeo
+          <lb ed="#P" n="108"/>abdita, et incerta. Et juxta illam dicendum est,
+          <lb ed="#P" n="109"/>divisionem Angelorum in assistentes, et 
+          minis<lb break="no" ed="#P" n="110"/>trantes esse adaequatam. Nam prius membrum
+          <pb ed="#P" n="683"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tres tantum ordines supremos, aliud vero
+          <lb ed="#P" n="2"/>membrum sex reliquos comprehendit. Ideoque
+          <lb ed="#P" n="3"/>posterius membrum subdividendum est, in
+          <lb ed="#P" n="4"/>ministrantes exequentes, et non exequentes,
+          <lb ed="#P" n="5"/>sed tantum disponentes, et ordinantes. Unde
+          <lb ed="#P" n="6"/>etiam possunt Angeli dividi in eos, qui 
+          mit<lb break="no" ed="#P" n="7"/>tuntur, et qui non mittuntur, eritque divisio
+          <lb ed="#P" n="8"/>adaequata, etiamsi divisim omnes Angelos 
+          com<lb break="no" ed="#P" n="9"/>prehendat. Membra tamen erunt diversa: nam
+          <lb ed="#P" n="10"/>sub priori membro continentur quinque 
+          infi<lb break="no" ed="#P" n="11"/>mi ordines, sub altero vero quatuor superiores,
+          <lb ed="#P" n="12"/>ut jam explicatum est. Denique possunt omnes
+          <lb ed="#P" n="13"/>Angelorum ordines in tria membra adaequata
+          <lb ed="#P" n="14"/>dividi, nimirum, assistentium qui non 
+          mittun<lb break="no" ed="#P" n="15"/>tur, ut sunt tres supremi ordines: non 
+          assisten<lb break="no" ed="#P" n="16"/>tium, qui etiam non mittuntur, ut sunt 
+          Domi<lb break="no" ed="#P" n="17"/>nationes, seu Angeli quarti ordinis, 
+          descen<lb break="no" ed="#P" n="18"/>dendo a supremis, et eorum qui non assistunt et
+          <lb ed="#P" n="19"/>mittuntur, ut sunt quinque inferiores ordines.
+          <lb ed="#P" n="20"/>Quorum omnium rationes, et denominationes,
+          <lb ed="#P" n="21"/>ex dictis satis constant. Unde immerito 
+          Pere<lb break="no" ed="#P" n="22"/>rius, lib. 8, in cap. 7, Daniel, dicit, secundum
+          <lb ed="#P" n="23"/>Dionysium quatuor esse ordines Angelorum
+          <lb ed="#P" n="24"/>assistentium sub illis comprehendens 
+          Domina<lb break="no" ed="#P" n="25"/>tiones: nam Dionysius nunquam dixit: 
+          Domi<lb break="no" ed="#P" n="26"/>nationes videre omnia in Verbo, vel ab eo 
+          noti<lb break="no" ed="#P" n="27"/>tiam omnium rerum immediate haurire, quod
+          <lb ed="#P" n="28"/>est de ratione assistentium, ut ipse Pererius
+          <lb ed="#P" n="29"/>fatetur, sed solis ordinibus primae Hierarchiae
+          <lb ed="#P" n="30"/>illam perfectionem Dionysius tribuit, et cum
+          <lb ed="#P" n="31"/>eo D. Thomas, dicta quaest. 112, art. 3, et ideo
+          <lb ed="#P" n="32"/>opus est, non confundere Angelos assistentes,
+          <lb ed="#P" n="33"/>cum his, qui non mittuntur, quia hi plures
+          <lb ed="#P" n="34"/>sunt, ut declaravi.
+        </p>
+        <p xml:id="szdada-x17049-d1e1819">
+          <lb ed="#P" n="35"/>25. Plures esse Angelos ministrantes, quam
+          <lb ed="#P" n="36"/>assistentes putant aliqui.—Solet autem quaeri,
+          <lb ed="#P" n="37"/>quinam sint in majori numero, assistentesne,
+          <lb ed="#P" n="38"/>an ministrantes? Nam in hoc sancti Patres
+          <lb ed="#P" n="39"/>diversa docuisse videntur. Divus enim 
+          Grego<lb break="no" ed="#P" n="40"/>rius, lib. 17 Moral., cap. 7, alias 9, plures
+          <lb ed="#P" n="41"/>censet esse ministrantes, quam assistentes
+          <lb ed="#P" n="42"/>cum tamen sub assistentibus omnes, qui non
+          <lb ed="#P" n="43"/>mittuntur comprehendat, vel (ut ipse ait) Qui
+          <lb ed="#P" n="44"/>ad aliqua hominibus nuntianda non exeunt.
+          <lb ed="#P" n="45"/>Fundatur autem in verbis Danielis, Millia
+          <lb ed="#P" n="46"/>wallium ministrat ant ei, et decies millies 
+          cen<lb break="no" ed="#P" n="47"/>tena millia assistebant ei. Nam priorem 
+          nu<lb break="no" ed="#P" n="48"/>merum putat esse indefinitum, et poni pro
+          <lb ed="#P" n="49"/>innumerabilh multitudine, posteriorem vero
+          <lb ed="#P" n="50"/>esse definitum, ideoque minorem 
+          multitudi<lb break="no" ed="#P" n="51"/>nem indicare, et ita etiam illos numeros 
+          ex<lb break="no" ed="#P" n="52"/>ponit Rupertus, lib. 1, in Dan. suo cap. 13.
+        </p>
+        <p xml:id="szdada-x17049-d1e1861">
+          <lb ed="#P" n="53"/>26. Contrariam sententiam tenet D. 
+          Tho<lb break="no" ed="#P" n="54"/>mas.—bDivus Thomas autem 1in dicto art. 1,
+          <lb ed="#P" n="55"/>ad 2, majorem existimat esse numerum assis-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tentium, quam ministrantium. Pro sua vero
+          <lb ed="#P" n="57"/>modestia (ut non omnino Gregorio 
+          contradi<lb break="no" ed="#P" n="58"/>cat) ait quoad ordines, plures ordines minis -
+          <lb ed="#P" n="59"/>trare, quam assistant, quod est clarum ex
+          <lb ed="#P" n="60"/>dictis, quia tres tantum ordines assistunt, et
+          <lb ed="#P" n="61"/>sex ministrant, nihilominus tamen quoad 
+          nu<lb break="no" ed="#P" n="62"/>merum personarum, plures esse assistentes.
+          <lb ed="#P" n="63"/>Et hoc videtur probabilius. Primo, quia est
+          <lb ed="#P" n="64"/>magis consentaneum verbis Danielis 7, nam
+          <lb ed="#P" n="65"/>utrumque numerum ponit multiplicative, et
+          <lb ed="#P" n="66"/>in utroque ponit definitum numerum pro 
+          in<lb break="no" ed="#P" n="67"/>definito, cur enim potius unum, quam aliud
+          <lb ed="#P" n="68"/>membrum sic exponemus? et tamen posterius
+          <lb ed="#P" n="69"/>membrum posuit cum majori augmento: nam
+          <lb ed="#P" n="70"/>in priori dixit, millia millium, in posteriori
+          <lb ed="#P" n="71"/>vero utrumque numerum auxit, dicens, 
+          de<lb break="no" ed="#P" n="72"/>cies millies centena millia. Et haec significat
+          <lb ed="#P" n="73"/>Tertullianus, lib. cont. Praxeam, cap. 3, nam
+          <lb ed="#P" n="74"/>referens illa verba ordine inverso, de 
+          assisten<lb break="no" ed="#P" n="75"/>tibus, ait: Millies centies centena millia 
+          assis<lb break="no" ed="#P" n="76"/>tebant ei; de ministrantibus vero tantum dicit,
+          <lb ed="#P" n="77"/>et millies centena millia apparebant ei. Nam
+          <lb ed="#P" n="78"/>apparere, apud Tertullianum idem est, quod
+          <lb ed="#P" n="79"/>ministrare, et ministros vocat apparitores, ut
+          <lb ed="#P" n="80"/>patet libr. de Spectac., cap. 13, in fin., et ibi
+          <lb ed="#P" n="81"/>notat Pamelus, num. 151, et in Apolog., 
+          nu<lb break="no" ed="#P" n="82"/>mer. 198. Et idem sentit Cyrillus 
+          Hierosolo<lb break="no" ed="#P" n="83"/>mytanus, Cateches. 15, citans, Millia millium
+          <lb ed="#P" n="84"/>ininistrabant ci, et decem millia myriadum
+          <lb ed="#P" n="85"/>assistebant ei, et utrumque numerum 
+          inde<lb break="no" ed="#P" n="86"/>finitum esse declarat, dicens: Non quod tanta
+          <lb ed="#P" n="87"/>solum esset multitudo, sed quod iajorem 
+          Pro<lb break="no" ed="#P" n="88"/>pheta dicere non poierat. Et plane idem sentit
+          <lb ed="#P" n="89"/>Dionysius, cap. 14, de coelesti Hierarch. 
+          Ra<lb break="no" ed="#P" n="90"/>tionem ibi satis congruam addit D. Thomas,
+          <lb ed="#P" n="91"/>quia quo sunt perfectiores ordines Angelorum,
+          <lb ed="#P" n="92"/>eo in majori sunt numero: ita enim de 
+          ordi<lb break="no" ed="#P" n="93"/>nibus Angelorum, quoad augmentum 
+          quanti<lb break="no" ed="#P" n="94"/>tatis discretae, sicut de coelis, quoadaugmentum
+          <lb ed="#P" n="95"/>quantitatis continuae, conjectare possumus, 
+          si<lb break="no" ed="#P" n="96"/>cut in primo libro diximus. Et ideo verisimile
+          <lb ed="#P" n="97"/>est, plures Angelos esse in uno supremorum 
+          or<lb break="no" ed="#P" n="98"/>dinum, quam in pluribus inferioribus, ac 
+          pro<lb break="no" ed="#P" n="99"/>inde plures esse Angelos in tribus ordinibus
+          <lb ed="#P" n="100"/>supremis Angelorum assistentium, quam in
+          <lb ed="#P" n="101"/>sex inferioribus ministrantium. Unde a 
+          for<lb break="no" ed="#P" n="102"/>tiori sequitur multo plures Angelos, qui non
+          <lb ed="#P" n="103"/>mittuntur, quam qui mittuntur esse, cum 
+          An<lb break="no" ed="#P" n="104"/>geli, qui non mittuntur, plures sint, quam
+          <lb ed="#P" n="105"/>assistentes, quia comprehendunt assistentes,
+          <lb ed="#P" n="106"/>et addunt altiori modo ministrantes sine 
+          exe<lb break="no" ed="#P" n="107"/>cutione.
+        </p>
+        <p xml:id="szdada-x17049-d1e1986">
+          <lb ed="#P" n="108"/>27. Ex his concluditur auctoris sententia in
+          <lb ed="#P" n="109"/>n. 8. — Ex his ergo omnibus satis declarata
+          <lb ed="#P" n="110"/>est, et probata tota principalis assertio supra
+          <pb ed="#P" n="684"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>posita. Addidimus autem in illa, membra illa
+          <lb ed="#P" n="2"/>distinguenda esse ex vi status, et muneris, ac
+          <lb ed="#P" n="3"/>perfectionis uniuscujusque ordinis angelici,
+          <lb ed="#P" n="4"/>quia haec est veltui ordinaria lex, quam optima
+          <lb ed="#P" n="5"/>rerum dispositio postulat, estque perfectioni
+          <lb ed="#P" n="6"/>tam gratiae, quam naturae ipsorum Angelorum
+          <lb ed="#P" n="7"/>consentanea. Sed, quia haec lex non est 
+          om<lb break="no" ed="#P" n="8"/>nino naturalis, sed quasi positiva, quae pro 
+          ar<lb break="no" ed="#P" n="9"/>bitrio legislatoris solet exceptionem pati, ideo
+          <lb ed="#P" n="10"/>adhuc restat quaestio, inter opiniones supra
+          <lb ed="#P" n="11"/>citatas in num. 9, controversa, an in hac lege
+          <lb ed="#P" n="12"/>aliquando dispensetur, et assistentes Angeli ex
+          <lb ed="#P" n="13"/>Dei speciali voluntate interdum ad 
+          ministran<lb break="no" ed="#P" n="14"/>dum mittantur; vel e contrario, qui assistentes
+          <lb ed="#P" n="15"/>non sunt, interdum privilegium assistentium
+          <lb ed="#P" n="16"/>acciplant, novas rerum notitias ab ipso Deo
+          <lb ed="#P" n="17"/>immediate accipiendo. In quo puncto, quia de
+          <lb ed="#P" n="18"/>facto est (ut sic dicam) potius quam de jure,
+          <lb ed="#P" n="19"/>vix possumus aliquid definire: et ideo 
+          uni<lb break="no" ed="#P" n="20"/>cuique liberum erit, quam maluerit partem
+          <lb ed="#P" n="21"/>defendere. Sed ut hoc etiam cum fundamento
+          <lb ed="#P" n="22"/>fiat, et quia hoc factum maxime pendet ex 
+          di<lb break="no" ed="#P" n="23"/>vina voluntate libera, quae in Scriptura nobis
+          <lb ed="#P" n="24"/>revelatur: ideo in sequenti capite videbimus,
+          <lb ed="#P" n="25"/>quid de hoc puncto verisimilius ex Scriptura
+          <lb ed="#P" n="26"/>colligatur, et inde quid nobis de tota re 
+          pro<lb break="no" ed="#P" n="27"/>babilius videatur, concludemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

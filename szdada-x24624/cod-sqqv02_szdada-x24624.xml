@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="976"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x24624"><!-- l8c5 -->
+        <head xml:id="szdada-x24624-Hd1e101">Caput 5</head>
+        <head xml:id="szdada-x24624-Hd1e103" type="question-title">An tristitia daemonum de amissa gloria ad poenam damni vel sensus pertineat</head>
+        <p xml:id="szdada-x24624-d1e106">
+          <lb ed="#P" n="12"/>CAPUT V.
+          <lb ed="#P" n="13"/>AN TRISTITIA DAEMONUM DE AMISSA GLORIA AD 
+          POE<lb break="no" ed="#P" n="14"/>NAM DAMNI VEL SENSUS PERTINEAT.
+        </p>
+        <p xml:id="szdada-x24624-d1e115">
+          <lb ed="#P" n="15"/>1. Opinio prima tristitium demomm 
+          perti<lb break="no" ed="#P" n="16"/>nere ad penam sensus. — Hoc dubium nascitur
+          <lb ed="#P" n="17"/>ex his quae in tertia objectione superioris 
+          ca<lb break="no" ed="#P" n="18"/>pitis attinguntur. Et in eo multi affirmant 
+          per<lb break="no" ed="#P" n="19"/>tnere ad poenam sensus, quia, ut diximus,
+          <lb ed="#P" n="20"/>non dicitur in praesenti poena sensus, quia sensu
+          <lb ed="#P" n="21"/>corporeo percipiatur, sed quia ex malo cognito
+          <lb ed="#P" n="22"/>nascitur, sed tristitia illa de beatitudine amissa
+          <lb ed="#P" n="23"/>essentialiter pendet ex cognitione, seu 
+          appre<lb break="no" ed="#P" n="24"/>hensione talis privationis ut maxime 
+          discon<lb break="no" ed="#P" n="25"/>venienti; ergo talis tristitia ad poenam sensus
+          <lb ed="#P" n="26"/>pertinet. Et hanc sententiam indicat Soto in 4,
+          <lb ed="#P" n="27"/>d. 50, art. 4, concl. 1, in fine, quatenus ait,
+          <lb ed="#P" n="28"/>quod poena sensus est, quaecumque sensibilis
+          <lb ed="#P" n="29"/>laesio, et quaecumque tristitia, et aftlictio 
+          vo<lb break="no" ed="#P" n="30"/>luntatis, quae ex apprehensione rei nocivae, vel
+          <lb ed="#P" n="31"/>intellectuali, vel sensuali proficiscitur. Et e
+          <lb ed="#P" n="32"/>cialius dixerat in d. 16, q. 1, a. L, dubit. 2,
+          <lb ed="#P" n="33"/>post assertiones, illam tristitiam, et 
+          afflictio<lb break="no" ed="#P" n="34"/>nem, quae oritur ex carentia Dei, esse poonam
+          <lb ed="#P" n="35"/>sensus, licet ipsa carentia sit peena damni. Et
+          <lb ed="#P" n="36"/>hoc sequuntur Molina et Vasquez, et favere 
+          vi<lb break="no" ed="#P" n="37"/>dentur Bonaventura, Durandus, Paludanus, 
+          Ca<lb break="no" ed="#P" n="38"/>preolus, Gabriel, Bassolis et alii in 4, d. 22
+          <lb ed="#P" n="39"/>quatenus asserentes, in poena damni non esse
+          <lb ed="#P" n="40"/>magis vel minus, in hoc fundantur, quod
+          <lb ed="#P" n="41"/>poena damni consistit in pura et integra 
+          pri<lb break="no" ed="#P" n="42"/>vatione.
+        </p>
+        <p xml:id="szdada-x24624-d1e178">
+          <lb ed="#P" n="43"/>2. Opinio secunda contraria. — Contrarium
+          <lb ed="#P" n="44"/>sentiunt illi theologi, in quorum sententiam
+          <lb ed="#P" n="45"/>inclinavi in t. 4, de Poenit., disp. 13, sect. 2,
+          <lb ed="#P" n="46"/>n. 17, ubi in peena damni privativum, et 
+          po<lb break="no" ed="#P" n="47"/>sitivum distinxi; statim vero adjunxi hoc 
+          per<lb break="no" ed="#P" n="48"/>tinere tantum ad loquendi modum, et ad rem
+          <lb ed="#P" n="49"/>explicandam sine aequivocatione distinctionem
+          <lb ed="#P" n="50"/>illam ibi fuisse usurpatam. Eamdem vero 
+          sen<lb break="no" ed="#P" n="51"/>tentiam firmius tradit Malonius2, d. 6, disp. 21,
+          <lb ed="#P" n="52"/>dicens esse communem. Et u ex oto,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>in 4, d. 50, q. 6, in S Ad primam nesana |
+          <lb ed="#P" n="54"/>ait enim, poenam damni non esse solam caren- |
+          <lb ed="#P" n="55"/>tiam, quia sola illa pon esset poena, si non 
+          es<lb break="no" ed="#P" n="56"/>set olta seu involuntaria, et ita nolitionem |
+          <lb ed="#P" n="57"/>illius carentiae dixit pertinere ad poonam 
+          dam<lb break="no" ed="#P" n="58"/>ni: est autem illa nolitio quid positivum, et
+          <lb ed="#P" n="59"/>fere idem cum tristitia, vel proxima causa ejus.
+          <lb ed="#P" n="60"/>Idem sentit Gabriel, in 4, d. 22, art. 3, in fine,
+          <lb ed="#P" n="61"/>dicit enim, poenam damni quoad carentiam
+          <lb ed="#P" n="62"/>esse aequalem in omnibus; quoad tristitiam vero
+          <lb ed="#P" n="63"/>esse inaequalem, et postea loquitur de poena
+          <lb ed="#P" n="64"/>sensus tanquam de distincta: et eodem fere
+          <lb ed="#P" n="65"/>modo Paludanus ibi q. 1, n. 5, procedit.
+        </p>
+        <p xml:id="szdada-x24624-d1e234">
+          <lb ed="#P" n="66"/>3. Praedicte secundae opinionis assertum,
+          <lb ed="#P" n="67"/>poena damni salvatur in sola privatione. — Dico
+          <lb ed="#P" n="68"/>igitur breviter, poenam damni suflicienter 
+          sal<lb break="no" ed="#P" n="69"/>vari in sola privatione, et si esset sine ipsius
+          <lb ed="#P" n="70"/>cognitione, et consequenter ab omni tristitia,
+          <lb ed="#P" n="71"/>et afllictione separaretur. Hoc videtur esse
+          <lb ed="#P" n="72"/>coptra Scotum; idem tamen dlistincte 
+          expli<lb break="no" ed="#P" n="73"/>cavit Paludanus, et est communis sententia
+          <lb ed="#P" n="74"/>caeterorum auctorum. Et probatur ex 
+          supra<lb break="no" ed="#P" n="75"/>dictis contra eumdem Scotumquia tristitia non
+          <lb ed="#P" n="76"/>est de ratione poenae. Et eadem ratione nec
+          <lb ed="#P" n="77"/>involuntarium actuale per proprium actum
+          <lb ed="#P" n="78"/>elicitum, et consequenter neque cognitio 
+          no<lb break="no" ed="#P" n="79"/>cumenti est de intrinseca ratione poenae, sed
+          <lb ed="#P" n="80"/>satis est, quod sit malum aliquod propter 
+          cul<lb break="no" ed="#P" n="81"/>pam re ipsa inflictum. Quod manifeste probat
+          <lb ed="#P" n="82"/>exemplum de pueris in solooriginali 
+          deceden<lb break="no" ed="#P" n="83"/>tibus, nam privantur gratia et gloria 
+          perpe<lb break="no" ed="#P" n="84"/>tuo, et illa privatio est in illis poena damni,
+          <lb ed="#P" n="85"/>etiamsi fortasse non cognoscant illam .sub 
+          ra<lb break="no" ed="#P" n="86"/>tione nocumenti, nec de illa tristentur. Et in
+          <lb ed="#P" n="87"/>humanis poena pecuniaria poena damni erit,
+          <lb ed="#P" n="88"/>sive de illa tristetur, aut involuntarius sit, qui
+          <lb ed="#P" n="89"/>illam patitur, sive non.
+        </p>
+        <p xml:id="szdada-x24624-d1e289">
+          <lb ed="#P" n="90"/>4. Assertum alterum justitia, et mala alia
+          <lb ed="#P" n="91"/>ec damno secuta ad ipsam penam damni 
+          reda<lb break="no" ed="#P" n="92"/>cuntur. — Addo vero ulterius, quod licet illa
+          <lb ed="#P" n="93"/>privatio sit quasi essentialis poena damni, 
+          ni<lb break="no" ed="#P" n="94"/>hilominus alia mala, quae quasi intrinsece, vel
+          <lb ed="#P" n="95"/>necessario ad illam consequuntur in 
+          daemoni<lb break="no" ed="#P" n="96"/>bus, vel in aliis, qui propter propria peccata
+          <lb ed="#P" n="97"/>actualia illud damnum patientur, sub poena
+          <lb ed="#P" n="98"/>damni comprehendi. Tum quia frequentius
+          <lb ed="#P" n="99"/>theologi ita loquuntur, tum etiam quia 
+          acces<lb break="no" ed="#P" n="100"/>sorium sequitur principale, et proprietates ad
+          <lb ed="#P" n="101"/>essentiam reducuntur. Denique hoc loquendi
+          <lb ed="#P" n="102"/>modo libenter utor, quia ad explicandas 
+          sin<lb break="no" ed="#P" n="103"/>gulas poenas malorum Angelorum mihi 
+          accom<lb break="no" ed="#P" n="104"/>modatior est Ut autem hoc magis declarem,
+          <lb ed="#P" n="105"/>suppono, in omni poena, etiamsi maxime 
+          con<lb break="no" ed="#P" n="106"/>tristet, et sentiatur, involvi aliquod damnum,
+          <lb ed="#P" n="107"/>vel detrimentum, de quo dolor, seu tristitia
+          <pb ed="#P" n="977"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>esse possit. Non enim probo, quod quidam 
+          di<lb break="no" ed="#P" n="2"/>cunt, quoddam esse malum ea solum ratione
+          <lb ed="#P" n="3"/>disconveniens, quatenus sentitur et cogn 
+          o<lb break="no" ed="#P" n="4"/>scitur, et cognitum tristitiam affert, et hoc
+          <lb ed="#P" n="5"/>malum esse poenam sensus. Quia, si attente
+          <lb ed="#P" n="6"/>res consideretur, omne malum, si vere malum
+          <lb ed="#P" n="7"/>sit, priusquam cogmoscatur, et contristet, 
+          ma<lb break="no" ed="#P" n="8"/>lum est, et detrimentum, vel damnum dici
+          <lb ed="#P" n="9"/>potest. Nam illud objectum, quod cognitum
+          <lb ed="#P" n="10"/>contristat, non ideo disconveniens est, quia
+          <lb ed="#P" n="11"/>cognoscitur, sed potius quia disconveniens est,
+          <lb ed="#P" n="12"/>ideo tale judicatur, et tristitiam parit; ergo
+          <lb ed="#P" n="13"/>ante tristitiam et dolorem supponitur in 
+          ob<lb break="no" ed="#P" n="14"/>jecto disconvenientia, quae rationem damni,
+          <lb ed="#P" n="15"/>vel nocumenti habet, eamdemque habebit, si
+          <lb ed="#P" n="16"/>in reipsa inferatur et sustineatur, etiamsi 
+          for<lb break="no" ed="#P" n="17"/>tasse ignoretur.
+        </p>
+        <p xml:id="szdada-x24624-d1e372">
+          <lb ed="#P" n="18"/>5. Id patefit inductione. — Quod potest 
+          in<lb break="no" ed="#P" n="19"/>ductione ostendi in poenis temporalibus et
+          <lb ed="#P" n="20"/>spiritualibus. Nam tristitia de bonis amissis,
+          <lb ed="#P" n="21"/>vel ablatis supponit rationem disconvenientis,
+          <lb ed="#P" n="22"/>et damni in tali objecto. Et dolor sensibilis
+          <lb ed="#P" n="23"/>supponit laesionem aliquam in membro, quod
+          <lb ed="#P" n="24"/>dolet, et dolor de peccato supponit malitiam
+          <lb ed="#P" n="25"/>culpae naturae rationali disconvenientem, et
+          <lb ed="#P" n="26"/>sic de caeteris. Imo in ipsamet poena ignis 
+          in<lb break="no" ed="#P" n="27"/>ferni, quae per antonomasiam dicitur poena
+          <lb ed="#P" n="28"/>sensus, dolor talis poenae supponit aliquod 
+          ma<lb break="no" ed="#P" n="29"/>Ium nocivum aliquo modo spiritus, qui igne
+          <lb ed="#P" n="30"/>cruciatur, ut infra ostendemus. Quod quidem
+          <lb ed="#P" n="31"/>malum (loquendo de potentia absoluta) fieri
+          <lb ed="#P" n="32"/>posset in ipso spiritu, et ab ipso non cognosci,
+          <lb ed="#P" n="33"/>et consequenter de illo non dolere, et 
+          nihilo<lb break="no" ed="#P" n="34"/>minus vere esset malum, et disconveniens, et
+          <lb ed="#P" n="35"/>consequenter generalem rationem damni, vel
+          <lb ed="#P" n="36"/>detrimenti haberet. Ratio autem est, quia 
+          do<lb break="no" ed="#P" n="37"/>lor, vel tristitia est actus animi, qui versatur
+          <lb ed="#P" n="38"/>circa objectum: talis autem actus non facit
+          <lb ed="#P" n="39"/>objectum suum:; ergo supponitillud: objectum
+          <lb ed="#P" n="40"/>autem est malum disconveniens sub tali 
+          ra<lb break="no" ed="#P" n="41"/>tione cognitum; ergo dolor, et tristitia semper
+          <lb ed="#P" n="42"/>supponit in objecto aliquam rationem mali 
+          dis<lb break="no" ed="#P" n="43"/>tinctam ab ipsatristitia: et hanc praecise 
+          spec<lb break="no" ed="#P" n="44"/>tatam dicimus semper esse aliquid 
+          disconve<lb break="no" ed="#P" n="45"/>niens, quod rationem damni, vel detrimenti
+          <lb ed="#P" n="46"/>habet. Loquimur autem, ut dixi, de tristitia,
+          <lb ed="#P" n="47"/>ut est de vero malo, qualis est in daemonibus,
+          <lb ed="#P" n="48"/>nam aliquando potest esse tristitia de malo
+          <lb ed="#P" n="49"/>tantum apprehenso. Verumtamen etiam tunc
+          <lb ed="#P" n="50"/>est de malo sub ratione disconvenientis, et 
+          no<lb break="no" ed="#P" n="51"/>civi, et ita formaliter est de malo distincto ab
+          <lb ed="#P" n="52"/>ipsa tristitia.
+        </p>
+        <p xml:id="szdada-x24624-d1e450">
+          <lb ed="#P" n="53"/>6. Probatur jam secundum assertum.—Juxta
+          <lb ed="#P" n="54"/>hanc ergo considerationem in omni poena, quae
+          <lb ed="#P" n="55"/>sentitur, et contristat, conjunguntur damnum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et sensus damni; ergo si in privatione gloriae
+          <lb ed="#P" n="57"/>perpetua haec duo distinguuntur tanquam duae
+          <lb ed="#P" n="58"/>poenae damni et sensus, eadem ratione in ipsa
+          <lb ed="#P" n="59"/>poena ignis distinguendae erunt poena damni
+          <lb ed="#P" n="60"/>et sensus; nam damnum erit malum illud,
+          <lb ed="#P" n="61"/>quod per se, et immediate fit ab igne, sive 
+          il<lb break="no" ed="#P" n="62"/>lud sit violenta detentio in tali loco, sive sit in
+          <lb ed="#P" n="63"/>pretio alicujus qualitatis, sive aliquid simile:
+          <lb ed="#P" n="64"/>poena autem sensus erit tristitia, quae ex 
+          ap<lb break="no" ed="#P" n="65"/>prehensione talis mali provenit. Sicut ergo
+          <lb ed="#P" n="66"/>haec duo ibi non distinguuntur tanquam duae
+          <lb ed="#P" n="67"/>poenae, sed unam poenam sensus componere
+          <lb ed="#P" n="68"/>censentur, ita e contrario carentia gloriae cum
+          <lb ed="#P" n="69"/>tristitia, quae ex ejus cognitione causatur, non
+          <lb ed="#P" n="70"/>sunt duae poenae damni et sensus, sed una ex
+          <lb ed="#P" n="71"/>utraque composita, et (ut ita dicam) completa,
+          <lb ed="#P" n="72"/>et vitalis, quae per antonomasiam poena damni
+          <lb ed="#P" n="73"/>appellatur. Unde satis verisimiliter dici potest,
+          <lb ed="#P" n="74"/>quamvis illa duo in omni completa poena 
+          in<lb break="no" ed="#P" n="75"/>veniantur, nihilominus unamquamque 
+          deno<lb break="no" ed="#P" n="76"/>minari ab eo, quod gravius est, vel a puniente
+          <lb ed="#P" n="77"/>principalius intentum. Quia ergo in poena 
+          pri<lb break="no" ed="#P" n="78"/>vationis gloriae ipsum privationis malum 
+          gra<lb break="no" ed="#P" n="79"/>vius est, tristitia vero est veluti, quid 
+          conse<lb break="no" ed="#P" n="80"/>quens, et accessorium, ideo tota illa poena
+          <lb ed="#P" n="81"/>damni appellatur: e contrario vero in poena
+          <lb ed="#P" n="82"/>ignis dolor est principaliter intentus tanquam
+          <lb ed="#P" n="83"/>majus malum in illo genere poenae, et ideo tota
+          <lb ed="#P" n="84"/>illa poena sensus denominatur: quod tandem
+          <lb ed="#P" n="85"/>ex poenis humanis declarari potest. Nam 
+          poe<lb break="no" ed="#P" n="86"/>na infamiae, vel privationis bonorum per se
+          <lb ed="#P" n="87"/>primo fertur ad inferendum tale damnum, vel
+          <lb ed="#P" n="88"/>nocumentum: tristitia autem, quae inde sequi
+          <lb ed="#P" n="89"/>solet, ordinarie non est per se intenta, sed est
+          <lb ed="#P" n="90"/>tanquam quid consequens, et ideo poenam
+          <lb ed="#P" n="91"/>damni imitatur. At vero flagellatio magis 
+          infli<lb break="no" ed="#P" n="92"/>gitur propter dolorem, et per se loquendo illud
+          <lb ed="#P" n="93"/>est gravius ejus malum, et ideo quaedam 
+          poe<lb break="no" ed="#P" n="94"/>na sensus dici potest, quamvis fortasse aliquod
+          <lb ed="#P" n="95"/>aliud nocumentum adjunctum habeat. Juxta
+          <lb ed="#P" n="96"/>hanc ergo partitionem poenam damni prius
+          <lb ed="#P" n="97"/>explicabimus, et ad illam omnes poenas 
+          spiri<lb break="no" ed="#P" n="98"/>tuales, quas in intellectu, et voluntate sine 
+          ac<lb break="no" ed="#P" n="99"/>tione ignis patiuntur, revocabimus usque ad
+          <lb ed="#P" n="100"/>caput 10, postea vero de poena ignis dicemus,
+          <lb ed="#P" n="101"/>a capite 11.
+        </p>
+        <p xml:id="szdada-x24624-d1e561">
+          <lb ed="#P" n="102"/>7. Pro ultima probatione tertie objectionis
+          <lb ed="#P" n="103"/>positae capite praecedenti in num. 6, deciditur
+          <lb ed="#P" n="104"/>quaeestio an pana damni sit in omnibus equalis.
+          <lb ed="#P" n="105"/>—Pars prima decisionis.—Occurrebat autem
+          <lb ed="#P" n="106"/>prius illia dubitatio tacta in ultima probatione
+          <lb ed="#P" n="107"/>illiius tertiae objectionis, scilicet, an poena
+          <lb ed="#P" n="108"/>damni sit in omnibus daemonib us, vel 
+          damna<lb break="no" ed="#P" n="109"/>tis aequalis. Quam tractare solent theologi
+          <lb ed="#P" n="110"/>in materia de Peccat., et in materia de Paenit.,
+          <pb ed="#P" n="978"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ubi ego illam attigi. disp. 13, sect. 2, a n. 18.
+          <lb ed="#P" n="2"/>Et aliquam inaequalitatem in ipsa explicare
+          <lb ed="#P" n="3"/>studui cum pluribus antiquis et modernis,
+          <lb ed="#P" n="4"/>quos ibi allegavi, et plures refert Salas; ipse
+          <lb ed="#P" n="5"/>vero cum aliis, quos etiam refert, contrarium
+          <lb ed="#P" n="6"/>docet. Sed non libet de illa controversia iterum
+          <lb ed="#P" n="7"/>disputare; praesertim, quia si recte 
+          expenda<lb break="no" ed="#P" n="8"/>tur, ad modum loquendi pertinet, nam de re
+          <lb ed="#P" n="9"/>vix potest esse controversia. Quia, si in poena
+          <lb ed="#P" n="10"/>damni solum consideretur privatio physica
+          <lb ed="#P" n="11"/>gloriae, non est dubium quin sit in omnibus
+          <lb ed="#P" n="12"/>damnatis aequalis intensive, eo modo quo 
+          in<lb break="no" ed="#P" n="13"/>tensio in privatione inveniri potest: quia in
+          <lb ed="#P" n="14"/>omnibus est privatio totalis, quae formaliter,
+          <lb ed="#P" n="15"/>et in se non potest recipere magis et minus,
+          <lb ed="#P" n="16"/>quia totam formam excludit, ut docuit divus
+          <lb ed="#P" n="17"/>Thomas, 1, 2, quaest. 13, art. 2. At hoc modo
+          <lb ed="#P" n="18"/>etiam haec privatio in animabus Purgatorii
+          <lb ed="#P" n="19"/>tanta est intensive quanta in damnatis, et in
+          <lb ed="#P" n="20"/>eis etiam suo modo est poena damni. Quod 
+          se<lb break="no" ed="#P" n="21"/>cutus est in viatoribus, quia licet camdem 
+          glo<lb break="no" ed="#P" n="22"/>riae carentiam habeant, in eis tamen non est
+          <lb ed="#P" n="23"/>poeena proprie dicta, prout dicit respectum ad
+          <lb ed="#P" n="24"/>culpam, imo nec propriam rationem 
+          privatio<lb break="no" ed="#P" n="25"/>nis habet, sed merae negationis, quia viatori
+          <lb ed="#P" n="26"/>pro illo statu gloria non debetur, nec ipse est
+          <lb ed="#P" n="27"/>illius prosime capax. At vero extensive 
+          mul<lb break="no" ed="#P" n="28"/>tum excedit poena damni daemonum, poenam
+          <lb ed="#P" n="29"/>existentium in Purgatorio. Primo quidem ex
+          <lb ed="#P" n="30"/>parte formae qua privat, quia damnatos non
+          <lb ed="#P" n="31"/>solum privat gloria, sed etiam gratia, et omni
+          <lb ed="#P" n="32"/>virtute infusa et omni auxilio etiam sufficiente
+          <lb ed="#P" n="33"/>et omni spe habendi illum: at vero existentes
+          <lb ed="#P" n="34"/>in Purgatoriosolum privat actuali gloria et 
+          prin<lb break="no" ed="#P" n="35"/>cipiis ejus, non tamen gratia, nec virtutibus, vel
+          <lb ed="#P" n="36"/>auxiliis illi statui convenientibus. Et inde 
+          se<lb break="no" ed="#P" n="37"/>quitur alia inaequalitas etiam extensiva quoad
+          <lb ed="#P" n="38"/>durationem, nam in inferno poena damni est
+          <lb ed="#P" n="39"/>privatio aeterna, in Purgatorio vero temporalis.
+          <lb ed="#P" n="40"/>Quoad haec vero omnia est illa poena aequalis
+          <lb ed="#P" n="41"/>etiam extensive in omnibus damnatis quantum
+          <lb ed="#P" n="42"/>ad vim privationis attinet. In quo sensu dicit
+          <lb ed="#P" n="43"/>Jacobus, cap. 2, qui in uno offendit, factus est
+          <lb ed="#P" n="44"/>0niwm reus, utique quoad aeternam 
+          privatio<lb break="no" ed="#P" n="45"/>nem gratiae et gloriae, quantum est ex vi 
+          pec<lb break="no" ed="#P" n="46"/>cati mortalis, nisi in hac vita remittatur, ut
+          <lb ed="#P" n="47"/>sensit D. Thomas, 3 p., quaest. SS, art. 1, et
+          <lb ed="#P" n="48"/>aliis verbis idem dicitur Eccles. 9, juxta 
+          Hie<lb break="no" ed="#P" n="49"/>ronymi interpretationem in eum locum.
+        </p>
+        <p xml:id="szdada-x24624-d1e694">
+          <lb ed="#P" n="50"/>8. Secunda pars decisionis. — Nihilominus
+          <lb ed="#P" n="51"/>tamen si sub poena damni tristitia includatur,
+          <lb ed="#P" n="52"/>quam damnatis infert,sinc dubio non est 
+          aequa<lb break="no" ed="#P" n="53"/>lis poena damni etiam intensive in omnibus
+          <lb ed="#P" n="54"/>damnatis, seu daemonibus, ut Paludauus et
+          <lb ed="#P" n="55"/>Gabriel notarunt, quia majorem tristitiam de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>carentia gloriae percipiet,qui propter plura 
+          pec<lb break="no" ed="#P" n="57"/>cata damnatus est, nam hoc saltem postulat
+          <lb ed="#P" n="58"/>justitia, ut ratio in objectione facta probat. Et
+          <lb ed="#P" n="59"/>ex dictis de poena infantium optimedeclaratur,
+          <lb ed="#P" n="60"/>quia in illis haec poena est minima, quia est sine
+          <lb ed="#P" n="61"/>ulla tristitia, et respondet culpae, quae habenti
+          <lb ed="#P" n="62"/>minus quam caeterae imputatur: ita ergo 
+          pote<lb break="no" ed="#P" n="63"/>rit illa poena quoad tristitiam esse major, vel
+          <lb ed="#P" n="64"/>minor pro gravitate peccatorum. Et haec sunt
+          <lb ed="#P" n="65"/>quae ad rem pertinent.
+        </p>
+        <p xml:id="szdada-x24624-d1e734">
+          <lb ed="#P" n="66"/>9. Tertia pars decisionis. — Ex his vero 
+          sa<lb break="no" ed="#P" n="67"/>tis probabiliter colligitur, illam poonam etiam
+          <lb ed="#P" n="68"/>quoad privationem esse majorem in uno quamin
+          <lb ed="#P" n="69"/>alio in ratione gravioris mali et damni. Proba
+          <lb ed="#P" n="70"/>tur, quia cum illa tristitia sit effectus illius 
+          nocu<lb break="no" ed="#P" n="71"/>menti cogniti, satis verisimiliter ex 
+          inaequali<lb break="no" ed="#P" n="72"/>tate effectus infertur inaequalitas in causa.
+          <lb ed="#P" n="73"/>Deinde declaratur in hunc modum, quia licet
+          <lb ed="#P" n="74"/>privatio gloriae sit in se quodammodo infinita,
+          <lb ed="#P" n="75"/>quatenus gloria posset esse major, et major in
+          <lb ed="#P" n="76"/>infinitum, nihilominus non tota illa privatio
+          <lb ed="#P" n="77"/>apprehenditur a damnato, ut poena suae culpae,
+          <lb ed="#P" n="78"/>quia non apprehendit totam illam gloriam
+          <lb ed="#P" n="79"/>fuisse sibi possibilem in omni gradu, nec in
+          <lb ed="#P" n="80"/>alio fortasse determinato valde magno: ergo
+          <lb ed="#P" n="81"/>possunt damnati apprehendere gloriam ut a
+          <lb ed="#P" n="82"/>se amissam in gradibus distinctis, et 
+          inaequa<lb break="no" ed="#P" n="83"/>libus, atque ita illa privatio in ratione poenae
+          <lb ed="#P" n="84"/>damni poterit in eis esse inaequalis. Nec talis
+          <lb ed="#P" n="85"/>apprehensio erit conficta, sed cum fundamento
+          <lb ed="#P" n="86"/>in operibus eorum, et sufficienti ordinatione
+          <lb ed="#P" n="87"/>ex parte Dei. Ut, verbi gratia, in Lucifero 
+          in<lb break="no" ed="#P" n="88"/>telligere possumus majorem poenam damni
+          <lb ed="#P" n="89"/>quem in caeteris, quia cognoscit se privatum
+          <lb ed="#P" n="90"/>esse majori gloria, ad quam sufficienter 
+          ordi<lb break="no" ed="#P" n="91"/>natus erat, quamque consecutus esset, si in eo
+          <lb ed="#P" n="92"/>actu, in quo peccavit: eam rectitudinem 
+          adhi<lb break="no" ed="#P" n="93"/>buisset, quam posset, et debuisset. Idemque
+          <lb ed="#P" n="94"/>cum proportione in aliis malis Angelis 
+          consi<lb break="no" ed="#P" n="95"/>derari potest. Et hoc modo censeo esse hanc
+          <lb ed="#P" n="96"/>senteutiam satis probabilem, quia et possibilis
+          <lb ed="#P" n="97"/>est, et per se statim apparet justitiae 
+          consenta<lb break="no" ed="#P" n="98"/>nea, nec contra illam fiunt objectiones 
+          alicu<lb break="no" ed="#P" n="99"/>jus momenti, et illam multum indicat Scotus
+          <lb ed="#P" n="100"/>in loco citato, nec est diversa ab illa, quam in
+          <lb ed="#P" n="101"/>citato loco, quarto tomo, docuimus, sed illam
+          <lb ed="#P" n="102"/>magis explicat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

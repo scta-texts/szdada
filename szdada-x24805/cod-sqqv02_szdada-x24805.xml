@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="983"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x24805"><!-- l8c7 -->
+        <head xml:id="szdada-x24805-Hd1e101">Caput 7</head>
+        <head xml:id="szdada-x24805-Hd1e103" type="question-title">Utrum voluntas daemonis per damnationem manserit obstinata in malo, quod in via commisit, ita ut in perpetuum retrocedere non possit</head>
+        <p xml:id="szdada-x24805-d1e106">
+          <lb ed="#P" n="27"/>CAPUT VII.
+          <lb ed="#P" n="28"/>UTRUM VOLUNTAS DAEMONIS PER DAMNATIONEM
+          <lb ed="#P" n="29"/>MANSERIT OBSTINATA IN MALO, QUOD IN VIA
+          <lb ed="#P" n="30"/>COMMISIT, ITA UT IN PERPETUUM RETROCEDERE
+          <lb ed="#P" n="31"/>NON POSSIT.
+        </p>
+        <p xml:id="szdada-x24805-d1e119">
+          <lb ed="#P" n="32"/>1. Obstinatio in daemonibus duplex. — Error
+          <lb ed="#P" n="33"/>admittentium aliguando penitentium in demon.
+          <lb ed="#P" n="34"/>— Post mentis excaecationem sequitur 
+          obstina<lb break="no" ed="#P" n="35"/>tio voluntatis in malo, quae duplex cogitari
+          <lb ed="#P" n="36"/>potest. Una est, circa malum semel 
+          commis<lb break="no" ed="#P" n="37"/>sum, ita adhaerendo, et complacendo in illo,
+          <lb ed="#P" n="38"/>ut illum affectum daemon mntare non possit.
+          <lb ed="#P" n="39"/>Alia est, cirea malum futurum, seu in 
+          ipso<lb break="no" ed="#P" n="40"/>met statu damnationis committendum, et sic
+          <lb ed="#P" n="41"/>proprie dicetur illa voluntas obstinata in malo,
+          <lb ed="#P" n="42"/>quae non potest nisi male operari. De hoc 
+          pos<lb break="no" ed="#P" n="43"/>teriori modo dicemus in capite sequenti: nunc
+          <lb ed="#P" n="44"/>tantum de priori agimus. In quo ante omnia
+          <lb ed="#P" n="45"/>supponenda est catholica doctrina, quae docet,
+          <lb ed="#P" n="46"/>daemones ita esse obstinatos in peccato 
+          com<lb break="no" ed="#P" n="47"/>misso, propter quod damnati sunt, ut illius
+          <lb ed="#P" n="48"/>remissionem in aeternum non sint consecuturi,
+          <lb ed="#P" n="49"/>nec illam possint obtinere. Contra quam 
+          veri<lb break="no" ed="#P" n="50"/>tatem fuit antiquus error dicestium, 
+          malo<lb break="no" ed="#P" n="51"/>rum Angelorum damnationem non fore 
+          per<lb break="no" ed="#P" n="52"/>petuam, sed aliquando post longa tempora ac-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>turos esse poenitentiam, per quam et veniam
+          <lb ed="#P" n="54"/>peccati obtineant, et in ceelum redeant, quia
+          <lb ed="#P" n="55"/>illos etiam Christus sua morte redemit. Hunc
+          <lb ed="#P" n="56"/>errorem tribuit Origeni Epiphanius, in Epist.,
+          <lb ed="#P" n="57"/>ad Joannem Hierosol., circa medium, et 
+          Augus<lb break="no" ed="#P" n="58"/>tinus, lib. de Haeres., in 43, ubi ait, in hoc nec
+          <lb ed="#P" n="59"/>falso Origenem reprehendi, nec ab ejus 
+          defen<lb break="no" ed="#P" n="60"/>soribus excusari posse. Idem fere habet, lib. 21,
+          <lb ed="#P" n="61"/>de Civitat., cap. 17.
+        </p>
+        <p xml:id="szdada-x24805-d1e189">
+          <lb ed="#P" n="62"/>2. Hieronymus etiam in Epist. 95 ad 
+          Avi<lb break="no" ed="#P" n="63"/>tum, inter errores Origenis hunc refert, et
+          <lb ed="#P" n="64"/>idem repetit in Epist. 65b ad Pammachium
+          <lb ed="#P" n="65"/>et Oceanum, ubi vehementer invehitur 
+          con<lb break="no" ed="#P" n="66"/>tra Origenem, nec ullam pro eo 
+          excusatio<lb break="no" ed="#P" n="67"/>nem admittit, eumdem errorem impugnat,
+          <lb ed="#P" n="68"/>Jonae 3, et in Apologia contra Ruffinum, lib.
+          <lb ed="#P" n="69"/>1, circa finem. Et libr. 2, non longe a 
+          princi<lb break="no" ed="#P" n="70"/>pio, eumdem errorem tanquam Origenis 
+          dam<lb break="no" ed="#P" n="71"/>nat, et seipsum defendit a calumnia 
+          Rufti<lb break="no" ed="#P" n="72"/>ni, qui eumdem ipsi Hieronymo tribuebat
+          <lb ed="#P" n="73"/>propter ea, quae super Epistol. ad Ephes.,
+          <lb ed="#P" n="74"/>referendo potius, quam asserendo, vel 
+          appro<lb break="no" ed="#P" n="75"/>bando scripsit, ut ipse declarat. Quae 
+          declara<lb break="no" ed="#P" n="76"/>tio ad alia similia loca, ut capit. 1 et 2 Isaiae,
+          <lb ed="#P" n="77"/>et Dialogo 1, contra Pelagianos, applicanda est.
+          <lb ed="#P" n="78"/>Quamwis in aliis locis, ubi Hieronymus indicat,
+          <lb ed="#P" n="79"/>poenas inferni esse temporales, de poenis 
+          Pur<lb break="no" ed="#P" n="80"/>gatorii loquatur, ut exponit Sixtus, libr. 6,
+          <lb ed="#P" n="81"/>Bibloth., annotat. 290. Denique idem error
+          <lb ed="#P" n="82"/>contra Origenem in quinta Synodo damnatus
+          <lb ed="#P" n="83"/>est, ut refert Nicephorus, lib. 17, cap.27, et 
+          re<lb break="no" ed="#P" n="84"/>fertur in 2 tom. Conciliorum, in praefat. ad
+          <lb ed="#P" n="85"/>eamdem Synodum. Et eodem modo damnatur
+          <lb ed="#P" n="86"/>in sexta Synodo, act. 11, in Epistol. Sapnonii,
+          <lb ed="#P" n="87"/>qui damnationem quintae Synodi ibid. refert.
+          <lb ed="#P" n="88"/>Non desunt tamen, qui Origenem ab hoc 
+          er<lb break="no" ed="#P" n="89"/>rore excusent, dicentes, vel ab haereticis fuisse
+          <lb ed="#P" n="90"/>libris ejus insertum, vel si aliquando illum
+          <lb ed="#P" n="91"/>habuit, in eo non permansisse, ut videri potest
+          <lb ed="#P" n="92"/>in Soto in 4, dist. 50, art. 1, Sixto Senensi,
+          <lb ed="#P" n="93"/>lib. 5, Biblioth., annot. 126, et Merlino, in
+          <lb ed="#P" n="94"/>Apologia 1, pro Origene, et Pico Mirandula in
+          <lb ed="#P" n="95"/>Apologia, quaest. 7, qui varia congerunt loca
+          <lb ed="#P" n="96"/>ex libris Origenis, in quibus sententiam 
+          catho<lb break="no" ed="#P" n="97"/>licam docere videtur. Sed nobis necessarium
+          <lb ed="#P" n="98"/>non est in hoc immorari. Videatur Sanderus,
+          <lb ed="#P" n="99"/>lib. 7, de Visibi monarchia, haeresi 46, et
+          <lb ed="#P" n="100"/>Castro, verbo Beatitudo, haeresi 3.
+        </p>
+        <p xml:id="szdada-x24805-d1e277">
+          <lb ed="#P" n="101"/>3. Assertio ceriía demones esse in peccato
+          <lb ed="#P" n="102"/>suo obstinatos. — Veritas ergo catholica est,
+          <lb ed="#P" n="103"/>malos Angelos ad poenas perpetuas damnatos
+          <lb ed="#P" n="104"/>esse, ac proinde nunquam esse acturos veram
+          <lb ed="#P" n="105"/>suorum peccatorum poenitentiam, per quam
+          <lb ed="#P" n="106"/>veniam consequi possint, atque iu hoc sensu
+          <lb ed="#P" n="107"/>esse in peccato suo obs*inatos. Eaec veritas ba-
+          <pb ed="#P" n="984"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>betur expresse in Scriptura, Matth. 25: 7te in
+          <lb ed="#P" n="2"/>ignem eternum, qui paratus est diabolo et 
+          An<lb break="no" ed="#P" n="3"/>gelis ejus. Et infra: Thunt hi in supplicium
+          <lb ed="#P" n="4"/>cternum. Et Marc. 9, Christus ait, ubi vermis
+          <lb ed="#P" n="5"/>non moritur, et ignis non extinguitur. Et ideo,
+          <lb ed="#P" n="6"/>Ecclesiast. 11, dicitur: Si ceciderit lignum ad
+          <lb ed="#P" n="7"/>Austrum, aut ad Aquilonem, in quocumque loco
+          <lb ed="#P" n="8"/>ceciderit, ibi erit. Quam sententiam 
+          Hierony<lb break="no" ed="#P" n="9"/>mus, Olympiodorus, et alii de perpetuitate
+          <lb ed="#P" n="10"/>poenarum inferni interpretantur. Denique 
+          Apo<lb break="no" ed="#P" n="11"/>calyps. 20, de diabolo dicitur: Missus est in
+          <lb ed="#P" n="12"/>stagnum ignis, et fulguris, ubi et bestia, et
+          <lb ed="#P" n="13"/>Pseudopropheta cruciabuntur die ac nocte in
+          <lb ed="#P" n="14"/>secula seculorum, et idem fere habetur in
+          <lb ed="#P" n="15"/>cap. 14. Secundo, definita est haec veritas in
+          <lb ed="#P" n="16"/>dicta quinta Synodo, et in sexta, act.16, ubi
+          <lb ed="#P" n="17"/>Epist. Sophronii approbatur, et in Concilio 
+          La<lb break="no" ed="#P" n="18"/>teranensi sub Innocentio IT, quod habetur in
+          <lb ed="#P" n="19"/>cap. F'irmiter, de Summ. Trinit., etc., de 
+          re<lb break="no" ed="#P" n="20"/>probis definitur, quod cum diabolo penam
+          <lb ed="#P" n="21"/>perpetuam recipient. Tertio passim traditur
+          <lb ed="#P" n="22"/>haec veritas a Patribus, sed in re adeo 
+          mani<lb break="no" ed="#P" n="23"/>festa secundum fidem supra allegati sufficiunt,
+          <lb ed="#P" n="24"/>et inferius tractando de poena ignis plures 
+          af<lb break="no" ed="#P" n="25"/>feremus.
+        </p>
+        <p xml:id="szdada-x24805-d1e353">
+          <lb ed="#P" n="26"/>4. Probatur ratione. — Vide in tractatu de
+          <lb ed="#P" n="27"/>Peccatis d. 1, quest. 3. — Ratio autem hujus
+          <lb ed="#P" n="28"/>veritatis est, quia ex lege DET aeterna poena
+          <lb ed="#P" n="29"/>pro singulis peccatis mortalibus definita est,
+          <lb ed="#P" n="30"/>ut ex citatis locis constat. Et ipsum peccatum
+          <lb ed="#P" n="31"/>grave contra Deum, et avertens ab illo, ex se
+          <lb ed="#P" n="32"/>talem poenam meretur, et ideo mortale 
+          dici<lb break="no" ed="#P" n="33"/>tur, ut in tractatu de Peccatis latius 
+          disputan<lb break="no" ed="#P" n="34"/>dum et probandum est. Peccatum autem 
+          An<lb break="no" ed="#P" n="35"/>geli gravissimum fuit, et maxime a Deo, uta
+          <lb ed="#P" n="36"/>fine ultimo avertens, ut in superiori libro 
+          pro<lb break="no" ed="#P" n="37"/>batum est; ergo illi debetur poena aeterna.
+          <lb ed="#P" n="38"/>Quia vero perpetua duratio hujus poenae 
+          pen<lb break="no" ed="#P" n="39"/>det in execntione (ut sic dicam) ex perpetua
+          <lb ed="#P" n="40"/>duratione culpae habitualis, seu maculae quia
+          <lb ed="#P" n="41"/>si culpa remittatur, eo ipso reatus poenae 
+          aeter<lb break="no" ed="#P" n="42"/>nae tollitur), ideo ex illo principio fidei, quod
+          <lb ed="#P" n="43"/>poena daemonum in aeternum durabit, 
+          eviden<lb break="no" ed="#P" n="44"/>ter, et cum eadem certitudine concluditur,
+          <lb ed="#P" n="45"/>peccatum daemonum quoad culpam et 
+          macu<lb break="no" ed="#P" n="46"/>lam in aeternum esse duraturum.
+        </p>
+        <p xml:id="szdada-x24805-d1e401">
+          <lb ed="#P" n="47"/>5. Ex quo ulterius cum eadem certitudine
+          <lb ed="#P" n="48"/>colligitur, daemones nunquam acturos esse 
+          poe<lb break="no" ed="#P" n="49"/>nitentiam veram sui peccati in aeternum. 
+          Pro<lb break="no" ed="#P" n="50"/>batur, quia, ut supra dictum est, si eos sui 
+          pec<lb break="no" ed="#P" n="51"/>cati vere poenituisset, vel aliquando poeniteret,
+          <lb ed="#P" n="52"/>illius remissionem obtinerent; nam regula certa
+          <lb ed="#P" n="53"/>divina misericordia est, ut vere 
+          poenitenti<lb break="no" ed="#P" n="54"/>bus veniam non neget: ergo si daemones 
+          nun<lb break="no" ed="#P" n="55"/>quam sunt remissionem peccati consecuturi,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nec etiam sunt veram poenitentiam acturi. Et
+          <lb ed="#P" n="57"/>hinc tandem infertur non habere daemones 
+          po<lb break="no" ed="#P" n="58"/>testatem ad hujusmodi poenitentiam agendam;
+          <lb ed="#P" n="59"/>nam si haberent potestatem, haberent etiam
+          <lb ed="#P" n="60"/>libertatem, et consequenter non essent extra
+          <lb ed="#P" n="61"/>statum salutis, quia possent salvari.Unde etiam
+          <lb ed="#P" n="62"/>contingere posset, ut aliquis eorum aliquando
+          <lb ed="#P" n="63"/>ponitentiam ageret, et salvaretur: hoc autem
+          <lb ed="#P" n="64"/>est simpliciter impossibile, secundum 
+          catholi<lb break="no" ed="#P" n="65"/>cam fidem; ergo absolute non possunt veram
+          <lb ed="#P" n="66"/>poenitentiam agere peccati commissi. Haec 
+          au<lb break="no" ed="#P" n="67"/>tem impotentia est obstinatioin peccato, de qua
+          <lb ed="#P" n="68"/>nunc tractamus: ergo eadem certitudine 
+          tenen<lb break="no" ed="#P" n="69"/>dum est daemones esse hoc modo in peccato in
+          <lb ed="#P" n="70"/>via commisso obstinatos.
+        </p>
+        <p xml:id="szdada-x24805-d1e458">
+          <lb ed="#P" n="71"/>Quanam sit causa praedicte obstinationis.
+        </p>
+        <p xml:id="szdada-x24805-d1e463">
+          <lb ed="#P" n="72"/>6. Arguitur quod non sitcoluntas ipsa 
+          deemo<lb break="no" ed="#P" n="73"/>num.— Arguitur deinde, quod non sit voluntas
+          <lb ed="#P" n="74"/>Dei.—biffcultas vero est, quae sit causa hujus
+          <lb ed="#P" n="75"/>obstinationis, nam vel est voluntas Dei, vel 
+          vo<lb break="no" ed="#P" n="76"/>Iuntas ipsiusmet daemonis (alia enim causa,
+          <lb ed="#P" n="77"/>praesertim ex necessitate inducens talem 
+          obsti<lb break="no" ed="#P" n="78"/>nationem cogitari non potest). Neutra autem
+          <lb ed="#P" n="79"/>ex illis voluntatibus videtur esse posse 
+          suffi<lb break="no" ed="#P" n="80"/>ciens causa talis obstinationis. Non quidem
+          <lb ed="#P" n="81"/>voluntas daemonis, quia illa de se libera est ad
+          <lb ed="#P" n="82"/>detestandum peccatum commissum. Quod si
+          <lb ed="#P" n="83"/>fortasse non potest illud detestari, sicut oportet
+          <lb ed="#P" n="84"/>ad remissionem peccati obtinendam, jam illi
+          <lb ed="#P" n="85"/>hoc non imputabitur, et consequenter nec 
+          ef<lb break="no" ed="#P" n="86"/>fectus obstipationis inde secutus imputabitur
+          <lb ed="#P" n="87"/>illi; ergo ejus voluntas non est causa talis 
+          ob<lb break="no" ed="#P" n="88"/>stinationis. Confirmatur, ac declaratur, quia
+          <lb ed="#P" n="89"/>voluntas daemonis vel est causa suae 
+          obstina<lb break="no" ed="#P" n="90"/>tionis non agendo quod potest, et debet, vel
+          <lb ed="#P" n="91"/>aliquid agendo incompossibile cum poenitentia
+          <lb ed="#P" n="92"/>peccati. Primum non sufficit ad impotentiam
+          <lb ed="#P" n="93"/>poenitendi, cum rational agenti liberum sit
+          <lb ed="#P" n="94"/>agere quod potest, et consequenter illa non
+          <lb ed="#P" n="95"/>potest esse sufficiens causa obstinationis. Nec
+          <lb ed="#P" n="96"/>etiam secundum dici potest, quia oporteret 
+          ta<lb break="no" ed="#P" n="97"/>lem actum excludentem poenitentiam, vel 
+          po<lb break="no" ed="#P" n="98"/>tius inducentem impotentiam poenitendi, esse
+          <lb ed="#P" n="99"/>simpliciter immutabilem, ac necessarium,
+          <lb ed="#P" n="100"/>quoad exercitium in voluntate daemonis: 
+          nul<lb break="no" ed="#P" n="101"/>Ius autem talis actus potest cum fundamento
+          <lb ed="#P" n="102"/>daemoni attribui; ergo nullo modo voluntas
+          <lb ed="#P" n="103"/>daemonis potest esse causa obstinationis suae.
+          <lb ed="#P" n="104"/>Nec etiam voluntas Dei. Quia Deus non potest
+          <lb ed="#P" n="105"/>esse auctor mali culpae; ergo nec obstinationis
+          <lb ed="#P" n="106"/>in illo. Probatur consequentia, quia sicut 
+          ejus<lb break="no" ed="#P" n="107"/>dem virtutis est conservare aliquam rem, et
+          <lb ed="#P" n="108"/>facere illam, ita ejusdem deformitatis est con-
+          <pb ed="#P" n="985"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>servare culpam, et facere illam: sed causare
+          <lb ed="#P" n="2"/>obstinationem, idem est, quod conservare 
+          cul<lb break="no" ed="#P" n="3"/>pam; ergo ita repugnat DEO esse causam 
+          ob<lb break="no" ed="#P" n="4"/>stinationis, sicut esse auctorem culpae.
+        </p>
+        <p xml:id="szdada-x24805-d1e559">
+          <lb ed="#P" n="5"/>7. Ad resolutionem hujus puncti 
+          distinguen<lb break="no" ed="#P" n="6"/>da sunt duo, quae in hac obstinatione 
+          inve<lb break="no" ed="#P" n="7"/>niuntur. Unum est, perpetua duratio culpae,
+          <lb ed="#P" n="8"/>seu maculae ex peccato relictae, quam nunc
+          <lb ed="#P" n="9"/>claritatis gratia supponimus, esse privationem
+          <lb ed="#P" n="10"/>gratiae ut voluntariam ex habitudine ad 
+          prae<lb break="no" ed="#P" n="11"/>cedens actuale peccatum. Aliud est, carentia
+          <lb ed="#P" n="12"/>poenitentiae, seudispositionisnecessariae ad 
+          gra<lb break="no" ed="#P" n="13"/>tiam expellentem talem culpam: vel potius
+          <lb ed="#P" n="14"/>impotentia ad hujusmodi dispositionem 
+          haben<lb break="no" ed="#P" n="15"/>dam. Haec enim est propria, et immediata 
+          cau<lb break="no" ed="#P" n="16"/>sa, ex qua necessario sequitur impoenitentia
+          <lb ed="#P" n="17"/>actualis, et consequenter permanentia in statu
+          <lb ed="#P" n="18"/>culpae. Utrumque autem horum, scilicet, 
+          per<lb break="no" ed="#P" n="19"/>manentia in culpa, et impotentia poenitendi,
+          <lb ed="#P" n="20"/>potest nomine obstinationis significari, seu
+          <lb ed="#P" n="21"/>utrumque completa obstinatio includit, ut in
+          <lb ed="#P" n="22"/>simili docuit D. Thomas, 1, 2, q 79, a. 3, et
+          <lb ed="#P" n="23"/>alii auctores tractantes de obduratione peccati,
+          <lb ed="#P" n="24"/>quae in aliquibus peccatoribus solet, etiam in
+          <lb ed="#P" n="25"/>statu viae inveniri, quae minor quidem est,
+          <lb ed="#P" n="26"/>quam obstinatio damnatorum: suo tamen 
+          mo<lb break="no" ed="#P" n="27"/>do etiam includit denegationem divinae gratiae,
+          <lb ed="#P" n="28"/>et auxilii efficacis, vel abundantis, et culpam,
+          <lb ed="#P" n="29"/>ac perseverantiam in illa supponit. Deinde 
+          du<lb break="no" ed="#P" n="30"/>plex causa obdurationis cogitari potest, una
+          <lb ed="#P" n="31"/>quasi positive conservans culpam, in qua 
+          dae<lb break="no" ed="#P" n="32"/>mon permanet, vel positive impediens illum,
+          <lb ed="#P" n="33"/>ne poenitere possit. Alia est causa tantum 
+          pri<lb break="no" ed="#P" n="34"/>vativa, seu negativa, qualis est causa non 
+          des<lb break="no" ed="#P" n="35"/>truens, vel non remittens culpam, vel non
+          <lb ed="#P" n="36"/>tollens impedimentum, seu impotentiam 
+          poe<lb break="no" ed="#P" n="37"/>nitendi, aut se disponendi ad remissionem 
+          cul<lb break="no" ed="#P" n="38"/>pae. Denique potest sermo esse de physica, vel
+          <lb ed="#P" n="39"/>morali causa talis effectus.
+        </p>
+        <p xml:id="szdada-x24805-d1e638">
+          <lb ed="#P" n="40"/>8. Prima assertio in hoc puncto permanentia
+          <lb ed="#P" n="41"/>habitualis macule caret positiva causa physica
+          <lb ed="#P" n="42"/>vel morali. — Primo ergo, quoad priorem 
+          par<lb break="no" ed="#P" n="43"/>tem obstinationis, quae est permanentia in
+          <lb ed="#P" n="44"/>habituali culpa, dicendum est, non habere
+          <lb ed="#P" n="45"/>causam positive conservantem ipsam (vel
+          <lb ed="#P" n="46"/>physice, aut moraliter) nec indigere illa, imo
+          <lb ed="#P" n="47"/>nec proprie esse capacem illius. Probatur, quia
+          <lb ed="#P" n="48"/>ipsa culpa, quae habitualiter manet, non est
+          <lb ed="#P" n="49"/>aliquid positivum, sed est quaedam privatio
+          <lb ed="#P" n="50"/>cum habitudine ad a:tum moraliter malum
+          <lb ed="#P" n="51"/>praeteritum: sed privatio non conservatur per
+          <lb ed="#P" n="52"/>positivam actionem; ergo ad obstinationem
+          <lb ed="#P" n="53"/>quoad hanc partem non est necessaria positiva
+          <lb ed="#P" n="54"/>causa. Consequentia est clara, et major 
+          suppo<lb break="no" ed="#P" n="55"/>nitur. Minor autem quoad causam physicam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>per se evidens est, quia repugnat privationem
+          <lb ed="#P" n="57"/>puram, id est, quae non sequitur ad 
+          introduc<lb break="no" ed="#P" n="58"/>tionem positivae formae, fieri per actionem 
+          po<lb break="no" ed="#P" n="59"/>sitivam, ut in philosophia manifestum est; ergo
+          <lb ed="#P" n="60"/>eodem modo repugnat talem privationem 
+          con<lb break="no" ed="#P" n="61"/>servari perpositivum influxum physicum 
+          alicu<lb break="no" ed="#P" n="62"/>jus causae. Haec autem privatio, de qua agimus,
+          <lb ed="#P" n="63"/>non provenit ex positiva forma permanente
+          <lb ed="#P" n="64"/>incompossibili gratiae, sed est pura carentia;
+          <lb ed="#P" n="65"/>ergo non indiget positiva causa conservante
+          <lb ed="#P" n="66"/>rationem talis privationis. Nec etiam illa 
+          indi<lb break="no" ed="#P" n="67"/>get ratione habitudinis ad praeteritum actuale
+          <lb ed="#P" n="68"/>peccatum, tum quia illa non est aliquid 
+          physi<lb break="no" ed="#P" n="69"/>cum, et reale, sed rationis, seu morale; tum
+          <lb ed="#P" n="70"/>etiam quia durante privatione necessario 
+          re<lb break="no" ed="#P" n="71"/>sultat, seu durat, quia praeteritum actum 
+          res<lb break="no" ed="#P" n="72"/>picit. Et eadem ratione facile probatur minor,
+          <lb ed="#P" n="73"/>quoad moralem causam positivam, scilicet 
+          ne<lb break="no" ed="#P" n="74"/>cessariam non esse ad durationem, seu 
+          perpe<lb break="no" ed="#P" n="75"/>tuam conservationem obstinationis quoad 
+          sta<lb break="no" ed="#P" n="76"/>tum culpae. Quia hujusmodi status, seu 
+          habi<lb break="no" ed="#P" n="77"/>tualis culpa non pendet ex nova culpa actuali,
+          <lb ed="#P" n="78"/>nec ex novo demerito, nec ex positiva 
+          disposi<lb break="no" ed="#P" n="79"/>tione morali, nec denique ex aliquo alio morali
+          <lb ed="#P" n="80"/>influxu, qui per positivam actionem cogitari
+          <lb ed="#P" n="81"/>possit. Quoad hanc ergo partem cessat 
+          difficul<lb break="no" ed="#P" n="82"/>tas tacta, quia nec ex parte Dei, nec ex parte
+          <lb ed="#P" n="83"/>Angeli damnati est necessaria positiva causa
+          <lb ed="#P" n="84"/>talis obstinationis, ut declaratum est.
+        </p>
+        <p xml:id="szdada-x24805-d1e740">
+          <lb ed="#P" n="85"/>9. Assertio secunda: impotentia peenitendi in
+          <lb ed="#P" n="86"/>posterum nullam habet causam positivam 
+          for<lb break="no" ed="#P" n="87"/>malem vel efficientem. —beinde addendum est,
+          <lb ed="#P" n="88"/>obstinationis quoad carentiam poenitentiae, vel
+          <lb ed="#P" n="89"/>impotentiam ejus, non esse necessariam 
+          cau<lb break="no" ed="#P" n="90"/>sam positivam formalem, vel efficientem, a
+          <lb ed="#P" n="91"/>qua talis impoenitentia proveniat. Probatur
+          <lb ed="#P" n="92"/>primo eadem ratione generali. Quia obstinatio,
+          <lb ed="#P" n="93"/>etiam quoad hanc partem est mera privatio,
+          <lb ed="#P" n="94"/>sed ad privationem non est necessarius 
+          positi<lb break="no" ed="#P" n="95"/>vus, influxus formals, aut efficiens; ergo nec
+          <lb ed="#P" n="96"/>positiva causa est necessaria. Major declaratur
+          <lb ed="#P" n="97"/>et probatur: quia duobus modis potest aliquis
+          <lb ed="#P" n="98"/>esse impoenitens, uno modo tantum privative,
+          <lb ed="#P" n="99"/>scilicet, quia caret actu poenitendi, sine actu
+          <lb ed="#P" n="100"/>contrario ipsi poenitentiae, secundo positive et
+          <lb ed="#P" n="101"/>mediante actu contrario, qualis erit, vel 
+          posi<lb break="no" ed="#P" n="102"/>tiva voluntas non poenitendi, vel complacentia
+          <lb ed="#P" n="103"/>positiva in peccato commisso, vel actuale
+          <lb ed="#P" n="104"/>odium Dei, vel aliud simile actuale peccatum,
+          <lb ed="#P" n="105"/>quod veram poenitentiam secum non 
+          compa<lb break="no" ed="#P" n="106"/>tiatur. Unde etiam impotentia poenitendi 
+          du<lb break="no" ed="#P" n="107"/>plex cogitari potest, una pure privativa, ad
+          <lb ed="#P" n="108"/>quam sufficit carentia virium, seu virtutis
+          <lb ed="#P" n="109"/>necessariae ad poenitendum: nam qui non 
+          ha<lb break="no" ed="#P" n="110"/>bet vires sufficientes, impotens est. Alia cogi-
+          <pb ed="#P" n="986"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tari potest positiva, qualis erit, si proveniat ex
+          <lb ed="#P" n="2"/>positivo impedimento necessario adhaerente
+          <lb ed="#P" n="3"/>voluntati: ut, verbi gratia, si voluntas 
+          daemo<lb break="no" ed="#P" n="4"/>nis ex necessitate habeat complacentiam 
+          ac<lb break="no" ed="#P" n="5"/>tualem in peccato commisso, vel actum odii
+          <lb ed="#P" n="6"/>Dei, vel alium similem. Dico autem ez 
+          necessi<lb break="no" ed="#P" n="7"/>tate, quia licet ex tali actu sequatur 
+          impoten<lb break="no" ed="#P" n="8"/>tia poenitendi, seu necessitas non poenitendi
+          <lb ed="#P" n="9"/>quasi composita: nihilominus si talis actus non
+          <lb ed="#P" n="10"/>sit absolute necessarius, illa impotentia non erit
+          <lb ed="#P" n="11"/>simpliciter talis quia cessante actu, impotentia
+          <lb ed="#P" n="12"/>etiam positiva cessabit:si vero actussit 
+          simplici<lb break="no" ed="#P" n="13"/>ter necessarius, etiam impotentia erit absoluta,
+          <lb ed="#P" n="14"/>et simpliciter, ut per se notum est. In 
+          daemoni<lb break="no" ed="#P" n="15"/>busergo adpraedictam obstinationem 
+          sufficitim<lb break="no" ed="#P" n="16"/>potentia pure privativa, per carentiam virtutis
+          <lb ed="#P" n="17"/>activae, quae in potestate eorum non sit, quia
+          <lb ed="#P" n="18"/>eo ipso perpetuo, et ex necessitate permanent
+          <lb ed="#P" n="19"/>in statu peccati, et habent impotentiam 
+          simpli<lb break="no" ed="#P" n="20"/>citer carendi illo, in qua haec obstinatio 
+          con<lb break="no" ed="#P" n="21"/>sistit; ergo ad illam non est necessaria positiva
+          <lb ed="#P" n="22"/>causa activa influens physice, aut moraliter,
+          <lb ed="#P" n="23"/>vel ex parte Dei, vel ex parte ipsius daemonis,
+          <lb ed="#P" n="24"/>sed demeritum primi peccati sufficit, ut statim
+          <lb ed="#P" n="25"/>explicabitur. An vero haec impotentia 
+          poeni<lb break="no" ed="#P" n="26"/>tendi habeat etiam ex parte caemonis 
+          positi<lb break="no" ed="#P" n="27"/>vam causam quasi formalem ex necessitate
+          <lb ed="#P" n="28"/>impedientem poenitentiam fructuosam, pendet
+          <lb ed="#P" n="29"/>ex alio modo obstinationis infra tractando,
+          <lb ed="#P" n="30"/>scilicet, an daemon semper, ac necessario ma'e
+          <lb ed="#P" n="31"/>operetur, vel potius interdum possit bene 
+          ope<lb break="no" ed="#P" n="32"/>rari. Nam si potest habere actum bonum, vel
+          <lb ed="#P" n="33"/>carere malo, non habebit ex necessitate tale
+          <lb ed="#P" n="34"/>impedimentum positivum poenitentiae, et 
+          ni<lb break="no" ed="#P" n="35"/>hilominus impotentiam mere privativam 
+          pae<lb break="no" ed="#P" n="36"/>nitentiae habere poterit. Si autem ex 
+          necessi<lb break="no" ed="#P" n="37"/>tate semper est in aliquo actuah peccato,
+          <lb ed="#P" n="38"/>sive determinate, sive confuse, impotentia 
+          poe<lb break="no" ed="#P" n="39"/>nitendi, ut dixi, erit positiva, et causa ejus
+          <lb ed="#P" n="40"/>quasi formalis erit ille actus incompossibilis
+          <lb ed="#P" n="41"/>peenitentiae: causa autem efficiens erit causa
+          <lb ed="#P" n="42"/>ad eumdem actum necessitans, de qua postea
+          <lb ed="#P" n="43"/>explicando illum modum obstinationis dicturi
+          <lb ed="#P" n="44"/>sumus, et ibi nonnullas sententias theologorum
+          <lb ed="#P" n="45"/>non recte in hoc de Deo sentientium 
+          refutabi<lb break="no" ed="#P" n="46"/>mus.
+        </p>
+        <p xml:id="szdada-x24805-d1e903">
+          <lb ed="#P" n="47"/>10. Assertio tertia:prime causa 
+          privativain<lb break="no" ed="#P" n="48"/>potentie peenitendi est denegatio auailii.—Vide
+          <lb ed="#P" n="49"/>auctorem intractatude Peccatis,disputatione 
+          sea<lb break="no" ed="#P" n="50"/>ta.—Ultimo dico, causam quasi privativam 
+          ob<lb break="no" ed="#P" n="51"/>stinationis daemonum, quoad impotentiam 
+          poe<lb break="no" ed="#P" n="52"/>nitendi fructuose esse justam voluntatem Dei,
+          <lb ed="#P" n="53"/>denegandi damnatis omne auxilium gratiae,
+          <lb ed="#P" n="54"/>supposito ex parte ipsorum peccato, et 
+          perse<lb break="no" ed="#P" n="55"/>verantia in illo pro statu viae. Haec assertio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>communis est theologorum in 2, distin. 7, ubi
+          <lb ed="#P" n="57"/>Bonaventura, art. 4, quaest. 1, Durandus,
+          <lb ed="#P" n="58"/>quaest. 2, Richardus, art. 2, quaest, 1, Scotus,
+          <lb ed="#P" n="59"/>quaest. 1. § De secundo dico, Gregorius, q. 1,
+          <lb ed="#P" n="60"/>art. 2, AEgidius et Bassolis ac Major similiter,
+          <lb ed="#P" n="61"/>quest. 4, art. 9, Gabriel, quaest. F, art. 1,
+          <lb ed="#P" n="62"/>Marsilius. in 2, art. 5, quaest. 3, Ocham, in 2,
+          <lb ed="#P" n="63"/>quaest. 19, et quodl. 1, quaest. 14, Albertus,
+          <lb ed="#P" n="64"/>in 2 part., tract. 5, quaest. 25, art. 4, 
+          Altisio<lb break="no" ed="#P" n="65"/>dorensis, lib. 2 Summae, tract. 2, cap. 6, et
+          <lb ed="#P" n="66"/>Paludanus, in 4, dist. 50, quaest. 1, Cassalius,
+          <lb ed="#P" n="67"/>lib. 1. de Quadripar. institut., part, 1. Neque
+          <lb ed="#P" n="68"/>in hac parte dissentit D. Thomas, nam heet
+          <lb ed="#P" n="69"/>in 1 part., quaest. 64, aliam reddat causam
+          <lb ed="#P" n="70"/>obstinationis daemonum sumptam ex naturali
+          <lb ed="#P" n="71"/>mo:lo operandi illorum, illa, ut supra diximus,
+          <lb ed="#P" n="72"/>potius est congruentia, ob quam status viae, in
+          <lb ed="#P" n="73"/>quo Deus offert auxilia ad poenitentiam 
+          agen<lb break="no" ed="#P" n="74"/>dam, brevior concessa fuit Angelis, quam 
+          ho<lb break="no" ed="#P" n="75"/>minibus: et ideo licet in eo loco prosimam
+          <lb ed="#P" n="76"/>rationem obdurationis quoad hanc partem ex
+          <lb ed="#P" n="77"/>parte Dei non explicet, non tamen illam 
+          exclu<lb break="no" ed="#P" n="78"/>dit. Unde in aliis locis dicit, ideo Angelos 
+          ma<lb break="no" ed="#P" n="79"/>los non posse amplius poenitere, quia peccarunt
+          <lb ed="#P" n="80"/>in termino vise, ut praecipue declarat in 2,
+          <lb ed="#P" n="81"/>dist. 7, quaest. 1, art. 2. Uhi etiam sentit,
+          <lb ed="#P" n="82"/>eamdem esse causam quoad hanc partem, 
+          ob<lb break="no" ed="#P" n="83"/>stinationis daemonum, et omnium 
+          damnato<lb break="no" ed="#P" n="84"/>rum, scilicet, quia sunt in termino, in quo
+          <lb ed="#P" n="85"/>nimirum auxiliis gratiae ex definita Dei 
+          vo<lb break="no" ed="#P" n="86"/>luntate privantur. Item in simili materia id
+          <lb ed="#P" n="87"/>expresse docuit D. Thomas 1, 2, quaest. 19,
+          <lb ed="#P" n="88"/>art. 3, ubi docet, Deum esse causam 
+          obdura<lb break="no" ed="#P" n="89"/>tionis viatorum, quatenus proprio judicio
+          <lb ed="#P" n="90"/>suam gratiam eis subtrahit. Obduratio autem
+          <lb ed="#P" n="91"/>viae quaedam obstinatio est in malo, quamvis
+          <lb ed="#P" n="92"/>sit secundum quid, respeciu obstinationis 
+          dae<lb break="no" ed="#P" n="93"/>monum, seu damnatorum, ut idem D. Thomas
+          <lb ed="#P" n="94"/>docuit, quaest. 23, de Veritat.. art. 7, ad 6.
+          <lb ed="#P" n="95"/>Sed haec differentia secundum magis et minus
+          <lb ed="#P" n="96"/>non obstat, quominus eadem sit ratio in 
+          utra<lb break="no" ed="#P" n="97"/>que obstinatione, ut Deus possit esse causa
+          <lb ed="#P" n="98"/>ejus, majus vel minus denegando alicui 
+          auxi<lb break="no" ed="#P" n="99"/>lium gratiae suae. Atque ita possunt pro hac
+          <lb ed="#P" n="100"/>parte referri auctores, qui fatentur Deum esse
+          <lb ed="#P" n="101"/>causam obdurationis viatorum, supposito 
+          deme<lb break="no" ed="#P" n="102"/>rito, pravaque dispositione illorum, qui sunt
+          <lb ed="#P" n="103"/>fere omnes, ut in libr. 1, 2, latius tractatur.
+        </p>
+        <p xml:id="szdada-x24805-d1e1031">
+          <lb ed="#P" n="104"/>11. Probatur assertio ratione. — HRatione
+          <lb ed="#P" n="105"/>probatur. Primo, quia si affirmatio est causa
+          <lb ed="#P" n="106"/>adaequata, et necessaria affirmationis, negatio
+          <lb ed="#P" n="107"/>erit causa negationis, ut est Aristotelicum 
+          dog<lb break="no" ed="#P" n="108"/>ma: sed auxilium gratise simpheiter 
+          necessa<lb break="no" ed="#P" n="109"/>rium aà fructuosam poeniteutiam agendam suo
+          <lb ed="#P" n="110"/>modo est adaequata illius causa: nam heet re-
+          <pb ed="#P" n="987"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quirat cooperationem voluntatis, nihilominus
+          <lb ed="#P" n="2"/>simphliciter necessarium est, ut Deus velit suum
+          <lb ed="#P" n="3"/>auxilium praestare, ita ut vel faciat voluntatem
+          <lb ed="#P" n="4"/>facere per auxilium efficax, vel faciat, ut 
+          pos<lb break="no" ed="#P" n="5"/>sit facere, si velit per auxilium sufficiens; ergo
+          <lb ed="#P" n="6"/>denegatio utriusque auxilii est causa veluti
+          <lb ed="#P" n="7"/>proxima impoenitentiae, et impotentiae 
+          poeni<lb break="no" ed="#P" n="8"/>tendi. Ostensum est autem supra, Deum 
+          dene<lb break="no" ed="#P" n="9"/>gasse utrumque auxilium Angelis immediate
+          <lb ed="#P" n="10"/>post instans, in quo peccarunt; ergo est Deus
+          <lb ed="#P" n="11"/>causa carentiae auxilii: ergo consequenter etiam
+          <lb ed="#P" n="12"/>est causa carentiae poenitentiae, et potestatis
+          <lb ed="#P" n="13"/>poenitendi. Dicimus autem Deum esse causam
+          <lb ed="#P" n="14"/>privativam, quia licet justo judicio, et positiva
+          <lb ed="#P" n="15"/>voluntate velit subtrahere gratiam suam, 
+          ta<lb break="no" ed="#P" n="16"/>men extra se nihil efficit, sed solum non 
+          effi<lb break="no" ed="#P" n="17"/>cit, et voluntas, quam intra se habet, non est
+          <lb ed="#P" n="18"/>aliquid factum ab ipso, sed est ipsamet 
+          increa<lb break="no" ed="#P" n="19"/>ta, et immutabilis voluntas. Unde confirmatur
+          <lb ed="#P" n="20"/>assertio, quia per hoc genus causalitatis Deus
+          <lb ed="#P" n="21"/>non est causa alicujus mali moralis, sed ad
+          <lb ed="#P" n="22"/>summum est causa, ut aliquis actus bonus
+          <lb ed="#P" n="23"/>nunquam fiat ab aliquo, ne fieri possit: hoc
+          <lb ed="#P" n="24"/>autem non est malum, quia non tenetur Deus
+          <lb ed="#P" n="25"/>omne bonum facere, vel auxilium ad illud
+          <lb ed="#P" n="26"/>praebere. Imo interdum potest illud esse 
+          spe<lb break="no" ed="#P" n="27"/>ciali modo bonum, et justum in vindictam
+          <lb ed="#P" n="28"/>mali commissi, cujus mali Deus non fuit causa,
+          <lb ed="#P" n="29"/>et ideo est ultor ejus negando suum auxilium;
+          <lb ed="#P" n="30"/>ergo per hoc Deus non est causa mali, sed illud
+          <lb ed="#P" n="31"/>supponit.
+        </p>
+        <p xml:id="szdada-x24805-d1e1120">
+          <lb ed="#P" n="32"/>12. Tandem confirmatur optima sententia
+          <lb ed="#P" n="33"/>Fulgentii, lib. de Fide ad Petr., cap. 3, ubi
+          <lb ed="#P" n="34"/>ait, ita Deum disposuisse Angelorum et 
+          homi<lb break="no" ed="#P" n="35"/>num causam, aeít si propriae voluntatis arbitrio
+          <lb ed="#P" n="36"/>contra creatoris iwperium suam niterentur 
+          fa<lb break="no" ed="#P" n="37"/>cere voluntatem, ad supplicium eis relingueretur
+          <lb ed="#P" n="38"/>cternitas misera, erroribus, doloribusque 
+          cru<lb break="no" ed="#P" n="39"/>cianda, et adjungit: Ac de Angelis quidem hoc
+          <lb ed="#P" n="40"/>disposuit, et implevit, ut si quis eorum 
+          bonita<lb break="no" ed="#P" n="41"/>tem voluntatis perderet, nunquam eam divino
+          <lb ed="#P" n="42"/>munere repararet. Et inferius addit: Ut Angeli
+          <lb ed="#P" n="43"/>mali nec mala possint unquam voluntate carere,
+          <lb ed="#P" n="44"/>nec pona, sed permanente in eis injustae 
+          acer<lb break="no" ed="#P" n="45"/>sionis malo, permanerct etiam justae 
+          retributio<lb break="no" ed="#P" n="46"/>nis eterna damnatio. Et rursus inferius dicit:
+          <lb ed="#P" n="47"/>Nullum Angelorum, em quo ruine suce merito
+          <lb ed="#P" n="48"/>e calo ejecti sunt, bonam posse resunere 
+          volun<lb break="no" ed="#P" n="49"/>tatet. In quibus verbis satis ostendit, illam
+          <lb ed="#P" n="50"/>impotentiam poenitenai ex Dei dispositione
+          <lb ed="#P" n="51"/>supposita culpa provenire, ac proinde in eum
+          <lb ed="#P" n="52"/>tanquam rmn causam reduci. Unde inferius 
+          ad<lb break="no" ed="#P" n="53"/>dit, Deum solum tempus hujus vitae hominibus
+          <lb ed="#P" n="54"/>concessisse ad fructuosam poenitentiam 
+          agen<lb break="no" ed="#P" n="55"/>dam, non vero postea. Quod cum proportione
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>de malis Angelis etiam intelligit. Et simili
+          <lb ed="#P" n="57"/>modo de Angelis viatoribus cum proportione
+          <lb ed="#P" n="58"/>intelligit, quod statim subjungit: Quod, qui in
+          <lb ed="#P" n="59"/>hac vita non fecerit id est, mutare voluntatem)
+          <lb ed="#P" n="60"/>Labebit quidem peenitentium in futuro seeculo de
+          <lb ed="#P" n="61"/>malis suis, sed indulgentium in conspectu Dei
+          <lb ed="#P" n="62"/>non inveniet, quia etsi erit ibi stimulus 
+          paeni<lb break="no" ed="#P" n="63"/>tudinis, nulla tamen ibi erit correctio 
+          volunta<lb break="no" ed="#P" n="64"/>tis. n quibus verbis alludit ad locum 
+          Sapien<lb break="no" ed="#P" n="65"/>tae 5, ubi de damnatis generatim dicitur:
+          <lb ed="#P" n="66"/>Turbabuntur timore horribili, etc., dicentes
+          <lb ed="#P" n="67"/>intra se ponitentiam agentes, et pre angustia
+          <lb ed="#P" n="68"/>spiritus gementes. Et usque ad versic. 14, 
+          des<lb break="no" ed="#P" n="69"/>cribit Sapiens seram veritatis agnitionem in
+          <lb ed="#P" n="70"/>damnatis, ex qua concludunt: ZEgo 
+          errari<lb break="no" ed="#P" n="71"/>mus. llla enim omnia eamdem rationem in
+          <lb ed="#P" n="72"/>daemonibus habent. Quia velint, nolint, 
+          agnos<lb break="no" ed="#P" n="73"/>cunt bona, quae amiserunt, et miserum statum
+          <lb ed="#P" n="74"/>quem acquisierunt, et sub hac ratione dolent
+          <lb ed="#P" n="75"/>et poenitentiam agunt de malis culpae 
+          commis<lb break="no" ed="#P" n="76"/>sis propter mala poenae, quae patiuntur: illa
+          <lb ed="#P" n="77"/>vero poenitentia est infructuosa, non quia si
+          <lb ed="#P" n="78"/>esset vera, et propter Deum non posset 
+          miseri<lb break="no" ed="#P" n="79"/>cordiam obtinere, sicut supra diximus, et ex
+          <lb ed="#P" n="80"/>S. Martino refert Sulpitius in vita ejus, c. 24,
+          <lb ed="#P" n="81"/>et tradit Bernardus, in lib. de Gradib. Humil.
+          <lb ed="#P" n="82"/>in primo. et indicat Isidorus, lib. 1, de Sum.,
+          <lb ed="#P" n="83"/>cap. 10, dicens, diabolum non petere veniam,
+          <lb ed="#P" n="84"/>quia non compungitur ad poenitentiam: 
+          sen<lb break="no" ed="#P" n="85"/>tiens, quod si compungeretur, veniam et 
+          pe<lb break="no" ed="#P" n="86"/>tere posset, et obtinere: si quam vero 
+          poeni<lb break="no" ed="#P" n="87"/>tentiam nunc habet, non est vera, nec propter
+          <lb ed="#P" n="88"/>Deum, sed ex amore proprio, et quadam 
+          ne<lb break="no" ed="#P" n="89"/>cessitate naturali, ut capite sequenti 
+          explicabi<lb break="no" ed="#P" n="90"/>mus.
+        </p>
+        <p xml:id="szdada-x24805-d1e1253">
+          <lb ed="#P" n="91"/>13. Difficultas contra superius dicta orta ex
+          <lb ed="#P" n="92"/>sententia Scoti. —Neque juxta veram 
+          doctri<lb break="no" ed="#P" n="93"/>nam de Gratia, et remissione peccatorum per
+          <lb ed="#P" n="94"/>ponitentiam, superest in hoc puncto 
+          difficul<lb break="no" ed="#P" n="95"/>tas. Juxta doctrinam vero Scoti, et aliquorum
+          <lb ed="#P" n="96"/>theologorum dicentium, posse hominem per
+          <lb ed="#P" n="97"/>naturales vires voluntatis cum concursu DEI
+          <lb ed="#P" n="98"/>generali habere attritionem, quae sit sufficiens
+          <lb ed="#P" n="99"/>dispositio ad obtinendam remissionem 
+          pecca<lb break="no" ed="#P" n="100"/>torum; juxta hanc, inquam, doctrinam, oritur
+          <lb ed="#P" n="101"/>difficultas: nam si hoc est verum de homine,
+          <lb ed="#P" n="102"/>a fortiori habebit locum in Angelo, cum 
+          effica<lb break="no" ed="#P" n="103"/>ciorem habeat voluntatem; ergo etiamsi 
+          An<lb break="no" ed="#P" n="104"/>gelus damnatus omni auxilio gratiae privetur,
+          <lb ed="#P" n="105"/>cum generalis concursus ei non denegetur,
+          <lb ed="#P" n="106"/>poterit per illum talem attritionem habere de
+          <lb ed="#P" n="107"/>peccato. quae ad remissionem peccatorum 
+          ob<lb break="no" ed="#P" n="108"/>tinendam sit sufficiens dispositio. Quam 
+          diffi<lb break="no" ed="#P" n="109"/>cultatem sibi proposuit Scotus in reportatis
+          <lb ed="#P" n="110"/>in 2, distin. 7, quaest. 3, artic. 2, et prius res-
+          <pb ed="#P" n="988"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pondet, dici posse, Deum non solum auxilia
+          <lb ed="#P" n="2"/>gratiae, sed etiam generalem concursum ad 
+          si<lb break="no" ed="#P" n="3"/>milem actum denegare damnatis. In hoc autem
+          <lb ed="#P" n="4"/>non quiescit, quia illud esset perpetuum 
+          mi<lb break="no" ed="#P" n="5"/>raculum, vel perpetua violentia illata Angelo,
+          <lb ed="#P" n="6"/>vel homini. Sed hoc fortasse non esset magnum
+          <lb ed="#P" n="7"/>inconveniens, ut capite sequenti dicam. 
+          Se<lb break="no" ed="#P" n="8"/>cundo vero respondet, talem actum licet a 
+          dae<lb break="no" ed="#P" n="9"/>mone habeatur, in illo non esse sufficientem
+          <lb ed="#P" n="10"/>dispositionem ad gratiam, vel remissionem
+          <lb ed="#P" n="11"/>peccati, quia Deus non vult acceptare illum,
+          <lb ed="#P" n="12"/>ut sufficientem dispositionem ad gratiam, vel
+          <lb ed="#P" n="13"/>remissionem peccati. Nam etiam in viatoribus,
+          <lb ed="#P" n="14"/>ex sententia Scoti, ille actus non est sufficiens
+          <lb ed="#P" n="15"/>dispositio ad gratiam, nisi ex acceptatione 
+          di<lb break="no" ed="#P" n="16"/>vina. Potuit ergo Deus statuere certa, et 
+          infal<lb break="no" ed="#P" n="17"/>libili lege acceptationem illam offerre pro statu
+          <lb ed="#P" n="18"/>viae, eamque pro statu damnationis absolute
+          <lb ed="#P" n="19"/>denegare.
+        </p>
+        <p xml:id="szdada-x24805-d1e1345">
+          <lb ed="#P" n="20"/>14. Solida omnino responsio.—Verumtamen
+          <lb ed="#P" n="21"/>dubitatio supponit fundamentum falsum, 
+          ni<lb break="no" ed="#P" n="22"/>mirum, posse liberum arbitrium sive 
+          homi<lb break="no" ed="#P" n="23"/>nis, sive Angeli, cum solo concursu generali
+          <lb ed="#P" n="24"/>se sufficienter disponere ad gratiam, et post
+          <lb ed="#P" n="25"/>lapsum posse se eodem modo disponere ad 
+          re<lb break="no" ed="#P" n="26"/>missionem peccati, et ad infusionem gratise,
+          <lb ed="#P" n="27"/>per quam formaliter talis remissio fit. 
+          Utrum<lb break="no" ed="#P" n="28"/>que enim est valde falsum, ut de poenitentia 
+          ho<lb break="no" ed="#P" n="29"/>minis ostensum est in art. 4, 3 part., disp. 3,
+          <lb ed="#P" n="30"/>sect. 6, et de dispositione ad gratiam in tract.
+          <lb ed="#P" n="31"/>de Gratia, lib. 2 et 7. Et supra in libro quinto
+          <lb ed="#P" n="32"/>ostendimus, illa catholica dogmata de Gratia,
+          <lb ed="#P" n="33"/>non in hominibus tantum, sed etiam in 
+          Ange<lb break="no" ed="#P" n="34"/>lis vera esse. Verumtamen etiam posito illo
+          <lb ed="#P" n="35"/>suo dogmate, potuisset facilius Scotus 
+          respon<lb break="no" ed="#P" n="36"/>dere, non quamcumque attritionem 
+          natura<lb break="no" ed="#P" n="37"/>lem esse dispositionem acceptabilem a Deo, ad
+          <lb ed="#P" n="38"/>remissionem peccati, sed oportere, ut saltem
+          <lb ed="#P" n="39"/>sit attritio undique moraliter bona, et honesta,
+          <lb ed="#P" n="40"/>ut ipse Scotus fatetur. In daemonibus autem
+          <lb ed="#P" n="41"/>non potest esse talis attritio, ut in capite 
+          se<lb break="no" ed="#P" n="42"/>quenti ostendemus. Scotus autem forte non ita
+          <lb ed="#P" n="43"/>respondet, quia hoc posterius non admittit,
+          <lb ed="#P" n="44"/>ut ibi videbimus. Praeterea idem Scotus ultra
+          <lb ed="#P" n="45"/>honestatem, certum gradum intentionis 
+          pos<lb break="no" ed="#P" n="46"/>tulat in attritione, ut ad gratiam sufficienter
+          <lb ed="#P" n="47"/>disponat. Potuisset ergo dicere in Angelis 
+          re<lb break="no" ed="#P" n="48"/>quiri majorem intentionem, quam fortasse
+          <lb ed="#P" n="49"/>possint per solas vires liberi arbitrii cum 
+          con<lb break="no" ed="#P" n="50"/>cursu generali elicere: praesertim in tali statu,
+          <lb ed="#P" n="51"/>ubi coguntur semper attendere ad poenas, quas
+          <lb ed="#P" n="52"/>patiuntur, et ad vehementem tristitiam, et
+          <lb ed="#P" n="53"/>dolorem de illis eliciendum, et ideo credibile
+          <lb ed="#P" n="54"/>est, non posse simul conari ad detestationem,
+          <lb ed="#P" n="55"/>et dolorem de peccatis valde intensum. Sed
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>hoc etiam effugium in falsa doctrina fundatum
+          <lb ed="#P" n="57"/>est, et ideo solida responsio est, sufficientem
+          <lb ed="#P" n="58"/>dispositionem ad gratiam, et remissionem 
+          pec<lb break="no" ed="#P" n="59"/>cati, sine vero, ac supernaturali auxilio 
+          gra<lb break="no" ed="#P" n="60"/>tiae, haberi non posse, illudque omnibus 
+          dam<lb break="no" ed="#P" n="61"/>natis denegatum esse.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="458"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x11525"><!-- l4d9 -->
+        <head xml:id="szdada-x11525-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-x11525-Hd1e103" type="question-title">An plures angeli in eodem loco esse possint</head>
+        <p xml:id="szdada-x11525-d1e106">
+          <lb ed="#P" n="18"/>CAPUT IX.
+          <lb ed="#P" n="19"/>AN PLURES ANGELI IN EODEM LOCO ESSE POSSINT.
+        </p>
+        <p xml:id="szdada-x11525-d1e113">
+          <lb ed="#P" n="20"/>1. Prima opinio D. Thome negans, varic 
+          li<lb break="no" ed="#P" n="21"/>mitatur a Thomistis. — In hoc puncto D. 
+          Tho<lb break="no" ed="#P" n="22"/>mas, dicta quaest. 53, art. 3, negat posse esse
+          <lb ed="#P" n="23"/>simul,quia Angelus est inloco peroperationem,
+          <lb ed="#P" n="24"/>cujus est causa totalis, et perfecta: non 
+          pos<lb break="no" ed="#P" n="25"/>sunt autem esse duae causae totales ejusdem
+          <lb ed="#P" n="26"/>operationis, seu effectus; et ideo neque plures
+          <lb ed="#P" n="27"/>Angeli in eodem loco esse possunt; et hanc
+          <lb ed="#P" n="28"/>opinionem sequuntur Thomistae, sed cum 
+          mul<lb break="no" ed="#P" n="29"/>tis limitationibus. Prima est, ut intelligatur
+          <lb ed="#P" n="30"/>naturaliter: nam de potentia absoluta potest
+          <lb ed="#P" n="31"/>unus effectus esse a pturibus causis totalibus.
+          <lb ed="#P" n="32"/>Quae limitatio vocabat nos ad questionem de
+          <lb ed="#P" n="33"/>causis quam omittimus, tum quia aliena, tum
+          <lb ed="#P" n="34"/>etiam, quia naturaliter loquimur. Altera 
+          limi<lb break="no" ed="#P" n="35"/>tatio est, quod intelligatur regulariter, 
+          secun<lb break="no" ed="#P" n="36"/>dum ordinarium operandi modum, maxime
+          <lb ed="#P" n="37"/>convenientem tali naturae, nimirum, ut 
+          unus<lb break="no" ed="#P" n="38"/>quisque Angelus operetur, ut causa totalis, et
+          <lb ed="#P" n="39"/>perfecta sui effectus. Nam in rigore, si duo 
+          An<lb break="no" ed="#P" n="40"/>geli velint, possunt eamdem rem simul 
+          move<lb break="no" ed="#P" n="41"/>re, ac proinde esse simul in illa, tanquam in
+          <lb ed="#P" n="42"/>loco. Et ita fatentur Cajetanus ibi, et 
+          Ferrarien<lb break="no" ed="#P" n="43"/>sis 3, contra Gent. 68. Dicunt tamen illud esse
+          <lb ed="#P" n="44"/>rarum, et superfluum, et ideo fuisse a D. 
+          Tho<lb break="no" ed="#P" n="45"/>ma omissum. Et praeterea addunt tunc illos 
+          An<lb break="no" ed="#P" n="46"/>gelos non esse adaequate in illo loco, sed 
+          inadae<lb break="no" ed="#P" n="47"/>quate, quia neuter est secundum adaequatam
+          <lb ed="#P" n="48"/>operationem. Tertia limitatio est, ut 
+          intelliga<lb break="no" ed="#P" n="49"/>tur secundum eamdem operationem. Fatentur
+          <lb ed="#P" n="50"/>enim plures Angelos posse esse simulin eodem
+          <lb ed="#P" n="51"/>loco per diversas operationes. Verumtamen
+          <lb ed="#P" n="52"/>praeterquam quod haec omnia procedunt ex
+          <lb ed="#P" n="53"/>falso fundamento, quod Angelus sit in loco por
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>operationem: illo etiam supposito, sunt tantum
+          <lb ed="#P" n="55"/>diverticula. Nam quomodocumque Angelus 
+          o<lb break="no" ed="#P" n="56"/>peretur in loco sibi adaequato quoad 
+          extensio<lb break="no" ed="#P" n="57"/>nem spatii, etiamsi ibi non operetur quantum
+          <lb ed="#P" n="58"/>potest, vel omnibus modis quibus potest, 
+          sim<lb break="no" ed="#P" n="59"/>pliciter erit in loco adaequato. Quia exhibet
+          <lb ed="#P" n="60"/>praesentiam suam quantum potest secundum
+          <lb ed="#P" n="61"/>extensionem loci, et illum contingit secundum
+          <lb ed="#P" n="62"/>omnes partes ejus. Quod autem ille contactus
+          <lb ed="#P" n="63"/>sit major, vel minor intensive (ut sic dicam)
+          <lb ed="#P" n="64"/>vel quod sit per hanc, vel per illam, unam, vel
+          <lb ed="#P" n="65"/>plures operationes, parum profecto referre 
+          vi<lb break="no" ed="#P" n="66"/>detur ad loci adaequationem, vel formahtatem,
+          <lb ed="#P" n="67"/>ut per seclarum videtur, et proponendo veram
+          <lb ed="#P" n="68"/>sententiam ostendetur.
+        </p>
+        <p xml:id="szdada-x11525-d1e224">
+          <lb ed="#P" n="69"/>2. Aliorum opinio eadem ex alio fundamento.
+          <lb ed="#P" n="70"/>—At vero Richardus, in 1, dist. 37, a. 2, q. 4,
+          <lb ed="#P" n="71"/>licet alias teneat, Angelum esse in loco per
+          <lb ed="#P" n="72"/>suam substantiam, nihilominus negat posse
+          <lb ed="#P" n="73"/>plures Angelos esse in eodem loco. Quia non
+          <lb ed="#P" n="74"/>potest (inquit) unus Angelus penetrare alaum:
+          <lb ed="#P" n="75"/>quae autem simul sunt in eodem loco, se 
+          pence<lb break="no" ed="#P" n="76"/>trant, et idem sentit Bassolis, in 9, dist. 2. q.
+          <lb ed="#P" n="77"/>4, art. 4, et rationem reddit, quia hoc est 
+          su<lb break="no" ed="#P" n="78"/>pra cursum, et modum naturae. Item ab 
+          incon<lb break="no" ed="#P" n="79"/>venienti, quia alias etiamsi Angeli essent 
+          in<lb break="no" ed="#P" n="80"/>finiti, possent esse in eodem loco adaequato.
+          <lb ed="#P" n="81"/>Bonaventura vero,in eadem dist., q. ult..in fine,
+          <lb ed="#P" n="82"/>ait: Quamvis hoc nonrepugnet secundum 
+          par<lb break="no" ed="#P" n="83"/>ticularem naturam rei spiritualis, nihilominus
+          <lb ed="#P" n="84"/>repugnare secundum ordinem universi: nam
+          <lb ed="#P" n="85"/>tolleretur, vel mutaretur hic ordo, si plures
+          <lb ed="#P" n="86"/>Angeli simul essent in eodem loco. Sicut 
+          inver<lb break="no" ed="#P" n="87"/>teretur, si unus Angelus distaret infinite ab
+          <lb ed="#P" n="88"/>alio, vel si esset ultra totam circumferentiam
+          <lb ed="#P" n="89"/>ultimi coeli.
+        </p>
+        <p xml:id="szdada-x11525-d1e273">
+          <lb ed="#P" n="90"/>3. Prima conclusio. — Plures Angeli non
+          <lb ed="#P" n="91"/>possunt esse in eodem loco per idem Ubi.—Justa
+          <lb ed="#P" n="92"/>nostram vero sententiam distinguendum 
+          bre<lb break="no" ed="#P" n="93"/>viter est de Ubi intrinseco, vel de loco 
+          extrin<lb break="no" ed="#P" n="94"/>seco, seu corpore, in quo Angelus esse dicitur,
+          <lb ed="#P" n="95"/>vel etiam de spatio imaginario, quod nostro
+          <lb ed="#P" n="96"/>modo intelligi tale corpus replet. Et primo 
+          di<lb break="no" ed="#P" n="97"/>cendum est, non posse duos Angelos esse 
+          ali<lb break="no" ed="#P" n="98"/>cubi per idem Ubi, et quoad hoc non posse esse
+          <lb ed="#P" n="99"/>in eodem loco formali. Probatur manifeste,
+          <lb ed="#P" n="100"/>quia Ubi Angelicum est modus intrinsecus 
+          sub<lb break="no" ed="#P" n="101"/>stantiae ejus, idem realiter cum illa, et solum
+          <lb ed="#P" n="102"/>modaliter, seu formaliter distinctus: talis 
+          au<lb break="no" ed="#P" n="103"/>tem modus non potest simul esse in subjectis
+          <lb ed="#P" n="104"/>realiter disunctis, ut in Metaphysica notum
+          <lb ed="#P" n="105"/>est. Unde etiam duo corpora se penetrantia di
+          <lb ed="#P" n="106"/>vina virtute in eodem spatio, seu intra 
+          eam<lb break="no" ed="#P" n="107"/>dem superficiem ambientem, semper habent
+          <lb ed="#P" n="108"/>propria Ubi intrinseca distincta, et separabi-
+          <pb ed="#P" n="459"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lia: nam si unum inde removeatur, et aliud
+          <lb ed="#P" n="2"/>maneat, illud amittit Ubi, quod ibi habebat,
+          <lb ed="#P" n="3"/>et aliud conservabit, quod habebat. Atque
+          <lb ed="#P" n="4"/>idem est cum proportione in Angelis. 
+          Suppo<lb break="no" ed="#P" n="5"/>sita ergo nostra sententia in hoc nulla esse 
+          po<lb break="no" ed="#P" n="6"/>test controversia.
+        </p>
+        <p xml:id="szdada-x11525-d1e334">
+          <lb ed="#P" n="7"/>4. Secunda conclusio.—Plures Angeli 
+          pos<lb break="no" ed="#P" n="8"/>sunt esse simul in eodem loco extrinseco 
+          adee<lb break="no" ed="#P" n="9"/>quato.— E gidii evasio frivola. —Secundo 
+          di<lb break="no" ed="#P" n="10"/>cendum est, loquendo de extrinseco loco posse
+          <lb ed="#P" n="11"/>lures Angelos esse simul in eodem loco ad--
+          <lb ed="#P" n="12"/>equato, juxta conditionem, et capacitatem
+          <lb ed="#P" n="13"/>uniuscujusque. Ita docent in 2, dist. 2, Scotus,
+          <lb ed="#P" n="14"/>quaest. 8, Gabriel, quaest. 2, art. 3, dub. 3,
+          <lb ed="#P" n="15"/>Gregorius, quaest. 3, Major, quaest. 10, 
+          Marsi<lb break="no" ed="#P" n="16"/>lius, in 2, quaest. 2, art. 2, concl. 8, Ocham,
+          <lb ed="#P" n="17"/>quodlib. 1, quaest. 4, Malonius, in 2, dist. 8,
+          <lb ed="#P" n="18"/>disp. 13, Pesantius, 1 p., quaest. 52, art. 3, et
+          <lb ed="#P" n="19"/>ibidem Vasquez et Molina; et Albertus in 1,
+          <lb ed="#P" n="20"/>distinct. 37, art. 25, dixit posse Angelos plures
+          <lb ed="#P" n="21"/>esse simul quoad substantiam, licet non quoad
+          <lb ed="#P" n="22"/>operationem. Et probatur primo, quia hoc 
+          vi<lb break="no" ed="#P" n="23"/>detur magis consentaneum sacrae Scripturae
+          <lb ed="#P" n="24"/>narranti, legionem daemonum fuisse intra
+          <lb ed="#P" n="25"/>unius hominis corpus. Ex quo loco colligunt
+          <lb ed="#P" n="26"/>aliqui ex Patribus, Angelos non esse corporeos,
+          <lb ed="#P" n="27"/>quia necessarium fuit tantam multitudinem
+          <lb ed="#P" n="28"/>spirituum penetrari cum partibus corporis.
+          <lb ed="#P" n="29"/>Simili ergo modo nos colligimus, vel omnes,
+          <lb ed="#P" n="30"/>vel plures eorum daemonum fuisse simul, et
+          <lb ed="#P" n="31"/>quasi sese invicem penetrando simul cum 
+          Pa<lb break="no" ed="#P" n="32"/>tribus corporis. Fingere nam singulos illorum
+          <lb ed="#P" n="33"/>daemonum fuisse in distinctis partibus 
+          inte<lb break="no" ed="#P" n="34"/>grantibus illud corpus, et valde voluntarium
+          <lb ed="#P" n="35"/>est, et incredibile, cum necessarium non sit,
+          <lb ed="#P" n="36"/>neque cum probabihli fundamento dici possit.
+          <lb ed="#P" n="37"/>Et confirmari potest, quia omnes illi daemones
+          <lb ed="#P" n="38"/>in quacumque parte corporis essent, erant 
+          si<lb break="no" ed="#P" n="39"/>mul cum tota anima; ergo etiam plures illorum
+          <lb ed="#P" n="40"/>inter se poterant esse simul in eadem parte.
+          <lb ed="#P" n="41"/>Respondet JEgidius, negando consequentiam,
+          <lb ed="#P" n="42"/>quia Angelus et anima sunt diverso modo 
+          in<lb break="no" ed="#P" n="43"/>tra corpus. Angeli vero sunt eodem modo, et
+          <lb ed="#P" n="44"/>ideo magis inter se repugnant. Sicut duae 
+          ani<lb break="no" ed="#P" n="45"/>mae non possunt simul, et eodem modo esse in
+          <lb ed="#P" n="46"/>eodem corpore, informando illud.Sed haec 
+          dif<lb break="no" ed="#P" n="47"/>ferentia frivola est, quia licet illi duo essendi
+          <lb ed="#P" n="48"/>simul in corpore per informationem 
+          substan<lb break="no" ed="#P" n="49"/>tialem non possint simul esse saltem 
+          naturali<lb break="no" ed="#P" n="50"/>ter in duabus animabus, respectu ejusdem
+          <lb ed="#P" n="51"/>corporis, et omnium partium ejus, nihilominus
+          <lb ed="#P" n="52"/>modi essendi simul per praesentiam non habent
+          <lb ed="#P" n="53"/>inter se repugnantiam: quia respectu corporis,
+          <lb ed="#P" n="54"/>sunt plusquam extrinsecae, et accidentales 
+          for<lb break="no" ed="#P" n="55"/>mae.
+        </p>
+        <p xml:id="szdada-x11525-d1e443">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>5. Probatur ratione, a priori, lipartito 
+          an<lb break="no" ed="#P" n="57"/>tecedenti.— Ostenditur prima pars antecedentis.
+          <lb ed="#P" n="58"/>— Ruchardi placitum in n. 2, refellitur. —
+          <lb ed="#P" n="59"/>Atque hinc sumitur ratio a priori assertionis.
+          <lb ed="#P" n="60"/>Quia duo Angeli non se excludunt naturaliter
+          <lb ed="#P" n="61"/>ab eodem loco, ratione substantiae suae, nec
+          <lb ed="#P" n="62"/>ratione modi, quo sunt in corpore, vel etiam
+          <lb ed="#P" n="63"/>in spatio, ergo non est cur repugnet 
+          naturali<lb break="no" ed="#P" n="64"/>ter esse in eodem loco, si velint. Consequentia
+          <lb ed="#P" n="65"/>manifesta est, quia nulla alia ratio 
+          repugnan<lb break="no" ed="#P" n="66"/>tge cogitari potest. Antecedens vero quoad
+          <lb ed="#P" n="67"/>priorem partem de substantia patet, quia sola
+          <lb ed="#P" n="68"/>quantitas est ratio expellendi alteram 
+          substan<lb break="no" ed="#P" n="69"/>tiam ab eodem loco. Ideo enim Angelus potest
+          <lb ed="#P" n="70"/>naturaliter esse penetrative, seu intime in 
+          cor<lb break="no" ed="#P" n="71"/>pore, quia quantitatem non habet, ergo multo
+          <lb ed="#P" n="72"/>minus duae substantiae angelicae inter se 
+          repu<lb break="no" ed="#P" n="73"/>gnabunt in eodem loco, cum neutra illarum
+          <lb ed="#P" n="74"/>quantitatem habeat. Unde mirum est, quod
+          <lb ed="#P" n="75"/>Richardus sine ulla probatione dixerit, 
+          Ange<lb break="no" ed="#P" n="76"/>los non posse sese penetrare. Nam 
+          consequen<lb break="no" ed="#P" n="77"/>ter idem dicere debuisset de Angelo, et anima
+          <lb ed="#P" n="78"/>rationali, cujus contrarium probatum est, et
+          <lb ed="#P" n="79"/>docet auctor libri de Ecclesiasticis dogmatibus,
+          <lb ed="#P" n="80"/>cap. S3. Sed fortasse Richardus per 
+          penetra<lb break="no" ed="#P" n="81"/>tionem intellexit illapsum. In hoc enim sensu
+          <lb ed="#P" n="82"/>refert Pesantius rationem illam ex Alberto, 1
+          <lb ed="#P" n="83"/>part., tit. 18, quaest. 37. Ait enim ex eo, quod
+          <lb ed="#P" n="84"/>duo Angeli sint simul in eodem loco, non bene
+          <lb ed="#P" n="85"/>infertur unum illabi intra alterum, quia 
+          illap<lb break="no" ed="#P" n="86"/>sus ultra substantialem praesentiam, et 
+          indis<lb break="no" ed="#P" n="87"/>tantiam, requirit peculiarem influxum unius
+          <lb ed="#P" n="88"/>substantiae in aliam, intra quam illabitur,
+          <lb ed="#P" n="89"/>et dependentiam substantialem inferioris 
+          sub<lb break="no" ed="#P" n="90"/>stantiae ab altera, quae in illam illabitur,
+          <lb ed="#P" n="91"/>ut in superioribus visum est. Ad existendum
+          <lb ed="#P" n="92"/>autem simul in eodem loco haec actio inter
+          <lb ed="#P" n="93"/>spiritus necessaria non est, sed suflicit intima
+          <lb ed="#P" n="94"/>praesentia, et indistantia in intrinseco Ubi, quae
+          <lb ed="#P" n="95"/>potest dici penetratio substantialis. Sicut 
+          exis<lb break="no" ed="#P" n="96"/>tentia duorum corporum in eodem situ, seu
+          <lb ed="#P" n="97"/>spatio facta per divinam potentiam dicitur 
+          pe<lb break="no" ed="#P" n="98"/>netratio quantitatum, licet quantitates inter se
+          <lb ed="#P" n="99"/>nullam actionem habeant. Melius tamen 
+          Sco<lb break="no" ed="#P" n="100"/>tus dixit, quod licet corpora non essent, simul
+          <lb ed="#P" n="101"/>esse possent, imo addit ipse, non facile 
+          exphi<lb break="no" ed="#P" n="102"/>cari posse, quo modo possent non esse simul.
+          <lb ed="#P" n="103"/>Verumtamen etiam distare possent per diversa
+          <lb ed="#P" n="104"/>Ubi, ut supra explicavi. Tamen hinc etiam
+          <lb ed="#P" n="105"/>colligitur potuisse esse simul, si vellent, ut 
+          sta<lb break="no" ed="#P" n="106"/>tim probabitur; ergo etiam nunc possunt esse
+          <lb ed="#P" n="107"/>simul, etiam cum corpore, quantum est ex
+          <lb ed="#P" n="108"/>parte substantiae suae.
+        </p>
+        <p xml:id="szdada-x11525-d1e563">
+          <lb ed="#P" n="109"/>6. Ostenditur secunda pars antecedentis. —
+          <lb ed="#P" n="110"/>Superest probanda altera pars, nimirum, quod
+          <pb ed="#P" n="460"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ratione modi essendi inter se non repugnent.
+          <lb ed="#P" n="2"/>Probatur autem, quia ut Angelus sit in 
+          cor<lb break="no" ed="#P" n="3"/>pore, nullum alium modum requirit, nisi quod
+          <lb ed="#P" n="4"/>habeat suum intrinsecum Ubi, indistans a tali
+          <lb ed="#P" n="5"/>corpore, et ejus Ubi, ut jam probatum est. Sed
+          <lb ed="#P" n="6"/>unusquisque Angelus per se spectatus potest
+          <lb ed="#P" n="7"/>habere hanc simultatem cum Ubi corporis :
+          <lb ed="#P" n="8"/>et ipsa Ubi Angelica non habent inter se 
+          spe<lb break="no" ed="#P" n="9"/>cialem repugnantiam: ergo nec repugnat, ut
+          <lb ed="#P" n="10"/>simul habeant sua Ubi intra idem corpus, et
+          <lb ed="#P" n="11"/>in eadem ejus parte, et hoc et simul esse in
+          <lb ed="#P" n="12"/>eodem loco. Consequentia cum majori patent,
+          <lb ed="#P" n="13"/>et minor probatur, quia Ubi angelicum etiam
+          <lb ed="#P" n="14"/>est spirituale, ergo ex hac parte etiam non
+          <lb ed="#P" n="15"/>repugnant duo Ubi spiritualia, respicientia
+          <lb ed="#P" n="16"/>(nostro modo loquendi) idem spatium, seu
+          <lb ed="#P" n="17"/>habentia eamdem distantiam ad puncta fixa
+          <lb ed="#P" n="18"/>centri, vel polorum mundi, esse simul. Imo
+          <lb ed="#P" n="19"/>etiam in quantitatibus, ideo duo Ubi 
+          repug<lb break="no" ed="#P" n="20"/>nant naturaliter esse simul in eadem distantia
+          <lb ed="#P" n="21"/>ab illis punctis fixis, quia subjecta illorum Ubi,
+          <lb ed="#P" n="22"/>scilicet duae quantitates simul in eodem spatio
+          <lb ed="#P" n="23"/>esserepugnant: ergoacontrariocum substantiae
+          <lb ed="#P" n="24"/>angelicae de se non habeant naturalem 
+          repug<lb break="no" ed="#P" n="25"/>nantiam, neque inter modos intrinsecos earum,
+          <lb ed="#P" n="26"/>quibus alicubi existere dicuntur, inveniri 
+          po<lb break="no" ed="#P" n="27"/>test, cum sint etiam spirituales, et suis 
+          sub<lb break="no" ed="#P" n="28"/>jectis proportionati.
+        </p>
+        <p xml:id="szdada-x11525-d1e635">
+          <lb ed="#P" n="29"/>1. Effugium ex Bonaventura occluditur. —
+          <lb ed="#P" n="30"/>Sed dicet aliquis cum Bonaventura, licet hoc
+          <lb ed="#P" n="31"/>non repugnet particulari naturae Angelorum,
+          <lb ed="#P" n="32"/>repugnare nihilominus universali naturae,
+          <lb ed="#P" n="33"/>quia inverteretur ordo universi: sed profecto
+          <lb ed="#P" n="34"/>id non sequitur ex eo solum, quod Angeli simul
+          <lb ed="#P" n="35"/>in eodem loco sint: quia ordo situalis (ut sic
+          <lb ed="#P" n="36"/>dicam) universi ex corporibus consurgit, et in
+          <lb ed="#P" n="37"/>eis tantum physice attenditur: inter Angelos
+          <lb ed="#P" n="38"/>autem minime, quia valde extrinsecum, et
+          <lb ed="#P" n="39"/>accidentale illis est esse in hoc, vel illo 
+          cor<lb break="no" ed="#P" n="40"/>pore, vel inter se habere, aut non habere 
+          dis<lb break="no" ed="#P" n="41"/>tantiam, neque hoc ad universi perfectionem
+          <lb ed="#P" n="42"/>pertinet. Dixi autem p/gsice, quia moralter
+          <lb ed="#P" n="43"/>considerando loca, ut praemia meritorum, ad
+          <lb ed="#P" n="44"/>ordinem rectum pertinet, ut boni sint in 
+          no<lb break="no" ed="#P" n="45"/>bilissimo loco, mali vero in infimo. Et fortasse
+          <lb ed="#P" n="46"/>sancti Angeli in coelo empyreo non sunt 
+          plu<lb break="no" ed="#P" n="47"/>res in eadem coeli parte propter majorem 
+          pul<lb break="no" ed="#P" n="48"/>chritudinem, et ornatum, secus vero fortasse
+          <lb ed="#P" n="49"/>est in malis in inferno, ubi nullus ordo, sed
+          <lb ed="#P" n="50"/>sempiternus horror inhabitat. Interim etiam
+          <lb ed="#P" n="51"/>dum Angeli boni, et mali inter nos versantur,
+          <lb ed="#P" n="52"/>nihil ad hunc ordinem universi spectat, quod
+          <lb ed="#P" n="53"/>in eodem loco, seu corpore, aut eadem parte
+          <lb ed="#P" n="54"/>ejus, vel in diversis simul existant. Hoc igitur
+          <lb ed="#P" n="55"/>ab eorum voluntate pendet, neque de hoc est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>peculiaris lex a Deo praescripta, quam cum
+          <lb ed="#P" n="57"/>fundamento affirmari possit. Nec in hoc recte
+          <lb ed="#P" n="58"/>fit aequiparatio cum lege, qua continentur
+          <lb ed="#P" n="59"/>Angeli intra hunc mundum corporeum, quia
+          <lb ed="#P" n="60"/>hoc ad hujus universi ordinem magis 
+          per<lb break="no" ed="#P" n="61"/>tinet.
+        </p>
+        <p xml:id="szdada-x11525-d1e711">
+          <lb ed="#P" n="62"/>8. Aliorum effugium rejicitur, dicentium,
+          <lb ed="#P" n="63"/>otiosum esse Angelos se penetrare.—Sed dicunt
+          <lb ed="#P" n="64"/>aliqui alii, quamvis probetur hanc 
+          coexisten<lb break="no" ed="#P" n="65"/>tiam in eodem loco non repugnare, 
+          nihilomi<lb break="no" ed="#P" n="66"/>nus esse superfluam; et ideo, licet in Angelis
+          <lb ed="#P" n="67"/>non desit potestas, ut simul sint: nihilominus
+          <lb ed="#P" n="68"/>semper deesse voluntatem sese constituendi in
+          <lb ed="#P" n="69"/>eodem loco, ideoque de facto nunquam 
+          con<lb break="no" ed="#P" n="70"/>tingere, ut sint simul. Verumtamen hoc est
+          <lb ed="#P" n="71"/>divinare de voluntate Angelorum: ideoque in
+          <lb ed="#P" n="72"/>assertione solum diximus, posse existere simul,
+          <lb ed="#P" n="73"/>si velint. Neque est dubium quin possint velle,
+          <lb ed="#P" n="74"/>quia eo ipso, quod tale objectum habet 
+          alh<lb break="no" ed="#P" n="75"/>quam rationem entis, et possibilis, potest 
+          An<lb break="no" ed="#P" n="76"/>gelus illud velle saltem ad ostensionem 
+          po<lb break="no" ed="#P" n="77"/>tentiae suae. An vero de facto aliquando velint
+          <lb ed="#P" n="78"/>Angeli, et an raro, vel frequenter, effectus est
+          <lb ed="#P" n="79"/>contingens, et nobis occultus. Nihilominus
+          <lb ed="#P" n="80"/>tamen de malis Angelis ex Scriptura valde
+          <lb ed="#P" n="81"/>probabiliter colligitur, aliquando id velle, et
+          <lb ed="#P" n="82"/>facere, ut ostendimus. Et inde colligere 
+          pos<lb break="no" ed="#P" n="83"/>sumus seepius id facturos, si permittantur,
+          <lb ed="#P" n="84"/>quia habent voluntatem depravatam, et ideo
+          <lb ed="#P" n="85"/>nil curant, quod sit superfluum, vel otiosum.
+          <lb ed="#P" n="86"/>Praeterquam, quod id facere possunt ad 
+          ter<lb break="no" ed="#P" n="87"/>rorem, et ostendendum odium, vel etiam, ut
+          <lb ed="#P" n="88"/>variis modis noceant, vel ad nocendum 
+          dispo<lb break="no" ed="#P" n="89"/>siti, et quasi applicati sint. De bonis autem
+          <lb ed="#P" n="90"/>Angelis nihil nobis ita constat.
+        </p>
+        <p xml:id="szdada-x11525-d1e777">
+          <lb ed="#P" n="91"/>9. De facto fortasse se penetrant aliquando.
+          <lb ed="#P" n="92"/>— Penetratio inter Angelos. —Dicere autem
+          <lb ed="#P" n="93"/>possumus illud objectum essendi simul in 
+          ah<lb break="no" ed="#P" n="94"/>quo corpore, non esse malum, sed de se 
+          in<lb break="no" ed="#P" n="95"/>differens, ideoque posse sanctum Angelum
+          <lb ed="#P" n="96"/>illud velle propter finem honestum, ut si 
+          An<lb break="no" ed="#P" n="97"/>gelus custos alicujus personae intra illam sit,
+          <lb ed="#P" n="98"/>et alius quasi speciali legatione ad illam 
+          mit<lb break="no" ed="#P" n="99"/>tatur, potest totum corpus sua praesentia 
+          oc<lb break="no" ed="#P" n="100"/>cupare, etiamsi alius ibidem simul existat.
+          <lb ed="#P" n="101"/>Item saepe multitudo Angelorum mittitur ad
+          <lb ed="#P" n="102"/>aliquem effectum sensibilem, vel ad 
+          ostensio<lb break="no" ed="#P" n="103"/>nem divinae virtutis, sicut Christus, Matth. 26:
+          <lb ed="#P" n="104"/>Possunt rogare Patrem meum, et exhibebit
+          <lb ed="#P" n="105"/>mihi modo plusquam duodecim legiones 
+          Ange<lb break="no" ed="#P" n="106"/>lorum; vel ad ostendendum majus gaudium,
+          <lb ed="#P" n="107"/>et letitiam, ut Lucae 2: Facta est cum Angelo
+          <lb ed="#P" n="108"/>multitudo militiae caelestis laudantium Deum,
+          <lb ed="#P" n="109"/>etc., vel etiam ad peculiarem honorem 
+          alicu<lb break="no" ed="#P" n="110"/>jus personae, sicut multi Angeli missi sunt ad
+          <pb ed="#P" n="461"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ministrandum Christo post jejunium, Matth.
+          <lb ed="#P" n="2"/>4, et eodem modo plures Angeli portaverunt
+          <lb ed="#P" n="3"/>mendicum Lazarum in sinum Abrahae, ut
+          <lb ed="#P" n="4"/>Luc. 16, dicitur. Sicut etiam, ut supra ex 
+          Pa<lb break="no" ed="#P" n="5"/>tribus adduximus, multi Angeli sacerdoti 
+          ce<lb break="no" ed="#P" n="6"/>lebranti assistunt. Neque oportet in his 
+          casi<lb break="no" ed="#P" n="7"/>bus fingere Angelos quasi coarctatos ad 
+          mi<lb break="no" ed="#P" n="8"/>nima quaedam loca sibi inadaequata, ne se
+          <lb ed="#P" n="9"/>contingant, aut penetrent, hoc enim inane,
+          <lb ed="#P" n="10"/>et superstitiosum videtur. Poterit ergo esse
+          <lb ed="#P" n="11"/>unusquisque in plenario, et adaequato loco,
+          <lb ed="#P" n="12"/>etiamsi se penetrent, seu licet simul alicubi
+          <lb ed="#P" n="13"/>existant. Et eadem ratione poterit bonus 
+          An<lb break="no" ed="#P" n="14"/>gelus interdum esse simul cum malo in eodem
+          <lb ed="#P" n="15"/>loco, ut si Angelus malus sit in toto corpore
+          <lb ed="#P" n="16"/>hominis ad nocendum, bonus vero ad 
+          custo<lb break="no" ed="#P" n="17"/>diendum. Atque ita hic discursus non solum
+          <lb ed="#P" n="18"/>in nostra sententia locum habet, sed etiam in
+          <lb ed="#P" n="19"/>illa, quae dicit esse per applicationem virtutis,
+          <lb ed="#P" n="20"/>vel aliam similem habitudinem.
+        </p>
+        <p xml:id="szdada-x11525-d1e871">
+          <lb ed="#P" n="21"/>10. Aliorum evasio tertia expenditur. —
+          <lb ed="#P" n="22"/>Aliqui vero his rationibus convicti tandem
+          <lb ed="#P" n="23"/>concludunt, Angelos esse interdum simul in
+          <lb ed="#P" n="24"/>eodem loco, addunt vero solum materialiter
+          <lb ed="#P" n="25"/>esse in eodem loco, non formaliter: quia 
+          sem<lb break="no" ed="#P" n="26"/>per ratio essendi in tali loco diversa est. Quae
+          <lb ed="#P" n="27"/>evasio etiam in nostra sententia locum habere
+          <lb ed="#P" n="28"/>viaetur, quia unicuique Angelo ratio essendi
+          <lb ed="#P" n="29"/>in corpore est proprium Ubi, cum relatione
+          <lb ed="#P" n="30"/>intimae propinquitatis ad tale corpus: sunt
+          <lb ed="#P" n="31"/>autem inAngelis distinctis distincta etiam Ubi
+          <lb ed="#P" n="32"/>(ut diximus) et consequenter etiam distinctae
+          <lb ed="#P" n="33"/>erunt relationes distantiae ex parte 
+          funda<lb break="no" ed="#P" n="34"/>menti. Verumtamen haec distinctio nominum
+          <lb ed="#P" n="35"/>solum videtur inventa ad defendendam hanc,
+          <lb ed="#P" n="36"/>vel illam opinionem, revocando 
+          controver<lb break="no" ed="#P" n="37"/>siam ad quaestionem de nomine: de quo non
+          <lb ed="#P" n="38"/>est contendendum, quando de re constat. Nos
+          <lb ed="#P" n="39"/>autem supponimus, locum Angeli extrinsecum
+          <lb ed="#P" n="40"/>esse corpus, cui Angelus intime praesens est,
+          <lb ed="#P" n="41"/>et ideo illum simpliciter vocamus, eumdem
+          <lb ed="#P" n="42"/>locum unius, et plurium Angelorum, si plures
+          <lb ed="#P" n="43"/>simul in illo sint. Sicut duo corpora 
+          penetra<lb break="no" ed="#P" n="44"/>üve existentia, et intra eamdem superficiem
+          <lb ed="#P" n="45"/>circumscribentem contenta simpliciter, ac
+          <lb ed="#P" n="46"/>formaliter dicentur esse in eodem loco 
+          ex<lb break="no" ed="#P" n="47"/>trinseco, quamvis distincta Ubi, et distinctas
+          <lb ed="#P" n="48"/>superficies ultimas habeant. Imo licet in 
+          cor<lb break="no" ed="#P" n="49"/>pore manente in eodem spatio Deus mutaret
+          <lb ed="#P" n="50"/>superficiem ultimam corporis locati, per quam
+          <lb ed="#P" n="51"/>locum contingit, nihilominus proprie, et 
+          for<lb break="no" ed="#P" n="52"/>maliter maneret in eodem loco: eadem ergo
+          <lb ed="#P" n="53"/>ratione diversitas in Ubi, vel in relatione est
+          <lb ed="#P" n="54"/>materialis, respectu loci extrinseci, et formalis
+          <lb ed="#P" n="55"/>locus extrinsecus idem existit.
+        </p>
+        <p xml:id="szdada-x11525-d1e949">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>11. Et eadem ratione etiam juxta 
+          opinio<lb break="no" ed="#P" n="57"/>nem potentem, Angelum esse in loco per 
+          ope<lb break="no" ed="#P" n="58"/>rationem, licet Angelus mutaret operationem
+          <lb ed="#P" n="59"/>circa idem corpus in eodem situ, non esset
+          <lb ed="#P" n="60"/>dicendus mutare locum formaliter, sed solum
+          <lb ed="#P" n="61"/>mutasse id, quo locum contingit, quod 
+          mate<lb break="no" ed="#P" n="62"/>riale est ad formalitatem loci: sicut in 
+          superfi<lb break="no" ed="#P" n="63"/>cie ultima corporis locati explicuimus. Quin
+          <lb ed="#P" n="64"/>potius secundum philosophos explicantes 
+          im<lb break="no" ed="#P" n="65"/>mobilitatem, quam Aristoteles loco tribuit,
+          <lb ed="#P" n="66"/>quamvis in loco corporeo superficies ultima
+          <lb ed="#P" n="67"/>varietur, si altera illi succedat in eodem situ,
+          <lb ed="#P" n="68"/>id est, in eadem distantia a punctis fixis, 
+          mu<lb break="no" ed="#P" n="69"/>tatio illa censetur materialis: nam formalis
+          <lb ed="#P" n="70"/>locus idem perseverat. Eadem ergo ratione, et
+          <lb ed="#P" n="71"/>proportione, etiamsi varietur corpus, in quo
+          <lb ed="#P" n="72"/>sunt Angeli, et aliud in eodem situ succedat,
+          <lb ed="#P" n="73"/>Angeli non mutabunt formalem locum, sed
+          <lb ed="#P" n="74"/>materialem: quia etiam locus Angeli suam 
+          re<lb break="no" ed="#P" n="75"/>quirit immobilitatem, ut infra tractando de
+          <lb ed="#P" n="76"/>motu ostendemus. Ergo multo magis illa 
+          dis<lb break="no" ed="#P" n="77"/>tinctio, vel mutatio in relatione, operatione,
+          <lb ed="#P" n="78"/>vel alia simih applicatione materialis est, si sit
+          <lb ed="#P" n="79"/>ad corpus in eodem situ, et distantia a punctis
+          <lb ed="#P" n="80"/>fixis existens.
+        </p>
+        <p xml:id="szdada-x11525-d1e1008">
+          <lb ed="#P" n="81"/>12. Subterfugium quartum triplicis 
+          distinc<lb break="no" ed="#P" n="82"/>tionis. — Denique alii quaerunt subterfugium,
+          <lb ed="#P" n="83"/>distinguendo de existentia in loco perfecte,
+          <lb ed="#P" n="84"/>vel imperfecte. complete, vel incomplete, 
+          adae<lb break="no" ed="#P" n="85"/>quate, vel inadaequate: et dicendo plures 
+          An<lb break="no" ed="#P" n="86"/>gelos esse quidem posse in eodem loco 
+          imper<lb break="no" ed="#P" n="87"/>fecte, incomplete, et inadaequate, non tamen
+          <lb ed="#P" n="88"/>perfecte, complete et adaequate. Quia nimirum,
+          <lb ed="#P" n="89"/>etiamsi sint praesentes eidem corpori, nunquam
+          <lb ed="#P" n="90"/>singuli illud contingunt, quantum possunt.Sed
+          <lb ed="#P" n="91"/>distinctiones etiam istae, praesertim duae 
+          inuti<lb break="no" ed="#P" n="92"/>les profecto sunt, et solum ad excitandas 
+          quaes<lb break="no" ed="#P" n="93"/>tiones de nomine deserviunt. Duo enim 
+          distin<lb break="no" ed="#P" n="94"/>guenda sunt in loco Angeli. Unum est extensio
+          <lb ed="#P" n="95"/>loci, quatenus Angelus potest esse 
+          substantia<lb break="no" ed="#P" n="96"/>liter praesens majori, vel minori corpori, ut
+          <lb ed="#P" n="97"/>paulo post dicemus; aliud est ratio essendi in
+          <lb ed="#P" n="98"/>loco Angeli, utique extrinseco, sive illud in
+          <lb ed="#P" n="99"/>extensione sit parvum, sive magnum. Locus
+          <lb ed="#P" n="100"/>ergo Angeli sub priori ratione sine dubio 
+          re<lb break="no" ed="#P" n="101"/>cipit magis, et minus, et recte distinguitur in
+          <lb ed="#P" n="102"/>incompletum, et completum, seu adaequatum,
+          <lb ed="#P" n="103"/>vel inadaequatum: sub posteriori autem 
+          ratio<lb break="no" ed="#P" n="104"/>ne non datur magis, et minus in loco Angeli,
+          <lb ed="#P" n="105"/>vel secundum extensionem, vel secundum 
+          in<lb break="no" ed="#P" n="106"/>tentionem. Primum patet, quia tunc solum fit
+          <lb ed="#P" n="107"/>comparatio ad idem corpus secundum se 
+          to<lb break="no" ed="#P" n="108"/>tum, vel secundum eamdem partem praecise
+          <lb ed="#P" n="109"/>spectatam, sive sit major, sive minor, ut dixi,
+          <lb ed="#P" n="110"/>et ideo in hac comparatione non habet locum
+          <pb ed="#P" n="462"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>magis, et minus secundum extentionem. 
+          Se<lb break="no" ed="#P" n="2"/>cundum de intentione probatur. Quia neque in
+          <lb ed="#P" n="3"/>ipso Ubi extrinseco cogitari potest intentio,
+          <lb ed="#P" n="4"/>neque in relatione praesentiae potest major 
+          co<lb break="no" ed="#P" n="5"/>gitari, quam sit illa, quae est per intimam 
+          in<lb break="no" ed="#P" n="6"/>distantiam, et quasi penetrationem. Hanc 
+          au<lb break="no" ed="#P" n="7"/>tem praesentiam habet Angelus in quocumque
+          <lb ed="#P" n="8"/>corpore, in quo vere, et realiter dicitur esse
+          <lb ed="#P" n="9"/>tanquam in proprio loco. Dico autem, proprio,
+          <lb ed="#P" n="10"/>quia de illo solo versatur quaestio, nam de loco
+          <lb ed="#P" n="11"/>in communi clarum est plures Angelos esse in
+          <lb ed="#P" n="12"/>uno loco, ut in coelo, vel in inferno, vel in hac
+          <lb ed="#P" n="13"/>aula.
+        </p>
+        <p xml:id="szdada-x11525-d1e1108">
+          <lb ed="#P" n="14"/>13. Impugnatur jam prima, et secunda 
+          dis<lb break="no" ed="#P" n="15"/>tinctio.— Angelus dicitur ab aliquibus esse in
+          <lb ed="#P" n="16"/>loco complete, vel incomplete.—Quocirca prima
+          <lb ed="#P" n="17"/>distinctio de esse in loco perfecte, vel 
+          imper<lb break="no" ed="#P" n="18"/>fecte, seclusa extensione locali, vel falsum 
+          sup<lb break="no" ed="#P" n="19"/>ponit, scilicet, quod in ipsa formah ratione
+          <lb ed="#P" n="20"/>essendi in loco detur major, vel minor 
+          perfec<lb break="no" ed="#P" n="21"/>tio, vel si detur in operatione, aut alia simili,
+          <lb ed="#P" n="22"/>est nimis materialis, et per accidens ad 
+          ratio<lb break="no" ed="#P" n="23"/>nem essendi in loco. Idemque est de alia 
+          dis<lb break="no" ed="#P" n="24"/>tinctione, de incomplete, vel complete existendi
+          <lb ed="#P" n="25"/>in loco: nam supposita aequali praesentia cum
+          <lb ed="#P" n="26"/>eequali Ubi, et aequali propinquitate, quod 
+          u<lb break="no" ed="#P" n="27"/>nus Angelus operetur, et alter non operetur,
+          <lb ed="#P" n="28"/>vel quod unus perfectius, quam alius, vel quod
+          <lb ed="#P" n="29"/>operetur, ut causa totalis, vel ut partialis, 
+          to<lb break="no" ed="#P" n="30"/>tum hoc est accidentale ad rationem loci, 
+          ideo<lb break="no" ed="#P" n="31"/>que poterit inde resultare magis, vel minus in
+          <lb ed="#P" n="32"/>ratione causae, vel agentis, non vero in ratione
+          <lb ed="#P" n="33"/>loci. Alias semper Angehl essent imperfecte,
+          <lb ed="#P" n="34"/>et incomplete in loco, quia nunquam 
+          operan<lb break="no" ed="#P" n="35"/>tur in loco quantum possunt, ut patet de 
+          An<lb break="no" ed="#P" n="36"/>gelis existentibus in coelo, vel in inferno, vel
+          <lb ed="#P" n="37"/>in corporibus obsessis, vel in hac aula. Et 
+          ma<lb break="no" ed="#P" n="38"/>gis ad sensum declaratur: nam lhicet Angelus
+          <lb ed="#P" n="39"/>moveat corpus, quod assumit, non erit 
+          com<lb break="no" ed="#P" n="40"/>plete in illo intensive (ut sic dicam) quia non
+          <lb ed="#P" n="41"/>movet illud summa velocitate, qua potest vel
+          <lb ed="#P" n="42"/>fortasse non omnibus modis, quibus simul
+          <lb ed="#P" n="43"/>potest, hoc autem nimis improbabile 
+          vide<lb break="no" ed="#P" n="44"/>tur.
+        </p>
+        <p xml:id="szdada-x11525-d1e1178">
+          <lb ed="#P" n="45"/>14. Impugnatur tertia distinctio. — Et ob
+          <lb ed="#P" n="46"/>eamdem rationem alia verba, adeequate et
+          <lb ed="#P" n="47"/>inadequate in tertia distinctione posita 
+          apph<lb break="no" ed="#P" n="48"/>cata ad hanc comparationem quasi intensivam
+          <lb ed="#P" n="49"/>in ipsa ratione existendi in loco, inania sunt
+          <lb ed="#P" n="50"/>propter eamdem causam. At vero applicata ad
+          <lb ed="#P" n="51"/>extensionem loci suum locum habent. Nam
+          <lb ed="#P" n="52"/>aliquando vere dici potest non posse duos 
+          An<lb break="no" ed="#P" n="53"/>gelos esse simul in eodem 1oco adaquato, ut
+          <lb ed="#P" n="54"/>si sint Augeli inaequales in perfectione 
+          essen<lb break="no" ed="#P" n="55"/>tiali, et uterque sit in maximo loco sibi natu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>raliter possibili: non poterunt simul esse in
+          <lb ed="#P" n="57"/>loco adaequato: non quidem propter 
+          repu<lb break="no" ed="#P" n="58"/>gnantiam, ut sic dicam, sed propter 
+          necessa<lb break="no" ed="#P" n="59"/>riam inaequalitatem in loco adaequato 
+          prove<lb break="no" ed="#P" n="60"/>nientem ex insequalitate perfectionis. Cujus
+          <lb ed="#P" n="61"/>signum est, quia, licet sint in locis distinctis,
+          <lb ed="#P" n="62"/>semper erunt in locis inaequalibus: utique si
+          <lb ed="#P" n="63"/>unusquisque velit esse in loco suo maximo.
+          <lb ed="#P" n="64"/>Nam si Angeltus perfectior nolit loco adaequato
+          <lb ed="#P" n="65"/>sibi possibili adesse, tunc optime poterit esse
+          <lb ed="#P" n="66"/>simul cum inferiori in loco actuali, ut sic 
+          di<lb break="no" ed="#P" n="67"/>cam. Si vero sint Angeli ejusdem speciei, 
+          po<lb break="no" ed="#P" n="68"/>terunt simul esse in loco adaequato, quia ex vi
+          <lb ed="#P" n="69"/>suae perfectionis aequalem locum sibi 
+          vendi<lb break="no" ed="#P" n="70"/>cant, et alioque in simultanea existentia locali
+          <lb ed="#P" n="71"/>non est repugnantia. Et ad hoc insinuandum,
+          <lb ed="#P" n="72"/>dicendo in assertione Angelos posse esse simul
+          <lb ed="#P" n="73"/>in loco, addidi, jucta uniuscujusque 
+          conditio<lb break="no" ed="#P" n="74"/>nem, et capacitatem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

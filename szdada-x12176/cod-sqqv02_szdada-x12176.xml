@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 15</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 15</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="483"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x12176"><!-- l4c15 -->
+        <head xml:id="szdada-x12176-Hd1e101">Caput 15</head>
+        <head xml:id="szdada-x12176-Hd1e103" type="question-title">Fundamentis aliarum opinionum satisfit</head>
+        <p xml:id="szdada-x12176-d1e106">
+          <lb ed="#P" n="79"/>CAPUT XV.
+          <lb ed="#P" n="80"/>FUNDAMENTIS ALIARUM OPINIONUM SATISFIT.
+        </p>
+        <p xml:id="szdada-x12176-d1e113">
+          <lb ed="#P" n="81"/>1. Ad fundamentum prime opinionis 
+          Qre<lb break="no" ed="#P" n="82"/>gorii, in c. 12, n. 2.— Atque haec resolutio
+          <lb ed="#P" n="83"/>magis confirmabitur discurrendo breviter per
+          <lb ed="#P" n="84"/>alias opiniones, eisque satisfaciendo. In prima
+          <lb ed="#P" n="85"/>ergo opinione fundamentum Gregorii de motu
+          <lb ed="#P" n="86"/>corporum falsum est, ut ex philosophia 
+          sup<lb break="no" ed="#P" n="87"/>pono. Differentia autem ab Aristotele posita
+          <lb ed="#P" n="88"/>inter motum localem, et alios motus, solum
+          <lb ed="#P" n="89"/>est in hoc, quod per motum localem non 
+          ac<lb break="no" ed="#P" n="90"/>quiritur nova forma, quae sit res distincta a
+          <lb ed="#P" n="91"/>subjecto mobili, et illud ad aliquam 
+          substan<lb break="no" ed="#P" n="92"/>tialem mutationem disponat, ut fit in 
+          altera<lb break="no" ed="#P" n="93"/>tone, et suo modo in argumentatione, quae
+          <lb ed="#P" n="94"/>sine alteratione, et partiali augmentatione non
+          <lb ed="#P" n="95"/>fit. Nihilominus tamen non excluditur, quin
+          <lb ed="#P" n="96"/>per motum localem aliquis modus in ipso 
+          mo<lb break="no" ed="#P" n="97"/>bili acquiratur, quem intrinsecum appellamus,
+          <lb ed="#P" n="98"/>quia ipsi inhaeret: potest autem dici 
+          extrin<lb break="no" ed="#P" n="99"/>secus, quia valde accidentarius est, et in 
+          in<lb break="no" ed="#P" n="100"/>terna connaturah dispositione rem non 
+          im<lb break="no" ed="#P" n="101"/>mutat. Et ad rationem pro Gregorio factam
+          <lb ed="#P" n="102"/>non est alia responsio necessaria, quia 
+          pro<lb break="no" ed="#P" n="103"/>prium Ubi aliquid distinctum est a loco
+          <lb ed="#P" n="104"/>extrinseco, et ad illum per se tendit motus 
+          lo<lb break="no" ed="#P" n="105"/>calis: consequenter vero ad extrinsecam 
+          su<lb break="no" ed="#P" n="106"/>pertficiem continentem, si detur, nam 
+          intrin<lb break="no" ed="#P" n="107"/>sece necessaria non est, ut declaravi.
+        </p>
+        <p xml:id="szdada-x12176-d1e174">
+          <pb ed="#P" n="484"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>2. Ad fundamentum Ferrariensis in eodem
+          <lb ed="#P" n="2"/>c. 12, n. 3.—Fundamentum vero aliorum 
+          auc<lb break="no" ed="#P" n="3"/>torum illam opinionem sequentium ex eo
+          <lb ed="#P" n="4"/>sumptum, quod Angeli sunt in loco per 
+          ope<lb break="no" ed="#P" n="5"/>rationem, a nobis non admittitur, et ideo
+          <lb ed="#P" n="6"/>omnes discursus in illo fundati eo ipso 
+          conci<lb break="no" ed="#P" n="7"/>dunt. Et praeterea specialiter potest illud 
+          im<lb break="no" ed="#P" n="8"/>pugnari, quia, et potest operatio Angeli circa
+          <lb ed="#P" n="9"/>corpus successive variari, non mutato formali
+          <lb ed="#P" n="10"/>loco Angeli: et e contrario potest Angelus 
+          mu<lb break="no" ed="#P" n="11"/>tare locum non mutata operatione circa 
+          cor<lb break="no" ed="#P" n="12"/>pus. Ac denique sicut Angelus potest esse in
+          <lb ed="#P" n="13"/>loco sine operatione transeunte in corpus: ita
+          <lb ed="#P" n="14"/>absque illa potest locum mutare; ergo ista
+          <lb ed="#P" n="15"/>omnia manifeste ostendunt formam illam, a
+          <lb ed="#P" n="16"/>qua Angelus moveri denominatur, non esse
+          <lb ed="#P" n="17"/>operationem ejus transeuntem in corpus. 
+          Con<lb break="no" ed="#P" n="18"/>sequentia per se patet; totum vero antecedens
+          <lb ed="#P" n="19"/>exemplis facile ostenditur. Nam Angelus 
+          mo<lb break="no" ed="#P" n="20"/>vens coedlum localiter manens immotus in
+          <lb ed="#P" n="21"/>eodem coeli situ continue illud movet, juxta
+          <lb ed="#P" n="22"/>probabiliorem sententiam, quam tradit divus
+          <lb ed="#P" n="23"/>Thomas, 1 part., quaest. 101, art. 3, ad 3, et
+          <lb ed="#P" n="24"/>quaestione 52, articulo 2, in corpore, et 
+          nihi<lb break="no" ed="#P" n="25"/>lominus continue applicat virtutem suam 
+          di<lb break="no" ed="#P" n="26"/>versis partibus coeli in eodem situ sibi 
+          succe<lb break="no" ed="#P" n="27"/>dentibus. Et similiter Angelus existens in tota
+          <lb ed="#P" n="28"/>hac aula, et in ea immotus localter 
+          perseve<lb break="no" ed="#P" n="29"/>rans, potest varias operationes in corporibus
+          <lb ed="#P" n="30"/>hic existentibus habere, nunc movendo 
+          ah<lb break="no" ed="#P" n="31"/>quod corpus sursum, nunc deorsum. 
+          Exem<lb break="no" ed="#P" n="32"/>plum secundae partis esse potest in Angelo
+          <lb ed="#P" n="33"/>existente intra unum hominem, qui homo iter
+          <lb ed="#P" n="34"/>agat non ab Angelo motus, sed sua virtute
+          <lb ed="#P" n="35"/>gradiens, Angelo ipso comitante, et in eadem
+          <lb ed="#P" n="36"/>tentatione, verbi gratia, vel illuminatione, aut
+          <lb ed="#P" n="37"/>bona inspiratione illhus perseverante. Tunc
+          <lb ed="#P" n="38"/>enim cum homine movetur, quia ab illo non
+          <lb ed="#P" n="39"/>separatur, nec movetur movendo hominem
+          <lb ed="#P" n="40"/>motu locali continuo, quia supponimus 
+          ho<lb break="no" ed="#P" n="41"/>minem movere seipsum, et nihilominus in
+          <lb ed="#P" n="42"/>eadem operatione in ipsum hominem 
+          perse<lb break="no" ed="#P" n="43"/>verat excitando phantasmata, et commovendo
+          <lb ed="#P" n="44"/>humores, vel aliquid simile faciendo. Tertia
+          <lb ed="#P" n="45"/>vero pars antecedentis multis modis, et 
+          exem<lb break="no" ed="#P" n="46"/>plis supra probata est. Quapropter videtur 
+          pro<lb break="no" ed="#P" n="47"/>fecto evidens, operationem Angeli transeuntem
+          <lb ed="#P" n="48"/>in corpus non esse motum localem ejus. 
+          Mul<lb break="no" ed="#P" n="49"/>toque evidentius id est de actibus 
+          immanen<lb break="no" ed="#P" n="50"/>tibus, per quos Angelus ad extra operatur
+          <lb ed="#P" n="51"/>(quidquid Ferrariensis supra dicat). Tum quia
+          <lb ed="#P" n="52"/>rationes factae eodem modo possunt ad actus
+          <lb ed="#P" n="53"/>immanentes applicari. Tum etiam quia actus
+          <lb ed="#P" n="54"/>immanens formaliter tantum est cognitio, vel
+          <lb ed="#P" n="55"/>volitio, quae in eodem loco, et in diversis, vel
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>eadem perseverare potest, vel mutari, quam
+          <lb ed="#P" n="57"/>mutationem vocavit Augustinus per tempus,
+          <lb ed="#P" n="58"/>non per loca. Unde etiam juxta nostram 
+          sen<lb break="no" ed="#P" n="59"/>tentiam, quamvis Angelus se moveat per 
+          vo<lb break="no" ed="#P" n="60"/>Iuntatem, nihilominus non est ipsa volitio
+          <lb ed="#P" n="61"/>motus Angeli, sed est principium, vel 
+          effec<lb break="no" ed="#P" n="62"/>tio illius motus, qui transit (ut ita dicam)
+          <lb ed="#P" n="63"/>in substantiam Angeli, illamque immediate 
+          af<lb break="no" ed="#P" n="64"/>ficit.
+        </p>
+        <p xml:id="szdada-x12176-d1e323">
+          <lb ed="#P" n="65"/>3. Ad fundamentum Arborei in eodem n. 3.
+          <lb ed="#P" n="66"/>— Fundamentum autem Arborei, quod 
+          Ange<lb break="no" ed="#P" n="67"/>lus est indivisibilis, ab omnibus fere 
+          scholasti<lb break="no" ed="#P" n="68"/>cis solvitur ex distinctione supra dicta quod
+          <lb ed="#P" n="69"/>Angelus non est indivisibilis sicut punctum,
+          <lb ed="#P" n="70"/>habens positionem in continuo, sed 
+          indivisi<lb break="no" ed="#P" n="71"/>bilis substantialiter longe altiori modo, ratione
+          <lb ed="#P" n="72"/>cujus licet in se indivisibilis sit, et inextensus
+          <lb ed="#P" n="73"/>quantitative, potest esse in loco extenso, et
+          <lb ed="#P" n="74"/>divisibili. Unde sicut in loco extenso est 
+          indi<lb break="no" ed="#P" n="75"/>visibiliter totus in toto, et totus in qualibet
+          <lb ed="#P" n="76"/>parte, ita etiam potest modo spirituali 
+          appli<lb break="no" ed="#P" n="77"/>care substantiam suam ad aliud, et aliud Ubi,
+          <lb ed="#P" n="78"/>in qua applicatione motus locahs Angeli 
+          consis<lb break="no" ed="#P" n="79"/>tit. An vero ista applicatio fieri possit cum
+          <lb ed="#P" n="80"/>successione continua, vel alio modo, et an
+          <lb ed="#P" n="81"/>Angelus in indivisibili puncto existens possit
+          <lb ed="#P" n="82"/>locum mutare, in sequentibus tractabitur. Ad
+          <lb ed="#P" n="83"/>locum Augustini, libro 8, Geneseos, dicentis,
+          <lb ed="#P" n="84"/>Deum movere Angelos per tempora tantum,
+          <lb ed="#P" n="85"/>corpora vero per tempora, et loca: communis
+          <lb ed="#P" n="86"/>responsio est, loqui Augustinum de motu 
+          lo<lb break="no" ed="#P" n="87"/>cali materiali et corporeo. Estque consentanea
+          <lb ed="#P" n="88"/>menti Augustini, si ejus verba in initio capitis
+          <lb ed="#P" n="89"/>considerentur, ait enim: Deus creacit omnia
+          <lb ed="#P" n="90"/>simul ex quibus currerent tempora, et 
+          ample<lb break="no" ed="#P" n="91"/>rentur loca, temporalibusque, ac localibus 
+          ve<lb break="no" ed="#P" n="92"/>rwn motibus scecula colverentur. Loquitur ergo
+          <lb ed="#P" n="93"/>de illo motu locali, quo et loca replentur, et
+          <lb ed="#P" n="94"/>saecula volvuntur, qui est materialis, et 
+          sensi<lb break="no" ed="#P" n="95"/>bilis motus. Unde in eo loco sub mutatione
+          <lb ed="#P" n="96"/>per tempus videtur Augustinus omnem motum
+          <lb ed="#P" n="97"/>Angeli spiritualem comprehendere. Adde vero
+          <lb ed="#P" n="98"/>possumus eumdem Augustinum, lib. 9 
+          ejus<lb break="no" ed="#P" n="99"/>dem operis, cap. 14, in tine, dicentem, 
+          An<lb break="no" ed="#P" n="100"/>gelos movere se per tempus et locum agilitate
+          <lb ed="#P" n="101"/>miralil.
+        </p>
+        <p xml:id="szdada-x12176-d1e406">
+          <lb ed="#P" n="102"/>4. Ad ultimam partem secundae sententie
+          <lb ed="#P" n="103"/>capitis illius 13, in num. 4.—Ad tertiam 
+          sen<lb break="no" ed="#P" n="104"/>tentiam in cap. 19, num. 5.—bSatisfit prime
+          <lb ed="#P" n="105"/>ejus propositioni in num. 6.— Secunda vero
+          <lb ed="#P" n="106"/>propositio inpugnatur primo.—MAd eam 
+          par<lb break="no" ed="#P" n="107"/>tem secundae sententiae, quod Angeli, qui 
+          mo<lb break="no" ed="#P" n="108"/>ventur per accidens, non habent locum sibi
+          <lb ed="#P" n="109"/>inhaerentem, non est quod respondeamus :
+          <lb ed="#P" n="110"/>nam etiam exemplum, quod ex corporibus
+          <pb ed="#P" n="485"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>adduxit, si servata proportione afferatur, 
+          fal<lb break="no" ed="#P" n="2"/>sum est, ut jam ostendi, et mox iterum dicam.
+          <lb ed="#P" n="3"/>Tertia vero opinio tota fundatur in illa 
+          phy<lb break="no" ed="#P" n="4"/>sica unione, quam inter Angelum et corpus
+          <lb ed="#P" n="5"/>ponit, qua e medio sublata, ut a nobis jam
+          <lb ed="#P" n="6"/>rejecta est, alia responsio non est necessaria.
+          <lb ed="#P" n="7"/>Ad majorem tamen rei ostensionem de 
+          singu<lb break="no" ed="#P" n="8"/>lis ejus propositionibus pauca dicemus. 
+          Pri<lb break="no" ed="#P" n="9"/>mam ergo propositionem libenter admittimus,
+          <lb ed="#P" n="10"/>non tamen ex illo fundamento, sed quia 
+          Ange<lb break="no" ed="#P" n="11"/>lus per se motus necessario mutat intrinsecum
+          <lb ed="#P" n="12"/>Ubi, qui est modus ejus, et ideo sine motu,
+          <lb ed="#P" n="13"/>seu mutatione in ipso facta, illum variare non
+          <lb ed="#P" n="14"/>potest. Secunda vero propositio illius 
+          senten<lb break="no" ed="#P" n="15"/>tiae consequenter quidem posita est: sed duo
+          <lb ed="#P" n="16"/>falsa supponit; unum est dari inter corpus, et
+          <lb ed="#P" n="17"/>Angelum unionem physicam abstrahentem a
+          <lb ed="#P" n="18"/>formali loco, id est, a fundamento distantiae a
+          <lb ed="#P" n="19"/>punctis fixis, qualis inter animam et corpus
+          <lb ed="#P" n="20"/>reperitur. Alterum est, talem unionem, si
+          <lb ed="#P" n="21"/>esset, non necessario supponere praesentiam,
+          <lb ed="#P" n="22"/>seu indistantiam localem inter unibilia, 
+          cu<lb break="no" ed="#P" n="23"/>jus oppositum satis declaravimus, et 
+          probavi<lb break="no" ed="#P" n="24"/>mus.
+        </p>
+        <p xml:id="szdada-x12176-d1e484">
+          <lb ed="#P" n="25"/>5. Impugnatur secundo.—Tertio loco 
+          existi<lb break="no" ed="#P" n="26"/>mo etiam falsum, quod in illa propositione 
+          ad<lb break="no" ed="#P" n="27"/>ditur, quando Angelus per se movetur, motum
+          <lb ed="#P" n="28"/>ejus consistere in extrinseca denominatione
+          <lb ed="#P" n="29"/>distantiae a punctis fixis. Primo, quia ostensum
+          <lb ed="#P" n="30"/>est in fine cap. 14, motum localem non posse
+          <lb ed="#P" n="31"/>consistere in extrinseca denominatione, quia
+          <lb ed="#P" n="32"/>denominatio non est actus ejus, qui 
+          denomi<lb break="no" ed="#P" n="33"/>natur. Unde non est actus mobilis, neque 
+          ac<lb break="no" ed="#P" n="34"/>tus entis in potentia, prout, in potentia, sicut
+          <lb ed="#P" n="35"/>definitio motus postulat. Secundo quia illa
+          <lb ed="#P" n="36"/>pars supponit Angelum non esse vere, et 
+          ra<lb break="no" ed="#P" n="37"/>tione suae intrinsecae praesentiae distantem ab
+          <lb ed="#P" n="38"/>aliis rebus, vel a punctis fixis, sed tantum per
+          <lb ed="#P" n="39"/>extrinsecam denominationem, quod falsum
+          <lb ed="#P" n="40"/>esse supra ostensum est. Et ut verum fatear,
+          <lb ed="#P" n="41"/>in universum intelligere non valeo, quomodo
+          <lb ed="#P" n="42"/>haec denominatio propinquitatis, et distantiae
+          <lb ed="#P" n="43"/>sit pure extrinseca, ita ut non supponat in re
+          <lb ed="#P" n="44"/>aliquid intrinsecum, in quo illa denominatio
+          <lb ed="#P" n="45"/>aliquo modo fundetur, praesertim in creaturis.
+          <lb ed="#P" n="46"/>Imo etiam Deus, licet extrinsece denominetur
+          <lb ed="#P" n="47"/>propinquus creaturae in qua est: tamen non
+          <lb ed="#P" n="48"/>esset capax illius denominationis, nisi ratione
+          <lb ed="#P" n="49"/>suae immensitatis esset intrinsece praesens 
+          om<lb break="no" ed="#P" n="50"/>nibus corporibus, vel spatiis in quibus esse
+          <lb ed="#P" n="51"/>possunt. Unde e contrario non potest distans
+          <lb ed="#P" n="52"/>denominari, quia non potest ab illis spatiis
+          <lb ed="#P" n="53"/>abesse. Res vero creatae cum habeant finitam
+          <lb ed="#P" n="54"/>praesentiam, si semel distent, et una earum
+          <lb ed="#P" n="55"/>immutata maneat, non potest altera fieri ei
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>propinqua per solam extrinsecam 
+          denomina<lb break="no" ed="#P" n="57"/>tionem. Et similiter non potest fieri distans ab
+          <lb ed="#P" n="58"/>aliis rebus, quibus antea erat propinqua, ipsis
+          <lb ed="#P" n="59"/>manentibus immotis, propter extrinsecam 
+          tan<lb break="no" ed="#P" n="60"/>tum denominationem aliunde sumptam. Quia
+          <lb ed="#P" n="61"/>idipsum, quod est extrinsecum fundamentum
+          <lb ed="#P" n="62"/>propinquitatis a terra, verbi gratia, est etiam
+          <lb ed="#P" n="63"/>fundamentum distantiae a coelo, a quo etiam
+          <lb ed="#P" n="64"/>terra distat.
+        </p>
+        <p xml:id="szdada-x12176-d1e575">
+          <lb ed="#P" n="65"/>6. Impugnatur ultimo.—GQuarto loco falsum
+          <lb ed="#P" n="66"/>etiam censeo terminum motus localis Angeli
+          <lb ed="#P" n="67"/>esse relationem distantiae, non quae in ipso sit,
+          <lb ed="#P" n="68"/>sed quae sit in corpore. Primo quidem, qui ad
+          <lb ed="#P" n="69"/>relationem non est per se motus. Secundo,quia
+          <lb ed="#P" n="70"/>illa relatio jam erat in corpore, terminus
+          <lb ed="#P" n="71"/>autem motus denuo fit. Dices, relatio quidem
+          <lb ed="#P" n="72"/>erat in corpore, sed non denominabat 
+          Ange<lb break="no" ed="#P" n="73"/>Ium, nunc autem denominat: et hoc de novo
+          <lb ed="#P" n="74"/>fit: sed contra, quia hoc nihil est, neque in
+          <lb ed="#P" n="75"/>corpore, nec in Angelo. Item nova 
+          denomina<lb break="no" ed="#P" n="76"/>tio realis inter duas res creatas non insurgit
+          <lb ed="#P" n="77"/>sine mutatione reali in altera earum. Dices hic
+          <lb ed="#P" n="78"/>etiam supponi mutationem in Angelo per 
+          unio<lb break="no" ed="#P" n="79"/>nem, sed hoc jam refutatum est: tum quia si
+          <lb ed="#P" n="80"/>non est mutatio ad Ubi, neque ad qualitatem,
+          <lb ed="#P" n="81"/>neque ad quantitatem, nec substantiam, nihil
+          <lb ed="#P" n="82"/>est: tum etiam quia si est unio, non facit 
+          pro<lb break="no" ed="#P" n="83"/>pinquitatem unibilium, sed ordine naturae 
+          il<lb break="no" ed="#P" n="84"/>lam supponit.
+        </p>
+        <p xml:id="szdada-x12176-d1e621">
+          <lb ed="#P" n="85"/>7. Tertia deinde propositio in n. illo sexto
+          <lb ed="#P" n="86"/>probata refellitur.—Et hinc improbata etiam
+          <lb ed="#P" n="87"/>manet propositio tertia. Nam quae diximus de
+          <lb ed="#P" n="88"/>motu inhaerente Angelo, etiam cum dicitur
+          <lb ed="#P" n="89"/>per accidens moveri, aeque procedunt, sive
+          <lb ed="#P" n="90"/>Angelus sit physice unitus corpori, sive non sit,
+          <lb ed="#P" n="91"/>ut exemplo animae declaratum est. Unde nulla
+          <lb ed="#P" n="92"/>est illa consequentia, non mutat unionem ad
+          <lb ed="#P" n="93"/>corpus; ergo neque aliam mutationem 
+          intrin<lb break="no" ed="#P" n="94"/>secam patitur, quia conservata unione potest
+          <lb ed="#P" n="95"/>intrinsecum Ubi mutare. Et idem de anima
+          <lb ed="#P" n="96"/>dicimus. Et cum infertur: ergo non movetur
+          <lb ed="#P" n="97"/>per accidens, distinguitur consequens, non
+          <lb ed="#P" n="98"/>movetur formaliter persolum motum alienum,
+          <lb ed="#P" n="99"/>concedimus sequelam, et consequens, vel non
+          <lb ed="#P" n="100"/>movetur per accidens, id est, non movetur ad
+          <lb ed="#P" n="101"/>motum alterius, seu totius, negatur sequela:
+          <lb ed="#P" n="102"/>nam hic est unus ex praecipuis modis motus
+          <lb ed="#P" n="103"/>per accidens, teste Aristotele 5, Physica,
+          <lb ed="#P" n="104"/>cap. 1.
+        </p>
+        <p xml:id="szdada-x12176-d1e667">
+          <lb ed="#P" n="105"/>8. Ad exempla ibidem adducta in 
+          confirma<lb break="no" ed="#P" n="106"/>tione.— lItem ad quartam propositionem 
+          addi<lb break="no" ed="#P" n="107"/>tam.—Et cum instatur, quia tunc non movetur
+          <lb ed="#P" n="108"/>ab eo, qui movet corpus. De anima respondeo
+          <lb ed="#P" n="109"/>negando sequelam, quia ex vi naturalis 
+          unio<lb break="no" ed="#P" n="110"/>nis cum corpore fertur cum illo, licet sine in-
+          <pb ed="#P" n="486"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>trinseca mutatione locali, quasi partiali non
+          <lb ed="#P" n="2"/>feratur. Et idem est de motu corporis Christi
+          <lb ed="#P" n="3"/>in Eucharistia ut dictum est, licet unio ejus ad
+          <lb ed="#P" n="4"/>species supernaturalis sit, quod non refert.
+          <lb ed="#P" n="5"/>De Angelo vero concedo sequelam, et 
+          conse<lb break="no" ed="#P" n="6"/>quens non solum concessum, sed etiam 
+          proba<lb break="no" ed="#P" n="7"/>tum est, praesertim quando corpus non ab
+          <lb ed="#P" n="8"/>Angelo, sed ab alio movetur. Nam si idem
+          <lb ed="#P" n="9"/>Angelus sit motor corporis, jam ab eodem
+          <lb ed="#P" n="10"/>movebitur ipse, a quo movetur corpus: re 
+          ta<lb break="no" ed="#P" n="11"/>men vera non movet seipsum per corpus, sed
+          <lb ed="#P" n="12"/>tantum concomitanter, ut declaravi. Et ideo
+          <lb ed="#P" n="13"/>illa denominatio mutationis per accidens, 
+          mi<lb break="no" ed="#P" n="14"/>nus quidem propria est in Angelo, tamen 
+          par<lb break="no" ed="#P" n="15"/>tim ex reipsa, partim ex nostro modo 
+          conci<lb break="no" ed="#P" n="16"/>piendi, et loquendi orta videtur. Denique
+          <lb ed="#P" n="17"/>quarta propositio, quam addidimus, optime
+          <lb ed="#P" n="18"/>sequitur ex fundamento illius sententiae, et
+          <lb ed="#P" n="19"/>illo posito nullum inconveniens continet.
+          <lb ed="#P" n="20"/>Quia nos etiam concedimus posse Angelum
+          <lb ed="#P" n="21"/>mutare praesentiam ad varia corpora, non
+          <lb ed="#P" n="22"/>mutando intrinsecum Ubi. Sed hoc in nostra
+          <lb ed="#P" n="23"/>sententia facile intelligitur: quia illa variatio
+          <lb ed="#P" n="24"/>praesentiae, fit per mutationem termini 
+          ejus<lb break="no" ed="#P" n="25"/>dem praesentiae, et ideo fieri potest per 
+          de<lb break="no" ed="#P" n="26"/>nominationem extrinsecam sine motu locali
+          <lb ed="#P" n="27"/>Angeli. At vero, posita unione, non potest in
+          <lb ed="#P" n="28"/>illa fieri variatio, quin fiat intrinseca 
+          muta<lb break="no" ed="#P" n="29"/>tio in Angelo, quae si non sit mutatio localis,
+          <lb ed="#P" n="30"/>intelligi non potest, quae vel qualis sit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

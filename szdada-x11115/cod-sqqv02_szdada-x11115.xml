@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="442"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x11115"><!-- l4d5 -->
+        <head xml:id="szdada-x11115-Hd1e101">Caput 5</head>
+        <head xml:id="szdada-x11115-Hd1e103" type="question-title">Utrum angelus sit in loco extrinseco per aliquid actioni simile, seu proportionale</head>
+        <p xml:id="szdada-x11115-d1e106">
+          <lb ed="#P" n="5"/>CAPUT V.
+          <lb ed="#P" n="6"/>UTRUM ANGELUS SIT IN LOCO EXTRINSECO PER 
+          ALI<lb break="no" ed="#P" n="7"/>QUID ACTIONI SIMILE, SEU PROPORTIONALE.
+        </p>
+        <p xml:id="szdada-x11115-d1e115">
+          <lb ed="#P" n="8"/>1. Prima opinio.— Angelum esse in loco per
+          <lb ed="#P" n="9"/>applicationem virtutis.—Hic tractandae sunt 
+          o<lb break="no" ed="#P" n="10"/>piniones praecedenti annexae. Inter quas prima
+          <lb ed="#P" n="11"/>(quae respectu opinionis tractatae in capite 
+          prae<lb break="no" ed="#P" n="12"/>cedenti dici potest secunda) dicit, Angelum esse
+          <lb ed="#P" n="13"/>in loco per applicationem virtutis, et hanc 
+          ap<lb break="no" ed="#P" n="14"/>plicationem esse proximam rationem existendi
+          <lb ed="#P" n="15"/>in loco. Ita tenet moderando priorem 
+          senten<lb break="no" ed="#P" n="16"/>tiam Capreolus, in 2, quaest. 1, art. 1, concl. 1,
+          <lb ed="#P" n="17"/>et Cajetanus, 1. p., q. 52, art. 1, fuitque 
+          opi<lb break="no" ed="#P" n="18"/>nio Godfredi, quodl. 8, q. 13, quem secutus
+          <lb ed="#P" n="19"/>fuit Argentina in dist. 37, q. 4,a. 2, et ita 
+          E<lb break="no" ed="#P" n="20"/>gidium exponit, et multi ex modernis 
+          Thomis<lb break="no" ed="#P" n="21"/>tis in hanc sententiam inclinant, ut Viguerius,
+          <lb ed="#P" n="22"/>Valentia, et alii D. Thomam secundum illam
+          <lb ed="#P" n="23"/>interpretantes. Citantur etiam pro hac 
+          senten<lb break="no" ed="#P" n="24"/>tia Albertus Magnus, in 1, distinct. 37, sed ibi
+          <lb ed="#P" n="25"/>nihil clarum invenio; item Hervaeus, tract. de
+          <lb ed="#P" n="26"/>Motu Angelorum; Gregorius Bustius, 
+          quaestio<lb break="no" ed="#P" n="27"/>ne de locali motu Angelorum; <ref xml:id="szdada-x11115-Rd1e160">Picus 
+          Mirandu<lb break="no" ed="#P" n="28"/>lensis, Apolog. de descensu Animae Christi ad 
+          in<lb break="no" ed="#P" n="29"/>feros</ref>; <name xml:id="szdada-x11115-Nd1e167">Paulus Cortes</name>, in 2, dist. 2, quorum 
+          co<lb break="no" ed="#P" n="30"/>piam non habui. Fundamentum hujus 
+          senten<lb break="no" ed="#P" n="31"/>tiae esse videtur, quia haec applicatio, vel est 
+          ne<lb break="no" ed="#P" n="32"/>cessaria, ut Angelus sit substantialiter praesens
+          <lb ed="#P" n="33"/>loco, vel certe supposita dicta praesentia addit
+          <lb ed="#P" n="34"/>sufficientem respectum ad corpus, ratione 
+          cu<lb break="no" ed="#P" n="35"/>jus locus Angeli dici possit: et ita putant 
+          expe<lb break="no" ed="#P" n="36"/>dire difficultates actas in praecedenti sententia.
+          <lb ed="#P" n="37"/>Et huic opinioni videntur favere verba D. 
+          Tho<lb break="no" ed="#P" n="38"/>mae, in dicta q. 52, art. 1, dicentis, Angelum
+          <lb ed="#P" n="39"/>esse in loco per applicationem virtutis ad aliquem
+          <lb ed="#P" n="40"/>locum qualitercumque. Quod magis declarat
+          <lb ed="#P" n="41"/>quodl. 1, art. 4, dicens, Angelum esse in loco
+          <lb ed="#P" n="42"/>per operationem: ita tamen, ut per operationem
+          <lb ed="#P" n="43"/>non intelligatur sola motio, sed quecumque 
+          uni<lb break="no" ed="#P" n="44"/>Lio, qua sua virtute se corpori unit, preesidendo,
+          <lb ed="#P" n="45"/>vel continendo, vel quocumque alio modo. Per
+          <lb ed="#P" n="46"/>quae verba videtur limitare, vel explicare, quod
+          <lb ed="#P" n="47"/>prius dixerat. Capreolus autem excedit, dum
+          <lb ed="#P" n="48"/>hanc declarationem refert, ut positam a D. 
+          Tho<lb break="no" ed="#P" n="49"/>ma in loco 1, sent. d. 37, q. 3, art. 1.
+        </p>
+        <p xml:id="szdada-x11115-d1e214">
+          <lb ed="#P" n="50"/>2. Improbatur proposita sententia. — 
+          Nihil<lb break="no" ed="#P" n="51"/>ominus haec sententia a multis Doctoribus 
+          in<lb break="no" ed="#P" n="52"/>fra recitandis improbatur, et mihi etiam dis-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>plicet. Primo quia illa applicatio virtutis, ut
+          <lb ed="#P" n="54"/>ab actione transeunte distinguitur, et est 
+          ali<lb break="no" ed="#P" n="55"/>quid praevium ad illam, vel non est aliud ab
+          <lb ed="#P" n="56"/>indistantia, seu praesentia substantiali, vel si
+          <lb ed="#P" n="57"/>quid addit, nihil ad existentiam in loco 
+          con<lb break="no" ed="#P" n="58"/>ferre potest. Probo singula, supponendo 
+          im<lb break="no" ed="#P" n="59"/>primis, dictos auctores distinguere 
+          applicatio<lb break="no" ed="#P" n="60"/>nem virtutis ab actione transeunte, alias 
+          eo<lb break="no" ed="#P" n="61"/>rum opinio a praecedenti non differret. Supposita
+          <lb ed="#P" n="62"/>autem distinctione per se manifestum videtur,
+          <lb ed="#P" n="63"/>dictam applicationem esse praeambulam ad 
+          ac<lb break="no" ed="#P" n="64"/>tionem, sicut inter corpora applicatio agentis
+          <lb ed="#P" n="65"/>ad passum ad actionem praevia est. Ipsum
+          <lb ed="#P" n="66"/>etiam nomen applicationis virtutis hoc prae se
+          <lb ed="#P" n="67"/>fert: nam in universum applicatio virtutis,
+          <lb ed="#P" n="68"/>formaliter loquendo, ad actionem ordinatur,
+          <lb ed="#P" n="69"/>nec apparet aliud, quod per illa verba 
+          signifi<lb break="no" ed="#P" n="70"/>cari possit. Unde etiam oportet, ut illa 
+          apph<lb break="no" ed="#P" n="71"/>catio sit aliquod medium inter virtutem 
+          acti<lb break="no" ed="#P" n="72"/>vam, et actionem, ut etiam dicti auctores 
+          sup<lb break="no" ed="#P" n="73"/>ponunt, quia non magis admittunt rationem
+          <lb ed="#P" n="74"/>essendi in loco esse solam potentiam, vel 
+          vo<lb break="no" ed="#P" n="75"/>luntatem, quam solam substantiam, et sine
+          <lb ed="#P" n="76"/>dubio frustra, satisque improbabiliter id 
+          dice<lb break="no" ed="#P" n="77"/>retur. Videamus ergo quid possit esse haec 
+          ap<lb break="no" ed="#P" n="78"/>plicatio inter virtutem, et actionem; nam in
+          <lb ed="#P" n="79"/>rebus corporalibus inter virtutem, et actionem
+          <lb ed="#P" n="80"/>nihil praevium requiritur ex parte virtutis per
+          <lb ed="#P" n="81"/>modum applicationis, nisi propinquitas inter
+          <lb ed="#P" n="82"/>agens, et passum, necessaria, quae non est
+          <lb ed="#P" n="83"/>aliud nisi determinata ubi utriusque, agentis
+          <lb ed="#P" n="84"/>scilicet, et passi, in quibus relatio 
+          propinqui<lb break="no" ed="#P" n="85"/>tatis fundatur. Ergo si cum proportione 
+          lo<lb break="no" ed="#P" n="86"/>quendum est de Angelo, et corpore, applicatio
+          <lb ed="#P" n="87"/>virtutis angelicae ad corpus nihil aliud est, nisi
+          <lb ed="#P" n="88"/>constitutio Angeli in tali ubi, quod possit 
+          fun<lb break="no" ed="#P" n="89"/>dare relationem praesentiae, vel propinquitatis
+          <lb ed="#P" n="90"/>ad corpus ibi existens. Ergo applicatio virtutis
+          <lb ed="#P" n="91"/>sic explicata non constituit aliam rationem
+          <lb ed="#P" n="92"/>essendi in loco praeter ipsam praesentiam, seu
+          <lb ed="#P" n="93"/>intrinsecum ubi: quod est contra intentionem
+          <lb ed="#P" n="94"/>dictorum auctorum, quia nullum novum 
+          res<lb break="no" ed="#P" n="95"/>pectum, vel contactum virtualem Angeli ad
+          <lb ed="#P" n="96"/>corpus talis applicatio addit.
+        </p>
+        <p xml:id="szdada-x11115-d1e322">
+          <lb ed="#P" n="97"/>3. Effugium de applicatione media ànter
+          <lb ed="#P" n="98"/>virtutem agendi, et actionem ipsam. — 
+          Eapen<lb break="no" ed="#P" n="99"/>ditur quidnam esse possit talis applicatio. —
+          <lb ed="#P" n="100"/>Dicetur tamen esse discrimen inter agens 
+          cor<lb break="no" ed="#P" n="101"/>poreum, et spirituale: quod virtus agentis
+          <lb ed="#P" n="102"/>corporei naturaliter agit, et ideo eo ipso quod
+          <lb ed="#P" n="103"/>agens corporeum est propinquum alteri 
+          cor<lb break="no" ed="#P" n="104"/>pori, habet virtutem suam applicatam ad 
+          agen<lb break="no" ed="#P" n="105"/>dum. At vero substantia spiritualis extra se
+          <lb ed="#P" n="106"/>libere agit, et ideo licet sit indistans a corpore,
+          <lb ed="#P" n="107"/>non statim habet virtutem ad agendum appli-
+          <pb ed="#P" n="443"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>catam, sed speciali applicatione indiget, quae
+          <lb ed="#P" n="2"/>aliquid medium sit inter virtutem agendi, et
+          <lb ed="#P" n="3"/>actionem transeuntem. Sed hoc ad 
+          explican<lb break="no" ed="#P" n="4"/>dum locum Angelorum conferre non potest.
+          <lb ed="#P" n="5"/>Quoniam illa applicatio necessario esse debet
+          <lb ed="#P" n="6"/>aliquis actus secundus ab ipso Angelo elicitus;
+          <lb ed="#P" n="7"/>nam esse non potest ipsa virtus agendi in puro
+          <lb ed="#P" n="8"/>actu primo, quia haec necessario inest: 
+          appli<lb break="no" ed="#P" n="9"/>catio autem ille dicitur esse libera, ergo 
+          con<lb break="no" ed="#P" n="10"/>sistit in aliquo actu secundo: nam per illum
+          <lb ed="#P" n="11"/>solum actualis libertas positive exercetur.
+          <lb ed="#P" n="12"/>Deinde actus ille immanens tantum erit, quia
+          <lb ed="#P" n="13"/>per illam applicationem, ut talis est, nihil 
+          po<lb break="no" ed="#P" n="14"/>nit in extrinseco passo, imo inveniri potest in
+          <lb ed="#P" n="15"/>reipsa sine ulla actione transeunte, ut 
+          Cajeta<lb break="no" ed="#P" n="16"/>nus et alii supponunt. Ex quibus aperte 
+          con<lb break="no" ed="#P" n="17"/>cluditur, hanc applicationem solum esse posse
+          <lb ed="#P" n="18"/>actum voluntatis, qua vult Angelus in tali 
+          cor<lb break="no" ed="#P" n="19"/>pore operari. Quia virtus motiva Angeli, verbi
+          <lb ed="#P" n="20"/>gratia, vel est ipsa voluntas, ut multi volunt,
+          <lb ed="#P" n="21"/>vel si est potentia executiva a voluntate 
+          dis<lb break="no" ed="#P" n="22"/>Uncta, ipsa est per se satis expedita ad 
+          operan<lb break="no" ed="#P" n="23"/>dum, si voluntas imperet, ergo applicatio 
+          vir<lb break="no" ed="#P" n="24"/>tutis motivae, nihil addit, vel voluntati, vel 
+          po<lb break="no" ed="#P" n="25"/>tentiae executivae, nisi actum volendi operari :
+          <lb ed="#P" n="26"/>nam per hunc actum videtur Angelus esse
+          <lb ed="#P" n="27"/>quasi in procincto ad operandum. Sub actu
+          <lb ed="#P" n="28"/>JABvero voluntatis includimus actum intellectus,
+          <lb ed="#P" n="29"/>qui vel ad actum voluntatis necessario 
+          suppo<lb break="no" ed="#P" n="30"/>nitur, vel interdum etiam sequitur, si ad illam
+          <lb ed="#P" n="31"/>proximam aptitudinem operandi ad extra 
+          ne<lb break="no" ed="#P" n="32"/>cessarius sit: ut in Angelo custode esse potest
+          <lb ed="#P" n="33"/>attentio actualis ad mentem, et corpus 
+          homi<lb break="no" ed="#P" n="34"/>nis, quem custodit, ut illi subveniat, vel in
+          <lb ed="#P" n="35"/>ipsum operetur, quando fuerit opportunum.
+          <lb ed="#P" n="36"/>Nec videtur posse exponi, quid aliud talis 
+          ap<lb break="no" ed="#P" n="37"/>plicatio sit. De illa ergo dicimus non posse esse
+          <lb ed="#P" n="38"/>ex parte Angeli rationem existendi in loco.
+        </p>
+        <p xml:id="szdada-x11115-d1e435">
+          <lb ed="#P" n="39"/>4. Impugnatur vero dicta applicatio primo.
+          <lb ed="#P" n="40"/>—Assuwnptun ostenditur exemplo Angeli in
+          <lb ed="#P" n="41"/>calo existentis. —Nam imprimis si Cajetanus,
+          <lb ed="#P" n="42"/>et alii intelligunt hanc applicationem 
+          neces<lb break="no" ed="#P" n="43"/>sariam esse, ut Angelus habeat suam 
+          substan<lb break="no" ed="#P" n="44"/>tiam realiter praesentem, et indistantem a
+          <lb ed="#P" n="45"/>corpore, ita ut non possit habere illam 
+          prae<lb break="no" ed="#P" n="46"/>sentiam, nisi ubi hanc applicationem 
+          habue<lb break="no" ed="#P" n="47"/>rit, non est minus falsa haec sententia, quam
+          <lb ed="#P" n="48"/>praecedens. Unde argumentor in hunc 
+          mo<lb break="no" ed="#P" n="49"/>dum: Angeli in Scriptura dicuntur esse non
+          <lb ed="#P" n="50"/>soium, ubi nihil operantur, sed etiam ubi nihil
+          <lb ed="#P" n="51"/>operari possint, vel etiamsi possint, propositum
+          <lb ed="#P" n="52"/>non habent ibi operandi, ideoque dici non 
+          pos<lb break="no" ed="#P" n="53"/>sunt, habere dicto modo ibi virtutem 
+          applica<lb break="no" ed="#P" n="54"/>tam ad agendum; ergo haec applicatio 
+          neces<lb break="no" ed="#P" n="55"/>saria non est, ut Angelus sit in aliquo corpore
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>saltem secundum realem praesentiam. Jam
+          <lb ed="#P" n="57"/>enim supra ostensum est quoties Scriptura 
+          di<lb break="no" ed="#P" n="58"/>cit, Angelum alicubi esse, maxime id de reali
+          <lb ed="#P" n="59"/>praesentia, et indistantia intelligere. Et ita 
+          con<lb break="no" ed="#P" n="60"/>sequentia est per se clara. Antecedens vero
+          <lb ed="#P" n="61"/>probatur eisdem exemplis, quibus supra usi 
+          su<lb break="no" ed="#P" n="62"/>mus. Angelinam qui in ceelo empyreo existunt,
+          <lb ed="#P" n="63"/>nihil in eo possunt operari, quia non possunt
+          <lb ed="#P" n="64"/>illud localiter movere, et aliud in illo efficere
+          <lb ed="#P" n="65"/>non possunt (ut ostensum est); ergo non habent
+          <lb ed="#P" n="66"/>virtutem operandi, quam ad illud corpus 
+          ap<lb break="no" ed="#P" n="67"/>plicare possunt. Dices de se habere virtutem
+          <lb ed="#P" n="68"/>motivam illius corporis, quamvis illam 
+          exer<lb break="no" ed="#P" n="69"/>cere non possunt ex decreto Dei. Sed quidquid
+          <lb ed="#P" n="70"/>de priori parte sit, posterior nobis sufficit.
+          <lb ed="#P" n="71"/>Quia Angeli sancti non possunt habere actum
+          <lb ed="#P" n="72"/>voluntatis, quo applicent virtutem ad 
+          moven<lb break="no" ed="#P" n="73"/>dum corpus immobile ex divina ordinatione,
+          <lb ed="#P" n="74"/>quia talis volitio irrationabilis, et otiosa, seu
+          <lb ed="#P" n="75"/>supervacanea esset: imo non posset esse 
+          effi<lb break="no" ed="#P" n="76"/>cax volitio, quia, omnibus pensats, esset de
+          <lb ed="#P" n="77"/>effectu impossibili, de quo non potest esse 
+          vo<lb break="no" ed="#P" n="78"/>luntas efficax. Declaratur assumptum, quia 
+          vo<lb break="no" ed="#P" n="79"/>litio per quam fit talis applicatio, non habet
+          <lb ed="#P" n="80"/>pro objecto ipsam applicationem, quia haec ab
+          <lb ed="#P" n="81"/>illo actu non distinguitur: nam applicatio non
+          <lb ed="#P" n="82"/>fit per actum effective, sed formaliter. Habet
+          <lb ed="#P" n="83"/>ergo illa volitio pro objecto ipsum effectum,
+          <lb ed="#P" n="84"/>scilicet motum, vel praesentem, vel futurum:
+          <lb ed="#P" n="85"/>nam est per modum propositi ibi operandi,
+          <lb ed="#P" n="86"/>vel statim vel postea cum oportuerit. Hic ergo
+          <lb ed="#P" n="87"/>actus non potest esse in Angelis efficax 
+          res<lb break="no" ed="#P" n="88"/>pectu motus coeli empyrei, ut constat. Fingere
+          <lb ed="#P" n="89"/>autem in illis actum imperfectum, vel 
+          condi<lb break="no" ed="#P" n="90"/>tionem ex parte objecti, scilicet si Deus 
+          licen<lb break="no" ed="#P" n="91"/>tiam dederit otiosum est, et impertinens: 
+          ideo<lb break="no" ed="#P" n="92"/>que absurdissimum esset hujusmodi actum in
+          <lb ed="#P" n="93"/>sanctis Angelis postulare, ut in coelo empyreo
+          <lb ed="#P" n="94"/>esse possint.
+        </p>
+        <p xml:id="szdada-x11115-d1e561">
+          <lb ed="#P" n="95"/>5. Item ostenditur evemplo animae separatee.
+          <lb ed="#P" n="96"/>— Similiter daemonum exemplo. — Aliud 
+          exem<lb break="no" ed="#P" n="97"/>plum est, de animabus separatis, quae juxta
+          <lb ed="#P" n="98"/>probabilem D. Thomae opinionem nullam 
+          vir<lb break="no" ed="#P" n="99"/>tutem habent naturalem ad operandum 
+          tran<lb break="no" ed="#P" n="100"/>seunter in corpora, quae non informant. Quod
+          <lb ed="#P" n="101"/>si ita est, profecto applicare virtutem non 
+          pos<lb break="no" ed="#P" n="102"/>sunt, quam non habent, et tamen sunt in
+          <lb ed="#P" n="103"/>coelo, etc. Verumtamen licet; demus habere
+          <lb ed="#P" n="104"/>hujusmodi virtutem, nihilominus incredibile
+          <lb ed="#P" n="105"/>est animas Purgatorii, verbi gratia, ibi 
+          appli<lb break="no" ed="#P" n="106"/>care suam virtutem ad aliquid agendum, quia
+          <lb ed="#P" n="107"/>per Dei voluntatem ad patiendum, non ad
+          <lb ed="#P" n="108"/>agendum ibi destinantur, ergo verisimile non
+          <lb ed="#P" n="109"/>est animas justas, quae voluntatem suam ad
+          <lb ed="#P" n="110"/>divinam in omnibus conformant, conari ali-
+          <pb ed="#P" n="444"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quid agere, vel virtutem suam ad hoc 
+          apph<lb break="no" ed="#P" n="2"/>care, cum sciant nihil posse ibi agere, etiamsi
+          <lb ed="#P" n="3"/>cuperent. Quid enim illud est, numquid 
+          mo<lb break="no" ed="#P" n="4"/>vere ignem, aut aliud corpus ibi existens?
+          <lb ed="#P" n="5"/>Frofecto frustra, et sine fundamento 
+          fingere<lb break="no" ed="#P" n="6"/>tur. Quae ratio in caeteris animabus, quae vel
+          <lb ed="#P" n="7"/>in sinu Abrahae fuerupt, vel nunc in limbo
+          <lb ed="#P" n="8"/>sunt, locum habet. In animabus vero 
+          damna<lb break="no" ed="#P" n="9"/>tis accedit peculiaris consideratio, quia non
+          <lb ed="#P" n="10"/>solum ibi sunt ad patiendum tantum, sed
+          <lb ed="#P" n="11"/>etiam sunt ibi coactae, et contra voluntatem
+          <lb ed="#P" n="12"/>suam, et ideo nullam voluntatem ibi essendi,
+          <lb ed="#P" n="13"/>nedum operandi habent. Quod argumentum
+          <lb ed="#P" n="14"/>etiam de daemonibus fieri potest; nam de istis
+          <lb ed="#P" n="15"/>certum est habere virtutem operandi, et illam
+          <lb ed="#P" n="16"/>in hoc mundo exercere: tamen in inferno non
+          <lb ed="#P" n="17"/>est hoc secundum verisimile, praesertim dum
+          <lb ed="#P" n="18"/>corpora damnatorum hominum ibi non 
+          exi<lb break="no" ed="#P" n="19"/>stunt. Ac denique esto possint ibi applicare
+          <lb ed="#P" n="20"/>virtutem suam, non ex necessitate id facient,
+          <lb ed="#P" n="21"/>sed libere, quia haec applicatio non pertinet ad
+          <lb ed="#P" n="22"/>poenam eorum, ut illam efficere cogantur; ergo
+          <lb ed="#P" n="23"/>pro sua libertate poterunt non applicare ibi
+          <lb ed="#P" n="24"/>virtutem suam, modo supra explicato, et 
+          nihil<lb break="no" ed="#P" n="25"/>ominus ex necessitate ibi existent; ergo 
+          ap<lb break="no" ed="#P" n="26"/>plicatio non est necessaria, ut ibi existant.
+        </p>
+        <p xml:id="szdada-x11115-d1e659">
+          <lb ed="#P" n="27"/>6. Inpugnatur secundo dicta applicatio a
+          <lb ed="#P" n="28"/>priori.—benique a priori potest hoc declarari
+          <lb ed="#P" n="29"/>ex dictis in capite secundo,nam Angelus potest
+          <lb ed="#P" n="30"/>sufficienter esse corpori propinquus per suum
+          <lb ed="#P" n="31"/>intrinsecum Ubi, ut ibi probavimus; ergo 
+          ap<lb break="no" ed="#P" n="32"/>plicatio virtutis, quatenus ultra dictum ubi 
+          ali<lb break="no" ed="#P" n="33"/>quid liberum addit, non est ad praedictam 
+          prae<lb break="no" ed="#P" n="34"/>sentiam necessaria. Patet consequentia, quia
+          <lb ed="#P" n="35"/>potest suspendi omnis libera applicatio eodem
+          <lb ed="#P" n="36"/>ubi immutato manente, verbi gratia, si 
+          Ange<lb break="no" ed="#P" n="37"/>lus sit prior in hac domo actu in illa operans,
+          <lb ed="#P" n="38"/>potest cessare ab omni actione transeunte, 
+          nul<lb break="no" ed="#P" n="39"/>lam mutationem localem in substantia sua 
+          fa<lb break="no" ed="#P" n="40"/>ciendo, ut ibidem probatum est; ergo similiter
+          <lb ed="#P" n="41"/>potest habere decretum voluntatis nolendi 
+          am<lb break="no" ed="#P" n="42"/>plius ibi operari sine ulla mutatione locali in
+          <lb ed="#P" n="43"/>seipso facta. Quia mutatio voluntatis, quae non
+          <lb ed="#P" n="44"/>habet pro objecto mutationem ipsius ubi, a 
+          ta<lb break="no" ed="#P" n="45"/>li mutatione non pendet magis, quam ab 
+          actio<lb break="no" ed="#P" n="46"/>ne transeunte; ergo potest manere, seu 
+          con<lb break="no" ed="#P" n="47"/>servari realis praesentia, et intrinsecum ubi 
+          si<lb break="no" ed="#P" n="48"/>ne applicatione virtutis ad corpus propinquum;
+          <lb ed="#P" n="49"/>ergo cadem ratione potest in principio fieri, seu
+          <lb ed="#P" n="50"/>acquiri sine tali applicatione virtutis: ut si 
+          An<lb break="no" ed="#P" n="51"/>geli sancti velint ad eum locum descendere,
+          <lb ed="#P" n="52"/>in quo Eucharistia conficienda est, non ut 
+          ah<lb break="no" ed="#P" n="53"/>quid extrinsecum ibi operentur, sed tantum,
+          <lb ed="#P" n="54"/>ut mysteriis divinis adsint, et ea venerentur.
+          <lb ed="#P" n="55"/>Hoc enim Angelis esse consuetum, Patrum tra-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ditio est, uti supra retuli, et sine dubio per se
+          <lb ed="#P" n="57"/>non requirit transeuntem actionem, et 
+          conse<lb break="no" ed="#P" n="58"/>quenter nec applicationem ad illam. Quia nec
+          <lb ed="#P" n="59"/>circa aerem, vel resalias ratione carentes, et in
+          <lb ed="#P" n="60"/>eo loco existentes, talis actio cum fundamento,
+          <lb ed="#P" n="61"/>vel utilitate cogitari potest, regulariter 
+          loquen<lb break="no" ed="#P" n="62"/>do. Circa homines vero existentes quamvis 
+          ve<lb break="no" ed="#P" n="63"/>risimile sit Angelos eorum custodes ibi adesse,
+          <lb ed="#P" n="64"/>ut eos ad bonum excitent, et a malo defendant,
+          <lb ed="#P" n="65"/>nihilominus praeter istos possunt esse alii solum
+          <lb ed="#P" n="66"/>ad assistendum. Sicut in coelo sunt multi 
+          assis<lb break="no" ed="#P" n="67"/>tentes, qui ex officio ministrant.
+        </p>
+        <p xml:id="szdada-x11115-d1e753">
+          <lb ed="#P" n="68"/>7. Secunda sententia, seu modus alter 
+          indu<lb break="no" ed="#P" n="69"/>cendi applicationem virtutis, per rationem 
+          exis<lb break="no" ed="#P" n="70"/>tendi in loco.— Adhuc rejicitur.—Posset autem
+          <lb ed="#P" n="71"/>aliquis opinionem Cajetani aliter interpretari,
+          <lb ed="#P" n="72"/>dicendo hanc applicationem virtutis non esse
+          <lb ed="#P" n="73"/>quidem necessariam ad praesentiam, seu 
+          indis<lb break="no" ed="#P" n="74"/>tantiam Angeli a corpore, nihilominus tamen
+          <lb ed="#P" n="75"/>esse necessartam, ut Angelus dicatur esse in
+          <lb ed="#P" n="76"/>tali corpore tanquam ex intrinseco loco. Quia
+          <lb ed="#P" n="77"/>si neque actio transiens, nec etiam applicatio
+          <lb ed="#P" n="78"/>ad illam intercedat, nullus est contactus, vel
+          <lb ed="#P" n="79"/>nexus, aut habitudo inter Angelum, et corpus,
+          <lb ed="#P" n="80"/>ratione cujus Angelus in corpore, tanquam in
+          <lb ed="#P" n="81"/>suo loco esse dicatur. Et in hoc sensu non erit
+          <lb ed="#P" n="82"/>tam falsa haec sententia, sicut in simili 
+          exposi<lb break="no" ed="#P" n="83"/>tione de praecedenti dixi; mihi tamen non 
+          pro<lb break="no" ed="#P" n="84"/>batur. Unde imprimis dico istum loquendi 
+          mo<lb break="no" ed="#P" n="85"/>dum non esse consentaneum modo loquendi
+          <lb ed="#P" n="86"/>Scriptura, et Patrum; nam loquendo per 
+          ter<lb break="no" ed="#P" n="87"/>minos locales, simpliciter dicunt Angelos esse
+          <lb ed="#P" n="88"/>in coelo, vel aliis locis corporeis, in quibus
+          <lb ed="#P" n="89"/>nullam actionem ad extra, nec virtutem ad
+          <lb ed="#P" n="90"/>illam applicatam habent, ut variis exemplis, et
+          <lb ed="#P" n="91"/>modis probatum est. At vero illa opinio dicto
+          <lb ed="#P" n="92"/>modo explicata rem totam ad modum loquendi
+          <lb ed="#P" n="93"/>revocat, dum admittit naturalem praesentiam
+          <lb ed="#P" n="94"/>Angeli ad corpus sine applicatione virtutis, et
+          <lb ed="#P" n="95"/>nihilominus negat illum esse locum Angeli; 
+          er<lb break="no" ed="#P" n="96"/>go in tali modo loquendi potius Scripturam, et
+          <lb ed="#P" n="97"/>Patres imitari debemus.
+        </p>
+        <p xml:id="szdada-x11115-d1e821">
+          <lb ed="#P" n="98"/>8. Addo deinde, si praeter intimam 
+          praesen<lb break="no" ed="#P" n="99"/>tiam inter Angelum, et corpus, et ubi 
+          utrius<lb break="no" ed="#P" n="100"/>que, vel actio transiens, vel applicatio virtutis
+          <lb ed="#P" n="101"/>necessaria esset ad localem unionem, (ut sic
+          <lb ed="#P" n="102"/>dicam) praeferendam fore primam opinionem
+          <lb ed="#P" n="103"/>huic secundae, quia per actionem transeuntem
+          <lb ed="#P" n="104"/>dici potest aliquo modo Angelus contingere
+          <lb ed="#P" n="105"/>corpus, vel continere illud. At vero applicatio
+          <lb ed="#P" n="106"/>virtutis prout explicata est, nullum 
+          contac<lb break="no" ed="#P" n="107"/>tum, vel quasi vinculum novum inter 
+          Ange<lb break="no" ed="#P" n="108"/>Ium, et corpus efficit. Quod probatur, quia ille
+          <lb ed="#P" n="109"/>actus voluntatis. in quo illa applicatio 
+          consis<lb break="no" ed="#P" n="110"/>tit, est pure immanens, quamdiu passionem
+          <pb ed="#P" n="445"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>transeuntem non inducit. Ergo pro tunc 
+          non<lb break="no" ed="#P" n="2"/>dum contingit corpus, nec tam illud respicit,
+          <lb ed="#P" n="3"/>ut passum, quam ut objectum. Quod aliter 
+          de<lb break="no" ed="#P" n="4"/>claratur, quia ille actus magis est propositum
+          <lb ed="#P" n="5"/>de futura actione, quam de praesenti; ergo
+          <lb ed="#P" n="6"/>non potest in praesenti esse ratio existendi
+          <lb ed="#P" n="7"/>in corpore magis, quam ipsa substantia,
+          <lb ed="#P" n="8"/>vel potentia, vel praesentia Angeli. Item
+          <lb ed="#P" n="9"/>declaratur amplius, quia ille modus 
+          ap<lb break="no" ed="#P" n="10"/>plicationis virtutis ad rem valde distantem
+          <lb ed="#P" n="11"/>haberi potest: nam Angelus existens in coelo
+          <lb ed="#P" n="12"/>potest attendere ad ea, quae aguntur in terra
+          <lb ed="#P" n="13"/>circa Petrum, verbi gratia, cum actuali 
+          vo<lb break="no" ed="#P" n="14"/>luntate illi succurrendi, vel illuminandi illum,
+          <lb ed="#P" n="15"/>cum oportuerit: nam id subito, et quasi in
+          <lb ed="#P" n="16"/>momento facere potest per innatam 
+          celerita<lb break="no" ed="#P" n="17"/>tem; ergo ille modus applicationis non potest
+          <lb ed="#P" n="18"/>esse ratio essendi in loco, cum haec 
+          propinqui<lb break="no" ed="#P" n="19"/>tatem, et indistantiam requirat, sive illam 
+          se<lb break="no" ed="#P" n="20"/>cum afferat, sive supponat.
+        </p>
+        <p xml:id="szdada-x11115-d1e900">
+          <lb ed="#P" n="21"/>9. Tertia sententia ait dictam rationem 
+          exis<lb break="no" ed="#P" n="22"/>tendi in loco esse instar operationis. — Propter
+          <lb ed="#P" n="23"/>haec est tertia sententia, quae duas praecedentes,
+          <lb ed="#P" n="24"/>vel corrigit, vel limitat, et nihilominus aliquid
+          <lb ed="#P" n="25"/>praeter praesentiam substantialem requirit, ut
+          <lb ed="#P" n="26"/>Angelus sit in loco, illud autem esse dicit 
+          ali<lb break="no" ed="#P" n="27"/>quid instar operationis. Haec opinio tribuitur
+          <lb ed="#P" n="28"/>Capreolo in 2, dist. 2, quaest.1, sed revera ille
+          <lb ed="#P" n="29"/>an conclus. 1, expresse loquitur de applicatione
+          <lb ed="#P" n="30"/>virtutis, (ut supra retuli). In articulo tamen
+          <lb ed="#P" n="31"/>tertio respondendo ad argumenta Aureoli 
+          con<lb break="no" ed="#P" n="32"/>tra eamdem conclusionem videtur hanc 
+          sen<lb break="no" ed="#P" n="33"/>tentiam indicare, dum ait: Quod contactus 
+          vir<lb break="no" ed="#P" n="34"/>tutis potest dici omne illud, quod se habet per
+          <lb ed="#P" n="35"/>modum operationis transeuntis in locum, aut
+          <lb ed="#P" n="36"/>corpus extrinsecum, et exeuntis ab Angelo, sive
+          <lb ed="#P" n="37"/>ilud sit motus localis, sive ministratio Angeli,
+          <lb ed="#P" n="38"/>sive preesidentia ejus super corpus locatum, sive
+          <lb ed="#P" n="39"/>continentia, qua continet corpus, sive unitio ejus
+          <lb ed="#P" n="40"/>ad corpus, sive influzus in corpus, sive 
+          quod<lb break="no" ed="#P" n="41"/>cumque aliud per modum actus secundi, et 
+          ope<lb break="no" ed="#P" n="42"/>rationis transeuntis. Potest etiam pro hac 
+          sen<lb break="no" ed="#P" n="43"/>tentia allegari D. Thomas in dist. 6, quaest. 1,
+          <lb ed="#P" n="44"/>art. 3, dum ait: Locum non deberi Angelo 
+          se<lb break="no" ed="#P" n="45"/>cundum suam essentiam, sed solum quantum ad
+          <lb ed="#P" n="46"/>operationem, vel per modum congruentiae, sicut
+          <lb ed="#P" n="47"/>in opere contemplationis, vel per modum 
+          neces<lb break="no" ed="#P" n="48"/>sitatis, sicut in his quae circa nos operantur.
+          <lb ed="#P" n="49"/>Et ita declarat, Angelos esse in coelo empyreo,
+          <lb ed="#P" n="50"/>tanquam in loco congruente ad 
+          contemplatio<lb break="no" ed="#P" n="51"/>nem. Idemque insinuat, quaest. 3, de Potentia,
+          <lb ed="#P" n="52"/>art. 19, ad 2, quatenus dicit: Quod etiam nunc
+          <lb ed="#P" n="53"/>nihil prohibet Angelos non esse in loco si 
+          volue<lb break="no" ed="#P" n="54"/>rint - ei si etiam semper sint in loco propter 
+          or<lb break="no" ed="#P" n="55"/>dinem, quo creatura spiritualis praesidet cor-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>porali. Et iterum ad 4, dicit: Angelos esse in
+          <lb ed="#P" n="57"/>celo empyreo, quatenus est congruus 
+          contem<lb break="no" ed="#P" n="58"/>plationi, quamvis necessarius non sit. Haec 
+          sen<lb break="no" ed="#P" n="59"/>tentia non habet peculiare fundamentum, sed
+          <lb ed="#P" n="60"/>quia supponit necessarium esse contractum
+          <lb ed="#P" n="61"/>virtutis, ut Angelus sit in loco extrinseco, et
+          <lb ed="#P" n="62"/>hoc in vera operatione transeunte servari non
+          <lb ed="#P" n="63"/>potest, ideo saltem aliquid instar operationis
+          <lb ed="#P" n="64"/>invenire. et explicare conatur.
+        </p>
+        <p xml:id="szdada-x11115-d1e1000">
+          <lb ed="#P" n="65"/>10. Impugnatur primo proaima sententia.—
+          <lb ed="#P" n="66"/>Verumtamen vel haec sententia cum 
+          praece<lb break="no" ed="#P" n="67"/>denti coincidit, vel nihil novi affert, quod ad
+          <lb ed="#P" n="68"/>rationem formalem essendi in loco conferre
+          <lb ed="#P" n="69"/>possit. Unde imprimis considerandum est,
+          <lb ed="#P" n="70"/>aliud esse loqui de ratione finali, propter quam
+          <lb ed="#P" n="71"/>Angelus est in aliquo determinato loco, aliud
+          <lb ed="#P" n="72"/>de ratione formali per quam ibi constituitur:
+          <lb ed="#P" n="73"/>nam sunt valde diversae, et hic rationem 
+          for<lb break="no" ed="#P" n="74"/>malem inquirimus, non finalem. Nam formalis
+          <lb ed="#P" n="75"/>est necessaria, et determinata ex natura rei:
+          <lb ed="#P" n="76"/>finalis vero nec necessaria est, nec determinata,
+          <lb ed="#P" n="77"/>sed est variabilis, et extrinseca, et ex parte
+          <lb ed="#P" n="78"/>agentia potius, quam ex vi existentiae in loco
+          <lb ed="#P" n="79"/>adjuncta. Et declaratur haec distinctio, quia si
+          <lb ed="#P" n="80"/>Angelus hic adsit, et actu non operetur, non
+          <lb ed="#P" n="81"/>poterit hic esse per operationem tanquam
+          <lb ed="#P" n="82"/>per rationem formalem essendi in loco: poterit
+          <lb ed="#P" n="83"/>tamen dici esse propter operationem, tanquam
+          <lb ed="#P" n="84"/>propter finem, si huc accedit animo, et 
+          inten<lb break="no" ed="#P" n="85"/>tione hic aliquid postea operandi. llla ergo
+          <lb ed="#P" n="86"/>omnia, quae in hac opinione multiplicantur, et
+          <lb ed="#P" n="87"/>dicuntur esse instar operationis, explicant 
+          qui<lb break="no" ed="#P" n="88"/>dem aliquo modo rationem finalem existendi
+          <lb ed="#P" n="89"/>in loco, non tamen rationem formalem. Quod
+          <lb ed="#P" n="90"/>imprimis patet in ea quae dicitur congruitas
+          <lb ed="#P" n="91"/>loci. Nam haec congruitas in corpore magis,
+          <lb ed="#P" n="92"/>quam in Angelo consideratur, et in corpore
+          <lb ed="#P" n="93"/>supponitur, non fit ab Angelo. Ut in exemplo
+          <lb ed="#P" n="94"/>de coelo empyreo, congruentia illius loci est,
+          <lb ed="#P" n="95"/>vel nobilitas, claritas, et pulchritudo illius 
+          cor<lb break="no" ed="#P" n="96"/>poris, vel situs ejus supremus, et a 
+          corrupti<lb break="no" ed="#P" n="97"/>bilibus, et mutabilibus rebus maximeseparatus.
+          <lb ed="#P" n="98"/>Haec autem congruentia non est ratio formalis,
+          <lb ed="#P" n="99"/>per quam Angelus constituatur in loco, vel
+          <lb ed="#P" n="100"/>contingat locum, ut per se notum videtur. Sed
+          <lb ed="#P" n="101"/>ex illa sumitur motivum constituendi ibi 
+          An<lb break="no" ed="#P" n="102"/>gelos, ut congruenter, et decenter sint, quod
+          <lb ed="#P" n="103"/>ad rationem finalem reducitur: ad eum 
+          mo<lb break="no" ed="#P" n="104"/>dum, quo res corporals in loco suae 
+          conserva<lb break="no" ed="#P" n="105"/>tioni congruo collocatur, non quia congruitas
+          <lb ed="#P" n="106"/>illa sit formahs ratio locandi, sed quia est 
+          mo<lb break="no" ed="#P" n="107"/>tivum, et ratio finalis. Sicut eiam homo in
+          <lb ed="#P" n="108"/>statu innocenüae constitutus est in Paradiso 
+          tan<lb break="no" ed="#P" n="109"/>quam in loco congruo, quamvis propria ratio
+          <lb ed="#P" n="110"/>constitutiva loci, seu essendi in loco alia fuerit.
+        </p>
+        <p xml:id="szdada-x11115-d1e1102">
+          <pb ed="#P" n="446"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>11. Impugnatur secundo excludendo quae 
+          as<lb break="no" ed="#P" n="2"/>signantur instar operationis.— Excluditur 
+          mi<lb break="no" ed="#P" n="3"/>nistratio. — Idem exphcari potest 
+          discurren<lb break="no" ed="#P" n="4"/>do breviter per ea, quae Capreolus numerat,
+          <lb ed="#P" n="5"/>et inquirendo quid sint, quantumve ad 
+          ratio<lb break="no" ed="#P" n="6"/>nem essendi in loco conferre valeant. Et omisso
+          <lb ed="#P" n="7"/>motu locali, de quo jam dictum est, addit 
+          pri<lb break="no" ed="#P" n="8"/>mo ministrationem. Quae dici quidem posset
+          <lb ed="#P" n="9"/>unaex rationibusfinalibus, propter quam potest
+          <lb ed="#P" n="10"/>Angelus ad locum mitti, vel ibi adesse: nullo
+          <lb ed="#P" n="11"/>autem modo illa potest esse ratio formalis 
+          es<lb break="no" ed="#P" n="12"/>sendi in loco. Tum quia, licet ordine 
+          intentio<lb break="no" ed="#P" n="13"/>nis illa sit prior, in ordine executionis prius est
+          <lb ed="#P" n="14"/>esse alicubi, quam ibi ministrare. Ut, verbi
+          <lb ed="#P" n="15"/>gratia, quando missus est Angelus Gabrielad 
+          an<lb break="no" ed="#P" n="16"/>nuntiandum Virgini mysterium salutis, prius
+          <lb ed="#P" n="17"/>ingressus est ad eam, per quod ibi esse capit,
+          <lb ed="#P" n="18"/>et postea ministerium suum inchoavit, 
+          loquen<lb break="no" ed="#P" n="19"/>do ad Virginem juxta verba Lucae 1: Zt 
+          in<lb break="no" ed="#P" n="20"/>gressus Angelus ad eam dixit. Tum etiam quia
+          <lb ed="#P" n="21"/>haec ratio ministrandi manifeste est extrinseca,
+          <lb ed="#P" n="22"/>et pendens ex intentione agentis, possetne 
+          An<lb break="no" ed="#P" n="23"/>gelus esse in eodem loco sine relatione 
+          minis<lb break="no" ed="#P" n="24"/>terii. Tum denique, quia vel est sermo de 
+          mi<lb break="no" ed="#P" n="25"/>nistratione actuali seu in actu secundo, vel
+          <lb ed="#P" n="26"/>tantum in actu primo, et quasi in animi 
+          prae<lb break="no" ed="#P" n="27"/>paratione. Primum non fit sine actuali 
+          opera<lb break="no" ed="#P" n="28"/>tione, et actione transeunte, quam haec 
+          senten<lb break="no" ed="#P" n="29"/>tia supponit non esse necessariam, secundum
+          <lb ed="#P" n="30"/>autem non excedit applicationem virtutis, et
+          <lb ed="#P" n="31"/>sine substantiali praesentia esse potest. Et ita
+          <lb ed="#P" n="32"/>contra hanc partem procedunt omnia dicta
+          <lb ed="#P" n="33"/>contra praecedentem sententiam, et facient, quae
+          <lb ed="#P" n="34"/>jam contra alteras partes addemus.
+        </p>
+        <p xml:id="szdada-x11115-d1e1183">
+          <lb ed="#P" n="35"/>12. Excluditur presidentia seu ornatus 
+          pri<lb break="no" ed="#P" n="36"/>mo. — Secundo ergo loco addit Capreolus,
+          <lb ed="#P" n="37"/>praesidentiam, refertque Aureolum 
+          interrogan<lb break="no" ed="#P" n="38"/>tem, quid sit haec praesidentia. Cui ille 
+          respon<lb break="no" ed="#P" n="39"/>det: Quod non est influxus alicujus qualitatis,
+          <lb ed="#P" n="40"/>aut virtutis, sed dicit quamdam nobilitationem
+          <lb ed="#P" n="41"/>et erornationem, et actuationem corporis per 
+          spi<lb break="no" ed="#P" n="42"/>ritum. Et hoc modo dicit non solum Angelos
+          <lb ed="#P" n="43"/>sanctos esse in coelo empyreo ornando illud, sed
+          <lb ed="#P" n="44"/>etiam daemones esse in inferno, veluti ornando
+          <lb ed="#P" n="45"/>locum illum. Et allegat divum Thomam in 4,
+          <lb ed="#P" n="46"/>distinct. 48, quaest. 2, art. 4, ad 3. Rursus
+          <lb ed="#P" n="47"/>vero interrogando quid sit iste ornatus, vel 
+          no<lb break="no" ed="#P" n="48"/>bilitatio, respondet: Quod est quedam relatio
+          <lb ed="#P" n="49"/>significuta per modum actionis transeuntis, et
+          <lb ed="#P" n="50"/>ordo quidam congruentiae unius ad alium, vel
+          <lb ed="#P" n="51"/>superioritatis, vel deputationis unius ad alium.
+          <lb ed="#P" n="52"/>Sed haec omria imprimis non excedunt 
+          applica<lb break="no" ed="#P" n="53"/>tionem virtutis, imo vix illam attingunt, unde
+          <lb ed="#P" n="54"/>omnia dicta contra applicationem virtutis, non
+          <lb ed="#P" n="55"/>minus contra haec omnia procedunt. Deinde
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fere omnia pertinent ad rationem finalem 
+          es<lb break="no" ed="#P" n="57"/>sendi in loco, formalem autem non attingunt,
+          <lb ed="#P" n="58"/>quia fere omnia esse possunt sine praesentia,
+          <lb ed="#P" n="59"/>seu indistantia substantiae Angeli, quae ad 
+          es<lb break="no" ed="#P" n="60"/>sendum in loco imprimis necessaria est, ut jam
+          <lb ed="#P" n="61"/>ostensum est.
+        </p>
+        <p xml:id="szdada-x11115-d1e1246">
+          <lb ed="#P" n="62"/>13. Excluditur secundo. — Assumptum 
+          pro<lb break="no" ed="#P" n="63"/>batur, nam ordo congruentice inter coelum 
+          em<lb break="no" ed="#P" n="64"/>pyreum, et Angelum sanctum semper 
+          tnveni<lb break="no" ed="#P" n="65"/>nitur, etiamsi Angelus sit in terra. Quod si 
+          di<lb break="no" ed="#P" n="66"/>catur, tunc Angelum non actu ornare coelum,
+          <lb ed="#P" n="67"/>sed solum quando est illi praesens; hoc ipsum
+          <lb ed="#P" n="68"/>a Cajetano et aliis Thomistis merito 
+          redargui<lb break="no" ed="#P" n="69"/>tur, quia talis ornatus, et supponit realem 
+          prae<lb break="no" ed="#P" n="70"/>sentiam, et indistantiam, et in reipsa nihil illi
+          <lb ed="#P" n="71"/>addit, sed solum denominationem 
+          extrinse<lb break="no" ed="#P" n="72"/>cam, quam ex sola praesentia Angelorum in
+          <lb ed="#P" n="73"/>coelo nos apprehendimus. Unde frustra 
+          exten<lb break="no" ed="#P" n="74"/>ditur hoc ad existentiam daemonum in 
+          infer<lb break="no" ed="#P" n="75"/>no, quia revera etiam in nostro modo 
+          conci<lb break="no" ed="#P" n="76"/>piendi, et denominandi, daemones non ornant
+          <lb ed="#P" n="77"/>illum locum, sed potius ipsum deformant. 
+          Ne<lb break="no" ed="#P" n="78"/>que D. Thomas in illo modo loquendi, et 
+          res<lb break="no" ed="#P" n="79"/>pondendi persistit. Idem argumentum fit 
+          su<lb break="no" ed="#P" n="80"/>perioritate, nam Angelus superior est corpori,
+          <lb ed="#P" n="81"/>etiamsi in illo non sit. Item de deputatione,
+          <lb ed="#P" n="82"/>quia deputatio non est, nisi denominatio ab
+          <lb ed="#P" n="83"/>actu aliquo mentis, vel divinae, vel creatae,
+          <lb ed="#P" n="84"/>quo Angelus deputatus est ad aliquod 
+          ministe<lb break="no" ed="#P" n="85"/>rium, vel ad operandum in aliquod corpus,
+          <lb ed="#P" n="86"/>quam deputationem retinet ubicumque sit.
+          <lb ed="#P" n="87"/>Idem est de preesidentia, quia haec etiam in 
+          di<lb break="no" ed="#P" n="88"/>gnitate quadam morali, seu in aliquo munere
+          <lb ed="#P" n="89"/>consistit; unde haberi potest, etiamsi Angelus
+          <lb ed="#P" n="90"/>distet ab eo loco, cui praesidere dicitur. Imo
+          <lb ed="#P" n="91"/>non solum quoad munus, sed etiam quoad
+          <lb ed="#P" n="92"/>aliquem ejus usum durare potest. Nam ad eum,
+          <lb ed="#P" n="93"/>qui praesidet, pertinet curam habere 
+          subdito<lb break="no" ed="#P" n="94"/>rum, et praecipere, vel ordinare aliquid, et
+          <lb ed="#P" n="95"/>haec potest facere Angelus superior, etiamsi
+          <lb ed="#P" n="96"/>distans sit, quia haec fiunt per attentionem, 
+          in<lb break="no" ed="#P" n="97"/>telligentiam, vel locutionem, quae in Angelis
+          <lb ed="#P" n="98"/>propter distantiam non impediuntur. Idemque
+          <lb ed="#P" n="99"/>est de custodia: nam Angelus custos suo modo
+          <lb ed="#P" n="100"/>praesidet homini sibi commendato, et 
+          nihilo<lb break="no" ed="#P" n="101"/>minus quamvis sit in coelo empyreo, semper
+          <lb ed="#P" n="102"/>est custos, et inde praesidet, imo etiam 
+          custo<lb break="no" ed="#P" n="103"/>dit, ut fatetur divus Thomas, 1 part.. q. 113,
+          <lb ed="#P" n="104"/>art. 6, ad 3, et in 9, dist. 11, p. 1, q. 1, art. 4,
+          <lb ed="#P" n="105"/>ad 5. Ergo ista omnia nullo modo pertinent ad
+          <lb ed="#P" n="106"/>rationem formalem essendi in loco.
+        </p>
+        <p xml:id="szdada-x11115-d1e1346">
+          <lb ed="#P" n="107"/>14. Excluditur tertio. — Ac tandem quoniam
+          <lb ed="#P" n="108"/>Capreolus fatetur hanc praesidentiam, vel 
+          or<lb break="no" ed="#P" n="109"/>natum non esse nisi relationem quamdam, 
+          in<lb break="no" ed="#P" n="110"/>terrogare possumus, an sit relatio rationis,
+          <pb ed="#P" n="447"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel realis: nam relatio rationis non sufficit ad
+          <lb ed="#P" n="2"/>formalem rationem essendi in loco, quia 
+          ne<lb break="no" ed="#P" n="3"/>que ratione sui, cum nihil sit, nec ratione 
+          fun<lb break="no" ed="#P" n="4"/>damenti, quia vel est aliquis actus immanens,
+          <lb ed="#P" n="5"/>vel aliquid a reali praesentia independens. 
+          le<lb break="no" ed="#P" n="6"/>latio autem realis nulla potest cum 
+          fundamen<lb break="no" ed="#P" n="7"/>to cogitari inter Angelum et corpus, seclusa
+          <lb ed="#P" n="8"/>actuali efficientia per actionem transeuntem,
+          <lb ed="#P" n="9"/>nisi relatio propinquitatis ad locum, in quo est,
+          <lb ed="#P" n="10"/>vel distantiae ab aliis locis: haec autem relatio
+          <lb ed="#P" n="11"/>non fundatur in praesidentia, vel ornatu, aut
+          <lb ed="#P" n="12"/>congruentia, sed in solo ubi intrinseco, ut 
+          su<lb break="no" ed="#P" n="13"/>pra probatum est. Talis autem relatio licet 
+          ra<lb break="no" ed="#P" n="14"/>tione sui fundamenti possit aliquo modo 
+          per<lb break="no" ed="#P" n="15"/>tinere ad rationem essendi in loco, ut infra
+          <lb ed="#P" n="16"/>videbimus, longe tamen diversa est ab illis,
+          <lb ed="#P" n="17"/>quas Capreolus excogitavit, et ideo nullo 
+          mo<lb break="no" ed="#P" n="18"/>do pertinet ad rationem formalem essendi.
+        </p>
+        <p xml:id="szdada-x11115-d1e1402">
+          <lb ed="#P" n="19"/>15. Excluditur quoque continentia, vel 
+          forti<lb break="no" ed="#P" n="20"/>ficatio, etc. — Et eisdem rationibus 
+          excludun<lb break="no" ed="#P" n="21"/>tur facile alia membra numerata a Capreolo,
+          <lb ed="#P" n="22"/>quae revera in vocibus solum consistunt, et
+          <lb ed="#P" n="23"/>cum aliquid rei sub illis explicare conatur, in
+          <lb ed="#P" n="24"/>absurdum aliquod incidit. Ulterius enim illam
+          <lb ed="#P" n="25"/>continentiam, appellat, et hanc explicat per 
+          for<lb break="no" ed="#P" n="26"/>lificationem virtutis corporis, quam ita 
+          expo<lb break="no" ed="#P" n="27"/>nit: Quia spiritus comparatur ad corpus, 
+          tan<lb break="no" ed="#P" n="28"/>quam actus ejus: omnis autem potentia 
+          vigora<lb break="no" ed="#P" n="29"/>tur ex conjunctione ad suum actum, et ita etiam
+          <lb ed="#P" n="30"/>corpus em conjunctione ad spiritum vigoratur.
+          <lb ed="#P" n="31"/>Unde hanc conjunctionem vocat etiam 
+          unitio<lb break="no" ed="#P" n="32"/>nem ad corpus. Et consequenter, etiam vocat
+          <lb ed="#P" n="33"/>infl urum, quia confortatio sine influxu 
+          intel<lb break="no" ed="#P" n="34"/>ligi non potest, atque ita fatetur corpus ex
+          <lb ed="#P" n="35"/>conjunctione ad substantiam separatam 
+          ali<lb break="no" ed="#P" n="36"/>quid accipere de illius virtute. Quia vero objici
+          <lb ed="#P" n="37"/>poterat, quod spiritualis substantia separata
+          <lb ed="#P" n="38"/>nihil potest agere in corpus praeter motum 
+          lo<lb break="no" ed="#P" n="39"/>calem. hespondet tacite his verbis: IVon quod
+          <lb ed="#P" n="40"/>illa virtus sit in corpore per modum realis 
+          qua<lb break="no" ed="#P" n="41"/>litatis, sed per modum intentionis, eo modo, quo
+          <lb ed="#P" n="42"/>color est in aere, et ideo em hoc corpus talem 
+          in<lb break="no" ed="#P" n="43"/>fluzswm percipiens est vigorosius et activius.
+        </p>
+        <p xml:id="szdada-x11115-d1e1459">
+          <lb ed="#P" n="44"/>16. Capreolus pugnantiae, et inconsequentiee
+          <lb ed="#P" n="45"/>a guitur in predictis rationibus assignandis.
+          <lb ed="#P" n="46"/>— S autem haec verba attente considerentur,
+          <lb ed="#P" n="47"/>et in se, et cum superiori doctrina ejusdem
+          <lb ed="#P" n="48"/>auctoris conferantur, repugnantiam involvere
+          <lb ed="#P" n="49"/>invenientur. Quia si corpus aliquid recipit ab
+          <lb ed="#P" n="50"/>Angelo, quo vigorosius, magisque activum 
+          red<lb break="no" ed="#P" n="51"/>datur, necesse est, ut aliquid reale in se 
+          reci<lb break="no" ed="#P" n="52"/>piat, quidquid illud sit: nam si in se non 
+          mu<lb break="no" ed="#P" n="53"/>tatur, nec robur, nec activitatem novam 
+          reci<lb break="no" ed="#P" n="54"/>pere potest: si autem corpus aliquid entitatis
+          <lb ed="#P" n="55"/>ab Angelo recipit, illa entitas non potest esse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nisi quanitas. In quo enim alio praedicamento
+          <lb ed="#P" n="57"/>erit? Erit ergo qualitas realis. Parumque 
+          re<lb break="no" ed="#P" n="58"/>fert quod intentionalis vocetur: male enim 
+          con<lb break="no" ed="#P" n="59"/>distinguitur qualitas a reali generatim sumpta,
+          <lb ed="#P" n="60"/>nam si realis non esset, nihil esset. Patetque
+          <lb ed="#P" n="61"/>in eodem exemplo adducto, nam color non est
+          <lb ed="#P" n="62"/>intentionaliter in aere, nisi efficiendo speciem,
+          <lb ed="#P" n="63"/>quae qualitas realis est. Quod si in alio sensu,
+          <lb ed="#P" n="64"/>qualitas intentionalis distinguatur a reali 
+          res<lb break="no" ed="#P" n="65"/>pectu alterius, a qua producitur, quia non est
+          <lb ed="#P" n="66"/>illi aequalis, sed quaedam participatio ejus, et
+          <lb ed="#P" n="67"/>quasi illius vicaria, sic non est de nomine 
+          con<lb break="no" ed="#P" n="68"/>tendendum, oportet tamen ut Capreolus 
+          fatea<lb break="no" ed="#P" n="69"/>tur Angelum non esse in corpore nisi efficiendo
+          <lb ed="#P" n="70"/>aliquid reale in illo, et consequenter per 
+          tran<lb break="no" ed="#P" n="71"/>seuntem actionem, quod ille admittere recusat,
+          <lb ed="#P" n="72"/>ideoque consequenter non loquitur, et 
+          repu<lb break="no" ed="#P" n="73"/>gnantia dicit. Unde D. Thomas, in 1, dist. 37,
+          <lb ed="#P" n="74"/>art. 1, in ea fuit sententia. Quod Angelus est
+          <lb ed="#P" n="75"/>in loco per actionem transeuntem, et 
+          conse<lb break="no" ed="#P" n="76"/>quenter concessit Angelum esse in loco in 
+          quan<lb break="no" ed="#P" n="77"/>tum operatur circa aliquod corpus, vel motum,
+          <lb ed="#P" n="78"/>vel lumen, vel aliud hujusmodi. Sed illud de
+          <lb ed="#P" n="79"/>productione luminis, praesertim corporalis, 
+          re<lb break="no" ed="#P" n="80"/>ceptum non est, et eadem ratione neque 
+          ac<lb break="no" ed="#P" n="81"/>ceptandum est, quod aliquid hujusmodi possit
+          <lb ed="#P" n="82"/>Angelus producere. Et simili ratione actio illa
+          <lb ed="#P" n="83"/>intentionalis, quam excogitavit Capreolus, si
+          <lb ed="#P" n="84"/>vera, et realis putatur, fictitia est, et sine 
+          furi<lb break="no" ed="#P" n="85"/>damento. Si autem vera, et realis non est, 
+          ni<lb break="no" ed="#P" n="86"/>hil est, et ideo esse non potest ratio existendi
+          <lb ed="#P" n="87"/>realiter in loco.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

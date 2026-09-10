@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="77"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x01904"><!-- l2prae -->
+        <head xml:id="szdada-x01904-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-x01904-d1e103">
+          <pb ed="#P" n="77"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER SECUNDUS.
+          <lb ed="#P" n="2"/>DE INTELLECTIVA POTENTIA
+          <lb ed="#P" n="3"/>ANGELORUM, ET DE OMNIBUS, QUAE AD NATURALEM EJUS COGNITIONEM PERTINENT.
+        </p>
+        <p xml:id="szdada-x01904-d1e116">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>Consecutio tractandorum. — In superiori 
+          li<lb break="no" ed="#P" n="5"/>bro simul cum essentia substantiave 
+          Angelo<lb break="no" ed="#P" n="6"/>rum, et attributis omnibus, quae illam proxime
+          <lb ed="#P" n="7"/>concernunt, causas etiam eorum declaravimus,
+          <lb ed="#P" n="8"/>quamvis de illorum creatione nonnulla in 
+          se<lb break="no" ed="#P" n="9"/>quentem tractatum remiserimus, quae in libro
+          <lb ed="#P" n="10"/>illius primo, capite sexto, complebimus. Nunc
+          <lb ed="#P" n="11"/>ergo de aliis eorum proprietatibus dicendum
+          <lb ed="#P" n="12"/>sequitur. Solent autem theologi, praesertim
+          <lb ed="#P" n="13"/>divus Thomas, prius de loco, et motu 
+          Ange<lb break="no" ed="#P" n="14"/>lorum, quam de superioribus facultatibus 
+          dis<lb break="no" ed="#P" n="15"/>putare, fortasse quia ut ab universalioribus,
+          <lb ed="#P" n="16"/>et quae majorem convenientem cum rebus
+          <lb ed="#P" n="17"/>physicis habere videntur, ad altiora 
+          progre<lb break="no" ed="#P" n="18"/>diantur. Nihilominus tamen nobis visum est,
+          <lb ed="#P" n="19"/>hanc partem de facultatibus, seu 
+          proprietati<lb break="no" ed="#P" n="20"/>bus Angelorum ad tria capita revocare, 
+          scili<lb break="no" ed="#P" n="21"/>cet de intellectu, voluntate, et potentia 
+          moti<lb break="no" ed="#P" n="22"/>va tam sui, quam aliorum, seu (quod perinde
+          <lb ed="#P" n="23"/>est) de potentia operativa ad extra. Sic enim
+          <lb ed="#P" n="24"/>tractantes de Deo similia attributa positiva ad
+          <lb ed="#P" n="25"/>illa tria reduximus, scientiam, voluntatem, et
+          <lb ed="#P" n="26"/>potentiam: eamdem ergo partitionem Angelis
+          <lb ed="#P" n="27"/>adaptamus, quia purum gradum 
+          intellectua<lb break="no" ed="#P" n="28"/>lem Dei participant, et per eamdem 
+          participa<lb break="no" ed="#P" n="29"/>tonem eadem habent attributa positiva, quae
+          <lb ed="#P" n="30"/>per modum operativarum facultatum 
+          intelli<lb break="no" ed="#P" n="31"/>guntur. Incipimusque ab intellectu, quia 
+          no<lb break="no" ed="#P" n="32"/>bilior est, et deinceps de voluntate dicemus,
+          <lb ed="#P" n="33"/>et postea de potestate, quia etiam in hoc 
+          An<lb break="no" ed="#P" n="34"/>geli Deum imitantur, quod nihil nisi per 
+          in<lb break="no" ed="#P" n="35"/>tellectum, et voluntatem operantur. Et 
+          conse<lb break="no" ed="#P" n="36"/>quenter ibi etiam dicemus de illorum motu
+          <lb ed="#P" n="37"/>locali, quia est actus illius potestatis, ac 
+          su<lb break="no" ed="#P" n="38"/>binde de termino ejus, qui est ubi, seu locus.
+        </p>
+        <p xml:id="szdada-x01904-d1e197">
+          <lb ed="#P" n="39"/>Oportet autem ulterius advertere, sicut 
+          An<lb break="no" ed="#P" n="40"/>gelus, et anima in gradu intellectuali aliquo
+          <lb ed="#P" n="41"/>modo conveniunt, ita etiam multa de 
+          intelli<lb break="no" ed="#P" n="42"/>gendi facultate, ejusque objecto, et actibus, ac
+          <lb ed="#P" n="43"/>principiis ad illos necessariis utrisque commu-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="44"/>nia disputari, et eamdem fere rationem in
+          <lb ed="#P" n="45"/>utrisque habere. Quae igitur hujusmodi 
+          fue<lb break="no" ed="#P" n="46"/>rint, nop erunt ex professo in praesenti tractatu
+          <lb ed="#P" n="47"/>disputanda, sedin tractatum de Anima 
+          rejicien<lb break="no" ed="#P" n="48"/>da sunt: et de his tantum, quae propria fuerint
+          <lb ed="#P" n="49"/>Angelorum, seu specialem rationem in eis 
+          ha<lb break="no" ed="#P" n="50"/>buerint, ex professo dicemus. Praesertim vero
+          <lb ed="#P" n="51"/>de his, quae aliquo modo rationis naturalis
+          <lb ed="#P" n="52"/>discursum excedunt, nisi principiis fidei 
+          juve<lb break="no" ed="#P" n="53"/>tur, nam de aliis, quae mere naturalia sunt,
+          <lb ed="#P" n="54"/>quae, in disput. 35 Metaphysicae, sect. 4, 
+          dixi<lb break="no" ed="#P" n="55"/>mus, suflicere posse videntur: quae tamen ex
+          <lb ed="#P" n="56"/>propriis locis, et principiis theologicis pendent,
+          <lb ed="#P" n="57"/>magis in praesenti confirmabimus, ac 
+          declara<lb break="no" ed="#P" n="58"/>bimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x00009"><!-- l1c1 -->
+        <head xml:id="szdada-x00009-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-x00009-Hd1e103" type="question-title">An sit certum dari in mundo creaturas intellectuales homine superiores, quas angelorum nomine significamus</head>
+        <p xml:id="szdada-x00009-d1e106">
+          <lb ed="#P" n="35"/>CAPUT I.
+          <lb ed="#P" n="36"/>AN SIT CERTUM DARI IN MUNDO CREATURAS 
+          IN<lb break="no" ed="#P" n="37"/>TELLECTUALES HOMINE SUPERIORES, QUAS 
+          AN<lb break="no" ed="#P" n="38"/>GELORUM NOMINE SIGNIFICAMUS.
+        </p>
+        <p xml:id="szdada-x00009-d1e117">
+          <lb ed="#P" n="39"/>1. Atheorum et Sadduceorm error rejicitur.
+          <lb ed="#P" n="40"/>—Non possumus melius definire quaestionem,
+          <lb ed="#P" n="41"/>an Angeli sint, quam sub aliqua generali ra-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="42"/>tione, et per comparationem ad alias species,
+          <lb ed="#P" n="43"/>vel genera creaturarum, rem per illud nomen
+          <lb ed="#P" n="44"/>significatam declarando. In hoc ergo puncto
+          <lb ed="#P" n="45"/>soli Athei, qui Deum esse negant, 
+          consequen<lb break="no" ed="#P" n="46"/>ter negabunt, dari hujusmodi creaturas, quia
+          <lb ed="#P" n="47"/>nihil praeter haec corporalia, et hominem in
+          <lb ed="#P" n="48"/>mundo esse putant. Possunt etiam in eamdem
+          <lb ed="#P" n="49"/>errorem allegari Sadducaei, qui spiritum esse
+          <lb ed="#P" n="50"/>negabant, ut refertur Actor. 21. Seddeipsorum
+          <lb ed="#P" n="51"/>errore dicemus capite sequenti, priorem vero
+          <lb ed="#P" n="52"/>tanquam stulto fundamento innixum omissum
+          <lb ed="#P" n="53"/>facimus, supposita vero existentia Dei 
+          creato<lb break="no" ed="#P" n="54"/>ris, inde infertur optime, esse possibiles 
+          crea<lb break="no" ed="#P" n="55"/>turas intellectuales superiores homine: unde
+          <lb ed="#P" n="56"/>etiam probari facile potest raiione valde 
+          veri<lb break="no" ed="#P" n="57"/>simili, esse in rerum natura tales creaturas,
+          <lb ed="#P" n="58"/>ut in dicta disp. 35 Metaphysicae, sect. 1, 
+          os<lb break="no" ed="#P" n="59"/>tendi. Nunc ex principis theologiae 
+          definien<lb break="no" ed="#P" n="60"/>da quaestio est, et ideo de certitudine potius,
+          <lb ed="#P" n="61"/>quam de re ipsa quaestionem proposui.
+        </p>
+        <p xml:id="szdada-x00009-d1e172">
+          <lb ed="#P" n="62"/>2. Prima conclusio.—Certum de fide est 
+          An<lb break="no" ed="#P" n="63"/>gelos esse intellectuales. bDico ergo primo, 
+          cer<lb break="no" ed="#P" n="64"/>tum esse, substantias illas, quas Seriptura, vel
+          <lb ed="#P" n="65"/>Angelos sanctos, vel iniquos spiritus vocat,
+          <lb ed="#P" n="66"/>esse naturae intellectualis. Conclusio est de 
+          fi<lb break="no" ed="#P" n="67"/>de: nam Scriptura illas proprietates, et 
+          actio<lb break="no" ed="#P" n="68"/>nes Angelis tribuit, quae non nisi in 
+          creatu<lb break="no" ed="#P" n="69"/>ram ntellectualem cadunt. Una est videre
+          <lb ed="#P" n="70"/>Deum, Matth. 18: Angeli eorum in celis 
+          sem<lb break="no" ed="#P" n="71"/>per vident faciem Patris mei, quà in ceelis est.
+          <lb ed="#P" n="72"/>Alia est benedicere, et laudare Deum, quod
+          <lb ed="#P" n="73"/>passim in Scriptura Angelis tribuitur. Tertia
+          <lb ed="#P" n="74"/>est custodire homines, Psalm. 90, Matth. 4.
+          <lb ed="#P" n="75"/>Ad quam etiam pertinet dirigere, defendere,
+          <lb ed="#P" n="76"/>illuminare, docere, instruere, et loqui, ut 
+          Za<lb break="no" ed="#P" n="77"/>charias 4: Et divit Angelus qui loquebatur in
+          <lb ed="#P" n="78"/>me, quae omnia, et similia, quae in Prophetis,
+          <lb ed="#P" n="79"/>et alibi saepe leguntur, sine intellectu cogitari
+          <lb ed="#P" n="80"/>non possunt, ut per se notum est. Quarta sit
+          <lb ed="#P" n="81"/>peccare, et fieri poena dignum 2, Petr. 2: 
+          4n<lb break="no" ed="#P" n="82"/>gelis peccantibus non pepercit Deus. Ex quo
+          <pb ed="#P" n="2"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>etiam evidenter colligitur, Angelos esse liberi
+          <lb ed="#P" n="2"/>arbitrii, sine quo nec male agitur, nec recte
+          <lb ed="#P" n="3"/>vivitur. Et inde evidenter concluditur eorum
+          <lb ed="#P" n="4"/>intellectualis natura, quia libertas arbitrii in
+          <lb ed="#P" n="5"/>ratione fundatur. Hic Bernardus, dicto libro 5,
+          <lb ed="#P" n="6"/>de Considerat., cap. 4, dixit: Angelos 
+          intel<lb break="no" ed="#P" n="7"/>lectu preeditos esse, non fide, non opinione, sed
+          <lb ed="#P" n="8"/>intellectu capimus, quia non possunt hnjus 
+          em<lb break="no" ed="#P" n="9"/>pertes, Dei simul participes esse. At enim cum
+          <lb ed="#P" n="10"/>hoc ipsum, scilicet Angelos participes esse, non
+          <lb ed="#P" n="11"/>intellectu, sed fide teneamus, necesse est, ut
+          <lb ed="#P" n="12"/>eadem fide illos esse intellectuales credamus.
+          <lb ed="#P" n="13"/>Loquitur ergo Bernardus de intellectu quoad
+          <lb ed="#P" n="14"/>evidentiam consequentiae, non rei; ita ut illa
+          <lb ed="#P" n="15"/>sit quaedam fides mediata, seu assertio 
+          scienti<lb break="no" ed="#P" n="16"/>fica theologice. Ratio a priori theologica 
+          sufti<lb break="no" ed="#P" n="17"/>ciens est, quia Deus cum et intellectuales 
+          face<lb break="no" ed="#P" n="18"/>re, cumque nullam efficiat, nec facere possit
+          <lb ed="#P" n="19"/>summe perfectam, alias esset ipsi aequalis, 
+          po<lb break="no" ed="#P" n="20"/>test illos multiplicare. Pertinuit autem ad 
+          per<lb break="no" ed="#P" n="21"/>fectionem operum Dei in illo gradu plures 
+          ef<lb break="no" ed="#P" n="22"/>ficere creaturas, quas Angelos appellamus.
+          <lb ed="#P" n="23"/>Quam rationem late in dicto loco Metaphysicae
+          <lb ed="#P" n="24"/>declaravi, et ex dicendis manisfestior fiet.
+        </p>
+        <p xml:id="szdada-x00009-d1e277">
+          <lb ed="#P" n="25"/>3. Secunda conclusio.—Certum est Angelos
+          <lb ed="#P" n="26"/>in gradu intellectuali homine esse perfectiores
+          <lb ed="#P" n="27"/>quoad naturam. — Rejicitur error Georgii 
+          Fe<lb break="no" ed="#P" n="28"/>neti.—bico secundo, certum esse, Angelos in
+          <lb ed="#P" n="29"/>gradu intellectuali, seu in rationis usu, 
+          ho<lb break="no" ed="#P" n="30"/>mine perfectiores quoad naturam, seu 
+          excel<lb break="no" ed="#P" n="31"/>lentiores esse. Contra hanc assertionem 
+          erra<lb break="no" ed="#P" n="32"/>vit Georgius Veneti, in Harmonia mundi, 
+          to<lb break="no" ed="#P" n="33"/>mo tertio, Cantici 3 capite secundo, et refert
+          <lb ed="#P" n="34"/>Joannes Arborue;, lib. 1, Theosoph., ubi ait,
+          <lb ed="#P" n="35"/>homines non solum gratia, sed etiam potentia,
+          <lb ed="#P" n="36"/>et natura Angelos superare, putans semper
+          <lb ed="#P" n="37"/>gratiam proportionari naturae, quod 
+          falsissi<lb break="no" ed="#P" n="38"/>mum est. Assertio ergo receptissima est, et
+          <lb ed="#P" n="39"/>certa, quam Arboreus ibi ex Patribus 
+          confir<lb break="no" ed="#P" n="40"/>mat. Nunc breviter probatur primo ex illo
+          <lb ed="#P" n="41"/>Ps. 8, Minuisti cum paulo minus ab Angelis:
+          <lb ed="#P" n="42"/>ubi Psalmista de homine loquitur, quem dicit
+          <lb ed="#P" n="43"/>fuisse minoratum ab Angelis, utique in natura,
+          <lb ed="#P" n="44"/>et ideo paulo minus, nam in gratia, et gloria
+          <lb ed="#P" n="45"/>prae Angelis honoratur: Paulus vero ad Hebr.
+          <lb ed="#P" n="46"/>2. nos docuit haec verba licet de tota humana
+          <lb ed="#P" n="47"/>specie dicta sint, per antonomasiam de Christo
+          <lb ed="#P" n="48"/>scripta esse, qui ratione humanae naturae ab
+          <lb ed="#P" n="49"/>Angelis minoratus est.
+        </p>
+        <p xml:id="szdada-x00009-d1e334">
+          <lb ed="#P" n="50"/>4. Prima evasio ad locum ex Psalmo. —
+          <lb ed="#P" n="51"/>Duobus autem modis enervatur hic locus,
+          <lb ed="#P" n="52"/>unus est, quia in Hebraeo non habetur nomen
+          <lb ed="#P" n="53"/>Malachim, quod Angelos significat, sed 
+          Ze<lb break="no" ed="#P" n="54"/>loiin, unde vertendum esset, minuisti eum
+          <lb ed="#P" n="55"/>gaulo mimts a Deo, et sic nihil inde probatur,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et ita vertit Hierony mus in Psalm. et 
+          sequun<lb break="no" ed="#P" n="57"/>tur multi. Sed licet haec versio non sit 
+          repro<lb break="no" ed="#P" n="58"/>banda, quod ad Psalmum attinet; tamen alia
+          <lb ed="#P" n="59"/>praeferenda est, tum quia nomen Zeloim etiam
+          <lb ed="#P" n="60"/>illam admittit, saepe enim in Scriptura 
+          tribui<lb break="no" ed="#P" n="61"/>tur Angelis, ut in Ps. 96: Adorate ewn, omnes
+          <lb ed="#P" n="62"/>Angeli ejus, etc., tum quia Hebraei ita 
+          expo<lb break="no" ed="#P" n="63"/>nunt, et Septuaginta ita vertunt, tum etiam
+          <lb ed="#P" n="64"/>quia Paulus ita intellexit. Nam Christum cum
+          <lb ed="#P" n="65"/>Angelis comparando, verba illa adducit, de
+          <lb ed="#P" n="66"/>Angelis procul dubio illa interpretando, et
+          <lb ed="#P" n="67"/>ideo vulgatus interpres merito ita vertit: tum
+          <lb ed="#P" n="68"/>denique quia homo verius, et proprius 
+          dici<lb break="no" ed="#P" n="69"/>tur paulo minoratus ab Angelis, nam a Deo
+          <lb ed="#P" n="70"/>non paulo, sed infinite minoratus est. Et ideo
+          <lb ed="#P" n="71"/>Patres etiam frequentius ita comparationem
+          <lb ed="#P" n="72"/>intellexerunt.
+        </p>
+        <p xml:id="szdada-x00009-d1e389">
+          <lb ed="#P" n="73"/>5. Secunda evasio. — Alia evasio est, quia
+          <lb ed="#P" n="74"/>cum juxta Paulum sermo sit de Christo, 
+          ex<lb break="no" ed="#P" n="75"/>poni potest cum Augustino, lib. 3, contra
+          <lb ed="#P" n="76"/>Maximin., cap. 25, quod dicatur minoratus ab
+          <lb ed="#P" n="77"/>Angelis non in naturae assumptae perfectione,
+          <lb ed="#P" n="78"/>sed in statu passibili, quem in via habuit, et
+          <lb ed="#P" n="79"/>praesertim in morte crucis. Nam paulo inferius
+          <lb ed="#P" n="80"/>ait Paulus: Fum qui modico, quum Angeli 
+          mi<lb break="no" ed="#P" n="81"/>noratus est, videbimus Jesum propter 
+          passio<lb break="no" ed="#P" n="82"/>nem mortis, gloria et honore coronatum. Sentit
+          <lb ed="#P" n="83"/>ergo, usque ad mortem tantum fuisse 
+          mino<lb break="no" ed="#P" n="84"/>ratum: unde verbum illud paulo minus multi
+          <lb ed="#P" n="85"/>exponunt juxta proprietatem Hebraicam, id
+          <lb ed="#P" n="86"/>est, brevi tempore. Wmo Athanasius, lib. Quaest.
+          <lb ed="#P" n="87"/>ad Antioch., in 157, exponit, dici minoratum,
+          <lb ed="#P" n="88"/>quia apud inferos tribus diebus, et tribus 
+          noc<lb break="no" ed="#P" n="89"/>tibus fuit. In libro autem de Incarnatione Verbi,
+          <lb ed="#P" n="90"/>circa principium sentit, ob passionem dici
+          <lb ed="#P" n="91"/>minoratum. Sic inde ergo nos probatur 
+          mi<lb break="no" ed="#P" n="92"/>nor perfectio naturae.
+        </p>
+        <p xml:id="szdada-x00009-d1e435">
+          <lb ed="#P" n="93"/>6. Enervatur. —Sed lcet hic sensus ad
+          <lb ed="#P" n="94"/>priorem amplificandum admitti possit, non
+          <lb ed="#P" n="95"/>tamen prior comparatio in naturae perfectione
+          <lb ed="#P" n="96"/>excludi potest, praesertim in Psalmo, in quo
+          <lb ed="#P" n="97"/>non de solo Christo, sed etiam de tota humana
+          <lb ed="#P" n="98"/>natura David loquitur. Verumtamen etiam
+          <lb ed="#P" n="99"/>Paulus illam comparationem praecipue 
+          inten<lb break="no" ed="#P" n="100"/>dit. Nam in capite primo, ad divinitatem Filii
+          <lb ed="#P" n="101"/>Deiostendendam illum comparat cum Angelis,
+          <lb ed="#P" n="102"/>eumque omnibus illis praefert, insinuans 
+          pro<lb break="no" ed="#P" n="103"/>fecto Angelos esse in supremo perfectionis
+          <lb ed="#P" n="104"/>gradu, proximosque Deo. Et inde in cap. 2,
+          <lb ed="#P" n="105"/>infert, majori reverentia, et obedientia 
+          Chris<lb break="no" ed="#P" n="106"/>üi verba esset suscipienda, quam qui per 
+          An<lb break="no" ed="#P" n="107"/>gelos factus sermo, et tacite rationem reddit,
+          <lb ed="#P" n="108"/>quia licet secundum humanam naturam 
+          Chris<lb break="no" ed="#P" n="109"/>tus minoratus ab angelis videatur, 
+          nihilomi<lb break="no" ed="#P" n="110"/>nus gloria, honore, et potestate, ratione suae
+          <pb ed="#P" n="3"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>divinitatis, et unionis humanitatis ad illam,
+          <lb ed="#P" n="2"/>ipsis est superior. Unde Ambrosius, lib. 3, de
+          <lb ed="#P" n="3"/>Fide, cap. 4, merito dixit, ita dici Christum
+          <lb ed="#P" n="4"/>minoratum ab Angelis, sicut dicitur minor
+          <lb ed="#P" n="5"/>Patre, utique ratione assumptae naturae, quod
+          <lb ed="#P" n="6"/>verum est non tantum ratione passionis, sed
+          <lb ed="#P" n="7"/>etiam ratione naturae minus perfectae. 
+          Idem<lb break="no" ed="#P" n="8"/>que habet Augustinus, in tract. de Cantico
+          <lb ed="#P" n="9"/>novo, cap, 7, et Tertullianus, lib. de Carne
+          <lb ed="#P" n="10"/>Christi, cap. 14, similiter exponit minoratum
+          <lb ed="#P" n="11"/>esse Christum ab Angelis propter animae, et
+          <lb ed="#P" n="12"/>carnis, et non Angelicae naturae assumptionem.
+        </p>
+        <p xml:id="szdada-x00009-d1e507">
+          <lb ed="#P" n="13"/>1. Secundo probatur conclusio. — Praeterea
+          <lb ed="#P" n="14"/>2. Pet. 2, Angeli dicuntur fortitudine, et 
+          vir<lb break="no" ed="#P" n="15"/>tute esse majores homine: loquitur autem de
+          <lb ed="#P" n="16"/>malis Angelis, unde non nisi de perfectione
+          <lb ed="#P" n="17"/>naturae loquitur. Et Job. 41, de Satana 
+          dici<lb break="no" ed="#P" n="18"/>tur: IVon est super terram potestas que 
+          com<lb break="no" ed="#P" n="19"/>paretur ei; sicut ergo potestate, ita etiam 
+          na<lb break="no" ed="#P" n="20"/>turae perfectione homines excellit. Et simili
+          <lb ed="#P" n="21"/>modo ubique Scriptura de Angelis loquitur
+          <lb ed="#P" n="22"/>tanquam de rebus altioris ordinis toto modo
+          <lb ed="#P" n="23"/>sensibili, et hominibus. Imo Augustinus, tract.
+          <lb ed="#P" n="24"/>110, in Joann., in fine, ex peccato 
+          irremissi<lb break="no" ed="#P" n="25"/>bili Angelorum, excellentiam naturae illorum
+          <lb ed="#P" n="26"/>supra humanam colligit. Quod tanto (inquit)
+          <lb ed="#P" n="27"/>damnabilior indicata sit culpa, quanto erat
+          <lb ed="#P" n="28"/>natura sublimior. Atque ita veritas haec 
+          om<lb break="no" ed="#P" n="29"/>nium Patrum consensu recepta est. Praecipue
+          <lb ed="#P" n="30"/>illam declarat, et exaggerat Dionysius, cap.
+          <lb ed="#P" n="31"/>4. de divinis Nominibus. Quin etiam Gentiles
+          <lb ed="#P" n="32"/>omnes, et infideles pro comperto habent, esse
+          <lb ed="#P" n="33"/>aliquas res, seu substantias indivisibiles 
+          supe<lb break="no" ed="#P" n="34"/>riores nomine, quae possunt illi nocere, ac 
+          be<lb break="no" ed="#P" n="35"/>nefacere, a quibus et oracula expectabant, et
+          <lb ed="#P" n="36"/>beneficia petebant, et nocumenta timebant,
+          <lb ed="#P" n="37"/>de quibus in historiis, et antiquis philosophis
+          <lb ed="#P" n="38"/>frequens est sermo, ut notat Lactantius, lib.
+          <lb ed="#P" n="39"/>2. de divin. Instit, cap. 15, Theodoretus, dicto
+          <lb ed="#P" n="40"/>lib. 3, contra Graecos, et Cyprianus, lib. de 
+          Ido<lb break="no" ed="#P" n="41"/>lor. vanit., ut dixi incitato loco Metaphysicae.
+          <lb ed="#P" n="42"/>Denique fideles etiam nunc aliquos effectus
+          <lb ed="#P" n="43"/>daemonum in obsessis ab illis, seu 
+          energume<lb break="no" ed="#P" n="44"/>nuis, et arreptiis experiuntur, quae plane 
+          osten<lb break="no" ed="#P" n="45"/>dunt et majorem perspicaciam daemonum in
+          <lb ed="#P" n="46"/>intelligendo, et majorem potentiam in 
+          ope<lb break="no" ed="#P" n="47"/>rando, quam in homine sit. Quod etiam 
+          aper<lb break="no" ed="#P" n="48"/>üssime cernitur in magorum incantationibus,
+          <lb ed="#P" n="49"/>et falsis miraculis ministrorum daemonis, quae
+          <lb ed="#P" n="50"/>in Scriptura leguntur, Exod. 7, et de 
+          Anti<lb break="no" ed="#P" n="51"/>christo majora praedicuntur, quae signa 
+          pro<lb break="no" ed="#P" n="52"/>fecto ostendunt esse in mundo quosdam 
+          invi<lb break="no" ed="#P" n="53"/>sibiles substantias virtute, ac perfectione 
+          na<lb break="no" ed="#P" n="54"/>turali homines superantes, quas Angelos 
+          vo<lb break="no" ed="#P" n="55"/>camus.
+        </p>
+        <p xml:id="szdada-x00009-d1e603">
+          <lb ed="#P" n="56"/>8. Occurritur tacitae objectioni.—Occurritur
+          <lb ed="#P" n="57"/>alie objectioni.—Conclusio tandem confirmatur
+          <lb ed="#P" n="58"/>ratione incologice.—Vide in disputatione 
+          de<lb break="no" ed="#P" n="59"/>cima quarta, queestione secunda, nwumero tertio.
+          <lb ed="#P" n="60"/>—THi ratione a priori.—Neque enim illi 
+          effec<lb break="no" ed="#P" n="61"/>tus soli Deo tribui possunt, tum quia non est
+          <lb ed="#P" n="62"/>ad causam primam recurrendum, cum 
+          pos<lb break="no" ed="#P" n="63"/>sunt effectus in causas secundas reduci; tum
+          <lb ed="#P" n="64"/>etiam quia tales effectus saepe sunt pravi, et
+          <lb ed="#P" n="65"/>ad malum, et perniciem hominum; imo in
+          <lb ed="#P" n="66"/>odium, et injuriam ipsius Dei facti, ut ipsimet
+          <lb ed="#P" n="67"/>daemones saepissime manifestant: tum denique
+          <lb ed="#P" n="68"/>quia in ipso modo operandi saepe ostenditur,
+          <lb ed="#P" n="69"/>vel malitia moralis, et impotentia quaedam
+          <lb ed="#P" n="70"/>operantis; quia non per imperium, et 
+          supre<lb break="no" ed="#P" n="71"/>mam potestatem, sed veluti arte aliqua 
+          appli<lb break="no" ed="#P" n="72"/>cando activa passivis hujusmodi opera faciunt.
+          <lb ed="#P" n="73"/>Neque etiam hi effectus possunt tribui 
+          anima<lb break="no" ed="#P" n="74"/>bus separatis aliquorum hominum qui ex hac
+          <lb ed="#P" n="75"/>vita decesserunt, quia juxta veram 
+          Philoso<lb break="no" ed="#P" n="76"/>phiam anima separata non plus potest circa
+          <lb ed="#P" n="77"/>prajjacentem materiam operari, quam posset
+          <lb ed="#P" n="78"/>conjuncta, imo minus, quia corpori conjuncta
+          <lb ed="#P" n="79"/>saltem per illud poterat alia corpora immutare,
+          <lb ed="#P" n="80"/>quamvis limitato, et ordinario modo: separata
+          <lb ed="#P" n="81"/>vero nihil potest, ut nunc supponimus, et 
+          for<lb break="no" ed="#P" n="82"/>tasse in 3 tractatu attingemus. Juxta 
+          princi<lb break="no" ed="#P" n="83"/>pia etiam theologiase, ac fidei soli Angeli, si
+          <lb ed="#P" n="84"/>sint sancti, sunt administratorii spiritus 
+          prop<lb break="no" ed="#P" n="85"/>ter eos, qui salvandi sunt, ut dicitur ad Heb.
+          <lb ed="#P" n="86"/>1. Si vero sint mali, permittuntur circuire,
+          <lb ed="#P" n="87"/>quaerentes quem devorent, animae vero 
+          se<lb break="no" ed="#P" n="88"/>cundum legem ordinariam ab illis locis, 
+          qui<lb break="no" ed="#P" n="89"/>bus secundum sua merita deputantur, egredi
+          <lb ed="#P" n="90"/>non permittuntur. Nec vero veritatis hujus
+          <lb ed="#P" n="91"/>alia ratio a priori petendo est praeter eam,
+          <lb ed="#P" n="92"/>quae est voluntate, et potentia creatoris 
+          sumi<lb break="no" ed="#P" n="93"/>tur: nam sicut distinctio naturarum ex ipsis
+          <lb ed="#P" n="94"/>immediate oritur, ita etiam excessus 
+          perfec<lb break="no" ed="#P" n="95"/>tionis unius per alia. Manifestabitur autem
+          <lb ed="#P" n="96"/>hic excessus naturae Angelicae supra humanam
+          <lb ed="#P" n="97"/>ex his, quae in sequentibus capitibus de illa
+          <lb ed="#P" n="98"/>dicemus.
+        </p>
+        <p xml:id="szdada-x00009-d1e700">
+          <lb ed="#P" n="99"/>9. Tertia conclusio.—Certum est dari Angelos.
+          <lb ed="#P" n="100"/>— Ex his ergo concludimus tertio, certissimum
+          <lb ed="#P" n="101"/>esse dari Angelos, quia per hanc vocem non
+          <lb ed="#P" n="102"/>significamus nisi quasdam intellectuales 
+          sub<lb break="no" ed="#P" n="103"/>stantias Deo inferiores, et homine superiores,
+          <lb ed="#P" n="104"/>invisibiles, et insensibiles nobis. Unde, 
+          suppo<lb break="no" ed="#P" n="105"/>sita vocis significatione, assertio ex dictis, 
+          pro<lb break="no" ed="#P" n="106"/>bata manet. Neque habet difficultatem, aut 
+          du<lb break="no" ed="#P" n="107"/>bitationem propter eas, quae de Angelorum
+          <lb ed="#P" n="108"/>natura tractandae supersunt. Solum possunt
+          <lb ed="#P" n="109"/>contra dicta objici verba Augustini, in lib., de
+          <lb ed="#P" n="110"/>quant. Animae, c. 34, dicentis: Quemadmodum
+          <pb ed="#P" n="4"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fatendum est, animam humanam non esse Deum
+          <lb ed="#P" n="2"/>ita praesumendum, nihil inter omnia, que 
+          crea<lb break="no" ed="#P" n="3"/>vit, Deo esse propinquis, et infra dicit: aliquid
+          <lb ed="#P" n="4"/>esse deterius anima hominis, scilicet animam
+          <lb ed="#P" n="5"/>bruti aliquid par, ut Angelus, melius aut nihil,
+          <lb ed="#P" n="6"/>et l. 3, de lib. Arb,, c. 11. ait: animas 
+          ratio<lb break="no" ed="#P" n="7"/>nales superioribus potestatibus esse officio 
+          im<lb break="no" ed="#P" n="8"/>pares, natura vero pares, et 1. 83 Quaestionum,
+          <lb ed="#P" n="9"/>q. 54. Nihil est (inquit) melius rationali 
+          ani<lb break="no" ed="#P" n="10"/>ma, nisi Deus, et idem repetit, lib. 3, contra
+          <lb ed="#P" n="11"/>Maxim., cap. 25, et videtur illum 
+          reprehen<lb break="no" ed="#P" n="12"/>dere, quia dixerat. majores esse Angelos 
+          Chris<lb break="no" ed="#P" n="13"/>to secundum formam hominis. Sic etiam dixit
+          <lb ed="#P" n="14"/>Bernardus, lib. 5, de Considerat., c. 3: 
+          Spi<lb break="no" ed="#P" n="15"/>ritus est Deus, sunt et Angeli, et hi supra te.
+          <lb ed="#P" n="16"/>Sed Deus natura, Angeli gratia superiores
+          <lb ed="#P" n="17"/>sunt.
+        </p>
+        <p xml:id="szdada-x00009-d1e770">
+          <lb ed="#P" n="18"/>10. Responsio.—hespondeo has, et similes
+          <lb ed="#P" n="19"/>locutiones pie exponendas esse, vel quoad 
+          gra<lb break="no" ed="#P" n="20"/>dum intellectualem, vel quoad immediatam
+          <lb ed="#P" n="21"/>habitudinem ad Deum ut ad ultimum finem,
+          <lb ed="#P" n="22"/>et ut ad legislatorem, et supremum Dominum
+          <lb ed="#P" n="23"/>vel quoad gratiae, et gloriae, ac visionis beatae
+          <lb ed="#P" n="24"/>capacitatem. Et primo quidem sensu videtur
+          <lb ed="#P" n="25"/>loqui Bernardus, et potest sumi ex Augustino,
+          <lb ed="#P" n="26"/>lib. 1 Retract., c. 16. In secundo vero, ac 
+          ter<lb break="no" ed="#P" n="27"/>tio sensu loquitur idem Augustinus in primo,
+          <lb ed="#P" n="28"/>et secundo loco supra citatis. At vero in tertio,
+          <lb ed="#P" n="29"/>et quarto loco jam etiam citatis existimo non
+          <lb ed="#P" n="30"/>loqui de perfectione naturali praecise spectata,
+          <lb ed="#P" n="31"/>sed de absoluta perfectione, quae pensatis 
+          om<lb break="no" ed="#P" n="32"/>nibus tam gratiae, quam naturae donis alicui
+          <lb ed="#P" n="33"/>convenit, et sic verum est secundum 
+          absolu<lb break="no" ed="#P" n="34"/>tam comparationem, nihil esse melius anima
+          <lb ed="#P" n="35"/>rationali, nisi Deum. Dico autem absoluta 
+          com<lb break="no" ed="#P" n="36"/>paratione, quia si ad singulas animas fiat 
+          com<lb break="no" ed="#P" n="37"/>paratio, aliquid infra Deum esse poterit 
+          me<lb break="no" ed="#P" n="38"/>lius, quam aliqua anima, non tamen 
+          simplici<lb break="no" ed="#P" n="39"/>ter, quia datur anima, quae absolute omnes
+          <lb ed="#P" n="40"/>Angelos excedit, et sic etiam dicit ibidem 
+          Au<lb break="no" ed="#P" n="41"/>gustinus, naturam humanam in Christo esse
+          <lb ed="#P" n="42"/>perfectiorem Angelica. Alioqui idem 
+          Augusti<lb break="no" ed="#P" n="43"/>nus, lib. 11, de Civit., c. 5: Angelica natura
+          <lb ed="#P" n="44"/>( dixit ) omnia cetera, que Deus condidit, 
+          na<lb break="no" ed="#P" n="45"/>ture dignitate precedit. Et hb. 1, Retract,
+          <lb ed="#P" n="46"/>cap. 26, recognoscens locum ultimum dictae,
+          <lb ed="#P" n="47"/>quaest. 54, videtur locutionem corrigere, 
+          di<lb break="no" ed="#P" n="48"/>cens: Ubi diri: Quod omni anima melius, id
+          <lb ed="#P" n="49"/>Dewn dicimus, magis dici debuit, omnà creato
+          <lb ed="#P" n="50"/>spiritu melius.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

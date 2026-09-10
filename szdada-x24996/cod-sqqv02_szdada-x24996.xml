@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="990"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x24996"><!-- l8c9 -->
+        <head xml:id="szdada-x24996-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-x24996-Hd1e103" type="question-title">An propria causa obdurationis daemonum sit divini auxili vel concursus denegatio</head>
+        <p xml:id="szdada-x24996-d1e106">
+          <lb ed="#P" n="83"/>CAPUT IX.
+          <lb ed="#P" n="84"/>AN PROPRIA CAUSA OBDURATIONIS DAEMONUM SIT
+          <lb ed="#P" n="85"/>DIVINI AUXILI VEL CONCURSUS DENEGATIO.
+        </p>
+        <p xml:id="szdada-x24996-d1e115">
+          <lb ed="#P" n="86"/>1. Prima opinio ejusque fundamentum ex
+          <lb ed="#P" n="87"/>AEgidio. — Ut veritas in superiori capite 
+          de<lb break="no" ed="#P" n="88"/>monstrata solidius fundetnr, et contraria 
+          fun<lb break="no" ed="#P" n="89"/>damenta expediantur, necesse est causam 
+          tan<lb break="no" ed="#P" n="90"/>tae necessitatis male operandi, seu 
+          impossibi<lb break="no" ed="#P" n="91"/>litatis bene operandi, diligentius inquirere.
+          <lb ed="#P" n="92"/>Duplex enim causa hujusmodi effectus 
+          cogi<lb break="no" ed="#P" n="93"/>tari potest, videlicet privativa, de qua in
+          <lb ed="#P" n="94"/>praesenti capite; et positiva, de qua in capite
+          <lb ed="#P" n="95"/>sequenti. Quod ergo attinet ad causam 
+          privati<lb break="no" ed="#P" n="96"/>vam, prima opinio est, tantae obstinationis
+          <lb ed="#P" n="97"/>causam esse privationem auxilii divini 
+          gratui<lb break="no" ed="#P" n="98"/>ti. Ita sentit ZEgidius, in ultimo discursu illius
+          <lb ed="#P" n="99"/>articulo primo, superiori capite citati, et 
+          expli<lb break="no" ed="#P" n="100"/>cat in hunc modum. Nam triplex est motus in
+          <lb ed="#P" n="101"/>voluntate, scilicet, naturalis, gratuitus, et 
+          elec<lb break="no" ed="#P" n="102"/>tivus, ex quibus primus esse potest in 
+          volunta<lb break="no" ed="#P" n="103"/>te daemonis, et est bonus, non bonitate morali,
+          <lb ed="#P" n="104"/>sed naturali, quia non est liber, et est ex 
+          in<lb break="no" ed="#P" n="105"/>clinatione data ab auctore naturae, quae non
+          <lb ed="#P" n="106"/>potest non esse bona. Motus autem gratuitus
+          <lb ed="#P" n="107"/>non potest esse in voluntate daemonum, cum
+          <pb ed="#P" n="991"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sine gratia fieri non possit, quae illis denegata
+          <lb ed="#P" n="2"/>est. Motus denique electivus esse quidem 
+          po<lb break="no" ed="#P" n="3"/>test in voluntate daemonms, tamen semper 
+          el<lb break="no" ed="#P" n="4"/>git ex amore sui, et propter seipsum, et ideo
+          <lb ed="#P" n="5"/>talis electio semper est mala, quia non ad
+          <lb ed="#P" n="6"/>Deum, sed ad seipsum ordinatur. Antecedens
+          <lb ed="#P" n="7"/>probat, quia Angelus destitutus auxilio gratiae
+          <lb ed="#P" n="8"/>non potest eligere supra seipsum, id est, 
+          prop<lb break="no" ed="#P" n="9"/>ter aliud supra se, nam per solas vires liberi
+          <lb ed="#P" n="10"/>arbitrii semper eligit super se: sed daemon
+          <lb ed="#P" n="11"/>non habet auxilium gratiae, quo supra se 
+          eli<lb break="no" ed="#P" n="12"/>gat; ergo omnis motus electivus Angeli malus,
+          <lb ed="#P" n="13"/>et inordinatus est.
+        </p>
+        <p xml:id="szdada-x24996-d1e198">
+          <lb ed="#P" n="14"/>2. Ejusdem opinionis fundamentum aliud
+          <lb ed="#P" n="15"/>ex Vasquio. — Eamdem sententiam defendit
+          <lb ed="#P" n="16"/>Vasquez, 1 part., disput. 241, cap. 4, modo
+          <lb ed="#P" n="17"/>tamen longe diverso, nam per auxilium 
+          gra<lb break="no" ed="#P" n="18"/>tiae, quo dicii privari daemones, ne bonum 
+          ali<lb break="no" ed="#P" n="19"/>quod operari possint, intelligit cogitationem
+          <lb ed="#P" n="20"/>bonam, et congruam, seu efficacem, quae 
+          ha<lb break="no" ed="#P" n="21"/>bitura sit effectum boni consensus. Supponit
+          <lb ed="#P" n="22"/>enim cogitationem congruam ad operandum
+          <lb ed="#P" n="23"/>bene morahter, etiam intra ordinem naturae,
+          <lb ed="#P" n="24"/>esse veram gratiam, seu auxilium gratuitum,
+          <lb ed="#P" n="25"/>quia non est debita naturae rationali, non 
+          tan<lb break="no" ed="#P" n="26"/>tum in statu damnationis, verum etiam nec in
+          <lb ed="#P" n="27"/>statu viae, aut purae naturae. Ex quo principio
+          <lb ed="#P" n="28"/>consequenter infert, potuisse Deum juste 
+          de<lb break="no" ed="#P" n="29"/>negare daemoni hujusmodi auxilium, seu 
+          co<lb break="no" ed="#P" n="30"/>gitationem boni congruam, in perpetuum,
+          <lb ed="#P" n="31"/>quia et illam non debet, et daemon peccando
+          <lb ed="#P" n="32"/>totam hanc poenam digne meruit. Denique,
+          <lb ed="#P" n="33"/>quod illam negaverit, ex illo generali principio
+          <lb ed="#P" n="34"/>colligere videtur, quod Deus omne gratiae 
+          auxi<lb break="no" ed="#P" n="35"/>lium damnatis denegat. Et praeterea videtur
+          <lb ed="#P" n="36"/>tacite id probare a sufficiente partium 
+          enume<lb break="no" ed="#P" n="37"/>ratione. Nam supponit, in damnatis esse hanc
+          <lb ed="#P" n="38"/>impotentiam bene operandi, et nulla alia 
+          cau<lb break="no" ed="#P" n="39"/>sa sufliciens talis effectus reddi potest, ut late
+          <lb ed="#P" n="40"/>discurrit referendo, et improbando omnes
+          <lb ed="#P" n="41"/>causas, quae ab aliis assignantur; ergo haec est
+          <lb ed="#P" n="42"/>vera et unica causa.
+        </p>
+        <p xml:id="szdada-x24996-d1e264">
+          <lb ed="#P" n="43"/>3. Rejicitur utrumque superius 
+          fundamen<lb break="no" ed="#P" n="44"/>tum. — Hae vero sententiae mihi non 
+          proban<lb break="no" ed="#P" n="45"/>tur, quocumque illorum modorum explicentur.
+          <lb ed="#P" n="46"/>Nam principium, in quo conveniunt, scilicet,
+          <lb ed="#P" n="47"/>ad singula opera libera moraliter bona intra
+          <lb ed="#P" n="48"/>ordinem naturae esse necessarium auxilium
+          <lb ed="#P" n="49"/>gratiae verae, ac propriae, falsum esse censeo,
+          <lb ed="#P" n="50"/>tam in pura natura rationali, vel intellectuali,
+          <lb ed="#P" n="51"/>quam in natura humana lapsa, ut in opere de
+          <lb ed="#P" n="52"/>gratia, lib. 2, cap. 15, late tractavi. Ergo ex
+          <lb ed="#P" n="53"/>hoc principio, vel non potest probari, quod
+          <lb ed="#P" n="54"/>in natura angelica lapsa, velin universum, in
+          <lb ed="#P" n="55"/>spirituali creatura damnata sit necessarium
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>proprium auxilium gratiae ad unum, vel aliud
+          <lb ed="#P" n="57"/>opus liberum bene moraliter perficiendum,
+          <lb ed="#P" n="58"/>propter rationem supra factam, quod 
+          natura<lb break="no" ed="#P" n="59"/>lis virtus, et potentia in eo statu integra 
+          ma<lb break="no" ed="#P" n="60"/>net: vel certe si inillo statu est peculiaris 
+          ne<lb break="no" ed="#P" n="61"/>cessitas talis auxilii, impotentia bene operandi
+          <lb ed="#P" n="62"/>sine illo non provenit ex carentia auxilii, quia
+          <lb ed="#P" n="63"/>ipsa necessitas auxilii supponit impotentiam,
+          <lb ed="#P" n="64"/>quae in statu purae naturae non fuisset, nec in
+          <lb ed="#P" n="65"/>via fuit. Ergo alia prior causa assignanda est
+          <lb ed="#P" n="66"/>in eo statu, a qua talis impotentia 
+          prove<lb break="no" ed="#P" n="67"/>niat.
+        </p>
+        <p xml:id="szdada-x24996-d1e323">
+          <lb ed="#P" n="68"/>4. Inpugnatur deinde seorsim Egidius. —
+          <lb ed="#P" n="69"/>Deinde prior modus dicendi JEgidii, vel 
+          ali<lb break="no" ed="#P" n="70"/>quid plane falsum, vel illud ipsum, cujus ratio
+          <lb ed="#P" n="71"/>quaeritur, supponit. Probatur, nam cum ait,
+          <lb ed="#P" n="72"/>motum electivum factum sine auxilio gratiae,
+          <lb ed="#P" n="73"/>propter se, et ex amore sui fieri, et ideo esse
+          <lb ed="#P" n="74"/>malum moraliter, vel supponit omnem amorem
+          <lb ed="#P" n="75"/>sui, seu electionemalicujus boni, propter 
+          pro<lb break="no" ed="#P" n="76"/>prium commodum, esse actum moraliter 
+          ma<lb break="no" ed="#P" n="77"/>lum, vel specialiter loquitur de motu electivo
+          <lb ed="#P" n="78"/>ex amore sui nimio, seu inordinato. Primum
+          <lb ed="#P" n="79"/>est plane falsum: in secundo autem, ut 
+          al<lb break="no" ed="#P" n="80"/>quid inferre possit, principium petit. Prior
+          <lb ed="#P" n="81"/>pars probatur, quia amor concupiscentiae ex
+          <lb ed="#P" n="82"/>suo genere non est intrinsece malus, imosi sit
+          <lb ed="#P" n="83"/>de bono naturae consentaneo, et convenienti,
+          <lb ed="#P" n="84"/>de se est bonus, et honestus, quia secundum
+          <lb ed="#P" n="85"/>regulam rectae rationis haberi potest, ut amor
+          <lb ed="#P" n="86"/>scientiae, sanitatis, et ipse etiam amor 
+          natura<lb break="no" ed="#P" n="87"/>lis beatitudinis, imo etiam amor, et desiderium
+          <lb ed="#P" n="88"/>supernaturalis beatitudinis, et aliorum 
+          spiri<lb break="no" ed="#P" n="89"/>tualium bonorum, quatenus nobis bona, et
+          <lb ed="#P" n="90"/>convenientia sunt, honestus est, et sanctus, ut
+          <lb ed="#P" n="91"/>in d. lib. de Grat., et inlib. etiam de Poenit.,
+          <lb ed="#P" n="92"/>ostendi. Ergo quamvis daemon destitutus 
+          auxi<lb break="no" ed="#P" n="93"/>lio gratiae ex amore sui aliquid velit, et 
+          ope<lb break="no" ed="#P" n="94"/>retur, non inde sequitur illum actum esse
+          <lb ed="#P" n="95"/>moraliter malum, quia posset procedere ex
+          <lb ed="#P" n="96"/>amore sui non malo, quia ipse amor non est
+          <lb ed="#P" n="97"/>ex objecto malus, nec ordinatur ad alium 
+          fi<lb break="no" ed="#P" n="98"/>nem, ex quo malitiam necessario sumat. Quod
+          <lb ed="#P" n="99"/>si altera pars eligatur, et dicatur, quamvis
+          <lb ed="#P" n="100"/>amor sui, et operari propter se, non sit semper
+          <lb ed="#P" n="101"/>ct ex se malum, nihilominus in daemone sem
+          <lb ed="#P" n="102"/>per esse malum; contra hoc objicimus, quia
+          <lb ed="#P" n="103"/>ratio supponit id, quod inquirimus. Unde 
+          ite<lb break="no" ed="#P" n="104"/>rum redit quaestio, cur amor sui semper in
+          <lb ed="#P" n="105"/>daemone inordinatus sit. Aut enim amor ille
+          <lb ed="#P" n="106"/>est mere naturalis, et ut sic non potest non
+          <lb ed="#P" n="107"/>esse bonus, vel est liber, et ut sic est 
+          indiffe<lb break="no" ed="#P" n="108"/>rens, ut sit rectus, vel ordinatus, bonus, vel
+          <lb ed="#P" n="109"/>malus: ergo potest aliquando esse bonus, cum
+          <lb ed="#P" n="110"/>de se sit contingens, unde igitur determinatur
+          <pb ed="#P" n="992"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ille actus, ut semper inordinatus sit? certe
+          <lb ed="#P" n="2"/>aliunde quaerenda est causa, quia ex solo 
+          ob<lb break="no" ed="#P" n="3"/>jecto, seu fine, cui bonum amatur, quem 
+          tan<lb break="no" ed="#P" n="4"/>tum ZEgidius considerat, reddi non potest.
+        </p>
+        <p xml:id="szdada-x24996-d1e432">
+          <lb ed="#P" n="5"/>5. Impugnatur amplius. — Addo, alia etiam
+          <lb ed="#P" n="6"/>ex parte rationem illam falsum sumere. Quia
+          <lb ed="#P" n="7"/>natura angelica per se, ac nude spectata sine
+          <lb ed="#P" n="8"/>auxilio gratuito, potest aliquid velle, et 
+          opera<lb break="no" ed="#P" n="9"/>ri, non propter se, sed propter alium: nam
+          <lb ed="#P" n="10"/>potest alium amare amore benevolentiae, et
+          <lb ed="#P" n="11"/>aliquod bonum illi desiderare propter seipsum,
+          <lb ed="#P" n="12"/>nam amor amicitiae inter personas creatas, de
+          <lb ed="#P" n="13"/>se honestus est, et Angelo naturaliter possibilis.
+          <lb ed="#P" n="14"/>Imo non solum circa personam creatam, sed
+          <lb ed="#P" n="15"/>etiam circa ipsum Deum, potest Angelus 
+          na<lb break="no" ed="#P" n="16"/>turali virtute absque auxilio gratuito, habere
+          <lb ed="#P" n="17"/>purum benevolentiae amorem, volendo illi 
+          bo<lb break="no" ed="#P" n="18"/>num propter seipsum; ergo etiam daemon
+          <lb ed="#P" n="19"/>quamvis careat auxilio gratuito, potest non
+          <lb ed="#P" n="20"/>operari propter seipsum, sed propter honorem,
+          <lb ed="#P" n="21"/>vel aliud commodum alterius: ergo inde non
+          <lb ed="#P" n="22"/>potest probari omnem motum electivum 
+          dae<lb break="no" ed="#P" n="23"/>monis esse malum. Quodsi forte dicatur, licet
+          <lb ed="#P" n="24"/>Angelus in pura natura possit absque auxilio
+          <lb ed="#P" n="25"/>gratiae habere illum modum operandi et 
+          aman<lb break="no" ed="#P" n="26"/>di, nihilominus daemonem ratione status id
+          <lb ed="#P" n="27"/>non posse. Contra hoc est, quia haec ipsa 
+          res<lb break="no" ed="#P" n="28"/>ponsio ostendit prioris rationis inefficacitatem:
+          <lb ed="#P" n="29"/>quia supponit id, quod inquiritur; nam statim
+          <lb ed="#P" n="30"/>redit interrogatio, cur daemon non possit 
+          ha<lb break="no" ed="#P" n="31"/>bere modum amandi sibi possibilem in pura
+          <lb ed="#P" n="32"/>natura, et ex natura rei liberum, cujus rei
+          <lb ed="#P" n="33"/>causa non potest ex illa ratione reddi, ut jam
+          <lb ed="#P" n="34"/>declaratum est.
+        </p>
+        <p xml:id="szdada-x24996-d1e500">
+          <lb ed="#P" n="35"/>6. Pro refellendo modo Vasquii notationes.
+          <lb ed="#P" n="36"/>— Venio ad alium modum explicandi hanc
+          <lb ed="#P" n="37"/>impotentiam ex denegatione auxilii ex parte
+          <lb ed="#P" n="38"/>praeviae cogitationis necessarii, in quo 
+          admit<lb break="no" ed="#P" n="39"/>timus imprimis praeviam cogitationem 
+          hones<lb break="no" ed="#P" n="40"/>tam esse necessariam ad bonum motum 
+          vo<lb break="no" ed="#P" n="41"/>luntatis, quia non potest voluntas libere 
+          ope<lb break="no" ed="#P" n="42"/>rari, nisi praevia proportionata cogitatione.
+          <lb ed="#P" n="43"/>Secundo concedimus, hanc cogitationem 
+          du<lb break="no" ed="#P" n="44"/>plicem esse, unam suflicientem tantum, id est,
+          <lb ed="#P" n="45"/>cum qua potest persona bene operari, tamen
+          <lb ed="#P" n="46"/>de facto non operatur aliam efficacem, seu 
+          con<lb break="no" ed="#P" n="47"/>gruam, id est, quae habitura est effectum bonae
+          <lb ed="#P" n="48"/>operationis, de qua distnctione latius alibi.
+        </p>
+        <p xml:id="szdada-x24996-d1e533">
+          <lb ed="#P" n="49"/>7. Tertio supponimus, daemonem non ita
+          <lb ed="#P" n="50"/>destitui cogitatione honesta, quin saltem 
+          sufhi<lb break="no" ed="#P" n="51"/>cientem habeat, adoperandum bonum morale,
+          <lb ed="#P" n="52"/>si velit. Hoc non negat praedictus auctor, imo
+          <lb ed="#P" n="53"/>optime probat, primo, quia daemon libere ehgit
+          <lb ed="#P" n="54"/>inter bonum et malum; ergo necesse est, ut
+          <lb ed="#P" n="55"/>utriusque habeat sufficientem cogitationem ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>volendum quodcumque illorum, quia interea,
+          <lb ed="#P" n="57"/>quae non sufficienter cognoscuntur, non est
+          <lb ed="#P" n="58"/>electio, nec libertas. Secundo, quia Angelus ex
+          <lb ed="#P" n="59"/>virtute suae naturae, quando sibi proponit 
+          ob<lb break="no" ed="#P" n="60"/>jectum amandum, cogitat, vel cogitare potest,
+          <lb ed="#P" n="61"/>quidquid retrahit secundum rationem ab illius
+          <lb ed="#P" n="62"/>objecti amore, vel ad illum invitat; ergo etiam
+          <lb ed="#P" n="63"/>daemon potest habere, et habet, si velit, talem
+          <lb ed="#P" n="64"/>cogitationem, sed illa est cogitatio sufficiens
+          <lb ed="#P" n="65"/>ad bonum actum; ergo non privatur daemon
+          <lb ed="#P" n="66"/>necessario cogitatione honesta sufliciente. 
+          Pro<lb break="no" ed="#P" n="67"/>batur utraque consequentia (nam propositiones
+          <lb ed="#P" n="68"/>assumptae notae sunt) quia cum talis cogitatio
+          <lb ed="#P" n="69"/>sit naturalis, non potest reddi causa, cur sit
+          <lb ed="#P" n="70"/>impossibilis daemoni. Quia ex parte Dei 
+          assi<lb break="no" ed="#P" n="71"/>gnari non potest, tum quia illa pertinet ad
+          <lb ed="#P" n="72"/>auxilium, seu concursum debitum naturae 
+          h<lb break="no" ed="#P" n="73"/>berae, tum etiam, quia impedire omnem 
+          cogi<lb break="no" ed="#P" n="74"/>tationem boni honesti, saltem sufficientem,
+          <lb ed="#P" n="75"/>multum repugnat divinae bonitati, ut a fortiori
+          <lb ed="#P" n="76"/>ex dicendis patebit. Neque etiam potest 
+          assi<lb break="no" ed="#P" n="77"/>gnari ratio ex parte peccati, quia naturalia
+          <lb ed="#P" n="78"/>post peccatum integra manserunt. Quod si 
+          for<lb break="no" ed="#P" n="79"/>tasse alia impedimenta in illo statu occurrunt,
+          <lb ed="#P" n="80"/>haec imprimis proponenda et declaranda 
+          es<lb break="no" ed="#P" n="81"/>sent, nam haec sunt, quae praecipue 
+          inquiri<lb break="no" ed="#P" n="82"/>mus. Et deinde ad summum poterunt illa 
+          im<lb break="no" ed="#P" n="83"/>pedimenta bonum effectum illius cogitationis
+          <lb ed="#P" n="84"/>impedire, et ita non tollent cogitationem 
+          suf<lb break="no" ed="#P" n="85"/>ficientem, sed facient ut congrua non sit, quod
+          <lb ed="#P" n="86"/>videndum superest.
+        </p>
+        <p xml:id="szdada-x24996-d1e620">
+          <lb ed="#P" n="87"/>8. Refellitur jam modus dicendi Vasquii. —
+          <lb ed="#P" n="88"/>E ffugiwum. — His ergo suppositis, probo 
+          de<lb break="no" ed="#P" n="89"/>fectum cogitationis congruae non posse esse
+          <lb ed="#P" n="90"/>causam obstinationis, quam daemon habet, ad
+          <lb ed="#P" n="91"/>nunquam operandum bonum, sed potius 
+          ip<lb break="no" ed="#P" n="92"/>sam obstinationem voluntatis esse causam, ob
+          <lb ed="#P" n="93"/>quam in daemone cogitatio honesta suffticiens
+          <lb ed="#P" n="94"/>nunquam est congrua, ac proinde illius 
+          obsti<lb break="no" ed="#P" n="95"/>nationis aliam causam esse quaerendam. 
+          Pro<lb break="no" ed="#P" n="96"/>batur antecedens, quia cogitatio illa sufficiens
+          <lb ed="#P" n="97"/>non est de se incongrua, nam hoc suffticientiae
+          <lb ed="#P" n="98"/>repugnat, unde si voluntas velit consentire, illa
+          <lb ed="#P" n="99"/>erit congrua; ergo si nunquam est congrua, ex
+          <lb ed="#P" n="100"/>eo provenit, quod voluntas nunquam illi 
+          con<lb break="no" ed="#P" n="101"/>formatur. Quod autem voluntas illi nunquam
+          <lb ed="#P" n="102"/>conformetur, non potest provenire nisi ex 
+          ob<lb break="no" ed="#P" n="103"/>stinatione; ergo defectus cogitationis congruae
+          <lb ed="#P" n="104"/>est effectus obstinationis, et non causa. Dicetur
+          <lb ed="#P" n="105"/>fortasse, in reipsa, et in executione 
+          cognitio<lb break="no" ed="#P" n="106"/>nem esse, seu fieri incongruam ex resistentia
+          <lb ed="#P" n="107"/>libera voluntatis, nihilominus tamen in ordine
+          <lb ed="#P" n="108"/>ad praescientiam Dei illam cogitationem dici
+          <lb ed="#P" n="109"/>congruam, quam Deus praevidit, quod si in tali
+          <lb ed="#P" n="110"/>opportunitate daretur, habitura erat effectum
+          <pb ed="#P" n="993"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ex libero consensu voluntatis, illam vero 
+          in<lb break="no" ed="#P" n="2"/>congruam, quae caritura erat effectu ex libera
+          <lb ed="#P" n="3"/>resistentia voluntatis. Et ideo decrevisse 
+          nun<lb break="no" ed="#P" n="4"/>quam dare Angelis damnatis cogitationem 
+          ho<lb break="no" ed="#P" n="5"/>nestam, quam novit futuram congruam, seu
+          <lb ed="#P" n="6"/>habituram effectum, atque ita in ordine ad
+          <lb ed="#P" n="7"/>providentiam et praedefinitionem Dei, ideo
+          <lb ed="#P" n="8"/>daemones non posse bene operari, quia 
+          nun<lb break="no" ed="#P" n="9"/>quam habere possunt cogitationem congruam
+          <lb ed="#P" n="10"/>ex definitiva sententia Dei.
+        </p>
+        <p xml:id="szdada-x24996-d1e702">
+          <lb ed="#P" n="11"/>9. Evertitur. — Sed contra hoc argumentor
+          <lb ed="#P" n="12"/>secundo, quia vel Angelus in statu damnationis
+          <lb ed="#P" n="13"/>constitutus est capax, quantum est ex se, 
+          cogi<lb break="no" ed="#P" n="14"/>tationis congruae secluso contrario decreto Dei,
+          <lb ed="#P" n="15"/>et relinquendo, ut sic dicam, illum effectum
+          <lb ed="#P" n="16"/>communi cursui secundarum causarum, vel
+          <lb ed="#P" n="17"/>Angelus damnatus ex vi talis status est 
+          inca<lb break="no" ed="#P" n="18"/>pax talis cogitationis congruae. Hoc secundum
+          <lb ed="#P" n="19"/>dici non potest consequenter, quia daemon in
+          <lb ed="#P" n="20"/>illo statu supponitur esseliber, et habere 
+          intrin<lb break="no" ed="#P" n="21"/>secam potestatem ad consentiendum 
+          cogitatio<lb break="no" ed="#P" n="22"/>ni honestae, non obstante statu, et praecise,
+          <lb ed="#P" n="23"/>vel (ut aiunt) in sensu diviso, statum illum
+          <lb ed="#P" n="24"/>spectando ante omne decretum liberum, seu
+          <lb ed="#P" n="25"/>praedefinitionem Dei; ergo simpliciter loquendo
+          <lb ed="#P" n="26"/>est damnatus capax consensus in cogitationem
+          <lb ed="#P" n="27"/>honestam, seu in rem sic cogitatam; ergo est
+          <lb ed="#P" n="28"/>capax cogitationis congruae, quia si consensus
+          <lb ed="#P" n="29"/>ponatur, cogitatio erit congrua; ergo non 
+          po<lb break="no" ed="#P" n="30"/>test esse capax consensus, quin sit capax 
+          cogi<lb break="no" ed="#P" n="31"/>tationis congruae. Hoc autem posito non 
+          po<lb break="no" ed="#P" n="32"/>test cum fundamento dici Deum praescivisse
+          <lb ed="#P" n="33"/>nullam cogitationem daemonis, ex quo 
+          damna<lb break="no" ed="#P" n="34"/>tus est usque nunc, vel etiam per totam 
+          aeter<lb break="no" ed="#P" n="35"/>nitatem futuram fuisse congruam; ergo 
+          suppo<lb break="no" ed="#P" n="36"/>sita capacitate non potest dici Deum 
+          decre<lb break="no" ed="#P" n="37"/>visse nunquam dare daemoni cogitationem
+          <lb ed="#P" n="38"/>congruam, nec inde provenire, ut semper 
+          pec<lb break="no" ed="#P" n="39"/>cet. Probatur consequentia, quia hoc decretum
+          <lb ed="#P" n="40"/>supponit illam praescientiam; ergo illa seclusa
+          <lb ed="#P" n="41"/>non habet locum tale decretum. Quod autem
+          <lb ed="#P" n="42"/>illa scientia non recte supponatur, ostenditur,
+          <lb ed="#P" n="43"/>quia in objecto non habet fundamentum. Nam
+          <lb ed="#P" n="44"/>cogitatio non est incongrua, quia Deus faciat
+          <lb ed="#P" n="45"/>illam esse incongruam, sed potius e contrario,
+          <lb ed="#P" n="46"/>quia illa futura est incongrua, seu quia 
+          libe<lb break="no" ed="#P" n="47"/>rum arbitrium non est illi consensurum, ideo
+          <lb ed="#P" n="48"/>praescit Deus, cogitationem futuram esse 
+          in<lb break="no" ed="#P" n="49"/>congruam. Cum ergo consensus liberi arbitrii
+          <lb ed="#P" n="50"/>in talem cogitationem sit effectus simpliciter
+          <lb ed="#P" n="51"/>possibilis, et contingens, non est verisimile,
+          <lb ed="#P" n="52"/>considerato illo effectu, et propriis ejus causis
+          <lb ed="#P" n="53"/>secundum se, et seclusa superiori causa 
+          extrin<lb break="no" ed="#P" n="54"/>seca impediente, in tanta multitudine 
+          perso<lb break="no" ed="#P" n="55"/>narum, et cogitationum, et tam diuturna, seu
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>infinita duratione, non esse aliquando 
+          futu<lb break="no" ed="#P" n="57"/>ram congruam aliquam cogitationem.
+        </p>
+        <p xml:id="szdada-x24996-d1e809">
+          <lb ed="#P" n="58"/>10. Effugium aliud. — Responderi potest,
+          <lb ed="#P" n="59"/>potuisse quidem, absolute loquendo, et 
+          condi<lb break="no" ed="#P" n="60"/>Uone status praecise considerata, occurrere 
+          dae<lb break="no" ed="#P" n="61"/>moni cogitationem congruam honestam, Deum
+          <lb ed="#P" n="62"/>autem conditionata sua praescientia, omnes
+          <lb ed="#P" n="63"/>tales occasiones praevidisse, et justo consilio
+          <lb ed="#P" n="64"/>omnes illas avertere, vel impedire decrevisse,
+          <lb ed="#P" n="65"/>et illas tantum permittere, vel etiam offerre
+          <lb ed="#P" n="66"/>voluisse, quas praevidit futuras esse 
+          incon<lb break="no" ed="#P" n="67"/>gruas. Et ita cessat admiratio, cur in tota
+          <lb ed="#P" n="68"/>eeternitate nulli damnatorum occurrere valeat
+          <lb ed="#P" n="69"/>cogitatio honesta, quae futura sit congrua, cum
+          <lb ed="#P" n="70"/>non desit capacitas. Quia non obstante 
+          capa<lb break="no" ed="#P" n="71"/>citate, et possibilitate absoluta, seu divisa, 
+          po<lb break="no" ed="#P" n="72"/>test Deus omnem talem cogitationem avertere,
+          <lb ed="#P" n="73"/>seu impedire; unde supposito decreto id 
+          facien<lb break="no" ed="#P" n="74"/>di, fit impossibilis talis eventus, impossibilitate
+          <lb ed="#P" n="75"/>scilicet composita.
+        </p>
+        <p xml:id="szdada-x24996-d1e851">
+          <lb ed="#P" n="76"/>11. Obstruitur. — Vasquez, 4 p., disp. 240,
+          <lb ed="#P" n="77"/>n. 3, et disp. 941, n. 15, admittit Deum non
+          <lb ed="#P" n="78"/>solum negando, sed agendo esse causam 
+          obstina<lb break="no" ed="#P" n="79"/>tionis. —Contra hanc tamen responsionem 
+          obs<lb break="no" ed="#P" n="80"/>tat, quia juxta illam Deus non tantum 
+          priva<lb break="no" ed="#P" n="81"/>tive, sed etiam positive esset obstinationis
+          <lb ed="#P" n="82"/>daemonum, quoad impotentiam bene operandi,
+          <lb ed="#P" n="83"/>et ex propria intentione impediret, ne uuquam
+          <lb ed="#P" n="84"/>bene operarentur. Consequens non videtur 
+          ad<lb break="no" ed="#P" n="85"/>mittendum; ergo nec talis causa obstinationis
+          <lb ed="#P" n="86"/>daemonum probanda est. Sequelam ostendo,
+          <lb ed="#P" n="87"/>nam cogitatio naturalis boni honesti sufficiens
+          <lb ed="#P" n="88"/>ad operandum illud naturaliter haberi potest
+          <lb ed="#P" n="89"/>per ordinarium cursum causarum secundarum
+          <lb ed="#P" n="90"/>cum solo generali cursu causae primae sine alia
+          <lb ed="#P" n="91"/>speciali illuminatione, aut inspiratione divina,
+          <lb ed="#P" n="92"/>ut ex terminis ipsis notum videtur, quia non
+          <lb ed="#P" n="93"/>invenitur specialior ratio in hac cogitatione,
+          <lb ed="#P" n="94"/>quam in aliis naturalibus, ut in materia de
+          <lb ed="#P" n="95"/>Gratia citato loco latius tractavimus; ergo si
+          <lb ed="#P" n="96"/>Deus causas ipsas secundas suos motus agere
+          <lb ed="#P" n="97"/>sinat, et generalem concursum offerat, et 
+          spe<lb break="no" ed="#P" n="98"/>cialiter non impediat, aliquando occurret talis
+          <lb ed="#P" n="99"/>cogitatio, quae congrua sit; ergo ut decretum
+          <lb ed="#P" n="100"/>divinum denegandi in omni occasione 
+          cogita<lb break="no" ed="#P" n="101"/>tionem congruam naturalem firmum,et efficax
+          <lb ed="#P" n="102"/>sit, necesse est, ut comprehendat non tantum
+          <lb ed="#P" n="103"/>voluntatem negativam ex parte objecti, id est,
+          <lb ed="#P" n="104"/>non dandi gratuitum, vel extraordinarium
+          <lb ed="#P" n="105"/>auxilium, sed necessaria est positiva voluntas
+          <lb ed="#P" n="106"/>faciendi, seu impediendi, ne cogitatio honesta
+          <lb ed="#P" n="107"/>occurrens congrua sit. Atque ita consequens
+          <lb ed="#P" n="108"/>illud videntur clare admittere auctores, contra
+          <lb ed="#P" n="109"/>quos disputamus. Aiunt enim Angelum ad
+          <lb ed="#P" n="110"/>primam cogitationem determinari a Deo, et
+          <pb ed="#P" n="994"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ideo liberum esse Deo talem immittere 
+          cogi<lb break="no" ed="#P" n="2"/>tationem, per quam praescit voluntatem non
+          <lb ed="#P" n="3"/>esse movendam ad consensum, etiamsi posset
+          <lb ed="#P" n="4"/>immittere allaam magis congruentem. Item
+          <lb ed="#P" n="5"/>aiunt, necessarium esse fateri, in manu Dei
+          <lb ed="#P" n="6"/>esse immittere varias cogitationes, quibus 
+          co<lb break="no" ed="#P" n="7"/>gitatio movens, ad bonum honestum 
+          retarde<lb break="no" ed="#P" n="8"/>tur, et ideo voluntas non consentiat, etiamsi
+          <lb ed="#P" n="9"/>posset: et rationem reddunt, quoniam nihil
+          <lb ed="#P" n="10"/>horum est violentum, nec injustum, quia 
+          op<lb break="no" ed="#P" n="11"/>positum non est aebitum voluntati, et ita 
+          res<lb break="no" ed="#P" n="12"/>pectu daemonum, sed damnatorum, potest 
+          ha<lb break="no" ed="#P" n="13"/>bere rationem just:e poenae. Igitur juxta hanc
+          <lb ed="#P" n="14"/>doctrinam Deus peculiari providentia procurat,
+          <lb ed="#P" n="15"/>et facit ne cogitatio honesta, et sufficiens ad
+          <lb ed="#P" n="16"/>operandum bonum sit talis, cui voluntas 
+          con<lb break="no" ed="#P" n="17"/>sensura sit: nam si ad hunc finem immittit
+          <lb ed="#P" n="18"/>alias cogitationes, quae impediant, seu 
+          remit<lb break="no" ed="#P" n="19"/>tant cogitationem honestam, ne voluntas de
+          <lb ed="#P" n="20"/>facto illi consentiat, profecto non tantum 
+          ne<lb break="no" ed="#P" n="21"/>gando, sed etiam agendo causa est talis 
+          obsti<lb break="no" ed="#P" n="22"/>nationis.
+        </p>
+        <p xml:id="szdada-x24996-d1e981">
+          <lb ed="#P" n="23"/>12. Expugnatur primo. — Quod autem
+          <lb ed="#P" n="24"/>hoc admittendum non sit, declaro: quia 
+          im<lb break="no" ed="#P" n="25"/>primis in Angelis verum non est, secundum
+          <lb ed="#P" n="26"/>communem cursum naturae Deum determinare
+          <lb ed="#P" n="27"/>intellectum uniuscujusque ad primam 
+          cogita<lb break="no" ed="#P" n="28"/>tionem particularem, seu moralem: nam, ut
+          <lb ed="#P" n="29"/>supra libro secundo probavi, per naturalem
+          <lb ed="#P" n="30"/>cognitionem, quam Angelus de seipso habet,
+          <lb ed="#P" n="31"/>voluntate sua se determinat ad cogitandum de
+          <lb ed="#P" n="32"/>hac, vel illa re in particulari. Daemones ergo,
+          <lb ed="#P" n="33"/>in quibus naturalia integra sunt, hoc modo
+          <lb ed="#P" n="34"/>habent cogitationes suas particularium, et
+          <lb ed="#P" n="35"/>contingentium objectorum; omitto enim 
+          ne<lb break="no" ed="#P" n="36"/>cessariam cogitationem sui status, et miseriae,
+          <lb ed="#P" n="37"/>quam semper habere coguntur, ut infra 
+          di<lb break="no" ed="#P" n="38"/>cam, nam illa quasi naturals est, et 
+          necessa<lb break="no" ed="#P" n="39"/>ria: nunc loquimur de cogitationibus 
+          contin<lb break="no" ed="#P" n="40"/>centibus, et variabilibus, et de his dicimus
+          <lb ed="#P" n="41"/>non esse, vel inchoari ab extrinseco agente,
+          <lb ed="#P" n="42"/>sed per voluntatem ipsius Angeh determinari.
+          <lb ed="#P" n="43"/>Quamvis aliquando possint extrinsecus 
+          excita<lb break="no" ed="#P" n="44"/>ri per locutionem alterius Angeli, vel etiam
+          <lb ed="#P" n="45"/>Dei: ergo ex vi hujus determinationis, tam
+          <lb ed="#P" n="46"/>potest contingere, cogitationem talem esse, ut
+          <lb ed="#P" n="47"/>illi consensura sit voluntas etiam in 
+          praescien<lb break="no" ed="#P" n="48"/>tia Dei, quam est possibile oppositum; ergo ut
+          <lb ed="#P" n="49"/>de facto nunquam sit cogitatio congrua, 
+          ne<lb break="no" ed="#P" n="50"/>cesse est, ut Deus non sinat voluntatem 
+          dae<lb break="no" ed="#P" n="51"/>monis se determinare ad eam cogitationem,
+          <lb ed="#P" n="52"/>quam Deus praevidit habituram effectum 
+          bo<lb break="no" ed="#P" n="53"/>nae voluntatis, si habeatur. At vero talis 
+          mo<lb break="no" ed="#P" n="54"/>dus providentiae, et curae videtur valde 
+          repu<lb break="no" ed="#P" n="55"/>gnans bonitati divina, quia hoc modo videre-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tur Deus esse positiva, et principalis causa
+          <lb ed="#P" n="57"/>malitiae moralis singularum operationum 
+          dae<lb break="no" ed="#P" n="58"/>monis, quando ex tali providentia, et cura
+          <lb ed="#P" n="59"/>Dei proveniret. Probatur sequela, quia si Deus
+          <lb ed="#P" n="60"/>relinqueret voluntatem daemonis omnino 
+          li<lb break="no" ed="#P" n="61"/>bere cogitare quae vellet, et prout vellet, 
+          inter<lb break="no" ed="#P" n="62"/>dum fortasse haberet cogitationem, quae illum
+          <lb ed="#P" n="63"/>ad aliquod opus honestum bene exequendum
+          <lb ed="#P" n="64"/>cum effectu induceret: ergo ut talis effectus
+          <lb ed="#P" n="65"/>infallibiliter nunquam sequatur, necessarium
+          <lb ed="#P" n="66"/>erit Deum peculiari cura immittere daemoni
+          <lb ed="#P" n="67"/>alias cogitationes, quae efficaciam honestae 
+          co<lb break="no" ed="#P" n="68"/>gitationis impediant, ne unquam bene 
+          ope<lb break="no" ed="#P" n="69"/>retur: haec autem cura, et sollicitudo (ut sic
+          <lb ed="#P" n="70"/>dicam) profecto est a divina voluntate aliena.
+        </p>
+        <p xml:id="szdada-x24996-d1e1090">
+          <lb ed="#P" n="71"/>13. Impugnatur secundo. — Declaraturque
+          <lb ed="#P" n="72"/>in hunc modum, nam aliud est Deum dare
+          <lb ed="#P" n="73"/>hanc, vel illam cogitationem honestam, vel
+          <lb ed="#P" n="74"/>saltem non malam, praevidendo hominem, vel
+          <lb ed="#P" n="75"/>Angelum cum illa non esse bene operaturum,
+          <lb ed="#P" n="76"/>et nolle dare meliorem, licet praesciat effectum
+          <lb ed="#P" n="77"/>bonae operationis esse habituram: aliud vero
+          <lb ed="#P" n="78"/>est determinare cogitationem ad talem 
+          mo<lb break="no" ed="#P" n="79"/>dum, vel immittere cogitationes alias 
+          impedien<lb break="no" ed="#P" n="80"/>tes, vel remittentes honestam, ne effectum
+          <lb ed="#P" n="81"/>bonae operationis habere contingat; nam in
+          <lb ed="#P" n="82"/>priori modo, impedire bonam operationem non
+          <lb ed="#P" n="83"/>est finis, nec ratio dandi, vel non dandi talem,
+          <lb ed="#P" n="84"/>aut talem cogitationem, et ideo optime potest
+          <lb ed="#P" n="85"/>Deus id facere propter alios fines suae 
+          provi<lb break="no" ed="#P" n="86"/>dentiae, cum non sit debitor melioris 
+          cogita<lb break="no" ed="#P" n="87"/>tionis. At vero in posteriori modo dicitur Deus
+          <lb ed="#P" n="88"/>operari directe, et ex intentione ad 
+          impedien<lb break="no" ed="#P" n="89"/>dum effectum bonum honestae cogitationis, ita
+          <lb ed="#P" n="90"/>sufficientis, ut in praescientia Dei futura esset
+          <lb ed="#P" n="91"/>efficax, seu habitura fuisset effectum, si Deus
+          <lb ed="#P" n="92"/>specialiter id non impediret. Hoc autem 
+          dici<lb break="no" ed="#P" n="93"/>mus repugnare bonitati Dei, quia licet dare
+          <lb ed="#P" n="94"/>hanc vel illam cogitationem non malam de se
+          <lb ed="#P" n="95"/>sit indifferens; tamen dare illam ex intentione
+          <lb ed="#P" n="96"/>impedienti bonum opus est moraliter malum,
+          <lb ed="#P" n="97"/>et recte rationi contrarium, quia finis sic 
+          in<lb break="no" ed="#P" n="98"/>tentus honestus non est, et maxime quando
+          <lb ed="#P" n="99"/>impedire talem operationem est virtualiter
+          <lb ed="#P" n="100"/>necessitare ad malum, quoad specificationem,
+          <lb ed="#P" n="101"/>ut in praesenti esset. Quoniam (ut supponimus)
+          <lb ed="#P" n="102"/>talis voluntas necessario est aliquid volitura :
+          <lb ed="#P" n="103"/>ergo si ex directa intentione impeditur, ne
+          <lb ed="#P" n="104"/>bene vellet, virtualiter intenditur, ut male
+          <lb ed="#P" n="105"/>operetur. Ergo si Deus habet illam 
+          conditio<lb break="no" ed="#P" n="106"/>natam praescientiam, quod daemon, si habeat
+          <lb ed="#P" n="107"/>has, vel illas cogitationes, quas de facto 
+          habi<lb break="no" ed="#P" n="108"/>turus est per totam aeternitatem, licet aliquae
+          <lb ed="#P" n="109"/>ex illis sufficientes sint ad bene operandum,
+          <lb ed="#P" n="110"/>nihilominus nunquam cum illis bene operabi-
+          <pb ed="#P" n="995"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tur, talis praescientia non potest fundari in
+          <lb ed="#P" n="2"/>voluntate Dei positive impediente, vel 
+          specia<lb break="no" ed="#P" n="3"/>liter providente, ne sequatur talis effectus, sed
+          <lb ed="#P" n="4"/>aliunde provenire debet, et ideo alia causa
+          <lb ed="#P" n="5"/>obstinationis voluntatis quaerenda est, in qua
+          <lb ed="#P" n="6"/>infaillibiliter ille eventus, et consequenter
+          <lb ed="#P" n="7"/>etiam talis praescientia fundetur.
+        </p>
+        <p xml:id="szdada-x24996-d1e1199">
+          <lb ed="#P" n="8"/>14. Impugnatur ultimo. — Ultimo contra
+          <lb ed="#P" n="9"/>dictam rationem objicitur, quia juxta illam
+          <lb ed="#P" n="10"/>daemon simpliciter erit potens ad bene 
+          operan<lb break="no" ed="#P" n="11"/>dum, etiamsi nunquam sic operaturus sit; nam
+          <lb ed="#P" n="12"/>qui habet libertatem et auxilium suffticiens,
+          <lb ed="#P" n="13"/>simpliciter est potens, licet non sit facturus.
+          <lb ed="#P" n="14"/>Sicut de homine obstinato in via potest Deus
+          <lb ed="#P" n="15"/>praescire nihil boni esse operaturum in toto
+          <lb ed="#P" n="16"/>tempore vitae, et nihilominus erit simphliciter
+          <lb ed="#P" n="17"/>potens ad bene operandum, quia libertatem
+          <lb ed="#P" n="18"/>habet cum sufficiente auxilio. Unde etiam 
+          se<lb break="no" ed="#P" n="19"/>quitur obstinationem daemonum non esse 
+          ma<lb break="no" ed="#P" n="20"/>jorem, quam sit obduratio in multis viatoribus,
+          <lb ed="#P" n="21"/>quod admitti non potest. Respondent, esse 
+          dis<lb break="no" ed="#P" n="22"/>crimen, quia daemones per revelationem 
+          co<lb break="no" ed="#P" n="23"/>gnoscunt se nunquam esse bene operaturos,
+          <lb ed="#P" n="24"/>non autem viatores. Sed imprimis prior pars
+          <lb ed="#P" n="25"/>de revelatione daemonum sine fundamento 
+          ex<lb break="no" ed="#P" n="26"/>cogitata est ad hanc differentiam 
+          constituen<lb break="no" ed="#P" n="27"/>dam, nam si daemones ex vi sui status, sine
+          <lb ed="#P" n="28"/>notitia secreti consilii Dei, non cognoscunt
+          <lb ed="#P" n="29"/>evidenter se nunquam esse bene operaturos
+          <lb ed="#P" n="30"/>gratis et sine fundamento, talis praescientia ex
+          <lb ed="#P" n="31"/>revelatione eis tribuitur; utique absolute 
+          lo<lb break="no" ed="#P" n="32"/>quendo de quacumque bona operatione; nam
+          <lb ed="#P" n="33"/>de vera conversione ad Deum bene norunt,
+          <lb ed="#P" n="34"/>nunquam eam habituros, quia sciunt se esse
+          <lb ed="#P" n="35"/>privatos omni gratia Dei, quia hoc ad 
+          essen<lb break="no" ed="#P" n="36"/>talem (ut sic dicam) eorum poenam perpetuam
+          <lb ed="#P" n="37"/>pertinet. Secus vero est de omnibus, et 
+          sin<lb break="no" ed="#P" n="38"/>gulis moralibus operibus, ideoque vel in 
+          ah<lb break="no" ed="#P" n="39"/>quo evidente principio sciunt se talia opera
+          <lb ed="#P" n="40"/>nunquam facturos, vel certe solum id credunt
+          <lb ed="#P" n="41"/>ex suo malo proposito, quod firmissimum, et
+          <lb ed="#P" n="42"/>immutabile ex malitia sua cogitant.
+        </p>
+        <p xml:id="szdada-x24996-d1e1278">
+          <lb ed="#P" n="43"/>15. Alia vero pars, quod viatores non 
+          ha<lb break="no" ed="#P" n="44"/>beant talem revelationem, fortasse de facto
+          <lb ed="#P" n="45"/>vera est, tamen de possibili non repugnat 
+          sta<lb break="no" ed="#P" n="46"/>tui viae. Nam sicut Christus revelavit Petro se
+          <lb ed="#P" n="47"/>fuisse negaturum, ita potuit revelare Judae
+          <lb ed="#P" n="48"/>desperationem suam, vel etiam nihil boni ab
+          <lb ed="#P" n="49"/>hora caenae, usque ud mortem fuisse 
+          operatu<lb break="no" ed="#P" n="50"/>rum, si ita futurum fuit, ut fortasse fuit: nam
+          <lb ed="#P" n="51"/>hoc posito, non magis haec revelatio, quam
+          <lb ed="#P" n="52"/>illa repugnat, hoc autem imprimis satis est,
+          <lb ed="#P" n="53"/>ut illa etiam pars sit incerta. Deinde inde
+          <lb ed="#P" n="54"/>etiam fit, ut differentia illa non sufficiat ad
+          <lb ed="#P" n="55"/>distinguendam obstinationem termini ab ob-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>duratione viae, quia etiamsi in viatore talis
+          <lb ed="#P" n="57"/>revelatio ponatur, non erit obstinatus sicut
+          <lb ed="#P" n="58"/>daemon, vel erit extra viam: et confirmatur,
+          <lb ed="#P" n="59"/>nam vel illa revelatio formaliter destruit, seu
+          <lb ed="#P" n="60"/>impedit sufficientiam auxilii, quia non potest
+          <lb ed="#P" n="61"/>liberum arbitrium contra actualem 
+          cogitatio<lb break="no" ed="#P" n="62"/>nem talis revelationis conari, et sic verum non
+          <lb ed="#P" n="63"/>erit, daemonem habere cogitationem 
+          sufficien<lb break="no" ed="#P" n="64"/>tem ad operandum bonum honestum, quia illa
+          <lb ed="#P" n="65"/>actualis revelatio insufficientem reddit 
+          quam<lb break="no" ed="#P" n="66"/>cumque cogitationem boni honesti: vel illa
+          <lb ed="#P" n="67"/>revelatio actu etiam considerata non impedit
+          <lb ed="#P" n="68"/>sufficientiam cogitationis honestae, et sic non
+          <lb ed="#P" n="69"/>obstante tali revelatione, manebit in damone
+          <lb ed="#P" n="70"/>absoluta potestas bene operandi, sicut in 
+          via<lb break="no" ed="#P" n="71"/>tore manet.
+        </p>
+        <p xml:id="szdada-x24996-d1e1346">
+          <lb ed="#P" n="72"/>16. Secunda principalis opinio in hoc capite.
+          <lb ed="#P" n="73"/>— Propter haec dixerunt alii, causam 
+          privati<lb break="no" ed="#P" n="74"/>vam obstinationis daemonum esse carentiam,
+          <lb ed="#P" n="75"/>non alicujus auxilii gratiae, vel cogitationis,
+          <lb ed="#P" n="76"/>ut dicebat prima opinio, sed generalis 
+          concur<lb break="no" ed="#P" n="77"/>sus, sine quo voluntas creata nihil operari 
+          po<lb break="no" ed="#P" n="78"/>test. Ita indicat Marsilius, in 2, q.5, a. 3,
+          <lb ed="#P" n="79"/>post 4 concl., quamvis obscure loquatur, 
+          cla<lb break="no" ed="#P" n="80"/>rius id tradit Paludanus, in 4, d. 50, q. unic.,
+          <lb ed="#P" n="81"/>num. 16, et consentit Molina, 1 p., q. 64,
+          <lb ed="#P" n="82"/>a. 2; et Scoto non omnino displicet haec ratio,
+          <lb ed="#P" n="83"/>quamvis in illa non persistat; et fundari 
+          po<lb break="no" ed="#P" n="84"/>test haec opinio, quia juste potuit Deus negare
+          <lb ed="#P" n="85"/>hujusmodi concursum omnibus damnatis
+          <lb ed="#P" n="86"/>propter illorum demeritum, et hoc modo facile
+          <lb ed="#P" n="87"/>intelligitur, cur damnati nunquam bonum
+          <lb ed="#P" n="88"/>opus efficiant; ergo haec est assignanda ratio
+          <lb ed="#P" n="89"/>illius etfectus, quia illa sola est sufficiens, et
+          <lb ed="#P" n="90"/>sine illa nulla potest assignari. Quod si 
+          obji<lb break="no" ed="#P" n="91"/>ciatur, quia illud esset perpetuum miraculum:
+          <lb ed="#P" n="92"/>respondet Paludanus quod licet respectu 
+          via<lb break="no" ed="#P" n="93"/>toris illud esset miraculum, non tamen 
+          res<lb break="no" ed="#P" n="94"/>pectu damnati, quia est quasi connaturale illi
+          <lb ed="#P" n="95"/>statui. Itaque dici poterit praeternaturale, vel
+          <lb ed="#P" n="96"/>etiam supernaturale per comparationem ad
+          <lb ed="#P" n="97"/>puram naturam, non tamen miraculosum,
+          <lb ed="#P" n="98"/>qui est secundum ordinariam legem tali statui
+          <lb ed="#P" n="99"/>consentaneum. Magis enim supernaturale est,
+          <lb ed="#P" n="100"/>spiritum torqueri ab igne corporeo, vel 
+          Ange<lb break="no" ed="#P" n="101"/>lum videre Deum, et nihilominus illa non 
+          di<lb break="no" ed="#P" n="102"/>cuntur propria miracula.
+        </p>
+        <p xml:id="szdada-x24996-d1e1416">
+          <lb ed="#P" n="103"/>17. Objicit Scotus. — Responsio evpeditior.
+          <lb ed="#P" n="104"/>— Sed instat Scotus, quia illa denegatio 
+          con<lb break="no" ed="#P" n="105"/>cursus, quando causa proxima est potens, et
+          <lb ed="#P" n="106"/>habet omnia alia requisita ad operandum, 
+          es<lb break="no" ed="#P" n="107"/>set perpetua quaedam violentia, quia esset
+          <lb ed="#P" n="108"/>contra internam inclinationem talis causae,
+          <lb ed="#P" n="109"/>seu voluntatis. Responderi autem posset juxta
+          <lb ed="#P" n="110"/>multorum sententiam, qui dicunt, vel vioen-
+          <pb ed="#P" n="996"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tiam non fieri sine actione positiva contra 
+          im<lb break="no" ed="#P" n="2"/>petum naturae, vel saltem non sine privatione
+          <lb ed="#P" n="3"/>alicujus formae intrinsecae, vel denique 
+          violen<lb break="no" ed="#P" n="4"/>tiam non inferri ab auctore naturae, 
+          praeser<lb break="no" ed="#P" n="5"/>tim quando propter legem universalem aliquid
+          <lb ed="#P" n="6"/>agit, vel negat praeter ordinem particularis
+          <lb ed="#P" n="7"/>naturae, ut quando movet sursum aquam ad
+          <lb ed="#P" n="8"/>replendum vacuum. Verumtamen ab his 
+          opi<lb break="no" ed="#P" n="9"/>nionibus abstrahendo, nullum inconveniens
+          <lb ed="#P" n="10"/>censeo, concedere (si necessarium sit) Deum
+          <lb ed="#P" n="11"/>perpetuo inferre aliquam violentiam 
+          damna<lb break="no" ed="#P" n="12"/>tis, quia illa etiam esse potest poena eorum
+          <lb ed="#P" n="13"/>meritis debita: imo aliqua violentia, vel 
+          coac<lb break="no" ed="#P" n="14"/>tio in ipsa ratione poenae, quantum in ipsa est,
+          <lb ed="#P" n="15"/>includitur. Cur enim non dicemus 
+          detentio<lb break="no" ed="#P" n="16"/>nem perpetuam in loco inferni esse violentam
+          <lb ed="#P" n="17"/>spiritibus ? Igitur propter solam violentiae 
+          ra<lb break="no" ed="#P" n="18"/>tionem non esset illa causa improbanda. Ali
+          <lb ed="#P" n="19"/>vero objiciunt, quia ex illa causa solum potest
+          <lb ed="#P" n="20"/>inferri, daemones nunquam esse bene 
+          opera<lb break="no" ed="#P" n="21"/>turos, non vero quod non possint bene operari,
+          <lb ed="#P" n="22"/>quia semper retinent intrinsecam potentiam.
+          <lb ed="#P" n="23"/>Sed hoc etiam non est magni momenti: nam
+          <lb ed="#P" n="24"/>revera potentia sine Dei concursu non est 
+          sim<lb break="no" ed="#P" n="25"/>pliciter sufficiens ad operandum; et ideo si
+          <lb ed="#P" n="26"/>non habet paratum Dei concursum, simpliciter
+          <lb ed="#P" n="27"/>dicenda est impotens ad operandum, facta 
+          ni<lb break="no" ed="#P" n="28"/>mirum dicta suppositione, quamvis secundum
+          <lb ed="#P" n="29"/>quid, id est, ex parte sua sit potens.
+        </p>
+        <p xml:id="szdada-x24996-d1e1503">
+          <lb ed="#P" n="30"/>18. Praedictum opinionis fundamentum 
+          pro<lb break="no" ed="#P" n="31"/>babile non tamen satis placet. — Quapropter
+          <lb ed="#P" n="32"/>rationem hanc probabilem censeo. 
+          Nihilomi<lb break="no" ed="#P" n="33"/>nus tamen mihi non omnino satisfacit, quia
+          <lb ed="#P" n="34"/>licet damnati digni sint privari generali 
+          con<lb break="no" ed="#P" n="35"/>cursu ad omne bonum operandum :: et sicut a
+          <lb ed="#P" n="36"/>Deo libere datur, ita etiam libere negari possit:
+          <lb ed="#P" n="37"/>nihilominus quod Deus per se intendat 
+          impe<lb break="no" ed="#P" n="38"/>dire, ne daemones aliquid boni efficiant, et
+          <lb ed="#P" n="39"/>quod propter hunc finem Deus neget 
+          praedic<lb break="no" ed="#P" n="40"/>tum concursum illum ad mala opera 
+          conce<lb break="no" ed="#P" n="41"/>dendo, non videtur ita decens, nec 
+          consenta<lb break="no" ed="#P" n="42"/>neum divinae bonitati, quia finis ille 
+          impedien<lb break="no" ed="#P" n="43"/>di omnem actionem bonam non videtur per se
+          <lb ed="#P" n="44"/>amabilis, nec Deo dignus, etiamsi dicatur Deus
+          <lb ed="#P" n="45"/>id velle in poenam praecedentium peccatorum.
+          <lb ed="#P" n="46"/>Et declaratur amplius, quia alias mala opera,
+          <lb ed="#P" n="47"/>quae daemones faciunt libere, saltem quoad
+          <lb ed="#P" n="48"/>exercitium, non fierent tantum Deo 
+          permit<lb break="no" ed="#P" n="49"/>tente, sed etiam Deo volente, quod nemo 
+          con<lb break="no" ed="#P" n="50"/>cedet. Sequela probatur, quia permissio solum
+          <lb ed="#P" n="51"/>habet locum, quando Deus ex parte sua nihil
+          <lb ed="#P" n="52"/>aufert necessarium, ut voluntas hoc, vel illud
+          <lb ed="#P" n="53"/>operari possit, ut ex materia de Grat. suppono;
+          <lb ed="#P" n="54"/>ergo si Deus ex se negat concursum 
+          necessa<lb break="no" ed="#P" n="55"/>rium ad bonum opus, eo ipso non permittit,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>(ut sic dicam) bonum opus fieri, sed potius 
+          ab<lb break="no" ed="#P" n="57"/>soluto, et praeveniente decreto executivo, vult
+          <lb ed="#P" n="58"/>non fieri: ergo e contrario etiam non 
+          permit<lb break="no" ed="#P" n="59"/>tit opus malum fieri a daemone, sed absolute
+          <lb ed="#P" n="60"/>vult fieri. Dices, daemonem semper operari 
+          li<lb break="no" ed="#P" n="61"/>bere, quoad exercitium, et ideo quodlibet
+          <lb ed="#P" n="62"/>opus ejus in particulari sumptum permitti a
+          <lb ed="#P" n="63"/>Deo. Sed hoc non satisfacit, quia licet verum
+          <lb ed="#P" n="64"/>sit, unum malum opus comparatione alterius
+          <lb ed="#P" n="65"/>tantum permitti, nihilominus tamen necesse
+          <lb ed="#P" n="66"/>est, ut Deus absolute velit, talem voluntatem
+          <lb ed="#P" n="67"/>male operari, quia simpliciter vult illam 
+          ope<lb break="no" ed="#P" n="68"/>rari, nam ad hoc dat facultatem volendi, et
+          <lb ed="#P" n="69"/>concursum, et ex se vult, ut non possit bene
+          <lb ed="#P" n="70"/>operari, negando illi concursum; ergo 
+          simpli<lb break="no" ed="#P" n="71"/>citer vult, ut male operetur; nec satisfaciet,
+          <lb ed="#P" n="72"/>qui dixerit, hanc esse voluntatem virtualem,
+          <lb ed="#P" n="73"/>non formalem, tum quia in moralibus eadem
+          <lb ed="#P" n="74"/>est utriusque ratio, tum etiam quia quidquid
+          <lb ed="#P" n="75"/>Deus vult virtualiter, vult etiam formaliter, et
+          <lb ed="#P" n="76"/>expresse, quia hoc ad perfectionem voluntatis
+          <lb ed="#P" n="77"/>ejus pertinet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

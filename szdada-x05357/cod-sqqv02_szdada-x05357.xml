@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 22</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 22</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="213"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x05357"><!-- l2c22 -->
+        <head xml:id="szdada-x05357-Hd1e101">Caput 22</head>
+        <head xml:id="szdada-x05357-Hd1e103" type="question-title">Variae opiniones contra resolutionem superioris capitis referuntur et rejiciuntur</head>
+        <p xml:id="szdada-x05357-d1e106">
+          <lb ed="#P" n="102"/>CAPUT XXII.
+          <lb ed="#P" n="103"/>VARIAE OPINIONES CONTRA RESOLUTIONEM 
+          SUPE<lb break="no" ed="#P" n="104"/>RIORIS CAPITIS REFERUNTUR ET REJICIUNTUR.
+        </p>
+        <p xml:id="szdada-x05357-d1e115">
+          <lb ed="#P" n="105"/>1. Opinio Durandi in praecedenti capite, num.
+          <lb ed="#P" n="106"/>h, jumn tacta rejicitur. — Ex dictis in 
+          praece<lb break="no" ed="#P" n="107"/>denti capite, certitudo assertionis in eo positae
+          <pb ed="#P" n="214"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sufficienter probatur, et consequenter inde 
+          im<lb break="no" ed="#P" n="2"/>probantur nonnullae opiniones theologorum,
+          <lb ed="#P" n="3"/>quae non solum improbabiles, sed etiam 
+          pa<lb break="no" ed="#P" n="4"/>rum tutae mihi videntur. Prima fuit Durandi,
+          <lb ed="#P" n="5"/>qui in 2, d. 3, quaest. 7, num. 18, et quaest. 8,
+          <lb ed="#P" n="6"/>num. 6, ausus est dicere, Angelum licet non
+          <lb ed="#P" n="7"/>videat actus voluntatis futuros, videre tamen
+          <lb ed="#P" n="8"/>illos statim, ac existunt, quod sine dubio 
+          erro<lb break="no" ed="#P" n="9"/>neum est. Ft ideo idem Durandus, d. 8, q. 5,
+          <lb ed="#P" n="10"/>post longam disputationem rem indecisam 
+          re<lb break="no" ed="#P" n="11"/>linquit tanquam dubiam, et utrinque 
+          probabi<lb break="no" ed="#P" n="12"/>lem. In quo valde etiam errat, rem certam in
+          <lb ed="#P" n="13"/>dubium revocando. Et ab hac opinione non
+          <lb ed="#P" n="14"/>multum discrepat Scotus, in 2, d. 9, quaest. 2,
+          <lb ed="#P" n="15"/>ad 1, secundae opinionis, et in 4, d. 45, q. 4,
+          <lb ed="#P" n="16"/>ad 2, nam simpliciter videtur docere, Angelos
+          <lb ed="#P" n="17"/>posse cognoscere virtute naturali occulta 
+          cor<lb break="no" ed="#P" n="18"/>dium, et de facto cognoscere. Et ita illi tribuit
+          <lb ed="#P" n="19"/>Marsilius, in 2, quaest. 8, sed de illius 
+          senten<lb break="no" ed="#P" n="20"/>tia dicemus melius in capite sequenti.
+        </p>
+        <p xml:id="szdada-x05357-d1e172">
+          <lb ed="#P" n="21"/>2. Opinio Argentinae exploditur. — Altera
+          <lb ed="#P" n="22"/>opinio ad hanc proxime accedens, quae eidem
+          <lb ed="#P" n="23"/>Durando non multum displicuit, dicit 
+          Ange<lb break="no" ed="#P" n="24"/>Ium posse videre affectus voluntatis, quando
+          <lb ed="#P" n="25"/>sunt; non tamen videre, quales sint, id est, an
+          <lb ed="#P" n="26"/>sit amor, vel odium, complacentia, vel 
+          dis<lb break="no" ed="#P" n="27"/>plicentia, fuga, vel prosecutio. Ita Argentina,
+          <lb ed="#P" n="28"/>d. 7, quaest. 1, art. 2, in fine, ubi nullam 
+          ra<lb break="no" ed="#P" n="29"/>tionem adducit de actu voluntatis, sed solum
+          <lb ed="#P" n="30"/>de actu intellectus, de quo in capite vigenti
+          <lb ed="#P" n="31"/>tertio, dicemus. Haec ergo opinio omnino 
+          re<lb break="no" ed="#P" n="32"/>Jicienda est, quia et immediate repugnat 
+          mul<lb break="no" ed="#P" n="33"/>tum doctrinae sanctorum in Scriptura 
+          funda<lb break="no" ed="#P" n="34"/>tae: et deinde per evidentem consequentiam
+          <lb ed="#P" n="35"/>ostendi potest, vel illam destruere, vel 
+          repu<lb break="no" ed="#P" n="36"/>gnantia dicere. Quia si Angelus videt actum
+          <lb ed="#P" n="37"/>voluntatis, videt illum in se et intuitive, ergo
+          <lb ed="#P" n="38"/>videt, qualis sit, ergo videt, an sit odium, vel
+          <lb ed="#P" n="39"/>amor. Quod argumentum, ait Durandus, esse
+          <lb ed="#P" n="40"/>efficax, si supponatur distinctio specifica inter
+          <lb ed="#P" n="41"/>actus voluntatis odii, vel amoris: posse autem
+          <lb ed="#P" n="42"/>solvi, si quis mordicus defendat, omnes actus
+          <lb ed="#P" n="43"/>voluntatis esse ejusdem speciei. Sed imprimis
+          <lb ed="#P" n="44"/>hoc satis est ad absolutam eflicaciam rationis,
+          <lb ed="#P" n="45"/>quia dicere, inter actus complacentiae, et 
+          dis<lb break="no" ed="#P" n="46"/>plicentiae, et similes, non esse differentiam
+          <lb ed="#P" n="47"/>specificam, satis improbabile et incredibile
+          <lb ed="#P" n="48"/>est, ut ipse etiam Durandus fatetur. 
+          Verumta<lb break="no" ed="#P" n="49"/>men, etiamsi non esset differentia specifica,
+          <lb ed="#P" n="50"/>satis esset numerica, quae certe negari nullo
+          <lb ed="#P" n="51"/>modo potest inter actus complacentiae et 
+          dis<lb break="no" ed="#P" n="52"/>plicentiae ejusdem rei. Unde fit argumentum,
+          <lb ed="#P" n="53"/>quia visio intuitiva Angeli terminatur ad rem
+          <lb ed="#P" n="54"/>singularem, ut est in se, quia universalia non
+          <lb ed="#P" n="55"/>videntur, et quia cognitio Angeli perfecta est,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ergo videt an sit actus amoris, vel odii. 
+          Pro<lb break="no" ed="#P" n="57"/>batur consequentia, quia neque in reipsa fingi
+          <lb ed="#P" n="58"/>potest actus, qui non sit determinatus in 
+          ra<lb break="no" ed="#P" n="59"/>tione amoris, vel odii, vel alia simili: neque
+          <lb ed="#P" n="60"/>etiam potest quis ex amante fieri odio habens,
+          <lb ed="#P" n="61"/>quin actum mutet, vel realem modum actus.
+          <lb ed="#P" n="62"/>At vero Angelus, si videt actum, videt omnem
+          <lb ed="#P" n="63"/>realem modum ejus, praesertim essentialem et
+          <lb ed="#P" n="64"/>individualem, ergo repugnantia dicit ila 
+          sen<lb break="no" ed="#P" n="65"/>tentia, affirmans Angelum videre actum, et
+          <lb ed="#P" n="66"/>negans videre qualis sit.
+        </p>
+        <p xml:id="szdada-x05357-d1e277">
+          <lb ed="#P" n="67"/>3. Hervaei opinio refellitur a Durando, ut
+          <lb ed="#P" n="68"/>parum coherens. — Tertia opinio est <ref xml:id="szdada-x05357-Rd1e283">
+            <name xml:id="szdada-x05357-Nd1e285">Hervaei</name>,
+          <lb ed="#P" n="69"/>in 3, d. 8, quaest. 3</ref>, dicentis, cognoscere 
+          An<lb break="no" ed="#P" n="70"/>gelum actus voluntatum, seu cordium, quoad
+          <lb ed="#P" n="71"/>substantias eorum, et species et habitudines ad
+          <lb ed="#P" n="72"/>objectum determinatum, vel per modum fugae
+          <lb ed="#P" n="73"/>vel prosecutionis, denique quoad omnia, 
+          prae<lb break="no" ed="#P" n="74"/>terquam quoad gradum intensionis, vel 
+          cona<lb break="no" ed="#P" n="75"/>tus. Quam sententiam merito impugnat 
+          Du<lb break="no" ed="#P" n="76"/>randus, tanquam non consequenter loquentem:
+          <lb ed="#P" n="77"/>quia si Angelus videt intuitive et evidenter
+          <lb ed="#P" n="78"/>amorem voluntatis meae, cur non videbit 
+          in<lb break="no" ed="#P" n="79"/>tensionem talis amoris, cum species 
+          repraesen<lb break="no" ed="#P" n="80"/>tet rem, sicut est, et lumen Angeli non minus
+          <lb ed="#P" n="81"/>sit sufficiens ad modum intensionis, quam ad
+          <lb ed="#P" n="82"/>actum intuendum. Respondet Hervaeus, 
+          ratio<lb break="no" ed="#P" n="83"/>nem esse, quia species unius Angeli remote
+          <lb ed="#P" n="84"/>repraesentat existentem in corde alterius, et
+          <lb ed="#P" n="85"/>per speciem remote repraesentantem minus
+          <lb ed="#P" n="86"/>exacte res videtur. At hoc frivolum est, quia
+          <lb ed="#P" n="87"/>vel Hervaeus loquitur de re cogitata ab alio
+          <lb ed="#P" n="88"/>Angelo, vel de ipsa cogitatione alterius Angeli:
+          <lb ed="#P" n="89"/>si de objecto cogitationis alterius loquatur,
+          <lb ed="#P" n="90"/>impertinens est ratio, quia hic non agimus de
+          <lb ed="#P" n="91"/>cognitione objecti, sed de cognitione actus.
+          <lb ed="#P" n="92"/>Unde licet sit verum, quod per speciem 
+          cogi<lb break="no" ed="#P" n="93"/>tationis alterius Angeli non ita perfecte 
+          co<lb break="no" ed="#P" n="94"/>gnoscatur res cognita ab alio, sicut ab illo 
+          co<lb break="no" ed="#P" n="95"/>gnoscitur, non inde sequitur, cogitationem
+          <lb ed="#P" n="96"/>ipsam non exacte videri ab alio, si illam per
+          <lb ed="#P" n="97"/>speciem ejus cognoscit. Eo vel maxime, quod
+          <lb ed="#P" n="98"/>simul ac unus Angelus videt amorem vel 
+          cogi<lb break="no" ed="#P" n="99"/>tationem alterius de tali re, potest simul uti
+          <lb ed="#P" n="100"/>specie, quam habet tam amoris, quam rei 
+          a<lb break="no" ed="#P" n="101"/>matae ab alio, et sic utrumque perfecte 
+          cognos<lb break="no" ed="#P" n="102"/>cere, ac subinde videre amorem non solum
+          <lb ed="#P" n="103"/>quoad entitatem, sed etiam quoad intensionem.
+          <lb ed="#P" n="104"/>Si vero loquitur Hervaeus de actu ulterius 
+          An<lb break="no" ed="#P" n="105"/>celi, et species ejus, quam alios habere 
+          conce<lb break="no" ed="#P" n="106"/>dit, quid est, quod ait, illam speciem remote
+          <lb ed="#P" n="107"/>repraesentare talem actum, aut per illam 
+          re<lb break="no" ed="#P" n="108"/>mote cognosci. Nam talis species immediate
+          <lb ed="#P" n="109"/>repraesentat ipsum actum, et cognitio, quae per
+          <lb ed="#P" n="110"/>illam fit, immediate etiam ad illum termina
+          <pb ed="#P" n="215"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tur, ergo aeque potest quoad intensionem ac
+          <lb ed="#P" n="2"/>quoad entitatem, vel alias conditiones intelligi.
+        </p>
+        <p xml:id="szdada-x05357-d1e389">
+          <lb ed="#P" n="3"/>4. Eadem opinio temeritatis arguitur. — 
+          Me<lb break="no" ed="#P" n="4"/>rito ergo refellitur Hervaeus, quod 
+          inconstan<lb break="no" ed="#P" n="5"/>ter loquatur: multo vero magis 
+          reprehensibi<lb break="no" ed="#P" n="6"/>lis est, eo quod audacter ac temere ausus sit
+          <lb ed="#P" n="7"/>tantam testimoniorum multitudinem suo 
+          arbi<lb break="no" ed="#P" n="8"/>trio interpretari, ac si in eis tantum dicatur,
+          <lb ed="#P" n="9"/>solum Deum cognoscere de corde humano,
+          <lb ed="#P" n="10"/>quid plus diligat, vel quantum diligat, non
+          <lb ed="#P" n="11"/>vero quod et quid diligat, vel odio habeat, cum
+          <lb ed="#P" n="12"/>fere omnes Patres citati absolute de ipsis 
+          acti<lb break="no" ed="#P" n="13"/>bus, seu cogitationibus cordis loquantur, et
+          <lb ed="#P" n="14"/>soli Deo cognitionem earum reservari 
+          testen<lb break="no" ed="#P" n="15"/>tur. Et certe Christus Dominus non revelabat
+          <lb ed="#P" n="16"/>in quo gradu intensionis Judaei hoc vel illud
+          <lb ed="#P" n="17"/>cogitabant et proponebant, sed absolute 
+          cogi<lb break="no" ed="#P" n="18"/>tationes eorum se nosse monstrabat, et inde
+          <lb ed="#P" n="19"/>divinitatem suam ostendebat, ut sancti 
+          colli<lb break="no" ed="#P" n="20"/>gunt. Et ad hunc modum facile possunt reliqua
+          <lb ed="#P" n="21"/>testimonia contra istam sententiam induci.
+          <lb ed="#P" n="22"/>Quod autem fuerit fundamentum ejus, et 
+          quo<lb break="no" ed="#P" n="23"/>modo ei satisfaciendum sit, in capite sequenti,
+          <lb ed="#P" n="24"/>reddendo rationem veritatis Catholicae 
+          decla<lb break="no" ed="#P" n="25"/>rabitur.
+        </p>
+        <p xml:id="szdada-x05357-d1e441">
+          <lb ed="#P" n="26"/>5. Opinio Henrici. — Quarta fuit opinio
+          <lb ed="#P" n="27"/>Henrici, quodl. 3, quaest. 13, dicentis, 
+          Ange<lb break="no" ed="#P" n="28"/>lum cognoscere actus elicitos voluntatis 
+          amo<lb break="no" ed="#P" n="29"/>ris vel odii et hujusmodi, non tantum per 
+          ef<lb break="no" ed="#P" n="30"/>fectus, sed in seipsis, ut circa tales res 
+          versan<lb break="no" ed="#P" n="31"/>tur amando, vel odio habendo, vel in 
+          univer<lb break="no" ed="#P" n="32"/>sum per modum prosecutionis, aut fugae, 
+          ni<lb break="no" ed="#P" n="33"/>hilominus tamen non cognoscere, ad quem
+          <lb ed="#P" n="34"/>finem illos dirigat, qui illos habet. Nam hoc
+          <lb ed="#P" n="35"/>ait latere omnem creaturam de voluntate 
+          alte<lb break="no" ed="#P" n="36"/>rius, et hoc esse secretum Deo reservatum,
+          <lb ed="#P" n="37"/>quod vocat mentis intensionem, et virtutem
+          <lb ed="#P" n="38"/>internam. Atque hoc secundum videtur 
+          dixis<lb break="no" ed="#P" n="39"/>se Henricus, ut aliquo modo Scripturis, et 
+          Pa<lb break="no" ed="#P" n="40"/>tribus responderet, aliam enim rationem non
+          <lb ed="#P" n="41"/>affert. Primum autem probat communi 
+          diffi<lb break="no" ed="#P" n="42"/>cultate infra tractanda, quia non apparet ratio
+          <lb ed="#P" n="43"/>ob quam isti actus in rerum natura positi sint
+          <lb ed="#P" n="44"/>objecta cognitioni naturali Angelorum 
+          impro<lb break="no" ed="#P" n="45"/>portionata. Quae ratio tam de actibus 
+          intellec<lb break="no" ed="#P" n="46"/>tus, quam voluntatis procedit. Et ideo 
+          Henri<lb break="no" ed="#P" n="47"/>cus licet in principio illius quaestionis de solis
+          <lb ed="#P" n="48"/>actibus intellectus loqui videatur, postea 
+          ex<lb break="no" ed="#P" n="49"/>tendit sermonem ad actus affectionis in 
+          volun<lb break="no" ed="#P" n="50"/>tate conceptos. Unde in summa sententia ejus
+          <lb ed="#P" n="51"/>est, solam intensionem voluntatis latere 
+          An<lb break="no" ed="#P" n="52"/>gelum, reliquos vero actus etiam liberos 
+          vo<lb break="no" ed="#P" n="53"/>luntatis cognoscere.
+        </p>
+        <p xml:id="szdada-x05357-d1e504">
+          <lb ed="#P" n="54"/>6. Refellitur ut temeraria.— Et parum 
+          con<lb break="no" ed="#P" n="55"/>sequens.— Et ut contraria rationt in wno sensu
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quem habere potest. — Alter sensus magis 
+          in<lb break="no" ed="#P" n="57"/>tentus ab Henrico.—Sed de hac sententia idem
+          <lb ed="#P" n="58"/>judicium, quod de praecedenti ferendum est:
+          <lb ed="#P" n="59"/>non enim potest ab audacia et temeritate 
+          ex<lb break="no" ed="#P" n="60"/>cusari sic limitando Scripturae, et Patrum 
+          sen<lb break="no" ed="#P" n="61"/>tentias, quia non de sola intentione, sed 
+          abso<lb break="no" ed="#P" n="62"/>lute de omnibus actibus liberae voluntatis 
+          lo<lb break="no" ed="#P" n="63"/>quuntur. Nam Scriptura non de uno vel alio
+          <lb ed="#P" n="64"/>actu, sed de ipso corde hominis dicit, solum
+          <lb ed="#P" n="65"/>Deum illud nosse aut intueri. Et Christus non
+          <lb ed="#P" n="66"/>solum revelando intentiones, sed etiam 
+          cogita<lb break="no" ed="#P" n="67"/>tiones de his vel illis rebus, divinitatem suam
+          <lb ed="#P" n="68"/>ostendebat. Deinde non loquitur Henricus 
+          con<lb break="no" ed="#P" n="69"/>sequenter, quia non magis potest ipse reddere
+          <lb ed="#P" n="70"/>rationem, cur lateat Angelum intentio mea,
+          <lb ed="#P" n="71"/>quam amor, vel voluntas mea, ergo si unum
+          <lb ed="#P" n="72"/>negat, quia non invenit rationem, neget etiam
+          <lb ed="#P" n="73"/>aliud, vel si non audet utrumque negare, et
+          <lb ed="#P" n="74"/>unum credit sine ratione propter auctoritatem,
+          <lb ed="#P" n="75"/>credat etiam aliud, quia non minus eadem
+          <lb ed="#P" n="76"/>auctoritate confirmatur. Praeterea haec 
+          senten<lb break="no" ed="#P" n="77"/>tia non solum sine ratione est, sed etiam contra
+          <lb ed="#P" n="78"/>rationem. Quod ita ostendo, quia per 
+          intentio<lb break="no" ed="#P" n="79"/>nem vel intelligit Henricus specialem actum
+          <lb ed="#P" n="80"/>voluntatis distinctum ab electione, usu et aliis,
+          <lb ed="#P" n="81"/>prout communiter philosophi morales 
+          loquun<lb break="no" ed="#P" n="82"/>tur, vel intelligit specialem modum interni
+          <lb ed="#P" n="83"/>actus, seu quemcumque actum voluntatis 
+          quo<lb break="no" ed="#P" n="84"/>ad proprium motivum ejus. Henricus sine ulla
+          <lb ed="#P" n="85"/>dubitatione non loquitur in priori sensu, 
+          nul<lb break="no" ed="#P" n="86"/>lum enim actum realiter a voluntate elicitum
+          <lb ed="#P" n="87"/>et ab ea distinctum, eique additum putat esse
+          <lb ed="#P" n="88"/>occultum naturali cognitioni Angeli, quia 
+          ra<lb break="no" ed="#P" n="89"/>tio, quam de cogitationibus adducit, in 
+          omni<lb break="no" ed="#P" n="90"/>bus aeque procedit, quia omnes sunt res 
+          crea<lb break="no" ed="#P" n="91"/>tae, et naturales entitates habent, ac proinde
+          <lb ed="#P" n="92"/>sunt cognoscibiles. Unde manifestum est, si
+          <lb ed="#P" n="93"/>supponamus communem doctrinam moralem,
+          <lb ed="#P" n="94"/>quod intentio voluntatis est specialis actus
+          <lb ed="#P" n="95"/>ejus, contra rationem dici, illam non posse
+          <lb ed="#P" n="96"/>cognosci ab Angelo in seipsa, si alii actus 
+          pos<lb break="no" ed="#P" n="97"/>sunt naturaliter ab co videri, quia etiam ali
+          <lb ed="#P" n="98"/>actus sunt liberi et boni, aut mali moraliter,
+          <lb ed="#P" n="99"/>et e contrario etiam intentio habet naturalem
+          <lb ed="#P" n="100"/>entitatem propriam et per propriam speciem
+          <lb ed="#P" n="101"/>repraesentabilem. Alium ergo sensum intendit
+          <lb ed="#P" n="102"/>Henricus, dicit enim intentionem non esse 
+          ali<lb break="no" ed="#P" n="103"/>quid intelligibile ultra substantiam voluntatis,
+          <lb ed="#P" n="104"/>sed esse quemdam respectum in iila fundatum
+          <lb ed="#P" n="105"/>et ab ea in re non distinctum, et nihilominus
+          <lb ed="#P" n="106"/>illo respectu caeteros actus dirigi, et ideo prout
+          <lb ed="#P" n="107"/>sic directos, cognosci non posse naturaliter,
+          <lb ed="#P" n="108"/>quia nec ille respectus cognosci valet.
+        </p>
+        <p xml:id="szdada-x05357-d1e628">
+          <lb ed="#P" n="109"/>7. Qui etiam reprobatur. — Cur sola 
+          colun<lb break="no" ed="#P" n="110"/>las divina velit sine reali addilione actus. —
+          <pb ed="#P" n="216"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Sed haec sententia hoc modo explicata 
+          singu<lb break="no" ed="#P" n="2"/>laris est, et prorsus intelligi non potest. Primo
+          <lb ed="#P" n="3"/>quidem, quia intentio voluntatis aliquid 
+          posi<lb break="no" ed="#P" n="4"/>tivum, et liberum est, non per modum 
+          poten<lb break="no" ed="#P" n="5"/>tiae, sicut est ipsa voluntas, sed per modum
+          <lb ed="#P" n="6"/>actus. Ergo per intentionem aliquid vult libere
+          <lb ed="#P" n="7"/>voluntas, quod antea non volebat, et ideo vel
+          <lb ed="#P" n="8"/>meretur tanquam bene operans, vel 
+          demere<lb break="no" ed="#P" n="9"/>tur tanquam peccans, non pure omittendo, sed
+          <lb ed="#P" n="10"/>aliquid committendo, seu agendo, ergo 
+          impos<lb break="no" ed="#P" n="11"/>sibile est intelligere talem intentionem sine
+          <lb ed="#P" n="12"/>omni entitate, vel modo reali positivo addito
+          <lb ed="#P" n="13"/>voluntati, et distincto ab illa. Probatur 
+          conse<lb break="no" ed="#P" n="14"/>quentia, tum quia per illam intentionem 
+          al<lb break="no" ed="#P" n="15"/>ter se habet voluntas, quam prius, realiter, ac
+          <lb ed="#P" n="16"/>positiva, tum etiam quia non est alia ratio, ob
+          <lb ed="#P" n="17"/>quam alii affectus actuales voluntatis aliquid
+          <lb ed="#P" n="18"/>necessario addant voluntati distinctum ab illa,
+          <lb ed="#P" n="19"/>nisi quia per illos vult aliquid, quod antea non
+          <lb ed="#P" n="20"/>volebat, tum praeterea quia alias voluntas
+          <lb ed="#P" n="21"/>creata per seipsam, et sine mutatione physica
+          <lb ed="#P" n="22"/>sui inciperet velle, intendendo hoc, vel illud,
+          <lb ed="#P" n="23"/>quod incredibile est. Nam de sola voluntate
+          <lb ed="#P" n="24"/>divina propter intfinitam ejus credimus, per
+          <lb ed="#P" n="25"/>aeternum, et necessarium actum velle libere
+          <lb ed="#P" n="26"/>hoc, vel illud sine additione reali, et in 
+          ipsa<lb break="no" ed="#P" n="27"/>met hoc non admitteremus, nisi ab aeterno
+          <lb ed="#P" n="28"/>omnia, quae vult, immutabiliter vellet, vel,
+          <lb ed="#P" n="29"/>quod perinde est, si in tempore posset incipere
+          <lb ed="#P" n="30"/>aliquid velle: cum ergo voluntas creata de
+          <lb ed="#P" n="31"/>novo incipiat aliquid intendere, quod est velle,
+          <lb ed="#P" n="32"/>impossibile est, quod in faciat sine reali 
+          mu<lb break="no" ed="#P" n="33"/>tatione sua, ergo necesse est intentionem esse
+          <lb ed="#P" n="34"/>aliquid reale distinctum ab ipsa, erit ergo 
+          co<lb break="no" ed="#P" n="35"/>gnoscibilis ab Angelo, si quidquid reale de
+          <lb ed="#P" n="36"/>novo in voluntate est, ab Angelo est 
+          cognosci<lb break="no" ed="#P" n="37"/>bile. Tum denique, quia intentio non potest
+          <lb ed="#P" n="38"/>esse tantum respectus rationis sine fundamento
+          <lb ed="#P" n="39"/>reali, quia talis respectus non potest esse nisi
+          <lb ed="#P" n="40"/>voluntarie excogitatus, ut per se patet: hoc
+          <lb ed="#P" n="41"/>autem fundamentum non est sola potentia 
+          vo<lb break="no" ed="#P" n="42"/>lIuntatis: nam potest esse ipsa potentia cum
+          <lb ed="#P" n="43"/>cogitatione talis objecti, et aliis requisitis, et
+          <lb ed="#P" n="44"/>talem intentionem non habere, ergo est aliquid
+          <lb ed="#P" n="45"/>aliud reale additum voluntati, et consequenter,
+          <lb ed="#P" n="46"/>vel non est respectus, sed absolutum, vel si est
+          <lb ed="#P" n="47"/>respectus, erit realis, transcendentalis saltem,
+          <lb ed="#P" n="48"/>et non tantum rationis. Ac subinde non erit ex
+          <lb ed="#P" n="49"/>eo capite magis occulta, quam caeteri actus
+          <lb ed="#P" n="50"/>voluntatis.
+        </p>
+        <p xml:id="szdada-x05357-d1e748">
+          <lb ed="#P" n="51"/>8. Improbatur deinde Henricus quoad 
+          ac<lb break="no" ed="#P" n="52"/>tum voluntatis propter finem intrinsecum. —
+          <lb ed="#P" n="53"/>Tandem impugnatur illa sententia, quia 
+          du<lb break="no" ed="#P" n="54"/>plex cogitari potest intentio voluntatis, una est
+          <lb ed="#P" n="55"/>ntrinsece inclusa in actu, quatenus in objec-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tum, propter intrinsecum ejus motivum 
+          ten<lb break="no" ed="#P" n="57"/>dit: alia est quia intenditur aliquid propter
+          <lb ed="#P" n="58"/>rationem illi extrinsecam, ut eleemosyna 
+          prop<lb break="no" ed="#P" n="59"/>ter vanam gloriam, vel propter satisfactionem
+          <lb ed="#P" n="60"/>pro peccatis. Quando intentio est prioris modi,
+          <lb ed="#P" n="61"/>imposeibile est videre intuitive realem actum,
+          <lb ed="#P" n="62"/>seu affectum voluntatis et non videre, qua 
+          in<lb break="no" ed="#P" n="63"/>tentionefiat: quia si egosum affectus ad 
+          scien<lb break="no" ed="#P" n="64"/>tiam propter honestatem ejus, ille actus 
+          affec<lb break="no" ed="#P" n="65"/>tionis habet specialem modum realem 
+          intrin<lb break="no" ed="#P" n="66"/>secum, et (ut est probabilius) essentialem ex
+          <lb ed="#P" n="67"/>tali objecto, et motiyo intrinseco, ergo si 
+          An<lb break="no" ed="#P" n="68"/>gelus videt intuitive, et quidditative talem 
+          af<lb break="no" ed="#P" n="69"/>fectum, necessario videt qua intentione fiat,
+          <lb ed="#P" n="70"/>quia in eo actu intendere nihil est aliud, quam
+          <lb ed="#P" n="71"/>velle propter talem honestatem propriam 
+          ta<lb break="no" ed="#P" n="72"/>lis objecti, ergo non potest esse magis occulta
+          <lb ed="#P" n="73"/>intentio, quam affectio in tali actu. Idem est
+          <lb ed="#P" n="74"/>de actu amoris, vel odii propter malitiam in
+          <lb ed="#P" n="75"/>objecto inventam. Quod si distinguamus in
+          <lb ed="#P" n="76"/>his absolutam voluntatem, quam vocant 
+          sim<lb break="no" ed="#P" n="77"/>plicem, quamque D. Thomas ponit ut 
+          distinc<lb break="no" ed="#P" n="78"/>tam ab intentione et priorem illa, ab una ad
+          <lb ed="#P" n="79"/>alteram efficax sumitur argumentum. Quia
+          <lb ed="#P" n="80"/>non potest Angelus videre intuitive talem 
+          vo<lb break="no" ed="#P" n="81"/>Iuntatem, vel amorem alicujus, quin videat
+          <lb ed="#P" n="82"/>motivum amandi, cum quo habet intrinsecam
+          <lb ed="#P" n="83"/>connexionem, ergo etiamsi ultra illum actum
+          <lb ed="#P" n="84"/>voluntas habeat intentionem consequendi tale
+          <lb ed="#P" n="85"/>bonum, eodem modo cognoscetur ipsa 
+          inten<lb break="no" ed="#P" n="86"/>tio, tam quoad substantiam actus (propter 
+          ge<lb break="no" ed="#P" n="87"/>neralem rationem Henrici, quae si efficax est,
+          <lb ed="#P" n="88"/>de omnibus procedit) quam quoad esse 
+          inten<lb break="no" ed="#P" n="89"/>tionis, quia est essentialis tali actui, et 
+          cognos<lb break="no" ed="#P" n="90"/>citur quidditative. Unde etiam necesse est, ut
+          <lb ed="#P" n="91"/>quoad formale motivum, et rationem finis 
+          co<lb break="no" ed="#P" n="92"/>gnoscatur, quia inde specificam rationem 
+          es<lb break="no" ed="#P" n="93"/>sentialem, seu entitativam accipit, ut ex 1,2,
+          <lb ed="#P" n="94"/>suppono. Quae ratio aeque procedit de omni
+          <lb ed="#P" n="95"/>ratione reali, quae sit modus intrinsecus actus,
+          <lb ed="#P" n="96"/>quia si Angelus videt actum intuitive, profecto
+          <lb ed="#P" n="97"/>videt omnem realem modum in eo 
+          existen<lb break="no" ed="#P" n="98"/>tem: neque major repugnantia in uno, quam
+          <lb ed="#P" n="99"/>in alio cogitari potest, ut contra praecedentem
+          <lb ed="#P" n="100"/>opinionem dicebamus.
+        </p>
+        <p xml:id="szdada-x05357-d1e862">
+          <lb ed="#P" n="101"/>9. Item quoad actum propter finem 
+          eatrin<lb break="no" ed="#P" n="102"/>secum. — Atque idem discursus applicari potest
+          <lb ed="#P" n="103"/>ad intentionem finis extrinseci, quia si actus
+          <lb ed="#P" n="104"/>ipsi quoad substantiam cognosci possunt, 
+          e<lb break="no" ed="#P" n="105"/>tiam quoad hanc relationem cognoscentur,
+          <lb ed="#P" n="106"/>quod est cognoscere de actu, qua intentione
+          <lb ed="#P" n="107"/>fiat. Probatur ergo assumptum, quia actus 
+          vo<lb break="no" ed="#P" n="108"/>luntatis non refertur ad finem extrinsecum,
+          <lb ed="#P" n="109"/>nisi per imperium alterius actus, quo finis ille
+          <lb ed="#P" n="110"/>intenditur, et in cujus virtute alter actus eli-
+          <pb ed="#P" n="217"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>citur, seu fit, sed Angelus videns actum 
+          impe<lb break="no" ed="#P" n="2"/>ratum, videre etiam potest imperantem, quia
+          <lb ed="#P" n="3"/>ita est res distincta actu existens in voluntate,
+          <lb ed="#P" n="4"/>sicut actus imperatus, et in utroque procedit
+          <lb ed="#P" n="5"/>equaliter Henrici fundamentum: videndo 
+          au<lb break="no" ed="#P" n="6"/>tem utrumque actum, videt qua intentione
+          <lb ed="#P" n="7"/>uterque fiat, quia de ipso actu intentionis id
+          <lb ed="#P" n="8"/>videt ex vi objecti ejus, quia illum 
+          quidditati<lb break="no" ed="#P" n="9"/>ve cognoscit, nt in proxime praecedenti puncto
+          <lb ed="#P" n="10"/>probatum est: videndo autem actum 
+          electio<lb break="no" ed="#P" n="11"/>nis, seu imperatum, etiam videt et efficaciam
+          <lb ed="#P" n="12"/>imperantis, et emanationem imperati, quia
+          <lb ed="#P" n="13"/>utrumque perfecte cognoscit, seu 
+          comprehen<lb break="no" ed="#P" n="14"/>dit, ergo necessario etiam videt, propter quem
+          <lb ed="#P" n="15"/>finem actus imperatusfiat. Denique relatio 
+          ta<lb break="no" ed="#P" n="16"/>lis actus interni voluntatis in finem 
+          extrinse<lb break="no" ed="#P" n="17"/>cum necessario addit aliquid reale ipsi 
+          volun<lb break="no" ed="#P" n="18"/>tati in aliquo actu ejus, quia illa relatio non fit,
+          <lb ed="#P" n="19"/>nisi volendo, nec velle fit sine actu: ergo si
+          <lb ed="#P" n="20"/>alii actus videntur ab Angelo, etiam iste 
+          vide<lb break="no" ed="#P" n="21"/>bitur, ut jam probatum est, ergo videtur 
+          re<lb break="no" ed="#P" n="22"/>latio ad finem extrinsecum, quae per illum fit.
+          <lb ed="#P" n="23"/>Nec refert, quod relatio sit actualis, vel 
+          virtua<lb break="no" ed="#P" n="24"/>lis tantum, quia prior fit per actum 
+          praesen<lb break="no" ed="#P" n="25"/>tem, de quo ratio facta procedit, posterior fit
+          <lb ed="#P" n="26"/>in veritate actus praeteriti, qui etiam videri
+          <lb ed="#P" n="27"/>potuit, et memoria retineri, et virtus ejus 
+          prae<lb break="no" ed="#P" n="28"/>sens, quatenus aliquid physicum, seu reale est,
+          <lb ed="#P" n="29"/>poterit etiam videri.
+        </p>
+        <p xml:id="szdada-x05357-d1e953">
+          <lb ed="#P" n="30"/>10. Quinta opinio asserens actus voluntatis
+          <lb ed="#P" n="31"/>necessarios, non autem liberos cognosci ab 
+          An<lb break="no" ed="#P" n="32"/>gelo. — Quinta opinio esse potest, aliquos 
+          ac<lb break="no" ed="#P" n="33"/>tus elicitos voluntatis non posse cognosci ab
+          <lb ed="#P" n="34"/>Angelo, aliquos vero illi esse notos. Duplices
+          <lb ed="#P" n="35"/>enim sunt actus a voluntate eliciti, quidam
+          <lb ed="#P" n="36"/>liberi, alii naturales, quia nimirum necessario
+          <lb ed="#P" n="37"/>fiunt: hos ergo posteriores dicit haec opinio,
+          <lb ed="#P" n="38"/>non esse improportionatos cognitioni 
+          angeli<lb break="no" ed="#P" n="39"/>cae, sed tantum priores. Et ratio discriminis
+          <lb ed="#P" n="40"/>reddi potest, quia posteriores actus non 
+          pro<lb break="no" ed="#P" n="41"/>deunt a voluntate, ut voluntas est, sed ut
+          <lb ed="#P" n="42"/>quaedam natura est, ut D. Thomas loqui 
+          so<lb break="no" ed="#P" n="43"/>let, et ideo non transcendunt ordinem aliorum
+          <lb ed="#P" n="44"/>effectuum naturalium: sicut ergo Angelus
+          <lb ed="#P" n="45"/>alias res naturales cognoscit, ita et illos actus.
+          <lb ed="#P" n="46"/>Secus vero est de actibus liberis, quia ad 
+          su<lb break="no" ed="#P" n="47"/>periorem quemdam ordinem pertinent, ut
+          <lb ed="#P" n="48"/>post caput sequens explicabimus. Potestque
+          <lb ed="#P" n="49"/>haec sententia tribui D. Thomae, quia 
+          ubicum<lb break="no" ed="#P" n="50"/>que docet, non posse Angelum cognoscere 
+          ac<lb break="no" ed="#P" n="51"/>tus cordis, seu a voluntate elicitos, ex libertate
+          <lb ed="#P" n="52"/>ejus rationem reddit. Sic enim dicto art. 4, 
+          di<lb break="no" ed="#P" n="53"/>cit, actiones internorum habituum non 
+          co<lb break="no" ed="#P" n="54"/>gnosci ab Angelo, quia unusquisque utitur 
+          ha<lb break="no" ed="#P" n="55"/>bitibus, cum vult, ut in dict. cap. 154, 3contr.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Gent., et aliis locis citatis semper hoc ad
+          <lb ed="#P" n="57"/>voluntatis libertatem reducit, ut videbimus.
+          <lb ed="#P" n="58"/>Unde etiam Thomistae in hanc sententiam 
+          in<lb break="no" ed="#P" n="59"/>clinant.
+        </p>
+        <p xml:id="szdada-x05357-d1e1023">
+          <lb ed="#P" n="60"/>11. Non est probabilis opinio quoad actus
+          <lb ed="#P" n="61"/>necessarios ex inadvertentia. — Verumtamen
+          <lb ed="#P" n="62"/>ut haec opinio probabilis sit, distinguere 
+          opor<lb break="no" ed="#P" n="63"/>tet de actibus, qui sine libertate fiunt: nam
+          <lb ed="#P" n="64"/>quidam sunt, qui per se et ab intrinseco 
+          ha<lb break="no" ed="#P" n="65"/>bent fieri quasi per naturalem dimanationem,
+          <lb ed="#P" n="66"/>ut est amor in Patria, supposita visione et 
+          in<lb break="no" ed="#P" n="67"/>tra naturae ordinem aliqui censent, Angelum
+          <lb ed="#P" n="68"/>hoc modo amare seipsum necessitate naturali
+          <lb ed="#P" n="69"/>et fortasse etiam Deum ut auctorem naturae,
+          <lb ed="#P" n="70"/>saltem amore concupiscentiae propriae. Alii 
+          ac<lb break="no" ed="#P" n="71"/>tus sunt, qui per se habent fieri libere, per
+          <lb ed="#P" n="72"/>accidens vero contingit naturaliter fieri ex
+          <lb ed="#P" n="73"/>defectu animadvertentiae intellectus, ut sunt
+          <lb ed="#P" n="74"/>motus primo primi in nobis. De his 
+          posterio<lb break="no" ed="#P" n="75"/>ribus non est vera, nec probabilis dicta opinio.
+          <lb ed="#P" n="76"/>Primo quia in his actibus magis 
+          consideran<lb break="no" ed="#P" n="77"/>dum est quod est per se, quam quod est per
+          <lb ed="#P" n="78"/>accidens: sed isti actus per se et natura sua
+          <lb ed="#P" n="79"/>petunt libere fieri, ergo sequuntur 
+          proprieta<lb break="no" ed="#P" n="80"/>tem actuum liberorum, ut propterea sint 
+          ex<lb break="no" ed="#P" n="81"/>tra objectum naturale rerum ab Angelo 
+          scibi<lb break="no" ed="#P" n="82"/>lium. Secundo quia idem actus a voluntate
+          <lb ed="#P" n="83"/>elicitus omnino immutatus in se manens et
+          <lb ed="#P" n="84"/>prius non libere factus, potest incipere esse
+          <lb ed="#P" n="85"/>liber, addita solum in intellectu majori 
+          adver<lb break="no" ed="#P" n="86"/>tentia, ergo si antea esset notus, etiam postea
+          <lb ed="#P" n="87"/>cognosceretur per idem principium, per quod
+          <lb ed="#P" n="88"/>antea cognoscebatur. Dices, cognosci quidem
+          <lb ed="#P" n="89"/>etiam postea quoad totam entitatem suam, non
+          <lb ed="#P" n="90"/>tamen cognosci, an liber sit. Sed contra, quia
+          <lb ed="#P" n="91"/>si actus ipse voluntatis in se cognoscitur, multo
+          <lb ed="#P" n="92"/>magis cognoscetur advertentia intellectus 
+          ma<lb break="no" ed="#P" n="93"/>jor. vel minor, quae illum antecedit: cognita
+          <lb ed="#P" n="94"/>autem advertentia cognoscetur, an ille actus
+          <lb ed="#P" n="95"/>liber sit, necne, ergo si tales actus cognosci
+          <lb ed="#P" n="96"/>pessent, quando non sunt liberi, etiam libere
+          <lb ed="#P" n="97"/>facti cognoscerentur. Denique ut isti actus sint
+          <lb ed="#P" n="98"/>occulti, quando fiunt hoc, vel illo modo, 
+          opor<lb break="no" ed="#P" n="99"/>tet, ut substantia eorum occulta sit et quod
+          <lb ed="#P" n="100"/>desit principium necessarium ad intuendos 
+          il<lb break="no" ed="#P" n="101"/>los, prout in re sunt facti, ut capite post 
+          se<lb break="no" ed="#P" n="102"/>quenti declarabimus, ergo utcumque fiant,
+          <lb ed="#P" n="103"/>semper sunt occulti.
+        </p>
+        <p xml:id="szdada-x05357-d1e1121">
+          <lb ed="#P" n="104"/>12. Evasio. — Responsio. — Dices: esto
+          <lb ed="#P" n="105"/>non cognoscat Angelus, vel daemon hos actus
+          <lb ed="#P" n="106"/>voluntatis in seipsis per proprias eorum 
+          spe<lb break="no" ed="#P" n="107"/>cies, videbit saltem in motu phantasise, et 
+          ap<lb break="no" ed="#P" n="108"/>petitus sentientis, quia ex isto naturaliter 
+          se<lb break="no" ed="#P" n="109"/>quitur motus internus voluntatis: et daemon
+          <lb ed="#P" n="110"/>optime novit, non esse in potestate nostra,
+          <pb ed="#P" n="218"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quin visis tangamur, ergo cognoscet motum
+          <lb ed="#P" n="2"/>voluntatis ex motu appetitus resultantem.
+          <lb ed="#P" n="3"/>Respondeo imprimis, concedendo totum, quia
+          <lb ed="#P" n="4"/>hoc non est contra dicta, quia illud non est 
+          vi<lb break="no" ed="#P" n="5"/>dere actum voluntatis, sed per conjecturam 
+          il<lb break="no" ed="#P" n="6"/>lum cognoscere, quae conjectura interdum 
+          po<lb break="no" ed="#P" n="7"/>lest esse tanta, ut certitudinem inducat: nam
+          <lb ed="#P" n="8"/>actio externa aliquando evidenter ostendit 
+          vo<lb break="no" ed="#P" n="9"/>Iuntatem internam. Addo vero, etiam ex motu
+          <lb ed="#P" n="10"/>appetitus non sequi necessario motum primum
+          <lb ed="#P" n="11"/>in voluntate, nisi supposita in intellectu 
+          ad<lb break="no" ed="#P" n="12"/>vertentia talis objecti cum tali, et tanta 
+          in<lb break="no" ed="#P" n="13"/>consideratione, quia voluntas non movetur ab
+          <lb ed="#P" n="14"/>appetitu, nisi mediante intellectu, nec 
+          neces<lb break="no" ed="#P" n="15"/>sitatur, nisi propter inconsiderationem, et
+          <lb ed="#P" n="16"/>inadvertentiam rationis: daemon autem non
+          <lb ed="#P" n="17"/>videt actus intellectus in seipsis, ut postea 
+          di<lb break="no" ed="#P" n="18"/>cam, et ideo licet videat motum appetitus, non
+          <lb ed="#P" n="19"/>videt evidenter inde resultare motum 
+          confor<lb break="no" ed="#P" n="20"/>menm in voluntate, quia non videt, an 
+          intellec<lb break="no" ed="#P" n="21"/>tus statim advertat suflicienter, ut voluntas
+          <lb ed="#P" n="22"/>possit suum motum cohibere. Nec ex solis
+          <lb ed="#P" n="23"/>phantasmatibus potest certo cognoscere, quid
+          <lb ed="#P" n="24"/>ratio advertat, quia ec eisdem phantasmatibus
+          <lb ed="#P" n="25"/>ratio nostra in diversa tendit cogitando, ut
+          <lb ed="#P" n="26"/>recte dixit D. Thomas, quaest. 8, de Veritat.,
+          <lb ed="#P" n="27"/>art. 13, ad 4. Et ideo licet de istis motibus
+          <lb ed="#P" n="28"/>possit daeemon magnam conjecturam facere,
+          <lb ed="#P" n="29"/>non tamen absolutam evidentiam etiam ex
+          <lb ed="#P" n="30"/>causis, vel effectibus comparare.
+        </p>
+        <p xml:id="szdada-x05357-d1e1208">
+          <lb ed="#P" n="31"/>13. Improbabilis consequenter est de actibus
+          <lb ed="#P" n="32"/>voluntatis hujus vitee. — Quid de amore sui in
+          <lb ed="#P" n="33"/>Angelis, et anima separata. — Quapropter cum
+          <lb ed="#P" n="34"/>in nobis in hac vita nulli sint actus voluntatis
+          <lb ed="#P" n="35"/>simpliciter, et per se necessarii quoad 
+          exerci<lb break="no" ed="#P" n="36"/>tium, nulla etiam distinctione opus est, sed
+          <lb ed="#P" n="37"/>simpliciter est asserendum, omnes actus 
+          vo<lb break="no" ed="#P" n="38"/>luntatis nostrae esse Angelis occultos. De 
+          vo<lb break="no" ed="#P" n="39"/>luntate vero Angeli in sua tantum natura
+          <lb ed="#P" n="40"/>spectata, controversia est, an habeat aliquem
+          <lb ed="#P" n="41"/>actum per se necessarium quoad exercitium:
+          <lb ed="#P" n="42"/>nam aliqui existimant, se, et Deum 
+          necessa<lb break="no" ed="#P" n="43"/>rio diligere, ita ut quantamcumque 
+          considera<lb break="no" ed="#P" n="44"/>tionem intellectus habeant, non possint talem
+          <lb ed="#P" n="45"/>actum suspendere: qui forte idem dicent de
+          <lb ed="#P" n="46"/>anima separata. Et in hac opinione non 
+          cen<lb break="no" ed="#P" n="47"/>seo inconveniens admittere, talem actum esse
+          <lb ed="#P" n="48"/>notum omnibus, propter rationem supra 
+          fac<lb break="no" ed="#P" n="49"/>tum. Fortasse tamen oppositum est 
+          probabi<lb break="no" ed="#P" n="50"/>lius, scilicet, actus illos non esse per se 
+          neces<lb break="no" ed="#P" n="51"/>sarios quoad exercitium, et ideo eamdem 
+          uni<lb break="no" ed="#P" n="52"/>versalis assertio etiam in Angelis, et anima 
+          se<lb break="no" ed="#P" n="53"/>parata locum habet, quia etiam illi nullum
+          <lb ed="#P" n="54"/>habent actum voluntatis per se necessarium,
+          <lb ed="#P" n="55"/>neque etiam motus indeliberatos habent.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

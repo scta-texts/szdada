@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="637"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x16071"><!-- l6c2 -->
+        <head xml:id="szdada-x16071-Hd1e101">Caput 2</head>
+        <head xml:id="szdada-x16071-Hd1e103" type="question-title">Utrum sancti angeli immediate post secundum instans consummati meriti beatitudinem receperint, ac proinde totum eorum negotium tribus instantibus comprehensum fuerit</head>
+        <p xml:id="szdada-x16071-d1e106">
+          <lb ed="#P" n="96"/>CAPUT II.
+          <lb ed="#P" n="97"/>UTRUM SANCTI ANGELI IMMEDIATE POST SECUNDUM
+          <lb ed="#P" n="98"/>INSTANS CONSUMMATI MERITI BEATITUDINEM 
+          RE<lb break="no" ed="#P" n="99"/>CEPERINT, AC PROINDE TOTUM EORUM NEGOTIUM
+          <lb ed="#P" n="100"/>TRIBUS INSTANTIBUS COMPREHENSUM FUERIT.
+        </p>
+        <p xml:id="szdada-x16071-d1e119">
+          <lb ed="#P" n="101"/>1. Ratio dubttandi. — Ratio dubitandi 
+          im<lb break="no" ed="#P" n="102"/>primis sumi potest ex illo 1, Petri 1. 7n quem
+          <lb ed="#P" n="103"/>desiderant Angeli prospicere. Nam quod 
+          desi<lb break="no" ed="#P" n="104"/>deratur, nondum habetur, ergo Angeli 
+          non<lb break="no" ed="#P" n="105"/>dum vident nunc Deum, nec sui meriti 
+          prae<lb break="no" ed="#P" n="106"/>mium receperunt. ft ita ex illis verbis aliquos
+          <lb ed="#P" n="107"/>collegisse, refert Gregorius, lib. 18, Moral.,
+          <pb ed="#P" n="638"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cap. 38, alias 28. Deinde arguitur ratione.
+          <lb ed="#P" n="2"/>Primo, quia Angeli consecuti sunt gloriam per
+          <lb ed="#P" n="3"/>Christum, ut probabilior opinio fert: ergo non
+          <lb ed="#P" n="4"/>debuerunt ante Christi animam videre Deum,
+          <lb ed="#P" n="5"/>seu essentialem beatitudinem accipere. 
+          Proba<lb break="no" ed="#P" n="6"/>tur consequentia, tum quia non decet membra
+          <lb ed="#P" n="7"/>ante caput gloriam introire; tum, etiam quia
+          <lb ed="#P" n="8"/>ob hanc causam nullus sanctorum hominum,
+          <lb ed="#P" n="9"/>etsi merita sua consummassent, et ab omni
+          <lb ed="#P" n="10"/>culpa, et reatu poenae mundi essent, gloriam
+          <lb ed="#P" n="11"/>non recepit, donec Christus mortuus est. 
+          Se<lb break="no" ed="#P" n="12"/>cundo est specialis difficultas, quia inter instans
+          <lb ed="#P" n="13"/>creationis Angelorum, et instans, in quo 
+          glo<lb break="no" ed="#P" n="14"/>riam receperunt, necessario debuit intercedere
+          <lb ed="#P" n="15"/>tempus: quia si duo illa instantia extrema
+          <lb ed="#P" n="16"/>sunt indivisibilia secundum coexistentiam ad
+          <lb ed="#P" n="17"/>nostrum tempus, necessario inter illa 
+          interce<lb break="no" ed="#P" n="18"/>dit tempus, vel qualiacumque cogitentur,
+          <lb ed="#P" n="19"/>semper mora inter media debet esse major,
+          <lb ed="#P" n="20"/>quam prima, ut supra ostensum est. Item in
+          <lb ed="#P" n="21"/>illa mora varietas actionum in Angelis inventa,
+          <lb ed="#P" n="22"/>ut etiam probavimus; ergo non potuit illa
+          <lb ed="#P" n="23"/>mora secunda esse instantanea, neque potest
+          <lb ed="#P" n="24"/>certa aliqua ratione, quanta fuerit, a nobis 
+          de<lb break="no" ed="#P" n="25"/>finiri. Tertio est praecipua difficultas, quia
+          <lb ed="#P" n="26"/>praemium sanctorum Angelorum magnumfuit,
+          <lb ed="#P" n="27"/>et majus, quam in sanctis hominibus 
+          regulari<lb break="no" ed="#P" n="28"/>ter inveniatur; ergo et meritum debuit esse
+          <lb ed="#P" n="29"/>maximum: non videtur autem potuisse in tam
+          <lb ed="#P" n="30"/>brevi duratione tantum meritum consummari.
+        </p>
+        <p xml:id="szdada-x16071-d1e206">
+          <lb ed="#P" n="31"/>2. Prima assertio conmunis. —Nihilominus
+          <lb ed="#P" n="32"/>omnes theologi docent, sanctos Angelos intra
+          <lb ed="#P" n="33"/>brevissimam moram suum meritum 
+          consum<lb break="no" ed="#P" n="34"/>masse, et immediate post consummationem,
+          <lb ed="#P" n="35"/>praemium aeternae, ac supernaturalis 
+          beatitu<lb break="no" ed="#P" n="36"/>dinis accepisse. Quamvis enim inter eos sit
+          <lb ed="#P" n="37"/>varietas in enumerandis instantibus, seu 
+          mo<lb break="no" ed="#P" n="38"/>rulis, in quibus haec peracta sunt, ut ex 
+          dis<lb break="no" ed="#P" n="39"/>cursu praecedentis libri, et superioris capitis
+          <lb ed="#P" n="40"/>intelligi potest, et statim breviter 
+          enarrabi<lb break="no" ed="#P" n="41"/>mus, nihilominusin duobus conveniunt: uuum
+          <lb ed="#P" n="42"/>est, Angelos sanctos immediate post 
+          consum<lb break="no" ed="#P" n="43"/>matum meritum accepisse praemium videndi
+          <lb ed="#P" n="44"/>clare Deum. Quia nihil erat, quod ex parte
+          <lb ed="#P" n="45"/>ipsorum receptionem pramii impediret, aut
+          <lb ed="#P" n="46"/>retardaret, et ex parte Dei, est hoc ejus 
+          magni<lb break="no" ed="#P" n="47"/>ficentiae ac justitie maxime consentaneum.
+          <lb ed="#P" n="48"/>Alterum est, viam Angelis ad merendum 
+          con<lb break="no" ed="#P" n="49"/>cessam fuisse brevissimam, quia hoc est 
+          maxi<lb break="no" ed="#P" n="50"/>me consentaneum naturae eorum, et 
+          verisimi<lb break="no" ed="#P" n="51"/>lium est, Deum unicuique naturae providere,
+          <lb ed="#P" n="52"/>etiam in supernaturalibus, modo ipsi 
+          accommo<lb break="no" ed="#P" n="53"/>dato, et cum debita proportione. Quanta vero
+          <lb ed="#P" n="54"/>fuerit haec brevitas, sive considerando moram
+          <lb ed="#P" n="55"/>illam secundum propria instantia temporis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>angelici, tive per coexistentiam ad nostrum
+          <lb ed="#P" n="57"/>tempus, inventum est, quid vero probabilius
+          <lb ed="#P" n="58"/>conjectari possit, respondeo ad rationes 
+          dubi<lb break="no" ed="#P" n="59"/>tandi dicetur.
+        </p>
+        <p xml:id="szdada-x16071-d1e275">
+          <lb ed="#P" n="60"/>3. Ad locum D. Petri in nu. 1. —Et 
+          impri<lb break="no" ed="#P" n="61"/>mis ad verba Petri omissis variis 
+          expositioni<lb break="no" ed="#P" n="62"/>bus, quas ibi moderni referunt, solida, et vera
+          <lb ed="#P" n="63"/>est, quam eodem loco Gregorius tradit, dicens:
+          <lb ed="#P" n="64"/>Angeli vident, et videre desiderant, et sitiunt 
+          in<lb break="no" ed="#P" n="65"/>Lueri, et intuentur, et infra: desiderant sine 
+          la<lb break="no" ed="#P" n="66"/>Dore, quia desiderium satietas comitatur, et
+          <lb ed="#P" n="67"/>satietas est sine fastidio, quia ipsa satietas ex
+          <lb ed="#P" n="68"/>desiderio semper accendit. Et hanc Gregoru
+          <lb ed="#P" n="69"/>expositionem secuti sunt Isidorus, lib. 1, de
+          <lb ed="#P" n="70"/>summ. DBono, cap. 1O, sentent. 22. Beda, lib.
+          <lb ed="#P" n="71"/>Variar. quaestionum, quaest. 9, et sic etiam
+          <lb ed="#P" n="72"/>dixit D. Thomas, 1 part., quaest. 58, art. 1,
+          <lb ed="#P" n="73"/>ad 2 et 1, 2, quaest. 67, art. 4, ad 3, illud 
+          de<lb break="no" ed="#P" n="74"/>siderium excludere fastidium, non rem 
+          desi<lb break="no" ed="#P" n="75"/>deratam. Itaque dicit perpetuum affectum 
+          vi<lb break="no" ed="#P" n="76"/>dendi semper, sicut Eccles. 24, divina 
+          sapien<lb break="no" ed="#P" n="77"/>tia dicit: Qui edunt me, adhuc esuriunt, et qui
+          <lb ed="#P" n="78"/>Dibunt me, adhuc sitient.
+        </p>
+        <p xml:id="szdada-x16071-d1e319">
+          <lb ed="#P" n="79"/>4. Prima ratio in eodem n. 4 posita, novo
+          <lb ed="#P" n="80"/>augetur dubio. — In prima ratione dubium 
+          at<lb break="no" ed="#P" n="81"/>tingitur, utrum Angeli viderint Deum, ante
+          <lb ed="#P" n="82"/>Christi animam, vel etiam ante Christi 
+          resur<lb break="no" ed="#P" n="83"/>rectionem. Et praeter rationem dubitandi 
+          pro<lb break="no" ed="#P" n="84"/>positam potest augeri dubium ex Gregorio 
+          Na<lb break="no" ed="#P" n="85"/>zianzeno, Orat. 2, quae est 2, de theologia, in
+          <lb ed="#P" n="86"/>principio, ubi ait, diem resurrectionis Christi
+          <lb ed="#P" n="87"/>salutem mundo fuisse, tam visibili, quam 
+          in<lb break="no" ed="#P" n="88"/>visibili: ubi Nicetas per mundum invisibilem
+          <lb ed="#P" n="89"/>Angelos sactosintelligit: quibus etiam illo die
+          <lb ed="#P" n="90"/>salutem contigisse declarat. Quia prius hanc
+          <lb ed="#P" n="91"/>rationem habebant, ut difficulter quidem, et egre
+          <lb ed="#P" n="92"/>ad inalum moveri possent; per Christi vero 
+          re<lb break="no" ed="#P" n="93"/>surrectionem id consecuti sunl, ut jam ne moveri
+          <lb ed="#P" n="94"/>quidem ad malitiam queant, non natura, sed
+          <lb ed="#P" n="95"/>gratia. Atque ita illis salus esse possit, ipsa
+          <lb ed="#P" n="96"/>status co» firmatio, non jam metuentibus, ne in
+          <lb ed="#P" n="97"/>deterius mutentur, atque eam ob causam pereant.
+          <lb ed="#P" n="98"/>Ex qua doctrina, si vera est, manifeste 
+          colligi<lb break="no" ed="#P" n="99"/>tur, Angelos sanctos ante Christi 
+          resurrectio<lb break="no" ed="#P" n="100"/>nem non fuisse perfecte beatos, nec vidisse
+          <lb ed="#P" n="101"/>Deum. Primum patet, quia sine securitate, et
+          <lb ed="#P" n="102"/>certitudine perseverantiae, non potest esse 
+          com<lb break="no" ed="#P" n="103"/>pleta beatitudo, ut Augustinus saepe de eisdem
+          <lb ed="#P" n="104"/>Angelis philosophatur, et supra retulimus, et
+          <lb ed="#P" n="105"/>(ut in materia de beatitudine ostendetur) est
+          <lb ed="#P" n="106"/>evidens, quia sicut cum timore cadendi, et 
+          per<lb break="no" ed="#P" n="107"/>dendi bonum possessum, non potest esse 
+          per<lb break="no" ed="#P" n="108"/>fectum gaudium, et quies: ita nec 
+          consum<lb break="no" ed="#P" n="109"/>mata charitas cum hujusmodi timore esse 
+          po<lb break="no" ed="#P" n="110"/>test. Secundum item patet, quia visio Dei ex
+          <pb ed="#P" n="639"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sua intrinseca natura facit videntem 
+          impecca<lb break="no" ed="#P" n="2"/>bilem, ut in 1, 2, ostenditur.
+        </p>
+        <p xml:id="szdada-x16071-d1e400">
+          <lb ed="#P" n="3"/>5. Secunda assertio tripartita. — Prima
+          <lb ed="#P" n="4"/>pars assertionis probatur de fide. — 
+          Nihilomi<lb break="no" ed="#P" n="5"/>nus dicendum est, Angelos vidisse Deum clare
+          <lb ed="#P" n="6"/>ante diem resurrectionis Christi, velantequam
+          <lb ed="#P" n="7"/>Christus veniret, imo et antequam primi 
+          ho<lb break="no" ed="#P" n="8"/>mines peccarent. Prima hujus assertionis pars
+          <lb ed="#P" n="9"/>de fide est ex verbis ipsius Christi Matth. 18.
+          <lb ed="#P" n="10"/>Angeli eorum semper vident faciem Patris.
+          <lb ed="#P" n="11"/>Quod de visione clara, et beatifica Dei Patres
+          <lb ed="#P" n="12"/>intelligunt. Et quamvis Christus Dominus de
+          <lb ed="#P" n="13"/>solis Angelis custodibus pusillorum hominum
+          <lb ed="#P" n="14"/>loquatur, non ideo fuisse putandum est: quia
+          <lb ed="#P" n="15"/>illorum praerogativa singularis sit videre 
+          fa<lb break="no" ed="#P" n="16"/>ciem Patris, aut quia in ea re aliquam 
+          eminen<lb break="no" ed="#P" n="17"/>tiam habeant, ut quidam dixerunt: sed potius
+          <lb ed="#P" n="18"/>inde colligendum est, illam excellentiam in
+          <lb ed="#P" n="19"/>altioribus, ac perfectioribus Angelis inveniri,
+          <lb ed="#P" n="20"/>quia est suprema omnium perfectionum 
+          sanc<lb break="no" ed="#P" n="21"/>torum Angelorum: ergo si inferioribus, 
+          qui<lb break="no" ed="#P" n="22"/>bus cura infantium ,hominum committitur,
+          <lb ed="#P" n="23"/>illa excellentia competit multo magis 
+          superio<lb break="no" ed="#P" n="24"/>ribus. Item, quia si custodes Angeli vident
+          <lb ed="#P" n="25"/>faciem Dei, non est propter custodiam, sed 
+          pro<lb break="no" ed="#P" n="26"/>pter merita: sed haec majora fuerunt in 
+          altio<lb break="no" ed="#P" n="27"/>ribus Angelis; ergo a fortiori ipsi vident 
+          fa<lb break="no" ed="#P" n="28"/>ciem Patris. Et hoc significavit Hierony mus,
+          <lb ed="#P" n="29"/>Isai. 1, dicens: Homo Dei faciem videre non
+          <lb ed="#P" n="30"/>potest, Angeli etiam minimorum in Eecclesia
+          <lb ed="#P" n="31"/>semper vident faciem Dei, ubi ponderanda est
+          <lb ed="#P" n="32"/>illa particula, etiam minimorum: nam virtute
+          <lb ed="#P" n="33"/>continet nostram argumentationem. Unde
+          <lb ed="#P" n="34"/>cap. 14, illa verba universaliter intelligit de
+          <lb ed="#P" n="35"/>Angelis, qui hunano preesunt generi. Et 
+          prae<lb break="no" ed="#P" n="36"/>terea ut Christus satis commendaverit, vel
+          <lb ed="#P" n="37"/>etiam exaggeraverit, quanti Deus faciat 
+          pusil<lb break="no" ed="#P" n="38"/>los infantes, non est necesse, ut illis speciale
+          <lb ed="#P" n="39"/>sit videre faciem Dei, sed satis superque est,
+          <lb ed="#P" n="40"/>quod sint videntes Dei faciem, et quod in hoc
+          <lb ed="#P" n="41"/>cum supremis Angelis Deo assistentibus 
+          con<lb break="no" ed="#P" n="42"/>veniant. Denique ex hoc loco evidenter 
+          convin<lb break="no" ed="#P" n="43"/>citur, ante Christi resurrectionem datum esse
+          <lb ed="#P" n="44"/>Angelis praemium visionis beatificae, ergo 
+          si<lb break="no" ed="#P" n="45"/>gnum est non fuisse expectatam Christi 
+          resur<lb break="no" ed="#P" n="46"/>rectionem, aut mortem ad conferendum 
+          An<lb break="no" ed="#P" n="47"/>gelis praemium essentialis gloria; ergo idem
+          <lb ed="#P" n="48"/>sentiendum est de omnibus Angelis, qui in
+          <lb ed="#P" n="49"/>gratia perseverarunt, cum de omnibus sit 
+          ea<lb break="no" ed="#P" n="50"/>dem ratio.
+        </p>
+        <p xml:id="szdada-x16071-d1e507">
+          <lb ed="#P" n="51"/>6. Cuidam objectioni satisfit probando 
+          secun<lb break="no" ed="#P" n="52"/>dam partem assertionis. — At dicet aliquis,
+          <lb ed="#P" n="53"/>saltem ex hoc loco non probari, Angelos 
+          vi<lb break="no" ed="#P" n="54"/>disse Deum prius, quam Deus fieret homo, et
+          <lb ed="#P" n="55"/>homo Deus videre faciem Dei inciperet, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Christus de praesenti dixit, vident. Respondeo
+          <lb ed="#P" n="57"/>(alteram partem assertionis probando) licet in
+          <lb ed="#P" n="58"/>Christi verbis expresse non contineatur, 
+          Ange<lb break="no" ed="#P" n="59"/>los antea vidisse, ex illis sufficienter colligi.
+          <lb ed="#P" n="60"/>Primo, quia si ante Christi Incarnationem 
+          ja<lb break="no" ed="#P" n="61"/>nua videndi Deum tam Angelis sanctis, quam
+          <lb ed="#P" n="62"/>hominibus justis clausa fuisset, sicut 
+          homini<lb break="no" ed="#P" n="63"/>bus usque ad Christi mortem aperta non fuit,
+          <lb ed="#P" n="64"/>ita neque Angelis aperta fuisset: vel si jam
+          <lb ed="#P" n="65"/>Angeli ante mortem Christi, id est, ante 
+          con<lb break="no" ed="#P" n="66"/>summatam redeumptionem ad gloriam admissi
+          <lb ed="#P" n="67"/>sunt, etiam ante incarnationem, etante 
+          in<lb break="no" ed="#P" n="68"/>choatam redemptionem admitti debuerunt ,
+          <lb ed="#P" n="69"/>quia ad suam gloriam non magis indiguerunt
+          <lb ed="#P" n="70"/>inchoata redemptione, quam consummata. 
+          Se<lb break="no" ed="#P" n="71"/>cundo possumus aliter ex verbis Christi 
+          argu<lb break="no" ed="#P" n="72"/>mentari, quia quod Angeli sint custodes 
+          ho<lb break="no" ed="#P" n="73"/>minum magnorum, et pusillorum, non fuit
+          <lb ed="#P" n="74"/>novum beneficium post Christi adventum 
+          ho<lb break="no" ed="#P" n="75"/>minibus collatum, sed a principio generis 
+          hu<lb break="no" ed="#P" n="76"/>mani datum est, ut in discursu hujus libri 
+          di<lb break="no" ed="#P" n="77"/>cemus, ergo similiter illa peculiaris tanti 
+          be<lb break="no" ed="#P" n="78"/>neficii commendatio facta a Christo sumpta ex
+          <lb ed="#P" n="79"/>eo, quod Angeli nostri custodes Deum vident,
+          <lb ed="#P" n="80"/>non fuit ab ipso proposita, ut nova excellentia
+          <lb ed="#P" n="81"/>post suum adventum data custodibus Angelis,
+          <lb ed="#P" n="82"/>sed ut ad eorum statum, et perpetuam 
+          digni<lb break="no" ed="#P" n="83"/>tatem pertinens.
+        </p>
+        <p xml:id="szdada-x16071-d1e583">
+          <lb ed="#P" n="84"/>7. Tertio denique addo, etiam ex alis locis
+          <lb ed="#P" n="85"/>veteris Testamenti id posse colligi. Nam licet
+          <lb ed="#P" n="86"/>in eis expresse non dicatur, Angelos vidisse
+          <lb ed="#P" n="87"/>Deum: aliis modis satis significatur fuisse
+          <lb ed="#P" n="88"/>ante Christi alventum in gloria, et beatitudine
+          <lb ed="#P" n="89"/>apud Deum,, ut Dan. 7. Millia milliuwn 
+          minis<lb break="no" ed="#P" n="90"/>trabant ei, et decies centena mallium assistebant
+          <lb ed="#P" n="91"/>ei. Et Tob. 12, ait Angelus: Ego sum Raphael
+          <lb ed="#P" n="92"/>Angelus, unus em septem, qui astamus ante
+          <lb ed="#P" n="93"/>Dominmnn. Astare enim, vel assistere ante
+          <lb ed="#P" n="94"/>Dewn, idem est, quod illum perpetuo videre,
+          <lb ed="#P" n="95"/>et laudare: per antonomasiam autem, 
+          quibus<lb break="no" ed="#P" n="96"/>dam excellentioribus Angelis tribuitur, quia
+          <lb ed="#P" n="97"/>ad ministeria exteriora non mittuntur, ut 
+          do<lb break="no" ed="#P" n="98"/>cet Gregorius, libr. 17, Moral., cap. 9, 
+          quam<lb break="no" ed="#P" n="99"/>vis generalius omnes dicantur assistere, quia
+          <lb ed="#P" n="100"/>licet mittantur, a divina visione non recedunt,
+          <lb ed="#P" n="101"/>ut àbidesm dicit Gregorius, et latius lib. 2,
+          <lb ed="#P" n="102"/>Moral., cap. 2, et Bernardus, serm. 5, in 
+          de<lb break="no" ed="#P" n="103"/>dicatione Ecclesiae.
+        </p>
+        <p xml:id="szdada-x16071-d1e629">
+          <lb ed="#P" n="104"/>8. Probatur tertia pars assertionis. —
+          Deni<lb break="no" ed="#P" n="105"/>que tertia pars de mundi initio probatur a 
+          con<lb break="no" ed="#P" n="106"/>trario, quia mali Angeli statim post lapsum in
+          <lb ed="#P" n="107"/>ipso mundi initio damnati sunt, sed non citius
+          <lb ed="#P" n="108"/>ilis est poena retributa, quam sanctis Angelis
+          <lb ed="#P" n="109"/>praemium: ergo etiam sancti Angeli habuerunt
+          <lb ed="#P" n="110"/>coronam a principio mundi, statim post victo-
+          <pb ed="#P" n="640"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>riam. Consequentia clara est, et minor etiam
+          <lb ed="#P" n="2"/>videtur certa ex perfectione divinae justitiae,
+          <lb ed="#P" n="3"/>ac providentiae sapientissimae, adjuncta 
+          boni<lb break="no" ed="#P" n="4"/>tate Dei, quae pronior est ad benefaciendum, et
+          <lb ed="#P" n="5"/>miserendum, quam ad vindictam. Major 
+          au<lb break="no" ed="#P" n="6"/>tem, vel ex eo colligitur, quod quando daemon
+          <lb ed="#P" n="7"/>homines primos tentavit, jam erat reprobus,
+          <lb ed="#P" n="8"/>et damnatus, ut infra videbimus, ergo etiam
+          <lb ed="#P" n="9"/>tunc jam sancti Angeli erant plene beati. Et
+          <lb ed="#P" n="10"/>ita plane docent Patres supra citati, cap. 2et 3
+          <lb ed="#P" n="11"/>libri praecedentis, et praesertim Augustinus,
+          <lb ed="#P" n="12"/>lib. 1, Genes. ad htt., cap. 17, et sequentibus,
+          <lb ed="#P" n="13"/>et lib. 2, cap. S, et lib. 4, cap. 24, et lib. 11,
+          <lb ed="#P" n="14"/>de Civitate, cap. 13, et 14, et 29, et lib. 12,
+          <lb ed="#P" n="15"/>cap. 6.
+        </p>
+        <p xml:id="szdada-x16071-d1e685">
+          <lb ed="#P" n="16"/>9. Satisfit Nazianzeno adducto n. 4.— 
+          Sol<lb break="no" ed="#P" n="17"/>vitur jam prima ratio in n. 1. — Ad verba
+          <lb ed="#P" n="18"/>ergo Nazianzeni respondeo, non esse 
+          intelli<lb break="no" ed="#P" n="19"/>genda illo modo, quo a Niceta in citatis verbis
+          <lb ed="#P" n="20"/>exponuntur, quia ex illo sensu unus ex duobus
+          <lb ed="#P" n="21"/>erroribus sequitur, scilicet. vel Angelos sanctos
+          <lb ed="#P" n="22"/>non vidisse Deum ante Christi resurrectionem,
+          <lb ed="#P" n="23"/>aut mortem: qui jam improbatus est. Vel 
+          vi<lb break="no" ed="#P" n="24"/>dendo Deum potuisse peccare, et uterque jam
+          <lb ed="#P" n="25"/>improbatus est, et ideo neque Nicetas ipse in
+          <lb ed="#P" n="26"/>illa expositione persistit, sed alias adhibet,
+          <lb ed="#P" n="27"/>scilicet, quod resurrectio Christi Angelorum
+          <lb ed="#P" n="28"/>etiam salus fuerit, non quia tunc gloriam 
+          re<lb break="no" ed="#P" n="29"/>ceperint, sed quia tunc ruinae Angelorum 
+          lap<lb break="no" ed="#P" n="30"/>sorum impleri coeptae sunt, vel quia etiam 
+          An<lb break="no" ed="#P" n="31"/>gelis sanctis de consummata hominum salute
+          <lb ed="#P" n="32"/>magna gloria accidentalis accessit: vel quia
+          <lb ed="#P" n="33"/>gloriam, quam Angeli sancti jam habebant,
+          <lb ed="#P" n="34"/>per Christum receperant, et ideo resurgenti
+          <lb ed="#P" n="35"/>Christo simul cum salute hominum tribuitur.
+          <lb ed="#P" n="36"/>Addo etiam dici posse, per mundum 
+          invisibi<lb break="no" ed="#P" n="37"/>lem intelligi posse animas sanctorum Patrum,
+          <lb ed="#P" n="38"/>qui in sinu Abrahae detinebantur. Ad rationem
+          <lb ed="#P" n="39"/>vero in principio factam negatur consequentia,
+          <lb ed="#P" n="40"/>quia licet Christus fuerit salvator, et 
+          glorifica<lb break="no" ed="#P" n="41"/>tor Angelorum, nihilominus non fuit eorum
+          <lb ed="#P" n="42"/>redemptor, et ideo non debuit eorum praemium
+          <lb ed="#P" n="43"/>differri, quia non meruerant exclusionem a
+          <lb ed="#P" n="44"/>regno per aliquod peccatum, pro quo nondum
+          <lb ed="#P" n="45"/>plene satisfactum fuisset, sicut hominibus 
+          con<lb break="no" ed="#P" n="46"/>tigit. Neque per Christum detrimentum illud
+          <lb ed="#P" n="47"/>carendi tanto tempore suo praemio, pati 
+          debue<lb break="no" ed="#P" n="48"/>runt, neque id ad honorem Christi pertinebat.
+          <lb ed="#P" n="49"/>Videantur dicta in tom. 1, 3 part., disput. M,
+          <lb ed="#P" n="50"/>sect. 1. Ad2 et 3 rationem in eodem num. 1,
+          <lb ed="#P" n="51"/>in sequentibus capitibus, satisfacimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

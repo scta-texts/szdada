@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="375"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x09431"><!-- l3d4 -->
+        <head xml:id="szdada-x09431-Hd1e101">Caput 4</head>
+        <head xml:id="szdada-x09431-Hd1e103" type="question-title">Utrum angelus naturali dilectione, id est, necessaria, seipsum diligat</head>
+        <p xml:id="szdada-x09431-d1e106">
+          <lb ed="#P" n="13"/>CAPUT IV.
+          <lb ed="#P" n="14"/>UTRUM ANGELUS NATURALI DILECTIONE, ID EST,
+          <lb ed="#P" n="15"/>NECESSARIA, SEIPSUM DILIGAT.
+        </p>
+        <p xml:id="szdada-x09431-d1e115">
+          <lb ed="#P" n="16"/>1. Opinio affirmans. — Quod dilectio sui sit
+          <lb ed="#P" n="17"/>aliquo modo naturalis, dubium non est: 
+          quo<lb break="no" ed="#P" n="18"/>modo vero sit naturalis, et quanta necessitate
+          <lb ed="#P" n="19"/>se Angelus diligat, id est controversum. 
+          Qui<lb break="no" ed="#P" n="20"/>dam enim ex modernis interpretibus D. 
+          Tho<lb break="no" ed="#P" n="21"/>mae docuerunt, Angelum se necessario amare,
+          <lb ed="#P" n="22"/>ita ut a quodam determinato actu amandi se
+          <lb ed="#P" n="23"/>cessare non possit, etiamsi velit, vel potius id
+          <lb ed="#P" n="24"/>velle non possit. Ita Bannez, dict., quaest. 60,
+          <lb ed="#P" n="25"/>dub. ult., et inclinat Cumelius, eadem 
+          quaes<lb break="no" ed="#P" n="26"/>tione, art. 3, quamvis in primo oppositum 
+          pro<lb break="no" ed="#P" n="27"/>babilius judicasset. Ratio est quia Angelus se
+          <lb ed="#P" n="28"/>necessario cognoscit, ergo etiam necessario se
+          <lb ed="#P" n="29"/>amat. Probatur consequentia, tum quia 
+          co<lb break="no" ed="#P" n="30"/>gnoscendo se, cognoscit et judicat cum eadem
+          <lb ed="#P" n="31"/>necessitate bonum, ac conveniens sibi esse,
+          <lb ed="#P" n="32"/>se semper diligere: tum quia sicut cognitio sui
+          <lb ed="#P" n="33"/>est fundamentum aliarum cognitionum, ita
+          <lb ed="#P" n="34"/>amor sui est fundamentum aliorum amorum.
+          <lb ed="#P" n="35"/>Tum praeterea quia, sicut cognitio sui habetur
+          <lb ed="#P" n="36"/>sine labore, defatigatione, aut impedimento
+          <lb ed="#P" n="37"/>aliorum actuum, ita amor sui non solum non
+          <lb ed="#P" n="38"/>defatigat, verum delectat, et non impedit alias
+          <lb ed="#P" n="39"/>actiones. Tum denique quia sicut in cessatione
+          <lb ed="#P" n="40"/>a sni cognitione nullam rationem boni 
+          Ange<lb break="no" ed="#P" n="41"/>lus apprehendere potest, ita neque in 
+          cessa<lb break="no" ed="#P" n="42"/>tione ab amore sui. Hanc etiam opinionem
+          <lb ed="#P" n="43"/>sequitur Valentia, 1 tom., disputat., quaest. 9,
+          <lb ed="#P" n="44"/>punet. 1, et allegat D. Thomas, quaest. 8, de
+          <lb ed="#P" n="45"/>Verit., art. 6, ad 7, et art. 14, ad 6. Sed divus
+          <lb ed="#P" n="46"/>Thomas de cognitione sui tantum loquitur:
+          <lb ed="#P" n="47"/>ipse vero Valentia putat esse parem utriusque
+          <lb ed="#P" n="48"/>rationem, tamen in quaest. 11, punct. i, 
+          dis<lb break="no" ed="#P" n="49"/>tinctionem adhibet de dilectione amicitiae, et
+          <lb ed="#P" n="50"/>concupiscentiae, et dictam sententiam himitat
+          <lb ed="#P" n="51"/>ad amorem amicitiae, nam amore 
+          concupiscen<lb break="no" ed="#P" n="52"/>tiae dicit se libere amare, non tantum quoad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>exercitium, sed etiam quoad specificationem.
+          <lb ed="#P" n="54"/>Quae distinctio difficile applicatur in proposito,
+          <lb ed="#P" n="55"/>ut ex dicendis patebit.
+        </p>
+        <p xml:id="szdada-x09431-d1e206">
+          <lb ed="#P" n="56"/>2. Opinio omnino negans. — Prima probatio.
+          <lb ed="#P" n="57"/>— Rejicitur. — Nihilominus oppositam 
+          sen<lb break="no" ed="#P" n="58"/>tentiam generaliter defendit Ferrariensis 3,
+          <lb ed="#P" n="59"/>contra Gent., capit. 109, § Sed circa ea, etc.,
+          <lb ed="#P" n="60"/>ubi tenet in voluntate Angeli naturaliter, et
+          <lb ed="#P" n="61"/>extra visionem beatam nullum esse actum 
+          ne<lb break="no" ed="#P" n="62"/>cessarium quoad exercitium, neque etiam 
+          amo<lb break="no" ed="#P" n="63"/>rem sui. Quod solum probat, quia licet 
+          intel<lb break="no" ed="#P" n="64"/>lectus Angeli semper, ac necessario sit in 
+          co<lb break="no" ed="#P" n="65"/>gnitione sui speculativa, non eadem necessitate
+          <lb ed="#P" n="66"/>judicat practice se esse dihgendum a se. Unde
+          <lb ed="#P" n="67"/>infert, neque per voluntatem necessario 
+          dili<lb break="no" ed="#P" n="68"/>gere seipsum, quia voluntas sequitur judicium
+          <lb ed="#P" n="69"/>practicum, non speculativum. Quae ratio non
+          <lb ed="#P" n="70"/>cogit, tum quia non probat Angelum non 
+          ne<lb break="no" ed="#P" n="71"/>cessario habere illud judicium practicum,
+          <lb ed="#P" n="72"/>cum sit valde connaturale, et 
+          proportiona<lb break="no" ed="#P" n="73"/>tum. Tum etiam quia probabilius judico, 
+          co<lb break="no" ed="#P" n="74"/>gnitionem illam, quam Angelus de se habet
+          <lb ed="#P" n="75"/>naturahter, esse suflicientem, ut se amet, si
+          <lb ed="#P" n="76"/>velit, sicut visio Del clara est sufticiens ad
+          <lb ed="#P" n="77"/>amandum ipsum, ut est eminenter speculativa,
+          <lb ed="#P" n="78"/>et practica: ita enim Angelus naturaliter 
+          co<lb break="no" ed="#P" n="79"/>enoscendo se, judicat se esse objectum a se
+          <lb ed="#P" n="80"/>diligibile, et amorem sui esse optimum, et sibi
+          <lb ed="#P" n="81"/>convenientem, quia est perfecta sui cognitio,
+          <lb ed="#P" n="82"/>quae omnia haec facile potest comprehendere.
+        </p>
+        <p xml:id="szdada-x09431-d1e268">
+          <lb ed="#P" n="83"/>3. Secunda probatio ev Vasquez. — 
+          Infir<lb break="no" ed="#P" n="84"/>matur. — Unde Vasquez, dicta quaestione 60,
+          <lb ed="#P" n="85"/>art. 3, eamdem sequens sententiam aliam 
+          ra<lb break="no" ed="#P" n="86"/>tionem adducit, scilicet, quia ut actus amoris
+          <lb ed="#P" n="87"/>sit necessarius quoad exercitium, necessarium
+          <lb ed="#P" n="88"/>est, ut in cessatione ab illo nullo ratio boni
+          <lb ed="#P" n="89"/>apprehendi, ac judicari possit, nec in illo amore
+          <lb ed="#P" n="90"/>possit aliqua ratio mali pro aliquo tempore 
+          in<lb break="no" ed="#P" n="91"/>veniri, ob quam vitandam possit intermitti:
+          <lb ed="#P" n="92"/>sed Angelus in amore sui actuali, et in 
+          cessa<lb break="no" ed="#P" n="93"/>tione ab illo actu potest invenire specialem, et
+          <lb ed="#P" n="94"/>majorem rationem boni, ut si cesset ab amore
+          <lb ed="#P" n="95"/>sui, ut amori Dei toto corde vacet. Sed huic
+          <lb ed="#P" n="96"/>rationi tacite occurrebant auctores primae 
+          sen<lb break="no" ed="#P" n="97"/>tentiae, dicentes Angelum propter amorem sui
+          <lb ed="#P" n="98"/>naturalem, non impediri, quominus alios actus
+          <lb ed="#P" n="99"/>liberos perfectissime exercere possit. Sicut
+          <lb ed="#P" n="100"/>supra de cognitione sui dicebamus, non 
+          impe<lb break="no" ed="#P" n="101"/>dire alios actus perfecte scientiae per 
+          propor<lb break="no" ed="#P" n="102"/>tionatam speciem. Et praesertim non impediet
+          <lb ed="#P" n="103"/>ille amor amorem Dei ex toto corde: sicut 
+          co<lb break="no" ed="#P" n="104"/>gnitio sui non impedit cognitionem Dei, sed
+          <lb ed="#P" n="105"/>potius ad illam ducit: nam etiam amor sui de
+          <lb ed="#P" n="106"/>se ducit in amorem Det. Et declaratur: nam
+          <lb ed="#P" n="107"/>amor Dei potest cici ex toto corde, vel in co-
+          <pb ed="#P" n="376"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>natu potentiae, et intensione, et haec non 
+          im<lb break="no" ed="#P" n="2"/>pedit amor naturalis sui (ut dicebamus) vel in
+          <lb ed="#P" n="3"/>appretiatione, et haec etiam non impeditur ex
+          <lb ed="#P" n="4"/>amore naturalt sui, nam si est naturalis est 
+          bo<lb break="no" ed="#P" n="5"/>nus, et moderatus, et ideo optime componi 
+          po<lb break="no" ed="#P" n="6"/>test cum amore Dei ex toto corde secundum
+          <lb ed="#P" n="7"/>appretiationem, vel denique dicitur amor Dei
+          <lb ed="#P" n="8"/>ex toto corde, quasi objective, quia omnia
+          <lb ed="#P" n="9"/>amantur propter ipsum, et hoc etiam non 
+          im<lb break="no" ed="#P" n="10"/>pedit amor naturalis sui, nam cum sit bonus,
+          <lb ed="#P" n="11"/>in Deum, ut ultimum finem referibilis est.
+        </p>
+        <p xml:id="szdada-x09431-d1e353">
+          <lb ed="#P" n="12"/>4. Notatio pro vera sententia. — Amicitia
+          <lb ed="#P" n="13"/>proprie est ad allerum. — Ut meam sententiam
+          <lb ed="#P" n="14"/>proferam adverto, cum amare sit velle alicui
+          <lb ed="#P" n="15"/>bonum, sicut docet divus Thomas, 1, 2, quaest.
+          <lb ed="#P" n="16"/>26, art. 4, cum Aristotele, 2 Rhetoric., capit. 4,
+          <lb ed="#P" n="17"/>necessarium esse ut Angelus amando se, velit
+          <lb ed="#P" n="18"/>sibi bonum. Duplex autem bonum potest sibi
+          <lb ed="#P" n="19"/>amare: unum est bonum illud quod in se 
+          vi<lb break="no" ed="#P" n="20"/>det, sibique est intrinsecum, aliud est bonum
+          <lb ed="#P" n="21"/>aliud, quod potest intendere, sibique procurare.
+          <lb ed="#P" n="22"/>Unde primum bonum amat per modum 
+          com<lb break="no" ed="#P" n="23"/>placentiae in bono possesso: secundum autem
+          <lb ed="#P" n="24"/>per modum concupiscentiae, aut desiderii, sive
+          <lb ed="#P" n="25"/>ille amor sit idem actus complacendi, aut 
+          de<lb break="no" ed="#P" n="26"/>siderandi, sive sit illorum fundamentum. 
+          Uter<lb break="no" ed="#P" n="27"/>que vero actus respectu personae Angeli, cui
+          <lb ed="#P" n="28"/>ipse amat talia bona, amor est amicitiae minus
+          <lb ed="#P" n="29"/>proprie dictae: quia amieitia propria est ad 
+          al<lb break="no" ed="#P" n="30"/>terum, ut Aristoteles docuit, et de charitate
+          <lb ed="#P" n="31"/>Gregorius dixit. Dicitur autem lato modo 
+          ami<lb break="no" ed="#P" n="32"/>citia, prout distinguitur ab amore 
+          concupis<lb break="no" ed="#P" n="33"/>centiae, quia est amor benevolentiae alicujus
+          <lb ed="#P" n="34"/>personae propter seipsam; concupiscentia vero
+          <lb ed="#P" n="35"/>dicitur amor respectu illius boni, quod ipsi
+          <lb ed="#P" n="36"/>personae, et principue nobis ipsis volumus: et
+          <lb ed="#P" n="37"/>ita uterque amor Angeli respectu bonorum,
+          <lb ed="#P" n="38"/>quae sibi vult, dicitur amor concupiscentiae,
+          <lb ed="#P" n="39"/>juxta doctrinam D. Thomae hic quaestion. 60,
+          <lb ed="#P" n="40"/>art. 3, et Cajetani, 1, 2, illa quaest. 26, art. 4.
+        </p>
+        <p xml:id="szdada-x09431-d1e418">
+          <lb ed="#P" n="41"/>5. Notatio altera. — Quanquam in hoc 
+          dis<lb break="no" ed="#P" n="42"/>tinctio aliqua necessaria videatur, quoniam in
+          <lb ed="#P" n="43"/>illo amore, quo Angelus complacet in bonis,
+          <lb ed="#P" n="44"/>quae jam habet, et in seipso videt, quaedam
+          <lb ed="#P" n="45"/>sunt idem cum substantia sua, ut est perfectio
+          <lb ed="#P" n="46"/>essentialis ejus, et actualis existentia: alia
+          <lb ed="#P" n="47"/>sunt distincta in re a substantia, licet 
+          intrin<lb break="no" ed="#P" n="48"/>seca, ut potentiae, species connaturales, et 
+          na<lb break="no" ed="#P" n="49"/>turalis cognitio, vel si quid aliud hujusmodi
+          <lb ed="#P" n="50"/>est. In illo ergo amore respectu istorum 
+          bono<lb break="no" ed="#P" n="51"/>rum, quae a substantia distinguuntur, facile
+          <lb ed="#P" n="52"/>distinguitur amor concupiscentiae ab amore
+          <lb ed="#P" n="53"/>amicitie ex parte objectorum, seu rerum 
+          di<lb break="no" ed="#P" n="54"/>lectarum, quia in re distinctae sunt: sicut
+          <lb ed="#P" n="55"/>etiam cernitur in amore perfectionem nondum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>possessarum, quas aliquis sibi amat, seu 
+          con<lb break="no" ed="#P" n="57"/>cupiscit. At vero respectu perfectionum, quae
+          <lb ed="#P" n="58"/>et necessario insunt, et ab ipsa substantia 
+          An<lb break="no" ed="#P" n="59"/>geli non distinguuntur, vix potest distingui
+          <lb ed="#P" n="60"/>amicitia, et concupiscentia, nisi per 
+          imperfec<lb break="no" ed="#P" n="61"/>tum modum concipiendi nostrum, et 
+          secun<lb break="no" ed="#P" n="62"/>dum distinctionem aliquam rationis a nobis
+          <lb ed="#P" n="63"/>conceptam. Nam Deus seipsum amando, et in
+          <lb ed="#P" n="64"/>suis bonis complacendo, non dicetur amare
+          <lb ed="#P" n="65"/>aliquod bonum sibi amore concupiscentiae, sed
+          <lb ed="#P" n="66"/>dicitur amare se benevolentiae amore propter
+          <lb ed="#P" n="67"/>perfectionem suam, quae est idem quod ipse.
+          <lb ed="#P" n="68"/>Unde talis amor in se benevolentiae est, licet a
+          <lb ed="#P" n="69"/>nobis per rationem in benevolentiam, et 
+          con<lb break="no" ed="#P" n="70"/>cupiscentiam concipiatur, distinguendoratione
+          <lb ed="#P" n="71"/>perfectionis Dei ab ipso, ut sapientiam, vel
+          <lb ed="#P" n="72"/>justitiam, etc. Quatenus autem Deus vult sibi
+          <lb ed="#P" n="73"/>bona externa, ut honorem, laudem, etc., sic
+          <lb ed="#P" n="74"/>dici potest amare illa bona amore 
+          concupiscen<lb break="no" ed="#P" n="75"/>tiae sibi, licet respectu sui etiam ille amor sit
+          <lb ed="#P" n="76"/>benevolentiae. Sic ergo in Angelo amor suae
+          <lb ed="#P" n="77"/>existentiae videtur essein re pura benevolentia,
+          <lb ed="#P" n="78"/>licet secundum rationem ibi etiam possint 
+          dis<lb break="no" ed="#P" n="79"/>tingui amor amicitiae ad personam, et 
+          concu<lb break="no" ed="#P" n="80"/>piscentiae ad bonum illi volitum. Quae 
+          distinc<lb break="no" ed="#P" n="81"/>tio ex parte objecti clarior est in amore sui,
+          <lb ed="#P" n="82"/>quoad alias perfectiones, quae adduntur 
+          essen<lb break="no" ed="#P" n="83"/>tiae: nam licet sit benevolentia sui, est 
+          concu<lb break="no" ed="#P" n="84"/>piscentia perfectionum, quas sibi vult. Quae
+          <lb ed="#P" n="85"/>affectio sine dubio major est ad intrinsecas
+          <lb ed="#P" n="86"/>perfectiones, quam ad adventitias.
+        </p>
+        <p xml:id="szdada-x09431-d1e522">
+          <lb ed="#P" n="87"/>6. Auctoris assertio bipartita. — In priori
+          <lb ed="#P" n="88"/>parte ostenditur primum ex D. Thoma nempe
+          <lb ed="#P" n="89"/>Angelum exercere semper amorem.—BHis positis
+          <lb ed="#P" n="90"/>dico, Angelum semper se amare aliquo amore
+          <lb ed="#P" n="91"/>naturali, nullum tamen actum particularem
+          <lb ed="#P" n="92"/>amoris sui habere, qui absolute necessarius,
+          <lb ed="#P" n="93"/>quoad exercitium, sit. Prior pars procedit
+          <lb ed="#P" n="94"/>juxta sensum tractatum in fine capitis 
+          prae<lb break="no" ed="#P" n="95"/>cedentis, quod Angelus semper, ac necessario
+          <lb ed="#P" n="96"/>est in aliquo actu voluntatis suae. Nunc vero
+          <lb ed="#P" n="97"/>tria addimus in hac parte: unum est, illum
+          <lb ed="#P" n="98"/>esse actum amoris, aliud est, esse amorem 
+          na<lb break="no" ed="#P" n="99"/>turalem, tertium est, esse amorem sui. 
+          Pri<lb break="no" ed="#P" n="100"/>mum indicatur a divo Thoma, dict. quaest. 60,
+          <lb ed="#P" n="101"/>art. 1, ubi in particulari colligit esse in Angelo
+          <lb ed="#P" n="102"/>amorem naturalem, ex eo quod in Angelo est
+          <lb ed="#P" n="103"/>inclinatio naturalis secundum voluntatem. Et
+          <lb ed="#P" n="104"/>ratio est, quia licet in voluntate sint plures
+          <lb ed="#P" n="105"/>actus, ut supra declaravi, tamen amor est 
+          ra<lb break="no" ed="#P" n="106"/>dix omnium, et virtute in omnibus includitur.
+          <lb ed="#P" n="107"/>Ideoque nullusalius affectus potest esse Angelo
+          <lb ed="#P" n="108"/>naturalis, nisi in amore naturali fundetur, et
+          <lb ed="#P" n="109"/>propterea D. Thomas de solo amore Angeli
+          <lb ed="#P" n="110"/>ibi disputavit, reliquos tacite ad amorem re-
+          <pb ed="#P" n="377"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ducens. Nam omnes actus, qui versantur circa
+          <lb ed="#P" n="2"/>malum, odiendo, vel fugiendo illud, oriuntur
+          <lb ed="#P" n="3"/>ex affectu ad bonum contrarium, et inter 
+          af<lb break="no" ed="#P" n="4"/>fectus, quibus voluntas bonum prosequitur,
+          <lb ed="#P" n="5"/>amor est radix caeterorum: nam quod amat
+          <lb ed="#P" n="6"/>voluntas, id desiderat, si illud non habet, vel
+          <lb ed="#P" n="7"/>in eo delectatur, si illud habet, et contrarium
+          <lb ed="#P" n="8"/>odit, et fugit. Hinc ergo necessarium est, ut si
+          <lb ed="#P" n="9"/>voluntas Angeli semper habet aliquem actum,
+          <lb ed="#P" n="10"/>ille sit amor, quia ille potest separari ab aliis,
+          <lb ed="#P" n="11"/>tanquam prior, quanquam ordinarie juxta
+          <lb ed="#P" n="12"/>objecti capacitatem, vel occasionis 
+          opportuni<lb break="no" ed="#P" n="13"/>tatem nunc desiderium, nunc odium contrarii,
+          <lb ed="#P" n="14"/>vel alii similes actus ab illo redundent. Alii
+          <lb ed="#P" n="15"/>vero actus nunquam videntur esse in Angelo
+          <lb ed="#P" n="16"/>sine actuali amore, quia perfecte operatur, et
+          <lb ed="#P" n="17"/>debito ordine movetur, seque in actum reducit,
+          <lb ed="#P" n="18"/>et ideo posteriorem actum elicit, mediante
+          <lb ed="#P" n="19"/>priori, quando ilh distincti sunt, et unus ex
+          <lb ed="#P" n="20"/>natura sua est causa alterius.
+        </p>
+        <p xml:id="szdada-x09431-d1e624">
+          <lb ed="#P" n="21"/>7. Ostenditur secundum, nempe dictum 
+          a<lb break="no" ed="#P" n="22"/>morem non esse supernaturalem. — Secundum,
+          <lb ed="#P" n="23"/>scilicet, amorem hunc esse naturalem, tradit
+          <lb ed="#P" n="24"/>D. Thomas in eodem art. 1. Estque facile 
+          ex<lb break="no" ed="#P" n="25"/>plicando illam particulam, naturalem. Nam
+          <lb ed="#P" n="26"/>uno modo sumitur, ut distinguitur contra
+          <lb ed="#P" n="27"/>supernaturalem, et significat esse ordinis 
+          natu<lb break="no" ed="#P" n="28"/>ralis: alio autem modo,ut distinguitur a libero
+          <lb ed="#P" n="29"/>quocumque modo, et est idem quod 
+          necessa<lb break="no" ed="#P" n="30"/>rium simpliciter: tertio, ut significat 
+          ac<lb break="no" ed="#P" n="31"/>tum, qui ex inclinatione naturali proxime 
+          nas<lb break="no" ed="#P" n="32"/>citur, licet non sit omnino necessarius. In
+          <lb ed="#P" n="33"/>praesenti ergo actus naturalis dicitur primo,
+          <lb ed="#P" n="34"/>et tertio modo, non autem secundo. De primo
+          <lb ed="#P" n="35"/>res est clara, quia in hoc sensu locutus est
+          <lb ed="#P" n="36"/>D. Thomas. Nam in art. 1, ad 3, distinguit
+          <lb ed="#P" n="37"/>naturalem dileetionem a dilectione 
+          charita<lb break="no" ed="#P" n="38"/>tis, et de priori doctrinam articulo defendit,
+          <lb ed="#P" n="39"/>ostendendo esse in illa dilectione propriam
+          <lb ed="#P" n="40"/>rectitudinem. Et in art. 2, in fine corporis,
+          <lb ed="#P" n="41"/>aperte addit: Heec autem dicta sunt, 
+          preter<lb break="no" ed="#P" n="42"/>missis his, que supra naturam sunt. Et ratio
+          <lb ed="#P" n="43"/>est, quia est sermo de amore, ad quem natura
+          <lb ed="#P" n="44"/>inclinat: naturalis autem inclinatio non est
+          <lb ed="#P" n="45"/>ad supernaturalia, sed ad ea, quae ejusdem
+          <lb ed="#P" n="46"/>ordinis sunt. Denique hic consideramus 
+          An<lb break="no" ed="#P" n="47"/>gelum secundum puram naturam, et ideo dc
+          <lb ed="#P" n="48"/>amore naturali, ut a supernaturali 
+          distingui<lb break="no" ed="#P" n="49"/>tur, loquimur. PDeinde non excludimus per
+          <lb ed="#P" n="50"/>illam vocem omnem libertatem, ut in 
+          posterio<lb break="no" ed="#P" n="51"/>ri parte assertionis expressimus: et in eodem
+          <lb ed="#P" n="52"/>etiam sensu locutus est divus Thomas in tota
+          <lb ed="#P" n="53"/>illa q. 60, ut recte Cajetanus adnotavit, et ex
+          <lb ed="#P" n="54"/>omnibus rationibus D. Thomae facile 
+          intelli<lb break="no" ed="#P" n="55"/>gitur, et in art. 1, ad 2, expresse declarat in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>hoc amore naturali non ita agi Angelum a
+          <lb ed="#P" n="57"/>Deo per inclinationem naturalem, quin agat,
+          <lb ed="#P" n="58"/>cum habeat, mquit, liberum arbitrium, et 
+          ma<lb break="no" ed="#P" n="59"/>gis ex dicendis constabit. .
+        </p>
+        <p xml:id="szdada-x09431-d1e713">
+          <lb ed="#P" n="60"/>8. Sed esse ea inclinatione naturali.—
+          Addi<lb break="no" ed="#P" n="61"/>mus vero hunc amorem, de quo tractamus,
+          <lb ed="#P" n="62"/>vocari naturalem non solum, quia est ordinis
+          <lb ed="#P" n="63"/>naturahs, sed quia etiam est ex inclinatione
+          <lb ed="#P" n="64"/>naturali, tanquam ex proxima, et immediata
+          <lb ed="#P" n="65"/>radice. Ita explicat D. Thomas, in dicto art. 1,
+          <lb ed="#P" n="66"/>et probat optime dari talem amorem 
+          natura<lb break="no" ed="#P" n="67"/>lem in Angelis, quia voluntas supponit 
+          natu<lb break="no" ed="#P" n="68"/>ram, et ideo necesse est, ut aliquid appetat ex
+          <lb ed="#P" n="69"/>inclinatione naturali. Circa quam rationem
+          <lb ed="#P" n="70"/>multa Cajetanus dicit, et alia Bannez, et alu
+          <lb ed="#P" n="71"/>moderni alia addunt, ut explicent, quo modo
+          <lb ed="#P" n="72"/>illa ratio probat de appetitu elicito, et non
+          <lb ed="#P" n="73"/>tantum de naturah. Sed certe necessaria non
+          <lb ed="#P" n="74"/>sunt, qnia res est clara, nam ipsemet 
+          appeti<lb break="no" ed="#P" n="75"/>tus elicitus, id est, ipsa potentia voluntatis,
+          <lb ed="#P" n="76"/>antequam eliciatur actus, intelligitur esse 
+          quae<lb break="no" ed="#P" n="77"/>dam natura habens inclinationem naturalem
+          <lb ed="#P" n="78"/>ad suum objectum, et ad suos actus, quos 
+          eli<lb break="no" ed="#P" n="79"/>ciendo, amet id, ad quod naturaliter 
+          inclina<lb break="no" ed="#P" n="80"/>tur, tam ipsa voluntas, quam natura, in qua
+          <lb ed="#P" n="81"/>radicatur, quam etiam aliae naturales 
+          faculta<lb break="no" ed="#P" n="82"/>tes ejus, ut est intellectus in Angelo. Et ideo
+          <lb ed="#P" n="83"/>appetitus elicitus vivendi, vel sciendi est 
+          Ange<lb break="no" ed="#P" n="84"/>lo secundum naturalem inclinationem 
+          conve<lb break="no" ed="#P" n="85"/>niens, et ex inclinatione naturali optime 
+          pro<lb break="no" ed="#P" n="86"/>batur: quia haec inclinatio est in unaquaque
+          <lb ed="#P" n="87"/>secundum modum suum, et in re cognoscente
+          <lb ed="#P" n="88"/>bonum, ad quod naturahter inclinatur, 
+          appe<lb break="no" ed="#P" n="89"/>titum elicitum, seu naturalem amorem talis
+          <lb ed="#P" n="90"/>boni naturaliter inducit.
+        </p>
+        <p xml:id="szdada-x09431-d1e784">
+          <lb ed="#P" n="91"/>9. Non propterea tamen dictus amor 
+          necessa<lb break="no" ed="#P" n="92"/>rius erit, etiam quoad speciem. — Atque hinc
+          <lb ed="#P" n="93"/>communiter dicitur hic amor naturahs, licet
+          <lb ed="#P" n="94"/>non sit omnino necessarius quoad exercitium,
+          <lb ed="#P" n="95"/>esse necessarius quoad specificationem, ut 
+          vi<lb break="no" ed="#P" n="96"/>dere licet in Cajetano, et alüs expositoribus
+          <lb ed="#P" n="97"/>in dicta q. 60, art. 1, ad 2, et 1 p., quaest. 82,
+          <lb ed="#P" n="98"/>art. 1 et 2. Existimo tamen, licet id in bono
+          <lb ed="#P" n="99"/>sensu possit sustineri, nihilominus latius 
+          pa<lb break="no" ed="#P" n="100"/>tere amorem naturalem, quam amorem 
+          neces<lb break="no" ed="#P" n="101"/>sarium quoad specificationem tantum. Quia
+          <lb ed="#P" n="102"/>licet amor necessarius quoad specificationem
+          <lb ed="#P" n="103"/>semper sit naturalis, id est, ex inchnatione
+          <lb ed="#P" n="104"/>naturae, nihilominus e contrario non omnis
+          <lb ed="#P" n="105"/>amor naturalis ex inclinatione naturae, est 
+          ne<lb break="no" ed="#P" n="106"/>cessarius quoad specificationem. Nam mater
+          <lb ed="#P" n="107"/>naturahter diligit fium, unde ille amor 
+          natu<lb break="no" ed="#P" n="108"/>ralis profecto est in dicto sensu, et tamen non
+          <lb ed="#P" n="109"/>est necessarius quoad specificationem, quia
+          <lb ed="#P" n="110"/>potest mater odisse filium suum. item divus
+          <pb ed="#P" n="378"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Thomas, dicta q. 60, art. 5, inter amores 
+          na<lb break="no" ed="#P" n="2"/>turales Angeli ponit amorem Dei super omnia
+          <lb ed="#P" n="3"/>ordinis naturalis, quia est secundum 
+          inclina<lb break="no" ed="#P" n="4"/>tionem Angel naturalem, cum tamen ille
+          <lb ed="#P" n="5"/>amor non sit necessarius, etiam quoad 
+          specifi<lb break="no" ed="#P" n="6"/>cationem, ut infra ostendemus. Et idem est de
+          <lb ed="#P" n="7"/>amore, quo unus Angelus amat alios, quem
+          <lb ed="#P" n="8"/>etiam vocat naturalem D. Thomas, ibi art. 4,
+          <lb ed="#P" n="9"/>cum tamen possit inter Angelos esse odium.
+          <lb ed="#P" n="10"/>Dico ergo, ad amorem paturalem (de quo 
+          lo<lb break="no" ed="#P" n="11"/>quimur) satis esse, quod proxime, et de se sit
+          <lb ed="#P" n="12"/>secundum inclinationem naturalem, etiamsi
+          <lb ed="#P" n="13"/>possit voluntas pro sua libertate contra 
+          inch<lb break="no" ed="#P" n="14"/>nationem naturalem velle, ac subinde habere
+          <lb ed="#P" n="15"/>odium tali amori contrarium, quod satis est ut
+          <lb ed="#P" n="16"/>ille amor non sit, quoad specificationem 
+          ne<lb break="no" ed="#P" n="17"/>cessarius.
+        </p>
+        <p xml:id="szdada-x09431-d1e871">
+          <lb ed="#P" n="18"/>10. In aliquo tamen sensu dici potest 
+          natu<lb break="no" ed="#P" n="19"/>ralis, quoad sreciem. — Addi vero potest, illa
+          <lb ed="#P" n="20"/>omnia, quae naturaliter amantur, de se 
+          invita<lb break="no" ed="#P" n="21"/>re, et attrahere voluntatem ad sui amorem, et
+          <lb ed="#P" n="22"/>in se habere unde amentur, et non unde odio
+          <lb ed="#P" n="23"/>habeantur: et in hoc sensu posse talem 
+          amo<lb break="no" ed="#P" n="24"/>rem dici Decessarium, quoad specificationem,
+          <lb ed="#P" n="25"/>utique quantum est ex parte bonitatis objecti,
+          <lb ed="#P" n="26"/>et inchnationis naturalis. Inter haec vero 
+          in<lb break="no" ed="#P" n="27"/>venitur quaedam diversitas: nam quaedam 
+          ta<lb break="no" ed="#P" n="28"/>lia sunt, ut non solum de se amart naturaliter
+          <lb ed="#P" n="29"/>possint, et non odio haberi, verum etiam 
+          ne<lb break="no" ed="#P" n="30"/>que ab extrinseco possit eis aliquid adjungi,
+          <lb ed="#P" n="31"/>propter quod possint odio haberi: alia vero ita
+          <lb ed="#P" n="32"/>sunt de se amabilia naturaliter, ut licet ex se
+          <lb ed="#P" n="33"/>non habeant, unde fugiantur, vel odio 
+          habean<lb break="no" ed="#P" n="34"/>tur, extrinsecus illis adjungi potest; et ita
+          <lb ed="#P" n="35"/>possunt aliquando odio haberi. In hoc 
+          poste<lb break="no" ed="#P" n="36"/>riori ordine sunt fere omnia bona naturalia in
+          <lb ed="#P" n="37"/>particulari sumpta, ut amor scientiae naturalis
+          <lb ed="#P" n="38"/>est, et nihilominus propter laborem, quem 
+          ha<lb break="no" ed="#P" n="39"/>bet adjunctum, odio habetur aliquando, et ipsa
+          <lb ed="#P" n="40"/>vita solet hoc modo odio haberi, et proximus,
+          <lb ed="#P" n="41"/>imo et Deus, ut dixi. In priori vero ordine 
+          so<lb break="no" ed="#P" n="42"/>lum esse videntur objecta communia, ut est
+          <lb ed="#P" n="43"/>bonum in communi, in quo nulla ratio mali
+          <lb ed="#P" n="44"/>inveniri potest, quia eo ipso quod in communi
+          <lb ed="#P" n="45"/>sumitur, ab omni ratione mali condistinguitur.
+          <lb ed="#P" n="46"/>Et ideo amor talis objecti est simpliciter 
+          ne<lb break="no" ed="#P" n="47"/>cessarius, quoad specificationem, quia propter
+          <lb ed="#P" n="48"/>nullam rationem etiam extrinsecam potest 
+          o<lb break="no" ed="#P" n="49"/>dio haberi. Unde si aliquando videtur quis,
+          <lb ed="#P" n="50"/>malum aliquod sibi velle, ut mortem, vel quid
+          <lb ed="#P" n="51"/>simile, id.vult sub aliqua ratione boni, ad 
+          fu<lb break="no" ed="#P" n="52"/>giendum majus malum, et ideo nunquam ab
+          <lb ed="#P" n="53"/>amore boni in communi recedit, nec illud est
+          <lb ed="#P" n="54"/>proprium odlium sui, quia veluti invitus vult
+          <lb ed="#P" n="55"/>sibi illum malum, ut majus evitet.
+        </p>
+        <p xml:id="szdada-x09431-d1e956">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>11. Concluditur, predictum amorem esse
+          <lb ed="#P" n="57"/>posse benevolentie, aut concupiscentiee. — 
+          Du<lb break="no" ed="#P" n="58"/>plec differentia in amore Angeli circa bona siti
+          <lb ed="#P" n="59"/>intrinseca, et eztrinseca. — Vx his ergo satis
+          <lb ed="#P" n="60"/>eonstat, semper habere Angelum aliquem 
+          na<lb break="no" ed="#P" n="61"/>turalem amorem, sive sub ratione amicitise,
+          <lb ed="#P" n="62"/>seu bencvolentisae, sive sub ratione 
+          concupiscen<lb break="no" ed="#P" n="63"/>tiae accipiatur, quia quatenus Angelus amat
+          <lb ed="#P" n="64"/>sibi bona essentialia, ut actualia bona actu 
+          exis<lb break="no" ed="#P" n="65"/>tentia, habet naturalem amorem purae 
+          bene<lb break="no" ed="#P" n="66"/>volentiae sui, in sensu jam explicato: quatenus
+          <lb ed="#P" n="67"/>vero amat sibi bona a se disüncta, et se amat
+          <lb ed="#P" n="68"/>amore amicitiae, seu benevolentiae, et ilia quae
+          <lb ed="#P" n="69"/>sibi vult, amat amore concupiscentias, sed 
+          in<lb break="no" ed="#P" n="70"/>ter haec est duplex diversitas, una est, quod
+          <lb ed="#P" n="71"/>ea bona, quae Angelus semper, et ab intrinseco
+          <lb ed="#P" n="72"/>habet conjuncta, amat sibi per modum 
+          con<lb break="no" ed="#P" n="73"/>cupiscentiae, alia vero, quae sunt magis 
+          extrin<lb break="no" ed="#P" n="74"/>seca, et mutationem recipiunt, amat etiam
+          <lb ed="#P" n="75"/>per modum desiderii. Quanquam, et haec,
+          <lb ed="#P" n="76"/>quando insunt, possit amare complacendo in
+          <lb ed="#P" n="77"/>ilis, ut jam insunt, eademque quantum ad
+          <lb ed="#P" n="78"/>eorum conversationem, et durationem possit,
+          <lb ed="#P" n="79"/>etiam per modum desiderii, concupiscere. Alia
+          <lb ed="#P" n="80"/>differentia est, quod de prioribus bonis 
+          intrin<lb break="no" ed="#P" n="81"/>secis amor ille, tam ut amicitia, quam ut 
+          con<lb break="no" ed="#P" n="82"/>cupiscentia est naturalis modo explicato, de
+          <lb ed="#P" n="83"/>aliis autem bonis extrinsecis, licet sit naturahs,
+          <lb ed="#P" n="84"/>ut a supernaturahl distinguitur, non est tamen
+          <lb ed="#P" n="85"/>alio modo naturalis, sed electivus. Quia licet
+          <lb ed="#P" n="86"/>sub ratione communi convenientis, aut boni,
+          <lb ed="#P" n="87"/>inclinatio paturalis omnia illa bona 
+          complec<lb break="no" ed="#P" n="88"/>tatur, nihilominus sub rationibus 
+          particulari<lb break="no" ed="#P" n="89"/>bus non amantur naturaliter, sed libere 
+          eli<lb break="no" ed="#P" n="90"/>guntur, juxta proprium consilium, et 
+          intentio<lb break="no" ed="#P" n="91"/>nem, et ideo talis amor vocatur a divo Thoma
+          <lb ed="#P" n="92"/>electivus, et a naturali distinguitur modo 
+          de<lb break="no" ed="#P" n="93"/>clarato.
+        </p>
+        <p xml:id="szdada-x09431-d1e1043">
+          <lb ed="#P" n="94"/>12. Ostenditur tertium nempe Angelum 
+          sem<lb break="no" ed="#P" n="95"/>per habere sui amorem.—Objectio.—Tandem
+          <lb ed="#P" n="96"/>hinc etiam declaratum, et probatum manet
+          <lb ed="#P" n="97"/>tertium, quod in priori parte assertionis 
+          addi<lb break="no" ed="#P" n="98"/>dimus, nimirum Angelum semper habere 
+          ali<lb break="no" ed="#P" n="99"/>quem amorem sui naturalem. Nam Angelus
+          <lb ed="#P" n="100"/>semper est in aliquo actu amandi, per omnem
+          <lb ed="#P" n="101"/>autem actum amandi se amat aliquo modo
+          <lb ed="#P" n="102"/>amore naturah, quia hic est primus amor, et
+          <lb ed="#P" n="103"/>quasi imbibitus in omni amore ordinis 
+          natu<lb break="no" ed="#P" n="104"/>ralis. Dices, interdum potest Angelus se amare
+          <lb ed="#P" n="105"/>volendo sibi particularia bona, quae non 
+          natu<lb break="no" ed="#P" n="106"/>raliter amat: ergo tunc non se amabit amore
+          <lb ed="#P" n="107"/>naturali, sed tantum electivo. Respondeo 
+          imm<lb break="no" ed="#P" n="108"/>primis, cum dicimus semper se amare aliquo
+          <lb ed="#P" n="109"/>naturalh amore, non necessario intelligi de
+          <lb ed="#P" n="110"/>amore vocato naturali, in illo rigore, sed ge-
+          <pb ed="#P" n="379"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>neratim de amore sui consentaneo naturae.
+          <lb ed="#P" n="2"/>Deinde dicimus illum amorem electivum 
+          sem<lb break="no" ed="#P" n="3"/>per fundari in amore naturali sui, ac proinde
+          <lb ed="#P" n="4"/>illum supponere, quia Angelus perfecto modo
+          <lb ed="#P" n="5"/>operatur, et non habet actualem electionem
+          <lb ed="#P" n="6"/>sine intentione. Vel denique, licet illa electio
+          <lb ed="#P" n="7"/>non semper sit propria, nec procedat ab amore
+          <lb ed="#P" n="8"/>naturali, qui sit actus distinctus, semper in se
+          <lb ed="#P" n="9"/>includit amorem naturalem: nam Angelus
+          <lb ed="#P" n="10"/>amat suum commodum, et quoties vult 
+          ali<lb break="no" ed="#P" n="11"/>quod particulare bonum, ibi formalh, et 
+          emi<lb break="no" ed="#P" n="12"/>nenti modo vult et intendit commodum suum,
+          <lb ed="#P" n="13"/>sub qua ratione amor ille naturalis est.
+        </p>
+        <p xml:id="szdada-x09431-d1e1115">
+          <lb ed="#P" n="14"/>13. Instabis, quia potest Angelus occupari
+          <lb ed="#P" n="15"/>in amore alterius Angeli, qui sit purae amicitiae
+          <lb ed="#P" n="16"/>ad illum, concupiscentiae ad bona, quae illi
+          <lb ed="#P" n="17"/>vult, tunc ergo Angelus per illum actum ninhil
+          <lb ed="#P" n="18"/>sibi vult, ergo tunc non se amat actu, neque
+          <lb ed="#P" n="19"/>amore electivo, nec naturali, ergo non semper
+          <lb ed="#P" n="20"/>se amat aliquo naturali amore, quocumque
+          <lb ed="#P" n="21"/>modo sumpto, etiam in confuso. Idem 
+          argu<lb break="no" ed="#P" n="22"/>mentum fit de amore Dei naturali: nam potest
+          <lb ed="#P" n="23"/>Angelus in solo illo occupari, et sui omnino
+          <lb ed="#P" n="24"/>oblivisci, seu nullo modo se actu amare. Haec
+          <lb ed="#P" n="25"/>objectio facile dissolveretur juxta sententiam
+          <lb ed="#P" n="26"/>asserentium, Angelum in pura natura 
+          specta<lb break="no" ed="#P" n="27"/>tum non posse dilizere Deum puro amore 
+          ami<lb break="no" ed="#P" n="28"/>citiae, sed tantum amore concupiscentiae, quia
+          <lb ed="#P" n="29"/>si hoc est verum de Deo, multo magis erit de
+          <lb ed="#P" n="30"/>alio Angelo, ut per se patet. Hoc autem posito
+          <lb ed="#P" n="31"/>necessario sequitur, Angelum, sive amet
+          <lb ed="#P" n="32"/>Deum, sive alium Angelum, semper amare se
+          <lb ed="#P" n="33"/>amopre benevolentiae, quia sibi vult Deum, vel
+          <lb ed="#P" n="34"/>alium Angelum. Sed illa sententia omissa,
+          <lb ed="#P" n="35"/>quam falsam reputamus, ut in materia de
+          <lb ed="#P" n="36"/>Gratia et Charitate probamus.
+        </p>
+        <p xml:id="szdada-x09431-d1e1167">
+          <lb ed="#P" n="37"/>14. Amans alium etiam seipswn semper 
+          a<lb break="no" ed="#P" n="38"/>inat — Amicitie perfectio in Angelo.—
+          Respon<lb break="no" ed="#P" n="39"/>demus primo, verisimile esse voluntatem 
+          natu<lb break="no" ed="#P" n="40"/>ralem Angeli, quoad suam virtutem activam
+          <lb ed="#P" n="41"/>non expleri solo amore naturali alterius 
+          An<lb break="no" ed="#P" n="42"/>geli, vel etiam Dei, et ideo nunquam ita 
+          exer<lb break="no" ed="#P" n="43"/>ceri in amore alterius, sive ille sit Deus, sive
+          <lb ed="#P" n="44"/>Angelus, quin sibi aliquid simul amet, quia
+          <lb ed="#P" n="45"/>semper est in actu, vel actibus adaequatis suae
+          <lb ed="#P" n="46"/>voluntati, secundum totam efficacitatem ejus:
+          <lb ed="#P" n="47"/>sicut de intelleciu dicebamus. Nam est 
+          verisi<lb break="no" ed="#P" n="48"/>mile has potentias servare inter se 
+          proportio<lb break="no" ed="#P" n="49"/>nem, tam in hoc, quod sicut intellectus simul
+          <lb ed="#P" n="50"/>pertecte cognoscit ipsum Angelum 
+          intelligen<lb break="no" ed="#P" n="51"/>tem et Deum, vel aliquid aliud, ita etiam 
+          pos<lb break="no" ed="#P" n="52"/>set simul utrumque amare, quam etiam in hoc
+          <lb ed="#P" n="53"/>quod utraque potentia semper est in actu 
+          se<lb break="no" ed="#P" n="54"/>cundo, secundum totam efficiendi virtutem,
+          <lb ed="#P" n="55"/>quam habet. Secundo vero addo, nullum esse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in Angelo amorem naturalem auicitiae ad 
+          al<lb break="no" ed="#P" n="57"/>terum, quo Angelus habens talem amorem
+          <lb ed="#P" n="58"/>non se amet aliquo modo, saltem 
+          concomitan<lb break="no" ed="#P" n="59"/>ter. Declaratur, quia qui amat alium, etiam
+          <lb ed="#P" n="60"/>amare amat, aquia amor ipse voluntarius est:
+          <lb ed="#P" n="61"/>qui autem amat amare, svam perfectionem
+          <lb ed="#P" n="62"/>amat, quia amor perfectio amantis est. At qui
+          <lb ed="#P" n="63"/>suam perfectionem amat, seipsum amat, ergo
+          <lb ed="#P" n="64"/>amando alium, etiam per purum amicitiae
+          <lb ed="#P" n="65"/>amorem seipsum amat amore benevolentiee,
+          <lb ed="#P" n="66"/>amando suam dilectionem amore 
+          concupiscen<lb break="no" ed="#P" n="67"/>tiae. Et hic discursus, licet in nobis aliquo modo
+          <lb ed="#P" n="68"/>locum habeat, multo vero magis in Angelis,
+          <lb ed="#P" n="69"/>qui distinctissime suos actus cognoscunt, et
+          <lb ed="#P" n="70"/>tam perfecte reflectuntur supra suos actus per
+          <lb ed="#P" n="71"/>eosdem actus simplices, ac si distinctis id 
+          face<lb break="no" ed="#P" n="72"/>rent. Neque hic amor sui diminuit puritatem
+          <lb ed="#P" n="73"/>amoris amicitiae, quia (ut dixi) est tantum 
+          con<lb break="no" ed="#P" n="74"/>comitanter ac necessario conjunctus. Imo 
+          per<lb break="no" ed="#P" n="75"/>tinet ad exceilentiam amicitiae, tum ut sit 
+          per<lb break="no" ed="#P" n="76"/>fecte voluntaria, tum etiam quia magna laus
+          <lb ed="#P" n="77"/>ejus est, quod pure intendendo bonum 
+          alte<lb break="no" ed="#P" n="78"/>rius, non possit non perficere amantem.
+        </p>
+        <p xml:id="szdada-x09431-d1e1264">
+          <lb ed="#P" n="79"/>15. Declaratur adhuc ille amor amicitie.—
+          <lb ed="#P" n="80"/>Dscrimen inter amicitiam circa Dcum et 
+          per<lb break="no" ed="#P" n="81"/>sonam creatam. — Et declaratur hoc amplius,
+          <lb ed="#P" n="82"/>quia ipsemet amor amicitie in tantum est
+          <lb ed="#P" n="83"/>amabilis, in quantum honestus est, est autem
+          <lb ed="#P" n="84"/>bonestus, in quantum secundum se, ac per se
+          <lb ed="#P" n="85"/>est consentaneus rationi, seu naturae rationali,
+          <lb ed="#P" n="86"/>vel intellectuali, ut talis est, ergo talis amor
+          <lb ed="#P" n="87"/>intrinsece includit convenientiam cum natura
+          <lb ed="#P" n="88"/>intellectuali ipsius amanutis, ergo ut sic amatur,
+          <lb ed="#P" n="89"/>eo ipso quod voluntarie et honeste exerceiur,
+          <lb ed="#P" n="90"/>ergo necessario amatur, etiam ut bouum ipsius
+          <lb ed="#P" n="91"/>amantis: et consequenter qui sic amat, etiam
+          <lb ed="#P" n="92"/>seipsum naturaliter amat. Quod si quis dicat,
+          <lb ed="#P" n="93"/>etiamsi seipsum amet, debere hoc totum in
+          <lb ed="#P" n="94"/>bonum alterius referre, ut sit pura amicitia.
+          <lb ed="#P" n="95"/>Respondeo, quando amor amicitiae est ad 
+          per<lb break="no" ed="#P" n="96"/>sonam creatam, non esse hoc necessarium ad
+          <lb ed="#P" n="97"/>puram amicitiam, sed satis esse, ut bonum 
+          il<lb break="no" ed="#P" n="98"/>Iud quod directe alteri amatur, diligatur 
+          prop<lb break="no" ed="#P" n="99"/>ter ipsum, et quoad hoc in illo sistatur: 
+          quam<lb break="no" ed="#P" n="100"/>vis perfectio ipsa sic amandi, quae necessario
+          <lb ed="#P" n="101"/>resuttat in ipsum amantem, non referatur a
+          <lb ed="#P" n="102"/>amicum, sed simphiciter velit eam sibi is, qui
+          <lb ed="#P" n="103"/>alium diligit. Respectu vero Dei, quia altiori
+          <lb ed="#P" n="104"/>modo est amicus, seu quia non. est tantum
+          <lb ed="#P" n="105"/>amicus, sed etiam ultimus finis, verum est, 
+          to<lb break="no" ed="#P" n="106"/>tam illam perfectionem propriam debere amari
+          <lb ed="#P" n="107"/>propter ipsum, sed hoc non impedit, quin sic
+          <lb ed="#P" n="108"/>operans vere illam amet sibi, ac subinde amet
+          <lb ed="#P" n="109"/>seipsum. Imo tunc amapit se duplici respectu,
+          <lb ed="#P" n="110"/>videlicet, benevolentiae, quatenus sibi amat il-
+          <pb ed="#P" n="380"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lam perfectionem et concupiscentiam respectu
+          <lb ed="#P" n="2"/>DEI, quia totum illud bonum suum et seipsum
+          <lb ed="#P" n="3"/>amat, ut aliquo modo bonum Dei, quatenus in
+          <lb ed="#P" n="4"/>illum omnia refert.
+        </p>
+        <p xml:id="szdada-x09431-d1e1349">
+          <lb ed="#P" n="5"/>16. Probatur secunda principalis pars 
+          con<lb break="no" ed="#P" n="6"/>clusionis, nempe amorem sui in Angelo non
+          <lb ed="#P" n="7"/>exerceri necessario. — Superest explicanda et
+          <lb ed="#P" n="8"/>probanda pars secunda principalis assertionis;
+          <lb ed="#P" n="9"/>videlicet nullum actum amoris sui in 
+          particu<lb break="no" ed="#P" n="10"/>lari sumptum esse in Angelo ita naturalem, ut
+          <lb ed="#P" n="11"/>sit simpliciter necessarius. In qua parte cum
+          <lb ed="#P" n="12"/>secunda sententia convenio. Et ut illam 
+          pro<lb break="no" ed="#P" n="13"/>bem, adverto, duobus modis esse posse actum
+          <lb ed="#P" n="14"/>voluntatis necessarium, quoad exercitium. 
+          Pri<lb break="no" ed="#P" n="15"/>mo ex imperfecto modo operandi per 
+          inadver<lb break="no" ed="#P" n="16"/>tentiam et subreptionem et quasi tractionem
+          <lb ed="#P" n="17"/>ab alio: quomodo contingunt nobis illi motus
+          <lb ed="#P" n="18"/>voluntatis, qui vocantur primo primi. Et de
+          <lb ed="#P" n="19"/>hoc modo naturalis, seu necessariae volitionis,
+          <lb ed="#P" n="20"/>certum existimo, in Angelis naturaliter non
+          <lb ed="#P" n="21"/>reperiri, quia nec habent inferiorem 
+          appeti<lb break="no" ed="#P" n="22"/>tum, aut phantasiam, a qua moveantur. et
+          <lb ed="#P" n="23"/>cum perfecta vel sufficienti advertentia 
+          intel<lb break="no" ed="#P" n="24"/>lectus semper operantur, ut infra dicetur. 
+          Se<lb break="no" ed="#P" n="25"/>cundo contingit actum voluntatis esse 
+          necessa<lb break="no" ed="#P" n="26"/>rium omnino, etiamsi ex parte operantis plena
+          <lb ed="#P" n="27"/>voluntate, et cum perfecta objecti cognitione
+          <lb ed="#P" n="28"/>fiat, ut contingit in beatis. Et de hoc modo est
+          <lb ed="#P" n="29"/>sermo in praesenti. Et sic probatur haec pars
+          <lb ed="#P" n="30"/>ex differentia inter intellectum et voluntatem.
+          <lb ed="#P" n="31"/>Nam intellectus non est potentia formahter
+          <lb ed="#P" n="32"/>libera, voluntas autem est libera formaliter, et
+          <lb ed="#P" n="33"/>ex hac parte non recte fit aequiparatio inter
+          <lb ed="#P" n="34"/>intellectum et voluntatem, quia non par causa
+          <lb ed="#P" n="35"/>necessitatis quoad exercitium requiritur in 
+          in<lb break="no" ed="#P" n="36"/>tellectu et in voluntate. Secundo intellectus
+          <lb ed="#P" n="37"/>est natura sua prior potentia voluntate, tam
+          <lb ed="#P" n="38"/>in esse, quam in operari; necessarium est 
+          e<lb break="no" ed="#P" n="39"/>nim, ut operando praecedat: unde etiam 
+          neces<lb break="no" ed="#P" n="40"/>se est, ut aliquam habeat operationem non
+          <lb ed="#P" n="41"/>liberam, quoad exercitium, quia nunquam
+          <lb ed="#P" n="42"/>operatur libere, nisi jam motus a voluntate, et
+          <lb ed="#P" n="43"/>per denominationem ab illa, voluntas vero ex
+          <lb ed="#P" n="44"/>vi sui modi operandi non habet illam 
+          necessi<lb break="no" ed="#P" n="45"/>tatem, quia semper illam praecedit cognitio
+          <lb ed="#P" n="46"/>objecti, quae in Angeto, ut dixi, semper est
+          <lb ed="#P" n="47"/>perfecta, seu ad usum libertatis sufficiens. 
+          Un<lb break="no" ed="#P" n="48"/>de oportet ex parte objecti vel actus, 
+          peculia<lb break="no" ed="#P" n="49"/>rem causam tantae necessitatis inveniri, alias
+          <lb ed="#P" n="50"/>gratis confingeretur; hic autem nulla talis
+          <lb ed="#P" n="51"/>causa occurrit, ut videbimus, nam hoc tantum
+          <lb ed="#P" n="52"/>probandum superest.
+        </p>
+        <p xml:id="szdada-x09431-d1e1456">
+          <lb ed="#P" n="53"/>17. Praenotatio ad excludendam necessitatem,
+          <lb ed="#P" n="54"/>que proveniat ex parte apsius actus, vel objecti.
+          <lb ed="#P" n="55"/>— Primus actus supernaturalis in angelica
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>voluntate fuit liber, quoad exercitium.— Prius
+          <lb ed="#P" n="57"/>vero notanda est alia, seu tertia differentia 
+          in<lb break="no" ed="#P" n="58"/>ter actum intellectus, et voluntatis, quae ex
+          <lb ed="#P" n="59"/>dictis nascitur. Nimirum, quod actus 
+          intellec<lb break="no" ed="#P" n="60"/>tus est fundamentum totius usus liberi, et ideo
+          <lb ed="#P" n="61"/>necesse est, ut aliquis actus intellectus sit 
+          om<lb break="no" ed="#P" n="62"/>nino naturalis, quoad absolutam necessitatem,
+          <lb ed="#P" n="63"/>et exercitium, ut sit fundamentum, tum 
+          om<lb break="no" ed="#P" n="64"/>nium actuum eliciendorum a voluntate, tum
+          <lb ed="#P" n="65"/>etiam suo modo omnium actuum libere 
+          exer<lb break="no" ed="#P" n="66"/>cendorum ab ipso intellectu moto a voluntate:
+          <lb ed="#P" n="67"/>in voluntate autem nulla est talis necessitas,
+          <lb ed="#P" n="68"/>nam frustra, et sine fundamento dicitur, 
+          ali<lb break="no" ed="#P" n="69"/>quem amorem sul esse fundamentum omnium
+          <lb ed="#P" n="70"/>aliorum amorum, vel actuum voluntatis. 
+          Pro<lb break="no" ed="#P" n="71"/>batur, quia nec est necessarius, tanquam 
+          pro<lb break="no" ed="#P" n="72"/>ponens objectum aliis actibus, quae necessitas
+          <lb ed="#P" n="73"/>in actu intellectus invenitur (ut supra dixi)
+          <lb ed="#P" n="74"/>nec etiam est necessitas, quasi effective 
+          mo<lb break="no" ed="#P" n="75"/>ventis, aut imperants, qualis est inter 
+          inten<lb break="no" ed="#P" n="76"/>tionem finis, et electionem mediorum, quia
+          <lb ed="#P" n="77"/>voluntas potest suum cursum (ut sic dicam) 
+          in<lb break="no" ed="#P" n="78"/>choare ab electione libera, quoad exercitium,
+          <lb ed="#P" n="79"/>ut in nobis manifestum est, quod nunc ex 
+          pri<lb break="no" ed="#P" n="80"/>ma secundae suppono; et in doctrina de Anima
+          <lb ed="#P" n="81"/>ostenditur. In ipsis etiam Angelis primus actus
+          <lb ed="#P" n="82"/>supernaturalis voluntatis potuit esse liber,
+          <lb ed="#P" n="83"/>saltem quoad exercitium, et ita fuit de facto,
+          <lb ed="#P" n="84"/>ut in libro quinto ostendemus. Ergo etiam in
+          <lb ed="#P" n="85"/>ordine naturali prima intentio, seu primus
+          <lb ed="#P" n="86"/>amor Angeli potuit esse liber quoad 
+          exerci<lb break="no" ed="#P" n="87"/>tium, ergo nullum amorem naturalem 
+          neces<lb break="no" ed="#P" n="88"/>sarium quoad exercitium praerequirit, ut in
+          <lb ed="#P" n="89"/>eo fundetur. Nam amor boni propter seipsum,
+          <lb ed="#P" n="90"/>qui est per modum simphrcis voluntatis, vel
+          <lb ed="#P" n="91"/>intentionis, non indiget alio actu voluntatis,
+          <lb ed="#P" n="92"/>in quo fundetur, quia ipsa voluntas immediate
+          <lb ed="#P" n="93"/>potest movere seipsam ad suum actum 
+          elici<lb break="no" ed="#P" n="94"/>tum, ac liberum, sine pravio actu imperante,
+          <lb ed="#P" n="95"/>quando tendit in bonum propter seipsum 
+          ama<lb break="no" ed="#P" n="96"/>bile, et ut tale est.
+        </p>
+        <p xml:id="szdada-x09431-d1e1556">
+          <lb ed="#P" n="97"/>18. Jam vero quod ex parte objecti, vel 
+          ac<lb break="no" ed="#P" n="98"/>tus nulla sit causa talis necessitatis, probatur,
+          <lb ed="#P" n="99"/>quia quidquid boni Angelus in se videt, finitum
+          <lb ed="#P" n="100"/>est et licet sit proprium, potest actu possideri,
+          <lb ed="#P" n="101"/>etiamsi non actu ametur: bona vero alia, quae
+          <lb ed="#P" n="102"/>sibi amare potest, multo minus possunt 
+          neces<lb break="no" ed="#P" n="103"/>sitatem inferre voluntati in particulari, quia
+          <lb ed="#P" n="104"/>non possunt omnia simul distincte, et in 
+          par<lb break="no" ed="#P" n="105"/>ticulari amari. Unde liberum est, circa hoc,
+          <lb ed="#P" n="106"/>vel illud versari, ergo ex parte objecti nulla
+          <lb ed="#P" n="107"/>apparet necessitas alicujus actus in particulari.
+          <lb ed="#P" n="108"/>Nec vero esse potest ex parte ipsius actus, 
+          prop<lb break="no" ed="#P" n="109"/>ter eamdem rationem, quia nullus in 
+          particu<lb break="no" ed="#P" n="110"/>lari est necessarius ad. proprium commodum,
+          <pb ed="#P" n="381"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel ad naturalem felicitatem, ergo in nullo actu
+          <lb ed="#P" n="2"/>determinato talis necessitas invenitur.
+        </p>
+        <p xml:id="szdada-x09431-d1e1598">
+          <lb ed="#P" n="3"/>19. Excluditur jam preedicta necessitas.—
+          <lb ed="#P" n="4"/>Et praeterea interrogo, quisnam actus proprii
+          <lb ed="#P" n="5"/>amoris sit necessarius Angelo, quoad 
+          exerci<lb break="no" ed="#P" n="6"/>tium. Aut enim est complacentia naturalis,
+          <lb ed="#P" n="7"/>quam habet in propria perfectione, et bonitate
+          <lb ed="#P" n="8"/>naturali, quam in se videt, cum affectu, et
+          <lb ed="#P" n="9"/>quast desiderio conservandi illam, seu, quod
+          <lb ed="#P" n="10"/>idem est, existendi cum ea dispositione, et
+          <lb ed="#P" n="11"/>perfectione: vel est amor alicujus alterius boni
+          <lb ed="#P" n="12"/>naiuralis. Hoc secundum dici non potest 
+          prop<lb break="no" ed="#P" n="13"/>ter rationem factam, quod in amore istorum
+          <lb ed="#P" n="14"/>bonorum, quae ab intrinseco, et naturali 
+          neces<lb break="no" ed="#P" n="15"/>sitate non habentur, versatur maxime libertas
+          <lb ed="#P" n="16"/>Angeli,non solum quoad exercitium, sed etiam
+          <lb ed="#P" n="17"/>quoad specificationem, et ideo nunc habet 
+          af<lb break="no" ed="#P" n="18"/>fectum hujus rei, nunc alterius, et in nullo
+          <lb ed="#P" n="19"/>particulari affectu perpetuo permanet. De 
+          prio<lb break="no" ed="#P" n="20"/>ri vero actu idem probatur ratione facta, quia
+          <lb ed="#P" n="21"/>nec objectum tantam necessitatem inducere
+          <lb ed="#P" n="22"/>potest, neque etiam ipse actus propter alia 
+          o<lb break="no" ed="#P" n="23"/>pera est necessarius, nec etiam propter 
+          seip<lb break="no" ed="#P" n="24"/>sum, quia potest Angelus in aliis actibus cum
+          <lb ed="#P" n="25"/>equali perfectione, vel voluntate, vel honestate
+          <lb ed="#P" n="26"/>versari. Nam licet quis dicat, posse hunc actum
+          <lb ed="#P" n="27"/>simul cum aliis exerceri, nihilominus negari
+          <lb ed="#P" n="28"/>non potest, quin possit voluntas tanto conatu
+          <lb ed="#P" n="29"/>applicari ad alios actus, et in tanta varietate,
+          <lb ed="#P" n="30"/>ut non possit Ángelus simul circa seipsum per
+          <lb ed="#P" n="31"/>alium actum particularem occupari. Secundo
+          <lb ed="#P" n="32"/>potest idem persuaderi, quia ille actus 
+          compla<lb break="no" ed="#P" n="33"/>centiae in suis bonis non est adeo intrinsece
+          <lb ed="#P" n="34"/>honestus, quin possit inordinate haberi. Unde
+          <lb ed="#P" n="35"/>licet objectum sit idem, potest in modo, et
+          <lb ed="#P" n="36"/>motivo diversis actibus fieri, hoc autem satis
+          <lb ed="#P" n="37"/>est, ut nullus eorum sit quoad exercitium 
+          ne<lb break="no" ed="#P" n="38"/>cessarius. Consequentia nota est, et antecedens
+          <lb ed="#P" n="39"/>patebit ex discursu capitis sequentis, et ex 
+          in<lb break="no" ed="#P" n="40"/>fra dicendis de peccato Angelorum. Et 
+          decla<lb break="no" ed="#P" n="41"/>rari potest in daemonibus, nam sine dubio 
+          ha<lb break="no" ed="#P" n="42"/>bent amorem sui commodi valde inordinatum:
+          <lb ed="#P" n="43"/>unde verisimile non est, esse illum amorem
+          <lb ed="#P" n="44"/>sui datum ab auctore naturae, qualis futurus
+          <lb ed="#P" n="45"/>esset amor omnino necessarius. Et ita quoad
+          <lb ed="#P" n="46"/>hanc partem adhaereo postremae sententiae,nec
+          <lb ed="#P" n="47"/>in aliis sententiis invenio fundamentum, cui
+          <lb ed="#P" n="48"/>respondere necessarium sit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 19</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 19</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="200"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x05015"><!-- l2c19 -->
+        <head xml:id="szdada-x05015-Hd1e101">Caput 19</head>
+        <head xml:id="szdada-x05015-Hd1e103" type="question-title">Utrum angelus eodem, vel distinctis actibus se, et deum per suam substantiam cognoscat</head>
+        <p xml:id="szdada-x05015-d1e106">
+          <lb ed="#P" n="48"/>CAPUT XIX.
+          <lb ed="#P" n="49"/>UTRUM ANGELUS EODEM, VEL DISTINCTIS ACTIBUS
+          <lb ed="#P" n="50"/>SE, ET DEUM PER SUAM SUBSTANTIAM 
+          COGNOS<lb break="no" ed="#P" n="51"/>CAT.
+        </p>
+        <p xml:id="szdada-x05015-d1e117">
+          <lb ed="#P" n="52"/>1. Prima opinio.—be hoc puncto quod est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>alterum dubium ex tribus quae superiori capite
+          <lb ed="#P" n="54"/>in num. 2, censuimus, nihil expresse invenio
+          <lb ed="#P" n="55"/>dictum a S. Thoma, et ejus interpretes varie
+          <lb ed="#P" n="56"/>loqui, et sentire videntur. Quidam sentiunt
+          <lb ed="#P" n="57"/>esse diversos actus, quoniam unus ex alio 
+          na<lb break="no" ed="#P" n="58"/>turaliter oritur: non potest autem esse 
+          dima<lb break="no" ed="#P" n="59"/>natio unius ab alio sine distinctione. Et hoc
+          <lb ed="#P" n="60"/>sentit Cajetanus ad 2 Scoti dicens, essentiam
+          <lb ed="#P" n="61"/>Angeli, ut cognitam eminentiorem modo Dei
+          <lb ed="#P" n="62"/>cognitionem elicere. Item quia Angelus 
+          co<lb break="no" ed="#P" n="63"/>gnoscit se intuitive, et DEUM abstractive: 
+          co<lb break="no" ed="#P" n="64"/>enitio autem intuitiva, et abstractiva sunt 
+          ac<lb break="no" ed="#P" n="65"/>tus distincti. Propter quod argumentum 
+          maxi<lb break="no" ed="#P" n="66"/>me huic parti adhaeret Molina, dicto art. 3.
+          <lb ed="#P" n="67"/>Et simile esse potest, quod se cognoscit 
+          An<lb break="no" ed="#P" n="68"/>gelus quidditative, et perfecte, ac proprio 
+          con<lb break="no" ed="#P" n="69"/>ceptu, Deum autem valde imperfecte, et per
+          <lb ed="#P" n="70"/>conceptum connotativum, negativum, aut 
+          si<lb break="no" ed="#P" n="71"/>milem.
+        </p>
+        <p xml:id="szdada-x05015-d1e165">
+          <lb ed="#P" n="72"/>Secunda opinio.— Contrarium sentiunt 
+          Fer<lb break="no" ed="#P" n="73"/>rariensis, hipa, et alii, et probant praecipue,
+          <lb ed="#P" n="74"/>quia alias Angelus cognosceret Deum per 
+          dis<lb break="no" ed="#P" n="75"/>cursum, quia nihil aliud est discurrere, quam
+          <lb ed="#P" n="76"/>unum ex alio colligere per actum distinctum.
+          <lb ed="#P" n="77"/>Unde Scotus, in d. 3, quaest. 9, in hoc 
+          concor<lb break="no" ed="#P" n="78"/>dans (ut videtur) cum priori opinione, quod
+          <lb ed="#P" n="79"/>non potest Angelus uno actu cognoscere se, et
+          <lb ed="#P" n="80"/>extra se Deum, colligit, absolute non posse
+          <lb ed="#P" n="81"/>Angelum cognoscere Deum per suam 
+          substan<lb break="no" ed="#P" n="82"/>tiam, quia alias per discursum illum 
+          cognos<lb break="no" ed="#P" n="83"/>ceret. Et ideo Ferrariensis ut respondeat Scoto,
+          <lb ed="#P" n="84"/>negat esse discursum, quia utriusque objecti
+          <lb ed="#P" n="85"/>cognitio per unum actum fit. Secundo 
+          argu<lb break="no" ed="#P" n="86"/>mentor in hunc modum, quia relatio, et 
+          ter<lb break="no" ed="#P" n="87"/>minus eodem actu cognoscuntur, sed Angelus
+          <lb ed="#P" n="88"/>cognoscendo se cognoscit Deum, ut terminum
+          <lb ed="#P" n="89"/>habitudinis transcendentalis, quam ad ipsum
+          <lb ed="#P" n="90"/>habet, ergo cognoscit se et Deum eodem 
+          ac<lb break="no" ed="#P" n="91"/>tu. Consequentia cum Majori patet. Minor
+          <lb ed="#P" n="92"/>probatur, quia inde Angelus cognoscendo se,
+          <lb ed="#P" n="93"/>cognoscit Deum, quia cognitio est 
+          comprehen<lb break="no" ed="#P" n="94"/>siva substantiae suae, et ideo illam necessario
+          <lb ed="#P" n="95"/>cognoscit, ut ens participatum, et dependens
+          <lb ed="#P" n="96"/>ab alio, ergo illa eadem cognitio necessario
+          <lb ed="#P" n="97"/>attingit terminum illius dependentiae, qui est
+          <lb ed="#P" n="98"/>Deus. Attingere autem illum, est cognoscere
+          <lb ed="#P" n="99"/>illum esse, et esse causam suae substantiae, et
+          <lb ed="#P" n="100"/>hoc est cognoscere Deum per seipsum, ergo
+          <lb ed="#P" n="101"/>eodem actu.
+        </p>
+        <p xml:id="szdada-x05015-d1e234">
+          <lb ed="#P" n="102"/>2. Pro vera sententia notatio duplicis 
+          concep<lb break="no" ed="#P" n="103"/>tus. — Prima conclusio.—Angelus eodem actu se
+          <lb ed="#P" n="104"/>et Dewm cognoscit conceptu respectivo.—
+          Respon<lb break="no" ed="#P" n="105"/>detur contrariis argumentis in numero 
+          prae<lb break="no" ed="#P" n="106"/>cedenti. — Mihi in hoc puncto distinguendum
+          <lb ed="#P" n="107"/>videtur: nam duphliciter potest cognosci Deus,
+          <pb ed="#P" n="201"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>uno modo conceptu quasi respectivo, quo 
+          co<lb break="no" ed="#P" n="2"/>gnoscitur ut causa alicujus effectus, et 
+          conse<lb break="no" ed="#P" n="3"/>quenter etiam cognoscitur evidenter quoad
+          <lb ed="#P" n="4"/>quaestionem, an sit, quia cognoscendo 
+          eviden<lb break="no" ed="#P" n="5"/>ter effectum, et dependentiam effectus ab alio,
+          <lb ed="#P" n="6"/>evidenter cognoscitur esse id, a quo dependet.
+          <lb ed="#P" n="7"/>Alio modo potest cognosci Deus conceptu 
+          ab<lb break="no" ed="#P" n="8"/>soluto, ut quando cogitatur ut ens infinitum,
+          <lb ed="#P" n="9"/>omnipotens, etc., sine aliquo attributo, quod
+          <lb ed="#P" n="10"/>includat habitudinem ad creaturam actu 
+          exis<lb break="no" ed="#P" n="11"/>tentem. Hunc enim Dei conceptum nos ipsi in
+          <lb ed="#P" n="12"/>nobis experimur, ergo multo perfectior 
+          pote<lb break="no" ed="#P" n="13"/>rit esse in Angelis. Dico ergo, priori modo
+          <lb ed="#P" n="14"/>Angelum cognoscere Deum eodem actu, quo
+          <lb ed="#P" n="15"/>seipsum cognoscit. Hoc probat mihi efficaciter
+          <lb ed="#P" n="16"/>ratio posteriori loco facta; non enim video,
+          <lb ed="#P" n="17"/>quomodo possit effectus, ut dependens cognosci
+          <lb ed="#P" n="18"/>per actum, qui ad ipsam causam non 
+          termi<lb break="no" ed="#P" n="19"/>netur, si talis effectus, et dependentia ejus,
+          <lb ed="#P" n="20"/>prout in se sunt, evidenter, et quidditative
+          <lb ed="#P" n="21"/>cognoscantur. Item ratio prior de discursu
+          <lb ed="#P" n="22"/>congrua est, licet pendeat ex his, quae infra
+          <lb ed="#P" n="23"/>de discursu Angeli dicenda sunt. Nec contra
+          <lb ed="#P" n="24"/>hoc obstant motiva prioris sententiae. Ad 
+          pri<lb break="no" ed="#P" n="25"/>mum enim nego esse unum actum, qui 
+          reali<lb break="no" ed="#P" n="26"/>ter manet ab alio, non est enim nisi unus 
+          ac<lb break="no" ed="#P" n="27"/>tus, qui primario ad unum, et consequenter
+          <lb ed="#P" n="28"/>ad alium propter necessariam connexionem
+          <lb ed="#P" n="29"/>terminatur, et ideo secundum rationem 
+          dici<lb break="no" ed="#P" n="30"/>tur prius attingere unum, quam aliud, non
+          <lb ed="#P" n="31"/>tamen secundum rem, vel causalitatem 
+          rea<lb break="no" ed="#P" n="32"/>lem. Ad secundum vero dicimus, non esse 
+          in<lb break="no" ed="#P" n="33"/>conveniens, quod respectu diversorum unus
+          <lb ed="#P" n="34"/>actus simul sit intuitiva cognitio unius, et 
+          ab<lb break="no" ed="#P" n="35"/>stractiva alterius: nam in ipsa scientia Dei,
+          <lb ed="#P" n="36"/>vel visione clara DEI hoc reperitur. Et saepe
+          <lb ed="#P" n="37"/>Angelus in re existente, quam intuetur, 
+          co<lb break="no" ed="#P" n="38"/>gnoscit aliam esse possibilem, quam tantum
+          <lb ed="#P" n="39"/>abstractive cognoscit. Et eadem ratione non
+          <lb ed="#P" n="40"/>repugnat, eamdem cognitionem esse perfectam
+          <lb ed="#P" n="41"/>respectu primarii objecti, et non respectu 
+          se<lb break="no" ed="#P" n="42"/>cundarii, quando non est medium adaequatum,
+          <lb ed="#P" n="43"/>vel quando secundarium longe excellentius est.
+          <lb ed="#P" n="44"/>Dices, ergo si Angelus cognoscat simul plures
+          <lb ed="#P" n="45"/>Angelos, verbi gratia, vel alios Dei effectus,
+          <lb ed="#P" n="46"/>habebit simul plures cognitiones Dei, quia 
+          co<lb break="no" ed="#P" n="47"/>gnoscendo unumquemque Angelum, per 
+          eum<lb break="no" ed="#P" n="48"/>dem actum cognoscet Deum: nam ita 
+          cognos<lb break="no" ed="#P" n="49"/>cit Deum per speciem alterius, sicut per 
+          seip<lb break="no" ed="#P" n="50"/>sum, ut statim dicemus. Respondeo 
+          conceden<lb break="no" ed="#P" n="51"/>do sequelam, nullum enim inconveniens hoc
+          <lb ed="#P" n="52"/>est, quia cognitiones illae sunt diversarum
+          <lb ed="#P" n="53"/>rationum, seu de distinctis objectis primariis,
+          <lb ed="#P" n="54"/>et inde multiplicantur, et unaquaeque potest
+          <lb ed="#P" n="55"/>transire ad objectum secundarium, et nihil-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ominus distinctae etiam in hoc manent, quia
+          <lb ed="#P" n="57"/>per diversas vias ad illum tendunt.
+        </p>
+        <p xml:id="szdada-x05015-d1e380">
+          <lb ed="#P" n="58"/>3. Secunda conclusio.—Angelus potest 
+          for<lb break="no" ed="#P" n="59"/>mare conceptum absolutum Dei.— Addo 
+          nihil<lb break="no" ed="#P" n="60"/>ominus, posse Angelum habere proprium 
+          ac<lb break="no" ed="#P" n="61"/>tum cognitionis, et conceptionis Dei distinctum
+          <lb ed="#P" n="62"/>ab actu, quo se, vel alios effectus Dei, et per
+          <lb ed="#P" n="63"/>illos Deum cognoscit. Hoc imprimis probo illa
+          <lb ed="#P" n="64"/>ratione, quod Angelus potest cognoscere 
+          ah<lb break="no" ed="#P" n="65"/>quando Deum conceptu absoluto, id est, non ut
+          <lb ed="#P" n="66"/>terminum dependentiae, aut alterius 
+          habitudi<lb break="no" ed="#P" n="67"/>nis transcendentalis ipsiusmet Angeli, vel 
+          al<lb break="no" ed="#P" n="68"/>terius creaturae ad Deum, neque etiam ut 
+          ha<lb break="no" ed="#P" n="69"/>bentem relationem aliquam ad creaturam actu
+          <lb ed="#P" n="70"/>existentem, id est, sub conceptu creatoris, vel
+          <lb ed="#P" n="71"/>alio simili, sed sub conceptu communi adjuncta
+          <lb ed="#P" n="72"/>negatione, ut entis a se, seu non ab alio, 
+          infi<lb break="no" ed="#P" n="73"/>niti, immensi, omnipotentis, etc. Hic enim
+          <lb ed="#P" n="74"/>conceptus Dei licet absolute sit imperfectus 
+          res<lb break="no" ed="#P" n="75"/>pectu Dei, respectu habentis est magna pei
+          <lb ed="#P" n="76"/>fectio: non est ergo, cur Angelo denegetur. At
+          <lb ed="#P" n="77"/>ille conceptus distinctus est ab actu, quo se
+          <lb ed="#P" n="78"/>Angelus cognoscit, quia per se non habet 
+          con<lb break="no" ed="#P" n="79"/>nexionem cum illo. Unde argumentor secundo:
+          <lb ed="#P" n="80"/>nam Angelus potest cogitare de Deo, non 
+          co<lb break="no" ed="#P" n="81"/>gitando de aliquo objecto creato, ergo illa 
+          co<lb break="no" ed="#P" n="82"/>gitatio est actus distinctus ab omni actu 
+          cogni<lb break="no" ed="#P" n="83"/>tionis sui, vel alterius objecti creati. 
+          Conse<lb break="no" ed="#P" n="84"/>quentia est per se evidens, quia si esset ille 
+          ac<lb break="no" ed="#P" n="85"/>tus cognitio alicujus objecti creati, esset 
+          cogi<lb break="no" ed="#P" n="86"/>tatio illius, quod est contra hypothesim. 
+          Pro<lb break="no" ed="#P" n="87"/>batur ergo antecedens primo ex divo Thoma,
+          <lb ed="#P" n="88"/>quaest. 8, de Verit., art. 3, ad 18, ubi in 
+          ar<lb break="no" ed="#P" n="89"/>gumento sumpserat, posse Angelum cogitare
+          <lb ed="#P" n="90"/>de Deo, non cogitando de aliqua creatura, et
+          <lb ed="#P" n="91"/>in solutione id concedit de omni viatore. Et
+          <lb ed="#P" n="92"/>videtur in nobis esse notum experientia, licet
+          <lb ed="#P" n="93"/>pauci fortasse illam habeant, maxime tamen
+          <lb ed="#P" n="94"/>illam habere solent, quia omnia relinquunt,
+          <lb ed="#P" n="95"/>ut pure de DEO cogitent, ut Dionysius docet,
+          <lb ed="#P" n="96"/>multo ergo magis poterit id facere Angelus.
+          <lb ed="#P" n="97"/>Quomodo autem id facere possit, declarare 
+          co<lb break="no" ed="#P" n="98"/>nabimur: non enim omnino facile, et 
+          expedi<lb break="no" ed="#P" n="99"/>tum est.
+        </p>
+        <p xml:id="szdada-x05015-d1e474">
+          <lb ed="#P" n="100"/>4. Ad secundam rationem in numero primo.
+          <lb ed="#P" n="101"/>— Quid ad primam. — Probatur ergo assertio
+          <lb ed="#P" n="102"/>tertio, quia quando Angelus cognoscit Deum
+          <lb ed="#P" n="103"/>eodem actu, quo se cognoscit, solum concipit
+          <lb ed="#P" n="104"/>Deum tanquam secundarium objectum illius
+          <lb ed="#P" n="105"/>actus, et ut terminum habitudinis et 
+          depen<lb break="no" ed="#P" n="106"/>dentiae Angeli ab ipso, ergo inde potest 
+          suffi<lb break="no" ed="#P" n="107"/>cienter excitari ad cogitandum de DEO 
+          secun<lb break="no" ed="#P" n="108"/>dum se, et ut primario objecto novi actus, per
+          <lb ed="#P" n="109"/>quem uberius et distinctius cognoscat Dei 
+          per<lb break="no" ed="#P" n="110"/>fectiones et attributa. Nam per actum, quo se
+          <pb ed="#P" n="202"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cognoscit, fortasse solum potest cognoscere
+          <lb ed="#P" n="2"/>Deum ut effectorem suum, et ad summum ut
+          <lb ed="#P" n="3"/>causam primam sui esse. Quamvis autem in
+          <lb ed="#P" n="4"/>hoc attributo virtute contineantur reliqua, 
+          for<lb break="no" ed="#P" n="5"/>tasse non potest Angelus illo eodem actu 
+          om<lb break="no" ed="#P" n="6"/>nia penetrare sine majori applicatione sui 
+          lu<lb break="no" ed="#P" n="7"/>minis intellectualis, ergo poterit per illum 
+          pri<lb break="no" ed="#P" n="8"/>mum actum excitari ad applicandum 
+          intellec<lb break="no" ed="#P" n="9"/>tuale lumen suum, ut DEUM magis directe et
+          <lb ed="#P" n="10"/>absolute contempletur, et cognoscat illum non
+          <lb ed="#P" n="11"/>solum ut principium suum, sed etiam ut 
+          prin<lb break="no" ed="#P" n="12"/>cipium primum omnis rei factae vel possibilis,
+          <lb ed="#P" n="13"/>infinitum et omnipotens. Item ut summum ac
+          <lb ed="#P" n="14"/>purum actum, summeque intellectualem, 
+          sa<lb break="no" ed="#P" n="15"/>pientem, etc. Nam haec omnia in illo principio
+          <lb ed="#P" n="16"/>continentur, quod Deus est terminus 
+          depen<lb break="no" ed="#P" n="17"/>dentiae Angeli a sua causa: nihilominus tamen
+          <lb ed="#P" n="18"/>non poterunt omnia in illo penetrari, nisi 
+          di<lb break="no" ed="#P" n="19"/>recte ac per se, et magna applicatione Iuminis
+          <lb ed="#P" n="20"/>intellectualis cognoscatur. Ergo 
+          verisimilli<lb break="no" ed="#P" n="21"/>mum est, hunc actum esse distinctum ab eo,
+          <lb ed="#P" n="22"/>quo Angelusse et per seipsum Deum cognoscit.
+          <lb ed="#P" n="23"/>Et ita de hoc actu non procedit secunda ratio
+          <lb ed="#P" n="24"/>facta pro prima sententia, quia per hunc actum
+          <lb ed="#P" n="25"/>non cognoscitur DEUS tantum ut terminus
+          <lb ed="#P" n="26"/>dependentiae angelicae, sed cognoscitur altiori
+          <lb ed="#P" n="27"/>modo et cognitione magis absoluta, ut 
+          decla<lb break="no" ed="#P" n="28"/>ravi. Neque etiam urget primum fundamentum
+          <lb ed="#P" n="29"/>ejusdem sententiae, seu argumentum Scoti de
+          <lb ed="#P" n="30"/>discursu, ut in dubio sequenti magis 
+          declara<lb break="no" ed="#P" n="31"/>bitur.
+        </p>
+        <p xml:id="szdada-x05015-d1e572">
+          <lb ed="#P" n="32"/>6. Tertium dubium ex recensitis capite 
+          pree<lb break="no" ed="#P" n="33"/>cedenti in num. 2. — EHEjusque sensus dupleam
+          <lb ed="#P" n="34"/>resolutio dubii in priori sensu. — Interrogari
+          <lb ed="#P" n="35"/>enim potest, an Dei cognitio actualis sit 
+          neces<lb break="no" ed="#P" n="36"/>sario, ac naturaliter conjuncta in Angelo cum
+          <lb ed="#P" n="37"/>cognitione sui, vel ex libertate Angeli aliquo
+          <lb ed="#P" n="38"/>modo pendeat. Quae interrogatio duplicem 
+          po<lb break="no" ed="#P" n="39"/>test habere sensum: unus est, an Angelus 
+          co<lb break="no" ed="#P" n="40"/>gnoscendo se, necessario cognoscat DEUM:
+          <lb ed="#P" n="41"/>alius est, an cognoscendo Deum actualiter, 
+          ne<lb break="no" ed="#P" n="42"/>cessario etiam cognoscat se. In priori sensu
+          <lb ed="#P" n="43"/>facilis est resolutio ex dictis: nam 
+          distinguen<lb break="no" ed="#P" n="44"/>dum est de duplici cognitione Dei, quam 
+          An<lb break="no" ed="#P" n="45"/>gelus habere potest ex vi cognitionis sui, ut
+          <lb ed="#P" n="46"/>explicuimus. Et de priori, qua Deus 
+          cognosci<lb break="no" ed="#P" n="47"/>tur ut terminus dependentiae Angeli ab ipso,
+          <lb ed="#P" n="48"/>dicendum est, necessario, et connaturaliter
+          <lb ed="#P" n="49"/>conjunctam esse cum cognitione sui 
+          ejusdem<lb break="no" ed="#P" n="50"/>met Angeli cognoscentis Deum. Probatur, tum
+          <lb ed="#P" n="51"/>quia est idem indivisibilis actus, tum etiam
+          <lb ed="#P" n="52"/>quia illo modo non cognoscitur Deus per talem
+          <lb ed="#P" n="53"/>actum ut primarium objectum ejus, sed ut 
+          sc<lb break="no" ed="#P" n="54"/>cundarium, cum quo primarium necessario
+          <lb ed="#P" n="55"/>annexum est, sed hoc modo non potest co-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gnosci objectum primarium sine secundario,
+          <lb ed="#P" n="57"/>sicut non potest cognosci relatio sine 
+          ter<lb break="no" ed="#P" n="58"/>mino. At vero de altera cognitione Dei,
+          <lb ed="#P" n="59"/>quae est per absolutum conceptum 
+          distinc<lb break="no" ed="#P" n="60"/>tum ab actu, quo Angelus se cognoscit,
+          <lb ed="#P" n="61"/>dicendum est, non esse necessario, ac 
+          na<lb break="no" ed="#P" n="62"/>turaliter conjunctum in Angelo cum 
+          cogni<lb break="no" ed="#P" n="63"/>tione sui, sed posse hanc sine illa exerceri.
+          <lb ed="#P" n="64"/>Probatur primo, quia illi sunt duo actus in
+          <lb ed="#P" n="65"/>reipsa distincti, et absoluti, et actus, quo 
+          An<lb break="no" ed="#P" n="66"/>gelus se cognoscit, est prior natura sua: id 
+          au<lb break="no" ed="#P" n="67"/>tem, quod est in re distinctum, et prius, ac
+          <lb ed="#P" n="68"/>absolutum, potest separari a posteriori et sine
+          <lb ed="#P" n="69"/>illo esse, ergo etiam ille prior actus, quo 
+          An<lb break="no" ed="#P" n="70"/>gelus se cognoscit, poterit esse sine posteriori,
+          <lb ed="#P" n="71"/>quo DEUM secundum se, et absolute cognoscit.
+          <lb ed="#P" n="72"/>Secundo quia per ipsummet actum, quo 
+          An<lb break="no" ed="#P" n="73"/>gelus se cognoscit, cognoscit etiam Deum,
+          <lb ed="#P" n="74"/>quantum necesse est ad se cognoscendum 
+          per<lb break="no" ed="#P" n="75"/>fecte, et comprehensive, ergo quidquid postea
+          <lb ed="#P" n="76"/>addit altera Dei cognitio, non est simpliciter
+          <lb ed="#P" n="77"/>necessarium, ut Angelus habeat actum 
+          cognos<lb break="no" ed="#P" n="78"/>cendi se, ergo non est, unde necessario 
+          infe<lb break="no" ed="#P" n="79"/>ratur ex illo. Tertio ille secundus actus 
+          requi<lb break="no" ed="#P" n="80"/>rit specialem applicationem mentis, et 
+          atten<lb break="no" ed="#P" n="81"/>tionis Angeli, ut explicavi: haec autem 
+          appli<lb break="no" ed="#P" n="82"/>catio libera est, et a voluntate pendens, quia
+          <lb ed="#P" n="83"/>nihil assignari potest, quod Angelum ad illam
+          <lb ed="#P" n="84"/>necessitet, ergo est in libertate Angeli, 
+          exis<lb break="no" ed="#P" n="85"/>tente cognitione sui non applicare intellectum
+          <lb ed="#P" n="86"/>ad alium peculiarem modum cogitandi de
+          <lb ed="#P" n="87"/>Deo, ac proinde habere poterit actum 
+          cognos<lb break="no" ed="#P" n="88"/>cendi se sine illo actu absoluto contemplandi
+          <lb ed="#P" n="89"/>Deum.
+        </p>
+        <p xml:id="szdada-x05015-d1e702">
+          <lb ed="#P" n="90"/>6. Resolutio in sensu posteriori.— In altero
+          <lb ed="#P" n="91"/>sensu contrariae comparationis clarum est juxta
+          <lb ed="#P" n="92"/>dicta, priorem modum, quo Angelus 
+          cogno<lb break="no" ed="#P" n="93"/>scit Deum per suam substantiam, non posse
+          <lb ed="#P" n="94"/>esse sine cognitione sui, hoc enim in priori
+          <lb ed="#P" n="95"/>puncto praecipue actum est, tum quia non 
+          po<lb break="no" ed="#P" n="96"/>test cognosci secundarium objectum, ut tale
+          <lb ed="#P" n="97"/>est, sine primario, tum etiam quia Deus 
+          co<lb break="no" ed="#P" n="98"/>gnoscitur illo modo per Angelum tanquam
+          <lb ed="#P" n="99"/>per medium cognitum. Dubium ergo solum
+          <lb ed="#P" n="100"/>superest, an e contrario possit Angelus illo
+          <lb ed="#P" n="101"/>posteriori modo actu cognoscere Deum 
+          absolu<lb break="no" ed="#P" n="102"/>to, et directo conceptu, etiamsi seipsum idem
+          <lb ed="#P" n="103"/>Angelus non cognoscat. Est autem quaestio
+          <lb ed="#P" n="104"/>formaliter tractanda, et (ut ita dicam) per 
+          lo<lb break="no" ed="#P" n="105"/>cum intrinsecum, non per extrinsecam 
+          conco<lb break="no" ed="#P" n="106"/>mitantiam. Est enim quaestio inter theologos,
+          <lb ed="#P" n="107"/>et infra tractanda, an possit Angelus cessare a
+          <lb ed="#P" n="108"/>cognitione sui, vel necessitate naturali seipsum
+          <lb ed="#P" n="109"/>semper intueatur. Unde si supponamus, 
+          par<lb break="no" ed="#P" n="110"/>tem illam esse veram, quae cognitionem sui
+          <pb ed="#P" n="203"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>necessariam esse in Angelo affirmat, certe non
+          <lb ed="#P" n="2"/>poterit Angelus habere cognitione Dei sine
+          <lb ed="#P" n="3"/>cognitione sui: id tamen non erit per se, et
+          <lb ed="#P" n="4"/>ab intrinseco, id est, quia cognitio sui sit 
+          ne<lb break="no" ed="#P" n="5"/>cessaria ad illam cognitionem DEI, sed quia
+          <lb ed="#P" n="6"/>aliunde actus cognitionis sui est necessarius,
+          <lb ed="#P" n="7"/>et naturaliter interrumpi, seu suspendi non
+          <lb ed="#P" n="8"/>potest. In quo sensu etiam non potest Angelus
+          <lb ed="#P" n="9"/>cognoscere alium Angelum, vel quamlibet
+          <lb ed="#P" n="10"/>rem aliam, quin simul cognoscat se. Haec ergo
+          <lb ed="#P" n="11"/>concomitantia generalis est, et ab intrinseca
+          <lb ed="#P" n="12"/>causa proveniens, et ideo de illa hic non 
+          trac<lb break="no" ed="#P" n="13"/>tatur, cum sit quasi per accidens, et ad 
+          prae<lb break="no" ed="#P" n="14"/>dictam quaestionem huic loco extraneam 
+          per<lb break="no" ed="#P" n="15"/>tineat.
+        </p>
+        <p xml:id="szdada-x05015-d1e787">
+          <lb ed="#P" n="16"/>7. Formalis dubii sensus, an possit Angelus
+          <lb ed="#P" n="17"/>naturaliter Deum cognoscere quin se, vel 
+          effec<lb break="no" ed="#P" n="18"/>tumn alium Dei simul cognoscat. — Argumenta
+          <lb ed="#P" n="19"/>pro parte negante. — Formalis ergo sensus est,
+          <lb ed="#P" n="20"/>an cognitio sui sit per se Angelo necessaria,
+          <lb ed="#P" n="21"/>etiam ad illum modum absolutum cognoscendi
+          <lb ed="#P" n="22"/>Deum: vel e contrario an possit Angelus 
+          cogi<lb break="no" ed="#P" n="23"/>tare illo modo de Deo, etiamsi per possibile,
+          <lb ed="#P" n="24"/>vel impossibile de se actu non cogitet. In quo
+          <lb ed="#P" n="25"/>praeterea certum est, si Angelus cognoscat actu
+          <lb ed="#P" n="26"/>alium Angelum, vel quemlibet effectum DEI,
+          <lb ed="#P" n="27"/>posse illo modo cogitare de DEO, etiamsi dese
+          <lb ed="#P" n="28"/>non cogitet, quia per cognitionem alterius 
+          et<lb break="no" ed="#P" n="29"/>fectus potest in cognitionem DEI ascendere,
+          <lb ed="#P" n="30"/>sicut potest per seipsum, ut paulo post 
+          dice<lb break="no" ed="#P" n="31"/>mus. Difficultas ergo ita proponenda est, ut 
+          po<lb break="no" ed="#P" n="32"/>natur Angelus nec seipsum, nec aliquemalium
+          <lb ed="#P" n="33"/>DEI effectum actu considerans. Videtur enim
+          <lb ed="#P" n="34"/>impossibile, Angelum illo modo habere solius
+          <lb ed="#P" n="35"/>DEI actualem cognitionem, quia illa cognitio
+          <lb ed="#P" n="36"/>non potest esse per propriam speciem Dei,
+          <lb ed="#P" n="37"/>quia Angelus illam non habet, nec erit per 
+          ef<lb break="no" ed="#P" n="38"/>fectum, quia nullum Dei effectum tunc actu
+          <lb ed="#P" n="39"/>cognoscit, et effectus non ducit in actualem 
+          co<lb break="no" ed="#P" n="40"/>gnitionem causa, nisi cum actu cognoscitur,
+          <lb ed="#P" n="41"/>ut ostensum est: nec etiam illa esse potest 
+          co<lb break="no" ed="#P" n="42"/>gnitio per causam, ut est per se notum, ergo
+          <lb ed="#P" n="43"/>nullo modo esse potest. Vel aliter, illa cognitio
+          <lb ed="#P" n="44"/>Dei non elicitur a solo lumine intellectus 
+          an<lb break="no" ed="#P" n="45"/>gelici sine aliquo determinante, vel cooperante
+          <lb ed="#P" n="46"/>per modum actus primi, sed, seclusa actuali
+          <lb ed="#P" n="47"/>cognitione alicujus effectus, nihil est, quod
+          <lb ed="#P" n="48"/>possit determinare intellectum Angeli, et cum
+          <lb ed="#P" n="49"/>illo cooperari ad cognitionem DEI, ergo non
+          <lb ed="#P" n="50"/>potest illam habere. Vel aliter: illa cognitio
+          <lb ed="#P" n="51"/>DEI esse debet certa, et evidens in Angelo,
+          <lb ed="#P" n="52"/>quia non est apprehensio sola praescindens a
+          <lb ed="#P" n="53"/>judicio, sed includens certum assensum, quod
+          <lb ed="#P" n="54"/>DEUS sit, et quod talis, vel talis sit: haec 
+          au<lb break="no" ed="#P" n="55"/>tem evidentia non est immediata et ex termi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nis, ut est per se notum, ergo mediata, ergo
+          <lb ed="#P" n="57"/>per effectum, ergo oportet actu de effectu 
+          co<lb break="no" ed="#P" n="58"/>gitare.
+        </p>
+        <p xml:id="szdada-x05015-d1e886">
+          <lb ed="#P" n="59"/>8. Rationes pro parte affirmante.— In 
+          con<lb break="no" ed="#P" n="60"/>trarium vero est, quod supra ex D. Thoma
+          <lb ed="#P" n="61"/>diximus, posse Angelum cogitare de Deo, 
+          e<lb break="no" ed="#P" n="62"/>tiamsi de nulla re alia cogitet: cogitare autem
+          <lb ed="#P" n="63"/>nihil aliud est, quam actu cognoscere et 
+          con<lb break="no" ed="#P" n="64"/>siderare. Nam hlicet rigorose in nobis 
+          signifi<lb break="no" ed="#P" n="65"/>cet aliquando inquisitionem veritatis nondum
+          <lb ed="#P" n="66"/>satis perfectae, communiter tamen sumitur pro
+          <lb ed="#P" n="67"/>quocumque actu intellectus, teste Augustino
+          <lb ed="#P" n="68"/>14, de Trinitate, cap. 7, quod maxime verum
+          <lb ed="#P" n="69"/>est, quando Deo, vel Angelis attribuitur, ergo
+          <lb ed="#P" n="70"/>potest Angelus actu cognoscere Deum, etiamsi
+          <lb ed="#P" n="71"/>nullam rem aliam actu cognoscat, ac proinde
+          <lb ed="#P" n="72"/>etiamsi ponatur a sui consideratione cessare,
+          <lb ed="#P" n="73"/>posset Deum contemplari natural cognitione.
+          <lb ed="#P" n="74"/>Deinde probatur de illo actu absoluto 
+          cogni<lb break="no" ed="#P" n="75"/>tionis DEI, quia est realiter distinctus a 
+          cogni<lb break="no" ed="#P" n="76"/>tione Angeli, ut dictum est, et non pendet ab
+          <lb ed="#P" n="77"/>illo essentialiter, quia neque ex parte objecti,
+          <lb ed="#P" n="78"/>neque ex parte actus. Primum probatur, quia
+          <lb ed="#P" n="79"/>per illum non consideratur Deus ut causa 
+          ip<lb break="no" ed="#P" n="80"/>sius Angeli, imo nec ut actualis causa alicujus
+          <lb ed="#P" n="81"/>creaturae, sed potest abstracte considerari, ut
+          <lb ed="#P" n="82"/>omnipotens. Secundum probatur, quia licet
+          <lb ed="#P" n="83"/>cognitio sui, verbi gratia, sit occasio, vel 
+          exci<lb break="no" ed="#P" n="84"/>tatio quaedam ad eliciendum illum actum 
+          ab<lb break="no" ed="#P" n="85"/>solutae cognitionis Dei, non est tamen causa
+          <lb ed="#P" n="86"/>per se, a qua illa cognitio DEIT in fieri et esse
+          <lb ed="#P" n="87"/>pendeat, ergo potest Angelus habere 
+          aliquan<lb break="no" ed="#P" n="88"/>do, si voluerit, hunc posteriorem actum sine
+          <lb ed="#P" n="89"/>priori.
+        </p>
+        <p xml:id="szdada-x05015-d1e956">
+          <lb ed="#P" n="90"/>9. Vera resolutio. — Resolutio- breviter est,
+          <lb ed="#P" n="91"/>aliter loquendum esse de initio talis 
+          cognitio<lb break="no" ed="#P" n="92"/>nis Dei, seu primo actu ejus ante acquisitum
+          <lb ed="#P" n="93"/>habitum ejus, et aliud deiteratione illius, post
+          <lb ed="#P" n="94"/>habitum acquisitum. Nam prima cognitio 
+          ab<lb break="no" ed="#P" n="95"/>soluta dici non potest ab Angelo, nihil de se,
+          <lb ed="#P" n="96"/>vel de alio effectu actu cogitante. Hoc 
+          persua<lb break="no" ed="#P" n="97"/>dent priora argumenta. Nam priusqum 
+          Ange<lb break="no" ed="#P" n="98"/>lus in absoluta consideratione Dei sistat, 
+          ne<lb break="no" ed="#P" n="99"/>cesse est, ut ad illum mente ascendat: non 
+          po<lb break="no" ed="#P" n="100"/>test autem naturaliter primo, et immediate 
+          as<lb break="no" ed="#P" n="101"/>cendere ad ipsum, quia non habet principium
+          <lb ed="#P" n="102"/>quo ascendat, ergo debet prius ascendere per
+          <lb ed="#P" n="103"/>effectum tanquam per medium cognitum, et
+          <lb ed="#P" n="104"/>ideo necesse est, ut praecedat saltem ordine
+          <lb ed="#P" n="105"/>naturae cognitio sui, vel alterius effectus, et
+          <lb ed="#P" n="106"/>consequenter, ut etiam praecedat cognitio DEI,
+          <lb ed="#P" n="107"/>ut inclusa in cognitione sui, ut inde excitetur,
+          <lb ed="#P" n="108"/>et juvetur ad alium actum cognitionis Dei 
+          eli<lb break="no" ed="#P" n="109"/>ciendum. Unde existimo non satis esse, quod
+          <lb ed="#P" n="110"/>tempore praecesserit cognitio sui, vel effectus
+          <pb ed="#P" n="204"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cum respectiva cognitione Dei. Probatur, quia
+          <lb ed="#P" n="2"/>hic actus non potest fieri ab intellectu Angeli
+          <lb ed="#P" n="3"/>nudo et omni actu primo, vel habente vicem
+          <lb ed="#P" n="4"/>ejus destituto, alioqui posset a principio habere
+          <lb ed="#P" n="5"/>talem actum sine alia praevia cognitione, quod
+          <lb ed="#P" n="6"/>repugnare diximus, ergo debet juvari a 
+          cogni<lb break="no" ed="#P" n="7"/>tione sui, vel alterius effectus, ergo oportet,
+          <lb ed="#P" n="8"/>ut illa praesens adsit. Nam si jam non est, nihil
+          <lb ed="#P" n="9"/>juvare potest per seipsam, ut per se constat,
+          <lb ed="#P" n="10"/>nec per virtutem relictam, quia vel nulla est,
+          <lb ed="#P" n="11"/>vel ad summum potuit relinquere speciem sui,
+          <lb ed="#P" n="12"/>quae postea nihil juvare potest, nisi forte ad
+          <lb ed="#P" n="13"/>eliciendum similem actum cogitationis sui,
+          <lb ed="#P" n="14"/>vel recordationis, quod illum habuerit, et ideo
+          <lb ed="#P" n="15"/>juvare immediate non poterit ad eliciendum
+          <lb ed="#P" n="16"/>absolutum actum cognitionis DEL, sed poterit
+          <lb ed="#P" n="17"/>juvare ad iterum cogitandum dce etffectu Dei,
+          <lb ed="#P" n="18"/>et consequenter de Deo quasi in obliquo, et
+          <lb ed="#P" n="19"/>inde juvare postea poterit ad cogitandum 
+          di<lb break="no" ed="#P" n="20"/>recte, ac primario et absolute de Deo.
+        </p>
+        <p xml:id="szdada-x05015-d1e1052">
+          <lb ed="#P" n="21"/>10. Objectio. — Solutio. — Objici vero 
+          po<lb break="no" ed="#P" n="22"/>test, quia sequitur, talem cognitionem Dei esse
+          <lb ed="#P" n="23"/>per discursum, quem repugnare Angelo nunc
+          <lb ed="#P" n="24"/>supponimus. Probatur sequela, quia discursus
+          <lb ed="#P" n="25"/>est, quando ex uno actu in alium devenitur,
+          <lb ed="#P" n="26"/>ita ut posterior ex priori nascatur, ita vero
+          <lb ed="#P" n="27"/>contingit in illis actibus juxta dicta. Unde 
+          e<lb break="no" ed="#P" n="28"/>tiam sequitur, non posse Angelum habere
+          <lb ed="#P" n="29"/>unum actum cognitionis Dei, quin simul duos
+          <lb ed="#P" n="30"/>habeat, quod videtur inconveniens et 
+          super<lb break="no" ed="#P" n="31"/>fluum. Circa priorem partem nunc nolumus
+          <lb ed="#P" n="32"/>definire, an Angelus sit capax discursus, esto
+          <lb ed="#P" n="33"/>raro illo indigeat, quidquid enim de hoc sit,
+          <lb ed="#P" n="34"/>negamus sequelam. Nam licet ex dictis 
+          sequa<lb break="no" ed="#P" n="35"/>tur esse posse aliquam successionem, vel 
+          addi<lb break="no" ed="#P" n="36"/>üonem in actibus, non tamen sequitur esse
+          <lb ed="#P" n="37"/>proprium discursum. Nam per illos actus non
+          <lb ed="#P" n="38"/>unum ex alio cognoscitur, sed ex imperfecta
+          <lb ed="#P" n="39"/>cognitione, vel consideratione unius objecti sit
+          <lb ed="#P" n="40"/>transitus ad perfectius attendendum et 
+          consi<lb break="no" ed="#P" n="41"/>derandum illud: hic autem non est discursus,
+          <lb ed="#P" n="42"/>sed transitus ab uno actu ad alium, qui in
+          <lb ed="#P" n="43"/>Angelis locum habet, sive unus illorum 
+          ac<lb break="no" ed="#P" n="44"/>tuum tempore antecedat, sive tantum ordine
+          <lb ed="#P" n="45"/>naturae, et sive prior cesset adveniente 
+          poste<lb break="no" ed="#P" n="46"/>riori, sive cum illo simul perseveret. Ad 
+          pos<lb break="no" ed="#P" n="47"/>teriorem vero partem dicimus, illud non esse
+          <lb ed="#P" n="48"/>inconveniens, quia illi actus habent, unde 
+          dis<lb break="no" ed="#P" n="49"/>tinguantur, etiamsi simul sint, et alioqui cum
+          <lb ed="#P" n="50"/>per nullum illorum perfecte cognoscatur Deus,
+          <lb ed="#P" n="51"/>et secundus aliquid perfectionis addere possit,
+          <lb ed="#P" n="52"/>utile esse potest, non obstante priori, et prior
+          <lb ed="#P" n="53"/>potest esse necessarius, ut sit quasi via ad 
+          ul<lb break="no" ed="#P" n="54"/>teriorem.
+        </p>
+        <p xml:id="szdada-x05015-d1e1128">
+          <lb ed="#P" n="55"/>11. Casus, quo tandem Angelus cogitet de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Deo naturaliter quin aliquid aliud omnino 
+          co<lb break="no" ed="#P" n="57"/>gitet. — Contemplatio quid sit. — Assensus
+          <lb ed="#P" n="58"/>scientificus sine cogitatione medii. —Addo vero,
+          <lb ed="#P" n="59"/>postquam Angelus semel absolutam de Deo
+          <lb ed="#P" n="60"/>cognitionem habuit media cognitione sui, vel
+          <lb ed="#P" n="61"/>alterius effectus, posse postea de Deo actu 
+          co<lb break="no" ed="#P" n="62"/>gitare per similem absolutam cognitionem,
+          <lb ed="#P" n="63"/>seu contemplationem Dei, etiam data 
+          hypo<lb break="no" ed="#P" n="64"/>thesi, quod se vel alium effectum, per quem
+          <lb ed="#P" n="65"/>prius coepit cognoscere, actu non cognoscat,
+          <lb ed="#P" n="66"/>seu consideret. Hoc probant quae posteriori
+          <lb ed="#P" n="67"/>loco adducta sunt et videtur in nobis 
+          experien<lb break="no" ed="#P" n="68"/>tia id comprobari, quam majori ratione in 
+          An<lb break="no" ed="#P" n="69"/>gelis admittere debemus. Quod ex motu 
+          con<lb break="no" ed="#P" n="70"/>templationis declarare possumus. Nam ille
+          <lb ed="#P" n="71"/>modus cognitionis Dei videtur pertinere ad
+          <lb ed="#P" n="72"/>rationem contemplationis, quae Angelis 
+          ne<lb break="no" ed="#P" n="73"/>ganda non est. Nam contemplatio est veritas
+          <lb ed="#P" n="74"/>jam inventae, seu cognitae simplex intuitio,
+          <lb ed="#P" n="75"/>seu speculatio, aut consideratio, quae idem est,
+          <lb ed="#P" n="76"/>quod actualis cognitio, ut docet D. Thomas 2,
+          <lb ed="#P" n="77"/>quaest. 180, art. 3, in corpore ad 1, ubi 
+          excel<lb break="no" ed="#P" n="78"/>lentiorem contemplationem Angelo, quam 
+          ho<lb break="no" ed="#P" n="79"/>mini tribuit, ergo postquam Angelus simul
+          <lb ed="#P" n="80"/>invenit (ut ita dicam). Deum, illumque per
+          <lb ed="#P" n="81"/>seipsum secundario novit, potest postea illum
+          <lb ed="#P" n="82"/>absolute cognoscere, licet actu non consideret
+          <lb ed="#P" n="83"/>medium, per quod ad illum tali modo 
+          consi<lb break="no" ed="#P" n="84"/>derandum ascendit. Praeterea declarare hoc
+          <lb ed="#P" n="85"/>possumus exemplo assensus scientifici in 
+          no<lb break="no" ed="#P" n="86"/>bis: nam primum assensum scientificum 
+          con<lb break="no" ed="#P" n="87"/>clusionis elicere non possumus, nisi actu 
+          co<lb break="no" ed="#P" n="88"/>gitemus de medio et connexionem 
+          cognosca<lb break="no" ed="#P" n="89"/>mus. At vero postquam assensum scientificum
+          <lb ed="#P" n="90"/>elicuimus et habitum acquisivimus, possumus
+          <lb ed="#P" n="91"/>postea veritatem propositionis scitae 
+          contem<lb break="no" ed="#P" n="92"/>plari et illi assensum certum praebere, etiamsi
+          <lb ed="#P" n="93"/>de medio actu non cogitemus, ergo ad 
+          eum<lb break="no" ed="#P" n="94"/>dem modum, servata proportione et cum 
+          ma<lb break="no" ed="#P" n="95"/>jori perfectione, simile quid tribui Angelo 
+          de<lb break="no" ed="#P" n="96"/>bet in cognitione Dei, de qua tractamus. 
+          Tan<lb break="no" ed="#P" n="97"/>dem ratio et modus declaratur, quia licet non
+          <lb ed="#P" n="98"/>possimus in via propriam speciem Dei habere,
+          <lb ed="#P" n="99"/>tamen postquam per alienas species, seu per
+          <lb ed="#P" n="100"/>effectus cognovimus Deum, et qualemcumque
+          <lb ed="#P" n="101"/>ejus conceptum formavimus, relinquitur in
+          <lb ed="#P" n="102"/>nobis habitus, seu aliqualis species, per quam
+          <lb ed="#P" n="103"/>possimus simplici actu directe concipere Deum,
+          <lb ed="#P" n="104"/>et deillo cogitare. Ergo multo perfectiori modo
+          <lb ed="#P" n="105"/>id fieri poterit in Angelo. Unde existimo, per
+          <lb ed="#P" n="106"/>primum actum absolutum cognitionis Dei 
+          com<lb break="no" ed="#P" n="107"/>parare sibi Angelum speciem reprae-entantem
+          <lb ed="#P" n="108"/>sibi Deum eo modo, quo per illum actum illum
+          <lb ed="#P" n="109"/>concepit, quae ex vi ejusdemmet actus, seu
+          <lb ed="#P" n="110"/>verbi, aut idoli Dei in illo contenti impressa
+          <pb ed="#P" n="205"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in mente relinquitur. Pe- talem ergo speciem
+          <lb ed="#P" n="2"/>potest postea in similem actum prodire, etiamsi
+          <lb ed="#P" n="3"/>de se, vel de effectu nihil cogitet.
+        </p>
+        <p xml:id="szdada-x05015-d1e1265">
+          <lb ed="#P" n="4"/>12. Respondetur contrariis argumentis in
+          <lb ed="#P" n="5"/>numero septimo. — Et ita cessant difficultates
+          <lb ed="#P" n="6"/>priori loco objectae. Ad primam enim dioco, 
+          il<lb break="no" ed="#P" n="7"/>lum actum esse clicitum per speciem Dei, non
+          <lb ed="#P" n="8"/>propriam, id est, perfectam et prout in se est,
+          <lb ed="#P" n="9"/>sed propriam, id est, non communenm, licet
+          <lb ed="#P" n="10"/>imperfectam et priori cognitioni 
+          proportiona<lb break="no" ed="#P" n="11"/>tam. Unde sicut prior cognitio non erat 
+          for<lb break="no" ed="#P" n="12"/>maliter per effectum, seu in effectu, sed 
+          ori<lb break="no" ed="#P" n="13"/>ginaliter et quasi in virtute, ita illa species
+          <lb ed="#P" n="14"/>esse potest principium similis actus, qui 
+          ori<lb break="no" ed="#P" n="15"/>ginem etiam trahit ab effectu, quatenus illa
+          <lb ed="#P" n="16"/>species a priori actu manavit, et quasi in 
+          se<lb break="no" ed="#P" n="17"/>mine illum continet, et ideo ad talem actum
+          <lb ed="#P" n="18"/>necessaria non est actualis cogitatio de 
+          effec<lb break="no" ed="#P" n="19"/>tu. Ad secundam vero negamus minorem, quia
+          <lb ed="#P" n="20"/>haec species ex priori actu relicta potest 
+          deter<lb break="no" ed="#P" n="21"/>minare et juvare potentiam per modum actus
+          <lb ed="#P" n="22"/>primi. Ad tertiam concedo, cognitionem illam
+          <lb ed="#P" n="23"/>esse cum judicio certo et evidente, ad hanc
+          <lb ed="#P" n="24"/>autem evidentiam suffticit naturale lumen 
+          in<lb break="no" ed="#P" n="25"/>tellectus angelici habitualiter, seu in actu
+          <lb ed="#P" n="26"/>primo constitutum per speciem, quae ab actu
+          <lb ed="#P" n="27"/>evidente manavit et illum in virtute continet,
+          <lb ed="#P" n="28"/>ac repraesentat, sicut in nobis habitualis 
+          scien<lb break="no" ed="#P" n="29"/>tia virtute continet evidentiam medi, ut jam
+          <lb ed="#P" n="30"/>explicuimus. Et haec de cognitione, quam 
+          An<lb break="no" ed="#P" n="31"/>gelus de Deo per seipsum habere potest, vel
+          <lb ed="#P" n="32"/>acquirere.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

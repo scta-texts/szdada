@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="421"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x10605"><!-- l4d1 -->
+        <head xml:id="szdada-x10605-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-x10605-Hd1e103" type="question-title">Utrum angeli sint capaces loci, quem acquirere, et amtittere possint</head>
+        <p xml:id="szdada-x10605-d1e106">
+          <lb ed="#P" n="79"/>CAPUT I.
+          <lb ed="#P" n="80"/>UTRUM ANGELI SINT CAPACES LOCI, QUEM 
+          ACQUI<lb break="no" ed="#P" n="81"/>RERE, ET AMTITTERE POSSINT.
+        </p>
+        <p xml:id="szdada-x10605-d1e115">
+          <lb ed="#P" n="82"/>1. Potentia ea actibus, et actus ex objectis
+          <lb ed="#P" n="83"/>cognoscenda .— Utrum Angelus vere sit in loco.
+          <lb ed="#P" n="84"/>— Prima opinio. — Quia potentia ex actibus,
+          <pb ed="#P" n="422"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et actus ex objectis speciem sumunt, et ideo
+          <lb ed="#P" n="2"/>non potest potentia cognosci, nisi ejus 
+          objec<lb break="no" ed="#P" n="3"/>tum, et actus praecognoscantur. Sic igitur quia
+          <lb ed="#P" n="4"/>potentia loco motiva Angeli circa seipsum ad
+          <lb ed="#P" n="5"/>motum tanquam ad actum suum, et ad locum,
+          <lb ed="#P" n="6"/>tanquam ad terminum, et quasi objectum
+          <lb ed="#P" n="7"/>comparatur, non possumus de hac potentia
+          <lb ed="#P" n="8"/>dicere, nisi prius objectum, et actus ejus 
+          ex<lb break="no" ed="#P" n="9"/>plicemus, ideoque prius de loco Angeli, 
+          dein<lb break="no" ed="#P" n="10"/>ceps de motu ejus, ac tandem de potentia
+          <lb ed="#P" n="11"/>illius motus effectrice dicemus. Principio autem
+          <lb ed="#P" n="12"/>inquiri solet de Ángelis, an in aliquo vero
+          <lb ed="#P" n="13"/>sensu in loco sint. Et ratio dubitandi est, quia
+          <lb ed="#P" n="14"/>esse in loco videtur esse proprietas rei 
+          corpo<lb break="no" ed="#P" n="15"/>ralis, quae Angelo convenire non potest, cum
+          <lb ed="#P" n="16"/>res spiritualis sit. Antecedens vero probatur,
+          <lb ed="#P" n="17"/>quia locus significat superficiem extrinsecam
+          <lb ed="#P" n="18"/>ambientem, et continentem locarum, quod est
+          <lb ed="#P" n="19"/>proprium rei corporalis. Propter quod aliqui
+          <lb ed="#P" n="20"/>theologi negant Angelum esse in re aliqua,
+          <lb ed="#P" n="21"/>tanquam in loco, sed solum tanquam causam
+          <lb ed="#P" n="22"/>in effectu, seu in subjecto, in quo operatur.
+          <lb ed="#P" n="23"/>Ita sentire videntur theologi, qui dicunt, ÀÁ
+          n<lb break="no" ed="#P" n="24"/>gelum non esse alicubi, nisi ratione 
+          operatio<lb break="no" ed="#P" n="25"/>nis, absque alia praevia propinquitate ad rem, in
+          <lb ed="#P" n="26"/>qua operatur. Ut Hervaeus, in tract. de Motu
+          <lb ed="#P" n="27"/>Angeli, q. 1, a. 1, et Durandus, in 1, dist. 37,
+          <lb ed="#P" n="28"/>in secunda ejus parte, q. 1, n. 26, ubi obscure
+          <lb ed="#P" n="29"/>loquitur de praesentia Angeli, quam dicit esse
+          <lb ed="#P" n="30"/>praesentiam ordinis, non situs, cujus 
+          distinc<lb break="no" ed="#P" n="31"/>tionis sensum paulo post expendemus. Et
+          <lb ed="#P" n="32"/>eamdem sententiamsequi videntur Ferrariensis
+          <lb ed="#P" n="33"/>et alii infra citandi. Soletque pro hac 
+          senten<lb break="no" ed="#P" n="34"/>tia referri Augustinus, l. 33, q. 20, ubi dicit,
+          <lb ed="#P" n="35"/>Deum abusive esse in loco, et l. 8, Genes. ad
+          <lb ed="#P" n="36"/>litt., c. 20 et 26, ubi dicit, Deum novere 
+          crea<lb break="no" ed="#P" n="37"/>iuras corporales per tempus, et locwm, 
+          spri<lb break="no" ed="#P" n="38"/>tuales autem tantum per temgpns, significans,
+          <lb ed="#P" n="39"/>per loca non moveri, quia non sunt in loco.
+          <lb ed="#P" n="40"/>Damascenus etiam, 1. 1, de Fide, c. 17, dicit,
+          <lb ed="#P" n="41"/>Angelum intellectuali modo adesse loco, in quo
+          <lb ed="#P" n="42"/>esse dicitur, ubi cum dicit, intellectuali modo,
+          <lb ed="#P" n="43"/>indicat non esse vere in loco, sed tantum 
+          abu<lb break="no" ed="#P" n="44"/>sive, ut dixit Augustinus, et eodem modo 
+          lo<lb break="no" ed="#P" n="45"/>quitur D. Thomas, in 1, dist. 37, q. 3, art. 1,
+          <lb ed="#P" n="46"/>citans Nazianzenum cujus locum invenire non
+          <lb ed="#P" n="47"/>potui, alios vero Patres paulo post referemus.
+          <lb ed="#P" n="48"/>Aristoteles etiam, 1. 1, de Coelo, c. 9, dixit, ea,
+          <lb ed="#P" n="49"/>quae in supremo coelo sunt, n0n esse apta esse
+          <lb ed="#P" n="50"/>in loco, per quae intelligentias intelligit.
+        </p>
+        <p xml:id="szdada-x10605-d1e237">
+          <lb ed="#P" n="51"/>2. Prima conclusio. — Nihilominus 
+          simph<lb break="no" ed="#P" n="52"/>citer dicendum est primo, si per esse in loco
+          <lb ed="#P" n="53"/>tantum significetur esse realiter praesentem,
+          <lb ed="#P" n="54"/>et indistantem ab aliquo loco, etiam corporali,
+          <lb ed="#P" n="55"/>sic omnino certum est, Angelos posse esse in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>loco. Haec est communis sententia 
+          theologo<lb break="no" ed="#P" n="57"/>rum, quos postea referemus, et quantum ad
+          <lb ed="#P" n="58"/>rem spectat, colligitur ex Scriptura, et 
+          Patri<lb break="no" ed="#P" n="59"/>bus adeo clare, ut D. Thomas, in 2, dist. 37,
+          <lb ed="#P" n="60"/>quaest. 3, a. 1, dixerit absque haeresi non posse
+          <lb ed="#P" n="61"/>negari. Probatur primo, quia Scriptura ita
+          <lb ed="#P" n="62"/>loquitur, cum dicit Angelos esse in coelo,
+          <lb ed="#P" n="63"/>Apoc. 12, vel ejectos esse de coelo, aut de 
+          cor<lb break="no" ed="#P" n="64"/>poribus obsessorum, vel permissos esse ingredi
+          <lb ed="#P" n="65"/>in porcos, et similia: quae in Evangelio passim
+          <lb ed="#P" n="66"/>inveniuntur, et in sequenti assertione 
+          distinc<lb break="no" ed="#P" n="67"/>tius referemus. Secundo codem modo 
+          loquun<lb break="no" ed="#P" n="68"/>tur Sancti, qui similiter dicunt, Angelos esse
+          <lb ed="#P" n="69"/>creatos in coelo, ut in sequenti tractatu, libro
+          <lb ed="#P" n="70"/>primo, tractando de coelo Empyreo videbimus.
+          <lb ed="#P" n="71"/>Unde etiam Gregorius Nyssenus, Orat. de In
+          <lb ed="#P" n="72"/>fantibus qui praemature arripiuntur, cocelum
+          <lb ed="#P" n="73"/>vocat naturale domicilium Angelorum. imo
+          <lb ed="#P" n="74"/>interdum aiunt, Angelum circumscribi loco,
+          <lb ed="#P" n="75"/>et saepius moveri localiter, de quibus 
+          locutio<lb break="no" ed="#P" n="76"/>nibus paulo post dicemus.
+        </p>
+        <p xml:id="szdada-x10605-d1e299">
+          <lb ed="#P" n="77"/>3. Notationes ad probandum vratione. —Ut
+          <lb ed="#P" n="78"/>ratione veritatem hanc declaremus, et ne 
+          ver<lb break="no" ed="#P" n="79"/>borum ambiguitas sit errandi occasio, 
+          adver<lb break="no" ed="#P" n="80"/>tendum est, in re existente in loco duo esse
+          <lb ed="#P" n="81"/>distinguenda, scilicet, locum extrinsecum, in
+          <lb ed="#P" n="82"/>quo esse dicitur, et intrinsecum dbi, ratione
+          <lb ed="#P" n="83"/>cujus res hic, vel ibi esse dicitur. Quae duo
+          <lb ed="#P" n="84"/>adeo distinguuntur, ut esse in loco primo modo
+          <lb ed="#P" n="85"/>sumptum sit extrinseca denominatio, vel ad
+          <lb ed="#P" n="86"/>summum relatio aliqua ad extrinsecum locum
+          <lb ed="#P" n="87"/>realem. Ubi autem proprie, seu posteriori
+          <lb ed="#P" n="88"/>modo sumptum, est modus intrinsecus, et suo
+          <lb ed="#P" n="89"/>modo absolutus illius rei, quae alicubi esse 
+          di<lb break="no" ed="#P" n="90"/>citur. Quando ergo dicimus conclusionem esse
+          <lb ed="#P" n="91"/>certam, non loquimur de esse in loco, quoad
+          <lb ed="#P" n="92"/>ubi intrinsecum, quia illud valde reconditum
+          <lb ed="#P" n="93"/>est, et metaphysicum, et ad dogmata fidei non
+          <lb ed="#P" n="94"/>pertinet: sed loquimur de esse in loco, 
+          quate<lb break="no" ed="#P" n="95"/>nus habitudinem dicit ad aliquod extrinsecum,
+          <lb ed="#P" n="96"/>quod nomine loci frequentius significari solet,
+          <lb ed="#P" n="97"/>ut in disp. 51, Metaphysicas, sect. 2, n. 4,
+          <lb ed="#P" n="98"/>dixi. Ulterius vero haec denominatio essendi
+          <lb ed="#P" n="99"/>in loco extrinseco interdum accipi potest ex
+          <lb ed="#P" n="100"/>aliquo modo continentiae, vel quasi extrinsecae
+          <lb ed="#P" n="101"/>informationis loci circa locatum, qualis est 
+          cir<lb break="no" ed="#P" n="102"/>cumscriptio illius, et hic modus 
+          denominatio<lb break="no" ed="#P" n="103"/>nis, seu existentiae in loco est proprius 
+          corpo<lb break="no" ed="#P" n="104"/>rum, et ideo nec in isto sensu in conclusione
+          <lb ed="#P" n="105"/>loquimur. Alio modo potest illa denominatio
+          <lb ed="#P" n="106"/>sumi tantum ex indistantia, et intima 
+          prae<lb break="no" ed="#P" n="107"/>sentia unius rei cum alia, sicut dicitur forma
+          <lb ed="#P" n="108"/>esse in materia. In hoc ergo sensu dicimus
+          <lb ed="#P" n="109"/>esse certum, Angelum esse in loco, quia 
+          po<lb break="no" ed="#P" n="110"/>test esse intime praesens, et indistans ab ah-
+          <pb ed="#P" n="423"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quo loco corporali, quia saltem hoc 
+          necessa<lb break="no" ed="#P" n="2"/>rium est ad veritatem locorum Scripturae.
+        </p>
+        <p xml:id="szdada-x10605-d1e384">
+          <lb ed="#P" n="3"/>4. Probatur jam conclusio ratione. — Sic
+          <lb ed="#P" n="4"/>autem explicata assertio, ratione ita 
+          confir<lb break="no" ed="#P" n="5"/>mari potest. Quia rei spirituali non repugnat
+          <lb ed="#P" n="6"/>esse intime praesentem, et indistantem a re
+          <lb ed="#P" n="7"/>corporali, ergo neque Angelo repugnat esse in
+          <lb ed="#P" n="8"/>loco, si per hoc tantum illa praesentia 
+          signifi<lb break="no" ed="#P" n="9"/>cetur. Antecedens certissimum est: nam Deus
+          <lb ed="#P" n="10"/>ipse est in omnibus rebus, non solum per 
+          prae<lb break="no" ed="#P" n="11"/>sentiam, et potentiam, sed etiam per 
+          essen<lb break="no" ed="#P" n="12"/>tiam: esse autem in rebus per essentiam,
+          <lb ed="#P" n="13"/>nihil aliud est, quam esse intime conjunctum,
+          <lb ed="#P" n="14"/>et indistantem ab omnibus rebus, ut explicui
+          <lb ed="#P" n="15"/>superiori tomo, 1l. 2, de Attributis negativis,
+          <lb ed="#P" n="16"/>c. 2, n. 4. Deinde anima etiam separata 
+          spi<lb break="no" ed="#P" n="17"/>ritus est, et nihilominus praesentialiter, et
+          <lb ed="#P" n="18"/>substantialiter adest locis corporalibus: sic
+          <lb ed="#P" n="19"/>enim anima Christi Domini in triduo fuit in
+          <lb ed="#P" n="20"/>inferis terra locis, et postea ingressa est
+          <lb ed="#P" n="21"/>sepulchrum, ut suo corpori uniretur. Reliquae
+          <lb ed="#P" n="22"/>etiam animae realiter existunt, vel in inferno,
+          <lb ed="#P" n="23"/>vel in purgatorio, vel in limbo, vel in coelo,
+          <lb ed="#P" n="24"/>et cum sunt in uno loco istorum, ita sunt 
+          pro<lb break="no" ed="#P" n="25"/>pinquae corporibus ibi existentibus, ut distent
+          <lb ed="#P" n="26"/>realiter ab ahis locis, ubi non sunt. Ergo talis
+          <lb ed="#P" n="27"/>modus existentiae in loco non repugnat 
+          An<lb break="no" ed="#P" n="28"/>gelo, eo quod spiritualis sit: nulla alia autem
+          <lb ed="#P" n="29"/>ratio repugnantiae cogitari potest, ergo 
+          simpli<lb break="no" ed="#P" n="30"/>citer illis non repugnat. Ratio vero a priori
+          <lb ed="#P" n="31"/>est, quia haec propinquitas, seu indistantia
+          <lb ed="#P" n="32"/>non requirit commensurationem, vel 
+          exten<lb break="no" ed="#P" n="33"/>sionem, aut contactum quantitativum, sed
+          <lb ed="#P" n="34"/>solam simultatem (ut sic dicam) seu quasi 
+          pe<lb break="no" ed="#P" n="35"/>netrationem duarum entitatum in eodem 
+          spa<lb break="no" ed="#P" n="36"/>tio, quod ad rem explicandam nos concipimus,
+          <lb ed="#P" n="37"/>et ideo imaginarium vocatur: spiritus autem
+          <lb ed="#P" n="38"/>capax est hujus existentiae intimae, seu 
+          pene<lb break="no" ed="#P" n="39"/>trationis cum corpore, imo solus ille hanc 
+          na<lb break="no" ed="#P" n="40"/>turalem capacitatem habet, quia quantitate
+          <lb ed="#P" n="41"/>caret; ergo.
+        </p>
+        <p xml:id="szdada-x10605-d1e471">
+          <lb ed="#P" n="42"/>5. Instantia. — Responsio. — Dices, haec 
+          in<lb break="no" ed="#P" n="43"/>tima praesentia, et penetratio non sufficit, ut
+          <lb ed="#P" n="44"/>Angelus dicatur esse in loco: nam licet unum
+          <lb ed="#P" n="45"/>corpus divina virtute simul sit penetrative cum
+          <lb ed="#P" n="46"/>alio, non propterea dicetur esse in illo, nec
+          <lb ed="#P" n="47"/>esse locum ejus, et idem est de uno Angelo,
+          <lb ed="#P" n="48"/>respectu alterius, si ponantur esse simul, et
+          <lb ed="#P" n="49"/>substantialiter indistantes. Respondetur hanc
+          <lb ed="#P" n="50"/>objectionem attingere quaestionem de modo
+          <lb ed="#P" n="51"/>existendi Angeli in loco, quae fortasse quoad
+          <lb ed="#P" n="52"/>hancpartem potest esse tantum de 
+          modoloquen<lb break="no" ed="#P" n="53"/>di, et ideo ad illam evitandam assertionem
+          <lb ed="#P" n="54"/>posui modo hypothetico, ut verborum 
+          signifi<lb break="no" ed="#P" n="55"/>cationem declararem. Dico ergo, licet hoc non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sufficiat ad existendum in loco modo 
+          quantita<lb break="no" ed="#P" n="57"/>tivo, et usitato corporibus, sufficere tamen,
+          <lb ed="#P" n="58"/>ut per ordinem ad corpora explicare possimus,
+          <lb ed="#P" n="59"/>ubi sint Angeli, et quo modo certa, et definita
+          <lb ed="#P" n="60"/>locorum spatia sibi determinent, et in hoc 
+          sen<lb break="no" ed="#P" n="61"/>su dixerunt Patres supra allegati, Angelos esse
+          <lb ed="#P" n="62"/>in loco intelligibiliter, vel abusive, vel 
+          aequi<lb break="no" ed="#P" n="63"/>voce, ut D. Thomas dixit. Quia vero jam 
+          ver<lb break="no" ed="#P" n="64"/>ba illa secundum communem Ecclesiae usum
+          <lb ed="#P" n="65"/>ab Scripturis desumptum hanc habent 
+          signifi<lb break="no" ed="#P" n="66"/>cationem, quando de Angelis dicunt esse 
+          ali<lb break="no" ed="#P" n="67"/>cubi, ideo assertio posita simpliciter vera, et
+          <lb ed="#P" n="68"/>catholica est. Nam, ut recte dixit Basilius, lib.
+          <lb ed="#P" n="69"/>de Spiritu S., cap. 26, etiam homo qui 
+          sancti<lb break="no" ed="#P" n="70"/>ficatur, dicitur locus, aut templum Spiritus
+          <lb ed="#P" n="71"/>sancti: Qui sermo, inquit, nomn minwit 
+          spiri<lb break="no" ed="#P" n="72"/>Ltun, sed glorificat, quia nomina corporalia
+          <lb ed="#P" n="73"/>etiam ad spirituales intellectus evidentiae gratia
+          <lb ed="#P" n="74"/>frequenter transfert sermo divinus. Et simili
+          <lb ed="#P" n="75"/>modo dixit Anselmus, in Monol., cap. 23:
+          <lb ed="#P" n="76"/>Solemus localia verba irreprehensibiliter 
+          attri<lb break="no" ed="#P" n="77"/>Duere rebus, quae nec loca sunt, nec 
+          circunscrip<lb break="no" ed="#P" n="78"/>tione locali continentur. Et hoc modo declarat,
+          <lb ed="#P" n="79"/>quomodo Deus vere, et proprie dicatur esse
+          <lb ed="#P" n="80"/>ubique, cum tamen in Prosologia, cap. 19, 
+          ne<lb break="no" ed="#P" n="81"/>get Deum esse in loco, utique materiali 
+          pro<lb break="no" ed="#P" n="82"/>prietate, et tanquam loco contentus. In quo
+          <lb ed="#P" n="83"/>sensu intelligenda sunt, quae prius in 
+          contra<lb break="no" ed="#P" n="84"/>rium adduximus, et alia quae in sequentibus
+          <lb ed="#P" n="85"/>attingemus.
+        </p>
+        <p xml:id="szdada-x10605-d1e571">
+          <lb ed="#P" n="86"/>6. Secunda conclusio.—Angelos determinari
+          <lb ed="#P" n="87"/>loco. — Ut tamen haec veritas magis declaretur,
+          <lb ed="#P" n="88"/>dicimus secundo nullum Angelum esse ubique,
+          <lb ed="#P" n="89"/>sed unumquemque certo loco definiri. Haec 
+          as<lb break="no" ed="#P" n="90"/>sertio certa est, et communis theologorum, et
+          <lb ed="#P" n="91"/>probari potest primo Scripturis, quae soli Deo
+          <lb ed="#P" n="92"/>immensitatem, et ubiquitatem tribuunt, ut in
+          <lb ed="#P" n="93"/>praecedenti tomo, et in Metaphysica ostendi.
+          <lb ed="#P" n="94"/>Deinde assertionem probant Scripturae loca,
+          <lb ed="#P" n="95"/>in quibus Angeli dicuntur mutare loca, aut ab
+          <lb ed="#P" n="96"/>uno ad alium locum mitti, transferri, aut ejici,
+          <lb ed="#P" n="97"/>ut patet Luc. 18, 13, 19, Matt. 4, 5et 12, et
+          <lb ed="#P" n="98"/>Marc. 5, 2, Pet. 1, Apocal. 12, 19, 20, et saepe
+          <lb ed="#P" n="99"/>alibi. Deinde Ecclesia in Oratione completorii,
+          <lb ed="#P" n="100"/>sic orat: Visita, quesunus, Domine, 
+          habitatio<lb break="no" ed="#P" n="101"/>nem istam: etinfra: Angeli tui sancti babitent
+          <lb ed="#P" n="102"/>in ea: et in aliis collectis orat, ut mali Angeli
+          <lb ed="#P" n="103"/>ejiciantur ex ea, et ad hunc etiam effectum
+          <lb ed="#P" n="104"/>impetrandum aquam lustralem instituit. Quae
+          <lb ed="#P" n="105"/>omnia supponunt Angelos tam bonos, quam
+          <lb ed="#P" n="106"/>malos non ubique, sed in certis, ac definitis
+          <lb ed="#P" n="107"/>locis esse. Haec etiam est communis Patrum
+          <lb ed="#P" n="108"/>sententia, sic enim dixit Damascenus, lib. 2,
+          <lb ed="#P" n="109"/>cap. 3: Angeli in caelum eunt: et iterum: Ad
+          <lb ed="#P" n="110"/>eaplendum Dei voluntatem fortes ac prompti
+          <pb ed="#P" n="424"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sunt, eaque nature celeritate prediti, ut ubi
+          <lb ed="#P" n="2"/>Dei nutus jusserit, illic statim inveniantur .
+          <lb ed="#P" n="3"/>Propter quod addit, illos esse circumscriptos,
+          <lb ed="#P" n="4"/>quia ubi imperatum fuerit, illic spiritualiter
+          <lb ed="#P" n="5"/>adsunt, et operantur, nec eodem tempore hic, et
+          <lb ed="#P" n="6"/>ibi esse, et operari possunt. Nec enim, at 
+          te<lb break="no" ed="#P" n="7"/>rum, 23 terra cersantur, cum in celo sunt, nec
+          <lb ed="#P" n="8"/>cum a Deo ad terram mittuntur, in celo 
+          ma<lb break="no" ed="#P" n="9"/>nent. imo Dydimus, l. 1 de Spiritu sancto,
+          <lb ed="#P" n="10"/>non longe a principio dixit Spiritum sanctum,
+          <lb ed="#P" n="11"/>qui aderat singulis Apostolis in extremis 
+          fini<lb break="no" ed="#P" n="12"/>bus terrae, ob testimonium Domini constitutis,
+          <lb ed="#P" n="13"/>non potuisse esse Spiritum creatum. Nam 
+          An<lb break="no" ed="#P" n="14"/>gelus. ait, qui aderat, verbi gratia, Apostolo in
+          <lb ed="#P" n="15"/>Asia oranti, non poterat simul eodem tempcre
+          <lb ed="#P" n="16"/>adesse aliis in ceeteris partibus mundi 
+          consti<lb break="no" ed="#P" n="17"/>tutis. Aique in eodem sensu dicunt multi 
+          Pa<lb break="no" ed="#P" n="18"/>tres, Angelos circumscribi loco, non quia 
+          pro<lb break="no" ed="#P" n="19"/>prie loco circumscribantur, sed quia 
+          defini<lb break="no" ed="#P" n="20"/>tum, ac limitatum locum habent. Sic loquitur
+          <lb ed="#P" n="21"/>idem Damascenus, lib. 3, cap. 16 et cap. 17,
+          <lb ed="#P" n="22"/>et Gregorius, lib. 2 Moral.. cap. 2, alias 3, et
+          <lb ed="#P" n="23"/>homil. 34, in Evangel., et Beda in id Lucae 1:
+          <lb ed="#P" n="24"/>Respondens Angelus divit ei; et Hugo de S.
+          <lb ed="#P" n="25"/>Victore, lib. 1, de Sacramentis, p. 3, cap. 18.
+          <lb ed="#P" n="26"/>Denique sic dixit Ambrosius, lib. 1, de Spiritu
+          <lb ed="#P" n="27"/>sancto, cap. 10: Seraphim de loco ad locum
+          <lb ed="#P" n="28"/>transit, non enim complet omnia, etc.
+        </p>
+        <p xml:id="szdada-x10605-d1e693">
+          <lb ed="#P" n="29"/>7. Probatur ratione. — Rationem hujus 
+          ve<lb break="no" ed="#P" n="30"/>ritatis insinuat Damascenus, dicto libro 
+          secun<lb break="no" ed="#P" n="31"/>do, capite tertio. Nam cum dixisset, Angelos
+          <lb ed="#P" n="32"/>nullis terminis includi, addit statim, ideo non
+          <lb ed="#P" n="33"/>includi terminis, quia ubicumque voluerint ,
+          <lb ed="#P" n="34"/>apparere possunt in corporibus assumptis, nec
+          <lb ed="#P" n="35"/>allis corporeis terminis includi possunt. Nam
+          <lb ed="#P" n="36"/>alioqui, axt, id solum natura, ac proprio 
+          termi<lb break="no" ed="#P" n="37"/>no caret, quod minime creatum est, omnis enim
+          <lb ed="#P" n="38"/>condita res a conditore Deo terminatur: id est,
+          <lb ed="#P" n="39"/>naturam finitam, et limitatam recipit. Quia
+          <lb ed="#P" n="40"/>ergo Angelus limitatam perfectionem 
+          substan<lb break="no" ed="#P" n="41"/>tiae habet, ideo limitato etiam loco 
+          substantia<lb break="no" ed="#P" n="42"/>liter praesens adesse potest. Nam sine dubio
+          <lb ed="#P" n="43"/>magna perfectio est posse simul esse in magno
+          <lb ed="#P" n="44"/>aliquo corpore, et in omnibus partibus ejus
+          <lb ed="#P" n="45"/>sine coextensione cum illo, sed totum in toto,
+          <lb ed="#P" n="46"/>et totum in qualibet parte; ergo infinitae 
+          per<lb break="no" ed="#P" n="47"/>fectionis est, posse habere hunc existendi 
+          mo<lb break="no" ed="#P" n="48"/>dum in quocumque spatio, seu corpore, etiamsi
+          <lb ed="#P" n="49"/>in infinitum augeatur. Et ideo hoc pertinet
+          <lb ed="#P" n="50"/>ad solius Dei immensitatem. Ergo e contrario
+          <lb ed="#P" n="51"/>omnis substantia spiritualis creata, sicut 
+          limi<lb break="no" ed="#P" n="52"/>tatae perfectionis est, ita limitatum terminum
+          <lb ed="#P" n="53"/>habet. cui substantialem praesentiam exhibere
+          <lb ed="#P" n="54"/>possit. Sicut anima, quia finita est, corpus 
+          fi<lb break="no" ed="#P" n="55"/>nitum, et determinatae quantitatis informare
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>potest, et potentia activa finita limitatum suae
+          <lb ed="#P" n="57"/>activitatis terminum habet, ut latius 
+          philoso<lb break="no" ed="#P" n="58"/>phi disputant.
+        </p>
+        <p xml:id="szdada-x10605-d1e763">
+          <lb ed="#P" n="59"/>8. Loci determinatio quotuplex. Atque hinc
+          <lb ed="#P" n="60"/>theologi duplicem, vel triplicem modum 
+          exis<lb break="no" ed="#P" n="61"/>tendi in loco distinguunt, scilicet 
+          circumscrip<lb break="no" ed="#P" n="62"/>tive, definitive, vel neutro modo, sed 
+          super<lb break="no" ed="#P" n="63"/>naturaliter (ut sic dicam). Primo modo sola
+          <lb ed="#P" n="64"/>corpora sunt proprie in loco, quia extrinseca
+          <lb ed="#P" n="65"/>superficie cireumdantur, et comprehenduntur,
+          <lb ed="#P" n="66"/>vel comprehendi possunt, (quod dico propter
+          <lb ed="#P" n="67"/>Empyreum coelum) et intra illam ita replent
+          <lb ed="#P" n="68"/>locum mole sua, ut illi coextendantur, et 
+          nul<lb break="no" ed="#P" n="69"/>Ium aliud corpus naturaliter ibi compatiantur,
+          <lb ed="#P" n="70"/>seu admittant. Spiritus autem non est capax
+          <lb ed="#P" n="71"/>harum conditionum, et ideo cum hoc rigore,
+          <lb ed="#P" n="72"/>et proprietate non dicitur esse circumscriptive
+          <lb ed="#P" n="73"/>in loco. Esse autem definitive in loco dicitur
+          <lb ed="#P" n="74"/>quidquid finito tantum loco adesse potest cum
+          <lb ed="#P" n="75"/>certo magnitudinis termino, sive cum illo 
+          ha<lb break="no" ed="#P" n="76"/>beat commensurationem, sive non habeat, et
+          <lb ed="#P" n="77"/>ideo hic modus existendi in loco Angelis 
+          spe<lb break="no" ed="#P" n="78"/>cialiter tribuitur. Quia licet generali 
+          significa<lb break="no" ed="#P" n="79"/>tione conveniat etiam corporibus, appropriatur
+          <lb ed="#P" n="80"/>tamen Angelis ad judicandum esse in loco cum
+          <lb ed="#P" n="81"/>illis imperfectionibus propriis corporis. 
+          Quan<lb break="no" ed="#P" n="82"/>quam Patres e contrario omnem 
+          determinatio<lb break="no" ed="#P" n="83"/>nem ad finitum locum, circumscriptionem 
+          in<lb break="no" ed="#P" n="84"/>terdum appellant. At vero Deus neutro ex his
+          <lb ed="#P" n="85"/>modis dici potest esse in loco, quia de se 
+          nul<lb break="no" ed="#P" n="86"/>lum terminum loci habet. Nam licet de facto
+          <lb ed="#P" n="87"/>sit tantum in loco finito, scilicet in hoc mundo,
+          <lb ed="#P" n="88"/>non ideo est, quia ipse ad illum limitetur, sed
+          <lb ed="#P" n="89"/>quia locus ipse de facto major non est. Et ideo
+          <lb ed="#P" n="90"/>aliqui absolute negant esse in loco: sed recte
+          <lb ed="#P" n="91"/>dicitur esse in loco: sed recte dicitur esse in
+          <lb ed="#P" n="92"/>toto illo loco inadaequate, seu cum excessu,
+          <lb ed="#P" n="93"/>aut excellentia, quia ita est in illo, ut sine sui
+          <lb ed="#P" n="94"/>mutatione in majori, et majori in infinitum esse
+          <lb ed="#P" n="95"/>possit, quod nullae substantiae creatae convenire
+          <lb ed="#P" n="96"/>potest.
+        </p>
+        <p xml:id="szdada-x10605-d1e849">
+          <lb ed="#P" n="97"/>9. Objectio ex Durando contra conclusionem.
+          <lb ed="#P" n="98"/>— Contra hanc veritatem sentit Durandus, in 1,
+          <lb ed="#P" n="99"/>dist. 37, 2 part. illius quaest. 1, num. 26, ubi
+          <lb ed="#P" n="100"/>docet, Angelum simul esse ubicumque operari
+          <lb ed="#P" n="101"/>potest, sive simul, sive successive. Unde 
+          sen<lb break="no" ed="#P" n="102"/>tit, et quod Angelus simul sit in omnibus 
+          cor<lb break="no" ed="#P" n="103"/>poribus universi: et quod si plura, vel majora
+          <lb ed="#P" n="104"/>fierent, statim, et sine ulla sui mutatione in
+          <lb ed="#P" n="105"/>eis existeret, quia in omnibus potest semper
+          <lb ed="#P" n="106"/>successive operari, quamvis non possit omnia
+          <lb ed="#P" n="107"/>simul movere. Quia ut ipse ait, sufficit habere
+          <lb ed="#P" n="108"/>simul potestatem ad operandum in 
+          quocum<lb break="no" ed="#P" n="109"/>que loco disjunctim, et in omnibus successive,
+          <lb ed="#P" n="110"/>ut simul omnibus adsit eo modo, quo esse po-
+          <pb ed="#P" n="425"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>test. Et hunc sensum magis declarat in 
+          quaes<lb break="no" ed="#P" n="2"/>tione secunda, ubi hinc infert, non posse 
+          Ange<lb break="no" ed="#P" n="3"/>Ium proprie moveri localiter, ita ut transferatur
+          <lb ed="#P" n="4"/>de loco ad locum, quia non est in loco 
+          circum<lb break="no" ed="#P" n="5"/>scriptive, neque definitive, sed simul est in
+          <lb ed="#P" n="6"/>omni loco, in quo esse potest. Verum quidem
+          <lb ed="#P" n="7"/>est, Durandum in priori quaestione potius 
+          sen<lb break="no" ed="#P" n="8"/>tire, Angelum nusquam esse secundum situm,
+          <lb ed="#P" n="9"/>sed tantum esse praesentem cuilibet corpori
+          <lb ed="#P" n="10"/>praesentia ordinis, quatenus omne corpus 
+          po<lb break="no" ed="#P" n="11"/>test movere, licet actu non moveat. Uhbi per
+          <lb ed="#P" n="12"/>praesentiam ordinis, non videtur intelligere
+          <lb ed="#P" n="13"/>substantialem, et intimam praesentiam, sed
+          <lb ed="#P" n="14"/>tantum virtualem, quia ubique operari potest,
+          <lb ed="#P" n="15"/>et quoad hoc habet praesentiam ordinis ad
+          <lb ed="#P" n="16"/>omnia corpora, quamvis nullibi sit secundum
+          <lb ed="#P" n="17"/>realem, et veram praesentiam.
+        </p>
+        <p xml:id="szdada-x10605-d1e923">
+          <lb ed="#P" n="18"/>10. Quid in hac erronea doctrina magis 
+          sen<lb break="no" ed="#P" n="19"/>tire cideatur Durandus. — Sed imprimis non
+          <lb ed="#P" n="20"/>potest ab uno ex duobus erroribus Durandus
+          <lb ed="#P" n="21"/>excusari, nam vel negat substantiam Angeli
+          <lb ed="#P" n="22"/>realiter esse posse in aliquo loco modo 
+          expl<lb break="no" ed="#P" n="23"/>cato in praecedente assertione, vel si admittit
+          <lb ed="#P" n="24"/>veram existentiam Angeli in aliquo loco, 
+          ad<lb break="no" ed="#P" n="25"/>mittit illam ubique, et in omnibus. Deinde 
+          di<lb break="no" ed="#P" n="26"/>co hoc posterius magis sentire Durandum. Nam
+          <lb ed="#P" n="27"/>illud prius in opinione 3, num. 22, retulerat,
+          <lb ed="#P" n="28"/>fuitque illa opinio Hervaei, in eadem dist., et
+          <lb ed="#P" n="29"/>in tractatu de Motu Angelorum, ut supra 
+          re<lb break="no" ed="#P" n="30"/>tuli, quam ipse Durandus, num. 23, improbat,
+          <lb ed="#P" n="31"/>ex illo principio, quod inter movens, et mobile
+          <lb ed="#P" n="32"/>praerequiritur realis praesentia, ergo de eadem
+          <lb ed="#P" n="33"/>praesentia postea loquitur, cum dicit Angelum
+          <lb ed="#P" n="34"/>simul esse praesentem omnibus corporibus,
+          <lb ed="#P" n="35"/>quae successive movere potest. Vocat autem 
+          il<lb break="no" ed="#P" n="36"/>lam praesentiam ordinis, non quia realis, seu
+          <lb ed="#P" n="37"/>vera non sit, sed ut a praesentia situali 
+          corpo<lb break="no" ed="#P" n="38"/>rum illam distinguat. Et hanc suam mentem
+          <lb ed="#P" n="39"/>magis declarat exemplo animae rationalis, quae
+          <lb ed="#P" n="40"/>omnibus, et singulis membris corporis praesens
+          <lb ed="#P" n="41"/>est, quod in fine num. 26, adducit.
+        </p>
+        <p xml:id="szdada-x10605-d1e978">
+          <lb ed="#P" n="42"/>11. — Durandi fundamentum primum.— 
+          Se<lb break="no" ed="#P" n="43"/>cundum.— Tertium.—EFundamentum Durandi
+          <lb ed="#P" n="44"/>est, quia quod facit situs in corporalibus, hoc
+          <lb ed="#P" n="45"/>facit ordo in spiritualibus: ergo sicut in 
+          corpo<lb break="no" ed="#P" n="46"/>ralibus requiritur ad operandum praesentia 
+          si<lb break="no" ed="#P" n="47"/>tus, ita in spiritualibus praesentia ordinis. Cum
+          <lb ed="#P" n="48"/>hac tamen differentia, quod corpus non semper
+          <lb ed="#P" n="49"/>est per se immediate conjunctum alteri 
+          corpo<lb break="no" ed="#P" n="50"/>ri situaliter sibi praesenti, quoad virtutem 
+          agen<lb break="no" ed="#P" n="51"/>di, quia per interjecta corpora impeditur, et per
+          <lb ed="#P" n="52"/>illam diffundit virtutem suam. Angelus autem
+          <lb ed="#P" n="53"/>neque per interjecta corpora impedirn potest,
+          <lb ed="#P" n="54"/>quominus sit immediate praesens omnibus, et
+          <lb ed="#P" n="55"/>in quocumque potest immediate agere absque
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>medio, ergo simul est omnibus praesens. 
+          Secun<lb break="no" ed="#P" n="57"/>do argumentatur, quia si Angelus non esset
+          <lb ed="#P" n="58"/>simul praesens omnibus corporibus, quae potest
+          <lb ed="#P" n="59"/>movere successive, saepe non posset incipere
+          <lb ed="#P" n="60"/>movere aliquod corpus, quod antea non 
+          move<lb break="no" ed="#P" n="61"/>bat, nisi prius seipsum movendo, et tali 
+          corpo<lb break="no" ed="#P" n="62"/>ri applicando, hoc autem non est bene 
+          intelligi<lb break="no" ed="#P" n="63"/>Dile, ut inquit. Tertio quia non potest 
+          assigna<lb break="no" ed="#P" n="64"/>ri ratio, cur Angelus, qui in nullo corpore 
+          ope<lb break="no" ed="#P" n="65"/>ratur, potius sit praesens uni corpori, quam 
+          al<lb break="no" ed="#P" n="66"/>teri; ergo vel nulli est praesens, quod intelligi
+          <lb ed="#P" n="67"/>non potest, vel omnibus simul, quod ipse 
+          con<lb break="no" ed="#P" n="68"/>cludere intendit.
+        </p>
+        <p xml:id="szdada-x10605-d1e1041">
+          <lb ed="#P" n="69"/>12. Durandi sententia docens Angelum esse
+          <lb ed="#P" n="70"/>ubique, erronea judicatur. — At vero nec ipse
+          <lb ed="#P" n="71"/>Durandus hujus sententiae periculum omnino
+          <lb ed="#P" n="72"/>ignoravit, et ideo timide loquitur, referendo
+          <lb ed="#P" n="73"/>potius, ut ait, quam asserendo. Sed sine dubio
+          <lb ed="#P" n="74"/>sententia est plus quam temeraria, et 
+          commu<lb break="no" ed="#P" n="75"/>niter erronea judicatur. Primo quia ex illa
+          <lb ed="#P" n="76"/>sententia sequitur Angel substantiam esse 
+          im<lb break="no" ed="#P" n="77"/>mensam, quod alteri substantiae creatae 
+          tribue<lb break="no" ed="#P" n="78"/>re erroneum est. Probatur sequela, quia si de
+          <lb ed="#P" n="79"/>facto est Angelus in omnibus locis 
+          corporali<lb break="no" ed="#P" n="80"/>bus, ut Durandus fatetur, et de se potest esse in
+          <lb ed="#P" n="81"/>pluribus, et majoribus, sine sui mutatione, 
+          e<lb break="no" ed="#P" n="82"/>tiamsi mundus corporeus in infinitum 
+          augere<lb break="no" ed="#P" n="83"/>tur, ut etiam sequitur ex positione Durandi,
+          <lb ed="#P" n="84"/>quia potens est quilibet Angelus ad movenda
+          <lb ed="#P" n="85"/>omnia illa corpora saltem divisim, vel 
+          succes<lb break="no" ed="#P" n="86"/>sive, et per partes; ergo substantia Angeli 
+          si<lb break="no" ed="#P" n="87"/>mul est, quasi infinite diffusa, quod est esse
+          <lb ed="#P" n="88"/>immensum. Sicut si daretur corpus simul 
+          re<lb break="no" ed="#P" n="89"/>plens omnia spatia, in quibus nos concipimus
+          <lb ed="#P" n="90"/>posse corpora creari, esse immensum 
+          quantita<lb break="no" ed="#P" n="91"/>tive, ita etiam Angelus, si talem habet 
+          subs<lb break="no" ed="#P" n="92"/>tantialem praesentiam, erit immensus 
+          substan<lb break="no" ed="#P" n="93"/>tialiter, et spiritualiter. Dices, etiam hoc dicto,
+          <lb ed="#P" n="94"/>non esset Angelus aequiparabilis Deo, quia Deus
+          <lb ed="#P" n="95"/>est in omnibus rebus continens omnia, et dans
+          <lb ed="#P" n="96"/>esse omnibus. Respondeo imprimis, hinc solum
+          <lb ed="#P" n="97"/>inferri Angelum non esse aequalem Deo in 
+          mo<lb break="no" ed="#P" n="98"/>do essendi in rebus per potentiam, quod non
+          <lb ed="#P" n="99"/>obstat quominus in modo essendi per 
+          praesen<lb break="no" ed="#P" n="100"/>tiam habeat aequalitatem, et hinc modus est,
+          <lb ed="#P" n="101"/>qui quasi per se, et formaliter ad 
+          immensita<lb break="no" ed="#P" n="102"/>tem spectat. Deinde dicimus ex illo modo 
+          exis<lb break="no" ed="#P" n="103"/>tendi in rebus per praesentiam (ut ita dicam)
+          <lb ed="#P" n="104"/>infinitam sequi substantiam Angeli esse 
+          infini<lb break="no" ed="#P" n="105"/>tam simpliciter, et consequenter esse 
+          omnipo<lb break="no" ed="#P" n="106"/>tentem, ac proinde etiam aequari Deo in modo
+          <lb ed="#P" n="107"/>essendi in rebus per potentiam. Et ideo sancti
+          <lb ed="#P" n="108"/>e contrario, ex eo quod Angeli substantia est
+          <lb ed="#P" n="109"/>finita in essentia sua, inferunt etiam esse 
+          limi<lb break="no" ed="#P" n="110"/>tatam in terminis praesentiae suae, quae est ratio
+          <pb ed="#P" n="426"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>superius facta, et non minus urget contra 
+          Du<lb break="no" ed="#P" n="2"/>randum, ut ex dictis patet. Aliud etiam 
+          incon<lb break="no" ed="#P" n="3"/>veniens sequitur ex sententia Durandi, scilicet
+          <lb ed="#P" n="4"/>substantiam Angeli esse immutabilem 
+          secun<lb break="no" ed="#P" n="5"/>dum locum, quod ipse admittit, est tamen non
+          <lb ed="#P" n="6"/>minus erroneum, ut inferius ostendemus.
+        </p>
+        <p xml:id="szdada-x10605-d1e1152">
+          <lb ed="#P" n="7"/>13. Ad primum fundamentum Durandi in n.
+          <lb ed="#P" n="8"/>11. — Preesentia ordinis in Angelo quid 
+          signifi<lb break="no" ed="#P" n="9"/>cet. — Ad secundum et tertium fundamentum
+          <lb ed="#P" n="10"/>Durandi. — Nec rationes Durandi sunt alicujus
+          <lb ed="#P" n="11"/>momenti: nam ad primam respondetur, si per
+          <lb ed="#P" n="12"/>praesentiagn situs intelligatur praesentia 
+          secun<lb break="no" ed="#P" n="13"/>dum commensurationem quantitatum; sic 
+          ve<lb break="no" ed="#P" n="14"/>rum esse in rebus spiritualibus non inveniri.
+          <lb ed="#P" n="15"/>Inde tamen non sequitur, Angelum esse 
+          inre<lb break="no" ed="#P" n="16"/>bus omnibus, quia, licet a quantitate corporum,
+          <lb ed="#P" n="17"/>seu a locis corporalibus intermediis non 
+          impe<lb break="no" ed="#P" n="18"/>diatur, ne omnia penetrare possit, nihilominus
+          <lb ed="#P" n="19"/>ex intrinseca limitatione suae essentiae habet,
+          <lb ed="#P" n="20"/>ut non possit omnibus intime, ac 
+          substantiali<lb break="no" ed="#P" n="21"/>ter esse praesens. Unde vox illa preesentia 
+          ordi<lb break="no" ed="#P" n="22"/>nis, eequivoca est, et ideo est distinguenda:
+          <lb ed="#P" n="23"/>nam ratione cognitionis potest dici Angelus 
+          ha<lb break="no" ed="#P" n="24"/>bere praesentiam ordinis, saltem in potentia,
+          <lb ed="#P" n="25"/>quatenus videre potest intellectualiter res 
+          dis<lb break="no" ed="#P" n="26"/>Unctissimas sine impedimento quorumcumque
+          <lb ed="#P" n="27"/>corporum intermediorum, sed hoc nonsufficit,
+          <lb ed="#P" n="28"/>ut dicatur esse in illis per essentiam. Item 
+          po<lb break="no" ed="#P" n="29"/>test praesentia ordinis intelligi ratione solius
+          <lb ed="#P" n="30"/>potentiae, ut juxta opinionem dicentium 
+          Ange<lb break="no" ed="#P" n="31"/>lum posse movere corpus: ubi non adest per
+          <lb ed="#P" n="32"/>suam substantiam, quod sive sit verum, sive
+          <lb ed="#P" n="33"/>falsum (de quo infra videbimus), per se non
+          <lb ed="#P" n="34"/>sufficit ad existentiam Angeli in loco, ut ex
+          <lb ed="#P" n="35"/>dictis patet, et ex dicendis evidentius fiet.
+          <lb ed="#P" n="36"/>Tertio potest praesentia substantialis, qualis a
+          <lb ed="#P" n="37"/>nobis declarata est, vocari praesentia ordinis,
+          <lb ed="#P" n="38"/>ut distinguatur a quantitatum praesentia, et in
+          <lb ed="#P" n="39"/>hoc sensu verum est praesentiam ordinis in 
+          spi<lb break="no" ed="#P" n="40"/>ritualibus, aequivalere situi in corporibus: sed
+          <lb ed="#P" n="41"/>in hoc servant etiam proportionem, quia sicut
+          <lb ed="#P" n="42"/>in omni corpore situs circumscriptus est, ita
+          <lb ed="#P" n="43"/>in omni spiritu creato praesentia illa limitata
+          <lb ed="#P" n="44"/>est. Ad secundam rationem concedimus 
+          seque<lb break="no" ed="#P" n="45"/>lam, et ad tertiam negatur assumptum: 
+          utra<lb break="no" ed="#P" n="46"/>que responsio pendet ex dicendis de ubi, et 
+          mo<lb break="no" ed="#P" n="47"/>tu Angelorum, et ideo nunc de illis plura non
+          <lb ed="#P" n="48"/>dicimus.
+        </p>
+        <p xml:id="szdada-x10605-d1e1246">
+          <lb ed="#P" n="49"/>14. Tertia conclusio. — Tertio principahter
+          <lb ed="#P" n="50"/>ex dictis concludimus, Angelum ita esse in 
+          lo<lb break="no" ed="#P" n="51"/>co, ut illum mutare possit, ac proinde unum
+          <lb ed="#P" n="52"/>amittere, et alium acquirere. Hanc 
+          assertio<lb break="no" ed="#P" n="53"/>nem addimus, ut titulo capitis integre 
+          satisfa<lb break="no" ed="#P" n="54"/>ciamus, et quia ista duo, scilicet locus, et 
+          mo<lb break="no" ed="#P" n="55"/>tus Angelorum, ita sunt conjuncta, ut easdem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fere habeant probationes, eamdemque 
+          certitu<lb break="no" ed="#P" n="57"/>dinem. Et ita omnes theologi, qui de loco 
+          de<lb break="no" ed="#P" n="58"/>finito Angelorum recte sentiunt, in hac 
+          asser<lb break="no" ed="#P" n="59"/>tione conveniunt: et ideo existimo eumdem 
+          gra<lb break="no" ed="#P" n="60"/>dum certitudinis habere, quem praecedentes.
+          <lb ed="#P" n="61"/>Probatur primo, quia Scriptura frequenter 
+          An<lb break="no" ed="#P" n="62"/>gelis tribuit mutationem ab uno loco in alium.
+          <lb ed="#P" n="63"/>Nam Job. 1, Satanas ait, Circuivi terram, et 
+          pe<lb break="no" ed="#P" n="64"/>rambulavi eam. Quod non potest metaphorice
+          <lb ed="#P" n="65"/>exponi, vel quod circuiverit tantum visione,
+          <lb ed="#P" n="66"/>seu praesentia intellectuali, vel per 
+          extrinse<lb break="no" ed="#P" n="67"/>cam denominationem, quod perambulaverit
+          <lb ed="#P" n="68"/>terram in corpore assurmpto, sicut interdum 
+          di<lb break="no" ed="#P" n="69"/>citur Deus descendere, vel deambulare: nam
+          <lb ed="#P" n="70"/>hoc secundum voluntarium est, et incredibile:
+          <lb ed="#P" n="71"/>primum autem est contra proprietatem 
+          locutio<lb break="no" ed="#P" n="72"/>nis Scripturae, sine rationis, vel auctoritatis
+          <lb ed="#P" n="73"/>fundamento, et ita est contra generalem 
+          regu<lb break="no" ed="#P" n="74"/>lam interpretandi Scripturam. Quod in alis
+          <lb ed="#P" n="75"/>etiam testimoniis hujus materiae observandum
+          <lb ed="#P" n="76"/>est, qualia sunt supra citata, in quibus 
+          daemo<lb break="no" ed="#P" n="77"/>nes dicuntur ejici a corporibus humanis, vel
+          <lb ed="#P" n="78"/>in porcos mitti. ldem probant loca in quibus 
+          di<lb break="no" ed="#P" n="79"/>cuntur Angeli descendere de coelo, Dan. 3 et 4,
+          <lb ed="#P" n="80"/>Marc. ult. Item in quibus dicuntur mitti. Nam
+          <lb ed="#P" n="81"/>licet inter divinas personas missio non 
+          impor<lb break="no" ed="#P" n="82"/>tet loci mutationem, ibi est necessarius alius
+          <lb ed="#P" n="83"/>sensus minus proprius, seu rigorosus propter
+          <lb ed="#P" n="84"/>personarum immensitatem, et ideo non est 
+          ap<lb break="no" ed="#P" n="85"/>plicandus creaturis, quibus immensitas tribui
+          <lb ed="#P" n="86"/>non potest. Praesertim quia tot modis, et verbis
+          <lb ed="#P" n="87"/>haec mutatio tribuitur Angelis in Scriptura, ut
+          <lb ed="#P" n="88"/>impossibile sit sine magna 
+          corruptionelittera<lb break="no" ed="#P" n="89"/>lis sensus omnia metaphorice interpretari, ut
+          <lb ed="#P" n="90"/>sunt, descendere, circuire, accedere et recedere,
+          <lb ed="#P" n="91"/>intrare, exire, et pelli, et similia. Item quia 
+          An<lb break="no" ed="#P" n="92"/>geli mali ita dicuntur cecidisse de coelo, ut 
+          eo<lb break="no" ed="#P" n="93"/>rum locus non sit amplius inventus in coelo,
+          <lb ed="#P" n="94"/>Luc. 10, et Apoc. 12, quod necesse est proprie
+          <lb ed="#P" n="95"/>intelligi, alias posset quis dicere, nunc 
+          daemo<lb break="no" ed="#P" n="96"/>nem vere, et substantialiter esse in coelo 
+          Empy<lb break="no" ed="#P" n="97"/>reo, quod absurdissimum est. Praeterea de 
+          An<lb break="no" ed="#P" n="98"/>gelis in assumptis corporibus satis aperte videtur
+          <lb ed="#P" n="99"/>docere Scriptura ad motum illorum motos 
+          fuis<lb break="no" ed="#P" n="100"/>se, ut postea tractando de corporibus ab 
+          Ange<lb break="no" ed="#P" n="101"/>lis assumptis dicemus. Ac denique de anima
+          <lb ed="#P" n="102"/>Christi separata de fide certum est realiter 
+          des<lb break="no" ed="#P" n="103"/>cendisse ad inferos, relictis his locis 
+          superiori<lb break="no" ed="#P" n="104"/>bus, ut alibi tractatum est: eadem autem ratio
+          <lb ed="#P" n="105"/>est de quolibet spiritu creato.
+        </p>
+        <p xml:id="szdada-x10605-d1e1375">
+          <lb ed="#P" n="106"/>15. Probatur ex Patribus. — Secundo est
+          <lb ed="#P" n="107"/>haec communis Patrum traditio, Damasceni,
+          <lb ed="#P" n="108"/>Gregorii, Ambrosii, Bedae et Hugonis de Sancto
+          <lb ed="#P" n="109"/>Victore, quos in secunda assertione retuli, 
+          qui<lb break="no" ed="#P" n="110"/>bus addi potest Gregorius, Nazianzenus, Orat.
+          <pb ed="#P" n="427"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>34, quaest. 2, de Theologia, in fine, ubi inter
+          <lb ed="#P" n="2"/>proprietates Angelorum ponit: Quod omnia
+          <lb ed="#P" n="3"/>loca peragrant, omnibus ubique impigre adsunt -
+          <lb ed="#P" n="4"/>tun ob ministerii promptitudinem, tum ob 
+          na<lb break="no" ed="#P" n="5"/>ture levitatem. Ubi notanda est particula 
+          ubi<lb break="no" ed="#P" n="6"/>que adsunt, ejusque explicatio, per quam satis
+          <lb ed="#P" n="7"/>declarat, non esse simul ubique, sed posse
+          <lb ed="#P" n="8"/>ubique nos juvare, et impigre id facere per
+          <lb ed="#P" n="9"/>promptitudinem voluntatis, et naturae 
+          veloci<lb break="no" ed="#P" n="10"/>tatem. Quomodo loquitur etiam Damascenus
+          <lb ed="#P" n="11"/>supra, et Tertullianus in Apol., cap. 22, 
+          di<lb break="no" ed="#P" n="12"/>cens: Omnis spiritus ales est, hoc est, Angeli
+          <lb ed="#P" n="13"/>et demones igitur momento ubique sunt, totus
+          <lb ed="#P" n="14"/>orbis illis locus unus est, quod ubique geratur
+          <lb ed="#P" n="15"/>tam facile sciunt, quam enuntiant, velocitas 
+          di<lb break="no" ed="#P" n="16"/>cinitas creditur, quia substantia ignoratur. Ubi
+          <lb ed="#P" n="17"/>in verbo illo, ales est, alludit ad sententiam
+          <lb ed="#P" n="18"/>Dionysii, in cap. ult. de Coelesti Hierarch.,
+          <lb ed="#P" n="19"/>dicentis Angelos depingi pennatos, et alarum
+          <lb ed="#P" n="20"/>levitatem, eorum in suo motu celeritatem 
+          si<lb break="no" ed="#P" n="21"/>gnificare. Et ratione ejusdem velocitatis dixit
+          <lb ed="#P" n="22"/>Tertullianus Angelos momento ubigue esse, 
+          uti<lb break="no" ed="#P" n="23"/>que per velccissimum transitum: meritoque
+          <lb ed="#P" n="24"/>addit, per hanc velocitatem daemones fingere 
+          di<lb break="no" ed="#P" n="25"/>vinitatem, ac si ubique revera substantiahter
+          <lb ed="#P" n="26"/>essent. In quo etiam significat esse ubique per
+          <lb ed="#P" n="27"/>substantialem praesentiam proprium esse 
+          di<lb break="no" ed="#P" n="28"/>vinatis.
+        </p>
+        <p xml:id="szdada-x10605-d1e1453">
+          <lb ed="#P" n="29"/>16. Et eodem modo intelligendus est 
+          Hiero<lb break="no" ed="#P" n="30"/>nymus, lib. contra Vigilantium, post Epist. 53,
+          <lb ed="#P" n="31"/>ad Ripar., contra eumdem Vigilantium, ubi
+          <lb ed="#P" n="32"/>tractans illud Apoc. 14:/S'equuntur agnum 
+          quo<lb break="no" ed="#P" n="33"/>cumque ierit, dicit, Si agmus ubique: ergo et hà
+          <lb ed="#P" n="34"/>qui cum agno sunt, ubi que esse credendi sunt; ubi
+          <lb ed="#P" n="35"/>ipse de Martyribus loquitur: est autem eadem
+          <lb ed="#P" n="36"/>ratio de Angelis. Sed statim exponit, dicens:
+          <lb ed="#P" n="37"/>Cum deemones toto vagentur orbe, et ex 
+          celeri<lb break="no" ed="#P" n="38"/>tate nimia ulique preesentes sint, multo magis
+          <lb ed="#P" n="39"/>Martyres, etc. Et eodem modo loquitur 
+          Maxi<lb break="no" ed="#P" n="40"/>mus, serm. de S. Martyr. Taurino. Et D. 
+          Ber<lb break="no" ed="#P" n="41"/>nardus, serm. 5, in Cantica, de Angelis sanctis
+          <lb ed="#P" n="42"/>dicit: Angelos indigere corpore ad sua 
+          minis<lb break="no" ed="#P" n="43"/>teria, quia non est discurrere, nec de loco ad
+          <lb ed="#P" n="44"/>locum transire, nisi corporum quod frequenter
+          <lb ed="#P" n="45"/>Angelos facere tam indubitata, quam nota 
+          pro<lb break="no" ed="#P" n="46"/>bat auctoritas. Ex quo solum id quod ad 
+          prae<lb break="no" ed="#P" n="47"/>sens refert accipimus: nam illam necessitatem
+          <lb ed="#P" n="48"/>corporum non probamus, nisi de solis 
+          minis<lb break="no" ed="#P" n="49"/>teriis aliquo modo visibilibus, et de 
+          corpori<lb break="no" ed="#P" n="50"/>bus non naturalibus, sed assumptis, 
+          intelliga<lb break="no" ed="#P" n="51"/>tur. Unde melius Chrysostomus, hom. 3, ad
+          <lb ed="#P" n="52"/>Heb., tractans illa verba: In ministerium missi,
+          <lb ed="#P" n="53"/>absolute dicit, in multa loca propter nos 
+          mit<lb break="no" ed="#P" n="54"/>tuntur, et ad nostram ministrant salutem, et
+          <lb ed="#P" n="55"/>infra: Circa nos cursitant, hoc est, eorum ani-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nisterium propter nos in omnes mitti partes.
+          <lb ed="#P" n="57"/>Quod variis testimoniis Scripturae confirmat,
+          <lb ed="#P" n="58"/>ita illa interpretando. Et tandem comprobat
+          <lb ed="#P" n="59"/>differentiam, quam in verbo mittendi, paulo
+          <lb ed="#P" n="60"/>antea notavimus, dicens: Filius non sicut 
+          An<lb break="no" ed="#P" n="61"/>gelus fuit missus, non enim a loco in locum
+          <lb ed="#P" n="62"/>transit, sed carnem suscepit, Angeli vero loca
+          <lb ed="#P" n="63"/>mutant, et prioribus, in quibus sunt, dimissis
+          <lb ed="#P" n="64"/>ad alia veniunt, in quibus non erant.
+        </p>
+        <p xml:id="szdada-x10605-d1e1536">
+          <lb ed="#P" n="65"/>17. Probatur tertio ratione. — Ad opposita
+          <lb ed="#P" n="66"/>in nwmn. 1. — Tertio argumentari possumus
+          <lb ed="#P" n="67"/>ratione, quia Angelus habet definitum locum,
+          <lb ed="#P" n="68"/>et non habet locum, cui ex natura sua 
+          neces<lb break="no" ed="#P" n="69"/>sario adhaereat, ergo mutabilis est a loco in
+          <lb ed="#P" n="70"/>locum. Consequentia est evidens, quia 
+          immu<lb break="no" ed="#P" n="71"/>tabilitas localis provenire tantum potest, vel
+          <lb ed="#P" n="72"/>ex necessaria praesentia in omnibus locis 
+          si<lb break="no" ed="#P" n="73"/>mul, vel ex adhaesione necessaria ad unum
+          <lb ed="#P" n="74"/>locum. Major autem probata jam est, et minor
+          <lb ed="#P" n="75"/>facile probatur, quia in loco Angeli considerari
+          <lb ed="#P" n="76"/>potest, vel corpus aliquod, cui Angelus 
+          prae<lb break="no" ed="#P" n="77"/>sens est, vel spatium illud imaginarium, quod
+          <lb ed="#P" n="78"/>reali corpore impletur. Angelus autem nulli
+          <lb ed="#P" n="79"/>corpori naturali necessitate adhaeret, et 
+          quam<lb break="no" ed="#P" n="80"/>vis adhaereret, posset cum ipso corpore per 
+          ac<lb break="no" ed="#P" n="81"/>cidens mutari. Multoque minus potest 
+          immo<lb break="no" ed="#P" n="82"/>bilitatem naturalem in aliquo spatio habere,
+          <lb ed="#P" n="83"/>cum spatium ut condistinctum a corpore, vel
+          <lb ed="#P" n="84"/>ab Angelo, nihil sit. Quae ratio tractando de
+          <lb ed="#P" n="85"/>Ubi Angelorum evidentior fiet. Neque oportet
+          <lb ed="#P" n="86"/>fundamentis Durandi et Hervaei, qui in 1,
+          <lb ed="#P" n="87"/>dist. 37, contrarium docere ausi sunt, 
+          respon<lb break="no" ed="#P" n="88"/>dere. Fundantur enim in hoc, quod Angeli vel
+          <lb ed="#P" n="89"/>nullibi sunt, vel ubique sunt: utrumque 
+          au<lb break="no" ed="#P" n="90"/>tem omnino falsum esse ostendimus. Ex 
+          testi<lb break="no" ed="#P" n="91"/>moniis autem in principio hujus capitis 
+          alle<lb break="no" ed="#P" n="92"/>gatis solum illa verba Augustini, quod Deus
+          <lb ed="#P" n="93"/>movet spiritualem creaturam per tempora, non
+          <lb ed="#P" n="94"/>tamen per loca, nonnullam difficultatem 
+          ha<lb break="no" ed="#P" n="95"/>bent, quam tacito Augustini nomine advertit
+          <lb ed="#P" n="96"/>Hugo de S. Victore supra cap. 16. Et ideo 
+          il<lb break="no" ed="#P" n="97"/>lum modum loquendi non approbat, quamvis
+          <lb ed="#P" n="98"/>absolute non reprobet, quia de motu physico,
+          <lb ed="#P" n="99"/>et cum locali circumscriptione potest exponi.
+          <lb ed="#P" n="100"/>Sed de illis Augustini verbis plura in 
+          sequen<lb break="no" ed="#P" n="101"/>tibus dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

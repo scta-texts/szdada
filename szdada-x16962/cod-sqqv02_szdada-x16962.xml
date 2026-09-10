@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="673"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x16962"><!-- l6c8 -->
+        <head xml:id="szdada-x16962-Hd1e101">Caput 8</head>
+        <head xml:id="szdada-x16962-Hd1e103" type="question-title">An sancti angeli saltem in accidentali beatitudine suis meritis crescant</head>
+        <p xml:id="szdada-x16962-d1e106">
+          <lb ed="#P" n="14"/>CAPUT VIII.
+          <lb ed="#P" n="15"/>AN SANCTI ANGELI SALTEM IN ACCIDENTALI
+          <lb ed="#P" n="16"/>BEATITUDINE SUIS MERITIS CRESCANT.
+        </p>
+        <p xml:id="szdada-x16962-d1e115">
+          <lb ed="#P" n="17"/>1. Probatur ex Scriptura dari gloriam 
+          acci<lb break="no" ed="#P" n="18"/>dentalem. —Supponenda imprimis est 
+          commu<lb break="no" ed="#P" n="19"/>nis theologorum distinctio de duplici 
+          perfec<lb break="no" ed="#P" n="20"/>tione beatitudinis, quam essentiale, vel 
+          acci<lb break="no" ed="#P" n="21"/>dentale praemium, seu gloriam vocant. Tradunt
+          <lb ed="#P" n="22"/>communiter theologi in distinct. 11, et in 4,
+          <lb ed="#P" n="23"/>dist. 49, et D. Thomas, dict. quaest. 62. art. 9,
+          <lb ed="#P" n="24"/>ad 3. Et omisso priori membro de essentiali
+          <lb ed="#P" n="25"/>gloria, quae nomine vifte eternae, in Scriptura
+          <lb ed="#P" n="26"/>significatur, quia de illo jam satis dictum est;
+          <lb ed="#P" n="27"/>accidentalis gloria frequenter in sacra 
+          Scrip<lb break="no" ed="#P" n="28"/>tura indicatur, ut Psalm. 149, cum dicitur:
+          <lb ed="#P" n="29"/>Faultabunt Sancti in gloria, letabuntur in
+          <lb ed="#P" n="30"/>cubilibus suis, et Luc. 15, ibi: Gaudium erit
+          <lb ed="#P" n="31"/>in caelo super uno peccatore ponitentiam agente.
+          <lb ed="#P" n="32"/>Huc etiam pertinet judiciaria potestas, et 
+          ses<lb break="no" ed="#P" n="33"/>sio, quam pauperibus Christus promittit. Imo,
+          <lb ed="#P" n="34"/>et illud, centuplum, quod praeter, vitam 
+          eeter<lb break="no" ed="#P" n="35"/>nam, idem Dominus Matth. 19, promittit, si
+          <lb ed="#P" n="36"/>non tantum in praesenti vita, sed in futura 
+          im<lb break="no" ed="#P" n="37"/>plendum accipiatur. Praesertim vero in 
+          Apoca<lb break="no" ed="#P" n="38"/>lypsi haec accidentalis gloria multis modis 
+          indi<lb break="no" ed="#P" n="39"/>catur, per vestimenta alba, per coronas aureas,
+          <lb ed="#P" n="40"/>per canticum novum virginum sequentium
+          <lb ed="#P" n="41"/>Christum, et per stolas martyrum: et alia 
+          si<lb break="no" ed="#P" n="42"/>milia, quae in illo libro inveniuntur. Et ad hanc
+          <lb ed="#P" n="43"/>gloriam accidentalem pertinent aureolae 
+          virgi<lb break="no" ed="#P" n="44"/>num, martyrum, et doctorum: et similia, quae
+          <lb ed="#P" n="45"/>suo modo, et cum proportione Angelis 
+          com<lb break="no" ed="#P" n="46"/>munia sunt. Nam licet eis propriae aureolae non
+          <lb ed="#P" n="47"/>conveniant, quia non sunt capaces virginitatis
+          <lb ed="#P" n="48"/>propriae, aut martyrii, tamen habent alia 
+          ob<lb break="no" ed="#P" n="49"/>jecta proportionata, de quibus possint 
+          acciden<lb break="no" ed="#P" n="50"/>taliter gaudere, ut dicemus, et notat Richardus
+          <lb ed="#P" n="51"/>in 4, dist. 49, art. 4, quaest. 5 et 6, et Soto ibi
+          <lb ed="#P" n="52"/>quaest. ultim., articulo ultimo, concl. 8.
+        </p>
+        <p xml:id="szdada-x16962-d1e196">
+          <lb ed="#P" n="53"/>2. Triplex significatio accidentalis glorim.
+          <lb ed="#P" n="54"/>— Ut autem sine aequivocatione intelligatur,
+          <lb ed="#P" n="55"/>de qua gtoria accidentali in praesenti 
+          loqua<lb break="no" ed="#P" n="56"/>mur, scire convenit, accidentalem gloriam, in
+          <lb ed="#P" n="57"/>tribus significationibus accipi posse. Primo ut
+          <lb ed="#P" n="58"/>accidentalis perfectio beatitudinis dicatur,
+          <lb ed="#P" n="59"/>quidquid est extra rigorosam essentiam 
+          beati<lb break="no" ed="#P" n="60"/>tudinis essentialis, id est, omnis operatio, vel
+          <lb ed="#P" n="61"/>perfectio distincta ab illa operatione, in qua
+          <lb ed="#P" n="62"/>formalis beatitudo essentialiter constituitur. Et
+          <lb ed="#P" n="63"/>sic supponendo quod sola visio Dei sit tota 
+          es<lb break="no" ed="#P" n="64"/>sentia beatitudinis: amor, et gaudium de ipso
+          <lb ed="#P" n="65"/>Deo clare viso, vel de ipsa visione, et omnes
+          <lb ed="#P" n="66"/>dotes gloriae, et rectitudo voluntatis, et omnia
+          <lb ed="#P" n="67"/>similia ad accidentalem beatitudinem 
+          pertine<lb break="no" ed="#P" n="68"/>bunt. Verumtamen licet secundum quemdam
+          <lb ed="#P" n="69"/>philosophicum rigorem, ille modus loquendi
+          <lb ed="#P" n="70"/>sustineri possit; nihilominus theologi 
+          commu<lb break="no" ed="#P" n="71"/>niter non ita loquuntur, ut videre licet in 4,
+          <lb ed="#P" n="72"/>dist. 49, Richardo, art. 5, quaest. 1, et Soto
+          <lb ed="#P" n="73"/>ibi quaest. 3, art. 4, in principio, et in fine, et
+          <lb ed="#P" n="74"/>quaest. 5, art. 1. Et ad rem praesentem ille 
+          mo<lb break="no" ed="#P" n="75"/>dus appellandi beatitudinem accidentalem non
+          <lb ed="#P" n="76"/>deservit: quia omnes illi actus aeque 
+          immuta<lb break="no" ed="#P" n="77"/>biles sunt, et augmentum non recipiunt, sicut
+          <lb ed="#P" n="78"/>neque ipsa visio. Et ideo ab opinionibus 
+          abs<lb break="no" ed="#P" n="79"/>trahendo, illa tanquam substantialem 
+          beatitu<lb break="no" ed="#P" n="80"/>dinem constituentia ab ejus accidentibus 
+          dis<lb break="no" ed="#P" n="81"/>tinguimus.
+        </p>
+        <p xml:id="szdada-x16962-d1e262">
+          <lb ed="#P" n="82"/>3. Secundo ergo modo accidentalis gloria,
+          <lb ed="#P" n="83"/>beatitudo, seu praemium dicitur, omnis illa
+          <lb ed="#P" n="84"/>perfectio, quae additur completae, ac 
+          substan<lb break="no" ed="#P" n="85"/>tiali beatitudini: haec enim Deum ipsum habet
+          <lb ed="#P" n="86"/>pro immediato objecto, illa versatur circa 
+          ob<lb break="no" ed="#P" n="87"/>jecta ereata, ut sunt gaudia de bonis 
+          operi<lb break="no" ed="#P" n="88"/>bus factis, ad quae pertinent aureolae, et 
+          fruc<lb break="no" ed="#P" n="89"/>tus, et similia. Inter haec vero, quaedam sunt
+          <lb ed="#P" n="90"/>veluti accidentia inseparabilia, quae 
+          beatitudi<lb break="no" ed="#P" n="91"/>nis substantiam infallibiliter sequuntur, vel
+          <lb ed="#P" n="92"/>in universum, vel in unoquoque beato 
+          secun<lb break="no" ed="#P" n="93"/>dum modum suum. Et sub his accidentibus
+          <lb ed="#P" n="94"/>gloriae numerari possunt memoria priorum 
+          bo<lb break="no" ed="#P" n="95"/>norum operum, peccatorum remissio, cum
+          <lb ed="#P" n="96"/>gaudiis, quae ex his consequuntur. Item honor,
+          <lb ed="#P" n="97"/>et gloria beatorum inter se, et apud Deum,
+          <lb ed="#P" n="98"/>quae ab illo statu inseparabilia sunt. Item 
+          co<lb break="no" ed="#P" n="99"/>gnitio creaturarum in proprio genere, 
+          praeser<lb break="no" ed="#P" n="100"/>tim illa, quae ratione beatifici status altiori
+          <lb ed="#P" n="101"/>modo confertur. Et ad hunc modum in 
+          homi<lb break="no" ed="#P" n="102"/>nibus gloria corporum resurgentium respectu
+          <lb ed="#P" n="103"/>beatitudinis animae inter accidentales 
+          nume<lb break="no" ed="#P" n="104"/>ratur. De hoc ergo genere accidentalis 
+          beatitu<lb break="no" ed="#P" n="105"/>dinis etiam in praesenti non loquimur. Nam
+          <lb ed="#P" n="106"/>licet sit verum, et in Angelis reperiatur, 
+          ta<lb break="no" ed="#P" n="107"/>men in illo non invenitur proprium augmen-
+          <pb ed="#P" n="674"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tum, de quo tractamus. Et ratio est, quia haec
+          <lb ed="#P" n="2"/>accidentia, vel ex natura rei, vel ex 
+          ordinatio<lb break="no" ed="#P" n="3"/>ne divina consequuntur inseparabiliter, vel
+          <lb ed="#P" n="4"/>infallibiliter dantur cum ipsa beatitudine 
+          es<lb break="no" ed="#P" n="5"/>sentiali: et ideo sicut in hac non est 
+          augmen<lb break="no" ed="#P" n="6"/>tum, ita neque in illis accidentibus. Et ideo
+          <lb ed="#P" n="7"/>talia accidentia dici possunt per se secundo, et
+          <lb ed="#P" n="8"/>quasi immutabiliter beatis convenire.
+        </p>
+        <p xml:id="szdada-x16962-d1e343">
+          <lb ed="#P" n="9"/>4. Sed objici potest, quia in his potest 
+          inve<lb break="no" ed="#P" n="10"/>niri varietas cum additione aliqua; ergo et
+          <lb ed="#P" n="11"/>augmentum. Probatur, quia gloria 
+          Angelo<lb break="no" ed="#P" n="12"/>rum, et honor ex beatitudine hominum 
+          mul<lb break="no" ed="#P" n="13"/>tum accidentaliter aucta est, et quotidie 
+          au<lb break="no" ed="#P" n="14"/>getur. Et quando sunt in coelo, majorem
+          <lb ed="#P" n="15"/>quamdam accidentalem beatitudinem habent,
+          <lb ed="#P" n="16"/>quam cum sunt in terra, et quando actu res 
+          con<lb break="no" ed="#P" n="17"/>siderant, beatiores sunt accidentaliter, quam
+          <lb ed="#P" n="18"/>cum ab illis actibus cessant. Respondeo, ad
+          <lb ed="#P" n="19"/>hoc amplius declarandum distingui posse 
+          per<lb break="no" ed="#P" n="20"/>fectiones has accidentarias, quatenus ex parte
+          <lb ed="#P" n="21"/>beati, vel possidentur solum in actu primo, et
+          <lb ed="#P" n="22"/>intrinseca potestate, vel etiam in actu secundo,
+          <lb ed="#P" n="23"/>seu possessione. Primo modo dicimus esse 
+          ac<lb break="no" ed="#P" n="24"/>cidentia inseparabilia, et non recipere 
+          augmen<lb break="no" ed="#P" n="25"/>tum, nec variationem: posteriori autem modo
+          <lb ed="#P" n="26"/>posse aliquo modo, vel augeri, vel saltem 
+          va<lb break="no" ed="#P" n="27"/>riari. Declaratur imprimis in scientia rerum
+          <lb ed="#P" n="28"/>infusa de rebus supernaturalibus in proprio
+          <lb ed="#P" n="29"/>zenere. Illam enim (ut credimus habent 
+          An<lb break="no" ed="#P" n="30"/>geli praeter visionem beatam, nam illam etiam
+          <lb ed="#P" n="31"/>habent homines beati, ut nunc suppono, et
+          <lb ed="#P" n="32"/>quoad hoc eadem est ratio de Angelis. Si ergo
+          <lb ed="#P" n="33"/>talis scientia in actu primo consideretur, 
+          to<lb break="no" ed="#P" n="34"/>tam illam receperunt Angeli in primo instanti
+          <lb ed="#P" n="35"/>suae beatitudinis, quia ratione illius datur, et
+          <lb ed="#P" n="36"/>nulla fuit necessitas successionis. Loquor enim
+          <lb ed="#P" n="37"/>de scientia propria, non de cognitione quasi
+          <lb ed="#P" n="38"/>experimentali rerum in particulari, et cum
+          <lb ed="#P" n="39"/>omnibus circumstantiis: nam de hoc genere
+          <lb ed="#P" n="40"/>cognitionis alia est ratio; ut dicemus. Propria
+          <lb ed="#P" n="41"/>vero scientia quoad lumen, vel species, simul
+          <lb ed="#P" n="42"/>infusa est. In usu vero illius scientiae potest
+          <lb ed="#P" n="43"/>esse varietas actuum pro libertate Angeli 
+          bea<lb break="no" ed="#P" n="44"/>ti, sicut est etiam in scientia naturali. Quia
+          <lb ed="#P" n="45"/>cum Angelus non possit omnia simul in 
+          pro<lb break="no" ed="#P" n="46"/>prio genere actu considerare, ad perfectionem
+          <lb ed="#P" n="47"/>et libertatem ejus pertinet, nunc unum, postea
+          <lb ed="#P" n="48"/>aliud contemplari. In hac autem varietate non
+          <lb ed="#P" n="49"/>dicitur proprie esse beatitudinis augmentum:
+          <lb ed="#P" n="50"/>tum quia per illam revera non augetur 
+          scien<lb break="no" ed="#P" n="51"/>tia, sed exercetur: tum etiam, quia illa 
+          muta<lb break="no" ed="#P" n="52"/>tio semper fit in aequivalentem actum, et ita
+          <lb ed="#P" n="53"/>nunquam fit propria diminutio, vel auctio in
+          <lb ed="#P" n="54"/>accidentabl beatitudine, etiam proutin actu 
+          se<lb break="no" ed="#P" n="55"/>cundo esse potest. Et quod de actibus seu perfec-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tionibus intellectus dicimus, et voluntate 
+          eam<lb break="no" ed="#P" n="57"/>dem rationem habent. Simileque est de actuali
+          <lb ed="#P" n="58"/>praesentia in loco coelesti, nam accidentalis illa
+          <lb ed="#P" n="59"/>perfectio per se ac principaliter consistit in
+          <lb ed="#P" n="60"/>jure possidendi talem locum: actualis autem
+          <lb ed="#P" n="61"/>mutatio loci valde materialis est, et ideo non
+          <lb ed="#P" n="62"/>facit diminutionem, vel augmentum in 
+          acci<lb break="no" ed="#P" n="63"/>dentali gloria secundum veram rerum 
+          aesti<lb break="no" ed="#P" n="64"/>mationem. Quia per illam mutationem non
+          <lb ed="#P" n="65"/>impeditur Dei praesentia, vel societas 
+          Sancto<lb break="no" ed="#P" n="66"/>rum, et ab Angelis non fit nisi propter 
+          majo<lb break="no" ed="#P" n="67"/>rem Dei gloriam, et bonum hominum, 
+          ideo<lb break="no" ed="#P" n="68"/>que potius pertinet ad accidentalem gloriam
+          <lb ed="#P" n="69"/>Angelorum, quod possint ita mutari, juxta id
+          <lb ed="#P" n="70"/>quod de sanctis dicitur Sapientiae 3. S'cut
+          <lb ed="#P" n="71"/>scintille in arundineto discurrent. Denique 
+          i<lb break="no" ed="#P" n="72"/>dem suo modo est de societate bonorum, hoc
+          <lb ed="#P" n="73"/>enim bonum crescere videtur in singulis 
+          sanc<lb break="no" ed="#P" n="74"/>tis, seu Angelis, quo plures quotidie gloriam
+          <lb ed="#P" n="75"/>illam consequuntur: sed illud augmentum est
+          <lb ed="#P" n="76"/>quasi necessario resultans ex praeexistente 
+          glo<lb break="no" ed="#P" n="77"/>ria, facta in alio extremo mutatione.
+        </p>
+        <p xml:id="szdada-x16962-d1e497">
+          <lb ed="#P" n="78"/>5. Tertia significatio et propria. — Prima
+          <lb ed="#P" n="79"/>assertio. — Tertio igitur modo ad 
+          accidenta<lb break="no" ed="#P" n="80"/>lem beatitudinem pertinent quidam actus 
+          in<lb break="no" ed="#P" n="81"/>tellectus, et voluntatis, qui et circa objecta
+          <lb ed="#P" n="82"/>creata proxime versantur, et non 
+          consequun<lb break="no" ed="#P" n="83"/>tur necessario essentialem beatitudinem, 
+          ne<lb break="no" ed="#P" n="84"/>que ab illa sunt inseparabilia, sed ex peculiari
+          <lb ed="#P" n="85"/>favore conceduntur, ut sunt revelationes extra
+          <lb ed="#P" n="86"/>verbum de rebus, et effectibus gratiae, 
+          praeser<lb break="no" ed="#P" n="87"/>tim quando ex Dei libero decreto pendent, vel
+          <lb ed="#P" n="88"/>sunt de effectibus contingentibus futuris, vel
+          <lb ed="#P" n="89"/>internis mentiscogitationibus, quas ex vi 
+          scien<lb break="no" ed="#P" n="90"/>tiae habitualis a principio creationis, vel 
+          beati<lb break="no" ed="#P" n="91"/>tudinis Angelis infusae per se cognoscere non
+          <lb ed="#P" n="92"/>possent, nisi denuo revelarentur. Ejusdem
+          <lb ed="#P" n="93"/>rationis sunt gaudia, et alii affectus circa res
+          <lb ed="#P" n="94"/>sic cognitas: ut est illud gaudium de peccatore
+          <lb ed="#P" n="95"/>poenitentiam agente. De quo praecipue solent
+          <lb ed="#P" n="96"/>theologi loqui, sed eadem est ratio de simih
+          <lb ed="#P" n="97"/>gaudio aliorum bonorum operum, quale est
+          <lb ed="#P" n="98"/>illud apud Augustinum, in Soliloq., cap. 27:
+          <lb ed="#P" n="99"/>Angeli congaudent gaudentibus de te. Quoties
+          <lb ed="#P" n="100"/>Lona agimus gaudent Angeli, etc. Gloria 
+          igi<lb break="no" ed="#P" n="101"/>tur in his actibus consistens peculiari ratione,
+          <lb ed="#P" n="102"/>et quasi per antonomasiam dicitur 
+          accidenta<lb break="no" ed="#P" n="103"/>lis, quia non solum est extra essentiam, sed
+          <lb ed="#P" n="104"/>etiam neque per se secunda (ut sic dicam) 
+          con<lb break="no" ed="#P" n="105"/>venit, sed est veluti accidens quintum 
+          praedi<lb break="no" ed="#P" n="106"/>cabile, quod a proprio distinguitur, et quasi
+          <lb ed="#P" n="107"/>contingenter substantiali beatitudini accrescit.
+        </p>
+        <p xml:id="szdada-x16962-d1e565">
+          <lb ed="#P" n="108"/>6. Accidentalis beatitudo in Angelis potest
+          <lb ed="#P" n="109"/>augeri. — De hac ergo accidentali perfectione
+          <lb ed="#P" n="110"/>beatitudinis communiter theologi docent posse
+          <pb ed="#P" n="675"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in sanctis Angelis augeri. Ita D. Thomas, in
+          <lb ed="#P" n="2"/>dicto, art. 9, et ibi caeteri. Et ad hanc 
+          acciden<lb break="no" ed="#P" n="3"/>talem gloriam pertinet, quod idem D. Thomas,
+          <lb ed="#P" n="4"/>quaest. 57, art. 5, dixit, sanctis Angelis 
+          quae<lb break="no" ed="#P" n="5"/>dam mysteria gratiae postea revelari, quae in
+          <lb ed="#P" n="6"/>principio suae beatitudinis non cognoverunt.
+          <lb ed="#P" n="7"/>Hoc etiam confirmant verba Domini Luc. 15.
+          <lb ed="#P" n="8"/>Gaudium est in caelo super uno peccatore 
+          poni<lb break="no" ed="#P" n="9"/>tentiam agente. Imo ait Christus plus gaudere
+          <lb ed="#P" n="10"/>Angelos super uno peccatore poenitentiam 
+          a<lb break="no" ed="#P" n="11"/>gente, quam super nonaginta novem justis,
+          <lb ed="#P" n="12"/>ad significandam humano modo novitatem
+          <lb ed="#P" n="13"/>gaudii, ut Jansenius, in Concor., cap. 94, 
+          no<lb break="no" ed="#P" n="14"/>tavit, ex Cypriano, libr. de Exhortat. ad 
+          Mar<lb break="no" ed="#P" n="15"/>tyr. Sicut etiam dicit Christus, Matth. 18, 
+          ho<lb break="no" ed="#P" n="16"/>minem habentem centum oves, inventa una,
+          <lb ed="#P" n="17"/>quam perdiderat, plus de illa gaudere, quam
+          <lb ed="#P" n="18"/>de caeteris, qui novum, ac speciale gaudium de
+          <lb ed="#P" n="19"/>illa recepit. De hac etiam accidentali gloria
+          <lb ed="#P" n="20"/>recte intelligitur, quod Innocentius II, dicit,
+          <lb ed="#P" n="21"/>cap. Cun Marthe, de celebratione Missarum,
+          <lb ed="#P" n="22"/>S ultim., aliquos non reputare indignum, 
+          sanc<lb break="no" ed="#P" n="23"/>torum gloriam usque ad judicium 
+          augmenta<lb break="no" ed="#P" n="24"/>ri. Non enim loquitur de essentiali gloria, de
+          <lb ed="#P" n="25"/>hoc enim non plerique, ut Innocentius III, sed
+          <lb ed="#P" n="26"/>pauci docuerunt, imo vix unus vel alter dixit
+          <lb ed="#P" n="27"/>augeri, et non in beatis hominibus, de quibus
+          <lb ed="#P" n="28"/>Innocentius loquitur, sed in sanctis Angelis.
+          <lb ed="#P" n="29"/>De accidentali autem gloria sanctorum 
+          homi<lb break="no" ed="#P" n="30"/>num, quod augeatur usque ad diem Judicii,
+          <lb ed="#P" n="31"/>Iicet credibilius sit, noluit Innocentius 
+          tan<lb break="no" ed="#P" n="32"/>quam certum id asserere, quia non est 
+          revela<lb break="no" ed="#P" n="33"/>tum, nec omni dubitatione caret, ut dicemus.
+          <lb ed="#P" n="34"/>Ratio denique assertionis est, quia hoc 
+          aug<lb break="no" ed="#P" n="35"/>mentum in beatis fieri, non est contra 
+          ratio<lb break="no" ed="#P" n="36"/>nem status beatifici creati, et limitari, imo eo
+          <lb ed="#P" n="37"/>ipse, quod limitationem habet ad perfectionem
+          <lb ed="#P" n="38"/>ejus spectat, ut saltem accidentahter possit
+          <lb ed="#P" n="39"/>augeri.
+        </p>
+        <p xml:id="szdada-x16962-d1e663">
+          <lb ed="#P" n="40"/>7. Prima interrogatio, an hoc augmentum
+          <lb ed="#P" n="41"/>Angeli mereantur de novo. — Prima opinio
+          <lb ed="#P" n="42"/>affirmans. — Negativa opinio verior. —Circa
+          <lb ed="#P" n="43"/>modum autem, et causam hujus augmenti 
+          in<lb break="no" ed="#P" n="44"/>terrogari potest ulterius, an fiat ex novo 
+          me<lb break="no" ed="#P" n="45"/>rito, quod sancti Angeli habent in statu 
+          beati<lb break="no" ed="#P" n="46"/>tudinis, vel unde proveniat. Aliqui theologi
+          <lb ed="#P" n="47"/>dicunt, Angelos bene ministrando hominibus
+          <lb ed="#P" n="48"/>mereri hoc augmentum, Richardus, in 2, 
+          dis<lb break="no" ed="#P" n="49"/>tinct. 10, art. 1, quaest. 1, in 4, dist. 49, art. 5,
+          <lb ed="#P" n="50"/>quaest. 6, et Bonaventura 2, dist. 11, art. 2,
+          <lb ed="#P" n="51"/>quaest. 2, et ibi Gabriel, art. 3, dub. 2, 
+          pro<lb break="no" ed="#P" n="52"/>bant, quia quantum ad illud gaudium Angeli
+          <lb ed="#P" n="53"/>sancti non sunt in termino, qui priusquam 
+          de<lb break="no" ed="#P" n="54"/>tur, carent illo, et sic sunt in via: ad illud 
+          er<lb break="no" ed="#P" n="55"/>go possunt illud mereri; ergo per meritum illud
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>acquirunt. Contrarium tamen verius est, quod
+          <lb ed="#P" n="57"/>docet D. Thomas, dicto art. 9, et sequuntur ibi
+          <lb ed="#P" n="58"/>communiter expositores, et Albertus, in 2,
+          <lb ed="#P" n="59"/>dist. 11, artic. ultim. Et ratio est, quia cum
+          <lb ed="#P" n="60"/>sint in termino simpliciter ultimo, jam non
+          <lb ed="#P" n="61"/>sunt in statu merendi. Ut enim aliquis sit in
+          <lb ed="#P" n="62"/>statu merendi, non satis est, quod careat re
+          <lb ed="#P" n="63"/>aliqua, ut Gabriel in sua ratione supponit, sed
+          <lb ed="#P" n="64"/>necesse est, ut sit in via ad merendum 
+          desti<lb break="no" ed="#P" n="65"/>nata ex divina ordinatione, quae in Angelis, et
+          <lb ed="#P" n="66"/>regulariter in hominibus, est status fidei, et
+          <lb ed="#P" n="67"/>carentiae visionis Dei, ut in lib. de Gratia, 
+          la<lb break="no" ed="#P" n="68"/>tius tractavimus.
+        </p>
+        <p xml:id="szdada-x16962-d1e731">
+          <lb ed="#P" n="69"/>8. Deinde explicatur, quia tribus modis 
+          in<lb break="no" ed="#P" n="70"/>telligere possumus hoc augmentum 
+          accidenta<lb break="no" ed="#P" n="71"/>lis gloriae in sanctis Angelis. Primo, ut 
+          prove<lb break="no" ed="#P" n="72"/>niat solum ex nova praesentia objectorum, sine
+          <lb ed="#P" n="73"/>peculiari revelatione, vel illuminatione ex parte
+          <lb ed="#P" n="74"/>Dei, vel superiorum Angelorum, ut contingere
+          <lb ed="#P" n="75"/>potest in illo exemplo de peccatore 
+          poeniten<lb break="no" ed="#P" n="76"/>tam agente: nam si poenitentia sit exterior,
+          <lb ed="#P" n="77"/>potest cognosci a sanctis Angelis per scientiam
+          <lb ed="#P" n="78"/>inditam, quam habent, et tunc sicut ex 
+          chari<lb break="no" ed="#P" n="79"/>tate diligunt homines, et ita de illorum salute
+          <lb ed="#P" n="80"/>gaudent. Ergo tunc nullum est necessarium
+          <lb ed="#P" n="81"/>meritum ad hujusmodi augmentum, quia 
+          An<lb break="no" ed="#P" n="82"/>gelus per se et ex intrinseca virtute sua habet
+          <lb ed="#P" n="83"/>illos actus, et gaudium, quod illos comitatur.
+          <lb ed="#P" n="84"/>Secundo modo potest aliquid denuo revelari
+          <lb ed="#P" n="85"/>Angelis in ordine ad sua ministeria, ut quando
+          <lb ed="#P" n="86"/>Gabrieli revelata fuit Incarnatio, ut tali 
+          tem<lb break="no" ed="#P" n="87"/>pori, et modo exequenda, ut illam Virgini 
+          nun<lb break="no" ed="#P" n="88"/>taret. Et tunc etiam necesse non est, ut ex
+          <lb ed="#P" n="89"/>parte Gabrielis aliquod peculiare meritum in
+          <lb ed="#P" n="90"/>patria praecesserit, quia illa revelatio non est
+          <lb ed="#P" n="91"/>illi facta, ut praemium alicujus operis, sed 
+          po<lb break="no" ed="#P" n="92"/>tius, ut principium, seu conditio necessaria ad
+          <lb ed="#P" n="93"/>exercendum ministerium, ad quod mittebatur.
+          <lb ed="#P" n="94"/>Tertio potest nova revelatio tieri Angelo, ut
+          <lb ed="#P" n="95"/>alicui alteri beato solum, quia est consentanea
+          <lb ed="#P" n="96"/>statui ejus, vel ut oret pro suis, vel sibi 
+          con<lb break="no" ed="#P" n="97"/>junctis, vel ut de eorum bonis specialiter 
+          gau<lb break="no" ed="#P" n="98"/>deat, ut quando revelantur fundatori religionis
+          <lb ed="#P" n="99"/>ejus felices successus, ut de illis gaudeat, et
+          <lb ed="#P" n="100"/>Deum laudet. Et tunc fieri quidem potest, ut
+          <lb ed="#P" n="101"/>illud sit accidentale praemium meritorum, non
+          <lb ed="#P" n="102"/>tamen in ipsa beatitudine factorum, sed 
+          eo<lb break="no" ed="#P" n="103"/>rum, quae in via unusquisque habuit. Nam per
+          <lb ed="#P" n="104"/>illa meruit pervenire ad illum beatitudinis
+          <lb ed="#P" n="105"/>gradum, et statum, cui hujusmodi accidentales
+          <lb ed="#P" n="106"/>gloriae perfectiones connaturales essent. Ergo
+          <lb ed="#P" n="107"/>neque ad variationem, vel (ut ita dicam) 
+          novita<lb break="no" ed="#P" n="108"/>tem, vel augmentum hujus accidentalis gloriae
+          <lb ed="#P" n="109"/>meritum est necessarium: neque illi statui
+          <lb ed="#P" n="110"/>consentaneum.
+        </p>
+        <p xml:id="szdada-x16962-d1e826">
+          <pb ed="#P" n="676"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>9. Secunda interrogatio, cur hoc augmentum
+          <lb ed="#P" n="2"/>cessabit post diem Judicii.—Vera responsio.—
+          <lb ed="#P" n="3"/>Hinc vero nascitur alia interrogatio, cur 
+          dica<lb break="no" ed="#P" n="4"/>tur hoc augmentum duraturum usque ad diem
+          <lb ed="#P" n="5"/>Judicii, et non ultra. Quia etiam post diem 
+          Ju<lb break="no" ed="#P" n="6"/>dicii erunt novae cogitationes sanctae, et nova
+          <lb ed="#P" n="7"/>gaudia in sanctis Angelis. Non enim sicut in
+          <lb ed="#P" n="8"/>visione, amore, et fruitione Dei nunc et in 
+          per<lb break="no" ed="#P" n="9"/>petuum immutabiles permanent: ita in eadem
+          <lb ed="#P" n="10"/>voluptate, et gaudio ex aliarum rerum, seu
+          <lb ed="#P" n="11"/>operum Dei cognitione post Juaicii diem 
+          sem<lb break="no" ed="#P" n="12"/>per insistent, ergo etiam post illum diem idem
+          <lb ed="#P" n="13"/>augmentum accidentalis gloriae in Angelis 
+          in<lb break="no" ed="#P" n="14"/>veniri poterit. Respondeo vel negando 
+          illatio<lb break="no" ed="#P" n="15"/>nem, vel utendo distinctione supra insinuata
+          <lb ed="#P" n="16"/>de variatione, et augmento. Ratio enim facta
+          <lb ed="#P" n="17"/>probat futuram esse in Angelis sanctis, vel
+          <lb ed="#P" n="18"/>aliis beatis aliquam variationem in gloria 
+          ac<lb break="no" ed="#P" n="19"/>cidentali, etiam post diem Judicii, non tamen
+          <lb ed="#P" n="20"/>probat futurum esse augmentum, de quo divus
+          <lb ed="#P" n="21"/>Thomas, et alii theologi loquuntur, cum 
+          dic<lb break="no" ed="#P" n="22"/>tum terminum illis praefigunt. Declaratur: quia
+          <lb ed="#P" n="23"/>omnis variatio et omne augmentum gloriae 
+          ac<lb break="no" ed="#P" n="24"/>cidentalis incipit in sanctis ab intellectu, quia
+          <lb ed="#P" n="25"/>haec gloria in actibus mentis consistit: et actus
+          <lb ed="#P" n="26"/>voluntatis originem trahunt ab actibus 
+          intel<lb break="no" ed="#P" n="27"/>lectus; ergo omnis nova accidentalis gloria 
+          in<lb break="no" ed="#P" n="28"/>cipit ab intellectu, id est, ab aliqua revelatione,
+          <lb ed="#P" n="29"/>vel consideratione jucunda, quae novum 
+          gau<lb break="no" ed="#P" n="30"/>dium parit. Quia ergo usque ad diem Judicii
+          <lb ed="#P" n="31"/>erunt novi effectus divinae gratiae, et Angeli
+          <lb ed="#P" n="32"/>sancti non cognoscunt illos omnes futuros,
+          <lb ed="#P" n="33"/>priusquam fiant, ideo semper possunt de illis
+          <lb ed="#P" n="34"/>novas revelationes accipere, et nova gaudia
+          <lb ed="#P" n="35"/>ex illorum cognitione consequi. Et in utroque
+          <lb ed="#P" n="36"/>augetur eorum gloria accidentalis, quia ei 
+          ad<lb break="no" ed="#P" n="37"/>ditur aliquid simile gloriae praeexistenti. Post
+          <lb ed="#P" n="38"/>diem autem Judicii cessabunt novi effectus
+          <lb ed="#P" n="39"/>gratiae, et ideo cessabunt novae revelationes, et
+          <lb ed="#P" n="40"/>nova gaudia, et ita cessabit illud 
+          augmen<lb break="no" ed="#P" n="41"/>tum. Quia vero sancti Angeli non semper actu
+          <lb ed="#P" n="42"/>considerant omnia, quae extra Verbum 
+          co<lb break="no" ed="#P" n="43"/>gnoscunt, et de quibus gaudere possunt: ideo
+          <lb ed="#P" n="44"/>etiam post judicium non semper erunt in 
+          ac<lb break="no" ed="#P" n="45"/>tuali omnium consideratione, et ideo 
+          pote<lb break="no" ed="#P" n="46"/>runt varietatem aliquam in hac gloria 
+          acciden<lb break="no" ed="#P" n="47"/>tali habere, non tamen proprium augmentum:
+          <lb ed="#P" n="48"/>quia neque in cognitione crescunt, sed jam
+          <lb ed="#P" n="49"/>habitam exercent: neque eorum gaudium
+          <lb ed="#P" n="50"/>crescet, quia semper erit de rebus, de quibus
+          <lb ed="#P" n="51"/>jam gavisi fuere, et quando circa rem aliquam
+          <lb ed="#P" n="52"/>de novo suscipitur, cessat circa aliam: et ita
+          <lb ed="#P" n="53"/>nunquam fit proprium augmentum. Unde
+          <lb ed="#P" n="54"/>Christus Dominus, etiam nunc non potest 
+          ha<lb break="no" ed="#P" n="55"/>bere augmentum in gloria accidentali, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>omnia futura semper habet praesentia, et de
+          <lb ed="#P" n="57"/>omnibus idem recipit gaudium, et nihilominus
+          <lb ed="#P" n="58"/>secundum scientiam infusam potest 
+          varieta<lb break="no" ed="#P" n="59"/>tem in actuali consideratione distinctorum 
+          ef<lb break="no" ed="#P" n="60"/>fectuum habere, quia per illam scientiam non
+          <lb ed="#P" n="61"/>omnia semper actu considerat. Idemque suo
+          <lb ed="#P" n="62"/>modo in Virgine sanctissima invenitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

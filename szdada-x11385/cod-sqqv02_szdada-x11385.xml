@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="452"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x11385"><!-- l4d7 -->
+        <head xml:id="szdada-x11385-Hd1e101">Caput 7</head>
+        <head xml:id="szdada-x11385-Hd1e103" type="question-title">Per quid tandem angelus sit in loco extrinseco</head>
+        <p xml:id="szdada-x11385-d1e106">
+          <lb ed="#P" n="71"/>CAPUT VII.
+          <lb ed="#P" n="72"/>PER QUID TANDEM ANGELUS SIT IN LOCO 
+          EXTRIN<lb break="no" ed="#P" n="73"/>SECO.
+        </p>
+        <p xml:id="szdada-x11385-d1e115">
+          <lb ed="#P" n="74"/>1. Vera conclusio. — Superest, ut in hoc
+          <lb ed="#P" n="75"/>puncto nostram sententiam proponamus. 
+          Di<lb break="no" ed="#P" n="76"/>cimus ergo, Angelum esse in loco per solam
+          <lb ed="#P" n="77"/>praesentiam substantiae suae indistantis a 
+          cor<lb break="no" ed="#P" n="78"/>pore, in quo esse dicitur, ac proinde 
+          denomi<lb break="no" ed="#P" n="79"/>nationem hanc essendi in loco ex parte Angeli
+          <lb ed="#P" n="80"/>solum dicere intrinsecum modum praesentiae,
+          <lb ed="#P" n="81"/>seu Dbi, quod supra capite secundo 
+          explicui<lb break="no" ed="#P" n="82"/>mus: connotare autem coexistentiam corporis
+          <lb ed="#P" n="83"/>in eodem situ seu spatio, in quo Angelus 
+          prae<lb break="no" ed="#P" n="84"/>sens existit. Hancsententiam inter Scholasticos,
+          <lb ed="#P" n="85"/>clarius explicuit Richardus in 1, dist. 37, art.
+          <lb ed="#P" n="86"/>2. quaest. 1, ubi dicit, rationem formalem 
+          ap<lb break="no" ed="#P" n="87"/>plicationis Angeli ad locum esse simultatem
+          <lb ed="#P" n="88"/>ejus cum loco, vel cum re in loco existente. Ft
+          <lb ed="#P" n="89"/>in solut. argum. idem repetit, et magis 
+          decla<lb break="no" ed="#P" n="90"/>rat. Et ex modernis eam optime declarat, et
+          <lb ed="#P" n="91"/>defendit Pesantius, et eam tribuit Alensi, 2 p.,
+          <lb ed="#P" n="92"/>quaest. 32, memb. 1, et Henrico, quodl. 2,
+          <lb ed="#P" n="93"/>quaest. 9, et quodl. 4, quaest. 17, et aliis 
+          scho<lb break="no" ed="#P" n="94"/>lasticis asserentibus, Angelum esse in loco per
+          <lb ed="#P" n="95"/>suam substantiam: ei merito, nam isti non
+          <lb ed="#P" n="96"/>excludunt modum praesentiae ubicationis, ut
+          <lb ed="#P" n="97"/>in capite secundo explicavi, sed excludunt
+          <lb ed="#P" n="98"/>operationem, .et quidquid ei simile cogitatur,
+          <lb ed="#P" n="99"/>aut petitur ultra dictam praesentiam. Et 
+          eam<lb break="no" ed="#P" n="100"/>dem defendit cum magna exaggeratione Daniel
+          <lb ed="#P" n="101"/>Malonius in 2, dist. 8, disp. 9, sect. 2 et 3,
+          <lb ed="#P" n="102"/>cum his, quae addit in quarto ubi respondendo
+          <lb ed="#P" n="103"/>ad primam quaestiunculam aperte dicit, eo
+          <lb ed="#P" n="104"/>ipso quod Angelus habet suum Ubi spiritale,
+          <lb ed="#P" n="105"/>simul cum Ubi ahcujus corporis esse ibi in loco
+          <lb ed="#P" n="106"/>definitive. Et pro eadem sententia merito 
+          al<lb break="no" ed="#P" n="107"/>legari potest Hugo de sancto Victore, lib. de
+          <pb ed="#P" n="453"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Sacrament., part. 3, cap. 18, dicens: 
+          Ange<lb break="no" ed="#P" n="2"/>Mn esse in loco, quoniam alicubi preesens 
+          cer<lb break="no" ed="#P" n="3"/>uitur, et esse localem, quoniam cum sit alicubi,
+          <lb ed="#P" n="4"/>non ubique invenitur. Wnferius autem ait, 
+          Spi<lb break="no" ed="#P" n="5"/>ritum esse localem, quonium in loco per 
+          preesen<lb break="no" ed="#P" n="6"/>tiam nature, et operationis concluditur. 
+          Ve<lb break="no" ed="#P" n="7"/>rumtamen non adjungit operationem, quia sit
+          <lb ed="#P" n="8"/>necessaria ad praesentiam, per quam jam 
+          dixe<lb break="no" ed="#P" n="9"/>rat Angelum esse in loco, sed quia ex 
+          limita<lb break="no" ed="#P" n="10"/>ta operatione colligitur Angelum esse naturae
+          <lb ed="#P" n="11"/>finitae, et postulantis praesentiam definitam,
+          <lb ed="#P" n="12"/>nam per hoc declarat, Angelum esse localem.
+        </p>
+        <p xml:id="szdada-x11385-d1e222">
+          <lb ed="#P" n="13"/>2. Probatur primo. — Secundo. — Duplea
+          <lb ed="#P" n="14"/>denominatio ea loco. — Ostenditur primam 
+          com<lb break="no" ed="#P" n="15"/>petere Angelo. — Potest autem haec sententia
+          <lb ed="#P" n="16"/>persuaderi primo a sufficienti partium 
+          enu<lb break="no" ed="#P" n="17"/>meratione, quia nihil aliud invenitur 
+          necessa<lb break="no" ed="#P" n="18"/>rium, ut Angelus alicubi, seu in aliquo loco
+          <lb ed="#P" n="19"/>esse dicatur, ut probatum est excludendo 
+          om<lb break="no" ed="#P" n="20"/>nia alia, quae in Angelo, vel extra Angelum,
+          <lb ed="#P" n="21"/>praeter ea, quae diximus, necessaria esse 
+          di<lb break="no" ed="#P" n="22"/>cuntur, vel certe cogitari possunt. Secundo
+          <lb ed="#P" n="23"/>directe ostenditur hoc suflicere, quia in his
+          <lb ed="#P" n="24"/>locutionibus per quas, et Scriptura sacra, et
+          <lb ed="#P" n="25"/>omnes communi sermone dicimus Angelum
+          <lb ed="#P" n="26"/>esse alicubi vel hic, aut alibi, duplex 
+          denomi<lb break="no" ed="#P" n="27"/>natio ipsius Angeli consiaerari potest: una est
+          <lb ed="#P" n="28"/>intrinseca et adhaerens Angelo, quamdiu ipse
+          <lb ed="#P" n="29"/>in se non mutatur, alia est extrinseca, qualis
+          <lb ed="#P" n="30"/>esse solet, quae ab extrinseco loco sumitur. Sed
+          <lb ed="#P" n="31"/>ad utramque denominationem sufticit Ubi 
+          an<lb break="no" ed="#P" n="32"/>gelicum, connotando simultatem, seu 
+          propin<lb break="no" ed="#P" n="33"/>quitatem alicujus corporis; ergo haec sufficiunt
+          <lb ed="#P" n="34"/>ad rationem formalem constituentem Angelum
+          <lb ed="#P" n="35"/>in aliquo loco. Major ex dictis in secundo 
+          ca<lb break="no" ed="#P" n="36"/>pite, et in discursu istius est satis manifesta, et
+          <lb ed="#P" n="37"/>per proportionem ad Ubi, et locum corporeum
+          <lb ed="#P" n="38"/>facile intelligi ac persuaderi potest. Minor 
+          au<lb break="no" ed="#P" n="39"/>tem ostenditur quoad priorem partem, quia
+          <lb ed="#P" n="40"/>Angelus dicitur esse hic, vel alibi intrinsece ab
+          <lb ed="#P" n="41"/>illo modo intrinsecae praesentiae, quem in 
+          ca<lb break="no" ed="#P" n="42"/>pite secundo declaravimus: nec ulla alia 
+          de<lb break="no" ed="#P" n="43"/>nominatio intrinseca ex vi existentiae in loco
+          <lb ed="#P" n="44"/>illi convenit; ergo ad hanc denominationem
+          <lb ed="#P" n="45"/>sufficit ille modus, qui in Angelo est spiritualis,
+          <lb ed="#P" n="46"/>et a corpore per se non pendens.
+        </p>
+        <p xml:id="szdada-x11385-d1e299">
+          <lb ed="#P" n="47"/>3. Ostenditur competere quogue secundam. —
+          <lb ed="#P" n="48"/>Declaratur in rebus corporeis. — Item in 
+          pre<lb break="no" ed="#P" n="49"/>sentia Christi Domini in hostia consecrata. —
+          <lb ed="#P" n="50"/>Altera vero pars facile probatur, quia ad illam
+          <lb ed="#P" n="51"/>denominationem extrinsecam sufficit 
+          coexis<lb break="no" ed="#P" n="52"/>tentia, et simultas corporis, et Angeli 
+          secun<lb break="no" ed="#P" n="53"/>dum intimam realem praesentiam. Quod potest
+          <lb ed="#P" n="54"/>exemplis declarari: nam Deus est per 
+          praesen<lb break="no" ed="#P" n="55"/>tiam in rebus, quas per potentiam creat, illum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>autem esse in rebus, Deo solum addit 
+          denomi<lb break="no" ed="#P" n="57"/>nationem extrinsecam: nam ob hanc causam
+          <lb ed="#P" n="58"/>sine sui mutatione coepit esse in illis. Quae 
+          de<lb break="no" ed="#P" n="59"/>nominatio formaliter, et per se non fundatur
+          <lb ed="#P" n="60"/>in operatione, sed in intima praesentia et 
+          si<lb break="no" ed="#P" n="61"/>multate, quam habet Deus cum omni re quam
+          <lb ed="#P" n="62"/>creat. Declaratur etiam in corporibus: nam si
+          <lb ed="#P" n="63"/>ab aqua in vase contenta Deus auferret 
+          quan<lb break="no" ed="#P" n="64"/>titatem, conservando substantiam localiter 
+          im<lb break="no" ed="#P" n="65"/>motam, substantia aquae maneret intra latera
+          <lb ed="#P" n="66"/>vasis, et quasi penetrative cum aere, qui 
+          spa<lb break="no" ed="#P" n="67"/>tium illud replere posset, et tunc per 
+          denomi<lb break="no" ed="#P" n="68"/>nationem extrinsecam diceretur substantia 
+          a<lb break="no" ed="#P" n="69"/>quae esse in illo aere, vel in loco ejus, scilicet,
+          <lb ed="#P" n="70"/>in vase, et ad illam sufliceret intima praesentia,
+          <lb ed="#P" n="71"/>seu indistantia inter substantiam aquae et 
+          ae<lb break="no" ed="#P" n="72"/>rem, aut vas. Item in Eucharistia Christi 
+          cor<lb break="no" ed="#P" n="73"/>pus vere dicitur esse in hostia consecrata, et in
+          <lb ed="#P" n="74"/>loco ejus, et sub illis speciebus, solum quia ibi
+          <lb ed="#P" n="75"/>habet praesentiam substantialem per 
+          intrinse<lb break="no" ed="#P" n="76"/>cum modum suum indistantem ab Ubi 
+          specie<lb break="no" ed="#P" n="77"/>rum, et intime simul cum illis. Neque inter
+          <lb ed="#P" n="78"/>corpus Christi et species, alia unio formalis vel
+          <lb ed="#P" n="79"/>physica intervenit, ut suo loco ostendi, et ex
+          <lb ed="#P" n="80"/>dictis contra praecedentem opinionem satis
+          <lb ed="#P" n="81"/>confirmatur: nam est eadem proportionalis
+          <lb ed="#P" n="82"/>ratio. Quamvis autem probabile sit, esse 
+          ali<lb break="no" ed="#P" n="83"/>quam mutuam eflicientiam inter corpus Christi
+          <lb ed="#P" n="84"/>et species, non est tamen ratio formalis essendi
+          <lb ed="#P" n="85"/>ibi, nec ad hanc denominationem corporis
+          <lb ed="#P" n="86"/>Christi erat per se necessaria. Unde quia 
+          Chris<lb break="no" ed="#P" n="87"/>tus est ad modum rei spiritualis, optimum
+          <lb ed="#P" n="88"/>inde argumentum sumitur ad similem 
+          deno<lb break="no" ed="#P" n="89"/>minationem in Angelo explicandam.
+        </p>
+        <p xml:id="szdada-x11385-d1e397">
+          <lb ed="#P" n="90"/>4. Probatur tertio posita conclusio. — 
+          Deni<lb break="no" ed="#P" n="91"/>que confirmatur, quia nulla est ratio cur illa
+          <lb ed="#P" n="92"/>propinquitas et simultas ad hujusmodi 
+          deno<lb break="no" ed="#P" n="93"/>minationem non suffticiant. Nam in corporibus
+          <lb ed="#P" n="94"/>propinquitas, et indistantia inter ultimos 
+          ter<lb break="no" ed="#P" n="95"/>minos, seu superficies sufficit, ut unum dicatur
+          <lb ed="#P" n="96"/>esse in alio: cur ergo intima praesentia Angeli
+          <lb ed="#P" n="97"/>ad corpus, non suffticit, ut dicatur esse in illo?
+          <lb ed="#P" n="98"/>Dices non videri satis, quia illud esse in, alium
+          <lb ed="#P" n="99"/>respectum praeter praesentiam significare 
+          vide<lb break="no" ed="#P" n="100"/>tur, sicut in loco corporali addit relationem 
+          con<lb break="no" ed="#P" n="101"/>tinentis. Respondetur hanc denominationem
+          <lb ed="#P" n="102"/>non debere cogitariomnino similem, et ejusdem
+          <lb ed="#P" n="103"/>rationis in Angelo et in corpore, quandoquidem
+          <lb ed="#P" n="104"/>media quantitate, et ad modum ejus in loco
+          <lb ed="#P" n="105"/>existit. Nam in multis est dissimilitudo, ob
+          <lb ed="#P" n="106"/>quam dicunt Patres esse in loco abusive vel 
+          ae<lb break="no" ed="#P" n="107"/>quivoce. Igitur in Angelis illud esse in corpore,
+          <lb ed="#P" n="108"/>praeter intrinsecum Ubi angelicum, sclum 
+          de<lb break="no" ed="#P" n="109"/>notat terminum relationis praesentiae existentis
+          <lb ed="#P" n="110"/>in Angelo: ad quam reiationem et terminum
+          <pb ed="#P" n="454"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ejus sufficit simultas utriusque extremi in eodem
+          <lb ed="#P" n="2"/>spatio. Dicitur autem Angelus esse in corpore,
+          <lb ed="#P" n="3"/>potius quam e contrario, quia propter suam
+          <lb ed="#P" n="4"/>perfectionem apprehenditur a nobis per 
+          mo<lb break="no" ed="#P" n="5"/>dum actus et formae assistentis corpori. At vero
+          <lb ed="#P" n="6"/>corpus quantum non dicitur esse in loco per
+          <lb ed="#P" n="7"/>intimam praesentiam alterius corporis, quia
+          <lb ed="#P" n="8"/>nullum secum admittit penetrative in eodem
+          <lb ed="#P" n="9"/>spatio. Sed dicitur esse in corpore sipi vicino
+          <lb ed="#P" n="10"/>et contiguo secundum ultimam superficiem
+          <lb ed="#P" n="11"/>ejus.
+        </p>
+        <p xml:id="szdada-x11385-d1e473">
+          <lb ed="#P" n="12"/>5. Explicatur magis proxima responsio ex
+          <lb ed="#P" n="13"/>discrimine inter corpus et Angelum. — Et 
+          qui<lb break="no" ed="#P" n="14"/>dem physice rem considerando etiam illud esse
+          <lb ed="#P" n="15"/>in loco solum connotat terminum realis 
+          prae<lb break="no" ed="#P" n="16"/>sentiae, et propinquitatis unius corporis ad
+          <lb ed="#P" n="17"/>aliud, cum denominatione extrinseca unius ab
+          <lb ed="#P" n="18"/>alio. Quia vero ultima superficies corporis 
+          pro<lb break="no" ed="#P" n="19"/>pinqui interdum habet dispositionem ad 
+          reci<lb break="no" ed="#P" n="20"/>piendum in se aliud corpus, ut est in 
+          superti<lb break="no" ed="#P" n="21"/>cie concava respectu convexae, vel in interna
+          <lb ed="#P" n="22"/>superficie hujus cubiculi respectu aeris intra
+          <lb ed="#P" n="23"/>illam contenti: ideo in communi modo 
+          lo<lb break="no" ed="#P" n="24"/>quendi illa superficies vocatur locus, quae se
+          <lb ed="#P" n="25"/>habet per modum recipientis vel continentis,
+          <lb ed="#P" n="26"/>cum tamen in rigore quocumque modo 
+          super<lb break="no" ed="#P" n="27"/>ficies untus corporis terminet, et circumscribat
+          <lb ed="#P" n="28"/>quantitatem alterius, respectu illius habeat 
+          ra<lb break="no" ed="#P" n="29"/>tionem loci, saltem partiahs. In hoc ergo non
+          <lb ed="#P" n="30"/>est comparatio facienda inter locum Angeli et
+          <lb ed="#P" n="31"/>corporis: nam corpus est in loco, ut 
+          circum<lb break="no" ed="#P" n="32"/>scribente, Angelus vero est in loco, ut illi 
+          in<lb break="no" ed="#P" n="33"/>time assistens. Quanquam posset etiam 
+          Ange<lb break="no" ed="#P" n="34"/>lus dici esse in loco circumscribente corpus, in
+          <lb ed="#P" n="35"/>quo intime adest, sed illud esset remote, et per
+          <lb ed="#P" n="36"/>aliud, ut ita dicam, per mediatam 
+          denomina<lb break="no" ed="#P" n="37"/>tionem. Nam immediate solum corpus (in quo
+          <lb ed="#P" n="38"/>est Angelus) est in alio circumscribente ipsum.
+          <lb ed="#P" n="39"/>Et ob hanc causam si duo corpora essent 
+          pene<lb break="no" ed="#P" n="40"/>trative in eodem spatio, neutrum diceretur
+          <lb ed="#P" n="41"/>esse in alio, sed utrumque in superficie 
+          circum<lb break="no" ed="#P" n="42"/>scribente, quia sunt in loco modo connaturali
+          <lb ed="#P" n="43"/>et quantitativo, et sic neutrum terminat, seu
+          <lb ed="#P" n="44"/>circumscribit alium. At vero substantia 
+          corpo<lb break="no" ed="#P" n="45"/>rea privata quantitate (ut in aqua supra 
+          exem<lb break="no" ed="#P" n="46"/>plum ponebam) posset dici esse in corpore, cui
+          <lb ed="#P" n="47"/>est praesens, quia non esset ibi modo corporeo,
+          <lb ed="#P" n="48"/>sed ad imitationem spiritualis substantiae. Sed
+          <lb ed="#P" n="49"/>haec ad modum loquendi pertinent: nam res
+          <lb ed="#P" n="50"/>satis declarata est, simulque satisfactum est
+          <lb ed="#P" n="51"/>fundamento aliarum opinionum, et potissimae
+          <lb ed="#P" n="52"/>difficultati in principio capitis circa hoc 
+          punc<lb break="no" ed="#P" n="53"/>tum propositae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

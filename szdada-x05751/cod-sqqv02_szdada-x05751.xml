@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 25</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 25</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="229"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x05751"><!-- l2c25 -->
+        <head xml:id="szdada-x05751-Hd1e101">Caput 25</head>
+        <head xml:id="szdada-x05751-Hd1e103" type="question-title">Utrum non tantum affectus voluntatis, sed etiam cognitiones intellectus sint angelis occultae</head>
+        <p xml:id="szdada-x05751-d1e106">
+          <lb ed="#P" n="56"/>CAPUT XXV.
+          <lb ed="#P" n="57"/>UTRUM NON TANTUM AFFECTUS VOLUNTATIS, SED
+          <lb ed="#P" n="58"/>ETIAM COGNITIONES INTELLECTUS SINT ANGELIS
+          <lb ed="#P" n="59"/>OCCULTAE.
+        </p>
+        <p xml:id="szdada-x05751-d1e117">
+          <lb ed="#P" n="60"/>1. Ratio dubitandi. — Ratio dubitandi est,
+          <lb ed="#P" n="61"/>quia actus intellectus non est in se formaliter
+          <lb ed="#P" n="62"/>liber, sicut est actus a voluntate elicitus, ergo
+          <lb ed="#P" n="63"/>non est ita occultus, sicut est actus voluntatis.
+          <lb ed="#P" n="64"/>Antecedens supponimus, quia intellectus non
+          <lb ed="#P" n="65"/>est potentia formaliter libera, sicut est 
+          volun<lb break="no" ed="#P" n="66"/>tas, unde ejus actus non est liber, nisi 
+          deno<lb break="no" ed="#P" n="67"/>minative, quatenus a voluntate libera 
+          proce<lb break="no" ed="#P" n="68"/>dit. Consequentia autem probatur, quia actus
+          <lb ed="#P" n="69"/>liberi per solam denominationem tanquam
+          <lb ed="#P" n="70"/>imperati ab actu libero voluntatis non sunt
+          <lb ed="#P" n="71"/>secundum se occulti quoad suam entitatem, et
+          <lb ed="#P" n="72"/>existentiam, sed solum quoad actum 
+          volunta<lb break="no" ed="#P" n="73"/>tis, a quo procedunt: id patet in actibus 
+          phan<lb break="no" ed="#P" n="74"/>tasiae, et appetitus, qnos optime cognoscunt
+          <lb ed="#P" n="75"/>Angeli, licet ignorent, an voluntas illis 
+          con<lb break="no" ed="#P" n="76"/>sentiat, nec ne: idem de liberis actionibus,
+          <lb ed="#P" n="77"/>quae per corpus fiunt, manifestum est. Neque
+          <lb ed="#P" n="78"/>potest differentia inter haec constitui, quod 
+          is<lb break="no" ed="#P" n="79"/>tae sunt materiales actiones, actus autem 
+          in<lb break="no" ed="#P" n="80"/>tellectus sunt spirituales: nam haec differentia
+          <lb ed="#P" n="81"/>impertinens est ad rationem occulti, vel 
+          ma<lb break="no" ed="#P" n="82"/>nifesti objecti. Imo immaterialitas objecti de
+          <lb ed="#P" n="83"/>se ad cognoscibilitatem conducit. Neque etiam
+          <lb ed="#P" n="84"/>potest discrimen in eo constitui, quod actiones
+          <lb ed="#P" n="85"/>corporales minus subduntur voluntati, quam
+          <lb ed="#P" n="86"/>intellectus, tum quia differentia secundum
+          <lb ed="#P" n="87"/>magis, et minus non sufficit, si ratio formalis
+          <lb ed="#P" n="88"/>libertatis in utrisque deest, quia haec libertas
+          <lb ed="#P" n="89"/>censetur esse ratio propria hujus occultationis.
+          <lb ed="#P" n="90"/>Praesertim quia etiam inter actus corporales
+          <lb ed="#P" n="91"/>quidam magis obediunt voluntati, quam ali,
+          <lb ed="#P" n="92"/>et nihilominus omnes sunt manifesti, quando
+          <lb ed="#P" n="93"/>fiunt, licet non sit notum, quomodo fiant, 
+          se<lb break="no" ed="#P" n="94"/>cundum quod ab actu voluntatis emanant.
+          <lb ed="#P" n="95"/>Tum etiam quia id non est verum, nam 
+          intel<lb break="no" ed="#P" n="96"/>lectus aliquando etiam naturaliter operatur, et
+          <lb ed="#P" n="97"/>praevenit voluntatem, et e contrario in 
+          mem<lb break="no" ed="#P" n="98"/>bris corporis aliqui sunt motus, qui sine 
+          mo<lb break="no" ed="#P" n="99"/>tione voluntatis non fiunt, ut motus 
+          progressi<lb break="no" ed="#P" n="100"/>vus, scriptura, etc. Unde confirmatur primo,
+          <lb ed="#P" n="101"/>quia in actu intellectus secundum se spectato
+          <lb ed="#P" n="102"/>etiam cessat illa ratio de esse moral, et 
+          alte<lb break="no" ed="#P" n="103"/>rius ordinis, quia actus intellectus non est 
+          mo<lb break="no" ed="#P" n="104"/>ralis, nisi ut a voluntate imperatur, et ideo
+          <lb ed="#P" n="105"/>non est studiosus, aut peccaminosus, nisi 
+          ra<lb break="no" ed="#P" n="106"/>tione voluntatis, ergo non est occultus, nisi
+          <lb ed="#P" n="107"/>quoad denominationem a voluntate. 
+          Confir<lb break="no" ed="#P" n="108"/>matur tandem, quia in his actibus cessat illa
+          <pb ed="#P" n="230"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ratio, quod solus Deus in eis operatur, nam
+          <lb ed="#P" n="2"/>etiam Angelus operatur immediate in 
+          intel<lb break="no" ed="#P" n="3"/>lectu, immittendo cogitationes, juxta illud
+          <lb ed="#P" n="4"/>Psal. 11: Immissiones per Angelos malos, ut
+          <lb ed="#P" n="5"/>tractatur a Bernardo, serm. 64, in Cant., et 
+          il<lb break="no" ed="#P" n="6"/>lud Joannes 13: Cum diabolus jam misisset
+          <lb ed="#P" n="7"/>in cor, ut ibi tractatur ab Augustino, tract. 55,
+          <lb ed="#P" n="8"/>dicente, illud non corporaliter, sed 
+          spirituali<lb break="no" ed="#P" n="9"/>ter a daemone fieri.
+        </p>
+        <p xml:id="szdada-x05751-d1e250">
+          <lb ed="#P" n="10"/>2. Prima sententia. — Cogitationes 
+          intellec<lb break="no" ed="#P" n="11"/>tus quoad substantiam notas esse Angelis. —
+          <lb ed="#P" n="12"/>Espenduntur quae scripserit Henricus ad hanc
+          <lb ed="#P" n="13"/>sententiam. — Hrenricus confundens actus 
+          in<lb break="no" ed="#P" n="14"/>tellectus cum actibus voluntatis rejicitur. —
+          <lb ed="#P" n="15"/>Propter hoc fuit aliquorum theologorum 
+          sen<lb break="no" ed="#P" n="16"/>tentia. cogitationes intellectus notas esse 
+          An<lb break="no" ed="#P" n="17"/>gelis secundum substantiam suam, et praecise
+          <lb ed="#P" n="18"/>prout ad intellectum pertinent, non vero prout
+          <lb ed="#P" n="19"/>a voluntate esse possunt, quia licet Angelus
+          <lb ed="#P" n="20"/>me cogitantem videat, non tamen videt, an
+          <lb ed="#P" n="21"/>per voluntatem huic cogitationi consentiam,
+          <lb ed="#P" n="22"/>nec qua intentione cogitem, etc. Haec opinio
+          <lb ed="#P" n="23"/>potest tribui Henrico, dicto quodlib. 3, 
+          quaes<lb break="no" ed="#P" n="24"/>tione 13, ubi vult, cogitationes intellectus 
+          so<lb break="no" ed="#P" n="25"/>lum esse occultas quoad intentionem, ex qua
+          <lb ed="#P" n="26"/>habentur. Ex parte consentit /Egidius, in 2,
+          <lb ed="#P" n="27"/>distinctione 7, quaestione 2, articulo 3, ubi 
+          di<lb break="no" ed="#P" n="28"/>cit, unum Angelum cognoscere de alio, quid
+          <lb ed="#P" n="29"/>cogitet in generali, quia cognoscit, qua specie
+          <lb ed="#P" n="30"/>utatur, non tamen in particulari an cogitet
+          <lb ed="#P" n="31"/>assentiendo, vel dissentiendo, et similia, quia
+          <lb ed="#P" n="32"/>per eamdem speciem potest diversis modis
+          <lb ed="#P" n="33"/>fieri cogitatio, qui in solo usu speciei non 
+          ap<lb break="no" ed="#P" n="34"/>parent, quia in intellectu novam mutationem
+          <lb ed="#P" n="35"/>non faciunt, et idem sentit ibi Argentina et ex
+          <lb ed="#P" n="36"/>parte Hervaeus, capit. 22, allegati. Sed isti
+          <lb ed="#P" n="37"/>auctores, si attente legantur, non aliter de 
+          co<lb break="no" ed="#P" n="38"/>gitationibus, quam de actibus voluntatis 
+          sen<lb break="no" ed="#P" n="39"/>tiunt, sed pari modo de illis loquuntur. Nam
+          <lb ed="#P" n="40"/>licet Henricus excipiat intentionem, non putat
+          <lb ed="#P" n="41"/>illum esse actum, nec addere aliquid actibus
+          <lb ed="#P" n="42"/>intellectus, aut voluntatis. Unde quoad eam
+          <lb ed="#P" n="43"/>partem, qua affirmant cogitationes intellectus
+          <lb ed="#P" n="44"/>cognosci ab Angclo, non afferunt novum 
+          fun<lb break="no" ed="#P" n="45"/>damentum, et de illa statim dicetur. Quoad 
+          h<lb break="no" ed="#P" n="46"/>mitationes autem, quas adhibent, contra 
+          Hen<lb break="no" ed="#P" n="47"/>ricum sufliciunt supra dicta, quibus ostensum
+          <lb ed="#P" n="48"/>est, supponere falsum, dum negat, intentionem
+          <lb ed="#P" n="49"/>esse specialem actum mentis, quo fundamento
+          <lb ed="#P" n="50"/>destructo et contrario posito, ad hominem 
+          fa<lb break="no" ed="#P" n="51"/>cile confutatur, quia si alii actus voluntatis
+          <lb ed="#P" n="52"/>noti sunt, etiam erit intentio, cum sit etiam
+          <lb ed="#P" n="53"/>actus. Simpliciter autem non procedit haec
+          <lb ed="#P" n="54"/>impugnatio, quia potest quis generaliter 
+          dice<lb break="no" ed="#P" n="55"/>re, intentionem et omnes actus voluntatis esse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>occultos, et nihilominus de cogitationibus 
+          in<lb break="no" ed="#P" n="57"/>tellectus aliter opinari et differentiam 
+          consti<lb break="no" ed="#P" n="58"/>tuere, quod est proprium punctum praesentis
+          <lb ed="#P" n="59"/>quaestionis.
+        </p>
+        <p xml:id="szdada-x05751-d1e364">
+          <lb ed="#P" n="60"/>3. Similiter Egidius, Argentina et 
+          Her<lb break="no" ed="#P" n="61"/>crrus. — Contra JEgidium autem, Argentinum
+          <lb ed="#P" n="62"/>et Hervaeum procedunt argumenta supra facta
+          <lb ed="#P" n="63"/>de actibus voluntatis, cum proportione 
+          appli<lb break="no" ed="#P" n="64"/>cata. Nam si Angelus cognoscit cognitionem
+          <lb ed="#P" n="65"/>secundum substantiam, vel rationem 
+          commu<lb break="no" ed="#P" n="66"/>nem, profecto intuetur illam secundum omnes
+          <lb ed="#P" n="67"/>modos particulares ejus, quia videt illum 
+          in<lb break="no" ed="#P" n="68"/>tuitive et prout in se est, sicut de actu 
+          volun<lb break="no" ed="#P" n="69"/>tatis argumentabamur. Unde e contrario, si
+          <lb ed="#P" n="70"/>ipsi necessarium putant salvare aliquid 
+          occul<lb break="no" ed="#P" n="71"/>tum in actibus intellectus, etiam prout in ipso
+          <lb ed="#P" n="72"/>sunt; profecto necesse est, ut fateantur, illos
+          <lb ed="#P" n="73"/>actus simpliciter esse occultos, quia in 
+          cogni<lb break="no" ed="#P" n="74"/>tione distincta et quidditativa, ac intuitiva non
+          <lb ed="#P" n="75"/>potest commune a particulari separari. Nec
+          <lb ed="#P" n="76"/>argumentum /Egidii est alicujus momenti, quia
+          <lb ed="#P" n="77"/>imprimis supponit probandum, scilicet, 
+          Ange<lb break="no" ed="#P" n="78"/>lum necessario videre de alio, quod specie 
+          in<lb break="no" ed="#P" n="79"/>telligibili utatur, et qua utatur, hoc enim 
+          ne<lb break="no" ed="#P" n="80"/>gant, qui dicunt, cogitationes intellectuales
+          <lb ed="#P" n="81"/>esse occultas: nam uti specie nihil aliud est,
+          <lb ed="#P" n="82"/>quam per illam producere actum cogitationis,
+          <lb ed="#P" n="83"/>seu intellectus: ergo qui affirmat, actum esse
+          <lb ed="#P" n="84"/>occultum, consequenter dicit, esse occultum
+          <lb ed="#P" n="85"/>usum speciei. Nam usus ille non potest videri
+          <lb ed="#P" n="86"/>in specie, sed debet videri in se. Quia species
+          <lb ed="#P" n="87"/>in se non mutatur per suum usum, sed 
+          immu<lb break="no" ed="#P" n="88"/>tat intellectum, faciendo actum in illo: unde
+          <lb ed="#P" n="89"/>usus speciei non distinguitur ab actu 
+          intelli<lb break="no" ed="#P" n="90"/>gendi, seu ab actione qua fit, quae est idem
+          <lb ed="#P" n="91"/>realiter cum suo termino, ideoque non aliter
+          <lb ed="#P" n="92"/>videri potest usus speciei, quam videndo 
+          effec<lb break="no" ed="#P" n="93"/>tionem actus ejus. Frustra ergo supponit /
+          Egi<lb break="no" ed="#P" n="94"/>dius, videre unum Angelum, qua specie alius
+          <lb ed="#P" n="95"/>utatur, nisi etiam admittat videre unum 
+          An<lb break="no" ed="#P" n="96"/>gelum actum alterius factum per talem 
+          spe<lb break="no" ed="#P" n="97"/>ciem. Quod si actum videt, profecto videt, 
+          qua<lb break="no" ed="#P" n="98"/>Iis sit, an scilicet sit assensus, vel dissensus et
+          <lb ed="#P" n="99"/>quo conatu fiat, etc. Et ideo qui videt usum
+          <lb ed="#P" n="100"/>talis speciei, necessario videt, non solum qua
+          <lb ed="#P" n="101"/>specie alter utatur, sed etiam qualis sit usus,
+          <lb ed="#P" n="102"/>quia hoc non videt in specie, nec in 
+          mutatio<lb break="no" ed="#P" n="103"/>ne, quae in illa fiat, sed in ipso actu, qui per
+          <lb ed="#P" n="104"/>illam fit, quem in particulari, et prout in se
+          <lb ed="#P" n="105"/>est, videt.
+        </p>
+        <p xml:id="szdada-x05751-d1e466">
+          <lb ed="#P" n="106"/>4. Secunda sententia distinguens inter 
+          prae<lb break="no" ed="#P" n="107"/>dictos actus, ac limitans priorem ad actus 
+          in<lb break="no" ed="#P" n="108"/>tellectus, qui omnino praecedunt actus 
+          volunta<lb break="no" ed="#P" n="109"/>tis.—Proprie igitur ad praesentem quaestionem
+          <lb ed="#P" n="110"/>spectat opinio constituens differentiam inter
+          <pb ed="#P" n="231"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>actus intellectus, et voluntatis in hoc, quod
+          <lb ed="#P" n="2"/>licet actus voluntatis omnes sint occulti, 
+          nihil<lb break="no" ed="#P" n="3"/>ominus actus intellectus ut in illo sunt, videri
+          <lb ed="#P" n="4"/>possunt perfecte in specie, et in individuo, et
+          <lb ed="#P" n="5"/>in habitudine ad objectum tam materiale,
+          <lb ed="#P" n="6"/>quam formale, ut ad intellectum pertinent,
+          <lb ed="#P" n="7"/>et an actus sit assensus, vel dissensus, 
+          inten<lb break="no" ed="#P" n="8"/>sus, aut remissus, etc., solumque est occultus
+          <lb ed="#P" n="9"/>quantum ad intentionem, vei consensum 
+          vo<lb break="no" ed="#P" n="10"/>luntatis, et in universum quoad omnes 
+          deno<lb break="no" ed="#P" n="11"/>minationes, quas actus intellectus ab actu 
+          vo<lb break="no" ed="#P" n="12"/>lIuntatis potest accipere. Hanc opinionem non
+          <lb ed="#P" n="13"/>invenio nunc in aliquo antiquorum 
+          theologo<lb break="no" ed="#P" n="14"/>rum, eam tamen refert Durandus, in 2, d. 8,
+          <lb ed="#P" n="15"/>q. 5, n. 8, qui eam reprobat quoad 
+          differen<lb break="no" ed="#P" n="16"/>tiam. seu distinctionem. Nihillominus Vasquez,
+          <lb ed="#P" n="17"/>disp. 210, cap. 2, licet profiteatur, se nihil
+          <lb ed="#P" n="18"/>definire, conatur tamen hanc opinionem ab
+          <lb ed="#P" n="19"/>omni suspicione liberare, et dicit, non esse 
+          im<lb break="no" ed="#P" n="20"/>probabilem, refertque eam docuisse publice
+          <lb ed="#P" n="21"/>P. Alphonsum Dezam virum suo tempore 
+          in<lb break="no" ed="#P" n="22"/>signem, et magnae auctoritatis. Praeterea 
+          in<lb break="no" ed="#P" n="23"/>ducit in eamdem sententiam D. Thomam,
+          <lb ed="#P" n="24"/>ejusque discipulos, quatenus ratio, propter
+          <lb ed="#P" n="25"/>quam dicunt, actum voluntatis esse occultum
+          <lb ed="#P" n="26"/>directe reducitur ad libertatem acius 
+          volunta<lb break="no" ed="#P" n="27"/>tis, et non extenditur ad actum intellectus, ut
+          <lb ed="#P" n="28"/>jam argumentati sumus. Denique addit, 
+          tes<lb break="no" ed="#P" n="29"/>timonia Scripturae et Patrum, nihil contra
+          <lb ed="#P" n="30"/>hanc sententiam facere, quia cum dicunt, 
+          co<lb break="no" ed="#P" n="31"/>gitationes nostras non cognosci a creatura,
+          <lb ed="#P" n="32"/>loquuntur de cogitationibus cordis: cogitatio
+          <lb ed="#P" n="33"/>autem cordis juxta phrasim Scripturae 
+          signi<lb break="no" ed="#P" n="34"/>ficat actum intellectus cum affectu, quia cor
+          <lb ed="#P" n="35"/>non sola cogitatio, sed cum affectu voluntatis
+          <lb ed="#P" n="36"/>conjuncta dicitur. Quod ex aliis locis 
+          Scriptu<lb break="no" ed="#P" n="37"/>rae sacrae ostendit, in quibus nomine cordis
+          <lb ed="#P" n="38"/>maxime significatur affectus, ut Prov. 8:
+          <lb ed="#P" n="39"/>Omni custodia custodi cor tuum. Eccles. 8:
+          <lb ed="#P" n="40"/>Non omni homini cor tuum manifestes, et cap.
+          <lb ed="#P" n="41"/>21. Cor fatui quasi vas confractum, et omnem
+          <lb ed="#P" n="42"/>sapientiam non tenebit. Sic ergo in locis in
+          <lb ed="#P" n="43"/>principio citatis cogitationes cordis dicentur,
+          <lb ed="#P" n="44"/>quatenus ad effectum aliquo modo pertineni,
+          <lb ed="#P" n="45"/>ut, verbi gratia, Matth. 9, cum dixit Christus:
+          <lb ed="#P" n="46"/>Ut quid cogitatis mala in cordibus vestris?
+          <lb ed="#P" n="47"/>cogitare mala idem est, quod mala intentione
+          <lb ed="#P" n="48"/>cogitare, sicut etiam, c. 15: De corde exeunt
+          <lb ed="#P" n="49"/>cogitationes prave, id est, quae ex pravo 
+          affec<lb break="no" ed="#P" n="50"/>tu proficiscuntur, et Luc 12: Ut revelentur de
+          <lb ed="#P" n="51"/>multis cordibus cogitationes, id est, quales sint,
+          <lb ed="#P" n="52"/>et ex quibus affectibus procedant, et Actor. 8:
+          <lb ed="#P" n="53"/>S forte remittatur tibi hec cogitatio cordis
+          <lb ed="#P" n="54"/>tui, ubi sub nomine cogitationis sine dubio
+          <lb ed="#P" n="55"/>involvitur affectus.
+        </p>
+        <p xml:id="szdada-x05751-d1e603">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>5. Fera sententia affirmationis.—Probatur
+          <lb ed="#P" n="57"/>ex theologis.—Nihilominus dicendum censeo,
+          <lb ed="#P" n="58"/>cogitationes cordis quosd ipsos acius 
+          inteliec<lb break="no" ed="#P" n="59"/>tus ita esse Angelis occultas, ut illas ia se, et
+          <lb ed="#P" n="60"/>intuitive videre non possint, nisi illis 
+          manifes<lb break="no" ed="#P" n="61"/>tentur. Haec est expressa sententia D. Thomae,
+          <lb ed="#P" n="62"/>in dicto art. 4, ubi sic inquit: Alio modo 
+          pos<lb break="no" ed="#P" n="63"/>sunt cognosci cogitationes, prout sunt in 
+          intel<lb break="no" ed="#P" n="64"/>lectu, et affectiones, prout sunt in voluntate, et
+          <lb ed="#P" n="65"/>sic solus Deus cogitationes, cordium, et 
+          affec<lb break="no" ed="#P" n="66"/>tiones voluntatum cognoscere potest. Ubi non
+          <lb ed="#P" n="67"/>potuit distinctius loqui de uirisque actibus.
+          <lb ed="#P" n="68"/>Et in solut., ad 2, expresse dicit, cognoscere
+          <lb ed="#P" n="69"/>unum Angelum species intelligioiles alterius,
+          <lb ed="#P" n="70"/>non tamen usum eavum secuncum actualem 
+          con<lb break="no" ed="#P" n="71"/>siderationem. Et in sclut., ad 3, in phantasia,
+          <lb ed="#P" n="72"/>et appetitu utitur illa distinctione, quod 
+          An<lb break="no" ed="#P" n="73"/>gelus cognoscit illarum potenticrum actus 
+          se<lb break="no" ed="#P" n="74"/>cundum substantiam eorum, et proui ab eis
+          <lb ed="#P" n="75"/>procedunt, non tamen secudum quoc moventur
+          <lb ed="#P" n="76"/>a coluntate et ratione, quam distinctionem
+          <lb ed="#P" n="77"/>nunquam in actibus intellectus adhipuit, sed
+          <lb ed="#P" n="78"/>aque occultas ponit cogitationes intellectus,
+          <lb ed="#P" n="79"/>ac vcluntatis affectiones. Et idem ex aliis 
+          lo<lb break="no" ed="#P" n="80"/>cis manifestum est, et ita illum initeliexerunt,
+          <lb ed="#P" n="81"/>et secuti sunt omnes ejus interpretes ancqui,
+          <lb ed="#P" n="82"/>et moderni. Et caeteri etiam theologi, qui 
+          co<lb break="no" ed="#P" n="83"/>gitationes cordium simpliciter oceul.as in 
+          se<lb break="no" ed="#P" n="84"/>ipsis esse censeni, non minus de 
+          cogiiationi<lb break="no" ed="#P" n="85"/>bus prout sunt in intellectu, quaim de actibus
+          <lb ed="#P" n="86"/>voluntatis loquuntur et alii, qui secundum 
+          ah<lb break="no" ed="#P" n="87"/>quid dicunt esse notas, et secundum quid 
+          oc<lb break="no" ed="#P" n="88"/>cultas, idem de utrisque actibus seniunt. Unde
+          <lb ed="#P" n="89"/>Durandus dixit, distinctionem illam sa£is 
+          levi<lb break="no" ed="#P" n="90"/>ter adhiberi, quia eadem ratio in utrisque 
+          ac<lb break="no" ed="#P" n="91"/>tibus invenitur. Hle autem fortasse id dixit,
+          <lb ed="#P" n="92"/>quia etiam actus intellectus liberos esse 
+          cen<lb break="no" ed="#P" n="93"/>suit. Nunc ergo solum asserimus distinctionem
+          <lb ed="#P" n="94"/>illam a communi mente theologorum esse 
+          a<lb break="no" ed="#P" n="95"/>lienam.
+        </p>
+        <p xml:id="szdada-x05751-d1e694">
+          <lb ed="#P" n="96"/>6. Probatur ex sacra Scriptura, et 
+          Patri<lb break="no" ed="#P" n="97"/>bus. — Secundo probatur assertio ex 
+          testimo<lb break="no" ed="#P" n="98"/>niis Scripturae et Patrum supra allegatis, in
+          <lb ed="#P" n="99"/>quibus imprimis notanda sunt, quae distinc*e
+          <lb ed="#P" n="100"/>de utrisque actibus loquuntur, ut 1, Paralip.
+          <lb ed="#P" n="101"/>28: Omnia corda scrutatur Dominus, ei 
+          univer<lb break="no" ed="#P" n="102"/>sas mentium cogitationes intelligit. Et ad 
+          He<lb break="no" ed="#P" n="103"/>braeos 4: Discretor cogitationum, ei 
+          intentio<lb break="no" ed="#P" n="104"/>nwum cordis Verbum Dei dicitur, ergo 
+          cogita<lb break="no" ed="#P" n="105"/>tiones non sunt tantum occultae ratione 
+          inten<lb break="no" ed="#P" n="106"/>tionum, sed etiam secundum se, tam 
+          cogita<lb break="no" ed="#P" n="107"/>tiones, quam intentiones soli Deo reservantur.
+          <lb ed="#P" n="108"/>Qui proprium ejus est, nosse quid bomo cogitet,
+          <lb ed="#P" n="109"/>et quo animo cogitet. Praeterea cum Christo in
+          <lb ed="#P" n="110"/>Evangelio tribuitur, quod cogitationes cor-
+          <pb ed="#P" n="232"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dium cognoscat, non solum censetur fuisse 
+          di<lb break="no" ed="#P" n="2"/>vinitatis signum, quod cognosceret, quia 
+          in<lb break="no" ed="#P" n="3"/>tentione cogitarent, sed quod cognosceret, quid
+          <lb ed="#P" n="4"/>cogitarent, sic enim dicitur Matth. 9, scribas
+          <lb ed="#P" n="5"/>dixisse intra se, bic blasphemat, quae verba 
+          ac<lb break="no" ed="#P" n="6"/>tum intellectus, scilicet, judicium ejus 
+          signifi<lb break="no" ed="#P" n="7"/>cant, et subditur: Cum vidisset Jesus 
+          cogita<lb break="no" ed="#P" n="8"/>tiones eorum, dixit, ut quid cogitatis mala?
+          <lb ed="#P" n="9"/>ubi expendi potest, non dixisse, cogitatis male,
+          <lb ed="#P" n="10"/>scilicet, mala intentione, sed ut quid cogitatis
+          <lb ed="#P" n="11"/>mala, id est, rem iniquam judicando, et 
+          cre<lb break="no" ed="#P" n="12"/>dendo, et cap. 12, cum Pharisaei interius 
+          ju<lb break="no" ed="#P" n="13"/>dicarent, Christum ex pacto cum daemonibus
+          <lb ed="#P" n="14"/>ejecisse daemonia, ait Evangelista: S'ciens esus
+          <lb ed="#P" n="15"/>cogitationes eorum, dixit eis: Omne regnum in
+          <lb ed="#P" n="16"/>se divisum desolabitur, etc. In quo pondero non
+          <lb ed="#P" n="17"/>argumentari Christum, ut illos convinceret de
+          <lb ed="#P" n="18"/>mala intentione, sed de temerario judicio, et
+          <lb ed="#P" n="19"/>quod contra rationem cogitarent, et 
+          judica<lb break="no" ed="#P" n="20"/>rent, ergo cum Evangelista dicit, sciens 
+          cogi<lb break="no" ed="#P" n="21"/>tationes, praecipue attribuit ill ut singulare,
+          <lb ed="#P" n="22"/>quod cognosceret, quid cogitarent, et 
+          judica<lb break="no" ed="#P" n="23"/>rent. Et ex hoc ipso inferunt Hierony mus, et
+          <lb ed="#P" n="24"/>alii sancti, ostendisse Christum, se esse Deum:
+          <lb ed="#P" n="25"/>sentient ergo, etiam cogitationes intellectus,
+          <lb ed="#P" n="26"/>et judicia esse soli Deo reservata. Atque ita
+          <lb ed="#P" n="27"/>Hieronymus ibi ait: Dominus non ad dicta,
+          <lb ed="#P" n="28"/>sed ad cognita respondit, ut vel sic 
+          compelle<lb break="no" ed="#P" n="29"/>rentur credere, etc. Cogitata autem dicuntur
+          <lb ed="#P" n="30"/>ea, quae sunt in intellectu, et prout in illo
+          <lb ed="#P" n="31"/>sunt, et eodem modo loquitur Hieronymus ahis
+          <lb ed="#P" n="32"/>locis supra allegatis: ponderanda sunt verba,
+          <lb ed="#P" n="33"/>quae distinctae de actibus mentis: ponderanda
+          <lb ed="#P" n="34"/>sunt verba, quae distincte de actibus mentis,
+          <lb ed="#P" n="35"/>cogitationibus, et consihlis internis loquuntur,
+          <lb ed="#P" n="36"/>quae maxime ad intellectum pertinent, et 
+          spe<lb break="no" ed="#P" n="37"/>cialiter Damascenus non solum dicit Angelos
+          <lb ed="#P" n="38"/>uti sermone suo, et locutione ad manifestandos
+          <lb ed="#P" n="39"/>suos affectus, et intentiones, sed etiam ad 
+          con<lb break="no" ed="#P" n="40"/>silia, et cogitationes communicandas.
+        </p>
+        <p xml:id="szdada-x05751-d1e820">
+          <lb ed="#P" n="41"/>7. Cor non solum voluntatem, sed 
+          intellec<lb break="no" ed="#P" n="42"/>tum importare solere in Scriptura. — Cur 
+          ac<lb break="no" ed="#P" n="43"/>tus intellectus dicantur cogitationes cordis. —
+          <lb ed="#P" n="44"/>Denique licet Scriptura et Patres saepius 
+          lo<lb break="no" ed="#P" n="45"/>quantur de secretis cordium, expendi debet,
+          <lb ed="#P" n="46"/>cogitationes proprie solum actus mentis 
+          signi<lb break="no" ed="#P" n="47"/>ficare: nomine autem cordis non solam 
+          volun<lb break="no" ed="#P" n="48"/>tatem, sed etiam intellectum solere in sacra
+          <lb ed="#P" n="49"/>Scriptura significare. De intellectu enim 
+          loque<lb break="no" ed="#P" n="50"/>batur Salomon cum orabat, 3, Reg. 3: Dabis
+          <lb ed="#P" n="51"/>servo tuo cor docile, ut populum tuum judicare
+          <lb ed="#P" n="52"/>possit, et discernere inter bomtm et malum.
+          <lb ed="#P" n="53"/>His enim verbis sapientiam postulavit, ut 
+          Do<lb break="no" ed="#P" n="54"/>minus statim dixit, sapientia autem ad 
+          intel<lb break="no" ed="#P" n="55"/>lectum pertinet. Idem sumitur ex Jeremia, 5.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Audi, popule stulte, qui non habes cor, qui 
+          ha<lb break="no" ed="#P" n="57"/>bentes oculos, non videtis, seepius etiam totam
+          <lb ed="#P" n="58"/>internam mentem ut voluntatem, et 
+          intellec<lb break="no" ed="#P" n="59"/>tum includit: sic enim in Christi persona 
+          di<lb break="no" ed="#P" n="60"/>citur Ps. 21: Faclum est cor meum tanguam
+          <lb ed="#P" n="61"/>cera liquescens in medio ventris mei, ex Paulus
+          <lb ed="#P" n="62"/>ait ad Rom. 10. Corde creditur ad justitiam :
+          <lb ed="#P" n="63"/>in qua etiam significatione accipi videtur ab
+          <lb ed="#P" n="64"/>Ecclesia, cum in Praefatione Misse monet,
+          <lb ed="#P" n="65"/>Surswun corda: nam et intellectum, et 
+          volun<lb break="no" ed="#P" n="66"/>tatem ad Deum elevare praecipit, imo primo
+          <lb ed="#P" n="67"/>intellectum, ut illum voluntas sequatur, ita
+          <lb ed="#P" n="68"/>ergo accipitur cor, cum dicitur, proprium Dei
+          <lb ed="#P" n="69"/>esse, cordis cogitationes cognoscere, ad quod
+          <lb ed="#P" n="70"/>comprobandum sunt optima verba Christi, Luc.
+          <lb ed="#P" n="71"/>24. Quid timidi estis, et cogitationes ascendunt
+          <lb ed="#P" n="72"/>in corda vestra, quod necesse est intelligi de
+          <lb ed="#P" n="73"/>cogitationibus proprie dictis, quae in mente
+          <lb ed="#P" n="74"/>sollicita, et vacillante fiunt, licet affectus, vel
+          <lb ed="#P" n="75"/>intentio eadem sit: et nihilominus illis etiam
+          <lb ed="#P" n="76"/>verbis Christus se Deum ostendit, ut ubi 
+          Theo<lb break="no" ed="#P" n="77"/>phylactus notavit, et optime Maldonatus. Et
+          <lb ed="#P" n="78"/>eadem ratione cum Scriptura dicit, solum
+          <lb ed="#P" n="79"/>Deum scrutari cor, recte de tota mente, 
+          intel<lb break="no" ed="#P" n="80"/>lectu, et voluntate intelligitur, sicque videtur
+          <lb ed="#P" n="81"/>exponere Augustinus id Psal. 7. S'crutas corda,
+          <lb ed="#P" n="82"/>et renes Deus, dicens, Cogitationes nomine 
+          cor<lb break="no" ed="#P" n="83"/>dis significatae sunt, et delectationes nomine 
+          re<lb break="no" ed="#P" n="84"/>mun intelligitur, et similia habet enarrat. 2,
+          <lb ed="#P" n="85"/>in Psal. 25. Igitur cum cogitationes cordis 
+          di<lb break="no" ed="#P" n="86"/>cuntur occultae, non est restringendum ad 
+          ac<lb break="no" ed="#P" n="87"/>tus voluntatis, et denominationes, quae ab illis
+          <lb ed="#P" n="88"/>proficiscuntur, sed absolute de internis mentis
+          <lb ed="#P" n="89"/>actibus, et de cogitationibus, quae proprie 
+          di<lb break="no" ed="#P" n="90"/>cuntur de actibus intellectus secundum 
+          sub<lb break="no" ed="#P" n="91"/>stantiam eorum, et cordis dicuntur, quatenus
+          <lb ed="#P" n="92"/>pure mentales sunt, et exterius non 
+          manifes<lb break="no" ed="#P" n="93"/>tantur, et quia per illas cor, id est, voluntas
+          <lb ed="#P" n="94"/>excitatur, ac regulatur, ut mox dicemus: nec
+          <lb ed="#P" n="95"/>dicta restrictio ullum fundamentum habet in
+          <lb ed="#P" n="96"/>verbis sacrae Scripturae, aut Patrum. Unde cum
+          <lb ed="#P" n="97"/>locutiones sint absolutae, et negativae, illas 
+          no<lb break="no" ed="#P" n="98"/>bis restringere non licet, praesertim cum 
+          ea<lb break="no" ed="#P" n="99"/>dem ratio, et difficultas in utrisque actibus 
+          in<lb break="no" ed="#P" n="100"/>veniatur, ut mox dicemus.
+        </p>
+        <p xml:id="szdada-x05751-d1e955">
+          <lb ed="#P" n="101"/>8. Probatur deinde rationibus vera sententia.
+          <lb ed="#P" n="102"/>— Tertio igitur probatur rationibus, et obiter
+          <lb ed="#P" n="103"/>quidem duas a posteriori tetigimus non 
+          con<lb break="no" ed="#P" n="104"/>temnendas. Una erat ab inconvenienti, quia
+          <lb ed="#P" n="105"/>sequitur, non esse magis occultos actus 
+          intel<lb break="no" ed="#P" n="106"/>lectus, quam phantasiae, vel appetitus 
+          sentien<lb break="no" ed="#P" n="107"/>tis, hoc autem est contra D. Thomam, et 
+          om<lb break="no" ed="#P" n="108"/>nes. Altera est, quia alias locutio inter Angelos
+          <lb ed="#P" n="109"/>tantum esset propter affectus, non propter
+          <lb ed="#P" n="110"/>conceptus, seu cognitiones intellectus mani-
+          <pb ed="#P" n="233"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>festandas, quod est contra omnes, et praesertim
+          <lb ed="#P" n="2"/>contra Damascenum, lib. 2, cap. 3, dicentem,
+          <lb ed="#P" n="3"/>esse propter cogitationes, et consilia 
+          commu<lb break="no" ed="#P" n="4"/>nicanda, ubi Clictovaeus, aequiparationem in
+          <lb ed="#P" n="5"/>hoc facit inter homines, et Angelos, quae rem
+          <lb ed="#P" n="6"/>optime declarat. Tertia ratio, et a priori est,
+          <lb ed="#P" n="7"/>quia ad convenientem statum intellectualis
+          <lb ed="#P" n="8"/>naturae spectat, ut non solum affectiones, sed
+          <lb ed="#P" n="9"/>etiam consilia, et judicia, vel dubitationes, aut
+          <lb ed="#P" n="10"/>deliberationes mentis suae sibi sint reservatae,
+          <lb ed="#P" n="11"/>non enim minor ratio moralis secreti, seu 
+          oc<lb break="no" ed="#P" n="12"/>cultationis in his, quam in illis reperitur, ergo
+          <lb ed="#P" n="13"/>non minus consilia, judicia, et similes 
+          intellec<lb break="no" ed="#P" n="14"/>tus actus in se occulti sunt, quam affectus, vel
+          <lb ed="#P" n="15"/>intentiones voluntatis. Quarto hinc applicamus
+          <lb ed="#P" n="16"/>rationem a priori, quia Angeli non habuerunt
+          <lb ed="#P" n="17"/>species inditas, per quas hos actus cognoscere
+          <lb ed="#P" n="18"/>possent, nec tales species erant illis naturaliter
+          <lb ed="#P" n="19"/>debitae, quia non erant convenientes rationali
+          <lb ed="#P" n="20"/>naturae, ut talis est, sed alius modus, vel 
+          com<lb break="no" ed="#P" n="21"/>municandi, vel retinendi intra se hujusmodi
+          <lb ed="#P" n="22"/>conceptus est naturae rationali magis 
+          accom<lb break="no" ed="#P" n="23"/>modatus magisque conveniens. Quae rationes
+          <lb ed="#P" n="24"/>non tam per se integrae, ac distinctae sunt,
+          <lb ed="#P" n="25"/>quam unum integrantes. Ratio enim propria
+          <lb ed="#P" n="26"/>est quia species horum actuum non sunt 
+          Ange<lb break="no" ed="#P" n="27"/>lis connaturales. Hujus autem ratio redditur
+          <lb ed="#P" n="28"/>ex aliis duabus, scilicet, quod proprietas, et
+          <lb ed="#P" n="29"/>potestas occultandi hos actus est magis 
+          conve<lb break="no" ed="#P" n="30"/>niens, magisque consentanea naturae rationali,
+          <lb ed="#P" n="31"/>et consequenter est in illa alius modus 
+          com<lb break="no" ed="#P" n="32"/>municandi, et comparandi cognitionem horum
+          <lb ed="#P" n="33"/>actuum magis connaturalis, cui repugnat 
+          ha<lb break="no" ed="#P" n="34"/>bere tales species naturaliter inditas. Quae 
+          ra<lb break="no" ed="#P" n="35"/>tio solvendo fundamentum contrariae 
+          senten<lb break="no" ed="#P" n="36"/>tiae magis declarabitur.
+        </p>
+        <p xml:id="szdada-x05751-d1e1063">
+          <lb ed="#P" n="37"/>9. Ad contrarium rationem in numero primo.
+          <lb ed="#P" n="38"/>— Cur intellectus actus sint occulti. — Ad 
+          ra<lb break="no" ed="#P" n="39"/>tionem igitur dubitandi in principio positam
+          <lb ed="#P" n="40"/>respondetur, quod licet libertas voluntatis sit
+          <lb ed="#P" n="41"/>aliquo modo ratio, propter quam cogitationes
+          <lb ed="#P" n="42"/>cordis naturaliter occultae sunt, nihilominus
+          <lb ed="#P" n="43"/>solam libertatem actus eliciti non esse 
+          adae<lb break="no" ed="#P" n="44"/>quatam rationem hujus proprietatis, seu 
+          con<lb break="no" ed="#P" n="45"/>ditionis actus, sed satis esse, quod sit actus 
+          li<lb break="no" ed="#P" n="46"/>beri arbitrii, prout est facultas voluntatis, et
+          <lb ed="#P" n="47"/>rationis, sub quo tam actus intellectus, quam
+          <lb ed="#P" n="48"/>voluntatis comprehenduntur. Itaque licet 
+          ac<lb break="no" ed="#P" n="49"/>tus intellectus non sit formaliter liber, nisi ab
+          <lb ed="#P" n="50"/>actu voluntatis, tamen est radix, et quasi 
+          re<lb break="no" ed="#P" n="51"/>gula, et mensura libertatis in actu voluntatis.
+          <lb ed="#P" n="52"/>Unde si advertentia rationis sit perfecta, actus
+          <lb ed="#P" n="53"/>voluntatis erit perfecte liber, si diminuta sit
+          <lb ed="#P" n="54"/>advertentia, etiam libertas actus cum 
+          propor<lb break="no" ed="#P" n="55"/>tione minuitur. Ob hanc ergo causam consen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>taneum fuit intellectuali naturae, ut totum cor,
+          <lb ed="#P" n="57"/>ut includit tam radicem, quam usum 
+          hiberta<lb break="no" ed="#P" n="58"/>tis, esset ita profundum, ut sine apertione 
+          ha<lb break="no" ed="#P" n="59"/>bentis nullus haberet clavem, per quam illuc
+          <lb ed="#P" n="60"/>ingredi possit, id est, speciem, per quam 
+          intel<lb break="no" ed="#P" n="61"/>lectus, vel voluntatis deliberationes possit 
+          in<lb break="no" ed="#P" n="62"/>tueri. Et in hoc est verum, et sufficiens 
+          discri<lb break="no" ed="#P" n="63"/>men inter actus intellectus, et actus allarum
+          <lb ed="#P" n="64"/>potentiarum inferiorum, qui possunt etiam
+          <lb ed="#P" n="65"/>fieri ex motione libera voluntatis. Non enim
+          <lb ed="#P" n="66"/>dicimus actus intellectus esse occultos, quia
+          <lb ed="#P" n="67"/>sunt imperati a libero actu voluntatis, sed quia
+          <lb ed="#P" n="68"/>sunt quasi pars ipsius usus liberi, et radix, ac
+          <lb ed="#P" n="69"/>regula, et mensura ejus. Sub qua ratione etiam
+          <lb ed="#P" n="70"/>actus intellectus moralis, dici potest, tanquam
+          <lb ed="#P" n="71"/>pertinens ad ordinem moralem, sicut 
+          pruden<lb break="no" ed="#P" n="72"/>tia dicitur virtus moralis, quia est regula 
+          vir<lb break="no" ed="#P" n="73"/>tutum moralium; licet non habeat specialem
+          <lb ed="#P" n="74"/>libertatem formalem sinelibera motione 
+          volun<lb break="no" ed="#P" n="75"/>tatis. Denique hac ratione etiam intellectus
+          <lb ed="#P" n="76"/>humanus non potest a daemone immediate 
+          im<lb break="no" ed="#P" n="77"/>mutari, sed a solo Deo, nec aliter immittit in
+          <lb ed="#P" n="78"/>intellectu cogitationem, quam proponendo
+          <lb ed="#P" n="79"/>sensibilia objecta, vel phantasmata excitando,
+          <lb ed="#P" n="80"/>ut in libro quarto latius dicemus. Reliqua vero,
+          <lb ed="#P" n="81"/>quae pro hac parte addebantur ab altera 
+          sen<lb break="no" ed="#P" n="82"/>tentia, ex dictis satis refutata sunt.
+        </p>
+        <p xml:id="szdada-x05751-d1e1167">
+          <lb ed="#P" n="83"/>10. An genus aliquod cogitationum 
+          intellec<lb break="no" ed="#P" n="84"/>tus excipiatur a tradita sententia.—Posset 
+          au<lb break="no" ed="#P" n="85"/>tem quis dubitare, an omnes actus intellectus,
+          <lb ed="#P" n="86"/>occulti sint, sicut de actibus voluntatis 
+          dixi<lb break="no" ed="#P" n="87"/>mus vel aliqua distinctione utendum sit. 
+          Ahl<lb break="no" ed="#P" n="88"/>qui enim inter apprehensiones, et judicium
+          <lb ed="#P" n="89"/>distinguunt, et judicia volunt esse occulta, non
+          <lb ed="#P" n="90"/>apprehensiones. Quod significant Argentina et
+          <lb ed="#P" n="91"/>AEgidiussupra allegati, et videtursuaderi posse,
+          <lb ed="#P" n="92"/>quia ratio facta non prius suadet, quia 
+          judi<lb break="no" ed="#P" n="93"/>cium est, quod voluntatem movet, non sola
+          <lb ed="#P" n="94"/>apprehensio. Alter distingui potest de actu
+          <lb ed="#P" n="95"/>naturali et libero intellectus. Nam D. Thomas
+          <lb ed="#P" n="96"/>in hoc ponit rationem, ob quam 
+          actusintellec<lb break="no" ed="#P" n="97"/>tus est occultus, quia non sit nisi ad nutum
+          <lb ed="#P" n="98"/>voluntatis, quod non est verum, nisi de actu
+          <lb ed="#P" n="99"/>libero, ergo actus intellectus, qui non fit ex
+          <lb ed="#P" n="100"/>motione voluntatis, non erit occultus. Alia 
+          ta<lb break="no" ed="#P" n="101"/>men consideratione posset e contrario dici, 
+          ac<lb break="no" ed="#P" n="102"/>tus naturales, qui praecedunt voluntatem et
+          <lb ed="#P" n="103"/>illam excitant, esse natura sua occultos, quia
+          <lb ed="#P" n="104"/>illi sunt proprie regula, et radix libertatis, et
+          <lb ed="#P" n="105"/>eorum secretum necessarium est, ut actus 
+          li<lb break="no" ed="#P" n="106"/>ber voluntatis sit perfecte occultus: nam 
+          co<lb break="no" ed="#P" n="107"/>enita dispositione praevia intellectus facile 
+          co<lb break="no" ed="#P" n="108"/>gnosceretur, quid voluntas vellet, si non 
+          cer<lb break="no" ed="#P" n="109"/>tissima evidentia, saltem morali, quia voluntas
+          <lb ed="#P" n="110"/>regulariter sequitur iutellectum. At vero de
+          <pb ed="#P" n="234"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>actibus, qui sequuntur consensum voluntatis,
+          <lb ed="#P" n="2"/>non videtur hoc necessarium, quia illi jam
+          <lb ed="#P" n="3"/>comparantur ad voluntatem, sicut actus 
+          exter<lb break="no" ed="#P" n="4"/>ni ad internos, illos autem non oportet esse
+          <lb ed="#P" n="5"/>occultos. Tertia distinctio cogitari potest de
+          <lb ed="#P" n="6"/>actibus intellectus speculativi, aut practici, ut
+          <lb ed="#P" n="7"/>isti occulti habendi sint, non vero illi, 
+          quo<lb break="no" ed="#P" n="8"/>niam actus practici sunt propria regula 
+          volun<lb break="no" ed="#P" n="9"/>tatis, et illam ad operandum inducunt, 
+          magis<lb break="no" ed="#P" n="10"/>que ad ordinem moralium actuum pertinent.
+          <lb ed="#P" n="11"/>Speculationes vero intellectus sunt actus 
+          ma<lb break="no" ed="#P" n="12"/>gis naturales, et connexionem illam, seu 
+          ha<lb break="no" ed="#P" n="13"/>bitudinem ad actus liberos voluntatis non 
+          ha<lb break="no" ed="#P" n="14"/>bent.
+        </p>
+        <p xml:id="szdada-x05751-d1e1265">
+          <lb ed="#P" n="15"/>11. Nullum genus excipitur. — Nihilominus
+          <lb ed="#P" n="16"/>nullam istarum distinctionum, vel 
+          limitatio<lb break="no" ed="#P" n="17"/>num admittendam esse censeo, sed absolute et
+          <lb ed="#P" n="18"/>generaliter dicendum esse, nullam intellectus
+          <lb ed="#P" n="19"/>cogitationem, vel actualem considerationem
+          <lb ed="#P" n="20"/>posse ab Angelo videri distincte, et prout in se
+          <lb ed="#P" n="21"/>est, quia omnes pertinent ad quemdam rerum
+          <lb ed="#P" n="22"/>ordinem, cujus species intelligibiles non sunt
+          <lb ed="#P" n="23"/>Angelo naturaliter debitae: et quia sermo 
+          Scrip<lb break="no" ed="#P" n="24"/>turae, et Patrum universalis est, et nulla ratio
+          <lb ed="#P" n="25"/>sufficiens occurrit ad exceptionem faciendam.
+          <lb ed="#P" n="26"/>Nam imprimis apprehensio, et judicium 
+          for<lb break="no" ed="#P" n="27"/>tasse non sunt actus ita distincti, quin in 
+          ap<lb break="no" ed="#P" n="28"/>prehensione aliqua ratio judicii includatur,
+          <lb ed="#P" n="29"/>quatenus aliquam cognitionem includit, quod
+          <lb ed="#P" n="30"/>maxime locum in Angelis habet. Quod si forte
+          <lb ed="#P" n="31"/>distinguuntur, id non refert: nam apprehensio
+          <lb ed="#P" n="32"/>est propter judicium, et ejusdem ordinis sunt,
+          <lb ed="#P" n="33"/>imo tanquam unum computantur, ideoque 
+          u<lb break="no" ed="#P" n="34"/>triusque cognitio natura sua reservata est, ita
+          <lb ed="#P" n="35"/>ut neutrius species sit Angelo debita. Deinde
+          <lb ed="#P" n="36"/>cogitationes praevenientes voluntatem esse 
+          oc<lb break="no" ed="#P" n="37"/>cultas, licet non sit formaliter liberae, probat
+          <lb ed="#P" n="38"/>illa ratio, quod sunt radix et quasi proxima
+          <lb ed="#P" n="39"/>causa, et regula actuum liberorum voluntatis.
+          <lb ed="#P" n="40"/>Item, sicut supra dicebamus, motus primo 
+          pri<lb break="no" ed="#P" n="41"/>mos voluntatis esse occultos, licet actu non sint
+          <lb ed="#P" n="42"/>liberi, quia sunt ejusdem ordinis, et de se fieri
+          <lb ed="#P" n="43"/>possent libere: ita de his cogitationibus 
+          ante<lb break="no" ed="#P" n="44"/>cedentibus dicimus esse ejusdem ordinis, et
+          <lb ed="#P" n="45"/>natas fieri ex motione voluntatis, licet quando
+          <lb ed="#P" n="46"/>sunt praeviae non ita fiant. Et sit ratio illa divi
+          <lb ed="#P" n="47"/>Thomae, ut sit universalis, intelligenda est, ut
+          <lb ed="#P" n="48"/>non dicat solum actum, sed etiam aptitudinem,
+          <lb ed="#P" n="49"/>id est, quod illi actus de se nati sunt fieri ex
+          <lb ed="#P" n="50"/>motione libera voluntatis.
+        </p>
+        <p xml:id="szdada-x05751-d1e1346">
+          <lb ed="#P" n="51"/>12. Progreditur promima resolutio. — 
+          Spe<lb break="no" ed="#P" n="52"/>culativi actus intellectus, cur Angelis sint 
+          oc<lb break="no" ed="#P" n="53"/>culti. — De actibus etiam intellectus, qui
+          <lb ed="#P" n="54"/>fiunt ex consensu voluntatis, non minus certo
+          <lb ed="#P" n="55"/>tenendum est, esse per se occultos, sicut est,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>verbi gratia, actus fidei divinae, eique 
+          contra<lb break="no" ed="#P" n="57"/>ria haeresis mentalis, quam theologi per se
+          <lb ed="#P" n="58"/>occultam appellant et non solum respectu 
+          ho<lb break="no" ed="#P" n="59"/>minum, sed etiam respectu daemonum verum
+          <lb ed="#P" n="60"/>est. Unde in hoc etiam Christus Dominus suam
+          <lb ed="#P" n="61"/>demonstrabat divinitatem, quod internam 
+          fi<lb break="no" ed="#P" n="62"/>dem, quanta et qualis esset, conspiciebat. Et
+          <lb ed="#P" n="63"/>D. Thomas de illis potissimum actibus 
+          intel<lb break="no" ed="#P" n="64"/>lectus, qui sine libero voluntatis consensu non
+          <lb ed="#P" n="65"/>fiunt, dixit, scli Deo esse notos, utique non
+          <lb ed="#P" n="66"/>solum, quia sunt liberi, tanquam actus 
+          impe<lb break="no" ed="#P" n="67"/>rati, sed quia simul sunt ejusdem ordinis. Unde
+          <lb ed="#P" n="68"/>ulterius addo, quod isti actus, qui ex aliquo
+          <lb ed="#P" n="69"/>voluntatis consensu fiunt, sunt etiam principia
+          <lb ed="#P" n="70"/>et regulae aliorum actuum moralium, quos in
+          <lb ed="#P" n="71"/>voluntate excitant. Denique ob easdem causas
+          <lb ed="#P" n="72"/>excipiendi non sunt actus speculativi 
+          intellec<lb break="no" ed="#P" n="73"/>tus, qui etiam sunt cogitationes liberae et ab
+          <lb ed="#P" n="74"/>eis plurimum pendent actus liberi voluntatis,
+          <lb ed="#P" n="75"/>et morum internorum institutio. Nam 
+          intel<lb break="no" ed="#P" n="76"/>lectus speculativus aliquid etiam movet, et
+          <lb ed="#P" n="77"/>facile transit in practicum. Et, ut uno 
+          verbo<lb break="no" ed="#P" n="78"/>rum concludamus, eo ipso, quod natura 
+          ratio<lb break="no" ed="#P" n="79"/>nahs postulat, ut cogitationes et affectiones
+          <lb ed="#P" n="80"/>possit habere secretas, et omni creaturae 
+          ab<lb break="no" ed="#P" n="81"/>sconditas, simpliciter utraque potentia 
+          intel<lb break="no" ed="#P" n="82"/>lectus, et voluntatis illam habet naturalem
+          <lb ed="#P" n="83"/>proprietatem, ut omnes earum actus, qui 
+          li<lb break="no" ed="#P" n="84"/>bere fiunt, aut fieri possunt, sine proprio 
+          con<lb break="no" ed="#P" n="85"/>sensu ab alio cognosci non valeant, nec eorum
+          <lb ed="#P" n="86"/>species aliis sint connaturales. Unde ab hac 
+          re<lb break="no" ed="#P" n="87"/>gula ad summum excipi posset actus, quo se
+          <lb ed="#P" n="88"/>Angelus semper intuetur, si omnino naturalis
+          <lb ed="#P" n="89"/>est, ut de dilectione dicebamus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

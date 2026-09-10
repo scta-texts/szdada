@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 23</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 23</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="511"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x12877"><!-- l4c23 -->
+        <head xml:id="szdada-x12877-Hd1e101">Caput 23</head>
+        <head xml:id="szdada-x12877-Hd1e103" type="question-title">Utrum angeli seipsos effective moveant</head>
+        <p xml:id="szdada-x12877-d1e106">
+          <lb ed="#P" n="7"/>CAPUT XXII.
+          <lb ed="#P" n="8"/>UTRUM ANGELI SEIPSOS EFFECTIVE MOVEANT.
+        </p>
+        <p xml:id="szdada-x12877-d1e113">
+          <lb ed="#P" n="9"/>1. Principium motus, vel est intrinsecum,
+          <lb ed="#P" n="10"/>vel extrinsecum. — Explicatis omnibus, quae ad
+          <lb ed="#P" n="11"/>intelligendum Angeli motum necessaria visa
+          <lb ed="#P" n="12"/>sunt, superest dicendum de potentia motiva,
+          <lb ed="#P" n="13"/>et de proxima causa efficiente talis motus,
+          <lb ed="#P" n="14"/>haec enim sola explicanda superest, nam 
+          re<lb break="no" ed="#P" n="15"/>liqua declarando subjectum, et terminum, et
+          <lb ed="#P" n="16"/>intrinsecam formalitatem, et quasi entitatem
+          <lb ed="#P" n="17"/>ipsius motus exposita sunt. Duobus autem
+          <lb ed="#P" n="18"/>modis contingit, aliquam rem localiter 
+          mo<lb break="no" ed="#P" n="19"/>veri, scilicet, a se, vel ab alio, et ita etiam
+          <lb ed="#P" n="20"/>duplex est principium effectivum motus, 
+          sci<lb break="no" ed="#P" n="21"/>licet, extrinsecum, vel intrinsecum: in hoc
+          <lb ed="#P" n="22"/>ergo capite dicendum est de intrinseco, quod
+          <lb ed="#P" n="23"/>per se Angelo convenit, postea vero in 
+          sequen<lb break="no" ed="#P" n="24"/>tibus de extrinseco, quod magis accidentarium
+          <lb ed="#P" n="25"/>est, dicemus.
+        </p>
+        <p xml:id="szdada-x12877-d1e152">
+          <lb ed="#P" n="26"/>2. Possit ne Angelus seipsum per se 
+          mo<lb break="no" ed="#P" n="27"/>vere. — Negat Capreolus. — Est igitur 
+          praeci<lb break="no" ed="#P" n="28"/>puum dubium, aut possit Angelus seipsum per
+          <lb ed="#P" n="29"/>se movere, in qua re Capreolus in 1, dist. 6,
+          <lb ed="#P" n="30"/>quaest. 1, artic. 1, conclus. 1, simpliciter negat
+          <lb ed="#P" n="31"/>posse Angelum seipsum localiter movere, addit
+          <lb ed="#P" n="32"/>vero statim in conclusione secunda posse 
+          seip<lb break="no" ed="#P" n="33"/>sum movere per accidens. Fundamentum
+          <lb ed="#P" n="34"/>prioris partis est axioma illud Aristotelicum,
+          <lb ed="#P" n="35"/>Omne quoad movetur, ab alio movetur, quod
+          <lb ed="#P" n="36"/>vult Capreolus non in corporalibu stantum, sed
+          <lb ed="#P" n="37"/>etiam in spiritualibus esse in rigore 
+          intelligen<lb break="no" ed="#P" n="38"/>dum, quia non potest idem proprie esse per
+          <lb ed="#P" n="39"/>se movens, et per se motum, quia alias simul
+          <lb ed="#P" n="40"/>esset in actu, et in potentia, quia quod movet,
+          <lb ed="#P" n="41"/>.est in actu, et quod movetur, in potentia est.
+          <lb ed="#P" n="42"/>Alteram vero partem probat, quia Angelus 
+          po<lb break="no" ed="#P" n="43"/>test esse in diversis locis saltem per accidens;
+          <lb ed="#P" n="44"/>ergo potest se movere localiter, saltem per
+          <lb ed="#P" n="45"/>accidens. Rursus Angelum moveri successive
+          <lb ed="#P" n="46"/>nihil aliud est, quam successive operari 
+          cor<lb break="no" ed="#P" n="47"/>pus, vel locum, sed hujusmodi operatio ab
+          <lb ed="#P" n="48"/>Angelo eflective procedit; ergo eo modo, quo
+          <lb ed="#P" n="49"/>Ange us movetur per accidens, a seipso 
+          mo<lb break="no" ed="#P" n="50"/>vetur.
+        </p>
+        <p xml:id="szdada-x12877-d1e210">
+          <lb ed="#P" n="51"/>3. Prima conclusio affirmans. —Dicendum
+          <lb ed="#P" n="52"/>vero est primo Angelum simphliciter loquendo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>seipsum movere. Haec assertio ab omnibus
+          <lb ed="#P" n="54"/>theologis recipitur in 2, distinct. 2 et 6, ubi
+          <lb ed="#P" n="55"/>Gregorius, quaest. 1, artic. 4, illam solum, ut
+          <lb ed="#P" n="56"/>magis probabilem aftlirmat. Quia de ceritate
+          <lb ed="#P" n="57"/>(inquit) nobis certam non est, nec per 
+          Scripta<lb break="no" ed="#P" n="58"/>ram evpressum. Ego vero existimo tam 
+          mani<lb break="no" ed="#P" n="59"/>feste colligi assertionem ex Scriptura, ut sine
+          <lb ed="#P" n="60"/>errore negari non possit. Probatur, quia ita
+          <lb ed="#P" n="61"/>loquitur Scriptura de Angelorum motu, sicut
+          <lb ed="#P" n="62"/>loquitur de motu hominum, vel aliorum 
+          ani<lb break="no" ed="#P" n="63"/>malium se moventium, eisdem enim verbis
+          <lb ed="#P" n="64"/>significantibus motum procedentem a 
+          princi<lb break="no" ed="#P" n="65"/>pio intrinseco rei se moventis utitur. Patet ex
+          <lb ed="#P" n="66"/>verbis 1, Pet. 5, ubi de daemone dicit, 
+          Ci<lb break="no" ed="#P" n="67"/>cuit, queerens quem devoret, et ipsemet daemon
+          <lb ed="#P" n="68"/>Job 1, dixit Circuivi terram. Eamdem vim
+          <lb ed="#P" n="69"/>habet verbum veniendi, accedeudi, ingrediendi,
+          <lb ed="#P" n="70"/>et egrediendi, ut videre hcet Matth. 4, Marc.
+          <lb ed="#P" n="71"/>ultimo, Joan. 13, Luc. 1, 7, et in cap. 8, 
+          no<lb break="no" ed="#P" n="72"/>tanda sunt illa verba, Preecipiebat spiritui 
+          im<lb break="no" ed="#P" n="73"/>mundo, ut eciret ab homine, et iMla quibus de
+          <lb ed="#P" n="74"/>legione daemonum dicitur: Rogabant illum,
+          <lb ed="#P" n="75"/>ne imperaret illis, ut in abyssum irent, et infra,
+          <lb ed="#P" n="76"/>RHogabant, ut permitteret eis in porcos ingredi,
+          <lb ed="#P" n="77"/>additurque, et permisit illis. Exierunt ergo
+          <lb ed="#P" n="78"/>daemonia ab homine, et intraverunt in porcos.
+          <lb ed="#P" n="79"/>Ubi ponderamus, Christum non movisse illos
+          <lb ed="#P" n="80"/>effective, ut egrederentur ah homine, vel 
+          in<lb break="no" ed="#P" n="81"/>grederentur in porcos, sed imperasse unum,
+          <lb ed="#P" n="82"/>et permisisse aliud. In hoc enim secundo id
+          <lb ed="#P" n="83"/>tantum fecit quod ipsi daemones petierunt, ipsi
+          <lb ed="#P" n="84"/>autem tanquam habentes potestatem se 
+          mo<lb break="no" ed="#P" n="85"/>vendi solum petierunt, ut permitterentur, id
+          <lb ed="#P" n="86"/>est, ut non impedirentur.
+        </p>
+        <p xml:id="szdada-x12877-d1e293">
+          <lb ed="#P" n="87"/>4. Idem convincitur ex illis Christi verbis
+          <lb ed="#P" n="88"/>Matth. 12. Cum immundus spiritus exierit
+          <lb ed="#P" n="89"/>ab homine, ambulat per loca arida quaeerens 
+          ve<lb break="no" ed="#P" n="90"/>quiem, et non invenit, tunc dicit, revertar in
+          <lb ed="#P" n="91"/>domwn mneam unde exivi. Ht veniens invenit
+          <lb ed="#P" n="92"/>eqm, etc., tunc vadit, et assumit septem alios
+          <lb ed="#P" n="93"/>spiritus secum, et intrantes habitant ibi. In qua
+          <lb ed="#P" n="94"/>oratione sex vel septem sunt verba, quae omnia
+          <lb ed="#P" n="95"/>significant motum vitalem, et ab intrinseco,
+          <lb ed="#P" n="96"/>scilicet verbum intrandi, exeundi, ambulandi,
+          <lb ed="#P" n="97"/>quaerendi, revertendi, veniendi, vadendi et
+          <lb ed="#P" n="98"/>assumendi. Haec enim dici non possunt de re,
+          <lb ed="#P" n="99"/>quae seipsam movere non possit, sed ab alio
+          <lb ed="#P" n="100"/>tantum moveri. Et ex his etiam sumitur 
+          opti<lb break="no" ed="#P" n="101"/>ma ratio quam attigit Gregorius: quia omnes
+          <lb ed="#P" n="102"/>daemonum motus, et itinera ad malum finem,
+          <lb ed="#P" n="103"/>scilicet perniciem hominum ordinantur, juxta
+          <lb ed="#P" n="104"/>illud, Circuivi terram, et perambulavi eam;
+          <lb ed="#P" n="105"/>ergo dici non potest, quod illi motus a solo Deo
+          <lb ed="#P" n="106"/>specialiter fiant ad arbitrium ipsius daemonis:
+          <lb ed="#P" n="107"/>impium enim esset ita de Deo existimare; ergo
+          <pb ed="#P" n="512"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>necesse est fateri ab ipsis daemonibus se 
+          moven<lb break="no" ed="#P" n="2"/>tibus fieri. Probatur consequentia, quia si 
+          Ange<lb break="no" ed="#P" n="3"/>Ius non se movet, multo minus unus Angetus
+          <lb ed="#P" n="4"/>poterit movere alium; ergo a solo Deo moveri
+          <lb ed="#P" n="5"/>poterit, et ut talis motus non sit Angelo 
+          violen<lb break="no" ed="#P" n="6"/>tus, vel necessarius, dicere oportebit, Deum
+          <lb ed="#P" n="7"/>tunc solum movere Angelum, cum ipse moveri
+          <lb ed="#P" n="8"/>vult, ac proinde ipsum solum ducere daemones,
+          <lb ed="#P" n="9"/>quando ipsi tentare nos volunt, quod 
+          absurdis<lb break="no" ed="#P" n="10"/>simum est, et contra adducta Scripturae loca.
+        </p>
+        <p xml:id="szdada-x12877-d1e367">
+          <lb ed="#P" n="11"/>5. Ponderatur locus alius ec Hebr. 1. —
+          <lb ed="#P" n="12"/>Atque hoc modo eamdem veritatem de sanctis
+          <lb ed="#P" n="13"/>Angelis evidenter mihi probant verbailla Pauli
+          <lb ed="#P" n="14"/>ad Heb. 1. Omnes sunt administratores 
+          spi<lb break="no" ed="#P" n="15"/>ritus in minislerium missi propter eos, qui 
+          hee<lb break="no" ed="#P" n="16"/>reditatem capiunt salutis, essent enim Angeli
+          <lb ed="#P" n="17"/>ineptissimi ad hujusmodi ministerium, si non
+          <lb ed="#P" n="18"/>possent se movere, et illuc ire quo mittuntur.
+          <lb ed="#P" n="19"/>Unde non dicuntur mitti, quasi per physicum
+          <lb ed="#P" n="20"/>impetum, sicut homo interdum dicitur 
+          sagit<lb break="no" ed="#P" n="21"/>tam, vel lapidem mittere, sed per morale 
+          im<lb break="no" ed="#P" n="22"/>perium, sicut homo nuntium mittit. Et sic
+          <lb ed="#P" n="23"/>Luc. 1, prius dicitur: Missus est Gabriel 
+          An<lb break="no" ed="#P" n="24"/>gelus, et additur postea, et ingressus Angelus
+          <lb ed="#P" n="25"/>ad eam. Et finita legatione subjungitur, et 
+          dis<lb break="no" ed="#P" n="26"/>cessit Angelus ab ea. Posset etiam conclusio
+          <lb ed="#P" n="27"/>auctoritate Patrum confirmari, qui non solum
+          <lb ed="#P" n="28"/>dicunt Angelos se movere, sed etiam 
+          velocis<lb break="no" ed="#P" n="29"/>sime ferri quo volunt, et quodammodo dici
+          <lb ed="#P" n="30"/>esse ubique quia ubi volunt, citissime 
+          inve<lb break="no" ed="#P" n="31"/>niuntur, sed speciales allegationes omitto, quia
+          <lb ed="#P" n="32"/>in principio hujus libri probando Angelos esse
+          <lb ed="#P" n="33"/>in definitis locis, sufficienter adductae sunt.
+        </p>
+        <p xml:id="szdada-x12877-d1e419">
+          <lb ed="#P" n="34"/>6. Probatur tandem ratione. — Tertio 
+          pro<lb break="no" ed="#P" n="35"/>batur ratione, quia Angeli sunt viventes 
+          per<lb break="no" ed="#P" n="36"/>fectissimi, et naturaliter non sunt ubique, et
+          <lb ed="#P" n="37"/>ideo mutationis localis capaces sunt; ergo 
+          pos<lb break="no" ed="#P" n="38"/>sunt illam in se efficere. Probatur 
+          consequen<lb break="no" ed="#P" n="39"/>tia, quia supposita imperfectione proprie 
+          limi<lb break="no" ed="#P" n="40"/>tationis, ad perfectionem vitae pertinet facultas
+          <lb ed="#P" n="41"/>intrinseca se movendi. Cujus argumentum est,
+          <lb ed="#P" n="42"/>quia inferiora viventia si participant 
+          cogni<lb break="no" ed="#P" n="43"/>tione non solum intellectualem, sed etiam 
+          sen<lb break="no" ed="#P" n="44"/>sitivam, praesertim perfectam, virtutem 
+          ha<lb break="no" ed="#P" n="45"/>bent se movendi localiter, quis ergo dubitabit
+          <lb ed="#P" n="46"/>Angelos multo perfectius movere se posse 
+          prae<lb break="no" ed="#P" n="47"/>sertim cum in hoc nulla sit difficultas, vel 
+          ap<lb break="no" ed="#P" n="48"/>parens repugnantia.
+        </p>
+        <p xml:id="szdada-x12877-d1e454">
+          <lb ed="#P" n="49"/>7. Objectio dissolvitur. — Motus localis 
+          An<lb break="no" ed="#P" n="50"/>geli recipitur immediate in ipsa substantia. —
+          <lb ed="#P" n="51"/>Nam quae objicitur ex illa maxima 
+          philoso<lb break="no" ed="#P" n="52"/>phica, Omne quod movetur, cab atio movetur,
+          <lb ed="#P" n="53"/>nulla est: tum quia sufticeret illud principium
+          <lb ed="#P" n="54"/>in corporibus defendere, quod ad hunc locum
+          <lb ed="#P" n="55"/>non pertinet. Tum etiam quia probatio, quae
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>adducitur, non obstat, praesertim in 
+          spiritua<lb break="no" ed="#P" n="57"/>libus, quia potest eadem potentia esse in actu
+          <lb ed="#P" n="58"/>primo ad agendum per virtutem 
+          eminentia<lb break="no" ed="#P" n="59"/>lem, et in potentia formali, et receptiva secundi
+          <lb ed="#P" n="60"/>actus, ut patet in voluntate, quae simul est 
+          ac<lb break="no" ed="#P" n="61"/>tiva, et reccptiva sui actus, idem ergo inveniri
+          <lb ed="#P" n="62"/>poterit in motu locali. Imo in hoc multo 
+          faci<lb break="no" ed="#P" n="63"/>lius invenitur, quia ipse localis motus non 
+          re<lb break="no" ed="#P" n="64"/>cipitur immediate in ipsa potentia activa 
+          mo<lb break="no" ed="#P" n="65"/>tus, si illa est distincta a substantia, ut 
+          credi<lb break="no" ed="#P" n="66"/>tur, sed recipitur immediate substantia ipsa.
+          <lb ed="#P" n="67"/>Et ita licet idem Angelus sit in potentia 
+          ac<lb break="no" ed="#P" n="68"/>tiva, et receptiva sui motus, non tamen 
+          secun<lb break="no" ed="#P" n="69"/>dum idem: nam est in potentia recipiendi per
+          <lb ed="#P" n="70"/>substantiam suam, potens autem ad 
+          effhicien<lb break="no" ed="#P" n="71"/>dum motum per aliquem accidentalem 
+          pro<lb break="no" ed="#P" n="72"/>prietatem constituitur.
+        </p>
+        <p xml:id="szdada-x12877-d1e511">
+          <lb ed="#P" n="73"/>8. Secundo dicendum est, Angelum non 
+          so<lb break="no" ed="#P" n="74"/>Ium se movere proprie, et effective, quando
+          <lb ed="#P" n="75"/>dicitur moveri per accidens, sed etiam vel 
+          ma<lb break="no" ed="#P" n="76"/>jori ratione, quando movetur per se. Ita 
+          sen<lb break="no" ed="#P" n="77"/>tiunt reliqui theologi, praeter Capreolum,
+          quan<lb break="no" ed="#P" n="78"/>do absolute, et generaliter loquuntur, et 
+          spe<lb break="no" ed="#P" n="79"/>cialiter contra Capreolum id notarunt nonnulli
+          <lb ed="#P" n="80"/>moderni theologi. Et probatur primo, quia 
+          An<lb break="no" ed="#P" n="81"/>gelus non dicitur moveri per accidens, nisi
+          <lb ed="#P" n="82"/>quando movetur, in corpore assumpto, vel
+          <lb ed="#P" n="83"/>movendo simul, et deferendo aliquod corpus,
+          <lb ed="#P" n="84"/>ut supra declaravi: sed Scriptura non tantum
+          <lb ed="#P" n="85"/>dicit Angelos se movere quando movent 
+          corpo<lb break="no" ed="#P" n="86"/>ra, sed etiam cum se tantum movent; ergo tunc
+          <lb ed="#P" n="87"/>etiam effective se movent. Secunda pars 
+          ante<lb break="no" ed="#P" n="88"/>cedentis patet ex testimoniis adductis, quando
+          <lb ed="#P" n="89"/>enim daemones circumeunt terram, non 
+          neces<lb break="no" ed="#P" n="90"/>sario secum deferunt aliquod corpus, nec 
+          cor<lb break="no" ed="#P" n="91"/>pora per quae transeunt agitant, vel alia simili
+          <lb ed="#P" n="92"/>mutatione locali immutant. Et similiter legio
+          <lb ed="#P" n="93"/>daemonum egrediens ab homine, quem 
+          tene<lb break="no" ed="#P" n="94"/>bat obsessum, et ingrediens porcos, nulla 
+          cor<lb break="no" ed="#P" n="95"/>pora secum detulit, sed soli spiritus egressi,
+          <lb ed="#P" n="96"/>et ingressi sunt, et maxime per se movebantur.
+          <lb ed="#P" n="97"/>Idemque probari potest de sanctis Angelis,
+          <lb ed="#P" n="98"/>quando invisibiliter sine corporibus assumptis,
+          <lb ed="#P" n="99"/>aut motis ad nos veniunt, vel ut nos custodiant,
+          <lb ed="#P" n="100"/>vel ut reverenter divino Sacrificio assistant,
+          <lb ed="#P" n="101"/>vel ut alia ministeria exequantur, sicut supra
+          <lb ed="#P" n="102"/>cap. 1 et 2, ex sanctis Patribus allegavi, et 
+          col<lb break="no" ed="#P" n="103"/>ligitur ex verbis Pauli supra citatis, et ex illo
+          <lb ed="#P" n="104"/>Psal. 90: Angelis suis Deus mandavit de te, ut
+          <lb ed="#P" n="105"/>custodiant te in omnibus viis tuis.
+        </p>
+        <p xml:id="szdada-x12877-d1e586">
+          <lb ed="#P" n="106"/>9. Secunda conclusio. — Secundo probatur
+          <lb ed="#P" n="107"/>ratione, quia quando Angelus movetur per 
+          ac<lb break="no" ed="#P" n="108"/>cidens, non movetur formaliter per motum
+          <lb ed="#P" n="109"/>quem efticit in corpore, ut videtur Capreolus
+          <lb ed="#P" n="110"/>cogitasse, sed movetur per proprium motum,
+          <pb ed="#P" n="513"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quem in se recipit, ut supra probavi; ergo hac
+          <lb ed="#P" n="2"/>ratione necesse est, ut non solum habeat 
+          poten<lb break="no" ed="#P" n="3"/>tiam movendi corpus, sed etiam movendi 
+          seip<lb break="no" ed="#P" n="4"/>sum, quoniam (ut supra dixi) non movetur
+          <lb ed="#P" n="5"/>per accidens, quasi tractus a corpore, sed quia
+          <lb ed="#P" n="6"/>se movet cum corpore. At vero ratio haec non
+          <lb ed="#P" n="7"/>minus cogit, quando Angelus per se movet
+          <lb ed="#P" n="8"/>seipsum solum, quia etiam tunc Angelus 
+          re<lb break="no" ed="#P" n="9"/>cipit in se motum, et non ab alio, ut jam 
+          os<lb break="no" ed="#P" n="10"/>tensum est; ergo a seipso. Imo tunc evidentior
+          <lb ed="#P" n="11"/>est necessitas, quia quando Angelus sic 
+          move<lb break="no" ed="#P" n="12"/>tur, aliquid efficit, et non in corpore, ut 
+          sup<lb break="no" ed="#P" n="13"/>ponitur, et exempla adducta ostendunt, et ex
+          <lb ed="#P" n="14"/>dictis de loco Angelorum est evidens; ergo
+          <lb ed="#P" n="15"/>efficit in seipso, quia nullum aliud subjectum
+          <lb ed="#P" n="16"/>talis actionis, et mutationis cogitari potest.
+          <lb ed="#P" n="17"/>Posset etiam hic afferri exemplum de anima
+          <lb ed="#P" n="18"/>Christi, quae quando descendit ad inferos, et ab
+          <lb ed="#P" n="19"/>illis rediit ad sepulchrum, per se mota est, et
+          <lb ed="#P" n="20"/>non ab alio, quam a se, idemque afferri potest
+          <lb ed="#P" n="21"/>de animabus, quas Christus de sinu Abrahae
+          <lb ed="#P" n="22"/>adduxit, et similibus. Sed de his respondere
+          <lb ed="#P" n="23"/>quis posset, quod se movebant virtute divina,
+          <lb ed="#P" n="24"/>aut beatifica: nam de anima separata an 
+          vir<lb break="no" ed="#P" n="25"/>tute naturali possit se movere, minus certum,
+          <lb ed="#P" n="26"/>quam de Angelis est, et intra in tractatu de
+          <lb ed="#P" n="27"/>Anima examinabitur. Ad fundamentum autem
+          <lb ed="#P" n="28"/>Capreoli in numero secundo nil aliud 
+          respon<lb break="no" ed="#P" n="29"/>dere necesse est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 20</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 20</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="205"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x05138"><!-- l2c20 -->
+        <head xml:id="szdada-x05138-Hd1e101">Caput 20</head>
+        <head xml:id="szdada-x05138-Hd1e103" type="question-title">Qualem dei cognitionem possit angelus per species aliorum effectuum comparare</head>
+        <p xml:id="szdada-x05138-d1e106">
+          <lb ed="#P" n="33"/>CAPUT XX.
+          <lb ed="#P" n="34"/>QUALEM DEI COGNITIONEM POSSIT ANGELUS PER
+          <lb ed="#P" n="35"/>SPECIES ALIORUM EFFECTUUM COMPARARE.
+        </p>
+        <p xml:id="szdada-x05138-d1e115">
+          <lb ed="#P" n="36"/>1. Certum est sicut Angelus per suam 
+          sub<lb break="no" ed="#P" n="37"/>stantiam Deum cognoscit, ita et per species
+          <lb ed="#P" n="38"/>aliarum creaturarum illum cognoscere. — 
+          Quaes<lb break="no" ed="#P" n="39"/>Lio vero est, utra cognitio praestet. — Ex dictis
+          <lb ed="#P" n="40"/>facile expediri potest, quod supra propositum
+          <lb ed="#P" n="41"/>est de cognitione Dei, quam Angelus per 
+          alia<lb break="no" ed="#P" n="42"/>rum rerum cognitionem comparat. Nam sine
+          <lb ed="#P" n="43"/>dubio sicut Angelus per suam substantiam
+          <lb ed="#P" n="44"/>Deum cognoscit, ita per species aliorum 
+          An<lb break="no" ed="#P" n="45"/>gelorum. Quia etiam illos cognoscit 
+          compre<lb break="no" ed="#P" n="46"/>hensive, vel saltem quidditative et 
+          consequen<lb break="no" ed="#P" n="47"/>ter ut sunt effectus Dei, et ut sunt Deo similes,
+          <lb ed="#P" n="48"/>et ad imaginem Dei facti: et non solum per
+          <lb ed="#P" n="49"/>species Angelorum, sed etiam per species 
+          coe<lb break="no" ed="#P" n="50"/>lorum et aliarum rerum universi agnoscit 
+          ea<lb break="no" ed="#P" n="51"/>rum creatorem, ut notarunt Bonaventura in 2,
+          <lb ed="#P" n="52"/>d. 3, 2 part., distinctionis art. 2, quaestio 2,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>ad 2, et omnes interpretes D. Thomae, dicto
+          <lb ed="#P" n="54"/>art. 3. Et est per se evidens: nam si 
+          homini<lb break="no" ed="#P" n="55"/>bus invisibilia Dei per ea, quae facta sunt, 
+          in<lb break="no" ed="#P" n="56"/>tellecta conspiciuntur, multo magis Angelis.
+          <lb ed="#P" n="57"/>Unde omnia, quae in toto praecedenti capite
+          <lb ed="#P" n="58"/>diximus de actu, quo Angelus Deum 
+          cognos<lb break="no" ed="#P" n="59"/>cit per seipsum, applicari possunt ad actum,
+          <lb ed="#P" n="60"/>quo Deum cognoscit per speciem alterius 
+          An<lb break="no" ed="#P" n="61"/>celi, coeli, terrae et caeterarum rerum: nam
+          <lb ed="#P" n="62"/>per haec omnia tanquam per media cognita
+          <lb ed="#P" n="63"/>ascendit ad Deum vel uno et eodem actu, vel
+          <lb ed="#P" n="64"/>etiam distinctis, juxta diversos modostendendi
+          <lb ed="#P" n="65"/>in Deum. Superest igitur, ut de comparatione
+          <lb ed="#P" n="66"/>inter haec media et cognitiones Dei, quae ex eis
+          <lb ed="#P" n="67"/>comparantur, dicamus. Cum autem duplicem
+          <lb ed="#P" n="68"/>Dei cognitionem in Angelis distinxerimus, 
+          u<lb break="no" ed="#P" n="69"/>nam conjunctam et identificatam cum 
+          cogni<lb break="no" ed="#P" n="70"/>tione sui, aliam sejunctam et distinctam a 
+          cog<lb break="no" ed="#P" n="71"/>nitione creaturas, possumus in praesenti vel
+          <lb ed="#P" n="72"/>has cognitiones inter se comparare, vel in
+          <lb ed="#P" n="73"/>singulis membris plures cognitiones 
+          respecti<lb break="no" ed="#P" n="74"/>vas, quae per varia media fiunt, vel plures 
+          ab<lb break="no" ed="#P" n="75"/>solutas inter se conferre.
+        </p>
+        <p xml:id="szdada-x05138-d1e206">
+          <lb ed="#P" n="76"/>2. Resolutio quaestionis quoad an est Dei,
+          <lb ed="#P" n="77"/>et per idem medium.—Item quoad quid est.—
+          <lb ed="#P" n="78"/>Si priori modo fiat comparatio, fieri debet 
+          in<lb break="no" ed="#P" n="79"/>ter illas duas cognitiones, quatenus per idem
+          <lb ed="#P" n="80"/>medium haberi possunt vel propinquius, vel
+          <lb ed="#P" n="81"/>remotius. Et sic etiam in eis considerari 
+          po<lb break="no" ed="#P" n="82"/>test, quod per utramque cognoscitur Deus
+          <lb ed="#P" n="83"/>quoad quaestiones an sit, et quid sit Deus, 
+          ali<lb break="no" ed="#P" n="84"/>quo modo. Dico ergo per utramque aeque 
+          per<lb break="no" ed="#P" n="85"/>fecte cognosci, Deum esse, licet per actualem
+          <lb ed="#P" n="86"/>et formalem cognitionem creaturae, ut ad Deum
+          <lb ed="#P" n="87"/>terminatam videatur expressius cognosci ratio
+          <lb ed="#P" n="88"/>cogens intellectum ad judicandum Deum esse.
+          <lb ed="#P" n="89"/>Unde illa cognitio quoad hoc videtur 
+          eviden<lb break="no" ed="#P" n="90"/>tior: nam alia est evidens in virtute ejus, et
+          <lb ed="#P" n="91"/>quia illi innititur. Nihilominus tamen quoad
+          <lb ed="#P" n="92"/>cognitionem quid sit Deus, absoluta Dei 
+          cogni<lb break="no" ed="#P" n="93"/>tio, et contemplatio videtur perfectior. Tum
+          <lb ed="#P" n="94"/>quia haec cognitio habet Deum pro primario,
+          <lb ed="#P" n="95"/>et integro objecto, et secundario potest 
+          attin<lb break="no" ed="#P" n="96"/>gere creaturam, ut Deo possibilem secundum
+          <lb ed="#P" n="97"/>aliquam rationem entis creabilis, altera vero
+          <lb ed="#P" n="98"/>cognitio primario respicit creaturam, Deum
+          <lb ed="#P" n="99"/>autem solum secundario, et in obliquo 
+          attin<lb break="no" ed="#P" n="100"/>git. Tum etiam quia per priorem cognitionem
+          <lb ed="#P" n="101"/>tota mens Angeli majori conatu applicatur ad
+          <lb ed="#P" n="102"/>Deum cognoscendum: et ideo clarius illum
+          <lb ed="#P" n="103"/>cognoscit, pluraque attributa de illo potest
+          <lb ed="#P" n="104"/>distincte cognoscere, sicut jam explicavi, per
+          <lb ed="#P" n="105"/>posteriorem autem per se solum applicatur
+          <lb ed="#P" n="106"/>mens Angeli ad se, vel alium effectum Dei 
+          co<lb break="no" ed="#P" n="107"/>gnoscendum, et consequenter solum attingit
+          <pb ed="#P" n="206"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Deum, quantum ad exactam cognitionem 
+          ef<lb break="no" ed="#P" n="2"/>fectus necessarium est, ad quod imperfecta et
+          <lb ed="#P" n="3"/>confusa cognitio Dei sufficit. Neque mirum 
+          vi<lb break="no" ed="#P" n="4"/>deri debet, si perfectior cognitio ex 
+          imperfec<lb break="no" ed="#P" n="5"/>tiori originem ducat, quia non ducit originem
+          <lb ed="#P" n="6"/>ab illa, ut a causa totali, vel praecipua, sed ut
+          <lb ed="#P" n="7"/>a causa aliquo modo excitante, et adjuvante :
+          <lb ed="#P" n="8"/>principalis autem causa illius majoris 
+          perfec<lb break="no" ed="#P" n="9"/>tionis est lumen intellectus angelici, magis 
+          di<lb break="no" ed="#P" n="10"/>recte, majorique attentione et conatu circa
+          <lb ed="#P" n="11"/>tale objectum operans.
+        </p>
+        <p xml:id="szdada-x05138-d1e307">
+          <lb ed="#P" n="12"/>3. Resolutio altera quando cognitiones 
+          pre<lb break="no" ed="#P" n="13"/>dictae habentur per diversa media. — Primum
+          <lb ed="#P" n="14"/>corollarium ea data resolutione. — Deinde si
+          <lb ed="#P" n="15"/>comparemus cognitiones per diversa media,
+          <lb ed="#P" n="16"/>debet comparatio servata proportione fieri, id
+          <lb ed="#P" n="17"/>est, conferenao cognitionem respectivam cum
+          <lb ed="#P" n="18"/>respectiva, et absolutam cum absoluta in 
+          eo<lb break="no" ed="#P" n="19"/>dem Angelo operante cum tota virtute sua,
+          <lb ed="#P" n="20"/>tali actui et medio proportionata. Quia tota
+          <lb ed="#P" n="21"/>ratio dubitationis est in diversitate mediorum,
+          <lb ed="#P" n="22"/>quae est per se, alia vero inaequalitas, quae 
+          con<lb break="no" ed="#P" n="23"/>tingere potest ex libertate operantis, magis,
+          <lb ed="#P" n="24"/>vel minus applicantis virtutem suam, est per
+          <lb ed="#P" n="25"/>accidens, et non consideratur. Videri ergo 
+          po<lb break="no" ed="#P" n="26"/>test, Angelum perfectius cognoscere Deum per
+          <lb ed="#P" n="27"/>effectum perfectiorem, quia cognoscit Deum
+          <lb ed="#P" n="28"/>per effectum, quatenus hic est aliquo modo 
+          si<lb break="no" ed="#P" n="29"/>milis Deo; ergo quo fuerit effectus Deo 
+          simi<lb break="no" ed="#P" n="30"/>lior, eo cognitio Dei per illum erit perfectior.
+          <lb ed="#P" n="31"/>Unde fit, ut Angelus perfectiuscognoscat Deum
+          <lb ed="#P" n="32"/>per suam substantiam, quam per cognitionem
+          <lb ed="#P" n="33"/>cujuscumque alterius inferioris effectus Dei,
+          <lb ed="#P" n="34"/>quod videntur omnes communiter docere.
+        </p>
+        <p xml:id="szdada-x05138-d1e359">
+          <lb ed="#P" n="35"/>4. Secundum corollarium.—Secundo 
+          sequi<lb break="no" ed="#P" n="36"/>tur, quod Angelus habens alios Angelos sibi
+          <lb ed="#P" n="37"/>aeequales et ejusdem speciei, aeque perfecte 
+          co<lb break="no" ed="#P" n="38"/>gnoscat Deum per cognitionem alterius Angeli
+          <lb ed="#P" n="39"/>sibi aequalis, ac per cognitionem sui. Patet,
+          <lb ed="#P" n="40"/>quia eognoscit Deum per aequale medium, et
+          <lb ed="#P" n="41"/>per idem lumen, et cum eadem apphicatione
+          <lb ed="#P" n="42"/>virtutis. Neque obstabit, quod se cognoscat per
+          <lb ed="#P" n="43"/>suam substantiam, et alium per speciem: nam
+          <lb ed="#P" n="44"/>id non obstat, quo minus aequalis sit cognitio,
+          <lb ed="#P" n="45"/>quia species proportionata objecto tam 
+          perfec<lb break="no" ed="#P" n="46"/>tam cognitionem illius efficit, caeteris paribus
+          <lb ed="#P" n="47"/>ex parte potentiae, sicut facit ipsum objectum
+          <lb ed="#P" n="48"/>per se assistens potentiae. Sicut visio Dei non
+          <lb ed="#P" n="49"/>esset minus perfecta elicita per speciem 
+          crea<lb break="no" ed="#P" n="50"/>tam, quam nunc sit per ipsam divinam 
+          essen<lb break="no" ed="#P" n="51"/>tiam, si caetera essent paria, ut supra in 
+          pro<lb break="no" ed="#P" n="52"/>pria materia dixi, et Angelus ipse, si per 
+          spe<lb break="no" ed="#P" n="53"/>ciem se cognosceret, non minus perfecte se
+          <lb ed="#P" n="54"/>cognosceret, ut supra etiam tetigi. Unde etiam
+          <lb ed="#P" n="55"/>unus Angelus non minus quidditative, et com-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>prehensive, nec minus clare, et intense 
+          cogno<lb break="no" ed="#P" n="57"/>scit alium Angelum sibi aequalem per speciem
+          <lb ed="#P" n="58"/>ejus, quam se per suam substantiam, ergonec
+          <lb ed="#P" n="59"/>Deum minus perfecte cognoscit. Consequentia
+          <lb ed="#P" n="60"/>videtur evidens, et antecedens patet, quia ex
+          <lb ed="#P" n="61"/>parte luminis est aequalis efficacitas ad 
+          utram<lb break="no" ed="#P" n="62"/>que cognitionem: species autem cum sit 
+          pro<lb break="no" ed="#P" n="63"/>portionata objecto, potest adaequate cooperari
+          <lb ed="#P" n="64"/>lumini non minus, quam si ipsum objectum
+          <lb ed="#P" n="65"/>per seipsum immediate cooperaretur. Ratio
+          <lb ed="#P" n="66"/>denique est, quia non est minus perfecta actio,
+          <lb ed="#P" n="67"/>quae sit per instrumentum, quam quae sit sine
+          <lb ed="#P" n="68"/>illo, quando instrumentum est 
+          proportiona<lb break="no" ed="#P" n="69"/>tum.
+        </p>
+        <p xml:id="szdada-x05138-d1e440">
+          <lb ed="#P" n="70"/>5. Objectio contra proaimum corollarium.—
+          <lb ed="#P" n="71"/>Solutio. — Dices: Deus melius. cognoscitur
+          <lb ed="#P" n="72"/>per medium quod immediatius, et melius 
+          re<lb break="no" ed="#P" n="73"/>praesentat ipsum, sed melius repraesentat Deum
+          <lb ed="#P" n="74"/>substantia Angeli, quam species intelligibilis,
+          <lb ed="#P" n="75"/>ergo. HRespondeo, aequivocationem committi :
+          <lb ed="#P" n="76"/>nam revera medium, per quod cognoscitur
+          <lb ed="#P" n="77"/>Deus, non est species, sed est substantia Angeli
+          <lb ed="#P" n="78"/>cogniti per talem speciem: at illa substantia
+          <lb ed="#P" n="79"/>non minus repraesentat Deum, quam altera
+          <lb ed="#P" n="80"/>sibi aequalis. Quod si sit sermo de medio 
+          inco<lb break="no" ed="#P" n="81"/>enito, sic substantia Angeli Deum per illam
+          <lb ed="#P" n="82"/>cognoscentis, licet in sua entitate sit perfectior,
+          <lb ed="#P" n="83"/>et similior Deo, quam species intelligibilis 
+          al<lb break="no" ed="#P" n="84"/>terius Angeli, nihilominus in ratione principii
+          <lb ed="#P" n="85"/>repraesentativi efficienter, non magis, neque
+          <lb ed="#P" n="86"/>propinquius repraesentat Deum, quam species
+          <lb ed="#P" n="87"/>alterius Angeli aequalis, quia sicut species ejus
+          <lb ed="#P" n="88"/>non repraesentat Deum immediate, sed 
+          effi<lb break="no" ed="#P" n="89"/>ciendo coguitionem alterius Angeli aequalis,
+          <lb ed="#P" n="90"/>ita nec substantia Angeli repraesentat 
+          imme<lb break="no" ed="#P" n="91"/>diate Deum, sed concurrendo effective ad 
+          co<lb break="no" ed="#P" n="92"/>gnitionem sui: illa ergo differentia nihil 
+          re<lb break="no" ed="#P" n="93"/>fert ad inaqualitatem cognitionis Dei.
+        </p>
+        <p xml:id="szdada-x05138-d1e495">
+          <lb ed="#P" n="94"/>6. Tertium corollarium proponitur et 
+          dis<lb break="no" ed="#P" n="95"/>cutitur. — Bannez cum Victoria sequitur 
+          par<lb break="no" ed="#P" n="96"/>tem affirmationis seu propositum corollarium.
+          <lb ed="#P" n="97"/>— Tertio sequi videtur ex dicto fundamento,
+          <lb ed="#P" n="98"/>unumquemque Angelum perfectius cognoscere
+          <lb ed="#P" n="99"/>Deum per speciem superioris Angeli, quam
+          <lb ed="#P" n="100"/>per suam substantiam, quia si causa 
+          cognosci<lb break="no" ed="#P" n="101"/>tur per effectum, perfectius cognoscetur per
+          <lb ed="#P" n="102"/>effectum perfectiorem, eique similiorem. 
+          Di<lb break="no" ed="#P" n="103"/>ces, hoc esse verum, si caetera sint paria, hic
+          <lb ed="#P" n="104"/>vero non ita esse: nam Angelus se, et 
+          aequa<lb break="no" ed="#P" n="105"/>les comprehendit, non vero superiores. Sed
+          <lb ed="#P" n="106"/>contra hoc est, quia multi censent, Angelum
+          <lb ed="#P" n="107"/>inferiorem comprehendere superiorem. Unde
+          <lb ed="#P" n="108"/>ex hoc principio sequitur hoc corollarium
+          <lb ed="#P" n="109"/>Bannez, et citat Victoriam. Verum tamen, 
+          e<lb break="no" ed="#P" n="110"/>tiamsi Angelus inferior non comprehendat
+          <pb ed="#P" n="207"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>superiorem, nihilominus videtur corollarium,
+          <lb ed="#P" n="2"/>et ratio ejus procedere. Quia licet demus, 
+          An<lb break="no" ed="#P" n="3"/>gelum inferiorem non ita distincte cognoscere
+          <lb ed="#P" n="4"/>omnia, quae eminenter continentur in 
+          supe<lb break="no" ed="#P" n="5"/>riori, vel omnes rationes, au modos, vel 
+          ha<lb break="no" ed="#P" n="6"/>bitudines ejus, hoc parum videtur referre ad
+          <lb ed="#P" n="7"/>cognitionem Dei per Angelum cognitum, 
+          mul<lb break="no" ed="#P" n="8"/>to enim plus referre videtur, quod inferior
+          <lb ed="#P" n="9"/>cognoscit Angelum superiorem clare, et 
+          quid<lb break="no" ed="#P" n="10"/>ditative, ut perfectiorem in gradu 
+          intellectua<lb break="no" ed="#P" n="11"/>li, ac subinde ut magis ad imaginem, et 
+          simi<lb break="no" ed="#P" n="12"/>litudinem Dei. Nam inde ducitur ad melius,
+          <lb ed="#P" n="13"/>et distinctius concipiendam Dei perfectionem
+          <lb ed="#P" n="14"/>in natura intellectuali, et omnipotentia, et 
+          si<lb break="no" ed="#P" n="15"/>milibus attributis.
+        </p>
+        <p xml:id="szdada-x05138-d1e571">
+          <lb ed="#P" n="16"/>7. Arguitur vero in oppositum.—In 
+          contra<lb break="no" ed="#P" n="17"/>rium autem esse videtur, quia haec comparatio
+          <lb ed="#P" n="18"/>fieri potest vel in proprietatibus, et 
+          perfectio<lb break="no" ed="#P" n="19"/>nibus cognitionum, quae ex parte luminis, et
+          <lb ed="#P" n="20"/>cognoscentis considerantur, vel ex illis, quae in
+          <lb ed="#P" n="21"/>objecto cognoscuntur, vel ab illo pendent. At
+          <lb ed="#P" n="22"/>ex parte cognoscentis nulla potest fieri 
+          compa<lb break="no" ed="#P" n="23"/>ratio, quia non de diversis Angelis, sed de 
+          eo<lb break="no" ed="#P" n="24"/>dem nunc loquimur, qui per quodcumque 
+          me<lb break="no" ed="#P" n="25"/>dium Deum cognoscat, semper eodem lumine,
+          <lb ed="#P" n="26"/>et eadem intensione, et efficacia operari potest.
+          <lb ed="#P" n="27"/>Nec etiam ex parte rei cognitae, scilicet Dei,
+          <lb ed="#P" n="28"/>potest esse inaequalitas, quia imprimis idem
+          <lb ed="#P" n="29"/>Deus per quemcumque effectum cognoscitur
+          <lb ed="#P" n="30"/>esse, seu an sit: nam in quocumque effectu
+          <lb ed="#P" n="31"/>tam parvo, quam magno, cognoscit Angelus
+          <lb ed="#P" n="32"/>Deum esse. Item cum aequali evidentia, quia
+          <lb ed="#P" n="33"/>ex parte rei tam necessaria connexio est inter
+          <lb ed="#P" n="34"/>minimum effectum, verbi gratia, materiam
+          <lb ed="#P" n="35"/>primam, et esse Dei, sicut est inter supremum
+          <lb ed="#P" n="36"/>Angelum et Deum, et ex parte luminis cum
+          <lb ed="#P" n="37"/>eadem claritate videt Angelus illam 
+          necessa<lb break="no" ed="#P" n="38"/>riam connexionem, et in hoc consistit 
+          eviden<lb break="no" ed="#P" n="39"/>tia, ergo quoad quaestionem, an est, tam 
+          per<lb break="no" ed="#P" n="40"/>fecte cognoscit Angelus Deum per cognitionem
+          <lb ed="#P" n="41"/>terrae, sicut per cognitionem sui. Rursus tam
+          <lb ed="#P" n="42"/>evidenter cognoscit Angelus Deum esse 
+          infini<lb break="no" ed="#P" n="43"/>tum, per terram, sicut per se ipsum, quia 
+          utro<lb break="no" ed="#P" n="44"/>que medio cognoscit esse creatorem, et tam
+          <lb ed="#P" n="45"/>infinita perfectio, et potentia est necessaria ad
+          <lb ed="#P" n="46"/>creandum minimum effectum, sicut majorem,
+          <lb ed="#P" n="47"/>ergo utroque medio cognoscit Deum esse 
+          infi<lb break="no" ed="#P" n="48"/>nitum, et consequenter omnipotentem, et 
+          om<lb break="no" ed="#P" n="49"/>nino perfectum, et sic per utrumque medium
+          <lb ed="#P" n="50"/>omnia Dei attributa cognoscuntur, ergo ex 
+          par<lb break="no" ed="#P" n="51"/>te rei cognitae aeque perfecte cognoscit Deum
+          <lb ed="#P" n="52"/>Angelus sive per seipsum, sive per alium 
+          su<lb break="no" ed="#P" n="53"/>periorem, aut inferiorem, vel res alias ipsum
+          <lb ed="#P" n="54"/>cognoscat.
+        </p>
+        <p xml:id="szdada-x05138-d1e658">
+          <lb ed="#P" n="55"/>8. Instantia contra proxime dicta. — Res-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ponsio. — Dices: licet in his, quae narrata sunt,
+          <lb ed="#P" n="57"/>sit aliqua aequalitas quoad esse et quoad 
+          perfec<lb break="no" ed="#P" n="58"/>tionem, vel perfectiones de Deo cognitas (
+          nos<lb break="no" ed="#P" n="59"/>tro loquendi modo) nihilominus esse posse
+          <lb ed="#P" n="60"/>inaequalitatem in modo cognoscendi etiam ex
+          <lb ed="#P" n="61"/>parte rei cognitae, scilicet, quia distinctius et
+          <lb ed="#P" n="62"/>clarius concipitur, videlicet distinctiorem, vel
+          <lb ed="#P" n="63"/>perfectiorem conceptum de Deo formando, vel
+          <lb ed="#P" n="64"/>per habitudinem ad plures effectus illum 
+          con<lb break="no" ed="#P" n="65"/>cipiendo. Sed contra hoc est, quia per nullum
+          <lb ed="#P" n="66"/>effectum Dei quantumvis perfectum, potest
+          <lb ed="#P" n="67"/>concipi Deus ab Angelo proprio positivo 
+          con<lb break="no" ed="#P" n="68"/>ceptu Dei, sed solum communi aliquo conceptu
+          <lb ed="#P" n="69"/>additis negationibus aliquarum 
+          imperfectio<lb break="no" ed="#P" n="70"/>num creaturarum, vel respectibus propriis Dei,
+          <lb ed="#P" n="71"/>sed utrumque aeque fieri potest, cognoscendo
+          <lb ed="#P" n="72"/>Deum per inferiorem, ac superiorem effectum,
+          <lb ed="#P" n="73"/>ergo. Minor probatur, quia per omnem 
+          effec<lb break="no" ed="#P" n="74"/>tum cognoscitur Deus sub ratione entis a se,
+          <lb ed="#P" n="75"/>et non ab alio et in se, id est, non in alio et
+          <lb ed="#P" n="76"/>actus puri, id est, non compositi et sic de aliis
+          <lb ed="#P" n="77"/>negationibus, quae non minus per unam 
+          co<lb break="no" ed="#P" n="78"/>gnitionem, quam per aliam adjungi possunt.
+          <lb ed="#P" n="79"/>Et positivus conceptus communis ad summum
+          <lb ed="#P" n="80"/>determinari potest ad conceptum substantiae
+          <lb ed="#P" n="81"/>spiritualis et intellectualis, qui non perfectius
+          <lb ed="#P" n="82"/>concipitur de Deo cognito per superiorem, quam
+          <lb ed="#P" n="83"/>per inferiorem Angelum, quia semper 
+          quid<lb break="no" ed="#P" n="84"/>quid positivum ibi est, commune est omni
+          <lb ed="#P" n="85"/>substantiae intellectual et solum determinatur
+          <lb ed="#P" n="86"/>ad Deum per negationem compositionis, 
+          de<lb break="no" ed="#P" n="87"/>pendentia, aut limitationis. Quoad respectus
+          <lb ed="#P" n="88"/>vero, eo ipso quod Deus cognoscitur 
+          omnipo<lb break="no" ed="#P" n="89"/>tens, cognoscitur sub respectu ad omne 
+          crea<lb break="no" ed="#P" n="90"/>bile, quod vero ipsa creabilia plura, vel meliora
+          <lb ed="#P" n="91"/>cognoscantur, pertinet quidem ad meliorem
+          <lb ed="#P" n="92"/>cognitionem creaturae, ad distinctiorem autem
+          <lb ed="#P" n="93"/>Dei cognitionem nihil pertinere videtur.
+        </p>
+        <p xml:id="szdada-x05138-d1e748">
+          <lb ed="#P" n="94"/>9. Assertio prima circa tertium corollarium.
+          <lb ed="#P" n="95"/>— In hoc puncto tria dicenda videntur, 
+          distin<lb break="no" ed="#P" n="96"/>guendo inter cognitionem, quod Deus sit, vel
+          <lb ed="#P" n="97"/>quid sit. Primum est, per omnes cognitiones,
+          <lb ed="#P" n="98"/>quas unus Angelus de Deo habet, sive per 
+          sub<lb break="no" ed="#P" n="99"/>stantiam suam, sive per species aliarum rerum
+          <lb ed="#P" n="100"/>magis, vel minus perfectarum, aeque perfecte
+          <lb ed="#P" n="101"/>cognoscere Deum esse. Probatur ex 
+          supradic<lb break="no" ed="#P" n="102"/>tis, quia idem esse de Deo cognoscitur, et cum
+          <lb ed="#P" n="103"/>eequali evidentia per omnes illas cognitiones,
+          <lb ed="#P" n="104"/>ergo quoad hanc partem sunt aequales. 
+          Conse<lb break="no" ed="#P" n="105"/>quentia est clara, quia praecise stando in 
+          quaes<lb break="no" ed="#P" n="106"/>tione an sit Deus, nihil aliud est, in quo po sit
+          <lb ed="#P" n="107"/>esse inaequalitas. Antecedens vero quoad 
+          pri<lb break="no" ed="#P" n="108"/>mam partem probatur, quia per quamcumque
+          <lb ed="#P" n="109"/>illarum cognitionum manifestatur Deus ut 
+          ha<lb break="no" ed="#P" n="110"/>bens esse de necessitate et a se, quod esse uni-
+          <pb ed="#P" n="208"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cum et idem est. Quod alteram vero partem
+          <lb ed="#P" n="2"/>jam probatum est illud antecedens, quia ex
+          <lb ed="#P" n="3"/>parte medii tanta est necessitas et connexio
+          <lb ed="#P" n="4"/>cum esse Dei in minimo effectu, sicut in 
+          maxi<lb break="no" ed="#P" n="5"/>mo. Et haec ratio directe probat de quacumque
+          <lb ed="#P" n="6"/>cognitione Dei respectiva, seu intime conjuncta
+          <lb ed="#P" n="7"/>cum cognitione effectus, ita ut per eumdem
+          <lb ed="#P" n="8"/>actum fiat, consequenter vero etiam procedit
+          <lb ed="#P" n="9"/>assertio in cognitionibus absolutis, quibus Deus
+          <lb ed="#P" n="10"/>solus per se et directe cogitatur, ut ens 
+          neces<lb break="no" ed="#P" n="11"/>sarium et a se, abstrahendo ab actuali 
+          consi<lb break="no" ed="#P" n="12"/>deratione alicujus effectus in particulari: nam
+          <lb ed="#P" n="13"/>illa etiam cognitio est de eodem esse Dei et
+          <lb ed="#P" n="14"/>non potest excedere aliam in evidentia, cum
+          <lb ed="#P" n="15"/>inde illam accipiat, quatenus ab illa procedit
+          <lb ed="#P" n="16"/>aliquo modo et in ea, vel in virtute ab illa
+          <lb ed="#P" n="17"/>relicta nititur, ut supra declaravi.
+        </p>
+        <p xml:id="szdada-x05138-d1e829">
+          <lb ed="#P" n="18"/>10. Assertio secunda. — Secundo dicimus,
+          <lb ed="#P" n="19"/>si consideretur Angelus, ut cognoscens, quid
+          <lb ed="#P" n="20"/>sit Deus per solos materiales effectus, non 
+          per<lb break="no" ed="#P" n="21"/>fectius cognoscit illum per effectum 
+          perfectio<lb break="no" ed="#P" n="22"/>rem, quam per minus perfectum, nec 
+          perfec<lb break="no" ed="#P" n="23"/>tius per plures, quam per singulos, nisi valde
+          <lb ed="#P" n="24"/>improprie et secundum quid. Probatur, quia
+          <lb ed="#P" n="25"/>non plures perfectiones, nec majori evidentia
+          <lb ed="#P" n="26"/>cognoscit Angelus de Deo per plures, vel 
+          melio<lb break="no" ed="#P" n="27"/>res effectus materiales, quam per unum minus
+          <lb ed="#P" n="28"/>perfectum, ut probat ratio posteriori loco facta,
+          <lb ed="#P" n="29"/>neque etiam ex vi talium effectuum 
+          concipi<lb break="no" ed="#P" n="30"/>tur Deus clariori modo, aut magis distincto,
+          <lb ed="#P" n="31"/>ergo nullus excessus perfectionis in illa 
+          cogni<lb break="no" ed="#P" n="32"/>tione per meliores effectus materiales 
+          conside<lb break="no" ed="#P" n="33"/>rari potest, quia non est alia proprietas 
+          cogni<lb break="no" ed="#P" n="34"/>tionis, in qua excessus ille spectari possit.
+          <lb ed="#P" n="35"/>Probatur autem minor, quia nulla res 
+          mate<lb break="no" ed="#P" n="36"/>rialis est ad similitudinem, vel imaginem Dei.
+          <lb ed="#P" n="37"/>Unde omnes simul non transcendunt rationem
+          <lb ed="#P" n="38"/>vestigii, quia non conveniunt cum Deo in 
+          pro<lb break="no" ed="#P" n="39"/>prio gradu ejus, qui est intellectualis, nec in
+          <lb ed="#P" n="40"/>proprio essendi modo indivisibih et spirituali.
+          <lb ed="#P" n="41"/>Et ideo per haec omnia materialia media non
+          <lb ed="#P" n="42"/>potest formari de Deo conceptus, nisi valde
+          <lb ed="#P" n="43"/>metaphoricus et improprius Dei, qualis etiam
+          <lb ed="#P" n="44"/>per minimum effectum formari potest. Et haec
+          <lb ed="#P" n="45"/>ratio de omni Dei cognitione fundata in his
+          <lb ed="#P" n="46"/>effectibus procedit, sive sit per eumdem actum,
+          <lb ed="#P" n="47"/>quo effectus cognoscitur, sive per diversum.
+          <lb ed="#P" n="48"/>Et ita ad utramque cum proportione 
+          appli<lb break="no" ed="#P" n="49"/>canda est assertio.
+        </p>
+        <p xml:id="szdada-x05138-d1e901">
+          <lb ed="#P" n="50"/>11. Objectio contra proacimam probationem.
+          <lb ed="#P" n="51"/>—Solutio. — Dices, etiam in rebus materialibus
+          <lb ed="#P" n="52"/>sunt diversi gradus: nam praeter gradum 
+          sub<lb break="no" ed="#P" n="53"/>stantiae invenitur gradus viventis et 
+          cognos<lb break="no" ed="#P" n="54"/>centis aliquo modo, ergo etiam inter effectus
+          <lb ed="#P" n="55"/>materiales perfectius cognoscetur Deus ab An-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gelo per effectus viventes, quam per non 
+          vi<lb break="no" ed="#P" n="57"/>ventes, et perfectius per cognoscentes, quam
+          <lb ed="#P" n="58"/>per carentes cognitione: nam per hos 
+          cognos<lb break="no" ed="#P" n="59"/>cetur Deus, ut vivens et cognoscens, non per
+          <lb ed="#P" n="60"/>alios. Respondeo, etiam per effectum non 
+          vi<lb break="no" ed="#P" n="61"/>ventem cognosci, Deum debere esse viventem
+          <lb ed="#P" n="62"/>et cognoscentem, quia cognoscitur esse infinitae
+          <lb ed="#P" n="63"/>perfectionis, et consequenter habere optimum
+          <lb ed="#P" n="64"/>modum. essendi et operandi, et ideo Angelus
+          <lb ed="#P" n="65"/>non minus hoc penetrat ex cognitione eftectus
+          <lb ed="#P" n="66"/>imperfecti, quam perfectioris, et ex hac parte
+          <lb ed="#P" n="67"/>aequaliter cognoscit, quid sit Deus per illos 
+          ef<lb break="no" ed="#P" n="68"/>fectus. Aliunde vero, quia vita et cognitio 
+          ma<lb break="no" ed="#P" n="69"/>terialis non attingit gradum vitae et 
+          cognitio<lb break="no" ed="#P" n="70"/>nis divinae, ideo non conducit ad concipiendum
+          <lb ed="#P" n="71"/>magis proprie et distincte Deum. Quod si est
+          <lb ed="#P" n="72"/>aliquis excelsus, est valde imperfectus et 
+          me<lb break="no" ed="#P" n="73"/>taphoricus. Ad eum modum, quo lux etiam
+          <lb ed="#P" n="74"/>corporalis habet quamdam majorem 
+          proportio<lb break="no" ed="#P" n="75"/>nem, ad cognoscendas per illam proprietates
+          <lb ed="#P" n="76"/>Dei, tamen quia illud solum est per quamdam
+          <lb ed="#P" n="77"/>proportionalitatem et metaphoram, ideo 
+          res<lb break="no" ed="#P" n="78"/>pectu Angeli parum, vel nihil conducit ille
+          <lb ed="#P" n="79"/>effectus ad cognoscendum melius Deum, quam
+          <lb ed="#P" n="80"/>per alios effectus materiales cognosci possit.
+          <lb ed="#P" n="81"/>Et hoc magis ex sequenti assertione 
+          confirma<lb break="no" ed="#P" n="82"/>bitur.
+        </p>
+        <p xml:id="szdada-x05138-d1e977">
+          <lb ed="#P" n="83"/>12. Assertio tertia bipartita. — Probatur
+          <lb ed="#P" n="84"/>prior pars assertionis. — Tertio dicendum
+          <lb ed="#P" n="85"/>est, Angelum perfectius cognoscere, quid sit
+          <lb ed="#P" n="86"/>Deus per seipsum, vel per aliquem alium 
+          An<lb break="no" ed="#P" n="87"/>gelum, quam per omnes materiales effectus :
+          <lb ed="#P" n="88"/>inter ipsos autem Angelos parum conducere
+          <lb ed="#P" n="89"/>ad augendam Dei cognitionem, quod per 
+          co<lb break="no" ed="#P" n="90"/>gnitionem sui, vel aliorum, vel inferiorum,
+          <lb ed="#P" n="91"/>vel superiorum fiat. Quae assertio de utroque
+          <lb ed="#P" n="92"/>etiam modo cognoscendi Deum, sive per 
+          eum<lb break="no" ed="#P" n="93"/>dem actum cum ipso effectu, sive per 
+          distinc<lb break="no" ed="#P" n="94"/>tum accipienda est, servata proportione. Et
+          <lb ed="#P" n="95"/>non fit comparatio in veritate, aut certitudine,
+          <lb ed="#P" n="96"/>vel evidentia cognitionis, quia in his non 
+          po<lb break="no" ed="#P" n="97"/>test esse inaequalitas, cum eadem sit veritas
+          <lb ed="#P" n="98"/>cognita, eademque ejus necessitas, et idem
+          <lb ed="#P" n="99"/>Iumen angelicum, per quod cognoscitur: sed
+          <lb ed="#P" n="100"/>fit comparatio in modo cognoscendi, et 
+          conci<lb break="no" ed="#P" n="101"/>piendi eamdem veritatem per media diversa.
+          <lb ed="#P" n="102"/>Et sic probatur prior assertionis pars, quia 
+          in<lb break="no" ed="#P" n="103"/>ter Deum, et Angelos (idemque de anima 
+          ra<lb break="no" ed="#P" n="104"/>tionali intelligendum est) est peculiaris 
+          conve<lb break="no" ed="#P" n="105"/>nientia, et formalis similitudo in gradu 
+          intel<lb break="no" ed="#P" n="106"/>lectuali, propter quam dicitur homo factus ad
+          <lb ed="#P" n="107"/>imaginem Dei, quod perfectiori modo convenit
+          <lb ed="#P" n="108"/>Angelo, ut docet D. Thomas, 1 p., q. 93, art.
+          <lb ed="#P" n="109"/>3, et ideo Angelus non cognoscit in se Deum,
+          <lb ed="#P" n="110"/>ut in qualicumque effectu, sed specialiter ut
+          <pb ed="#P" n="209"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in similitudine, et imagine, utique cognita, ut
+          <lb ed="#P" n="2"/>supra declaravi, et ideo ex vi cognitionis sui,
+          <lb ed="#P" n="3"/>vel alterius Angeli specialiori quodam modo
+          <lb ed="#P" n="4"/>magis proprio, et distincto cognoscit Angelus
+          <lb ed="#P" n="5"/>Deum, quam per omnes inferiores effectus. Et
+          <lb ed="#P" n="6"/>quoad hoc verissime dicitur, quod licet 
+          Ange<lb break="no" ed="#P" n="7"/>Ius non cognoscat in Deo majorem 
+          perfectio<lb break="no" ed="#P" n="8"/>nem, ac subinde nec plura attributa per hoc
+          <lb ed="#P" n="9"/>medium angelicum, quam per inferiora, 
+          ni<lb break="no" ed="#P" n="10"/>hilominus simpliciter cognoscit illum 
+          perfec<lb break="no" ed="#P" n="11"/>tius, quoad quid est, quia secundum 
+          concep<lb break="no" ed="#P" n="12"/>tum magis proprium, seu minus remotum
+          <lb ed="#P" n="13"/>cognoscit vitam, cognitionem, et sapientiam
+          <lb ed="#P" n="14"/>Dei, et proprium gradum quasi specificum, in
+          <lb ed="#P" n="15"/>quo Deus existit. Sic enim dixit D. Thomas 
+          su<lb break="no" ed="#P" n="16"/>pra similitudinem Angeli ad Deum esse 
+          quo<lb break="no" ed="#P" n="17"/>dammodo in ratione specifica, et ideo gradum
+          <lb ed="#P" n="18"/>imaginis attingere. Atque haec assertio 
+          eviden<lb break="no" ed="#P" n="19"/>tius considerari potest in illo actu cognitionis,
+          <lb ed="#P" n="20"/>quo Angelus per se primo contemplatur Deum,
+          <lb ed="#P" n="21"/>non cogitando actu, vel per illum actum de
+          <lb ed="#P" n="22"/>creatura, nec de imagine creata, ut creata est,
+          <lb ed="#P" n="23"/>sed transeundo statim ad Deum 
+          repraesenta<lb break="no" ed="#P" n="24"/>tum in illa imagine, ex praesupposita 
+          cogni<lb break="no" ed="#P" n="25"/>tione ejus, vel ex virtute quasi habituah inde
+          <lb ed="#P" n="26"/>relicta, ut supra explicavi, cum D. Thoma, qui
+          <lb ed="#P" n="27"/>de hoc actu specialiter loquitur in dicto art. 3,
+          <lb ed="#P" n="28"/>q. S, de Verit., ad. 18. Per hunc ergo actum
+          <lb ed="#P" n="29"/>Angelus expressius cognoscit Deum cum omni
+          <lb ed="#P" n="30"/>perfectione intellectuali summa in illo gradu,
+          <lb ed="#P" n="31"/>et altiori modo concipit ipsum, quam per 
+          in<lb break="no" ed="#P" n="32"/>feriora media, quia ad concipiendum nititur
+          <lb ed="#P" n="33"/>in ejus imagine aliquo modo propria, et 
+          for<lb break="no" ed="#P" n="34"/>mali, et in hoc directe, ac praecipue incumbit,
+          <lb ed="#P" n="35"/>ut illum, ejusque perfectiones pro viribus 
+          con<lb break="no" ed="#P" n="36"/>cipiat.
+        </p>
+        <p xml:id="szdada-x05138-d1e1123">
+          <lb ed="#P" n="37"/>13. Posterior assertionis pars priori non 
+          re<lb break="no" ed="#P" n="38"/>pugnat, et probatur. — Hinc tamen videri 
+          po<lb break="no" ed="#P" n="39"/>test difficilis altera pars: nam si ratio 
+          imagi<lb break="no" ed="#P" n="40"/>nis in medio cognoscendi confert ad meliorem
+          <lb ed="#P" n="41"/>cognitionem Dei, cur perfectior imago non 
+          in<lb break="no" ed="#P" n="42"/>ducet perfectiorem cognitionem, caeteris 
+          pari<lb break="no" ed="#P" n="43"/>bus. Sed nihilominus illa pars non repugnat
+          <lb ed="#P" n="44"/>priori. Et declaratur, ac probatur in hunc 
+          mo<lb break="no" ed="#P" n="45"/>dum, quia in gradu eadem est similitudo 
+          om<lb break="no" ed="#P" n="46"/>nium Angelorum ad Deum, et in uno Angelo
+          <lb ed="#P" n="47"/>non est major convenientia in numero 
+          perfec<lb break="no" ed="#P" n="48"/>tionum, aut attributorum, ut sic dicam, sed
+          <lb ed="#P" n="49"/>omnes sunt in omnibus, licet in uno sint 
+          per<lb break="no" ed="#P" n="50"/>fectiores, et cum majori participatione divinae
+          <lb ed="#P" n="51"/>perfectionis, quam in alio. Haec autem 
+          diffe<lb break="no" ed="#P" n="52"/>rentia inter Angelos parum videtur referre ad
+          <lb ed="#P" n="53"/>cognoscendum de Deo distinctius, aut clarius,
+          <lb ed="#P" n="54"/>quid sit, quia per cognitionem cujuscumque
+          <lb ed="#P" n="55"/>Angeli, etiam perfectissimi, positive solum co-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gnoscitur Deus, ut substantia intellectualis, et
+          <lb ed="#P" n="57"/>ut hic conceptus fiat proprius Dei, addenda
+          <lb ed="#P" n="58"/>est negatio aliqua, sed utrumque aequaliter
+          <lb ed="#P" n="59"/>fieri potest per cognitionem cujuscumque 
+          An<lb break="no" ed="#P" n="60"/>geli, quia gradus intellectualis praecise 
+          specta<lb break="no" ed="#P" n="61"/>tus in omnibus aequaliter, et univoce inven:-
+          <lb ed="#P" n="62"/>tur, et sicut Angelus cognoscendo Deum per
+          <lb ed="#P" n="63"/>seipsum, removet a Deo omnes 
+          imperfectio<lb break="no" ed="#P" n="64"/>nes, quas in se videt, scilicet, compositionem,
+          <lb ed="#P" n="65"/>limitationem, etc., ita etiam cognoscit esse 
+          re<lb break="no" ed="#P" n="66"/>movendam omnem talem imperfectionem in
+          <lb ed="#P" n="67"/>quocumque gradu, et modo, et hoc ipsum 
+          co<lb break="no" ed="#P" n="68"/>gnoscit de Deo per cognitionem cujuscumque
+          <lb ed="#P" n="69"/>alterius Angeli, sive inferioris, sive superioris,
+          <lb ed="#P" n="70"/>ergo quoad hoc tam perfecte cognoscit Deum
+          <lb ed="#P" n="71"/>per alios, sicut per se, et per inferiores, sicut
+          <lb ed="#P" n="72"/>per superiores. Neque apparet, quae major 
+          per<lb break="no" ed="#P" n="73"/>fectio esse possit in cognitione Dei, ratione
+          <lb ed="#P" n="74"/>medii perfectioris, cum illa major perfectio ad
+          <lb ed="#P" n="75"/>formandum de Deo meliorem conceptum, aut
+          <lb ed="#P" n="76"/>magis proprium, non solum specificum, verum
+          <lb ed="#P" n="77"/>etiam genericum, aut analogum non 
+          con<lb break="no" ed="#P" n="78"/>ducat.
+        </p>
+        <p xml:id="szdada-x05138-d1e1219">
+          <lb ed="#P" n="79"/>14. Occurritur argumentationi factiae initio
+          <lb ed="#P" n="80"/>preecedentis numeri.—Unde non obstat 
+          argu<lb break="no" ed="#P" n="81"/>mentatio illa: ratio imaginis conducit ad 
+          per<lb break="no" ed="#P" n="82"/>fectiorem cognitionem, ergo perfectior imago
+          <lb ed="#P" n="83"/>conducet ad cognitionem magis perfectam.
+          <lb ed="#P" n="84"/>Negatur enim haec illatio, quia ratio imaginis
+          <lb ed="#P" n="85"/>addit novam conyenientiam formalem in 
+          gra<lb break="no" ed="#P" n="86"/>du quasi specifico cum Deo, quam non habent
+          <lb ed="#P" n="87"/>effectus, qui non sunt ad imaginem Dei. Major
+          <lb ed="#P" n="88"/>autem perfectio intra latitudinem imaginis non
+          <lb ed="#P" n="89"/>addit novam formalem convenientiam cum
+          <lb ed="#P" n="90"/>Deo, nec facit, ut ratione illius modo altiori,
+          <lb ed="#P" n="91"/>aut magis proprio, aut expresso concipiatur
+          <lb ed="#P" n="92"/>Deus, et ideo non est similis ratio. Et propter
+          <lb ed="#P" n="93"/>hanc fortasse causam D. Thomas nihil dicere
+          <lb ed="#P" n="94"/>curavit de modo, quo Angelus cognoscit Deum
+          <lb ed="#P" n="95"/>per species aliorum effectuum Dei, sed de sola
+          <lb ed="#P" n="96"/>cognitione Dei per substantiam Angeli 
+          cognos<lb break="no" ed="#P" n="97"/>centis mentionem fecit, et illam quasi unicam
+          <lb ed="#P" n="98"/>Angelo tribuit, non enim id fecit, quia alias
+          <lb ed="#P" n="99"/>negare voluerit, sed quia illa est cognitio 
+          maxi<lb break="no" ed="#P" n="100"/>me connaturalis Angelo, et quasi inseparabilis
+          <lb ed="#P" n="101"/>ab illo. Et aliae, quae esse possunt per species
+          <lb ed="#P" n="102"/>rerum materialium, ab illam non attingunt,
+          <lb ed="#P" n="103"/>quae vero per species aliorum Angelorum 
+          ha<lb break="no" ed="#P" n="104"/>beri possunt, nihil perfectionis intensivae 
+          ad<lb break="no" ed="#P" n="105"/>dunt priori cognitioni: extensiva autem 
+          multi<lb break="no" ed="#P" n="106"/>plicatio per se clara erat, nec speciali 
+          explica<lb break="no" ed="#P" n="107"/>tione indigebat. Et per haec sufficienter patet
+          <lb ed="#P" n="108"/>responsio ad rationem dubitandi pro utraque
+          <lb ed="#P" n="109"/>parte positas.
+        </p>
+        <p xml:id="szdada-x05138-d1e1290">
+          <lb ed="#P" n="110"/>15. Dubium incidens resolvitur. —Hinc etiam
+          <pb ed="#P" n="210"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>facile expeditur dubium hic incidens, 
+          nimi<lb break="no" ed="#P" n="2"/>rum, am Angeli perfectiores perfectius 
+          cognos<lb break="no" ed="#P" n="3"/>cant Deum, quam inferiores. Dicendum est
+          <lb ed="#P" n="4"/>enim ex parte cognoscentis perfectius 
+          cognos<lb break="no" ed="#P" n="5"/>cere, quia majori lumine, et clariori, ac 
+          sim<lb break="no" ed="#P" n="6"/>pliciori actu, ut per se notum est. Ex parte 
+          ve<lb break="no" ed="#P" n="7"/>ro rei cognitae non perfectius, quia nec per
+          <lb ed="#P" n="8"/>media magis necessaria Dei existentiam 
+          co<lb break="no" ed="#P" n="9"/>gnoscere possunt, neque de ejus essentia 
+          pos<lb break="no" ed="#P" n="10"/>sunt magis proprium, vel expressum 
+          concep<lb break="no" ed="#P" n="11"/>tum formare, neque plures perfectiones 
+          ratio<lb break="no" ed="#P" n="12"/>ne distinctas, saltem respectu nostri, superior
+          <lb ed="#P" n="13"/>Angelus de Deo cognoscit, quam inferior, ergo
+          <lb ed="#P" n="14"/>ex parte rei cognitae non perfectius cognoscit
+          <lb ed="#P" n="15"/>inferiorem, quam ipse inferior seipsum, 
+          uti<lb break="no" ed="#P" n="16"/>que ex parte rei cognitae, licet ex parte 
+          cognos<lb break="no" ed="#P" n="17"/>centis lucidius, et clarius cognoscat. Eodem
+          <lb ed="#P" n="18"/>ergo modo se habent, respectu Dei, quia 
+          unus<lb break="no" ed="#P" n="19"/>quisque cognoscit de Deo, quidquid 
+          natural<lb break="no" ed="#P" n="20"/>ter a qualibet creatura cognosci potest.
+        </p>
+        <p xml:id="szdada-x05138-d1e1342">
+          <lb ed="#P" n="21"/>16. Quaestiones alie de Angelorum 
+          cognitio<lb break="no" ed="#P" n="22"/>ne resolvuntur. —Objectio. — Responsio. — Hinc
+          <lb ed="#P" n="23"/>etiam cessant interrogationes aliae, quae hic
+          <lb ed="#P" n="24"/>fieri solent, scilicet, utrum perfectius 
+          cognos<lb break="no" ed="#P" n="25"/>cat Angelus Deum per suam substantiam, et
+          <lb ed="#P" n="26"/>per speciem alterius rei simul, quam per 
+          so<lb break="no" ed="#P" n="27"/>lam substantiam suam, vel per solam speciem.
+          <lb ed="#P" n="28"/>Item, an perfectius per speciem repraesentantem
+          <lb ed="#P" n="29"/>simul omnes coelos solos, quam per 
+          repraesen<lb break="no" ed="#P" n="30"/>tantem unum tantum Angelum. Item, an 
+          per<lb break="no" ed="#P" n="31"/>fect:us per unius Angeli supremi, quam 
+          om<lb break="no" ed="#P" n="32"/>nium inferiorum simul, vel quam per speciem
+          <lb ed="#P" n="33"/>totius universi, si totum per unam speciem
+          <lb ed="#P" n="34"/>repraesentetur, vel si pluribus speciebus 
+          finga<lb break="no" ed="#P" n="35"/>mus, Angelum simul, ac perfecte ad eamdem
+          <lb ed="#P" n="36"/>cognitionem uti. In his enim omnibus, et 
+          si<lb break="no" ed="#P" n="37"/>milibus censeo, si in medio, per quod 
+          cognos<lb break="no" ed="#P" n="38"/>citur Deus, includatur gradus intellectualis,
+          <lb ed="#P" n="39"/>non cognosci perfectius Deum, etiamsi cum
+          <lb ed="#P" n="40"/>re illius gradus conjungantur res inferiorum
+          <lb ed="#P" n="41"/>graduum, nec minus perfecte etiamsi non
+          <lb ed="#P" n="42"/>conjungantur: nec etiam referre, quod 
+          plu<lb break="no" ed="#P" n="43"/>res Angeli, vel unus tantum in illo gradu
+          <lb ed="#P" n="44"/>cognoscantur, quia ratio facta in secunda
+          <lb ed="#P" n="45"/>parte tertiae assertionis aeque in his omnibus
+          <lb ed="#P" n="46"/>procedit. Et eadem ratione plus conferet 
+          co<lb break="no" ed="#P" n="47"/>gnitio unius Angeli ad cognoscendum melius
+          <lb ed="#P" n="48"/>Deum, quam cognitio plurium, vel omnium
+          <lb ed="#P" n="49"/>rerum corporalium sine gradu intellectuah. Et
+          <lb ed="#P" n="50"/>eadem ratione multitudo effectuum cognitorum
+          <lb ed="#P" n="51"/>non faciet Angelo melius cognoscere Deum,
+          <lb ed="#P" n="52"/>si omnes illi inferiores effectus gradu rerum
+          <lb ed="#P" n="53"/>corporalium non transcendant, ut ex prima
+          <lb ed="#P" n="54"/>assertione, et ejus ratione colligitur. Solum
+          <lb ed="#P" n="55"/>videtur obstare, quia pluralitas effectuum di-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>versarum rerum videtur potentiam operantis
+          <lb ed="#P" n="57"/>magis ostendere, et sic conferre ad meliorem
+          <lb ed="#P" n="58"/>cognitionem ejus. Sed, ut dicebam, hoc 
+          aug<lb break="no" ed="#P" n="59"/>mentum extrinsecum est, respectu potentiae,
+          <lb ed="#P" n="60"/>praesertim ubi per singulos effectus 
+          cognosci<lb break="no" ed="#P" n="61"/>tur infinitas potentiae: vel certe dici posset,
+          <lb ed="#P" n="62"/>conducere ad quoddam augmentum 
+          extensi<lb break="no" ed="#P" n="63"/>vum potentiae, non tamen ad augmentum 
+          in<lb break="no" ed="#P" n="64"/>tensivum quidditatis, vel perfectionis Dei.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

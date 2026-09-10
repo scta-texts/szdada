@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="839"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x21155"><!-- l7c7 -->
+        <head xml:id="szdada-x21155-Hd1e101">Caput 7</head>
+        <head xml:id="szdada-x21155-Hd1e103" type="question-title">Utrum de facto angeli mali per ignorantiam, vel cum plena scientia, et advertentia peccaverint</head>
+        <p xml:id="szdada-x21155-d1e106">
+          <lb ed="#P" n="5"/>CAPUT VII.
+          <lb ed="#P" n="6"/>UTRUM DE FACTO ANGELI MALI PER IGNORANTIAM,
+          <lb ed="#P" n="7"/>VEL CUM PLENA SCIENTIA, ET ADVERTENTIA 
+          PEC<lb break="no" ed="#P" n="8"/>CAVERINT.
+        </p>
+        <p xml:id="szdada-x21155-d1e117">
+          <lb ed="#P" n="9"/>1. Certum est Angelos ex ignorantia non
+          <lb ed="#P" n="10"/>peccasse. — Prima sententia negativa. — 
+          Pro<lb break="no" ed="#P" n="11"/>batur. — MHactenus solum de possibili loenti 
+          su<lb break="no" ed="#P" n="12"/>mus: et ideo non solum de Angelis, sed etiam
+          <lb ed="#P" n="13"/>de hominibus, et de omni intellectuali natura
+          <lb ed="#P" n="14"/>possibili generalem doctrinam tradidimus: et
+          <lb ed="#P" n="15"/>ideo dicendum superest in particulari, et de
+          <lb ed="#P" n="16"/>facto, quomodo ex hac parte Angeli 
+          peccave<lb break="no" ed="#P" n="17"/>rint. In quo puncto omnes supponunt non
+          <lb ed="#P" n="18"/>peccasse ex ignorantia privationis propria,
+          <lb ed="#P" n="19"/>cum essent pleni scientia, et fide: nec ex 
+          igno<lb break="no" ed="#P" n="20"/>rantia pravae dispositionis, id est, ex proprio
+          <lb ed="#P" n="21"/>errore falsitatis, quia talis error non stat cum
+          <lb ed="#P" n="22"/>plenitudine scientiae, ut supra satis ostensum
+          <lb ed="#P" n="23"/>est. De sola ergo inconsideratione superest 
+          con<lb break="no" ed="#P" n="24"/>troversia. In qua est prima sententia docens
+          <lb ed="#P" n="25"/>Angelos non peccasse ex aliqua 
+          inconsidera<lb break="no" ed="#P" n="26"/>tione omnium rerum quae necessariae erant,
+          <lb ed="#P" n="27"/>et sufficere poterant ad bene operandum, si
+          <lb ed="#P" n="28"/>vellent. Ita sentiunt ex antiquis Scotus, Gabriel,
+          <lb ed="#P" n="29"/>et alii. Ex modernis vero pro hac sententia
+          <lb ed="#P" n="30"/>pugnat Palacios, in 2, dist. 5, disp. 2, et 
+          Va<lb break="no" ed="#P" n="31"/>lentia, 1 tom., disput. 4. quaest. 14, ubi cum
+          <lb ed="#P" n="32"/>in puncto 2, cum Scoto, et aliis defendisset,
+          <lb ed="#P" n="33"/>posse Angelum et hominem peccare sine 
+          in<lb break="no" ed="#P" n="34"/>cogitantia intellectus, in puncto 3, addit de
+          <lb ed="#P" n="35"/>facto ita peccasse Luciferum, et qui eum secuti
+          <lb ed="#P" n="36"/>sunt, pravos Angelos: et contrarium putat
+          <lb ed="#P" n="37"/>non esse Scripturis consentaneum. Primo quia,
+          <lb ed="#P" n="38"/>Ezech. 28, de Lucifero dicitur in persona 
+          Re<lb break="no" ed="#P" n="39"/>gis Tyri, nmultitudine negotiationis tuerepleta
+          <lb ed="#P" n="40"/>sunt interiora tua iniquitate, et peccasti. Ubi
+          <lb ed="#P" n="41"/>per multitudinem negotiationis in creatura
+          <lb ed="#P" n="42"/>pure intellectuali nihil aliud significari potest,
+          <lb ed="#P" n="43"/>nisi multiplex recogitatio, et consideratio 
+          in<lb break="no" ed="#P" n="44"/>tellectus inducens ad peccatum. Unde 
+          subjun<lb break="no" ed="#P" n="45"/>gitur: Z elevatum est cor tuu in decore tuo,
+          <lb ed="#P" n="46"/>perdidisti sapientiam tuam in dedecore tuo. Et,
+          <lb ed="#P" n="47"/>Isai. 14, dicitur de eodem in persona Regis
+          <lb ed="#P" n="48"/>Babylonis: Qui dicebas in corde tuo: in celum
+          <lb ed="#P" n="49"/>conscendam, super astra Dei exaltabo solium
+          <lb ed="#P" n="50"/>mewn. Àscendam super altitudinem nubiwm, et
+          <lb ed="#P" n="51"/>similis ero Altissimo. Nam dicere Angeli est
+          <lb ed="#P" n="52"/>cogitare: consideravit ergo Angelus divinam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>excellentiam, et aliorum Angelorum gradus,
+          <lb ed="#P" n="54"/>et omnibus consideratis decrevit extolli super
+          <lb ed="#P" n="55"/>omnia creata, et Deo assimilari: non ergo ex
+          <lb ed="#P" n="56"/>inconsideratione peccavit. Secundo hoc 
+          confir<lb break="no" ed="#P" n="57"/>mat ratione, quia si peccatum Angelorum ex
+          <lb ed="#P" n="58"/>inconsideratione processisset, non fuisset adeo
+          <lb ed="#P" n="59"/>grave, sicut a Scriptura et Patribus 
+          exagge<lb break="no" ed="#P" n="60"/>raiur: nam incogitantia, seu inadvertentia
+          <lb ed="#P" n="61"/>peccatum minuit, et tanta esse potest, ut 
+          pec<lb break="no" ed="#P" n="62"/>catum excuset, sicut et ignorantia. Tertio, quia
+          <lb ed="#P" n="63"/>non apparet cujus rei inconsideratio cum 
+          fun<lb break="no" ed="#P" n="64"/>damento possit Angelis malis in secundo 
+          in<lb break="no" ed="#P" n="65"/>stanti attribui, quia in primo instanti 
+          habue<lb break="no" ed="#P" n="66"/>runt perfectam Dei considerationem tam 
+          natu<lb break="no" ed="#P" n="67"/>ralem, quam supernaturalem per fidem: et
+          <lb ed="#P" n="68"/>in secundo perfecte deliberarunt de se et 
+          re<lb break="no" ed="#P" n="69"/>bus suis, sicut et alii Angeli, et summa 
+          facih<lb break="no" ed="#P" n="70"/>tate poterant omnia ad se, et ad Deum 
+          perti<lb break="no" ed="#P" n="71"/>nentia actu considerare sicut alii Angeli, qua
+          <lb ed="#P" n="72"/>ergo ratione, vel conjectura potest de illis 
+          in<lb break="no" ed="#P" n="73"/>consideratio praesumi.
+        </p>
+        <p xml:id="szdada-x21155-d1e263">
+          <lb ed="#P" n="74"/>2. Addit praeterea Valentia rationem aliam,
+          <lb ed="#P" n="75"/>quae specialiter attingit quaestionem de peccato
+          <lb ed="#P" n="76"/>superbiae, et ideo illam omitto. Et addo 
+          quar<lb break="no" ed="#P" n="77"/>tam rationem, quae saltem de caeteris Angelis
+          <lb ed="#P" n="78"/>sub Lucifero maxime procedit. Nam docent
+          <lb ed="#P" n="79"/>sancti (ut infra videbimus) supremum 
+          Ange<lb break="no" ed="#P" n="80"/>lum traxisse secum tertiam partem stellarum,
+          <lb ed="#P" n="81"/>alios ad peccatum inducendo: e contrario vero
+          <lb ed="#P" n="82"/>Michaelem restitisse, et pro divino honore 
+          pu<lb break="no" ed="#P" n="83"/>gnasse. At illa pugna non fiebat armis, sed
+          <lb ed="#P" n="84"/>rationibus, et considerationibus mentis, ut 
+          si<lb break="no" ed="#P" n="85"/>gnificant illa verba Michaeli attributa: Quis
+          <lb ed="#P" n="86"/>sicut Deus ? Ergo cum hac praedicatione 
+          Mi<lb break="no" ed="#P" n="87"/>chaelis, et inductione Luciferi non potuit esse
+          <lb ed="#P" n="88"/>inconsideratio m caeteris Angelis audientibus
+          <lb ed="#P" n="89"/>illos: necessario enim debuerunt utriusque
+          <lb ed="#P" n="90"/>motiva considerare; ergo qui restiterunt 
+          sua<lb break="no" ed="#P" n="91"/>sioni Michaelis, non potuerunt ex 
+          inconside<lb break="no" ed="#P" n="92"/>ratione peccare. Imo etiam ipse Lucifer in 
+          eo<lb break="no" ed="#P" n="93"/>dem instanti, in quo peccavit, Michaelis 
+          ani<lb break="no" ed="#P" n="94"/>madversionem percepit: tum quia totum id in
+          <lb ed="#P" n="95"/>instanti fiebat ab Angelis; tum etiam, quia in
+          <lb ed="#P" n="96"/>ipsa via, antequam Lucifer damnaretur, 
+          pu<lb break="no" ed="#P" n="97"/>gnavit cum Michaele; ergo sensit, ac percepit
+          <lb ed="#P" n="98"/>illius resistentiam. Dicet aliquis, percepisse
+          <lb ed="#P" n="99"/>quidem Luciferum in secundo durationis 
+          in<lb break="no" ed="#P" n="100"/>stantis verba Michaelis, prius tamen natura
+          <lb ed="#P" n="101"/>peccasse, ac subinde ex inconsideratione 
+          pec<lb break="no" ed="#P" n="102"/>casse, licet statim durante peccato, ad 
+          consi<lb break="no" ed="#P" n="103"/>derandum provocatus fuerit. Sed contra hoc
+          <lb ed="#P" n="104"/>est, quia si ex inconsideratione sic peccasset,
+          <lb ed="#P" n="105"/>saltem potuisset per animadversionem, et
+          <lb ed="#P" n="106"/>considerationem supervenientem a peccato 
+          de<lb break="no" ed="#P" n="107"/>sistere, et mentem mutare, saltem immediate
+          <pb ed="#P" n="840"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>post illud instans. Vel si obstante non 
+          conside<lb break="no" ed="#P" n="2"/>ratione a Michaele immissa, potuit in peccato
+          <lb ed="#P" n="3"/>persistere, eadem ratione, licet ex se illam
+          <lb ed="#P" n="4"/>considerationem habuisset, peccare potuisset.
+          <lb ed="#P" n="5"/>Unde ergo colligere possumus, quod talem 
+          in<lb break="no" ed="#P" n="6"/>considerationem habuerit.
+        </p>
+        <p xml:id="szdada-x21155-d1e358">
+          <lb ed="#P" n="7"/>3. Alia etiam nobis suppetit ratio, si 
+          sup<lb break="no" ed="#P" n="8"/>ponamus, quod probabiliter infra defendemus,
+          <lb ed="#P" n="9"/>omnes Angelos habuisse in secundo instanti
+          <lb ed="#P" n="10"/>revelationem de Verbi divini Incarnatione, et
+          <lb ed="#P" n="11"/>ea occasione Luciferum, et sectatores ejus 
+          pec<lb break="no" ed="#P" n="12"/>casse. Nam juxta hanc sententiam necessario
+          <lb ed="#P" n="13"/>habuerunt mali Angeli actualem 
+          consideratio<lb break="no" ed="#P" n="14"/>nem illius objecti, circa quod peccarunt, ut
+          <lb ed="#P" n="15"/>patet, quia actu proponebatur eis; ergo si hoc
+          <lb ed="#P" n="16"/>modo peccarunt, non ex inconsideratione 
+          pec<lb break="no" ed="#P" n="17"/>carunt. Et similis ratio fit, si supponamus,
+          <lb ed="#P" n="18"/>quod Angeli non peccarunt contra praeceptum
+          <lb ed="#P" n="19"/>naturale, vel ordinis naturae, vel ordinis 
+          gra<lb break="no" ed="#P" n="20"/>tiae; vel contra aliquod positivum Dei: nam
+          <lb ed="#P" n="21"/>tale-praeceptum receperunt in secundo 
+          in<lb break="no" ed="#P" n="22"/>stanti, in quo contra illud peccarunt, licet 
+          ac<lb break="no" ed="#P" n="23"/>tualem ejus propositionem, et 
+          consideratio<lb break="no" ed="#P" n="24"/>nem haberent: ergo non ex inconsideratione
+          <lb ed="#P" n="25"/>peccarunt.
+        </p>
+        <p xml:id="szdada-x21155-d1e402">
+          <lb ed="#P" n="26"/>4. Secunda et vera sententia affirmans 
+          An<lb break="no" ed="#P" n="27"/>gelos em inconsideratione peccasse. — 
+          Nihil<lb break="no" ed="#P" n="28"/>ominus in hac parte non videtur ab opinione
+          <lb ed="#P" n="29"/>D. Thomae recedendum: probabilius enim 
+          vi<lb break="no" ed="#P" n="30"/>detur, Angelum ex aliqua, vel cum aliqua 
+          in<lb break="no" ed="#P" n="31"/>consideratione peccasse. Quamvis enim de re,
+          <lb ed="#P" n="32"/>vel circumstantia non considerata possit esse
+          <lb ed="#P" n="33"/>diversitas opinionum, de qua in sequentibus
+          <lb ed="#P" n="34"/>dicemus: tamen in generali, quod aliqua 
+          in<lb break="no" ed="#P" n="35"/>consideratio praecesserit, verisimilius videtur.
+          <lb ed="#P" n="36"/>Quod a fortiori tradunt D. Thomas et omnes
+          <lb ed="#P" n="37"/>sectatores cjus in locis citatis in capitulis 
+          prae<lb break="no" ed="#P" n="38"/>cedentibus. Ratio, quae me maxime movet, ut
+          <lb ed="#P" n="39"/>de facto ita sentiam, est, quia licet non sit 
+          ab<lb break="no" ed="#P" n="40"/>solute, ac physice impossibile, consideratis
+          <lb ed="#P" n="41"/>omnibus objectis, et circeumstantiis, quae ad
+          <lb ed="#P" n="42"/>bene, vel melius eligendum considerari 
+          pos<lb break="no" ed="#P" n="43"/>sunt, et debent, male eligere: nihilominus
+          <lb ed="#P" n="44"/>moraliter loquendo, id adeo est difhicile, ut
+          <lb ed="#P" n="45"/>quasi impossibile videatur; quae impossibilitas
+          <lb ed="#P" n="46"/>moralis satis fuit, ut axioma illud: Omnis
+          <lb ed="#P" n="47"/>peccans est ignorans, quasi infaillibile 
+          tradi<lb break="no" ed="#P" n="48"/>tum sit ab Aristotele, lib. 3 Ethic., cap. 1, et
+          <lb ed="#P" n="49"/>ab omnibus recipiatur: ergo non est, cur ab
+          <lb ed="#P" n="50"/>hac generali regula Angelos excipiamus, 
+          eos<lb break="no" ed="#P" n="51"/>que peccando, aliquid moraliter sibi 
+          impossi<lb break="no" ed="#P" n="52"/>bile egisse dicamus.
+        </p>
+        <p xml:id="szdada-x21155-d1e463">
+          <lb ed="#P" n="53"/>5. Declaratur praeterea, quia ut aliquis 
+          dica<lb break="no" ed="#P" n="54"/>tur ex inconsideratione peccare, non est 
+          ne<lb break="no" ed="#P" n="55"/>cesse, ut in objecto, quod inordinate amat, non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>consideret malitiam moralem, si quam habet:
+          <lb ed="#P" n="57"/>vel ut non consideret praeceptum illud 
+          prohi<lb break="no" ed="#P" n="58"/>bens, si quod est, vel similia: sed satis est, quod
+          <lb ed="#P" n="59"/>non consideret, vel haec, vel aliquid, quod 
+          pos<lb break="no" ed="#P" n="60"/>set voluntatem continere a peccato, et fortasse
+          <lb ed="#P" n="61"/>detineret illam, si consideraretur, at certe 
+          ve<lb break="no" ed="#P" n="62"/>rissimum est Angelum non considerasse actu
+          <lb ed="#P" n="63"/>omnia, quae possunt illum a peccato retrahere,
+          <lb ed="#P" n="64"/>ut infinitatem offensae divinae ob immensam
+          <lb ed="#P" n="65"/>Dei majestatem, irreparabile damnum seternae
+          <lb ed="#P" n="66"/>damnationis: et alia, quae pro varietate 
+          pecca<lb break="no" ed="#P" n="67"/>torum in singulis ponderari possunt, ut in
+          <lb ed="#P" n="68"/>sequentibus aliqua ex parte attingemus: ergo
+          <lb ed="#P" n="69"/>simpliciter credibilius est errasse practice 
+          An<lb break="no" ed="#P" n="70"/>gelum judicio, et electione sua, quia non omnia
+          <lb ed="#P" n="71"/>consideravit, quae potuit et debuit: et forte in
+          <lb ed="#P" n="72"/>meliorem mentem illum inducerent, si ea 
+          con<lb break="no" ed="#P" n="73"/>siderasset, et ulterius addi potest, haec, quae ad
+          <lb ed="#P" n="74"/>non peccandum considerari poterant, et 
+          debe<lb break="no" ed="#P" n="75"/>bant, multiplicia esse, et poene innumera:
+          <lb ed="#P" n="76"/>Angelus autem non potest facile ad omnia 
+          si<lb break="no" ed="#P" n="77"/>mul advertere, praesertim si alicui objecto 
+          ni<lb break="no" ed="#P" n="78"/>mium afficiatur, et ideo ad illud 
+          consideran<lb break="no" ed="#P" n="79"/>dum valde applicetur: ita vero contigisse malo
+          <lb ed="#P" n="80"/>Angelo, et per se credibile est, et ex sacra
+          <lb ed="#P" n="81"/>Scriptura colligitur, ut respondendo ad 
+          argu<lb break="no" ed="#P" n="82"/>menta contraria declarabitur; ac denique licet
+          <lb ed="#P" n="83"/>contingeret non praecedere totalem 
+          inconside<lb break="no" ed="#P" n="84"/>rationem alicujus conditionis objecti, vel actu
+          <lb ed="#P" n="85"/>de se retrahentis a peccato, saltem negari non
+          <lb ed="#P" n="86"/>potest, quin ad peccandum contra talem 
+          con<lb break="no" ed="#P" n="87"/>siderationem necessaria fuerit, moraliter 
+          lo<lb break="no" ed="#P" n="88"/>quendo, major, imo nimia consideratio alterius
+          <lb ed="#P" n="89"/>contrariae conditionis, vel objecti magis 
+          prac<lb break="no" ed="#P" n="90"/>tica, et cum majori propensione, aut vehementi
+          <lb ed="#P" n="91"/>affectione voluntatis: hoc autem satis est, ut
+          <lb ed="#P" n="92"/>dicatur peccatum ex aliqua inconsideratione,
+          <lb ed="#P" n="93"/>vel saltem ex aliquo defectu debitae 
+          considera<lb break="no" ed="#P" n="94"/>tionis committi.
+        </p>
+        <p xml:id="szdada-x21155-d1e559">
+          <lb ed="#P" n="95"/>6. Ad primum ex Scriptura in n. 1. — Ad
+          <lb ed="#P" n="96"/>primum ergo argumentum ex sacra Scriptura
+          <lb ed="#P" n="97"/>assumptum respondeo, ex illis locis Ezechielis
+          <lb ed="#P" n="98"/>et Isaiae ad summum colligi habuisse 
+          Lucife<lb break="no" ed="#P" n="99"/>rum scientiam, et actualem etiam 
+          consideratio<lb break="no" ed="#P" n="100"/>nem, quae illum valde culpabilem reddiderit:
+          <lb ed="#P" n="101"/>non tamen colligi, nullam habuisse 
+          inconside<lb break="no" ed="#P" n="102"/>rationem: imo id non obscure ab Ezechiele
+          <lb ed="#P" n="103"/>significatur illis verbis: Flevatum est cor tuum
+          <lb ed="#P" n="104"/>in decore tuo; perdidisti sapientium in dedecore
+          <lb ed="#P" n="105"/>tuo. Lucifer enim multum attendens ad 
+          pul<lb break="no" ed="#P" n="106"/>chritudinem, et excellentiam naturae suae: et
+          <lb ed="#P" n="107"/>nimia affectione illius occupatus, ad alias 
+          al<lb break="no" ed="#P" n="108"/>tiores rationes recte cligendi, et amandi non
+          <lb ed="#P" n="109"/>satis attendit: et ita recte intelligi potest, 
+          sta<lb break="no" ed="#P" n="110"/>tim, et pro illo eodem momento amisisse sa- 
+          <pb ed="#P" n="841"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pientiam suam quoad actualem 
+          consideratio<lb break="no" ed="#P" n="2"/>nem, quamvis dici etiam possit illam perdidisse,
+          <lb ed="#P" n="3"/>quia propter culpam privatus est gratia, et
+          <lb ed="#P" n="4"/>fide, ac sapientia infusa; unde cum tali 
+          incon<lb break="no" ed="#P" n="5"/>sideratione superiorum rationum stare optime
+          <lb ed="#P" n="6"/>potuit multiplex negotiatio intellectus, quae ad
+          <lb ed="#P" n="7"/>peccandum potius juvaret, quam retardaret :
+          <lb ed="#P" n="8"/>nimirum inferiores rationes proprii commodi,
+          <lb ed="#P" n="9"/>vel excellentiae plus justo considerando, nam
+          <lb ed="#P" n="10"/>et ipsum nomen negotiationis, occupationem
+          <lb ed="#P" n="11"/>nimiam circa bona inferiora, et creata 
+          signi<lb break="no" ed="#P" n="12"/>ficat. De quo etiam negotiationis genere optime
+          <lb ed="#P" n="13"/>intelliguntur alia verba Isaiae: Qu? dicelas in
+          <lb ed="#P" n="14"/>corde tuo, in caelum conscendam - fateor enim
+          <lb ed="#P" n="15"/>illud, dicere, idem esse, quod considerare, et
+          <lb ed="#P" n="16"/>cogitare: erat tamen consideratio de rebus, vel
+          <lb ed="#P" n="17"/>rationibus, quae cor elevarent, et ad id 
+          appe<lb break="no" ed="#P" n="18"/>tendum, et procurandum, quia non lcebat,
+          <lb ed="#P" n="19"/>inducerent: cum qua consideratione optime
+          <lb ed="#P" n="20"/>compatiebatur superiorum rationum 
+          inconsi<lb break="no" ed="#P" n="21"/>deratio: imo haec consideratio ex altera nimia
+          <lb ed="#P" n="22"/>consideratione naturaliter consequebatur.
+        </p>
+        <p xml:id="szdada-x21155-d1e648">
+          <lb ed="#P" n="23"/>7. Ad secundum ibidem. — Unde ad 
+          secun<lb break="no" ed="#P" n="24"/>dum negatur sequela, quia non obstante 
+          in<lb break="no" ed="#P" n="25"/>consideratione praedicta potuit peccatum 
+          An<lb break="no" ed="#P" n="26"/>geli esse gravissimum, tum ex objecto, et specie
+          <lb ed="#P" n="27"/>sua, tum ex maxima libertate, cum qua et
+          <lb ed="#P" n="28"/>peccavit, et voluntarie non consideravit, quia
+          <lb ed="#P" n="29"/>facile considerare poterat: talis autem 
+          inconsi<lb break="no" ed="#P" n="30"/>deratio parum, vel nihil diminuit peccatum :
+          <lb ed="#P" n="31"/>est tamen animadvertendum, 
+          inconsidera<lb break="no" ed="#P" n="32"/>tionem, ut sic, ad summum diminuere 
+          pecca<lb break="no" ed="#P" n="33"/>tum respectu similis peccati commissi cum
+          <lb ed="#P" n="34"/>contraria consideratione, caeteris omnibus 
+          cir<lb break="no" ed="#P" n="35"/>cumstantiis paribus existentibus: ut, verbi
+          <lb ed="#P" n="36"/>gratia, si ponamus Luciferum peccasse 
+          appe<lb break="no" ed="#P" n="37"/>tendo primatum supra omnes alios Angelos,
+          <lb ed="#P" n="38"/>actu considerando, illud esse contra 
+          volunta<lb break="no" ed="#P" n="39"/>tem, et ordinationem DET, gravius quidem
+          <lb ed="#P" n="40"/>peccaret, quam si appeteret illud objectum,
+          <lb ed="#P" n="41"/>sciens habitu id esse contra voluntatem Dei;
+          <lb ed="#P" n="42"/>non tamen actu id considerans, quia sine dubio
+          <lb ed="#P" n="43"/>actualis illa consideratio auget contemptum,
+          <lb ed="#P" n="44"/>et facit aversionem a Deo magis voluntariam,
+          <lb ed="#P" n="45"/>nihilominus tamen, etiam sine tali 
+          considera<lb break="no" ed="#P" n="46"/>tione appetitus illius excellentiae esset 
+          gravis<lb break="no" ed="#P" n="47"/>simum peccatum in eo qui sciebat voluntatem
+          <lb ed="#P" n="48"/>Dei, et facillime poterat considerare, si vellet:
+          <lb ed="#P" n="49"/>nam in eo etiam locum habet illa sententia:
+          <lb ed="#P" n="50"/>Qui scit voluntatem domini sui, et non facit,
+          <lb ed="#P" n="51"/>vapulabit multis, Luc 12. Cum ergo peccatum
+          <lb ed="#P" n="52"/>Luciferi gravissimum esse dicitur, non est 
+          ne<lb break="no" ed="#P" n="53"/>cesse ita intelligi, ut censeatur gravius omni
+          <lb ed="#P" n="54"/>peccato possibili fieri in eadem specie cum
+          <lb ed="#P" n="55"/>majori consideratione, vel contemptu: sed
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>satis est, ut positive fuerit nimium grave; et
+          <lb ed="#P" n="57"/>comparative fuerit gravissimum inter peccata,
+          <lb ed="#P" n="58"/>quae morali modo, et cum aliquo defectu 
+          con<lb break="no" ed="#P" n="59"/>siderationis fieri solent.
+        </p>
+        <p xml:id="szdada-x21155-d1e733">
+          <lb ed="#P" n="60"/>8. Ad tertium ib. — Ad tertium concedo,
+          <lb ed="#P" n="61"/>non esse facile designare in particulari 
+          objec<lb break="no" ed="#P" n="62"/>tum, vel circumstantiam, quam Angelus non
+          <lb ed="#P" n="63"/>consideravit, quando deliquit: nihilominus
+          <lb ed="#P" n="64"/>tamen in genere credibile per se est, potuisse
+          <lb ed="#P" n="65"/>multa non considerare, et ab effectu ex ipso
+          <lb ed="#P" n="66"/>peccato colligimus, aliquid non considerasse,
+          <lb ed="#P" n="67"/>quod posset ipsum continere a peccato, nec
+          <lb ed="#P" n="68"/>contra hoc obstat, quod in primo instanu 
+          ha<lb break="no" ed="#P" n="69"/>buerit Lucifer perfectam de DEO 
+          considera<lb break="no" ed="#P" n="70"/>tionem: nam potuit facile in secundo instanti
+          <lb ed="#P" n="71"/>pro sua libertate alio cogitationem divertere,
+          <lb ed="#P" n="72"/>et Dei considerationem remittere, seu ex parte
+          <lb ed="#P" n="73"/>omittere, saltem illam, quae erat per fidem,
+          <lb ed="#P" n="74"/>quia magis libera erat: et quia fortasse 
+          retra<lb break="no" ed="#P" n="75"/>hebat ab appetitu excellentiae, in quem tunc
+          <lb ed="#P" n="76"/>coepit magis intendere, neque etiam obstat,
+          <lb ed="#P" n="77"/>quod Angeli in secundo instanti perfecte 
+          de<lb break="no" ed="#P" n="78"/>liberaverint: nam dicuntur perfecte 
+          deliberas<lb break="no" ed="#P" n="79"/>se, quoad potestatem omnia considerandi, quae
+          <lb ed="#P" n="80"/>opportuna erant, et omnibus perspectis recte
+          <lb ed="#P" n="81"/>judicandi, non tamen omnes perfecte 
+          delibe<lb break="no" ed="#P" n="82"/>rarunt, quoad actum considerandi, et 
+          judi<lb break="no" ed="#P" n="83"/>candi practice, sed hoc proprium fuit bonorum
+          <lb ed="#P" n="84"/>Angelorum. Mali autem cum practice 
+          errave<lb break="no" ed="#P" n="85"/>rint, et in hoc defecerint, etiam in actuali
+          <lb ed="#P" n="86"/>consideratione deficere potuerunt, et 
+          imper<lb break="no" ed="#P" n="87"/>fecte deliberare, imperfectione utique 
+          volun<lb break="no" ed="#P" n="88"/>taria, quae non excusat, unde non etiam 
+          ob<lb break="no" ed="#P" n="89"/>stat, quod magna facilitate potuissent omnia
+          <lb ed="#P" n="90"/>considerare, quae sibi necessaria, et 
+          convenien<lb break="no" ed="#P" n="91"/>tia erant; quia non obstante hac facilhtate,
+          <lb ed="#P" n="92"/>potuerunt pro sua libertate non uti illa 
+          potes<lb break="no" ed="#P" n="93"/>tate ad considerardum ea, quae expediebant,
+          <lb ed="#P" n="94"/>sed alia, quorum affectu ducebantur. 
+          Possu<lb break="no" ed="#P" n="95"/>musque ulterius distinguere facilitatem illam,
+          <lb ed="#P" n="96"/>et potestatem: nam est vera in sensu diviso,
+          <lb ed="#P" n="97"/>non tamen in composito (ut sic rem declarem):
+          <lb ed="#P" n="98"/>nam cum Angelus prius natura, quam libere
+          <lb ed="#P" n="99"/>se applicet ad aliquid considerandum, facile
+          <lb ed="#P" n="100"/>potest hoc, vel illud considerare, tamen 
+          post<lb break="no" ed="#P" n="101"/>quam uni objecto libere afficitur, et ad illud
+          <lb ed="#P" n="102"/>totam mentem convertit, non facile potest
+          <lb ed="#P" n="103"/>alia considerare; imo interdum erit 
+          impossi<lb break="no" ed="#P" n="104"/>bile, si supponitur totam attentionem suam
+          <lb ed="#P" n="105"/>cum toto conatu sibi possibile ad alia objecta
+          <lb ed="#P" n="106"/>applicasse, vel licet supersit capacitas aliqua,
+          <lb ed="#P" n="107"/>erit saltem multum difficile applicare mentem
+          <lb ed="#P" n="108"/>ad ea, quae amori jam concepto repugnant,
+          <lb ed="#P" n="109"/>sicut homo vehementi passione affectus 
+          diffi<lb break="no" ed="#P" n="110"/>cile ad cogitandum de aliis objectis applicatur ;
+          <pb ed="#P" n="842"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>maxime, quando illa tali passioni, et appetitu
+          <lb ed="#P" n="2"/>actuali repugnant, ad hunc enim modum
+          <lb ed="#P" n="3"/>comparatur amor angelicus, quando ad 
+          ob<lb break="no" ed="#P" n="4"/>jectum aliquod creatum adhaeret, quia 
+          diffi<lb break="no" ed="#P" n="5"/>cilem reddit actualem considerationem 
+          alia<lb break="no" ed="#P" n="6"/>rum rerum, vel rationum, quae tali amori
+          <lb ed="#P" n="7"/>possent obsistere.
+        </p>
+        <p xml:id="szdada-x21155-d1e867">
+          <lb ed="#P" n="8"/>9. Ad quartum in numero secundo. — Ad
+          <lb ed="#P" n="9"/>quartum dicimus, imprimis non esse 
+          cer<lb break="no" ed="#P" n="10"/>tum, an, et quomodo Angeli peccaverint ;
+          <lb ed="#P" n="11"/>vel ex inductione superioris Angeli 
+          peccan<lb break="no" ed="#P" n="12"/>tis, vel contra persuasionem alicujus Angeli
+          <lb ed="#P" n="13"/>boni, potuit enim ita contingere, ut 
+          unusquis<lb break="no" ed="#P" n="14"/>que per se hoc, vel illo modo elegerit, sive 
+          in<lb break="no" ed="#P" n="15"/>consideraverit perfecte, sive imperfecte, 
+          admis<lb break="no" ed="#P" n="16"/>so tamen pro nunc illo modo inductionis, vel
+          <lb ed="#P" n="17"/>persuasionis, respondemus; etiamsi 
+          suppona<lb break="no" ed="#P" n="18"/>tur persuasio boni Angeli, esse in manu ejus,
+          <lb ed="#P" n="19"/>ad quem alter loquitur, non attendere ad 
+          il<lb break="no" ed="#P" n="20"/>lam, nec actu ea considerare, quae alter 
+          pro<lb break="no" ed="#P" n="21"/>ponit, sed magis converti ad alterius 
+          sermo<lb break="no" ed="#P" n="22"/>nem, qui ad malum inducit: supra enim, libro
+          <lb ed="#P" n="23"/>secundo, tractando de locutione Angelorum,
+          <lb ed="#P" n="24"/>diximus, hoc esse in potestate libera 
+          Angelo<lb break="no" ed="#P" n="25"/>rum audientium, etiamsi superiores sint, qui
+          <lb ed="#P" n="26"/>loquuntur; et praeterea quamvis Angelus 
+          au<lb break="no" ed="#P" n="27"/>diverit praedicationem boni Angeli, potuit non
+          <lb ed="#P" n="28"/>illam considerare, quantum poterat, et 
+          debe<lb break="no" ed="#P" n="29"/>bat: velsi ea sola non movebatur, poterat sic
+          <lb ed="#P" n="30"/>excitatus applicare intellectum ad 
+          consideran<lb break="no" ed="#P" n="31"/>dum alia: et ita semper potuit praecedere 
+          ali<lb break="no" ed="#P" n="32"/>qua inconsideratio, non obstante illo modo
+          <lb ed="#P" n="33"/>peccandi. De illo vero puncto, quod ibi 
+          attin<lb break="no" ed="#P" n="34"/>gitur de Lucifero primo Angelo, sua sola 
+          ma<lb break="no" ed="#P" n="35"/>litia sine tentatore, aut instigatore peccante,
+          <lb ed="#P" n="36"/>an in eodem instanti simul animadverterit ad
+          <lb ed="#P" n="37"/>exhortationem boni Angeli Michaelis, res est
+          <lb ed="#P" n="38"/>dubia, de qua fortasse infra nonnihil dicemus:
+          <lb ed="#P" n="39"/>admissa vero parte afflirmante, quam 
+          argu<lb break="no" ed="#P" n="40"/>mentum supponit, dicimus, verba Michaelis
+          <lb ed="#P" n="41"/>defendentis Deicausam respectu Luciferi, fuisse
+          <lb ed="#P" n="42"/>potius ad reprehendendum illum, quam vel ad
+          <lb ed="#P" n="43"/>excitandum illum, ne caderet, cum jam lapsus
+          <lb ed="#P" n="44"/>supponatur, vel ad exhortandum, ut 
+          resurge<lb break="no" ed="#P" n="45"/>ret, cum ille esset quodammodo incapax 
+          poe<lb break="no" ed="#P" n="46"/>nitentiae.
+        </p>
+        <p xml:id="szdada-x21155-d1e954">
+          <lb ed="#P" n="47"/>10. Ad replicam ibid. — Ad quntum, et
+          <lb ed="#P" n="48"/>sextum in mun. 2.—Unde ad replicam dicimus
+          <lb ed="#P" n="49"/>imprimis multo difficilius esse cum integra
+          <lb ed="#P" n="50"/>consideratione actuali peccare, quam 
+          super<lb break="no" ed="#P" n="51"/>veniente consideratione in peccato jam 
+          com<lb break="no" ed="#P" n="52"/>misso pertinaciter persistere; quia ipsamet
+          <lb ed="#P" n="53"/>actualis affectio jam deliberata vim, et 
+          efltica<lb break="no" ed="#P" n="54"/>ciam supervenientis considerationis impedit:
+          <lb ed="#P" n="55"/>tunc enim locum habet, quod Aristoteles alias
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dixit, eum qui vehementi agitur passione non
+          <lb ed="#P" n="57"/>considerare, nisi ut ebrium, qui voces magis,
+          <lb ed="#P" n="58"/>quam res percipere videtur. Deinde addimus,
+          <lb ed="#P" n="59"/>etiamsi per exclamationem Michaelis aliqua
+          <lb ed="#P" n="60"/>consideratio in Angelo excitata fuerit: non
+          <lb ed="#P" n="61"/>tamen omnem illam, quae a peccato posset
+          <lb ed="#P" n="62"/>voluntatem cohibere: et ideo licet post talem
+          <lb ed="#P" n="63"/>considerationem peccatum duraverit, semper
+          <lb ed="#P" n="64"/>cum multiphci inconsideratione esse potuisse :
+          <lb ed="#P" n="65"/>et ob hanc causam etiam inferiores Angeli 
+          po<lb break="no" ed="#P" n="66"/>tuerunt ex inconsideratione peccare, etiamsi
+          <lb ed="#P" n="67"/>verba suadentis Michaelis, vel aliorum 
+          bono<lb break="no" ed="#P" n="68"/>rum Angelorum audissent: quae omnia 
+          expli<lb break="no" ed="#P" n="69"/>cando magis in particulari peccatum 
+          Angeio<lb break="no" ed="#P" n="70"/>rum clariora fient: et ita pro nunc solutum
+          <lb ed="#P" n="71"/>relinquitur quintum argumentum. In illa
+          <lb ed="#P" n="72"/>enim sententia, quae in argumento supponitur
+          <lb ed="#P" n="73"/>clarum est, non peccasse Angelos ex 
+          inconsi<lb break="no" ed="#P" n="74"/>deratione divini praecepti, vel mysterii Christi
+          <lb ed="#P" n="75"/>Domini, nihilominus tamen in obedientia illius
+          <lb ed="#P" n="76"/>praecepti, et adversus Christi sibi propositum
+          <lb ed="#P" n="77"/>superba animi elatio potuit ex alia multiplici
+          <lb ed="#P" n="78"/>inconsideratione provenire, ut per se satis 
+          no<lb break="no" ed="#P" n="79"/>tum videtur, et infra suo loco explicabitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

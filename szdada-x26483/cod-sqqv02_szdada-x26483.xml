@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 15</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 15</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1049"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x26483"><!-- l8c15 -->
+        <head xml:id="szdada-x26483-Hd1e101">Caput 15</head>
+        <head xml:id="szdada-x26483-Hd1e103" type="question-title">Utrum tanta sit daemonum afflictio, ut nullam omnino voluptatem aut delectationem capere possint</head>
+        <p xml:id="szdada-x26483-d1e106">
+          <lb ed="#P" n="31"/>CAPUT XV.
+          <lb ed="#P" n="32"/>UTRUM TANTA SIT DAEMONUM AFFLICTIO, UT NULLAM
+          <lb ed="#P" n="33"/>OMNINO VOLUPTATEM AUT DELECTATIONEM 
+          CA<lb break="no" ed="#P" n="34"/>PERE POSSINT.
+        </p>
+        <p xml:id="szdada-x26483-d1e117">
+          <lb ed="#P" n="35"/>1. Sicut in beatis duplex distinguitur 
+          gau<lb break="no" ed="#P" n="36"/>dium, essentiale et accidentale, ita potest in
+          <lb ed="#P" n="37"/>damnatis duplex distingui tristitia, quaedam
+          <lb ed="#P" n="38"/>essentialis, sive damni ex amissione 
+          beatitu<lb break="no" ed="#P" n="39"/>dinis, sive sensus ex actione ignis: alia 
+          acci<lb break="no" ed="#P" n="40"/>dentalis, quae ex variis incidentibus 
+          occasio<lb break="no" ed="#P" n="41"/>nibus nascitur. Prior invariabilis est, tum
+          <lb ed="#P" n="42"/>quia habet causam invariabilem: tum quia
+          <lb ed="#P" n="43"/>est aeterna; et ideo nec cessare, nec minui 
+          po<lb break="no" ed="#P" n="44"/>test, ut supra ostensum est; nec etiam 
+          auge<lb break="no" ed="#P" n="45"/>tur, quia propria etiam merita non crescunt,
+          <lb ed="#P" n="46"/>ut supra etiam tactum est. Unde fit ut non
+          <lb ed="#P" n="47"/>possit esse in damnatis aliquod gaudium, quod
+          <lb ed="#P" n="48"/>hanc tristitiam minuat. Tristitia vero 
+          acciden<lb break="no" ed="#P" n="49"/>talis variari potest, et minui ac crescere juxta
+          <lb ed="#P" n="50"/>varias occasiones, ut in superioribus tactum.
+          <lb ed="#P" n="51"/>Hinc ergo nascitur propositum dubium, 
+          scili<lb break="no" ed="#P" n="52"/>cet, an ex hac varietate tristitiae accidentalis,
+          <lb ed="#P" n="53"/>quando illa ex una parte minuitur in daemone,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>illi succedere aliqua delectatio possit, etiamsi
+          <lb ed="#P" n="55"/>turpis, et de malo objecto sit.
+        </p>
+        <p xml:id="szdada-x26483-d1e167">
+          <lb ed="#P" n="56"/>2. Opinio prima, nullam omnino voluntatem
+          <lb ed="#P" n="57"/>capere posse daemones etiam turpem. —In quo
+          <lb ed="#P" n="58"/>puncto duae sunt theologorum opiniones.
+          <lb ed="#P" n="59"/>Prima negat esse in damnatis delectationem,
+          <lb ed="#P" n="60"/>vel minimam, vel pro minimo tempore, vel
+          <lb ed="#P" n="61"/>de objecto indifferente, vel de pravo prius 
+          de<lb break="no" ed="#P" n="62"/>siderato a daemone sub aliqua ratione ntilis,
+          <lb ed="#P" n="63"/>vel delectabilis boni, et postea consecuto. Ita
+          <lb ed="#P" n="64"/>docuit Ocham, in quaest. 19, ad 7, quem 
+          se<lb break="no" ed="#P" n="65"/>quitur Gabriel 2, dist, 7. quaest. 1, art. 3,
+          <lb ed="#P" n="66"/>dub. 1, et consentiunt multi ex recentioribus
+          <lb ed="#P" n="67"/>expositoribus D. Thomae, 1 part., quaest. 64,
+          <lb ed="#P" n="68"/>art. 3, Dannez, Ripa, Cumel, Molina, Vasquez,
+          <lb ed="#P" n="69"/>et Pesantius, quamvis diverticula quaerant, ne
+          <lb ed="#P" n="70"/>D. Thomae contradicere videantur. Ratio prima
+          <lb ed="#P" n="71"/>pro hac opinione esse potest, quia sicut statui
+          <lb ed="#P" n="72"/>perfecte beatitudinis repugnat omnis tristitia,
+          <lb ed="#P" n="73"/>ita statul summae miserae repugnat omnis 
+          de<lb break="no" ed="#P" n="74"/>lectatio: nam oppositorum eadem est ratio
+          <lb ed="#P" n="75"/>servata proportione. Hanc rationem attulit
+          <lb ed="#P" n="76"/>Gabriel. Quia vero causam hujus repugnantiae
+          <lb ed="#P" n="77"/>omnis delectationis cum misero damnationis
+          <lb ed="#P" n="78"/>statu reddere oportet; ideo addit secundam
+          <lb ed="#P" n="79"/>rationem, quod Deus tanquam justus judex
+          <lb ed="#P" n="80"/>statuit non concurrere ad actum delectationis
+          <lb ed="#P" n="81"/>cum voluntate daemonis, vel aliis causis 
+          proxi<lb break="no" ed="#P" n="82"/>mis talis actus, seu passionis. Unde fatetur
+          <lb ed="#P" n="83"/>esse posse in daemonibus omnes causas 
+          proxi<lb break="no" ed="#P" n="84"/>mos suflticientes ad delectationem aliquam 
+          in<lb break="no" ed="#P" n="85"/>ducendam, non tamen illam inducere ex 
+          de<lb break="no" ed="#P" n="86"/>fectu divini concursus. Quam rationem attulit
+          <lb ed="#P" n="87"/>etiam Ocham, sed alii eam non probant, quia
+          <lb ed="#P" n="88"/>illa esset perpetua violentia. Sed haec 
+          impu<lb break="no" ed="#P" n="89"/>gnatio parum probat, quia in statu summe
+          <lb ed="#P" n="90"/>poenali, nullum inconveniens est, perpetuam
+          <lb ed="#P" n="91"/>violentiam, vel etiam coactionem admittere.
+          <lb ed="#P" n="92"/>Quia vero illa causa valde extrinseca est, et
+          <lb ed="#P" n="93"/>pendens ex libera voluntate Dei, quae in hac
+          <lb ed="#P" n="94"/>parte nobis non est revelata, nec illud 
+          provi<lb break="no" ed="#P" n="95"/>dentiae genus est necessarium ad salvanda 
+          om<lb break="no" ed="#P" n="96"/>nia, quae de poenis damnatorum in Scriptura,
+          <lb ed="#P" n="97"/>et a Patribus traduntur; ideo fundamentum
+          <lb ed="#P" n="98"/>illud inefficax est: nam qua facilitate asseritur,
+          <lb ed="#P" n="99"/>negari potest.
+        </p>
+        <p xml:id="szdada-x26483-d1e266">
+          <lb ed="#P" n="100"/>3. Tertia ergo ratio additur ab Ocham,
+          <lb ed="#P" n="101"/>quam alii sequuntur, quia voluntas 
+          dam<lb break="no" ed="#P" n="102"/>nati est ita intrinsece affecta, ut sit 
+          inca<lb break="no" ed="#P" n="103"/>pax ex natura rei, cujuscumque, vel 
+          mini<lb break="no" ed="#P" n="104"/>mae delectationis. Probatur, quia voluntas
+          <lb ed="#P" n="105"/>daemonis, semper ac necessario habet 
+          vehe<lb break="no" ed="#P" n="106"/>mentem tristitiam: vehemens autem tristitia
+          <lb ed="#P" n="107"/>formaliter expellit, seu impedit omnem 
+          de<lb break="no" ed="#P" n="108"/>lectationem, etiam de diverso objecto, velsub
+          <pb ed="#P" n="1050"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>diverso motivo; ergo in sensu composito 
+          nul<lb break="no" ed="#P" n="2"/>lam delectationem potest habere daemon cum
+          <lb ed="#P" n="3"/>tam vehementi dolore; illa autem suppositio
+          <lb ed="#P" n="4"/>est simpliciter necessaria, ita ut non sit in 
+          po<lb break="no" ed="#P" n="5"/>testate daemonis illam dimittere, vel remittere;
+          <lb ed="#P" n="6"/>ergo simpliciter est impotens, ad eliciendum
+          <lb ed="#P" n="7"/>omne gaudium, seu incapax cujuscumque 
+          de<lb break="no" ed="#P" n="8"/>lectationis. Minor, in qua est vis rationis, 
+          pro<lb break="no" ed="#P" n="9"/>batur primo ex Aristotele 7 Ethicor., cap. 
+          ul<lb break="no" ed="#P" n="10"/>umo, dicente: Voluptas contraria, et quevis
+          <lb ed="#P" n="11"/>etiam, modo sit vehemens, pellit dolorem. 
+          Se<lb break="no" ed="#P" n="12"/>cundo, quia conatus voluntatis finitus est, et
+          <lb ed="#P" n="13"/>ideo si sit vehemens circa tristitiam aliquam,
+          <lb ed="#P" n="14"/>non potest ad gaudendum se applicare circa
+          <lb ed="#P" n="15"/>ullum objectum. Tertio, quia qui in profunda
+          <lb ed="#P" n="16"/>tristitia jacet, apprehendit nihil, ut sibi 
+          delec<lb break="no" ed="#P" n="17"/>tabile, etiamsi juxta suum desiderium eveniat,
+          <lb ed="#P" n="18"/>et compleatur.
+        </p>
+        <p xml:id="szdada-x26483-d1e331">
+          <lb ed="#P" n="19"/>4. Opinio secunda admittens in damnatis 
+          mi<lb break="no" ed="#P" n="20"/>nimam aliquam delectationem accidentalem. —
+          <lb ed="#P" n="21"/>D. Thomas opinionem hanc habet in 4 parte.—
+          <lb ed="#P" n="22"/>Secunda sententia affirmat posse esse in 
+          dam<lb break="no" ed="#P" n="23"/>natis spiritibus aliquod genus laetitiae, seu 
+          de<lb break="no" ed="#P" n="24"/>lectationis minimae et quasi accidentalis. Haec
+          <lb ed="#P" n="25"/>videtur fuisse sententia Augustini, libro 2, de
+          <lb ed="#P" n="26"/>Genes., contra Manich., cap. 17, dicentis, ad
+          <lb ed="#P" n="27"/>poenam daemonum pertinere, quod eis in 
+          pec<lb break="no" ed="#P" n="28"/>catores potestas data est. Et addit, et inde 
+          ma<lb break="no" ed="#P" n="29"/>Jor pona est, quod de hac tam infelici potestate
+          <lb ed="#P" n="30"/>leta'ur, qui soleat, antequam caderet, de 
+          su<lb break="no" ed="#P" n="31"/>blmi veritate gaudere. Ex qua contrapositione
+          <lb ed="#P" n="32"/>intellieimus loqui Augustinum de proprio ac
+          <lb ed="#P" n="33"/>formali actu leetitiae seu gaudii. Et ita 
+          intel<lb break="no" ed="#P" n="34"/>lexit Augustinum D. Thomas, dicta quaest. 64,
+          <lb ed="#P" n="35"/>art. 3, argum. 1, et in solutione ejus 
+          senten<lb break="no" ed="#P" n="36"/>tiam probat et sequitur, dicens non omnem
+          <lb ed="#P" n="37"/>voluptatem omni tris'itiae opponi, et ita posse
+          <lb ed="#P" n="38"/>daemonem, licet de pluribus objectis magnam
+          <lb ed="#P" n="39"/>tristitiam semper habeat, de aliquo distincto,
+          <lb ed="#P" n="40"/>et sub ratione aliis non repugnante, interdum
+          <lb ed="#P" n="41"/>gaudere.
+        </p>
+        <p xml:id="szdada-x26483-d1e383">
+          <lb ed="#P" n="42"/>5. Idemque habet in 4, dist. 45, quaest. 2,
+          <lb ed="#P" n="43"/>quaestiunc. 1, ad 4, addit vero ibi: Hoc 
+          gau<lb break="no" ed="#P" n="44"/>dium non verum, sed phantasticum est, dum
+          <lb ed="#P" n="45"/>impletur id, quod desiderant. Et tale dicit esse
+          <lb ed="#P" n="46"/>gaudium, quod daemones habere dicuntur, cum
+          <lb ed="#P" n="47"/>homines ad peccata pertrahunt. Quamvis per
+          <lb ed="#P" n="48"/>hoc, inquit, eorum pena nullatenus minuatur,
+          <lb ed="#P" n="49"/>sicut nec minuitur gaudium Angelorum per hoc,
+          <lb ed="#P" n="50"/>d od malis nostris compati dicuntur. Ex 
+          qui<lb break="no" ed="#P" n="51"/>bus loquendi modis multi D. Thomam 
+          inter<lb break="no" ed="#P" n="52"/>pretantur, ut etiam in 1 parte, non de vero ac
+          <lb ed="#P" n="53"/>formali gaudio loquatur, sed de virtuali. Vocant
+          <lb ed="#P" n="54"/>autem virtuale gaudium ipsum desiderii 
+          com<lb break="no" ed="#P" n="55"/>plementum, seu consecutio nem rei concupitae:
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illa enim consecutio natura sua sufficiens est
+          <lb ed="#P" n="57"/>ad inducendum gaudium; et ideo dicitur 
+          vir<lb break="no" ed="#P" n="58"/>tualis delectatio, licet propter incapacitatem
+          <lb ed="#P" n="59"/>subjecti non inducat formalem. ita Bannez,
+          <lb ed="#P" n="60"/>Cumel et Ripa. Ponderantque exemplum, quod
+          <lb ed="#P" n="61"/>D. Thomas de compassione beatorum adaucit:
+          <lb ed="#P" n="62"/>nam in beatis illa compassio non est formalis,
+          <lb ed="#P" n="63"/>sed virtualis; ergo non amplius voluit D. 
+          Tho<lb break="no" ed="#P" n="64"/>mas de gaudio damnatorum. Sed haec 
+          exposi<lb break="no" ed="#P" n="65"/>tio D. Thomae ad posteriorem locum ex quinto
+          <lb ed="#P" n="66"/>sumptum accommodari potest, quia ipse 
+          sanc<lb break="no" ed="#P" n="67"/>tus Thomas ibi illud gaudium vocat 
+          phantasti<lb break="no" ed="#P" n="68"/>cin, quae vox multis modis exponi potest, et
+          <lb ed="#P" n="69"/>ille est probabilis. Et Vasquez addit alium,
+          <lb ed="#P" n="70"/>quod scilicet gaudium illud vocetur 
+          phantasti<lb break="no" ed="#P" n="71"/>cum, quia semper proponitur, ut obtinendum,
+          <lb ed="#P" n="72"/>si desiderium impleatur, et in reipsa nunquam
+          <lb ed="#P" n="73"/>obtinetur, sed semper evanescit. Aliterque 
+          ex<lb break="no" ed="#P" n="74"/>plicat Molina, tam D. Thomas, quam D. 
+          Au<lb break="no" ed="#P" n="75"/>gustinus et judicio meo probabilius, ut statim
+          <lb ed="#P" n="76"/>declaraho.
+        </p>
+        <p xml:id="szdada-x26483-d1e464">
+          <lb ed="#P" n="77"/>6. Nulla tamen expositio videtur habere 
+          lo<lb break="no" ed="#P" n="78"/>cum in altero testimonio primae partis, ex quo
+          <lb ed="#P" n="79"/>D. Thomae sententia sumenda est. Probatur,
+          <lb ed="#P" n="80"/>tum quia expresse declarat sanctus doctor, se
+          <lb ed="#P" n="81"/>loqui de dolore et gaudio secundum quod 
+          im<lb break="no" ed="#P" n="82"/>portant simplices voluntatis actus. Tum etiam,
+          <lb ed="#P" n="83"/>quia de illis dicit, de eodem esse oppositos, non
+          <lb ed="#P" n="84"/>de diversis. Unde concludit, nihil prohibere
+          <lb ed="#P" n="85"/>unum (scilicet daemonem), simul gaudere de
+          <lb ed="#P" n="86"/>uno, et dolere de alio; quae distinctio parum
+          <lb ed="#P" n="87"/>necessaria fuisset. Tum denique, quia in 
+          ar<lb break="no" ed="#P" n="88"/>gumento D. Thomas de gaudio formah et vero
+          <lb ed="#P" n="89"/>locutus fuerat, et citat Augustinum, quem in
+          <lb ed="#P" n="90"/>illo sensu locutum fuisse, ostendimus. Addo
+          <lb ed="#P" n="91"/>etiam necessarium non esse alterum locum in
+          <lb ed="#P" n="92"/>sensu contrario exponere. Potuit enim illud
+          <lb ed="#P" n="93"/>gaudium D. Thomas vocare phantasticum, non
+          <lb ed="#P" n="94"/>quia physice (ut sic dicam) non sit proprius
+          <lb ed="#P" n="95"/>actus delectationis, nec quia in daemones 
+          ca<lb break="no" ed="#P" n="96"/>dere possit haec deceptio, ut delectari se 
+          pu<lb break="no" ed="#P" n="97"/>tent, sirevera non delectantur: quia nec Deus
+          <lb ed="#P" n="98"/>auctor esse potest talis deceptionis, nec ipsi
+          <lb ed="#P" n="99"/>daemones ita sunt privati lumine, ut in re tam
+          <lb ed="#P" n="100"/>facili, et quam experiuntur, decipi possint. Sed
+          <lb ed="#P" n="101"/>forte vocavit gaudium illud phantasticum, quia
+          <lb ed="#P" n="102"/>est de falso bono et turpi: vel quia citissime
+          <lb ed="#P" n="103"/>transit, et supervenientibus malis statim 
+          obrui<lb break="no" ed="#P" n="104"/>tur, vel quia per se evanescit, et de re inutili
+          <lb ed="#P" n="105"/>et infructuosa esse cognoscitur. Sicut quando
+          <lb ed="#P" n="106"/>homo ira et cholera praecipitatus vindictam
+          <lb ed="#P" n="107"/>sumit de inimico, et ex eo gaudet, potest illud
+          <lb ed="#P" n="108"/>gaudium phantasticum appellari, quia et est
+          <lb ed="#P" n="109"/>de falso bono, et cito transit, maioremque
+          <lb ed="#P" n="110"/>tristitiam paulo post inducit. Nec exemplum
+          <pb ed="#P" n="1051"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illud D. Thomae de compassione beatorum 
+          con<lb break="no" ed="#P" n="2"/>trarium suadet: nam comparatio in beatis, 
+          li<lb break="no" ed="#P" n="3"/>cet aliquo modo metaphorico illis tribuatur,
+          <lb ed="#P" n="4"/>non potest dici phantastica, nec virtualis 
+          tan<lb break="no" ed="#P" n="5"/>tum, nam significat formalem actum 
+          displi<lb break="no" ed="#P" n="6"/>centiae de malo proximi, sine proprio dolore vel
+          <lb ed="#P" n="7"/>tristitia; ergo e contrario delectatio in daemone
+          <lb ed="#P" n="8"/>est verus actus complacentiae. Quod tandem
+          <lb ed="#P" n="9"/>Molina fatetur; distinguit tamen illum a 
+          delec<lb break="no" ed="#P" n="10"/>tatione seu gaudio, quod non caret 
+          probabili<lb break="no" ed="#P" n="11"/>tate, ut infra dicam. Hanc etiam sententiam
+          <lb ed="#P" n="12"/>docuit Alensis, 2 part., quaest. 100, memb. 4,
+          <lb ed="#P" n="13"/>alias 5, art. 1 et 2, addit tamen: Gaudium,
+          <lb ed="#P" n="14"/>quod deemones habent, non esse verum, id est,
+          <lb ed="#P" n="15"/>non esse purum, ut patet ex ratione, quam
+          <lb ed="#P" n="16"/>addit: Quia est omni amaritudine respersum.
+          <lb ed="#P" n="17"/>Clarius et latius docuit hanc sententiam 
+          Gre<lb break="no" ed="#P" n="18"/>gorius, in 1, distinct. 1, quaest. 2, art. 2, ad 3,
+          <lb ed="#P" n="19"/>et 5, contra 2 conclus.
+        </p>
+        <p xml:id="szdada-x26483-d1e586">
+          <lb ed="#P" n="20"/>7. Probatur primo ea locis Scripture. —Ex
+          <lb ed="#P" n="21"/>quo potest suaderi primo ex illo Psalm. 12:
+          <lb ed="#P" n="22"/>Illumina oculos meos, ne videam vanitatem; ne
+          <lb ed="#P" n="23"/>quando dicat inimicus meus, prevalui adversus
+          <lb ed="#P" n="24"/>eum. Ubi, inimicus, per antonomasiam, 
+          Dia<lb break="no" ed="#P" n="25"/>bolum significat, ut Augustinus exponit, et 
+          con<lb break="no" ed="#P" n="26"/>sequenter de Diabolo et Angelis ejus, exponit,
+          <lb ed="#P" n="27"/>quod subdit: Qui tribulant me, exultabunt, si
+          <lb ed="#P" n="28"/>motus fuero. Unde colligitur, non solum 
+          gau<lb break="no" ed="#P" n="29"/>dere, sed etiam exultare daemones, cum 
+          homi<lb break="no" ed="#P" n="30"/>nes vincunt, et eodem modo locum illum 
+          in<lb break="no" ed="#P" n="31"/>tellexit Hugo Cardinalis. Simile est illud Psal.
+          <lb ed="#P" n="32"/>20: Nec delectasti inimicos meos super me. Et
+          <lb ed="#P" n="33"/>Psalm. 37: Nequando supergaudeant mihi 
+          ini<lb break="no" ed="#P" n="34"/>mici mei; et Psalm. 40: In hoc cognovi 
+          quo<lb break="no" ed="#P" n="35"/>nium voluisti me, quoniam non gaudebit 
+          inimi<lb break="no" ed="#P" n="36"/>cus meus super me. Et Eccles. 18: Si preestes
+          <lb ed="#P" n="37"/>anime tue concupiscentiam ejus, faciet te in
+          <lb ed="#P" n="38"/>gaudium inimicis tuis. Haec, et similia loca
+          <lb ed="#P" n="39"/>communiter exponuntur, non tantum de 
+          ini<lb break="no" ed="#P" n="40"/>micis hominibus, sed etiam de malis Angelis
+          <lb ed="#P" n="41"/>qui de nostris lapsibus gaudent: sicut sancti
+          <lb ed="#P" n="42"/>Angeli, de nostra poenitentia laetantur. 
+          Confir<lb break="no" ed="#P" n="43"/>mari potest ex revelationibus relatis a Beda,
+          <lb ed="#P" n="44"/>lib. 5, histor. Anglican., cap. 13, in quibus
+          <lb ed="#P" n="45"/>ostensi sunt daemones, animas in infernum
+          <lb ed="#P" n="46"/>ducentibus, flentibus animabus, et 
+          demoni<lb break="no" ed="#P" n="47"/>bus cachinnis crepitantibus, et multum 
+          exultan<lb break="no" ed="#P" n="48"/>tilus.
+        </p>
+        <p xml:id="szdada-x26483-d1e651">
+          <lb ed="#P" n="49"/>8. Probatur secundo ratione. —Secundo 
+          ar<lb break="no" ed="#P" n="50"/>gumentor ratione; in daemonibus inveniri 
+          po<lb break="no" ed="#P" n="51"/>test objectum alicujus gaudii, ejusque 
+          appre<lb break="no" ed="#P" n="52"/>hensio sufficiens, et alioqui daemones nec 
+          ra<lb break="no" ed="#P" n="53"/>tione maximae tristitiae sunt incapaces omnis
+          <lb ed="#P" n="54"/>gaudii accidentalis; ergo interdum poterunt
+          <lb ed="#P" n="55"/>habere illud. Consequentia clara est. Majorem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>autem concedunt communiter auctores prioris
+          <lb ed="#P" n="57"/>sententiae. Probaturque, quia complementum
+          <lb ed="#P" n="58"/>desiderii, seu consecutio rei concupitae de se
+          <lb ed="#P" n="59"/>est sufficiens objectum ganudii: sed daemones
+          <lb ed="#P" n="60"/>saepe consequuntur, quod desiderant, et illud
+          <lb ed="#P" n="61"/>agnoscunt: ergo habent interdum suffhiciens
+          <lb ed="#P" n="62"/>objectum alicujus gaudii. Major patet, quia
+          <lb ed="#P" n="63"/>desiderium non est nisi de aliquo bono, vel
+          <lb ed="#P" n="64"/>sub ratione boni: omne autem bonum, quod
+          <lb ed="#P" n="65"/>absens causat desiderium sui, praesens, seu
+          <lb ed="#P" n="66"/>conjunctum natum est delectationem afferre,
+          <lb ed="#P" n="67"/>delectatio enim non est, nisi quies animi in
+          <lb ed="#P" n="68"/>bono concupito, tunc autem quiescit cum illud
+          <lb ed="#P" n="69"/>bonum obtinuit. Quod autem daemones saepe
+          <lb ed="#P" n="70"/>obtineant, quod desiderant, manifestum est.
+          <lb ed="#P" n="71"/>Et in duplici genere rerum explicari potest.
+          <lb ed="#P" n="72"/>Primo in desiderio nocendi hominibus, eosque
+          <lb ed="#P" n="73"/>in peccatum inducendi: nam hoc saepe 
+          obti<lb break="no" ed="#P" n="74"/>nent, et quasi de victoria exultant, et 
+          delec<lb break="no" ed="#P" n="75"/>tantur, ut in citatis testimoniis Scripturae 
+          indi<lb break="no" ed="#P" n="76"/>catur. Secundo in desiderio vitandi, quoad
+          <lb ed="#P" n="77"/>possunt, aliquam inferni poenam, vel saltem
+          <lb ed="#P" n="78"/>diminutionem ejus obstinere: quia diminutio
+          <lb ed="#P" n="79"/>mali, bonum aliquod reputatur, ut dixit D.
+          <lb ed="#P" n="80"/>Thomas de eisdem daemonibus agens, 
+          quod<lb break="no" ed="#P" n="81"/>lib. 8, art. 17. Aliquando vero bonum hoc
+          <lb ed="#P" n="82"/>daemon consequitur; ut illi, qui a Christo
+          <lb ed="#P" n="83"/>petebant, ne ante tempus ipsos perderet, vel
+          <lb ed="#P" n="84"/>torqueret, eos in gehennam mittendo: nam
+          <lb ed="#P" n="85"/>sicut affligebantur illo timore, et plus tristati
+          <lb ed="#P" n="86"/>essent, si statim fuissent in infernum detrusi,
+          <lb ed="#P" n="87"/>ita fuit eis alicujus gaudii causa suffticiens,
+          <lb ed="#P" n="88"/>cum in hoc aere relicti, porcos intrare 
+          per<lb break="no" ed="#P" n="89"/>missi sunt.
+        </p>
+        <p xml:id="szdada-x26483-d1e746">
+          <lb ed="#P" n="90"/>9. Daemones incapaces non sunt omnis gaudii,
+          <lb ed="#P" n="91"/>ratione status. —Jam ergo probatur prior pars
+          <lb ed="#P" n="92"/>minoris, nimirum non omne gaudium illi 
+          sta<lb break="no" ed="#P" n="93"/>tui repugnare, quia de speciali ordinatione 
+          di<lb break="no" ed="#P" n="94"/>vina non constat, ut supra dictum est, nec
+          <lb ed="#P" n="95"/>etiam est ulla ratio sufficiens, quae id 
+          osten<lb break="no" ed="#P" n="96"/>dat. Nam de ratione illius status solum est, ut
+          <lb ed="#P" n="97"/>damnati pro peccatis suis condignam poenam
+          <lb ed="#P" n="98"/>patiantur: potest autem poena esse condigna,
+          <lb ed="#P" n="99"/>etiamsi aliquale gaudium cum illa interdum
+          <lb ed="#P" n="100"/>misceatur; ergo ex vi status non repugnat esse
+          <lb ed="#P" n="101"/>in damnatis minimum aliquod, et accidentale
+          <lb ed="#P" n="102"/>gaudium. hHespondent condignam poenam
+          <lb ed="#P" n="103"/>damnatorum esse statum summae miseriae, non
+          <lb ed="#P" n="104"/>esse autem summam miseriam, si alicujus, vel
+          <lb ed="#P" n="105"/>minimi gaudii vita est capax. Sed hoc parum
+          <lb ed="#P" n="106"/>obstat; tum, quia secundum Augustinum,
+          <lb ed="#P" n="107"/>lib. 13, de Trinitat., cap. 5, ipsa delectatio, si
+          <lb ed="#P" n="108"/>sit de malo objecto, miseriam adauget; nam,
+          <lb ed="#P" n="109"/>ut Cicero ab Augustino commendatus probe
+          <lb ed="#P" n="110"/>dixit: Velle quod non deceat miserrimum est;
+          <pb ed="#P" n="1052"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ergo etiam in eo delectari miseriam auget, quia
+          <lb ed="#P" n="2"/>qui in aliquo delectatur, illud vult, imo ipsa
+          <lb ed="#P" n="3"/>delectatio est quoddam velle; tum etiam, quia
+          <lb ed="#P" n="4"/>non est de ratione condignae poenae 
+          uniuscu<lb break="no" ed="#P" n="5"/>jusque damnati, miseria ita summa, ut vel 
+          in<lb break="no" ed="#P" n="6"/>cludat omnem tristitiam, vel omne naturae 
+          bo<lb break="no" ed="#P" n="7"/>num excludat: nam potest damnati dolor
+          <lb ed="#P" n="8"/>accidentalis interdum leniri, vel minui per
+          <lb ed="#P" n="9"/>cessationem alicujus actus tristitiae 
+          accidenta<lb break="no" ed="#P" n="10"/>lis; et ex parte cogitationis est capax alicujus
+          <lb ed="#P" n="11"/>boni naturalis, aut alicujus verae cognitionis;
+          <lb ed="#P" n="12"/>ergo idem erit in voluntate. Et nihilominus
+          <lb ed="#P" n="13"/>semper ille status erit summae miseriae, utique
+          <lb ed="#P" n="14"/>quoad speciem extremi mali, et carentiam
+          <lb ed="#P" n="15"/>summi boni, et summae afflictionis per 
+          crucia<lb break="no" ed="#P" n="16"/>tum ignis.
+        </p>
+        <p xml:id="szdada-x26483-d1e833">
+          <lb ed="#P" n="17"/>10. Non obstat etiam quod alii arguunt a
+          <lb ed="#P" n="18"/>partate rationis. —Unde non valet etiam 
+          ar<lb break="no" ed="#P" n="19"/>gumentum, quod a contrario fieri potest, quia
+          <lb ed="#P" n="20"/>status beatitudinis omnem prorsus dolorem
+          <lb ed="#P" n="21"/>excludit; ergo etiam status ultimae miseriae
+          <lb ed="#P" n="22"/>omnem delectationem excludit. Negatur enim
+          <lb ed="#P" n="23"/>conscquentia, et instatur in simili: nam in
+          <lb ed="#P" n="24"/>statum beatitudinis nulla deceptio cadere 
+          po<lb break="no" ed="#P" n="25"/>test, et tamen status summae miseriae esse 
+          po<lb break="no" ed="#P" n="26"/>test cum veritatis naturalis cogitatione, imo
+          <lb ed="#P" n="27"/>in rigore esse posset, sine deceptione 
+          specula<lb break="no" ed="#P" n="28"/>tiva: quia naturalia manent integra post 
+          pec<lb break="no" ed="#P" n="29"/>catum etiam in statu summae miseriae, ut 
+          su<lb break="no" ed="#P" n="30"/>pra dictum est; ergo non est tanta ratio 
+          exclu<lb break="no" ed="#P" n="31"/>dendi ab statu summae miserize omne bonum
+          <lb ed="#P" n="32"/>naturale etiam minimun, quale esse potest
+          <lb ed="#P" n="33"/>aliquod gaudium, quanta est excludendi omne
+          <lb ed="#P" n="34"/>malum ab statu beatitudinis. Et ratio est, quia
+          <lb ed="#P" n="35"/>bonum ex integra causa; et ideo si sit 
+          sum<lb break="no" ed="#P" n="36"/>mum bonum excludit omne malum. Unde
+          <lb ed="#P" n="37"/>ille dicitur esse beatus, qui habet omnia, quae
+          <lb ed="#P" n="38"/>vult, et nihil male vult, et beatitudo dicitur
+          <lb ed="#P" n="39"/>esse status omnium bonorum aggregatione
+          <lb ed="#P" n="40"/>perfectus. Damnatio vero non necessario 
+          in<lb break="no" ed="#P" n="41"/>cludit omnium malorum aggregationem, 
+          ne<lb break="no" ed="#P" n="42"/>que omnia bona excludit; ergo ex vi status
+          <lb ed="#P" n="43"/>non exclndit omne gaudium, quod miseriam,
+          <lb ed="#P" n="44"/>vel dolorem peccatis debitum non minuat.
+        </p>
+        <p xml:id="szdada-x26483-d1e896">
+          <lb ed="#P" n="45"/>11. Nec item incapaces sunt omnis gaudii
+          <lb ed="#P" n="46"/>ob nimiam tristitiam.—Tandem probatur 
+          al<lb break="no" ed="#P" n="47"/>tera pars minoris supra subsumptae, nimirum,
+          <lb ed="#P" n="48"/>ex vehementi tristitia gehennae, non sequi ex
+          <lb ed="#P" n="49"/>natura rei omnis gaudii incapacitatem. Et 
+          im<lb break="no" ed="#P" n="50"/>primis ad Aristotelem respondet Gregorius
+          <lb ed="#P" n="51"/>illum non dicere vehementem tristitiam 
+          ex<lb break="no" ed="#P" n="52"/>pellere, vel non admittere ullam 
+          delectatio<lb break="no" ed="#P" n="53"/>nem, sed e contrario, quod delectatio expellat
+          <lb ed="#P" n="54"/>tristitiam, si sit fortis, ut ex verbis allesatis
+          <lb ed="#P" n="55"/>manifestum est: non esse autem necessarium,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ut illa duo convertantur, quia unum contra- 1
+          <lb ed="#P" n="57"/>rium potest esse fortius ad expellendum aliud,
+          <lb ed="#P" n="58"/>quam sit e converso; ut intensus calor fortius
+          <lb ed="#P" n="59"/>excludit frigus, vel illud secum non admittit,
+          <lb ed="#P" n="60"/>quam e contrario. Unde in eodem capite paulo
+          <lb ed="#P" n="61"/>superius ait Aristoteles, corporis voluptates
+          <lb ed="#P" n="62"/>appetibiliores esse, quia pellunt dolorem, atque
+          <lb ed="#P" n="63"/>ob exuperationes doloris (ait) voluntatem 
+          exu<lb break="no" ed="#P" n="64"/>perantem uti medelam persequuntur. Sed 
+          diffi<lb break="no" ed="#P" n="65"/>cile videtur, in hac parte discrimen inter 
+          tris<lb break="no" ed="#P" n="66"/>titiam et voluptatem constituere, ejusque 
+          ra<lb break="no" ed="#P" n="67"/>tionem reddere, cur, scilicet, vehemens 
+          tristi<lb break="no" ed="#P" n="68"/>tia non excludat omnem voluptatem. Quia si
+          <lb ed="#P" n="69"/>ex parte objectorum illi duo affectus 
+          conside<lb break="no" ed="#P" n="70"/>rentur: sicut vehemens gaudium non sinit 
+          ap<lb break="no" ed="#P" n="71"/>prehendere aliquid, ut contristans, quod nec
+          <lb ed="#P" n="72"/>gaudium illud, neque bonum, ex quo nascitur,
+          <lb ed="#P" n="73"/>minuit, ita etiam e contrario vehemens 
+          tris<lb break="no" ed="#P" n="74"/>titia non sinit apprehendere, ut delectabile
+          <lb ed="#P" n="75"/>bonum illud, quod nec talem tristitiam, ac 
+          ma<lb break="no" ed="#P" n="76"/>Ium, unde nascitur, minuere valet. Si vero ille
+          <lb ed="#P" n="77"/>affectus ex parte subjecti consideretur, non
+          <lb ed="#P" n="78"/>minus tristitia, quam voluptas vehemens 
+          ani<lb break="no" ed="#P" n="79"/>mum praeoccupat, et attrahit, vel perturbat, ut
+          <lb ed="#P" n="80"/>non possit in contrarium affectum, etiam circa
+          <lb ed="#P" n="81"/>disparatum objectum prodire.
+        </p>
+        <p xml:id="szdada-x26483-d1e981">
+          <lb ed="#P" n="82"/>12. Et ideo Gregorius respondet aliter 
+          Aris<lb break="no" ed="#P" n="83"/>totelem de corporalibus voluptatibus fuisse 
+          lo<lb break="no" ed="#P" n="84"/>cutum, quae ratione transmutationis, quam in
+          <lb ed="#P" n="85"/>corpore faciunt, impediunt phantasiam, et
+          <lb ed="#P" n="86"/>consequenter intellectum, ne possit de objectis
+          <lb ed="#P" n="87"/>disconvenientibus ita cogitare, ut inde 
+          contris<lb break="no" ed="#P" n="88"/>tetur: idemque faciet in nobis vehemens 
+          tris<lb break="no" ed="#P" n="89"/>titia, respectu cujuscumque delectationis. At
+          <lb ed="#P" n="90"/>vero in puro spiritu non est eadem ratio, quia
+          <lb ed="#P" n="91"/>in sua operatione a corpore, vel phantasia non
+          <lb ed="#P" n="92"/>pendet. Et hoc fortasse indicare voluit D. 
+          Tho<lb break="no" ed="#P" n="93"/>mas, cum enim dixisset, tristitiam circa unum
+          <lb ed="#P" n="94"/>objectum non impedire gaudium circa aliud,
+          <lb ed="#P" n="95"/>addidit: Et marime secundum quod dolor, et
+          <lb ed="#P" n="96"/>gaudium important simplices actus voluntatis.
+          <lb ed="#P" n="97"/>Et a simili declaratur, quia in nobis nimia
+          <lb ed="#P" n="98"/>tristitia omnem considerationem aliarum 
+          re<lb break="no" ed="#P" n="99"/>rum absorbere solet: imo interdum usum 
+          ra<lb break="no" ed="#P" n="100"/>tionis et libertatis potest impedire, quod in
+          <lb ed="#P" n="101"/>daemone non ita est, quia propter nimium 
+          do<lb break="no" ed="#P" n="102"/>lorem, vel tristitiam non impeditur, quominus
+          <lb ed="#P" n="103"/>perspicacissime alia intelligat, recogitet, et
+          <lb ed="#P" n="104"/>libero affectu circa illa versetur, ut pravas suas
+          <lb ed="#P" n="105"/>intentiones impleat.
+        </p>
+        <p xml:id="szdada-x26483-d1e1036">
+          <lb ed="#P" n="106"/>13. Atque ita haec responsio non solum 
+          auc<lb break="no" ed="#P" n="107"/>toritati Aristotelis satisfacit, sed sufficienti 
+          ra<lb break="no" ed="#P" n="108"/>tione ostendere videtur, daemonem propter
+          <lb ed="#P" n="109"/>nimiam tristitiam poenae damni, vel acerbum
+          <lb ed="#P" n="110"/>dolorem poenae ignis, non fieri ex sola rei na-
+          <pb ed="#P" n="1053"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tura incapacem omnis gaudii. Quia vel 
+          inca<lb break="no" ed="#P" n="2"/>pacitas esset passiva, id est, tollens passivam
+          <lb ed="#P" n="3"/>capacitatem, vel esset activa: neutrum autem
+          <lb ed="#P" n="4"/>dici potest cum fundamento; ergo. Probo 
+          mi<lb break="no" ed="#P" n="5"/>norem, quoad priorem partem, quia voluntas
+          <lb ed="#P" n="6"/>daemonis ex natura sua est capax utriusque
+          <lb ed="#P" n="7"/>affectus divisim, et illi inter se non sunt 
+          for<lb break="no" ed="#P" n="8"/>maliter repugnantes, quia non sunt oppositi ;
+          <lb ed="#P" n="9"/>ergo ex parte solius potentiae passivae non est
+          <lb ed="#P" n="10"/>incapacitas recipiendi simul utrumque actum.
+          <lb ed="#P" n="11"/>Probatur consequentia, quia capacitas 
+          intel<lb break="no" ed="#P" n="12"/>lectus et voluntatis est quasi infinita ad 
+          quan<lb break="no" ed="#P" n="13"/>tamcumque multitudinem specierum, 
+          habi<lb break="no" ed="#P" n="14"/>tuum, vel actuum simul habendam, si aliunde
+          <lb ed="#P" n="15"/>inter ipsos actus non sit oppositio, nec ex parte
+          <lb ed="#P" n="16"/>ipsius potentiae propriae efficacitas necessaria
+          <lb ed="#P" n="17"/>desit, ut supra, lib. 2, cap. 23, num. 29, 
+          osten<lb break="no" ed="#P" n="18"/>sum est. Altera vero pars de activa potentia
+          <lb ed="#P" n="19"/>probatur, quia activitas voluntatis daemonis
+          <lb ed="#P" n="20"/>non absorbetur tota in actibus tristitiae, vel
+          <lb ed="#P" n="21"/>doloris ad essentialem poenam (ut sic dicam)
+          <lb ed="#P" n="22"/>pertinentibus: nam plures actus tristitiae et
+          <lb ed="#P" n="23"/>odii, et plures etiam amoris et desiderii elicere
+          <lb ed="#P" n="24"/>potest;: ergo non deerit illi activitas ad 
+          elicien<lb break="no" ed="#P" n="25"/>dum aliquem actum gaudii, praesertim si 
+          prae<lb break="no" ed="#P" n="26"/>ter necessariam considerationem sui status et
+          <lb ed="#P" n="27"/>tristitiam inevitabilem, de alio tantum objecto
+          <lb ed="#P" n="28"/>aliquo modo conveniente libere cogitet; et
+          <lb ed="#P" n="29"/>circa illud tantum ut consecutum per 
+          volun<lb break="no" ed="#P" n="30"/>tatem occupetur. Ideo enim potest daemon de
+          <lb ed="#P" n="31"/>his rebus contingentibus magis, vel minus
+          <lb ed="#P" n="32"/>contristari, quia libere potest ad illa 
+          conside<lb break="no" ed="#P" n="33"/>randa magis vel minus applicari. Ergo eadem
+          <lb ed="#P" n="34"/>ratione non deest illi efficacitas naturalis ad
+          <lb ed="#P" n="35"/>considerandum tale objectum, et eliciendi
+          <lb ed="#P" n="36"/>circa illud actum gaudii, non obstante 
+          vehe<lb break="no" ed="#P" n="37"/>menti applicatione ad tristitiam de alia re.
+        </p>
+        <p xml:id="szdada-x26483-d1e1134">
+          <lb ed="#P" n="38"/>14. Declaratur compossibilitas tristitie, et
+          <lb ed="#P" n="39"/>delectationis.—Et declaratur tandem, quia vel
+          <lb ed="#P" n="40"/>delectatio voluntatis est mera passio recepta in
+          <lb ed="#P" n="41"/>voluntate, et facta ab objecto, sub ratione boni
+          <lb ed="#P" n="42"/>proprii et possessi concepto, ut voluit Scotus,
+          <lb ed="#P" n="43"/>in 1, dist. 1, quaest. 3, et in 4, dist. 49, q. 71,
+          <lb ed="#P" n="44"/>et sic constat defectum activitatis in voluntate
+          <lb ed="#P" n="45"/>non impedire passionem delectationis 
+          quando<lb break="no" ed="#P" n="46"/>quidem capacitas in voluntate non deest, 
+          ne<lb break="no" ed="#P" n="47"/>que impeditur per vehementem tristitiam, ut
+          <lb ed="#P" n="48"/>ostensum est: vel delectatio est actus elicitus
+          <lb ed="#P" n="49"/>a voluntate: ut D. Thomas, 1,2, quaest. ii et
+          <lb ed="#P" n="50"/>22. et ubique, ejusque discipuli probabilius
+          <lb ed="#P" n="51"/>sentiunt; et juxta hanc etiam sententiam licet
+          <lb ed="#P" n="52"/>delectatio sit actus elicitus voluntatis, 
+          ninil<lb break="no" ed="#P" n="53"/>ominus est actus necessarius, id est, 
+          naturali<lb break="no" ed="#P" n="54"/>ter resultans, ex consecutione boni amaü,
+          <lb ed="#P" n="55"/>supposita ejus actuali consideratione et 
+          com<lb break="no" ed="#P" n="56"/>placentia; unde comparatur ad illam per 
+          mo<lb break="no" ed="#P" n="57"/>dum passionis resultantis, et accessoriae ad
+          <lb ed="#P" n="58"/>principalem actum. Et ideo si non obstante
+          <lb ed="#P" n="59"/>tristitia vehemente, est in intellectu et 
+          volun<lb break="no" ed="#P" n="60"/>tate daemonis vis sufticiens ad cogitandum, et
+          <lb ed="#P" n="61"/>amandum tale bonum, ejusque consecutionem,
+          <lb ed="#P" n="62"/>non potest deesse vis activa sufficiens ad 
+          de<lb break="no" ed="#P" n="63"/>lectationem consequentem: quia illa activitas,
+          <lb ed="#P" n="64"/>quae est per naturalem resultantiam, non 
+          im<lb break="no" ed="#P" n="65"/>peditur propter effectionem prioris actus, a
+          <lb ed="#P" n="66"/>quo alter resultat; imo hic posterior non potest
+          <lb ed="#P" n="67"/>fieri, nisi medio priori, et ab illo juvatur, 
+          id<lb break="no" ed="#P" n="68"/>eoque illi duo tanquam unum reputantur.
+        </p>
+        <p xml:id="szdada-x26483-d1e1205">
+          <lb ed="#P" n="69"/>15. Ea data declaratione conficitur 
+          argu<lb break="no" ed="#P" n="70"/>mentum. — Unde argumentorum hunc modum:
+          <lb ed="#P" n="71"/>nam daemon, quando aliquid tanquam bonum
+          <lb ed="#P" n="72"/>desiderat et procurat, si postea illud 
+          consequi<lb break="no" ed="#P" n="73"/>tur, complacet in illo peractum volitionis boni
+          <lb ed="#P" n="74"/>consecuti. Sed ex illo actu et objecto 
+          necessi<lb break="no" ed="#P" n="75"/>tate naturali resultat delectatio; ergo etiam in
+          <lb ed="#P" n="76"/>daemone resultat. Major videtur per se clara,
+          <lb ed="#P" n="77"/>et de illo saltem actu palam D. Thomas 
+          loqui<lb break="no" ed="#P" n="78"/>tur, cum gaudium tribuit daemoni, ut recte
+          <lb ed="#P" n="79"/>concessit Molina. Quia eadem ratio boni, quae
+          <lb ed="#P" n="80"/>in objecto sufficit ad desiderium, quando 
+          bo<lb break="no" ed="#P" n="81"/>num nondum habetur, sufficit ad 
+          complacen<lb break="no" ed="#P" n="82"/>tiam, postquam comparatum est: et tristitia
+          <lb ed="#P" n="83"/>vehemens non magis potest impedire 
+          compla<lb break="no" ed="#P" n="84"/>centiam, quam desiderium, ut per se notum
+          <lb ed="#P" n="85"/>est. Minor etiam nota est ex dictis. 
+          Consequen<lb break="no" ed="#P" n="86"/>tia vero probatur, quia tristitia non potest 
+          im<lb break="no" ed="#P" n="87"/>pedire illam resultantiam naturalem, quia nec
+          <lb ed="#P" n="88"/>impedit capacitatem passivam, nec vim 
+          acti<lb break="no" ed="#P" n="89"/>vam, ut ostensum est. Nec potest 
+          impedimen<lb break="no" ed="#P" n="90"/>tum reduci in apprehensionem objecti: quia
+          <lb ed="#P" n="91"/>daemon non impeditur a tristitia, quominus 
+          li<lb break="no" ed="#P" n="92"/>bere de illo objecto cogitet ac judicet. Ergo si
+          <lb ed="#P" n="93"/>illud objectum sic cognitum, possessum, et 
+          a<lb break="no" ed="#P" n="94"/>matum, esset sufliciens, ut resultaret gaudium
+          <lb ed="#P" n="95"/>in voluntate non patiente tam acerbam 
+          tristi<lb break="no" ed="#P" n="96"/>tiam, etiam suflicit non obstante tristitia, quia,
+          <lb ed="#P" n="97"/>ut dictum est, illa non tollit capacitatem 
+          pas<lb break="no" ed="#P" n="98"/>sivam vel activam: nec etiam immutat, vel
+          <lb ed="#P" n="99"/>impedit sufficientem talis objecti 
+          applicatio<lb break="no" ed="#P" n="100"/>nem. Imo potius per occasionem videri posset
+          <lb ed="#P" n="101"/>aliquo modo juvare, quia quo aliquis 
+          vehe<lb break="no" ed="#P" n="102"/>mentius tristatur, eo libentius occasionem 
+          ali<lb break="no" ed="#P" n="103"/>cujus delectationis amplectitur, et ad hunc 
+          fi<lb break="no" ed="#P" n="104"/>nem considerat, quidquid juvare potest. 
+          Prae<lb break="no" ed="#P" n="105"/>sertim quando applicatio ad considerationem,
+          <lb ed="#P" n="106"/>vel affectionem talis objecti a dispositione 
+          or<lb break="no" ed="#P" n="107"/>gani corporis non pendet.
+        </p>
+        <p xml:id="szdada-x26483-d1e1292">
+          <lb ed="#P" n="108"/>16. Secunda opinio hactenus probata 
+          admit<lb break="no" ed="#P" n="109"/>titur, prout tamen durat hominum via. —
+          <lb ed="#P" n="110"/>Propter haec igitur hanc posteriorem senten-
+          <pb ed="#P" n="1054"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tiam, et conformiorem D. Augustino et divo
+          <lb ed="#P" n="2"/>Thomae, et in se probabiliorem esse censeo; et
+          <lb ed="#P" n="3"/>quidquid contra illam objici potest, ex dictis
+          <lb ed="#P" n="4"/>solutum est. Non displicet autem, quod Alensis
+          <lb ed="#P" n="5"/>supra indicavit in d. art. 1, hoc qualecumque
+          <lb ed="#P" n="6"/>gaudium, licet nunc in daemonibus locum 
+          ha<lb break="no" ed="#P" n="7"/>beat, cessaturum tamen post judicium. Non
+          <lb ed="#P" n="8"/>quidem propter rationem Alensis, nimirum,
+          <lb ed="#P" n="9"/>quia daemones adhuc habent statum, in quo
+          <lb ed="#P" n="10"/>possunt demereri, postea vero erit tempus 
+          re<lb break="no" ed="#P" n="11"/>tributionis pro omnibus peccatis: quia licet
+          <lb ed="#P" n="12"/>daemones nunc sint in statu male operandi et
+          <lb ed="#P" n="13"/>peccandi, non tamen demerendi proprie, ut
+          <lb ed="#P" n="14"/>supra ostendi: et post diem Judicii, etiam 
+          po<lb break="no" ed="#P" n="15"/>terunt mala opera facere, etiamsi ad novam
+          <lb ed="#P" n="16"/>poenam illis non imputentur. Ratio ergo qua
+          <lb ed="#P" n="17"/>ducor, est: quia nunc eo ipso, quod daemones
+          <lb ed="#P" n="18"/>permittuntur extra infernum vagari, et quasi
+          <lb ed="#P" n="19"/>bellum gerere cum ipso Deo circa hominum
+          <lb ed="#P" n="20"/>salutem, possunt illis occurrere occasiones
+          <lb ed="#P" n="21"/>variae, in quibus suas varias pravas voluntates,
+          <lb ed="#P" n="22"/>ac desideria compleant, et inde aliquam 
+          delec<lb break="no" ed="#P" n="23"/>tationem accipiant. Post diem vero Judicii 
+          ces<lb break="no" ed="#P" n="24"/>sabit haec pugna: et consequenter cessabit
+          <lb ed="#P" n="25"/>etiam omnis haec varietas actionum, et omnes
+          <lb ed="#P" n="26"/>occasiones obtinendi desideriorum 
+          comple<lb break="no" ed="#P" n="27"/>mentum. Nam detrusi in infernum in eodem
+          <lb ed="#P" n="28"/>genere poenarum, et perpetua desperatione
+          <lb ed="#P" n="29"/>obtinendi aliquid, quod desiderent, perpetuo
+          <lb ed="#P" n="30"/>manebunt: et ideo nullam omnino alicujus
+          <lb ed="#P" n="31"/>gaudii occasionem habebunt. Estque haec 
+          doc<lb break="no" ed="#P" n="32"/>trina consentanea diversitati utriusque status:
+          <lb ed="#P" n="33"/>nunc enim licet essentialiter sint in termino,
+          <lb ed="#P" n="34"/>et statu summae miseriae; nondum tamen 
+          ha<lb break="no" ed="#P" n="35"/>bent ultimum complementum accidentaleillius
+          <lb ed="#P" n="36"/>miseri status: et ideo mirum non est, quod
+          <lb ed="#P" n="37"/>aliquod gaudium accidentale vanum, et 
+          vilis<lb break="no" ed="#P" n="38"/>simum participare possint; postea vero 
+          habe<lb break="no" ed="#P" n="39"/>bunt miseriam undique consummatam; et ideo
+          <lb ed="#P" n="40"/>carebunt omni gaudio, non solum ex 
+          provi<lb break="no" ed="#P" n="41"/>dentia extrinseca Dei,seu negatione concursus,
+          <lb ed="#P" n="42"/>nec propter incapacitatem physicam ex parte
+          <lb ed="#P" n="43"/>voluntatis daemonis, sed propter defectum 
+          oc<lb break="no" ed="#P" n="44"/>casionum, in quibus objecta gaudi eis possint
+          <lb ed="#P" n="45"/>occurrere.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

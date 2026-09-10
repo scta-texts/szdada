@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="565"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x14237"><!-- l5prae -->
+        <head xml:id="szdada-x14237-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-x14237-d1e103">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="33"/>AD POSTERIORES LIBROS QUATUOR
+          <lb ed="#P" n="34"/>DE ANGELIS QUOAD SUPERNATURALIA CONSIDERATIS.
+          <lb ed="#P" n="35"/>PRAEFATIO.
+        </p>
+        <p xml:id="szdada-x14237-d1e114">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="36"/>In praecedentibus libris de solis his, quae ad puram naturam Angelorum pertinent,
+          <lb ed="#P" n="37"/>consideravimus: jam de gratia, quae naturae superadditur libris totidem agemus.
+          <lb ed="#P" n="38"/>Et quia contrariorum eadem est scientia, et peccatum gratiae maxime opponitur, ideo
+          <lb ed="#P" n="39"/>simul de peccato Angelorum dicendum est. Uterque vero status tam gratiae, quam
+          <lb ed="#P" n="40"/>peccati viam et terminum continet, id est, praemium aut peenam. Supponimus enim
+          <lb ed="#P" n="41"/>nunc Angelos aliquando fuisse, non videntes Deum, et illum statum viae appellamus,
+          <lb ed="#P" n="42"/>in quo, vel gratiam, vel peccatum haberé potuerunt. Unde in quatuor alios libros
+          <lb ed="#P" n="43"/>doctrinam partiemur. Primus, seu potius quintus in ordine ad praecedentes, erit de
+          <lb ed="#P" n="44"/>statu viae Angelorum. Sextus de Beatitudine, ac ministeriis bonorum. Septimus de
+          <lb ed="#P" n="45"/>malis Angelis, eorumque lapsu, et culpa. Octavus de eorum poena, et bello quod
+          <lb ed="#P" n="46"/>contra Deum, et homines gerunt. Quod vero ad gratiam spectat, sciendum est, tam
+          <lb ed="#P" n="47"/>gratiam, quam gloriam Angelis, et hominibus esse communem, et in his, quae per se
+          <lb ed="#P" n="48"/>illi conveniunt, ejusdem rationis esse in utrisque, ut mox videbimus: ideoque 
+          om<lb break="no" ed="#P" n="49"/>nia, quae de visione beata, et de gratia, et auxiliis ejus, ac merito alns locis 
+          trac<lb break="no" ed="#P" n="50"/>tantur, in Angelos etiam cum proportione conveniunt. Et ideo haec non sunt 
+          repe<lb break="no" ed="#P" n="51"/>tenda, nec disputanda in praesenti, sed tantum supponenda, et insinuanda. Quia
+          <lb ed="#P" n="52"/>vero gratia accommodatur naturae, aliquas conditiones, vel circumstantias in Angelis
+          <lb ed="#P" n="53"/>habet, quae hoc in loco praecipue tractandae sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

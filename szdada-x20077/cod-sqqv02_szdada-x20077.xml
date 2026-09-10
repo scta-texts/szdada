@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="796"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x20077"><!-- l7c2 -->
+        <head xml:id="szdada-x20077-Hd1e101">Caput 2</head>
+        <head xml:id="szdada-x20077-Hd1e103" type="question-title">Utrum daemones, seu aliqui angeli natura sua mali sint</head>
+        <p xml:id="szdada-x20077-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>CAPUT II.
+          <lb ed="#P" n="53"/>UTRUM DAEMONES, SEU ALIQUI ANGELI NATURA SUA
+          <lb ed="#P" n="54"/>MALI SINT.
+        </p>
+        <p xml:id="szdada-x20077-d1e117">
+          <lb ed="#P" n="55"/>1. Error Manichei et Priscilliani asserens
+          <lb ed="#P" n="56"/>daemones ex natura esse malos. — Diximus, 
+          ali<lb break="no" ed="#P" n="57"/>quos Angelos malos esse, quos daemones 
+          ap<lb break="no" ed="#P" n="58"/>pellamus; inquirendum ergo superest, unde
+          <lb ed="#P" n="59"/>malitiam habeant, quae est antiqua quaestio de
+          <lb ed="#P" n="60"/>origine mali, quam propter importunitatem
+          <lb ed="#P" n="61"/>baereticorum, et praesertim Manichaeorum, et
+          <lb ed="#P" n="62"/>Priscillianistarum multi antiqui Patres 
+          trac<lb break="no" ed="#P" n="63"/>tarunt. Manichaeus enim duo finxit prima 
+          prin<lb break="no" ed="#P" n="64"/>cipia, et unum esse summe malum, ex se, et
+          <lb ed="#P" n="65"/>non a Deo habens suam substantiam 
+          naturali<lb break="no" ed="#P" n="66"/>ter malam, ut refert Augustinus, lib. de 
+          Hae<lb break="no" ed="#P" n="67"/>res., cap. 46, et lib. 11, de Civit., cap. 13.
+          <lb ed="#P" n="68"/>Eodem modo de diabolo senserunt 
+          Priscillia<lb break="no" ed="#P" n="69"/>nistae, dicentes, eum e tenebris emersisse,
+          <lb ed="#P" n="70"/>nullumve habuisse sui auctorem, sed ipsum
+          <lb ed="#P" n="71"/>esse a se malum, et principium, ac 
+          substan<lb break="no" ed="#P" n="72"/>tiam mali. Fta refert, et tribuit Manichaeo, et
+          <lb ed="#P" n="73"/>Priscilliaro, Concilium PracharenseT, can. 6,
+          <lb ed="#P" n="74"/>et Leo papa, epist. 91, alias 93, ad 
+          Thuribu<lb break="no" ed="#P" n="75"/>Ium, cap. 6. Adlit etiam Theodoretus, in l. 5,
+          <lb ed="#P" n="76"/>seu cpitome divin. Officior., cap. de Diabolo,
+          <lb ed="#P" n="77"/>Marcionem, Cerdonem, et Manichaeos dixisse
+          <lb ed="#P" n="78"/>diabolum, et qui illi subditi suut daemones,
+          <lb ed="#P" n="79"/>ingenitos esse. Alii vero soli Principi mal'orum
+          <lb ed="#P" n="80"/>hoc tribuun*t, alios vero ab illis factos esse 
+          in<lb break="no" ed="#P" n="81"/>dicant. Imo Augustinus supra sentit, 
+          Lucife<lb break="no" ed="#P" n="82"/>rum esse a summo malo tanquam a principio,
+          <lb ed="#P" n="83"/>secundum Manichaeum, et hb. 12, Genes., ad
+          <lb ed="#P" n="84"/>litt., cap. 20, quosdam, quos non nominat,
+          <lb ed="#P" n="85"/>asseruisse refert, diabolum non libero arbitrio,
+          <lb ed="#P" n="86"/>sed natura sua malum esse. licet a vero Deo
+          <lb ed="#P" n="87"/>crcatum esse faterentur. Item, lib. 10, de
+          <lb ed="#P" n="88"/>Civit., cap. 11, refert Porphyrium posuisse
+          <lb ed="#P" n="89"/>quosdam daemones natura sua fallaces, et 
+          ma<lb break="no" ed="#P" n="90"/>los. Quem errorem latius refert, et confutat
+          <lb ed="#P" n="91"/>Cyrillus, vel potius Clicthovaeus, l. 6, in Joan.,
+          <lb ed="#P" n="92"/>cap. 6. Denique hunc errorem alio moco 
+          insi<lb break="no" ed="#P" n="93"/>nuat Lactantius, lib 2, cap. 14, indicat enim,
+          <lb ed="#P" n="94"/>daemones fuisse genitos ab Angelis ex 
+          foemi<lb break="no" ed="#P" n="95"/>nis, eosque omnes immundos spiritus ex vi
+          <lb ed="#P" n="96"/>suae originis fuisse.
+        </p>
+        <p xml:id="szdada-x20077-d1e211">
+          <lb ed="#P" n="97"/>2. Ad suadendum hunc errorem, citantur
+          <lb ed="#P" n="98"/>aliqua Scripturae loca, in quibus indicantur,
+          <lb ed="#P" n="99"/>daemones fuisse semper malos, de quibus, in
+          <lb ed="#P" n="100"/>capite quarto dicemus. Solum ergo aliqua 
+          de<lb break="no" ed="#P" n="101"/>claratione indiget illud, Ecclesiastici 39, sunt
+          <lb ed="#P" n="102"/>spiritus, qui ad vind/ctam creati sunt, et quod
+          <lb ed="#P" n="103"/>de Lucifero specialiter dictum creditur, Psalmo
+          <pb ed="#P" n="797"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>103: Draco iste quem formasti ad illudendum
+          <lb ed="#P" n="2"/>ei: nam nomine draconis daemon significatur,
+          <lb ed="#P" n="3"/>et creatus dicitur, ut illuderetur, utique 
+          prop<lb break="no" ed="#P" n="4"/>ter naturalem malitiam. be quo et am 
+          intelli<lb break="no" ed="#P" n="5"/>gitur illud Job. 40: Ecce Behemoth, quem feci
+          <lb ed="#P" n="6"/>tecum, ipse principium viarum Domini, etc.
+          <lb ed="#P" n="7"/>Ratione potest ita suaderi haec seutentia, quia
+          <lb ed="#P" n="8"/>Angeli, qui sunt mali, non suo arbitrio tales
+          <lb ed="#P" n="9"/>effecti sunt; ergo natura sua tales sunt. 
+          Con<lb break="no" ed="#P" n="10"/>sequentia optima est, quia non potest medium
+          <lb ed="#P" n="11"/>excogitari. Antecedens autem probatur, quia
+          <lb ed="#P" n="12"/>Angelus habens mentem perfectam ad 
+          eligen<lb break="no" ed="#P" n="13"/>dum inter bonum et malum, non potest 
+          eli<lb break="no" ed="#P" n="14"/>gere malum, sed necessario elgit bonum 
+          sal<lb break="no" ed="#P" n="15"/>tem quoad specificationem; ergo non potest
+          <lb ed="#P" n="16"/>fieri malus electione. Antecedens probatur,
+          <lb ed="#P" n="17"/>quia talis Angelus non potest decipi in 
+          judi<lb break="no" ed="#P" n="18"/>cio, cum perfectam cognitionem habeat; ergo
+          <lb ed="#P" n="19"/>non potest deficere, eligendo malum pro bono,
+          <lb ed="#P" n="20"/>seu prae bono; ergo si aliquis est malus, ideo
+          <lb ed="#P" n="21"/>est, quia non est capax electionis inter bonum,
+          <lb ed="#P" n="22"/>et malum: sed natura sua est determinatus ad
+          <lb ed="#P" n="23"/>volendum malum, et hoc est esse natura sua
+          <lb ed="#P" n="24"/>malum.
+        </p>
+        <p xml:id="szdada-x20077-d1e286">
+          <lb ed="#P" n="25"/>3. Hoc sententia ut heretica rejicitur. —
+          <lb ed="#P" n="26"/>Imprimis ex Scriptura. — Nihilominus haec
+          <lb ed="#P" n="27"/>sententia haeritica est, quam generatim 
+          trac<lb break="no" ed="#P" n="28"/>tantes de origine mali antiqui Patres 
+          impugna<lb break="no" ed="#P" n="29"/>runt. Supponimus autem, sermonem esse de
+          <lb ed="#P" n="30"/>malo culpae, seu de malo morali, quod nomine
+          <lb ed="#P" n="31"/>viti, peccati, a turpitudinis significamus:
+          <lb ed="#P" n="32"/>nam de hoc malo loquimur, cum malos 
+          An<lb break="no" ed="#P" n="33"/>gelos a bonis distinguimus. Hoc autem 
+          sup<lb break="no" ed="#P" n="34"/>posito convincitur erroris illa sententia ex
+          <lb ed="#P" n="35"/>illis Scripturis, quae generaliter aiunt, 
+          quid<lb break="no" ed="#P" n="36"/>quid Deus facit, bonum esse, ut legitur
+          <lb ed="#P" n="37"/>Genes. 1, ubi concluditur; vidit Deus cuncta,
+          <lb ed="#P" n="38"/>qua fecerat, et erant valde bona-: iterea vero
+          <lb ed="#P" n="39"/>fecerat omnes Angelos; ergo, ut facti sunt a
+          <lb ed="#P" n="40"/>Deo, non fuerunt mali. Deinde id generatim
+          <lb ed="#P" n="41"/>etiam probant illa testimonia, quae negant,
+          <lb ed="#P" n="42"/>Deum esse auctorem peccati culpae, aut mali
+          <lb ed="#P" n="43"/>moralis. Nam si Deus Angelis malam naturam
+          <lb ed="#P" n="44"/>dedisset, a qua necessario malae operationes
+          <lb ed="#P" n="45"/>prodirent, esset Deus principalis auctor, et 
+          ori<lb break="no" ed="#P" n="46"/>go talis mal. Illa vero testimonia omitto, quia
+          <lb ed="#P" n="47"/>vulgaria sunt, et alibi tractando de causa 
+          pec<lb break="no" ed="#P" n="48"/>caü, et ostendendo, Deum non praedeterminare
+          <lb ed="#P" n="49"/>voluntates ad peccandum, adducta sunt. 
+          Deni<lb break="no" ed="#P" n="50"/>que convincitur haec veritas specialiter in 
+          An<lb break="no" ed="#P" n="51"/>gelis ex illis locis, quibus ostenditur, omnes
+          <lb ed="#P" n="52"/>Angelos in principio fuisse bonos, et aliquos
+          <lb ed="#P" n="53"/>postea cecidisse, quod partim in principio,
+          <lb ed="#P" n="54"/>libri quinti ostensum est, et in capite quarto,
+          <lb ed="#P" n="55"/>iterum dicetur. Nam inde aperte convincitur,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nullos Angelos esse naturaliter malos, alioqui
+          <lb ed="#P" n="57"/>semper, et ex vi creationis mali fuissent. 
+          Un<lb break="no" ed="#P" n="58"/>de ad illius erroris confutationem sufliciunt
+          <lb ed="#P" n="59"/>verba Judae Apostoli, Angelos, qui non 
+          serva<lb break="no" ed="#P" n="60"/>cerunt suum principatum, sed reliquerunt
+          <lb ed="#P" n="61"/>suum domicil uw, in judicium magni Dei 
+          vin<lb break="no" ed="#P" n="62"/>culis eternis sub caligine reservacit. Non 
+          er<lb break="no" ed="#P" n="63"/>go fuerunt mali natura, sed voluntate sunt
+          <lb ed="#P" n="64"/>facti.
+        </p>
+        <p xml:id="szdada-x20077-d1e377">
+          <lb ed="#P" n="65"/>4. Secundo ea Conciliis. — Atque etiam ez
+          <lb ed="#P" n="66"/>Patrilus.—Secundo definita est haec veritas in
+          <lb ed="#P" n="67"/>Concilio Bracharensi, et in Concilio 
+          Latera<lb break="no" ed="#P" n="68"/>nensi sub Iunocentio, et habetur in capite 
+          Fir<lb break="no" ed="#P" n="69"/>nter, de sum., Trinit. Diabolus (axt) et alii
+          <lb ed="#P" n="70"/>d«mones a Deo quidem natura creati sunt boni,
+          <lb ed="#P" n="71"/>sed ipsi per se fucti sunt mali. Unde in 
+          Con<lb break="no" ed="#P" n="72"/>cilio Carthaginensi IV, cap. 1, inter alia fidei
+          <lb ed="#P" n="73"/>dogmata interroganda ab eo, qui Episcopus
+          <lb ed="#P" n="74"/>creatur, unum est, An credat, quod diabolus
+          <lb ed="#P" n="75"/>non per cond.tionem, sed per arbitrium factus
+          <lb ed="#P" n="76"/>est maus. Et eodem modo traditur haec 
+          veri<lb break="no" ed="#P" n="77"/>tas a Leone papa, in Epist. citata: et ex 
+          pro<lb break="no" ed="#P" n="78"/>fesso a Dionysio, cap. 4, de divin., Nomin.
+          <lb ed="#P" n="79"/>Basilio, homil. Qu.d Deus non sit auctor 
+          malo<lb break="no" ed="#P" n="80"/>rum, Cyrillo Hierosoly mitano, cateches. 2,
+          <lb ed="#P" n="81"/>Theodoreto, lococitato, et Epiphanio, Haeres. 64
+          <lb ed="#P" n="82"/>et 66, Nazianzeno, Orat. 3, quae est prima 
+          con<lb break="no" ed="#P" n="83"/>tra Ju ianum, et Orat. 40. de Baptismo, circa
+          <lb ed="#P" n="84"/>tinem, Irenaeo, lib. 4, contra haeres., cap. 72,
+          <lb ed="#P" n="85"/>et potissime Augustino, in locis allegatis, et in
+          <lb ed="#P" n="86"/>libris de Natura boni contr. Manichaeos, 
+          maxi<lb break="no" ed="#P" n="87"/>me cap. 32et 33, et ideo in quaest. 90, novi et
+          <lb ed="#P" n="88"/>veter. Testament. (si ejus est liber) dixit:
+          <lb ed="#P" n="89"/>Diaboli uomen operis est, non nature, et hbro
+          <lb ed="#P" n="90"/>primo de Nupt. et Concupisc.,cap. 23: 
+          Diabo<lb break="no" ed="#P" n="91"/>lus, ax, spiritus immundus est, et utique 
+          bc<lb break="no" ed="#P" n="92"/>num quod spiritus, et malum, quod immundus,
+          <lb ed="#P" n="93"/>quonium spiritus est natura, ivanundus est 
+          vi<lb break="no" ed="#P" n="94"/>tio; quorum duorum illud a Deo est, hoc ab
+          <lb ed="#P" n="95"/>tpsu. Quam sententiam repetit, et descendit,
+          <lb ed="#P" n="96"/>lib. 6, contr. Julianum, cap. 20, et lib. 19, de
+          <lb ed="#P" n="97"/>Civitat., cap. 13: Nec ipsius diaboli natura,
+          <lb ed="#P" n="98"/>in quantum natura est, malum est, sed 
+          percer<lb break="no" ed="#P" n="99"/>sitas eain malum facit.
+        </p>
+        <p xml:id="szdada-x20077-d1e455">
+          <lb ed="#P" n="100"/>5. Sic etiam dixit Chrysostomus, homil. 3,
+          <lb ed="#P" n="101"/>ae Patient. Job, Diatolus non naturae nomen,
+          <lb ed="#P" n="102"/>sed preesumptionis est., etc., non enim Diabotus
+          <lb ed="#P" n="103"/>factus a principio, sed Angelus creatus est.
+          <lb ed="#P" n="104"/>Unde etiam Athanasius, quaest. 3, ad Antioch.,
+          <lb ed="#P" n="105"/>dixit, Angelos bonos et malos non cifferre
+          <lb ed="#P" n="106"/>essentia, sed voluntate, sicut bonus et malus
+          <lb ed="#P" n="107"/>homo. idemque tradit Damascenus, lib. 2,
+          <lb ed="#P" n="108"/>cap. 4, et Prosper, lib. 1, de Vita contempl.,
+          <lb ed="#P" n="109"/>cap. 3, et ad object. Vincent., respon. 5,
+          <lb ed="#P" n="110"/>Anselmus, toto lib. de Casu diaboli, Gregorius,
+          <pb ed="#P" n="798"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lib. 32 Moral.. cap. 28, quatenus describit 
+          fe<lb break="no" ed="#P" n="2"/>licem statum, quem Angeli mali ante lapsum
+          <lb ed="#P" n="3"/>habuerunt. Atque his Patribus consentiunt
+          <lb ed="#P" n="4"/>theologi scholastici cum Magistro 2, dist. 3,
+          <lb ed="#P" n="5"/>5 et 6, D. Thomas, 1 part., quaest. 53, art. A4.
+        </p>
+        <p xml:id="szdada-x20077-d1e497">
+          <lb ed="#P" n="6"/>6. Tertio ratione. —Tertio veritas haec 
+          ra<lb break="no" ed="#P" n="7"/>tione ostenditur in hunc modum, quia variis
+          <lb ed="#P" n="8"/>modis intelligi potest, Angelum aliquem esse
+          <lb ed="#P" n="9"/>naturaliter malum. Primo, quia per suam 
+          so<lb break="no" ed="#P" n="10"/>lam essentiam, seu substantiam, et potentias
+          <lb ed="#P" n="11"/>absque ulla operatione malus formaliter sit.
+          <lb ed="#P" n="12"/>Secundo, quia licet per operationem sit malus,
+          <lb ed="#P" n="13"/>illam tamen necessario habet, quasi fluentem
+          <lb ed="#P" n="14"/>necessario ex vi talis naturae. Tertio, quia per
+          <lb ed="#P" n="15"/>operationem non simpliciter necessarium, 
+          uti<lb break="no" ed="#P" n="16"/>que quoad exercitium, sed quoad 
+          specificatio<lb break="no" ed="#P" n="17"/>nem, nimirum, quia licet electionem habeat,
+          <lb ed="#P" n="18"/>semper male, et vitiose elicit ex intrinseca
+          <lb ed="#P" n="19"/>conditione, ac proprietate talis naturae. Quarto
+          <lb ed="#P" n="20"/>dici potest naturaliter malus, quia habeat 
+          in<lb break="no" ed="#P" n="21"/>natam inclinationem ad malum bono honesto
+          <lb ed="#P" n="22"/>contrarium, licet non ex necessitate absoluta,
+          <lb ed="#P" n="23"/>vel quoad exercitium, vel specificationem 
+          se<lb break="no" ed="#P" n="24"/>cundum illam operetur. Quinto posset dici
+          <lb ed="#P" n="25"/>naturaliter malus, quia talis sit naturae, ut
+          <lb ed="#P" n="26"/>naturaliter nihil boni operari possit, malum
+          <lb ed="#P" n="27"/>autem naturali virtute perficiat. Sexto potest
+          <lb ed="#P" n="28"/>talis natura reputari naturaliter mala, quia
+          <lb ed="#P" n="29"/>potest esse causa efficax mali. Nullo autem ex
+          <lb ed="#P" n="30"/>his modis dici potest Angelus aliquis natura
+          <lb ed="#P" n="31"/>sua malus; ergo. Consequentia est clara, quia
+          <lb ed="#P" n="32"/>nullus alius illius propositionis sensus videtur
+          <lb ed="#P" n="33"/>posse cogitari. Minor autem per singulas partes
+          <lb ed="#P" n="34"/>probatur.
+        </p>
+        <p xml:id="szdada-x20077-d1e562">
+          <lb ed="#P" n="35"/>7. Rejicitur primus modus. — Et prima 
+          qui<lb break="no" ed="#P" n="36"/>dem per se nota est, quia omne ens, quatenus
+          <lb ed="#P" n="37"/>ens, bonum est: ergo substantia Angeli 
+          ab<lb break="no" ed="#P" n="38"/>solute, et secundum se spectata bona est. Nec
+          <lb ed="#P" n="39"/>potest substantia denominari mala, nisi per
+          <lb ed="#P" n="40"/>comparationem ad aliquid aliud: non potest
+          <lb ed="#P" n="41"/>autem Angelus comparari ad aliud ut ad 
+          sub<lb break="no" ed="#P" n="42"/>jectum, quia ipsa est substantia integra, et
+          <lb ed="#P" n="43"/>absoluta ab omni habitudine ad subjectum;
+          <lb ed="#P" n="44"/>ergo debet saltem comparari ad operationem,
+          <lb ed="#P" n="45"/>ut talem denominationem recipere valeat, quod
+          <lb ed="#P" n="46"/>fieri non potest, nisi aliquo ex caeteris modis,
+          <lb ed="#P" n="47"/>de quibus sigillatim dicemus. Unde potest hoc
+          <lb ed="#P" n="48"/>confirmari, et declarari, quia malum 
+          simplici<lb break="no" ed="#P" n="49"/>ter, quod est malum morale, et turpe, per se
+          <lb ed="#P" n="50"/>primo consistit in operatione, seu in actu 
+          se<lb break="no" ed="#P" n="51"/>cundo; ergo sola substantia per se spectata
+          <lb ed="#P" n="52"/>non potest esse mala, vel per seipsam, vel per
+          <lb ed="#P" n="53"/>alium actum primum, sed per operationem,
+          <lb ed="#P" n="54"/>vel aliquam habitudinem ad illam.
+        </p>
+        <p xml:id="szdada-x20077-d1e608">
+          <lb ed="#P" n="55"/>8. Rejicitur secundus modus. — Secundum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>membrum probatur, quia repugnat 
+          intellec<lb break="no" ed="#P" n="57"/>tualem naturam ex necessitate simpliciter, id
+          <lb ed="#P" n="58"/>est, quoad exercitium, et ab intrinseco velle
+          <lb ed="#P" n="59"/>aliquod malum, quia eo ipso, quod malum est,
+          <lb ed="#P" n="60"/>inest illi aliqua ratio, ob quam possit non
+          <lb ed="#P" n="61"/>amari. Ideo enim voluntas extra visionem Dei
+          <lb ed="#P" n="62"/>non necessitatur ad exercitium ad aliquem
+          <lb ed="#P" n="63"/>actum, quia semper, vel in ipso actu, vel in
+          <lb ed="#P" n="64"/>objecto ejus potest esse aliqua ratio nolendi
+          <lb ed="#P" n="65"/>illud; ergo repugnat naturam intellectualem,
+          <lb ed="#P" n="66"/>seu voluntatem ejus, ad volendum malum
+          <lb ed="#P" n="67"/>quoad exercitium ab intrinseco necessitari.
+          <lb ed="#P" n="68"/>Secundo de ratione peccati, seu moralis mali
+          <lb ed="#P" n="69"/>est, ut sit liberum: ergo repugnat dicere, 
+          na<lb break="no" ed="#P" n="70"/>turam esse malam, quia operationem malam
+          <lb ed="#P" n="71"/>ex necessitate habet: nam eo ipso, quod 
+          ne<lb break="no" ed="#P" n="72"/>cessaria esset, non esset mala simpliciter, id
+          <lb ed="#P" n="73"/>est, culpabiliter, ita ut possit operanti 
+          im<lb break="no" ed="#P" n="74"/>putari.
+        </p>
+        <p xml:id="szdada-x20077-d1e657">
+          <lb ed="#P" n="75"/>9. Unde consurgit alia ratio, qua plerique
+          <lb ed="#P" n="76"/>ex citatis Patribus utuntur, quae hoc. et 
+          prae<lb break="no" ed="#P" n="77"/>cedens membrum demonstrat: quia si natura
+          <lb ed="#P" n="78"/>angelica his modis esset naturaliter mala,
+          <lb ed="#P" n="79"/>non esset digna supplicio propter tale malum:
+          <lb ed="#P" n="80"/>injuste ergo daemones punirentur a Deo, si
+          <lb ed="#P" n="81"/>tantum hoc modo mali essent. Accedit etiam
+          <lb ed="#P" n="82"/>altera ratio supra tacta, quia talis malitiae
+          <lb ed="#P" n="83"/>DEUS esset principalis auctor. Tum quia, qui
+          <lb ed="#P" n="84"/>dat formam, dat naturaliter consequentia ad
+          <lb ed="#P" n="85"/>formam: sed illa malitia formalis, seu 
+          opera<lb break="no" ed="#P" n="86"/>tionis necessitate naturali sequitur talem 
+          na<lb break="no" ed="#P" n="87"/>turam, ut supponitur; ergo principaliter ab
+          <lb ed="#P" n="88"/>auctore talis naturae provenit. Tum etiam,
+          <lb ed="#P" n="89"/>quia ipsa natura pessime esset instituta, si ab
+          <lb ed="#P" n="90"/>intrinseco ita esset determinata ad malum, ac
+          <lb ed="#P" n="91"/>proinde malitia refundenda esset in auctorem
+          <lb ed="#P" n="92"/>male instituentem talem naturam. Denique
+          <lb ed="#P" n="93"/>potest e converso repugnantia ostendi, nam si
+          <lb ed="#P" n="94"/>talis operatio naturali necessitate sequitur ex
+          <lb ed="#P" n="95"/>tali natura, cur quaeso, vel cui mala est? Non
+          <lb ed="#P" n="96"/>quidem ipsi naturae proxime illam effticienti,
+          <lb ed="#P" n="97"/>quia proprietas ab intrinseco manans a 
+          na<lb break="no" ed="#P" n="98"/>tura non potest illi mala esse, alioqui eadem
+          <lb ed="#P" n="99"/>natura sibi ipsi esset contraria. Nec etiam
+          <lb ed="#P" n="100"/>comparata ad Deum potest dici mala illi,
+          <lb ed="#P" n="101"/>vel respectu ejus, quia ipse est principalis
+          <lb ed="#P" n="102"/>auctor ejus: non potest autem Deus seipsum
+          <lb ed="#P" n="103"/>negare, aut sibi esse contrarius; ergo non 
+          po<lb break="no" ed="#P" n="104"/>test talis malitia esse illo modo naturalis, seu
+          <lb ed="#P" n="105"/>ab auctore naturae, supposito, quod sit vera
+          <lb ed="#P" n="106"/>malitia simpliciter, id est, Deo, et rationali 
+          na<lb break="no" ed="#P" n="107"/>turae contraria.
+        </p>
+        <p xml:id="szdada-x20077-d1e731">
+          <lb ed="#P" n="108"/>10. Rejicitur tertius modus. — Tertium
+          <lb ed="#P" n="109"/>membrum magna ex parte refelli potest 
+          dis<lb break="no" ed="#P" n="110"/>cursu proxime facto. Maxime vero confirmari
+          <pb ed="#P" n="799"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>potest applicando cum proportione, et cum
+          <lb ed="#P" n="2"/>majori efficacia discursum D. Thomas, dict.
+          <lb ed="#P" n="3"/>quaest. 63, art. 4. Quia nullius Angeli 
+          volun<lb break="no" ed="#P" n="4"/>tas esse potest natura sua determinata ad 
+          ma<lb break="no" ed="#P" n="5"/>Ium contrarium bono honesto, seu recte 
+          ra<lb break="no" ed="#P" n="6"/>tioni; ergo non potest esse ex natura sua 
+          de<lb break="no" ed="#P" n="7"/>terminata quoad specificationem ad eligendum
+          <lb ed="#P" n="8"/>aliquod malum particulare sub illa generali
+          <lb ed="#P" n="9"/>ratione mali turpis contentum; ergo non 
+          po<lb break="no" ed="#P" n="10"/>test substantia Angeli eo titulo mala 
+          naturali<lb break="no" ed="#P" n="11"/>ter reputari, quod habeat voluntatem 
+          natura<lb break="no" ed="#P" n="12"/>liter determinatam quoad specificationem ad
+          <lb ed="#P" n="13"/>eligendum malum, ut illo membro fingitur.
+          <lb ed="#P" n="14"/>Antecedens probatur, quia voluntas in 
+          quoli<lb break="no" ed="#P" n="15"/>bet Angelo est appetitus universalis consequens
+          <lb ed="#P" n="16"/>cognitionem intellectus, qui est etiam 
+          univer<lb break="no" ed="#P" n="17"/>salis potentia omnem rationem boni 
+          universa<lb break="no" ed="#P" n="18"/>liter repraesentans tam sub communi ratione
+          <lb ed="#P" n="19"/>boni, vel simpliciter, vel honesti, quam sub
+          <lb ed="#P" n="20"/>aliis rationibus boni particularibus; ergo non
+          <lb ed="#P" n="21"/>potest talis voluntas natura sua esse 
+          determi<lb break="no" ed="#P" n="22"/>nata ad malum contrarium bono honesto. 
+          Pro<lb break="no" ed="#P" n="23"/>batur consequentia, quia voluntas non 
+          deter<lb break="no" ed="#P" n="24"/>minatur ad malum ut malum est, quia non
+          <lb ed="#P" n="25"/>potest appetere malum sub ratione mali; ergo
+          <lb ed="#P" n="26"/>ut determinaretur ad tale malum, oporteret 
+          de<lb break="no" ed="#P" n="27"/>terminari ad aliquam rationem boni 
+          repugnan<lb break="no" ed="#P" n="28"/>tem honestati, et illam excludentem. At hoc
+          <lb ed="#P" n="29"/>est impossibile, quia talis voluntas 
+          determina<lb break="no" ed="#P" n="30"/>retur ad aliquod bonum particulare: nam 
+          bo<lb break="no" ed="#P" n="31"/>num repugnans bono honesto non potest esse
+          <lb ed="#P" n="32"/>nisi particulare, quia bonum universale non
+          <lb ed="#P" n="33"/>potest repugnare bono honesto, cum illud sub
+          <lb ed="#P" n="34"/>se comprehendat; ergo non potest voluntas
+          <lb ed="#P" n="35"/>naturaliter esse determinata ad bonum aliquod
+          <lb ed="#P" n="36"/>excludens honestum, seu (quod perinde est)
+          <lb ed="#P" n="37"/>habens adjunctam malitiam honestati 
+          repu<lb break="no" ed="#P" n="38"/>gnantem. Et confirmatur, quia voluntas est
+          <lb ed="#P" n="39"/>appetitus rationalis, id est, consequens 
+          ratio<lb break="no" ed="#P" n="40"/>nem, et bonum honestum est, quod est 
+          con<lb break="no" ed="#P" n="41"/>sentaneum rectae rationi, seu rationali naturae,
+          <lb ed="#P" n="42"/>ut rationalis est; ergo impossibile est, 
+          volunta<lb break="no" ed="#P" n="43"/>tem esse natura sua determinatam ad bonum
+          <lb ed="#P" n="44"/>rectae rationi repugnans. Probatur 
+          consequen<lb break="no" ed="#P" n="45"/>tia, quia omnis appetitus naturaliter 
+          inclina<lb break="no" ed="#P" n="46"/>tur ad ea, quae sunt consentanea illi naturae,
+          <lb ed="#P" n="47"/>a qua profluit, magisque illam perficiunt.
+        </p>
+        <p xml:id="szdada-x20077-d1e846">
+          <lb ed="#P" n="48"/>11. Probatur prima consequentia. —Et hinc
+          <lb ed="#P" n="49"/>evidenter sequitur prima illatio in principali
+          <lb ed="#P" n="50"/>ratione facta. Quia voluntas non necessitatur
+          <lb ed="#P" n="51"/>quoad specifticationem ad eligendum inter 
+          ali<lb break="no" ed="#P" n="52"/>qua bona, vel mala, nisi quando est 
+          determi<lb break="no" ed="#P" n="53"/>nata saltem quoad specificationem ad aliquam
+          <lb ed="#P" n="54"/>rationem communem, sub qua tantum illa 
+          par<lb break="no" ed="#P" n="55"/>ticularia bona, vel mala continentur, inter
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quae fit electio. Nam si voluntas non est 
+          deter<lb break="no" ed="#P" n="57"/>ninata ad aliquam rationem, nec etiam erit
+          <lb ed="#P" n="58"/>determinata, quae sub tali communi ratione
+          <lb ed="#P" n="59"/>continetur: si ergo voluntas non est 
+          naturali<lb break="no" ed="#P" n="60"/>ter determinata ad rationem communem boni
+          <lb ed="#P" n="61"/>repugnantem bono honesto, multo minus 
+          po<lb break="no" ed="#P" n="62"/>terit esse determinata ad eligendum necessario
+          <lb ed="#P" n="63"/>aliquod bonum contrarium bono honesto, quia
+          <lb ed="#P" n="64"/>potest intendere bonum honestum, et ex illo
+          <lb ed="#P" n="65"/>affectu adjuncta libertate ad electionem 
+          parti<lb break="no" ed="#P" n="66"/>cularis boni honesti determinari. Unde etiam
+          <lb ed="#P" n="67"/>concluditur altera illatio faeta, quod non 
+          pos<lb break="no" ed="#P" n="68"/>sit essentia Angeli mala naturaliter esse, vel
+          <lb ed="#P" n="69"/>appellari, eo quod voluntas, quae ex illa fluit,
+          <lb ed="#P" n="70"/>sit naturaliter determinata ad eligendum 
+          ma<lb break="no" ed="#P" n="71"/>lum simpliciter, quia nec potest naturaliter
+          <lb ed="#P" n="72"/>esse determinata ad eligendum illud malum,
+          <lb ed="#P" n="73"/>ut tale est, nec etiam materialiter, ut est 
+          bo<lb break="no" ed="#P" n="74"/>num includens talem malitiam, quia est 
+          appe<lb break="no" ed="#P" n="75"/>titus universalior, et de se ad ipsum bonum
+          <lb ed="#P" n="76"/>honestum extenditur.
+        </p>
+        <p xml:id="szdada-x20077-d1e914">
+          <lb ed="#P" n="77"/>12. Expenditur tertius modus, an in Angelo
+          <lb ed="#P" n="78"/>detur naturaliter inclinatio ad aliquod objectum
+          <lb ed="#P" n="79"/>rationi contrarium. — Quartum membrum
+          <lb ed="#P" n="80"/>dubitationem attingit, an in voluntate angelica
+          <lb ed="#P" n="81"/>sit aliqua inclinatio ad malum bono honesto
+          <lb ed="#P" n="82"/>contrarium, non quidem per se, id est, sub
+          <lb ed="#P" n="83"/>ratione mali. quia hoc modo evidens est, nec
+          <lb ed="#P" n="84"/>naturali, nec elicito appetitu posse voluntatem
+          <lb ed="#P" n="85"/>inclinari ad malum, cum malum ut malum
+          <lb ed="#P" n="86"/>appetibile non sit, sed saltem per accidens, id
+          <lb ed="#P" n="87"/>est. an in voluntate Angeli sit inclinatio 
+          natu<lb break="no" ed="#P" n="88"/>ralis ad aliquod bonum, quod privationem 
+          ho<lb break="no" ed="#P" n="89"/>nestatis adjunctam habeat, et ratio dubitandi
+          <lb ed="#P" n="90"/>esse potest, quia talis inclinatio non est contra
+          <lb ed="#P" n="91"/>naturam voluntatis, prout est appetitus 
+          univer<lb break="no" ed="#P" n="92"/>salis: imo ex hac universalitate inclinatio 
+          con<lb break="no" ed="#P" n="93"/>sequi videtur. Nam ex eo quod voluntas 
+          incli<lb break="no" ed="#P" n="94"/>natur ad bonum in communi, inclinatur etiam
+          <lb ed="#P" n="95"/>ad particularia, unde sicut inclinatur ad 
+          bo<lb break="no" ed="#P" n="96"/>num honestum, etiam inclinatur ab bonum
+          <lb ed="#P" n="97"/>delectabile, et ad bonum proprium, seu 
+          com<lb break="no" ed="#P" n="98"/>modum naturae, ut ad honorem, et ad 
+          excel<lb break="no" ed="#P" n="99"/>lentiam, similiaque. Sed haec bona delectabilia,
+          <lb ed="#P" n="100"/>vel commoda naturae possunt habens 
+          conjunc<lb break="no" ed="#P" n="101"/>tam repugnantiam cum bono honesto; ergo
+          <lb ed="#P" n="102"/>potest hoc modo voluntas etiam angelica ad
+          <lb ed="#P" n="103"/>malum inclinari. Et declaratur in voluntate
+          <lb ed="#P" n="104"/>hominis, quae naturaliter inclinatur ad bonum
+          <lb ed="#P" n="105"/>corporis, quod interdum honesto repugnat;
+          <lb ed="#P" n="106"/>ergo licet angelica voluntas non inclinetur ad
+          <lb ed="#P" n="107"/>bona corporalia, quia non est forma corporis,
+          <lb ed="#P" n="108"/>nec illis bonis indiget, tamen cum proportione
+          <lb ed="#P" n="109"/>inclinatur ad aliqua bona spiritualia naturae
+          <lb ed="#P" n="110"/>suae commoda, ut sunt potestas, excellentia, et
+          <pb ed="#P" n="800"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>similia, in quibus repugnantia ad honestum
+          <lb ed="#P" n="2"/>inveniri potest. Sicut paulo post dicemus, 
+          pec<lb break="no" ed="#P" n="3"/>ca:se Angelum, appetendo aliquam 
+          excellen<lb break="no" ed="#P" n="4"/>tiam. nec videtur p osse negari, quin ad illam
+          <lb ed="#P" n="5"/>excellentiam naturalem inclinationem 
+          habue<lb break="no" ed="#P" n="6"/>rit, a qua provocatus est ad illam deliberate
+          <lb ed="#P" n="7"/>appetendam; ergo illa inclinatio revera est ad
+          <lb ed="#P" n="8"/>malum materialiter, seu per accidens, 
+          quate<lb break="no" ed="#P" n="9"/>nus cum illo bono conjunctum est. Et 
+          confir<lb break="no" ed="#P" n="10"/>matur, quia omnis naturalis potestas supponit
+          <lb ed="#P" n="11"/>naturalem inclinationem, sed in voluntate 
+          An<lb break="no" ed="#P" n="12"/>geli datur naturalis potestas volendi aliquod
+          <lb ed="#P" n="13"/>bonum honesto bono contrarium; ergo est in
+          <lb ed="#P" n="14"/>ea naturalis inclinatio ad tale bonum, et 
+          con<lb break="no" ed="#P" n="15"/>sequenter ad malum saltem per accidens.
+        </p>
+        <p xml:id="szdada-x20077-d1e1027">
+          <lb ed="#P" n="16"/>13. Primum pronuntiatum.—In hoc puncto
+          <lb ed="#P" n="17"/>dicendum imprimis est, quamvis per 
+          impossi<lb break="no" ed="#P" n="18"/>bile talis inclinatio in voluntate angelica 
+          con<lb break="no" ed="#P" n="19"/>cedatur, inde tamen non sequi Angclum esse
+          <lb ed="#P" n="20"/>naturaliter malum, sed ad summum sequi,
+          <lb ed="#P" n="21"/>Angelum ese naturaliter mali capacem, 
+          posse<lb break="no" ed="#P" n="22"/>que sua voluntate indebite utendo, malitiam
+          <lb ed="#P" n="23"/>contrahere, quod longe diversum est. 
+          Proba<lb break="no" ed="#P" n="24"/>tur, quia illa inclinatio non est mala formaliter,
+          <lb ed="#P" n="25"/>quia nec habet malitiam congenitam, neque
+          <lb ed="#P" n="26"/>illam necessario inducit, aut secum trahit; 
+          er<lb break="no" ed="#P" n="27"/>go ratione illius non potest dici substantia, vel
+          <lb ed="#P" n="28"/>voluntas Angeli naturaliter mala. Deinde si
+          <lb ed="#P" n="29"/>mali Angeli illam inclinationem naturalem
+          <lb ed="#P" n="30"/>habuerunt, bonis deesse non potuit, quia idem
+          <lb ed="#P" n="31"/>fundamentum in illis habuit, ut patebit 
+          appli<lb break="no" ed="#P" n="32"/>cando discursum factum, et quia omnes 
+          ejus<lb break="no" ed="#P" n="33"/>dem sunt naturae, proportione servata: sed
+          <lb ed="#P" n="34"/>Angeli sancti non fuerunt naturaliter mali, ut
+          <lb ed="#P" n="35"/>constat, et ipsi etiam haeretici confitentur; ergo
+          <lb ed="#P" n="36"/>talis inclinatio non constituit malam naturam.
+          <lb ed="#P" n="37"/>Denique talis inclinatio est per se ad aliquod
+          <lb ed="#P" n="38"/>bonum, cui non semper, nec per se, sed 
+          acci<lb break="no" ed="#P" n="39"/>dentarie aliquando conjungitur repugnantia
+          <lb ed="#P" n="40"/>ad bonum honestum; ergo talis inclinatio per
+          <lb ed="#P" n="41"/>se bona est. Aliunde vero ab auctore talis 
+          vo<lb break="no" ed="#P" n="42"/>luntatis data est illi potestas ad non utendum
+          <lb ed="#P" n="43"/>tali inclinatione, sed resistendum illi, quando
+          <lb ed="#P" n="44"/>recta ratio dictaverit ita esse faciendum; ergo
+          <lb ed="#P" n="45"/>licet talis inclinatio naturalis admittatur, non
+          <lb ed="#P" n="46"/>ideo natura erit mala, aut a suo auctore male
+          <lb ed="#P" n="47"/>instituta.
+        </p>
+        <p xml:id="szdada-x20077-d1e1099">
+          <lb ed="#P" n="48"/>14. Secundum pronuntiatum.—Secundo vero
+          <lb ed="#P" n="49"/>dicimus, quidquid sit de humana natura, an
+          <lb ed="#P" n="50"/>in illa talis inclinatio ad malum inveniatur, in
+          <lb ed="#P" n="51"/>angelica voluntate, prout a Deo creata est, non
+          <lb ed="#P" n="52"/>inveniri. Ita docet D. Thomas, in dict. art. 4.
+          <lb ed="#P" n="53"/>Ratio ejus est, quia id, cujus natura ordinatur
+          <lb ed="#P" n="54"/>ad bonum secundum communem boni rationem,
+          <lb ed="#P" n="55"/>non potest secundum suam naturam tendere in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>aliquid malum. Quod principium objectione a
+          <lb ed="#P" n="57"/>pobis facta impugnari videtur. Respossio 
+          au<lb break="no" ed="#P" n="58"/>tem in hunc modum colhigi potest, probando
+          <lb ed="#P" n="59"/>simul, et expiicauco illud principium. Quia
+          <lb ed="#P" n="60"/>quanco voluntati duo bona occurrunt, quae
+          <lb ed="#P" n="61"/>simul velle non potest, quia unum alteri 
+          re<lb break="no" ed="#P" n="62"/>pugnat, tunc naturali pondere magis fertur, et
+          <lb ed="#P" n="63"/>simpliciter inclinatur in id, quod est suae 
+          na<lb break="no" ed="#P" n="64"/>turae magis consentaneum, et quod 
+          excellen<lb break="no" ed="#P" n="65"/>tiorem rationem boni inducit; ergo voluntas
+          <lb ed="#P" n="66"/>Angeli ex naturali propensione nunquam 
+          po<lb break="no" ed="#P" n="67"/>test tendere in illud bonum, quod simpliciter
+          <lb ed="#P" n="68"/>malum, et rectae rationi contrarium est. 
+          Ante<lb break="no" ed="#P" n="69"/>cedens probatur, quia voluntas inclinatur 
+          natu<lb break="no" ed="#P" n="70"/>raliter ad bonum secundum communem 
+          ratio<lb break="no" ed="#P" n="71"/>nem boni; ergo descendendo ad particularia
+          <lb ed="#P" n="72"/>bona, simpliciter inclinatur in id, quod melius
+          <lb ed="#P" n="73"/>est. sibique convenientius: cum autem bonum
+          <lb ed="#P" n="74"/>particulare malum est secundum rationem,
+          <lb ed="#P" n="75"/>est repugnans majori bono voluntatis; ergo
+          <lb ed="#P" n="76"/>ad illud nunquam voluntas simplieiter 
+          incli<lb break="no" ed="#P" n="77"/>natur.
+        </p>
+        <p xml:id="szdada-x20077-d1e1170">
+          <lb ed="#P" n="78"/>15. Confirmatur primo. — Confirmatur, ac
+          <lb ed="#P" n="79"/>declaratur, quia voluntas licet inclinetur 
+          natu<lb break="no" ed="#P" n="80"/>raliter ad particularia bona propria, seu 
+          natu<lb break="no" ed="#P" n="81"/>rae suae convenientia, non inclinatur ad omnem
+          <lb ed="#P" n="82"/>modum appetendi illa, sed naturaliter 
+          inclina<lb break="no" ed="#P" n="83"/>tur ad illa, ut regulata per rationem rectam,
+          <lb ed="#P" n="84"/>et consentaneam bono divino, ad quod maxime
+          <lb ed="#P" n="85"/>inclinatur; ergo simpliciter non iuclinatur ad
+          <lb ed="#P" n="86"/>malum rectae rationi contrarium. Aliqui hoc
+          <lb ed="#P" n="87"/>confirmant, quia inclinatio naturalis semper
+          <lb ed="#P" n="88"/>est per necessariam determinationem ad unam
+          <lb ed="#P" n="89"/>partem, quoad exercitium, vel quoad 
+          specifi<lb break="no" ed="#P" n="90"/>cationem: sed voluntas non determinatur ad
+          <lb ed="#P" n="91"/>malum quoad exercitium, vel specificationem,
+          <lb ed="#P" n="92"/>ut supra probatum est; ergo nec ad illud 
+          na<lb break="no" ed="#P" n="93"/>turaliter inclinatur. Sed certe naturalis 
+          incli<lb break="no" ed="#P" n="94"/>natio latius patet, quam determinatio 
+          necessa<lb break="no" ed="#P" n="95"/>ria, sive quoad exercitium, sive quoad 
+          specifi<lb break="no" ed="#P" n="96"/>cationem: nam voluntas naturaliter inclinatur
+          <lb ed="#P" n="97"/>ad amandum Deum super omnia, et neutro
+          <lb ed="#P" n="98"/>modo ad hoc necessitatur. Ilem ad bonum
+          <lb ed="#P" n="99"/>honestum naturaliter inclinatur sine tali 
+          deter<lb break="no" ed="#P" n="100"/>minatione, potest ergo esse naturalis inclinatio
+          <lb ed="#P" n="101"/>conjuncta cum libera facultate, non solum non
+          <lb ed="#P" n="102"/>operandi juxta talem inclinationem, sed etiam
+          <lb ed="#P" n="103"/>agendi contra illam. Ratio ergo propria est,
+          <lb ed="#P" n="104"/>quia inclinat:o naturalis voluntatis vel 
+          simpli<lb break="no" ed="#P" n="105"/>citer est ad majus bonum, vel est ad bonum,
+          <lb ed="#P" n="106"/>et commensuratum rectae rationi naturali, ut
+          <lb ed="#P" n="107"/>dictum est, et magis in puncto ultimo 
+          expli<lb break="no" ed="#P" n="108"/>cabitur.
+        </p>
+        <p xml:id="szdada-x20077-d1e1240">
+          <lb ed="#P" n="109"/>16. Rejicitur quintus modus. — In quinto
+          <lb ed="#P" n="110"/>puncto tangitur alia difficultas, nimirum, an
+          <pb ed="#P" n="801"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>natura angelica ex vi suae originis mala dici
+          <lb ed="#P" n="2"/>possit, eo quod suae naturae relicta, et omni
+          <lb ed="#P" n="3"/>gratia destituta nihil boni efficere, sed male
+          <lb ed="#P" n="4"/>tantum operari possit. Haec autem 
+          interroga<lb break="no" ed="#P" n="5"/>tio eodem modo. quo praecedens expedienda
+          <lb ed="#P" n="6"/>est. Imprimis enim interrogatio procedit ex
+          <lb ed="#P" n="7"/>falsa suppositione. Nimirum, Angelum ita esse
+          <lb ed="#P" n="8"/>naturaliter conditum, ut nihil bene, et honeste
+          <lb ed="#P" n="9"/>velle, aut facere possit per solam naturam sine
+          <lb ed="#P" n="10"/>superiori gratia. Hoc enim falsum esse supra
+          <lb ed="#P" n="11"/>in libro quarto dictum est, et in tractatu de
+          <lb ed="#P" n="12"/>Gratia, lib. 1, latius est disputatum, ac 
+          pro<lb break="no" ed="#P" n="13"/>batum. Deinde addimus, quod data etiam illa
+          <lb ed="#P" n="14"/>hypothesi, ex illa non sequitur naturam 
+          An<lb break="no" ed="#P" n="15"/>geli esse malam, aut male constitutam, sed ad
+          <lb ed="#P" n="16"/>summum sequitur esse infirmam, et 
+          indigen<lb break="no" ed="#P" n="17"/>tem superiori auxilio ad bonum operandum,
+          <lb ed="#P" n="18"/>eamque conditionem habere ex vi suse naturae.
+          <lb ed="#P" n="19"/>Quae licet aliqua imperfectio naturalis sit, non
+          <lb ed="#P" n="20"/>tamen est malitia formalis, neque radicalis:
+          <lb ed="#P" n="21"/>quandoquidem non obstante illa imperfectione,
+          <lb ed="#P" n="22"/>potest talis natura bene operari cum divino
+          <lb ed="#P" n="23"/>auxilio. Unde firmari potest ratio, quia natura,
+          <lb ed="#P" n="24"/>quae est capax honestae operationis, et de se ad
+          <lb ed="#P" n="25"/>bonum honestum est maxime propensa, etiamsi
+          <lb ed="#P" n="26"/>per se non habeat sufhicientes vires ad illud
+          <lb ed="#P" n="27"/>perficiendum, non est mala, sed per se est
+          <lb ed="#P" n="28"/>bona bonitate naturali, et aliquo modo est 
+          in<lb break="no" ed="#P" n="29"/>differens, ut bona, vel mala moraliter esse
+          <lb ed="#P" n="30"/>possit: ergo etiamsi natura angelica illam 
+          im<lb break="no" ed="#P" n="31"/>perfectionem haberet, non ideo naturaliter
+          <lb ed="#P" n="32"/>mala esset. Non potest autem negari, quin
+          <lb ed="#P" n="33"/>multo evidentius bonitas illius naturae 
+          osten<lb break="no" ed="#P" n="34"/>datur, si supponamus, voluntatem ex natura
+          <lb ed="#P" n="35"/>sua esse sufficientem cum generali concursu
+          <lb ed="#P" n="36"/>Dei ad volendum, et operandum bonum 
+          ho<lb break="no" ed="#P" n="37"/>nestum, quod naturale est, et per naturale 
+          lu<lb break="no" ed="#P" n="38"/>men rationis sufficienter potest proponi.
+        </p>
+        <p xml:id="szdada-x20077-d1e1334">
+          <lb ed="#P" n="39"/>17. Expenditur sectus modus, et inguirendo,
+          <lb ed="#P" n="40"/>an e peccato iuferatur, voluntatem esse malam
+          <lb ed="#P" n="41"/>in sua natura. — Vera resolutio negans. — In
+          <lb ed="#P" n="42"/>ultimo membro primae partitionis proponitur
+          <lb ed="#P" n="43"/>antiquum dubium, quomodo natura, seu 
+          vo<lb break="no" ed="#P" n="44"/>luntas bona possit esse causa mali: vel e 
+          con<lb break="no" ed="#P" n="45"/>trario, quomodo ex tam pravo effectu, ut est
+          <lb ed="#P" n="46"/>peccatum, non colligatur intrinseca malitia, et
+          <lb ed="#P" n="47"/>prava constitutio in tali natura. Quia effectus
+          <lb ed="#P" n="48"/>solet manifestare naturam et virtutem causae ;
+          <lb ed="#P" n="49"/>ergo malus effectus malam etiam naturam
+          <lb ed="#P" n="50"/>causae indicat: vel e contrario causa habet
+          <lb ed="#P" n="51"/>naturalem propensionem ad effectum; ergo
+          <lb ed="#P" n="52"/>voluntas, quae est causa peccati, naturaliter est
+          <lb ed="#P" n="53"/>propensa ad peccandum; ergo est vitiosa et
+          <lb ed="#P" n="54"/>mala. Respondetur nihilominus ex potestate
+          <lb ed="#P" n="55"/>peccandi non sequi voluntatem creatam, vel
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>essentiam, ex qua nascitur, naturaliter malam
+          <lb ed="#P" n="57"/>esse, sed solum sequi esse imperfectam, ut in
+          <lb ed="#P" n="58"/>praecedenti puncto dicebam. Estque 
+          manifes<lb break="no" ed="#P" n="59"/>tum, alias omnis voluntas creata naturaliter
+          <lb ed="#P" n="60"/>mala esset, quia eo ipso quod creata est, 
+          pec<lb break="no" ed="#P" n="61"/>care potest, ut in libro tertio ostensum est, et
+          <lb ed="#P" n="62"/>in capite sequenti iterum dicetur. Consequens
+          <lb ed="#P" n="63"/>autem haereticum est, ut per se constat, et
+          <lb ed="#P" n="64"/>argumentis factis in praecedenti puncto 
+          con<lb break="no" ed="#P" n="65"/>vinci potest. Et declaratur, quia eadem 
+          volun<lb break="no" ed="#P" n="66"/>tas, quae potest peccare, potest etiam non 
+          pec<lb break="no" ed="#P" n="67"/>care; ergo eo ipso non est mala ex natura sua.
+          <lb ed="#P" n="68"/>Tum quia si non peccet, non erit mala, tum
+          <lb ed="#P" n="69"/>etiam quia posse non peccare magna bonitas,
+          <lb ed="#P" n="70"/>et perfectio est. Unde Augustinus, lib. 11 
+          Ge<lb break="no" ed="#P" n="71"/>nes., ad ltt., cap. 7, ad quosdam dicentes:
+          <lb ed="#P" n="72"/>Talein Deum facere hominem, qui nollet omnino
+          <lb ed="#P" n="73"/>peccare, ipse respondet: Zecce nos concedimus,
+          <lb ed="#P" n="74"/>meliorem esse omnino naturam, que omnino
+          <lb ed="#P" n="75"/>peccare nolit, concedant et ipsi, non esse malam
+          <lb ed="#P" n="76"/>naturam, quae sic facta est, ut posset non 
+          pec<lb break="no" ed="#P" n="77"/>care si vellet. Tum etiam, quia (ut idem 
+          Au<lb break="no" ed="#P" n="78"/>gustinus, lib. 12, de Civit., cap. 3 et 6, dicit)
+          <lb ed="#P" n="79"/>ipsa malitia peccati bonitati naturae rationalis
+          <lb ed="#P" n="80"/>attestatur. Ideo enim tale opus voluntatis 
+          pec<lb break="no" ed="#P" n="81"/>catum est, quia repugnat rectae rationi, seu
+          <lb ed="#P" n="82"/>quia est contrarium naturae rationali, ut 
+          ratio<lb break="no" ed="#P" n="83"/>nalis est.
+        </p>
+        <p xml:id="szdada-x20077-d1e1436">
+          <lb ed="#P" n="84"/>18. Probatur secundo. — Unde tamen 
+          argu<lb break="no" ed="#P" n="85"/>mentamur, quia potestas peccandi formaliter
+          <lb ed="#P" n="86"/>sumpta, non tam est potestas, quam defectus
+          <lb ed="#P" n="87"/>potestatis, seu non tamen est potestas 
+          efficien<lb break="no" ed="#P" n="88"/>di, quam deficiendi. Quia licet is, qui peccat,
+          <lb ed="#P" n="89"/>committendo aliquid efficiat, et ideo potestas
+          <lb ed="#P" n="90"/>sic peccandi, potestatem aliquid efliciendi 
+          in<lb break="no" ed="#P" n="91"/>cludat, vel supponat, nihilominus illa potentia
+          <lb ed="#P" n="92"/>sic praecise spectata non est potestas peccandi,
+          <lb ed="#P" n="93"/>nisi quatenus habere potest modum efficiendi
+          <lb ed="#P" n="94"/>aliquid, deficiendo a regula rationis, in quo
+          <lb ed="#P" n="95"/>involvitur defectus quidam consequens 
+          limita<lb break="no" ed="#P" n="96"/>tionem talis potentiae, non tamen ad ejus 
+          es<lb break="no" ed="#P" n="97"/>sentiam, vel naturam per se spectans. Et hinc
+          <lb ed="#P" n="98"/>fit ut malus effectus, id est, peccatum, ut 
+          effec<lb break="no" ed="#P" n="99"/>tus, aliquam positivam perfectionem causae
+          <lb ed="#P" n="100"/>ostendat, tamen ut est defectus, et peccatum
+          <lb ed="#P" n="101"/>solum limitationem, et defectum non moralem,
+          <lb ed="#P" n="102"/>sed naturalem talis voluntatis indicat. Unde
+          <lb ed="#P" n="103"/>fit tandem, ut licet voluntas Angeli sit causa
+          <lb ed="#P" n="104"/>peccati, nihilominus non habeat inclinationem
+          <lb ed="#P" n="105"/>naturalem ad illud, quia non inclinatur ad
+          <lb ed="#P" n="106"/>defectum, et consequenter neque ad illum 
+          ac<lb break="no" ed="#P" n="107"/>tum quatenus privationem alterius 
+          perfectio<lb break="no" ed="#P" n="108"/>nis majoris, maximeque connaturalis secum
+          <lb ed="#P" n="109"/>affert.
+        </p>
+        <p xml:id="szdada-x20077-d1e1495">
+          <lb ed="#P" n="110"/>19. Ad loca Scripture in nun. 2. — Ad pri-
+          <pb ed="#P" n="802"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>muum Eccl. 39. — Ad argumenta, quae in 
+          con<lb break="no" ed="#P" n="2"/>trarium inducebantur, respondendum 
+          supe<lb break="no" ed="#P" n="3"/>rest, et imprimis sunt explicanda tria 
+          testimo<lb break="no" ed="#P" n="4"/>nia, quae probare videntur, quosdam Angelos
+          <lb ed="#P" n="5"/>per se, et ex divina intentione creatos esse, ut
+          <lb ed="#P" n="6"/>sint mali, ac propterea hoc illis esse naturale.
+          <lb ed="#P" n="7"/>Primum erat illud Eccl. 39: Sunt spiritus,
+          <lb ed="#P" n="8"/>qui ad vindictam creati sunt. Cujus prima 
+          ex<lb break="no" ed="#P" n="9"/>positio est ibi nomine Spiritus non significari
+          <lb ed="#P" n="10"/>Angelos, sed ventos tempestates moventes, vel
+          <lb ed="#P" n="11"/>sterilitatem facientes, qui dicuntur creati, id
+          <lb ed="#P" n="12"/>est, facti, seu excitati in vindictam hominum
+          <lb ed="#P" n="13"/>peccatorum. Estque probabilis expositio, cui
+          <lb ed="#P" n="14"/>consonat illud Psal. 10: Spiritus procellarum
+          <lb ed="#P" n="15"/>pars calicis eorum. Secundo, ut supra indicavi,
+          <lb ed="#P" n="16"/>intelligi potest testimonium illud de Angelis
+          <lb ed="#P" n="17"/>malis, qui non dicunt creati ut mali sunt, sed
+          <lb ed="#P" n="18"/>postquam mali effecti sunt, creati, id est, 
+          de<lb break="no" ed="#P" n="19"/>putati sunt in vindictam, vel suorum scelerum,
+          <lb ed="#P" n="20"/>vel etiam ut sint ministri in vindictam 
+          homi<lb break="no" ed="#P" n="21"/>num peccatorum, quod il'o loco magis 
+          inten<lb break="no" ed="#P" n="22"/>tum videtur.
+        </p>
+        <p xml:id="szdada-x20077-d1e1552">
+          <lb ed="#P" n="23"/>20. Ad secundum Ps. 103. — Ad tertium
+          <lb ed="#P" n="24"/>Job. 40. — Ad quartum ex ratione ibidem. —
+          <lb ed="#P" n="25"/>Secundum testimonium erat illud Psalm. 103:
+          <lb ed="#P" n="26"/>Draco iste, quem formasti, etc. Sed ibi non est
+          <lb ed="#P" n="27"/>sermo de malo Angelo, sed de cete grandi, seu
+          <lb ed="#P" n="28"/>balaena quam creavit Deus, ut in mari luderet,
+          <lb ed="#P" n="29"/>et ut suam potentiam in illo pisce speciahter
+          <lb ed="#P" n="30"/>ostenderet; et similiter in tertio testimonio ex
+          <lb ed="#P" n="31"/>Job 40, per Behemot, et Leviathan non 
+          signi<lb break="no" ed="#P" n="32"/>ficatur ad litteram malus Angelus, sed 
+          anima<lb break="no" ed="#P" n="33"/>lia quaedam ingentis magnitudinis, unum 
+          ter<lb break="no" ed="#P" n="34"/>restre, et aliund aqueum, quod est idem cum
+          <lb ed="#P" n="35"/>alio, quod in dicto Psalmo Draco appellatur.
+          <lb ed="#P" n="36"/>In sensu autem mystico solent haec loca de
+          <lb ed="#P" n="37"/>daemone exponi, quod parum refert. Tum quia
+          <lb ed="#P" n="38"/>ex sensu mystico non sumitur eflicax 
+          argu<lb break="no" ed="#P" n="39"/>mentum. Tum etiam quia in Job nullum est
+          <lb ed="#P" n="40"/>verbum, quod indicet Behemot, aut Leviathan
+          <lb ed="#P" n="41"/>fuisse creatum malum faceret. In Psalmo vero
+          <lb ed="#P" n="42"/>si nomen Draconis deemoni accommodetur,
+          <lb ed="#P" n="43"/>supponitur Angelus ille jam factus malus, et
+          <lb ed="#P" n="44"/>sic dici potest DEUS, illum destinasse ad 
+          illu<lb break="no" ed="#P" n="45"/>dendum ei, etc. Ratio vero ibi adjuncta 
+          pos<lb break="no" ed="#P" n="46"/>tulat quaestionem in capite sequenti 
+          tractan<lb break="no" ed="#P" n="47"/>dam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

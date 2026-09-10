@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x00003">
+        <head xml:id="szdada-x00003-Hd1e100">Praeambulum</head>
+        <p xml:id="szdada-x00003-d1e102">
+          <pb ed="#P" n="1"/>
+          <!-- 1 (21 - 20) -->
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER PRIMUS.
+          <lb ed="#P" n="2"/>ANGELORUM NATURA
+          <lb ed="#P" n="3"/>PRODUCTIONE, ET ATTRIBUTIS QUASI SUBSTANTIALIBUS.
+        </p>
+        <p xml:id="szdada-x00003-d1e118">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>Quamvis scientiam supponere soleat suum
+          <lb ed="#P" n="5"/>subjectum esse, et quid sit, quando id per se
+          <lb ed="#P" n="6"/>notum est, in praesenti materia necessarium
+          <lb ed="#P" n="7"/>est naturam Angelorum a nobis valde remotam
+          <lb ed="#P" n="8"/>et ignoratam investigare. Simul vero utramque
+          <lb ed="#P" n="9"/>quaestionem, videlicet an sint, et quid sint 
+          An<lb break="no" ed="#P" n="10"/>geli, tractabimus, quoniam supposita 
+          vocabu<lb break="no" ed="#P" n="11"/>li significatione, vix in praesenti possunt 
+          quaes<lb break="no" ed="#P" n="12"/>tiones illae separari. Nos enim tanquam notum
+          <lb ed="#P" n="13"/>in fide supponimus, Angelos esse, id est, 
+          quas<lb break="no" ed="#P" n="14"/>dam creaturas ab hominibus, hominumque
+          <lb ed="#P" n="15"/>animabus, aliisve rebus sensibilibus, quas 
+          cer<lb break="no" ed="#P" n="16"/>nimus, vel sensibus experimur, distinctas;
+          <lb ed="#P" n="17"/>hoc namque ex modo, quo Scripturae de 
+          An<lb break="no" ed="#P" n="18"/>gelis loquuntur, manifestum est, Si vero 
+          An<lb break="no" ed="#P" n="19"/>gelorum nomine significari intelligamus 
+          quas<lb break="no" ed="#P" n="20"/>dam creaturas incorporeas spirituales, et 
+          sim<lb break="no" ed="#P" n="21"/>plices, similesve proprietates habentes, sic non
+          <lb ed="#P" n="22"/>est tam manifestum, Angelos esse, nec potest
+          <lb ed="#P" n="23"/>aliter ostendi, quam naturam, et essentiam
+          <lb ed="#P" n="24"/>Angelorum sub priori confusa ratione 
+          concep<lb break="no" ed="#P" n="25"/>torum investigando. Hoc ergo in praesenti 
+          li<lb break="no" ed="#P" n="26"/>bro praestabimus, simulque proprietates 
+          quas<lb break="no" ed="#P" n="27"/>dam illorum, quae non tam eorum substantiae
+          <lb ed="#P" n="28"/>aliquid addunt, quam per negationes quasdam
+          <lb ed="#P" n="29"/>illam nobis declarant, explicabimus, ut sunt
+          <lb ed="#P" n="30"/>esse incorruptibiles, simplices, immateriales,
+          <lb ed="#P" n="31"/>finitos, et si quae sunt similes, quia per haec
+          <lb ed="#P" n="32"/>omnia attributa Angelorum natura, et 
+          sub<lb break="no" ed="#P" n="33"/>stantia, et non propria accidentia illorum 
+          ex<lb break="no" ed="#P" n="34"/>plicantur, de quibus postea dicturi sumus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="393"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x09901"><!-- l3d8 -->
+        <head xml:id="szdada-x09901-Hd1e101">Caput 8</head>
+        <head xml:id="szdada-x09901-Hd1e103" type="question-title">Utrum angelus in pura natura existens venialiter peccare possit</head>
+        <p xml:id="szdada-x09901-d1e106">
+          <lb ed="#P" n="64"/>CAPUT VIII.
+          <lb ed="#P" n="65"/>UTRUM ANGELUS IN PURA NATURA EXISTENS 
+          VENIA<lb break="no" ed="#P" n="66"/>LITER PECCARE POSSIT.
+        </p>
+        <p xml:id="szdada-x09901-d1e115">
+          <lb ed="#P" n="67"/>1. Angelus potest eligere minus bonum. —
+          <lb ed="#P" n="68"/>Difficultas hujus capitis.—Responsio D. 
+          Tho<lb break="no" ed="#P" n="69"/>mae ex sententia quorumdam. — Circa 
+          reso<lb break="no" ed="#P" n="70"/>lutionem praecedentis capitis, duo gravia 
+          du<lb break="no" ed="#P" n="71"/>bia occurrunt, quae in libris quinto et 
+          septi<lb break="no" ed="#P" n="72"/>mo, necessario sunt ex professo tractanda
+          <lb ed="#P" n="73"/>in ordine ad statum, in quo Angeli creati
+          <lb ed="#P" n="74"/>sunt: non tamen possunt in praesenti omnino
+          <lb ed="#P" n="75"/>omitti in ordine ad statum mere naturalem
+          <lb ed="#P" n="76"/>angelcae naturae: et ideo in hoc, et sequenti
+          <lb ed="#P" n="77"/>capite breviter expedientur, quantum hic 
+          lo<lb break="no" ed="#P" n="78"/>cus postulat, reliqua in praedictum locum 
+          re<lb break="no" ed="#P" n="79"/>mittendo. Primum est, an indifferentia ad 
+          eli<lb break="no" ed="#P" n="80"/>gendum bonum, vel malum, quam habet 
+          An<lb break="no" ed="#P" n="81"/>gelus in pura sua natura spectatus, eamdem
+          <lb ed="#P" n="82"/>habeat, ad eligendum inter magis, et minus
+          <lb ed="#P" n="83"/>bonum, et inter grave, ac leve malum. Et 
+          qui<lb break="no" ed="#P" n="84"/>dem in bonis nulla occurrit dubitandi ratio,
+          <lb ed="#P" n="85"/>quia minus bonum, minus distat a bono 
+          me<lb break="no" ed="#P" n="86"/>liori, quam malum a bono distat Ergo si 
+          An<lb break="no" ed="#P" n="87"/>gelus est liber ad eligendum id, quod est 
+          ma<lb break="no" ed="#P" n="88"/>lum simpliciter, relicto bono, multo magis in
+          <lb ed="#P" n="89"/>electione minoris boni eamdem libertatem 
+          ha<lb break="no" ed="#P" n="90"/>bebit. Et ex generali ratione libertatis id est
+          <lb ed="#P" n="91"/>evidens. Unde etiam Deo suo modo libera est
+          <lb ed="#P" n="92"/>electio inter inaequalia bona, licet malum 
+          sim<lb break="no" ed="#P" n="93"/>pliciter velle non possit. In malis autem 
+          inae<lb break="no" ed="#P" n="94"/>qualibus occurrit specialis difficultas, quia si
+          <lb ed="#P" n="95"/>Angelus posset eligere minus malum, posset
+          <lb ed="#P" n="96"/>etiam venialter peccare, volendo, scilicet, rem
+          <lb ed="#P" n="97"/>turpem in levi materia, ut mentiri, loqui 
+          o<lb break="no" ed="#P" n="98"/>tiose, vel quid simile. Quae difticultas petit
+          <lb ed="#P" n="99"/>quaestionem, quam tractat D. Thomas, 1, 2,
+          <lb ed="#P" n="100"/>q. 89, art. 4, an Angelus possit venialiter 
+          pec<lb break="no" ed="#P" n="101"/>care: ubi ipse defendit non posse. Et rationem
+          <lb ed="#P" n="102"/>reddit, quia Angelus non fertur ad ea, quae
+          <lb ed="#P" n="103"/>sunt propter finem ultimum, nisi actu ea
+          <lb ed="#P" n="104"/>intendendo propter ultimum tinem. Unde si
+          <lb ed="#P" n="105"/>ultimus finis bonus sit, Angelus non errabit
+          <lb ed="#P" n="106"/>in medio, et ita nihil peccabit: si vero 
+          ulti<lb break="no" ed="#P" n="107"/>mus finis sit malus, actus erit peccatum 
+          mor<lb break="no" ed="#P" n="108"/>tale ex intentione finis, etiamsi fortasse objec-
+          <pb ed="#P" n="394"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tum proximum, seu materia ejus sit levis. Et
+          <lb ed="#P" n="2"/>hanc sententiam defendunt Thomistae 
+          commu<lb break="no" ed="#P" n="3"/>niter, et videntur loqui de Angelo in omni 
+          sta<lb break="no" ed="#P" n="4"/>tu. Et idem docuit Alensis, 2 p., q. 97, in 4,
+          <lb ed="#P" n="5"/>art. 3.
+        </p>
+        <p xml:id="szdada-x09901-d1e224">
+          <lb ed="#P" n="6"/>2. D. Thome responsio non est pro instituto
+          <lb ed="#P" n="7"/>hujus capitis. — Verumtamen D. Thomas 
+          a<lb break="no" ed="#P" n="8"/>perte loquitur de Angelis bonis, et malis prout
+          <lb ed="#P" n="9"/>nunc sunt in statibus beatitudinis et 
+          damna<lb break="no" ed="#P" n="10"/>tionis. Et in argumento sed contra videtur etiam
+          <lb ed="#P" n="11"/>loqui de illis, prout fuerunt in statu creationis,
+          <lb ed="#P" n="12"/>seu vias, quo modo etiam loquitur Alensis.
+          <lb ed="#P" n="13"/>Nos vero nunc ab omnibus his statibus 
+          abstra<lb break="no" ed="#P" n="14"/>himus, et de illis aliquid dicemus in libro quinto
+          <lb ed="#P" n="15"/>et sequentibus. Nunc vero loquimur de Angelo
+          <lb ed="#P" n="16"/>in pura natura spectato, et utente sua 
+          liberta<lb break="no" ed="#P" n="17"/>te mere naturali cum generali influentia Dei.
+          <lb ed="#P" n="18"/>Et sic distinguimus duos modos peccandi 
+          ve<lb break="no" ed="#P" n="19"/>nialter, scilicet ex imperfecta deliberatione,
+          <lb ed="#P" n="20"/>seu per subreptionem, et ex levitate materie,
+          <lb ed="#P" n="21"/>vel objecti cum perfecta deliberatione, et 
+          co<lb break="no" ed="#P" n="22"/>gnitione.
+        </p>
+        <p xml:id="szdada-x09901-d1e264">
+          <lb ed="#P" n="23"/>3. Prima conclusio probatur contra quosdam.
+          <lb ed="#P" n="24"/>— Indeliberatio in homine unde oriatur. — 
+          Di<lb break="no" ed="#P" n="25"/>cimus ergo primo, Angelum non esse capacem
+          <lb ed="#P" n="26"/>venialis peccati ex surreptione, seu 
+          indelibera<lb break="no" ed="#P" n="27"/>tione. Non desunt moderni, qui hoc in dubium
+          <lb ed="#P" n="28"/>revocent: sed mihi videtur certum cum aliis
+          <lb ed="#P" n="29"/>meltus sentientibus. Ratio est, quia intellectus
+          <lb ed="#P" n="30"/>angelicus non potest ab objectis immutari, et
+          <lb ed="#P" n="31"/>ad cogitationem aliquam necessitari, ergo non
+          <lb ed="#P" n="32"/>potest in intellectu Angeli excitari cognitio 
+          su<lb break="no" ed="#P" n="33"/>breptitia, ergo nec in hujus voluntate potest
+          <lb ed="#P" n="34"/>insurgere surreptitius motus, quia hic non 
+          ori<lb break="no" ed="#P" n="35"/>tur nisi ex cogitatione praevia non volita. Unde
+          <lb ed="#P" n="36"/>in nobis motus surreptitiae voluntatis ortum
+          <lb ed="#P" n="37"/>habet a sensibus, qui media phantasia excitant
+          <lb ed="#P" n="38"/>intellectum ad cogitandum aliquid, quod 
+          vo<lb break="no" ed="#P" n="39"/>luntatem subito movet, priusquam deliberare
+          <lb ed="#P" n="40"/>possit, vel rationem ad hoc applicare: 
+          Ange<lb break="no" ed="#P" n="41"/>lus autem non ita procedit, sed habet 
+          natura<lb break="no" ed="#P" n="42"/>lem cognitionem sui, suarumque specierum,
+          <lb ed="#P" n="43"/>a qua cogitatione naturali, immediate non 
+          mo<lb break="no" ed="#P" n="44"/>vetur voluntas nisi ad amorem sui honestum,
+          <lb ed="#P" n="45"/>et rationi consentaneum. Ad cogitandum vero
+          <lb ed="#P" n="46"/>de aliis objectis voluntas plena libertate 
+          appli<lb break="no" ed="#P" n="47"/>cat intellectum, ideoque cum eadem plena l
+          <lb ed="#P" n="48"/>bertate vult, vel non vult, quidquid postea 
+          in<lb break="no" ed="#P" n="49"/>tellectus cogitando repraesentat. Non est ergo
+          <lb ed="#P" n="50"/>ibi locus surreptioni. Praesertim quia non 
+          indi<lb break="no" ed="#P" n="51"/>get Angelus tempore, ut perfecte cogitet, 
+          quan<lb break="no" ed="#P" n="52"/>do per voluntatem applicatur: at vero in 
+          no<lb break="no" ed="#P" n="53"/>bis motus voluntatis non est indeliberatus, id
+          <lb ed="#P" n="54"/>est, imperfecte liber, nisi quando perfecta 
+          co<lb break="no" ed="#P" n="55"/>gitatio, et animadversio non est in nostra po-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>testate: cum ergo in Angelis non sit haec 
+          im<lb break="no" ed="#P" n="57"/>potentia, non possunt propter indeliberationem
+          <lb ed="#P" n="58"/>a gravi culpa excusari: si alioqui ex objecto,
+          <lb ed="#P" n="59"/>et materia peccatum grave sit.
+        </p>
+        <p xml:id="szdada-x09901-d1e349">
+          <lb ed="#P" n="60"/>4. Instantia contra probationem 
+          conclusio<lb break="no" ed="#P" n="61"/>nis. — Solum posset instari: quia licet haec
+          <lb ed="#P" n="62"/>ratio procedat, quando Angelus tantum ab 
+          in<lb break="no" ed="#P" n="63"/>trinseco (ut sic dicam) se applicat ad 
+          cogitan<lb break="no" ed="#P" n="64"/>dum, tamen interdum applicatur per 
+          locutio<lb break="no" ed="#P" n="65"/>nem alterius, et nunc non videtur procedere
+          <lb ed="#P" n="66"/>eadem ratio, quia unus Angelus praevenitur et
+          <lb ed="#P" n="67"/>excitatur ab alio per locutionem, ergo in 
+          na<lb break="no" ed="#P" n="68"/>turalibus tantum rem considerando, potest
+          <lb ed="#P" n="69"/>unus Angelus tentare alium, et suasione prava
+          <lb ed="#P" n="70"/>illum excitare, ergo hoc modo non repugnabit
+          <lb ed="#P" n="71"/>esse in Angelo motum aliquem pravum per
+          <lb ed="#P" n="72"/>surreptionem, et priusquam perfecte 
+          delibe<lb break="no" ed="#P" n="73"/>rare possit. Et confirmatur, quia videtur hoc
+          <lb ed="#P" n="74"/>posse contingere, non solum per suggestionem
+          <lb ed="#P" n="75"/>et suasionem directam ad malum, sed etiam
+          <lb ed="#P" n="76"/>per occasionem tantum, supposita locutione,
+          <lb ed="#P" n="77"/>de re non mala. Ut si unus Angelus loquatur
+          <lb ed="#P" n="78"/>alteri de re bona vel indifferente, et in 
+          au<lb break="no" ed="#P" n="79"/>diente suboriatur suspicio, quod loquens 
+          men<lb break="no" ed="#P" n="80"/>tiatur, et quod se velit seducere, aut ad malum
+          <lb ed="#P" n="81"/>inducere: vel si insurgat aliquis motus odii,
+          <lb ed="#P" n="82"/>vel quid simile. Item hoc modo cum Angelis
+          <lb ed="#P" n="83"/>proponatur fides, poterunt in illis oriri motus
+          <lb ed="#P" n="84"/>subiti contra fidem.
+        </p>
+        <p xml:id="szdada-x09901-d1e406">
+          <lb ed="#P" n="85"/>5. Respondetur ad prosimam instantiam.—
+          <lb ed="#P" n="86"/>hespondetur nihilominus, etiam hoc modo
+          <lb ed="#P" n="87"/>non posse esse in Angelis motus subreptitios.
+          <lb ed="#P" n="88"/>Nam, ut supra dixi, per locutionem solum 
+          mo<lb break="no" ed="#P" n="89"/>vetur, et necessitatur Angelus, ut species ab
+          <lb ed="#P" n="90"/>altero impressas in se videat, quae cogitatio
+          <lb ed="#P" n="91"/>non est proprie subreptitia, quia non est capax
+          <lb ed="#P" n="92"/>libertatis, sed est mere naturalis, et in suo 
+          or<lb break="no" ed="#P" n="93"/>dine est perfecta, et qualis esse debet. Unde
+          <lb ed="#P" n="94"/>non movet voluntatem, aliquam necessitatem
+          <lb ed="#P" n="95"/>illi imponendo, sed in libera ac plena potestate
+          <lb ed="#P" n="96"/>voluntatis Angeli est uti illa specie, vel non
+          <lb ed="#P" n="97"/>uti, ad intelligendum et considerandum quid
+          <lb ed="#P" n="98"/>alter loquatur, et tunc etiam perfecte 
+          conside<lb break="no" ed="#P" n="99"/>rare potest: ideoque quidquid postea ex vi 
+          il<lb break="no" ed="#P" n="100"/>lius locutionis vult, judicat, aut facit, plena
+          <lb ed="#P" n="101"/>libertate facit. Atque ita nullum habet motum
+          <lb ed="#P" n="102"/>subreptitium: nec ex eo capite a peccato 
+          le<lb break="no" ed="#P" n="103"/>thali excusabitur, si alias vel odium, vel 
+          judi<lb break="no" ed="#P" n="104"/>cium temerarium, vel si dubitatio de re per
+          <lb ed="#P" n="105"/>locutionem proposita, sit ex genere suo et ex
+          <lb ed="#P" n="106"/>materiae gravitate peccatum mortale. Quod
+          <lb ed="#P" n="107"/>quidem in objectis ordinis naturalis satis 
+          per<lb break="no" ed="#P" n="108"/>spicuum est: in supernaturalibus autem infra
+          <lb ed="#P" n="109"/>libro quinto magis explicabitur: nunc satis sit
+          <lb ed="#P" n="110"/>dicere, supernaturalia infundi modo naturae
+          <pb ed="#P" n="395"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>accommodato. Unde cum Angelo revelatur 
+          fi<lb break="no" ed="#P" n="2"/>des, perfecte, et in uno momento tota ratio
+          <lb ed="#P" n="3"/>credibilitatis ejus proponitur, et ideo licet 
+          si<lb break="no" ed="#P" n="4"/>mul cognoscere possit omnes rationes 
+          natura<lb break="no" ed="#P" n="5"/>les, quae in re proposita difficultatem facere,
+          <lb ed="#P" n="6"/>aut de se dubitationem inducere possunt: 
+          ni<lb break="no" ed="#P" n="7"/>hilominus non potest ipse dubitare per 
+          sur<lb break="no" ed="#P" n="8"/>reptionem, sed si dubitationi consentiat, ex
+          <lb ed="#P" n="9"/>sufficienti libertate consentiet, et graviter 
+          pec<lb break="no" ed="#P" n="10"/>cabit: et ita nunquam potest peccatum veniale
+          <lb ed="#P" n="11"/>per surreptionem in Angelo probabiliter 
+          cogi<lb break="no" ed="#P" n="12"/>tari: an vero dubitare possit, in libro septimo
+          <lb ed="#P" n="13"/>dicemus.
+        </p>
+        <p xml:id="szdada-x09901-d1e497">
+          <lb ed="#P" n="14"/>6. Secunda conclusio contra quosdam 
+          Tho<lb break="no" ed="#P" n="15"/>mistas, Cajetanum, etc. — Dico secundo. Cum
+          <lb ed="#P" n="16"/>perfecta deliberatione non repugnat Angelum
+          <lb ed="#P" n="17"/>in pura natura spectatum venialiter peccare.
+          <lb ed="#P" n="18"/>Ita tenent multi ex modernis theologis, in 1,
+          <lb ed="#P" n="19"/>2. quaest. 89, art. 4. Ubi Cajetanus et aliqui
+          <lb ed="#P" n="20"/>Thomistae oppositum sentiunt, quia D. Thomas
+          <lb ed="#P" n="21"/>idem sentire videtur. Sed, ut dixi, fortasse
+          <lb ed="#P" n="22"/>D. Thomas solum locutus est de Angelis bonis
+          <lb ed="#P" n="23"/>et malis, prout nunc sunt in suis statibus, vel
+          <lb ed="#P" n="24"/>etiam prout de facto sunt conditi in statu 
+          gra<lb break="no" ed="#P" n="25"/>tiae: nam probabile est ita fuisse a Deo 
+          condi<lb break="no" ed="#P" n="26"/>tos et gubernatos, ut nullus eis fuerit locus
+          <lb ed="#P" n="27"/>peccandi venialiter, ut inferius explicabimus.
+          <lb ed="#P" n="28"/>Nihilominus per se spectando vires naturales
+          <lb ed="#P" n="29"/>liberi arbitrii Angeli, et secludendo specialem
+          <lb ed="#P" n="30"/>Dei providentiam circa illum, non apparet cur
+          <lb ed="#P" n="31"/>non possit Angelus peccare venialiter. Sic enim
+          <lb ed="#P" n="32"/>argumentor: Angelus potest prave eligere in
+          <lb ed="#P" n="33"/>materia gravi, ergo et in materia levi, vel ex
+          <lb ed="#P" n="34"/>sua specie, ut est mendacium, vel ex 
+          quanti<lb break="no" ed="#P" n="35"/>tate materiae, ut est levis violentia injusta 
+          al<lb break="no" ed="#P" n="36"/>teri facta, vel detractio levis. Sed potest 
+          Ange<lb break="no" ed="#P" n="37"/>lus facere hanc electionem in levi materia
+          <lb ed="#P" n="38"/>sine circumstantia mortaliter aggravante: ergo
+          <lb ed="#P" n="39"/>sic facta erit tantum veniale peccatum, ac 
+          sub<lb break="no" ed="#P" n="40"/>inde potest hoc modo Angelus venialiter 
+          pec<lb break="no" ed="#P" n="41"/>care. Primum antecedens in praecedenti capite
+          <lb ed="#P" n="42"/>probatum est. Et ibi adducta probant primam
+          <lb ed="#P" n="43"/>consequentiam, quia indifferenter procedunt
+          <lb ed="#P" n="44"/>de electione prava, et nulla est ratio cur locum
+          <lb ed="#P" n="45"/>habeant in materia gravi, et non in levi: imo
+          <lb ed="#P" n="46"/>a fortiori ex majori concluditur minus. Et ita
+          <lb ed="#P" n="47"/>qui negant posse Angelum venialiter peccare,
+          <lb ed="#P" n="48"/>non hoc negant: sed dicunt necessario 
+          ad<lb break="no" ed="#P" n="49"/>jungere circumstantiam mortaliter 
+          aggravan<lb break="no" ed="#P" n="50"/>tem.
+        </p>
+        <p xml:id="szdada-x09901-d1e580">
+          <lb ed="#P" n="51"/>7. Ex circumstantia persone non fit 
+          neces<lb break="no" ed="#P" n="52"/>sario in Angelis de veniali mortale. — Nec ex
+          <lb ed="#P" n="53"/>circumstantia modi. — Contra hoc ergo 
+          proba<lb break="no" ed="#P" n="54"/>tur propositio subsumpta. Nam inquiro, 
+          quae<lb break="no" ed="#P" n="55"/>nam sit hujusmodi circumstantia, quae neces-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sario tali electione adjungatur. Tres enim
+          <lb ed="#P" n="57"/>excogitari tantum possunt, scilicet conditio
+          <lb ed="#P" n="58"/>personas, modus peccandi, et finis. Nam 
+          cir<lb break="no" ed="#P" n="59"/>cumstantia quid, vel quantum, quae ex parte
+          <lb ed="#P" n="60"/>materiae est valde intrinseca, supponitur levis,
+          <lb ed="#P" n="61"/>caeterae vero sunt valde extrinsecae, ut est 
+          in<lb break="no" ed="#P" n="62"/>strumentum, auxiliator, tempus, ac locus, quae
+          <lb ed="#P" n="63"/>in Angelis secundum se spectatis vix locum 
+          ha<lb break="no" ed="#P" n="64"/>bent, praesertim in ordine ad moralem modum
+          <lb ed="#P" n="65"/>operandi. Ex primis autem tribus 
+          circumstan<lb break="no" ed="#P" n="66"/>tiis, in persona Angeli nihil invenitur, unde
+          <lb ed="#P" n="67"/>peccatum de se veniale fiat mortale: quia sola
+          <lb ed="#P" n="68"/>perfectio naturalis Angeli ad hoc non sufficit,
+          <lb ed="#P" n="69"/>cum neque gratiae dignitas sufficiat, et in eo
+          <lb ed="#P" n="70"/>per se nihil aliud invenitur. Deinde in modo
+          <lb ed="#P" n="71"/>peccandi ÀÁngeli nihil considerari potest nisi
+          <lb ed="#P" n="72"/>perfecta cognitio, et libertas. Unde fit, ut sine
+          <lb ed="#P" n="73"/>ignorantia, vel passione peccet: sed hoc etiam
+          <lb ed="#P" n="74"/>non aggravat infinite malitiam actus, ut per se
+          <lb ed="#P" n="75"/>notum est. Unde quod quiddam dicunt, semper
+          <lb ed="#P" n="76"/>peccare ex contemptu, vel sine incentivo 
+          pec<lb break="no" ed="#P" n="77"/>candi, valde frivolum est, quia incentivum
+          <lb ed="#P" n="78"/>peccandi potest esse sola inferior bonitas in
+          <lb ed="#P" n="79"/>objecto inventa, et carentia alterius incentivi,
+          <lb ed="#P" n="80"/>non solum non aggravat, sed etiam est 
+          imper<lb break="no" ed="#P" n="81"/>tinens. Contemptus vero frustra cogitatur, quia
+          <lb ed="#P" n="82"/>nihil est, quod necessitet Angelum ad 
+          contem<lb break="no" ed="#P" n="83"/>nendum proprie, ac formaliter, sicut in 
+          trac<lb break="no" ed="#P" n="84"/>tatu sequenti de homine in statu innocentiae
+          <lb ed="#P" n="85"/>iterum dicemus.
+        </p>
+        <p xml:id="szdada-x09901-d1e661">
+          <lb ed="#P" n="86"/>8. Neque tandem ex circumstantia finis —Id
+          <lb ed="#P" n="87"/>ostenditur primo.—Minc ergo D. Thomas hanc
+          <lb ed="#P" n="88"/>necessitatem reduxit ad circumstantiam finis
+          <lb ed="#P" n="89"/>ultimi, quia Angelus semper operatur propter
+          <lb ed="#P" n="90"/>ultimum finem: sicut cognoscit in principiis 
+          con<lb break="no" ed="#P" n="91"/>clusiones. Sed contra hoc instamus, quia talis
+          <lb ed="#P" n="92"/>circumstantia non videtur necessaria 
+          simplici<lb break="no" ed="#P" n="93"/>ter, et ex natura rei. Primo, quia nec 
+          aequipara<lb break="no" ed="#P" n="94"/>tio voluntatis, et intellectus videtur adaequata,
+          <lb ed="#P" n="95"/>quia majorem connexionem habet conclusio
+          <lb ed="#P" n="96"/>cum principiis, quam particularis finis cum
+          <lb ed="#P" n="97"/>ultimo, quia illa prior est ab intrinseco 
+          neces<lb break="no" ed="#P" n="98"/>saria, haec vero posterior est voluntaria, et 
+          pen<lb break="no" ed="#P" n="99"/>dens ex libertate operantis. Nec etiam id, quod
+          <lb ed="#P" n="100"/>in exemplo sumitur, semper est necessarium,
+          <lb ed="#P" n="101"/>quia uon cogitur Angelus semper cogitare de
+          <lb ed="#P" n="102"/>principiis primis quoad cognitionem, seuquoad
+          <lb ed="#P" n="103"/>resolutionem ultimam. quoties veritatem 
+          ali<lb break="no" ed="#P" n="104"/>cujus propositionis videt, praesertim si illam
+          <lb ed="#P" n="105"/>intuitive videat, ut supra dictum est, ergo
+          <lb ed="#P" n="106"/>quando cogitat de objecto particulari bono sub
+          <lb ed="#P" n="107"/>aliqua ratione per se amabili, non est necesse,
+          <lb ed="#P" n="108"/>ut de ultimo fine suo cogitet, nec de ordine
+          <lb ed="#P" n="109"/>unius ad alterum, ergo potest hoc modo velle
+          <lb ed="#P" n="110"/>aliquid bonum inferioris ordinis, ut propriae
+          <pb ed="#P" n="396"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>delectationis, vel commodi, sine alia relatione
+          <lb ed="#P" n="2"/>ad ultimum finem.
+        </p>
+        <p xml:id="szdada-x09901-d1e727">
+          <lb ed="#P" n="3"/>9. Ostenditur secundo. —Secundo quia potest
+          <lb ed="#P" n="4"/>Angelus peccare mortaliter sine formali 
+          rela<lb break="no" ed="#P" n="5"/>tionead ultimum finem: duobus enim 
+          modispo<lb break="no" ed="#P" n="6"/>test dici Angelus vel homoconstituere ultimum
+          <lb ed="#P" n="7"/>tinem in objecto amato: uno modo formaliter
+          <lb ed="#P" n="8"/>judicando illud esse summum bonum suum, et
+          <lb ed="#P" n="9"/>verum finem ultimum, et ita illud referendo; et
+          <lb ed="#P" n="10"/>sic non constituit Angelus finem ultimum in
+          <lb ed="#P" n="11"/>creatura. quando primum mortaliter peccavit,
+          <lb ed="#P" n="12"/>quiaaliter per errorem contra rationem 
+          natura<lb break="no" ed="#P" n="13"/>lem peccaret: alio modo dicitur amari aliquid ut
+          <lb ed="#P" n="14"/>ultimus finis implicite et virtute, quia amatur
+          <lb ed="#P" n="15"/>contra praeceptum Dei, et propter illud amicitia
+          <lb ed="#P" n="16"/>Dei contemnitur, et hoc fit peccando 
+          mortah<lb break="no" ed="#P" n="17"/>ter: nihilominus tamen in modo amandi, seu
+          <lb ed="#P" n="18"/>volendi illud objectum amatur, ut particularis
+          <lb ed="#P" n="19"/>finis, sine formali relatione ad ultimum finem,
+          <lb ed="#P" n="20"/>et ita peccant Angeli mortaliter, ergo eodem
+          <lb ed="#P" n="21"/>modo poterant peccare venialiter in materia
+          <lb ed="#P" n="22"/>levi. Intercedit autem differentia, quod in 
+          ma<lb break="no" ed="#P" n="23"/>teria gravi illa particularis dilectio alicujus
+          <lb ed="#P" n="24"/>boni est virtualis intentio alicujus ultimi finis
+          <lb ed="#P" n="25"/>extra Deum: quando vero materia est levis,
+          <lb ed="#P" n="26"/>neque formaliter, nec virtute ut finis ultimus
+          <lb ed="#P" n="27"/>amatur, et ideo manet intra gradum peccati
+          <lb ed="#P" n="28"/>venialis, etiam in Angelo. Tertio, quia potest
+          <lb ed="#P" n="29"/>Angelus in sua pura natura spectatus operari
+          <lb ed="#P" n="30"/>opus honestum misericordiae, aut justitiae, non
+          <lb ed="#P" n="31"/>referendo illud in Deum, ut ultimum finem
+          <lb ed="#P" n="32"/>actualiter super omnia dilectum, quia non est
+          <lb ed="#P" n="33"/>necesse ut hanc dilectionem exerceat, quoties
+          <lb ed="#P" n="34"/>aliquid boni operatur, ergo etiam e contrario
+          <lb ed="#P" n="35"/>potest aliquid mali facere non referendo illud
+          <lb ed="#P" n="36"/>actualiter, et formaliter in aliquod amatum, ut
+          <lb ed="#P" n="37"/>ultimum finem, et consequenter poterit illud
+          <lb ed="#P" n="38"/>malum esse veniale, si sit in materia levi.
+        </p>
+        <p xml:id="szdada-x09901-d1e808">
+          <lb ed="#P" n="39"/>10. Objectio.—Responsio.—Concluditur 
+          pos<lb break="no" ed="#P" n="40"/>se Angelum ex natura rei peccare venialiter, et
+          <lb ed="#P" n="41"/>pie erponitur D. Thomas —Objicies, quia 
+          om<lb break="no" ed="#P" n="42"/>nis actio debet habere aliquem ultimum finem,
+          <lb ed="#P" n="43"/>etiam ex formali relatione operantis, quia 
+          ne<lb break="no" ed="#P" n="44"/>cesse est, ut intentio ejus in aliquo sistat, et
+          <lb ed="#P" n="45"/>terminetur, et consequenter sit ultimus finis
+          <lb ed="#P" n="46"/>ejus, ergo multo magis est hoc necessarium in
+          <lb ed="#P" n="47"/>Angelo, sive male operante. At cum operatur
+          <lb ed="#P" n="48"/>malum, non potest sistere in Deo, ut in ultimo
+          <lb ed="#P" n="49"/>fine, vel in hoc ipso peccaret mortaliter, ergo
+          <lb ed="#P" n="50"/>sistit in creatura, vel in seipso tanquam in 
+          ul<lb break="no" ed="#P" n="51"/>timo fine, et hoc etiam ad peccandum 
+          mortal<lb break="no" ed="#P" n="52"/>ter sufficit. Respondeo idem argumentum in
+          <lb ed="#P" n="53"/>nobis fieri posse. Unde communis doctrina est,
+          <lb ed="#P" n="54"/>duplicem esse distinguendum ultimum finem.
+          <lb ed="#P" n="55"/>Unus dicitur finis ultimus simpliciter, seu ip-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sius personae operantis, in quem se, et omnia
+          <lb ed="#P" n="57"/>sua refert. Alius est finis ultimus secundum
+          <lb ed="#P" n="58"/>quid, scilicet unius actus, qui fertur in aliquod
+          <lb ed="#P" n="59"/>ohjectum propter seipsum, seu bonitatem quam
+          <lb ed="#P" n="60"/>in se habet, et ab operante ultra non refertur,
+          <lb ed="#P" n="61"/>et ideo dicitur ultimus respectu talis actus, non
+          <lb ed="#P" n="62"/>tamen respectu personae: quia nec diligit illud
+          <lb ed="#P" n="63"/>bonum super omnia, neque se, et omnia sua
+          <lb ed="#P" n="64"/>in illud refert, sed tantum ita vult illud 
+          prop<lb break="no" ed="#P" n="65"/>ter se, ut in alium finem illud non referat. 
+          Ar<lb break="no" ed="#P" n="66"/>gumentum ergo non procedit de ultimo fine
+          <lb ed="#P" n="67"/>priori modo: nam in illo falsa est prima 
+          pro<lb break="no" ed="#P" n="68"/>positio assumpta: nec probatio ejus in eo sensu
+          <lb ed="#P" n="69"/>vim habet, sed tantum in posteriori sensu. Et
+          <lb ed="#P" n="70"/>sic dato antecedente, negatur consequentia, et
+          <lb ed="#P" n="71"/>ultima probatio falsa est. Nam hoc non sufficit
+          <lb ed="#P" n="72"/>ad peccandum mortaliter: quia ille defectus
+          <lb ed="#P" n="73"/>operationis stare potest cum amore Dei 
+          simpli<lb break="no" ed="#P" n="74"/>citer, et super omnia, solum enim inde fit, ut
+          <lb ed="#P" n="75"/>aliquod opus non referatur in ipsum, nec sit
+          <lb ed="#P" n="76"/>aptum in ejus amorem referri, quae non est
+          <lb ed="#P" n="77"/>gravis Dei injuria. Et sic homines peccant 
+          ve<lb break="no" ed="#P" n="78"/>nialiter, et rationes factae ostendunt eodem 
+          mo<lb break="no" ed="#P" n="79"/>do posse peccare Angelum. Unde non apparet
+          <lb ed="#P" n="80"/>cur ex natura rei omne peccatum angeli 
+          ne<lb break="no" ed="#P" n="81"/>cessario sit mortale. Et ratio illa D. Thomae,
+          <lb ed="#P" n="82"/>ut verum fateamur, simpliciter non convincit,
+          <lb ed="#P" n="83"/>et fortasse non in eo sensu ab ipsoadduceta est,
+          <lb ed="#P" n="84"/>sed ut congruentia quaedam illius providentiae,
+          <lb ed="#P" n="85"/>quam de facto Deus cum Angelis habere 
+          vo<lb break="no" ed="#P" n="86"/>luit, ut in libro septimolatius explicabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

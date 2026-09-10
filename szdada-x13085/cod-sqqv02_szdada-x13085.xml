@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 26</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 26</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="519"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x13085"><!-- l4c26 -->
+        <head xml:id="szdada-x13085-Hd1e101">Caput 26</head>
+        <head xml:id="szdada-x13085-Hd1e103" type="question-title">Utrum angeli alterare corpora possint</head>
+        <p xml:id="szdada-x13085-d1e106">
+          <lb ed="#P" n="16"/>CAPUT XXVI.
+          <lb ed="#P" n="17"/>UTRUM ANGELI ALTERARE CORPORA POSSINT.
+        </p>
+        <p xml:id="szdada-x13085-d1e113">
+          <lb ed="#P" n="18"/>1. Communis resolutio negativa. — Ex 
+          dic<lb break="no" ed="#P" n="19"/>tis in capite praecedente facile est definere 
+          se<lb break="no" ed="#P" n="20"/>cundum punctum, ibi propositum de potentia
+          <lb ed="#P" n="21"/>Angelorum ad immutanda corpora alterationis
+          <lb ed="#P" n="22"/>motu, seu, quod perinde est, ad producendas
+          <lb ed="#P" n="23"/>materiales qualitates. In quo puncto 
+          commu<lb break="no" ed="#P" n="24"/>nis resolutio, ac generalis regula est negativa.
+          <lb ed="#P" n="25"/>Quae a paritate rationis videtur concludi, non
+          <lb ed="#P" n="26"/>magis habere Angelos potestatem efficiendi
+          <lb ed="#P" n="27"/>qualitates in corporibus, quam educendi 
+          for<lb break="no" ed="#P" n="28"/>mas substantiales ex materia. Quia licet forma
+          <lb ed="#P" n="29"/>substantialis materialis ex suo genere 
+          perfec<lb break="no" ed="#P" n="30"/>tior sit, quam corporeae qualitates, et inde
+          <lb ed="#P" n="31"/>non videatur illatio a negatione potestatis ad
+          <lb ed="#P" n="32"/>producendum perfectiorem effectum minus
+          <lb ed="#P" n="33"/>perfectum, nihilominus considerato 
+          fundamen<lb break="no" ed="#P" n="34"/>to illius impotentiae est satis efficax consecutio.
+        </p>
+        <p xml:id="szdada-x13085-d1e152">
+          <lb ed="#P" n="35"/>2. Declaratur. — Declaratur, quia qualitas
+          <lb ed="#P" n="36"/>corporea in hoc convenit cum forma material,
+          <lb ed="#P" n="37"/>quod sicut haec fit per eductionem de potentia
+          <lb ed="#P" n="38"/>materiae, ita etiam illa fit per eductionem ex
+          <lb ed="#P" n="39"/>potentia ejusdem materiae, vel compositi 
+          ma<lb break="no" ed="#P" n="40"/>terialis, et ideo eadem improportio invenitur
+          <lb ed="#P" n="41"/>in Angelo subsistente extra omnem materiam
+          <lb ed="#P" n="42"/>ad has qualitates producendas, quae ad 
+          sub<lb break="no" ed="#P" n="43"/>stantiales formas. Et ita in ipsissubstantialibus
+          <lb ed="#P" n="44"/>formis in hoc non attenditur major, vel 
+          mi<lb break="no" ed="#P" n="45"/>nor perfectio, sed eadem improportio, et 
+          im<lb break="no" ed="#P" n="46"/>potentia censetur esse in Angelo ad minimam
+          <lb ed="#P" n="47"/>formam, quae ad maximam; ergo similiter 
+          ea<lb break="no" ed="#P" n="48"/>dem est ad materialem qualitatem, quae ad
+          <lb ed="#P" n="49"/>formam substantialem. Accedit, quod nulla
+          <lb ed="#P" n="50"/>est ratio, vel fundamentum ad asserendum
+          <lb ed="#P" n="51"/>Angelum continere eminenter has qualitates,
+          <lb ed="#P" n="52"/>quod esset necessarium ut illas efficere posset.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>Assumptum probari potest supra facto discursu
+          <lb ed="#P" n="54"/>circa substantiam, nam eadem est ratio, seu
+          <lb ed="#P" n="55"/>proportio. Atque ita sententiam hanc contra
+          <lb ed="#P" n="56"/>Avicennam aperte docet D. Thomas 3, contr.
+          <lb ed="#P" n="57"/>Gent., cap. 103, et idem sentit, 1 part., dist.
+          <lb ed="#P" n="58"/>q. 110, art. 2, ad 2 et 3, art. 3, ad 2, 
+          quate<lb break="no" ed="#P" n="59"/>nus ait, Angelum solum mediante motu 
+          loca<lb break="no" ed="#P" n="60"/>li, et applicando activa passivis, esse posse 
+          cau<lb break="no" ed="#P" n="61"/>sam aliarum mutationum in corporibus, et
+          <lb ed="#P" n="62"/>idem sentiunt Bonaventura, Richardus, 
+          Du<lb break="no" ed="#P" n="63"/>randus in locis citatis in capite praecedenti.
+        </p>
+        <p xml:id="szdada-x13085-d1e221">
+          <lb ed="#P" n="64"/>3. Opinio Thomistarum distinguens 
+          quali<lb break="no" ed="#P" n="65"/>tates in reales, et intentionales. — Nonnulli vero
+          <lb ed="#P" n="66"/>ex Thomistis ex parte ab hac generali 
+          asser<lb break="no" ed="#P" n="67"/>tione dissentiunt. Distinguunt enim duos 
+          ordi<lb break="no" ed="#P" n="68"/>nes qualitatum, quasdam vocant reales, vel
+          <lb ed="#P" n="69"/>materiales, aut physicas, quasi per 
+          antonoma<lb break="no" ed="#P" n="70"/>siam, ut eas distinguant ab aliis, quas vocant
+          <lb ed="#P" n="71"/>intentionales, quae licet reales etiam sint (alias
+          <lb ed="#P" n="72"/>nihil essent) non sunt ita crassae, et 
+          materia<lb break="no" ed="#P" n="73"/>les, sicut aliae, sed subtilioris naturae, nec 
+          dis<lb break="no" ed="#P" n="74"/>ponunt materiam ad formam substantialem,
+          <lb ed="#P" n="75"/>neque ex illa, aut ex dispositionibus ejus 
+          re<lb break="no" ed="#P" n="76"/>sultant, nec habent esse permanens, sed 
+          ah<lb break="no" ed="#P" n="77"/>quo modo transitorium. In priori ordine 
+          con<lb break="no" ed="#P" n="78"/>stituunt imprimis quatuor primas qualitates
+          <lb ed="#P" n="79"/>Elementorum, et deinde alias secundas 
+          quali<lb break="no" ed="#P" n="80"/>tates, quae ex primarum mixtione resultant,
+          <lb ed="#P" n="81"/>ac denique omnes, quae sunt proprietates 
+          con<lb break="no" ed="#P" n="82"/>naturales consequentes substantiales formas.
+          <lb ed="#P" n="83"/>In secundo ordine ponunt qualitates quasdam,
+          <lb ed="#P" n="84"/>quas instrumentarias vocant, quia sunt veluti
+          <lb ed="#P" n="85"/>instrumenta impressa inferioribus corporibus
+          <lb ed="#P" n="86"/>a superioribus agentibus, ut eis tanquam 
+          in<lb break="no" ed="#P" n="87"/>strumentis utantur, vel si quae aliae similes in
+          <lb ed="#P" n="88"/>corporibus fiunt.
+        </p>
+        <p xml:id="szdada-x13085-d1e278">
+          <lb ed="#P" n="89"/>4. Et admittens datam resolutionem in 
+          rea<lb break="no" ed="#P" n="90"/>libus. — Non vero in intentionalibus. — De 
+          qua<lb break="no" ed="#P" n="91"/>litatibus ergo primis ordinis fatentur omnes
+          <lb ed="#P" n="92"/>Thomistae non posse per se et immediate fieri
+          <lb ed="#P" n="93"/>ab Angelis in corporibus propter rationes 
+          tac<lb break="no" ed="#P" n="94"/>tas. Et quia cum Angeli non possint producere
+          <lb ed="#P" n="95"/>substantiam, eadem ratione non possunt 
+          qua<lb break="no" ed="#P" n="96"/>litates, quae ad illam disponunt, vel quae ad
+          <lb ed="#P" n="97"/>illam naturaliter consequuntur, efficere. Item
+          <lb ed="#P" n="98"/>quia alias posset Angelus efficere in materia
+          <lb ed="#P" n="99"/>totam dispositionem, et organisationem 
+          acci<lb break="no" ed="#P" n="100"/>dentalem, quam anima rationalis in corpore
+          <lb ed="#P" n="101"/>requirit, et ita posset animam separatam 
+          ite<lb break="no" ed="#P" n="102"/>rum corpori unire, illud iterum disponendo.
+          <lb ed="#P" n="103"/>At vero de qualitatibus secundi ordinis 
+          limi<lb break="no" ed="#P" n="104"/>tant assertionem nostram, dicentes posse ab
+          <lb ed="#P" n="105"/>Angelo immediate per se fieri. Ad hoc autem
+          <lb ed="#P" n="106"/>asserendum moti surt, veloccasione explicandi
+          <lb ed="#P" n="107"/>mocum, quo Angelus est in loco per opera-
+          <pb ed="#P" n="520"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tonem. aut applicationem virtutis, ut ex 
+          Ca<lb break="no" ed="#P" n="2"/>preolo, Cajetano, Ferrariense, et aliis supra 
+          ca<lb break="no" ed="#P" n="3"/>pitibus tertio, quarto et quinto notavimus; vel
+          <lb ed="#P" n="4"/>etiam moventur occasione explicandi 
+          causali<lb break="no" ed="#P" n="5"/>tatem Angelorum per corpora tanquam per
+          <lb ed="#P" n="6"/>instrumenta, elevando illa ad aliquid 
+          agen<lb break="no" ed="#P" n="7"/>dum ultra naturalem virtutem corporum. Nam
+          <lb ed="#P" n="8"/>hunc agendi modum aperte tribuit Angelis 
+          di<lb break="no" ed="#P" n="9"/>vus Thomas, locis capite praecedenti citatis, et
+          <lb ed="#P" n="10"/>in 92, d. 15, q. 1, art. 2. Ad hanc autem 
+          in<lb break="no" ed="#P" n="11"/>strumentalem causalitatem necesse est, ut 
+          ali<lb break="no" ed="#P" n="12"/>qua virtus profluat ab Angelo in corpus, quo
+          <lb ed="#P" n="13"/>tanquam instrumento utitur: virtus autem
+          <lb ed="#P" n="14"/>illa esse non potest, nisi qualitas aliqua 
+          inten<lb break="no" ed="#P" n="15"/>tionalis. Et ita docuit Soncinas, l. 7 
+          Metaphy<lb break="no" ed="#P" n="16"/>sicae, quaest. 25, praeter alios Thomistas, quos
+          <lb ed="#P" n="17"/>retuli.
+        </p>
+        <p xml:id="szdada-x13085-d1e363">
+          <lb ed="#P" n="18"/>5. Fera resolutio universalis, et negativa.—
+          <lb ed="#P" n="19"/>Probatur primo.—Probatur secundo. —Sed 
+          h<lb break="no" ed="#P" n="20"/>mitatio haec admittenda non est, sed 
+          universa<lb break="no" ed="#P" n="21"/>liter negandum, posse Angelum per se, et
+          <lb ed="#P" n="22"/>propria virtute naturali qualitatem aliquam
+          <lb ed="#P" n="23"/>in corpore efficere. lta dixi in citatis locis 
+          Me<lb break="no" ed="#P" n="24"/>taphysicae, et tenet Fonseca, lib. 7 
+          Metaphysi<lb break="no" ed="#P" n="25"/>cae, cap. 7. q. 7, sect. 1 et 3, et Vasquez, 1 p.,
+          <lb ed="#P" n="26"/>disput. 218, cap. 3, et sumitur ex aliis 
+          aucto<lb break="no" ed="#P" n="27"/>ribus citatis, quatenus indistincte loquuntur.
+          <lb ed="#P" n="28"/>Probaturque primo ab incommodis. Quia 
+          se<lb break="no" ed="#P" n="29"/>queretur posse Angelum per se illuminare 
+          lo<lb break="no" ed="#P" n="30"/>cum tenebrosum sine applicatione alicujus 
+          cor<lb break="no" ed="#P" n="31"/>poris luminosi, quod non minus incredibile
+          <lb ed="#P" n="32"/>est, quam quod possit calorem, vel colorem
+          <lb ed="#P" n="33"/>per se producere. Sequela probatur, quia 
+          lu<lb break="no" ed="#P" n="34"/>men non immerito potest inter quahtates 
+          in<lb break="no" ed="#P" n="35"/>tentionales computari, quatenus et per se non
+          <lb ed="#P" n="36"/>disponit ad formam substantialem, neque ex
+          <lb ed="#P" n="37"/>forma resultat, sed est quasi imperfecta lucis
+          <lb ed="#P" n="38"/>participatio. Item sequitur, posse Angelum 
+          ef<lb break="no" ed="#P" n="39"/>ficere species visibiles in aere, speculo, aut
+          <lb ed="#P" n="40"/>oculo sine objecto visibili, quia illae species
+          <lb ed="#P" n="41"/>sunt intentionales qualitates. Idemque 
+          sequi<lb break="no" ed="#P" n="42"/>tur de speciebus aliorum sensuum. Et eadem
+          <lb ed="#P" n="43"/>ratione posset efficere sonum in aere sine ulla
+          <lb ed="#P" n="44"/>ejus percussione, commotione, vel divisione,
+          <lb ed="#P" n="45"/>quia sonus satis intentionalis transiens 
+          quali<lb break="no" ed="#P" n="46"/>tas dici potest. Haec autem omnia, et 
+          incredi<lb break="no" ed="#P" n="47"/>bilia sunt, et si haec admittantur, facile erit
+          <lb ed="#P" n="48"/>plures alios praeternaturales effectus Angelis
+          <lb ed="#P" n="49"/>tribuere. Unde argumentamur secundo, nam
+          <lb ed="#P" n="50"/>cadem est ratio de his qualitatibus, quae de
+          <lb ed="#P" n="51"/>caeteris; et nominum mutatio parum refert.
+          <lb ed="#P" n="52"/>Nam istae qualitates etiam educuntur de 
+          po<lb break="no" ed="#P" n="53"/>tentia materialis subjecti, et necesse est, ut
+          <lb ed="#P" n="54"/>contineantur formaliter, vel eminenter in 
+          cau<lb break="no" ed="#P" n="55"/>sa a qua per se, et proxime fiunt virtute pro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pria. Hae autem sunt proprie rationes, 
+          prop<lb break="no" ed="#P" n="57"/>ter quas aliae qualitates ab Angelis fieri posse
+          <lb ed="#P" n="58"/>negamus, quod autem qualitates sint magis
+          <lb ed="#P" n="59"/>vel minus permanentes, seu transeuntes, vel
+          <lb ed="#P" n="60"/>potius dependentes a suis proximis causis, aut
+          <lb ed="#P" n="61"/>quod sint magis, vel minus subtiles, vim 
+          illa<lb break="no" ed="#P" n="62"/>rum rationum non immutat.
+        </p>
+        <p xml:id="szdada-x13085-d1e465">
+          <lb ed="#P" n="63"/>6. Tertio, et principaliter. — Tertio, ac 
+          prae<lb break="no" ed="#P" n="64"/>cipue arguitur, quia illae duae rationes, vel
+          <lb ed="#P" n="65"/>occasiones excipiendi has qualitates frustra,
+          <lb ed="#P" n="66"/>et sine fundamento excogitatae sunt. Nam de
+          <lb ed="#P" n="67"/>priori satis in superioribus ostensum est, 
+          An<lb break="no" ed="#P" n="68"/>gelum non esse in loco per operationem.
+          <lb ed="#P" n="69"/>Quamvis enim ad illud probandum usi etiam
+          <lb ed="#P" n="70"/>fuerimus hoc medio, et fundamento, quod
+          <lb ed="#P" n="71"/>nunc persuadere conamur: non fuit 
+          ta<lb break="no" ed="#P" n="72"/>men haec propria ratio, et a priori, et ideo
+          <lb ed="#P" n="73"/>sine vitioso circulo possumus nunc ab illo
+          <lb ed="#P" n="74"/>principio, ut alias probato, argumentari. 
+          Prae<lb break="no" ed="#P" n="75"/>sertim, quia nunc solum dicimus non esse 
+          ne<lb break="no" ed="#P" n="76"/>cessarium propter existentiam in loco hanc
+          <lb ed="#P" n="77"/>operationem Angelo tribuere, cum non desit
+          <lb ed="#P" n="78"/>Angelo alia ratio existendi in loco, quae 
+          ne<lb break="no" ed="#P" n="79"/>cessario est supponenda ad talem operationem,
+          <lb ed="#P" n="80"/>etiamsi fingeremus, vel admitteremus esse
+          <lb ed="#P" n="81"/>possibilem. Praeterquam quod propter 
+          ratio<lb break="no" ed="#P" n="82"/>nem adeo extrinsecam non sunt fingendae
+          <lb ed="#P" n="83"/>qualitates, quae nec experimento, aut signo
+          <lb ed="#P" n="84"/>aliquo moveri, nec satis explicari, aut concipi
+          <lb ed="#P" n="85"/>possunt. Nec etiam tribuenda est Angelis talis
+          <lb ed="#P" n="86"/>potestas contra generalem regulam: nam illa
+          <lb ed="#P" n="87"/>exceptio enervat omnem rationem ad 
+          negan<lb break="no" ed="#P" n="88"/>dum Angelis potestatem alias qualitates 
+          effi<lb break="no" ed="#P" n="89"/>ciendi.
+        </p>
+        <p xml:id="szdada-x13085-d1e526">
+          <lb ed="#P" n="90"/>7. Probatur quarto. — Atque hae rationes
+          <lb ed="#P" n="91"/>ex parte habent vim contra alias qualitates
+          <lb ed="#P" n="92"/>instrumentarias, ut sic dicam, quasaliis etiam
+          <lb ed="#P" n="93"/>modis in citatis locis Metaphysicae impugnavi.
+          <lb ed="#P" n="94"/>Et hic addi potest ratio ex dictis desumpta,
+          <lb ed="#P" n="95"/>quae mihi videtur satis efficax: nam efficientia
+          <lb ed="#P" n="96"/>talium qualitatum supponere debet in Angelo
+          <lb ed="#P" n="97"/>virtutem principalem effectricem illarum 
+          for<lb break="no" ed="#P" n="98"/>marum, ad quas instrumentaliter efficiendas
+          <lb ed="#P" n="99"/>illae qualitates instrumentariae praemittuntur,
+          <lb ed="#P" n="100"/>quia istae dicuntur eflicere in virtute 
+          princi<lb break="no" ed="#P" n="101"/>palis agentis, utique Angeli; ergo illae 
+          qualita<lb break="no" ed="#P" n="102"/>tates supponunt in Angelo virtutem 
+          principa<lb break="no" ed="#P" n="103"/>lem. Quomodo enim erit principale agens,
+          <lb ed="#P" n="104"/>nisi virtutem principalem habeat? Ostensum
+          <lb ed="#P" n="105"/>autem est, Angelum non habere hanc 
+          princi<lb break="no" ed="#P" n="106"/>palem virtutem ad efficiendas formas 
+          substan<lb break="no" ed="#P" n="107"/>tiales, propter quas efficiendas qualtates istae
+          <lb ed="#P" n="108"/>instrumentariae a dictis auctoribus introductae
+          <lb ed="#P" n="109"/>sunt; ergo frustra ponuntur. Et confirmari
+          <lb ed="#P" n="110"/>hoc potest: nam si semel admittamus Ange-
+          <pb ed="#P" n="521"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lum per hujusmodi instrumenta posse per se,
+          <lb ed="#P" n="2"/>ac principaliter efficere substantiam, eadem
+          <lb ed="#P" n="3"/>ratione posset saltem perfectior Angelus 
+          effi<lb break="no" ed="#P" n="4"/>cere eodem modo perfecta animalia. Nulla 
+          e<lb break="no" ed="#P" n="5"/>nim ratio differentiae assignari potest, imo
+          <lb ed="#P" n="6"/>inde enervantur rationes omnes in priori 
+          punc<lb break="no" ed="#P" n="7"/>to factae.
+        </p>
+        <p xml:id="szdada-x13085-d1e594">
+          <lb ed="#P" n="8"/>8. Evcasio preecluditur.—bices saltem posse
+          <lb ed="#P" n="9"/>esse utiles hujusmodi qualitates ad efficienda
+          <lb ed="#P" n="10"/>alia accidentia corporalia nobiliora. Sed hoc
+          <lb ed="#P" n="11"/>eadem forma argumentandoimpugnatur. Quia
+          <lb ed="#P" n="12"/>Angelus non potest esse principale agens 
+          alio<lb break="no" ed="#P" n="13"/>rum accidentium, quia illa eminenter non
+          <lb ed="#P" n="14"/>continet, cum nulla ratiosufficiens hujus 
+          emi<lb break="no" ed="#P" n="15"/>nentiae reddi possit. Item quia si haec potestas
+          <lb ed="#P" n="16"/>semel in Angelo admittitur, dici consequenter
+          <lb ed="#P" n="17"/>posset habere Angelum virtutem principalem
+          <lb ed="#P" n="18"/>ad disponenda, vel organisanda corpora ad
+          <lb ed="#P" n="19"/>animas, vel alias formas substantiales per illas
+          <lb ed="#P" n="20"/>qualitates instrumentarias tanquam per 
+          vir<lb break="no" ed="#P" n="21"/>tutes seminales, quod magnum esset 
+          absur<lb break="no" ed="#P" n="22"/>dum. Et sequela patet, quia tota illa 
+          disposi<lb break="no" ed="#P" n="23"/>tio fit per accidentia. Neque posset cum
+          <lb ed="#P" n="24"/>fundamento limitari virtus Angeli ad haec 
+          ac<lb break="no" ed="#P" n="25"/>cidentia potius, quam ad illa, quia Angelus
+          <lb ed="#P" n="26"/>eminentior est illis omnibus accidentibus, et
+          <lb ed="#P" n="27"/>modus illa efficiendi idem in omnibus esset.
+          <lb ed="#P" n="28"/>Denique si in Angelo esset virtus principalis
+          <lb ed="#P" n="29"/>ad efficiendum calorem, vel similia accidentia,
+          <lb ed="#P" n="30"/>frustra diceretur efficere illa mediis aliis 
+          qua<lb break="no" ed="#P" n="31"/>litatibus instrumentariis. Nam si haec potest
+          <lb ed="#P" n="32"/>immediate sua voluntate, vel alia virtute 
+          in<lb break="no" ed="#P" n="33"/>trinseca efficere, cur non reliqua accidentia,
+          <lb ed="#P" n="34"/>quae virtute etiam continet. Quia omnes sunt
+          <lb ed="#P" n="35"/>materiales qualitates, et modus producendi
+          <lb ed="#P" n="36"/>illas per eductionem de potentia subjecti 
+          cor<lb break="no" ed="#P" n="37"/>poralis idem esset. Nulla est ergo necessitas
+          <lb ed="#P" n="38"/>ponendi tales qualitates, vel tribuendi Angelis
+          <lb ed="#P" n="39"/>illam efficiendi potestatem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

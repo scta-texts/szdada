@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 38</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 38</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="360"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x09057"><!-- l2c38 -->
+        <head xml:id="szdada-x09057-Hd1e101">Caput 38</head>
+        <head xml:id="szdada-x09057-Hd1e103" type="question-title">Utrum in angelis sint habitus intellectuales, vel naturales, vel acquisiti</head>
+        <p xml:id="szdada-x09057-d1e106">
+          <lb ed="#P" n="8"/>CAPUT XXXVIII.
+          <lb ed="#P" n="9"/>UTRUM IN ANGELIS SINT HABITUS INTELLECTUALES,
+          <lb ed="#P" n="10"/>VEL NATURALES, VEL ACQUISITI?
+        </p>
+        <p xml:id="szdada-x09057-d1e115">
+          <lb ed="#P" n="11"/>1. Habitus communissime dividitur, et alia,
+          <lb ed="#P" n="12"/>atque alia subdivisio traditur. — Diximus de
+          <lb ed="#P" n="13"/>potentia, et actibus intellectus angelici, 
+          su<lb break="no" ed="#P" n="14"/>perest ut de habitibus verbum unum 
+          adjicia<lb break="no" ed="#P" n="15"/>mus. Solent autem distingui duplices habitus,
+          <lb ed="#P" n="16"/>quidam disponentes subjectum in ordine ad se,
+          <lb ed="#P" n="17"/>et ad suam naturam, et suum esse, alii 
+          dispo<lb break="no" ed="#P" n="18"/>nentes subjectum in ordine ad operationes, ut
+          <lb ed="#P" n="19"/>videri potest in D. Thoma 1, 2, q. 49, art.1
+          <lb ed="#P" n="20"/>et 3. Priores non habent locum in Angelis,
+          <lb ed="#P" n="21"/>ut idem D. Thomas adjunxit 1, 2, q. 50, art. 6,
+          <lb ed="#P" n="22"/>in fine corporis. Quia Angelorum substantia
+          <lb ed="#P" n="23"/>immaterialis est, simplex et incorruptibilis, et
+          <lb ed="#P" n="24"/>ideo secundum se nullo naturali habitu 
+          indi<lb break="no" ed="#P" n="25"/>gere potest: de posterioribus vero habitibus,
+          <lb ed="#P" n="26"/>qui immediate sunt in potentiis, potest esse
+          <lb ed="#P" n="27"/>aliqua dubitatio, quam nunc de intellectu
+          <lb ed="#P" n="28"/>tractamus, nam de voluntate postea dicemus.
+          <lb ed="#P" n="29"/>Deinde adverto, aliquando solere species 
+          in<lb break="no" ed="#P" n="30"/>telligibiles (ut in superioribus dixi) inter 
+          ha<lb break="no" ed="#P" n="31"/>bitus intellectuscomputari, quatenus adduntur
+          <lb ed="#P" n="32"/>potentia, et in solo actu primo in illa 
+          perma<lb break="no" ed="#P" n="33"/>nere possunt, et habens illas eis utitur, cum
+          <lb ed="#P" n="34"/>vult. Unde distingui solet duplex habitus, unus
+          <lb ed="#P" n="35"/>tenens se ex parte objecti, ut est species,
+          <lb ed="#P" n="36"/>alius tenens se ex parte potentiae, quam 
+          con<lb break="no" ed="#P" n="37"/>fortat, inclinat, et faciliorem ad operandum
+          <lb ed="#P" n="38"/>reddit: qualis est in nobis scientia, fides, vel
+          <lb ed="#P" n="39"/>opinio. De prioribus ergo habitibus jam 
+          dixi<lb break="no" ed="#P" n="40"/>mus propter connexionem, quam cum 
+          objec<lb break="no" ed="#P" n="41"/>tis habent, quorum vicem subeunt, de altero
+          <lb ed="#P" n="42"/>vero genere habituum in praesenti tractamus.
+          <lb ed="#P" n="43"/>Potest item hic habitus esse duplex, scilicet,
+          <lb ed="#P" n="44"/>ordinis naturalis, vel supernaturalis, de hoc
+          <lb ed="#P" n="45"/>posteriori genere habituum, qui per 
+          antono<lb break="no" ed="#P" n="46"/>masiam infusi dicuntur, nunc non agimus,
+          <lb ed="#P" n="47"/>sed in libro quinto et sequentes id reservamus.
+          <lb ed="#P" n="48"/>Agimus ergo de habitibus ordinis naturalis,
+          <lb ed="#P" n="49"/>qui acquisiti vere, ac proprie dicuntur, tamen
+          <lb ed="#P" n="50"/>quia illud ipsum potest in quaestionem venire,
+          <lb ed="#P" n="51"/>communiori voce utimur. Tribus enim modis
+          <lb ed="#P" n="52"/>potest hujusmodi habitus in Angelis, sicut e-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tiam in hominibus, cogitari. Primo quod sit
+          <lb ed="#P" n="54"/>naturalis, non tantum quoad entitatem, sed
+          <lb ed="#P" n="55"/>etiam quoad modum suae productionis, 
+          scili<lb break="no" ed="#P" n="56"/>cet quia est manans a natura, vel a lumine
+          <lb ed="#P" n="57"/>angelico per modum proprietatis intrinsecae ,
+          <lb ed="#P" n="58"/>sicut calor, vel siccitas dicitur naturalis igni.
+          <lb ed="#P" n="59"/>Secundo, ut sit naturalis, et additus naturae,
+          <lb ed="#P" n="60"/>sit tamen ab ipso auctore naturae a principio
+          <lb ed="#P" n="61"/>inditus, sicut de speciebus intelligibilibus 
+          An<lb break="no" ed="#P" n="62"/>gelorum diximus. Tertio, ut sit propriis 
+          acti<lb break="no" ed="#P" n="63"/>bus acquisitus.
+        </p>
+        <p xml:id="szdada-x09057-d1e235">
+          <lb ed="#P" n="64"/>2. Prima conclusio. — In Angelis nullus est
+          <lb ed="#P" n="65"/>habitus emanans ab essentia. — Rejicitur 
+          opi<lb break="no" ed="#P" n="66"/>nio contraria Medime. — Vt ergo certa ab 
+          in<lb break="no" ed="#P" n="67"/>certis separemus, statuimus in Angelis 
+          nul<lb break="no" ed="#P" n="68"/>lum esse hujusmodi habitum intellectualem
+          <lb ed="#P" n="69"/>per modum naturalis proprietatis emanantis
+          <lb ed="#P" n="70"/>ab essentia Angeli, vel immediate, vel 
+          me<lb break="no" ed="#P" n="71"/>diante lumine angelico. Est communis 
+          asser<lb break="no" ed="#P" n="72"/>tio; et fere extra controversiam. Et ratio
+          <lb ed="#P" n="73"/>sufficiens est, quia est superfluum fingere in
+          <lb ed="#P" n="74"/>Angelo talem habitum, qui sit qualitas 
+          dis<lb break="no" ed="#P" n="75"/>tincta ab intellectu ejus, et naturaliter ab illo
+          <lb ed="#P" n="76"/>profluens ut ipsum habiliorem, vel potentiorem,
+          <lb ed="#P" n="77"/>aut faciliorem ad operandum reddat. Quia si
+          <lb ed="#P" n="78"/>haec perfectio naturalis est, et intrinseca 
+          intel<lb break="no" ed="#P" n="79"/>lectui angelico, melius intelligitur convenire
+          <lb ed="#P" n="80"/>lumini intellectus angelici per seipsum, et per
+          <lb ed="#P" n="81"/>suam simplicem qualitatem, ita ut intellectus
+          <lb ed="#P" n="82"/>Angeli totam illam perfectionem habeat sibi
+          <lb ed="#P" n="83"/>essentialem, et cum tota illa a substantia 
+          An<lb break="no" ed="#P" n="84"/>geli in sua simplici entitate dimanet. Ergo
+          <lb ed="#P" n="85"/>talis est intellectus angelicus, et alia 
+          multiph<lb break="no" ed="#P" n="86"/>catio entitatum, et compositio superflua esset,
+          <lb ed="#P" n="87"/>et consequenter gratis ficta. Unde etiam 
+          theo<lb break="no" ed="#P" n="88"/>logi recte sentientes negant habitum 
+          princi<lb break="no" ed="#P" n="89"/>piorum in nobis esse qualitatem distinctam a
+          <lb ed="#P" n="90"/>nostro intellectu, et connaturalem illi, 
+          tan<lb break="no" ed="#P" n="91"/>quam proprietatem ab ipso, vel ab anima 
+          ma<lb break="no" ed="#P" n="92"/>nentem, quia intellectus per seipsum totam
+          <lb ed="#P" n="93"/>perfectionem naturalem ad judicandum de illis
+          <lb ed="#P" n="94"/>principiis, quam intrinsece natura hominis
+          <lb ed="#P" n="95"/>postulat, secum afferre potest. Denique qua
+          <lb ed="#P" n="96"/>ratione fingatur lumen intellectus angelicum,
+          <lb ed="#P" n="97"/>non habere per seipsum totam perfectionem
+          <lb ed="#P" n="98"/>naturalem, quam talis natura connaturaliter
+          <lb ed="#P" n="99"/>postulat in proxima potentia intelligendi, sed
+          <lb ed="#P" n="100"/>illam coalescere ex duabus, posset quis dicere,
+          <lb ed="#P" n="101"/>etiam secundam qualitatem non suflicere, sed
+          <lb ed="#P" n="102"/>illam debere per aliam perfici, et sic 
+          procede<lb break="no" ed="#P" n="103"/>retur in infinitum, vel ad libitum in aliquo
+          <lb ed="#P" n="104"/>certo numero sisteretur, ergo sistendum est
+          <lb ed="#P" n="105"/>in simplici entitate potentiae, et omnis alia
+          <lb ed="#P" n="106"/>qualitas naturalis abjicienda est. Contra hanc
+          <lb ed="#P" n="107"/>assertionem videtur sentire Medina1, 2, q. 51,
+          <pb ed="#P" n="361"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>art. 1, circa ult. concl., dicens, cunctos 
+          theo<lb break="no" ed="#P" n="2"/>logos constituere in Angelis habitus scientiae
+          <lb ed="#P" n="3"/>naturalter indito: sed non video, qui sint isti
+          <lb ed="#P" n="4"/>theologi, nisi fortasse habitum vocet ipsum
+          <lb ed="#P" n="5"/>lumen intellectus, quod ab speciebus 
+          distinc<lb break="no" ed="#P" n="6"/>tum quidem est, non tamen ab intellectu, et
+          <lb ed="#P" n="7"/>ideo improprie habitus appellatur.
+        </p>
+        <p xml:id="szdada-x09057-d1e353">
+          <lb ed="#P" n="8"/>3. Secunda conclusio. — Angelis non insunt
+          <lb ed="#P" n="9"/>habitus ab auctore naturae inditi. — Probatur
+          <lb ed="#P" n="10"/>primo de habitibus ad substantiam actus. —
+          <lb ed="#P" n="11"/>Secundo eadem ratione certum est, non 
+          ha<lb break="no" ed="#P" n="12"/>bere Angelos aliquem habitum proprium ab
+          <lb ed="#P" n="13"/>auctore naturae inditum et intellectui 
+          super<lb break="no" ed="#P" n="14"/>additum. Probatur, quia vel talis habitus est
+          <lb ed="#P" n="15"/>necessarius ad substantiam actus, vel ad 
+          faci<lb break="no" ed="#P" n="16"/>lius operandum: neutrum dici potest, ergo.
+          <lb ed="#P" n="17"/>Probatur minor, quoad priorem partem 
+          dis<lb break="no" ed="#P" n="18"/>cursu fere jam facto. Quia si talis habitus esset
+          <lb ed="#P" n="19"/>necessarius ad substantiam actus, esset 
+          neces<lb break="no" ed="#P" n="20"/>sarius, ut Angelus posset elicere actum 
+          intelli<lb break="no" ed="#P" n="21"/>gendi, quia sine illo simpliciter non posset
+          <lb ed="#P" n="22"/>actum elicere, etiamsi haberet speciem, quia
+          <lb ed="#P" n="23"/>hujusmodi est necessitas habitus ad 
+          substan<lb break="no" ed="#P" n="24"/>tiam actus, ut ex usuterminorum supponimus.
+          <lb ed="#P" n="25"/>Consequens autem est plane falsum, quia fieret
+          <lb ed="#P" n="26"/>inde, intellectum Angeli non esse integram
+          <lb ed="#P" n="27"/>potentiam intellectivam ex parte Angeli, sed
+          <lb ed="#P" n="28"/>esse tantum dimidiatam et inchoatam in illo
+          <lb ed="#P" n="29"/>genere, quod est contra perfectionem 
+          intellec<lb break="no" ed="#P" n="30"/>tus angelici et humani. Unde in hoc est notanda
+          <lb ed="#P" n="31"/>magna differentia inter speciem intelligibilem
+          <lb ed="#P" n="32"/>et alium habitum se tenentem ex parte 
+          poten<lb break="no" ed="#P" n="33"/>tiae. Nam species sunt requisitae ex parte 
+          ob<lb break="no" ed="#P" n="34"/>jectorum, et ideo adduntur potentiae, etiamsi
+          <lb ed="#P" n="35"/>activitas potentiae completa sit, quantum ex
+          <lb ed="#P" n="36"/>parte ipsius esse potest. Est enim haec natura
+          <lb ed="#P" n="37"/>intellectus, vel potius omnis cognoscitivae 
+          fa<lb break="no" ed="#P" n="38"/>cultatis, ut non sit sola principium integrum
+          <lb ed="#P" n="39"/>sui actus, sed indigeat semper cooperatione
+          <lb ed="#P" n="40"/>objecti, cujus vicem supplet species, et ideo
+          <lb ed="#P" n="41"/>licet sint necessariae ad substantiam actus, 
+          dis<lb break="no" ed="#P" n="42"/>tinguuntur a potentia, et Angelis a principio
+          <lb ed="#P" n="43"/>inditae sunt, ut essent perfecte constituti in
+          <lb ed="#P" n="44"/>actu primo ad intelligendum. At vero proprii
+          <lb ed="#P" n="45"/>habitus, de quibus nunc loquimur, adduntur
+          <lb ed="#P" n="46"/>potentiis, veluti ad augendam virtutem agendi
+          <lb ed="#P" n="47"/>ex parte ipsarum, et ideo ad actus ordinis 
+          na<lb break="no" ed="#P" n="48"/>turalis non sunt necessarii tales habitus ad
+          <lb ed="#P" n="49"/>substantiam actus, quoniam habent potentiam
+          <lb ed="#P" n="50"/>ex parte sua suflicientem ad hujusmodi actus.
+        </p>
+        <p xml:id="szdada-x09057-d1e449">
+          <lb ed="#P" n="51"/>4. Probatur deinde de habitibus ad 
+          facilita<lb break="no" ed="#P" n="52"/>tem actus.—Et hinc facile probatur altera pars
+          <lb ed="#P" n="53"/>minoris, quia lumen angelicum est perfectum,
+          <lb ed="#P" n="54"/>et sine impedimento veritates naturales 
+          co<lb break="no" ed="#P" n="55"/>gnoscit, et ideo non indiget respectu illarum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>habitu facilitante potentiam, ut statim 
+          proba<lb break="no" ed="#P" n="57"/>bimus. Et quamvis illius esset capax, non 
+          ha<lb break="no" ed="#P" n="58"/>beret illum infusum a principio, quia talis 
+          ha<lb break="no" ed="#P" n="59"/>bitus acquiri posset per proprios actus: et ideo
+          <lb ed="#P" n="60"/>non infunderetur per accidens: nam ille 
+          mo<lb break="no" ed="#P" n="61"/>dus supernaturalis est et extraordinarius in
+          <lb ed="#P" n="62"/>habitibus acquisitis: maxime in natura 
+          ange<lb break="no" ed="#P" n="63"/>lica, quae summa velocitate illos acquirere
+          <lb ed="#P" n="64"/>posset, si illis indigeret. Nec ab his duabus
+          <lb ed="#P" n="65"/>conclusionibus dissentit divus Thomas, 1, 2,
+          <lb ed="#P" n="66"/>quaest. 50, a. 5, ubi habitus in Angelis ponit,
+          <lb ed="#P" n="67"/>quos non in potentia tantum, sed in actu 
+          pri<lb break="no" ed="#P" n="68"/>mo semper habent. Nam ibi aperte loquitur de
+          <lb ed="#P" n="69"/>speciebus intelligibilibus, ut patet ex illis 
+          ver<lb break="no" ed="#P" n="70"/>bis, Angelus indiget perfici habitualiter per
+          <lb ed="#P" n="71"/>aliquas species ad operationem propriam. Et
+          <lb ed="#P" n="72"/>idem repetit in solutione ad 2. Et simili modo
+          <lb ed="#P" n="73"/>Henricus, quodlib. 4, q. 7, et quodl. 5, q. 14,
+          <lb ed="#P" n="74"/>ponens in Angelis habitum scientialem 
+          inna<lb break="no" ed="#P" n="75"/>tum, seu naturalem, per modum universalis
+          <lb ed="#P" n="76"/>speciei illum ponere videtur, ut supra 
+          dixi<lb break="no" ed="#P" n="77"/>mus. Ferrariensis vero 1, contra Gent., c. 56,
+          <lb ed="#P" n="78"/>in fine rationis 5, dicit, in Angelis habitum
+          <lb ed="#P" n="79"/>esse quamdam habilitatem distinctam ab 
+          spe<lb break="no" ed="#P" n="80"/>ciebus, statim vero addit, sive illa sit aliquid
+          <lb ed="#P" n="81"/>distinctum ab intellectu, sive sit ipsum lumen
+          <lb ed="#P" n="82"/>angelici intellectus; sed sine dubio hoc 
+          poste<lb break="no" ed="#P" n="83"/>rius verum est, nisi ponendus sit in Angelis
+          <lb ed="#P" n="84"/>aliquis habitus acquisitus, quod videndum 
+          su<lb break="no" ed="#P" n="85"/>perest.
+        </p>
+        <p xml:id="szdada-x09057-d1e530">
+          <lb ed="#P" n="86"/>6. Contra praecedentes duas conclusiones 
+          opi<lb break="no" ed="#P" n="87"/>nantur Bannez et Cumelius. — Contra hanc
+          <lb ed="#P" n="88"/>conclusionem et praecedentem videtur opinari
+          <lb ed="#P" n="89"/>Bannez, et clarius Cumelius, dicta quaest. 58,
+          <lb ed="#P" n="90"/>art. 1, ponens in Angelis unum habitum 
+          natu<lb break="no" ed="#P" n="91"/>ralem distinctum ab speciebus ad recte judi-
+          <lb ed="#P" n="92"/>candum de omnibus scibilibus. Consentit Me-
+          <lb ed="#P" n="93"/>dina, multiplicando tamen illos habitus, ut
+          <lb ed="#P" n="94"/>patet 1, 2, quaest. 51, art. f, in ultima 
+          con<lb break="no" ed="#P" n="95"/>clusione, ubi ait cunctos theologos constituere
+          <lb ed="#P" n="96"/>in Angelis habitus scientiae naturaliter inditos.
+          <lb ed="#P" n="97"/>Et quaest. 54, art. 4, improbandum Cajetanum
+          <lb ed="#P" n="98"/>contrarium docentem, ait, in Angelis in 
+          pri<lb break="no" ed="#P" n="99"/>mordio creationis praeter species intelligibiles
+          <lb ed="#P" n="100"/>infusos fuisse habitus scientiae ad recte 
+          judi<lb break="no" ed="#P" n="101"/>candum. Ducuntur, quia secundum D. 
+          Tho<lb break="no" ed="#P" n="102"/>mam (ut ipsi putant) habitus principiorum in
+          <lb ed="#P" n="103"/>nobis est a natura inditus distinctus ab 
+          specie<lb break="no" ed="#P" n="104"/>bus. Nam perinde putant, se habere Angelum
+          <lb ed="#P" n="105"/>ad omnia naturahter scibilia, ac nos ad prima
+          <lb ed="#P" n="106"/>principia. Sed fundamentum hoc imprimis in
+          <lb ed="#P" n="107"/>illatione peccat. Nam hcet in anima nostra illa
+          <lb ed="#P" n="108"/>imperfectio distinctionis intellectus a lumine
+          <lb ed="#P" n="109"/>naturali admitteretur, non ideo esset tanta
+          <lb ed="#P" n="110"/>imperfectio Angelis tribuenda, cum perfectio-
+          <pb ed="#P" n="362"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>res et simpliciores sint. Deinde falsum sumitur,
+          <lb ed="#P" n="2"/>quia habitus principiorum in nobis, vel non
+          <lb ed="#P" n="3"/>est distinctus ab intellectu, vel non est a 
+          na<lb break="no" ed="#P" n="4"/>tura datus, sed acquisitus, ut dixi etiam ex
+          <lb ed="#P" n="5"/>mente D. Thomae, in disp. 1, Metaphysicae,
+          <lb ed="#P" n="6"/>sect. 4, num. 14, et disp. 44, sect. 13, num. 7,
+          <lb ed="#P" n="7"/>ubi consequenter de Angelis docui, non habere
+          <lb ed="#P" n="8"/>habitus naturales scientiarum praeter species,
+          <lb ed="#P" n="9"/>et hanc censeo esse communem sententiam
+          <lb ed="#P" n="10"/>theologorum, quos statim referam.
+        </p>
+        <p xml:id="szdada-x09057-d1e613">
+          <lb ed="#P" n="11"/>6. De habitibus acquisitis prima opinio 
+          ne<lb break="no" ed="#P" n="12"/>gans.—superest ergo dicendum, de habitibus
+          <lb ed="#P" n="13"/>acquisitis intellectus: de quibus in Angelis
+          <lb ed="#P" n="14"/>auctores varie loquuntur. Quidam absolute et
+          <lb ed="#P" n="15"/>sine distinctione negant dari habitus in Angelo.
+          <lb ed="#P" n="16"/>Ita Durandus, in 3, dist. 23, quaest. 1, ad 1, ubi
+          <lb ed="#P" n="17"/>ait, naturam intellectualem non conjunctam
+          <lb ed="#P" n="18"/>sensitivae non indigere habitibus, et ideo in
+          <lb ed="#P" n="19"/>Angelis non esse habitus acquisitos. Idem 
+          sen<lb break="no" ed="#P" n="20"/>tit Scotus, in d. 3, quaest. 11, S Contra istam,
+          <lb ed="#P" n="21"/>vers. Ad aliud dicendum, dicens, si habitus 
+          su<lb break="no" ed="#P" n="22"/>matur pro habihtate potentiae, sic non est opus
+          <lb ed="#P" n="23"/>ponere in intellectu Angeli aliquem habitum,
+          <lb ed="#P" n="24"/>eo quod natura sua satis habilis sit. Et sequitur
+          <lb ed="#P" n="25"/>Maironius, in 3, dist. 33, quaest. 1, art. 5, in
+          <lb ed="#P" n="26"/>ftine. Tribuitur etiam Cajetanus, 1, 2, q. 54,
+          <lb ed="#P" n="27"/>art. 4, et quaest. 63, art. 1. Et sequitur 
+          Malo<lb break="no" ed="#P" n="28"/>nius 2, dist. 3, disp. 12. Distinctius eam docuit
+          <lb ed="#P" n="29"/>Vasquez, dicens, Angelum non acquirere 
+          habi<lb break="no" ed="#P" n="30"/>tum, neque per assensus evidentes, nec per
+          <lb ed="#P" n="31"/>probabiles fidei naturalis vel opinionis. 
+          Fun<lb break="no" ed="#P" n="32"/>damentum est, quia sufficiunt species, 
+          suppo<lb break="no" ed="#P" n="33"/>sita facilitate intelligendi, quam Angelus ad
+          <lb ed="#P" n="34"/>assentiendum et judicandum habet, sine 
+          im<lb break="no" ed="#P" n="35"/>pedimento, vel in cognoscendis omnibus 
+          ra<lb break="no" ed="#P" n="36"/>tionibus assentiendi, quas per species potest
+          <lb ed="#P" n="37"/>cognoscere, vel in praebendo assensu juxta
+          <lb ed="#P" n="38"/>exigentiam et meritum talis medii.
+        </p>
+        <p xml:id="szdada-x09057-d1e676">
+          <lb ed="#P" n="39"/>7. Secunda opinio omnino affirmans.—
+          Con<lb break="no" ed="#P" n="40"/>trariam sententiam absolute et generaliter,
+          <lb ed="#P" n="41"/>tam in rebus evidentibus, quam in non 
+          evi<lb break="no" ed="#P" n="42"/>dentibus, problematice saltem, affirmat 
+          Ferra<lb break="no" ed="#P" n="43"/>riensis, supra, et sequitur ex opinione Medinae,
+          <lb ed="#P" n="44"/>saltem quoad assensus non evidentes et quoad
+          <lb ed="#P" n="45"/>evidentes, si fortasse non ad omnes dantur
+          <lb ed="#P" n="46"/>Angelis habitus a principio infusi. Et pressius
+          <lb ed="#P" n="47"/>tenet hanc sententiam P. Molina, dicta q. 58,
+          <lb ed="#P" n="48"/>art. 1. Fundatur quia in Angelis est 
+          apprehen<lb break="no" ed="#P" n="49"/>sio et judicium, et per species complentur et
+          <lb ed="#P" n="50"/>perficiuntur in ordine ad apprehensionem,
+          <lb ed="#P" n="51"/>ideoque indigent alio habitu, quoad judicium
+          <lb ed="#P" n="52"/>inclinentur et determinentur. Maxime vero id
+          <lb ed="#P" n="53"/>confirmant exemplo habitus primorum 
+          princi<lb break="no" ed="#P" n="54"/>piorum, quem ponunt in nobis acquisitum,
+          <lb ed="#P" n="55"/>nam intellectus noster, tam propensus est ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>prima principia, sicut intellectus angelicus ad
+          <lb ed="#P" n="57"/>omnes cvidentes veritates, sed non obstante
+          <lb ed="#P" n="58"/>illa naturali inclinatione, nos acquirimus 
+          ha<lb break="no" ed="#P" n="59"/>bitum circa prima principia, ergo et Angeh
+          <lb ed="#P" n="60"/>acquirent circa evidentia omnia.
+        </p>
+        <p xml:id="szdada-x09057-d1e728">
+          <lb ed="#P" n="61"/>8. Vera sententia. — Disp. 35, sect. 4, n. 23
+          <lb ed="#P" n="62"/>et 94. disp. 445, sect.. . num. 8.—Prima 
+          con<lb break="no" ed="#P" n="63"/>clusio. — Angelus circa evidentia non acquirit
+          <lb ed="#P" n="64"/>habitum. — Ego vero in Metaphysica 
+          distinc<lb break="no" ed="#P" n="65"/>tione usus sum, quae nunc etiam mihi 
+          proba<lb break="no" ed="#P" n="66"/>tur. Est autem distinctio, inter ea quae Angelus
+          <lb ed="#P" n="67"/>evidenter cognoscit, et quae tantum per 
+          con<lb break="no" ed="#P" n="68"/>jecturam, vel creatam auctoritatem assequitur,
+          <lb ed="#P" n="69"/>eisque fidei, vel opinionis assensum praebet.
+          <lb ed="#P" n="70"/>Dico ergo, primo, circa evidentia non acquirit
+          <lb ed="#P" n="71"/>Angelus habitum. Hanc conclusionem tantum
+          <lb ed="#P" n="72"/>docet in rigore Cajetanus supra, solum enim
+          <lb ed="#P" n="73"/>tractat de scientia Angelorum et de rebus 
+          evi<lb break="no" ed="#P" n="74"/>denter cognitis. Et eodem modo ego locutus
+          <lb ed="#P" n="75"/>sum in 1 tom., 3 p., disp. 29, sect. 2, in fine.
+          <lb ed="#P" n="76"/>Et fortasse Durandus et Scotus non plus 
+          inten<lb break="no" ed="#P" n="77"/>dunt. Probatur autem, quia Angelus circa talia
+          <lb ed="#P" n="78"/>objecta acquisito habitu non indiget: et 
+          con<lb break="no" ed="#P" n="79"/>sequenter nec habet capacitatem naturalem ad
+          <lb ed="#P" n="80"/>illum. Probatur, quia vel indiget illo ad 
+          sub<lb break="no" ed="#P" n="81"/>stantiam actus, seu ad potestatem simpliciter
+          <lb ed="#P" n="82"/>eliciendi actus, vel ad facihtatem. Neutrum
+          <lb ed="#P" n="83"/>dici potest, ergo. Prior pars minoris est clara,
+          <lb ed="#P" n="84"/>tum ex prima et secunda assertione, quia si
+          <lb ed="#P" n="85"/>talis habitus compleret potentiam ad 
+          elicien<lb break="no" ed="#P" n="86"/>dum actum, esset naturalis ab intrinseco, vel
+          <lb ed="#P" n="87"/>saltem cum natura inditus, quia potentia 
+          in<lb break="no" ed="#P" n="88"/>telligendi integra ex parte intelligentis 
+          natu<lb break="no" ed="#P" n="89"/>ralis est, praesertim in Angelis: tum praecipue
+          <lb ed="#P" n="90"/>quia repugnat habitum esse necessarium, ad
+          <lb ed="#P" n="91"/>posse, et esse acquisitum, quia habitus 
+          acquisi<lb break="no" ed="#P" n="92"/>tus per actus acquiritur, ergo prius fit actus,
+          <lb ed="#P" n="93"/>quam habitus acquiratur, sed actus supponit
+          <lb ed="#P" n="94"/>potestatem simpliciter, ergo et talis habitus,
+          <lb ed="#P" n="95"/>ergo non potest esse necessarius propter 
+          potes<lb break="no" ed="#P" n="96"/>tatem. Altera vero pars de facilitate probatur,
+          <lb ed="#P" n="97"/>quia lumen intellectus Angeli de se est 
+          sufli<lb break="no" ed="#P" n="98"/>ciens, et omnino propensum ad assensus earum
+          <lb ed="#P" n="99"/>rerum, quas evidenter assequitur, et aliunde
+          <lb ed="#P" n="100"/>non habet, unde moram, vel difflicultatem in
+          <lb ed="#P" n="101"/>tali assensu patiatur, ergo neque ad facilitatem
+          <lb ed="#P" n="102"/>tali habitu indiget.
+        </p>
+        <p xml:id="szdada-x09057-d1e823">
+          <lb ed="#P" n="103"/>9. Non calet illatio a nostris habitibus ad
+          <lb ed="#P" n="104"/>Angelos. — Unde non recte nobisceum 
+          compa<lb break="no" ed="#P" n="105"/>rantur, etiam in habitu principiorum, licet
+          <lb ed="#P" n="106"/>supponamus hunc esse in nobis acquisitum,
+          <lb ed="#P" n="107"/>quia longe facilius cognoscunt veritatem 
+          con<lb break="no" ed="#P" n="108"/>clusionis, ut connexam suo principio, quam
+          <lb ed="#P" n="109"/>nos cognoscimus immediatam connexionem
+          <lb ed="#P" n="110"/>primorum principiorum, in quorum intelli-
+          <pb ed="#P" n="363"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gentia multa impedimenta, et difficultates 
+          pa<lb break="no" ed="#P" n="2"/>tiamur. Quae difficultas licet in uno, vel altero
+          <lb ed="#P" n="3"/>principio, quod fere sensibus patet, vel parva,
+          <lb ed="#P" n="4"/>vel nulla sit, tamen generatim circa 
+          princi<lb break="no" ed="#P" n="5"/>pia, est magna, et ideo tali habitu possumus
+          <lb ed="#P" n="6"/>indigere, ut facile possimus ita apprehendere
+          <lb ed="#P" n="7"/>terminos, ut in eis, et eodem actu veritatem
+          <lb ed="#P" n="8"/>principii statim intueamur. Angeli vero 
+          subi<lb break="no" ed="#P" n="9"/>to, ac summa celeritate, ac facilitate 
+          appre<lb break="no" ed="#P" n="10"/>hendunt, et vident conclusiones in principiis,
+          <lb ed="#P" n="11"/>nec in eis distinguitur apprehensio talium 
+          re<lb break="no" ed="#P" n="12"/>rum a judicio. Et ideo nullo titulo indigent
+          <lb ed="#P" n="13"/>tali habitu ad judicium. Imo sicut per species
+          <lb ed="#P" n="14"/>perfecte constituuntur in actu primo ad 
+          ap<lb break="no" ed="#P" n="15"/>prehendendum, ita per lumen sui intellectus
+          <lb ed="#P" n="16"/>ad judicandum. Quemadmodum etiam e 
+          con<lb break="no" ed="#P" n="17"/>trario, sicut intellectus confert activitatem
+          <lb ed="#P" n="18"/>cum specie ad apprehendendum, et ad illam
+          <lb ed="#P" n="19"/>per se suflicit sine alio habitu facilitante, ita
+          <lb ed="#P" n="20"/>etiam suflicit ad judicandum, juvante specie,
+          <lb ed="#P" n="21"/>si fortasse illa aliquid ad judicium confert.
+        </p>
+        <p xml:id="szdada-x09057-d1e893">
+          <lb ed="#P" n="22"/>10. Objectio. — Responsio. — Dices posse 
+          ha<lb break="no" ed="#P" n="23"/>bitus deservire Angelis, ut facilius assentiantur
+          <lb ed="#P" n="24"/>aliquibus veritatibus dependentibus ab alis
+          <lb ed="#P" n="25"/>principiis, etiamsi actu principia non 
+          conside<lb break="no" ed="#P" n="26"/>rent, sed solam veritatem conclusionis, quod
+          <lb ed="#P" n="27"/>maxime erit opportunum, quando resolutio
+          <lb ed="#P" n="28"/>ad prima principia fit per multa principia 
+          me<lb break="no" ed="#P" n="29"/>dia, pluresque illationes formales, aut 
+          virtua<lb break="no" ed="#P" n="30"/>les, quas omnes non potest facile Angelus, nec
+          <lb ed="#P" n="31"/>sine magna applicatione simul considerare,
+          <lb ed="#P" n="32"/>quia vel per plures species repraesentantur,
+          <lb ed="#P" n="33"/>vel Angelus est simul aliis intentus, et non
+          <lb ed="#P" n="34"/>potest tot res simul considerare ,ergo tunc erit
+          <lb ed="#P" n="35"/>utilis habitus ad essentiendum prompte cum
+          <lb ed="#P" n="36"/>minori consideratione actuali principiorum.
+          <lb ed="#P" n="37"/>Respondeo, nunquam Angelum ferre 
+          judi<lb break="no" ed="#P" n="38"/>cium evidens, nisi intuendo clare veritatem,
+          <lb ed="#P" n="39"/>vel in se existentem, ut fit in propria 
+          intuiti<lb break="no" ed="#P" n="40"/>va cognitione, vel abstractive cognoscendo
+          <lb ed="#P" n="41"/>evidenter connexionem extremorum, quae 
+          con<lb break="no" ed="#P" n="42"/>nexio, si immediata est, non pendet ex alis
+          <lb ed="#P" n="43"/>principiis, ut evidenter cognoscatur, si vero
+          <lb ed="#P" n="44"/>habet medium inter praedicatum, et 
+          subjec<lb break="no" ed="#P" n="45"/>tum, necesse est, ut Angelus actu consideret
+          <lb ed="#P" n="46"/>iliud medium, quod est quasi vinculum 
+          extre<lb break="no" ed="#P" n="47"/>morum, quia in Angelo judicare est videre 
+          ip<lb break="no" ed="#P" n="48"/>sam connexionem, quando connexio est 
+          evi<lb break="no" ed="#P" n="49"/>dens, et hoc summa facilitate facit Angelus ex
+          <lb ed="#P" n="50"/>vi sui luminis cum specie propria rei, prout
+          <lb ed="#P" n="51"/>in se est. Et ideo gratis fingitur illa difficultas
+          <lb ed="#P" n="52"/>ex virtuali, ac longo discursu proveniens. Alia
+          <lb ed="#P" n="53"/>vero, quae potest ex distractione mentis, seu
+          <lb ed="#P" n="54"/>attentione ad res alias provenire, non est 
+          diffi<lb break="no" ed="#P" n="55"/>cultas vincenda per habitum, sed per volun-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tatem removentem aliam cogitationem: nam
+          <lb ed="#P" n="57"/>si id non faciat, etiamsi adsit habitus, non
+          <lb ed="#P" n="58"/>poterit difficultatem illam vincere, nam potius
+          <lb ed="#P" n="59"/>est naturalis impossibilitas, juxta dicta in 
+          ea<lb break="no" ed="#P" n="60"/>pite praecedenti.
+        </p>
+        <p xml:id="szdada-x09057-d1e982">
+          <lb ed="#P" n="61"/>11. Consectarium ex dictis. — Et ex hac 
+          as<lb break="no" ed="#P" n="62"/>sertione constat, in Angelis non distingui ab
+          <lb ed="#P" n="63"/>intellectu eorum virtutes intellectuales, quae
+          <lb ed="#P" n="64"/>in nobis numerantur intellectus, sapientia,
+          <lb ed="#P" n="65"/>scientia, prudentia et ars. Nam in illis 
+          omni<lb break="no" ed="#P" n="66"/>bus est eadem ratio, quatenus sunt principia
+          <lb ed="#P" n="67"/>evidentis cognitionis. Et ita in illa sistendo,
+          <lb ed="#P" n="68"/>nulla est nova difficultas. At vero in usu 
+          prac<lb break="no" ed="#P" n="69"/>ticorum habituum, solet esse in nobis 
+          difficul<lb break="no" ed="#P" n="70"/>tas. Verumtamen in arte haec provenit, vel ex
+          <lb ed="#P" n="71"/>parte imaginationis, vel ex parte organcrum,
+          <lb ed="#P" n="72"/>seu membrorum, quibus ad opera artis 
+          uti<lb break="no" ed="#P" n="73"/>mur, quae difficultas in Angelis locum non 
+          ha<lb break="no" ed="#P" n="74"/>bet, ut per se constat. In prudentia vero 
+          pro<lb break="no" ed="#P" n="75"/>venire potest ex prava dispositione affectus,
+          <lb ed="#P" n="76"/>vel sensitivi appetitus, vel voluntatis, et lcet
+          <lb ed="#P" n="77"/>ex priori capite non habeat locum in ÀAngelis,
+          <lb ed="#P" n="78"/>ex posteriori potest inveniri: qualiscumque
+          <lb ed="#P" n="79"/>vero sit, ad ipsam voluntatem referenda est:
+          <lb ed="#P" n="80"/>nam intellectus semper erit facilis, si a 
+          volun<lb break="no" ed="#P" n="81"/>tate applicetur.
+        </p>
+        <p xml:id="szdada-x09057-d1e1030">
+          <lb ed="#P" n="82"/>12. Secunda conclusio.— Circa probabilia
+          <lb ed="#P" n="83"/>Angelus potest habitum comparare. — Secundo
+          <lb ed="#P" n="84"/>dico, si Angelus aliquas veritates, seu 
+          appre<lb break="no" ed="#P" n="85"/>hensiones per media tantum probabilia 
+          co<lb break="no" ed="#P" n="86"/>gnoscat, et judicet ita esse, vel non esse, 
+          ac<lb break="no" ed="#P" n="87"/>quirere potest intellectualem habitum ad 
+          simi<lb break="no" ed="#P" n="88"/>lem assensum inclinantem. Ita dixi in citato
+          <lb ed="#P" n="89"/>loco Metaphysicae. Et consentit in utraque
+          <lb ed="#P" n="90"/>parte nobiscum Pesantius, dicta q. 58, art. 1,
+          <lb ed="#P" n="91"/>Herrera 2, dist. 12, quaest. 1, notab. 1. Et in
+          <lb ed="#P" n="92"/>hac idem sentiunt Cumelius et Bannez ibiadem.
+          <lb ed="#P" n="93"/>Et probatur primo, quia habitus acquisitus 
+          lo<lb break="no" ed="#P" n="94"/>cum habet, ubicumque potentia non est satis
+          <lb ed="#P" n="95"/>ad alterutram partem determinata: sed 
+          intel<lb break="no" ed="#P" n="96"/>lectus Angeli ex se non est determinatus ad
+          <lb ed="#P" n="97"/>hujusmodi assensus: ergo verisimillimum est
+          <lb ed="#P" n="98"/>per eosdem habitus acquirere, per quos 
+          intel<lb break="no" ed="#P" n="99"/>lectus ejus ad similes assensus magis 
+          propen<lb break="no" ed="#P" n="100"/>sus, et quodammodo determinatus maneat.
+          <lb ed="#P" n="101"/>Dico autem, quodamnodo, quia habitus non
+          <lb ed="#P" n="102"/>potest simpliciter determinare intellectum,
+          <lb ed="#P" n="103"/>quoad exercitium, vel specificationem ad 
+          ac<lb break="no" ed="#P" n="104"/>tam non evidentem, nam habitus semper in
+          <lb ed="#P" n="105"/>his subjacebit liberae motioni voluntatis, sicut,
+          <lb ed="#P" n="106"/>et ipse intellectus, sed quodammodo 
+          determi<lb break="no" ed="#P" n="107"/>nare dicitur, quia inclinationem, ac 
+          propen<lb break="no" ed="#P" n="108"/>sionem ad eam partem auget. Et confirmatur,
+          <lb ed="#P" n="109"/>quia in his idem fere fundamentum habitus in
+          <lb ed="#P" n="110"/>Angelis, quod in nobis, invenitur, nam in no-
+          <pb ed="#P" n="364"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bis indifferentia potentiae videtur esse 
+          suffi<lb break="no" ed="#P" n="2"/>ciens ad capacitatem habitus, ut ad alteram
+          <lb ed="#P" n="3"/>partem magis propensa sit: illa autem 
+          indif<lb break="no" ed="#P" n="4"/>ferentia etiam in intellectu Angeli, quoad hanc
+          <lb ed="#P" n="5"/>partem reperitur. Item necessitas discursus 
+          vi<lb break="no" ed="#P" n="6"/>detur etiam sufficere: in his vero rebus 
+          proba<lb break="no" ed="#P" n="7"/>bile est Angelum discurrere, ut supra 
+          dixi<lb break="no" ed="#P" n="8"/>mus. Confirmari denique hoc potest, quia 
+          dae<lb break="no" ed="#P" n="9"/>mones habent fidem naturalem mysteriorum
+          <lb ed="#P" n="10"/>fidei, quae non potest esse infusa, tum quia est
+          <lb ed="#P" n="11"/>imperfecta, tum quia non est infusa, tanquam
+          <lb ed="#P" n="12"/>naturale donum, cum versetur circa 
+          superna<lb break="no" ed="#P" n="13"/>turalia, saltem materialiter, et supponat 
+          reve<lb break="no" ed="#P" n="14"/>lationem supernaturalem alias factam, ergo
+          <lb ed="#P" n="15"/>est acquisita. Item eodem modo Augustinus,
+          <lb ed="#P" n="16"/>lib. de Divinat. daemon.. ponit in Angelis malis
+          <lb ed="#P" n="17"/>experientiam longa consuetudine acquisitam.
+        </p>
+        <p xml:id="szdada-x09057-d1e1137">
+          <lb ed="#P" n="18"/>13. Objectio prima ex D. Thomae doctrina.
+          <lb ed="#P" n="19"/>— Secunda objectio. — Confirmatur. —Sed 
+          ob<lb break="no" ed="#P" n="20"/>jici potest. primo quia D. Thomas, dicta q. 58,
+          <lb ed="#P" n="21"/>art. 1, absolute negat, posse intellectum 
+          An<lb break="no" ed="#P" n="22"/>geli esse in potentia ad actum primum: si 
+          au<lb break="no" ed="#P" n="23"/>tem posset aliquos habitus acquirere, prius
+          <lb ed="#P" n="24"/>esset in potentia ad tales habitus, qui sunt
+          <lb ed="#P" n="25"/>quidam actus primi. Secundo, quia illa omnia
+          <lb ed="#P" n="26"/>salvari possunt per solas species; nam 
+          impri<lb break="no" ed="#P" n="27"/>mis, quando Angelus habet praesentes 
+          conjec<lb break="no" ed="#P" n="28"/>turas omnes, quae illum movent ad assensum,
+          <lb ed="#P" n="29"/>et illas actu considerat, non indiget habitu;
+          <lb ed="#P" n="30"/>ergo nunquam illo indiget. Probatur 
+          conse<lb break="no" ed="#P" n="31"/>quentia, quia Angelus est adeo perspicax, et
+          <lb ed="#P" n="32"/>liber omni impedimento, ut summa facilitate
+          <lb ed="#P" n="33"/>omnia consideret, quae rem faciunt probabilem,
+          <lb ed="#P" n="34"/>seu credibilem, et eadem faciltate possit illi
+          <lb ed="#P" n="35"/>assentiri, si velit. Unde omnium motivorum,
+          <lb ed="#P" n="36"/>quae prius cognovit, postea per species, quas
+          <lb ed="#P" n="37"/>in se habet, facillime recordatur. Ergo ex vi
+          <lb ed="#P" n="38"/>specierum eadem facilitate assentietur. Ergo
+          <lb ed="#P" n="39"/>non magis postea indiget babitu, quam in
+          <lb ed="#P" n="40"/>principio, ergo non acquiritur. Et haec ratio
+          <lb ed="#P" n="41"/>maxime urget, quando illae conjecturae 
+          evi<lb break="no" ed="#P" n="42"/>denter cogunt intellectum, saltem per media
+          <lb ed="#P" n="43"/>extrinseca, et per evidentiam in testificante,
+          <lb ed="#P" n="44"/>ut est in fide demonum. Nam tunc efficaciter
+          <lb ed="#P" n="45"/>determinant, et necessitant intellectum, ergo
+          <lb ed="#P" n="46"/>nullam facilitatem addere potest habitus. 
+          De<lb break="no" ed="#P" n="47"/>nique quando conjecturae non ita cogunt 
+          intel<lb break="no" ed="#P" n="48"/>lectum, determinatio ad assensum esse debet
+          <lb ed="#P" n="49"/>ex motione voluntatis, quia posita, naturali
+          <lb ed="#P" n="50"/>virtute facillime obedit intellectus, ergo in illo
+          <lb ed="#P" n="51"/>non est necessarius habitus.
+        </p>
+        <p xml:id="szdada-x09057-d1e1213">
+          <lb ed="#P" n="52"/>14. Respondetur ad primam objectionem.— Ad
+          <lb ed="#P" n="53"/>D. Thomam respondeo loqui de actu primo,
+          <lb ed="#P" n="54"/>qui se tenet ex parte objecti, id est, de 
+          specie<lb break="no" ed="#P" n="55"/>bus intelligibilibus, nam de aliis propriis ha-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bitibus Angelorum nihil fere nobis tradidit.
+          <lb ed="#P" n="57"/>Addo etiam loqui de actu primo, et secundo
+          <lb ed="#P" n="58"/>pertinentibus per se ad perfectionem intellectus
+          <lb ed="#P" n="59"/>angelici naturalem: haec autem cognitio 
+          con<lb break="no" ed="#P" n="60"/>ecturalis, de rebus contingentibus, vel 
+          natu<lb break="no" ed="#P" n="61"/>raliter Angelis occultis, non pertinet per se ad
+          <lb ed="#P" n="62"/>perfectionem Angeli. Idem est de cognitione
+          <lb ed="#P" n="63"/>imperfecta per media extrinseca, quae 
+          testimo<lb break="no" ed="#P" n="64"/>nium divinum involvunt, nam illa non solum
+          <lb ed="#P" n="65"/>non spectat per se ad naturalem perfectionem
+          <lb ed="#P" n="66"/>Angeli, sed etiam praeternaturalis illi est. Et
+          <lb ed="#P" n="67"/>ideo totum hoc cognitionis genus non est ei
+          <lb ed="#P" n="68"/>debitum, etiam quoad actum primum, ac
+          <lb ed="#P" n="69"/>proinde nihil obstat, quominus Angelus sit in
+          <lb ed="#P" n="70"/>potentia ad talem actum primum. Quod non
+          <lb ed="#P" n="71"/>solum de habitibus propriis verum est, sed
+          <lb ed="#P" n="72"/>etiam de aliquibus speciebus intelligibilibus, ut
+          <lb ed="#P" n="73"/>in superioribus tractatum est, et statim iterum
+          <lb ed="#P" n="74"/>dicetur.
+        </p>
+        <p xml:id="szdada-x09057-d1e1269">
+          <lb ed="#P" n="75"/>15. Ad secundam objectionem conceditur ad
+          <lb ed="#P" n="76"/>aliquos actus sufficere Angelis species absque
+          <lb ed="#P" n="77"/>habitibus.—Secunda ergo ratio maxime movet
+          <lb ed="#P" n="78"/>P. Vasquez, qui de his habitibus specialius,
+          <lb ed="#P" n="79"/>quam ahi locutus est. Sed possumus ad 
+          homi<lb break="no" ed="#P" n="80"/>nem instare, quia ipse putat, nullam speciem
+          <lb ed="#P" n="81"/>Angelum acquirere, vel propter memoriam,
+          <lb ed="#P" n="82"/>vel propter experientiam praeteritorum 
+          effec<lb break="no" ed="#P" n="83"/>tuum: si ergo nec species, nec alios habitus
+          <lb ed="#P" n="84"/>daemon acquirit, quomodo nunc facilius potest
+          <lb ed="#P" n="85"/>judicare de his rebus, quas prius cognovit, et
+          <lb ed="#P" n="86"/>credidit, quam antea potuisset. Quod enim
+          <lb ed="#P" n="87"/>daemon nunc facilius cognoscat Christum Deum,
+          <lb ed="#P" n="88"/>quam in principio Christo vivente cognosceret,
+          <lb ed="#P" n="89"/>quis dubitet? Cum constet in principio 
+          dubi<lb break="no" ed="#P" n="90"/>tasse, et postea tandem convictum credidisse,
+          <lb ed="#P" n="91"/>et nunc vel invitum credere. Haec ergo 
+          muta<lb break="no" ed="#P" n="92"/>tio facta in Angelo, aliquid denuo in illo 
+          ac<lb break="no" ed="#P" n="93"/>quisitum requirit. Et fatemur quidem ad 
+          ali<lb break="no" ed="#P" n="94"/>quos effectus sufficere species ex praecedentibus
+          <lb ed="#P" n="95"/>cognitionibus relictas: ut ad memoriam 
+          prae<lb break="no" ed="#P" n="96"/>teritorum, quae in seipsis evidenter cognita
+          <lb ed="#P" n="97"/>fuerunt, quia ex vi specierum statim 
+          reprae<lb break="no" ed="#P" n="98"/>sentatur cum claritate, et evidentia 
+          experi<lb break="no" ed="#P" n="99"/>mentali, sicut antea cognita sunt, ideoque ad
+          <lb ed="#P" n="100"/>hoc genus experientiae, quatenus in sola 
+          me<lb break="no" ed="#P" n="101"/>moria plurium actuum praeteritorum consistit,
+          <lb ed="#P" n="102"/>species acquisitae sufficiunt, quas Angelis circa
+          <lb ed="#P" n="103"/>singularia, ut a se prius cognita, negare non
+          <lb ed="#P" n="104"/>possumus, ut supra diximus.
+        </p>
+        <p xml:id="szdada-x09057-d1e1337">
+          <lb ed="#P" n="105"/>16. Ad aliquos vero requiri omnino habitus
+          <lb ed="#P" n="106"/>conrvincitur. — Ad confirmationem in fine n. 13.
+          <lb ed="#P" n="107"/>— Quando vero ultra singulares effectus 
+          evi<lb break="no" ed="#P" n="108"/>denter in seipsis notos, ex illis deventum est
+          <lb ed="#P" n="109"/>ad judicium probabile, et opinativum alicujus
+          <lb ed="#P" n="110"/>conclusionis indicatae in illis effectibus, ut pos-
+          <pb ed="#P" n="365"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tea Angelus ad hoc judicium sit magis 
+          pro<lb break="no" ed="#P" n="2"/>pensus, non sufficiunt species, sed necessarius
+          <lb ed="#P" n="3"/>est habitus. Tum quia etiam in principio licet
+          <lb ed="#P" n="4"/>Angelus magna perspicacitate, et facilitate 
+          vi<lb break="no" ed="#P" n="5"/>deret, talem conclusionem per talia signa 
+          ve<lb break="no" ed="#P" n="6"/>risimiliter indicari, nihilominus adhuc 
+          mane<lb break="no" ed="#P" n="7"/>bat, quasi anceps, et indeterminatus, an ita
+          <lb ed="#P" n="8"/>esset, necne, et in hac indeterminatione ex
+          <lb ed="#P" n="9"/>natura rei necessario inest aliqua difficultas,
+          <lb ed="#P" n="10"/>quae sine dubio minuitur ex consuetudine 
+          as<lb break="no" ed="#P" n="11"/>sentiendi alteri parti, quod etiam in Angelo
+          <lb ed="#P" n="12"/>locum habet: haec autem diminutio 
+          difficulta<lb break="no" ed="#P" n="13"/>tis ab habitu provenit, nec potest aliunde 
+          pro<lb break="no" ed="#P" n="14"/>venire. Tum etiam, quia sicut Angelus potest
+          <lb ed="#P" n="15"/>facile recordari postea omnium signorum, vel
+          <lb ed="#P" n="16"/>conjecturarum, quae ipsum ad talem assensum
+          <lb ed="#P" n="17"/>induxerunt, ita etiam potest facile non statim
+          <lb ed="#P" n="18"/>applicare mentem ad haec omnia consideranda,
+          <lb ed="#P" n="19"/>et nihilominus proposita illa probabili 
+          propo<lb break="no" ed="#P" n="20"/>sitione, ex usu poterit majori facilitate, et 
+          pro<lb break="no" ed="#P" n="21"/>pensione ad illius assensum determinari. Unde
+          <lb ed="#P" n="22"/>in fide evidenti daemonum, licet cesset prior
+          <lb ed="#P" n="23"/>ratio, quia intellectus per evidentiam 
+          sufficien<lb break="no" ed="#P" n="24"/>ter determinatur, tamen non cessat secunda,
+          <lb ed="#P" n="25"/>quia sufhicit inevidentia rei in seipsa, ut 
+          faci<lb break="no" ed="#P" n="26"/>litas assentiendi possit ex habitu provenire.
+          <lb ed="#P" n="27"/>Quando enim propositio est evidens per 
+          ratio<lb break="no" ed="#P" n="28"/>nem intrinsecam, Angelus videndo rem illam
+          <lb ed="#P" n="29"/>per propriam speciem, videt evidentiam 
+          veri<lb break="no" ed="#P" n="30"/>tatis ex vi solius lummnis naturalis, et ideo
+          <lb ed="#P" n="31"/>non indiget babitu: quando autem propositio
+          <lb ed="#P" n="32"/>non est evidens Angelo per medium 
+          intrin<lb break="no" ed="#P" n="33"/>secum, nec per seipsam, quia est superioris
+          <lb ed="#P" n="34"/>ordinis, tunc facile potest considerare illam,
+          <lb ed="#P" n="35"/>et non intrinseca media, quae ad assensum ejus
+          <lb ed="#P" n="36"/>inducunt, quae varia esse solent, et per plures
+          <lb ed="#P" n="37"/>species possunt Angelo repraesentari. Tunc
+          <lb ed="#P" n="38"/>ergo poterit Angelus esse promptus, et facilis
+          <lb ed="#P" n="39"/>ad assentiendum ex habitu, quamvis non 
+          vi<lb break="no" ed="#P" n="40"/>deat, nec actu consideret omnia sigua, quae 
+          in<lb break="no" ed="#P" n="41"/>tellectum in principio coegerunt. Sic enim
+          <lb ed="#P" n="42"/>daemones, audito Christi nomine, eum, ut Deum
+          <lb ed="#P" n="43"/>recognoscunt, et contremiscunt, etiamsi non
+          <lb ed="#P" n="44"/>actu considerent omnia signa divinitatis ejus,
+          <lb ed="#P" n="45"/>quae ad cogendum intellectum sufliciunt, ergo
+          <lb ed="#P" n="46"/>illa determinatio ex habitu provenit. Unde ad
+          <lb ed="#P" n="47"/>ultimam confirmationem dicimus, quando 
+          co<lb break="no" ed="#P" n="48"/>enitio haec est evidens, saltem in testificante,
+          <lb ed="#P" n="49"/>determinationem non pendere a voluntate, et
+          <lb ed="#P" n="50"/>sic nec esse necessarium habitum in illa, in
+          <lb ed="#P" n="51"/>aliis vero, quae tantum probabilia sunt, 
+          for<lb break="no" ed="#P" n="52"/>tasse voluntas etiam suum acquirit habitum,
+          <lb ed="#P" n="53"/>et nihilominus semper erit locus habitui 
+          intel<lb break="no" ed="#P" n="54"/>lectus, ut ipsum per se inclinet, et 
+          promptio<lb break="no" ed="#P" n="55"/>rem ad parendum voluntati reddat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

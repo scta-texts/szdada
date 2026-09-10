@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 20</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 20</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1084"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x27381"><!-- l8c20 -->
+        <head xml:id="szdada-x27381-Hd1e101">Caput 20</head>
+        <head xml:id="szdada-x27381-Hd1e103" type="question-title">Utrum ad ministeria malorum angelorum pertineat hominibus nocere, aliave mala poenae peccatoribus inferre</head>
+        <p xml:id="szdada-x27381-d1e106">
+          <lb ed="#P" n="63"/>CAPUT XXX.
+          <lb ed="#P" n="64"/>UTRUM AD MINISTERIA MALORUM ANGELORUM 
+          PER<lb break="no" ed="#P" n="65"/>TINEAT HOMINIBUS NOCERE, ALIAVE MALA POENAE
+          <lb ed="#P" n="66"/>PECCATORIBUS INFERRE.
+        </p>
+        <p xml:id="szdada-x27381-d1e117">
+          <lb ed="#P" n="67"/>1. Assertio, demones esse ministros 
+          pena<lb break="no" ed="#P" n="68"/>rum hominum. — Qomodo intelligenda assertio
+          <lb ed="#P" n="69"/>de penis alterius. — Explicuimus, quo modo
+          <lb ed="#P" n="70"/>mali Angeli circa mala culpae humani generis
+          <lb ed="#P" n="71"/>ministrent; nunc de poenis et aliis nocumentis
+          <lb ed="#P" n="72"/>dicendum superest. In quo puncto theologi
+          <lb ed="#P" n="73"/>communiter docent malos Angelos esse 
+          minis<lb break="no" ed="#P" n="74"/>tros divinae justitiae ad homines peccatores 
+          pu<lb break="no" ed="#P" n="75"/>niendos. Quae assertio intelligi potest, vel de
+          <lb ed="#P" n="76"/>poenis alterius vitae, quas animae vel in 
+          infer<lb break="no" ed="#P" n="77"/>no, vel in purgatorio patiuntur, vel de poenis
+          <lb ed="#P" n="78"/>vitae praesentis: circa priores necesse non est
+          <lb ed="#P" n="79"/>in praesenti immorari, quia de poenis 
+          purgato<lb break="no" ed="#P" n="80"/>rii probabilius creditur ad ministerium 
+          daemo<lb break="no" ed="#P" n="81"/>num non pertinere, ut in 4, tom. 3, disp. 46,
+          <lb ed="#P" n="82"/>sect. 3, dub. ult., dixi, ubi etiam de poenis
+          <lb ed="#P" n="83"/>inferni aliquid tetigi, et in praecedentibus 
+          in<lb break="no" ed="#P" n="84"/>sinuavi, poenam veluti substantialem inferni
+          <lb ed="#P" n="85"/>non esse per ministerium daemonum, quod est
+          <lb ed="#P" n="86"/>manifestum de poena damni, et de poena ignis
+          <lb ed="#P" n="87"/>ibi probatum est. Quoad aliqua vero 
+          acci<lb break="no" ed="#P" n="88"/>dentalia poterunt daemones esse ministri, ut
+          <lb ed="#P" n="89"/>ad ferendas animas damnatorum violenter et
+          <lb ed="#P" n="90"/>ignominiose in infernum, et ad detinendas,
+          <lb ed="#P" n="91"/>seu custodiendas illas, vel etiam illas 
+          convici<lb break="no" ed="#P" n="92"/>tiis et recordatione malorum suorum 
+          aflligen<lb break="no" ed="#P" n="93"/>do. His enim rationibus dicuntur homines, qui
+          <lb ed="#P" n="94"/>in peccato moriuntur, daemonum potestati 
+          com<lb break="no" ed="#P" n="95"/>mitti, ut loquitur, l. 2 Sent., c. 15, et Justinus,
+          <lb ed="#P" n="96"/>contra Thryphonem: quanquam de hoc toto
+          <lb ed="#P" n="97"/>genere ministerii nihil nobis revelatum, aut
+          <lb ed="#P" n="98"/>alias certum sit.
+        </p>
+        <p xml:id="szdada-x27381-d1e189">
+          <lb ed="#P" n="99"/>2. Quo item modo intelligenda de penis 
+          hu<lb break="no" ed="#P" n="100"/>jus vitae. — De poenis autem hujus vitae, certum
+          <lb ed="#P" n="101"/>est ministerio malorum Angelorum 
+          frequen<lb break="no" ed="#P" n="102"/>ter hominibus infligi. Ut autem hoc probemu
+          <lb ed="#P" n="103"/>et explicemus, advertimus, duobus modis 
+          pos<lb break="no" ed="#P" n="104"/>se daemonem doloribus, nocumentis, et aliis
+          <lb ed="#P" n="105"/>malis homines affligere. Primo, ut per hac
+          <pb ed="#P" n="1085"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mala poenae inducat homines ad peccandum:
+          <lb ed="#P" n="2"/>secundo, ut puniat illos, qui jam peccarunt.
+          <lb ed="#P" n="3"/>Quamvis enim possit Deus uti daemone ad 
+          af<lb break="no" ed="#P" n="4"/>fligendum homines propter alias causas et 
+          ra<lb break="no" ed="#P" n="5"/>Uones suae providentiae nobis occultas, ut Job. 3,
+          <lb ed="#P" n="6"/>et aliis locis similibus colligi potest; 
+          nihilomi<lb break="no" ed="#P" n="7"/>nus semper altera istarum rationum 
+          interve<lb break="no" ed="#P" n="8"/>nit. Quia licet mala poenae aliquando eveniant
+          <lb ed="#P" n="9"/>justis ad probationem, et exercitium absque
+          <lb ed="#P" n="10"/>vindicta, vel nova culpa: nihilominus sunt 
+          ca<lb break="no" ed="#P" n="11"/>paces illius mali propter aliquam culpam 
+          sal<lb break="no" ed="#P" n="12"/>tem originalem, et ita simul est exercitium
+          <lb ed="#P" n="13"/>virtutis, et poena alicujus culpae. Maxime vero
+          <lb ed="#P" n="14"/>poenae, quae per daemones infhguntur, aliquo
+          <lb ed="#P" n="15"/>ex illis duobus modis inferuntur. De priori
+          <lb ed="#P" n="16"/>ergo afflictionum genere certum est, per 
+          daemo<lb break="no" ed="#P" n="17"/>nes fieri ut evidenter apparuit in sancto Job ,
+          <lb ed="#P" n="18"/>cap. 1 et 2, idemque de Tobia et de Sara filia
+          <lb ed="#P" n="19"/>Raguelis colligitur, ex Tobiae 2 et 3, 6, 1 et 8.
+          <lb ed="#P" n="20"/>Et ex Patribus aliisque Ecclesiasticis historiis
+          <lb ed="#P" n="21"/>multa de hac re exempla refert Coccius, in 1
+          <lb ed="#P" n="22"/>tomo Thesau., lib. 4, art. 5et 6.
+        </p>
+        <p xml:id="szdada-x27381-d1e260">
+          <lb ed="#P" n="23"/>3. Hic autem modus potestatis seu licentiae
+          <lb ed="#P" n="24"/>daemonibus concessae, ad praecedentem 
+          revo<lb break="no" ed="#P" n="25"/>catur. Nam hic modus aflligendi homines,
+          <lb ed="#P" n="26"/>quaedam tentatio est ad malum culpae inducens;
+          <lb ed="#P" n="27"/>ideo enim daemon hoc modo nocet homini, ut
+          <lb ed="#P" n="28"/>illum ad patientiam, desperationem, 
+          blasphe<lb break="no" ed="#P" n="29"/>miam, vel aliud simile vitium inducat. Unde
+          <lb ed="#P" n="30"/>sicut eadem facultas est, qua intendit finem,
+          <lb ed="#P" n="31"/>et media ad illum eligit: ita sub potestate,
+          <lb ed="#P" n="32"/>vel licentia tentandi homines, 
+          comprehendi<lb break="no" ed="#P" n="33"/>tur saepe licentia inferendi ei nocumenta, vel
+          <lb ed="#P" n="34"/>alias poenas, sicut in Job manifestum est.
+          <lb ed="#P" n="35"/>Quapropter sicut facultas tentandi non est ex
+          <lb ed="#P" n="36"/>positiva Dei ordinatione, sed ex permissione:
+          <lb ed="#P" n="37"/>ita haec potestas nocendi in ordine ad talem
+          <lb ed="#P" n="38"/>finem tantum est ex permissione divina, 
+          sup<lb break="no" ed="#P" n="39"/>posita naturali potestate, quam daemon ad 
+          no<lb break="no" ed="#P" n="40"/>cendum habet: est enim in utraque licentia
+          <lb ed="#P" n="41"/>eadem ratio, et ideo de hoc genere potestatis,
+          <lb ed="#P" n="42"/>seu ministerii nihil amplius dicere necessarium
+          <lb ed="#P" n="43"/>est.
+        </p>
+        <p xml:id="szdada-x27381-d1e308">
+          <lb ed="#P" n="44"/>4. Deus affligit puniendo, aut etiam 
+          meden<lb break="no" ed="#P" n="45"/>do.—Posterior item modus puniendi homines,
+          <lb ed="#P" n="46"/>propter peccata commissa. non minus certus
+          <lb ed="#P" n="47"/>est. Nam constat saepe Deum graviter punire
+          <lb ed="#P" n="48"/>homines in hac vita propter commissa peccata,
+          <lb ed="#P" n="49"/>non tantum in medicinam, sed etiam in 
+          vin<lb break="no" ed="#P" n="50"/>dictam, ut de aquis diluvii et de igne Sodomae
+          <lb ed="#P" n="51"/>et de multitudine hominum saepissime 
+          inter<lb break="no" ed="#P" n="52"/>fecta propter aliquod crimen, ex Scriptura 
+          sa<lb break="no" ed="#P" n="53"/>cra manifestum est. Docet autem 
+          Chrysosto<lb break="no" ed="#P" n="54"/>mus, hom. 43, in Acta, circa finem, Deum non
+          <lb ed="#P" n="55"/>per seipsum punire, sed per Angelos: ibi au-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tem non declarat an per bonos, vel per malos
+          <lb ed="#P" n="57"/>intelligat; et primum magis indicat, et an 
+          in<lb break="no" ed="#P" n="58"/>terdum ita fiat supra, in lib. 6, cap. 19, 
+          trac<lb break="no" ed="#P" n="59"/>tavimus. Verumtamen, hom. 3, de Patientia
+          <lb ed="#P" n="60"/>Job, aperte distinguit, dicens: Sicut inter 
+          ho<lb break="no" ed="#P" n="61"/>mines sunt milites, qui honoribus ministrando
+          <lb ed="#P" n="62"/>ainsistunt, et alii, qui ad penas erigendas 
+          segre<lb break="no" ed="#P" n="63"/>gantur, sic ad ministeria et hominum 
+          dispen<lb break="no" ed="#P" n="64"/>sationes sancti Angeli, ad malorum vero 
+          homi<lb break="no" ed="#P" n="65"/>num penas postulandas demones transmitti.
+          <lb ed="#P" n="66"/>Et hanc posteriorem partem confirmat ex illo
+          <lb ed="#P" n="67"/>Psal. TT: Misit in eos iram indignationis sue,
+          <lb ed="#P" n="68"/>immissiones per Angelos malos. Et quamvis non
+          <lb ed="#P" n="69"/>desint, qui de bonis Angelis locum illum 
+          in<lb break="no" ed="#P" n="70"/>terpretentur, ita ut mal dicantur, non a 
+          ma<lb break="no" ed="#P" n="71"/>litia morali, sed ab effectu, quia fuerant noxii
+          <lb ed="#P" n="72"/>et mala intulerant: simplicior videtur 
+          Hiero<lb break="no" ed="#P" n="73"/>nymum expositio, quam etiam sequitur 
+          opti<lb break="no" ed="#P" n="74"/>me Augustinus ibi, etidem repetit Hieronymus,
+          <lb ed="#P" n="75"/>Joel. 2.
+        </p>
+        <p xml:id="szdada-x27381-d1e382">
+          <lb ed="#P" n="76"/>5. Id Patres extendunt etiam ad spnrituales
+          <lb ed="#P" n="77"/>penas.—CQwui Patres notant, non tantum 
+          poe<lb break="no" ed="#P" n="78"/>nas exteriores, et temporales Deum immittere
+          <lb ed="#P" n="79"/>per hos malos Angelos, sed etiam internas 
+          ob<lb break="no" ed="#P" n="80"/>durationes voluntatis et deceptiones mentis
+          <lb ed="#P" n="81"/>permittendo, videlicet propter priora peccata;
+          <lb ed="#P" n="82"/>ut daemones faciant signa, aut proferant 
+          ver<lb break="no" ed="#P" n="83"/>ba, quibus peccatorum obduratione et 
+          caeci<lb break="no" ed="#P" n="84"/>tate decipiantur. Et adducunt illud 3, Reg. 22,
+          <lb ed="#P" n="85"/>ubi spiritus malus se obtulit Deo ad 
+          decipien<lb break="no" ed="#P" n="86"/>dum Achab, dicens: Ero spiritus mendaz in
+          <lb ed="#P" n="87"/>ore omnium prophetarum, cui respondit 
+          Domi<lb break="no" ed="#P" n="88"/>nus, Decipies et preevalebis, egredere et fac,
+          <lb ed="#P" n="89"/>utique in peenam peccatorum Achab. Item 
+          ad<lb break="no" ed="#P" n="90"/>dit Hieronymus illum spiritum Domini malum,
+          <lb ed="#P" n="91"/>qui vexabat Saul 1, Reg. 46, de malis fuisse:
+          <lb ed="#P" n="92"/>Qui ministrant, inquit, Domino ad puniendos
+          <lb ed="#P" n="93"/>eos, qui puniri propter peccata meruerunt.
+          <lb ed="#P" n="94"/>Quos etiam dicit appellari furorem et iram
+          <lb ed="#P" n="95"/>Dei a David deprecante: Domine, ne in furore
+          <lb ed="#P" n="96"/>tuo arguas me, nec in ira tua corripias me,
+          <lb ed="#P" n="97"/>Psalm. 6. Et eosdem vocat, queestionarios, 
+          at<lb break="no" ed="#P" n="98"/>que tortores, quibus Paulus ut ministris usus
+          <lb ed="#P" n="99"/>est, quando, vel hominem satune tradidit in
+          <lb ed="#P" n="100"/>interitum carnis, 4, Cor. 5, vel, quando 
+          Hy<lb break="no" ed="#P" n="101"/>menaeum et Alexandrum tradidit satanae, ut
+          <lb ed="#P" n="102"/>discant non blaspheware, 1, Tim. 1. Eadem fere
+          <lb ed="#P" n="103"/>habet, Isai. 13, in lib. 6, ubi addit, ex his 
+          tor<lb break="no" ed="#P" n="104"/>toribus fuisse Angelum, qui primogenitos
+          <lb ed="#P" n="105"/>Agyptiorum occidit, Exod. 12, et in Psal. 34,
+          <lb ed="#P" n="106"/>verba illa, Angelus Domini coarctans ees, et
+          <lb ed="#P" n="107"/>Angelus Domini persequens eos, de daemone 
+          in<lb break="no" ed="#P" n="108"/>terpretatur, quia licet malus sit, nihilominus
+          <lb ed="#P" n="109"/>Domini dicitur, quia est ejus minister. Sicut
+          <lb ed="#P" n="110"/>etiam de Angelo Domini malo, qui vexabat
+          <pb ed="#P" n="1086"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Saul, dixit Gregorius, lib. 8, Moral., cap.6, dici
+          <lb ed="#P" n="2"/>Domini, propter potestatem, non propter maü-
+          <lb ed="#P" n="3"/>tiam. Et idem habet, 1. 25 Moral., cap. 9et
+          <lb ed="#P" n="4"/>13 .ubi locum Psalm. 77, adducit. Idem 
+          Isi<lb break="no" ed="#P" n="5"/>dorus, lib. 2 Sent., cap. 15.
+        </p>
+        <p xml:id="szdada-x27381-d1e476">
+          <lb ed="#P" n="6"/>6. Probatur item ex ratione praedicta Dei
+          <lb ed="#P" n="7"/>punitio per daemones communiter.—hatio 
+          de<lb break="no" ed="#P" n="8"/>nique, seu congruentia hujus veritatis reddi
+          <lb ed="#P" n="9"/>solet, quia daemon inducendo hominem ad
+          <lb ed="#P" n="10"/>peccatum, et vincendo illum, ejus quoddam
+          <lb ed="#P" n="11"/>in illum acquirit, ut de illo possit vindictam
+          <lb ed="#P" n="12"/>sumere et debeat; et ideo Apoc. 12 fratrum
+          <lb ed="#P" n="13"/>accusator appelletur, quia contra homines 
+          pec<lb break="no" ed="#P" n="14"/>cantes jus suum constanter exigit. At enim,
+          <lb ed="#P" n="15"/>revera diabolus nullum proprium jus acquirit
+          <lb ed="#P" n="16"/>in hominem peccantem ratione peccati, ut
+          <lb ed="#P" n="17"/>bene probat Anselmus, lib. 4, Cur Deus hemo,
+          <lb ed="#P" n="18"/>cap. 7. Quamvis enim ibi Boso loquatur, 
+          ni<lb break="no" ed="#P" n="19"/>hilominus ratio quam adducit, optima est, cui
+          <lb ed="#P" n="20"/>postea nihil Anselmus respondit. Est autem
+          <lb ed="#P" n="21"/>ratio, quia homo quamvis peccet instigante
+          <lb ed="#P" n="22"/>daemone, non daemonem, sed Deum offendit,
+          <lb ed="#P" n="23"/>et ideo homo ex parte sua manet reus poenae
+          <lb ed="#P" n="24"/>apud Deum, non apud diabolum, imo diabolus
+          <lb ed="#P" n="25"/>ipse potius poena videri posset dignus, quia
+          <lb ed="#P" n="26"/>hominem induxit, quam jure, vel facultate
+          <lb ed="#P" n="27"/>puniendi hominem. Quod ergo daemon fiat 
+          mi<lb break="no" ed="#P" n="28"/>nister pcenae infligendae homini, ex solo recto
+          <lb ed="#P" n="29"/>ordine divinae providentiae nascitur, non ex
+          <lb ed="#P" n="30"/>aliquo jure ipsius daemonis. hRatio vero illius
+          <lb ed="#P" n="31"/>providentiae sola est, quam insinuavit 
+          Chrysos<lb break="no" ed="#P" n="32"/>tomus. Quia non docet, Deum per seipsum
+          <lb ed="#P" n="33"/>vindictam de peccatoribus sumere, neque etiam
+          <lb ed="#P" n="34"/>decet sanctos Angelos hoc ministerium 
+          exer<lb break="no" ed="#P" n="35"/>cere, et hoc est, quod ait, lictores ergo sunt
+          <lb ed="#P" n="36"/>Angeli? Absit, non hoc diverim. Quod verum
+          <lb ed="#P" n="37"/>quidem est, saltem ex officio, et secundum 
+          or<lb break="no" ed="#P" n="38"/>dinariam legem, et maxime in poenis, quae
+          <lb ed="#P" n="39"/>solum sunt ad supplicium et vindictam: nam
+          <lb ed="#P" n="40"/>hoc ministerium per vilissimas personas solet
+          <lb ed="#P" n="41"/>executioni mandari; et ideo convenientius a
+          <lb ed="#P" n="42"/>Deo per Angelos malos fieri. An vero interdum
+          <lb ed="#P" n="43"/>fiat per bonos, in fine libri sexti dictum est.
+          <lb ed="#P" n="44"/>Est autem in hoc ministerio ultcrius 
+          notan<lb break="no" ed="#P" n="45"/>dum, hoc ministerium interdum fieri a 
+          daemo<lb break="no" ed="#P" n="46"/>ne immediate per seipsum: ut quando vexat
+          <lb ed="#P" n="47"/>corpus hominis, vel obsidendo illum, vel aliter
+          <lb ed="#P" n="48"/>alterando humores usque ad mortem, vel aliter
+          <lb ed="#P" n="49"/>suffocando, ut in septem viris sponsis Sarae
+          <lb ed="#P" n="50"/>fecisse videtur, Tob. 3. nterdum vero id facit
+          <lb ed="#P" n="51"/>per creaturam subjectam irrationalem, ut per
+          <lb ed="#P" n="52"/>ignem, aut ventum, ut in Job legitur, aut per
+          <lb ed="#P" n="53"/>bestiam, verbi gratia, leonem, per quem 
+          Pro<lb break="no" ed="#P" n="54"/>phetam occidit, et tunc efficaciter, et ex 
+          ne<lb break="no" ed="#P" n="55"/>sessitate infert malum, quod intendit. At vero
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>daemon saepius hoc facit per homines malos,
+          <lb ed="#P" n="57"/>quos excitat ad occidendum, vel aliter aliis
+          <lb ed="#P" n="58"/>nocendum, ut etiam in Job, et passim alibi in
+          <lb ed="#P" n="59"/>Scriptura legitur. Et tunc simul est auctor 
+          cul<lb break="no" ed="#P" n="60"/>pae in eo, quem inducit, et poenae in altero, qui
+          <lb ed="#P" n="61"/>punitur: et ideo non ita efficaciter operatur
+          <lb ed="#P" n="62"/>tunc daemon, sed tantum morali modo 
+          inci<lb break="no" ed="#P" n="63"/>tando, eo nempe quo potest esse causa peccati
+        </p>
+        <p xml:id="szdada-x27381-d1e606">
+          <lb ed="#P" n="64"/>7. An dictum ministerium sit tantum Deo
+          <lb ed="#P" n="65"/>permittente.— Resolutio auctoritis per 
+          distinc<lb break="no" ed="#P" n="66"/>tionei. — Hinc vero dubium oritur, an hoc
+          <lb ed="#P" n="67"/>ministerium fiat a daemone jubente Deo, vel
+          <lb ed="#P" n="68"/>tantum permittente. Nam D. Anselmus, dicto
+          <lb ed="#P" n="69"/>libro 1, Cur DEUS homo, cap. 1, significat
+          <lb ed="#P" n="70"/>nunquam fieri DEO jubente, sed tantum 
+          per<lb break="no" ed="#P" n="71"/>mittente. Quia licet ex parte DEI justa sit 
+          pu<lb break="no" ed="#P" n="72"/>nitio, nihilominus ex parte daemonis semper
+          <lb ed="#P" n="73"/>est injusta. Tum quia ipse nullum jus habet in
+          <lb ed="#P" n="74"/>hominem, tum etiam, quia diabolus ad 
+          ma<lb break="no" ed="#P" n="75"/>lum hoc inferendum semper instinctu malitiee
+          <lb ed="#P" n="76"/>impellitur. Verumtamen ibi Anselmus 
+          propo<lb break="no" ed="#P" n="77"/>nendo potius dubitationem, quam aliquid 
+          re<lb break="no" ed="#P" n="78"/>solvendo procedit: unde distinctione utendum
+          <lb ed="#P" n="79"/>videtur. Nam quoties daemon, ut poenam vel
+          <lb ed="#P" n="80"/>malum aliquod uni inferat, alium ad 
+          peccan<lb break="no" ed="#P" n="81"/>dum inducit, vel quando poena ipsa intrinsece
+          <lb ed="#P" n="82"/>includit similem inductionem, ut contingit,
+          <lb ed="#P" n="83"/>quando instigatio, seu tentatio ad unum 
+          pec<lb break="no" ed="#P" n="84"/>catum est poena prioris peccati: tunc poena illa
+          <lb ed="#P" n="85"/>non provenit, jubente Deo, sed permittente,
+          <lb ed="#P" n="86"/>quia intrinsece involvit tentationem, et 
+          sug<lb break="no" ed="#P" n="87"/>gestionem mali culpae, cujus Deus auctor esse
+          <lb ed="#P" n="88"/>non potest (ut jam dictum est, et quoad hoc
+          <lb ed="#P" n="89"/>procedit optime doctrina Anselmi in loco 
+          alle<lb break="no" ed="#P" n="90"/>gato. At vero quando daemon immediate per
+          <lb ed="#P" n="91"/>seipsum, vel per creaturam irrationalem, 
+          ma<lb break="no" ed="#P" n="92"/>Ium pure poenale infert homini, tunc nihil 
+          ve<lb break="no" ed="#P" n="93"/>tat, quin daemon, non solum permittente, sed
+          <lb ed="#P" n="94"/>etiam jubente Deo, id faciat; quia de se non
+          <lb ed="#P" n="95"/>involuit malum culpae, nec ejus causalitatem,
+          <lb ed="#P" n="96"/>sed solius tantum paenae. Dico autem de se, quia
+          <lb ed="#P" n="97"/>non obstabit, quod daemon semper peccaturus
+          <lb ed="#P" n="98"/>sit, illud mandatum Dei exequendo: vel 
+          sem<lb break="no" ed="#P" n="99"/>per id faciens ex odio contra hominem, vel
+          <lb ed="#P" n="100"/>dolens, quod illa vindicta, et actio sua in 
+          glo<lb break="no" ed="#P" n="101"/>riam DEI cedat, vel quod Deo obedire cogatur.
+          <lb ed="#P" n="102"/>Hoc, inquam, non obstat, quia haec maltia
+          <lb ed="#P" n="103"/>non est per se conjuncta tali actioni, sed per
+          <lb ed="#P" n="104"/>accidens adjungitur ex pravitate operantis,
+          <lb ed="#P" n="105"/>quam Deus impedire aut vitare non tenetur:
+          <lb ed="#P" n="106"/>et ideo licet Deus jubeat daemoni actionem et
+          <lb ed="#P" n="107"/>executionem justitiae erga peccatorem; 
+          nihilo<lb break="no" ed="#P" n="108"/>minus malitiam, quam daemon admiscet, Deus
+          <lb ed="#P" n="109"/>solum permittit. Et hoc ad summum probat
+          <lb ed="#P" n="110"/>discursus Anselmi quoad hanc partem.
+        </p>
+        <p xml:id="szdada-x27381-d1e710">
+          <pb ed="#P" n="1087"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>8. Deus ad puniendum culpas utitur 
+          commu<lb break="no" ed="#P" n="2"/>niter d«mone jubendo, ad protandan tamen 
+          vir<lb break="no" ed="#P" n="3"/>tutem non item. — Propter aliam vero, in qua
+          <lb ed="#P" n="4"/>dicit daemonem non habere jus in homines,
+          <lb ed="#P" n="5"/>posset quis subdistinguere, etiam in his poenis,
+          <lb ed="#P" n="6"/>quae inductionem ad culpam non includunt.
+          <lb ed="#P" n="7"/>Nam hae poenae, quaedam sunt proprie 
+          vindica<lb break="no" ed="#P" n="8"/>tivae, quia supponunt in persona proprium
+          <lb ed="#P" n="9"/>reatum ac debitum illarum, ut fuit, verbi
+          <lb ed="#P" n="10"/>gratia, diluvium, et poena Sodomae, aliae vero
+          <lb ed="#P" n="11"/>sunt tantum ad probationem et exercitium
+          <lb ed="#P" n="12"/>virtutis, quae licet supponant generalem 
+          sta<lb break="no" ed="#P" n="13"/>tum naturae lapsae, non tamen supponunt 
+          pro<lb break="no" ed="#P" n="14"/>prium reatum talium poenarum ex proprio, ac
+          <lb ed="#P" n="15"/>personali peccato contractum, ut in 
+          afflictioni<lb break="no" ed="#P" n="16"/>bus Job videre licet. Quando poena est prioris
+          <lb ed="#P" n="17"/>generis, procedere potest, non tantum ex 
+          per<lb break="no" ed="#P" n="18"/>missione, sed etiam ex jussione divina, quia
+          <lb ed="#P" n="19"/>per se includit intrinsecam justitiam, et 
+          aequi<lb break="no" ed="#P" n="20"/>tatem, quam Deus, ut supremus judes, 
+          justis<lb break="no" ed="#P" n="21"/>sime potest praecipere, sive a ministro licite
+          <lb ed="#P" n="22"/>exequenda sit, sive illicite ex malitia sua. At
+          <lb ed="#P" n="23"/>vero quando poena est posterioris generis, non
+          <lb ed="#P" n="24"/>habet intrinsece illam aequitatem justae 
+          puni<lb break="no" ed="#P" n="25"/>tionis et vindicationis, et ideo non jubetur a
+          <lb ed="#P" n="26"/>Deo, sed permittitur, ut in afflictionibus Job
+          <lb ed="#P" n="27"/>Deum fecisse videmus. Quia tunc non se gerit
+          <lb ed="#P" n="28"/>Deus, ut judex, sed ut dominus, quia sine
+          <lb ed="#P" n="29"/>culpa potest malum inferre suae creaturae, si
+          <lb ed="#P" n="30"/>velit, propter alias rationes providentiae suae,
+          <lb ed="#P" n="31"/>quod talem creaturae non licet.
+        </p>
+        <p xml:id="szdada-x27381-d1e785">
+          <lb ed="#P" n="32"/>9. Nihil tamen obstat quominus Deus jubeat
+          <lb ed="#P" n="33"/>daemonem ut probtet. — Verumtamen licet 
+          for<lb break="no" ed="#P" n="34"/>tasse de facto ita se gerat Deus permittendo
+          <lb ed="#P" n="35"/>has poenas, et non jubendo daemoni, ut illas
+          <lb ed="#P" n="36"/>exequatur; quoniam est magis consonum 
+          di<lb break="no" ed="#P" n="37"/>vinae clementiae ac suaviori providentiae, et
+          <lb ed="#P" n="38"/>alioqui ad finem suae providentiae sufficit, quia
+          <lb ed="#P" n="39"/>daemon ex se nocendi cupidissimus est, ut
+          <lb ed="#P" n="40"/>dixit Augustinus, lib. 18, de Civit., cap. 22;
+          <lb ed="#P" n="41"/>nihilominus Deus potest in rigore loquendo,
+          <lb ed="#P" n="42"/>utramque poenam per daemonem, imo et per
+          <lb ed="#P" n="43"/>quemcumque alium inferre, non tantum 
+          per<lb break="no" ed="#P" n="44"/>mittendo, sed etiam jubendo. Nec quoad 
+          poe<lb break="no" ed="#P" n="45"/>nam purae vindictae obstat ratio Anselmi, quia
+          <lb ed="#P" n="46"/>licet diabolus per se non habeat jus in 
+          homi<lb break="no" ed="#P" n="47"/>nes, eo ipso, quod Deus vult illo uti ut 
+          minis<lb break="no" ed="#P" n="48"/>tro ad juste puniendum hominem, habet jus
+          <lb ed="#P" n="49"/>exequendi poenam a Deo per seipsum; et ideo
+          <lb ed="#P" n="50"/>sine injuria id facit, et posset sine ulla alia 
+          ma<lb break="no" ed="#P" n="51"/>litia id facere, nisi esset obstinatus, quod non
+          <lb ed="#P" n="52"/>impedit, quin possit Deus actum praecipere, ut
+          <lb ed="#P" n="53"/>declaravi. Et haec ratio cum proportione 
+          po<lb break="no" ed="#P" n="54"/>test ad aliud membrum de paena probationis
+          <lb ed="#P" n="55"/>applicari. Nihil enim refert, quod Deus, ut ju-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dex, vel supremus Dominus, vel provisor in
+          <lb ed="#P" n="57"/>tali actione se gerat, quia cum in malo illo 
+          in<lb break="no" ed="#P" n="58"/>ferendo, nulla misceatur culpa per se 
+          loquen<lb break="no" ed="#P" n="59"/>do, potest Deus executionem illius cui 
+          volue<lb break="no" ed="#P" n="60"/>rit praecipere. Et eo ipso quod praecipit dat 
+          mi<lb break="no" ed="#P" n="61"/>nistro jus nocendi, sive praecipiat ut judex,
+          <lb ed="#P" n="62"/>sive ut Dominus, sicut praecipiendo Abrahae
+          <lb ed="#P" n="63"/>interfectionem filii, dedit illi jus ad 
+          interficien<lb break="no" ed="#P" n="64"/>dum illum licite. Unde potuisset Deus Angelis
+          <lb ed="#P" n="65"/>bonis praecipere, ut Job aflligerent, et omnia
+          <lb ed="#P" n="66"/>nocumenta illi inferrent, quae daemon intulit:
+          <lb ed="#P" n="67"/>sicut posset etiam Deus per seipsum omnia illa
+          <lb ed="#P" n="68"/>efficere; ergo etiam potuisset id praecipere 
+          ma<lb break="no" ed="#P" n="69"/>lis Angelis si vellet. In hoc ergo modo 
+          provi<lb break="no" ed="#P" n="70"/>dentiae repugnantia non fuit, quamvis de 
+          fac<lb break="no" ed="#P" n="71"/>to sola permissio intervenerit, propter 
+          ratio<lb break="no" ed="#P" n="72"/>nem dictam, et praecipue, quia tales poenae et
+          <lb ed="#P" n="73"/>afflictiones permittuntur daemonibus, ut 
+          me<lb break="no" ed="#P" n="74"/>dia, quibus ipsi utuntur, ut homines ad 
+          peccan<lb break="no" ed="#P" n="75"/>dum inducant, sicut in Job considerari potest:
+          <lb ed="#P" n="76"/>sub ea enim ratione tantum permitti poterant,
+          <lb ed="#P" n="77"/>ut ex dictis constat.
+        </p>
+        <p xml:id="szdada-x27381-d1e889">
+          <lb ed="#P" n="78"/>10. An poenarum omniwm quoae a causis 
+          ex<lb break="no" ed="#P" n="79"/>ternis naturalibus cel liberis contingunt 
+          pecca<lb break="no" ed="#P" n="80"/>toribus sint demones ministri. — Ultimo 
+          po<lb break="no" ed="#P" n="81"/>test circa hoc ministerium interrogari, an 
+          om<lb break="no" ed="#P" n="82"/>nes poenae, quas Deus in hac vita peccatoribus
+          <lb ed="#P" n="83"/>immittit, per ministerium daemonum 
+          prove<lb break="no" ed="#P" n="84"/>niant. Quod solum potest peti de poenis 
+          tem<lb break="no" ed="#P" n="85"/>poralibus et externis, quae ab extrinsecis causis
+          <lb ed="#P" n="86"/>proveniunt; nam spirituales poena a Deo 
+          im<lb break="no" ed="#P" n="87"/>mediate fiunt, ut est privatio gratiae 
+          sanctifi<lb break="no" ed="#P" n="88"/>cantis vel auxiliantis ulterioris: et talis fuit
+          <lb ed="#P" n="89"/>etiam privatio justitiae originalis, in universo
+          <lb ed="#P" n="90"/>humano genere per peccatum primi parentis
+          <lb ed="#P" n="91"/>inducta. Idemque consequenter est de 
+          poenali<lb break="no" ed="#P" n="92"/>tatibus per originale peccatum contractis, 
+          qua<lb break="no" ed="#P" n="93"/>tenus ab intrinseco sequuntur ex humana 
+          na<lb break="no" ed="#P" n="94"/>tura illo dono distincta. Procedit ergo 
+          interro<lb break="no" ed="#P" n="95"/>gatio de poenis et afflictionibus, quae a causis
+          <lb ed="#P" n="96"/>extrinsecis proveniunt. Et de his aliqui ex 
+          Pa<lb break="no" ed="#P" n="97"/>tribus absolite dicunt omnes per daemones
+          <lb ed="#P" n="98"/>fieri et procurari, quantum eis permittitur.
+          <lb ed="#P" n="99"/>Sic Beda, in lib. Var. quaest.. q. 9: Quoties
+          <lb ed="#P" n="100"/>Deus, ait, quocumque flagello huic mundo 
+          iras<lb break="no" ed="#P" n="101"/>citur, ad ministerium vindicte Angeli 
+          mittun<lb break="no" ed="#P" n="102"/>tur, loquitur autem de malis, ut subdit: Qui
+          <lb ed="#P" n="103"/>tamen divina potestate coercentur, ne tantum
+          <lb ed="#P" n="104"/>noceant, quantum cupiunt, et addit: Boni 
+          an<lb break="no" ed="#P" n="105"/>tem Angeli ad ministerium salutis humanae 
+          de<lb break="no" ed="#P" n="106"/>putati sunt. Eadem habet Isidorus, lib. 2 Sent.,
+          <lb ed="#P" n="107"/>cap. 10, Eucherius etiam, lib. 1, Reg., 
+          occa<lb break="no" ed="#P" n="108"/>sione spiritus Domini mali, qui vexabat 
+          Sau<lb break="no" ed="#P" n="109"/>lem, pro generali regula statuit: Malo spiritu
+          <lb ed="#P" n="110"/>uti DEUM ad ministerium J udicii sui, appel-
+          <pb ed="#P" n="1088"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>larique spiritum Dei ad cindiclam malorum, et
+          <lb ed="#P" n="2"/>disciplinam, vel in probationem bonorum. Idem
+          <lb ed="#P" n="3"/>sentit Tertullianus, in Apolog., cap. 22, 
+          enu<lb break="no" ed="#P" n="4"/>merans varias temporales afflictiones, quae 
+          no<lb break="no" ed="#P" n="5"/>bis a daemonibus proveniunt et procurantur.
+          <lb ed="#P" n="6"/>Similia habet Cy prianus, in lib. de Idolol. 
+          va<lb break="no" ed="#P" n="7"/>nit., praesertim num. 1. Indicat etiam 
+          Lactan<lb break="no" ed="#P" n="8"/>tius, lib. 2, cap. 15. Denique haec fuit 
+          senten<lb break="no" ed="#P" n="9"/>tia Hieronymi, Isai. 6 et 24, et aliis locis supra
+          <lb ed="#P" n="10"/>citatis, et Augustini, lib. 3, contr. Julianum,
+          <lb ed="#P" n="11"/>cap. 10, et lib. 5, cap. 3, multaque huc 
+          spec<lb break="no" ed="#P" n="12"/>tantia habet in lib. 38 quaest., q. 79.
+        </p>
+        <p xml:id="szdada-x27381-d1e993">
+          <lb ed="#P" n="13"/>11. Notandum pro eadem sententia dictum
+          <lb ed="#P" n="14"/>Hilarii. — Tandem notanda est sententia 
+          Hi<lb break="no" ed="#P" n="15"/>larii, in Psal. 118, dicentis: Omnes hunane
+          <lb ed="#P" n="16"/>injurie, quae religiosis viris inferuntur, non
+          <lb ed="#P" n="17"/>eosdem habent auctores, quos habent ministros.
+          <lb ed="#P" n="18"/>Hecutio quidem hominum est, sed diaboli 
+          in<lb break="no" ed="#P" n="19"/>stinctus est. taque omnia mala, quae homines
+          <lb ed="#P" n="20"/>sibi invicem inferunt, auctore diabolo fieri,
+          <lb ed="#P" n="21"/>seu procurari sentit. Unde idem credi potest
+          <lb ed="#P" n="22"/>de caeteris malis et adversitatibus, quae per
+          <lb ed="#P" n="23"/>varios concursus contingentes naturalium 
+          cau<lb break="no" ed="#P" n="24"/>sarum hominibus eveniunt: nam illas causas
+          <lb ed="#P" n="25"/>facilius possunt daemones applicare; et ideo
+          <lb ed="#P" n="26"/>credibile est, eorum industria procurari. Et
+          <lb ed="#P" n="27"/>plura, quibus hoc ipsum confirmari potest, ex
+          <lb ed="#P" n="28"/>philosophis refert Eugubius, lib. 8, de Peren.
+          <lb ed="#P" n="29"/>philos., cap. 26 et sequent. Ratione denique,
+          <lb ed="#P" n="30"/>seu conjectura boc suaderi potest: nam 
+          dae<lb break="no" ed="#P" n="31"/>mones sunt nocendi cupidissimi (ut ex 
+          Augus<lb break="no" ed="#P" n="32"/>tino dixi), et summo odio homines 
+          perse<lb break="no" ed="#P" n="33"/>quuntur; ergo verisimile est, quantum possunt,
+          <lb ed="#P" n="34"/>et sinuntur, illos affligere, eisque nocere.
+          <lb ed="#P" n="35"/>Deinde ex parte DEI, etiam est valde verisimile,
+          <lb ed="#P" n="36"/>quoties vult, aut permittit, ut haec mala 
+          homi<lb break="no" ed="#P" n="37"/>nibus eveniant, simul etiam permittere 
+          dae<lb break="no" ed="#P" n="38"/>monibus, ut ea faciant vel procurent, nam
+          <lb ed="#P" n="39"/>singulos effectus per causas secundas cum 
+          de<lb break="no" ed="#P" n="40"/>bita proportione operatur. Haec igitur pro 
+          ge<lb break="no" ed="#P" n="41"/>nerali regula assignari potest, quod omnia haec
+          <lb ed="#P" n="42"/>mala poenae per ministerium daemonum fiunt.
+          <lb ed="#P" n="43"/>Qua non obstante exceptiones aliquae 
+          admit<lb break="no" ed="#P" n="44"/>tendae sunt, juxta ea, quae de effectibus 
+          cus<lb break="no" ed="#P" n="45"/>todiae Angelorum bonorum in fine libri sexti
+          <lb ed="#P" n="46"/>diximus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="966"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x24377"><!-- l8c2 -->
+        <head xml:id="szdada-x24377-Hd1e101">Caput 2</head>
+        <head xml:id="szdada-x24377-Hd1e103" type="question-title">Quando mali angeli damnati sint, et ultimo supplicio affecti</head>
+        <p xml:id="szdada-x24377-d1e106">
+          <lb ed="#P" n="45"/>CAPUT II.
+          <lb ed="#P" n="46"/>QUANDO MALI ANGELI DAMNATI SINT, ET ULTIMO
+          <lb ed="#P" n="47"/>SUPPLICIO AFFECTI.
+        </p>
+        <p xml:id="szdada-x24377-d1e115">
+          <lb ed="#P" n="48"/>1. Prima sententia. — Duas sententias 
+          ex<lb break="no" ed="#P" n="49"/>treme contrarias in hoc puncto invenio. Prima
+          <lb ed="#P" n="50"/>est, Angelos in eodem instanti, in quo 
+          pecca<lb break="no" ed="#P" n="51"/>runt, fuisse damnatos. Quod intelligit haec
+          <lb ed="#P" n="52"/>sententia de eodem instanti, etiam secundum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>coexistentiam ad nostrum tempus, ita ut 
+          cul<lb break="no" ed="#P" n="54"/>pa. non duratione, sed tantum natura poenam,
+          <lb ed="#P" n="55"/>et damnationem antecesserit. Referuntur pro
+          <lb ed="#P" n="56"/>hac sententia Doctores, qui dixerunt Angelos
+          <lb ed="#P" n="57"/>malos in primo instanti suae creationis 
+          peccas<lb break="no" ed="#P" n="58"/>se. Sed illi non tam clare loquuntur de poena,
+          <lb ed="#P" n="59"/>sicut de culpa, ut supra vidimus, ubi 
+          senten<lb break="no" ed="#P" n="60"/>tiam illam improbavimus. Et ita ex ibi dictis
+          <lb ed="#P" n="61"/>constat, Angelos non fuisse damnatos, nec
+          <lb ed="#P" n="62"/>punitos in instanti, in quo creati sunt. Quia in
+          <lb ed="#P" n="63"/>illo non peccarunt; ergo nec poenam 
+          recepe<lb break="no" ed="#P" n="64"/>runt, nam l'eus neminem punit, priusquam
+          <lb ed="#P" n="65"/>delinquat. Et quamvis in bonis meritis 
+          admit<lb break="no" ed="#P" n="66"/>teretur anticipatio praemii, propter merita
+          <lb ed="#P" n="67"/>praevisa, in malis talis anticipatio poenae 
+          ad<lb break="no" ed="#P" n="68"/>mitti non posset: tum quia non est secundum
+          <lb ed="#P" n="69"/>justitiam, et misericordiae repugnat, tum etiam
+          <lb ed="#P" n="70"/>quia talis est damnationis poena, ut persona
+          <lb ed="#P" n="71"/>ibi reddatur impotens ad bene operandum, ut
+          <lb ed="#P" n="72"/>infra videbimus.
+        </p>
+        <p xml:id="szdada-x24377-d1e174">
+          <lb ed="#P" n="73"/>2. Illam ergo sententiam maxime defendunt
+          <lb ed="#P" n="74"/>Cajetanus, d. quaest. 63, art. 6, et Ferrariensis
+          <lb ed="#P" n="75"/>3, contra Gent., cap. 110, quos nonnulli 
+          mo<lb break="no" ed="#P" n="76"/>derni sequuntur. Fundantur imprimis, quia
+          <lb ed="#P" n="77"/>in eodem instanti mali Angeli receperunt 
+          ulti<lb break="no" ed="#P" n="78"/>mam poenam, in quo boni praemium 
+          accepe<lb break="no" ed="#P" n="79"/>runt, quia simul omnes a Deo dijudicati sunt,
+          <lb ed="#P" n="80"/>et justitiae ratio in hoc postulat aequalitatem,
+          <lb ed="#P" n="81"/>seu proportionem: sed boni Angeli statim in
+          <lb ed="#P" n="82"/>secundo instanti receperunt praemium, ut dicti
+          <lb ed="#P" n="83"/>auctores opinantur; ergo et mali poenam. Imo
+          <lb ed="#P" n="84"/>in nostra etiam sententia non videtur esse 
+          re<lb break="no" ed="#P" n="85"/>pugnantia inter poenam et peccatum, quae 
+          in<lb break="no" ed="#P" n="86"/>ter meritum et praemium ultimum invenitur,
+          <lb ed="#P" n="87"/>quia potuerunt Angeli peccando amittere non
+          <lb ed="#P" n="88"/>solum gratiam, sed etiam fidem et spem; ergo
+          <lb ed="#P" n="89"/>potuerunt etiam puniri ultima poena, 
+          praeser<lb break="no" ed="#P" n="90"/>tim damni, quae in privatione omnis gratiae
+          <lb ed="#P" n="91"/>et gloriae consistit. Et declaratur, quia homo
+          <lb ed="#P" n="92"/>privatur gratia in eodem instanti, in quo 
+          pec<lb break="no" ed="#P" n="93"/>cat mortaliter, quae privatio poena est, et dese,
+          <lb ed="#P" n="94"/>seu ex parte homiuis est perpetua; ergo fieri
+          <lb ed="#P" n="95"/>etiam potuit, ut Deus definita voluntate statim
+          <lb ed="#P" n="96"/>voluerit illam esse aeternam et irremissibilem,
+          <lb ed="#P" n="97"/>ac subinde esse ultimam damnationem.
+        </p>
+        <p xml:id="szdada-x24377-d1e232">
+          <lb ed="#P" n="98"/>3. Secunda sententia sine auctore, demones
+          <lb ed="#P" n="99"/>non damnari usque ad diem J udicii.—Secunda
+          <lb ed="#P" n="100"/>sententia esse potest, Angelos desertores non
+          <lb ed="#P" n="101"/>solum non fuisse in eodem instanti punitos,
+          <lb ed="#P" n="102"/>verum etiam nondum recepisse ultimum 
+          suo<lb break="no" ed="#P" n="103"/>rum meritorum supplicium, neque usque ad
+          <lb ed="#P" n="104"/>diem Judicii fore damnandos. Quae sententia
+          <lb ed="#P" n="105"/>tribuitur Hilario, can S, in Matth., circa illa
+          <lb ed="#P" n="106"/>verba: Venisti huc ante tempus torquere nos?
+          <lb ed="#P" n="107"/>Proclamant enim, ait Hilarius, cur sedem invi-
+          <pb ed="#P" n="967"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>deat, cur ante judicii tempus infestet. Invenio
+          <lb ed="#P" n="2"/>etiam pro hac sententia relatos Justinum, 
+          lre<lb break="no" ed="#P" n="3"/>naeum, Lactantium, Eusebium, ac 
+          Nicepho<lb break="no" ed="#P" n="4"/>rum, sed nihil tale apud eos retuli, neque 
+          Hila<lb break="no" ed="#P" n="5"/>rius id dixit, ut ex citatis verbis satis constat.
+          <lb ed="#P" n="6"/>Dictam ergo sententiam apud nullum 
+          Catholi<lb break="no" ed="#P" n="7"/>cum auctorem invenio, licet referri soleat. 
+          Po<lb break="no" ed="#P" n="8"/>tuit vero fundari, quia nondum factum est de
+          <lb ed="#P" n="9"/>malis Angelis judicium. Ait enim Petrus, 2 ep.,
+          <lb ed="#P" n="10"/>cap. 2: Adhuc in judicium reservari, et Judas
+          <lb ed="#P" n="11"/>similiter dixit: Beservari in judicium magni
+          <lb ed="#P" n="12"/>Dei, quamvis in vinculis, tanquam in carcere
+          <lb ed="#P" n="13"/>reservati sint. Unde licet e coelo ejecti sint,
+          <lb ed="#P" n="14"/>nondum sunt in infernum detrusi, sed in hoc
+          <lb ed="#P" n="15"/>aere libere discurrere permittuntur, ut 
+          colli<lb break="no" ed="#P" n="16"/>gitur ex Ephes. 6, et 1, Petr. 5, et consequenter
+          <lb ed="#P" n="17"/>nondum videntur pati poenam ignis. Et 
+          for<lb break="no" ed="#P" n="18"/>tasse loquens Christus de illo igne, Matth. 25,
+          <lb ed="#P" n="19"/>ideo non dixit, gui cruciat diabolum et Angelos
+          <lb ed="#P" n="20"/>ejus, sed qui paratus est diabolo et Angelis ejus,
+          <lb ed="#P" n="21"/>et Petrus, dicta 2 epist., cap. 2, dixit reservati
+          <lb ed="#P" n="22"/>in judicium cruciandos, indicans, nondum
+          <lb ed="#P" n="23"/>cruciari ultimo supplicio. Unde Cajetanus in
+          <lb ed="#P" n="24"/>eum locum sensit, saltem majorem cruciatum
+          <lb ed="#P" n="25"/>reservatum esse daemonibus in die Judicii.
+        </p>
+        <p xml:id="szdada-x24377-d1e315">
+          <lb ed="#P" n="26"/>4. Assertio prima, Angelos in ipso instanti
+          <lb ed="#P" n="27"/>peccati non fuisse ultimo gumnitos. — Primo
+          <lb ed="#P" n="28"/>vero dicendum est, Angelos non fuisse 
+          dam<lb break="no" ed="#P" n="29"/>natos ultima poena in eodem instanti, in quo
+          <lb ed="#P" n="30"/>peccarunt. Haec est communior sententia 
+          theo<lb break="no" ed="#P" n="31"/>logorum in 2, d. 4 et 5, praesertim Scoti, quem
+          <lb ed="#P" n="32"/>sequuntur Gahriel, Bassolis et alii: sequiturque
+          <lb ed="#P" n="33"/>ex dictis a nobis de bonis Angelis, retorquendo
+          <lb ed="#P" n="34"/>fundamentum prioris sententiae. Nam 
+          prae<lb break="no" ed="#P" n="35"/>mium, et poena simul bonis et malis Angelis
+          <lb ed="#P" n="36"/>data sunt, sed Angeli boni non receperunt
+          <lb ed="#P" n="37"/>praemium in secundo instanti; ergo neque mali
+          <lb ed="#P" n="38"/>Angeli poenam. Consequentia evidens est, et
+          <lb ed="#P" n="39"/>minor in superiori libro capite primo probata
+          <lb ed="#P" n="40"/>est: majorem autem etiam auctores prioris
+          <lb ed="#P" n="41"/>sententiae ut veram supponunt, et per se 
+          qui<lb break="no" ed="#P" n="42"/>dem est valde probabilis, quia (ut saepe dixi)
+          <lb ed="#P" n="43"/>Deus ex se a principio omnibus Angelis 
+          uni<lb break="no" ed="#P" n="44"/>formiter providit, et ideo (ut recte supra 
+          nota<lb break="no" ed="#P" n="45"/>vit Scotus) omnibus Angelis eamdem moram
+          <lb ed="#P" n="46"/>certam, ac definitam praefixit, sicut hominibus
+          <lb ed="#P" n="47"/>eumdem terminum viae statuit, scilicet 
+          mor<lb break="no" ed="#P" n="48"/>tem: ergo Angeli omnes simul ad terminum
+          <lb ed="#P" n="49"/>viae pervenerunt, ac proinde simul praemium,
+          <lb ed="#P" n="50"/>vel poenam acceperunt. Et confirmatur quia
+          <lb ed="#P" n="51"/>Deus non magis accelerat poenam, quam 
+          prae<lb break="no" ed="#P" n="52"/>mium; ergo si non dedit praemium in eodem
+          <lb ed="#P" n="53"/>instanti meriti, neque poenam intulit simul, et
+          <lb ed="#P" n="54"/>in eodem instanti, in quo peccatum 
+          commis<lb break="no" ed="#P" n="55"/>sum est.
+        </p>
+        <p xml:id="szdada-x24377-d1e383">
+          <lb ed="#P" n="56"/>5. Probatur secundo. — Unde arguitur 
+          se<lb break="no" ed="#P" n="57"/>cundo, quia etiamsi daremus (quod non 
+          con<lb break="no" ed="#P" n="58"/>cedimus) fieri posse, ut poena haec ultimae
+          <lb ed="#P" n="59"/>damnationis simul in primo instanti culpae 
+          in<lb break="no" ed="#P" n="60"/>feratur, nihilominus non apparet verisimie ita
+          <lb ed="#P" n="61"/>factum esse. Quia imprimis nulla hoc 
+          auctori<lb break="no" ed="#P" n="62"/>tate fundatur, quia neque in Scriptura, neque
+          <lb ed="#P" n="63"/>a Patribus indicatur, et deinde non est 
+          con<lb break="no" ed="#P" n="64"/>sentaneum divinae providentiae, et sapientiae,
+          <lb ed="#P" n="65"/>quia est nimius rigor, et non necessarius, 
+          ne<lb break="no" ed="#P" n="66"/>que ulla verisimili ratione fundatus. Item quia
+          <lb ed="#P" n="67"/>Angeli in coelo peccarunt, in illo ergo instanti,
+          <lb ed="#P" n="68"/>in quo peccarunt, in coelo extiterunt, quia non
+          <lb ed="#P" n="69"/>potuerunt pro eodem instanti ibi operari, et
+          <lb ed="#P" n="70"/>locum deserere: nam hoc claram involvit 
+          re<lb break="no" ed="#P" n="71"/>pugnantiam. Non est autem verisimile in 
+          ipso<lb break="no" ed="#P" n="72"/>met coelo incepisse intrinsece puniri poena 
+          in<lb break="no" ed="#P" n="73"/>ferni. Quod imprimis de poena sensus, seu ignis
+          <lb ed="#P" n="74"/>probatur, quia licet fortasse possit per ignem
+          <lb ed="#P" n="75"/>inferri in loco distanti a gehenna, nihilominus
+          <lb ed="#P" n="76"/>valde indecens, et incredibile est, ut usque ad
+          <lb ed="#P" n="77"/>coelum empyreum, vel etiam stellatum 
+          perti<lb break="no" ed="#P" n="78"/>gerit. Unde majori ratione, neque poena damni
+          <lb ed="#P" n="79"/>debuit eis in eodem coelesti loco inferri; prius
+          <lb ed="#P" n="80"/>ergo mali Angeli e coelo ejecti sunt, et tunc
+          <lb ed="#P" n="81"/>damnationis poenam acceperunt.
+        </p>
+        <p xml:id="szdada-x24377-d1e442">
+          <lb ed="#P" n="82"/>6. Probatur tertio. — Tertio, et praecipue
+          <lb ed="#P" n="83"/>probatur, quia propria poena aeternae 
+          damna<lb break="no" ed="#P" n="84"/>tonis includit aliquid formaliter repugnans
+          <lb ed="#P" n="85"/>dispositioni necessariae ad peccandum; ergo
+          <lb ed="#P" n="86"/>non potest inferri in eodem instanti, in quo
+          <lb ed="#P" n="87"/>peccatur, merendo talem poenam, quia 
+          contra<lb break="no" ed="#P" n="88"/>dictoria non possunt esse simul in eadem 
+          du<lb break="no" ed="#P" n="89"/>ratione reali. Assumptum probatur, quia 
+          An<lb break="no" ed="#P" n="90"/>gelus in illo primo instanti, in quo peccavit,
+          <lb ed="#P" n="91"/>simpliciter loquendo, potuit non peccare, sed
+          <lb ed="#P" n="92"/>in statu damnationis est jam impotens ad non
+          <lb ed="#P" n="93"/>peccandum, quia per talem poenam obstinatur
+          <lb ed="#P" n="94"/>voluntas in malo, ut infra videbimus; ergo
+          <lb ed="#P" n="95"/>non potuit esse simul talis poona cum primo
+          <lb ed="#P" n="96"/>peccato Angeli, neque in primo instanti, in
+          <lb ed="#P" n="97"/>quo commissum est. Quia non potest voluntas
+          <lb ed="#P" n="98"/>in eodem instanti esse simpliciter libera ad
+          <lb ed="#P" n="99"/>bene, vel male operandum, merendum, vel
+          <lb ed="#P" n="100"/>demerendum, et esse in malo obstinata. Dices,
+          <lb ed="#P" n="101"/>imo in eodem instanti prius natura potest 
+          vo<lb break="no" ed="#P" n="102"/>luntas non peccare, et posterius natura actu
+          <lb ed="#P" n="103"/>peccare, et consequenter jam non potest non
+          <lb ed="#P" n="104"/>peccare. Respondeo, hanc impotentiam solum
+          <lb ed="#P" n="105"/>esse in sensu composito, id est, pro illo tantum
+          <lb ed="#P" n="106"/>instanti, et ex suppositione actus, de qua 
+          im<lb break="no" ed="#P" n="107"/>potentia verum est, non repugnare formaliter
+          <lb ed="#P" n="108"/>-um potestate non efticiendi talem actum. At
+          <lb ed="#P" n="109"/>vero obstinatio damnationis non hanc solum
+          <lb ed="#P" n="110"/>impotentiam includit, sed absolute excludit
+          <pb ed="#P" n="968"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>potestatem bene operandi simpliciter, et pro
+          <lb ed="#P" n="2"/>quocumque tempore, et ideo repugnat esse 
+          si<lb break="no" ed="#P" n="3"/>mul in illo primo instanti, in quo primum 
+          pec<lb break="no" ed="#P" n="4"/>catur. Confirmatur, ac declaratur, quia Lucifer
+          <lb ed="#P" n="5"/>habuit a Deo auxilium sufliciens ad non 
+          pec<lb break="no" ed="#P" n="6"/>candum in eodem instanti, in quo peccavit;
+          <lb ed="#P" n="7"/>at vero in instanti, in quo intrinsece 
+          damna<lb break="no" ed="#P" n="8"/>tus fuit, etiam omni auxilio sufficienti 
+          priva<lb break="no" ed="#P" n="9"/>tus fuit, et ita obstinatus in malo, ut amplius
+          <lb ed="#P" n="10"/>converti non posset, ac subinde omnino est
+          <lb ed="#P" n="11"/>extra viam constitutus; ergo non potuit esse
+          <lb ed="#P" n="12"/>idem indivisibile instans, in quo primum 
+          pec<lb break="no" ed="#P" n="13"/>catum ab Angelo commissum est, et in quo
+          <lb ed="#P" n="14"/>ultimo supplicio punitus est. Est ergo 
+          repu<lb break="no" ed="#P" n="15"/>gnantia quasi formalis, vel virtualis inter 
+          sta<lb break="no" ed="#P" n="16"/>tum peccandi demeritorie, et statum ultimae
+          <lb ed="#P" n="17"/>damnationis: sicutest inter statum meriti, et 
+          ul<lb break="no" ed="#P" n="18"/>timi praemii.
+        </p>
+        <p xml:id="szdada-x24377-d1e551">
+          <lb ed="#P" n="19"/>7. Occurritur alteri argumento, quo 
+          enerva<lb break="no" ed="#P" n="20"/>ri posset proxima confirmatio.—Neque contra
+          <lb ed="#P" n="21"/>hoc obstat, quod in supplicio damnationis non
+          <lb ed="#P" n="22"/>est illa repugnantia inter fidem et poenam ,
+          <lb ed="#P" n="23"/>quae est inter fidem et praemium. Neque est
+          <lb ed="#P" n="24"/>ila connexio inter fidem et peccatum, quae
+          <lb ed="#P" n="25"/>est inter fidem et meritum. Nam licet haec
+          <lb ed="#P" n="26"/>concedantur, nihil obstant, tum quia non est
+          <lb ed="#P" n="27"/>necesse, ut repugnantia ex eodem capite 
+          oria<lb break="no" ed="#P" n="28"/>tur, undecumque enim proveniat satis est;
+          <lb ed="#P" n="29"/>tum etiam, quia licet fides fortasse non habeat
+          <lb ed="#P" n="30"/>physicam repugnantiam cum statu 
+          damnatio<lb break="no" ed="#P" n="31"/>nis, nihilominus ex lege Dei in damnatis esse
+          <lb ed="#P" n="32"/>non potest, ut nunc supponimus. Et e 
+          conver<lb break="no" ed="#P" n="33"/>so licet Angelus potuerit amittere fidem in
+          <lb ed="#P" n="34"/>eodem instanti, in quo peccavit (quod non 
+          as<lb break="no" ed="#P" n="35"/>serimus, sed permittimus) verisimilius est, non
+          <lb ed="#P" n="36"/>amisisse illam, quia fides non admittitur, nisi
+          <lb ed="#P" n="37"/>per errorem contrarium, quem Angelus malus
+          <lb ed="#P" n="38"/>non habuit. Imo fortasse ex aliquo objecto
+          <lb ed="#P" n="39"/>credito peccandi occasionem sumpsisset, ut
+          <lb ed="#P" n="40"/>infra videbimus. Unde ex hac parte fuit etiam
+          <lb ed="#P" n="41"/>sufficiens repugnantia, ut non potuerit 
+          Ange<lb break="no" ed="#P" n="42"/>lus in eodem instanti intrinseco esse 
+          damna<lb break="no" ed="#P" n="43"/>tus, in quo adhuc credendo erat fidelis. Tum
+          <lb ed="#P" n="44"/>denique, quia licet in intellectu Angeli 
+          peccan<lb break="no" ed="#P" n="45"/>tis non habeat locum illa repugnantia visionis
+          <lb ed="#P" n="46"/>et fidei, quam in bonis Angelis consideravimus,
+          <lb ed="#P" n="47"/>nihilominus contemplari possumus aliam inter
+          <lb ed="#P" n="48"/>cogitationem, seu apprehensionem, quam de
+          <lb ed="#P" n="49"/>Deo Angelus malus habuit in via, et in termino
+          <lb ed="#P" n="50"/>damnationis, quia in via non apprehendebat
+          <lb ed="#P" n="51"/>Deum ut inimicum, et hostem, sicut illum jam
+          <lb ed="#P" n="52"/>apprehendit in termino viae. Ex quo etiam
+          <lb ed="#P" n="53"/>orta est repugnantia in voluntatis dispositione,
+          <lb ed="#P" n="54"/>nam in termino viae statim veluti necessitate
+          <lb ed="#P" n="55"/>naturali, habuit formalem actum odii Dei,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quem in via non habuit: non fuit ergo idem
+          <lb ed="#P" n="57"/>instans. Unde non est etiam simile de 
+          priva<lb break="no" ed="#P" n="58"/>tione gratiae, quia haec non repugnat cum statu
+          <lb ed="#P" n="59"/>viae: nam illo durante est simpliciter 
+          remissi<lb break="no" ed="#P" n="60"/>bilis ex parte DEI, quamvis ex parte Angeli
+          <lb ed="#P" n="61"/>fuerit irremissibilis modo in superioribus 
+          de<lb break="no" ed="#P" n="62"/>clarato.
+        </p>
+        <p xml:id="szdada-x24377-d1e651">
+          <lb ed="#P" n="63"/>8. Assertio secunda. — Angeli immediate
+          <lb ed="#P" n="64"/>post moram brevem peccati damnati sunt. —
+          <lb ed="#P" n="65"/>Dico secundo. Mal Angeli post consummatum
+          <lb ed="#P" n="66"/>peccatum in brevissima mora, seu in divisibili
+          <lb ed="#P" n="67"/>instanti angelico, immediate post illud 
+          dam<lb break="no" ed="#P" n="68"/>nati sunt. Haec assertio est communis 
+          theolo<lb break="no" ed="#P" n="69"/>gorum, ut ex supra dictis de instantibus 
+          bo<lb break="no" ed="#P" n="70"/>norum Angelorum constat, quae ob majorem
+          <lb ed="#P" n="71"/>claritatem ad malos Angelos statim cum 
+          pro<lb break="no" ed="#P" n="72"/>portione accommodabimus. Et imprimis quod
+          <lb ed="#P" n="73"/>damnatio Angelorum peccantium non 
+          differa<lb break="no" ed="#P" n="74"/>tur usque ad diem Judicii, sed potius a 
+          prin<lb break="no" ed="#P" n="75"/>cipio mundi fuerint Angeli mali aeterno 
+          sup<lb break="no" ed="#P" n="76"/>plicio puniti, omnes colligunt ex tentatione
+          <lb ed="#P" n="77"/>primorum parentum: nam per Angelum jam
+          <lb ed="#P" n="78"/>damnatum sub specie serpentis facta est, 
+          Ge<lb break="no" ed="#P" n="79"/>nes. J. Unde Sap. 2, dicitur: /Invidia diaboli
+          <lb ed="#P" n="80"/>mors introivit in orbem terrarum, et hoc etiam
+          <lb ed="#P" n="81"/>confirmant verba illa Christi, Luc. 10: 
+          VFide<lb break="no" ed="#P" n="82"/>bam Satanam sicut fulgur de celo cadentem :
+          <lb ed="#P" n="83"/>ubi ponderandum est cum Hieronymo, Isa. 14,
+          <lb ed="#P" n="84"/>verbum cidebam, non (inquit), modo video, sed
+          <lb ed="#P" n="85"/>prius videbam, quando corruit, et fuit etiam
+          <lb ed="#P" n="86"/>ponderatio Cypriani, lib. de Card. Christi 
+          ope<lb break="no" ed="#P" n="87"/>rib., serm. de Jejun. et tentat. Christi: ubi
+          <lb ed="#P" n="88"/>ait: Ante hoc temporale initium ipse in 
+          princi<lb break="no" ed="#P" n="89"/>pio ante hominis conditionem supervenientis
+          <lb ed="#P" n="90"/>diaboli ruinam vidit, et affectatae dominationis
+          <lb ed="#P" n="91"/>ambitionem dejectiomis cjus fuisse causam: et
+          <lb ed="#P" n="92"/>consentit Gregorius 23 Moral., cap. 4, et 
+          Am<lb break="no" ed="#P" n="93"/>brosius, de Fuga saeculi, cap. 7, et Origenes,
+          <lb ed="#P" n="94"/>hom. 1, in Ezech.; et est sensus satis litteralis,
+          <lb ed="#P" n="95"/>et proprius verborum Christi: et alia loca 
+          Scrip<lb break="no" ed="#P" n="96"/>turae illi consentanea sunt, ut explicando 
+          testi<lb break="no" ed="#P" n="97"/>monia, quae pro secunda sententia adduximus,
+          <lb ed="#P" n="98"/>ostendemus.
+        </p>
+        <p xml:id="szdada-x24377-d1e733">
+          <lb ed="#P" n="99"/>9. Secundo potest hoc ab effectu sufficienter
+          <lb ed="#P" n="100"/>probari, nam Angeli, qui semel peccaverunt,
+          <lb ed="#P" n="101"/>perpetuo in peccato obstinati permanserunt,
+          <lb ed="#P" n="102"/>neque ullus illorum ad poenitentiam conversus
+          <lb ed="#P" n="103"/>est, ut supra ostendimus; ergo signum est, eos
+          <lb ed="#P" n="104"/>jam diu, et a primis mundi temporibus esse in
+          <lb ed="#P" n="105"/>damnationis termino, alioqui semper essent
+          <lb ed="#P" n="106"/>viatores, et consequenter haberent paratum
+          <lb ed="#P" n="107"/>sufficiens DEI auxilium, quo possent converti,
+          <lb ed="#P" n="108"/>neque esset desperanda eorum correctio, cujus
+          <lb ed="#P" n="109"/>contrarium contra Origenem docet Ecclesia,
+          <lb ed="#P" n="110"/>ut in sequentibus videbimus. Unde sumitur
+          <pb ed="#P" n="969"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>optima ratio, nam si Angeli peccantes erant
+          <lb ed="#P" n="2"/>incapaces poenitentiae, sive ex natura sua, seu
+          <lb ed="#P" n="3"/>ex desertione divina, cur tanto tempore 
+          dila<lb break="no" ed="#P" n="4"/>tum esset eorum supplicium? id enim non erat
+          <lb ed="#P" n="5"/>divina justitia consentaneum. Praeterquam
+          <lb ed="#P" n="6"/>quod in majus eorum detrimentum cederet,
+          <lb ed="#P" n="7"/>quia si in statu viae peccando permanerent,
+          <lb ed="#P" n="8"/>semper novum augmentum poenae mererentur,
+          <lb ed="#P" n="9"/>et pro temporali dilatione poenae, maximum et
+          <lb ed="#P" n="10"/>aeternum ejus augmentum consequerentur.
+          <lb ed="#P" n="11"/>Denique animarum in peccato decedentium
+          <lb ed="#P" n="12"/>poena non differtur usque ad diem Judicii, sed
+          <lb ed="#P" n="13"/>statim in puncto mortis infertur; ergo multo
+          <lb ed="#P" n="14"/>minus differtur poena daemonum.
+        </p>
+        <p xml:id="szdada-x24377-d1e796">
+          <lb ed="#P" n="15"/>10. Probatur deinde assertio de brevitate
+          <lb ed="#P" n="16"/>mora. — Atque hinc facile probatur principalis
+          <lb ed="#P" n="17"/>assertio, nimirum Angelos peccantes damnatos
+          <lb ed="#P" n="18"/>fuisse intra brevem moram, in qua peccatum
+          <lb ed="#P" n="19"/>consummarunt, id est, immediate post illam.
+          <lb ed="#P" n="20"/>Probatur ex dictis supra de bonis Angelis,
+          <lb ed="#P" n="21"/>nam illi receperunt praemium immediate post
+          <lb ed="#P" n="22"/>consummatum meritum. et consequenter in
+          <lb ed="#P" n="23"/>tertia morula a creatione sua: ergo simili
+          <lb ed="#P" n="24"/>modo mali Angeli receperunt poenam 
+          imme<lb break="no" ed="#P" n="25"/>diate post consummatum peccatum, in tertia
+          <lb ed="#P" n="26"/>morula post creationem suam. Probatur 
+          con<lb break="no" ed="#P" n="27"/>sequentia. Primo a paritate rationis, sicut enim
+          <lb ed="#P" n="28"/>mali Angeli suo arbitrio a bonis statim post
+          <lb ed="#P" n="29"/>creationem divisi sunt, ita debuerunt post 
+          il<lb break="no" ed="#P" n="30"/>lam voluntariam separationem inviti a 
+          socie<lb break="no" ed="#P" n="31"/>tate bonorum expelli, et in aeternum separari.
+        </p>
+        <p xml:id="szdada-x24377-d1e835">
+          <lb ed="#P" n="32"/>11. Secundo, quia verisimillimum est, sicut
+          <lb ed="#P" n="33"/>Deus creavit simul omnes Angelos, ita etiam
+          <lb ed="#P" n="34"/>pro omnibus aequalem moram, seu durationem
+          <lb ed="#P" n="35"/>viae pro omnibus destinasse, ac praefixisse, sive
+          <lb ed="#P" n="36"/>istam aequalitatem per modum quantitatis 
+          dis<lb break="no" ed="#P" n="37"/>cretae per duo instantia explicemus, sive per
+          <lb ed="#P" n="38"/>modum quantitatis continuae per coexistentiam
+          <lb ed="#P" n="39"/>ad nostrum tempus illam mensuremus. Itaque
+          <lb ed="#P" n="40"/>sicut omnes Angeli in eodem indivisibili 
+          in<lb break="no" ed="#P" n="41"/>stanti, quod fuit initium extrinsecum nostri
+          <lb ed="#P" n="42"/>temporis, creati sunt, ita duratio viae a Deo
+          <lb ed="#P" n="43"/>praescriptae pro omnibus Angelis ad aliquod
+          <lb ed="#P" n="44"/>certum instans nostri temporis, vel extrinsece,
+          <lb ed="#P" n="45"/>vel intrinsece terminata est, quia fuit finita
+          <lb ed="#P" n="46"/>ex parte utriusque extremi: omnis autem 
+          du<lb break="no" ed="#P" n="47"/>ratio finita, sive successiva continue sit, sive
+          <lb ed="#P" n="48"/>per modum talis successionis concipiatur, 
+          in<lb break="no" ed="#P" n="49"/>ter duo instantia aut vera, aut imaginaria,
+          <lb ed="#P" n="50"/>necessario concluditur. Hoc ergo modo 
+          dici<lb break="no" ed="#P" n="51"/>mus viam a DEO praefixam omnibus Angelis
+          <lb ed="#P" n="52"/>esse eamdem, seu aequalem, quia aequaliter
+          <lb ed="#P" n="53"/>omnibus proposita est ad merendum, vel 
+          de<lb break="no" ed="#P" n="54"/>merendum ,, et ex generali providentia 
+          omni<lb break="no" ed="#P" n="55"/>bus destinata est ante praescientiam absolutam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>operum ipsorum: ergo, quanquam DEUS suo
+          <lb ed="#P" n="57"/>arbitrio aliud facere potuerit, ex parte 
+          Ange<lb break="no" ed="#P" n="58"/>lorum non potest cogitari ratio, ob quam in
+          <lb ed="#P" n="59"/>limitanda, vel extendenda duratione viae inter
+          <lb ed="#P" n="60"/>ipsos inaequalitas fieret; ergo tam boni, quam
+          <lb ed="#P" n="61"/>mali Angeli simul inceperunt esse in termino
+          <lb ed="#P" n="62"/>suo.
+        </p>
+        <p xml:id="szdada-x24377-d1e907">
+          <lb ed="#P" n="63"/>12. Tertio est optima ratio in superioribus
+          <lb ed="#P" n="64"/>tacta, quia cum Angeli non sint mortales, via
+          <lb ed="#P" n="65"/>illorum non habet fundamentum in aliqua
+          <lb ed="#P" n="66"/>mutatione substantiali, quae in eorum 
+          existen<lb break="no" ed="#P" n="67"/>tia fiat, sicut habet in hominibus, quorum via
+          <lb ed="#P" n="68"/>in morte terminatur; ergo Angelorum via, vel
+          <lb ed="#P" n="69"/>praefinitur solo arbitrio Dei, et sic procedit
+          <lb ed="#P" n="70"/>praecedens ratio, vel fundatur ex parte Angeli
+          <lb ed="#P" n="71"/>in modo operandi, cum maxima effticacia, et
+          <lb ed="#P" n="72"/>velocissima, vel momentanea deliberatione, et
+          <lb ed="#P" n="73"/>ita habet, ut ita dicam, eamdem mensuram
+          <lb ed="#P" n="74"/>vel fundamentum ejus in omnibus Angelis, et
+          <lb ed="#P" n="75"/>terminus ejus praefigendus est immediate post
+          <lb ed="#P" n="76"/>primam deliberationem plenam. Quia post 
+          il<lb break="no" ed="#P" n="77"/>lam non est major ratio sistendi in secunda,
+          <lb ed="#P" n="78"/>tertia, vel quarta, quam in qualibet alia in
+          <lb ed="#P" n="79"/>infinitum: ergo sicut sancti Angeli statim post
+          <lb ed="#P" n="80"/>consummatum, ac plene deliberatum meritum
+          <lb ed="#P" n="81"/>praemii, extra viam facti sunt, et ultimum
+          <lb ed="#P" n="82"/>praemium acceperunt; ita etiam mali Angeli
+          <lb ed="#P" n="83"/>immediate post consummatum peccatum 
+          ulti<lb break="no" ed="#P" n="84"/>mo supplicio affecti, extra viam constituti
+          <lb ed="#P" n="85"/>sunt.
+        </p>
+        <p xml:id="szdada-x24377-d1e959">
+          <lb ed="#P" n="86"/>13. Ad locum Matthaei allatum in 
+          contra<lb break="no" ed="#P" n="87"/>rium in num. 3. — Neque contra hoc obstant
+          <lb ed="#P" n="88"/>testimonia Scripturae quae referendo secundam
+          <lb ed="#P" n="89"/>opinionem insinuata sunt. Nam imprimis 
+          ver<lb break="no" ed="#P" n="90"/>ba illa Matth. 8: Fenisti ante tempus torquere
+          <lb ed="#P" n="91"/>nos? daemonum sunt: et ex illis colligere non
+          <lb ed="#P" n="92"/>licet, quod ante illud tempus nullo modo 
+          tor<lb break="no" ed="#P" n="93"/>querentur poenis quasi substantialibus damni,
+          <lb ed="#P" n="94"/>et sensus, quas infra explicabimus. Nam 
+          po<lb break="no" ed="#P" n="95"/>tuerunt daemones novam poeenam per Christum
+          <lb ed="#P" n="96"/>timere, sive illa fuerit coactio exeundi a 
+          cor<lb break="no" ed="#P" n="97"/>poribus humanis, et privatio, vel saltem 
+          ma<lb break="no" ed="#P" n="98"/>gna diminutio quasi dominii, et potestatis,
+          <lb ed="#P" n="99"/>quam in vexandis hominibus exercebant: sive
+          <lb ed="#P" n="100"/>fuerit perpetua detrusio, et incarceratio in 
+          lo<lb break="no" ed="#P" n="101"/>cum inferni, quam non ignorabant aliquando
+          <lb ed="#P" n="102"/>illis esse venturam, non tamen illam tam cito
+          <lb ed="#P" n="103"/>expectabant, et ideo interrogabant, Fenisti
+          <lb ed="#P" n="104"/>ante tempus torquere nos? et ita communiter
+          <lb ed="#P" n="105"/>exponitur locus ille, ut videre licet in 
+          Maldo<lb break="no" ed="#P" n="106"/>nato, Matth. 8, et Toleto, Luc 8, annot. 63,
+          <lb ed="#P" n="107"/>et Lorino 2, 2, Petr. 2, vers. 4, circa finem.
+        </p>
+        <p xml:id="szdada-x24377-d1e1009">
+          <lb ed="#P" n="108"/>14. Ad locum Petri ib. adductum.— Ad 
+          lo<lb break="no" ed="#P" n="109"/>cimn Jude.— Ad locum Mattha.—Et ad 
+          eum<lb break="no" ed="#P" n="110"/>dem modum intelligenda sunt verba Petri.
+          <pb ed="#P" n="970"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Nam in illis imprimis absolute dicit, quod
+          <lb ed="#P" n="2"/>Deus Angelus peccantibus non pepercit, in quo
+          <lb ed="#P" n="3"/>significat statim illos punivisse. Quod 
+          eviden<lb break="no" ed="#P" n="4"/>tius significat illa, sed rudentibus inferni 
+          de<lb break="no" ed="#P" n="5"/>tractos, in tartarum tradit cruciandos. Quod
+          <lb ed="#P" n="6"/>exemplum cum aliis adducit Petrus, ut a 
+          for<lb break="no" ed="#P" n="7"/>tiori ostendat, Deum gravissime puniturum
+          <lb ed="#P" n="8"/>falsos prophetas, et haereticos, contra quos ibi
+          <lb ed="#P" n="9"/>loquitur. Unde possumus a contrario 
+          argu<lb break="no" ed="#P" n="10"/>mentari: nam si horum perfidorum hominum
+          <lb ed="#P" n="11"/>poenas Deus non differt usque ad diem Judicii,
+          <lb ed="#P" n="12"/>sed statim post mortem eos, in illo statu 
+          in<lb break="no" ed="#P" n="13"/>ventos, in aeternum punit, sicut fides docet,
+          <lb ed="#P" n="14"/>et inter alia manifeste convincit parabola, vel
+          <lb ed="#P" n="15"/>historia de divite et Lazaro, Luc. 16: ergoa
+          <lb ed="#P" n="16"/>fortiori non differet usque ad Judicii diem
+          <lb ed="#P" n="17"/>malorum Angelorum aeternum judicium. Et
+          <lb ed="#P" n="18"/>nihilominus paulo inferius in universum de
+          <lb ed="#P" n="19"/>iniquis hominibus subjungit Petrus: JVovit 
+          Do<lb break="no" ed="#P" n="20"/>minus iniquos in diem Judicii reservare 
+          cru<lb break="no" ed="#P" n="21"/>ciandos; cum tamen non reservet illos sine
+          <lb ed="#P" n="22"/>praesenti cruciatu substantiali, seu essentiali,
+          <lb ed="#P" n="23"/>ut sic dicam. Quia vero quoad peculiares 
+          cir<lb break="no" ed="#P" n="24"/>cumstantias, et accidentales poenas in judicio
+          <lb ed="#P" n="25"/>recipient quoddam veluti complementum illius
+          <lb ed="#P" n="26"/>status (ut in sequenti capite magis 
+          explicabi<lb break="no" ed="#P" n="27"/>mus) ideo dicit, reservari in judicio cruciandos.
+          <lb ed="#P" n="28"/>In eodem ergo sensu de malis Angelis dicit i
+          <lb ed="#P" n="29"/>judicium reservari, quia licet judicio quasi 
+          pri<lb break="no" ed="#P" n="30"/>vatojam judicati sint, nihilominus reservantur
+          <lb ed="#P" n="31"/>judicandi judicio publicae reprobationis, et
+          <lb ed="#P" n="32"/>condemnationis. Et tunc, ut ex Apoc. 12, 
+          habe<lb break="no" ed="#P" n="33"/>mus, etiam includentur omnes in inferno, ita
+          <lb ed="#P" n="34"/>ut amplius inde exire non valeant, quae nova
+          <lb ed="#P" n="35"/>erit poena non parva, quamvis accidentals.
+          <lb ed="#P" n="36"/>Et ita hunc locum exposui, in2 tom., 3 part.,
+          <lb ed="#P" n="37"/>disput. 57, sect. 8. Et idem est sensus 
+          verbo<lb break="no" ed="#P" n="38"/>rum Judae, quae verbis Petri sunt simillima.
+          <lb ed="#P" n="39"/>Ac similiter intelligendum est verbum Christi,
+          <lb ed="#P" n="40"/>Matth. 25, de igne aeterno, qui paratus est 
+          dia<lb break="no" ed="#P" n="41"/>bolo et Angelis ejus, dicit enim esse paratum,
+          <lb ed="#P" n="42"/>non quia nondum cruciet daemones, sed quia
+          <lb ed="#P" n="43"/>ad illos puniendos principaliter creatus est.
+          <lb ed="#P" n="44"/>Imo existimat ibi Maldonatus, non fuisse 
+          crea<lb break="no" ed="#P" n="45"/>tum, donec Angeli peccarunt, de quo inter
+          <lb ed="#P" n="46"/>opera sex dierum dicemus. Vel etiam dicitur
+          <lb ed="#P" n="47"/>ille ignis paratus Angelis malis in ratione loci,
+          <lb ed="#P" n="48"/>seu habitationis futurae illorum in perpetuum.
+          <lb ed="#P" n="49"/>Nam quia nondum ihi immutabiliter 
+          inhabi<lb break="no" ed="#P" n="50"/>tant, sed egredi permittuntur, et ideo domus
+          <lb ed="#P" n="51"/>illa dicitur illis praeparata. Quae omnia ex 
+          di<lb break="no" ed="#P" n="52"/>cendis in capitibus sequentibus magis 
+          elucida<lb break="no" ed="#P" n="53"/>buntur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

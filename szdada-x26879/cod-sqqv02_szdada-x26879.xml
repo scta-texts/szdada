@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1064"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x26879"><!-- l8c17 -->
+        <head xml:id="szdada-x26879-Hd1e101">Caput 17</head>
+        <head xml:id="szdada-x26879-Hd1e103" type="question-title">Nonnulla dubia circa loca poenalia malorum angelorum resolvuntur</head>
+        <p xml:id="szdada-x26879-d1e106">
+          <lb ed="#P" n="95"/>CAPUT XVII.
+          <lb ed="#P" n="96"/>NONNULLA DUBIA CIRCA LOCA POENALIA MALORUM
+          <lb ed="#P" n="97"/>ANGELORUM RESOLVUNTUR.
+        </p>
+        <p xml:id="szdada-x26879-d1e115">
+          <lb ed="#P" n="98"/>1. Primum dubium. — An omnes daemones
+          <lb ed="#P" n="99"/>alternent infernum cum hoc aere, necne.—qQuid
+          <lb ed="#P" n="100"/>censuerit Cano. — Expugnatur. — Praeterea,
+          <lb ed="#P" n="101"/>de praedictis locis diximus, nonnulla circa
+          <lb ed="#P" n="102"/>eamdem interroganda supersunt, quae breviter
+          <lb ed="#P" n="103"/>expediri possunt. Unum est, an omnes 
+          daemo<lb break="no" ed="#P" n="104"/>nes nunc in inferno sint, nunc vero in hoc 
+          ae<lb break="no" ed="#P" n="105"/>re, vel iidem semper in uno loco ali in alio
+          <lb ed="#P" n="106"/>permaneant. Hoc posterius docu:t Cano, ut ex
+          <lb ed="#P" n="107"/>iis, quae de illo supra refert Bannez, colligi
+          <pb ed="#P" n="1065"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>potest. Aiebat enim quosdam daemones jam
+          <lb ed="#P" n="2"/>accepisse consummatam poenam ignis, hosque
+          <lb ed="#P" n="3"/>a principio detrusos fuisse in infernum, ut ibi
+          <lb ed="#P" n="4"/>semper essent, alias vero relictos esse in aere
+          <lb ed="#P" n="5"/>absque poena ignis; unde consequenter dicebat,
+          <lb ed="#P" n="6"/>ilos priores gravius peccasse. Sed praeter 
+          fal<lb break="no" ed="#P" n="7"/>sam opinionem jam impugnatum, quod 
+          princi<lb break="no" ed="#P" n="8"/>pes aeris hujus non sentians poenam ignis, 
+          re<lb break="no" ed="#P" n="9"/>liqua voluntaria sunt, et sine fundamento 
+          di<lb break="no" ed="#P" n="10"/>cuntur. Nam, ut creditur, quo fuerunt Angeli
+          <lb ed="#P" n="11"/>perfectiores in natura inter eos, qui 
+          cecide<lb break="no" ed="#P" n="12"/>runt, eo gravius peccarunt: quo posito juxta
+          <lb ed="#P" n="13"/>illam opinionem sequeretur, omnes Angelos,
+          <lb ed="#P" n="14"/>qui in inferno semper alligati sunt, esse ex
+          <lb ed="#P" n="15"/>prioribus ordinibus Angelorum, eosque 
+          nun<lb break="no" ed="#P" n="16"/>quam exire ad exercendos homines,sed tantum
+          <lb ed="#P" n="17"/>inferiores, qui levius peccarunt. Consequens
+          <lb ed="#P" n="18"/>autem non solum est gratis dictum, sed etiam
+          <lb ed="#P" n="19"/>est parum consentaneum Scripturis et 
+          Patri<lb break="no" ed="#P" n="20"/>bus. Nam Paulus, ad Eph. 2 Diabolum vocat
+          <lb ed="#P" n="21"/>principem potestatis aeris hujus; per quem
+          <lb ed="#P" n="22"/>Hieronymus, ibi Satana, et Diabolum, 
+          cae<lb break="no" ed="#P" n="23"/>terorum principem, cujus alii sunt satellites,
+          <lb ed="#P" n="24"/>intelligit, estque communis expositio, et ille
+          <lb ed="#P" n="25"/>dicitur princeps aeris hujus, quia etiam ille in
+          <lb ed="#P" n="26"/>aere versatur, et per seipsum interdum tentat
+          <lb ed="#P" n="27"/>ut de Eva et de Christo creditur, et fortasse
+          <lb ed="#P" n="28"/>etiam alios saepe tentavit: et in cap. 6, 
+          spiri<lb break="no" ed="#P" n="29"/>tuales nequitias, quae in calestibus, id est, in
+          <lb ed="#P" n="30"/>aere versantur, vocat idem Apostolus, principes
+          <lb ed="#P" n="31"/>et potestates, et rectores tenebrarum; non sunt
+          <lb ed="#P" n="32"/>ergo ex solis inferioribus ordinibus malorum
+          <lb ed="#P" n="33"/>Angelorum. Item, Apoc. 12, ubi (juxta 
+          pro<lb break="no" ed="#P" n="34"/>babiliorem sensum) describitur praelium inter
+          <lb ed="#P" n="35"/>bonos et malos Angelos, quod in Ecclesia 
+          mi<lb break="no" ed="#P" n="36"/>litante super salutem hominum geritur, 
+          Dra<lb break="no" ed="#P" n="37"/>co et Angeli ejus, pugnare dicuntur, qui 
+          Dra<lb break="no" ed="#P" n="38"/>co sine dubio est Lucifer, qui ibidem dicitur,
+          <lb ed="#P" n="39"/>serpens antiquus, Diabolus et Satanas. De
+          <lb ed="#P" n="40"/>quo postea subjungitur: Vae terrae et mari,
+          <lb ed="#P" n="41"/>quia descendit Angelus ad vos habens iram 
+          ma<lb break="no" ed="#P" n="42"/>gnam. Ergo etiam Lucifer interdum in hoc
+          <lb ed="#P" n="43"/>aere versatur; unde cap. 20, dicitur pro aliquo
+          <lb ed="#P" n="44"/>tempore missum essc in abyssum, et ibi 
+          clau<lb break="no" ed="#P" n="45"/>sum, et postea solvendum esse de carcere, et
+          <lb ed="#P" n="46"/>exiturum, ut seducat gentes, et alia multa 
+          si<lb break="no" ed="#P" n="47"/>milia ibi leguntur.
+        </p>
+        <p xml:id="szdada-x26879-d1e245">
+          <lb ed="#P" n="48"/>2. Vera resolutio dubii. — Quibus 
+          conside<lb break="no" ed="#P" n="49"/>ratis longe probabilius videtur, nullos 
+          daemo<lb break="no" ed="#P" n="50"/>nes esse semper inferno alligatos, nec aiios ita
+          <lb ed="#P" n="51"/>esse in hoc aere, ut nunquam in infernum
+          <lb ed="#P" n="52"/>descendant: sed alternatis vicibus nunc istos
+          <lb ed="#P" n="53"/>in altero ex dictis locis versari, prout sentit
+          <lb ed="#P" n="54"/>Magister, in 2, d. 6, 8 Solet autem, et ibi /
+          Egi<lb break="no" ed="#P" n="55"/>dius, d. art. 2, et Bonaventura, art. 2, q. 1,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Alensis, d. 2, quaest. 100, memb. ult., a. ult.
+          <lb ed="#P" n="57"/>Nam Scriptura indifferenter de spiritibus 
+          ma<lb break="no" ed="#P" n="58"/>lis dicit versari in hoc aere: et de dracone et
+          <lb ed="#P" n="59"/>Angelis ejus universaliter dicit contra homines
+          <lb ed="#P" n="60"/>militare in hoc mundo; ergo non possumus
+          <lb ed="#P" n="61"/>cum fundamento distinguere duos ordines (ut
+          <lb ed="#P" n="62"/>sic dicam) malorum Angelorum, unum 
+          assis<lb break="no" ed="#P" n="63"/>tentium in inferno, alium ministrantium in
+          <lb ed="#P" n="64"/>hoc aere; nec enim propter majora, vel 
+          mi<lb break="no" ed="#P" n="65"/>nora peccata, uni vel alteri loco destinati sunt.
+          <lb ed="#P" n="66"/>Ut Cano de suo excogitavit, sed omnes 
+          prop<lb break="no" ed="#P" n="67"/>ter peccata sua inferno ex se deputati sunt, et
+          <lb ed="#P" n="68"/>omnes propter electorum perfectionem 
+          per<lb break="no" ed="#P" n="69"/>missi sunt in hoc aere aliquando saltem 
+          ver<lb break="no" ed="#P" n="70"/>sari. Nihil ergo probabilius cogitari potest,
+          <lb ed="#P" n="71"/>quam quod alternis vicibus, in uno, vel alio
+          <lb ed="#P" n="72"/>loco existant, vel secundum quod inter se habent
+          <lb ed="#P" n="73"/>deputata maledictionis officia, ut Bonaventura
+          <lb ed="#P" n="74"/>dixit, vult prout variae occasiones occurrunt,
+          <lb ed="#P" n="75"/>et princeps illorum ordinat, aut Deus 
+          permit<lb break="no" ed="#P" n="76"/>tit, vel interdum per bonos Angelos disponit.
+        </p>
+        <p xml:id="szdada-x26879-d1e314">
+          <lb ed="#P" n="77"/>3. Secundum dubium. — An preedicta 
+          loco<lb break="no" ed="#P" n="78"/>rum alternatio duret usque ad diem Judicii
+          <lb ed="#P" n="79"/>necne ? — Negare videtur Origenes. — Potest
+          <lb ed="#P" n="80"/>vero ulterius interrogari, an haec vicissitudo
+          <lb ed="#P" n="81"/>semper duret, usque ad judicium, vel antea
+          <lb ed="#P" n="82"/>propter aliquam occasionem aliqui daemones,
+          <lb ed="#P" n="83"/>qui prius morabantur in aere, ante judicium
+          <lb ed="#P" n="84"/>in infernum perpetuo detrudantur: quam
+          <lb ed="#P" n="85"/>interrogationem insinuavit Magister, in 2,
+          <lb ed="#P" n="86"/>dist. 6, S ult., et occasionem sumpsit ex 
+          Ori<lb break="no" ed="#P" n="87"/>gene, hom. 15, ad cap. 12. Josue, circa finem,
+          <lb ed="#P" n="88"/>dicente: Puto saue quia sancti quique 
+          repu<lb break="no" ed="#P" n="89"/>gnantes adversus istos incentores peccatorum
+          <lb ed="#P" n="90"/>spiritus. imminuant exercitum damonum; et
+          <lb ed="#P" n="91"/>infra reddit rationem, guia nequam spritus,
+          <lb ed="#P" n="92"/>cuin vincuntur a sanctis, vel in a yssum, vel
+          <lb ed="#P" n="93"/>in exteriores tenebras, etc., abducantur. Hanc
+          <lb ed="#P" n="94"/>vero sententiam Origenis, Bonaventura ibi 
+          in<lb break="no" ed="#P" n="95"/>certam reputat; /Egidius vero, quaest. 2, art. 4,
+          <lb ed="#P" n="96"/>multipliciter illam explicat. et ex parte vero
+          <lb ed="#P" n="97"/>dubiam relinquit. Confundit tamen duas 
+          quaes<lb break="no" ed="#P" n="98"/>tiones, quas oportet distinguere. Una est, an
+          <lb ed="#P" n="99"/>daemon victus ab aliquo justo in aliqua 
+          tenta<lb break="no" ed="#P" n="100"/>tione, privetur potestate tentandi illum, vel
+          <lb ed="#P" n="101"/>alium; vel in illo genere vitii, vel in alio, vel
+          <lb ed="#P" n="102"/>pro aliquo tempore, vel semper; et hanc 
+          quaes<lb break="no" ed="#P" n="103"/>tionem praecipue tractat ibi /Egidius: nos vero
+          <lb ed="#P" n="104"/>de illa nunc non tractamus, pertinet enim ad
+          <lb ed="#P" n="105"/>materiam de tentationibus daemonum, quam
+          <lb ed="#P" n="106"/>in sequentibus capitibus discutiemus. Alia ergo
+          <lb ed="#P" n="107"/>quaestio propria hujus loci est, an daemones
+          <lb ed="#P" n="108"/>victi a justis relegentur perpetuo, et 
+          detrudan<lb break="no" ed="#P" n="109"/>tur in infernum; et in hoc sensu videtur 
+          locu<lb break="no" ed="#P" n="110"/>tus Origenes, etiamsi Magister in priori, et
+          <pb ed="#P" n="1066"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cum magna limitatione illum interpretetur,
+          <lb ed="#P" n="2"/>scilicet, quod daemon victus in aliqua 
+          tentatio<lb break="no" ed="#P" n="3"/>ne non sinitur amplius tentare eamdem 
+          per<lb break="no" ed="#P" n="4"/>sonam in eodem genere vitii; at hoc modo non
+          <lb ed="#P" n="5"/>minueretur exercitus daemonum, ut Origenes
+          <lb ed="#P" n="6"/>voluit.
+        </p>
+        <p xml:id="szdada-x26879-d1e408">
+          <lb ed="#P" n="7"/>4. In praedicto sensu impugnatur Origenes,
+          <lb ed="#P" n="8"/>ex Scripturis. — Dico ergo, in illo sensu non
+          <lb ed="#P" n="9"/>esse verisimilem sententiam Origenis, tum quia
+          <lb ed="#P" n="10"/>constat ex Scripturis, daemonem semel, ac 
+          sae<lb break="no" ed="#P" n="11"/>pius victum permanere adhuc in hoc aere ad
+          <lb ed="#P" n="12"/>tentandum. Id patet de Satana, qui Christum
+          <lb ed="#P" n="13"/>tentavit, et creditur fuisse Lucifer, quia non
+          <lb ed="#P" n="14"/>solum post primam et secundam Christi 
+          Do<lb break="no" ed="#P" n="15"/>mini victoriam persistit tentando illum, sed
+          <lb ed="#P" n="16"/>etiam postea in tempore passionis ejus, 
+          mor<lb break="no" ed="#P" n="17"/>tem ejus impedire tandem procuravit: et, ut
+          <lb ed="#P" n="18"/>ex locis citatis Apocal. constat, in tempore 
+          An<lb break="no" ed="#P" n="19"/>tichristi gravissime Ecclesiam vexabit. Daemon
+          <lb ed="#P" n="20"/>etiam, qui Job tentavit, etiamsi seepius victus
+          <lb ed="#P" n="21"/>fuerit, non fuit in infernum detrusus, nec cum
+          <lb ed="#P" n="22"/>fundamento id affirmari potest: eademque 
+          ra<lb break="no" ed="#P" n="23"/>tio est de aliis; unde Matth. 12, daemon 
+          vic<lb break="no" ed="#P" n="24"/>tus dicebat: Revertar in domum meam, unde
+          <lb ed="#P" n="25"/>erivi, et Gregorius, lib. 3, Moral., cap. 8: 
+          An<lb break="no" ed="#P" n="26"/>tiquus hostis, quo valentius vincitur, eo adhuc
+          <lb ed="#P" n="27"/>ad insidias ardentius instigatur. Ambrosius,
+          <lb ed="#P" n="28"/>lib. 4, in Lucam, de Diabolo, qui victus a 
+          Chris<lb break="no" ed="#P" n="29"/>to, recessit ab illo, ait: Postea non tentaturus,
+          <lb ed="#P" n="30"/>sed aperte pugnaturus advenit. Non ergo 
+          reces<lb break="no" ed="#P" n="31"/>sit usque id infernum, et licet aliquando 
+          rece<lb break="no" ed="#P" n="32"/>dere videatur, nam instare formidat, quia 
+          re<lb break="no" ed="#P" n="33"/>fugit frequentius triumphari, ut ibidem dicit
+          <lb ed="#P" n="34"/>Ambrxosius, nihilominus semper ibidem 
+          perse<lb break="no" ed="#P" n="35"/>verat, occasionem vincendi quaerens.
+        </p>
+        <p xml:id="szdada-x26879-d1e473">
+          <lb ed="#P" n="36"/>5. Impugnatur etiam ratione. — Denique
+          <lb ed="#P" n="37"/>nulla est causa fingendi talem mutationem ,
+          <lb ed="#P" n="38"/>et quasi punitionem daemonis victi, ut quia 
+          de<lb break="no" ed="#P" n="39"/>sidiose forte tentavit, ideo detrudatur in 
+          infer<lb break="no" ed="#P" n="40"/>num; nam vel hanc poenam Deus imponit, et
+          <lb ed="#P" n="41"/>hoc improbabile est, quia Deus non punit nisi
+          <lb ed="#P" n="42"/>peccantem contra ipsum, daemon autem non
+          <lb ed="#P" n="43"/>peccat contra Deum in eo, quod remisse tentat,
+          <lb ed="#P" n="44"/>sed potius in eo quo tentat. Vel princeps 
+          dae<lb break="no" ed="#P" n="45"/>monum illam poenam imponeret, et hoc etiam
+          <lb ed="#P" n="46"/>est ridiculum, tum quia non tantam habet 
+          po<lb break="no" ed="#P" n="47"/>testatem: nam definire tempora reclusionis
+          <lb ed="#P" n="48"/>inferni, aut permissionis existendi in aere, 
+          so<lb break="no" ed="#P" n="49"/>lius Dei est, non Diaboli; tum etiam, quia 
+          di<lb break="no" ed="#P" n="50"/>minuendo exercitium suum contra seipsum
+          <lb ed="#P" n="51"/>ageret diabolus, eo vel maxime, quia non 
+          vin<lb break="no" ed="#P" n="52"/>cuntur daemones a sanctis propter 
+          negligen<lb break="no" ed="#P" n="53"/>tiam suam, sed propter gratiam Dei dantis 
+          for<lb break="no" ed="#P" n="54"/>titudinem victoribus suis: ergo propter banc
+          <lb ed="#P" n="55"/>causam nulli daemones recluduntur in infer-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>num, usque ad diem Judicii. Alia vero illius
+          <lb ed="#P" n="57"/>reclusionis causa cogitari posset. si verum esset,
+          <lb ed="#P" n="58"/>unumquemque daemonum solum ad unum 
+          ho<lb break="no" ed="#P" n="59"/>minem tentandum deputari, et finito suo 
+          mu<lb break="no" ed="#P" n="60"/>nere in infernum redire, ut ibi perpetuo 
+          ma<lb break="no" ed="#P" n="61"/>neat; sed hoc fundamentum probabile non est,
+          <lb ed="#P" n="62"/>ut infra dicemus; et ideo simpliciter verum
+          <lb ed="#P" n="63"/>est, reclusionem daemonum in infernum usque
+          <lb ed="#P" n="64"/>ad judicium differri. Vide D. Thomam, 1p.,
+          <lb ed="#P" n="65"/>quaest. 114, art. 5, et Alensem supra.
+        </p>
+        <p xml:id="szdada-x26879-d1e543">
+          <lb ed="#P" n="66"/>6. Tertium dubium an predicta demonum
+          <lb ed="#P" n="67"/>vagandi libertas duret etiam in lege gratiae. --
+          <lb ed="#P" n="68"/>Consulitur etiam hac de re auctor in Defensione
+          <lb ed="#P" n="69"/>fidei, lib. 5, cap. 18.—Ultimo vero interrogari
+          <lb ed="#P" n="70"/>potest, an etiam nunc post Christi 
+          redemptio<lb break="no" ed="#P" n="71"/>nem, et in toto hoc tempore legis gratiae libere
+          <lb ed="#P" n="72"/>versentur daemones in hoc aere, saltem usque
+          <lb ed="#P" n="73"/>ad tempora Antichristi, et ratio dubitandi 
+          su<lb break="no" ed="#P" n="74"/>mitur ex Apoc. 20, ubi, Angelus de caelo missus
+          <lb ed="#P" n="75"/>apprehendit Draconem, serpentem antiquum ,
+          <lb ed="#P" n="76"/>qui est Diabolus et S'atanas, et ligavit illum per
+          <lb ed="#P" n="77"/>annos mille, et misit eum in abyssum, et clausit,
+          <lb ed="#P" n="78"/>ut non seducat amplius gentes, donec 
+          consum<lb break="no" ed="#P" n="79"/>mentur mille anni, et post hec oportebit illum
+          <lb ed="#P" n="80"/>solvi modico tempore. In quo loco suppono, per
+          <lb ed="#P" n="81"/>mille annos non significari definitum tempus,
+          <lb ed="#P" n="82"/>sed totum tempus legis gratiae, usque ad 
+          tem<lb break="no" ed="#P" n="83"/>pora Antichristi: ut est communis sensus 
+          Pa<lb break="no" ed="#P" n="84"/>trum et Ecclesiae contra Millenarios. Deinde,
+          <lb ed="#P" n="85"/>sub Dracone videtur comprehendi totus 
+          exer<lb break="no" ed="#P" n="86"/>citus malorum Angelorum ejus, quia alias non
+          <lb ed="#P" n="87"/>esset potentia ejus satis ligata ad finem ibi 
+          in<lb break="no" ed="#P" n="88"/>tentum, et ita de Diabolo simphrciter, id est,
+          <lb ed="#P" n="89"/>de tota potentia daemonum videtur locum 
+          il<lb break="no" ed="#P" n="90"/>lum interpretari Augustinus, lib. 20, de Civ.,
+          <lb ed="#P" n="91"/>c. 1 et 8, et clarius Prosper, in dimid. Temp.,
+          <lb ed="#P" n="92"/>cap. 4. Ergo juxta illam Prophetiam nunc 
+          dae<lb break="no" ed="#P" n="93"/>mones omnes sunt in inferno, et non in hoc
+          <lb ed="#P" n="94"/>aere caliginoso. :
+        </p>
+        <p xml:id="szdada-x26879-d1e608">
+          <lb ed="#P" n="95"/>7. Resolutio affirmativa et certa. —
+          Wespon<lb break="no" ed="#P" n="96"/>deo, certissimum esse, etiam nunc daemonum
+          <lb ed="#P" n="97"/>multitudinem in hoc aere versari; nam post
+          <lb ed="#P" n="98"/>Christi redemptionem loquitur Paulus, cum
+          <lb ed="#P" n="99"/>daemones vocat, spiritualia nequitiae in 
+          caeles<lb break="no" ed="#P" n="100"/>tibus, et nunc etiam daemones vexant 
+          homi<lb break="no" ed="#P" n="101"/>nes, etiam fideles, et ideo ab Ecclesia obsessi
+          <lb ed="#P" n="102"/>exorcizantur, et Christus inter signa suorum
+          <lb ed="#P" n="103"/>discipulorum posuit, deemonia cjicient, Marc.
+          <lb ed="#P" n="104"/>ult. Denique res clarior est, quam ut 
+          proba<lb break="no" ed="#P" n="105"/>tione indigeat. Si ergo in loco illo Apocalypseos
+          <lb ed="#P" n="106"/>admittatur expositio, ut sub Diabolo Angeli
+          <lb ed="#P" n="107"/>ejus comprehendantur, consequenter 
+          dicen<lb break="no" ed="#P" n="108"/>dum est, daemonem non dici ligari quoad 
+          de<lb break="no" ed="#P" n="109"/>tentionem personae in certo loco, sed quoad
+          <lb ed="#P" n="110"/>usum potestatis tentandi homines, ut Augus-
+          <pb ed="#P" n="1067"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tinus exponit: non quod omnino non sinantur
+          <lb ed="#P" n="2"/>homines tentare, aut vexare, contrarium enim
+          <lb ed="#P" n="3"/>constat (ut dixi), sed quia non permittuntur
+          <lb ed="#P" n="4"/>tentare quantum possunt et cupiunt, nec
+          <lb ed="#P" n="5"/>quantum ante Adventum Christi solebant.
+          <lb ed="#P" n="6"/>Maximeque ligati sunt hoc modo respectu
+          <lb ed="#P" n="7"/>Christianorum et membrorum Ecclesiae 
+          Chris<lb break="no" ed="#P" n="8"/>ti, et praesertim praedestinatorum, ut vult 
+          Au<lb break="no" ed="#P" n="9"/>gustinus; qui consequenter per abyssum non
+          <lb ed="#P" n="10"/>intelligit gehennam, sed corda fidelium 
+          res<lb break="no" ed="#P" n="11"/>pectu quorum non 'est ligatus Diabolus, sed
+          <lb ed="#P" n="12"/>libere eos tentare et seducere permittitur, et
+          <lb ed="#P" n="13"/>ita facile expeditur objectio.
+        </p>
+        <p xml:id="szdada-x26879-d1e678">
+          <lb ed="#P" n="14"/>8. Verumtamen licet credendum sit, 
+          poten<lb break="no" ed="#P" n="15"/>tiam daemonum fuisse per Christi 
+          redemptio<lb break="no" ed="#P" n="16"/>nem alligatam, juxta illud Matth. 12: NVemo
+          <lb ed="#P" n="17"/>intrat in domum foris, ut vasa domus ejus 
+          diri<lb break="no" ed="#P" n="18"/>piat, nisi prius alligaverit fortem, etc.. 
+          nihilo<lb break="no" ed="#P" n="19"/>minus non videtur in illo Apocalypsis loco de
+          <lb ed="#P" n="20"/>hujusmodi potestatis coarctatione sermo esse:
+          <lb ed="#P" n="21"/>tum quia illo modo multum receditur a 
+          pro<lb break="no" ed="#P" n="22"/>prietate verborum sine necessitate, ideoque
+          <lb ed="#P" n="23"/>magis videtur mystica expositio, quam 
+          litte<lb break="no" ed="#P" n="24"/>ralis; tum etiam quia illo modo, non solum
+          <lb ed="#P" n="25"/>videtur ligata potestas daemonum respectu
+          <lb ed="#P" n="26"/>praedestinatorum post Christi adventum, sed
+          <lb ed="#P" n="27"/>etiam antea, propter CHRISTI merita praevisa;
+          <lb ed="#P" n="28"/>nunquam enim permissus est daemon ita 
+          elec<lb break="no" ed="#P" n="29"/>tos tentare, ut usque ad exitum ex hac vita
+          <lb ed="#P" n="30"/>illos vinceret: extra hunc vero articulum etiam
+          <lb ed="#P" n="31"/>nunc illos tentare, et saepe vincere 
+          permitti<lb break="no" ed="#P" n="32"/>tur: nec solum ligata est ejus potestas respectu
+          <lb ed="#P" n="33"/>Ecclesiae Christi et membrorum ejus, sed
+          <lb ed="#P" n="34"/>etiam respectu infidelium, non quidem 
+          aequa<lb break="no" ed="#P" n="35"/>liter. sed quantum conveniens fuit, ut 
+          infide<lb break="no" ed="#P" n="36"/>les ad Ecclesiam trahi, et a potestate demonum
+          <lb ed="#P" n="37"/>erigi possent: sic enim ad litteram verificatur
+          <lb ed="#P" n="38"/>sententia Christi, prius debuisse ligari fortem,
+          <lb ed="#P" n="39"/>ut possent vasa ejus ab eo diripi.
+        </p>
+        <p xml:id="szdada-x26879-d1e738">
+          <lb ed="#P" n="40"/>9. Probabilius ergo videtur ibi esse 
+          sermo<lb break="no" ed="#P" n="41"/>nem de solo Lucifero damoniorum principe,
+          <lb ed="#P" n="42"/>ut indicant verba, Draconis, serpentis antiqui,
+          <lb ed="#P" n="43"/>Satana et Diaboli, per antonomasiam sic 
+          ap<lb break="no" ed="#P" n="44"/>pellati, juxta illud Matth. 25: Qui paratus est
+          <lb ed="#P" n="45"/>Diabolo, et Angelis ejus. De solo autem Lucifero
+          <lb ed="#P" n="46"/>probabilissimum est ligatum esse per Christi
+          <lb ed="#P" n="47"/>imperium per realem detentionem ejus in 
+          a<lb break="no" ed="#P" n="48"/>Dbysso, id est, in inferno corporeo et locali: in
+          <lb ed="#P" n="49"/>hoc enim sensu utitur saepe Joannes voce illa
+          <lb ed="#P" n="50"/>in eodem libro, praesertim c. 9 et 11, et verba
+          <lb ed="#P" n="51"/>antecedentia et sequentia ejusdem loci satis
+          <lb ed="#P" n="52"/>id declarant; nam Angelus missus ad ligandum
+          <lb ed="#P" n="53"/>Draconem habere dicitur clavem abyssi: quod
+          <lb ed="#P" n="54"/>si intelligatur de aliquo Angelo ministro 
+          Chris<lb break="no" ed="#P" n="55"/>ti, non potest de illo dici, quod habuerit corda
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>hominum pravorum in manu sua: si vero
+          <lb ed="#P" n="57"/>Christus ipse nomine Angeli ibi significetur,
+          <lb ed="#P" n="58"/>non potest illi attribui, quod daemones in 
+          cor<lb break="no" ed="#P" n="59"/>dibus hominum alligaverit, et ad hoc, habuisse
+          <lb ed="#P" n="60"/>catenam in manu sua, ut ibi subditur; nam
+          <lb ed="#P" n="61"/>licet nomen catene per metaphoram 
+          usurpe<lb break="no" ed="#P" n="62"/>tur, non recte accommodatur ad corda 
+          homi<lb break="no" ed="#P" n="63"/>num, nec per ullam metaphoram congrue dici
+          <lb ed="#P" n="64"/>potest Christus, alligasse catena, imo etiam
+          <lb ed="#P" n="65"/>coactione, et praecepto malos Angelos ad corda
+          <lb ed="#P" n="66"/>hominum infidelium: quod tamen optime 
+          di<lb break="no" ed="#P" n="67"/>citur de locali incarnatione; unde post illa
+          <lb ed="#P" n="68"/>verba subjungitur: Cum consummati fuerint
+          <lb ed="#P" n="69"/>aille anni, solvetur Satanas de carcere suo, et
+          <lb ed="#P" n="70"/>exiet, quod dure, et vix de cordibus hominum
+          <lb ed="#P" n="71"/>intelligi potest: proprie autem et facile de
+          <lb ed="#P" n="72"/>carcere loci infernalis.
+        </p>
+        <p xml:id="szdada-x26879-d1e814">
+          <lb ed="#P" n="73"/>10. Reclusum nunc esse Luciferum probabile.
+          <lb ed="#P" n="74"/>— Valde ergo probabile est ibi nunc esse 
+          clau<lb break="no" ed="#P" n="75"/>sum, et signatum Luciferum, et non esse 
+          per<lb break="no" ed="#P" n="76"/>mittendum inde exire usque ad ultima 
+          tem<lb break="no" ed="#P" n="77"/>pora tribulationis Antichristi; quod aliqui 
+          pu<lb break="no" ed="#P" n="78"/>tant specialiter factum esse in congruentem
+          <lb ed="#P" n="79"/>poenam, quia Christum per seipsum tentare,
+          <lb ed="#P" n="80"/>et usque ad mortem persequi ausus est. Melius
+          <lb ed="#P" n="81"/>autem dicitur factum esse in bonum 
+          electo<lb break="no" ed="#P" n="82"/>rum et Ecclesiae, juxta secreta consilia divinae
+          <lb ed="#P" n="83"/>providentiae; ita docuit et exposuit Gregorius ,
+          <lb ed="#P" n="84"/>libr. 4 Moral., cap. 13, alias 12, ut notavit,
+          <lb ed="#P" n="85"/>et docte confirmaxit Ribera referens alios
+          <lb ed="#P" n="86"/>Apoc. 20, etsequitur ibi Viegas, Comment. 1,
+          <lb ed="#P" n="87"/>sect. 2, adduntque in confirmationem verba
+          <lb ed="#P" n="88"/>citata ex Matth. 12, et illa Joann. 12: Vunc
+          <lb ed="#P" n="89"/>princeps hujus mundi ejicietur foras. Quae 
+          qui<lb break="no" ed="#P" n="90"/>dem loca non cogunt, alias enim habent 
+          expo<lb break="no" ed="#P" n="91"/>sitiones: valde tamen consonant, et per 
+          dic<lb break="no" ed="#P" n="92"/>tam Gregorii sententiam et expositionem ,
+          <lb ed="#P" n="93"/>optime ipsorum intelligentia completur, et sic
+          <lb ed="#P" n="94"/>etiam cessat objectio facta, quia quamvis 
+          Lu<lb break="no" ed="#P" n="95"/>cifer ligatus sit in inferno, ministri ejus 
+          per<lb break="no" ed="#P" n="96"/>mittuntur egredi, et in hoc aere caliginoso
+          <lb ed="#P" n="97"/>versari ad exercitium hominum, juxta 
+          mensu<lb break="no" ed="#P" n="98"/>ram, et modum in hoc tempore propter Christi
+          <lb ed="#P" n="99"/>merita jam consummata speciali Dei 
+          provi<lb break="no" ed="#P" n="100"/>dentia, et gratiam praescriptum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

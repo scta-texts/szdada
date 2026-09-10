@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="368"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x09250"><!-- l3d1 -->
+        <head xml:id="szdada-x09250-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-x09250-Hd1e103" type="question-title">An sit in angelis voluntas, et quod sit obiectum ejus, quaueve proprietas</head>
+        <p xml:id="szdada-x09250-d1e106">
+          <lb ed="#P" n="6"/>CAPUT I.
+          <lb ed="#P" n="7"/>AN SIT IN ANGELIS VOLUNTAS, ET QUOD SIT OBIECTUM
+          <lb ed="#P" n="8"/>EJUS, QUAUEVE PROPRIETAS.
+        </p>
+        <p xml:id="szdada-x09250-d1e115">
+          <lb ed="#P" n="9"/>1. Dari voluntatem in Angelis est de fide
+          <lb ed="#P" n="10"/>certum. — Supponimus primo, ut certum, dari
+          <lb ed="#P" n="11"/>in Angelis hanc facultatem, quia sunt naturae
+          <lb ed="#P" n="12"/>intellectuales, et omnis natura cognoscens 
+          ha<lb break="no" ed="#P" n="13"/>bet appetitum elicitum, qui in intellectualibus
+          <lb ed="#P" n="14"/>dicitur voluntas. Estque haec veritas de fide
+          <lb ed="#P" n="15"/>certa, nam in sacra Seriptura opera voluntaria
+          <lb ed="#P" n="16"/>Angelis tribuuntur, et ita dicuntur ministri
+          <lb ed="#P" n="17"/>Dei, qui faciunt voluntatem Dei, Psalm. 102,
+          <lb ed="#P" n="18"/>quod non dicitur nisi de his, qui voluntatem
+          <lb ed="#P" n="19"/>habent, et voluntarie serviunt. Unde Apoc. 7,
+          <lb ed="#P" n="20"/>unus Angelus ad alios, tanquam voluntatem
+          <lb ed="#P" n="21"/>habentes, clamabat, solite nocere terrae, et mari,
+          <lb ed="#P" n="22"/>etc. Unde illis tribuitur desiderium, 1, Petr. 1,
+          <lb ed="#P" n="23"/>in quem desiderant Angeli prospicere, et 
+          pec<lb break="no" ed="#P" n="24"/>catum, 2, Petr. 2, quae sunt voluntatis opera:
+          <lb ed="#P" n="25"/>ubi autem sunt actus, potentiam etiam inesse
+          <lb ed="#P" n="26"/>necesse est. A priori probat hoc D. Thomas,
+          <lb ed="#P" n="27"/>1 part., quaest. 59, art. 1, quia ad omnem 
+          for<lb break="no" ed="#P" n="28"/>mam sequitur inclinatio, et appetitus. Unde
+          <lb ed="#P" n="29"/>ad formam naturalem sequitur appetitus 
+          na<lb break="no" ed="#P" n="30"/>turalis, ad formam apprehensam per sensum,
+          <lb ed="#P" n="31"/>sequitur appetitus sensitivus, ad apprehensam
+          <lb ed="#P" n="32"/>per intellectum, sequitur appetitus 
+          intellecti<lb break="no" ed="#P" n="33"/>vus, qui est voluntas. Qua ratione utitur, tam
+          <lb ed="#P" n="34"/>in voluntate divina, quam in angelica, et 
+          hu<lb break="no" ed="#P" n="35"/>mana natura. Et ideo hic illam amplius 
+          expo<lb break="no" ed="#P" n="36"/>nere non erit necessarium.
+        </p>
+        <p xml:id="szdada-x09250-d1e178">
+          <lb ed="#P" n="37"/>2. Angelorum voluntas ab illorum substantia
+          <lb ed="#P" n="38"/>distincta est. — Similiter ab intellectu. — 
+          Vo<lb break="no" ed="#P" n="39"/>luntas unica est in singulis Angelis.—Secundo
+          <lb ed="#P" n="40"/>supponimus voluntatem in Angelis esse 
+          poten<lb break="no" ed="#P" n="41"/>tiam ab illorum substantia distinctam, nam
+          <lb ed="#P" n="42"/>in hoc eadem est ratio de illa, quae de 
+          intellec<lb break="no" ed="#P" n="43"/>tu, pertinetque ad generalem quaestionem de
+          <lb ed="#P" n="44"/>distinctione potentiarum a substantiis, quam
+          <lb ed="#P" n="45"/>in Metaphysicam remitto, et in tractatu tertio,
+          <lb ed="#P" n="46"/>aliquid de Anima dicemus: nam eadem fere
+          <lb ed="#P" n="47"/>ratio est de Angelis, ut ibidem dicemus. 
+          Deni<lb break="no" ed="#P" n="48"/>que haec sententia aptior est ad loquendum de
+          <lb ed="#P" n="49"/>ariis actibus Angelorum, et ideo illam ut 
+          pro<lb break="no" ed="#P" n="50"/>babiliorem supponimus. Et simili ratione 
+          sup<lb break="no" ed="#P" n="51"/>ponimus tertio, esse hanc potentiam in Angelis
+          <lb ed="#P" n="52"/>ab intellectu distinctam, ut D. Thomas supra,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>articulo secundo, docuit, quia objectum, et 
+          ac<lb break="no" ed="#P" n="54"/>tus ejus multum ab objecto, et actibus 
+          intel<lb break="no" ed="#P" n="55"/>lectus differunt, ut per se clarum est, et de
+          <lb ed="#P" n="56"/>Anima suo loco dicemus. Unde rationes, quas
+          <lb ed="#P" n="57"/>D. Thomas, dict. art. 2, ad probandam hance,
+          <lb ed="#P" n="58"/>et praecedentem assertionem affert, communes
+          <lb ed="#P" n="59"/>sunt Angelis, et hominibus: ideoque illas nunc
+          <lb ed="#P" n="60"/>praetermittimus. Quarto supponimus hanc 
+          po<lb break="no" ed="#P" n="61"/>tentiam in unoquoque Angelo esse unam 
+          tan<lb break="no" ed="#P" n="62"/>tum, sicut est etiam in nobis, quia potentia
+          <lb ed="#P" n="63"/>intellectiva una est, ergo, et una voluntas.
+          <lb ed="#P" n="64"/>Probatur consequentia, tum quia voluntas 
+          se<lb break="no" ed="#P" n="65"/>quitur intellectum, et ideo servat 
+          proportio<lb break="no" ed="#P" n="66"/>nem ad illum, estque tam universalis potentia
+          <lb ed="#P" n="67"/>in sua specie, sicut intellectus in sua, ac proinde
+          <lb ed="#P" n="68"/>sicut non multiplicatur intellectus, ita neque
+          <lb ed="#P" n="69"/>voluntas: tum etiam quia sicut intellectus 
+          An<lb break="no" ed="#P" n="70"/>geli habet unum objectum universale, sub quo
+          <lb ed="#P" n="71"/>omnia intelligibilia ab ipso comprehenduntur,
+          <lb ed="#P" n="72"/>ita voluntas habet unum adaequatum 
+          objec<lb break="no" ed="#P" n="73"/>tum adeo universale, ut sub illo cuncta ab 
+          An<lb break="no" ed="#P" n="74"/>gelo amabilia comprehendantur: ergo sicut
+          <lb ed="#P" n="75"/>intellectus est unus tantum ratione sui objecti,
+          <lb ed="#P" n="76"/>ita et voluntas.
+        </p>
+        <p xml:id="szdada-x09250-d1e270">
+          <lb ed="#P" n="77"/>3. Adaequatum objectum voluntatis angelicee
+          <lb ed="#P" n="78"/>est bonum. — Quinto igitur ad hoc magis 
+          de<lb break="no" ed="#P" n="79"/>clarandum supponimus, objectum adaequatum
+          <lb ed="#P" n="80"/>voluntatis angelicae esse bonum in communi,
+          <lb ed="#P" n="81"/>seu (quod perinde est) ens sub ratione boni.
+          <lb ed="#P" n="82"/>Quia bonum cognitum est objectum appetitus
+          <lb ed="#P" n="83"/>eliciti, sed intellectus non solum cognoscit, et
+          <lb ed="#P" n="84"/>proponit hoc, vel illud bonum, sed omne 
+          bo<lb break="no" ed="#P" n="85"/>num, et ipsam communem rationem boni, 
+          er<lb break="no" ed="#P" n="86"/>go voiuntas totum hoc, ut adaequatum 
+          objec<lb break="no" ed="#P" n="87"/>tum respicit. Possumus ergo in hoc objecto,
+          <lb ed="#P" n="88"/>materiale, et formale, sicut in aliis 
+          distingue<lb break="no" ed="#P" n="89"/>re. Materialiter ergo voluntas Angeli versatur
+          <lb ed="#P" n="90"/>circa Deum, circa seipsum, circa alios Angelos,
+          <lb ed="#P" n="91"/>circa homines, et suo modo circa alias 
+          creatu<lb break="no" ed="#P" n="92"/>ras, quatenus in omnibus aliqua ratio boni 
+          in<lb break="no" ed="#P" n="93"/>veniri potest. Formaliter etiam non solum 
+          at<lb break="no" ed="#P" n="94"/>tingit universalem rationem boni, sed etiam
+          <lb ed="#P" n="95"/>particulares sub illa contentas. Quales sunt
+          <lb ed="#P" n="96"/>ratio boni per se amabilis, ut est honestum,
+          <lb ed="#P" n="97"/>seu per se conveniens naturae, aut delectabile.
+          <lb ed="#P" n="98"/>Et ratio boni propter aliud, qualis est ratio
+          <lb ed="#P" n="99"/>utilis. Nam in his omnibus invenitur ratio 
+          ap<lb break="no" ed="#P" n="100"/>petibilis: et ideo sub illis omnibus potest 
+          vo<lb break="no" ed="#P" n="101"/>luntas Angeli versari, sicut humana. Et hinc
+          <lb ed="#P" n="102"/>est, ut possit in finem, et in media ferri: ac
+          <lb ed="#P" n="103"/>propterea utraque sub adaequato objecto suo
+          <lb ed="#P" n="104"/>comprehendat, quamvis inter ea finis se 
+          ha<lb break="no" ed="#P" n="105"/>beat, ut formale, medium ut materiale 
+          voli<lb break="no" ed="#P" n="106"/>tum, sicut in nobis, ita et in Angelis.
+        </p>
+        <p xml:id="szdada-x09250-d1e338">
+          <lb ed="#P" n="107"/>4. Quomodo malum spectat ad objectumn vo-
+          <pb ed="#P" n="369"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>luntatis. — Utrum Angelorum voluntates inter
+          <lb ed="#P" n="2"/>se, et similiter ab humana differant specic.
+          <lb ed="#P" n="3"/>Lib. 29 c. 2, n. 52. Vide disp. 12, de Anima,
+          <lb ed="#P" n="4"/>q. 2, remissive. — Nec adaequationi hujus 
+          ob<lb break="no" ed="#P" n="5"/>Jecti obstat, quod voluntas non tantum circa
+          <lb ed="#P" n="6"/>bonum, sed etiam circa malum operetur, ut
+          <lb ed="#P" n="7"/>statim dicemus. Quia non operatur circa 
+          ma<lb break="no" ed="#P" n="8"/>lum, appetendo, sed fugiendo, vel si aliquid
+          <lb ed="#P" n="9"/>ibi appetit, est, volendo destructionem mali,
+          <lb ed="#P" n="10"/>quae bona est. Et ideo D. Thomas, dicta q. 59,
+          <lb ed="#P" n="11"/>art. 2, in argument. JSed contra, absolute
+          <lb ed="#P" n="12"/>dixit, voluntatem tantum esse bonorum, 
+          intel<lb break="no" ed="#P" n="13"/>lectus autem bonorum et malorum, quia 
+          intel<lb break="no" ed="#P" n="14"/>lectus quasi per se, et directe versatur circa
+          <lb ed="#P" n="15"/>utrumque, voluntas autem circa malum 
+          so<lb break="no" ed="#P" n="16"/>lum quasi oblique, ejus destructionem 
+          appe<lb break="no" ed="#P" n="17"/>tendo, versatur. Denique de toto hoc objecto
+          <lb ed="#P" n="18"/>cum proportione in voluntate angelica, sicut
+          <lb ed="#P" n="19"/>in humana loquendum est, et ideo circa illud
+          <lb ed="#P" n="20"/>amplius nunc non immoramur. Solet autem
+          <lb ed="#P" n="21"/>hic quaeri, an voluntas Angeli, et animae 
+          nos<lb break="no" ed="#P" n="22"/>trae sit ejusdem speciei, et consequenter, an
+          <lb ed="#P" n="23"/>voluntates Angelorum inter se specie differant,
+          <lb ed="#P" n="24"/>sed non est dubium, quin ita differant 
+          volun<lb break="no" ed="#P" n="25"/>tates, sicut et essentiae a quibus manant. Unde
+          <lb ed="#P" n="26"/>quae de intellectibus diximus, hic applicari
+          <lb ed="#P" n="27"/>possunt, et sufficiunt, et in materia de Anima,
+          <lb ed="#P" n="28"/>aliquid addemus, nam cognito utroque 
+          extre<lb break="no" ed="#P" n="29"/>mo melius comparatio fiet.
+        </p>
+        <p xml:id="szdada-x09250-d1e410">
+          <lb ed="#P" n="30"/>5. Angelis, non esse appetitum irascibilem et
+          <lb ed="#P" n="31"/>concupiscibilem. — Sexto ex dictis concludit
+          <lb ed="#P" n="32"/>D. Thomas, dicta q. 59, a. 4, non esse in 
+          Ange<lb break="no" ed="#P" n="33"/>lis appetitum irascibilem et concupiscibilem.
+          <lb ed="#P" n="34"/>Quod tribus modis potest intelligi. Primo
+          <lb ed="#P" n="35"/>ut non sit in Angelis potentia eliciens affectus
+          <lb ed="#P" n="36"/>irae, et concupiscentiae cum passione sensibili,
+          <lb ed="#P" n="37"/>et corporea, sicut in nobis fiunt, et in hoc
+          <lb ed="#P" n="38"/>sensu videtur loqui D. Thomas ibi, 
+          respon<lb break="no" ed="#P" n="39"/>dendo ad argumentum secundum, et tertium.
+          <lb ed="#P" n="40"/>Estque res per se nota, supposita veritate in
+          <lb ed="#P" n="41"/>libro primo demonstrata, Angelos neque 
+          sen<lb break="no" ed="#P" n="42"/>tientes esse, nec corporeos. Et ideo merito 
+          Ca<lb break="no" ed="#P" n="43"/>jetanus dixit in hoc sensu non esse quaestioni
+          <lb ed="#P" n="44"/>locum. Secundus sensus esse potest. in Angelis
+          <lb ed="#P" n="45"/>non esse appetitum, qui proprios, et formales
+          <lb ed="#P" n="46"/>actus irae, vel concupiscentiae eliciat. Quem
+          <lb ed="#P" n="47"/>sensum videtur D. Thomas insinuare in 
+          solu<lb break="no" ed="#P" n="48"/>tione ad primum, dum ait, furorem, et 
+          con<lb break="no" ed="#P" n="49"/>cupiscentiam metaphorice daemonibus tribui
+          <lb ed="#P" n="50"/>a Dionysio, cap. 4, de divin. Nomin., p. 4. 
+          Si<lb break="no" ed="#P" n="51"/>cut ira inquit, interdum Deo tribuitur propter
+          <lb ed="#P" n="52"/>similitudinem effectus. Verumtamen dicendum
+          <lb ed="#P" n="53"/>est, omnes actus harum potentiarum 
+          formali<lb break="no" ed="#P" n="54"/>ter sumptos, id est, secundum praecisam 
+          ra<lb break="no" ed="#P" n="55"/>tionem actuum elicitorum ab appetitu, ab-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>strahendo a modo materiali, et involvente 
+          co<lb break="no" ed="#P" n="57"/>operationem corporis, proprie, et formaliter
+          <lb ed="#P" n="58"/>in voluntate Angeli inveniri. Hoc de divina 
+          vo<lb break="no" ed="#P" n="59"/>luntate, uno, vel alio actu includente 
+          imper<lb break="no" ed="#P" n="60"/>fectionem in objecto formali, excepto, vidimus
+          <lb ed="#P" n="61"/>in superiori tomo, l. 3, de divin. Attributis,
+          <lb ed="#P" n="62"/>cap. 5. Unde multo facilius, et cum majori
+          <lb ed="#P" n="63"/>proportione in voluntate angelica invenitur.
+        </p>
+        <p xml:id="szdada-x09250-d1e488">
+          <lb ed="#P" n="64"/>6. Qui actus concupiscibiles sint in Angelis.
+          <lb ed="#P" n="65"/>— Sex enim actus tribuuntur concupiscentiae
+          <lb ed="#P" n="66"/>sensibili, scilicet, tres circa bonum, amor,
+          <lb ed="#P" n="67"/>concupiscentia, et delectatio: et tres circa
+          <lb ed="#P" n="68"/>malum, scilicet, odium, fuga, et tristitia, seu
+          <lb ed="#P" n="69"/>dolor. Ex primis autem tribus actibus, amor,
+          <lb ed="#P" n="70"/>et delectatio in omni proprietate inveniuntur
+          <lb ed="#P" n="71"/>in Deo, et consequenter etiam in Angelis, et
+          <lb ed="#P" n="72"/>in omni voluntate. Solent autem diversis 
+          no<lb break="no" ed="#P" n="73"/>minibus appellari, ut amor voluntatis 
+          specia<lb break="no" ed="#P" n="74"/>liter vocatur dilectio, vel charitas, et 
+          delecta<lb break="no" ed="#P" n="75"/>tio, gaudium, voluptas, ut specialis voluntatis
+          <lb ed="#P" n="76"/>perfectio indicetur. Communiter tamen etiam
+          <lb ed="#P" n="77"/>voluntati tribuuntur hi actus sub nominibus
+          <lb ed="#P" n="78"/>communibus appetitui sensitivo, quia 
+          generi<lb break="no" ed="#P" n="79"/>cam convenientiam inter se habent. Vide D.
+          <lb ed="#P" n="80"/>Thomam 1, 2, quaest. 26, art. 3, quaest. 31,
+          <lb ed="#P" n="81"/>art. 3 et 4. Et eadem fere ratio est de actu
+          <lb ed="#P" n="82"/>concupiscentiae, si enim nomen attendamus,
+          <lb ed="#P" n="83"/>solet maxime tribui sensitivae concupiscentiae,
+          <lb ed="#P" n="84"/>quae cum passione corporis fit: imo etiam in
+          <lb ed="#P" n="85"/>illa saepe solet in malam partem accipi pro
+          <lb ed="#P" n="86"/>inordinato actu, vel in objecto, vel in modo,
+          <lb ed="#P" n="87"/>quamvis nomen generale sit, indicans tamen
+          <lb ed="#P" n="88"/>modum appetendi sensibilem, et materialem.
+          <lb ed="#P" n="89"/>Et in hoc sensu dicit D. Thomas, d. art. 4, ad
+          <lb ed="#P" n="90"/>1, concupiscentiam Angelis metaphorice 
+          tri<lb break="no" ed="#P" n="91"/>bui. Nihilominus illi respondet in voluntate
+          <lb ed="#P" n="92"/>desiderium, quod est appetitio spiritualis boni
+          <lb ed="#P" n="93"/>non habiti, quod generaliori modo 
+          concupis<lb break="no" ed="#P" n="94"/>centia proprie dici potest, abstrahens a modo
+          <lb ed="#P" n="95"/>concupiscendi cum passione corporis, vel sine
+          <lb ed="#P" n="96"/>corporis motione. Vide D. Thomam 1, 2. q.
+          <lb ed="#P" n="97"/>30, art. 1. Idemque dicendum est de aliis 
+          tri<lb break="no" ed="#P" n="98"/>bus actibus, qui versantur circa malum, quia
+          <lb ed="#P" n="99"/>contrariorum eadem est ratio, quantum est
+          <lb ed="#P" n="100"/>ex parte ipsorum. Nam ex parte subjecti 
+          po<lb break="no" ed="#P" n="101"/>test interdum esse incapacitas alicujus ex his
+          <lb ed="#P" n="102"/>actibus, propter imperfectionem quam 
+          sup<lb break="no" ed="#P" n="103"/>ponit. Et sic diximus in superiori tomo, in
+          <lb ed="#P" n="104"/>loco allegato, in Deo non posse esse tristitiam,
+          <lb ed="#P" n="105"/>quia supponit poenitentiam alicujus mali 
+          invo<lb break="no" ed="#P" n="106"/>luntarii. At vero in Angelis ex natura sua
+          <lb ed="#P" n="107"/>spectatis etiam hic actus inveniri potest, quia
+          <lb ed="#P" n="108"/>sunt mali capaces, et ita in malis angelis 
+          inve<lb break="no" ed="#P" n="109"/>nitur, sicut et in nostra voluntate, quae 
+          tristi<lb break="no" ed="#P" n="110"/>tia solet etiam dolor appellari, quamvis no-
+          <pb ed="#P" n="370"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>men doloris generalius sit, ut videre licet in
+          <lb ed="#P" n="2"/>D. Thoma, 1, 2, q. 35, art. 2. In voluntate
+          <lb ed="#P" n="3"/>autem sanctorum Angelorum hic actus locum
+          <lb ed="#P" n="4"/>non habet, propter beatitudinis statum.
+        </p>
+        <p xml:id="szdada-x09250-d1e605">
+          <lb ed="#P" n="5"/>7. Quia item actus irascibilis in eisdem 
+          repe<lb break="no" ed="#P" n="6"/>riantur. — Simili modo discurrendum est in
+          <lb ed="#P" n="7"/>actibus irascibilis, qui numerantur quinque,
+          <lb ed="#P" n="8"/>scilicet, spes. desperatio, audacia, timor, et
+          <lb ed="#P" n="9"/>ira; nam de quatuor primis clarum est de se
+          <lb ed="#P" n="10"/>abstrahere ab actibus appetitus sensibilis, et
+          <lb ed="#P" n="11"/>rationalis, et cum omni proprietate, imo 
+          for<lb break="no" ed="#P" n="12"/>tasse cum majori in sola voluntate, etiam 
+          an<lb break="no" ed="#P" n="13"/>gelica locum habere. Nam licet in Deo esse
+          <lb ed="#P" n="14"/>non possint, propter imperfectionem 
+          impoten<lb break="no" ed="#P" n="15"/>tiae et ignorantiae, seu nescientiae, quam 
+          sup<lb break="no" ed="#P" n="16"/>ponunt, ut in citato loco dixi; in Angelis
+          <lb ed="#P" n="17"/>utraque imperfectio inveniri potest, quia et 
+          li<lb break="no" ed="#P" n="18"/>mitatae potentiae sunt, et futuros eventus saepe
+          <lb ed="#P" n="19"/>ignorant, et ideo ex natura sua sperare 
+          pos<lb break="no" ed="#P" n="20"/>sunt, et timere, etc. Deira videtur D. Thomas,
+          <lb ed="#P" n="21"/>in dicta solutione ad 1, docere, Angelis tribui
+          <lb ed="#P" n="22"/>solum metaphorice, et expressius id docet,
+          <lb ed="#P" n="23"/>q, 63, art. 2, ad secundum. Aliis vero in locis
+          <lb ed="#P" n="24"/>iram definit esse appetitum vindictae, quae ad
+          <lb ed="#P" n="25"/>justitiam pertinet: ita habet in 1, 2, q. 46,
+          <lb ed="#P" n="26"/>art. 2,in argumento fSed contra, ex Augustino,
+          <lb ed="#P" n="27"/>14, de Civit., cap. 15, et lb. 2 Confess.,
+          <lb ed="#P" n="28"/>cap. 6, et idem repetit in eadem q., art. 4et 6,
+          <lb ed="#P" n="29"/>in corp., et ad 2, et art. 7, ubi concludit ad
+          <lb ed="#P" n="30"/>eosdem pertinere iram, ad quos pertinet 
+          jus<lb break="no" ed="#P" n="31"/>titia. Et ideo in q. 47, art. 1, ad 1, addit, in
+          <lb ed="#P" n="32"/>Deo esse iram secundum judicium justitiae, ut
+          <lb ed="#P" n="33"/>latius dixi in disp. de justitia Dei, sess. 5, n.2,
+          <lb ed="#P" n="34"/>ubi adverti, quaestionem esse posse de nomine,
+          <lb ed="#P" n="35"/>tamen utendo illa voce ad significandum 
+          spe<lb break="no" ed="#P" n="36"/>cialem actum appetendi vindictam pro injuria
+          <lb ed="#P" n="37"/>illata, non est dubium, quin Angel sint 
+          capa<lb break="no" ed="#P" n="38"/>ces irae, sicut et injuriae, et vindictae. Unde sic
+          <lb ed="#P" n="39"/>generatim sumpta imperfectionem non 
+          invol<lb break="no" ed="#P" n="40"/>vit, et Deo tribuitur proprie, in illa 
+          significa<lb break="no" ed="#P" n="41"/>tione sistendo. Alio vero modo duas 
+          imperfec<lb break="no" ed="#P" n="42"/>tiones potest includere. Una ex parte subjecti,
+          <lb ed="#P" n="43"/>quia fit cum passione corporis, excitat enim
+          <lb ed="#P" n="44"/>sanguinem, et bilem, et sic clarum est non 
+          in<lb break="no" ed="#P" n="45"/>veniri in Angelis. Alia est quod supponit 
+          dolo<lb break="no" ed="#P" n="46"/>rem, seu tristitiam velut causam excitantem
+          <lb ed="#P" n="47"/>iram, vel ut objectum, quia irrascitur quis de
+          <lb ed="#P" n="48"/>dolore sibi illato: et quoad hoc etiam potest
+          <lb ed="#P" n="49"/>in Angelis reperiri, quatenus doloris capaces
+          <lb ed="#P" n="50"/>sunt: et hoc modo in daemonibus proprie 
+          in<lb break="no" ed="#P" n="51"/>venitur. Dionysius autem illam sub nomine
+          <lb ed="#P" n="52"/>furoris eis attribuit, quae vox magis solet 
+          pas<lb break="no" ed="#P" n="53"/>sioni vehementi irae attribui: et ideo dixit D.
+          <lb ed="#P" n="54"/>Thomas metaphorice de Angelis dici.
+        </p>
+        <p xml:id="szdada-x09250-d1e716">
+          <lb ed="#P" n="55"/>8. Tertius sensus est, non esse in Angelo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>plures potentias elicientes hos actus, sed ab
+          <lb ed="#P" n="57"/>una omnes fieri. Et ita est etiam assertio certa,
+          <lb ed="#P" n="58"/>nec de re superest difficultas. Nam omnes isti
+          <lb ed="#P" n="59"/>actus ab eadem potentia in Anggelis fiunt, et
+          <lb ed="#P" n="60"/>ita non sunt in eis irascibiles, et 
+          concupiscibi<lb break="no" ed="#P" n="61"/>les tanquam duae potentiae distinctae, secundum
+          <lb ed="#P" n="62"/>rationem autem, et inadaequatum conceptum
+          <lb ed="#P" n="63"/>nihil vetat, quominus ita concipi possint. Quod
+          <lb ed="#P" n="64"/>voluit Scotus 3, dist. 26, aequiparans in hoc
+          <lb ed="#P" n="65"/>voluntatem cum appetitu sentiente, quia etiam
+          <lb ed="#P" n="66"/>in appetitu non ponit inter illa duo majorem
+          <lb ed="#P" n="67"/>distinctionem, de quo suo loco dicemus. Et
+          <lb ed="#P" n="68"/>ita obiter exposuimus in voluntate Angeli 
+          ac<lb break="no" ed="#P" n="69"/>tus illos, qui secundum generalem rationem
+          <lb ed="#P" n="70"/>in appetitu sensitivo inveniuntur: de quorum
+          <lb ed="#P" n="71"/>distinctione inter se. et uniuseujusque 
+          pro<lb break="no" ed="#P" n="72"/>prietate, in tractatu tertio, hujus libri 
+          dictu<lb break="no" ed="#P" n="73"/>ri sumus. De aliis vero actibus propriis 
+          nos<lb break="no" ed="#P" n="74"/>trae voluntatis, ut sunt intentió, electio, et
+          <lb ed="#P" n="75"/>similes, quomodo in voluntate Angeli 
+          inve<lb break="no" ed="#P" n="76"/>niantur, in sequentibus capitulis aliquid 
+          di<lb break="no" ed="#P" n="77"/>cemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

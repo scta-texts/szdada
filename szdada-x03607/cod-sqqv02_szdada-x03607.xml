@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="144"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x03607"><!-- l2c9 -->
+        <head xml:id="szdada-x03607-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-x03607-Hd1e103" type="question-title">Utrum angelus per species a principio sibi inditas possit futura cognoscere</head>
+        <p xml:id="szdada-x03607-d1e106">
+          <lb ed="#P" n="85"/>CAPUT IX.
+          <lb ed="#P" n="86"/>UTRUM ANGELUS PER SPECIES A PRINCIPIO SIBI
+          <lb ed="#P" n="87"/>INDITAS POSSIT FUTURA COGNOSCERE.
+        </p>
+        <p xml:id="szdada-x03607-d1e115">
+          <lb ed="#P" n="88"/>1. Arguitur pro affirmante parte.—
+          Argui<lb break="no" ed="#P" n="89"/>tur jam pro negante parte.—hatio 
+          difficulta<lb break="no" ed="#P" n="90"/>tis oritur ex dictis in capite praecedenti, et in
+          <lb ed="#P" n="91"/>superioribus tacta est, quia ex dictis sequi 
+          vi<lb break="no" ed="#P" n="92"/>detur, posse Angelum ex vi talium specierum
+          <lb ed="#P" n="93"/>futura cognoscere. Probatur, quia Angelus a
+          <lb ed="#P" n="94"/>principio habuit species singularium 
+          futuro<lb break="no" ed="#P" n="95"/>rum, ergo potest per illas talia individua 
+          fu<lb break="no" ed="#P" n="96"/>tura cognoscere. Respondebitur ex supra dictis,
+          <lb ed="#P" n="97"/>posse quidem illa, quae sunt futura, simpliciter,
+          <lb ed="#P" n="98"/>seu ut possibilia cognoscere, non tamen quod
+          <lb ed="#P" n="99"/>futura sint. Sed contra primo, quia species 
+          il<lb break="no" ed="#P" n="100"/>lae non repraesentant solum res incomplexas,
+          <lb ed="#P" n="101"/>quae sunt, verbi gratia, subjectum, et 
+          praedi<lb break="no" ed="#P" n="102"/>catum in propositione de futuro, sed etiam
+          <lb ed="#P" n="103"/>repraesentant connexionem illorum 
+          extremo<lb break="no" ed="#P" n="104"/>rum: nam connexionem illam, quam nos 
+          com<lb break="no" ed="#P" n="105"/>ponendo cognoscimus, Angelus simplici actu
+          <lb ed="#P" n="106"/>cognoscit, ergo per simplicem etiam speciem
+          <lb ed="#P" n="107"/>illi repraesentantur, ergo de facto illae species,
+          <pb ed="#P" n="145"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quae repraesentant Angelo res singulares 
+          exis<lb break="no" ed="#P" n="2"/>tentes, repraesentant etiam illam connexionem
+          <lb ed="#P" n="3"/>seu unionem extremorum, quia respectu 
+          an<lb break="no" ed="#P" n="4"/>gelicae cognitionis illa est quaedam res 
+          singu<lb break="no" ed="#P" n="5"/>laris, et individua, ergo per talem speciem 
+          in<lb break="no" ed="#P" n="6"/>complexe cognoscunt talem complexionem,
+          <lb ed="#P" n="7"/>seu unionem praedicati cum subjecto. Dices,
+          <lb ed="#P" n="8"/>cognoscere quidem illam, quando est praesens,
+          <lb ed="#P" n="9"/>non vero prius, quandiu est futura. Sed 
+          con<lb break="no" ed="#P" n="10"/>tra, quia species eadem omnino repraesentat
+          <lb ed="#P" n="11"/>rem praesentem, et existentem, quae a 
+          princi<lb break="no" ed="#P" n="12"/>pio fuit indita absque ulla mutatione in ea 
+          fac<lb break="no" ed="#P" n="13"/>ta, ergo eadem suffticit ad cognoscendam 
+          eam<lb break="no" ed="#P" n="14"/>dem rem semper, atque ádeo etiam futuram.
+          <lb ed="#P" n="15"/>In contrarium vero est, quia si per illas 
+          spe<lb break="no" ed="#P" n="16"/>cies possent cognosci futura, Angelus posset
+          <lb ed="#P" n="17"/>etiam futura contingentia cognoscere, quod
+          <lb ed="#P" n="18"/>est contra Scripturam. Sequela patet, quia 
+          ra<lb break="no" ed="#P" n="19"/>tio facta eeque de omnibus futuris procedit,
+          <lb ed="#P" n="20"/>quia species angelicae omnium rerum sunt,
+          <lb ed="#P" n="21"/>sive necessario, sive contingenter sint futurae.
+        </p>
+        <p xml:id="szdada-x03607-d1e211">
+          <lb ed="#P" n="22"/>2. Notatio prima pro resolutione.—Ut 
+          punc<lb break="no" ed="#P" n="23"/>tum difficultatis attingamus, nonnulla 
+          clario<lb break="no" ed="#P" n="24"/>ra supponenda, et expedienda sunt. Et 
+          impri<lb break="no" ed="#P" n="25"/>mis distinguendus est duplex modus 
+          cognos<lb break="no" ed="#P" n="26"/>cendi futurum. Unus est, cognoscendo illud in
+          <lb ed="#P" n="27"/>alio, scilicet, in causa, vel in signo causae,
+          <lb ed="#P" n="28"/>quomodo cognoscitur eclipsis futura in 
+          moti<lb break="no" ed="#P" n="29"/>bus ceelorum, et pluvia futura in signis coeli,
+          <lb ed="#P" n="30"/>ut in colore nubium, vel vento, etc. Alius 
+          mo<lb break="no" ed="#P" n="31"/>dus cognoscendi futura, est in seipsis 
+          imme<lb break="no" ed="#P" n="32"/>diate, et directe ipsam veritatem tuturam in se
+          <lb ed="#P" n="33"/>intuendo, sicut videtur res praesens, et actu
+          <lb ed="#P" n="34"/>existens: quomodo intelligimus Deum 
+          cognos<lb break="no" ed="#P" n="35"/>cere, et videre res futuras. Per comparationem
+          <lb ed="#P" n="36"/>autem ad species intelhgibiles consideranda
+          <lb ed="#P" n="37"/>est differentia inter hos duos modos,quod prior
+          <lb ed="#P" n="38"/>non fit per propriam speciem effectus futuri,
+          <lb ed="#P" n="39"/>sed ex vi speciei causae: nam illa sufficit ad 
+          ta<lb break="no" ed="#P" n="40"/>lem cognitionem rei futurse, sine alia specie
+          <lb ed="#P" n="41"/>rei futurae; posterior autem cognitio, si in 
+          An<lb break="no" ed="#P" n="42"/>gelo admittatur, fiet per propriam speciem rei
+          <lb ed="#P" n="43"/>futurae, quia per illam non cognoscitur res in
+          <lb ed="#P" n="44"/>alio, seu ex alio, sed in seipsa: et de hoc 
+          mo<lb break="no" ed="#P" n="45"/>do cognitionis procedit difficultas proposita.
+          <lb ed="#P" n="46"/>Est etiam ala differentia notanda, quod prior
+          <lb ed="#P" n="47"/>cognitio futurorum est per aliud medium 
+          co<lb break="no" ed="#P" n="48"/>gnitum, utique per causam, vel signum, 
+          pos<lb break="no" ed="#P" n="49"/>terior autem fit sine medio cognito per solam
+          <lb ed="#P" n="50"/>speciem, quae ad rem ipsam cognoscendam 
+          con<lb break="no" ed="#P" n="51"/>ducit, etiamsi ipsa incognita sit. De priori 
+          mo<lb break="no" ed="#P" n="52"/>do dicemus in hoc capite, et de posteriori in
+          <lb ed="#P" n="53"/>sequenti.
+        </p>
+        <p xml:id="szdada-x03607-d1e284">
+          <lb ed="#P" n="54"/>3. Notatio secunda. — Secundo distinguere
+          <lb ed="#P" n="55"/>oportet futura, nam quaedam sunt, quae na-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>turali necessitate eveniunt, ut temporum 
+          mu<lb break="no" ed="#P" n="57"/>tationes, etc., alia, quae contingenter, 
+          quo<lb break="no" ed="#P" n="58"/>rum tres gradus ex Aristotele solent distingui:
+          <lb ed="#P" n="59"/>nam quaedam raro, alia frequenter, alia ad
+          <lb ed="#P" n="60"/>utrumlibet evenire contingit. Sed ad rem 
+          prae<lb break="no" ed="#P" n="61"/>sentem alia distinctio eorum magis necessaria
+          <lb ed="#P" n="62"/>est: nam in quibusdam contirpgentia provenit
+          <lb ed="#P" n="63"/>ex solo concursu, seu occursu plurium 
+          causa<lb break="no" ed="#P" n="64"/>rum naturalium sese impedientium sine 
+          inter<lb break="no" ed="#P" n="65"/>ventu alicujus causae libere agentis: in aliis
+          <lb ed="#P" n="66"/>vero contingentia provenit ex libertate 
+          alicu<lb break="no" ed="#P" n="67"/>jus causae, quae effectum promovere, vel 
+          impe<lb break="no" ed="#P" n="68"/>dire pro arbitrio suo potest. De his ergo 
+          omni<lb break="no" ed="#P" n="69"/>bus, quoad cognuitionem directam, quae 
+          imme<lb break="no" ed="#P" n="70"/>diate fiat ex vi repraesentationis specierum et
+          <lb ed="#P" n="71"/>non ex causae, vel causarum cognitione, 
+          vide<lb break="no" ed="#P" n="72"/>tur mihi esse eadem ratio, ut in sequenti capite
+          <lb ed="#P" n="73"/>dicam. In cognitione autem per causam est
+          <lb ed="#P" n="74"/>magna differentia, quae per breves 
+          assertio<lb break="no" ed="#P" n="75"/>nes declarari potest: nam in hoc modo 
+          cogni<lb break="no" ed="#P" n="76"/>uonis vix aliqua gravis difficultas, aut 
+          opinio<lb break="no" ed="#P" n="77"/>num varietas inveniri potest.
+        </p>
+        <p xml:id="szdada-x03607-d1e341">
+          <lb ed="#P" n="78"/>4. Prima conclusio. — Secunda conclusio.—
+          <lb ed="#P" n="79"/>Ejus duplex sensus. — Primo ergo certum est,
+          <lb ed="#P" n="80"/>futura, quae ex causis naturaliter, et 
+          immutabi<lb break="no" ed="#P" n="81"/>liter agentibus proveniunt, posse per easdem
+          <lb ed="#P" n="82"/>causas ab Angelis certo praesciri, ut futura
+          <lb ed="#P" n="83"/>sunt. Haec extra controversiam est, ut patet ex
+          <lb ed="#P" n="84"/>D. Thoma, 1 p., q. 57, art. 3, et omnibus ibi,
+          <lb ed="#P" n="85"/>et in 2, d. 3, quia supponimus, Angelos certo
+          <lb ed="#P" n="86"/>cognoscere causas naturales, et efficaciam 
+          ea<lb break="no" ed="#P" n="87"/>rum, ergo illis cognitis, ex illis certo scient,
+          <lb ed="#P" n="88"/>quid facturae sint. Item homines sapientes haec
+          <lb ed="#P" n="89"/>futura certo cognoscunt, ut Astrologus 
+          futu<lb break="no" ed="#P" n="90"/>ram eclipsim et similia. Secundo assero, 
+          An<lb break="no" ed="#P" n="91"/>gelos posse certo cognoscere futura 
+          contingen<lb break="no" ed="#P" n="92"/>üa, quae a solis causis naturalibus sine 
+          inter<lb break="no" ed="#P" n="93"/>ventu alicujus causae liberae eventura sunt,
+          <lb ed="#P" n="94"/>non vero ut contingentia sunt, sed ut 
+          neces<lb break="no" ed="#P" n="95"/>saria: sub duplici enim respectu talia futura
+          <lb ed="#P" n="96"/>considerari possunt. Primo sub respectu ad
+          <lb ed="#P" n="97"/>solam causam proximam, sine consideratione
+          <lb ed="#P" n="98"/>aliarum causarum naturalium, quae occurrere
+          <lb ed="#P" n="99"/>possunt et effectum impedire. Et sic 
+          manifes<lb break="no" ed="#P" n="100"/>tum est, cognitionem in tali causa non posse
+          <lb ed="#P" n="101"/>esse certam etiam Angelis, quia medium 
+          co<lb break="no" ed="#P" n="102"/>gnitionis non est infallibile, cum impediri 
+          pos<lb break="no" ed="#P" n="103"/>sit. Nec refert, quod altera causa, quae 
+          inter<lb break="no" ed="#P" n="104"/>venire potest, sit ejusdem generis, id est,
+          <lb ed="#P" n="105"/>effectiva, vel alterius, ut materialis, quia 
+          quae<lb break="no" ed="#P" n="106"/>cumque sit, incertitudinem effectus futuri 
+          in<lb break="no" ed="#P" n="107"/>ducit.
+        </p>
+        <p xml:id="szdada-x03607-d1e409">
+          <lb ed="#P" n="108"/>5. Probatur cero in secundo sensu. — At vero
+          <lb ed="#P" n="109"/>contemplando effectum fnuturum sub altero
+          <lb ed="#P" n="110"/>respectu ad integrum concursum causarum
+          <pb ed="#P" n="146"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>omnium, tam efficientium, quam materialium,
+          <lb ed="#P" n="2"/>eumque comprehendendo, certissime 
+          cognos<lb break="no" ed="#P" n="3"/>cetur, quis effectus eventurus sit, vel non sit.
+          <lb ed="#P" n="4"/>Probatur, quia ex illo cumulo causarum sic
+          <lb ed="#P" n="5"/>concurrentium necessario provenit talis, vel
+          <lb ed="#P" n="6"/>talis effectus: nam omnes naturahlter agunt,
+          <lb ed="#P" n="7"/>seu causant, ut supponitur. Unde si se possunt
+          <lb ed="#P" n="8"/>impedire, necessario se impedient, et vel 
+          pro<lb break="no" ed="#P" n="9"/>dibit effectus monstrosus, et talis praescietur,
+          <lb ed="#P" n="10"/>vel omnino impedietur effectus, et hoc ipsum
+          <lb ed="#P" n="11"/>praescietur. At vero Angeli cognoscunt, non
+          <lb ed="#P" n="12"/>solum singulas causas naturales proxime 
+          agen<lb break="no" ed="#P" n="13"/>tes, sed etiam dispositionem materise, et 
+          to<lb break="no" ed="#P" n="14"/>tum cursum causarum coelestium, et 
+          terres<lb break="no" ed="#P" n="15"/>trium tunc concurrentium possunt actu 
+          consi<lb break="no" ed="#P" n="16"/>derare, ergo possunt certo cognoscere 
+          futu<lb break="no" ed="#P" n="17"/>rum eftfectum, quia sub ea ratione non 
+          contin<lb break="no" ed="#P" n="18"/>cens, sed necessarius est, et ita sine dubio
+          <lb ed="#P" n="19"/>comprehenduntur a D. Thoma, in dicto art. 3,
+          <lb ed="#P" n="20"/>et 3 contr. Gent., cap. 154, sub illa assertione,
+          <lb ed="#P" n="21"/>qua affirmat, Angelum certo cognoscere quae
+          <lb ed="#P" n="22"/>de necessitate eveniunt. Nam, ut ipsemet 
+          do<lb break="no" ed="#P" n="23"/>cet, 1 contr. Gent., cap. 61, ration. 3, ea, quae
+          <lb ed="#P" n="24"/>eveniunt a causa contingente completa, et non
+          <lb ed="#P" n="25"/>impedita ex necessitate eveniunt. Unde 
+          ibi<lb break="no" ed="#P" n="26"/>dem probat, Deum posse certo cognoscere 
+          ta<lb break="no" ed="#P" n="27"/>lia futura, quia certo cognoscit omnes causas,
+          <lb ed="#P" n="28"/>quae illa impedire possunt et an impediant,
+          <lb ed="#P" n="29"/>necne: ubi etiam Ferrariensis notat, talem :
+          <lb ed="#P" n="30"/>cognitionem non esse contingentis, ut 
+          contin<lb break="no" ed="#P" n="31"/>gentis, sed ut necessari, et ideo esse posse
+          <lb ed="#P" n="32"/>certam. Quod totum in gradu suo in Angelis
+          <lb ed="#P" n="33"/>locum habet.
+        </p>
+        <p xml:id="szdada-x03607-d1e494">
+          <lb ed="#P" n="34"/>5. Idem D. Thomas et al faciunt pro 
+          con<lb break="no" ed="#P" n="35"/>clusione. — Unde idem D. Thomas, quaest. 8,
+          <lb ed="#P" n="36"/>de Veritat., art. 12, optime dixit, quod 
+          Ange<lb break="no" ed="#P" n="37"/>Ii virtute naturali scire possunt, quae in causis
+          <lb ed="#P" n="38"/>naturalibus sunt determinata, vel in una 
+          tan<lb break="no" ed="#P" n="39"/>tum causa, vel in collectione plurium, quia
+          <lb ed="#P" n="40"/>aliquid est contingens respectu causae unius,
+          <lb ed="#P" n="41"/>quod respectu concursus plurium causarum
+          <lb ed="#P" n="42"/>est necessarium. Angeli autem omnes causas
+          <lb ed="#P" n="43"/>naturales cognoscunt, ergo haec cognitio in
+          <lb ed="#P" n="44"/>eis locum habet. Et idem in re docent in 2,
+          <lb ed="#P" n="45"/>d. 7, Albertus, art. 5, Durandus, quaest. 3,
+          <lb ed="#P" n="46"/>num. 4, Pesantius, dicta quaest. 57, art. 1, in
+          <lb ed="#P" n="47"/>principio, et ibidem Hipa. Neque huic veritati
+          <lb ed="#P" n="48"/>contradicunt, qui generaliter loquentes, 
+          ne<lb break="no" ed="#P" n="49"/>gant, Angelum posse naturaliter 
+          contingen<lb break="no" ed="#P" n="50"/>tia cum certitudine cognoscere, quia vel 
+          lo<lb break="no" ed="#P" n="51"/>quuntur formaliter de contingentibus, ut 
+          con<lb break="no" ed="#P" n="52"/>tingentia sunt; et sic videtur loqui Alensis,
+          <lb ed="#P" n="53"/>2 part., quaest. 26, memb. 4, et Donaventura,
+          <lb ed="#P" n="54"/>n 2, d. 7, 2 part., art. 1, queest. 3, Argentina,
+          <lb ed="#P" n="55"/>quaest. 1, art. 3, JEgidius, quaest. 2, art. 1,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et Marsilius, in 2, quaest. 7, art. 1, 2 part., 
+          il<lb break="no" ed="#P" n="57"/>lius, post septimam conclusionem, vel hos
+          <lb ed="#P" n="58"/>effectus absolute contingentes vocare nolunt,
+          <lb ed="#P" n="59"/>sed potius necessarios, ut Gregorius, in 1,
+          <lb ed="#P" n="60"/>d. 38, art. 1, et idem fere dixi in disput. 19
+          <lb ed="#P" n="61"/>Metaphysicae, sect. 19, concl. 2, et tradit 
+          Cor<lb break="no" ed="#P" n="62"/>duba, in quaestion., quaest. 55, dub. 4. Dico
+          <lb ed="#P" n="63"/>autem fere, quia in hoc potest esse quaestio de
+          <lb ed="#P" n="64"/>nomine, ut statim dicam.
+        </p>
+        <p xml:id="szdada-x03607-d1e566">
+          <lb ed="#P" n="65"/>6. Richardus contrarium problematice tuetur.
+          <lb ed="#P" n="66"/>— At vero Richardus, dicta d. 7, art. 3, q. 1,
+          <lb ed="#P" n="67"/>opinionem quamdam in contrarium refert,
+          <lb ed="#P" n="68"/>eamque problematice defendit, nimirum, non
+          <lb ed="#P" n="69"/>posse Angelum certo cognoscere naturales 
+          ef<lb break="no" ed="#P" n="70"/>fectus a causa naturali impedibili eventuros,
+          <lb ed="#P" n="71"/>etiamsi totum ordinem causarum naturalium
+          <lb ed="#P" n="72"/>cognoscat et consideret. Et pro eadem opinione
+          <lb ed="#P" n="73"/>relatum invenio Hervaeum, ibi art. 2. 
+          Carthu<lb break="no" ed="#P" n="74"/>sianus autem ibi, quaest. 4, non solum illam
+          <lb ed="#P" n="75"/>approbat, sed contrariam etiam erroris 
+          dam<lb break="no" ed="#P" n="76"/>nat, propter quemdam articulum Parisiensem,
+          <lb ed="#P" n="77"/>quem cum Richardo allegat. Bannez autem 
+          li<lb break="no" ed="#P" n="78"/>cet tam gravem censuram priori sententiae non
+          <lb ed="#P" n="79"/>tribuat, graviter nihilominus illam improbat
+          <lb ed="#P" n="80"/>et audaciae notat, cum quo sentit etiam 
+          Malo<lb break="no" ed="#P" n="81"/>nia, dicta distin. 3, disput. 14. Fundamentum
+          <lb ed="#P" n="82"/>hujus sententiae est, quia illi effectus 
+          simplici<lb break="no" ed="#P" n="83"/>ter sunt contingentes, ergo possunt esse, et non
+          <lb ed="#P" n="84"/>esse, ergo non possunt certo praesciri in suis
+          <lb ed="#P" n="85"/>causis. Item quia saepe sunt effectus per 
+          acci<lb break="no" ed="#P" n="86"/>dens, qui ad nullam causam per se reduci
+          <lb ed="#P" n="87"/>possunt, quia illam non habent, ergo nec 
+          pos<lb break="no" ed="#P" n="88"/>sunt in causa cognosci. Tertio, quia nunquam
+          <lb ed="#P" n="89"/>potest esse certum, quod talis causa impedienda
+          <lb ed="#P" n="90"/>non sit, quia infinita impedimenta, vel 
+          me<lb break="no" ed="#P" n="91"/>diantibus Angelis, vel hominibus intervenire
+          <lb ed="#P" n="92"/>possunt. Quarto addunt aliqui illud Sapien. 8,
+          <lb ed="#P" n="93"/>ubi singulariter tribuitur divina sapientiae,
+          <lb ed="#P" n="94"/>quod scit signa et monstra, antequam fiant, et
+          <lb ed="#P" n="95"/>eventus temporum, et seeculorum.
+        </p>
+        <p xml:id="szdada-x03607-d1e636">
+          <lb ed="#P" n="96"/>7. Judicium auctoris. — Bannez obiter 
+          re<lb break="no" ed="#P" n="97"/>fellitur. — Dico tamen vix posse in hoc 
+          punc<lb break="no" ed="#P" n="98"/>to contrarietatem opinionum inveniri, nisi
+          <lb ed="#P" n="99"/>aliqua aequivocatio, vel quaestio de nomine
+          <lb ed="#P" n="100"/>intercedat. Nam ratio facta est demonstratio,
+          <lb ed="#P" n="101"/>quia effectus, qui habet necessitatem in 
+          pluri<lb break="no" ed="#P" n="102"/>bus causis simul sumptis, potest certo 
+          cognos<lb break="no" ed="#P" n="103"/>ci in omnibus illis causis simul consideratis
+          <lb ed="#P" n="104"/>sed hanc necessitatem habet effectus 
+          contin<lb break="no" ed="#P" n="105"/>gens respectu alicujus causae naturalis 
+          prae<lb break="no" ed="#P" n="106"/>cise sumptae, sit in ordine ad omnes alias 
+          cau<lb break="no" ed="#P" n="107"/>sas simul occurrentes consideretur, ergo potest
+          <lb ed="#P" n="108"/>in illis certo praesciri, quando omnes illae 
+          cau<lb break="no" ed="#P" n="109"/>sae naturales sunt et certo constat, nullam 
+          li<lb break="no" ed="#P" n="110"/>beram interventuram esse. Quod evidentius
+          <pb ed="#P" n="147"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>constabit, satisfaciendo posterioris sententiae
+          <lb ed="#P" n="2"/>fundamentis. Non omittam autem advertere,
+          <lb ed="#P" n="3"/>prius quam ad illa respondeam, Dominicum
+          <lb ed="#P" n="4"/>Bannez supra duo supponere. Unum est, quod
+          <lb ed="#P" n="5"/>asseramus, Angelos in solis motibus et 
+          influen<lb break="no" ed="#P" n="6"/>tiis coelestibus cognoscere haec futura, 
+          scili<lb break="no" ed="#P" n="7"/>cet, quot sit futurae formicae post centum
+          <lb ed="#P" n="8"/>annos, vel quomodo sint movendae, his enim
+          <lb ed="#P" n="9"/>exenmplis utitur. Aliud est, non esse certum,
+          <lb ed="#P" n="10"/>omnes effectus non subjectos ullo modo libero
+          <lb ed="#P" n="11"/>arbitrio creato, naturali necessitate evenire
+          <lb ed="#P" n="12"/>respectu omnium causarum secundarum, quia
+          <lb ed="#P" n="13"/>fortasse pendent ab appetitu, et apprehensione
+          <lb ed="#P" n="14"/>brutorum, et inde poterunt impediri. Sed 
+          neu<lb break="no" ed="#P" n="15"/>trum cum fundamento dictum est, quia 
+          im<lb break="no" ed="#P" n="16"/>primis nos hanc certitudinem, non in solis
+          <lb ed="#P" n="17"/>causis coelestibus ponimus, sed etiam 
+          materia<lb break="no" ed="#P" n="18"/>les causas et omnes alias, quae concurrere 
+          pos<lb break="no" ed="#P" n="19"/>sunt, considerandas esse dicimus, ut jam 
+          de<lb break="no" ed="#P" n="20"/>claravi. Deinde, seclusa libera causa, nihil 
+          ob<lb break="no" ed="#P" n="21"/>stabit dependentia ab apprehensione, vel 
+          ap<lb break="no" ed="#P" n="22"/>petitu brutorum: nam ille etiam esse effectus
+          <lb ed="#P" n="23"/>naturalis et necessarius, quem Angelus certo
+          <lb ed="#P" n="24"/>praecognoscere potest, et ideo 
+          comprehenden<lb break="no" ed="#P" n="25"/>do hanc causam simul cum aliis naturalibus et
+          <lb ed="#P" n="26"/>exclusa causa libera, certo cognoscit futurum
+          <lb ed="#P" n="27"/>effectum.
+        </p>
+        <p xml:id="szdada-x03607-d1e735">
+          <lb ed="#P" n="28"/>8. Ad primum argumentum in munero seato.
+          <lb ed="#P" n="29"/>— Hoc ergo supposito, primum argumentum
+          <lb ed="#P" n="30"/>vel supponit falsum, vel non recte infert. Cum
+          <lb ed="#P" n="31"/>enim sumit, hos effectus esse simpliciter 
+          contin<lb break="no" ed="#P" n="32"/>gentes, distinguendum est, nam in sola 
+          aequi<lb break="no" ed="#P" n="33"/>vocatione illius vocis nititur argumentum.
+          <lb ed="#P" n="34"/>Primo enim contingens potest dici aliquid, vel
+          <lb ed="#P" n="35"/>in ordine ad solam causam proximam 
+          consi<lb break="no" ed="#P" n="36"/>deratum, vel in ordine ad omnes, quae ad talem
+          <lb ed="#P" n="37"/>effectum promovendum, vel impediendum 
+          con<lb break="no" ed="#P" n="38"/>currunt. Priori modo verum est antecedens ;
+          <lb ed="#P" n="39"/>tunc antem consequentiae,ut bonae sint, debent
+          <lb ed="#P" n="40"/>cum eadem limitatione accipi, scilicet, posse
+          <lb ed="#P" n="41"/>talem effectum esse, et non esse, quantum est
+          <lb ed="#P" n="42"/>ex parte causae impedibilis, et ideo in sola illa
+          <lb ed="#P" n="43"/>non posse certo cognosci. Si autem antecedens
+          <lb ed="#P" n="44"/>sensu posteriori sumatur, ita ut sensus sit, 
+          il<lb break="no" ed="#P" n="45"/>lum effectum esse contingentem respectu 
+          col<lb break="no" ed="#P" n="46"/>lectionis omnium causarum, et hoc 
+          significe<lb break="no" ed="#P" n="47"/>tur per illam particulam simpliciter, sic falsum
+          <lb ed="#P" n="48"/>est antecedens, et absolute negari potest.
+          <lb ed="#P" n="49"/>Quanquam potest aequivocatio aliter explicari:
+          <lb ed="#P" n="50"/>nam contingens sumi potest ut oppositum 
+          ne<lb break="no" ed="#P" n="51"/>cessario, vel ut oppositum immutabili, seu
+          <lb ed="#P" n="52"/>inimpedibih (ut sic dicam). Priori modo 
+          fal<lb break="no" ed="#P" n="53"/>sum est antecedens, quia ille effectus hic et
+          <lb ed="#P" n="54"/>nunc, et omnibus pensatis, necessarius est,
+          <lb ed="#P" n="55"/>etiamsi non habeat absolutam necessitatem ab
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>intrinseco, ut sic dicam, nec ex una tantum
+          <lb ed="#P" n="57"/>causa, sed ex illa cum talibus circumstantiis
+          <lb ed="#P" n="58"/>considerata, et ad agendum sine impedimento
+          <lb ed="#P" n="59"/>applicata. Posteriori modo potest admitti 
+          an<lb break="no" ed="#P" n="60"/>tecedens, quia ille effectus ex natura sua 
+          im<lb break="no" ed="#P" n="61"/>pedibilis est, et posset non esse, quia posset
+          <lb ed="#P" n="62"/>impediri: sic autem negaturultima 
+          consequen<lb break="no" ed="#P" n="63"/>tia, quia nihilominus ex cognitione aliarum
+          <lb ed="#P" n="64"/>causarum potest certo cognosci non fore 
+          im<lb break="no" ed="#P" n="65"/>pediendum, et ideo etiam certo cognosci 
+          po<lb break="no" ed="#P" n="66"/>test, esse futurum.
+        </p>
+        <p xml:id="szdada-x03607-d1e824">
+          <lb ed="#P" n="67"/>9. Ad secundum. — Ad secundum dato 
+          an<lb break="no" ed="#P" n="68"/>tecedenti, negatur consequentia, quia potest
+          <lb ed="#P" n="69"/>effectus esse per accidens, et nihilominus ex
+          <lb ed="#P" n="70"/>necesssitate evenire, quia concursus ille 
+          cau<lb break="no" ed="#P" n="71"/>sarum supposito ordine universi, et causarum
+          <lb ed="#P" n="72"/>ejus, necessario evenit. Unde sicut illa 
+          neces<lb break="no" ed="#P" n="73"/>sitas non provenit ab una causa. sed a duabus,
+          <lb ed="#P" n="74"/>vel pluribus, ita effectus non in una tantum,
+          <lb ed="#P" n="75"/>sed in omnibus simul cognoscitur. Nam licet
+          <lb ed="#P" n="76"/>casu contingat ut corpus ignitum cadens in
+          <lb ed="#P" n="77"/>terram, materiam combustibilem inveniat,
+          <lb ed="#P" n="78"/>et illam comburat, (quod est exemplum 
+          Ri<lb break="no" ed="#P" n="79"/>chardi, et aliorum) nihilominus suppositis
+          <lb ed="#P" n="80"/>causis naturalibus, quae tali tempore, et loco
+          <lb ed="#P" n="81"/>materiam illam generarunt, et quae corpus 
+          il<lb break="no" ed="#P" n="82"/>lui in aere incenderunt, et in eodem tempore
+          <lb ed="#P" n="83"/>loco moverunt, necessario sequitur ille 
+          con<lb break="no" ed="#P" n="84"/>cursus, et effectus, qui ex illo per accidens
+          <lb ed="#P" n="85"/>sequitur, ergo qui omnes illas causas 
+          co<lb break="no" ed="#P" n="86"/>gnoverit, potest certo cognoscere illum 
+          ef<lb break="no" ed="#P" n="87"/>fectum. Et ita non repugnat effectum esse 
+          ca<lb break="no" ed="#P" n="88"/>sualem, et necessario evenire, quia, ut 
+          effec<lb break="no" ed="#P" n="89"/>tus sit necessarius, non oportet, ut sit per se
+          <lb ed="#P" n="90"/>intentus, haec enim valde distincta sunt. Unde
+          <lb ed="#P" n="91"/>frustra contendit Bannez supra, eo ipso quod
+          <lb ed="#P" n="92"/>Angelus evidenter scit, effectum non fore 
+          im<lb break="no" ed="#P" n="93"/>pediendum, non posse effectum dici causalem
+          <lb ed="#P" n="94"/>aut contingentem respectu Angeli. Falsum 
+          e<lb break="no" ed="#P" n="95"/>nim hoc est, tum quia effectus non dicitur
+          <lb ed="#P" n="96"/>contingens respectu cognitionis Angeli, vel 
+          al<lb break="no" ed="#P" n="97"/>terius, sed respectu causae, ut ex D. Thoma
+          <lb ed="#P" n="98"/>declaratum est: et similiter non dicitur 
+          casua<lb break="no" ed="#P" n="99"/>le, respectu cognoscentis extrinseci, sed 
+          res<lb break="no" ed="#P" n="100"/>pectu intentionis agentis proximi, et ita 
+          An<lb break="no" ed="#P" n="101"/>gelus simul potest cognoscere talem effectum
+          <lb ed="#P" n="102"/>eventurum, et praeter intentionem eventurum.
+        </p>
+        <p xml:id="szdada-x03607-d1e905">
+          <lb ed="#P" n="103"/>10. Ad tertium. — Rari sublunares effectus
+          <lb ed="#P" n="104"/>certo praecognosci possunt ab Angelis. — 
+          Ter<lb break="no" ed="#P" n="105"/>tium autem argumentum hypothesim, quam
+          <lb ed="#P" n="106"/>quaestio supponit, aufert et ita mutat sensum,
+          <lb ed="#P" n="107"/>et materiam controversae, et aliquid concludit,
+          <lb ed="#P" n="108"/>quod de facto regulariter verum est, non 
+          ta<lb break="no" ed="#P" n="109"/>men de possibili. Declaratur, nam in assertione
+          <lb ed="#P" n="110"/>loquimur de effectibus contingentibus, qui
+          <pb ed="#P" n="148"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel per se futuri sunt ex concursu plurium
+          <lb ed="#P" n="2"/>causarum naturalium, nulla interveniente 
+          cau<lb break="no" ed="#P" n="3"/>sa libera, quae talem concursum sit impeditura,
+          <lb ed="#P" n="4"/>vel e contrario per accidens eventuri non sunt
+          <lb ed="#P" n="5"/>propter naturalem causam impedituram sine
+          <lb ed="#P" n="6"/>interventnu causae liberae removentis 
+          impedi<lb break="no" ed="#P" n="7"/>mentum. Argumentum autem vel tollit illam
+          <lb ed="#P" n="8"/>suppositionem, vel aflirmat, illam non posse
+          <lb ed="#P" n="9"/>praecognosci ab Angelo. Primum gratis dicitur,
+          <lb ed="#P" n="10"/>quia sine dubio multi sunt concursus 
+          causa<lb break="no" ed="#P" n="11"/>rum naturalium sese impedientium, qui ex
+          <lb ed="#P" n="12"/>vi universalis ordinis causarum mundi 
+          pro<lb break="no" ed="#P" n="13"/>veniunt et per causas liberas non auferuntur.
+          <lb ed="#P" n="14"/>Et e contrario saepe contingit, naturales 
+          ef<lb break="no" ed="#P" n="15"/>fectus impedibiles non impediri, idque ex solo
+          <lb ed="#P" n="16"/>concursu naturalium causarum, provenire sine
+          <lb ed="#P" n="17"/>interventu causae liberae. Imo ex his effectibus
+          <lb ed="#P" n="18"/>aliqui tales sunt, ut cursus naturalium 
+          causa<lb break="no" ed="#P" n="19"/>rum ad eos concurrentium, vel non 
+          concur<lb break="no" ed="#P" n="20"/>rentium non possit per causas liberas creatas
+          <lb ed="#P" n="21"/>naturaliter impediri. Et tune evidenter 
+          pote<lb break="no" ed="#P" n="22"/>rit Angelus cognoscere, an talis effectus sit
+          <lb ed="#P" n="23"/>impediendus, necne et an talis concursus 
+          cau<lb break="no" ed="#P" n="24"/>sarum sit futurus, et tunc procedit prima 
+          opi<lb break="no" ed="#P" n="25"/>nio, et in his effectibus maxime habet locum
+          <lb ed="#P" n="26"/>assertio posita. Nam licet causa prima possit
+          <lb ed="#P" n="27"/>hos causarum occursus mutare, vel impedire,
+          <lb ed="#P" n="28"/>semper in hac cognitione supponitur excepta
+          <lb ed="#P" n="29"/>libertas primae causae et subintellecta conditio,
+          <lb ed="#P" n="30"/>si ipsa rerum cursum non immutaverit, vel
+          <lb ed="#P" n="31"/>suum concursum non negaverit, haec enim
+          <lb ed="#P" n="32"/>conditio in omni scientia futurorum 
+          quantum<lb break="no" ed="#P" n="33"/>vis certa, etiam de effectibus simpliciter 
+          neces<lb break="no" ed="#P" n="34"/>sariis subintelligenda est. Alii vero sunt 
+          effec<lb break="no" ed="#P" n="35"/>tus et concursus causarum impedibiles per
+          <lb ed="#P" n="36"/>Angelos bonos, vel maios libere moventes 
+          cau<lb break="no" ed="#P" n="37"/>sas corporales, atque illas applicantes, aut 
+          re<lb break="no" ed="#P" n="38"/>moventes. Et tunc fateor non posse naturaliter
+          <lb ed="#P" n="39"/>certo cognosci, an ex illo capite effectus 
+          se<lb break="no" ed="#P" n="40"/>quatur, necne. Quod non est contra 
+          assertio<lb break="no" ed="#P" n="41"/>nem, vel priorem opinionem, quae supponit
+          <lb ed="#P" n="42"/>cursum causarum naturalium, quem causae 
+          li<lb break="no" ed="#P" n="43"/>berae creatae mutare non possint. Unde quia
+          <lb ed="#P" n="44"/>fortasse rari sunt isti effectus sublunares et
+          <lb ed="#P" n="45"/>particulares, qui aliquo modo a causis liberis
+          <lb ed="#P" n="46"/>dependere non possint, ideo regulariter verum
+          <lb ed="#P" n="47"/>est, tales effectus non cognosci certo ab 
+          Ange<lb break="no" ed="#P" n="48"/>lis naturali cognitione, ut, verbi gratia, a 
+          daemo<lb break="no" ed="#P" n="49"/>nibus, nisi subintellecta et applicata illa 
+          con<lb break="no" ed="#P" n="50"/>ditione, nisi Deus aliud disposuerit, vel 
+          per<lb break="no" ed="#P" n="51"/>miserit ab aliqua causa creata libera fieri, vel
+          <lb ed="#P" n="52"/>impediri. Et ita in re sic explicata nulla (ut
+          <lb ed="#P" n="53"/>dixi) potest esse dissensio.
+        </p>
+        <p xml:id="szdada-x03607-d1e1044">
+          <lb ed="#P" n="54"/>11. A« locum ex Sapientia in eodem numero
+          <lb ed="#P" n="55"/>seat. — Ad testimonium Sapientis responde-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mus, ibi non esse sermonem de sola sapientia
+          <lb ed="#P" n="57"/>increata, neque illam cognitionem ei ut 
+          pro<lb break="no" ed="#P" n="58"/>priam et singularem tribui, sed extendi ad
+          <lb ed="#P" n="59"/>creati licet humanam et ibi etiam illam 
+          sapien<lb break="no" ed="#P" n="60"/>tiam commendari, quam homo in hac vita 
+          in<lb break="no" ed="#P" n="61"/>quirere et suo labore cum gratiae adjutorio
+          <lb ed="#P" n="62"/>comparare potest. Cujus evidens argumentum
+          <lb ed="#P" n="63"/>est, quia de illa sapientia dicit, quod scit 
+          pre<lb break="no" ed="#P" n="64"/>terita et de futuris estimat, scit versutias 
+          ser<lb break="no" ed="#P" n="65"/>mowwun et dissolutiones argumentorum, etc.
+          <lb ed="#P" n="66"/>Quare ex illo loco non colligitur, quod illa 
+          sa<lb break="no" ed="#P" n="67"/>pientia certam et infallibilem cognitionem 
+          fu<lb break="no" ed="#P" n="68"/>turorum eventuum, vel monstrorum 
+          assequa<lb break="no" ed="#P" n="69"/>tur, sed cum partitione accommoda: nam
+          <lb ed="#P" n="70"/>abstracte loquendo de sapientia, illa omnia
+          <lb ed="#P" n="71"/>scit, aliter vero divina, ahter angelica, aliter
+          <lb ed="#P" n="72"/>humana, unaquaeque juxta modum suum,
+          <lb ed="#P" n="73"/>quem modum Sapiens non declarat. Loquendo
+          <lb ed="#P" n="74"/>autem de humana solum ea scit per 
+          conjectu<lb break="no" ed="#P" n="75"/>ram et prudentem aestimationem, angelica vero
+          <lb ed="#P" n="76"/>perfectiori modo, ut partim jam dictum est et
+          <lb ed="#P" n="77"/>ex parte superest dicendum.
+        </p>
+        <p xml:id="szdada-x03607-d1e1101">
+          <lb ed="#P" n="78"/>12. Tertia conclusio. — Futura libera non
+          <lb ed="#P" n="79"/>posse naturaliter praecognosci ab Angelo, est de
+          <lb ed="#P" n="80"/>fide. — Tertio statuendum est, non posse 
+          An<lb break="no" ed="#P" n="81"/>gelum futura contingentia, quae a libero 
+          arbi<lb break="no" ed="#P" n="82"/>trio pendent, in suis causis certa scientia 
+          prae<lb break="no" ed="#P" n="83"/>cognoscere virtute na:urali. Ita enim loquimur,
+          <lb ed="#P" n="84"/>nam cognitione supernaturali, vel per 
+          visio<lb break="no" ed="#P" n="85"/>nem Dei claram, vel revelationem extra 
+          ver<lb break="no" ed="#P" n="86"/>bum, certum est, posse praecognosci, ut aliis
+          <lb ed="#P" n="87"/>locis tractatum est. Sic ergo conclusio est de
+          <lb ed="#P" n="88"/>fide ex omnium theologorum sententia, quia
+          <lb ed="#P" n="89"/>in Scriptura invenitur expressa. Nam cognitio
+          <lb ed="#P" n="90"/>futurorum certa, divinitatis signum esse 
+          dici<lb break="no" ed="#P" n="91"/>tur Isai. 441: Annuntiate, quae ventura sunt in
+          <lb ed="#P" n="92"/>futurum et sciemus, quia di estis vos, ergo
+          <lb ed="#P" n="93"/>supponitur esse proprium DEI haec futura 
+          prae<lb break="no" ed="#P" n="94"/>cognoscere. Unde cap. 46, per eumdem 
+          Pro<lb break="no" ed="#P" n="95"/>phetam Deus dicit: Ego sum Deus et non est
+          <lb ed="#P" n="96"/>ultra Deus, nec est similis mei, annuntians ab
+          <lb ed="#P" n="97"/>erordio novissimun et ab initio que nondwum
+          <lb ed="#P" n="98"/>facta sunt, dicens: Consilium meun stalnt et
+          <lb ed="#P" n="99"/>omnis voluntas mea fiet. Confirmatur hoc ex
+          <lb ed="#P" n="100"/>Daniele, cap. 3, ubi tanquam proprium et 
+          sin<lb break="no" ed="#P" n="101"/>gulare de Deo dicitur: 7pse revelat profunda
+          <lb ed="#P" n="102"/>et abscondita, et novit in tenebris constituta. Et
+          <lb ed="#P" n="103"/>infra: Est Deus in celo revelans mysterium,
+          <lb ed="#P" n="104"/>ubi Hieronymus: Frustra ab hominibus 
+          quee<lb break="no" ed="#P" n="105"/>ris in terra, quod solus Deus novit in celis, eic.
+          <lb ed="#P" n="106"/>Et hinc prophetia, per quam haec futura 
+          prae<lb break="no" ed="#P" n="107"/>dicuntur, est signum certissimum, imo et 
+          evi<lb break="no" ed="#P" n="108"/>dens diyinae veritatis et revelationis, ut ex 1,
+          <lb ed="#P" n="109"/>Corinth. 14, sumitur: non esset autem 
+          sufti<lb break="no" ed="#P" n="110"/>ciens signum divinae veritatis, nisi solus Deus
+          <pb ed="#P" n="149"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>posset illa futura cognoscere, ut recte docuit
+          <lb ed="#P" n="2"/>Origenes, lib. 6, contra Celsum, Chrysostomus,
+          <lb ed="#P" n="3"/>homil. 32, in 1, ad Corinth., et D. Thomas, 3,
+          <lb ed="#P" n="4"/>contra Gentes, cap. 154, et sumitur ex illo 2,
+          <lb ed="#P" n="5"/>Petr. 2: Habemus firmiorem propheticum 
+          ser<lb break="no" ed="#P" n="6"/>monem.
+        </p>
+        <p xml:id="szdada-x03607-d1e1192">
+          <lb ed="#P" n="7"/>13. Opponitur ratio contra citata testimonia.
+          <lb ed="#P" n="8"/>— Posset autem quis respondere, non posse
+          <lb ed="#P" n="9"/>quidem creaturam certo cognoscere haec futura
+          <lb ed="#P" n="10"/>in omnibus causis suis, quatenus in eis divina
+          <lb ed="#P" n="11"/>voluntas comprehenditur, a qua etiam haec 
+          fu<lb break="no" ed="#P" n="12"/>tura pendent, quia nisi volente, vel permittente
+          <lb ed="#P" n="13"/>Deo, non evenient, unde quia creatura non
+          <lb ed="#P" n="14"/>potest scire divinam deliberationem ac 
+          volun<lb break="no" ed="#P" n="15"/>tatem, ideo non posse certo praescire haec 
+          fu<lb break="no" ed="#P" n="16"/>tura. Et consequenter praedictionem certam
+          <lb ed="#P" n="17"/>futurorum esse signum divinitatis, in quantum
+          <lb ed="#P" n="18"/>sola divinitas habet in manu, et voluntate sua
+          <lb ed="#P" n="19"/>omnem causam secundam, ut illam vel 
+          impe<lb break="no" ed="#P" n="20"/>diat, vel efficaciter ad agendum inclinet. Et
+          <lb ed="#P" n="21"/>hunc sensum indicant illa ultima verba Isaise,
+          <lb ed="#P" n="22"/>dicentis, consilium aneum stabit, et omnis 
+          vo<lb break="no" ed="#P" n="23"/>luntas mea. fiet, quasi dixerit Deus, ideo ego
+          <lb ed="#P" n="24"/>solus possum certo praedicere futura, quia a
+          <lb ed="#P" n="25"/>meo consilio et a mea voluntate omnia futura
+          <lb ed="#P" n="26"/>pendent. Ergo non erit contra haec testimonia,
+          <lb ed="#P" n="27"/>nec contra fidem dicere, posse Angelum 
+          cer<lb break="no" ed="#P" n="28"/>tam cognitionem habere etiam iliorum 
+          futu<lb break="no" ed="#P" n="29"/>rorum, quae pendent a libero arbitrio, 
+          dum<lb break="no" ed="#P" n="30"/>modo subintelligatur excepta divina voluntas
+          <lb ed="#P" n="31"/>et potestas, sicut de futuris a causis 
+          naturali<lb break="no" ed="#P" n="32"/>bus dicebamus, non ita praecognosci absoluta
+          <lb ed="#P" n="33"/>certitudine, quin subintelligenda semper sit
+          <lb ed="#P" n="34"/>conditio, nisi Deus aliter disposuerit. Et potest
+          <lb ed="#P" n="35"/>hoc confirmari, quia illa testimonia non 
+          lo<lb break="no" ed="#P" n="36"/>quuntur specialiter de futuris dependentibus
+          <lb ed="#P" n="37"/>a causa creata libera, sed simpliciter de 
+          futu<lb break="no" ed="#P" n="38"/>ris, quatenus omnia pendent a causa libera
+          <lb ed="#P" n="39"/>increata. :
+        </p>
+        <p xml:id="szdada-x03607-d1e1267">
+          <lb ed="#P" n="40"/>14. Item Isaiae locus opponitur. — Et auget
+          <lb ed="#P" n="41"/>difficultatem, quia in priori loco Isaiae, 
+          praete<lb break="no" ed="#P" n="42"/>rita conjunguntur futuris, dicitur enim: 
+          Prio<lb break="no" ed="#P" n="43"/>ra, quc fuerunt, nuntiate, et ponemus cor 
+          nos<lb break="no" ed="#P" n="44"/>trum. Unde Cyrillus ex illo loco solum 
+          colli<lb break="no" ed="#P" n="45"/>git, diviue glorie proprium, ac peculiare esse,
+          <lb ed="#P" n="46"/>omnia scire, nilil prorsus ignorare neque 
+          prae<lb break="no" ed="#P" n="47"/>teritorum, neque instantium, neque futurorum
+          <lb ed="#P" n="48"/>Hieronymus autem sic exponit: Fit 
+          apostro<lb break="no" ed="#P" n="49"/>pha ad ipsa idola, que insensibilia sunt et nec
+          <lb ed="#P" n="50"/>audiendi, nec respondendi possident facultatem.
+          <lb ed="#P" n="51"/>Dicite, inquit, nobis cel preeterita, vel futura
+          <lb ed="#P" n="52"/>et ex rerum eventibus vestram potentiam 
+          de<lb break="no" ed="#P" n="53"/>monstratc. Ergo non arguuntur ibi idola ex eo,
+          <lb ed="#P" n="54"/>quod non potuerunt futura pendentia libero
+          <lb ed="#P" n="55"/>arbitrio cognoscere, sed ex eo, quod insensi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bilia sint, et nec praeterita, nec futura 
+          nun<lb break="no" ed="#P" n="57"/>tiare possint. Item ex eo quod adeo 
+          impoten<lb break="no" ed="#P" n="58"/>tia sint, ut nec abolitionem suam praesentire
+          <lb ed="#P" n="59"/>potuerint: unde colligitur, multo minus posse
+          <lb ed="#P" n="60"/>mala aliena praedicere, utique quia non sunt
+          <lb ed="#P" n="61"/>ipsi sicut Deus, a cujus voluntate haec pendent.
+          <lb ed="#P" n="62"/>Sic etiam in altero loco Hieronymus expontt:
+          <lb ed="#P" n="63"/>Considerate, quod preter me nulius sit Deus,
+          <lb ed="#P" n="64"/>nec alius potuerit scire veutura, nisi ego, qui
+          <lb ed="#P" n="65"/>per Prophetas nuntio, que facturus sum, ut
+          <lb ed="#P" n="66"/>cum predicta complevero, divinatione probem
+          <lb ed="#P" n="67"/>divinitatem. Unde confirmatur difficultas, quia
+          <lb ed="#P" n="68"/>hoc modo Angelus non solum non potest 
+          cer<lb break="no" ed="#P" n="69"/>to scire, aut praedicare, quae ab alterius libera
+          <lb ed="#P" n="70"/>voluntate pendent, verum etiam nec quae a sua
+          <lb ed="#P" n="71"/>pendent voluntate, quia licet nunc cum 
+          praedi<lb break="no" ed="#P" n="72"/>cit, quid sit facturus, habeat animum faciendi,
+          <lb ed="#P" n="73"/>postea a Deo impediri potest et mutari, ne 
+          fa<lb break="no" ed="#P" n="74"/>ciat: Deus autem infallibiliter nuntiat, quia ea
+          <lb ed="#P" n="75"/>nuntiat, quae vel perse, vel peralios facturus est,
+          <lb ed="#P" n="76"/>vel saltem quae ipso permittente infallibiliter
+          <lb ed="#P" n="77"/>fient et non permittente, non fient. Ergo ex vi
+          <lb ed="#P" n="78"/>horum testimoniorum futura sunt incognita ,
+          <lb ed="#P" n="79"/>vel incerta Angelis, qua etiam a voluntate Dei
+          <lb ed="#P" n="80"/>pendent, non quatenus pendent qualibet alia
+          <lb ed="#P" n="81"/>libera voluntate. Et ob hanc rationem 
+          Cyril<lb break="no" ed="#P" n="82"/>Ius Alexandrinus explicans, cap. 46, lsaiae
+          <lb ed="#P" n="83"/>dixit, inde Deum se verum, et natura Deum
+          <lb ed="#P" n="84"/>demonstrare, quia omne consilium suum stat,
+          <lb ed="#P" n="85"/>et nemo illud impedire potest, et ideo 
+          infalh<lb break="no" ed="#P" n="86"/>biliter impletur, quando ab ipso praedicitur.
+        </p>
+        <p xml:id="szdada-x03607-d1e1374">
+          <lb ed="#P" n="87"/>15. Danielis quoque locus objicitur. — 
+          De<lb break="no" ed="#P" n="88"/>nique hoc confirmat locus ille Danielis, ubi
+          <lb ed="#P" n="89"/>Daniel accepta divina somnii revelatione et
+          <lb ed="#P" n="90"/>interpretatione ait: S'it nomen Domini 
+          bene<lb break="no" ed="#P" n="91"/>dictum, quia sapientia et fortitudo cjus sunt,
+          <lb ed="#P" n="92"/>ubi non sine causa fortitudinem sapientiae 
+          con<lb break="no" ed="#P" n="93"/>jungit, sed ut indicet, ideo solum Deum 
+          po<lb break="no" ed="#P" n="94"/>tuisse illud mysterium nosse, quia solus 
+          po<lb break="no" ed="#P" n="95"/>tens erat facere. Unde subjungit: /pse mutat
+          <lb ed="#P" n="96"/>tempora et eetates, transfert regna, atque 
+          cons<lb break="no" ed="#P" n="97"/>tituit, veluti declarans fundamentum, ex quo
+          <lb ed="#P" n="98"/>nascitur, ut solus etiam ipse talia :utura certo
+          <lb ed="#P" n="99"/>scire et revelare possit. Atque eodem modo
+          <lb ed="#P" n="100"/>prophetia infallibilis est signum certum 
+          divi<lb break="no" ed="#P" n="101"/>nitatis, quia quod praedicit divinitas, potens
+          <lb ed="#P" n="102"/>est et facere, sicut Hieronymus supra citatus
+          <lb ed="#P" n="103"/>ex posuit, dicens: ideo solius Dei potest esse vera
+          <lb ed="#P" n="104"/>prophetia, quia per Prophetas nuntiat, quee
+          <lb ed="#P" n="105"/>facturus est. Ergo ex his locis non potest 
+          pro<lb break="no" ed="#P" n="106"/>bari de fide, futura libera esse ignota Angelis,
+          <lb ed="#P" n="107"/>quatenus a voluntatibus pendent, sed solum
+          <lb ed="#P" n="108"/>quatenus pendent a divina. Unde Origenes,
+          <lb ed="#P" n="109"/>hom. 5, in Josue, in fine, dicit, inutile esse,
+          <lb ed="#P" n="110"/>curiose inquirere, quae futura sunt: Queecun.-
+          <pb ed="#P" n="150"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>que enim Deus vult, leec futura sunt. Et lib. 1,
+          <lb ed="#P" n="2"/>contr. Celsum, post medium, ideo dicit requiri
+          <lb ed="#P" n="3"/>spiritum ad praesciendum futura, quia 
+          volun<lb break="no" ed="#P" n="4"/>tate Dei sunt futura. Unde in eodem sensu 
+          di<lb break="no" ed="#P" n="5"/>cit, lib. 6, circa principium, divini sermonis
+          <lb ed="#P" n="6"/>characterem esse futurorum praedictionem. 
+          Si<lb break="no" ed="#P" n="7"/>mili modo Justinus in responsionibus ad 
+          quaes<lb break="no" ed="#P" n="8"/>tion. Christian. in 2, quae est de his futuris,
+          <lb ed="#P" n="9"/>ut de victoria futura- in bello, urbium 
+          ever<lb break="no" ed="#P" n="10"/>sione, etc., sic inchoat responsum: Ejusdem
+          <lb ed="#P" n="11"/>Dei sunt omnia et verborum praedictio et eorum
+          <lb ed="#P" n="12"/>eventus, qui per Prophetas, et Apostolos ante
+          <lb ed="#P" n="13"/>prenuntiavit, quae facturus esset. Et ex hoc
+          <lb ed="#P" n="14"/>principio colligit, sola oracula divina esse 
+          cer<lb break="no" ed="#P" n="15"/>ta, reliqua incerta et tunc evenire, quando
+          <lb ed="#P" n="16"/>DEUS vult, vel permittit. Quod latius in quaest.
+          <lb ed="#P" n="17"/>ult. repetit. Unde sentire videtur, totam 
+          in<lb break="no" ed="#P" n="18"/>certitudinem futurorum eventuum respectu
+          <lb ed="#P" n="19"/>cujuscumque intellectus creati veritate 
+          natu<lb break="no" ed="#P" n="20"/>rali operantis, inde provenire, quod ex libera
+          <lb ed="#P" n="21"/>Dei voluntate pendent. Alii vero Patres hcet
+          <lb ed="#P" n="22"/>doceant, daemones et consequenter etiam alios
+          <lb ed="#P" n="23"/>Angelos non posse virtute naturali 
+          cognos<lb break="no" ed="#P" n="24"/>cere futura contingentia, non declarant, an
+          <lb ed="#P" n="25"/>id proveniat: ex eo quod divinam 
+          volunta<lb break="no" ed="#P" n="26"/>tem ignorant, vel aliunde, ut videre licet in
+          <lb ed="#P" n="27"/>Eusebio, lib. 5, de praeparat. Evangel., cap. 10,
+          <lb ed="#P" n="28"/>et Damasceno, lib. 2, de Fide, cap. 4, et aliis
+          <lb ed="#P" n="29"/>infra referendis.
+        </p>
+        <p xml:id="szdada-x03607-d1e1496">
+          <lb ed="#P" n="30"/>16. Probatur nihilominus ulterius conclusio
+          <lb ed="#P" n="31"/>non obstantibus, quae procime sunt opposita.—
+          <lb ed="#P" n="32"/>Sed licet verum sit, haec futura ut 
+          cognoscibi<lb break="no" ed="#P" n="33"/>lia in causis, maximam habere incertitudinem
+          <lb ed="#P" n="34"/>respectu omni intellectus creati, quia a libera
+          <lb ed="#P" n="35"/>Dei voluntate pendent, nihilominus etiam est
+          <lb ed="#P" n="36"/>certissimum, ac de fide, talia futura non posse
+          <lb ed="#P" n="37"/>ab Angelis in sua proxima causa certo 
+          cognos<lb break="no" ed="#P" n="38"/>ci. Probatur primo ex similitudine rationis,
+          <lb ed="#P" n="39"/>quia ratio, ob quam in divina voluntate non
+          <lb ed="#P" n="40"/>potest Angelus cognoscere futura, bipartita est,
+          <lb ed="#P" n="41"/>quatenus voluntas divina dupliciter 
+          considera<lb break="no" ed="#P" n="42"/>ri potest, scilicet vel quasi in actu primo, ut
+          <lb ed="#P" n="43"/>apta est ad volendum, vel in actu secundo, id
+          <lb ed="#P" n="44"/>est, ut jam volens. Priori ergo modo non 
+          po<lb break="no" ed="#P" n="45"/>test in voluntate divina cognosci futurus 
+          effec<lb break="no" ed="#P" n="46"/>tus, quia de se indifferens, ac indeterminata
+          <lb ed="#P" n="47"/>est, et in causa indeterminata nihil 
+          determina<lb break="no" ed="#P" n="48"/>tum potest cognosci. Quae ratio etiam probat,
+          <lb ed="#P" n="49"/>Deum ipsum in seipso, seu in sua voluntate
+          <lb ed="#P" n="50"/>sic spectata non posse cognoscere futura. 
+          Pos<lb break="no" ed="#P" n="51"/>teriori autem modo potest Deus cognoscere 
+          fu<lb break="no" ed="#P" n="52"/>tura, quae absolute vult, quia jam ipsa 
+          volun<lb break="no" ed="#P" n="53"/>tas in actu non cognoscitur ut futura, sed 
+          prae<lb break="no" ed="#P" n="54"/>sens, et cum illa habere potest effectus futurus
+          <lb ed="#P" n="55"/>infalllibilem connexionem: at vero Angelus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non potest virtute naturali hanc Dei 
+          volunta<lb break="no" ed="#P" n="57"/>tem certo cognoscere, et ideo nec potest in illa
+          <lb ed="#P" n="58"/>voluntate cognoscere futura. Porro autem haec
+          <lb ed="#P" n="59"/>ratio aeque probat de cognitione futuri 
+          effec<lb break="no" ed="#P" n="60"/>tus in causa libera creata, seu proxima. Quia
+          <lb ed="#P" n="61"/>eisdem duobus modis spectari potest, et priori
+          <lb ed="#P" n="62"/>modo spectata, ut potentia nondum eliciens
+          <lb ed="#P" n="63"/>suum actum etiam cum omnibus requisitis ad
+          <lb ed="#P" n="64"/>agendum applicata, est causa indifferens, et
+          <lb ed="#P" n="65"/>ad agendum indeterminata, ergo in illa, ut
+          <lb ed="#P" n="66"/>sic, nihil determinatum potest cognosci. Quae
+          <lb ed="#P" n="67"/>ratio non solum de Angelo, sed etiam de Deo
+          <lb ed="#P" n="68"/>probat quoad cognitionem certam in causa,
+          <lb ed="#P" n="69"/>ut alibi a nobis monstratum est. Posteriori 
+          au<lb break="no" ed="#P" n="70"/>tem modo considerata voluntate creata, ut est
+          <lb ed="#P" n="71"/>sub actu suo, in hoc maxime differt a 
+          volun<lb break="no" ed="#P" n="72"/>tate divina, quod divina non habet actum de
+          <lb ed="#P" n="73"/>novo, nec in futurum aliquid volet, quod non
+          <lb ed="#P" n="74"/>semper, et ab aeterno voluerit, quia non 
+          ha<lb break="no" ed="#P" n="75"/>bet temporalem determinationem sed 
+          aeter<lb break="no" ed="#P" n="76"/>nam: voluntas autem creata prius caret actu,
+          <lb ed="#P" n="77"/>et postea illum habet, et quem nunc habet,
+          <lb ed="#P" n="78"/>postea mutat.
+        </p>
+        <p xml:id="szdada-x03607-d1e1607">
+          <lb ed="#P" n="79"/>17. Praedicta probatio progreditur. — Unde
+          <lb ed="#P" n="80"/>si actus ille consideretur antequam fiat (sub
+          <lb ed="#P" n="81"/>qua ratione est vere futurus) cognosci non
+          <lb ed="#P" n="82"/>potest in ipsa potentia, quod sit certo futurus
+          <lb ed="#P" n="83"/>propter rationem dictam, quod causa est 
+          in<lb break="no" ed="#P" n="84"/>differens: si autem ille actus jam supponitur
+          <lb ed="#P" n="85"/>factus, jam non cognoscetur futurus, sed 
+          prae<lb break="no" ed="#P" n="86"/>sens, et consequenter non in causa, sed in se.
+          <lb ed="#P" n="87"/>Verumtamen talis actus licet sit cognitus ipsi
+          <lb ed="#P" n="88"/>volenti, alios vero latet, quia non potest 
+          An<lb break="no" ed="#P" n="89"/>gelus cogitationes liberas cognoscere, ut infra
+          <lb ed="#P" n="90"/>videbimus. Unde si loquamur de alio effectu
+          <lb ed="#P" n="91"/>externo futuro ex vi talis actus, etiam ille non
+          <lb ed="#P" n="92"/>potest cognosci, ut futurus est, quia vel ille
+          <lb ed="#P" n="93"/>eftectus est simul cum ipso actu voluntatis a
+          <lb ed="#P" n="94"/>quo manat, et sic jam cognoscitur, ut praesens,
+          <lb ed="#P" n="95"/>et non cognoscetur ab aliis in causa sua, id
+          <lb ed="#P" n="96"/>est, in actu voluntatis, sed potius e contrario
+          <lb ed="#P" n="97"/>in exteriori actu et per ipsum tanquam per
+          <lb ed="#P" n="98"/>exteriorem effectum interior voluntas 
+          cognos<lb break="no" ed="#P" n="99"/>cetur. Si autem ille effectus non est simul cum
+          <lb ed="#P" n="100"/>actu interiori voluntatis, sed postea futurus est,
+          <lb ed="#P" n="101"/>sic duplici de causa non poterit ab aliis 
+          An<lb break="no" ed="#P" n="102"/>gelis cognosci, scilicet, quia et non possunt
+          <lb ed="#P" n="103"/>praesentem actum alienae voluntatis cognoscere
+          <lb ed="#P" n="104"/>sua sola virtute naturali, et quia licet 
+          cognos<lb break="no" ed="#P" n="105"/>cerent praesentem actum, non possent scire,
+          <lb ed="#P" n="106"/>an in futurum durabit, vel mutabitur 
+          volun<lb break="no" ed="#P" n="107"/>tas, neutrum enim eorum in tali voluntaie,
+          <lb ed="#P" n="108"/>vel actu ejus determinatum est, et ideo nec
+          <lb ed="#P" n="109"/>effectus futurus inde pendens potest in tah
+          <lb ed="#P" n="110"/>causa cum certitudine cognosci. Unde fit, ut
+          <pb ed="#P" n="151"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nec idem Angelus de seipso certo scire possit,
+          <lb ed="#P" n="2"/>an facturus postea sit, quod se facturum postea
+          <lb ed="#P" n="3"/>proponit, quia nescit, an suum propositum
+          <lb ed="#P" n="4"/>mutabit. In quo est infinita differentia inter
+          <lb ed="#P" n="5"/>Deum et Angelum: nam Deus in suo decreto
+          <lb ed="#P" n="6"/>certissime scit futurum esse, quod decrevit,
+          <lb ed="#P" n="7"/>quia decretum Dei immutabile est. At vero
+          <lb ed="#P" n="8"/>Angelus licet nunc proponat se facturum 
+          ali<lb break="no" ed="#P" n="9"/>quid, non certo scit in illo proposito id, quod
+          <lb ed="#P" n="10"/>se facturum proposuit, tum quia potest mutare
+          <lb ed="#P" n="11"/>propositum, tum etiam quia fieri potest, ut
+          <lb ed="#P" n="12"/>Deus illum effectum impediat.
+        </p>
+        <p xml:id="szdada-x03607-d1e1709">
+          <lb ed="#P" n="13"/>18. Confirmatur primo. — Unde 
+          confirma<lb break="no" ed="#P" n="14"/>tur, quia de seipso non potest Angelus in sua
+          <lb ed="#P" n="15"/>voluntate praescire, quid sit volitura, vel 
+          fac<lb break="no" ed="#P" n="16"/>tura, solum quia libere volitura est, ergo 
+          mul<lb break="no" ed="#P" n="17"/>to minus de aliis id poterit cognoscere. Atque
+          <lb ed="#P" n="18"/>hac ratione dicunt Sancti, non potuisse malum
+          <lb ed="#P" n="19"/>Angelum virtute sua naturali peccatum suum
+          <lb ed="#P" n="20"/>praescire priusquam faceret illud, neque 
+          Ange<lb break="no" ed="#P" n="21"/>Ium bonum esse potuisse de sua perseverantia
+          <lb ed="#P" n="22"/>securum, priusquam perseverasset, nisi 
+          reve<lb break="no" ed="#P" n="23"/>latione divina, ut supposuit Augustinus, 1. 11,
+          <lb ed="#P" n="24"/>Genes. ad litter.. capit. 17, et lib. 11, de 
+          Civi<lb break="no" ed="#P" n="25"/>tat., cap. 13, et docet Anselmus, lib. de Casu
+          <lb ed="#P" n="26"/>diabol., cap. 21. Probatque optima ratione,
+          <lb ed="#P" n="27"/>quia quod potest non esse, non potest praesciri
+          <lb ed="#P" n="28"/>certa scientia, sed Angelus priusquam 
+          pecca<lb break="no" ed="#P" n="29"/>vit, potuit non peccare, ergo non potuit certo
+          <lb ed="#P" n="30"/>praescire se peccaturum. Quae ratio convincit
+          <lb ed="#P" n="31"/>de praescientia in causa, non vero de scientia
+          <lb ed="#P" n="32"/>rei in se, ut ibidem subjungit, et mox 
+          explica<lb break="no" ed="#P" n="33"/>bimus.
+        </p>
+        <p xml:id="szdada-x03607-d1e1757">
+          <lb ed="#P" n="34"/>19. Confirmatur secundo. — Praeterea 
+          indi<lb break="no" ed="#P" n="35"/>cat ibidem rationem aliam ex principio fidei
+          <lb ed="#P" n="36"/>desumptam. Nam praescientia effectus in 
+          cau<lb break="no" ed="#P" n="37"/>sa, quae in voluntate angelica, vel humana
+          <lb ed="#P" n="38"/>antecedentem necessitatem inducit, est 
+          im<lb break="no" ed="#P" n="39"/>possibilis: sed si Angelus praesciret cum 
+          certi<lb break="no" ed="#P" n="40"/>tudine etfectum futurum media voluntate 
+          an<lb break="no" ed="#P" n="41"/>gelica vel humana in ipsamet voluntate, talis
+          <lb ed="#P" n="42"/>scientia induceret, vel potius supponeret 
+          an<lb break="no" ed="#P" n="43"/>tecedentem necessitatem in tali effectu, ut est
+          <lb ed="#P" n="44"/>a tali voluntate, ergo talis scientia est 
+          impos<lb break="no" ed="#P" n="45"/>sibilis. Major patet, quia necessitas antecedens
+          <lb ed="#P" n="46"/>repugnat libero arbitrio, ut tale est, quod ab
+          <lb ed="#P" n="47"/>Anselmo ibi tanquam certum supponitur, et in
+          <lb ed="#P" n="48"/>libro de Praescientia et praedestinatione latius
+          <lb ed="#P" n="49"/>traditur, et cum illo in aliis locis a nobis 
+          de<lb break="no" ed="#P" n="50"/>claratum est. Et ex eadem doctrina minor est
+          <lb ed="#P" n="51"/>clara, quia necessitas antecedens nihil aliud
+          <lb ed="#P" n="52"/>est, quam necessitas in causa: nam scientia
+          <lb ed="#P" n="53"/>certa in causa hanc necessitatem effectus in
+          <lb ed="#P" n="54"/>causa supponit, alias non habet, unde talem
+          <lb ed="#P" n="55"/>certitudinem sumat. Tandem probatur con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sequentia, quia talis praescientia in causa
+          <lb ed="#P" n="57"/>proxima, ejus libertatem aufert, quod fidei 
+          re<lb break="no" ed="#P" n="58"/>pugnat. Est ergo de fide Angelum non posse
+          <lb ed="#P" n="59"/>certo praescire haec futura in suis causis 
+          pro<lb break="no" ed="#P" n="60"/>priis, sive cum eis conjungatur libera 
+          volun<lb break="no" ed="#P" n="61"/>tas Dei, sive per se spectentur, quia etiam in
+          <lb ed="#P" n="62"/>ordine ad tales causas isti effectus non 
+          neces<lb break="no" ed="#P" n="63"/>sario eveniunt. Neque contra hoc est ulla 
+          dif<lb break="no" ed="#P" n="64"/>ficultas, nisi quam Anselmus supra ex 
+          praes<lb break="no" ed="#P" n="65"/>cientia Dei indicat. Sed illa hic non urget, quia
+          <lb ed="#P" n="66"/>etiam de Deo fatemur, non cognoscere haec
+          <lb ed="#P" n="67"/>futura in causis suis: de alio vero genere 
+          co<lb break="no" ed="#P" n="68"/>gnitionis infra tractabitur.
+        </p>
+        <p xml:id="szdada-x03607-d1e1839">
+          <lb ed="#P" n="69"/>20. Confirmatur tertio. — Denique si futura
+          <lb ed="#P" n="70"/>haec tantum essent incerta propter 
+          dependen<lb break="no" ed="#P" n="71"/>tiam a providentia Dei et voluntate ejus libera,
+          <lb ed="#P" n="72"/>nulla esset differentia inter ea, quae a voluntate
+          <lb ed="#P" n="73"/>creata et ab aliis causis eveniunt. Consequens
+          <lb ed="#P" n="74"/>est falsum et contra fidem, quia effectus 
+          natu<lb break="no" ed="#P" n="75"/>rales simpliciter sunt necessarii, etiamsi a Deo
+          <lb ed="#P" n="76"/>pendeant, quia Deus naturali modo praebet
+          <lb ed="#P" n="77"/>suum concursum, et non nisi supernaturaliter
+          <lb ed="#P" n="78"/>illum negat, quod non tollit necessitatem et
+          <lb ed="#P" n="79"/>certitudinem naturalem: quae autem a 
+          volun<lb break="no" ed="#P" n="80"/>tate creata pendent, non habent illam 
+          neces<lb break="no" ed="#P" n="81"/>sitatem naturalem, ut ex fide constat, ergo
+          <lb ed="#P" n="82"/>neque illam certitudinem habent.
+        </p>
+        <p xml:id="szdada-x03607-d1e1872">
+          <lb ed="#P" n="83"/>21. Quarta conclusio bipartita. — Protatur
+          <lb ed="#P" n="84"/>prima pars. — Cur demones ambigue logui 
+          sc<lb break="no" ed="#P" n="85"/>leant. — Quarto dicendum est, per aliqua 
+          pro<lb break="no" ed="#P" n="86"/>babilia signa posse Angelum verisimiliter 
+          con<lb break="no" ed="#P" n="87"/>jectare futura, non tamen omnia. Utraque
+          <lb ed="#P" n="88"/>pars certa est et clara. Primam docent D. 
+          Tho<lb break="no" ed="#P" n="89"/>mas supra et omnes scholastici, et est res per
+          <lb ed="#P" n="90"/>se clara, quia etiam homines possunt haec 
+          fu<lb break="no" ed="#P" n="91"/>tura conjectare per signa, vel effectus aliquos,
+          <lb ed="#P" n="92"/>seu affectus praesentes, ergo multo magis 
+          dae<lb break="no" ed="#P" n="93"/>mones. Maxime autem solent daemones uti hoc
+          <lb ed="#P" n="94"/>genere cognitionis ad decipiendos homines. Et
+          <lb ed="#P" n="95"/>ideo hanc cognitionem tribuit malis angelis
+          <lb ed="#P" n="96"/>Augustinus, lib. 4, de Trinitate, cap. 17, et
+          <lb ed="#P" n="97"/>eam removet a bonis Angelis, non quia 
+          im<lb break="no" ed="#P" n="98"/>possibilis, sed quia imperfecta: nam eorum,
+          <lb ed="#P" n="99"/>quae illis expedit scire, habent scientiam 
+          cer<lb break="no" ed="#P" n="100"/>tam in Verbo Dei: aliorum autem absolutum
+          <lb ed="#P" n="101"/>iudicium non proferunt, nec ea praedicunt,
+          <lb ed="#P" n="102"/>licet periculum praedicere possint. Eamdemque
+          <lb ed="#P" n="103"/>doctrinam habet Augustinus, lib. 8, de Civit.,
+          <lb ed="#P" n="104"/>a cap. 14, per multa sequentia, et lib.9,a
+          <lb ed="#P" n="105"/>principio usque ad cap. 23, et lib. 12 Genes.,
+          <lb ed="#P" n="106"/>ad litter., cap. 17, et late toto libro de Divinat.
+          <lb ed="#P" n="107"/>daemon., et lib. 2, Retract., cap. 30. Hinc 
+          dae<lb break="no" ed="#P" n="108"/>mones variis modis et astutiis utuntur ad 
+          de<lb break="no" ed="#P" n="109"/>cipiendos homines per horum futurorum 
+          prae<lb break="no" ed="#P" n="110"/>dictiones et responsa idolorum: nam anulan-
+          <pb ed="#P" n="152"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tes divinitatem, divinationem usurpant. Nam
+          <lb ed="#P" n="2"/>seepe enuntiant, quae sibi aliquibus signis sunt
+          <lb ed="#P" n="3"/>probabilia, et saepe quae in aliquo loco distanti
+          <lb ed="#P" n="4"/>jam inchoata sunt, et quodam naturali ordine
+          <lb ed="#P" n="5"/>huc sunt perventura, et seepe, quae ipsi facere
+          <lb ed="#P" n="6"/>disponunt, et ideo facile ac ssepe decipi solent
+          <lb ed="#P" n="7"/>et decipere, ac propterea ne mendaces 
+          agnos<lb break="no" ed="#P" n="8"/>cantur, seepe ambigue loquuntur, ut praeter
+          <lb ed="#P" n="9"/>Augustinum supra, notant Hieronymus, in
+          <lb ed="#P" n="10"/>c. 41, Isai., Tertullianus, in Apologet., c.22,
+          <lb ed="#P" n="11"/>et Cyprianus, lib. de Idol. vanit., Euscbius, d.
+          <lb ed="#P" n="12"/>lib. 5, de praeparat. Evang., cap. 10, et 
+          Lac<lb break="no" ed="#P" n="13"/>tantius, lib. 4, cap. 8, et lib. 2, cap. 14 et 
+          se<lb break="no" ed="#P" n="14"/>quentibus, et Justinus, in orat., ad Gen., 
+          Atha<lb break="no" ed="#P" n="15"/>nasius, lib. Quaestion, ad Antioch., quaest. 27.
+          <lb ed="#P" n="16"/>Neque negant isti Patres, aliquando posse 
+          dae<lb break="no" ed="#P" n="17"/>mones futura certo cognoscere, physica (ut ita
+          <lb ed="#P" n="18"/>dicam) certitudine, quando scilicet, ex causis
+          <lb ed="#P" n="19"/>naturalibus tantum eveniunt, sed dicunt, 
+          or<lb break="no" ed="#P" n="20"/>dinarie eorum cognitionem esse incertam, quia
+          <lb ed="#P" n="21"/>etiam ea, quae naturalia esse videntur, possunt
+          <lb ed="#P" n="22"/>divina providentia, vel per sanctorum 
+          Ange<lb break="no" ed="#P" n="23"/>lorum operationes impediri, ideoque cum 
+          dae<lb break="no" ed="#P" n="24"/>mones illa praedicunt tanquam omnino certa et
+          <lb ed="#P" n="25"/>per divinitatem cognita et praevisa, semper
+          <lb ed="#P" n="26"/>mentiuntur et ssepe inrebus ipsis decipiuntur,
+          <lb ed="#P" n="27"/>et decipiunt. Docet tandem Augustinus 
+          inter<lb break="no" ed="#P" n="28"/>dum daemones scire cum certitudine futura
+          <lb ed="#P" n="29"/>etiam libera per revelationem sanctorum 
+          An<lb break="no" ed="#P" n="30"/>gelorum, Deo id ita disponente propter 
+          occul<lb break="no" ed="#P" n="31"/>tas suae providentiae rationes: de qua re in
+          <lb ed="#P" n="32"/>libro quarto sermo redibit.
+        </p>
+        <p xml:id="szdada-x03607-d1e2009">
+          <lb ed="#P" n="33"/>22. Probatur secunda pars. — Angeli suum
+          <lb ed="#P" n="34"/>casum non praecognoverunt. — Bddidi autem in
+          <lb ed="#P" n="35"/>secunda parte assertionis, aliqua esse futura,
+          <lb ed="#P" n="36"/>quae nec per conjecturam possunt ab Angelis
+          <lb ed="#P" n="37"/>naturaliter cognosci. Quod etiam D. Thomas et
+          <lb ed="#P" n="38"/>ahlii docent de his futuris contingentibus, quae
+          <lb ed="#P" n="39"/>raro eveniunt, vel etiam ad utrumlibet. Nam
+          <lb ed="#P" n="40"/>in contingentibus ea potius praesumi possunt
+          <lb ed="#P" n="41"/>eventura, quae frequenter conveniunt, ergo
+          <lb ed="#P" n="42"/>cum istis sint opposita ea, quae raro eveniunt,
+          <lb ed="#P" n="43"/>non poterunt haec etiam per conjecturam 
+          eo<lb break="no" ed="#P" n="44"/>gnosci. Et eadem ratione, si ex utraque parte
+          <lb ed="#P" n="45"/>equalis est contingentia, aequalia etiam erunt
+          <lb ed="#P" n="46"/>indicia vel conjecturae, ergo utraque pars erit
+          <lb ed="#P" n="47"/>eeque ignota. Atque in hunc modum dixit 
+          An<lb break="no" ed="#P" n="48"/>selmus, dicto libro de Casu diaboli, cap. 21,
+          <lb ed="#P" n="49"/>Angelos non fuisse praescios sui casus etiam per
+          <lb ed="#P" n="50"/>conjecturam seu verisimile judicium. Quod
+          <lb ed="#P" n="51"/>ipse probat ab inconvenienti, quia alias non
+          <lb ed="#P" n="52"/>posset tunc Angelus non tristari et dolere de
+          <lb ed="#P" n="53"/>suo casu futuro, etiam probabiliter tantum
+          <lb ed="#P" n="54"/>exisumato, quia cum esset tunc justus et 
+          sanc<lb break="no" ed="#P" n="55"/>tus, talis jactura esset suo proposito, ac volun-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tati valde contraria, ergo non posset non 
+          mul<lb break="no" ed="#P" n="57"/>tum illum afflfigere, quod esset contrarium illi
+          <lb ed="#P" n="58"/>statui, qui respectu Angelorum quasi 
+          innocen<lb break="no" ed="#P" n="59"/>tiae status erat. A priori autem ratio est, quia
+          <lb ed="#P" n="60"/>Angelus summa facilitate poterat non cadere,
+          <lb ed="#P" n="61"/>quia hoc asua voluntate pendebat, et ad bonum
+          <lb ed="#P" n="62"/>erat magis propensus tam inclinatione naturae,
+          <lb ed="#P" n="63"/>quam virtute gratiae, ergo non habebat, unde
+          <lb ed="#P" n="64"/>probabiliter crederet, se lapsurum, licet suam
+          <lb ed="#P" n="65"/>mutabilitatem non ignoraret. Ad hunc ergo
+          <lb ed="#P" n="66"/>modum multa alia futura prorsus ignorant.
+        </p>
+        <p xml:id="szdada-x03607-d1e2087">
+          <lb ed="#P" n="67"/>23. Moderatio proximae doctrine. — Oportet
+          <lb ed="#P" n="68"/>autem advertere, consideranda esse haec futura
+          <lb ed="#P" n="69"/>in individuo et cum particularibus 
+          circum<lb break="no" ed="#P" n="70"/>stantiis, ut in tali gradu incertitudinis, seu
+          <lb ed="#P" n="71"/>occultationis constituantur. Fieri enim potest,
+          <lb ed="#P" n="72"/>ut aliqua in communi spectata videantur 
+          con<lb break="no" ed="#P" n="73"/>tingentia ad utrumlibet, vel raro, quae in 
+          par<lb break="no" ed="#P" n="74"/>ticulari cum talibus circumstantiis verisimiliter
+          <lb ed="#P" n="75"/>conjectari possint, eventura, ut hominem 
+          stu<lb break="no" ed="#P" n="76"/>diosum, et bonis moribus et habitibus 
+          praedi<lb break="no" ed="#P" n="77"/>tum, tentatione prostrari ex suo genere, vel
+          <lb ed="#P" n="78"/>rarius, vel saltem ad utrumlibet contingens
+          <lb ed="#P" n="79"/>est: et tamen talis opportunitas, talesque 
+          cir<lb break="no" ed="#P" n="80"/>cumstantiae occurrere possunt, ut id fiat 
+          veri<lb break="no" ed="#P" n="81"/>similius. Ut ergo futurum sit occultum Angelo
+          <lb ed="#P" n="82"/>in dicto gradu, oportet, ut in particulari et
+          <lb ed="#P" n="83"/>omnibus circumstantiis inspectis, modus ille,
+          <lb ed="#P" n="84"/>seu gradus contingentiae perseveret. Sicut e
+          <lb ed="#P" n="85"/>contrario, ut possit daemon futurum 
+          verisimi<lb break="no" ed="#P" n="86"/>liter cognoscere, necessarium est, ut indicia in
+          <lb ed="#P" n="87"/>particulari jam praesentia sint: nam si illa sint
+          <lb ed="#P" n="88"/>adhuc futura, et pendeant ex arbitrio vel 
+          ho<lb break="no" ed="#P" n="89"/>minis vel Angeli, non poterit major conjectura
+          <lb ed="#P" n="90"/>ex illis sumi, quam de ipsis habeatur, et ideo
+          <lb ed="#P" n="91"/>dicunt Patres, daemones non posse futura 
+          prae<lb break="no" ed="#P" n="92"/>noscere, sed praesentia, quia tantum ex 
+          prae<lb break="no" ed="#P" n="93"/>sentibus futura aestimare possunt. Et hactenus
+          <lb ed="#P" n="94"/>de priori modo cognoscendi futura 
+          contingen<lb break="no" ed="#P" n="95"/>tia in alio, seu per medium cognitum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

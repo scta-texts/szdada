@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 11</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 11</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="413"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x10402"><!-- l3d11 -->
+        <head xml:id="szdada-x10402-Hd1e101">Caput 11</head>
+        <head xml:id="szdada-x10402-Hd1e103" type="question-title">Objectioni contra superiorem doctrinam occurritur, et quomodo angelus in pura natura potuerit esse beatus, declaratur</head>
+        <p xml:id="szdada-x10402-d1e106">
+          <lb ed="#P" n="34"/>CAPUT XI.
+          <lb ed="#P" n="35"/>OBJECTIONI CONTRA SUPERIOREM DOCTRINAM 
+          OC<lb break="no" ed="#P" n="36"/>CURRITUR, ET QUOMODO ANGELUS IN PURA NATURA
+          <lb ed="#P" n="37"/>POTUERIT ESSE BEATUS, DECLARATUR.
+        </p>
+        <p xml:id="szdada-x10402-d1e117">
+          <lb ed="#P" n="38"/>1. Proponitur objectio contra superiorem
+          <lb ed="#P" n="39"/>doctrinam.—Ex dictis in superioribus capitibus
+          <lb ed="#P" n="40"/>nascitur difficultas, quia ex illis sequitur, 
+          An<lb break="no" ed="#P" n="41"/>gelos neque in primo instanti creationis suae
+          <lb ed="#P" n="42"/>fuisse beatos, nec in pura natura esse potuisse,
+          <lb ed="#P" n="43"/>quod perfectioni angelicae naturae valde 
+          repu<lb break="no" ed="#P" n="44"/>gnare videtur. Sequela probatur. Nam dictum
+          <lb ed="#P" n="45"/>est, Angelum non necessario amare super 
+          om<lb break="no" ed="#P" n="46"/>nia Deum, ut ultimum finem suum naturalem:
+          <lb ed="#P" n="47"/>sine hoc autem amore non potest esse beatus
+          <lb ed="#P" n="48"/>Angelus, nec creatura aliqua intellectualis,
+          <lb ed="#P" n="49"/>quia non potest quiescere in illo tanquam in
+          <lb ed="#P" n="50"/>ultimo fine, nec ad illum se suaque omnia 
+          re<lb break="no" ed="#P" n="51"/>ferre, nisi illum super omnia amet: nec etiam
+          <lb ed="#P" n="52"/>potest sine amore esse delectatio in re possessa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>et consequenter neque beatitudo; ergo 
+          Ange<lb break="no" ed="#P" n="54"/>lus non est semper, ac naturaliter beatus. 
+          Un<lb break="no" ed="#P" n="55"/>de ulterius infertur nunquam esse posse 
+          natu<lb break="no" ed="#P" n="56"/>raliter beatum, quia dictum etiam est, non
+          <lb ed="#P" n="57"/>solum posse Angelum ab illo amore cessare,
+          <lb ed="#P" n="58"/>sed etiam posse ex vi suae naturae aliquid 
+          con<lb break="no" ed="#P" n="59"/>tra illum amorem admittere, graviter 
+          peccan<lb break="no" ed="#P" n="60"/>do, et consequenter aliquid supra illum 
+          dili<lb break="no" ed="#P" n="61"/>gendo. Ergo si id committat, non erit beatus,
+          <lb ed="#P" n="62"/>sed summe miser, et licet non peccet, 
+          nihil<lb break="no" ed="#P" n="63"/>ominus semper versabitur in periculo id 
+          fa<lb break="no" ed="#P" n="64"/>ciendi, et amittendi illum amorem; ergo eo
+          <lb ed="#P" n="65"/>etiam ipso non erit beatus, quia ubi non est
+          <lb ed="#P" n="66"/>certitudo perseverantiae in statu, non est 
+          bea<lb break="no" ed="#P" n="67"/>titudo. Nam beatitudo dici non potest, quae 
+          a<lb break="no" ed="#P" n="68"/>missibilis est. Et augetur haec difficultas, ex eo
+          <lb ed="#P" n="69"/>quod dictum est, Angelum ex natura sua esse
+          <lb ed="#P" n="70"/>mutabilem in electione, vel dilectione semel
+          <lb ed="#P" n="71"/>habita cum quacumque deliberatione. Nam
+          <lb ed="#P" n="72"/>hinc sequitur, Angelum in pura natura 
+          spec<lb break="no" ed="#P" n="73"/>tatum, etiamsi post se Deum amet, et 
+          natura<lb break="no" ed="#P" n="74"/>liter fruatur, nunquam esse securum, quod in
+          <lb ed="#P" n="75"/>eo statu permanebit, quia potest voluntatem
+          <lb ed="#P" n="76"/>suam retractare. Ergo nunquam esse poterit
+          <lb ed="#P" n="77"/>beatus, quia sine securitate, et inamissibilitate
+          <lb ed="#P" n="78"/>boni possessi beatitudo esse non potest. 
+          Tan<lb break="no" ed="#P" n="79"/>dem difficultatem auget, quod si Angelus 
+          se<lb break="no" ed="#P" n="80"/>mel Deum offendat, non potest naturaliter 
+          re<lb break="no" ed="#P" n="81"/>surgere, nec ei reconciliari: et consequenter
+          <lb ed="#P" n="82"/>necessario erit semper miser. Át vero cum
+          <lb ed="#P" n="83"/>semper sit mutabilis, vix fieri posset, ut 
+          diu<lb break="no" ed="#P" n="84"/>tius vivendo non interdum caderet, ergo 
+          mo<lb break="no" ed="#P" n="85"/>raliter loquendo, non solum non esset beatus,
+          <lb ed="#P" n="86"/>sed potius semper ad miseriae statum 
+          perveni<lb break="no" ed="#P" n="87"/>ret, et in eo perpetuo maneret.
+        </p>
+        <p xml:id="szdada-x10402-d1e230">
+          <lb ed="#P" n="88"/>2. Sententia dicens Angelum necessario esse
+          <lb ed="#P" n="89"/>beatum quoad substantiam beatitudine naturali.
+          <lb ed="#P" n="90"/>—lIn hoc puncto duo extrema vitanda esse 
+          cen<lb break="no" ed="#P" n="91"/>seo. Unum est eorum, qui dicunt Angelum
+          <lb ed="#P" n="92"/>necessario esse beatum beatitudine naturali,
+          <lb ed="#P" n="93"/>quia necessario Deum actu contemplatur, et
+          <lb ed="#P" n="94"/>amat, ut auctorem, et finem naturae, nec ab
+          <lb ed="#P" n="95"/>illo averti, aut rectitudinem naturalem 
+          volun<lb break="no" ed="#P" n="96"/>tatis amittere potest. Unde dupliciter Angelum
+          <lb ed="#P" n="97"/>considerant: primo, ut creatum in pura natura
+          <lb ed="#P" n="98"/>sine ordine ad supernaturalem finem: secundo,
+          <lb ed="#P" n="99"/>ut creatum, et ordinatum ad supernaturalem
+          <lb ed="#P" n="100"/>felicitatem. Priori modo conditum dicunt, non
+          <lb ed="#P" n="101"/>solum posse, sed etiam esse necessario 
+          natura<lb break="no" ed="#P" n="102"/>liter felicem, quia necessitate naturali 
+          con<lb break="no" ed="#P" n="103"/>templatur Deum, quantum naturahter potest,
+          <lb ed="#P" n="104"/>et diligit Deum naturali benevolentiae amore,
+          <lb ed="#P" n="105"/>eum ut aliquo modo amicum super omnia 
+          di<lb break="no" ed="#P" n="106"/>ligendo, a quo deficere non potest, quia 
+          con<lb break="no" ed="#P" n="107"/>tra solam naturalem rectitudinem peccare non
+          <pb ed="#P" n="414"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>potest. At vero de Angelo posteriori modo
+          <lb ed="#P" n="2"/>creato cum ordine ad supernaturalem 
+          felici<lb break="no" ed="#P" n="3"/>tatem, dicunt, etiam necessario creari in 
+          hea<lb break="no" ed="#P" n="4"/>titudine naturali, quia (ut supponunt) creatur
+          <lb ed="#P" n="5"/>sine peccato, et consequenter cum tota 
+          per<lb break="no" ed="#P" n="6"/>fectione sufficienti ad naturalem beatitudinem,
+          <lb ed="#P" n="7"/>et sine imperfectione illi repugnante, et cum
+          <lb ed="#P" n="8"/>debito ordine ad supernaturalem felicitatem.
+          <lb ed="#P" n="9"/>Si vero sit creatus peccet contra 
+          supernatura<lb break="no" ed="#P" n="10"/>lem finem, et ab illo omnino deficiat, dicunt
+          <lb ed="#P" n="11"/>nihilominus semper retinere quidquid 
+          perfec<lb break="no" ed="#P" n="12"/>tionis est in naturali beatitudine secundum se
+          <lb ed="#P" n="13"/>spectata, quia naturalia manent integra post
+          <lb ed="#P" n="14"/>peccatum; non tamen relinqui cum debita
+          <lb ed="#P" n="15"/>conjunctione, vel subordinatione ad 
+          superna<lb break="no" ed="#P" n="16"/>turalem beatitudinem, et ideo in tali statu 
+          no<lb break="no" ed="#P" n="17"/>men beatitudinis mereri. Ita sentiunt plures
+          <lb ed="#P" n="18"/>moderni Thomistae, 1 part., quaest. 56, art. 3,
+          <lb ed="#P" n="19"/>et quaest. 60, art. 5, et quaest. 62, art. 1.
+        </p>
+        <p xml:id="szdada-x10402-d1e322">
+          <lb ed="#P" n="20"/>3. Praedicta sententia ostendit falsa, tum in
+          <lb ed="#P" n="21"/>tribus, quae supponit. — Haec tamen sententia
+          <lb ed="#P" n="22"/>supponit multa, quae a nobis in superioribus
+          <lb ed="#P" n="23"/>refutata sunt, et ideo sententia ipsa placere
+          <lb ed="#P" n="24"/>non potest. Unum est, contemplationem Dei,
+          <lb ed="#P" n="25"/>quae ad naturalem beatitudinem in suo ordine
+          <lb ed="#P" n="26"/>sufficit, esse in Angelo ex natura rei 
+          necessa<lb break="no" ed="#P" n="27"/>riam quoad exercitium. Aliud est, amorem
+          <lb ed="#P" n="28"/>naturalem Dei propter seipsum, et super 
+          om<lb break="no" ed="#P" n="29"/>nia esse eodem modo necessarium. Tertium
+          <lb ed="#P" n="30"/>est, Angelum in pura natura non esse 
+          pecca<lb break="no" ed="#P" n="31"/>bilem. Nam ex his tribus consurgit beatitudo
+          <lb ed="#P" n="32"/>naturalis, vel certe (formaliter loquendo) ex
+          <lb ed="#P" n="33"/>duobus primis, quia posito amore illo 
+          neces<lb break="no" ed="#P" n="34"/>sario, tertium de rectitudine in caeteris actibus
+          <lb ed="#P" n="35"/>naturalibus necessario consequitur. Amor 
+          au<lb break="no" ed="#P" n="36"/>tem ille ad beatitudinem naturalem 
+          necessa<lb break="no" ed="#P" n="37"/>rius est, quia sine rectitudine voluntatis circa
+          <lb ed="#P" n="38"/>finem ultimum beatitudo esse non potest. Imo
+          <lb ed="#P" n="39"/>in ordine naturali amor compleret 
+          beatitudi<lb break="no" ed="#P" n="40"/>nem, tum quia cognitio sola naturalis Dei per
+          <lb ed="#P" n="41"/>se non suffhiceret ad continendam semper 
+          vo<lb break="no" ed="#P" n="42"/>luntatem in officio, rectitudinem in omnibus
+          <lb ed="#P" n="43"/>illi praebendo, nisi amore conformaretur: tum
+          <lb ed="#P" n="44"/>quia amor naturalis Dei, vel est perfectior 
+          co<lb break="no" ed="#P" n="45"/>enitione, etiam in genere entis, vel saltem ad
+          <lb ed="#P" n="46"/>omnem moralem perfectionem magis, et 
+          effi<lb break="no" ed="#P" n="47"/>cacius operatur. At vero licet haec 
+          consequen<lb break="no" ed="#P" n="48"/>ter dicantur, illa tamen, quae supponuntur,
+          <lb ed="#P" n="49"/>falsa sunt, ut in superioribus probavi.
+        </p>
+        <p xml:id="szdada-x10402-d1e390">
+          <lb ed="#P" n="50"/>4. Tum in aliis quae consequenter admittit.
+          <lb ed="#P" n="51"/>— Valde etiam falsum mihi videtur, quod 
+          con<lb break="no" ed="#P" n="52"/>sequenter conceditur, in daemonibus manere
+          <lb ed="#P" n="53"/>beatitudinem naturalem, quoad omnem 
+          posi<lb break="no" ed="#P" n="54"/>tivam perfectionem ejus. Nec quoad hoc 
+          appli<lb break="no" ed="#P" n="55"/>catur bene principium illud, quod naturalia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>manserunt integra post peccatum. Nam illud
+          <lb ed="#P" n="57"/>intelligitur quoad essentiam, et potentias, non
+          <lb ed="#P" n="58"/>quoad omnes actus naturales, id est, ordinis
+          <lb ed="#P" n="59"/>naturae, nec quoad naturalem rectitudinem,
+          <lb ed="#P" n="60"/>quae ab illis pendet. Et ita voluntas Angeli post
+          <lb ed="#P" n="61"/>peccatum adeo misera est, ut Deum ipsum
+          <lb ed="#P" n="62"/>odio habeat. Quomodo ergo possunt daemones
+          <lb ed="#P" n="63"/>odio habentes Deum, ipsum amore 
+          benevolen<lb break="no" ed="#P" n="64"/>tiae diligere super omnia ? Deinde 
+          repugnan<lb break="no" ed="#P" n="65"/>tiam involvit illa sententia, quia Angelus 
+          crea<lb break="no" ed="#P" n="66"/>tus ad finem supernaturalem non potest ab illo
+          <lb ed="#P" n="67"/>deficere, quin etiam naturalem rectitudinem
+          <lb ed="#P" n="68"/>necessario amittat, etiam quoad substantialem
+          <lb ed="#P" n="69"/>ejus perfectionem. Et hinc ulterius ab effectu
+          <lb ed="#P" n="70"/>colligitur, illum actum amoris non esse ex
+          <lb ed="#P" n="71"/>natura reisimpliciter necessarium, quia si
+          <lb ed="#P" n="72"/>amor naturalis necessarius esset, ille resisteret,
+          <lb ed="#P" n="73"/>ne voluntas aliquid sibi repugnans admitteret,
+          <lb ed="#P" n="74"/>et cum omne peccatum etiam sit contra 
+          super<lb break="no" ed="#P" n="75"/>naturalem finem, in se sit quid naturale, et
+          <lb ed="#P" n="76"/>repugnans etiam fini naturali, ex hac parte
+          <lb ed="#P" n="77"/>illi resisteret. Non est ergo in illis actibus, et
+          <lb ed="#P" n="78"/>consequenter, neque in beatitudine naturali
+          <lb ed="#P" n="79"/>Angeli tanta necessitas.
+        </p>
+        <p xml:id="szdada-x10402-d1e460">
+          <lb ed="#P" n="80"/>5. Altera sententia extrema Angelum per
+          <lb ed="#P" n="81"/>naturam esse incapacem alicujus beatitudinas
+          <lb ed="#P" n="82"/>naturalis. — Aliud extremum est, Angelum
+          <lb ed="#P" n="83"/>per naturam esse incapacem alicujus 
+          beatitu<lb break="no" ed="#P" n="84"/>dinis naturalis. Ita sentit Vasquez, 1 part.,
+          <lb ed="#P" n="85"/>disp. 2, praesertim num. 6 et 7, et praecipue
+          <lb ed="#P" n="86"/>fundatur, vel in hoc quod Angelus non potest
+          <lb ed="#P" n="87"/>diligere Deum super omnia dilectione naturali,
+          <lb ed="#P" n="88"/>et amicitiae, seu benevolentiae, per donum
+          <lb ed="#P" n="89"/>creationis sine speciali dono gratiae, vel in hoc,
+          <lb ed="#P" n="90"/>quod talis amor, quocumque modo habeatur,
+          <lb ed="#P" n="91"/>amissibilis est per peccatum, et sine 
+          inamis<lb break="no" ed="#P" n="92"/>sibilitate non potest esse vera beatitudo. Sed
+          <lb ed="#P" n="93"/>primum fundamentum falsum sumit: nam
+          <lb ed="#P" n="94"/>Angelus in pura natura conditus, et nunc
+          <lb ed="#P" n="95"/>etiam in statu, in quo creatus est, potuit Deum,
+          <lb ed="#P" n="96"/>ut suae naturae auctorem propter ipsum, et
+          <lb ed="#P" n="97"/>propter summam bonitatem suam super omnia
+          <lb ed="#P" n="98"/>diligere, ut disimus cum D. Thoma in dicta
+          <lb ed="#P" n="99"/>quaest. 60, art. 5, et latius in materia de 
+          Gra<lb break="no" ed="#P" n="100"/>tia, libro primo 1 ostendimus. Unde ex parte
+          <lb ed="#P" n="101"/>non repugnabat, Angelum in pura natura
+          <lb ed="#P" n="102"/>conditum esse per operationes ejusdem naturae
+          <lb ed="#P" n="103"/>beatum. Alterum vero 'undamentum probat,
+          <lb ed="#P" n="104"/>illam beatitudinem naturalem non fore omni
+          <lb ed="#P" n="105"/>ex parte completam, et summam, nihilominus
+          <lb ed="#P" n="106"/>tamen, non probat non posse esse veram, et
+          <lb ed="#P" n="107"/>essentialem beatitudinem in ordine suo.
+        </p>
+        <p xml:id="szdada-x10402-d1e523">
+          <lb ed="#P" n="108"/>6. Prima conclusio.— Angelus in pura 
+          na<lb break="no" ed="#P" n="109"/>tura potuit elium in naturali beatitudine creari.
+          <lb ed="#P" n="110"/>— Dico ergo primo. Angelus in pura natura
+          <pb ed="#P" n="415"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>creatus potuit etiam in naturali beatitudine
+          <lb ed="#P" n="2"/>creari. Probatur, quia creari potuit cum 
+          per<lb break="no" ed="#P" n="3"/>fecta cognitione Dei naturali, juxta cujusque
+          <lb ed="#P" n="4"/>Angeli capacitatem, et cum actuali amore 
+          be<lb break="no" ed="#P" n="5"/>nevolentiae Dei super omnia, et sine ullo
+          <lb ed="#P" n="6"/>peccato, et cum morali potestate, imo et 
+          fa<lb break="no" ed="#P" n="7"/>cilitate nunquam peccandi, ac denique cum
+          <lb ed="#P" n="8"/>magna vitae jucunditate. Sed haec sufficiunt
+          <lb ed="#P" n="9"/>ad naturalem beatitudinem; ergo. Major 
+          sa<lb break="no" ed="#P" n="10"/>tis patet ex dictis, quia Angelus naturaliter
+          <lb ed="#P" n="11"/>est capax illarum perfectionum, et cum in 
+          in<lb break="no" ed="#P" n="12"/>stanti fiant, potuerunt incipere cum natura,
+          <lb ed="#P" n="13"/>et quia non excedunt naturales vires, imo 
+          in<lb break="no" ed="#P" n="14"/>ter se sunt connexae, et una ex alia sequitur,
+          <lb ed="#P" n="15"/>potuerunt etiam esse simul, ergo potuit 
+          An<lb break="no" ed="#P" n="16"/>gelus cum illis omnibus creari. Imo licet Deus
+          <lb ed="#P" n="17"/>non cogeretur creare Angelum cum tota illa
+          <lb ed="#P" n="18"/>perfectione, ut dictum est: nihilominus id 
+          fa<lb break="no" ed="#P" n="19"/>cere esset magis consentaneum ejus 
+          magnifi<lb break="no" ed="#P" n="20"/>centiae, et sapientiae, ac bonitati, ut effectus
+          <lb ed="#P" n="21"/>juxta naturalem capacitatem suam 
+          perfectis<lb break="no" ed="#P" n="22"/>simus ab ipso prodiret. Circa minorem autem
+          <lb ed="#P" n="23"/>propositionem, quod haec perfectio ad veram
+          <lb ed="#P" n="24"/>naturalem beatitudinem suffhiceret, potest de
+          <lb ed="#P" n="25"/>modo loquendi moveri quaestio. Verumtamen,
+          <lb ed="#P" n="26"/>cum non sit in rebus omnibus aequalis perfectio
+          <lb ed="#P" n="27"/>ad beatitudinem exigenda, non est cur 
+          dubi<lb break="no" ed="#P" n="28"/>temus illam vocare beatitudinem naturalem,
+          <lb ed="#P" n="29"/>nam per hoc additum satis significatur, non
+          <lb ed="#P" n="30"/>esse summam, sed qualem natura creata juxta
+          <lb ed="#P" n="31"/>sua merita postulare potest. Et declaratur,
+          <lb ed="#P" n="32"/>quia in eo statu natura angelica esset 
+          con<lb break="no" ed="#P" n="33"/>juncta suo ultimo fini, eo modo quo potest, et
+          <lb ed="#P" n="34"/>debet, solumque illi deesset intrinseca 
+          perpe<lb break="no" ed="#P" n="35"/>tuitas, vel potius perpetuitatis certitudo, et 
+          im<lb break="no" ed="#P" n="36"/>potentia cadendi ah illo statu (quae 
+          inamissi<lb break="no" ed="#P" n="37"/>bilitas dicitur): haec autem conditio, licet in
+          <lb ed="#P" n="38"/>summa, et excellenti beatitudine requiratur,
+          <lb ed="#P" n="39"/>nihilominus sine illa, et cum potestate absoluta
+          <lb ed="#P" n="40"/>nunquam amittendi talem statum poterit esse
+          <lb ed="#P" n="41"/>substantialis beatitudo ordinis naturalss, licet
+          <lb ed="#P" n="42"/>illa proprietate careat, et omnino perfecta
+          <lb ed="#P" n="43"/>non sit.
+        </p>
+        <p xml:id="szdada-x10402-d1e630">
+          <lb ed="#P" n="44"/>7. Confirmatur. — Ac denique confirmatur,
+          <lb ed="#P" n="45"/>qui juxta communem sensum, et modum 
+          gra<lb break="no" ed="#P" n="46"/>vium auctorum de naturali beatitudine 
+          loquen<lb break="no" ed="#P" n="47"/>tium, ad ejus rationem essentialem, et 
+          absolu<lb break="no" ed="#P" n="48"/>tam sufkicit illa perfecta conjunctio cum ultimo
+          <lb ed="#P" n="49"/>fine, cujus natura capax est. Et ita Aristoteles,
+          <lb ed="#P" n="50"/>Iib. 10, Eth.. cap. 7 et 8, aliquam beatitudinem
+          <lb ed="#P" n="51"/>hominis in contemplatione substantiarum 
+          sepa<lb break="no" ed="#P" n="52"/>ratarum posuit, et Boetius dixit, beatitudinem
+          <lb ed="#P" n="53"/>esse statum omnium bonorum aggregatione 
+          per<lb break="no" ed="#P" n="54"/>fectum. Quod in unoquoque rerum ordine 
+          se<lb break="no" ed="#P" n="55"/>cundum illius capacitatem intelligendum est.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Atque hac ratione de facto censentur Angeli
+          <lb ed="#P" n="57"/>creati in aliqua beatitudine, vel supernaturali
+          <lb ed="#P" n="58"/>viae, vel naturali simpliciter, licet a principio 
+          il<lb break="no" ed="#P" n="59"/>lam inamissibilem non acceperint. Ergo a 
+          for<lb break="no" ed="#P" n="60"/>tiori idem dicendum est in puris naturalibus.
+          <lb ed="#P" n="61"/>Illo autem modo loquuntur D. Thomas, et 
+          secta<lb break="no" ed="#P" n="62"/>tores ejus, 1 part., quaest. 62. art. 1, et Scotus, 2,
+          <lb ed="#P" n="63"/>dist. 3, quaest. 9, in responsione ad 
+          quaestio<lb break="no" ed="#P" n="64"/>nem, et probationibus ejus, et dist. 4, quaest. 1,
+          <lb ed="#P" n="65"/>argumento primo, cum solutione, et Durandus
+          <lb ed="#P" n="66"/>ibi quaest. 1, Malonius ibidem, disp. 1, 
+          con<lb break="no" ed="#P" n="67"/>clus. 1. Et eodem modo loquitur Augustinus,
+          <lb ed="#P" n="68"/>multis inlocis, lib. 11, Genes. ad litteram, c. 26,
+          <lb ed="#P" n="69"/>et 11, de Civit., cap. 11, ubi ait, Angelos ita
+          <lb ed="#P" n="70"/>esse creatos, ut statim sapienter, beateque 
+          vive<lb break="no" ed="#P" n="71"/>rent, licet non statim excellentiam sagpentis,
+          <lb ed="#P" n="72"/>Deateque vite acceperint, quam paulo inferius
+          <lb ed="#P" n="73"/>vocat plenitudinem beatitudinis: sentiens dari
+          <lb ed="#P" n="74"/>posse aliquem beatitudinis modum extra 
+          vi<lb break="no" ed="#P" n="75"/>sionem beatam. Et idem habet Fulgentius, de
+          <lb ed="#P" n="76"/>Fide, ad Petrum, cap. 3, ubi de malis Angelis
+          <lb ed="#P" n="77"/>ait: Pars Angelorum, qua a suo creatore Deo,
+          <lb ed="#P" n="78"/>quo solo beata fuit, voluntaria prorsus 
+          aversio<lb break="no" ed="#P" n="79"/>ne discessit, initium sue damnationis invenit.
+          <lb ed="#P" n="80"/>Et similia habet Gennadius, de Ecclesiast. 
+          dog<lb break="no" ed="#P" n="81"/>matib., cap. 59 et sequentibus, et plures in
+          <lb ed="#P" n="82"/>lib. 5, cap. 2, referemus. Quin potius etiam
+          <lb ed="#P" n="83"/>de primo homine ait saepe Augustinus, fuisse
+          <lb ed="#P" n="84"/>in statu aliquo beatitudinis creatum, ut in
+          <lb ed="#P" n="85"/>lib. 14, de Civit., cap. 10, 19 et 26, videre 
+          li<lb break="no" ed="#P" n="86"/>cet, et infra in tract. 2, lib. 3, latius dicemus.
+        </p>
+        <p xml:id="szdada-x10402-d1e728">
+          <lb ed="#P" n="87"/>8. Secunda conclusio. — Angeli potuerunt
+          <lb ed="#P" n="88"/>creari a, Deo in pura natura cum naturali 
+          bea<lb break="no" ed="#P" n="89"/>titudine caque inamissibili. — Probatur. —
+          <lb ed="#P" n="90"/>Obstaculum removetur. — Secundo dico, 
+          cre<lb break="no" ed="#P" n="91"/>dibile esse, Angelos in pura natura 
+          condi<lb break="no" ed="#P" n="92"/>tos potuisse per providentiam DEI suo modo
+          <lb ed="#P" n="93"/>consentaneam naturae constitui in tali statu
+          <lb ed="#P" n="94"/>suae beatitudinis, in quo ab illo jam cadere non
+          <lb ed="#P" n="95"/>possent, et ita etiam quoad conditionem 
+          ina<lb break="no" ed="#P" n="96"/>missibihtatis haberent statum perfectum illius
+          <lb ed="#P" n="97"/>beatitudinis, cujus naturaliter essent capaces.
+          <lb ed="#P" n="98"/>Hanc conclusionem facile admittent, qui 
+          pu<lb break="no" ed="#P" n="99"/>tant Angelos esse in naturalibus impeccabiles.
+          <lb ed="#P" n="100"/>Item qui putant esse immutabiles ab electione,
+          <lb ed="#P" n="101"/>cum integra deliberatiope semel facta. 
+          Verum<lb break="no" ed="#P" n="102"/>tamen absolute probatur, quia licet ipsa 
+          im<lb break="no" ed="#P" n="103"/>mutabihtas non sequatur intrinsece ex 
+          natn<lb break="no" ed="#P" n="104"/>rali conditione Angeli, saltem est illi maxime
+          <lb ed="#P" n="105"/>consentanea, et proportionata: et alioqui dari
+          <lb ed="#P" n="106"/>poterat per auxilia divina ordinis naturalis, et
+          <lb ed="#P" n="107"/>consentanea divinae providentiae tali naturae
+          <lb ed="#P" n="108"/>proportionatae. Est enim considerandum, Deum
+          <lb ed="#P" n="109"/>etiam ut auctorem naturae non debere rebus
+          <lb ed="#P" n="110"/>omnibus eumdem providentiae modum, nam
+          <pb ed="#P" n="416"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>altiorem petent res intellectuales, et liberae,
+          <lb ed="#P" n="2"/>quam reliquae. Unde probabile est, quod licet
+          <lb ed="#P" n="3"/>creaturae intellectuales non fuissent ad 
+          super<lb break="no" ed="#P" n="4"/>naturalem finem ordinatae, in eis esset 
+          futu<lb break="no" ed="#P" n="5"/>rus ordo alicujus meriti et praemii ex 
+          institutio<lb break="no" ed="#P" n="6"/>ne divina consentanea naturae. Nullum autem
+          <lb ed="#P" n="7"/>praemium non excedens naturalem ordinem
+          <lb ed="#P" n="8"/>magis accommodatum bene operantibus, et
+          <lb ed="#P" n="9"/>per aliquos actus deliberatos in bono, in quo
+          <lb ed="#P" n="10"/>creati essent, perseverantibus, cogitari potest,
+          <lb ed="#P" n="11"/>quam inamissibilis beatitudo naturalis, vel
+          <lb ed="#P" n="12"/>confirmatio infallibilis in illa, si jam fuisset a
+          <lb ed="#P" n="13"/>principio collata, ergo verisimile est, etiam
+          <lb ed="#P" n="14"/>intra latitudinem beatitudinis naturalis 
+          po<lb break="no" ed="#P" n="15"/>tuisse Angelos per naturalia merita pervenire
+          <lb ed="#P" n="16"/>ad statum in quo illam inamissibiliter 
+          posse<lb break="no" ed="#P" n="17"/>derunt. Neque obstat, quod talis status, et
+          <lb ed="#P" n="18"/>auxilia, quae ad illum requirerentur, essent
+          <lb ed="#P" n="19"/>beneficia non debita naturae, ac subinde 
+          po<lb break="no" ed="#P" n="20"/>tius esse censenda gratuita, quam naturalia.
+          <lb ed="#P" n="21"/>Non (inquam) hoc obstat, quia satis esset, quod
+          <lb ed="#P" n="22"/>essent debita, suppositis bonis meritis a Deo
+          <lb ed="#P" n="23"/>postulatis ut auctore naturae. Merita vero ipsa
+          <lb ed="#P" n="24"/>essent quidem beneficia gratuita eo modo, quo
+          <lb ed="#P" n="25"/>beneficium creationis gratuitum appellari 
+          po<lb break="no" ed="#P" n="26"/>test, et non altiori: quia supposito beneficio
+          <lb ed="#P" n="27"/>creationis, ille ordo providentiae esset aliquo
+          <lb ed="#P" n="28"/>modo debitus tali naturae secundum se, et 
+          ab<lb break="no" ed="#P" n="29"/>solute spectatae, et ad finem altiorem ad 
+          super<lb break="no" ed="#P" n="30"/>naturalem non ordinatae.
+        </p>
+        <p xml:id="szdada-x10402-d1e853">
+          <lb ed="#P" n="31"/>9. Ad rationem dubitandi in num. 1. — 
+          At<lb break="no" ed="#P" n="32"/>que hinc patet responsio ad rationem 
+          dubi<lb break="no" ed="#P" n="33"/>tandi in principio positam. Nam imprimis 
+          con<lb break="no" ed="#P" n="34"/>cedo, non esse actualem beatitudinem sine
+          <lb ed="#P" n="35"/>actuali contemplatione, et amore Dei: nego
+          <lb ed="#P" n="36"/>autem, esse de ratione beatitudinis generatim
+          <lb ed="#P" n="37"/>sumptae, ut isti actus sint necessarii quoad
+          <lb ed="#P" n="38"/>exercitium. Nam si de facto Angelus creatur
+          <lb ed="#P" n="39"/>cum his actibus sua naturali beatitudine, pro
+          <lb ed="#P" n="40"/>tunc id satis est ad rationem beatitudinis (licet
+          <lb ed="#P" n="41"/>non ex omni parte perfectae) quod possit 
+          An<lb break="no" ed="#P" n="42"/>gelus in illis actibus semper permanere si velit,
+          <lb ed="#P" n="43"/>etiamsi per contrarium actum possit illam
+          <lb ed="#P" n="44"/>amittere. Nam inamissibilitas non est de 
+          ra<lb break="no" ed="#P" n="45"/>tione omnis beatitudinis, praesertim naturalis,
+          <lb ed="#P" n="46"/>ac viae, ut dixi. Ad alias vero difficultates jam
+          <lb ed="#P" n="47"/>declaratum est, quomodo possit Angelus intra
+          <lb ed="#P" n="48"/>naturalem statum firmitatem et stabilitatem
+          <lb ed="#P" n="49"/>in sua beatitudine naturali comparare. Addo
+          <lb ed="#P" n="50"/>vero, etiam in illo statu non videri 
+          necessa<lb break="no" ed="#P" n="51"/>rium, quod amor vel contemplatio essent in
+          <lb ed="#P" n="52"/>Angelo cum necessitate quoad exercitium,
+          <lb ed="#P" n="53"/>nam ad inamissibiltatem talis beatitudinis
+          <lb ed="#P" n="54"/>sufficeret necessitas quoad specificationem,
+          <lb ed="#P" n="55"/>quam Deus posset facile conferre. Et tunc sta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tus beatitudinis, quasi habitualis esset 
+          perpe<lb break="no" ed="#P" n="57"/>tuus, et continuus, actualis autem beatitudo
+          <lb ed="#P" n="58"/>non necessario semper esset continua, dici
+          <lb ed="#P" n="59"/>tamen posset perpetua, quatenus semper esset
+          <lb ed="#P" n="60"/>in potestate habentis exercere illam. Et 
+          for<lb break="no" ed="#P" n="61"/>tasse semper esset continua, non ex absoluta
+          <lb ed="#P" n="62"/>necessitate naturali, sed ex perfectissimo usu
+          <lb ed="#P" n="63"/>libertatis, in quo posset etiam per divinam
+          <lb ed="#P" n="64"/>providentiam Angeli voluntas confirmari.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="790"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x19924"><!-- l7c1 -->
+        <head xml:id="szdada-x19924-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-x19924-Hd1e103" type="question-title">Utrum angeli in bonos, et malos recte, et sufficienter distribuantur</head>
+        <p xml:id="szdada-x19924-d1e106">
+          <lb ed="#P" n="26"/>CAPUT I.
+          <lb ed="#P" n="27"/>UTRUM ANGELI IN BONOS, ET MALOS RECTE, ET
+          <lb ed="#P" n="28"/>SUFFICIENTER DISTRIBUANTUR.
+        </p>
+        <p xml:id="szdada-x19924-d1e115">
+          <lb ed="#P" n="29"/>1. Fera resolutio affirmans. — Primum
+          <lb ed="#P" n="30"/>punctum. — An dentur daemones. — Hesolutio
+          <lb ed="#P" n="31"/>quaestionis affirmans est. Ad illius autem 
+          os<lb break="no" ed="#P" n="32"/>tensionem, et expositionem duo probanda sunt.
+          <lb ed="#P" n="33"/>Unum est, praeter Angelos bonos dari Angelos
+          <lb ed="#P" n="34"/>malos: nam quod boni dentur, amplius 
+          pro<lb break="no" ed="#P" n="35"/>bare non est necesse. Aliud est, nullos dari 
+          An<lb break="no" ed="#P" n="36"/>gelos, qui aut boni, aut mali non sint. Circa
+          <lb ed="#P" n="37"/>primum fuit verus error, nullos dari Angelos
+          <lb ed="#P" n="38"/>malos, seu daemones. Hujus erroris meminit
+          <lb ed="#P" n="39"/>Origenes, tract. 4, in Matth., circa illa verba:
+          <lb ed="#P" n="40"/>Domine, miserere filio meo, quia lunaticus est,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="41"/>et male patitur. De quo Marcus, cap. 9, et 
+          Lu<lb break="no" ed="#P" n="42"/>cas etiam 9, dicunt a spiritu immundo fuisse
+          <lb ed="#P" n="43"/>vexatum. Cujus rei rationem quaerens 
+          Orige<lb break="no" ed="#P" n="44"/>nes, refert opinionem (quam medicorum vocat)
+          <lb ed="#P" n="45"/>qui nullum esse spiritum immundum 
+          arbi<lb break="no" ed="#P" n="46"/>trantes, non illis, sed aliis materialibus, seu
+          <lb ed="#P" n="47"/>corporalibus causis similes effectus tribuebant.
+          <lb ed="#P" n="48"/>Simile est, quod D. Thomas, in 4, dist. 34,
+          <lb ed="#P" n="49"/>quaest. 1, art. 3, ait, quosdam ex infidelibus
+          <lb ed="#P" n="50"/>existimasse, nullos esse daemones, sed tantum
+          <lb ed="#P" n="51"/>ex aestimatione vulgi cogitari. Et idem habet
+          <lb ed="#P" n="52"/>Turrecremata, in cap. Si per Sartiarias, a. 1,
+          <lb ed="#P" n="53"/>33, quaest. 1, et plures alios haereticos varus
+          <lb ed="#P" n="54"/>modis hunc errorem asserentes refert Jodocus
+          <lb ed="#P" n="55"/>Coccius, in Thesauro, lib. 4, art. 5. Solet etiam
+          <lb ed="#P" n="56"/>hic error tribui antiquis philosophis, ut 
+          De<lb break="no" ed="#P" n="57"/>mocrito, et Pythagorae; imo etiam Aristoteli,
+          <lb ed="#P" n="58"/>quia non cognovit alias intelligentias, nisi
+          <lb ed="#P" n="59"/>moventes orbes, ut patet in 12, Metaphysicae,
+          <lb ed="#P" n="60"/>textu 47, seu cap. 8, et quamvis lib. 1, de
+          <lb ed="#P" n="61"/>Coelo, textu 100, alias cap. 9, plures constituere
+          <lb ed="#P" n="62"/>videatur (omissis aliis interpretationibus) 
+          om<lb break="no" ed="#P" n="63"/>nes tamen illas supra omnes coelos constituit,
+          <lb ed="#P" n="64"/>illasque felices, imo (ut videtur) etiam 
+          immu<lb break="no" ed="#P" n="65"/>tabiles facit: quare nullos malos Angelos, seu
+          <lb ed="#P" n="66"/>daemones cognovisse videtur, et ita cum illo
+          <lb ed="#P" n="67"/>sensisse videntur aliqui ex Graecis expositoribus
+          <lb ed="#P" n="68"/>ejus antiquioribus.
+        </p>
+        <p xml:id="szdada-x19924-d1e206">
+          <lb ed="#P" n="69"/>2. Fundamentum esse potuit alterum e 
+          duo<lb break="no" ed="#P" n="70"/>bus, unum est, quia nulli sunt Angeli, ac
+          <lb ed="#P" n="71"/>proinde nec boni, nec mali, subindeque nec
+          <lb ed="#P" n="72"/>daemones. Et in hoc sensu quidam ex 
+          rigidiori<lb break="no" ed="#P" n="73"/>bus confessionistis haereticis, ut Oseander, et
+          <lb ed="#P" n="74"/>David Georgius negarunt, esse diabolum, vel
+          <lb ed="#P" n="75"/>malos spiritus, ut ex Staphylo, et Lindano 
+          re<lb break="no" ed="#P" n="76"/>fert Prateolus, lib. 1, Haeres. 46, et lib. 4, 
+          Hae<lb break="no" ed="#P" n="77"/>res. 3. Sed hoc fundamentum in initio libri
+          <lb ed="#P" n="78"/>primi eversum est, ubi ostcndimus, dari 
+          spiri<lb break="no" ed="#P" n="79"/>tus creatos, Deo inferiores, et anima, ac homine
+          <lb ed="#P" n="80"/>superiores; ergo falsum est principium, quod
+          <lb ed="#P" n="81"/>sumit fundamentum illud: ac proinde totum
+          <pb ed="#P" n="791"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fundamentum ruit. Aliud esse potuit, quia
+          <lb ed="#P" n="2"/>omnes intelligentiae sunt immutabiles, et 
+          con<lb break="no" ed="#P" n="3"/>sequenter impeccabiles, et in hoc potuit 
+          Aris<lb break="no" ed="#P" n="4"/>toteles fundari. Sed hoc etiam destructum est
+          <lb ed="#P" n="5"/>lib. 3 et 5, in quibus ostendimus, nullam dari
+          <lb ed="#P" n="6"/>voluntatem creatam immutabilem, aut 
+          impec<lb break="no" ed="#P" n="7"/>cabilem; ergo non defuit Angelis capacitas
+          <lb ed="#P" n="8"/>malitiae, seu potentia peccandi. Qua supposita
+          <lb ed="#P" n="9"/>nullum potest cogitari rationis fundamentum
+          <lb ed="#P" n="10"/>ad asserendum nullos esse Angelos malos. Nec
+          <lb ed="#P" n="11"/>etiam est auctoritas, quia humana in hoc 
+          nul<lb break="no" ed="#P" n="12"/>lius est momenti, cum homo Angelorum mores
+          <lb ed="#P" n="13"/>naturaliter cognoscere non valeat, nec etiam
+          <lb ed="#P" n="14"/>datur auctoritas divina (ut statim ostendemus),
+          <lb ed="#P" n="15"/>Angeli vero si boni, et sancti esse 
+          supponan<lb break="no" ed="#P" n="16"/>tur, testificari non possunt, non esse aliquos
+          <lb ed="#P" n="17"/>Angelos malos, quia non possunt divino 
+          tes<lb break="no" ed="#P" n="18"/>timonio contradicere: ergo si aliqui Angeli
+          <lb ed="#P" n="19"/>nullos esse Angelos malos testificentur, vel
+          <lb ed="#P" n="20"/>hoc ipso convincentur esse mali, quia 
+          menda<lb break="no" ed="#P" n="21"/>ces sunt, et divinis testimoniis adversantur.
+        </p>
+        <p xml:id="szdada-x19924-d1e288">
+          <lb ed="#P" n="22"/>3. De fide est, dari daemones. — Probatur
+          <lb ed="#P" n="23"/>ec Scriptura. — Dicendum ergo est, de fide
+          <lb ed="#P" n="24"/>Catholica esse tenendum, dari aliquos Angelos
+          <lb ed="#P" n="25"/>malos, quos Ecclesia juxta Scripturam sacram
+          <lb ed="#P" n="26"/>daemones, seu diabolos vocat. Probatur, quia
+          <lb ed="#P" n="27"/>expresse traditur in multis Seripturae locis.
+          <lb ed="#P" n="28"/>Nam in veteri Testamento statim in principio
+          <lb ed="#P" n="29"/>refertur tentatio hominis per serpentem, in
+          <lb ed="#P" n="30"/>quo daemonem, seu malum Angelum latuisse,
+          <lb ed="#P" n="31"/>et est per se evidens, supposita veritate 
+          histo<lb break="no" ed="#P" n="32"/>riae, et est communis Ecclesiae, et Patrum 
+          con<lb break="no" ed="#P" n="33"/>sensus, ut in tract. 2, lib. 3, videbimus, et
+          <lb ed="#P" n="34"/>explicatur Sapient. 2, et Apocal. 20, et 
+          indi<lb break="no" ed="#P" n="35"/>catur a Paulo 2, Corinth. 11, ubi timere se
+          <lb ed="#P" n="36"/>dicit, ne sicut serpens Evam decepit, ita etiam
+          <lb ed="#P" n="37"/>et nos decipiat: constat enim non serpentem
+          <lb ed="#P" n="38"/>verum, seu animal nos decipere, sed daemonem.
+          <lb ed="#P" n="39"/>Item idem est manifestum ex historiis Tobiae
+          <lb ed="#P" n="40"/>3, 6 et 12, et Job 1, et sequentibus, et in lege
+          <lb ed="#P" n="41"/>Moysiscultus daemonum praecipue prohibebatur
+          <lb ed="#P" n="42"/>illis praeceptis, quibus idolatria, seu plurium
+          <lb ed="#P" n="43"/>deorum adoratio interdicebatur. Unde in 
+          op<lb break="no" ed="#P" n="44"/>probrium Hebraeorum dicitur Deut. 32: /
+          m<lb break="no" ed="#P" n="45"/>aolaverunt demontis et non Deo, diis quos
+          <lb ed="#P" n="46"/>ignorabant, et Psal. 95, Omnes dii gentium
+          <lb ed="#P" n="47"/>demonia.
+        </p>
+        <p xml:id="szdada-x19924-d1e347">
+          <lb ed="#P" n="48"/>4. In novo item Testamento passim legimus,
+          <lb ed="#P" n="49"/>Christum ejecisse daemonia ab hominibus ab
+          <lb ed="#P" n="50"/>illis obsessis, et Matth. 12, Beelzebub princeps
+          <lb ed="#P" n="51"/>demoniorun appellatur. Et Pharisaei, ut 
+          Chris<lb break="no" ed="#P" n="52"/>to exprobrarent, illum daemonium habere 
+          di<lb break="no" ed="#P" n="53"/>cebant. In aliis vero locis vocatur diabolus. Et
+          <lb ed="#P" n="54"/>Apocal. 20, vocatur, Draco, serpens antiquus,
+          <lb ed="#P" n="55"/>qui est diabolus, et Satanas. Alis denique locis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vocantur expresse Angeli mali. Psalm, 77:
+          <lb ed="#P" n="57"/>Misait in eos iran indignationss sue, 
+          immissio<lb break="no" ed="#P" n="58"/>nes per Angelos ma!os. Et Christus, Joann. 8,
+          <lb ed="#P" n="59"/>idem explicat, dum de diabolo ait, esse 
+          men<lb break="no" ed="#P" n="60"/>dacem, et patrem mendacii: et in idem redit,
+          <lb ed="#P" n="61"/>quod Eccles. 39, vocantur Spiritus ad 
+          vindic<lb break="no" ed="#P" n="62"/>tam creati, qui in furore suo conftr naverunt
+          <lb ed="#P" n="63"/>tormenta sua, etc. Et quod Paulus ad Ephes. 6,
+          <lb ed="#P" n="64"/>vocat, spiritualia nequitie in calestibus. Et
+          <lb ed="#P" n="65"/>plura infra adducemus, tractantes de peccato
+          <lb ed="#P" n="66"/>Angelorum, ubi etiam testimonia Patrum 
+          af<lb break="no" ed="#P" n="67"/>feremus. In re autem, quae tantum consistit in
+          <lb ed="#P" n="68"/>facto, non est necessaria ra:io, infra tamen ex
+          <lb ed="#P" n="69"/>effectibus aliquam a posteriore sumemus.
+        </p>
+        <p xml:id="szdada-x19924-d1e399">
+          <lb ed="#P" n="70"/>5. Probatur secundo ea philosophis. — Nec
+          <lb ed="#P" n="71"/>latuit haec veritas antiquos philosophos, et 
+          in<lb break="no" ed="#P" n="72"/>fideles. Refert enim Lactantius, lib. 2, Divinar.
+          <lb ed="#P" n="73"/>Institut., cap. 15, Trismegistum cognovisse
+          <lb ed="#P" n="74"/>daemones, et principem eorum, quem 
+          daeno<lb break="no" ed="#P" n="75"/>niarchem appellavit, et cap. 16, in fine, addit,
+          <lb ed="#P" n="76"/>vocasse illos Angelos, vtevnpcus, seu malos. Et
+          <lb ed="#P" n="77"/>idem refert ex Platone et Socrate, qui de se
+          <lb ed="#P" n="78"/>dicebat ab infantia habuisse assiduum 
+          daemo<lb break="no" ed="#P" n="79"/>nem, cujus arbitrio regebatur. Quod late 
+          re<lb break="no" ed="#P" n="80"/>fert Plato iu Apol. Socratis, et dial. 3, de 
+          Sa<lb break="no" ed="#P" n="81"/>pientia, seu Theages, in fine, indicat tamen
+          <lb ed="#P" n="82"/>illum non malum, sed bonum, et custodem
+          <lb ed="#P" n="83"/>Angelum fuisse. Et hujusmodi etiam sunt,
+          <lb ed="#P" n="84"/>quos Philosophi, et Poetae Genios vocant, ut
+          <lb ed="#P" n="85"/>Stoici, qui singulis genium dari dicebant. Ut
+          <lb ed="#P" n="86"/>refert Seheca, Epist. 110, ubi Scholiastes alia
+          <lb ed="#P" n="87"/>refert. Et Plutarchus, lib. de Tranquillit. 
+          ani<lb break="no" ed="#P" n="88"/>mi, versus finem, ait, Menandrum posuisse
+          <lb ed="#P" n="89"/>tantum unum genium bonae vitae initiatorem,
+          <lb ed="#P" n="90"/>et magistrum. Sed Empedoclem binos 
+          in<lb break="no" ed="#P" n="91"/>duxisse, utique bonum, et malum, quod ipse
+          <lb ed="#P" n="92"/>sequitur. Et libro Problemat. in 50, ait 
+          de<lb break="no" ed="#P" n="93"/>monia quedan mala circumire, quibus Dii,
+          <lb ed="#P" n="94"/>quas scelerum ultoribus, adversus impios 
+          utun<lb break="no" ed="#P" n="95"/>tur; et hbro contra usuram, demones ceelivagos
+          <lb ed="#P" n="96"/>ccmpellat. Refert praeterea Lactantius supra
+          <lb ed="#P" n="97"/>Hesiodum vocasse daemones custodes 
+          homi<lb break="no" ed="#P" n="98"/>num, quia Deus illos custodes hominum
+          <lb ed="#P" n="99"/>miserat, sed ipsi perditores hominum effecti
+          <lb ed="#P" n="100"/>sunt.
+        </p>
+        <p xml:id="szdada-x19924-d1e469">
+          <lb ed="#P" n="101"/>6. Sciendum est autem, nomen daemonis
+          <lb ed="#P" n="102"/>olim indifferens fuisse, ita ut in bonam et 
+          ma<lb break="no" ed="#P" n="103"/>lam partem accipi posset. Nam, ut Isidorus ait
+          <lb ed="#P" n="104"/>libr. 8, Etymolog., cap. 11, daemones dicti sunt,
+          <lb ed="#P" n="105"/>quasi dai monas, id est, peritos, ac rerum 
+          praes<lb break="no" ed="#P" n="106"/>cios. Unde saepe philosophi Angelos etiam 
+          bo<lb break="no" ed="#P" n="107"/>nos daemones vocant, ut notat Marsilius 
+          Fici<lb break="no" ed="#P" n="108"/>nus, in Comment. ad convivium Platonis,
+          <lb ed="#P" n="109"/>Orat. 6, cap. 3, ubi addit, esse cero atios 
+          quos<lb break="no" ed="#P" n="110"/>dum malos demones, Platonici nowuulli, e
+          <pb ed="#P" n="792"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Christiani theologi voluerunt. Et ex mente
+          <lb ed="#P" n="2"/>Platonis et philosophorum de illis disserit
+          <lb ed="#P" n="3"/>latius in praefat. ad Apolog. Socratis; et plura
+          <lb ed="#P" n="4"/>legi poterunt apud Aaugustinum, lib. S, de
+          <lb ed="#P" n="5"/>Civitat., cap. 13 et sequent.. et lib. 9, cap. 19,
+          <lb ed="#P" n="6"/>ubi docet. secundum usum Seripturae, et 
+          Chris<lb break="no" ed="#P" n="7"/>tiauorum non esse daemones, uisi in malam
+          <lb ed="#P" n="8"/>p rtem accipiendos. Quam cossuetudinem 
+          e<lb break="no" ed="#P" n="9"/>tiam a Paganis ita observari dicit, ut quoties
+          <lb ed="#P" n="10"/>alteri dicunt, demonium habes, maledixisse
+          <lb ed="#P" n="11"/>intelligantur. Videri etiam potest Eugubinus,
+          <lb ed="#P" n="12"/>lib. 7, de peren. Philosophia, cap. 18, et
+          <lb ed="#P" n="13"/>lib. 8, cap. 3, 8, et 22, 26 etaliis.
+        </p>
+        <p xml:id="szdada-x19924-d1e526">
+          <lb ed="#P" n="14"/>7. Hi philosophi unde cognoverint demones.
+          <lb ed="#P" n="15"/>— Efficua argumentum ex effectu.—Potuerunt
+          <lb ed="#P" n="16"/>autem hi philosophi hanc notitiam addiscere
+          <lb ed="#P" n="17"/>ex aliqua traditione majorum, quae a primis
+          <lb ed="#P" n="18"/>hominibus inceperit, et fortasse in genere 
+          hu<lb break="no" ed="#P" n="19"/>mano semper aliquo modo permanserit. 
+          Prae<lb break="no" ed="#P" n="20"/>cipue vero deducere illam potuerunt ex 
+          ali<lb break="no" ed="#P" n="21"/>quibus effectibus, quos vel in seipsis experti
+          <lb ed="#P" n="22"/>sunt, velex relatione aliorum audierunt, quia
+          <lb ed="#P" n="23"/>ex illis sine dubio sumitur efficax 
+          argumen<lb break="no" ed="#P" n="24"/>tum. Nam in obsessis, et arreptitiis multa 
+          fie<lb break="no" ed="#P" n="25"/>ri compertum est, quod eorum ingenium, et
+          <lb ed="#P" n="26"/>naturalem conditionem superat; ergonon fiunt
+          <lb ed="#P" n="27"/>per virtutem naturalem animae; ergo per 
+          vir<lb break="no" ed="#P" n="28"/>tutem alicujus superioris moventis, ut quod
+          <lb ed="#P" n="29"/>Latine optime loquatur qui nunquam didicit,
+          <lb ed="#P" n="30"/>et similia. Quae quidem non fiunt ex 
+          imme<lb break="no" ed="#P" n="31"/>diata Dei motione, tum quia ordinarie non 
+          o<lb break="no" ed="#P" n="32"/>peratur sine causis secundis, tum etiam, quia
+          <lb ed="#P" n="33"/>divina virtute ejiciuntur spiritus homines
+          <lb ed="#P" n="34"/>vexantes, tum item, quia per naturalia 
+          reme<lb break="no" ed="#P" n="35"/>dia solet eorum vexatio leniri, vel impediri,
+          <lb ed="#P" n="36"/>quod est signum, vexationem fieri excitando
+          <lb ed="#P" n="37"/>humores corporis, et sine dispositione talium
+          <lb ed="#P" n="38"/>humorum non posse spiritum illum, qui vexat,
+          <lb ed="#P" n="39"/>homini naturaliter nocere, quod est proprium
+          <lb ed="#P" n="40"/>spiritus creati. Neque etiam potest talis 
+          vexa<lb break="no" ed="#P" n="41"/>tio attribul sanctis Angelis, tum quia illi non
+          <lb ed="#P" n="42"/>sunt hostes hominum, se benefactores, tum
+          <lb ed="#P" n="43"/>etiam, quia ipsa experientia docet, 
+          intentio<lb break="no" ed="#P" n="44"/>nem talium spirituum esse, inducere homines
+          <lb ed="#P" n="45"/>ad malum, quod non est opus bonorum, sed
+          <lb ed="#P" n="46"/>malorum Angelorum. Ex ipsis ergo operibus
+          <lb ed="#P" n="47"/>daemonum, quatenus saepe visibihter, et 
+          sen<lb break="no" ed="#P" n="48"/>sibiliter fiunt, evidenter cognoscitur, esse 
+          ali<lb break="no" ed="#P" n="49"/>quos Angelos malos, vel per experientiam 
+          eo<lb break="no" ed="#P" n="50"/>rum, qui hos effectus vident, aut audiunt per
+          <lb ed="#P" n="51"/>sensus externos, vel per imaginarias visiones,
+          <lb ed="#P" n="52"/>aut certe per quamdam fidem humanam 
+          mo<lb break="no" ed="#P" n="53"/>raliter certam ex testimonio plurimorum, qui
+          <lb ed="#P" n="54"/>haec experti sunt. Et hoc etiam confirmant,
+          <lb ed="#P" n="55"/>quae de effectibus artis magicae, et de malefi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ciis, quae fiunt ex pacto daemonum, diximus
+          <lb ed="#P" n="57"/>in primo tomo de Religione, libro secundo de
+          <lb ed="#P" n="58"/>superstitionibus, capite decimo quarto, et 
+          se<lb break="no" ed="#P" n="59"/>quentibus.
+        </p>
+        <p xml:id="szdada-x19924-d1e630">
+          <lb ed="#P" n="60"/>8. Secundum punctum de divisione 
+          Angelo<lb break="no" ed="#P" n="61"/>rum in bonos et malos. — Prima opinio G 
+          nti<lb break="no" ed="#P" n="62"/>livm philosophorum negans.—Secundum 
+          punc<lb break="no" ed="#P" n="63"/>tum in titulo capitis propostum petit, ut
+          <lb ed="#P" n="64"/>breviter comprobemus, esse omnes Angelos
+          <lb ed="#P" n="65"/>aut bonos, aut malos, nullosque esse medios
+          <lb ed="#P" n="66"/>ab utrisque differentes. Aliqui enim Gentiles
+          <lb ed="#P" n="67"/>philosophi tres classes Angelorum distinxisse
+          <lb ed="#P" n="68"/>videntur, quas per bimembrem partitionem,
+          <lb ed="#P" n="69"/>et alterius membri subdivisionem explicare
+          <lb ed="#P" n="70"/>possumus. Supponunt enim imprimis, duos
+          <lb ed="#P" n="71"/>fuisse Angelorum ordines, scilicet, coelestium,
+          <lb ed="#P" n="72"/>et terrestrium, ex quibus coelestes bonos esse,
+          <lb ed="#P" n="73"/>et beatam vitam agere fatentur, eosque Deos
+          <lb ed="#P" n="74"/>potius, quam Angelos, vel daemones vocant.
+          <lb ed="#P" n="75"/>Terrestres autem subdividunt in malos, ac
+          <lb ed="#P" n="76"/>perniciosos hominibus, et non malos (ut sic 
+          di<lb break="no" ed="#P" n="77"/>cam) vel potius benefactores hominum, non
+          <lb ed="#P" n="78"/>tamen ita bonos, sicut sunt coelestes: et ideo
+          <lb ed="#P" n="79"/>quasi medii inter bonos, et malos reputantur.
+          <lb ed="#P" n="80"/>Priorem divisionem ex Platone refert Clemens
+          <lb ed="#P" n="81"/>Alexandrinus, lib. 5. Stromat. et Augustinus,
+          <lb ed="#P" n="82"/>libro octavo de Civitat., cap. 13 et 14, ibi 
+          ta<lb break="no" ed="#P" n="83"/>men posteriorem subdivisionem videtur 
+          exclu<lb break="no" ed="#P" n="84"/>dere: bam dicit, omnes coelestes spiritus 
+          se<lb break="no" ed="#P" n="85"/>cundum Platonem esse bonos, et omnes 
+          dae<lb break="no" ed="#P" n="86"/>monas, seu aereos, seu mundanos spiritus esse
+          <lb ed="#P" n="87"/>malos At verc, lib. 10, cap. 11, ex sententia
+          <lb ed="#P" n="88"/>Porphyrii refert subdivisionem daemonum:
+          <lb ed="#P" n="89"/>Nam quosdam appellabat benignos, seu 
+          beneft<lb break="no" ed="#P" n="90"/>cos; alios vero maleftcos esse dicebat. In quo ait
+          <lb ed="#P" n="91"/>Augustinus, Porphyrium more loquendi 
+          alio<lb break="no" ed="#P" n="92"/>rum philosophorum esse imitatum. Et 
+          simili<lb break="no" ed="#P" n="93"/>ter Eusebius 4, de Praepar., cap. 11 et 12, ex
+          <lb ed="#P" n="94"/>Porphyrio refert divisionem daemonum in 
+          bo<lb break="no" ed="#P" n="95"/>nos et malos, non tamen declarat, an 
+          utros<lb break="no" ed="#P" n="96"/>que posuerit a Diis distinctos. Denique 
+          Apu<lb break="no" ed="#P" n="97"/>leius, libr. de Deo Socrat., refert, Platonem
+          <lb ed="#P" n="98"/>praeter summum Deum potuisse secundarios
+          <lb ed="#P" n="99"/>Deos, et alios spiritus, quos coelicolas vocabat,
+          <lb ed="#P" n="100"/>et ultra hos daemones. Quomodo autem illos
+          <lb ed="#P" n="101"/>distingueret, non satis declarat, ut videri 
+          po<lb break="no" ed="#P" n="102"/>test in Alexandri ab Alexandio, 1. 6, 
+          Genial<lb break="no" ed="#P" n="103"/>dier., cap. 4.
+        </p>
+        <p xml:id="szdada-x19924-d1e729">
+          <lb ed="#P" n="104"/>9. Illustratur ex Damasceno. — Potestque
+          <lb ed="#P" n="105"/>haec Philosophorum opinio ex Damasceni 
+          doc<lb break="no" ed="#P" n="106"/>trina illustrari. Ille enim, lib. 2, de Fide, cap. 4,
+          <lb ed="#P" n="107"/>licet in tota sententia longe aliter sentiat, 
+          do<lb break="no" ed="#P" n="108"/>cet tamen, omnes Angelos malos terrestris 
+          or<lb break="no" ed="#P" n="109"/>dinis fuisse, et non omnes Angelos illius 
+          ordi<lb break="no" ed="#P" n="110"/>nis cecidisse, sed magnam multitudinem eo-
+          <pb ed="#P" n="793"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rum, qui subjecti erant Principi terrestris
+          <lb ed="#P" n="2"/>ordinis, quem putat fuisse Luciferum. Ergo
+          <lb ed="#P" n="3"/>praeter Angelos coelestis ordinis terrestrem 
+          or<lb break="no" ed="#P" n="4"/>dinem distinguit in duas partes, unam 
+          malo<lb break="no" ed="#P" n="5"/>rum qui ceciderunt, aliam in sua natural 
+          rec<lb break="no" ed="#P" n="6"/>titudine permanentium. Differt autem 
+          Damas<lb break="no" ed="#P" n="7"/>cenus a Philosophis: nam illi Angelos coelestes
+          <lb ed="#P" n="8"/>a terrestribus natura distinxisse videntur: ipse
+          <lb ed="#P" n="9"/>autem expresse docet, omues ejusdem esse 
+          na<lb break="no" ed="#P" n="10"/>turae. Idem Philosophi terrestres Angelos, quos
+          <lb ed="#P" n="11"/>benignos, aut beneficos daemones vocabant,
+          <lb ed="#P" n="12"/>non credebant esse ita divinos et beatos, sicut
+          <lb ed="#P" n="13"/>coelestes: et ideo medios inter malos daemonas,
+          <lb ed="#P" n="14"/>et deos illos constituebant. Damascenus autem
+          <lb ed="#P" n="15"/>eos ejusdem regni coelestis, et beatitudinis
+          <lb ed="#P" n="16"/>censet esse participes, licet nunc custodiendis
+          <lb ed="#P" n="17"/>rebus inferioribus curam habeant 
+          demanda<lb break="no" ed="#P" n="18"/>tam. Denique Plato (ut D. Thomas, et multi
+          <lb ed="#P" n="19"/>censent) inter coelestes intelligentias ideas 
+          om<lb break="no" ed="#P" n="20"/>nium specierum posuit: an vero ideas poneret
+          <lb ed="#P" n="21"/>inter eos Angelos coelestes, quos Deos vocat,
+          <lb ed="#P" n="22"/>vel distinctas esse censuerit, incertum est, nec
+          <lb ed="#P" n="23"/>mirum, quia multi etiam dubitant, an ideas
+          <lb ed="#P" n="24"/>extra mentem divinam posuerit.
+        </p>
+        <p xml:id="szdada-x19924-d1e803">
+          <lb ed="#P" n="25"/>10. Secunda opinio etiam negans. — Alho
+          <lb ed="#P" n="26"/>vero modo distinxerunt aliqui non solum 
+          in<lb break="no" ed="#P" n="27"/>ter Angelos bouos, et malos, sed etiam inter
+          <lb ed="#P" n="28"/>ipsos malos. Aiunt enim prius peccasse 
+          dia<lb break="no" ed="#P" n="29"/>bolum, et propterea Deum ecolo illum ejecisse
+          <lb ed="#P" n="30"/>in terram, et nihilominns ei potestatem in 
+          il<lb break="no" ed="#P" n="31"/>lam concessisse. Ne tamen nimium sua 
+          potes<lb break="no" ed="#P" n="32"/>tate abuteretur, et terram corrumperet, 
+          ho<lb break="no" ed="#P" n="33"/>minesque dispergeret, Deum misisse alios 
+          An<lb break="no" ed="#P" n="34"/>gelos ad hominum tutelam; illos autem malitia
+          <lb ed="#P" n="35"/>diaboli fuisse corruptos, et mulierum congressu
+          <lb ed="#P" n="36"/>fuisse coinquinatos, et sic damnatos esse, et
+          <lb ed="#P" n="37"/>diaboli ministros, ac sublitos factos esse. Ex
+          <lb ed="#P" n="38"/>his vero Angelis ad foeminas accedentibus, 
+          di<lb break="no" ed="#P" n="39"/>cunt, fuisse procreatos quos:lam spiritus, qui
+          <lb ed="#P" n="40"/>nec sunt Angeli, nec homines, sed cujusdam
+          <lb ed="#P" n="41"/>mediae naturae. Et ita orta esse, dicunt, duo
+          <lb ed="#P" n="42"/>genera daemonum, unum coeleste, alterum
+          <lb ed="#P" n="43"/>terrestre, utrosque vero esse immundos 
+          spiri<lb break="no" ed="#P" n="44"/>tus. Hanc fabulam ut veram historiam refert
+          <lb ed="#P" n="45"/>Lactantius, libr. 2, Divinit. institut., cap. 14,
+          <lb ed="#P" n="46"/>et secundum illam antiquos Philosophos 
+          inter<lb break="no" ed="#P" n="47"/>pretatur.
+        </p>
+        <p xml:id="szdada-x19924-d1e855">
+          <lb ed="#P" n="48"/>11. Judeorum deirium. —Fundari autem
+          <lb ed="#P" n="49"/>videtur in illo vulgari testimonio Genes. 6:
+          <lb ed="#P" n="50"/>Postquam ingressi sunt filii Dei ad filias 
+          ho<lb break="no" ed="#P" n="51"/>ninum, etc., quod de Angelis multi antiqui
+          <lb ed="#P" n="52"/>Patres interpretantur. Ex quibus Justinus
+          <lb ed="#P" n="53"/>etiam Apol. 1 pro Christianis insinuat, ex illo
+          <lb ed="#P" n="54"/>concubitu Angclorum cum foeminis natos
+          <lb ed="#P" n="55"/>fuisse daemones. Athenagoras vero in legatione
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pro Christianis, non lege a fine, eamdem 
+          tra<lb break="no" ed="#P" n="57"/>dens sententiam, dixit, Angelos ex 
+          foemi<lb break="no" ed="#P" n="58"/>nis genuisse gigantes, animas vero eorum esse
+          <lb ed="#P" n="59"/>daemones: cujus autem naturae sint, non 
+          de<lb break="no" ed="#P" n="60"/>clarat. Indicat tamen habere quasi innatam
+          <lb ed="#P" n="61"/>malitiam consentanucam constitutioni, quam a
+          <lb ed="#P" n="62"/>parentibus acceperunt. A qua sententia non
+          <lb ed="#P" n="63"/>dissentit Eusebius, libr. 5, de Praspar., cap. 4.
+          <lb ed="#P" n="64"/>Sunt quidem et alii antiqui Patres, qui 
+          senten<lb break="no" ed="#P" n="65"/>tiam illam decongressu malorum Angelorum ad
+          <lb ed="#P" n="66"/>foeminas secuti fuerunt,ut Tertullianus, 
+          Cypria<lb break="no" ed="#P" n="67"/>nus, Clemens Alexandrinus, et alii, tamen illi
+          <lb ed="#P" n="68"/>non dicunt, ex illis Angelis natos esse 
+          dae<lb break="no" ed="#P" n="69"/>mones terrestres, nec duos ordines 
+          daemonio<lb break="no" ed="#P" n="70"/>rum distinguunt. Contrario vero modo quidam
+          <lb ed="#P" n="71"/>Judae delirantes dixerunt, Adam genuisse
+          <lb ed="#P" n="72"/>quosdam daemones ex congressu cum aliis 
+          dae<lb break="no" ed="#P" n="73"/>monibus, seu malis Angelis. utique foeminei
+          <lb ed="#P" n="74"/>sexus, ut refert Coccius, ubi supra.
+        </p>
+        <p xml:id="szdada-x19924-d1e918">
+          <lb ed="#P" n="75"/>12. Vera sententia de fide omnes Angelos, aut
+          <lb ed="#P" n="76"/>Donos esse aut malos. — In hoc vero puncto 
+          bre<lb break="no" ed="#P" n="77"/>viter dicendum est, omnes Angelos aut bonos,
+          <lb ed="#P" n="78"/>aut malos esse: nec inter haec duo generalia
+          <lb ed="#P" n="79"/>membra medium posse cogitari. Haec assertio
+          <lb ed="#P" n="80"/>de fide est. Quia Scriptura solum Angelorum
+          <lb ed="#P" n="81"/>bonorum et malorum mentionem facit, et ita
+          <lb ed="#P" n="82"/>de illis loquitur, ut nullum dari alum 
+          Ange<lb break="no" ed="#P" n="83"/>lorum ordinem satis aperte doceat. Eademque
+          <lb ed="#P" n="84"/>es communistraditio Patrum, et Theologorum
+          <lb ed="#P" n="85"/>omninm, ut ex dietis, libro primo, de 
+          substan<lb break="no" ed="#P" n="86"/>tia et natura Angelorum, et in lib. 5, de 
+          bo<lb break="no" ed="#P" n="87"/>nis Angelis manifestum est: et confirmabitur
+          <lb ed="#P" n="88"/>amplius ex dicendis de peccato Angelorum.
+          <lb ed="#P" n="89"/>Et ideo ab allegationibus nunc abstineo, et
+          <lb ed="#P" n="90"/>ratione assertionem ostendo. Quia imprimis
+          <lb ed="#P" n="91"/>distinctio inter bonos et malos Angelos non
+          <lb ed="#P" n="92"/>est in gradu naturae, sive loquamur de supremo
+          <lb ed="#P" n="93"/>gradn, seu genere naturae intellectualis, sive
+          <lb ed="#P" n="94"/>de generibus intermediis (si il'a dantur in 
+          An<lb break="no" ed="#P" n="95"/>gelis) seu de ordinibus, aut hierarchiis, 
+          qua<lb break="no" ed="#P" n="96"/>cumque ratione illa distinguantur. Probatur
+          <lb ed="#P" n="97"/>prior pars, quia omnes Angeli sunt 
+          intellec<lb break="no" ed="#P" n="98"/>tuales, ut suppcnimus, et sunt spirituales 
+          sub<lb break="no" ed="#P" n="99"/>stantiae omni vero corpore carentes, et 
+          conse<lb break="no" ed="#P" n="100"/>quenter homine superiores, nec datur natura
+          <lb ed="#P" n="101"/>intellectualis media inter humanam, et 
+          angeli<lb break="no" ed="#P" n="102"/>cam, quae omnia in libro primo ostensa sunt:
+          <lb ed="#P" n="103"/>ergo boni et mali Angeli in gradu 
+          intellec<lb break="no" ed="#P" n="104"/>tuali conveniunt: ergo in illo ut sic distingui
+          <lb ed="#P" n="105"/>non possunt. Altera vero pars probatur, quia
+          <lb ed="#P" n="106"/>sub quolibet genere, vel hierarchia, aut 
+          or<lb break="no" ed="#P" n="107"/>diue Angelorum secundum essentiam seu 
+          na<lb break="no" ed="#P" n="108"/>turam suam consideratis, possunt Angeli boni
+          <lb ed="#P" n="109"/>et mali reperiri, et fortasse de facto inventi
+          <lb ed="#P" n="110"/>sunt, ut postea dicemus: ergo illa distinctio
+          <pb ed="#P" n="794"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bonorum et malorum Angelorum non potest
+          <lb ed="#P" n="2"/>secundum naturam, et essentiam eorum tradi,
+          <lb ed="#P" n="3"/>vel considerari, ut magis postea explicabimus.
+        </p>
+        <p xml:id="szdada-x19924-d1e1009">
+          <lb ed="#P" n="4"/>13. Ampliatur ratio facta. —Et hinc a 
+          for<lb break="no" ed="#P" n="5"/>tiori concluditur, nullos esse Angelos medios
+          <lb ed="#P" n="6"/>inter bonos et malos ratione naturae, seu 
+          es<lb break="no" ed="#P" n="7"/>sentiae: quia qualitercumque se habeant 
+          An<lb break="no" ed="#P" n="8"/>geli quoad bonitatem, vel malitiam, 
+          necessa<lb break="no" ed="#P" n="9"/>rio esse debent naturae intellectualis in genere
+          <lb ed="#P" n="10"/>communi, seu generalissimo Angelorum. 
+          Ea<lb break="no" ed="#P" n="11"/>dem vero ratio est de quacumque inferiori, seu
+          <lb ed="#P" n="12"/>subalterno genere, vel ordine, aut hierarchia,
+          <lb ed="#P" n="13"/>quia sicut in generalissima ratione non datur
+          <lb ed="#P" n="14"/>distinctio in bonos et malos, ita nec in 
+          infe<lb break="no" ed="#P" n="15"/>rioribus aliis. Unde ulterius absolute 
+          concliu<lb break="no" ed="#P" n="16"/>ditur, non esse in aliquo ordine possibiles 
+          An<lb break="no" ed="#P" n="17"/>gelos medios inter bonos et malos, quia cum
+          <lb ed="#P" n="18"/>Angeli boni et mali non distinguantur in 
+          na<lb break="no" ed="#P" n="19"/>tura, per se loquendo, et ex vi naturalis 
+          dis<lb break="no" ed="#P" n="20"/>tinctionis, necesse est ut moribus, et 
+          volunta<lb break="no" ed="#P" n="21"/>tibus distinguantur, ut etiam in capitibus
+          <lb ed="#P" n="22"/>secundo et tertioostendemus. At vero inter 
+          An<lb break="no" ed="#P" n="23"/>gelos vel moraliter bonos, vel moraliter malos,
+          <lb ed="#P" n="24"/>non potest dari medium; ergo nulli sunt 
+          An<lb break="no" ed="#P" n="25"/>geli medii inter bonos et malos. Probatur 
+          mi<lb break="no" ed="#P" n="26"/>nor, quia medium inter extrema opposita 
+          co<lb break="no" ed="#P" n="27"/>gitari potest, vel per carentiam utriusque
+          <lb ed="#P" n="28"/>extremi, quod in praesenti materia solet dici
+          <lb ed="#P" n="29"/>indifferens, id est, nec bonum, nec malum,
+          <lb ed="#P" n="30"/>vel fingi potest per conjunctionem, aut 
+          parti<lb break="no" ed="#P" n="31"/>cipationem utriusque extremi, quod solet dici
+          <lb ed="#P" n="32"/>mixtum, seu in praesenti materia dicetur 
+          ali<lb break="no" ed="#P" n="33"/>quid boni et mali moralis habens. Neutro 
+          au<lb break="no" ed="#P" n="34"/>tem modo cogitari possunt medii Angeli.
+        </p>
+        <p xml:id="szdada-x19924-d1e1079">
+          <lb ed="#P" n="35"/>14. Inter Angelos bonos et malos non datur
+          <lb ed="#P" n="36"/>medium negative. Nec etiam medium positive.
+          <lb ed="#P" n="37"/>— Non quidem primo, quia omnes Angeli aut
+          <lb ed="#P" n="38"/>sunt beati, aut beatitudine carentes, nec inter
+          <lb ed="#P" n="39"/>hos potest medium cogitari, cum 
+          contradic<lb break="no" ed="#P" n="40"/>tione opponantur, vel privative, quod perinde
+          <lb ed="#P" n="41"/>est quoad immediatam oppositionem, cum 
+          om<lb break="no" ed="#P" n="42"/>nes Angel sint beatitudinis capaces. At vero
+          <lb ed="#P" n="43"/>Angeli beati necessario boni sunt, ut supra 
+          os<lb break="no" ed="#P" n="44"/>tensum est. Si vero beatitudine carent, eo ipso
+          <lb ed="#P" n="45"/>mali sunt, tum quia summo bono carent, tum
+          <lb ed="#P" n="46"/>etiam quia propter malitiam suam privat sunt
+          <lb ed="#P" n="47"/>beatitudine, ut infia ostendemus. Et hinc facile
+          <lb ed="#P" n="48"/>aliud medium per mixtionem extremorum 
+          ex<lb break="no" ed="#P" n="49"/>cluditur. Quia nec in beatis Angelis aliquid
+          <lb ed="#P" n="50"/>malitiae esse potest (ut dixi) nec in non beatis
+          <lb ed="#P" n="51"/>aliquid bonitatis, ut ostendemus infra. Et 
+          li<lb break="no" ed="#P" n="52"/>cet daremus, daemones aliquid boni posse 
+          o<lb break="no" ed="#P" n="53"/>perari, non ideo dici possent medii inter bonos
+          <lb ed="#P" n="54"/>et malos. Tum quia si id esset possibile. non
+          <lb ed="#P" n="55"/>esset proprium aliquorum Angelorum beati-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tudine carentium, sed omnibus esset 
+          commu<lb break="no" ed="#P" n="57"/>ne, ac proinde ob illam rationem non possent
+          <lb ed="#P" n="58"/>dici medii, sed illa esset quaedam conditio mali
+          <lb ed="#P" n="59"/>ipsius, quod nunquam tantum est, ut omne
+          <lb ed="#P" n="60"/>bonum excludat. Tum etiam, quia illud 
+          bo<lb break="no" ed="#P" n="61"/>num rarum, et minimum esset, quod obstare
+          <lb ed="#P" n="62"/>non posset, quin omnes tales Angeli sint, et
+          <lb ed="#P" n="63"/>dicantur simpliciter mah.
+        </p>
+        <p xml:id="szdada-x19924-d1e1148">
+          <lb ed="#P" n="64"/>15. Solum posset quis huic discursui 
+          occur<lb break="no" ed="#P" n="65"/>rere, fingendo aliquos Angelos non beatos, nec
+          <lb ed="#P" n="66"/>miseros, aut damnatos, nam si qui essent 
+          ta<lb break="no" ed="#P" n="67"/>les, dici non immerito possent medii inter 
+          bo<lb break="no" ed="#P" n="68"/>nos et malos, sicut nunc nos viatores medi
+          <lb ed="#P" n="69"/>sumus inter homines damnatos et beatos, sive
+          <lb ed="#P" n="70"/>illi Angeli dicantur medii, per abnegationem
+          <lb ed="#P" n="71"/>utriusque extremi quoad summam bonitatem
+          <lb ed="#P" n="72"/>vel malitiam, sive per mixtionem aliquam 
+          bo<lb break="no" ed="#P" n="73"/>ni et mali, qualis in viatoribus inveniri 
+          po<lb break="no" ed="#P" n="74"/>test. Sed haec phantasia facile excluditur: quia
+          <lb ed="#P" n="75"/>secundum fidem nullus datur talis status À
+          n<lb break="no" ed="#P" n="76"/>gelorum beatitudine carentium. Duobus enim
+          <lb ed="#P" n="77"/>modis fingi potest talis status. Unus erit, si
+          <lb ed="#P" n="78"/>cogitentur aliqui Angeli non ordinati ad 
+          beati<lb break="no" ed="#P" n="79"/>tudinem supernaturalem, nec habentes 
+          pecca<lb break="no" ed="#P" n="80"/>tum, sed solam rectitudinem, et beatitudinem
+          <lb ed="#P" n="81"/>naturalem. At secundum fidem nulli sunt tales
+          <lb ed="#P" n="82"/>Angeli. Nam quotquot Angelos Deus creavit,
+          <lb ed="#P" n="83"/>propter aeternam felicitatem in sui visione 
+          con<lb break="no" ed="#P" n="84"/>sistentem, et ut illam consequerentur, illos
+          <lb ed="#P" n="85"/>condidit, ut supra ostendimus. Et ex 
+          homini<lb break="no" ed="#P" n="86"/>bus a fortiori argumentum sumitur. Adde,
+          <lb ed="#P" n="87"/>quod licet darentur tales Angeli, illi essent in
+          <lb ed="#P" n="88"/>suo ordine simpliciter boni moraliter. Alius
+          <lb ed="#P" n="89"/>modus erit, si cogitentur aliqui Angeli 
+          ordi<lb break="no" ed="#P" n="90"/>nati quidem ad supernaturalem beatitudinem,
+          <lb ed="#P" n="91"/>nondum illam possidentes, sed adhuc in via
+          <lb ed="#P" n="92"/>existentes, et in eam per fidem, et spem 
+          ten<lb break="no" ed="#P" n="93"/>dentes, et talis etiam Angelorum status non
+          <lb ed="#P" n="94"/>datur secundum doctrinam communiter ab
+          <lb ed="#P" n="95"/>Ecclesia receptam. Quia via Angelorum brevi
+          <lb ed="#P" n="96"/>duratione confecta est, et negotium salutis in
+          <lb ed="#P" n="97"/>omnibus jam terminatum est. Item, quia de
+          <lb ed="#P" n="98"/>omnibus Angelis custodientibus homines 
+          Chris<lb break="no" ed="#P" n="99"/>tus dixit, semper videre faciem Patris. Et
+          <lb ed="#P" n="100"/>quamvis essent tales Angeli, si carerent 
+          pecca<lb break="no" ed="#P" n="101"/>to, non essent absolute medii inter bonos et
+          <lb ed="#P" n="102"/>malos, sed essent simpliciter boni, sicut in 
+          ini<lb break="no" ed="#P" n="103"/>tio creationis omnes fuerunt; si vero essent
+          <lb ed="#P" n="104"/>in peccato privati gratia Dei, essent simpliciter
+          <lb ed="#P" n="105"/>mali pro illo statu, etiamsi cum potestate 
+          re<lb break="no" ed="#P" n="106"/>deundi ad statum rectitudinis fingantur. Non
+          <lb ed="#P" n="107"/>tamen essent ita boni, aut mali, sicut nunc
+          <lb ed="#P" n="108"/>sunt beati Angeli, vel damnati, tamen quia
+          <lb ed="#P" n="109"/>de facto nulli tales Angeli dantur; ideo 
+          sim<lb break="no" ed="#P" n="110"/>pliciter dividuntur Angeli in bonos et malos,
+          <pb ed="#P" n="795"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>estque adaequata divisio, et de extireme malis
+          <lb ed="#P" n="2"/>et bonis intelligenda est.
+        </p>
+        <p xml:id="szdada-x19924-d1e1261">
+          <lb ed="#P" n="3"/>16. Respondetur ad fundamentum primae 
+          o<lb break="no" ed="#P" n="4"/>pinionis in numero octavo. — Multiplex sensus
+          <lb ed="#P" n="5"/>divisionis Angelorum in ceolestes et terrestres.
+          <lb ed="#P" n="6"/>—Pnumus sensus rejicitur. — Secundus sensus
+          <lb ed="#P" n="7"/>admittitur. — Ad philosophos ergo imprimis
+          <lb ed="#P" n="8"/>dicimus, eos non cognovisse Angelos bonos vel
+          <lb ed="#P" n="9"/>malos per fidem, neque ex principiis solius 
+          na<lb break="no" ed="#P" n="10"/>turae, aut ex sensibilibus effectibus in eorum
+          <lb ed="#P" n="11"/>notitiam pervenire potuisse, ideoque mirum
+          <lb ed="#P" n="12"/>non esse, quod circa eorum statum, 
+          conditio<lb break="no" ed="#P" n="13"/>nem, aut distinctionem hallucinati fuerint.
+          <lb ed="#P" n="14"/>Deinde dicimus, distinctionem illam 
+          Angelo<lb break="no" ed="#P" n="15"/>rum in coelestes, et terrestres variis modis 
+          intel<lb break="no" ed="#P" n="16"/>ligi posse. Unus est secundum Origenem, id
+          <lb ed="#P" n="17"/>est, ut quidam in coelo, alii in terra, vel ex
+          <lb ed="#P" n="18"/>terra orti fuerint. Et sic mala est distinctio,
+          <lb ed="#P" n="19"/>falsumque supponit, nulli enim Angeli in terra,
+          <lb ed="#P" n="20"/>vel ex terra orti sunt, sed omnes in coelo creati
+          <lb ed="#P" n="21"/>fuerunt. Unde in hoc sensu omnes Angeli 
+          coe<lb break="no" ed="#P" n="22"/>lestes sunt, nec aliqui terrestres sunt procreati.
+          <lb ed="#P" n="23"/>Alius sensus esse potest secundum domicilium
+          <lb ed="#P" n="24"/>(ut sic dicam) seu perpetuam habitationem,
+          <lb ed="#P" n="25"/>ita ut coelestes dicantur, qui in coelo habent
+          <lb ed="#P" n="26"/>proprium domicilium, seu locum ad suam 
+          ha<lb break="no" ed="#P" n="27"/>bitationem destinatum, terrestres vero e 
+          con<lb break="no" ed="#P" n="28"/>trario, qui e coelo relegati terrenam 
+          habitatio<lb break="no" ed="#P" n="29"/>nem sortiti sunt. Et sic bona est distinctio,
+          <lb ed="#P" n="30"/>coinciditque cum distinctione inter bonos et
+          <lb ed="#P" n="31"/>malos: quia sicut omnes coelestes boni sunt,
+          <lb ed="#P" n="32"/>ita et omnes terrestres sunt mali. Nec enim
+          <lb ed="#P" n="33"/>ob aliam causam ex coelestibus facti sunt 
+          ter<lb break="no" ed="#P" n="34"/>restres, nisi quia mali sunt. Et ideo in hoc
+          <lb ed="#P" n="35"/>sensu frustra additur subdivisio Angelorum
+          <lb ed="#P" n="36"/>terrestrium in beneficos, et nocivos, nam 
+          re<lb break="no" ed="#P" n="37"/>vera omnes mahli, et malefici sunt, licet in hoc
+          <lb ed="#P" n="38"/>secundum magis, et minus aliqua differentia
+          <lb ed="#P" n="39"/>inter eos esse possit.
+        </p>
+        <p xml:id="szdada-x19924-d1e1344">
+          <lb ed="#P" n="40"/>17. Tertius quoque admittitur.—Esplicatur
+          <lb ed="#P" n="41"/>Damascenus allatus numero nono. — Tertius
+          <lb ed="#P" n="42"/>sensus prioris distinctionis esse posset, ut 
+          coe<lb break="no" ed="#P" n="43"/>lestes Angeli dicantur, qui semper in coelis 
+          ha<lb break="no" ed="#P" n="44"/>bitant, et ad terram nunquam descendunt;
+          <lb ed="#P" n="45"/>sub terrestribus vero omnes, qui inter nos 
+          ver<lb break="no" ed="#P" n="46"/>santur, terrenarumque rerum curam, vel 
+          ad<lb break="no" ed="#P" n="47"/>ministrationem aliquam susceperunt, 
+          compre<lb break="no" ed="#P" n="48"/>hendantur. Atque in hoc sensu de terrenis
+          <lb ed="#P" n="49"/>Angelis locutus est Damascenus: et in eodem
+          <lb ed="#P" n="50"/>verum est, omnes Angelos coelestes esse 
+          bo<lb break="no" ed="#P" n="51"/>nos: et terrestres distingui posse in beneficos,
+          <lb ed="#P" n="52"/>et perniciosos. Nihilominus tamen inde non
+          <lb ed="#P" n="53"/>augetur distinctio Angelorum in bonos et 
+          ma<lb break="no" ed="#P" n="54"/>los: quia Angeli, quibus terrenarum rerum
+          <lb ed="#P" n="55"/>cura et custodia in earum commodum com-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>missa est, omnes sunt boni, et ejusdem 
+          na<lb break="no" ed="#P" n="57"/>turae, et gloriae cum coelestibus, et isti sunt
+          <lb ed="#P" n="58"/>benefici. Nam licet interdum ut ministri Dei
+          <lb ed="#P" n="59"/>homines puniant, non possunt dici malefici,
+          <lb ed="#P" n="60"/>cum illudmet supplicium magnum sit 
+          hu<lb break="no" ed="#P" n="61"/>mani generis beneficium. Igitur malefici 
+          An<lb break="no" ed="#P" n="62"/>geli omnes sunt mali, eisque non est cura
+          <lb ed="#P" n="63"/>universi commissa, sed aliqua operatio ad 
+          ho<lb break="no" ed="#P" n="64"/>minum exercitationem permissa, ut infra 
+          di<lb break="no" ed="#P" n="65"/>cemus. Unde etiam fit, non posse daemones
+          <lb ed="#P" n="66"/>proprie dictos, in bonos et malos distingui,
+          <lb ed="#P" n="67"/>omnes enim pessimi sunt. Nisi vox demonis
+          <lb ed="#P" n="68"/>in generali, et ambigua significatione 
+          accipia<lb break="no" ed="#P" n="69"/>tur, ut supra explicavi: tunc vox daemonis
+          <lb ed="#P" n="70"/>fere coincidit cum nomine Angeli, et ita 
+          ea<lb break="no" ed="#P" n="71"/>dem erit utriusque distinctio in bonum et
+          <lb ed="#P" n="72"/>malum.
+        </p>
+        <p xml:id="szdada-x19924-d1e1420">
+          <lb ed="#P" n="73"/>18. In quo sensu vera sit divisio inter 
+          de<lb break="no" ed="#P" n="74"/>mones et Deos medios posita in fine numeri
+          <lb ed="#P" n="75"/>octavi. —Illa vero distinctio inter daemones, et
+          <lb ed="#P" n="76"/>Deos medios, seu secundarios, si in bono 
+          sen<lb break="no" ed="#P" n="77"/>su verborum accipiatur, eadem etiam est cum
+          <lb ed="#P" n="78"/>divisione Angelorum in malos et bonos:
+          <lb ed="#P" n="79"/>nam omnes daemones mali Angeli sunt, et
+          <lb ed="#P" n="80"/>omnes Angeli boni sunt dii per 
+          participatio<lb break="no" ed="#P" n="81"/>nem tanquam justi, et filii Dei. Nec enim 
+          dan<lb break="no" ed="#P" n="82"/>tur Angeli, qui natura sua sint dii, cum 
+          om<lb break="no" ed="#P" n="83"/>nes sint ab uno Deocreati, et natura sua 
+          tan<lb break="no" ed="#P" n="84"/>tum servi, nisi per gratiam filii Dei, seu di
+          <lb ed="#P" n="85"/>per participationem fiant, ut recte docuit 
+          Au<lb break="no" ed="#P" n="86"/>gustinus, lib. 9, de Civit., cap. ult. Quod si
+          <lb ed="#P" n="87"/>daemonum nomen in ea divisione latius a 
+          Pla<lb break="no" ed="#P" n="88"/>tone, seu Porphyrio acciperetur, ut includit
+          <lb ed="#P" n="89"/>bonos Angelos, qui inter nos versantur, 
+          nos<lb break="no" ed="#P" n="90"/>que custodiunt: sic soli Angeli, quos nos 
+          as<lb break="no" ed="#P" n="91"/>sistentes vocamus, seu quos nunquam mitti
+          <lb ed="#P" n="92"/>dicimus, sub nomine Deorum 
+          comprehendun<lb break="no" ed="#P" n="93"/>tur, ita tamen ut caveatur error, veram 
+          divi<lb break="no" ed="#P" n="94"/>nitatem illis tribuens, solumque ita vocentur
+          <lb ed="#P" n="95"/>quasi per antonomasiam inter duos per 
+          par<lb break="no" ed="#P" n="96"/>ticipationem, eo quod a Dei consortio, et quasi
+          <lb ed="#P" n="97"/>familiaritate nunquam recedunt. In hac vero
+          <lb ed="#P" n="98"/>significatione sub daemonibus oportebit 
+          com<lb break="no" ed="#P" n="99"/>prehendere Angelos bonos, qui ad nos veniunt,
+          <lb ed="#P" n="100"/>et nos custodiunt. Et ita sublata verborum
+          <lb ed="#P" n="101"/>eequivocatione omnes Angeli sub bonis et 
+          ma<lb break="no" ed="#P" n="102"/>lis comprehenduntur.
+        </p>
+        <p xml:id="szdada-x19924-d1e1488">
+          <lb ed="#P" n="103"/>19. Varii errores secundae opinionis in 
+          mu<lb break="no" ed="#P" n="104"/>mero decimo.—Alia vero divisio daemonum ex
+          <lb ed="#P" n="105"/>foeminis generatorum ab Anggelis malis, qui
+          <lb ed="#P" n="106"/>prius ceciderunt, ac daemones generarunt,
+          <lb ed="#P" n="107"/>plures includit errores. Unus est, quod 
+          den<lb break="no" ed="#P" n="108"/>tur daemones producti ab aliis Angelis malis,
+          <lb ed="#P" n="109"/>quos Deus quoad naturam immediate creavit.
+          <lb ed="#P" n="110"/>Quia si daemones sunt Angeli, non poterunt
+          <pb ed="#P" n="796"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>esse nisi per creationem. et sic a solo Deo fieri,
+          <lb ed="#P" n="2"/>juxta dicta in libro primo de natura et 
+          ori<lb break="no" ed="#P" n="3"/>gine Angelorum. Si vero tales daemones non
+          <lb ed="#P" n="4"/>sunt Angeli, vel erunt aliquae animae 
+          sepa<lb break="no" ed="#P" n="5"/>ratae, et sic frustra vocantur daemones, et
+          <lb ed="#P" n="6"/>falso finguntur inter nos versari, aut 
+          daemo<lb break="no" ed="#P" n="7"/>num oflicia exercere. Si vero fingantur esse
+          <lb ed="#P" n="8"/>media naturae inter angelicam, et humanam,
+          <lb ed="#P" n="9"/>hic erit secundus error illius sententiae, quia
+          <lb ed="#P" n="10"/>contra fidem, et contra rationem est, talem
+          <lb ed="#P" n="11"/>naturam fingere. Quia illi daemones ponuntur
+          <lb ed="#P" n="12"/>esse creaturae rationes utentes, et spiritus 
+          se<lb break="no" ed="#P" n="13"/>parati a corporibus; ergo vel sunt substantiae
+          <lb ed="#P" n="14"/>completae, et formae corporum, et sicsunt 
+          ani<lb break="no" ed="#P" n="15"/>mae rationales, quia nulla est alia substantia
+          <lb ed="#P" n="16"/>rationalis, quae sit vera forma corporis, ut
+          <lb ed="#P" n="17"/>supra libro septimo tactum .est, nec dantur
+          <lb ed="#P" n="18"/>formae rationales informantes corporaespecie
+          <lb ed="#P" n="19"/>diversae, ut in tractatu de Anima latius 
+          di<lb break="no" ed="#P" n="20"/>cemus.
+        </p>
+        <p xml:id="szdada-x19924-d1e1556">
+          <lb ed="#P" n="21"/>20. Tertius error est, quod Angelus possit
+          <lb ed="#P" n="22"/>ex fiemina generare aliquid medium inter 
+          ho<lb break="no" ed="#P" n="23"/>minem et Angelum. Nam praeterquam, quod
+          <lb ed="#P" n="24"/>non datur tale medium, ut dixi, vel fingitur
+          <lb ed="#P" n="25"/>Angelus accedere ad generandum ex foemina
+          <lb ed="#P" n="26"/>in sua pura spirituali natura, vel in corpore
+          <lb ed="#P" n="27"/>assumpto. Primum est plane impossibile, et
+          <lb ed="#P" n="28"/>ridiculum, cum Angelus non habeat organa
+          <lb ed="#P" n="29"/>corporis ad generationem apta, imo nec 
+          om<lb break="no" ed="#P" n="30"/>nino corpus. Si vero secundum dicatur, solum
+          <lb ed="#P" n="31"/>potest spiritus generare tanquam succubus, et
+          <lb ed="#P" n="32"/>incubus ministrando semen humanum moxo,
+          <lb ed="#P" n="33"/>in libro quarto explicato, ex quo non potest
+          <lb ed="#P" n="34"/>nisi homo generari. Quartus error est, quod
+          <lb ed="#P" n="35"/>illi qui, Genes. 6, narrantur genitia filiis Dei
+          <lb ed="#P" n="36"/>accedentibus ad filias hominum, non fuerint
+          <lb ed="#P" n="37"/>veri homines. Hoc enim repugnat Scripturae,
+          <lb ed="#P" n="38"/>tum quia dicit illos fuisse gigantes, quo 
+          nomi<lb break="no" ed="#P" n="39"/>ne non nisi homines procerae staturae 
+          signifi<lb break="no" ed="#P" n="40"/>cantur, tum etiam quia statim de illis dicit,
+          <lb ed="#P" n="41"/>Isti sunt potentes a secule ciri famosi. Quintus
+          <lb ed="#P" n="42"/>error est, quod illi Dei, qui ad fibas hominum
+          <lb ed="#P" n="43"/>accesserunt, fuerint veri Angeli, de quo in
+          <lb ed="#P" n="44"/>libro primo. capite quinto, circa finem, dictum
+          <lb ed="#P" n="45"/>est. Sextus error est, prius peccasse in coelo
+          <lb ed="#P" n="46"/>solum Luciferum, et postea in terra peccasse
+          <lb ed="#P" n="47"/>aliquos bonos Angelos custodes hominum, et
+          <lb ed="#P" n="48"/>primo peccasse per concupiscentiam 
+          foemina<lb break="no" ed="#P" n="49"/>rum, quae omnia impugnabimus in 
+          sequenti<lb break="no" ed="#P" n="50"/>bus: et in capite sequenti aliarum errorem 
+          de<lb break="no" ed="#P" n="51"/>tezemus, et refellemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

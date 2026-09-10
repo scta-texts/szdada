@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="134"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x03341"><!-- l2c7 -->
+        <head xml:id="szdada-x03341-Hd1e101">Caput 7</head>
+        <head xml:id="szdada-x03341-Hd1e103" type="question-title">Utrum species intelligibiles concreatae angelo ab ejus intellectu effective dimanent, vel a solo deo fiant, angelo tantum passive se habente</head>
+        <p xml:id="szdada-x03341-d1e106">
+          <lb ed="#P" n="24"/>CAPUT VII.
+          <lb ed="#P" n="25"/>UTRUM SPECIES INTELLIGIBILES CONCREATAE ANGELO
+          <lb ed="#P" n="26"/>AB EJUS INTELLECTU EFFECTIVE DIMANENT, VEL
+          <lb ed="#P" n="27"/>A SOLO DEO FIANT, ANGELO TANTUM PASSIVE SE
+          <lb ed="#P" n="28"/>HABENTE.
+        </p>
+        <p xml:id="szdada-x03341-d1e119">
+          <lb ed="#P" n="29"/>1. Arguitur primo pro emanatione. — Ratio
+          <lb ed="#P" n="30"/>dubitandi tacta est in fine praecedentis capitis,
+          <lb ed="#P" n="31"/>quia species intelligibiles esse debent 
+          connatu<lb break="no" ed="#P" n="32"/>rales intellectui angelico, alias miraculose et
+          <lb ed="#P" n="33"/>non connaturaliter cum eis crearentur, ergo
+          <lb ed="#P" n="34"/>dimanant ab ejus essentia vel immediate, vel
+          <lb ed="#P" n="35"/>saltem mediante intellectu. Probatur 
+          conse<lb break="no" ed="#P" n="36"/>quentia, quia si sunt connaturales et coaevae ex
+          <lb ed="#P" n="37"/>natura sua, id esse non potest, nisi propter 
+          in<lb break="no" ed="#P" n="38"/>trinsecam connexionem, quam habent cum
+          <lb ed="#P" n="39"/>natura Angeli, ergo sunt proprietates 
+          dima<lb break="no" ed="#P" n="40"/>nantes ab ejus essentia: nam haec tantum solet
+          <lb ed="#P" n="41"/>esse connexio inter naturam subjecti, et 
+          pro<lb break="no" ed="#P" n="42"/>prietatis inseparabilis ab illo. Unde 
+          argumen<lb break="no" ed="#P" n="43"/>tor secundo, quia si istae species non manant ab
+          <lb ed="#P" n="44"/>angelica natura, non erunt propriae passiones
+          <lb ed="#P" n="45"/>ejus, erunt ergo accidentia communia, qualia
+          <lb ed="#P" n="46"/>sunt, quae fieri solent ab agente extrinseco in
+          <lb ed="#P" n="47"/>subjecto tantum passive se habente, ergo 
+          nul<lb break="no" ed="#P" n="48"/>Ium est principium asserendi, haec accidentia
+          <lb ed="#P" n="49"/>esse coaeva omnibus Angelis, quia ab illis non
+          <lb ed="#P" n="50"/>manant, et agens extrinsecum, a quo fiunt,
+          <lb ed="#P" n="51"/>non agit ex necessitate naturae, sed libere, unde
+          <lb ed="#P" n="52"/>non cogitur illas simul cum subjecto producere.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>Et confirmatur ex Aureolo, quia inconveniens
+          <lb ed="#P" n="54"/>est ponere in Angelo potentiam passivam 
+          na<lb break="no" ed="#P" n="55"/>turalem ad tales species, et quod illi non 
+          re<lb break="no" ed="#P" n="56"/>spondeat potentia activa naturalis, per quam
+          <lb ed="#P" n="57"/>possit illa potentia passiva naturalis in actum
+          <lb ed="#P" n="58"/>reduci, ergo datur intrinsecum principium,
+          <lb ed="#P" n="59"/>unde active manent. Tertio redit argumentum
+          <lb ed="#P" n="60"/>supra factum, quia alias licet Angelus sine his
+          <lb ed="#P" n="61"/>speciebus crearetur, nulla violentia ei fieret,
+          <lb ed="#P" n="62"/>et consequenter posset ita naturaliter creari,
+          <lb ed="#P" n="63"/>quod in nostra sententia dici non potest, quia
+          <lb ed="#P" n="64"/>alias posset Angelus naturaliter esse non solum
+          <lb ed="#P" n="65"/>ignorans, sed etiam ad expellendam 
+          ignoran<lb break="no" ed="#P" n="66"/>tiam impotens. Probatur autem sequela, quia
+          <lb ed="#P" n="67"/>violentum est quod aliquis patitur contra 
+          in<lb break="no" ed="#P" n="68"/>ternum impetum: ubi autem non datur 
+          inter<lb break="no" ed="#P" n="69"/>num principium, a quo proprietas active 
+          di<lb break="no" ed="#P" n="70"/>manet, non datur internus impetus: nam hic
+          <lb ed="#P" n="71"/>solum in potentia activa invenitur, ergo secluso
+          <lb ed="#P" n="72"/>illo interno principio, privatio alicujus formae
+          <lb ed="#P" n="73"/>non est violenta, ergo nec carentia talium 
+          spe<lb break="no" ed="#P" n="74"/>cierum erit Angelo violenta, si ab ejus essentia
+          <lb ed="#P" n="75"/>intrinsece et active non dimanant.
+        </p>
+        <p xml:id="szdada-x03341-d1e226">
+          <lb ed="#P" n="76"/>2. Prima sententia. — In hoc puncto omnes
+          <lb ed="#P" n="77"/>auctores, qui negant, habere Angelos has 
+          spe<lb break="no" ed="#P" n="78"/>cies congenitas, procerto supponunt non fluere
+          <lb ed="#P" n="79"/>ab essentia vel intellectu Angeli, quia non 
+          pu<lb break="no" ed="#P" n="80"/>tant illam carentiam esse contra, vel extra 
+          natu<lb break="no" ed="#P" n="81"/>ram Angeli, sed potius illi naturalem esse 
+          pu<lb break="no" ed="#P" n="82"/>tant. Inter eos vero, qui putant, Angelos habere
+          <lb ed="#P" n="83"/>has species concreatas, variae sunt opiniones.
+          <lb ed="#P" n="84"/>Prima affirmat illas dimanare active et 
+          intrin<lb break="no" ed="#P" n="85"/>sece ab intellectu Angeli. Ita affirmat 
+          Capreo<lb break="no" ed="#P" n="86"/>lus, in 2, d. 3, quaest. 2, art. 3, ad 
+          argumen<lb break="no" ed="#P" n="87"/>tum Aureoli contra tertiam conclusionem.
+          <lb ed="#P" n="88"/>Quod fere erat secundum a nobis propositum,
+          <lb ed="#P" n="89"/>cui respondet, quod sicut noster intellectus fluit
+          <lb ed="#P" n="90"/>ab anima, ita intellectus Angeli speciebus 
+          for<lb break="no" ed="#P" n="91"/>matus ab Angeli substantia promanat. Indicat
+          <lb ed="#P" n="92"/>eamdem sententiam Cajetanus 1, 2, quaest. 50,
+          <lb ed="#P" n="93"/>art. 6. Nam licet prius solum dicat, has species
+          <lb ed="#P" n="94"/>esse Angelo congeritas ab auctore nature, addit:
+          <lb ed="#P" n="95"/>sicut gravia et levia habent motum a generante.
+          <lb ed="#P" n="96"/>Motus autem genito naturalis non fit sine 
+          di<lb break="no" ed="#P" n="97"/>manatione activa a forma geniti, ergo hoc
+          <lb ed="#P" n="98"/>modo sentit Cajetanus fieri species a Deo in
+          <lb ed="#P" n="99"/>Angelis. Et expressius, q. 51, art. 1, in fine,
+          <lb ed="#P" n="100"/>dicens habere Angelum species a Deo, non sic,
+          <lb ed="#P" n="101"/>quasi praefuerit, et accipiat a Deo species, sed
+          <lb ed="#P" n="102"/>quia per hoc illas habet, quia a Deo congenitas
+          <lb ed="#P" n="103"/>naturali sequela ad proprium essentiam 
+          possi<lb break="no" ed="#P" n="104"/>det, idem clarius in 3 part., quaest. 9, art. 3,
+          <lb ed="#P" n="105"/>in expositione tituli, ubi ait, scientiam inditam
+          <lb ed="#P" n="106"/>Angelo esse proprietatem naturalem ita 
+          comi<lb break="no" ed="#P" n="107"/>tem naturae, ut eadem actione, qua Angelus
+          <pb ed="#P" n="135"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>creatur, species intelligibiles illi imprimantur.
+          <lb ed="#P" n="2"/>Ubi Medina idem sequitur, et latius Bannez, d.
+          <lb ed="#P" n="3"/>quaest. 55, art. 2, citatque D. Thomam, 1 part.,
+          <lb ed="#P" n="4"/>quaest. 54, art. 4, ad 1, dicentem, quod in 
+          An<lb break="no" ed="#P" n="5"/>gelo non generatur scientia, sed naturaliter 
+          ad<lb break="no" ed="#P" n="6"/>est. Et in quaest. 55, art. 3, ad 1, quia bi ait,
+          <lb ed="#P" n="7"/>universales rerum rationes prius secundum
+          <lb ed="#P" n="8"/>naturam esse in mentibus angelicis quam in
+          <lb ed="#P" n="9"/>ipsis rebus. Putat enim, hoc non posse esse 
+          ve<lb break="no" ed="#P" n="10"/>rum. nisi species angelicae ab essentia Angelh
+          <lb ed="#P" n="11"/>fluant, et ibi alia argumenta multiplicat, quae
+          <lb ed="#P" n="12"/>leviora sunt, et ideo prolixitatis vitandae causa
+          <lb ed="#P" n="13"/>illa omitto, obiter tamen responsionem 
+          attin<lb break="no" ed="#P" n="14"/>gam. Unde etiam Ripa ibi, licet Bannez 
+          opi<lb break="no" ed="#P" n="15"/>ionem sequatur, dicit, non necessario, sed
+          <lb ed="#P" n="16"/>congruenter illam suadere. Addit tamen locum
+          <lb ed="#P" n="17"/>D. Thomas, 1 part., quaest. 61, art. 1, ubi ait,
+          <lb ed="#P" n="18"/>cognitionem naturalem Angeli consequi 
+          natu<lb break="no" ed="#P" n="19"/>ram Angeli, et ideo in daemonibus non fuisse
+          <lb ed="#P" n="20"/>diminutam. Inclinat Valentia, 1 p., disp. 6,
+          <lb ed="#P" n="21"/>quaest. 6, in fine, sed ibi solum contendit, has
+          <lb ed="#P" n="22"/>species esse proprietates naturales, quod dicit
+          <lb ed="#P" n="23"/>negasse Ferrariensis. Sed immerito, nam potius
+          <lb ed="#P" n="24"/>alii Ferrariensem pro hac sententia allegant,
+          <lb ed="#P" n="25"/>quia in l. 2, contra Gent., cap. 96, circa 
+          ratio<lb break="no" ed="#P" n="26"/>nem 5, dicit, Angelos habere species a natura,
+          <lb ed="#P" n="27"/>ac subinde illis connaturales. Sed hoc 
+          genera<lb break="no" ed="#P" n="28"/>Iius est, nec in hoc controversia inter 
+          Capreo<lb break="no" ed="#P" n="29"/>Ium et Ferrariensem, sed in modo 
+          connatura<lb break="no" ed="#P" n="30"/>htatis, ut dicemus.
+        </p>
+        <p xml:id="szdada-x03341-d1e368">
+          <lb ed="#P" n="31"/>3. Sententia extrema opposita. — Unde 
+          re<lb break="no" ed="#P" n="32"/>ferri potest secunda sententia praecedenti 
+          ex<lb break="no" ed="#P" n="33"/>treme contraria, has species, etiamsi concreatae
+          <lb ed="#P" n="34"/>sint, non solum non dimanare active a natura
+          <lb ed="#P" n="35"/>Angeli, verum etiam non esse illi 
+          connatura<lb break="no" ed="#P" n="36"/>les, seu connaturaliter debitas. Hanc 
+          opi<lb break="no" ed="#P" n="37"/>nionem a nemine refcrri video. Potest tamen
+          <lb ed="#P" n="38"/>non immerito tribui Alensi, et aliis auctoribus,
+          <lb ed="#P" n="39"/>qui simul ponunt in Angelis species 
+          concrea<lb break="no" ed="#P" n="40"/>tas, et a rebus acceptas, eorumdem 
+          objecto<lb break="no" ed="#P" n="41"/>rum, et ad idem genus cognitionis. Et idem
+          <lb ed="#P" n="42"/>sentire debuit Scotus, qui asseruit, quod licet
+          <lb ed="#P" n="43"/>Angelus babuerit concreatas species 
+          quiddita<lb break="no" ed="#P" n="44"/>tum materialium, potuit illas acquirere, si
+          <lb ed="#P" n="45"/>illas congenitas non haberet. Ex hac enim 
+          doc<lb break="no" ed="#P" n="46"/>trina sequi videtur species datas Angelo a
+          <lb ed="#P" n="47"/>principio non esse proprietates naturales, nec
+          <lb ed="#P" n="48"/>connaturaliter debitas, quandoquidem similes
+          <lb ed="#P" n="49"/>acquirere poterat. Nulli enim rei creatae 
+          de<lb break="no" ed="#P" n="50"/>bita sunt principia, vel instrumenta operandi,
+          <lb ed="#P" n="51"/>quae ipsa per suas potentias, et causas secundas
+          <lb ed="#P" n="52"/>potest acquirere, ideo non debentur homini
+          <lb ed="#P" n="53"/>inditae species, quia potest illas acquirere, ergo
+          <lb ed="#P" n="54"/>si Angelus potest accipere species a rebus, non
+          <lb ed="#P" n="55"/>sunt illi debitae per solam actionem auctoris
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>naturae, ergo si ulli concreatae sunt, non ideo
+          <lb ed="#P" n="57"/>sunt, quia sint illi connaturales, sed ex 
+          libera<lb break="no" ed="#P" n="58"/>litate, et quadam gratia auctoris naturae 
+          vo<lb break="no" ed="#P" n="59"/>lentis rem in statu perfectiori producere. Sicut
+          <lb ed="#P" n="60"/>etiam creavit Deus hominem cum habitibus,
+          <lb ed="#P" n="61"/>et scientia rerum naturalium, licet non essent
+          <lb ed="#P" n="62"/>connaturaliter debiti ex vi talis naturae: unde
+          <lb ed="#P" n="63"/>dici possunt illi habitus supernaturales 
+          secun<lb break="no" ed="#P" n="64"/>dum modum, id est, modo praeternaturali
+          <lb ed="#P" n="65"/>aati. Ad hunc ergo modum videtur sentire
+          <lb ed="#P" n="66"/>Alensis de Angelis; indicat enim creasse Deum
+          <lb ed="#P" n="67"/>Angelos plenos scientiarum, et specierum 
+          in<lb break="no" ed="#P" n="68"/>teiligibium, non quia tota illa perfectio esset
+          <lb ed="#P" n="69"/>illis debita connaturaliter, sed propter 
+          magni<lb break="no" ed="#P" n="70"/>ficentiam Dei in statu perfecto sua opera 
+          fa<lb break="no" ed="#P" n="71"/>cientis. Unde sicut scientia Adae fuit infusa
+          <lb ed="#P" n="72"/>per accidens, et quoad hoc supra naturam, ita
+          <lb ed="#P" n="73"/>species Angelorum concreate erunt (juxta
+          <lb ed="#P" n="74"/>hanc sententiam) infusae per accidens, quia
+          <lb ed="#P" n="75"/>habent alium modum connaturalem, quo fiant.
+          <lb ed="#P" n="76"/>Et confirmatur, nam species concreata, et 
+          ac<lb break="no" ed="#P" n="77"/>quisita ab Angelo ejusdem objecti, et seque
+          <lb ed="#P" n="78"/>particularis, est ejusdem speciei, ergo utraque
+          <lb ed="#P" n="79"/>est acquisibilis ab Angelo, ergo altera per 
+          acci<lb break="no" ed="#P" n="80"/>dens est infusa, quando ex libertate Dei fuit
+          <lb ed="#P" n="81"/>concreata.
+        </p>
+        <p xml:id="szdada-x03341-d1e483">
+          <lb ed="#P" n="82"/>4. Tertia eaque vera sententia. — Tertia
+          <lb ed="#P" n="83"/>sententia est media inter has extremas, quam
+          <lb ed="#P" n="84"/>veram censeo. Et ad illam explicandam dico
+          <lb ed="#P" n="85"/>primo. Species intelligibiles Angelis concreatae
+          <lb ed="#P" n="86"/>non manarunt effective ab essentia, vel 
+          intel<lb break="no" ed="#P" n="87"/>lectu Angeli. Hanc sententiam impugnando
+          <lb ed="#P" n="88"/>Capreolum docuit Ferrariensis 2, cont. Gent.,
+          <lb ed="#P" n="89"/>cap. 98, circa 3 part. capitis, dub. 2. Et eam
+          <lb ed="#P" n="90"/>sequitur et bene confirmat Molina, 1 p., q. 52,
+          <lb ed="#P" n="91"/>art. 2, d. 2, memb. 3, et Cumelius, in eodem
+          <lb ed="#P" n="92"/>articulo, Pesantius ibi conclus. 3, Daniel 
+          Malo<lb break="no" ed="#P" n="93"/>nius, in 2, d. 3, disp. 11, Rada, in2 part. 
+          con<lb break="no" ed="#P" n="94"/>trov., in 9, art. 3, qui plures rationes 
+          multi<lb break="no" ed="#P" n="95"/>plicant, solum tamen attingam, quae videntur
+          <lb ed="#P" n="96"/>efficaces, alias praetermittam. Imprimis vero
+          <lb ed="#P" n="97"/>persuasum habeo hanc fuisse sententiam divi
+          <lb ed="#P" n="98"/>Thomae, in dicta quaest. 55, art. 2, ubi ita 
+          con<lb break="no" ed="#P" n="99"/>cludit: Angeli suam intelligibilem perfectionem
+          <lb ed="#P" n="100"/>consequuntur per intelli dibilem efflusum, quo a
+          <lb ed="#P" n="101"/>Deo species rerum cognitarum acceperant simul
+          <lb ed="#P" n="102"/>cum. intellectuali natura. Quibus verbis satis
+          <lb ed="#P" n="103"/>significat, Deum speciali actione distincta a
+          <lb ed="#P" n="104"/>creatione Angeli efficere has species, simul ac
+          <lb ed="#P" n="105"/>Angelos creat. Et ad 1, repetit, Angelum a Deo
+          <lb ed="#P" n="106"/>habere similitudines creaturarum, quia et est
+          <lb ed="#P" n="107"/>causa creaturarun, et in eo primo similitudines
+          <lb ed="#P" n="108"/>rerum existunt. Rem quaest. 56, art. 2, ad 4,
+          <lb ed="#P" n="109"/>dicit, quod si Deus creasset Angelum novum,
+          <lb ed="#P" n="110"/>aliis vel infunderet, vel infudisset speciem talis
+          <pb ed="#P" n="136"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Angeli, quam nunc non habent, quia talis 
+          An<lb break="no" ed="#P" n="2"/>gelus futurus non est, sed tunc illa species non
+          <lb ed="#P" n="3"/>manaret ab essentia Angelorum, ut videtur
+          <lb ed="#P" n="4"/>per se notum, quia proprietas manans ab 
+          es<lb break="no" ed="#P" n="5"/>sentia, supermanat: infunderetur ergo a Deo
+          <lb ed="#P" n="6"/>(ut D. Thomas sentit) per propriam actionem,
+          <lb ed="#P" n="7"/>ergo sentit, eodem modo nunc infundi species,
+          <lb ed="#P" n="8"/>quas Angeli habent. Praeterea in 3 part., q. 9,
+          <lb ed="#P" n="9"/>a. 3, sic inquit: per cerbum Dei anime Christi
+          <lb ed="#P" n="10"/>sibi personaliter unitae impresse sunt species
+          <lb ed="#P" n="11"/>intelligibiles ad omnia, ad quae intellectus 
+          pos<lb break="no" ed="#P" n="12"/>sililis est in potentia, sicut per Verbum Dei
+          <lb ed="#P" n="13"/>impressae sunt species intelligibiles menti 
+          ange<lb break="no" ed="#P" n="14"/>lice in principio creationis rerum, ut patet per
+          <lb ed="#P" n="15"/>Augustinum 2. Gennadius, ad lit., cap. 8, ubi
+          <lb ed="#P" n="16"/>et ex comparatione, quam facit, et ex verbo
+          <lb ed="#P" n="17"/>imprimendi, et ex distinctione illius a 
+          crea<lb break="no" ed="#P" n="18"/>tione, manifeste liquet, D. Thomas loqui de
+          <lb ed="#P" n="19"/>actione propria Dei infundentis tales species
+          <lb ed="#P" n="20"/>sine intrinseca emanatione a natura. Nemo
+          <lb ed="#P" n="21"/>enim dicet, Deum impressisse Angelo 
+          intellec<lb break="no" ed="#P" n="22"/>tum et voluntatem, quando illum creavit. 
+          De<lb break="no" ed="#P" n="23"/>nique in aliis locis solum dicere solet, has 
+          spe<lb break="no" ed="#P" n="24"/>cies esse congenitas vel concreatas Angelis,
+          <lb ed="#P" n="25"/>nunquam vero ab essentia manare insinuavit.
+        </p>
+        <p xml:id="szdada-x03341-d1e607">
+          <lb ed="#P" n="26"/>5. Primo conclusio probatur. — Prima ratio
+          <lb ed="#P" n="27"/>veluti a posteriori sit, quia quae fluunt ab 
+          es<lb break="no" ed="#P" n="28"/>sentia, sunt a natura determinata, sed ex 
+          na<lb break="no" ed="#P" n="29"/>tura intrinseca Angeli non determinantur certae
+          <lb ed="#P" n="30"/>species illi necessario concreandae, sed per 
+          divi<lb break="no" ed="#P" n="31"/>nam providentiam determinantur, ergo signum
+          <lb ed="#P" n="32"/>est. non fluere a natura, sed a Deo infundi. 
+          Ma<lb break="no" ed="#P" n="33"/>jor videtur perse nota, quia natura 
+          uniuscujus<lb break="no" ed="#P" n="34"/>que Angeli sigillatim sumpti determinata est
+          <lb ed="#P" n="35"/>sicut in essentiali perfectione sua, ita etiam in
+          <lb ed="#P" n="36"/>omni perfectione aut proprietate, quam ex se
+          <lb ed="#P" n="37"/>potest emittere (ut ita dicam) quia essentia est
+          <lb ed="#P" n="38"/>radix omnium talium proprietatum, unde sieut
+          <lb ed="#P" n="39"/>determinata est, ita determinatae sunt 
+          proprie<lb break="no" ed="#P" n="40"/>tates, quae ab illa fluere possunt. Probatur 
+          au<lb break="no" ed="#P" n="41"/>tem minor, quia nunc singuli Angeli solum
+          <lb ed="#P" n="42"/>habent species rerum naturalium, quae in hoc
+          <lb ed="#P" n="43"/>mundo creatae sunt, vel producuntur de facto
+          <lb ed="#P" n="44"/>saltem quoad quidditates et species earum, ut
+          <lb ed="#P" n="45"/>habet communis sententia, ergo determinatio
+          <lb ed="#P" n="46"/>ad tales species non est ex intrinseca natura
+          <lb ed="#P" n="47"/>Angeli, sed ex ordine divinae providentiae. 
+          Pro<lb break="no" ed="#P" n="48"/>batur consequentia, quia Angelus, verbi gratia,
+          <lb ed="#P" n="49"/>Gabriel, ex natura sua non magis determinat
+          <lb ed="#P" n="50"/>societatem cum his Angelis, quibuscum modo
+          <lb ed="#P" n="51"/>creatus est, quam cum aliis Angelis, cum quibus
+          <lb ed="#P" n="52"/>creari posset, nec ex natura sua postulat fieri
+          <lb ed="#P" n="53"/>cum coelis et elementis, vel ante illos, vel 
+          om<lb break="no" ed="#P" n="54"/>nino sine illis, omnibus enim his modis creari
+          <lb ed="#P" n="55"/>posset, et de se indifferens est ad omnes, ergo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quod hoc vel illo modo creetur, a sola divina
+          <lb ed="#P" n="57"/>determinatione, seu libera voluntate decretum
+          <lb ed="#P" n="58"/>est, sed ex hac determinatione aut decreto
+          <lb ed="#P" n="59"/>pendet determinatio specierum intelligibilium,
+          <lb ed="#P" n="60"/>concreandarum cum Angelo, nunc enim recipit
+          <lb ed="#P" n="61"/>species concreatas hujus mundi visibilis, quia
+          <lb ed="#P" n="62"/>cum illo et in illo creatus est: si autem 
+          creare<lb break="no" ed="#P" n="63"/>tur cum alio mundo, prout posset, illius et non
+          <lb ed="#P" n="64"/>istius species recepisset, si vero crearentur soli
+          <lb ed="#P" n="65"/>Angeli, ita ut Deus decrevisset nullas res 
+          ma<lb break="no" ed="#P" n="66"/>teriales creare, non essent infusae Angelis 
+          spe<lb break="no" ed="#P" n="67"/>cies rerum materialium, sed tantum 
+          Angelo<lb break="no" ed="#P" n="68"/>rum, et si Deus decrevisset, non hos, sed alios
+          <lb ed="#P" n="69"/>Angelos creare, illis dedisset species Angelorum
+          <lb ed="#P" n="70"/>tunc creandorum et non eorum, qui modo
+          <lb ed="#P" n="71"/>creati sunt, sicut nunc dedit Angelis species
+          <lb ed="#P" n="72"/>sociorum et non aliorum, qui creari cum illis
+          <lb ed="#P" n="73"/>possent et creandi non sunt, ergo signum est,
+          <lb ed="#P" n="74"/>hanc determinationem specierum pendere ex
+          <lb ed="#P" n="75"/>libera dispositione Dei, ergo signum est 
+          in<lb break="no" ed="#P" n="76"/>fundi per propriam Dei actionem, et ab 
+          essen<lb break="no" ed="#P" n="77"/>tiis Angelorum non manare.
+        </p>
+        <p xml:id="szdada-x03341-d1e724">
+          <lb ed="#P" n="78"/>6. Probatur secundo. — Secundo 
+          argumen<lb break="no" ed="#P" n="79"/>tor, vel potius vim ejusdem argumenti aliter
+          <lb ed="#P" n="80"/>declaro, quia si species intelligibiles aliarum
+          <lb ed="#P" n="81"/>rerum cognoscibilium ab Angelo, manant 
+          in<lb break="no" ed="#P" n="82"/>trinsece ab essentia, seu virtute intellectiva
+          <lb ed="#P" n="83"/>ejus, sequitur habere Angelum, et manare ab
+          <lb ed="#P" n="84"/>illa species omnium rerum et essentiarum
+          <lb ed="#P" n="85"/>creabilium: consequens est falsum, ergo. 
+          Se<lb break="no" ed="#P" n="86"/>quela probatur, quia omnes res creabiles 
+          dis<lb break="no" ed="#P" n="87"/>ibutive loquendo sunt cognoscibiles a 
+          quo<lb break="no" ed="#P" n="88"/>cumque Angelo nunc creato, ergo si aliquarum
+          <lb ed="#P" n="89"/>rerum cognoscibilium fluunt necessario aliquae
+          <lb ed="#P" n="90"/>species ab angelica natura, omnium rerum
+          <lb ed="#P" n="91"/>cognoscibilium species simul fluunt. Probatur
+          <lb ed="#P" n="92"/>consequentia, tum quia non est major ratio de
+          <lb ed="#P" n="93"/>his, quam de illis, tum etiam quia licet non
+          <lb ed="#P" n="94"/>possit simul uti omnibus in actu secundo, simul
+          <lb ed="#P" n="95"/>habet virtutem, a qua omnes manant, et ab
+          <lb ed="#P" n="96"/>omnibus simul in actu primo constitui potest.
+          <lb ed="#P" n="97"/>Et in hoc non se impediunt species, et radix 
+          ea<lb break="no" ed="#P" n="98"/>rum aeque est naturaliter determinata ad 
+          om<lb break="no" ed="#P" n="99"/>nes, et e contrario singulae naturaliter possunt a
+          <lb ed="#P" n="100"/>tali essentia manare, ergo simul emanant. 
+          Di<lb break="no" ed="#P" n="101"/>ces, non esse eamdem rationem de omnibus 
+          re<lb break="no" ed="#P" n="102"/>bus cognoscibilibus ab Angelo, quia non omnes
+          <lb ed="#P" n="103"/>sunt aeque possibiles, quia quaedam sunt 
+          secun<lb break="no" ed="#P" n="104"/>dum ordinariam potentiam, aliae secundum 
+          ab<lb break="no" ed="#P" n="105"/>solutam tantum, et quaedam sunt tantum 
+          possi<lb break="no" ed="#P" n="106"/>biles, aliae non tantum sunt possibiles, sed etiam
+          <lb ed="#P" n="107"/>futurae. At hoc refutatum est in primo 
+          argu<lb break="no" ed="#P" n="108"/>mento. Nam ordinaria potentia, vel absoluta in
+          <lb ed="#P" n="109"/>praesenti non distinguuntur, nisi per ordinem
+          <lb ed="#P" n="110"/>ad decretum liberum divinae voluntatis, quia
+          <pb ed="#P" n="137"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praecise spectando ad res ipsas possibiles, de
+          <lb ed="#P" n="2"/>quibus loquimur, omnes sunt ordinis naturalis,
+          <lb ed="#P" n="3"/>et per eumdem modum creationis vel 
+          produc<lb break="no" ed="#P" n="4"/>tionis fieri possent, solum ergo quia Deus 
+          de<lb break="no" ed="#P" n="5"/>crevit has creare et non illas, dicuntur hae
+          <lb ed="#P" n="6"/>possibiles secundum potentiam ordinariam,
+          <lb ed="#P" n="7"/>aliae tantum per absolutam, et hae tantum 
+          pos<lb break="no" ed="#P" n="8"/>sibiles, illae possibiles et futurae: ergo illae 
+          dit<lb break="no" ed="#P" n="9"/>ferentiae rerum possibilium non referunt ad
+          <lb ed="#P" n="10"/>variandas proprietates Angeli manantes ex 
+          il<lb break="no" ed="#P" n="11"/>lius essentia, quia (ut dixi) illa non habent
+          <lb ed="#P" n="12"/>determinationem ex decreto libero divinae 
+          vo<lb break="no" ed="#P" n="13"/>lIuntatis, sed ex intrinseca natura et perfectione
+          <lb ed="#P" n="14"/>illius essentiae, a qua manant, ergo.
+        </p>
+        <p xml:id="szdada-x03341-d1e833">
+          <lb ed="#P" n="15"/>7. Probatur tertio. — Unde argumentor 
+          ter<lb break="no" ed="#P" n="16"/>tio, seu eamdem difficultatem abhter explico:
+          <lb ed="#P" n="17"/>quia quidquid potest fluere ab aliqua essentia
+          <lb ed="#P" n="18"/>tanquam proprietas intrinseca, sibi inhaerens,
+          <lb ed="#P" n="19"/>semper fluit, seu resultat, nisi per miraculum
+          <lb ed="#P" n="20"/>impediatur, sed species rerum possibilium 
+          se<lb break="no" ed="#P" n="21"/>cundum contrariam sententiam possunt fluere
+          <lb ed="#P" n="22"/>ab essentia Angeli, ut patet, quia si Deus 
+          vo<lb break="no" ed="#P" n="23"/>luisset illas res creare, species illarum 
+          concrea<lb break="no" ed="#P" n="24"/>rentur cum Angelo, et ita fluerent ab ejus 
+          es<lb break="no" ed="#P" n="25"/>sentia, ergo etiam nunc fluunt, quia ille fluxus
+          <lb ed="#P" n="26"/>naturalis est, et per resultantiam necessariam,
+          <lb ed="#P" n="27"/>et non impeditur per hoc, quod Deus non 
+          de<lb break="no" ed="#P" n="28"/>creverit res per illas species repraesentabiles
+          <lb ed="#P" n="29"/>producere, quia species aequaliter esse possunt,
+          <lb ed="#P" n="30"/>sive res existat, sive non, et consequenter, sive
+          <lb ed="#P" n="31"/>aliquando futura sit, sive non sit. Aliter etiam
+          <lb ed="#P" n="32"/>confirmatur et explicatur: nam si Deus nunc
+          <lb ed="#P" n="33"/>novum Angelum crearet, caeteri Angeli omnes
+          <lb ed="#P" n="34"/>possent illum cognoscere, ergo haberent 
+          spe<lb break="no" ed="#P" n="35"/>ciem ejus, sed non per resultantiam naturalem,
+          <lb ed="#P" n="36"/>quia quod alicui rei per naturalem 
+          resultan<lb break="no" ed="#P" n="37"/>tiam convenit, semper convenit, ergo daretur
+          <lb ed="#P" n="38"/>illa species per actionem solius auctoris 
+          natu<lb break="no" ed="#P" n="39"/>rae, ergo idem de caeteris dicendum est.
+        </p>
+        <p xml:id="szdada-x03341-d1e890">
+          <lb ed="#P" n="40"/>8. Que Bannez comminiscatur circa 
+          prozi<lb break="no" ed="#P" n="41"/>mun argumentum. — Quo argumento coactus
+          <lb ed="#P" n="42"/>Bannez, d. art. 2, dub. 1, ad quamdam 
+          confir<lb break="no" ed="#P" n="43"/>mationem respondens, cum concedat quod in
+          <lb ed="#P" n="44"/>eo casu non possent Angeli cognoscere alium
+          <lb ed="#P" n="45"/>Angelum de novo creatum, nisi nova species
+          <lb ed="#P" n="46"/>eis infunderetur a Deo, nihilominus problema
+          <lb ed="#P" n="47"/>esse dicit, an infusio talis speciei 
+          supernatura<lb break="no" ed="#P" n="48"/>lis, vel naturalis esset. Nam primum videtur
+          <lb ed="#P" n="49"/>fieri probabile, tum ex eo quod illa species 
+          in<lb break="no" ed="#P" n="50"/>telligibihs non flueret a natura praeexistentium
+          <lb ed="#P" n="51"/>Angelorum tanquam proprietas et passio 
+          illo<lb break="no" ed="#P" n="52"/>rum, alias caruissent prius aliqua proprietate
+          <lb ed="#P" n="53"/>naturali, tum etiam quia ille Angelus creatus
+          <lb ed="#P" n="54"/>denuo supra naturam hujus Universi esset,
+          <lb ed="#P" n="55"/>quia sine illo hoe universum perfectissimum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est in ordine ad finem naturalem. Secundum
+          <lb ed="#P" n="57"/>item fit probabile, quia ille Angelus de novo
+          <lb ed="#P" n="58"/>creatus pertineret jam ad ordinem hujus 
+          uni<lb break="no" ed="#P" n="59"/>versi, et consequenter species ejus debita esset
+          <lb ed="#P" n="60"/>omnibus Angelis, quibus secundum naturae
+          <lb ed="#P" n="61"/>ordinem species totius Universi et partium ejus
+          <lb ed="#P" n="62"/>debitae sunt, ergo infusio illius speciei esset
+          <lb ed="#P" n="63"/>naturalis, id est, naturaliter debita, saltem 
+          de<lb break="no" ed="#P" n="64"/>bito naturae universalis, licet non pertineret
+          <lb ed="#P" n="65"/>ad naturam singulorum Angelorum. Sed haec
+          <lb ed="#P" n="66"/>imprimis non evacuant vim argumenti, quia
+          <lb ed="#P" n="67"/>illa species non flueret ab intrinseco, et quasi
+          <lb ed="#P" n="68"/>necessitate naturali ab aliis Angelis, sed libere
+          <lb ed="#P" n="69"/>esset illis infundenda, unde sumitur 
+          argumen<lb break="no" ed="#P" n="70"/>tum satis efficax, quod nec reliquae species 
+          co<lb break="no" ed="#P" n="71"/>existentium Angelorum ab eorum essentia 
+          ma<lb break="no" ed="#P" n="72"/>nent: quia ad dimanationem intrinsecam 
+          pro<lb break="no" ed="#P" n="73"/>prietatum Angeli, impertinens est, quod Deus
+          <lb ed="#P" n="74"/>decreverit simul vel diversis temporibus 
+          Ange<lb break="no" ed="#P" n="75"/>los creare, quia inde non variatur intrinseca
+          <lb ed="#P" n="76"/>natura Angeli, nec connexio necessaria cum
+          <lb ed="#P" n="77"/>tali vel tali proprietate, ut videtur per se 
+          no<lb break="no" ed="#P" n="78"/>tum.
+        </p>
+        <p xml:id="szdada-x03341-d1e980">
+          <lb ed="#P" n="79"/>9. Nec consonat D. Thomas. — Angelus de
+          <lb ed="#P" n="80"/>novo creatus non foret supra, nec preter 
+          na<lb break="no" ed="#P" n="81"/>ram universi. — Deinde omnia illa frustra de
+          <lb ed="#P" n="82"/>illo casu dicuntur, et a D. Thomae doctrina
+          <lb ed="#P" n="83"/>aliena sunt. Frustra enim fingitur, quod si
+          <lb ed="#P" n="84"/>Deus crearet novum Angelum, de novo 
+          infun<lb break="no" ed="#P" n="85"/>deret speciem ejus, praeexistentibus Angelis,
+          <lb ed="#P" n="86"/>multo enim verius dicitur, habituros illam
+          <lb ed="#P" n="87"/>fuisse a principio concreatam, ut expresse 
+          do<lb break="no" ed="#P" n="88"/>cet D. Thomas, q. 56, art. 2, ad. 4. Quia licet
+          <lb ed="#P" n="89"/>Deus denuo crearet novum Angelum, non 
+          ta<lb break="no" ed="#P" n="90"/>men denuo decrevisset illum creare, sed ab
+          <lb ed="#P" n="91"/>eeterno ita se facturum disposuisset, et ideo
+          <lb ed="#P" n="92"/>sicut a principio infudit Angelis species rerum
+          <lb ed="#P" n="93"/>materialium, non tantum earum, quas simul
+          <lb ed="#P" n="94"/>cum Angelis fecit, sed etiam earum, quas 
+          de<lb break="no" ed="#P" n="95"/>crevit facere, seu praevidit futuras, ita si 
+          de<lb break="no" ed="#P" n="96"/>crevisset post primos Angelos, alios posteriori
+          <lb ed="#P" n="97"/>tempore facere, omnium species a principio
+          <lb ed="#P" n="98"/>creatis Angelis indidisset, est enim eadem vel
+          <lb ed="#P" n="99"/>major ratio. Unde frustra etiam dicitur, illum
+          <lb ed="#P" n="100"/>Angelum de novo creatum futurum fuisse 
+          su<lb break="no" ed="#P" n="101"/>pra naturam universi, cum esset substantia
+          <lb ed="#P" n="102"/>similis gradu et aliquo genere, vel specie 
+          cae<lb break="no" ed="#P" n="103"/>teris Angelis, ac subinde ordinis naturalis. 
+          Ne<lb break="no" ed="#P" n="104"/>que universum determinat sibi ex natura rei
+          <lb ed="#P" n="105"/>certum numerum Angelorum, ut sit 
+          perfectis<lb break="no" ed="#P" n="106"/>simum, sed hoc pendet ex praedefinitione Dei.
+          <lb ed="#P" n="107"/>Quis enim dubitet, potuisse Deum plures 
+          An<lb break="no" ed="#P" n="108"/>gelos a principio creare, quam nunc creavit,
+          <lb ed="#P" n="109"/>aut si id fecisset, non debuisse omnes illos 
+          An<lb break="no" ed="#P" n="110"/>gelos ad ordinem, et perfectionem univers:
+          <pb ed="#P" n="138"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pertinere. Idem ergo est si decrevisset novos
+          <lb ed="#P" n="2"/>Angelos discursu temporis creare: nam illi
+          <lb ed="#P" n="3"/>jam creati ad ordinem, et perfectionem 
+          uni<lb break="no" ed="#P" n="4"/>versi pertinerent, quia liberum est Deo vel 
+          si<lb break="no" ed="#P" n="5"/>mul, vel successive mundi perfectionem in his,
+          <lb ed="#P" n="6"/>vel in illis partibus complere. Unde nulla 
+          pro<lb break="no" ed="#P" n="7"/>babilitate cogitari potest, quod creatio illius
+          <lb ed="#P" n="8"/>novi Angeli esset supernaturalis, cum esset
+          <lb ed="#P" n="9"/>ejusdem rationis cum creationibus 
+          praeceden<lb break="no" ed="#P" n="10"/>tium Angelorum. Imo licet attento ordine 
+          re<lb break="no" ed="#P" n="11"/>rum, quem Deus nunc praedefinivit, possit dici
+          <lb ed="#P" n="12"/>praeternaturahs tamen ex suppositione talis 
+          ca<lb break="no" ed="#P" n="13"/>sus, nec praeternaturalis tunc esset, qui eo ipso
+          <lb ed="#P" n="14"/>praesupponitur alio modo praefinivisse Deum
+          <lb ed="#P" n="15"/>consummationem perfectionis universi, et 
+          nu<lb break="no" ed="#P" n="16"/>meri Angelorum. Ex quo fit consequenter, 
+          du<lb break="no" ed="#P" n="17"/>bitari non posse, quin infusio talis speciei esset
+          <lb ed="#P" n="18"/>eque connaturalis Angehls, ac sunt species
+          <lb ed="#P" n="19"/>aliarum rerum, quae simul, vel successive in
+          <lb ed="#P" n="20"/>universo fiunt: quae non ex natura universali,
+          <lb ed="#P" n="21"/>sed ex propria conditione, et natura Angeli
+          <lb ed="#P" n="22"/>exiguntur, et naturalessunt, licet determinatio
+          <lb ed="#P" n="23"/>earum ordinem universabhs naturae totius 
+          uni<lb break="no" ed="#P" n="24"/>versi supponat, ut paulo post declarabimus. Ac
+          <lb ed="#P" n="25"/>deniquelicet dicamus, in eo casu talem speciem
+          <lb ed="#P" n="26"/>futuram fuisse cognitatem prioribus Angelis,
+          <lb ed="#P" n="27"/>idem relinquitur argumentum, quod illa 
+          con<lb break="no" ed="#P" n="28"/>creatio specierum non sit per modum 
+          emana<lb break="no" ed="#P" n="29"/>tionis intrinsecae, cum possit variari, variatis
+          <lb ed="#P" n="30"/>rebus existentibus, vel in aliqua differentia
+          <lb ed="#P" n="31"/>temporis futuris.
+        </p>
+        <p xml:id="szdada-x03341-d1e1123">
+          <lb ed="#P" n="32"/>10. Probatur quarto, et a priori. —Quarto
+          <lb ed="#P" n="33"/>argumentor, declarando rationem a priori:
+          <lb ed="#P" n="34"/>nam Angeli essentia non potest per seipsam
+          <lb ed="#P" n="35"/>esse species rerum omnium intelligibilium ab
+          <lb ed="#P" n="36"/>Angelo, quia nec illas eminenter continet, nec
+          <lb ed="#P" n="37"/>propter repraesentationem earum per se facta
+          <lb ed="#P" n="38"/>est, et intellectus Angeli manansa tah essentia,
+          <lb ed="#P" n="39"/>non manat constitutus in actu primo, et 
+          ha<lb break="no" ed="#P" n="40"/>bens per se eamdem vim repraesentandi, quam
+          <lb ed="#P" n="41"/>habent species, quia essentia, a qua manat,
+          <lb ed="#P" n="42"/>nullo modo in se continet virtute, vel 
+          reprae<lb break="no" ed="#P" n="43"/>sentative res cognoscibiles ab Angelo, ergo
+          <lb ed="#P" n="44"/>eadein ratione non possunt species omnium 
+          re<lb break="no" ed="#P" n="45"/>rum intelligibilium ab Angelo, manere tali
+          <lb ed="#P" n="46"/>essentia, vel intellectu ejus, in quibus non 
+          con<lb break="no" ed="#P" n="47"/>tinentur, nisi tanquam in potentia passiva,
+          <lb ed="#P" n="48"/>aut receptiva. Et confirmatur haec ratio, quia
+          <lb ed="#P" n="49"/>species intelligibilis requiritur ex parte objecti,
+          <lb ed="#P" n="50"/>non ex parte cognoscentis, ut supra declaravi,
+          <lb ed="#P" n="51"/>ergo non fluunt per se a cognoscente, ut vim
+          <lb ed="#P" n="52"/>cognoscendi habet, nam haec est condistincta
+          <lb ed="#P" n="53"/>ab objecto: ad illud per modum potentiae 
+          pas<lb break="no" ed="#P" n="54"/>sivae comparatur, quae dicit ordinem ad 
+          ob<lb break="no" ed="#P" n="55"/>jectum, tanquam ad motivum suum, vel tan-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quam ad terminum, et materiam, circa quam
+          <lb ed="#P" n="57"/>versatur, non autem eflicit illud, nec id, quod
+          <lb ed="#P" n="58"/>supplet vicem eius, sive per propriam 
+          efficien<lb break="no" ed="#P" n="59"/>tiam, sive per resultantiam naturalem. Et 
+          po<lb break="no" ed="#P" n="60"/>test hoc amplius declarari, quia species est
+          <lb ed="#P" n="61"/>quasi semen, et instrumentum objecti, ergo ex
+          <lb ed="#P" n="62"/>natura rei ab objecto provenire debet, non a
+          <lb ed="#P" n="63"/>cognoscente, et consequenter quando ad 
+          ob<lb break="no" ed="#P" n="64"/>jecto non provenit, vel non potest fieri, debet
+          <lb ed="#P" n="65"/>fieri a superiori agente, quod ideam, vel 
+          emi<lb break="no" ed="#P" n="66"/>nentiam objecti habeat, non ergo potest 
+          ma<lb break="no" ed="#P" n="67"/>nare a cognoscente, quod est distinctae et 
+          limi<lb break="no" ed="#P" n="68"/>tatae naturae. Denique si talis esset Angeli 
+          cog<lb break="no" ed="#P" n="69"/>noscentis natura, ut haec species ab illa 
+          dima<lb break="no" ed="#P" n="70"/>nare possent, vix posset probabilis ratio reddi,
+          <lb ed="#P" n="71"/>cur non potius essentia Angeli, vel per se 
+          ip<lb break="no" ed="#P" n="72"/>sam, vel saltem per suum intellectum eamdem
+          <lb ed="#P" n="73"/>vim repraesentandi haberet, quam habet 
+          spe<lb break="no" ed="#P" n="74"/>cies sine novarum formarum, vel entitatum
+          <lb ed="#P" n="75"/>multiplicatione.
+        </p>
+        <p xml:id="szdada-x03341-d1e1223">
+          <lb ed="#P" n="76"/>11. Secunda conclusio. — Specierum infusio
+          <lb ed="#P" n="77"/>a Deo, est Angelis connaturalis. —Dico 
+          secun<lb break="no" ed="#P" n="78"/>do. Infusio, seu concreatio specierum 
+          intelli<lb break="no" ed="#P" n="79"/>gibilium rerum ordinis naturalis, et species
+          <lb ed="#P" n="80"/>ipsae formae sunt connaturales Angelo, ita ut
+          <lb ed="#P" n="81"/>sine miraculo, et aliqua violentia naturali eis
+          <lb ed="#P" n="82"/>negari non possunt. Hanc assertionem docet
+          <lb ed="#P" n="83"/>aperte D. Thomas, locis citatis, et specialiter
+          <lb ed="#P" n="84"/>in dicta q. 55, ad. 2, species angelicas 
+          conna<lb break="no" ed="#P" n="85"/>turales vocat, quod etiam defendit 
+          Ferrarien<lb break="no" ed="#P" n="86"/>sis supra, et eam proprie intendunt Valentia,
+          <lb ed="#P" n="87"/>et alii, qui has species vocant proprietates 
+          con<lb break="no" ed="#P" n="88"/>naturales Angelo, non exigendo 
+          dimanatio<lb break="no" ed="#P" n="89"/>nem. Et probatur breviter hoc modo, quia ut
+          <lb ed="#P" n="90"/>aliqua forma; vel proprietas sit connaturahs,
+          <lb ed="#P" n="91"/>non est necessarium, ut active fluat ab ea 
+          na<lb break="no" ed="#P" n="92"/>tura, sed quidquid aliud, quod praeter activam
+          <lb ed="#P" n="93"/>dimanationem requirit, vel sufficere potest, ut
+          <lb ed="#P" n="94"/>aliqua forma, vel proprietas sit connaturahs,
+          <lb ed="#P" n="95"/>in speciebus angelicis invenitur, ergo sunt
+          <lb ed="#P" n="96"/>proprietates connaturales. Major imprimis 
+          pro<lb break="no" ed="#P" n="97"/>batur ex D. Thoma, 1, 2, quaest. 6, a. 5, ad. 2,
+          <lb ed="#P" n="98"/>ubi docet, formam dici posse connaturalem,
+          <lb ed="#P" n="99"/>vel ex principio activo, sicut calor igni, vel ex
+          <lb ed="#P" n="100"/>principio passivo tantum, ponitque exemplum
+          <lb ed="#P" n="101"/>in motu coeli, quem dicit illi esse 
+          connatura<lb break="no" ed="#P" n="102"/>lem. Posset item adhiberi in quantitate, quae
+          <lb ed="#P" n="103"/>respectu materiae est proprietas illi 
+          connatura<lb break="no" ed="#P" n="104"/>lis, licet fortasse ab illa active non profluat vel
+          <lb ed="#P" n="105"/>etiam in eadem materia, cui connaturales est
+          <lb ed="#P" n="106"/>esse sub forma, imo naturaliter sine aliqua
+          <lb ed="#P" n="107"/>esse non potest, etiamsi activam connexionem
+          <lb ed="#P" n="108"/>(ut sic dicam) cum illa non habeat. Aliqui
+          <lb ed="#P" n="109"/>etiam putant personalitatem, vel 
+          subsisten<lb break="no" ed="#P" n="110"/>tiam non resultare active a natura humana,
+          <pb ed="#P" n="139"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cum tamen dubium non sit, quin sit illi 
+          con<lb break="no" ed="#P" n="2"/>naturalis: et licet fortasse probabilius sit 
+          re<lb break="no" ed="#P" n="3"/>sultare active, tamen certius est esse 
+          connatu<lb break="no" ed="#P" n="4"/>ralitatem non necessario postulare efficientiam.
+          <lb ed="#P" n="5"/>Ratio autem ejus, probando alteram partem,
+          <lb ed="#P" n="6"/>explicabitur. Probo ergo alteram 
+          propositio<lb break="no" ed="#P" n="7"/>nem subsumptam, nimirum seclusa 
+          effticien<lb break="no" ed="#P" n="8"/>tia, inveniri in his speciebus, quidquid ad
+          <lb ed="#P" n="9"/>proprietatem connaturalem desiderari potest.
+          <lb ed="#P" n="10"/>Nam imprimis species ipse in sua substantia
+          <lb ed="#P" n="11"/>ordinis naturalis sunt, cum sint, et objectis, et
+          <lb ed="#P" n="12"/>virtutibus naturalibus proportionatae. Angeli
+          <lb ed="#P" n="13"/>etiam creati sunt cum potentia naturali ad
+          <lb ed="#P" n="14"/>illas recipiendas, ut per se notum est: Deus
+          <lb ed="#P" n="15"/>etiam in eorum infusione, ut auctor naturae
+          <lb ed="#P" n="16"/>operatus est, non solum in effectione illarum,
+          <lb ed="#P" n="17"/>sed etiam dando illas simul cum natura, et
+          <lb ed="#P" n="18"/>intellectu, quia hoc exigit, et postulat 
+          perfec<lb break="no" ed="#P" n="19"/>tio angelicae naturam non minus, quam 
+          coe<lb break="no" ed="#P" n="20"/>Ium postulet figuram rotundam, quam Deus
+          <lb ed="#P" n="21"/>in illo simul cum substantia, et quantitate 
+          fe<lb break="no" ed="#P" n="22"/>cit, ipso coelo tantum passive se habent sine
+          <lb ed="#P" n="23"/>ulla efficientia per modum naturalis 
+          emana<lb break="no" ed="#P" n="24"/>uonis, sed tantum dispositionemillam tanquam
+          <lb ed="#P" n="25"/>sibi connaturalem postulante. Item declarari
+          <lb ed="#P" n="26"/>hoc potest illo argumento proportionali, quod
+          <lb ed="#P" n="27"/>ex materia coeli sumit D. Thomas, d. q. 55,
+          <lb ed="#P" n="28"/>a. 2, quia materia coeli connaturaliter postulat
+          <lb ed="#P" n="29"/>formam sibi concreatam, etiamsi non habeat
+          <lb ed="#P" n="30"/>influxum quasi activum in illam, sed tantum
+          <lb ed="#P" n="31"/>eam postulet per potentiam connaturalem 
+          pos<lb break="no" ed="#P" n="32"/>tulantem talem actum ut sibi necessarium, et
+          <lb ed="#P" n="33"/>connaturaliter debitum, ergo eodem modo 
+          in<lb break="no" ed="#P" n="34"/>telligi potest, et debet connaturalitas in 
+          spe<lb break="no" ed="#P" n="35"/>ciebus angelicis, quia etiam Angeli habent
+          <lb ed="#P" n="36"/>potentiam naturalem receptivam illarum, quae
+          <lb ed="#P" n="37"/>propter perfectionem suam postulat esse 
+          com<lb break="no" ed="#P" n="38"/>pletam, quoad actum primum ab auctore suo,
+          <lb ed="#P" n="39"/>cum a nullo alio possit compleri. Et 
+          conse<lb break="no" ed="#P" n="40"/>quenter etiam postulat habere hujusmodi 
+          com<lb break="no" ed="#P" n="41"/>plementum actus primi sibi congenitum, tum
+          <lb ed="#P" n="42"/>propter immaterialitatem, et magnam 
+          actua<lb break="no" ed="#P" n="43"/>litatem suam, ratione cujus postulat esse 
+          sem<lb break="no" ed="#P" n="44"/>per in actu primo, respectu suorum actuum,
+          <lb ed="#P" n="45"/>tum quia nulla intercedere potuit naturalis
+          <lb ed="#P" n="46"/>ratio, ob quam tali perfectione naturali in
+          <lb ed="#P" n="47"/>principio privarentur, vel cur postea in hoc
+          <lb ed="#P" n="48"/>tempore potius, quam in illo eis tribueretur,
+          <lb ed="#P" n="49"/>ergo signum est, naturale illis esse, a 
+          princi<lb break="no" ed="#P" n="50"/>pio illam recipere.
+        </p>
+        <p xml:id="szdada-x03341-d1e1414">
+          <lb ed="#P" n="51"/>12. Ad primum argumnentum in numero 
+          se<lb break="no" ed="#P" n="52"/>cundo. — Ad secundum. — Ad primam ergo
+          <lb ed="#P" n="53"/>rationem dubitandi negatur consequentia,
+          <lb ed="#P" n="54"/>non enim omnis proprietas connaturalis 
+          dima<lb break="no" ed="#P" n="55"/>nat ab essentia. Nec sola hujusmodi naturalis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dimanatio est ratio adaequata naturalis 
+          con<lb break="no" ed="#P" n="57"/>nexionis inter essentiam, et proprietatem, sed
+          <lb ed="#P" n="58"/>potest fundari in potentia naturali receptiva
+          <lb ed="#P" n="59"/>talis conditionis, ut naturaliter postulet talem
+          <lb ed="#P" n="60"/>actum sibi coaevum, ac perpetuo conjunctum,
+          <lb ed="#P" n="61"/>sicut in materia, et quantitate, vel forma 
+          ex<lb break="no" ed="#P" n="62"/>plicatum est. Et similiter ad secundum 
+          nega<lb break="no" ed="#P" n="63"/>tur sequela, cum infertur, has species non esse
+          <lb ed="#P" n="64"/>proprias passiones Angelorum, vel ut tollatur
+          <lb ed="#P" n="65"/>quaestio de nomine, distinguitur consequens:
+          <lb ed="#P" n="66"/>nam si propria passio tantum dicatur, quae
+          <lb ed="#P" n="67"/>manat ab essentia, conceditur illatio. Neque
+          <lb ed="#P" n="68"/>id est ullum inconveniens, quia poterit esse
+          <lb ed="#P" n="69"/>proprietas naturalis alterius rationis, et ita non
+          <lb ed="#P" n="70"/>sequitur esse accidens commune. lIlla vero 
+          si<lb break="no" ed="#P" n="71"/>gnificatio propriae passionis nimis stricta est,
+          <lb ed="#P" n="72"/>et praeter communem usum: nam quantitas
+          <lb ed="#P" n="73"/>vere, ac proprie dicitur passio materiae, licet
+          <lb ed="#P" n="74"/>ab illa effective non postulat. Unde sumpta
+          <lb ed="#P" n="75"/>propria passione, prout proprietatem debitam,
+          <lb ed="#P" n="76"/>et naturaliter inseparabilem a subjecto 
+          signi<lb break="no" ed="#P" n="77"/>ficat, sic recte negatum est antecedens, seu
+          <lb ed="#P" n="78"/>prima illatio. Et ita etiam cessat secunda,
+          <lb ed="#P" n="79"/>quia inter accidentia communia, et ea, quae
+          <lb ed="#P" n="80"/>profluunt ab essentia active, dantur aliquae
+          <lb ed="#P" n="81"/>proprietates connaturales ratione potentiae
+          <lb ed="#P" n="82"/>passivae exigentis illas, et tales sunt species
+          <lb ed="#P" n="83"/>Angelorum. Quamvis dici possint esse 
+          conna<lb break="no" ed="#P" n="84"/>turales ratione potentiae activae naturalis; non
+          <lb ed="#P" n="85"/>quia potentia intrinseca Angeli sit activa 
+          ta<lb break="no" ed="#P" n="86"/>lium specierum, ut sic enim potius est passiva,
+          <lb ed="#P" n="87"/>sed quia est activa suorum actuum, et in eo
+          <lb ed="#P" n="88"/>non est completa per seipsam, ideo 
+          connatu<lb break="no" ed="#P" n="89"/>raliter postulat, ut sibi ab auctore suo detur
+          <lb ed="#P" n="90"/>illius principii activi complementum. Unde
+          <lb ed="#P" n="91"/>etiam negatur ultima illatio, scilicet, seclusa
+          <lb ed="#P" n="92"/>naturali emanatione nullum relinqui 
+          princi<lb break="no" ed="#P" n="93"/>pium, ad asserendum has species esse coaevas,
+          <lb ed="#P" n="94"/>et connaturales Angelo, nam hoc principium
+          <lb ed="#P" n="95"/>sufficiens est ipsa naturalis capacitas, et per-.
+          <lb ed="#P" n="96"/>fectio, vel (ut ita dicam) exigentia angelicae
+          <lb ed="#P" n="97"/>naturae. Quamobrem nihil refert, quod Deus
+          <lb ed="#P" n="98"/>libere, et non ex necessitate naturae has species
+          <lb ed="#P" n="99"/>conferet, quia, supposita rerum creatione,
+          <lb ed="#P" n="100"/>Deus caetera operatur consentaneo ad unius -
+          <lb ed="#P" n="101"/>cujusque rei naturam. Sicut etiam Deus, non
+          <lb ed="#P" n="102"/>ex absoluta necessitate, sed sua voluntate 
+          prae<lb break="no" ed="#P" n="103"/>bet auxilium generale causis secundis, nec ipsae
+          <lb ed="#P" n="104"/>causae secundae sunt aliquo modo principia
+          <lb ed="#P" n="105"/>activa talis concursus, etiam per aliquam 
+          na<lb break="no" ed="#P" n="106"/>turalem resultantiam, sed postulant illum 
+          se<lb break="no" ed="#P" n="107"/>cundum connaturalem ordinem, et hoc satis
+          <lb ed="#P" n="108"/>est, ut semper detur: sic ergo cum proportione
+          <lb ed="#P" n="109"/>de speciebus angeblcis dicendum est.
+        </p>
+        <p xml:id="szdada-x03341-d1e1547">
+          <lb ed="#P" n="110"/>13. Ad confirmationem Aureoli.— Et hinc
+          <pb ed="#P" n="140"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ad confirmationem Aureol respondemus,
+          <lb ed="#P" n="2"/>fore quidem inconveniens, si aliqua daretur
+          <lb ed="#P" n="3"/>potentia receptiva ordinis naturalis, cui non
+          <lb ed="#P" n="4"/>responderet potentia activa ordinis naturalis,
+          <lb ed="#P" n="5"/>a qua posset in actum reduci, nullum vero
+          <lb ed="#P" n="6"/>esse inconveniens, quod illa potentia non sit
+          <lb ed="#P" n="7"/>creata, sed ipsamet potentia auctoris naturae,
+          <lb ed="#P" n="8"/>quia etiam illa secundum naturae ordinem 
+          im<lb break="no" ed="#P" n="9"/>mediate aliquando operatur ad complendam
+          <lb ed="#P" n="10"/>perfectionem, quam creatura exigit. Ut paret
+          <lb ed="#P" n="11"/>in exemplo proxime dato de concursu Dei, qui
+          <lb ed="#P" n="12"/>naturalis est, licet immediate a solo Deo 
+          con<lb break="no" ed="#P" n="13"/>ferri possit. Item in creatione animae 
+          rationa<lb break="no" ed="#P" n="14"/>lis, ad quam materia est in potentia naturah
+          <lb ed="#P" n="15"/>etiam proxima, quando est organisata, et 
+          ni<lb break="no" ed="#P" n="16"/>hilominus a solo auctore naturae potest in 
+          ac<lb break="no" ed="#P" n="17"/>tum rednci: et sicut in hoc exemplo id non
+          <lb ed="#P" n="18"/>provenit ex imperfectione, sed potius ex 
+          ani<lb break="no" ed="#P" n="19"/>mae rationalis perfectione, ita in praesenti ex
+          <lb ed="#P" n="20"/>perfectione angelicae naturae provenit, quod
+          <lb ed="#P" n="21"/>ejus capacitas naturalis in hac parte a solo
+          <lb ed="#P" n="22"/>auctore naturae possit expleri.
+        </p>
+        <p xml:id="szdada-x03341-d1e1604">
+          <lb ed="#P" n="23"/>14. Ad tertium argumentum. — Quoad 
+          vio<lb break="no" ed="#P" n="24"/>lentiaum. — Tertium argumentum petit, an
+          <lb ed="#P" n="25"/>fieret violentia Angelo, se illi non darentur
+          <lb ed="#P" n="26"/>species. In qua omittenda est quaestio (fortasse
+          <lb ed="#P" n="27"/>de nomine) an Deus aliquid faciens, vel non
+          <lb ed="#P" n="28"/>faciens in rebus creatis, miraculose, seu 
+          ex<lb break="no" ed="#P" n="29"/>traordmarie contra naturas earum, sit 
+          dicen<lb break="no" ed="#P" n="30"/>dus vim facere creaturae. Et, ut dubium 
+          proce<lb break="no" ed="#P" n="31"/>dat, ita nunc loquimur, supponendo, posse
+          <lb ed="#P" n="32"/>Deum rebus violentiam facere. Quo supposito,
+          <lb ed="#P" n="33"/>respondeo ad argumentum, negando 
+          seque<lb break="no" ed="#P" n="34"/>lam, quia revera violentia inferretur Angelo,
+          <lb ed="#P" n="35"/>privando illum speciebus, aut eas debito 
+          tem<lb break="no" ed="#P" n="36"/>pore non praebendo. Falsumque est, quod in
+          <lb ed="#P" n="37"/>probationem sumitur, non esse violentum, nisi
+          <lb ed="#P" n="38"/>quod est contra impetum activum, ut, in 1, 2,
+          <lb ed="#P" n="39"/>latius tractandum est: nunc autem breviter
+          <lb ed="#P" n="40"/>explicatur, quia violentum in universum est,
+          <lb ed="#P" n="41"/>quod est contra naturalem appetitum, etiamsi
+          <lb ed="#P" n="42"/>illae sit potentiae passivae exigentis, et 
+          postu<lb break="no" ed="#P" n="43"/>lantis talem actum ad suae natura 
+          comple<lb break="no" ed="#P" n="44"/>mentum, ut aperte colligitur ex D. Thoma,
+          <lb ed="#P" n="45"/>1. 2. q. 6, a. b, ad. 2, et hic naturalis 
+          appeti<lb break="no" ed="#P" n="46"/>tus dicitur internus impetus, gratisque 
+          limi<lb break="no" ed="#P" n="47"/>tatur ad appetitum naturalem potentiae 
+          acti<lb break="no" ed="#P" n="48"/>vae. Nam certe potentia activa, ut est in actu
+          <lb ed="#P" n="49"/>primo, prius tempore, vel natura, quam agat,
+          <lb ed="#P" n="50"/>non habet majorem impetum ad Angelum,
+          <lb ed="#P" n="51"/>quam materia habet ad formam, et tamen
+          <lb ed="#P" n="52"/>sufficit ad violentiam privativam, ut sic dicam,
+          <lb ed="#P" n="53"/>qualis censetur esse, quando naturale agens,
+          <lb ed="#P" n="54"/>positis omnibus requisitis ad agendum, 
+          con<lb break="no" ed="#P" n="55"/>cursu generali privatur: similem ergo violen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tiam pateretur Angelus, si speciebus 
+          priva<lb break="no" ed="#P" n="57"/>retur.
+        </p>
+        <p xml:id="szdada-x03341-d1e1686">
+          <lb ed="#P" n="58"/>15. Deinde quoad coactionem. — Haec autem
+          <lb ed="#P" n="59"/>procedunt de violentia communiter sumpta,
+          <lb ed="#P" n="60"/>ut est communis rebus cognitione carentibus,
+          <lb ed="#P" n="61"/>nam violentia, ut est etiam coactio propria,
+          <lb ed="#P" n="62"/>est contra appetitum elicitum, quae in hoc
+          <lb ed="#P" n="63"/>convenit cum violentia, quod potest etiam per
+          <lb ed="#P" n="64"/>privationem solam fieri, quando illa est contra
+          <lb ed="#P" n="65"/>internum impetum appetitus eliciti: et sic
+          <lb ed="#P" n="66"/>etiam esse potuisse violentia, et coacta 
+          caren<lb break="no" ed="#P" n="67"/>tia specierum in Angelo, quia esset contra
+          <lb ed="#P" n="68"/>appetitum elicitum, ac desiderium ejus, et
+          <lb ed="#P" n="69"/>quia illud desiderium est etiam naturale, vel
+          <lb ed="#P" n="70"/>quoad exercitium, quatenus Angelus 
+          natura<lb break="no" ed="#P" n="71"/>liter amat seipsum, suamque perfectionem,
+          <lb ed="#P" n="72"/>vel saltem quoad specificationem, quia esset
+          <lb ed="#P" n="73"/>conformis illi appetitui naturali, quo omnis
+          <lb ed="#P" n="74"/>homo naturaliter scire desiderat, ideo ex hac
+          <lb ed="#P" n="75"/>parte talis denegatio specierum potest dici 
+          An<lb break="no" ed="#P" n="76"/>gelo et coacta, et violenta, considerata rei 
+          na<lb break="no" ed="#P" n="77"/>tura: nam per gratiam, et libertatem posset
+          <lb ed="#P" n="78"/>Angelus ita suam voluntatem cum divina 
+          con<lb break="no" ed="#P" n="79"/>formare, ut illa carentia non esset illi 
+          simph<lb break="no" ed="#P" n="80"/>citer coacta respectu voluntatis, semper 
+          ta<lb break="no" ed="#P" n="81"/>men esset violenta respectu naturae. Posito
+          <lb ed="#P" n="82"/>autem illo casu mirum non est, quod Angelus
+          <lb ed="#P" n="83"/>et esset perpetuo ignorans res illas, quarum
+          <lb ed="#P" n="84"/>species illi datae non essent, et impotens ad
+          <lb ed="#P" n="85"/>illam ignorantiam per seipsum expellendam.
+          <lb ed="#P" n="86"/>Quia omnis creatura potest a suo auctore 
+          pro<lb break="no" ed="#P" n="87"/>pria perfectione privari, etiamsi cum 
+          violen<lb break="no" ed="#P" n="88"/>tia id faciat, et cum potentia, cui creatura non
+          <lb ed="#P" n="89"/>potest resistere. Unde, ut species sint 
+          natura<lb break="no" ed="#P" n="90"/>les, satis est, quod semper sint naturae debitae,
+          <lb ed="#P" n="91"/>et quod auctor naturae, ut talis est, per 
+          actio<lb break="no" ed="#P" n="92"/>nem ipsi Angelo connaturalem, vim illam 
+          au<lb break="no" ed="#P" n="93"/>ferre possit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

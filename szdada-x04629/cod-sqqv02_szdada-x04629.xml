@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-09-10">September 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv02">Paris 1856, v. 02</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="185"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-x04629"><!-- l2c16 -->
+        <head xml:id="szdada-x04629-Hd1e101">Caput 16</head>
+        <head xml:id="szdada-x04629-Hd1e103" type="question-title">Quomodo varietas in specierum universalitate diversis angelis conventat</head>
+        <p xml:id="szdada-x04629-d1e106">
+          <lb ed="#P" n="12"/>CAPUT XVI.
+          <lb ed="#P" n="13"/>QUOMODO VARIETAS IN SPECIERUM UNIVERSALITATE
+          <lb ed="#P" n="14"/>DIVERSIS ANGELIS CONVENTAT.
+        </p>
+        <p xml:id="szdada-x04629-d1e115">
+          <lb ed="#P" n="15"/>1. Non est quaestio de diversis Angelis 
+          nu<lb break="no" ed="#P" n="16"/>merice tantum.—S ed diversis genere vel specie.
+          <lb ed="#P" n="17"/>— In applicanda regula indefinite tradita ad
+          <lb ed="#P" n="18"/>superiores et inferiores Angelos magna est
+          <lb ed="#P" n="19"/>inter doctores difficultas. Prius vero quam 
+          il<lb break="no" ed="#P" n="20"/>lam proponam, suppono, non esse quaestionem
+          <lb ed="#P" n="21"/>de Angelis tantum numero differentibus, si
+          <lb ed="#P" n="22"/>juxta nostram sententiam aliqui tales sunt sub
+          <lb ed="#P" n="23"/>omnibus speciebus ultimis Angelorum. Nam
+          <lb ed="#P" n="24"/>inter illos sine dubio nulla est varietas in 
+          uni<lb break="no" ed="#P" n="25"/>versalitate specierum, sed omnes Angeli 
+          ejus<lb break="no" ed="#P" n="26"/>dem speciei ultimae species habent aeque 
+          uni<lb break="no" ed="#P" n="27"/>versales vel particulares. Quia vel omnes sunt
+          <lb ed="#P" n="28"/>absolute et simpliciter aeque perfecti, et sic non
+          <lb ed="#P" n="29"/>habet in eis locum ullo modo regula proposita:
+          <lb ed="#P" n="30"/>vel licet inter illos sit aliqua inaequalitas in
+          <lb ed="#P" n="31"/>perfectione individuali, illa non sufficit ad 
+          in<lb break="no" ed="#P" n="32"/>aequalitatem in universalitate specierum, quia
+          <lb ed="#P" n="33"/>species magis et minus universales 
+          essentia<lb break="no" ed="#P" n="34"/>lem diversitatem habent, quia universalior
+          <lb ed="#P" n="35"/>species altioris rationis est, et inferiores ac
+          <lb ed="#P" n="36"/>particulares species quasi eminenter continet.
+          <lb ed="#P" n="37"/>At vero individuales substantiae licet inaequales
+          <lb ed="#P" n="38"/>secundum numerum sint, non habent actus,
+          <lb ed="#P" n="39"/>vel principia operandi specie diversa, sed ad
+          <lb ed="#P" n="40"/>summum magis vel minus perfecta in 
+          entitati<lb break="no" ed="#P" n="41"/>bus singularibus, sicut de animabus et 
+          intel<lb break="no" ed="#P" n="42"/>lectibus humanis multi opinantur. Est ergo
+          <lb ed="#P" n="43"/>quaestio de Angelis essentialiter differentibus,
+          <lb ed="#P" n="44"/>inter quos, ut in praecedenti libro notavimus,
+          <lb ed="#P" n="45"/>potest esse differentia specifica, vel sub 
+          proxi<lb break="no" ed="#P" n="46"/>mo genere ultimo, vel sub genere subalterno
+          <lb ed="#P" n="47"/>remoto aut remotiori: nam prior esse censetur
+          <lb ed="#P" n="48"/>inter Angelos ejusdem ordinis vel aliquos, aliae
+          <lb ed="#P" n="49"/>possunt inter varios ordines vel hierarchias
+          <lb ed="#P" n="50"/>cogitari, ut in eodem libro primo late 
+          tracta<lb break="no" ed="#P" n="51"/>tum est. Est ergo nunc quaestio, an differentia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>in universalitate specierum, sit inter Angelos
+          <lb ed="#P" n="53"/>differente specie, vel solum inter differentes
+          <lb ed="#P" n="54"/>genere proximo aut remoto, seu inter Angelos
+          <lb ed="#P" n="55"/>diversarum hierarchiarum, aut ordinum, aut
+          <lb ed="#P" n="56"/>alio simili modo.
+        </p>
+        <p xml:id="szdada-x04629-d1e211">
+          <lb ed="#P" n="57"/>2. Prima sententia asserens de diversitate
+          <lb ed="#P" n="58"/>solum generica.—Hhoc posteriori modo opinatur
+          <lb ed="#P" n="59"/>Ferrariensis supra, explicando tertiam 
+          conclu<lb break="no" ed="#P" n="60"/>sionem D. Thomse, quia (ut ait) non est 
+          ne<lb break="no" ed="#P" n="61"/>cesse, ut omnes Angeli sub eodem proximo
+          <lb ed="#P" n="62"/>genere contenti, licet specie differant, per 
+          pau<lb break="no" ed="#P" n="63"/>ciora principia intelligant, eo ipso quod 
+          per<lb break="no" ed="#P" n="64"/>fectioris speciei sunt. Sicut non est 
+          necessa<lb break="no" ed="#P" n="65"/>rium, ut animalia perfectiora per pauciores
+          <lb ed="#P" n="66"/>sensus intelligant. Et fuit haec opinio Hervaei
+          <lb ed="#P" n="67"/>supra, articulo quarto, qui loquitur de 
+          An<lb break="no" ed="#P" n="68"/>gelis differentibus specie sub eodem genere
+          <lb ed="#P" n="69"/>proximo, et de illis dicit, posse omnes 
+          intelli<lb break="no" ed="#P" n="70"/>gere per species aeque universales, inter eos
+          <lb ed="#P" n="71"/>vero, qui differunt genere proximo, dicit 
+          in<lb break="no" ed="#P" n="72"/>veniri differentiam in specierum 
+          universali<lb break="no" ed="#P" n="73"/>tate. Et in eamdem sententiam inclinat /
+          Egi<lb break="no" ed="#P" n="74"/>dius supra ad quartum dubium, imo sentit,
+          <lb ed="#P" n="75"/>etiam Angelos diversorum generum 
+          proxi<lb break="no" ed="#P" n="76"/>morum posse per species aeque universales 
+          in<lb break="no" ed="#P" n="77"/>telligere. Et a posteriori id probat, quia alias
+          <lb ed="#P" n="78"/>si omnis Angelus quo superior eo 
+          universa<lb break="no" ed="#P" n="79"/>liores species, ac subinde numero pauciores
+          <lb ed="#P" n="80"/>haberet, ascendendo per gradus, seu naturas
+          <lb ed="#P" n="81"/>Angelorum, facile deveniremus ad Angelum
+          <lb ed="#P" n="82"/>cognoscentem omnia per unam speciem, et
+          <lb ed="#P" n="83"/>consequenter superior illo vel per nullam 
+          spe<lb break="no" ed="#P" n="84"/>ciem cognosceret, vel non per universaliorem,
+          <lb ed="#P" n="85"/>quam alius minus perfectus.
+        </p>
+        <p xml:id="szdada-x04629-d1e277">
+          <lb ed="#P" n="86"/>3. Secunda sententia afferens de specifica
+          <lb ed="#P" n="87"/>etiam diversitate. — Nihilominus contrariam
+          <lb ed="#P" n="88"/>sententiam docet Capreolus supra ad 
+          argu<lb break="no" ed="#P" n="89"/>mentum contr. 7 conclus., et Cajetanus, dicto
+          <lb ed="#P" n="90"/>art. 3, et sequuntur frequentius moderni 
+          Tho<lb break="no" ed="#P" n="91"/>mistae, et expositores D. Thomae, in dicto art.3.
+          <lb ed="#P" n="92"/>Quia divus Thomas ibi simpliciter, et 
+          indefi<lb break="no" ed="#P" n="93"/>nite loquitur, dicens, Angelos, quo superiores
+          <lb ed="#P" n="94"/>sunt, eo per universaliores species intelligere,
+          <lb ed="#P" n="95"/>quia sunt similiores Deo; quae verba, et ratio
+          <lb ed="#P" n="96"/>cum eadem proportione ad omnes Angelos
+          <lb ed="#P" n="97"/>in essentia perfectiores applicantur. Idem 
+          ha<lb break="no" ed="#P" n="98"/>bet, quaestione 8, de Verit., art. 40. Expressius
+          <lb ed="#P" n="99"/>tamen ita declaravit haec loca in quaestione 
+          dis<lb break="no" ed="#P" n="100"/>putata de Anima, art. 7, ubi in corpore dicit:
+          <lb ed="#P" n="101"/>In substantiis spiritualibus ordo graduum 
+          di<lb break="no" ed="#P" n="102"/>versarum specierum attenditur secundum 
+          compa<lb break="no" ed="#P" n="103"/>rationem ad primum agens, quod est 
+          perfectissi<lb break="no" ed="#P" n="104"/>mum, et ideo in eis prima species est perfecticr
+          <lb ed="#P" n="105"/>secunda, et sic deinceps usque ad ultimam. Et
+          <lb ed="#P" n="106"/>cum eadem proportione concludit: Quanto
+          <pb ed="#P" n="186"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>substantia spiritualis fuerit primo agenti 
+          pro<lb break="no" ed="#P" n="2"/>pinquior, tanto in sua natura simplici 
+          perfec<lb break="no" ed="#P" n="3"/>tione habet bonitatem suam, et minus indiget
+          <lb ed="#P" n="4"/>inlerentibus formis ad sui completionem. Et
+          <lb ed="#P" n="5"/>hoc quidem (ait) gradatim producitur usque ad
+          <lb ed="#P" n="6"/>animam humanam, etc. Et in solutione ad 5,
+          <lb ed="#P" n="7"/>id repetit, dicens, /7 diversis Angelis esse 
+          spe<lb break="no" ed="#P" n="8"/>cies intelligibiles diversas, et quanto 
+          unusquis<lb break="no" ed="#P" n="9"/>que est Deo propinquior, tanto habere formas
+          <lb ed="#P" n="10"/>intelligibiles magis elevatas et virtuosiores ad
+          <lb ed="#P" n="11"/>plura cognoscenda. Est autem advertendum,
+          <lb ed="#P" n="12"/>D. Thomam loqui absolute de omnibus, et 
+          sin<lb break="no" ed="#P" n="13"/>gulis Angelis, quia supponit omnes esse specie
+          <lb ed="#P" n="14"/>diversos. Nos autem cum proportione loquimur
+          <lb ed="#P" n="15"/>de singulis speciebus Angelorum, et omnes
+          <lb ed="#P" n="16"/>Angelos unius speciei quantum ad praesentem
+          <lb ed="#P" n="17"/>quaestionem attinet, tanquam unum 
+          reputa<lb break="no" ed="#P" n="18"/>mus, et in hoc sensu eisdem verbis semper 
+          ute<lb break="no" ed="#P" n="19"/>mur. Unde potest haec sententia confirmari ex
+          <lb ed="#P" n="20"/>Dionysio supra, quatenus sentit, omnem 
+          An<lb break="no" ed="#P" n="21"/>gelum etiam infimum per pauciores, vel 
+          uni<lb break="no" ed="#P" n="22"/>versaliores species intelligere. quam animam
+          <lb ed="#P" n="23"/>rationalem: nam eadem ratione Angelus 
+          proxi<lb break="no" ed="#P" n="24"/>me superior infimo per universaliora 
+          princi<lb break="no" ed="#P" n="25"/>pia, quam ille, intelliget, et sic de caeteris.
+        </p>
+        <p xml:id="szdada-x04629-d1e384">
+          <lb ed="#P" n="26"/>4. Approbatur secunda sententia. — EInter
+          <lb ed="#P" n="27"/>has opiniones major est incertitudo, et 
+          ambi<lb break="no" ed="#P" n="28"/>guitas, quam in generali assertione capitis 
+          prae<lb break="no" ed="#P" n="29"/>cedentis. Quoniam ea, quae sunt universaliora,
+          <lb ed="#P" n="30"/>et magis confusa, facilius, ac proinde certius
+          <lb ed="#P" n="31"/>assequimur, ut quod inter Angelos sit 
+          essen<lb break="no" ed="#P" n="32"/>tialis differentia fere certo credimus, an vero
+          <lb ed="#P" n="33"/>haec sit inter singulos, vel quanta, aut qualis
+          <lb ed="#P" n="34"/>sit, valde est ambiguum. Ita ergo licet in 
+          prae<lb break="no" ed="#P" n="35"/>senti multo sit probabilius, in Angelis non
+          <lb ed="#P" n="36"/>solum esse universales species, sed etiam in
+          <lb ed="#P" n="37"/>hac universalitate aliquam esse inter eos 
+          va<lb break="no" ed="#P" n="38"/>rietatem, magis obscurum et ambiguum est,
+          <lb ed="#P" n="39"/>quanta sit haec varietas, vel quomodo ad 
+          di<lb break="no" ed="#P" n="40"/>versas species, vel ordines Angelorum 
+          appli<lb break="no" ed="#P" n="41"/>canda sit. Nihilominus tamen absolute censeo
+          <lb ed="#P" n="42"/>probabilius, omnes Angelos, quo in essentia
+          <lb ed="#P" n="43"/>sunt perfectiores, eo intelligere per species
+          <lb ed="#P" n="44"/>universaliores. Quia omnis Angelus etiam 
+          in<lb break="no" ed="#P" n="45"/>fimus intelligit per species aliquo modo 
+          uni<lb break="no" ed="#P" n="46"/>versales, ergo semper Angelus superior 
+          intel<lb break="no" ed="#P" n="47"/>ligit per species universaliores. Antecedens 
+          pa<lb break="no" ed="#P" n="48"/>tet ex dictis capite praecedenti, et specialiter
+          <lb ed="#P" n="49"/>declaratur, quia intelligendum imprimis est de
+          <lb ed="#P" n="50"/>propria universalitate, quae in repraesentatione
+          <lb ed="#P" n="51"/>plurium rerum, et maxime substantiarum 
+          con<lb break="no" ed="#P" n="52"/>sistit: ut omittam aliam universalitatem 
+          mi<lb break="no" ed="#P" n="53"/>nus propriam, quam alii ponunt, de qua infra
+          <lb ed="#P" n="54"/>dicam. Unde consequenter intelligendum est
+          <lb ed="#P" n="55"/>illud antecedens quoad species repraesentantes
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>res inferiores, seu minus perfectas ipso Angelo
+          <lb ed="#P" n="57"/>intelligente: nam respectu perfectiorum aliud
+          <lb ed="#P" n="58"/>dicendum est, ut supra tetigi et paulo post 
+          ite<lb break="no" ed="#P" n="59"/>rum attingam. Et ita ratio illius antecedentis
+          <lb ed="#P" n="60"/>est, quia quaelibet virtus angelica est superior
+          <lb ed="#P" n="61"/>hujusmodi rebus a se intelligibilibus, ergo
+          <lb ed="#P" n="62"/>comparatur ad illas, ut virtus universalis, quae
+          <lb ed="#P" n="63"/>simul plures illarum comprehendere potest,
+          <lb ed="#P" n="64"/>ergo est capax specierum res hujusmodi 
+          spe<lb break="no" ed="#P" n="65"/>cialiter repraesentantium, ergo cum illas 
+          spe<lb break="no" ed="#P" n="66"/>cies a rebus non accipiat, sed ab auctore 
+          natu<lb break="no" ed="#P" n="67"/>e inditas habeat, verisimilius est illas 
+          reci<lb break="no" ed="#P" n="68"/>pere universales, et suae virtuti proportionatas.
+          <lb ed="#P" n="69"/>Hinc ergo probatur prima consequentia, quia
+          <lb ed="#P" n="70"/>quo unus Angelus alium in perfectione 
+          essen<lb break="no" ed="#P" n="71"/>tiali superat, eo habet virtutem 
+          universalio<lb break="no" ed="#P" n="72"/>rem et efficaciorem, ergo potest plura simul,
+          <lb ed="#P" n="73"/>et uno actu comprehendere, ergo habet etiam
+          <lb ed="#P" n="74"/>species universaliores respectu eorumdem 
+          in<lb break="no" ed="#P" n="75"/>telligibilium objectorum. Confirmatur, quia
+          <lb ed="#P" n="76"/>(ut Dialectici dicunt) sicut simpliciter ad 
+          sim<lb break="no" ed="#P" n="77"/>pliciter, ita magis ad magis, sed Angelus ex vi
+          <lb ed="#P" n="78"/>spiritualis gradus postulat universalitatem 
+          prae<lb break="no" ed="#P" n="79"/>dictam specierum, et ideo in omni specie etiam
+          <lb ed="#P" n="80"/>infima illam habet, ergo quo magis 
+          participa<lb break="no" ed="#P" n="81"/>verit essentialem perfectionem et virtutem 
+          il<lb break="no" ed="#P" n="82"/>lius gradus, eo majorem universalitatem 
+          spe<lb break="no" ed="#P" n="83"/>cierum postulabit. Denique alias non 
+          posse<lb break="no" ed="#P" n="84"/>mus cum fundamento affirmare, quemlibet
+          <lb ed="#P" n="85"/>Angelum etiam infimum per magis 
+          universa<lb break="no" ed="#P" n="86"/>les species cognoscere, quam animam 
+          rationa<lb break="no" ed="#P" n="87"/>lem, quia posset in alia perfectione claritatis,
+          <lb ed="#P" n="88"/>vel comprehensionis et non in universalitate
+          <lb ed="#P" n="89"/>illam superare, sicut prior sententia de 
+          Ange<lb break="no" ed="#P" n="90"/>lis inter se essentialiter differentibus 
+          philoso<lb break="no" ed="#P" n="91"/>phatur: atque ita tota universalitas specierum
+          <lb ed="#P" n="92"/>angelicarum periclitatur, ergo consequenter
+          <lb ed="#P" n="93"/>loquendo, haec posterior sententia praeferenda
+          <lb ed="#P" n="94"/>est.
+        </p>
+        <p xml:id="szdada-x04629-d1e538">
+          <lb ed="#P" n="95"/>5. Ad exemplum primae sententiae in num. 2.
+          <lb ed="#P" n="96"/>— Quo gradus corporeus est perfectior, eo 
+          plu<lb break="no" ed="#P" n="97"/>res habet potentias. — In spiritualibus e 
+          con<lb break="no" ed="#P" n="98"/>ira. — Nec exemplum de numero 
+          potentia<lb break="no" ed="#P" n="99"/>rum, aut sensuum animalium, quod 
+          Ferra<lb break="no" ed="#P" n="100"/>riensis objicit, magni momenui est, alioqui
+          <lb ed="#P" n="101"/>etiam contra ipsum concluderet, Angelos 
+          di<lb break="no" ed="#P" n="102"/>versorum ordinum, vel generum esse aequales
+          <lb ed="#P" n="103"/>in universalitate, vel numero specierum, quia
+          <lb ed="#P" n="104"/>bruta perfecta sunt diversorum generum etiam
+          <lb ed="#P" n="105"/>remotorum, et veluti diversorum ordinum
+          <lb ed="#P" n="106"/>et quasi hierarchiarum (ut sic dicam) et 
+          nihil<lb break="no" ed="#P" n="107"/>ominus in numero sensuum non differunt, ut
+          <lb ed="#P" n="108"/>patet de terrestribus, volatilibus, aquatihibus,
+          <lb ed="#P" n="109"/>etc. Et deinde in his corporalibus (ut notat
+          <lb ed="#P" n="110"/>JEgidius) quo gradus est perfectior, eo plures
+          <pb ed="#P" n="187"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>habet potentias, et non e contrario. Ut 
+          vegeta<lb break="no" ed="#P" n="2"/>bilia plures potentias habent, quam inanimata,
+          <lb ed="#P" n="3"/>et bruta, quam vegetabilia, et inter bruta
+          <lb ed="#P" n="4"/>plures habent perfecta, quam imperfecta, et
+          <lb ed="#P" n="5"/>homo plures, quam caetera. In spiritualibus
+          <lb ed="#P" n="6"/>vero e contrario accidit: nam quo ille gradus
+          <lb ed="#P" n="7"/>perfectior est, eo habet pauciores potentias,
+          <lb ed="#P" n="8"/>altioris tamen ordinis. Unde etiam fit, ut in
+          <lb ed="#P" n="9"/>numero potentiarum non sit diversitas in toto
+          <lb ed="#P" n="10"/>gradu intellectuali. Et ideo facile negatur 
+          con<lb break="no" ed="#P" n="11"/>secutio, seu exempli similitudo, quia numerus
+          <lb ed="#P" n="12"/>potentiarum sequitur gradum rei, seu genus
+          <lb ed="#P" n="13"/>aliquod valde superius: modus autem 
+          ope<lb break="no" ed="#P" n="14"/>randi per singulas potentias, sequitur 
+          pro<lb break="no" ed="#P" n="15"/>priam rei essentiam, et speciem: multitudo
+          <lb ed="#P" n="16"/>autem, seu universalitas specierum est 
+          accom<lb break="no" ed="#P" n="17"/>modata modo operandi, et ideo sequi etiam
+          <lb ed="#P" n="18"/>potest specificam rationem, ac perfectionem
+          <lb ed="#P" n="19"/>essentialem.
+        </p>
+        <p xml:id="szdada-x04629-d1e621">
+          <lb ed="#P" n="20"/>6. Tractatur ratio a posteriori exm Agidio
+          <lb ed="#P" n="21"/>in eodem n. 29. — Nie sententia de 
+          universali<lb break="no" ed="#P" n="22"/>tate specierum in repreesentando. — Duifficihor
+          <lb ed="#P" n="23"/>objectio est, quam tetigit /Egidius, quae in hoc
+          <lb ed="#P" n="24"/>consistit, quod non videtur posse haec tanta
+          <lb ed="#P" n="25"/>varietas in universalitate specierum in 
+          omni<lb break="no" ed="#P" n="26"/>bus Angelis salvari, quin perveniatur vel ad
+          <lb ed="#P" n="27"/>aliquem cognoscentem sine specie, vel ad 
+          ali<lb break="no" ed="#P" n="28"/>quos inaequales in natura, et nihilominus
+          <lb ed="#P" n="29"/>aquales in numero, et universalitate 
+          specie<lb break="no" ed="#P" n="30"/>rum. Potest autem haec difficultas dupliciter
+          <lb ed="#P" n="31"/>expediri. Primo negando utramque sequelam.
+          <lb ed="#P" n="32"/>Ad rationem autem reddendam, et rem totam
+          <lb ed="#P" n="33"/>magis explicandam, suppono universalitatem
+          <lb ed="#P" n="34"/>hanc specierum angelicarum non esse ad 
+          re<lb break="no" ed="#P" n="35"/>praesentationem plurium quidditatum per 
+          sin<lb break="no" ed="#P" n="36"/>gulas species limitandam. Dicunt enim aliqui,
+          <lb ed="#P" n="37"/>omnes Angelos habere species universales in
+          <lb ed="#P" n="38"/>repraesentando plures rerum quidditates, seu
+          <lb ed="#P" n="39"/>specificas naturas, et in hac universalitate 
+          su<lb break="no" ed="#P" n="40"/>perare Angelum superiorem quemlibet 
+          infe<lb break="no" ed="#P" n="41"/>riorem. Et attribuunt D. Thomae, eo quod 
+          di<lb break="no" ed="#P" n="42"/>xerit, species Angelorum esse universaliores ,
+          <lb ed="#P" n="43"/>quasi ad plura se extendentes unamquamque 
+          ea<lb break="no" ed="#P" n="44"/>rwum, quia sub nomine plurium non putant
+          <lb ed="#P" n="45"/>posse intelligi individua, sed essentias, seu
+          <lb ed="#P" n="46"/>quidditates, quia commune est omnibus 
+          An<lb break="no" ed="#P" n="47"/>gelis, ut omnia individua ejusdem speciei 
+          ul<lb break="no" ed="#P" n="48"/>timae per eamdem intentionalem speciem 
+          co<lb break="no" ed="#P" n="49"/>gnoscant, ergo differentia in universalitate
+          <lb ed="#P" n="50"/>necessario esse debet in pluralitate 
+          quiddita<lb break="no" ed="#P" n="51"/>tum repraesentatarum.
+        </p>
+        <p xml:id="szdada-x04629-d1e693">
+          <lb ed="#P" n="52"/>7. Rejicitur. — Sed haec sententia falsa est,
+          <lb ed="#P" n="53"/>et falsum fundamentum gratis supponit, 
+          nimi<lb break="no" ed="#P" n="54"/>rum omnia individua ejusdem natura 
+          co<lb break="no" ed="#P" n="55"/>gnosci a quocumque Angelo etiam infimo per
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>unam speciem: unde enim hoc constat ? aut
+          <lb ed="#P" n="57"/>quo fundamento tam universalis 
+          repraesenta<lb break="no" ed="#P" n="58"/>tio, et cognitio omnibus Angelis etiam infimis
+          <lb ed="#P" n="59"/>tribuitur ? Praesertim quia supra dixi, species
+          <lb ed="#P" n="60"/>Angelorum non repraesentare per se primo 
+          na<lb break="no" ed="#P" n="61"/>turas communes, specificas, vel genericas, sed
+          <lb ed="#P" n="62"/>singularia, in quibus et in unoquoque illorum
+          <lb ed="#P" n="63"/>rationes universales, et communes 
+          repraesen<lb break="no" ed="#P" n="64"/>tant, ergo intentionalis species repraesentans
+          <lb ed="#P" n="65"/>res singulares, non repraesentat naturam 
+          com<lb break="no" ed="#P" n="66"/>munem, ut primarium, vel adaequatum 
+          objec<lb break="no" ed="#P" n="67"/>tum, ut etiam probatum est, ergo non est
+          <lb ed="#P" n="68"/>necesse, ut species repraesentans naturam
+          <lb ed="#P" n="69"/>communem in uno, vel in duobus individuis,
+          <lb ed="#P" n="70"/>repraesentet illam in omnibus, nulla enim 
+          ra<lb break="no" ed="#P" n="71"/>tio talis necessitatis reddi potest. Praeterea si
+          <lb ed="#P" n="72"/>species repraesentans quaedam iudividua unius
+          <lb ed="#P" n="73"/>naturae, necessario repraesentare omnia, 
+          pro<lb break="no" ed="#P" n="74"/>fecto eadem necessitate repraesentabit omnia
+          <lb ed="#P" n="75"/>possibilia; quod isti non admittunt. Sequela
+          <lb ed="#P" n="76"/>probatur, tum quia quod individua sint 
+          ali<lb break="no" ed="#P" n="77"/>quando futura, vel non sint, extrinsecum est
+          <lb ed="#P" n="78"/>ad repraesentationem speciei, ergo non est
+          <lb ed="#P" n="79"/>major ratio, cur ab intrinseco magis haec,
+          <lb ed="#P" n="80"/>quam illam necessario repraesentet: tum 
+          e<lb break="no" ed="#P" n="81"/>tiam quia si aliqua ex illis possibilibus fierent,
+          <lb ed="#P" n="82"/>per eamdem speciem cognoscerentur, ergo 
+          si<lb break="no" ed="#P" n="83"/>gnum est, per illam repraesentari. Antecedens
+          <lb ed="#P" n="84"/>patet, nam si detur oppositum, jam esset 
+          ne<lb break="no" ed="#P" n="85"/>cessaria nova species ad repraesentanda illa
+          <lb ed="#P" n="86"/>individua, ergo individua ejusdem naturae
+          <lb ed="#P" n="87"/>possunt repraesentari per distinctas species,
+          <lb ed="#P" n="88"/>ergo idem potest nunc contingere circa 
+          indi<lb break="no" ed="#P" n="89"/>vidua, quae aliquando futura sunt.
+        </p>
+        <p xml:id="szdada-x04629-d1e780">
+          <lb ed="#P" n="90"/>8. Vera doctrina de predicta universalitate.
+          <lb ed="#P" n="91"/>— Dico ergo, ad hanc universalitatem 
+          suffi<lb break="no" ed="#P" n="92"/>cere, quod una species repraesentet plura 
+          sin<lb break="no" ed="#P" n="93"/>gularia, sive ejusdem naturae specificae, sive
+          <lb ed="#P" n="94"/>diversarum. Dico etiam non esse necessarium,
+          <lb ed="#P" n="95"/>ut species repraesentans plura individua 
+          ejus<lb break="no" ed="#P" n="96"/>dem essentiae. omnia similia repraesentet.
+          <lb ed="#P" n="97"/>Unde ulterius addo, in eodem Angelo posse
+          <lb ed="#P" n="98"/>inveniri species magis, et minus universales,
+          <lb ed="#P" n="99"/>quando caetera non sunt paria: ut, verbi 
+          gra<lb break="no" ed="#P" n="100"/>tia, potest infimus Angelus plures species 
+          uni<lb break="no" ed="#P" n="101"/>versales equorum habere, quarum singulae 
+          re<lb break="no" ed="#P" n="102"/>praesentent plures equos, nulla tamen omnes,
+          <lb ed="#P" n="103"/>nec in quocumque numero, sed per 
+          unam<lb break="no" ed="#P" n="104"/>quamque illarum decem, vel viginti, verbi
+          <lb ed="#P" n="105"/>gratia, et nihilominus, non habere species
+          <lb ed="#P" n="106"/>leonis tam universales, quia leones sunt 
+          per<lb break="no" ed="#P" n="107"/>fectiores in natura, et ideo pauciores possunt
+          <lb ed="#P" n="108"/>simul cognosci per unum actum, et per unam
+          <lb ed="#P" n="109"/>speciem repraesentari, et sic de aliis. Ideoque
+          <lb ed="#P" n="110"/>quando fit comparatio in universalitate, debet
+          <pb ed="#P" n="188"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fieri caeteris paribus ex parte objectorum 
+          in<lb break="no" ed="#P" n="2"/>telligibilium. Atque ita ad veritatem dictae
+          <lb ed="#P" n="3"/>sententiae, et assertionis satis est, quod 
+          Ange<lb break="no" ed="#P" n="4"/>lus superior plura individua ejusdem naturae
+          <lb ed="#P" n="5"/>cognoscat per unam speciem, quam inferior,
+          <lb ed="#P" n="6"/>et hoc modo posset verificari assertio in 
+          om<lb break="no" ed="#P" n="7"/>nibus Angelis, quamvis nullus eorum etiam
+          <lb ed="#P" n="8"/>supremus haberet species universales 
+          reprae<lb break="no" ed="#P" n="9"/>sentantes simul plures quidditates, seu plura
+          <lb ed="#P" n="10"/>individua specie differentia, verbi gratia, 
+          leo<lb break="no" ed="#P" n="11"/>nem, et equum. Quia ut species sit 
+          universa<lb break="no" ed="#P" n="12"/>lis, satis est quod per eam multa simul 
+          co<lb break="no" ed="#P" n="13"/>gnosci possint, ergo ut sit universalior, satis
+          <lb ed="#P" n="14"/>est quod in eodem ordine, seu in eadem specie
+          <lb ed="#P" n="15"/>plura repraesentet. Accedit, quod species 
+          re<lb break="no" ed="#P" n="16"/>praesentans plura individua ejusdem speciei,
+          <lb ed="#P" n="17"/>non videtur posse extendi ad repraesentanda
+          <lb ed="#P" n="18"/>etiam individua alterius naturae specificae, nisi
+          <lb ed="#P" n="19"/>prius repraesentet omnia individua in natura
+          <lb ed="#P" n="20"/>specifica similia. Quia quo haec similiora inter
+          <lb ed="#P" n="21"/>se sunt, eo videntur facilius posse per 
+          eam<lb break="no" ed="#P" n="22"/>dem speciem repraesentari, quod non tantum
+          <lb ed="#P" n="23"/>de aliquando futuris, sed etiam de omnibus
+          <lb ed="#P" n="24"/>possibilibus procedit, quia (ut saepe dixi) esse,
+          <lb ed="#P" n="25"/>vel non esse futurum, extrinsecum est, et 
+          im<lb break="no" ed="#P" n="26"/>pertinens ad intrinsecam speciei 
+          repraesenta<lb break="no" ed="#P" n="27"/>tionem. Non videtur autem necessarium, quod
+          <lb ed="#P" n="28"/>aliquis Angelus etiam supremus habeat species
+          <lb ed="#P" n="29"/>repreesentantes ita universales, ut omnia 
+          indi<lb break="no" ed="#P" n="30"/>vidua possibilia unius speciei repraesentent ,
+          <lb ed="#P" n="31"/>quia illa sunt infinita, et non est necesse, ut
+          <lb ed="#P" n="32"/>species repraesentet infinita, ergo eadem 
+          ra<lb break="no" ed="#P" n="33"/>tione necessarium non est, ut una species 
+          e<lb break="no" ed="#P" n="34"/>tiam supremi Angeli repraesentet plures 
+          quid<lb break="no" ed="#P" n="35"/>ditates, sed satis est, quod singulae species ejus
+          <lb ed="#P" n="36"/>repraesentent plura individua sub quacumque
+          <lb ed="#P" n="37"/>natura specifica, quam species inferiorum, et
+          <lb ed="#P" n="38"/>idem est cum proportione de caeteris.
+        </p>
+        <p xml:id="szdada-x04629-d1e916">
+          <lb ed="#P" n="39"/>9. Respondetur jam ad rationem AEgidi.—
+          <lb ed="#P" n="40"/>Ad locum D. Thome allatum a Ripa in n. 6.—
+          <lb ed="#P" n="41"/>Sequendo igitur hunc dicendi modum, facile
+          <lb ed="#P" n="42"/>solvitur difflicultas ab 7Egidio, et aliis tacta,
+          <lb ed="#P" n="43"/>quamrvis enim Angeli quo perfectiores, eo 
+          uni<lb break="no" ed="#P" n="44"/>versaliores, ac proinde pauciores earumdem
+          <lb ed="#P" n="45"/>rerum habeant species, nihilominus non 
+          se<lb break="no" ed="#P" n="46"/>quitur perveniendum esse ad Angelum, qui
+          <lb ed="#P" n="47"/>omnia extra se per unam speciem intelligat :
+          <lb ed="#P" n="48"/>nam omnes Angehl saltem habent tot species
+          <lb ed="#P" n="49"/>intelligibiles, quot sunt essentiae specificae,
+          <lb ed="#P" n="50"/>seu quidditates rerum, quas intelligunt, et 
+          ni<lb break="no" ed="#P" n="51"/>hilominus de singulis quidditatibus omnes 
+          su<lb break="no" ed="#P" n="52"/>periores habent universaliores, et pauciores
+          <lb ed="#P" n="53"/>species respectu individuorum ejusdem 
+          natu<lb break="no" ed="#P" n="54"/>rae, seu speciei, seu respectu totius 
+          potentiali<lb break="no" ed="#P" n="55"/>tatis uniuscujusque naturae specificae, et quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>haec potentialitas, seu multiplicatio 
+          individuo<lb break="no" ed="#P" n="57"/>rum sub una specie in infinitum procedit,
+          <lb ed="#P" n="58"/>ideo fieri potest, ut nunquam perveniatur ad
+          <lb ed="#P" n="59"/>supremum Angelum, qui unamquamque 
+          quid<lb break="no" ed="#P" n="60"/>ditatem per unam tantum speciem intelligat,
+          <lb ed="#P" n="61"/>sed per plures. Quod si urgeas, saltem in 
+          indi<lb break="no" ed="#P" n="62"/>viduis aliquando futuris esse certum terminum
+          <lb ed="#P" n="63"/>finitum, et ita posse perveniri ad Angelum,
+          <lb ed="#P" n="64"/>qui omnia illa individua per unam speciem
+          <lb ed="#P" n="65"/>cognoscat. Respondeo, tunc alium Angelum
+          <lb ed="#P" n="66"/>illo superiorem cognoscere etiam illa individua
+          <lb ed="#P" n="67"/>per unam speciem, sed universaliorem, quia
+          <lb ed="#P" n="68"/>repraesentabit non solum futura individua,
+          <lb ed="#P" n="69"/>sed etiam aliqua ex possibilibus: nam licet
+          <lb ed="#P" n="70"/>species repraesentans possibilia per se non 
+          de<lb break="no" ed="#P" n="71"/>beatur Angelo, non est tamen inconveniens,
+          <lb ed="#P" n="72"/>quod ex consequenti, et ex abundantia 
+          perfec<lb break="no" ed="#P" n="73"/>tionis ipsius speciei, ejus repraesentatio etiam
+          <lb ed="#P" n="74"/>ad individua possibilia extendatur. Atque hoc
+          <lb ed="#P" n="75"/>modo licet contingere possit, quod aliqui 
+          An<lb break="no" ed="#P" n="76"/>geli inaquales in perfectione cognoscant 
+          om<lb break="no" ed="#P" n="77"/>nia, quae sunt per aequalem numerum 
+          specie<lb break="no" ed="#P" n="78"/>rum, nihilominus semper Angelus superior
+          <lb ed="#P" n="79"/>cognoscet per universaliores species per 
+          ex<lb break="no" ed="#P" n="80"/>tensionem ad repraesentationem rerum 
+          possi<lb break="no" ed="#P" n="81"/>bilium. Quem modum dicendi quoad hanc
+          <lb ed="#P" n="82"/>partem etiam Capreolus indicavit. Neque 
+          ob<lb break="no" ed="#P" n="83"/>stabit, quod D. Thomas non solum dicit, 
+          Ange<lb break="no" ed="#P" n="84"/>lum superiorem intelligere per universaliores
+          <lb ed="#P" n="85"/>species, sed etiam per pauciores: nam id 
+          in<lb break="no" ed="#P" n="86"/>telligendum est, quando caetera paria sunt ex
+          <lb ed="#P" n="87"/>parte rerum repraesentatarum, nimirum, quia
+          <lb ed="#P" n="88"/>eadem sunt in numero, et perfectione.
+        </p>
+        <p xml:id="szdada-x04629-d1e1029">
+          <lb ed="#P" n="89"/>10. Ampliatur expositio de universalitate
+          <lb ed="#P" n="90"/>specierum. — Denique ne juxta hunc dicendi
+          <lb ed="#P" n="91"/>modum universalitatem specierum 
+          angelica<lb break="no" ed="#P" n="92"/>rum in repraesentando, ad solam 
+          repraesenta<lb break="no" ed="#P" n="93"/>tionem plurium individuorum ejusdem 
+          natu<lb break="no" ed="#P" n="94"/>rae per eamdem speciem limitare videamur,
+          <lb ed="#P" n="95"/>addo, fortasse etiam habere species 
+          repraesen<lb break="no" ed="#P" n="96"/>tantes plures quidditates. Unde probabile olim
+          <lb ed="#P" n="97"/>censui, quod non video ab aliis probari, in 
+          in<lb break="no" ed="#P" n="98"/>fimo ordine Angelorum solum esse 
+          universali<lb break="no" ed="#P" n="99"/>tatem specierum quoad repraesentationem 
+          in<lb break="no" ed="#P" n="100"/>dividuorum cum proportionata varietate intra
+          <lb ed="#P" n="101"/>illum gradum. in Angelis vero altioris ordinis
+          <lb ed="#P" n="102"/>dari etiam species universales repraesentantes
+          <lb ed="#P" n="103"/>plures naturas in sola specie ultima, et intra
+          <lb ed="#P" n="104"/>proximum genus differentes: non tamen 
+          re<lb break="no" ed="#P" n="105"/>praesentando per unam speciem omnes 
+          natu<lb break="no" ed="#P" n="106"/>ras specificas illius generis, sed aliquas et 
+          plu<lb break="no" ed="#P" n="107"/>res, vel pauciores, juxta modum perfectionis,
+          <lb ed="#P" n="108"/>et cum proportionali varietate, et sic 
+          ascen<lb break="no" ed="#P" n="109"/>dendo cum proportione per species 
+          universa<lb break="no" ed="#P" n="110"/>liores in ordine ad res multas plusquam specie
+          <pb ed="#P" n="189"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ultima differentes, et sub generibus magis,
+          <lb ed="#P" n="2"/>vel minus remotis contentas. Nam hoc totum
+          <lb ed="#P" n="3"/>non involvit repugnantiam, et consonat 
+          per<lb break="no" ed="#P" n="4"/>fectioni Angelorum, et his, quae de illorum
+          <lb ed="#P" n="5"/>convenientiis, et differentiis essentialibus 
+          dixi<lb break="no" ed="#P" n="6"/>mus: nam optime illa distinctio per hos 
+          va<lb break="no" ed="#P" n="7"/>rios cognoscendi modos explicatur. Et ita 
+          e<lb break="no" ed="#P" n="8"/>tiam cessat difficultas tacta: nam cum in his
+          <lb ed="#P" n="9"/>speciebus, et generibus intermediis possit 
+          qui<lb break="no" ed="#P" n="10"/>dam processus in infinitum cogitari, et 
+          uni<lb break="no" ed="#P" n="11"/>versalitas haec specierum possit etiam ad 
+          quid<lb break="no" ed="#P" n="12"/>ditates possibiles nunquam futuras extendi, et
+          <lb ed="#P" n="13"/>illa possint in infinitum multiplicari, 
+          nun<lb break="no" ed="#P" n="14"/>quam erit necessarium pervenire ad Angelum,
+          <lb ed="#P" n="15"/>qui per unam speciem omnia extra se 
+          intel<lb break="no" ed="#P" n="16"/>ligat, et ita difficultas cessat.
+        </p>
+        <p xml:id="szdada-x04629-d1e1118">
+          <lb ed="#P" n="17"/>11. Altera responsio ad preedictam rationem
+          <lb ed="#P" n="18"/>4H gidii. — Unica species repreesentans omnia
+          <lb ed="#P" n="19"/>possibilia nulli creaturae est connaturalis. —
+          <lb ed="#P" n="20"/>Alter modus expediendi illam difficultatem est,
+          <lb ed="#P" n="21"/>concedendo priorem illationem argumenti, et
+          <lb ed="#P" n="22"/>negando posteriorem. Conceditur ergo, 
+          Ange<lb break="no" ed="#P" n="23"/>lum valde perfectum, vel qui supremus fuerit,
+          <lb ed="#P" n="24"/>posse per unam speciem omnia creata extra
+          <lb ed="#P" n="25"/>seipsum intelligere. Quia licet daretur talis
+          <lb ed="#P" n="26"/>species, finita esset, et respectu objectorum 
+          na<lb break="no" ed="#P" n="27"/>turalium esset ordinis naturalis. Item quia si
+          <lb ed="#P" n="28"/>talis Angelus cognoscit omnes res creatas per
+          <lb ed="#P" n="29"/>tantum numerum specierum intelligibilium,
+          <lb ed="#P" n="30"/>ascendendo cum proportione facile deveniri
+          <lb ed="#P" n="31"/>poeterit ad Angelum, qui per unam speciem
+          <lb ed="#P" n="32"/>res easdem cognoscere valeat. Quapropter cum
+          <lb ed="#P" n="33"/>D. Thomas 3, contr. Gent., cap. 98, negare
+          <lb ed="#P" n="34"/>videtur esse possibilem talem speciem, 
+          loqui<lb break="no" ed="#P" n="35"/>tur de una specie repraesentante omnia 
+          possi<lb break="no" ed="#P" n="36"/>bilia simpliciter, de qua verisimilius est, non
+          <lb ed="#P" n="37"/>esse possibilem secundum naturae ordinem,
+          <lb ed="#P" n="38"/>quia nec esse potest connaturalis alicui 
+          An<lb break="no" ed="#P" n="39"/>gelo, quia omnis Angelus determinatae, ac 
+          fi<lb break="no" ed="#P" n="40"/>nitae perfectionis est, illa vero species 
+          excede<lb break="no" ed="#P" n="41"/>ret proportionem ad quamcumque 
+          determina<lb break="no" ed="#P" n="42"/>tam, ac limitatam naturam. Unde si talis esset
+          <lb ed="#P" n="43"/>Angelus, esset profecto supremus inter omnes
+          <lb ed="#P" n="44"/>possibiles, qui tamen dari non potest, ut nunc
+          <lb ed="#P" n="45"/>suppono. An vero talis species in 
+          supernatu<lb break="no" ed="#P" n="46"/>rali ordine possibilis sit, alibi est disputatum,
+          <lb ed="#P" n="47"/>ut in capite 13, num. 12, tetigimus. 
+          Verum<lb break="no" ed="#P" n="48"/>tamen illa species, quae repraesentet omnia
+          <lb ed="#P" n="49"/>creata, vel creanda in aliquo tempore, non 
+          ex<lb break="no" ed="#P" n="50"/>cedit proportionem finitae, ac limitatae 
+          natu<lb break="no" ed="#P" n="51"/>rae, et ideo non videtur repugnare pervenire
+          <lb ed="#P" n="52"/>ad Angelum ita perfectum, ut omnia extra se,
+          <lb ed="#P" n="53"/>et Deum per unam speciem intelligat. Imo
+          <lb ed="#P" n="54"/>addit Cajetanus, nunc supremum Angelum ita
+          <lb ed="#P" n="55"/>intelligere: sed hoc magis incertum est, et sine
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dubio non potest ostendi necessarium, quia
+          <lb ed="#P" n="57"/>licet inter Angelos specie differentes semper
+          <lb ed="#P" n="58"/>superior intelligat per universaliores species,
+          <lb ed="#P" n="59"/>nihilominus in infimo Angelo quoad naturam
+          <lb ed="#P" n="60"/>potest esse tanta multitudo specierum 
+          intelli<lb break="no" ed="#P" n="61"/>gibilium, et tam parva universalitas 
+          uniuscu<lb break="no" ed="#P" n="62"/>jusque speciei, ut licet in omnibus 
+          superiori<lb break="no" ed="#P" n="63"/>bus fiat diminatio specierum, adhuc in 
+          supre<lb break="no" ed="#P" n="64"/>mo plures esse valeant, quod et unusquisque
+          <lb ed="#P" n="65"/>facile cogitare potest, et cum pendeat ex 
+          dis<lb break="no" ed="#P" n="66"/>positione divinae providentiae, non est difficile
+          <lb ed="#P" n="67"/>intelligere, potuisse Deum universa hoc modo
+          <lb ed="#P" n="68"/>disponere, et ad hunc ordinem naturalem 
+          ca<lb break="no" ed="#P" n="69"/>pacitatem Angelorum adaptare. Tamen sicut
+          <lb ed="#P" n="70"/>hoc possibile fuit, ita non repugnat, nec 
+          vide<lb break="no" ed="#P" n="71"/>tur inconveniens, quod de facto supremus 
+          An<lb break="no" ed="#P" n="72"/>gelus naturalia omnia per unam speciem 
+          co<lb break="no" ed="#P" n="73"/>gnoscat, nec est incredibile id fecisse Deum ad
+          <lb ed="#P" n="74"/>ostensionem potentiae suae, et ut infra naturae
+          <lb ed="#P" n="75"/>ordinem se summo quodam modo 
+          communi<lb break="no" ed="#P" n="76"/>caret.
+        </p>
+        <p xml:id="szdada-x04629-d1e1253">
+          <lb ed="#P" n="77"/>12. Ad inconveniens in ratione E gid 
+          alla<lb break="no" ed="#P" n="78"/>tum in fine numeri tertii. — Non tamen hinc
+          <lb ed="#P" n="79"/>sequitur aliud inconveniens, quod in posteriori
+          <lb ed="#P" n="80"/>parte rationis /Egidii inferebatur, superiorem,
+          <lb ed="#P" n="81"/>scilicet, Angelum vel per nullam speciem 
+          co<lb break="no" ed="#P" n="82"/>gnoscere, vel non per pauciores species, quia
+          <lb ed="#P" n="83"/>non possunt esse pauciores species, quam una
+          <lb ed="#P" n="84"/>et consequenter non cognoscere per 
+          universa<lb break="no" ed="#P" n="85"/>liores species, nihil enim horum sequitur. Ad
+          <lb ed="#P" n="86"/>quod explicandum recolendum est, quod 
+          su<lb break="no" ed="#P" n="87"/>pra dixi, hanc universalitatem specierum 
+          so<lb break="no" ed="#P" n="88"/>lum esse respectu rerum inferiorum, non vero
+          <lb ed="#P" n="89"/>respectu superiorum, vel aequalium 
+          Angelo<lb break="no" ed="#P" n="90"/>rum. Nam ex hoc principio infertur, ut detur
+          <lb ed="#P" n="91"/>aliquis Angelus cognoscens per unam speciem
+          <lb ed="#P" n="92"/>omnes res alias praeter seipsum, necessarium
+          <lb ed="#P" n="93"/>esse, ut ille nec superiorem habeat, nec 
+          aequa<lb break="no" ed="#P" n="94"/>lem, quia si illos habeat, licet omnia infra se
+          <lb ed="#P" n="95"/>per unam speciem cognoscat, oportebit, ut tot
+          <lb ed="#P" n="96"/>alias species intelligibiles habeat, quot 
+          Ange<lb break="no" ed="#P" n="97"/>los aequales et superiores habet: ergo si 
+          sup<lb break="no" ed="#P" n="98"/>ponatur aliquis Angelus omnia extra se per
+          <lb ed="#P" n="99"/>unam speciem cognoscens, consequenter 
+          sup<lb break="no" ed="#P" n="100"/>ponendum est, nullum superiorem habere:
+          <lb ed="#P" n="101"/>imo nec habitum esse, non solum quia 
+          secun<lb break="no" ed="#P" n="102"/>dum legem ordinariam Angeli omnes simul
+          <lb ed="#P" n="103"/>creati sunt, nec in eorum creatione futura est
+          <lb ed="#P" n="104"/>successio, quantum ex doctrina fidei 
+          intelligi<lb break="no" ed="#P" n="105"/>mus, sed etiam quia licet daremus, Angelum
+          <lb ed="#P" n="106"/>alium supra omnes creatos Angelos fore 
+          crean<lb break="no" ed="#P" n="107"/>dum, illius speciem habuissent innatam 
+          An<lb break="no" ed="#P" n="108"/>geli a principio, ut supra cum D. Thoma dixi,
+          <lb ed="#P" n="109"/>quia receperunt Angeli species innatas rerum
+          <lb ed="#P" n="110"/>omnium aliquando futurarum. Ergo si crean-
+          <pb ed="#P" n="190"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dus esset Angelus superior omnibus jam 
+          crea<lb break="no" ed="#P" n="2"/>tis, eo ipso supremus Angelus nunc creatus
+          <lb ed="#P" n="3"/>non cognosceret omnia extra se per unam 
+          spe<lb break="no" ed="#P" n="4"/>ciem, quia saltem haberet duas, unam Angeli
+          <lb ed="#P" n="5"/>superioris creandi, et aliam reliquarum 
+          re<lb break="no" ed="#P" n="6"/>rum. Unde tandem concluditur, nunquam
+          <lb ed="#P" n="7"/>posse ascendendo perveniri ad Angelum, qui
+          <lb ed="#P" n="8"/>vel sine specie cognoscat alia a se, vel qui non
+          <lb ed="#P" n="9"/>per pauciores species omnia cognoscat, quam
+          <lb ed="#P" n="10"/>alius sibi inferior in essentia. Nam inferior
+          <lb ed="#P" n="11"/>ultra species rerum inferiorum semper habet
+          <lb ed="#P" n="12"/>aliam speciem sui superioris, quam ipse 
+          supe<lb break="no" ed="#P" n="13"/>rior non habet, cum per suam substantiam se
+          <lb ed="#P" n="14"/>intelligat.
+        </p>
+        <p xml:id="szdada-x04629-d1e1364">
+          <lb ed="#P" n="15"/>13. Replicatio.—Hapeditur.—bhices, saltem
+          <lb ed="#P" n="16"/>sequitur, Angelum inferiorem cognoscere 
+          om<lb break="no" ed="#P" n="17"/>nia alia a se per speciem aeque universalem ac
+          <lb ed="#P" n="18"/>superiorem Angelum, quod non minus 
+          repu<lb break="no" ed="#P" n="19"/>gnat dictis, quam cognoscere per aequalem 
+          spe<lb break="no" ed="#P" n="20"/>cierum numerum. Sequela patet, quia uterque
+          <lb ed="#P" n="21"/>cognoscet omnia sibi inferiora per unam 
+          spe<lb break="no" ed="#P" n="22"/>ciem. Hoc autem repugnare probatur, quia si
+          <lb ed="#P" n="23"/>Angelus in natura superior inferiorem superat
+          <lb ed="#P" n="24"/>in universalitate specierum, de omnibus rebus
+          <lb ed="#P" n="25"/>et objectis debet universaliores species habere,
+          <lb ed="#P" n="26"/>quia omnes et singulae species debent esse 
+          pro<lb break="no" ed="#P" n="27"/>portionatae lumini ejus, cui infunduntur. 
+          Res<lb break="no" ed="#P" n="28"/>pondetur tamen facile, negando sequelam,
+          <lb ed="#P" n="29"/>quia dato Angelo cognoscente omnia alia a se
+          <lb ed="#P" n="30"/>per unam speciem, per illam speciem non 
+          co<lb break="no" ed="#P" n="31"/>enoscet seipsum: at superior Angelus 
+          cognos<lb break="no" ed="#P" n="32"/>ceret illum proxime inferiorem sibi simul cum
+          <lb ed="#P" n="33"/>aliis rebus omnibus per unam speciem, et ita
+          <lb ed="#P" n="34"/>licet uterque cognosceret omnia sibi inferiora
+          <lb ed="#P" n="35"/>per unam tantum speciem, nihilominus illa
+          <lb ed="#P" n="36"/>species in superiori esset universalior, quia
+          <lb ed="#P" n="37"/>plus aliquid repraesentaret, nimirum ipsum
+          <lb ed="#P" n="38"/>Angelum inferiorem.
+        </p>
+        <p xml:id="szdada-x04629-d1e1419">
+          <lb ed="#P" n="39"/>14. Ulterioris instantiae solutio. —Sed 
+          in<lb break="no" ed="#P" n="40"/>stabis: nam saltem ille Angelus inferior 
+          cognos<lb break="no" ed="#P" n="41"/>cet superiorem per unicam speciem, sicut 
+          An<lb break="no" ed="#P" n="42"/>gelus ipse inferior cognoscit se per suam 
+          es<lb break="no" ed="#P" n="43"/>sentiam. hespondeo, hoc nullum esse 
+          incon<lb break="no" ed="#P" n="44"/>veniens, quia superior Angelus altiori modo
+          <lb ed="#P" n="45"/>se cognoscit, scilicet per essentiam suam, et
+          <lb ed="#P" n="46"/>non per speciem comparatio autem in 
+          univer<lb break="no" ed="#P" n="47"/>salitate inter proprias species, et cognitiones,
+          <lb ed="#P" n="48"/>quae ab illis procedunt, facienda est. Imo addo,
+          <lb ed="#P" n="49"/>etiam duos Angelos inter se inaequales 
+          cognos<lb break="no" ed="#P" n="50"/>cere tertium utrique superiorem per species
+          <lb ed="#P" n="51"/>particulares, id est, repraesentantes illum 
+          so<lb break="no" ed="#P" n="52"/>Ium Angelum superiorem, quia respectu 
+          suo<lb break="no" ed="#P" n="53"/>rum superiorum nullus inferior Angelus est
+          <lb ed="#P" n="54"/>capax universalium specierum, ut supra dixi.
+          <lb ed="#P" n="55"/>Unde necessario sequitur, unumquemque An-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>celum inferiorem cogoscere omnes superiores
+          <lb ed="#P" n="57"/>suos per singulas species eorum, et quoad hoc
+          <lb ed="#P" n="58"/>nullam esse differentiam inter inferiores 
+          An<lb break="no" ed="#P" n="59"/>gelos, etiamsi inter se inaequales sint. Neque
+          <lb ed="#P" n="60"/>hoc est inconveniens, aut repugnans dictis,
+          <lb ed="#P" n="61"/>quia non est necesse, ut in omnibus, et 
+          sin<lb break="no" ed="#P" n="62"/>gulis speciebus intelligibus omnis Angelus 
+          su<lb break="no" ed="#P" n="63"/>perior excedat inferiorem quoad numerum
+          <lb ed="#P" n="64"/>rerum repraesentatarum, sed satis est, quod
+          <lb ed="#P" n="65"/>indefinite aliquas species habeat universaliores
+          <lb ed="#P" n="66"/>in illo modo repraesentandi. Item quia 
+          compa<lb break="no" ed="#P" n="67"/>ratio haec in universalitate supponere debet in
+          <lb ed="#P" n="68"/>speciebus capacitatem universalis 
+          repraesenta<lb break="no" ed="#P" n="69"/>tionis: nullus autem Angelus est capax 
+          uni<lb break="no" ed="#P" n="70"/>versalium specierum respectu suorum 
+          supe<lb break="no" ed="#P" n="71"/>riorum, imo nec respectu aequalium, sed 
+          tan<lb break="no" ed="#P" n="72"/>tum respectu inferiorum, et ideo excessus in
+          <lb ed="#P" n="73"/>universalitate invenitur in speciebus quae res
+          <lb ed="#P" n="74"/>inferiores repraesentant, non vero in his, per
+          <lb ed="#P" n="75"/>quas superiores vel aequales cognoscunt.
+        </p>
+        <p xml:id="szdada-x04629-d1e1505">
+          <lb ed="#P" n="76"/>15. Progreditur prorima solutio. — 
+          Nihil<lb break="no" ed="#P" n="77"/>ominus tamen semper species superioris 
+          An<lb break="no" ed="#P" n="78"/>celi erit perfectior in Angelo proxime inferiori
+          <lb ed="#P" n="79"/>quam in remoto, seu minus perfecto, quia in
+          <lb ed="#P" n="80"/>unoquoque est juxta modum recipientis, et in
+          <lb ed="#P" n="81"/>eo, qui propinquius ad superioris perfectionem
+          <lb ed="#P" n="82"/>accedit, est principium perfectioris 
+          cognitio<lb break="no" ed="#P" n="83"/>nis. Sicut etiam supposita distinctione 
+          nume<lb break="no" ed="#P" n="84"/>rica inter Angelos, perfectiorem speciem 
+          in<lb break="no" ed="#P" n="85"/>telligibilem habet unus Angelus alterius 
+          An<lb break="no" ed="#P" n="86"/>geli ejusdem speciei, quam inferior Angelus
+          <lb ed="#P" n="87"/>de eodem habeat, etiamsi neutra species sit
+          <lb ed="#P" n="88"/>proprie universalis in pluribus rebus 
+          repraesen<lb break="no" ed="#P" n="89"/>tandis, juxta ea, quae diximus, quia unus 
+          Ange<lb break="no" ed="#P" n="90"/>lus perfectius, et exactius per suam speciem
+          <lb ed="#P" n="91"/>cognoscit sibi aequalem, quam inferior 
+          Ange<lb break="no" ed="#P" n="92"/>Ius eumdem sibi superiorem cognoscat. Dices,
+          <lb ed="#P" n="93"/>hunc excessum cognitionis provenire ex 
+          lu<lb break="no" ed="#P" n="94"/>mine, non ex specie, ita enim contingit inter
+          <lb ed="#P" n="95"/>homines, per species aequales unum visum
+          <lb ed="#P" n="96"/>meliorem perfectius eamdem rem videre, vel
+          <lb ed="#P" n="97"/>intellectum acutiorem melius eamdem rem
+          <lb ed="#P" n="98"/>penetrare: sicut etiam melior artifex eodem
+          <lb ed="#P" n="99"/>instrumento effectum perfectiorem efficit.
+          <lb ed="#P" n="100"/>Respondetur imprimis, hoc ipsum in 
+          homini<lb break="no" ed="#P" n="101"/>bus esse defectuosum, et minus perfectum:
+          <lb ed="#P" n="102"/>nam ad consummatam perfectionem pertinet,
+          <lb ed="#P" n="103"/>ut instrumentum sit proportionatum 
+          princi<lb break="no" ed="#P" n="104"/>pali virtuti. Unde licet demus, meliorem 
+          arti<lb break="no" ed="#P" n="105"/>ficem cum eodem instrumento perfectius 
+          ope<lb break="no" ed="#P" n="106"/>rari quam artificem inferiorem, nihilominus
+          <lb ed="#P" n="107"/>idem melior artifex perfectius operaretur, cum
+          <lb ed="#P" n="108"/>instrumento aptiori, quam cum minus apto.
+          <lb ed="#P" n="109"/>Cum ergo in natura angelica omnia esse 
+          de<lb break="no" ed="#P" n="110"/>beant ornatissima, et cum magna proportione,
+          <pb ed="#P" n="191"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quo meliori lumine Angelus cognoscit aliquod
+          <lb ed="#P" n="2"/>objectum, eo etiam habet speciem meliorem,
+          <lb ed="#P" n="3"/>perfectiorique modo repraesentantem idem 
+          ob<lb break="no" ed="#P" n="4"/>jectum. Et fortasse etiam in visu, et intellectu
+          <lb ed="#P" n="5"/>hominis sicut est inaequalitas in perfectione
+          <lb ed="#P" n="6"/>individuali, ita etiam esse potest inter species
+          <lb ed="#P" n="7"/>visivas, aut intellectuales quia ab acutiori 
+          in<lb break="no" ed="#P" n="8"/>tellectu abstrahuntur subtiliores, et meliores,
+          <lb ed="#P" n="9"/>ac efficaciores, saltem per se loquendo, et nisi
+          <lb ed="#P" n="10"/>impedimenta intercedant.
+        </p>
+        <p xml:id="szdada-x04629-d1e1609">
+          <lb ed="#P" n="11"/>16. Thomistarum quorumdam responsio alia.
+          <lb ed="#P" n="12"/>— Addunt etiam nonnulli ex Thomistis, non
+          <lb ed="#P" n="13"/>solum superiorem Angelum habere 
+          universa<lb break="no" ed="#P" n="14"/>liores species indefinite, sed etiam 
+          univer<lb break="no" ed="#P" n="15"/>saliter, singulas species superioris Angeli esse
+          <lb ed="#P" n="16"/>universaliores singulis speciebus Angeli 
+          infe<lb break="no" ed="#P" n="17"/>rioris. Distinguunt autem duplicem 
+          universa<lb break="no" ed="#P" n="18"/>litatem, unam in multitudine rerum 
+          reprae<lb break="no" ed="#P" n="19"/>sentatarum, aliam in modo repraesentandi 
+          eam<lb break="no" ed="#P" n="20"/>dem rem, ita ut per illam possint plures 
+          ra<lb break="no" ed="#P" n="21"/>tiones ejusdem rei cognosci, quam per aliam.
+          <lb ed="#P" n="22"/>Et de priori universalitate fatentur non esse
+          <lb ed="#P" n="23"/>necessarium ejus excessum in omnibus, et
+          <lb ed="#P" n="24"/>singulis speciebus superioris Angeli: quod non
+          <lb ed="#P" n="25"/>solum de speciebus repraesentantibus res 
+          su<lb break="no" ed="#P" n="26"/>periores, sed etiam de speciebus rerum 
+          infe<lb break="no" ed="#P" n="27"/>riorum aliqui infirmant. De posteriori autem
+          <lb ed="#P" n="28"/>unrversalitate aiunt, saltem exeessum ejus 
+          ne<lb break="no" ed="#P" n="29"/>cessarium esse in omnibus speciebus Angeli
+          <lb ed="#P" n="30"/>superioris respectu omnium rerum tam 
+          supe<lb break="no" ed="#P" n="31"/>riorum, quam inferiorum, quia superior 
+          An<lb break="no" ed="#P" n="32"/>gelus, etiamsi per eamdem vel easdem species
+          <lb ed="#P" n="33"/>aliqua cognoscat, semper cognoscit plures 
+          ra<lb break="no" ed="#P" n="34"/>Uones talium rerum, etiamsi res plures non
+          <lb ed="#P" n="35"/>cognoscat, et ita semper quoad hoc habebit
+          <lb ed="#P" n="36"/>aliquo modo universaliores species. Hanc 
+          dis<lb break="no" ed="#P" n="37"/>ünctionem indicat divus Thomas, quaestion. 8,
+          <lb ed="#P" n="38"/>de Verit., art. 10, ad 2, et illa utitur 
+          Capreo<lb break="no" ed="#P" n="39"/>lus, supra ad 4, Aureoli ad expediendam 
+          difti<lb break="no" ed="#P" n="40"/>cultatem propositam, et sequitur Soncinius, in
+          <lb ed="#P" n="41"/>Metaphysica, quaestion. 60, ad 1.
+        </p>
+        <p xml:id="szdada-x04629-d1e1679">
+          <lb ed="#P" n="42"/>17. Displicet ex parte. — Verumtamen 
+          doc<lb break="no" ed="#P" n="43"/>trina haec non recte accommodatur ad species,
+          <lb ed="#P" n="44"/>quas unusquisque Angelus de rebus se 
+          inferio<lb break="no" ed="#P" n="45"/>ribus habet. Quia respectu earum non potest
+          <lb ed="#P" n="46"/>species perfectioris Angeli repraesentare 
+          uni<lb break="no" ed="#P" n="47"/>versalius (ut sic dicam) eamdem rem quam
+          <lb ed="#P" n="48"/>species Angeli minus perfecti, repraesentando
+          <lb ed="#P" n="49"/>nimirum perfectiori Angelo plures rationes
+          <lb ed="#P" n="50"/>illius rei, quam minus perfecto. Quia Angelus
+          <lb ed="#P" n="51"/>inferior per species de rebus se inferioribus
+          <lb ed="#P" n="52"/>cognoseit eas perfecte ex parte ipsarum rerum,
+          <lb ed="#P" n="53"/>quianon solum quidditative, sed etiam 
+          compre<lb break="no" ed="#P" n="54"/>hensive res illas cognoscit, utique quantum ad
+          <lb ed="#P" n="55"/>essentiam, proprietates, totamque capacitatem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>naturalem illarum, ergo respectu talium 
+          re<lb break="no" ed="#P" n="57"/>rum non potest species esse universalior in
+          <lb ed="#P" n="58"/>modo, sed esse debet in numero rerum 
+          re<lb break="no" ed="#P" n="59"/>praesentatarum. Probatur consequentia, quia
+          <lb ed="#P" n="60"/>non satis intelligi potest, quomodo inter duas
+          <lb ed="#P" n="61"/>cognitiones comprehensivas ejusdem rei una
+          <lb ed="#P" n="62"/>sit universalior alia in modis, illae ratione sunt
+          <lb ed="#P" n="63"/>intrinsecae, et connaturales, vel extrinsecae 
+          or<lb break="no" ed="#P" n="64"/>dinis naturalis, vel extrinsece ordinis 
+          super<lb break="no" ed="#P" n="65"/>naturalis. Primae necessario cognoscuntur per
+          <lb ed="#P" n="66"/>cognitionem comprehensivam, ut est per se
+          <lb ed="#P" n="67"/>notum, mediae autem antequam rei adhaereant,
+          <lb ed="#P" n="68"/>etiam cognoscentur per easdem species, saltem
+          <lb ed="#P" n="69"/>ut possibiles, si tamen jam sint in re etiam
+          <lb ed="#P" n="70"/>cognoscentur per eamdem speciem, quia erit
+          <lb ed="#P" n="71"/>principium non tantum comprehendendi, sed
+          <lb ed="#P" n="72"/>etiam intuendi rem, ultimae vero non 
+          cognos<lb break="no" ed="#P" n="73"/>cuntur per species naturales, et ideo ad rem
+          <lb ed="#P" n="74"/>non faciunt, quia tam a superiori, quam ab
+          <lb ed="#P" n="75"/>inferiori Angelo ex vi specierum naturalium
+          <lb ed="#P" n="76"/>ignorantur, ut infra videbimus. Igitur major,
+          <lb ed="#P" n="77"/>vel minor universalitas specierum respectu 
+          in<lb break="no" ed="#P" n="78"/>feriorum rerum, in multitudine rerum 
+          reprae<lb break="no" ed="#P" n="79"/>sentatarum ponenda est.
+        </p>
+        <p xml:id="szdada-x04629-d1e1766">
+          <lb ed="#P" n="80"/>18. Ex parte admittitur.—At vero respectu
+          <lb ed="#P" n="81"/>Angelorum superiorum probabiliter defendi 
+          po<lb break="no" ed="#P" n="82"/>test modus loquendi Capreoli: nam probabile
+          <lb ed="#P" n="83"/>est, Angelum inferiorem non comprehendere
+          <lb ed="#P" n="84"/>superiorem. Unde fit consequens, quod ex 
+          duo<lb break="no" ed="#P" n="85"/>bus inferioribus inter se inaequalibus, qui 
+          ma<lb break="no" ed="#P" n="86"/>gis accedit ad Angelum utroque perfectiorem,
+          <lb ed="#P" n="87"/>magis etiam penetret naturam ejus et 
+          virtu<lb break="no" ed="#P" n="88"/>tem, ac operandi modum, ac proinde ut plures
+          <lb ed="#P" n="89"/>rationes, ac modos in ipso, vel in se, vel in
+          <lb ed="#P" n="90"/>ordine ad effectus, quos potest efficere, 
+          cognos<lb break="no" ed="#P" n="91"/>cat, ergo consequenter etiam habebit speciem
+          <lb ed="#P" n="92"/>universaliorem dicto modo respectu illius 
+          An<lb break="no" ed="#P" n="93"/>geli superioris, quam Angelus seipso inferior
+          <lb ed="#P" n="94"/>habeat. Unde distinctio illa probabiliter 
+          ac<lb break="no" ed="#P" n="95"/>ceptari potest, dummodo cum partitione 
+          ac<lb break="no" ed="#P" n="96"/>commoda singula ejus membra cum respectu
+          <lb ed="#P" n="97"/>ad res inferiores, vel superiores 
+          accommoden<lb break="no" ed="#P" n="98"/>tur. Nam respectu inferiorum est propria 
+          uni<lb break="no" ed="#P" n="99"/>versalitas plurium rerum repraesentatarum: 
+          res<lb break="no" ed="#P" n="100"/>pectu autem superiorum est tantum in modo
+          <lb ed="#P" n="101"/>repraesentandi. Et praeterea hic posterior 
+          mo<lb break="no" ed="#P" n="102"/>dus non est certus, sed probabilis, quia non
+          <lb ed="#P" n="103"/>est certum, Angelum inferiorem non 
+          compre<lb break="no" ed="#P" n="104"/>hendere superiorem, quod postea 
+          examinan<lb break="no" ed="#P" n="105"/>dum est.
+        </p>
+        <p xml:id="szdada-x04629-d1e1825">
+          <lb ed="#P" n="106"/>19. Ultima instantia. — Sed superest 
+          ulti<lb break="no" ed="#P" n="107"/>ma instantia, quia si supremus Angelus, qui
+          <lb ed="#P" n="108"/>nunc est, cognoscit omnia, quae sunt infra 
+          ip<lb break="no" ed="#P" n="109"/>sum, per unam speciem, ut supponitur et posito
+          <lb ed="#P" n="110"/>alio Angelo superiori isto, solum excederet
+          <pb ed="#P" n="192"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ipsum quoad universalitatem speciei, quia per
+          <lb ed="#P" n="2"/>unam speciem cognosceret et ipsum Angelum
+          <lb ed="#P" n="3"/>sibi proxime inferiorem, et caetera omnia ipsis
+          <lb ed="#P" n="4"/>inferiora: in numero autem specierum solum
+          <lb ed="#P" n="5"/>esset differentia, quia primus Angelus omnia
+          <lb ed="#P" n="6"/>praeter seipsum per unam speciem cognoscit,
+          <lb ed="#P" n="7"/>secundus vero habet peculiarem speciem primi
+          <lb ed="#P" n="8"/>Angeli et alia omnia praeter se, et superiorem
+          <lb ed="#P" n="9"/>per aliam speciem cognoscit: si hoc (inquam)
+          <lb ed="#P" n="10"/>ita est, ut a nobis respondendo dictum est,
+          <lb ed="#P" n="11"/>eadem ratione et proportione idem dicendum
+          <lb ed="#P" n="12"/>esset nunc de secundo Angelo respectu primi,
+          <lb ed="#P" n="13"/>et de tertio respectu sccundi, et sic usque ad
+          <lb ed="#P" n="14"/>ultimum. Atque ita ultimus Angelus per unam
+          <lb ed="#P" n="15"/>tantum speciem omnia, quae infra ipsum sunt,
+          <lb ed="#P" n="16"/>cognosceret, et solum de Angelis haberet 
+          mul<lb break="no" ed="#P" n="17"/>tiplicatas species, et singulas de singulis tam
+          <lb ed="#P" n="18"/>superioribus, quam aequalibus: et similiter
+          <lb ed="#P" n="19"/>ascendendo ab infima specie Angelorum ad
+          <lb ed="#P" n="20"/>penultimam, Angelus proximus infimo per
+          <lb ed="#P" n="21"/>unam speciem intentionalem cognosceret 
+          om<lb break="no" ed="#P" n="22"/>nes res materiales, et praeterea omnes Angelos
+          <lb ed="#P" n="23"/>sibi inferiores, et solum de superioribus, et
+          <lb ed="#P" n="24"/>eequalibus haberet multiplicatas, et 
+          particula<lb break="no" ed="#P" n="25"/>res species, et sic consequenter de caeteris, per
+          <lb ed="#P" n="26"/>singulas species ascendendo. Consequens 
+          vide<lb break="no" ed="#P" n="27"/>tur incredibile, ergo. Sequela videtur clara ex
+          <lb ed="#P" n="28"/>paritate rationis et proportionis. Nam ita se
+          <lb ed="#P" n="29"/>habet ultimus Angelus ad res sibi inferiores
+          <lb ed="#P" n="30"/>quoad proportionalem excessum in perfectione,
+          <lb ed="#P" n="31"/>sicut alius quilibet superior ad omnia inferiora
+          <lb ed="#P" n="32"/>sibi, ergo etiam eodem modo se habet quoad
+          <lb ed="#P" n="33"/>universalitatem cognitionis et speciei, servata
+          <lb ed="#P" n="34"/>proportione. Falsitas consequentis patet, tum
+          <lb ed="#P" n="35"/>quia nullum est fundamentum ad tribuendam
+          <lb ed="#P" n="36"/>infimo Angelo tantam universalitatem in 
+          cog<lb break="no" ed="#P" n="37"/>noscendo: tum etiam quia sub infimo Angelo
+          <lb ed="#P" n="38"/>immediate est anima rationalis, quae non nisi
+          <lb ed="#P" n="39"/>per species particulares singulas res cognoscit,
+          <lb ed="#P" n="40"/>ergo non est verisimile, fieri immediate 
+          tran<lb break="no" ed="#P" n="41"/>situm ad Angelum tantam universalem 
+          cogni<lb break="no" ed="#P" n="42"/>tionem habentem: tum praeterea, quia 
+          difti<lb break="no" ed="#P" n="43"/>cilius videtur simul repraesentari per unam
+          <lb ed="#P" n="44"/>speciem omnia materialia, coelos, elementa,
+          <lb ed="#P" n="45"/>mixta, animantia omnia et omnes homines,
+          <lb ed="#P" n="46"/>quam repraesentari simul duos Angelos 
+          aequa<lb break="no" ed="#P" n="47"/>les, vel duas species angelicas proxime 
+          supe<lb break="no" ed="#P" n="48"/>riores, sed infimus Angelus non potest 
+          cognos<lb break="no" ed="#P" n="49"/>cere duos sibi superiores, vel aequales per
+          <lb ed="#P" n="50"/>unam speciem, ergo nec omnia materialia per
+          <lb ed="#P" n="51"/>unam speciem.
+        </p>
+        <p xml:id="szdada-x04629-d1e1953">
+          <lb ed="#P" n="52"/>20. Ejus responsio. —Respondeo 
+          conceden<lb break="no" ed="#P" n="53"/>do, hoc totum valde probabiliter sequi ex illa
+          <lb ed="#P" n="54"/>hypothesi, quod unus Angelus omnia sibi 
+          in<lb break="no" ed="#P" n="55"/>feriora tam spiritualia, quam materialia per
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>unam speciem cognoscat. Neque hoc posito 
+          se<lb break="no" ed="#P" n="57"/>quitur aliquid contra varietatem specierum
+          <lb ed="#P" n="58"/>juxta perfectionem Angelorum, quia jam 
+          dixi<lb break="no" ed="#P" n="59"/>mus, hanc universalitatem spectandam esse
+          <lb ed="#P" n="60"/>respectu rerum inferiorum. Unde hlicet 
+          suppo<lb break="no" ed="#P" n="61"/>natur, quod singuli Angeli cognoscant res 
+          om<lb break="no" ed="#P" n="62"/>nes sibi inferiores per unam speciem, 
+          nihil<lb break="no" ed="#P" n="63"/>ominus multitudo rerum inferiorum Angelo
+          <lb ed="#P" n="64"/>perfectiori semper est major, quam multitudo
+          <lb ed="#P" n="65"/>rerum sub Angelo minus perfecto contenta,
+          <lb ed="#P" n="66"/>quia sub priori continentur etiam ipse 
+          Ange<lb break="no" ed="#P" n="67"/>lus minus perfectus et omnes illi aequales, qui
+          <lb ed="#P" n="68"/>tamen sub posteriori non comprehenduntur,
+          <lb ed="#P" n="69"/>et ideo species superioris Angeli semper 
+          uni<lb break="no" ed="#P" n="70"/>versalior. Verumtamen saltem sequitur ex illa
+          <lb ed="#P" n="71"/>hypothesi, unumquemque Angelum unam 
+          tan<lb break="no" ed="#P" n="72"/>tum habere speciem universalem proprie, et
+          <lb ed="#P" n="73"/>ex multitudine rerum repraesentatarum, 
+          scili<lb break="no" ed="#P" n="74"/>cet, illam qua omnia sibi inferiora cognoscit :
+          <lb ed="#P" n="75"/>nam circa reliqua non habet hoc modo species
+          <lb ed="#P" n="76"/>universales, ut dixi, sed ad summum alio 
+          mo<lb break="no" ed="#P" n="77"/>do improprio supra explicato circa solos 
+          supe<lb break="no" ed="#P" n="78"/>riores. Quoniam autem propter argumenta
+          <lb ed="#P" n="79"/>facta difficile creditu est, in omnibus Angelis
+          <lb ed="#P" n="80"/>etiam infimis esse species adeo universales
+          <lb ed="#P" n="81"/>respectu rerum inferiorum, cum sint 
+          particula<lb break="no" ed="#P" n="82"/>res respectu aequalium, vel superiorum; ideo
+          <lb ed="#P" n="83"/>vel neganda est ilia hypothesis, et 
+          proceden<lb break="no" ed="#P" n="84"/>dum juxta dicta in priori modo respondendi:
+          <lb ed="#P" n="85"/>vel neganda est sequela etiam data hypothesi,
+          <lb ed="#P" n="86"/>et consequenter neganda est proportio. Et 
+          ra<lb break="no" ed="#P" n="87"/>tio reddi potest, quia quo spiritualis substantia
+          <lb ed="#P" n="88"/>est majoris perfectionis substantialis, eo habet
+          <lb ed="#P" n="89"/>Iumen eminentius cum special excellentia et
+          <lb ed="#P" n="90"/>universalitate, quam non possunt attingere 
+          in<lb break="no" ed="#P" n="91"/>feriores substantiae, etiamsi in infinitum sub
+          <lb ed="#P" n="92"/>illa perfectiori multiplicentur. Sed quia hoc
+          <lb ed="#P" n="93"/>non facile potest convenienti ratione explicari,
+          <lb ed="#P" n="94"/>priorem modum praeferendum censeo. De qua
+          <lb ed="#P" n="95"/>re aliquid addemus infra, tractando, quomodo
+          <lb ed="#P" n="96"/>possint Angeli plura simul intelligere.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
