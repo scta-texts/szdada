@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="356"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y08952"><!-- t2l4c5 -->
+        <head xml:id="szdada-y08952-Hd1e101">Caput 5</head>
+        <head xml:id="szdada-y08952-Hd1e103" type="question-title">Quis gravius peccaverit, adam, an eva</head>
+        <p xml:id="szdada-y08952-d1e106">
+          <lb ed="#P" n="85"/>CAPUT V.
+          <lb ed="#P" n="86"/>QUIS GRAVIUS PECCAVERIT, ADAM, AN EVA.
+        </p>
+        <p xml:id="szdada-y08952-d1e113">
+          <lb ed="#P" n="87"/>1. Quadruplex comparatio inter peccata
+          <lb ed="#P" n="88"/>Adami et Eve proponitur. — Quoad quartam
+          <lb ed="#P" n="89"/>comparationem communior resolutio. — Haec
+          <lb ed="#P" n="90"/>comparatio fieri potest primo inter singula
+          <lb ed="#P" n="91"/>peccata ejusdem speciei, quae illi homines
+          <lb ed="#P" n="92"/>commiserunt, quis eorum in tali specie 
+          gra<lb break="no" ed="#P" n="93"/>vius peccaverit: secundo in peccatis specie
+          <lb ed="#P" n="94"/>diversis, quis turpius deliquerit: tertio in 
+          nu<lb break="no" ed="#P" n="95"/>mero peccatorum, quis plura peccata 
+          commi<lb break="no" ed="#P" n="96"/>serit: quarto denique absolute et simpliciter,
+          <lb ed="#P" n="97"/>omnibus pensatis, quis corum gravius 
+          pecca<lb break="no" ed="#P" n="98"/>verit. Et in hoc posteriori sensu solet haec
+          <lb ed="#P" n="99"/>quaestio tractari. In qua communior sententia
+          <lb ed="#P" n="100"/>est Evam gravius peccasse Adamo. Ita docet
+          <lb ed="#P" n="101"/>D. Thomas 2, 2, quaest. 163, art. 4. Inclinat
+          <lb ed="#P" n="102"/>Scotus, in 2, distin. 21, quaest. 2, artic. 3, 
+          h<lb break="no" ed="#P" n="103"/>cet distinctione utatur. Plures vero adhibet
+          <lb ed="#P" n="104"/>Bonaventura in 2, distin. 22, art. 1, quaest. 3.
+          <lb ed="#P" n="105"/>At vero Richardus, artic. 1, quaest. 3, diserte
+          <lb ed="#P" n="106"/>dicit, quod omnibus pensatis, mulier gravius
+          <lb ed="#P" n="107"/>peccavit. Et idem habet ZEgidius, quaest. 1.
+          <pb ed="#P" n="357"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>art. 3, consentit Pererius, lib. 6, in Genes.,
+          <lb ed="#P" n="2"/>disput. de Gravit., peccati primorum 
+          paren<lb break="no" ed="#P" n="3"/>tum, quaest. 2. Et principalis auctor hujus
+          <lb ed="#P" n="4"/>sententiae videtur fuisse Chrysostomus; nam
+          <lb ed="#P" n="5"/>homil. 7, ad pop., versus finem, ita ponderat
+          <lb ed="#P" n="6"/>verba illa Dei, Adam ubi es? Considera quia
+          <lb ed="#P" n="7"/>non Evam vocavit, non vocavit serpentem. sed
+          <lb ed="#P" n="8"/>qui omnium levissime peccaverat, bunc ad 
+          judi<lb break="no" ed="#P" n="9"/>cium primum accersit, ut ab eo incipiens, qui
+          <lb ed="#P" n="10"/>aliqua potest venia potiri etiam in eam, que
+          <lb ed="#P" n="11"/>multum peccaverat mitiorem ferat sententiam,
+          <lb ed="#P" n="12"/>etc. Similem sententiam habet Epistol. 3 ad
+          <lb ed="#P" n="13"/>Olympiadem, ait enim, Evam majori moerori
+          <lb ed="#P" n="14"/>addictam fuisse, quia gravius peccaverat: Zt
+          <lb ed="#P" n="15"/>quidem, inquit, usque eo gravius, ut Adee 
+          pec<lb break="no" ed="#P" n="16"/>catum cum hujus peccato collatum, ne peccatum
+          <lb ed="#P" n="17"/>quidem existimetur. Et rationem reddit, quia
+          <lb ed="#P" n="18"/>vir non est seductus, sed mulier, que in 
+          frau<lb break="no" ed="#P" n="19"/>dem impulsa fuit, ac Dei legem violavit, et sibi,
+          <lb ed="#P" n="20"/>et marito venenatum poculum temperavit. Idem
+          <lb ed="#P" n="21"/>fere repetit super Psal. 6, non longe a 
+          prin<lb break="no" ed="#P" n="22"/>cipio.
+        </p>
+        <p xml:id="szdada-y08952-d1e213">
+          <lb ed="#P" n="23"/>2 Oppositum sentit Cajetanus et 
+          Bellarmi<lb break="no" ed="#P" n="24"/>nus. — Nihilominus contrariam sententiam 
+          do<lb break="no" ed="#P" n="25"/>cuit Cajetanus, Genes. 3, circa illa verba,
+          <lb ed="#P" n="26"/>Tulit de fructu arboris, et comedit, ubi plus
+          <lb ed="#P" n="27"/>justo peccatum Evae extenuat. Eademque 
+          sen<lb break="no" ed="#P" n="28"/>tentia longe aliter, et melius explicata placuit
+          <lb ed="#P" n="29"/>Bellarmino, lib. 5, de amissione Gratiae, cap. 9.
+          <lb ed="#P" n="30"/>Et movetur imprimis auctoritate Ambrosii,
+          <lb ed="#P" n="31"/>libr. de Institution. Virginis, cap. 4, ubi 
+          mul<lb break="no" ed="#P" n="32"/>tis ttulis praefert, et exaggerat paccatum Adae.
+          <lb ed="#P" n="33"/>Primo, quia vir erat fortior foemina, et ideo
+          <lb ed="#P" n="34"/>minorem excusationem habet. Secundo, quia
+          <lb ed="#P" n="35"/>mulier ab altiore creatura seducta est, scilicet
+          <lb ed="#P" n="36"/>a daemone per serpentem, vir autem ab 
+          infe<lb break="no" ed="#P" n="37"/>riori, scilicet foomina. Tertia, quia Adam 
+          gra<lb break="no" ed="#P" n="38"/>vius punitus est, nam ei dicitur, Terra es, et
+          <lb ed="#P" n="39"/>in terram ibis, uxori autem, 7n dolore paries
+          <lb ed="#P" n="40"/>filios, etc. Quarto, quia Adam immediate a
+          <lb ed="#P" n="41"/>Deo ipso praeceptum acceperat, uxor vero per
+          <lb ed="#P" n="42"/>virum, et alia similia considerat, quae 
+          morali<lb break="no" ed="#P" n="43"/>ter magis, quam rigorose dicta sunt, et hujus
+          <lb ed="#P" n="44"/>sententiae fuit etiam Anastasius Synaita, l. 19.
+          <lb ed="#P" n="45"/>Exaemeron, circa medium, ubi plures ahas
+          <lb ed="#P" n="46"/>conjecturas adducit non magni momenti. 
+          Ve<lb break="no" ed="#P" n="47"/>rumtamen ad ferendum absolutum judicium
+          <lb ed="#P" n="48"/>in hac causa oportet prius sigillatim 
+          discur<lb break="no" ed="#P" n="49"/>rere in particulari per tres comparationes in
+          <lb ed="#P" n="50"/>principio propositas: nam ex variis 
+          opinioni<lb break="no" ed="#P" n="51"/>bus circa illas, et ex judicio illarum pendet
+          <lb ed="#P" n="52"/>totius negotii absoluta resolutio.
+        </p>
+        <p xml:id="szdada-y08952-d1e282">
+          <lb ed="#P" n="53"/>3. Fit comparatio quoad primum peccatum.
+          <lb ed="#P" n="54"/>— Primum ergo peccatum utriusque parentis
+          <lb ed="#P" n="55"/>in specie, et objecto similitudinem habuit: in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>circumstantiis vero potest excessus, et 
+          defec<lb break="no" ed="#P" n="57"/>tus utrinque considerari: et ideo in hoc primo
+          <lb ed="#P" n="58"/>peccato praecise, aequalitas fuisse videtur. Ita
+          <lb ed="#P" n="59"/>significavit Augustinus, lib. 11, Gen. ad litt.,
+          <lb ed="#P" n="60"/>cap. 35, dicens: Ecam peccasse impari sexu,
+          <lb ed="#P" n="61"/>pari facto, id est, pari superbia, utique 
+          quan<lb break="no" ed="#P" n="62"/>tum ad speciem peccati, et quoad 
+          similitudi<lb break="no" ed="#P" n="63"/>nem Dei, ac excellentiam ab utroque 
+          concu<lb break="no" ed="#P" n="64"/>pitam, ut idem Augustinus declarat, cap. 34,
+          <lb ed="#P" n="65"/>et indicat lib. 14, de Civit., cap. 11, 13et 14.
+          <lb ed="#P" n="66"/>Quoad circumstantias vero et modum 
+          appe<lb break="no" ed="#P" n="67"/>tendi illam excellentiam, mutuus excessus 
+          se<lb break="no" ed="#P" n="68"/>cundum diversas rationes intervenisse videtur.
+          <lb ed="#P" n="69"/>Nam utriusque parentis superbia considerari
+          <lb ed="#P" n="70"/>potest, vel praecise, ut in utroque fuit primum
+          <lb ed="#P" n="71"/>peccatum, in primo signo per 
+          inconsideratio<lb break="no" ed="#P" n="72"/>nem commissum ante propriam deceptionem,
+          <lb ed="#P" n="73"/>et omnem aliam pravam affectionem. Atque
+          <lb ed="#P" n="74"/>hoc modo culpabilior videtur fuisse superbia
+          <lb ed="#P" n="75"/>Adami ; tum quia majore erat praeditus 
+          co<lb break="no" ed="#P" n="76"/>gnitione et virtute, et ideo facilius potuisset
+          <lb ed="#P" n="77"/>resistere et attendere ; tum etiam, quia majori
+          <lb ed="#P" n="78"/>obligatione tenebatur, cum esset caput, et 
+          ra<lb break="no" ed="#P" n="79"/>tione etiam sexus deberet esse constantior ;
+          <lb ed="#P" n="80"/>tum denique, quia quoad superbiae motum 
+          ve<lb break="no" ed="#P" n="81"/>hementior fortasse fuit, quia major etiam fuit
+          <lb ed="#P" n="82"/>persuasio, et inductio feeminae per tentationem
+          <lb ed="#P" n="83"/>immediate a daemone visibiliter factam, quam
+          <lb ed="#P" n="84"/>Adami per mulierem. At vero si superbia illa
+          <lb ed="#P" n="85"/>consideretur, ut perseverans in progressu 
+          pec<lb break="no" ed="#P" n="86"/>candi, videtur tandem multo gravior in Eva
+          <lb ed="#P" n="87"/>fuisse, ut ex sequenti puncto patebit.
+        </p>
+        <p xml:id="szdada-y08952-d1e363">
+          <lb ed="#P" n="88"/>4. Quoad secundum peccatum. — Secundum
+          <lb ed="#P" n="89"/>peccatum in Eva fuit infidelitas, ut supra 
+          vi<lb break="no" ed="#P" n="90"/>dimus, quae si fuit formalis per propriam 
+          haere<lb break="no" ed="#P" n="91"/>sim, ut multi volunt, illa sufficit ad 
+          ostenden<lb break="no" ed="#P" n="92"/>dum simpliter gravius peccasse Evam, quam
+          <lb ed="#P" n="93"/>Adamum, de quo multo probabilius est in 
+          ta<lb break="no" ed="#P" n="94"/>lem errorem non incidisse. Verumtamen 
+          e<lb break="no" ed="#P" n="95"/>tiamsi absque propria haeresi culpabiliter 
+          de<lb break="no" ed="#P" n="96"/>cepta fuerit Eva credendo verbis serpentis,
+          <lb ed="#P" n="97"/>illud peccatum per se est satis grave, et ex illo
+          <lb ed="#P" n="98"/>ulterius colligitur auctam fuisse superbiam
+          <lb ed="#P" n="99"/>Evae. Quia excellentiam, quam simpliet 
+          affec<lb break="no" ed="#P" n="100"/>tu prius appetierat, post illam credulitatem
+          <lb ed="#P" n="101"/>coepit efficaciter intendere: nam propter illam
+          <lb ed="#P" n="102"/>consequendam divinum praeceptum transgredi
+          <lb ed="#P" n="103"/>voluit. Atque ita D. Thomas, in 2, dist. 22,
+          <lb ed="#P" n="104"/>quaest. 1, art. 3, inde colligit gravitatem 
+          pec<lb break="no" ed="#P" n="105"/>cati Evae: Quod ex sola elatione mentis ad 
+          pec<lb break="no" ed="#P" n="106"/>candum mota fuit.Sic ergotam in primo, quam
+          <lb ed="#P" n="107"/>in secundo peccato gravius peccans invenitur
+          <lb ed="#P" n="108"/>Eva, quam Acam. In primo quidem, quia ille
+          <lb ed="#P" n="109"/>excessus in modo superbiendi pejor fuisse 
+          vi<lb break="no" ed="#P" n="110"/>detur, et majoris inordinationis in Eva, quam
+          <pb ed="#P" n="358"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in Adamo: unde etiam auxit inobedientiam
+          <lb ed="#P" n="2"/>cjus, ut statim videbimus. fn secundo item
+          <lb ed="#P" n="3"/>peccato plane excessit, quia in viro non fuit
+          <lb ed="#P" n="4"/>illa deceptio per quam verba serpentis vera
+          <lb ed="#P" n="5"/>esse crediderit, ut jam ostendimus. Unde 
+          se<lb break="no" ed="#P" n="6"/>cundum peccatum Adae, quod in nimio amore
+          <lb ed="#P" n="7"/>uxoris cum defectu corripiendi illam positum
+          <lb ed="#P" n="8"/>fuit, ut diximus, comparatum ad falsam Evae
+          <lb ed="#P" n="9"/>credulitatem multo levius fuit ; tum ex specie
+          <lb ed="#P" n="10"/>sua, et objecto, ut per se constat, tum etiam
+          <lb ed="#P" n="11"/>ex modo peccandi, quia majori concupiscentia,
+          <lb ed="#P" n="12"/>et quasi connaturali inductus fuit Adam, Eva
+          <lb ed="#P" n="13"/>vero ex sola superbia cum negligentia valde
+          <lb ed="#P" n="14"/>culpabili seducta est. Et praeterea etiam in ipsa
+          <lb ed="#P" n="15"/>Eva nimius amor viri considerari potest, ideo
+          <lb ed="#P" n="16"/>enim ipsum ad comedendum invitavit, quia
+          <lb ed="#P" n="17"/>eum valde diligebat. Nam ob eam causam 
+          vo<lb break="no" ed="#P" n="18"/>Iuit fructum illum cum ipso communicare.
+          <lb ed="#P" n="19"/>Quia vero illa in hoc, ex errore procedebat
+          <lb ed="#P" n="20"/>fere sine ullo excessu in amore viri, potuit 
+          il<lb break="no" ed="#P" n="21"/>lam ad comedendum invitare, et ideo in hac
+          <lb ed="#P" n="22"/>parte multo major excessus viri, quia sciens et
+          <lb ed="#P" n="23"/>videns, ut Augustinusait, propter amorem 
+          uxo<lb break="no" ed="#P" n="24"/>ris Deum offendit.
+        </p>
+        <p xml:id="szdada-y08952-d1e472">
+          <lb ed="#P" n="25"/>5. Quoad tertium peccatum. — Tertium 
+          u<lb break="no" ed="#P" n="26"/>triusque peccatum fuit inobedientia comedendi
+          <lb ed="#P" n="27"/>ex fructu prohibito, ut supra declaratum est.
+          <lb ed="#P" n="28"/>Iu quo etiam invenitur inaequalitas in objecto,
+          <lb ed="#P" n="29"/>et specie peccati, tam in specie gulae, quam in
+          <lb ed="#P" n="30"/>specie furti, seu rapinae, si in illo actu 
+          secun<lb break="no" ed="#P" n="31"/>dum propriam et specificam malitiam fuit, et
+          <lb ed="#P" n="32"/>idem est de malitia inobedientiae: nam 
+          prae<lb break="no" ed="#P" n="33"/>ceptum sub eadem ratione, et aequaliter 
+          utri<lb break="no" ed="#P" n="34"/>que impositum fuit, et quod DEUS immediate
+          <lb ed="#P" n="35"/>illud promulgaverit soli Adae, Evae autem per
+          <lb ed="#P" n="36"/>Adamum, non refert ad augendum, vel 
+          mi<lb break="no" ed="#P" n="37"/>nuendum peccatum, quia respectu utriusque
+          <lb ed="#P" n="38"/>erat praeceptum mere divinum, et aequali 
+          cer<lb break="no" ed="#P" n="39"/>titudine tenendum. Nihilominus tamen illud
+          <lb ed="#P" n="40"/>peccatum ex generalibus circumstantiis dictis,
+          <lb ed="#P" n="41"/>in Adamo gravius fuit, quia ob virilem 
+          condi<lb break="no" ed="#P" n="42"/>tionem, et majorem sapientiam poterat, et 
+          de<lb break="no" ed="#P" n="43"/>bbat esse constantior, et quia caput et 
+          gu<lb break="no" ed="#P" n="44"/>bernator erat, majori obligatione ad id 
+          tene<lb break="no" ed="#P" n="45"/>batur. Nam licet idem praeceptum ex parte
+          <lb ed="#P" n="46"/>Dei, vel Ecclesiae, verbi gratia, Praelato, et 
+          sub<lb break="no" ed="#P" n="47"/>ditis aeque proponatur: nihilominus ex 
+          condi<lb break="no" ed="#P" n="48"/>tione, seu ex capacitate personae potest unam
+          <lb ed="#P" n="49"/>magis obligare, quam aliam.
+        </p>
+        <p xml:id="szdada-y08952-d1e529">
+          <lb ed="#P" n="50"/>6. Progreditur comparatio quoad idem 
+          ter<lb break="no" ed="#P" n="51"/>tium peccatum .—Aliunde vero hoc ipsum 
+          pec<lb break="no" ed="#P" n="52"/>catum ex motivo peccandi gravius fuit inEva,
+          <lb ed="#P" n="53"/>quam in Adamo: nam Eva comedit ex motivo
+          <lb ed="#P" n="54"/>consequendi excellentiam, quam appetebat:
+          <lb ed="#P" n="55"/>Adam vero non ex intentione superbiae, sed
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>solum ex passione et fragilitate animi, ut 
+          uxo<lb break="no" ed="#P" n="57"/>ri condescenderet, comedit. Unde colligit divus
+          <lb ed="#P" n="58"/>Thomas supra, etiam hoc peccatum fuisse 
+          sim<lb break="no" ed="#P" n="59"/>pliciter gravius in Eva, quia peccatum magis
+          <lb ed="#P" n="60"/>aggravatur ex motivo, quam ex aliis 
+          circum<lb break="no" ed="#P" n="61"/>stantiis: quia finis potissima circumstantia est
+          <lb ed="#P" n="62"/>moralium actuum. Conjectari etiam potest,
+          <lb ed="#P" n="63"/>Evam cum mapjori libertate et voluntate 
+          co<lb break="no" ed="#P" n="64"/>medisse, quia non ita ferebatur ex passionc
+          <lb ed="#P" n="65"/>sensibili, sicut Adam. Nam iste fere coactus
+          <lb ed="#P" n="66"/>timore displicendi foemina: illa vero valde
+          <lb ed="#P" n="67"/>voluntarie ex solo affectu superbiae, et ex 
+          cae<lb break="no" ed="#P" n="68"/>citate mentis, quam inde contraxerat, 
+          praecep<lb break="no" ed="#P" n="69"/>tum transgressa est. Dicere autem potest 
+          ali<lb break="no" ed="#P" n="70"/>quis, Evam etiam fuisse ductam ex sensibili
+          <lb ed="#P" n="71"/>concupiscentia gustandi fructum, qui jam 
+          pul<lb break="no" ed="#P" n="72"/>cher oculis apparuerat. Verumtamen hoc per
+          <lb ed="#P" n="73"/>comparationem ad Adamum parum potuit 
+          di<lb break="no" ed="#P" n="74"/>minuere culpam, cum potuerit eadem 
+          concu<lb break="no" ed="#P" n="75"/>piscentia in Adam inveniri ; sicut etiam e 
+          con<lb break="no" ed="#P" n="76"/>trario aliqui ponderant in peccato Adami 
+          ma<lb break="no" ed="#P" n="77"/>jorem gravitatem ex motivo curiositatis, quam
+          <lb ed="#P" n="78"/>habuit experiendi, quid in illo fructu lateret.
+          <lb ed="#P" n="79"/>Sed non est, cur credamus, Evam in similem
+          <lb ed="#P" n="80"/>curiositatem non incidisse: imo fortasse illam
+          <lb ed="#P" n="81"/>habuit deteriorem: nam illa cupiebat experiri,
+          <lb ed="#P" n="82"/>quod non credebat: Adam vero quod 
+          ignora<lb break="no" ed="#P" n="83"/>bat, vel ad summum de quo dubitabat, seu
+          <lb ed="#P" n="84"/>dubitare potuit sine infidelitate, aut errore,
+          <lb ed="#P" n="85"/>ut jam dictum est.
+        </p>
+        <p xml:id="szdada-y08952-d1e612">
+          <lb ed="#P" n="86"/>7. Ultra haec vero considerari potest in hoc
+          <lb ed="#P" n="87"/>peccato, quaedam circumstantia personae 
+          Ada<lb break="no" ed="#P" n="88"/>mi, quae in Eva inventa non est. Nam Adam
+          <lb ed="#P" n="89"/>comedendo peccavit, non tantum, ut privata
+          <lb ed="#P" n="90"/>persona: sed etiam ut caput generis humani:
+          <lb ed="#P" n="91"/>Eva vero solum ut privata persona comedendo
+          <lb ed="#P" n="92"/>deliquit, et ideo peccatum Adae totum genus
+          <lb ed="#P" n="93"/>humanum infecit, et gratia Dei, justitia 
+          origi<lb break="no" ed="#P" n="94"/>nali, immortalitate corporis, aliisque bonis 
+          pri<lb break="no" ed="#P" n="95"/>vavit. Eva autem sibi soli nocuit: nam licet
+          <lb ed="#P" n="96"/>ipsa peccasset, posteri eorum bona illa non
+          <lb ed="#P" n="97"/>amitterent, nec peccatum originale 
+          incurre<lb break="no" ed="#P" n="98"/>rent, uüt in propria materia latius dicetur. Ex
+          <lb ed="#P" n="99"/>hac ergo parte videtur peccatum Adae fuisse
+          <lb ed="#P" n="100"/>multo gravius, quam Evae, quia ex nocumento
+          <lb ed="#P" n="101"/>proximi peccatum aggravatur, illud autem 
+          no<lb break="no" ed="#P" n="102"/>cumentum gravissimum fuit, et quodammodo
+          <lb ed="#P" n="103"/>infinitum: unde videri potest peccatum Adae
+          <lb ed="#P" n="104"/>ratione illius circumstantiae non solum illud
+          <lb ed="#P" n="105"/>unum peccatum Evae, sed etiam omnia ejus
+          <lb ed="#P" n="106"/>peccata simul sumpta excessisse.
+        </p>
+        <p xml:id="szdada-y08952-d1e660">
+          <lb ed="#P" n="107"/>8. In hoc vero duo consideranda sunt: 
+          u<lb break="no" ed="#P" n="108"/>num est nocumentum non aggravare 
+          pecca<lb break="no" ed="#P" n="109"/>tum, nisi sit praevisum. Incertum autem est
+          <lb ed="#P" n="110"/>utrum Adam praesciverit nocumentum illud,
+          <pb ed="#P" n="359"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quod toti posteritati imminebat, si ipse 
+          pecca<lb break="no" ed="#P" n="2"/>ret, quia non est certum, an praesciverit 
+          pac<lb break="no" ed="#P" n="3"/>tum, seu conditionem in illis verbis: 7n 
+          qua<lb break="no" ed="#P" n="4"/>cumque die comederis, morte morieris, 
+          inclu<lb break="no" ed="#P" n="5"/>sam, non solum ipsius personam, sed etiam
+          <lb ed="#P" n="6"/>in ipso omnes ejus posteros comprehendisse,
+          <lb ed="#P" n="7"/>et ideo incertum etiam est an ex illa 
+          circum<lb break="no" ed="#P" n="8"/>stantia peccatum Adae gravius fuisset. Nos 
+          au<lb break="no" ed="#P" n="9"/>tem in superioribus diximus probabilius esse
+          <lb ed="#P" n="10"/>habuisse Adam notitiam divini pacti, et 
+          sta<lb break="no" ed="#P" n="11"/>tus, ac conditionis personae suae, ideoque non
+          <lb ed="#P" n="12"/>dubitamus, quin ex eo capite peccatum Adae
+          <lb ed="#P" n="13"/>multum fuerit aggravatum, et ita loquuntur
+          <lb ed="#P" n="14"/>communiter doctores eam circumstantiam 
+          nu<lb break="no" ed="#P" n="15"/>merantes, inter eas, quae peccatum Adae 
+          gra<lb break="no" ed="#P" n="16"/>vius reddiderunt, quod indicavit D. Thomas,
+          <lb ed="#P" n="17"/>99. q. 163, art. 3, ad 2, et 3part., quaest. 2,
+          <lb ed="#P" n="18"/>art. 2, ad 2, et Bellarminus, lib. 3, de 
+          Amis<lb break="no" ed="#P" n="19"/>sion. Gratiae, cap. 9, et Pererius, dicto lib. 6,
+          <lb ed="#P" n="20"/>quaest. 1, de hac re. Nihilominus tamen ex hoc
+          <lb ed="#P" n="21"/>inferri non potest, Evam minus peccasse, quia
+          <lb ed="#P" n="22"/>non fuit ipsa ab eadem gravitate immunis.
+          <lb ed="#P" n="23"/>Nam Llicet ipsa sua propria transgressione, et
+          <lb ed="#P" n="24"/>comedendo de ligno vetito posteritati non 
+          no<lb break="no" ed="#P" n="25"/>cuerit: nihilominus inducendo Adamum, ut
+          <lb ed="#P" n="26"/>comederet, fuit causa ejusdem nocumenti,
+          <lb ed="#P" n="27"/>quia fuit causa peccati Adae, et fortasse non
+          <lb ed="#P" n="28"/>minus, vel paulo minus, quam Adam malitiam
+          <lb ed="#P" n="29"/>illam participavit. Nam licet Adam efficacius,
+          <lb ed="#P" n="30"/>et propinquius nocumentum illud nobis 
+          intule<lb break="no" ed="#P" n="31"/>rit, nihilominus ipsa prior causa, etsub ea 
+          ra<lb break="no" ed="#P" n="32"/>tione principalior illius nocumenti fuit, 
+          prop<lb break="no" ed="#P" n="33"/>ter quod dicitur Ecelesiastici 295. A muliere
+          <lb ed="#P" n="34"/>initium factum est peccati, et per illam omnes
+          <lb ed="#P" n="35"/>morimur. Sicut Augustinus, in Psalm. 63,
+          <lb ed="#P" n="36"/>dixit Judaeos non minus peccasse occidendo
+          <lb ed="#P" n="37"/>Christum lingua, petendo a Pilato, ut 
+          crucifi<lb break="no" ed="#P" n="38"/>geret eum, quam ipsum Pilatum, vel alios
+          <lb ed="#P" n="39"/>praecepto, et opere crucifigentes ipsum: igitur
+          <lb ed="#P" n="40"/>in hac ipsa gravitate parva est, vel nulla 
+          diffe<lb break="no" ed="#P" n="41"/>rentia.
+        </p>
+        <p xml:id="szdada-y08952-d1e765">
+          <lb ed="#P" n="42"/>9. Quoad quartum peccatum. — Quarto loco
+          <lb ed="#P" n="43"/>inter peccata Evae supra posuimus peccatum
+          <lb ed="#P" n="44"/>scandali, quod invitando et inducendo virum
+          <lb ed="#P" n="45"/>ad comedendum commisit: in quo non est 
+          du<lb break="no" ed="#P" n="46"/>bium, quin gravissime peccaverit: et in hac
+          <lb ed="#P" n="47"/>gravitate videtur simpliciter excedere ipsum
+          <lb ed="#P" n="48"/>Adamum, quia ille nec aliud illi simile, nec
+          <lb ed="#P" n="49"/>etiam dissimile, et aequivalens commisisse 
+          vi<lb break="no" ed="#P" n="50"/>detur, quo possit illa gravitas compensari, ut
+          <lb ed="#P" n="51"/>ex numeratione peccatorum utriusque parentis
+          <lb ed="#P" n="52"/>supra facta, facile intelligi potest. Sed forte
+          <lb ed="#P" n="53"/>quis dicet, huic peccato Evae comparari posse
+          <lb ed="#P" n="54"/>peccatum Adae, quod comisisse diximus non
+          <lb ed="#P" n="55"/>corripiendo, neque instruendo Evam, prout
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ex charitate et officio tenebatur: nam 
+          ejus<lb break="no" ed="#P" n="57"/>dem fere malitiae est, non corripere proximum,
+          <lb ed="#P" n="58"/>cum quis tenetur, et illum ad peccandum 
+          in<lb break="no" ed="#P" n="59"/>ducere, eo vel maxime quod Adam etiam suo
+          <lb ed="#P" n="60"/>exemplo scandalum Evae intulit, eamque in
+          <lb ed="#P" n="61"/>suo peccato, et malo proposito confirmavit.
+          <lb ed="#P" n="62"/>hespondemus, probabiliter quidem hoc 
+          dic<lb break="no" ed="#P" n="63"/>tum esse: nihilominus tamen, et longe gravius
+          <lb ed="#P" n="64"/>fuisse scandalum Evae, quiacausa fuit omnium
+          <lb ed="#P" n="65"/>peccatorum Adae, et ita totam illorum 
+          gravi<lb break="no" ed="#P" n="66"/>tatem participavit, et quodammodo suam 
+          fe<lb break="no" ed="#P" n="67"/>cit, et praeterea facta illa comparatione inter
+          <lb ed="#P" n="68"/>illa duo peecata, relinquitur infidelitas Evae,
+          <lb ed="#P" n="69"/>in qua tota superavit Adamum: nam si quae
+          <lb ed="#P" n="70"/>fuit in Adamo deceptio, vel non fuit peccatum
+          <lb ed="#P" n="71"/>a reliquis distictum, vel fuit levissimum 
+          com<lb break="no" ed="#P" n="72"/>paratione deceptionis Evae, ut praecedenti 
+          ca<lb break="no" ed="#P" n="73"/>pite satis declaravimus. Denique se excusando
+          <lb ed="#P" n="74"/>uterque aliquo modo deliquit, et in hoc non
+          <lb ed="#P" n="75"/>solum similes, sed etiam aequales fuisse 
+          vi<lb break="no" ed="#P" n="76"/>dentur. Nam inaequalitas, quae consideratur ex
+          <lb ed="#P" n="77"/>parte Evae, quia planius confessa est suum
+          <lb ed="#P" n="78"/>peccatum, dicens: Serpens decepit me, parvi
+          <lb ed="#P" n="79"/>momenti mihi esse videtur: quia per illa verba
+          <lb ed="#P" n="80"/>noluit ipsa confiteri speciale peccatum, sed
+          <lb ed="#P" n="81"/>aliud excusare: nam deceptionem tunc non
+          <lb ed="#P" n="82"/>credebat esse accusandam, sed potius esse 
+          ex<lb break="no" ed="#P" n="83"/>cusatione dignam. In illo ergo peccato vel 
+          nul<lb break="no" ed="#P" n="84"/>la, vel parva fuit diversitas.
+        </p>
+        <p xml:id="szdada-y08952-d1e863">
+          <lb ed="#P" n="85"/>10. Concluditur pro communiori resolutione
+          <lb ed="#P" n="86"/>n. 1, posita, discurrendo per comparationes 
+          ini<lb break="no" ed="#P" n="87"/>tio capitis notatas. — Quapropter pensatis 
+          om<lb break="no" ed="#P" n="88"/>nibus, Evam gravius peccasse invenimus. Quia
+          <lb ed="#P" n="89"/>in numero peccatorum plura peccata 
+          principa<lb break="no" ed="#P" n="90"/>lia, ut sic dicam, et omnino distincta comisit
+          <lb ed="#P" n="91"/>Eva, quam Àdam: nam Eva quatuor, vel 
+          quin<lb break="no" ed="#P" n="92"/>que commisit, scilicet superbiam, 
+          infidelita<lb break="no" ed="#P" n="93"/>tem, inobedientiam, scandalum, quibus etiam
+          <lb ed="#P" n="94"/>addi potest excusatio: nam si quae alia 
+          nume<lb break="no" ed="#P" n="95"/>rantur, vel non sunt peccata, ut illa omnia,
+          <lb ed="#P" n="96"/>quae superbiam antecessisse putantur, ut 
+          su<lb break="no" ed="#P" n="97"/>pra declaravi: vel in praedictis continentur, ut
+          <lb ed="#P" n="98"/>gula et similia. In Adamo vero juxta ea, quae
+          <lb ed="#P" n="99"/>circa testimonium Pauli diximus, tantum 
+          pos<lb break="no" ed="#P" n="100"/>sunt quatuor numerari peccata, scilicet, 
+          super<lb break="no" ed="#P" n="101"/>bia, nimius amor uxoris, inobedientia et 
+          ex<lb break="no" ed="#P" n="102"/>cusatio peccati: nam licet aliqui plura ei 
+          im<lb break="no" ed="#P" n="103"/>ponant, aliqua immerito ei tribuunt, ut 
+          infi<lb break="no" ed="#P" n="104"/>delitatem, vel idololatriam: alia a praedictis
+          <lb ed="#P" n="105"/>nonsunt distincta, ut curiositas, laesio proximi,
+          <lb ed="#P" n="106"/>aut siquid est simile, ut satis jam explicatum
+          <lb ed="#P" n="107"/>est. Igitur casus Evae quoad numerum 
+          pecca<lb break="no" ed="#P" n="108"/>torum major fuit, quam lapsus Adae, et hinc
+          <lb ed="#P" n="109"/>ulterius concluditur, omnibus pensatis, 
+          gra<lb break="no" ed="#P" n="110"/>vius deliquisse. Nam in peccatis similibus in
+          <pb ed="#P" n="360"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>specie, ut fuerunt superbiae, inobedientiae et
+          <lb ed="#P" n="2"/>excusationis quoad circumstantias invenitur,
+          <lb ed="#P" n="3"/>vel aequalitas, vel parva differentia, in qua
+          <lb ed="#P" n="4"/>plura sunt, quae aggravent peccata Evae saltem
+          <lb ed="#P" n="5"/>quoad superbiam, ut declaratum est. Inter 
+          pec<lb break="no" ed="#P" n="6"/>cata vero specie ditferentia, ut infidelitas, vel
+          <lb ed="#P" n="7"/>excessus in amore uxoris, multo gravior fuit
+          <lb ed="#P" n="8"/>Evae culpa: et ultra haec addit Eva 
+          inductio<lb break="no" ed="#P" n="9"/>nem mariti, quae proprium et gravissimum
+          <lb ed="#P" n="10"/>peccatum ejus fuit: ergo simpliciter illa 
+          gra<lb break="no" ed="#P" n="11"/>vius peccavit. Atque ita sententia 
+          Chrysosto<lb break="no" ed="#P" n="12"/>mi et D. Thomae simpliciter praeferenda est.
+          <lb ed="#P" n="13"/>Sententia vero Ambrosii tantum secundum
+          <lb ed="#P" n="14"/>quid, seu juxta aliquas circumstantias, et 
+          pe<lb break="no" ed="#P" n="15"/>culiarem considerationem interpretanda est.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

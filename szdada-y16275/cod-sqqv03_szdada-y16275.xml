@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 15</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 15</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="664"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y16275"><!-- t3l3c15 -->
+        <head xml:id="szdada-y16275-Hd1e101">Caput 15</head>
+        <head xml:id="szdada-y16275-Hd1e103" type="question-title">Quidnam sit color, et quomodo in species suas distinguatur</head>
+        <p xml:id="szdada-y16275-d1e106">
+          <lb ed="#P" n="42"/>CAPUT XV.
+          <lb ed="#P" n="43"/>QUIDNAM SIT COLOR, ET QUOMODO IN SPECIES SUAS
+          <lb ed="#P" n="44"/>DISTINGUATUR.
+        </p>
+        <p xml:id="szdada-y16275-d1e115">
+          <lb ed="#P" n="45"/>1. Circa primam partem tituli opinio 
+          quo<lb break="no" ed="#P" n="46"/>rundam. — Non solum lumen, sed colores
+          <lb ed="#P" n="47"/>etiam visu percipiuntur: post lumen igitur 
+          di<lb break="no" ed="#P" n="48"/>cendum sequitur de colore, ac primo, quid sit.
+          <lb ed="#P" n="49"/>Secundo quas habeat species. Circa primum,
+          <lb ed="#P" n="50"/>est notandum, colorem et afficere subjectum,
+          <lb ed="#P" n="51"/>quod per entitatem suam praestat, et visibilem
+          <lb ed="#P" n="52"/>esse: nunc entitatem vestigamus, sequenti
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>capite de visibilitate dicemus. Est autem certa
+          <lb ed="#P" n="54"/>sententia colorem ad praedicamentum 
+          qualta<lb break="no" ed="#P" n="55"/>tis pertinere, quae tamen qualitas sit, non satis
+          <lb ed="#P" n="56"/>constat. Nonnulli autumant colorem non esse
+          <lb ed="#P" n="57"/>peculiarem qualitatem in corpore colorato, sed
+          <lb ed="#P" n="58"/>esse Iumen ipsum in corpore denso et solido
+          <lb ed="#P" n="59"/>receptum, nam sicut corpus diaphanum et 
+          ra<lb break="no" ed="#P" n="60"/>rum aptum est, ut illuminetur a luce, ita 
+          cor<lb break="no" ed="#P" n="61"/>pus opacum, ut ab ea coloretur, coloratur
+          <lb ed="#P" n="62"/>autem diverso modo, juxta diversas ipsius 
+          dis<lb break="no" ed="#P" n="63"/>positiones, atque ita opinantes exponunt 
+          Aris<lb break="no" ed="#P" n="64"/>totelem de Sensu et sensibili, capite tertio, cum
+          <lb ed="#P" n="65"/>scribit colorem esse extremitatem perspicui in
+          <lb ed="#P" n="66"/>terminato corpore, terminatum enim vocatur
+          <lb ed="#P" n="67"/>densum corpus, eo quod in ipso sistit, seu 
+          ter<lb break="no" ed="#P" n="68"/>minatur visio: perspicuitatem ergo existentem
+          <lb ed="#P" n="69"/>in extremitate opaci corporis vult Aristoteles
+          <lb ed="#P" n="70"/>esse colorem: talis vero perspicuitas non nisi
+          <lb ed="#P" n="71"/>Iumen est ibi receptum: ergo, etc. Vel aliter
+          <lb ed="#P" n="72"/>perspicuum dicitur corpus transparens, ut aer,
+          <lb ed="#P" n="73"/>hujusmodi autem perspicuum usque ad corpus
+          <lb ed="#P" n="74"/>aliquod opacum protenditur, ibique 
+          termina<lb break="no" ed="#P" n="75"/>tur, cum vacuum dari non possit: Aristoteles
+          <lb ed="#P" n="76"/>ergo extremitatem sam aeris perspicui, quae
+          <lb ed="#P" n="77"/>ad corpus opacum terminatur, vult esse 
+          colo<lb break="no" ed="#P" n="78"/>rem, talis autem extremitas lumen est: ergo
+          <lb ed="#P" n="79"/>etc. Confirmatur haec sententia, namque 
+          expe<lb break="no" ed="#P" n="80"/>rimur colores fieri ex sola terminatione lucis
+          <lb ed="#P" n="81"/>in nube densa: ergo revera color non est aliud,
+          <lb ed="#P" n="82"/>quam lux terminata in denso corpore. Atque
+          <lb ed="#P" n="83"/>ita sensit Avicenna 6, Naturalium, 3 p., c. 1,
+          <lb ed="#P" n="84"/>citans Avempace et Alpharabium. Idem fere
+          <lb ed="#P" n="85"/>habet Alexander, lib. 1, Quaestionum 
+          natura<lb break="no" ed="#P" n="86"/>lium, q. 1, cap. 2, cum dicat colorem 
+          essen<lb break="no" ed="#P" n="87"/>taliter a luce non differre, sed lucem ipsam
+          <lb ed="#P" n="88"/>in opaco corpore colorem esse. Idem sequitur
+          <lb ed="#P" n="89"/>Thienensis, 1 de Anima, cap. de Visu, 
+          Themis<lb break="no" ed="#P" n="90"/>tius, AEgidius et Cajetanus, lib. 2, cap. 7, 
+          Ja<lb break="no" ed="#P" n="91"/>vellus ib., quaest. 33, Soncinas 10, 
+          Metaphysi<lb break="no" ed="#P" n="92"/>cae, quaest. 2.
+        </p>
+        <p xml:id="szdada-y16275-d1e224">
+          <lb ed="#P" n="93"/>2. Contraria assertio lipartita. — Dico 
+          ta<lb break="no" ed="#P" n="94"/>men, colorem esse qualitatem permanentem
+          <lb ed="#P" n="95"/>in corpore colorato (etiamsi non illuminetur)
+          <lb ed="#P" n="96"/>resultantem in illo ex elementorum mixtione.
+          <lb ed="#P" n="97"/>Haec est sententia D. Thomae ubique, ac 
+          sua<lb break="no" ed="#P" n="98"/>detur primo. Nam visus distinguit in objecto
+          <lb ed="#P" n="99"/>Iucem a colore, cum enim videat duo corpora
+          <lb ed="#P" n="100"/>eequaliter esse illuminata, utpote in aequali
+          <lb ed="#P" n="101"/>situ, magnitudine, ac distantia a sole, 
+          discer<lb break="no" ed="#P" n="102"/>nit tamen alterum esse album, alterum 
+          ni<lb break="no" ed="#P" n="103"/>grum. Secundo docet experientia lumen 
+          exi<lb break="no" ed="#P" n="104"/>stens in corpore albo remitti, albedine manente
+          <lb ed="#P" n="105"/>immutata: non ergo albedo est lus ipsa: 
+          an<lb break="no" ed="#P" n="106"/>tecedens ita ostenditur, si quis videat rem 
+          al<lb break="no" ed="#P" n="107"/>bam a certa distantia remissa forte paululum
+          <pb ed="#P" n="665"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>luce, minus discernet alborem: si tamen 
+          pro<lb break="no" ed="#P" n="2"/>pius ad rem ipsam albam accedat, aeque 
+          discer<lb break="no" ed="#P" n="3"/>net. acantea, quia quod de luce est imminutum,
+          <lb ed="#P" n="4"/>suppletum accessu fuit: tunc ergo visus 
+          perci<lb break="no" ed="#P" n="5"/>pit lumen esse minus, albedinem vero manere
+          <lb ed="#P" n="6"/>eamdem, atque adeo percipit lucem a colore
+          <lb ed="#P" n="7"/>distingui: imo et alborem in absentia, 
+          lumi<lb break="no" ed="#P" n="8"/>nis perseverare. Tertio conducunt 
+          experien<lb break="no" ed="#P" n="9"/>tiae aliae, res namque eadem eumdem servat
+          <lb ed="#P" n="10"/>colorem, nisi ab intrinseco alteretur, diversae
+          <lb ed="#P" n="11"/>vero diversos habent colores: intelligi autem
+          <lb ed="#P" n="12"/>vix potest tantam diversitatem mere 
+          acciden<lb break="no" ed="#P" n="13"/>taliter ex parte subjecti provenire. Quarto 
+          in<lb break="no" ed="#P" n="14"/>credibile est ex sola absentia Solis cessare in
+          <lb ed="#P" n="15"/>corporibus colorem, qui per solam 
+          illumina<lb break="no" ed="#P" n="16"/>tionem reproducatur. Quinto, si colores lux
+          <lb ed="#P" n="17"/>ipsa sunt, non inter se different essentialiter,
+          <lb ed="#P" n="18"/>cum quae sunt eadem uni tertio, inter se 
+          quo<lb break="no" ed="#P" n="19"/>que sint eadem. Sexto, lumen receptum in
+          <lb ed="#P" n="20"/>corpore opaco non causat semper colorem, ut
+          <lb ed="#P" n="21"/>patet in luna, quae lucem aspectui objicit, non
+          <lb ed="#P" n="22"/>colorem. Tandem haec sententia nullum habet
+          <lb ed="#P" n="23"/>firmum fundamentum, et multa ponit 
+          incre<lb break="no" ed="#P" n="24"/>dibilia.
+        </p>
+        <p xml:id="szdada-y16275-d1e316">
+          <lb ed="#P" n="25"/>3. Posterior pars suadetur, et emplicatur 
+          ge<lb break="no" ed="#P" n="26"/>neratio colorum. — De coloribus nubium. —
+          <lb ed="#P" n="27"/>Postrema conclusionis pars hinc a posteriori
+          <lb ed="#P" n="28"/>suadetur, color enim in corporibus mixtis 
+          in<lb break="no" ed="#P" n="29"/>venitur, quod signum est resultare illum ex
+          <lb ed="#P" n="30"/>mixtione, quod ita potest explicari. Inter 
+          ele<lb break="no" ed="#P" n="31"/>menta, aer, et aqua diaphana tantum sunt,
+          <lb ed="#P" n="32"/>ignis actu lucidus, terra vero opaca, 
+          diapha<lb break="no" ed="#P" n="33"/>neitas, ut dictum est, ad illuminationem 
+          dis<lb break="no" ed="#P" n="34"/>ponit, opacitas illam impedit: unde terra 
+          ilu<lb break="no" ed="#P" n="35"/>minari secundum se totam non potest, sed ut
+          <lb ed="#P" n="36"/>plurimum in superficie. Mixta ergo, quae ex
+          <lb ed="#P" n="37"/>elementis quodammodo componuntur, et 
+          in<lb break="no" ed="#P" n="38"/>ter ea media sunt quo magis participant de
+          <lb ed="#P" n="39"/>natura aquae, vel aeris, eo, sunt magis 
+          diapha<lb break="no" ed="#P" n="40"/>na, ut patet in vitro et crystallo: mixta vero
+          <lb ed="#P" n="41"/>in quibus dominatur terra magis opaca sunt,
+          <lb ed="#P" n="42"/>non tamen adeo, ut terra, cum ex mixtione
+          <lb ed="#P" n="43"/>aliorum elementorum aliquod retineant 
+          vesti<lb break="no" ed="#P" n="44"/>gium diaphaneitatis: unde dici solent 
+          perspi<lb break="no" ed="#P" n="45"/>cua terminata, id est, in quibus perspicuitas
+          <lb ed="#P" n="46"/>terminata est, et ab opacitate impedita, ne 
+          in<lb break="no" ed="#P" n="47"/>terius illabatur, atque hinc est, quod lux 
+          ele<lb break="no" ed="#P" n="48"/>menti ignis in hujusmodi mixtis non resultet,
+          <lb ed="#P" n="49"/>propter eorum scilicet opacitatem, neque alias
+          <lb ed="#P" n="50"/>in eis ignis ipse sit formaliter. Verum sicut in
+          <lb ed="#P" n="51"/>misxtionenon totaliter corrumpuntur elementa,
+          <lb ed="#P" n="52"/>sed modo aliquo in mixto manent, ita Inx ignis
+          <lb ed="#P" n="53"/>suo modo remanet, in aliam scilicet 
+          qualita<lb break="no" ed="#P" n="54"/>tem degenerando, $quamidicimus colorem, quia
+          <lb ed="#P" n="55"/>enim mixtum habet diaphaneitatem nonnul-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lam opacatam, incapax lucis est secundum se
+          <lb ed="#P" n="57"/>totum: evadit tamen capax ipsius coloris, 
+          ut<lb break="no" ed="#P" n="58"/>pote lucem quodammodo concernentis: hoc
+          <lb ed="#P" n="59"/>ergo modo dimanat color ex mixtione 
+          elemen<lb break="no" ed="#P" n="60"/>torum ratione lucis, et diaphaneitatis ad 
+          opa<lb break="no" ed="#P" n="61"/>citatem terminatae. Quod etiam potest 
+          expli<lb break="no" ed="#P" n="62"/>cari ex modo, quo colores etiam generantur
+          <lb ed="#P" n="63"/>in aere: tria enim in tali generationi 
+          concur<lb break="no" ed="#P" n="64"/>runt, lumen participatum a Sole, diaphaneitas
+          <lb ed="#P" n="65"/>aeris et opacitas nubis, ex quibus color ipse
+          <lb ed="#P" n="66"/>resultat hac sola differentia, quod 
+          quemadmo<lb break="no" ed="#P" n="67"/>dum illuminatio Solis brevi durat, ac mixtio
+          <lb ed="#P" n="68"/>est imperfecta, ita colores illi cito evanescunt,
+          <lb ed="#P" n="69"/>alii vero colores diuturniores sunt ob 
+          perfec<lb break="no" ed="#P" n="70"/>tam mixtionem ex qua resultat. ita fere 
+          expli<lb break="no" ed="#P" n="71"/>cat rem hanc Plato, in dialogo de Natura, ubi
+          <lb ed="#P" n="72"/>colores esse ait flammas a singulis corporibus
+          <lb ed="#P" n="73"/>dimanantes: flammas vocat, quia sicut lux ex
+          <lb ed="#P" n="74"/>igne, ita e mixto prodit color, quasi lux 
+          quae<lb break="no" ed="#P" n="75"/>dam opacitate mixti offuscata. Platoni concinit
+          <lb ed="#P" n="76"/>Aristoteles, libro de Coloribus accedunt 
+          Alber<lb break="no" ed="#P" n="77"/>tus, Summa de homine, in quaestione de 
+          Sub<lb break="no" ed="#P" n="78"/>stantia coloris, D. Thomas, secundo de Anima,
+          <lb ed="#P" n="79"/>lectione decima quarta, atque ita color 
+          essen<lb break="no" ed="#P" n="80"/>tialiter a luce distinguitur, licet quodammodo
+          <lb ed="#P" n="81"/>in illa fundetur quia ratione illius praesertim
+          <lb ed="#P" n="82"/>resultat, qua de causa Albertus, citato libro
+          <lb ed="#P" n="83"/>de Anima, tractatu tertio, capite septimo,
+          <lb ed="#P" n="84"/>dixit lucem esse coloris hypostasim, 
+          similiter<lb break="no" ed="#P" n="85"/>que loquitur D. Thomas, in tertia distinct. 23,
+          <lb ed="#P" n="86"/>quaest. 2, art. 1, ad 1.
+        </p>
+        <p xml:id="szdada-y16275-d1e455">
+          <lb ed="#P" n="87"/>4. Coloris definitio em Aristotele discutitur.
+          <lb ed="#P" n="88"/>—dGermana definitio. — Hinc jam explicatur
+          <lb ed="#P" n="89"/>definitio coloris ex Aristotele in hunc modum.
+          <lb ed="#P" n="90"/>Color est extremitas perspicui in corpore 
+          ter<lb break="no" ed="#P" n="91"/>minato. Terminatum corpus vocat Philosophus,
+          <lb ed="#P" n="92"/>in quo diaphaneitas propter admixtam 
+          opaci<lb break="no" ed="#P" n="93"/>tatem ultra non pervadit, sed in externa
+          <lb ed="#P" n="94"/>superficie sistit, ac terminatur. Unde tale 
+          cor<lb break="no" ed="#P" n="95"/>pus, qua ex parte perspicuum est, sive 
+          diapha<lb break="no" ed="#P" n="96"/>num, id est, quoad externam superficiem,
+          <lb ed="#P" n="97"/>capax sit illuminationis: qua vero est opacum,
+          <lb ed="#P" n="98"/>terminatum dicitur, ac proinde intimae 
+          illus<lb break="no" ed="#P" n="99"/>trationis incapax. Ait ergo Aristoteles colorem
+          <lb ed="#P" n="100"/>esse eam qualitatem, quae in extremitate 
+          per<lb break="no" ed="#P" n="101"/>spicui, inquam, ut sic, quia videlicet color
+          <lb ed="#P" n="102"/>ipse ad perspicuitatem conducit. Adhuc tamen
+          <lb ed="#P" n="103"/>definitio obscura est, minimeque sufficiens,
+          <lb ed="#P" n="104"/>cum non describat veram coloris essentiam :
+          <lb ed="#P" n="105"/>praeterquam quod non in superficie tantum,
+          <lb ed="#P" n="106"/>sed interius etiam color insit, ut patet in 
+          san<lb break="no" ed="#P" n="107"/>guine, lacte et similibus. Quapropter nonnulli
+          <lb ed="#P" n="108"/>exponunt extremitatem metaphorice sumi in
+          <lb ed="#P" n="109"/>definitione pro perfectione, seu 
+          consumma<lb break="no" ed="#P" n="110"/>tione: color ergo (inquiunt) definitur extre-
+          <pb ed="#P" n="666"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mitas, id est, perfectio seu qualitas quae 
+          opa<lb break="no" ed="#P" n="2"/>cum quidem corpus, prout tamen perspicuum
+          <lb ed="#P" n="3"/>est, consummat et perficit. Verum metaphora
+          <lb ed="#P" n="4"/>illa a mente Aristotelis aliena est, et in 
+          uni<lb break="no" ed="#P" n="5"/>versum vitiosa in definiendo, ut ille in Topicis
+          <lb ed="#P" n="6"/>monet. Dicendum ergo fortasse non intendisse
+          <lb ed="#P" n="7"/>definire exacte colorem, sed modo aliquo 
+          ex<lb break="no" ed="#P" n="8"/>plicare, proprie vero definiri posse qualitatem
+          <lb ed="#P" n="9"/>efficientem miatum corpus quatenus 
+          perspicui<lb break="no" ed="#P" n="10"/>tatem aliquam habet opacitate terminatam. Et
+          <lb ed="#P" n="11"/>haec de prima parte quaestionis.
+        </p>
+        <p xml:id="szdada-y16275-d1e538">
+          <lb ed="#P" n="12"/>5. Pro secunda parte tituli de speciebus 
+          co<lb break="no" ed="#P" n="13"/>lorum, ac primo de extremis opinionis due 
+          ad<lb break="no" ed="#P" n="14"/>versm. — Auctoris judicium.—Circa secundam
+          <lb ed="#P" n="15"/>est advertendum inter colores duos esse 
+          extre<lb break="no" ed="#P" n="16"/>mos, albedinem et nigredinem, inter quas 
+          as<lb break="no" ed="#P" n="17"/>signari solet discrimen, quod albedo 
+          prove<lb break="no" ed="#P" n="18"/>niat ex abundantia luminis, exiguaque 
+          opaci<lb break="no" ed="#P" n="19"/>tate, nigredo vero e contra, quod ex effectibus
+          <lb ed="#P" n="20"/>ostendi potest: ut enim lux disgregat visum,
+          <lb ed="#P" n="21"/>sic et albedo: multum ergo de luce participat.
+          <lb ed="#P" n="22"/>Nigredo vero quia congregat, exiguam 
+          parti<lb break="no" ed="#P" n="23"/>cipat. Habet tamen difficultatem haec doctrina,
+          <lb ed="#P" n="24"/>nam saepe res densissima et opacissima alba
+          <lb ed="#P" n="25"/>est valde, ut patet in argento: e contra vero
+          <lb ed="#P" n="26"/>transparens, et rarior nigra est, ut patet in
+          <lb ed="#P" n="27"/>cornu nigro: non ergo hi colores proveniunt
+          <lb ed="#P" n="28"/>ex opacitate, aut lumine. Alii vero eos 
+          refe<lb break="no" ed="#P" n="29"/>runt ad primas qualitates calori tribuentes
+          <lb ed="#P" n="30"/>nigredinem, frigiditati albedinem, quod 
+          vide<lb break="no" ed="#P" n="31"/>tur experientiae consonum. Sed neque hoc 
+          sa<lb break="no" ed="#P" n="32"/>tisfacit, cum nullam convenientiam habeant
+          <lb ed="#P" n="33"/>hae qualitates cum illis. Item ex calore potius
+          <lb ed="#P" n="34"/>dimanaret albedo, quia calor virtus est ignis,
+          <lb ed="#P" n="35"/>qui ubi excellens calor est, praedominatur:
+          <lb ed="#P" n="36"/>ergo et lumen, vel saltem albedo quae de 
+          lu<lb break="no" ed="#P" n="37"/>mine magis participat, potius dimanaret. 
+          Di<lb break="no" ed="#P" n="38"/>cendum vero utramque opinionem ex parte
+          <lb ed="#P" n="39"/>veram esse, nam cum dicti colores consurgunt
+          <lb ed="#P" n="40"/>ex mixtione elementorum: albedo quidem
+          <lb ed="#P" n="41"/>consurget ex majori participatione lucis ab
+          <lb ed="#P" n="42"/>igne, atque ex majori convenientia cum aqua,
+          <lb ed="#P" n="43"/>et aere quoad transparentiam et claritatem,
+          <lb ed="#P" n="44"/>unde res aqueae, ut nix, argentum, et similes,
+          <lb ed="#P" n="45"/>albae sunt, nigredo vero consurget ex 
+          praedo<lb break="no" ed="#P" n="46"/>minio terrae, opacitateque illius, atque ex 
+          de<lb break="no" ed="#P" n="47"/>fectu luminis. Quare quod res minus densa 
+          in<lb break="no" ed="#P" n="48"/>terdum nigra sit, ab exigua participatione
+          <lb ed="#P" n="49"/>ignis, ac luminis nascitur: calor autem 
+          nigre<lb break="no" ed="#P" n="50"/>dinem causat, cum admiscetur terrestri 
+          ma<lb break="no" ed="#P" n="51"/>teriae, eamque exsiccat, attamen adjunctus
+          <lb ed="#P" n="52"/>humiditati generat potius albedinem, ut in
+          <lb ed="#P" n="53"/>lacte, et in nobis speciatim calor flavam bilem
+          <lb ed="#P" n="54"/>adurit, et atram creat, quae illam inficit, atque
+          <lb ed="#P" n="55"/>obfuscat, in nobis enim mutatio coloris non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>raro provenit ex abundantia humoris, sed in
+          <lb ed="#P" n="57"/>ea re nihil est certum.
+        </p>
+        <p xml:id="szdada-y16275-d1e642">
+          <lb ed="#P" n="58"/>6. De mediis coloribus. —nter has porro
+          <lb ed="#P" n="59"/>extremas species plures sunt mediae, quae ad
+          <lb ed="#P" n="60"/>sex reducuntur, scilicet pallidum, rufum, 
+          fla<lb break="no" ed="#P" n="61"/>vum, rubeum, viride, ac lividum: quod si aliae
+          <lb ed="#P" n="62"/>dari videantur, aut fortasse simplices non
+          <lb ed="#P" n="63"/>sunt, sed ex his mixtae, aut ad eas reducuntur:
+          <lb ed="#P" n="64"/>sex vero numerati colores, licet medii dicantur,
+          <lb ed="#P" n="65"/>putandum non est extremis formaliter 
+          com<lb break="no" ed="#P" n="66"/>poni, sed potius qualitates esse simplices, 
+          si<lb break="no" ed="#P" n="67"/>cut extremas, ut docet Aristoteles 3, de Sensu
+          <lb ed="#P" n="68"/>et sensibili, ac patet, quia non fiunt ex 
+          mix<lb break="no" ed="#P" n="69"/>tione remissorum extremorum, sed resultant
+          <lb ed="#P" n="70"/>per se ex proprio elementorum mixtione, ut
+          <lb ed="#P" n="71"/>videre licet in nubibus, ubi diversi fiunt 
+          colo<lb break="no" ed="#P" n="72"/>res tam medii, quam extremi secundum 
+          di<lb break="no" ed="#P" n="73"/>versas mixtiones lucidi et diaphani ad 
+          opa<lb break="no" ed="#P" n="74"/>cum terminati: dicuntur ergo medii propter
+          <lb ed="#P" n="75"/>similitudinem aliquam majorem, vel 
+          mino<lb break="no" ed="#P" n="76"/>rem ad alterum extremorum, nam requisita
+          <lb ed="#P" n="77"/>proportio inter lumen, et perspicuum 
+          termi<lb break="no" ed="#P" n="78"/>natum ad generationem albedinis, ex nimia
+          <lb ed="#P" n="79"/>opacitate et magna luce constat, ad 
+          genera<lb break="no" ed="#P" n="80"/>tionem vero nigredinis oppositum in 
+          extre<lb break="no" ed="#P" n="81"/>mis requiritur: at caeteros deinde colores
+          <lb ed="#P" n="82"/>exigitur proportio media: unde et medii 
+          ap<lb break="no" ed="#P" n="83"/>pellantur: fatemur tamen aliquando etiam
+          <lb ed="#P" n="84"/>dari medium per participationem extremorum,
+          <lb ed="#P" n="85"/>veluti si albedo praeexistens remittatur, 
+          mis<lb break="no" ed="#P" n="86"/>ceaturque nigredo: tunc enim fuscus ille color
+          <lb ed="#P" n="87"/>simplex non erit, sed duo extremi in remissis
+          <lb ed="#P" n="88"/>gradibus.
+        </p>
+        <p xml:id="szdada-y16275-d1e712">
+          <lb ed="#P" n="89"/>7. Colores alii veri, alii apparentes. — In
+          <lb ed="#P" n="90"/>nubibus ceros colores dari sentit D. Thomas et
+          <lb ed="#P" n="91"/>alii. — Contra opinantur alii. — Ultimo est 
+          ad<lb break="no" ed="#P" n="92"/>vertendum inter colores quosdam esse veros,
+          <lb ed="#P" n="93"/>alios apparentes, ut Aristoteles notat, lib. de
+          <lb ed="#P" n="94"/>Coloribus, et de Sensu et sensibili, cap. 3, et 3
+          <lb ed="#P" n="95"/>Meteor., cap. 4. Veri secundum rem dicuntur,
+          <lb ed="#P" n="96"/>qui subjectis insunt, apparentes, qui tantum
+          <lb ed="#P" n="97"/>in esse apparent, quales in columbarum collis:
+          <lb ed="#P" n="98"/>si enim ex diverso situ conspiciantur, diversi
+          <lb ed="#P" n="99"/>apparent, quod non contingeret, si vere 
+          ines<lb break="no" ed="#P" n="100"/>sent, utrosque autem discernendi regula 
+          dif<lb break="no" ed="#P" n="101"/>ficilis est. Quis enim dicat, quales sint colores
+          <lb ed="#P" n="102"/>apparentes in nubibus: hinc enim tam veri
+          <lb ed="#P" n="103"/>videntur, quam qui inter nos sunt: praesertim
+          <lb ed="#P" n="104"/>quia reperitur ibi causa sufficiens ad 
+          causan<lb break="no" ed="#P" n="105"/>dum colorem. Unde hanc partem docuit divus
+          <lb ed="#P" n="106"/>Thomas 3, Meteor., c. 4, quem Colonienses,
+          <lb ed="#P" n="107"/>et alii secuti sunt. Aliunde vero apparentes
+          <lb ed="#P" n="108"/>esse suadet, quod cito transeant, et facili de
+          <lb ed="#P" n="109"/>causa mutentur: atque ita sentiunt Venetus 3,
+          <lb ed="#P" n="110"/>Meteor. et Soncinas 7, Metaphysicae, quaest. 9.
+          <pb ed="#P" n="667"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>art. 1. Similisque difficultas est de colore ex
+          <lb ed="#P" n="2"/>reflexione solaris radii a vitro colorato: verum
+          <lb ed="#P" n="3"/>enim colorem esse inde probari videtur, quod
+          <lb ed="#P" n="4"/>permanens, fixusque sit, atque undique idem
+          <lb ed="#P" n="5"/>semper conspiciatur: aliunde vero minime
+          <lb ed="#P" n="6"/>verus putabitur, quia illius causa nulla se 
+          of<lb break="no" ed="#P" n="7"/>fert: difficile ergo est veros colores ab 
+          appa<lb break="no" ed="#P" n="8"/>rentibus discernere.
+        </p>
+        <p xml:id="szdada-y16275-d1e784">
+          <lb ed="#P" n="9"/>8. Decisio auctoris. — Dici tamen potest, si
+          <lb ed="#P" n="10"/>color semper, eodemque modo permaneat, 
+          ve<lb break="no" ed="#P" n="11"/>rum esse, at si brevi transeat, observandam
+          <lb ed="#P" n="12"/>esse causam illius, quae si proportionata 
+          gene<lb break="no" ed="#P" n="13"/>rationi coloris judicetur, verum quoque 
+          colo<lb break="no" ed="#P" n="14"/>rem judicandum esse, quantumlibet brevi 
+          eva<lb break="no" ed="#P" n="15"/>nescat, atque hujus generis esse colores iridis
+          <lb ed="#P" n="16"/>et nubium, probabilius videtur, cum ibi ea
+          <lb ed="#P" n="17"/>mixtio qualitatum, licet dissipatu facilis, 
+          con<lb break="no" ed="#P" n="18"/>currat, quae in mixtionibus aliis magis 
+          per<lb break="no" ed="#P" n="19"/>manentibus dari solet: si vero causa non
+          <lb ed="#P" n="20"/>appareat sufficiens ad producendum colorem,
+          <lb ed="#P" n="21"/>maxime si ex parte rei visae non sit facta 
+          va<lb break="no" ed="#P" n="22"/>riatio, sed idec tantum varii colores appareant,
+          <lb ed="#P" n="23"/>quia potentiae applicatio, situsve fuit variatus,
+          <lb ed="#P" n="24"/>tunc plane deceptio quaedam potentiae est:
+          <lb ed="#P" n="25"/>sicque sentiendum de coloribus, qui in collo 
+          co<lb break="no" ed="#P" n="26"/>Iumbae apparent, ac etiam de illo, qui per 
+          re<lb break="no" ed="#P" n="27"/>flexionem iucis ex vitro colorato conspici 
+          pu<lb break="no" ed="#P" n="28"/>tatur, ut supra etiam diximus, nam 
+          quemad<lb break="no" ed="#P" n="29"/>modum cum objectum album cernitur per
+          <lb ed="#P" n="30"/>medium rubrum apparet rubrum ob 
+          confusio<lb break="no" ed="#P" n="31"/>nem specierum ipsius objecti, atqate medii, ita
+          <lb ed="#P" n="32"/>in praesenti casu id quod reflectitur, splendor
+          <lb ed="#P" n="33"/>quidam tantum est admixtus speciebus vitri
+          <lb ed="#P" n="34"/>colorati, quae intensiores evadunt, atque 
+          ve<lb break="no" ed="#P" n="35"/>hementiores ex inflammatione, seu 
+          illustra<lb break="no" ed="#P" n="36"/>tione radiorum, quae vitri species simul cum
+          <lb ed="#P" n="37"/>speciebus lucis reflectuntur usque ad visum,
+          <lb ed="#P" n="38"/>unde apparet splendor ille lucis coloratus.
+          <lb ed="#P" n="39"/>Qui plura de coloribus desiderat, legat 
+          Pere<lb break="no" ed="#P" n="40"/>sium 2, de Anima, cap. 7, quaest. 2, sed 
+          ob<lb break="no" ed="#P" n="41"/>scure satis loquitur, ut assolet.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

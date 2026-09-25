@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 25</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 25</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="690"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y16935"><!-- t3l3c25 -->
+        <head xml:id="szdada-y16935-Hd1e101">Caput 25</head>
+        <head xml:id="szdada-y16935-Hd1e103" type="question-title">De organo et potentia olfactus, ac etiam de medio actuque odorandi</head>
+        <p xml:id="szdada-y16935-d1e106">
+          <lb ed="#P" n="14"/>CAPUT XXV.
+          <lb ed="#P" n="15"/>DE ORGANO ET POTENTIA OLFACTUS, AC ETIAM
+          <lb ed="#P" n="16"/>DE MEDIO ACTUQUE ODORANDI.
+        </p>
+        <p xml:id="szdada-y16935-d1e115">
+          <lb ed="#P" n="17"/>1. Diverse sententiae de organo olfactus. —
+          <lb ed="#P" n="18"/>Aristotelis in hac re sententia obscura. — De
+          <lb ed="#P" n="19"/>organo hujus sensus varia est philosophorum
+          <lb ed="#P" n="20"/>sententia, ad quam diversitatem 
+          intelhgen<lb break="no" ed="#P" n="21"/>dam, notandum, quod in anteriori parte 
+          cere<lb break="no" ed="#P" n="22"/>bri sunt quasi duae cellulae, quae ventriculi
+          <lb ed="#P" n="23"/>cerebri dicuntur, a quibus progrediuntur duo
+          <lb ed="#P" n="24"/>nervi, mamillares appellati, quod eorum 
+          ex<lb break="no" ed="#P" n="25"/>trema sunt quasi pupillae: est praeterea nasus
+          <lb ed="#P" n="26"/>duabus patulus viis, quibus recta itur ad illos
+          <lb ed="#P" n="27"/>nervos. Igitur sententia Galeni est organum
+          <lb ed="#P" n="28"/>odoratus residere in ventriculis cerebri: ita
+          <lb ed="#P" n="29"/>habet 8, de Usu partium, et libro de 
+          Instru<lb break="no" ed="#P" n="30"/>mento odoratus. Idem tenet Avicenna, 6, 
+          Na<lb break="no" ed="#P" n="31"/>turalium, part. 1, cap. 5, Albertus 2, de 
+          Ani<lb break="no" ed="#P" n="32"/>ma, capit. 26, Philoponus, fol. 65, col.2 et 4.
+          <lb ed="#P" n="33"/>At Vesalius, lib. 4, capit. 3, vult organum hoc
+          <lb ed="#P" n="34"/>consistere in ossiculis mamillaribus, quem 
+          ple<lb break="no" ed="#P" n="35"/>rique moderni sequuntur: Magnesius vero,
+          <lb ed="#P" n="36"/>lib. de Sensu particulari, cap. 22, sentit per
+          <lb ed="#P" n="37"/>cartilagines narium derivari nervos, in quibus
+          <lb ed="#P" n="38"/>consistit sensorium odoratus: Aristotelis 
+          sen<lb break="no" ed="#P" n="39"/>tentia obscura est in hac parte, nam, sect. 13
+          <lb ed="#P" n="40"/>Problematum, q. 5, ait in animalibus 
+          respi<lb break="no" ed="#P" n="41"/>rantibus fieri odorationem, accedentibus 
+          odo<lb break="no" ed="#P" n="42"/>ribus ad cerebrum, ubi tamen non afftirmat in
+          <lb ed="#P" n="43"/>cerebro exerceri odorandi actum, sed explicat
+          <lb ed="#P" n="44"/>id, quod saepe talem actum comitatur. Primo
+          <lb ed="#P" n="45"/>autem de Historia animalium, cap. 11, solum
+          <lb ed="#P" n="46"/>dixit per vias narium subministrari olfactum,
+          <lb ed="#P" n="47"/>et hb. 2, capit. 12, de naribus pronuntiavit
+          <lb ed="#P" n="48"/>continere meatus odorandi, et lib. 4, capit. 8,
+          <lb ed="#P" n="49"/>quod sicut externorum sensuum, ita olfactus
+          <lb ed="#P" n="50"/>constitutum est diversorium, id est, organum,
+          <lb ed="#P" n="51"/>nam avium, inquit, generi foramina tantum
+          <lb ed="#P" n="52"/>sunt odorandi, cum aliis etiam nares insint,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>quo indicat in naribus constitui organum, et
+          <lb ed="#P" n="54"/>2 de Partibus, capit. 16, ostendit 
+          diversita<lb break="no" ed="#P" n="55"/>tem organorum olfactus ex diversitate narium,
+          <lb ed="#P" n="56"/>et 2, de Generatione animalium, capit. 4, 
+          si<lb break="no" ed="#P" n="57"/>gnificat organum odoratus oriri a cerebro, 
+          si<lb break="no" ed="#P" n="58"/>cut organum auditus, atque adeo alibi 
+          re<lb break="no" ed="#P" n="59"/>sidere.
+        </p>
+        <p xml:id="szdada-y16935-d1e213">
+          <lb ed="#P" n="60"/>2. Excluditur Galeni opinio. — Vallesii 
+          opi<lb break="no" ed="#P" n="61"/>nio magis arridet.—fFalsa tamen emtensio 
+          Val<lb break="no" ed="#P" n="62"/>lesii. — In hac re non potest statui certa 
+          con<lb break="no" ed="#P" n="63"/>clusio: at imprimis sententia Galeni 
+          odora<lb break="no" ed="#P" n="64"/>tionem fieri in cerebro, non videtur probanda,
+          <lb ed="#P" n="65"/>et idem existimo de sententia Vesali, illae
+          <lb ed="#P" n="66"/>enim partes de substantia cerebri sunt, cum
+          <lb ed="#P" n="67"/>tamen cerebrum sit fons omnium sensuum,
+          <lb ed="#P" n="68"/>et ideo nullius organum: sed omnibus caret,
+          <lb ed="#P" n="69"/>nisi forte tactu aliquo, unde ab eodem 
+          Ga<lb break="no" ed="#P" n="70"/>leno, lib. 3, de Causis symptomatum, 
+          orga<lb break="no" ed="#P" n="71"/>num non sentiens cerebrum appelletur, quod
+          <lb ed="#P" n="72"/>optime illi objicit Commentator, lib. 1 
+          Collec<lb break="no" ed="#P" n="73"/>tanearum, cap. 6, etlib. 2, capit. 17. Praeterea
+          <lb ed="#P" n="74"/>non est major ratio cur in cerebro, collocetur
+          <lb ed="#P" n="75"/>organum olfactus, quam visus, vel auditus:
+          <lb ed="#P" n="76"/>ergo, etc. Probabilior itaque videtur sententia,
+          <lb ed="#P" n="77"/>asserens organum odorandi jacere in interiori
+          <lb ed="#P" n="78"/>parte nasi, quam etiam amplectitur Valles,
+          <lb ed="#P" n="79"/>lib. 2, cap. 24, ac confirmat primo, quia 
+          odo<lb break="no" ed="#P" n="80"/>ratio fit in naso: ibi ergo sensorium existit.
+          <lb ed="#P" n="81"/>Probat antecedens, quia ibi est sensatio ubi
+          <lb ed="#P" n="82"/>voluptas, sed haec in naso percipitur: ergo.
+          <lb ed="#P" n="83"/>Secundo cum vapores odoriferi ascendant 
+          us<lb break="no" ed="#P" n="84"/>que ad cerebrum confortandum, conscnum
+          <lb ed="#P" n="85"/>rationi est, ut olfactus, quasi explorator 
+          va<lb break="no" ed="#P" n="86"/>porum locetur ante cerebrum, sicut in gustu
+          <lb ed="#P" n="87"/>observatum videmus, esse scilicet in ore 
+          col<lb break="no" ed="#P" n="88"/>locatum, quasi in janua, ut possit de cibis 
+          ju<lb break="no" ed="#P" n="89"/>dicare, antequam ad ventriculum demittantur.
+          <lb ed="#P" n="90"/>Addit tamen Valles odorationem non 
+          tan<lb break="no" ed="#P" n="91"/>tum in naribus fieri, sed in ipsis visceribus 
+          e<lb break="no" ed="#P" n="92"/>tiam, ac tota ea parte, per quam, et ad quam
+          <lb ed="#P" n="93"/>respiratio protenditur, quod putat sensisse 
+          Pla<lb break="no" ed="#P" n="94"/>tonem, dialogo de natura. Hoc tamen falsum
+          <lb ed="#P" n="95"/>videtur, arbitrorque ante partem illam, in
+          <lb ed="#P" n="96"/>quam incurrunt meatus oris, et nasi ad 
+          pul<lb break="no" ed="#P" n="97"/>monem, organum olfactus residere, non ultra:
+          <lb ed="#P" n="98"/>alias sicut respirando per nares odoramur, ita
+          <lb ed="#P" n="99"/>respirando per os perciperemus odores, quod
+          <lb ed="#P" n="100"/>contra experientiam est, ac philosophos omnes.
+        </p>
+        <p xml:id="szdada-y16935-d1e305">
+          <lb ed="#P" n="101"/>3. Varietas organorum olfactus.— Odoratus
+          <lb ed="#P" n="102"/>definitio.—UMimo advertendum est olfaciendi
+          <lb ed="#P" n="103"/>organum diversimode disponi in diversis 
+          ani<lb break="no" ed="#P" n="104"/>malibus, de quo late Aristoteles 4, de Historia,
+          <lb ed="#P" n="105"/>cap. 10, 2, de Partibus, cap. 16, de Sensu et
+          <lb ed="#P" n="106"/>sensibili, cap. 2. Etenim quaedam habent 
+          ol<lb break="no" ed="#P" n="107"/>factum opertum, alia vero minime, quae diffe-
+          <pb ed="#P" n="691"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rentia, per se loquendo, non est essentialis, ut
+          <lb ed="#P" n="2"/>advertit sanctus Thomas, de Sensu et 
+          sensi<lb break="no" ed="#P" n="3"/>bili, lect. 14. Quaeret vero aliquis, quod 
+          ele<lb break="no" ed="#P" n="4"/>mentum in hoc sensorio praedominetur, 
+          dixi<lb break="no" ed="#P" n="5"/>mus namque organum visus esse aqueum,
+          <lb ed="#P" n="6"/>auditus aereum: Aristoteles ergo, de Sensu et
+          <lb ed="#P" n="7"/>sensibili, c. 2, indicat organum olfactus esse
+          <lb ed="#P" n="8"/>igueum, at in 2, de Anima, textu 130, docet
+          <lb ed="#P" n="9"/>ignem, in nullo organo sensuum praedominari,
+          <lb ed="#P" n="10"/>sed oculus, ait, ex aqua, auris ex aere, olfactus
+          <lb ed="#P" n="11"/>ex horum altero constat: probabilius itaque
+          <lb ed="#P" n="12"/>videtur temperamentum hujus organi esse
+          <lb ed="#P" n="13"/>quasi medium inter aquam et ignem, atque
+          <lb ed="#P" n="14"/>aerem, ut substantia organi consonet objecto
+          <lb ed="#P" n="15"/>sensus, est enim odor in calido et sicco 
+          tem<lb break="no" ed="#P" n="16"/>peratis: unde quamdam temperiem requirit :
+          <lb ed="#P" n="17"/>probabile ergo est similem requiri ab ipso
+          <lb ed="#P" n="18"/>sensu. Sed interest, quia organum esse non
+          <lb ed="#P" n="19"/>debet affatim calidum, ac siccum, cum sit in
+          <lb ed="#P" n="20"/>potentia ad actionem objecti: atque haec est
+          <lb ed="#P" n="21"/>mens Aristotelis in citato loco de Anima: cum
+          <lb ed="#P" n="22"/>vero alibi illud tribuit igni, non significat ei
+          <lb ed="#P" n="23"/>praedominari ignem, sed quando actum elicit
+          <lb ed="#P" n="24"/>ignem praedominari. quia nimirum calefit a
+          <lb ed="#P" n="25"/>vapore odorifero, ut exponit S. Thomas, et
+          <lb ed="#P" n="26"/>haec de organo. Ex quibus licet colligere quid
+          <lb ed="#P" n="27"/>sit ipsa potentia odorandi, est enim facultas
+          <lb ed="#P" n="28"/>quaedam residens in explicato sensorio intra
+          <lb ed="#P" n="29"/>nares, apta, ut immutetur ab odoribus, 
+          illos<lb break="no" ed="#P" n="30"/>que sentiat.
+        </p>
+        <p xml:id="szdada-y16935-d1e392">
+          <lb ed="#P" n="31"/>4. Animalia terrestria, respirantia non nisi
+          <lb ed="#P" n="32"/>in aere odorantur. — Circa actum hujusce 
+          po<lb break="no" ed="#P" n="33"/>tentiae praeterdicta in communi, solum restat
+          <lb ed="#P" n="34"/>advertendum, animalia tantum respirantia
+          <lb ed="#P" n="35"/>olfacere respirando, atque adeo in aere tantum
+          <lb ed="#P" n="36"/>olfacere, non in aqua, ut docet Aristoteles 2,
+          <lb ed="#P" n="37"/>de Anima, textu 100, causamque reddit, quia
+          <lb ed="#P" n="38"/>intra nasum datur operculum in via ad 
+          sen<lb break="no" ed="#P" n="39"/>sum, quod non nisi per respirationem elevatur.
+          <lb ed="#P" n="40"/>Galenus supra hoc irridet operculum, cum ex
+          <lb ed="#P" n="41"/>anatomia non deprehendatur: unde causam
+          <lb ed="#P" n="42"/>aliam affert, non posse sentiri odcres, nisi 
+          res<lb break="no" ed="#P" n="43"/>pirando, quia nequeunt aliter penetrare usque
+          <lb ed="#P" n="44"/>ad ventriculos cerebri: haec vero ratio falsum
+          <lb ed="#P" n="45"/>supponit, estque insufficiens, quia si via ad 
+          ol<lb break="no" ed="#P" n="46"/>factum non esset occlusa, nulla esset ratio cur
+          <lb ed="#P" n="47"/>non penetrarent species odoris semel intra
+          <lb ed="#P" n="48"/>nasum positae usque ad cerebrum, etiam 
+          res<lb break="no" ed="#P" n="49"/>piratione cessante: est ergo occlusa via: 
+          oper<lb break="no" ed="#P" n="50"/>culum autem non est pars aliqua, sicut 
+          palpe<lb break="no" ed="#P" n="51"/>bra in oculo, sed via arctissima in parte 
+          inte<lb break="no" ed="#P" n="52"/>riori nasi, quae respiratione dilatatur: 
+          com<lb break="no" ed="#P" n="53"/>pressio ergo illius dicitur operculum, unde
+          <lb ed="#P" n="54"/>eodem textu 100, Aristoteles ait, quod in 
+          res<lb break="no" ed="#P" n="55"/>pirantibus amovetur operculum dilatatis ve-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nis, ac meatibus, et ex hoc colligit Aristoteles
+          <lb ed="#P" n="57"/>animalia respirantia non olfacere in aqua,
+          <lb ed="#P" n="58"/>quod de terrestribus intelligendum est, nam
+          <lb ed="#P" n="59"/>quaedam sunt aquatilia, quae respirant, ut
+          <lb ed="#P" n="60"/>ranae, 4, de Historia, cap. 7, et delphines, 
+          ca<lb break="no" ed="#P" n="61"/>pite demisso, etiam sub aquis odorantur, 
+          mo<lb break="no" ed="#P" n="62"/>ventur etiam ad escam de nocte, cum illam
+          <lb ed="#P" n="63"/>videre non possint ; tunc ergo olfactu 
+          ducun<lb break="no" ed="#P" n="64"/>tur: quando autem Aristoteles 2, de Anima,
+          <lb ed="#P" n="65"/>textu 98, videtur homini olfactum proprie 
+          tri<lb break="no" ed="#P" n="66"/>buere respirando, idem de reliquis 
+          animanti<lb break="no" ed="#P" n="67"/>bus sentit, quae similem nasi compositionem
+          <lb ed="#P" n="68"/>habent, ut statim textu centesimo exponit.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

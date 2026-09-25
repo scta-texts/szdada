@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="27"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y00691"><!-- t2l1c5 -->
+        <head xml:id="szdada-y00691-Hd1e101">Caput 5</head>
+        <head xml:id="szdada-y00691-Hd1e103" type="question-title">Dubium incidens de natura coeli empyrei</head>
+        <p xml:id="szdada-y00691-d1e106">
+          <lb ed="#P" n="89"/>CAPUT V.
+          <lb ed="#P" n="90"/>DUBIUM INCIDENS DE NATURA COELI EMPYREI.
+        </p>
+        <p xml:id="szdada-y00691-d1e113">
+          <lb ed="#P" n="91"/>1. Assertio prima quod celum empyreum 
+          ma<lb break="no" ed="#P" n="92"/>teria et forma constat. — Predicta materia 
+          cu<lb break="no" ed="#P" n="93"/>jusmodi naturae sit, inquiritur. — Primus 
+          di<lb break="no" ed="#P" n="94"/>cendi modus non placet.—Secundus etiam modus
+          <lb ed="#P" n="95"/>parum probatur. — Primo igitur de natura et
+          <lb ed="#P" n="96"/>substantia hujus coeli probabilius censeo esse
+          <lb ed="#P" n="97"/>compositum ex materia et forma, nam 
+          sup<lb break="no" ed="#P" n="98"/>ponitur esse quantum et corporeum, quod
+          <lb ed="#P" n="99"/>sine materia esse non potest: at quia 
+          perfec<lb break="no" ed="#P" n="100"/>tius caeteris esse creditur, formam etiam 
+          ha<lb break="no" ed="#P" n="101"/>bere necesse est, quia illa maxime ad 
+          perfec<lb break="no" ed="#P" n="102"/>tionem pertinet ; et ideo in omnibus coelis 
+          po<lb break="no" ed="#P" n="103"/>nitur, ut probabilior opinio fert. An vero
+          <lb ed="#P" n="104"/>materia illius coeli sit altioris rationis, quam
+          <lb ed="#P" n="105"/>materiae aliorum corporum tam coelestium,
+          <lb ed="#P" n="106"/>quam inferiorum, controverti potest. 
+          Scien<lb break="no" ed="#P" n="107"/>dumque est hanc comparaticnem fieri solere
+          <pb ed="#P" n="28"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>98
+          <lb ed="#P" n="2"/>inter inferiores coelos, et elementa, caeteraque
+          <lb ed="#P" n="3"/>inferiora corpora, seu mixta, et in ea esse 
+          va<lb break="no" ed="#P" n="4"/>rias opiniones, quas tractavi in disp. 13 
+          Me<lb break="no" ed="#P" n="5"/>taphysicae, sect. 11. Qui ergo putant materiam
+          <lb ed="#P" n="6"/>coelorum et elementorum esse ejusdem 
+          ratio<lb break="no" ed="#P" n="7"/>nis, quia in pura potentia non existimant 
+          spe<lb break="no" ed="#P" n="8"/>cificam differentiam posse inveniri, 
+          conse<lb break="no" ed="#P" n="9"/>quenter dicent, etiam materiam coeli empyrei
+          <lb ed="#P" n="10"/>esse ejusdem speciei cum reliquis, quia etiam
+          <lb ed="#P" n="11"/>est pura substantialis potentia. At illud 
+          funda<lb break="no" ed="#P" n="12"/>mentum debile est, ut in citato loco ostendi.
+          <lb ed="#P" n="13"/>Qui vero putant materiam cocli crystallini, et
+          <lb ed="#P" n="14"/>inferiorum esse ejusdem rationis cum 
+          elemen<lb break="no" ed="#P" n="15"/>tari, quia omnia sunt ab intrinseco, et de se
+          <lb ed="#P" n="16"/>corruptibilia ex parte materiae, licet ex parte
+          <lb ed="#P" n="17"/>formae habeant aliquem modum 
+          incorruptibi<lb break="no" ed="#P" n="18"/>litatis ; nihilominus dicere possunt materiam
+          <lb ed="#P" n="19"/>coeli empyrei esse altioris rationis, quia ab
+          <lb ed="#P" n="20"/>intrinseco incorruptibile est et inalterabile:
+          <lb ed="#P" n="21"/>et ita sentiunt moderni, qui solum coelum 
+          em<lb break="no" ed="#P" n="22"/>pyreum in primo creationis instanti 
+          produc<lb break="no" ed="#P" n="23"/>tum ex nihilo, alios vero coelos postea ex aqua
+          <lb ed="#P" n="24"/>formatos autumant, ut Molina et Salmeron.
+        </p>
+        <p xml:id="szdada-y00691-d1e209">
+          <lb ed="#P" n="25"/>2. In eodem secundo modo astruendo excessit
+          <lb ed="#P" n="26"/>Abulensis. — Idemque opinatur Abulensis, in
+          <lb ed="#P" n="27"/>cap. 23 Exodi, quaest. 53, excedit tamen, quia
+          <lb ed="#P" n="28"/>non solum dicit coelum illud licet corpus sit,
+          <lb ed="#P" n="29"/>et ideo non sit totaliter spirituale, quia non
+          <lb ed="#P" n="30"/>est de materia aliorum coelorum, sed etiam
+          <lb ed="#P" n="31"/>addit: Imo non dicitur esse de materia, et sic
+          <lb ed="#P" n="32"/>illud. est sexta essentia: quod autem materiale
+          <lb ed="#P" n="33"/>n0n est, non convenit cum vrebus materialis in
+          <lb ed="#P" n="34"/>natura, quovis modo. In quibus verbis 
+          obscu<lb break="no" ed="#P" n="35"/>rum est, in quo vero sensu dicat, coelum 
+          em<lb break="no" ed="#P" n="36"/>pyreum non dici essse de materia ; nam si ex
+          <lb ed="#P" n="37"/>vera materia constat, quomodo non est de
+          <lb ed="#P" n="38"/>materia? Fortasse tamen intellexit non esse
+          <lb ed="#P" n="39"/>de materia, id est, non esse factum ex 
+          mate<lb break="no" ed="#P" n="40"/>ria praejacente, sicut ipse de aliis coclis 
+          opina<lb break="no" ed="#P" n="41"/>tur, quos habere materiam ejusdem rationis
+          <lb ed="#P" n="42"/>cum elementari, et ex illa praeexistente fuisse
+          <lb ed="#P" n="43"/>progenitos arbitratur, et ita in hoc constituit
+          <lb ed="#P" n="44"/>differentiam inter coelum empyreum et 
+          reli<lb break="no" ed="#P" n="45"/>quos. Et nihilominus illud dicit esse sextam
+          <lb ed="#P" n="46"/>essentiam, quia licet ponat alios coelos 
+          ejus<lb break="no" ed="#P" n="47"/>dem materiae cum elementis ; nihilominus 
+          il<lb break="no" ed="#P" n="48"/>los dicit esse quintam essentiam respectu 
+          ele<lb break="no" ed="#P" n="49"/>mentorum, quia non tantum ab illis specie
+          <lb ed="#P" n="50"/>differunt, sicut ipsa elementa inter se 
+          distin<lb break="no" ed="#P" n="51"/>guntur, sed etiam ratione formae sunt 
+          incor<lb break="no" ed="#P" n="52"/>ruptibiles, in quo inter se conveniunt, et ideo
+          <lb ed="#P" n="53"/>cujusdam quintae essentiae esse dicuntur. At
+          <lb ed="#P" n="54"/>empyreum dicitur esse sexta essentia, quia
+          <lb ed="#P" n="55"/>secundum materiam et formam est 
+          incor<lb break="no" ed="#P" n="56"/>ruptibile, ac subinde alterius rationis: atque
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="57"/>haec cum probabilitate et consequenter dicta
+          <lb ed="#P" n="58"/>sunt. Quod vero ultimo hinc infert coelum
+          <lb ed="#P" n="59"/>empyreum convenire cum rebus materialibus
+          <lb ed="#P" n="60"/>quovis modo, nullam consecutionem, vel 
+          pro<lb break="no" ed="#P" n="61"/>babilitatem habet: quia esto omnia illa essent
+          <lb ed="#P" n="62"/>vera, nihilominus coelum empyreum cum 
+          cae<lb break="no" ed="#P" n="63"/>teris corporibus incorruptibilibus in 
+          composi<lb break="no" ed="#P" n="64"/>tione essentiali ex materia et forma 
+          genera<lb break="no" ed="#P" n="65"/>tim sumptis, et in capacitate trinae 
+          dimen<lb break="no" ed="#P" n="66"/>sionis et quantitatis, et in aliqua perpetuitate
+          <lb ed="#P" n="67"/>ab intrinseco: cum caeteris vero elementis in
+          <lb ed="#P" n="68"/>ratione communi corporis simplicis 
+          conve<lb break="no" ed="#P" n="69"/>niret.
+        </p>
+        <p xml:id="szdada-y00691-d1e312">
+          <lb ed="#P" n="70"/>3. Verior auctoris sententia de materia cal
+          <lb ed="#P" n="71"/>empyrei.—At vero juxta opinionem D. Thomae,
+          <lb ed="#P" n="72"/>quam veriorem existimamus, quod materia
+          <lb ed="#P" n="73"/>coelestis est diversae rationis ab elementari, non
+          <lb ed="#P" n="74"/>oportet in coelo empyreo fingere altioris 
+          ordi<lb break="no" ed="#P" n="75"/>nis materiam, sed ejusdem generis cum 
+          coe<lb break="no" ed="#P" n="76"/>lesti, licet intra illud sit perfectioris speciei eo
+          <lb ed="#P" n="77"/>modo, quo in pura materia species esse potest,
+          <lb ed="#P" n="78"/>quia ex natura sua est ad nobiliorem formam
+          <lb ed="#P" n="79"/>determinata. Haec enim differentia cum 
+          pro<lb break="no" ed="#P" n="80"/>portione etiam inter materia inferiorum 
+          coe<lb break="no" ed="#P" n="81"/>lorum invenitur, supponendo coelos ipsos 
+          in<lb break="no" ed="#P" n="82"/>ter se specie distingui, ut in dicto loco 
+          Meta<lb break="no" ed="#P" n="83"/>physicae, consequenter loquendo, asserendum
+          <lb ed="#P" n="84"/>esse docui. Verumtamen, etiamsi quis 
+          opinio<lb break="no" ed="#P" n="85"/>nem illam amplectatur, quae totam materiam
+          <lb ed="#P" n="86"/>coelorum mobilium dicit esse ejusdem rationis,
+          <lb ed="#P" n="87"/>licet ab elementari sit distincta: nihilominus
+          <lb ed="#P" n="88"/>sine repugnantia, et cum majori probabilitate
+          <lb ed="#P" n="89"/>dicere potest, materiam coeli empyrei esse
+          <lb ed="#P" n="90"/>altioris rationis a reliquorum coelorum 
+          mate<lb break="no" ed="#P" n="91"/>ria: non quia id sit simpliciter necessarium
+          <lb ed="#P" n="92"/>ad incorruptibilitatem ab intrinseco, sed quia
+          <lb ed="#P" n="93"/>ad majorem perfectionem essentialem, 
+          nobi<lb break="no" ed="#P" n="94"/>lioremque modum incorruptibilitatis spectat ;
+          <lb ed="#P" n="95"/>et quia tota illa perfectio coelo empyreo 
+          tri<lb break="no" ed="#P" n="96"/>buenda est, quia fini, propter quem creatum
+          <lb ed="#P" n="97"/>est, est maxime proportionata. Atque ita 
+          con<lb break="no" ed="#P" n="98"/>sequenter etiam dicere possunt sic opinantes
+          <lb ed="#P" n="99"/>coelum illud esse cujusdam sextae essentiae, ut
+          <lb ed="#P" n="100"/>explicavi. Nos vero quia credimus hanc 
+          per<lb break="no" ed="#P" n="101"/>fectionem habendi materiam specificam et
+          <lb ed="#P" n="102"/>determinatam ad suam formam esse 
+          commu<lb break="no" ed="#P" n="103"/>nem omnibus corporibus coelestibus specie 
+          di<lb break="no" ed="#P" n="104"/>versis ; ideo non judicamus necessarium 
+          tri<lb break="no" ed="#P" n="105"/>buere coelo empyreo sextam essentiam, sed
+          <lb ed="#P" n="106"/>nobilissimum gradum specificum in illo 
+          ge<lb break="no" ed="#P" n="107"/>nere quintae natura simplicis, in quo coelo
+          <lb ed="#P" n="108"/>omnes superiores elementis creati sunt.
+        </p>
+        <p xml:id="szdada-y00691-d1e399">
+          <lb ed="#P" n="109"/>4. De forma quoque celi empyre vera 
+          reso<lb break="no" ed="#P" n="110"/>lutio. — De forma vero empyrei coeli solum
+          <lb ed="#P" n="111"/>quaeri potest, an sit anima. Sed in hoc credimus
+          <pb ed="#P" n="29"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>eamdem omnino esse rationem in illo coelo,
+          <lb ed="#P" n="2"/>ac in caeteris inferioribus, ac proinde omnino
+          <lb ed="#P" n="3"/>certum esse illud coelum non esse animatum,
+          <lb ed="#P" n="4"/>nec formam ejus esse animam sicut de formis
+          <lb ed="#P" n="5"/>aliorum coelorum in philosophicis 
+          quaestioni<lb break="no" ed="#P" n="6"/>bus de coelo, quaestione 5, dixi, et ex dictis 
+          su<lb break="no" ed="#P" n="7"/>pra de Angelorum substantia suflicienter 
+          in<lb break="no" ed="#P" n="8"/>telligi potest. Nam forma, quae in corpore, et
+          <lb ed="#P" n="9"/>per corpus non potest actionem vitae exercere,
+          <lb ed="#P" n="10"/>non potest esse anima: at vero forma coeli
+          <lb ed="#P" n="11"/>empyrei non potest in illo corpore exercere
+          <lb ed="#P" n="12"/>opera vitae vegetativae, quia incorruptibile et
+          <lb ed="#P" n="13"/>ingenerabile est: neque etiam potest per illud
+          <lb ed="#P" n="14"/>cognoscere, quia cum sit simplex et incapax
+          <lb ed="#P" n="15"/>alterationis, non potest habere organa 
+          sen<lb break="no" ed="#P" n="16"/>suum, quae per talis cognitio, omnisque 
+          ope<lb break="no" ed="#P" n="17"/>ratio animae sentientis fit. Opera autem vitae
+          <lb ed="#P" n="18"/>intellectualis proprie non exercerentur per
+          <lb ed="#P" n="19"/>-corpus, nec forma, quae est principium 
+          intel<lb break="no" ed="#P" n="20"/>lectualis cognitionis, esse potest forma 
+          corpo<lb break="no" ed="#P" n="21"/>ris, nisi possit illo uti ad talem cognitionem
+          <lb ed="#P" n="22"/>acquirendam, ut de Angelis ostensumest. Ergo
+          <lb ed="#P" n="23"/>materia illa coeli empyrei, quantumvis sub alia
+          <lb ed="#P" n="24"/>ratione sit subtilior et perfectior, non est 
+          ca<lb break="no" ed="#P" n="25"/>pax formae, quae sit vera anima, et quoad
+          <lb ed="#P" n="26"/>hoc eadem ratio est de illo, quae de 
+          inferiori<lb break="no" ed="#P" n="27"/>bus. Unde quidquid difficultatis in hoc puncto
+          <lb ed="#P" n="28"/>occurrere potest, ex generali quaestione et
+          <lb ed="#P" n="29"/>ostensione, quod coelum non sit animatum,
+          <lb ed="#P" n="30"/>petendum est.
+        </p>
+        <p xml:id="szdada-y00691-d1e477">
+          <lb ed="#P" n="31"/>5. Secunda assertio de celi empyrei 
+          proprie<lb break="no" ed="#P" n="32"/>tatibus.— Primo quod sit incorruptibile ab in
+          <lb ed="#P" n="33"/>trinseco. — Secundo quod mobile ex se. —
+          Se<lb break="no" ed="#P" n="34"/>cundo de proprietatibus hujus coeli. Primum
+          <lb ed="#P" n="35"/>communiter receptum est illud esse ab 
+          in<lb break="no" ed="#P" n="36"/>trinseco incorruptibile, ut jam declaratum est,
+          <lb ed="#P" n="37"/>et consequenter etiam mensurari aevo, sicut
+          <lb ed="#P" n="38"/>de Angelorum substantia, et aliarum rerum
+          <lb ed="#P" n="39"/>interruptibilium existentia dictum alibi est,
+          <lb ed="#P" n="40"/>praesertim disput. 50 Metaphysicae, section. 5
+          <lb ed="#P" n="41"/>et 6. Dicitur etiam hoc coelum esse immobile,
+          <lb ed="#P" n="42"/>quod sano modo intelligendum est. Non est
+          <lb ed="#P" n="43"/>enim ita immobile, ut sit omnino incapax
+          <lb ed="#P" n="44"/>motus localis proprii ac physici: nam eo ipso,
+          <lb ed="#P" n="45"/>quod verum corpus, et quantum est, habet
+          <lb ed="#P" n="46"/>potentiam passivam ad localem motum saltem
+          <lb ed="#P" n="47"/>neutram, ut Scotus loquitur: quia est vere in
+          <lb ed="#P" n="48"/>loco physico et finito, et potest esse 
+          propin<lb break="no" ed="#P" n="49"/>quius, vel remotius ad alia corpora, saltem
+          <lb ed="#P" n="50"/>secundum partes suas. Unde si Deus voluisset,
+          <lb ed="#P" n="51"/>moveri ab aliqua intelligentia potuisset, neque
+          <lb ed="#P" n="52"/>id esset violentum tali corpori, quia nulla 
+          na<lb break="no" ed="#P" n="53"/>tural perfectione propterea privaretur: 
+          quies<lb break="no" ed="#P" n="54"/>cere enim nulla perfectio talis corporis est,
+          <lb ed="#P" n="55"/>licet respectu universi possit esse conveniens.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Unde solum non movetur, quia esset 
+          super<lb break="no" ed="#P" n="57"/>fluum, et fini, propter quem a Deo creatum
+          <lb ed="#P" n="58"/>est, minime consentaneum, tamen hoc totum
+          <lb ed="#P" n="59"/>respectu particularis naturae talis coeli 
+          extrin<lb break="no" ed="#P" n="60"/>secum est, et ideo non est illi quies ita 
+          natura<lb break="no" ed="#P" n="61"/>Iis, ut motus circularis violentus futurus esset,
+          <lb ed="#P" n="62"/>si fieret, quamvis secundum legem ordinariam,
+          <lb ed="#P" n="63"/>et respectu ordinis totius universi posset dici
+          <lb ed="#P" n="64"/>extraordinarius et miraculosus. Neque etiam
+          <lb ed="#P" n="65"/>obstaret, quod hoc coelum supremum sit; et
+          <lb ed="#P" n="66"/>ideo non habeat extrinsecum locum 
+          continen<lb break="no" ed="#P" n="67"/>tem, in quo possit moveri; tum quia hoc 
+          so<lb break="no" ed="#P" n="68"/>Ium est verum de facto, non posset Deus aliud
+          <lb ed="#P" n="69"/>coelum supra creare, nulla facta violentia tali
+          <lb ed="#P" n="70"/>coelo, sed juxta consilium voluntatis suae 
+          uni<lb break="no" ed="#P" n="71"/>versum totum augendo; tum etiam, quia ad
+          <lb ed="#P" n="72"/>circularem motum non est necessarius 
+          supe<lb break="no" ed="#P" n="73"/>rior locus extrinsecus continens: sed absque
+          <lb ed="#P" n="74"/>illo physice ac naturaliter fieri posset, sicut
+          <lb ed="#P" n="75"/>philosophi de primo mobih existimaverunt.
+          <lb ed="#P" n="76"/>Accedit, quod coelum empyreum uniforme, ac
+          <lb ed="#P" n="77"/>prorsus homogeneum esse creditur, totum 
+          lu<lb break="no" ed="#P" n="78"/>cidissimum, et secundum omnes suas partes
+          <lb ed="#P" n="79"/>aeque splendidissimum, ac subinde aeque 
+          per<lb break="no" ed="#P" n="80"/>fectum: et ideo nec indiget motu circulari, ut
+          <lb ed="#P" n="81"/>secundum varias partes aliter, et aliter aliis
+          <lb ed="#P" n="82"/>partibus orbis applicetur. Neque si ita 
+          move<lb break="no" ed="#P" n="83"/>retur peculiarem violentiam pateretur, quia
+          <lb ed="#P" n="84"/>nulla ejus pars magis postulat esse in hac
+          <lb ed="#P" n="85"/>parte universi, quam in altera, vel in hoc 
+          he<lb break="no" ed="#P" n="86"/>misphaerio potius, quam in alio, cum omnes
+          <lb ed="#P" n="87"/>ejusdem rationis sint. Est ergo immobilitas
+          <lb ed="#P" n="88"/>illius corporis ex recto ordine universi, non
+          <lb ed="#P" n="89"/>ex peculiari debito (ut sic dicam) talis 
+          na<lb break="no" ed="#P" n="90"/>turae.
+        </p>
+        <p xml:id="szdada-y00691-d1e612">
+          <lb ed="#P" n="91"/>6. Tertio proprietatem addit Malonius, guod
+          <lb ed="#P" n="92"/>sit fluidum.—Reicitur tamen tripliciter .—
+          In<lb break="no" ed="#P" n="93"/>terrogant autem aliqui theologi, an coelum
+          <lb ed="#P" n="94"/>illud sohdum, vel flexibile, seu fluidum sit.
+          <lb ed="#P" n="95"/>Quod dubium specialiter tractat Daniel 
+          Ma<lb break="no" ed="#P" n="96"/>lonius, in 2, d. 2, disp. 7, sect. 5. Et 
+          proba<lb break="no" ed="#P" n="97"/>bilius censet esse corpus fluidum accidens, et
+          <lb ed="#P" n="98"/>recedens secundum partes. Fundatur, quia si
+          <lb ed="#P" n="99"/>esset solidum, non posset inservire corporibus
+          <lb ed="#P" n="100"/>beatis vel ad motum, vel ad locutionem, aut
+          <lb ed="#P" n="101"/>respirationem: item quia alia daretur 
+          perpe<lb break="no" ed="#P" n="102"/>tua corporum penetratio. Quas rationes 
+          ipse<lb break="no" ed="#P" n="103"/>met fatetur posse dissolvi, nihilominus tamen
+          <lb ed="#P" n="104"/>probabiliores esse, quam quae in contrarium
+          <lb ed="#P" n="105"/>adduci possunt. Mihi tamen oppositum videtur
+          <lb ed="#P" n="106"/>longe probabilius. Primo quidem, quia si illud
+          <lb ed="#P" n="107"/>corpus fluidum est, profecto est mobile intra
+          <lb ed="#P" n="108"/>eumdem locum secundum varias partes, et
+          <lb ed="#P" n="109"/>modum fluxus et refluxus, seu accessus et
+          <lb ed="#P" n="110"/>recessus. Hocautem est contra receptum dogma
+          <pb ed="#P" n="30"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>omnium potentium illud coelum prorsus 
+          im<lb break="no" ed="#P" n="2"/>motum. Secundo, quia illa species motus 
+          lo<lb break="no" ed="#P" n="3"/>calis valde imperfecta est, non enim potest
+          <lb ed="#P" n="4"/>intelligi sine aliqua divisione, condensatione,
+          <lb ed="#P" n="5"/>et rarefactione partium talis corporis, quae 
+          re<lb break="no" ed="#P" n="6"/>pugnant corpori incorruptibih. Antecedens
+          <lb ed="#P" n="7"/>declaratur, quia si corpus beati ascendens ad
+          <lb ed="#P" n="8"/>illud coelum, non penetrat per illud manens
+          <lb ed="#P" n="9"/>immotum, scd coelum illud cedit corpori beati,
+          <lb ed="#P" n="10"/>necesse est, ut partes talis corporis dividantur,
+          <lb ed="#P" n="11"/>ut dent locum humano corpori subintranti, et
+          <lb ed="#P" n="12"/>consequenter necesse est, ut partes secundum
+          <lb ed="#P" n="13"/>latera comprimantur, et postea transeunte
+          <lb ed="#P" n="14"/>corpore beati, rarefiant, ut ad priorem locum
+          <lb ed="#P" n="15"/>revertantur, et continuitatem iterum accipiant,
+          <lb ed="#P" n="16"/>sicut nunc fit in aere, vel aqua. Tertio, quia
+          <lb ed="#P" n="17"/>ante ascendum corporum beatorum coelum
+          <lb ed="#P" n="18"/>illud replebat adaequate totum spatium, in quo
+          <lb ed="#P" n="19"/>creatus est :si ergo postea al eumdem locum,
+          <lb ed="#P" n="20"/>sed ad idem spatium ascendant innumera 
+          mul<lb break="no" ed="#P" n="21"/>titudo corporum beatorum et intra illud 
+          spa<lb break="no" ed="#P" n="22"/>tium, et coelum recipiantur, et singula 
+          occu<lb break="no" ed="#P" n="23"/>pent spatia sibi proportionata, et cum partibus
+          <lb ed="#P" n="24"/>coeli non peneirentur, profecto necesse est
+          <lb ed="#P" n="25"/>corpus illud coeleste condensari, ut in minori
+          <lb ed="#P" n="26"/>spatio recipi possit, vel extra illud totum 
+          spa<lb break="no" ed="#P" n="27"/>tum dilatari, seu ascendere per plures suas,
+          <lb ed="#P" n="28"/>quia non potest intelligi sine mutatione figurae,
+          <lb ed="#P" n="29"/>et dispositionis antiquae, aliisque similibus 
+          im<lb break="no" ed="#P" n="30"/>perfectionibus, illi perfectissimae naturae 
+          re<lb break="no" ed="#P" n="31"/>pugnantibus.
+        </p>
+        <p xml:id="szdada-y00691-d1e729">
+          <lb ed="#P" n="32"/>7. Ad fundamenta Malonii iu numero 
+          praece<lb break="no" ed="#P" n="33"/>denti.— Denique ex alteriussententiae 
+          conjectu<lb break="no" ed="#P" n="34"/>ris non fit probabilus illa sententia, quia 
+          neces<lb break="no" ed="#P" n="35"/>sitas illius proprietatis coeli empyrei ad usum
+          <lb ed="#P" n="36"/>corporum beatorum nec probabiliter suadetur.
+          <lb ed="#P" n="37"/>Nam imprimis quod spectat ad motum 
+          loca<lb break="no" ed="#P" n="38"/>lem, poterunt beatorum corpora in illo coelo,
+          <lb ed="#P" n="39"/>vel per illud moveri, sicut per inferiores 
+          coe<lb break="no" ed="#P" n="40"/>los possunt autem per caeteros moveri, vel
+          <lb ed="#P" n="41"/>transire, etiamsi divisibiles, vel fluxibiles non
+          <lb ed="#P" n="42"/>sint: ergo fidem erit in coelo empyreo. Nec 
+          re<lb break="no" ed="#P" n="43"/>fert, quia diutius vel permanentius in 
+          empy<lb break="no" ed="#P" n="44"/>reo coelo sint commoraturi, tum quia eadem
+          <lb ed="#P" n="45"/>ratio de longa, vel brevi mora, et de pluribus,
+          <lb ed="#P" n="46"/>vel paucioribus motibus: tum etiam quia post
+          <lb ed="#P" n="47"/>diem Judicii quando omnes sancti homines
+          <lb ed="#P" n="48"/>jam erunt in corpore, et anima beati, libere
+          <lb ed="#P" n="49"/>discurrent per alios coelos, vel per totum 
+          uni<lb break="no" ed="#P" n="50"/>versum, ut alibi tractatum est. Deinde ad 
+          lo<lb break="no" ed="#P" n="51"/>quendum non indigebunt corpore coelesti 
+          tan<lb break="no" ed="#P" n="52"/>quam instrumento, quo ad vocem formandam
+          <lb ed="#P" n="53"/>utantur, sicut nos aere utimur. Quia (ut ex
+          <lb ed="#P" n="54"/>materia de Beatitudine suppono) corpus 
+          glorio<lb break="no" ed="#P" n="55"/>sum non erit in partibus internis vacuum, sed
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>omnia illa interiora loca corporis, quae nunc
+          <lb ed="#P" n="57"/>alimentis, excrementis, superfluis humoribus,
+          <lb ed="#P" n="58"/>aut aere replentur, tunc purissimo, ac 
+          lucidis<lb break="no" ed="#P" n="59"/>simo aere replebuntur: illo ergo utentur ad
+          <lb ed="#P" n="60"/>formandam vocem, et in coelo empyreo solas
+          <lb ed="#P" n="61"/>intentionales species emittent, ut ab aliis 
+          au<lb break="no" ed="#P" n="62"/>diantur, quia sine ulla commotione, vel fluxu
+          <lb ed="#P" n="63"/>coelestis corporis fieri poterit aeque ac 
+          immu<lb break="no" ed="#P" n="64"/>tatio visus. Praeterea respiratio in illis 
+          corpo<lb break="no" ed="#P" n="65"/>ribus necessaria non erit alteratio, et ita neque
+          <lb ed="#P" n="66"/>corda eorum nimia calefactione efficientur,
+          <lb ed="#P" n="67"/>propter quam respiratione indigeant. Denique
+          <lb ed="#P" n="68"/>corpora beata non erunt semper intra corpus
+          <lb ed="#P" n="69"/>coeli empyrei, sed supra convexum illius 
+          plan<lb break="no" ed="#P" n="70"/>tas pedum habebunt, quando voluerint. Imo
+          <lb ed="#P" n="71"/>hic est quasi proprius illorum situs et locus,
+          <lb ed="#P" n="72"/>sicut de Christi corpore alibi ostendimus.
+          <lb ed="#P" n="73"/>Quando vero beati intra ipsum coelum 
+          empy<lb break="no" ed="#P" n="74"/>reum esse voluerit, nullum est inconveniens,
+          <lb ed="#P" n="75"/>quod semper penetrent illud, idem enim erit
+          <lb ed="#P" n="76"/>de aliis coelis, quando per illa suo arbitrio
+          <lb ed="#P" n="77"/>transire, vel discurrere voluerint.
+        </p>
+        <p xml:id="szdada-y00691-d1e833">
+          <lb ed="#P" n="78"/>8. Ultima proprietas de influxu empyrei in
+          <lb ed="#P" n="79"/>corpora subjecta discutitur. — Prima opinio 
+          ne<lb break="no" ed="#P" n="80"/>gans. — Primum argumentum. — Ultimo circa
+          <lb ed="#P" n="81"/>vim agendi coeli empyrei in alia corpora, vel
+          <lb ed="#P" n="82"/>in haec inferiora dubitant theologi an illud
+          <lb ed="#P" n="83"/>coelum haec inferiora influat, vel ex se lumen,
+          <lb ed="#P" n="84"/>aut aliquam qualitatem emittat. Res tamen est
+          <lb ed="#P" n="85"/>adeo ignora nobis ostendi. Nihilominus tamen
+          <lb ed="#P" n="86"/>sunt opiniones. Prima negat aliquid influere.
+          <lb ed="#P" n="87"/>Hanc tenuit D. Thomas, in 2, dist. 2, quaest. 2,
+          <lb ed="#P" n="88"/>art. 3, ubhi aliis etiam nonnullis placet, et
+          <lb ed="#P" n="89"/>Alensis, 2 part., quaest. 47, memb. 1. Prima
+          <lb ed="#P" n="90"/>ratio a priori esse potest, quia coelum 
+          empy<lb break="no" ed="#P" n="91"/>reum non est factum ad conservandas res 
+          cor<lb break="no" ed="#P" n="92"/>ruptibiles vel in individuo, vel in specie per
+          <lb ed="#P" n="93"/>continuam generationum successionem: sed
+          <lb ed="#P" n="94"/>tantum est factum propter perfectionem 
+          uni<lb break="no" ed="#P" n="95"/>versi, praesertim in ordine ad finem 
+          superna<lb break="no" ed="#P" n="96"/>turalem, ut sit beatorum domicilium; ergo est
+          <lb ed="#P" n="97"/>omnino abstractum ab influentia in haec 
+          infe<lb break="no" ed="#P" n="98"/>riora. Secundo, quia coeli non agunt nisi 
+          me<lb break="no" ed="#P" n="99"/>diante motu, ut de caeteris patet, unde dici 
+          so<lb break="no" ed="#P" n="100"/>let, quod si motus coelorum cessarent, omnia
+          <lb ed="#P" n="101"/>haec inferiora perirent, quia coeli nihil in ea
+          <lb ed="#P" n="102"/>influerent. Addi etiam solet, quod corpus non
+          <lb ed="#P" n="103"/>movet nisi motum: sed coelum empyreum est
+          <lb ed="#P" n="104"/>immotum: ergo non influit. Tertia illud 
+          su<lb break="no" ed="#P" n="105"/>premum coelum nihil influit in coelos sibi
+          <lb ed="#P" n="106"/>proximos: ergo neque in remota elementa.
+          <lb ed="#P" n="107"/>Consequentia clara est, quia juxta principia
+          <lb ed="#P" n="108"/>bonae Philosophiae corpus remotum non agit
+          <lb ed="#P" n="109"/>in distans nisi per proximum, vel agendo in
+          <lb ed="#P" n="110"/>illud. Antecedens vero patet, quia corpus illud
+          <pb ed="#P" n="31"/>
+        </p>
+        <p xml:id="szdada-y00691-d1e910">
+          <lb ed="#P" n="1"/>influit lumen in alia corpora coelestia, licet in
+          <lb ed="#P" n="2"/>se lucidissimum sit, alioqui videri posset; sed
+          <lb ed="#P" n="3"/>coelum non ipfluit, nisi per lumen: ergo.
+          <lb ed="#P" n="4"/>Quarto explicari non potest, qualis influentia
+          <lb ed="#P" n="5"/>haec sit.
+        </p>
+        <p xml:id="szdada-y00691-d1e923">
+          <lb ed="#P" n="6"/>9. Secunda opinio affirmans et aliquanto
+          <lb ed="#P" n="7"/>probatior. — Prima ratio, sed infirma. —
+          <lb ed="#P" n="8"/>Altera nihilominus sententia docet coelum 
+          il<lb break="no" ed="#P" n="9"/>lud influere in hunc mundum inferiorem. Hanc
+          <lb ed="#P" n="10"/>sententiam praetulit D. Thomas, 1 p., q. 60,
+          <lb ed="#P" n="11"/>art. 3, ad 2, et quodl. 6, quaest. 11, a. 19, ubi
+          <lb ed="#P" n="12"/>expresse contrariam sententiam retractat, ut
+          <lb ed="#P" n="13"/>notat etiam Cajetanus circa dictam solutionem
+          <lb ed="#P" n="14"/>ad 2, qui hanc ultimam sententiam 
+          amplecten<lb break="no" ed="#P" n="15"/>dam censet. Et eamdem sequuntur Richardus,
+          <lb ed="#P" n="16"/>in 2, dist. 2, art. 3, quaest. 3, Durandus, q. 2,
+          <lb ed="#P" n="17"/>JEgidius, quaest. 2, art. 4, Argentina, quaest. 2,
+          <lb ed="#P" n="18"/>art. 1. Variae autem rationes ad hoc 
+          suaden<lb break="no" ed="#P" n="19"/>dum afferuntur. Prima, quia unum quodque
+          <lb ed="#P" n="20"/>corpus materiale conservatur a proximo 
+          supe<lb break="no" ed="#P" n="21"/>riori corpore tanquam a loco naturali, in quo
+          <lb ed="#P" n="22"/>continetur ; ergo primum mobile hoc modo
+          <lb ed="#P" n="23"/>conservatur a coelo empyreo, in quo 
+          contine<lb break="no" ed="#P" n="24"/>tur: ergo necesse est, ut coelum empyreum in
+          <lb ed="#P" n="25"/>illud influat, et consequenter per illam 
+          in<lb break="no" ed="#P" n="26"/>fluentiam aget in inferiora, quatenus virtutem
+          <lb ed="#P" n="27"/>influendi ejus continet, vel roborat. Sed haec
+          <lb ed="#P" n="28"/>ratio parvi momenti est. Nam major intellecta
+          <lb ed="#P" n="29"/>de conservatione propria per propriam 
+          actio<lb break="no" ed="#P" n="30"/>nem, veramque efticientiam falsa est, ut bene
+          <lb ed="#P" n="31"/>notavit Durandus supra n. 7, quia elementum
+          <lb ed="#P" n="32"/>ignis in sua sphaera existens locus naturalis est
+          <lb ed="#P" n="33"/>purissimi aeris vicini, quem circumdat, et 
+          con<lb break="no" ed="#P" n="34"/>ünet ignis autem ille nihil influit in aerem,
+          <lb ed="#P" n="35"/>alioqui vel illum calefaceret plus, quam natura
+          <lb ed="#P" n="36"/>ejus postulet, vel humiditatem ejus minueret,
+          <lb ed="#P" n="37"/>quod non esset illud conservare, sed ad 
+          cor<lb break="no" ed="#P" n="38"/>ruptionem disponere. Fingere autem aliam
+          <lb ed="#P" n="39"/>influentiam in igne, commentitium est. Item
+          <lb ed="#P" n="40"/>illud principium, quod omne corpus 
+          conserva<lb break="no" ed="#P" n="41"/>tur a loco naturali, nullum habet 
+          fundamen<lb break="no" ed="#P" n="42"/>tum. Nam si corpus contentum sit per se factum
+          <lb ed="#P" n="43"/>per creationem, quia est natura sua 
+          incorrup<lb break="no" ed="#P" n="44"/>übile, non indiget alia causa conservante 
+          prae<lb break="no" ed="#P" n="45"/>ler suum creatorem: imo a nullo alio 
+          conser<lb break="no" ed="#P" n="46"/>vari potest, quia a nullo alio pendet in esse,
+          <lb ed="#P" n="47"/>sicut neque in fieri. Si vero corpus illud sit
+          <lb ed="#P" n="48"/>natura sua corruptibile ut aer, et quodlibet
+          <lb ed="#P" n="49"/>elementum: etiam illud non indiget 
+          conser<lb break="no" ed="#P" n="50"/>vante per se praeter Deum, sed solum indigebit
+          <lb ed="#P" n="51"/>conservante per accidens, id est, non 
+          corrum<lb break="no" ed="#P" n="52"/>pente, seu removente prohibens, et sic se habet
+          <lb ed="#P" n="53"/>ignis ad aerem, et ad hoc non est necessaria
+          <lb ed="#P" n="54"/>influentia positiva ut per se patet. Ergo ut 
+          coe<lb break="no" ed="#P" n="55"/>lum empyreum sit locus suo modo naturalis
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="56"/>proximi inferioris coeli, non est necessaria 
+          in<lb break="no" ed="#P" n="57"/>fluentia, sed continentia cum debito et 
+          con<lb break="no" ed="#P" n="58"/>naturali ordine.
+        </p>
+        <p xml:id="szdada-y00691-d1e1043">
+          <lb ed="#P" n="59"/>10. Secunda ratio etiam debilis. — Secunda
+          <lb ed="#P" n="60"/>ratio est, quia si celum empyreum nullam 
+          in<lb break="no" ed="#P" n="61"/>fluentiam haberet, non pertineret ad unitatem
+          <lb ed="#P" n="62"/>universi, quod est inconveniens. Sequela 
+          pro<lb break="no" ed="#P" n="63"/>batur, quia unitas universi est unitas ordinis:
+          <lb ed="#P" n="64"/>ordo autem hic attenditur secundum 
+          influen<lb break="no" ed="#P" n="65"/>tiam superiorum in inferiora, quia est unitas
+          <lb ed="#P" n="66"/>regiminis, quatenus inferiora per superiora
+          <lb ed="#P" n="67"/>reguntur. Verumtamen haec ratio parum etiam
+          <lb ed="#P" n="68"/>cogit, quia unitas universi, quantum ad 
+          cor<lb break="no" ed="#P" n="69"/>pora attinet, per ordinem situum, et 
+          subordi<lb break="no" ed="#P" n="70"/>nationem corporum simplicium consentaneum
+          <lb ed="#P" n="71"/>naturis eorum suffhicienter salvatur. Sicut enim
+          <lb ed="#P" n="72"/>domus est una, et imago etiam est una, etiamsi
+          <lb ed="#P" n="73"/>una pars non habeat in aliam activam 
+          influen<lb break="no" ed="#P" n="74"/>tiam ; ita hic mundus potest esse unus, et 
+          ali<lb break="no" ed="#P" n="75"/>quod corpus potest pertinere ad unitatem ejus
+          <lb ed="#P" n="76"/>sine influentia, secundum alium convenientem
+          <lb ed="#P" n="77"/>ordinem. Sic ergo ut coelum empyreum ad
+          <lb ed="#P" n="78"/>unitatem mundi pertineat satis est, quod sit
+          <lb ed="#P" n="79"/>quasi puicherrimum tectum totius universi
+          <lb ed="#P" n="80"/>continens, et quasi complens illud. Accedit,
+          <lb ed="#P" n="81"/>quod influentia, quae nunc est, non est 
+          princi<lb break="no" ed="#P" n="82"/>paliter propter unitatem, sed supposita unitate
+          <lb ed="#P" n="83"/>universi, ad ejus conservationem et 
+          perpe<lb break="no" ed="#P" n="84"/>tuitatem ordinatur. Unde elementum ignis
+          <lb ed="#P" n="85"/>per se nihil influit in inferiora, sed per illud
+          <lb ed="#P" n="86"/>influunt coeli, quia non potest influentia 
+          tran<lb break="no" ed="#P" n="87"/>sire ad remota corpora, nisi proxima prius
+          <lb ed="#P" n="88"/>afficiat. Si tamen posset fieri, ut coelum lunae
+          <lb ed="#P" n="89"/>nihil influeret in ignem: nihilominus ad 
+          uni<lb break="no" ed="#P" n="90"/>tatem universi pertineret. Et declaratur ex
+          <lb ed="#P" n="91"/>statu universi post diem Judiei ; cessabit enim
+          <lb ed="#P" n="92"/>influentia, et nihilominus unitas mundi 
+          per<lb break="no" ed="#P" n="93"/>manebit.
+        </p>
+        <p xml:id="szdada-y00691-d1e1121">
+          <lb ed="#P" n="94"/>11. Tertia ratio satis verisimilis. — Tertia
+          <lb ed="#P" n="95"/>ratio philosophica, et valde verisimilis est, quia
+          <lb ed="#P" n="96"/>omne corpus naturale habet aliquam vim 
+          acti<lb break="no" ed="#P" n="97"/>vam, et hoc videtur pertinere ad perfectionem
+          <lb ed="#P" n="98"/>formae: haec autem virtus in rebus non 
+          viven<lb break="no" ed="#P" n="99"/>tibus non est ad agendum in seipsis, sed ad
+          <lb ed="#P" n="100"/>agendum in alia. At vero coclum empyreum
+          <lb ed="#P" n="101"/>est substantia constans forma quadam valde
+          <lb ed="#P" n="102"/>perfecta in illo ordine: ergo non caret omni
+          <lb ed="#P" n="103"/>virtute agendi; non est autem ita perfectum,
+          <lb ed="#P" n="104"/>ut gradum animae attingat: ergo virtus ejus
+          <lb ed="#P" n="105"/>non est activa immanente actione: ergo 
+          trans<lb break="no" ed="#P" n="106"/>eunte: ergo est potens influere in alia: ergo
+          <lb ed="#P" n="107"/>de facto influit. Haec ultima consequentia 
+          pro<lb break="no" ed="#P" n="108"/>batur, quia illa virtus de se naturaliter, et 
+          ne<lb break="no" ed="#P" n="109"/>cessario agit, quia non est libera, ut 
+          suspen<lb break="no" ed="#P" n="110"/>dere influentiam valeat, ut est per se notum.
+          <pb ed="#P" n="32"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Neque etiam est verisimile, ut proximum 
+          coe<lb break="no" ed="#P" n="2"/>lum sit incapax influentiae ejus, ut hac ratione
+          <lb ed="#P" n="3"/>sit perpetuo otiosa, et carens actione ob 
+          de<lb break="no" ed="#P" n="4"/>fectum passi capacis, quia non videtur hoc
+          <lb ed="#P" n="5"/>optimae dispositioni corporum universi, et 
+          sa<lb break="no" ed="#P" n="6"/>pientissimae providentiae divinae consentaneum:
+          <lb ed="#P" n="7"/>ergo illa vis activa coeli empyrei semper est in
+          <lb ed="#P" n="8"/>actu, ac subinde in caetera corpora continue
+          <lb ed="#P" n="9"/>influit. Et hac ratione utuntur Durandus, 
+          hi<lb break="no" ed="#P" n="10"/>chardus et /Egidius. Alii addunt probationem
+          <lb ed="#P" n="11"/>ab experimento quodam, de quo statim 
+          vide<lb break="no" ed="#P" n="12"/>bimus.
+        </p>
+        <p xml:id="szdada-y00691-d1e1191">
+          <lb ed="#P" n="13"/>12. Confirmatur proxima ratio. — Ad 
+          pri<lb break="no" ed="#P" n="14"/>mum argumentum in num. 8. — Ad secundum
+          <lb ed="#P" n="15"/>argumentum. — Atque haec ratio maxime 
+          con<lb break="no" ed="#P" n="16"/>firmatur, quia hic ordo rerum per se 
+          per<lb break="no" ed="#P" n="17"/>tinet ad perfectionem, et nullum habet
+          <lb ed="#P" n="18"/>incommodum,, ut patebit respondendo ad 
+          mo<lb break="no" ed="#P" n="19"/>tiva contrariae sententiae. Ad primum non 
+          ne<lb break="no" ed="#P" n="20"/>gatur consequentia: nam licet hoc covlum per
+          <lb ed="#P" n="21"/>se primo non sit factum propter influentiam,
+          <lb ed="#P" n="22"/>consequenter, et quasi per se secundo illam
+          <lb ed="#P" n="23"/>habere necessarium fuit ; quia debuit esse 
+          per<lb break="no" ed="#P" n="24"/>fectissimum, ac proinde maxime activum nec
+          <lb ed="#P" n="25"/>debuit carere proportionato subjecto, in quo
+          <lb ed="#P" n="26"/>suam virtutem exercere posset. Ad secundum
+          <lb ed="#P" n="27"/>falsa est imprimis illa universalis propositio,
+          <lb ed="#P" n="28"/>quod corpus non movet nisi motum. Nam hcet
+          <lb ed="#P" n="29"/>fortasse in motu locali id habeat verum, 
+          quan<lb break="no" ed="#P" n="30"/>do unum corpus per se, ac immediate movet,
+          <lb ed="#P" n="31"/>et impellit aliud, in motu alterationis non est
+          <lb ed="#P" n="32"/>ita, potest enim unum corpus quietum 
+          locali<lb break="no" ed="#P" n="33"/>ter manens, aliud movere per alterationem
+          <lb ed="#P" n="34"/>proprie, aut late sumptam, prout 
+          illuminatio<lb break="no" ed="#P" n="35"/>nem, et omnem mutationem ad qualitatem
+          <lb ed="#P" n="36"/>per se tendentem comprehendit, quia nulla
+          <lb ed="#P" n="37"/>est ratio, ob quam illa conditio motus lccalis
+          <lb ed="#P" n="38"/>in agente ad alterationem, vel similem 
+          actio<lb break="no" ed="#P" n="39"/>nem necessaria sit, ut alibi latius dictum est.
+          <lb ed="#P" n="40"/>In aliis autem coelis necessarius est motus ad
+          <lb ed="#P" n="41"/>influendum, non per se, nec quia simpliciter
+          <lb ed="#P" n="42"/>necessarius sit in coelo, vel astris ad agendum,
+          <lb ed="#P" n="43"/>absolute in inferiora, sed quia est necessarius
+          <lb ed="#P" n="44"/>ad ordinate agendum, prout ad 
+          conservatio<lb break="no" ed="#P" n="45"/>nem universi necessarium erat. Unde ille 
+          mo<lb break="no" ed="#P" n="46"/>tus solum est necessarius ut applicatio agentis
+          <lb ed="#P" n="47"/>ad passum, id est, ut sol, luna, etc., ad 
+          diver<lb break="no" ed="#P" n="48"/>sas mundi partes applicentur, et ita possit 
+          ho<lb break="no" ed="#P" n="49"/>rum astrorum influentia ad universum extendi
+          <lb ed="#P" n="50"/>cum intermissione et vicissitudine ad ejus 
+          uti<lb break="no" ed="#P" n="51"/>litatem necessaria. Nam si sol, verbi gratia,
+          <lb ed="#P" n="52"/>in uno situ semper quiesceret, res sibi 
+          praesen<lb break="no" ed="#P" n="53"/>tes corrumperet, et aliae propter ejus absentiam
+          <lb ed="#P" n="54"/>perirent. Idemque suo modo verum est in 
+          cae<lb break="no" ed="#P" n="55"/>teris planetis. Et in hoc sensu verum est mun-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dum hunc inferiorem periturum fore, si coeli
+          <lb ed="#P" n="57"/>quiescerent, et non alio, utin philosophia 
+          tra<lb break="no" ed="#P" n="58"/>didi, et attigi in Metaphysica, disput. 21, 
+          sec<lb break="no" ed="#P" n="59"/>Uon. 3, et disp. 22. sect. 5, praesertim in fine.
+          <lb ed="#P" n="60"/>At vero ad influentiam coeli empyrei non fuit
+          <lb ed="#P" n="61"/>necessarius motus ejus, quia, ut supra dixi,
+          <lb ed="#P" n="62"/>in suo esse, et compositione partium est
+          <lb ed="#P" n="63"/>uniforme, et omnino homogeneum, et ideo
+          <lb ed="#P" n="64"/>non plus, neque aliter in unam partem orbis,
+          <lb ed="#P" n="65"/>quam in aliam influeret, etiamsi circulariter
+          <lb ed="#P" n="66"/>moveretur, quia per talem motum non fieret
+          <lb ed="#P" n="67"/>huic, vel illi hemisphaerio propinquior 
+          secun<lb break="no" ed="#P" n="68"/>dum partes magis, vel minus, vel alio, et alio
+          <lb ed="#P" n="69"/>modo effectrices, sed tantum secundum 
+          diver<lb break="no" ed="#P" n="70"/>sas partes materiales, quae varietas ad 
+          influen<lb break="no" ed="#P" n="71"/>tam nihil refert. Non desunt tamen, qui 
+          tri<lb break="no" ed="#P" n="72"/>buant illi coelo varias influentias secundum
+          <lb ed="#P" n="73"/>partes diversas, de qua opinionein responsione
+          <lb ed="#P" n="74"/>ad quartum videbimus.
+        </p>
+        <p xml:id="szdada-y00691-d1e1330">
+          <lb ed="#P" n="75"/>13. Ad tertium. Responsio prima.—
+          Respon<lb break="no" ed="#P" n="76"/>sio secunda. Ad tertium dicimus primo, non
+          <lb ed="#P" n="77"/>esse necessarium, ut omnes coelestes 
+          influen<lb break="no" ed="#P" n="78"/>tiae fiant per Iumen, nam possunt habere alias
+          <lb ed="#P" n="79"/>innatas proprietates, per quas agant, ut in 
+          sin<lb break="no" ed="#P" n="80"/>gulis planetis mihi probabilius est. Unde juxta
+          <lb ed="#P" n="81"/>specificam diversitatem coelorum vel astrorum
+          <lb ed="#P" n="82"/>est etiam varietas in proprietatibus, et 
+          conse<lb break="no" ed="#P" n="83"/>quenter in iufluentiis quae ab illis manant. Sic
+          <lb ed="#P" n="84"/>ergo esto esset verum, coelum empyreum non
+          <lb ed="#P" n="85"/>influere per lumen, poterit influere per aliam,
+          <lb ed="#P" n="86"/>vel alias virtutes sibi connaturales, per quas
+          <lb ed="#P" n="87"/>non influet illuminando, sed immediate 
+          effi<lb break="no" ed="#P" n="88"/>ciendo in coelo sibi propinquo aliquam aliam
+          <lb ed="#P" n="89"/>qualitatem nobis ignotam non repugnantem
+          <lb ed="#P" n="90"/>incorruptibili corpori, quia non disponit ullo
+          <lb ed="#P" n="91"/>modo ad corruptionem, sed tantum perficit, ad
+          <lb ed="#P" n="92"/>modum luminis, vel similium qualitatum.
+          <lb ed="#P" n="93"/>Quod optime confirmat Richardus, quia 
+          influen<lb break="no" ed="#P" n="94"/>ua lunae vel Solis attingit, ubi lumen ejus non
+          <lb ed="#P" n="95"/>atüngit, ut ad viscera terrae, et alia opaca 
+          lo<lb break="no" ed="#P" n="96"/>ca: sic ergo poterit coelum empyreum aliquid
+          <lb ed="#P" n="97"/>influere in primum mobile, esto radios 
+          lumi<lb break="no" ed="#P" n="98"/>nis in illud non mittat. Addo vero licet sit 
+          pro<lb break="no" ed="#P" n="99"/>babile, Iumen coeli empyrei non emittere 
+          ra<lb break="no" ed="#P" n="100"/>dios luminosos, vel quia ejus splendor est 
+          al<lb break="no" ed="#P" n="101"/>terius rationis a luce Solis, vel quia est corpus
+          <lb ed="#P" n="102"/>adeo rarum, vel subtile, ut ad illuminandum,
+          <lb ed="#P" n="103"/>non sufficiat: nihilominus hoc non esse 
+          cer<lb break="no" ed="#P" n="104"/>tum, nam fortasse etiam crystallinum coelum
+          <lb ed="#P" n="105"/>fulget in se ex vicina influentia coeli empyrei.
+          <lb ed="#P" n="106"/>Nulla enim experientia aliud constare nobis
+          <lb ed="#P" n="107"/>potest: nam fieri optime potest, ut illa 
+          influen<lb break="no" ed="#P" n="108"/>tia sit, et a nobis non videatur. Vel quia 
+          pri<lb break="no" ed="#P" n="109"/>mum mobile est corpus ita densum et 
+          opa<lb break="no" ed="#P" n="110"/>cum, ut penetrari non possit lumine, sed potius
+          <pb ed="#P" n="33"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>radios superioris corporis in se contineat, et
+          <lb ed="#P" n="2"/>umbram reddat, ut corpus lunae, et similia:
+          <lb ed="#P" n="3"/>vel quia propter nimiam distantiam non 
+          po<lb break="no" ed="#P" n="4"/>test lumen illud huc pertingere. Sicut etiam
+          <lb ed="#P" n="5"/>coelum empyreum cum sit lucidum et visibile,
+          <lb ed="#P" n="6"/>sine dubio visibiles species ex se emittit, et 
+          ni<lb break="no" ed="#P" n="7"/>hilominus a nohis videri non potest, quia 
+          prop<lb break="no" ed="#P" n="8"/>ter nimiam distantiam, vel obstaculum 
+          alicu<lb break="no" ed="#P" n="9"/>jus coeli intermedii species visibiles ipsius ad
+          <lb ed="#P" n="10"/>nos non pertingunt. Idem ergo potest esse de
+          <lb ed="#P" n="11"/>lumine. :
+        </p>
+        <p xml:id="szdada-y00691-d1e1440">
+          <lb ed="#P" n="12"/>14. Circa quartum argumentum opinio 
+          pri<lb break="no" ed="#P" n="13"/>ma. — Rejicitur. — In ultimo argumento 
+          pe<lb break="no" ed="#P" n="14"/>titur, quae sit influentia illius coli. In quo
+          <lb ed="#P" n="15"/>puneto aliqui antiqui, ut Alensis, et D. 
+          Tho<lb break="no" ed="#P" n="16"/>mas supra referunt, dixerunt influentiam 
+          hu<lb break="no" ed="#P" n="17"/>jus coeli consistere in quodam speciali lumine
+          <lb ed="#P" n="18"/>necessario ad conjunctionem animae rationalis
+          <lb ed="#P" n="19"/>cum corpore: nam ad conjunctionem animae
+          <lb ed="#P" n="20"/>sentientis ponunt aliam specialem influentiam
+          <lb ed="#P" n="21"/>coeli crystallini: ad unionem vero animae 
+          ve<lb break="no" ed="#P" n="22"/>getativae influentiam coeli stellati. Sed haec
+          <lb ed="#P" n="23"/>opinio antiquata, et merito rejecta est, quia
+          <lb ed="#P" n="24"/>sine fundamento confingit illorum luminum
+          <lb ed="#P" n="25"/>necessitatem, cum explicare non possit, quod
+          <lb ed="#P" n="26"/>sint, vel cur excogitentur. Nam ad 
+          conjunc<lb break="no" ed="#P" n="27"/>tionem cujuscumque animae, sive formae 
+          cor<lb break="no" ed="#P" n="28"/>poris, nullum medium est necessarium praeter
+          <lb ed="#P" n="29"/>ultimam dispositionem, vel organizationem
+          <lb ed="#P" n="30"/>animae proportionatam: haec autem dispositio
+          <lb ed="#P" n="31"/>permixtionem elementorum cum communi 
+          in<lb break="no" ed="#P" n="32"/>fluentia coelorum, coefficiente, si opus sit,
+          <lb ed="#P" n="33"/>proxima causa univoca, ut in viventibus 
+          per<lb break="no" ed="#P" n="34"/>fectis invenitur sufficienter fit. Ergo frustra
+          <lb ed="#P" n="35"/>fingitur influentia coeli empyrei propter 
+          con<lb break="no" ed="#P" n="36"/>junctionem animae rationalis cum corpore:
+          <lb ed="#P" n="37"/>nam licet fieri possit, ut illud coelum in eam
+          <lb ed="#P" n="38"/>influat, tamen sine illa influentia posset etiam
+          <lb ed="#P" n="39"/>facile subsistere et intelligi, prout ab 
+          Aristote<lb break="no" ed="#P" n="40"/>le dicente, sol, et homo generat hominem, 
+          intel<lb break="no" ed="#P" n="41"/>lecta est.
+        </p>
+        <p xml:id="szdada-y00691-d1e1508">
+          <lb ed="#P" n="42"/>15. Secunda opinio. — Impugnatur primo.
+          <lb ed="#P" n="43"/>—Ali tribuunt huic influentiae coeli empyrei
+          <lb ed="#P" n="44"/>diversas inclinationes et dispositiones 
+          homi<lb break="no" ed="#P" n="45"/>num in distinctis, ac distantibus orbis plagis
+          <lb ed="#P" n="46"/>babitantibus. Nam cum omnes illi habeant
+          <lb ed="#P" n="47"/>omnes influentias coelorum mobilium, et 
+          nihil<lb break="no" ed="#P" n="48"/>ominus semper inter se habeant illam 
+          diver<lb break="no" ed="#P" n="49"/>sitatem complexionum et proprietatum 
+          con<lb break="no" ed="#P" n="50"/>naturalium, et quasi individualium, non 
+          po<lb break="no" ed="#P" n="51"/>test illa diversitas oriri ex influentia coelorum
+          <lb ed="#P" n="52"/>mobilium. Unde concludunt, provenire ex coelo
+          <lb ed="#P" n="53"/>immobili quod semper habet diversas 
+          influen<lb break="no" ed="#P" n="54"/>tias in omnibus illis regionibus et plagis 
+          uni<lb break="no" ed="#P" n="55"/>versi, ita ut in unaquaque semper sit eadem,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et inter se sint distinctae propter diversas 
+          par<lb break="no" ed="#P" n="57"/>tes coeli immobilis semper immobiliter 
+          influen<lb break="no" ed="#P" n="58"/>tis. Quam sententiam referens Richardus, 
+          su<lb break="no" ed="#P" n="59"/>pra de illa dicit evidentius rationi concordare.
+          <lb ed="#P" n="60"/>At haec sententia supponit ceelum empyreum
+          <lb ed="#P" n="61"/>ex se, et per se distinctas qualitates et 
+          proprie<lb break="no" ed="#P" n="62"/>tates influere per distinctas partes suas 
+          cor<lb break="no" ed="#P" n="63"/>respondentes diversis hemisphaeriis, ac 
+          regio<lb break="no" ed="#P" n="64"/>nibus terrae. Hoc autem repugnat his, quae de
+          <lb ed="#P" n="65"/>homogeneitate talis coeli diximus: nam si
+          <lb ed="#P" n="66"/>partes ejus sunt omnirio similes in substantia,
+          <lb ed="#P" n="67"/>et dispositionibus suis, quomodo possunt in vi
+          <lb ed="#P" n="68"/>agendi esse dissimiles et variae, cum vis agendi
+          <lb ed="#P" n="69"/>vel fit per formam et dispositiones, vel certe
+          <lb ed="#P" n="70"/>ex forma ut informante materiam sic 
+          disposi<lb break="no" ed="#P" n="71"/>tam consequatur. Quapropter cum Ricbardus,
+          <lb ed="#P" n="72"/>dicto art. 3, quaest. 2, fateatur illud coelum
+          <lb ed="#P" n="73"/>esse homogeneum, et uniforme in esse suarum
+          <lb ed="#P" n="74"/>partium, non videtur loqui consequenter in
+          <lb ed="#P" n="75"/>quaest. 3, distinctas influentias per se illis 
+          par<lb break="no" ed="#P" n="76"/>tibus attribuens.
+        </p>
+        <p xml:id="szdada-y00691-d1e1589">
+          <lb ed="#P" n="77"/>16. Impugnatur secundo. — Tandem 
+          imjn<lb break="no" ed="#P" n="78"/>gnatur. — Deinde illa experientia nullum 
+          si<lb break="no" ed="#P" n="79"/>gnum est talis diversitatis influentiarum a coelo
+          <lb ed="#P" n="80"/>empyreo secundum diversas ejus partes 
+          prove<lb break="no" ed="#P" n="81"/>nientium. Quia potest ex aliis causis tum 
+          ma<lb break="no" ed="#P" n="82"/>terialibus tum etiam efficientibus provenire.
+          <lb ed="#P" n="83"/>Nam in variis regionibus orbis potest terra
+          <lb ed="#P" n="84"/>esse diversimode disposita, et aliis elementis
+          <lb ed="#P" n="85"/>aliter, et aliter mixta. Unde provenire potest,
+          <lb ed="#P" n="86"/>ut, caeteris paribus diversa mixta exilla 
+          gene<lb break="no" ed="#P" n="87"/>rentur, et corpora etiam complexiones varias
+          <lb ed="#P" n="88"/>sortiantur. Accedit, quod Solis, et aliorum 
+          pla<lb break="no" ed="#P" n="89"/>netarum aspectus, et respectus sunt varii 
+          res<lb break="no" ed="#P" n="90"/>pectu diversarum regionum, vel secundum
+          <lb ed="#P" n="91"/>propinquitatem, vel distantiam ad orientem,
+          <lb ed="#P" n="92"/>vel alias plagas orbis, vel secundum aspectum
+          <lb ed="#P" n="93"/>directum, aut obliquum, tam respectu Solis, et
+          <lb ed="#P" n="94"/>singulorum planetarum, quam secundum 
+          va<lb break="no" ed="#P" n="95"/>rios ipsorum, et aliarum stellarum concursus.
+          <lb ed="#P" n="96"/>Haec autem habitudo et dispositio ex parte
+          <lb ed="#P" n="97"/>terrae semper est eadem propter immobilitatem
+          <lb ed="#P" n="98"/>ejus, et ideo semper in illis regionibus pro 
+          il<lb break="no" ed="#P" n="99"/>larum diversitate eadem distinctio in 
+          effecti<lb break="no" ed="#P" n="100"/>bus, vel conditionibus eorum reperitur. Non
+          <lb ed="#P" n="101"/>provenit ergo ex solo ceelo empyreo, quamvis,
+          <lb ed="#P" n="102"/>supposita influentia hujus coeli, possit ad illam
+          <lb ed="#P" n="103"/>cooperari, non quia in partibus suis ex se 
+          ha<lb break="no" ed="#P" n="104"/>bet distinctam virtutem influendi, sed quia 
+          ea<lb break="no" ed="#P" n="105"/>dem virtus aliter concurrens cum aliis causis
+          <lb ed="#P" n="106"/>universalibus, vel particularibus efficientibus,
+          <lb ed="#P" n="107"/>et materialibus, potest ad diversos effectus 
+          co<lb break="no" ed="#P" n="108"/>operari, sicut in variis conjunctionibus 
+          plane<lb break="no" ed="#P" n="109"/>tarum contingit.
+        </p>
+        <p xml:id="szdada-y00691-d1e1663">
+          <lb ed="#P" n="110"/>17. Fera resolutio praedictae influentiae. —
+          <pb ed="#P" n="34"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Dico ergo, non constare nobis, quam specialem
+          <lb ed="#P" n="2"/>proprietatem, vel effectum influat coelum 
+          em<lb break="no" ed="#P" n="3"/>pyreum per se spectatum, et sola sua virtute
+          <lb ed="#P" n="4"/>efficiendo in aliud corpus. Neque propter hunc
+          <lb ed="#P" n="5"/>defectum nostrae cognitionis negare debemus
+          <lb ed="#P" n="6"/>omnem illius coeli influentiam, quia evidens
+          <lb ed="#P" n="7"/>nobis est, in rebus nobis vicinioribus esse 
+          plu<lb break="no" ed="#P" n="8"/>res virtutes agendi, quas ignoramus, quia 
+          ea<lb break="no" ed="#P" n="9"/>rum effectus experti non sumus, nec satis 
+          ex<lb break="no" ed="#P" n="10"/>periri, aut ab aliis causis distinguere possumus.
+          <lb ed="#P" n="11"/>Satis ergo est, quod in generali, et veluti a
+          <lb ed="#P" n="12"/>priori ex illius corporis nobilitate colligamus,
+          <lb ed="#P" n="13"/>non posse carere omni agendi virtute. Unde
+          <lb ed="#P" n="14"/>D. Thomas, dicta solut. ad 2, in general dixit,
+          <lb ed="#P" n="15"/>influere illud coelum in sibi proximum aliquid
+          <lb ed="#P" n="16"/>ad dignitatem pertinens. In dicto autem 
+          quo<lb break="no" ed="#P" n="17"/>libet dicit cooperari ad perpetuitatem et 
+          sta<lb break="no" ed="#P" n="18"/>bilitatem universi. Verisimile autem est, de
+          <lb ed="#P" n="19"/>facto non influere in haec inferiora, nisi 
+          coad<lb break="no" ed="#P" n="20"/>juvando et cooperando aliis astris et coelis:
+          <lb ed="#P" n="21"/>et ita non habere aliquem specialem effectum
+          <lb ed="#P" n="22"/>praeter eos, qui ab aliis coelis proveniunt, 
+          quam<lb break="no" ed="#P" n="23"/>vis ex influentia coeli empyrei vel majori 
+          vir<lb break="no" ed="#P" n="24"/>tute et efficacia fiant, vel etiam aliter 
+          tempe<lb break="no" ed="#P" n="25"/>rentur et disponantur. Neque de ista influentia
+          <lb ed="#P" n="26"/>ita occulta aliquid aliud dici cum fundamento
+          <lb ed="#P" n="27"/>posse existimo. Nam quod quidam dicunt, 
+          ha<lb break="no" ed="#P" n="28"/>biturum specialem influentiam in corpora
+          <lb ed="#P" n="29"/>beatorum, incertum satis est, si de influentia
+          <lb ed="#P" n="30"/>distincta ab emissione intensionahum 
+          specie<lb break="no" ed="#P" n="31"/>rum intelligatur: nam sine dubio 
+          delectabun<lb break="no" ed="#P" n="32"/>tur beati splendore, et pulchritudine illius coeli
+          <lb ed="#P" n="33"/>non tantum mente, sed etiam oculis visa, et
+          <lb ed="#P" n="34"/>ad hoc ab illo species recipient. Alia vero 
+          in<lb break="no" ed="#P" n="35"/>fluentia, non video, qua fundamento 
+          asse<lb break="no" ed="#P" n="36"/>ratur.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

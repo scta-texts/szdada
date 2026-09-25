@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="797"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y19638"><!-- t3l6c9 -->
+        <head xml:id="szdada-y19638-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-y19638-Hd1e103" type="question-title">Utrum magis naturale sit animae esse in corpore, quam extra corpus</head>
+        <p xml:id="szdada-y19638-d1e106">
+          <lb ed="#P" n="86"/>CAPUT IX.
+          <lb ed="#P" n="87"/>UTRUM MAGIS NATURALE SIT ANIMAE ESSE IN 
+          COR<lb break="no" ed="#P" n="88"/>PORE, QUAM EXTRA CORPUS.
+        </p>
+        <p xml:id="szdada-y19638-d1e115">
+          <lb ed="#P" n="89"/>1. Primum argumentum pro statu 
+          separatio<lb break="no" ed="#P" n="90"/>nis. — Platonis et Avicennee sententia. — In
+          <lb ed="#P" n="91"/>quo discrepent.—Accedit Scotus sententiee divi
+          <lb ed="#P" n="92"/>Thome. — Haec quaestio oritur ex praecedenti:
+          <lb ed="#P" n="93"/>omnis enim forma unitvr materiae, ut melius
+          <lb ed="#P" n="94"/>illi sit, quam si extra corpus maneat, atque
+          <lb ed="#P" n="95"/>ut melius exerceat operationes suas, animae
+          <lb ed="#P" n="96"/>vero rationali non sic contingit, potius enim
+          <lb ed="#P" n="97"/>unio ad corpus illi deterior est, quia 
+          impedi<lb break="no" ed="#P" n="98"/>tur valde ab operatione sua: ergo melius illi
+          <lb ed="#P" n="99"/>est, esse separatam. Secundo animae status in
+          <lb ed="#P" n="100"/>corpore est contra naturalem ejus 
+          inclinatio<lb break="no" ed="#P" n="101"/>nem, inclinatur siquidem vehementer ad 
+          co<lb break="no" ed="#P" n="102"/>gnoscendum Deum et Angelos, et ad perfecte
+          <lb ed="#P" n="103"/>intelligenda omnia: quae certe inclinatio 
+          im<lb break="no" ed="#P" n="104"/>peditur in corpore: est ergo ibi violenter, atque
+          <pb ed="#P" n="798"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>adeo naturale ei est esse extra corpus. Haec
+          <lb ed="#P" n="2"/>fundamenta coegerunt Platonem in Timaeo,
+          <lb ed="#P" n="3"/>Phaedro et Phaedone ad dicendum animas
+          <lb ed="#P" n="4"/>nostras non esse existimandas, sicut formas
+          <lb ed="#P" n="5"/>naturales, quae ideo naturali vinculo uniuntur
+          <lb ed="#P" n="6"/>materiae, quia earum esse est materiale et 
+          im<lb break="no" ed="#P" n="7"/>perfectum, nostras vero esse immortales et
+          <lb ed="#P" n="8"/>subsistentes, ac proinde quasi invitas teneri in
+          <lb ed="#P" n="9"/>corpore, indeque egredi optare. Ita etiam 
+          Avi<lb break="no" ed="#P" n="10"/>cenna 9, Metaphysicae, cap. 1, dicens propriam
+          <lb ed="#P" n="11"/>perfectionem animae nostrae esse, ut 
+          describa<lb break="no" ed="#P" n="12"/>tur in ea forma totius universi, ac fiat saeculum
+          <lb ed="#P" n="13"/>intelligibile, corpus vero multum nocere 
+          ani<lb break="no" ed="#P" n="14"/>mae ad hanc perfectionem obtinendam, quam
+          <lb ed="#P" n="15"/>naturaliter desiderat: differt autem Avicenna
+          <lb ed="#P" n="16"/>a Platone, quod non neget esse naturale 
+          ani<lb break="no" ed="#P" n="17"/>mae nostrae in principio uniri corpori, sed ait
+          <lb ed="#P" n="18"/>esse statum naturalem imperfectum, sicut 
+          sta<lb break="no" ed="#P" n="19"/>tus pueritiae homini est naturalis, licet 
+          imper<lb break="no" ed="#P" n="20"/>fectus, statum tamen separationis esse animae
+          <lb ed="#P" n="21"/>magis naturalem, magisque perfectum. lta
+          <lb ed="#P" n="22"/>quoque Scotus, in 4, dist. 46, quaest. 2. Non
+          <lb ed="#P" n="23"/>placet autem D. Thomae haec sententia, 
+          quo<lb break="no" ed="#P" n="24"/>niam essentia animae tota est ad informandum
+          <lb ed="#P" n="25"/>corpus. Unde aptitudo et inclinatio ad corpus
+          <lb ed="#P" n="26"/>omnino est inseparabilis ab illa, et quidquid
+          <lb ed="#P" n="27"/>huic inclinationi repugnat, praeternaturale est
+          <lb ed="#P" n="28"/>ipsi animae. Qua de causa, in quaest. 81, art. 1,
+          <lb ed="#P" n="29"/>scribit intelligere animae separatae 
+          praeterna<lb break="no" ed="#P" n="30"/>turale ei esse, cum et status ipse 
+          praeternatu<lb break="no" ed="#P" n="31"/>ralis sit: licet ad tertium addat, naturale esse,
+          <lb ed="#P" n="32"/>prout distinguitur contra supernaturale. Unde
+          <lb ed="#P" n="33"/>conatur S. Doctor salvare intelligendi modum
+          <lb ed="#P" n="34"/>animae in corpore illi potiorem esse, quam 
+          ex<lb break="no" ed="#P" n="35"/>tra corpus, quia censuit inconveniens 
+          intelli<lb break="no" ed="#P" n="36"/>gendi modum praeternaturale praestare 
+          natura<lb break="no" ed="#P" n="37"/>li. Verum superius ostensum est, intelligere
+          <lb ed="#P" n="38"/>extra corpus esse melius, sicque integrum 
+          ma<lb break="no" ed="#P" n="39"/>net dubium, ac plane non facile, Nec est 
+          mira<lb break="no" ed="#P" n="40"/>bile in hac mirabili hominis compositione 
+          dif<lb break="no" ed="#P" n="41"/>ficultatem obtrudi. Nam in materia quoque
+          <lb ed="#P" n="42"/>morali et naturali gravissima dubia oriuntur
+          <lb ed="#P" n="43"/>ex illa corporis et spiritus copulatione. 
+          Quo<lb break="no" ed="#P" n="44"/>modo, inquam, anima nostra spiritualis sit, et
+          <lb ed="#P" n="45"/>corpori immersa, quomodo subsistens, 
+          simul<lb break="no" ed="#P" n="46"/>que vere informans, quomodo intellectiva et
+          <lb ed="#P" n="47"/>sensibus alligata, quae repugnantiam quamdam
+          <lb ed="#P" n="48"/>includere videntur. Ex quibus ulterius aliae
+          <lb ed="#P" n="49"/>oriuntur salebrae in eo potissime fundatae, quod
+          <lb ed="#P" n="50"/>humanam compositionem velimus ad modum
+          <lb ed="#P" n="51"/>aliarum compositionum naturalium metiri,
+          <lb ed="#P" n="52"/>quod tamen nec stare semper potest, nec est
+          <lb ed="#P" n="53"/>cur stet, quia si compositio hominis singularis
+          <lb ed="#P" n="54"/>est et mirabilior aliis, non est mirum, si 
+          ali<lb break="no" ed="#P" n="55"/>quid ex illa sequatur singulare.
+        </p>
+        <p xml:id="szdada-y19638-d1e276">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>2. Prima assertio probatur tripliciter. —
+          <lb ed="#P" n="57"/>Dico ergo primo certissimum esse animam 
+          na<lb break="no" ed="#P" n="58"/>turaliter uniri corpori, et hanc esse naturalem
+          <lb ed="#P" n="59"/>conditionem illius. Probatur, quia, ut dictum
+          <lb ed="#P" n="60"/>est ex D. Thoma anima essentialiter est 
+          for<lb break="no" ed="#P" n="61"/>ma, omnis vero forma naturaliter informat.
+          <lb ed="#P" n="62"/>Secundo, quia naturale est, ac maxima 
+          perfec<lb break="no" ed="#P" n="63"/>tio natura,, quod in sensibili mundo existat
+          <lb ed="#P" n="64"/>homo, propter quem totus fabricatus fuit:
+          <lb ed="#P" n="65"/>consurgit autem homo ex informatione 
+          ani<lb break="no" ed="#P" n="66"/>mae: ergo talis informatio naturalis est. 
+          Ter<lb break="no" ed="#P" n="67"/>tio, anima ex se est imperfectum ens ad aliud
+          <lb ed="#P" n="68"/>constituendum, seu perficiendum ordinatum :
+          <lb ed="#P" n="69"/>constituere ergo naturale illi est, aliudque
+          <lb ed="#P" n="70"/>componere, ac perficere.
+        </p>
+        <p xml:id="szdada-y19638-d1e314">
+          <lb ed="#P" n="71"/>3. Secunda assertio tripartita. — Dico 
+          se<lb break="no" ed="#P" n="72"/>cundo, videri certum, ex unione ad corpus
+          <lb ed="#P" n="73"/>animam non reddi imperfectiorem in 
+          substan<lb break="no" ed="#P" n="74"/>tia sua, quin potius explicare perfectionem
+          <lb ed="#P" n="75"/>perficiendo aliud: quare licet substantialiter
+          <lb ed="#P" n="76"/>non perficiatur, habere tamen in corpore 
+          mo<lb break="no" ed="#P" n="77"/>dum essendi magis conformem ipsi 
+          substan<lb break="no" ed="#P" n="78"/>tiae. Haec conclusio quoad omnes partes liquet
+          <lb ed="#P" n="79"/>ex dictis. Nam tota substantia animae, quae est
+          <lb ed="#P" n="80"/>in corpore, manet extra corpus: non ergo
+          <lb ed="#P" n="81"/>perficitur anima, nec fit imperfectior propter
+          <lb ed="#P" n="82"/>communicationem, vel separationem. At enim
+          <lb ed="#P" n="83"/>dum corpori unitur, totum perficit hominem,
+          <lb ed="#P" n="84"/>in eoque explicat perfectionem suam, cum
+          <lb ed="#P" n="85"/>omnis causa, dum effectum causat, virtutem
+          <lb ed="#P" n="86"/>suam declaret: quia vero causalitas per 
+          in<lb break="no" ed="#P" n="87"/>trinsecam fit informationem, ad quam anima
+          <lb ed="#P" n="88"/>ex se ordinatur, ideo substantia animae 
+          natu<lb break="no" ed="#P" n="89"/>raliter apta est ad corporis informationem :
+          <lb ed="#P" n="90"/>unde tandem actualis informatio maxime 
+          con<lb break="no" ed="#P" n="91"/>sonat substantiae animae, sicut in universum
+          <lb ed="#P" n="92"/>actus proportionatur potentiae, perfectioque
+          <lb ed="#P" n="93"/>illius censetur: considerando ergo 
+          substan<lb break="no" ed="#P" n="94"/>tiam animae, non dubium, quin melior sit illi
+          <lb ed="#P" n="95"/>status in corpore, quam extra corpus.
+        </p>
+        <p xml:id="szdada-y19638-d1e371">
+          <lb ed="#P" n="96"/>4. Tertia assertio etiam tripartita.—lertia
+          <lb ed="#P" n="97"/>conclusio. In ordine ad operationes, extensive
+          <lb ed="#P" n="98"/>perficitur anima in corpore, quoad modum
+          <lb ed="#P" n="99"/>tamen effticiendi perfectiores operationes non
+          <lb ed="#P" n="100"/>est ei melius esse in corpore corruptibili, sed
+          <lb ed="#P" n="101"/>potius ex illo impeditur, quod contra naturam
+          <lb ed="#P" n="102"/>animae non est, sed naturalis potius 
+          imper<lb break="no" ed="#P" n="103"/>fectio, quae imperfectam conditionem illius
+          <lb ed="#P" n="104"/>comitatur. Prima pars suadetur: namque 
+          ani<lb break="no" ed="#P" n="105"/>ma in corpore principium est operationis 
+          ve<lb break="no" ed="#P" n="106"/>getativae et sensitivae, et caeterarum omnium,
+          <lb ed="#P" n="107"/>quas per corpus solum exercet. Secunda pars
+          <lb ed="#P" n="108"/>habetur ex dictis. Tertia declaratur 
+          induc<lb break="no" ed="#P" n="109"/>tione, multa enim conveniunt rebus 
+          insepara<lb break="no" ed="#P" n="110"/>biliter, non ut perfectiones earum, sed potius
+          <pb ed="#P" n="799"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ut imperfectiones, et, ut ita dicam, miseriee,
+          <lb ed="#P" n="2"/>quae ex imperfectione subjecti consequuntur,
+          <lb ed="#P" n="3"/>sic naturale est homini esse mortalem, non ut
+          <lb ed="#P" n="4"/>perfectio, sed ut imperfectio, sic in praesenti
+          <lb ed="#P" n="5"/>propria conditio est animae nostrae uniri 
+          cor<lb break="no" ed="#P" n="6"/>pori corruptibili, naturalisque modus 
+          incep<lb break="no" ed="#P" n="7"/>tionis ejus. Ex quo si aliquod detrimentum
+          <lb ed="#P" n="8"/>patitur in operando, naturalis profecto 
+          perfec<lb break="no" ed="#P" n="9"/>tio ejus est, ac miseria, non violentia: 
+          quem<lb break="no" ed="#P" n="10"/>admodum melius esset animae semper ratione
+          <lb ed="#P" n="11"/>uti, nec carere unquam usu rationis, et tamen
+          <lb ed="#P" n="12"/>naturale illi est per aliquot annos eo usu 
+          ca<lb break="no" ed="#P" n="13"/>rere, neque hoc violentum dici. potest, sed
+          <lb ed="#P" n="14"/>quaedam naturalis imperfectio. Declaratur 
+          ra<lb break="no" ed="#P" n="15"/>tione, cum enim aliquid intrinsece ordinatur
+          <lb ed="#P" n="16"/>ad finem, hujus consecutio perfectio est iilius,
+          <lb ed="#P" n="17"/>et status in tali fine maxime naturalis, quae
+          <lb ed="#P" n="18"/>vero inde incommoda fortasse sequuntur, non
+          <lb ed="#P" n="19"/>violenta putantur, sed naturales sequelae ex
+          <lb ed="#P" n="20"/>tali conditione naturae, sic finis naturalis 
+          pe<lb break="no" ed="#P" n="21"/>dum est totum corpus sustinere, ex quo plane
+          <lb ed="#P" n="22"/>sequitur esse illos debere in infimo loco, 
+          pa<lb break="no" ed="#P" n="23"/>tique oportere incommoda, quae non contra
+          <lb ed="#P" n="24"/>illorum naturam sunt, sed eorum comitantur
+          <lb ed="#P" n="25"/>imperfectionem: cum ergo animae nostrae finis
+          <lb ed="#P" n="26"/>sit, constituere naturale compositum omnium
+          <lb ed="#P" n="27"/>perfectissimum, id attenditur magis: ex quo
+          <lb ed="#P" n="28"/>si aliquod detrimentum patitur, naturalis 
+          con<lb break="no" ed="#P" n="29"/>ditio est, non violenta. Dices: ergo infelicior
+          <lb ed="#P" n="30"/>est conditio animae nostrae inter omnes formas
+          <lb ed="#P" n="31"/>corporis, cum omnes alise perficiantur in 
+          cor<lb break="no" ed="#P" n="32"/>poribus, non vero nostra. Sed non recte, 
+          po<lb break="no" ed="#P" n="33"/>tius enim felicior est aliis, quia et in corpore
+          <lb ed="#P" n="34"/>perfectiores exercet, et praeterea a corpore 
+          se<lb break="no" ed="#P" n="35"/>parata alium perfectum modum operandi 
+          ha<lb break="no" ed="#P" n="36"/>bere potest, quae non infelicitas, sed felicitas
+          <lb ed="#P" n="37"/>magna est: cum nequeat ab illa auferri tota
+          <lb ed="#P" n="38"/>perfectio, sicut ab aliis formis, quae in 
+          separa<lb break="no" ed="#P" n="39"/>Mtione desinunt esse, sed dum illi aufertur 
+          per<lb break="no" ed="#P" n="40"/>fectio, quam habebat in corpore, alia succedit.
+        </p>
+        <p xml:id="szdada-y19638-d1e497">
+          <lb ed="#P" n="41"/>5. Ad primum argumentum in n. 1. — Ad
+          <lb ed="#P" n="42"/>secundum.— Queestiuncula suborta. — Ad 
+          pri<lb break="no" ed="#P" n="43"/>mum argumentum initio positum dicito, 
+          ani<lb break="no" ed="#P" n="44"/>mam ex unione ad corpus in multis perfici:
+          <lb ed="#P" n="45"/>quod vero in aliquo impediatur, singulare illi
+          <lb ed="#P" n="46"/>est, nec mirum, quia singularis est inter 
+          om<lb break="no" ed="#P" n="47"/>nes, neque debet imputari Deo, quod hanc 
+          na<lb break="no" ed="#P" n="48"/>turam nostram cum multa intra se pugna
+          <lb ed="#P" n="49"/>constituerit, cum non fuerit modo alia 
+          natu<lb break="no" ed="#P" n="50"/>raliter factibilis. Ad secundum dices, statum
+          <lb ed="#P" n="51"/>in corpore esse naturalem, utpote conformem
+          <lb ed="#P" n="52"/>eessentiae, licet non expleat omnes illius 
+          natu<lb break="no" ed="#P" n="53"/>rales inclinationes, non tamen propterea est
+          <lb ed="#P" n="54"/>omnino violentus separationis status, sed 
+          ali<lb break="no" ed="#P" n="55"/>quo modo etiam naturalis, cum anima ex sua
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>essentia subsistens sit et incorruptibilis. 
+          Rur<lb break="no" ed="#P" n="57"/>sus ex conditione naturae suae vendicat uniri
+          <lb ed="#P" n="58"/>corpori corruptibili, ex quo naturaliter 
+          sequi<lb break="no" ed="#P" n="59"/>tur debere tandem ab illo separari, post 
+          sepa<lb break="no" ed="#P" n="60"/>rationem vero naturale quoque illi est ita 
+          ma<lb break="no" ed="#P" n="61"/>nere, id est, ex se habet vires ad manendum,
+          <lb ed="#P" n="62"/>ac de facto manet in statu satis perfecto, ubi
+          <lb ed="#P" n="63"/>explet quamdam inclinationem naturalem 
+          per<lb break="no" ed="#P" n="64"/>fectissimam: unde status ille secundum haec
+          <lb ed="#P" n="65"/>omnia naturahs illi est, licet ex parte, qua non
+          <lb ed="#P" n="66"/>habet essentialem finem, id est, 
+          informatio<lb break="no" ed="#P" n="67"/>nem, ad quam ordinatur, sit praeternaturalis.
+          <lb ed="#P" n="68"/>Petes igitur, quisnam status illorum sit 
+          simpli<lb break="no" ed="#P" n="69"/>citer magis naturalis, neuter enim videtur ita
+          <lb ed="#P" n="70"/>naturalis, ut totam capacitatem animae, et
+          <lb ed="#P" n="71"/>omnes ejus inclinationes expleat. Pro quo sit,
+        </p>
+        <p xml:id="szdada-y19638-d1e569">
+          <lb ed="#P" n="72"/>6. Quarta conclusio. Absolute loquendo 
+          sta<lb break="no" ed="#P" n="73"/>tus in corpore est magis naturalis animae. 
+          De<lb break="no" ed="#P" n="74"/>claratur: nam licet status extra corpus magis
+          <lb ed="#P" n="75"/>naturalis sit ea ratione, qua anima cum 
+          intel<lb break="no" ed="#P" n="76"/>ligentiis convenit, ac secundum ea, quae 
+          pro<lb break="no" ed="#P" n="77"/>pria illius sunt, ac secundum differentiam 
+          ul<lb break="no" ed="#P" n="78"/>timam essentialem, qua est forma corporis,
+          <lb ed="#P" n="79"/>magis naturalis est illi status in corpore, atque
+          <lb ed="#P" n="80"/>adeo simpliciter magis naturalis: cum magis
+          <lb ed="#P" n="81"/>naturalia sint absolute, quae conveniunt rei
+          <lb ed="#P" n="82"/>secundum essentialia, quam quae conveniunt
+          <lb ed="#P" n="83"/>secundum communia. Dices: Magis naturale
+          <lb ed="#P" n="84"/>est, quod diuturnius est, esse autem in 
+          cor<lb break="no" ed="#P" n="85"/>pore est temporarium, at extra corpus 
+          aeter<lb break="no" ed="#P" n="86"/>num, naturaliter loquendo: hoc ergo est 
+          ma<lb break="no" ed="#P" n="87"/>gis naturale respondetur primo, magis 
+          na<lb break="no" ed="#P" n="88"/>turale diuturnius esse ex parte rei, cui est
+          <lb ed="#P" n="89"/>naturale, secus si ab extrinseco impediatur,
+          <lb ed="#P" n="90"/>ut in praesenti cernitur, anima enim in 
+          cor<lb break="no" ed="#P" n="91"/>pore semel creata semper in eo de se maneret,
+          <lb ed="#P" n="92"/>hinc enim illa tam insita inclinatio hominum
+          <lb ed="#P" n="93"/>ad vivendum 2, Corinth., c. 5: Nolumus 
+          ec<lb break="no" ed="#P" n="94"/>spoliari, sed supervestiri attamen quia ab 
+          ex<lb break="no" ed="#P" n="95"/>trinseco impeditur a contrarns agentibus, ideo
+          <lb ed="#P" n="96"/>non permittitur perpetuo manere in statu 
+          cor<lb break="no" ed="#P" n="97"/>poris. In alio vero statu perpetuo manet,
+          <lb ed="#P" n="98"/>quia abest a contrariis. Secundo respondetur,
+          <lb ed="#P" n="99"/>statum maxime consonum inclinationi 
+          ani<lb break="no" ed="#P" n="100"/>mae nostrae esse perpetuam cum corpore 
+          unio<lb break="no" ed="#P" n="101"/>nem corruptioni non obnoxiam, et a cognitione
+          <lb ed="#P" n="102"/>perfecta rerum omnium non impedibilem ,
+          <lb ed="#P" n="103"/>quem statum habebunt animae beatorum post
+          <lb ed="#P" n="104"/>resurrectionem, quae certe resurrectio, si 
+          na<lb break="no" ed="#P" n="105"/>turalis esset, cessaret difficultas praesens, 
+          di<lb break="no" ed="#P" n="106"/>ceretur quippe animam quasi ab imperfecto
+          <lb ed="#P" n="107"/>ad perfectum procedere, ut primo naturale ei
+          <lb ed="#P" n="108"/>esset residere in corpore, in quo pro aliquo
+          <lb ed="#P" n="109"/>tempore non uteretur ratione, deinde, ut 
+          pau<lb break="no" ed="#P" n="110"/>latim acquireret corpus, in quo uti posset ra-
+          <pb ed="#P" n="800"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tione, sed adhuc imperfecte, et quasi in via
+          <lb ed="#P" n="2"/>ad statum perfectiorem ; postmodum veroa
+          <lb ed="#P" n="3"/>corpore separatam, subire naturalem 
+          conditio<lb break="no" ed="#P" n="4"/>nem, majoremque intellectus perfectionem 
+          ac<lb break="no" ed="#P" n="5"/>quirere, ut ita omnem essendi modum 
+          expe<lb break="no" ed="#P" n="6"/>riretur. Denique corpori reunitam a Deo 
+          nan<lb break="no" ed="#P" n="7"/>cisci omnem suam perfectionem. At enim quia
+          <lb ed="#P" n="8"/>resurrectio naturalis non est, sed ex gratia,
+          <lb ed="#P" n="9"/>ideo in hac evasione non quiescit intellectus.
+          <lb ed="#P" n="10"/>Dici ergo posset, licet resurrectio eo modo,
+          <lb ed="#P" n="11"/>quo nunc fit, et respectu finis, ad quem 
+          ordi<lb break="no" ed="#P" n="12"/>natur, sit absolute supernaturalis, attamen
+          <lb ed="#P" n="13"/>etiam intra leges naturae sistendo, videri 
+          na<lb break="no" ed="#P" n="14"/>turalem conditionem hominis postulare, ut 
+          ha<lb break="no" ed="#P" n="15"/>beat finem aliquem perpetuum non solius
+          <lb ed="#P" n="16"/>animae, sed totius compositi, et quod aliqua
+          <lb ed="#P" n="17"/>detur retributio malorum et bonorum, non
+          <lb ed="#P" n="18"/>tantum in animabus, sed etiam in compositis :
+          <lb ed="#P" n="19"/>siquidem homines ipsi sunt, qui bene, vel male
+          <lb ed="#P" n="20"/>operantur. Unde consequenter dicendum esset,
+          <lb ed="#P" n="21"/>ad providentiam Dei, ut auctor naturae est,
+          <lb ed="#P" n="22"/>pertinere reunire animam separatam corpori
+          <lb ed="#P" n="23"/>aliquo modo incorruptibili, in quo possit totam
+          <lb ed="#P" n="24"/>suam naturalem perfectionem obtinere et 
+          com<lb break="no" ed="#P" n="25"/>plete beari, quod quidem apparenter dictum
+          <lb ed="#P" n="26"/>est. Sed illud longius examinari alibi solet,
+          <lb ed="#P" n="27"/>maxime enim pendet ex cognitione naturalis
+          <lb ed="#P" n="28"/>finis animae nostrae. Quod si hoc non credatur,
+          <lb ed="#P" n="29"/>astrui necessario debet, naturam humanam
+          <lb ed="#P" n="30"/>talis esse conditionis, ut intra leges naturae
+          <lb ed="#P" n="31"/>stando, nequeat perfectum statum naturalem
+          <lb ed="#P" n="32"/>habere, sed per gratiam perfici, nec posse 
+          se<lb break="no" ed="#P" n="33"/>parari a gratia cum tota sua perfectione 
+          natu<lb break="no" ed="#P" n="34"/>rali, et ideo a Deo ad finem supernaturalem
+          <lb ed="#P" n="35"/>elevatam esse, et per gratiam ei concedi, quod
+          <lb ed="#P" n="36"/>per naturam deerat, nec hoc ex imperfectione
+          <lb ed="#P" n="37"/>humanae naturae provenire, sed ex perfectione,
+          <lb ed="#P" n="38"/>quia enim talis natura multa ambit, non 
+          po<lb break="no" ed="#P" n="39"/>tuit naturaliter tota ejus capacitas repleri, sed
+          <lb ed="#P" n="40"/>necessaria fuit gratia.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

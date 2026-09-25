@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 24</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 24</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="688"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y16882"><!-- t3l3c24 -->
+        <head xml:id="szdada-y16882-Hd1e101">Caput 24</head>
+        <head xml:id="szdada-y16882-Hd1e103" type="question-title">Quo modo odor medium, et olfactum immutet</head>
+        <p xml:id="szdada-y16882-d1e106">
+          <lb ed="#P" n="7"/>CAPUT XXIV.
+          <lb ed="#P" n="8"/>QUO MODO ODOR MEDIUM, ET OLFACTUM IMMUTET.
+        </p>
+        <p xml:id="szdada-y16882-d1e113">
+          <lb ed="#P" n="9"/>1. Suppositio pro priore parte tituli.— 
+          Opi<lb break="no" ed="#P" n="10"/>niones adversee de diffusione odoris per medium.
+          <lb ed="#P" n="11"/>— Quamvis praecedenti quaestione de odore et
+          <lb ed="#P" n="12"/>sapore dixerimus, propter eorum affinitatem,
+          <lb ed="#P" n="13"/>in hac tamen quaestione prosequemur tantum
+          <lb ed="#P" n="14"/>de odore, superest autem de illo dicere prout
+          <lb ed="#P" n="15"/>sensibilis est, de modo videlicet, quo sensum
+          <lb ed="#P" n="16"/>immutat. Atque primo supponendum odorem
+          <lb ed="#P" n="17"/>a longe immutare posse sensum, ut 
+          experien<lb break="no" ed="#P" n="18"/>tia docet: necesse ergo est interjectum medium
+          <lb ed="#P" n="19"/>carere corpore impediente diffusionem odoris:
+          <lb ed="#P" n="20"/>unde medium accommodatum sunt aer, imo
+          <lb ed="#P" n="21"/>et aqua, ut Aristoteles supra testatur, et de
+          <lb ed="#P" n="22"/>Sensu, et cap. 5, et 4. de Hist., cap. 8. Nam
+          <lb ed="#P" n="23"/>pisces sub aquis odorem percipiunt, dum nocte
+          <lb ed="#P" n="24"/>moventur ad alimentum distans, non alio ducti
+          <lb ed="#P" n="25"/>sensu, quam olfactu. Idem habetur 2, de Part.,
+          <lb ed="#P" n="26"/>cap. 10. Scribitque Plinius, lib. 10, cap. 70,
+          <lb ed="#P" n="27"/>Philoponus, de Anima, fol. 59, col. 3, S. 
+          Tho<lb break="no" ed="#P" n="28"/>mas, de Sensu et sensibili, lect. 14. Hoc 
+          po<lb break="no" ed="#P" n="29"/>sito, quaestio est de modo diffusionis per 
+          me<lb break="no" ed="#P" n="30"/>dium. Avicenna 6, Naturalium, p. 2, cap. de
+          <lb ed="#P" n="31"/>Olfactu, sentit odorem non aliter posse diffundi,
+          <lb ed="#P" n="32"/>quam realiter. Quae fuit sententia Platonis, ut
+          <lb ed="#P" n="33"/>refert Albertus, tractatu 3, cap. 23. 
+          Commen<lb break="no" ed="#P" n="34"/>tator vero ad textum 97, ex alio extremo credit
+          <lb ed="#P" n="35"/>rem odoriferam solum emittere species 
+          inten<lb break="no" ed="#P" n="36"/>tionales, quem sequitur Nyphus.
+        </p>
+        <p xml:id="szdada-y16882-d1e176">
+          <lb ed="#P" n="37"/>2. Primum pronuntiatum. — Secundum.—
+          <lb ed="#P" n="38"/>Hac tamen in re duo habentur certa. Unum
+          <lb ed="#P" n="39"/>qualitatem odoriferam non posse ita diffundi
+          <lb ed="#P" n="40"/>per aerem, aut aquam, ut in eis subjectetur,
+          <lb ed="#P" n="41"/>cum odor non sit activa qualitas, sicut nec
+          <lb ed="#P" n="42"/>color mediumque incapax illius sit, cum in eo
+          <lb ed="#P" n="43"/>requiratur mixtio qualitatum primarum, unde
+          <lb ed="#P" n="44"/>denuo non producitur, nisi ea mixtione posita,
+          <lb ed="#P" n="45"/>ad quam consequitur: cum autem medium ab
+          <lb ed="#P" n="46"/>odorabili immutatur, illa mixtio non 
+          interce<lb break="no" ed="#P" n="47"/>dit: ergo, etc. Alterum est a re odorabili 
+          dif<lb break="no" ed="#P" n="48"/>fundi odorem realiter per medium, quare cum
+          <lb ed="#P" n="49"/>non diffundatur inhaerendo aeri, ut dictum est,
+          <lb ed="#P" n="50"/>oportet ut exhaletur aliqua substantia tenuis
+          <lb ed="#P" n="51"/>ad modum sumi deferens ipsam qualitatem.
+          <lb ed="#P" n="52"/>Atque ita intelligitur Aristoteles 2, de Anima,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>textu 127, dicens aerem pati ab odore, non
+          <lb ed="#P" n="54"/>quod recipiat subjective in se odorem, sed quod
+          <lb ed="#P" n="55"/>per aerem deferatur. Atque hoc evidentissimis
+          <lb ed="#P" n="56"/>experientiis patefit. Primo quia ablata re 
+          odo<lb break="no" ed="#P" n="57"/>rifera medium per multum temporis conservat
+          <lb ed="#P" n="58"/>odorem: non posset autem conservare solas
+          <lb ed="#P" n="59"/>species, quia pendent in conservari ab 
+          objec<lb break="no" ed="#P" n="60"/>tis: ergo manet ipsa qualitas in aliqua tenui
+          <lb ed="#P" n="61"/>substantia. Secundo, saepe non redolet materia
+          <lb ed="#P" n="62"/>odorifera nisi calefaciat, et fumum quemdam,
+          <lb ed="#P" n="63"/>vel halitum spiret, ut patet in thure, ideoque
+          <lb ed="#P" n="64"/>melius odorem percipimus vere, quam hyeme,
+          <lb ed="#P" n="65"/>quia frigus impedit exhalationem. Tertio 
+          ex<lb break="no" ed="#P" n="66"/>perimur odorem involucris conservari, et alias
+          <lb ed="#P" n="67"/>facile difflari, namque sola emissio specierum
+          <lb ed="#P" n="68"/>absque substantiae vaporatione non minueret
+          <lb ed="#P" n="69"/>qualitatem, ut in colore patet, hac enim de
+          <lb ed="#P" n="70"/>causa rosa evaporando marcescit, et poma
+          <lb ed="#P" n="71"/>corrugantur. Quarto manus rem odoriferam
+          <lb ed="#P" n="72"/>attrectans redolet: non ob species solas, ut
+          <lb ed="#P" n="73"/>patet: non ob productum odorem in manibus,
+          <lb ed="#P" n="74"/>ut ex dictis liquet: ergo ob aliquam 
+          substan<lb break="no" ed="#P" n="75"/>tiam odorosam, quae illis adhaesit: unde et
+          <lb ed="#P" n="76"/>abluendo facile odor perditur. Quinto odores
+          <lb ed="#P" n="77"/>nonnunquam plurimum cerebro prosunt, 
+          cu<lb break="no" ed="#P" n="78"/>jus causam reddit Aristoteles, de Sensu et 
+          sen<lb break="no" ed="#P" n="79"/>sibili, capite primo, quia cerebrum frigidum
+          <lb ed="#P" n="80"/>vapore odoro, utpote calido, temperatur, ac
+          <lb ed="#P" n="81"/>fovetur, qua de re Aristoteles ibidem, cap. 2,
+          <lb ed="#P" n="82"/>et sectione 13, problematum, quaestione prima,
+          <lb ed="#P" n="83"/>atque in hoc conveniunt fere auctores: imo
+          <lb ed="#P" n="84"/>propter hanc evaporationem Pythagorici 
+          dixe<lb break="no" ed="#P" n="85"/>runt odorem nutrire, quod Aristoteles 
+          impro<lb break="no" ed="#P" n="86"/>bat eodem lib. de Sensu, cap. 5, nam 
+          substan<lb break="no" ed="#P" n="87"/>tia illa nutritioni idonea non est, neque ad
+          <lb ed="#P" n="88"/>stomachum descendit, unde fabulosum videtur,
+          <lb ed="#P" n="89"/>quia Plinius, lib. 7, cap. 2, refert quosdam ore
+          <lb ed="#P" n="90"/>cassos, odore tantum ali, quem naribus 
+          tra<lb break="no" ed="#P" n="91"/>hunt.
+        </p>
+        <p xml:id="szdada-y16882-d1e301">
+          <lb ed="#P" n="92"/>3. Circa secundam partem tituli diffusionem
+          <lb ed="#P" n="93"/>reale usque ad olfactum alii requirunt, alii 
+          ve<lb break="no" ed="#P" n="94"/>rius non requirunt.—His ita statutis difficultas
+          <lb ed="#P" n="95"/>restat, an ad odorem sentiendum oporteat 
+          il<lb break="no" ed="#P" n="96"/>Ium realem vaporem substantiae pervenire 
+          us<lb break="no" ed="#P" n="97"/>que ad olfactum, nam Avicenna supra, et alii
+          <lb ed="#P" n="98"/>affirmant, D. Thomas, lect. 20, in secundo de
+          <lb ed="#P" n="99"/>Anima, scribit hoc posse quidem contingere
+          <lb ed="#P" n="100"/>aliquando propter vehementiam odoris, non
+          <lb ed="#P" n="101"/>tamen esse necessarium, suflicereque species
+          <lb ed="#P" n="102"/>intentionales. Idem docet in 2, dist. 2. q. 2,
+          <lb ed="#P" n="103"/>art. 2, ad 5, Philoponus 2, de Anima, fol. 63,
+          <lb ed="#P" n="104"/>col. 1 et 2, AEgidius, text. 100, dub. 2, 
+          uter<lb break="no" ed="#P" n="105"/>que Cajetanus et Javellus, denique 
+          Colonien<lb break="no" ed="#P" n="106"/>ses, de Sensu et sensibili, cap. de Odoratu:
+          <lb ed="#P" n="107"/>quae sententia mihi probabilor est, et proba-
+          <pb ed="#P" n="689"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tur primo. Sensatio odoris fit ad longissimam
+          <lb ed="#P" n="2"/>distantiam, de vulture enim scriptores produnt
+          <lb ed="#P" n="3"/>olfacere ad 50 milliaria, non est autem 
+          cre<lb break="no" ed="#P" n="4"/>dibile substantiam odoram ita longe posse 
+          dif<lb break="no" ed="#P" n="5"/>fundi, atque Albertus Magnus 2, de Anima,
+          <lb ed="#P" n="6"/>cap. 25, refert in Graecia, alii apud Trojam,
+          <lb ed="#P" n="7"/>tantam fuisse stragem, ut Tygrides, et 
+          vultu<lb break="no" ed="#P" n="8"/>res odore cadaverum allicerentur ab spatio
+          <lb ed="#P" n="9"/>leucarum 500. Responderi solet tunc quidem
+          <lb ed="#P" n="10"/>deferri exhalationes odoritferas, vento 
+          praeser<lb break="no" ed="#P" n="11"/>tim calido eas conservante, et fovente, sic 
+          e<lb break="no" ed="#P" n="12"/>nim tempore pestis vitiatum aerem pervenire
+          <lb ed="#P" n="13"/>longissime. Sed obstat, quoniam hleet integra
+          <lb ed="#P" n="14"/>cadavera resolverentur in rarissimam 
+          mate<lb break="no" ed="#P" n="15"/>riam, non possent tantum spatium 
+          exhalatio<lb break="no" ed="#P" n="16"/>nibus implere: maxime quia odor versus 
+          om<lb break="no" ed="#P" n="17"/>nem partem in sphaeram funditur. Secundo
+          <lb ed="#P" n="18"/>probatur, quia si odor multiplicaretur realiter
+          <lb ed="#P" n="19"/>usque ad olfactum, species intentionalis illius
+          <lb ed="#P" n="20"/>produceretur solum a vapore naribus proximo,
+          <lb ed="#P" n="21"/>sicque non sentiretur odor existens in objecto
+          <lb ed="#P" n="22"/>praecipuo, unde realis odor difflatur, quod est
+          <lb ed="#P" n="23"/>contra experientiam. Tertio odor est per se
+          <lb ed="#P" n="24"/>primo sensibilis: ergo est productivus 
+          specie<lb break="no" ed="#P" n="25"/>rum ubicumque haeret: ergo illas producet
+          <lb ed="#P" n="26"/>existens in objecto odorifero, atque adeo ad
+          <lb ed="#P" n="27"/>nares usque, si proportionata fuerit distantia.
+          <lb ed="#P" n="28"/>Confirmatur, quia alias nullum esset medium
+          <lb ed="#P" n="29"/>extrinsecum ad sentiendum odorem, 
+          semper<lb break="no" ed="#P" n="30"/>que sentiretur per contactum physicum inter
+          <lb ed="#P" n="31"/>rem odorabilem et olfactum, essetque olfactus
+          <lb ed="#P" n="32"/>quidam tactus, sicut de gustu asseruit 
+          Aristo<lb break="no" ed="#P" n="33"/>teles secundo, de Anima, cap. 10. Ultimo 
+          sen<lb break="no" ed="#P" n="34"/>satio odoris per aquam necessario fit per 
+          spe<lb break="no" ed="#P" n="35"/>cies intentionales, quia exhalatio odorifera
+          <lb ed="#P" n="36"/>non potest in aqua conservari propter 
+          frigidi<lb break="no" ed="#P" n="37"/>tatem et humorem, teste Aristotele, de Sensu
+          <lb ed="#P" n="38"/>et sensibili, cap. 5, ergo, etc.
+        </p>
+        <p xml:id="szdada-y16882-d1e425">
+          <lb ed="#P" n="39"/>4. Diffusio specierum intentionalium odoris
+          <lb ed="#P" n="40"/>ab objecto incipit, sicut et soni.—Superest vero
+          <lb ed="#P" n="41"/>dubium simile ei, quod de sono tractavimus,
+          <lb ed="#P" n="42"/>an species odoris incipiant multiplicari a 
+          prin<lb break="no" ed="#P" n="43"/>cipio a re ipsa odorifera, an vero solum unde
+          <lb ed="#P" n="44"/>cessat multiplicatio odoris realis. Respondetur
+          <lb ed="#P" n="45"/>a principio multiplicari, quod vero simul 
+          ex<lb break="no" ed="#P" n="46"/>haletur substantia tenuis, accidentarium esse:
+          <lb ed="#P" n="47"/>etenim res odorabilis non sentitur per 
+          exhala<lb break="no" ed="#P" n="48"/>tionem ab ipsa distinctam, sed per propriam
+          <lb ed="#P" n="49"/>speciem, quam producit a principio. Rationes
+          <lb ed="#P" n="50"/>etiam factae de sono hic procedunt: 
+          objectio<lb break="no" ed="#P" n="51"/>que in contrarium, quia jam odor in instanti
+          <lb ed="#P" n="52"/>perciperetur contra Aristotelem, de Sensu et
+          <lb ed="#P" n="53"/>sensibili, c. 7, ac contra ipsam experientiam.
+          <lb ed="#P" n="54"/>Sed objectio sicut ibi de sono, ita hic similiter
+          <lb ed="#P" n="55"/>solvenda est: nimirum esse certam sphaeram,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>intra quam res odorifera sua virtute 
+          multipli<lb break="no" ed="#P" n="57"/>care valet species, et intra illam percipi in 
+          in<lb break="no" ed="#P" n="58"/>stanti: esse autem sphaeram aliam, ad quam
+          <lb ed="#P" n="59"/>perveniant species rauone exhalationis 
+          ad<lb break="no" ed="#P" n="60"/>junctae, vel ratione calefactionis rei 
+          odorabi<lb break="no" ed="#P" n="61"/>lis, per quam multiplicatio specierum fit 
+          suc<lb break="no" ed="#P" n="62"/>cessivae, quia exhalatio, et calefactio successive
+          <lb ed="#P" n="63"/>fiunt. Offert se tamen adhuc duplex 
+          argumen<lb break="no" ed="#P" n="64"/>tum: unum quia sensatio odoris perturbatur
+          <lb ed="#P" n="65"/>contrario vento: non fit ergo per 
+          multiplica<lb break="no" ed="#P" n="66"/>tionem specierum intentionalium, quae ita
+          <lb ed="#P" n="67"/>plane non perturbantur, ut de visualibus 
+          li<lb break="no" ed="#P" n="68"/>quet, quibus non obstat agitatio aeris, 
+          quomi<lb break="no" ed="#P" n="69"/>nus per diaphanum propagentur. Alterum,
+          <lb ed="#P" n="70"/>quia odor semper molestus est, aut jucundus:
+          <lb ed="#P" n="71"/>ergo non tantum pervenit ad potentiam per
+          <lb ed="#P" n="72"/>species intentionales. Ad primum dic 
+          quamli<lb break="no" ed="#P" n="73"/>bet agitationem medii, perceptionem 
+          sensibi<lb break="no" ed="#P" n="74"/>lis perturbare, licet non perturbentur species:
+          <lb ed="#P" n="75"/>id tamen minus apparet in visu, quia 
+          immu<lb break="no" ed="#P" n="76"/>tatio visus est magis perfecta, ac minus 
+          mate<lb break="no" ed="#P" n="77"/>rialis. Ad secundum negatur consequentia, ut
+          <lb ed="#P" n="78"/>de visione etiam patet, quae cum pure 
+          inten<lb break="no" ed="#P" n="79"/>tionalis sit, recreat tamen, aut contristat.
+        </p>
+        <p xml:id="szdada-y16882-d1e519">
+          <lb ed="#P" n="80"/>5. Ultima in preesenti capite dubitatio 
+          re<lb break="no" ed="#P" n="81"/>solvitur. — Reliquum est ultimum dubiolum,
+          <lb ed="#P" n="82"/>an ad sentiendum odorem sit simpliciter 
+          ne<lb break="no" ed="#P" n="83"/>cessaria progressio odoriferi vaporis per 
+          ali<lb break="no" ed="#P" n="84"/>quam distantiam. Respondemus hanc saepe 
+          re<lb break="no" ed="#P" n="85"/>quiri propter imperfectionem odoratus, aut
+          <lb ed="#P" n="86"/>rei odorabilis, per se tamen loquendo non esse
+          <lb ed="#P" n="87"/>necessariam, sed sufficere multiplicationem
+          <lb ed="#P" n="88"/>specierum, quod tantum forte voluere 
+          Com<lb break="no" ed="#P" n="89"/>mentator supra, et Venetus, textu 97, adducta
+          <lb ed="#P" n="90"/>experientia cupressi, et quorumdam aliorum
+          <lb ed="#P" n="91"/>corporum, quae longo tempore aeque redolent,
+          <lb ed="#P" n="92"/>ac sine diminutione: non ergo evaporantur,
+          <lb ed="#P" n="93"/>alioquin diminuerentur, ut in plerisque docet
+          <lb ed="#P" n="94"/>experientia. Et haec videtur mens Aristotelis,
+          <lb ed="#P" n="95"/>sectione 12 problematum, quaestion. 10, ubi
+          <lb ed="#P" n="96"/>quaerens, an a re odorabili progrediatur 
+          ali<lb break="no" ed="#P" n="97"/>quid ad sensum, negative concludit, quia alias,
+          <lb ed="#P" n="98"/>inquit, oporteret rem minorem reddi, nunc
+          <lb ed="#P" n="99"/>autem ea, quae odoratissima sunt, eadem 
+          vide<lb break="no" ed="#P" n="100"/>mus durare. Est et alia experientia: nam res
+          <lb ed="#P" n="101"/>odorifera intra aquam sentitur, ubi tamen 
+          ni<lb break="no" ed="#P" n="102"/>hil exhalat. Accedit tandem ratio, sensus enim
+          <lb ed="#P" n="103"/>a solis speciebus immutantur, species autem
+          <lb ed="#P" n="104"/>fieri possunt absque exhalatione, per se 
+          loquen<lb break="no" ed="#P" n="105"/>do, cum non habeant necessariam 
+          connexio<lb break="no" ed="#P" n="106"/>nem.
+        </p>
+        <p xml:id="szdada-y16882-d1e580">
+          <lb ed="#P" n="107"/>6. Oppositio em Aristotele, et D. Thoma. —
+          <lb ed="#P" n="108"/>Explicantur.—Oppones Aristotelem, de Sensu
+          <lb ed="#P" n="109"/>et sensibili, capit. 2, asserentem, organum 
+          ol<lb break="no" ed="#P" n="110"/>factus non debere esse calidum, eo quod odo-
+          <pb ed="#P" n="690"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rabile, cum fumosa evaporatio sit, calidum
+          <lb ed="#P" n="2"/>est: immutatur ergo ab ipso vapore, utpote a
+          <lb ed="#P" n="3"/>dissimili, alioquin ratio non procederet, et
+          <lb ed="#P" n="4"/>cap. 5, docet vaporationem odoris illabi in
+          <lb ed="#P" n="5"/>sensorium divus Thomas etiam, 1 part., 
+          quaes<lb break="no" ed="#P" n="6"/>tion. 78, art. 3, scribit oportere objectum 
+          ol<lb break="no" ed="#P" n="7"/>factus moveri secundum alterationem caloris,
+          <lb ed="#P" n="8"/>ut inspiret odorem. Neuter tamen exigit 
+          va<lb break="no" ed="#P" n="9"/>porationem 5anc ut simpliciter necessariam,
+          <lb ed="#P" n="10"/>sed tantum ut magis conducentem: quia 
+          e<lb break="no" ed="#P" n="11"/>tiam communiter et regulariter fit, necessaria
+          <lb ed="#P" n="12"/>dici potest, maxime in nobis, in quibus 
+          olfac<lb break="no" ed="#P" n="13"/>tus est obtusissimus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

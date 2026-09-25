@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 21</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 21</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="681"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y16716"><!-- t3l3c21 -->
+        <head xml:id="szdada-y16716-Hd1e101">Caput 21</head>
+        <head xml:id="szdada-y16716-Hd1e103" type="question-title">Quomodo, et per quod medium sonus immutet auditum</head>
+        <p xml:id="szdada-y16716-d1e106">
+          <lb ed="#P" n="68"/>CAPUT XXI.
+          <lb ed="#P" n="69"/>QUOMODO, ET PER QUOD MEDIUM SONUS IMMUTET
+          <lb ed="#P" n="70"/>AUDITUM.
+        </p>
+        <p xml:id="szdada-y16716-d1e115">
+          <lb ed="#P" n="71"/>1. Pro posteriori parte tituli resolutio aerem,
+          <lb ed="#P" n="72"/>et ignem esse media idonea diffusioni soni. —
+          <lb ed="#P" n="73"/>Item et aquam. — In hoc capite agendum jam
+          <lb ed="#P" n="74"/>de sono prout est audibilis, de quo duo sunt
+          <lb ed="#P" n="75"/>explicanda. Primum quo modo sonus, qui in
+          <lb ed="#P" n="76"/>longinqua fit, perveniat ad auditum. 
+          Secun<lb break="no" ed="#P" n="77"/>dum, quo medio pervenire possit: atque a
+          <lb ed="#P" n="78"/>secundo incipiendo, ut faciliori. In quovis
+          <lb ed="#P" n="79"/>objecto exterius sensibili postulatur spatium
+          <lb ed="#P" n="80"/>inter ipsum et potentiam, expeditum corpore
+          <lb ed="#P" n="81"/>quolibet impediente actionem, unde in 
+          prae<lb break="no" ed="#P" n="82"/>senti aer, qui rarissimus est, 
+          expeditissi<lb break="no" ed="#P" n="83"/>mum habetur medium, idemque censeo de
+          <lb ed="#P" n="84"/>igne: aquam vero nonnulli: inter quos est
+          <lb ed="#P" n="85"/>Albertus, Summa de homine, tract. de Auditu,
+          <lb ed="#P" n="86"/>quaest. penult., censent ineptam esse ad hoc
+          <lb ed="#P" n="87"/>munus, nec posse per illam sonum pervenire
+          <lb ed="#P" n="88"/>ad auditum: sed oppositum mihi certum est,
+          <lb ed="#P" n="89"/>ac sentit Aristoteles 2, lib. de Anim., text. 79,
+          <lb ed="#P" n="90"/>dicens: Auditur quidem sonus in aere et aqua,
+          <lb ed="#P" n="91"/>et 4. de Hist., c. 8, fatetur pisces sub aqua
+          <lb ed="#P" n="92"/>audire, quod etiam experientia constat, nam
+          <lb ed="#P" n="93"/>strepitu in littore terrentur, ac fugiunt. Neque
+          <lb ed="#P" n="94"/>potest id attribui visioni, quia si astantes 
+          si<lb break="no" ed="#P" n="95"/>leant, non fugiunt: et e contra sub turbida
+          <lb ed="#P" n="96"/>etiam aqua, atque adeo ad videndum inepta,
+          <lb ed="#P" n="97"/>fugiunt propter strepitum. Certe Plinius, l. 1,
+          <lb ed="#P" n="98"/>c. 1, refert, fuisse in piscinis Caesaris pisces
+          <lb ed="#P" n="99"/>adeo perfectum habentes auditum, ut vocati
+          <lb ed="#P" n="100"/>venirent: nos etiam sonum sub aquis editum
+          <lb ed="#P" n="101"/>extra illas audimus: ridiculum autem est 
+          pu<lb break="no" ed="#P" n="102"/>tare in iis eventis sonum deferri per aerem,
+          <lb ed="#P" n="103"/>cum aquis etiam quiescentibus nullaque in eis
+          <lb ed="#P" n="104"/>motione facta, quae aeri locum praebeat, 
+          spe<lb break="no" ed="#P" n="105"/>cies soni per illas diffunduntur: sunt ergo 
+          ap<lb break="no" ed="#P" n="106"/>tum medium. Accedit tandem ratio, tum quia
+          <lb ed="#P" n="107"/>habent aquae suflicientem raritatem, tum quia
+          <pb ed="#P" n="682"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>probavimus esse subjectum soni: ergo a 
+          for<lb break="no" ed="#P" n="2"/>tiori medium illius erunt.
+        </p>
+        <p xml:id="szdada-y16716-d1e206">
+          <lb ed="#P" n="3"/>2. Contra proxime dicta unus Aristotelis
+          <lb ed="#P" n="4"/>locus. — Ilius interpretatio.—Alter temtus. —
+          <lb ed="#P" n="5"/>Sed obstare videntur huic veritati duo 
+          Aristo<lb break="no" ed="#P" n="6"/>telis textus. Primus est 76, ubi differentiam
+          <lb ed="#P" n="7"/>ponit inter auditum et olfactum, quod medium
+          <lb ed="#P" n="8"/>auditus sit aer, olfactus vero tum aer, tum
+          <lb ed="#P" n="9"/>aqua: Commentator ibidem, aliique 
+          respon<lb break="no" ed="#P" n="10"/>dent loqui Aristotelem de medio recipiente
+          <lb ed="#P" n="11"/>objectum secundum esse reale, quae expositio
+          <lb ed="#P" n="12"/>nobis probari non potest, qui ostendimus 
+          so<lb break="no" ed="#P" n="13"/>num recipiin aqua realiter: rursus non consonat
+          <lb ed="#P" n="14"/>litterae, loquitur siquidem Aristoteles de 
+          im<lb break="no" ed="#P" n="15"/>mutatione medii, quae deservit sensationi: haec
+          <lb ed="#P" n="16"/>autem est intentionalis. Adde quod odor 
+          rea<lb break="no" ed="#P" n="17"/>liter in aqua, aut in aere non recipitur, sed in
+          <lb ed="#P" n="18"/>exhalatione odorifera, ut infra dicemus. 
+          Ali<lb break="no" ed="#P" n="19"/>ter ergo respondet Cajetanus ibi cum Simplicio
+          <lb ed="#P" n="20"/>aerem poni a Philosopho medium auditus 
+          tan<lb break="no" ed="#P" n="21"/>quam omnium aptissimum. Atque hoc modo
+          <lb ed="#P" n="22"/>nulla esset differentia, solus enim aer est 
+          me<lb break="no" ed="#P" n="23"/>dium aptissimum odoratus, maxime respectu
+          <lb ed="#P" n="24"/>animantium, qui respirando olfaciunt, ut textu
+          <lb ed="#P" n="25"/>octavo dicitur. Praeterea medium visus non
+          <lb ed="#P" n="26"/>ponitur aer, sed perspicuum in communi, 
+          li<lb break="no" ed="#P" n="27"/>cet aer tantum sit aptissimus inter perspicua.
+          <lb ed="#P" n="28"/>Locus sane difficilis est, atque cum de mente
+          <lb ed="#P" n="29"/>Aristotelis alias constet, nec commodior 
+          oc<lb break="no" ed="#P" n="30"/>currat expositio, dicendum, ideo aerem 
+          sim<lb break="no" ed="#P" n="31"/>pliciter poni medium auditus, quia simpliciter
+          <lb ed="#P" n="32"/>necessarius est, ac sine quo auditio non fieret,
+          <lb ed="#P" n="33"/>illo saltem qui intra aures existit. Unde sub
+          <lb ed="#P" n="34"/>aquis tamdiu quis audiet, quamdiu in aures
+          <lb ed="#P" n="35"/>non irrepent: ad olfaciendum vero neque aer
+          <lb ed="#P" n="36"/>necessarius omnino est, neque aqua impedit
+          <lb ed="#P" n="37"/>omnino: intercedit ergo differentia aliqua.
+          <lb ed="#P" n="38"/>Addi etiam potest per aquam difticile sonum
+          <lb ed="#P" n="39"/>percipi, medium autem dici, per quod fit 
+          com<lb break="no" ed="#P" n="40"/>mode sensatio, fieri vero odorationem per 
+          ae<lb break="no" ed="#P" n="41"/>rem et aquam satis commode, praesertim ab
+          <lb ed="#P" n="42"/>aquatilibus. Secundo in text. 82, ait 
+          Aristote<lb break="no" ed="#P" n="43"/>les sonativum esse mctivum acris, indicans
+          <lb ed="#P" n="44"/>plane solum aerem capacem esse recipiendi
+          <lb ed="#P" n="45"/>soni. Respondetur Aristotelem nondicere aerem
+          <lb ed="#P" n="46"/>esse adaequatum soni subjectum, vel medium,
+          <lb ed="#P" n="47"/>sed principale, magisque usitatum, quia 
+          nul<lb break="no" ed="#P" n="48"/>lum est commune nomen significans 
+          subjec<lb break="no" ed="#P" n="49"/>tum adaequatum, itaque potest sonus audiri
+          <lb ed="#P" n="50"/>per aerem ignem et aquam, et consequenter
+          <lb ed="#P" n="51"/>per alia etiam corpora mixta, quae ejusdem 
+          ra<lb break="no" ed="#P" n="52"/>ritatis erunt.
+        </p>
+        <p xml:id="szdada-y16716-d1e318">
+          <lb ed="#P" n="53"/>3. Discutitur, an cetera corpora quamnvis
+          <lb ed="#P" n="54"/>densissima sint soni medium. — Judicium 
+          auc<lb break="no" ed="#P" n="55"/>Lloris. — An vero per terram, et densissima
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>alia corpora possimus audire,difficultatem 
+          ha<lb break="no" ed="#P" n="57"/>bet, nam experientia id probare videtur: nam
+          <lb ed="#P" n="58"/>intra cubiculum densissimis, ac crassissimis
+          <lb ed="#P" n="59"/>parietibus undique septum, audietur externus
+          <lb ed="#P" n="60"/>sonus, maxime si vel leviter pulsetur paries.
+          <lb ed="#P" n="61"/>Oppositum nihilominus habet communis 
+          sen<lb break="no" ed="#P" n="62"/>tentia: ad experientiamque adductam 
+          respon<lb break="no" ed="#P" n="63"/>dent quidam, corporibus nunquam deesse 
+          po<lb break="no" ed="#P" n="64"/>ros aerem continentes, qui species recipiat :
+          <lb ed="#P" n="65"/>sed haec solutio difficilis creditu est, quid enim
+          <lb ed="#P" n="66"/>vetat dari corpus sine poris, ut purum terrae
+          <lb ed="#P" n="67"/>elementum ? Cajetanus ergo, quem moderni
+          <lb ed="#P" n="68"/>quidam sequuntur, non negat possibile corpus
+          <lb ed="#P" n="69"/>absque poris, raro tamen, aut nunquam apud
+          <lb ed="#P" n="70"/>nos tale medium inveniri, ac si inveniatur 
+          ne<lb break="no" ed="#P" n="71"/>quaquam per illud fieri posse auditionem, seu
+          <lb ed="#P" n="72"/>specierum soni diffusionem, quae quidem 
+          so<lb break="no" ed="#P" n="73"/>Iutio satisfaceret utcumque experientiae, si 
+          af<lb break="no" ed="#P" n="74"/>ferretur ratio ad suadendum impossibile esse
+          <lb ed="#P" n="75"/>sonum audiri, nisi aer extrinsecus cum 
+          intrin<lb break="no" ed="#P" n="76"/>seco continuetur: sola vero affertur 
+          Philoso<lb break="no" ed="#P" n="77"/>phi auctoritas asserentis, aquam et aerem
+          <lb ed="#P" n="78"/>soni medium esse, qua etiam, si efficax ad
+          <lb ed="#P" n="79"/>rem esset, ignis excluderetur, quod tamen esse
+          <lb ed="#P" n="80"/>falsum jam ostendimus. Aristoteles ergo 
+          me<lb break="no" ed="#P" n="81"/>dia usitata, et communia proposuit, rariora
+          <lb ed="#P" n="82"/>alia non exclusit. Itaque cum ratio in 
+          contra<lb break="no" ed="#P" n="83"/>rium non producatur, experientiaque faveat
+          <lb ed="#P" n="84"/>parti asserenti sonum audiri posse per densum
+          <lb ed="#P" n="85"/>corpus, ea sane videtur admittenda. Adde
+          <lb ed="#P" n="86"/>quod soni immutatio per actionem realem fit:
+          <lb ed="#P" n="87"/>sicut ergo calor ob hanc rationem aterare 
+          so<lb break="no" ed="#P" n="88"/>Iet medium densum magis, vel minus, juxta
+          <lb ed="#P" n="89"/>capacitatem medii, ita et sonus idipsum 
+          pote<lb break="no" ed="#P" n="90"/>rit. Probabiliter quidem ista dicuntur, sed
+          <lb ed="#P" n="91"/>quia urgentes etiam rationes hic desiderantur,
+          <lb ed="#P" n="92"/>assentiendum opinioni communiori, pro qua
+          <lb ed="#P" n="93"/>ratio probabilissima se offert. Nam sonus 
+          suc<lb break="no" ed="#P" n="94"/>cessivus est, ac citissime transit, unde medium
+          <lb ed="#P" n="95"/>requirit citissime penetrabile, cujusmodi non
+          <lb ed="#P" n="96"/>est densum corpus, ut patet etiam ex 
+          ad<lb break="no" ed="#P" n="97"/>ducto exemplo, calor enim, qui summe est 
+          ac<lb break="no" ed="#P" n="98"/>tivus, tarde parietem pervadit. Restabat 
+          du<lb break="no" ed="#P" n="99"/>bium aliud, an per vacuum possit sonus 
+          im<lb break="no" ed="#P" n="100"/>mutare auditum, cui simile resolvimus in cap.
+          <lb ed="#P" n="101"/>16, n. 8.
+        </p>
+        <p xml:id="szdada-y16716-d1e429">
+          <lb ed="#P" n="102"/>4. Pro priore tituli parte varie opiniones de
+          <lb ed="#P" n="103"/>medio soni. — Cognito medio, investigare 
+          su<lb break="no" ed="#P" n="104"/>perest, quomodo per illud sonus perveniat ad
+          <lb ed="#P" n="105"/>auditum, causando ne in medio pleno aliquid,
+          <lb ed="#P" n="106"/>atque in auditu ipso, an non? Conveniunt 
+          qui<lb break="no" ed="#P" n="107"/>dem omnes in organo potentiae auditivae 
+          pro<lb break="no" ed="#P" n="108"/>duci species soni, sicut in oculo species coloris;
+          <lb ed="#P" n="109"/>de medio autem non ita, quidam putant non
+          <lb ed="#P" n="110"/>diffundi sonum per medium intentionaliter ,
+          <pb ed="#P" n="683"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sed realiter, usque ad intrinsecum aerem 
+          au<lb break="no" ed="#P" n="2"/>ditus. Ita opinari videtur Albertus, Summa de
+          <lb ed="#P" n="3"/>homine, quaest. de Auditu, referens 
+          Avicen<lb break="no" ed="#P" n="4"/>nam 6, Naturalium, favet Aristoteles, secundo,
+          <lb ed="#P" n="5"/>de Anima, text. 81, dum ait sonativum esse,
+          <lb ed="#P" n="6"/>quod facit audire, eo quod moveat continue
+          <lb ed="#P" n="7"/>aerem usque ad auditum, et, textu 82, addit
+          <lb ed="#P" n="8"/>tunc internum aerem moveri atque agitari,
+          <lb ed="#P" n="9"/>quo non obscure indicat realem 
+          transmutatio<lb break="no" ed="#P" n="10"/>nem. Alii volunt realem sonum per aerem
+          <lb ed="#P" n="11"/>diffundi, non vero per aquam, eo quod inepta
+          <lb ed="#P" n="12"/>sit ad illum recipiendum, et nihilominus posse
+          <lb ed="#P" n="13"/>auditum immutari per illam utique 
+          intentiona<lb break="no" ed="#P" n="14"/>liter. Alii aiunt sonum per aerem tantum 
+          in<lb break="no" ed="#P" n="15"/>tentionaliter diffundi, quia credunt solum esse
+          <lb ed="#P" n="16"/>subjective in corpore sonante, quod tamen jam
+          <lb ed="#P" n="17"/>supra exclusum est.
+        </p>
+        <p xml:id="szdada-y16716-d1e492">
+          <lb ed="#P" n="18"/>5. Assertio probatur. — Satisfit Aristoteli
+          <lb ed="#P" n="19"/>in num. praecedenti. — Unde dico primo, 
+          so<lb break="no" ed="#P" n="20"/>num multiplicari posse etiam intentionaliter
+          <lb ed="#P" n="21"/>per aerem et aquam: probatur experientia.
+          <lb ed="#P" n="22"/>Primo, nam contingit adeo longe rem 
+          sonan<lb break="no" ed="#P" n="23"/>tem audiri, ut incredibile sit realem sonum
+          <lb ed="#P" n="24"/>ad aures usque pervenire, cum non nisi 
+          vio<lb break="no" ed="#P" n="25"/>lenti, et sensibili aeris motione excitetur,
+          <lb ed="#P" n="26"/>quam tamen nullam in similibus eventis 
+          per<lb break="no" ed="#P" n="27"/>cipimus: sola ergo tunc fit intentionalis 
+          diffu<lb break="no" ed="#P" n="28"/>sio specierum, saltem propius aures. Secundo
+          <lb ed="#P" n="29"/>si sonus realiter pervenit usque ad aures, vel
+          <lb ed="#P" n="30"/>idem numero pervenit, qui prima aeris 
+          percus<lb break="no" ed="#P" n="31"/>sione fuit genitus, vel ille, qui per successivam
+          <lb ed="#P" n="32"/>partium aeris agitationem generatur prope
+          <lb ed="#P" n="33"/>auditum. Primum impossibile videtur: cum
+          <lb ed="#P" n="34"/>idem sonus audiatur in locis distantibus, non
+          <lb ed="#P" n="35"/>posset autem una numero pars aeris ad tot
+          <lb ed="#P" n="36"/>loca, tamque abjuncta deferri. Alterum 
+          quo<lb break="no" ed="#P" n="37"/>que falsum est, nam si ille tantum sonus qui
+          <lb ed="#P" n="38"/>in aere fit juxta aures imprimeret speciem in
+          <lb ed="#P" n="39"/>auditum, profecto sonus ille audiretur: 
+          conse<lb break="no" ed="#P" n="40"/>quens vero est contra experientiam, omnes
+          <lb ed="#P" n="41"/>quippe eumdem sonum, eumdemque ubi sit
+          <lb ed="#P" n="42"/>locum percipiunt. Tertio sonus est per se 
+          pri<lb break="no" ed="#P" n="43"/>mo, et proprie sensibilis: igitur ex se 
+          immu<lb break="no" ed="#P" n="44"/>tat auditum, etiamsi longe distet dummodo
+          <lb ed="#P" n="45"/>obstacula non interjaceant, ut patet etiam in
+          <lb ed="#P" n="46"/>coloribus: ergo potest sonus species suas per
+          <lb ed="#P" n="47"/>aerem multiplicare. Neque vero hoc negasset
+          <lb ed="#P" n="48"/>Aristoteles: nam quod ait sonativum movere
+          <lb ed="#P" n="49"/>aerem usque ad auditum, non conficit de 
+          ra<lb break="no" ed="#P" n="50"/>tione illius esse, quod illuc realiter pertingat,
+          <lb ed="#P" n="51"/>sed tantum esse oportere immutativum 
+          audi<lb break="no" ed="#P" n="52"/>tus modo aliquo.
+        </p>
+        <p xml:id="szdada-y16716-d1e570">
+          <lb ed="#P" n="53"/>6. Secunda assertio. — Sed nunc 
+          exponen<lb break="no" ed="#P" n="54"/>dum superest quando incipiat sonus sui 
+          spe<lb break="no" ed="#P" n="55"/>cies multiplicare per aerem: dico ergo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>secundo sonum, simul ac esse incipit, 
+          multi<lb break="no" ed="#P" n="57"/>plicare species intentionales per medium. Est
+          <lb ed="#P" n="58"/>contra non paucos asserentes, dum sonus 
+          rea<lb break="no" ed="#P" n="59"/>liter per medium producitur (producitur 
+          au<lb break="no" ed="#P" n="60"/>tem ubicumque realis medii motio impetuose
+          <lb ed="#P" n="61"/>causatur) non diffundi intentionales illius 
+          spe<lb break="no" ed="#P" n="62"/>cies, sed harum diffusionem inde inchoari, ubi
+          <lb ed="#P" n="63"/>desinit realis diffusio. Ita opinantur Albertus,
+          <lb ed="#P" n="64"/>secundo de Anima, tractatu 3, cap. 18 et 19,
+          <lb ed="#P" n="65"/>Venetus, textu 78, Thienensis, text. 79 et 82,
+          <lb ed="#P" n="66"/>JEgidius, textu 64, indicantque Cajetanus,
+          <lb ed="#P" n="67"/>sanctus Thomas et Alexandrinus. Nostram vero
+          <lb ed="#P" n="68"/>conclusionem docuit S. Thomas, 1 p., quaest. 77,
+          <lb ed="#P" n="69"/>art. 1, et quaest. TS. art. 3, in 9, dist. 94.
+          <lb ed="#P" n="70"/>art. 2, quaest. 1. Suadentque argumenta facta
+          <lb ed="#P" n="71"/>pro priori assertione. Audimus enim sonum
+          <lb ed="#P" n="72"/>in parte, quia incipit, verbi gratia, in 
+          cym<lb break="no" ed="#P" n="73"/>balo, aut ore animantis: is ergo sonus 
+          impri<lb break="no" ed="#P" n="74"/>mit species suas in auribus, sonus enim 
+          cau<lb break="no" ed="#P" n="75"/>satus in ultima parte aeris potuit quidem sui
+          <lb ed="#P" n="76"/>speciem producere, non tamen alterius, cum
+          <lb ed="#P" n="77"/>ostensum sit cap. 2, speciem repraesentativam
+          <lb ed="#P" n="78"/>objecti totius, et singularum partium esse 
+          dis<lb break="no" ed="#P" n="79"/>tinctas, saltem partialiter, et in praesenti 
+          os<lb break="no" ed="#P" n="80"/>tenditur, tum quia ipse sonus distinctus est:
+          <lb ed="#P" n="81"/>ergo et species: tum quia sonus a principio
+          <lb ed="#P" n="82"/>est objectum per se sensibile: ergo a principio
+          <lb ed="#P" n="83"/>multiplicat species, cum sit agens naturale:
+          <lb ed="#P" n="84"/>patetque a simili in colore. Confirmatur. Nam
+          <lb ed="#P" n="85"/>primus sonus aliis etiam non multiplicatis
+          <lb ed="#P" n="86"/>audibilis esset, aliorum vero multiplicatio
+          <lb ed="#P" n="87"/>est illi per accidens: est ergo per se 
+          diffu<lb break="no" ed="#P" n="88"/>sivus specierum: ergo a principio eas 
+          diffun<lb break="no" ed="#P" n="89"/>dit.
+        </p>
+        <p xml:id="szdada-y16716-d1e655">
+          <lb ed="#P" n="90"/>7. Prima objectio. — Vera solutio. — Sed
+          <lb ed="#P" n="91"/>contra hanc doctrinam objicies primo: sonus
+          <lb ed="#P" n="92"/>est qualitas successiva: ergo species non 
+          pro<lb break="no" ed="#P" n="93"/>ducit. Patet consequentia, quia vel produceret
+          <lb ed="#P" n="94"/>per sui partes praeteritas, vel per futuras, 
+          quo<lb break="no" ed="#P" n="95"/>rum neutrum stare potest, cum neutrae partes
+          <lb ed="#P" n="96"/>existant; vel produceret per continuativa 
+          in<lb break="no" ed="#P" n="97"/>divisibilia, et hoc etiam falsum videtur, quia
+          <lb ed="#P" n="98"/>jam illae tantum partes audirentur. Quidam
+          <lb ed="#P" n="99"/>concedunt produci species per indivisibilia
+          <lb ed="#P" n="100"/>illa, audirique sonum secundum illorum 
+          al<lb break="no" ed="#P" n="101"/>quod tantummodo, sed hoc contra 
+          experien<lb break="no" ed="#P" n="102"/>tiam est, percipimus enim integram vocem,
+          <lb ed="#P" n="103"/>quae successive fit, et sonum continue 
+          duran<lb break="no" ed="#P" n="104"/>tem: ergo totius integri soni producitur 
+          spe<lb break="no" ed="#P" n="105"/>cies. Dicendum ergo, totum sonum producere
+          <lb ed="#P" n="106"/>species tum per partes dividuas, tum per 
+          indi<lb break="no" ed="#P" n="107"/>viduas suo modo. Itaque sicut sonus successive
+          <lb ed="#P" n="108"/>fit, ita intelligendum successive immutare 
+          po<lb break="no" ed="#P" n="109"/>tentiam: et hac ratione nihil obstare 
+          quomi<lb break="no" ed="#P" n="110"/>nus res successiva agat per partes suas: nam
+          <pb ed="#P" n="684"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sicut habent verum esse reale, sed in tempore:
+          <lb ed="#P" n="2"/>ita et in tempore, sui producunt species.
+        </p>
+        <p xml:id="szdada-y16716-d1e712">
+          <lb ed="#P" n="3"/>8. Secunda objectio. — Secundo contra 
+          se<lb break="no" ed="#P" n="4"/>cundam conclusionem oppones. Si sonus 
+          mul<lb break="no" ed="#P" n="5"/>tiplicaret species intentionales a principio, in
+          <lb ed="#P" n="6"/>instanti audiretur, cum ea multiplicatio 
+          abs<lb break="no" ed="#P" n="7"/>que resistentia contrarii fiat, ac patet in 
+          visibi<lb break="no" ed="#P" n="8"/>Ibus speciebus. Nonnulli, ut videre est apud
+          <lb ed="#P" n="9"/>Venetum 2, de Anima, text. 83, huic 
+          objec<lb break="no" ed="#P" n="10"/>tioni cedunt: attamen videntur contra 
+          expe<lb break="no" ed="#P" n="11"/>rientiam sentire: auditur enim sonus 
+          trans<lb break="no" ed="#P" n="12"/>acto tempore non minimo, ut quando in sylva
+          <lb ed="#P" n="13"/>ligna caeduntur, longe prius audit sonum qui
+          <lb ed="#P" n="14"/>caedit, quam qui late distat: fulgur etiam
+          <lb ed="#P" n="15"/>multo ante ferit oculos, quam tonitruum 
+          au<lb break="no" ed="#P" n="16"/>diatur, cum tamen tonitruum prius erumpat:
+          <lb ed="#P" n="17"/>cujus rei ratio nulla est alia, quam quia 
+          spe<lb break="no" ed="#P" n="18"/>cies audibiles multiplicantur successive.
+        </p>
+        <p xml:id="szdada-y16716-d1e750">
+          <lb ed="#P" n="19"/>9. Pro vera responsione notatio tripley. —
+          <lb ed="#P" n="20"/>Quare pro responsione notandum, cum sonus
+          <lb ed="#P" n="21"/>incipiat per ultimum non esse, illius actionem,
+          <lb ed="#P" n="22"/>quae simul cum illo naturali necessitate incipit,
+          <lb ed="#P" n="23"/>eodem modo incipere debere: alioquin si per
+          <lb ed="#P" n="24"/>primum sui esse inchoaretur, vel ante, vel
+          <lb ed="#P" n="25"/>post sonum inciperet. Secundo est 
+          observan<lb break="no" ed="#P" n="26"/>dum magnitudinem rei sensibilis plurimum
+          <lb ed="#P" n="27"/>conducere ad multiplicandas longius species,
+          <lb ed="#P" n="28"/>sicut etiam in aliis agentibus mulitudo formae
+          <lb ed="#P" n="29"/>eorum sphaeram activitatis auget: atque 
+          expe<lb break="no" ed="#P" n="30"/>rientia etiam constat, majus luminosum ex
+          <lb ed="#P" n="31"/>loco remotiore immutare visum efficacius,
+          <lb ed="#P" n="32"/>quam minus. Tertio est notandum distinguere
+          <lb ed="#P" n="33"/>oportere in sono quantitatem (ut ita dicam)
+          <lb ed="#P" n="34"/>ex parte ipsius ab ea, quae provenit ex parte
+          <lb ed="#P" n="35"/>subjecti, non enim sunt eaedem, sic sonus, qui
+          <lb ed="#P" n="36"/>fit in una, et eadem parte aeris, potest esse
+          <lb ed="#P" n="37"/>major, vel minor per modum intensionis, pro
+          <lb ed="#P" n="38"/>ratione majoris, vel minoris ictus, vel causae
+          <lb ed="#P" n="39"/>alterius, et hanc voco quantitatem ex parte
+          <lb ed="#P" n="40"/>soni. Est etiam sonus major per modum 
+          ex<lb break="no" ed="#P" n="41"/>tensionis, quo per partes plures aeris 
+          diffun<lb break="no" ed="#P" n="42"/>ditur, et utraque magnitudo conducit ad 
+          sphae<lb break="no" ed="#P" n="43"/>ram activitatis augendam, ut ex dictis liquet.
+        </p>
+        <p xml:id="szdada-y16716-d1e807">
+          <lb ed="#P" n="44"/>10. Vera responsio. —Dico ergo, considerari
+          <lb ed="#P" n="45"/>posse certam sphaeram, intra quam sonus 
+          in<lb break="no" ed="#P" n="46"/>tensivae solum magnitudinis multiplicet 
+          spe<lb break="no" ed="#P" n="47"/>cies, etiamsi sit minimae extensionis: intra
+          <lb ed="#P" n="48"/>talem ergo sphaeram totam, quae curta est,
+          <lb ed="#P" n="49"/>mulitiplicat sonus simulac incipit sui species,
+          <lb ed="#P" n="50"/>possetque simul ab eo audiri, qui intra 
+          sphae<lb break="no" ed="#P" n="51"/>ram illam existeret. Ac certe docere videtur
+          <lb ed="#P" n="52"/>experientia, intra parvam distantiam, simulac
+          <lb ed="#P" n="53"/>oculus videt contactum corporum sonantium,
+          <lb ed="#P" n="54"/>percipi ab auribus sonum, sicque intra 
+          eam<lb break="no" ed="#P" n="55"/>dem sphaeram tam cito audiri sonum distan-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tem, quam propinquum: at vero in spatio
+          <lb ed="#P" n="57"/>amplo species soni non poterunt propagari
+          <lb ed="#P" n="58"/>longius, donec sonus ipse plurimum etiam
+          <lb ed="#P" n="59"/>multiplicetur extensive: et quia talis 
+          multipli<lb break="no" ed="#P" n="60"/>catio successive fit, species quoque ad tantam
+          <lb ed="#P" n="61"/>distantiam non nisi transacto aliquo tempore
+          <lb ed="#P" n="62"/>perveniunt, atque ita salvae sunt dictae 
+          expe<lb break="no" ed="#P" n="63"/>rientiae, intelligiturque Aristoteles, de Sensu
+          <lb ed="#P" n="64"/>et sensibili, capit. 7, ubi ait sonum prius 
+          im<lb break="no" ed="#P" n="65"/>mutare medium, quam auditum.
+        </p>
+        <p xml:id="szdada-y16716-d1e859">
+          <lb ed="#P" n="66"/>11. Difficultas una ex dicta responsione. —
+          <lb ed="#P" n="67"/>Difficultas altera. — Ex hac vero solutione
+          <lb ed="#P" n="68"/>insurgunt difficultates duae. Prima est sequi
+          <lb ed="#P" n="69"/>ex dictis actionem audiendi posse incipere
+          <lb ed="#P" n="70"/>per ultimum non esse, atque adeo successive
+          <lb ed="#P" n="71"/>fieri, quod videtur contra rationem actus 
+          co<lb break="no" ed="#P" n="72"/>gnoscitivi et immanentis. Secunda est, datam
+          <lb ed="#P" n="73"/>solutionem habere locum non posse: nam cum
+          <lb ed="#P" n="74"/>sonus successivus sit, dum pars posterior fit,
+          <lb ed="#P" n="75"/>praecedens jam non existit: nunquam ergo
+          <lb ed="#P" n="76"/>crescet sonus extensive. Et confirmatur: nam
+          <lb ed="#P" n="77"/>si prior pars soni non prius auditur, plane
+          <lb ed="#P" n="78"/>transacto tempore aliquo audiri non poterit,
+          <lb ed="#P" n="79"/>quia cum successiva sit, minime perseverat.
+        </p>
+        <p xml:id="szdada-y16716-d1e892">
+          <lb ed="#P" n="80"/>12. Ad primam difficultatem. — Ad 
+          secun<lb break="no" ed="#P" n="81"/>dam. — Ad primam difhlicultatem concedo 
+          se<lb break="no" ed="#P" n="82"/>quelam, nam actus proportionantur objectis,
+          <lb ed="#P" n="83"/>et praesertim in externis sensibus, qui ab 
+          ob<lb break="no" ed="#P" n="84"/>jectis suis maxime dependent. Haque sicut
+          <lb ed="#P" n="85"/>objectum auditus successive fit, successive
+          <lb ed="#P" n="86"/>etiam cognoscitur, ac cum ipso successive 
+          mul<lb break="no" ed="#P" n="87"/>tiplicato, continue multiplicantur species. Ad
+          <lb ed="#P" n="88"/>secundam respondetur sonum non esse 
+          quali<lb break="no" ed="#P" n="89"/>tatem adeo successivam, quin in eadem parte
+          <lb ed="#P" n="90"/>durare possit aliquo tempore, sed successivam
+          <lb ed="#P" n="91"/>dici, quia successive fit, et durat solum, quo
+          <lb ed="#P" n="92"/>tempore durat successiva factio illius, nam si
+          <lb ed="#P" n="93"/>consideremus sonum secundum magnitudinem
+          <lb ed="#P" n="94"/>intensionis, in eadem parte successive 
+          acqui<lb break="no" ed="#P" n="95"/>rit totam perfectionem, non tamen ibi 
+          perma<lb break="no" ed="#P" n="96"/>net, sed statim incipit corrumpi, brevique
+          <lb ed="#P" n="97"/>tempore ex toto deficit: attamen quo tempore
+          <lb ed="#P" n="98"/>durat multiplicari potest extensive, ac fieri
+          <lb ed="#P" n="99"/>sufficiens ad multiplicandas longius species.
+          <lb ed="#P" n="100"/>Ad confirmationem quidam dicunt, species
+          <lb ed="#P" n="101"/>soni conservari aliquantulum post desitionem
+          <lb ed="#P" n="102"/>soni, sed hoc impossibile est, quoniam species
+          <lb ed="#P" n="103"/>illa pendent in conservari a sono, et si 
+          ali<lb break="no" ed="#P" n="104"/>quanto tempore manerent, sonojam corrupto,
+          <lb ed="#P" n="105"/>semper possent conservari, quod est contra
+          <lb ed="#P" n="106"/>experientiam: dicendum est ergo, species
+          <lb ed="#P" n="107"/>soni tamdiu durare, quamdiu sonus ipse, atque
+          <lb ed="#P" n="108"/>intra id tempus quo durant, audiri posse, et
+          <lb ed="#P" n="109"/>non ultra: simile quippiam resolvimus 
+          supe<lb break="no" ed="#P" n="110"/>rius cap. 12, n. 3.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

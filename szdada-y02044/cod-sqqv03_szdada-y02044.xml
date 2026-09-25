@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="81"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y02044"><!-- t2l1c12 -->
+        <head xml:id="szdada-y02044-Hd1e101">Caput 12</head>
+        <head xml:id="szdada-y02044-Hd1e103" type="question-title">Utrum dies naturales creationis mundi re ipsa sex fuerint, sicut numerantur in genesi</head>
+        <p xml:id="szdada-y02044-d1e106">
+          <lb ed="#P" n="36"/>CAPUT XII.
+          <lb ed="#P" n="37"/>UTRUM DIES NATURALES CREATIONIS MUNDI RE
+          <lb ed="#P" n="38"/>IPSA SEX FUERINT, SICUT NUMERANTUR IN 
+          GE<lb break="no" ed="#P" n="39"/>NESI.
+        </p>
+        <p xml:id="szdada-y02044-d1e117">
+          <lb ed="#P" n="40"/>1. Prima ogunio negans duplicique via 
+          pro<lb break="no" ed="#P" n="41"/>posita. — Primo via defenditur a Cajetano. —
+          <lb ed="#P" n="42"/>PFundamentum. ejus ez Genese. — Aliqui 
+          catho<lb break="no" ed="#P" n="43"/>lici scriptores, licet fateantur Moysem, in
+          <lb ed="#P" n="44"/>cap. 1. Gen., locutum esse de die naturali,
+          <lb ed="#P" n="45"/>nihilominus negant opera ibi narrata esse
+          <lb ed="#P" n="46"/>facta sex diebus naturalibus, sicut verba 
+          Ge<lb break="no" ed="#P" n="47"/>nesis sonare videntur; sed dicunt omnia esse
+          <lb ed="#P" n="48"/>facta intra unum diem ; recenseri autem ac
+          <lb ed="#P" n="49"/>si essent sex diebus facta, non quia ita facta
+          <lb ed="#P" n="50"/>sint, sed quia si per moram sex dierum fierent,
+          <lb ed="#P" n="51"/>ita essent distribuenda. Haec autem opinio
+          <lb ed="#P" n="52"/>duobus modis excogitata est. Prior convenit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>cum Augustino in hoc: quod omnia ponit 
+          si<lb break="no" ed="#P" n="54"/>mul in primo instanti creationis facta, 
+          solum<lb break="no" ed="#P" n="55"/>que differt in explicatione dierum, quia non
+          <lb ed="#P" n="56"/>explicat de diebus spiritualibus, sed de diebus
+          <lb ed="#P" n="57"/>naturalibus et sensibilibus. Dicit tamen non
+          <lb ed="#P" n="58"/>fuisse sex, sed unum sexies repetitum per
+          <lb ed="#P" n="59"/>comparationem ad res conditas. Et hanc 
+          opi<lb break="no" ed="#P" n="60"/>nionem defendit Cajetanus, Genes. 1, in 
+          expli<lb break="no" ed="#P" n="61"/>catione primi diei, in fine, et in initiocapitis 2.
+          <lb ed="#P" n="62"/>Fundatur praecipue in illis verbis cap. 2: 7stee
+          <lb ed="#P" n="63"/>sunt generationes ceeli et terre, quando creata
+          <lb ed="#P" n="64"/>sunt in die, quo fecit Dominus celum et 
+          ter<lb break="no" ed="#P" n="65"/>ram, et omne virgultum agri, etc., ubi primum
+          <lb ed="#P" n="66"/>ponderat verbum illud, in die quo, nam inde
+          <lb ed="#P" n="67"/>colligit fecisse Deum coelum et terram, in uno
+          <lb ed="#P" n="68"/>die, quae fuit etiam ponderatio Augustini, lib.
+          <lb ed="#P" n="69"/>5, Genes., a principio, et aliis multis locis:
+          <lb ed="#P" n="70"/>secundo ponderat Cajetanus illa verba, et omne
+          <lb ed="#P" n="71"/>virgultum agri, per quae declarari putat loqui
+          <lb ed="#P" n="72"/>Moysem de coelo et terra non nudis et 
+          infor<lb break="no" ed="#P" n="73"/>mibus, sed cum toto ornatu, quem per sex dies
+          <lb ed="#P" n="74"/>acceperunt, ac denique prout includunt non
+          <lb ed="#P" n="75"/>tantum simplicia corpora, sed etiam mixta,
+          <lb ed="#P" n="76"/>nam virgulta agri mixta sunt; unde 
+          ulte<lb break="no" ed="#P" n="77"/>rius infert declarasse Moysem per illa verba
+          <lb ed="#P" n="78"/>opus antea narratum in tertio die, in uno et
+          <lb ed="#P" n="79"/>eodem die cum coelo et terra factum esse, et
+          <lb ed="#P" n="80"/>per hoc etiam significasse, idem esse 
+          intelli<lb break="no" ed="#P" n="81"/>gendum de omnibus aliorum dierum operibus:
+          <lb ed="#P" n="82"/>ac denique concludit, etiam omnia opera, quae
+          <lb ed="#P" n="83"/>in primo die dicuntur facta, non successive
+          <lb ed="#P" n="84"/>per discursum ejus fuisse facta, sed simul in
+          <lb ed="#P" n="85"/>principio illius diei. Quia idem est (inquit) 
+          ju<lb break="no" ed="#P" n="86"/>dicium quoad simultatem temporis cum 
+          crea<lb break="no" ed="#P" n="87"/>tione cg'orum, et terree productis tertio die, et
+          <lb ed="#P" n="88"/>aliis diebus, et simihter eadem erit ratio de
+          <lb ed="#P" n="89"/>productis in uno die quoad simultatem 
+          tempo<lb break="no" ed="#P" n="90"/>ris in productione sua.
+        </p>
+        <p xml:id="szdada-y02044-d1e232">
+          <lb ed="#P" n="91"/>2. Secunda via est Cani apud Molinam. —
+          <lb ed="#P" n="92"/>At vero Cano, (ut Molina refert) in aliis 
+          conve<lb break="no" ed="#P" n="93"/>niens cum Cajetano, in hoc ultimo differt. 
+          Fa<lb break="no" ed="#P" n="94"/>temur enim diem, de quo Moyses loquitur,
+          <lb ed="#P" n="95"/>esse naturalem, et in re fuisse unum tantum
+          <lb ed="#P" n="96"/>sexies repeutum: nihilominus tamen dicit in
+          <lb ed="#P" n="97"/>illo die non fuisse omnia simul facta, sed cum
+          <lb ed="#P" n="98"/>aliqua successione in partibus illius diei. Quam
+          <lb ed="#P" n="99"/>successionem solum in productione mixtorum
+          <lb ed="#P" n="100"/>putat esse necessariam, quia expresse narrantur
+          <lb ed="#P" n="101"/>facta ex materia praejacente, ut in capite 
+          de<lb break="no" ed="#P" n="102"/>cimo, expendimus ; de coelis vero, et elementis
+          <lb ed="#P" n="103"/>prout nuac sunt, putat simul esse facta in 
+          illo<lb break="no" ed="#P" n="104"/>met die, in ejus priucipio. Interrogatus autem,
+          <lb ed="#P" n="105"/>quo vero sensu potuerit Moyses dicere, sex 
+          die<lb break="no" ed="#P" n="106"/>bus esse facta, quae uno tantum die facta
+          <lb ed="#P" n="107"/>sunt, respondet subintelligendo conditionem, et
+          <pb ed="#P" n="82"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>utendo verbis absolutis in sensu conditionato,
+          <lb ed="#P" n="2"/>quia si opera illa per distinctos dies essent 
+          fa<lb break="no" ed="#P" n="3"/>cienda, sex diebus, et illo ordine fierent ; qui
+          <lb ed="#P" n="4"/>modus loquendi (ait) non est inusitatus, ita
+          <lb ed="#P" n="5"/>enim multi exponunt illud Psalm. 101: 7psi
+          <lb ed="#P" n="6"/>peribunt, tu autem permancebis, id est, licet
+          <lb ed="#P" n="7"/>ipsi pereant, tu perire non potes, et illud
+          <lb ed="#P" n="8"/>Matth. 429: Celum et terra transibunt, verba
+          <lb ed="#P" n="9"/>ausem med non transibunt, .d est, etsi illa 
+          defi<lb break="no" ed="#P" n="10"/>ciant, verba mea deficere non possunt, et
+          <lb ed="#P" n="11"/>Aristoteles in simili sensu dixit 2, de Coelo,
+          <lb ed="#P" n="12"/>cap. 2, motum coeli initium habere ab oriente,
+          <lb ed="#P" n="13"/>cum ipse putaverit, non incepisse, quia si 
+          in<lb break="no" ed="#P" n="14"/>cepisset, inde inciperet. Cur autem voluerit
+          <lb ed="#P" n="15"/>Moyses uti illo modo loquendi rationes variae
+          <lb ed="#P" n="16"/>redduntur, prima a posteriori, ut captui 
+          nos<lb break="no" ed="#P" n="17"/>tro,et rudis populi se accommodaret, ut possent
+          <lb ed="#P" n="18"/>facilius magnitudinem, varietatem et ordinem
+          <lb ed="#P" n="19"/>tot rerum rudiores concipere. Secunda ex 
+          Ca<lb break="no" ed="#P" n="20"/>jetano, ut ostenderet naturalem ordinem, et
+          <lb ed="#P" n="21"/>consecutionem talium rerum. ratione cujus
+          <lb ed="#P" n="22"/>optime potuit Moyses illa repetitione ejusdem
+          <lb ed="#P" n="23"/>diei uti per comparationem ad sex gradus 
+          re<lb break="no" ed="#P" n="24"/>rum, qui in illis diebus commemorantur.
+          <lb ed="#P" n="25"/>Tertio id fecisse credunt ex inspiratione divina,
+          <lb ed="#P" n="26"/>ut per illum modum perveniretur ad diem
+          <lb ed="#P" n="27"/>septimum, et requiem illius commemorandam,
+          <lb ed="#P" n="28"/>ut eo modo disponeret, et induceret homines
+          <lb ed="#P" n="29"/>ad sabbatum, seu septimum quemque diem
+          <lb ed="#P" n="30"/>hebdomadae, ad Dei cultum, et in memoriam
+          <lb ed="#P" n="31"/>beneficii creationis consecrandum.
+        </p>
+        <p xml:id="szdada-y02044-d1e344">
+          <lb ed="#P" n="32"/>3. Secunda opinio affi nans et vera. — 
+          Pro<lb break="no" ed="#P" n="33"/>batur primo. — Secundo. — Nihilominus 
+          di<lb break="no" ed="#P" n="34"/>cendum est, sicut Moyses de die naturali, et
+          <lb ed="#P" n="35"/>sensibili locutus est, ita etiam de vero numero
+          <lb ed="#P" n="36"/>sex dierum in re existentium, et sibi 
+          succeden<lb break="no" ed="#P" n="37"/>tium fuisse locutum, et in singulis illorum 
+          die<lb break="no" ed="#P" n="38"/>rum aliquod opus esse factum, prout ab eodem
+          <lb ed="#P" n="39"/>Moyse in aliquo vero sensu narratum est. Haec
+          <lb ed="#P" n="40"/>assertio primum absolute, deinde in particulari
+          <lb ed="#P" n="41"/>contra dictas opiniones probanda est. Primum
+          <lb ed="#P" n="42"/>et praecipuum ejus fundamentum est plana et
+          <lb ed="#P" n="43"/>sincera littera Scripturae. Quia si quae ratio
+          <lb ed="#P" n="44"/>cogit ad dicendum Moysem esse locutum de
+          <lb ed="#P" n="45"/>die naturali et omnibus intelligibili, eadem
+          <lb ed="#P" n="46"/>cogit ad dicendum locutum esse de vero, et
+          <lb ed="#P" n="47"/>reali numero sex dierum distinctorum, et 
+          nu<lb break="no" ed="#P" n="48"/>merabilium tali numero, qui ab omnibus 
+          in<lb break="no" ed="#P" n="49"/>telligi possit. Ratio enim retinendi veram 
+          si<lb break="no" ed="#P" n="50"/>gnificationem diei naturalis est illa communis,
+          <lb ed="#P" n="51"/>quod verba Scripturae non sunt ad metaphoras
+          <lb ed="#P" n="52"/>transferenda, nisi vel necessitas cogat, vel ex
+          <lb ed="#P" n="53"/>ipsa Scriptura constet, et maxime in historica
+          <lb ed="#P" n="54"/>narratione, et ad instructionem fidei 
+          perti<lb break="no" ed="#P" n="55"/>nente: sed haec ratio non minus cogit ad intel-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ligendum proprie dierum numerum, quam diei
+          <lb ed="#P" n="57"/>qualitatem, quia non minus uno modo, quam
+          <lb ed="#P" n="58"/>alio destruitur sinceritas, imo et veritas 
+          histo<lb break="no" ed="#P" n="59"/>riae. Secundo hoc valde confirmant alia 
+          Scrip<lb break="no" ed="#P" n="60"/>turae loca, in quibus hi sex dies tanquam veri,
+          <lb ed="#P" n="61"/>et inter se distincti commemorantur, ut Exod.
+          <lb ed="#P" n="62"/>20, dicitur: Sez dielus operaleris, et facies
+          <lb ed="#P" n="63"/>omnia opera tua, septimo autem die sabbatum
+          <lb ed="#P" n="64"/>Domini Dei tui est. Et infra: Sez enim diebus
+          <lb ed="#P" n="65"/>fecit Dominus celum et terram, et mare, et
+          <lb ed="#P" n="66"/>omnia que in eis sunt, et idem repetitur in
+          <lb ed="#P" n="67"/>cap. 31. In quibus locis sermonis proprietas
+          <lb ed="#P" n="68"/>colligi potest tum ex aequiparatione, nam cum
+          <lb ed="#P" n="69"/>dicitur: Sez diebus operaberis, propriissime
+          <lb ed="#P" n="70"/>intelligitur: tum quia non est verisimile, 
+          po<lb break="no" ed="#P" n="71"/>tuisse populum intelligere verba illa in alio
+          <lb ed="#P" n="72"/>sensu, et e contra incredibile est, Deum in
+          <lb ed="#P" n="73"/>suis praeceptis tradendis illis verbis ad populum
+          <lb ed="#P" n="74"/>fuisse locutum. quibus deciperetur, falsum
+          <lb ed="#P" n="75"/>sensum concipiendo, si Deus non per sex 
+          ve<lb break="no" ed="#P" n="76"/>ros dies opera sua fecisset.
+        </p>
+        <p xml:id="szdada-y02044-d1e446">
+          <lb ed="#P" n="77"/>4. Tertio. — Tertio accedit communis 
+          in<lb break="no" ed="#P" n="78"/>telligentia Patrum. Omnes enim, qui de vero
+          <lb ed="#P" n="79"/>die primum interpretantur, secundum 
+          intelh<lb break="no" ed="#P" n="80"/>gunt non de eodem, sed de simil die proxime
+          <lb ed="#P" n="81"/>succedente, et sic de caeteris, atque adeo 
+          intel<lb break="no" ed="#P" n="82"/>ligunt, illum dierum numerum verum, et 
+          rea<lb break="no" ed="#P" n="83"/>lem fuisse. Ita docent in principio Exaemeron
+          <lb ed="#P" n="84"/>et Genesis, Basilius, Ambrosius, Chrysostomus,
+          <lb ed="#P" n="85"/>Beda, Strabo, et alii, Nazianzenus, orat. 43.in
+          <lb ed="#P" n="86"/>principio, et 44, in princip., Athanasius, orat.
+          <lb ed="#P" n="87"/>seu serm. 3, contra Arian., ante medium: 7ota
+          <lb ed="#P" n="88"/>rerum natura intra sem dies condita est, et 
+          pri<lb break="no" ed="#P" n="89"/>mo quidem lua quod spatiun diem appellacit,
+          <lb ed="#P" n="90"/>et sic suo ordine reliquos numerat. Idem sentit
+          <lb ed="#P" n="91"/>Gregorius 32 Moral., cap. 9, alias 10, 
+          Damas<lb break="no" ed="#P" n="92"/>cenus, lib 2, cap. 5 et 7, et alios cum 
+          scholas<lb break="no" ed="#P" n="93"/>ticis congerit Martinengus.
+        </p>
+        <p xml:id="szdada-y02044-d1e485">
+          <lb ed="#P" n="94"/>5. Quarto. — Quarto addo Patres asserentes,
+          <lb ed="#P" n="95"/>et ex Scriptura colligentes mundum in die
+          <lb ed="#P" n="96"/>Dominico fuisse creatum: ita enim Ecclesia in
+          <lb ed="#P" n="97"/>hymno matutino diei Dominici canit:
+          <lb ed="#P" n="98"/>Primo dierum omnium,
+          <lb ed="#P" n="99"/>Quo mundus extat conditus,
+          <lb ed="#P" n="100"/>Vel quo resurgens conditor
+          <lb ed="#P" n="101"/>Nos, morte victa, liberat.
+          <lb ed="#P" n="102"/>Et docet Leo papa, epist. 79, cum aliis, quos
+          <lb ed="#P" n="103"/>retuli, tom. 1, de Relig., lib. 2, de Festis, c. 4,
+          <lb ed="#P" n="104"/>n. 15, et addi potest Concilium Tridentinum,
+          <lb ed="#P" n="105"/>sess. 2, dicens Deum in Dominico die lucem
+          <lb ed="#P" n="106"/>condidisse, resurrexisse, et Spiritum sanctum
+          <lb ed="#P" n="107"/>ad Apostolos misisse. At vero si numerus sex
+          <lb ed="#P" n="108"/>dierum verus non est, nullo fundamento dici
+          <lb ed="#P" n="109"/>potest, creasse Deum mundum in Dominico
+          <pb ed="#P" n="83"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>die. Et eadem ratione non posset dici 
+          requie<lb break="no" ed="#P" n="2"/>visse ab operibus suis indie sabbati, sicut sentit
+          <lb ed="#P" n="3"/>Scriptura, quoties hac ratione diem septimam
+          <lb ed="#P" n="4"/>vocat sabbatum Domini, ut Exod. 16, 20, 35,
+          <lb ed="#P" n="5"/>Deut. 5, et sentiunt dicti Patres: nam inde
+          <lb ed="#P" n="6"/>colligunt Deum in die Dominico incepisse
+          <lb ed="#P" n="7"/>opera sua, quia in die sabbati ab illis cessavit.
+          <lb ed="#P" n="8"/>At vero si Deus intra unum diem omnia opera
+          <lb ed="#P" n="9"/>sua perfecit, vel in eodem die ab omni opere
+          <lb ed="#P" n="10"/>quievit, si in primo instanti intrinseco imitativo
+          <lb ed="#P" n="11"/>illius diei omnia simul perfecit, vel saltem si
+          <lb ed="#P" n="12"/>in illo uno die omnia successive consummavit,
+          <lb ed="#P" n="13"/>in sequenti die quievit. Quo ergo fundamento,
+          <lb ed="#P" n="14"/>vel qua consecutione dici potest, die Dominico
+          <lb ed="#P" n="15"/>creasse mundum, et die sabbato quievisse?
+        </p>
+        <p xml:id="szdada-y02044-d1e559">
+          <lb ed="#P" n="16"/>6. Evasio removetur. — Repondebunt 
+          for<lb break="no" ed="#P" n="17"/>tasse, non dici Deum quievisse in die sabbati,
+          <lb ed="#P" n="18"/>quia secundum realem durationem et 
+          con<lb break="no" ed="#P" n="19"/>versonem primi moblilis ille fuerit septimus
+          <lb ed="#P" n="20"/>dies post primum, qui Dominicus appellatus
+          <lb ed="#P" n="21"/>est, sed solum secundum metaphoricam 
+          nu<lb break="no" ed="#P" n="22"/>merationem et accommodationem septimum
+          <lb ed="#P" n="23"/>appellatum esse, et consequenter inde in 
+          po<lb break="no" ed="#P" n="24"/>pulo Dei talem diem sabbatum esse 
+          appella<lb break="no" ed="#P" n="25"/>tum: non quia in simili die septimo vere Deus
+          <lb ed="#P" n="26"/>quieverit, sed quia requies Dei per 
+          numera<lb break="no" ed="#P" n="27"/>tionem septimi diei declarata est. At enim,
+          <lb ed="#P" n="28"/>quis non videat, interpretationem hanc 
+          veri<lb break="no" ed="#P" n="29"/>tati et sinceritati Scripturae multum derogare ,
+          <lb ed="#P" n="30"/>cum in re ipsa requies Dei non contigerit in
+          <lb ed="#P" n="31"/>septimo die, et consequenter nec septimus
+          <lb ed="#P" n="32"/>dies fuerit dies requietionis Dei, ac proinde
+          <lb ed="#P" n="33"/>nec sabbatum vere nominari, nec inde colligi
+          <lb ed="#P" n="34"/>possit, Deum in die Dominico mundum
+          <lb ed="#P" n="35"/>creasse.
+        </p>
+        <p xml:id="szdada-y02044-d1e605">
+          <lb ed="#P" n="36"/>7. Probatur. — Quinto argumentor ratione,
+          <lb ed="#P" n="37"/>quia si Moyses loquitur de die naturali solari,
+          <lb ed="#P" n="38"/>vel illi aequivalenti, et dicit factum esse 
+          mun<lb break="no" ed="#P" n="39"/>dum, prout nunc est, sex diebus, et in re non
+          <lb ed="#P" n="40"/>fuit, nisi in uno tantum factus, falsum dicit
+          <lb ed="#P" n="41"/>in proprietate sermonis, et nulla ratio 
+          sufhi<lb break="no" ed="#P" n="42"/>ciens talis metaphorae: imo (quod gravius est)
+          <lb ed="#P" n="43"/>per nullam metaphoricam locutionem, quae
+          <lb ed="#P" n="44"/>ratione subsistat, potest illius locutionis 
+          veri<lb break="no" ed="#P" n="45"/>tas salvari. Prima pars se nota est, nam est
+          <lb ed="#P" n="46"/>ipsa assertio contrariae sententiae, ideo enim
+          <lb ed="#P" n="47"/>recurrit ad metaphoricas expositiones, quia
+          <lb ed="#P" n="48"/>non censet, veram esse historiam in 
+          proprie<lb break="no" ed="#P" n="49"/>tate sermonis. Secunda pars probatur, quia
+          <lb ed="#P" n="50"/>omnes rationes metaphorae, quae adducuntur,
+          <lb ed="#P" n="51"/>inanes sunt et insufficientes, ut per talem 
+          me<lb break="no" ed="#P" n="52"/>taphoram solvetur, vel supponatur varias illius
+          <lb ed="#P" n="53"/>narrationis, ut in tertia parte rationis sumpsi.
+          <lb ed="#P" n="54"/>Quam probo, quia imprimis, quod ait 
+          Proco<lb break="no" ed="#P" n="55"/>pius Moysem usum fuisse illo numerationis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modo ad rudis populi instructionem, non 
+          suf<lb break="no" ed="#P" n="57"/>ficit ad veritatem sermonis explicandam, si
+          <lb ed="#P" n="58"/>verba non sunt factis conformia. Unde ut illa
+          <lb ed="#P" n="59"/>ratio locum habeat: supponere debet, ita facta
+          <lb ed="#P" n="60"/>esse omnia sex diebus, sicut narrantur: 
+          alio<lb break="no" ed="#P" n="61"/>qui narratio ejusmodi potius simplices, et fere
+          <lb ed="#P" n="62"/>omnes audientes deciperet, quam instrueret.
+          <lb ed="#P" n="63"/>Accedit quod si omnia facta essent simul in
+          <lb ed="#P" n="64"/>uno momento. ut distincte conciperentur, 
+          pos<lb break="no" ed="#P" n="65"/>sent sigillatim explicari res factae sine 
+          nume<lb break="no" ed="#P" n="66"/>ratione dierum primi, secundi, et tertii, nam
+          <lb ed="#P" n="67"/>haec numeratio non lucem, sed potius 
+          sum<lb break="no" ed="#P" n="68"/>mam obscuritatem et difficultatem afferret, in
+          <lb ed="#P" n="69"/>concipiendo res simul factas perdierum 
+          succes<lb break="no" ed="#P" n="70"/>sionem. Et simili modo si res omnes sunt
+          <lb ed="#P" n="71"/>factae intra unum diem cum successione, tota
+          <lb ed="#P" n="72"/>varietas, et multitudo rerum factarum posset
+          <lb ed="#P" n="73"/>cum successione intra eumdem diem sine 
+          fic<lb break="no" ed="#P" n="74"/>Uone sex dierum cum eacem, vel majori 
+          pers<lb break="no" ed="#P" n="75"/>picuitate explicari.
+        </p>
+        <p xml:id="szdada-y02044-d1e696">
+          <lb ed="#P" n="76"/>8. Convincitur empositio Cajelani de sex 
+          gra<lb break="no" ed="#P" n="77"/>dibus rerum in num. 1. —bDeinde quod 
+          Cajeta<lb break="no" ed="#P" n="78"/>nus addit potuisse illam numerationem 
+          die<lb break="no" ed="#P" n="79"/>rum fieri ad denotandum sex gradus rerum
+          <lb ed="#P" n="80"/>factarum, etiam est gratis excogitatum, et in
+          <lb ed="#P" n="81"/>rigore est falsum, quia opera, quae sex diebus
+          <lb ed="#P" n="82"/>facta narrantur, non continent sex gradus 
+          re<lb break="no" ed="#P" n="83"/>rum, qui sigillatim singulis diebus facti sint,
+          <lb ed="#P" n="84"/>maxime secundum ipsum Cajetanum. Nam
+          <lb ed="#P" n="85"/>ipse supponit gradus spiritualium rerum, 
+          coe<lb break="no" ed="#P" n="86"/>lorum, et elementorum in primo instanti 
+          crea<lb break="no" ed="#P" n="87"/>tionis esse factos, et consequenter etiam lucem,
+          <lb ed="#P" n="88"/>ac proinde postea in illo die nihil esse 
+          addi<lb break="no" ed="#P" n="89"/>tum, nisi motum localem primi mobilis, qui
+          <lb ed="#P" n="90"/>non potest dici novus gradus rerum, sed 
+          acci<lb break="no" ed="#P" n="91"/>dens quoddam corporis coelestis: ergo in illo
+          <lb ed="#P" n="92"/>die, si tempus illius inspiciamus, nullus rerum
+          <lb ed="#P" n="93"/>gradus factus est: in primo autem instanti
+          <lb ed="#P" n="94"/>extrinseco, non tantum unus, sed plures 
+          gra<lb break="no" ed="#P" n="95"/>dus rerum facti narrantur. Ac subinde in 
+          se<lb break="no" ed="#P" n="96"/>cundo die, si per firmamentum aethereum 
+          coe<lb break="no" ed="#P" n="97"/>lum intelligimus, et illo die productio ejus
+          <lb ed="#P" n="98"/>quoad substantiam refertur, non fit repetitio,
+          <lb ed="#P" n="99"/>vel numeratio propter aliquem novum 
+          gra<lb break="no" ed="#P" n="100"/>dum rerum, qui sub coelo non esset 
+          compre<lb break="no" ed="#P" n="101"/>hensus; et idem de quarto die objiciemus.
+          <lb ed="#P" n="102"/>Praeterquam quod res ipsas secundum se 
+          spec<lb break="no" ed="#P" n="103"/>tando, ex parte illarum nulla est ratio talis 
+          or<lb break="no" ed="#P" n="104"/>dinis, ut quod inter firmamentum, et solem,
+          <lb ed="#P" n="105"/>ac stellas, maris congregatio, terrae 
+          manifes<lb break="no" ed="#P" n="106"/>tatio, et plantarum productio interponantur,
+          <lb ed="#P" n="107"/>item quod gradus aquatilium, et volatilium
+          <lb ed="#P" n="108"/>non distinguantur tanquam duo gradus 
+          dis<lb break="no" ed="#P" n="109"/>tinctis diebus narrandi, et gradus brutorum
+          <lb ed="#P" n="110"/>distincto die numeretur, cum non magis a vo-
+          <pb ed="#P" n="84"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>latilibus, quam haec ab aquatilibus 
+          distinguan<lb break="no" ed="#P" n="2"/>tur, et quod gravius est, unus dies ascribitur
+          <lb ed="#P" n="3"/>brutis et homini, cum multo magis in gradu
+          <lb ed="#P" n="4"/>distinguantur, ut supra etiam argumentabar.
+          <lb ed="#P" n="5"/>Ex ordine igitur, ac distinctione rerum 
+          facta<lb break="no" ed="#P" n="6"/>rum nulla ratio distinctionis dierum, aut 
+          ve<lb break="no" ed="#P" n="7"/>ritatis narrationis eorum reddi potest, si revera
+          <lb ed="#P" n="8"/>in se distincti non fuerunt.
+        </p>
+        <p xml:id="szdada-y02044-d1e797">
+          <lb ed="#P" n="9"/>9. Evertitur Cani defensio per sensum 
+          con<lb break="no" ed="#P" n="10"/>ditionatum in n. 2. — Atque hinc evidenter
+          <lb ed="#P" n="11"/>evertitur veritatis defensio per sensum 
+          condi<lb break="no" ed="#P" n="12"/>tionatum a Cano excogitatum. Nam licet ille
+          <lb ed="#P" n="13"/>sensus aliquando locum habeat, quando vel
+          <lb ed="#P" n="14"/>materia ipsa, vel circumstantiae locutionis illum
+          <lb ed="#P" n="15"/>admittunt, ut in exemplis, quae Cano inducit,
+          <lb ed="#P" n="16"/>probabile est: at in praesenti nullo modo 
+          po<lb break="no" ed="#P" n="17"/>test accommodari. Nam illa conditionalis, si
+          <lb ed="#P" n="18"/>mundus cum successione dierum fieret, intra
+          <lb ed="#P" n="19"/>sex dies et tali ordine fieret, falsa est, quia 
+          dis<lb break="no" ed="#P" n="20"/>parata, et non necessaria, potuisset enim fieri
+          <lb ed="#P" n="21"/>vel pluribus, vel paucioribus diebus, vel alio
+          <lb ed="#P" n="22"/>ordine pro arbitrio facientis, cum res ipsa non
+          <lb ed="#P" n="23"/>magis hunc ordinem, vel numerum dierum,
+          <lb ed="#P" n="24"/>quam alium ex se postulent, ut ostensum est,
+          <lb ed="#P" n="25"/>et per se notum videtur: in quo ergo fundari
+          <lb ed="#P" n="26"/>potest veritas hujus conditionalis. Maxime cum
+          <lb ed="#P" n="27"/>conditionalis veritas aut connexionem aliquo
+          <lb ed="#P" n="28"/>modo necessariam inter antecedens, et 
+          conse<lb break="no" ed="#P" n="29"/>quens requirat, aut saltem certum eventum
+          <lb ed="#P" n="30"/>sub conditione futurum, quem oportet esse
+          <lb ed="#P" n="31"/>praevisum, ut vera sit locutio, quod in 
+          prae<lb break="no" ed="#P" n="32"/>senti excogitare, aut fingere valde frivolum
+          <lb ed="#P" n="33"/>est. Unde licet in praedictione prophetica 
+          ali<lb break="no" ed="#P" n="34"/>quando habeat locum conditionalis assertio,
+          <lb ed="#P" n="35"/>historicae narrationi nullo modo potest 
+          accom<lb break="no" ed="#P" n="36"/>modari, quia conditio ipsa suspendit factum,
+          <lb ed="#P" n="37"/>et consequenter repugnat historiae: ideoque
+          <lb ed="#P" n="38"/>nunquam in Scriptura invenietur absoluta 
+          as<lb break="no" ed="#P" n="39"/>sertio pro conditionata in historica narratione.
+          <lb ed="#P" n="40"/>Dicetur forte, quod et Cano indicasse fertur,
+          <lb ed="#P" n="41"/>narrationem illam non per solam conditionem,
+          <lb ed="#P" n="42"/>sed quasi per comparationem ad alium 
+          ope<lb break="no" ed="#P" n="43"/>rantem esse intelligendam, ut seusus sit, quod
+          <lb ed="#P" n="44"/>si alius a Deo illud opus fecisset, septem 
+          die<lb break="no" ed="#P" n="45"/>bus ad iliud perficiendum indiguisset. Sed hoc
+          <lb ed="#P" n="46"/>non solum voluntarium, sed etiam vanum est,
+          <lb ed="#P" n="47"/>quia sicut Deus nullo tempore indigebat, iia
+          <lb ed="#P" n="48"/>quilibet alius a Leo in quocumque dierum 
+          nu<lb break="no" ed="#P" n="49"/>n.cro illud opus perficere non potuisset, 
+          etli<lb break="no" ed="#P" n="50"/>c.t fingatur in aliquo poiuisse, trustra fingitur
+          <lb ed="#P" n="51"/>sex diebus potius, quam sex millibus ad ia 
+          per<lb break="no" ed="#P" n="52"/>ficiendum indiguisse. Ac denique etiam illo
+          <lb ed="#P" n="53"/>moco non salvatur veritas locutionis: quia
+          <lb ed="#P" n="54"/>etiam in vulgari sermone licet interdum 
+          dica<lb break="no" ed="#P" n="55"/>mus aliquem uno die fecisse, quod alter vix
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>septem diebus faceret, nunquam tamen vere
+          <lb ed="#P" n="57"/>dicemus illum priorem septem diebus tale
+          <lb ed="#P" n="58"/>opus fecisse, si revera in uno die illud 
+          con<lb break="no" ed="#P" n="59"/>summarit: Scriptura autem non tantum 
+          di<lb break="no" ed="#P" n="60"/>cit Deum operatum esse, quod pro septem
+          <lb ed="#P" n="61"/>diebus sufliceret, sed simpliciter narrat, sex
+          <lb ed="#P" n="62"/>diebus operatum esse, et postea quievisse, ut
+          <lb ed="#P" n="63"/>allegatum est: tandem hinc facile rejicitur
+          <lb ed="#P" n="64"/>altera ratio sumpta ex sanctificatione diei 
+          sab<lb break="no" ed="#P" n="65"/>bati. Quae quidem est optima, et in Scriptura
+          <lb ed="#P" n="66"/>fundata supposita historiae veritate: nam 
+          re<lb break="no" ed="#P" n="67"/>vera Deus per sex dies voluit mundum 
+          con<lb break="no" ed="#P" n="68"/>dere, et septimo vacare, ut homines instrueret
+          <lb ed="#P" n="69"/>tam moraliter, quam religiose ad vacandum
+          <lb ed="#P" n="70"/>Dei, eique septimum, et ultimum 
+          uniuscujus<lb break="no" ed="#P" n="71"/>que hebdomadae diem Deo consecrandum. At
+          <lb ed="#P" n="72"/>vero ablato historiae fundamento, valde frivola
+          <lb ed="#P" n="73"/>est causa illa ad reddendam metaphorae 
+          ra<lb break="no" ed="#P" n="74"/>tionem, tum quia vis rationis consistit in
+          <lb ed="#P" n="75"/>exemplo divino, non in figura sermonis: 
+          exem<lb break="no" ed="#P" n="76"/>plum autem nullum est, si res non est ita facta,
+          <lb ed="#P" n="77"/>sicut narratur, tum etiam quia illa ratio solum
+          <lb ed="#P" n="78"/>declarat finem quemdam extrinsecum, propter
+          <lb ed="#P" n="79"/>quem ille idem dies sexies repetitus, senarius
+          <lb ed="#P" n="80"/>dierum simpliciter appellatus est ; locutio 
+          au<lb break="no" ed="#P" n="81"/>tem non sumit veritatem a fine extrinseco, sed
+          <lb ed="#P" n="82"/>ex conformitate ad rem dictam, quae per illam
+          <lb ed="#P" n="83"/>rationem non explicatur, nam locutio falsa
+          <lb ed="#P" n="84"/>non fit vera ex eo solum, quod ad bonum 
+          fi<lb break="no" ed="#P" n="85"/>nem referatur,
+        </p>
+        <p xml:id="szdada-y02044-d1e969">
+          <lb ed="#P" n="86"/>10. Probatur secundo vera sententia 
+          specia<lb break="no" ed="#P" n="87"/>liter contra Cajetanum. — Sexto contra 
+          Caje<lb break="no" ed="#P" n="88"/>tanum specialiter induci possunt omnia, 
+          qui<lb break="no" ed="#P" n="89"/>bus cap. 10, specaaliter probavimus, mista non
+          <lb ed="#P" n="90"/>fuisse facta simul, et in eodem momento cum
+          <lb ed="#P" n="91"/>terra et aqua, quia ex terra, et aqua facta sunt,
+          <lb ed="#P" n="92"/>ut Scriptura narrat, qucniam repugnat fieri
+          <lb ed="#P" n="93"/>ex aqua, et simul cum aqua, quia productio ex
+          <lb ed="#P" n="94"/>aqua supponit aquam, idemque est de 
+          produc<lb break="no" ed="#P" n="95"/>tione ex terra, et de productione hominis ex
+          <lb ed="#P" n="96"/>Iimo terrae, ut ibi late diximus. Et ideo 
+          Conci<lb break="no" ed="#P" n="97"/>lium Lateranense expresse dixit humanam
+          <lb ed="#P" n="98"/>creaturam post alias fuisse compositam; unde
+          <lb ed="#P" n="99"/>recte dixit Theodoretus, lib. 5, divin. becret.,
+          <lb ed="#P" n="100"/>cap. de Materia: Moysem aperte docussse, 
+          quee<lb break="no" ed="#P" n="101"/>ndn ea dis, quee noverant, et quenum esa iis, qua
+          <lb ed="#P" n="102"/>erant, fabricatus est opifer, quod optime 
+          pro<lb break="no" ed="#P" n="103"/>sequitur, et concludit, hominen fec.sse partim
+          <lb ed="#P" n="104"/>ex his, que eraut, quantum ad corpus, partum
+          <lb ed="#P" n="105"/>ex lhis, que ucon erunt, quantum ad auiaun.
+          <lb ed="#P" n="106"/>Isii autem varii modi fabricandi necessario 
+          in<lb break="no" ed="#P" n="107"/>ter se requirunt successionem. (uae non minus
+          <lb ed="#P" n="108"/>eflicaciter probatur ex eo quod terra aliquando
+          <lb ed="#P" n="109"/>fuit vacua et inanis, id est, carens fructibus
+          <lb ed="#P" n="110"/>et animalibus, et cooperta aquis, cum postea
+          <pb ed="#P" n="85"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>apparuerit. Neque enim recte haec exponuntur
+          <lb ed="#P" n="2"/>conditionaliter, aut quasi aptitudine, et 
+          quan<lb break="no" ed="#P" n="3"/>tum est ex se, quia hoc modo etiam nunc 
+          pos<lb break="no" ed="#P" n="4"/>set dici terra inanis et vacua, et cooperta aquis,
+          <lb ed="#P" n="5"/>utique quantum est ex se, et conditione 
+          natu<lb break="no" ed="#P" n="6"/>rali, vel nisi Deus aliter illam ornasset, vel
+          <lb ed="#P" n="7"/>disposuisset: at illa locutio nunc absolute dicta
+          <lb ed="#P" n="8"/>falsa esset: ergo etiam in primo die, vel 
+          instan<lb break="no" ed="#P" n="9"/>ti, si jam erat in illo discooperta et floribus
+          <lb ed="#P" n="10"/>vestita. Et optima ratio est saepe tacta, quia
+          <lb ed="#P" n="11"/>Moyses non explicabat terrae naturam, ut 
+          di<lb break="no" ed="#P" n="12"/>ceret, quid de se haberet, sed narrabat 
+          histo<lb break="no" ed="#P" n="13"/>riam et statum, in quo primum a Deo fuit 
+          con<lb break="no" ed="#P" n="14"/>dita, et in quo postea constituta est. Unde obiter
+          <lb ed="#P" n="15"/>satisfit vulgari interrogationi, cur Deus 
+          suc<lb break="no" ed="#P" n="16"/>cessive fecerit, quae potuit in momento simul
+          <lb ed="#P" n="17"/>producere, cujusrei varias rationes, incap. 10,
+          <lb ed="#P" n="18"/>in fine, ex Patribus reddidimus. Quibus 
+          suppo<lb break="no" ed="#P" n="19"/>sitis, nunc addimus duo notari posse, quae
+          <lb ed="#P" n="20"/>successionem necessario postulabant: unum
+          <lb ed="#P" n="21"/>est tempus et motus, id est, dies ipsi, seu 
+          mo<lb break="no" ed="#P" n="22"/>tus locales coelorum, qui in illis sex primis
+          <lb ed="#P" n="23"/>diebus facti sunt, et intrinsece successionem
+          <lb ed="#P" n="24"/>includunt: aliud est productio ex corpore facto
+          <lb ed="#P" n="25"/>ex nihilo, nam illa duo non potuerunt esse
+          <lb ed="#P" n="26"/>sine successione discreta (ut sic dicam) unde
+          <lb ed="#P" n="27"/>supposito, quod Deus propter rationes supra
+          <lb ed="#P" n="28"/>tactas voluit quaedam facere ex nihiio, alia ex
+          <lb ed="#P" n="29"/>rebus jam factis ex nihilo, necessario debuit
+          <lb ed="#P" n="30"/>cum aliqua successione operari.
+        </p>
+        <p xml:id="szdada-y02044-d1e1095">
+          <lb ed="#P" n="31"/>11. Probatur septimo specialiter contra 
+          Ca<lb break="no" ed="#P" n="32"/>num. — Conjectura quadam exploditur.—
+          Van<lb break="no" ed="#P" n="33"/>dem supposita successione in horum operum
+          <lb ed="#P" n="34"/>productione, facile confutatur Cani sententia
+          <lb ed="#P" n="35"/>ad unum diem coarctantis totam seriem 
+          re<lb break="no" ed="#P" n="36"/>rum. et productionum in illis diebus factarum.
+          <lb ed="#P" n="37"/>Nam omnes difficultates, quae in hac 
+          succes<lb break="no" ed="#P" n="38"/>sione explicanda occurrunt, non oriuntur ex
+          <lb ed="#P" n="39"/>parvitate, vel alterius operis executionem 
+          in<lb break="no" ed="#P" n="40"/>terpositi: sed in ordine tantum prioris, et 
+          pos<lb break="no" ed="#P" n="41"/>terioris, quomodo scilicet, potuerit prius esse
+          <lb ed="#P" n="42"/>coelum sine luce, et postea fuerit illi addita lux,
+          <lb ed="#P" n="43"/>et postea firmamentum, quod etiam est caelum,
+          <lb ed="#P" n="44"/>et quomodo fuerit lux ante solem, vel coelum
+          <lb ed="#P" n="45"/>sine stellis, et similia, quae non magis difficilia
+          <lb ed="#P" n="46"/>sunt, sive per diem, sive per horam prius, vel
+          <lb ed="#P" n="47"/>posterius facta dicantur: ergo si Canus 
+          admit<lb break="no" ed="#P" n="48"/>tit hanc successionem, et omnes diffticultates
+          <lb ed="#P" n="49"/>devorat, frustra intra unum diem omnia 
+          con<lb break="no" ed="#P" n="50"/>cludit, novas et insuperabiles difficultates 
+          ad<lb break="no" ed="#P" n="51"/>dendo, et planas Scripturae, et historicas 
+          locu<lb break="no" ed="#P" n="52"/>tiones ad tropos, et insinuatos sensus verborum
+          <lb ed="#P" n="53"/>detorquendo. Dicetur fortasse non videri 
+          ve<lb break="no" ed="#P" n="54"/>risimile, tantam temporis moram inter singula
+          <lb ed="#P" n="55"/>opera interpositam fuisse, alioqui oporteret in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>singulis diebus facto uno opere, in reliquo diei
+          <lb ed="#P" n="57"/>tempore ab omni opere cessasse, et quasi
+          <lb ed="#P" n="58"/>otiosum fuisse Deum. Sed haec conjectura valde
+          <lb ed="#P" n="59"/>humana, et debilis est, tum quia esto demus,
+          <lb ed="#P" n="60"/>voluisse Deum integrum diem uni operi dicare,
+          <lb ed="#P" n="61"/>etiamsi illud in puncto, aut brevissimo 
+          tem<lb break="no" ed="#P" n="62"/>pore perfecturus esset, et reliquo tempore illius
+          <lb ed="#P" n="63"/>diei a novo opere vacare, quid absurdi, vel 
+          in<lb break="no" ed="#P" n="64"/>commodi inde sequeretur, numquid non est
+          <lb ed="#P" n="65"/>Deus suorum operum Dominus, ut ea potuerit,
+          <lb ed="#P" n="66"/>quo vellet modo facere ? Certe vel propter hoc
+          <lb ed="#P" n="67"/>ipsum solum, nimirum ut se liberum in 
+          ope<lb break="no" ed="#P" n="68"/>rando ostenderet, id faceret potuisset, et omnes
+          <lb ed="#P" n="69"/>rationes, propter quas supra diximus fecisse
+          <lb ed="#P" n="70"/>Deum multa successive, quae simul facere 
+          po<lb break="no" ed="#P" n="71"/>tuisset, ad hoc etiam applicari possunt, ut
+          <lb ed="#P" n="72"/>propter easdem potuerit multis diebus facere
+          <lb ed="#P" n="73"/>opera, quae uno die perficere potuisset, et in
+          <lb ed="#P" n="74"/>uno die, una hora operari, et in aliis ab opere
+          <lb ed="#P" n="75"/>vacare. Deinde vero addimus, talia fuisse opera
+          <lb ed="#P" n="76"/>singulorum dierum, ut in singulis potuerit
+          <lb ed="#P" n="77"/>Deus totos dies integros operari, ut in 
+          singulo<lb break="no" ed="#P" n="78"/>rum operum explicatione monstrabimus.
+        </p>
+        <p xml:id="szdada-y02044-d1e1204">
+          <lb ed="#P" n="79"/>12. Ad fundamentum contrarium positum in
+          <lb ed="#P" n="80"/>n. Aex 2c. Genesis. — Prima eapositio 
+          proxi<lb break="no" ed="#P" n="81"/>mà loci Geneseos. — D. Thomas dictam 
+          exvposi<lb break="no" ed="#P" n="82"/>Lionem admittit, non tamen quod ex ea 
+          intule<lb break="no" ed="#P" n="83"/>runt Cajetanus aut Cano. — Circa 
+          fundamen<lb break="no" ed="#P" n="84"/>tum contrarie sententia solum supersunt
+          <lb ed="#P" n="85"/>explicanda verba illa cap. 2 Gen.: Zste sunt
+          <lb ed="#P" n="86"/>generationes caeli et terre, quando creata sunt
+          <lb ed="#P" n="87"/>in die, quo fecit Dominus celum et terram, et
+          <lb ed="#P" n="88"/>omnnce virgultum agri, quae duas habent 
+          expo<lb break="no" ed="#P" n="89"/>sitiones, una est, ut intelligantur de primo
+          <lb ed="#P" n="90"/>die tantum, ut intellexerunt Cajetanus et
+          <lb ed="#P" n="91"/>Cano, licet diverso modo. Nam Cajetanus 
+          in<lb break="no" ed="#P" n="92"/>telligit illud solum ratione primi instantis
+          <lb ed="#P" n="93"/>illius diei, in quo creavit Deus coelum et 
+          ter<lb break="no" ed="#P" n="94"/>ram, Cano vero de toto tempore illius diei 
+          il<lb break="no" ed="#P" n="95"/>lum exponit: et uterque intellexit, per illa
+          <lb ed="#P" n="96"/>ultima verba, Ft omne virgultum agri, 
+          indi<lb break="no" ed="#P" n="97"/>cata esse omnia misxta, et omnia opera sex
+          <lb ed="#P" n="98"/>dierum, et alter inde conclusit, omnia esse 
+          si<lb break="no" ed="#P" n="99"/>mul facta in primo instanti illius diei; alter
+          <lb ed="#P" n="100"/>vero omnia esse facta in illo die non simul,
+          <lb ed="#P" n="101"/>sed successive. At vero divus Thomas, 1 part.,
+          <lb ed="#P" n="102"/>q. 74, articulo secundo, ad primum 
+          posterio<lb break="no" ed="#P" n="103"/>rum argumentorum, admittendo expositionem
+          <lb ed="#P" n="104"/>de primo die, neutrum illorum consequentium
+          <lb ed="#P" n="105"/>admittit, et ad illa ultima verba, Et 
+          omnevir<lb break="no" ed="#P" n="106"/>gultun agri, respondet virgulta non esse facta
+          <lb ed="#P" n="107"/>in illo die in se, et in actu, sed in potentia
+          <lb ed="#P" n="108"/>terrae, coeli, et aliorum elementorum, quomodo
+          <lb ed="#P" n="109"/>omnia facta sunt in primo instanti creationis.
+          <lb ed="#P" n="110"/>Et hoc putat esse a Moyse explicatum, cum ad
+          <pb ed="#P" n="86"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dit, Et omne virgultum agri antequam oriretur
+          <lb ed="#P" n="2"/>in terra, omnemque herbam regionis priusquam
+          <lb ed="#P" n="3"/>germinaret: non enim poterat germen, aut
+          <lb ed="#P" n="4"/>herba actu, et in se fieri, antequam esset: ut
+          <lb ed="#P" n="5"/>ergo denotetur, in illa die solum in potentia
+          <lb ed="#P" n="6"/>esse factum germen, additur, anteguam 
+          orire<lb break="no" ed="#P" n="7"/>ur. Quae fuit expositio Augustini, lib. 5 Gen.
+          <lb ed="#P" n="8"/>ad litter., cap 4, et lib. 6, a principio, et 
+          Gre<lb break="no" ed="#P" n="9"/>gori, dicto lib. 32 Moral., cap. 10.
+        </p>
+        <p xml:id="szdada-y02044-d1e1300">
+          <lb ed="#P" n="10"/>13. Judicium de illa eampositione. — Haec
+          <lb ed="#P" n="11"/>expositio sano modo intellecta veram continet
+          <lb ed="#P" n="12"/>doctrinam, quia omnia mixta sunt in 
+          elemen<lb break="no" ed="#P" n="13"/>us in potentia saltem ut in causa materiali,
+          <lb ed="#P" n="14"/>quomodo dixit Gregorius quod creatura omnis
+          <lb ed="#P" n="15"/>simul per substantian extitit, quamvis non 
+          si<lb break="no" ed="#P" n="16"/>mwul per speciem processit, quamvis non omnia
+          <lb ed="#P" n="17"/>sint prius facta in semine tanquam in proxima
+          <lb ed="#P" n="18"/>etficiente causa, ut circa opera tertii, quinti,
+          <lb ed="#P" n="19"/>et sexti diei explicabo. Et ex hac parte dicta
+          <lb ed="#P" n="20"/>expositio satisfacere posset argumento, quia ex
+          <lb ed="#P" n="21"/>verbis sic expositis nullo modo opinio Cajetani,
+          <lb ed="#P" n="22"/>aut Cani confirmatur. Imo etiam non videtur
+          <lb ed="#P" n="23"/>posse cum doctrina Augustini consistere, quia
+          <lb ed="#P" n="24"/>ipse in alis locis supra citatis docet, omnia
+          <lb ed="#P" n="25"/>opera sex dierum simul in uno die 
+          successio<lb break="no" ed="#P" n="26"/>nem non habente fuisse facta: ergo etiam
+          <lb ed="#P" n="27"/>mixta facta tertio, quinto et sexto die, prout
+          <lb ed="#P" n="28"/>in illis facta narrantur, facta sunt primo die,
+          <lb ed="#P" n="29"/>et simul: at vero non narrantur facta in illis
+          <lb ed="#P" n="30"/>diebus in potentia, ut per se notum est: ergo
+          <lb ed="#P" n="31"/>non consonat illa expositio cum priori doctrina
+          <lb ed="#P" n="32"/>Augustini, et ideo dixi supra, videri 
+          Augusti<lb break="no" ed="#P" n="33"/>num varie de misxtorum creatione fuisse 
+          locu<lb break="no" ed="#P" n="34"/>tum. Tandem addo illam expositionem non
+          <lb ed="#P" n="35"/>esse litteralem, nam revera in illis verbis 
+          ca<lb break="no" ed="#P" n="36"/>pitis secundi recapitulat Moyses omnia quae
+          <lb ed="#P" n="37"/>narraverat in primo capite, ut patet ex illis
+          <lb ed="#P" n="38"/>verbis, iste sunt generationes celi et terre;
+          <lb ed="#P" n="39"/>nam pronomen ista omnes productiones prius
+          <lb ed="#P" n="40"/>narratas designat, ut clarius explicaret, sub
+          <lb ed="#P" n="41"/>caelo et terra comprehendere caetera addidit,
+          <lb ed="#P" n="42"/>Et omne virgultum agri, sub uno specifico
+          <lb ed="#P" n="43"/>opera alia insinuans.
+        </p>
+        <p xml:id="szdada-y02044-d1e1376">
+          <lb ed="#P" n="44"/>14. Non placet quod ex de Thoma allatum
+          <lb ed="#P" n="45"/>est in n. 12 de productione virgultorum in 
+          po<lb break="no" ed="#P" n="46"/>tentia.— Non ergo illud addidit propter solum
+          <lb ed="#P" n="47"/>esse in potentia, tum quia hoc modo superflue
+          <lb ed="#P" n="48"/>adderetur: tum etianr quia non proprie 
+          dici<lb break="no" ed="#P" n="49"/>tur fieri, aut creari in sua specie, quando 
+          so<lb break="no" ed="#P" n="50"/>lum in potentia fit. Neque subjuncta verba,
+          <lb ed="#P" n="51"/>antequan oriretur in terra, vel priusquam
+          <lb ed="#P" n="52"/>germinaret, idem significant, quod prius quam
+          <lb ed="#P" n="53"/>in se, et actu fierent, aut existerent, sed prius
+          <lb ed="#P" n="54"/>quam ordinario, et connaturali modo a terra,
+          <lb ed="#P" n="55"/>et ex terra fierent. Nam herba quae primitus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>facta est, non ex praecedenti semine, vel 
+          dispo<lb break="no" ed="#P" n="57"/>sitione terrae, et actione coeli orta est, qui est
+          <lb ed="#P" n="58"/>proprius modus naturalis germinandi, aut
+          <lb ed="#P" n="59"/>oriendi ex terra, sed facta est immediate a
+          <lb ed="#P" n="60"/>Deo ut auctore naturae, sicut primus etiam
+          <lb ed="#P" n="61"/>homo factus est sine semine. Qui modus 
+          pro<lb break="no" ed="#P" n="62"/>ductionis est quasi medius inter rigorosam
+          <lb ed="#P" n="63"/>creationem et generationem, et ideo nunc
+          <lb ed="#P" n="64"/>creatio, nunc generatio dicitur. Ad 
+          explican<lb break="no" ed="#P" n="65"/>dum ergo, in illo die fuisse germen et herbam
+          <lb ed="#P" n="66"/>factam isto modo singulari, et primordiali, et
+          <lb ed="#P" n="67"/>non per propriam generationem, verba illa 
+          ad<lb break="no" ed="#P" n="68"/>dita sunt. Quod evidenter alia statim subjecta
+          <lb ed="#P" n="69"/>declarant: IVon enim pluerat Dominus Deus 
+          su<lb break="no" ed="#P" n="70"/>per terram, et homo non erat qui operaretur
+          <lb ed="#P" n="71"/>Lerram: nam quia per has causas solet terra
+          <lb ed="#P" n="72"/>ordinario modo herbam proferre, et illae causae
+          <lb ed="#P" n="73"/>nondum tunc praecesserant, ideo per illam
+          <lb ed="#P" n="74"/>causarum naturalium carentiam optime 
+          decla<lb break="no" ed="#P" n="75"/>ratum est, modum illum germinandi ex 
+          pecu<lb break="no" ed="#P" n="76"/>liari efficacitate auctoris naturae, non ex 
+          ordi<lb break="no" ed="#P" n="77"/>nariis naturalibus causis fuisse.
+        </p>
+        <p xml:id="szdada-y02044-d1e1455">
+          <lb ed="#P" n="78"/>15. Secundo et conmunis expositio praedicti
+          <lb ed="#P" n="79"/>loci Geneseos 2.—Secunda ergo et communis
+          <lb ed="#P" n="80"/>expositio est, in illa recapitulatione capitis 
+          se<lb break="no" ed="#P" n="81"/>cundi particulam, in die, qua creavit Deus. non
+          <lb ed="#P" n="82"/>designare unum certum diem, sed indefinite
+          <lb ed="#P" n="83"/>sumi pro quocumque die, in quo aliquod ex
+          <lb ed="#P" n="84"/>illis operibus factum sit: sive ille dies fuerit
+          <lb ed="#P" n="85"/>idem, sive diversus, sive unus, sive plures.
+          <lb ed="#P" n="86"/>Frequens enim est in Scriptura sacra, ut 
+          sin<lb break="no" ed="#P" n="87"/>gulare pro plurali ponatur, et in modo 
+          loquen<lb break="no" ed="#P" n="88"/>di satis usitato res diversis temporibus factae
+          <lb ed="#P" n="89"/>brevitatis causa solent sub una singulari voce
+          <lb ed="#P" n="90"/>temporali comprehendi: ut si quis dicat, die
+          <lb ed="#P" n="91"/>nativitatis Christi, Virginis, aut Joannis 
+          Bap<lb break="no" ed="#P" n="92"/>tistae fit hoc vel illud, non significat, in uno,
+          <lb ed="#P" n="93"/>et eodem die id fieri, sed subintelligitur 
+          virtua<lb break="no" ed="#P" n="94"/>Iis repetitio, in die natalis Christi, in die 
+          nati<lb break="no" ed="#P" n="95"/>vitatis Virginis. etc. Sic ergo subintelligi 
+          po<lb break="no" ed="#P" n="96"/>test in dictis verbis. Adde tamen, usitatum esse
+          <lb ed="#P" n="97"/>in Scriptura, ut dies pro indefinito tempore
+          <lb ed="#P" n="98"/>ponatur, ut Joan. 8: Abraham eaultacvit, ut
+          <lb ed="#P" n="99"/>videret diem meum, id est, tempus mei 
+          adven<lb break="no" ed="#P" n="100"/>tus. Et Isa. 49, et 2 Cor. 6: Tempore accepto
+          <lb ed="#P" n="101"/>eraudivi te et in die salutis uudivi te. Ecce nunc
+          <lb ed="#P" n="102"/>tempus acceptabile, ecce nunc dies saiutis, 
+          Deu<lb break="no" ed="#P" n="103"/>ter. 32: Juata est dies perditionis, et adesse
+          <lb ed="#P" n="104"/>festinant tempora.lta ergo accipi debet, vel 
+          po<lb break="no" ed="#P" n="105"/>test in citato loco, ut Beda, et alii voluerunt.
+        </p>
+        <p xml:id="szdada-y02044-d1e1518">
+          <lb ed="#P" n="106"/>16. Objectio ejusque dissolutio.— Altera 
+          so<lb break="no" ed="#P" n="107"/>lutio.—Neque obstabit, si quis objiciat, 
+          incon<lb break="no" ed="#P" n="108"/>veniens esse, in voce illa dies aequivocationem,
+          <lb ed="#P" n="109"/>aut metaphoram admittere, praesertim in tam
+          <lb ed="#P" n="110"/>brevi contextu. Nam respondemusnullam esse
+          <pb ed="#P" n="87"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>metaphoram, nec aequivocationem propriam,
+          <lb ed="#P" n="2"/>sed varium usum vocis intra propriam 
+          signi<lb break="no" ed="#P" n="3"/>ficationem ejus, qui usitatissimus est; nam
+          <lb ed="#P" n="4"/>dies de se non est vos singularis ad unum diem
+          <lb ed="#P" n="5"/>tantum significandum determinata: sed est
+          <lb ed="#P" n="6"/>vox communis et indifferens, quae aliter 
+          sumi<lb break="no" ed="#P" n="7"/>tur, quando cum aliqua determinatione 
+          poni<lb break="no" ed="#P" n="8"/>tur, ut dies unus, dies primus, secundus, aut
+          <lb ed="#P" n="9"/>septimus: aliter vero quando absolute et 
+          inde<lb break="no" ed="#P" n="10"/>finite ponitur, et tunc ex circumstantiis, et
+          <lb ed="#P" n="11"/>materia sermonis potest nunc ad singularem
+          <lb ed="#P" n="12"/>diem, nunc ad indefinitum tempus, vel diem,
+          <lb ed="#P" n="13"/>vel etiam ad plures dies cum aliqua 
+          accommo<lb break="no" ed="#P" n="14"/>da partitione significandos determinari. Et ita
+          <lb ed="#P" n="15"/>in toto cap. 1 et 2 Genesis ; ubi sumitur pro
+          <lb ed="#P" n="16"/>singulari die, cum aliqua determinatione 
+          po<lb break="no" ed="#P" n="17"/>nitur indefinite quemcumque diem, et plures
+          <lb ed="#P" n="18"/>significat, ut cum dicitur in cap. 1: Appellavit,
+          <lb ed="#P" n="19"/>que lucem diem, et infra: Fiant luninaria, et
+          <lb ed="#P" n="20"/>dividant diem, ac noctem, et iterum: Posuit
+          <lb ed="#P" n="21"/>Deus luminare majus, ut praeesset diei, etc. In
+          <lb ed="#P" n="22"/>quibus omnibus locis pro quocumque die 
+          in<lb break="no" ed="#P" n="23"/>differenter vox illa sumitur, quia proprietas ibi
+          <lb ed="#P" n="24"/>indicata in omnibus invenitur. Sic ergo in 
+          ca<lb break="no" ed="#P" n="25"/>pite secundo prius est sermo de singulari die
+          <lb ed="#P" n="26"/>cum additione septimi diei. Postea vero cum
+          <lb ed="#P" n="27"/>generatim fit sermo de operibus illorum die-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="28"/>rum, indefinite dicitur: In die quo fecit 
+          Domi<lb break="no" ed="#P" n="29"/>nus, etc., ut indicetur sermonem esse 
+          indefi<lb break="no" ed="#P" n="30"/>tum de tempore illo, in quo factus, et formatus
+          <lb ed="#P" n="31"/>est mundus, vel de quocumque illorumdierum,
+          <lb ed="#P" n="32"/>in quibus Deus operatus est ante septimum
+          <lb ed="#P" n="33"/>diem. Nec mirum est, quod Moyses, cum 
+          sum<lb break="no" ed="#P" n="34"/>matim opera recapitulet, dies etiam, in quibus
+          <lb ed="#P" n="35"/>facta sunt, uno etiam diei nomine 
+          comprehen<lb break="no" ed="#P" n="36"/>dat. Addo tandem duplicem aliam 
+          significa<lb break="no" ed="#P" n="37"/>tionem nomine diei in dicto capite primo 
+          Ge<lb break="no" ed="#P" n="38"/>nesis indicari, scilicet, artificialis, qui ab ortu
+          <lb ed="#P" n="39"/>Solis usque ad ejus occasum durat, et 
+          natura<lb break="no" ed="#P" n="40"/>lis, qui integra revolutione Solis conficitur.
+          <lb ed="#P" n="41"/>Prior enim significatio indicatur in illis verbis:
+          <lb ed="#P" n="42"/>Appellavitque lucem diem, et ibi, Ut dividant
+          <lb ed="#P" n="43"/>diem, ac noctem, et ibi, Luminare majus, ut
+          <lb ed="#P" n="44"/>praeesset diei. AMera vero ibi, Factunque est
+          <lb ed="#P" n="45"/>vespere, et mane dies unus. Nam quia tempus
+          <lb ed="#P" n="46"/>lucis et praesentiae Solis est pars praecipua 
+          in<lb break="no" ed="#P" n="47"/>tegri diei naturalis, ideo integer cursus Solis
+          <lb ed="#P" n="48"/>a praecipua parte dies appellatus est, vel certe
+          <lb ed="#P" n="49"/>quia Sol ubicumque adest, diem facit, et nox
+          <lb ed="#P" n="50"/>quasi per accidens ex absentia ejus sequitur.
+          <lb ed="#P" n="51"/>Et utraque significatio propria est, licet ex 
+          cir<lb break="no" ed="#P" n="52"/>cumstantia litterae sit determinanda: sic ergo
+          <lb ed="#P" n="53"/>de usu ejusdem vocis in aliis significationibus
+          <lb ed="#P" n="54"/>censendum est.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

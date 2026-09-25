@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 14</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 14</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="567"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y13844"><!-- t3l1c14 -->
+        <head xml:id="szdada-y13844-Hd1e101">Caput 14</head>
+        <head xml:id="szdada-y13844-Hd1e103" type="question-title">Utrum eadem anima informet omnes, et singulas partes viventis</head>
+        <p xml:id="szdada-y13844-d1e106">
+          <lb ed="#P" n="74"/>CAPUT XIV.
+          <lb ed="#P" n="75"/>UTRUM EADEM ANIMA INFORMET OMNES, ET 
+          SIN<lb break="no" ed="#P" n="76"/>GULAS PARTES VIVENTIS.
+        </p>
+        <p xml:id="szdada-y13844-d1e115">
+          <lb ed="#P" n="77"/>1. Pro parte negante argumenti. — Haec
+          <lb ed="#P" n="78"/>quaestio etiam pertinet ad explicandum animae
+          <lb ed="#P" n="79"/>modum informandi. Cujus negativa pars vera
+          <lb ed="#P" n="80"/>apparet. Primo, quia in diversis membris, 
+          di<lb break="no" ed="#P" n="81"/>versae, imo contrariae reperiuntur 
+          dispositio<lb break="no" ed="#P" n="82"/>nes, cor enim in excellenti gradu calidum est,
+          <lb ed="#P" n="83"/>cerebrum vero in excellenti frigidum: ergo
+          <lb ed="#P" n="84"/>non potest eadem forma eas partes informare.
+          <lb ed="#P" n="85"/>Secundo, quando pars abscinditur, retinet
+          <lb ed="#P" n="86"/>eamdem formam substantialem, quam 
+          habe<lb break="no" ed="#P" n="87"/>bat in toto, non retinet autem animam 
+          tota<lb break="no" ed="#P" n="88"/>lem: ergo partialem aliam, quam etiam 
+          habe<lb break="no" ed="#P" n="89"/>bat. Major patet: tum quia non est a quo
+          <lb ed="#P" n="90"/>introducatur nova: tum quia abscissa pars
+          <lb ed="#P" n="91"/>potest reuniri: retinuit ergo eamdem formam.
+          <lb ed="#P" n="92"/>Tertio. In vivente quaedam partes sentiunt
+          <lb ed="#P" n="93"/>aliae non sentiunt, sed vegetantur, ut ossa,
+          <lb ed="#P" n="94"/>aliae nec vegetantur, nec sentiunt, ut sanguis
+          <lb ed="#P" n="95"/>et capilli, incredibile autem apparet, quod
+          <lb ed="#P" n="96"/>una, et eadem forma tam diversos effectus
+          <lb ed="#P" n="97"/>causet: ergo, etc.
+        </p>
+        <p xml:id="szdada-y13844-d1e163">
+          <lb ed="#P" n="98"/>2. Prima assertio bipartita pro anima 
+          divi<lb break="no" ed="#P" n="99"/>sibili. — Prior pars ostenditur. — Praesens
+          <lb ed="#P" n="100"/>difficultas minor est in viventibus, quae formas
+          <lb ed="#P" n="101"/>habent divisibiles et extensas, nam in illis
+          <lb ed="#P" n="102"/>tota forma est in tota, et pars in parte, atque
+          <lb ed="#P" n="103"/>adeo una est forma informans totum, quamvis
+          <pb ed="#P" n="568"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non simplex sit, sed composita, sicut etiam in
+          <lb ed="#P" n="2"/>non animatis contingit. Sit ergo prima 
+          con<lb break="no" ed="#P" n="3"/>clusio. In viventibus, quae animas habent 
+          ex<lb break="no" ed="#P" n="4"/>tensas, una estanima informans partes omnes,
+          <lb ed="#P" n="5"/>coalita tamen ex partibus diversarum 
+          ratio<lb break="no" ed="#P" n="6"/>num partialium. Prima pars conclusionis 
+          pro<lb break="no" ed="#P" n="7"/>batur, quia vivens unum per se est 
+          substan<lb break="no" ed="#P" n="8"/>tiale suppositum, cujus omnes partes sunt
+          <lb ed="#P" n="9"/>continuae: ergo habent unam formam eas 
+          in<lb break="no" ed="#P" n="10"/>formantem. Item una integra a qua unam
+          <lb ed="#P" n="11"/>habet formam, a qua vendicat esse, et 
+          unita<lb break="no" ed="#P" n="12"/>tem: ergo et vivens, quod non minus est
+          <lb ed="#P" n="13"/>unum. Namque ad unitatem formae non est
+          <lb ed="#P" n="14"/>necesse, ut illamet entitas, quae informat 
+          par<lb break="no" ed="#P" n="15"/>tem unam, informet et alias, sed et satis, si
+          <lb ed="#P" n="16"/>una sit ex compositione et unione plurium
+          <lb ed="#P" n="17"/>partium: sicut et corpus hoc solo modo dicitur
+          <lb ed="#P" n="18"/>unum.
+        </p>
+        <p xml:id="szdada-y13844-d1e223">
+          <lb ed="#P" n="19"/>3. Posterior quoque suadetur. — Secunda
+          <lb ed="#P" n="20"/>pars conclusionis probatur primo, quia 
+          ejus<lb break="no" ed="#P" n="21"/>modi partiales formae requirunt ex propria
+          <lb ed="#P" n="22"/>ratione diversas dispositiones: ergo sunt 
+          di<lb break="no" ed="#P" n="23"/>versarum rationum. Item habent ex se 
+          diver<lb break="no" ed="#P" n="24"/>sos effectus formales, nam pars formae arboris,
+          <lb ed="#P" n="25"/>quae constituit folium non posset constituere
+          <lb ed="#P" n="26"/>radicem arboris, neque e contrario. Item 
+          ope<lb break="no" ed="#P" n="27"/>rationes diversarum partium sunt diversee,
+          <lb ed="#P" n="28"/>forma autem coaptatur diversis partibus
+          <lb ed="#P" n="29"/>dispositionum. Tandem forma integra totius
+          <lb ed="#P" n="30"/>arboris, quae informat radices, truncum,
+          <lb ed="#P" n="31"/>folia, etc., secundum se sumpta non 
+          po<lb break="no" ed="#P" n="32"/>test esse tam homogenea, sicut formae 
+          i<lb break="no" ed="#P" n="33"/>gnis, alias nulla esset ratio, cur una illius
+          <lb ed="#P" n="34"/>pars esset magis in una parte materiae,
+          <lb ed="#P" n="35"/>quam alia: ergo non est tam similaris,
+          <lb ed="#P" n="36"/>nec ejusdem rationis in omnibus partibus :
+          <lb ed="#P" n="37"/>ergo distinguuntur partes illius secundum
+          <lb ed="#P" n="38"/>partiales rationes. Nec inferas: ergo illae 
+          par<lb break="no" ed="#P" n="39"/>tes non sunt continuabiles, quia sunt specie
+          <lb ed="#P" n="40"/>diversae: nam id habet verum in iis, quae 
+          dif<lb break="no" ed="#P" n="41"/>ferunt totali specie, non vero in iis, quae 
+          par<lb break="no" ed="#P" n="42"/>tialiter differunt, et ordinantur ad 
+          integrita<lb break="no" ed="#P" n="43"/>tem totius suppositi, ut in proposito: et sicut
+          <lb ed="#P" n="44"/>in artificialibus partes diversarum rationum
+          <lb ed="#P" n="45"/>uniuntur aliquo modo ad integrandum 
+          perfec<lb break="no" ed="#P" n="46"/>tum artificium, ita in naturalibus, etc.
+        </p>
+        <p xml:id="szdada-y13844-d1e286">
+          <lb ed="#P" n="47"/>4. Quid de anima indivisibili senserint non
+          <lb ed="#P" n="48"/>pauci apud Galenum. — Et apud Albertum.—
+          <lb ed="#P" n="49"/>Difficultas ergo quaestionis superest de his 
+          vi<lb break="no" ed="#P" n="50"/>ventibus, quae habent animas indivisibiles, de
+          <lb ed="#P" n="51"/>quibus fuit antiqua Platonis, et aliorum opinio,
+          <lb ed="#P" n="52"/>quam Galenus refert 5 et 6, de Placitis, 
+          ani<lb break="no" ed="#P" n="53"/>mam nostram in corpore non esse simplicem,
+          <lb ed="#P" n="54"/>sed ex multis compositam: ponebant enim
+          <lb ed="#P" n="55"/>animam concupiscibilem ad appetendum ci-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bum, etc., quam aiebant esse in hepate, et
+          <lb ed="#P" n="57"/>animam irascibilem in corde, cujus munus est
+          <lb ed="#P" n="58"/>cohibere concupiscibilem, si esset effrenis, et
+          <lb ed="#P" n="59"/>tueri illam ab adversariis. Tertiam ponebant
+          <lb ed="#P" n="60"/>rationalem in cerebro, quasi in arce ad 
+          impe<lb break="no" ed="#P" n="61"/>randum et gubernandum. Idem refert Albertus,
+          <lb ed="#P" n="62"/>I. 2, de Anima, c. ult., Philoponus, in lib. de
+          <lb ed="#P" n="63"/>Anim., fol. 4, colum. 3. Idem sentit 
+          Pythago<lb break="no" ed="#P" n="64"/>ras, differebat tamen in modo loquendi, 
+          vole<lb break="no" ed="#P" n="65"/>bat enim has esse tres animas totales, et 
+          conse<lb break="no" ed="#P" n="66"/>quenter plures animas congregari in homine:
+          <lb ed="#P" n="67"/>Plato vero non tres animas, sed tres partes
+          <lb ed="#P" n="68"/>animae illas appellabat. Refertur etiam 
+          Aristo<lb break="no" ed="#P" n="69"/>teles 3, de Anima, text. 90, Cicero, 1 
+          Tuscula<lb break="no" ed="#P" n="70"/>na, qui Platonem sequitur cum Galeno, 
+          Tertul<lb break="no" ed="#P" n="71"/>lianus, in to. 3, lib. de Anima, c. 24, et lib.
+          <lb ed="#P" n="72"/>de Resurrect. carnis. Philo Judaeus, lib. de eo,
+          <lb ed="#P" n="73"/>quod deterius potiori insidiari soleat, pagin.
+          <lb ed="#P" n="74"/>mihi 112, et lib. 1, Allegoriar.. pag. 36, et lib.
+          <lb ed="#P" n="75"/>1. pag. 54. Simonportius, lib. de Mente 
+          hu<lb break="no" ed="#P" n="76"/>mana, c. 70. Et id tribuit Aristoteli, eo quod
+          <lb ed="#P" n="77"/>secundum eum anima tantum est in corde,
+          <lb ed="#P" n="78"/>quod certe insinuat, libro de communi animal.
+          <lb ed="#P" n="79"/>motu, in fipe, ubi ait: Quocirca non est opus
+          <lb ed="#P" n="80"/>in quoquo membro animam inesse, sed cum 
+          in<lb break="no" ed="#P" n="81"/>certo principio consistat, reliqua memhra, quod
+          <lb ed="#P" n="82"/>illi adjungantur, uniunt atque officia per 
+          natu<lb break="no" ed="#P" n="83"/>ram obeunt sua. Idem insinuat, lib. de 
+          Juven<lb break="no" ed="#P" n="84"/>tute, c. 1. Itemque Albertus Magnus 2. de
+          <lb ed="#P" n="85"/>Anima, tractat. 1, cap. 27, sed obiter 
+          Aristo<lb break="no" ed="#P" n="86"/>teles vero exponendus est, loqui scilicet de vi
+          <lb ed="#P" n="87"/>motiva, vel secundum principalitatem, ut
+          <lb ed="#P" n="88"/>aiunt, quod anima sit in corde, ut in prima
+          <lb ed="#P" n="89"/>sede, non quod sit in alis.
+        </p>
+        <p xml:id="szdada-y13844-d1e384">
+          <lb ed="#P" n="90"/>5. Quid alii presertim medici apud 
+          Ny<lb break="no" ed="#P" n="91"/>phum. — Est alia opinio, quae ponit unam
+          <lb ed="#P" n="92"/>animam informare totum corpus, tamen 
+          prae<lb break="no" ed="#P" n="93"/>ter illam, inquiunt, esse diversas partiales 
+          for<lb break="no" ed="#P" n="94"/>mas in diversis partibus heterogeneis: quam
+          <lb ed="#P" n="95"/>tenent multi medici, quos refert, et sequitur
+          <lb ed="#P" n="96"/>Nyphus 1, de Generatione, text. 78, ac videtur
+          <lb ed="#P" n="97"/>esse opinio Commentatoris 12 Metaphysica,
+          <lb ed="#P" n="98"/>text. 17, ubi ait, quod totum animal, et partes
+          <lb ed="#P" n="99"/>ejus conveniunt in forma totius, differunt 
+          ta<lb break="no" ed="#P" n="100"/>men in formis specificis ipsarum partium.
+          <lb ed="#P" n="101"/>Idem tenet Antonius Andraeas 7, Metaphysicae,
+          <lb ed="#P" n="102"/>q. 17, Venetus 2, de Anima, q. 23. Et quidam
+          <lb ed="#P" n="103"/>eorum aiunt, has partiales formas esse adeo
+          <lb ed="#P" n="104"/>imperfectas, ut nequeant subsistere sine totali.
+          <lb ed="#P" n="105"/>Alii, ut nullum esse existentiae tribuant, sed
+          <lb ed="#P" n="106"/>quodammodo partiale.
+        </p>
+        <p xml:id="szdada-y13844-d1e423">
+          <lb ed="#P" n="107"/>6. Prima assertio pro anima indivisibili.—
+          <lb ed="#P" n="108"/>Probatur prima per dilemma.—Contra has 
+          opi<lb break="no" ed="#P" n="109"/>niones sit secunda conclusio. In viventibus,
+          <lb ed="#P" n="110"/>quae habent animas indivisibiles, eadem ani-
+          <pb ed="#P" n="569"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ma est, et nulla alia forma, quae informet eas
+          <lb ed="#P" n="2"/>partes viventis, quae inter se continuae sunt, et
+          <lb ed="#P" n="3"/>in quibus est aliqua operatio vitalis. Haec est
+          <lb ed="#P" n="4"/>D. Thomae, et communis theologorum in 2,
+          <lb ed="#P" n="5"/>dist. 17, ubi Gregorius, q. 2, Hervaeus, tract.
+          <lb ed="#P" n="6"/>de Pluralitate formarum. Idem tenent 
+          philoso<lb break="no" ed="#P" n="7"/>phi fere omnes in libro de Anima. Videndus
+          <lb ed="#P" n="8"/>est Albertus, tract. 5, cap. penult., et ex 
+          medi<lb break="no" ed="#P" n="9"/>cis Nyphus supra in Recognitionibus, 
+          Turisa<lb break="no" ed="#P" n="10"/>nus, lib. 2, in Galenum Commento 12, dubio 4.
+          <lb ed="#P" n="11"/>Valles, lib. 4 Controversiar., in fine, et lib. 2,
+          <lb ed="#P" n="12"/>cap. 14. Probatur. Nam si partes heterogeneae
+          <lb ed="#P" n="13"/>haberent partiales formas diversas, vel omnes
+          <lb ed="#P" n="14"/>informarentur postea quadam anima totali,
+          <lb ed="#P" n="15"/>vel non: utrumque autem istorum est 
+          impos<lb break="no" ed="#P" n="16"/>sibile: ergo. Probatur minor quoad primam
+          <lb ed="#P" n="17"/>partem. Nam si habent partiales formas, et
+          <lb ed="#P" n="18"/>rursus animam totalem, in eadem parte esset
+          <lb ed="#P" n="19"/>pluralitas formarum substantialium, quod
+          <lb ed="#P" n="20"/>seepe probatum est esse impossibile. Item si
+          <lb ed="#P" n="21"/>anima totalis informat omnes partes, manet
+          <lb ed="#P" n="22"/>eadem difficultas, scilicet quod diversas 
+          dispo<lb break="no" ed="#P" n="23"/>sitiones in illis habeat, et quod non praebeat
+          <lb ed="#P" n="24"/>illis idem esse, quare superflue adduntur 
+          par<lb break="no" ed="#P" n="25"/>tiales formae. Item arguitur tertio. Nam si os,
+          <lb ed="#P" n="26"/>verbi gratia, habet partialem formam, per 
+          il<lb break="no" ed="#P" n="27"/>lam constituitur in tali esse, id est, in esse
+          <lb ed="#P" n="28"/>ossis: ad hoc enim ponuntur praedictae formae,
+          <lb ed="#P" n="29"/>alias superfluae sunt: ergo anima totalis 
+          nul<lb break="no" ed="#P" n="30"/>lum effectum formalem habet in tali parte,
+          <lb ed="#P" n="31"/>quia non praebet illi aliud esse: ergo non 
+          in<lb break="no" ed="#P" n="32"/>format illam. Item quia illae partiales formae
+          <lb ed="#P" n="33"/>debent esse animae, alias non haberent 
+          ope<lb break="no" ed="#P" n="34"/>rationem vitalem, nec dispositionem vitae, et
+          <lb ed="#P" n="35"/>consequenter fuissent superfluae, quod non est
+          <lb ed="#P" n="36"/>admittendum: essent ergo in eadem parte 
+          vi<lb break="no" ed="#P" n="37"/>ventis plures animae, quod improbatum est,
+          <lb ed="#P" n="38"/>cap. 5. Si vero dicatur secundum, scilicet quod
+          <lb ed="#P" n="39"/>partes non informantur anima totali, sed 
+          tan<lb break="no" ed="#P" n="40"/>tum suis partialhbus formis. Contra arguitur,
+          <lb ed="#P" n="41"/>vel illae partes habent inter se continuationem,
+          <lb ed="#P" n="42"/>vel non: si habent, ex illis integrabitur una
+          <lb ed="#P" n="43"/>anima, quae erit divisibilis, et extensa contra
+          <lb ed="#P" n="44"/>id, quod supponimus de indivisibilitate 
+          prae<lb break="no" ed="#P" n="45"/>dictarum animarum ; si autem non habent
+          <lb ed="#P" n="46"/>continuationem: ergo quaelibet per se 
+          consti<lb break="no" ed="#P" n="47"/>tuit suum suppositum vivens: et animal ex
+          <lb ed="#P" n="48"/>eis resultans non erit per se unum, sed per 
+          ac<lb break="no" ed="#P" n="49"/>cidens aggregatum multorum.
+        </p>
+        <p xml:id="szdada-y13844-d1e545">
+          <lb ed="#P" n="50"/>7. Probatur secunda principaliter assertio.
+          <lb ed="#P" n="51"/>— Probatur tertia pr incipaliter. — Probatur
+          <lb ed="#P" n="52"/>quarta.—Probatur quinta.--Probatur serta.—
+          <lb ed="#P" n="53"/>Secundo, si haec anima indivisibilis non est in
+          <lb ed="#P" n="54"/>omnibus partibus, erit saltem in una: peto
+          <lb ed="#P" n="55"/>ergo, an illa sit organica, necne? Si non est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>organica: ergo talis forma non est actus 
+          cor<lb break="no" ed="#P" n="57"/>poris physici organici, ergo non est anima:
+          <lb ed="#P" n="58"/>si est organica: ergo sicut informat partes 
+          di<lb break="no" ed="#P" n="59"/>versarum rationum in illa parte, ita poterit
+          <lb ed="#P" n="60"/>informare partes diversarum rationum in
+          <lb ed="#P" n="61"/>toto: ergo superfluunt partiales formae.
+          <lb ed="#P" n="62"/>Rursus interrogo, quaenam sit illa pars.
+          <lb ed="#P" n="63"/>Dices esse cor. Contra: nam vis sentiendi
+          <lb ed="#P" n="64"/>non provenit potissime a parte illa, seda
+          <lb ed="#P" n="65"/>cerebro et vis vegetandi ab hepate: ergo 
+          po<lb break="no" ed="#P" n="66"/>tius esset anima in aliqua istarum partium,
+          <lb ed="#P" n="67"/>quod si concedas, argumentum plane 
+          conclu<lb break="no" ed="#P" n="68"/>dit esse in omnibus: nam probatum est supra
+          <lb ed="#P" n="69"/>esse eamdem formam, a qua omnes illae vires
+          <lb ed="#P" n="70"/>procedunt: ergo si potest una forma, et eadem
+          <lb ed="#P" n="71"/>has partes adeo diversas informare, poterit 
+          in<lb break="no" ed="#P" n="72"/>formare alias. Praeterea, quia si haec forma
+          <lb ed="#P" n="73"/>tantum est in una parte: ergo non est forma
+          <lb ed="#P" n="74"/>totius. Dices formam totius appellari, quia in
+          <lb ed="#P" n="75"/>unica parte existens gubernat, et influit in 
+          om<lb break="no" ed="#P" n="76"/>nes alias: sed falso dices: tum quia nulla est
+          <lb ed="#P" n="77"/>pars in hujusmodi animalibus, quae sola ipsa
+          <lb ed="#P" n="78"/>sit principium omnium virtutum totius, ut
+          <lb ed="#P" n="79"/>postea dicemus: tum quia hoc dato, posset
+          <lb ed="#P" n="80"/>illa dici gubernator, aut motor totius 
+          cor<lb break="no" ed="#P" n="81"/>poris, non tamen vera forma totius. Tertio
+          <lb ed="#P" n="82"/>arguitur. Nam supra c. 13, n. 11, multis 
+          ex<lb break="no" ed="#P" n="83"/>perientiis ostensum est, operationes, quae fiunt
+          <lb ed="#P" n="84"/>in diversis partibus viventis, procedere ab 
+          ea<lb break="no" ed="#P" n="85"/>dem anima: ergo illa eadem anima informat
+          <lb ed="#P" n="86"/>omnes partes. Patet consequentia, quia tales
+          <lb ed="#P" n="87"/>operationes sunt vitales: ergo procedunt a
+          <lb ed="#P" n="88"/>forma informante. Et confirmatur. Nam 
+          ope<lb break="no" ed="#P" n="89"/>rationes partium procedunt a forma 
+          infor<lb break="no" ed="#P" n="90"/>mante illas, et procedunt ab eadem anima:
+          <lb ed="#P" n="91"/>ergo eadem anima informat illas. Quarto. 
+          Ani<lb break="no" ed="#P" n="92"/>ma est actus primus dans esse composito: ergo
+          <lb ed="#P" n="93"/>dat esse omnibus partibus, nam esse totius
+          <lb ed="#P" n="94"/>consurgit ex esse partium, ideoque 
+          impossi<lb break="no" ed="#P" n="95"/>bile est intelligere, quod alia sit forma totius,
+          <lb ed="#P" n="96"/>et alia partium. Quinto si manus haberet
+          <lb ed="#P" n="97"/>suam partialem formam, etiam divisa posset
+          <lb ed="#P" n="98"/>conservare illam, saltem aliquo tempore: 
+          ma<lb break="no" ed="#P" n="99"/>net enim cum eisdem dispositionibus, quas
+          <lb ed="#P" n="100"/>antea habebat, et sola separatio non est 
+          sufli<lb break="no" ed="#P" n="101"/>ciens causa instantaneae corruptionis. 
+          Conse<lb break="no" ed="#P" n="102"/>quens vero est falsum, ait enim Aristoteles 4,
+          <lb ed="#P" n="103"/>Meteor., c. ult. 1, de Generat. animal., c. 19,
+          <lb ed="#P" n="104"/>1, Metaphysicae, text. 25, et 1 de Anim., c. 1,
+          <lb ed="#P" n="105"/>quod manus abscissa est aequivoce talis: ergo.
+          <lb ed="#P" n="106"/>Sexto. Tandem conclusio est plurium consona
+          <lb ed="#P" n="107"/>fidei asserenti animam per se, et essentialiter
+          <lb ed="#P" n="108"/>uniri corpori humano, ut habetur Concilio
+          <lb ed="#P" n="109"/>tertio Lateranensi, sess. S. Corpus autem 
+          hu<lb break="no" ed="#P" n="110"/>manum est id, quod variis membris constat,
+          <pb ed="#P" n="570"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et non aliqua pars illius. Faciunt pro hac 
+          con<lb break="no" ed="#P" n="2"/>clusione supra adducta, c. 6 et 12.
+        </p>
+        <p xml:id="szdada-y13844-d1e691">
+          <lb ed="#P" n="3"/>8. Ad primum argumentum in num. 1.— Ad
+          <lb ed="#P" n="4"/>secundum ib. — Ad tertium ib. — Ad primum
+          <lb ed="#P" n="5"/>respondetur esse differentiam inter formam
+          <lb ed="#P" n="6"/>divisibilem et indivisibilem, quod divisibilis
+          <lb ed="#P" n="7"/>tota respicit totam materiam, et pars partem,
+          <lb ed="#P" n="8"/>forma vero indivisibilis respicit ut adaequatum
+          <lb ed="#P" n="9"/>subjectum totam materiam, partem vero non
+          <lb ed="#P" n="10"/>respicit per se, sed in quantum integrat totum,
+          <lb ed="#P" n="11"/>quare non est inconveniens, quod eadem 
+          for<lb break="no" ed="#P" n="12"/>ma in diversis partibus requirat diversas et
+          <lb ed="#P" n="13"/>contrarias dispositiones, quia ex illis partibus
+          <lb ed="#P" n="14"/>resultat unum integrum susceptivum 
+          attempe<lb break="no" ed="#P" n="15"/>ratum juxta exigentiam formae. Ad secundum
+          <lb ed="#P" n="16"/>negatur major. Ad primam ejus probationem
+          <lb ed="#P" n="17"/>respondetur idem argumentum esse de 
+          qua<lb break="no" ed="#P" n="18"/>cumque forma cadaveris: eadem ergo est 
+          so<lb break="no" ed="#P" n="19"/>lutio alibi tradita. Ad secundam respondetur.
+          <lb ed="#P" n="20"/>81 pars non totaliter abscindatur, non amitti
+          <lb ed="#P" n="21"/>animam, si vero totaliter, aiunt quidam non
+          <lb ed="#P" n="22"/>posse iterum informari illa anima, videri 
+          ta<lb break="no" ed="#P" n="23"/>men habere aliquam perationem vitalem 
+          prop<lb break="no" ed="#P" n="24"/>ter unionem intimam, quam habet cum aliis
+          <lb ed="#P" n="25"/>partibus absque nova informatione. Ita 
+          res<lb break="no" ed="#P" n="26"/>pondent Nyphus et alii: videtur tamen valde
+          <lb ed="#P" n="27"/>probabile posse iterum reuniri, et informari
+          <lb ed="#P" n="28"/>eadem anima per modum nutritionis. Nam
+          <lb ed="#P" n="29"/>sicut illa anima potest unire sibi materiam cibi
+          <lb ed="#P" n="30"/>et informare, ita potest reunire sibi materiam
+          <lb ed="#P" n="31"/>partis abscissae et informare, maxime si illi
+          <lb ed="#P" n="32"/>conjungatur statim antequam amittat 
+          dispo<lb break="no" ed="#P" n="33"/>sitiones proprias. Neque in hoc apparet ratio
+          <lb ed="#P" n="34"/>impossibilitatis, imo nec tunc fiet proprie 
+          re<lb break="no" ed="#P" n="35"/>gressus a privatione ad habitum, quia materia
+          <lb ed="#P" n="36"/>illa non fuit simpliciter separata a forma, sed
+          <lb ed="#P" n="37"/>ex parte. Tertium argumentum difticilius est,
+          <lb ed="#P" n="38"/>nam petit, ut explicemus, quo modo primo, et
+          <lb ed="#P" n="39"/>per se differant partes heterogeneae: hoc vero
+          <lb ed="#P" n="40"/>abunde exposuimus supra c. 2, n. 29.
+        </p>
+        <p xml:id="szdada-y13844-d1e777">
+          <lb ed="#P" n="41"/>9. Tertia assertio. — Concluditur probatio
+          <lb ed="#P" n="42"/>assertionis.—Instatur contra promimam 
+          asser<lb break="no" ed="#P" n="43"/>Lionem. — Ex quibus sequitur haec tertia 
+          con<lb break="no" ed="#P" n="44"/>clusio. Anima indivisibilis, et nulla alia est
+          <lb ed="#P" n="45"/>tota in toto, et tota in qualibet parte. Ad 
+          cu<lb break="no" ed="#P" n="46"/>jus probationem supponit D. Thomas, 1 p.,
+          <lb ed="#P" n="47"/>q. 76, a. 8, triplicem totalitatem formae. Prima
+          <lb ed="#P" n="48"/>esse essentialis, quae consurgit ex compositione
+          <lb ed="#P" n="49"/>generis et differentiae, secundum quam 
+          tota<lb break="no" ed="#P" n="50"/>litatem quaelibet forma etiam divisibilis est
+          <lb ed="#P" n="51"/>tota in toto, et tota in qualibet parte, quoniam
+          <lb ed="#P" n="52"/>in qualibet parte formae est tota essentia 
+          for<lb break="no" ed="#P" n="53"/>mae. Secunda totalitas est potentialis, unde
+          <lb ed="#P" n="54"/>vocatur totum potentiale, et secundum hanc
+          <lb ed="#P" n="55"/>nulla anima etiam indivisibilis, est tota in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>qualibet parte, quia non in omnibus habet
+          <lb ed="#P" n="57"/>omnes potentias. Tertia est totalitas 
+          quantita<lb break="no" ed="#P" n="58"/>tiva, et secundum hanc formae quidem 
+          divisi<lb break="no" ed="#P" n="59"/>biles, non possunt esse totae in qualibet parte,
+          <lb ed="#P" n="60"/>quia cum sint extensae, adaptantur quantitati,
+          <lb ed="#P" n="61"/>ut pars sit in parte, ac tota in toto: formae
+          <lb ed="#P" n="62"/>vero indivisibiles, cum non habeant partes,
+          <lb ed="#P" n="63"/>earum totalitas potest dici solum entitativa, et
+          <lb ed="#P" n="64"/>secundum eam totam dicuntur esse in qualibet
+          <lb ed="#P" n="65"/>parte, quam informant. Ita patet expositio et
+          <lb ed="#P" n="66"/>probatio conclusionis quoad utramque partem.
+          <lb ed="#P" n="67"/>Atque hinc intelligitur, quomodo res 
+          indivi<lb break="no" ed="#P" n="68"/>sibilis valeat totam materiam divisibilem, et
+          <lb ed="#P" n="69"/>extensam informare, non enim est indivisibilis
+          <lb ed="#P" n="70"/>instar puncti, ut D. Thomas adnotat de 
+          spiri<lb break="no" ed="#P" n="71"/>tualibus creaturis, a. 4, ad 16. Nam punctum
+          <lb ed="#P" n="72"/>ad genus quantitatis pertinet, anima vero 
+          in<lb break="no" ed="#P" n="73"/>divisibilis transcendit aliquo modo genus 
+          quan<lb break="no" ed="#P" n="74"/>titatis, et ideo non circumscribitur sicut res
+          <lb ed="#P" n="75"/>quanta, neque uni solum puncto limitatur, sed
+          <lb ed="#P" n="76"/>in diversis partibus simul tota esse potest. 
+          In<lb break="no" ed="#P" n="77"/>feres primo: ergo tota anima est in digito,
+          <lb ed="#P" n="78"/>atque adeo unus digitus homo est, cum nihil
+          <lb ed="#P" n="79"/>aliud homo sit, quam compositum ex materia,
+          <lb ed="#P" n="80"/>et forma rationali. Secundo inferes intellectum
+          <lb ed="#P" n="81"/>esse in pede, si anima tota in pede est. Tertio
+          <lb ed="#P" n="82"/>animam posse ascendere simul et descendere,
+          <lb ed="#P" n="83"/>si, verbigratia, simul alteram manum attollam,
+          <lb ed="#P" n="84"/>alteram deprimam. Quarto animam totam si in
+          <lb ed="#P" n="85"/>manu est, reirahi ad reliquum corpus, si forte
+          <lb ed="#P" n="86"/>manus praecidatur, quae omnia videntur 
+          ab<lb break="no" ed="#P" n="87"/>surda.
+        </p>
+        <p xml:id="szdada-y13844-d1e884">
+          <lb ed="#P" n="88"/>10. Ad instantiam. — Ad primum negatur
+          <lb ed="#P" n="89"/>posterior sequela, nam homo significat per se
+          <lb ed="#P" n="90"/>subsistens in natura humana: at digitus non
+          <lb ed="#P" n="91"/>est hujusmodi. Itaque homo solum dicitur
+          <lb ed="#P" n="92"/>compositum ex anima et materia illi adaequata,
+          <lb ed="#P" n="93"/>in qua scilicet valeat a se conservari, quodque
+          <lb ed="#P" n="94"/>habeat potentias omnes, et passiones naturae
+          <lb ed="#P" n="95"/>debitas, ac per illas operatur, quod nulli parti
+          <lb ed="#P" n="96"/>quadrat. Unde intelligitur ratio, cur in 
+          homo<lb break="no" ed="#P" n="97"/>geneis pars recipiat denominationem totius,
+          <lb ed="#P" n="98"/>non vero in heterogeneis. Ad secundum 
+          nega<lb break="no" ed="#P" n="99"/>tur intellectum esse in parte corporis, cum
+          <lb ed="#P" n="100"/>sit in anima immediate, nec valet illa 
+          conse<lb break="no" ed="#P" n="101"/>quentia: Anima est in pede, intellectus est in
+          <lb ed="#P" n="102"/>anima: ergo intellectus est in pede: fit enim
+          <lb ed="#P" n="103"/>argumentum in quatuor terminis, cum 
+          varia<lb break="no" ed="#P" n="104"/>tur modus essendi, est siquidem in pede 
+          ani<lb break="no" ed="#P" n="105"/>ma, ut informans, intellectus vero in anima,
+          <lb ed="#P" n="106"/>ut inhaerens, in corpore autem nullo modo.
+          <lb ed="#P" n="107"/>Unde solum sequitur, intellectum esse in 
+          ani<lb break="no" ed="#P" n="108"/>ma informante pedem, dici tamen improprie
+          <lb ed="#P" n="109"/>potest intellectum esse in capite ratione 
+          sen<lb break="no" ed="#P" n="110"/>suum illi ministrantium. Ad tertium Cajeta-
+          <pb ed="#P" n="571"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nus, 1 p., q. 76, a. 8, putat animam tantum
+          <lb ed="#P" n="2"/>mutari, cum totus homo mutatur, et quod
+          <lb ed="#P" n="3"/>tantum sit definitive in toto homine: idem
+          <lb ed="#P" n="4"/>significat S. Thomas, in 1, dist. 37, q. 1,a. 3,
+          <lb ed="#P" n="5"/>ad 4. Sed non dubito, quin ad motum brachii
+          <lb ed="#P" n="6"/>anima mutetur, nam mutatis nobis, ut ait
+          <lb ed="#P" n="7"/>Aristoteles, mutantur ea, quae sunt in nobis,
+          <lb ed="#P" n="8"/>atque si consideretur anima prout est in 
+          bra<lb break="no" ed="#P" n="9"/>chio, mutat certe respectum prioris 
+          propin<lb break="no" ed="#P" n="10"/>quitatis, aut distantiae. Respondetur ergo non
+          <lb ed="#P" n="11"/>esse inconveniens eamdem animam simul 
+          as<lb break="no" ed="#P" n="12"/>cendere et descendere secundum diversas 
+          par<lb break="no" ed="#P" n="13"/>tes, in quibus est. Ita melius D. Thomas,
+          <lb ed="#P" n="14"/>quaest. de Anima, art. 10, ad 12. Sicut corpus
+          <lb ed="#P" n="15"/>Christi Domini in diversis hostiis existens si-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="16"/>mul ascendit et descendit, illi vero motus
+          <lb ed="#P" n="17"/>simpliciter contrarii non sunt, quia nec per
+          <lb ed="#P" n="18"/>ceamdem lineam, neque inter eosdem terminos
+          <lb ed="#P" n="19"/>exercentur. Ad quartum cum pars dividitur,
+          <lb ed="#P" n="20"/>neque anima corrumpitur, neque retrahitur,
+          <lb ed="#P" n="21"/>sed eodem modo manens in caeteris partibus
+          <lb ed="#P" n="22"/>desinit informare partem divisam: idemque
+          <lb ed="#P" n="23"/>dicendum de formis animalium perfectorum,
+          <lb ed="#P" n="24"/>quia non a singulis partibus, sed a toto 
+          cor<lb break="no" ed="#P" n="25"/>pore in suo esse pendent. Et haec sufficiant de
+          <lb ed="#P" n="26"/>substantia animae, per quae dilucidantur 
+          quaes<lb break="no" ed="#P" n="27"/>tiones 75, 16 et 90, primae partis D. Thomaee,
+          <lb ed="#P" n="28"/>exceptis paucis, quae ibi tangit, pertinentibus
+          <lb ed="#P" n="29"/>ad doctrinam de generatione, quae suo etiam
+          <lb ed="#P" n="30"/>loco sunt exposita.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="396"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y09947"><!-- t2l5c4 -->
+        <head xml:id="szdada-y09947-Hd1e101">Caput 4</head>
+        <head xml:id="szdada-y09947-Hd1e103" type="question-title">Quanta et qualis hominum multiplicatio in statu innocentiae fieret</head>
+        <p xml:id="szdada-y09947-d1e106">
+          <lb ed="#P" n="29"/>CAPUT IV.
+          <lb ed="#P" n="30"/>QUANTA ET QUALIS HOMINUM MULTIPLICATIO IN
+          <lb ed="#P" n="31"/>STATU INNOCENTIAE FIERET.
+        </p>
+        <p xml:id="szdada-y09947-d1e115">
+          <lb ed="#P" n="32"/>1. Quaestio trifida. — Quorumdam sententia
+          <lb ed="#P" n="33"/>cun suo fundamento. — Improbatur. — Aliorum
+          <lb ed="#P" n="34"/>sententia temperans praecedentem. — Caret 
+          ta<lb break="no" ed="#P" n="35"/>men fundamentum. — In hoc quaesito multa
+          <lb ed="#P" n="36"/>includuntur, unum est an fuissent iidem, qui
+          <lb ed="#P" n="37"/>in hoc statu producti sunt, et usque ad diem
+          <lb ed="#P" n="38"/>judicii generabuntur. Aliud est, esto non 
+          es<lb break="no" ed="#P" n="39"/>sent iidem, an essent in aequali numero, vel
+          <lb ed="#P" n="40"/>majori, aut minori, et huic annexum est aliud,
+          <lb ed="#P" n="41"/>scilicet an soli praedestinati, vel etiam reprobi
+          <lb ed="#P" n="42"/>tunc nascerentur. Primo ergo dixerunt aliqui
+          <lb ed="#P" n="43"/>eosdem homines tunc fuisse multiplicandos,
+          <lb ed="#P" n="44"/>qui nunc sunt, fuerunt et erunt, ac proinde
+          <lb ed="#P" n="45"/>fuisse futuros in multitudine aequali. 
+          Fundan<lb break="no" ed="#P" n="46"/>tur in certitudine praedestinationis, quae 
+          vide<lb break="no" ed="#P" n="47"/>tur esse aequalis in reprobatione. Quod quidem
+          <lb ed="#P" n="48"/>fundamentum non est firmum (ut dicam). 
+          Ta<lb break="no" ed="#P" n="49"/>men habet peculiarem difficultatem in 
+          repro<lb break="no" ed="#P" n="50"/>bis, quia videtur incredibile Adamo non 
+          pec<lb break="no" ed="#P" n="51"/>cante tot homines fuisse damnandos, quot
+          <lb ed="#P" n="52"/>nunc damnantur, et ideo addiderunt aliqui,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>eos quidem qui nunc sunt reprobi, tunc fuisse
+          <lb ed="#P" n="54"/>futuros praedestinatos et salvandos, et ita 
+          nu<lb break="no" ed="#P" n="55"/>merum hominum futurum fuisse aequalem,
+          <lb ed="#P" n="56"/>imo eumdem: non tamen numerum 
+          praedesti<lb break="no" ed="#P" n="57"/>natorum et reproborum. Ita refert Basilius
+          <lb ed="#P" n="58"/>2. dist. 20, q. 2, 8 Alii cero: et probabile 
+          ju<lb break="no" ed="#P" n="59"/>dicat. Supponunt tamen rem incertam sine
+          <lb ed="#P" n="60"/>ullo fundamento: scilicet Deum ante 
+          praevi<lb break="no" ed="#P" n="61"/>sum peccatum elegisse homines, qui nunc 
+          sal<lb break="no" ed="#P" n="62"/>vantur, quos primo praedestinatos vocant:
+          <lb ed="#P" n="63"/>post praevisum autem peccatum Adae nunc 
+          re<lb break="no" ed="#P" n="64"/>probasse reliquos: praedestinaturum autem
+          <lb ed="#P" n="65"/>illos fuisse peccaturum. Unde autem hoc
+          <lb ed="#P" n="66"/>sciant, vel quomodo id suadeant ignoramus,
+          <lb ed="#P" n="67"/>nec Bassolis aliquod fundamentum refert, et
+          <lb ed="#P" n="68"/>statim generaliter impugnabitur.
+        </p>
+        <p xml:id="szdada-y09947-d1e200">
+          <lb ed="#P" n="69"/>2. Tertia sententia Scoti quadripartita. —
+          <lb ed="#P" n="70"/>Posteriores due partes unde constent. — 
+          Pro<lb break="no" ed="#P" n="71"/>batur pars prima.—Probatur secunda.—
+          Objec<lb break="no" ed="#P" n="72"/>tio majoris contra Scolum non obstat. — Addit
+          <lb ed="#P" n="73"/>ergo Scotus in secunda distinctione vigesima,
+          <lb ed="#P" n="74"/>quaestione secunda, omnes et solos homines,
+          <lb ed="#P" n="75"/>qui nunc salvantur, fuisse generandos durante
+          <lb ed="#P" n="76"/>innocentia Adami, eos vero, qui nunc 
+          dam<lb break="no" ed="#P" n="77"/>nantur, non fuisse futuros: et ita minorem
+          <lb ed="#P" n="78"/>fuisse futurum numerum hominum in statu
+          <lb ed="#P" n="79"/>innocentiae, quamvis non omnino distinctum
+          <lb ed="#P" n="80"/>in personis ab hominibus, qui post peccatum
+          <lb ed="#P" n="81"/>Adae fuerunt. Hae duae posteriores partes 
+          evi<lb break="no" ed="#P" n="82"/>denter ex prioribus sequuntur. Illas ergo 
+          pro<lb break="no" ed="#P" n="83"/>bat imprimis, auctoritate Gregorii in nono 
+          ca<lb break="no" ed="#P" n="84"/>pite, numeronono, tractanda, et deinde primam
+          <lb ed="#P" n="85"/>partem de praedestinatis suadet ex eo, quod
+          <lb ed="#P" n="86"/>isti qui nunc sunt praedestinati ante praevisum
+          <lb ed="#P" n="87"/>originale peccatum fuerunt electi: ergo 
+          ma<lb break="no" ed="#P" n="88"/>neret firma electio, etiamsi peccatum Adae non
+          <lb ed="#P" n="89"/>fuisset futurum. Alteram vero partem probat
+          <lb ed="#P" n="90"/>ex eo quod in statu innocentiae nulli essent 
+          re<lb break="no" ed="#P" n="91"/>probi, sed omnes praedestinati. Unde non 
+          ob<lb break="no" ed="#P" n="92"/>stat contra Scotum, quod ibi Major objicit,
+          <lb ed="#P" n="93"/>quia non est minus certa reprobatio, quam
+          <lb ed="#P" n="94"/>praedestinatio, seu electio, ac proinde si nunc
+          <lb ed="#P" n="95"/>electi nascerentur propter immutabilitatem
+          <lb ed="#P" n="96"/>electionis, etiam reprobi futuri essent propter
+          <lb ed="#P" n="97"/>certitudinem reprobationis. Responderet enim
+          <lb ed="#P" n="98"/>Scotus reprobationem esse aequecertam quoad
+          <lb ed="#P" n="99"/>praescientiam, non vero quoad praefinitionem,
+          <lb ed="#P" n="100"/>ut etiam D. Thomas dixit, 1 p., q. 23, art. 7,
+          <lb ed="#P" n="101"/>id est, numerum praedestinatorum esse certum
+          <lb ed="#P" n="102"/>ex decreto absoluto voluntatis antecedente
+          <lb ed="#P" n="103"/>praescientiam futurorum: numerum autem 
+          re<lb break="no" ed="#P" n="104"/>proborum solum esse certum ex praescientia,
+          <lb ed="#P" n="105"/>et ideo licet res aliter essent futurae secundum
+          <lb ed="#P" n="106"/>hanc praescientiam, decretum electionis 
+          prae<lb break="no" ed="#P" n="107"/>destinatorum firmum mansisset, non sic autem
+          <pb ed="#P" n="397"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>reprobatorum numerus: quia non praescito
+          <lb ed="#P" n="2"/>peccato, nec reprobi praescirentur.
+        </p>
+        <p xml:id="szdada-y09947-d1e297">
+          <lb ed="#P" n="3"/>3. Sed nihilominus Scoti discursus quoad
+          <lb ed="#P" n="4"/>utramque partem parvi momenti est, ut Major,
+          <lb ed="#P" n="5"/>Molina, Valentia et alii notarunt. De priori
+          <lb ed="#P" n="6"/>manifestum id est, juxta opinionem eorum,
+          <lb ed="#P" n="7"/>qui negant electionem praedestinatorum fuisse
+          <lb ed="#P" n="8"/>ante absolutam praescientiam peccati 
+          origina<lb break="no" ed="#P" n="9"/>lis. Sed quia oppositum docui, libro primo, de
+          <lb ed="#P" n="10"/>Praedestinatione, capite duodecimo, addo quod
+          <lb ed="#P" n="11"/>licet Deus elegerit praedestinatos ante 
+          prae<lb break="no" ed="#P" n="12"/>scientiam absolutam peccati futuri Adae in 
+          se<lb break="no" ed="#P" n="13"/>ipso, et ut jam sibi praesentis: nihilominus
+          <lb ed="#P" n="14"/>non habuit eamdem electionem ante 
+          praescien<lb break="no" ed="#P" n="15"/>tiam conditionatam peccati Adae, quia, 
+          videli<lb break="no" ed="#P" n="16"/>cet praenovit, quod si crearet Adamum cum
+          <lb ed="#P" n="17"/>tali praecepto et circumstantiis, esset 
+          peccatu<lb break="no" ed="#P" n="18"/>rus, et suam posteritatem, quantum in ipso
+          <lb ed="#P" n="19"/>erat, damnaturus, et stante hac sola 
+          praescien<lb break="no" ed="#P" n="20"/>tia, elegit, quos voluit. At vero data illa 
+          hy<lb break="no" ed="#P" n="21"/>pothesi, quod Adam non esset peccaturus, Deus
+          <lb ed="#P" n="22"/>etiam illam praescientiam conditionatam non
+          <lb ed="#P" n="23"/>habuisset, quia tunc objectum non fuisset 
+          ve<lb break="no" ed="#P" n="24"/>rum. Unde potuisset etiam Deus pro sua 
+          li<lb break="no" ed="#P" n="25"/>bertate non habere illud decretum, quo tales
+          <lb ed="#P" n="26"/>homines elegit, ac proinde possent iidem 
+          ho<lb break="no" ed="#P" n="27"/>mines non esse praedestinati: ergo ex electione,
+          <lb ed="#P" n="28"/>quam nunc Deus habuit, non possumus 
+          colli<lb break="no" ed="#P" n="29"/>gere tales homines fuisse futuros, vel saltem
+          <lb ed="#P" n="30"/>consecuturos, etiamsi Adam non peccasset.
+          <lb ed="#P" n="31"/>Quia licet electio divina in sensu composito,
+          <lb ed="#P" n="32"/>id est, postquam suppositio est facta, 
+          infalli<lb break="no" ed="#P" n="33"/>biliter impleatur: nihilominus absolute talis
+          <lb ed="#P" n="34"/>electio potuit non fieri. Et ideo licet nunc
+          <lb ed="#P" n="35"/>supponatur facta post talem praescientiam 
+          con<lb break="no" ed="#P" n="36"/>ditionatam: nihilominus posita hypothesi,
+          <lb ed="#P" n="37"/>quod talis praescientia non esset, sed contraria;
+          <lb ed="#P" n="38"/>non erat necessarium eamdem electionem fieri.
+          <lb ed="#P" n="39"/>Atque ita res manet incerta, nec ex sola 
+          elec<lb break="no" ed="#P" n="40"/>tione divina potest certo inferri quod idem 
+          ho<lb break="no" ed="#P" n="41"/>mines, qui nunc sunt praedestinati, futuri 
+          es<lb break="no" ed="#P" n="42"/>sent praedestinati, imo nec quod futuri essent,
+          <lb ed="#P" n="43"/>si Adam peccaturus non fuisset.
+        </p>
+        <p xml:id="szdada-y09947-d1e388">
+          <lb ed="#P" n="44"/>4. Altera vero pars de reprobis ostenditur,
+          <lb ed="#P" n="45"/>quia supponit quod si Adam non peccaret, ejus
+          <lb ed="#P" n="46"/>posteri vel peccare non possent, vel 
+          infallibi<lb break="no" ed="#P" n="47"/>liter nunquam peccarent, vel saltem non 
+          per<lb break="no" ed="#P" n="48"/>severarent finaliter in peccato. Primum autem
+          <lb ed="#P" n="49"/>ex his falsum est: secundum est gratis dictum:
+          <lb ed="#P" n="50"/>tertium vero etiam dicitur sine fundamento,
+          <lb ed="#P" n="51"/>et non consequenter. Quia si cum effectu 
+          ali<lb break="no" ed="#P" n="52"/>quando peccare possent: cur non etiam in 
+          pec<lb break="no" ed="#P" n="53"/>cato perseverare? Quae omnia in capite nono
+          <lb ed="#P" n="54"/>latius tractanda sunt, et praeterea quamvis 
+          da<lb break="no" ed="#P" n="55"/>remus Scoto, nullos homines fuisse damnan-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dos, si communis lapsus humanae naturae non
+          <lb ed="#P" n="57"/>intervenisset: nihilominus non sequitur nullos
+          <lb ed="#P" n="58"/>homines fuisse tunc futuros, ex his, qui nunc
+          <lb ed="#P" n="59"/>reprobi sunt; nam esse potuissent, licet non
+          <lb ed="#P" n="60"/>essent damnandi, sed salvandi. Quia juxta
+          <lb ed="#P" n="61"/>Scoti sententiam, non obstante reprobatione,
+          <lb ed="#P" n="62"/>prout nunc facta est, tunc non essent reprobi,
+          <lb ed="#P" n="63"/>quia non essent futuri: ergo etiam possent non
+          <lb ed="#P" n="64"/>esse reprobi, quamvis ad existendum 
+          ordina<lb break="no" ed="#P" n="65"/>rentur: sicut prior opinio dicebat. Quae 
+          pro<lb break="no" ed="#P" n="66"/>fecto in hoc nihil dicit impossibile, sed 
+          incer<lb break="no" ed="#P" n="67"/>tum.
+        </p>
+        <p xml:id="szdada-y09947-d1e445">
+          <lb ed="#P" n="68"/>5. Quarta sententia tripartita. — Ostenditur
+          <lb ed="#P" n="69"/>quoad duas posteriores partes. — Alii ergo non
+          <lb ed="#P" n="70"/>rationem praedestinationis, sed ipsam rerum
+          <lb ed="#P" n="71"/>executionem considerantes dixerunt Adam non
+          <lb ed="#P" n="72"/>peccante non fuisse eosdem homines ab illo
+          <lb ed="#P" n="73"/>generandos, qui nunc sunt, sed alios numero
+          <lb ed="#P" n="74"/>distinctos: incertum autem esse, an fuissent
+          <lb ed="#P" n="75"/>plures vel pauciores, et an aliqui eorum 
+          fuis<lb break="no" ed="#P" n="76"/>sent damnandi. Haec videtur esse sententia divi
+          <lb ed="#P" n="77"/>Thomae, dicto quodlib. 5, art. 8, et in eam
+          <lb ed="#P" n="78"/>inclinant Major et Capreolus, in 2, d. 20, et
+          <lb ed="#P" n="79"/>moderni nonnulli, praesertim Valentia supra.
+          <lb ed="#P" n="80"/>Et quoad duas posteriores partes de 
+          incertitu<lb break="no" ed="#P" n="81"/>dine numeri et praedestinationis omnium, mihi
+          <lb ed="#P" n="82"/>videtur clara. Quia quoad numerum non 
+          ha<lb break="no" ed="#P" n="83"/>bemus ullum principium ad judicium 
+          feren<lb break="no" ed="#P" n="84"/>dum de quantitate determinata utriusque 
+          ex<lb break="no" ed="#P" n="85"/>tremi: quomodo ergo de aequalitate vel excessu
+          <lb ed="#P" n="86"/>alterius partis judicare poterimus? Item nec de
+          <lb ed="#P" n="87"/>tempore, quo singuli homines in statu 
+          viato<lb break="no" ed="#P" n="88"/>rum in innocentia, seu Paradiso terrestri 
+          ma<lb break="no" ed="#P" n="89"/>nerent, nec de tempore pro quo generationes
+          <lb ed="#P" n="90"/>hominum durarent, notitiam vel conjecturam
+          <lb ed="#P" n="91"/>habemus: ergo nec de tota illa comparatione
+          <lb ed="#P" n="92"/>illam assequi possumus. Incertitudo autem 
+          al<lb break="no" ed="#P" n="93"/>terius partis, scilicet an in illo statu aliqui 
+          es<lb break="no" ed="#P" n="94"/>sent damnandi, necne, ex dictis contra Scotum
+          <lb ed="#P" n="95"/>constat, et ex infra dicendis de potestate 
+          pec<lb break="no" ed="#P" n="96"/>candi in illo statu magis patebit.
+        </p>
+        <p xml:id="szdada-y09947-d1e510">
+          <lb ed="#P" n="97"/>6. Prime partis duplex sensus in quorum
+          <lb ed="#P" n="98"/>primo suadetur a D. Thoma. — Prima vero
+          <lb ed="#P" n="99"/>pars duobus modis accipi potest, scilicet, 
+          in<lb break="no" ed="#P" n="100"/>definite et universaliter. Priori modo sensus
+          <lb ed="#P" n="101"/>ejus est, non omnes homines, qui in hoc statu
+          <lb ed="#P" n="102"/>naturae lapsae generantur, in statu naturae 
+          in<lb break="no" ed="#P" n="103"/>tegrae, si perseverasset, fuisse futuros. Et in
+          <lb ed="#P" n="104"/>hoc sensu videtur maxime loqui D. Thomas:
+          <lb ed="#P" n="105"/>putatque se id demonstrare, quia in statu 
+          in<lb break="no" ed="#P" n="106"/>nocentiae non fuisset futura uxorum pluralitas,
+          <lb ed="#P" n="107"/>sicut nunc est: ergo nec omnes homines, qui
+          <lb ed="#P" n="108"/>nunc ab eodem patre ex diversis foeminis 
+          ge<lb break="no" ed="#P" n="109"/>nerantur, essent tunc futuri. Probatur 
+          conse<lb break="no" ed="#P" n="110"/>quentia, quia tunc idem homo non generaret
+          <pb ed="#P" n="398"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>filios nisi ex una foemina: ergo qui nunc 
+          ge<lb break="no" ed="#P" n="2"/>nerantur ex alia tunc non nascerentur, quia
+          <lb ed="#P" n="3"/>non possunt nisi ex eadem matre procreari.
+          <lb ed="#P" n="4"/>Nam cum filius (ait D. Thomas) a patre 
+          tan<lb break="no" ed="#P" n="5"/>quam a primo efficiente, et a matre, ut a 
+          ma<lb break="no" ed="#P" n="6"/>teriam ministrante generetur, impossibile est
+          <lb ed="#P" n="7"/>eumdem filium nasci, sive pater, sive mater
+          <lb ed="#P" n="8"/>distincta persona sit, quia idem numero 
+          effec<lb break="no" ed="#P" n="9"/>tus non potest naturaliter nisi ab eodem 
+          nu<lb break="no" ed="#P" n="10"/>mero agente, et ab eadem materia produci.
+          <lb ed="#P" n="11"/>Confirmat hanc rationem, quia multi nunc
+          <lb ed="#P" n="12"/>generantur ex adulterio vel fornicatione, sed
+          <lb ed="#P" n="13"/>in statu innocentiae non essent filii nati ex 
+          hu<lb break="no" ed="#P" n="14"/>jusmodi vagis et illicitis copulis: ergo illi, qui
+          <lb ed="#P" n="15"/>nunc sic generantur, in statu innocentiae non
+          <lb ed="#P" n="16"/>fuissent. Dices fieri potuisse, ut tales homines
+          <lb ed="#P" n="17"/>ex eisdem personis nascerentur, praecedente
+          <lb ed="#P" n="18"/>inter illas legiómo matrimonio, quod nunc
+          <lb ed="#P" n="19"/>non praecedit: quod nihil refert, ut proles 
+          ea<lb break="no" ed="#P" n="20"/>dem, veldistincta persona sit. Sed hoc dici non
+          <lb ed="#P" n="21"/>potest universaliter, quia contingit eamdem
+          <lb ed="#P" n="22"/>foeminam habere quosdam filios ex legitimo
+          <lb ed="#P" n="23"/>conjuge, et alios ex aliis viris: ergo non 
+          po<lb break="no" ed="#P" n="24"/>tuisset in statu innocentiae ex omnibus illis
+          <lb ed="#P" n="25"/>viris concipere, quia non erat omnibus 
+          conju<lb break="no" ed="#P" n="26"/>gio copulanda: ergo aliqui ex illis filiis non
+          <lb ed="#P" n="27"/>fuissent ab illa nati in statu innocentiae, et
+          <lb ed="#P" n="28"/>consequenter simpliciter non fuissent, juxta
+          <lb ed="#P" n="29"/>principium positum, quod ex matre distincta
+          <lb ed="#P" n="30"/>semper filius distinctus nascitur, et hinc etiam
+          <lb ed="#P" n="31"/>ostendi potest, aliquos homines fuisse futuros
+          <lb ed="#P" n="32"/>in statu innocentiae, qui nunc non nascuntur.
+          <lb ed="#P" n="33"/>Nam qui nunc sunt steriles, si fuissent in statu
+          <lb ed="#P" n="34"/>innocentiae, non fuissent steriles: ergo 
+          genera<lb break="no" ed="#P" n="35"/>rent aliquos homines, qui nunc non 
+          generan<lb break="no" ed="#P" n="36"/>tur: et similiter qui nunc praemature 
+          moriun<lb break="no" ed="#P" n="37"/>tur vel occiduntur, ut Abel qui filios non
+          <lb ed="#P" n="38"/>habuit, si in statu innocentiae fuisset, filios 
+          ge<lb break="no" ed="#P" n="39"/>nerasset: ergo illi essent distincti homines ab
+          <lb ed="#P" n="40"/>omnibus, qui ex Adamo post lapsum oriuntur.
+        </p>
+        <p xml:id="szdada-y09947-d1e634">
+          <lb ed="#P" n="41"/>7. Suadetur etiam in sensu posteriori. —
+          <lb ed="#P" n="42"/>Hinc vero extendi potest haec sententia ad 
+          pos<lb break="no" ed="#P" n="43"/>teriorem sensum universalem, nimirum, si
+          <lb ed="#P" n="44"/>Adam et Eva non peccassent, omnes filios et
+          <lb ed="#P" n="45"/>nepotes eorum fuisse futuros numero distinctos
+          <lb ed="#P" n="46"/>ab eis, qui nunc nati sunt vel nascentur. 
+          Pro<lb break="no" ed="#P" n="47"/>batur, quia ut filii sint iidem numero, seu in
+          <lb ed="#P" n="48"/>individuo, non satis est, quod ab eisdem 
+          pa<lb break="no" ed="#P" n="49"/>rentibus generentur, ut est per se notum: quia
+          <lb ed="#P" n="50"/>nunc ex eisdem parentibus distincti homines
+          <lb ed="#P" n="51"/>nascuntur: sicut etiam ex Adamo et Eva,
+          <lb ed="#P" n="52"/>proxime nati sunt. Ergo tunc variantur foetus
+          <lb ed="#P" n="53"/>ex diversis circumstantiis conceptionis, 
+          maxi<lb break="no" ed="#P" n="54"/>me vero ex tali diversitate temporis et loci,
+          <lb ed="#P" n="55"/>quae habeat conjunctam diversam influentiam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>coelestem, et distinctam medii ambientis, et
+          <lb ed="#P" n="57"/>aliorum elementorum cooperationem; itemque
+          <lb ed="#P" n="58"/>ex varietate paterni seminis, quod est veluti
+          <lb ed="#P" n="59"/>proximum efficiens, et materni sanguinis, qui
+          <lb ed="#P" n="60"/>est materia potissima, ex qua proles 
+          concipi<lb break="no" ed="#P" n="61"/>tur. Nam ex materia, seu subjecto his vel illis
+          <lb ed="#P" n="62"/>circumstantiis applicato, censentur agentia
+          <lb ed="#P" n="63"/>creata determinari ad hoc individuum potius,
+          <lb ed="#P" n="64"/>quam ad illud producendum. Sed Adam et
+          <lb ed="#P" n="65"/>Eva, si non peccassent in productione et 
+          con<lb break="no" ed="#P" n="66"/>ceptione filiorum cum his omnibus 
+          circum<lb break="no" ed="#P" n="67"/>stantiis longe diversis conjungerentur: ergo
+          <lb ed="#P" n="68"/>generarent filios numero distinctos ab his, quos
+          <lb ed="#P" n="69"/>nunc post lapsum procrearunt: ergo tota 
+          eo<lb break="no" ed="#P" n="70"/>rum posteritas esset numero distincta a 
+          poste<lb break="no" ed="#P" n="71"/>ritate Cain et aliorum filiorum Adae. Major ex
+          <lb ed="#P" n="72"/>Philosophia supponitur. Minor vero facile 
+          de<lb break="no" ed="#P" n="73"/>claratur, quia licet ex circumstantia temporis
+          <lb ed="#P" n="74"/>extrinseci, seu coelestis incertum sit, an eodem
+          <lb ed="#P" n="75"/>tempore, vel tardius, aut citius copularentur,
+          <lb ed="#P" n="76"/>si non peccassent, quam nunc fuerunt post
+          <lb ed="#P" n="77"/>peccatum conjuncti: nihilominus in caeteris
+          <lb ed="#P" n="78"/>omnibus fuisset magna diversitas. Quia 
+          im<lb break="no" ed="#P" n="79"/>primis distinctissimis cibis usi fuissent intra
+          <lb ed="#P" n="80"/>Paradisum, quam extra, et ita ex distincta 
+          il<lb break="no" ed="#P" n="81"/>lorum ciborum materia, semen et sanguinem
+          <lb ed="#P" n="82"/>distinctum efficerent: et longe etiam melius
+          <lb ed="#P" n="83"/>dispositum propter meliorem cibi qualitatem,
+          <lb ed="#P" n="84"/>et propter majorem in comedendo 
+          moderatio<lb break="no" ed="#P" n="85"/>nem, ac temperantiam, ac meliorem loci, ac
+          <lb ed="#P" n="86"/>medii dispositionem: simulque concurreret
+          <lb ed="#P" n="87"/>distincta et melior influentia coelestis, propter
+          <lb ed="#P" n="88"/>situs Paradisi terrestris commoditatem: ergo
+          <lb ed="#P" n="89"/>ex his omnibus circumstantiis determinaretur
+          <lb ed="#P" n="90"/>virtus generativa ad effectum numero 
+          distinc<lb break="no" ed="#P" n="91"/>tum producendum, et praesertim ex proxima
+          <lb ed="#P" n="92"/>materiae diversitate, quia illa intrinsece manet
+          <lb ed="#P" n="93"/>in prole, et illam componit: unde impossibile
+          <lb ed="#P" n="94"/>est prolem esse eamdem numero, si materia
+          <lb ed="#P" n="95"/>ex qua componitur est distincta, et hinc 
+          pro<lb break="no" ed="#P" n="96"/>bata relinquitur prima consequentia 
+          principa<lb break="no" ed="#P" n="97"/>lis argumenti. Secunda vero fundatur in altero
+          <lb ed="#P" n="98"/>principio divi Thomae, quod si aliquis ex 
+          pa<lb break="no" ed="#P" n="99"/>rentibus est persona distincta, et filium 
+          dis<lb break="no" ed="#P" n="100"/>tinctum generare necesse sit. Nam filii Adae
+          <lb ed="#P" n="101"/>essent parentes totius posteritatis futurae: ergo
+          <lb ed="#P" n="102"/>si in statu innocentise filii Adae fuissent 
+          dis<lb break="no" ed="#P" n="103"/>tincti ab his, quos post lapsum habuit, etiam
+          <lb ed="#P" n="104"/>tota eorum posteritas distincta fuisset.
+        </p>
+        <p xml:id="szdada-y09947-d1e777">
+          <lb ed="#P" n="105"/>8. Judicium de quarta sententia. — Quinta
+          <lb ed="#P" n="106"/>sententia tripartita et probabilior.— Unde 
+          pro<lb break="no" ed="#P" n="107"/>betur prima pars.—MHaec sententia utroque 
+          mo<lb break="no" ed="#P" n="108"/>do explicata solum nititur in principio 
+          philo<lb break="no" ed="#P" n="109"/>sophico de dependentia effectus singularis et
+          <lb ed="#P" n="110"/>individui ab individua, et particulari causa
+          <pb ed="#P" n="399"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>efficiente et materiali, cum aliis circumstantiis
+          <lb ed="#P" n="2"/>et cooperantibus causis. Hoc autem principium
+          <lb ed="#P" n="3"/>praeterquam quod non est certum, solum habet
+          <lb ed="#P" n="4"/>locum in effectibus, qui per se et immediate
+          <lb ed="#P" n="5"/>fiunt ab agentibus creatis. Unde non videtur
+          <lb ed="#P" n="6"/>convenienter extendi ad homines, saltem 
+          quo<lb break="no" ed="#P" n="7"/>ad animarum productionem: quoniam anima
+          <lb ed="#P" n="8"/>non fit a parentibus, sed a solo Deo creatur.
+          <lb ed="#P" n="9"/>Hinc ergo orta est altera opinio limitans 
+          prae<lb break="no" ed="#P" n="10"/>cedentem ; ait enim Adamo non peccante, 
+          ho<lb break="no" ed="#P" n="11"/>mines, qui ab eo descenderent, non fuisse
+          <lb ed="#P" n="12"/>futuros eosdem numero, qui nunc, quantum
+          <lb ed="#P" n="13"/>ad corpora: esse tamen potuisse eosdem quoad
+          <lb ed="#P" n="14"/>animas, et probabile esse tales fuisse futuros.
+          <lb ed="#P" n="15"/>Hanc opinionem docuit Adam, eumque est
+          <lb ed="#P" n="16"/>secutus Gregorius, ut refert Capreolus 2, 
+          dis<lb break="no" ed="#P" n="17"/>tinct. 20, art. 3, ad ult., apud illos vero eam
+          <lb ed="#P" n="18"/>non legi: ipse autem Capreolus illos non 
+          se<lb break="no" ed="#P" n="19"/>quitur. Docuit nihilominus illam opinionem
+          <lb ed="#P" n="20"/>Molina, dicto tractatu de opere sex dierum,
+          <lb ed="#P" n="21"/>disputatione ultima, quam per varias 
+          conclu<lb break="no" ed="#P" n="22"/>siones aliter declarat et probat. Mihi etiam
+          <lb ed="#P" n="23"/>videtur haec sententia satis probabilis, et prima
+          <lb ed="#P" n="24"/>quidem ejus pars, quae ad corpora pertinet, a
+          <lb ed="#P" n="25"/>D. Thoma maxime intenditur, et rationibus
+          <lb ed="#P" n="26"/>factis in tota praecedenti sententia probabiliter
+          <lb ed="#P" n="27"/>persuadetur: estque principium illud 
+          philoso<lb break="no" ed="#P" n="28"/>phicum ad materiales effectus applicatum satis
+          <lb ed="#P" n="29"/>probabile, ut in disputatione quinta 
+          Metaphy<lb break="no" ed="#P" n="30"/>sicae tractatum est: nec plura de illa parte in
+          <lb ed="#P" n="31"/>praesenti dicere oportet, quia simpliciter 
+          lo<lb break="no" ed="#P" n="32"/>quendo, et praesertim theologice unitas 
+          nume<lb break="no" ed="#P" n="33"/>rica, seu identitas, aut diversitas in homine
+          <lb ed="#P" n="34"/>secundum animam potissimum consideratur,
+          <lb ed="#P" n="35"/>ut ibidem dixi.
+        </p>
+        <p xml:id="szdada-y09947-d1e874">
+          <lb ed="#P" n="36"/>9. Probatur secunda pars.—Altera ergo pars
+          <lb ed="#P" n="37"/>de identitate hominum quoad animas de 
+          pos<lb break="no" ed="#P" n="38"/>sibili sumpta, intelligenda est de potestate 
+          na<lb break="no" ed="#P" n="39"/>turali, quae sine speciali miraculo in actum 
+          re<lb break="no" ed="#P" n="40"/>duci potest, et in hoc sensu dicimus potuisse
+          <lb ed="#P" n="41"/>connaturaliter fieri, ut Adamo non peccante
+          <lb ed="#P" n="42"/>iidem numero homines quoad animas ab illo
+          <lb ed="#P" n="43"/>propagarentur, qui post peccatum generantur.
+          <lb ed="#P" n="44"/>Probatur, quia anima rationalis, singularis et
+          <lb ed="#P" n="45"/>individua, sicut non pendet in esse a corpore,
+          <lb ed="#P" n="46"/>ita ex se non limitatur ad informandam hanc
+          <lb ed="#P" n="47"/>materiam primam, vel ad haec numero 
+          acci<lb break="no" ed="#P" n="48"/>dentia, illam disponentia: ut probavi in 
+          dis<lb break="no" ed="#P" n="49"/>putatione quinta Metaphysicae, sect. 6, n. 6 et
+          <lb ed="#P" n="50"/>sequentibus. Quapropter in instanti, in quo 
+          qui<lb break="no" ed="#P" n="51"/>libet homo generatur, non ab una tantum
+          <lb ed="#P" n="52"/>anima creabili informari posset, sed ab 
+          innu<lb break="no" ed="#P" n="53"/>meris et infinitis possibilibus a Deo. Unde quod
+          <lb ed="#P" n="54"/>talis anima potius quam alia in tali corpore
+          <lb ed="#P" n="55"/>creetur, eique uniatur, non habet sufficientem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>causam ex parte corporis, et consequenter nec
+          <lb ed="#P" n="57"/>ex agente, et aliis materialibus circumstantiis,
+          <lb ed="#P" n="58"/>sed a libera Dei voluntate determinatur ; et
+          <lb ed="#P" n="59"/>inde consequenter fit, ut eadem anima, quae
+          <lb ed="#P" n="60"/>nunc tali corpori infunditur, posset sine 
+          mira<lb break="no" ed="#P" n="61"/>culo creari in alio corpore ex alia materia,
+          <lb ed="#P" n="62"/>aliisque accidentibus organisato, sicut e 
+          con<lb break="no" ed="#P" n="63"/>verso in hoc corpore posset alia anima infundi.
+          <lb ed="#P" n="64"/>Est enim eadem ratio, quia utrobique talis
+          <lb ed="#P" n="65"/>determinatio pendet ex libera DEI voluntate,
+          <lb ed="#P" n="66"/>et hic est connaturalis modus productionis
+          <lb ed="#P" n="67"/>talis formae propter capacitatem, quam habet
+          <lb ed="#P" n="68"/>ad informandum corpus cum independentia
+          <lb ed="#P" n="69"/>in suo esse ab illo. Ex quibus tandem 
+          conclu<lb break="no" ed="#P" n="70"/>ditur, quod si contigisset Adam in Paradiso,
+          <lb ed="#P" n="71"/>et innocentia conservata, primogenitum suum
+          <lb ed="#P" n="72"/>generare, quamvis fortasse corpus illius prolis
+          <lb ed="#P" n="73"/>quoad materiam et dispositiones, non esset
+          <lb ed="#P" n="74"/>idem numero cum corpore Caini; nihilominus
+          <lb ed="#P" n="75"/>posset Deus eamdem animam illi infundere,
+          <lb ed="#P" n="76"/>sine ullo miraculo, vel praeternaturali 
+          provi<lb break="no" ed="#P" n="77"/>dentia, quia determinatio illius vel alterius
+          <lb ed="#P" n="78"/>animae ex sola Dei libertate ex natura talis rei
+          <lb ed="#P" n="79"/>pendet. Quod autem in primogenito 
+          declara<lb break="no" ed="#P" n="80"/>tum est eamdem in caeteris filiis, et filiis 
+          filio<lb break="no" ed="#P" n="81"/>rum rationem habet.
+        </p>
+        <p xml:id="szdada-y09947-d1e978">
+          <lb ed="#P" n="82"/>10. Tertia pars suadetur.—Denique ultima
+          <lb ed="#P" n="83"/>pars hujus sententiae, nimirum supposita hac
+          <lb ed="#P" n="84"/>naturah lege, ac potestate, verisimile esse
+          <lb ed="#P" n="85"/>Deum easdem animas humanas creaturum
+          <lb ed="#P" n="86"/>fuisse in corporibus innocentium filiorum, quas
+          <lb ed="#P" n="87"/>nunc in peccatoribus creat, suaderi potest.
+          <lb ed="#P" n="88"/>Primo cum creatio talium animarum in 
+          indi<lb break="no" ed="#P" n="89"/>viduo de se non pendeat ab istis numero 
+          cor<lb break="no" ed="#P" n="90"/>poribus, id est, ab hac numerica parte 
+          mate<lb break="no" ed="#P" n="91"/>riae, vel his numero accidentibus, verisimile
+          <lb ed="#P" n="92"/>est, Deum ante absolutam praescientiam 
+          de<lb break="no" ed="#P" n="93"/>crevisse absoluto decreto, has particulares 
+          ani<lb break="no" ed="#P" n="94"/>mas creare, quamvis de modo et qualitate 
+          cor<lb break="no" ed="#P" n="95"/>porum ante dictam praescientiam, absolutum
+          <lb ed="#P" n="96"/>decretum non habuerit: ergo illud prius 
+          de<lb break="no" ed="#P" n="97"/>cretum semper fuisset impletum, quamvis
+          <lb ed="#P" n="98"/>Adam non peccaret. Secundo, quia Adam 
+          jus<lb break="no" ed="#P" n="99"/>titiam originalem sub ea conditione accepit,
+          <lb ed="#P" n="100"/>ut pro tota posteritate illam obediendo 
+          conser<lb break="no" ed="#P" n="101"/>varet, vel transgrediendo amitteret: ergo 
+          ae<lb break="no" ed="#P" n="102"/>quitati et rationi valde consentaneum est, 
+          utra<lb break="no" ed="#P" n="103"/>que conditionis pars ad easdem personas 
+          filio<lb break="no" ed="#P" n="104"/>rum pertinuerit, ac subinde, ut idem numero
+          <lb ed="#P" n="105"/>fili qui nunc in peccato originali nascuntur,
+          <lb ed="#P" n="106"/>nascituri essent in original justitia, si parentes
+          <lb ed="#P" n="107"/>non peccarent: ergo essent iidem filii Adae in
+          <lb ed="#P" n="108"/>utroque statu, ut qui sentiunt damnum, ex
+          <lb ed="#P" n="109"/>parte Dei ordinati essent antecedenter ad 
+          reci<lb break="no" ed="#P" n="110"/>piendum commodum.
+        </p>
+        <p xml:id="szdada-y09947-d1e1043">
+          <pb ed="#P" n="400"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>11. Evasio.—Non placet.—hesponderi 
+          po<lb break="no" ed="#P" n="2"/>test, Deum solum respexisse ad specificam 
+          natu<lb break="no" ed="#P" n="3"/>ram: seu ad posteritatem abstrahendo ab his,
+          <lb ed="#P" n="4"/>vel illis personis, et ideo nec esse injustum, nec
+          <lb ed="#P" n="5"/>absurdum, quod damnum, vel commodum in
+          <lb ed="#P" n="6"/>personas distinctas redundaret: nam id est
+          <lb ed="#P" n="7"/>quasi per accidens, et ad justitiae aequitatem
+          <lb ed="#P" n="8"/>non pertinet. Sed hicet forte hoc possit in 
+          ri<lb break="no" ed="#P" n="9"/>gore justitia sustineri: nihilominus negari
+          <lb ed="#P" n="10"/>non potest, quin major aequitas, et perfectior
+          <lb ed="#P" n="11"/>providentia reluceat, si respectu earumdem
+          <lb ed="#P" n="12"/>personarum talis conditio quoad utramque
+          <lb ed="#P" n="13"/>partem foret implenda: eo vel maxime, quod
+          <lb ed="#P" n="14"/>divina praescientia, et praedestinatio non est
+          <lb ed="#P" n="15"/>confusa, sed clara et distincta; ideoque 
+          quan<lb break="no" ed="#P" n="16"/>do decrevit Adamo, et in ipso toto ejus 
+          poste<lb break="no" ed="#P" n="17"/>ritati justitiam sub tali pacto conferre, non
+          <lb ed="#P" n="18"/>confuse tantum posteritatem concepisse 
+          pu<lb break="no" ed="#P" n="19"/>tandum est, sed distincte in talibus personis:
+          <lb ed="#P" n="20"/>ergo eaedem personae, quae nunc illa 
+          privan<lb break="no" ed="#P" n="21"/>tur, eamdem obtinuissent, si primus parens
+          <lb ed="#P" n="22"/>non peccasset, ac proinde iidem homines, qui
+          <lb ed="#P" n="23"/>ab ipso propagarentur.
+        </p>
+        <p xml:id="szdada-y09947-d1e1100">
+          <lb ed="#P" n="24"/>12. Instatur primo. — Secundo. — Tertio.
+          <lb ed="#P" n="25"/>— Sed instabis, quia haec ratio vel efficax non
+          <lb ed="#P" n="26"/>est, vel nimium probat, concludet enim fuisse
+          <lb ed="#P" n="27"/>futuros eosdem numero homines non solum
+          <lb ed="#P" n="28"/>quoad animas, sed etiam quoad corpora, quia
+          <lb ed="#P" n="29"/>justitia originalis etiam corpora moderabatur,
+          <lb ed="#P" n="30"/>et perficiebat: et e contrario peccatum 
+          origi<lb break="no" ed="#P" n="31"/>nale etiam in corporibus suos poenales effectus
+          <lb ed="#P" n="32"/>habet ; ac denique pactum Dei posteros Adae,
+          <lb ed="#P" n="33"/>ut corpore et animo constantes respiciebat.
+          <lb ed="#P" n="34"/>Item concluderet illa ratio omnes omnino 
+          ho<lb break="no" ed="#P" n="35"/>mines, qui nunc fuerunt, sunt et erunt, 
+          fu<lb break="no" ed="#P" n="36"/>turos fuisse etiamsi Adam non peccasset, quia
+          <lb ed="#P" n="37"/>ratio aeque de omnibus procedit ; ac denique
+          <lb ed="#P" n="38"/>probaret ratio omnes, qui nunc damnantur,
+          <lb ed="#P" n="39"/>tunc etiam fuisse damnandos, quia discursus
+          <lb ed="#P" n="40"/>factus aeque ad omnes, et quoad hunc 
+          effec<lb break="no" ed="#P" n="41"/>tum applicari potest. Nos autem haec omnia
+          <lb ed="#P" n="42"/>non admittimus, nec admittenda videntur.
+        </p>
+        <p xml:id="szdada-y09947-d1e1144">
+          <lb ed="#P" n="43"/>13. Ad primam instantiam. — Respondemus
+          <lb ed="#P" n="44"/>imprimis non esse difficile haec omnia 
+          defen<lb break="no" ed="#P" n="45"/>dere, quia Deus sine dubio potuit illa omnia
+          <lb ed="#P" n="46"/>praeordinare, potuissetque res ita disponere,
+          <lb ed="#P" n="47"/>ut infaillibiliter ita fierent. Nunc autem 
+          cre<lb break="no" ed="#P" n="48"/>dimus non ita factum esse, quantum ex 
+          con<lb break="no" ed="#P" n="49"/>jecturis colligere possumus, et ideo ad primum
+          <lb ed="#P" n="50"/>negatur sequela, quia justitia originalis, et
+          <lb ed="#P" n="51"/>gratia, ac beatitudo, ad quam illae 
+          ordinaba<lb break="no" ed="#P" n="52"/>tur, ad animam principaliter pertinent, et
+          <lb ed="#P" n="53"/>consequenter in illa est originalis culpa quoad
+          <lb ed="#P" n="54"/>essentiam, et (ut ita dicam) formalitatem
+          <lb ed="#P" n="55"/>suam, corpus autem secundario tantum, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>materialiter ad haec omnia se habet, et ideo
+          <lb ed="#P" n="57"/>non ita fuit identitas in corporibus, sicut mn
+          <lb ed="#P" n="58"/>animabus necessaria. Accedit praeterea, quod
+          <lb ed="#P" n="59"/>anima a solo Deo fit, et ex sola ejus voluntate
+          <lb ed="#P" n="60"/>eligitur, seu determinatur, ut in talh, vel tali
+          <lb ed="#P" n="61"/>corpore creetur: ipsum autem corpus fit ex
+          <lb ed="#P" n="62"/>prajacente materia, et cum dependentia a
+          <lb ed="#P" n="63"/>materialibus causis, et ideo Deus non ita ex se
+          <lb ed="#P" n="64"/>definivit conditiones corporum, sed cursu 
+          na<lb break="no" ed="#P" n="65"/>turalium corporum illas reliquit.
+        </p>
+        <p xml:id="szdada-y09947-d1e1199">
+          <lb ed="#P" n="66"/>14. Ad secundam.—Ad secundum etiam 
+          ne<lb break="no" ed="#P" n="67"/>gatur sequela: nam rationes factae non 
+          per<lb break="no" ed="#P" n="68"/>suadent, imo nec suadent omnes homines,
+          <lb ed="#P" n="69"/>qui nunc propagantur, ab Adamo fuisse etiam
+          <lb ed="#P" n="70"/>futuros, etiamsi Adam non peccasset. Quis
+          <lb ed="#P" n="71"/>enim cognovit sensum Domini, aut quis 
+          consi<lb break="no" ed="#P" n="72"/>liarius ejus fuit: Rom. 11. Solum enim 
+          con<lb break="no" ed="#P" n="73"/>jectamus illos homines, qui in statu 
+          innocen<lb break="no" ed="#P" n="74"/>tiae generandi essent, constare debuisse ex
+          <lb ed="#P" n="75"/>animabus, quae nunc etiam aliquando 
+          crean<lb break="no" ed="#P" n="76"/>tur. An vero numerus hominum in utroque
+          <lb ed="#P" n="77"/>statu futurus esset aequalis, incertum esse 
+          pu<lb break="no" ed="#P" n="78"/>tamus. Unde ex dicto principio solum colligi
+          <lb ed="#P" n="79"/>potest, quod si numerus hominum in utroque
+          <lb ed="#P" n="80"/>statu esset idem formaliter, seu aequalis, etiam
+          <lb ed="#P" n="81"/>idem esset materialis, seu in eisdem 
+          indivi<lb break="no" ed="#P" n="82"/>duis, saltem quoad animas: non quia hoc sit
+          <lb ed="#P" n="83"/>absolute necessarium, aut certum, sed quia
+          <lb ed="#P" n="84"/>convenientius apparet. Si autem essent 
+          nu<lb break="no" ed="#P" n="85"/>mero inaequales, et in statu innocentiae futuri
+          <lb ed="#P" n="86"/>essent homines numero panciores, omnes illi
+          <lb ed="#P" n="87"/>etiam erunt nunc in lapsa natura: quia sic
+          <lb ed="#P" n="88"/>participaturi erant innocentia commodum,
+          <lb ed="#P" n="89"/>quod nunc per peccatum amiserunt. Si autem
+          <lb ed="#P" n="90"/>e contrario major futura fuisset tunc hominum
+          <lb ed="#P" n="91"/>multitudo, in illa omnes homines, qui nunc
+          <lb ed="#P" n="92"/>producuntur, continerentur, et praeter hos in
+          <lb ed="#P" n="93"/>multis aliis Dei liberalitas ostenderetur. Nihil
+          <lb ed="#P" n="94"/>ergo incommodi in aliquo istorum modorum
+          <lb ed="#P" n="95"/>invenitur, et in singulis aliqua congruitas 
+          co<lb break="no" ed="#P" n="96"/>gitari potest, et ideo incertum nobis est, quem
+          <lb ed="#P" n="97"/>potissimum illorum Deus ordinasset.
+        </p>
+        <p xml:id="szdada-y09947-d1e1272">
+          <lb ed="#P" n="98"/>15. Ad tertiam. — Quousque placet Scotus
+          <lb ed="#P" n="99"/>n. 2 allatus. —In tertia replica petitur, quid
+          <lb ed="#P" n="100"/>dicendum sit, si inter numerum electorum et
+          <lb ed="#P" n="101"/>reproborum similis comparatio fiat, in quo
+          <lb ed="#P" n="102"/>licet res incerta sit, imprimis verisimilius 
+          cre<lb break="no" ed="#P" n="103"/>dimus, non fuisse futurum minorem numerum
+          <lb ed="#P" n="104"/>electorum, et praedestinatorum, quam nunc
+          <lb ed="#P" n="105"/>sit. In quo cum Scoto convenimus non solum
+          <lb ed="#P" n="106"/>propter illam rationem, quod nunc electionem
+          <lb ed="#P" n="107"/>praedestinatorum ante praescientiam 
+          absolu<lb break="no" ed="#P" n="108"/>tam peccati Adae factam esse credimus: sed
+          <lb ed="#P" n="109"/>etiam, quia nulla ratio, vel conjectura 
+          proba<lb break="no" ed="#P" n="110"/>bilis afferri potest, propter quam credibile fiat
+          <pb ed="#P" n="401"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pauciores homines fuisse Deum electurum ,
+          <lb ed="#P" n="2"/>si sub conditione praesciret Adamum in tali
+          <lb ed="#P" n="3"/>rerum ordine, et occasione constitutum, non
+          <lb ed="#P" n="4"/>fuisse peccaturum; et hinc etiam credibile fit,
+          <lb ed="#P" n="5"/>eosdem homines saltem quoad animas, qui
+          <lb ed="#P" n="6"/>nunc sunt electi, fuisse etiam salvandos et 
+          eli<lb break="no" ed="#P" n="7"/>gendos, etiamsi Adam non peccasset. Non 
+          so<lb break="no" ed="#P" n="8"/>lum, quia nunc electio antecessit praescientiam
+          <lb ed="#P" n="9"/>peccati Adae: nam haec ratio solum persuadet,
+          <lb ed="#P" n="10"/>quia saltem praecessit scientia conditionata 
+          fu<lb break="no" ed="#P" n="11"/>turi peccati, qua non existente potuisset Deus
+          <lb ed="#P" n="12"/>aliter electionem facere, ut supra dixi, et ideo
+          <lb ed="#P" n="13"/>addendum putamus nullam afferri rationem
+          <lb ed="#P" n="14"/>ob quam credamus, Deum alios, quam hos 
+          ip<lb break="no" ed="#P" n="15"/>sos fuisse electurum, si sub conditione saltem
+          <lb ed="#P" n="16"/>praesciret Adamum in illa occasione, si in ea
+          <lb ed="#P" n="17"/>constitueretur, non fuisse peccaturum. An vero
+          <lb ed="#P" n="18"/>praeter hos Deus plures elegisset, si hoc etiam
+          <lb ed="#P" n="19"/>modo praesciret Adam non fuisse peccaturum,
+          <lb ed="#P" n="20"/>omnino est nobis occultum. An autem durante
+          <lb ed="#P" n="21"/>dicto statu aliqui essent damnandi et praesciti,
+          <lb ed="#P" n="22"/>infra dicemus: nam pendet ex alia quaestione,
+          <lb ed="#P" n="23"/>capite nono, tractanda, an homines in eo statu
+          <lb ed="#P" n="24"/>possent peccare. Supponendo autem aliquos
+          <lb ed="#P" n="25"/>fuissie damnandos, numerus eorum ignotus
+          <lb ed="#P" n="26"/>nobis est, et ideo omnis comparatio, vel ad
+          <lb ed="#P" n="27"/>numerum electorum, vel ad numerum eorum,
+          <lb ed="#P" n="28"/>qui nunc damnantur, incerta est: et propterea
+          <lb ed="#P" n="29"/>nihil amplius de illa dicere necesse est.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

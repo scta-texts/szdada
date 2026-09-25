@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="670"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y16420"><!-- t3l3c17 -->
+        <head xml:id="szdada-y16420-Hd1e101">Caput 17</head>
+        <head xml:id="szdada-y16420-Hd1e103" type="question-title">Utrum visio fiat extramittendo, an intus recipiendo</head>
+        <p xml:id="szdada-y16420-d1e106">
+          <lb ed="#P" n="12"/>CAPUT XVII.
+          <lb ed="#P" n="13"/>UTRUM VISIO FIAT EXTRAMITTENDO, AN INTUS
+          <lb ed="#P" n="14"/>RECIPIENDO.
+        </p>
+        <p xml:id="szdada-y16420-d1e115">
+          <lb ed="#P" n="15"/>1. Sententia Platonis. — Diximus de 
+          ob<lb break="no" ed="#P" n="16"/>jecto visus: de speciebus autem illius nihil
+          <lb ed="#P" n="17"/>dicendum superest, praeter ea quae dicta sunt
+          <lb ed="#P" n="18"/>in praecedentibus, de actu vero specialis manet
+          <lb ed="#P" n="19"/>difficultas propter antiquam Platonis 
+          opinio<lb break="no" ed="#P" n="20"/>nem, visionem non fieri intra oculum per 
+          re<lb break="no" ed="#P" n="21"/>ceptionem alicujus qualitatis, sed fieri potius
+          <lb ed="#P" n="22"/>per emissionem quorumdam spirituum. Ita
+          <lb ed="#P" n="23"/>docuit Plato in Timeo, sequiturque Aulus 
+          Gel<lb break="no" ed="#P" n="24"/>lius 5, lib. noctium Atticarum, Alcinous, lib.
+          <lb ed="#P" n="25"/>de decretis Platonis, Priscianus Lydus, lib. de
+          <lb ed="#P" n="26"/>Phantasia, Plotinus, lib. de Visione, et 
+          non<lb break="no" ed="#P" n="27"/>nulli ex perspectivis, id quod diversis modis
+          <lb ed="#P" n="28"/>explicatur: quidam ergo aiunt oculos emittere
+          <lb ed="#P" n="29"/>spiritum lucidum, ac per illum alterare 
+          me<lb break="no" ed="#P" n="30"/>dium, inde vero usque ad visibile pertingere
+          <lb ed="#P" n="31"/>quemdam splendorem, commiscerique 
+          specie<lb break="no" ed="#P" n="32"/>bus visibilibus, atque ita perfici visionem 
+          abs<lb break="no" ed="#P" n="33"/>que ulla reflexione ad oculum: sed non ita
+          <lb ed="#P" n="34"/>Plato, ut adnotavit Galenus 7, de Placitis, in
+          <lb ed="#P" n="35"/>tine, non enim negat ille ab objecto devenire
+          <lb ed="#P" n="36"/>species usque ad visum, ut patet ex Theeteto,
+          <lb ed="#P" n="37"/>et ex 6, lib. de Legibus, easdemque admittit
+          <lb ed="#P" n="38"/>Galenus ipse Platonem secutus ibid., et lib. 10,
+          <lb ed="#P" n="39"/>de Usu partium, in fin., et lib. 1, Prognostico.
+          <lb ed="#P" n="40"/>c. 19. Aliter ergo explicatur Platonis 
+          senten<lb break="no" ed="#P" n="41"/>ta, visum imprimis emittere lucem usque ad
+          <lb ed="#P" n="42"/>objectum visibile, quo cum appulerit regredi
+          <lb ed="#P" n="43"/>simul cum specie usque ad oculum, ibique
+          <lb ed="#P" n="44"/>peragi visionem. Ita Galenus, Plutarchus, l. 4,
+          <lb ed="#P" n="45"/>de Placitis, cap. 13, Gregorius Nyssenus 4, de
+          <lb ed="#P" n="46"/>Virib. animae, cap. 2, Nemesius, de Natura
+          <lb ed="#P" n="47"/>hominis, cap. 7, Macrobius 7, Saturnalium,
+          <lb ed="#P" n="48"/>cap. 14. Addunt alii lucem emissam ab oculo,
+          <lb ed="#P" n="49"/>spiritibusque delatam non pervenire ad 
+          visi<lb break="no" ed="#P" n="50"/>bile, sed ad certam usque distantiam spatii,
+          <lb ed="#P" n="51"/>ad quam etiam species visibiles occurrant,
+          <lb ed="#P" n="52"/>quae spiritibus commixtae revertantur ad ocu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>lum, ut ubi visio perficiatur. Alii denique
+          <lb ed="#P" n="54"/>explicant prinum omnium recipi in oculo
+          <lb ed="#P" n="55"/>species intentionales, deinde vero egredi 
+          spi<lb break="no" ed="#P" n="56"/>ritus ab oculo per aerem usque ad certam
+          <lb ed="#P" n="57"/>distantiam in illisque esset facultatem 
+          forman<lb break="no" ed="#P" n="58"/>di visionem, et ideo egressos ab oculo, cum
+          <lb ed="#P" n="59"/>sufficienter approximantur objecto, formare
+          <lb ed="#P" n="60"/>visionem in aere ipso: opinionem hanc ita
+          <lb ed="#P" n="61"/>explicatam sequitur Valles, lib. 2, cap. 28.
+        </p>
+        <p xml:id="szdada-y16420-d1e222">
+          <lb ed="#P" n="62"/>2. Vera assertio.—St tamen conclusio. 
+          Re<lb break="no" ed="#P" n="63"/>ceptis in oculo speciebus ibidem formatur
+          <lb ed="#P" n="64"/>visio absque illius rei emissione. Haec est 
+          sen<lb break="no" ed="#P" n="65"/>tentia Aristotelis, quam late probat de Sensu
+          <lb ed="#P" n="66"/>et sensibili, cap. 2, sequunturque omnes 
+          Aris<lb break="no" ed="#P" n="67"/>totelici: atque ita probatur, nam oculus 
+          reci<lb break="no" ed="#P" n="68"/>pit species ab objecto, et per hanc receptionem
+          <lb ed="#P" n="69"/>objectum conjungitur potentiae visivae, quae
+          <lb ed="#P" n="70"/>proinde constituitur in actu primo ad 
+          viden<lb break="no" ed="#P" n="71"/>dum: ergo satis habet, unde in se formet 
+          vi<lb break="no" ed="#P" n="72"/>sionem: omnia vero alia, quae adduntur,
+          <lb ed="#P" n="73"/>figmenta sunt, ac superflua. Major et ab aliis
+          <lb ed="#P" n="74"/>conceditur, et supra est probata, ac 
+          confirma<lb break="no" ed="#P" n="75"/>tur. Nam ad sensationes omnium aliorum
+          <lb ed="#P" n="76"/>sensuum nihil aliud requiritur, quam 
+          con<lb break="no" ed="#P" n="77"/>junctio cognoscentis potentiae, cum 
+          cognosci<lb break="no" ed="#P" n="78"/>bili, quae in ipsa potentia fit medis speciebus,
+          <lb ed="#P" n="79"/>in eademque formatur sensatio, neque in tali
+          <lb ed="#P" n="80"/>aliquo sensu inducitur necessario emissio
+          <lb ed="#P" n="81"/>alicujus rei: ergo neque in visu est 
+          confin<lb break="no" ed="#P" n="82"/>genda.
+        </p>
+        <p xml:id="szdada-y16420-d1e271">
+          <lb ed="#P" n="83"/>3. Probatur secundo per dilemma.—Prior
+          <lb ed="#P" n="84"/>pars dilemmatis multipliciter urgetur. — 
+          Se<lb break="no" ed="#P" n="85"/>cundo arguitur, expugnando oppositam 
+          sen<lb break="no" ed="#P" n="86"/>tentiam, nam vel id, quod emittitur, est 
+          sub<lb break="no" ed="#P" n="87"/>stantia, vel accidens, si substantia (ut Plato,
+          <lb ed="#P" n="88"/>et alii videntur asserere, dum spiritus quosdam
+          <lb ed="#P" n="89"/>emitti aiunt aut talis substantia generatur
+          <lb ed="#P" n="90"/>in aere, quod evidenter falsum est, cum inter
+          <lb ed="#P" n="91"/>videndum aer non corrumpatur, aliquidve de
+          <lb ed="#P" n="92"/>novo generetur: aut ea ab oculis egreditur,
+          <lb ed="#P" n="93"/>sicque tempus nonnullum ponet usque ad 
+          ob<lb break="no" ed="#P" n="94"/>jectum, cum tamen etiam, quae nimium 
+          di<lb break="no" ed="#P" n="95"/>stant, ut astra tam cito conscipiantur, quam
+          <lb ed="#P" n="96"/>quae sunt proxima, quod manifestum signum
+          <lb ed="#P" n="97"/>est nullum utrobique localis delationis moram
+          <lb ed="#P" n="98"/>consumi. Arguit etiam optime Aristoteles ,
+          <lb ed="#P" n="99"/>quoniam ad videndum rem nimium distantem
+          <lb ed="#P" n="100"/>necessarium foret expendere magnam 
+          spiri<lb break="no" ed="#P" n="101"/>tuum vitalium copiam, qui vel unico actu 
+          vi<lb break="no" ed="#P" n="102"/>dendi consumerentur omnes. Praeterea 
+          spiri<lb break="no" ed="#P" n="103"/>tus, cum sint corpuscula, dissipantur facile,
+          <lb ed="#P" n="104"/>nec possent recta ad multam distantiam
+          <lb ed="#P" n="105"/>pervenire, flante praesertim vento, potiusque
+          <lb ed="#P" n="106"/>interdum contingeret videri rem, ad quam
+          <lb ed="#P" n="107"/>non intenderet, si forte ventus ad illam pro-
+          <pb ed="#P" n="671"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>duceret spiritus. Quod si dicas, spiritus 
+          pertin<lb break="no" ed="#P" n="2"/>gere solum ad distantiam, in qua conservari
+          <lb ed="#P" n="3"/>possint ab emittentibus oculis: ergo in tota
+          <lb ed="#P" n="4"/>reliqua distantia, quae poterit esse multo 
+          ma<lb break="no" ed="#P" n="5"/>jor, fiet visio sine emissione: ergo etiam 
+          pos<lb break="no" ed="#P" n="6"/>set fieri absque ulla in reliqua parte. Habet
+          <lb ed="#P" n="7"/>praeterea evasio haec absurda, quae patefient
+          <lb ed="#P" n="8"/>in tertio argumento, multaque ex illatis non
+          <lb ed="#P" n="9"/>potest effugere. Est quoque specialis difficultas
+          <lb ed="#P" n="10"/>in visione per vitrum, quod spiritus illi 
+          ne<lb break="no" ed="#P" n="11"/>queunt penetrare, nec recurri potest ad 
+          po<lb break="no" ed="#P" n="12"/>ros: tum quia non sunt adeo subtiles, cum
+          <lb ed="#P" n="13"/>nec ignis ipse subtilior vitrum pervadat: tum
+          <lb ed="#P" n="14"/>etiam quia pori rectilinei non sunt, ut 
+          oporte<lb break="no" ed="#P" n="15"/>ret ad visionem.
+        </p>
+        <p xml:id="szdada-y16420-d1e365">
+          <lb ed="#P" n="16"/>4. Urgetur altera dilemmatis pars. — Si
+          <lb ed="#P" n="17"/>vero dicatur (quae erat altera dilemmatis pars)
+          <lb ed="#P" n="18"/>non emitti substantiam, sed accidens: fingi
+          <lb ed="#P" n="19"/>certe nequit quidnam sit praeter lumen 
+          ah<lb break="no" ed="#P" n="20"/>quod, vel splendorem: quod refellitur, primo,
+          <lb ed="#P" n="21"/>quia alias in tenebris posset fieri visio oculis
+          <lb ed="#P" n="22"/>diffundentibus lumen suum, cum contra 
+          expe<lb break="no" ed="#P" n="23"/>rientiam sit haec luminis diffusio usque ad 
+          vi<lb break="no" ed="#P" n="24"/>sibile: lumen quoque tale remissum valde 
+          ideo<lb break="no" ed="#P" n="25"/>que sole plurimum lucente, ab oculo non
+          <lb ed="#P" n="26"/>posset emitti, cum praeveniretur ab agente 
+          for<lb break="no" ed="#P" n="27"/>tiori, atque adeo non posset fieri visio. Denique
+          <lb ed="#P" n="28"/>quorsum esset illa diffusio luminis, non certe
+          <lb ed="#P" n="29"/>ad illuminandum objectum, nam aliunde 
+          illu<lb break="no" ed="#P" n="30"/>minatum esse oportet, alioquin non videbitur:
+          <lb ed="#P" n="31"/>non etiam ad illuminandum medium, vel 
+          po<lb break="no" ed="#P" n="32"/>tentiam, ut constat: fictitia ergo est 
+          acciden<lb break="no" ed="#P" n="33"/>Us emissio. Unde licet oculi aliquantulam vim
+          <lb ed="#P" n="34"/>habeant emittendi lumen, illa certe emissio
+          <lb ed="#P" n="35"/>per se non concurreret ad visionem, sed 
+          tan<lb break="no" ed="#P" n="36"/>tum per accidens.
+        </p>
+        <p xml:id="szdada-y16420-d1e413">
+          <lb ed="#P" n="37"/>5. Probatur tertio principaliter per alterum
+          <lb ed="#P" n="38"/>dilemna urgeturque primum membrum 
+          triplici<lb break="no" ed="#P" n="39"/>ter. — Tertio principaliter arguitur: nam in
+          <lb ed="#P" n="40"/>opinione hac Platonica, vel visio fit extra 
+          ocu<lb break="no" ed="#P" n="41"/>lum, vel intra, non extra. Primo, quia visio,
+          <lb ed="#P" n="42"/>cum sit actio immanens, fieri debet in ipso
+          <lb ed="#P" n="43"/>cognoscente. Secundo, quia si forte in extremo
+          <lb ed="#P" n="44"/>aere fieri ponatur, vel ab ipso effective fieret,
+          <lb ed="#P" n="45"/>media accidentali virtute recepta ex oculo, et
+          <lb ed="#P" n="46"/>sic aer ipse visionem eliceret, quod est 
+          absur<lb break="no" ed="#P" n="47"/>dissimum, vel ab spiritu emisso fieret tanquam
+          <lb ed="#P" n="48"/>ab instrumento oculi illum emittendis, quod
+          <lb ed="#P" n="49"/>certe emissionem supponit jam expugnatam:
+          <lb ed="#P" n="50"/>praeterquam quod non salvatur ratio vitalis
+          <lb ed="#P" n="51"/>actus, quem oportet fieri immediate a vita,
+          <lb ed="#P" n="52"/>quam spiritus non habet. Tertio, visionem
+          <lb ed="#P" n="53"/>extra potentem prope objectum fieri est 
+          impos<lb break="no" ed="#P" n="54"/>sibile, maxime cum res etiam distantissimae
+          <lb ed="#P" n="55"/>videantur: fieri autem in medio intervallo sic
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>impugnatur, quia jam ab eo loco res distans
+          <lb ed="#P" n="57"/>concipietur absque emissione usque ad ipsam:
+          <lb ed="#P" n="58"/>finge ergo ibi esse videndi potentiam, tunc
+          <lb ed="#P" n="59"/>exerceret plane intra se visionem circa illius
+          <lb ed="#P" n="60"/>rei emissionem, semel autem data rei 
+          distan<lb break="no" ed="#P" n="61"/>tis visione intra potentiam, fatendum 
+          necessa<lb break="no" ed="#P" n="62"/>rio erit semper ita posse fieri, cum eadem sit
+          <lb ed="#P" n="63"/>semper ratio, reliquaque omnia superflua sint:
+          <lb ed="#P" n="64"/>maxime, quia distantia, ad quam oculus 
+          po<lb break="no" ed="#P" n="65"/>test emittere spiritus, curta est: inde vero 
+          us<lb break="no" ed="#P" n="66"/>que ad objectum satis magna. Unde si ex hac
+          <lb ed="#P" n="67"/>magna videre potest absque emissione, 
+          pote<lb break="no" ed="#P" n="68"/>rit simpliciter sine ulla.
+        </p>
+        <p xml:id="szdada-y16420-d1e487">
+          <lb ed="#P" n="69"/>6. Secundum membrum dilemmatis etium 
+          im<lb break="no" ed="#P" n="70"/>pugnatur. — Quod si tandem dicatur visionem
+          <lb ed="#P" n="71"/>fieri in oculis, per regressum tandem spirituum
+          <lb ed="#P" n="72"/>ad illos, imprimis talis emissio, ac reflexio 
+          su<lb break="no" ed="#P" n="73"/>perflua erit: per illam quippe potentia non
+          <lb ed="#P" n="74"/>roboratur, sed exhauritur potius, objectumque
+          <lb ed="#P" n="75"/>tali non indiget emissione ad multiplicandas
+          <lb ed="#P" n="76"/>sui species, quia de se habile, ac sufticiens est
+          <lb ed="#P" n="77"/>ad id munus. Ulteriusque arguitur in hunc
+          <lb ed="#P" n="78"/>modum. Vel emissio a potentia usque ad 
+          objec<lb break="no" ed="#P" n="79"/>tum visibile pertingit, indeque regreditur, vel
+          <lb ed="#P" n="80"/>usque ad certam partem medii ubi occurrunt
+          <lb ed="#P" n="81"/>species, inde revertitur ad potentiam: hoc 
+          se<lb break="no" ed="#P" n="82"/>cundum merum est figmentum: tum quia
+          <lb ed="#P" n="83"/>nihil cogit reflexionem fieri, cum nec sit 
+          obsta<lb break="no" ed="#P" n="84"/>culum alterius procedendi, neque actio libera
+          <lb ed="#P" n="85"/>sit, ut possit per se regredi: tum etiam, quia
+          <lb ed="#P" n="86"/>si substantia illa ab oculo emissa, cum primum
+          <lb ed="#P" n="87"/>ad species appellit eas revehit, sane oculo in
+          <lb ed="#P" n="88"/>ea distantia collocato, ad quam objectum 
+          dif<lb break="no" ed="#P" n="89"/>fundere valet species, non fiet visio 
+          extramit<lb break="no" ed="#P" n="90"/>tendo, quare cum objectum ad magnam usque
+          <lb ed="#P" n="91"/>distantiam illas diffundat, superflua erit 
+          emis<lb break="no" ed="#P" n="92"/>sio sprrituum a potentia. Jam primum illud
+          <lb ed="#P" n="93"/>quod scilicet emissio, seu actio potentiae 
+          per<lb break="no" ed="#P" n="94"/>tingat usque ad objectum visibile, et inde 
+          re<lb break="no" ed="#P" n="95"/>grediatur, falsum est, quia ad objectum 
+          ni<lb break="no" ed="#P" n="96"/>mium distans non potest talis actio pértingere,
+          <lb ed="#P" n="97"/>ac regredi tam vehementer, argumentaque
+          <lb ed="#P" n="98"/>supra facta hic etiam habent locum. Denique
+          <lb ed="#P" n="99"/>sententiam nostram multi perspectivi 
+          demons<lb break="no" ed="#P" n="100"/>trant, inter quos Vitelius, lib. 3, perpectivae,
+          <lb ed="#P" n="101"/>proposit. 5 et 6.
+        </p>
+        <p xml:id="szdada-y16420-d1e561">
+          <lb ed="#P" n="102"/>7. Objectio prima contra assertionem diluitur.
+          <lb ed="#P" n="103"/>— Sed obstat huic conclusioni primo Aristoteles
+          <lb ed="#P" n="104"/>3, Meteor., c. 4, ubi adducens experientiam de
+          <lb ed="#P" n="105"/>Antipheronte, cujus semper ante ocuios idolum
+          <lb ed="#P" n="106"/>versabatur, causam reddit, quod visus ob 
+          imbe<lb break="no" ed="#P" n="107"/>cillitatem aerem propellere non posset, ubi 
+          aper<lb break="no" ed="#P" n="108"/>te sentit emissionem fieri ex parte visus D. 
+          Tho<lb break="no" ed="#P" n="109"/>mas ib. occurrit, Aristotelem causam reddere
+          <lb ed="#P" n="110"/>ex scientia perspectivorum sui aevi. Ali aliter
+          <pb ed="#P" n="672"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>respondent, dici fortasse posset, licet visio per
+          <lb ed="#P" n="2"/>extramissionem non fiat, oculos tamen 
+          emit<lb break="no" ed="#P" n="3"/>tere sui species, sicut res alias visibiles, et de
+          <lb ed="#P" n="4"/>hac specierum emissione locutum esse 
+          Aristo<lb break="no" ed="#P" n="5"/>telem cum dixerit factam ibi fuisse 
+          reflexio<lb break="no" ed="#P" n="6"/>nem in aere tanquam in speculo, adeo enim
+          <lb ed="#P" n="7"/>imbecillo aspectu erat Antipheron, ut 
+          qualis<lb break="no" ed="#P" n="8"/>cumque aeris densitas esset pro speculo, 
+          maxi<lb break="no" ed="#P" n="9"/>me si ex ipsius ocufis humor aliquis difflueret,
+          <lb ed="#P" n="10"/>quo aer magis crassesceret. Adde, 
+          Antipheron<lb break="no" ed="#P" n="11"/>tem non oculis, sed forte laesa imaginatione,
+          <lb ed="#P" n="12"/>solitum sese velut sibi in aere adversum 
+          con<lb break="no" ed="#P" n="13"/>tueri, ac si visu conspexisset.
+        </p>
+        <p xml:id="szdada-y16420-d1e616">
+          <lb ed="#P" n="14"/>8. Objectio secunda solvitur. — Secundus
+          <lb ed="#P" n="15"/>locus Aristotelis habetur, lib. 5, de Generat.
+          <lb ed="#P" n="16"/>animal., cap. 1, oculos prominentes non posse
+          <lb ed="#P" n="17"/>tam procul cernere, quam qui in cavo sunt
+          <lb ed="#P" n="18"/>positi, quia horum motus, inquit, in vastum
+          <lb ed="#P" n="19"/>non dissipatur, sed recta meat, ubi videtur
+          <lb ed="#P" n="20"/>emissionem aliquam oculis tribuere. 
+          Respon<lb break="no" ed="#P" n="21"/>detur Aristotelem loqui de immutatione a 
+          vi<lb break="no" ed="#P" n="22"/>sibili in visum, quae magis unitur, quando
+          <lb ed="#P" n="23"/>oculos in cavo positos alterat, quod Aristoteles
+          <lb ed="#P" n="24"/>plane explicavit dicens, si ab oculis veluti 
+          fis<lb break="no" ed="#P" n="25"/>tula quaedam ad rem usque cernendam 
+          porri<lb break="no" ed="#P" n="26"/>geretur, nulla ex parte dissolvendum motum,
+          <lb ed="#P" n="27"/>qui a re visibili proficisceretur, et ad hoc 
+          insti<lb break="no" ed="#P" n="28"/>tutum subdit, nihil referre, an visus cernere
+          <lb ed="#P" n="29"/>dicatur exitu, ut quidam sentiebant, quasi
+          <lb ed="#P" n="30"/>dicat talem sententiam non esse necessariam
+          <lb ed="#P" n="31"/>ad illius rei rationem reddendam: causam ergo
+          <lb ed="#P" n="32"/>esse, quod oculi in cavo immutentur a 
+          pau<lb break="no" ed="#P" n="33"/>cioribus objectis: prominentes vero 
+          immutan<lb break="no" ed="#P" n="34"/>tur a pluribus, sicque dissipari, dehilitarique
+          <lb ed="#P" n="35"/>vim cernendi, qua etiam ratione ad videndam
+          <lb ed="#P" n="36"/>rem a longe palpebras claudimus, aut 
+          inspec<lb break="no" ed="#P" n="37"/>toriam fistulam oculis applicamus, ut a sola re,
+          <lb ed="#P" n="38"/>quam videre intendimus, quantum fieri posset,
+          <lb ed="#P" n="39"/>oculi immutentur.
+        </p>
+        <p xml:id="szdada-y16420-d1e676">
+          <lb ed="#P" n="40"/>9. Objectio tertia. — Confirmatur. — 
+          Objec<lb break="no" ed="#P" n="41"/>tionem hanc eeque contra opponentem militare
+          <lb ed="#P" n="42"/>ostendit. — hatione praeterea contra hanc 
+          con<lb break="no" ed="#P" n="43"/>clusionem arguit Valles. Si visio perficeretur
+          <lb ed="#P" n="44"/>in oculo sine emissione spirituum, non posset
+          <lb ed="#P" n="45"/>oculusdiscernere magnitudinem, ac distantiam
+          <lb ed="#P" n="46"/>objecti, quod est contra experientiam. 
+          Decla<lb break="no" ed="#P" n="47"/>ratur major, quia distantia per propriam 
+          spe<lb break="no" ed="#P" n="48"/>ciem non discernitur, nec vero per 
+          modifica<lb break="no" ed="#P" n="49"/>uonem speciei proprii sensibilis, cum species
+          <lb ed="#P" n="50"/>non aliter objectum remotum, quam 
+          propin<lb break="no" ed="#P" n="51"/>quum repraesentet: non ergo restat via 
+          distan<lb break="no" ed="#P" n="52"/>Uam cognoscendi, nisi per emissionem: 
+          idem<lb break="no" ed="#P" n="53"/>que argumentum fit de magnitudine, non enim
+          <lb ed="#P" n="54"/>posset discerni magna vel parva, nisi per
+          <lb ed="#P" n="55"/>emissionem propinquior fieret visio uni cor-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pori, quam alteri. Confirmatur. Nam oculi
+          <lb ed="#P" n="57"/>plura, vel multo tempore contuendo lassantur,
+          <lb ed="#P" n="58"/>idque non aliunde, nisi quia videndo ex se
+          <lb ed="#P" n="59"/>nonnihil emittunt. Argumentum positum petit
+          <lb ed="#P" n="60"/>quidem difficultatem optimam, non quae ex
+          <lb ed="#P" n="61"/>nostra sententia oriatur specialiter, sed quae
+          <lb ed="#P" n="62"/>communis sit, atque in Vallesii opinione multo
+          <lb ed="#P" n="63"/>major, nam si vi-sio fit intra oculum, sive
+          <lb ed="#P" n="64"/>praecedat emissio aliqua, sive nulla, idem 
+          per<lb break="no" ed="#P" n="65"/>sistit argumentum. Si vero fit extra oculum,
+          <lb ed="#P" n="66"/>ut dictus auctor opinatur, vel ea fit in contactu
+          <lb ed="#P" n="67"/>rei visibilis, vel in medio: primum non 
+          con<lb break="no" ed="#P" n="68"/>cedit: nec vero potest, alias nunquam 
+          decipe<lb break="no" ed="#P" n="69"/>retur oculus circa distantiam, et 
+          magnitudi<lb break="no" ed="#P" n="70"/>nem rei,si juxta rem semper format visionem:
+          <lb ed="#P" n="71"/>secundum ergo concedit, sicque restat eadem
+          <lb ed="#P" n="72"/>argumenti difficultas. Nam a distantia reliqua
+          <lb ed="#P" n="73"/>usque ad objectum, quo quaeso pacto 
+          discerni<lb break="no" ed="#P" n="74"/>tur illius magnitudo, atque distantia ? cumque
+          <lb ed="#P" n="75"/>ipse velit neutram discerni posse per 
+          modifica<lb break="no" ed="#P" n="76"/>tionem speciei: nulla ipsi restat via ad 
+          diffi<lb break="no" ed="#P" n="77"/>cultatem propositam solvendam. Praeterea quo
+          <lb ed="#P" n="78"/>modo quaesc posset visus discernere visibile
+          <lb ed="#P" n="79"/>distantius alio? Tandem de auditu esset eadem
+          <lb ed="#P" n="80"/>difficultas, cum etiam agnoscat distantiam,
+          <lb ed="#P" n="81"/>neque audiat extramittendo: atque idem de
+          <lb ed="#P" n="82"/>sensibus aliis urgeri posset. - m
+        </p>
+        <p xml:id="szdada-y16420-d1e774">
+          <lb ed="#P" n="83"/>10. Duo certa praemittuntur ad solutionem
+          <lb ed="#P" n="84"/>tertiee objectionis. — Quocirca ad difficultatem
+          <lb ed="#P" n="85"/>dicendum primo, extensionem et 
+          magnitudi<lb break="no" ed="#P" n="86"/>nem rei non videri per speciei extensionem
+          <lb ed="#P" n="87"/>et magnitudinem, nam per speciem minimam
+          <lb ed="#P" n="88"/>videtur magnus mons, et saepe species 
+          reprae<lb break="no" ed="#P" n="89"/>sentat rem majorem, quam sit, ut patet in
+          <lb ed="#P" n="90"/>sensum inspicillis. Secundo dicendum, 
+          magni<lb break="no" ed="#P" n="91"/>tudinem et distantiam non videri per proprias
+          <lb ed="#P" n="92"/>species, ut in cap. 8, ostensum est, sed videri
+          <lb ed="#P" n="93"/>per modificationem specierum cujusque 
+          pro<lb break="no" ed="#P" n="94"/>prii sensibilis. Sed nunc reddenda causa, quare
+          <lb ed="#P" n="95"/>res appareat saepe major, aut etiam minor
+          <lb ed="#P" n="96"/>quam sit. Communis responsio perspectivorum
+          <lb ed="#P" n="97"/>est species emitti ab objecto per modum 
+          pyra<lb break="no" ed="#P" n="98"/>midis, cujus basis sit in objecto, finiaturque in
+          <lb ed="#P" n="99"/>pupilla per modum cuspidis, sive anguli, quo
+          <lb ed="#P" n="100"/>igitur angulus major est, vel minor, hoc est,
+          <lb ed="#P" n="101"/>obtusior, vel acutior, eo objectum majus 
+          ap<lb break="no" ed="#P" n="102"/>paret, aut minus, ita quoque respondent 
+          Al<lb break="no" ed="#P" n="103"/>bertus 2, de Anima, tract. 3, cap. 14, D. 
+          Tho<lb break="no" ed="#P" n="104"/>mas, hctione 15, text. 74. Responsio tamen
+          <lb ed="#P" n="105"/>difficultatem habet. Nam vel species describunt
+          <lb ed="#P" n="106"/>angulum in determinato puncto medii solum,
+          <lb ed="#P" n="107"/>et hoc dici non potest, alias ab illo solo puncto
+          <lb ed="#P" n="108"/>videri posset objectum, vel describuntur 
+          angu<lb break="no" ed="#P" n="109"/>li in omnibus punctis ac partibus medii, 
+          es<lb break="no" ed="#P" n="110"/>sentque proinde infiniti, quod absurdum vi-
+          <pb ed="#P" n="673"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>detur. Sed negandum esse absurdum describi
+          <lb ed="#P" n="2"/>in qualibet parte medii, a qua videri potest
+          <lb ed="#P" n="3"/>totum objectum, atque adeo infinitos in 
+          poten<lb break="no" ed="#P" n="4"/>tia, cum omnes sint veluti partes unius speciei
+          <lb ed="#P" n="5"/>repraesentantes singulae totum objectum, ut
+          <lb ed="#P" n="6"/>capite tertio diximus.
+        </p>
+        <p xml:id="szdada-y16420-d1e855">
+          <lb ed="#P" n="7"/>11. Urgentior instantia contra 
+          perspectivo<lb break="no" ed="#P" n="8"/>run solutionem. — Major ergo difficultas 
+          in<lb break="no" ed="#P" n="9"/>surgit ex hac responsione: nam si data ex 
+          an<lb break="no" ed="#P" n="10"/>gulis causa vera est, plane variata 
+          aliquantu<lb break="no" ed="#P" n="11"/>Ium distantia, variaretur et visio magnitudinis
+          <lb ed="#P" n="12"/>objecti, cum angulus in majorem, vel 
+          mino<lb break="no" ed="#P" n="13"/>rem variaretur, atque adeo objectum ipsum
+          <lb ed="#P" n="14"/>majus, vel minus appareret: consequens vero
+          <lb ed="#P" n="15"/>est contra experientiam: nam in qua 
+          distan<lb break="no" ed="#P" n="16"/>tia objectum est sufficienter approximatum,
+          <lb ed="#P" n="17"/>cernitur illius esse magnitudinis, quam vere
+          <lb ed="#P" n="18"/>habet non majoris, neque minoris. Praeterea
+          <lb ed="#P" n="19"/>jam inde sequeretur, existente duplo majori
+          <lb ed="#P" n="20"/>distantia rem videndam, fore duplo 
+          mino<lb break="no" ed="#P" n="21"/>rem, cum angulus sit duplo minor, quod 
+          ta<lb break="no" ed="#P" n="22"/>men est contra experientiam. Denique 
+          seque<lb break="no" ed="#P" n="23"/>retur res describentes aequalem angulum in
+          <lb ed="#P" n="24"/>pupilla judicandas semper aequalis 
+          magnitudi<lb break="no" ed="#P" n="25"/>nis, ac adeo rem exiguam propinquam oculo,
+          <lb ed="#P" n="26"/>magnam vero distantem judicandas aequales,
+          <lb ed="#P" n="27"/>si in ea proportione statuantur, ut ob 
+          inaequa<lb break="no" ed="#P" n="28"/>lem distantiam aequales angulos efliciant in
+          <lb ed="#P" n="29"/>eodem oculo.
+        </p>
+        <p xml:id="szdada-y16420-d1e907">
+          <lb ed="#P" n="30"/>12. Altera tertie objectionis solutio ab aliis
+          <lb ed="#P" n="31"/>affertur. — Praeter haec ergo alii positae 
+          dif<lb break="no" ed="#P" n="32"/>ficultatis causam nolunt assignare ex 
+          angu<lb break="no" ed="#P" n="33"/>lorum diversitate, sed specierum, nam usque
+          <lb ed="#P" n="34"/>ad certam distantiam (inquiunt) progreditur
+          <lb ed="#P" n="35"/>objecti species repraesentans illud cum eadem
+          <lb ed="#P" n="36"/>quantitate et magnitudine, quam in se habet,
+          <lb ed="#P" n="37"/>deinde ab illa distantia usque ad certum aliud
+          <lb ed="#P" n="38"/>punctum progrediendo species repraesentat 
+          ob<lb break="no" ed="#P" n="39"/>jectum idem sub minori jam quantitate, et
+          <lb ed="#P" n="40"/>sic in alia, atque alia certa distantia tot species
+          <lb ed="#P" n="41"/>multiplicantur in medio, quot sunt medii 
+          ip<lb break="no" ed="#P" n="42"/>sius partes, in quibus objectum majus apparet,
+          <lb ed="#P" n="43"/>aut minus.
+        </p>
+        <p xml:id="szdada-y16420-d1e940">
+          <lb ed="#P" n="44"/>13. Proxima solutione rejecta verior 
+          affer<lb break="no" ed="#P" n="45"/>tur. —Sed haec multiplicatio specierum 
+          super<lb break="no" ed="#P" n="46"/>flua est, nec secundum regulas philosophiae
+          <lb ed="#P" n="47"/>inducitur: unde dicendum existimo, intra
+          <lb ed="#P" n="48"/>certam distantiam, in qua objectum est aptum
+          <lb ed="#P" n="49"/>producere perfectam sui similitudinem, 
+          re<lb break="no" ed="#P" n="50"/>praesentari perfecte ejus magnitudinem, ac 
+          in<lb break="no" ed="#P" n="51"/>tra totam illam distantiam perfecte videri,
+          <lb ed="#P" n="52"/>extra illam vero imperfecte, eo quod 
+          similitu<lb break="no" ed="#P" n="53"/>do sensim debilior evadat, atque ita objectum
+          <lb ed="#P" n="54"/>semper apparere minus, quam vere existat :
+          <lb ed="#P" n="55"/>hanc ergo imperfectionem speciei explicabant
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>perspectivi per angulos. Atque hoc ipsum de
+          <lb ed="#P" n="57"/>distantiae cognitione philosophandum. Ad
+          <lb ed="#P" n="58"/>quam etiam majoris, vel minoris distantiae 
+          co<lb break="no" ed="#P" n="59"/>gnitionem plurimum conducit medii cognitio:
+          <lb ed="#P" n="60"/>apparet enim res tam distans, quam medium
+          <lb ed="#P" n="61"/>interjectum hujus, vel illius magnitudinis 
+          ap<lb break="no" ed="#P" n="62"/>paret, unde in conspiciendo de nocte luminoso
+          <lb ed="#P" n="63"/>facillime decipitur visus circa distantiam, eo
+          <lb ed="#P" n="64"/>quod nihil interjectum conspiciatur. Ad 
+          con<lb break="no" ed="#P" n="65"/>firmationem respondetur oculum lassari 
+          vi<lb break="no" ed="#P" n="66"/>dendo propter attentionem continuam et 
+          debi<lb break="no" ed="#P" n="67"/>litatem corporis, sicut et imaginatio fatigatur,
+          <lb ed="#P" n="68"/>quod si forte oculi emittunt aliquando 
+          spiri<lb break="no" ed="#P" n="69"/>tus, non id praestant ut perficiatur visio, sed
+          <lb ed="#P" n="70"/>defluxus ille spirituum consequenter se habet
+          <lb ed="#P" n="71"/>ex applicatione animae vehementi.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

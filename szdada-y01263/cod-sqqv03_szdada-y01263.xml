@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="50"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y01263"><!-- t2l1c9 -->
+        <head xml:id="szdada-y01263-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-y01263-Hd1e103" type="question-title">Utrum cum coelo, terra, caeterisque elementis tempus etiam concreatum sit</head>
+        <p xml:id="szdada-y01263-d1e106">
+          <lb ed="#P" n="44"/>CAPUT IX.
+          <lb ed="#P" n="45"/>UTRUM CUM COELO, TERRA, CAETERISQUE ELEMENTIS
+          <lb ed="#P" n="46"/>TEMPUS ETIAM CONCREATUM SIT.
+        </p>
+        <p xml:id="szdada-y01263-d1e115">
+          <lb ed="#P" n="47"/>1. Partis negantis ratio prima. — Hanc
+          <lb ed="#P" n="48"/>quaestionem tractant theologi in 2, d. 2, et 
+          di<lb break="no" ed="#P" n="49"/>vus Thomas, quaest. 66, 1 part., art. 4, 
+          Alen<lb break="no" ed="#P" n="50"/>sis, 2 part., quaest. 14, memb. 2, et Albertus
+          <lb ed="#P" n="51"/>Magnus specialem fecit tractatum de quatuor
+          <lb ed="#P" n="52"/>coaequaevis, id est, de rebus in eodem aevo, seu
+          <lb ed="#P" n="53"/>simul factis. Aiunt ergo hi theologi, quatuor
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>esse coaequaeva, seu simul a Deo facta, scilicet,
+          <lb ed="#P" n="55"/>Angelos, coelos, terram, seu materiam 
+          infor<lb break="no" ed="#P" n="56"/>mem, et tempus ; et quia tria prima explicata
+          <lb ed="#P" n="57"/>sunt, de quarto breviter dicere necesse est. Non
+          <lb ed="#P" n="58"/>videtur enim recte annumerari tempus 
+          caete<lb break="no" ed="#P" n="59"/>ris coaequaevis. Primo, quia tempus non est per
+          <lb ed="#P" n="60"/>se factum, sed consequitur motum, estque
+          <lb ed="#P" n="61"/>veluti passio ejus, ratione tantum formali ab
+          <lb ed="#P" n="62"/>illo distincta ; et loquendo communi modo de
+          <lb ed="#P" n="63"/>tempore, ut est communis mensura, in motu
+          <lb ed="#P" n="64"/>coeli tantum reperitur: sed motus coeli non
+          <lb ed="#P" n="65"/>est factus simul cum rebus aliis primo creatis:
+          <lb ed="#P" n="66"/>ergo neque tempus. Major ex philosophia 
+          sup<lb break="no" ed="#P" n="67"/>ponitur. Minor autem probatur, quia motus
+          <lb ed="#P" n="68"/>non potest incipere in instanti intrinseco, quod
+          <lb ed="#P" n="69"/>primum sui esse vocant, sicut aliae res 
+          perma<lb break="no" ed="#P" n="70"/>nentes creatae sunt: ergo non potuit aliis 
+          re<lb break="no" ed="#P" n="71"/>bus concreari, sed per realem durationem 
+          sal<lb break="no" ed="#P" n="72"/>tem unius instantis alia praecedere debuerunt.
+          <lb ed="#P" n="73"/>« 2. Secundaratio.—Secundoargumentor quod
+          <lb ed="#P" n="74"/>etiam plus quam per instans praecesserint, quia
+          <lb ed="#P" n="75"/>tempus non incepit, nisi quando sex dies 
+          crea<lb break="no" ed="#P" n="76"/>tionis mundi, seu primus illorum incepit: sed
+          <lb ed="#P" n="77"/>primus dies non fuit concreatus coelo et terrae
+          <lb ed="#P" n="78"/>in principio creatis, neque secundum instans
+          <lb ed="#P" n="79"/>intrinsecum, neque secundum extrinsecum ,
+          <lb ed="#P" n="80"/>quod sit diei initium per ultimum non esse
+          <lb ed="#P" n="81"/>ejus: ergo nullo modo fuit concreatus: ergo
+          <lb ed="#P" n="82"/>nec tempus. Probatur minor, quia dies non 
+          in<lb break="no" ed="#P" n="83"/>cepit, donec lux creata est, ut constat tum ex
+          <lb ed="#P" n="84"/>initio Genesis, tum etiam quia dies consistit
+          <lb ed="#P" n="85"/>in lucis, et tenebrarum vicissitudine. At vero
+          <lb ed="#P" n="86"/>lux non fuit creata intrinsece in primo puncto
+          <lb ed="#P" n="87"/>creationis coeli et terrae: nam in illo fuerunt
+          <lb ed="#P" n="88"/>tenebrae super faciem abyssi, et ad illas 
+          depel<lb break="no" ed="#P" n="89"/>lendas postea dixit Deus, fiat lur. Neque euam
+          <lb ed="#P" n="90"/>potuit lux fieri immediate post illud instans,
+          <lb ed="#P" n="91"/>quia est res permanens, et in instanti fit, 
+          in<lb break="no" ed="#P" n="92"/>stans autem non sequitur immediate post 
+          in<lb break="no" ed="#P" n="93"/>stans ; ergo non potuit tempus incipere in 
+          pri<lb break="no" ed="#P" n="94"/>mo instanti vreationis rerum, sed ad summum
+          <lb ed="#P" n="95"/>ab alio instanti creationis lucis. Propter quod
+          <lb ed="#P" n="96"/>dixit Philo, libro primo Allegoriarum in 
+          prin<lb break="no" ed="#P" n="97"/>cipio, necessario fatendum esse tempus 
+          pos<lb break="no" ed="#P" n="98"/>terius mundo esse, quippe quod mundi est
+          <lb ed="#P" n="99"/>effectus, nam céeli motus indicat, et naturam
+          <lb ed="#P" n="100"/>temporis.
+        </p>
+        <p xml:id="szdada-y01263-d1e237">
+          <lb ed="#P" n="101"/>3. Partis affirmantis fundamentum. — 
+          Con<lb break="no" ed="#P" n="102"/>traria nihilominus pars, et communis sententia
+          <lb ed="#P" n="103"/>suaderi potest, quia supra diximus, coelum et
+          <lb ed="#P" n="104"/>terram fuisse creata in principio temporis, et
+          <lb ed="#P" n="105"/>hanc interpretationem verborum illorum, 7n
+          <lb ed="#P" n="106"/>principio creavit Deus, eic., caeteris 
+          praetuli<lb break="no" ed="#P" n="107"/>mus, tanquam primariam, et maxime 
+          hittera<lb break="no" ed="#P" n="108"/>lem, etiamsi aliae non excludantur. Non po-
+          <pb ed="#P" n="51"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tuit autem illud instans esse initium temporis,
+          <lb ed="#P" n="2"/>nisi in illo inceperit tempus, quia est sermo
+          <lb ed="#P" n="3"/>de initio durationis: ergo necessario 
+          asseren<lb break="no" ed="#P" n="4"/>dum est, tempus simul cum coelo, et terra 
+          in<lb break="no" ed="#P" n="5"/>cepisse, ac proinde simul cum illis concreatum
+          <lb ed="#P" n="6"/>esse; et ob hanc causam dixit Augustinus, lib.
+          <lb ed="#P" n="7"/>11, de Civit., cap. 6. Mundum non esse 
+          fac<lb break="no" ed="#P" n="8"/>tum in tempore (utique quod jam incepisset)
+          <lb ed="#P" n="9"/>sed cum tempore, nimirum simul cum mundo
+          <lb ed="#P" n="10"/>creato; et in Imperfect. Gen., cap. 3, licet 
+          dis<lb break="no" ed="#P" n="11"/>putando procedat, semper supponit quod sit in
+          <lb ed="#P" n="12"/>temporis initio, et cum tempore incipere. Unde
+          <lb ed="#P" n="13"/>fit, ut etiam e converso, tempus concreetur
+          <lb ed="#P" n="14"/>cum re, quae in ejus initio fit, et esse incipit.
+          <lb ed="#P" n="15"/>Idemque sentit lib. 5. Gen. ad hit., cap. 5. Et
+          <lb ed="#P" n="16"/>propter hanc rationem censent aliqui, omnino
+          <lb ed="#P" n="17"/>certum esse, tempus esse creatum simul cum
+          <lb ed="#P" n="18"/>ccelo, et terra in hoc sensu, ut idem fuerit
+          <lb ed="#P" n="19"/>initium coeli, et temporis, quamvis non eodem
+          <lb ed="#P" n="20"/>modo ; quia idem momentum fuit initium 
+          in<lb break="no" ed="#P" n="21"/>trinsecum coeli, et aliarum rerum 
+          permanen<lb break="no" ed="#P" n="22"/>tium, temporis autem et motus solum 
+          extrin<lb break="no" ed="#P" n="23"/>secum.
+        </p>
+        <p xml:id="szdada-y01263-d1e312">
+          <lb ed="#P" n="24"/>4. Notatio pro decisione queestionis. — Sed
+          <lb ed="#P" n="25"/>quia hoc in aliquo sensu potest esse certum, et
+          <lb ed="#P" n="26"/>in alio dubium, licet probabile, breviter 
+          ad<lb break="no" ed="#P" n="27"/>vertendum est: ahud esse loqui de duratione
+          <lb ed="#P" n="28"/>praecise, aliud de tempore in generali, aliud
+          <lb ed="#P" n="29"/>in particulari de tempore physico, quod in
+          <lb ed="#P" n="30"/>successione continua alicujus physici motus
+          <lb ed="#P" n="31"/>consistit, ac denique aliud est specialissimum
+          <lb ed="#P" n="32"/>tempus (ut sic dicam) seu per antonomasiam,
+          <lb ed="#P" n="33"/>quod in motu coeli collocatur. Deinde 
+          princi<lb break="no" ed="#P" n="34"/>pium temporis dupliciter dici potest, scilicet,
+          <lb ed="#P" n="35"/>vel negative per respectum ad antecedentia,
+          <lb ed="#P" n="36"/>vel positive respectu sequentium: priori modo
+          <lb ed="#P" n="37"/>dicitur principium, ante quod nihil praecessit,
+          <lb ed="#P" n="38"/>posteriori modo dicitur principium illud, quod
+          <lb ed="#P" n="39"/>non solum est ante aliud, sed etiam aliud post
+          <lb ed="#P" n="40"/>ipsum proxime sequitur.
+        </p>
+        <p xml:id="szdada-y01263-d1e351">
+          <lb ed="#P" n="41"/>5. Pruna assertio trimembris. — Probatur
+          <lb ed="#P" n="42"/>primum membrum. — bDico ergo primo,
+          <lb ed="#P" n="43"/>durationem aliquam non aeternam fuisse 
+          ali<lb break="no" ed="#P" n="44"/>quo modo concreatam cum Angelis, coelo et
+          <lb ed="#P" n="45"/>terra, eamque fuisse principium omnis 
+          dura<lb break="no" ed="#P" n="46"/>tionis creatae, vel negative, quia ante illam
+          <lb ed="#P" n="47"/>durationem nulla praecessit; vel positive, quia
+          <lb ed="#P" n="48"/>principium durationis, quod tunc fuit, 
+          imme<lb break="no" ed="#P" n="49"/>diate post, nostro intelligendi modo, fuit in
+          <lb ed="#P" n="50"/>ratione durationis consummatum. tiaec 
+          asser<lb break="no" ed="#P" n="51"/>tio est evidens si ex Metaphysica supponamus
+          <lb ed="#P" n="52"/>durationem realem comitari omnem rem 
+          exis<lb break="no" ed="#P" n="53"/>tentem, esseque illi intrinsecam, et in re ab
+          <lb ed="#P" n="54"/>ipsa existentia minime distinctam, ut ex 
+          pro<lb break="no" ed="#P" n="55"/>fesso tractatum, et probatum est disput. 50
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Metaphysicae, sect. 1 et 2. Ibienim ostendimus,
+          <lb ed="#P" n="57"/>durare et existere solum diflerre 
+          connota<lb break="no" ed="#P" n="58"/>tione quadam nostro intelligendi modo; quia
+          <lb ed="#P" n="59"/>existere dicitur res in primo momento, quo
+          <lb ed="#P" n="60"/>esse recipit, proprie vero dura-ze non 
+          dici<lb break="no" ed="#P" n="61"/>tur, donec intelligatur perseverore in 
+          exi<lb break="no" ed="#P" n="62"/>stendo. Unde in primo instanti 
+          productio<lb break="no" ed="#P" n="63"/>nis rei indivisibilis, et per primum sui esse
+          <lb ed="#P" n="64"/>dicitur res exisiere, proprie autem nozdum
+          <lb ed="#P" n="65"/>durare dicitur, licet dici possit incepisse in 
+          du<lb break="no" ed="#P" n="66"/>ratione sua. Sic omnes res creatae sunt in 
+          prin<lb break="no" ed="#P" n="67"/>cipio durat;iouis suae, earumque duratio cum
+          <lb ed="#P" n="68"/>illis concreata est; et ita est manifesta, et 
+          evi<lb break="no" ed="#P" n="69"/>dens prima pars assertionis.
+        </p>
+        <p xml:id="szdada-y01263-d1e419">
+          <lb ed="#P" n="70"/>6. Probatur secundum. — Secunda vero ex
+          <lb ed="#P" n="71"/>fide certa est. Quia omuis duratio creaia,
+          <lb ed="#P" n="72"/>etiamsi sit aevum augeiicum, vel duratio 
+          per<lb break="no" ed="#P" n="73"/>manens rei corruptibilis vel incorruptibilis,
+          <lb ed="#P" n="74"/>initium habuit saitem negativum, ita ut 
+          veris<lb break="no" ed="#P" n="75"/>sime dici possit, hanc durationem nunc esse,
+          <lb ed="#P" n="76"/>vel incepisse, et antea non fuisse: ergo omnis
+          <lb ed="#P" n="77"/>duratio creata habuit initium, et secuudum
+          <lb ed="#P" n="78"/>tale initium cum rebus in principio creatis
+          <lb ed="#P" n="79"/>concreata est. Antecedens patet, quia nulla
+          <lb ed="#P" n="80"/>duratio creata fuit aeterna, ut secundum fidem
+          <lb ed="#P" n="81"/>supra probatum est: ergo necessario incepit
+          <lb ed="#P" n="82"/>esse cum antea non esset, alioqui semper 
+          fuis<lb break="no" ed="#P" n="83"/>set. Sed perturbare potest illud adverbium
+          <lb ed="#P" n="84"/>antea, quod temporale est, et videtur 
+          conno<lb break="no" ed="#P" n="85"/>tare durationem praeexistentem, quod 
+          repu<lb break="no" ed="#P" n="86"/>gnat, cum ante principium creatiouis rerum
+          <lb ed="#P" n="87"/>nulla duratio creata praecedere potuerit. Sed
+          <lb ed="#P" n="88"/>hoc nihil movere dcebet, quia illud autea non
+          <lb ed="#P" n="89"/>dicit durationem realem praecedentem, sed
+          <lb ed="#P" n="90"/>imaginariam, vel (quod perinde est) realem,
+          <lb ed="#P" n="91"/>non quae fuit, sedquae esse potuisset; vel etiam
+          <lb ed="#P" n="92"/>dici potest illud anstea counotare Dei 
+          aeterni<lb break="no" ed="#P" n="93"/>tatem, quia res, cum creantur, ita durare 
+          in<lb break="no" ed="#P" n="94"/>cipiunt, ut in tota Dei aeteruitate usque tunc
+          <lb ed="#P" n="95"/>non fuerint, nec illi coextiterint. Atque hoc
+          <lb ed="#P" n="96"/>durationis initium mundo concreatum sufiicit
+          <lb ed="#P" n="97"/>ad veritatem dogmatis fidei, quod rescreatae non
+          <lb ed="#P" n="98"/>fuerunt ab aeterno, sed in aliquo initio 
+          tempo<lb break="no" ed="#P" n="99"/>ris, id est, creatae durationis, esse inceperunt.
+        </p>
+        <p xml:id="szdada-y01263-d1e487">
+          <lb ed="#P" n="100"/>7. Probatur tertium membrum. — Vertia
+          <lb ed="#P" n="101"/>vero pars assertionis de initio positivo 
+          decla<lb break="no" ed="#P" n="102"/>ratur, quia coelum et terra tale esse, taleque
+          <lb ed="#P" n="103"/>initium existendi per creationem acceperunt,
+          <lb ed="#P" n="104"/>ut ex vi ilhus in ipsomet esse permanuere 
+          pos<lb break="no" ed="#P" n="105"/>sent: ergo ex tunc durandi initium acceperunt.
+          <lb ed="#P" n="106"/>Item nostro modo intelligendi immediate post
+          <lb ed="#P" n="107"/>illud primum instans creationis proprie 
+          dura<lb break="no" ed="#P" n="108"/>runt, in eodem esse permanendo: ergo in illo
+          <lb ed="#P" n="109"/>initium suae durationis, seu permanentiae 
+          ac<lb break="no" ed="#P" n="110"/>ceperunt. Atque ita haec pars etiam in aevo an-
+          <pb ed="#P" n="52"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gelico, vel caelesti locum habet: nam hicet 
+          ip<lb break="no" ed="#P" n="2"/>sum in se sit indivisibile, eminenter habet
+          <lb ed="#P" n="3"/>permanentiam aequivalentem durationi 
+          divisi<lb break="no" ed="#P" n="4"/>bili, ideoque nostro modo intelligendi ratione
+          <lb ed="#P" n="5"/>distinguimus initium ejus ab esse ejus perfecto
+          <lb ed="#P" n="6"/>et consummato in esse durationis, et sic 
+          dici<lb break="no" ed="#P" n="7"/>mus concreari cum ipsa re aeviterna secundum
+          <lb ed="#P" n="8"/>initium suum, permanere autem per ejusdem
+          <lb ed="#P" n="9"/>rei conservationem, et sic in ratione 
+          duratio<lb break="no" ed="#P" n="10"/>nis compleri, non quidem secundum rem, quae
+          <lb ed="#P" n="11"/>tota simul incepit, sed secundum nostrum 
+          in<lb break="no" ed="#P" n="12"/>telligendi modum.
+        </p>
+        <p xml:id="szdada-y01263-d1e544">
+          <lb ed="#P" n="13"/>8. Secunda assertio ejusque sensus 
+          emponi<lb break="no" ed="#P" n="14"/>tur. — Dico secundo. Aliquod initium tam 
+          ne<lb break="no" ed="#P" n="15"/>gativum, quam positivum proprii temporis
+          <lb ed="#P" n="16"/>concreatum esse cum substantiis in principio
+          <lb ed="#P" n="17"/>creatis, id est, in primo instanti creationis
+          <lb ed="#P" n="18"/>earum. Declaratur assertio: nam hoc differt
+          <lb ed="#P" n="19"/>inter tempus proprie sumptum et durationem
+          <lb ed="#P" n="20"/>creatam, quod duratio etiam creata abstrahit
+          <lb ed="#P" n="21"/>a successione reali et formali, potestque esse
+          <lb ed="#P" n="22"/>indivisibilis, virtute continens successionem,
+          <lb ed="#P" n="23"/>ratione cujus concipi potest ut coexistens 
+          suc<lb break="no" ed="#P" n="24"/>cessioni imaginariae, et habens aptitudinem ad
+          <lb ed="#P" n="25"/>existendum reali successioni. At vero tempus
+          <lb ed="#P" n="26"/>proprie significat durationem realem 
+          succes<lb break="no" ed="#P" n="27"/>sionem habentem. Unde prior assertio proprie
+          <lb ed="#P" n="28"/>habet locum in duratione permanente, sive sit
+          <lb ed="#P" n="29"/>eeyum, sive aliqua alia duratio, haec vero 
+          po<lb break="no" ed="#P" n="30"/>nitur dc duratione suecessiva. Sic ergo certum
+          <lb ed="#P" n="31"/>est, non potuisse hanc durationem, seu tempus
+          <lb ed="#P" n="32"/>secundum proprium suum esse concreari in
+          <lb ed="#P" n="33"/>primo instanti creationis ipsis rebus creatis, ut
+          <lb ed="#P" n="34"/>convincit prima ratio dubitandi in principio
+          <lb ed="#P" n="35"/>posita, quia in instanti non potest esse 
+          succes<lb break="no" ed="#P" n="36"/>sio. Nihilominus tamen dicimus in assertione
+          <lb ed="#P" n="37"/>tempus aliquod secundum suum initium 
+          con<lb break="no" ed="#P" n="38"/>creatum esse. Quod ut probemus, distinguimus
+          <lb ed="#P" n="39"/>duplex tempus, unum physicum et continuum,
+          <lb ed="#P" n="40"/>aliud metaphysicum, seu intellectuale et 
+          dis<lb break="no" ed="#P" n="41"/>creium. De priori dicemus in assertione 
+          se<lb break="no" ed="#P" n="42"/>quenti. Haec autem assertio proprie de 
+          poste<lb break="no" ed="#P" n="43"/>riori proponitur; nam hoc tempus in actibus
+          <lb ed="#P" n="44"/>intellectus et voluntatis positum est, quatenus
+          <lb ed="#P" n="45"/>in eis quaedam successio, et ab uno in alium
+          <lb ed="#P" n="46"/>transitus invenitur. Sed probabilissimum est,
+          <lb ed="#P" n="47"/>actus intellectus et voluntatis Angelorum simul
+          <lb ed="#P" n="48"/>cum ipsis incepisse: ergo in eis necessario 
+          ali<lb break="no" ed="#P" n="49"/>quod tempus incepit. Non potuit autem tunc
+          <lb ed="#P" n="50"/>incipere tale tempus quoad integram 
+          succes<lb break="no" ed="#P" n="51"/>sionem suam, quia successio non potest esse in
+          <lb ed="#P" n="52"/>instanti, nec Angelus creatus cum aliquo actu
+          <lb ed="#P" n="53"/>potuit pro eodem instanti ad alium actum 
+          tran<lb break="no" ed="#P" n="54"/>sire: nihilominus tamen in illo puncto incepit
+          <lb ed="#P" n="55"/>intrinsece realiter tale tempus. tam secundum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>respectum negativum, quia ante illud 
+          momen<lb break="no" ed="#P" n="57"/>tum nullum praecesserat instans talis temporis,
+          <lb ed="#P" n="58"/>quam secundum respectum positivum, quia
+          <lb ed="#P" n="59"/>immediate post sequi potuit alius actus, et
+          <lb ed="#P" n="60"/>consequenter aliud instans illius temporis.
+          <lb ed="#P" n="61"/>Estque differentia inter hoc tempus et 
+          physi<lb break="no" ed="#P" n="62"/>cum, quia non est continuum, sed discretum,
+          <lb ed="#P" n="63"/>et ideo ex indivisibilibus durationibus 
+          compo<lb break="no" ed="#P" n="64"/>nitur: ideoque potuit in illo primo creationis
+          <lb ed="#P" n="65"/>instanti dari intrinsecum initium talis 
+          tempo<lb break="no" ed="#P" n="66"/>ris, quia tunc prima pars illius extitit, et 
+          se<lb break="no" ed="#P" n="67"/>cundum hoc etiam tempus verificari potest
+          <lb ed="#P" n="68"/>dogma fidei, quod omnia facta sunt in 
+          tempo<lb break="no" ed="#P" n="69"/>ris initio, et consequenter quod aliquod initium
+          <lb ed="#P" n="70"/>proprii temporis rebus ipsis creatis concreatum
+          <lb ed="#P" n="71"/>sit.
+        </p>
+        <p xml:id="szdada-y01263-d1e677">
+          <lb ed="#P" n="72"/>9. Tertia assertio. — Prima via sustinendi
+          <lb ed="#P" n="73"/>positam assertionem. — Dico tertio. Etiam de
+          <lb ed="#P" n="74"/>tempore existente in motu physico et coelesti,
+          <lb ed="#P" n="75"/>probabili, ac vero sensu dici potest, incepisse
+          <lb ed="#P" n="76"/>cum rebus primo creatis, ac subinde cum illis
+          <lb ed="#P" n="77"/>concreatum fuisse. Haec assertio dupliciter 
+          sus<lb break="no" ed="#P" n="78"/>tineri potest. Primo asserendo aliquem motum
+          <lb ed="#P" n="79"/>localem corporum in principio creatorum in
+          <lb ed="#P" n="80"/>illo primo instanti incepisse, eo modo, quo
+          <lb ed="#P" n="81"/>potest motus incipere in instanti, scilicet, 
+          ex<lb break="no" ed="#P" n="82"/>trinsece, et per ultimum non esse: et hunc
+          <lb ed="#P" n="83"/>modum difhicile sustinere possunt, qui negant
+          <lb ed="#P" n="84"/>coelos fuisse creatos in illo instanti: sic enim
+          <lb ed="#P" n="85"/>tunc non potuissent incipere motus coelestes,
+          <lb ed="#P" n="86"/>cum fuerit postea prius creandum ipsum 
+          mo<lb break="no" ed="#P" n="87"/>bile. Si autem motus coeli tunc non coepit,
+          <lb ed="#P" n="88"/>frustra, et sine fundamento dicetur incepisse,
+          <lb ed="#P" n="89"/>vel in terra, vel in alio elemento, vel in 
+          mate<lb break="no" ed="#P" n="90"/>ria informi. Quamvis enim id non fuerit 
+          im<lb break="no" ed="#P" n="91"/>possibile, nihilominus ita esse factum nullo
+          <lb ed="#P" n="92"/>modo sciri potest, quia neque scriptum est,
+          <lb ed="#P" n="93"/>neque ratione aliqua ostendi potest. Quod etiam
+          <lb ed="#P" n="94"/>confirmari potest ex his, quae circa illa verba,
+          <lb ed="#P" n="95"/>spiritus Domini ferebatur super aquas, cap. 1,
+          <lb ed="#P" n="96"/>diximus, ubi ostendimus, licet nomine 
+          spiri<lb break="no" ed="#P" n="97"/>tus significetur aer, nihilominus necessarium
+          <lb ed="#P" n="98"/>non esse, ut verbum ferebatur motum localem
+          <lb ed="#P" n="99"/>significet, quia de nullo motu naturaliter id
+          <lb ed="#P" n="100"/>veriticari potest, praeternaturalem autem 
+          fin<lb break="no" ed="#P" n="101"/>gere supervacaneum est, quae ratio in praesenti
+          <lb ed="#P" n="102"/>etiam locum habet. At vero supposita nostra
+          <lb ed="#P" n="103"/>sententia, quod omnes coeli in illo primo 
+          in<lb break="no" ed="#P" n="104"/>stanti creati sunt, optima ratione defenditur,
+          <lb ed="#P" n="105"/>atque asseritur, motum primi mobilis a 
+          prin<lb break="no" ed="#P" n="106"/>cipio creationis incepisse, ac proinde etiam
+          <lb ed="#P" n="107"/>tempus. Prout sensit D. Thomas, dicta q. 64,
+          <lb ed="#P" n="108"/>art. 3, ad 3. Quia ex parte motus nulla est 
+          re<lb break="no" ed="#P" n="109"/>pugnantia, quod in eodem instanti extrinsece
+          <lb ed="#P" n="110"/>incipiat, in quo mobile incipit existere, ut per
+          <pb ed="#P" n="53"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>se notum est, nec etiam erat ulla difficultas
+          <lb ed="#P" n="2"/>ex parte primi mobilis in eo puncto jam creati
+          <lb ed="#P" n="3"/>cum tanta aptitudine ad motum circularem,
+          <lb ed="#P" n="4"/>quantam nunc habet, et eamdem habuit 
+          An<lb break="no" ed="#P" n="5"/>gelus motor illius coeli ab eodem instanti. 
+          De<lb break="no" ed="#P" n="6"/>nique talis motus vel est naturalis illi coelo
+          <lb ed="#P" n="7"/>secundum peculiarem ejus naturam, ut aliqui
+          <lb ed="#P" n="8"/>volunt: vel saltem est consentaneus universali
+          <lb ed="#P" n="9"/>naturae et ordini totius mundi; quia cum 
+          tem<lb break="no" ed="#P" n="10"/>pus illius motus sit universalis, et prima 
+          men<lb break="no" ed="#P" n="11"/>sura singulorum dierum, conveniens fuit, ut
+          <lb ed="#P" n="12"/>cum aliis rebus primis simul inciperet, eo
+          <lb ed="#P" n="13"/>modo, quo potuit. Ergo multum credibile est
+          <lb ed="#P" n="14"/>motum coeli, ac subinde tempus ex tunc 
+          ince<lb break="no" ed="#P" n="15"/>pisse: et ex his, quae de lucis effectione, et
+          <lb ed="#P" n="16"/>primi diei opere dicemus, hoc amplius 
+          confir<lb break="no" ed="#P" n="17"/>mabitur. Quid autem de motibus aliorum 
+          coe<lb break="no" ed="#P" n="18"/>lorum dicendum sit, postea videbimus.
+        </p>
+        <p xml:id="szdada-y01263-d1e808">
+          <lb ed="#P" n="19"/>10. Secunda via sustinendi eamdem 
+          asser<lb break="no" ed="#P" n="20"/>Lionem secundum divum Thomam.—Qo pacto
+          <lb ed="#P" n="21"/>sustineatur secundum auctoremn. — Quia vero,
+          <lb ed="#P" n="22"/>licet probabile sit, motum primi mobilis 
+          im<lb break="no" ed="#P" n="23"/>mediate post primum instans creationis 
+          fac<lb break="no" ed="#P" n="24"/>tum esse, tamen id certum non est, ut libro
+          <lb ed="#P" n="25"/>sequenti, capite secundo, attingam, addendum
+          <lb ed="#P" n="26"/>censeo, etiamsi non continuo seu immediate
+          <lb ed="#P" n="27"/>post factus fuisset ille motus, nihilominus vere
+          <lb ed="#P" n="28"/>dici posse, coelum et terram, seu mundum
+          <lb ed="#P" n="29"/>factum esse in temporis initio, seu cum 
+          princi<lb break="no" ed="#P" n="30"/>pio temporis, aut etiam cum tempore. Primam
+          <lb ed="#P" n="31"/>partem tradit divus Thomas, dicta quaest. 66,
+          <lb ed="#P" n="32"/>art. 4, ad 3, dicit tamen, licet in eo casu 
+          tem<lb break="no" ed="#P" n="33"/>pus non esset in motu firmamenti, seu primi
+          <lb ed="#P" n="34"/>mobils, necessarium esse, ut in alio motu
+          <lb ed="#P" n="35"/>existeret. Quod est quidem verum, si 
+          suppona<lb break="no" ed="#P" n="36"/>tur aliquod tempus successivum realiter fuisse
+          <lb ed="#P" n="37"/>ante motum coeli. Nos vero dicimus, etiam
+          <lb ed="#P" n="38"/>sine hac suppositione posse mitium temporis
+          <lb ed="#P" n="39"/>esse cosequaevum creationi coeli et terrae. Quod
+          <lb ed="#P" n="40"/>ita breviter declaro: nam in illo instanti, in
+          <lb ed="#P" n="41"/>quo coelum factum est, talem locum acquisivit
+          <lb ed="#P" n="42"/>per quamdain momentaneam actionem 
+          pro<lb break="no" ed="#P" n="43"/>ductivam talis ubi, quae licet facta fuerit 
+          con<lb break="no" ed="#P" n="44"/>sequenter a creationem substantise coeli, 
+          ni<lb break="no" ed="#P" n="45"/>hilominus in re distincta erat ab illa, ad eum
+          <lb ed="#P" n="46"/>modum, quo ubi distinguitur a corpore locato.
+          <lb ed="#P" n="47"/>In illa ergo comproductione ubi coelestis fuit
+          <lb ed="#P" n="48"/>iudivisibile quoddam instans, quod de se 
+          suffti<lb break="no" ed="#P" n="49"/>ciens principium temporis erat, tum negative
+          <lb ed="#P" n="50"/>per respectum ad anteriora, quia ante illud
+          <lb ed="#P" n="51"/>instans, nullum tale praecesserat, tum etiam
+          <lb ed="#P" n="52"/>positive respectu futurorum saltem de se, et
+          <lb ed="#P" n="53"/>secundum aptitudinem. Quia tale fuit illud
+          <lb ed="#P" n="54"/>instans, ut immediate post illud posset sequi
+          <lb ed="#P" n="55"/>tempus verum et reale per remissionem illius
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>primi ubi, et continuam aliorum aequisitionem
+          <lb ed="#P" n="57"/>per motum immediate post subsequentem.
+          <lb ed="#P" n="58"/>Nam hic motus esto de facto non fuerit, semper
+          <lb ed="#P" n="59"/>possibilis fuit, et hoc satis est, ut illud primum
+          <lb ed="#P" n="60"/>instans dicatur esse principium temporis, 
+          uti<lb break="no" ed="#P" n="61"/>que quod fuit, vel esse potuisset: nam ratio
+          <lb ed="#P" n="62"/>principii non semper dicit actum, sed 
+          aliquan<lb break="no" ed="#P" n="63"/>do etiam aptitudinem. Quocirca licet ponamus
+          <lb ed="#P" n="64"/>ita fuisse productum mundum in illo instanti,
+          <lb ed="#P" n="65"/>ut in nulla creatura facta fuerit mutatio, vel
+          <lb ed="#P" n="66"/>successio realis per aliquam moram, 
+          nihilo<lb break="no" ed="#P" n="67"/>minus illa mora de se esset mensurabilis 
+          tem<lb break="no" ed="#P" n="68"/>pore, sicut nunc quies unius corporis per 
+          mo<lb break="no" ed="#P" n="69"/>tum alterius corporis mensuratur; et quamvis
+          <lb ed="#P" n="70"/>in re non esset talis mensura, secundum 
+          nos<lb break="no" ed="#P" n="71"/>tram cogitationem potest apprehendi ut 
+          possi<lb break="no" ed="#P" n="72"/>bilis, et dicitur imaginaria successio, et 
+          secun<lb break="no" ed="#P" n="73"/>dum illam posset mundus, aut coelum 
+          quan<lb break="no" ed="#P" n="74"/>tumcumque quiescens dici magis, aut minus
+          <lb ed="#P" n="75"/>durasse, et quievisse in tali loco, ex quo in illo
+          <lb ed="#P" n="76"/>creatum est. Ergo hoc satis est, ut et mundus
+          <lb ed="#P" n="77"/>dicatur creatus in temporis initio, et initium
+          <lb ed="#P" n="78"/>temporis saltem extrinsecum, et indivisibile
+          <lb ed="#P" n="79"/>fuisse concreatum mundo informi.
+        </p>
+        <p xml:id="szdada-y01263-d1e945">
+          <lb ed="#P" n="80"/>11. Ad primam rationem contrariam in 
+          nu<lb break="no" ed="#P" n="81"/>mero 1. — Ad secundam rationem.—Ebt per haec
+          <lb ed="#P" n="82"/>satisfactum est rationibus dubitandi in 
+          princi<lb break="no" ed="#P" n="83"/>pio positis. Ad primam enim fatemur, tempus,
+          <lb ed="#P" n="84"/>ut est ens reale successivum, non esse factum
+          <lb ed="#P" n="85"/>omnino simul cum coelo et terra, nihitominus
+          <lb ed="#P" n="86"/>tamen ratione sui initii dici concreatum illis,
+          <lb ed="#P" n="87"/>et de facto etiam semper, et immediate post
+          <lb ed="#P" n="88"/>illud primum instans illis coextitisse. 
+          Eadem<lb break="no" ed="#P" n="89"/>que responsio in secunda ratione locum habet.
+          <lb ed="#P" n="90"/>Quatenus vero in illa attingitur peculiaris 
+          difi<lb break="no" ed="#P" n="91"/>cultas, de creatione lucis, respondet D. 
+          Tho<lb break="no" ed="#P" n="92"/>mas, dicta quaest. 66, art. 4, ad 2, quod sicut
+          <lb ed="#P" n="93"/>mundus prius fuit informis, quam plene 
+          for<lb break="no" ed="#P" n="94"/>matus, ita potuit esse, et tempus, quod perinde
+          <lb ed="#P" n="95"/>est, ac si diceret, etiamsi in principio sol non
+          <lb ed="#P" n="96"/>esset, vel non luceret, potuisse moveri primum
+          <lb ed="#P" n="97"/>mobile, et in eo esse tempus informe ex defectu
+          <lb ed="#P" n="98"/>lucis, quod verissimum quidem est, de 
+          possi<lb break="no" ed="#P" n="99"/>bili loquendo. Quaado vero, et quomodo et
+          <lb ed="#P" n="100"/>ipsa lux, et divisio ejus a tenebris facta fuerit,
+          <lb ed="#P" n="101"/>in principio libri sequentis dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="385"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y09663"><!-- t2l5c2 -->
+        <head xml:id="szdada-y09663-Hd1e101">Caput 2</head>
+        <head xml:id="szdada-y09663-Hd1e103" type="question-title">Utrum in statu innocentiae virginitas perpetuo servanda esset</head>
+        <p xml:id="szdada-y09663-d1e106">
+          <lb ed="#P" n="11"/>CAPUT II.
+          <lb ed="#P" n="12"/>UTRUM IN STATU INNOCENTIAE VIRGINITAS PERPETUO
+          <lb ed="#P" n="13"/>SERVANDA ESSET.
+        </p>
+        <p xml:id="szdada-y09663-d1e115">
+          <lb ed="#P" n="14"/>1. Prima sententia ex D. Thoma quam 
+          tue<lb break="no" ed="#P" n="15"/>tur Capreolus. — Ratio dubitandi est, quia 
+          vi<lb break="no" ed="#P" n="16"/>detur absurdum, quod durante innocentiae
+          <lb ed="#P" n="17"/>statu virginitas in omnibus personis foret 
+          vio<lb break="no" ed="#P" n="18"/>landa, alioqui status naturae lapsae statum 
+          in<lb break="no" ed="#P" n="19"/>nocentiae in castitatis perfectione superaret:
+          <lb ed="#P" n="20"/>quod esse videtur, et contra illius status 
+          excel<lb break="no" ed="#P" n="21"/>lentiam, et contra id, quod sancti ponderant,
+          <lb ed="#P" n="22"/>Adam non sine mysterio uxorem non 
+          cogno<lb break="no" ed="#P" n="23"/>visse, donec e Paradiso ejectus est. In hoc 
+          igi<lb break="no" ed="#P" n="24"/>tur puncto D. Thomas, in 2, dist. 20, q. 1,
+          <lb ed="#P" n="25"/>art. 2, ad. 1, dicit in primo statu non fuisse
+          <lb ed="#P" n="26"/>amittendam simpliciter virginitatem per 
+          co<lb break="no" ed="#P" n="27"/>pulam conjugalem. Quia duplex integritas ad
+          <lb ed="#P" n="28"/>virginitatem necessaria est, carnis videlicet,
+          <lb ed="#P" n="29"/>et mentis, ex quibus prior valde materialis,
+          <lb ed="#P" n="30"/>et accidentaria est, posterior autem est 
+          forma<lb break="no" ed="#P" n="31"/>lis et praecipua. In statu autem innocentiae
+          <lb ed="#P" n="32"/>solveretur quidem integritas carnis: non 
+          au<lb break="no" ed="#P" n="33"/>tem integritas mentis, et ideo absolute et 
+          sim<lb break="no" ed="#P" n="34"/>pliciter virginitas non amitteretur. Et hanc
+          <lb ed="#P" n="35"/>doctrinam defendit ibi Capreolus conclusione
+          <lb ed="#P" n="36"/>nona, et ad argumenta contra illam.
+        </p>
+        <p xml:id="szdada-y09663-d1e167">
+          <lb ed="#P" n="37"/>2. Secunda sententia extreme contraria 
+          prae<lb break="no" ed="#P" n="38"/>cedenti em Alensi. — Alia sententia huic 
+          ex<lb break="no" ed="#P" n="39"/>treme contraria, sumi potest ex Abulense, 
+          se<lb break="no" ed="#P" n="40"/>cunda parte, quaest. 85, art. 4, nimirum in
+          <lb ed="#P" n="41"/>statu innocentiae virginitatem non fuisse 
+          dis<lb break="no" ed="#P" n="42"/>solvendam quoad carnis integritatem, quoad
+          <lb ed="#P" n="43"/>mentis autem integritatem necessario fuisse
+          <lb ed="#P" n="44"/>violendam. Quia non potuit generatio tunc
+          <lb ed="#P" n="45"/>fieri sine voluntate coeundi, et sine opere 
+          emit<lb break="no" ed="#P" n="46"/>tendi, commiscendi, ac recipiendi virile 
+          se<lb break="no" ed="#P" n="47"/>men: sed hoc directe pugnat cum integritate
+          <lb ed="#P" n="48"/>mentis ad virginitatem necessaria, ut statim
+          <lb ed="#P" n="49"/>amplius confirmabitur: ergo in statu 
+          inno<lb break="no" ed="#P" n="50"/>centiae necessario fuisset amittenda virginitas
+          <lb ed="#P" n="51"/>quoad formale, licet non amitteretur quoad
+          <lb ed="#P" n="52"/>corporale. Et potest haec opinio declarari sal-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tem in ordine ad potentiam Dei absolutam.
+          <lb ed="#P" n="54"/>Nam foeminam concipere, vel etiam parere ex
+          <lb ed="#P" n="55"/>viro, voluntario et morali modo sine 
+          amis<lb break="no" ed="#P" n="56"/>sione integritatis carnis per Dei potentiam,
+          <lb ed="#P" n="57"/>seu speciale donum, non repugnat, ut est per
+          <lb ed="#P" n="58"/>se clarum. At vero virginem voluntario, et
+          <lb ed="#P" n="59"/>morali, ac naturali modo coire cum viro 
+          re<lb break="no" ed="#P" n="60"/>tenta integritate formali ejus quoad 
+          proposi<lb break="no" ed="#P" n="61"/>tum mentis, involvit apertam repugnantiam;
+          <lb ed="#P" n="62"/>quia integritas mentis consistit in absoluto
+          <lb ed="#P" n="63"/>proposito non coeundi, et perseverantia in
+          <lb ed="#P" n="64"/>illo, repugnat autem voluntarie coire, et 
+          ha<lb break="no" ed="#P" n="65"/>bere firmum propositum non coeundi. Nec
+          <lb ed="#P" n="66"/>refert quod talis voluntas coeundi in statu 
+          in<lb break="no" ed="#P" n="67"/>nocentiae esset licita, quia integritas mentis
+          <lb ed="#P" n="68"/>ad virginitatem necessaria non solum 
+          illici<lb break="no" ed="#P" n="69"/>tum, sed etiam licitum propositum coeundi
+          <lb ed="#P" n="70"/>excludit.
+        </p>
+        <p xml:id="szdada-y09663-d1e246">
+          <lb ed="#P" n="71"/>3. Duplex quaestionis sensus. — Circa 
+          prio<lb break="no" ed="#P" n="72"/>rem sensum assertio negativa. — Probatur 
+          eax<lb break="no" ed="#P" n="73"/>plicando tria requisita ad virginitatem fore
+          <lb ed="#P" n="74"/>violanda in statu innocentie. Duo possunt
+          <lb ed="#P" n="75"/>in hoc puncto inquiri. Unum est an in statu
+          <lb ed="#P" n="76"/>innocentiae in eisdem personis simul esse 
+          pos<lb break="no" ed="#P" n="77"/>sit virginitas vera cum matrimonio 
+          consum<lb break="no" ed="#P" n="78"/>mato. Aliud est an saltem ex diversis personis
+          <lb ed="#P" n="79"/>reperirentur in illo statu, quaedam filiorum
+          <lb ed="#P" n="80"/>procreationi vacantes, et aliae statum 
+          virgini<lb break="no" ed="#P" n="81"/>tatis perpetuo servantes. Prior sensus ad rem
+          <lb ed="#P" n="82"/>praesentem proprie pertinet. In quo sentio non
+          <lb ed="#P" n="83"/>fuisse futuram in illo statu virginitatem simul
+          <lb ed="#P" n="84"/>cum foecunditate in eadem persona. Ita 
+          sen<lb break="no" ed="#P" n="85"/>tiunt in 2, dist. 20, q. 2 et 3, Bonaventura,
+          <lb ed="#P" n="86"/>expressius Durandus, queest. 2, et ibi /Egidius,
+          <lb ed="#P" n="87"/>q. 1,ad fin., in dub. litter., qui aliquid 
+          singu<lb break="no" ed="#P" n="88"/>lare addit, de quo statim dicam. Consentit
+          <lb ed="#P" n="89"/>Richardus, ibi art. 1, quaest. 4, Altissiodorensis,
+          <lb ed="#P" n="90"/>9 p. Summ., lib. 2, traet. 10, cap. 2, q. 4. Et
+          <lb ed="#P" n="91"/>Pererius, lib. 4, in Gen., disp. de Propagat.,
+          <lb ed="#P" n="92"/>etc., q. 4. Et probatur explicando amplius
+          <lb ed="#P" n="93"/>doctrinam D. Thomae supra relatam de duplici
+          <lb ed="#P" n="94"/>integritate, corporis scilicet et mentis, quae in
+          <lb ed="#P" n="95"/>virginibus conservari, aut amitti potest. Quam
+          <lb ed="#P" n="96"/>doctrinam exactius declarans idem D. Thomas
+          <lb ed="#P" n="97"/>2, 2. q. 15, art. 1, in virginibus foeminis tria
+          <lb ed="#P" n="98"/>distinguit, quae sunt integritas signaculi 
+          vir<lb break="no" ed="#P" n="99"/>ginalis, inexperientia libidinis, id est, 
+          im<lb break="no" ed="#P" n="100"/>munitas a voluntaria resolutione seminis cum
+          <lb ed="#P" n="101"/>delectatione venera, et integritas mentis per
+          <lb ed="#P" n="102"/>propositum abstinendi a tali delectatione et
+          <lb ed="#P" n="103"/>commixtione. Ex quibus ait D. Thomas 
+          pri<lb break="no" ed="#P" n="104"/>mum esse per accidens ad moralem 
+          virginita<lb break="no" ed="#P" n="105"/>tem: secundum vero esse per se, tamen 
+          ma<lb break="no" ed="#P" n="106"/>terialiter se habere, quia passiones sunt 
+          mate<lb break="no" ed="#P" n="107"/>ria virtutum moralium: tertium autem per
+          <pb ed="#P" n="386"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>se, ac formaliter complere virginitatem. 
+          Dici<lb break="no" ed="#P" n="2"/>mus ergo, quoad haec omnia violandam fuisse
+          <lb ed="#P" n="3"/>virginitatem per copulam carnalem etiam in
+          <lb ed="#P" n="4"/>statu innocentiae.
+        </p>
+        <p xml:id="szdada-y09663-d1e342">
+          <lb ed="#P" n="5"/>4. Id ostenditur de primo requisito. —be
+          <lb ed="#P" n="6"/>primo id jam probatum est: nam ostendimus
+          <lb ed="#P" n="7"/>necessario fuisse virginale signaculum 
+          rese<lb break="no" ed="#P" n="8"/>randum, ut mulier posset ex viro concipere.
+          <lb ed="#P" n="9"/>Et quamvis de potentia absoluta Dei aliter fieri
+          <lb ed="#P" n="10"/>potuisset: non tamen sine magno miraculo
+          <lb ed="#P" n="11"/>penetrationis corporum. Quia sine illa, vel
+          <lb ed="#P" n="12"/>sine apertione signaculi virginalis nullo modo
+          <lb ed="#P" n="13"/>possent vir et uxor fieri una caro per 
+          mem<lb break="no" ed="#P" n="14"/>brorum commistionem, et unius intra alterum
+          <lb ed="#P" n="15"/>ingressum et seminationem: ostendimus 
+          au<lb break="no" ed="#P" n="16"/>tem hunc modum humanae generationis 
+          tan<lb break="no" ed="#P" n="17"/>quam maxime naturalem in statu innocentiae
+          <lb ed="#P" n="18"/>fuisse futurum. Ergo in illo statu per 
+          conjuga<lb break="no" ed="#P" n="19"/>lem copulam fuisset laesa virginitas quoad 
+          cor<lb break="no" ed="#P" n="20"/>poris integritatem, quae accidentaria est.
+        </p>
+        <p xml:id="szdada-y09663-d1e379">
+          <lb ed="#P" n="21"/>5. Dicit vero AEgidius, et probabile putat
+          <lb ed="#P" n="22"/>Richardus, licet signaculum virginale 
+          aperire<lb break="no" ed="#P" n="23"/>tur, vel in conceptione divideretur, et partu:
+          <lb ed="#P" n="24"/>non tamen permanenter, sed solum quasi in
+          <lb ed="#P" n="25"/>fieri, quamdiu copula, vel nativitas durarent :
+          <lb ed="#P" n="26"/>illis vero transactis statim partem illam ad
+          <lb ed="#P" n="27"/>suam integritatem fuisse redituram: et ideo
+          <lb ed="#P" n="28"/>simpliciter non fuisse amittendam 
+          virginita<lb break="no" ed="#P" n="29"/>tem quoad hanc partem. Quia post copulam
+          <lb ed="#P" n="30"/>tam integra mansisset foemina, quam prius
+          <lb ed="#P" n="31"/>erat, idemque fuisset post partum. Quia 
+          par<lb break="no" ed="#P" n="32"/>tes illas aperiri ad officium naturae, non esset
+          <lb ed="#P" n="33"/>imperfectio, dummodo statim clauderentur,
+          <lb ed="#P" n="34"/>sicut aperiri, et claudi os, vel pectus dilatari
+          <lb ed="#P" n="35"/>et constringi. At vero ita sejungi, vel scindi
+          <lb ed="#P" n="36"/>partes illas, ut semper manerent disjunctae,
+          <lb ed="#P" n="37"/>sicut nunc manent, quidam modus 
+          corruptio<lb break="no" ed="#P" n="38"/>nis fuisset illi statui minime consentaneus.
+        </p>
+        <p xml:id="szdada-y09663-d1e421">
+          <lb ed="#P" n="39"/>6. In hoc vero imprimis assero, etiamsi 
+          to<lb break="no" ed="#P" n="40"/>tum illud concedatur, negari non posse, quin
+          <lb ed="#P" n="41"/>illa laesio corporalis esset virginitatis amissio
+          <lb ed="#P" n="42"/>quantum ad hanc partem. Nam si quis diceret
+          <lb ed="#P" n="43"/>in partu Christi, dum proles de utero 
+          egrede<lb break="no" ed="#P" n="44"/>retur virgineum claustrum fuisse divisum, 
+          li<lb break="no" ed="#P" n="45"/>cet adjungeret, statim post partum 
+          integrita<lb break="no" ed="#P" n="46"/>tem claustri plenissime, ac perfectissime fuisse
+          <lb ed="#P" n="47"/>restitutam, haereticus esset: nam sanctissimae
+          <lb ed="#P" n="48"/>Mariae virginitatem negaret et destrueret, 
+          sal<lb break="no" ed="#P" n="49"/>tem in ipso partu: ergo signum est per illam
+          <lb ed="#P" n="50"/>divisionem etiam uansitoriam, simphiciter
+          <lb ed="#P" n="51"/>amitti virginitatem. Et ratio est, quia 
+          virgini<lb break="no" ed="#P" n="52"/>tas est, sicut innocentia: nam sicut haec negat
+          <lb ed="#P" n="53"/>omnem culpam aliquando commissam, ita 
+          vir<lb break="no" ed="#P" n="54"/>ginitas negat omnem claustri violationem.
+          <lb ed="#P" n="55"/>Ideoque licet illa divisio semel facta, divina
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>virtute repararetur quoad partium 
+          disconti<lb break="no" ed="#P" n="57"/>nuationem, vel separationem: nihilominus
+          <lb ed="#P" n="58"/>virginitatis integritas reparari non posset, 
+          si<lb break="no" ed="#P" n="59"/>cut Deus mundans peccatorem non facit 
+          inno<lb break="no" ed="#P" n="60"/>centem. Addo praeterea valde incertum esse,
+          <lb ed="#P" n="61"/>quod dicitur, integritatem virginitatis per
+          <lb ed="#P" n="62"/>apertionem claustri in conceptione, vel partu
+          <lb ed="#P" n="63"/>amissam statim divina virtute fuisse 
+          restituen<lb break="no" ed="#P" n="64"/>dam: id enim naturale non est (ut constat )
+          <lb ed="#P" n="65"/>nec apparet necessitas, aut fundamentum, cur
+          <lb ed="#P" n="66"/>dicamus ex ordinaria lege illius status illud
+          <lb ed="#P" n="67"/>miraculum, seu opus supernaturale fuisse 
+          re<lb break="no" ed="#P" n="68"/>petendum, quoties nova conceptio, vel partus
+          <lb ed="#P" n="69"/>fuisset futurus. Posset ergo Deus id facere
+          <lb ed="#P" n="70"/>si voluisset: an vero ita factum esset 
+          igno<lb break="no" ed="#P" n="71"/>ramus.
+        </p>
+        <p xml:id="szdada-y09663-d1e497">
+          <lb ed="#P" n="72"/>7. Ostenditur quoad secundum requisitum.—
+          <lb ed="#P" n="73"/>De secundo virginitatis requisito, nimirum
+          <lb ed="#P" n="74"/>inexperientia libidinis, clarius est, non 
+          po<lb break="no" ed="#P" n="75"/>tuisse cum carnali copula consistere in statu
+          <lb ed="#P" n="76"/>innocentiae. Probatur, quia in illo statu 
+          neces<lb break="no" ed="#P" n="77"/>saria imprimis erat emissio seminis 
+          volunta<lb break="no" ed="#P" n="78"/>ria, quae dictae inexperientiae directae 
+          opponi<lb break="no" ed="#P" n="79"/>tur. Deinde illa seminis emissio, commixtio
+          <lb ed="#P" n="80"/>et receptio sine delectatione naturaliter non fit.
+          <lb ed="#P" n="81"/>Dicetur fortasse de ratione virginitatis non
+          <lb ed="#P" n="82"/>essc omnis delectationis venereae 
+          inexperien<lb break="no" ed="#P" n="83"/>tiam, sed illius, quae nimia est, et quamdam
+          <lb ed="#P" n="84"/>habet foeditatem et deordinationem, eo quod
+          <lb ed="#P" n="85"/>non ratione imperetur, ac temperetur, sed
+          <lb ed="#P" n="86"/>caloris alteratione nimium excitetur, ita ut
+          <lb ed="#P" n="87"/>rationem absorbeat, vel ejus usum impediat.
+          <lb ed="#P" n="88"/>Hoc autem non ita esset in statu innocentiae,
+          <lb ed="#P" n="89"/>sed esset moderata delectatio juxta rationis
+          <lb ed="#P" n="90"/>mensuram, et membra corporis etiam 
+          puden<lb break="no" ed="#P" n="91"/>da non moverentur primo per caloris 
+          altera<lb break="no" ed="#P" n="92"/>tionem naturalem et involuntariam, sed per
+          <lb ed="#P" n="93"/>rationem, ac voluntatem, teste Augustino, d.
+          <lb ed="#P" n="94"/>l. 14, de Civit., c. 26. At enim licet verum sit
+          <lb ed="#P" n="95"/>carnalem copulam in statu innocentiae 
+          futu<lb break="no" ed="#P" n="96"/>ram fuisse sine turbido motu, et spontanea 
+          po<lb break="no" ed="#P" n="97"/>testate, ut Augustinus ait, nihilominus non
+          <lb ed="#P" n="98"/>fuisset sine resolutione seminis, nec sine 
+          de<lb break="no" ed="#P" n="99"/>lectatione, quae et ex illa naturaliter oritur, et
+          <lb ed="#P" n="100"/>ad illius operis perfectionem data est a natura.
+          <lb ed="#P" n="101"/>Imo addunt aliqui, ut Bonaventura et 
+          Richar<lb break="no" ed="#P" n="102"/>dus supra referunt, et indicat D. Thomas, 
+          ma<lb break="no" ed="#P" n="103"/>jorem delectationem sensibilem fuisse 
+          futu<lb break="no" ed="#P" n="104"/>ram in statu innocentiae propter meliorem
+          <lb ed="#P" n="105"/>corporis dispositionem: quamvis minus 
+          per<lb break="no" ed="#P" n="106"/>turbaret rationem propter majorem illius 
+          vi<lb break="no" ed="#P" n="107"/>gorem et dominatum. Alii autem volunt 
+          ip<lb break="no" ed="#P" n="108"/>sammet delectationem sensibilem fuisse 
+          mi<lb break="no" ed="#P" n="109"/>nuendam, et moderandam per rationis
+          <lb ed="#P" n="110"/>imperium, quod magis Bonaventura probat.
+          <pb ed="#P" n="387"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Utroque autem modo voluntaria resolutio 
+          se<lb break="no" ed="#P" n="2"/>minis, et talis delectationis experientia esset
+          <lb ed="#P" n="3"/>virginitati contraria, quia virginitas non solum
+          <lb ed="#P" n="4"/>excessum, vel inordinatum modum libidinis,
+          <lb ed="#P" n="5"/>aut resolutionis seminis, sed absolute 
+          substan<lb break="no" ed="#P" n="6"/>tiam (ut sic dicam) ipsius libidinosi actus 
+          ex<lb break="no" ed="#P" n="7"/>cludit. Ut, verbi gratia, fieri potuit, ut 
+          paren<lb break="no" ed="#P" n="8"/>tes Virginis, verbi gratia, ex privilegio 
+          rece<lb break="no" ed="#P" n="9"/>perint rationis vigorem ad virginem sine
+          <lb ed="#P" n="10"/>immoderata passione, vel mentis perturbatione
+          <lb ed="#P" n="11"/>procreandam ; et nihilominus per illum actum
+          <lb ed="#P" n="12"/>virginitatem corporalem et externam 
+          amitte<lb break="no" ed="#P" n="13"/>rent: idem ergo esset in statu innocentiae.
+        </p>
+        <p xml:id="szdada-y09663-d1e617">
+          <lb ed="#P" n="14"/>8. Ostenditur denique quoad tertium 
+          requisi<lb break="no" ed="#P" n="15"/>Ltwn. — Unde a fortiori constat, quid de tertio
+          <lb ed="#P" n="16"/>membro, scilicet virginitate mentis dicendum
+          <lb ed="#P" n="17"/>sit, nam sine dubio in illo statu violenda 
+          fuis<lb break="no" ed="#P" n="18"/>set. Quoniam integra animi virginitas simul cum
+          <lb ed="#P" n="19"/>usu matrimonii etiam in statu innocentiae esse
+          <lb ed="#P" n="20"/>non potuisset simul. Probatur, quia ille usus
+          <lb ed="#P" n="21"/>voluntarius esset futurus, ut per se notum est:
+          <lb ed="#P" n="22"/>ergo supponeret propositum coeundi, a quo
+          <lb ed="#P" n="23"/>talis usus voluntarius denominatur: at vero
+          <lb ed="#P" n="24"/>hujusmodi propositum formaliter violaret 
+          vir<lb break="no" ed="#P" n="25"/>ginitatis integritatem quoad animum: ergo.
+          <lb ed="#P" n="26"/>Neque obstat si quis objiciat illud propositum
+          <lb ed="#P" n="27"/>semper fuisse futurum licitum et honestum.
+          <lb ed="#P" n="28"/>Respondemus enim primo, esto ita sit, 
+          nihil<lb break="no" ed="#P" n="29"/>ominus sicut copula honesta et conjugalis 
+          re<lb break="no" ed="#P" n="30"/>pugnat virginitati quoad integritatem 
+          corpora<lb break="no" ed="#P" n="31"/>lem, ita propositum licitum copulae honestae,
+          <lb ed="#P" n="32"/>seu conjugalis repugnare virginitati quoad
+          <lb ed="#P" n="33"/>animi integritatem, cum haec maxime in hoc
+          <lb ed="#P" n="34"/>proposito consistat, ut sentit D. Thomas, in d.
+          <lb ed="#P" n="35"/>q. 159, a. I, et 3 p., q. 29, a. 1, ad 1. Deinde
+          <lb ed="#P" n="36"/>addimus incertum esse, an in statu 
+          innocen<lb break="no" ed="#P" n="37"/>tiae, si durasset, possent homines in peccatum
+          <lb ed="#P" n="38"/>luxuriae incidere, sicut in alia peccata: unde
+          <lb ed="#P" n="39"/>etiam dubium est, an interdum amitterent 
+          vir<lb break="no" ed="#P" n="40"/>ginitatem, vel animi per actus, vel desideria
+          <lb ed="#P" n="41"/>illicita copulae carnalis.
+        </p>
+        <p xml:id="szdada-y09663-d1e681">
+          <lb ed="#P" n="42"/>9. Circa secundum sensum huus capitis in
+          <lb ed="#P" n="43"/>num. 3 indicatum. — Prima questiuncula 
+          cu<lb break="no" ed="#P" n="44"/>jus partem negantem indicat D. Thomas et 
+          cla<lb break="no" ed="#P" n="45"/>rius Altissiodorensis. — Superest autem 
+          quar<lb break="no" ed="#P" n="46"/>tum membrum, seu alius quaestionis sensus,
+          <lb ed="#P" n="47"/>nimirum: an in statu innocentiae integra 
+          vir<lb break="no" ed="#P" n="48"/>ginitas servari posset, abstinendo nimirum a
+          <lb ed="#P" n="49"/>copula etiam maritali, et ab ipso matrimonio.
+          <lb ed="#P" n="50"/>Loquimur autem de potestate morali (ut sic
+          <lb ed="#P" n="51"/>dicam) nam physice clarum est potuisse 
+          homi<lb break="no" ed="#P" n="52"/>nes abstinere a matrimonio, ejusque usu, nam
+          <lb ed="#P" n="53"/>hoc in libertate hominis positum fuisset: de
+          <lb ed="#P" n="54"/>morali ergo potestate, duplex quaestiuncula
+          <lb ed="#P" n="55"/>proponi potest. Una est, an possent homines
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tunc licite continentiam perpetuam servarc.
+          <lb ed="#P" n="57"/>D. Thomas enim, 1 p., q. 98, a. 2, ad 3, 
+          par<lb break="no" ed="#P" n="58"/>tem negantem indicat, dum ait, quod 
+          continen<lb break="no" ed="#P" n="59"/>lia in statu innocentie non fuisset laudabilis -
+          <lb ed="#P" n="60"/>nam quod laudabile non est, profecto 
+          hones<lb break="no" ed="#P" n="61"/>tum non est, nam omne honestum est 
+          lauda<lb break="no" ed="#P" n="62"/>bile.Idem apertius tradit Altissiodorensis, 1.2
+          <lb ed="#P" n="63"/>Summne, tract. 10, cap. 2, q. 4, dicit enim
+          <lb ed="#P" n="64"/>matrimonium in illo statu futurum fuisse in
+          <lb ed="#P" n="65"/>praecepto, et non in remedium, ac proinde
+          <lb ed="#P" n="66"/>non fuisse futuram distinctionem statuum 
+          ma<lb break="no" ed="#P" n="67"/>trimonii et caelibatus.
+        </p>
+        <p xml:id="szdada-y09663-d1e742">
+          <lb ed="#P" n="68"/>10. Non placet proxima resolutio.—Sed non
+          <lb ed="#P" n="69"/>video unde constare possit, praeceptum 
+          matri<lb break="no" ed="#P" n="70"/>monii omnes et singulos homines in statu 
+          in<lb break="no" ed="#P" n="71"/>nocentiae fuisse obligaturum, et extra casum
+          <lb ed="#P" n="72"/>necessitatis, nam ex natura rei, seu in pura
+          <lb ed="#P" n="73"/>natura non ita obligaret. Nec est, cur 
+          dica<lb break="no" ed="#P" n="74"/>mus naturalem legem fuisse in hac parte 
+          au<lb break="no" ed="#P" n="75"/>gendam in statu innocentiae, vel aliquam 
+          po<lb break="no" ed="#P" n="76"/>sitivam determinationemillius praecepti ei 
+          fuis<lb break="no" ed="#P" n="77"/>se addendam ; nec etiam credibile est, Deum
+          <lb ed="#P" n="78"/>illis verbis, Crescite et multiplicamini, aliquam
+          <lb ed="#P" n="79"/>peculiarem obligationem, praeter naturalem
+          <lb ed="#P" n="80"/>legem singulis hominibus addidisse: nam illa
+          <lb ed="#P" n="81"/>verba eamdem vim pro quocumque habent
+          <lb ed="#P" n="82"/>statu tam lapsae naturae, quam integrae, unde
+          <lb ed="#P" n="83"/>ex se non obligant singulos, nisi juxta 
+          praes<lb break="no" ed="#P" n="84"/>criptum legis naturalis. Igitur neque in statu
+          <lb ed="#P" n="85"/>innocentiae si duraret, obligaret singulos, 
+          sal<lb break="no" ed="#P" n="86"/>tem post sufficientem generis humani 
+          propa<lb break="no" ed="#P" n="87"/>gationem: ergo abstinere conjugio non esset
+          <lb ed="#P" n="88"/>malum in illo statu: quia neque esset per se,
+          <lb ed="#P" n="89"/>et intrinsece malum, nec etiam esset 
+          speciali<lb break="no" ed="#P" n="90"/>ter prohibitum, ut ostensum est. Quid autem
+          <lb ed="#P" n="91"/>in hac quaestione dicendum sit, ex puncto 
+          se<lb break="no" ed="#P" n="92"/>quenti concludetur.
+        </p>
+        <p xml:id="szdada-y09663-d1e799">
+          <lb ed="#P" n="93"/>11. Secunda quaestiuncula ejusque communis
+          <lb ed="#P" n="94"/>resolutio er D. Thoma, Altissiodorensi, 
+          Duran<lb break="no" ed="#P" n="95"/>do et Capreolo. — Altera ergo quaestiuncula est.
+          <lb ed="#P" n="96"/>an in statu innocentiae, melius esset, respect
+          <lb ed="#P" n="97"/>uniuscujusque personae matrimonium 
+          contra<lb break="no" ed="#P" n="98"/>here, quam virginitatem, seu continentiam
+          <lb ed="#P" n="99"/>servare. In quo puncto satis clara est sententia
+          <lb ed="#P" n="100"/>D. Thomae: nam cum ait in statu innocentiae
+          <lb ed="#P" n="101"/>non fuisse futuram laudabilem perpetuam 
+          con<lb break="no" ed="#P" n="102"/>tinentiam, vel significat illam non fuisse 
+          lici<lb break="no" ed="#P" n="103"/>tam, ut supra argumentabamur, vel saltem
+          <lb ed="#P" n="104"/>non esse laudabilem comparatione utique 
+          ma<lb break="no" ed="#P" n="105"/>trimonii, ac subinde fuisse minus bonam, et
+          <lb ed="#P" n="106"/>ad consilium non pertinuisse. Idem a fortiori
+          <lb ed="#P" n="107"/>senserunt Altissiodorensis et Durandus, a quo
+          <lb ed="#P" n="108"/>in hoc Capreolus non dissentit, dicta 
+          distinc<lb break="no" ed="#P" n="109"/>üone vigesima,ad argumenta Durandi. Et 
+          pro<lb break="no" ed="#P" n="110"/>batur ratione Durandi: quia actus genera-
+          <pb ed="#P" n="388"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tionis humanae per se bonus est, unde 
+          absti<lb break="no" ed="#P" n="2"/>nere ab illo per se non est bonum, sed solum
+          <lb ed="#P" n="3"/>in quantum potest copula carnalis impedire
+          <lb ed="#P" n="4"/>majus bonum, propter quod etiam majus 
+          bo<lb break="no" ed="#P" n="5"/>num censeatur, ab actu generandi abstinere,
+          <lb ed="#P" n="6"/>quam illi incumbere. At vero in statu 
+          inno<lb break="no" ed="#P" n="7"/>centiae usus matrimonii nullum majus bonum
+          <lb ed="#P" n="8"/>impediret, quia nec impediret 
+          contemplatio<lb break="no" ed="#P" n="9"/>nem, nec induceret saeculares curas, vel 
+          cogi<lb break="no" ed="#P" n="10"/>tationes temporalium rerum: quae nunc ad
+          <lb ed="#P" n="11"/>onera matrimonii sustinenda, et ad filios 
+          alen<lb break="no" ed="#P" n="12"/>dos necessariae sunt: ergo nulla ratio melioris
+          <lb ed="#P" n="13"/>boni, imo vix aliqua boni species posset illo
+          <lb ed="#P" n="14"/>statu in virginitate, seu continentia cogitari.
+          <lb ed="#P" n="15"/>Eamdemque rationem indicat D. Thomas, in
+          <lb ed="#P" n="16"/>dicta solut. ad 3, dicens: Nunc laudari, id est,
+          <lb ed="#P" n="17"/>praeferri, continentiam non propter defectum
+          <lb ed="#P" n="18"/>facunditatis, sed propter remotionem 
+          inordina<lb break="no" ed="#P" n="19"/>te libidinis. Tunc autem fuisset facunditas
+          <lb ed="#P" n="20"/>absque libidine. Atque haec sententia communis
+          <lb ed="#P" n="21"/>est, satisque verisimile videtur.
+        </p>
+        <p xml:id="szdada-y09663-d1e890">
+          <lb ed="#P" n="22"/>12. Contraria quoque resolutio ea sententia
+          <lb ed="#P" n="23"/>auctoris probabilis est.—Possumus autem 
+          con<lb break="no" ed="#P" n="24"/>trarium suadere, quia etiam in illo statu 
+          pos<lb break="no" ed="#P" n="25"/>sumus aliquam rationem melioris boni 
+          cogi<lb break="no" ed="#P" n="26"/>tare, et invenire in abstinentia a coitu. Quia
+          <lb ed="#P" n="27"/>licet foecunditas tunc esset sine libidine 
+          inor<lb break="no" ed="#P" n="28"/>dinata, et perturbante rationem: non tamen
+          <lb ed="#P" n="29"/>esset sine magna delectatione sensibili per 
+          ra<lb break="no" ed="#P" n="30"/>tionem moderata et ordinata, ut D. Thomas
+          <lb ed="#P" n="31"/>in eadem solutione ad tertium fatetur: ergo
+          <lb ed="#P" n="32"/>necessarium erat, ut tempore coitus ratio 
+          vi<lb break="no" ed="#P" n="33"/>gilaret ad cohibendum ardorem libidinis, et
+          <lb ed="#P" n="34"/>corpus et animum in tali occasione recte 
+          gu<lb break="no" ed="#P" n="35"/>bernandum: ergo quamvis demus potuisse
+          <lb ed="#P" n="36"/>hominem tunc simul de Deo cogitare sine 
+          in<lb break="no" ed="#P" n="37"/>quietudine, vel perturbatione ; nihilominus
+          <lb ed="#P" n="38"/>non potuisset tunc ita vacare tota mente, et
+          <lb ed="#P" n="39"/>animo contemplationis divinae, sicut posset
+          <lb ed="#P" n="40"/>alio tempore, cum a tali actu vacaret: ergo
+          <lb ed="#P" n="41"/>etiam in eo statu haberet locumintentio 
+          absti<lb break="no" ed="#P" n="42"/>nendi perpetuo ab actu generandi, propter
+          <lb ed="#P" n="43"/>suum finem liberius et attentius divina 
+          con<lb break="no" ed="#P" n="44"/>templatione vacandi: ergo sub ea ratione 
+          ha<lb break="no" ed="#P" n="45"/>beret continentia gradum et aestimationem
+          <lb ed="#P" n="46"/>majoris boni. Unde quod Paulus ait 1, Cor.7:
+          <lb ed="#P" n="47"/>AMwher innupta et virgo cogitat que Domini
+          <lb ed="#P" n="48"/>sunt, ut sit sancta et corpore et spiritu, que
+          <lb ed="#P" n="49"/>autem mupta est, cogitat quae sunt mundi, 
+          quo<lb break="no" ed="#P" n="50"/>modo placeat viro. Hoc (inquam) etiam in 
+          sta<lb break="no" ed="#P" n="51"/>tu innocentiae locum haberet, licet aliter et in
+          <lb ed="#P" n="52"/>minori gradu, quam nunc. Nam tunc etiam
+          <lb ed="#P" n="53"/>necessarium fuisset, aliquando circa 
+          educa<lb break="no" ed="#P" n="54"/>tionem filiorum occupari, et similiter oporteret
+          <lb ed="#P" n="55"/>peculiarem curam habere placendi marito, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>peculiari amore illum prosequi, et 
+          consequen<lb break="no" ed="#P" n="57"/>ter affectum cordis aliquo modo dividere: ergo
+          <lb ed="#P" n="58"/>posset tunc eligi virginitas, ut homo ab illis
+          <lb ed="#P" n="59"/>etiam curis humanis, quae in illo statu esse
+          <lb ed="#P" n="60"/>possent, magis abstractus, totus posset Deo, et
+          <lb ed="#P" n="61"/>vitae spirituali magis consecrari: haec autem
+          <lb ed="#P" n="62"/>videtur esse sufliciens ratio melioris boni. 
+          De<lb break="no" ed="#P" n="63"/>nique in eo statu non fuissent secundae nuptise,
+          <lb ed="#P" n="64"/>etiamsi illarum occasio non deesset: ergo 
+          pos<lb break="no" ed="#P" n="65"/>set etiam esse continentia a primis nuptiis.
+          <lb ed="#P" n="66"/>Declaratur antecedens. Nam licet in illo statu
+          <lb ed="#P" n="67"/>non esset futura viduitas per mortem alterius
+          <lb ed="#P" n="68"/>conjugis, quia tunc mors non fuisset: 
+          nihilo<lb break="no" ed="#P" n="69"/>minus posset alter conjugum prius ad statum
+          <lb ed="#P" n="70"/>gloriae transferri, quam alius. Quid enim 
+          ob<lb break="no" ed="#P" n="71"/>staret, aut cur dicemus nunquam fuisse 
+          con<lb break="no" ed="#P" n="72"/>juges separandos, sed certa Dei lege 
+          statuen<lb break="no" ed="#P" n="73"/>dum fuisset, ut unus conjugum ante alium non
+          <lb ed="#P" n="74"/>transferretur?lllo ergo posito per illam 
+          trans<lb break="no" ed="#P" n="75"/>lationem dissolveretur matrimonium non 
+          mi<lb break="no" ed="#P" n="76"/>nus, quam si nunc per mortem dissolvatur,
+          <lb ed="#P" n="77"/>quia status gloriae cum vinculo et obligatione
+          <lb ed="#P" n="78"/>matrimonii subsistere non potest. Hoc igitur
+          <lb ed="#P" n="79"/>positivo verisimile non est conjugem in terra
+          <lb ed="#P" n="80"/>sine consorte relictum, ad secundas nuptias
+          <lb ed="#P" n="81"/>fuisse transiturum: nam etiam in natura 
+          cor<lb break="no" ed="#P" n="82"/>rupta propter nimiae concupiscentiae indicium
+          <lb ed="#P" n="83"/>minus probantur, et quodammodo odiosae sunt:
+          <lb ed="#P" n="84"/>ergo verisimile est non fuisse futuras secundas
+          <lb ed="#P" n="85"/>nuptias in statu innocentiae: ergo pari fere
+          <lb ed="#P" n="86"/>ratione credibile est, potuisse aliquos et plures
+          <lb ed="#P" n="87"/>homines a primis abstinere, etiam propter
+          <lb ed="#P" n="88"/>majus spirituale bonum. Probatur 
+          consequen<lb break="no" ed="#P" n="89"/>tia, quia hic finis majoris fructus spiritualis
+          <lb ed="#P" n="90"/>inveniri, ac intendi poterat in eo statu, in 
+          ab<lb break="no" ed="#P" n="91"/>stinentia a secundis nuptiis, alioqui nulla esset
+          <lb ed="#P" n="92"/>ratio, cur appeteretur: idem autem fructus in
+          <lb ed="#P" n="93"/>perpetua continentia, servata proportione 
+          co<lb break="no" ed="#P" n="94"/>gitari facile potest.
+        </p>
+        <p xml:id="szdada-y09663-d1e1053">
+          <lb ed="#P" n="95"/>13. Quo pacto Patres aliqui huic parti 
+          fa<lb break="no" ed="#P" n="96"/>veant. — Ad rationem Durandi in num. 1M. —
+          <lb ed="#P" n="97"/>Ego quidem hanc posteriorem partem satis
+          <lb ed="#P" n="98"/>probabilem censeo: et in favorem ejus 
+          alle<lb break="no" ed="#P" n="99"/>gari possunt illi antiqui Patres, qui in 
+          univer<lb break="no" ed="#P" n="100"/>sum negarunt futuram fuisse in statu 
+          inno<lb break="no" ed="#P" n="101"/>centiae copulam carnalem: illi enim pro certo
+          <lb ed="#P" n="102"/>habuerunt virginitatis observantiam illi 
+          feli<lb break="no" ed="#P" n="103"/>cissimo statui fuisse decentissimam: ergo 
+          l<lb break="no" ed="#P" n="104"/>cet excesserint excludendo ab illo statu 
+          im<lb break="no" ed="#P" n="105"/>maculatum conjugii totum: in admittenda
+          <lb ed="#P" n="106"/>nihilominus virginitate, ut voluntaria, et 
+          eli<lb break="no" ed="#P" n="107"/>gibili non videntur excessisse. Neque 
+          funda<lb break="no" ed="#P" n="108"/>mentum contrariae sententiae cogit, quia jam
+          <lb ed="#P" n="109"/>ostensum est, matrimonium non fuisse tunc
+          <lb ed="#P" n="110"/>in pracepto pro singulis hominibus: unde
+          <pb ed="#P" n="389"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sub ea ratione, velle aut nolle indifferens erat,
+          <lb ed="#P" n="2"/>ad nolendum autem illud, seu eligendam 
+          per<lb break="no" ed="#P" n="3"/>petuam continentiam non deerat honestus 
+          fi<lb break="no" ed="#P" n="4"/>nis sufficiens, quique foecunditati prolis 
+          prae<lb break="no" ed="#P" n="5"/>ponderaret, ut explicatum est: ergo poterat a
+          <lb ed="#P" n="6"/>multis eligi virginitas. Et verisimile est, ita
+          <lb ed="#P" n="7"/>fuisse futurum: tum ex naturali hominum
+          <lb ed="#P" n="8"/>conditione, quibus veluti ingenitum est, ad
+          <lb ed="#P" n="9"/>varios vivendi modos, et officia inclinari: tum
+          <lb ed="#P" n="10"/>ex diversitate donorum gratiae: nam etiam
+          <lb ed="#P" n="11"/>haec varietas statuum etiam tunc ad 
+          pulchri<lb break="no" ed="#P" n="12"/>tudinem Ecclesiae militantis et triumphantis
+          <lb ed="#P" n="13"/>pertineret. Denique fit hoc maxime verisimile
+          <lb ed="#P" n="14"/>supposita illa sententia, quod licet homo non
+          <lb ed="#P" n="15"/>peccaret, Verbum caro fieret. Nam tunc, et
+          <lb ed="#P" n="16"/>Christus ipse virgo esset, et ex virgine 
+          nasce<lb break="no" ed="#P" n="17"/>retur, qui (ut credi potest) plures ad 
+          virgini<lb break="no" ed="#P" n="18"/>tatem invitarent, et post se adducerent. Est
+          <lb ed="#P" n="19"/>ergo haec pars valde probabilis. Cui autem
+          <lb ed="#P" n="20"/>contraria placuerit, non erit diflicile 
+          conjectu<lb break="no" ed="#P" n="21"/>ris nostris respondere: non enim cogentes 
+          ra<lb break="no" ed="#P" n="22"/>tiones sunt, sed suasoriae.
+        </p>
+        <p xml:id="szdada-y09663-d1e1142">
+          <lb ed="#P" n="23"/>14. Durante statu innocentie virginitas
+          <lb ed="#P" n="24"/>servata fuit quoad materiale per occasionem.—
+          <lb ed="#P" n="25"/>Non tamen quoad formale. — Tandem 
+          possu<lb break="no" ed="#P" n="26"/>mus ex dictis inferre, cur et quando de facto
+          <lb ed="#P" n="27"/>sit virginitas in statu innocentiae servata. 
+          Om<lb break="no" ed="#P" n="28"/>nes enim Patres tanquam certum supponunt,
+          <lb ed="#P" n="29"/>Adam et Evam ante peccatum fuisse virgines,
+          <lb ed="#P" n="30"/>et hanc ponere solent inter laudes virginitatis,
+          <lb ed="#P" n="31"/>quod primum locum in Paradiso habuit. Unde
+          <lb ed="#P" n="32"/>intulerunt aliqui, durante innocentia perpetuo
+          <lb ed="#P" n="33"/>fuisse servandam. Verumtamen 
+          distinguen<lb break="no" ed="#P" n="34"/>dum est inter animi corporisque virginitatem,
+          <lb ed="#P" n="35"/>seu inter mentalem et realem, internam et
+          <lb ed="#P" n="36"/>externam. In Paradiso etiam virginitas 
+          rea<lb break="no" ed="#P" n="37"/>lis et externa, seu corporalis servata est, quia
+          <lb ed="#P" n="38"/>ibi non fuit corporum commixtio, nec seminis
+          <lb ed="#P" n="39"/>resolutio, neque aliquid ejusmodi. Et de hac
+          <lb ed="#P" n="40"/>virginitate sancti loquuntur. Colligiturque ex
+          <lb ed="#P" n="41"/>narratione Genesis: nam dum in Paradiso 
+          fue<lb break="no" ed="#P" n="42"/>runt homines, nulla fit mentio copulae in 
+          tri<lb break="no" ed="#P" n="43"/>bus primis capitibus Genesis. Postquam vero
+          <lb ed="#P" n="44"/>in fine capitis tertii dicitur ejecisse Deum 
+          ho<lb break="no" ed="#P" n="45"/>mines de Paradiso, statim capite quarto 
+          dici<lb break="no" ed="#P" n="46"/>tur, Adam vero cognovit uvorem suam, etc. At
+          <lb ed="#P" n="47"/>vero non servarunt homines intra Paradisum
+          <lb ed="#P" n="48"/>virginitatem internam, seu mentalem 
+          secun<lb break="no" ed="#P" n="49"/>dum animi propositum: nam intra Paradisum
+          <lb ed="#P" n="50"/>contraxerunt matrimonium, cum animo, et
+          <lb ed="#P" n="51"/>proposito consummandi illud: ut satis 
+          signi<lb break="no" ed="#P" n="52"/>ficant illa verba Adami: Erunt duo in carne
+          <lb ed="#P" n="53"/>ana. Unde cum nihil tunc de statu peccati 
+          co<lb break="no" ed="#P" n="54"/>gitarent, non solum intra Paradisum 
+          habue<lb break="no" ed="#P" n="55"/>unt propositum generandi filios, sed etiam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>proposuerunt generationis actum intra 
+          Para<lb break="no" ed="#P" n="57"/>disum exercere. Unde nunquam cogitarunt
+          <lb ed="#P" n="58"/>virginitatis observantiam fuisse illi loco, vel
+          <lb ed="#P" n="59"/>statui necessariam, vel sibi convenientem. An
+          <lb ed="#P" n="60"/>vero aliquando ab aliquibus servanda esset,
+          <lb ed="#P" n="61"/>nec noverunt, nec fortasse unquam 
+          cogita<lb break="no" ed="#P" n="62"/>runt. Quod ergo intra Paradisum non coierint,
+          <lb ed="#P" n="63"/>non fuit necessitatis, sed per occasionem 
+          ac<lb break="no" ed="#P" n="64"/>cidit, quia habitatio Paradisi morae 
+          brevissi<lb break="no" ed="#P" n="65"/>mae fuit: nam paulo post quam Eva formata
+          <lb ed="#P" n="66"/>est peccavit, et virum induxit, ac statim 
+          fue<lb break="no" ed="#P" n="67"/>runt ex Paradiso ejecti, ut notavit Augustinus,
+          <lb ed="#P" n="68"/>1.9, Gen., ad lit., c. 4, qui etiam addit, 
+          quam<lb break="no" ed="#P" n="69"/>vis primi homines in Paradiso habuerint 
+          po<lb break="no" ed="#P" n="70"/>testatem, benedictionem, et fortasse etiam
+          <lb ed="#P" n="71"/>generandi praeceptum, non tamen habuisse a
+          <lb ed="#P" n="72"/>Deo temporis determinationem pro quo essent
+          <lb ed="#P" n="73"/>copulandi, verisimileque esse illam 
+          expec<lb break="no" ed="#P" n="74"/>tasse, Deum autem futurorum praescium illa
+          <lb ed="#P" n="75"/>distulisse.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

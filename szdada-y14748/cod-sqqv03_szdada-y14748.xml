@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="603"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y14748"><!-- t3l2c10 -->
+        <head xml:id="szdada-y14748-Hd1e101">Caput 10</head>
+        <head xml:id="szdada-y14748-Hd1e103" type="question-title">Quid sit potentia generativa, et an sita nutritiva distincta</head>
+        <p xml:id="szdada-y14748-d1e106">
+          <lb ed="#P" n="82"/>CAPUT X.
+          <lb ed="#P" n="83"/>QUID SIT POTENTIA GENERATIVA, ET AN SITA
+          <lb ed="#P" n="84"/>NUTRITIVA DISTINCTA.
+        </p>
+        <p xml:id="szdada-y14748-d1e115">
+          <lb ed="#P" n="85"/>1. Triplex hic enodanda quaestio. — In hac
+          <lb ed="#P" n="86"/>quaestione quidam sine distinctione opinantur
+          <lb ed="#P" n="87"/>hujusmodi potentiam esse qualitatem 
+          quam<lb break="no" ed="#P" n="88"/>dam realiter distinctam a potentia nutritiva,
+          <lb ed="#P" n="89"/>et ab aliis, quam videntur sequi expositores 2,
+          <lb ed="#P" n="90"/>de Anima, textu 42. Alii vero credunt esse
+          <lb ed="#P" n="91"/>eamdem cum nutritiva, quod insinuat ibidem
+          <lb ed="#P" n="92"/>Agidius, et aperte tenet Valles, lib. 2, 
+          Con<lb break="no" ed="#P" n="93"/>troversiarum, cap. 17. Sed in hac parte 
+          opor<lb break="no" ed="#P" n="94"/>tet uti distinctione, ut notavit Albertus, tract. 2,
+          <lb ed="#P" n="95"/>cap. 7. Nam in generatione viventis duae 
+          in<lb break="no" ed="#P" n="96"/>terveniunt actiones, prima est formativa 
+          semi<lb break="no" ed="#P" n="97"/>nis ex materia sanguinis: secunda est 
+          forma<lb break="no" ed="#P" n="98"/>tiva membrorum viventis generandi: seu est
+          <lb ed="#P" n="99"/>actio generandi membra viventis ex materia 
+          se<lb break="no" ed="#P" n="100"/>minis, in ipso autemsemine duae substantiae 
+          in<lb break="no" ed="#P" n="101"/>cluduntur distinctas habentes formas, nempe
+          <lb ed="#P" n="102"/>substantia materialis et crassa, et substantia
+          <lb ed="#P" n="103"/>spiritus in illa plantati: unde in prima actione
+          <lb ed="#P" n="104"/>includuntur duae productivae talium 
+          substan<lb break="no" ed="#P" n="105"/>tiarum, quibus omnibus actionibus attribui
+          <lb ed="#P" n="106"/>debet aliqua virtus. Quare triples insurgit
+          <lb ed="#P" n="107"/>quaestio, prima, an virtus formativa seminis
+          <pb ed="#P" n="604"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quantum ad partem materialem et crassam,
+          <lb ed="#P" n="2"/>sit eadem cum virtute, qua generans se alit?
+          <lb ed="#P" n="3"/>Secunda quae sit virtus formativa dici spiritus
+          <lb ed="#P" n="4"/>inclusi in semine? Tertia, quae virtus 
+          subjec<lb break="no" ed="#P" n="5"/>tetur, postea in semine ipso, per quam possit
+          <lb ed="#P" n="6"/>corpus organicum effici.
+        </p>
+        <p xml:id="szdada-y14748-d1e185">
+          <lb ed="#P" n="7"/>2. Prima assertio pro prima questione. —
+          <lb ed="#P" n="8"/>Dico primo. Virtus ad formam illam 
+          materia<lb break="no" ed="#P" n="9"/>lem seminis est ejusdem rationis cum virtute
+          <lb ed="#P" n="10"/>nutritiva existente in quadam parte viventis.
+          <lb ed="#P" n="11"/>Ad probationem hujus suppono, hujusmodi
+          <lb ed="#P" n="12"/>virttem formativam seminis non esse 
+          disper<lb break="no" ed="#P" n="13"/>sam per omnia membra corporis, sed esse in
+          <lb ed="#P" n="14"/>determinata parte. Hoc supposito probatur
+          <lb ed="#P" n="15"/>conclusio primo. Semen ipsum est ultimum
+          <lb ed="#P" n="16"/>alimentum illius partis et membri: ergo fit a
+          <lb ed="#P" n="17"/>virtute nutritiva illius. Antecedens probatur
+          <lb ed="#P" n="18"/>primo ex omnimoda similitudine inter 
+          sub<lb break="no" ed="#P" n="19"/>stantiam seminis, et substantiam ilus 
+          mem<lb break="no" ed="#P" n="20"/>bri, hoc enim argumento evidenter colligitur,
+          <lb ed="#P" n="21"/>quo succo unaquaeque pars viventis nutriatur,
+          <lb ed="#P" n="22"/>sic probavimus alibi chylo nutriri ventriculum,
+          <lb ed="#P" n="23"/>sanguine hepar, ubera lacte. Secundo: nam
+          <lb ed="#P" n="24"/>est optima institutio naturae, quod illo succo
+          <lb ed="#P" n="25"/>nutriatur aliqua pars, quam ipsa elaborat, sed
+          <lb ed="#P" n="26"/>illa pars habet virtutem elaborandi sanguinem
+          <lb ed="#P" n="27"/>usque ad formationem seminis: ergo nutritur
+          <lb ed="#P" n="28"/>illo: alias duas oporteret habere actiones circa
+          <lb ed="#P" n="29"/>sanguinem: unam qua nutriretur, aliam qua
+          <lb ed="#P" n="30"/>semen efficeret, quod superfluum est, neque
+          <lb ed="#P" n="31"/>intelligitur quando unam, quandove aliam
+          <lb ed="#P" n="32"/>exerceat, cum agens sit naturale, et materia
+          <lb ed="#P" n="33"/>eadem, et eodem modo applicata. Tertio: nam
+          <lb ed="#P" n="34"/>pars illa, quae semen effticit non agit in 
+          san<lb break="no" ed="#P" n="35"/>guinem nisi medio suo temperamento, agit
+          <lb ed="#P" n="36"/>enim assimilando sibi, sed temperamentum
+          <lb ed="#P" n="37"/>illud est virtus nutritiva, ut ex superiori 
+          ca<lb break="no" ed="#P" n="38"/>pite constat: ergo, etc. Quarto arguitur: nam
+          <lb ed="#P" n="39"/>idem est de generatione lactis in foeminis et
+          <lb ed="#P" n="40"/>de formatione seminis, sed lac fit media 
+          ac<lb break="no" ed="#P" n="41"/>tione temperamenti alicujus partis, scilicet
+          <lb ed="#P" n="42"/>uberum. quae lacte nutriuntur, alias innumerae
+          <lb ed="#P" n="43"/>virtutes et potentiae essent multiplicandae: ergo
+          <lb ed="#P" n="44"/>idem est de virtute formativa seminis. Quinto
+          <lb ed="#P" n="45"/>substantia illa seminis est similis cuidam 
+          sub<lb break="no" ed="#P" n="46"/>stantiae, qua membra solida nutriuntur, 
+          scili<lb break="no" ed="#P" n="47"/>cet medullae ossium. Unde ea membra solida
+          <lb ed="#P" n="48"/>seminaria solent appellari, et Plato, dialogo de
+          <lb ed="#P" n="49"/>natura, medullam ipsam semen appellat: ergo
+          <lb ed="#P" n="50"/>sicut in aliis membris solidis medulla fit a 
+          vir<lb break="no" ed="#P" n="51"/>tute nutritiva, ita in hoc, de quo loquimur,
+          <lb ed="#P" n="52"/>semen fit a virtute nutritiva, quod est 
+          inten<lb break="no" ed="#P" n="53"/>tum.
+        </p>
+        <p xml:id="szdada-y14748-d1e290">
+          <lb ed="#P" n="54"/>3. Circa tertiam questionem arguitur, quod
+          <lb ed="#P" n="55"/>virtus formativa residens in semine non sit ipsa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nutritiva. — Circa alias duas quaestiones 
+          ma<lb break="no" ed="#P" n="57"/>jor est difficultas et a tertia incipiendo. videtur
+          <lb ed="#P" n="58"/>sane, quod virtus residens in semine ad 
+          orga<lb break="no" ed="#P" n="59"/>nisandum corpus, sit longe alterius rationis a
+          <lb ed="#P" n="60"/>virtute nutriente. Et probatur: nam virtus 
+          nu<lb break="no" ed="#P" n="61"/>tritiva est ipsummet temperamentum viventis
+          <lb ed="#P" n="62"/>(loquimur enim de virtute dispositiva, nam de
+          <lb ed="#P" n="63"/>aliis dubitatio non est), sed virtus seminis non
+          <lb ed="#P" n="64"/>potest esse tale temperamentura: ergo distincta
+          <lb ed="#P" n="65"/>est. Probatur minor, explicaturque 
+          argumen<lb break="no" ed="#P" n="66"/>tum. Nam in vivente os, verbi gratia, 
+          nutri<lb break="no" ed="#P" n="67"/>tur, quia in eo est temperamentum assimilans
+          <lb ed="#P" n="68"/>sibi cibum: at in semine non est formaliter
+          <lb ed="#P" n="69"/>temperamentum ipsius ossis: ergo virtus illa,
+          <lb ed="#P" n="70"/>qua semen fabricat os, est distincta ab illa,
+          <lb ed="#P" n="71"/>qua os se nutrit: et idem argumentum est de
+          <lb ed="#P" n="72"/>singulis partibus. Dices forte, semen agere
+          <lb ed="#P" n="73"/>temperamento suo tanquam virtute propria, et
+          <lb ed="#P" n="74"/>ita non differre a virtute nutritiva, nisi 
+          tan<lb break="no" ed="#P" n="75"/>quam temperamentum unius partis a 
+          tempe<lb break="no" ed="#P" n="76"/>ramento alterius. Contra. Si semen tantum
+          <lb ed="#P" n="77"/>ageret suo temperamento, disponeret solum
+          <lb ed="#P" n="78"/>materiam ad productionem sui similis, ut 
+          sin<lb break="no" ed="#P" n="79"/>gulis membris fieri videmus, id autem non ita
+          <lb ed="#P" n="80"/>est ; nam spiritus ille subtilis, et tenuis format
+          <lb ed="#P" n="81"/>ossa et omnia membra diversa: ergo non 
+          po<lb break="no" ed="#P" n="82"/>test agere per temperamentum suum, sed per
+          <lb ed="#P" n="83"/>aliam eminentiorem qualitatem, quae resideat,
+          <lb ed="#P" n="84"/>et subjectetur in ipsa parte spirituosa seminis,
+          <lb ed="#P" n="85"/>in qua tantum residet virtus activa.
+        </p>
+        <p xml:id="szdada-y14748-d1e364">
+          <lb ed="#P" n="86"/>4. Circa secundam quaestionem arguitur. —
+          <lb ed="#P" n="87"/>Et ex hoc ulterius videtur sequi circa 
+          secun<lb break="no" ed="#P" n="88"/>dam quaestioncm, quod virtus, quae est in 
+          vi<lb break="no" ed="#P" n="89"/>vente ad formandam illam partem spirituosam
+          <lb ed="#P" n="90"/>seminis sit omnino distincta a virtute 
+          nutriti<lb break="no" ed="#P" n="91"/>va. Et probatur: nam forma illius spiritus, et
+          <lb ed="#P" n="92"/>qualitas est omnino distincta ab omnibus 
+          par<lb break="no" ed="#P" n="93"/>tibus viventis: ergo virtus formativa illius 
+          spi<lb break="no" ed="#P" n="94"/>ritus erit distincta a virtute nutritiva partium.
+          <lb ed="#P" n="95"/>Item virtus nutritiva tantum habet praeparare
+          <lb ed="#P" n="96"/>materiam cibi ad perfectam assimilationem
+          <lb ed="#P" n="97"/>substantia aliti: sed illa substantia tenuis
+          <lb ed="#P" n="98"/>nulli parti viventis deservire potest in 
+          nutri<lb break="no" ed="#P" n="99"/>mentum: ergo non fit a nutritiva virtute. Item
+          <lb ed="#P" n="100"/>ille spiritus non fit ex sanguine, ut ex materia,
+          <lb ed="#P" n="101"/>de quo infra, virtus autem nutritiva solum 
+          ver<lb break="no" ed="#P" n="102"/>satur circa sanguinem, cum sanguis sit 
+          ulti<lb break="no" ed="#P" n="103"/>mum alimentum: ergo.
+        </p>
+        <p xml:id="szdada-y14748-d1e406">
+          <lb ed="#P" n="104"/>5. Secunda assertio pro tertia quaestione.—
+          <lb ed="#P" n="105"/>Contrariam autem partem, scilicet virtutem
+          <lb ed="#P" n="106"/>zenerativam non esse distinctam a nutritiva,
+          <lb ed="#P" n="107"/>sentit Aristoteles 2, de Anima, textu 34. 
+          di<lb break="no" ed="#P" n="108"/>cens actum vegetativae potentiae esse generare,
+          <lb ed="#P" n="109"/>et alimento uti, ubi has actiones refert ad
+          <lb ed="#P" n="110"/>eamdem potentiam, et textu 42, clarius scribit,
+          <pb ed="#P" n="605"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quod eadem vis animae generativa sit, et 
+          nu<lb break="no" ed="#P" n="2"/>tritiva, et 2, de Generat. animalium, cap. 4,
+          <lb ed="#P" n="3"/>id aperte insinuat. Et probatur: nam 
+          genera<lb break="no" ed="#P" n="4"/>tio et nutritio, solum differunt, sicut 
+          produc<lb break="no" ed="#P" n="5"/>tio totius et partis, productiones autem 
+          ejus<lb break="no" ed="#P" n="6"/>modi per se loquendo ejusdem rationis sunt,
+          <lb ed="#P" n="7"/>dicta vero diversitas, quasi per accidens: ergo
+          <lb ed="#P" n="8"/>ab eadem virtute procedunt, quod a simili 
+          po<lb break="no" ed="#P" n="9"/>test confirmari, in igne augente se et alium
+          <lb ed="#P" n="10"/>generante. Secundo contingit per nutritionem
+          <lb ed="#P" n="11"/>eadem membra integra restaurari, aut partem
+          <lb ed="#P" n="12"/>quamdam carnis integram, in qua 
+          regeneran<lb break="no" ed="#P" n="13"/>tur arteriae, venaeque omnes requisitae, illud
+          <lb ed="#P" n="14"/>autem non fit per modum nutritionis, sed per
+          <lb ed="#P" n="15"/>quemdam modum novae generationis: ergo
+          <lb ed="#P" n="16"/>manet in membris viventis virtus ejusdem
+          <lb ed="#P" n="17"/>rationis cum generativa; haec autem non est
+          <lb ed="#P" n="18"/>nisi nutritiva: ergo, etc.
+        </p>
+        <p xml:id="szdada-y14748-d1e467">
+          <lb ed="#P" n="19"/>6. Proxime posite probationes exponi 
+          pos<lb break="no" ed="#P" n="20"/>sunt. — Argumenta haec solvi aliquo modo
+          <lb ed="#P" n="21"/>possunt. Nam Aristoteles illis locis, ut divus
+          <lb ed="#P" n="22"/>Thomas ibi, lectione 9, exponit, loqui videtur,
+          <lb ed="#P" n="23"/>de virtute principali, non de potentia, velcerte
+          <lb ed="#P" n="24"/>loqui non de virtute generativa existente in
+          <lb ed="#P" n="25"/>semine, sed de ea quae est in vivente ad 
+          effi<lb break="no" ed="#P" n="26"/>ciendum semen. Ad primam rationem dici
+          <lb ed="#P" n="27"/>potest generationem quidem totius, et partis
+          <lb ed="#P" n="28"/>per se loquendo non requirere distinctas 
+          virtu<lb break="no" ed="#P" n="29"/>tes: attamen ratione diversi modi potuisse 
+          re<lb break="no" ed="#P" n="30"/>quiri, veluti generatio partium fiat a similibus
+          <lb ed="#P" n="31"/>partibus, totius vero a quodam instrumento
+          <lb ed="#P" n="32"/>minus simili et ignobiliori. Unde ad 
+          secun<lb break="no" ed="#P" n="33"/>dum, quod est fundamentum Vallesii, 
+          respon<lb break="no" ed="#P" n="34"/>detur in membris viventis manere virtutem
+          <lb ed="#P" n="35"/>similem generativae quantum ad effectum 
+          pro<lb break="no" ed="#P" n="36"/>ducendum, eam tamen non esse ejusdem 
+          ra<lb break="no" ed="#P" n="37"/>tionis, quia modus est valde diversus: vivens
+          <lb ed="#P" n="38"/>enim habet virtutem ad regenerationem 
+          par<lb break="no" ed="#P" n="39"/>tium per similitudinem temperamenti: at 
+          ve<lb break="no" ed="#P" n="40"/>ro semen habet virtutem ad formanda membra
+          <lb ed="#P" n="41"/>non per simile temperamentum, quod in se
+          <lb ed="#P" n="42"/>habeat formalter, ideoque oportet habere per
+          <lb ed="#P" n="43"/>virtutem alterius rationis. Instabis, vivens
+          <lb ed="#P" n="44"/>quoque nonnunquam regenerare membrum
+          <lb ed="#P" n="45"/>heterogeneum per actionem partium 
+          dissimi<lb break="no" ed="#P" n="46"/>lium. Sed negandum id fieri posse, ut 
+          expe<lb break="no" ed="#P" n="47"/>rientia demonstrat, vel si possit aliquando, id
+          <lb ed="#P" n="48"/>quidem fieri per virtutem consimilem 
+          genera<lb break="no" ed="#P" n="49"/>tivae, ac proinde distinctam a nutritiva.
+        </p>
+        <p xml:id="szdada-y14748-d1e537">
+          <lb ed="#P" n="50"/>7. Difficultatem vero in num. 3 propositam
+          <lb ed="#P" n="51"/>non satis expediri. — Sed tamen quamvis haec
+          <lb ed="#P" n="52"/>argumenta solvantur, alterius tamen 
+          argu<lb break="no" ed="#P" n="53"/>menti numero tertio expositi solutionem adhuc
+          <lb ed="#P" n="54"/>non invenio: nempe, quae sit haec virtus in
+          <lb ed="#P" n="55"/>semine residens, aut quo modo possit unica
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>existens, quae necessario, et sine cognitione
+          <lb ed="#P" n="57"/>operatur, tam varia et diversa membra tanto
+          <lb ed="#P" n="58"/>ordine componere: nam quod vulgo dicitur,
+          <lb ed="#P" n="59"/>virtutem illam esse calorem quemdam vitalem
+          <lb ed="#P" n="60"/>adjutum coelesti, verba sunt, quae rem non 
+          ex<lb break="no" ed="#P" n="61"/>plicant, calores enim illi non nisi calefaciunt,
+          <lb ed="#P" n="62"/>ac disponunt ad formam substantialem. Imo
+          <lb ed="#P" n="63"/>eadem difficultas restat, quomodo a calore
+          <lb ed="#P" n="64"/>possit provenire tanta varietas membrorum,
+          <lb ed="#P" n="65"/>et complexionum partialium, quanta reperitur
+          <lb ed="#P" n="66"/>in animantibus perfectis. Quare Scotus hanc
+          <lb ed="#P" n="67"/>efficientiam, semini denegavit, camque tribuit
+          <lb ed="#P" n="68"/>coelo. Sed eadem difficultas urget de coelo,
+          <lb ed="#P" n="69"/>quod naturaliter agit, nec nisi calefaciendo,
+          <lb ed="#P" n="70"/>vel exsiccando. Galenus ergo, ut etiam 2 
+          Phy<lb break="no" ed="#P" n="71"/>sicorum dixi, divinam (inquit) hanc esse 
+          vir<lb break="no" ed="#P" n="72"/>Ltutem, et quee procedere nisi ab al quo habente
+          <lb ed="#P" n="73"/>intellectum negueat. Quod etiam Trismegistus
+          <lb ed="#P" n="74"/>apud Eugubinum, cap. 3, aperte sensit, 
+          di<lb break="no" ed="#P" n="75"/>cens, cogita, o fili, hominem in utero materno
+          <lb ed="#P" n="76"/>compositum. Totamque opificis artem diligenter
+          <lb ed="#P" n="77"/>perpende, et disce quis sit opifem, qui hanc 
+          ho<lb break="no" ed="#P" n="78"/>minis pulchram, divinamque imaginem fecerit,
+          <lb ed="#P" n="79"/>quis oculos formaverit, quis nares et aures 
+          te<lb break="no" ed="#P" n="80"/>rebraverit, qui os aperuerit, quis nervos 
+          teten<lb break="no" ed="#P" n="81"/>derit, aspice quot artes unius materie, quot
+          <lb ed="#P" n="82"/>opera una circumscriptione, cunctaque pulchra,
+          <lb ed="#P" n="83"/>cuncta cum mensura, cuncta scorsum, quis heec
+          <lb ed="#P" n="84"/>omnia fecit, quae mater, quis pater, nisi 
+          invi<lb break="no" ed="#P" n="85"/>sililis Deus, qui sua voluntate cuncta operatus
+          <lb ed="#P" n="86"/>est. Ego quidem censeo hanc virtutem esse
+          <lb ed="#P" n="87"/>altissimam, et multum ab alente distinctam,
+          <lb ed="#P" n="88"/>quod etiam dictus Galenus, libro de Foetuum
+          <lb ed="#P" n="89"/>formatione, asserit: attamen quid sit, et 
+          quo<lb break="no" ed="#P" n="90"/>modo operetur, non assequor.
+        </p>
+        <p xml:id="szdada-y14748-d1e631">
+          <lb ed="#P" n="91"/>8. De secunda quaestione in numero primo.—
+          <lb ed="#P" n="92"/>De virtute vero formativa spiritus inclusi in
+          <lb ed="#P" n="93"/>semine arbitror non esse distinctam ab anima
+          <lb ed="#P" n="94"/>viventis generantis, si loquamur de virtute
+          <lb ed="#P" n="95"/>inductiva formae substantialis, si autem 
+          loqua<lb break="no" ed="#P" n="96"/>mur de virtute dispositiva, illa est calor 
+          vita<lb break="no" ed="#P" n="97"/>lis, et cordis disponens materiam ad 
+          produc<lb break="no" ed="#P" n="98"/>tionem spirituum vitalium, et ideo Aristoteles
+          <lb ed="#P" n="99"/>2. de Generat. animal., capite primo, aperte
+          <lb ed="#P" n="100"/>asserit virtutem formativam seminis esse 
+          calo<lb break="no" ed="#P" n="101"/>rem naturalem. Non esset etiam improbabile
+          <lb ed="#P" n="102"/>putare illam virtutem esse qualitatem aliquam
+          <lb ed="#P" n="103"/>distinctam et perfectiorem, sed in ea re nihil
+          <lb ed="#P" n="104"/>habeo certum et exploratum. Ex his omnibus
+          <lb ed="#P" n="105"/>colligitur divisionem potentiae vegetativae, quae
+          <lb ed="#P" n="106"/>tradi solet in nutritivam, augmentativam et
+          <lb ed="#P" n="107"/>generativam, non esse sumendam tanquam
+          <lb ed="#P" n="108"/>impotentias distinctas realiter, sed potius dari
+          <lb ed="#P" n="109"/>ad explicandum actus omnes animae 
+          vegeta<lb break="no" ed="#P" n="110"/>tivae.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="18"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y00445"><!-- t2l1c3 -->
+        <head xml:id="szdada-y00445-Hd1e101">Caput 3</head>
+        <head xml:id="szdada-y00445-Hd1e103" type="question-title">An coelum aethereum in principio temporis creatum fuerit</head>
+        <p xml:id="szdada-y00445-d1e106">
+          <lb ed="#P" n="11"/>CAPUT III
+          <lb ed="#P" n="12"/>AN COELUM AETHEREUM IN PRINCIPIO TEMPORIS
+          <lb ed="#P" n="13"/>CREATUM FUERIT.
+        </p>
+        <p xml:id="szdada-y00445-d1e115">
+          <lb ed="#P" n="14"/>1. Pro hac quaestione suppositio prima. — 
+          Se<lb break="no" ed="#P" n="15"/>cunda suppositio. — Tertia suppositio. — 
+          Hac<lb break="no" ed="#P" n="16"/>tenus explicuimus, quando, quomodo, et a
+          <lb ed="#P" n="17"/>quo mundus hic visibilis creatus fuerit, et 
+          con<lb break="no" ed="#P" n="18"/>sequenter verba illa, 7n principio creavcit Deus
+          <lb ed="#P" n="19"/>exposuimus, nunc de rebus ipsis per hanc
+          <lb ed="#P" n="20"/>propriam creationem productis dicendum 
+          su<lb break="no" ed="#P" n="21"/>perest, et consequenter sententia verba, 
+          ee<lb break="no" ed="#P" n="22"/>lum et terram, exponemus. Unde supponimus,
+          <lb ed="#P" n="23"/>nomine principii nos semper intelligere illud
+          <lb ed="#P" n="24"/>primum instans, in quo mundus per propriam
+          <lb ed="#P" n="25"/>et rigorosam creationem factus est, priusque
+          <lb ed="#P" n="26"/>de ceelo, postea de terra dicemus. Deinde 
+          sup<lb break="no" ed="#P" n="27"/>ponimus coelum illud fuisse corpus quantum
+          <lb ed="#P" n="28"/>ex se sensibile, et locum corporalem replens;
+          <lb ed="#P" n="29"/>nam licet Augustinus interdum de solis 
+          An<lb break="no" ed="#P" n="30"/>gelis id interpretari videatur, ut infra 
+          videbi<lb break="no" ed="#P" n="31"/>mus, certissimum nihilominus est, non esse
+          <lb ed="#P" n="32"/>excludendum verum et corporale coelum;
+          <lb ed="#P" n="33"/>quia haec est propria significatio vocis, et non
+          <lb ed="#P" n="34"/>est admittenda improprietas, ac metaphora in
+          <lb ed="#P" n="35"/>ingressu historicae narrationis sine cogente
+          <lb ed="#P" n="36"/>necessitate, quae nulla hic est, nec auctoritas;
+          <lb ed="#P" n="37"/>quin potius cum Ecclesia in symbolis fidei
+          <lb ed="#P" n="38"/>unum creatorem coeli et terrae confitetur, ita
+          <lb ed="#P" n="39"/>plane coeli nomen interpretari videtur. 
+          Idem<lb break="no" ed="#P" n="40"/>que argumentum ex capite P'irmiter desumitur,
+          <lb ed="#P" n="41"/>et ex Patribus statim ostendetur. Suppono 
+          de<lb break="no" ed="#P" n="42"/>nique triplex esse coclum ex modo loquendi
+          <lb ed="#P" n="43"/>Scripturae et Patrum, scilicet, empyreum,
+          <lb ed="#P" n="44"/>aethereum et aereum: empyreum vocatur 
+          su<lb break="no" ed="#P" n="45"/>premum omnium coelorum, quod est veluti
+          <lb ed="#P" n="46"/>per antonomasiam sedes Dei, et proprius locus
+          <lb ed="#P" n="47"/>beatorum; aereum notum est; sub aethereo
+          <lb ed="#P" n="48"/>ergo omnia corpora simplicia inter coclum
+          <lb ed="#P" n="49"/>empyreum et elementum aeris contenta 
+          com<lb break="no" ed="#P" n="50"/>prehendimus, de quibus primo tractamus, quia
+          <lb ed="#P" n="51"/>empyreum minus notum est; et aer juxta
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>communem et philosophicum morem non tam
+          <lb ed="#P" n="53"/>proprie coelum nominatur.
+        </p>
+        <p xml:id="szdada-y00445-d1e206">
+          <lb ed="#P" n="54"/>2. Jam suadetur pars negans quaestionis. —
+          <lb ed="#P" n="55"/>Confirmatur. — Ratio ergo dubitandi est, quia
+          <lb ed="#P" n="56"/>unum, vel praecipuum ex his coelis est 
+          firma<lb break="no" ed="#P" n="57"/>mentum, in quo fixae stellae insunt: sed 
+          fir<lb break="no" ed="#P" n="58"/>mamentum non fuit creatum in primo instanti
+          <lb ed="#P" n="59"/>creationis mundi: ergo nec coelum aethereum,
+          <lb ed="#P" n="60"/>neque aliquod ex caeteris in dicto spatio 
+          con<lb break="no" ed="#P" n="61"/>tentis. Major nota est ex usu theologorum
+          <lb ed="#P" n="62"/>cum D. Thoma, 1 p., q. 68, art. 1, et 
+          sequenti<lb break="no" ed="#P" n="63"/>bus, et potest sumi ex illo Daniel 12: Qui docti
+          <lb ed="#P" n="64"/>fuerint, fulgebunt quasi splendor firmumenti
+          <lb ed="#P" n="65"/>et qui ad justitiam erudiunt multos quasi stelle
+          <lb ed="#P" n="66"/>in perpetuas ceternitates. Minor autem 
+          proba<lb break="no" ed="#P" n="67"/>tur, quia paulo post in eodem cap. 1, Genes.,
+          <lb ed="#P" n="68"/>dicitur firmamentum die secundo factum.
+          <lb ed="#P" n="69"/>Consequentia denique probatur, tum quia 
+          ea<lb break="no" ed="#P" n="70"/>dem ratio est de caeteris coelis illius ordinis,
+          <lb ed="#P" n="71"/>quae de coelo stellato, cum sit illud spatium
+          <lb ed="#P" n="72"/>interjectum inter coelum empyreum, aut 
+          cris<lb break="no" ed="#P" n="73"/>tallinum, seu primum mobile, et supremum
+          <lb ed="#P" n="74"/>planetarum, non debuit vacuum in eo instanti
+          <lb ed="#P" n="75"/>relinqui ; neque etiam debuit aliquo 
+          corrupti<lb break="no" ed="#P" n="76"/>bili corpore postea inde ejiciendo, vel in aliud
+          <lb ed="#P" n="77"/>transmutando repleri, cum vicina corpora 
+          su<lb break="no" ed="#P" n="78"/>perius et inferius essent incorruptilia. Ergo
+          <lb ed="#P" n="79"/>melius consequenter dicitur nullum coelum
+          <lb ed="#P" n="80"/>aethereum tunc fuisse creatum, sed illud totum
+          <lb ed="#P" n="81"/>spatium, quod hi coeli replent, tunc vel aere,
+          <lb ed="#P" n="82"/>vel materia informi, vel imperfecte formata
+          <lb ed="#P" n="83"/>plenum fuisse, donec coeli fuere formati; et
+          <lb ed="#P" n="84"/>hoc confirmatur, quia legimus solem, lunam
+          <lb ed="#P" n="85"/>et stellas quarto die fuisse facta: eadem est
+          <lb ed="#P" n="86"/>autem ratio totius, et partis: ergo omnes isti
+          <lb ed="#P" n="87"/>coeli non primo instanti creati, sed postea 
+          suc<lb break="no" ed="#P" n="88"/>cessive facti sunt.
+        </p>
+        <p xml:id="szdada-y00445-d1e285">
+          <lb ed="#P" n="89"/>3. Opinio quaedam refertur, et paulatim 
+          in<lb break="no" ed="#P" n="90"/>ferius enodanda remittitur. — Potest imprimis
+          <lb ed="#P" n="91"/>hoc loco referri opinio dicens, nomine coeli
+          <lb ed="#P" n="92"/>non significari determinata corpora, sed 
+          sum<lb break="no" ed="#P" n="93"/>matim sub illis vocibus comprehendi omnes
+          <lb ed="#P" n="94"/>res universi. Sed haec sententia non est modo
+          <lb ed="#P" n="95"/>tractanda, quia potest et verum, et falsum
+          <lb ed="#P" n="96"/>sensum habere, et ideo in discursu hujus libri
+          <lb ed="#P" n="97"/>paulatim enodabitur, et in fine illius vera 
+          re<lb break="no" ed="#P" n="98"/>solutio concludetur; utcumque vero 
+          intelliga<lb break="no" ed="#P" n="99"/>tur, negari non potest, quin per illas voces
+          <lb ed="#P" n="100"/>corpora diversa, seu partes distinctae universi
+          <lb ed="#P" n="101"/>significentur. Hoc enim et verborum 
+          distinc<lb break="no" ed="#P" n="102"/>tio, et propria uniuscujusque significatio 
+          con<lb break="no" ed="#P" n="103"/>vincit. Ideoque, ita sunt semper communisensu
+          <lb ed="#P" n="104"/>Ecclesiae et Patrum intellecta ; et ideo prius
+          <lb ed="#P" n="105"/>videndum est, quid per se et proprie illius 
+          no<lb break="no" ed="#P" n="106"/>minibus significatum sit, et consequenter di-
+          <pb ed="#P" n="19"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cemus, an aliae res sint sub illis primis 
+          signi<lb break="no" ed="#P" n="2"/>ficatis comprehensae, et quae illae sint, et qua
+          <lb ed="#P" n="3"/>ratione sub hac vel illa indicari intelligantur.
+        </p>
+        <p xml:id="szdada-y00445-d1e337">
+          <lb ed="#P" n="4"/>4. Altera opinio nomine caeli intelligit 
+          empg<lb break="no" ed="#P" n="5"/>reun. — Igitur in praesenti puncto propter 
+          ra<lb break="no" ed="#P" n="6"/>tionem factam dixerunt aliqui in eo instanti
+          <lb ed="#P" n="7"/>non fuisse creatum coelum aethereum, de quo
+          <lb ed="#P" n="8"/>nunc loquimur, sed nomine coeli solum 
+          empy<lb break="no" ed="#P" n="9"/>reum significari. Haec fuit sententia Bedae, in
+          <lb ed="#P" n="10"/>principio Exaemeron, quod etiam Junilio 
+          tri<lb break="no" ed="#P" n="11"/>buitur, et ibi allegatur Hieronymus, de cujus
+          <lb ed="#P" n="12"/>sententia infra dicemus. Citatur etiam pro hac
+          <lb ed="#P" n="13"/>sententia Damascenus, libro primo, capite 
+          sex<lb break="no" ed="#P" n="14"/>to, ait enim: 7n universitatis hujus 
+          procrea<lb break="no" ed="#P" n="15"/>tione celum allud conditum fuisse, quod ii, qui
+          <lb ed="#P" n="16"/>apud. eaxteros sapientie laude floruerunt, Mosi
+          <lb ed="#P" n="17"/>dogmata sibi vendicantes, orbem syderum 
+          ea<lb break="no" ed="#P" n="18"/>pertem vocant. Sed haec verba optime de primo
+          <lb ed="#P" n="19"/>mobili,seu coelo crystallino intelliguntur; et in
+          <lb ed="#P" n="20"/>eis Damascenus caeteros coelos non excludit.
+          <lb ed="#P" n="21"/>Imo illi coelo statim subjungit firmamentum,
+          <lb ed="#P" n="22"/>de quo et de aliis coehis varias opiniones refert,
+          <lb ed="#P" n="23"/>et concludit: Ceterum quoquo modo heec se 
+          ha<lb break="no" ed="#P" n="24"/>Deunt, omnia certe divino jussu facta ac 
+          stabi<lb break="no" ed="#P" n="25"/>ita sunt, divinamque voluntatem, atque 
+          consi<lb break="no" ed="#P" n="26"/>lium pro fundamento habent. In quo loquendi
+          <lb ed="#P" n="27"/>modo potius significat coelos creatos esse 
+          si<lb break="no" ed="#P" n="28"/>mul quam successive, licet neutrum expresse
+          <lb ed="#P" n="29"/>declaret. Magis indicant hanc sententiam 
+          Ba<lb break="no" ed="#P" n="30"/>silius, homilia tertia Exaemeron, ponens 
+          fir<lb break="no" ed="#P" n="31"/>mamentum factum quoad substantiam secundo
+          <lb ed="#P" n="32"/>die, et ab elementis distinctum, licet sentiat
+          <lb ed="#P" n="33"/>ex corum materia fuisse productum. Item 
+          Ori<lb break="no" ed="#P" n="34"/>genes, homilia prima in Genes., coelum a 
+          prin<lb break="no" ed="#P" n="35"/>cipio factum a firmamento distinguit, et sedem
+          <lb ed="#P" n="36"/>Dei appellat. Item Anselmus, lib. 1, de 
+          Ima<lb break="no" ed="#P" n="37"/>gin. mundi, cap. 28, et Hugo Victorinus, in
+          <lb ed="#P" n="38"/>Sum. senten., tract. 2, c. 1, in fin., et Glossa
+          <lb ed="#P" n="39"/>ordinaria Strabonis, et Abulensis, Gen. 1, et
+          <lb ed="#P" n="40"/>ex scholasticis Bonaventura, in 2, dist. 12, in
+          <lb ed="#P" n="41"/>primo dubio litterali. Pluresque alios antiquos
+          <lb ed="#P" n="42"/>et modernos auctores refert pro hac sententia
+          <lb ed="#P" n="43"/>Pererii, lib.1, in Genes., circa illa verba, celum
+          <lb ed="#P" n="44"/>et terram. Hanc vero sententiam ex modernis
+          <lb ed="#P" n="45"/>theologis acriter defendit Molina, in tract. de
+          <lb ed="#P" n="46"/>Opere sex dierum, disp. 2, et Salmeron 2,
+          <lb ed="#P" n="47"/>Petr. 3, disp. 4.
+        </p>
+        <p xml:id="szdada-y00445-d1e435">
+          <lb ed="#P" n="48"/>5. Auctoris assertio communis. — 
+          Nihilomi<lb break="no" ed="#P" n="49"/>nus dicendum est, in illo principio mundi, seu
+          <lb ed="#P" n="50"/>primo instanti creationis ejus creata esse omnia
+          <lb ed="#P" n="51"/>coelestia corpora mobilia a primo mobili usque
+          <lb ed="#P" n="52"/>ad ultimam lunae sphaeram inclusive. In 
+          as<lb break="no" ed="#P" n="53"/>sertione non excludo coelum empyreum, nec
+          <lb ed="#P" n="54"/>in ea parte praecedenti sententiae contradico,
+          <lb ed="#P" n="55"/>sed illam in caput sequens tractandam relin-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quo: tantum ergo assero reliquos coelos tunc
+          <lb ed="#P" n="57"/>esse creatos, sive illud aliud sit, sive non sit.
+          <lb ed="#P" n="58"/>Sic ergo assertio communis est inter 
+          scolasti<lb break="no" ed="#P" n="59"/>cos, in 2, distinc. 12, quos paulo post 
+          refere<lb break="no" ed="#P" n="60"/>mus ; et praesertim sumitur ex divo Thoma,
+          <lb ed="#P" n="61"/>1 part., quaest. 66, art. 1, juncto alio, art. 1,
+          <lb ed="#P" n="62"/>quaest. 68, et paulo post auctoritate Patrum
+          <lb ed="#P" n="63"/>comprobabitur. Ratione igitur probatur; quia
+          <lb ed="#P" n="64"/>verba Scripturae huic assertioni nonrepugnant,
+          <lb ed="#P" n="65"/>imo illis est valde consentanea, et alioqui est
+          <lb ed="#P" n="66"/>valde conformis rationi naturali; ergo. Major
+          <lb ed="#P" n="67"/>per se patet ex propria significatione nominis
+          <lb ed="#P" n="68"/>cali, et statim in numero septimo magis 
+          de<lb break="no" ed="#P" n="69"/>clarabitur. Probatur ergo minor primo, quia
+          <lb ed="#P" n="70"/>nihil factum est a Deo per propriam et 
+          rigoro<lb break="no" ed="#P" n="71"/>sam creationem, nisi in illo primo instanti:
+          <lb ed="#P" n="72"/>quidquid enim postea factum est, ex materia
+          <lb ed="#P" n="73"/>prajjacente formatum est, ut omnes fatentur,
+          <lb ed="#P" n="74"/>et ex discursu totius fabricationis mundi 
+          a<lb break="no" ed="#P" n="75"/>perte constabit ; sed coclum aethereum quoad
+          <lb ed="#P" n="76"/>omnia dicta corpora coelestia, non est 
+          produci<lb break="no" ed="#P" n="77"/>bile natura sua, nisi per creationem: ergo in
+          <lb ed="#P" n="78"/>illo primo iustanti factum est. Consequentia
+          <lb ed="#P" n="79"/>est nota, quia non est credibile Deum in prima
+          <lb ed="#P" n="80"/>creatione rerum aliter creasse coelum, quam
+          <lb ed="#P" n="81"/>natura ejus postulet, vel quam sit naturaeillius
+          <lb ed="#P" n="82"/>consentaneum: id enim neque ad 
+          manifestan<lb break="no" ed="#P" n="83"/>dam divinam sapientiam, neque 
+          omnipoten<lb break="no" ed="#P" n="84"/>tiam pertinebat, utraque enim magis 
+          ostende<lb break="no" ed="#P" n="85"/>batur subito, et uno momento, ac imperio,
+          <lb ed="#P" n="86"/>nobilissima corpora, nobilissimo etiam modo,
+          <lb ed="#P" n="87"/>prout natura illorum postulabat, ex nihilo
+          <lb ed="#P" n="88"/>creando ; neque alius modus productionis 
+          coe<lb break="no" ed="#P" n="89"/>lorum in Scriptura fundamentum, aut 
+          vesti<lb break="no" ed="#P" n="90"/>gium habet. Probatur ergo minor, quia 
+          coe<lb break="no" ed="#P" n="91"/>lum est corpus natura sua incorruptibile et
+          <lb ed="#P" n="92"/>inalterabile: ergo etiam est in generabile 
+          na<lb break="no" ed="#P" n="93"/>tura sua ex praejacente materia, ac subinde
+          <lb ed="#P" n="94"/>natura sua postulat per creationem produci.
+          <lb ed="#P" n="95"/>6. Calorum incorruptibilitas multipliciter
+          <lb ed="#P" n="96"/>suadetur. — Assumptio de coeli 
+          incorruptibili<lb break="no" ed="#P" n="97"/>tate intrinseca non potest quidem aut 
+          demons<lb break="no" ed="#P" n="98"/>tratione convinci, aut ex Scriptura eflicaciter
+          <lb ed="#P" n="99"/>probari. Nihilominus est aperta sententia 
+          Dio<lb break="no" ed="#P" n="100"/>nysii, cap. 4, de Divin. Nominibus, in prima
+          <lb ed="#P" n="101"/>ejus parte, quam scholastici et philosophi tam
+          <lb ed="#P" n="102"/>gentiles, quam Christiani communiter magis
+          <lb ed="#P" n="103"/>probant. Et quidem si rationem spectemus,
+          <lb ed="#P" n="104"/>est multo verisimilior, tum quia coeli facti sunt,
+          <lb ed="#P" n="105"/>ut perpetuo durent sine ulla transmutatione
+          <lb ed="#P" n="106"/>etiam partiali, diminutione, vel augmento,
+          <lb ed="#P" n="107"/>quae proprietates melius quadrant cum 
+          sub<lb break="no" ed="#P" n="108"/>stantia natura sua incorruptibili, tum etiam
+          <lb ed="#P" n="109"/>quia facti sunt, ut per ipsorum continuam 
+          in<lb break="no" ed="#P" n="110"/>fluentiam uniformiter difformem inferiora om-
+          <pb ed="#P" n="20"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nia per continuas generationes, et 
+          corruptio<lb break="no" ed="#P" n="2"/>nes conservarentur perpetuo, quantum est ex
+          <lb ed="#P" n="3"/>parte talis constitutionis universi, ad quem
+          <lb ed="#P" n="4"/>finem aptior etiamerat natura incorruptibilis:
+          <lb ed="#P" n="5"/>tum praeterea, quia nullum indicium 
+          corrup<lb break="no" ed="#P" n="6"/>tionis, vel mutationis tendentis ad illam, in
+          <lb ed="#P" n="7"/>tanto temporis decursu in eis observatum est:
+          <lb ed="#P" n="8"/>tum quarto, quia per se videtur incredibile,
+          <lb ed="#P" n="9"/>solem, vel astra caetera esse corruptibilia, nec
+          <lb ed="#P" n="10"/>magis credibile est, corpori corruptibili, aut
+          <lb ed="#P" n="11"/>ordinis inferioris esse affixa: tum quinto,
+          <lb ed="#P" n="12"/>quia motus circularis coeli de se perpetuus 
+          ali<lb break="no" ed="#P" n="13"/>quod etiam indicium, et argumentum praebet
+          <lb ed="#P" n="14"/>incorruptibilitatis coeli, ut maxime Aristoteles
+          <lb ed="#P" n="15"/>ponderavit: tum denique, quia corruptibilitas
+          <lb ed="#P" n="16"/>ab intrinseco proxime provenit ex 
+          qualitati<lb break="no" ed="#P" n="17"/>bus, et dispositionibus habentibus contrarium,
+          <lb ed="#P" n="18"/>quas coelum non habet, nec cum aliquo 
+          funda<lb break="no" ed="#P" n="19"/>mento ei tribui possunt. Cum ergo haec omnia
+          <lb ed="#P" n="20"/>incorruptibilitati faveant, et alioqui non 
+          fue<lb break="no" ed="#P" n="21"/>rit Deo difficile, nedum repugnans, talia 
+          cor<lb break="no" ed="#P" n="22"/>pora de se incorruptibilia facere, hicque 
+          mo<lb break="no" ed="#P" n="23"/>dus constitutionis universi sit nobilior, 
+          ma<lb break="no" ed="#P" n="24"/>gisque Dei omnipotentiam et sapientiam
+          <lb ed="#P" n="25"/>commendet, non est, cur de incorruptibilitate
+          <lb ed="#P" n="26"/>coelorum dubitemus, si rationem (inquam)
+          <lb ed="#P" n="27"/>spectemus. In Scriptura autem nihil invenitur
+          <lb ed="#P" n="28"/>huic veritati contrarium: imo prima verba 
+          Ge<lb break="no" ed="#P" n="29"/>neseos illam confirmant, ut statim 
+          ponderabi<lb break="no" ed="#P" n="30"/>mus ; difficultatibus autem, quae ex operibus
+          <lb ed="#P" n="31"/>secundi et quarti diei oriri videbantur, in 
+          se<lb break="no" ed="#P" n="32"/>cundo libro explicando illorum dierum opera,
+          <lb ed="#P" n="33"/>plene, ut spero, satisfaciemus. Facit etiam
+          <lb ed="#P" n="34"/>quod Psalm. 148, postquam de coelis dicitur:
+          <lb ed="#P" n="35"/>Ipse dicwit, et facta sunt, ipse mandavit, et
+          <lb ed="#P" n="36"/>creata sunt, additur: Statuit ea in eternum,
+          <lb ed="#P" n="37"/>et in seculum seculi, etc. Ac denique Job 37,
+          <lb ed="#P" n="38"/>de coelis dicitur: Solidissimi, et quasi ere fusi
+          <lb ed="#P" n="39"/>sunt quod de coelis aere superioribus Gregorius,
+          <lb ed="#P" n="40"/>D. Thomas, et fere omnes interpretantur, 
+          eo<lb break="no" ed="#P" n="41"/>rumque incorruptibilem soliditatem ibi 
+          des<lb break="no" ed="#P" n="42"/>cribi intelligunt, quamvis alii de aere subtiliter
+          <lb ed="#P" n="43"/>interpretantur.
+        </p>
+        <p xml:id="szdada-y00445-d1e674">
+          <lb ed="#P" n="44"/>1. Probatur jam principalis rationis major
+          <lb ed="#P" n="45"/>propositio. — Addimus praeterea (estque 
+          prin<lb break="no" ed="#P" n="46"/>cipalis rationis major propositio) veritatem
+          <lb ed="#P" n="47"/>hanc de creatione coeli aetherei in primo 
+          in<lb break="no" ed="#P" n="48"/>stanti creationis mundi magis esse 
+          consenta<lb break="no" ed="#P" n="49"/>neam narrationi Moysis dicentis: 7n principio
+          <lb ed="#P" n="50"/>creavit Deus caelum. Probatur primo ratione,
+          <lb ed="#P" n="51"/>in qua imprimis suppono id, in quo omnes 
+          vi<lb break="no" ed="#P" n="52"/>dentur convenire, ibi nomine coeli non 
+          signi<lb break="no" ed="#P" n="53"/>ficari solum elementum ignis, vel aeris, sive
+          <lb ed="#P" n="54"/>illam etiam sub coeli nomine 
+          comprehendan<lb break="no" ed="#P" n="55"/>tur, sive non, quod postea videbimus. Hoc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ergo posito, non apparet verisimile Moysem
+          <lb ed="#P" n="57"/>de solo empyreo coelo fuisse locutum: ergo
+          <lb ed="#P" n="58"/>maxime locutus est de coelo aethereo, etiamsi
+          <lb ed="#P" n="59"/>aliud non excluserit. Probatur antecedens, quia,
+          <lb ed="#P" n="60"/>ut Sancti illa verba exponentes dicunt, Moyses
+          <lb ed="#P" n="61"/>cum creationis mundi exordia rudi populo 
+          vel<lb break="no" ed="#P" n="62"/>let proponere, uti debuit verbis in 
+          significa<lb break="no" ed="#P" n="63"/>tione omnibus nota et familiari: at vero 
+          no<lb break="no" ed="#P" n="64"/>mine coeli communiter omnes intelligunt haec
+          <lb ed="#P" n="65"/>corpora superiora visibilia, et omnium 
+          cogni<lb break="no" ed="#P" n="66"/>tioni exposita: ergo credendum est illa 
+          maxi<lb break="no" ed="#P" n="67"/>me nomine coeli significasse, et non tantum
+          <lb ed="#P" n="68"/>coelum empyreum invisibile nobis, et sive per
+          <lb ed="#P" n="69"/>motum, sive per alios effectus valde ignotum.
+          <lb ed="#P" n="70"/>Accedit, quod de illo coelo empyreo vel nulla,
+          <lb ed="#P" n="71"/>vel certe valde rara mentio in Scriptura fit,
+          <lb ed="#P" n="72"/>ut capite sequenti videbimus: alii vero coeli,
+          <lb ed="#P" n="73"/>qui moventur, et in haec inferiora influunt,
+          <lb ed="#P" n="74"/>passim nomine coeli vel coelorum 
+          significan<lb break="no" ed="#P" n="75"/>tur: ergo maxime probabile est non fuisse
+          <lb ed="#P" n="76"/>exclusos a significatione nominis coeli in illis
+          <lb ed="#P" n="77"/>primis verbis: 7n principio creavit Deus 
+          cee<lb break="no" ed="#P" n="78"/>Ium. Denique postea ostendemus, etiam aerem
+          <lb ed="#P" n="79"/>sub illa voce comprehendi: ergo multo magis
+          <lb ed="#P" n="80"/>coeli inter aerem et empyreum coelum 
+          com<lb break="no" ed="#P" n="81"/>prehensi sunt.
+        </p>
+        <p xml:id="szdada-y00445-d1e761">
+          <lb ed="#P" n="82"/>8. Confirmaturque ex Patribus. — Demde
+          <lb ed="#P" n="83"/>ex sanctis Patribus aperte hanc sententiam 
+          se<lb break="no" ed="#P" n="84"/>quuntur Basilius, homilia 1, Exaemer. dicens
+          <lb ed="#P" n="85"/>sub terra comprehendi caetera elementa, 
+          coe<lb break="no" ed="#P" n="86"/>lum autem esse corpus illud supremum, quod
+          <lb ed="#P" n="87"/>supra elementa existit ; et in homil. 2 dicit
+          <lb ed="#P" n="88"/>coelum, quod in principio fuit creatum, postea
+          <lb ed="#P" n="89"/>fuisse luce et stellis ornatum, quod de coelo
+          <lb ed="#P" n="90"/>empyreo dicere non potuit. Ambrosius etiam,
+          <lb ed="#P" n="91"/>lip. 1 Exaemer, cap. 6, per coelum illud 
+          in<lb break="no" ed="#P" n="92"/>telligit, guod est praerogativa generationis et
+          <lb ed="#P" n="93"/>causc, utique universalis et efficiens, nam
+          <lb ed="#P" n="94"/>materialem dicit esse terram. Apertius id 
+          do<lb break="no" ed="#P" n="95"/>cuerat Tertullianus, cont. Hermogen.. cap. 26,
+          <lb ed="#P" n="96"/>ubi etiam firmamentum dicit esse iilud coelum
+          <lb ed="#P" n="97"/>quod in principio factum dicitur, de quo postea
+          <lb ed="#P" n="98"/>videbimus. Favet item Hieronymus, epist. 139,
+          <lb ed="#P" n="99"/>ad Cyprianum, dicens Moysem illis verbis 
+          crea<lb break="no" ed="#P" n="100"/>tionem tantum rerum visibilium exposuisse,
+          <lb ed="#P" n="101"/>quod licet nimium videatur propter 
+          particu<lb break="no" ed="#P" n="102"/>lam exclusivam tantum, nihilominus satis 
+          si<lb break="no" ed="#P" n="103"/>gnificat Moysem de his coelis visibilibus 
+          lo<lb break="no" ed="#P" n="104"/>cutum fuisse; et Augustinus, lib. 2, Genes. ad
+          <lb ed="#P" n="105"/>litter., per quatuor prima capita non putat
+          <lb ed="#P" n="106"/>improbandam sententiam, quae negat cocelum
+          <lb ed="#P" n="107"/>sidereum esse firmamentum die secundo 
+          fac<lb break="no" ed="#P" n="108"/>tum, ex quo plane fit, fuisse in principio 
+          crea<lb break="no" ed="#P" n="109"/>tum. In quam etiam sententiam magis 
+          incli<lb break="no" ed="#P" n="110"/>nat divus Thomas, 1 p, quaest. 68, art. 1, ad 1,
+          <pb ed="#P" n="21"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ubi varias opiniones referens, hanc ultimo loco
+          <lb ed="#P" n="2"/>ponit. Eamdemque optime suadet ac defendit
+          <lb ed="#P" n="3"/>Pererius supra in discursu expositionis illorum
+          <lb ed="#P" n="4"/>verborum: 7n princ pio creavit Deus cehwn,
+          <lb ed="#P" n="5"/>et ibid. Eugubinus et Cajetanus, et plures
+          <lb ed="#P" n="6"/>alios hujus interpretationis sectatores refert
+          <lb ed="#P" n="7"/>ibi, Ascanius Martinengus in glossa magna.
+        </p>
+        <p xml:id="szdada-y00445-d1e846">
+          <lb ed="#P" n="8"/>9. Bipartitum consectarium ea promime 
+          dic<lb break="no" ed="#P" n="9"/>tis. — Ejus prior ostenditur. — Ex quibus a
+          <lb ed="#P" n="10"/>fortiori concludimus non significari in illis
+          <lb ed="#P" n="11"/>verbis nomine caeli materiam informem, ex
+          <lb ed="#P" n="12"/>qua postea formari, seu producti sunt orbes
+          <lb ed="#P" n="13"/>coelestes, qui sub empyreo usque ad lunam
+          <lb ed="#P" n="14"/>continentur, sive her materiam informam 
+          in<lb break="no" ed="#P" n="15"/>telligatur materia pura carens omni 
+          substan<lb break="no" ed="#P" n="16"/>tiali forma ejusdem, vel alterius speciei a 
+          ma<lb break="no" ed="#P" n="17"/>teria rerum generabilium: sive intelligatur
+          <lb ed="#P" n="18"/>corpus aliquod imperfectum materia et forma
+          <lb ed="#P" n="19"/>constans, ex quo postea per introductionem
+          <lb ed="#P" n="20"/>formarum perfectiorum coelestia corpora 
+          sub<lb break="no" ed="#P" n="21"/>stantialiter producta fuerint. Utroque enim
+          <lb ed="#P" n="22"/>modo de illa materia informi opinati aliqui
+          <lb ed="#P" n="23"/>sunt ; neuter autem juxta litterae proprietatem,
+          <lb ed="#P" n="24"/>aut veram rationem potest subsistere. De 
+          prio<lb break="no" ed="#P" n="25"/>ri patet, quia materia coeli nuda, et quae 
+          nun<lb break="no" ed="#P" n="26"/>quam fuit informata forma coeli, nec ad illam
+          <lb ed="#P" n="27"/>recipiendam proxime disposita, non potest nisi
+          <lb ed="#P" n="28"/>abusive, et cum magna multumque voluntaria
+          <lb ed="#P" n="29"/>improprietate coelum appellari. Talis enim 
+          si<lb break="no" ed="#P" n="30"/>gnificatio nec in aliquo usu habet 
+          fundamen<lb break="no" ed="#P" n="31"/>tum, nec in Scriptura illius vestigium 
+          inveni<lb break="no" ed="#P" n="32"/>tur; ergo sic exponere non est interpretari 
+          fi<lb break="no" ed="#P" n="33"/>deliter, sed ad libitum Scripturam corrumpere,
+          <lb ed="#P" n="34"/>quod in nomine ferre latius infra videbimus.
+          <lb ed="#P" n="35"/>Ut omittam esse contra omnem rationem 
+          fin<lb break="no" ed="#P" n="36"/>gere illud miraculum, vel monstrum creandi
+          <lb ed="#P" n="37"/>puram materiam sine forma, sicut de 
+          elemen<lb break="no" ed="#P" n="38"/>tari etiam dicemus.
+        </p>
+        <p xml:id="szdada-y00445-d1e917">
+          <lb ed="#P" n="39"/>10. Ostenditur etiam posterior. — In altera
+          <lb ed="#P" n="40"/>item opinione, licet ut probabile admitteretur
+          <lb ed="#P" n="41"/>coelos esse productos ex aliqua praejacente 
+          sub<lb break="no" ed="#P" n="42"/>stantia aquea, vel simili, nihilominus non esset
+          <lb ed="#P" n="43"/>probabile illam significatam esse nomine 
+          coe<lb break="no" ed="#P" n="44"/>li, tum propter rationem factam cum 
+          propor<lb break="no" ed="#P" n="45"/>tione applicatam; tum etiam quia alias non
+          <lb ed="#P" n="46"/>posset ex illo loco probari aliquod coeleste 
+          cor<lb break="no" ed="#P" n="47"/>pus factum esse per creationem propriam in
+          <lb ed="#P" n="48"/>illo principio, quod est contra omnes Patres,
+          <lb ed="#P" n="49"/>et contra omnem rationem. Sequela autem est
+          <lb ed="#P" n="50"/>clara, quia si substantia illa imperfecta dicta
+          <lb ed="#P" n="51"/>est coelum, quia ex illa formandi erant coeli;
+          <lb ed="#P" n="52"/>ealem facilitate posset quis dicere coelum
+          <lb ed="#P" n="53"/>etiam empyreum ex eadem materia esse 
+          for<lb break="no" ed="#P" n="54"/>matum, quia est eadem ratio, et quia non potest
+          <lb ed="#P" n="55"/>oppositum ex Scriptura ostendi, vel efficaci
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ratione probari, data hypothesi, quod alii
+          <lb ed="#P" n="57"/>coeli essent ex tali materia formati. Quod 
+          au<lb break="no" ed="#P" n="58"/>tem nec in reipsa facta fuerit talis substantia
+          <lb ed="#P" n="59"/>imperfecta transmutanda postea in 
+          substan<lb break="no" ed="#P" n="60"/>tiam coelestem, ratione a nobis ostensum est,
+          <lb ed="#P" n="61"/>quantum materia patitur, nec ad ostensionem
+          <lb ed="#P" n="62"/>divinae omnipotentiae confert, multo enim 
+          ma<lb break="no" ed="#P" n="63"/>gis illam manifestat, quod subito, et quasi
+          <lb ed="#P" n="64"/>unico et indivisibih fluxu perfectissima 
+          coeles<lb break="no" ed="#P" n="65"/>tia corpora ex nihilo procreaverit. Quod vero
+          <lb ed="#P" n="66"/>talis materia, seu substantia imperfecta per
+          <lb ed="#P" n="67"/>nomina ferre, aut aque in illo principio 
+          Ge<lb break="no" ed="#P" n="68"/>neseos significata non fuerit, in sequentibus 
+          os<lb break="no" ed="#P" n="69"/>tendemus et ad diflicultatem sumptam ex 
+          pro<lb break="no" ed="#P" n="70"/>ductione firmamenti in libro sequenti, capite
+          <lb ed="#P" n="71"/>secundo, explicando opus secundi diei, 
+          res<lb break="no" ed="#P" n="72"/>pondebimus, quia non potest aliter plene 
+          du<lb break="no" ed="#P" n="73"/>bitationi satisfieri; nunc ergo solum negamus
+          <lb ed="#P" n="74"/>firmamentum secunda die factum, fuisse 
+          coe<lb break="no" ed="#P" n="75"/>Ium stellatum, vel aliquod ex coelis supra 
+          ele<lb break="no" ed="#P" n="76"/>menta constitutis, quid autem fuerit, ibi 
+          di<lb break="no" ed="#P" n="77"/>cemus, et de sole, luna, et stellis in opere
+          <lb ed="#P" n="78"/>quartae diei dicendum erit.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

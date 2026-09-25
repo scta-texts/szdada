@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="37"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y00933"><!-- t2l1c7 -->
+        <head xml:id="szdada-y00933-Hd1e101">Caput 7</head>
+        <head xml:id="szdada-y00933-Hd1e103" type="question-title">Utrum aer fuerit simul cum coelo creatus, et sub nomine coeli comprehensus</head>
+        <p xml:id="szdada-y00933-d1e106">
+          <lb ed="#P" n="40"/>CAPUT VII.
+          <lb ed="#P" n="41"/>UTRUM AER FUERIT SIMUL CUM COELO CREATUS, ET
+          <lb ed="#P" n="42"/>SUB NOMINE COELI COMPREHENSUS.
+        </p>
+        <p xml:id="szdada-y00933-d1e115">
+          <lb ed="#P" n="43"/>1. Cur de elemento ignis specialis queestio
+          <lb ed="#P" n="44"/>non proponatur. — Duo puncta in titulo 
+          pro<lb break="no" ed="#P" n="45"/>posito insinuantur, et breviter tractanda sunt:
+          <lb ed="#P" n="46"/>unum de creatione aeris absolute, et per se
+          <lb ed="#P" n="47"/>spectata: aliud de narratione illius in 
+          praedic<lb break="no" ed="#P" n="48"/>tis verbis Genesis. Quae duo possunt etiam de
+          <lb ed="#P" n="49"/>elemento ignis investigari ; sed id facere 
+          omit<lb break="no" ed="#P" n="50"/>timus, quia non est tam certum dari simplex
+          <lb ed="#P" n="51"/>elementum ignis in propria sphaera, sicut es:
+          <lb ed="#P" n="52"/>de aere. Et juxta opinionem asserentem su-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>premam regionem aeris attingere usque ad
+          <lb ed="#P" n="54"/>concavum lunae, et non dari corpus ignis 
+          me<lb break="no" ed="#P" n="55"/>dium inter lunam et aerem, consequenter 
+          di<lb break="no" ed="#P" n="56"/>cendum est non fuisse creatum elementum
+          <lb ed="#P" n="57"/>ignis in illo principio, ac proinde nec sub illis
+          <lb ed="#P" n="58"/>verbis esse comprehensum. Nam si creatum
+          <lb ed="#P" n="59"/>tunc esset in proprio loco connaturali, ibi 
+          pro<lb break="no" ed="#P" n="60"/>fecto esset usque nunc conservatum, tum quia
+          <lb ed="#P" n="61"/>elementum secundum se totum non 
+          corrum<lb break="no" ed="#P" n="62"/>pitur, tum quia nec a coelis corruptum esset,
+          <lb ed="#P" n="63"/>nec ab inferioribus elementis, nullae enim 
+          in<lb break="no" ed="#P" n="64"/>fluentiae, vel alterationes igni contrarue ad
+          <lb ed="#P" n="65"/>illum locum perveniunt. Neque etiam Deus
+          <lb ed="#P" n="66"/>solus illud destruxisset, alias frustra illud 
+          pro<lb break="no" ed="#P" n="67"/>duxisset ; et ideo non solet Deus sua sponte
+          <lb ed="#P" n="68"/>destruere, quae creavit, sed per causas 
+          secun<lb break="no" ed="#P" n="69"/>das, quando earum natura, et cursus id 
+          postu<lb break="no" ed="#P" n="70"/>lat. Si vero, ut probabilius creditur, 
+          elemen<lb break="no" ed="#P" n="71"/>tum ignis in sua sphaera existit, et ad 
+          comple<lb break="no" ed="#P" n="72"/>mentum universi pertinet: eadem ratio de ilo
+          <lb ed="#P" n="73"/>erit, quae de elemento aeris, et quae de hoc
+          <lb ed="#P" n="74"/>dixerimus, facile ad illud applicabuntur, 
+          ideo<lb break="no" ed="#P" n="75"/>que specialem quaestionem de igne movere 
+          ne<lb break="no" ed="#P" n="76"/>cessarium non fuit.
+        </p>
+        <p xml:id="szdada-y00933-d1e193">
+          <lb ed="#P" n="77"/>2. Prima sententia negans, et quinam illam
+          <lb ed="#P" n="78"/>amplectantur.—Prima ergo sententia referri po
+          <lb ed="#P" n="79"/>test, negans elementum aeris sub propria 
+          for<lb break="no" ed="#P" n="80"/>ma et substantia creatum esse in illo 
+          princi<lb break="no" ed="#P" n="81"/>pio, vel in verbis illis fuisse comprehensum.
+          <lb ed="#P" n="82"/>Hanc sententiam potissime docent, qui putant,
+          <lb ed="#P" n="83"/>inillo primo creationis instanti tantum creasse
+          <lb ed="#P" n="84"/>Deum materiam primam informem, ex qua
+          <lb ed="#P" n="85"/>postea coelos, et elementa formavit. Vel, ut alii
+          <lb ed="#P" n="86"/>dicunt, solum creasse coelum empyreum, et
+          <lb ed="#P" n="87"/>materiam informem communem, vel creasse
+          <lb ed="#P" n="88"/>coelum empyreum cum elemento proprio 
+          ter<lb break="no" ed="#P" n="89"/>rae, et corpus aliquod aqueum, vel informe,
+          <lb ed="#P" n="90"/>quo totum spatium inter coelum empyreum, et
+          <lb ed="#P" n="91"/>terram uniformiter replevit, ex quo postea
+          <lb ed="#P" n="92"/>coelos, et alia elementa formavit et distinxit.
+          <lb ed="#P" n="93"/>De quibus sententiis in sequentibus capitibus
+          <lb ed="#P" n="94"/>dicturi sumus, ubi fundamenta etiam earum
+          <lb ed="#P" n="95"/>expendemus: nunc solum juxta illas 
+          colligi<lb break="no" ed="#P" n="96"/>mus, aerem non fuisse in principio creatum,
+          <lb ed="#P" n="97"/>sed solum materiam, ex qua postea productus
+          <lb ed="#P" n="98"/>est. At vero etiam stante nostra sententia 
+          hac<lb break="no" ed="#P" n="99"/>tenus fundata, quod in illo instanti facti sunt
+          <lb ed="#P" n="100"/>omnes orbes coelestes, et supponendo tunc esse
+          <lb ed="#P" n="101"/>creata vera elementa terrae et aquae, quod mox
+          <lb ed="#P" n="102"/>tractabimus, potest quis opinari non fuisse
+          <lb ed="#P" n="103"/>tunc creatum elementum aeris. 
+          Fundamen<lb break="no" ed="#P" n="104"/>tumque esse potest proxime positum, quod
+          <lb ed="#P" n="105"/>proprietati verborum standum est, Moyses 
+          au<lb break="no" ed="#P" n="106"/>tem in illis verbis coelum et terram proprie
+          <lb ed="#P" n="107"/>nominat, et aquas etiam, ac earum abyssum
+          <pb ed="#P" n="38"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>statim commemorat: aeris autem nullam 
+          men<lb break="no" ed="#P" n="2"/>tionem facit: ergo licet dicamus, creatos esse
+          <lb ed="#P" n="3"/>coelos, et illa duo elementa, non est, cur de
+          <lb ed="#P" n="4"/>aere idem asseramus.
+        </p>
+        <p xml:id="szdada-y00933-d1e277">
+          <lb ed="#P" n="5"/>3. Prima assertio priori parti tituli 
+          respon<lb break="no" ed="#P" n="6"/>dens.—Nihilominus existimo probabihus, aeris
+          <lb ed="#P" n="7"/>elementum in sua propria specie, ac substantia
+          <lb ed="#P" n="8"/>perfectum simul cum coelis creatum esse. Haec
+          <lb ed="#P" n="9"/>est communior sententia scholasticorum et
+          <lb ed="#P" n="10"/>fere modernorum scriptorum. Et sumitur ex
+          <lb ed="#P" n="11"/>D. Thoma, 1 part., quaest. 66, art. 1, in fine
+          <lb ed="#P" n="12"/>corporis, et art. 3, in corpore, et aliis locis,
+          <lb ed="#P" n="13"/>quae in sequenti assertione, et capite sequenti
+          <lb ed="#P" n="14"/>expendemus. Et sumitur ex Augustino, Basilio,
+          <lb ed="#P" n="15"/>Chrysostomo, et aliis Patribus dicentibus, 
+          ma<lb break="no" ed="#P" n="16"/>teriam rerum elementarium a principio fuisse
+          <lb ed="#P" n="17"/>creatam sub propriis substantialibus formis
+          <lb ed="#P" n="18"/>corporum, ut infra referemus, et intelligendum
+          <lb ed="#P" n="19"/>esse de formis corporum simplicium 
+          ostende<lb break="no" ed="#P" n="20"/>mus. Est praeterea sententia per se verisimilis,
+          <lb ed="#P" n="21"/>valdeque probabilhs. Tum quia elementum
+          <lb ed="#P" n="22"/>aeris per se pertinet ad universi integritatem
+          <lb ed="#P" n="23"/>et compositionem: docuit autem Deum eodem
+          <lb ed="#P" n="24"/>et quasi unico momento mundum hunc 
+          per<lb break="no" ed="#P" n="25"/>fectum producere saltem quoad ea corpora, ex
+          <lb ed="#P" n="26"/>quibus per se primo, et essentialiter 
+          componi<lb break="no" ed="#P" n="27"/>tur: hoc enim magis ipsius potentiam 
+          mani<lb break="no" ed="#P" n="28"/>festat, suaeque bonitati et sapientiae satis 
+          con<lb break="no" ed="#P" n="29"/>sentaneum est. Tum etiam, quia integrum
+          <lb ed="#P" n="30"/>elementum aeris suo modo est incorruptibile
+          <lb ed="#P" n="31"/>et ingenerabile, ideoque quasi connaturaliter
+          <lb ed="#P" n="32"/>postulat, suo modo per creationem fieri: omnia
+          <lb ed="#P" n="33"/>autem, quae per creationem facta sunt, simul
+          <lb ed="#P" n="34"/>facta sunt, quia cum non praesupponant ordine
+          <lb ed="#P" n="35"/>temporis materiam, ex qua fiant, non 
+          postu<lb break="no" ed="#P" n="36"/>lant inter se successionem in creatione sua;
+          <lb ed="#P" n="37"/>ideoque fingenda non est sine auctoritate, vel
+          <lb ed="#P" n="38"/>ratione cogente, quae in praesenti nulla est, ut
+          <lb ed="#P" n="39"/>videbimus.
+        </p>
+        <p xml:id="szdada-y00933-d1e355">
+          <lb ed="#P" n="40"/>4. Probatur em verbis Genesis. — Atque hae
+          <lb ed="#P" n="41"/>rationes caeteris simplicibus elementis 
+          commu<lb break="no" ed="#P" n="42"/>nes sunt. Specialiter autem probatur assertio
+          <lb ed="#P" n="43"/>ex verbis Genesis, quibus explicantur res factae
+          <lb ed="#P" n="44"/>ante productionem lucis per illa verba, fiat
+          <lb ed="#P" n="45"/>lua, etc. Nam omnia illa, quae ante lucem facta
+          <lb ed="#P" n="46"/>sunt. simul in illo momento, de quo dictum
+          <lb ed="#P" n="47"/>est: /n principio creavit Deus, etc., facta sunt:
+          <lb ed="#P" n="48"/>sed in illis rebus tunc factis comprehenditur
+          <lb ed="#P" n="49"/>aer: ergo fuit simul creatus cum coelis. 
+          Conse<lb break="no" ed="#P" n="50"/>quentia est evidens. Major autem partim ex
+          <lb ed="#P" n="51"/>supra dictis, partim ex verbis Genesis constat.
+          <lb ed="#P" n="52"/>Supra enim ostensum est, illud principium,
+          <lb ed="#P" n="53"/>fuisse temporis initium, et unum indivisibile
+          <lb ed="#P" n="54"/>instans, in quo simul coelum et terra creata
+          <lb ed="#P" n="55"/>sunt. Post illam vero coeli et terrae creationem,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nihil denuo Deus produxit, donec dixit, fiat
+          <lb ed="#P" n="57"/>lur, ut patet ex contextu Genesis. Prius enim
+          <lb ed="#P" n="58"/>dicitur: /n principio creavit Deus calum et
+          <lb ed="#P" n="59"/>terram, et statim additur: Terra autem erat
+          <lb ed="#P" n="60"/>inanis, et tenebre erant super faciem abyssi, et
+          <lb ed="#P" n="61"/>spiritus Domini ferebatur super aquas. Ubi
+          <lb ed="#P" n="62"/>pondero illa tria verba, erat, erant, ferebatur,
+          <lb ed="#P" n="63"/>quibus nihil denuo factum asseritur, sed quod
+          <lb ed="#P" n="64"/>factum fuerat, explicatur. Ergo quidquid sub
+          <lb ed="#P" n="65"/>illis verbis comprehenditur, per illa prima 
+          ver<lb break="no" ed="#P" n="66"/>ba, in principio, simul factum refertur.
+        </p>
+        <p xml:id="szdada-y00933-d1e418">
+          <lb ed="#P" n="67"/>5. Secunda assertio posteriori parti titul
+          <lb ed="#P" n="68"/>satisfaciens. — Probatur primo ex verbis, 
+          te<lb break="no" ed="#P" n="69"/>nebrae erant, etc. — Superest probanda altera
+          <lb ed="#P" n="70"/>propositio, nimirum sub illis verbis elementum
+          <lb ed="#P" n="71"/>aeris comprehendi. Hoc autem probatur primo
+          <lb ed="#P" n="72"/>ex illis verbis: Tenebre erant super faciem
+          <lb ed="#P" n="73"/>ab3ssi - nomine enim abyssi aquarum 
+          profun<lb break="no" ed="#P" n="74"/>ditas significata est, hoc enim vox illa in omni
+          <lb ed="#P" n="75"/>proprietate significat, a qua extrahenda, non
+          <lb ed="#P" n="76"/>est sine causa, juxta regulam in praecedenti
+          <lb ed="#P" n="77"/>capite positam. Maxime quia ob hanc causam
+          <lb ed="#P" n="78"/>fortasse ad hoc declarandum aquarum mentio
+          <lb ed="#P" n="79"/>statim facta est, dum adjungitur, et spiritus
+          <lb ed="#P" n="80"/>Domini ferebatur super aquas. Super faciem
+          <lb ed="#P" n="81"/>autem abyssi, id est, supra convexum aquarum
+          <lb ed="#P" n="82"/>dicuntur fuisse tenebrae, quae non poterant 
+          es<lb break="no" ed="#P" n="83"/>se, nisi in aliquo corpore diaphano, et capaci
+          <lb ed="#P" n="84"/>Iuminis, quo tunc carebat: quod corpus erat
+          <lb ed="#P" n="85"/>distinctum ab aqua, et illi contiguum, et ideo
+          <lb ed="#P" n="86"/>dicitur fuisse super faciem abyssi: illud ergo
+          <lb ed="#P" n="87"/>corpus fuit aer. Probatur consequentia, quia
+          <lb ed="#P" n="88"/>non erat aliquod ex coelis aethereis usque ad
+          <lb ed="#P" n="89"/>Iunam, quia coelum lunae nunquam fuit 
+          proxi<lb break="no" ed="#P" n="90"/>mum, et contiguum elemento aquae, nec vera,
+          <lb ed="#P" n="91"/>et propria aqua ad altitudinem coeli pervenit,
+          <lb ed="#P" n="92"/>infra ut ostendam. Neque etiam illud corpus
+          <lb ed="#P" n="93"/>tenebrosum potuit esse ignis, quia ignis ab
+          <lb ed="#P" n="94"/>intrinseco in se lucet: ergo non est tenebrosus,
+          <lb ed="#P" n="95"/>nec esse potest, nisi per miraculum, quod in
+          <lb ed="#P" n="96"/>prima rerum creatione fingendum est, ut 
+          opti<lb break="no" ed="#P" n="97"/>me docuit Augustinus, lib. 2 Gen. ad hlitter.,
+          <lb ed="#P" n="98"/>cap. 1, et in sequentibus saepius repetemus. Si
+          <lb ed="#P" n="99"/>ergo ignis tunc creatus jam erat, lucidum in
+          <lb ed="#P" n="100"/>se erat, et non erant in eo tenebrae: erant ergo
+          <lb ed="#P" n="101"/>in aere. Eo vel maxime quod ignis etiam 
+          co<lb break="no" ed="#P" n="102"/>gitari rationabiliter non potest creatus super
+          <lb ed="#P" n="103"/>faciem aquae, proximeque illi contiguus, cum
+          <lb ed="#P" n="104"/>hoc non sit illi naturale. Recte ergo ex verbis
+          <lb ed="#P" n="105"/>illis colligimus, illas tenebras fuisse in aere,
+          <lb ed="#P" n="106"/>atque ita jam tunc aerem simul cum 
+          superio<lb break="no" ed="#P" n="107"/>ribus coelis creatum.
+        </p>
+        <p xml:id="szdada-y00933-d1e509">
+          <lb ed="#P" n="108"/>6. Secundo probatur exponendo alia 
+          spiri<lb break="no" ed="#P" n="109"/>tus Domini, etc. — Prima ecpositio Cajetani
+          <lb ed="#P" n="110"/>rejicitur. — Secunda quoque eapositio 4E gidii
+          <pb ed="#P" n="39"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>exploditur. — Tertia etiam Chrysostomi non
+          <lb ed="#P" n="2"/>satisfacit. — Secundo id probamus ex verbis
+          <lb ed="#P" n="3"/>illis, spiritus Domni ferebatur super aquas,
+          <lb ed="#P" n="4"/>quae quidem verba varias habent expositiones,
+          <lb ed="#P" n="5"/>quas breviter perstringam. Prima est Cajetani
+          <lb ed="#P" n="6"/>exponentis de Angelis moventibus coelos; quam
+          <lb ed="#P" n="7"/>ut novam et peregrinam merito impugnant
+          <lb ed="#P" n="8"/>Pererius et Ascanius. Eademque ratio est de
+          <lb ed="#P" n="9"/>opinione JEgidii, in 2, dist. 12, quaest. 2, art. 3,
+          <lb ed="#P" n="10"/>ad ejus argumenta, qui dixit motum coelorum
+          <lb ed="#P" n="11"/>in principio non fuisse factum per Angelos,
+          <lb ed="#P" n="12"/>sed a Deo immediate, et Deum ut motorem
+          <lb ed="#P" n="13"/>coelorum fuisse spiritum, qui ferebatur super
+          <lb ed="#P" n="14"/>aquas, quia movendo coelum, ferebat cum illo,
+          <lb ed="#P" n="15"/>et rotabat aquas. Quae sententia et cum eadem
+          <lb ed="#P" n="16"/>improprietate exponit verba Scripturae, et 
+          fal<lb break="no" ed="#P" n="17"/>sum fundamentum supponit de primo motore
+          <lb ed="#P" n="18"/>coeli, ut infra dicam. Et praeterea falso fingit ,
+          <lb ed="#P" n="19"/>per motum coeli commotas fuisse aquas, quia
+          <lb ed="#P" n="20"/>ille motus non erat velocior, quam nunc sit:
+          <lb ed="#P" n="21"/>nunc autem motus raptus infra supremam 
+          re<lb break="no" ed="#P" n="22"/>gionem aeris non descendit. Tertia expositio
+          <lb ed="#P" n="23"/>ex Chrysostomo, homil. 3, qui per spiritum
+          <lb ed="#P" n="24"/>intelligit vim quamdam inditam aquis divinam
+          <lb ed="#P" n="25"/>et effectricem rerum ex aqua generandarum.
+          <lb ed="#P" n="26"/>Quam Pereira inter duas litterales secundo 
+          lo<lb break="no" ed="#P" n="27"/>co ponit, et Augustinus infra citandus eam non
+          <lb ed="#P" n="28"/>rejicit. Mihi vero placere non potest, tum quia
+          <lb ed="#P" n="29"/>in Scriptura per spiritum Domini nunquam
+          <lb ed="#P" n="30"/>significatur aliqua vis similis, nisi quando 
+          ali<lb break="no" ed="#P" n="31"/>qua virtus creata Spiritu sancto attributa
+          <lb ed="#P" n="32"/>personae, aut rei, de qua est sermo, 
+          infundi<lb break="no" ed="#P" n="33"/>tur, ut Judic. 4, dicitur spiritus Domini 
+          ir<lb break="no" ed="#P" n="34"/>ruisse in Sansonem, vel in alios, 1, Reg. 11,
+          <lb ed="#P" n="35"/>4. Reg. 2, Act. 8, etc. At in praesenti non 
+          vi<lb break="no" ed="#P" n="36"/>deo, quo fundamento asseratur tals vis indita
+          <lb ed="#P" n="37"/>aquis: nam id supernaturale opus esset, et
+          <lb ed="#P" n="38"/>miraculosum, quod in naturae ipsius 
+          institu<lb break="no" ed="#P" n="39"/>tione fingendum non est sine fundamento:
+          <lb ed="#P" n="40"/>tum etiam, quia illo modo etiam spiritus 
+          Do<lb break="no" ed="#P" n="41"/>mini ferretur super terram: cur enim magis
+          <lb ed="#P" n="42"/>aquis esse indita virtus ad generanda ea, quae
+          <lb ed="#P" n="43"/>ex aqua facta sunt, quam terrae, vel etiam aeri
+          <lb ed="#P" n="44"/>ad generanda ea, quae ex ipsis facta sunt.
+        </p>
+        <p xml:id="szdada-y00933-d1e618">
+          <lb ed="#P" n="45"/>7. Quarta expositio non contemnenda. —
+          <lb ed="#P" n="46"/>Quarta expositio est, ut per spiritum Dei ipse
+          <lb ed="#P" n="47"/>Spiritus sanctus significetur, de quo dictum
+          <lb ed="#P" n="48"/>sit, quod ferebatur super aquas, quia illis 
+          as<lb break="no" ed="#P" n="49"/>sistebat, ut ex illis caetera perficeret: vel quia
+          <lb ed="#P" n="50"/>illas fovebat et conservabat. Sic exponunt
+          <lb ed="#P" n="51"/>Augustinus, in Imperfect. Gen., c. 4, et lib. 1,
+          <lb ed="#P" n="52"/>Gen. ad litter., cap. 7, et Tertullianus, lib. de
+          <lb ed="#P" n="53"/>Baptism., cap. 3, laudat enim aquam, quod in
+          <lb ed="#P" n="54"/>principio fuerit divini spiritus sedes, et idem
+          <lb ed="#P" n="55"/>repetit, c. 4 et 5, et Hieronymus, epist. 73, ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Ocean., et hanc magis probant Ambrosius et
+          <lb ed="#P" n="57"/>Diodorus ibi, et solum tradit Albinus, q. in
+          <lb ed="#P" n="58"/>Gen., quaest. 29, Deda in Exaemer., Origenes,
+          <lb ed="#P" n="59"/>Rupertus et alii, quos latissime refert Ascanius
+          <lb ed="#P" n="60"/>Martinengo in sua glossa magna, et illam pro
+          <lb ed="#P" n="61"/>viribus probat, ac defendit. Praetermissis vero
+          <lb ed="#P" n="62"/>conjecturis, et congruentiis, litterale (ut sic
+          <lb ed="#P" n="63"/>dicam) fundamentum est, quia non dicitur
+          <lb ed="#P" n="64"/>simpliciter spiritus, sed cum addito Domini,
+          <lb ed="#P" n="65"/>vel Dei, significationem extollente, et quasi
+          <lb ed="#P" n="66"/>determinante ad spiritum divinum 
+          significan<lb break="no" ed="#P" n="67"/>dum, juxta illud Isai. 11: Eequiescet super eum
+          <lb ed="#P" n="68"/>spiritus Domini, et cap. 40: Quis adjuvit 
+          spiri<lb break="no" ed="#P" n="69"/>tum Domini ? et cap. 40: Spiritus Do nini 
+          su<lb break="no" ed="#P" n="70"/>per me. Denique non parum auctoritatis huic
+          <lb ed="#P" n="71"/>expositioni ex usu Ecclesiae accrescit, 
+          quando<lb break="no" ed="#P" n="72"/>quidem in fontium benedictione illa usa est,
+          <lb ed="#P" n="73"/>dicens: Tw super aquas futurus eas ferebaris.
+          <lb ed="#P" n="74"/>Et iterum: Deus, cujus Spiritus super aquas
+          <lb ed="#P" n="75"/>inter ipsa mundi primordia ferebatur, ut jam
+          <lb ed="#P" n="76"/>tum virtutem sanctificationis aquarum natura
+          <lb ed="#P" n="77"/>conciperet.
+        </p>
+        <p xml:id="szdada-y00933-d1e694">
+          <lb ed="#P" n="78"/>8. Quinta expositio. —Nihilominus est quinta
+          <lb ed="#P" n="79"/>expositio, quae existimat verba illa de aeris
+          <lb ed="#P" n="80"/>elemento esse intelligenda, ut exponunt 
+          Ter<lb break="no" ed="#P" n="81"/>tullianus, contr. Hermogen., cap. 31 et 32, et
+          <lb ed="#P" n="82"/>Theodoretus, q. 8, in Gen., et Diodorus, hanc
+          <lb ed="#P" n="83"/>ut litteralem admittit. Et Origenes, l. 1, 
+          Pe<lb break="no" ed="#P" n="84"/>riar., c. 3, priorem expositionem dicit esse
+          <lb ed="#P" n="85"/>juxta sensum spiritualem, hanc vero sentit esse
+          <lb ed="#P" n="86"/>juxta historiam. Et eamdem refert, et non 
+          re<lb break="no" ed="#P" n="87"/>jicit, licet aliis non praeferat, Basilius, homil.
+          <lb ed="#P" n="88"/>2. Exaemer. ; Augustinus item in Imperfect.
+          <lb ed="#P" n="89"/>Gen., cap. 4, hanc expositionem ultimo loco
+          <lb ed="#P" n="90"/>ponit, et caeteras illi non praefert, et Anastasius
+          <lb ed="#P" n="91"/>Synaita, lib. 1 Exaemer., cum hanc 
+          exposi<lb break="no" ed="#P" n="92"/>tionem posuisset. Fec (inquit) est congruenter
+          <lb ed="#P" n="93"/>littere Mosaice, quod ad ipsam attinet 
+          histo<lb break="no" ed="#P" n="94"/>riam. Athanasius etiam,q. 81,quae est secunda
+          <lb ed="#P" n="95"/>veteris Testamenti, hanc expositionem 
+          praece<lb break="no" ed="#P" n="96"/>dentis praefert. Majori exaggeratione id facit
+          <lb ed="#P" n="97"/>Procopius in Gen. et placuit etiam Abulensi
+          <lb ed="#P" n="98"/>et Oleastro. Et ex modernis illam litteralem
+          <lb ed="#P" n="99"/>appellat ibi Pererius et praecedentem tantum
+          <lb ed="#P" n="100"/>mysticam, quod etiam sentit Vasquez, 1 part.,
+          <lb ed="#P" n="101"/>disp. 108, c. 2. At Ludovicus Stella, in Gen.,
+          <lb ed="#P" n="102"/>utramque litteralem admittit.
+        </p>
+        <p xml:id="szdada-y00933-d1e752">
+          <lb ed="#P" n="103"/>9. Probatur. — Potest autem probari primo
+          <lb ed="#P" n="104"/>destruendo fundamentum contrariae 
+          senten<lb break="no" ed="#P" n="105"/>tiae, nam etiam aer, aut ventus solet in 
+          Scrip<lb break="no" ed="#P" n="106"/>tura vocari spiritus Domini, Isa. 40: 
+          Evscca<lb break="no" ed="#P" n="107"/>tum est faemum, et aruit flos, quia spiritus 
+          Do<lb break="no" ed="#P" n="108"/>mini sufflavit in eo. Et cap. 59: Quasi flwvius
+          <lb ed="#P" n="109"/>violentus, quem spiritus Domini cogit. Ex Psal.
+          <lb ed="#P" n="110"/>147: Flavit spiritus ejus (id est, Domini) et
+          <pb ed="#P" n="40"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>luent aquae. Itaque nomen spiritus non solum
+          <lb ed="#P" n="2"/>absolute, sed etiam cum illa adjectione 
+          signi<lb break="no" ed="#P" n="3"/>ficare solet in Scriptura aerem, aut ventum.
+          <lb ed="#P" n="4"/>Dicitur autem Domini, vel quia magnus, 
+          per<lb break="no" ed="#P" n="5"/>fectus, aut vehemens, sicut dicitur mons Dei:
+          <lb ed="#P" n="6"/>vel quia a Deo factus et conservatus. Si enim
+          <lb ed="#P" n="7"/>spiritus malus, qui vexabat Saul, dicitur 
+          spiri<lb break="no" ed="#P" n="8"/>tus Dei et Domini, 1. Reg. 16, quia non sine
+          <lb ed="#P" n="9"/>speciali Dei ordinatione. aut permissione illum
+          <lb ed="#P" n="10"/>vexabat, cur non poterit aer in principio 
+          crea<lb break="no" ed="#P" n="11"/>tus a Deo, ut terram circumdaret, et suo mode
+          <lb ed="#P" n="12"/>foveret, spiritus Domini appellari ? Deinde haec
+          <lb ed="#P" n="13"/>significatio spiritus in illo loco est aptissima
+          <lb ed="#P" n="14"/>ad rem, de qua ibi agitur, narrat enim Moyses
+          <lb ed="#P" n="15"/>initia creationis mundi, et statim explicat 
+          dis<lb break="no" ed="#P" n="16"/>positionem, in qua esse coepit, et corpora, 
+          qui<lb break="no" ed="#P" n="17"/>bus statim compositus fuit, et praeter coelos
+          <lb ed="#P" n="18"/>commemorat terram et aquas, quibus 
+          tege<lb break="no" ed="#P" n="19"/>batur. additque statim spiritum circumdantem
+          <lb ed="#P" n="20"/>aquam: ergo aptissime intelligitur, nomine
+          <lb ed="#P" n="21"/>spiritus aerem significasse, qui et corpus est ad
+          <lb ed="#P" n="22"/>mundi hujus complementum, et integritatem
+          <lb ed="#P" n="23"/>necessarium, et naturaliter super aquam 
+          lo<lb break="no" ed="#P" n="24"/>cum, et situm postulat. Accedit tertio, quod
+          <lb ed="#P" n="25"/>Spiritus sanctus commemoratio nec erat tunc
+          <lb ed="#P" n="26"/>illi loco adeo necessaria, vel opportuna 
+          secun<lb break="no" ed="#P" n="27"/>dum litterae et historiae consecutionem. Nec
+          <lb ed="#P" n="28"/>potest conveniens ratio reddi, cur magis dictus
+          <lb ed="#P" n="29"/>fuerit Spiritus sanctus ferri super aquas, quam
+          <lb ed="#P" n="30"/>super terram, vel coelos, nisi valde 
+          metapho<lb break="no" ed="#P" n="31"/>rice aquas interpretando, quod a sensu 
+          litte<lb break="no" ed="#P" n="32"/>rali alienum est, ut supra ostendi. Assumptum
+          <lb ed="#P" n="33"/>probatur, tum ex usu fere omnium auctorum,
+          <lb ed="#P" n="34"/>qui illam expositionem sequuntur, qui 
+          conse<lb break="no" ed="#P" n="35"/>quenter per aquas exponunt totam materiam
+          <lb ed="#P" n="36"/>informem, vel quid simile, ut videre licet in
+          <lb ed="#P" n="37"/>Augustino, et aliis: tum etiam ratione, quia
+          <lb ed="#P" n="38"/>Spiritus sanctus non magis fovebat, et 
+          conser<lb break="no" ed="#P" n="39"/>vabat aquas, vel eis assistebat ad res alias ex
+          <lb ed="#P" n="40"/>illis producendas, quam terram conservaret :
+          <lb ed="#P" n="41"/>sive assistebat, aut suo modo coelis ut eos 
+          or<lb break="no" ed="#P" n="42"/>naret, et vim influendi, et producendi 
+          tri<lb break="no" ed="#P" n="43"/>bueret.
+        </p>
+        <p xml:id="szdada-y00933-d1e869">
+          <lb ed="#P" n="44"/>10. Discutitur significatio verbi ferebatur,
+          <lb ed="#P" n="45"/>quod contra quintam eapositionem ojici solet.
+          <lb ed="#P" n="46"/>— Tandem nihil est, quod in ilhs verbis, vel
+          <lb ed="#P" n="47"/>contextu huic interpretationi repugnet. Solum
+          <lb ed="#P" n="48"/>enim objici solet aut adjectio illa Dei, vel 
+          Do<lb break="no" ed="#P" n="49"/>mini, cui jam responsum est: aut verbum 
+          fz<lb break="no" ed="#P" n="50"/>rebatur, quod non potest cum proprietate aeri
+          <lb ed="#P" n="51"/>accommodari. Illud enim verbum proprie 
+          mo<lb break="no" ed="#P" n="52"/>tum localem significat, non potuit autem aer
+          <lb ed="#P" n="53"/>tunc jam moveri. Primo quia nulla potest 
+          as<lb break="no" ed="#P" n="54"/>signari causa talis motus. Aer enim non 
+          move<lb break="no" ed="#P" n="55"/>tur in loco proprio ab intrinseco, sed naturale
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illi est ibi quiescere: unde moveri tunc intra
+          <lb ed="#P" n="57"/>eumdem locum, praeternaturale esset, et ab
+          <lb ed="#P" n="58"/>extrinseca causa fieri deberet: nec potest alia
+          <lb ed="#P" n="59"/>excogitari nisi Deus, vel aliquis Angelus jussu
+          <lb ed="#P" n="60"/>ejus. Nam primum mobile nondum movebatur,
+          <lb ed="#P" n="61"/>ut secum aerem raperet ac moveret: 
+          praeter<lb break="no" ed="#P" n="62"/>quam quod raptus ille non transcendit primam
+          <lb ed="#P" n="63"/>regionem aeris, quod non satis esset: ut 
+          dice<lb break="no" ed="#P" n="64"/>retur aer ferri super aquas, vel super facies
+          <lb ed="#P" n="65"/>aquarum, ut alii legunt. Attribuere autem
+          <lb ed="#P" n="66"/>hunc motum ipsi Deo moventi per se, vel per
+          <lb ed="#P" n="67"/>Angelum, non videtur verisimile, quia esset
+          <lb ed="#P" n="68"/>motus praeternaturalis secundum naturam 
+          par<lb break="no" ed="#P" n="69"/>ticulavem aeris, et ad constitutionem mundi,
+          <lb ed="#P" n="70"/>seu naturae universalis erat inutilis. Prior pars
+          <lb ed="#P" n="71"/>patet, quia neque ad aquarum 
+          conservatio<lb break="no" ed="#P" n="72"/>nem, neque ad faecundationem erat utile, quia
+          <lb ed="#P" n="73"/>nulla virtus, vel qualitas in aquis per illum
+          <lb ed="#P" n="74"/>motum producta cum fundamento cogitari 
+          po<lb break="no" ed="#P" n="75"/>test, vel si aliqua esset, maxime calor, qui
+          <lb ed="#P" n="76"/>aquae potius contrarius est, quam illa 
+          conser<lb break="no" ed="#P" n="77"/>vans. Unde naturaliter aqua in suo naturali
+          <lb ed="#P" n="78"/>loco sub aere quiescente melius conservatur.
+          <lb ed="#P" n="79"/>Altera vero pars de natura universali patet,
+          <lb ed="#P" n="80"/>quia tunc nondum coeperat Deus mundum 
+          dis<lb break="no" ed="#P" n="81"/>ponere in ordine ad hominum habitationem,
+          <lb ed="#P" n="82"/>et commoditatem aliorumque mixtorum 
+          gene<lb break="no" ed="#P" n="83"/>rationem: unde augetur difficultas, quia illa
+          <lb ed="#P" n="84"/>verba, terra autem erat inanis et vacua, usque
+          <lb ed="#P" n="85"/>ad ea, quae tractamus, et spiritus Domini 
+          fere<lb break="no" ed="#P" n="86"/>batur super aquas, omnia referuntur ad illud
+          <lb ed="#P" n="87"/>principrum, et primum instans, in quo Deus
+          <lb ed="#P" n="88"/>fecit cocelum et terram. ut notavimus, in illo
+          <lb ed="#P" n="89"/>autem momento non poterat aer localiter 
+          mo<lb break="no" ed="#P" n="90"/>veri, aut ferri, ut constat: ergo non potest de
+          <lb ed="#P" n="91"/>acre proprio verificari.
+        </p>
+        <p xml:id="szdada-y00933-d1e978">
+          <lb ed="#P" n="92"/>11. Prima solutio objectionis preedicte justa
+          <lb ed="#P" n="93"/>Oleastrum et Pererium. —Imgnugnatur tamen 
+          so<lb break="no" ed="#P" n="94"/>tutio.—MHaec vero difficultas duobus modis 
+          sol<lb break="no" ed="#P" n="95"/>vitur: Prior est aerem fuisse tunc motum 
+          lo<lb break="no" ed="#P" n="96"/>caliter ex ordinatione divina, vel motu 
+          vehe<lb break="no" ed="#P" n="97"/>menti et forti: vel motu levi et suavi, juxta
+          <lb ed="#P" n="98"/>diversas rationes illius motus, quae excogitari
+          <lb ed="#P" n="99"/>possunt. Priorem modum tradit Oleaster, et
+          <lb ed="#P" n="100"/>non dissentit Pererius. Rationemque illius 
+          agi<lb break="no" ed="#P" n="101"/>tationis reddunt, quia aquae erant statim 
+          exsic<lb break="no" ed="#P" n="102"/>candae a terra, ventum, seu motum ad hoc
+          <lb ed="#P" n="103"/>fuisse immissum a Deo, ut coactis in unum
+          <lb ed="#P" n="104"/>locum aquis, terra exsiccaretur. Sed hoc 
+          vo<lb break="no" ed="#P" n="105"/>luntarium et difficile videtur: quia quod Deus
+          <lb ed="#P" n="106"/>fuerit usus ministerio venti, vel commotione
+          <lb ed="#P" n="107"/>aeris ad discooperiendam terram, et cogendas
+          <lb ed="#P" n="108"/>aquas in locum unum, Scriptura non loquitur:
+          <lb ed="#P" n="109"/>imo solo jussu Dei factum esse iilis verbis 
+          si<lb break="no" ed="#P" n="110"/>gnificat: Dixit vero Deus Congregentur aquee,
+          <pb ed="#P" n="41"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quae sub caelo sunt, in locum, et appareat arida,
+          <lb ed="#P" n="2"/>et factum est ita. Nec aeris agitatio erat 
+          ac<lb break="no" ed="#P" n="3"/>commodatum instrumentum ad hujusmodi 
+          ef<lb break="no" ed="#P" n="4"/>fectum: oportebat enim in terra ipsa concavum
+          <lb ed="#P" n="5"/>locum effticere, et quasi effodere, in quo posset
+          <lb ed="#P" n="6"/>tanta multitudo aquarum recipi, qui locus per
+          <lb ed="#P" n="7"/>aeris commotionem sine magno miraculo fieri
+          <lb ed="#P" n="8"/>non poterat: sed virtute divina et imperio
+          <lb ed="#P" n="9"/>factus est, et fortasse tam accommodate, ut
+          <lb ed="#P" n="10"/>statim aquae ex aliqua parte naturali impetu
+          <lb ed="#P" n="11"/>in illum defluerent, et consequenter alia ex
+          <lb ed="#P" n="12"/>parte appareret arida. Dicunt saltem ad 
+          exsic<lb break="no" ed="#P" n="13"/>candam terram, quae segregatis aquis lutulenta,
+          <lb ed="#P" n="14"/>et ccenosa remanserant, fuisse motum aeris 
+          ac<lb break="no" ed="#P" n="15"/>commodatum. Et afferunt exempla de 
+          tem<lb break="no" ed="#P" n="16"/>pore diluvii, et de transitu Israel per mare 
+          ru<lb break="no" ed="#P" n="17"/>brum, etc. Sed fortasse in illo principio mundi
+          <lb ed="#P" n="18"/>hoc non fuit necessarium, quia verisimile est,
+          <lb ed="#P" n="19"/>elementa aquae et terrae tunc fuisse purissima ,
+          <lb ed="#P" n="20"/>et in tali proportione, ac dispositione esse a
+          <lb ed="#P" n="21"/>Deo condita, ut unum in aliud non ageret 
+          se<lb break="no" ed="#P" n="22"/>cundum partes propinquas, neque etiam aqua
+          <lb ed="#P" n="23"/>ulira superficiem terrae penetraret, ideoque nec
+          <lb ed="#P" n="24"/>lutulentam, nec coenosam illam relinqueret.
+          <lb ed="#P" n="25"/>Ac subinde fieri potuit, ut remota omnino aqua
+          <lb ed="#P" n="26"/>per motum localem, et in locum maris projecta
+          <lb ed="#P" n="27"/>statim terra sicca, et arida apparuerit. Et quod
+          <lb ed="#P" n="28"/>caput est, etiamsi per motum aeris haec facta
+          <lb ed="#P" n="29"/>fuerint, non sunt tamen facta usque ad tertium
+          <lb ed="#P" n="30"/>diem: ad quid ergo motus ille aeris vehemens
+          <lb ed="#P" n="31"/>ante primnum diem, et ante effectionem 
+          firma<lb break="no" ed="#P" n="32"/>menti incepisset.
+        </p>
+        <p xml:id="szdada-y00933-d1e1095">
+          <lb ed="#P" n="33"/>12. Secunda aliorum solutio minime 
+          satisfa<lb break="no" ed="#P" n="34"/>ciens.—Blii ergo dicunt illum motum tenuem
+          <lb ed="#P" n="35"/>aspirationem ad modum suavis aurae fuisse, 
+          so<lb break="no" ed="#P" n="36"/>lum que a Deo excitatum esse, ut aer, qui 
+          mi<lb break="no" ed="#P" n="37"/>nus estsensibilis, seu tangibilis, quam aqua, vel
+          <lb ed="#P" n="38"/>terra, sensu esset perceptibilior. Quae ratio
+          <lb ed="#P" n="39"/>mihi non satisfacit, quia non oportebat tunc
+          <lb ed="#P" n="40"/>aerem fieri sensibilem tactui, magis quam 
+          vi<lb break="no" ed="#P" n="41"/>sul: sicut ergo erat tenebrosus, ita poterat esse
+          <lb ed="#P" n="42"/>quietus, quia nemo tunc erat, qui altero ex
+          <lb ed="#P" n="43"/>illis sensibus posset illum percipere. Unde licet
+          <lb ed="#P" n="44"/>facile credam, potuisse Deum tunc movere 
+          ae<lb break="no" ed="#P" n="45"/>rem, et hunc posteriorem modum esse magis
+          <lb ed="#P" n="46"/>plausibilem: nihilominus fateor, me nullam
+          <lb ed="#P" n="47"/>sufficientem causam, vel rationem illius motus
+          <lb ed="#P" n="48"/>invenire: sed si Deus id fecit, propter occultas
+          <lb ed="#P" n="49"/>rationes providentiae suae fecisse credendus est.
+          <lb ed="#P" n="50"/>Et illo motu admisso, consequenter dicendum
+          <lb ed="#P" n="51"/>est, ante initium primi diei, aliquod tempus
+          <lb ed="#P" n="52"/>praecessisse, in quo aer ille moveri potuerit :
+          <lb ed="#P" n="53"/>quod etiam minus mihi probatur, ut in libro
+          <lb ed="#P" n="54"/>sequenti, capite primo et secundo dicam.
+        </p>
+        <p xml:id="szdada-y00933-d1e1145">
+          <lb ed="#P" n="55"/>13. Facilior solutio seu interpretatio verti
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ferebatur.— Propriam auctoris 
+          interpretamen<lb break="no" ed="#P" n="57"/>tum. —Facilior ergo interpretatio est, licet
+          <lb ed="#P" n="58"/>verba illa de aere intelligamus, non cogi nos
+          <lb ed="#P" n="59"/>ad interpretandum verbum fertur de motu 
+          lo<lb break="no" ed="#P" n="60"/>cali, quia non semper hoc significat in 
+          com<lb break="no" ed="#P" n="61"/>muni Latinorum usu, et certe nulla ex aliis
+          <lb ed="#P" n="62"/>expositionibus de motu locali verbum illud
+          <lb ed="#P" n="63"/>interpretatur, quia nec Spiritus sanctus 
+          po<lb break="no" ed="#P" n="64"/>tuit localiter moveri, nec virtus, si qua est 
+          in<lb break="no" ed="#P" n="65"/>dita aquis, localiter mota est, aut movebat
+          <lb ed="#P" n="66"/>aquas. Ut omittam, docuisse Hieronymum,
+          <lb ed="#P" n="67"/>verbum Hebraicum illi respondens, non 
+          signi<lb break="no" ed="#P" n="68"/>ficare localiter ferri, sed fovere, vel incubare;
+          <lb ed="#P" n="69"/>unde Theodoretus, dicta q. 8, dicens: Verbum
+          <lb ed="#P" n="70"/>ferebatur, substantiam aeris mobilem indicat,
+          <lb ed="#P" n="71"/>significat, verbum illud non significare 
+          actua<lb break="no" ed="#P" n="72"/>lem motum, sed naturam aeris, quae est, ut
+          <lb ed="#P" n="73"/>circa inferiora corpora feratur et agitetur.
+          <lb ed="#P" n="74"/>Addi etiam potest Augustinum et alios juxta
+          <lb ed="#P" n="75"/>Septuaginta ihi uti verbo superferendi, unde
+          <lb ed="#P" n="76"/>optime verti posset: Spiritus Domini 
+          super<lb break="no" ed="#P" n="77"/>ferebatur aguis, verbum autem superferor non
+          <lb ed="#P" n="78"/>semper significat motum tendendi supra: sed
+          <lb ed="#P" n="79"/>naturam postulantem superiorem locum, vel
+          <lb ed="#P" n="80"/>situm rei, cui competit esse in superiori loco,
+          <lb ed="#P" n="81"/>et ita superferri aquis, vel ferri super aquas,
+          <lb ed="#P" n="82"/>nihil aliud denotat, quam quod aer esset 
+          su<lb break="no" ed="#P" n="83"/>per aquas, et circumdaret illas, quia natura
+          <lb ed="#P" n="84"/>sua hunc locum petit. in qua verbi 
+          interpre<lb break="no" ed="#P" n="85"/>tatione vel nulla est metaphora, vel si qua est,
+          <lb ed="#P" n="86"/>est tam usitata, ut tanquam propria haberi
+          <lb ed="#P" n="87"/>possit. Denique adjungo verbum in Hebraeo
+          <lb ed="#P" n="88"/>non esse mere passivum, sed activum simul,
+          <lb ed="#P" n="89"/>ita ut exponi possit ferebatur, id est, ferebat
+          <lb ed="#P" n="90"/>se, non se movendo, sed quasi portando, et
+          <lb ed="#P" n="91"/>seipsum snper aquas sustinendo: nam hoc
+          <lb ed="#P" n="92"/>etiam verbum /ero, interdum significat, et
+          <lb ed="#P" n="93"/>potuit per facilem, et notam translationem ad
+          <lb ed="#P" n="94"/>id significandum accommodari. Omnibus ergo
+          <lb ed="#P" n="95"/>pensatis, adeo verisimile est, hunc esse 
+          littera<lb break="no" ed="#P" n="96"/>lem sensum, ut non possit excludi, etiamsi
+          <lb ed="#P" n="97"/>praecedens admittendus sit, vel ut simul 
+          litte<lb break="no" ed="#P" n="98"/>ralis. vel saltem ut mysticus a Spiritu sancto
+          <lb ed="#P" n="99"/>intentus. Hoc autem satis est, ut ex illo loco
+          <lb ed="#P" n="100"/>confirmatum maneat, aerem cum coelo, et
+          <lb ed="#P" n="101"/>terra simul esse productum.
+        </p>
+        <p xml:id="szdada-y00933-d1e1252">
+          <lb ed="#P" n="102"/>14. Tertia assertio pro eadem posteriori parte
+          <lb ed="#P" n="103"/>tituli.—Unde consequenter in secundo puncto
+          <lb ed="#P" n="104"/>dicimus, probabilius nobis videri, in illis primis
+          <lb ed="#P" n="105"/>verbis: 7n principio creavit Deus celum, etc.,
+          <lb ed="#P" n="106"/>elementum aeris sub nomine coeli esse 
+          compre<lb break="no" ed="#P" n="107"/>hensum. Hujus sententiae paironum habemus
+          <lb ed="#P" n="108"/>D. Thomas, 1 p., quaest. 66, art. 1, ubi in fine
+          <lb ed="#P" n="109"/>corporis sic inquit: Cum praemisisset (Moyses)
+          <lb ed="#P" n="110"/>duas naturas creatas, scilicet celum et terram,
+          <pb ed="#P" n="42"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>informitatem caeli expressit per hoc, quod dixit,
+          <lb ed="#P" n="2"/>tenebree erant super faciem abyssi secundum
+          <lb ed="#P" n="3"/>quod sub celo aer etium includitur. Idem habet
+          <lb ed="#P" n="4"/>Strabo in glossa ordinaria hcet varie loquatur.
+          <lb ed="#P" n="5"/>Probatur autem hoc modo, quia quod aer sub 
+          il<lb break="no" ed="#P" n="6"/>lis verbisfuerit comprehensus, ex dictis constat,
+          <lb ed="#P" n="7"/>docentque Basilius, Theodoretus, multique alii
+          <lb ed="#P" n="8"/>Patres, multo autem congruentius sub nomine
+          <lb ed="#P" n="9"/>coeli, quam sub nomine terrae includi 
+          intelligi<lb break="no" ed="#P" n="10"/>tur: ergo ita intelligendum est. Consequentia
+          <lb ed="#P" n="11"/>patet, quia necesse est sub altero illorum 
+          ter<lb break="no" ed="#P" n="12"/>minorum includi, cum alius in ea oratione non
+          <lb ed="#P" n="13"/>sit. Quod si quis dicat sub neutro per se, sed
+          <lb ed="#P" n="14"/>sub utroque comprehendi, quia sub extremis
+          <lb ed="#P" n="15"/>intelliguntur media: licet hoc facile sustineri
+          <lb ed="#P" n="16"/>posset, magis tamen est confusum et 
+          implici<lb break="no" ed="#P" n="17"/>tum ; et ideo melius sub aliqua determinata
+          <lb ed="#P" n="18"/>voce comprehendi debet, si commode fieri 
+          po<lb break="no" ed="#P" n="19"/>test. Probatur ergo minor, quia cum aer sit
+          <lb ed="#P" n="20"/>valde disjunctus a terra,et immixtus illi saltem
+          <lb ed="#P" n="21"/>visibiliter, non solet communi usu aer nomine
+          <lb ed="#P" n="22"/>terrae comprehendi. At vero nomine coeli 
+          usi<lb break="no" ed="#P" n="23"/>tatissimum esse etiam in Scriptura significari
+          <lb ed="#P" n="24"/>aerem, vulgare, ac notum est, et in illomet
+          <lb ed="#P" n="25"/>cap. 1, Gen., interdum aer coelum vocatur, ut
+          <lb ed="#P" n="26"/>in sequentibus videbimus, et praeterea vox 
+          He<lb break="no" ed="#P" n="27"/>brea QW samaim, quae coelos proprie 
+          si<lb break="no" ed="#P" n="28"/>gnificat, totam hanc congeriem corporum 
+          dia<lb break="no" ed="#P" n="29"/>phanorum, quae est supra nos, comprehendit,
+          <lb ed="#P" n="30"/>et nomine celi quasi collectiva significatione,
+          <lb ed="#P" n="31"/>a vulgato interprete significata est. Ergo 
+          opti<lb break="no" ed="#P" n="32"/>ma, et propria significatione aer sub nomine
+          <lb ed="#P" n="33"/>coeli comprehenditur ; unde consequenter 
+          com<lb break="no" ed="#P" n="34"/>prehendetur etiam ignis si in sua sphaera 
+          exi<lb break="no" ed="#P" n="35"/>stit. Neque circa hoc nova difficultas occurrit :
+          <lb ed="#P" n="36"/>nam licet alii sentiant, nihil afferunt, quod 
+          no<lb break="no" ed="#P" n="37"/>vam responsionem postulet.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

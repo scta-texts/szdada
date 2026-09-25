@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 27</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 27</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="693"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y17028"><!-- t3l3c27 -->
+        <head xml:id="szdada-y17028-Hd1e101">Caput 27</head>
+        <head xml:id="szdada-y17028-Hd1e103" type="question-title">Quaenam sint organa sensuum, gustus et tactus</head>
+        <p xml:id="szdada-y17028-d1e106">
+          <lb ed="#P" n="86"/>CAPUT XXVII.
+          <lb ed="#P" n="87"/>QUAENAM SINT ORGANA SENSUUM, GUSTUS ET TACTUS.
+        </p>
+        <p xml:id="szdada-y17028-d1e113">
+          <lb ed="#P" n="88"/>1. De prima parte tituli. — De actibus 
+          ho<lb break="no" ed="#P" n="89"/>rum sensuum nihil dicendum superest, praeter
+          <lb ed="#P" n="90"/>quae in communi dicta sunt, et ideo ad organa,
+          <lb ed="#P" n="91"/>et potentias accedendum. Ac de gustu 
+          notan<lb break="no" ed="#P" n="92"/>dum, convenire philosophos, ejus organum esse
+          <lb ed="#P" n="93"/>linguam. Ita Aristoteles 1, de Historia, cap. 11
+          <lb ed="#P" n="94"/>et 15, 2, de Partibus, cap. 17, non tamen 
+          in<lb break="no" ed="#P" n="95"/>telligere exteriorem partem linguae sensorium
+          <lb ed="#P" n="96"/>esse, sed nervum interiorem, ac mollem, 
+          disper<lb break="no" ed="#P" n="97"/>sumque per interiores linguae partes, teste 
+          Ga<lb break="no" ed="#P" n="98"/>leno, libr. decimo sexto, de Usu partium, c. 3,
+          <lb ed="#P" n="99"/>ipsa vero pars exterior, utpote porosa, est 
+          in<lb break="no" ed="#P" n="100"/>star medii in hoc sensu, ut docet Aristoteles,
+          <lb ed="#P" n="101"/>libr. secundo de Anima, cap. 10 et 11. Sed de
+          <lb ed="#P" n="102"/>compositione linguae videndus Vesalius, 
+          se<lb break="no" ed="#P" n="103"/>cundo de Fabrica, capit. decimo nono, et lib.
+          <lb ed="#P" n="104"/>quarto, capit. sexto.
+        </p>
+        <p xml:id="szdada-y17028-d1e152">
+          <lb ed="#P" n="105"/>2. De secunda parte opiniones varie. —De
+          <lb ed="#P" n="106"/>organo tactus majus est dubium, quidam 
+          pu<lb break="no" ed="#P" n="107"/>tant esse in corde, alias vero partes corporis
+          <pb ed="#P" n="694"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>esse medium. Hanc tribunt Aristoteli Nyphus,
+          <lb ed="#P" n="2"/>citato loco de Anima, et Simplicius, textu 166,
+          <lb ed="#P" n="3"/>Themistius, capit. 40, et insinuat Aristoteles,
+          <lb ed="#P" n="4"/>de Sensu, cap. 2, de Juventute, cap. 2, de
+          <lb ed="#P" n="5"/>Somno, cap. 2 et 2, de Partibus, cap. 10. Haec
+          <lb ed="#P" n="6"/>tamen sententia falsa est, si velit sensum 
+          tac<lb break="no" ed="#P" n="7"/>tus in corde tantum residere, calor enim in
+          <lb ed="#P" n="8"/>manu etiam, et non semper in corde sentitur,
+          <lb ed="#P" n="9"/>nec est credibile Aristotelem id putasse, sed ut
+          <lb ed="#P" n="10"/>plurimum vigere in corde sensum tangendi.
+          <lb ed="#P" n="11"/>Alii dixerunt sensorium tactus esse nervum
+          <lb ed="#P" n="12"/>per totum corpus dispersum, qui subest carni,
+          <lb ed="#P" n="13"/>et cuti. Ita Themistius, capit. 39, Albertus,
+          <lb ed="#P" n="14"/>tract. 31 et 34, Averroes, textu 108, D. 
+          Tho<lb break="no" ed="#P" n="15"/>mas, lection. 22, /Egidius et Thienensis,
+          <lb ed="#P" n="16"/>textu 112, Aristoteles etiam, textu 116, et2
+          <lb ed="#P" n="17"/>lib., de Partibus, capit. 2, scribit carnem esse
+          <lb ed="#P" n="18"/>medium tangendi: intus tamen esse ipsum
+          <lb ed="#P" n="19"/>sensorium. Divus Thomas autem, opusculo 43,
+          <lb ed="#P" n="20"/>cap. 3, vult carnem non esse pure medium,
+          <lb ed="#P" n="21"/>sed quodammodo organum, eo quod in illa
+          <lb ed="#P" n="22"/>fiat apprehensio rei tangibilis, in nervo tamen
+          <lb ed="#P" n="23"/>integrari judicium: et fere idem ait 
+          Avi<lb break="no" ed="#P" n="24"/>cenna 6, Naturalium, part. 2, capit. 3, 
+          Alga<lb break="no" ed="#P" n="25"/>zelus, Eb. 2, tract. 3, capit. 4, dum aiunt 
+          or<lb break="no" ed="#P" n="26"/>ganum hoc non esse solam carnem, aut solum
+          <lb ed="#P" n="27"/>nervum, sed carnem nervosam. Aliter tamen
+          <lb ed="#P" n="28"/>opinatur Galenus 1, de Temperamentis, c. 10,
+          <lb ed="#P" n="29"/>et 9. de Placitis, c. 2, statuens organum tactus
+          <lb ed="#P" n="30"/>in cute, quod sit temperatior: carnem enim
+          <lb ed="#P" n="31"/>esse nimium sanguinem et calidam, nervum
+          <lb ed="#P" n="32"/>frigidum nimis, exanguem, cutem vero medio
+          <lb ed="#P" n="33"/>se habere modo. Aliorum denique opinio est
+          <lb ed="#P" n="34"/>omnes partes corporis esse sensorium tactus,
+          <lb ed="#P" n="35"/>exceptis his, quae terrestres nimium sunt, ac
+          <lb ed="#P" n="36"/>durae, ut ossa, dentes et ungues, experientia
+          <lb ed="#P" n="37"/>namque constat, si nudum os dividatur, non
+          <lb ed="#P" n="38"/>sentiri dolorem, quae enim in his partibus
+          <lb ed="#P" n="39"/>sentiri creditur, in adjacentibus revera 
+          sen<lb break="no" ed="#P" n="40"/>tiri aiunt. Hanc videtur docuisse Aristoteles
+          <lb ed="#P" n="41"/>1, de Historia, cap. 4, 2, de Partibus, cap. 1,5,
+          <lb ed="#P" n="42"/>et 8, Alexander 1, de Anima, cap. de 
+          Con<lb break="no" ed="#P" n="43"/>tactu, Philoponus, fol. 69, col. 2, Averroes 2,
+          <lb ed="#P" n="44"/>Collectanearum, c. 8, quae sententia mihi 
+          ve<lb break="no" ed="#P" n="45"/>rior videtur.
+        </p>
+        <p xml:id="szdada-y17028-d1e264">
+          <lb ed="#P" n="46"/>3. Auctoris resolutio. —Sit ergo conclusio.
+          <lb ed="#P" n="47"/>Organum tactus est ipsa caro, sub qua cutem
+          <lb ed="#P" n="48"/>complectimur. Hanc profecto tenet Galenus.
+          <lb ed="#P" n="49"/>Nam locis citatis, tantum significat in cute 
+          vi<lb break="no" ed="#P" n="50"/>gere perfectissime sensum tactus, id quod ejus
+          <lb ed="#P" n="51"/>ratio solum concludit, neque inficiatur in aliis
+          <lb ed="#P" n="52"/>etiam partibus inveniri. Tenent deinde 
+          Ferne<lb break="no" ed="#P" n="53"/>lius 5, Physiologiae, cap. 7, Portius, lib. de
+          <lb ed="#P" n="54"/>Dolore, cap. 10. Probaturque primo, quia 
+          ex<lb break="no" ed="#P" n="55"/>perimur carnem, et cutem sentire, si pungan-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tur, et in ulcere patet aperte, quod sentiat
+          <lb ed="#P" n="57"/>caro. Respondet tamen Aristoteles, cap. 11,
+          <lb ed="#P" n="58"/>tendi ibi pelliculam valde tenuem, ideoque 
+          fa<lb break="no" ed="#P" n="59"/>cile fieri sensationem per illam, quod etiam
+          <lb ed="#P" n="60"/>exempla illius confirmant: haec tamen evasio
+          <lb ed="#P" n="61"/>mera videtur fuga, atque experientia negari
+          <lb ed="#P" n="62"/>non debet, ubi ratio non urget, experimur
+          <lb ed="#P" n="63"/>vero, quod in cute, et in carne detracta cute
+          <lb ed="#P" n="64"/>sentimus. Secundo probatur. In quibusdam
+          <lb ed="#P" n="65"/>corporis partibus fit sensatio, in quibusdam
+          <lb ed="#P" n="66"/>dicti nervi non reperiuntur, neque in eis 
+          dis<lb break="no" ed="#P" n="67"/>tingui potest caro, quae sit medium, et 
+          quip<lb break="no" ed="#P" n="68"/>piam aliud, quod sit organum, ut in 
+          stoma<lb break="no" ed="#P" n="69"/>cho et venis: ergo, etc. Tertio. Organum 
+          cu<lb break="no" ed="#P" n="70"/>jusque sensus in ea parte, residet, in qua
+          <lb ed="#P" n="71"/>visitur temperamentum ei debitum, sed 
+          tem<lb break="no" ed="#P" n="72"/>peramentum optimum tangendi in cute datur,
+          <lb ed="#P" n="73"/>deinde in carne, tum in ahis partibus: ergo
+          <lb ed="#P" n="74"/>in eis residet organum tactus. Probatur minor:
+          <lb ed="#P" n="75"/>nam tactus circa qualitates primas versatur:
+          <lb ed="#P" n="76"/>unde temperamentum ejus accommodatum
+          <lb ed="#P" n="77"/>erit, inquotales qualitates magis ad 
+          aequalita<lb break="no" ed="#P" n="78"/>tem fuerint redactae, sunt autem redactae magis
+          <lb ed="#P" n="79"/>in cute, carne, etc., quam in nervis: ergo, etc.
+          <lb ed="#P" n="80"/>Quarto arguitura fine, quoniam tactus datus est
+          <lb ed="#P" n="81"/>animantibus, ut tueri possent vitam ab externis
+          <lb ed="#P" n="82"/>nocumentis: ergo oportuit diffusum esse per
+          <lb ed="#P" n="83"/>partes omnes corporis capaces illius. Nec dicas
+          <lb ed="#P" n="84"/>hoc argumento probari posse ossa quoque 
+          ha<lb break="no" ed="#P" n="85"/>bere tactum: considerandum enim est in
+          <lb ed="#P" n="86"/>membrorum generatione et compositione 
+          na<lb break="no" ed="#P" n="87"/>turam semper agere quam bene potest, attento
+          <lb ed="#P" n="88"/>scilicet modo uniuscujusque membri et fine,
+          <lb ed="#P" n="89"/>ad quem corporis partes ordinat, ossa autem
+          <lb ed="#P" n="90"/>ordinantur, ut sustineant totam corporis 
+          mo<lb break="no" ed="#P" n="91"/>lem, et ideo oportuit fuisse durissima, atque
+          <lb ed="#P" n="92"/>inepta ad sensum tactus: providit autem 
+          na<lb break="no" ed="#P" n="93"/>tura, ut partes, quae non sentiunt munirentur
+          <lb ed="#P" n="94"/>iis, quae sentiunt ad illarum bonum et 
+          tute<lb break="no" ed="#P" n="95"/>lam, unde rationabilter potest concludi cutem
+          <lb ed="#P" n="96"/>qua natura totum corpus vestivit sensum etiam
+          <lb ed="#P" n="97"/>habere, ut possit totum defendere.
+        </p>
+        <p xml:id="szdada-y17028-d1e381">
+          <lb ed="#P" n="98"/>4. Objectio triplex contra conclusionem.—Ad
+          <lb ed="#P" n="99"/>primum.— Ad secundum. — Contra 
+          conclusio<lb break="no" ed="#P" n="100"/>nem autem sunt argumenta aliarum 
+          opinio<lb break="no" ed="#P" n="101"/>num. Primum est auctoritas Aristotelis. 
+          Se<lb break="no" ed="#P" n="102"/>cundum quia multa animalia tactum habent,
+          <lb ed="#P" n="103"/>non tamen carnem, ut exanguia, de quibus
+          <lb ed="#P" n="104"/>Aristoteles 4. de Historia, cap. 1. Tertium ex
+          <lb ed="#P" n="105"/>Aristotele, quia sensibile super sensum non
+          <lb ed="#P" n="106"/>causat sensationem, sed calor super cutem, et
+          <lb ed="#P" n="107"/>carnem positus sentitur: ergo non a cute, sed
+          <lb ed="#P" n="108"/>ab interno organo fit sensatio. Ad primum
+          <lb ed="#P" n="109"/>respondetur Aristotelem mutasse sententiam,
+          <lb ed="#P" n="110"/>nam prius scripsit libros de Anima, quam de
+          <pb ed="#P" n="695"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>animantibus, ut ordo illorum docet, unde in
+          <lb ed="#P" n="2"/>posterioribus saepe citat priores. Secundum
+          <lb ed="#P" n="3"/>argumentum etiam militat contra arguentes,
+          <lb ed="#P" n="4"/>sunt enim multa animalia habentia tactum,
+          <lb ed="#P" n="5"/>quae nervum illum non habent: dicendum
+          <lb ed="#P" n="6"/>ergo cum Aristotele in ejusmodi animantibus
+          <lb ed="#P" n="7"/>aliquid proportionale carni esse organum 
+          tac<lb break="no" ed="#P" n="8"/>tus, ut palam explicatur, quod magis 
+          expri<lb break="no" ed="#P" n="9"/>mit 1, de Historia, c. 4, et 2, de Partibus, c. 1,
+          <lb ed="#P" n="10"/>Albertus 2. de Anima, inquiens additum 
+          pro<lb break="no" ed="#P" n="11"/>portionale propter animalia, quae carnem non
+          <lb ed="#P" n="12"/>habent, tum etiam propter partes alias, quae
+          <lb ed="#P" n="13"/>caro non sunt, sed carni similes, aut ei 
+          com<lb break="no" ed="#P" n="14"/>mixtae, ut dentes, quos ait sentire juxta 
+          Gale<lb break="no" ed="#P" n="15"/>num et Aristotelem, sect. 34 Problematum,
+          <lb ed="#P" n="16"/>q. 2 et 3, quod forte verum est, atque 
+          expe<lb break="no" ed="#P" n="17"/>rientiae consonum, aliunde tamen videntur
+          <lb ed="#P" n="18"/>duriores, quam ut sensum habere possint: de
+          <lb ed="#P" n="19"/>cerebro porro ait Albertus tactum nullo 
+          mo<lb break="no" ed="#P" n="20"/>do habere, Aristoteles vero 2, de Partibus,
+          <lb ed="#P" n="21"/>c. 1 et 10, habere stupidissimum. At Galenus,
+          <lb ed="#P" n="22"/>lib. de Plenitudine, c. 5, scribit cerebrum et
+          <lb ed="#P" n="23"/>spinalem medullam inter ea censeri, quae 
+          tac<lb break="no" ed="#P" n="24"/>tum obtinent, quamvis l. 3, de Causis sy 
+          mpto<lb break="no" ed="#P" n="25"/>matum, cerebrum appellet organum non 
+          sen<lb break="no" ed="#P" n="26"/>tiens, quod parum sentiat. Jam de nervis, 
+          car<lb break="no" ed="#P" n="27"/>tilagine, et similibus Aristoteles2, dePartibus,
+          <lb ed="#P" n="28"/>c. 8, indicat ea non sentire, ac similter c. 7
+          <lb ed="#P" n="29"/>et 10, de Membris exanguibus, et lib. 1, de
+          <lb ed="#P" n="30"/>Historia, c. 16, et lib. 3, c. 4, inter exanguia
+          <lb ed="#P" n="31"/>membra haec numerat: quare in hac re nihil
+          <lb ed="#P" n="32"/>potest certum esse, et ideo in conclusione
+          <lb ed="#P" n="33"/>posuimus cutem nomine carnis comprehendi,
+          <lb ed="#P" n="34"/>quia in utraque residet apertius tactus propter
+          <lb ed="#P" n="35"/>moderatum earum temperamentum: aliae
+          <lb ed="#P" n="36"/>vero partes magis, vel minus sentiurt, 
+          secun<lb break="no" ed="#P" n="37"/>dum quod magis, vel minus accedunt huic
+          <lb ed="#P" n="38"/>temperamento. Itaque solae illae carent tactu,
+          <lb ed="#P" n="39"/>quae densissimae sunt et terrestres.
+        </p>
+        <p xml:id="szdada-y17028-d1e501">
+          <lb ed="#P" n="40"/>5. Pro tertio argumento opinio fatentium
+          <lb ed="#P" n="41"/>sensilile supra sensum non sentiri. Oppositum
+          <lb ed="#P" n="42"/>verum probatur inductione per externos sensus.
+          <lb ed="#P" n="43"/>— Tertium argumentum est potissimum 
+          fun<lb break="no" ed="#P" n="44"/>damentum sententiae, quam tenuerat 
+          Aristo<lb break="no" ed="#P" n="45"/>teles, in secundo de Anima, et sequentium
+          <lb ed="#P" n="46"/>illum, putant enim esse impossibile objectum
+          <lb ed="#P" n="47"/>sensus si contiguum sit organo, sentiri, ita
+          <lb ed="#P" n="48"/>intelgentes proloquium, quod in argumento
+          <lb ed="#P" n="49"/>assumitur, ac sane ea videtur mens Aristotelis,
+          <lb ed="#P" n="50"/>textu 75, 98 et 116, ait enim inter sensum
+          <lb ed="#P" n="51"/>et objectum semper debere esse aliquod 
+          me<lb break="no" ed="#P" n="52"/>dium, ea tamen differentia, quod in visu, 
+          au<lb break="no" ed="#P" n="53"/>ditu et olfactu medium sit extrinsecum, id
+          <lb ed="#P" n="54"/>est, corpus distinctum, ut aer, vel aqua, in
+          <lb ed="#P" n="55"/>gustu autem, et tactu sit intrinsecum, nimi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rum pars aliqua animantis: sed universa, haec
+          <lb ed="#P" n="57"/>doctrina falsa videtur. Et imprimis illud, inter
+          <lb ed="#P" n="58"/>objectum et organum debere medium aliquod
+          <lb ed="#P" n="59"/>intercedere: imprimis enim contigua sibi 
+          sen<lb break="no" ed="#P" n="60"/>tit cutis ut calorem ignis, si intra illum 
+          exi<lb break="no" ed="#P" n="61"/>stat, ubi evidens est nihil mediare: in odoratu
+          <lb ed="#P" n="62"/>etiam cvaporatio odorifera subit aliquando
+          <lb ed="#P" n="63"/>usque ad cerebrum, atque adeo usque ad 
+          or<lb break="no" ed="#P" n="64"/>ganum odoratus, ut colligitur ex Aristotele,
+          <lb ed="#P" n="65"/>sectione 16, Problematum, q. 5, et de Sensu
+          <lb ed="#P" n="66"/>et sensibilhi, capit. 2 et 5, tunc vero etiam
+          <lb ed="#P" n="67"/>sentitur odor: sonus quoque vehemens prope
+          <lb ed="#P" n="68"/>aures, realiter illabitur usque ad 
+          membra<lb break="no" ed="#P" n="69"/>nam, et fortasse per poros usque ad auditum,
+          <lb ed="#P" n="70"/>et tamen percipitur. De gustu patet evidentius,
+          <lb ed="#P" n="71"/>ait siquidem Aristoteles, textu 104, ad 
+          sapo<lb break="no" ed="#P" n="72"/>rem percipiendum requiri humiditatem, ut
+          <lb ed="#P" n="73"/>gustabile humescat, et in substantiam 
+          quo<lb break="no" ed="#P" n="74"/>dammodo liquidam abeat, ut subintret poros
+          <lb ed="#P" n="75"/>linguae vapor deferens saporem, quo melius
+          <lb ed="#P" n="76"/>queant tactum immutare: ergo licet 
+          subin<lb break="no" ed="#P" n="77"/>trent ipsum organum melius immutabunt.
+          <lb ed="#P" n="78"/>Hinc humor salivae datus a natura, ut scilicet
+          <lb ed="#P" n="79"/>cibos humectet: hinc etiam caro linguae 
+          po<lb break="no" ed="#P" n="80"/>rosa est, quo sapores facile subintrent, ut
+          <lb ed="#P" n="81"/>Aristoteles ibidem ait, et 1, de Historia, c. 15,
+          <lb ed="#P" n="82"/>et 2 de Partibus, capit. 17, ac D. Thomas et
+          <lb ed="#P" n="83"/>alii, unde et ipsius linguae humectatio 
+          requi<lb break="no" ed="#P" n="84"/>ritur, qua rarior, solutiorque fiat: 
+          contraria<lb break="no" ed="#P" n="85"/>que ratione infirmi attente lingua saporem
+          <lb ed="#P" n="86"/>non percipiunt: hinc denique ciborum 
+          com<lb break="no" ed="#P" n="87"/>minutio, quod integri ad organum usque 
+          pe<lb break="no" ed="#P" n="88"/>netrare nequeant: constat ergo gustabile
+          <lb ed="#P" n="89"/>quoque melius percipi, quando realiter ad
+          <lb ed="#P" n="90"/>gustum pertingit: illud ergo proloquium 
+          fal<lb break="no" ed="#P" n="91"/>sum est, quod ratione etiam ostenditur, nam
+          <lb ed="#P" n="92"/>ad sentiendum requiritur objecti applicatio,
+          <lb ed="#P" n="93"/>ut immutet sensum per species: haec autem
+          <lb ed="#P" n="94"/>immutatio non impeditur, esto objectum 
+          con<lb break="no" ed="#P" n="95"/>tiguum sit organo, quare, etc., atque ita 
+          fre<lb break="no" ed="#P" n="96"/>quentius opinantur scriptores, insinuatque
+          <lb ed="#P" n="97"/>D. Thomas, 1 p.. quaest. 78, art. 3, ad 4, et
+          <lb ed="#P" n="98"/>in 2, dist. 2, q. 2, a. 2, ad 4 et 2, de Anima,
+          <lb ed="#P" n="99"/>lectione 14, Cajetanus ibidem, Albertus, serm.
+          <lb ed="#P" n="100"/>de Homine, tract. de tactu, q. penult., et 2, de
+          <lb ed="#P" n="101"/>Anuma, tract. 3, c. 1, Durandus, in 2, d. 13,
+          <lb ed="#P" n="102"/>q. à n. 10.
+        </p>
+        <p xml:id="szdada-y17028-d1e642">
+          <lb ed="#P" n="103"/>6. Primum corollarium. — Ex quo 
+          colligi<lb break="no" ed="#P" n="104"/>tur primo falsam quoque esse illam 
+          differen<lb break="no" ed="#P" n="105"/>tiam tactus et gustus, respectu aliorum 
+          sen<lb break="no" ed="#P" n="106"/>suum, neque enim in his duobus sensibus 
+          in<lb break="no" ed="#P" n="107"/>tercedit necessario medium intrinsecum, ut ex
+          <lb ed="#P" n="108"/>dictis liquet, nec in reliquis semper intercedit
+          <lb ed="#P" n="109"/>extrinsecum, aut ipsi tantum valent per 
+          me<lb break="no" ed="#P" n="110"/>dium extrinsecum sentire, nam tactus quoque
+          <pb ed="#P" n="696"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sentire potest calorem rei distantis, 
+          immutari<lb break="no" ed="#P" n="2"/>que per aerem, aut corpus aliud. Nec dicas
+          <lb ed="#P" n="3"/>tunc etiam medium intrinsecum immutari,
+          <lb ed="#P" n="4"/>nam quando sola cutis percipit calorem ignis,
+          <lb ed="#P" n="5"/>solum ibi est medium extrinsecum. Item 
+          ad<lb break="no" ed="#P" n="6"/>ducta differentia non salvatur, nam visus 
+          quo<lb break="no" ed="#P" n="7"/>que cum intrinseco medio simul, et extrinseco
+          <lb ed="#P" n="8"/>intuetur, gustus tamen, quoniam sapor 
+          quali<lb break="no" ed="#P" n="9"/>tas activa non est, non immutatur fortasse per
+          <lb ed="#P" n="10"/>medium extrinsecum, nisi dicamus aerem in
+          <lb ed="#P" n="11"/>poris linguae, medium extrinsecum esse: adde
+          <lb ed="#P" n="12"/>quod nec proprium sit harum duarum 
+          faculta<lb break="no" ed="#P" n="13"/>tum sentire per medium intrinsecum, id enim
+          <lb ed="#P" n="14"/>vendicat etiam auditus et visus.
+        </p>
+        <p xml:id="szdada-y17028-d1e697">
+          <lb ed="#P" n="15"/>7. Secundum corollarium. — Secundo 
+          colh<lb break="no" ed="#P" n="16"/>gitur, quam verum sit dictum proloquium, si
+          <lb ed="#P" n="17"/>namque intelligatur sensibile inhaerens organo
+          <lb ed="#P" n="18"/>sensus, ab eo non sentiri verum est, atque in
+          <lb ed="#P" n="19"/>auditu, olfactu et gustu patet, cum sensibilia
+          <lb ed="#P" n="20"/>eorum inepta sint adhaerere organo, sonus 
+          sci<lb break="no" ed="#P" n="21"/>licet tantum inest aeri, odor vero et sapor,
+          <lb ed="#P" n="22"/>quia activae qualitates non sunt, subjectum
+          <lb ed="#P" n="23"/>sibi non disponunt, sed sibi accommodatum
+          <lb ed="#P" n="24"/>supponunt, qualia non sunt odorandi, 
+          gustan<lb break="no" ed="#P" n="25"/>dique organa, tactus deinde qualitatem sui
+          <lb ed="#P" n="26"/>organi non percipit propter rationes 
+          supra<lb break="no" ed="#P" n="27"/>dictas: visus denique non percipit lumen 
+          exis<lb break="no" ed="#P" n="28"/>tens in pupilla, quia illius speciem non 
+          re<lb break="no" ed="#P" n="29"/>cipit. Et haec est universalis ratio, quia 
+          ob<lb break="no" ed="#P" n="30"/>jectum inhaerens organo non actuat sensum
+          <lb ed="#P" n="31"/>intentionaliter. Quod si proloquium velit 
+          sen<lb break="no" ed="#P" n="32"/>sibile contiguum sensui ab illo non percipi,
+          <lb ed="#P" n="33"/>in rigore verificatur solum in visu eo quod
+          <lb ed="#P" n="34"/>ad videndum requiritur objectum 
+          illumina<lb break="no" ed="#P" n="35"/>tum, non potest autem illuminari nisi per
+          <lb ed="#P" n="36"/>medium: quia si forte objectum contiguum
+          <lb ed="#P" n="37"/>visui ponatur, aut ipse laedetur, aut 
+          clauden<lb break="no" ed="#P" n="38"/>tur palpebrae: lumen tamen interni medii,
+          <lb ed="#P" n="39"/>attiguique visui fortasse conspicitur per 
+          me<lb break="no" ed="#P" n="40"/>dium medii, sicut supra diximus de lumine
+          <lb ed="#P" n="41"/>externi aeris. In aliis porro quatuor sensibpus,
+          <lb ed="#P" n="42"/>nec proloquium habet verum, nec ratione 
+          pro<lb break="no" ed="#P" n="43"/>batur. Dices, objectum debet immutare 
+          sen<lb break="no" ed="#P" n="44"/>sum per species intentionales: ergo medium
+          <lb ed="#P" n="45"/>requiritur, in quo species reddantur 
+          quodam<lb break="no" ed="#P" n="46"/>modo spirituales. Neganda tamen 
+          consequen<lb break="no" ed="#P" n="47"/>tia, species enim non fiunt intentionales ex
+          <lb ed="#P" n="48"/>medio, sed quia objectum vim habet illas 
+          pro<lb break="no" ed="#P" n="49"/>ducendi, sensusque illarum est capax.
+        </p>
+        <p xml:id="szdada-y17028-d1e775">
+          <lb ed="#P" n="50"/>8. Tertium corollarium. — Tertio colligitur
+          <lb ed="#P" n="51"/>quodnam sit medium gustus et tactus, nam
+          <lb ed="#P" n="52"/>per se loquendo, nullum est necessarium, licet
+          <lb ed="#P" n="53"/>aliquando intercedat. Respectu quidem tactus
+          <lb ed="#P" n="54"/>id omne est medium quod potest recipere 
+          pri<lb break="no" ed="#P" n="55"/>mas qualitates: alüs vero quae primae non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sunt, ut durities, etc., non quodlibet tale 
+          me<lb break="no" ed="#P" n="57"/>dium deservit, nam nec per aerem posset 
+          sen<lb break="no" ed="#P" n="58"/>tiri durities, nec item per corpus aliud nimis
+          <lb ed="#P" n="59"/>durum: nullus enim tangeret duritiem 
+          lapi<lb break="no" ed="#P" n="60"/>dis tangendo ferrum. Ita Aristoteles, textu 113,
+          <lb ed="#P" n="61"/>ubi exemplum adhibet, si clypeo tectus ense
+          <lb ed="#P" n="62"/>percutiaris: oportet ergo ut medium sit 
+          tan<lb break="no" ed="#P" n="63"/>tillum molle, non tamen fluens, ut aer, sed
+          <lb ed="#P" n="64"/>magis consistens, ut pellis, per tale enim 
+          cor<lb break="no" ed="#P" n="65"/>pus fieri potest rei durae impressio necessaria,
+          <lb ed="#P" n="66"/>ut percipiatur durities. Oppones tactum 
+          nun<lb break="no" ed="#P" n="67"/>quam posse percipere duritiem sine medio,
+          <lb ed="#P" n="68"/>cum dicat Aristoteles 2, de Anima, textu 108,
+          <lb ed="#P" n="69"/>corpora dura se immediate non tangere, 
+          tac<lb break="no" ed="#P" n="70"/>tus autem in corpore duro est: ergo non potest
+          <lb ed="#P" n="71"/>tangere durum aliud sine medio. Assumptum
+          <lb ed="#P" n="72"/>tamen est falsum, possunt enim duo corpora
+          <lb ed="#P" n="73"/>solida immediate se tangere, et maxime in
+          <lb ed="#P" n="74"/>aere, lapis enim super terram cadens eam 
+          im<lb break="no" ed="#P" n="75"/>mediate tangit cum non detineatur in acre.
+          <lb ed="#P" n="76"/>Vide Thienensem, textu 113, Apollinarem,
+          <lb ed="#P" n="77"/>quaestion. trigesima prima, articulo primo.
+          <lb ed="#P" n="78"/>Idem et in aqua patet, possunt enim duo
+          <lb ed="#P" n="79"/>corpora ita esse conjuncta sub aqua, ut nihil
+          <lb ed="#P" n="80"/>ejus interjaceat: si tamen corpus solidum sub
+          <lb ed="#P" n="81"/>aqua existat, corpus cadens (ait Aristoteles)
+          <lb ed="#P" n="82"/>illud non tangeret immediate, quod forte ita
+          <lb ed="#P" n="83"/>evenit, quia aqua, utpote fluida facile adhaeret
+          <lb ed="#P" n="84"/>corpori. De gustu fortasse verum, non posse
+          <lb ed="#P" n="85"/>percipere objectum nisi realiter conjunctum,
+          <lb ed="#P" n="86"/>eo quod sapor qualitas activa non sit, sed 
+          po<lb break="no" ed="#P" n="87"/>tius nimium materialis, ideoque diffusiva 
+          spe<lb break="no" ed="#P" n="88"/>cierum non videatur, citra materialem 
+          contac<lb break="no" ed="#P" n="89"/>tum, imo requirit ulterius quod gustabile 
+          fri<lb break="no" ed="#P" n="90"/>cetur intra os, quodque humefiat sahva.
+        </p>
+        <p xml:id="szdada-y17028-d1e870">
+          <lb ed="#P" n="91"/>9. Concluduntur gustus et tactus definitiones.
+          <lb ed="#P" n="92"/>— Quarto collige ex dictis, horum sensuum
+          <lb ed="#P" n="93"/>notiones: gustus ergo definitur qualitas 
+          per<lb break="no" ed="#P" n="94"/>ceptiva saporum residens in nervo linguae
+          <lb ed="#P" n="95"/>tanquam in proprio organo: tactus vero est
+          <lb ed="#P" n="96"/>qualitas cognoscitiva tangibilium qualitatum
+          <lb ed="#P" n="97"/>residens toto fere corpore animantis. Et haec
+          <lb ed="#P" n="98"/>de singulis sensibus exterioribus dixisse 
+          suf<lb break="no" ed="#P" n="99"/>ficiat.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

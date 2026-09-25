@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="627"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y15320"><!-- t3l3c4 -->
+        <head xml:id="szdada-y15320-Hd1e101">Caput 4</head>
+        <head xml:id="szdada-y15320-Hd1e103" type="question-title">Utrum actus cognoscendi fiat a potentia in qua recipitur simul cum specie</head>
+        <p xml:id="szdada-y15320-d1e106">
+          <pb ed="#P" n="627"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT IV.
+          <lb ed="#P" n="2"/>UTRUM ACTUS COGNOSCENDI FIAT A POTENTIA IN
+          <lb ed="#P" n="3"/>QUA RECIPITUR SIMUL CUM SPECIE.
+        </p>
+        <p xml:id="szdada-y15320-d1e119">
+          <lb ed="#P" n="4"/>1. Prima sententia negans. — Diximus de
+          <lb ed="#P" n="5"/>entitate actionis cognoscitivae, dicendum 
+          se<lb break="no" ed="#P" n="6"/>quitur de principio, a quo fit, quod etiam ex
+          <lb ed="#P" n="7"/>parte pertinet ad cognitionem ipsius potentiae.
+          <lb ed="#P" n="8"/>In hac ergo quaestione variae sunt opiniones:
+          <lb ed="#P" n="9"/>quidam dixerunt in omni virtute cognoscente
+          <lb ed="#P" n="10"/>esse distinguendas duas potentias, aliam mere
+          <lb ed="#P" n="11"/>activam actus cognoscendi, aliam receptivam
+          <lb ed="#P" n="12"/>illius, atque adeo sensum dari alium agentem
+          <lb ed="#P" n="13"/>et patientem alium, intellectumque similiter.
+          <lb ed="#P" n="14"/>Ita Jandunus, secundo de Anima, quaest. 16,
+          <lb ed="#P" n="15"/>et tractatu de Intellectu agente, qui hoc tribuit
+          <lb ed="#P" n="16"/>Commentatori, idem sensit Apollinaris, q. 11
+          <lb ed="#P" n="17"/>et 13, qui forte nituntur illo effato, quod idem
+          <lb ed="#P" n="18"/>secundum eamdem potentiam simul agere et
+          <lb ed="#P" n="19"/>recipere non valeat.
+        </p>
+        <p xml:id="szdada-y15320-d1e156">
+          <lb ed="#P" n="20"/>2. Improbatur dupliciter. — Haec opinio est
+          <lb ed="#P" n="21"/>omnino improbabilis. Primo, quoniam 
+          im<lb break="no" ed="#P" n="22"/>possibile est actionem immanentem recipi in
+          <lb ed="#P" n="23"/>una potentia, et fieri ab altera. Secundo 
+          in<lb break="no" ed="#P" n="24"/>terrogo, quaenam potentia cognoscit, an quae
+          <lb ed="#P" n="25"/>efficit actum, anne quae recipit. Non quae 
+          reci<lb break="no" ed="#P" n="26"/>pit tantum, cum cognoscere sit vitaliter 
+          ope<lb break="no" ed="#P" n="27"/>rari: si fingas Deum intra potentiam 
+          immit<lb break="no" ed="#P" n="28"/>tere entitatem actus, ipsa potentia nihil agente,
+          <lb ed="#P" n="29"/>in eocerte eventu, nihil ipsa cognoscet, cum
+          <lb ed="#P" n="30"/>primum principium in hac materia sit vitalem
+          <lb ed="#P" n="31"/>actionem intrinsece includere processum 
+          ef<lb break="no" ed="#P" n="32"/>fectivum ab agente, ideo enim vivere res 
+          di<lb break="no" ed="#P" n="33"/>citur, quae intra se habet principium actionis.
+          <lb ed="#P" n="34"/>Nec etiam cognoscit potentia, quae tantum
+          <lb ed="#P" n="35"/>agit, namque cognitio intrinsecus actus est
+          <lb ed="#P" n="36"/>potentia cognoscitivae 7 ergo impossibile est
+          <lb ed="#P" n="37"/>illam potentiam cognoscere, qua actu 
+          co<lb break="no" ed="#P" n="38"/>gnitionis non informatur: impossibile ergo
+          <lb ed="#P" n="39"/>est in cognitione agere, ac recipere, separari
+          <lb ed="#P" n="40"/>omnino, diversisque potentiis tribui.
+        </p>
+        <p xml:id="szdada-y15320-d1e205">
+          <lb ed="#P" n="41"/>3. Secunda, sententia etiam negans aliter. —
+          <lb ed="#P" n="42"/>Respuitur. — Ex his improbatur alia opinio
+          <lb ed="#P" n="43"/>asserens potentiam cognoscentem non eflicere
+          <lb ed="#P" n="44"/>actum, sed ab objecto illum recipere. Ita de
+          <lb ed="#P" n="45"/>sensibus affirmant Paulus Venetus et Nyphus
+          <lb ed="#P" n="46"/>citati, cap. praecedenti, n. 1, idemque putat
+          <lb ed="#P" n="47"/>de intellectu Godfredus, (ut refert Scotus in 1,
+          <lb ed="#P" n="48"/>distinction. 3, q. 7, S Alia est opinio), dicens 
+          in<lb break="no" ed="#P" n="49"/>tellectionem fieri ab objecto medio phantasmate
+          <lb ed="#P" n="50"/>illustrato, lumine intellectus agentis: cujus
+          <lb ed="#P" n="51"/>opinionis fundamentum idem est, ac prioris
+          <lb ed="#P" n="52"/>opinionis, et argumenta etiam contra illam
+          <lb ed="#P" n="53"/>facta hic militant, imo fortiora, quod scilicet
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>jam cognitio esset ab extrinseco, ac mera 
+          co<lb break="no" ed="#P" n="55"/>gnoscentis potentiae passio, aliundeque 
+          tran<lb break="no" ed="#P" n="56"/>siens actio: rursum objectum potius diceretur
+          <lb ed="#P" n="57"/>cognoscere. Denique cum cognitio qualitas
+          <lb ed="#P" n="58"/>perfecta sit, produci non potest ab imperfecto
+          <lb ed="#P" n="59"/>objecto, potissime intellectio, quae spiritualis
+          <lb ed="#P" n="60"/>qualitas est, phantasma autem materialis, nec
+          <lb ed="#P" n="61"/>phantasmatis illuminatio prodesse potest, ut
+          <lb ed="#P" n="62"/>pote ficta et tenebris plena, de quo infra.
+        </p>
+        <p xml:id="szdada-y15320-d1e257">
+          <lb ed="#P" n="63"/>4. Tertia sententia varie a Thomistis 
+          eapli<lb break="no" ed="#P" n="64"/>cata. — Simili fere modo improbanda est alia
+          <lb ed="#P" n="65"/>opinio statuens actum cognoscendi fieri a 
+          po<lb break="no" ed="#P" n="66"/>tentia specie informata, ita tamen ut potentia
+          <lb ed="#P" n="67"/>ex se nullam activitatem habeat, sed tota
+          <lb ed="#P" n="68"/>ratio efficiendi sit species, quemadmodum
+          <lb ed="#P" n="69"/>aquae calidae tota calefaciendi ratio est calor.
+          <lb ed="#P" n="70"/>Hanc opinionem sic expositam tribuit Scotus
+          <lb ed="#P" n="71"/>S. Thomae, quam certe indicat, 1. p., q. 56,
+          <lb ed="#P" n="72"/>art. 1, et q. 79, a. 3, ad primum, et q. 85,
+          <lb ed="#P" n="73"/>a. 2, ad tertium, et aliis locis, fuitque opinio
+          <lb ed="#P" n="74"/>Alberti, Summa de homine, de potentiis 
+          sen<lb break="no" ed="#P" n="75"/>suum, quamvis specialiter de sensibus 
+          loqua<lb break="no" ed="#P" n="76"/>tur. Accedit Thienensis 2, de Anima, text. 72,
+          <lb ed="#P" n="77"/>et Javelus, q. 22, quantum ad sensus attinet,
+          <lb ed="#P" n="78"/>quamvis l. 3, aliter sentiat de intellectu. 
+          Eam<lb break="no" ed="#P" n="79"/>dem fere opinionem habet Cajetanus, 1 part.,
+          <lb ed="#P" n="80"/>q. 14, a. 1, q. 19, a.2, q. 87, a. 1, quamvis 
+          ali<lb break="no" ed="#P" n="81"/>ter rem explicet, dicens cognoscentem 
+          poten<lb break="no" ed="#P" n="82"/>tiam per speciem fieri ipsum cognoscibile,
+          <lb ed="#P" n="83"/>atque ita factam elicere actum, ac licet tota
+          <lb ed="#P" n="84"/>ratio agendi sit ab specie, tribui. nihilominus
+          <lb ed="#P" n="85"/>potentiae, quatenus facta est ipsum 
+          cogno<lb break="no" ed="#P" n="86"/>scibile.
+        </p>
+        <p xml:id="szdada-y15320-d1e312">
+          <lb ed="#P" n="87"/>5. Impugnatur. — Contra hanc opinionem
+          <lb ed="#P" n="88"/>utcumque expositam procedunt argumenta
+          <lb ed="#P" n="89"/>facta contra praecedentes, cum fateatur etiam
+          <lb ed="#P" n="90"/>potentiam non habere ex se activitatem ad
+          <lb ed="#P" n="91"/>actum cognoscendi: non ergo actus ille 
+          pro<lb break="no" ed="#P" n="92"/>cedet a principio intrinseco activo, sed tantum
+          <lb ed="#P" n="93"/>ab extrinseco, quod est species: sic enim 
+          ca<lb break="no" ed="#P" n="94"/>lefactio ab aqua non procedit active tanquam
+          <lb ed="#P" n="95"/>a principio intrinseco ; est autem hoc contra
+          <lb ed="#P" n="96"/>rationem actus vitalis: ergo, etc. Et 
+          confir<lb break="no" ed="#P" n="97"/>matur: nam si potentia cognoscens non 
+          con<lb break="no" ed="#P" n="98"/>currit active: ergo neque anima concurret,
+          <lb ed="#P" n="99"/>quia non nisi cum potentiis operatur: non est
+          <lb ed="#P" n="100"/>ergo anima principium cognoscendi, quod est
+          <lb ed="#P" n="101"/>evidenter falsum, et contra Aristotelem, lib.
+          <lb ed="#P" n="102"/>2. cap. 2. Confirmatur praeterea: nam si sola
+          <lb ed="#P" n="103"/>species esset tota ratio agendi, naturaliter 
+          age<lb break="no" ed="#P" n="104"/>ret, ac adeo ea posita in potentia naturaliter
+          <lb ed="#P" n="105"/>sequeretur actio. Consequens est contra 
+          expe<lb break="no" ed="#P" n="106"/>rientiam, quia hcet recipiatur in oculis 
+          spe<lb break="no" ed="#P" n="107"/>cies, non continuo sequitur visio, si non detur
+          <lb ed="#P" n="108"/>attentio. Unde saepe diversi homines easdem
+          <pb ed="#P" n="628"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>species recipientes in potentiis aeque 
+          disposi<lb break="no" ed="#P" n="2"/>tis, non aeque vident, eo quod non aeque 
+          atten<lb break="no" ed="#P" n="3"/>dunt, atque in homine uno diversis 
+          tempori<lb break="no" ed="#P" n="4"/>bus idem experimur: causa nimirum est, quia
+          <lb ed="#P" n="5"/>non a sola specie provenit activitas, sed 
+          maxi<lb break="no" ed="#P" n="6"/>me ab anima et potentia, ac de interioribus
+          <lb ed="#P" n="7"/>sunt argumenta clarissima. Imaginatio enim
+          <lb ed="#P" n="8"/>plures species simul, cum tamen nunc hoc,
+          <lb ed="#P" n="9"/>nunc illud imaginetur, nunc montem autem
+          <lb ed="#P" n="10"/>aureum, postea chimaeram componat. 
+          Intel<lb break="no" ed="#P" n="11"/>lectus etiam tam varie operatur, ut intelligi
+          <lb ed="#P" n="12"/>nequeat, quomodo id praestet per activitatem
+          <lb ed="#P" n="13"/>specierum absque ulla sui activitate. Praeterea
+          <lb ed="#P" n="14"/>si potentia per speciem agit tanquam per 
+          acci<lb break="no" ed="#P" n="15"/>dens sibi inhaerens, instar aquae per calorem
+          <lb ed="#P" n="16"/>agentis, plane talis potentia de se cognoscitiva
+          <lb ed="#P" n="17"/>non erit, sed ab extrinseca specie id 
+          vindica<lb break="no" ed="#P" n="18"/>bit: sicque non per se intellectus intelligit,
+          <lb ed="#P" n="19"/>sed per accidens: sicut aquam dicimus per se
+          <lb ed="#P" n="20"/>non calefacere, sed per accidens, quod tamen
+          <lb ed="#P" n="21"/>falsum per se, et incredibile apparet. Porro
+          <lb ed="#P" n="22"/>Cajctani expositio fingens illam unionem 
+          fal<lb break="no" ed="#P" n="23"/>sum supponit, et supra est improbatum inc. 2,
+          <lb ed="#P" n="24"/>ac dato, quod aliquo modo posset intelligi 
+          co<lb break="no" ed="#P" n="25"/>gnoscentem potentiam fieri suum cognoscibile,
+          <lb ed="#P" n="26"/>fieret sane verius per actum cognitionis, per
+          <lb ed="#P" n="27"/>quem dum objectum cognoscitur, intime 
+          quo<lb break="no" ed="#P" n="28"/>dammodo potentiae imbibitur. Ea ergo ita 
+          red<lb break="no" ed="#P" n="29"/>dita ipsum cognoscibile potest melius, ac 
+          ve<lb break="no" ed="#P" n="30"/>rius esse principium cognitionis.
+        </p>
+        <p xml:id="szdada-y15320-d1e432">
+          <lb ed="#P" n="31"/>6. Quarta sententia Scoti.— Primwm 
+          argu<lb break="no" ed="#P" n="32"/>mentum. — Confirmatur. — Secundum 
+          argu<lb break="no" ed="#P" n="33"/>mentum. — Tertium argumentum. — His ergo
+          <lb ed="#P" n="34"/>rejectis opinionibus, est quarta alia Scoti in
+          <lb ed="#P" n="35"/>prima distinctione tertia, quaestione septima,
+          <lb ed="#P" n="36"/>dicentis actus cognoscendi eflici a potentia 
+          si<lb break="no" ed="#P" n="37"/>mul, et specie tanquam a duabus causis 
+          par<lb break="no" ed="#P" n="38"/>tialibus integrantibus unum principium 
+          acti<lb break="no" ed="#P" n="39"/>vum, quae probatur primo. Nam species 
+          in<lb break="no" ed="#P" n="40"/>tentionalis necessaria est, ut supra ostendimus:
+          <lb ed="#P" n="41"/>ergo habet efficientiam circa actum 
+          cognoscen<lb break="no" ed="#P" n="42"/>di, alias frustra necessaria diceretur potentia.
+          <lb ed="#P" n="43"/>Deinde etiam habet efficientiam, ut argumenta
+          <lb ed="#P" n="44"/>facta probant: ergo, etc. Minor patet ex dictis
+          <lb ed="#P" n="45"/>ac major ex eo suadetur, quia non potest usus
+          <lb ed="#P" n="46"/>alius speciei assignari. Dicetur fortasse requiri
+          <lb ed="#P" n="47"/>speciem ad determinandam potentiam ad 
+          co<lb break="no" ed="#P" n="48"/>gnitionem objecti: recte quidem, ea tamen
+          <lb ed="#P" n="49"/>determinatio cooperatio est speciei cum 
+          poten<lb break="no" ed="#P" n="50"/>tia. Et confirmatur, quia si solus visus efhicit
+          <lb ed="#P" n="51"/>visionem praesente visibih, poterit sane illam
+          <lb ed="#P" n="52"/>efficere sine specie. Secundo arguitur: forma
+          <lb ed="#P" n="53"/>constituens rem in actu primo concurrit cum
+          <lb ed="#P" n="54"/>illa ad productionem actus secundi: sed 
+          spe<lb break="no" ed="#P" n="55"/>cies constituit potentiam in actu primo ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cognoscendum: ergo cum illa efficit 
+          cognitio<lb break="no" ed="#P" n="57"/>nem. Tertio: in patria essentia divina, quae
+          <lb ed="#P" n="58"/>est tanquam species intelligibilis, concurrit
+          <lb ed="#P" n="59"/>simul cum potentia ad visionem: ergo species
+          <lb ed="#P" n="60"/>creata ita concurrit.
+        </p>
+        <p xml:id="szdada-y15320-d1e502">
+          <lb ed="#P" n="61"/>7. Quinta sententia. — Suadetur primo. —
+          <lb ed="#P" n="62"/>Suadetur secundo.—2RS uadetur tertio. — Quinta
+          <lb ed="#P" n="63"/>opinio asserit speciem nihil efficere, sed 
+          po<lb break="no" ed="#P" n="64"/>tentiam habere totam activitatem respectu 
+          ac<lb break="no" ed="#P" n="65"/>Uonis.. Ita Henricus, quodlibet quarto, 
+          quaes<lb break="no" ed="#P" n="66"/>tione septima, ac de intellectu idem credit
+          <lb ed="#P" n="67"/>Javelus, libro tertio, de Anima. Suadetur 
+          pri<lb break="no" ed="#P" n="68"/>mo, quia actus cognoscendi perfectior est,
+          <lb ed="#P" n="69"/>quam species: non potest ergo species 
+          effec<lb break="no" ed="#P" n="70"/>üve ad illud concurrere, quod potissime urget
+          <lb ed="#P" n="71"/>in sensibus exterioribus, in quibus species 
+          im<lb break="no" ed="#P" n="72"/>perfectissimae sunt, cum producantur a 
+          mate<lb break="no" ed="#P" n="73"/>rialibus objectis. Secundo actus cognoscendi
+          <lb ed="#P" n="74"/>est vitalis: ergo tantum procedit a principio
+          <lb ed="#P" n="75"/>intrinseco viventis, quale non est species, cum
+          <lb ed="#P" n="76"/>ab externo objecto imprimatur: ergo, etc.
+          <lb ed="#P" n="77"/>Tertio potentiae animae vegetativae solae 
+          effi<lb break="no" ed="#P" n="78"/>ciunt actiones suas, neque indigent juvamine
+          <lb ed="#P" n="79"/>objectorum: a fortiori ergo id sortientur 
+          po<lb break="no" ed="#P" n="80"/>tentiae cognoscitivae, utpote perfectiores.
+        </p>
+        <p xml:id="szdada-y15320-d1e548">
+          <lb ed="#P" n="81"/>8. Sexta sententia qua etium improbatur.—
+          <lb ed="#P" n="82"/>Ultima sententia distinguit apprehensionem a
+          <lb ed="#P" n="83"/>judicio, statuitque apprehensionem fieri ab
+          <lb ed="#P" n="84"/>specie, judicium vero a potentia. Ita /Egidius,
+          <lb ed="#P" n="85"/>libro octavo, quaestione secunda, insinuatque
+          <lb ed="#P" n="86"/>D. Thomas, quodlibet octavo, quaestione 
+          se<lb break="no" ed="#P" n="87"/>cunda. Sed facile refellitur opinio. Nam vel
+          <lb ed="#P" n="88"/>per apprehensionem intelligit actum 
+          cogno<lb break="no" ed="#P" n="89"/>scendi, vel tantum speciei apprehensionem:
+          <lb ed="#P" n="90"/>hoc secundum ad rem non est, si autem 
+          intel<lb break="no" ed="#P" n="91"/>ligat primum, impossibile sane est potentiam
+          <lb ed="#P" n="92"/>respectu illius actus habere se mere passive,
+          <lb ed="#P" n="93"/>ut jam probavimus, praeterquam quod talis 
+          ap<lb break="no" ed="#P" n="94"/>prehensio non est semper actus a judicio 
+          dis<lb break="no" ed="#P" n="95"/>tinctus, ut infra videbimus: quare, et caetera.
+        </p>
+        <p xml:id="szdada-y15320-d1e584">
+          <lb ed="#P" n="96"/>9. Prima assertio.—Prima objectio. — 
+          Se<lb break="no" ed="#P" n="97"/>cunda objectio. — In hac ergo controversia sit
+          <lb ed="#P" n="98"/>prima conclusio. Potentia cognoscens habet.
+          <lb ed="#P" n="99"/>propriam et immediatam activitatem circa 
+          ac<lb break="no" ed="#P" n="100"/>tum suum. Hanc probant argumenta facta
+          <lb ed="#P" n="101"/>contra tres opiniones priores, et est communis
+          <lb ed="#P" n="102"/>divi Thomae et Scoti, et auctorum utriusque
+          <lb ed="#P" n="103"/>Scholae, et aperta sententia Aristotelis, libro
+          <lb ed="#P" n="104"/>secundo, de Anima, capite secundo, dum ait
+          <lb ed="#P" n="105"/>animmam esse principium intelligendi et 
+          sen<lb break="no" ed="#P" n="106"/>tiendi, sicut et vegetandi non immediate, sed
+          <lb ed="#P" n="107"/>per potentias suas, et caetera. Videtur tamen
+          <lb ed="#P" n="108"/>idem Aristoteles, libro tertio, textu quinto, 
+          ei<lb break="no" ed="#P" n="109"/>dem conclusioni repugnare, vocat siquidem
+          <lb ed="#P" n="110"/>intellectum puram potentiam, ac subdit, nul-
+          <pb ed="#P" n="629"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lam aliam esse illius naturam, quam quod 
+          pos<lb break="no" ed="#P" n="2"/>sibilis est. Ilemque est modus loquendi divi
+          <lb ed="#P" n="3"/>Thomae saepe, prima parte, quaestione 
+          octogesi<lb break="no" ed="#P" n="4"/>ma septima, articulo primo. Si ergo pura 
+          po<lb break="no" ed="#P" n="5"/>tentia est, nullam profecto activitatem habet,
+          <lb ed="#P" n="6"/>atque eadem ratio est de quavis potentia 
+          co<lb break="no" ed="#P" n="7"/>gnoscitiva. Praeterea arguitur, quoniam si 
+          po<lb break="no" ed="#P" n="8"/>tentia esset principium activum operationis,
+          <lb ed="#P" n="9"/>ipsa invariata, non variaretur actio: nunc
+          <lb ed="#P" n="10"/>autem eadem potentia meliorem actum elicit,
+          <lb ed="#P" n="11"/>solum propter extrinsecum DEI auxilium, aut
+          <lb ed="#P" n="12"/>propter meliorem speciem, ut unus beatus 
+          cla<lb break="no" ed="#P" n="13"/>rius videt DEUM, quam alius, qui meliorem
+          <lb ed="#P" n="14"/>intellectum naturalem habeat, eo tantum quod
+          <lb ed="#P" n="15"/>a DEO magis juvatur, quod signum est 
+          poten<lb break="no" ed="#P" n="16"/>tiam non efficere cognitionem, sed illam 
+          ali<lb break="no" ed="#P" n="17"/>unde recipere.
+        </p>
+        <p xml:id="szdada-y15320-d1e660">
+          <lb ed="#P" n="18"/>10. Ad primam objectionem.—3Ad secundam
+          <lb ed="#P" n="19"/>objectionem. — Lib. 2. de Attribut., c. 21.—Ad
+          <lb ed="#P" n="20"/>Aristotelem dicendum primo Philoponum sic
+          <lb ed="#P" n="21"/>legere, sed fieri non potest, ut alia sit ejus 
+          na<lb break="no" ed="#P" n="22"/>tura, quam luec, quae dicta est, scilicet quod sit
+          <lb ed="#P" n="23"/>separatus a corpore. Perionius ita vertit: E
+          <lb ed="#P" n="24"/>quo efficitur mullum ejus esse naturam, nisi
+          <lb ed="#P" n="25"/>eam, quee vim intelligendi habere dicitur. 
+          Sim<lb break="no" ed="#P" n="26"/>plicius denique vertit aliter: attamen 
+          Argy<lb break="no" ed="#P" n="27"/>ropili versio est, quam adduximus, et Graeca
+          <lb ed="#P" n="28"/>littera consonat textui consequenti, qui ita
+          <lb ed="#P" n="29"/>habet: 7s igitur intellectus, qui animus 
+          nun<lb break="no" ed="#P" n="30"/>cupatur, nihil actu eorum est prorsus, que
+          <lb ed="#P" n="31"/>sunt antequam intelligat ipse. Respondetur 
+          er<lb break="no" ed="#P" n="32"/>go Aristotelem tantum significare intellectum,
+          <lb ed="#P" n="33"/>eo quod non habet ex se species intelligibiles,
+          <lb ed="#P" n="34"/>dici puram potentiam non simphliciter, sed in
+          <lb ed="#P" n="35"/>genere intelligibilium, idque importare verba
+          <lb ed="#P" n="36"/>ila, nihil est actu eorum, quae intelligit, et
+          <lb ed="#P" n="37"/>quod infra subdit intellectivam partem esse
+          <lb ed="#P" n="38"/>locum formarum non actu, sed potentia: non
+          <lb ed="#P" n="39"/>negat igitur activitatem potentiae: idemque
+          <lb ed="#P" n="40"/>est sensus D. Thomae. Alterum argumentum,
+          <lb ed="#P" n="41"/>ut plurimum probat potentias has dependere
+          <lb ed="#P" n="42"/>in agendo a multis conditionibus, ratione 
+          qua<lb break="no" ed="#P" n="43"/>rum melior prodeat operatio, unde melior
+          <lb ed="#P" n="44"/>species, vel majus auxilium plurimum 
+          condu<lb break="no" ed="#P" n="45"/>cit ad meliorem actum ; specialiter vero de 
+          ac<lb break="no" ed="#P" n="46"/>tibus supernaturalibus dicimus, licet 
+          concur<lb break="no" ed="#P" n="47"/>rant effective ad illos beati, sed tamen gerere
+          <lb ed="#P" n="48"/>ut instrumenta DET, ex se autem non habere
+          <lb ed="#P" n="49"/>connaturalem activitatem circa tales actiones,
+          <lb ed="#P" n="50"/>quare in eis inservit potissime virtus 
+          princi<lb break="no" ed="#P" n="51"/>palis causae, qui Deus est, ut entis 
+          instrumen<lb break="no" ed="#P" n="52"/>to, quantum vult, unde theologi plerique, qui
+          <lb ed="#P" n="53"/>rectius sentiunt, aiunt majorem perfectionem
+          <lb ed="#P" n="54"/>naturalis intellectus ad supernaturalem Dei 
+          vi<lb break="no" ed="#P" n="55"/>sionem non conducere, sed majus auxilium.
+        </p>
+        <p xml:id="szdada-y15320-d1e745">
+          <lb ed="#P" n="56"/>11. Ad impugnatarum opinionum commune
+          <lb ed="#P" n="57"/>fundamentum. — Vide disp. A8, Metaphysicee,
+          <lb ed="#P" n="58"/>sect. 1, a n. 45. —d commune fundamentum
+          <lb ed="#P" n="59"/>illarum opinionum negantium activitatem 
+          po<lb break="no" ed="#P" n="60"/>tentiis cognoscentibus, ne idem esset agens et
+          <lb ed="#P" n="61"/>patiens, respondetur communiter, potentiam
+          <lb ed="#P" n="62"/>solam recipere, at informatam specie efficere,
+          <lb ed="#P" n="63"/>sicque distingui agens a patiente. Alii dicunt
+          <lb ed="#P" n="64"/>actum recipi in potentia informata specie,
+          <lb ed="#P" n="65"/>esseque rationem recipiendi illum: quidquid
+          <lb ed="#P" n="66"/>tamen de his sit; maxima illa ex octavo 
+          Phy<lb break="no" ed="#P" n="67"/>sicorum in actibus saltem immanentibus non
+          <lb ed="#P" n="68"/>habet locum, ut eo loco diximus.
+        </p>
+        <p xml:id="szdada-y15320-d1e776">
+          <lb ed="#P" n="69"/>12. Secunda assertio probatur. — 
+          Aristo<lb break="no" ed="#P" n="70"/>Leles exponitur. — Secunda conclusio. Non
+          <lb ed="#P" n="71"/>tantum potentia, sed etiam species habet 
+          ali<lb break="no" ed="#P" n="72"/>quam activitatem circa actum cognoscendi.
+          <lb ed="#P" n="73"/>Hanc probant argumenta pro Scoto in numero
+          <lb ed="#P" n="74"/>sexto. Et praeterea argumentor. Nam cognitio
+          <lb ed="#P" n="75"/>fit per intentionalem assimilationem 
+          cogno<lb break="no" ed="#P" n="76"/>scentis ad rem cognitam, unde quod perfecte
+          <lb ed="#P" n="77"/>volumus cognoscere, conamur illius 
+          similitu<lb break="no" ed="#P" n="78"/>dinem, quam possumus perfectam intra nos
+          <lb ed="#P" n="79"/>formari: ipsa ergo actualis cognitio quaedam,
+          <lb ed="#P" n="80"/>est actualis assimilatio: oportet ergo, ut 
+          po<lb break="no" ed="#P" n="81"/>tentia cognoscens habeat formam, quae sit 
+          ac<lb break="no" ed="#P" n="82"/>tivum principium assimilandi: hujusmodi 
+          au<lb break="no" ed="#P" n="83"/>tem aliud non est, quam species: ergo, et
+          <lb ed="#P" n="84"/>caetera. Atque hoc insinuat Aristoteles, libro
+          <lb ed="#P" n="85"/>secundo de Anima, textu sexagesimo, ubi 
+          sen<lb break="no" ed="#P" n="86"/>sibilia sensationum activa esse affirmat, per
+          <lb ed="#P" n="87"/>vicarias utique species. Nec obstat, quod in
+          <lb ed="#P" n="88"/>capite tertio, ait sensum ex se esse in actu
+          <lb ed="#P" n="89"/>primo, quasi specie non indigeat, ut in actum
+          <lb ed="#P" n="90"/>secundum, seu sensationem prosiliat. 
+          Com<lb break="no" ed="#P" n="91"/>parat enim illic Aristoteles sensum cum 
+          intel<lb break="no" ed="#P" n="92"/>lectu, ac de eorum actuatione per habitum,
+          <lb ed="#P" n="93"/>aitque sensum non indigere habitibus, sicut
+          <lb ed="#P" n="94"/>intellectum, cum sit potentia omnino 
+          determi<lb break="no" ed="#P" n="95"/>nata: vel certe comparat sensum informatum
+          <lb ed="#P" n="96"/>per speciem, et intellectum per habitum;
+          <lb ed="#P" n="97"/>unde cum ait primam mutationem sensitivi
+          <lb ed="#P" n="98"/>fieri a generante, per generans intelligit 
+          ob<lb break="no" ed="#P" n="99"/>jectum imprimens speciem, nam subdit ea,
+          <lb ed="#P" n="100"/>quae actu sensum efficiunt, esse exterius, ut
+          <lb ed="#P" n="101"/>visibile, etc.
+        </p>
+        <p xml:id="szdada-y15320-d1e850">
+          <lb ed="#P" n="102"/>13. Tertia assertio. — Unde sit probanda.
+          <lb ed="#P" n="103"/>— Tertia conclusio. Principium integrum 
+          pro<lb break="no" ed="#P" n="104"/>ductivum actus est potentia informata specie.
+          <lb ed="#P" n="105"/>Haec est sententia Aristotelis, locis citatis, et
+          <lb ed="#P" n="106"/>nono Metaphysicae, capite nono. Divus 
+          Augus<lb break="no" ed="#P" n="107"/>tinus etiam, nono de Trinitate, capite ultimo.
+          <lb ed="#P" n="108"/>Liquido lenendum, ait, rem, quam cognoscimus,
+          <lb ed="#P" n="109"/>generare in nobis notiliam sui, quod ab wtroque,
+          <lb ed="#P" n="110"/>ab objecto sciiicet, et potentia, notitia paria-
+          <pb ed="#P" n="630"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tur. Et undecimo, de Trinitate, capite secundo.
+          <lb ed="#P" n="2"/>Ha re visibili, inquit, fit visio, non tamen ea
+          <lb ed="#P" n="3"/>sola, nisi adsit visus, ea vidente enim, et 
+          visi<lb break="no" ed="#P" n="4"/>bili fit visio. Idem docet D. Thomas, prima
+          <lb ed="#P" n="5"/>parte, quaestione decimaquarta, articulo 
+          se<lb break="no" ed="#P" n="6"/>cundo, et quaestione quinquagesima quarta,
+          <lb ed="#P" n="7"/>articulo secundo, et 2, 2, quaestione trigesima
+          <lb ed="#P" n="8"/>prima, articulo quinto, et primo contra 
+          Gen<lb break="no" ed="#P" n="9"/>tes, capite vigesimo, et libro secundo, capite
+          <lb ed="#P" n="10"/>primo, et quodlibet octavo, quaestione tertia,
+          <lb ed="#P" n="11"/>art. 3, neque aliud intendit Scotus citatus, in
+          <lb ed="#P" n="12"/>num. 6. Probationes vero sumendae sunt ex
+          <lb ed="#P" n="13"/>prima et secunda conclusione.
+        </p>
+        <p xml:id="szdada-y15320-d1e905">
+          <lb ed="#P" n="14"/>14. Ad primum argumentum in num. 1. —
+          <lb ed="#P" n="15"/>Ad secundum .—Ad tertium argumentum.— Ad
+          <lb ed="#P" n="16"/>primum pro quinta sententia communis 
+          solu<lb break="no" ed="#P" n="17"/>tio est, licet species sit ignobilior, attamen ut
+          <lb ed="#P" n="18"/>instrumentum potentiae attingere posse 
+          nobi<lb break="no" ed="#P" n="19"/>liorem actum. Haec vero solutio ut jacet non
+          <lb ed="#P" n="20"/>consonat supradictis. Aliter ergo respondetur,
+          <lb ed="#P" n="21"/>negando actum cognoscendi esse perfectiorem
+          <lb ed="#P" n="22"/>qualitatem, quod non facile posset improbari,
+          <lb ed="#P" n="23"/>etsi id ergo minus probem, quia ille actus 
+          vita<lb break="no" ed="#P" n="24"/>lis est, et a perfectiori potentia elicitus,
+          <lb ed="#P" n="25"/>habetque optimum effectum formalem, qui
+          <lb ed="#P" n="26"/>est cognoscere. Quare ad argumentum dicito
+          <lb ed="#P" n="27"/>imperfectum non posse attingere 
+          productio<lb break="no" ed="#P" n="28"/>nem perfecti tanquam totale principium 
+          im<lb break="no" ed="#P" n="29"/>mediatum, ac principale naturaliter loquendo,
+          <lb ed="#P" n="30"/>posse tamen attingere, ut partialiter complens
+          <lb ed="#P" n="31"/>immediatum instrumentum, atque attingendo
+          <lb ed="#P" n="32"/>in effectu aliquid non perfectius se. Quam 
+          so<lb break="no" ed="#P" n="33"/>lutionem sic explico: nam potentia cognoscens
+          <lb ed="#P" n="34"/>specie informata integrum instrumentum est,
+          <lb ed="#P" n="35"/>per quod anima operatur, species autem 
+          in<lb break="no" ed="#P" n="36"/>strumentum non est potentiae, non enim haec
+          <lb ed="#P" n="37"/>ita specie utitur, ut sola ipsa species eliciat
+          <lb ed="#P" n="38"/>immediate actum cognoscendi, ut optime 
+          pro<lb break="no" ed="#P" n="39"/>bat argumentum primum pro Henrico, sed ex
+          <lb ed="#P" n="40"/>potentia, et specie constat integrum 
+          instru<lb break="no" ed="#P" n="41"/>mentum, quod immediate elicit actum. In quo
+          <lb ed="#P" n="42"/>duo etiam considerant nonnulli, et 
+          substan<lb break="no" ed="#P" n="43"/>tiam et repraesentationem: illamque sortiri a
+          <lb ed="#P" n="44"/>potentia, hanc vero ab specie, ac proinde 
+          sin<lb break="no" ed="#P" n="45"/>gula singulis tribuendo, imperfectiorem 
+          de<lb break="no" ed="#P" n="46"/>prehendi actum, quam ipsius principia. Haec
+          <lb ed="#P" n="47"/>tamen consideratio necessaria non est, ut
+          <lb ed="#P" n="48"/>constat, quam vera autem sit, ex cap.2,a
+          <lb ed="#P" n="49"/>num. 22, intelligi potest. Ad secundum 
+          res<lb break="no" ed="#P" n="50"/>pondetur saepe animam in operando uti 
+          instru<lb break="no" ed="#P" n="51"/>mentis extrinsecis, adjunctis proprus, ut 
+          cala<lb break="no" ed="#P" n="52"/>mo ad scribendum, quod magis necessarium
+          <lb ed="#P" n="53"/>fuit in potentiis cognoscentibus, quam in aliis
+          <lb ed="#P" n="54"/>propter modum operandi per assimilationem,
+          <lb ed="#P" n="55"/>per quod etiam patet solutio tertii.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="139"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y03482"><!-- t2l2c7 -->
+        <head xml:id="szdada-y03482-Hd1e101">Caput 7</head>
+        <head xml:id="szdada-y03482-Hd1e103" type="question-title">Quomodo herba virens, et caetera vegetabilia hoc die fuerint producta</head>
+        <p xml:id="szdada-y03482-d1e106">
+          <lb ed="#P" n="89"/>CAPUT VII.
+          <lb ed="#P" n="90"/>QUOMODO HERBA VIRENS, ET CAETERA VEGETABILIA
+          <lb ed="#P" n="91"/>HOC DIE FUERINT PRODUCTA.
+        </p>
+        <p xml:id="szdada-y03482-d1e115">
+          <lb ed="#P" n="92"/>1. Prima et pracipua quastio tacta a D.
+          <lb ed="#P" n="93"/>Thoma. — Quid respondeat Augustinus.—HEjus
+          <lb ed="#P" n="94"/>probatio prima.—Probatio secunda. — Tertia.
+          <lb ed="#P" n="95"/>—Hoc est aliud hujus diei tertii opus, quod
+          <lb ed="#P" n="96"/>his verbis Gen. 1, discribitur, VFidit Deus,
+          <lb ed="#P" n="97"/>quod esset bomnn, et ait, Germinet terra herbam
+          <lb ed="#P" n="98"/>virentem, etc. Circa quae verba, et totam 
+          hu<lb break="no" ed="#P" n="99"/>jus partis narrationem nulla fere occurrit nova
+          <lb ed="#P" n="100"/>quaestio gravis: et ideo per brevia dubia rem
+          <lb ed="#P" n="101"/>totam expediemus. Praecipua enim difficultas
+          <lb ed="#P" n="102"/>hic est, quam attingit D. Thomas, 1 p.. q. 69,
+          <lb ed="#P" n="103"/>a. 2, an haec productio plantarum hoc die
+          <lb ed="#P" n="104"/>facta intelligenda sit de productione ipsarum
+          <lb ed="#P" n="105"/>in proprio esse actuali, et formali (ut sic
+          <lb ed="#P" n="106"/>rem explicem) vel de productione tantum in
+          <lb ed="#P" n="107"/>semine, et in potentia. Nam divus 
+          Augusti<lb break="no" ed="#P" n="108"/>nus, lib. 5 Genes. ad lit., cap. 4 et 5. et lib. 8,
+          <pb ed="#P" n="140"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>c. 3, posteriorem partem tradit, dicens terram
+          <lb ed="#P" n="2"/>in hoc die accepisse virtutem germinandi 
+          om<lb break="no" ed="#P" n="3"/>nia vegetabilia quasi concepto omnium 
+          illo<lb break="no" ed="#P" n="4"/>rum semine, non tamen statim vegetabilia
+          <lb ed="#P" n="5"/>omnia produxisse. Quod primo suadet verbis
+          <lb ed="#P" n="6"/>illis capitis secundi. 72 die, quo fecit Deus 
+          cae<lb break="no" ed="#P" n="7"/>lum et terram, et omne virgultum agri, 
+          prius<lb break="no" ed="#P" n="8"/>quam germinaret. Quomodo enim potuerunt
+          <lb ed="#P" n="9"/>virgulta fieri, antequam terra germinaret, nisi
+          <lb ed="#P" n="10"/>quia causalhter prius, et quasi in radice, seu
+          <lb ed="#P" n="11"/>in semine facta sunt, et postea in actu 
+          pro<lb break="no" ed="#P" n="12"/>ducta ? Secundo confirmari potest, quia 
+          ver<lb break="no" ed="#P" n="13"/>bum illud germinet terra, optime exponitur
+          <lb ed="#P" n="14"/>potestative ut sic dicam, id est, accipiat terra
+          <lb ed="#P" n="15"/>vim germinandi. Sicut in eodem capite 
+          dici<lb break="no" ed="#P" n="16"/>tur: Crescite, et multiplicamini. Tertio potest
+          <lb ed="#P" n="17"/>confirmari, quia actualis productio 
+          vegetabi<lb break="no" ed="#P" n="18"/>lium non tam ad opus creationis, quam ad
+          <lb ed="#P" n="19"/>opus propagationis pertinet, quod postea 
+          fac<lb break="no" ed="#P" n="20"/>tum est, et hanc sententiam sequitur 
+          Euche<lb break="no" ed="#P" n="21"/>rius, l. 1, Gen., c. 11, illi favent Glossa interh.,
+          <lb ed="#P" n="22"/>Hugo et Lyranus verbum germinet dicto 
+          mo<lb break="no" ed="#P" n="23"/>do exponunt.
+        </p>
+        <p xml:id="szdada-y03482-d1e209">
+          <lb ed="#P" n="24"/>2. Communis et verior aliorum Pautrum 
+          res<lb break="no" ed="#P" n="25"/>ponsio. — Nihilominus contraria sententia 
+          te<lb break="no" ed="#P" n="26"/>nenda est, scilicet, produxisse Deum hoc die
+          <lb ed="#P" n="27"/>herbam, arbores, et alia vegetahilia actu in
+          <lb ed="#P" n="28"/>propria specie et natura. Haec est communis
+          <lb ed="#P" n="29"/>sententia Patrum, Basilii, homil. 5, Exaem.,
+          <lb ed="#P" n="30"/>Ambrosii, lib. 3, Exaem., cap. S, 11 et 106,
+          <lb ed="#P" n="31"/>Chrysostomi, hom. 5, in Gen., Damasceni,
+          <lb ed="#P" n="32"/>lib. 2, de Fide, cap. 10, Theodoreti, Cyrilli,
+          <lb ed="#P" n="33"/>Bedae, Glossae ordinariae, et aliorum, in Gen.
+          <lb ed="#P" n="34"/>Et idem sentit divus Thomas supra, solvens
+          <lb ed="#P" n="35"/>argumenta Augustini, quamvis propter 
+          reve<lb break="no" ed="#P" n="36"/>rentiam ejus quasi problematicae semper 
+          pro<lb break="no" ed="#P" n="37"/>cedat. Denique idem sentiunt omnes, qui in
+          <lb ed="#P" n="38"/>his operibus veram successionem, et 
+          tempora<lb break="no" ed="#P" n="39"/>lem distinctionem agnoscant. Nam Augustinus
+          <lb ed="#P" n="40"/>in eam sententiam inductus est, quia omnia
+          <lb ed="#P" n="41"/>istorum dierum opera in eodem puncto 
+          crea<lb break="no" ed="#P" n="42"/>tionis simul credidit fuisse facta, alioqui vero
+          <lb ed="#P" n="43"/>inter primam creationem et actualem 
+          mixto<lb break="no" ed="#P" n="44"/>rum productionem temporis successionem 
+          in<lb break="no" ed="#P" n="45"/>tercessisse negare non potuit: et ideo in hoc
+          <lb ed="#P" n="46"/>die tantum in virtute, et in semine plantas
+          <lb ed="#P" n="47"/>fuisse productas dicere compulsus est. 
+          Qua<lb break="no" ed="#P" n="48"/>propter, ablato priori fundamento, et posita
+          <lb ed="#P" n="49"/>in his diebus vera ac temporali successione ,
+          <lb ed="#P" n="50"/>ut alii Patres tradiderunt, et nos defendimus,
+          <lb ed="#P" n="51"/>illa expositio Augustini necessaria non est.
+          <lb ed="#P" n="52"/>Et praeterea si discursus ille solidus est, idem
+          <lb ed="#P" n="53"/>dicendum esset de productione piscium, et
+          <lb ed="#P" n="54"/>volatilium in quinto die, et aliorum 
+          anima<lb break="no" ed="#P" n="55"/>lium in die sexto, quia omnia haec animantia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sunt mixta, et ideo in seipsis non fuerunt facta
+          <lb ed="#P" n="57"/>in primo instanti: ergo necessarium erit 
+          di<lb break="no" ed="#P" n="58"/>cere in illis quinto et sexto diebus solum in
+          <lb ed="#P" n="59"/>virtute, seu in semine esse facta. Hoc autem
+          <lb ed="#P" n="60"/>nullo modo dici potest. Primo, quia manifeste
+          <lb ed="#P" n="61"/>repugnat verbis Scripturae, nam primo dicit:
+          <lb ed="#P" n="62"/>Creuvitque Deus cete grandia, et omnem 
+          ani<lb break="no" ed="#P" n="63"/>mam viventem et omne volatile, etc. Quae 
+          ver<lb break="no" ed="#P" n="64"/>ba per se sunt satis expressa, evidentius tamen
+          <lb ed="#P" n="65"/>declarantur, quia statim rebus sic productis,
+          <lb ed="#P" n="66"/>benedimit Deus, dicens, Crescite, et 
+          multiplica<lb break="no" ed="#P" n="67"/>mini. Quae verba manifeste supponunt fuisse
+          <lb ed="#P" n="68"/>jam producta animalia, quae possent sibi 
+          si<lb break="no" ed="#P" n="69"/>milia generare. Et eodem modo induci 
+          pos<lb break="no" ed="#P" n="70"/>sunt verba sextae diei, in quibus 
+          evidentissi<lb break="no" ed="#P" n="71"/>mum est, quod dicitur,et creavit Deus hominem.
+          <lb ed="#P" n="72"/>Accedit praeterea specialis ratio in animalibus,
+          <lb ed="#P" n="73"/>quia non possunt in semine produci, quia 
+          se<lb break="no" ed="#P" n="74"/>men debet esse decisum ab ipso animah, 
+          ne<lb break="no" ed="#P" n="75"/>que naturaliter potest extra ipsum animal 
+          con<lb break="no" ed="#P" n="76"/>servari, aut operationem suam efficere, et
+          <lb ed="#P" n="77"/>ideo necessarium fuit, species singulas eorum
+          <lb ed="#P" n="78"/>immediate ab auctore naturae in aliquo, vel
+          <lb ed="#P" n="79"/>aliquibus individuis primo fier.
+        </p>
+        <p xml:id="szdada-y03482-d1e336">
+          <lb ed="#P" n="80"/>3. Praecedens discursus applicatur ad 
+          vegeta<lb break="no" ed="#P" n="81"/>lilia. — Hinc ergo eamdem argumentandi 
+          ra<lb break="no" ed="#P" n="82"/>tionem ad plantas convertimus. Primo quidem,
+          <lb ed="#P" n="83"/>quia non solum dictum est, germinet terra,
+          <lb ed="#P" n="84"/>sed etiam additum est, et factum est ita.
+          <lb ed="#P" n="85"/>Quid autem fuerit factum declaratur, cum
+          <lb ed="#P" n="86"/>subditur: Et protulit terra herbam virentem,
+          <lb ed="#P" n="87"/>et facientem semen juxta genus suum, 
+          lignum<lb break="no" ed="#P" n="88"/>que faciens fructum, et habens unumquodque
+          <lb ed="#P" n="89"/>semen secundum speciem suam. Ubi imprimis
+          <lb ed="#P" n="90"/>non video, quomodo possit verbum illud, 
+          pro<lb break="no" ed="#P" n="91"/>tulit terra, de productione in semine verificari.
+          <lb ed="#P" n="92"/>Quia terra si prius habuit semen, quam 
+          plan<lb break="no" ed="#P" n="93"/>tam, non protulit ipsa semen, sed potius a Deo
+          <lb ed="#P" n="94"/>recepit ; ergo si protuht herbam, ut Scriptura
+          <lb ed="#P" n="95"/>dicit, oportet, quod herbam in actu, non in 
+          se<lb break="no" ed="#P" n="96"/>mine, seu virtute produxerit. Accedit, quod
+          <lb ed="#P" n="97"/>Sriptura statim declarat, qualis illa herba 
+          fue<lb break="no" ed="#P" n="98"/>rit, scilicet, berba virens, et faciens semen, et 
+          li<lb break="no" ed="#P" n="99"/>gnuum faciens fructum, et habens sementem, ubi
+          <lb ed="#P" n="100"/>distinguendo herbam et lignum a semente,
+          <lb ed="#P" n="101"/>manifeste declaratur, non produxisse terram
+          <lb ed="#P" n="102"/>herbam in semine, vel lignum in semente, sed
+          <lb ed="#P" n="103"/>potius produxisse herbam, vel lignum: a 
+          qui<lb break="no" ed="#P" n="104"/>bus semina similium rerum procedunt. 
+          Prae<lb break="no" ed="#P" n="105"/>terea altera ratio de animalibus facta potest de
+          <lb ed="#P" n="106"/>plantis, seu vegetabilius cum proportione fieri:
+          <lb ed="#P" n="107"/>nam haec etiam non fiunt sine proprio semine,
+          <lb ed="#P" n="108"/>praesertim illa, quae perfectiora sunt: imo in
+          <lb ed="#P" n="109"/>aliquibus frugibus terrae fructus, et semen idem
+          <lb ed="#P" n="110"/>sunt; ergo non potuerunt prius in semine,
+          <pb ed="#P" n="141"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quam in fructu fieri, ut in tritico, et similibus
+          <lb ed="#P" n="2"/>videre licet. Ergo illa non potuerunt fieri in
+          <lb ed="#P" n="3"/>primo instanti creationis in virtute, seu in 
+          se<lb break="no" ed="#P" n="4"/>mine magis quam in actu, cum utroque modo
+          <lb ed="#P" n="5"/>sint ejusdem naturae. Ergo facta sunt hoc 
+          ter<lb break="no" ed="#P" n="6"/>tio die, non ut semina, sed ut fructus, vel 
+          sal<lb break="no" ed="#P" n="7"/>tem in herba, sicut ad htteram narrantur
+          <lb ed="#P" n="8"/>facta. In lignis autem, seu arboribus, licet 
+          se<lb break="no" ed="#P" n="9"/>men soleat a fructu distingui: etiam ipsum 
+          se<lb break="no" ed="#P" n="10"/>men est quoddam mixtum quod non magis
+          <lb ed="#P" n="11"/>potuit in principio creari, quam caetera mixta:
+          <lb ed="#P" n="12"/>post instans autem creationis potius dicendum
+          <lb ed="#P" n="13"/>est, talia semina facta esse ex ipsis lignis, et
+          <lb ed="#P" n="14"/>arboribus, ut Scriptura sonat, quam e 
+          conver<lb break="no" ed="#P" n="15"/>so. Quod si fortasse quis dicat, per virtutem
+          <lb ed="#P" n="16"/>illam seu potentiam non intelligere 
+          Augusti<lb break="no" ed="#P" n="17"/>num hujusmodi semina plantarum, sed aliam
+          <lb ed="#P" n="18"/>peculiarem virtutem terrae ad germinandum
+          <lb ed="#P" n="19"/>inditam: hoc eadem facilitate, qua dictum
+          <lb ed="#P" n="20"/>fuerit, rejiciendum est, quia neque in 
+          Scriptu<lb break="no" ed="#P" n="21"/>ra habet fundamentum, neque ipse Augustinus
+          <lb ed="#P" n="22"/>hoc declarat, neque secundum naturas rerum
+          <lb ed="#P" n="23"/>explicari potest, qualis illa virtus sit: opera
+          <lb ed="#P" n="24"/>autem miraculosa, vel extraordinaria absque
+          <lb ed="#P" n="25"/>necessitate, vel sufficienti testimonio audienda
+          <lb ed="#P" n="26"/>non sunt; et hoc magis respondendo ad 
+          argu<lb break="no" ed="#P" n="27"/>menta prioris sententiae confirmabitur.
+        </p>
+        <p xml:id="szdada-y03482-d1e469">
+          <lb ed="#P" n="28"/>4. Ad primam probationem in n. 1. — Ad 
+          se<lb break="no" ed="#P" n="29"/>cundam. — Ad tertiam. — Primum 
+          testimo<lb break="no" ed="#P" n="30"/>nium ex Gen. 2, in superioribus explicatum
+          <lb ed="#P" n="31"/>est. Non enim dicitur Deus fecisse omne 
+          vir<lb break="no" ed="#P" n="32"/>gultum agri antequam oriretur in terra, vel
+          <lb ed="#P" n="33"/>produxisse herbam antequam terra 
+          germina<lb break="no" ed="#P" n="34"/>ret, quia fecit illa in virtute, priusquam in
+          <lb ed="#P" n="35"/>actu: sed quia ipse solus illa produxit quasi
+          <lb ed="#P" n="36"/>per modum primae creationis, priusquam 
+          na<lb break="no" ed="#P" n="37"/>turali, et ordinario modo possent ab ipsa terra
+          <lb ed="#P" n="38"/>produci. Quam expositionem ex contextu ipso,
+          <lb ed="#P" n="39"/>et verbis sequentibus confirmavimus, et illam
+          <lb ed="#P" n="40"/>tradit D. Thomas, estque communis, et satis
+          <lb ed="#P" n="41"/>plana. Ad secundum ex verbo germinet terra,
+          <lb ed="#P" n="42"/>respondetur imprimis, si verbum illud solum,
+          <lb ed="#P" n="43"/>et sine majori declaratione fuisset positum,
+          <lb ed="#P" n="44"/>tolerabilem futuram fuisse expositionem illam:
+          <lb ed="#P" n="45"/>tamen ex verbis adjunctis manifeste constare
+          <lb ed="#P" n="46"/>Deum non tantum dedisse terrae virtutem 
+          ger<lb break="no" ed="#P" n="47"/>minandi, sed etiam illam statim germinare
+          <lb ed="#P" n="48"/>fecisse, vel ipsum virtute sua herbam et 
+          plan<lb break="no" ed="#P" n="49"/>tas in ea produxisse. Unde addi etiam potest
+          <lb ed="#P" n="50"/>dedisse quidem Deum terrae in hac die virtutem
+          <lb ed="#P" n="51"/>germinandi in perpetuum per continuam 
+          ge<lb break="no" ed="#P" n="52"/>nerationum successionem, et in hoc etiam
+          <lb ed="#P" n="53"/>verbo germninet significatum fuisse ; 
+          nihilomi<lb break="no" ed="#P" n="54"/>nus tamen hanc virtutem datam esse terrae,
+          <lb ed="#P" n="55"/>producendo in illa primas plantas, arbores,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>etc., a quibus semina procederent, quibus 
+          pos<lb break="no" ed="#P" n="57"/>tea posset terra foecunda fieri ad similia 
+          ger<lb break="no" ed="#P" n="58"/>minandum. Quod etiam in ipsis verbis indicari
+          <lb ed="#P" n="59"/>videtur, cum explicatur, producisse terram
+          <lb ed="#P" n="60"/>herbam facientem semen, et ligmum habens 
+          se<lb break="no" ed="#P" n="61"/>mentem, unumquodgue secundum speciem suam.
+          <lb ed="#P" n="62"/>Ad tertium respondet optime D. Thomas, opus
+          <lb ed="#P" n="63"/>hoc, prout in hoc die factum est, non ad opus
+          <lb ed="#P" n="64"/>propagationis pertinuisse, quia non est ex
+          <lb ed="#P" n="65"/>praejacto semine ordinario generationis modo
+          <lb ed="#P" n="66"/>factum, sed ad primam constitutionem 
+          uni<lb break="no" ed="#P" n="67"/>versi, quatenus ab auctore totius naturae non
+          <lb ed="#P" n="68"/>solum quoad corpora simplicia, sed etiam
+          <lb ed="#P" n="69"/>quoad mixta praecipua (ut ita dicam) in 
+          uni<lb break="no" ed="#P" n="70"/>verso per se intenta, immediate productum
+          <lb ed="#P" n="71"/>est. Et specialiter pertinuit ad opus ornatus
+          <lb ed="#P" n="72"/>respectu terrae, nam cum in principio inanis
+          <lb ed="#P" n="73"/>esset et vacua, atque etiam invisibilis et 
+          oper<lb break="no" ed="#P" n="74"/>ta aquis, remotione aquarum visibilis facta
+          <lb ed="#P" n="75"/>est, salrem quoad remotionem impedimenti ;
+          <lb ed="#P" n="76"/>ne autem esset vacua et inanis, herbis et 
+          ar<lb break="no" ed="#P" n="77"/>boribus statim ornata est. Atque hoc 
+          confir<lb break="no" ed="#P" n="78"/>mari potest, ex cap. 2 Genesis, ubi dicitur
+          <lb ed="#P" n="79"/>quod in his sex diebus perfecti sunt caeli, et
+          <lb ed="#P" n="80"/>omnis ornatus eorum. Nemo autem negare
+          <lb ed="#P" n="81"/>potest, quin plantae et herbae actu productae,
+          <lb ed="#P" n="82"/>et radicatae in terra ad magnum ejus ornatum
+          <lb ed="#P" n="83"/>pertineant, quem sola semina, aut potentia
+          <lb ed="#P" n="84"/>producendi illa non conferunt.
+        </p>
+        <p xml:id="szdada-y03482-d1e597">
+          <lb ed="#P" n="85"/>5. Cur Deus post segregationem aquarum
+          <lb ed="#P" n="86"/>statim produat vegetabilia. — Et hinc obiter
+          <lb ed="#P" n="87"/>colligitur ratio, ob quam Deus in hac ipsa die,
+          <lb ed="#P" n="88"/>post congregationem, seu segregationem 
+          aqua<lb break="no" ed="#P" n="89"/>rum statim plantas produxit, nimirum, ut 
+          ter<lb break="no" ed="#P" n="90"/>ram, ne turpis (ut sic dicam) seu incomposita
+          <lb ed="#P" n="91"/>appareret, statim herbis, ac floribus vestiret.
+          <lb ed="#P" n="92"/>Accedit, quod si Deus statim vegetabilia non
+          <lb ed="#P" n="93"/>produceret, etiamsi illorum seminibus terram
+          <lb ed="#P" n="94"/>repleret, non potuisset, nisi longo tempore
+          <lb ed="#P" n="95"/>plantarum productio, praesertim arborum et
+          <lb ed="#P" n="96"/>fructuum fieri: non decebat autem terram,
+          <lb ed="#P" n="97"/>quae de se informe quoddam elementum est :
+          <lb ed="#P" n="98"/>multo tempore in ea dispositione manere.
+          <lb ed="#P" n="99"/>Aliunde vero, qui paulo post Deus animalia
+          <lb ed="#P" n="100"/>terrestria producturus erat, cibum etiam illis
+          <lb ed="#P" n="101"/>praeparare voluit, et ideo oportune statim in
+          <lb ed="#P" n="102"/>hoc die herbam, et caeteras plantas, seu 
+          arbo<lb break="no" ed="#P" n="103"/>res produxit.
+        </p>
+        <p xml:id="szdada-y03482-d1e641">
+          <lb ed="#P" n="104"/>6. Secunda questio in hoc ipso capite. —
+          <lb ed="#P" n="105"/>Hugubini responsio refellitur. — Secundo 
+          au<lb break="no" ed="#P" n="106"/>tem quaeri hoc loco solet, an solus Deus sua
+          <lb ed="#P" n="107"/>virtute hoc opus fecerit, vel mediante aliqua
+          <lb ed="#P" n="108"/>causa secunda. Ubi non est dubium de 
+          mate<lb break="no" ed="#P" n="109"/>riali causa, nam certum est, ex terra haec
+          <lb ed="#P" n="110"/>omnia produxisse, ac subinde in genere causae
+          <pb ed="#P" n="142"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>materialis terram, seu ejus materiam 
+          concur<lb break="no" ed="#P" n="2"/>risse, quod ad minimum verba Scripturae 
+          sta<lb break="no" ed="#P" n="3"/>tim tractanda convincunt. Propria ergo 
+          in<lb break="no" ed="#P" n="4"/>terrogatio est de causa efficiente. Et quidem
+          <lb ed="#P" n="5"/>de Angelis pro certo supponitur in hoc opere
+          <lb ed="#P" n="6"/>nullam efficientiam, etiam remotam habuisse,
+          <lb ed="#P" n="7"/>quia ad hunc effectum nullus praevius motus
+          <lb ed="#P" n="8"/>localis necessarius erat, quem solum Angeli
+          <lb ed="#P" n="9"/>possunt efficere. De corporalibus item causis
+          <lb ed="#P" n="10"/>manifestum est, non potuisse ad illud opus 
+          ef<lb break="no" ed="#P" n="11"/>fective concurrere virtute naturali, quia subito
+          <lb ed="#P" n="12"/>factum est, et per universam terram. Solus
+          <lb ed="#P" n="13"/>Eugubinus in Cosmopaeia finxit Deum in 
+          pri<lb break="no" ed="#P" n="14"/>mis duobus diebus, simul cum priori actione
+          <lb ed="#P" n="15"/>hujus tertii diei, ita elementum terrae 
+          praepa<lb break="no" ed="#P" n="16"/>rasse, ut naturaliter secuta fuerit haec 
+          plan<lb break="no" ed="#P" n="17"/>tarum productio, utique virtute Solis, et 
+          alia<lb break="no" ed="#P" n="18"/>rum causarumuniversalium. Verumtamen haec
+          <lb ed="#P" n="19"/>sententia non solum est omnibus Patribus et
+          <lb ed="#P" n="20"/>theologis contraria, sed etiam est per se 
+          incre<lb break="no" ed="#P" n="21"/>dibilis, et prorsus voluntaria, quia in terra
+          <lb ed="#P" n="22"/>nulla praeparatio praecedere potuit, antequam
+          <lb ed="#P" n="23"/>remotis aquis appareret: nam licet fortasse
+          <lb ed="#P" n="24"/>aliquantulum humefacta relinqui, illa non erat
+          <lb ed="#P" n="25"/>dispositio sufficiens, nec sol, etiamsi in terra
+          <lb ed="#P" n="26"/>dispositio praecederet, posset virtute naturali
+          <lb ed="#P" n="27"/>subito, seu brevissimo tempore talem, ac 
+          tan<lb break="no" ed="#P" n="28"/>tam plantarum productionem effticere.
+        </p>
+        <p xml:id="szdada-y03482-d1e724">
+          <lb ed="#P" n="29"/>7. Cajetani et Burgensis responsio et 
+          fun<lb break="no" ed="#P" n="30"/>damentum. — Verior responsio. — Ad 
+          funda<lb break="no" ed="#P" n="31"/>mentum Cajetani et Burgensis.—DbDe sola ergo
+          <lb ed="#P" n="32"/>terra est aliqua controversia. Nam Cajetanus
+          <lb ed="#P" n="33"/>et Burgensis affirmant terram fuisse 
+          proxi<lb break="no" ed="#P" n="34"/>mam causam eflticientem hujus operis: 
+          fun<lb break="no" ed="#P" n="35"/>dantur in verbis Genesis: Protulit terra herbam
+          <lb ed="#P" n="36"/>virentem, etc., nam verbum protulit 
+          efficien<lb break="no" ed="#P" n="37"/>tiam significat ; nihilominus contraria 
+          senten<lb break="no" ed="#P" n="38"/>tia est magis recepta, quod solus Deus tanquam
+          <lb ed="#P" n="39"/>principale, proximum, ac totale principium
+          <lb ed="#P" n="40"/>efficiens ex terra tanquam ex materiali causa
+          <lb ed="#P" n="41"/>plantas produxerit. Haec sententia sumitur ex
+          <lb ed="#P" n="42"/>Basilio, Ambrosio, Chrysostomo, in Genes., ubi
+          <lb ed="#P" n="43"/>etiam Lyranus, Abulensis, Pereira, Ascanius,
+          <lb ed="#P" n="44"/>et alii illam defendunt, et favet D Thomas,
+          <lb ed="#P" n="45"/>1 p.. q. 71, art. unic., ad 1, ubi de animalibus
+          <lb ed="#P" n="46"/>loquitur, videtur autem esse eadem ratio de
+          <lb ed="#P" n="47"/>vegetabilibus, et haec sententia est magis 
+          phi<lb break="no" ed="#P" n="48"/>losophica, et rationi conformis, cui magis 
+          in<lb break="no" ed="#P" n="49"/>haerendum est, quando Scriptura non cogit.
+          <lb ed="#P" n="50"/>Ratio autem est. quia credendum non est 
+          ter<lb break="no" ed="#P" n="51"/>ram fuisse supernaturaliter elevatam ad 
+          effti<lb break="no" ed="#P" n="52"/>ciendum per modum divini instrumenti, quia
+          <lb ed="#P" n="53"/>(ut saepe diximus) haec opera miraculosa et 
+          su<lb break="no" ed="#P" n="54"/>pernaturalia non sunt per se ad primam 
+          na<lb break="no" ed="#P" n="55"/>turae institutionem accommodata: etideo sine
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>revelatione fingenda non sunt. Neque etiam
+          <lb ed="#P" n="57"/>potuit terra natural virtute dictam 
+          efficien<lb break="no" ed="#P" n="58"/>tiam habere, quia neque ipsa per se habet 
+          hu<lb break="no" ed="#P" n="59"/>jusmodi virtutem naturalem, neque etiam 
+          ha<lb break="no" ed="#P" n="60"/>bebat semina rerum, in quibus haec virtus esse
+          <lb ed="#P" n="61"/>solet. Praeterquam quod, licet illa haberet,
+          <lb ed="#P" n="62"/>etiam ipsa semina non possent tam brevi 
+          tem<lb break="no" ed="#P" n="63"/>pore, et quasi in momento hujusmodi eftfectus
+          <lb ed="#P" n="64"/>naturaliter producere. Praeterea possumus in
+          <lb ed="#P" n="65"/>hoc modo philosophicam rationem efficere,
+          <lb ed="#P" n="66"/>quia illa pars terrae, ex qua unaquaeque planta
+          <lb ed="#P" n="67"/>generata est, non poterat effective concurrere
+          <lb ed="#P" n="68"/>ad illius productionem, quia ex illa secuta
+          <lb ed="#P" n="69"/>est ejusdem terrae productio, et non poterat
+          <lb ed="#P" n="70"/>ipsamet suam corruptionem efficere. Neque
+          <lb ed="#P" n="71"/>etiam una pars tefrae potuit ex alia parte 
+          ejus<lb break="no" ed="#P" n="72"/>dem terrae plantam producere, cum essent 
+          si<lb break="no" ed="#P" n="73"/>miles non tantum in forma substantiali, sed
+          <lb ed="#P" n="74"/>etiam in dispositionibus. Solus ergo Deus 
+          auc<lb break="no" ed="#P" n="75"/>tor illius operis fuit tanquam naturae auctor
+          <lb ed="#P" n="76"/>et institutor. Neque obstant citata verba 
+          Ge<lb break="no" ed="#P" n="77"/>nesis 1, nam explicanda sunt per alia 
+          capi<lb break="no" ed="#P" n="78"/>tis 2: Fecit Dominus caelum et terram, et omne
+          <lb ed="#P" n="79"/>virgultum agri, etc., et clarius infra: 
+          Pro<lb break="no" ed="#P" n="80"/>ducitque Dominus Deus de humo omne lignum,
+          <lb ed="#P" n="81"/>etc.; ergocum prius dictum est, germinet terra
+          <lb ed="#P" n="82"/>vel protulit terra, in suo genere intelligendum
+          <lb ed="#P" n="83"/>est, et specialiter significatum est, DEUM 
+          pro<lb break="no" ed="#P" n="84"/>duxisse plantas non ex nihilo, sed ex ipsa terra,
+          <lb ed="#P" n="85"/>sicut etiam nunc dicitur producereterra, 
+          quam<lb break="no" ed="#P" n="86"/>vis ipsa non faciat, sed semen, quod est in
+          <lb ed="#P" n="87"/>ipsa, vel etiam Sol, et aliae similes causae.
+        </p>
+        <p xml:id="szdada-y03482-d1e857">
+          <lb ed="#P" n="88"/>8. Tertia questio. — Que species vegetabiles
+          <lb ed="#P" n="89"/>sint productee hac die tertia.—Quot earum 
+          indi<lb break="no" ed="#P" n="90"/>vidua, et quibus in regionibus, incertum. —
+          Ter<lb break="no" ed="#P" n="91"/>tia quastiuncula est, in quanta varietate, seu
+          <lb ed="#P" n="92"/>specierum multitudine fuerint vegetabilia 
+          si<lb break="no" ed="#P" n="93"/>mul hoc die producta. In qua dubitatione 
+          om<lb break="no" ed="#P" n="94"/>nes conveniunt, tunc fuisse productas omnes
+          <lb ed="#P" n="95"/>species arborum, segetum et olerum 
+          perfecto<lb break="no" ed="#P" n="96"/>rum, quae et ad perfectionem universi, et ad
+          <lb ed="#P" n="97"/>usum hominum, vel etiam ad cibum 
+          jumento<lb break="no" ed="#P" n="98"/>rum necessaria sunt. Nam ista ab auctore 
+          na<lb break="no" ed="#P" n="99"/>turae per se intenta fuerunt, et ad dictos fines
+          <lb ed="#P" n="100"/>ordinata. Item quia non fiunt, nisi per 
+          propa<lb break="no" ed="#P" n="101"/>gationem et seminationem: nec semima eorum
+          <lb ed="#P" n="102"/>possunt naturaliter decidi, nisi ab ahquibus
+          <lb ed="#P" n="103"/>individuis. talium specierum: et ideo oportuit
+          <lb ed="#P" n="104"/>omnes species primo produci in aliquo, vel
+          <lb ed="#P" n="105"/>aliquibus individuis. Ergo omnia simul in eo
+          <lb ed="#P" n="106"/>die faeta sunt, quia post primam mundi 
+          crea<lb break="no" ed="#P" n="107"/>tionem, distinctionem et ornatum Deus non
+          <lb ed="#P" n="108"/>produsxit immediate, et tanquam naturae 
+          arti<lb break="no" ed="#P" n="109"/>fex novas rerum species, sed solum quantum
+          <lb ed="#P" n="110"/>ex primis tunc productis derivari potuerunt.
+          <pb ed="#P" n="143"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Quot vero individua Deus in unaquaque 
+          ista<lb break="no" ed="#P" n="2"/>rum specierum produxerit, incertum nostris
+          <lb ed="#P" n="3"/>est. Jam an omnes istae species in omnibus
+          <lb ed="#P" n="4"/>regionibus et provinciis universi produxerit,
+          <lb ed="#P" n="5"/>etiam est incognitum. Quantum vero 
+          expe<lb break="no" ed="#P" n="6"/>rientia docet, verisimile est, non omnes 
+          vege<lb break="no" ed="#P" n="7"/>tabilium species ubique esse productas, sed
+          <lb ed="#P" n="8"/>quasdam in hoc hemisphaerio, et alias in alio,
+          <lb ed="#P" n="9"/>et simili modo in variis utriusque regicnibus
+          <lb ed="#P" n="10"/>juxta sapientissimam Dei distributionem 
+          pro<lb break="no" ed="#P" n="11"/>ductas fuisse, quia Deus optime novit varia
+          <lb ed="#P" n="12"/>terrarum climata, et siderum influentias, ac
+          <lb ed="#P" n="13"/>regionum dispositiones, his vel illis fructibus
+          <lb ed="#P" n="14"/>terrae magis accommodatas. Si vero aliquae
+          <lb ed="#P" n="15"/>sunt plantae, quae ubique facile conservari, aut
+          <lb ed="#P" n="16"/>propagari possunt, fortasse illae in omnibus 
+          re<lb break="no" ed="#P" n="17"/>cionibus, vel saltem in nimis distantibus, ad
+          <lb ed="#P" n="18"/>quas non poterant facile ex aliis transferri,
+          <lb ed="#P" n="19"/>simul productas fuisse, credibilius est.
+        </p>
+        <p xml:id="szdada-y03482-d1e956">
+          <lb ed="#P" n="20"/>9. De vegetabilibus noxis sensit olim 
+          Au<lb break="no" ed="#P" n="21"/>gustinus producta fuisse post peccatum. — At
+          <lb ed="#P" n="22"/>vero de quibusdam plantis, aut venenosis et
+          <lb ed="#P" n="23"/>nocivis, aut noxiis humano corpori, dubitari
+          <lb ed="#P" n="24"/>solet, an fuerint hoc die productae. Et ratio
+          <lb ed="#P" n="25"/>dubitandi est, quia ista non videntur 
+          intro<lb break="no" ed="#P" n="26"/>ducta in mundo, nisi propter peccatum 
+          homi<lb break="no" ed="#P" n="27"/>nis, videntur enim effectus illius maledictionis
+          <lb ed="#P" n="28"/>Dei, Genes. 3: Quia comedisti de ligno, de quo
+          <lb ed="#P" n="29"/>praeceperam tibi, ne comederes, maledicta terra
+          <lb ed="#P" n="30"/>in opere tuo, in laboribus comedes ex ea cunctis
+          <lb ed="#P" n="31"/>diebus vitee tue, spinas et tribulos germinabit
+          <lb ed="#P" n="32"/>libi. Ergo si homo non peccasset, terra tribulos
+          <lb ed="#P" n="33"/>et spinas non germinaret, et a fortiori, nec
+          <lb ed="#P" n="34"/>alias herbas magis nocivas et venenosas. 
+          Pro<lb break="no" ed="#P" n="35"/>pter quod argumentum videtur ita sensisse
+          <lb ed="#P" n="36"/>Augustinns, libro primo de Genesi, contra 
+          Ma<lb break="no" ed="#P" n="37"/>nichaeos, capite 13, ubi verba illa Genesis: 
+          G<lb break="no" ed="#P" n="38"/>minet terra herbam virentem, ipse legit, bherbam
+          <lb ed="#P" n="39"/>pabuli, eà subjungit objectionem 
+          Manichaeo<lb break="no" ed="#P" n="40"/>rum: 5i Deus jussit nasci de terra herbam 
+          pa<lb break="no" ed="#P" n="41"/>buli, et lignum fructiferum, quis jussit nasci
+          <lb ed="#P" n="42"/>tantas herbas, vel spinosas, vel venenosas, vel
+          <lb ed="#P" n="43"/>infructiferas? Et respondet, ante peccatum
+          <lb ed="#P" n="44"/>hominis non esse scriptum, quod terra aliud
+          <lb ed="#P" n="45"/>protulerit, post peccatum autem ortae sunt
+          <lb ed="#P" n="46"/>spinae, et alia propter peccatum, et ad hoc.
+          <lb ed="#P" n="47"/>inducit praedicta verba Genesis. Et in eadem
+          <lb ed="#P" n="48"/>sententia saltem quoad spinas et tribulos sunt
+          <lb ed="#P" n="49"/>Basilius, homil. 5, Ambrosius, lib. 3, cap.9et
+          <lb ed="#P" n="50"/>11, Beda et Rabanus, in Genes., Damascenus,
+          <lb ed="#P" n="51"/>lib. ?, de Fide, cap. 10, cum tanta 
+          exaggera<lb break="no" ed="#P" n="52"/>tone, ut dicant, etiam rosam futuram fuisse
+          <lb ed="#P" n="53"/>sine spinis, si homo non peccasset. Quod etiam
+          <lb ed="#P" n="54"/>senuit Alicuinus, quaest. 78, in Genes. Et potest
+          <lb ed="#P" n="55"/>tandem hoc confirmari, quia productis a Deo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>plantis, additur: Ft vidit Deus, quod esset 
+          bo<lb break="no" ed="#P" n="57"/>num. Ergo signum est solum produxisse herbas
+          <lb ed="#P" n="58"/>proficuas, non vero noxias, et (ut ita dicam)
+          <lb ed="#P" n="59"/>poenales.
+        </p>
+        <p xml:id="szdada-y03482-d1e1047">
+          <lb ed="#P" n="60"/>10. Oppositum verius. — Id probatur quoad
+          <lb ed="#P" n="61"/>vegetabilibus venenosa. — Nihilominus 
+          contra<lb break="no" ed="#P" n="62"/>riam sententiam docet D. Thomas, quantum ad
+          <lb ed="#P" n="63"/>spinas, et tribulos, 1 part., q. 69, a.2, ad2,
+          <lb ed="#P" n="64"/>et 2, 2, q. 164, art. 2, ad 1, et fuit sententia
+          <lb ed="#P" n="65"/>Augustini 3, Genes. ad litter., cap. 18, ubi, et
+          <lb ed="#P" n="66"/>dicta in priori loco retractat, et locum Genesis
+          <lb ed="#P" n="67"/>aliter exponit, ut statim dicam. Et quo ad 
+          al<lb break="no" ed="#P" n="68"/>teram partem de herbis noxiis consentiunt
+          <lb ed="#P" n="69"/>Ambrosius, Basilius, et alii in praecedenti S 
+          al<lb break="no" ed="#P" n="70"/>legati. Et haec etiam est communior sententia
+          <lb ed="#P" n="71"/>expositorum inGenesi et theologorum. Et 
+          qui<lb break="no" ed="#P" n="72"/>dem, quoad herbas noxias, seu venenosas non
+          <lb ed="#P" n="73"/>videtur dubitandum, quia istae sunt in suis
+          <lb ed="#P" n="74"/>speciebus perfectae, et ideo per se pertinent ad
+          <lb ed="#P" n="75"/>perfectionem universi. Deinde quoniam licet
+          <lb ed="#P" n="76"/>ad quosdam effectus sint noxiae, ad alios sunt
+          <lb ed="#P" n="77"/>utiles et medicinales, praesertim cum aliis
+          <lb ed="#P" n="78"/>mistae, et bene temperatae: aliquae etiam ex
+          <lb ed="#P" n="79"/>his herbis aliquibus animalibus in pabulum
+          <lb ed="#P" n="80"/>deserviunt. Denique si hujusmodi plantae non
+          <lb ed="#P" n="81"/>fuissent ante peccatum hominis productae,
+          <lb ed="#P" n="82"/>oportuisset postea ab auctore naturae denuo
+          <lb ed="#P" n="83"/>creari, saltem illo lato modo, quo alias rerum
+          <lb ed="#P" n="84"/>species in istis sex diebus procreavit, quod
+          <lb ed="#P" n="85"/>est contra supra dicta, et contra illud Gen. 1,
+          <lb ed="#P" n="86"/>in fine: Fidit Deus cuncta, quee fecerat, et
+          <lb ed="#P" n="87"/>erant valde bona, ià est, omni ex parte perfecta
+          <lb ed="#P" n="88"/>et consummata, et ideo subditur, in principio
+          <lb ed="#P" n="89"/>capitis secundi: Perfecti sunt coli et terra, et
+          <lb ed="#P" n="90"/>omnis ornatus eorum - complevitque Deus die
+          <lb ed="#P" n="91"/>septimo opus suum, quod. fecerat, et requievit
+          <lb ed="#P" n="92"/>die septimo ab universo opere quod patrarat.
+          <lb ed="#P" n="93"/>Ex quibus omnes colligunt nullas rerum 
+          spe<lb break="no" ed="#P" n="94"/>cies Deum postea per se creasse. Nec vero ad
+          <lb ed="#P" n="95"/>istarum rerum productionem necessaria erat
+          <lb ed="#P" n="96"/>occasio peccati, tum quia, licet homo 
+          pecca<lb break="no" ed="#P" n="97"/>turus non fuisset, hujusmodi herbae illi non
+          <lb ed="#P" n="98"/>nocerent, sicut neque ignis illi posset nocere,
+          <lb ed="#P" n="99"/>quia modo suo immortalis et impassiblis 
+          es<lb break="no" ed="#P" n="100"/>set, utique passione noxia, aut corrumpente.
+          <lb ed="#P" n="101"/>Postquam autem lapsus hominis erat futurus,
+          <lb ed="#P" n="102"/>Deus praescius futuri peccati potuit has herbas
+          <lb ed="#P" n="103"/>antea producere. non in poenam, sed in 
+          medi<lb break="no" ed="#P" n="104"/>cinam, vel alias utilitates hominis per 
+          pecca<lb break="no" ed="#P" n="105"/>tum facti mortalis.
+        </p>
+        <p xml:id="szdada-y03482-d1e1149">
+          <lb ed="#P" n="106"/>11. Item quoad spinas et tribulos. — Unde
+          <lb ed="#P" n="107"/>etiam de spinis et tribulis verissimum censeo
+          <lb ed="#P" n="108"/>non fuisse producta solum in poenam peccati,
+          <lb ed="#P" n="109"/>et futura fuisse, etiamsi homo non peccasset.
+          <lb ed="#P" n="110"/>Quod recte ostendit Augustinus in posteriori
+          <pb ed="#P" n="144"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>loco, quia etiam ista omnia habent suas 
+          utili<lb break="no" ed="#P" n="2"/>tates, vel notas, vel occultas, et aliquibus 
+          ani<lb break="no" ed="#P" n="3"/>malibus haec in cibum convenientem esse 
+          so<lb break="no" ed="#P" n="4"/>lent. Deinde est hoc multo evidentiusde spinis
+          <lb ed="#P" n="5"/>rosarum, et aliarum arborum, et fructuum
+          <lb ed="#P" n="6"/>perfectorum. Nam illae spinae pungentes, quas
+          <lb ed="#P" n="7"/>habent, connaturales illis sunt, et a natura
+          <lb ed="#P" n="8"/>datae quasi in munimentum et defensionem :
+          <lb ed="#P" n="9"/>ergo non magis habent originem a peccato,
+          <lb ed="#P" n="10"/>quam ipsae rosae, vel similes plantae ; imo esset
+          <lb ed="#P" n="11"/>miraculum, hujusmodi flores vel fructus sine
+          <lb ed="#P" n="12"/>his naturalibus ornamentis nasci. Denique
+          <lb ed="#P" n="13"/>aliae etiam spinae, et tribuli, licet nascerentur
+          <lb ed="#P" n="14"/>homine non peccante, illum non affligerent,
+          <lb ed="#P" n="15"/>nec aliquo dolore afficerent: cur ergo propter
+          <lb ed="#P" n="16"/>alios fines non fierent, aut fieri sinerentur. An
+          <lb ed="#P" n="17"/>vero hujusmodi herbae sint factae hoc die 
+          tan<lb break="no" ed="#P" n="18"/>tum in potentia, vel etiam in actu, magis 
+          dubi<lb break="no" ed="#P" n="19"/>tari potest. Distinctione tamen utendum 
+          vide<lb break="no" ed="#P" n="20"/>tur: nam vel istae sunt planta,, quae ex 
+          pro<lb break="no" ed="#P" n="21"/>prio semine generantur, vel tantum fiunt ex
+          <lb ed="#P" n="22"/>quadam putredine terrae, aut aquarum, vel
+          <lb ed="#P" n="23"/>aliquorum mixtorum, ut experientia 
+          comper<lb break="no" ed="#P" n="24"/>tum est. Quae sunt prioris generis credendum
+          <lb ed="#P" n="25"/>est fuisse factas hoc die non in virtute tantum,
+          <lb ed="#P" n="26"/>sed in actu, propter rationes supra factas, quae
+          <lb ed="#P" n="27"/>in omnibus hujusmodi plantis universaliter
+          <lb ed="#P" n="28"/>procedunt, etiamsi minus perfectae, vel 
+          mi<lb break="no" ed="#P" n="29"/>nus necessariae, aut fructuosae sint. De 
+          poste<lb break="no" ed="#P" n="30"/>rioribus vero non est necesse, ut fuerint in
+          <lb ed="#P" n="31"/>actu productae, sed in potentia, passiva 
+          qui<lb break="no" ed="#P" n="32"/>dem terrae, et aquae, activa autem Solis, et
+          <lb ed="#P" n="33"/>aliorum astrorum. Quia hujusmodi herbae non
+          <lb ed="#P" n="34"/>sunt quasi per se intentae ad ornatum, vel
+          <lb ed="#P" n="35"/>commoditatem universi, sed quasi per accidens
+          <lb ed="#P" n="36"/>ex concursu plurium causarum universalium
+          <lb ed="#P" n="37"/>sequuntur: et ideo non oportuit, ut Deus a
+          <lb ed="#P" n="38"/>principio sua sola virtute haec faceret: nam
+          <lb ed="#P" n="39"/>primario, et ex se non ad corruptionem, sed
+          <lb ed="#P" n="40"/>ad perfectionem conferendam operabatur. Fuit
+          <lb ed="#P" n="41"/>tamen consentaneum providentiae Dei sinere,
+          <lb ed="#P" n="42"/>haec fieri concurrendo cum causis secundis,
+          <lb ed="#P" n="43"/>quia hoc ad munus universahs causae pertinet.
+          <lb ed="#P" n="44"/>Ita notavit Tornielus, in 1tom., die 3, n. 10,
+          <lb ed="#P" n="45"/>ubi plura alia inducit exempla hujusmodi
+          <lb ed="#P" n="46"/>plantarum. Et quamvis spinas et tribulos non
+          <lb ed="#P" n="47"/>numeret, ad hoc tamen genus pertinere 
+          vi<lb break="no" ed="#P" n="48"/>dentur: et ideo verisimile est, ante peccatum
+          <lb ed="#P" n="49"/>primi hominis actu non extitisse, non quia
+          <lb ed="#P" n="50"/>sine peccato futura non essent, sed quia non
+          <lb ed="#P" n="51"/>praecessit tempus sufficlens, ut ex terra, per
+          <lb ed="#P" n="52"/>efficientiam Solis et stellarum procrearentur.
+          <lb ed="#P" n="53"/>Nihilominus tamen discursu temporis 
+          produ<lb break="no" ed="#P" n="54"/>cendae essent, etiamsi peccatum non fuisset.
+          <lb ed="#P" n="55"/>Quia etiamsi essent, nullum nocumentum, vel
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>poenam inferrent hominibus, et alias utilitates
+          <lb ed="#P" n="57"/>habere potuissent, et lex generalis 
+          observare<lb break="no" ed="#P" n="58"/>tur, qua Deus ita administrat omnia, que
+          <lb ed="#P" n="59"/>creavat, ut eliam ipsa proprios exercere, et agere
+          <lb ed="#P" n="60"/>motus sinat. Quae est Augustini sententia ,
+          <lb ed="#P" n="61"/>lib. 7, de Civit., c. 30.
+        </p>
+        <p xml:id="szdada-y03482-d1e1301">
+          <lb ed="#P" n="62"/>12. Ad locum Genesi adductum n. 9, pro
+          <lb ed="#P" n="63"/>contraria parte.—Ad Basilium et Ambrosium
+          <lb ed="#P" n="64"/>ibid.—Ad confir mationem ilid.—Neque contra
+          <lb ed="#P" n="65"/>hoc obstant verba Genes. 3. Primo, quia, ut
+          <lb ed="#P" n="66"/>notant Augustinus, et D. Thomas ibi non 
+          di<lb break="no" ed="#P" n="67"/>citur absolute de terra, spinas, et tribulos 
+          ger<lb break="no" ed="#P" n="68"/>minalit, sed additur, germinabit tibi: namsi
+          <lb ed="#P" n="69"/>homo non peccasset, produceret quidem terra
+          <lb ed="#P" n="70"/>spinas et tribulos, sed illa in poenam, vel 
+          in<lb break="no" ed="#P" n="71"/>commoditatem hominis non redundarent, ut
+          <lb ed="#P" n="72"/>in sequenti dubio magis declarabitur. Post
+          <lb ed="#P" n="73"/>peccatum autem haec cedunt in hominis 
+          poe<lb break="no" ed="#P" n="74"/>nam, quod significatum est per illud additum,
+          <lb ed="#P" n="75"/>germinabit tibi, hoc est, in poenam delicti tui.
+          <lb ed="#P" n="76"/>Et ita est limitanda sententia Basilii et 
+          Am<lb break="no" ed="#P" n="77"/>brosii de spinis rosae, scilicet, quod sine 
+          pecca<lb break="no" ed="#P" n="78"/>to non inferrent homini, vel minimam 
+          laesio<lb break="no" ed="#P" n="79"/>nem, quia ita erat corpore et animo perfecte
+          <lb ed="#P" n="80"/>dispositus, ut facile posset etiam utendo 
+          hujus<lb break="no" ed="#P" n="81"/>modi rebus, omnem ab eis incommoditatem
+          <lb ed="#P" n="82"/>cavere: non vero quod simpliciter tales spinae
+          <lb ed="#P" n="83"/>non essent. Quod si amplius illorum Patrum
+          <lb ed="#P" n="84"/>verba significant, eorum sententiam non 
+          se<lb break="no" ed="#P" n="85"/>quimur. Sicut etiam Augustinus quam prius
+          <lb ed="#P" n="86"/>tenuerat, postea non probavit. Unde ad 
+          con<lb break="no" ed="#P" n="87"/>firmationem respondetur, illa verba, et vidit
+          <lb ed="#P" n="88"/>Deus quod esset bonum, in omnes plantas etiam
+          <lb ed="#P" n="89"/>venenosas, vel incommoditates aliquas 
+          affe<lb break="no" ed="#P" n="90"/>rentes, convenire, quia omnes habent 
+          perfec<lb break="no" ed="#P" n="91"/>tionem, quam ex natura sua postulant. 
+          Maxi<lb break="no" ed="#P" n="92"/>meque hoc locum habet in illis. quas Deus per
+          <lb ed="#P" n="93"/>se, et actu produxit, quia omnes fuerunt 
+          ac<lb break="no" ed="#P" n="94"/>commodatae ad finem a Deo intentum, et 
+          om<lb break="no" ed="#P" n="95"/>nes habent aliquem usum utilem, ut diximus.
+          <lb ed="#P" n="96"/>Et late prosequitur Augustinus, lib. 1, de Gen.,
+          <lb ed="#P" n="97"/>contr. Manich., cap. 16. Ac denique omnes
+          <lb ed="#P" n="98"/>secundum genus suum semen proferunt, et
+          <lb ed="#P" n="99"/>ideo supra dictis verbis Genesis sine dubio
+          <lb ed="#P" n="100"/>comprehenduntur.
+        </p>
+        <p xml:id="szdada-y03482-d1e1388">
+          <lb ed="#P" n="101"/>13. Quarta quaestio an ut Paradisus 
+          terres<lb break="no" ed="#P" n="102"/>tris plantatus hoc tertio die.— Quarta 
+          interro<lb break="no" ed="#P" n="103"/>gatio est, utrum Paradisus terrestris fuerit
+          <lb ed="#P" n="104"/>hoc die productus, seu plantatus, et sub 
+          gene<lb break="no" ed="#P" n="105"/>ralibus verbis, gerninet terra, et protulit terra,
+          <lb ed="#P" n="106"/>fuerit comprehensus, licet in specie 
+          deciara<lb break="no" ed="#P" n="107"/>tus non fuerit. Et ratio dubitandi esse potest,
+          <lb ed="#P" n="108"/>quia si opus tam insigne fuisset hoc diefactum,
+          <lb ed="#P" n="109"/>verisimile est, fuisse in specie narrandum:
+          <lb ed="#P" n="110"/>ergo e contrario ex Moysi taciturnitate conjec-
+          <pb ed="#P" n="145"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tura fit non fuisse Paradisum hoc die factum.
+          <lb ed="#P" n="2"/>In contrarium vero est, quia statim in cap. 2,
+          <lb ed="#P" n="3"/>dicitur: Plantaverat autem Dominus Deus 
+          Pa<lb break="no" ed="#P" n="4"/>radisum voluptalis a principio in quo posuit
+          <lb ed="#P" n="5"/>hominem, quem formaverat. Ex quibus verbis
+          <lb ed="#P" n="6"/>aperte colligitur Paradisum fuisse intra hos
+          <lb ed="#P" n="7"/>sex dies factum: tum quia hoc ad minimum
+          <lb ed="#P" n="8"/>significat illa particulaa principio :tum etiam,
+          <lb ed="#P" n="9"/>quia cum homo creatusfuit, jam Deus 
+          Paradi<lb break="no" ed="#P" n="10"/>sum plantaverat, ut in eisdem verbis aperte
+          <lb ed="#P" n="11"/>continetur: homoautem creatus fuit sexto die:
+          <lb ed="#P" n="12"/>ergo ante illumfuit factus Paradisus. Sed nulla
+          <lb ed="#P" n="13"/>est ratio cogitandi fuisse plantatum in die
+          <lb ed="#P" n="14"/>quarto, vel quinto: ergo in tertio plantatus
+          <lb ed="#P" n="15"/>est. Atque haec posterior pars communis est,
+          <lb ed="#P" n="16"/>et argumento facto sufficienter probari 
+          vide<lb break="no" ed="#P" n="17"/>tur. Conjectura vero in contrarium nullius
+          <lb ed="#P" n="18"/>momenti est, alioqui etiam probaret, in nullo
+          <lb ed="#P" n="19"/>sex dierum factum esse Paradisum, quia in
+          <lb ed="#P" n="20"/>nullo specialis ejus mentio fit. Non fuit igitur
+          <lb ed="#P" n="21"/>hoc necessarium, quia illud opus ad 
+          univer<lb break="no" ed="#P" n="22"/>salem mundi fabricam, ut sic dicam, non 
+          spec<lb break="no" ed="#P" n="23"/>tabat, sed specialiter ad statum hominis, et
+          <lb ed="#P" n="24"/>ideo peculiaris ejus mentio in commodiorem
+          <lb ed="#P" n="25"/>locum reservata est: satisque fuit particulare
+          <lb ed="#P" n="26"/>illud opus in generali plantatione universi, ut
+          <lb ed="#P" n="27"/>sic dicam, comprehendere.
+        </p>
+        <p xml:id="szdada-y03482-d1e1475">
+          <lb ed="#P" n="28"/>14. Concluditur paradisum intertio die fuissc
+          <lb ed="#P" n="29"/>plantatum. — Nec designari potest aliud 
+          tem<lb break="no" ed="#P" n="30"/>pus magis opportunum. Nam sicut hoc die
+          <lb ed="#P" n="31"/>omnes alias terrae partes Deus apte disposuit,
+          <lb ed="#P" n="32"/>ad eas plantas producendas, quas in unoquoque
+          <lb ed="#P" n="33"/>loco facere decreverat; ita etiam partem illam
+          <lb ed="#P" n="34"/>terrae, in qua Paradisum plautare volebat, 
+          si<lb break="no" ed="#P" n="35"/>mul peculiari modo disyposuit, et foecundavit;
+          <lb ed="#P" n="36"/>et similiter unico illo verbo germinet, illi parti
+          <lb ed="#P" n="37"/>terrae, sicut caeteris omnibus juxta 
+          uniuscu<lb break="no" ed="#P" n="38"/>jusque proportionem imperavit. Alioqui 
+          opor<lb break="no" ed="#P" n="39"/>tuisset vel illam partem terrae ab efficacia illius
+          <lb ed="#P" n="40"/>jussionis excipere, ita ut pars illa terrae sine
+          <lb ed="#P" n="41"/>ornatu plantarum manserit, quod incredibile
+          <lb ed="#P" n="42"/>est, et contra generalitatem illius divini 
+          un<lb break="no" ed="#P" n="43"/>perii: vel dicendum erit, prius Deum plaitasse
+          <lb ed="#P" n="44"/>illum locum generali modo, et paulo post 
+          plan<lb break="no" ed="#P" n="45"/>tationem illam in aliam majoris 
+          pulchritudi<lb break="no" ed="#P" n="46"/>nis, amonitatis, ac suavitatis transmutasse;
+          <lb ed="#P" n="47"/>quod superfluum est, cum divina operatio haec
+          <lb ed="#P" n="48"/>tarda molimina nesciat. De hoc autem loco in
+          <lb ed="#P" n="49"/>sequenti libro ex professo d.cturi sumus. Nuuc
+          <lb ed="#P" n="50"/>solum adverto, propter ea, quae in praecedenti
+          <lb ed="#P" n="51"/>dubio dicta sunt, probabile esse, si homo in
+          <lb ed="#P" n="52"/>inbocentia permansisset, in illo loco non fuisse
+          <lb ed="#P" n="53"/>futuras spinas et tribulos, neque similes 
+          her<lb break="no" ed="#P" n="54"/>bas, quae et fructus terrae utiles impedire 
+          so<lb break="no" ed="#P" n="55"/>lent, et in illo statu nullam utilitatem possent
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>homini afferre. Et ideo merito dictum esse 
+          ho<lb break="no" ed="#P" n="57"/>mini post peccatum, Maledicta terra in cpere
+          <lb ed="#P" n="58"/>tuo, spinas et tribulos germinalit tibi. Nam si
+          <lb ed="#P" n="59"/>homo non peccasset, semper in Paradiso 
+          per<lb break="no" ed="#P" n="60"/>mansisset, in quo terra fere nullo labore culta,
+          <lb ed="#P" n="61"/>sine impedimento illi fructificaret: propter
+          <lb ed="#P" n="62"/>peccatum autem inde ejectus est in terram,
+          <lb ed="#P" n="63"/>quae non sine magno labore, daret fructus, et
+          <lb ed="#P" n="64"/>spinasac tribulos germinaret, quae et molestiam
+          <lb ed="#P" n="65"/>inferre, et magna ex parte utiles fructus 
+          impe<lb break="no" ed="#P" n="66"/>dire solent. Et hunc sensum habet maledictio
+          <lb ed="#P" n="67"/>terrae, quam post peccatum Deus homini 
+          ma<lb break="no" ed="#P" n="68"/>nifestavit.
+        </p>
+        <p xml:id="szdada-y03482-d1e1570">
+          <lb ed="#P" n="69"/>15. Quinta quaestio, in quo statu produaerit
+          <lb ed="#P" n="70"/>Deus vegetabilia.—Quinta dubitatio est, in quo
+          <lb ed="#P" n="71"/>statu, augmento, seu dispositione creaverit
+          <lb ed="#P" n="72"/>DEUS singulas plantas, id est, an creaverit
+          <lb ed="#P" n="73"/>arbores perfectas, vel tantum inchoatas, et an
+          <lb ed="#P" n="74"/>cum fructibus, vel foliis, aut floribus; item an
+          <lb ed="#P" n="75"/>produxerit segetes recenter natas, vel 
+          perfec<lb break="no" ed="#P" n="76"/>tas et aptas ad messem, vel in aliquo statu
+          <lb ed="#P" n="77"/>medio, et simili modo de caeteris. Aliquibus
+          <lb ed="#P" n="78"/>enim visum est omnes arbores et plantas fuisse
+          <lb ed="#P" n="79"/>per universum orbem productas in perfecto
+          <lb ed="#P" n="80"/>augmento, et cum fructibus maturis. Quia DEI
+          <lb ed="#P" n="81"/>perfecta sunt opera. Sed verior senteniia est
+          <lb ed="#P" n="82"/>hoc non oportuisse ita fieri simul in universo
+          <lb ed="#P" n="83"/>orbe, quia neque ad ornatum orbis id erat 
+          ne<lb break="no" ed="#P" n="84"/>cessarium, nam potius mira quadam varietate
+          <lb ed="#P" n="85"/>decorari poterat (ut statim dicam) neque etiam
+          <lb ed="#P" n="86"/>ad perfectionem divini operis spectabat: nam
+          <lb ed="#P" n="87"/>haec perfectio saepius in proportione magis,
+          <lb ed="#P" n="88"/>quam in aequalitate consistit. Neque etiam erat
+          <lb ed="#P" n="89"/>necessarium ad sustentationem hominis, vel
+          <lb ed="#P" n="90"/>animalium, quae quinto et sexto die creanda
+          <lb ed="#P" n="91"/>erat, quia in singulis speciebus pauca 
+          indivi<lb break="no" ed="#P" n="92"/>dua producenda erant: ideoque tot fructibus
+          <lb ed="#P" n="93"/>simul creatis non indigebant. Ac denique illa
+          <lb ed="#P" n="94"/>eequalitas non erat proportionata omuibus 
+          re<lb break="no" ed="#P" n="95"/>gionibus et climatibus universi. Unde 
+          obser<lb break="no" ed="#P" n="96"/>vandum est, in eodem momento, in quo fuit
+          <lb ed="#P" n="97"/>mundus consummatus, coepisse etiam in ter;a
+          <lb ed="#P" n="98"/>illas temporum var:etates, quas in vere, aestu,
+          <lb ed="#P" n="99"/>autumno et hyeme experimur. Nam haec 
+          va<lb break="no" ed="#P" n="100"/>rietas fit per motus coelorum, qui motus in
+          <lb ed="#P" n="101"/>primo et quarto die facti sunt. Varietas autem
+          <lb ed="#P" n="102"/>illorum temporum in diversis regionibus 
+          ince<lb break="no" ed="#P" n="103"/>pit, quia si fortasse tempus illud respectu 
+          ha<lb break="no" ed="#P" n="104"/>bito ad hoc hemisphaeriun fuit ver, respectu
+          <lb ed="#P" n="105"/>alterius fuit autumnuus, et in una parte fuit
+          <lb ed="#P" n="106"/>hyems, in alia vero aestas, sicut nunc etiam
+          <lb ed="#P" n="107"/>coutingit: est enim eadem ratio et proportio.
+        </p>
+        <p xml:id="szdada-y03482-d1e1657">
+          <lb ed="#P" n="108"/>16 Statuitur vera sententia. — Hoc ergo
+          <lb ed="#P" n="109"/>posito dicendum est, in omni loco terrae fu;sse
+          <lb ed="#P" n="110"/>plantas productas ;n statu perfecto singufis
+          <pb ed="#P" n="146"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>regionibus accommodato pro illo tempore 
+          an<lb break="no" ed="#P" n="2"/>ni, in quo talis regio terrae facta est, atque esse
+          <lb ed="#P" n="3"/>incepit. Atque ita ubi erat hyems, plantae 
+          ha<lb break="no" ed="#P" n="4"/>buerunt illam perfectionem, quam in hyeme
+          <lb ed="#P" n="5"/>naturaliter habere possunt, et simili modo de
+          <lb ed="#P" n="6"/>caeteris tribus temporibus anni. Quod si 
+          veli<lb break="no" ed="#P" n="7"/>mus etiam in singulis distinguere principium,
+          <lb ed="#P" n="8"/>medium et finem, eadem proportio in eis 
+          ser<lb break="no" ed="#P" n="9"/>vanda est. Nam, verbi gratia, in principio 
+          ve<lb break="no" ed="#P" n="10"/>ris solent arbores florere, postea frondere,
+          <lb ed="#P" n="11"/>deinde fructus emittere, et sic consequenter.
+          <lb ed="#P" n="12"/>In diversis ergo regionibus, vel provincis,
+          <lb ed="#P" n="13"/>prout hanc temporum varietatem participare
+          <lb ed="#P" n="14"/>coeperunt, cum similt varietate arbores et
+          <lb ed="#P" n="15"/>plantae perfectionem habuerunt. Unde fit, ut
+          <lb ed="#P" n="16"/>illam perfectionem, quam arbores in qualibet
+          <lb ed="#P" n="17"/>partes anni in eadem terra conservant, simul
+          <lb ed="#P" n="18"/>habuerint hoc die omnes arbores, ubique 
+          pro<lb break="no" ed="#P" n="19"/>ductae. Qualis est, verbi gratia, perfecta 
+          ma<lb break="no" ed="#P" n="20"/>gnitudo, seu augmentum, quia cum illa 
+          per<lb break="no" ed="#P" n="21"/>fectio non minuatur, neque augeatur propter
+          <lb ed="#P" n="22"/>temporum anni varietatem, potuit commode,
+          <lb ed="#P" n="23"/>et connaturaliter omnibus arboribus ubique
+          <lb ed="#P" n="24"/>productis simul tribui: et ideo ad perfectionem
+          <lb ed="#P" n="25"/>operis Dei pertinuit, ut ita fieret. At vero quia
+          <lb ed="#P" n="26"/>flores, folia, fructus, et eorum maturitas 
+          dis<lb break="no" ed="#P" n="27"/>tinctam eorum temporum qualitatem 
+          requi<lb break="no" ed="#P" n="28"/>runt, ideo in his varietas cum debita 
+          propor<lb break="no" ed="#P" n="29"/>tione servata est: et in hoc magis est sapientia,
+          <lb ed="#P" n="30"/>potentia et perfectio diurni operis manifestata.
+          <lb ed="#P" n="31"/>Ita docuerunt inter alios Pererius, in fine operis
+          <lb ed="#P" n="32"/>tertii diei, et Molina de opere sex dierum,
+          <lb ed="#P" n="33"/>disp. 12 et 14. Fundamentum autem non est
+          <lb ed="#P" n="34"/>aliud, nisi quod exponendo rem ipsam 
+          indi<lb break="no" ed="#P" n="35"/>catum est. Atque hinc de Paradiso terrestri
+          <lb ed="#P" n="36"/>constat ex capite tertio Genesis, statim in 
+          prin<lb break="no" ed="#P" n="37"/>cipio habuisse fructus maturos, nam de uno
+          <lb ed="#P" n="38"/>illorum, tulit Eva, et comedit, et ded't viro suo, .
+          <lb ed="#P" n="39"/>qui comedit; itemque fuisse tunc folia ficus, ex
+          <lb ed="#P" n="40"/>quibus Adam et Eva fecerunt sibi perizomata.
+          <lb ed="#P" n="41"/>Inde tamen colligendum non est, in eodem
+          <lb ed="#P" n="42"/>statu creatas fuisse ubique omnes arbores, sed
+          <lb ed="#P" n="43"/>colligendum potius est, in ea regione, seu loco
+          <lb ed="#P" n="44"/>Paradisi tempus fuisse idoneum, ut in eo 
+          ar<lb break="no" ed="#P" n="45"/>bores, et folia, et fructus maturos, et omnem
+          <lb ed="#P" n="46"/>aliam similem perfectionem connaturahter 
+          ha<lb break="no" ed="#P" n="47"/>bere possent.
+        </p>
+        <p xml:id="szdada-y03482-d1e1772">
+          <lb ed="#P" n="48"/>17. Dubium incidens. — Qui hinc inde 
+          sen<lb break="no" ed="#P" n="49"/>giant vide etiam Conimbricenses 8, Phyco., c. 2,
+          <lb ed="#P" n="50"/>q.3, a 2 Clavium in c. 9 sphere. — Auctoris
+          <lb ed="#P" n="51"/>judicium. — Occasione vero hujus puncti 
+          trac<lb break="no" ed="#P" n="52"/>tant hoc loco auctores, praesertim duo allegati,
+          <lb ed="#P" n="53"/>aliud de tempore anni, in quo productus est
+          <lb ed="#P" n="54"/>mundus, an scilicet, in aequinoctio vernali,
+          <lb ed="#P" n="55"/>vel in autumnali, vel in neutro, sed in aestate,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>verbi gratia. Cum autem dictum sit, haec 
+          om<lb break="no" ed="#P" n="57"/>nia tempora simul cum mundo in diversis ejus
+          <lb ed="#P" n="58"/>partibus incepisse, non potest dicta quaestio
+          <lb ed="#P" n="59"/>habere locum, nisi habito respectu ad certam
+          <lb ed="#P" n="60"/>terrae partem, seu regionem. Et quoniam in
+          <lb ed="#P" n="61"/>superioribus dictum est Deum in creatione
+          <lb ed="#P" n="62"/>mundi, et a principio ejus ad hoc nostrum 
+          he<lb break="no" ed="#P" n="63"/>misphaerium, et in eo ad eum locum, in quo
+          <lb ed="#P" n="64"/>et Paradisus erat futurus, et homo creandus,
+          <lb ed="#P" n="65"/>respectum habuisse: ideo per comparationem
+          <lb ed="#P" n="66"/>ad illam terrae partem dicta quaestio tractatur:
+          <lb ed="#P" n="67"/>in qua praedicti auctores contraria sentiunt,
+          <lb ed="#P" n="68"/>nam Pererius vult creatum esse mundum in
+          <lb ed="#P" n="69"/>eequinoctio autumnali, Molina vero in vernali,
+          <lb ed="#P" n="70"/>vel prope illud, seu in veris initio. 
+          Funda<lb break="no" ed="#P" n="71"/>menta utriusque partis in ipsis legi possunt,
+          <lb ed="#P" n="72"/>nunc enim controversiam hanc latius 
+          expen<lb break="no" ed="#P" n="73"/>dere non decrevi: tum quia praesenti instituto
+          <lb ed="#P" n="74"/>non est necessaria: tum etiam, quia vix aliquid
+          <lb ed="#P" n="75"/>addere possum his quae praedicti auctores 
+          eru<lb break="no" ed="#P" n="76"/>dite tractant: tum denique quia neutra pars
+          <lb ed="#P" n="77"/>firmum habet fundamentum. In re tamen 
+          du<lb break="no" ed="#P" n="78"/>bia, et quae mera ratione definiri non potest,
+          <lb ed="#P" n="79"/>sententia, quae asserit mundum fuisse 
+          crea<lb break="no" ed="#P" n="80"/>tum in aequinoctio vernali, praeferenda 
+          vide<lb break="no" ed="#P" n="81"/>tur: tum quia Patres communiter illam 
+          se<lb break="no" ed="#P" n="82"/>quuntur: tum etiam quia est magis consentanea
+          <lb ed="#P" n="83"/>rationi, his suppositis, quae de Paradiso 
+          terres<lb break="no" ed="#P" n="84"/>tri Scriptura narrat. Conjecturae autem, quae
+          <lb ed="#P" n="85"/>ex alis locis Scripturae pro utraque parte 
+          su<lb break="no" ed="#P" n="86"/>muntur, facilem responsionem habent, ut in
+          <lb ed="#P" n="87"/>eisdem auctoribus videri potest.
+        </p>
+        <p xml:id="szdada-y03482-d1e1863">
+          <lb ed="#P" n="88"/>18. Sexta quaestio ac partis negantis motica.
+          <lb ed="#P" n="89"/>— Sexta dubitatio est, an mineralia, seu 
+          me<lb break="no" ed="#P" n="90"/>talla, quae in visceribus terra inveniuntur,
+          <lb ed="#P" n="91"/>fuerint hoc die facta. Et ratio dubitandi est,
+          <lb ed="#P" n="92"/>quia Moyses neque illa in particulari numerat
+          <lb ed="#P" n="93"/>inter res hoc die productas: neque etiam sub
+          <lb ed="#P" n="94"/>generali nomine plantarum, illa 
+          comprehen<lb break="no" ed="#P" n="95"/>dere potuit, quia non sunt plantae, neque vitam
+          <lb ed="#P" n="96"/>habent vegetativam. Accedit, quod ista non
+          <lb ed="#P" n="97"/>pertinent ad ornatum terrae, hoc autem die
+          <lb ed="#P" n="98"/>tantum facta sunt, quae terrae superficiem 
+          or<lb break="no" ed="#P" n="99"/>nant. Denique haec mixta non est necesse fieri
+          <lb ed="#P" n="100"/>per propagationem, neque per seminalem 
+          ra<lb break="no" ed="#P" n="101"/>tionem, sed sufficienter fieri possunt ex 
+          mate<lb break="no" ed="#P" n="102"/>ria elementari, seu mixtione elementorum cum
+          <lb ed="#P" n="103"/>Solis, et astrorum efticientia: ergo non fuit
+          <lb ed="#P" n="104"/>necessarium immediate produci ab auctore 
+          na<lb break="no" ed="#P" n="105"/>turae. Sic enim antea dicebamus, plantas, seu
+          <lb ed="#P" n="106"/>herbas imperfectas, quae absque semine 
+          gene<lb break="no" ed="#P" n="107"/>rantur actione Solis, non fuisse in principio
+          <lb ed="#P" n="108"/>immediate a Deo productas, idemque inferius
+          <lb ed="#P" n="109"/>dicemus de animalibus, quae ex putrefactione
+          <lb ed="#P" n="110"/>generantur. Ergo majori ratione necessarium
+          <pb ed="#P" n="147"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non fuit, haec metalla immediate a Deo 
+          pro<lb break="no" ed="#P" n="2"/>duci.
+        </p>
+        <p xml:id="szdada-y03482-d1e1924">
+          <lb ed="#P" n="3"/>19. Motiva affirmantis.— Auctoris judicium.
+          <lb ed="#P" n="4"/>— In contrarium vero est. Primo quod hae 
+          me<lb break="no" ed="#P" n="5"/>talla ad mundi decorem et perfectionem suo
+          <lb ed="#P" n="6"/>modo pertinent: ergo debuerunt simul fieri
+          <lb ed="#P" n="7"/>cum mundo ab illius auctore. Secundo quia,
+          <lb ed="#P" n="8"/>quod Moyses illorum mentionem non faciat,
+          <lb ed="#P" n="9"/>nullum argumentum est, quod non fuerint
+          <lb ed="#P" n="10"/>facta, quia Moyses non omnia expresse 
+          narra<lb break="no" ed="#P" n="11"/>vit, sed ea, quae praecipua sunt et conspicna
+          <lb ed="#P" n="12"/>hominibus ; haec autem occulta sunt, et 
+          praete<lb break="no" ed="#P" n="13"/>rea adeo sunt terrae admixta, ut ab illa 
+          difficul<lb break="no" ed="#P" n="14"/>ter distinguantur. Quas duas rationes, ob quas
+          <lb ed="#P" n="15"/>haec a Moyse fuerint omissa, tradit D. Thomas,
+          <lb ed="#P" n="16"/>quaest. 69, art. 2, ad 3. Non tamen distincte
+          <lb ed="#P" n="17"/>declarat, an fuerint actu producta, videtur 
+          au<lb break="no" ed="#P" n="18"/>tem id supponere, et eum imitatur Pererius.
+          <lb ed="#P" n="19"/>Molina vero, disp. 11, simpliciter affirmat, ita
+          <lb ed="#P" n="20"/>credendum esse; additque haec fuisse facta hoc
+          <lb ed="#P" n="21"/>die ante plantas, quando Deus universam 
+          ter<lb break="no" ed="#P" n="22"/>ram (ut ita dicam) commovebat, ut locum
+          <lb ed="#P" n="23"/>aquis praepararet, quod est probabile juxta ea,
+          <lb ed="#P" n="24"/>quae supra diximus. Facile tamen defendi 
+          pos<lb break="no" ed="#P" n="25"/>set tantum fuisse facta in potentia: nam hoc
+          <lb ed="#P" n="26"/>etiam superiores rationes probabiliter suadent:
+          <lb ed="#P" n="27"/>neque negari potest, quin saltem hoc modo
+          <lb ed="#P" n="28"/>facta fuerint. De quo videri possunt 
+          Conimbri<lb break="no" ed="#P" n="29"/>censes, in Meteoris tractat. 13, capite secundo.
+          <lb ed="#P" n="30"/>Omnibus vero pensatis probabilius apparet,
+          <lb ed="#P" n="31"/>haec omnia a principio fuisse actu producta;
+          <lb ed="#P" n="32"/>unde non multo post in usum hominum 
+          vene<lb break="no" ed="#P" n="33"/>runt, ut Gen. 4, legitur. 
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

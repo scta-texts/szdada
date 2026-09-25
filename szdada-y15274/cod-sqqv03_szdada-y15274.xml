@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="625"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y15274"><!-- t3l3c3 -->
+        <head xml:id="szdada-y15274-Hd1e101">Caput 3</head>
+        <head xml:id="szdada-y15274-Hd1e103" type="question-title">Utrum actus potentiae cognoscitivae sit aliquid distinctum ab specie</head>
+        <p xml:id="szdada-y15274-d1e106">
+          <lb ed="#P" n="25"/>CAPUT III.
+          <lb ed="#P" n="26"/>UTRUM ACTUS POTENTIAE COGNOSCITIVAE SIT 
+          ALI<lb break="no" ed="#P" n="27"/>QUID DISTINCTUM AB SPECIE.
+        </p>
+        <p xml:id="szdada-y15274-d1e115">
+          <lb ed="#P" n="28"/>1. Prima opinio negans ejusque sensus. —
+          <lb ed="#P" n="29"/>Fundamentum ejus. — Diximus de objecto 
+          co<lb break="no" ed="#P" n="30"/>gnoscibili: sequitur ut de actu dicamus, de quo
+          <lb ed="#P" n="31"/>primo videndum est, quid sit, postea quomodo
+          <lb ed="#P" n="32"/>fiat, et quid producat: est ergo in quaestione
+          <lb ed="#P" n="33"/>proposita opinio quorumdam asserentium 
+          ac<lb break="no" ed="#P" n="34"/>tum cognoscendi non esse qualitatem 
+          distinc<lb break="no" ed="#P" n="35"/>tam a potentia et specie, sed esse solam ejus
+          <lb ed="#P" n="36"/>receptionem vitalem. Quam opinionem sic 
+          ex<lb break="no" ed="#P" n="37"/>plicant. Nam species dupliciter potest recipi in
+          <lb ed="#P" n="38"/>potentia, uno modo quasi mortuo, quando 
+          sci<lb break="no" ed="#P" n="39"/>licet potentia non attendit receptionem speciei:
+          <lb ed="#P" n="40"/>sic species imprimitur oculo, quando ad alia
+          <lb ed="#P" n="41"/>attendentes nihil videmus. Dicitur autem tahs
+          <lb ed="#P" n="42"/>receptio mortua, quia illo modo etiam 
+          recipi<lb break="no" ed="#P" n="43"/>tur in speculo: tunc ergo omnes conveniunt
+          <lb ed="#P" n="44"/>actum cognoscendi distinctum esse ab hac 
+          re<lb break="no" ed="#P" n="45"/>ceptione speciei, quod etiam in sensibus 
+          inte<lb break="no" ed="#P" n="46"/>rioribus, et intellectu patet, ubi species manent
+          <lb ed="#P" n="47"/>absque actuali cognitione. Alio vero modo, 
+          vi<lb break="no" ed="#P" n="48"/>tali nimirum, recipitur in potentia species,
+          <lb ed="#P" n="49"/>quando anima attendit, quae quidem attentio
+          <lb ed="#P" n="50"/>non est distinctum aliquid ab anima et 
+          po<lb break="no" ed="#P" n="51"/>tentia, sed modus illius: hanc igitur vitalem
+          <lb ed="#P" n="52"/>receptionem speciei volunt dicti auctores esse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>cognitionem. Ita Venetus 2, de Anima, text. 60,
+          <lb ed="#P" n="54"/>et in Summ. de Anim., lib. 2,tract. 4,cap. 10,
+          <lb ed="#P" n="55"/>Nyphus, lib. de sensu contra Jandunum, 
+          Caje<lb break="no" ed="#P" n="56"/>tanus 2, de Anima, c. 5, Joannes de Ripa apud
+          <lb ed="#P" n="57"/>Capreolum, in 8, d. 14, quaest. 1, et ibi Gabriel,
+          <lb ed="#P" n="58"/>quaest. 1, et plures Nominalium. Quamvis 
+          au<lb break="no" ed="#P" n="59"/>tem multi ex his auctoribus de sensibus 
+          spe<lb break="no" ed="#P" n="60"/>cialiter loquantur, tamen ratio universalis est
+          <lb ed="#P" n="61"/>de potentiis cognoscentibus. Favet Aristoteles
+          <lb ed="#P" n="62"/>2, de Anima, text. 118, aiens: Sentire 
+          quod<lb break="no" ed="#P" n="63"/>dai pati est, quare id, quod agit, tale illud 
+          fa<lb break="no" ed="#P" n="64"/>cil cum sit potentia, quale est ipsum actu: quasi
+          <lb ed="#P" n="65"/>dicat sensibile facit sensum in actu, cum sit
+          <lb ed="#P" n="66"/>tale in actu, quale sensus est in potentia: et
+          <lb ed="#P" n="67"/>infra text. 138, 129 et 140, docet eamdem esse
+          <lb ed="#P" n="68"/>actionem sensibilis et sensus, in sensu 
+          recep<lb break="no" ed="#P" n="69"/>tam, subditque actum coloris in visu receptum
+          <lb ed="#P" n="70"/>dici visionem, sensum vero prout recipitur in
+          <lb ed="#P" n="71"/>auditu dici auditionem: et cap. 5, lib. 2, ait:
+          <lb ed="#P" n="72"/>Videtur autem sensum esse in eo, quod est 
+          mo<lb break="no" ed="#P" n="73"/>veri, ubi sensum sumit pro sensu in actu, et
+          <lb ed="#P" n="74"/>D. Thomas, 1 p., queest. 17, art. 2, ad 1, 
+          scri<lb break="no" ed="#P" n="75"/>bit sensum sentire esse ipsum affici: favet
+          <lb ed="#P" n="76"/>etiam D. Augustinus 9, de Trinitate, cap. 2 et
+          <lb ed="#P" n="77"/>sequentibus, docens quod mens per seipsam se
+          <lb ed="#P" n="78"/>novit, et quod amor et cognitio tanquam in
+          <lb ed="#P" n="79"/>subjecto in sunt menti, et in fine addit, quod
+          <lb ed="#P" n="80"/>mens, et notitia ejus sunt unum, ac una 
+          sub<lb break="no" ed="#P" n="81"/>stantia, idemque colligitur ex lib. 10 et 15,
+          <lb ed="#P" n="82"/>lib. etiam 11, cap. 2, saepe vocat speciem 
+          ip<lb break="no" ed="#P" n="83"/>sam sensationem, attamen cap. 3, se exponit,
+          <lb ed="#P" n="84"/>oppositumque affirmat. Fundamentum hujus
+          <lb ed="#P" n="85"/>sententiae est, quia posita vitali receptione
+          <lb ed="#P" n="86"/>speciei intelligitur optime, quomodo fiat 
+          cogni<lb break="no" ed="#P" n="87"/>tio, et evitantur superfluae entitates, quae non
+          <lb ed="#P" n="88"/>sunt pro libito multiplicandae.
+        </p>
+        <p xml:id="szdada-y15274-d1e252">
+          <lb ed="#P" n="89"/>2. Vera sententia affirmans. — Opposita 
+          ni<lb break="no" ed="#P" n="90"/>hilominus sententia est mihi certa, actum 
+          co<lb break="no" ed="#P" n="91"/>gnoscendi esse specialem qualitatem realiter
+          <lb ed="#P" n="92"/>distinctam a potentia etiam per speciem 
+          infor<lb break="no" ed="#P" n="93"/>matam. Est communissima in lib. 2, de Anima,
+          <lb ed="#P" n="94"/>cap. 5,ubi Philoponus, Themistius, Simplicius,
+          <lb ed="#P" n="95"/>et alii expositores, idemque Themistius, lib. 3,
+          <lb ed="#P" n="96"/>cap. 15, pronuntiat notionem esse animae 
+          ac<lb break="no" ed="#P" n="97"/>tionem: et de memoria et reminiscentia, c. 11,
+          <lb ed="#P" n="98"/>imaginationem non esse impressionem speciei.
+          <lb ed="#P" n="99"/>Alexander quoque 1, de Anima, cap. 11 et 19,
+          <lb ed="#P" n="100"/>aperte distinguit sensationem a receptione 
+          spe<lb break="no" ed="#P" n="101"/>ciei. Commentator, libro secundo, text. 149,
+          <lb ed="#P" n="102"/>Galenus, de Placitis, cap. 14, Gregorius 
+          Nys<lb break="no" ed="#P" n="103"/>senus de Viribus animae, cap. 1 et 4, 
+          Neme<lb break="no" ed="#P" n="104"/>sius, lib. de natura Hominis, cap. 4, idem
+          <lb ed="#P" n="105"/>sentit S. Thomas passim specialiter de veritate,
+          <lb ed="#P" n="106"/>quaest. 8, quodl. 7, a. 2, et locis statim 
+          citan<lb break="no" ed="#P" n="107"/>dis, Capreolus, in 1, d. 35, quaest. 1, concl. 3,
+          <pb ed="#P" n="626"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et in 3, dist. 14, et in 4, dist. 49, quoest. 1,
+          <lb ed="#P" n="2"/>concl. 4, Ferrarius 1, contra Gentes, cap. 44
+          <lb ed="#P" n="3"/>et 45, et lib. 2, cap. 41. Cajetanus etiam sibi
+          <lb ed="#P" n="4"/>contrarius, 1 part., quaest. 12, art. 5 et 11,
+          <lb ed="#P" n="5"/>aperte distinguit actum cognoscendi a 
+          recep<lb break="no" ed="#P" n="6"/>tione speciei, idem praestat, quaest. 14, art. 1,
+          <lb ed="#P" n="7"/>quaest. 17 et 18 et 55, articul. 3 et 56, art. 1,
+          <lb ed="#P" n="8"/>19 et 80, art.2 et 85, art. 4, in eadem 
+          senten<lb break="no" ed="#P" n="9"/>tia est Scotus, quam late prosequitur 
+          Grego<lb break="no" ed="#P" n="10"/>rius, in 2, d. 7, quaest. 2, Zimara, theoremate
+          <lb ed="#P" n="11"/>124.
+        </p>
+        <p xml:id="szdada-y15274-d1e325">
+          <lb ed="#P" n="12"/>3. Probatur quoad distinctionem 
+          cognitio<lb break="no" ed="#P" n="13"/>nis ab specie contra Cajetanum. —Et ratione
+          <lb ed="#P" n="14"/>arguitur. Nam si actus cognoscendi non est
+          <lb ed="#P" n="15"/>distincta entitas, ultra potentiam, aut speciem,
+          <lb ed="#P" n="16"/>certe cum altera identificatur: utrumque 
+          au<lb break="no" ed="#P" n="17"/>tem est falsum: ergo, etc. Respondet 
+          Cajeta<lb break="no" ed="#P" n="18"/>nus identificari cum specie, quod ita refellitur,
+          <lb ed="#P" n="19"/>nam potentia comparatur ad speciem, ut 
+          re<lb break="no" ed="#P" n="20"/>ceptiva: ad actum vero cognitionis ut activa:
+          <lb ed="#P" n="21"/>impossibile est ergo actum esse idem cum
+          <lb ed="#P" n="22"/>specie. Major patet, quia potentia solum 
+          reci<lb break="no" ed="#P" n="23"/>pit speciem, non producit, ut Aristoteles supra
+          <lb ed="#P" n="24"/>testatur in text. 138 et 139, et merito, si 
+          qui<lb break="no" ed="#P" n="25"/>dem objectum solum est, quod producit 
+          spe<lb break="no" ed="#P" n="26"/>ciem in sensu, ut in sequentibus videbimus.
+          <lb ed="#P" n="27"/>Probatur deinde minor. Nam de ratione 
+          ac<lb break="no" ed="#P" n="28"/>tionis vitalis est, ut fiat a principio intrinseco
+          <lb ed="#P" n="29"/>activo: si autem actus cognitionis esset idem
+          <lb ed="#P" n="30"/>cum specie, fieret ab objecto, praesertim in 
+          ex<lb break="no" ed="#P" n="31"/>ternis sensibus. Unde Aristoteles, in libro de
+          <lb ed="#P" n="32"/>Sensib. et sensu, c. 2, reprehendit Democritum
+          <lb ed="#P" n="33"/>astruentem visionem esse imaginem, id est,
+          <lb ed="#P" n="34"/>speciem, ut S. Thomas ibidem exposuit.
+        </p>
+        <p xml:id="szdada-y15274-d1e377">
+          <lb ed="#P" n="35"/>4. Probatur ulterius quoad distinctionem a
+          <lb ed="#P" n="36"/>potentia contra alios multiplici ratione 
+          natu<lb break="no" ed="#P" n="37"/>rali.— Quod etiam actus cognitionis non sit
+          <lb ed="#P" n="38"/>idem cum potentia, ut alii maluerunt, 
+          proba<lb break="no" ed="#P" n="39"/>tur, explicando prius intentum: aiunt enim
+          <lb ed="#P" n="40"/>auctores cognitionem consistere in vitali 
+          at<lb break="no" ed="#P" n="41"/>tentione minime distincta realiter a potentia,
+          <lb ed="#P" n="42"/>sed modaliter tantum, idque sufficere, ut ab illa
+          <lb ed="#P" n="43"/>fiat effective sicut etiam animal cum effectivese
+          <lb ed="#P" n="44"/>movet, nihil realiter distinctum a seipso efficit.
+          <lb ed="#P" n="45"/>Contra hoc igitur argumentor multipliciter.
+          <lb ed="#P" n="46"/>Primo, si actio cognoscendi esset animae 
+          at<lb break="no" ed="#P" n="47"/>tentio, identificaretur potius cum ipsa anima,
+          <lb ed="#P" n="48"/>quam cum potentia, imo superflua esset 
+          dis<lb break="no" ed="#P" n="49"/>tincta potentia, atque ita anima ipsa esset 
+          po<lb break="no" ed="#P" n="50"/>tentia, et operatio, quod repugnat rationi
+          <lb ed="#P" n="51"/>creaturae. Secundo, quia jam sensatio esset
+          <lb ed="#P" n="52"/>idem cum anima, atque adeo acto esset animae
+          <lb ed="#P" n="53"/>propria, et non conjuncti, consequenterque
+          <lb ed="#P" n="54"/>spiritualis esset, ac rei subsistentis, brutisque
+          <lb ed="#P" n="55"/>repugnans. Tertio ad hujusmodi attentionem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>receptio specierum non requiritur, 
+          attendi<lb break="no" ed="#P" n="57"/>mus enim etiamsi speciem non recipiamus, 
+          ve<lb break="no" ed="#P" n="58"/>luti cum expectamus, an aliquid audire 
+          possi<lb break="no" ed="#P" n="59"/>mus, quia scilicet ad attendendum sat est 
+          ex<lb break="no" ed="#P" n="60"/>peditos esse, ac aliis actionibus vacuos. Ex quo
+          <lb ed="#P" n="61"/>ulterius sequitur, primo, si auditio sola est
+          <lb ed="#P" n="62"/>attentio, jam tunc ex parte animae factum esse
+          <lb ed="#P" n="63"/>quidquid ad audiendum requiritur, nec tamen
+          <lb ed="#P" n="64"/>audire, ac postea sine nova efficientia 
+          auditio<lb break="no" ed="#P" n="65"/>nem dari. Sequitur secundo posita attentione
+          <lb ed="#P" n="66"/>ex parte animae, atque objecto sonante, fore
+          <lb ed="#P" n="67"/>ut absque ulla multiplicatione specierum 
+          au<lb break="no" ed="#P" n="68"/>diatur: siquidem auditiva actio, scilicet 
+          at<lb break="no" ed="#P" n="69"/>tentio, jam praeerat, objectumque similiter:
+          <lb ed="#P" n="70"/>nihil autem aliud est necessarium, juxta 
+          adver<lb break="no" ed="#P" n="71"/>sarios, idemque argumentum urgetur in visu.
+          <lb ed="#P" n="72"/>Nam praesente objecto visibili anima sine 
+          spe<lb break="no" ed="#P" n="73"/>cie potest attendere, atque adeo videre: 
+          re<lb break="no" ed="#P" n="74"/>dundabit ergo species. Quarto: aut visio est
+          <lb ed="#P" n="75"/>attentio ad objectum in se, aut ad 
+          immutatio<lb break="no" ed="#P" n="76"/>nem, quam ipsum facit in potentia. Si 
+          pri<lb break="no" ed="#P" n="77"/>mum: sane ad cognoscendum non requiritur
+          <lb ed="#P" n="78"/>immntatio, cum possit visus attendere absque
+          <lb ed="#P" n="79"/>specie, ut est explicatum. Secundum vero est
+          <lb ed="#P" n="80"/>impossibile, cum immnutatio intentionalis 
+          neu<lb break="no" ed="#P" n="81"/>tiquam sentitur: ergo ex vi attentionis ad 
+          il<lb break="no" ed="#P" n="82"/>lam, objectum non percipietur. Accedit, quod
+          <lb ed="#P" n="83"/>de intellectu saltem explicari nequeat dicta
+          <lb ed="#P" n="84"/>sententia: haec enim potentia apprehendit et
+          <lb ed="#P" n="85"/>judicat, componit et discurrit sciendo, 
+          opi<lb break="no" ed="#P" n="86"/>nando, errando, etc., incredibile autem est
+          <lb ed="#P" n="87"/>hosce actus omnes ipsummet esse intellectum,
+          <lb ed="#P" n="88"/>aut speciem: quocirca quae de talibus actibus
+          <lb ed="#P" n="89"/>experimur aperte ostendunt veritatem 
+          conclu<lb break="no" ed="#P" n="90"/>sionis.
+        </p>
+        <p xml:id="szdada-y15274-d1e503">
+          <lb ed="#P" n="91"/>5. Probatur tandem ex iis quee fides docet.
+          <lb ed="#P" n="92"/>—Esa etiam, quae fides docet, idem ostendunt:
+          <lb ed="#P" n="93"/>intelliguntur enim multo facilius, positis 
+          ac<lb break="no" ed="#P" n="94"/>tibus realiter distinctis a potentiis et speciebus.
+          <lb ed="#P" n="95"/>Nam secundum fidem in intellectu nostro 
+          ac<lb break="no" ed="#P" n="96"/>tus dantur supernaturales credendi, quos 
+          in<lb break="no" ed="#P" n="97"/>tellectus habere nequit suis viribus, ipso eiam
+          <lb ed="#P" n="98"/>objecto supernaturali sufficienter proposito. In
+          <lb ed="#P" n="99"/>patria quoque actus videntis Deum 
+          supernatu<lb break="no" ed="#P" n="100"/>ralis est, ad quem secundum fidem ponitur
+          <lb ed="#P" n="101"/>lumen gloriae necessarium: qua ergo ratione
+          <lb ed="#P" n="102"/>intelligi potest ejusmodi actus, ipsum esse 
+          in<lb break="no" ed="#P" n="103"/>tellectum, aut speciem? Eadem autem ratio
+          <lb ed="#P" n="104"/>est de uno actu, vel potentia, atque de 
+          omni<lb break="no" ed="#P" n="105"/>bus: concludendum igitur actum cognitionis
+          <lb ed="#P" n="106"/>esse veram qualitatem, contra quam si quae
+          <lb ed="#P" n="107"/>fuerint argumenta sequenti capite diluentur,
+          <lb ed="#P" n="108"/>allata vero ex Aristotele, D. Augustino, et
+          <lb ed="#P" n="109"/>D. Thoma, in numero primo, intelligenda sunt
+          <lb ed="#P" n="110"/>causaliter, non formaliter.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

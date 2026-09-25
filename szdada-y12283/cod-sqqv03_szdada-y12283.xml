@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="506"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y12283"><!-- t3l1c7 -->
+        <head xml:id="szdada-y12283-Hd1e101">Caput 7</head>
+        <head xml:id="szdada-y12283-Hd1e103" type="question-title">Cur tres tantum animae distinguantur, cum numerentur quatuor viventium gradus, et quinque potentiarum genera</head>
+        <p xml:id="szdada-y12283-d1e106">
+          <pb ed="#P" n="506"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT VII.
+          <lb ed="#P" n="2"/>CUR TRES TANTUM ANIMAE DISTINGUANTUR, CUM
+          <lb ed="#P" n="3"/>NUMERENTUR QUATUOR VIVENTIUM GRADUS, ET
+          <lb ed="#P" n="4"/>QUINQUE POTENTIARUM GENERA.
+        </p>
+        <p xml:id="szdada-y12283-d1e122">
+          <lb ed="#P" n="5"/>1. Ratio dubitandi bifida.—Prima pars.—
+          <lb ed="#P" n="6"/>Secunda pars ex Aristotele.—Confirmatur.—
+          <lb ed="#P" n="7"/>In hoc capite explicandum est, quod in quarto
+          <lb ed="#P" n="8"/>capite, n. 3, quarto loco posuimus., scilicet,
+          <lb ed="#P" n="9"/>an praedicta divisio sufficiens sit. Et ratio 
+          du<lb break="no" ed="#P" n="10"/>bitandi esse potest, quia gradus non 
+          distin<lb break="no" ed="#P" n="11"/>guuntur a nobis, nisi per operationes, et 
+          fa<lb break="no" ed="#P" n="12"/>cultates: quia illos non in se, neque per causas
+          <lb ed="#P" n="13"/>cognoscimus, sed a posteriori per etfectus 
+          in<lb break="no" ed="#P" n="14"/>vestigamus, et sic animae potentiae 
+          distinguun<lb break="no" ed="#P" n="15"/>tur quinque ab Aristotele, scilicet vegetativa,
+          <lb ed="#P" n="16"/>sensitiva, intellectiva, appetitiva et potentia
+          <lb ed="#P" n="17"/>motiva, et modi operationum distinguuntur
+          <lb ed="#P" n="18"/>saltem quatuor. Ergo quinque, vel saltem
+          <lb ed="#P" n="19"/>quatuor animae sunt distinguendae. Et hoc
+          <lb ed="#P" n="20"/>posterius de quatuor modis operationum, 
+          con<lb break="no" ed="#P" n="21"/>firmat Aristoteles, libro secundo, de Anima,
+          <lb ed="#P" n="22"/>capite secundo. Ubi in posteriori animae 
+          defi<lb break="no" ed="#P" n="23"/>nitione quatuor membra ponit, dicens: 
+          Ani<lb break="no" ed="#P" n="24"/>mam esse principium eorum quee his 
+          definiun<lb break="no" ed="#P" n="25"/>tur, vegetativo, sensitivo, intellectivo, etiam
+          <lb ed="#P" n="26"/>motu. Ergo addendum fuisset m divisione
+          <lb ed="#P" n="27"/>quartum membrum, scilicet, anima loco 
+          mo<lb break="no" ed="#P" n="28"/>tiva. Probatur consequentia, quia etiam illa
+          <lb ed="#P" n="29"/>est actus corporis physici organici et 
+          princi<lb break="no" ed="#P" n="30"/>pium specialis operationis vitalis, utique 
+          mo<lb break="no" ed="#P" n="31"/>tus progressivi, qui viventium proprius est, et
+          <lb ed="#P" n="32"/>non minus distinguitur ab aliis tribus 
+          anima<lb break="no" ed="#P" n="33"/>bus, quam ipsae inter se distinguantur. Nam 
+          si<lb break="no" ed="#P" n="34"/>cut anima vegetativa separabilis est a sensitiva,
+          <lb ed="#P" n="35"/>et non e contra: ita anima sensitiva 
+          secun<lb break="no" ed="#P" n="36"/>dum ipsum Aristotelem est separabilis a loco
+          <lb ed="#P" n="37"/>motiva, et non e contrario, et loco motiva 
+          se<lb break="no" ed="#P" n="38"/>parabilis est a rationali, et non e converso:
+          <lb ed="#P" n="39"/>ergo eadem ratio est distinguendi animam
+          <lb ed="#P" n="40"/>loco motivam a caeteris, et constituendi illam
+          <lb ed="#P" n="41"/>inter sensitivam, et rationalem, quae est 
+          dis<lb break="no" ed="#P" n="42"/>tinguendi caeteras inter se. Et confirmatur,
+          <lb ed="#P" n="43"/>quia, ut diximus, eadem est ratio de toto, et
+          <lb ed="#P" n="44"/>de parte, seu de concreto, et abstracto, 
+          ser<lb break="no" ed="#P" n="45"/>vata proportionc. Sed Aristoteles distinxit 
+          qua<lb break="no" ed="#P" n="46"/>tuor gradus viventium: ergo eadem ratione
+          <lb ed="#P" n="47"/>distinguere debuit quatuor species animarum.
+        </p>
+        <p xml:id="szdada-y12283-d1e218">
+          <lb ed="#P" n="48"/>2. Altera ratio dubitandi. — lmo hinc 
+          ulte<lb break="no" ed="#P" n="49"/>rius sequitur, plures quam quatuor animas
+          <lb ed="#P" n="50"/>esse distinguendas: quia ut duae species 
+          ani<lb break="no" ed="#P" n="51"/>marum distinguantur, satis est ut ita inter se
+          <lb ed="#P" n="52"/>comparentur, quod una sit ab alia separabilis,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>et non e contrario: sicut vegetativa separatur
+          <lb ed="#P" n="54"/>a sensitiva, et non e converso: at vero intra
+          <lb ed="#P" n="55"/>latitudinem animae sensitivae, possunt plura
+          <lb ed="#P" n="56"/>membra eodem modo distingui. Nam 
+          impri<lb break="no" ed="#P" n="57"/>mis quaedam est anima, quae solum est 
+          princi<lb break="no" ed="#P" n="58"/>pium tangendi, seu sensus tactus, et separatur
+          <lb ed="#P" n="59"/>ab alns sensibus, licet e contrario anima 
+          sensi<lb break="no" ed="#P" n="60"/>tiva simpliciter non sit separabilis ab anima
+          <lb ed="#P" n="61"/>tactiva, ut sic dicam. Unde Philoponus, lib. 2,
+          <lb ed="#P" n="62"/>cap. 2, de Anima, distinguit gradum 
+          viven<lb break="no" ed="#P" n="63"/>tium medium inter plantas, et animalia, quem
+          <lb ed="#P" n="64"/>vocat plantanimal: quia nec est tantum planta,
+          <lb ed="#P" n="65"/>cum participet sensum tactus, nec simpliciter
+          <lb ed="#P" n="66"/>animal, cum non participet absolute gradum
+          <lb ed="#P" n="67"/>sensitivum. Et quidquid sit de modo loquendi,
+          <lb ed="#P" n="68"/>illa anima tactiva separabilis est a sensitiva
+          <lb ed="#P" n="69"/>perfecta, licet non e contrario: ergo eadem
+          <lb ed="#P" n="70"/>ratione constituet peculiarem animae speciem.
+          <lb ed="#P" n="71"/>Ultra has vero animas addi potest anima 
+          con<lb break="no" ed="#P" n="72"/>cupiscens: nam haec etiam est distincta 
+          ani<lb break="no" ed="#P" n="73"/>mae vis, quae a quibusdam aliarum separabilis
+          <lb ed="#P" n="74"/>est: licet non ab omnibus. Imo Plato i»n 
+          Ti<lb break="no" ed="#P" n="75"/>cro illam divisit in irascibilem et 
+          concupisci<lb break="no" ed="#P" n="76"/>bilem: quibus addidit solam rationalem, et
+          <lb ed="#P" n="77"/>ita modo alio longe diverso trimembrem 
+          ani<lb break="no" ed="#P" n="78"/>marum divisionem tradidit, quem in hoc alii
+          <lb ed="#P" n="79"/>multi postea imitati sunt.
+        </p>
+        <p xml:id="szdada-y12283-d1e293">
+          <lb ed="#P" n="80"/>3. Resolutio. — Probatur auctoritate. — Ft
+          <lb ed="#P" n="81"/>D. Thomee discursu. — Nihilominus constans
+          <lb ed="#P" n="82"/>est omnium philosophorum sententia tres 
+          tan<lb break="no" ed="#P" n="83"/>tum esse animarum gradus, prout in illa 
+          divi<lb break="no" ed="#P" n="84"/>sione numerantur. Ita enim sentit Aristoteles,
+          <lb ed="#P" n="85"/>in lib. 2, de Anim., ubi omnes expositores
+          <lb ed="#P" n="86"/>consentiunt. Tradit etiam optime D. 
+          Augusti<lb break="no" ed="#P" n="87"/>nus, lib. de Quantitate animae, cap. 33, ubi
+          <lb ed="#P" n="88"/>licet septem gradus vitae distinguat: 
+          nihilomi<lb break="no" ed="#P" n="89"/>nus tres tantum primi ad distinctionem 
+          ani<lb break="no" ed="#P" n="90"/>marum, et ad naturalem philosophiam 
+          perti<lb break="no" ed="#P" n="91"/>nent: nam reliqui ad moralem, vel ad 
+          super<lb break="no" ed="#P" n="92"/>naturalem statum viae, aut patriae spectant :
+          <lb ed="#P" n="93"/>et ita non mutant, nec multiplicant animarum
+          <lb ed="#P" n="94"/>species, sed varias perfectiones, et ornamenta
+          <lb ed="#P" n="95"/>ejusdem rationalis animae continent. Docuit
+          <lb ed="#P" n="96"/>etiam divisionem illam divus Thomas, 1part.,
+          <lb ed="#P" n="97"/>quaest. 78, art. 1, ubi sufficientiam illius 
+          divi<lb break="no" ed="#P" n="98"/>sionis ex operationibus colligit in hunc fere
+          <lb ed="#P" n="99"/>modum. Quia in hoc distinguitur gradus 
+          ani<lb break="no" ed="#P" n="100"/>mae in genere ab aliis formis inanimatorum,
+          <lb ed="#P" n="101"/>quod est principium intrinsecum operationis
+          <lb ed="#P" n="102"/>viventis in seipsam, et ad suam perfectionem
+          <lb ed="#P" n="103"/>per se operantis, quem modum operandi 
+          ina<lb break="no" ed="#P" n="104"/>nimata non habent, ut supra ostensum est. At
+          <lb ed="#P" n="105"/>vero inter viventia ipsa tres modi sic operandi
+          <lb ed="#P" n="106"/>in seipsis inveniuntur. Unus est operandi in se
+          <lb ed="#P" n="107"/>per organa corporis, et per qualitates mate-
+          <pb ed="#P" n="507"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>riales et corporeas, et hic est infimus, et ad
+          <lb ed="#P" n="2"/>vegetativam animam pertinet. Alius modus
+          <lb ed="#P" n="3"/>operandi est per organa corporis, mediis 
+          ta<lb break="no" ed="#P" n="4"/>men qualitatibus aliquo modo incorporeis, et
+          <lb ed="#P" n="5"/>sic operatur anima sensitiva. Tertius modus
+          <lb ed="#P" n="6"/>operationis est absque organo, vel qualitate
+          <lb ed="#P" n="7"/>corporea, qui est proprius animae rationalis;
+          <lb ed="#P" n="8"/>ergo per habitudines ad hos tres modus 
+          ope<lb break="no" ed="#P" n="9"/>randi optime, et sufficienter distinguuntur
+          <lb ed="#P" n="10"/>tres gradus animarum.
+        </p>
+        <p xml:id="szdada-y12283-d1e382">
+          <lb ed="#P" n="11"/>4. Difficultas prima circa hunc discursum.
+          <lb ed="#P" n="12"/>— Difficultas secunda. — In quo discursu 
+          pri<lb break="no" ed="#P" n="13"/>mum dubitare quis potest circa subsumptam
+          <lb ed="#P" n="14"/>propositionem, cur anima vegetativa dicatur
+          <lb ed="#P" n="15"/>operari per qualitates materiales et corporeas,
+          <lb ed="#P" n="16"/>potius quam sensitiva. Nam si per qualitates
+          <lb ed="#P" n="17"/>materiales intelligantur primae qualitates 
+          ele<lb break="no" ed="#P" n="18"/>mentorum, vel mixtae ex illis, quae communes
+          <lb ed="#P" n="19"/>sunt corporibus inanimatis: non per illas 
+          tan<lb break="no" ed="#P" n="20"/>tum operatur anima vegetativa, sed etiam per
+          <lb ed="#P" n="21"/>proprias potentias, vitalem et nutritivam: et
+          <lb ed="#P" n="22"/>si quas alias habet adjutrices: ut attractivam,
+          <lb ed="#P" n="23"/>expulsivam, etc. Si vero per qualitates 
+          mate<lb break="no" ed="#P" n="24"/>riales intelligamus qualitates extensas in 
+          ma<lb break="no" ed="#P" n="25"/>teria, et ab illa pendentes, etiam anima 
+          sensi<lb break="no" ed="#P" n="26"/>tiva per qualitates tantum materiales operatur.
+          <lb ed="#P" n="27"/>Ergo ratio illa distinguendi duas animas, non
+          <lb ed="#P" n="28"/>recte subsistit. Unde oritur etiam difficultas
+          <lb ed="#P" n="29"/>circa tertium membrum: quia licet ille modus
+          <lb ed="#P" n="30"/>operandi valde diversus sit, videtur tamen
+          <lb ed="#P" n="31"/>excedere rationem animae, ut anima est, cum
+          <lb ed="#P" n="32"/>anima uniatur corpori propter usum ejus ad
+          <lb ed="#P" n="33"/>operationem suam.
+        </p>
+        <p xml:id="szdada-y12283-d1e434">
+          <lb ed="#P" n="34"/>5. Responsio ad primam difficultatem. —
+          <lb ed="#P" n="35"/>Difficultatis secunde expeditio remittitur. —
+          <lb ed="#P" n="36"/>Dicendum vero est, in praesenti corporeas 
+          qua<lb break="no" ed="#P" n="37"/>litates appellari illas, quae materiam ipsam
+          <lb ed="#P" n="38"/>concernunt, et disponunt in ordine ad suum
+          <lb ed="#P" n="39"/>esse, vel ad esse substantiale ipsius compositi,
+          <lb ed="#P" n="40"/>aut partium ejus, et sic dicitur anima 
+          vegeta<lb break="no" ed="#P" n="41"/>tiva operari per has qualitates, non quia non
+          <lb ed="#P" n="42"/>habeat aliquam propriam potentiam vitalem:
+          <lb ed="#P" n="43"/>sed quia haec prox me utitur calore, seu 
+          tem<lb break="no" ed="#P" n="44"/>peramento materiali ad suam operationem, et
+          <lb ed="#P" n="45"/>ita operatio ejus in substantia sua non 
+          trans<lb break="no" ed="#P" n="46"/>cendit actiones materiales, sed tantum in modo,
+          <lb ed="#P" n="47"/>ut supra explicavi. Unde in eodem sensu 
+          nega<lb break="no" ed="#P" n="48"/>tur, animam sensitivam operari per qualitates
+          <lb ed="#P" n="49"/>corporeas: non quia operetur per proprias
+          <lb ed="#P" n="50"/>qualitates spirituales et immateriales, sed quia
+          <lb ed="#P" n="51"/>per subtiliores formas aliquo modo a 
+          crassitu<lb break="no" ed="#P" n="52"/>dine materiae abstractas operatur. Dices, ergo
+          <lb ed="#P" n="53"/>fundatur hic discursus in speciebus 
+          intentio<lb break="no" ed="#P" n="54"/>nalibus, quarum positio valde incerta est. 
+          Res<lb break="no" ed="#P" n="55"/>pondeo imprimis nobis esse satis certam. Et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>deinde qui iilas negaverit, negare certe non
+          <lb ed="#P" n="57"/>poterit ipsos actus sentiendi esse actiones, vel
+          <lb ed="#P" n="58"/>qualitates altioris ordinis, quam sint 
+          quali<lb break="no" ed="#P" n="59"/>tates mere corporales ; et consequenter 
+          poten<lb break="no" ed="#P" n="60"/>tias animae, si per seipsas, et sine speciebus
+          <lb ed="#P" n="61"/>tales actus efficere possunt, esse multo 
+          altio<lb break="no" ed="#P" n="62"/>ris, et sublimioris naturae. Atque ita non 
+          mi<lb break="no" ed="#P" n="63"/>nus efficaciter colhgitur distinctio illius gradus
+          <lb ed="#P" n="64"/>ab inferiori, positis speciebus intentionalibus,
+          <lb ed="#P" n="65"/>quam sine illis. Unde posset etiam distinctio
+          <lb ed="#P" n="66"/>illorum duorum graduum ita explicari. Quia
+          <lb ed="#P" n="67"/>operatio rei viventis circa seipsam, aut 
+          ordi<lb break="no" ed="#P" n="68"/>natur tantum ad seipsam perficiendam, 
+          con<lb break="no" ed="#P" n="69"/>servandam, vcl propagandam in suo esse 
+          na<lb break="no" ed="#P" n="70"/>turali, et sic pertinet ad gradum vegetativum:
+          <lb ed="#P" n="71"/>vel ordinatur ad se perficiendam recipiendo
+          <lb ed="#P" n="72"/>in se res alias, et quodam modo formas, vel
+          <lb ed="#P" n="73"/>simulacra illarum in se formando: et his sine
+          <lb ed="#P" n="74"/>dubio altior modus operationis est: ex quo 
+          ge<lb break="no" ed="#P" n="75"/>neralis ratio animae cognoscentis distinctae a
+          <lb ed="#P" n="76"/>vegetabili consurgit. Ille autem operandi 
+          mo<lb break="no" ed="#P" n="77"/>dus, vel per organum corporeum, vel sine illo
+          <lb ed="#P" n="78"/>fieri potest, et sic distinguuntur duae aliae 
+          ani<lb break="no" ed="#P" n="79"/>mmae, sensitiva et rationalis. De hac vero, 
+          quo<lb break="no" ed="#P" n="80"/>modo si vera anima, licet ad suam propriam
+          <lb ed="#P" n="81"/>operationem corpore, ut proprio organo, et
+          <lb ed="#P" n="82"/>instrumento immediate non utatur, in 
+          se<lb break="no" ed="#P" n="83"/>quentibus dicemus.
+        </p>
+        <p xml:id="szdada-y12283-d1e547">
+          <lb ed="#P" n="84"/>6. Concluditur prior pars consequentiee 
+          po<lb break="no" ed="#P" n="85"/>sitee in fine n. 3. — Concluditur posterior. —
+          <lb ed="#P" n="86"/>Atque ita probata relinquitur consequentia
+          <lb ed="#P" n="87"/>primi discursus principalis, nimirum, 
+          divisio<lb break="no" ed="#P" n="88"/>nem esse bonam et sufficientem. Prior enim
+          <lb ed="#P" n="89"/>pars probatur: quia nos non possumus 
+          dis<lb break="no" ed="#P" n="90"/>tinctionem formarum, nisi ex operationibus
+          <lb ed="#P" n="91"/>venari: illa autem tria genera operationum
+          <lb ed="#P" n="92"/>distinctissima sunt, et in modo abstrahendi a
+          <lb ed="#P" n="93"/>materia plurimum inter se distant. Ergo 
+          op<lb break="no" ed="#P" n="94"/>time ex illis colligitur distinctio essentialis, seu
+          <lb ed="#P" n="95"/>formalis inter illa membra. Altera item pars
+          <lb ed="#P" n="96"/>de sufficientia, et adaequatione (ut sic dicam)
+          <lb ed="#P" n="97"/>membrorum cum diviso patet, quia nullum
+          <lb ed="#P" n="98"/>modum operandi formae informantis corpus et
+          <lb ed="#P" n="99"/>superantis modum agendi inanimatorum 
+          in<lb break="no" ed="#P" n="100"/>venire possumus, qui sub illis tribus non 
+          com<lb break="no" ed="#P" n="101"/>prehendatur. Quia nec experientia illum 
+          os<lb break="no" ed="#P" n="102"/>tendit, nec facile cogitari potest, etiamsi 
+          fin<lb break="no" ed="#P" n="103"/>gendi detur licentia.
+        </p>
+        <p xml:id="szdada-y12283-d1e593">
+          <lb ed="#P" n="104"/>7. Enucleatur amplius duplici notatione. —
+          <lb ed="#P" n="105"/>Et hoc fiet facilius, et evidentius si duo 
+          consi<lb break="no" ed="#P" n="106"/>derentur. Unum est, partitionem illam, 
+          quam<lb break="no" ed="#P" n="107"/>vis adaequatam, non esse omnibus membris
+          <lb ed="#P" n="108"/>immediatam. Potuisset enim anima in 
+          com<lb break="no" ed="#P" n="109"/>muni immediate dividi in vegetantem et 
+          co<lb break="no" ed="#P" n="110"/>gnoscentem: et rursus cognoscens in sentien-
+          <pb ed="#P" n="508"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tem et intelligentem: quia sensus et intellectus
+          <lb ed="#P" n="2"/>majorem convenientiam inter se habent quam
+          <lb ed="#P" n="3"/>cum vegetandi facultate. Quia vero ad 
+          physi<lb break="no" ed="#P" n="4"/>cam cognitionem animarum illa convenientia
+          <lb ed="#P" n="5"/>parum conferebat: ideo immediate tradita est
+          <lb ed="#P" n="6"/>trimembris divisio. Aliud considerandum est,
+          <lb ed="#P" n="7"/>membra illa non esse aeque universalia: nam
+          <lb ed="#P" n="8"/>sub primo et secundo membro variae species,
+          <lb ed="#P" n="9"/>vel etiam genera animarum comprehenduntur:
+          <lb ed="#P" n="10"/>tertium autem unam tantum speciem ultimam
+          <lb ed="#P" n="11"/>continet. Unde si danda esset adaequata divisio
+          <lb ed="#P" n="12"/>animae per ultimas ejus species, innumera
+          <lb ed="#P" n="13"/>membra recensenda fuissent. Verumtamen 
+          ni<lb break="no" ed="#P" n="14"/>mis operosum, et fere impossibile esset 
+          ad<lb break="no" ed="#P" n="15"/>sequatam divisionem illo modo tradere, nec
+          <lb ed="#P" n="16"/>ad generalem doctrinam de anima pertinet.
+          <lb ed="#P" n="17"/>Data est ergo illa divisio per generales modos
+          <lb ed="#P" n="18"/>operandi in corpore cum aliqua excellentia, et
+          <lb ed="#P" n="19"/>minori dependentia a materia, quorum divisio
+          <lb ed="#P" n="20"/>necessaria erat ad distinctam notitiam 
+          perfec<lb break="no" ed="#P" n="21"/>tiorum animarum, et praecipue rationalis, et
+          <lb ed="#P" n="22"/>omnium facultatum, et actionum ejus, et ideo,
+          <lb ed="#P" n="23"/>et sufficientissima, et maxime doctrinalis est.
+        </p>
+        <p xml:id="szdada-y12283-d1e665">
+          <lb ed="#P" n="24"/>8. Ad rationem dubitandi in n. 1, generalis
+          <lb ed="#P" n="25"/>responsio.—3Ad primam rationem dubitandi in
+          <lb ed="#P" n="26"/>contrarium respondetur, imprimis generaliter
+          <lb ed="#P" n="27"/>non esse necessarium tot multiplicare animas,
+          <lb ed="#P" n="28"/>quot operationes, vel potentias: quia una 
+          ani<lb break="no" ed="#P" n="29"/>ma potest habere plures operationes et 
+          poten<lb break="no" ed="#P" n="30"/>tias: ut anima rationalis, licet una specie sit,
+          <lb ed="#P" n="31"/>habet intellectum et voluntatem, et anima
+          <lb ed="#P" n="32"/>sensitiva habet plures sensus, et appetitum.
+          <lb ed="#P" n="33"/>Unde regula generalis est, quando una 
+          poten<lb break="no" ed="#P" n="34"/>tia comitatur aliam, et una ab alia non 
+          sepa<lb break="no" ed="#P" n="35"/>ratur, licet potentiae ipsae multiplicentur, non
+          <lb ed="#P" n="36"/>propterea animarum genera, seu gradus 
+          multi<lb break="no" ed="#P" n="37"/>plicari. Et hac ratione, licet appetitus vitalis
+          <lb ed="#P" n="38"/>ut specialis potentia, non constituit specialem
+          <lb ed="#P" n="39"/>animae gradum, quia semper cum proportione
+          <lb ed="#P" n="40"/>cognoscentem potentiam comitatur. Et idem
+          <lb ed="#P" n="41"/>videtur cum proportione dicendum de potentia
+          <lb ed="#P" n="42"/>secundum locum motiva, saltem quoad 
+          per<lb break="no" ed="#P" n="43"/>fecta animalia: nam sequitur sensum et 
+          appe<lb break="no" ed="#P" n="44"/>titum, et ab eis non separatur.
+        </p>
+        <p xml:id="szdada-y12283-d1e714">
+          <lb ed="#P" n="45"/>9. Responsio specialis pro prima parte ib.
+          <lb ed="#P" n="46"/>— Et ita ad priorem partem illius difficultatis
+          <lb ed="#P" n="47"/>fatemur, dari quinque potentias animae: 
+          qua<lb break="no" ed="#P" n="48"/>rum sufflicientiam tradit D. Thomas, d. q. 78,
+          <lb ed="#P" n="49"/>art. 1. Nobis vero suflficit, quod divisio est ad
+          <lb ed="#P" n="50"/>tradendam doctrinam de anima accommodata,
+          <lb ed="#P" n="51"/>et quod nulla cogitari potest animae potentia,
+          <lb ed="#P" n="52"/>quae sub illis membris non contineatur, licet
+          <lb ed="#P" n="53"/>facile posset in plura distingui, vel aliis modis
+          <lb ed="#P" n="54"/>commode fieri. Vel distinguendo appetitum
+          <lb ed="#P" n="55"/>in sensitivum et rationalem: sicut cognos
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cendi facultates, vel distinguendo potentiam
+          <lb ed="#P" n="57"/>generativam, quae in illa divisione sub 
+          vege<lb break="no" ed="#P" n="58"/>tativa comprehenditur: satis vero est, ut dixi,
+          <lb ed="#P" n="59"/>illam divisionem esse sufficientem, claram, et
+          <lb ed="#P" n="60"/>doctrinae accommodatam. Ex illa vero non
+          <lb ed="#P" n="61"/>sequitur multiplicatio animarum: quia tres
+          <lb ed="#P" n="62"/>ex illis potentiis uni animae sensitivae 
+          conve<lb break="no" ed="#P" n="63"/>niunt. Idemque cum proportione dicendum
+          <lb ed="#P" n="64"/>videtur de anima secundum locum motiva;
+          <lb ed="#P" n="65"/>nimirum, non constituere peculiarem animae
+          <lb ed="#P" n="66"/>rationem, nisi quatenus sub anima sensitiva
+          <lb ed="#P" n="67"/>plures species, vel etiam genera animarum
+          <lb ed="#P" n="68"/>sensitivarum subdistingui possunt Nam anima
+          <lb ed="#P" n="69"/>secundum locum motiva sensitiva est: quia
+          <lb ed="#P" n="70"/>per sensum, et appetitum efficit motum, licet
+          <lb ed="#P" n="71"/>fortasse per specialem facultatem in membris
+          <lb ed="#P" n="72"/>corporis existentem, illum exequatur, hoc
+          <lb ed="#P" n="73"/>enim non satis ad constituendum novum 
+          ani<lb break="no" ed="#P" n="74"/>mae gradum, aut genus sub illis tribus non
+          <lb ed="#P" n="75"/>comprehensum. OQuia (ut dictum est) ex 
+          ea<lb break="no" ed="#P" n="76"/>dem anima plures oriuntur facultates inter se
+          <lb ed="#P" n="77"/>subordinatae.
+        </p>
+        <p xml:id="szdada-y12283-d1e790">
+          <lb ed="#P" n="78"/>10. Responsio una pro secunda parte in 
+          eo<lb break="no" ed="#P" n="79"/>dem n. 1. — Unde ad replicam de 
+          separabili<lb break="no" ed="#P" n="80"/>tate animae sensitivae a loco motiva, et none
+          <lb ed="#P" n="81"/>converso, respondeo imprimis animas non
+          <lb ed="#P" n="82"/>distingui per solam illam separabilitatem, quae
+          <lb ed="#P" n="83"/>ex majori, vel minori potentiarum numero
+          <lb ed="#P" n="84"/>potest consurgere: ut si una anima habeat
+          <lb ed="#P" n="85"/>omnes facultates, quas habeat alia, et ultra
+          <lb ed="#P" n="86"/>illas habeat aliquam, vel aliquas non 
+          commu<lb break="no" ed="#P" n="87"/>nes alteri. Quae differentia interdum provenire
+          <lb ed="#P" n="88"/>potest ex majori, vel minori perfectione 
+          spe<lb break="no" ed="#P" n="89"/>cifica intra eumdem gradum animae: quando
+          <lb ed="#P" n="90"/>omnes illae potentiae eumdem modum operandi
+          <lb ed="#P" n="91"/>cum dependentia a materia, et qualitatibus
+          <lb ed="#P" n="92"/>corporis participant. At vero generalis divisio
+          <lb ed="#P" n="93"/>animae per diversos modos abstractionis, vel
+          <lb ed="#P" n="94"/>(ut ita dicam) magis, vel minus materialiter
+          <lb ed="#P" n="95"/>operandi data est. Et ideo sub uno membro
+          <lb ed="#P" n="96"/>comprehendi possunt plures animae alias 
+          diffe<lb break="no" ed="#P" n="97"/>rentias inter se habentes.
+        </p>
+        <p xml:id="szdada-y12283-d1e836">
+          <lb ed="#P" n="98"/>11. Responsio altera. — Deinde respondeo
+          <lb ed="#P" n="99"/>animam sensitivam non separari omnino a
+          <lb ed="#P" n="100"/>loco motiva: quia nullum est vivens 
+          partici<lb break="no" ed="#P" n="101"/>pans sensum, quod non participet vim 
+          mo<lb break="no" ed="#P" n="102"/>vendi se, juxta capacitatem suam, et cum
+          <lb ed="#P" n="103"/>proportione. Nam si perfectam facultatem
+          <lb ed="#P" n="104"/>sentiendi internam et externam habet, vim
+          <lb ed="#P" n="105"/>etiam se movendi habet perfectam, utique
+          <lb ed="#P" n="106"/>incedendo ab uno loco integro in alium, vel
+          <lb ed="#P" n="107"/>gradiendo, vel volando, vel saltando, natando,
+          <lb ed="#P" n="108"/>etc. Si vero imperfectum sensum habeat, ut
+          <lb ed="#P" n="109"/>solum tactum, saltem potest moveri, se 
+          dila<lb break="no" ed="#P" n="110"/>tando et constringendo, et sic mutando locum
+          <pb ed="#P" n="509"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>etiam sibi adaequatum licet tardo et imperfecto
+          <lb ed="#P" n="2"/>modo. Sic enim diximus supra probando 
+          plan<lb break="no" ed="#P" n="3"/>tas non sentire, nullum esse vivens sentiens,
+          <lb ed="#P" n="4"/>quod non exhibeat aliqua exteriora signa
+          <lb ed="#P" n="5"/>cognitionis, quae signa, non nisi interventu
+          <lb ed="#P" n="6"/>alicujus motus localis animalia exhibent. 
+          Om<lb break="no" ed="#P" n="7"/>ne enim vivens exterius sentiens, phantasiam,
+          <lb ed="#P" n="8"/>seu sensum internum, et consequenter etiam
+          <lb ed="#P" n="9"/>dolorem, vel voluptatem participat, et per
+          <lb ed="#P" n="10"/>motum aliquem illarum affectionum signa
+          <lb ed="#P" n="11"/>exprimunt, dum se dilatant, aut colligunt.
+          <lb ed="#P" n="12"/>Verisimile etiam est sentire famem, vel 
+          ni<lb break="no" ed="#P" n="13"/>mium calorem, et inde posse ad quaerendum
+          <lb ed="#P" n="14"/>cibum, vel refrigerium modo sibi 
+          proportio<lb break="no" ed="#P" n="15"/>nato moveri. Ergo sicut animae sensitivae non
+          <lb ed="#P" n="16"/>debuerunt in illa divisione multiplicari, aut
+          <lb ed="#P" n="17"/>distingui, eo quod inter eas quaedam sunt 
+          per<lb break="no" ed="#P" n="18"/>fectae, et aliae imperfectae: ita nec ob virtutem
+          <lb ed="#P" n="19"/>loco motivam multiplicandae fuerunt.
+        </p>
+        <p xml:id="szdada-y12283-d1e912">
+          <lb ed="#P" n="20"/>12. Ad confirmationem in fide ejusdem n. 1.
+          <lb ed="#P" n="21"/>— Quid respondent Conimbricenses. — Eorum
+          <lb ed="#P" n="22"/>responsio altera. — Sed tunc urget altera 
+          con<lb break="no" ed="#P" n="23"/>firmatio, vel instantia in auctoritate 
+          Aristo<lb break="no" ed="#P" n="24"/>telis potissime fundata: nam addit quartum
+          <lb ed="#P" n="25"/>membrum, distinguendo quatuor viventium
+          <lb ed="#P" n="26"/>membra: quam partitionem tota 
+          philosopho<lb break="no" ed="#P" n="27"/>rum Schola acceptavit: ut videre licet in
+          <lb ed="#P" n="28"/>D. Thoma supra, et aliis, omnes tamen 
+          fun<lb break="no" ed="#P" n="29"/>dant illam tantum in dicta separabihtate 
+          ani<lb break="no" ed="#P" n="30"/>malium sentientium, et immobilium a se
+          <lb ed="#P" n="31"/>moventibus, quae non est vera de omnimoda
+          <lb ed="#P" n="32"/>immobilitate, ut ostensum est: et ita solum
+          <lb ed="#P" n="33"/>superest divisio in majori, vel minori 
+          potes<lb break="no" ed="#P" n="34"/>tate, et perfectione se movenda, quae 
+          inve<lb break="no" ed="#P" n="35"/>nitur non minor in gradu magis, vel minus
+          <lb ed="#P" n="36"/>perfecto sentiendi. Unde Patres 
+          Conimbricen<lb break="no" ed="#P" n="37"/>ses, lib. 2, de Anima, cap. 3, quaest. 2, art. 2,
+          <lb ed="#P" n="38"/>fatentur, si vivens sumatur, ut dicitur a vita
+          <lb ed="#P" n="39"/>substantiali, et constituitur per animam, ut
+          <lb ed="#P" n="40"/>forma substantialis est, et principium 
+          acciden<lb break="no" ed="#P" n="41"/>talis vitae, sic tantum tria genera, seu gradus
+          <lb ed="#P" n="42"/>viventium constitui debere, vegetativum,
+          <lb ed="#P" n="43"/>sensitivum, et rationale, a triplici anima, 
+          ve<lb break="no" ed="#P" n="44"/>getante sentiente, et intelligente. Et hoc sine
+          <lb ed="#P" n="45"/>dubio convincit argumentum factum: quia
+          <lb ed="#P" n="46"/>non possunt plus multiplicari concreta, quam
+          <lb ed="#P" n="47"/>abstracta: nec composita, quam formae 
+          qui<lb break="no" ed="#P" n="48"/>bus constituuntur: ergo nec viventia plus,
+          <lb ed="#P" n="49"/>quam substantiales vitae, nec vitae plus, quam
+          <lb ed="#P" n="50"/>substantialia principia earum, quae sunt 
+          ani<lb break="no" ed="#P" n="51"/>mae. Addunt vero nihilominus dicti auctores,
+          <lb ed="#P" n="52"/>sumendo viventia, ut ab accidentali vita 
+          de<lb break="no" ed="#P" n="53"/>nominantur, id est, ab operatione vitali, vel
+          <lb ed="#P" n="54"/>a potentia ad illam, sic numerari quatuor 
+          gra<lb break="no" ed="#P" n="55"/>dus viventium, propter gradiendi potentiam,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quae in animalibus perfectis, et non in 
+          infe<lb break="no" ed="#P" n="57"/>rioribus reperitur.
+        </p>
+        <p xml:id="szdada-y12283-d1e999">
+          <lb ed="#P" n="58"/>13. Non satisfaciunt in hac secunda 
+          res<lb break="no" ed="#P" n="59"/>ponsione. — Auctoris responsio. — Sed contra
+          <lb ed="#P" n="60"/>hoc secundum urget scmper difficultas tacta,
+          <lb ed="#P" n="61"/>quod haec potentia generatim sumpta pro 
+          fa<lb break="no" ed="#P" n="62"/>cultate se movendi localiter, communis est
+          <lb ed="#P" n="63"/>omnibus animalibus. Tum quia re vera ille,
+          <lb ed="#P" n="64"/>qualiscumque motus animalium 
+          imperfecto<lb break="no" ed="#P" n="65"/>rum. vitalis est: quia non sit sine sensu, 
+          ima<lb break="no" ed="#P" n="66"/>ginatione, et appetitu, nec etiam fieri potest sine
+          <lb ed="#P" n="67"/>aliqua intrinseca facultate activa proxime 
+          mo<lb break="no" ed="#P" n="68"/>vente, sive illa sit ipse appetitus, sive in 
+          quali<lb break="no" ed="#P" n="69"/>buscumque membristalium animalium existat.
+          <lb ed="#P" n="70"/>Ergoanimalia perfecta non exceduntimperfecta
+          <lb ed="#P" n="71"/>in potentia motiva absolute, vel in motu, sed in
+          <lb ed="#P" n="72"/>ejus perfectione. Ergo sicut hoc non sufficit ad
+          <lb ed="#P" n="73"/>distinguendum quatuor gradus animarum, aut
+          <lb ed="#P" n="74"/>viventium vita substantiali: ita nec ad 
+          divi<lb break="no" ed="#P" n="75"/>dendum quatuor gradus viventium vita 
+          acci<lb break="no" ed="#P" n="76"/>dentali. Praesertim, quia nec nos distinguimus
+          <lb ed="#P" n="77"/>vitam substantialem, nisi per ordinem ad 
+          ac<lb break="no" ed="#P" n="78"/>cidentalem, nec vita accidentalis, quoad 
+          mo<lb break="no" ed="#P" n="79"/>tum localem est distincta a sensitiva, et 
+          appe<lb break="no" ed="#P" n="80"/>titiva tanquam novum genus vitae, sed 
+          tan<lb break="no" ed="#P" n="81"/>quam pars (ut sic dicam) ejusdem vitae: seu
+          <lb ed="#P" n="82"/>tanquam quaedam operatio, consequens alia
+          <lb ed="#P" n="83"/>ejusdem vitae. Eademque ratione diversitas
+          <lb ed="#P" n="84"/>perfectionis in tali motu solum sequitur ex
+          <lb ed="#P" n="85"/>animabus magis, vel minus perfectis sub 
+          eo<lb break="no" ed="#P" n="86"/>dem gradu animae sensitivae contentis. Et ideo
+          <lb ed="#P" n="87"/>non magis videtur sufliciens ad 
+          multiplican<lb break="no" ed="#P" n="88"/>dos gradus, vel modos viventium, quam 
+          ani<lb break="no" ed="#P" n="89"/>marum: nec viventium vita accidentali, magis
+          <lb ed="#P" n="90"/>quam substantiali. Propter quod (salva 
+          philo<lb break="no" ed="#P" n="91"/>sophi auctoritate) quod ad rem spectat, non
+          <lb ed="#P" n="92"/>censeo esse majorem rationem multiplicandi
+          <lb ed="#P" n="93"/>illa membra sub ratione, aut nomine 
+          anima<lb break="no" ed="#P" n="94"/>rum, quam viventium, et fortasse ab 
+          Aristo<lb break="no" ed="#P" n="95"/>tele solum fuit ille gradus animalium se 
+          mo<lb break="no" ed="#P" n="96"/>ventium distincte numeratus, quia ad 
+          traden<lb break="no" ed="#P" n="97"/>dam doctrinam de gradu perfectionis talium
+          <lb ed="#P" n="98"/>animalium, et ad explicandam specialiter 
+          po<lb break="no" ed="#P" n="99"/>tentiam motivam perfectam visa est illa 
+          parti<lb break="no" ed="#P" n="100"/>tio accommodata.
+        </p>
+        <p xml:id="szdada-y12283-d1e1095">
+          <lb ed="#P" n="101"/>14. Ad rationem dubitandi in n. 9. —Et ita
+          <lb ed="#P" n="102"/>responsum est ad alteram rationem dubitandi.
+          <lb ed="#P" n="103"/>Nam quod quaedam animalia non habeant 
+          om<lb break="no" ed="#P" n="104"/>nes sensus, quibus animalia perfecta praedita
+          <lb ed="#P" n="105"/>sunt, parum refert ad multiplicandos gradus
+          <lb ed="#P" n="106"/>animarum: quia omnes illi sub anima 
+          sensi<lb break="no" ed="#P" n="107"/>tiva comprehenduntur, nec distinguuntur in 
+          al<lb break="no" ed="#P" n="108"/>tiori modo abstrabendi a materia in sua 
+          opera<lb break="no" ed="#P" n="109"/>tione, sed solum in majori, vel minori 
+          perfec<lb break="no" ed="#P" n="110"/>tione specifica subalterna, vel ultima ejusdem
+          <pb ed="#P" n="510"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>modi, et gradus animae. Opinio autem illa 
+          ne<lb break="no" ed="#P" n="2"/>gans viventia solum sensum tactus habentia
+          <lb ed="#P" n="3"/>esse simpliciter animalia, vel habere animam
+          <lb ed="#P" n="4"/>sensitivam absolute, et univoce (ut sic rem 
+          ex<lb break="no" ed="#P" n="5"/>plicem) Aristoteli aperte repugnat, et ab 
+          omni<lb break="no" ed="#P" n="6"/>bus merito rejicitur: quia vel disputat de 
+          no<lb break="no" ed="#P" n="7"/>mine, et sine fundamento mutat communem
+          <lb ed="#P" n="8"/>loquendi modum, vel si rem ipsam spectemus,
+          <lb ed="#P" n="9"/>falso dicit, vel animam, quae principium est 
+          sen<lb break="no" ed="#P" n="10"/>tiendi per solum tactum, non esse novum 
+          gra<lb break="no" ed="#P" n="11"/>dum animaesuperantis gradum animae pure 
+          ve<lb break="no" ed="#P" n="12"/>getantis, cum habeat modum operandi 
+          abstrac<lb break="no" ed="#P" n="13"/>tiorem et nobiliorem. Vel si principium illud
+          <lb ed="#P" n="14"/>est in altiori gradu animae, non esse 
+          simplici<lb break="no" ed="#P" n="15"/>ter animam sentientem, et verum animal 
+          con<lb break="no" ed="#P" n="16"/>stituere, cum sensus tactus simpliciter sufficiat
+          <lb ed="#P" n="17"/>ad sentiendum et cognoscendum, et in hoc cum
+          <lb ed="#P" n="18"/>caeteris sensibus proprie, et univoce 
+          conve<lb break="no" ed="#P" n="19"/>niat. Itaque solum inde colligitur alia 
+          subdi<lb break="no" ed="#P" n="20"/>visio animae sensitivae in perfectam et 
+          imper<lb break="no" ed="#P" n="21"/>fectam, quae alterius divisionis sufficientiae non
+          <lb ed="#P" n="22"/>obstat, ut jam adnotavimus. Probat autem
+          <lb ed="#P" n="23"/>objectio illa, non magis esse multiplicandos
+          <lb ed="#P" n="24"/>gradus viventium propter majorem, vel 
+          mino<lb break="no" ed="#P" n="25"/>rem vim se movendi localiter, quam propter
+          <lb ed="#P" n="26"/>virtutem sentiendi pluribus, vel paucioribus
+          <lb ed="#P" n="27"/>modis, vel uno tantum.
+        </p>
+        <p xml:id="szdada-y12283-d1e1183">
+          <lb ed="#P" n="28"/>15. Ad tertiam rationem dubitandi ad finem
+          <lb ed="#P" n="29"/>n. 2. — Ad ultimam vero difficultatem de 
+          ani<lb break="no" ed="#P" n="30"/>ma concupiscente, responsio clara est ex 
+          dic<lb break="no" ed="#P" n="31"/>tis: illa enim non est distincta a sentiente et
+          <lb ed="#P" n="32"/>rationali, quia in utraque est appetitivum
+          <lb ed="#P" n="33"/>principium, quod idem est, ac concupiscens
+          <lb ed="#P" n="34"/>generatim sumptum. Jam vero declaratnm est,
+          <lb ed="#P" n="35"/>cur appetitivum non constituat gradum animae
+          <lb ed="#P" n="36"/>peculiarem, etiamsi sit speciale genus 
+          poten<lb break="no" ed="#P" n="37"/>tiae. Unde illa divisio Platonica triplicis animae
+          <lb ed="#P" n="38"/>in concupiscibilem, irascibilem, et rationalem,
+          <lb ed="#P" n="39"/>non est divisio animarum, sed potentiarum
+          <lb ed="#P" n="40"/>animae, et in ea ratione non est integra, nec
+          <lb ed="#P" n="41"/>multum philosophica: videtur autem 
+          excogi<lb break="no" ed="#P" n="42"/>tata, et accommodata ad explicandos affectus,
+          <lb ed="#P" n="43"/>et morales modos operandi animae humanse, ut
+          <lb ed="#P" n="44"/>in lib. 3 et 5, tractando de appetitu sentiente,
+          <lb ed="#P" n="45"/>et rationali videbimus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

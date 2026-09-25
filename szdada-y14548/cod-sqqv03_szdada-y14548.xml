@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="595"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y14548"><!-- t3l2c8 -->
+        <head xml:id="szdada-y14548-Hd1e101">Caput 7</head>
+        <head xml:id="szdada-y14548-Hd1e103" type="question-title">Quo modo et ordine perficiatur generatio</head>
+        <p xml:id="szdada-y14548-d1e106">
+          <lb ed="#P" n="102"/>CAPUT VII.
+          <lb ed="#P" n="103"/>QUO MODO ET ORDINE PERFICIATUR GENERATIO.
+        </p>
+        <p xml:id="szdada-y14548-d1e113">
+          <lb ed="#P" n="104"/>1. Circa primum punctum opinio prima.—
+          <lb ed="#P" n="105"/>Secunda opinio. — In hac quaestione duo 
+          vi<lb break="no" ed="#P" n="106"/>denda sunt. Primum, an simul introducatur
+          <lb ed="#P" n="107"/>anima geniti in materiam, an vero successive.
+          <pb ed="#P" n="596"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Secundo, si successive, in quas partes prius:
+          <lb ed="#P" n="2"/>habetque locum quaestio in perfectis 
+          animan<lb break="no" ed="#P" n="3"/>tibus, integraeque organisationis, nam de 
+          plan<lb break="no" ed="#P" n="4"/>tis et aliis imperfectis bestiolis, quae minimam
+          <lb ed="#P" n="5"/>organisationem requirunt, minima, aut nulla
+          <lb ed="#P" n="6"/>est dubitatio: quamvis proportionalter 
+          appli<lb break="no" ed="#P" n="7"/>cari eis possit, quod de aliis dicemus. Videtur
+          <lb ed="#P" n="8"/>ergo quibusdam apud Galenum, generationem
+          <lb ed="#P" n="9"/>totam simul perfici, et animam simul incipere
+          <lb ed="#P" n="10"/>informare omnes partes animalis. Ratio eorum
+          <lb ed="#P" n="11"/>est, quia omnia membra corporis sunt sibi 
+          in<lb break="no" ed="#P" n="12"/>vicem deservientia, neque unum sine aliis 
+          pos<lb break="no" ed="#P" n="13"/>set perfecte exercere suum munus: ergo, cum
+          <lb ed="#P" n="14"/>anima unitur corpori ad exercendas actiones
+          <lb ed="#P" n="15"/>suas, debet toti, et singulis partibus simul 
+          u<lb break="no" ed="#P" n="16"/>niri, ut omnibus illis uti per'ecte possit. Aliis
+          <lb ed="#P" n="17"/>videtur partes quasdam animantis ante alias
+          <lb ed="#P" n="18"/>generari. Est siquidem mos naturae, ut 
+          abim<lb break="no" ed="#P" n="19"/>perfecto ad perfectum procedatur: ergo 
+          prius<lb break="no" ed="#P" n="20"/>quam integrum vivens constituatur, 
+          genera<lb break="no" ed="#P" n="21"/>bitur aliqua pars, cui successive addantur
+          <lb ed="#P" n="22"/>membra alia, ut foetus perficiatur, atque ita
+          <lb ed="#P" n="23"/>in plantis experimur. Nam prius radices 
+          emit<lb break="no" ed="#P" n="24"/>tunt, deinde paulatim pullulant. Ars etiam,
+          <lb ed="#P" n="25"/>quae naturam imitatur, ita procedit. Sic vero
+          <lb ed="#P" n="26"/>opinantes divisi sunt: nam Galenus et 
+          Hippo<lb break="no" ed="#P" n="27"/>crates, quibus multi ex medicis consentiunt,
+          <lb ed="#P" n="28"/>asserunt primum omnium generari hepar,
+          <lb ed="#P" n="29"/>quod in hoc membro sit prima radix 
+          nutritio<lb break="no" ed="#P" n="30"/>nis, utpote prima operatio in vivente 
+          necessa<lb break="no" ed="#P" n="31"/>ria. Alii vero, ut Aristoteles et Avicenna, 
+          cre<lb break="no" ed="#P" n="32"/>dunt cor primum omnium generari, quod sit
+          <lb ed="#P" n="33"/>membrum potissimum, a cujus influentia et
+          <lb ed="#P" n="34"/>vitali calore membra reliqua dependent, 
+          ea<lb break="no" ed="#P" n="35"/>que sublata animal subito moritur: ergo 
+          ne<lb break="no" ed="#P" n="36"/>cessum est ante omnia generari. Pro 
+          resolu<lb break="no" ed="#P" n="37"/>tione notandum, aliud esse loqui nos de modo
+          <lb ed="#P" n="38"/>et ordine, quo partes corporis fabricantur:
+          <lb ed="#P" n="39"/>aliud de modo et ordine, quo anima eas 
+          inci<lb break="no" ed="#P" n="40"/>pit informare.
+        </p>
+        <p xml:id="szdada-y14548-d1e215">
+          <lb ed="#P" n="41"/>2. Prima assertio.—Prima conclusio. 
+          Ani<lb break="no" ed="#P" n="42"/>mantium corpora fabricantur successive. Hanc
+          <lb ed="#P" n="43"/>probat argumentum secundae opinionis. 
+          Acce<lb break="no" ed="#P" n="44"/>dit, quod virtus seminis limitata sit et finita:
+          <lb ed="#P" n="45"/>non ergo poterit in eodem instantt componere
+          <lb ed="#P" n="46"/>tot, ac tam diversa membra, id quod etiam
+          <lb ed="#P" n="47"/>comprobat experientia.
+        </p>
+        <p xml:id="szdada-y14548-d1e234">
+          <lb ed="#P" n="48"/>3. Secunda assertio. — Probatur.—Secunda
+          <lb ed="#P" n="49"/>conclusio. Hepar ante omnia membra 
+          fabri<lb break="no" ed="#P" n="50"/>catur, ab illoque proceditur ad cor, a corde ad
+          <lb ed="#P" n="51"/>cerebrum, tum simul fiunt membra alia, quae
+          <lb ed="#P" n="52"/>hisce principalibus deserviunt. Ad 
+          probatio<lb break="no" ed="#P" n="53"/>nem suppono, in viventibus, de quibus 
+          agi<lb break="no" ed="#P" n="54"/>mus, triplicem esse virtutem: naturalem, seu
+          <lb ed="#P" n="55"/>nutritivam: vitalem, quae consistit in continua
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mutatione pulsus: ac sensitivam. Prima 
+          resi<lb break="no" ed="#P" n="57"/>det in hepate praecipue. Secunda in corde.
+          <lb ed="#P" n="58"/>Tertia in cerebro, quae omnia inferius 
+          proba<lb break="no" ed="#P" n="59"/>buntur. Prima deinde imperfectior. et quasi
+          <lb ed="#P" n="60"/>fundamentum aliarum. Secunda vero 
+          perfec<lb break="no" ed="#P" n="61"/>tior quam prima, imperfectior autem quam
+          <lb ed="#P" n="62"/>tertia: et quae ad illam consequuntur. 
+          Proba<lb break="no" ed="#P" n="63"/>tur jam conclusic. Processus naturae ab 
+          im<lb break="no" ed="#P" n="64"/>perfecto est ad perfectum, atque ab eo quod
+          <lb ed="#P" n="65"/>se habet, ut fundamentum, tendens per 
+          me<lb break="no" ed="#P" n="66"/>dium usque ad complementum rei, sed hepar
+          <lb ed="#P" n="67"/>est imperfectius inter haec membra, et quasi
+          <lb ed="#P" n="68"/>fundamentum aliorum, cor vero medium, 
+          ce<lb break="no" ed="#P" n="69"/>rebrum rationem ultimi habet: ergo 
+          constitu<lb break="no" ed="#P" n="70"/>tio ejusmodi membrorum ordine praescripto
+          <lb ed="#P" n="71"/>procedit. Confirmatur primo. Quoniam natura
+          <lb ed="#P" n="72"/>semper incipit a facilioribus, hepar autem 
+          fa<lb break="no" ed="#P" n="73"/>cillime fit, quia imperfectum est membrum,
+          <lb ed="#P" n="74"/>solam fere coagulationem sanguinis 
+          requi<lb break="no" ed="#P" n="75"/>rens, cor vero, quia meliores dispositiones, ac
+          <lb ed="#P" n="76"/>majorem organisationem vendicat, difficilius
+          <lb ed="#P" n="77"/>formatur, multo tamen facilius quam 
+          cere<lb break="no" ed="#P" n="78"/>brum, quod innumera habet organa, 
+          compo<lb break="no" ed="#P" n="79"/>sitionemque mirabilem: ergo, etc. 
+          Confirma<lb break="no" ed="#P" n="80"/>tur secundo, quia experientia ostendit 
+          inani<lb break="no" ed="#P" n="81"/>mantia in principio vi nutritiva pollere sensitiva
+          <lb ed="#P" n="82"/>existente adhuc imbecilli, vitali autem 
+          medio<lb break="no" ed="#P" n="83"/>cri, quod signum est in generatione servatum
+          <lb ed="#P" n="84"/>fuisse talem ordinem. Aliam experientiam 
+          ad<lb break="no" ed="#P" n="85"/>ducit Hippocrates, lib. de Natura infantis de
+          <lb ed="#P" n="86"/>muliere, quae foetum emisit fabricato hepate
+          <lb ed="#P" n="87"/>tantummodo.
+        </p>
+        <p xml:id="szdada-y14548-d1e325">
+          <lb ed="#P" n="88"/>4. Circa secundum punctumvaria placita.- -
+          <lb ed="#P" n="89"/>Circa secundum de ordine animationis et 
+          in<lb break="no" ed="#P" n="90"/>troductionis animae sentit Aristoteles, secundo
+          <lb ed="#P" n="91"/>de Generatione animalium, cap. 3, primo 
+          in<lb break="no" ed="#P" n="92"/>troduci animam vegetativam, deinde 
+          sensiti<lb break="no" ed="#P" n="93"/>vam, et ultimo rationalem, quem sequitur 
+          di<lb break="no" ed="#P" n="94"/>vus Thomas, 1 part., quaest. 118, art. 2, ad
+          <lb ed="#P" n="95"/>secundum, et quaest. 76, art. 3, ad tertium, et
+          <lb ed="#P" n="96"/>de Potentia, quaest. 3, art. 9, ad nonum: 
+          ex<lb break="no" ed="#P" n="97"/>plicat vero de Prioritate temporis, idemque
+          <lb ed="#P" n="98"/>videtur sequi Albertus Magnus, tertio, de 
+          Ani<lb break="no" ed="#P" n="99"/>ma, ad finem, capite ultimo, et Thomistae 
+          com<lb break="no" ed="#P" n="100"/>muniter. Alii volunt ante instans 
+          introductio<lb break="no" ed="#P" n="101"/>nis animae ultimae in toto tempore 
+          organisa<lb break="no" ed="#P" n="102"/>tionis non introduci aliquam animam in
+          <lb ed="#P" n="103"/>embrione: quosdam vero motus in illo 
+          appa<lb break="no" ed="#P" n="104"/>rentes fieri, vel ab anima matris, vel a 
+          forma<lb break="no" ed="#P" n="105"/>tiva seminis, qua remansit: animam ergo
+          <lb ed="#P" n="106"/>ingredi in corpus jam perfecte fabricatum. Ita
+          <lb ed="#P" n="107"/>Alensis, 2 part., quaest. 87, memb. 3, art. 6.
+          <lb ed="#P" n="108"/>Ahi opinantur embrionem a principio habere
+          <lb ed="#P" n="109"/>animam vegetativam, quae processu temporis
+          <lb ed="#P" n="110"/>eadem realiter manens fiat sensitiva, ac tan-
+          <pb ed="#P" n="597"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dem rationalis. Quae sententia recte a divo
+          <lb ed="#P" n="2"/>Thoma impugnatur, si intelligat primam 
+          ani<lb break="no" ed="#P" n="3"/>mam essentialiter tantum vegetativam instar
+          <lb ed="#P" n="4"/>plantae, posteaque evadere sensitivam, illud
+          <lb ed="#P" n="5"/>enim impossibile est, quia forma non potest
+          <lb ed="#P" n="6"/>transire ab una specie in aliam: si tamen
+          <lb ed="#P" n="7"/>coincidat cum opinione sequenti, erit 
+          probabi<lb break="no" ed="#P" n="8"/>lis. Dicunt ergo alii cum primum corpus 
+          or<lb break="no" ed="#P" n="9"/>ganisatur, statim introduci animam in 
+          gene<lb break="no" ed="#P" n="10"/>ratione ultimo intentam, verbi gratia, 
+          ratio<lb break="no" ed="#P" n="11"/>nalem, vel equinam, prius tamen exercere
+          <lb ed="#P" n="12"/>opera partis vegetativae, deinde alia: 
+          Aristo<lb break="no" ed="#P" n="13"/>telem vero explicant de Prioritate naturae, aut
+          <lb ed="#P" n="14"/>operationis. Ita Albertus Magnus 1, de 
+          Ani<lb break="no" ed="#P" n="15"/>ma, tractatu secundo, cap. pen., Marsilius 1,
+          <lb ed="#P" n="16"/>de Generatione, q. 6, ad 5.
+        </p>
+        <p xml:id="szdada-y14548-d1e416">
+          <lb ed="#P" n="17"/>5. Tertia assertio probatur. — Quarta 
+          asser<lb break="no" ed="#P" n="18"/>tio suadetur.—Sit tamen tertia conclusio. 
+          He<lb break="no" ed="#P" n="19"/>par prius tempore animatur, quam alia 
+          mem<lb break="no" ed="#P" n="20"/>bra. Probatur, quia illius operatio est operatio
+          <lb ed="#P" n="21"/>vitalis: ergo procedit ab anima, sed prius 
+          tem<lb break="no" ed="#P" n="22"/>pore exercet suas operationes vitae hepar. 
+          er<lb break="no" ed="#P" n="23"/>go prius animatur. Minor patet, quia formato
+          <lb ed="#P" n="24"/>hepate paulatim procedit per intrinsecam 
+          sump<lb break="no" ed="#P" n="25"/>tionem alimenti ad sui augmentum, et 
+          conser<lb break="no" ed="#P" n="26"/>vationem, id autem fieri vitali modo planum
+          <lb ed="#P" n="27"/>videtur, cum ftiat uniformiter secundum omnes
+          <lb ed="#P" n="28"/>partes. Et confirmatur primo. Nam hepar tunc
+          <lb ed="#P" n="29"/>temporis habet formam aliquam 
+          substantia<lb break="no" ed="#P" n="30"/>lem, aliquamque diversitatem partium, et 
+          or<lb break="no" ed="#P" n="31"/>ganisationem: illa ergo forma est actus 
+          cor<lb break="no" ed="#P" n="32"/>poris organici: ergo est anima. Confirmatur
+          <lb ed="#P" n="33"/>secundo. Nam processus naturae est 
+          perfectissi<lb break="no" ed="#P" n="34"/>mus: optimus autem modus fabricandi corpus
+          <lb ed="#P" n="35"/>est ut constituto membro uno principali, 
+          sta<lb break="no" ed="#P" n="36"/>tim exerceat sua opera vitae, ut vitaliter fiat
+          <lb ed="#P" n="37"/>processus ad alia membra, qui modus 
+          genera<lb break="no" ed="#P" n="38"/>tionis in plantis apparet manifeste: ergo, etc.
+          <lb ed="#P" n="39"/>Quarta conclusio. Cum primum cor fabricatur,
+          <lb ed="#P" n="40"/>informatur anima sensitiva. Nam statm 
+          exer<lb break="no" ed="#P" n="41"/>cet opera talis animae continuam palpitationem
+          <lb ed="#P" n="42"/>efficiendo, motumque pulsus, atque influendo
+          <lb ed="#P" n="43"/>calorem vitalem in caetera membra.
+        </p>
+        <p xml:id="szdada-y14548-d1e477">
+          <lb ed="#P" n="44"/>6. Quinta assertio. — Probatur. — Quinta
+          <lb ed="#P" n="45"/>conclusio. Probabilius videtur, animam qua
+          <lb ed="#P" n="46"/>primo informatur hepar, esse vegetativam
+          <lb ed="#P" n="47"/>tantum, et qua informatur cor, similiter esse
+          <lb ed="#P" n="48"/>imperfectam. Probatur, quia anima rationalis,
+          <lb ed="#P" n="49"/>verbi gratia, vel alia perfecta, requirit 
+          majo<lb break="no" ed="#P" n="50"/>rem multo organisationem, quam sit solius
+          <lb ed="#P" n="51"/>hepatis, vel cordis, et quocumque horum
+          <lb ed="#P" n="52"/>membrorum deficiente, statim anima desinit
+          <lb ed="#P" n="53"/>informare, ut experientia docet: ergo signum
+          <lb ed="#P" n="54"/>est, non posse informare unum tantum, vel
+          <lb ed="#P" n="55"/>aliud membrum: ergo a principio generatio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nis illa membra non informabantur anima
+          <lb ed="#P" n="57"/>perfecta, sed imperfectis aliis animabus, quasi
+          <lb ed="#P" n="58"/>mediis ad introductionem ultimae animae. 
+          Con<lb break="no" ed="#P" n="59"/>firmatur, quia naturalis ordo generationis est,
+          <lb ed="#P" n="60"/>ut procedatur ab extremo ad extremum, per
+          <lb ed="#P" n="61"/>medium: ergo cum ex materia seminis 
+          inani<lb break="no" ed="#P" n="62"/>mata debeat procedi ad generationem 
+          ani<lb break="no" ed="#P" n="63"/>malis perfecti, conveniens est ut fiat mediis
+          <lb ed="#P" n="64"/>quibusdam animabus imperfectis. Dices: ergo
+          <lb ed="#P" n="65"/>in generatione hominis prius generatur ex 
+          se<lb break="no" ed="#P" n="66"/>mine planta, aut brutum. Respondetur, ante
+          <lb ed="#P" n="67"/>instans generationis hominis, produci 
+          quod<lb break="no" ed="#P" n="68"/>dam vivens praedictum anima solum 
+          vegetati<lb break="no" ed="#P" n="69"/>va, et inde aliud sola sensitiva praeditum, 
+          esse<lb break="no" ed="#P" n="70"/>que veluti partialia viventia, et quasi vias ad
+          <lb ed="#P" n="71"/>alterius melioris introductionem, atque adeo
+          <lb ed="#P" n="72"/>non est inconveniens generari illa ex semine
+          <lb ed="#P" n="73"/>hominis, vel equi: an vero dici possint planta,
+          <lb ed="#P" n="74"/>aut brutum, quaestio est de homine.
+        </p>
+        <p xml:id="szdada-y14548-d1e549">
+          <lb ed="#P" n="75"/>7. Sancta assertio. — Sexta conclusio. 
+          Pro<lb break="no" ed="#P" n="76"/>babilius videtur, animam perfectam in eodem
+          <lb ed="#P" n="77"/>instanti generationis informare corpus 
+          per<lb break="no" ed="#P" n="78"/>fecte organisatum ex membris saltem 
+          princi<lb break="no" ed="#P" n="79"/>palibus, quale hepar, cor, atque cerebrum.
+          <lb ed="#P" n="80"/>Haec probatur ex praecedentibus, patetque
+          <lb ed="#P" n="81"/>facile. Nam perfectae animae requirunt corpus
+          <lb ed="#P" n="82"/>perfecte organisatum: ergo ut minimum 
+          re<lb break="no" ed="#P" n="83"/>quirunt tria illa membra, ut introducantur.
+          <lb ed="#P" n="84"/>Item si post generationem aliquod abscindatur,
+          <lb ed="#P" n="85"/>statim perit animal: ergo non potest absque
+          <lb ed="#P" n="86"/>illis membris conservari: ergo nec a fortiori
+          <lb ed="#P" n="87"/>generari. Tandem animalia perfecta animam
+          <lb ed="#P" n="88"/>sensitivam et vegetativam perfectam habent :
+          <lb ed="#P" n="89"/>ergo ad illarum introductionem requiritur
+          <lb ed="#P" n="90"/>corpus aptum, ut ingrum effectum recipiat, seu
+          <lb ed="#P" n="91"/>(quod idem est) ab anima formetur secundum
+          <lb ed="#P" n="92"/>omnem ipsius perfectionem, quod non 
+          contin<lb break="no" ed="#P" n="93"/>geret nisi haberet animal tria haec principalia
+          <lb ed="#P" n="94"/>membra. Atque in sensu hujus conclusionis
+          <lb ed="#P" n="95"/>verum habet, opinio prima in numero primo,
+          <lb ed="#P" n="96"/>asserens haec membra simul generari, Galenus
+          <lb ed="#P" n="97"/>vero et Hippocrates juxta alias conclusiones
+          <lb ed="#P" n="98"/>procedunt.
+        </p>
+        <p xml:id="szdada-y14548-d1e604">
+          <lb ed="#P" n="99"/>8. Ad Aristotelem, in num. 1, allatum. —
+          <lb ed="#P" n="100"/>Aristoteles denique falsum fundamentum 
+          po<lb break="no" ed="#P" n="101"/>suit, solum cor esse membrum principale. Ad
+          <lb ed="#P" n="102"/>illius vero rationem respondetur, intluentiam
+          <lb ed="#P" n="103"/>cordis esse quidem necessariam ad perfectam
+          <lb ed="#P" n="104"/>operationem animalis perfecti, quam tamen
+          <lb ed="#P" n="105"/>non habet donec perfectam animam obtineat,
+          <lb ed="#P" n="106"/>hepar vero dum sola imperfecta anima 
+          infor<lb break="no" ed="#P" n="107"/>matur, actione cordis non indiget, neque eget
+          <lb ed="#P" n="108"/>pulsu, cum animam sensitivam non habeat,
+          <lb ed="#P" n="109"/>neque item eget calore cordis, cum ha»eat
+          <lb ed="#P" n="110"/>sufficientem, et juvetur a calore matris, ac
+          <pb ed="#P" n="598"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>seminis, quod adhuc durat. Simili ratione cor
+          <lb ed="#P" n="2"/>dum habet imperfectam animam, habet etiam
+          <lb ed="#P" n="3"/>imperfectam tactum a cerebro non 
+          dependen<lb break="no" ed="#P" n="4"/>tem. Forte autem quis dicat in generatione
+          <lb ed="#P" n="5"/>animalium perfectorum non postulari 
+          organi<lb break="no" ed="#P" n="6"/>sationem cerebri ad introductionem animae,
+          <lb ed="#P" n="7"/>cum non transcendat gradum sensitivum,
+          <lb ed="#P" n="8"/>ideoque poterit in corde introduci. 
+          Responde<lb break="no" ed="#P" n="9"/>tur in illo gradu esse perfectam, proindeque
+          <lb ed="#P" n="10"/>indigere perfecta organisatione, quae sine 
+          ce<lb break="no" ed="#P" n="11"/>rebro non consistit.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

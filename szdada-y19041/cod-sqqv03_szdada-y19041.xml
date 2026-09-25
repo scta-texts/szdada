@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="774"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y19041"><!-- t3l5c9 -->
+        <head xml:id="szdada-y19041-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-y19041-Hd1e103" type="question-title">Quaenam sit perfctior potentia, intellectus-ne an voluntas</head>
+        <p xml:id="szdada-y19041-d1e106">
+          <lb ed="#P" n="10"/>CAPUT IX.
+          <lb ed="#P" n="11"/>QUAENAM SIT PERFCTIOR POTENTIA, INTELLECTUS-NE
+          <lb ed="#P" n="12"/>AN VOLUNTAS.
+        </p>
+        <p xml:id="szdada-y19041-d1e115">
+          <lb ed="#P" n="13"/>1. Argumentum primum pro voluntate. —
+          <lb ed="#P" n="14"/>Confirmatur. — Secundum argumentum. —
+          <lb ed="#P" n="15"/>Confirmatur. — Tertium argumentum.— 
+          Con<lb break="no" ed="#P" n="16"/>fir matur. — Quartum argumentum. — 
+          Confir<lb break="no" ed="#P" n="17"/>matur. — Haec quaestio ultima est de potentiis
+          <lb ed="#P" n="18"/>animee rationalis, nam postquam de illis 
+          sigil<lb break="no" ed="#P" n="19"/>latim dictum est, complementum doctrinae
+          <lb ed="#P" n="20"/>postulat, ut eas inter se conferamus, id, quod
+          <lb ed="#P" n="21"/>etiam de potentiis sensitivis tractari posset,
+          <lb ed="#P" n="22"/>rejecta tamen in hunc locum est, quoniam in
+          <lb ed="#P" n="23"/>potentiis spiritualibus apertior erit difficultas,
+          <lb ed="#P" n="24"/>ac facile poterit reliquis accommodari. 
+          Argui<lb break="no" ed="#P" n="25"/>tur itaque voluntatem praeeminere intellectui
+          <lb ed="#P" n="26"/>primo, quia habet nobilissimum objectum,
+          <lb ed="#P" n="27"/>ipsam scilicet rationem boni, prima autem et
+          <lb ed="#P" n="28"/>potissima perfectio rei esse videtur bonitas
+          <lb ed="#P" n="29"/>ipsius. Confirmatur: nam bonum dicit ordinem
+          <lb ed="#P" n="30"/>ad existentiam: verum autem, quod est 
+          objec<lb break="no" ed="#P" n="31"/>tum intellectus, ab existentia abstrahit, 
+          per<lb break="no" ed="#P" n="32"/>fectius autem videtur, quod ordinem habet ad
+          <lb ed="#P" n="33"/>existentiam cum haec sit prima et potissima
+          <lb ed="#P" n="34"/>rei cujusque perfectio: ergo, etc. Secundo 
+          ar<lb break="no" ed="#P" n="35"/>guitur ex actibus: nam perfectior est actus
+          <lb ed="#P" n="36"/>voluntatis, quam intellectus, si perfectissimum
+          <lb ed="#P" n="37"/>unius actum ad perfectissimum alterius 
+          com<lb break="no" ed="#P" n="38"/>paremus: ergo et voluntas perfectior erit: illa
+          <lb ed="#P" n="39"/>siquidem potentia perfectior creditur, quae
+          <lb ed="#P" n="40"/>meliori actu se explicare potest. Antecedens
+          <lb ed="#P" n="41"/>patet: quia perfectissimus actus voluntatis est
+          <lb ed="#P" n="42"/>dilectio Dei, ac perfectissimus intellectus est
+          <lb ed="#P" n="43"/>Dei cognitio, melior autem est amor Dei, quam
+          <lb ed="#P" n="44"/>cognitio, juxta illud Paul. 1, Corint.: Major
+          <lb ed="#P" n="45"/>autem horum est caritas. Confirmatur: nam
+          <lb ed="#P" n="46"/>ordines angelorum distinguuntur secundum
+          <lb ed="#P" n="47"/>eorum perfectiones, ac Seraphini superiori
+          <lb ed="#P" n="48"/>gradu, quam Cherubini locantur: quia hi 
+          ex<lb break="no" ed="#P" n="49"/>cellunt in cognitione, illi in amore: ergo amor
+          <lb ed="#P" n="50"/>est perfectior. Tertio, libertas est maxima 
+          per<lb break="no" ed="#P" n="51"/>fectio, voluntas autem est potentia libera, non
+          <lb ed="#P" n="52"/>inteilectus: etc. Confirmatur: quoniam volun-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tas regit intellectum, ad totum hominem, adeo
+          <lb ed="#P" n="54"/>ut reliquae omnes potentiae ad nutum 
+          volun<lb break="no" ed="#P" n="55"/>tatis agantur: ergo ipsa tenet primatum inter
+          <lb ed="#P" n="56"/>potentias. Quarto, voluntas totum hominem
+          <lb ed="#P" n="57"/>bonum, vel malum reddit: neque enim 
+          scien<lb break="no" ed="#P" n="58"/>tia hominem bonum facit, vel malum, sed
+          <lb ed="#P" n="59"/>virtus et vitium: haec autem ex voluntate
+          <lb ed="#P" n="60"/>maxime pendent, quia libertate propria non
+          <lb ed="#P" n="61"/>dantur. Confirmatur, quia hac ratione 
+          appeti<lb break="no" ed="#P" n="62"/>tus sensitivus est perfectior, quam imaginatio,
+          <lb ed="#P" n="63"/>quia ille capax est virtutis: non autem 
+          ima<lb break="no" ed="#P" n="64"/>ginatio.
+        </p>
+        <p xml:id="szdada-y19041-d1e232">
+          <lb ed="#P" n="65"/>2. Dissidium in hac queestione. — Assertio
+          <lb ed="#P" n="66"/>affir mans intellectum preecellere. — Ejus 
+          ra<lb break="no" ed="#P" n="67"/>tiones. — In hac quaestione Schola sancti 
+          Tho<lb break="no" ed="#P" n="68"/>mmae et Scoti discrepant. Scotus enim in 4, 
+          dis<lb break="no" ed="#P" n="69"/>tinct. 49, quaest. 4, statuit voluntatem esse
+          <lb ed="#P" n="70"/>simpliciter perfectiorem intellectu, quem 
+          dis<lb break="no" ed="#P" n="71"/>cipuli sequuntur. ldem sentit Alensis, 3 part.,
+          <lb ed="#P" n="72"/>quaest. 80, memb. 1, dist. 1, quaest. 14, 
+          Bona<lb break="no" ed="#P" n="73"/>ventura, /Egidius, Argentina, Gabriel et 
+          Ma<lb break="no" ed="#P" n="74"/>jor, in 4, dist. 49, Albertus, in 1, distinet. 1,
+          <lb ed="#P" n="75"/>quaest. 14, Aureolus, apud Capreolum ibidem,
+          <lb ed="#P" n="76"/>quaest. 1. At D. Thomas, 1 part.. quaest. 82,
+          <lb ed="#P" n="77"/>art. 3, e contra opinatur, licet secundum quid,
+          <lb ed="#P" n="78"/>seu in quibusdam actibus voluntas superet:
+          <lb ed="#P" n="79"/>sequuntur eum sui, ac Durandus, in 4, 
+          dis<lb break="no" ed="#P" n="80"/>tinct. 94, quaest. 4, Paludanus, quaest. 3, 
+          Her<lb break="no" ed="#P" n="81"/>vaeus, quodl. 8, quaest. 9, Capreolus, in 1, 
+          dis<lb break="no" ed="#P" n="82"/>tinct. 1, quaest. 2, et dist. 3, quaest. 3, art. 2,
+          <lb ed="#P" n="83"/>Abulensis, ad cap. 5 Matthaei, quaest. 30, 
+          et<lb break="no" ed="#P" n="84"/>Venetus 3, de Anima, textu 58, videturque
+          <lb ed="#P" n="85"/>sententia probabilior. Unde sit nostra 
+          conclu<lb break="no" ed="#P" n="86"/>sio. Intellectus est perfectior potentia. Hanc
+          <lb ed="#P" n="87"/>conclusionem declarat sanctus Thomas ex 
+          ob<lb break="no" ed="#P" n="88"/>jectis in hunc modum. Nam objectum 
+          intellec<lb break="no" ed="#P" n="89"/>tus simpliciusest et abstractius, quam objectum
+          <lb ed="#P" n="90"/>voluntatis, ac modo aliquo immaterialius: ergo
+          <lb ed="#P" n="91"/>ipsa potentia perfectior est: nobilitas namque
+          <lb ed="#P" n="92"/>potentiae ex nobilitate objecti desumitur, illud
+          <lb ed="#P" n="93"/>autem objectum nobilius est, quod est 
+          abstrac<lb break="no" ed="#P" n="94"/>tius et immaterialius. Ostenditur vero 
+          antece<lb break="no" ed="#P" n="95"/>dens, quoniam intellectus attingit objectum
+          <lb ed="#P" n="96"/>sub abstractione ab existentia, considerando
+          <lb ed="#P" n="97"/>scilicet nudam rei quidditatem, voluntas vero
+          <lb ed="#P" n="98"/>non nisi in rem, prout habet ordinem ad 
+          ac<lb break="no" ed="#P" n="99"/>tualem existentiam terminatur: nihil enim
+          <lb ed="#P" n="100"/>appetitur, nisi vel prout actu existit, vel 
+          exti<lb break="no" ed="#P" n="101"/>turum est. Hanc rationem Scotus cavillatur
+          <lb ed="#P" n="102"/>multipliciter: eam vero prolixe defendit 
+          Caje<lb break="no" ed="#P" n="103"/>tanus supra, quem videre licet. Vere autem
+          <lb ed="#P" n="104"/>ratio subtilis est optimeque ostendens 
+          perfec<lb break="no" ed="#P" n="105"/>tionem inteilectus. Enimvero intellectivae 
+          po<lb break="no" ed="#P" n="106"/>tentiae vis ea est, ut rem quamlibet possit sub
+          <lb ed="#P" n="107"/>omni praecisione considerare, essentiam ipsam
+          <pb ed="#P" n="775"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ab existentia separando, et uniuscujusque
+          <lb ed="#P" n="2"/>propriam rationem vestigando. Quod sane vim
+          <lb ed="#P" n="3"/>magnam arguit, immaterialitatemque 
+          intel<lb break="no" ed="#P" n="4"/>lectus ipsius, voluntas autem simplici modo
+          <lb ed="#P" n="5"/>fertur in objectum appetendo existentiam 
+          il<lb break="no" ed="#P" n="6"/>lius: qui certe modus operandi minus subtilis
+          <lb ed="#P" n="7"/>est, minusque immaterialis. Secundo arguitur.
+          <lb ed="#P" n="8"/>Potentia intellectiva immediatius sequitur ex
+          <lb ed="#P" n="9"/>animae essentia, voluntas vero medio 
+          intel<lb break="no" ed="#P" n="10"/>lectu: hic ergo est perfectior. Consequentia
+          <lb ed="#P" n="11"/>exponitur: nam quando passio una ex alia 
+          se<lb break="no" ed="#P" n="12"/>quitur, seu potius mediante alia, quae 
+          imme<lb break="no" ed="#P" n="13"/>diatius sequitur ex essentia praestat ei, quae
+          <lb ed="#P" n="14"/>sequitur mediate, cum sit veluti principium
+          <lb ed="#P" n="15"/>alterius. Antecedens autem suadetur, ium ex
+          <lb ed="#P" n="16"/>communi ratione potentiae appetitivae, quae ex
+          <lb ed="#P" n="17"/>potentia cognoscitiva consequitur, sicut 
+          appe<lb break="no" ed="#P" n="18"/>titio sequitur ex cognitione: tum ex propria
+          <lb ed="#P" n="19"/>ratione voluntatis, cujus libertas, ut diximus,
+          <lb ed="#P" n="20"/>ex perfectione intellectus nascitur. Tertio. 
+          Di<lb break="no" ed="#P" n="21"/>gnitas hominis potissime ex intellectu 
+          desumi<lb break="no" ed="#P" n="22"/>tur, et ideo tanquam differentiam essentialem
+          <lb ed="#P" n="23"/>illius assignamus, quod intellectivus sit, seu
+          <lb ed="#P" n="24"/>rationalis id vero principaliter habet ab 
+          intel<lb break="no" ed="#P" n="25"/>lectu, cum voluntas rationalis sit ex 
+          partici<lb break="no" ed="#P" n="26"/>patione illius: praecedit ergo intellectus. Id
+          <lb ed="#P" n="27"/>quod etiam inde ostenditur, quoniam 
+          volunta<lb break="no" ed="#P" n="28"/>tis radix ipse intellectus censetur: siquidem
+          <lb ed="#P" n="29"/>eo ipse, quod asserimus hominem esse 
+          ratio<lb break="no" ed="#P" n="30"/>nalem, quasi virtute et radice pronuntiamus
+          <lb ed="#P" n="31"/>volitum esse, ac liberi arbitrii: quare, etc.
+          <lb ed="#P" n="32"/>Unde etiam confirmatur ratio, namque 
+          poten<lb break="no" ed="#P" n="33"/>tia per essentiam rationalis, cujusmodi est 
+          in<lb break="no" ed="#P" n="34"/>tellectus, perfectior est, quam quae tantum per
+          <lb ed="#P" n="35"/>participationem est rationalis, qualis voluntas,
+          <lb ed="#P" n="36"/>quae potentia caeca est, nec nisi ratione 
+          duca<lb break="no" ed="#P" n="37"/>tur, operari valet. Quarto, intellectus est regula
+          <lb ed="#P" n="38"/>omnium operationum voluntatis, et in tantum
+          <lb ed="#P" n="39"/>voluntas male, vel bene procedit, in quantum
+          <lb ed="#P" n="40"/>rationi conformatur: tota siquidem bonitas et
+          <lb ed="#P" n="41"/>malitia moralis sumitur ex ordine ad rationem
+          <lb ed="#P" n="42"/>rectam, et ideo tanto voluntas est melior,
+          <lb ed="#P" n="43"/>quanto est rationi subjectior, teste Aristotele,
+          <lb ed="#P" n="44"/>primo Ethicorum, cap. 3, Cicerone, secundo
+          <lb ed="#P" n="45"/>Officiorum, Augustino, de Libero arbitrio, c. 9
+          <lb ed="#P" n="46"/>et 10; ergo perfectior est ratio ipsa, quam 
+          vo<lb break="no" ed="#P" n="47"/>luntas. Quinto, in suppositis intelligentibus
+          <lb ed="#P" n="48"/>differentia perfectionis naturalis potissime 
+          at<lb break="no" ed="#P" n="49"/>tenditur ex parte intellectivae potentiae: nam
+          <lb ed="#P" n="50"/>voluntas fere ejusdem est rationis in iis 
+          suppo<lb break="no" ed="#P" n="51"/>sitis, vel saltem non potest tam facile distingui
+          <lb ed="#P" n="52"/>in eis ex diversitate operandi sicut intellectus:
+          <lb ed="#P" n="53"/>et intra latitudinem angelorum major 
+          perfec<lb break="no" ed="#P" n="54"/>tio maxime relucet in modo cognoscendi, unus
+          <lb ed="#P" n="55"/>enim altiori modo, et per universaliores spe-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cies cognoscit, quam alter, in voluntatibus 
+          au<lb break="no" ed="#P" n="57"/>tem diffticile invenietur distinctio, quae in modo
+          <lb ed="#P" n="58"/>operandi, ut dixi, parum differunt: signum
+          <lb ed="#P" n="59"/>ergo est perfectionem naturae intellectualis
+          <lb ed="#P" n="60"/>potissime se explicare in potentia intellectiva,
+          <lb ed="#P" n="61"/>atque adeo esse perfectissimam potentiam in
+          <lb ed="#P" n="62"/>tali subjecto. Sexto, potentia cognoscitiva ex
+          <lb ed="#P" n="63"/>suo genere est perfectior, quam appetitiva:
+          <lb ed="#P" n="64"/>ergo si conferamus perfectissimam potentiam
+          <lb ed="#P" n="65"/>cognoscentem cum appetente perfectissima,
+          <lb ed="#P" n="66"/>illa hanc superabit in perfectione, siquidem ex
+          <lb ed="#P" n="67"/>suo genere excedit, et in specie 
+          proportionali<lb break="no" ed="#P" n="68"/>ter accrescit, sic autem se habent intellectus et
+          <lb ed="#P" n="69"/>voluntas: ergo, etc. Antecedens primum 
+          pro<lb break="no" ed="#P" n="70"/>batur (reliqua enim nota sunt), namque 
+          appe<lb break="no" ed="#P" n="71"/>titus quaedam inclinatio est appetentis, unde
+          <lb ed="#P" n="72"/>ex vi et modo operationis appetitus non 
+          expli<lb break="no" ed="#P" n="73"/>cat perfectionem suam in tali opere, imo neque
+          <lb ed="#P" n="74"/>ad hoc principaliter ordinatur, sed tantum ad
+          <lb ed="#P" n="75"/>bonum quaerendum, at potentia cognoscens de
+          <lb ed="#P" n="76"/>se est vis quaedam explicans maxime 
+          perfec<lb break="no" ed="#P" n="77"/>tionem et immaterialitatem rei cognoscendae:
+          <lb ed="#P" n="78"/>per hanc quippe virtutem res cognoscens fit
+          <lb ed="#P" n="79"/>quodammodo res ipsa cognita, sicque cognitio
+          <lb ed="#P" n="80"/>ex suo genere magis propter se est, quam 
+          ap<lb break="no" ed="#P" n="81"/>petitus: ergo perfectior potentia est ex suo
+          <lb ed="#P" n="82"/>genere.
+        </p>
+        <p xml:id="szdada-y19041-d1e513">
+          <lb ed="#P" n="83"/>1. Ad primum argumentum in mun. 4 — Ad
+          <lb ed="#P" n="84"/>confirmationem. — Ad argumentum primum
+          <lb ed="#P" n="85"/>prioris sententiae negatur antecedens. Nam si
+          <lb ed="#P" n="86"/>objecta intellectus et voluntatis considerentur
+          <lb ed="#P" n="87"/>in ratione rei, sunt fere aequalis perfectionis,
+          <lb ed="#P" n="88"/>quia utraque ex his potentiis universalissima
+          <lb ed="#P" n="89"/>est. Nihilominus absolute consideratis objectis,
+          <lb ed="#P" n="90"/>ut objecta sunt, intellectus objectum altius
+          <lb ed="#P" n="91"/>deprehenditur, cum nobiliori modo attingatur
+          <lb ed="#P" n="92"/>ab intellectu, quam a voluntate bonum, ut
+          <lb ed="#P" n="93"/>diximus. Ad confirmationem respondetur etiam
+          <lb ed="#P" n="94"/>intellectum considerare res, quae habent 
+          ordi<lb break="no" ed="#P" n="95"/>nem ad existentiam, imo et existentiam ipsam,
+          <lb ed="#P" n="96"/>ac rationem boni, eaque omnia perfectiori
+          <lb ed="#P" n="97"/>quodam modo attingere: ut explicatum est.
+        </p>
+        <p xml:id="szdada-y19041-d1e548">
+          <lb ed="#P" n="98"/>4. Ad secundum communis responsio. — Ad
+          <lb ed="#P" n="99"/>secundum communis solutio est, intellectum
+          <lb ed="#P" n="100"/>et voluntatem spectari posse in statu viee, et in
+          <lb ed="#P" n="101"/>statu patriae: ac priori modo actum voluntatis
+          <lb ed="#P" n="102"/>esse perfectiorem actu intellectus respectu 
+          re<lb break="no" ed="#P" n="103"/>rum superiorum, sicque charitatem 
+          praecel<lb break="no" ed="#P" n="104"/>lere: cujus rei ratio redditur, quod intellectus
+          <lb ed="#P" n="105"/>attingat res prout sunt intra ipsum, voluntas
+          <lb ed="#P" n="106"/>autem ad eas feratur prout in seipsis existunt.
+          <lb ed="#P" n="107"/>Quoniam vero in via Deus, ac superiora omnia
+          <lb ed="#P" n="108"/>in intellectu nostro existunt imperfecte, atque
+          <lb ed="#P" n="109"/>obscure, ideo cognitio eorum est nunc 
+          imper<lb break="no" ed="#P" n="110"/>fecta, et amor perfectus ex contraria ratione,
+          <pb ed="#P" n="776"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quod in res tendat in se consideratas. Quod
+          <lb ed="#P" n="2"/>etiam sentit Hugo de sancto Victore, lib. 6, in
+          <lb ed="#P" n="3"/>coelestem Hierarchiam, D. Dionysius, c. 7, in
+          <lb ed="#P" n="4"/>haec verba: Dilectio supereminet scientie, plus
+          <lb ed="#P" n="5"/>enim diligitur, quam intelligitur, et intrat 
+          di<lb break="no" ed="#P" n="6"/>lectio, ubi scientia foris est: atque de hoc
+          <lb ed="#P" n="7"/>amore et cognitione procedit illud Anselmi, in
+          <lb ed="#P" n="8"/>lib. Cur Deus homo, c. 1: Perversus ordo est velle
+          <lb ed="#P" n="9"/>amare, ut intelligas, rectitudo mentis est velle
+          <lb ed="#P" n="10"/>intelligere, ut ames. At vero in statu patriae
+          <lb ed="#P" n="11"/>excedit actus intellectus actum voluntatis, quia
+          <lb ed="#P" n="12"/>tunc videtur prout in se est, juxta illud Joan.
+          <lb ed="#P" n="13"/>3: Cum apparwerit, similes ei erimus, quia 
+          vi<lb break="no" ed="#P" n="14"/>debimus eum sicuti est.
+        </p>
+        <p xml:id="szdada-y19041-d1e613">
+          <lb ed="#P" n="15"/>5. Data responsio duplici urgetur 
+          difficul<lb break="no" ed="#P" n="16"/>tate.— Enodatur prior difficultas. — Pro hac
+          <lb ed="#P" n="17"/>responsione videndus auctor, lib. 9, de Orat.,
+          <lb ed="#P" n="18"/>cap. 15. — Haec vero responsio difficultates
+          <lb ed="#P" n="19"/>patitur. Primo enim rogo, quomodo voluntas
+          <lb ed="#P" n="20"/>in via possit magis, perfectiusque diligere,
+          <lb ed="#P" n="21"/>quam intellectus cognoscit, cum appetitus non
+          <lb ed="#P" n="22"/>nisi in cognitum, atque eo modo quo est 
+          co<lb break="no" ed="#P" n="23"/>gnitum feratur? Secundo, quo item modo 
+          in<lb break="no" ed="#P" n="24"/>tellectus res cognoscit prout in ipso sunt? imo
+          <lb ed="#P" n="25"/>non nisi prout in seipsis habent, agnoscit: alias
+          <lb ed="#P" n="26"/>in sua cognitionc deciperetur, atque aberraret.
+          <lb ed="#P" n="27"/>Pro priori difficultate distinguenda est res 
+          co<lb break="no" ed="#P" n="28"/>gnita, et amata a modo, quo ea cognoscitur et
+          <lb ed="#P" n="29"/>amatur: namque ex parte rei cognitae, ac 
+          si<lb break="no" ed="#P" n="30"/>militer rei amatae, voluntas non amat quidem
+          <lb ed="#P" n="31"/>nisi rem cognitam ab intellectu: quoad 
+          mo<lb break="no" ed="#P" n="32"/>dum tamen differentia intercedit: intellectus
+          <lb ed="#P" n="33"/>enim per assimilationem operatur, 
+          cognoscit<lb break="no" ed="#P" n="34"/>que objecta per species eorum, quas in se 
+          ha<lb break="no" ed="#P" n="35"/>bet, et ideo quasi in seipso speculatur objecta,
+          <lb ed="#P" n="36"/>et hac ratione cohaeret, rem cognitam esse
+          <lb ed="#P" n="37"/>maxime cognoscibilem, ac simul imperfecte
+          <lb ed="#P" n="38"/>et obscure cognosci, atque adeo simul verum,
+          <lb ed="#P" n="39"/>in seipsa rem cognosci, et prout intra 
+          intellec<lb break="no" ed="#P" n="40"/>tum repraesentatur. At voluntas operatur per
+          <lb ed="#P" n="41"/>modum impulsus, et inclinationis ad res 
+          co<lb break="no" ed="#P" n="42"/>gnitas, ideoque non attendit modum, quo
+          <lb ed="#P" n="43"/>cognoscuntur, sed in res ipsas cognitas 
+          abso<lb break="no" ed="#P" n="44"/>lute fertur, sicque ferri in res prout in se sunt,
+          <lb ed="#P" n="45"/>apposite dicitur.
+        </p>
+        <p xml:id="szdada-y19041-d1e683">
+          <lb ed="#P" n="46"/>6. Ad secundam difficultatem quid dicant
+          <lb ed="#P" n="47"/>nonnulli.— Rejiciuntur. — Suboritur tertia
+          <lb ed="#P" n="48"/>difficultas. — Solvitur. — Ad confirmationem
+          <lb ed="#P" n="49"/>ar gumenti 4, in eodem num.4.—Posterior vero
+          <lb ed="#P" n="50"/>difficultas circa eamdem solutionem oritur ex
+          <lb ed="#P" n="51"/>data nunc solutione prioris: sequitur quippe
+          <lb ed="#P" n="52"/>ex ea etiam in patria amorem perfectiorem
+          <lb ed="#P" n="53"/>esse visione, cum ibi etiam amor feratur in
+          <lb ed="#P" n="54"/>Deum pront in se est: intellectus vero non nisi
+          <lb ed="#P" n="55"/>prout in se itlum habet. Propter hanc instan-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tiam quidam ex Thomistis sentiunt amorem
+          <lb ed="#P" n="57"/>in patria secundum quid perfectiorem esse: sed
+          <lb ed="#P" n="58"/>falsum sentiunt, namque ibi intellectus, et
+          <lb ed="#P" n="59"/>voluntas feruntur in DEUM pront in se est,
+          <lb ed="#P" n="60"/>cum DEUS secundum suam essentiam 
+          intel<lb break="no" ed="#P" n="61"/>lectui beati sit intimus, neque in se melius
+          <lb ed="#P" n="62"/>existat, quam in intellectu illo, ac sicut 
+          volun<lb break="no" ed="#P" n="63"/>tas Deum in se totum amat, ita et intellectus
+          <lb ed="#P" n="64"/>Deum totum videt in seipso. Rursus 
+          quemad<lb break="no" ed="#P" n="65"/>modum intellectus non totalhiter Deum videt,
+          <lb ed="#P" n="66"/>ita nec voluntas totaliter amat. Sed jam tertia
+          <lb ed="#P" n="67"/>nascitur, et major difficultas, etenim quamvis
+          <lb ed="#P" n="68"/>haec habeant verum in supernaturalibus actibus,
+          <lb ed="#P" n="69"/>at in naturalibus sequi videtur actum amoris
+          <lb ed="#P" n="70"/>naturae viribus elicitum perfectiorem esse,
+          <lb ed="#P" n="71"/>quam sit naturalis cognitio intellectus, ille
+          <lb ed="#P" n="72"/>namque amor in Deum tendit prout in se est,
+          <lb ed="#P" n="73"/>illumque attingit super omnia, at cognitio 
+          im<lb break="no" ed="#P" n="74"/>perfecta est et obscura: unde sequi plane
+          <lb ed="#P" n="75"/>videtur, voluntatem intellectui praestare, nam
+          <lb ed="#P" n="76"/>perfectio potentiae ex naturalibus ejus viribus
+          <lb ed="#P" n="77"/>pensanda est. Respondeo primo aliquam 
+          for<lb break="no" ed="#P" n="78"/>tasse cognitionem Dei naturalem perfectiorem
+          <lb ed="#P" n="79"/>esse, quam sit amor naturalis, ut naturalis:
+          <lb ed="#P" n="80"/>quamvis ut moralis, amor sit perfectior. 
+          Enim<lb break="no" ed="#P" n="81"/>vero naturae viribus cognoscere Deum, et 
+          attri<lb break="no" ed="#P" n="82"/>buta illus: involvit etiam cognitionem de
+          <lb ed="#P" n="83"/>diligendo Deum super omnia, quod totum 
+          in<lb break="no" ed="#P" n="84"/>tellectus naturaliter assequitur, et majoris 
+          per<lb break="no" ed="#P" n="85"/>fectionis esse ostenditur, quam amare illum
+          <lb ed="#P" n="86"/>posse imperfecto quodam modo: praecipue,
+          <lb ed="#P" n="87"/>quia praedicta cognitio non supponit actum 
+          al<lb break="no" ed="#P" n="88"/>terius potentiae, a qua juvetur: at vero talis
+          <lb ed="#P" n="89"/>ille amor cognitionem supponit intellectus, a
+          <lb ed="#P" n="90"/>qua fere totam suam perfectionem haurit. 
+          Res<lb break="no" ed="#P" n="91"/>pondeo secundo licet amor naturalis perfectior
+          <lb ed="#P" n="92"/>esse admittatur, nihilominus intellectum 
+          per<lb break="no" ed="#P" n="93"/>fectiorem potentiam esse, eo quod elevari 
+          po<lb break="no" ed="#P" n="94"/>test ad perfectiorem actum, quam voluntas.
+          <lb ed="#P" n="95"/>Pro quo notandum, licet actus visionis et 
+          cha<lb break="no" ed="#P" n="96"/>ritatis sint supernaturales, nihilominus tamen
+          <lb ed="#P" n="97"/>habere fundamentum aliquod in natura 
+          po<lb break="no" ed="#P" n="98"/>tentiarum, a quibus exercentur, vere enim
+          <lb ed="#P" n="99"/>intellectus ex natura sua nonnihil valet circa
+          <lb ed="#P" n="100"/>cognitionem Dei, quem plane sub objecto suo
+          <lb ed="#P" n="101"/>comprehendit, alioquin non posset elevari ad
+          <lb ed="#P" n="102"/>illam visionem: idemque dicendum de 
+          volun<lb break="no" ed="#P" n="103"/>tate, quo circa intellectus de se habet non 
+          re<lb break="no" ed="#P" n="104"/>pugnantiam, ut ad illam perfectissimum actum
+          <lb ed="#P" n="105"/>elevetur, ideoque de se perfectior est, quam
+          <lb ed="#P" n="106"/>voluntas: quod autem voluntas possit unum
+          <lb ed="#P" n="107"/>aliquem meliorem actum naturalem exponere,
+          <lb ed="#P" n="108"/>quam intellectus non propterea perfectior 
+          ab<lb break="no" ed="#P" n="109"/>solute censenda est, tum ob ea, quae diximus,
+          <lb ed="#P" n="110"/>tum quia sat est intellectum communiter, et
+          <pb ed="#P" n="777"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in caeteris actibus excellere et hactenus de 
+          se<lb break="no" ed="#P" n="2"/>cundo argumento. Ad confirmationem vero
+          <lb ed="#P" n="3"/>ejus ibidem adductam respondetur: sicut 
+          Se<lb break="no" ed="#P" n="4"/>raphini perfectius amant, quam Cherubini, ita
+          <lb ed="#P" n="5"/>etiam perfectius viderent, certum enim est
+          <lb ed="#P" n="6"/>absque controversia ex perfectiori Dei visione
+          <lb ed="#P" n="7"/>sequi perfectiorem amorem: difficultas ergo
+          <lb ed="#P" n="8"/>communis est in utraque sententia, 
+          dicendum<lb break="no" ed="#P" n="9"/>que denominationem illam non sumi ex his,
+          <lb ed="#P" n="10"/>quae in ipsis Angelis inveniuntur, sed quae in 
+          no<lb break="no" ed="#P" n="11"/>bis efficiunt. Seraphim itaque dicuntur 
+          arden<lb break="no" ed="#P" n="12"/>tes et incendentes, ut D. Dionysius ait, septimo
+          <lb ed="#P" n="13"/>capite, coelestis Hierarchiae, quia illorum 
+          mu<lb break="no" ed="#P" n="14"/>nus est accendere in charitate Dei hominum
+          <lb ed="#P" n="15"/>voluntates, nam quia charitas in via 
+          perfectis<lb break="no" ed="#P" n="16"/>sima est, ideo hoc est perfectissimum 
+          Angelo<lb break="no" ed="#P" n="17"/>rum munus, quod Seraphinis tribuitur, 
+          Che<lb break="no" ed="#P" n="18"/>rubini vero munus habent illuminandi 
+          intel<lb break="no" ed="#P" n="19"/>lectus, ex eoque denominantur, quo pacto
+          <lb ed="#P" n="20"/>interpretandus venit divus Thomas, 1 part.,
+          <lb ed="#P" n="21"/>quaest. 108, art. 4, ad 6.
+        </p>
+        <p xml:id="szdada-y19041-d1e878">
+          <lb ed="#P" n="22"/>7. Ad tertium argumentum in eodem 
+          mu<lb break="no" ed="#P" n="23"/>mero primo. — Ad confirmationem. — Ad 
+          ter<lb break="no" ed="#P" n="24"/>tium argumentum principale respondetur,
+          <lb ed="#P" n="25"/>quamvis in libertate voluntas superet 
+          in<lb break="no" ed="#P" n="26"/>tellectum, intellectum superare voluntatem
+          <lb ed="#P" n="27"/>in ratione et discursu, multo vero major 
+          per<lb break="no" ed="#P" n="28"/>fectio est potentiam rationalem esse per 
+          essen<lb break="no" ed="#P" n="29"/>tiam, quam esse liberam, haec enim perfectio
+          <lb ed="#P" n="30"/>ex illa oritur tanquam minor. Unde ad 
+          con<lb break="no" ed="#P" n="31"/>firmationem negatur antecedens: potius enim
+          <lb ed="#P" n="32"/>intellectus regit voluntatem, totumque 
+          homi<lb break="no" ed="#P" n="33"/>nem, quam e contra: nam licet applicatio ad
+          <lb ed="#P" n="34"/>operandum sit a voluntate, rectitudo tamen
+          <lb ed="#P" n="35"/>operandi ab intellectu proponitur. Ex quo 
+          ne<lb break="no" ed="#P" n="36"/>gare non possumus has potentias inter se 
+          de<lb break="no" ed="#P" n="37"/>pendentiam habere, seque mutuo juvare, plus
+          <lb ed="#P" n="38"/>tamen est, quod voluntas intellectui, quam
+          <lb ed="#P" n="39"/>quod intellectus voluntati.
+        </p>
+        <p xml:id="szdada-y19041-d1e920">
+          <lb ed="#P" n="40"/>8. Ad quartum ibidem. — Ad 
+          confirmatio<lb break="no" ed="#P" n="41"/>nem prima solutio. — Secunda solutio. — Ad
+          <lb ed="#P" n="42"/>quartum dicito in intellectu potius consummari
+          <lb ed="#P" n="43"/>perfectionem hominis, cum per actum 
+          intel<lb break="no" ed="#P" n="44"/>lectus homo fiat beatus, at voluntatem reddere
+          <lb ed="#P" n="45"/>hominem bonum dispositive in via, quia est
+          <lb ed="#P" n="46"/>principium merendi, ideoque bonitatem 
+          mo<lb break="no" ed="#P" n="47"/>ralem consummari in voluntate, id tamen 
+          ha<lb break="no" ed="#P" n="48"/>bere in quantum conformatur sue regulae,
+          <lb ed="#P" n="49"/>quae est recta ratio. Unde prius, ac perfectius
+          <lb ed="#P" n="50"/>moralis bonitas oritur ab intellectu, qua de
+          <lb ed="#P" n="51"/>causa etiam dependentia, quae inter virtutes
+          <lb ed="#P" n="52"/>morales perfectissima est, in intellectu residet.
+          <lb ed="#P" n="53"/>Ad confirmationem quidam putant in 
+          poten<lb break="no" ed="#P" n="54"/>uis sentientibus appetitum esse perfectiorem
+          <lb ed="#P" n="55"/>qualibet cognoscente, eo quod actus omnes
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>virium sensitivarum ordinantur ad appetitum
+          <lb ed="#P" n="57"/>sensitivum, seu ad delectationem, cum vis 
+          sen<lb break="no" ed="#P" n="58"/>sitiva non nisi delectabile bonum attingat.
+          <lb ed="#P" n="59"/>Praeterea sensitiva virtus ex natura sua 
+          ordi<lb break="no" ed="#P" n="60"/>natur ad obediendum rationi, ad hoc autem
+          <lb ed="#P" n="61"/>vicinius accedit appetitus inferior (nam bruta
+          <lb ed="#P" n="62"/>ex concupiscentia potius quam ex eruditione
+          <lb ed="#P" n="63"/>ducuntur) in natura autem intellectuali, quae
+          <lb ed="#P" n="64"/>secundum se capax est universalis, et summi
+          <lb ed="#P" n="65"/>boni, meliusque illud assequitur 
+          contempla<lb break="no" ed="#P" n="66"/>tione, quam delectatione, et operatio appetitus
+          <lb ed="#P" n="67"/>ad operationem intellectus ordinatur, ideo 
+          in<lb break="no" ed="#P" n="68"/>tellectus perfectior asseritur. Et haec responsio
+          <lb ed="#P" n="69"/>ex S. Thoma colligitur 1, 2, q. 4, a. 2, ad2.
+          <lb ed="#P" n="70"/>Hespondetur tamen secundo etiam in sensitiva
+          <lb ed="#P" n="71"/>parte sensum interiorem appetitul praecellere,
+          <lb ed="#P" n="72"/>cum habeat nobiliores operationes, 
+          nobilio<lb break="no" ed="#P" n="73"/>remque operandi modum: ac pleraeque ex 
+          ra<lb break="no" ed="#P" n="74"/>tionibus factis pro intellectu in sensu etiam
+          <lb ed="#P" n="75"/>procedunt, neque ullae sunt quae contrarium
+          <lb ed="#P" n="76"/>persuadeant.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

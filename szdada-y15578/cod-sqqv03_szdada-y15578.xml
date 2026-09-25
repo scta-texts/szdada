@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="637"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y15578"><!-- t3l3c6 -->
+        <head xml:id="szdada-y15578-Hd1e101">Caput 6</head>
+        <head xml:id="szdada-y15578-Hd1e103" type="question-title">Quid sint apprehensio et judicium, et quomodo in potentis cognoscitivis reperiantur</head>
+        <p xml:id="szdada-y15578-d1e106">
+          <lb ed="#P" n="8"/>CAPUT VI.
+          <lb ed="#P" n="9"/>QUID SINT APPREHENSIO ET JUDICIUM, ET QUOMODO
+          <lb ed="#P" n="10"/>IN POTENTIS COGNOSCITIVIS REPERIANTUR.
+        </p>
+        <p xml:id="szdada-y15578-d1e115">
+          <lb ed="#P" n="11"/>1. Prima pars tituli expeditur. — Diximus
+          <lb ed="#P" n="12"/>de actu potentiae cognoscitivae, ac de principio
+          <lb ed="#P" n="13"/>terminoque illius: nunc dicendum de illius
+          <lb ed="#P" n="14"/>divisione, quae in omnibus potentiis 
+          cognosci<lb break="no" ed="#P" n="15"/>tivis locum habet. Prius igitur in hoc capite
+          <lb ed="#P" n="16"/>explicabimus quid apprehensio sit et judicium,
+          <lb ed="#P" n="17"/>deinde quomodo singulis potentiis conveniant.
+          <lb ed="#P" n="18"/>Circa apprehensionem igitur est advertendum
+          <lb ed="#P" n="19"/>in potentiis cognoscentibus primum omnium
+          <lb ed="#P" n="20"/>reperiri receptionem speciei intentionalis, quae
+          <lb ed="#P" n="21"/>proprie objecti apprehensio non est, cum non
+          <lb ed="#P" n="22"/>sit cognitio: post receptionem sequitur actus
+          <lb ed="#P" n="23"/>quo res primo concipitur vitaliter, diciturque
+          <lb ed="#P" n="24"/>apprehensio eo quod potentia recipiat 
+          objec<lb break="no" ed="#P" n="25"/>tum quasi trahendo illud. Formatur autem
+          <lb ed="#P" n="26"/>apprehensio dupliciter. Primo per simplices
+          <lb ed="#P" n="27"/>conceptus non comparando unam rem alteri.
+          <lb ed="#P" n="28"/>Secundo faciendo comparationem inter res
+          <lb ed="#P" n="29"/>simpliciter conceptas. Prima dicitur simplex
+          <lb ed="#P" n="30"/>apprehensio: secunda compositio, seu 
+          compo<lb break="no" ed="#P" n="31"/>sita apprehensio. Unde D. Thomas, prima
+          <lb ed="#P" n="32"/>parte, quaest. 58, art. 4, dixit compositionem
+          <lb ed="#P" n="33"/>fieri, quando plures conceptus formantur non
+          <lb ed="#P" n="34"/>simpliciter, sed cum ordine quodam inter se.
+          <lb ed="#P" n="35"/>Et Aristoteles 3, de Anima, text. 22, docet 
+          in<lb break="no" ed="#P" n="36"/>tellectum plures conceptus componere, et uuum
+          <lb ed="#P" n="37"/>facere, scilicet compositione: haec vero 
+          colla<lb break="no" ed="#P" n="38"/>tio unius ad aliud aut fit ab intellectu, 
+          compa<lb break="no" ed="#P" n="39"/>rando et componendo simplices conceptus, aut
+          <lb ed="#P" n="40"/>comparando unam compositionem alteri 
+          tan<lb break="no" ed="#P" n="41"/>quam illi consonam, vel ex illa inferibilem, ac
+          <lb ed="#P" n="42"/>primo modo vocatur secunda intellectus 
+          ope<lb break="no" ed="#P" n="43"/>ratio, secundo autem dicitur discursus, unde
+          <lb ed="#P" n="44"/>Aristoteles 3, de Anima, duas tantum 
+          opera<lb break="no" ed="#P" n="45"/>tiones intellectus distinxit, simplicem scilicet,
+          <lb ed="#P" n="46"/>et complexam complectendo sub complexa duas
+          <lb ed="#P" n="47"/>compositiones runc dictas: est ergo 
+          apprehen<lb break="no" ed="#P" n="48"/>sio in communi mentalis rei formatio, seu 
+          vi<lb break="no" ed="#P" n="49"/>talis conceptio per potentiam cognoscitivam,
+          <lb ed="#P" n="50"/>quae simplex, vel composita esse potest, ut
+          <lb ed="#P" n="51"/>explicatum est.
+        </p>
+        <p xml:id="szdada-y15578-d1e206">
+          <lb ed="#P" n="52"/>2. Pro secunda parte tituli notatio duplicis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>judicii proprii et improprii. — De quo auctor,
+          <lb ed="#P" n="54"/>disp. S. Metaphysicae, sect. 4, n. 6, et 
+          sequen<lb break="no" ed="#P" n="55"/>tibus. — Circa judicium est sciendum uno modo
+          <lb ed="#P" n="56"/>sumi latissime prout significat rei 
+          conceptio<lb break="no" ed="#P" n="57"/>nem etiam simplicem alio modo proprie,
+          <lb ed="#P" n="58"/>quando facta collatione unius ad aliud, 
+          poten<lb break="no" ed="#P" n="59"/>tia judicat esse, vel non esse. Distinctio est
+          <lb ed="#P" n="60"/>D. Augustini 11, de Civitate, cap. 27, et 8
+          <lb ed="#P" n="61"/>lib., cap. 7, Gregorii Nisseni, lib. 4, de 
+          Ho<lb break="no" ed="#P" n="62"/>mine, cap. 4, Nemesii, de Natura hominis, c. 4,
+          <lb ed="#P" n="63"/>Galeni, lib. 5, de Placitis, cap. 2, et lib. 7,
+          <lb ed="#P" n="64"/>cap. 16. Judicium primo modo non est actus
+          <lb ed="#P" n="65"/>distinctus ab apprehensione, diciturque 
+          appre<lb break="no" ed="#P" n="66"/>hensio in quantum est quaedam tractio rei 
+          co<lb break="no" ed="#P" n="67"/>gnitae ad potentiam: judicium vero in 
+          quan<lb break="no" ed="#P" n="68"/>tum potentia cognoscendo judicat exercite rem
+          <lb ed="#P" n="69"/>esse talem, qualem cognoscit: sic oculus 
+          vi<lb break="no" ed="#P" n="70"/>dendo album, idolum illius format, ac per 
+          ip<lb break="no" ed="#P" n="71"/>sum in actu exercito judicat esse album, quod
+          <lb ed="#P" n="72"/>videt non actu distincto, sed eodem. Itaque
+          <lb ed="#P" n="73"/>judicium hoc priori modo in brutis etiam 
+          re<lb break="no" ed="#P" n="74"/>peritur.
+        </p>
+        <p xml:id="szdada-y15578-d1e262">
+          <lb ed="#P" n="75"/>3. Judicium proprie dictum quid esse 
+          puta<lb break="no" ed="#P" n="76"/>verint. — Ferrarius et alii. — Refelluntur. —
+          <lb ed="#P" n="77"/>De judicio autem secundo modo quid sit, et
+          <lb ed="#P" n="78"/>quomodo fiat, difficilius est exponere, multi
+          <lb ed="#P" n="79"/>censuerunt esse actum reflexum, per quem
+          <lb ed="#P" n="80"/>potentia conceptionem suam directam 
+          com<lb break="no" ed="#P" n="81"/>parat ad rem conceptam, judicatque illi esse,
+          <lb ed="#P" n="82"/>vel non esse conformem. Cujus sententiae 
+          vi<lb break="no" ed="#P" n="83"/>detur esse Ferrarius 1, contra, cap. 59, sed
+          <lb ed="#P" n="84"/>falsa est sententia, tum quia constat judicium
+          <lb ed="#P" n="85"/>dari in rusticis et indoctis hominibus, qui 
+          ta<lb break="no" ed="#P" n="86"/>men fortasse nunquam ita reflectuntur, neque
+          <lb ed="#P" n="87"/>prorsus comparare norunt conceptus suos ad
+          <lb ed="#P" n="88"/>res conceptas: tum quia ante illam 
+          reflexio<lb break="no" ed="#P" n="89"/>nem potest esse judicium, siquidem eo ipso,
+          <lb ed="#P" n="90"/>quod potentia complexe cognoscit, verbi 
+          gra<lb break="no" ed="#P" n="91"/>tia, hominem esse, aut non esse animal, ante
+          <lb ed="#P" n="92"/>omnem reflexionem denominatur verum 
+          attin<lb break="no" ed="#P" n="93"/>gens, aut falli: judicium ergo illi reflexioni
+          <lb ed="#P" n="94"/>non astringitur.
+        </p>
+        <p xml:id="szdada-y15578-d1e308">
+          <lb ed="#P" n="95"/>4. Notatio prima pro vera sententia. — 
+          No<lb break="no" ed="#P" n="96"/>tatio secunda.—Concluditur jam vera sententia
+          <lb ed="#P" n="97"/>de quidditate judicii.—Cuare dicendum 
+          pro<lb break="no" ed="#P" n="98"/>prium judicium esse adhaesionem potentiae ad
+          <lb ed="#P" n="99"/>rem cognitam per actum ab ipsa elicitum, 
+          quo<lb break="no" ed="#P" n="100"/>circa res ante apprehensas versatur. Ad cujus
+          <lb ed="#P" n="101"/>intelligentiam notandum est primo tale 
+          judi<lb break="no" ed="#P" n="102"/>cium solum reperiri in divisione et 
+          composi<lb break="no" ed="#P" n="103"/>tione, quoniam non versatur circa rem nude,
+          <lb ed="#P" n="104"/>ac simplici modo, sed circa rem ita esse, vel non
+          <lb ed="#P" n="105"/>esse, quod absque compositione mentali non
+          <lb ed="#P" n="106"/>contingit. Notandum secundo intellectum aut
+          <lb ed="#P" n="107"/>comparare res simpliciter conceptas compo-
+          <pb ed="#P" n="638"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nendo tantum extrema, non ferendo 
+          senten<lb break="no" ed="#P" n="2"/>tiam de propositione a se composita, id est,
+          <lb ed="#P" n="3"/>neque assentiendo illi, neque dissentiendo: et
+          <lb ed="#P" n="4"/>haec certe est mera apprehensio a judicio 
+          dis<lb break="no" ed="#P" n="5"/>tincta: aut componere ipsa extrema ferendo
+          <lb ed="#P" n="6"/>sententiam, id est, adhaerendo, vel non 
+          ad<lb break="no" ed="#P" n="7"/>haerendo tali compositioni ut verae, vel ut
+          <lb ed="#P" n="8"/>falsae: haec igitur adhaesio judicium est, quia
+          <lb ed="#P" n="9"/>non materialis, et quantativa putanda est, sed
+          <lb ed="#P" n="10"/>vitalis et intentionalis: ideoque medio actu
+          <lb ed="#P" n="11"/>vitalis potentiae cognoscitivae fieri debet. Adhuc
+          <lb ed="#P" n="12"/>tamen difficile exponitur talis actus, 
+          cognitio<lb break="no" ed="#P" n="13"/>nem enim esse oportet, non apparet autem
+          <lb ed="#P" n="14"/>quid per illam cognosci possit, quod non jam
+          <lb ed="#P" n="15"/>sit per apprehensionem cognitum. Quare 
+          ter<lb break="no" ed="#P" n="16"/>tio notandum est, quoties intellectus 
+          compa<lb break="no" ed="#P" n="17"/>rat aliquod praedicatum subjecto, vel id 
+          prae<lb break="no" ed="#P" n="18"/>stare cognoscendo ei convenire, vel 
+          cognos<lb break="no" ed="#P" n="19"/>cendo non convenire, vel neutrum cognoscendo:
+          <lb ed="#P" n="20"/>quando hoc tertio modo comparat, est mera
+          <lb ed="#P" n="21"/>apprehensio sine judicio: quando vero 
+          com<lb break="no" ed="#P" n="22"/>parat primo, vel secundo, jam est compositio
+          <lb ed="#P" n="23"/>judicativa. Judicium ergo ille actus est, quo
+          <lb ed="#P" n="24"/>intellectus cognoscit unum convenire alteri,
+          <lb ed="#P" n="25"/>quapropter judicium non est actus realiter 
+          di<lb break="no" ed="#P" n="26"/>stinctusa compositione intellectus cognoscitiva
+          <lb ed="#P" n="27"/>connexionis extremorum. Unde judicare est
+          <lb ed="#P" n="28"/>componere cognoscendo connexionem, et quia
+          <lb ed="#P" n="29"/>in hac compositione cognoscitiva etiam 
+          inclu<lb break="no" ed="#P" n="30"/>ditur apprehensio, et formatio rei cognitae:
+          <lb ed="#P" n="31"/>ideo quando isto modo fit compositio, in illa
+          <lb ed="#P" n="32"/>includitur apprehensio et judicium ratione
+          <lb ed="#P" n="33"/>tantum, non re distincta: quae omnia ita 
+          pro<lb break="no" ed="#P" n="34"/>bantur: nam judicium est actus intellectus :
+          <lb ed="#P" n="35"/>debet ergo per illum aliquid intelligi: at non
+          <lb ed="#P" n="36"/>nisi qualis connexio sit extremorum: ergo,
+          <lb ed="#P" n="37"/>etc. Probatur haec minor, quia non apparet
+          <lb ed="#P" n="38"/>quid aliud cognoscatur, ipsa enim extrema
+          <lb ed="#P" n="39"/>jam erant cognita: ergo cognoscere 
+          connexio<lb break="no" ed="#P" n="40"/>nem illam ipsum est judicare. Praeterea si
+          <lb ed="#P" n="41"/>postquam quis formavit propositionem, alium
+          <lb ed="#P" n="42"/>distinctum actum elicit, quo judicat ita esse,
+          <lb ed="#P" n="43"/>vel non esse actus, ille erit sane pronuntiare
+          <lb ed="#P" n="44"/>intellectualiter propositionem esse veram, vel
+          <lb ed="#P" n="45"/>falsam, non est autem necessarium, ut eo
+          <lb ed="#P" n="46"/>modo, id est, in actu signato, intellectus 
+          judi<lb break="no" ed="#P" n="47"/>cet talem propositionem esse veram, quia jam
+          <lb ed="#P" n="48"/>novam propositionem conficeret, de qua 
+          ite<lb break="no" ed="#P" n="49"/>rum esset judicandum, an vera esset, quod
+          <lb ed="#P" n="50"/>tamen experientia reprobat: ergo judicium
+          <lb ed="#P" n="51"/>nihil est aliud, quam cognoscere hoc ita esse,
+          <lb ed="#P" n="52"/>qui actus a compositione, vel divisione 
+          men<lb break="no" ed="#P" n="53"/>tali non est distinctus.
+        </p>
+        <p xml:id="szdada-y15578-d1e458">
+          <lb ed="#P" n="54"/>5. An judicii quidditas sit simplea necne. —
+          <lb ed="#P" n="55"/>Vera resolutio ostenditur. — Et ex his solvi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tur aliud dubium, cujus resolutio exponit
+          <lb ed="#P" n="57"/>amplius dicta, nempe an hujusmodi judicium
+          <lb ed="#P" n="58"/>sit simplex actus intellectus, an compositus,
+          <lb ed="#P" n="59"/>multi enim putant apprehensionem esse 
+          com<lb break="no" ed="#P" n="60"/>positionem, judicium vero esse simplicem
+          <lb ed="#P" n="61"/>actum cadentem supra propositionem jam 
+          ap<lb break="no" ed="#P" n="62"/>prehensam. Ex dictis tamen colligitur 
+          oppo<lb break="no" ed="#P" n="63"/>situm: nam actus superadditus compositioni
+          <lb ed="#P" n="64"/>jam factae non satis intelligitur, nisi forte 
+          di<lb break="no" ed="#P" n="65"/>cas intellectum, post compositam a se 
+          propo<lb break="no" ed="#P" n="66"/>sitionem, unico actu simplici attingere ipsam
+          <lb ed="#P" n="67"/>connexionem extremorum, qui simplex sit
+          <lb ed="#P" n="68"/>judicium: sed hoc minime satisfacit, nam
+          <lb ed="#P" n="69"/>intellectus cognoscere nequit connexionem
+          <lb ed="#P" n="70"/>extremorum, nisi cognoscendo extrema eodem
+          <lb ed="#P" n="71"/>actu, sed extrema nequit cognoscere simplici
+          <lb ed="#P" n="72"/>actu: neque ipsam connexionem. Et 
+          confir<lb break="no" ed="#P" n="73"/>matur, quia non possumus apprehendere 
+          sim<lb break="no" ed="#P" n="74"/>plici actu propositionem, ut de negativis
+          <lb ed="#P" n="75"/>clarius elucet: ergo nec de illa judicare, neque
+          <lb ed="#P" n="76"/>videre conformitatem, vel ditformitatem 
+          prae<lb break="no" ed="#P" n="77"/>dicati ad subjectum nisi actu complexo. Et
+          <lb ed="#P" n="78"/>haec est sententia Aristotelis 1, Perih., cap. 1,
+          <lb ed="#P" n="79"/>dum ait veritatem in compositione consistere,
+          <lb ed="#P" n="80"/>consistit autem in judicio: ergo, etc. Idem
+          <lb ed="#P" n="81"/>habet 3, de Anima, textu 21 et 26, et 1. 
+          Pos<lb break="no" ed="#P" n="82"/>terior, text. 33, et 9 Metaphysicae, text. 22, 2
+          <lb ed="#P" n="83"/>etiam Rhetoric. ad Theodectem, cap. ?21.
+          <lb ed="#P" n="84"/>Sententiam vocat enuntiationem, sententia .
+          <lb ed="#P" n="85"/>autem, et judicium idem sunt, nisi quod 
+          ju<lb break="no" ed="#P" n="86"/>dicium usurpetur in speculativis, sententia
+          <lb ed="#P" n="87"/>vero in practicis, et 3 Ethic. ad Nicomach.,
+          <lb ed="#P" n="88"/>cap. 3, et libr. 6, cap. 9, aiv: Simul ac 
+          con<lb break="no" ed="#P" n="89"/>sultavimus, judicamus, et consultatio, inquit,
+          <lb ed="#P" n="90"/>est nondum factae enuntiationis, opinatio vero
+          <lb ed="#P" n="91"/>jam enuntiatio est. Vocat autem opinationem
+          <lb ed="#P" n="92"/>judicium probabile: ergo judicium est ipsa
+          <lb ed="#P" n="93"/>enuntiatio et compositio. Atque ita constat ex
+          <lb ed="#P" n="94"/>dictis quid sit, et quotuplex apprehensio et
+          <lb ed="#P" n="95"/>judicium.
+        </p>
+        <p xml:id="szdada-y15578-d1e554">
+          <lb ed="#P" n="96"/>6. Pro ultima parte tituli varia pronuntiata.
+          <lb ed="#P" n="97"/>— Circa ultimam tituli partem certum est
+          <lb ed="#P" n="98"/>intellectum formare posse utrumque actum
+          <lb ed="#P" n="99"/>apprehensionem scilicet, et judicium de rebus,
+          <lb ed="#P" n="100"/>ac satis ex dictis colligi potest. Quoad sensus
+          <lb ed="#P" n="101"/>vero sit primum pronuntiatum. In omnibus
+          <lb ed="#P" n="102"/>sensibus invenitur simplex apprehensio, et
+          <lb ed="#P" n="103"/>judicium primo modo, quod scilicet in actu
+          <lb ed="#P" n="104"/>cognitionis intrinsece imbibitur, ut numero
+          <lb ed="#P" n="105"/>secundo explicatum est. Hoc ex hactenus 
+          dic<lb break="no" ed="#P" n="106"/>tis ostensum relinquitur, atque in eo sensu
+          <lb ed="#P" n="107"/>dixit Aristoteles 2, Topicorum, cap. 2. judicare
+          <lb ed="#P" n="108"/>se habere ut genus ad sentire et intelligere,
+          <lb ed="#P" n="109"/>et 2 Posteriorum, cap. 18, sensum vocavit
+          <lb ed="#P" n="110"/>facultatem judicativam, et 2, de Anma;
+          <pb ed="#P" n="639"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cap. 6, sensum ait judicare. Secundum 
+          pro<lb break="no" ed="#P" n="2"/>nuntiatum. Nullus sensus exterior 
+          apprehen<lb break="no" ed="#P" n="3"/>dit, vel judicat componendo, vel dividendo.
+          <lb ed="#P" n="4"/>Ratio est, quoniam tales potentiae 
+          imperfec<lb break="no" ed="#P" n="5"/>tissime sunt in genere cognoscentium :
+          <lb ed="#P" n="6"/>conferre autem unum alteri, acde illa 
+          com<lb break="no" ed="#P" n="7"/>plexione judicium ferre, perfectissimae 
+          po<lb break="no" ed="#P" n="8"/>tentiae est: solum ergo sensus exteriores
+          <lb ed="#P" n="9"/>simpliciter cognoscunt praeviam 
+          immutatio<lb break="no" ed="#P" n="10"/>nem simplicem ab objectis suis causatam.
+          <lb ed="#P" n="11"/>Instabis ex Aristotele, libr. 2, text. 144 et 149,
+          <lb ed="#P" n="12"/>dicente sensum exteriorem discernere inter
+          <lb ed="#P" n="13"/>diversa sensibilia propria, ut visum inter 
+          al<lb break="no" ed="#P" n="14"/>bum et nigrum, id autem fieri non videtur
+          <lb ed="#P" n="15"/>absque complexione dividente album a nigro,
+          <lb ed="#P" n="16"/>et Job 12, dicitur: Auris enim verba dijudicat,
+          <lb ed="#P" n="17"/>et fauces comedentis saporem, et cap. 34: 
+          Au<lb break="no" ed="#P" n="18"/>ris enim cerba probat, et guttur escas dijudicat
+          <lb ed="#P" n="19"/>gustu. Respondetur tamen sensus judicare eo
+          <lb ed="#P" n="20"/>modo, quem in primo pronuntiato attulimus,
+          <lb ed="#P" n="21"/>atque ita explicatur. Nam visus, verbi gratia,
+          <lb ed="#P" n="22"/>simplicem actum elicit, quo cognoscit nigrum,
+          <lb ed="#P" n="23"/>et simplicem alium quo cognoscit album, non
+          <lb ed="#P" n="24"/>tamen elicit tertium comparantem unum 
+          al<lb break="no" ed="#P" n="25"/>teri, judicantemque hoc non esse illud, sed
+          <lb ed="#P" n="26"/>cognoscendo album et nigrum simplicibus
+          <lb ed="#P" n="27"/>actibus exercite judicat diversos esse colores,
+          <lb ed="#P" n="28"/>atque hoc etiam modo judicat sensus 
+          commu<lb break="no" ed="#P" n="29"/>nis de differentiis diversorum sensibilium, ut
+          <lb ed="#P" n="30"/>infra dicetur.
+        </p>
+        <p xml:id="szdada-y15578-d1e658">
+          <lb ed="#P" n="31"/>7. Tertium pronuntiatum. — Consulatur
+          <lb ed="#P" n="32"/>auctor, supr. lib. 1, c. 5, n. 2, et in 
+          Metaphg<lb break="no" ed="#P" n="33"/>sica, d. 1, sect. 6, a n. 18, et disput. 23, sect.
+          <lb ed="#P" n="34"/>10, a n. 12. — Tertium pronuntiatum. In
+          <lb ed="#P" n="35"/>brutis nullus sensus interior judicat 
+          compo<lb break="no" ed="#P" n="36"/>nendo et dividendo, sed tantum simphliciter
+          <lb ed="#P" n="37"/>apprehendendo. Hoc etiam pronuntiatum 
+          cer<lb break="no" ed="#P" n="38"/>tum est et commune. hauo est, quia sensus
+          <lb ed="#P" n="39"/>brutorum sunt imperfecti, et materiales 
+          plu<lb break="no" ed="#P" n="40"/>rimum, neque possunt conferre unum alteri,
+          <lb ed="#P" n="41"/>alias possent discurrere, et ratiocinari aliquo
+          <lb ed="#P" n="42"/>modo. Quod si in brutis mira quaedam opera
+          <lb ed="#P" n="43"/>et astutiam, ac solertiam observemus, de 
+          qui<lb break="no" ed="#P" n="44"/>bus late Plinius, lib. 9, cap. 4 et 41, et lib. 8,
+          <lb ed="#P" n="45"/>cap. 12 et 50. Aristoteles, lib. 8, de Historia
+          <lb ed="#P" n="46"/>animalium, id plane sola illa simplici 
+          cogni<lb break="no" ed="#P" n="47"/>tione ducta operantur. Dices, simplex illa 
+          co<lb break="no" ed="#P" n="48"/>gnitio aequipollet nostrae compositae, eum per
+          <lb ed="#P" n="49"/>ilam aeque bene dirigantur bruta ad sua
+          <lb ed="#P" n="50"/>opera, atque homines ad sua: erit ergo 
+          per<lb break="no" ed="#P" n="51"/>fectior instar angelicae cognitionis. 
+          Responde<lb break="no" ed="#P" n="52"/>tur simplicem cognitionem perfectiorem esse
+          <lb ed="#P" n="53"/>complexa, si caetera paria sint, quod in 
+          prae<lb break="no" ed="#P" n="54"/>senti non cernitur, homo enim cognoscit 
+          dis<lb break="no" ed="#P" n="55"/>uncte, et clare objectum hoc esse bonum, aut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>malum, et ipsam bonitatis, aut 
+          disconvenien<lb break="no" ed="#P" n="57"/>tiae rationem componendo, Angelus vero idem
+          <lb ed="#P" n="58"/>assequitur distinctissime simplicissimo intuitu,
+          <lb ed="#P" n="59"/>et ideo perfectior est ejus cognitio: at vero
+          <lb ed="#P" n="60"/>brutum simplici quidem actu, confuse tamen
+          <lb ed="#P" n="61"/>cognoscit bonum aut disconveniens 
+          cogno<lb break="no" ed="#P" n="62"/>scendo tantum materialem ejus rationem :
+          <lb ed="#P" n="63"/>talis ergo cognitio multo est imperfectior,
+          <lb ed="#P" n="64"/>quam cognitio per compositionem. Et 
+          decla<lb break="no" ed="#P" n="65"/>ratur ex D. Thoma 1, 2, quaest. 13, art. 2,
+          <lb ed="#P" n="66"/>ad 3. Nam brutasemper, et ubique servant 
+          eum<lb break="no" ed="#P" n="67"/>dem modum operandi, nisi ab intrinseca 
+          ali<lb break="no" ed="#P" n="68"/>qua causa, vel impedimento divertantur, quod
+          <lb ed="#P" n="69"/>signum est limitata quadam cognitione agi
+          <lb ed="#P" n="70"/>minimeque variabili per alias, atque alias 
+          ex<lb break="no" ed="#P" n="71"/>tremorum compositiones et divisiones. Videri
+          <lb ed="#P" n="72"/>etiam potest Albertus 3, de Anima, tractatu 1,
+          <lb ed="#P" n="73"/>cap. 3, Philoponus ibid., fol. 72, col. 2, et
+          <lb ed="#P" n="74"/>Aristoteles, text. 157.
+        </p>
+        <p xml:id="szdada-y15578-d1e758">
+          <lb ed="#P" n="75"/>8. Quartum pronuntiatum. — Probatur ex
+          <lb ed="#P" n="76"/>Aristotele. — Quartum pronuntiatum. Nullus
+          <lb ed="#P" n="77"/>etiam sensus interior hominis potest 
+          appre<lb break="no" ed="#P" n="78"/>hendere, vel judicare, sive componendo, sive
+          <lb ed="#P" n="79"/>dividendo, unde tale judicium excedit limites
+          <lb ed="#P" n="80"/>potentiae sensitivae in universum. In hoc 
+          pro<lb break="no" ed="#P" n="81"/>nuntiato non omnes consentiunt: nam S. 
+          Tho<lb break="no" ed="#P" n="82"/>mas 2, de Anima, lectione 13, et 1 part.,
+          <lb ed="#P" n="83"/>quaest. 7S, art. 4, videtur tribuere humanae
+          <lb ed="#P" n="84"/>cogitativae compositionem et divisionem, 
+          at<lb break="no" ed="#P" n="85"/>que adeo discursum aliquem circa res 
+          parti<lb break="no" ed="#P" n="86"/>culares. Ita Cajetanus et Soto 2, Poster., cap.
+          <lb ed="#P" n="87"/>ultim, et fere reliqui auctores in procemio
+          <lb ed="#P" n="88"/>Metaphysicae, Nyphus, disputat. 7, Antonius
+          <lb ed="#P" n="89"/>Andraeas, quaest. 5, Javellus, quaest. 6, et alii.
+          <lb ed="#P" n="90"/>Fundamenta hujus sententiae in num. 10, 
+          po<lb break="no" ed="#P" n="91"/>nemus: sed pronuntiatum sumitur ex 
+          Aristo<lb break="no" ed="#P" n="92"/>tele 3, de Anima, cap. 6, ubi in intellectu
+          <lb ed="#P" n="93"/>tantum distinguit simplicem apprehensionem
+          <lb ed="#P" n="94"/>et compositionem: ergo censet hanc 
+          divisio<lb break="no" ed="#P" n="95"/>nem non habere locum in sensu, neque 
+          un<lb break="no" ed="#P" n="96"/>quam in eo illam assignat, et 1, Periherm.,
+          <lb ed="#P" n="97"/>capite 2, ait veritatem esse in compositione,
+          <lb ed="#P" n="98"/>et 6 Metaphysiese, text. ult., addit hujusmodi
+          <lb ed="#P" n="99"/>veritatem esse tantum in intellectu: ergo
+          <lb ed="#P" n="100"/>aperte sentit compositionem dari in intellectu
+          <lb ed="#P" n="101"/>tantummodo.
+        </p>
+        <p xml:id="szdada-y15578-d1e820">
+          <lb ed="#P" n="102"/>9. Et ratione. — Evasio impugnatur 
+          dilem<lb break="no" ed="#P" n="103"/>mate. — Impugnatur. —Et ratione etiam 
+          pro<lb break="no" ed="#P" n="104"/>batur. Nam conferre unum ad alterum est
+          <lb ed="#P" n="105"/>formalis compositio, et propria operatio 
+          po<lb break="no" ed="#P" n="106"/>tentiae spiritualis: ergo, etc. Dices participari
+          <lb ed="#P" n="107"/>posse a potentia materiali, ut conjuncta 
+          spiri<lb break="no" ed="#P" n="108"/>tuali. Ego vero quo pacto id explicetur 
+          in<lb break="no" ed="#P" n="109"/>quiro. Aut enim per illam conjunctionem quasi
+          <lb ed="#P" n="110"/>extrinsecam elevatur materialis potentia ad
+          <pb ed="#P" n="640"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>componendum et discurrendum, et hoc 
+          fal<lb break="no" ed="#P" n="2"/>sum est, quoniam potentia nequit efficere 
+          ac<lb break="no" ed="#P" n="3"/>tum quatenus vitalem propter conjunctionem
+          <lb ed="#P" n="4"/>ad aliam, si talem ex se non posset efficere, ut
+          <lb ed="#P" n="5"/>inductione patet: aut intrinsece perficitur, ut
+          <lb ed="#P" n="6"/>jam potens sit ad nobiliorem actum, quam
+          <lb ed="#P" n="7"/>omnes sensus brutorum, quia nimirum oritur
+          <lb ed="#P" n="8"/>ex anima sensitiva conjuncta gradui rationali,
+          <lb ed="#P" n="9"/>et sic responsio quidem probabilis est, tamen
+          <lb ed="#P" n="10"/>non satisfacit, quia illa potentia quantumvis
+          <lb ed="#P" n="11"/>perfecta semper manet intra latitudinem 
+          po<lb break="no" ed="#P" n="12"/>tentiam spiritualem: cujusmodi sunt 
+          compo<lb break="no" ed="#P" n="13"/>sitio et discursus, quod probatur primo, quia
+          <lb ed="#P" n="14"/>si illi actus semel concedantur potentiae 
+          ma<lb break="no" ed="#P" n="15"/>teriali, jam possent concedi potentiae 
+          bruto<lb break="no" ed="#P" n="16"/>rum, cum ex parte materialitatis non repugnet,
+          <lb ed="#P" n="17"/>et alias bruta etiam in gradu sensitivo 
+          perfec<lb break="no" ed="#P" n="18"/>tissima inveniantur. Adde, quod majora signa
+          <lb ed="#P" n="19"/>observentur in brutis hujus compositionis,
+          <lb ed="#P" n="20"/>quam in cogitativa nostra, quia in nobis potest
+          <lb ed="#P" n="21"/>facile tribui intellectui, in brutis vero nullo
+          <lb ed="#P" n="22"/>modo. Secundo arguitur: nam ad faciendam
+          <lb ed="#P" n="23"/>compositionem, praeter conceptus rerum quae
+          <lb ed="#P" n="24"/>per species repraesentantur, oportet concipere
+          <lb ed="#P" n="25"/>proprio conceptu conjunctionem praedicati
+          <lb ed="#P" n="26"/>cum subjecto, quae per verbum est 
+          importa<lb break="no" ed="#P" n="27"/>tur: hoc autem non videtur dandum potentiae
+          <lb ed="#P" n="28"/>materiali, cum illa collatio arguat magnam 
+          per<lb break="no" ed="#P" n="29"/>fectionem. Tertio si sensus posset dividere et
+          <lb ed="#P" n="30"/>componere, eadem ratione posset discurrere,
+          <lb ed="#P" n="31"/>quod alii consequenter concedunt, et ita 
+          pro<lb break="no" ed="#P" n="32"/>batur. Nam qua ratione posset praedicatum
+          <lb ed="#P" n="33"/>subjecto, eadem posset unam propositionem
+          <lb ed="#P" n="34"/>alteri conferre, atque adeo percipere vim 
+          con<lb break="no" ed="#P" n="35"/>sequentiae formalis, quod sane esset 
+          cogno<lb break="no" ed="#P" n="36"/>scere, quod omnis consequentia similis formae
+          <lb ed="#P" n="37"/>sit bona, valetque ex intrinseca compositione
+          <lb ed="#P" n="38"/>terminorum, id vero impossibile est potentiae
+          <lb ed="#P" n="39"/>spiritualis, et ita cognoscere nihil sit minus,
+          <lb ed="#P" n="40"/>quam cognoscere rem universalem, imo 
+          ulte<lb break="no" ed="#P" n="41"/>rius si sensus posset componere, posset 
+          prae<lb break="no" ed="#P" n="42"/>dicatum conferre subjecto, et considerare 
+          or<lb break="no" ed="#P" n="43"/>dinem inter illa, confingereque ibi relationes,
+          <lb ed="#P" n="44"/>quae munia sunt propria intellectus: ergo, etc.
+          <lb ed="#P" n="45"/>Quarto si sensus posset praedicatum cum 
+          sub<lb break="no" ed="#P" n="46"/>jecto conferre, posset et media cum fine, cum
+          <lb ed="#P" n="47"/>non sit major ratio. Quod si concedas: 
+          ulte<lb break="no" ed="#P" n="48"/>rius sequitur sensum posse cognoscere 
+          ratio<lb break="no" ed="#P" n="49"/>nem boni ac mali: ac discursum aliquem, et
+          <lb ed="#P" n="50"/>indifferentiam habere circa illa, 
+          consequenter<lb break="no" ed="#P" n="51"/>que appetitum sensitivum ex se habere 
+          ali<lb break="no" ed="#P" n="52"/>quam libertatem, ac posse peccatum, saltem
+          <lb ed="#P" n="53"/>veniale committere, seclusa voluntate, quod
+          <lb ed="#P" n="54"/>nonnulli, atque etiam Cajetanus perperam 
+          con<lb break="no" ed="#P" n="55"/>cedunt. Tandem ex illo principio similia alia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>absurda deducuntur, cum tamen illud nulla
+          <lb ed="#P" n="57"/>ratione efficaci constet: non est ergo, cur 
+          as<lb break="no" ed="#P" n="58"/>seratur.
+        </p>
+        <p xml:id="szdada-y15578-d1e974">
+          <lb ed="#P" n="59"/>10. Solvuntur argumenta adversariorum.—
+          <lb ed="#P" n="60"/>Auctor, disput. 1 Metaphysice, sect. ult..a
+          <lb ed="#P" n="61"/>mum. 21. —Sed arguunt primo contrarie 
+          opi<lb break="no" ed="#P" n="62"/>nantes. Nostri sensus conjuncti sunt 
+          intellec<lb break="no" ed="#P" n="63"/>tui: rationabile ergo est, ut majorem aliquam
+          <lb ed="#P" n="64"/>virtutem habeant quam sensus brutorum. 
+          Ha<lb break="no" ed="#P" n="65"/>bent quidem majorem perfectionem intra 
+          lati<lb break="no" ed="#P" n="66"/>tudinem potentiae materialis, non tamen 
+          su<lb break="no" ed="#P" n="67"/>perant in compositione, aut discursu, cum illa
+          <lb ed="#P" n="68"/>sint propria potentiae spiritualis. Secundo 
+          ar<lb break="no" ed="#P" n="69"/>guunt. Reminiscentia est in parte sensitiva,
+          <lb ed="#P" n="70"/>ea autem non fit nisi discurrendo ab una re ad
+          <lb ed="#P" n="71"/>aliam, donec perveniatur ad eam, quam 
+          in<lb break="no" ed="#P" n="72"/>vestigamus. De reminiscentia infra dicemus
+          <lb ed="#P" n="73"/>plura: pro nunc ponendum, fieri quidem in
+          <lb ed="#P" n="74"/>parte sensitiva cum juvamine intellectus, in
+          <lb ed="#P" n="75"/>illa tamen non misceri propriam 
+          compositio<lb break="no" ed="#P" n="76"/>nem, aut discursum partis sensitivae. Tertio
+          <lb ed="#P" n="77"/>arguunt, quia notitia primorum principiorum
+          <lb ed="#P" n="78"/>causatur multorum singularium experimento,
+          <lb ed="#P" n="79"/>teste Aristotele ia principio Metaphysice, et in
+          <lb ed="#P" n="80"/>fine Posteriorum: experimentum autem ad 
+          po<lb break="no" ed="#P" n="81"/>tentiam sensitivam pertinet, et tamen est vera
+          <lb ed="#P" n="82"/>compositio, cum dicat Aristoteles 
+          experimen<lb break="no" ed="#P" n="83"/>tum esse nosse hanc herbam, curasse Socratem
+          <lb ed="#P" n="84"/>et Calliam. Wespondetur experimentum 
+          pro<lb break="no" ed="#P" n="85"/>prie loquendo immediate fieri in sensibus
+          <lb ed="#P" n="86"/>exterioribus, cum ipsa a rebus objectis 
+          im<lb break="no" ed="#P" n="87"/>mediate immutentur, et intuitive eas 
+          cogno<lb break="no" ed="#P" n="88"/>scunt, quod est experiri, sicut tactus 
+          experi<lb break="no" ed="#P" n="89"/>tur ignem calefacere, non aliter, quam 
+          im<lb break="no" ed="#P" n="90"/>pressionem ab igne factam praesentialiter
+          <lb ed="#P" n="91"/>percipiendo: at vero cognoscere hujusmodi
+          <lb ed="#P" n="92"/>experimentalem effectum componendo et 
+          divi<lb break="no" ed="#P" n="93"/>dendo proprium est intellectivae potentiae, 
+          ta<lb break="no" ed="#P" n="94"/>lisque cognitio dicitur proprie experimentalis,
+          <lb ed="#P" n="95"/>hoc est, alicujus effectus exterius sensibilis
+          <lb ed="#P" n="96"/>seepius repetita cognitio, unde Aristoteles dixit
+          <lb ed="#P" n="97"/>ex multis memoriis causari experimentum, et
+          <lb ed="#P" n="98"/>experimentis artem, atque inductionem 
+          uni<lb break="no" ed="#P" n="99"/>versalem: tale igitur experimentum actus est
+          <lb ed="#P" n="100"/>intellectus, ut ex multis patet. Primo, quia 
+          il<lb break="no" ed="#P" n="101"/>lud experimentum generat scientiam, et 
+          ar<lb break="no" ed="#P" n="102"/>tem in intellectus autem non assentitur 
+          pro<lb break="no" ed="#P" n="103"/>positioni universali propter cognitionem 
+          sin<lb break="no" ed="#P" n="104"/>gularium apud sensum: ergo propter propriam
+          <lb ed="#P" n="105"/>cognitionem. Secundo in experimentali 
+          pro<lb break="no" ed="#P" n="106"/>positione semper praedicatum est universale,
+          <lb ed="#P" n="107"/>ut hic, et ille ignis calefacit: ergo omnis ignis
+          <lb ed="#P" n="108"/>calefacit ; non potest ergo esse operatio sensus,
+          <lb ed="#P" n="109"/>cum constet apud omnes sensum non 
+          cogno<lb break="no" ed="#P" n="110"/>scere universale. ÀAtque hoc argumentum con-
+          <pb ed="#P" n="641"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cludit, ex nulla experientia colligi, sensum 
+          for<lb break="no" ed="#P" n="2"/>mare propositionem, si quidem talis propositio
+          <lb ed="#P" n="3"/>constare deberet ex subjecto, et praedicato 
+          sin<lb break="no" ed="#P" n="4"/>gularibus: at fere nunquam hujusmodi 
+          pro<lb break="no" ed="#P" n="5"/>positiones componimus, aut discursum 
+          forma<lb break="no" ed="#P" n="6"/>mus ex puris singularibus, ita ut nullus 
+          admis<lb break="no" ed="#P" n="7"/>ceatur terminus communis. Quarto arguunt:
+          <lb ed="#P" n="8"/>nam Aristoteles saepe cogitativam phantasiam
+          <lb ed="#P" n="9"/>vocat rationem particularem, ut 6, Ethicor.,
+          <lb ed="#P" n="10"/>capit. 11, et 3, de Anima, capite quinto, vocat
+          <lb ed="#P" n="11"/>eam intellectum passivum: ergo aliquam 
+          co<lb break="no" ed="#P" n="12"/>gnoscit in ea vim participatam ab intellectu.
+          <lb ed="#P" n="13"/>hespondetur sic illam potentiam nominari,
+          <lb ed="#P" n="14"/>tum propter dependentiam intellectus ab illa,
+          <lb ed="#P" n="15"/>tum etiam, quia immediate movet 
+          intellec<lb break="no" ed="#P" n="16"/>tum, tum denique, quia saepe dirigitur ab 
+          in<lb break="no" ed="#P" n="17"/>tellectu, cui obedit.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

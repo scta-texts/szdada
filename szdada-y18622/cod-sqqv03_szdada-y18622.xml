@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="757"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y18622"><!-- t3l5c3 -->
+        <head xml:id="szdada-y18622-Hd1e101">Caput 3</head>
+        <head xml:id="szdada-y18622-Hd1e103" type="question-title">Utrum actus appetendi fiat a sola potentia appetitiva, et quidnam per illum producatur</head>
+        <p xml:id="szdada-y18622-d1e106">
+          <lb ed="#P" n="78"/>CAPUT III.
+          <lb ed="#P" n="79"/>UTRUM ACTUS APPETENDI FIAT A SOLA POTENTIA
+          <lb ed="#P" n="80"/>APPETITIVA, ET QUIDNAM PER ILLUM 
+          PRODUCA<lb break="no" ed="#P" n="81"/>TUR.
+        </p>
+        <p xml:id="szdada-y18622-d1e117">
+          <lb ed="#P" n="82"/>1. Primum praesentis capitis punctum de
+          <lb ed="#P" n="83"/>eoque duae opiniones absurdee. —Postquam 
+          dic<lb break="no" ed="#P" n="84"/>tum est de objecto potentia appetitivae, 
+          di<lb break="no" ed="#P" n="85"/>cendum sequitur de illius actu, de cujus 
+          sub<lb break="no" ed="#P" n="86"/>stantia, et quidditate eodem modo sentiendum
+          <lb ed="#P" n="87"/>est, ac de actu potentiae cognoscitivae: 
+          argu<lb break="no" ed="#P" n="88"/>menta enim quibus 1l. 3, c. 3, confirmavimus
+          <lb ed="#P" n="89"/>actus esse qualitates a potentia distinctas ,
+          <lb ed="#P" n="90"/>idem convincunt in praesenti, quare hoc 
+          sup<lb break="no" ed="#P" n="91"/>posito, dicendum est de principio, et termino
+          <lb ed="#P" n="92"/>istius actus. De principio ergo elicitivo variae
+          <lb ed="#P" n="93"/>fuerunt sententiae, quidam censuerunt 
+          hujus<lb break="no" ed="#P" n="94"/>modi actum fieri ab objecto appetibili 
+          appre<lb break="no" ed="#P" n="95"/>henso: recipi veroin potentia appetitiva, quam
+          <lb ed="#P" n="96"/>mere passivam esse credunt. Alii voluerunt
+          <lb ed="#P" n="97"/>fieri a quadam potentia appetitiva mere activa,
+          <lb ed="#P" n="98"/>recipi vero in appetitiva, quam mere passivam
+          <lb ed="#P" n="99"/>esse ponebant: haec tamen impossibilia sunt,
+          <lb ed="#P" n="100"/>ut satis in simili est ostensum in cit. lib. 3, de
+          <lb ed="#P" n="101"/>Potentiis cognoscentibus in communi, estenim
+          <lb ed="#P" n="102"/>actus amandi vitalis et immanens, qui 
+          neces<lb break="no" ed="#P" n="103"/>sario fieri debet ab ipsa potentia, in qua 
+          reci<lb break="no" ed="#P" n="104"/>pitur.
+        </p>
+        <p xml:id="szdada-y18622-d1e169">
+          <lb ed="#P" n="105"/>2. Opinio alia, variique modi illius. — His
+          <lb ed="#P" n="106"/>ergo omissis, ac posito potentiam appetitivam
+          <lb ed="#P" n="107"/>effective efficere suum actum, difficultas estz
+          <pb ed="#P" n="758"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>an sola illa active ad ipsum concurrat? Multi
+          <lb ed="#P" n="2"/>opinantur objectum habere efficientiam simul
+          <lb ed="#P" n="3"/>cum potentia, Gregorius, in 2, dist. 35, q. 1,
+          <lb ed="#P" n="4"/>et 3, Gabriel, quaest. 1, dub. 3, Paludanus,
+          <lb ed="#P" n="5"/>in 4, dist. 43, Henricus, quodl. 3, qui tamen
+          <lb ed="#P" n="6"/>in modo opinandi varii sunt. Eorum 
+          enimqui<lb break="no" ed="#P" n="7"/>dam universaliter asserunt: alii vero limitant
+          <lb ed="#P" n="8"/>ad actus quidem necessarios concurrere 
+          ob<lb break="no" ed="#P" n="9"/>jectum effective, non tamen ad liberos. Alii
+          <lb ed="#P" n="10"/>objectum apprehensum concurrere effective
+          <lb ed="#P" n="11"/>sub ratione apprehensi: alii apprehensionem
+          <lb ed="#P" n="12"/>ipsam: Cajetanus vero, 1 p., q. 80, art. 2, et
+          <lb ed="#P" n="13"/>in 1, 2, saepissime inculcat objectum 
+          appeti<lb break="no" ed="#P" n="14"/>bile non concurrere effective ad substantiam
+          <lb ed="#P" n="15"/>actus appetendi, concurrere tamen effective
+          <lb ed="#P" n="16"/>ad specificationem ejus. Pro resolutione ergo
+          <lb ed="#P" n="17"/>notandum actus humanos esse posse elicitos et
+          <lb ed="#P" n="18"/>imperatos simul, ut actus videndi elicitus est
+          <lb ed="#P" n="19"/>a potentia visiva, a qua immediate et physice
+          <lb ed="#P" n="20"/>exercetur: et in universum actus vocantur
+          <lb ed="#P" n="21"/>eliciti respectu similis potentiae: at imperati
+          <lb ed="#P" n="22"/>respectu superioris potentiae, a qua moraliter
+          <lb ed="#P" n="23"/>originantur, tanquam ab applicante, seu 
+          con<lb break="no" ed="#P" n="24"/>sentiente: hic ergo non quaerimus principium
+          <lb ed="#P" n="25"/>efficiens hoc secundo modo, imperans scilicet
+          <lb ed="#P" n="26"/>actum appetendi, hoc enim spectat potius ad
+          <lb ed="#P" n="27"/>philosophiam moralem, quamvis aliquid 
+          attin<lb break="no" ed="#P" n="28"/>gemus in sequentibus: investigamus 
+          ergoprin<lb break="no" ed="#P" n="29"/>cipium elicitivum actus appetendi, sicut 
+          trac<lb break="no" ed="#P" n="30"/>tavimus circa actum cognoscendi in libro
+          <lb ed="#P" n="31"/>tertio.
+        </p>
+        <p xml:id="szdada-y18622-d1e251">
+          <lb ed="#P" n="32"/>3. Vera conclusio. — Concursus effectivus
+          <lb ed="#P" n="33"/>duplici modo excogitatur. — Excluditur primus
+          <lb ed="#P" n="34"/>modus concursus. — Hoc supposito sit nostra
+          <lb ed="#P" n="35"/>conclusio. Potentia appetitiva absque 
+          efficien<lb break="no" ed="#P" n="36"/>tia appetibilis cogniti elicit actum suum. Est
+          <lb ed="#P" n="37"/>sententia D. Thomae, 1 part., quaest 82, art. 4,
+          <lb ed="#P" n="38"/>et de Verit., quaest. 22, art. 12. Idem habet
+          <lb ed="#P" n="39"/>Scotus, in 2, dist. 25, quaest. 1, Capreolus, in
+          <lb ed="#P" n="40"/>2. dist. 24 et 25, Ferrarius 1, contra, cap. 44.
+          <lb ed="#P" n="41"/>Ad probandam autem conclusionem recolenda
+          <lb ed="#P" n="42"/>est distinctio illa de actu quoad exercitium, et
+          <lb ed="#P" n="43"/>quoad specificationem objecti. Effectivus 
+          igi<lb break="no" ed="#P" n="44"/>tur concursus objecti ad exercitium altero a
+          <lb ed="#P" n="45"/>duobus modis explicari potest. Primo si 
+          finga<lb break="no" ed="#P" n="46"/>mus objectum producere aliquid in potentia,
+          <lb ed="#P" n="47"/>quo ipsa jam instructa per sese exeat in actum:
+          <lb ed="#P" n="48"/>sic objectum visibile efficit, ut potentia 
+          viden<lb break="no" ed="#P" n="49"/>di exeat in actum, producendo solum speciem
+          <lb ed="#P" n="50"/>in illa, ut de caetero per seipsam in visionem
+          <lb ed="#P" n="51"/>prorumpat. Secundo, ut objectum per se 
+          quo<lb break="no" ed="#P" n="52"/>que ad substantiam ipsam actus concurrat, ut
+          <lb ed="#P" n="53"/>sensit Cajetanus. Primum admitti non potest:
+          <lb ed="#P" n="54"/>nam constat aperte objectum appetibile non
+          <lb ed="#P" n="55"/>posse talem eflicientiam sortiri, ac pracipue
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>circa voluntatem, quae libere se movet in 
+          ac<lb break="no" ed="#P" n="57"/>tum, nec nisi a solo Deo illo modo moveri 
+          po<lb break="no" ed="#P" n="58"/>test effective. Ac praeterea arguitur in hunc
+          <lb ed="#P" n="59"/>modum primo. Si objectum cognitum ita 
+          mo<lb break="no" ed="#P" n="60"/>veret appetitum, vel moveret efficiendo in 
+          ap<lb break="no" ed="#P" n="61"/>petitu formam aliquam, per quam in actu
+          <lb ed="#P" n="62"/>primo constitueretur, quo sane pacto objectum
+          <lb ed="#P" n="63"/>potentiae cognoscitivae ipsam movet: vel 
+          mo<lb break="no" ed="#P" n="64"/>veret nihil omnino producendo, sed quasi 
+          tra<lb break="no" ed="#P" n="65"/>hendo, impellendove potentiam ad actum 
+          se<lb break="no" ed="#P" n="66"/>cundum. Prius illud dici nullo modo potest,
+          <lb ed="#P" n="67"/>tum quia potentia appetitiva ex se est in actu
+          <lb ed="#P" n="68"/>primo constituta, at notat D. Thomas, 1 part.,
+          <lb ed="#P" n="69"/>quaest. 21, art. 4, nimirum quia appetitio 
+          quae<lb break="no" ed="#P" n="70"/>dam est vitalis, et actualis inclinatio ad 
+          objec<lb break="no" ed="#P" n="71"/>tum: potentia autem appetitiva de se 
+          incli<lb break="no" ed="#P" n="72"/>natur ad bonum, proindeque nulla eget forma,
+          <lb ed="#P" n="73"/>per quam in actu primo constituatur, nisi
+          <lb ed="#P" n="74"/>forte habitu, non simpliciter, sed ad melius
+          <lb ed="#P" n="75"/>operandum: tum quia si objectum quippiam
+          <lb ed="#P" n="76"/>in potentia efficeret, fortasse aliquam 
+          simili<lb break="no" ed="#P" n="77"/>tudinem sui, quid enim aliud efficiatur: ac
+          <lb ed="#P" n="78"/>similitudo quaecumque illa fingatur, 
+          imperti<lb break="no" ed="#P" n="79"/>nens esset, quoniam appetitio non per 
+          assimi<lb break="no" ed="#P" n="80"/>lationem efficitur, sed per propensionem in rem
+          <lb ed="#P" n="81"/>amatam. Posterius quoque dici non potest,
+          <lb ed="#P" n="82"/>cum tractatio illa, sive impulsio potentiae ab
+          <lb ed="#P" n="83"/>objecto facta non nisi objectiva dici, aut 
+          con<lb break="no" ed="#P" n="84"/>cipi valeat, in quo certe nulla involvitur 
+          effi<lb break="no" ed="#P" n="85"/>cientia, praeterquam quod jam alias potentia
+          <lb ed="#P" n="86"/>haberet se mere passive, et ab objecto actum
+          <lb ed="#P" n="87"/>reciperet, quod improbatum est: primus ergo
+          <lb ed="#P" n="88"/>modus efficiendi actum quoad exercitium 
+          suffi<lb break="no" ed="#P" n="89"/>cienter excluditur.
+        </p>
+        <p xml:id="szdada-y18622-d1e381">
+          <lb ed="#P" n="90"/>4. Excluditur secundus modus. — Alter 
+          quo<lb break="no" ed="#P" n="91"/>que Cajetani modus, quod objectum per se, ac
+          <lb ed="#P" n="92"/>proxime concurrat effective ad substantiam
+          <lb ed="#P" n="93"/>actus, falsus est. Primo, quia id tantum 
+          con<lb break="no" ed="#P" n="94"/>currit effective ad actum alicujus potentiae,
+          <lb ed="#P" n="95"/>quod illam in actu primo ad agendum 
+          consti<lb break="no" ed="#P" n="96"/>tuit ; sed potentia appetitiva ex se est 
+          consti<lb break="no" ed="#P" n="97"/>tuta in actu primo, et non per objectum, ut
+          <lb ed="#P" n="98"/>ex D. Thoma adduximus: ergo illa effticit 
+          ac<lb break="no" ed="#P" n="99"/>tum suum absque objecto. Quod si respondeas
+          <lb ed="#P" n="100"/>potentiam appetitivam, et objectum non 
+          con<lb break="no" ed="#P" n="101"/>currere quidem tanquam potentiam et formam
+          <lb ed="#P" n="102"/>actuantem, sed tanquam duo partialia 
+          agen<lb break="no" ed="#P" n="103"/>tia: id imprimis sine ratione fingitur, quia
+          <lb ed="#P" n="104"/>cum appetitus ipse ex se habeat sufficientem
+          <lb ed="#P" n="105"/>inclinationem ad objectum, ex se est sufficiens
+          <lb ed="#P" n="106"/>elicere proprium actum: superflue ergo 
+          fin<lb break="no" ed="#P" n="107"/>gitur efficientia in objecto. Deinde induci 
+          vi<lb break="no" ed="#P" n="108"/>detur quippiam impossibile: cum enum 
+          appe<lb break="no" ed="#P" n="109"/>titio sit vitalis elici aliter non potest, quam a
+          <lb ed="#P" n="110"/>potentia cujus est actus, quod si causa alia
+          <pb ed="#P" n="759"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>concurreret, non alia sane foret, quam 
+          prae<lb break="no" ed="#P" n="2"/>vius cognitionis actus, in quo etiam vitalitas
+          <lb ed="#P" n="3"/>inest: appetitus autem, sicut non potest uti
+          <lb ed="#P" n="4"/>objecto cognito, ita neque ipsa formali ejus
+          <lb ed="#P" n="5"/>apprehensione, cum in alia potentia existat:
+          <lb ed="#P" n="6"/>nihil ergo horum concurrit effective ad 
+          sub<lb break="no" ed="#P" n="7"/>stantiam actus appetendi.
+        </p>
+        <p xml:id="szdada-y18622-d1e449">
+          <lb ed="#P" n="8"/>5. Impugnatur efficientia objecti quoad 
+          spe<lb break="no" ed="#P" n="9"/>ciem actus.—Ex his vero excluditur membrum
+          <lb ed="#P" n="10"/>aliud initionumeri tertii adductum 
+          despecifica<lb break="no" ed="#P" n="11"/>tione actus. Atque ante omnia rogo ex Cajetano,
+          <lb ed="#P" n="12"/>quidnam sibi velit objectum efficere actum
+          <lb ed="#P" n="13"/>quoadspecificationem, et non quoad exercitium?
+          <lb ed="#P" n="14"/>Nam vel sic intelligit, ut objectum quidem non
+          <lb ed="#P" n="15"/>efficiat, ut in actum exeat potentia, sed per se
+          <lb ed="#P" n="16"/>ipsa exiens, illud quoque exire faciat in actum
+          <lb ed="#P" n="17"/>certae cujusdam speciei. Vel sic intelligit, ut
+          <lb ed="#P" n="18"/>objectum causet in actu ultimam ejus 
+          diffe<lb break="no" ed="#P" n="19"/>rentiam, non efficiendo rationem genericam,
+          <lb ed="#P" n="20"/>neque reliquam substantiam actus: hoc 
+          secun<lb break="no" ed="#P" n="21"/>dum inauditum est, quod scilicet causa aliqua
+          <lb ed="#P" n="22"/>efficiat ultimam differentiam sui effectus, non
+          <lb ed="#P" n="23"/>autem gradus superiores: cum universa haec
+          <lb ed="#P" n="24"/>una sit entitas, et quod physice causat rei 
+          en<lb break="no" ed="#P" n="25"/>titatem, non possit non causare, quae sunt de
+          <lb ed="#P" n="26"/>essentia illius, et e contra, si vel unum 
+          gra<lb break="no" ed="#P" n="27"/>dum non efficit, nullum efficiat. Praeterea 
+          con<lb break="no" ed="#P" n="28"/>tra hoc idem procedunt argumenta facta: quia
+          <lb ed="#P" n="29"/>actus appetendi etiam prout in tali specie 
+          con<lb break="no" ed="#P" n="30"/>stituitur, est actio vitae, respectu cujus potentia
+          <lb ed="#P" n="31"/>de se constituta est in actu primo. Denique,
+          <lb ed="#P" n="32"/>quia res ab eo fit effective in tali specie, a quo
+          <lb ed="#P" n="33"/>recipit substantiam suam, ut patet in homine,
+          <lb ed="#P" n="34"/>et inductive in reliquis omnibus naturae 
+          effec<lb break="no" ed="#P" n="35"/>tis: objectum autem effticienter non concurrit
+          <lb ed="#P" n="36"/>ad substantiam actus: ergo neque ad 
+          specifi<lb break="no" ed="#P" n="37"/>cationem. Jam vero primum, si non de 
+          efti<lb break="no" ed="#P" n="38"/>cientia propria, sed de metaphorica procedat,
+          <lb ed="#P" n="39"/>ut nimirum objectum praesens ad seipsum in
+          <lb ed="#P" n="40"/>certa specie constitutum moveat, alliciatque
+          <lb ed="#P" n="41"/>appetitum, quia ad actum movet circa ipsum,
+          <lb ed="#P" n="42"/>id quidem verum est, sed non obstat 
+          conclu<lb break="no" ed="#P" n="43"/>sioni. Quod si de propria procedat efficientia
+          <lb ed="#P" n="44"/>non potest esse verum, quia nihil assignari
+          <lb ed="#P" n="45"/>potest, quod objectum valeat efficere: non 
+          ac<lb break="no" ed="#P" n="46"/>tum primum, non secundum, non denique 
+          spe<lb break="no" ed="#P" n="47"/>cificam ejus differentiam, ut ostensum est:
+          <lb ed="#P" n="48"/>quare, etc.
+        </p>
+        <p xml:id="szdada-y18622-d1e540">
+          <lb ed="#P" n="49"/>6. Extensio preedicte impugnationis. — 
+          At<lb break="no" ed="#P" n="50"/>que hae rationes concludunt tam de actibus
+          <lb ed="#P" n="51"/>liberis, quam de mnaturalibus, et in his 
+          quo<lb break="no" ed="#P" n="52"/>dammodo urgent magis, quia ad illos est 
+          po<lb break="no" ed="#P" n="53"/>tentia magis propensa: quodammodo vero
+          <lb ed="#P" n="54"/>magis in liberis, quia circa illos habet 
+          domi<lb break="no" ed="#P" n="55"/>nium ipsa potentia, ideoque effici nequeunt
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ab extrinseco principio: procedunt autem
+          <lb ed="#P" n="57"/>dictae rationes tam de objecto apprehenso,
+          <lb ed="#P" n="58"/>quam de apprehensione, ut patet ex dictis. Et
+          <lb ed="#P" n="59"/>confirmatur amplius. Primo: objectum 
+          appe<lb break="no" ed="#P" n="60"/>tibile abstrahit ab efficientia: non ergo potest
+          <lb ed="#P" n="61"/>efficere. Secundo, si efficeret, non 
+          distingue<lb break="no" ed="#P" n="62"/>retur jam concursus causae formalis ab 
+          effi<lb break="no" ed="#P" n="63"/>cienti. Tertio, appetitio est quasi motio 
+          quae<lb break="no" ed="#P" n="64"/>dam in appetibile tanquam in terminum,
+          <lb ed="#P" n="65"/>terminus autem specificat motum, non vero
+          <lb ed="#P" n="66"/>efficit. De apprehensione quoque sunt 
+          argu<lb break="no" ed="#P" n="67"/>menta. Unum est, quia actus potentiae vitalis
+          <lb ed="#P" n="68"/>actum alterius non efticit. Alterum, quia 
+          ap<lb break="no" ed="#P" n="69"/>prehensio est conditio objecti tantum requisita,
+          <lb ed="#P" n="70"/>et applicans illud potentiae: non ergo efhicit
+          <lb ed="#P" n="71"/>actum ipsius potentiae.
+        </p>
+        <p xml:id="szdada-y18622-d1e595">
+          <lb ed="#P" n="72"/>7. Argumentum primum pro opinione in
+          <lb ed="#P" n="73"/>numn. 2. — Secundo. — Tertio. — Quarto. —
+          <lb ed="#P" n="74"/>Quinto. — Sexto. — Sed contra conclusionem
+          <lb ed="#P" n="75"/>sunt argumenta, quae opinionibus initio 
+          posi<lb break="no" ed="#P" n="76"/>tis favent, et quidem priores duae, quas, ut
+          <lb ed="#P" n="77"/>improbabiles reliquimus in num. 1, 
+          funda<lb break="no" ed="#P" n="78"/>bantur in proloquio illo: Nihil potest se de
+          <lb ed="#P" n="79"/>potentia in actum reducere, quod saepe 
+          exposi<lb break="no" ed="#P" n="80"/>tum est, et solutum argumentum: opinio vero
+          <lb ed="#P" n="81"/>ulterius allata in num. 2, tribuensque objecto,
+          <lb ed="#P" n="82"/>vel ejus apprehensioni efficientiam nititur
+          <lb ed="#P" n="83"/>primo. Quod apprehensio illa simpliciter 
+          ne<lb break="no" ed="#P" n="84"/>cessaria sit ad appetendum, atque aliquo
+          <lb ed="#P" n="85"/>modo efficiat actum. Secundo, quia si dicamus
+          <lb ed="#P" n="86"/>appetitum moveri ad praesentiam appetibilis,
+          <lb ed="#P" n="87"/>eadem ratione dici poterit de intellectu, deque
+          <lb ed="#P" n="88"/>aliis potentiis, quod se moveant ad praesentiam
+          <lb ed="#P" n="89"/>objectorum, nulloque modo moveri ab illis
+          <lb ed="#P" n="90"/>effective. Tertio objectum praesens magis 
+          ex<lb break="no" ed="#P" n="91"/>citat appetitum, quam absens: ergo aliquid
+          <lb ed="#P" n="92"/>efficit, alias non esset cur magis movere 
+          di<lb break="no" ed="#P" n="93"/>ceretur. Quarto potest argui: quoniam in 
+          vo<lb break="no" ed="#P" n="94"/>luntate dantur actus tum circa finem, tum
+          <lb ed="#P" n="95"/>circa media: atqui actus circa finem causat
+          <lb ed="#P" n="96"/>actum circa media: ergo non sola voluntas
+          <lb ed="#P" n="97"/>efficit omnes actus suos. Quinto arguit 
+          Caje<lb break="no" ed="#P" n="98"/>tanus, quoniam Verbum divinum, quod est
+          <lb ed="#P" n="99"/>conceptus Patris, concurrit per modum 
+          effi<lb break="no" ed="#P" n="100"/>cientis ad productionem amoris, seu Spiritus
+          <lb ed="#P" n="101"/>sancti, producit enim illum, ut verum ipsius
+          <lb ed="#P" n="102"/>principium, licet efficiens causa proprie non
+          <lb ed="#P" n="103"/>sit: ergo etiam in nobis verbum conceptum
+          <lb ed="#P" n="104"/>concurrit effective producendo amorem, 
+          so<lb break="no" ed="#P" n="105"/>Iumque interest, quod sit accidens, divinum
+          <lb ed="#P" n="106"/>vero realis substantia, quod certe discrimen
+          <lb ed="#P" n="107"/>non variat modum concursus, sed tantum rei
+          <lb ed="#P" n="108"/>productae rationem. Sexto, favet huic opinioni
+          <lb ed="#P" n="109"/>Aristoteles 12, Metaphysicae, text. 36, ubi 
+          re<lb break="no" ed="#P" n="110"/>ducit omnes causas moventes ad primum
+          <pb ed="#P" n="760"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>appetibile: reductio vero ad causam 
+          efficien<lb break="no" ed="#P" n="2"/>tem esse debet, alias aequivocatio 
+          committere<lb break="no" ed="#P" n="3"/>tur in argumento, quo loco Averroes 
+          commen<lb break="no" ed="#P" n="4"/>tatur balneum in anima causare desiderium,
+          <lb ed="#P" n="5"/>ac divus Augustinus etiam 15, de Trinitate,
+          <lb ed="#P" n="6"/>cap. 23, docet amorem procedere a scientia,
+          <lb ed="#P" n="7"/>et cap. 26, amorem procedere de gignente,
+          <lb ed="#P" n="8"/>et de genita notione, tanquam de parente, ac
+          <lb ed="#P" n="9"/>prole. Divus Thomas, 1 part., quaest. 14, art. 5,
+          <lb ed="#P" n="10"/>et 3, et 1, contra Gentes, cap. 49, et 1, 2,
+          <lb ed="#P" n="11"/>quaest. 1, art. 3, scribit actionem sumere 
+          spe<lb break="no" ed="#P" n="12"/>ciem a forma, quae est principium agendi,
+          <lb ed="#P" n="13"/>ideoque actiones voluntatis specificari a fine;
+          <lb ed="#P" n="14"/>sentit ergo finem esse principium agendi in
+          <lb ed="#P" n="15"/>voluntate, et 4 part., quaest. 80, art. 2, docet
+          <lb ed="#P" n="16"/>appetitum esse potentiam passivam, quia 
+          mo<lb break="no" ed="#P" n="17"/>vetur ab appetibili, quod Aristoteles dixerat,
+          <lb ed="#P" n="18"/>lib. 3, de Anima, cap. 7, idem sumitur ex 1,2,
+          <lb ed="#P" n="19"/>quaest. 9. art. 1, et quaest. 92, art. 3, ad 2,
+          <lb ed="#P" n="20"/>quaest. 30, art. 2.
+        </p>
+        <p xml:id="szdada-y18622-d1e730">
+          <lb ed="#P" n="21"/>8. Ad primum responsio quorumdam non
+          <lb ed="#P" n="22"/>placet. — De hoc principio in disp. 93, 
+          Meta<lb break="no" ed="#P" n="23"/>physicee, sect. 1, et lib. 9, de Orat. ment., c. 13.
+          <lb ed="#P" n="24"/>— Helior responsio. — Ad secundum. — Ad
+          <lb ed="#P" n="25"/>tertium. — Ad quartum. — Ad quintum. —
+          <lb ed="#P" n="26"/>Ad sextum. — Ad primum occurrunt quidam
+          <lb ed="#P" n="27"/>apprehensionem objecti non esse simpliciter
+          <lb ed="#P" n="28"/>necessariam ad appetendum, hoc tamen 
+          fal<lb break="no" ed="#P" n="29"/>sum est, cum primum principium sit: JVihil
+          <lb ed="#P" n="30"/>esse volitum, quin precognitum: ac supra 
+          os<lb break="no" ed="#P" n="31"/>tendimus appetitum elicitum oriri ex 
+          cogni<lb break="no" ed="#P" n="32"/>tione, unde appetitus: qui cognitionem non
+          <lb ed="#P" n="33"/>supponit, quodammodo mortuus est, non 
+          eli<lb break="no" ed="#P" n="34"/>citus et vitalis, de quo nunc loquimur. Admitto
+          <lb ed="#P" n="35"/>igitur apprehensionem requiri, non ut 
+          efficien<lb break="no" ed="#P" n="36"/>tem causam, sed ut applicationem objecti,
+          <lb ed="#P" n="37"/>bonum enim movet quidem appetitum, debet
+          <lb ed="#P" n="38"/>tamen ei applicari per cognitionem, ob idque
+          <lb ed="#P" n="39"/>D. Thomas, prima parte, quaest. 82, art. 4,
+          <lb ed="#P" n="40"/>dixit intellectum movere voluntatem 
+          propo<lb break="no" ed="#P" n="41"/>nendo objectum. Apprehensio itaque objecti
+          <lb ed="#P" n="42"/>tantum concurrit ad amorem, ut causa per
+          <lb ed="#P" n="43"/>accidens loquendo physice. Estque 
+          nihilomi<lb break="no" ed="#P" n="44"/>nus necessaria: quae duo certe non repugnant,
+          <lb ed="#P" n="45"/>in quo falluntur non pauci reprehendentes
+          <lb ed="#P" n="46"/>Capreolum, in 2, distinct. 25, quaest. 1, ad 1,
+          <lb ed="#P" n="47"/>Henricum contra tertiam conclusionem, quod
+          <lb ed="#P" n="48"/>dicat apprehensionem objecti requiri per 
+          acci<lb break="no" ed="#P" n="49"/>dens ad actum, appetitus, non enim usurpat
+          <lb ed="#P" n="50"/>per accidens, quod necessariam non putet, sed
+          <lb ed="#P" n="51"/>quod non per se influat in actionem appetitus.
+          <lb ed="#P" n="52"/>Ex quo obiter colligitur, quae conjunctio 
+          ne<lb break="no" ed="#P" n="53"/>cessaria sit inter appetibile et appetitum, ut
+          <lb ed="#P" n="54"/>sequatur operatio: cui rei similem 
+          tractavi<lb break="no" ed="#P" n="55"/>mus, lib. 3, cap. 1, oportet enim ut vitaliter
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>uniantur in eadem anima: in quo differt a
+          <lb ed="#P" n="57"/>cognoscitiva potentia, quae unionem objecti
+          <lb ed="#P" n="58"/>cum potentia postulat, appetitiva autem 
+          pos<lb break="no" ed="#P" n="59"/>tulat tantum sui objecti unionem cum alia
+          <lb ed="#P" n="60"/>potentia cognoscitiva, ejusdem licet animae.
+          <lb ed="#P" n="61"/>Ad secundum respondetur terminationem 
+          po<lb break="no" ed="#P" n="62"/>tentiae ad hunc, vel illum actum non sat esse,
+          <lb ed="#P" n="63"/>ut objectum effective concurrat, sed vero in
+          <lb ed="#P" n="64"/>potentiis cognoscentibus potissimam rationem
+          <lb ed="#P" n="65"/>sumi ex modo operandi earum, videlicet 
+          assi<lb break="no" ed="#P" n="66"/>milando, unde major in eis indeterminatio
+          <lb ed="#P" n="67"/>cernitur, quia de se omni actuali principio
+          <lb ed="#P" n="68"/>carent per quod assimilentur, appetitus vero
+          <lb ed="#P" n="69"/>eo modo non operatur, sed inclinando in 
+          ob<lb break="no" ed="#P" n="70"/>jectum, cumque de se sit inclinatio, et pondus
+          <lb ed="#P" n="71"/>saltem in actu primo, activitate objecti 
+          mi<lb break="no" ed="#P" n="72"/>nime eget. Ad tertium dices, objectum 
+          prae<lb break="no" ed="#P" n="73"/>sens magis excitare appetitum, quia clarius, et
+          <lb ed="#P" n="74"/>fortius apprehenditur, atque adeo melius 
+          ap<lb break="no" ed="#P" n="75"/>plicatur appetitui, magisque movet illum. Ad
+          <lb ed="#P" n="76"/>quartum totum admitto, quod nimirum 
+          vo<lb break="no" ed="#P" n="77"/>luntas ex intentione finis determinetur ad
+          <lb ed="#P" n="78"/>electionem mediorum, sicnt intellectus ex 
+          as<lb break="no" ed="#P" n="79"/>sensu principiorum ad assensum conclusionum
+          <lb ed="#P" n="80"/>determinatur, id tamen contra conclusionem
+          <lb ed="#P" n="81"/>non militat, in qua tantum excludimus 
+          effi<lb break="no" ed="#P" n="82"/>cientiam objecti, vel alterius potentiae ab 
+          ap<lb break="no" ed="#P" n="83"/>petitu. Non negamus vero, quin possit 
+          volun<lb break="no" ed="#P" n="84"/>tas, uno actu medio, alium efficere. Quintum
+          <lb ed="#P" n="85"/>argumentum ad rem non facit, nam verbum
+          <lb ed="#P" n="86"/>divinum intelligens est, atque amans, ideoque
+          <lb ed="#P" n="87"/>potuit amorem producere verbum autem 
+          nos<lb break="no" ed="#P" n="88"/>trum, cum non amet, amorem non producit.
+          <lb ed="#P" n="89"/>Ad ultimum respondetur Aristotelem illo loco
+          <lb ed="#P" n="90"/>docere primum movens movere, ut primum
+          <lb ed="#P" n="91"/>appetibile, ne alias moveret propter finem
+          <lb ed="#P" n="92"/>alium, sicque aperte loqui de causalitate finali:
+          <lb ed="#P" n="93"/>Averroes vero agit de motione metaphorica,
+          <lb ed="#P" n="94"/>de qua etiam interpretandus erit D. Thomas
+          <lb ed="#P" n="95"/>ubicumque de eo tractat, quando autem finem
+          <lb ed="#P" n="96"/>vocat principium actionis, intelligit moraliter,
+          <lb ed="#P" n="97"/>non physice: similiter appetitus potentia 
+          pas<lb break="no" ed="#P" n="98"/>siva dicitur, metaphorice, sicut motio finis
+          <lb ed="#P" n="99"/>metaphorica est, et haec de principio actus
+          <lb ed="#P" n="100"/>appetitus. Quod erat primum punctum initio
+          <lb ed="#P" n="101"/>propositum.
+        </p>
+        <p xml:id="szdada-y18622-d1e911">
+          <lb ed="#P" n="102"/>9. Secundum hujus capitis punctum, de quo
+          <lb ed="#P" n="103"/>cariant auctores. — Facilis resolutio de qua
+          <lb ed="#P" n="104"/>videndus auctor, disput. AS, Metaphysice,
+          <lb ed="#P" n="105"/>sect. 9. — De termino vero appetitus, quod
+          <lb ed="#P" n="106"/>erat secundum punctum, auctores dissentiunt,
+          <lb ed="#P" n="107"/>Scotus enim in 1, distinct. 6 et 10, et ibidem
+          <lb ed="#P" n="108"/>Gregorius et Durandus negant per actum 
+          vo<lb break="no" ed="#P" n="109"/>luntatis terminum produci, quod videtur 
+          sen<lb break="no" ed="#P" n="110"/>tire D. Thomas, de Veritate, quaest. 4. art. 2,
+          <pb ed="#P" n="761"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ad 7, Capreolus tamen in 1, distinct. 10,
+          <lb ed="#P" n="2"/>quaest. 1, Cajetanus, 1 part., quaest. 27, art. 3,
+          <lb ed="#P" n="3"/>Ferrarius, 4, contra, cap. 19, aiunt per 
+          ac<lb break="no" ed="#P" n="4"/>tum appetitus produci nonnihil, insinuantque
+          <lb ed="#P" n="5"/>esse realiter distinctum ab actu ipso. Resolutio
+          <lb ed="#P" n="6"/>tamen apud nos facilis est ex supra dictis lib. 3,
+          <lb ed="#P" n="7"/>cap. 5, certum enim judico in actu appetitus
+          <lb ed="#P" n="8"/>reperiri aliquid per modum operationis, et 
+          ali<lb break="no" ed="#P" n="9"/>quid per modum operati, atque terminum, et
+          <lb ed="#P" n="10"/>viam in tali actu modaliter solum distingui.
+          <lb ed="#P" n="11"/>Quae est opinio D. Thomae, 1 part., quaest. 27,
+          <lb ed="#P" n="12"/>art. 3, et clarius quaest. 37, art. 1. Ratio 
+          com<lb break="no" ed="#P" n="13"/>munis est, quia ubi qualitas datur nove 
+          pro<lb break="no" ed="#P" n="14"/>ducta, productio illius debet existere, actus
+          <lb ed="#P" n="15"/>autem appetitus qualitas quaedam est: porro
+          <lb ed="#P" n="16"/>autem astruere in appetitu qualitatem 
+          pro<lb break="no" ed="#P" n="17"/>ductam peractionem ab illo realiter distinctam,
+          <lb ed="#P" n="18"/>mihi non probatur, quia sine ulla necessitate
+          <lb ed="#P" n="19"/>et ratione astruitur: quod ergo appetitu 
+          pro<lb break="no" ed="#P" n="20"/>ducitur, ipse est actus, quo amat, quique 
+          pon<lb break="no" ed="#P" n="21"/>dus quoddam est in rem amatam, juxta illud
+          <lb ed="#P" n="22"/>ex Augustino vulgatum, Amor meus pondus
+          <lb ed="#P" n="23"/>mewn, illo feror, quocumque feror. Qua etiam
+          <lb ed="#P" n="24"/>de causa dicitur amans esse in re amata, et
+          <lb ed="#P" n="25"/>quidam alius invexit animam esse potius, ubi
+          <lb ed="#P" n="26"/>amat, quam ubi animat: et Matthaeus 5, ubi
+          <lb ed="#P" n="27"/>est thesaurus tuus, ibi et cor tuum. Atque de
+          <lb ed="#P" n="28"/>actu appetitus haec dicta sint, de potentia vero
+          <lb ed="#P" n="29"/>ipsa jam in principio locuti fuimus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="580"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y14141"><!-- t3l2c3 -->
+        <head xml:id="szdada-y14141-Hd1e101">Caput 3</head>
+        <head xml:id="szdada-y14141-Hd1e103" type="question-title">Utrum potentiae animae fluant ab anima et in ea subjectentur</head>
+        <p xml:id="szdada-y14141-d1e106">
+          <pb ed="#P" n="580"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT III.
+          <lb ed="#P" n="2"/>UTRUM POTENTIAE ANIMAE FLUANT AB ANIMA ET
+          <lb ed="#P" n="3"/>IN EA SUBJECTENTUR.
+        </p>
+        <p xml:id="szdada-y14141-d1e119">
+          <lb ed="#P" n="4"/>1. Tractat quaestionem hanc D. Thomas, 1. p.,
+          <lb ed="#P" n="5"/>quaest. 77, art. 4. Nos vero circa illam primo
+          <lb ed="#P" n="6"/>dicemus de ordine et causalitate animae 
+          res<lb break="no" ed="#P" n="7"/>pectu potentiarum. Secundo de ordine et 
+          cau<lb break="no" ed="#P" n="8"/>salitate, quam ipsae inter se observant.
+        </p>
+        <p xml:id="szdada-y14141-d1e132">
+          <lb ed="#P" n="9"/>Quotupliciter anima causet suas potentias.
+        </p>
+        <p xml:id="szdada-y14141-d1e138">
+          <lb ed="#P" n="10"/>Quid de causalitate finali et formali. —
+          <lb ed="#P" n="11"/>Quantum ad primum certum est, animam, seu
+          <lb ed="#P" n="12"/>animatum esse causam finalem potentiarum,
+          <lb ed="#P" n="13"/>ordinantur enim potentiae ad perfectum 
+          sta<lb break="no" ed="#P" n="14"/>tum viventis, sicut et operationes ipsae, unde
+          <lb ed="#P" n="15"/>licet potentiae essentialiter ordinentur ad 
+          ope<lb break="no" ed="#P" n="16"/>rationes, tamen quia simul sunt instrumenta
+          <lb ed="#P" n="17"/>alicujus operantis, non nudas operationes 
+          res<lb break="no" ed="#P" n="18"/>piciunt, sed medio subjecto, cujus sunt 
+          instru<lb break="no" ed="#P" n="19"/>menta et virtutes, et ad hoc principahter
+          <lb ed="#P" n="20"/>ordinantur. De causalitate formali secundo est
+          <lb ed="#P" n="21"/>certum non competere animae respectu 
+          poten<lb break="no" ed="#P" n="22"/>tiarum, quin potius quodammodo ipsae 
+          poten<lb break="no" ed="#P" n="23"/>tiae sunt formae animae, vel animati, in quo
+          <lb ed="#P" n="24"/>subjectantur.
+        </p>
+        <p xml:id="szdada-y14141-d1e173">
+          <lb ed="#P" n="25"/>2. Quid de materiali secundo. — Est tertio
+          <lb ed="#P" n="26"/>certum quoad causam materialem potentias
+          <lb ed="#P" n="27"/>spirituales, intellectum scilicet et voluntatem,
+          <lb ed="#P" n="28"/>et si qua est potentia motiva solius animae
+          <lb ed="#P" n="29"/>subjectari immediate in anima, atque adeo ab
+          <lb ed="#P" n="30"/>ea causari materialiter: circa alias vero 
+          po<lb break="no" ed="#P" n="31"/>tentias non sic, vel quia anima non est 
+          sub<lb break="no" ed="#P" n="32"/>sistens, ut in brutis, vel quia non est 
+          subjec<lb break="no" ed="#P" n="33"/>tum proportionatum talibus potentiis, quia
+          <lb ed="#P" n="34"/>anima spiritualis est et ipsae potentiae 
+          mate<lb break="no" ed="#P" n="35"/>riales. Quapropter deceptus est Gregorius, in
+          <lb ed="#P" n="36"/>2 dist. 17, q. 3, dicens omnes potentias 
+          sensi<lb break="no" ed="#P" n="37"/>tivas, si forte illas ab anima distinxit, 
+          subjec<lb break="no" ed="#P" n="38"/>tari immediate in ipsa anima, atque adeo in
+          <lb ed="#P" n="39"/>anima ipsa perfici sensationem, sicut et 
+          intel<lb break="no" ed="#P" n="40"/>lectionem, ex hoc enim sequitur sensationem,
+          <lb ed="#P" n="41"/>et sensum esse spiritualia, imo et species etiam
+          <lb ed="#P" n="42"/>sensibiles, quod est impossibile, cum 
+          impri<lb break="no" ed="#P" n="43"/>mantur a rebus materialibus. Rursus sequitur
+          <lb ed="#P" n="44"/>vel bruta non sentire, vel animas habere 
+          spi<lb break="no" ed="#P" n="45"/>rituales, nam habebunt operationes proprias,
+          <lb ed="#P" n="46"/>on exercitus in corpore. Praeterea diversitas
+          <lb ed="#P" n="47"/>organorum ad diversas potentias sensitivas
+          <lb ed="#P" n="48"/>ostendit eas non esse in anima, sed in organis.
+          <lb ed="#P" n="49"/>Unde intellectui nulium organum praebuit 
+          na<lb break="no" ed="#P" n="50"/>tura, et Aristoteles 2, de Anima, text. 122, ait
+          <lb ed="#P" n="51"/>sensorium esse primum subjectum, in quo est
+          <lb ed="#P" n="52"/>ipse sensus, et libr. 1, cap. 1, operationes
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>omnes, et potentias sensitivas esse communes,
+          <lb ed="#P" n="54"/>et totius conjuncti. Denique refert etiam divus
+          <lb ed="#P" n="55"/>Thomas, supra articul. 8, ex libr. de 
+          Eccle<lb break="no" ed="#P" n="56"/>siasticis dogmatibus, hominem duabus constare
+          <lb ed="#P" n="57"/>substantiis, anima cum ratione sua, et carne
+          <lb ed="#P" n="58"/>cum sensibus suis. Et favet illud Pauh: Caro
+          <lb ed="#P" n="59"/>concupiscit adversus spiritum, Gal. 5. Instat
+          <lb ed="#P" n="60"/>Gregorius quia alias sensus non manerent in
+          <lb ed="#P" n="61"/>anima separata, possetque Deus conservare
+          <lb ed="#P" n="62"/>illos in corpore mortuo, itaque posset sentire.
+          <lb ed="#P" n="63"/>Negatur tamen ultima consequentia, quia 
+          sen<lb break="no" ed="#P" n="64"/>üre operatio vitalis est intrinsece dependens
+          <lb ed="#P" n="65"/>a primo principio vitae, valde impossibile est
+          <lb ed="#P" n="66"/>esse sine illo.
+        </p>
+        <p xml:id="szdada-y14141-d1e269">
+          <lb ed="#P" n="67"/>3. Sententia D. Thome de causa materiali
+          <lb ed="#P" n="68"/>potentiarum materialium reducitur ad bonum
+          <lb ed="#P" n="69"/>sensum.—Sed quaeres, quodnam sit subjectum
+          <lb ed="#P" n="70"/>harum facultatum: S. Thomas ait esse totum
+          <lb ed="#P" n="71"/>compositum, et consequenter loquitur, quia
+          <lb ed="#P" n="72"/>sentit nulla accidentia esse in materia prima.
+          <lb ed="#P" n="73"/>Attamen dicendum has potentias eatenus 
+          sub<lb break="no" ed="#P" n="74"/>jectari in composito, quatenus supponunt 
+          ip<lb break="no" ed="#P" n="75"/>sum constitutum: non enim possunt esse nisi
+          <lb ed="#P" n="76"/>prius materia informetur anima, ex qua 
+          de<lb break="no" ed="#P" n="77"/>inde oriantur: at esse in composito, ita ut
+          <lb ed="#P" n="78"/>utrique parti illius inhaereant, est impossibile,
+          <lb ed="#P" n="79"/>nam cum sint accidentia corporalia inhaerent
+          <lb ed="#P" n="80"/>media quantitate, atque adeo in subjecto 
+          quan<lb break="no" ed="#P" n="81"/>titatis, quod est materia.
+        </p>
+        <p xml:id="szdada-y14141-d1e304">
+          <lb ed="#P" n="82"/>4. Circa causam efficientem negativa pars
+          <lb ed="#P" n="83"/>probatur. — De causalitate effectus duo sunt
+          <lb ed="#P" n="84"/>dubia. Primum, utrum anima habeat 
+          effticien<lb break="no" ed="#P" n="85"/>tiam circa proprias potentias. Secundum, si
+          <lb ed="#P" n="86"/>illam habeat, qualisnam sit. Circa primum
+          <lb ed="#P" n="87"/>videtur pars negativa vera. Primo, quia agens
+          <lb ed="#P" n="88"/>eadem actione, qua producit vivens, ipsum
+          <lb ed="#P" n="89"/>producit cum debitis potentiis, nam qui dat
+          <lb ed="#P" n="90"/>formam, consequentia ad illam confert: ergo
+          <lb ed="#P" n="91"/>superfluum est fingere efficientiam inter 
+          po<lb break="no" ed="#P" n="92"/>tentias et animam. Confirmatur, nam alias
+          <lb ed="#P" n="93"/>duae essent, vel plures fingendae actiones in
+          <lb ed="#P" n="94"/>cujusque rei productione, una scilicet 
+          produc<lb break="no" ed="#P" n="95"/>tiva formae substantialis, et deinde aliae, 
+          qui<lb break="no" ed="#P" n="96"/>bus ipsa forma substantialis, producit 
+          poten<lb break="no" ed="#P" n="97"/>tias: hoc autem superfluum videtur, et contra
+          <lb ed="#P" n="98"/>illud principium quod substantia creata non
+          <lb ed="#P" n="99"/>sit immediatum principium actionis maxime
+          <lb ed="#P" n="100"/>accidentalis. Confirmatur secundo, quia si 
+          ani<lb break="no" ed="#P" n="101"/>ma haberet efficientiam circa suas potentias ,
+          <lb ed="#P" n="102"/>posset virtute sua illas recuperare, si 
+          auferren<lb break="no" ed="#P" n="103"/>tur. Consequens est falsum, et contra 
+          expe<lb break="no" ed="#P" n="104"/>rientiam. Nam si semel auferatur visus, non
+          <lb ed="#P" n="105"/>iterum fluit ab anima. Confirmatur tertio.
+          <lb ed="#P" n="106"/>Nam eadem ratio est de proprietatibus aliarum
+          <lb ed="#P" n="107"/>rerum, ac de potentiis animae: sed in rebus
+          <pb ed="#P" n="581"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aliis proprietates non fluunt effective ab 
+          essen<lb break="no" ed="#P" n="2"/>tia: ergo, etc. Probatur minor, quantitas 
+          e<lb break="no" ed="#P" n="3"/>nim est proprietas materiae primae, et tamen
+          <lb ed="#P" n="4"/>non fluit ab illa effective, cum materia nullam
+          <lb ed="#P" n="5"/>habeat etficientiam. Calor etiam proprietas
+          <lb ed="#P" n="6"/>ignis est, nec tamen fit, effective ab illius 
+          for<lb break="no" ed="#P" n="7"/>ma, quia prior est calor disponens materiam,
+          <lb ed="#P" n="8"/>quam forma introducta.
+        </p>
+        <p xml:id="szdada-y14141-d1e385">
+          <lb ed="#P" n="9"/>5. Pars affirnativa jurta D. Thomam 
+          pro<lb break="no" ed="#P" n="10"/>babilior. — Nihilominus divus Thomas supra,
+          <lb ed="#P" n="11"/>quem communiter alii sequuntur, tribuunt
+          <lb ed="#P" n="12"/>animae efficientiam circa potentias suas, quod
+          <lb ed="#P" n="13"/>probat ex differentia inter accilentia, propria
+          <lb ed="#P" n="14"/>et communia, utraque enim requirunt causam
+          <lb ed="#P" n="15"/>effectivam, sed differunt, quoad accidentia
+          <lb ed="#P" n="16"/>communia, quia extrinseca sunt, proveniant
+          <lb ed="#P" n="17"/>ab extrinseca causa: at vero propria, quia
+          <lb ed="#P" n="18"/>intrinseca, ab intrinseca essentia et causa
+          <lb ed="#P" n="19"/>provenire debent, tanquam a principio 
+          ac<lb break="no" ed="#P" n="20"/>tivo; forma enim substantialis, quae dat
+          <lb ed="#P" n="21"/>primum esse simpliciter composito, debet esse
+          <lb ed="#P" n="22"/>causa efficiens reliquorum, quae per se illi 
+          con<lb break="no" ed="#P" n="23"/>veniunt, nam in per se ordinatis, quod prius
+          <lb ed="#P" n="24"/>est, debet esse causa posterioris, forma autem,
+          <lb ed="#P" n="25"/>et potentiae per se ordinantur ad perfectum
+          <lb ed="#P" n="26"/>esse compositi. Et confirmatur haec sententia,
+          <lb ed="#P" n="27"/>quia pleniorem causalitatem habet essentia
+          <lb ed="#P" n="28"/>rei circa proprias passiones suas, quam circa
+          <lb ed="#P" n="29"/>accidentia communia, sed in ordine ad 
+          acci<lb break="no" ed="#P" n="30"/>dentia communia est causa materialis et 
+          fina<lb break="no" ed="#P" n="31"/>lis (sunt enim et haec propter perfectionem
+          <lb ed="#P" n="32"/>substantiae): ergo genus aliud causalitatis 
+          ha<lb break="no" ed="#P" n="33"/>bet circa proprias passiones, non nisi 
+          effecti<lb break="no" ed="#P" n="34"/>vae: ergo, etc. Item magis necessario dimanat
+          <lb ed="#P" n="35"/>intellectus ab anima, quam calor a calore:
+          <lb ed="#P" n="36"/>sed unus calor efrfective fit ab alio: ergoa
+          <lb ed="#P" n="37"/>fortiori intellectus ab anima erit efficienter.
+          <lb ed="#P" n="38"/>Item necessaria connexio inter duo non 
+          po<lb break="no" ed="#P" n="39"/>test esse absque aliqua causalitate inducente
+          <lb ed="#P" n="40"/>ipsam connexionem, causalitas autem 
+          mate<lb break="no" ed="#P" n="41"/>rialis per se sumpta non eam inducit, ut patet
+          <lb ed="#P" n="42"/>in accidenti et subjecto communi. Eademque
+          <lb ed="#P" n="43"/>ratio est de causa finalhi: ergo duplex 
+          ejus<lb break="no" ed="#P" n="44"/>modr causalitas non sufhicit ad tam 
+          necessa<lb break="no" ed="#P" n="45"/>riam unionem, quanta est inter potentias et
+          <lb ed="#P" n="46"/>essentiam: ergo admittenda est alia 
+          causali<lb break="no" ed="#P" n="47"/>tas et non formalis: ergo effectiva. Dices, 
+          re<lb break="no" ed="#P" n="48"/>lationem et terminum habere mutuam 
+          con<lb break="no" ed="#P" n="49"/>nexionem, nec intervenire ibi causalitatem.
+          <lb ed="#P" n="50"/>Sed occurrendum inter terminum materialiter
+          <lb ed="#P" n="51"/>sumptum et relationem non esse illam 
+          mu<lb break="no" ed="#P" n="52"/>tuam connexionem, cum possit manere id
+          <lb ed="#P" n="53"/>quod terminat sine relatione, quamvis non
+          <lb ed="#P" n="54"/>prout actu terminat, quia ut sic ab ea 
+          intrin<lb break="no" ed="#P" n="55"/>sece pendet in genere causae formalis. Relatio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quoque ipsa pendet a termino quodammodo ,
+          <lb ed="#P" n="57"/>ut a forma extrinseca, quia ejus essentia 
+          con<lb break="no" ed="#P" n="58"/>sistit in ordine ad illum: in universum igitur
+          <lb ed="#P" n="59"/>necessaria connexio pendet ab aliquo genere
+          <lb ed="#P" n="60"/>causalitatis. Confirmatur tandem ab 
+          experien<lb break="no" ed="#P" n="61"/>tia. Nam sublata frigiditate ab aqua statim
+          <lb ed="#P" n="62"/>alia dimanat a forma, ac simile est de alis:
+          <lb ed="#P" n="63"/>ergo forma substantialis habet efficientiam
+          <lb ed="#P" n="64"/>circa proprietates suas:ergo potiori ratione 
+          ha<lb break="no" ed="#P" n="65"/>bebit illam anima circa potentiam.
+        </p>
+        <p xml:id="szdada-y14141-d1e513">
+          <lb ed="#P" n="66"/>6. Disquiritur modus quo anima suas 
+          po<lb break="no" ed="#P" n="67"/>tentias dicitur afficere. — Primus dicendi 
+          mo<lb break="no" ed="#P" n="68"/>dus. —Sed antequam hanc primam partem
+          <lb ed="#P" n="69"/>dubii resolvamus, videamus quid dici possit
+          <lb ed="#P" n="70"/>circa secundam. Nam si anima habet 
+          efficien<lb break="no" ed="#P" n="71"/>tiam, quem ejus modum, quaeso, habet? 
+          Qui<lb break="no" ed="#P" n="72"/>dam tantam efficientiam ei tribuunt, ut 
+          asse<lb break="no" ed="#P" n="73"/>rant animam nova actione producere 
+          poten<lb break="no" ed="#P" n="74"/>tias, atque distincta ab illa, per quam ipsa
+          <lb ed="#P" n="75"/>fuit producta: itaque pronuntiant cum anima
+          <lb ed="#P" n="76"/>rationalis creatur, creationem terminari ad
+          <lb ed="#P" n="77"/>substantiam animae tantum, et deinde ab 
+          ani<lb break="no" ed="#P" n="78"/>ma prodire intellectum et voluntatem nova
+          <lb ed="#P" n="79"/>alia actione: eo modo, quo productio Solis a
+          <lb ed="#P" n="80"/>Deo terminata est ad solem tantum, et in 
+          eo<lb break="no" ed="#P" n="81"/>dem instanti sol alia actione illuminavit aerem.
+          <lb ed="#P" n="82"/>Probaturque haec sententia. Nam forma 
+          ratio<lb break="no" ed="#P" n="83"/>nalis habet efficientiam circa suas potentias
+          <lb ed="#P" n="84"/>realiter a se distinctas, ut numero praecedenti
+          <lb ed="#P" n="85"/>ostensum est: ergo sicut anima est effectus
+          <lb ed="#P" n="86"/>Dei, ita potentiae sunt novi effectus ab ipsa
+          <lb ed="#P" n="87"/>anima facti, sed ubi est novus effectus, est
+          <lb ed="#P" n="88"/>nova actio (actio enim res ipsa est, quae fit
+          <lb ed="#P" n="89"/>prout egreditur a principio agendi): ergo, etc.
+          <lb ed="#P" n="90"/>Secundo potentia vere producuntur ab anima:
+          <lb ed="#P" n="91"/>ergo nova actione producuntur: nam 
+          produ<lb break="no" ed="#P" n="92"/>cere sine productione intelligibile est. Tertio
+          <lb ed="#P" n="93"/>anima non concurrit effective ad sui 
+          produc<lb break="no" ed="#P" n="94"/>tionem: concurrit autem effective ad 
+          produc<lb break="no" ed="#P" n="95"/>tionem potentiarum, ut est probatum: ergo
+          <lb ed="#P" n="96"/>distincta productio est animae et potentiarum:
+          <lb ed="#P" n="97"/>ergo et actio distincta. Quarto efficientia 
+          in<lb break="no" ed="#P" n="98"/>trinsece includit actionem, est siquidem modus
+          <lb ed="#P" n="99"/>causandi per actionem proprius causae 
+          effi<lb break="no" ed="#P" n="100"/>cientis, in eoque distinguitur a causalitate 
+          cae<lb break="no" ed="#P" n="101"/>terarum causarum: ergo si potentiae vere 
+          ef<lb break="no" ed="#P" n="102"/>fective dimanant ab anima, plane ab illa 
+          me<lb break="no" ed="#P" n="103"/>dia actione dimanant. Quinto haec dimanatio
+          <lb ed="#P" n="104"/>nova actio forte non esset, quia posita semel
+          <lb ed="#P" n="105"/>anima, naturali sequela potentiae resultant,
+          <lb ed="#P" n="106"/>sed hoc non obstat, cum posita etiam certa
+          <lb ed="#P" n="107"/>mixtione primarum qualitatum oriantur 
+          se<lb break="no" ed="#P" n="108"/>cundae per novam actionem, et posito sole,
+          <lb ed="#P" n="109"/>ut dicebamus, sequatur lumen in aere per
+          <lb ed="#P" n="110"/>distinctam etiam actionem: ergo naturalis
+          <pb ed="#P" n="582"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sequela propriam actionem non excludit.
+        </p>
+        <p xml:id="szdada-y14141-d1e621">
+          <lb ed="#P" n="2"/>T. Non placet Thomistis praedictus modus.
+          <lb ed="#P" n="3"/>— Et confirmatur. — Nihilominus plerique
+          <lb ed="#P" n="4"/>Thomistarum rejiciunt hunc dicendi modum,
+          <lb ed="#P" n="5"/>quod pugnare videatur duobus principiis, quae
+          <lb ed="#P" n="6"/>ipsi magna religione observant. Primum,
+          <lb ed="#P" n="7"/>quod substantia creata nequeat esse 
+          immedia<lb break="no" ed="#P" n="8"/>tum principium alicujus actionis, maxime 
+          ac<lb break="no" ed="#P" n="9"/>cidentalis, atque adeo impossibile fit animam
+          <lb ed="#P" n="10"/>per actionem a se immediate prodeuntem
+          <lb ed="#P" n="11"/>causare potentias. Secundum principium est,
+          <lb ed="#P" n="12"/>nihil posse agere in seipsum per se primo:
+          <lb ed="#P" n="13"/>cum ergo anima recipiat in se potentias, ut
+          <lb ed="#P" n="14"/>intellectum et voluntatem, eas proprie in se
+          <lb ed="#P" n="15"/>non agit, ac proinde nec media actione. 
+          Prop<lb break="no" ed="#P" n="16"/>ter haec Cajetanus supra, et latius 1 p., q. 54,
+          <lb ed="#P" n="17"/>art. 3, quem alii sequuntur, ait potentias 
+          di<lb break="no" ed="#P" n="18"/>manare a propria forma sine ulla actione per
+          <lb ed="#P" n="19"/>quamdam resultantiam, cui favet D. Thomas
+          <lb ed="#P" n="20"/>supra, ad 2 et 3, ubi ait animam esse 
+          princi<lb break="no" ed="#P" n="21"/>pium activum potentiarum non proprie. sed
+          <lb ed="#P" n="22"/>quodammodo, quia non efficit propria 
+          trans<lb break="no" ed="#P" n="23"/>mutatione, sed per resultantiam quamdam.
+          <lb ed="#P" n="24"/>Et confirmatur, quia alias ad potentias animae
+          <lb ed="#P" n="25"/>daretur per se motus, seu mutatio, nam ad
+          <lb ed="#P" n="26"/>rem illam est per se motus, et mutatio, ad
+          <lb ed="#P" n="27"/>quam propria actio productiva per se tendit:
+          <lb ed="#P" n="28"/>consequens autem est contra Aristotelem:
+          <lb ed="#P" n="29"/>quare, etc.
+        </p>
+        <p xml:id="szdada-y14141-d1e684">
+          <lb ed="#P" n="30"/>8. Notationes pro decisione. — Pro 
+          resolu<lb break="no" ed="#P" n="31"/>tione est notandum de ratione passionis esse
+          <lb ed="#P" n="32"/>inseparabilem unionem cum substantia rei,
+          <lb ed="#P" n="33"/>quantum de se est, quod ideo addo, quoniam
+          <lb ed="#P" n="34"/>aliqualis separabilitas, quae ab extrinseco fit,
+          <lb ed="#P" n="35"/>non tollit rationem proprietatis, est enim 
+          sum<lb break="no" ed="#P" n="36"/>mus calor, verbi gratia, proprietas ignis, licet
+          <lb ed="#P" n="37"/>sit separabilis ab illo, nam in ea separatione
+          <lb ed="#P" n="38"/>ignis saltem inchoate corrumpitur, atque 
+          ex<lb break="no" ed="#P" n="39"/>tra statum naturae suae debitum trahitur. 
+          Se<lb break="no" ed="#P" n="40"/>cundo est notandum proprietates semper 
+          con<lb break="no" ed="#P" n="41"/>venire rei ratione formae, ut D. Thomas dixit
+          <lb ed="#P" n="42"/>(quantitatem excipio, quae est individua 
+          pro<lb break="no" ed="#P" n="43"/>prietas materiae): inter proprietates ergo gratia
+          <lb ed="#P" n="44"/>formae requisitas quaedam requiruntur non
+          <lb ed="#P" n="45"/>solum ut consequentes formam, sed etiam ut
+          <lb ed="#P" n="46"/>passivae ad illam inducendam: hujusmodi vero
+          <lb ed="#P" n="47"/>sunt dispositiones, quae formam saltem natura
+          <lb ed="#P" n="48"/>praecedunt in materia. Aliae sunt proprietates,
+          <lb ed="#P" n="49"/>quae supponunt existentiam rei, et illi 
+          tribuun<lb break="no" ed="#P" n="50"/>tur, tanquam virtutes ad operandum, quales
+          <lb ed="#P" n="51"/>sunt potentiae animae maxime sensitivae et 
+          in<lb break="no" ed="#P" n="52"/>tellectivae, et multae etiam virtutes herbarum
+          <lb ed="#P" n="53"/>et mineralium. Atque inter has et illas 
+          ro<lb break="no" ed="#P" n="54"/>prietates illud interest, quod priores illae non
+          <lb ed="#P" n="55"/>fiant effective a forma in primo instanti gene-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rationis, sed immediate ab agente disponente
+          <lb ed="#P" n="57"/>materiam, ut inducatur forma, quod probat
+          <lb ed="#P" n="58"/>tertia confirmatio supra facta numero quarto,
+          <lb ed="#P" n="59"/>quae concludit plane supposita alia sententia,
+          <lb ed="#P" n="60"/>quod accidentia sint in materia prima, inde
+          <lb ed="#P" n="61"/>namque sequitur nullam ultimam 
+          dispositio<lb break="no" ed="#P" n="62"/>nem fieri a forma, sed ab agente, quanquam
+          <lb ed="#P" n="63"/>formae ipsi de se non deesset virtus ad illam
+          <lb ed="#P" n="64"/>dispositionem causandam, si quidem ea forte
+          <lb ed="#P" n="65"/>ablata statim efficit aliam: in primo ergo 
+          in<lb break="no" ed="#P" n="66"/>stanti non efficit, quia factam invenit, 
+          tan<lb break="no" ed="#P" n="67"/>tumque deinceps conservat.
+        </p>
+        <p xml:id="szdada-y14141-d1e771">
+          <lb ed="#P" n="68"/>9. Primum pronuntiatum circa dubium 
+          posi<lb break="no" ed="#P" n="69"/>tunn. 4. — De aliis vero proprietatibus,quae 
+          con<lb break="no" ed="#P" n="70"/>sequuntur formam, ac simpliciter ea, 
+          posterio<lb break="no" ed="#P" n="71"/>res sunt in omni genere causae, de quibus 
+          prae<lb break="no" ed="#P" n="72"/>cipua quaestio procedit, videtur valde probabilis
+          <lb ed="#P" n="73"/>opinio D. Thomae. Primo, quia illaintima unio,
+          <lb ed="#P" n="74"/>quae inter formam et virtutes reperitur, 
+          vide<lb break="no" ed="#P" n="75"/>tur necessario inducere inter illas aliquam 
+          cau<lb break="no" ed="#P" n="76"/>salitatem effectivam, aliae namque causalitates
+          <lb ed="#P" n="77"/>minime sufficiunt. Secundo proprietates illae,
+          <lb ed="#P" n="78"/>quae semel auferuntur, et iterum manant, 
+          os<lb break="no" ed="#P" n="79"/>tendunt esse inter formam et proprietatem
+          <lb ed="#P" n="80"/>hoc genus causalitatis. Tertio, cum anima sit
+          <lb ed="#P" n="81"/>simpliciter prior suis proprietatibus, rationi
+          <lb ed="#P" n="82"/>consonum est, ut illum ordinem causalitatis
+          <lb ed="#P" n="83"/>habeat respectu illarum: ergo.
+        </p>
+        <p xml:id="szdada-y14141-d1e808">
+          <lb ed="#P" n="84"/>10. Secundum pronuntiatum. — Tertium.—
+          <lb ed="#P" n="85"/>Unde dico secundo, consequenter videri 
+          con<lb break="no" ed="#P" n="86"/>cedendum actionem productivam rei 
+          imme<lb break="no" ed="#P" n="87"/>diate terminari ad substantiam ipsius, ut 
+          prae<lb break="no" ed="#P" n="88"/>cisam a proprietatibus. Tertio dico actionem
+          <lb ed="#P" n="89"/>illam productivam substantiae distinctam esse
+          <lb ed="#P" n="90"/>ab illa, qua potentia ipsa dimanat ab anima:
+          <lb ed="#P" n="91"/>utrumque istorum patet factis argumentis 
+          con<lb break="no" ed="#P" n="92"/>tra opinionem Thomistarum in numero sexto,
+          <lb ed="#P" n="93"/>quod iterum explicatur et suadetur. Nam finge
+          <lb ed="#P" n="94"/>Deum creare substantiam animae impediendo
+          <lb ed="#P" n="95"/>emanationem potentise ab illa, hoc enim posse
+          <lb ed="#P" n="96"/>fieri supra est ostensum: maneret ergo tunc
+          <lb ed="#P" n="97"/>substantia animae absque intellectu et 
+          volun<lb break="no" ed="#P" n="98"/>tate, auferat vero postea Deus impedimentum,
+          <lb ed="#P" n="99"/>relinquatque animam suae naturae, certe 
+          di<lb break="no" ed="#P" n="100"/>manarent ab illa intellectus, atque voluntas,
+          <lb ed="#P" n="101"/>sicut in primo instanti generationis, aut 
+          crea<lb break="no" ed="#P" n="102"/>tionis. Jam sic arguitur, in eo casu actio creata
+          <lb ed="#P" n="103"/>haberet suum terminum integrum, qui alius
+          <lb ed="#P" n="104"/>non esset, quam sola animae substantia, 
+          in<lb break="no" ed="#P" n="105"/>tellectus vero, ac voluntatis dimanatio postea
+          <lb ed="#P" n="106"/>subsequens esset distincta actio, utpote 
+          sepa<lb break="no" ed="#P" n="107"/>rata etiam tempore a creatione, et aliquid 
+          no<lb break="no" ed="#P" n="108"/>vum producens: ergo et nunc eaedem actiones
+          <lb ed="#P" n="109"/>sunt in instanti creationis, nam quae in casu
+          <lb ed="#P" n="110"/>posito separantur tempore, debet mens in uno
+          <pb ed="#P" n="583"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>instanti per acta separare, quod enim simul
+          <lb ed="#P" n="2"/>fiant, distinctionem non aufert. Confirmatur
+          <lb ed="#P" n="3"/>primo. Nam vel ex vi actionis productivae 
+          ani<lb break="no" ed="#P" n="4"/>mae, producuntur etiam potentiae, vel non. Si
+          <lb ed="#P" n="5"/>primum: ergo cum tota illa actio sit ab agente,
+          <lb ed="#P" n="6"/>anima nihil omnino efficit in productione
+          <lb ed="#P" n="7"/>suarum potentiarum, quod est absurdum. Si
+          <lb ed="#P" n="8"/>secundum: ergo debet alia esse actio, per quam
+          <lb ed="#P" n="9"/>potentia producatur. Confirmatur secundo.
+          <lb ed="#P" n="10"/>Nam actio per se una debet terminari ad unum
+          <lb ed="#P" n="11"/>per se terminum: at vero anima cum potentiis
+          <lb ed="#P" n="12"/>est unum per aggregationem: ergo totum illud
+          <lb ed="#P" n="13"/>per unam actionem non producitur. Id quod
+          <lb ed="#P" n="14"/>facilius intelligitur in productione formarum
+          <lb ed="#P" n="15"/>materialium, nam talis actio est eductiva 
+          for<lb break="no" ed="#P" n="16"/>mae substantialis de potentia materiae: eductio
+          <lb ed="#P" n="17"/>vero ex propriis considerata, formaliter 
+          tan<lb break="no" ed="#P" n="18"/>tum terminatur ad substantialem formam: 
+          er<lb break="no" ed="#P" n="19"/>go consecutio proprietatum a forma non potest
+          <lb ed="#P" n="20"/>intelligi sine nova actione, quod clarius adhuc
+          <lb ed="#P" n="21"/>patet in allato casu separatae dimanationis 
+          po<lb break="no" ed="#P" n="22"/>tentiarum a productione formae, ac patet etiam
+          <lb ed="#P" n="23"/>in aqua reducente se ad pristinum frigus. Nam
+          <lb ed="#P" n="24"/>vere motus ille fit a forma substantial aquae,
+          <lb ed="#P" n="25"/>nec minus vera actio frigefaciendi est, quam
+          <lb ed="#P" n="26"/>si proveniret ab extrinseco, quid enim refert?
+          <lb ed="#P" n="27"/>Unde est considerandum, quando formae 
+          pro<lb break="no" ed="#P" n="28"/>prietates sunt dispositiones illa priores, fieri
+          <lb ed="#P" n="29"/>etiam distincta actione ab ea, qua posterius
+          <lb ed="#P" n="30"/>natura inducitur forma, alteratione videlicet
+          <lb ed="#P" n="31"/>dispositiva, eo tamen discrimine, quod tales
+          <lb ed="#P" n="32"/>dispositiones non a forma tanquam a principio
+          <lb ed="#P" n="33"/>activo, sed immediate ab agente procedunt: at
+          <lb ed="#P" n="34"/>proprietates consequentes formam, suam 
+          ori<lb break="no" ed="#P" n="35"/>ginem ab illa ducunt.
+        </p>
+        <p xml:id="szdada-y14141-d1e949">
+          <lb ed="#P" n="36"/>11. Quartum pronuntiatum. — Dico tamen
+          <lb ed="#P" n="37"/>quarto: absolute dicendum est, agens 
+          princi<lb break="no" ed="#P" n="38"/>pale producere formam cum omnibus 
+          virtuti<lb break="no" ed="#P" n="39"/>bus, quae ex illa sequuntur. Hic certe est 
+          com<lb break="no" ed="#P" n="40"/>munis modus loquendi et sentiendi omnium,
+          <lb ed="#P" n="41"/>sic DEUS creando animam dicitur potentias
+          <lb ed="#P" n="42"/>concreare. hatio vero est, quia agentis est
+          <lb ed="#P" n="43"/>producere substantiam rei usquequaque 
+          in<lb break="no" ed="#P" n="44"/>structam ad suum finem, et ideo dando 
+          for<lb break="no" ed="#P" n="45"/>mam dat omnia, quae ipsam perficiunt, non
+          <lb ed="#P" n="46"/>tantum quoad esse, sed etiam ut sit exactum
+          <lb ed="#P" n="47"/>principium operandi, atque adeo ut sit 
+          prin<lb break="no" ed="#P" n="48"/>cipium potentiarum ad finem operandi 
+          requi<lb break="no" ed="#P" n="49"/>sitarum. Item generans intendit assimilare sibi
+          <lb ed="#P" n="50"/>genitum quantum potest: illa ergo actio, qua
+          <lb ed="#P" n="51"/>formam inducit, licet immediate tantum sit
+          <lb ed="#P" n="52"/>inductiva formae, mediate, et radicaliter est
+          <lb ed="#P" n="53"/>comproductiva omnium, quae naturalter, et
+          <lb ed="#P" n="54"/>necessario ex ilia sequuntur tanquam ad 
+          per<lb break="no" ed="#P" n="55"/>fectionem geniti attinentia. Quo sensu dici
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>solet, ac vere, unicam esse actionem 
+          producti<lb break="no" ed="#P" n="57"/>vam rei, et comproductivam proprietatum,
+          <lb ed="#P" n="58"/>quia non considerantur cum praecisione, sed
+          <lb ed="#P" n="59"/>consideratur actio radicalis et primaria. Et
+          <lb ed="#P" n="60"/>per haec patet solutio argumentorum.
+        </p>
+        <p xml:id="szdada-y14141-d1e1008">
+          <lb ed="#P" n="61"/>12. Ad argumentum in n. 4. — Ad primum
+          <lb ed="#P" n="62"/>enim dicimus agens una actione producere
+          <lb ed="#P" n="63"/>omnia mediate, vel immediate, sicque exponi
+          <lb ed="#P" n="64"/>illud axioma: Qui dat formam, dare, scihcet
+          <lb ed="#P" n="65"/>in radice, consequentia ad formam. Ad primam
+          <lb ed="#P" n="66"/>confirmationem respondetur, rem praecise 
+          con<lb break="no" ed="#P" n="67"/>siderando tot esse actiones, auot entitates: dici
+          <lb ed="#P" n="68"/>tamen unicam actionem, quod ex illa reliquae
+          <lb ed="#P" n="69"/>dimanent. Secunda confirmatio nos non urget
+          <lb ed="#P" n="70"/>speciatim: per se enim propriam difficultatem
+          <lb ed="#P" n="71"/>postulat, cur potentiae animae semel separatae
+          <lb ed="#P" n="72"/>non iterum fluant, sicut experimur fieri in
+          <lb ed="#P" n="73"/>aqua, et in aliis naturalibus virtutibus 
+          inani<lb break="no" ed="#P" n="74"/>matorum. Et responderi potest primo, naturam
+          <lb ed="#P" n="75"/>praevidisse id, quod per se est in rebus, non
+          <lb ed="#P" n="76"/>quod per accidens: per se autem esse, quod
+          <lb ed="#P" n="77"/>proprietas habens contrarium ab illo minuatur
+          <lb ed="#P" n="78"/>aliquantulum, ideoque naturam dedisse formae
+          <lb ed="#P" n="79"/>substantiali vires ad recuperandum tale 
+          detri<lb break="no" ed="#P" n="80"/>mentum, potentias vero animae de se non 
+          ha<lb break="no" ed="#P" n="81"/>bere contrarium, et ideo de se tamdiu posse
+          <lb ed="#P" n="82"/>durare, quamdiu et ipsa anima possit: per
+          <lb ed="#P" n="83"/>accidens vero esse, quod aliquando 
+          debiliten<lb break="no" ed="#P" n="84"/>tur aliunde, ideoque naturam id non 
+          provi<lb break="no" ed="#P" n="85"/>disse. Haec tamen responsio non videtur facere
+          <lb ed="#P" n="86"/>satis, nam si anima est virtus ad efticiendas
+          <lb ed="#P" n="87"/>suas potentias, quod semel illas efficiat, ea
+          <lb ed="#P" n="88"/>virtus non minuitur. Dicendum ergo potentias
+          <lb ed="#P" n="89"/>animae de facto non laedi, vel auferri, nisi laesis,
+          <lb ed="#P" n="90"/>aut ablatis organis, in quibus resident, quae
+          <lb ed="#P" n="91"/>organa substantiae sunt, ac subjecta illarum:
+          <lb ed="#P" n="92"/>quia ergo anima ablatum organum non potest
+          <lb ed="#P" n="93"/>recuperare, sicut nec recuperare abscissam
+          <lb ed="#P" n="94"/>manum, ideo neque potentiam in organo 
+          sub<lb break="no" ed="#P" n="95"/>jectatam. Ad tertium jam responsum est: ad
+          <lb ed="#P" n="96"/>illud vero de materia prima diximus in libro
+          <lb ed="#P" n="97"/>de Generatione, disputatione prima, quaest. 4,
+          <lb ed="#P" n="98"/>circa secuncam confirmationem octavi 
+          argu<lb break="no" ed="#P" n="99"/>menti secundae opinionis, et secunda solutio
+          <lb ed="#P" n="100"/>ibi data est conformior doctrinae hic traditae,
+          <lb ed="#P" n="101"/>quamvis etiam prima sustineri possit, quia
+          <lb ed="#P" n="102"/>est specialis ratio in materia propter ipsius
+          <lb ed="#P" n="103"/>potentialitatem.
+        </p>
+        <p xml:id="szdada-y14141-d1e1105">
+          <lb ed="#P" n="104"/>13. Ad motiva Thomistarum in n. 1. Ad
+          <lb ed="#P" n="105"/>confirmationem in fine ejusdem num. 1.— Ad
+          <lb ed="#P" n="106"/>motivum Thomistarum respondetur, illa duo
+          <lb ed="#P" n="107"/>principia non esse adeo irrefragabilia, 
+          atta<lb break="no" ed="#P" n="108"/>men exponi hic posse ad mentem sancti 
+          Tho<lb break="no" ed="#P" n="109"/>mae, quod forma substantialis non sit 
+          imme<lb break="no" ed="#P" n="110"/>diatum principium perficiendi suum supposi-
+          <pb ed="#P" n="584"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tum saltem in actu primo, ect hocforte intendit
+          <lb ed="#P" n="2"/>divus Thomas, vel dicito formam non esse 
+          ac<lb break="no" ed="#P" n="3"/>tivam nisi actione naturaliter resultante ex
+          <lb ed="#P" n="4"/>illa, quae dicitur dimanatio: haec autem, si
+          <lb ed="#P" n="5"/>effectiva est, sine actione difficile intelligi 
+          po<lb break="no" ed="#P" n="6"/>test. Similiter dicitur ad alterum principium,
+          <lb ed="#P" n="7"/>quod idem in se non agat praeterquam hoc
+          <lb ed="#P" n="8"/>actionis genere, quae est dimanatio, vel certe
+          <lb ed="#P" n="9"/>non agit nisi ut virtus generantis: sed de hoc
+          <lb ed="#P" n="10"/>secundo principio plura diximus alio loco. Ad
+          <lb ed="#P" n="11"/>confirmationem respondetur primo tunc esse
+          <lb ed="#P" n="12"/>per se motum ad aliquid, quando datur actio
+          <lb ed="#P" n="13"/>in natura per se primo tendens ad illud, non
+          <lb ed="#P" n="14"/>vero si actio sit tanquam dimanatio ab alia 
+          ac<lb break="no" ed="#P" n="15"/>tione, quando enim multa sequuntur ex vi
+          <lb ed="#P" n="16"/>unius actionis, quamvis inter alia sit ordo, et
+          <lb ed="#P" n="17"/>considerando unum respectu alterius, sit nova
+          <lb ed="#P" n="18"/>actio inter ea, non dicitur tamen inter ea nova
+          <lb ed="#P" n="19"/>actio, nisi ad id ad quod primo, et radicaliter
+          <lb ed="#P" n="20"/>ipsa tendit: sic ergo res habet in proposito.
+          <lb ed="#P" n="21"/>Secundo dicitur aliud esse actionem tendere
+          <lb ed="#P" n="22"/>per se ad terminum aliquem, aliud vero, esse
+          <lb ed="#P" n="23"/>ad illum per se primo motum: potest ergo
+          <lb ed="#P" n="24"/>concedi ad has potentias esse aliquo modo 
+          ac<lb break="no" ed="#P" n="25"/>tionem per se, non vero proprie mutationem,
+          <lb ed="#P" n="26"/>quia subjectum earum non mutatur, cum 
+          si<lb break="no" ed="#P" n="27"/>mul incipiant esse cum illo, proprie vero res
+          <lb ed="#P" n="28"/>dicitur per mutationem fieri, quando fit cum
+          <lb ed="#P" n="29"/>subjecti mutatione. Et haec de prima parte
+          <lb ed="#P" n="30"/>quaestionis.
+        </p>
+        <p xml:id="szdada-y14141-d1e1192">
+          <lb ed="#P" n="31"/>De ordine et causalitate, quam potentiae inter
+          <lb ed="#P" n="32"/>se servant resultando ab anima.
+        </p>
+        <p xml:id="szdada-y14141-d1e1199">
+          <lb ed="#P" n="33"/>14. Notatio. — Circa secundam partem
+          <lb ed="#P" n="34"/>hujus capitis, quam ipso initio proposuimus,
+          <lb ed="#P" n="35"/>scilicet de ordine potentiarum inter se, 
+          notan<lb break="no" ed="#P" n="36"/>dum primo est breviter, esse rem fere certam
+          <lb ed="#P" n="37"/>inter potentias animae aliquem servari 
+          ordi<lb break="no" ed="#P" n="38"/>nem, nam, ut D. Thomas optime advertit,
+          <lb ed="#P" n="39"/>quando plura oriuntur, ab uno debent 
+          ordi<lb break="no" ed="#P" n="40"/>natim procedere, non confuse, ac veluti 
+          tu<lb break="no" ed="#P" n="41"/>multuatim: potest autem talis ordo intelligi,
+          <lb ed="#P" n="42"/>vel inter potentias ipsas, vel per respectum ad
+          <lb ed="#P" n="43"/>unum tertium. Inter se quidem, ut potentiae
+          <lb ed="#P" n="44"/>cognoscitivae et appetitivae, hae namque illis
+          <lb ed="#P" n="45"/>plane subordinatur: sicut in operando (nihil
+          <lb ed="#P" n="46"/>enim volitum, quin praecognitum), ita et in
+          <lb ed="#P" n="47"/>essendo. Per respectum vero ad unum 
+          ter<lb break="no" ed="#P" n="48"/>tium, ut tam multiplices potentiae sensitivae
+          <lb ed="#P" n="49"/>nostri gratia sunt: et ad hoc diriguntur ut
+          <lb ed="#P" n="50"/>cognitionem perfectam sensibilium habeamus.
+          <lb ed="#P" n="51"/>Secundo notandum, praedictum ordinem esse
+          <lb ed="#P" n="52"/>posse multiplicem: scilicet vel durationis,
+          <lb ed="#P" n="53"/>quasi una potentia posterius existat, quam alia,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>vel quam anima ipsa: vel dignitatis, quia 
+          po<lb break="no" ed="#P" n="55"/>tentiae quaedam sunt digniores aliis: vel 
+          gene<lb break="no" ed="#P" n="56"/>rationis, quia potentiae aliae priores aliis 
+          pro<lb break="no" ed="#P" n="57"/>cedunt: vel objectorum, quia earum objecta
+          <lb ed="#P" n="58"/>sunt priora aliis secundum naturam suam, ut
+          <lb ed="#P" n="59"/>visibile, quam audibile: vel finis, quatenus
+          <lb ed="#P" n="60"/>una potentia ordinatur ad aliam, ut ad finem,
+          <lb ed="#P" n="61"/>ut scilicet illi ministret, ut exteriores sensus
+          <lb ed="#P" n="62"/>deserviunt interioribus: vel denique 
+          emana<lb break="no" ed="#P" n="63"/>tionis effectivae, ita ut una potentia emanet
+          <lb ed="#P" n="64"/>ab alia immediate. Tertio est notandum 
+          com<lb break="no" ed="#P" n="65"/>parari potentias, quae consequuntur animam
+          <lb ed="#P" n="66"/>secundum unum et eumdem gradum, vel 
+          in<lb break="no" ed="#P" n="67"/>ter se, vel ad potentias consequentes 
+          secun<lb break="no" ed="#P" n="68"/>dum alium gradum, ut vegetativas inter se,
+          <lb ed="#P" n="69"/>aut in ordine ad sensitivas et utrasque in 
+          or<lb break="no" ed="#P" n="70"/>dine ad intellectivas.
+        </p>
+        <p xml:id="szdada-y14141-d1e1286">
+          <lb ed="#P" n="71"/>15. Primum pronuntiatum in hac secundi 
+          ca<lb break="no" ed="#P" n="72"/>pitis parte.—S ecundum pronuntiatum.— 
+          Ter<lb break="no" ed="#P" n="73"/>tium pronuntiatum.— Quartum pronuntiatum.
+          <lb ed="#P" n="74"/>— Quintum pronuntiatum. — Hoc supposito
+          <lb ed="#P" n="75"/>dico primo. In ordine durationis nullus est
+          <lb ed="#P" n="76"/>ordo inter potentias ejusdem viventis inter se,
+          <lb ed="#P" n="77"/>vel cum anima, a qua fluunt. Patet, quia 
+          om<lb break="no" ed="#P" n="78"/>nes incipiunt in eodem instanti, nam omnes
+          <lb ed="#P" n="79"/>dimanant ab una anima, quae in unico codem
+          <lb ed="#P" n="80"/>instanti incipit esse: id, quod aperte videre
+          <lb ed="#P" n="81"/>est in homine. Dico secundo. Ordine 
+          genera<lb break="no" ed="#P" n="82"/>tionis potentiae, quae consequuntur animam
+          <lb ed="#P" n="83"/>secundum gradum imperfectum sunt priores
+          <lb ed="#P" n="84"/>secundum naturam, quam aliae. Probatur,
+          <lb ed="#P" n="85"/>quia anima secundum gradum 
+          imperfectio<lb break="no" ed="#P" n="86"/>rem est natura prior, quam secundum 
+          gra<lb break="no" ed="#P" n="87"/>dum perfectum: ergo et potentiae 
+          proportio<lb break="no" ed="#P" n="88"/>naliter. Item actus illarum potentiarum sunt
+          <lb ed="#P" n="89"/>priores, ut nutritio sensatione, quia sensatio
+          <lb ed="#P" n="90"/>pendet a nutritione tanquam a 
+          subministran<lb break="no" ed="#P" n="91"/>te, atque idem est de intellectione respectu
+          <lb ed="#P" n="92"/>sensationis: ergo et potentiae sunt priores,
+          <lb ed="#P" n="93"/>haec vero prioritas ad genus causae materialis
+          <lb ed="#P" n="94"/>reducitur: nam gradus imperfectior 
+          compara<lb break="no" ed="#P" n="95"/>tur ad perfectiorem, ut potentia ad actum, 
+          quo<lb break="no" ed="#P" n="96"/>modo divus Thomas supra, articulo septimo,
+          <lb ed="#P" n="97"/>scribit, potentias imperfectiores esse velut 
+          ma<lb break="no" ed="#P" n="98"/>teriales causas respectu aliarum, quia 
+          quo<lb break="no" ed="#P" n="99"/>dammodo disponunt ad illas, sicut superior
+          <lb ed="#P" n="100"/>gradus ad inferiorem. Dico tertio. Potentiae
+          <lb ed="#P" n="101"/>gradus inferioris sunt imperfectiores 
+          poten<lb break="no" ed="#P" n="102"/>tiis gradus superioris: patet hoc inductione et
+          <lb ed="#P" n="103"/>ipso naturali lumine. Dico quarto. Inferiores
+          <lb ed="#P" n="104"/>potentiae ordinantur ad deserviendum 
+          supe<lb break="no" ed="#P" n="105"/>rioribus, superiores vero ad adjuvandum 
+          infe<lb break="no" ed="#P" n="106"/>riores, sic potentiae vegetativae ministrant 
+          sen<lb break="no" ed="#P" n="107"/>sitivis, nam organa illarum perficiunt, et illis
+          <lb ed="#P" n="108"/>praebent vires, ut melius possint exercere suas
+          <pb ed="#P" n="585"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>operationes: sensitivae vero vicissim 
+          ordinan<lb break="no" ed="#P" n="2"/>tur ad tuendas vegetativas potentias, et ad
+          <lb ed="#P" n="3"/>quaerendum, et praeparandum illis cibum, quae
+          <lb ed="#P" n="4"/>rursum comparatae ad intellectivas ministrae
+          <lb ed="#P" n="5"/>illarum sunt, et instrumenta comparandi 
+          spe<lb break="no" ed="#P" n="6"/>cies: vicissim vero intellectivae dirigunt 
+          sensi<lb break="no" ed="#P" n="7"/>tivas, eisque dominantur, ac tandem omnes
+          <lb ed="#P" n="8"/>ordinantur ad perfectum viventis statum, 
+          con<lb break="no" ed="#P" n="9"/>servationem et regimen, sicut in republica
+          <lb ed="#P" n="10"/>bene ordinata inferiores deserviunt 
+          superiori<lb break="no" ed="#P" n="11"/>bus et superiores dirigunt, et tuentur 
+          inferio<lb break="no" ed="#P" n="12"/>res et omnes sua munera exercent, ut 
+          respu<lb break="no" ed="#P" n="13"/>blica bene sit instituta. Dices, potentiae 
+          vege<lb break="no" ed="#P" n="14"/>tativae de se non ordinantur ad sensitivas, ut
+          <lb ed="#P" n="15"/>in plantis constat, nec sensitivae ad 
+          intellecti<lb break="no" ed="#P" n="16"/>vas, ut patet in brutis. Respondetur, potentias
+          <lb ed="#P" n="17"/>quidem quascumque immediate ordinari ad
+          <lb ed="#P" n="18"/>proprios actus, ultimate vero ordinari posse
+          <lb ed="#P" n="19"/>ad deserviendum perfectioribus potentiis 
+          ra<lb break="no" ed="#P" n="20"/>tione perfectioris principii, a quo dimanant,
+          <lb ed="#P" n="21"/>a quo etiam vendicant, ut actiones proprias
+          <lb ed="#P" n="22"/>perfectiori modo exerceant. Dico quinto. Inter
+          <lb ed="#P" n="23"/>potentias pertinentes ad eumdem gradum 
+          ani<lb break="no" ed="#P" n="24"/>mae, etiam est ordo aliquis ex supra 
+          numera<lb break="no" ed="#P" n="25"/>tis. Probatur et explicatur. Nam inter 
+          poten<lb break="no" ed="#P" n="26"/>tias vegetativae partis, potentia attractiva 
+          de<lb break="no" ed="#P" n="27"/>servit retentivae etutraque expulsiva deserviunt
+          <lb ed="#P" n="28"/>nutritivae, quae est virtus disponens, et omnes
+          <lb ed="#P" n="29"/>tandem ministrant assimilatrici virtuti. 
+          Rur<lb break="no" ed="#P" n="30"/>sum in animantibus potentiae cognoscitivae 
+          pa<lb break="no" ed="#P" n="31"/>riunt appetitum et appetitus motum localem.
+          <lb ed="#P" n="32"/>Inter sensus quoque, externi deserviunt 
+          in<lb break="no" ed="#P" n="33"/>ternis: externi vero inter se non ordinantur,
+          <lb ed="#P" n="34"/>ut unum alteri deserviat, juvat tamen sese
+          <lb ed="#P" n="35"/>quatenus alter defectum alterius supplet, et
+          <lb ed="#P" n="36"/>omnes integrant unum perfectum sentiens;
+          <lb ed="#P" n="37"/>qua de causa D. Thomas inter sensus externos
+          <lb ed="#P" n="38"/>non assignavit ordinem praeterquam ex parte
+          <lb ed="#P" n="39"/>objectorum, quatenus unus tendit in objectum
+          <lb ed="#P" n="40"/>secundum se priusquam alius: similiter inter
+          <lb ed="#P" n="41"/>intellectum et voluntatem ordo est, quia 
+          intel<lb break="no" ed="#P" n="42"/>lectus dirigit voluntatem, eique imperat, 
+          vo<lb break="no" ed="#P" n="43"/>luntas vero movet et applicat intellectum in
+          <lb ed="#P" n="44"/>actibus liberis Etratio universalis horum 
+          om<lb break="no" ed="#P" n="45"/>nium est, quia cum omnes istae potentiae 
+          pro<lb break="no" ed="#P" n="46"/>fluant ab eodem principio, et ordinentur ad
+          <lb ed="#P" n="47"/>perfectum illius statum, congruum est, ut 
+          in<lb break="no" ed="#P" n="48"/>ter se ordinem observent.
+        </p>
+        <p xml:id="szdada-y14141-d1e1479">
+          <lb ed="#P" n="49"/>16. Quid de modo emanationis unius 
+          poten<lb break="no" ed="#P" n="50"/>tie ab alia sentiat D. Thomas.—Est vero 
+          difhi<lb break="no" ed="#P" n="51"/>cultas hoc loco, an una potentia dimanet 
+          ef<lb break="no" ed="#P" n="52"/>fective abaltera eo modo, quo omnes dimanant
+          <lb ed="#P" n="53"/>ab essentia. D. Thomas supra universaliter
+          <lb ed="#P" n="54"/>asseruit potentias imperfectiores dimanare illo
+          <lb ed="#P" n="55"/>modo a perfectioribus et clarius in prima, dis-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tinctione tertia, quaestione quarta, art. 3. Quae
+          <lb ed="#P" n="57"/>sententia difficilis statim apparet, quomodo 
+          e<lb break="no" ed="#P" n="58"/>nim credi potest potentias vegetativas 
+          homi<lb break="no" ed="#P" n="59"/>nis ab anima rationali mediante intellectu et
+          <lb ed="#P" n="60"/>voluntate manare? Praeterea arguitur ad 
+          ho<lb break="no" ed="#P" n="61"/>minem, nam gradus sensitivus, ac potentiae illi
+          <lb ed="#P" n="62"/>respondentes sunt priores potentiis 
+          rationali<lb break="no" ed="#P" n="63"/>bus: et vegetativae potentiae priores utrisque:
+          <lb ed="#P" n="64"/>ergo impossibile est, quod hae potentiae 
+          effecti<lb break="no" ed="#P" n="65"/>ve oriantur ab illis, nam quae sunt principia
+          <lb ed="#P" n="66"/>activa, sunt simpliciter priora in ordine 
+          exis<lb break="no" ed="#P" n="67"/>tendi, efficere enim supponit existere: quae
+          <lb ed="#P" n="68"/>vero sunt priora in existendo, sunt priora in
+          <lb ed="#P" n="69"/>generatione, cum generatio tendat ad esse;
+          <lb ed="#P" n="70"/>ergo impossibile est, quod potentiae 
+          imperfec<lb break="no" ed="#P" n="71"/>tiores, ac priores via generationis, atque adeo
+          <lb ed="#P" n="72"/>in essendo, oriantur active a perfectioribus.
+          <lb ed="#P" n="73"/>Et confirmatur. Nam inter alias passiones 
+          re<lb break="no" ed="#P" n="74"/>rum non invenitur talis ordo dimanationis 
+          ac<lb break="no" ed="#P" n="75"/>tivae, ut in aere calor non dimanat ab 
+          humidi<lb break="no" ed="#P" n="76"/>tate, vel humiditas a calore. Adde, nulla 
+          ne<lb break="no" ed="#P" n="77"/>cessitate astrui hanc eflicientiam, nam ad
+          <lb ed="#P" n="78"/>salvandam connexionem intrinsecam inter
+          <lb ed="#P" n="79"/>passiones satis est radicari omnes in eadem
+          <lb ed="#P" n="80"/>anima, quamvis inter se causalitatem non 
+          ha<lb break="no" ed="#P" n="81"/>beant.
+        </p>
+        <p xml:id="szdada-y14141-d1e1555">
+          <lb ed="#P" n="82"/>17. Sextum pronuntiatum duplicis sensus.
+          <lb ed="#P" n="83"/>— Quapropter dico sexto. Una potentia animae
+          <lb ed="#P" n="84"/>non oritur active ab alia. Haec conclusio 
+          po<lb break="no" ed="#P" n="85"/>test intelligi aut comparando potentias 
+          diver<lb break="no" ed="#P" n="86"/>sorum graduum, aut ejusdem, et utroque
+          <lb ed="#P" n="87"/>modo habet verum: primamque partem 
+          po<lb break="no" ed="#P" n="88"/>tissime probant rationes factae numero 
+          praece<lb break="no" ed="#P" n="89"/>denti. Accedit quod anima, quae principium
+          <lb ed="#P" n="90"/>est potentiarum, potest esse immediatum 
+          prin<lb break="no" ed="#P" n="91"/>cipium earumdem, quantum est de se, ut 
+          pa<lb break="no" ed="#P" n="92"/>tet in plantis ac brutis: ergo melius in 
+          homi<lb break="no" ed="#P" n="93"/>ne, in quo hi gradus sunt perfectiori modo.
+          <lb ed="#P" n="94"/>Et confirmatur. Nam eo ipso, quod anima dat
+          <lb ed="#P" n="95"/>homini esse vegetativum, potest et conferre
+          <lb ed="#P" n="96"/>omnes potentias illius gradus, etiamsi 
+          praes<lb break="no" ed="#P" n="97"/>cindatur ejusmodi gradus ab inferioribus. 
+          Se<lb break="no" ed="#P" n="98"/>cunda pars inductione patet, nam auditus non
+          <lb ed="#P" n="99"/>oritur ex visu, neque e contrario. Et ratio
+          <lb ed="#P" n="100"/>esse potest, quia potentia vitalis pendet in sua
+          <lb ed="#P" n="101"/>operatione a principio, unde dimanat, omnes
+          <lb ed="#P" n="102"/>autem potentiae pendent ab anima immediate
+          <lb ed="#P" n="103"/>in operando: ergo omnes ab illa dimanant,
+          <lb ed="#P" n="104"/>et si una proflueret ab alia, non operaretur
+          <lb ed="#P" n="105"/>sine actuali concursu illius, sicut nulla 
+          opera<lb break="no" ed="#P" n="106"/>tur sine actuali concursu animae.
+        </p>
+        <p xml:id="szdada-y14141-d1e1613">
+          <lb ed="#P" n="107"/>18. Prina objectio contra promime dicta.—
+          <lb ed="#P" n="108"/>Ad primum.— Ad secundum.— Ad tertium.—
+          <lb ed="#P" n="109"/>Sed contra hoc sunt argumenta. Primum,
+          <lb ed="#P" n="110"/>quia haec est demonstratio a priori: homo est
+          <pb ed="#P" n="586"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rationalis: ergo est sensitivus: ergo 
+          rationa<lb break="no" ed="#P" n="2"/>litas est causa sensibilitatis, et non nisi 
+          effec<lb break="no" ed="#P" n="3"/>tiva: ergo. Secundo, potentiae sensitivae in
+          <lb ed="#P" n="4"/>homine sunt perfectissimae: ergo ideo est, quia
+          <lb ed="#P" n="5"/>dimanant ab intellectiva. Tertio, sensus in
+          <lb ed="#P" n="6"/>homine sunt tanquam instrumenta 
+          ministran<lb break="no" ed="#P" n="7"/>tia intellectus: ergo dimanant ab illo. Ad 
+          pri<lb break="no" ed="#P" n="8"/>mum respondetur argumentum ab inferiori
+          <lb ed="#P" n="9"/>ad superius non esse proprie demonstrationem
+          <lb ed="#P" n="10"/>per causam: haec enim argumentatio: Fst
+          <lb ed="#P" n="11"/>homo, ergo est animal, non est a priori, cum
+          <lb ed="#P" n="12"/>haec causalis sit falsa. quia est homo, ideo est
+          <lb ed="#P" n="13"/>animal, nam homo non est causa animalis (sed
+          <lb ed="#P" n="14"/>potius animal causa est materialis hominis)
+          <lb ed="#P" n="15"/>nisi forte in genere causae finalis, quomodo
+          <lb ed="#P" n="16"/>totum est causa suarum partium, et perfectius
+          <lb ed="#P" n="17"/>causa imperfectioris, coque modo concedimus
+          <lb ed="#P" n="18"/>rationale esse causam sensitivi, non 
+          efficien<lb break="no" ed="#P" n="19"/>tem, sed finalem. Ad secundum dicitur 
+          poten<lb break="no" ed="#P" n="20"/>tias sensitivas perfectiores esse in homine,
+          <lb ed="#P" n="21"/>quia oriuntur a perfectiori anima, et non quia
+          <lb ed="#P" n="22"/>ab intellectu. Ad tertium respondetur ad id
+          <lb ed="#P" n="23"/>munus satis esse si intellectus et sensus in 
+          ea<lb break="no" ed="#P" n="24"/>dem anima radicentur.
+        </p>
+        <p xml:id="szdada-y14141-d1e1681">
+          <lb ed="#P" n="25"/>19. Notatio una pro uberiori dictorum 
+          intel<lb break="no" ed="#P" n="26"/>ligentia. — Advertendum est tamen inter 
+          po<lb break="no" ed="#P" n="27"/>tentias pertinentes ad diversos gradus animae,
+          <lb ed="#P" n="28"/>aliquando majorem convenientiam dari, quam
+          <lb ed="#P" n="29"/>inter alias: intellectus enim et sensus, verbi
+          <lb ed="#P" n="30"/>gratia, conveniunt in genere cognosc:tivae 
+          po<lb break="no" ed="#P" n="31"/>tentiae, in quo non conveniunt cum vegetativis,
+          <lb ed="#P" n="32"/>et ideo illae videntur majorem habere inter se
+          <lb ed="#P" n="33"/>causalitatem et subordinationem, nam 
+          poten<lb break="no" ed="#P" n="34"/>tiae sensitivae sunt veluti participationes 
+          quae<lb break="no" ed="#P" n="35"/>dam virtutis intellectivae ; ac de his speciahter
+          <lb ed="#P" n="36"/>videtur loqui sanctus Thomas. Adhuc tamenin
+          <lb ed="#P" n="37"/>his propria efficientia non cernitur, sed 
+          quae<lb break="no" ed="#P" n="38"/>dam veluti causalitas exemplaris, cum cognitio
+          <lb ed="#P" n="39"/>sensitiva sit quaedam imitatio intellectivae, quo
+          <lb ed="#P" n="40"/>etiam modo opera vegetativae partis in 
+          quan<lb break="no" ed="#P" n="41"/>tum fiunt, quasi arte et intellectu, dici possunt
+          <lb ed="#P" n="42"/>illius imitationes.
+        </p>
+        <p xml:id="szdada-y14141-d1e1723">
+          <lb ed="#P" n="43"/>20. Notatio altera. — Ultimo est 
+          adverten<lb break="no" ed="#P" n="44"/>dum inter potentias cognoscitivas et 
+          appetiti<lb break="no" ed="#P" n="45"/>vas videri inveniri quemdam specialem 
+          ordi<lb break="no" ed="#P" n="46"/>nem. Nam sicut radix amoris est cognitio, ita
+          <lb ed="#P" n="47"/>radix, et causa appetitivae potentiae, videtur
+          <lb ed="#P" n="48"/>esse potentia cognoscitiva. Unde haec est 
+          pro<lb break="no" ed="#P" n="49"/>pria demonstratio, quia vivens est 
+          cognosciti<lb break="no" ed="#P" n="50"/>vum, est appetitivum: ubi dictio quia, non
+          <lb ed="#P" n="51"/>potest aliam causalitatem importare, quam
+          <lb ed="#P" n="52"/>dimanationis effectivae, dicenlum tamen 
+          ne<lb break="no" ed="#P" n="53"/>que inter potentiam cognoscitivam et 
+          appetiti<lb break="no" ed="#P" n="54"/>vam intercedere proprie causalitatem 
+          effecti<lb break="no" ed="#P" n="55"/>vam physicam, seu metaphysicam, juxta quam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>uno posito, sequitur aliud, eo quod sit 
+          neces<lb break="no" ed="#P" n="57"/>sarium ad dispositionem illius, non quasi sit
+          <lb ed="#P" n="58"/>propria ejus causa: sicut ex rationaltate 
+          se<lb break="no" ed="#P" n="59"/>quitur admiratio, et ex admiratione risus, non
+          <lb ed="#P" n="60"/>quia hae potentiae sese efficiant, sed quia una
+          <lb ed="#P" n="61"/>posita sequitur alia, quia actus unius deservit
+          <lb ed="#P" n="62"/>aliquo modo ad actum alterius: atque haec
+          <lb ed="#P" n="63"/>causalitas sufficit ad demonstrationem a priori:
+          <lb ed="#P" n="64"/>sicut immortalitas demonstratur a priori per
+          <lb ed="#P" n="65"/>immutabilitatem, non quia una sit causa 
+          ef<lb break="no" ed="#P" n="66"/>fectiva alterius, sed quia se consequuntur.
+          <lb ed="#P" n="67"/>Adde quod cognitio non causat effective 
+          amo<lb break="no" ed="#P" n="68"/>rem, sed objective proponendo bonum, unde
+          <lb ed="#P" n="69"/>etiam non oportet, ut ipsa potentia appetitiva
+          <lb ed="#P" n="70"/>effective fiat a cognoscitiva, sed satis est, quod
+          <lb ed="#P" n="71"/>illam necessario supponat, et sequatur. De
+          <lb ed="#P" n="72"/>qua re latius infra in lib. 5.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

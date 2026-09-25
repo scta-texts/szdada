@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="589"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y14370"><!-- t3l2c5 -->
+        <head xml:id="szdada-y14370-Hd1e101">Caput 5</head>
+        <head xml:id="szdada-y14370-Hd1e103" type="question-title">Utrum sanguis sit tantummodo nutrimentum, an vero etiam substantia sit animata</head>
+        <p xml:id="szdada-y14370-d1e106">
+          <pb ed="#P" n="589"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT V.
+          <lb ed="#P" n="2"/>UTRUM SANGUIS SIT TANTUMMODO NUTRIMENTUM, AN
+          <lb ed="#P" n="3"/>VERO ETIAM SUBSTANTIA SIT ANIMATA.
+        </p>
+        <p xml:id="szdada-y14370-d1e119">
+          <lb ed="#P" n="4"/>1. Chylus formam propriam substantialem
+          <lb ed="#P" n="5"/>habet, non tamen viventem. — istinximus 
+          ca<lb break="no" ed="#P" n="6"/>pite praecedenti nutrimentum proximum a
+          <lb ed="#P" n="7"/>medio, et remoto. Ac de remoto quidem nihil
+          <lb ed="#P" n="8"/>dicendum superest, quod ad hanc scientiam
+          <lb ed="#P" n="9"/>pertineat: de medio vero quod est materia
+          <lb ed="#P" n="10"/>chyli diximus satis in lib. 6, de Generatione,
+          <lb ed="#P" n="11"/>est enim cibus imperfecte coctus. Solum est
+          <lb ed="#P" n="12"/>observandum in illa coctione fieri 
+          transmuta<lb break="no" ed="#P" n="13"/>tionem substantialem, chylumque recipere
+          <lb ed="#P" n="14"/>novam formam, ut Albertus docet, tract. 1,
+          <lb ed="#P" n="15"/>cap. S, imo et Aristoteles 2, de Partibus, c. 3,
+          <lb ed="#P" n="16"/>patetque ex magna alteratione in ipso facta,
+          <lb ed="#P" n="17"/>illa tamen forma viventis non est, sed 
+          cujus<lb break="no" ed="#P" n="18"/>dam liquoris, in quem resolvitur alimentum,
+          <lb ed="#P" n="19"/>ut facilius tandem converti possit in 
+          substan<lb break="no" ed="#P" n="20"/>tüam aliti. Ratio vero est, quia cum sit tanta
+          <lb ed="#P" n="21"/>diversitas inter cibum et animal, non potest
+          <lb ed="#P" n="22"/>prima decoctione fieri transitus ab uno ad 
+          al<lb break="no" ed="#P" n="23"/>terum.
+        </p>
+        <p xml:id="szdada-y14370-d1e165">
+          <lb ed="#P" n="24"/>2. Pars affirmativa quastionis suadetur
+          <lb ed="#P" n="25"/>Aristotelis et D. Thomee auctoritate. — ltem
+          <lb ed="#P" n="26"/>quadruplici ratione.—De ultimo igitur et 
+          proxi<lb break="no" ed="#P" n="27"/>mo alimento, quod est sanguis, dubium grave
+          <lb ed="#P" n="28"/>restat, an tantum alimentum sit, an etiam pars,
+          <lb ed="#P" n="29"/>quae totius viventis anima informetur. Hoc
+          <lb ed="#P" n="30"/>secundum suadetur ex Aristotele 2, de 
+          Parti<lb break="no" ed="#P" n="31"/>bus, cap. 2, ubi ait, sanguinem esse partem
+          <lb ed="#P" n="32"/>hominis seu animantis, et 3, de Hist., cap. 19,
+          <lb ed="#P" n="33"/>scribit dum animal vivit sanguinem animari
+          <lb ed="#P" n="34"/>et fervere. Idem insinuat D. Thomas, 3 part.,
+          <lb ed="#P" n="35"/>quaest. 54 articul. 3, ait enim sanguinem esse
+          <lb ed="#P" n="36"/>de veritate humanae naturae est, huiuana 
+          ani<lb break="no" ed="#P" n="37"/>ma informari videtur. Item ait in 4, dist. 14,
+          <lb ed="#P" n="38"/>art. 2, quaestiunc. 2, ad 2. Et ratione probatur
+          <lb ed="#P" n="39"/>primo. Nam sanguis augetur et nutritur: ergo
+          <lb ed="#P" n="40"/>vivit. Secundo hepar est animarum: ergo et
+          <lb ed="#P" n="41"/>sanguis. Patet consequentia: quoniam, 
+          san<lb break="no" ed="#P" n="42"/>guis efficitur actione hepatis, omne autem
+          <lb ed="#P" n="43"/>agens effectum sibi similem causat. Tertio,
+          <lb ed="#P" n="44"/>anima informat quaecumque necessaria sunt
+          <lb ed="#P" n="45"/>ad conservationem viventis, hujusmodi autem
+          <lb ed="#P" n="46"/>est sanguis: ergo quarto in corporibus 
+          resur<lb break="no" ed="#P" n="47"/>gentium erit sanguis, et in Christo Domino fuit
+          <lb ed="#P" n="48"/>unitus divinitati: informatur ergo anima 
+          ratio<lb break="no" ed="#P" n="49"/>nali. Probatur consequentia: nam Christus
+          <lb ed="#P" n="50"/>Dominus solum assumpsit naturam ex anima et
+          <lb ed="#P" n="51"/>corpore compositam: eademque tantum mane-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>bit in resurgentibus: quare, etc. Propter haec
+          <lb ed="#P" n="53"/>argumenta Cajetanus, 1 p., q. 119, art. 1, et
+          <lb ed="#P" n="54"/>3 part., q. 5, art. 2, Conradus 1, 2, q. 54, 
+          As<lb break="no" ed="#P" n="55"/>tudillo 1, de Generat., q. 15, art. 2, art. 1, et
+          <lb ed="#P" n="56"/>moderni alii, partem hanc amplectuntur.
+        </p>
+        <p xml:id="szdada-y14370-d1e242">
+          <lb ed="#P" n="57"/>3. Pars negativa multorum quos citant etium
+          <lb ed="#P" n="58"/>Conimbricenses, l. 4, de Gener., c. 4, q. 24,
+          <lb ed="#P" n="59"/>art. 2.— Oppositum tamen, id est, non 
+          infor<lb break="no" ed="#P" n="60"/>mari anima sanguinem, tenet Durandus in 4,
+          <lb ed="#P" n="61"/>d. 10, q. 1, Capreolus, in 4, dist. 44, Soto ibi,
+          <lb ed="#P" n="62"/>a. 9, et multi ex medicis et philosophis hoc
+          <lb ed="#P" n="63"/>sequuntur. Sylvester, in rosa aurea, tract. 3,
+          <lb ed="#P" n="64"/>q. 30, ait utrumque esse probabile. Alii tamen
+          <lb ed="#P" n="65"/>distinguunt duplicem sanguinem, nempe 
+          nu<lb break="no" ed="#P" n="66"/>trimentalem et alium pertinentem ad 
+          perfec<lb break="no" ed="#P" n="67"/>tionem humanae naturae, quam distinctionem
+          <lb ed="#P" n="68"/>posuit D. Thomas, quodl. 5, art. 5, voluntque
+          <lb ed="#P" n="69"/>nutrimentalem sanguinem non informari 
+          ani<lb break="no" ed="#P" n="70"/>ma, alium vero maxime. Alii aliter 
+          distin<lb break="no" ed="#P" n="71"/>guunt, quod alius sit sanguis necessarius ad
+          <lb ed="#P" n="72"/>conservationem hominis, is, qui in venis 
+          con<lb break="no" ed="#P" n="73"/>tinetur, huncque aiunt informari anima, alius
+          <lb ed="#P" n="74"/>vero superfluus, qualis sanguis menstruus in
+          <lb ed="#P" n="75"/>foeminis et hunc minime informari. Alii 
+          tan<lb break="no" ed="#P" n="76"/>dem distinguunt, quod sanguis quidem in 
+          ve<lb break="no" ed="#P" n="77"/>nis non animetur, in arteriis autem vivat, sed
+          <lb ed="#P" n="78"/>distinctiones hae minorem probabilitatem 
+          ha<lb break="no" ed="#P" n="79"/>bent in praesenti.
+        </p>
+        <p xml:id="szdada-y14370-d1e294">
+          <lb ed="#P" n="80"/>4. Extenditur quaestio ad omnes humores
+          <lb ed="#P" n="81"/>quatuor. — Prima suppositio, de qua ac de toto
+          <lb ed="#P" n="82"/>praesenti capte auctor, disp. 15, de Incarn.,
+          <lb ed="#P" n="83"/>sect. 6. — Secunda suppositio. — Tertia 
+          sup<lb break="no" ed="#P" n="84"/>positio pro qua auctor, tomo 2, in 3 parte,
+          <lb ed="#P" n="85"/>disp. 41, sect. 3. — Sciendum est ergo 
+          quaes<lb break="no" ed="#P" n="86"/>tionem hanc non esse specialem de sanguine,
+          <lb ed="#P" n="87"/>sed communem de quatuor humoribus, nam
+          <lb ed="#P" n="88"/>omnes necessarii sunt ad conservationem 
+          vi<lb break="no" ed="#P" n="89"/>ventis, licet non omnes eodem modo 
+          deser<lb break="no" ed="#P" n="90"/>viant in alimentum, et quoniam quaestio 
+          affi<lb break="no" ed="#P" n="91"/>nitatem habet cim aliis theologicis, s: pponamus
+          <lb ed="#P" n="92"/>quae certa sunt in Theologia, cui philosophia
+          <lb ed="#P" n="93"/>debet famulari. Primo ergo certum est 
+          sangui<lb break="no" ed="#P" n="94"/>nem Christi Domini fuisse hypostatice unitum
+          <lb ed="#P" n="95"/>Verbo divino, in quo omnes Theologi 
+          conve<lb break="no" ed="#P" n="96"/>niunt, uno excepto Durando. Nam sacra 
+          Scrip<lb break="no" ed="#P" n="97"/>tura sanguini Christi Domini tribuit 
+          redemp<lb break="no" ed="#P" n="98"/>tionem nostram, tanquam pretio infiniti 
+          va<lb break="no" ed="#P" n="99"/>loris. Non corruptibilibus auro et argento,
+          <lb ed="#P" n="100"/>inquit Petrus, epist. 1, cap. 1, sed pretioso
+          <lb ed="#P" n="101"/>sanguine, etc. Et Paulus ad Hebraeos ultimo:
+          <lb ed="#P" n="102"/>Propter quod, et Jesus, ut sanctificaret per
+          <lb ed="#P" n="103"/>suwm sanguinem populum. Et1, Joan. 1: 
+          San<lb break="no" ed="#P" n="104"/>guis Christi emundat nos. Et ideo in 
+          Extrava<lb break="no" ed="#P" n="105"/>gante: Unigenitus de Penitentis et 
+          remissio<lb break="no" ed="#P" n="106"/>nibus, ait Clemens papa, unam Christi san-
+          <pb ed="#P" n="590"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>guinis guttam ob unionem ad Verbum sufficere
+          <lb ed="#P" n="2"/>potuisse pro redemptione humani generis:
+          <lb ed="#P" n="3"/>quapropter sententia Durandi erronea est.
+          <lb ed="#P" n="4"/>Secundo est supponendum Christur: in 
+          resur<lb break="no" ed="#P" n="5"/>rectione assumpsisse sanguinem, quem in
+          <lb ed="#P" n="6"/>passione effuderat, quia quod semel assumpsit,
+          <lb ed="#P" n="7"/>nunquam in perpetuum dimisit. Hinc in 
+          con<lb break="no" ed="#P" n="8"/>secratione calicis ex vi verborum vinum 
+          ver<lb break="no" ed="#P" n="9"/>titur in sanguinem Christi, cui ut divino 
+          san<lb break="no" ed="#P" n="10"/>guini adoratio latriae debetur: si autem in
+          <lb ed="#P" n="11"/>corpore Christi nunc de facto in coelo non 
+          es<lb break="no" ed="#P" n="12"/>set etiam in ipso calice, quod est haereticum.
+          <lb ed="#P" n="13"/>Tertio est supponendum in omnibus 
+          corpori<lb break="no" ed="#P" n="14"/>bus resurgentium futurum sanguinem sicut
+          <lb ed="#P" n="15"/>existit in Christo, qui nostrum est exemplar.
+        </p>
+        <p xml:id="szdada-y14370-d1e392">
+          <lb ed="#P" n="16"/>5. Ex quibus colligitur, sanguinem esse 
+          ne<lb break="no" ed="#P" n="17"/>cessarium ad perfectam organisationem et 
+          in<lb break="no" ed="#P" n="18"/>tegritatem corporis humani, et non solum in
+          <lb ed="#P" n="19"/>alimentum, nam in corporibus resurgentium
+          <lb ed="#P" n="20"/>non deserviet, ut alimentum, quia seminatur
+          <lb ed="#P" n="21"/>corpus animale, resurget autem spirituale, 1,
+          <lb ed="#P" n="22"/>ad Corinth. 15, id est, non indigens eorum,
+          <lb ed="#P" n="23"/>quae pertinent ad vitam animalium: deserviet
+          <lb ed="#P" n="24"/>ergo ad integritatem corporis, namque in statu
+          <lb ed="#P" n="25"/>gloriae solum restaurabitur in corpore, quod
+          <lb ed="#P" n="26"/>necessarium erit ad illius perfectionem. Ex
+          <lb ed="#P" n="27"/>quo ulterius colligitur sanguinem duplex 
+          ha<lb break="no" ed="#P" n="28"/>bere munus in nobis, aliud alimenti, aliud
+          <lb ed="#P" n="29"/>foventis et conservantis corpus, quod D. 
+          Tho<lb break="no" ed="#P" n="30"/>mas, in 4, distinct. 44, quaest. 1, articul. 1,
+          <lb ed="#P" n="31"/>quaestiunc. 3, ad 3, exponit exemplo 
+          elemen<lb break="no" ed="#P" n="32"/>torum, quae in universo habent munera similia.
+          <lb ed="#P" n="33"/>Nam et sunt materia ex qua generantur mixta
+          <lb ed="#P" n="34"/>et pertine-t per se ad integritatem universi.
+          <lb ed="#P" n="35"/>Prima igitur opinio attendens secundum 
+          mu<lb break="no" ed="#P" n="36"/>nus sanguinis credidit illum esse veram 
+          par<lb break="no" ed="#P" n="37"/>tem corporis, quae informetur anima. Secunda
+          <lb ed="#P" n="38"/>vero attendens in sanguine rationem alimenti
+          <lb ed="#P" n="39"/>indicavit oppositum esse verius. quod contra
+          <lb ed="#P" n="40"/>rationem alimenti sit forma aliti informari.
+        </p>
+        <p xml:id="szdada-y14370-d1e449">
+          <lb ed="#P" n="41"/>6. Prima assertio negans probatur. —His
+          <lb ed="#P" n="42"/>ita positis sit prima conclusio. Neque sanguis,
+          <lb ed="#P" n="43"/>neque aliquis ex reliquis humoribus 
+          informa<lb break="no" ed="#P" n="44"/>tur anima. Primum colligitur conclusio ex
+          <lb ed="#P" n="45"/>Aristotele, locis citatis capite praecedenti, et ex
+          <lb ed="#P" n="46"/>2. de Partibus, cap. 3, et lib. 3, cap. 5, ubi ait
+          <lb ed="#P" n="47"/>sanguinem esse materiam corporis et potentia
+          <lb ed="#P" n="48"/>membrum, ac compara: illum aquae irriguae,
+          <lb ed="#P" n="49"/>quae per varios ductus et rivulos in olera 
+          mit<lb break="no" ed="#P" n="50"/>titur. Idem habet D. Thomas, in 3, dist. 3,
+          <lb ed="#P" n="51"/>quaest. 5, art. 1, et 1 part., quaest. 119, artic.
+          <lb ed="#P" n="52"/>ultim., inquit alimentum non converti in
+          <lb ed="#P" n="53"/>substantiam hominis usque ad quartam 
+          diges<lb break="no" ed="#P" n="54"/>tionem, sanguis autem fit in secunda et tertia:
+          <lb ed="#P" n="55"/>et 3 part., quaest. 31, art. 1, ad primum docet
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>corpus Christi fuisse formatum ex sanguine 
+          bea<lb break="no" ed="#P" n="57"/>Ussimae Virginis sinecorruptione alicujus partis
+          <lb ed="#P" n="58"/>corporis virginei, quia sanguis, inquit, non est
+          <lb ed="#P" n="59"/>lumani corporis actu, sed potentia. Sunt, qui
+          <lb ed="#P" n="60"/>respondent fuisse formatum ex sanguine
+          <lb ed="#P" n="61"/>menstruo, sed absit hoc, fuit enim factus ex
+          <lb ed="#P" n="62"/>purissimo sanguine, ut D. Damascenus citatus
+          <lb ed="#P" n="63"/>a D. Thoma, 3 part., quaest. 32, a:t. 4.
+        </p>
+        <p xml:id="szdada-y14370-d1e504">
+          <lb ed="#P" n="64"/>7. Probatur secundo multipliciter ratione.—
+          <lb ed="#P" n="65"/>Secundo arguitur rationibus. Sanguis est 
+          ali<lb break="no" ed="#P" n="66"/>mentum: ergo non est adhuc transmutatum,
+          <lb ed="#P" n="67"/>sed transmutabile in substantiam ahti. 
+          Res<lb break="no" ed="#P" n="68"/>ponderi potest sanguinem non substantialter
+          <lb ed="#P" n="69"/>transmutabilem esse in alitum, sed 
+          accidenta<lb break="no" ed="#P" n="70"/>liter, quia diversis membris applicatus 
+          diver<lb break="no" ed="#P" n="71"/>sas illorum dispositiones recipit, forma 
+          sub<lb break="no" ed="#P" n="72"/>stantiali eadem manente: sed hoc contra
+          <lb ed="#P" n="73"/>rationem alimenti est, quod in principio 
+          dissi<lb break="no" ed="#P" n="74"/>milis naturae esse oportet, teste Aristotele, 
+          se<lb break="no" ed="#P" n="75"/>cundo, de Anima, text. 45, et 1, de Gener.,
+          <lb ed="#P" n="76"/>text. 38. Item quoniam alias quandocumque
+          <lb ed="#P" n="77"/>pars aliqua in suis dispositionibus mutaretur,
+          <lb ed="#P" n="78"/>alimentum reciperet, quod est absurdum. 
+          Prae<lb break="no" ed="#P" n="79"/>terea simili ratione dici posset chylum esse
+          <lb ed="#P" n="80"/>partem animantis, ejusque informari anima.
+          <lb ed="#P" n="81"/>Ad haec ex sanguine lac, et semen conficiunt,
+          <lb ed="#P" n="82"/>quae neutiquam partes sunt ipsius animalis,
+          <lb ed="#P" n="83"/>cum non informantur anima: multo ergo 
+          mi<lb break="no" ed="#P" n="84"/>nus et sanguis. Denique in sanguine et alis
+          <lb ed="#P" n="85"/>humoribus non invenitur operatio: ergo neque
+          <lb ed="#P" n="86"/>animae informatio. Antecedens patet, tum quia
+          <lb ed="#P" n="87"/>neque sentiunt, neque continuantur cum parte
+          <lb ed="#P" n="88"/>sentiente, ut constat experientia, docetque
+          <lb ed="#P" n="89"/>Aristoteles 3, de Historia, c. 19, tum quia non
+          <lb ed="#P" n="90"/>nutriuntur, sed per additionem crescunt, sicut
+          <lb ed="#P" n="91"/>aqua. hespondent vero nonnulli humores 
+          in<lb break="no" ed="#P" n="92"/>formari anima non quidem ut anima est, sed
+          <lb ed="#P" n="93"/>ut est forma. Verum contra ordinem naturae
+          <lb ed="#P" n="94"/>est dari animam, ubi nulla operatio animae
+          <lb ed="#P" n="95"/>apparet, natura enim unicuique rei praebet
+          <lb ed="#P" n="96"/>operationes illi conformes.
+        </p>
+        <p xml:id="szdada-y14370-d1e578">
+          <lb ed="#P" n="97"/>8. Probatur tertio experientia. — Tertio
+          <lb ed="#P" n="98"/>principaliter arguitur experientia. Nam 
+          san<lb break="no" ed="#P" n="99"/>guis a vena continuo defluxu erumpit: ergo
+          <lb ed="#P" n="100"/>totus est ejusdem speciei: habetque eamdem
+          <lb ed="#P" n="101"/>formam: at extra venam non informatur 
+          ani<lb break="no" ed="#P" n="102"/>ma: ergo neque intra: putare autem quod in
+          <lb ed="#P" n="103"/>ipso exitu mutet formam, discontinueturque
+          <lb ed="#P" n="104"/>ab existente in corpore, frivolum est, ac 
+          con<lb break="no" ed="#P" n="105"/>tra experientiam. Et confirmatur. Nam sanguis
+          <lb ed="#P" n="106"/>in venis, sicuti in vase continetur, ut 
+          Aris<lb break="no" ed="#P" n="107"/>toteles dixit, ac proinde non est continuus
+          <lb ed="#P" n="108"/>partibus corporis: ergo non informatur illius
+          <lb ed="#P" n="109"/>anima.
+        </p>
+        <p xml:id="szdada-y14370-d1e610">
+          <lb ed="#P" n="110"/>9. Secunda assertio.— Unde probetur.—iSa-
+          <pb ed="#P" n="591"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tisfit obiter rationi quartae, in num. 2. — Dico
+          <lb ed="#P" n="2"/>secundo. Sanguis necessarius est ad 
+          integri<lb break="no" ed="#P" n="3"/>tatem animalis, non solum ut alimentum est,
+          <lb ed="#P" n="4"/>sed etiam ut sanguis est. Haec patet ex dictis,
+          <lb ed="#P" n="5"/>ac praeterea, quia humores alii, quamvis 
+          ali<lb break="no" ed="#P" n="6"/>menta non sint, requiruntur tamen ad 
+          con<lb break="no" ed="#P" n="7"/>servationem animalis: ergo multo melius
+          <lb ed="#P" n="8"/>sanguis. Notandum ergo est in animah 
+          quas<lb break="no" ed="#P" n="9"/>dam esse partes tanquam instrumenta 
+          actio<lb break="no" ed="#P" n="10"/>num, alias, quasi materiam actionum 
+          quarum<lb break="no" ed="#P" n="11"/>dam, alias, quae fovent corpus, et a contrarns
+          <lb ed="#P" n="12"/>defendunt, alias vero, quae aeserviunt ad 
+          or<lb break="no" ed="#P" n="13"/>natum et pulchritudinem totius corporis: 
+          hu<lb break="no" ed="#P" n="14"/>mores ergo dati sunt ad animantis 
+          conserva<lb break="no" ed="#P" n="15"/>tionem: nam cum diversas habeant qualitates,
+          <lb ed="#P" n="16"/>conservant corpus in debito temperamento :
+          <lb ed="#P" n="17"/>sic sanguis caliditate sua fovet corpus, 
+          humi<lb break="no" ed="#P" n="18"/>ditate vero temperat, et quasi irrigat: 
+          simi<lb break="no" ed="#P" n="19"/>literque alii humores, qui praeterea necessarii
+          <lb ed="#P" n="20"/>sunt ad excitandas passiones, ac deservire
+          <lb ed="#P" n="21"/>possunt etiam ad ornatum ipsis quoque beatis,
+          <lb ed="#P" n="22"/>replentque locum sibi debitum in corpore ex
+          <lb ed="#P" n="23"/>natura sua. Et per haec patet solutio quartae
+          <lb ed="#P" n="24"/>rationis supra factae num. 2, concedo enim
+          <lb ed="#P" n="25"/>sanguinem esse de veritate humanae naturae,
+          <lb ed="#P" n="26"/>ideoque fuisse assumptum a Christo Domino,
+          <lb ed="#P" n="27"/>et praeterea alia speciali de causa, nempe, ut
+          <lb ed="#P" n="28"/>esset pretium redemptionis nostrae, non ideo
+          <lb ed="#P" n="29"/>tamen omnia, quae sunt de veritate humanae
+          <lb ed="#P" n="30"/>naturae, informantur anima, sed illa solum,
+          <lb ed="#P" n="31"/>quae aliquam operationem vitae participant, et
+          <lb ed="#P" n="32"/>ex his patet falsitas illarum distinctionum de
+          <lb ed="#P" n="33"/>sanguine numer. 3 adductarum: nam totus
+          <lb ed="#P" n="34"/>sanguis ejusdem est rationis, ut patet ex 
+          co<lb break="no" ed="#P" n="35"/>lore et aliis accidentibus, differentiaque fere
+          <lb ed="#P" n="36"/>consistit in majori, vel minori illius 
+          defaeca<lb break="no" ed="#P" n="37"/>uone.
+        </p>
+        <p xml:id="szdada-y14370-d1e699">
+          <lb ed="#P" n="38"/>10. Ad argumenta. Ad primum locum 
+          Aris<lb break="no" ed="#P" n="39"/>totelis respondetur, loqui illum de parte late,
+          <lb ed="#P" n="40"/>prout comprehendit omnia quae sunt intra 
+          ho<lb break="no" ed="#P" n="41"/>minem, et deserviunt ad illius conservationem.
+          <lb ed="#P" n="42"/>Unde etiam lac ibidem vocat partem. Ad 
+          se<lb break="no" ed="#P" n="43"/>cundum locum dic antiquos calorem 
+          natura<lb break="no" ed="#P" n="44"/>lem appellasse animam, ut Aristoteles notat 2,
+          <lb ed="#P" n="45"/>de Partib. anim., c. 1, et sect. 27, problematum,
+          <lb ed="#P" n="46"/>q. 10, appellat calorem quasi animantem: illo
+          <lb ed="#P" n="47"/>ergo loco servavit hunc loque:di modum, ut
+          <lb ed="#P" n="48"/>sanguis, quia semper est calidus, animatus
+          <lb ed="#P" n="49"/>dicatur. Vel dicito Aristotelem non velle 
+          san<lb break="no" ed="#P" n="50"/>gu.nem esse de facto animatum, sed in fieri,
+          <lb ed="#P" n="51"/>hoc est, per continuam nutritionem viventis
+          <lb ed="#P" n="52"/>animari. Ad primam rat.onem negatur 
+          ante<lb break="no" ed="#P" n="53"/>cedens. ÀAd secundam falsa est consequentia,
+          <lb ed="#P" n="54"/>eodem enim argumento probaretur chylum
+          <lb ed="#P" n="55"/>informari anima, quoniam ventriculus, a quo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fit, sic informatur: dicendum ergo 
+          decoctio<lb break="no" ed="#P" n="57"/>nem illam non esse perfectam usque ad 
+          ulti<lb break="no" ed="#P" n="58"/>mam assimilationem. Unde post formationem
+          <lb ed="#P" n="59"/>sanguis indiget hepar actione alia, ut eo succo
+          <lb ed="#P" n="60"/>se nutriat. Ad tertiam neganda major. Ad
+          <lb ed="#P" n="61"/>qu:rtam responsum est numero praecedenti.
+          <lb ed="#P" n="62"/>Inferes: ergo sarguis compositus est ex forma
+          <lb ed="#P" n="63"/>substantiali et materia: ergo habet propriam,
+          <lb ed="#P" n="64"/>et distinctam naturam ?ntegram: ergo 
+          as<lb break="no" ed="#P" n="65"/>sumpsit Christus duas naturas. Respondetur
+          <lb ed="#P" n="66"/>quaestionem hanc esse de nommne: neganda
+          <lb ed="#P" n="67"/>ergo ultima consequentia, quia sanguis non
+          <lb ed="#P" n="68"/>censetur per se natura completa, quia per se
+          <lb ed="#P" n="69"/>est ordinatus ad integritatem alterius naturae:
+          <lb ed="#P" n="70"/>Christus ergo assumpsit per se naturam 
+          hu<lb break="no" ed="#P" n="71"/>manam, et consequenter omnia, quae ad illam
+          <lb ed="#P" n="72"/>consequuntur, urde neque dicetur Christum
+          <lb ed="#P" n="73"/>esse sanguinem, sed hominem.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

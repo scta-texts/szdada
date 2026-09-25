@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="572"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y13947"><!-- t3l2c1 -->
+        <head xml:id="szdada-y13947-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-y13947-Hd1e103" type="question-title">Utrum potentiae animae distinguantur ab ejus essentia</head>
+        <p xml:id="szdada-y13947-d1e106">
+          <lb ed="#P" n="16"/>CAPUT I.
+          <lb ed="#P" n="17"/>UTRUM POTENTIAE ANIMAE DISTINGUANTUR AB EJUS
+          <lb ed="#P" n="18"/>ESSENTIA.
+        </p>
+        <p xml:id="szdada-y13947-d1e115">
+          <lb ed="#P" n="19"/>1. Arguitur pro parte negante. — Arguitur
+          <lb ed="#P" n="20"/>pro affirmante.—De hac notatione vide disp. 42
+          <lb ed="#P" n="21"/>Metaphysice, sect. 3, a n. 9, et disput. A3,
+          <lb ed="#P" n="22"/>iniiio. — Quaestio haec ex parte videri potest
+          <lb ed="#P" n="23"/>Metaphysica, hic vero tractanda est, utpote
+          <lb ed="#P" n="24"/>necessaria maxime ad investigandam 
+          essen<lb break="no" ed="#P" n="25"/>tiam facultatum animae, ac tota illa rationibus
+          <lb ed="#P" n="26"/>physicis disseritur. Est autem perdifhceilis,
+          <lb ed="#P" n="27"/>quoniam hactenus dictum est, unam, et 
+          eam<lb break="no" ed="#P" n="28"/>dem animam esse principium essendi et 
+          ope<lb break="no" ed="#P" n="29"/>randi: potentia autem nihil aliud est, quam
+          <lb ed="#P" n="30"/>ipsum operandi principium: ipsa ergo anima
+          <lb ed="#P" n="31"/>est sua potentia, neque oportet fingere 
+          multi<lb break="no" ed="#P" n="32"/>plicitatem, ubi necessitas non urget, hic autem
+          <lb ed="#P" n="33"/>est nulla. Nam quidquid anima eflicit media
+          <lb ed="#P" n="34"/>entitate sibi addita, potest se sola operari. In
+          <lb ed="#P" n="35"/>contrarium est, quia videtur repugnare 
+          limi<lb break="no" ed="#P" n="36"/>tationi, atque imperfectioni creaturae, universa
+          <lb ed="#P" n="37"/>per suam substantiam immediate operari. Pro
+          <lb ed="#P" n="38"/>solutione notandum est, nomen potentiae 
+          ex<lb break="no" ed="#P" n="39"/>tendi solere ad quamcumque aptitudinem, seu
+          <lb ed="#P" n="40"/>capacitatem rei, quomodo dicitur materialis
+          <lb ed="#P" n="41"/>substantia habere potentiam, ut extendatur
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="42"/>per quantitatem, et rem quantam esse in 
+          po<lb break="no" ed="#P" n="43"/>tentia ad divisionem: at de his potentiis 
+          cer<lb break="no" ed="#P" n="44"/>tum est non distingui a rebus, quarum sunt
+          <lb ed="#P" n="45"/>potentiae. Nam si quaelibet rei aptitudo, aut
+          <lb ed="#P" n="46"/>capacitas a re ipsa realiter distingueretur,
+          <lb ed="#P" n="47"/>processus esset infinitus, veluti si substantia,
+          <lb ed="#P" n="48"/>verbi gratia, ponatur capax quantitatis per
+          <lb ed="#P" n="49"/>potentiam a se distinctam, ea potentia esset
+          <lb ed="#P" n="50"/>capax per aliam, et sic in infinitum: sunt 
+          igi<lb break="no" ed="#P" n="51"/>tur hae aptitudines mere passiva, a subjecto
+          <lb ed="#P" n="52"/>indistinctae, et negationes seu non 
+          repugnan<lb break="no" ed="#P" n="53"/>tiae, quae consequuntur conditionem subjecti:
+          <lb ed="#P" n="54"/>difficultas ergo est de potentiis operativis 
+          ani<lb break="no" ed="#P" n="55"/>mae, de quibus variae sunt opiniones.
+        </p>
+        <p xml:id="szdada-y13947-d1e200">
+          <lb ed="#P" n="56"/>2. Quatuor opiniones. — Prima opinio est,
+          <lb ed="#P" n="57"/>nullo modo distingui potentias ab anima, sed
+          <lb ed="#P" n="58"/>ipsam esse suum intellectum, suum sensum,
+          <lb ed="#P" n="59"/>etc. Ita Gregorius, in 2, dist. 16, Gabriel, a. 2,
+          <lb ed="#P" n="60"/>p. 2, cum Ocham 2, q. 24, Marsilius, q. 22,a.2,
+          <lb ed="#P" n="61"/>notab. 5, et idem praemiserat in q. 16, a. 3,
+          <lb ed="#P" n="62"/>suppositicne 4, Saxonia, lib. 2, de Anima, et
+          <lb ed="#P" n="63"/>Buridanus, q. 6. Secunda opinio est distingui
+          <lb ed="#P" n="64"/>formaliter, non vero realiter. Ita Scotus, in 2,
+          <lb ed="#P" n="65"/>dist. 16, et in 4, dist. 12, q. 3, et dist. 10.
+          <lb ed="#P" n="66"/>Thomas de Garbo, in Summa, tractatu 5, q. 2,
+          <lb ed="#P" n="67"/>a. 3. Tertia opinio ait potentias animae 
+          vege<lb break="no" ed="#P" n="68"/>tantis ab ea non distingui, maxime vero 
+          sensi<lb break="no" ed="#P" n="69"/>tivas, atque intellectivas: sic D. Bonaventura,
+          <lb ed="#P" n="70"/>in 1, dist 3, 2p. distinctionis. Durandus, in 1,
+          <lb ed="#P" n="71"/>dist. 2, q. 2. Ratio illius est, quia actus 
+          vege<lb break="no" ed="#P" n="72"/>tativae partis sunt producere, et adgenerare
+          <lb ed="#P" n="73"/>substantiam, que, inquit, non possunt 
+          conce<lb break="no" ed="#P" n="74"/>nire accidentali potentiae etiam in virtute 
+          sub<lb break="no" ed="#P" n="75"/>stantie. Quarta opinio universim potentias
+          <lb ed="#P" n="76"/>animae distinguit realiter ab illa. Ita D. 
+          Tho<lb break="no" ed="#P" n="77"/>mas, 1 part., q. 771, a. 1, et q. 54, a. 3, de
+          <lb ed="#P" n="78"/>Angelis disserendo ait, nullam potentiam 
+          ope<lb break="no" ed="#P" n="79"/>rativam substantiae creatae esse idem realiter
+          <lb ed="#P" n="80"/>cum ejus essentia, quod sequuntur 
+          communi<lb break="no" ed="#P" n="81"/>ter Thomistae, Cajetanus, dictis locis, 
+          Capreo<lb break="no" ed="#P" n="82"/>lus in 1, dist. 3, q. 4. Soto in c. de proprio,
+          <pb ed="#P" n="573"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>q. 2, et Javellus hic q. 10, accedunt Thomas
+          <lb ed="#P" n="2"/>de Argentina in 2. dist. 3, AEgidius quodlib. 3,
+          <lb ed="#P" n="3"/>q. 10, Hervaeus quodlib. 1, q. 9, et alii, 
+          Mar<lb break="no" ed="#P" n="4"/>silius Ficinus, l. 10, de Theologia Platonis,
+          <lb ed="#P" n="5"/>qui asseverat esse sententiam Platonis, et 
+          Plo<lb break="no" ed="#P" n="6"/>uni in Timeo. Ex Aristotele vero tantum
+          <lb ed="#P" n="7"/>habemus, quod hasce potentias vocet 
+          qualita<lb break="no" ed="#P" n="8"/>tes, numeretque in secunda specie, quem 
+          imi<lb break="no" ed="#P" n="9"/>tatur Simplicius. cap. de Qualitate, 
+          Damasce<lb break="no" ed="#P" n="10"/>nus etiam in sua logica, c. 51. Et 
+          Commen<lb break="no" ed="#P" n="11"/>tator etiam alicubi dixit animam dividi in
+          <lb ed="#P" n="12"/>suas potentias, sicut pomum in odorem et 
+          sa<lb break="no" ed="#P" n="13"/>porem.
+        </p>
+        <p xml:id="szdada-y13947-d1e295">
+          <lb ed="#P" n="14"/>3. Notatio triplicis operationis, ac principii
+          <lb ed="#P" n="15"/>ejus pro resolutione. — Est pro solutione 
+          no<lb break="no" ed="#P" n="16"/>tandum, esse in animatis operationes cum
+          <lb ed="#P" n="17"/>rebus inanimatis communes omnino: alias in
+          <lb ed="#P" n="18"/>quibus proportionalitates solum conveniunt:
+          <lb ed="#P" n="19"/>alias, in quibus differunt: conveniunt quidem
+          <lb ed="#P" n="20"/>in actionibus primarum qualitatum et earum
+          <lb ed="#P" n="21"/>etiam, quae ex temperamento primarum 
+          im<lb break="no" ed="#P" n="22"/>mediate procedunt: proportionaliter vero
+          <lb ed="#P" n="23"/>assimilantur in generatione vel adgeneratione
+          <lb ed="#P" n="24"/>substantiae: generatio enim et nutritio 
+          viven<lb break="no" ed="#P" n="25"/>tis habent quamdam proportionalem 
+          similitu<lb break="no" ed="#P" n="26"/>dinem cum productione et adgeneratione
+          <lb ed="#P" n="27"/>ignis: differunt vero in propria ratione vitae,
+          <lb ed="#P" n="28"/>ut in cognitione et appetitu in distributione
+          <lb ed="#P" n="29"/>cibi, et modo nutritionis: quantum ergo 
+          ati<lb break="no" ed="#P" n="30"/>net ad actiones primas, eadem est de animatis
+          <lb ed="#P" n="31"/>et inanimatis ratio. Nam per easdem 
+          qualita<lb break="no" ed="#P" n="32"/>tes fiunt, de quibus constat aperte esse realiter
+          <lb ed="#P" n="33"/>a substantia distinctas. De operationibus 
+          se<lb break="no" ed="#P" n="34"/>cundi generis est proportionalis ratio: nam
+          <lb ed="#P" n="35"/>in generatione, vel adgeneratione substantiae
+          <lb ed="#P" n="36"/>tam in rebus animatis, quam in inanimatis,
+          <lb ed="#P" n="37"/>duo sunt distinguenda, scilicet dispositio 
+          ma<lb break="no" ed="#P" n="38"/>teriae et inductio substantialis formae: 
+          pri<lb break="no" ed="#P" n="39"/>mum fit mediis accidentibus. Secundum 
+          im<lb break="no" ed="#P" n="40"/>mediate a forma substantiali, de quo late in
+          <lb ed="#P" n="41"/>sequentibus agendo de potentiis vegetantibus.
+        </p>
+        <p xml:id="szdada-y13947-d1e358">
+          <lb ed="#P" n="42"/>4. Prima assertio affirmativa. —De terto
+          <lb ed="#P" n="43"/>ergo genere operationum, quae sunt 
+          acciden<lb break="no" ed="#P" n="44"/>tales, et proprie viventium, sit prima 
+          con<lb break="no" ed="#P" n="45"/>clusio. Potentiae, quae ad has operationes 
+          or<lb break="no" ed="#P" n="46"/>dinantur, distinguuntur ex natura rei ab ipsa
+          <lb ed="#P" n="47"/>anima. Est contra Nominales, et videtur certa.
+          <lb ed="#P" n="48"/>Nam Patres communiter in hoc distinguunt
+          <lb ed="#P" n="49"/>creaturas a Deo, quod in Deo idem sint 
+          essen<lb break="no" ed="#P" n="50"/>tia, potentia et operatio, in creaturis vero
+          <lb ed="#P" n="51"/>distinguantur. Ita D. Dionysius, de coelesti
+          <lb ed="#P" n="52"/>Hierarchia, c. 11, loquens de Angelis. Idem
+          <lb ed="#P" n="53"/>D. Augustinus 6, de Triuit., c. 6, ubi inquit,
+          <lb ed="#P" n="54"/>animam humanam deficere a simplicitate 
+          di<lb break="no" ed="#P" n="55"/>vina propter multitudinem operationum et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>virtutum, et l. 15, c. 7, ait, mentem distingui
+          <lb ed="#P" n="57"/>abanima: et potentiam hominis non hominem
+          <lb ed="#P" n="58"/>esse, sed aliquid hominis. D. etiam Anselmus,
+          <lb ed="#P" n="59"/>lib. de Casu diaboli, dicit, etsi potentiae non
+          <lb ed="#P" n="60"/>sint substantiae non tamen esse nihil. Idem
+          <lb ed="#P" n="61"/>lib. de Concordia praescientiae et 
+          praedestina<lb break="no" ed="#P" n="62"/>tionis, cap. ult., consentiunt theologi fere
+          <lb ed="#P" n="63"/>omnes a Nominalibus. Et ratione patet. Nam
+          <lb ed="#P" n="64"/>vitales potentiae ut potentiae sunt, habent 
+          dis<lb break="no" ed="#P" n="65"/>tiuctam rationem: et definitionem ab ipsa
+          <lb ed="#P" n="66"/>anima, in quantum anima est: ergo 
+          distin<lb break="no" ed="#P" n="67"/>guuntur ex natura rei. Patet antecedens, quia
+          <lb ed="#P" n="68"/>anima, ut anima est, essentialiter ordinatur
+          <lb ed="#P" n="69"/>ad corpus, potentia vero ut potentia, 
+          essentia<lb break="no" ed="#P" n="70"/>liter ad operationem. Secundo, hae ipsae 
+          po<lb break="no" ed="#P" n="71"/>tentiae distinguuntur ex natura rei inter se:
+          <lb ed="#P" n="72"/>ergo et ab anima. Patet assumptum de 
+          intel<lb break="no" ed="#P" n="73"/>lectu et voluntate, aliter enim recte 
+          dicere<lb break="no" ed="#P" n="74"/>mus, intellectus amat, voluntas intelligit. Item
+          <lb ed="#P" n="75"/>quis dicat visum, et tactum non distingui,
+          <lb ed="#P" n="76"/>cum unus separabilis sit ab altero, quis 
+          appe<lb break="no" ed="#P" n="77"/>titum sensitivum, et intellectum non 
+          distin<lb break="no" ed="#P" n="78"/>guat, inter quos tanta est repugnantia, quanta
+          <lb ed="#P" n="79"/>describitur ab Apostolo ad Rom. 7 et ad Gal. 5.
+          <lb ed="#P" n="80"/>Denique habitus facultatum rationalium 
+          dis<lb break="no" ed="#P" n="81"/>tincti sunt, fides nimirum, et charitas, ut ipsa
+          <lb ed="#P" n="82"/>fides docet: ergo et illae saltem sunt inter se
+          <lb ed="#P" n="83"/>distinctae: ergo et ab anima: nam si 
+          identi<lb break="no" ed="#P" n="84"/>ficarentur uni tertio, identificarentur inter se,
+          <lb ed="#P" n="85"/>quod si rationales distinguuntur, alias 
+          quo<lb break="no" ed="#P" n="86"/>que distingui necesse est, cum non sit dispar
+          <lb ed="#P" n="87"/>ratio.
+        </p>
+        <p xml:id="szdada-y13947-d1e462">
+          <lb ed="#P" n="88"/>5. Secunda assertio de qua latius disp. 18,
+          <lb ed="#P" n="89"/>Metaphysice, sect. 3, et specialiter in opere
+          <lb ed="#P" n="90"/>de ángelis, 1. 9, c. 1, I. 3, c. 1, 1. 4, e. 24.—
+          <lb ed="#P" n="91"/>Secunda conclusio. Probabilius est potentias
+          <lb ed="#P" n="92"/>animee distingui realiter ab illa. Haec est contra
+          <lb ed="#P" n="93"/>secundam opinionem Scoti, et aliorum. Eam
+          <lb ed="#P" n="94"/>tamen sequitur D. Thomas suadet probabiliter:
+          <lb ed="#P" n="95"/>praecipuum fundamentum sumitur ex ratione
+          <lb ed="#P" n="96"/>creaturae, cujus substantia utpote limitata non
+          <lb ed="#P" n="97"/>videtur esse posse principium tam multarum
+          <lb ed="#P" n="98"/>actionum, quas in viventibus experimur. 
+          Ar<lb break="no" ed="#P" n="99"/>gumentari etiam possumus ad hominem 
+          Sco<lb break="no" ed="#P" n="100"/>tum, quoniam juxta ipsius doctrinam inter
+          <lb ed="#P" n="101"/>essentiam et potentiam est distinctio formalis:
+          <lb ed="#P" n="102"/>ergo in creaturis major esse debet. Item 
+          ea<lb break="no" ed="#P" n="103"/>dem est ratio de operatione et virtute, sed
+          <lb ed="#P" n="104"/>operationss sunt accidentia ab ipsa anima 
+          rea<lb break="no" ed="#P" n="105"/>liter distincta: ergo. Praeterea habitus 
+          perfi<lb break="no" ed="#P" n="106"/>cientis animam sunt distincti ab ipsa anuma,
+          <lb ed="#P" n="107"/>cum de novo acquirantur, et deperdantur, et
+          <lb ed="#P" n="108"/>inter se etiam distincti sunt, quia vel perficiunt
+          <lb ed="#P" n="109"/>diversas potentias, vel camdem secundum 
+          di<lb break="no" ed="#P" n="110"/>versas operationes: ergo signum est potentias
+          <pb ed="#P" n="574"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ipsas esse distinctas. Et haec sententia consonat
+          <lb ed="#P" n="2"/>fidei, quae docet actus intellectus et voluntatis,
+          <lb ed="#P" n="3"/>nempe fidei et charitatis, et earum habitus
+          <lb ed="#P" n="4"/>esse diversos: ergo ipsae potentiae sunt 
+          dis<lb break="no" ed="#P" n="5"/>tinctae inter se, unde concursus, quem praebet
+          <lb ed="#P" n="6"/>Deus intellectui, distinctus est ab il'o, quem
+          <lb ed="#P" n="7"/>praebet voluntati: ergo. Facit etiam illud
+          <lb ed="#P" n="8"/>Lucae 10: Diliges Dominum Deum tuum ez tota
+          <lb ed="#P" n="9"/>anima tua, et er omnibus viribus, etc. Obi 
+          po<lb break="no" ed="#P" n="10"/>tentias animae vocat vires illius, et numerat
+          <lb ed="#P" n="11"/>illas, ut distinctas ab anima. Et isto modo 
+          ex<lb break="no" ed="#P" n="12"/>ponunt multi illud Psalmi: Penedic, anima mea,
+          <lb ed="#P" n="13"/>Domino, et omnia, quee intra me sunt. Tandem
+          <lb ed="#P" n="14"/>ordo naturae, et artis attestantur huic veritati :
+          <lb ed="#P" n="15"/>ars enim ad diversas actiones diversa 
+          adinve<lb break="no" ed="#P" n="16"/>uit instrumenta, et natura ad diversas 
+          opera<lb break="no" ed="#P" n="17"/>tiones naturales, diversas praebet virtutes, ut
+          <lb ed="#P" n="18"/>experientia docet. hatio dubitandi in principio
+          <lb ed="#P" n="19"/>posita non urget, quia distinctio quidem 
+          asse<lb break="no" ed="#P" n="20"/>renda non est sine necessitate, sed neque
+          <lb ed="#P" n="21"/>etiam quaerenda est ad hoc mathematica ratio,
+          <lb ed="#P" n="22"/>et in philosophia rationes factae sunt 
+          suffi<lb break="no" ed="#P" n="23"/>cientes ad conclusionem dictam asserendam.
+        </p>
+        <p xml:id="szdada-y13947-d1e569">
+          <lb ed="#P" n="24"/>6. Dubium vresolvitur de quo consule etiam
+          <lb ed="#P" n="25"/>auctorem, disp. 1 Metaphysicae, sect. 2, n.2.
+          <lb ed="#P" n="26"/>— Rogabis, utrum saltem divinitus potentiae
+          <lb ed="#P" n="27"/>animae possint ab illa separari; multi negant,
+          <lb ed="#P" n="28"/>ut Cajetanus,1 p.. q. 54, Capreolus, in 1.dist. 3,
+          <lb ed="#P" n="29"/>quaest. 3, insinuat D. Thomas, de spiritualibus
+          <lb ed="#P" n="30"/>creaturis, articulo ultimo ad septimum, 1, 2,
+          <lb ed="#P" n="31"/>quaest. 110, artic. 4, ubi ait non posse 
+          intel<lb break="no" ed="#P" n="32"/>ligi animam sine potentiis. Et probatur. Nam
+          <lb ed="#P" n="33"/>quod realiter adinvicem distinguantur, non
+          <lb ed="#P" n="34"/>necessario arguit separabilitatem: relatio enim
+          <lb ed="#P" n="35"/>et terminus sunt distincta, neque tamen 
+          pos<lb break="no" ed="#P" n="36"/>sunt separari, quia habent intrinsecam 
+          con<lb break="no" ed="#P" n="37"/>nexionem, inter potentiam autem et essentiam
+          <lb ed="#P" n="38"/>est summa unio. Et contirmatur. Nam de 
+          es<lb break="no" ed="#P" n="39"/>sen:ia propriae passionis esse videtur dicta 
+          in<lb break="no" ed="#P" n="40"/>separabiltas.
+        </p>
+        <p xml:id="szdada-y13947-d1e608">
+          <lb ed="#P" n="41"/>7. Pars affirmativa probabilior. — 
+          Proba<lb break="no" ed="#P" n="42"/>bilius tamen oppositum, quod defendunt 
+          Fer<lb break="no" ed="#P" n="43"/>rariensis 2, contra, c. 65. Soto supra, c. de
+          <lb ed="#P" n="44"/>proprio, imo in 4, distinct. 9, quaest. 2, art. 5,
+          <lb ed="#P" n="45"/>dicit esse certum secundum fidem passionem
+          <lb ed="#P" n="46"/>esse separahilem a substantia, quia in 
+          sacra<lb break="no" ed="#P" n="47"/>mento Eucharistia manet propria passio
+          <lb ed="#P" n="48"/>panis, nutrit enim, etc. Haec vero opinio ex eo
+          <lb ed="#P" n="49"/>probatur, quia nulla est implicatio 
+          contradic<lb break="no" ed="#P" n="50"/>tionis in ea re: sunt enim animae, ejusque
+          <lb ed="#P" n="51"/>potentiae entitates distinctae, neque una 
+          essen<lb break="no" ed="#P" n="52"/>tialiter pende: ab altera: probatio autem
+          <lb ed="#P" n="53"/>desumpta ab Eucharistia ostendit quidem hoc
+          <lb ed="#P" n="54"/>esse consonum illi mysterio, non tamen est
+          <lb ed="#P" n="55"/>cur dicatur de fide. Namque S. Thomas, 3 p.,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quaestion. 75, articulo 6 ad ultimum, ait 
+          ope<lb break="no" ed="#P" n="57"/>rationes consequentes substartiam panis 
+          con<lb break="no" ed="#P" n="58"/>venire accidentibus miraculose, ac si manerent
+          <lb ed="#P" n="59"/>ibi potentiae ad illas.
+        </p>
+        <p xml:id="szdada-y13947-d1e654">
+          <lb ed="#P" n="60"/>8. Ad argumentum partis negativee in n. 6.
+          <lb ed="#P" n="61"/>— Ad argumentum ergo alterius opinionis 
+          res<lb break="no" ed="#P" n="62"/>pondetur ex sola distinctione reali non colligi
+          <lb ed="#P" n="63"/>separabilitatem, si adsit essentialis 
+          dependen<lb break="no" ed="#P" n="64"/>tia, qualis inter relationem et terminum 
+          in<lb break="no" ed="#P" n="65"/>tercedit. Ad confirmationem dicitur cum divo
+          <lb ed="#P" n="66"/>Thoma 1, 2, supra, separata potentia, verbi
+          <lb ed="#P" n="67"/>gratia, intellectu, adhuc animam fore 
+          intel<lb break="no" ed="#P" n="68"/>lectivam non formaliter, sed radicalter: 
+          at<lb break="no" ed="#P" n="69"/>que haec est differentia inter passiones et 
+          ac<lb break="no" ed="#P" n="70"/>cidentia communia naturaliter inseparabilia,
+          <lb ed="#P" n="71"/>quod passiones radicentur in essentia, non vero
+          <lb ed="#P" n="72"/>accidentia, et ideo quantum est ex vi essentiae
+          <lb ed="#P" n="73"/>passio non potest naturaliter separari: alia
+          <lb ed="#P" n="74"/>vero accidentia possunt. Àn autem separato
+          <lb ed="#P" n="75"/>semel intellectu, verbi gratia, ab anima sibi
+          <lb ed="#P" n="76"/>relicta dimanaret alius intellectus, capite 
+          ter<lb break="no" ed="#P" n="77"/>tio dicetur. Àn rursum intellectus forte 
+          sepa<lb break="no" ed="#P" n="78"/>ratus posset intelligere, sicut calor calefacere,
+          <lb ed="#P" n="79"/>negandum omnino, quia actio vitalis 
+          intrin<lb break="no" ed="#P" n="80"/>sece pendet a primo principio vitae, sine quo
+          <lb ed="#P" n="81"/>proinde exerceri non potest. Diximus de hoc
+          <lb ed="#P" n="82"/>nonnulla in 2, Physicorum, et dicemus ctiam
+          <lb ed="#P" n="83"/>in capite sequenti.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

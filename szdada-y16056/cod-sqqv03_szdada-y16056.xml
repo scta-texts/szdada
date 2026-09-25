@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="655"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y16056"><!-- t3l3c12 -->
+        <head xml:id="szdada-y16056-Hd1e101">Caput 12</head>
+        <head xml:id="szdada-y16056-Hd1e103" type="question-title">Utrum aliqua potentia sensitiva possit cognoscere in absentia objecti, et quo modo</head>
+        <p xml:id="szdada-y16056-d1e106">
+          <lb ed="#P" n="92"/>CAPUT XII.
+          <lb ed="#P" n="93"/>UTRUM ALIQUA POTENTIA SENSITIVA POSSIT 
+          COGNO<lb break="no" ed="#P" n="94"/>SCERE IN ABSENTIA OBJECTI, ET QUO MODO.
+        </p>
+        <p xml:id="szdada-y16056-d1e115">
+          <lb ed="#P" n="95"/>1. Arguitur primo pro parte negativa. —
+          <lb ed="#P" n="96"/>Secundo.— Tertio. — Arguitur pro parte 
+          affir<lb break="no" ed="#P" n="97"/>mante. — Videtur pars negativa vera. Primo,
+          <lb ed="#P" n="98"/>quia haec est differentia inter intellectum et
+          <lb ed="#P" n="99"/>sensum, quod intellectus habere possit 
+          noti<lb break="no" ed="#P" n="100"/>tiam abstractivam, sensus vero non nisi 
+          intui<lb break="no" ed="#P" n="101"/>tivam. Secundo si sensus posset cognoscere
+          <lb ed="#P" n="102"/>rem absentem, posset etiam cognoscere rem
+          <lb ed="#P" n="103"/>praeteritam: hoc autem non potest, nam 
+          co<lb break="no" ed="#P" n="104"/>gnoscere praeteritum, est cognoscere tempus,
+          <lb ed="#P" n="105"/>quod tamen solo intellectu concipitur, 4 Phys.,
+          <lb ed="#P" n="106"/>text. 131. Item si sensus posset cognoscere
+          <lb ed="#P" n="107"/>rem non existentem. Consequens est falsum,
+          <pb ed="#P" n="656"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cum sensus non nisi, quod est sensibile, 
+          sen<lb break="no" ed="#P" n="2"/>tiat: quod autem non existit, sentiri non 
+          po<lb break="no" ed="#P" n="3"/>test, sed ut plurimum intelligi, cum sentire sit
+          <lb ed="#P" n="4"/>experiri, quod rem actu existentem plane 
+          re<lb break="no" ed="#P" n="5"/>quirit. Contra est, quia in sensu est memoria,
+          <lb ed="#P" n="6"/>memoria autem est praeteriti, ut praeteriti, ut
+          <lb ed="#P" n="7"/>dicitur in lib. de Memoria et reminiscentia,
+          <lb ed="#P" n="8"/>cap. 1. Notandum pro resolutione potentiam
+          <lb ed="#P" n="9"/>eo ipso, quod est informata specie objecti,
+          <lb ed="#P" n="10"/>posse illud cognoscere sive praesens, sive 
+          ab<lb break="no" ed="#P" n="11"/>sens, sive existens, sive non existens: namque
+          <lb ed="#P" n="12"/>ex supra dictis constat objectum, et rationem
+          <lb ed="#P" n="13"/>motivi et terminativi habere, movere autem
+          <lb ed="#P" n="14"/>speciem imprimendo, ideoque si species 
+          im<lb break="no" ed="#P" n="15"/>pressa sit potentiae, praesentiam, vel 
+          existen<lb break="no" ed="#P" n="16"/>tiam objecti non requiri, ut moveat. Ad 
+          ter<lb break="no" ed="#P" n="17"/>minandum etiam non requiritur, quia 
+          termi<lb break="no" ed="#P" n="18"/>natio haec, ut diximus, materialis non est et
+          <lb ed="#P" n="19"/>quantitativa, sed intentionalis: satis ergo est,
+          <lb ed="#P" n="20"/>si potentia sit informata specie objecti: unde
+          <lb ed="#P" n="21"/>tota quaestio ad hoc reducitur, an sensus 
+          ali<lb break="no" ed="#P" n="22"/>quis possit conservare species absentis, vel non
+          <lb ed="#P" n="23"/>existentis objecti: si enim possit, poterit etiam
+          <lb ed="#P" n="24"/>cognoscere: sin minus non poterit.
+        </p>
+        <p xml:id="szdada-y16056-d1e202">
+          <lb ed="#P" n="25"/>2. Opinio simpliciter affirmans. — 
+          Funda<lb break="no" ed="#P" n="26"/>mentum Aristotelis. — Hoc posito est opinio
+          <lb ed="#P" n="27"/>affirmans omnem sensum posse conservare
+          <lb ed="#P" n="28"/>speciem in absentia objecti, quae probatur ex
+          <lb ed="#P" n="29"/>Aristotele 3, de Anima, textu 138, ubi sic 
+          ha<lb break="no" ed="#P" n="30"/>bet: Quocirca sensibilibus ipsis semotis insunt
+          <lb ed="#P" n="31"/>in sensuum instrumentis sensus, 
+          imaginatio<lb break="no" ed="#P" n="32"/>nesque, hoc est, sensationes tam externae, quam
+          <lb ed="#P" n="33"/>internae. Et textu 156: Atque nobis (quod
+          <lb ed="#P" n="34"/>paulo ante dicebamus) clausis quidem oculis
+          <lb ed="#P" n="35"/>visa videntur, atque apparent - ubi tacite 
+          indi<lb break="no" ed="#P" n="36"/>cat quotidianam experientiam, nam cum quis
+          <lb ed="#P" n="37"/>intentis oculis inspexit ad rem lucidam, si 
+          su<lb break="no" ed="#P" n="38"/>bito oculos claudat, videt adhuc aliqualem
+          <lb ed="#P" n="39"/>lucem, quod etiam aperte refert opusculo de
+          <lb ed="#P" n="40"/>Insomniis, circa medium, et Augustinus 11, de
+          <lb ed="#P" n="41"/>Trinitate, capite secundo. Nec vero potest hoc
+          <lb ed="#P" n="42"/>referri ad imaginationem: si enim id ex 
+          ima<lb break="no" ed="#P" n="43"/>ginatione proveniret, posset multo tempore
+          <lb ed="#P" n="44"/>durare: cum tamen non nisi brevissimo duret,
+          <lb ed="#P" n="45"/>nimirum quia species visihilis utpote tunc 
+          de<lb break="no" ed="#P" n="46"/>hilis facile evanescit.
+        </p>
+        <p xml:id="szdada-y16056-d1e253">
+          <lb ed="#P" n="47"/>3. Prima assertio ejusque fundamentum. —
+          <lb ed="#P" n="48"/>Nihilominus sit prima conclusio. Nullus 
+          sen<lb break="no" ed="#P" n="49"/>sus exterior potest naturaliter sentire, nisi
+          <lb ed="#P" n="50"/>praesenti objecto causante speciem. 
+          Fundamen<lb break="no" ed="#P" n="51"/>tum est, quod eorum sensuum species ex 
+          na<lb break="no" ed="#P" n="52"/>tura sua in fieri et conservari pendeant ab 
+          ob<lb break="no" ed="#P" n="53"/>jectis suis. Id quod constare primo videtur
+          <lb ed="#P" n="54"/>experientia. Secundo ratione arguitur. Nam
+          <lb ed="#P" n="55"/>species hae sunt imperfectae quaedam partici-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pationes objectorum: ergo pendent in fieri, et
+          <lb ed="#P" n="57"/>esse ab illis. Arguitur tertio destruendo 
+          expe<lb break="no" ed="#P" n="58"/>rientiam ab adversariis adductam, nam si quis
+          <lb ed="#P" n="59"/>brevi tempore lucem intueatur moxque 
+          ocu<lb break="no" ed="#P" n="60"/>los claudat, nec per instans specie lucis intra
+          <lb ed="#P" n="61"/>oculum conservatur: ergo neque 
+          conservabi<lb break="no" ed="#P" n="62"/>tur, licet multo tempore intueatur. Probatur
+          <lb ed="#P" n="63"/>consequentia, quia species illa ejusdem 
+          sem<lb break="no" ed="#P" n="64"/>per rationis est, nec enim propter 
+          continua<lb break="no" ed="#P" n="65"/>tionem majorem visionis mutatur species, aut
+          <lb ed="#P" n="66"/>radicatur magis, seu intenditur, cum in 
+          in<lb break="no" ed="#P" n="67"/>stanti fiat, quam perfecta fieri potest, utpote
+          <lb ed="#P" n="68"/>sine impedimento, et ab agente naturali 
+          pro<lb break="no" ed="#P" n="69"/>ducta. Quarto vel ejusmodi species habent ex
+          <lb ed="#P" n="70"/>natura sua dependentiam ab objecto sensibili,
+          <lb ed="#P" n="71"/>vel non habent: si hoc dicatur, certe 
+          conser<lb break="no" ed="#P" n="72"/>vabuntur semper in absentia illius, si habent:
+          <lb ed="#P" n="73"/>ergo nec per instans poterunt conservari, 
+          quan<lb break="no" ed="#P" n="74"/>tumvis intendantur. Respondent ex natura
+          <lb ed="#P" n="75"/>quidem sua non pendere, diu tamen non 
+          ma<lb break="no" ed="#P" n="76"/>nere ex defectu subjecti non satis illas 
+          con<lb break="no" ed="#P" n="77"/>servantis. Sed responsio non satisfacit, quia
+          <lb ed="#P" n="78"/>subjectum non conservat species effective, 
+          ma<lb break="no" ed="#P" n="79"/>terialiter autem affatim posset conservare 
+          sus<lb break="no" ed="#P" n="80"/>tentando: ergo cum contrarium non habeant,
+          <lb ed="#P" n="81"/>neutiquam deficient, nisi propter absentiam
+          <lb ed="#P" n="82"/>objecti, a quo in conservari aependent. Unde
+          <lb ed="#P" n="83"/>ad experientiam in numero praecedenti 
+          adduc<lb break="no" ed="#P" n="84"/>tam ex Aristotele, et Augustino dicitur, 
+          pro<lb break="no" ed="#P" n="85"/>venire id ex vehementi imaginatione 
+          excita<lb break="no" ed="#P" n="86"/>ta ob diuturnam attentionem, et quoniam tanta
+          <lb ed="#P" n="87"/>imaginationis attentio durare multum nequit,
+          <lb ed="#P" n="88"/>ideo apparentia ipsa parum durat: enimvero
+          <lb ed="#P" n="89"/>si ex relictis in oculo speciebus id provenire
+          <lb ed="#P" n="90"/>posset, certe quotiescumque oculos 
+          claudere<lb break="no" ed="#P" n="91"/>mus, rei visae quaecumque illa esset, species
+          <lb ed="#P" n="92"/>adhuc in sensorio permanerent,quod 
+          experien<lb break="no" ed="#P" n="93"/>tiae repugnat, cum sola vehementiora objecta,
+          <lb ed="#P" n="94"/>eaque magno sensuum conatu percepta soleant
+          <lb ed="#P" n="95"/>hujusmodi causare imaginationem. Quod 
+          au<lb break="no" ed="#P" n="96"/>tem Aristoteles, de Cognitione imaginationis
+          <lb ed="#P" n="97"/>loquatur, patet ex textu 138, ubi probat 
+          sen<lb break="no" ed="#P" n="98"/>sum suscipere species sine materia, ex eo quod
+          <lb ed="#P" n="99"/>illae abeuntibus sensibilibus retineantur, utique
+          <lb ed="#P" n="100"/>interius: hinc enim optime concluditur fuisse
+          <lb ed="#P" n="101"/>prius alias interius: in textu autem 156, 
+          dif<lb break="no" ed="#P" n="102"/>ferentiam assignat inter sensum externum,
+          <lb ed="#P" n="103"/>atque imaginationem; quod cum res sensu
+          <lb ed="#P" n="104"/>illo exacte percipitur, non dicitur nobis videri,
+          <lb ed="#P" n="105"/>aut apparere: sic enim potius loqui nos, 
+          quan<lb break="no" ed="#P" n="106"/>do non exacte sentimus: at cum percipitur,
+          <lb ed="#P" n="107"/>inquit, clausie oculis (sensu nimirum interno)
+          <lb ed="#P" n="108"/>semper dicitur nobis apparere, aut videri.
+        </p>
+        <p xml:id="szdada-y16056-d1e392">
+          <lb ed="#P" n="109"/>4. Observatio duplem pro assertione 
+          preece<lb break="no" ed="#P" n="110"/>denti. — Sunt tamen in hac conclusione ad-
+          <pb ed="#P" n="657"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vertanda duo. Primum est, quod potentia
+          <lb ed="#P" n="2"/>sensibilis est intelligenda secundum 
+          propor<lb break="no" ed="#P" n="3"/>tionatam distantiam ad causandam speciem
+          <lb ed="#P" n="4"/>in sensu, sive directe et immediate, sive 
+          me<lb break="no" ed="#P" n="5"/>dia reflexione causetur, non enim est opus
+          <lb ed="#P" n="6"/>sensibile coram sensu existere, unde, et videri
+          <lb ed="#P" n="7"/>potest a tergo, ut supra diximus. Secundum
+          <lb ed="#P" n="8"/>est non oportere objectum praesens, esse eo
+          <lb ed="#P" n="9"/>modo, quo cernitur, sed eo tantum, quo 
+          ap<lb break="no" ed="#P" n="10"/>tum sit speciem imprimere, quando enim
+          <lb ed="#P" n="11"/>collum columbae varium apparet ; non est 
+          ne<lb break="no" ed="#P" n="12"/>cesse colores illos realiter praesentes esse oculis,
+          <lb ed="#P" n="13"/>sed est satis, si lux ita collum affhiciat, ut 
+          ap<lb break="no" ed="#P" n="14"/>tum reddatur ad causandas species talium 
+          co<lb break="no" ed="#P" n="15"/>lorum, quo sane in eventu sensus exterior
+          <lb ed="#P" n="16"/>percipit quodammodo rem absentem, colorem
+          <lb ed="#P" n="17"/>scilicet, qui non est praesens, sed aliquid aliud
+          <lb ed="#P" n="18"/>potens causare speciem illius, quod nihil 
+          dic<lb break="no" ed="#P" n="19"/>tis repugnat.
+        </p>
+        <p xml:id="szdada-y16056-d1e444">
+          <lb ed="#P" n="20"/>5. Secunda assertio. — Secunda conclusio.
+          <lb ed="#P" n="21"/>Sensus externus virtute divina cognoscere 
+          po<lb break="no" ed="#P" n="22"/>test rem absentem. Probatur: nam Deus 
+          con<lb break="no" ed="#P" n="23"/>servare potest in oculo speciem rei absentis,
+          <lb ed="#P" n="24"/>eaque oculus uti posset juxta dicta in numero
+          <lb ed="#P" n="25"/>primo: ergo, etc. Antecedens patet, quia Deus
+          <lb ed="#P" n="26"/>potest supplere vicem causae efficientis, species
+          <lb ed="#P" n="27"/>autem eo tantum modo pendet ab objecto.
+          <lb ed="#P" n="28"/>Quod apertius fiet, si ponas rem a te 
+          longissi<lb break="no" ed="#P" n="29"/>me dissitam divinitus imprimere sui speciem
+          <lb ed="#P" n="30"/>in speculum coram te existens, inde enim ad
+          <lb ed="#P" n="31"/>ipsos tuos oculos facile resultaret: remque ita
+          <lb ed="#P" n="32"/>distantem, sive absentem facile videres: quod
+          <lb ed="#P" n="33"/>ergo intelligitur medio speculo fieri posse, 
+          uti<lb break="no" ed="#P" n="34"/>que sine speculo etiam fiet, ac ipsa etiam re
+          <lb ed="#P" n="35"/>non existente: an vero talis visio intuitiva 
+          es<lb break="no" ed="#P" n="36"/>set, an abstractiva, respondendum vere 
+          qui<lb break="no" ed="#P" n="37"/>dem esse abstractivam utpote rei absentis, 
+          vi<lb break="no" ed="#P" n="38"/>dens tamen falso judicaret, ut praesentem, cum
+          <lb ed="#P" n="39"/>ita videret, ac si esset praesens. Urgebis, ergo
+          <lb ed="#P" n="40"/>jam tunc Deus deciperet. Negandum vero, sed
+          <lb ed="#P" n="41"/>permitteret tantum videntem falli, objectum
+          <lb ed="#P" n="42"/>namque veram sui speciem divinitus 
+          immitte<lb break="no" ed="#P" n="43"/>ret, videns autem seipsum falleret putando
+          <lb ed="#P" n="44"/>objectum sibi adesse.
+        </p>
+        <p xml:id="szdada-y16056-d1e501">
+          <lb ed="#P" n="45"/>6. Tertia assertio. — Tertia conclusio. 
+          Sen<lb break="no" ed="#P" n="46"/>sus aliquis interior potest naturaliter 
+          cogno<lb break="no" ed="#P" n="47"/>scere rem absentem:: patet experientia, nam
+          <lb ed="#P" n="48"/>est in nobis memoria rerum absentium, quae
+          <lb ed="#P" n="49"/>non potest ad intellectivam partem tantum 
+          re<lb break="no" ed="#P" n="50"/>ferri, cum illa sit nobis, brutisque communis,
+          <lb ed="#P" n="51"/>recordatur enim bestia loci suae habitationis
+          <lb ed="#P" n="52"/>et viae, per quam decurrerat, timet hominem,
+          <lb ed="#P" n="53"/>qui ipsam percusserat, ulciscitur de inimico,
+          <lb ed="#P" n="54"/>etc., de qua potentia memorandi infra 
+          dice<lb break="no" ed="#P" n="55"/>mus, dicitque multa D. Augustinus 10, 
+          Con<lb break="no" ed="#P" n="56"/>fessionum, per varia capita.
+        </p>
+        <p xml:id="szdada-y16056-d1e530">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="57"/>7. Quarta assertio contra Avicennam. — 
+          Quar<lb break="no" ed="#P" n="58"/>taconclusio. Ita sola potentia sensitiva cognoscit
+          <lb ed="#P" n="59"/>absens objectum, quae conservat illius absentis
+          <lb ed="#P" n="60"/>species. Haec conclusio contra Avicennam 
+          pro<lb break="no" ed="#P" n="61"/>ponitur, qui officium conservandi species, ac
+          <lb ed="#P" n="62"/>per illas objecta absentia cognoscendi diversis
+          <lb ed="#P" n="63"/>potentis tribuebat: sed immerito. Primo, quia
+          <lb ed="#P" n="64"/>ipsa potentia elicit actum secundum, quae 
+          con<lb break="no" ed="#P" n="65"/>stituta est in actu primo. Secundo: nam si una
+          <lb ed="#P" n="66"/>est potentia, quae cognoscit, et altera quae 
+          con<lb break="no" ed="#P" n="67"/>servat speciem, vel illa cognoscit per speciem
+          <lb ed="#P" n="68"/>hujus, vel per aliam: prius illud certe est 
+          im<lb break="no" ed="#P" n="69"/>possibile, quia per talemspeciem non actuatur,
+          <lb ed="#P" n="70"/>cumque species sit accidens, non potest 
+          mi<lb break="no" ed="#P" n="71"/>grare de subjecto suo in aliam potentiam. 
+          Pos<lb break="no" ed="#P" n="72"/>terius quoque dici non potest, quia ad 
+          cogno<lb break="no" ed="#P" n="73"/>scendam rem absentem non datur nova speciei
+          <lb ed="#P" n="74"/>productio. Tertio, potentia conservans species
+          <lb ed="#P" n="75"/>potentia vitalhs est, et perfectissima, atque
+          <lb ed="#P" n="76"/>adeo cognoscitiva: ergo: et caetera. Tandem
+          <lb ed="#P" n="77"/>illa distinctio potentiarum superflue fingitur:
+          <lb ed="#P" n="78"/>non ergo est admittenda. Haec est sententia
+          <lb ed="#P" n="79"/>Aristotelis, de Memoria et reminiscentia, in
+          <lb ed="#P" n="80"/>principio, ubi D. Thomas, late lectionibus 1,
+          <lb ed="#P" n="81"/>2 et 3, et prima parte, q. 78, art. 4, quaestione
+          <lb ed="#P" n="82"/>septuagesima nona, articulo sexto, ad 2, et 2,
+          <lb ed="#P" n="83"/>contra Gentes, cap. 74, et Comment. aliique
+          <lb ed="#P" n="84"/>communiter.
+        </p>
+        <p xml:id="szdada-y16056-d1e595">
+          <lb ed="#P" n="85"/>8. Ad primum, in num. 29. — Ad secundum.
+          <lb ed="#P" n="86"/>Ad primum argumentum in principio, 
+          nega<lb break="no" ed="#P" n="87"/>tur differentia illa, nam cognitio abstractiva
+          <lb ed="#P" n="88"/>communis esse potest sensui et intellectui. Ad
+          <lb ed="#P" n="89"/>secundum respondetur, sensum posse 
+          cogno<lb break="no" ed="#P" n="90"/>scere praeteritum in concreto, seu in actu 
+          exer<lb break="no" ed="#P" n="91"/>cito, considerando scilicet rem, quae praeteriit,
+          <lb ed="#P" n="92"/>non rationem formalem praeteriti, sicut etiam
+          <lb ed="#P" n="93"/>percipit rem praesentem in actu exercito: 
+          con<lb break="no" ed="#P" n="94"/>siderare autem formaliter, et signate 
+          tempo<lb break="no" ed="#P" n="95"/>rum differentias proprium esse intellectus. Ad
+          <lb ed="#P" n="96"/>tertium dicito sensum etiam posse cognoscere
+          <lb ed="#P" n="97"/>res non existentes, si species illarum habeat,
+          <lb ed="#P" n="98"/>neque ob defectum existentiae a genere 
+          sensi<lb break="no" ed="#P" n="99"/>bilium rerum extrahi, ut notum est. Interest
+          <lb ed="#P" n="100"/>tamen inter sensum, atque intellectum, quod
+          <lb ed="#P" n="101"/>hic praescindere valet existentiam rei, 
+          puram<lb break="no" ed="#P" n="102"/>que essentiam considerare, non item sensus,
+          <lb ed="#P" n="103"/>qui semper concipit rem cum ordine ad 
+          exi<lb break="no" ed="#P" n="104"/>stentiam vel praesentem, vel praeteritam, unde
+          <lb ed="#P" n="105"/>deceptio obrepit, concipiendo scilicet, ut 
+          exis<lb break="no" ed="#P" n="106"/>tens, quod non existit, nisi intellectu 
+          corriga<lb break="no" ed="#P" n="107"/>mur. Item cognoscet sensus interior rem 
+          prae<lb break="no" ed="#P" n="108"/>teritam, si loci et temporis, in quo extitit,
+          <lb ed="#P" n="109"/>recordetur: si vero apprehendat illam, ut 
+          exis<lb break="no" ed="#P" n="110"/>tentem in loco alio, vel tempore, falletur. 
+          Si<lb break="no" ed="#P" n="111"/>militer imaginatio fingens res impossibiles, si
+          <lb ed="#P" n="112"/>illas apprehendat, ut existentes, errabit, si
+          <pb ed="#P" n="658"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vero ut fictitias tantum, non errabit ; quod 
+          ta<lb break="no" ed="#P" n="2"/>men per se non valet, solusque intellectus 
+          er<lb break="no" ed="#P" n="3"/>rori medetur, unde imaginatio sibi relicta 
+          sem<lb break="no" ed="#P" n="4"/>per fallitur in compositione impossibilium ,
+          <lb ed="#P" n="5"/>sicut in somniis fere semper contingit.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

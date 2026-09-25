@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="492"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y11934"><!-- t3l1c4 -->
+        <head xml:id="szdada-y11934-Hd1e101">Caput 4</head>
+        <head xml:id="szdada-y11934-Hd1e103" type="question-title">Utrum anima in vegetativam, sensitivam, et rationalem recte, et sufficienter dividatur, et qual!s hujusmodi divisio sit</head>
+        <p xml:id="szdada-y11934-d1e106">
+          <lb ed="#P" n="27"/>CAPUT IV.
+          <lb ed="#P" n="28"/>UTRUM ANIMA IN VEGETATIVAM, SENSITIVAM, ET
+          <lb ed="#P" n="29"/>RATIONALEM RECTE, ET SUFFICIENTER 
+          DIVIDA<lb break="no" ed="#P" n="30"/>TUR, ET QUAL!S HUJUSMODI DIVISIO SIT.
+        </p>
+        <p xml:id="szdada-y11934-d1e117">
+          <lb ed="#P" n="31"/>1. Arguitur primo pro parte negante. —
+          <lb ed="#P" n="32"/>Quoniam intentionis nostrae est de sola 
+          ratio<lb break="no" ed="#P" n="33"/>nali anima ex professo dicere, necessarium
+          <lb ed="#P" n="34"/>duximus divisionem hanc hocloco praemittere:
+          <lb ed="#P" n="35"/>tum quia unica rationalis anima eminenti 
+          quo<lb break="no" ed="#P" n="36"/>dam modo omnes illas rationes complectitur,
+          <lb ed="#P" n="37"/>ut videbimus: tum etiam, ut quid de 
+          inferio<lb break="no" ed="#P" n="38"/>ribus animabus certum sit statuentes, illarum
+          <lb ed="#P" n="39"/>disputationem relinquamus: nec de illarum
+          <lb ed="#P" n="40"/>proprietatibus amplius disputemus, quam ad
+          <lb ed="#P" n="41"/>animae rationalis exactam cognitionem nobis
+          <lb ed="#P" n="42"/>sit necessarium. Videri ergo potest illa divisio
+          <lb ed="#P" n="43"/>non recte tradita: quia non apparet, qualis
+          <lb ed="#P" n="44"/>esse possit, quia nec est generis in species, cum
+          <lb ed="#P" n="45"/>anima vegetativa et sensitiva, interlum non
+          <lb ed="#P" n="46"/>differant essentialiter, nec etiam sensitiva et
+          <lb ed="#P" n="47"/>rationalis: neque est subjecti in accidentia,
+          <lb ed="#P" n="48"/>cum membra illa, et substantia sint, et 
+          essen<lb break="no" ed="#P" n="49"/>tialiter interdum differant. Et confirmatur ,
+          <lb ed="#P" n="50"/>quia eadem proportio, seu ratio est de 
+          abstrac<lb break="no" ed="#P" n="51"/>tis et de concretis, seu de totis et de 
+          parti<lb break="no" ed="#P" n="52"/>bus: sed vivens non recte distinguitur in ve-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>getativum et sensitivum, et rationale: ergo
+          <lb ed="#P" n="54"/>nec anima in illa tria membra bene dividitur.
+          <lb ed="#P" n="55"/>Minorem probamus: quia in bona divisione,
+          <lb ed="#P" n="56"/>unum membrum non praedicatur de altero:
+          <lb ed="#P" n="57"/>sensitivum autem vegetativum est, et 
+          ratio<lb break="no" ed="#P" n="58"/>nale ad sensitivum.
+        </p>
+        <p xml:id="szdada-y11934-d1e182">
+          <lb ed="#P" n="59"/>2. Arguitur secundo. — Secundo objici 
+          po<lb break="no" ed="#P" n="60"/>test, quia illa divisio videtur diminuta, quia
+          <lb ed="#P" n="61"/>omittit animam loco moventem et 
+          appeten<lb break="no" ed="#P" n="62"/>tem: quae non minus possunt ab aliquibus ex
+          <lb ed="#P" n="63"/>illis membris distingui, quam aliqua ex dictis
+          <lb ed="#P" n="64"/>membris inter se distinguantur. Aliunde vero
+          <lb ed="#P" n="65"/>videtur superabundans, quia forma vegetans
+          <lb ed="#P" n="66"/>praecisa a sentiente non videtur habere veram
+          <lb ed="#P" n="67"/>rationem animae: quia nullam habet propriam
+          <lb ed="#P" n="68"/>vitalem operationem, ex qua rationem animae
+          <lb ed="#P" n="69"/>praecipue cognoscimus, ut paulo antea dictum
+          <lb ed="#P" n="70"/>est. Assumptum probatur primo, quia in 
+          plan<lb break="no" ed="#P" n="71"/>ta, verbi gratia, nulla est operatio immanens:
+          <lb ed="#P" n="72"/>omnis autem operatio vitalis debet esse 
+          imma<lb break="no" ed="#P" n="73"/>nens, quia alias non erit a principio 
+          intrinse<lb break="no" ed="#P" n="74"/>co, sed erit transiens ab extrinseco agente in
+          <lb ed="#P" n="75"/>passum distinctum: ergo non est in plantis
+          <lb ed="#P" n="76"/>operatio vitalis. Major probatur, quia omnes
+          <lb ed="#P" n="77"/>actiones partis vegetantis sunt, vel ab ipso 
+          vi<lb break="no" ed="#P" n="78"/>vente in cibum, seu alimentum, vel ad 
+          sum<lb break="no" ed="#P" n="79"/>mum erunt inter partes dissimilares per 
+          actio<lb break="no" ed="#P" n="80"/>nem unius in aliam, ac proinde transeuntes.
+          <lb ed="#P" n="81"/>Unde probatur secundoidem assumptum, quia
+          <lb ed="#P" n="82"/>omnes actiones plantarum sunt, vel 
+          alteratio<lb break="no" ed="#P" n="83"/>nes per qualitates naturales communes rebus
+          <lb ed="#P" n="84"/>inanimatis, ut sunt calor, humiditas et similes:
+          <lb ed="#P" n="85"/>vel sunt motus locales per aliquam 
+          attractio<lb break="no" ed="#P" n="86"/>nem, vel expulsionem, quas actiones videmus
+          <lb ed="#P" n="87"/>etiam rebus inanimatis convenire, ut magneti
+          <lb ed="#P" n="88"/>et similibus. Praeterea aliunde videtur sine
+          <lb ed="#P" n="89"/>causa inter illa membra poni anima 
+          rationa<lb break="no" ed="#P" n="90"/>lis, quia licet operationem vitalem habeat, 
+          il<lb break="no" ed="#P" n="91"/>lam tamen vel non exercet per corpus, et sic
+          <lb ed="#P" n="92"/>illa non est operatio animae, vel si per corpus
+          <lb ed="#P" n="93"/>illam efficit, ad sensitivam animam pertinet.
+        </p>
+        <p xml:id="szdada-y11934-d1e261">
+          <lb ed="#P" n="94"/>3. Notatio pro dicendis. — Supponimus 
+          im<lb break="no" ed="#P" n="95"/>primis, divisum hujus partitionis esse illud
+          <lb ed="#P" n="96"/>ipsum, quod in praecedentibus capitibus 
+          defi<lb break="no" ed="#P" n="97"/>nitum est, nimirum formam quamdam 
+          sub<lb break="no" ed="#P" n="98"/>stantialem, quae sit vera pars compositi per
+          <lb ed="#P" n="99"/>modum actus primi, et principii operationum
+          <lb ed="#P" n="100"/>talis compositi in se ipso: quae forma vocatur
+          <lb ed="#P" n="101"/>anima, et compositum ipsum vivens 
+          appella<lb break="no" ed="#P" n="102"/>tur. De hoc ergo diviso quatuor explicanda
+          <lb ed="#P" n="103"/>sunt. Primum in hoc capite, quomodo 
+          omni<lb break="no" ed="#P" n="104"/>bus et singulis membris numeratis vera ratio
+          <lb ed="#P" n="105"/>animae conveniat. Unde constabit divisionem
+          <lb ed="#P" n="106"/>quoad hanc partem non esse defectuosam, seu
+          <lb ed="#P" n="107"/>redundantem. Secundo explicandum erit in
+          <pb ed="#P" n="493"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>capite sequenti, quomodo illae tres animae 
+          in<lb break="no" ed="#P" n="2"/>ter se comparentur, vel quoad 
+          subordinatio<lb break="no" ed="#P" n="3"/>nem, vel quoad separationem unius ab alia.
+          <lb ed="#P" n="4"/>Tertio addendum erit, in cap. 6, quomodo
+          <lb ed="#P" n="5"/>membra illa inter se distinguantur. Quarto,
+          <lb ed="#P" n="6"/>in cap. 7, quomodo divisum adaequent: ita ut
+          <lb ed="#P" n="7"/>divisio diminuta non sit.
+        </p>
+        <p xml:id="szdada-y11934-d1e313">
+          <lb ed="#P" n="8"/>4. Notatio altera, de ratione animae duo esse,
+          <lb ed="#P" n="9"/>quod sit forma corporis et principium vitalium
+          <lb ed="#P" n="10"/>actionum. — Utrumque in rationali inveniri
+          <lb ed="#P" n="11"/>ostenditur. — Circa primum adverto ex dictis
+          <lb ed="#P" n="12"/>in praecedentibus ad veritatem animae duo 
+          re<lb break="no" ed="#P" n="13"/>quiri: unum quasi genus, ut sit actus 
+          forma<lb break="no" ed="#P" n="14"/>lis ac substantialis corporis: aliud per modum
+          <lb ed="#P" n="15"/>differentiae, quam nos per ordinem ad 
+          opera<lb break="no" ed="#P" n="16"/>tionem explicamus, dicentes esse debere 
+          prin<lb break="no" ed="#P" n="17"/>ciprum primum operationum vitalium. Ut 
+          er<lb break="no" ed="#P" n="18"/>go de unoquoque illorum membrorum 
+          osten<lb break="no" ed="#P" n="19"/>damus veram rationem animae illi convenire,
+          <lb ed="#P" n="20"/>probare oportet illa duo in singulis inveniri.
+          <lb ed="#P" n="21"/>In anima ergo rationali, ut rationalis est, 
+          sa<lb break="no" ed="#P" n="22"/>us per se notum est, quod sit principium 
+          ope<lb break="no" ed="#P" n="23"/>rationum vitalium. Quia intellectualis operatio
+          <lb ed="#P" n="24"/>non solum vitalis est, sed etiam ad supremum
+          <lb ed="#P" n="25"/>vitae gradum pertinet: et est maxima 
+          partici<lb break="no" ed="#P" n="26"/>patio vitae divinae, propter quam dicitur anima
+          <lb ed="#P" n="27"/>rationalis ad imaginem Dei facta. Quod autem
+          <lb ed="#P" n="28"/>hoc principium ratiocinandi in homine non
+          <lb ed="#P" n="29"/>solum sit in se vivens, sed etiam sit actus quo
+          <lb ed="#P" n="30"/>homo vivit, et corpus hominis actuans, ut
+          <lb ed="#P" n="31"/>vera forma, licet videatur etiam ipsa 
+          expe<lb break="no" ed="#P" n="32"/>rientia satis notum: nihilominus multis 
+          philo<lb break="no" ed="#P" n="33"/>sophis fide carentibus occultum et incognitum
+          <lb ed="#P" n="34"/>fuit. Et ideo, c. 12, probabimus animam 
+          ra<lb break="no" ed="#P" n="35"/>tionalem, etiam quoad hanc partem, esse 
+          ve<lb break="no" ed="#P" n="36"/>ram animam. Nunc ergo supponatur hoc, et
+          <lb ed="#P" n="37"/>consequenter illam animam sub illo diviso
+          <lb ed="#P" n="38"/>contineri: illudque proprie et essentialiter illi
+          <lb ed="#P" n="39"/>convenire.
+        </p>
+        <p xml:id="szdada-y11934-d1e385">
+          <lb ed="#P" n="40"/>5. Utrumque etiam in anima bruti.—
+          Secun<lb break="no" ed="#P" n="41"/>do notissimum etiam est, principium sentiendi
+          <lb ed="#P" n="42"/>in animalibus brutis esse veram animam.
+          <lb ed="#P" n="43"/>Nam, ut Aristoteles, lib. 1, de Plant., in 
+          prin<lb break="no" ed="#P" n="44"/>cipio (vel qui fuit illius libri auctor) dixit:
+          <lb ed="#P" n="45"/>Vita in animalibus patens est e manifesta, in
+          <lb ed="#P" n="46"/>plantis vero occultior, nec adeo evidens. Quod
+          <lb ed="#P" n="47"/>eisdem fere verbis dixit Augustinus, libro de
+          <lb ed="#P" n="48"/>Quantitate animae, cap. 33. Et merito: nam
+          <lb ed="#P" n="49"/>imprimis in animalibus, et in nobis sentientis
+          <lb ed="#P" n="50"/>vitae operationes experimur, quatenus in 
+          sen<lb break="no" ed="#P" n="51"/>sibus cum caeteris animalibus convenimus, et
+          <lb ed="#P" n="52"/>in ipsismet brutis evidentia signa cognitionis,
+          <lb ed="#P" n="53"/>doloris, et motionis ab intrinseco principio
+          <lb ed="#P" n="54"/>conspicimus. Quod autem omnis cognitio et
+          <lb ed="#P" n="55"/>appetitus, qui ad illam consequitur, etiamsi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>per materiales potentias sentiendi et 
+          appeten<lb break="no" ed="#P" n="57"/>di fiant, a substantiali principio interno 
+          pro<lb break="no" ed="#P" n="58"/>cedant, non minus evidens est: quia tales actus
+          <lb ed="#P" n="59"/>ab ipso cognoscente, et appetente fiunt, et in
+          <lb ed="#P" n="60"/>eo manent, et per illos seipsum ab intrinseco
+          <lb ed="#P" n="61"/>perficit, et hoc est vivere accidentali vita, ut
+          <lb ed="#P" n="62"/>in cap. 1 et 2, declaratum est. Ergo in 
+          substan<lb break="no" ed="#P" n="63"/>tiis corporalibus, sic operantibus evidens est,
+          <lb ed="#P" n="64"/>dari principium internum, a quo tales actus
+          <lb ed="#P" n="65"/>principaliter procedunt, et a quo essentialiter,
+          <lb ed="#P" n="66"/>seu necessario dependent, cujus certum 
+          si<lb break="no" ed="#P" n="67"/>gnum est, quod per absentiam, vel 
+          separatio<lb break="no" ed="#P" n="68"/>nem, aut destructionem talis principii cessat
+          <lb ed="#P" n="69"/>in illo sensibili corpore inanimi omnis talis
+          <lb ed="#P" n="70"/>operatio. Est ergo in re sentienti intrinsecum
+          <lb ed="#P" n="71"/>principium vitae.
+        </p>
+        <p xml:id="szdada-y11934-d1e459">
+          <lb ed="#P" n="72"/>6. Quod autem illud principium sit actus
+          <lb ed="#P" n="73"/>corporis, patet ex dictis in capite praecedenti,
+          <lb ed="#P" n="74"/>quia principium intrinsecum operandi est 
+          ac<lb break="no" ed="#P" n="75"/>tus, et forma dans esse corpori sic operandi :
+          <lb ed="#P" n="76"/>tale autem est principium sentiendi, quia haec
+          <lb ed="#P" n="77"/>operatio talis est, ut natura sua ab intrinseco
+          <lb ed="#P" n="78"/>principio fieri postulet: ut experientia constat:
+          <lb ed="#P" n="79"/>nam deficienti illo principio, talis operatio
+          <lb ed="#P" n="80"/>fieri non potest. Deinde principium sentiendi,
+          <lb ed="#P" n="81"/>ut sic, si gradum illum non transcendat, 
+          ma<lb break="no" ed="#P" n="82"/>teriale est, sicut et operationes ejus: ergo est
+          <lb ed="#P" n="83"/>actus pendens in fieri, et in esse a materia,
+          <lb ed="#P" n="84"/>nam de ejus potentia educitur: ergo unitur
+          <lb ed="#P" n="85"/>illi ut forma, quia eductio et dependentia a
+          <lb ed="#P" n="86"/>subjecto. non est nisi per unionem formalem
+          <lb ed="#P" n="87"/>ad illud, ut in Metaphysica explicatum est. Est
+          <lb ed="#P" n="88"/>ergo principium sentiendi in animalibus brutis
+          <lb ed="#P" n="89"/>verus actus corporis, unde etiam corpus illud
+          <lb ed="#P" n="90"/>organicum est, ut oculis etiam conspicitur :
+          <lb ed="#P" n="91"/>ergo tale principium est vera anima, et non
+          <lb ed="#P" n="92"/>nisi sensitiva: ergo anima sensitiva est vera
+          <lb ed="#P" n="93"/>anima. Nec in hoc puncto difficultas alicujus
+          <lb ed="#P" n="94"/>momenti occurrit. Quod si aliqua fuerit, vel
+          <lb ed="#P" n="95"/>obiter in discursu hujus capitis, vel copiosius
+          <lb ed="#P" n="96"/>tractando de hujus animae facultatibus 
+          expli<lb break="no" ed="#P" n="97"/>cabitur.
+        </p>
+        <p xml:id="szdada-y11934-d1e518">
+          <lb ed="#P" n="98"/>7. Denique utrumque imveniri in animu 
+          ve<lb break="no" ed="#P" n="99"/>getante ostenditur. — Quod vero sit principium
+          <lb ed="#P" n="100"/>actiomin vitalium negant aliqui. —In anima
+          <lb ed="#P" n="101"/>vero vegetativa res est obscurior, quia in 
+          plan<lb break="no" ed="#P" n="102"/>tis vita est latentior, ut idem philosophus, in
+          <lb ed="#P" n="103"/>dicto lib. de Plant., dixit. Verumtamen 
+          lo<lb break="no" ed="#P" n="104"/>quendo de forma pure vegetativa, qualis est
+          <lb ed="#P" n="105"/>forma plantarum, satis evidens est, esse 
+          ac<lb break="no" ed="#P" n="106"/>tum formalem, et substantialem corporis 
+          plan<lb break="no" ed="#P" n="107"/>tae, vel arboris: nam totum illud compositum
+          <lb ed="#P" n="108"/>materiale est. Unde actus substantialis ejus
+          <lb ed="#P" n="109"/>materialis est, ac proinde pendens a materia,
+          <lb ed="#P" n="110"/>et eductus de potentia illius: ergo unitus illi
+          <pb ed="#P" n="494"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>unioni formali et substantiali. Alterum ergo
+          <lb ed="#P" n="2"/>in illa forma minus est evidens, scilicet, an sit
+          <lb ed="#P" n="3"/>actus operationum vitalium. Propter quam
+          <lb ed="#P" n="4"/>causam moderni aliqui (ut relatum invenio)
+          <lb ed="#P" n="5"/>negare ausi sunt formam vegetativam praecise
+          <lb ed="#P" n="6"/>spectatam esse animam: qui consequenter
+          <lb ed="#P" n="7"/>negant, plantas vivere. Quam fuisse antiquam
+          <lb ed="#P" n="8"/>aliquorum opinionem philosophorum refert
+          <lb ed="#P" n="9"/>Plutarchus, lib. 5, de Placit. Philosoph., c. 26,
+          <lb ed="#P" n="10"/>et Theodoretus, serm. 5, contra Graecos, et
+          <lb ed="#P" n="11"/>plures ex illis philosophis nominat, et 
+          specia<lb break="no" ed="#P" n="12"/>liter Stoicos, quibus etiam illam sententiam
+          <lb ed="#P" n="13"/>tribuit Clemens Alexandrinus, lib. 8Stromat.,
+          <lb ed="#P" n="14"/>prope initium, S 2, FEst ergo, ubi ipse indicat
+          <lb ed="#P" n="15"/>quaestionem esse posse de nomine, de quo 
+          sta<lb break="no" ed="#P" n="16"/>tim dicemus.
+        </p>
+        <p xml:id="szdada-y11934-d1e588">
+          <lb ed="#P" n="17"/>8. Horum fundamentum primum.—eS 
+          ecun<lb break="no" ed="#P" n="18"/>dum.—Primum eorum fundamentum, ac 
+          prin<lb break="no" ed="#P" n="19"/>cipium est jam tactum, quod omnes actiones
+          <lb ed="#P" n="20"/>partis vegetantis transeuntes sunt, et per 
+          altera<lb break="no" ed="#P" n="21"/>tiones mere naturales, et communes rebus non
+          <lb ed="#P" n="22"/>viventibus fiant. Secundum addi potest, quia
+          <lb ed="#P" n="23"/>nihil fit ab arboribus, seu plantis, quod non
+          <lb ed="#P" n="24"/>possit ab extrinseco agente in eis fieri: ergo
+          <lb ed="#P" n="25"/>signum est talem actionem, non esse actum
+          <lb ed="#P" n="26"/>vitae, quia actio sumit speciem suam a 
+          termi<lb break="no" ed="#P" n="27"/>no, et ideo si terminus natura sua non est 
+          vi<lb break="no" ed="#P" n="28"/>talis, nec actio, qua fit, erit vitalis: terminus
+          <lb ed="#P" n="29"/>autem, qui potest ab extrinseco agente fieri,
+          <lb ed="#P" n="30"/>non est vitalis: ergo nec actio: sic enim 
+          mo<lb break="no" ed="#P" n="31"/>tus coeli vitalis non est, quia suflicienter ab
+          <lb ed="#P" n="32"/>extrinseco fieri potest. Probatur ergo 
+          antece<lb break="no" ed="#P" n="33"/>dens, quia prima operatio plantae est nutritio
+          <lb ed="#P" n="34"/>et augmentatio: at vero argumentum arboris
+          <lb ed="#P" n="35"/>potest fieri ab extrinseco agente: nam potest
+          <lb ed="#P" n="36"/>Deus creare arborem cum toto augmento,
+          <lb ed="#P" n="37"/>quod per nutritionem, vel augmentationem
+          <lb ed="#P" n="38"/>consequi potest.
+        </p>
+        <p xml:id="szdada-y11934-d1e639">
+          <lb ed="#P" n="39"/>9. Tertium fundamentum. — Dices posse 
+          qui<lb break="no" ed="#P" n="40"/>dem Deum totam illam molem simul creare,
+          <lb ed="#P" n="41"/>et ita posse concreando facere id, quod per
+          <lb ed="#P" n="42"/>augmentum acquiri posset: non tamen posse
+          <lb ed="#P" n="43"/>per se facere illud augmentum sine actione
+          <lb ed="#P" n="44"/>vitali. Sed contra hoc instatur, quia posset
+          <lb ed="#P" n="45"/>Deus sine ulla actione ipsius plantae 
+          augmen<lb break="no" ed="#P" n="46"/>tum ejus eodem successivo modo paulatim
+          <lb ed="#P" n="47"/>efficere, applicando nutrimentum per solam
+          <lb ed="#P" n="48"/>suam motionem localem suspendendo 
+          actio<lb break="no" ed="#P" n="49"/>nem plantae, non praebendo illi concursum
+          <lb ed="#P" n="50"/>necessarium ad agendum, et per solam suam
+          <lb ed="#P" n="51"/>potentiam efficiendo, quidquid planta posset
+          <lb ed="#P" n="52"/>efficere: in hoc enim nulla est repugnantia.
+          <lb ed="#P" n="53"/>Et per illud satis videtur ostendi in tota illa
+          <lb ed="#P" n="54"/>operatione veram vitae rationem non inveniri:
+          <lb ed="#P" n="55"/>et simile argumentum de nutritone, et aliis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>actionibus plantarum fieri potest. Et aeque
+          <lb ed="#P" n="57"/>procedit in animalibus, et hominibus spectatis
+          <lb ed="#P" n="58"/>praecise, quatenus se nutriunt, vel augent, etc.,
+          <lb ed="#P" n="59"/>nimirum quod ex ea praecise ratione non 
+          vi<lb break="no" ed="#P" n="60"/>vant, sed quatenus in eis aliquid cognitionis,
+          <lb ed="#P" n="61"/>aut sensus in illa actione miscetur, ut quod
+          <lb ed="#P" n="62"/>discernunt alimentum, sentiunt famem, et
+          <lb ed="#P" n="63"/>ideo moventur ad cibum quaerendum, etc.
+          <lb ed="#P" n="64"/>Unde quidam antiqui, ut vitam plantis 
+          con<lb break="no" ed="#P" n="65"/>cederent, sensum etiam illis tribuebant, 
+          di<lb break="no" ed="#P" n="66"/>centes illas appetere cibum, illumque 
+          discer<lb break="no" ed="#P" n="67"/>nere, et in eo capere voluptatem, sentientes
+          <lb ed="#P" n="68"/>sine his non esse vitam. Unde cum illa de
+          <lb ed="#P" n="69"/>plantis incredibilia et ridicula sint, sequitur
+          <lb ed="#P" n="70"/>nec vitam habere, nec earum formam esse
+          <lb ed="#P" n="71"/>animam. Et confirmari tertio hoc potest 
+          ra<lb break="no" ed="#P" n="72"/>tione, quae videtur maxime a priori, quia nulla
+          <lb ed="#P" n="73"/>res creata habet vitam, nisi quatenus aliquo
+          <lb ed="#P" n="74"/>modo participat vitam Dei: sed non 
+          partici<lb break="no" ed="#P" n="75"/>pant vitam Dei, nisi qui cognitionem et 
+          amo<lb break="no" ed="#P" n="76"/>rem participant: ergo quidquid non participat
+          <lb ed="#P" n="77"/>cognitionem et amorem, non vivit: ac 
+          su<lb break="no" ed="#P" n="78"/>binde sine sensu, vel intellectu non est vita.
+          <lb ed="#P" n="79"/>Major videtur evidens, quia nihil perfectionis
+          <lb ed="#P" n="80"/>est in creatura, nisi per participationem 
+          di<lb break="no" ed="#P" n="81"/>vinae perfectionis. Unde creatura non est ens,
+          <lb ed="#P" n="82"/>nisi per participationem divini esse, seu divinae
+          <lb ed="#P" n="83"/>entitatis: nec est substantia nisi per 
+          partici<lb break="no" ed="#P" n="84"/>pationem divinae substantia: ergo nec est
+          <lb ed="#P" n="85"/>vivens, nisi per participationem vitae divinae.
+        </p>
+        <p xml:id="szdada-y11934-d1e746">
+          <lb ed="#P" n="86"/>10. Effugium proximi fundamenti 
+          obstrui<lb break="no" ed="#P" n="87"/>tur. — Dices consequentiam non esse 
+          forma<lb break="no" ed="#P" n="88"/>lem: nam creatura est corpus, et non est
+          <lb ed="#P" n="89"/>participatio divinae corporeitatis. Respondeo
+          <lb ed="#P" n="90"/>consequentiam esse formalem, habereque
+          <lb ed="#P" n="91"/>eamdem rationem in qualibet perfectione 
+          sim<lb break="no" ed="#P" n="92"/>pliciter simplici: nam omnis illa est in Deo
+          <lb ed="#P" n="93"/>formaliter, et per essentiam: et ideo si in
+          <lb ed="#P" n="94"/>creatura invenitur formaliter, necessario esse
+          <lb ed="#P" n="95"/>debet per participationem similis perfectionis
+          <lb ed="#P" n="96"/>Dei. Secus vero est in perfectione non 
+          simpli<lb break="no" ed="#P" n="97"/>citer, quae in Deo tantum eminenter invenitur:
+          <lb ed="#P" n="98"/>et ideo licet ab ipso participetur, non tamen
+          <lb ed="#P" n="99"/>per formalem convenientiam participatam,
+          <lb ed="#P" n="100"/>sed per alium inferiorem modum. Vivens 
+          au<lb break="no" ed="#P" n="101"/>tem, ut sic, dicit perfectionem simpliciter,
+          <lb ed="#P" n="102"/>cum in Deo formaliter, et absolute, ac per
+          <lb ed="#P" n="103"/>essentiam inveniatnr: et ideo non potest in
+          <lb ed="#P" n="104"/>creatura inveniri, nisi per furmalem 
+          partici<lb break="no" ed="#P" n="105"/>pationem vitae divinae: secus vero est de 
+          ra<lb break="no" ed="#P" n="106"/>tione corporis, quae perfectionem simpliciter
+          <lb ed="#P" n="107"/>non dicit. Jam ergo probatur prima 
+          sub<lb break="no" ed="#P" n="108"/>sumpta propositio, quia in Deo nulla ratio
+          <lb ed="#P" n="109"/>vitae invenitur, nisi quia cognoscit et amat:
+          <lb ed="#P" n="110"/>ergo vita Dei non potest formaliter participari
+          <pb ed="#P" n="495"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nisi per cognitionem et amorem: ergo e 
+          con<lb break="no" ed="#P" n="2"/>trario, quae non participant cognitionem et
+          <lb ed="#P" n="3"/>amorem aliquo modo, nullo modo vitam Dei
+          <lb ed="#P" n="4"/>participant, ac subinde non vivunt: ergo
+          <lb ed="#P" n="5"/>plantae non vivunt, nec forma earum est
+          <lb ed="#P" n="6"/>anima.
+        </p>
+        <p xml:id="szdada-y11934-d1e820">
+          <lb ed="#P" n="7"/>11. Pars affirmans statuitur. — 
+          Nihilomi<lb break="no" ed="#P" n="8"/>nus, et in Theologia certum, et in Philosophia
+          <lb ed="#P" n="9"/>evidens est, et plantas vivere et formam 
+          ve<lb break="no" ed="#P" n="10"/>getativam esse veram animam. Eamque ob
+          <lb ed="#P" n="11"/>rem in hac veritate asserenda omnes 
+          philoso<lb break="no" ed="#P" n="12"/>phi et theologi conveniunt. Et imprimis habet
+          <lb ed="#P" n="13"/>fundamentum in Scriptura, dicit enim Paulus
+          <lb ed="#P" n="14"/>1, Cor., 15: Tu quod seminas, non vivificatur,
+          <lb ed="#P" n="15"/>nisi prius moriatur. Ubi productionem plantae,
+          <lb ed="#P" n="16"/>vivificationem appellat: ergo quod sic 
+          produ<lb break="no" ed="#P" n="17"/>citur vivit, utique vita vegetativa, ut 
+          ponde<lb break="no" ed="#P" n="18"/>ravit Augustinus, lib. 1, de Civitate, cap. 20,
+          <lb ed="#P" n="19"/>dicens: Zoc genus rerum, id est, plantarum,
+          <lb ed="#P" n="20"/>quampnis non sentiat, vivit, ac per hoc potest
+          <lb ed="#P" n="21"/>mori et occidi: et adjungit illud Psalm. 71,
+          <lb ed="#P" n="22"/>et occidit in grandine vineas eorun. Unde 
+          Dio<lb break="no" ed="#P" n="23"/>nysius, cap. 6, de divin. Nom., prope initium,
+          <lb ed="#P" n="24"/>quasi respondenas tertiae rationi a nobis factae,
+          <lb ed="#P" n="25"/>inquit, ez ipsa, utique vita Dei, et animantes
+          <lb ed="#P" n="26"/>omnes, et plantee juata evtrenam vite 
+          harmo<lb break="no" ed="#P" n="27"/>niam, ut vivant acceperunt. Et iterum, in fine:
+          <lb ed="#P" n="28"/>Ha ipsa (inquit) vivificantur et confoventur,
+          <lb ed="#P" n="29"/>et animantes cuncte, atque arbores, et sive
+          <lb ed="#P" n="30"/>spiritualem diveris, sive rationalem, sive 
+          sen<lb break="no" ed="#P" n="31"/>sitivam, sive nutritivam, sive vegetativam, ec
+          <lb ed="#P" n="32"/>ipsa vivit, etc. Hinc Augustinus, lib. de vera
+          <lb ed="#P" n="33"/>Helig., cap. 55. Non sit, ait, vobis religio
+          <lb ed="#P" n="34"/>illius vitge, qua dicuntur arbores vivere, 
+          quo<lb break="no" ed="#P" n="35"/>niam nullus sensus in illa est. Et divisionem
+          <lb ed="#P" n="36"/>trium animarum tradit, libr. 8, de Civitate,
+          <lb ed="#P" n="37"/>cap. S. Idem Aristoteles in citato loco, et 
+          cer<lb break="no" ed="#P" n="38"/>tius in lib. 2, de Anima, cap. 1, et 2, et saepe
+          <lb ed="#P" n="39"/>aliis in locis, quae infra notabimus. Et D. 
+          Tho<lb break="no" ed="#P" n="40"/>mas, 1. part., quaest. 1S, art. 1 et 2, ut 
+          omit<lb break="no" ed="#P" n="41"/>tam alios philosophos et theologos, qui eos
+          <lb ed="#P" n="42"/>sine contradictione secuti sunt.
+        </p>
+        <p xml:id="szdada-y11934-d1e901">
+          <lb ed="#P" n="43"/>12. Probatur deinde ratione physice 
+          demons<lb break="no" ed="#P" n="44"/>trante. — Ratione probatur, quia vegetatio
+          <lb ed="#P" n="45"/>ipsa, seu nutritio est vita quaedam, seu vitalis
+          <lb ed="#P" n="46"/>operatio: ergo forma, quae ita informat 
+          cor<lb break="no" ed="#P" n="47"/>pus, ut sit principium talis operationis, est
+          <lb ed="#P" n="48"/>anima. Consequentia evidens est ex supra 
+          dic<lb break="no" ed="#P" n="49"/>üs. Antecedens vero pendere quidem potest
+          <lb ed="#P" n="50"/>ex significatione vocis: ut dixit Alexandrinus:
+          <lb ed="#P" n="51"/>vocis tamen significatio sumenda est ex 
+          com<lb break="no" ed="#P" n="52"/>muni usu, et prima impositione ab omnibus
+          <lb ed="#P" n="53"/>recepta. Ostendimus autem supra ex communi
+          <lb ed="#P" n="54"/>peritorum sententia, et omnium fere 
+          homi<lb break="no" ed="#P" n="55"/>num consensione in rebus creatis, in hoc dis-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tingui viventia a non viventibus, quod non
+          <lb ed="#P" n="57"/>viventia non habent intrinsecum principium
+          <lb ed="#P" n="58"/>se movendi per se loquendo, ut in elementis,
+          <lb ed="#P" n="59"/>lapidibus, metallis et similibus videre licet.
+          <lb ed="#P" n="60"/>Dico autem per se loquendo, ut omittam 
+          quaes<lb break="no" ed="#P" n="61"/>tionem de gravibus et levibus, et de 
+          reduc<lb break="no" ed="#P" n="62"/>tione aquae calidae ad pristinam frigiditatem
+          <lb ed="#P" n="63"/>et similibus: de quibus dubitari solet, an illae
+          <lb ed="#P" n="64"/>actiones sint a principio intrinseco rerum, quae
+          <lb ed="#P" n="65"/>sic moventur, a qua quaestione nunc abstinere
+          <lb ed="#P" n="66"/>volumus. Nam quidquid in ea dicatur, certum
+          <lb ed="#P" n="67"/>est illam actionem non esse vitalem, quia non
+          <lb ed="#P" n="68"/>est per se, sed quasi per accidens in tali 
+          na<lb break="no" ed="#P" n="69"/>tura, quia non est per se instituta, ut in illa,
+          <lb ed="#P" n="70"/>seu per illam actionem se exerceat: sed per
+          <lb ed="#P" n="71"/>accidens illi convenit, ut statum connaturalem
+          <lb ed="#P" n="72"/>acquirat, vel recuperet, in eo quiescat. 
+          Viven<lb break="no" ed="#P" n="73"/>tia autem se ipsa movere per se postulant, ita
+          <lb ed="#P" n="74"/>ut ad illorum perfectionem hoc per se 
+          perti<lb break="no" ed="#P" n="75"/>neat: et tunc censeantur esse in proprio ac
+          <lb ed="#P" n="76"/>perfecto statu, quando actu sunt in connaturali
+          <lb ed="#P" n="77"/>operatione, qua se ipsa movent. At vero plantae
+          <lb ed="#P" n="78"/>per se, et ab intrinseca natura postulant esse
+          <lb ed="#P" n="79"/>in continua actione et motione sui, vel ut se
+          <lb ed="#P" n="80"/>conservent nutriendo, vel ut ad perfectum 
+          sta<lb break="no" ed="#P" n="81"/>tum augmenti sua corpora perducant, vel ut
+          <lb ed="#P" n="82"/>sua individua conservent se nutriendo, vel ut
+          <lb ed="#P" n="83"/>conservent speciem ex sua substantia aliquid
+          <lb ed="#P" n="84"/>generando, vel semen ad generationem aptum
+          <lb ed="#P" n="85"/>praeparando: ergo hujusmodi corpora viventia
+          <lb ed="#P" n="86"/>sunt, et opera illorum vitalia sunt: ergo et
+          <lb ed="#P" n="87"/>forma illorum vera est anima, et haec quidem
+          <lb ed="#P" n="88"/>est physica demonstratio; nisi quis protervus
+          <lb ed="#P" n="89"/>existat, dicens, non satis esse ad rationem
+          <lb ed="#P" n="90"/>vitae, vel operationem vitalem, quod sit illo
+          <lb ed="#P" n="91"/>modo a propria forma in suo naturali statu 
+          pe<lb break="no" ed="#P" n="92"/>tente talem actionem, qua idem suppositum
+          <lb ed="#P" n="93"/>seipsum moveat, sed esse necessarium, ut 
+          ac<lb break="no" ed="#P" n="94"/>tio sit ex his, quae ab eadem potentia fiunt: et
+          <lb ed="#P" n="95"/>recipiuntur immediate: sic vero respondens,
+          <lb ed="#P" n="96"/>relinquendus est, tanquam de voce 
+          conten<lb break="no" ed="#P" n="97"/>dens, contra communem usum ejusdem vocis:
+          <lb ed="#P" n="98"/>et nihitominus solvendo argumenta hanc 
+          pro<lb break="no" ed="#P" n="99"/>tervam contentionem suflicientissime 
+          refuta<lb break="no" ed="#P" n="100"/>bimus.
+        </p>
+        <p xml:id="szdada-y11934-d1e1031">
+          <lb ed="#P" n="101"/>13. Ad primum fundamentum in n. 8, vel 
+          po<lb break="no" ed="#P" n="102"/>tius secundum quoad primam probationem. —
+          <lb ed="#P" n="103"/>In primo ergo fundamento contrariae 
+          senten<lb break="no" ed="#P" n="104"/>tiae, duo tanguntur, unum est, quod actiones
+          <lb ed="#P" n="105"/>partis vegetantis sunt transeuntes: aliud est
+          <lb ed="#P" n="106"/>quod fiunt per alterationem primarum 
+          qua<lb break="no" ed="#P" n="107"/>litatum. Ad priorem autem partem 
+          respon<lb break="no" ed="#P" n="108"/>deri potest primo, non esse contra rationem
+          <lb ed="#P" n="109"/>actionis vitalis quod sit transiens: vel e 
+          con<lb break="no" ed="#P" n="110"/>trario non esse de ratione actionis vitalis, quod
+          <pb ed="#P" n="496"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sit immanens: nam licet omnis actio 
+          imma<lb break="no" ed="#P" n="2"/>nens vitalis sit, non videtur necessarium, ut e
+          <lb ed="#P" n="3"/>converso omnis actus vitalis sit immanens: et
+          <lb ed="#P" n="4"/>similiter licet actio trausiens, ut sic, et ex 
+          ge<lb break="no" ed="#P" n="5"/>nerali ratione sua non postulet esse vitalis ,
+          <lb ed="#P" n="6"/>non tamen illi repugnat, quod ex peculiari
+          <lb ed="#P" n="7"/>differentia aut modo, quo fit, sit vitalis, ut in
+          <lb ed="#P" n="8"/>plantis esse cernitur, tactumque est, et magis
+          <lb ed="#P" n="9"/>statim explicabitur. Ita sentit Fonseca, lib. 9
+          <lb ed="#P" n="10"/>Metaphysicae, cap. 9, text. 16, in Comm. 
+          Se<lb break="no" ed="#P" n="11"/>cundo vero ne in hoc etiam fiat quaestio de
+          <lb ed="#P" n="12"/>nomine actionis immanentis, ejusve 
+          significa<lb break="no" ed="#P" n="13"/>to, distingui potest duplex actio immanens:
+          <lb ed="#P" n="14"/>nam uno modo dici potest immanens, quia
+          <lb ed="#P" n="15"/>manet, et inhaeret in potentia, a qua proxime
+          <lb ed="#P" n="16"/>fit, seu in eodem organo per quod fit, vel 
+          so<lb break="no" ed="#P" n="17"/>lum quia est in eodem supposito, seu toto,
+          <lb ed="#P" n="18"/>licet in eo fiat ab una parte per aliam, 
+          si<lb break="no" ed="#P" n="19"/>cut animalia dicuntur se movere per distinctas
+          <lb ed="#P" n="20"/>partes, unam per se moventem, et aliam per
+          <lb ed="#P" n="21"/>se motam. Si ergo intelligatur de ratione 
+          ac<lb break="no" ed="#P" n="22"/>tus vitalis esse, ut immanens primo modo,
+          <lb ed="#P" n="23"/>sic negatur assumptum, ut jam negatum est:
+          <lb ed="#P" n="24"/>si vero id intelligatur de actu immanenti 
+          ge<lb break="no" ed="#P" n="25"/>neratim sumpto, ut ab illis duobus modis
+          <lb ed="#P" n="26"/>abstrahit, concessa illa propositione, negatur,
+          <lb ed="#P" n="27"/>proprias actiones animae vegetativae ita esse
+          <lb ed="#P" n="28"/>transeuntes, ut nullo modo sint immanentes.
+          <lb ed="#P" n="29"/>Nam sunt immanentes respectu totius, seu
+          <lb ed="#P" n="30"/>suppositi se per se moventis, ac perficientis, ut
+          <lb ed="#P" n="31"/>est per se evidens, et ex declaratione data et
+          <lb ed="#P" n="32"/>ex ipsa experientia. Quod autem haec 
+          imma<lb break="no" ed="#P" n="33"/>nentia ad rationem vitalis operationis sufficiat,
+          <lb ed="#P" n="34"/>probari potest, ex generali ratione viventis
+          <lb ed="#P" n="35"/>jam declarata: quia illa immanentia suffcit,
+          <lb ed="#P" n="36"/>ut idem ab intrinseco moveat seipsum ex 
+          vir<lb break="no" ed="#P" n="37"/>tute ejusdem formae, quae est principium 
+          pri<lb break="no" ed="#P" n="38"/>mum, et intrinsecum talis operationis in 
+          eo<lb break="no" ed="#P" n="39"/>dem supposito, qui dat sui esse: ergo ille
+          <lb ed="#P" n="40"/>modus operandi immanenter, satis est, ut et
+          <lb ed="#P" n="41"/>operans sit vivens, et forma ejus sit anima, et
+          <lb ed="#P" n="42"/>actio ejus vitalis sit. Et pro hac responsione
+          <lb ed="#P" n="43"/>videri possunt, quae dixi in Metaphysica,
+          <lb ed="#P" n="44"/>disput. 48, sect. 6, num. 10.
+        </p>
+        <p xml:id="szdada-y11934-d1e1155">
+          <lb ed="#P" n="45"/>14. Responsio quoad secundam probationem
+          <lb ed="#P" n="46"/>in eodem num. 1. — Unde ad alteram partem,
+          <lb ed="#P" n="47"/>quod tales actiones fiunt per alterationes 
+          ma<lb break="no" ed="#P" n="48"/>teriales, et per qualitates elementares et 
+          com<lb break="no" ed="#P" n="49"/>munes rebus inanimatis: simili modo 
+          respon<lb break="no" ed="#P" n="50"/>detur imprimis negando illationem. Nam hoc
+          <lb ed="#P" n="51"/>non repugnat actioni vitali, quia et alteratio
+          <lb ed="#P" n="52"/>si sit circa seipsum, et ex propria virtute 
+          ac<lb break="no" ed="#P" n="53"/>tiva intrinseca, potest vitalis esse ex modo,
+          <lb ed="#P" n="54"/>quo fit, et qualitas elementaris, ut est animae
+          <lb ed="#P" n="55"/>instrumentum, potest esse principium proxi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mum vitaliter operandi, sicut calor in animali
+          <lb ed="#P" n="57"/>est instrumentum animae ad producendam 
+          car<lb break="no" ed="#P" n="58"/>nem, quod non habet in igne, vel in alio 
+          in<lb break="no" ed="#P" n="59"/>feriori corpore. Deinde vero addimus propter
+          <lb ed="#P" n="60"/>has qualitates habere animám vegetantem 
+          pe<lb break="no" ed="#P" n="61"/>culiares facultates et potentias, quae neque in
+          <lb ed="#P" n="62"/>elementis, neque in mixtis inanimatis 
+          inve<lb break="no" ed="#P" n="63"/>niuntur, ut suntfacultates nutriendi, trahendo
+          <lb ed="#P" n="64"/>alimentum, et intimo quodam modo illud
+          <lb ed="#P" n="65"/>distribuendo, convertendo et sibi uniendo,
+          <lb ed="#P" n="66"/>et facultas fabricandi semen, et illi tribuendi
+          <lb ed="#P" n="67"/>virtutem fabricandi, et organisandi corpus:
+          <lb ed="#P" n="68"/>sive facultates hae sint in re distinctae, sive
+          <lb ed="#P" n="69"/>una totam hanc virtutem contineat. Nam
+          <lb ed="#P" n="70"/>utrumque sit, ostenditur inde in tali forma
+          <lb ed="#P" n="71"/>altior modus operandi ab intrinseco, quam in
+          <lb ed="#P" n="72"/>caeteris inanimatorum formis inveniatur. Et
+          <lb ed="#P" n="73"/>hac ratione dixit Aristoteles, lib. 2, de Anim.,
+          <lb ed="#P" n="74"/>cap. 4, animam esse augendi, nutriendique
+          <lb ed="#P" n="75"/>causam, non elementa.
+        </p>
+        <p xml:id="szdada-y11934-d1e1228">
+          <lb ed="#P" n="76"/>15. Ad secundum fundamentum in eodem
+          <lb ed="#P" n="77"/>n. 8. — Ad secundum imprimis bene ibi 
+          res<lb break="no" ed="#P" n="78"/>ponsum est non esse eamdem rationem, de
+          <lb ed="#P" n="79"/>perfectione, vel magnitudine corporis viventis
+          <lb ed="#P" n="80"/>simul producta cum ipso vivente, et quando
+          <lb ed="#P" n="81"/>Deus creavit hominem, vel animalia, et 
+          arbo<lb break="no" ed="#P" n="82"/>res perfectae magnitudinis, vel de illa quae post
+          <lb ed="#P" n="83"/>rem in parva quantitate productam, paulatim
+          <lb ed="#P" n="84"/>acquiritur per propriam, et intrinsecam 
+          actio<lb break="no" ed="#P" n="85"/>nem rei jam genitae. Quia in priori 
+          productio<lb break="no" ed="#P" n="86"/>ne unica est actio momentanea mere transiens
+          <lb ed="#P" n="87"/>ab intrinseco agente: in posteriori vero actio
+          <lb ed="#P" n="88"/>argumentativa sic perfectiva rei prius 
+          pro<lb break="no" ed="#P" n="89"/>ducta est distincta, et est ab intrinseco 
+          princi<lb break="no" ed="#P" n="90"/>pio ejusdem rei se perficientis, et ideo 
+          aug<lb break="no" ed="#P" n="91"/>mentatio est actio vitalis, licet prima 
+          produc<lb break="no" ed="#P" n="92"/>tio, vel comproductio ejusdem perfectionis
+          <lb ed="#P" n="93"/>vitalis non sit. Nec hoc est mirum, quia illa
+          <lb ed="#P" n="94"/>prior productio non est secundum modum, et
+          <lb ed="#P" n="95"/>virtutem agentium naturalium, sed per 
+          altio<lb break="no" ed="#P" n="96"/>rem virtutem auctoris naturae.
+        </p>
+        <p xml:id="szdada-y11934-d1e1276">
+          <lb ed="#P" n="97"/>16. Ad instantiam in mun. 9. — Unde ad
+          <lb ed="#P" n="98"/>replicam in argumento factam concedo Deum
+          <lb ed="#P" n="99"/>de absoluta potentia posse paulatim augere
+          <lb ed="#P" n="100"/>arborem, verbi gratia, cum eadem successione,
+          <lb ed="#P" n="101"/>conversione, et unione, ac distributione 
+          ali<lb break="no" ed="#P" n="102"/>menti: et aggeneratione eorumdem 
+          membro<lb break="no" ed="#P" n="103"/>rum: quia in hoc nulla apparet repugnantia,
+          <lb ed="#P" n="104"/>ut argumentum probat. Tunc autem nulla ibi
+          <lb ed="#P" n="105"/>interveniret actio vitalis, quia tota esset ab
+          <lb ed="#P" n="106"/>intrinseco principio. Et ideo non sequitur, 
+          ac<lb break="no" ed="#P" n="107"/>tionem non esse vitalem quando fit ab eadem
+          <lb ed="#P" n="108"/>arbore parva paulatim se augente, quia tunc
+          <lb ed="#P" n="109"/>fit a principio intrinseco, et modo connaturali,
+          <lb ed="#P" n="110"/>ut explicatum est. Unde concedo non repugna-
+          <pb ed="#P" n="497"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>re, eamdem rem, quae per actionem vitalem
+          <lb ed="#P" n="2"/>fit, posse fieri ab altero agente absque vitali
+          <lb ed="#P" n="3"/>actione, si diverso modo ftiat. Nam fortasse
+          <lb ed="#P" n="4"/>etiam ipsas entitates, seu qualitates actuum
+          <lb ed="#P" n="5"/>vitalium rigorose permanentium po*est Deus
+          <lb ed="#P" n="6"/>facere sine concursu potentiae, et tunc actiones
+          <lb ed="#P" n="7"/>non essent vitales, licet res, seu qualitates 
+          pro<lb break="no" ed="#P" n="8"/>ductae essent eaedem. Quod si ulterius inferas
+          <lb ed="#P" n="9"/>sequi dari posse duas actiones ejusdem speciei
+          <lb ed="#P" n="10"/>a duobus agentibus, et unam esse vitalem, et
+          <lb ed="#P" n="11"/>non aliam, quia una fit ab intrinseco principio
+          <lb ed="#P" n="12"/>ejus in quo fit: et altera ab extrinseco agente,
+          <lb ed="#P" n="13"/>cum tamen eumdem terminum producant, ac
+          <lb ed="#P" n="14"/>proinde sint ejusdem speciei. Responderi 
+          po<lb break="no" ed="#P" n="15"/>test, vel negando sequelam, quia illae actiones
+          <lb ed="#P" n="16"/>non sunt ejusdem speciei: quia identitas 
+          ma<lb break="no" ed="#P" n="17"/>terialis termini non semper sufficit ad 
+          unita<lb break="no" ed="#P" n="18"/>tem specificam actionis, si modus efticiendi
+          <lb ed="#P" n="19"/>diversus sit, vel certe si in praesenti non 
+          inve<lb break="no" ed="#P" n="20"/>nitur ratio sufficiens ad distinctionem 
+          specifi<lb break="no" ed="#P" n="21"/>cam actionum, potest facile concedi sequela :
+          <lb ed="#P" n="22"/>quia vitalitas actionum non dicit aliquid 
+          abso<lb break="no" ed="#P" n="23"/>lutum in ipso termino, sed habitudinem ad
+          <lb ed="#P" n="24"/>tale principium cum denominatione ab illo,
+          <lb ed="#P" n="25"/>quae habitudo, et denominatione potest esse
+          <lb ed="#P" n="26"/>propter diversitatem actionis, etiamsi 
+          diver<lb break="no" ed="#P" n="27"/>sitas sit tantum numerica per respectum ad
+          <lb ed="#P" n="28"/>distinctum agens, et ad specificam non 
+          per<lb break="no" ed="#P" n="29"/>veniat.
+        </p>
+        <p xml:id="szdada-y11934-d1e1376">
+          <lb ed="#P" n="30"/>17. Instatur adhuc contra vitalitatem 
+          plan<lb break="no" ed="#P" n="31"/>tarum variis exemplis. — Sed instabis, quia
+          <lb ed="#P" n="32"/>totus ille modus actionis in seipsum, et cum
+          <lb ed="#P" n="33"/>respectu ad proximum principium 
+          intrinse<lb break="no" ed="#P" n="34"/>cum in rebus inanimatis reperitur, nam ignis
+          <lb ed="#P" n="35"/>seipsum auget, trahendo, ac convertendo 
+          ma<lb break="no" ed="#P" n="36"/>teriam, et illam tandem sibi uniendo, quae
+          <lb ed="#P" n="37"/>unitio actio est manens in ipsomet igne, seu
+          <lb ed="#P" n="38"/>augente, et ita respectu illius est ab intrinseco
+          <lb ed="#P" n="39"/>principio: et similiter se nutrit aliquando,
+          <lb ed="#P" n="40"/>licet non augeatur, ut in igne lucernae videre
+          <lb ed="#P" n="41"/>licet. Unde Aristoteles, libr. 2, de Generat.,
+          <lb ed="#P" n="42"/>cap. S, text. 50, dicit, inter elementa ignem
+          <lb ed="#P" n="43"/>nutriri, et in libr. 1 Mag. Moral., cap. 4, 
+          vir<lb break="no" ed="#P" n="44"/>tutem altricem plantae cum virtute ignis 
+          aequi<lb break="no" ed="#P" n="45"/>parare videtur. Simili modo in lapidibus 
+          qui<lb break="no" ed="#P" n="46"/>busdam, et metallis idem modus nutrimenti
+          <lb ed="#P" n="47"/>et augmenti esse videtur. Ad hoc vero 
+          res<lb break="no" ed="#P" n="48"/>ponsio communis est, hanc nutritionem et
+          <lb ed="#P" n="49"/>accretionem ignis, vel lapidum, ac similium
+          <lb ed="#P" n="50"/>rerum solum esse per juxtapositionem, et per
+          <lb ed="#P" n="51"/>actionem mere transeuntem inter agens et
+          <lb ed="#P" n="52"/>patiens, quae sunt distincta supposita: Quae
+          <lb ed="#P" n="53"/>nutritio imprimis est mere accidentaria ad
+          <lb ed="#P" n="54"/>naturalem statum ignis, vel cujuscumque 
+          al<lb break="no" ed="#P" n="55"/>terius inanimati corporis, non enim ordinatur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ad perfectionem ipsius agentis, sed ad 
+          gene<lb break="no" ed="#P" n="57"/>randum sibi simili. Quod autem inde sequatur
+          <lb ed="#P" n="58"/>unio inter agens et patiens, et quod ex 
+          utro<lb break="no" ed="#P" n="59"/>que resultet unum majus, quasi per accidens
+          <lb ed="#P" n="60"/>evenit ex propinquitate et homogeneitate 
+          in<lb break="no" ed="#P" n="61"/>ter agens et patiens. Unde si ignis inflammet
+          <lb ed="#P" n="62"/>stupam distantem, ut interdum accidit, non
+          <lb ed="#P" n="63"/>augebitur, sed generabit sibi similem per 
+          ac<lb break="no" ed="#P" n="64"/>tionem mere naturalem sine ulla specie vitae
+          <lb ed="#P" n="65"/>cum tamen actio sit ejusdem rationis: unde
+          <lb ed="#P" n="66"/>non magis est a principio intrinseco, quando
+          <lb ed="#P" n="67"/>ignis unitur simul alteri parti denuo ignitae, et
+          <lb ed="#P" n="68"/>ideo augeri dicitur, nec illa unitio magis est
+          <lb ed="#P" n="69"/>in igne generante, quam in genito, nec 
+          vide<lb break="no" ed="#P" n="70"/>tur esse propria; ac per se actio, sednaturaliter
+          <lb ed="#P" n="71"/>resultans ex propinquitate corporum ejusdem
+          <lb ed="#P" n="72"/>rationis, quae facile permiscentur: uti uniur
+          <lb ed="#P" n="73"/>tur duae aquae fluentes quando contingunt.
+        </p>
+        <p xml:id="szdada-y11934-d1e1476">
+          <lb ed="#P" n="74"/>18. Idem discrimen declarat Aristoteles. —
+          <lb ed="#P" n="75"/>Deinde hanc differentiam inter ignis 
+          nutri<lb break="no" ed="#P" n="76"/>tionem, seu augmentum et vegetabilium,
+          <lb ed="#P" n="77"/>declarat Aristoteles, lib. 2, de Anim., cap. 4,
+          <lb ed="#P" n="78"/>text. 41, ex eo, quod ignis accretio in 
+          infini<lb break="no" ed="#P" n="79"/>tun progreditur, et eo usque fit, quousque sit
+          <lb ed="#P" n="80"/>combustibile, at eorum omnium, que natura
+          <lb ed="#P" n="81"/>constant, id est, vivunt, seu vitam habent, est
+          <lb ed="#P" n="82"/>finis tam magnitudinis, quam accretionis, et
+          <lb ed="#P" n="83"/>hec omnia anima sunt. Ex hoc enim signo
+          <lb ed="#P" n="84"/>optime colligitur, accretionem in igne non
+          <lb ed="#P" n="85"/>esse quasi ex institutione talis naturae, nec
+          <lb ed="#P" n="86"/>quia per se requiratur ad ignis praeexistentis
+          <lb ed="#P" n="87"/>perfectionem, sed veluti ex accidenti consequi
+          <lb ed="#P" n="88"/>ex naturali virtute generandi sibi simile, 
+          edu<lb break="no" ed="#P" n="89"/>cendo formam ex materia sibi propinqua. In
+          <lb ed="#P" n="90"/>plantis vero, et aliis, quae vegetantur, esse ex
+          <lb ed="#P" n="91"/>peculiari perfectione, et ordine talis naturae,
+          <lb ed="#P" n="92"/>quae definitam perfectionem, et modus 
+          acqui<lb break="no" ed="#P" n="93"/>rendi illam propriam perfectionem talibus
+          <lb ed="#P" n="94"/>rebus praescripsit. ltem ostenditur illo signo
+          <lb ed="#P" n="95"/>accretionem ignis fieri tantum per 
+          appositio<lb break="no" ed="#P" n="96"/>nem unius corporis ad aliud, quae in 
+          eorpori<lb break="no" ed="#P" n="97"/>bus ejusdem rationis est quasi accidentaria.
+          <lb ed="#P" n="98"/>Et ideo in quacumque mole, et in quocumque
+          <lb ed="#P" n="99"/>elemento et mixto, si aliud ab intrinseco non
+          <lb ed="#P" n="100"/>obstet, fieri potest. Contrarium vero 
+          ostendi<lb break="no" ed="#P" n="101"/>tur in vegetabilibus, ideo enim certum 
+          termi<lb break="no" ed="#P" n="102"/>num magnitudinis requirunt ab intrinseco,
+          <lb ed="#P" n="103"/>quia peculiari facultate augentur, quae finitae
+          <lb ed="#P" n="104"/>virtutis est: et ideo in modo illo intrinsece
+          <lb ed="#P" n="105"/>accipiendi, vel attrahendi cibum, seu 
+          nutri<lb break="no" ed="#P" n="106"/>mentum, et elaborandi illud, certum 
+          termi<lb break="no" ed="#P" n="107"/>num habet.
+        </p>
+        <p xml:id="szdada-y11934-d1e1552">
+          <lb ed="#P" n="108"/>19. Declaratur etiam aliter. — Est etiam
+          <lb ed="#P" n="109"/>optimum argumentum, quod sumitur ex 
+          di<lb break="no" ed="#P" n="110"/>versa dispositione corporis, ignis, verbt gratia,
+          <pb ed="#P" n="498"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et plantae: nam ignis totus est homogeneus,
+          <lb ed="#P" n="2"/>et non habet a natura figuram, aut partium
+          <lb ed="#P" n="3"/>dispositionem, et consequenter nec 
+          determina<lb break="no" ed="#P" n="4"/>tam partem, per quam nutriatur, sed juxta
+          <lb ed="#P" n="5"/>necessitatem, aut applicationem corporum 
+          ad<lb break="no" ed="#P" n="6"/>jacentium ex hac, vel illa parte augetur, et in
+          <lb ed="#P" n="7"/>hanc, vel illam figuram conformatur. At 
+          plan<lb break="no" ed="#P" n="8"/>tae corporis organicis constant, et in illis 
+          ha<lb break="no" ed="#P" n="9"/>bent distinctas virtutes, et per quamdam 
+          par<lb break="no" ed="#P" n="10"/>tem intrinsecum alimentum sumunt, ut 
+          nota<lb break="no" ed="#P" n="11"/>vit Aristoteles, lib. 2, de Partibus animalium,
+          <lb ed="#P" n="12"/>c. 10, et deinde illud imperfecte, seu generali
+          <lb ed="#P" n="13"/>quodam modo disponunt: deinde ad reliquas
+          <lb ed="#P" n="14"/>partes per certas vias, et internas motiones
+          <lb ed="#P" n="15"/>trahitur, et ab unaquaque disponitur modo
+          <lb ed="#P" n="16"/>sibi accommodato, et in certa figura, ac 
+          tem<lb break="no" ed="#P" n="17"/>peramento. Unde etiam in sua nutritione 
+          pro<lb break="no" ed="#P" n="18"/>portionem in omnibus partibus servant, ut in
+          <lb ed="#P" n="19"/>libris de Generatione latius ostenditur: ergo
+          <lb ed="#P" n="20"/>signum est modum hunc nutritionis esse longe
+          <lb ed="#P" n="21"/>diversum.
+        </p>
+        <p xml:id="szdada-y11934-d1e1611">
+          <lb ed="#P" n="22"/>20. Satisfit Aristoteli adducto in num. 17
+          <lb ed="#P" n="23"/>— Et quod in igne declaratum est, in caeteris
+          <lb ed="#P" n="24"/>corporibus inanimis eamdem rationem habet.
+          <lb ed="#P" n="25"/>Unde Aristoteles in d. lib. 1 Magn. Moral.,
+          <lb ed="#P" n="26"/>cap. 4, expresse dixit: Auimee portionem esse,
+          <lb ed="#P" n="27"/>qua alimur, quamque altricen appellamus;
+          <lb ed="#P" n="28"/>subditque: jure ita censeri, nam lapides ali
+          <lb ed="#P" n="29"/>non posse invenimus, et proinde non esse 
+          du<lb break="no" ed="#P" n="30"/>bium, quin sit ali animatorum, quod si 
+          anima<lb break="no" ed="#P" n="31"/>torwn, causa est anima. Loquimur autem ibi
+          <lb ed="#P" n="32"/>de propria nutritione. Unde quando inferius,
+          <lb ed="#P" n="33"/>et in aliis locis igni videtur nutritionem 
+          tri<lb break="no" ed="#P" n="34"/>buere, loquitur generali modo de nutritione
+          <lb ed="#P" n="35"/>per solam actionem in proximam materiam,
+          <lb ed="#P" n="36"/>quae igni specialiter, et quasi per 
+          antonoma<lb break="no" ed="#P" n="37"/>siam propter maximam ejus activitatem 
+          tri<lb break="no" ed="#P" n="38"/>buitur. Et quia dum in his inferioribus locis
+          <lb ed="#P" n="39"/>extra propriam sphaeram existit, semper eget
+          <lb ed="#P" n="40"/>pabulo, et aliqua materia, in qua per 
+          conti<lb break="no" ed="#P" n="41"/>nuam actionem, et conversionem in suam 
+          sub<lb break="no" ed="#P" n="42"/>stantiam conservetur: quoniam alias facile a
+          <lb ed="#P" n="43"/>circumstantibus contrariis corrumpitur. Nam
+          <lb ed="#P" n="44"/>quod illa necessitas non sit ab intrinseco, 
+          fa<lb break="no" ed="#P" n="45"/>cile ostenditur, tum quia in propria sphaera,
+          <lb ed="#P" n="46"/>ubi distat a contrariis, sine ulla hujusmodi 
+          ac<lb break="no" ed="#P" n="47"/>tione conservatur: tum etiam a priori, quia
+          <lb ed="#P" n="48"/>cum ex partibus ejusdem rationis, et omnino
+          <lb ed="#P" n="49"/>similibus constet, non potest ab intrinseco
+          <lb ed="#P" n="50"/>habere actionem in seipsam, propter quam
+          <lb ed="#P" n="51"/>extrinseco nutrimento indigeat. Quod secus
+          <lb ed="#P" n="52"/>est in vegetabilibus etiam infimis: ut sunt
+          <lb ed="#P" n="53"/>insensibiles plantae quarum compositio est ex
+          <lb ed="#P" n="54"/>partibus heterogeneis, inter quas est naturalis
+          <lb ed="#P" n="55"/>actio, et ita ab intrinseco indigent alimento,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ut conserventur, ac proinde illarum nutritio
+          <lb ed="#P" n="57"/>propria et vitalis est. Ex quo etiam provenit,
+          <lb ed="#P" n="58"/>ut certam habeant durationis periodum, quam
+          <lb ed="#P" n="59"/>ignis ab intrinseco non habet.
+        </p>
+        <p xml:id="szdada-y11934-d1e1699">
+          <lb ed="#P" n="60"/>21. Ad tertium fundamentum in num. 9. —
+          <lb ed="#P" n="61"/>Ad tertium respondemus, vitam Dei non 
+          con<lb break="no" ed="#P" n="62"/>sistere in aliqua propria actione distincta a
+          <lb ed="#P" n="63"/>sua substantia, vel potentia, quam intra 
+          seip<lb break="no" ed="#P" n="64"/>sum semper exercent: nam hoc est contra
+          <lb ed="#P" n="65"/>simplicitatem, et immutabilitatem Dei. In
+          <lb ed="#P" n="66"/>omni autem viventi creato, actualis vita in
+          <lb ed="#P" n="67"/>actu distincto, et accidental consistit. 
+          Qua<lb break="no" ed="#P" n="68"/>propter nulla creatura quoad hoc participat 
+          vi<lb break="no" ed="#P" n="69"/>tam Dei, ut per solam substantiam suam actu
+          <lb ed="#P" n="70"/>vivat: sicut vivit Deus. In hoc ergo dicuntur
+          <lb ed="#P" n="71"/>aliquae creaturae participare vitam Dei: quia
+          <lb ed="#P" n="72"/>sicut Deus ab intrinseco semper est in actu 
+          ul<lb break="no" ed="#P" n="73"/>timo, et perfecto per seipsum: ita creaturae
+          <lb ed="#P" n="74"/>aliquae per se habent posse se constituere in
+          <lb ed="#P" n="75"/>actu secundo, modo tamen minus perfecto
+          <lb ed="#P" n="76"/>quam Deus. Nam Deus per seipsum sine 
+          ac<lb break="no" ed="#P" n="77"/>tione ad intra, viventia autem creata efficiendo
+          <lb ed="#P" n="78"/>circa se, in actu ultimo se constituunt. Ut in
+          <lb ed="#P" n="79"/>Metaphysica, disputatione trigesima, sectione
+          <lb ed="#P" n="80"/>decima quarta, latius declaravi. Hoc ergo 
+          po<lb break="no" ed="#P" n="81"/>sito, ad argumentum respondemus etiam pure
+          <lb ed="#P" n="82"/>vegetabilia in hoc participare se ipsa vitam
+          <lb ed="#P" n="83"/>Dei, quod aliquo modo per se constituunt in
+          <lb ed="#P" n="84"/>actu ultimo sibi possibili. Quod satis est, ut sub
+          <lb ed="#P" n="85"/>generalissimo conceptus analogo viventis, 
+          ab<lb break="no" ed="#P" n="86"/>strahente a creato et increato, et a constitutione
+          <lb ed="#P" n="87"/>in actu ultimo, media efficientia ultimi actus,
+          <lb ed="#P" n="88"/>vel sine illa, etiam plantae cum Deo 
+          compre<lb break="no" ed="#P" n="89"/>hendantur. Ad contrariam ergo probationem
+          <lb ed="#P" n="90"/>majoris propositionis respondemus, quod licet
+          <lb ed="#P" n="91"/>in Deo non sint alii actus vitales, nostro etiam
+          <lb ed="#P" n="92"/>intelligendi modo, nisi intellectus et 
+          volunta<lb break="no" ed="#P" n="93"/>tis: nihilominus in illis includuntur rationes
+          <lb ed="#P" n="94"/>magis, vel minus communes, seu abstrahibiles,
+          <lb ed="#P" n="95"/>ut secundum aliquam earum possint 
+          vegetabi<lb break="no" ed="#P" n="96"/>lia convenientiam aliquam analogam in 
+          ratio<lb break="no" ed="#P" n="97"/>ne viventium cum Deo habere. Nam in Deo
+          <lb ed="#P" n="98"/>revera unus tantum est gradus vitae, qui est
+          <lb ed="#P" n="99"/>intelligere, quem solae naturae intellectuales
+          <lb ed="#P" n="100"/>participant: et nihilominus etiam bruta 
+          ani<lb break="no" ed="#P" n="101"/>malia participant vitam Dei, quia licet non
+          <lb ed="#P" n="102"/>participent intelligere Dei, ut intelligere est,
+          <lb ed="#P" n="103"/>saltem participant illud sub abstractiori 
+          ratio<lb break="no" ed="#P" n="104"/>ne, ut est cognoscere. Sic ergo vegetabilia, 
+          h<lb break="no" ed="#P" n="105"/>cet non habeant convenientiam cum 
+          intellec<lb break="no" ed="#P" n="106"/>tione Dei, etiam sub ratione cognitionis, habent
+          <lb ed="#P" n="107"/>aliam magis abstractam, quae est constitui per
+          <lb ed="#P" n="108"/>seipsa, seu operari circa se, sumpto, operari,
+          <lb ed="#P" n="109"/>late, ut abstrahit ab efficientia, vel esse in actu
+          <lb ed="#P" n="110"/>per essentiam.
+        </p>
+        <p xml:id="szdada-y11934-d1e1812">
+          <pb ed="#P" n="499"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>22. Concluditur ratio pro anima vegetabilium
+          <lb ed="#P" n="2"/>pro qua a num. disceptatur. — Ex quibus
+          <lb ed="#P" n="3"/>omnibus tandem concludi potest ratio, quae
+          <lb ed="#P" n="4"/>rem declarat, et quaestionem de nomine tollit.
+          <lb ed="#P" n="5"/>Nam ex dictis est manifestum habere 
+          vegeta<lb break="no" ed="#P" n="6"/>bilia quemdam modum essendi, et operandi
+          <lb ed="#P" n="7"/>altiorem, et perfectiorem modo essendi, et 
+          ope<lb break="no" ed="#P" n="8"/>randi inferiorum corporum tali operatione 
+          ca<lb break="no" ed="#P" n="9"/>rentium, quia sunt magis actualia: ut sic 
+          di<lb break="no" ed="#P" n="10"/>cam, et habent formam minus materiae 
+          im<lb break="no" ed="#P" n="11"/>mersam, magisque illi dominantem. Item est
+          <lb ed="#P" n="12"/>evidens, secundum hanc perfectionem habere
+          <lb ed="#P" n="13"/>vegetabilia aliquam convenientiam 
+          substantia<lb break="no" ed="#P" n="14"/>lem cum auimalibus et hominibus, quam non
+          <lb ed="#P" n="15"/>habent inferiora corpora cum istis omnibus,
+          <lb ed="#P" n="16"/>quatenus vegetabilia possunt circa se operari
+          <lb ed="#P" n="17"/>proprie, et per se in ultimo actu se constituere.
+          <lb ed="#P" n="18"/>Ergo hic conceptus communis vegetabilibus,
+          <lb ed="#P" n="19"/>et cognoscentibus, sicut est unus, ita et potuit
+          <lb ed="#P" n="20"/>una voce significari: significatus est autem 
+          no<lb break="no" ed="#P" n="21"/>mine viventis, ut constat ex dictis, et ex usu,
+          <lb ed="#P" n="22"/>juxta quem ait Augustinus, lib. 11, de Civit.,
+          <lb ed="#P" n="23"/>cap. 16: In iis, que quoquo modo suut, et non
+          <lb ed="#P" n="24"/>sunt, quod Deus est, proponuntur viveniia non
+          <lb ed="#P" n="25"/>viventibus, et in lis, que vivunt, preponuntur
+          <lb ed="#P" n="26"/>sententia non sentientibus, et arboribus 
+          anima<lb break="no" ed="#P" n="27"/>lia. Sicut ergo nomine viventis aliquis gradus
+          <lb ed="#P" n="28"/>communis plantis, et animalibus significatur:
+          <lb ed="#P" n="29"/>ita forma constituens vivens in sua 
+          communi<lb break="no" ed="#P" n="30"/>tate sumptum, nomine animae appellata est:
+          <lb ed="#P" n="31"/>et ita communis ejus ratio in tribus animabus
+          <lb ed="#P" n="32"/>invenitur. Quapropter cum Augustinus, lib. 7,
+          <lb ed="#P" n="33"/>Genes. ad litter., cap. 16, ait: In Scriptura
+          <lb ed="#P" n="34"/>per animam vivam significari illam, que 
+          pree<lb break="no" ed="#P" n="35"/>ter nutritionem habet spontaneum motum, per
+          <lb ed="#P" n="36"/>antonomasiam intelligendum est: nam ibi 
+          ni<lb break="no" ed="#P" n="37"/>hilominus optime explicat, quo modo in 
+          plan<lb break="no" ed="#P" n="38"/>tis sit motus ab intrinseco, et vita. Et est etiam
+          <lb ed="#P" n="39"/>exponendus auctor libri de Spiritu et Anima,
+          <lb ed="#P" n="40"/>cap. 14 et 15.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

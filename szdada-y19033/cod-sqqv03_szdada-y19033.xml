@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="773"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y19033"><!-- t3l5c8 -->
+        <head xml:id="szdada-y19033-Hd1e101">Caput 8</head>
+        <head xml:id="szdada-y19033-Hd1e103" type="question-title">Utrum voluntas sit libera potentia in omnibus suis actibus</head>
+        <p xml:id="szdada-y19033-d1e106">
+          <lb ed="#P" n="94"/>CAPUT VIII.
+          <lb ed="#P" n="95"/>UTRUM VOLUNTAS SIT LIBERA POTENTIA IN OMNIBUS
+          <lb ed="#P" n="96"/>SUIS ACTIBUS.
+        </p>
+        <p xml:id="szdada-y19033-d1e115">
+          <lb ed="#P" n="97"/>Caput hoc integrum ex autographo 
+          praeteri<lb break="no" ed="#P" n="98"/>vimus, quoniam late tractatur in priori tomo
+          <lb ed="#P" n="99"/>de Gratia, Prolegomento 1, et in Metaphysica,
+          <lb ed="#P" n="100"/>dist. 19, a sect. 2, et ultra, tum etiam non
+          <lb ed="#P" n="101"/>pauca pro eodem argumento videri possunt in
+          <lb ed="#P" n="102"/>opusculo 4, de Libertate divinae voluntatis.
+        </p>
+        <p xml:id="szdada-y19033-d1e131">
+          <lb ed="#P" n="103"/>Quaeri autem ulterius posset primo, an 
+          ap<lb break="no" ed="#P" n="104"/>petitus rationalis, sive voluntas sit species 
+          in<lb break="no" ed="#P" n="105"/>fima, an potius in homine, atque Angelo 
+          spe<lb break="no" ed="#P" n="106"/>cie distinguatur, quod disputant recentiores,
+          <lb ed="#P" n="107"/>1 part., quaest. 59, art. 1, ubi Cumelius, item
+          <pb ed="#P" n="774"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Franciscus de Herrera, in 2, dist. 13, q. 1, et
+          <lb ed="#P" n="2"/>ipse auctor, lib. 3, de Angelis, cap. 1. Secundo
+          <lb ed="#P" n="3"/>quaeri posset, an voluntas, seu appetitus 
+          ratio<lb break="no" ed="#P" n="4"/>nalis distinguatur in homine in 
+          concupiscibi<lb break="no" ed="#P" n="5"/>lem et irascibilem, sicut appetitus sensitivus
+          <lb ed="#P" n="6"/>distingui a multis solet. De quo videndus 
+          auc<lb break="no" ed="#P" n="7"/>tor, lib. 3, de Angelis, cap. 1, post Scotum et
+          <lb ed="#P" n="8"/>Gabrielem, in 3, dist. 26 et 34, Henricum,
+          <lb ed="#P" n="9"/>quod, lib. 8, quaest. 15.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

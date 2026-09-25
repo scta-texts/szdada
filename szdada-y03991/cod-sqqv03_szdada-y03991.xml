@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="159"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y03991"><!-- t2l2c10 -->
+        <head xml:id="szdada-y03991-Hd1e101">Caput 10</head>
+        <head xml:id="szdada-y03991-Hd1e103" type="question-title">De animalium ratione carentium productione, quinto et sexto die facta</head>
+        <p xml:id="szdada-y03991-d1e106">
+          <lb ed="#P" n="105"/>CAPUT X.
+          <lb ed="#P" n="106"/>DE ANIMALIUM RATIONE CARENTIUM PRODUCTIONE,
+          <lb ed="#P" n="107"/>QUINTO ET SEXTO DIE FACTA.
+        </p>
+        <p xml:id="szdada-y03991-d1e115">
+          <lb ed="#P" n="108"/>1. Referuntur verba Genesis quibus brutorum
+          <pb ed="#P" n="160"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>productio traditur. — In quinto die duo ab
+          <lb ed="#P" n="2"/>auctore naturae facta narrantur, scilicet, pisces
+          <lb ed="#P" n="3"/>maris, et volatilia coeli, id est, aeris. Verba
+          <lb ed="#P" n="4"/>sunt: Producant aquee reptile animae viventis,
+          <lb ed="#P" n="5"/>et volatile super terram sub firmamento caeli,
+          <lb ed="#P" n="6"/>etc. In sexto item die prius brutorum creatio
+          <lb ed="#P" n="7"/>refertur his verbis: Dicit quoque Deus, 
+          produ<lb break="no" ed="#P" n="8"/>cat terra animam viventem in genere suo, 
+          ju<lb break="no" ed="#P" n="9"/>menta, et rephilia, et bestias terre secundum
+          <lb ed="#P" n="10"/>species suas, factumque est ita, et postea 
+          homi<lb break="no" ed="#P" n="11"/>nis creatio describitur, quae propter suam 
+          di<lb break="no" ed="#P" n="12"/>guitatem specialem disputationem postulat, et
+          <lb ed="#P" n="13"/>ideo illam in sequentem librum reservamus.
+          <lb ed="#P" n="14"/>At vero de caeteris animantibus, quia 
+          secun<lb break="no" ed="#P" n="15"/>dum quamdam proportionem, communem 
+          doc<lb break="no" ed="#P" n="16"/>trinam habent, hic dicemus. Quod breviter
+          <lb ed="#P" n="17"/>expediri poterit fere applicando ea, quae de 
+          ve<lb break="no" ed="#P" n="18"/>getabilibus dicta sunt, et in fine grave 
+          quod<lb break="no" ed="#P" n="19"/>dam dubium explicando.
+        </p>
+        <p xml:id="szdada-y03991-d1e165">
+          <lb ed="#P" n="20"/>2. Prima assertio.— Primo ergo nobis 
+          cer<lb break="no" ed="#P" n="21"/>tum sit, haec animantia non in virtute tantum,
+          <lb ed="#P" n="22"/>aut in semine, sed actu, et in seipsis facta
+          <lb ed="#P" n="23"/>fuisse his diebus, in quibus facta narrantvr;
+          <lb ed="#P" n="24"/>quanquam Augustinus, lib. 3, Gen. ad litter.,
+          <lb ed="#P" n="25"/>cap. 5, in sua persistens sententia, contrarium
+          <lb ed="#P" n="26"/>sentire videatur. Et probatur primo ex 
+          pro<lb break="no" ed="#P" n="27"/>prietate verborum, eorumque uniformitate:
+          <lb ed="#P" n="28"/>Diait Deus, fiat et factum est. quae in rigore
+          <lb ed="#P" n="29"/>ejus rei, quae fieri dicitur, actualem 
+          productio<lb break="no" ed="#P" n="30"/>nem significant, et ita in aliis diebus explicata
+          <lb ed="#P" n="31"/>sunt. Secundo ex ipsorum animantium 
+          per<lb break="no" ed="#P" n="32"/>fectorum natura, quia tota species non potest
+          <lb ed="#P" n="33"/>incipere per naturalem generationem, quia
+          <lb ed="#P" n="34"/>unumquodque individuum ab alio simili 
+          pro<lb break="no" ed="#P" n="35"/>creatur: et ideo necessario sistendum est in
+          <lb ed="#P" n="36"/>aliquo primo individuo ab alio simili non 
+          ge<lb break="no" ed="#P" n="37"/>nito. Neque illud primum ex solo semine 
+          ge<lb break="no" ed="#P" n="38"/>nerari potuit, qu.a neque illud semen 
+          natura<lb break="no" ed="#P" n="39"/>liter fieri potest, nisi ab animali decisum,
+          <lb ed="#P" n="40"/>neque etiam conservari potest, vel ad foetum
+          <lb ed="#P" n="41"/>formandum perduci, nisi in utero alicujus
+          <lb ed="#P" n="42"/>animalis generantis. Neque etiam talium 
+          ani<lb break="no" ed="#P" n="43"/>manutium species, seu prima earum individua
+          <lb ed="#P" n="44"/>per solas causas universales, solem nimirum,
+          <lb ed="#P" n="45"/>et astra introdluci in orbem potuerunt, ut etiam
+          <lb ed="#P" n="46"/>in philosophia contra Aviceunam, et alios
+          <lb ed="#P" n="47"/>antiquos philosophos demonstratur: ergo 
+          ne<lb break="no" ed="#P" n="48"/>cessarium fuit, prima individua horum 
+          ani<lb break="no" ed="#P" n="49"/>mantium immediate ab auctore naturae fieri:
+          <lb ed="#P" n="50"/>ergo his diebus facta sunt actu, et in seipsis,
+          <lb ed="#P" n="51"/>nam post hos dies nihil hoc modo Deus 
+          pro<lb break="no" ed="#P" n="52"/>creavit, reguievit enim die septimo ab omni
+          <lb ed="#P" n="53"/>opere, quod patrarat. Teriio idem probari 
+          po<lb break="no" ed="#P" n="54"/>test ex illa benedictione quinto die data: 
+          Cres<lb break="no" ed="#P" n="55"/>cite, et multiplicamini, nam vim generandi 4
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>indicat, quae non nisi rei jam actu productae
+          <lb ed="#P" n="57"/>confertur, ut in capite septimo ponderatum
+          <lb ed="#P" n="58"/>est. Ubi etiam ex creatione hominis hoc 
+          con<lb break="no" ed="#P" n="59"/>firmavimus: neque in hoc nova difficultas 
+          oc<lb break="no" ed="#P" n="60"/>currit.
+        </p>
+        <p xml:id="szdada-y03991-d1e260">
+          <lb ed="#P" n="61"/>3. Secunda assertio tripartita.— Frima pars
+          <lb ed="#P" n="62"/>probatur. — Dico secundo, quamvis productio
+          <lb ed="#P" n="63"/>istorum animalium, interdum creatio dicatur,
+          <lb ed="#P" n="64"/>nihilominus non fuit ex nihilo, sed ex 
+          praeja<lb break="no" ed="#P" n="65"/>cente materia, modo tamen proprio auctoris
+          <lb ed="#P" n="66"/>naturae. Haec assertio etiam est certa et 
+          com<lb break="no" ed="#P" n="67"/>munis: et prima quidem pars ejus constat ex
+          <lb ed="#P" n="68"/>cap. 1 Genesis, illis verbis: creavitgue Deus
+          <lb ed="#P" n="69"/>cete grandia, et omnem animam vaventem, etc.,
+          <lb ed="#P" n="70"/>et ex aliis communibus locis Scripturae. 
+          Se<lb break="no" ed="#P" n="71"/>cunda vero pars in illis verbis continetur, 
+          pro<lb break="no" ed="#P" n="72"/>ducant aque, producat terra. Circa quae verba
+          <lb ed="#P" n="73"/>occurrebat quaestio, an aqua, et terra in hac
+          <lb ed="#P" n="74"/>productione efficientiam habuerint. 
+          Verumta<lb break="no" ed="#P" n="75"/>men quod in simili dubio de vegetabilibus
+          <lb ed="#P" n="76"/>diximus, ad caetera viventia applicandum est,
+          <lb ed="#P" n="77"/>nam Scriptura eodem modo de illis loquitur.
+          <lb ed="#P" n="78"/>Unde Cajetanus sicut in plantis, ita in 
+          anima<lb break="no" ed="#P" n="79"/>libus docet, efficienter ab aqua vel terra 
+          pro<lb break="no" ed="#P" n="80"/>ducta esse propter vim verbi, producat. Nos
+          <lb ed="#P" n="81"/>tamen diximus, verbum illud in omnibus 
+          si<lb break="no" ed="#P" n="82"/>gnificare causalitatem elemento 
+          accommoda<lb break="no" ed="#P" n="83"/>tam ac proinde ex verbis illis optime probari
+          <lb ed="#P" n="84"/>causalitatem materialem: efficientem vero,
+          <lb ed="#P" n="85"/>nec probari, nec cum ratione posse subsistere,
+          <lb ed="#P" n="86"/>propter superius dicta.
+        </p>
+        <p xml:id="szdada-y03991-d1e319">
+          <lb ed="#P" n="87"/>5. Secundae partis probatio.— Probatio 
+          ter<lb break="no" ed="#P" n="88"/>tio, seu potius declaratio. —Sic igitur probata
+          <lb ed="#P" n="89"/>relinquitur secunda pars assertionis, nam 
+          om<lb break="no" ed="#P" n="90"/>nia haec animalia facta sunt ex praejacente 
+          ma<lb break="no" ed="#P" n="91"/>teria, aqua nimirum, vel terra. Ergo non sunt
+          <lb ed="#P" n="92"/>facta per rigorosam creationem, nimirum ex
+          <lb ed="#P" n="93"/>nihilo. Occurrebat autem dubium, utrum 
+          ali<lb break="no" ed="#P" n="94"/>qua ex his auimalibus facta sint ex aere, sed
+          <lb ed="#P" n="95"/>illud in fine cap., a n. 13, tractandum 
+          relin<lb break="no" ed="#P" n="96"/>quimus. Uliüma denique pars assertionis in
+          <lb ed="#P" n="97"/>superioribus satis declarata est in plantis, et
+          <lb ed="#P" n="98"/>in praesenti eamdem rationem habet. 
+          Intelli<lb break="no" ed="#P" n="99"/>gitur enim de productioue quoad praeviam 
+          al<lb break="no" ed="#P" n="100"/>terationem et organizationem, nam haec non
+          <lb ed="#P" n="101"/>est facta modo ordinario et communi, nec per
+          <lb ed="#P" n="102"/>moras, quibus naturaliter fieri solet, sed 
+          su<lb break="no" ed="#P" n="103"/>bito, vel mora brevissima, et sine effectiva
+          <lb ed="#P" n="104"/>cooperatione causarum secundarum divina
+          <lb ed="#P" n="105"/>virtute facta est; et ob eam rem creatio 
+          appel<lb break="no" ed="#P" n="106"/>latur lato modo, ut et ab ordinaria generatione
+          <lb ed="#P" n="107"/>distinguatur, et ut denotetur fuisse quemdam
+          <lb ed="#P" n="108"/>modum productionis auctoris naturae 
+          pro<lb break="no" ed="#P" n="109"/>prium. Nihilominus tamen substautialis 
+          gene<lb break="no" ed="#P" n="110"/>ratio talium viventium, quae in instanti facta
+          <pb ed="#P" n="161"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est, ejusdem speciei fuit, cum simili 
+          genera<lb break="no" ed="#P" n="2"/>tione ordinario modo facta. Nam in se utraque
+          <lb ed="#P" n="3"/>productio est per veram eductionem de 
+          po<lb break="no" ed="#P" n="4"/>tentia materiae, prius natura ultimate 
+          dispo<lb break="no" ed="#P" n="5"/>sitae ad talem formam, diversitas autem in
+          <lb ed="#P" n="6"/>praevio modo dispositionis essentiam, seu 
+          sub<lb break="no" ed="#P" n="7"/>stantiam mutationis substantialis, quae in 
+          mo<lb break="no" ed="#P" n="8"/>mento fit, non variat, cum de ejus essentia
+          <lb ed="#P" n="9"/>non sit. Tandem recte hinc colligi potest,
+          <lb ed="#P" n="10"/>omnes formas, seu animas istorum 
+          animan<lb break="no" ed="#P" n="11"/>tium quantumvis perfectorum citra hominem
+          <lb ed="#P" n="12"/>ex potentia materiae eductas esse, id enim 
+          si<lb break="no" ed="#P" n="13"/>enificant illa verba, producat terra animam
+          <lb ed="#P" n="14"/>viventem: quae statim distribuuntur ad omnes
+          <lb ed="#P" n="15"/>species per illa verba, jumenta, et reptilia, et
+          <lb ed="#P" n="16"/>bDestias lerree, quod recte notavit Cajetanus, et
+          <lb ed="#P" n="17"/>Pererius consentit.
+        </p>
+        <p xml:id="szdada-y03991-d1e415">
+          <lb ed="#P" n="18"/>5. Assertio tertia.— Fundatur et enucleatur.
+          <lb ed="#P" n="19"/>— Tertio dicendum est haec animalia omnia
+          <lb ed="#P" n="20"/>his diebus producta esse, in perfecto statu in
+          <lb ed="#P" n="21"/>singulis individuis, seu speciebus suis, juxta
+          <lb ed="#P" n="22"/>uniuscujusque naturam. Haec assertio 
+          com<lb break="no" ed="#P" n="23"/>munis est, et fundatur in illo principio, quod
+          <lb ed="#P" n="24"/>opera Dei perfecta sunt. Et intelligenda est
+          <lb ed="#P" n="25"/>ac explicanda eo modo, quo similem de 
+          plan<lb break="no" ed="#P" n="26"/>tis posuimus. Itaque fuerunt omnia creata 
+          in<lb break="no" ed="#P" n="27"/>tegra, et omnibus suis membris perfecta, item
+          <lb ed="#P" n="28"/>in quantitate et magnitudine corporis, ad
+          <lb ed="#P" n="29"/>quam solent hujusmodi animalia in termino
+          <lb ed="#P" n="30"/>augmenti pervenire. Non oportet autem, ut
+          <lb ed="#P" n="31"/>omnia fuerint aequalis magnitudinis, etiam 
+          in<lb break="no" ed="#P" n="32"/>dividua ejusdem speciei, nam de distinctis res
+          <lb ed="#P" n="33"/>est manifesta. De prioribus vero licet potuerit
+          <lb ed="#P" n="34"/>Deus a producere aequalia, vel aeque fortia,
+          <lb ed="#P" n="35"/>aut aeque pulchra, non videtur necessarium,
+          <lb ed="#P" n="36"/>nam universi pulchritudo varietatem aliquam
+          <lb ed="#P" n="37"/>requirit. Quaeri autem hic potest, quot 
+          indivi<lb break="no" ed="#P" n="38"/>dua creaverit Deus in unaquaque specie, in quo
+          <lb ed="#P" n="39"/>non est dubium quin ad minimum, bina facta
+          <lb ed="#P" n="40"/>fuerint, sed est dubium, an fuerint plura.
+          <lb ed="#P" n="41"/>Quod ex alia interrogatione potest pendere,
+          <lb ed="#P" n="42"/>scilicet an Deus produxerit haec animalia 
+          tan<lb break="no" ed="#P" n="43"/>tam in uno loco terrae, vel per totum orbem.
+          <lb ed="#P" n="44"/>Nam pro uno loco, id est, pro uno regno, vel
+          <lb ed="#P" n="45"/>alio simili bina sufficere potuerunt, pro 
+          diver<lb break="no" ed="#P" n="46"/>sis autem plura necessaria erant, ut per se
+          <lb ed="#P" n="47"/>clarum est; et quamvis res incerta sit, haec
+          <lb ed="#P" n="48"/>posterior pars verisimilior videtur ; sicut de
+          <lb ed="#P" n="49"/>piantis diximus, nam fere est eadem ratio.
+          <lb ed="#P" n="50"/>Semper tamen incognitum nobis est, quot 
+          in<lb break="no" ed="#P" n="51"/>dividua simul produxerit Deus in universo
+          <lb ed="#P" n="52"/>orbe in singulis speciebus horum animalium:
+          <lb ed="#P" n="53"/>hoc ergo relinquendum est divinae sapientiae,
+          <lb ed="#P" n="54"/>cujus consilio et arbitrio haec multiplicatio
+          <lb ed="#P" n="55"/>et distributio facta est. Verumtamen sicut de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>plantis diximus, ita hic considerari potest ex
+          <lb ed="#P" n="57"/>animalibus quaedam melius, seu commodius
+          <lb ed="#P" n="58"/>in quibusdam regionibus, quam in aliis 
+          pro<lb break="no" ed="#P" n="59"/>creari, et intra eamdem etiam speciem, 
+          quae<lb break="no" ed="#P" n="60"/>dam esse majora, vel fortiora: vel aliis 
+          hu<lb break="no" ed="#P" n="61"/>jusmodi qualtatibus affecta in una regione,
+          <lb ed="#P" n="62"/>quam in alia. Ad hunc ergo modum verisimile
+          <lb ed="#P" n="63"/>est divinam sapientiam, proportionem, et
+          <lb ed="#P" n="64"/>varietatem in hanc animalium productione
+          <lb ed="#P" n="65"/>observasse.
+        </p>
+        <p xml:id="szdada-y03991-d1e524">
+          <lb ed="#P" n="66"/>6. Ex quo etiam intelligi potest produxisse
+          <lb ed="#P" n="67"/>Deum omnia haec animalia cum virtute 
+          gene<lb break="no" ed="#P" n="68"/>randi sibi similia in generibus, seu speciebus
+          <lb ed="#P" n="69"/>suis. Probatur, quia haec potestas pertinet ad
+          <lb ed="#P" n="70"/>naturalem perfectionem individui, et ad 
+          con<lb break="no" ed="#P" n="71"/>servationem speciel necessaria est. Deinde
+          <lb ed="#P" n="72"/>probatur ex illa benedictione, crescite, et 
+          mul<lb break="no" ed="#P" n="73"/>tiplicamini. Per illam enim benedictionem,
+          <lb ed="#P" n="74"/>nihil aliud significatur, quam virtus, data his
+          <lb ed="#P" n="75"/>viventihus ad multiplicanda individua, et 
+          con<lb break="no" ed="#P" n="76"/>servandam speciem, per multiplicatas 
+          gene<lb break="no" ed="#P" n="77"/>rationcs. Nec refert, quod animantibus 
+          ter<lb break="no" ed="#P" n="78"/>restribus, praeter hominem, non legatur data
+          <lb ed="#P" n="79"/>hujusmodi benedictio, quia cum data fuit
+          <lb ed="#P" n="80"/>piscibus, et volatilibus virtute, caeteris etiam
+          <lb ed="#P" n="81"/>brutis data censetur, cum eadem ratio, et 
+          ne<lb break="no" ed="#P" n="82"/>cessitas in eis inveniatur. Quanquam postea
+          <lb ed="#P" n="83"/>in hominibus repetita sit, post eorum 
+          creatio<lb break="no" ed="#P" n="84"/>nem, ad denotandum singularem hominis 
+          ex<lb break="no" ed="#P" n="85"/>cellentiam, et propter alias rationes, quae 
+          vi<lb break="no" ed="#P" n="86"/>deri possunt in Augustino, lib. 3, Gen. ad. ht.,
+          <lb ed="#P" n="87"/>cap. 13, et Deda in Exaem., et aliis 
+          exposito<lb break="no" ed="#P" n="88"/>ribus in Gen.
+        </p>
+        <p xml:id="szdada-y03991-d1e576">
+          <lb ed="#P" n="89"/>T. Assertio quarta. — Unde ostendatur 
+          Nata<lb break="no" ed="#P" n="90"/>talia volatilia terrestria constituunt ordines tres
+          <lb ed="#P" n="91"/>inequalis perfectionis. — Quarto dicendum est
+          <lb ed="#P" n="92"/>haec animalia ratione carentia in magna 
+          va<lb break="no" ed="#P" n="93"/>rietate generum et specierum simul fuisse his
+          <lb ed="#P" n="94"/>diebus a Deo producta. Sinul (inquam) cum
+          <lb ed="#P" n="95"/>partitione accommoda, ut statim explicabo.
+          <lb ed="#P" n="96"/>Haec etiam assertio ex narratione Genesis 
+          ad<lb break="no" ed="#P" n="97"/>juncta Patrum expositione manifesta est. Nam
+          <lb ed="#P" n="98"/>imprimis narrantur facti tres ordines, seu
+          <lb ed="#P" n="99"/>classes animantium, quae sunt veluti tria 
+          ge<lb break="no" ed="#P" n="100"/>nera illorum, scilicet, piscium, volatilium et
+          <lb ed="#P" n="101"/>terrestrium. Quae sine dubio essentialem 
+          dif<lb break="no" ed="#P" n="102"/>ferentiam genericam inter se habent, ut 
+          mo<lb break="no" ed="#P" n="103"/>tus naturalia loca, figurae, et aliae actiones et
+          <lb ed="#P" n="104"/>proprietates evidenter ostendunt. Servant 
+          au<lb break="no" ed="#P" n="105"/>tem inter se hunc ordinem perfectionis, quod
+          <lb ed="#P" n="106"/>infimum habent pisces, medium aves, et 
+          su<lb break="no" ed="#P" n="107"/>periorem animantia terrestria. Ita docent 
+          phi<lb break="no" ed="#P" n="108"/>losophi, et in Genesi Patres et expositiores,
+          <lb ed="#P" n="109"/>quamvis diversis rationibus, et signis ad illum
+          <lb ed="#P" n="110"/>ordinem ostendendum utantur. Sed non est
+          <pb ed="#P" n="162"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praesentis instituti de animalium proprietatibus
+          <lb ed="#P" n="2"/>disputare ; solum intelligere debemus illos
+          <lb ed="#P" n="3"/>gradus dictum servare ordinem ex genere suo:
+          <lb ed="#P" n="4"/>nam inquiri posset, an aliqua species 
+          inferio<lb break="no" ed="#P" n="5"/>ris gradus possit esse essentialiter perfectior,
+          <lb ed="#P" n="6"/>quam alia superioris gradus, sed hoc etiam
+          <lb ed="#P" n="7"/>nunc inquirere necessarium non est. Satis
+          <lb ed="#P" n="8"/>ergo est ex dicto perfectionis ordine colligere
+          <lb ed="#P" n="9"/>Deum in productione mixtorum ab imperfectis
+          <lb ed="#P" n="10"/>ad perfectiora processisse: ideoque sicut prius
+          <lb ed="#P" n="11"/>creavit plantas, quam animalia, ita inter 
+          ani<lb break="no" ed="#P" n="12"/>malia prius creasse pisces, postea vero 
+          vola<lb break="no" ed="#P" n="13"/>tilia, deinde terrestria, ultimo loco hominem,
+          <lb ed="#P" n="14"/>ut postea dicemus. Atque ita respectu 
+          diver<lb break="no" ed="#P" n="15"/>sorum ordinum horum animantium, non 
+          om<lb break="no" ed="#P" n="16"/>nia simul creavit, tamen in unoquoque ordine
+          <lb ed="#P" n="17"/>simul omnia produxit, nam unico imperio
+          <lb ed="#P" n="18"/>dixit: Producant aque reptile, etc., et 
+          prodn<lb break="no" ed="#P" n="19"/>cat terra animam viventem, etc.; nulla ergo
+          <lb ed="#P" n="20"/>successio generationum inter res productas
+          <lb ed="#P" n="21"/>in singulis ordinibus cum fundamento 
+          cogi<lb break="no" ed="#P" n="22"/>tari potest.
+        </p>
+        <p xml:id="szdada-y03991-d1e678">
+          <lb ed="#P" n="23"/>8. An pisces et aves simul sint producta. —
+          <lb ed="#P" n="24"/>Imo etiam de volatilibus et piscibus dubitari
+          <lb ed="#P" n="25"/>potest an inter se simul creata fuerint: nam
+          <lb ed="#P" n="26"/>quod hi ordines tertium praecesserint, 
+          mani<lb break="no" ed="#P" n="27"/>festum est, quia producti sunt in quinto die,
+          <lb ed="#P" n="28"/>tertium autem genus brutorum in sexto: an
+          <lb ed="#P" n="29"/>vero pisces sint prius tempore creati, quam
+          <lb ed="#P" n="30"/>volucres, dubitari potest: quia licet sint facti
+          <lb ed="#P" n="31"/>eodem die, potuerunt simul, vel cum 
+          succes<lb break="no" ed="#P" n="32"/>sione fieri. Et quidem si intercessit successio,
+          <lb ed="#P" n="33"/>non est dubium, quin piscium creatio 
+          praeces<lb break="no" ed="#P" n="34"/>sit, quia primo loco ponitur. Suspicio autem
+          <lb ed="#P" n="35"/>successionis solum ex ordine litterae accipi 
+          po<lb break="no" ed="#P" n="36"/>test, quia illa duo genera distincte narrantur,
+          <lb ed="#P" n="37"/>et prius minus perfectum, postea perfectius
+          <lb ed="#P" n="38"/>recensetur. Quod autem in reipsa non fuerit
+          <lb ed="#P" n="39"/>realis successio, videtur posse in littera 
+          Gene<lb break="no" ed="#P" n="40"/>sis fundari: sic enim dicitur: Diait etiam
+          <lb ed="#P" n="41"/>Deus, producant aquae reptile et volatile. In quo
+          <lb ed="#P" n="42"/>significatur quasi unico imperio simul 
+          utrum<lb break="no" ed="#P" n="43"/>que genus fuisse productum, sicut cum 
+          dici<lb break="no" ed="#P" n="44"/>tur: Creavit Deus caelum et terram - sic enim
+          <lb ed="#P" n="45"/>in praesenti adjungitur, creavitque Deus cete
+          <lb ed="#P" n="46"/>grandia, et omnem animam, etc., et omnia 
+          vo<lb break="no" ed="#P" n="47"/>latile. Sicut ergo omnes pisces simul creati
+          <lb ed="#P" n="48"/>sunt, ita etiam pisces et volatilia: ideoque
+          <lb ed="#P" n="49"/>tanquam de uno opere statim dicitur, vidit
+          <lb ed="#P" n="50"/>Deus, quod esset bonum, et una benedictio 
+          om<lb break="no" ed="#P" n="51"/>nibus datur. Propter quae pars haec 
+          verisimi<lb break="no" ed="#P" n="52"/>lior videtur. Cur autem ita factum sit inter
+          <lb ed="#P" n="53"/>hos duos ordines, quis consiliarius Dei fuit,
+          <lb ed="#P" n="54"/>ut rationem reddere possit: fortasse tamen
+          <lb ed="#P" n="55"/>probabilis ratio est, quod ex eodem elemento
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fuerunt facti, ut infra dicemus. Vel certe,
+          <lb ed="#P" n="57"/>quia pisces et aves in multis similia sunt, quae
+          <lb ed="#P" n="58"/>Pererius et Tornielus late recensent.
+        </p>
+        <p xml:id="szdada-y03991-d1e762">
+          <lb ed="#P" n="59"/>9. Quinta assertio. — Pisces em suo genere
+          <lb ed="#P" n="60"/>mole eacedunt ceetera animantia. — Sub genere
+          <lb ed="#P" n="61"/>terrestrium tria inferiora genera continentur.
+          <lb ed="#P" n="62"/>— Deinde sub utroque istorum generum, seu
+          <lb ed="#P" n="63"/>ordinum quam plurimae species procreatae sunt.
+          <lb ed="#P" n="64"/>Hoc constat imprimis ex effectu ipso, addita
+          <lb ed="#P" n="65"/>ratione supra facta, quod post illos sex dies
+          <lb ed="#P" n="66"/>non fecit Deus se solo, et tanquam auctor 
+          na<lb break="no" ed="#P" n="67"/>turae novas specierum productiones, et ideo
+          <lb ed="#P" n="68"/>omnes species animalium, quae naturaliter fieri
+          <lb ed="#P" n="69"/>non possunt a causis secundis, nisi per 
+          semi<lb break="no" ed="#P" n="70"/>nalem generationem et propagationem ab aliis
+          <lb ed="#P" n="71"/>similibus in eadem specie, fuerunt a Deo 
+          pro<lb break="no" ed="#P" n="72"/>creatae. Deinde hoc satis ostendunt verba 
+          Scrip<lb break="no" ed="#P" n="73"/>turae, in quibus nonnulla diversitas potest 
+          no<lb break="no" ed="#P" n="74"/>tari. Nam de piscibus dicitur: Creacit Deus
+          <lb ed="#P" n="75"/>cete grandia, et omnem animam viventem, atque
+          <lb ed="#P" n="76"/>notabilem, quam producerant aquae in species
+          <lb ed="#P" n="77"/>suas. Per quae verba imprimis significatur 
+          ma<lb break="no" ed="#P" n="78"/>gna specierum diversitas: deinde indicatur
+          <lb ed="#P" n="79"/>pisces ex suo genere in magnitudine excedere
+          <lb ed="#P" n="80"/>caetera animalia: nam ideo declarantur 
+          spe<lb break="no" ed="#P" n="81"/>cialiter cete grandia, ut late ibi Pererius ex
+          <lb ed="#P" n="82"/>Patribus et philosophis prosequitur. Denique
+          <lb ed="#P" n="83"/>probabile est etiam in gradu isto animantium
+          <lb ed="#P" n="84"/>in aquis degentium majorem esse 
+          multitudi<lb break="no" ed="#P" n="85"/>nem et varietatem, quam in volatilibus, vel
+          <lb ed="#P" n="86"/>terrestribus inveniatur. At quod ponderari 
+          so<lb break="no" ed="#P" n="87"/>let verbum, producant aque reptile, quoniam
+          <lb ed="#P" n="88"/>in Hebraeo habet emphasim quamdam, et 
+          si<lb break="no" ed="#P" n="89"/>gnificat abundantem productionem, et quasi
+          <lb ed="#P" n="90"/>ebullitionem. Et hoc confirmat, quod infra 
+          di<lb break="no" ed="#P" n="91"/>citur: Multiplicamini et replete aquas maris.
+          <lb ed="#P" n="92"/>Melius autem probatur ex illo Ps. 103: Hoc
+          <lb ed="#P" n="93"/>mare magnum, et spatiosum manibus. illic 
+          rep<lb break="no" ed="#P" n="94"/>tilia, quorum non est numerus, anamalia pusilla
+          <lb ed="#P" n="95"/>cum magnis: vocat enim Scriptura pisces 
+          no<lb break="no" ed="#P" n="96"/>mine reptilium, quia omnes natando quasi
+          <lb ed="#P" n="97"/>reptant super aquas, et per exaggerationem
+          <lb ed="#P" n="98"/>dicit eorum non esse numerum, quia est 
+          eo<lb break="no" ed="#P" n="99"/>rum maxima multitudo, et ut denotetur 
+          diver<lb break="no" ed="#P" n="100"/>sitas non tantum in numero, sed etiam in 
+          spe<lb break="no" ed="#P" n="101"/>cie, adduntur illa verba, animalia pusilla cum
+          <lb ed="#P" n="102"/>magnis, nam in his extremis media 
+          subintelh<lb break="no" ed="#P" n="103"/>guntur. Sub genere autem terrestrium 
+          anima<lb break="no" ed="#P" n="104"/>lium tria proxima genera in illis verbis 
+          indi<lb break="no" ed="#P" n="105"/>cantur, jumenta, reptilia et bestias terre, et
+          <lb ed="#P" n="106"/>in omnibus varias esse species adjuncta verba
+          <lb ed="#P" n="107"/>declarant, secundum species suas. Unde sub
+          <lb ed="#P" n="108"/>jumentis comprehenduntur omnes species 
+          ani<lb break="no" ed="#P" n="109"/>malium, quae ab hominibus domantur, ut illis
+          <lb ed="#P" n="110"/>ad suam commoditatem utantur: sub bestis
+          <pb ed="#P" n="163"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>terrae comprehenduntur animalia agrestia ,
+          <lb ed="#P" n="2"/>reptilia vero dicuntur serpentes, et alia, quae
+          <lb ed="#P" n="3"/>super pectus suum gradiuntur, quia pedibus
+          <lb ed="#P" n="4"/>carent. Ad quae capita revocantur omnia 
+          ani<lb break="no" ed="#P" n="5"/>malia perfecta, quae super terram ambulant.
+          <lb ed="#P" n="6"/>De volatilibus autem nihil specialiter 
+          distin<lb break="no" ed="#P" n="7"/>guitur, sed absolute dicitur omne volatile
+          <lb ed="#P" n="8"/>secundum genus suum, et iterum, aces 
+          multi<lb break="no" ed="#P" n="9"/>plicantur super terram. In quo fortasse 
+          signi<lb break="no" ed="#P" n="10"/>ficatum est, in avibus nec tantam 
+          multitudi<lb break="no" ed="#P" n="11"/>nem, nec tantam varietatem, sicut in caeteris
+          <lb ed="#P" n="12"/>animantium ordinibus factam esse.
+        </p>
+        <p xml:id="szdada-y03991-d1e908">
+          <lb ed="#P" n="13"/>10. An animantia imperfecta sint his diebus
+          <lb ed="#P" n="14"/>producta. — Quaeri autem hoc loco solet, an
+          <lb ed="#P" n="15"/>his diebus facta fuerint etiam animalia 
+          imper<lb break="no" ed="#P" n="16"/>fecta, quae per influentiam coelorum ex putrida
+          <lb ed="#P" n="17"/>materia terrae aut aqua generari solent. Nam
+          <lb ed="#P" n="18"/>Basilius, hom. 7, in Gen., affirmare videtur,
+          <lb ed="#P" n="19"/>Augustinus vero, lib. 3, Gen. ad lit., cap. 14,
+          <lb ed="#P" n="20"/>sub distinctione respondet. Nam quaedam ex
+          <lb ed="#P" n="21"/>his animalibus generantur ex cadaveribus
+          <lb ed="#P" n="22"/>mortuorum, alia vero ex aquis, vel terra 
+          pro<lb break="no" ed="#P" n="23"/>creantur: et priora negat fuisse tunc creata,
+          <lb ed="#P" n="24"/>quia nondum erant mortuorum corpora: de
+          <lb ed="#P" n="25"/>aliis vero affirmat, quia suo modo pertinent ad
+          <lb ed="#P" n="26"/>decorem universi. Sequiturque hoc D. Thomas,
+          <lb ed="#P" n="27"/>1 part., quaest. 72, ad 5, sed profecto 
+          distinc<lb break="no" ed="#P" n="28"/>tio non videtur necessaria: tum quia non 
+          ma<lb break="no" ed="#P" n="29"/>gis haec, quam illa ad decorem universi 
+          perti<lb break="no" ed="#P" n="30"/>nent: tum etiam, quia si aliqua facta sunt his
+          <lb ed="#P" n="31"/>diebus, per omnipotentiam Dei facta sunt non
+          <lb ed="#P" n="32"/>expectata putrefactione materiae, prout 
+          secun<lb break="no" ed="#P" n="33"/>dum ordinem naturalem causarum 
+          secunda<lb break="no" ed="#P" n="34"/>rum fieri solet. Unde sine animalibus mortuis
+          <lb ed="#P" n="35"/>potuissent a Deo fieri imperfecta animalia ,
+          <lb ed="#P" n="36"/>quae nunc ex corporibus mortuorum 
+          gene<lb break="no" ed="#P" n="37"/>rantur.
+        </p>
+        <p xml:id="szdada-y03991-d1e965">
+          <lb ed="#P" n="38"/>11. Pars negativa placet.—Probabilius ergo
+          <lb ed="#P" n="39"/>censeo hujusmodi imperfecta animalia non esse
+          <lb ed="#P" n="40"/>facta a Deo immediate, et in actu his diebus,
+          <lb ed="#P" n="41"/>saltem per se loquendo. Probatur ex dictis in
+          <lb ed="#P" n="42"/>simili de herbis, nam est eademratio, nimirum
+          <lb ed="#P" n="43"/>quod hujusmodi imperfecta viventia non sint
+          <lb ed="#P" n="44"/>veluti per se requisita ad perfectionem 
+          uni<lb break="no" ed="#P" n="45"/>versi, sed quasi per accidens ex concursu 
+          va<lb break="no" ed="#P" n="46"/>riarum causarum sequantur. Item quia sicut
+          <lb ed="#P" n="47"/>in speciebus perfectis non fuit necessarium,
+          <lb ed="#P" n="48"/>omnia individua immediate fieri ab auctore
+          <lb ed="#P" n="49"/>naturae, sed tantum prima, in quibus caetera
+          <lb ed="#P" n="50"/>potentia continerentur: ita in his imperfectis
+          <lb ed="#P" n="51"/>necessarium non fuit prima individua 
+          imme<lb break="no" ed="#P" n="52"/>diate a Deo produci, quia in aliis causis 
+          suffi<lb break="no" ed="#P" n="53"/>cienter continebantur in potentia, et per 
+          illa<lb break="no" ed="#P" n="54"/>rum actionem, et non per propriam 
+          succes<lb break="no" ed="#P" n="55"/>sionem unius ab alio erant propaganda. Item
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quia alias dicendum esset, in omnibus 
+          specie<lb break="no" ed="#P" n="57"/>bus, quantumvis imperfectis, aliqua individua
+          <lb ed="#P" n="58"/>in principio fuisse facta, quia non est major
+          <lb ed="#P" n="59"/>ratio de quibusdam, quam de aliis. Consequens
+          <lb ed="#P" n="60"/>autem est incredibile: alias etiam pulices, et
+          <lb ed="#P" n="61"/>similia animalia homini infesta in illo 
+          princi<lb break="no" ed="#P" n="62"/>pio creationis actu fuissent, quod certe 
+          pro<lb break="no" ed="#P" n="63"/>babile non est. Atque hanc partem sequuntur
+          <lb ed="#P" n="64"/>Pererius et Tornielus in sexto die. Dixi 
+          au<lb break="no" ed="#P" n="65"/>tem per se loquendo, id est, spectando talium
+          <lb ed="#P" n="66"/>rerum naturam secundum seipsam. Nam ex
+          <lb ed="#P" n="67"/>his animalibus imperfectis quaedam solent 
+          de<lb break="no" ed="#P" n="68"/>servire in cibum animalium perfectorum, ut
+          <lb ed="#P" n="69"/>pisces majores ex minimis aluntur: et 
+          simili<lb break="no" ed="#P" n="70"/>ter passeres, vermicula terrae habcent in cibum.
+          <lb ed="#P" n="71"/>Quia igitur in principio creavit Deus omnes
+          <lb ed="#P" n="72"/>species perfectas animalium, etiam eorum,
+          <lb ed="#P" n="73"/>quae carnibus et piscibus aluntur: ideo si
+          <lb ed="#P" n="74"/>propter hujusmodi usum necessaria tunc fue.
+          <lb ed="#P" n="75"/>runt aliqua animalia imperfecta, simul cum
+          <lb ed="#P" n="76"/>caeteris perfectis producta esse, credibile est,
+          <lb ed="#P" n="77"/>quia hoc titulo specialis causa, seu necessitas
+          <lb ed="#P" n="78"/>in eis invenitur.
+        </p>
+        <p xml:id="szdada-y03991-d1e1059">
+          <lb ed="#P" n="79"/>12. An quae per adulterinam generationem
+          <lb ed="#P" n="80"/>bruta nascuntur sint his dielus producta. —
+          <lb ed="#P" n="81"/>Partis affirmationis ratio. — Pars tamen 
+          ne<lb break="no" ed="#P" n="82"/>gans eligitur. — Solet ctiam hic dubitari de
+          <lb ed="#P" n="83"/>quibusdam animantibus, quae ex conjunctione
+          <lb ed="#P" n="84"/>maris et foeminae diversarum specierum 
+          gene<lb break="no" ed="#P" n="85"/>rantur, ideo quod praeter naturam, et per 
+          ge<lb break="no" ed="#P" n="86"/>nerationem quasi adulterinam nasci videntur,
+          <lb ed="#P" n="87"/>ut mulus, leopardus, lynx, et similia, solet
+          <lb ed="#P" n="88"/>(inquam) dubitari, an fuerint a principio in
+          <lb ed="#P" n="89"/>actu creata, vel solum in potentia. Et ratio
+          <lb ed="#P" n="90"/>dubitandi esse potest, quia haec animalia in
+          <lb ed="#P" n="91"/>se spectata perfecta sunt, et multum utilia :
+          <lb ed="#P" n="92"/>ac subinde videntur per se ad perfectionem
+          <lb ed="#P" n="93"/>universi spectantia: ergo debuerunt simul
+          <lb ed="#P" n="94"/>cum aliis fieri ab auctore naturae. Nihilominus
+          <lb ed="#P" n="95"/>contrarium censeo esse probabilius, quod tenet
+          <lb ed="#P" n="96"/>Rupertus abbas, lib. 1, in Genes., cap. 57, et
+          <lb ed="#P" n="97"/>sequuntur Ystella, et Tornielus in Genes.
+          <lb ed="#P" n="98"/>Ratio vero est, quia hujusmodi species 
+          anima<lb break="no" ed="#P" n="99"/>lium sufficienter continebantur potentialiter in
+          <lb ed="#P" n="100"/>illis individuis diversarum specierum, ex 
+          quo<lb break="no" ed="#P" n="101"/>rum commixtione generantur: et ideo non fuit
+          <lb ed="#P" n="102"/>necessarium aliqua eorum individua ab 
+          auc<lb break="no" ed="#P" n="103"/>tore naturae rmmediate produci. Nam Deus ea
+          <lb ed="#P" n="104"/>tantum immediate produxit, quae non nisi per
+          <lb ed="#P" n="105"/>ipsius actionem in rerum natura introduci
+          <lb ed="#P" n="106"/>poterant quoad species suas, nam caetera, quae
+          <lb ed="#P" n="107"/>per causas secundas produci poterant, 
+          conve<lb break="no" ed="#P" n="108"/>nientius fuit per illas fieri, et hoc ipsum magis
+          <lb ed="#P" n="109"/>ad perfectionem universi pertinet. Accedit,
+          <lb ed="#P" n="110"/>quod hujusmodi generationes non fiunt sine
+          <pb ed="#P" n="164"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>interventu alicujus industriae humanse, ut ex
+          <lb ed="#P" n="2"/>Levitici 19, sumi potest, addita doctrina D.
+          <lb ed="#P" n="3"/>Thomae, 1, 2, q. 102, a. 6, ad 8. Constat autem
+          <lb ed="#P" n="4"/>non fecisse Deum omnes species rerum, quae
+          <lb ed="#P" n="5"/>interveniente industria humana ex variis
+          <lb ed="#P" n="6"/>commixtionibus rerum diversarum specierum
+          <lb ed="#P" n="7"/>discursu temporum ortae sunt: idem ergo est
+          <lb ed="#P" n="8"/>dicendum de iis animalibus, quae ex praedictis
+          <lb ed="#P" n="9"/>commixtionibus generantur.
+        </p>
+        <p xml:id="szdada-y03991-d1e1155">
+          <lb ed="#P" n="10"/>13. — Ex qua materia sint productee aves.—
+          <lb ed="#P" n="11"/>Prima sententia. — Superest dubium superius
+          <lb ed="#P" n="12"/>n. 4, in hunc locum remissum, ex qua materia
+          <lb ed="#P" n="13"/>volatilia facta sint. Nam in hoc magna est
+          <lb ed="#P" n="14"/>controversia propter varia Scripturae 
+          testimo<lb break="no" ed="#P" n="15"/>nia. Unde tres de hac re invenio sententias.
+          <lb ed="#P" n="16"/>Prima est, volatilia ex terra fuisse procreata.
+          <lb ed="#P" n="17"/>Ita tenent Cajetanus et Catherinus in Genes.,
+          <lb ed="#P" n="18"/>et Hieronymus Wielmius, lect. 22, in Exaem.,
+          <lb ed="#P" n="19"/>quos Pererius in opere quintae diei sequitur.
+          <lb ed="#P" n="20"/>Fundatur in verbis Moysis, Gen. 2: Formatis
+          <lb ed="#P" n="21"/>igitur Dominus Deus de humo cunctis 
+          animanti<lb break="no" ed="#P" n="22"/>bus terrae, et universis volatilibus celi adducit
+          <lb ed="#P" n="23"/>ea ad Adamum. Nam in illis aequalter dicit
+          <lb ed="#P" n="24"/>Moyses, animalia terrestria et volatilia ex
+          <lb ed="#P" n="25"/>humo, id est, terra fuisse formata. Et ratione
+          <lb ed="#P" n="26"/>confirmari potest, quia aves ex terra 
+          nutriun<lb break="no" ed="#P" n="27"/>tur, et in ea principaliter habitant et vivunt:
+          <lb ed="#P" n="28"/>ergo signum est, de terra esse formatas
+        </p>
+        <p xml:id="szdada-y03991-d1e1199">
+          <lb ed="#P" n="29"/>14. Secunda sententia. — Secunda opinio
+          <lb ed="#P" n="30"/>est, volatilia producta esse ex aqua, sicut 
+          pis<lb break="no" ed="#P" n="31"/>ces. Ita sentiunt, super Genes., Basilius, 
+          Am<lb break="no" ed="#P" n="32"/>brosius, et Chrysostomus, et D. Hieronymus,
+          <lb ed="#P" n="33"/>Epist. 83, ad Oceanum, ubi sic ait: Primum
+          <lb ed="#P" n="34"/>de aquis, quod vivit, egreditur, et pennatos 
+          ft<lb break="no" ed="#P" n="35"/>deles de terra ad celwn levat. Et favet 
+          Augus<lb break="no" ed="#P" n="36"/>unus, l. 3, Gen. ad lit., c. et 8. Et 
+          Ambro<lb break="no" ed="#P" n="37"/>sius, in hymno, quem canit Ecclesia feria 5,
+          <lb ed="#P" n="38"/>ad vesperam sic dixit:
+          <lb ed="#P" n="39"/>Magna Deus potentie,
+          <lb ed="#P" n="40"/>Qui ex aquis ortum genus
+          <lb ed="#P" n="41"/>Partim remittis gurgiti,
+          <lb ed="#P" n="42"/>Partim levas in aera.
+          <lb ed="#P" n="43"/>Fundamentum est, quia Gen. 1, dixit Deus:
+          <lb ed="#P" n="44"/>Producant aquee reptile anime viventis, et 
+          vo<lb break="no" ed="#P" n="45"/>latile super terram sub firnamento celi. Ubi
+          <lb ed="#P" n="46"/>expresse utrorumque animantium productio
+          <lb ed="#P" n="47"/>aquis tribuitur, utique in suo genere 
+          materia<lb break="no" ed="#P" n="48"/>lis causae, ut supra declaravi. Respondent 
+          ver<lb break="no" ed="#P" n="49"/>bum producat non esse construendum cum
+          <lb ed="#P" n="50"/>utraque parte copulativae propositionis, sed
+          <lb ed="#P" n="51"/>tantum cum prima: in secunda vero 
+          subintel<lb break="no" ed="#P" n="52"/>ligendum esse verbum colent, vel aliud simile:
+          <lb ed="#P" n="53"/>nam in Hebraea, et in Chaldaica paraphrasi
+          <lb ed="#P" n="54"/>illud verbum additur. Nos vero vulgatam lec-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>tionem praeterimus: et profecto praeter 
+          vulga<lb break="no" ed="#P" n="56"/>tae auctoritatem, sensus est planior. Ouia non
+          <lb ed="#P" n="57"/>est verisimile non fuisse expresse narratam
+          <lb ed="#P" n="58"/>productionem volatilium, et materiam, ex qua
+          <lb ed="#P" n="59"/>facta sunt, sicut de aliis duobus generibus 
+          ani<lb break="no" ed="#P" n="60"/>malium factum est. Cur enim diceret Deus,
+          <lb ed="#P" n="61"/>ut aves volarent, quas nondum dixerat, ut 
+          fie<lb break="no" ed="#P" n="62"/>rent ? Ergo verisimilius est, verbum producat,
+          <lb ed="#P" n="63"/>utramque partem comprehendere.
+        </p>
+        <p xml:id="szdada-y03991-d1e1281">
+          <lb ed="#P" n="64"/>15. Sed objicitur, quia non potest congrue
+          <lb ed="#P" n="65"/>exponi id, quod adjungitur, super terram, nisi
+          <lb ed="#P" n="66"/>subintelligatur verbum volent. Nam quomodo
+          <lb ed="#P" n="67"/>aquae, quae inferiores sunt terra, possent 
+          pro<lb break="no" ed="#P" n="68"/>ducere aves super terram? Sed haec objectio
+          <lb ed="#P" n="69"/>non habebit locum, si dicamus volatilia esse
+          <lb ed="#P" n="70"/>facta ex aquis, quae sunt super terram, de quo
+          <lb ed="#P" n="71"/>statim dicam. Verumtamen responderi etiam
+          <lb ed="#P" n="72"/>potest, licet facta sint ex aquis terrestribus 
+          vo<lb break="no" ed="#P" n="73"/>latilia, recte additum esse, super terram, ad
+          <lb ed="#P" n="74"/>distinguendas avesa piscibus, qui reptant 
+          su<lb break="no" ed="#P" n="75"/>par aquam, et quasi in aquis volant (ut aliqui
+          <lb ed="#P" n="76"/>notant) nam quemdam modum pennarum 
+          ha<lb break="no" ed="#P" n="77"/>bent. Unde illud super terram, est quasi 
+          addi<lb break="no" ed="#P" n="78"/>tum quoddam, determinans. et declarans 
+          pro<lb break="no" ed="#P" n="79"/>prietatem volatilium. Quod magis explicarunt
+          <lb ed="#P" n="80"/>Septuaginta, dicentes: Producant aque 
+          rep<lb break="no" ed="#P" n="81"/>tilia animarum viventium et volatilia colantia
+          <lb ed="#P" n="82"/>super terram: et hoc magis significavit 
+          para<lb break="no" ed="#P" n="83"/>phrasis Chaldaica, dicens: Producaut aque
+          <lb ed="#P" n="84"/>reptile animee viventium, et avem, quee volet
+          <lb ed="#P" n="85"/>super terram. Ex quibus manifestum est, illud
+          <lb ed="#P" n="86"/>nomen cí colatile, in nostra vulgata non esse
+          <lb ed="#P" n="87"/>nominativi casus, sed accusativi :ideoque nullo
+          <lb ed="#P" n="88"/>modo subintelhgi, ac suppleri posset verbum
+          <lb ed="#P" n="89"/>volet. Quod contirmatur ex verbis paulo post
+          <lb ed="#P" n="90"/>subjunctis, et aves multiplicentur super terrum,
+          <lb ed="#P" n="91"/>ubi non dicit, colitent, sed multiplicentur,
+          <lb ed="#P" n="92"/>quod substantialem productionem significat.
+          <lb ed="#P" n="93"/>Ergo similiter in prioribus verbis praeceperat
+          <lb ed="#P" n="94"/>Deus, ut volatilia producerentur super terram:
+          <lb ed="#P" n="95"/>ergo ex aquis productae sunt.
+        </p>
+        <p xml:id="szdada-y03991-d1e1353">
+          <lb ed="#P" n="96"/>16. Ad fundamentum positum n. 13, 
+          respon<lb break="no" ed="#P" n="97"/>det Augustinus dupliciter. —Neque conitra hanc
+          <lb ed="#P" n="98"/>sententiam obstant verba inducta ex capite
+          <lb ed="#P" n="99"/>secundo, tum quia illa particula ex humo, 
+          po<lb break="no" ed="#P" n="100"/>test construi cum solis animantibus terrae, de
+          <lb ed="#P" n="101"/>quibus fit mentio in prima parte periodi, et
+          <lb ed="#P" n="102"/>non cum volatilibus de quibus in posteriori
+          <lb ed="#P" n="103"/>parte mentio fit. Ita respondent Augustinus,
+          <lb ed="#P" n="104"/>l. 9, Gen., c. 1. Eritque facillima expositio si
+          <lb ed="#P" n="105"/>in secunda parte illius propositionis repetitum
+          <lb ed="#P" n="106"/>subintelligatur verbum formatis, isto modo,
+          <lb ed="#P" n="107"/>formatis de humo cunctis animantibus terree,
+          <lb ed="#P" n="108"/>et formatis etiam colatitibus adduait ea, eic.
+          <lb ed="#P" n="109"/>Sed Augustinus praeter ea aliam adhibet res-
+          <pb ed="#P" n="165"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ponsionem, scilicet, ibi sub nomine terrae 
+          e<lb break="no" ed="#P" n="2"/>tiam aquam esse comprehensam. Et utraque
+          <lb ed="#P" n="3"/>responsio satis probabilis est. Posset etiam
+          <lb ed="#P" n="4"/>dici. remote et quasi radicaliter etiam volatilia
+          <lb ed="#P" n="5"/>facta esse de terra, quia qualitates terrae 
+          prae<lb break="no" ed="#P" n="6"/>dominanter habent, et brevitatis causa 
+          terres<lb break="no" ed="#P" n="7"/>tria et volatilia dicta esse de humo formata,
+          <lb ed="#P" n="8"/>licet non eodem modo ex terra genita sint, quia
+          <lb ed="#P" n="9"/>proxime tantum terrestria, volatilia vero 
+          remo<lb break="no" ed="#P" n="10"/>te modo nunc explicato, licet ex aquis proxime.
+        </p>
+        <p xml:id="szdada-y03991-d1e1412">
+          <lb ed="#P" n="11"/>17. Tertia sententia magis probata 
+          Augus<lb break="no" ed="#P" n="12"/>tino. Deda, Ruperto, Eucherio, D. Thoma.
+          <lb ed="#P" n="13"/>— At vera est tertia sententia dicens volatilia
+          <lb ed="#P" n="14"/>facta esse ex aere. Hanc magis probat 
+          Augus<lb break="no" ed="#P" n="15"/>tinus, l. 3, Gen. ad litt, c. 3, et latius in 
+          Im<lb break="no" ed="#P" n="16"/>perfect., c. 14, et sequitur Beda in Exaem., et
+          <lb ed="#P" n="17"/>Rupertus, l. 1, in Gen., c. 50, et Eucherius
+          <lb ed="#P" n="18"/>qui his verbis illam explicat: Volatilia ab aquis
+          <lb ed="#P" n="19"/>producta scribuntur, quia aer, in quo volitant,
+          <lb ed="#P" n="20"/>a sapientibus cum aquis deputatur qui 
+          aqua<lb break="no" ed="#P" n="21"/>rum humida exhalatione ringuescit, ut volatus
+          <lb ed="#P" n="22"/>animalium sustinere possit. Et ceodem modo
+          <lb ed="#P" n="23"/>tenuit hanc sententiam D. Thomas, quaest. 71,
+          <lb ed="#P" n="24"/>ad 3. Et potest suaderi, quia aves magis de
+          <lb ed="#P" n="25"/>elemento aeris participare videntur, nam in
+          <lb ed="#P" n="26"/>aere volant, et quoad fieri potest in illo 
+          de<lb break="no" ed="#P" n="27"/>gunt. Sed haec sententia ita accipienda est, ut
+          <lb ed="#P" n="28"/>non sit contraria secundae, sed cam magis 
+          ex<lb break="no" ed="#P" n="29"/>plicet. Nam cum Seriptura dicat volatilia facta
+          <lb ed="#P" n="30"/>esse ex aquis, hoc simpliciter negari non 
+          po<lb break="no" ed="#P" n="31"/>test: unde neque ita potest affirmari facta
+          <lb ed="#P" n="32"/>esse ex aere, ut aqua excludatur. Praesertim
+          <lb ed="#P" n="33"/>quia solus aer propter suam raritatem, et 
+          levi<lb break="no" ed="#P" n="34"/>tatem non potest esse apta materia, ex qua
+          <lb ed="#P" n="35"/>proxime generantur aves, et ideo oportet, ut
+          <lb ed="#P" n="36"/>vel in substantiam aquae transferatur, vel certe
+          <lb ed="#P" n="37"/>ut materiam aqueam in se habeat, ut possint
+          <lb ed="#P" n="38"/>ex illo aes generari. Sic ergo absolute 
+          dicen<lb break="no" ed="#P" n="39"/>dum est volatila ex aquis fuisse producta, 
+          ta<lb break="no" ed="#P" n="40"/>men quia aquae partim sunt in terra sub 
+          pro<lb break="no" ed="#P" n="41"/>pria et sensibili dispositione aquae liquidae
+          <lb ed="#P" n="42"/>et fluidae, partim sunt elevatae a terra in 
+          nu<lb break="no" ed="#P" n="43"/>bibus et vaporibus: ideo recte dici potest
+          <lb ed="#P" n="44"/>pisces esse factos ex aquis priori modo 
+          specta<lb break="no" ed="#P" n="45"/>tis, aves vero ex levioribus seu altioribus aquis:
+          <lb ed="#P" n="46"/>et quia inter aves quaedam sunt magis aqueae,
+          <lb ed="#P" n="47"/>ut sic dicam, quia in ipsis aquis frequenter
+          <lb ed="#P" n="48"/>degunt: et super paludes, vel stagna libenter
+          <lb ed="#P" n="49"/>volitant, credibile est has esse factas vel ex
+          <lb ed="#P" n="50"/>aquis terrestribus, vel ex vaporibus illis 
+          vici<lb break="no" ed="#P" n="51"/>nioribus: alias vero, quae subtilioris sunt 
+          na<lb break="no" ed="#P" n="52"/>turae, et altius volitant et in arboribus, vel in
+          <lb ed="#P" n="53"/>alis locis excelsioribus habitant, ex 
+          subtiliori<lb break="no" ed="#P" n="54"/>bus aquis magisque a terra, et ejus aquis 
+          ele<lb break="no" ed="#P" n="55"/>vatis, creatas fuisse.
+        </p>
+        <p xml:id="szdada-y03991-d1e1512">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>18. Em elemento ignis nulla animalia 
+          pro<lb break="no" ed="#P" n="57"/>ducta. — Rejicitur Aristoteles a Galeno. Vide
+          <lb ed="#P" n="58"/>etiam Conimbricenses in problemate de celo,
+          <lb ed="#P" n="59"/>sectione 4, mum. 5. —Ultimo movent aliqui
+          <lb ed="#P" n="60"/>quaestionem, cur ex elemento ignis nulla 
+          ani<lb break="no" ed="#P" n="61"/>malia producta sint. Sed ratio est in promptu,
+          <lb ed="#P" n="62"/>quia ignis non poterat esse apta materia 
+          proxi<lb break="no" ed="#P" n="63"/>ma viventium, neque locus, in quo naturaliter
+          <lb ed="#P" n="64"/>viverent propter nimiam ignis caliditatem et
+          <lb ed="#P" n="65"/>activitatem. Nam quod de salamandra refert
+          <lb ed="#P" n="66"/>Aristoteles, 1. 5, de Hist. anim., c. 19, quod
+          <lb ed="#P" n="67"/>in igne diu vivat, refellitur a Galeno, l. 3, de
+          <lb ed="#P" n="68"/>Temperam., et aliis, quos Pereira refert in
+          <lb ed="#P" n="69"/>opere sexti diei, et l. 3, in Dan., ad illa verba,
+          <lb ed="#P" n="70"/>Angelus a Domini, etc. Unde non minus 
+          incer<lb break="no" ed="#P" n="71"/>tum censeo, quod ibidem refert Aristoteles de
+          <lb ed="#P" n="72"/>parvis animalibus quae in aerariis fornacibus
+          <lb ed="#P" n="73"/>in medio igne ex quodam concremento lapide
+          <lb ed="#P" n="74"/>in Cypro generantur: nulla enim, ut arbitror,
+          <lb ed="#P" n="75"/>experientia id satis probatum est: neque etiam
+          <lb ed="#P" n="76"/>est satis rationi consentaneum, nec doctrinae
+          <lb ed="#P" n="77"/>ejusdem Aristotelis, 1. 4 Meteororum, c. 1,
+          <lb ed="#P" n="78"/>et lib. 2. de Generat., cap. 3. Verumtamen,
+          <lb ed="#P" n="79"/>quamvis daremus dicta animalia in igne 
+          gene<lb break="no" ed="#P" n="80"/>rari, illa essent imperfectissima, et his similia,
+          <lb ed="#P" n="81"/>quae in aliis elementis per accidens, et ex 
+          pu<lb break="no" ed="#P" n="82"/>trefactione fiunt, ideoque ad primam rerum
+          <lb ed="#P" n="83"/>productionem non pertinuissent.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

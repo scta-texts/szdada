@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="745"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y18321"><!-- t3l4c9 -->
+        <head xml:id="szdada-y18321-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-y18321-Hd1e103" type="question-title">Utrum intellectus practicus et speculativus sint potentiae distinctae</head>
+        <p xml:id="szdada-y18321-d1e106">
+          <lb ed="#P" n="35"/>CAPUT IX.
+          <lb ed="#P" n="36"/>UTRUM INTELLECTUS PRACTICUS ET SPECULATIVUS
+          <lb ed="#P" n="37"/>SINT POTENTIAE DISTINCTAE.
+        </p>
+        <p xml:id="szdada-y18321-d1e115">
+          <lb ed="#P" n="38"/>1. Prima differentia inter practicum et 
+          spe<lb break="no" ed="#P" n="39"/>culativum. — Replicatio secunda.—HWHanc 
+          quaes<lb break="no" ed="#P" n="40"/>tionem tractat Aristoteles, lib. 3, de Anima,
+          <lb ed="#P" n="41"/>cap. 9 et 10. Estque valde necessaria ad 
+          expli<lb break="no" ed="#P" n="42"/>canda diversa munera intellectus nostri, 
+          dis<lb break="no" ed="#P" n="43"/>putat praeterea de intellectu practico et 
+          specu<lb break="no" ed="#P" n="44"/>lativo, libro 6, Ethicorum, a capite 1, per 
+          se<lb break="no" ed="#P" n="45"/>quentia, et lib. 14, Magnorum Moral., c. 35,
+          <lb ed="#P" n="46"/>Metaphysicae, capitibus 1 et 6, Metaphysicae,
+          <lb ed="#P" n="47"/>capite primo. Pro expositione ergo primo
+          <lb ed="#P" n="48"/>notandum, practicum et speculativum 
+          potissi<lb break="no" ed="#P" n="49"/>me differre ex parte finis, ut Aristoteles, dicto
+          <lb ed="#P" n="50"/>loco, docet: nam finis speculationis est veritas,
+          <lb ed="#P" n="51"/>et perfectio ipsius intellectus ut sic, finis vero
+          <lb ed="#P" n="52"/>practici est opus: et ideo speculatio propter
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>seipsam est appetibilis: practicum vero 
+          tan<lb break="no" ed="#P" n="54"/>tum in ordine ad opus, et propter bonum, quod
+          <lb ed="#P" n="55"/>in operatione reperitur. Ad cujus differentiae
+          <lb ed="#P" n="56"/>declarationem est secundo notandum 
+          intellec<lb break="no" ed="#P" n="57"/>tum nostrum circa duo versari: primo quidem
+          <lb ed="#P" n="58"/>circa cognitionem rerum tam externarum,
+          <lb ed="#P" n="59"/>quam propriae etiam naturae: secundo circa
+          <lb ed="#P" n="60"/>operationes proprias, inter quas aliae sunt in
+          <lb ed="#P" n="61"/>potestate hominis, quoad usum et exercitium,
+          <lb ed="#P" n="62"/>atque etiam quoad rectitudinem et pravitatem,
+          <lb ed="#P" n="63"/>aliae vero fiunt necessario, quae proinde in
+          <lb ed="#P" n="64"/>potestate hominis non existunt. Circa priores
+          <lb ed="#P" n="65"/>autem operationes dupliciter potest intellectus
+          <lb ed="#P" n="66"/>versari: aut cognoscendo illas secundum 
+          en<lb break="no" ed="#P" n="67"/>titates suas naturales: aut regulando, 
+          consti<lb break="no" ed="#P" n="68"/>tuendoque in illis modum, quo optime fiant.
+          <lb ed="#P" n="69"/>Quando ergo intellectus noster versatur circa
+          <lb ed="#P" n="70"/>rem quamlibet sibi extrinsecam, vel 
+          intrinse<lb break="no" ed="#P" n="71"/>cam, cognoscendo tantum naturam, et 
+          pro<lb break="no" ed="#P" n="72"/>prietates illius, ea cognitio speculativa est,
+          <lb ed="#P" n="73"/>quando vero circa operationem hominis ipsius,
+          <lb ed="#P" n="74"/>regulando, ponendoque illi modum, talis actio
+          <lb ed="#P" n="75"/>erat communiter practica. Quapropter cognitio
+          <lb ed="#P" n="76"/>speculativa vendicat pro materia proxima
+          <lb ed="#P" n="77"/>circa quam versatur, rem cognitam: pro fine
+          <lb ed="#P" n="78"/>autem ipsam veritatem, quae de re illa potest
+          <lb ed="#P" n="79"/>demonstrari: at vero cognitio practica pro
+          <lb ed="#P" n="80"/>materia, et objecto sortitur operationem 
+          hu<lb break="no" ed="#P" n="81"/>manam, et pro fine rectitudinem illius, et, ut
+          <lb ed="#P" n="82"/>ita dicam, regulationem in facto esse: quod
+          <lb ed="#P" n="83"/>intelligendum venit, quando operatio ipsa est
+          <lb ed="#P" n="84"/>praxis, ut statim explicabo. Et hac de causa
+          <lb ed="#P" n="85"/>intellectus practicus rem considerat, ut 
+          opera<lb break="no" ed="#P" n="86"/>bilem, quia nimirum immediate considerat, ut
+          <lb ed="#P" n="87"/>operationes hominis, ac res alias, ut sub 
+          tali<lb break="no" ed="#P" n="88"/>bus cadunt operationibus.
+        </p>
+        <p xml:id="szdada-y18321-d1e230">
+          <lb ed="#P" n="89"/>2. Secunda differentia. — Tertia. — Quarta.
+          <lb ed="#P" n="90"/>— Quinta. — Hinc altera sumitur differentia
+          <lb ed="#P" n="91"/>practici et speculativi, quod speculativum 
+          ver<lb break="no" ed="#P" n="92"/>satur potissime circa universalia, unde scientia
+          <lb ed="#P" n="93"/>maxime speculativa, qualis est metaphysica,
+          <lb ed="#P" n="94"/>maxime universalia contemplatur: practicum
+          <lb ed="#P" n="95"/>vero potissime intendit in particularia: qua de
+          <lb ed="#P" n="96"/>causa prudentia habitus intellectus est maxime
+          <lb ed="#P" n="97"/>practicus, quia particularia considerat. Ac 
+          ra<lb break="no" ed="#P" n="98"/>tio a priori est, quia circa actiones versatur,
+          <lb ed="#P" n="99"/>quae ad singularia terminantur. Et quamvis
+          <lb ed="#P" n="100"/>practicum circa universalia saepe versetur, id
+          <lb ed="#P" n="101"/>tamen non nisi in ordine ad singularia. Unde
+          <lb ed="#P" n="102"/>suboritur tertia differentia, quod speculativum
+          <lb ed="#P" n="103"/>est maxime de aeternis, ac necessaris: quod
+          <lb ed="#P" n="104"/>si attingit etiam corruptibilia, ea plane 
+          abs<lb break="no" ed="#P" n="105"/>trahit, et quasi perpetua considerat: practicum
+          <lb ed="#P" n="106"/>vero de contingentibus, quia respicit singularia
+          <lb ed="#P" n="107"/>particularesque circumstantias eorum, quae
+          <pb ed="#P" n="746"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>facile mutabiles sunt. Est et alia differentia,
+          <lb ed="#P" n="2"/>quod speculativum res contemplatur ex earum
+          <lb ed="#P" n="3"/>principiis: practicum vero considerat easdem,
+          <lb ed="#P" n="4"/>quasi ponens in seipso principium illarum: sic
+          <lb ed="#P" n="5"/>philosophus naturalis cognoscit passiones 
+          ani<lb break="no" ed="#P" n="6"/>mae considerando quid in se sint, et quomodo
+          <lb ed="#P" n="7"/>oriantur a tali natura, et hoc ipsum est 
+          consi<lb break="no" ed="#P" n="8"/>derare rem speculativo modo: philosophus
+          <lb ed="#P" n="9"/>autem moralis observat animae passiones, ut
+          <lb ed="#P" n="10"/>reducendae sint ad mediocritatem per virtutes,
+          <lb ed="#P" n="11"/>quod est agere de illis modo operabili. Ultima
+          <lb ed="#P" n="12"/>tandem differentia, ad quam numeratae omnes
+          <lb ed="#P" n="13"/>reducuntur, posita est in diversitate objecti
+          <lb ed="#P" n="14"/>formalis, nam practicum respicit operabile, ut
+          <lb ed="#P" n="15"/>sic, speculativum autem veritatem, ut sic, quae
+          <lb ed="#P" n="16"/>est differentia ex parte finis, ut recte notavit
+          <lb ed="#P" n="17"/>Cajetanus, 1 part., quaest. 14, art. 16. 
+          Qua<lb break="no" ed="#P" n="18"/>propter superflua est quorumdam disputatio,
+          <lb ed="#P" n="19"/>an practicum et speculativum differant ex 
+          ob<lb break="no" ed="#P" n="20"/>jecto, an ex fine, quam excitant Antonius 
+          An<lb break="no" ed="#P" n="21"/>dreas 6, Metaphysicae, q. 1, Soncinus, q. 4,
+          <lb ed="#P" n="22"/>Javellus, quaest. 5, si enim sermo sit de objecto
+          <lb ed="#P" n="23"/>materiali, in eo plane non differunt, cum circa
+          <lb ed="#P" n="24"/>idem objectum materiale practicum et 
+          specu<lb break="no" ed="#P" n="25"/>lativum possint versari: si vero de objecto
+          <lb ed="#P" n="26"/>formali idem prorsus est cum fine: nulla ergo
+          <lb ed="#P" n="27"/>existit controversia.
+        </p>
+        <p xml:id="szdada-y18321-d1e338">
+          <lb ed="#P" n="28"/>3. Primum corollarium ea doctrina data. —
+          <lb ed="#P" n="29"/>Finis scientis potest per accidens variare 
+          ra<lb break="no" ed="#P" n="30"/>tionem practici vel speculativi: non vero per se.
+          <lb ed="#P" n="31"/>—Ex dictis de practico et speculativo in 
+          com<lb break="no" ed="#P" n="32"/>muni colligitur primo resolutio illius 
+          quaestio<lb break="no" ed="#P" n="33"/>nis, an scientia practica et speculativa differant
+          <lb ed="#P" n="34"/>ex fine ipsius scientiae, multi enim putant 
+          ha<lb break="no" ed="#P" n="35"/>bitum practicum non esse absque fine scientis,
+          <lb ed="#P" n="36"/>ut Soncinus et Javellus paulo ante citati,
+          <lb ed="#P" n="37"/>quibus videtur favere D. Thomas, 1 p., q. 14,
+          <lb ed="#P" n="38"/>art. 16, et quaest. 79, art. 2. Dicendum est 
+          ta<lb break="no" ed="#P" n="39"/>men, habitum ex se habere practicum esse,
+          <lb ed="#P" n="40"/>vel speculativum, neque finem scientis posse
+          <lb ed="#P" n="41"/>variare hujusmodi rationem in habitibus: sic
+          <lb ed="#P" n="42"/>scientia, qua cognoscitur Deus cum attributis
+          <lb ed="#P" n="43"/>ipsius speculativa est, quantumlibet ipse sciens
+          <lb ed="#P" n="44"/>finem aliquem extrinsecum per illam sibi 
+          pro<lb break="no" ed="#P" n="45"/>ponat acquirendum. Alioquin vana foret 
+          divi<lb break="no" ed="#P" n="46"/>sio scientiarum in practicas et speculativas,
+          <lb ed="#P" n="47"/>nam quaelibet posset practica evadere, aut
+          <lb ed="#P" n="48"/>speculativa juxta placitum addiscentis, quod
+          <lb ed="#P" n="49"/>est ridiculum. Ac ratio a priori est, quia 
+          ha<lb break="no" ed="#P" n="50"/>bitus practicus dicitur, eo quod directivus sit
+          <lb ed="#P" n="51"/>operationis, quod vero actu non dirigat per
+          <lb ed="#P" n="52"/>directionem et intentionem addiscentis, per
+          <lb ed="#P" n="53"/>accidens est, nec illius mutat naturam, sicut
+          <lb ed="#P" n="54"/>regula semper talis est, quamvis ad 
+          regulan<lb break="no" ed="#P" n="55"/>dum non applicetur. Ita Cajetanus, citato ar-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tic. 16, primae partis, Ferrarius 3, contra 
+          Gen<lb break="no" ed="#P" n="57"/>tes, cap. 20, Soto, quaest. 4, proaemialium in
+          <lb ed="#P" n="58"/>logicam. Fatemur tamen finem scientis 
+          mo<lb break="no" ed="#P" n="59"/>dum mutare in acquisitione scientice, 
+          opera<lb break="no" ed="#P" n="60"/>tionemque et habitum practicum reddere, non
+          <lb ed="#P" n="61"/>quidem per se, sed quasi per accidens et 
+          occa<lb break="no" ed="#P" n="62"/>sionaliter: veluti si quis acquirat scientiam de
+          <lb ed="#P" n="63"/>re operabili, non animo operandi, sed 
+          cogno<lb break="no" ed="#P" n="64"/>scendi naturam illius, procedit quidem ex 
+          ac<lb break="no" ed="#P" n="65"/>cidenti, speculativo modo: qui vero addiscit
+          <lb ed="#P" n="66"/>animo operandi, procedit practico, atque adeo
+          <lb ed="#P" n="67"/>cognitio haec practica erit, illa speculativa,
+          <lb ed="#P" n="68"/>quod quidem ex fine scientis ortum habuit,
+          <lb ed="#P" n="69"/>occasionaliter tamen id habent ex intrinseco
+          <lb ed="#P" n="70"/>modo procedendi, et ita est intelligendus 
+          sanc<lb break="no" ed="#P" n="71"/>tus Thomas: si tamen quis non variaret 
+          mo<lb break="no" ed="#P" n="72"/>dum acquirendi scientiam, quamvis variaret
+          <lb ed="#P" n="73"/>propositum et finem suum, ratio scientiae non
+          <lb ed="#P" n="74"/>mutaretur, et ita per se loquendo finis scientis
+          <lb ed="#P" n="75"/>non variat rationem habitus practici, vel 
+          spe<lb break="no" ed="#P" n="76"/>culativi.
+        </p>
+        <p xml:id="szdada-y18321-d1e449">
+          <lb ed="#P" n="77"/>4. In dubio suborto prima sententia. — 
+          Se<lb break="no" ed="#P" n="78"/>cunda sententia rejicitur. — Sed an in actibus
+          <lb ed="#P" n="79"/>ipsis requiratur actualis intentio operandi ut
+          <lb ed="#P" n="80"/>consideratio practica dicatur, dubitari posset.
+          <lb ed="#P" n="81"/>Quidam affirmant, asserentes nullam 
+          conside<lb break="no" ed="#P" n="82"/>rationem actualem esse practicam simphiciter,
+          <lb ed="#P" n="83"/>nisi illi addatur actus voluntatis intendentis
+          <lb ed="#P" n="84"/>operationem: habitus enim, inquiunt, dicitur
+          <lb ed="#P" n="85"/>practicus, quia est directivus, talis autem est
+          <lb ed="#P" n="86"/>absque operantis directione, et ideo est etiam
+          <lb ed="#P" n="87"/>practiens absque tali directione: at vero actus
+          <lb ed="#P" n="88"/>practicus dicitur, quia actu dirigit, non potest
+          <lb ed="#P" n="89"/>autem dirigere actu nisi voluntatis intentio
+          <lb ed="#P" n="90"/>accedat: quare, etc. Alii addunt requiri 
+          vo<lb break="no" ed="#P" n="91"/>Iuntatem rectam, quod falsum puto, nam a
+          <lb ed="#P" n="92"/>voluntate errante procedere potest actus 
+          prac<lb break="no" ed="#P" n="93"/>ticus pravus: et imprudentia practica plane
+          <lb ed="#P" n="94"/>est, sicut contraria prudentia, imo et error
+          <lb ed="#P" n="95"/>practicus dari valet, unde ex 3, Ethicorum,
+          <lb ed="#P" n="96"/>cap. 1, celebratur omnem pravum gnorare
+          <lb ed="#P" n="97"/>quid agat, ignorantia practica videlicet, 
+          igno<lb break="no" ed="#P" n="98"/>rantia quippe speculativa minime ignorat.
+        </p>
+        <p xml:id="szdada-y18321-d1e499">
+          <lb ed="#P" n="99"/>5. Primum quoque exploditur. — At enim
+          <lb ed="#P" n="100"/>non solum sententia haec, verum etiam prior
+          <lb ed="#P" n="101"/>displicet, namque ut actus intellectus dicatur
+          <lb ed="#P" n="102"/>practicus, non pendet a voluntate, ut a 
+          mo<lb break="no" ed="#P" n="103"/>vente: quod probatur, quia omnis actus 
+          intel<lb break="no" ed="#P" n="104"/>lectus, qui de se tendit ad movendum 
+          appeti<lb break="no" ed="#P" n="105"/>tum et regulandum actum illius, practicus
+          <lb ed="#P" n="106"/>est: actus autem, a quo movetur appetitus,
+          <lb ed="#P" n="107"/>antecedit omnem appetitum: non ergo actus
+          <lb ed="#P" n="108"/>practicus per se requirit voluntatis 
+          intentio<lb break="no" ed="#P" n="109"/>nem. Major patet: quia non intellectus 
+          specu<lb break="no" ed="#P" n="110"/>lativus, sed practicus movet appetitum, ut docet
+          <pb ed="#P" n="747"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Aristoteles: minor vero ostenditur, quia 
+          appe<lb break="no" ed="#P" n="2"/>titus non tendit nisi ad objectum cognitum,
+          <lb ed="#P" n="3"/>ideoque prima cognitio practica appetitum
+          <lb ed="#P" n="4"/>movens praeire debet omnem actum appetitus,
+          <lb ed="#P" n="5"/>alias in infinitum procederetur, ut notavit
+          <lb ed="#P" n="6"/>Aristoteles 7, Ethicorum ad Eudemum, et nos
+          <lb ed="#P" n="7"/>infra dicemus, lib. 5, capite 3, hic vero actus,
+          <lb ed="#P" n="8"/>omne malum est fugiendum, practicus est, 
+          si<lb break="no" ed="#P" n="9"/>quidem vim habct movendi appetitum, imo
+          <lb ed="#P" n="10"/>primum principium censetur rationis 
+          practi<lb break="no" ed="#P" n="11"/>cae: ut divus Thomas notat, 1 p., quaest. 79,
+          <lb ed="#P" n="12"/>art. 12, unde in 2, 2, queest. 49, art. 2, 
+          habi<lb break="no" ed="#P" n="13"/>tum elicitivum talis actus inter partes 
+          pru<lb break="no" ed="#P" n="14"/>dentiae collocat.
+        </p>
+        <p xml:id="szdada-y18321-d1e562">
+          <lb ed="#P" n="15"/>6. Replica pro eadem prima sententia. —
+          <lb ed="#P" n="16"/>Vera enodatio. — Suadetur. — Sed occurrunt
+          <lb ed="#P" n="17"/>adversarii, actus ejusmodi non esse perfecte
+          <lb ed="#P" n="18"/>practicos, cum possit mens in eorum cognitione
+          <lb ed="#P" n="19"/>sistere: et speculari tantum omne malum esse
+          <lb ed="#P" n="20"/>detestabile et omne bonum dirigibile, unde a
+          <lb ed="#P" n="21"/>quibusdam similes actus vocantur speculative
+          <lb ed="#P" n="22"/>practici. Fortasse tamen quaestio de nomine
+          <lb ed="#P" n="23"/>erit, atque ita actus ille potest simpliciter 
+          prac<lb break="no" ed="#P" n="24"/>ticus censeri. Unde S. Thomas, quaest. 17, de
+          <lb ed="#P" n="25"/>Veritate, art. 1, synderesim vocat simpliciter
+          <lb ed="#P" n="26"/>habitum practicum. Ratio est, quia licet possit
+          <lb ed="#P" n="27"/>intellectus in cognitione illa sistere, ex natura
+          <lb ed="#P" n="28"/>tamen sua actus ipse movere appetitum valet,
+          <lb ed="#P" n="29"/>media conclusione practica, quae ex illo 
+          infer<lb break="no" ed="#P" n="30"/>tur, assensus namque principiorum naturaliter
+          <lb ed="#P" n="31"/>tendit ad assensum conclusionum, ejusdemque
+          <lb ed="#P" n="32"/>ordinis est cum illo: unde confirmatur 
+          insti<lb break="no" ed="#P" n="33"/>tutum, nam actus hic in particulari, malum
+          <lb ed="#P" n="34"/>hoc, verbi gratia, futurum, est fugiendum,
+          <lb ed="#P" n="35"/>practicus est: ergo, et universalis ille, omne
+          <lb ed="#P" n="36"/>malum est fugiendum, practicus erit. 
+          Antece<lb break="no" ed="#P" n="37"/>dens suadetur, quia talis habet pro objecto rem
+          <lb ed="#P" n="38"/>operabilem, modoque operabili circa illam
+          <lb ed="#P" n="39"/>versatur, cum proponatur facienda, et actus
+          <lb ed="#P" n="40"/>ipse sufficiens sit ad movendum voluntatem,
+          <lb ed="#P" n="41"/>et ad hoc ex se dirigatur. Jam consequentia
+          <lb ed="#P" n="42"/>suadetur: quia eadem est ratio de actu 
+          uni<lb break="no" ed="#P" n="43"/>versali et particulari. Hinc ergo formatur 
+          ar<lb break="no" ed="#P" n="44"/>gumentum. Actus hic, omne malum est 
+          fu<lb break="no" ed="#P" n="45"/>giendum, practicus est, non pendet autem ex
+          <lb ed="#P" n="46"/>voluntate operantis: ergo, etc. Tandem actus
+          <lb ed="#P" n="47"/>conscientiae, dictus murmuratio intellectus de
+          <lb ed="#P" n="48"/>actu malo, ex quo sequitur remorsus in 
+          volun<lb break="no" ed="#P" n="49"/>tate, ille, inquam, actus practicus est: utpote
+          <lb ed="#P" n="50"/>quaedam synderesis, movetque voluntatem et
+          <lb ed="#P" n="51"/>tamen praevenit omnem appetitum, quia nobis
+          <lb ed="#P" n="52"/>etiam nolentibus intra nos excitatur: ergo
+          <lb ed="#P" n="53"/>actus practicus non tantum ille est, qui a
+          <lb ed="#P" n="54"/>voluntate procedit, vel qui actu dirigit 
+          ope<lb break="no" ed="#P" n="55"/>rantem, sed qui de se est sufficiens ad moven-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dum appetitum, et ad id ex se tendit natura
+          <lb ed="#P" n="57"/>sua.
+        </p>
+        <p xml:id="szdada-y18321-d1e660">
+          <lb ed="#P" n="58"/>7. Doctrina proacima temperatur. — Est 
+          qui<lb break="no" ed="#P" n="59"/>dem verum inter practicos actus esse nonnullos
+          <lb ed="#P" n="60"/>magis practicos, quam alios: namque sermones
+          <lb ed="#P" n="61"/>universales nonnihil magis speculationis 
+          par<lb break="no" ed="#P" n="62"/>ticipant, et inter actus prosecutionis, vel 
+          fu<lb break="no" ed="#P" n="63"/>gae, il, qui exercite ad illam dirigunt, quale
+          <lb ed="#P" n="64"/>imperium, magis practici sunt, quam qui in
+          <lb ed="#P" n="65"/>actu signato solum judicant fugiendum esse,
+          <lb ed="#P" n="66"/>vel persequendum: omnes tamen possunt dici
+          <lb ed="#P" n="67"/>practici absolute, quia omnes habent pro fine
+          <lb ed="#P" n="68"/>opus. Inferes, ergo omnis actus intellectus
+          <lb ed="#P" n="69"/>practicus est, siquidem omnis de se excitat
+          <lb ed="#P" n="70"/>voluntatem saltem delectando, cognitioque Dei
+          <lb ed="#P" n="71"/>practica est, quoniam motiva etiam est 
+          volun<lb break="no" ed="#P" n="72"/>tatis ad illum amandum. Neganda tamen 
+          se<lb break="no" ed="#P" n="73"/>quela, actio enim practica non ea dicitur, ex
+          <lb ed="#P" n="74"/>qua sequi potest affectus in voluntate, ut S.
+          <lb ed="#P" n="75"/>Thomas notat de Veritate, quaest. 14, art. 4,
+          <lb ed="#P" n="76"/>sed quae directiva est operum, ad hocque 
+          ten<lb break="no" ed="#P" n="77"/>dit ex genere suo, hujusmodi vero est omne
+          <lb ed="#P" n="78"/>dictamen intellectus circa res agendas, vel 
+          fu<lb break="no" ed="#P" n="79"/>giendas, sunt item consilii, qui plane 
+          indu<lb break="no" ed="#P" n="80"/>cunt ad operandum, quamvis efficaciter id non
+          <lb ed="#P" n="81"/>efficiant, id enim de ratione omnium 
+          practico<lb break="no" ed="#P" n="82"/>rum actuum non est, sed quod ad id tendant
+          <lb ed="#P" n="83"/>ex sese.
+        </p>
+        <p xml:id="szdada-y18321-d1e719">
+          <lb ed="#P" n="84"/>8. Secundum corollarium. — Secundo 
+          colli<lb break="no" ed="#P" n="85"/>gitur ex dictis, quidnam sit actus practicus,
+          <lb ed="#P" n="86"/>quidnam praxis, de quo plurimi plurima 
+          dis<lb break="no" ed="#P" n="87"/>putant tam metaphysici, quam theologi :
+          <lb ed="#P" n="88"/>quidam autem aftfirmant praxim debere esse
+          <lb ed="#P" n="89"/>operationem intellectus: alii vero, ut Scotus
+          <lb ed="#P" n="90"/>et Soncinus definiunt praxim necessario esse
+          <lb ed="#P" n="91"/>operationem alterius potentiae ab intellectu :
+          <lb ed="#P" n="92"/>est vero, ut existimo, dissensio de nomine,
+          <lb ed="#P" n="93"/>nam actus practicus est, ut diximus, quo 
+          in<lb break="no" ed="#P" n="94"/>tellectus ordinat, aut dirigit operationem ,
+          <lb ed="#P" n="95"/>praxis vero dicitur operatio ipsa quae 
+          regula<lb break="no" ed="#P" n="96"/>tur et ordinatur per actionem practicam 
+          intel<lb break="no" ed="#P" n="97"/>lectus: nam praxis nomen Graecum est, Latine,
+          <lb ed="#P" n="98"/>operationem significans: atque hic videtur
+          <lb ed="#P" n="99"/>communis vocabulorum usus, unde 
+          communi<lb break="no" ed="#P" n="100"/>ter praxis putatur actus alterius potentiae ab
+          <lb ed="#P" n="101"/>intellectu, practicus vero actus ab intellectu
+          <lb ed="#P" n="102"/>ipso elicitur, atque intra illum invenitur.
+        </p>
+        <p xml:id="szdada-y18321-d1e764">
+          <lb ed="#P" n="103"/>9. Dubii cujusdam enodatio. — Sed, an
+          <lb ed="#P" n="104"/>praxis sit etiam interdum actus ab intellectu
+          <lb ed="#P" n="105"/>elicitus communiter negari solet, dicendum
+          <lb ed="#P" n="106"/>tamen actum intellectus considerari, aut ut
+          <lb ed="#P" n="107"/>operatio est, secundum suam substantiam 
+          tan<lb break="no" ed="#P" n="108"/>tum, sicque verum, vel falsum esse, ac 
+          specu<lb break="no" ed="#P" n="109"/>lationem quamdam ; aut considerari, ut 
+          obji<lb break="no" ed="#P" n="110"/>citur actui voluntatis, ab eaque elicitur, et a
+          <pb ed="#P" n="748"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prudentia imperatur, et ut sic intellectum 
+          bo<lb break="no" ed="#P" n="2"/>num esse, vel malum, atque ejus actus praxes,
+          <lb ed="#P" n="3"/>cum sint actus voluntarii et morales, 
+          proinde<lb break="no" ed="#P" n="4"/>que virtutis, vel vitii: qua propter cum sanctus
+          <lb ed="#P" n="5"/>Thomas, 1, 2, quaest. 57, art. 1, ad primum,
+          <lb ed="#P" n="6"/>ait habitum practicum dirigere opus exterius,
+          <lb ed="#P" n="7"/>seu alterius potentiae ab intellectu, non 
+          con<lb break="no" ed="#P" n="8"/>tendit dirigere semper, ac necessario, sed
+          <lb ed="#P" n="9"/>communiter. Etenim prudentia dirigit etiam
+          <lb ed="#P" n="10"/>actus intellectus quantum ad usum: vel certe
+          <lb ed="#P" n="11"/>intelligendus erit, quod immediate dirigat 
+          ac<lb break="no" ed="#P" n="12"/>tum alterius potentiae, nempe voluntatis: 
+          me<lb break="no" ed="#P" n="13"/>diate enim dirigere poterit actum intellectus,
+          <lb ed="#P" n="14"/>in quantum sub voluntatis electionem cadit.
+        </p>
+        <p xml:id="szdada-y18321-d1e819">
+          <lb ed="#P" n="15"/>10. Tertium corollarium continens 
+          assertio<lb break="no" ed="#P" n="16"/>nem principalem. — Tertio colligitur decisio
+          <lb ed="#P" n="17"/>quaestionis propositae, cujus tandem conclusio
+          <lb ed="#P" n="18"/>sit. Intellectus practicus et speculativus non
+          <lb ed="#P" n="19"/>duae sunt, sed una potentia tantum realiter,
+          <lb ed="#P" n="20"/>atque formaliter. Ita S. Thomas supra dum
+          <lb ed="#P" n="21"/>asserit hosce intellectus differre tantum 
+          secun<lb break="no" ed="#P" n="22"/>dum modum concipiendi nostrum. Ratio 
+          con<lb break="no" ed="#P" n="23"/>clusionis est, quia objectum intellectus 
+          adae<lb break="no" ed="#P" n="24"/>quate estunum formaliter, nempe intelligibile:
+          <lb ed="#P" n="25"/>sub quo continentur practicum et 
+          speculati<lb break="no" ed="#P" n="26"/>vum, et eorum actus tanquam objecta partialia,
+          <lb ed="#P" n="27"/>quod supra lib 3, cap. 30, in simili dicebamus
+          <lb ed="#P" n="28"/>de sensu interiori, et patet amplius. Nam 
+          spe<lb break="no" ed="#P" n="29"/>culatio est quasi fundamentum actus practici,
+          <lb ed="#P" n="30"/>a cognitione enim speculativa saepe 
+          descendi<lb break="no" ed="#P" n="31"/>mus ad cognitionem practicam: praeterea si
+          <lb ed="#P" n="32"/>intellectus practicus et speculativus formaliter
+          <lb ed="#P" n="33"/>differant propter diversitatem actuum, 
+          quaeli<lb break="no" ed="#P" n="34"/>bet potentia haberet innumeras fere 
+          distinc<lb break="no" ed="#P" n="35"/>ticnes formales, nam quot habet actus 
+          diver<lb break="no" ed="#P" n="36"/>sos, tot conceptibus diversis potest concipi.
+          <lb ed="#P" n="37"/>Tandem, quia potentia intellectiva est 
+          univer<lb break="no" ed="#P" n="38"/>salissima in suo genere, ideo una tantum
+          <lb ed="#P" n="39"/>merito ponenda est.
+        </p>
+        <p xml:id="szdada-y18321-d1e876">
+          <lb ed="#P" n="40"/>11. Objectio contra assertionem ec 
+          Aristote<lb break="no" ed="#P" n="41"/>le. — Ex ratione. — Satisfit. — Huic 
+          conclu<lb break="no" ed="#P" n="42"/>sioni repugnare videtur Aristoteles 6, 
+          Ethico<lb break="no" ed="#P" n="43"/>rum, cap. 1, et libro Magnorum moralium,
+          <lb ed="#P" n="44"/>cap. 35, ubi intellectum practicum et 
+          specu<lb break="no" ed="#P" n="45"/>lativum, duas partes animae genere diversas
+          <lb ed="#P" n="46"/>vocat, assignata ctiam distinctione ex objectis:
+          <lb ed="#P" n="47"/>et 3, de Anima, textu 53, intellectum 
+          practi<lb break="no" ed="#P" n="48"/>cum virtutem deliberantem appellat, 
+          intellec<lb break="no" ed="#P" n="49"/>tum vero specula:ivum principium 
+          intelligen<lb break="no" ed="#P" n="50"/>di, additque distingui inter se magis, quam
+          <lb ed="#P" n="51"/>irascibilem et concupiscibilem, quae utique
+          <lb ed="#P" n="52"/>potentia secundum pene omnes distinguuntur
+          <lb ed="#P" n="53"/>realiter: quare, etc. Accedit ratio, quia 
+          diver<lb break="no" ed="#P" n="54"/>sa objecta, et actus horum intellectuum veram
+          <lb ed="#P" n="55"/>arguunt distinctionem. Ad Aristotelem res-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pondendum: si, ut verba sonant, opinetur,
+          <lb ed="#P" n="57"/>non esse probandum: exponi tamen posse,
+          <lb ed="#P" n="58"/>voluisse tantum in intellectu nostro duplicem
+          <lb ed="#P" n="59"/>vim partialem intelligi, duplexque munus
+          <lb ed="#P" n="60"/>ejusdem potentiae, veluti si in luce Solis 
+          dis<lb break="no" ed="#P" n="61"/>tinguamus virtutem calefaciendi, atque 
+          illu<lb break="no" ed="#P" n="62"/>minandi ad ostendendos diversos effectus 
+          ejus<lb break="no" ed="#P" n="63"/>dem potentiae. Ad rationem dicitur illa omnia,
+          <lb ed="#P" n="64"/>quae recensentur partialia esse sub objecto
+          <lb ed="#P" n="65"/>adaequato comprehensa.
+        </p>
+        <p xml:id="szdada-y18321-d1e937">
+          <lb ed="#P" n="66"/>12. Instantia ex sententia Capreoli et 
+          quo<lb break="no" ed="#P" n="67"/>rumdam Thomistarum. — Eacluditur. — Sed
+          <lb ed="#P" n="68"/>obstat adhuc, si intellectus practicus et 
+          specu<lb break="no" ed="#P" n="69"/>lativus essentia non distinguantur, nec habitus
+          <lb ed="#P" n="70"/>scientiae practicae et speculativae distinguentur.
+          <lb ed="#P" n="71"/>Ita quidem asseruerunt Soncinus, Javellus et
+          <lb ed="#P" n="72"/>alii cum Capreolo in prologo. Eorum tamen
+          <lb ed="#P" n="73"/>sententia falsa videtur, quoniam praedicti 
+          ha<lb break="no" ed="#P" n="74"/>bitus per proprios, et intrinsecos fines, et 
+          ob<lb break="no" ed="#P" n="75"/>jecta formalia separantur, ut supra 
+          ostendi<lb break="no" ed="#P" n="76"/>mus, neque est simile de potentia et 
+          habiti<lb break="no" ed="#P" n="77"/>bus: nam, ut etiam alibi monuimus, potentia
+          <lb ed="#P" n="78"/>multo universalior est, quam habitus eam 
+          per<lb break="no" ed="#P" n="79"/>ficientes, cum sit superior et eminentior,
+          <lb ed="#P" n="80"/>unde licet una potentia sit, quae speculatur
+          <lb ed="#P" n="81"/>veritates, et dirigit operationes humanas:
+          <lb ed="#P" n="82"/>alter tamen habitus est, qui potentiam hanc
+          <lb ed="#P" n="83"/>perficit in primo munere, alter, qui in 
+          secun<lb break="no" ed="#P" n="84"/>do: qua de causa distinctio habituum non
+          <lb ed="#P" n="85"/>essentialis solum, sed etiam generica dici
+          <lb ed="#P" n="86"/>solet: ut notavit Sotus in logica supra, et 
+          Ca<lb break="no" ed="#P" n="87"/>jetanus, 1 part., quaest. 1, art. 4, non quod in
+          <lb ed="#P" n="88"/>nullo genere conveniant, ut nos etiam in 
+          pos<lb break="no" ed="#P" n="89"/>terioribus apud Aristotelem docuimus, sed
+          <lb ed="#P" n="90"/>quod constituant duos habituum ordines valde
+          <lb ed="#P" n="91"/>inter se diversos, distinctasque rationes 
+          scien<lb break="no" ed="#P" n="92"/>tiarum sub se continentes. Unde sub priori
+          <lb ed="#P" n="93"/>ordine continetur tota latitudo principiorum,
+          <lb ed="#P" n="94"/>conclusionumque scientiarum speculativarum,
+          <lb ed="#P" n="95"/>quae ex variis abstractionibus distinguuntur,
+          <lb ed="#P" n="96"/>de quibus etiam in proprio loco plura diximus,
+          <lb ed="#P" n="97"/>sub posteriori vero tota latitudo habituum
+          <lb ed="#P" n="98"/>practicorum coercens omnes practicas 
+          scien<lb break="no" ed="#P" n="99"/>tias, artes, prudentiam, etc., qui habitus inter
+          <lb ed="#P" n="100"/>se per activum, factivumque distinguuntur ab
+          <lb ed="#P" n="101"/>Aristotele 6, Metaphysica, et 6 item 
+          Ethi<lb break="no" ed="#P" n="102"/>corum.
+        </p>
+        <p xml:id="szdada-y18321-d1e1020">
+          <lb ed="#P" n="103"/>13. Notatio prima pro doctrina proxima. —
+          <lb ed="#P" n="104"/>Ad cujus <sic>dictinctionis</sic> intelligentiam est 
+          no<lb break="no" ed="#P" n="105"/>tandum, primo, quod habitus practicus ille
+          <lb ed="#P" n="106"/>dicitur, qui ponit modum et rectitudinem in
+          <lb ed="#P" n="107"/>dirigenda actione humana, quae quidem dirigi
+          <lb ed="#P" n="108"/>potest, aut quantum ad usum moralem, ut
+          <lb ed="#P" n="109"/>scilicet studiose fiat, aut quantum ad 
+          rectitu<lb break="no" ed="#P" n="110"/>dinem naturalem, id est, ut nimirum in pro-
+          <pb ed="#P" n="749"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prio genere operatio illa perfecta prodeat: sic
+          <lb ed="#P" n="2"/>ars pingendi vel scribendi hominem dirigit ad
+          <lb ed="#P" n="3"/>recte exercendam illam operationem in ordine
+          <lb ed="#P" n="4"/>ad picturam, vel scripturam bonam. Prima
+          <lb ed="#P" n="5"/>rectitudo operationis est rectitudo ad bonum
+          <lb ed="#P" n="6"/>simpliciter, quia est bonum hominis, ut homo
+          <lb ed="#P" n="7"/>est. Secunda rectitudo est ad bonum 
+          secun<lb break="no" ed="#P" n="8"/>dum quid, quia est bonum hominis, non ut
+          <lb ed="#P" n="9"/>homo est, sed ut talis, vel talis artifex. 
+          Rur<lb break="no" ed="#P" n="10"/>sum prima rectitudo pertinet ad prudentiam,
+          <lb ed="#P" n="11"/>et actus illam comitantes, tendit enim ad
+          <lb ed="#P" n="12"/>rectitudinem simpliciter voluntatis et 
+          appe<lb break="no" ed="#P" n="13"/>titus. Secunda vero rectitudo pertinet ad artes,
+          <lb ed="#P" n="14"/>unde scite scripsit Aristoteles, prudentem
+          <lb ed="#P" n="15"/>magis vituperari, si volens erraverit, quam si
+          <lb ed="#P" n="16"/>nolens, at vero artificem e contrario plus 
+          vitu<lb break="no" ed="#P" n="17"/>perari, si erraverit nolens, quam si volens:
+          <lb ed="#P" n="18"/>quia in prudente requiritur rectitudo 
+          appeti<lb break="no" ed="#P" n="19"/>tus, non item in artifice.
+        </p>
+        <p xml:id="szdada-y18321-d1e1088">
+          <lb ed="#P" n="20"/>14. Notatio secundum. — Dialectica practica
+          <lb ed="#P" n="21"/>ne sit, an speculativa. — Secundo est 
+          notan<lb break="no" ed="#P" n="22"/>dum inter operationes humanas, quasdam
+          <lb ed="#P" n="23"/>esse, quae transeunt in exteriorem materiam,
+          <lb ed="#P" n="24"/>efficiuntque aliquid manens transacta actione,
+          <lb ed="#P" n="25"/>alias vero, quae non transeunt in talem 
+          mate<lb break="no" ed="#P" n="26"/>riam, sub quibus comprehenduntur, quae
+          <lb ed="#P" n="27"/>nihil operis relinquunt, cum transierint, 
+          ve<lb break="no" ed="#P" n="28"/>luti citharizatio, saltatio, etc., primi generis
+          <lb ed="#P" n="29"/>operationes factiones proprie vocantur: 
+          Aris<lb break="no" ed="#P" n="30"/>toteles ergo, dictis locis, agibile vocat, id quod
+          <lb ed="#P" n="31"/>est agibile simpliciter, et ita solam 
+          pruden<lb break="no" ed="#P" n="32"/>tiam ait vocari, versarique circa agibile, et
+          <lb ed="#P" n="33"/>artem omnem circa factibile: unde prudentiam
+          <lb ed="#P" n="34"/>vocat habitum cum ratione activum, artem
+          <lb ed="#P" n="35"/>vero habitum cum ratione factivum, idem
+          <lb ed="#P" n="36"/>habet libro magnorum moralium, cap. ult. At
+          <lb ed="#P" n="37"/>enim Alexander Aphrodisius 6, 
+          Metaphy<lb break="no" ed="#P" n="38"/>sicae, cap. 1, quem sequi videtur S. Thomas
+          <lb ed="#P" n="39"/>1,2, quaest. 57, art. 4, duplices artes distinguit,
+          <lb ed="#P" n="40"/>alias, quae versantur circa agibile, 
+          dicuntur<lb break="no" ed="#P" n="41"/>que liberales, cujusmodi sunt quaecumque
+          <lb ed="#P" n="42"/>circa actiones immanentes versantur, et alias,
+          <lb ed="#P" n="43"/>quae circa factibile occupantur, ac dicuntur,
+          <lb ed="#P" n="44"/>serviles: prioris generis artes distinguuntur a
+          <lb ed="#P" n="45"/>prudentia, quae circa agibile simpliciter 
+          ver<lb break="no" ed="#P" n="46"/>satur, dirigendo bonitatem, rectitudinemque
+          <lb ed="#P" n="47"/>simpliciter in actionibus: artes vero circa
+          <lb ed="#P" n="48"/>agibile secundum quid, ut diximus. Urgebis.
+          <lb ed="#P" n="49"/>Dialectica igitur scientia practica erit, cum
+          <lb ed="#P" n="50"/>ars directiva sit operationum humanarum et
+          <lb ed="#P" n="51"/>earum regula. Occurrendum tamen quantum
+          <lb ed="#P" n="52"/>ad modum quidem practicam esse, attamen
+          <lb ed="#P" n="53"/>excipi a numerc artium, et speculativam dici
+          <lb ed="#P" n="54"/>posse, quia speculationem, ut speculatio est,
+          <lb ed="#P" n="55"/>ut dirigit, alibi diximus.
+        </p>
+        <p xml:id="szdada-y18321-d1e1170">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>15. Quaestiuncula expeditur. — De hoc 
+          ar<lb break="no" ed="#P" n="57"/>gqumento videndus auctor, disp. 44, 
+          Metaphy<lb break="no" ed="#P" n="58"/>sice, sect. ult., a n. 18. — Superest breve
+          <lb ed="#P" n="59"/>dubium, an unus, idemque habitus esse queat
+          <lb ed="#P" n="60"/>practicus et speculativus, ac negandum 
+          vide<lb break="no" ed="#P" n="61"/>bitur, cum dixerimus distingui essentialiter.
+          <lb ed="#P" n="62"/>Censeo tamen inter habitus infusos aliquos
+          <lb ed="#P" n="63"/>esse practicos, et speculativos simul, eo quod
+          <lb ed="#P" n="64"/>perficiunt intellectum secundum operationes
+          <lb ed="#P" n="65"/>aliquas utriusque generis: cujusmodi sunt 
+          fi<lb break="no" ed="#P" n="66"/>des supernaturales, Spiritus sancti dona, quae
+          <lb ed="#P" n="67"/>fidei correspondent, ut docet D. Thomas 2, 2,
+          <lb ed="#P" n="68"/>quaest. 4, art. 2, ad 3, et quaest. 8 et 9. 
+          Scien<lb break="no" ed="#P" n="69"/>tia denique Theologiae. Ratio est, quia tales
+          <lb ed="#P" n="70"/>habitus cum habeant supremum objectum,
+          <lb ed="#P" n="71"/>nempe Deum, ad quem omnia ordinantur,
+          <lb ed="#P" n="72"/>tractando de Deo summam speculationem 
+          at<lb break="no" ed="#P" n="73"/>tingunt, quia vero simul agunt de iis, quae ad
+          <lb ed="#P" n="74"/>Deum ordinantur, inter quae operationes 
+          hu<lb break="no" ed="#P" n="75"/>manae numerantur, aliquid etiam practici
+          <lb ed="#P" n="76"/>participant, inter alios vero inferiores habitus
+          <lb ed="#P" n="77"/>quidam sunt mere speculativi, ut metaphysica,
+          <lb ed="#P" n="78"/>quidam mere practici, ut prudentia: quidam
+          <lb ed="#P" n="79"/>aliquid ex utroque videntur communicare, ut
+          <lb ed="#P" n="80"/>moralis philosophia, quae quidem practica 
+          vi<lb break="no" ed="#P" n="81"/>detur esse, partimque speculativa, ut insinuat
+          <lb ed="#P" n="82"/>Aristoteles, in principio Ethicorum.Quapropter
+          <lb ed="#P" n="83"/>speculativum, et practicum differentiae erunt
+          <lb ed="#P" n="84"/>essentiales, quando habitus eis adaequantur,
+          <lb ed="#P" n="85"/>at quando habitus superiorem quemdam 
+          mo<lb break="no" ed="#P" n="86"/>dum sortitur, potest nonnihil ex utroque 
+          par<lb break="no" ed="#P" n="87"/>ticipare, et intellectum sub utraque ratione
+          <lb ed="#P" n="88"/>perficere.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

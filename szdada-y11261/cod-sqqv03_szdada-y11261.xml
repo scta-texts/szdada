@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="463"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y11261"><!-- t3prae -->
+        <head xml:id="szdada-y11261-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-y11261-d1e103">
+          <!-- page jump -->
+          <pb ed="#P" n="463"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>TRACTATUS TERTIDUS.
+          <lb ed="#P" n="2"/>DE ANIMA.
+          <lb ed="#P" n="3"/>PROOEMIUM.
+        </p>
+        <p xml:id="szdada-y11261-d1e119">
+          <lb ed="#P" n="4"/>1. Praesentis tractatus introductio, et consecutio ad preecedentem.— Praesentem
+          <lb ed="#P" n="5"/>tractatum tum ad complementum posterioris partis summae Theologicae, in qua 
+          ver<lb break="no" ed="#P" n="6"/>samur: tum etiam ad quamdam reliquae Theologiae, quae de ipso Deo, ut fine ultimo
+          <lb ed="#P" n="7"/>disserit, inchoationem, seu praeparationem, non modo utilem, sed etiam necessariam
+          <lb ed="#P" n="8"/>judicavimus. Etenim post absolutam Dei, ut Unus et Trinus est, cognitionem, in
+          <lb ed="#P" n="9"/>priori parte traditam, ejusdem notitiam, ut auctor et gubernator est rerum omnium,
+          <lb ed="#P" n="10"/>in posteriori parte, quam a tractatione de Ángelis inchoavimus, tradere proposuimus.
+          <lb ed="#P" n="11"/>Et quoniam ejus omnipotentia, sapientia et majestas in invisibili et visibili mundo,
+          <lb ed="#P" n="12"/>hoc est, Angelis, et sex dierum operibus maxime elucet, ideo in duobus proxime
+          <lb ed="#P" n="13"/>praecedentibus tractatibus de illis disputavimus. Quapropter ad consummandum hoc
+          <lb ed="#P" n="14"/>bipartitum opus, quod de Deo in se spectato, et ut effectore creaturarum agit, operae
+          <lb ed="#P" n="15"/>pretium est, ut de homine, qui utrumque mundum summatim continet, quatenus ex
+          <lb ed="#P" n="16"/>corpore et animo constat, omnesque rerum gradus in se complectitur, disseramus.
+          <lb ed="#P" n="17"/>Nam licet in superiori tractatu nonnulla de primi hominis creatione, et statu 
+          dixeri<lb break="no" ed="#P" n="18"/>mus: ibi tamen non tam hominis naturam, facultates et operationes, quam sacram
+          <lb ed="#P" n="19"/>de creatione hominis historiam explicuimus: ideoque optime in hunc locum cadit
+          <lb ed="#P" n="20"/>naturae nostrae accuratior contemplatio. Ita enim fiet, ut nos ipsos clarius, ac penitus
+          <lb ed="#P" n="21"/>cognoscendo, Deum etiam ipsum melius asscquamur: facilius enim, et perfectius ex
+          <lb ed="#P" n="22"/>nobis ipsis, quam ex aliis ejus effectibus ad ipsius intelligentiam provchimur.
+        </p>
+        <p xml:id="szdada-y11261-d1e163">
+          <lb ed="#P" n="23"/>2. Nostra anime cognitio accommodatius quam Ángelorum nos ducit ad 
+          cognitio<lb break="no" ed="#P" n="24"/>nem Dei. — Etenim licet angelica natura perfectior, quam humana sit, ac proinde
+          <lb ed="#P" n="25"/>suapte conditione Deum magis referat, ac repraesentet: nihilominus ab homine in
+          <lb ed="#P" n="26"/>hac vita difficilius, et tenuis cognoscitur: nam ipsos etiam Angelos per quamdam
+          <lb ed="#P" n="27"/>cum mente nostra similitudinem, vel analogiam investigamus et attingimus :. ideoque
+          <lb ed="#P" n="28"/>humana mens excellentiam et virtutem suam attentius considerando, et imperfectiones,
+          <lb ed="#P" n="29"/>quas in se conspicit, removendo, ad divinam naturam, ejusque perfectiones 
+          contem<lb break="no" ed="#P" n="30"/>plandas magis provehitur et assurgit. Quamvis autem homo ex corpore et anima 
+          con<lb break="no" ed="#P" n="31"/>stet, ac proinde utriusque partus cognitio ad totum hominem cognoscendum 
+          ne<lb break="no" ed="#P" n="32"/>cessaria videatur, praesertim quia ncec materia sine forma, nec forma sine matcria,
+          <lb ed="#P" n="33"/>teste Aristotele 2 Physicorum, cap. 2, exacte cognosci potest, nihilominus de sola
+          <lb ed="#P" n="34"/>hominis anima tractatum hunc inscribimus, non quia corporis cognitio omnino 
+          necli<lb break="no" ed="#P" n="35"/>genda sit, sed ut significemus, intentionem nostram in animam ipsam per se, et (ut
+          <lb ed="#P" n="36"/>ita dicam) directe dirigi, de corpore vero illa tantum delibanda esse, quae ad 
+          cognitio<lb break="no" ed="#P" n="37"/>nem animae, et facultatem ejus, quae corpore ad functiones suas, ut organo utuntur,
+          <lb ed="#P" n="38"/>fuerit necessarium, et ob causam similem (ut Augustinus alias dixit, libro de Quanut.
+          <pb ed="#P" n="464"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Animae, capit. 33). Amputabo lectort lutissimam quamdam, et infimitam 
+          expecta<lb break="no" ed="#P" n="2"/>tionem, ne me de omni anima dicturum putet, sed de sola humana, quam solam
+          <lb ed="#P" n="3"/>curare debemus, si nobismetipsis curae sumus. Ita enim nos de anima tantum 
+          ratio<lb break="no" ed="#P" n="4"/>nali tractare proponimus ; quia propria hominis excellentia in mente posita est; per
+          <lb ed="#P" n="5"/>illam enim ad imaginem Dei factus est, et felicitas aeternae ac liberarum, moraliumque
+          <lb ed="#P" n="6"/>actionum capax existit. Nihilominus tamen alios animarum gradus non omnino 
+          omitte<lb break="no" ed="#P" n="7"/>mus, quia in una rationali anma caeteri virtute continentur, et ex conjunctione ad
+          <lb ed="#P" n="8"/>intellectualem gradum singularem perfectionem participant, et secundum suas 
+          opera<lb break="no" ed="#P" n="9"/>tiones, et effectus, etiamsi in se, vel in corpore insint, vel per illud exerceantur, 
+          in<lb break="no" ed="#P" n="10"/>tellectui ministrant, liberamque voluntatem mirum in modum adjuvant, vel 
+          impe<lb break="no" ed="#P" n="11"/>diunt.
+        </p>
+        <p xml:id="szdada-y11261-d1e228">
+          <lb ed="#P" n="12"/>3. Utilitas, et necessitas hujus doctrina pro tractatu de fine hominis, actibusque
+          <lb ed="#P" n="13"/>moralibus. — Ex quo facile intelligi potest alterum, quod in principio posui, nimirum
+          <lb ed="#P" n="14"/>tractatum hunc veluti introductionem quamdam esse ad alteram Theologiae partem,
+          <lb ed="#P" n="15"/>quam, Deo bene juvante, et vitam concedente, post istam complebimus. In illa enim
+          <lb ed="#P" n="16"/>de ultimo fine, ac beatitudine hominis, ac subinde de virtutibus, et vitiis, ac 
+          mora<lb break="no" ed="#P" n="17"/>libus actibus, quibus vel comparatur beatitudo, vel amittitur, dicturi sumus. Est 
+          au<lb break="no" ed="#P" n="18"/>tem anima horum omnium principium, ac fundamentum, et quamdiu corpori 
+          con<lb break="no" ed="#P" n="19"/>juncta est, non solum a sensibus in intelligendo pendet, sed etiam in volendo, et
+          <lb ed="#P" n="20"/>operando ab effectibus appetitus, et a corporalibus motibus, seu passionibus, quae ab
+          <lb ed="#P" n="21"/>illis in corpore excitantur, vehementer ducitur, et quodammodo trahitur. Hanc igitur
+          <lb ed="#P" n="22"/>ob causam necessarium est, eum qui de moribus disceptare voluerit doctrinam de
+          <lb ed="#P" n="23"/>anima perspectam habere, ut Aristoteles tradidit in Ethicis, lib. 1, cap. 13, et lib. 2,
+          <lb ed="#P" n="24"/>cap. 6, etc., lib. 1, Magn. mor., c. 4. Qui etiam lib. illo 1 Ethic., cap. ultimo dixit,
+          <lb ed="#P" n="25"/>quod sicut medicus, qui remedia corpori curando adhibere cupit, ut suo munere
+          <lb ed="#P" n="26"/>recte fungatur, prius in cognitione corporis multam operam ponit ; ita potiori ratione,
+          <lb ed="#P" n="27"/>qui de moribus doctrinam traditurus est, ea quae ad scientiam de anima spectant,
+          <lb ed="#P" n="28"/>habere perspecta curare debet.
+        </p>
+        <p xml:id="szdada-y11261-d1e268">
+          <lb ed="#P" n="29"/>4. Differenter philosophus ac Theologus de anima tractant, sicut et de angelis.—
+          <lb ed="#P" n="30"/>Etenim dicet aliquis, quamvis moralis doctrina scientiam animae requirat, non 
+          prop<lb break="no" ed="#P" n="31"/>terea expedire, aut conveniens esse, ut Theologus in ea tradenda, vel addiscenda
+          <lb ed="#P" n="32"/>immoretur, cum ex naturali philosophia supponenda sit. Respondemus negando 
+          as<lb break="no" ed="#P" n="33"/>sumptionem, quia Philosophi etiam morales de humana faculiate, voluntariis actibus,
+          <lb ed="#P" n="34"/>virtutibus ac vitis doctrinam tradunt, et nihilominus sacra Theologia sub altiori
+          <lb ed="#P" n="35"/>ratione, et per divina principia eamdem moralem materiam contemplatur. Ut igitur
+          <lb ed="#P" n="36"/>in ordine suo completa, et integra sit, non tantum naturalem animae cognitionem
+          <lb ed="#P" n="37"/>aliunde sumit, vel supponit, sed etiam ipsammet, sub divino lumine, et principiis
+          <lb ed="#P" n="38"/>revelatis, excellentiorem et pleniorem animae cognitionem investigare, ac tradere 
+          ne<lb break="no" ed="#P" n="39"/>cessarium est. Quod potest ex his, quae in superioribus de Angelis diximus, satis apte
+          <lb ed="#P" n="40"/>declarari. Nam licet naturalis Theologia, seu Metaphysica intelligentias speculetur:
+          <lb ed="#P" n="41"/>nihilominus supernaturahs Theologia ex suis divinis principiis pleniorem, ac 
+          certio<lb break="no" ed="#P" n="42"/>rem doctrinam, de natura et proprietatibus earumdem substantiarum separatarum
+          <lb ed="#P" n="43"/>tradit. Idem ergo in cognitione animae humanae observari debet. Quapropter eamdem
+          <lb ed="#P" n="44"/>fere methodum, quam explicando naturam Angelorum in priori parte illius tractatus,
+          <lb ed="#P" n="45"/>observabimus. Nam posterior pars illius doctrinae, quae est de gratia et gloria culpa et
+          <lb ed="#P" n="46"/>poena Angelorum, in praesenti de Anima consideratione locum non habet; quoniam
+          <lb ed="#P" n="47"/>partes omnes Theologiae, quae post istam sequuntur, in illo munere versantur.
+        </p>
+        <p xml:id="szdada-y11261-d1e312">
+          <lb ed="#P" n="48"/>5. Partitio preesentis tractatus. —lgitur praesentem tractatum in sex libros dividimus.
+          <lb ed="#P" n="49"/>Primus animae naturam, seu essentiam, ejusque attributa substantialia declarabit ;
+          <pb ed="#P" n="465"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quatuor vero subsequentes de facultatibus animae disserent, eritque in ordine 
+          Secun<lb break="no" ed="#P" n="2"/>dus de potentiis animae in communi, et primo de vegetativis ; harum enim doctrinam
+          <lb ed="#P" n="3"/>neque D. Thomae, in sua Summa praeterivit, nec parum theologo deservit ad rimandas
+          <lb ed="#P" n="4"/>appetitus humani passiones. Tertius de potentus sensitivis. Quartus de intellectiva.
+          <lb ed="#P" n="5"/>Quintus de appetitivis facultatibus, quibus loco motiva cohaeret. Sextus de statu
+          <lb ed="#P" n="6"/>animae separatae, illius enim consideratio valde theologica est, multumque naturalem
+          <lb ed="#P" n="7"/>scientiam transcendit ; et in hac scientia commodiorem locum non habet, et per
+          <lb ed="#P" n="8"/>quemdam proportionem ad ea, quae de Angelis diximus; facile poterit in praesenti
+          <lb ed="#P" n="9"/>expediri.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

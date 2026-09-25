@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="401"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y010070"><!-- t2l5c5 -->
+        <head xml:id="szdada-y010070-Hd1e101">Caput 5</head>
+        <head xml:id="szdada-y010070-Hd1e103" type="question-title">Utrum in statu innocentiae homines generarentur perfecti quoad corpora, vel quomodo consummatam illorum perfectionem consequerentur</head>
+        <p xml:id="szdada-y010070-d1e106">
+          <lb ed="#P" n="30"/>CAPUT V.
+          <lb ed="#P" n="31"/>UTRUM IN STATU INNOCENTIAE HOMINES 
+          GENERA<lb break="no" ed="#P" n="32"/>RENTUR PERFECTI QUOAD CORPORA, VEL QUOMODO
+          <lb ed="#P" n="33"/>CONSUMMATAM ILLORUM PERFECTIONEM 
+          CONSE<lb break="no" ed="#P" n="34"/>QUERENTUR.
+        </p>
+        <p xml:id="szdada-y010070-d1e119">
+          <lb ed="#P" n="35"/>1. Humani corporis perfectio duples. — De
+          <lb ed="#P" n="36"/>priori perfectione certa resolutiv.—DbDisimus de
+          <lb ed="#P" n="37"/>propagatione generis humani quomodo et
+          <lb ed="#P" n="38"/>quanta futura esset in statu innocentiae, si
+          <lb ed="#P" n="39"/>duraret: nunc explicandum superest, qualis
+          <lb ed="#P" n="40"/>esset futura quoad prolis perfectionem, quam
+          <lb ed="#P" n="41"/>ex parte corporis prius considerabimus: postea
+          <lb ed="#P" n="42"/>vero ex parte animae. Duplex autem perfectio
+          <lb ed="#P" n="43"/>in humano corpore consideratur. Una dici 
+          po<lb break="no" ed="#P" n="44"/>test simpliciter et absolute necessaria ad 
+          veri<lb break="no" ed="#P" n="45"/>tatem et integritatem corporis humani ex vi
+          <lb ed="#P" n="46"/>talis specificae naturae, numerum sensuum 
+          ex<lb break="no" ed="#P" n="47"/>ternorum et internorum, et potentiarum 
+          om<lb break="no" ed="#P" n="48"/>nium, ac facultatum naturalium, quae ad 
+          indi<lb break="no" ed="#P" n="49"/>vidui et speciei conservationem necessariae
+          <lb ed="#P" n="50"/>sunt: alia est perfectio necessaria ad statum
+          <lb ed="#P" n="51"/>integrum et consummatum corporis humani.
+          <lb ed="#P" n="52"/>De priori multa est in praesenti dubitatio: nam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>certum est in statu innocentiae fuisse prolem
+          <lb ed="#P" n="54"/>generandam cum corpore omnibus suis 
+          parti<lb break="no" ed="#P" n="55"/>bus, ac membris constante juxta exigentia
+          <lb ed="#P" n="56"/>sexus, in quo unusquisque generaretur. 
+          Itern<lb break="no" ed="#P" n="57"/>que cum omnibus facultatibus, ac sensibus 
+          in<lb break="no" ed="#P" n="58"/>ternis et externis, et cum debita membrorum
+          <lb ed="#P" n="59"/>proportione, dispositione, colore, figura, ac
+          <lb ed="#P" n="60"/>pulchritudine corporali, quae inde consurgit.
+          <lb ed="#P" n="61"/>Ita docet divus Thomas, 1 part., q. 96, art. 3,
+          <lb ed="#P" n="62"/>et q. 99, art. 1, ad 1, et alii theologi statim
+          <lb ed="#P" n="63"/>citandi.
+        </p>
+        <p xml:id="szdada-y010070-d1e187">
+          <lb ed="#P" n="64"/>2. Et ad minimum hoc docuit Augustinus,
+          <lb ed="#P" n="65"/>lib. 1, de Peccat. merit. et remis., cap. 37 et
+          <lb ed="#P" n="66"/>38, ubi ait, nullam poenalem imperfectionem
+          <lb ed="#P" n="67"/>fuisse futuram in hominibus, qui in statu 
+          in<lb break="no" ed="#P" n="68"/>nocentiae generarentur. Carentia enim illius
+          <lb ed="#P" n="69"/>integritatis esset imperfectio, seu defectus 
+          poe<lb break="no" ed="#P" n="70"/>nalis, qualis est agritudo, caecitas, et 
+          membro<lb break="no" ed="#P" n="71"/>rum corpori connaturalium diminutio, 
+          hujus<lb break="no" ed="#P" n="72"/>modi enim defectus cum naturales non sint,
+          <lb ed="#P" n="73"/>poenales sunt: non ergo essent in genere 
+          hu<lb break="no" ed="#P" n="74"/>mano peccato non interveniente, et inde facile
+          <lb ed="#P" n="75"/>caetera, quae diximus, consequuntur. Quia non
+          <lb ed="#P" n="76"/>minus pertinet ad naturalem perfectionem
+          <lb ed="#P" n="77"/>corporis humani debitus ordo, proportio et
+          <lb ed="#P" n="78"/>figura membrorum, quam eorum integritas
+          <lb ed="#P" n="79"/>sine diminutione. Et similiter ad corporis 
+          sani<lb break="no" ed="#P" n="80"/>tatem necessaria est bona dispositio et 
+          pro<lb break="no" ed="#P" n="81"/>portio humorum; et inde nascitur conveniens
+          <lb ed="#P" n="82"/>color, et consequenter pulchritudo, quae inde
+          <lb ed="#P" n="83"/>resultat: ergo ista omnia essent in hominibus
+          <lb ed="#P" n="84"/>durante innocentia, a principio nativitatis 
+          eo<lb break="no" ed="#P" n="85"/>rum.
+        </p>
+        <p xml:id="szdada-y010070-d1e238">
+          <lb ed="#P" n="86"/>3. Prima assertio praedicta perfectio non
+          <lb ed="#P" n="87"/>fuisset aequalis intra eamdem speciem.—Potest
+          <lb ed="#P" n="88"/>autem circa hoc interrogari, an haec omnia
+          <lb ed="#P" n="89"/>essent aequalia in hominibus illius status. 
+          Res<lb break="no" ed="#P" n="90"/>pondet autem negative divus Thomas, in dicto
+          <lb ed="#P" n="91"/>art. 3, q. 96. Quia non omnes causae 
+          concur<lb break="no" ed="#P" n="92"/>rentes ad productionem hominum essent 
+          eae<lb break="no" ed="#P" n="93"/>dem, neque aequalis virtutis in generationibus
+          <lb ed="#P" n="94"/>singulorum. Nam in efficientibus causis esset
+          <lb ed="#P" n="95"/>varietas ex parte influentiae coelorum, et 
+          ele<lb break="no" ed="#P" n="96"/>mentorum circumstantium, et ex parte 
+          cau<lb break="no" ed="#P" n="97"/>sarum materialium, diversitas ciborum, et 
+          hu<lb break="no" ed="#P" n="98"/>morum ipsorum parentum interveniret. 
+          Con<lb break="no" ed="#P" n="99"/>firmatur, ac declaratur, quia haec inaequalitas
+          <lb ed="#P" n="100"/>raro est poenalis de se: tum quia potest esse
+          <lb ed="#P" n="101"/>inter duo individua, etiamsi in neutro illorum
+          <lb ed="#P" n="102"/>sit aliquis defectus contra specificam vel 
+          indi<lb break="no" ed="#P" n="103"/>vidualem perfectionem unicuique debitam :
+          <lb ed="#P" n="104"/>tum etiam, quia talis varietas, et inaequalitas
+          <lb ed="#P" n="105"/>naturaliter sequitur ex compositione corporis
+          <lb ed="#P" n="106"/>organici. Quia conveniens ejus dispositio et
+          <lb ed="#P" n="107"/>proportio non consistit in indivisibili, sed ha-
+          <pb ed="#P" n="402"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bet latitudinem, et inde est, ut naturaliter non
+          <lb ed="#P" n="2"/>omnes homines sint ejusdem figurae, nec 
+          ejus<lb break="no" ed="#P" n="3"/>dem staturae: idem ergo in statu innocentiae
+          <lb ed="#P" n="4"/>inveniretur. Tandem declaratur, quia primi
+          <lb ed="#P" n="5"/>parentes non generarent filios sibi omnino 
+          si<lb break="no" ed="#P" n="6"/>miles in complexione, quia haec ex parte 
+          ma<lb break="no" ed="#P" n="7"/>teriae et aliarum causarum variatur. Item quia
+          <lb ed="#P" n="8"/>ipsi parentes, vir, scilicet, et uxor non essent
+          <lb ed="#P" n="9"/>in complexione omnino similes: et uterque,
+          <lb ed="#P" n="10"/>quantum in se est, prolem sibi similem efficere
+          <lb ed="#P" n="11"/>conaretur; unde filius esset similior illi 
+          pa<lb break="no" ed="#P" n="12"/>renti, qui efficaciorem haberet virtutem in tali
+          <lb ed="#P" n="13"/>occasione et tempore, vel qui magis a 
+          circum<lb break="no" ed="#P" n="14"/>stante medio, et a materia, et ab aliis causis
+          <lb ed="#P" n="15"/>juvaretur: ac proinde proles neutri esset 
+          om<lb break="no" ed="#P" n="16"/>nino similes propter alterius resistentiam: ergo
+          <lb ed="#P" n="17"/>paulatim per varias generationes, dispositiones
+          <lb ed="#P" n="18"/>et complexiones filiorum variari et diminui
+          <lb ed="#P" n="19"/>possent; et consequenter in aliis perfectionibus
+          <lb ed="#P" n="20"/>corporum posset esse inaequalitas: nimirum in
+          <lb ed="#P" n="21"/>statura, incolore, in puichritudine, in 
+          efficacita<lb break="no" ed="#P" n="22"/>te sensuum et aliarum facultatum naturalium.
+          <lb ed="#P" n="23"/>Tota autem illa varietas esset intra 
+          latitudi<lb break="no" ed="#P" n="24"/>nem perfectionis naturalis ad convenientem
+          <lb ed="#P" n="25"/>habitudinem humani corporis sufficientem.
+        </p>
+        <p xml:id="szdada-y010070-d1e347">
+          <lb ed="#P" n="26"/>4. Assertio secunda bipartita de posteriori
+          <lb ed="#P" n="27"/>perfectione. — Prior pars ostenditur. — 
+          Osten<lb break="no" ed="#P" n="28"/>ditur posterior.— Atque hinc dicimus secundo
+          <lb ed="#P" n="29"/>aliquam varietatem et perfectionis 
+          inaequali<lb break="no" ed="#P" n="30"/>tatem multo magis in eadem persona pro 
+          di<lb break="no" ed="#P" n="31"/>versis temporibus, seu aetatibus in illo statu
+          <lb ed="#P" n="32"/>inveniri potuisse, ac debuisse: quamvis in 
+          sin<lb break="no" ed="#P" n="33"/>gulis aetatibus ac temporibus omnes homines
+          <lb ed="#P" n="34"/>integram perfectionem unicuique in tali 
+          tem<lb break="no" ed="#P" n="35"/>pore, vel aetate accommodatam haberent. 
+          Pro<lb break="no" ed="#P" n="36"/>batur prior pars, quia illa varietas est 
+          natura<lb break="no" ed="#P" n="37"/>lis homini naturali modo genito, nutrito et
+          <lb ed="#P" n="38"/>educato: sed homines tunc naturali modo 
+          ge<lb break="no" ed="#P" n="39"/>nerarentur, ut supra ostensum est, et naturali
+          <lb ed="#P" n="40"/>etiam modo nutrirentur; nam indigerent cibo
+          <lb ed="#P" n="41"/>et potu: ergo etiam haberent illam varietatem
+          <lb ed="#P" n="42"/>dispositionum ac aetatum: quia haec ex natura
+          <lb ed="#P" n="43"/>rei consequitur ad naturalem generationem
+          <lb ed="#P" n="44"/>et nutritionem. Unde carere illa, vel esset
+          <lb ed="#P" n="45"/>monstrosum contra rationem et decentiam 
+          il<lb break="no" ed="#P" n="46"/>lius status, vel esset miraculosum, aut 
+          super<lb break="no" ed="#P" n="47"/>naturale: quod et superfluum esset, et gratis
+          <lb ed="#P" n="48"/>assereretur, cum revelatum non sit, vel 
+          scrip<lb break="no" ed="#P" n="49"/>tum, aut traditum. Altera vero pars de 
+          per<lb break="no" ed="#P" n="50"/>fectione accommodata singulis temporibus et
+          <lb ed="#P" n="51"/>aetatibus, quasi per se nota est ex priori 
+          asser<lb break="no" ed="#P" n="52"/>uone, et ex conditione illius status, in quo
+          <lb ed="#P" n="53"/>omnia pertinentia ad perfectionem hominis
+          <lb ed="#P" n="54"/>naturalem futura erant integra et 
+          ordinatissi<lb break="no" ed="#P" n="55"/>ma. Nam cum haec perfectio naturalis, non sit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>una et eadem pro toto tempore vitae, nec 
+          con<lb break="no" ed="#P" n="57"/>veniat specificae naturae secundum se, sed ut
+          <lb ed="#P" n="58"/>in tali vel tali individuo existenti, necesse est,
+          <lb ed="#P" n="59"/>ut saltem ea perfectio, quae singulis temporibus
+          <lb ed="#P" n="60"/>esset accommodata, in illo statu non deesset.
+        </p>
+        <p xml:id="szdada-y010070-d1e428">
+          <lb ed="#P" n="61"/>5. Primum corollurum cun D. Thoma 
+          lmem<lb break="no" ed="#P" n="62"/>bre. —Ex quo inferimus primo cum D. Thoma,
+          <lb ed="#P" n="63"/>d. q. 99, a.1, homines in statu innocentiae non
+          <lb ed="#P" n="64"/>fuisse generandos cum integra statura et 
+          quan<lb break="no" ed="#P" n="65"/>titate corporis, ac membrorum ejus, quam nunc
+          <lb ed="#P" n="66"/>per continuam nutritionem usque ad statum
+          <lb ed="#P" n="67"/>augmenti acquirunt, sed in ea parvitate 
+          cor<lb break="no" ed="#P" n="68"/>poris et membrorum, quae infantiae ejusque
+          <lb ed="#P" n="69"/>initio accommodata est: et quia in ea potest
+          <lb ed="#P" n="70"/>esse magis et minus, in unoquoque individuo
+          <lb ed="#P" n="71"/>esset in quantitate, singulorum complexioni et
+          <lb ed="#P" n="72"/>individuali perfectioni proportionata. 
+          Utrum<lb break="no" ed="#P" n="73"/>que est facile et receptum ab omnibus. 
+          Pri<lb break="no" ed="#P" n="74"/>mum quidem, tum quia illud est homini 
+          natu<lb break="no" ed="#P" n="75"/>rale, tum etiam, quia non posset uterus 
+          ma<lb break="no" ed="#P" n="76"/>ternus capere corpus magnae quantitatis: nisi
+          <lb ed="#P" n="77"/>vel talis corporis membra inter se 
+          penetraren<lb break="no" ed="#P" n="78"/>tur, ut in angusto ventre simul esse possent,
+          <lb ed="#P" n="79"/>vel totum corpus filii cum corpore materno
+          <lb ed="#P" n="80"/>coextenderetur et penetraretur ; item alias non
+          <lb ed="#P" n="81"/>posset proles naturaliter nutriri in ventre 
+          ma<lb break="no" ed="#P" n="82"/>tris, ut per se notum est. Fingere autem 
+          ex<lb break="no" ed="#P" n="83"/>traordinaria miracula, vel supernaturalia 
+          ope<lb break="no" ed="#P" n="84"/>ra semper futura in illo statu sine fundamento
+          <lb ed="#P" n="85"/>auctoritatis ubi ratio deest, improbahile est,
+          <lb ed="#P" n="86"/>ac temeritate non vacat. Secundum etiam de
+          <lb ed="#P" n="87"/>perfectione illius status notum est.
+        </p>
+        <p xml:id="szdada-y010070-d1e489">
+          <lb ed="#P" n="88"/>6. Corollarium. — Illud D. Thomas tradit et
+          <lb ed="#P" n="89"/>suadetur.—Secundo sequitur ex dictis infantes
+          <lb ed="#P" n="90"/>recens conceptos, vel natos in illo statu non
+          <lb ed="#P" n="91"/>fuisse habituros robur et vires membrorum,
+          <lb ed="#P" n="92"/>quas in virili aetate habere solent. Unde nec
+          <lb ed="#P" n="93"/>statim ambulare possent, nec loqui, nec alios
+          <lb ed="#P" n="94"/>similes motus habere, sed tantum illos, qui illi
+          <lb ed="#P" n="95"/>eetati conveniunt, ut lac sugere, linguam, 
+          pe<lb break="no" ed="#P" n="96"/>dem, vel manum aliquo modo movere. Ita 
+          do<lb break="no" ed="#P" n="97"/>cet D. Thomas supra, et sequitur ex eodem
+          <lb ed="#P" n="98"/>fundamento. Quia sicut haberent membra 
+          in<lb break="no" ed="#P" n="99"/>fantilia et parva in quantitate: ita etiam 
+          ha<lb break="no" ed="#P" n="100"/>berent illa eis qualitatibus disposita, quae illi
+          <lb ed="#P" n="101"/>aetati responderent, suntque illi connaturales.
+          <lb ed="#P" n="102"/>Ex his autem dispositionibus sequitur 
+          mem<lb break="no" ed="#P" n="103"/>brorum debilitas, et defectus virium ad 
+          prae<lb break="no" ed="#P" n="104"/>dictas actiones: ergo non possent infantes
+          <lb ed="#P" n="105"/>illas habere sine supernaturali virtute et 
+          mi<lb break="no" ed="#P" n="106"/>raculo, quod, ut saepe dixi, sine sufficienti
+          <lb ed="#P" n="107"/>auctoritate asserendum non est.
+        </p>
+        <p xml:id="szdada-y010070-d1e535">
+          <lb ed="#P" n="108"/>7. Objectio contra utrumque corollarium ex
+          <lb ed="#P" n="109"/>verbis Augustini. — Contra haec vero objici
+          <lb ed="#P" n="110"/>potest Augustinus, l. 1, de Peccator. mer. et
+          <pb ed="#P" n="403"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>remis., cap. 37, ubi sic ait: Quanquam etian
+          <lb ed="#P" n="2"/>ipsa tanta carnis infirmitas (utique infantium)
+          <lb ed="#P" n="3"/>nescio quid quantum arbitror panale 
+          demons<lb break="no" ed="#P" n="4"/>trat. Quae verba possent utcumque exponi de
+          <lb ed="#P" n="5"/>infirmitate carnis, non quoad corporum 
+          debi<lb break="no" ed="#P" n="6"/>litatem, aut parvitatem, sed quoad dolores,
+          <lb ed="#P" n="7"/>eegritudines, gemitus et alia incommoda, quae
+          <lb ed="#P" n="8"/>parvuli etiam patiuntur. At vero huic 
+          exposi<lb break="no" ed="#P" n="9"/>tioni obstant verba, quae statim idem Pater
+          <lb ed="#P" n="10"/>subjungit: Movet enim, si primi illi homines
+          <lb ed="#P" n="11"/>non peccassent, ulrum tales essent filios 
+          habi<lb break="no" ed="#P" n="12"/>turi, qui nec manibus nec pedibus uterentur.
+          <lb ed="#P" n="13"/>Nam propter uteri capacitatem fortasse necesse
+          <lb ed="#P" n="14"/>fuerit parculos nasci, quamvis cum exigua sit
+          <lb ed="#P" n="15"/>pars corporis costa, non tamen propterea Deus
+          <lb ed="#P" n="16"/>parvulam viro conjugem fecit, quam ediftcavit
+          <lb ed="#P" n="17"/>in mulierem, unde et ejus filios, poterat 
+          omni<lb break="no" ed="#P" n="18"/>polentia creatoris mom editos, grandes protinus
+          <lb ed="#P" n="19"/>facere. Et in c. 38, id prosequitur, indicans,
+          <lb ed="#P" n="20"/>quia licet filii in uteris maternis essent 
+          par<lb break="no" ed="#P" n="21"/>vuli propter uteri capacitatem, statim ac 
+          nas<lb break="no" ed="#P" n="22"/>cerentur, essent vel corpore perfecti, vel 
+          sal<lb break="no" ed="#P" n="23"/>tem apti ad motus corporis exercendos.
+        </p>
+        <p xml:id="szdada-y010070-d1e598">
+          <lb ed="#P" n="24"/>8. Quo puncto D. Thomas exponat 
+          Augusti<lb break="no" ed="#P" n="25"/>num. — Nibilominus D. Thomas, supra, ad 1,
+          <lb ed="#P" n="26"/>respondet, Augustinum solum loqui de illa 
+          in<lb break="no" ed="#P" n="27"/>firmitate corporum, quae nunc in pueris 
+          appa<lb break="no" ed="#P" n="28"/>ret, etiam quoad actus eorum pueritiae 
+          conve<lb break="no" ed="#P" n="29"/>nientes. Sed, consideratis omnibus verbis, quae
+          <lb ed="#P" n="30"/>retulimus, negare non possumus, quin etiam
+          <lb ed="#P" n="31"/>de naturali debilitate et parvitate infantilium
+          <lb ed="#P" n="32"/>corporum loquatur, ut etiam ex dicendis magis
+          <lb ed="#P" n="33"/>constabit. Verumtamen non loquitur 
+          Augusti<lb break="no" ed="#P" n="34"/>nus definiendo, sed inquirendo, et rem 
+          indeci<lb break="no" ed="#P" n="35"/>sam relinquit. Resolutio autem tradita sine
+          <lb ed="#P" n="36"/>dubio vera est. Neque exemplum de formatione
+          <lb ed="#P" n="37"/>Evae est simile; tum quia Eva non ab homine,
+          <lb ed="#P" n="38"/>sed a Deo solo fuit formata: tum etiam, quia
+          <lb ed="#P" n="39"/>non naturali modo, sed valde extraordinario
+          <lb ed="#P" n="40"/>et singulari creata fuit: tum denique, quia non
+          <lb ed="#P" n="41"/>expediebat in parva et infantili aetate illam
+          <lb ed="#P" n="42"/>creari: quia nec habebat matrem, a qua posset
+          <lb ed="#P" n="43"/>convenienter ali et educari: nec ad usum 
+          ge<lb break="no" ed="#P" n="44"/>nerationis per multum temporis apta fuisset.
+          <lb ed="#P" n="45"/>De potentia item Dei non dubitamus, quia
+          <lb ed="#P" n="46"/>parvuls recenter natis potuerit integram 
+          cor<lb break="no" ed="#P" n="47"/>porum perfectionem et quantitatem subito 
+          con<lb break="no" ed="#P" n="48"/>ferre: verumtamen eamdem etiam potuisset
+          <lb ed="#P" n="49"/>Deus in momento conceptionis, et in utero
+          <lb ed="#P" n="50"/>materno tribuere. Sicut autem tunc non 
+          fecis<lb break="no" ed="#P" n="51"/>set hoc posterius, ita nec prius, nam unum est
+          <lb ed="#P" n="52"/>ad aliud consequens. Quia sicut conceptio esset
+          <lb ed="#P" n="53"/>naturals, ita et nativitas et augmentatio. Item
+          <lb ed="#P" n="54"/>quia ex divina revelatione, aliave auctoritate,
+          <lb ed="#P" n="55"/>vel ratione non magis miraculum illud, seu
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>supernaturale opus in nativitate, quam in 
+          con<lb break="no" ed="#P" n="57"/>ceptione probare possumus.
+        </p>
+        <p xml:id="szdada-y010070-d1e677">
+          <lb ed="#P" n="58"/>9. Altera objectio ejusque solutio. — Sed 
+          ob<lb break="no" ed="#P" n="59"/>jici potest, quia in statu innocentiae non 
+          habe<lb break="no" ed="#P" n="60"/>ret locum senectus: ergo neque pueritia. 
+          Fa<lb break="no" ed="#P" n="61"/>cile autem respondetur, negando 
+          consequen<lb break="no" ed="#P" n="62"/>tiam, quia per senectutem tenditur al mortem,
+          <lb ed="#P" n="63"/>imo est quoddam initium corruptionis: mors
+          <lb ed="#P" n="64"/>autem et corruptio in illo statu locum non
+          <lb ed="#P" n="65"/>haberent. At pueritia est vitae initium, et ab
+          <lb ed="#P" n="66"/>illa paulatim ad consummatam perfcctionem
+          <lb ed="#P" n="67"/>tenditur modo naturali; et ideo pueritia 
+          tan<lb break="no" ed="#P" n="68"/>quam perfectionis initium illi statui non 
+          re<lb break="no" ed="#P" n="69"/>pugnabat: secus vero est de senectute, quae
+          <lb ed="#P" n="70"/>initium est mortis.
+        </p>
+        <p xml:id="szdada-y010070-d1e708">
+          <lb ed="#P" n="71"/>10. Ultima objectio ex variis Augustini 
+          dic<lb break="no" ed="#P" n="72"/>tis.—Tandem instari potest ex eodem 
+          Augus<lb break="no" ed="#P" n="73"/>tino: quia sequitur nascituros fuisse homines
+          <lb ed="#P" n="74"/>in statu innocentiae et per plures annos fuisse
+          <lb ed="#P" n="75"/>victuros sine usu rationis, sicut nunc pueri
+          <lb ed="#P" n="76"/>sunt. Consequens autem non videtur 
+          admit<lb break="no" ed="#P" n="77"/>tendum: ergo. Sequela probatur quia in statu
+          <lb ed="#P" n="78"/>innocentiae homines intelligerent, et uterentur
+          <lb ed="#P" n="79"/>ratione cum dependentia a phantasmatibus;
+          <lb ed="#P" n="80"/>hinc autem provenit, ut careant homines in
+          <lb ed="#P" n="81"/>pueritia usu rationis, quia tunc organa 
+          sen<lb break="no" ed="#P" n="82"/>suum non sunt disposita, ut rationi deservire
+          <lb ed="#P" n="83"/>possint: ergo idem impedimentum haberent
+          <lb ed="#P" n="84"/>in statu innocentiae, siin pueritia similem 
+          dis<lb break="no" ed="#P" n="85"/>positionem corporum haberent. Minor autem
+          <lb ed="#P" n="86"/>probatur ex Augustino, d. 1l. 1, de Pec. merit.
+          <lb ed="#P" n="87"/>et remis., c. 36, ubi tenebras mentis 
+          rationa<lb break="no" ed="#P" n="88"/>lis, et ignorantiam Dei, quae in parvulis 
+          cer<lb break="no" ed="#P" n="89"/>nuntur, sentit esse quid poenale, et ex peccato
+          <lb ed="#P" n="90"/>primi parentis originem ducere. Nam unde
+          <lb ed="#P" n="91"/>(inquit) anima hominis anima rationalis non
+          <lb ed="#P" n="92"/>solum indocta, sed etiam indocilis jacet, quare,
+          <lb ed="#P" n="93"/>aut quando, aut unde intrusa est, si natura est
+          <lb ed="#P" n="94"/>hominis sic incipere, et non jam vitiosa est ista
+          <lb ed="#P" n="95"/>natura et ad hoc confirmandum addit: Cur
+          <lb ed="#P" n="96"/>non talis creatus est Adam: cur ille capaam
+          <lb ed="#P" n="97"/>preecepti ? et in fine capitis concludit: Hoc tam
+          <lb ed="#P" n="98"/>magmum ignorantie, ac infirmitatis nalum, si
+          <lb ed="#P" n="99"/>in hac vita jam nati parvuli contracerunt, ubi,
+          <lb ed="#P" n="100"/>quando, quomodo sine magna aliqua impietate
+          <lb ed="#P" n="101"/>commoissa repente tantis tenebris involuti 
+          sunt<lb break="no" ed="#P" n="102"/>et in cap. 37, in principio, supponere videtur,
+          <lb ed="#P" n="103"/>haec non esse puree naturee, sed vitiose 
+          primor<lb break="no" ed="#P" n="104"/>dia, et paulo post declarat, non agere de 
+          cor<lb break="no" ed="#P" n="105"/>poris quantitate, sed de mentis quadam valen -
+          <lb ed="#P" n="106"/>tia, usque rationis, id est, de illius carentia,
+          <lb ed="#P" n="107"/>et idem indicat libr. 4, contra Julian., cap.
+          <lb ed="#P" n="108"/>ultimo.
+        </p>
+        <p xml:id="szdada-y010070-d1e793">
+          <lb ed="#P" n="109"/>11. Responsio ad objectionis propositionem
+          <lb ed="#P" n="110"/>majoren. — Nihilominus ad objectionem res-
+          <pb ed="#P" n="404"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pondeo, concedendo sequelam, nimirum, in
+          <lb ed="#P" n="2"/>statu innocentiae carituros fuisse parvulos usu
+          <lb ed="#P" n="3"/>rationis non tantum in uteris maternis, sed
+          <lb ed="#P" n="4"/>etiam post nativitatem pro tempore infantiae,
+          <lb ed="#P" n="5"/>usque ad tempus provectae aetatis, in qua
+          <lb ed="#P" n="6"/>phantasia posset convenienter intellectui ad
+          <lb ed="#P" n="7"/>ratiocinandum deservire. Haec est sententia
+          <lb ed="#P" n="8"/>D. Thomae, 1 p., quaest. 101, art. 2, et Hugonis
+          <lb ed="#P" n="9"/>de S. Victore, lib. 1, deSacram, p. 6, cap. 26,
+          <lb ed="#P" n="10"/>et in eam magis inclinat Magister, in 2, d. 20,
+          <lb ed="#P" n="11"/>ubi etiam Bonaventura, in dub. 6 litterali, et
+          <lb ed="#P" n="12"/>Durandus, q. 4, ad 1, et alii, et ratio est, quia
+          <lb ed="#P" n="13"/>defectus usus rationis in infantia non est 
+          poe<lb break="no" ed="#P" n="14"/>nalis, sed naturalis, quia naturaliter sequitur
+          <lb ed="#P" n="15"/>ex dispositione connaturali organorum 
+          phan<lb break="no" ed="#P" n="16"/>tasiae. quam status pueritiae postulat, scilicet,
+          <lb ed="#P" n="17"/>ex nimia humiditate cerebri, ut divus Thomas
+          <lb ed="#P" n="18"/>dicit. Usus autem rationis etiam in statu 
+          in<lb break="no" ed="#P" n="19"/>nocentiae, a recto usu phantasiae penderet, ut
+          <lb ed="#P" n="20"/>in superioribus dictum est. Nec possumus cum
+          <lb ed="#P" n="21"/>fundamento, divino miraculo, aut 
+          supernatu<lb break="no" ed="#P" n="22"/>rali operi aliud attribuere, quia nobis hoc 
+          re<lb break="no" ed="#P" n="23"/>velatum non est: et alioqui ad perfectionem
+          <lb ed="#P" n="24"/>illius status non est necessarium.
+        </p>
+        <p xml:id="szdada-y010070-d1e856">
+          <lb ed="#P" n="25"/>12. Responsio ad propositionem minorem ,
+          <lb ed="#P" n="26"/>juata D. Thomam. — Expeditur responsio. —
+          <lb ed="#P" n="27"/>Ad Augustinum ergo communiter respondetur,
+          <lb ed="#P" n="28"/>ipsum loqui non de simplici carentia usus 
+          ra<lb break="no" ed="#P" n="29"/>tionis, sed ut habet adjunctas multas 
+          imperfec<lb break="no" ed="#P" n="30"/>tiones, quas in statu innocentiae non haberet,
+          <lb ed="#P" n="31"/>nunc enim non solum carent pueri usu 
+          ratio<lb break="no" ed="#P" n="32"/>nis, sed etiam patiuntur inordinatos motus
+          <lb ed="#P" n="33"/>phantasiae, quibus interdum turbantur, et
+          <lb ed="#P" n="34"/>tristantur, unde fletus, dolores, motusque 
+          ira<lb break="no" ed="#P" n="35"/>cundiae, et alii similes oriuntur: quibus 
+          omni<lb break="no" ed="#P" n="36"/>bus imperfectionibus in statu innocentiae 
+          care<lb break="no" ed="#P" n="37"/>rent, et ideo dixit D. Thomas, d. q. 101, art. 2,
+          <lb ed="#P" n="38"/>ad 1, quod licet parvuli in illo statu non 
+          ha<lb break="no" ed="#P" n="39"/>berent rationis usum: nihilominus, in ipsamet
+          <lb ed="#P" n="40"/>puerili cognitione majorem perfectionem 
+          ha<lb break="no" ed="#P" n="41"/>berent, utique per originalem justitiam, ut
+          <lb ed="#P" n="42"/>capite sequenti explicabimus. Atque haec 
+          qui<lb break="no" ed="#P" n="43"/>dem doctrina vera est: an vero illam in dictis
+          <lb ed="#P" n="44"/>locis Augustini intenderit, valde dubito. 
+          Cre<lb break="no" ed="#P" n="45"/>diderim tamen illum non asserendo, sed 
+          dis<lb break="no" ed="#P" n="46"/>putando processisse, ut de perfectione 
+          corpo<lb break="no" ed="#P" n="47"/>rum dixi.
+        </p>
+        <p xml:id="szdada-y010070-d1e908">
+          <lb ed="#P" n="48"/>13. Respondetur tandem rationibus ab 
+          Augus<lb break="no" ed="#P" n="49"/>Lino indicatis in fuvorem preedicte propositionis
+          <lb ed="#P" n="50"/>minoris. — Necessarium tamen est rationibus
+          <lb ed="#P" n="51"/>dubitandi,quas Augustinus indicat, satisfacere.
+          <lb ed="#P" n="52"/>Una est, quia mentis tenebrae, et ignorantia
+          <lb ed="#P" n="53"/>sunt poena peccati: nulla autem videtur esse 
+          ma<lb break="no" ed="#P" n="54"/>jor ignorantia, vel mentis caecitas, quam 
+          caren<lb break="no" ed="#P" n="55"/>tia usus rationis. Recte autem respondet Magis-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ter divus Thomas, et omnes, propriam 
+          ignoran<lb break="no" ed="#P" n="57"/>tiam esse peccati poenam, non autem omnem
+          <lb ed="#P" n="58"/>carentiam cognitionis, vel quam appellant 
+          ne<lb break="no" ed="#P" n="59"/>scientiam, esse poenam, sed esse posse 
+          condi<lb break="no" ed="#P" n="60"/>tionem naturae ctiam bene institutae. Propria
+          <lb ed="#P" n="61"/>enim ignorantia dicit carentiam scientie,
+          <lb ed="#P" n="62"/>quam quis posset, et deberet habere: hoc 
+          au<lb break="no" ed="#P" n="63"/>tem modo carentia usus rationis in pueritia,
+          <lb ed="#P" n="64"/>non est ignorantia, sed pura nescientia: et
+          <lb ed="#P" n="65"/>ideo esse posset in statu innocentiae sine 
+          pec<lb break="no" ed="#P" n="66"/>cato. Et ob eamdem rationem non potest ille
+          <lb ed="#P" n="67"/>naturalis defectus, caecitas mentis, aut tenebrae
+          <lb ed="#P" n="68"/>appellari: quia hae voces etiam significant
+          <lb ed="#P" n="69"/>privationem, et in malam partem ordinarie
+          <lb ed="#P" n="70"/>sumuntur pro carentia spiritualis, seu 
+          intel<lb break="no" ed="#P" n="71"/>lectualis luminis aliquo modo voluntaria, et
+          <lb ed="#P" n="72"/>ex peccato proveniente. Ad confirmationem
+          <lb ed="#P" n="73"/>autem, quam D. Augustinus ab exemplo Adami
+          <lb ed="#P" n="74"/>sumit, recte etiam respondet D. Thomas non
+          <lb ed="#P" n="75"/>esse similem rationem. Quia Adam ab ipso
+          <lb ed="#P" n="76"/>Deo immediate creatus est, cujus opera sunt
+          <lb ed="#P" n="77"/>perfecta, et creatus est in adulta aetate, in
+          <lb ed="#P" n="78"/>qua non solum erat capax usus rationis, sed
+          <lb ed="#P" n="79"/>etiam erat illi debitus, fuissetque propriissima,
+          <lb ed="#P" n="80"/>imo monstrosa ignorantia, si tali usu careret.
+          <lb ed="#P" n="81"/>Ac denique constitutus est in principem, et
+          <lb ed="#P" n="82"/>caput totius naturae: et ideo non solum cum
+          <lb ed="#P" n="83"/>usu rationis, sed etiam cum perfecta 
+          sapien<lb break="no" ed="#P" n="84"/>tia creatus est, ut supra vidimus. Hae autem
+          <lb ed="#P" n="85"/>rationes omnes in filiis ejus locum non habent,
+          <lb ed="#P" n="86"/>ut est per se notum.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="794"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y19543"><!-- t3l6c7 -->
+        <head xml:id="szdada-y19543-Hd1e101">Caput 7</head>
+        <head xml:id="szdada-y19543-Hd1e103" type="question-title">Quid anima separata cognoscat in rebus materialibus et quomodo</head>
+        <p xml:id="szdada-y19543-d1e106">
+          <lb ed="#P" n="6"/>CAPUT VII.
+          <lb ed="#P" n="7"/>QUID ANIMA SEPARATA COGNOSCAT IN REBUS
+          <lb ed="#P" n="8"/>MATERIALIBUS ET QUOMODO.
+        </p>
+        <p xml:id="szdada-y19543-d1e115">
+          <lb ed="#P" n="9"/>1. Prima quaestio hujus capitis, ac D. 
+          Tho<lb break="no" ed="#P" n="10"/>me circa eam resolutio. — Pro expositione
+          <lb ed="#P" n="11"/>quaestionis. Nota res materiales dividi in tria
+          <lb ed="#P" n="12"/>genera, quaedam sunt singulares, aliae 
+          univer<lb break="no" ed="#P" n="13"/>sales, aliae sunt effectus, et operationes rerum
+          <lb ed="#P" n="14"/>singularium. Unde triplex hic est quaestio, 
+          pri<lb break="no" ed="#P" n="15"/>ma, an, et quae singularia anima separata 
+          co<lb break="no" ed="#P" n="16"/>gnoscat. Secunda, an cognoscat facta, quae 
+          con<lb break="no" ed="#P" n="17"/>üngunt in hac vita. Tertia utrum habeat 
+          scien<lb break="no" ed="#P" n="18"/>tiam naturalem rerum. Circa primam divus
+          <lb ed="#P" n="19"/>Thomas et discipuli illius sentiunt animam
+          <lb ed="#P" n="20"/>separatam cognoscere singularia: de modo
+          <lb ed="#P" n="21"/>autem sunt anxii, cum non ponant in illa 
+          spe<lb break="no" ed="#P" n="22"/>cies singularium. Unde D. Thomas, supra a. 4,
+          <lb ed="#P" n="23"/>ait eam cognoscere quaedam singularia, non
+          <lb ed="#P" n="24"/>tamen omnia, cognoscere autem illa per species
+          <lb ed="#P" n="25"/>infusas a Deo, quae determinantur ad haec,
+          <lb ed="#P" n="26"/>vel illa singularia per praecedentem 
+          cognitio<lb break="no" ed="#P" n="27"/>nem, et per aliquam affectionem, vel per 
+          na<lb break="no" ed="#P" n="28"/>turalem habitudinem, vel per divinam 
+          ordi<lb break="no" ed="#P" n="29"/>nationem: qua de causa eo loco ad primum,
+          <lb ed="#P" n="30"/>docere videtur, animam separatam per species,
+          <lb ed="#P" n="31"/>quas ex hac vita detulit, non posse postea
+          <lb ed="#P" n="32"/>cognoscere singularia sensibilia, quae in vita
+          <lb ed="#P" n="33"/>cognovit: idem credit Cajetanus ibi. Rursus
+          <lb ed="#P" n="34"/>D. Thomas, q. de Anima, art. 20, in corpore,
+          <lb ed="#P" n="35"/>et ad 11. Ac videtur consequenter loqui, nam
+          <lb ed="#P" n="36"/>ilae species acquisitae tantum repraesentant
+          <lb ed="#P" n="37"/>naturam universalem, et ideo per illas non
+          <lb ed="#P" n="38"/>posset anima cognoscere singularia, manet
+          <lb ed="#P" n="39"/>tamen apud D. Thomam eadem difficultas in
+          <lb ed="#P" n="40"/>speciebus infusis, quales ipse ponit, non 
+          re<lb break="no" ed="#P" n="41"/>praesentantes scilicet directe singularia: omnes
+          <lb ed="#P" n="42"/>vero allati modi determinandi species, nec
+          <lb ed="#P" n="43"/>bene intelliguntur, nec satisfaciunt, et iidem
+          <lb ed="#P" n="44"/>fingi possent in speciebus acquisitis: quare
+          <lb ed="#P" n="45"/>hac in re sit.
+        </p>
+        <p xml:id="szdada-y19543-d1e198">
+          <lb ed="#P" n="46"/>2. Prima assertio. —Prima conclusio. 
+          Ani<lb break="no" ed="#P" n="47"/>ma separata cognoscit omnia singularia, quae
+          <lb ed="#P" n="48"/>in vita cognovit, per species illorum acquisitas.
+          <lb ed="#P" n="49"/>Haec conformis est valde modo loquendi 
+          Scrip<lb break="no" ed="#P" n="50"/>turae, ac sequitur ex dictis supra. Anima enim
+          <lb ed="#P" n="51"/>separata conservat species, quas in hac vita
+          <lb ed="#P" n="52"/>comparaverat, et per eas potest cognoscere
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>quidquid illae repraesentant, repraesentant 
+          au<lb break="no" ed="#P" n="54"/>tem directe singularia: ergo, etc. 
+          Consequen<lb break="no" ed="#P" n="55"/>tia est evidens, antecedens autem jam in 
+          su<lb break="no" ed="#P" n="56"/>perioribus ostensum est: quare, etc.
+        </p>
+        <p xml:id="szdada-y19543-d1e228">
+          <lb ed="#P" n="57"/>3. Secunda assertio. — Explicando suadetur.
+          <lb ed="#P" n="58"/>— Sit tamen secunda conclusio. Loquendo ex
+          <lb ed="#P" n="59"/>natura rei: anima separata non cognosceret
+          <lb ed="#P" n="60"/>alia singularia materialia, nisi ea, quae in vita
+          <lb ed="#P" n="61"/>cognovit, quorumque species detulit, de facto
+          <lb ed="#P" n="62"/>tamen cognoscit alia, juxta dispensationem
+          <lb ed="#P" n="63"/>Dei infundentis species illa repraesentantes.
+          <lb ed="#P" n="64"/>Explicatur et probatur. Nam si anima in puris
+          <lb ed="#P" n="65"/>naturalibus separata maneret, conservaret
+          <lb ed="#P" n="66"/>utique species singularium, quas acquisivit
+          <lb ed="#P" n="67"/>conjuncta: alia vero singularia haud propriis
+          <lb ed="#P" n="68"/>conceptibus attingeret, nisi per proprias 
+          eo<lb break="no" ed="#P" n="69"/>rum species, quas tamen a rebus desumere non
+          <lb ed="#P" n="70"/>valet, ut supra probatum est: oporteret ergo
+          <lb ed="#P" n="71"/>illas a Deo recipere. Non videtur autem 
+          neces<lb break="no" ed="#P" n="72"/>sarium, neque ad naturalem Dei providentiam
+          <lb ed="#P" n="73"/>spectare talium specierum infusio, cum rerum
+          <lb ed="#P" n="74"/>singularium cognitio, per se sumpta, minime
+          <lb ed="#P" n="75"/>necessaria sit ad perfectionem intellectus, sed
+          <lb ed="#P" n="76"/>ad praxim tantum, quae in separatis animis
+          <lb ed="#P" n="77"/>locum non habet, cum in eo statu, nec 
+          debe<lb break="no" ed="#P" n="78"/>rent animae cum aliis hominibus conversari,
+          <lb ed="#P" n="79"/>nec aliis rebus materialibus uti, qua etiam de
+          <lb ed="#P" n="80"/>causa anima conjuncta corpori cognitionem
+          <lb ed="#P" n="81"/>possidet rerum singularium alterius vitae. At
+          <lb ed="#P" n="82"/>vero de facto, beatae quidem animae 
+          cognitio<lb break="no" ed="#P" n="83"/>nem participant multorum singularium, vel
+          <lb ed="#P" n="84"/>per divinam essentiam, quam vident, vel per
+          <lb ed="#P" n="85"/>species eorum, idque vel ratione status 
+          beati<lb break="no" ed="#P" n="86"/>tudinis ad plenum gaudium animarum, vel
+          <lb ed="#P" n="87"/>propter bonum hominum viatorum, ut juvari
+          <lb ed="#P" n="88"/>modo aliquo possint ab animabus illis. Animae
+          <lb ed="#P" n="89"/>quoque damnatae recipiunt cognitionem 
+          sin<lb break="no" ed="#P" n="90"/>gularium, quae inservierit ad debitum 
+          suppli<lb break="no" ed="#P" n="91"/>cium earum: animae denique parvulorum 
+          de<lb break="no" ed="#P" n="92"/>cedentium in originali nullam obtinent 
+          cogni<lb break="no" ed="#P" n="93"/>tionem singularium materialium, quantum
+          <lb ed="#P" n="94"/>conjicere possumus, quia illis necessaria non
+          <lb ed="#P" n="95"/>est, nec naturaliter debita, et haec de prima
+          <lb ed="#P" n="96"/>quaestione.
+        </p>
+        <p xml:id="szdada-y19543-d1e317">
+          <lb ed="#P" n="97"/>4. Secunda quaestio, ejus resolutio per tertiam
+          <lb ed="#P" n="98"/>assertionem bipartitam. — De hac re nonnilül,
+          <lb ed="#P" n="99"/>l. 2, de Attributis, c. 98, num. A4. — Secunda
+          <lb ed="#P" n="100"/>pars assertionis. — De secunda quaestione 
+          pro<lb break="no" ed="#P" n="101"/>portionaliter loquendum videtur, unde sit 
+          ter<lb break="no" ed="#P" n="102"/>tia conclusio. Anima separata non cognoscit
+          <lb ed="#P" n="103"/>particulares actiones et effectus materiales, et
+          <lb ed="#P" n="104"/>singulares hujus Universi, nisi forte aliquas
+          <lb ed="#P" n="105"/>cognoscat referentibus Angelis. Prima pars
+          <lb ed="#P" n="106"/>suadetur a quibusdam, quia distantia localis
+          <lb ed="#P" n="107"/>impedit cognitionem, est tamen ridicula ratio;
+          <pb ed="#P" n="795"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quia distantia localis, ut plurimum impedit 
+          ac<lb break="no" ed="#P" n="2"/>tionem localem, non pure spiritualem, quia
+          <lb ed="#P" n="3"/>non pendet a loco, in sensibus vero impedit,
+          <lb ed="#P" n="4"/>quia recipiunt species ab objecto, quae 
+          necessa<lb break="no" ed="#P" n="5"/>rio per medium diffunduntur, si tamen sensus
+          <lb ed="#P" n="6"/>apud se haberet species, profecto distantia
+          <lb ed="#P" n="7"/>non impediret sensationem. Ratio ergo 
+          sumi<lb break="no" ed="#P" n="8"/>tur ex defectu specierum: anima enim 
+          sepa<lb break="no" ed="#P" n="9"/>rata tantum defert speciem illarum rerum,
+          <lb ed="#P" n="10"/>quas hic cognovit: unde illarum tantum 
+          re<lb break="no" ed="#P" n="11"/>cordatur: effectuum vero, qui eveniunt post
+          <lb ed="#P" n="12"/>discessum illius, nec species defert, nec illas
+          <lb ed="#P" n="13"/>a rebus desumere valet, nec denique est cura
+          <lb ed="#P" n="14"/>Deo infundantur ex natura rei loquendo, quia
+          <lb ed="#P" n="15"/>illarum cognitio non est necessaria ad 
+          perfec<lb break="no" ed="#P" n="16"/>tionem naturalem animae debitam, cum sit
+          <lb ed="#P" n="17"/>cognitio nimis accidentaria et extranea, nec
+          <lb ed="#P" n="18"/>pertineat ad illum statum nosse, quae hic 
+          ge<lb break="no" ed="#P" n="19"/>runtur. Addidi secundam partem conclusionis,
+          <lb ed="#P" n="20"/>quia non est inconveniens Angelos, vel animas
+          <lb ed="#P" n="21"/>posterius decedentes referre posse animabus
+          <lb ed="#P" n="22"/>antea separatis nonnulla de gestis mortalium.
+          <lb ed="#P" n="23"/>Dixi paulo ante ex natura rei, id est, seclusa
+          <lb ed="#P" n="24"/>gubernatione supernaturali, quae de facto est
+          <lb ed="#P" n="25"/>circa animam, quoniam hac providentia 
+          spec<lb break="no" ed="#P" n="26"/>tata dicendum aliud est. Animae quippe 
+          dam<lb break="no" ed="#P" n="27"/>natorum, quae hic geruntur, non nisi per 
+          dae<lb break="no" ed="#P" n="28"/>mones, vel ex Dei ordinatione norunt, ad
+          <lb ed="#P" n="29"/>majorem poenam illarum. Animae etiam in
+          <lb ed="#P" n="30"/>limbo nihil cognoscunt de hac vita, cum nihil
+          <lb ed="#P" n="31"/>ad eas attineat. Beatis denique animabus 
+          ple<lb break="no" ed="#P" n="32"/>raque revelantur. Vide Gregorium 12, 
+          Mora<lb break="no" ed="#P" n="33"/>lium, cap. 13 et 15, et Psal. 108, Augustinum
+          <lb ed="#P" n="34"/>de Cura pro mortuis, D. Thomam, secunda
+          <lb ed="#P" n="35"/>secundae, quaestione 83, art. 4, ad 2, et prima.
+          <lb ed="#P" n="36"/>parte, quaest. 80, articulo 8, qui Patres docent
+          <lb ed="#P" n="37"/>animam beatam cognoscere omnia praesentia,
+          <lb ed="#P" n="38"/>quae hic fiunt, et Cajetanus in proximo loco
+          <lb ed="#P" n="39"/>ponderat dixisse D. Thomam, omnia preesentia,
+          <lb ed="#P" n="40"/>ut denotaret, quod non cognoscit futura, 
+          at<lb break="no" ed="#P" n="41"/>que ita vox omnia, ut inquit Cajetanus, 
+          distri<lb break="no" ed="#P" n="42"/>buit tantum pro effectibus naturalibus, ut 
+          ex<lb break="no" ed="#P" n="43"/>cludantur supernaturalia, et libera Dei, 
+          An<lb break="no" ed="#P" n="44"/>gelorum et hominum. Undenon quilibet beatus
+          <lb ed="#P" n="45"/>cognoscit preces omnes, quae ad animam 
+          alte<lb break="no" ed="#P" n="46"/>rius beati funduntur, quae limitationes verae
+          <lb ed="#P" n="47"/>communiter videntur. Addo tamen illam
+          <lb ed="#P" n="48"/>cognitionem omnium effectuum praesentium,
+          <lb ed="#P" n="49"/>quam divus Thomas tribuit beatis non fieri
+          <lb ed="#P" n="50"/>per visionem beatificam, licet contrarium 
+          in<lb break="no" ed="#P" n="51"/>sinuet Cajetanus ibidem, ac Ferrarius 3, 
+          con<lb break="no" ed="#P" n="52"/>tra, c. 59, quia jam in visione beatifica 
+          dare<lb break="no" ed="#P" n="53"/>tur frequens mutatio, siquidem videret beatus
+          <lb ed="#P" n="54"/>nunc res praesentes, quas, antequam fierent,
+          <lb ed="#P" n="55"/>non videbat: quapropter si aliquos effectus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>contingentes denuo videt beatus in verbo, illos
+          <lb ed="#P" n="57"/>plane videbat antequam fierent. Quando ergo
+          <lb ed="#P" n="58"/>dicitur, beatos cognoscere omnes effectus 
+          na<lb break="no" ed="#P" n="59"/>turales, accipiendum, id est, per visionem, quae
+          <lb ed="#P" n="60"/>fit propriis speciebus extra verbum, sicque
+          <lb ed="#P" n="61"/>non oportet, ut actu omnia cognoscant, quia
+          <lb ed="#P" n="62"/>non necessario per species omnibus attendunt,
+          <lb ed="#P" n="63"/>satisque est posse cognoscere, cum voluerint.
+          <lb ed="#P" n="64"/>Addit quoque Cajetanus eo loco, post judicium
+          <lb ed="#P" n="65"/>omnes beatos visuros quaecumque Deus videt
+          <lb ed="#P" n="66"/>scientia visionis, de quo alibi, mihi certe nec
+          <lb ed="#P" n="67"/>videtur verum, nec multum probabile.
+        </p>
+        <p xml:id="szdada-y19543-d1e495">
+          <lb ed="#P" n="68"/>5. Tertia quaestio duo habet certa. — 
+          Secun<lb break="no" ed="#P" n="69"/>dum ambiguum enodatur a D. Thoma duplici
+          <lb ed="#P" n="70"/>dicto. — Dictum probatur. — Circa tertiam
+          <lb ed="#P" n="71"/>quaestionem, primo certum est, animam Beati
+          <lb ed="#P" n="72"/>habere, ex natura sua loquendo, scientias,
+          <lb ed="#P" n="73"/>quas hic acquisivit, ut patet ex superioribus.
+          <lb ed="#P" n="74"/>Secundo est certum habere omnem scientiam
+          <lb ed="#P" n="75"/>rerum naturalium non tantum per visionem
+          <lb ed="#P" n="76"/>Dei, sed proprias species, cum hoc pertineat
+          <lb ed="#P" n="77"/>ad perfectionem illius status. Utrum vero 
+          in<lb break="no" ed="#P" n="78"/>tra limites naturae animaseparata habeat 
+          scien<lb break="no" ed="#P" n="79"/>tiam omnium rerum, licet hic illam non 
+          ac<lb break="no" ed="#P" n="80"/>quisierit, dubium est. D. Thomas supra 
+          res<lb break="no" ed="#P" n="81"/>pondet habere cognitionem naturalium per
+          <lb ed="#P" n="82"/>species infusas: addit tamen habere 
+          imper<lb break="no" ed="#P" n="83"/>fectam. Primum dictum videtur quidem ratio- -
+          <lb ed="#P" n="84"/>nabile, tum propter rationes supra factas, tum
+          <lb ed="#P" n="85"/>quia anima ex natura sua habet lumen 
+          intel<lb break="no" ed="#P" n="86"/>lectuale sufficiens ad cognoscendas res 
+          natura<lb break="no" ed="#P" n="87"/>les: ergo ad providentiam Dei spectat dari illi
+          <lb ed="#P" n="88"/>species necessarias ad operandum cum illo
+          <lb ed="#P" n="89"/>Iumine, ne illud sit perpetuo otiosum. 
+          Secun<lb break="no" ed="#P" n="90"/>do, quia cognitio rerum naturalium per se
+          <lb ed="#P" n="91"/>loquendo est magna perfectio animae, ac 
+          na<lb break="no" ed="#P" n="92"/>turalis illi: ergo connaturale est, ut 
+          conferan<lb break="no" ed="#P" n="93"/>tur ei species ad res has cognoscendas. Tertio
+          <lb ed="#P" n="94"/>ostensum est supra, infundi animae nonnullas
+          <lb ed="#P" n="95"/>species: nulla est autem ratio, cur illi magis
+          <lb ed="#P" n="96"/>harum rerum, quam aliarum conferantur:
+          <lb ed="#P" n="97"/>ergo omnium conferuntur. Quarto, quia sine
+          <lb ed="#P" n="98"/>cognitione naturalium rerum, non potest 
+          ani<lb break="no" ed="#P" n="99"/>ma se perfecte cognoscere, cum enim sit forma
+          <lb ed="#P" n="100"/>materiae, ut perfecte comprehendat se, oportet
+          <lb ed="#P" n="101"/>materiam cognoscat, et cum sit media inter
+          <lb ed="#P" n="102"/>formas mere spirituales et materiales, oportet,
+          <lb ed="#P" n="103"/>ut utrumque extremum attingat, ut se 
+          perfec<lb break="no" ed="#P" n="104"/>tius cognoscat: probabile ergo est habere 
+          il<lb break="no" ed="#P" n="105"/>lam species omnium materialium per 
+          infusio<lb break="no" ed="#P" n="106"/>nem et non a rebus acceptas.
+        </p>
+        <p xml:id="szdada-y19543-d1e582">
+          <lb ed="#P" n="107"/>6. Quaestiuncula incidens, ut resolvatur a
+          <lb ed="#P" n="108"/>D. Thoma et aliis. — Aliorum placitum non
+          <lb ed="#P" n="109"/>evincit.—Utrum vero dictae species 
+          infundan<lb break="no" ed="#P" n="110"/>tur immediate a Deo, an per Angelos, divus
+          <pb ed="#P" n="796"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Thomas, de Anim., a. 20, ad undecimum per
+          <lb ed="#P" n="2"/>Angelos infundi arbitratur, et idem, 1 part.,
+          <lb ed="#P" n="3"/>quaest. 89, art. 1, ubi ait animam separatam
+          <lb ed="#P" n="4"/>intelligere per conversionem ad res actu 
+          intel<lb break="no" ed="#P" n="5"/>ligibiles, sub quibus comprehenduntur Angeli,
+          <lb ed="#P" n="6"/>et consentiunt Cajetanus ibi ad tertium, et
+          <lb ed="#P" n="7"/>Ferrarius tertio, contra Gent., cap. 68, col. 4.
+          <lb ed="#P" n="8"/>Et videtur probabile, quae enim possunt fieri
+          <lb ed="#P" n="9"/>per causas secundas, Deus non facit se solo:in
+          <lb ed="#P" n="10"/>praesenti vero effectus, de quoloquimur, potest
+          <lb ed="#P" n="11"/>fieri per Angelos, producuntur siquidem 
+          spe<lb break="no" ed="#P" n="12"/>cies per actionem intentionalem, quae non 
+          re<lb break="no" ed="#P" n="13"/>quirit transmutationem subjecti, qua etiam
+          <lb ed="#P" n="14"/>de causa potest Ange!us movere corpus 
+          loca<lb break="no" ed="#P" n="15"/>Iiter, et illuminare alium Angelum similiter:
+          <lb ed="#P" n="16"/>ergo et producere species. Contrarium 
+          opinan<lb break="no" ed="#P" n="17"/>tur multi, eo quod Angelus nequeat educere
+          <lb ed="#P" n="18"/>formam de materia, nisi forte illiusmet 
+          re<lb break="no" ed="#P" n="19"/>praesentativum, quaetamen ratio non convincit,
+          <lb ed="#P" n="20"/>quamvis enim Angelus nequeat producere 
+          qua<lb break="no" ed="#P" n="21"/>litates materiales: quippe, quas eminenter
+          <lb ed="#P" n="22"/>non continet: valet tamen qualitates 
+          intentio<lb break="no" ed="#P" n="23"/>nales, quia sui sunt ordinis, illasque aliquo
+          <lb ed="#P" n="24"/>modo continet, cum sit plenus specierum:
+          <lb ed="#P" n="25"/>sine qua virtute non apparet, quomodo 
+          expli<lb break="no" ed="#P" n="26"/>canda sit locutio, aut illuminatio Angelorum.
+        </p>
+        <p xml:id="szdada-y19543-d1e654">
+          <lb ed="#P" n="27"/>7. Primum dictum D. Thome calde 
+          da<lb break="no" ed="#P" n="28"/>bium. — Quod vero secundo loco D. Thomas,
+          <lb ed="#P" n="29"/>numero 5, allatus addit, praedictam scilicet 
+          co<lb break="no" ed="#P" n="30"/>gnitionem esse imperfectam, dubium habet.
+          <lb ed="#P" n="31"/>Ejus vero ratio colligitur ex articulo primo
+          <lb ed="#P" n="32"/>illlus quaestionis. Pro cujus intelligentia 
+          no<lb break="no" ed="#P" n="33"/>tandum, species dupliciter posse esse infusas:
+          <lb ed="#P" n="34"/>per se nimirum, aut per accidens per se 
+          infu<lb break="no" ed="#P" n="35"/>sae dicuntur, quae ex naturali modo 
+          productio<lb break="no" ed="#P" n="36"/>nis postulant infundi: per accidens vero, quae
+          <lb ed="#P" n="37"/>ex natura sua poterant fabricari per 
+          intellec<lb break="no" ed="#P" n="38"/>tum agentem, ex accidente tamen per 
+          infu<lb break="no" ed="#P" n="39"/>sionem dantur, unde species per se infusae
+          <lb ed="#P" n="40"/>alterius rationis sunt ab acquisitis: per 
+          acci<lb break="no" ed="#P" n="41"/>dens vero infusae cum eisdem sunt ejusdem
+          <lb ed="#P" n="42"/>rationis. Supponit ergo D. Thomasspecies quae
+          <lb ed="#P" n="43"/>animae infunduntur esse per se infusas, et 
+          al<lb break="no" ed="#P" n="44"/>terius rationis: unde jam arguit. Unaquaeque
+          <lb ed="#P" n="45"/>natura intelligens distincte cognoscit per 
+          spe<lb break="no" ed="#P" n="46"/>cies illi naturales et adaequatas capacitati suae:
+          <lb ed="#P" n="47"/>per species vero universaliores, et quae 
+          adae<lb break="no" ed="#P" n="48"/>quate conveniunt superiori naturae, imperfecte
+          <lb ed="#P" n="49"/>cognoscit natura inferior: quia non habet
+          <lb ed="#P" n="50"/>virtutem sufficientem ad utendum illis: cum
+          <lb ed="#P" n="51"/>ergo anima nostra in infimo sit gradu 
+          intel<lb break="no" ed="#P" n="52"/>lectualium et connaturale illi sit, cognoscere
+          <lb ed="#P" n="53"/>per species imperfectas, utpote per sensus 
+          ac<lb break="no" ed="#P" n="54"/>ceptas, si extra hunc statum constituatur, 
+          illi<lb break="no" ed="#P" n="55"/>que infundantur species superioris rationis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>capacitatem illius excedentes, non poterit sane
+          <lb ed="#P" n="57"/>per illas distincte intelligere: haec ergo 
+          sen<lb break="no" ed="#P" n="58"/>tentia est valde dubia.
+        </p>
+        <p xml:id="szdada-y19543-d1e728">
+          <lb ed="#P" n="59"/>8. Quarta assertio circa prorimum dubium.
+          <lb ed="#P" n="60"/>— Probatur. —Unde sit quarta conclusio. 
+          Pro<lb break="no" ed="#P" n="61"/>babilius videtur, animam separatam habere
+          <lb ed="#P" n="62"/>distinctam cognitionem rerum naturalium per
+          <lb ed="#P" n="63"/>species illi infusas, ita /Egidius, quodlibeto
+          <lb ed="#P" n="64"/>quinto, quaestione ultima. Probaturque primo,
+          <lb ed="#P" n="65"/>quia nulla est necessitas ponendi cognitionem
+          <lb ed="#P" n="66"/>confusam: rationes autem n. 5 factae ad 
+          pro<lb break="no" ed="#P" n="67"/>bandum animam cognoscere naturalia, 
+          viden<lb break="no" ed="#P" n="68"/>tur etiam probare de cognitione distincta: vel
+          <lb ed="#P" n="69"/>ergo non concedatur animae cognitio 
+          natura<lb break="no" ed="#P" n="70"/>Iium, vel concedatur distincta, quia naturalis
+          <lb ed="#P" n="71"/>animae perfectio non consistit in confusa 
+          cogni<lb break="no" ed="#P" n="72"/>tione, sed in distincta, illi naturaliter possibili,
+          <lb ed="#P" n="73"/>nec naturale desiderium animae sistit in 
+          incon<lb break="no" ed="#P" n="74"/>fusa. Secundo lumen naturale intellectus potens
+          <lb ed="#P" n="75"/>est ad cognitionem distinctam, non tantum ad
+          <lb ed="#P" n="76"/>confusam: ergo illi debentur species ad talem
+          <lb ed="#P" n="77"/>cognitionem. Tertio Deus supplet vicem causae
+          <lb ed="#P" n="78"/>naturalis: ergo perfectius operabitur, quam
+          <lb ed="#P" n="79"/>inferiora agentia: ergo dabit animae separatae
+          <lb ed="#P" n="80"/>species illi proportionatas, perfectio enim 
+          ope<lb break="no" ed="#P" n="81"/>rantis, non in eo tantum est, ut agat res 
+          per<lb break="no" ed="#P" n="82"/>fectas, sed etiam proportionatas. Quarto, vel
+          <lb ed="#P" n="83"/>est possibile concedi animae separatae species
+          <lb ed="#P" n="84"/>proportionatas ejus viribus, vel impossibile:
+          <lb ed="#P" n="85"/>si primum, ergo dantur illi: hoc enim est 
+          ma<lb break="no" ed="#P" n="86"/>gis consonum naturae, proindeque judicandum
+          <lb ed="#P" n="87"/>est Deum operari ea, quae rerum naturis magis
+          <lb ed="#P" n="88"/>consonant, acsunt possibilia: sine fundamento
+          <lb ed="#P" n="89"/>autem existimabuntur tales species 
+          impossibi<lb break="no" ed="#P" n="90"/>les: ergo de facto communicantur hujusmodi
+          <lb ed="#P" n="91"/>species separatae animae. Dices: impossibile
+          <lb ed="#P" n="92"/>esse animae species per se infusas ponere, ac
+          <lb ed="#P" n="93"/>simul proportionatas. Sed contra primo quia
+          <lb ed="#P" n="94"/>si hoc impossibile esset, jam non recte 
+          pone<lb break="no" ed="#P" n="95"/>retur DEUS conferre animae species per se 
+          in<lb break="no" ed="#P" n="96"/>fusas, sed infundere solum ejusdem rauonis
+          <lb ed="#P" n="97"/>cum acquisitis ad supplendum vicem earum :
+          <lb ed="#P" n="98"/>namque melius est habere species 
+          proportio<lb break="no" ed="#P" n="99"/>natas, quam nimis perfectas cum 
+          impropor<lb break="no" ed="#P" n="100"/>tione. Secundo nulla ratione probari potest
+          <lb ed="#P" n="101"/>esse impossibile DEO efticere species 
+          perfec<lb break="no" ed="#P" n="102"/>tiores, quam quas efticit intellectus agens, 
+          mi<lb break="no" ed="#P" n="103"/>nus tamen perfectas, quam angelicas, quaeque
+          <lb ed="#P" n="104"/>proportionentur animae separatae: quin potius
+          <lb ed="#P" n="105"/>videtur contra rationem, animam in ordine
+          <lb ed="#P" n="106"/>substantiarum separatarum constitutam habere
+          <lb ed="#P" n="107"/>non posse species pro illo statu proportionatas:
+          <lb ed="#P" n="108"/>cum enim status ille sit perfectior, utpote a
+          <lb ed="#P" n="109"/>materialitate expeditus, licet species sint 
+          ali<lb break="no" ed="#P" n="110"/>quantulum perfectiores, quam nostrae, erunt
+          <pb ed="#P" n="797"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illi proportionatae: sunt itaque possibiles 
+          spe<lb break="no" ed="#P" n="2"/>cies mediae inter angelicas ac nostras, quae
+          <lb ed="#P" n="3"/>proportionatae sint animae separatae habenti
+          <lb ed="#P" n="4"/>statum medium inter Angelos et statum 
+          es<lb break="no" ed="#P" n="5"/>sendi in corpore: manet ergo probata 
+          conclu<lb break="no" ed="#P" n="6"/>sio, et solutum fundamentum contrariae 
+          sen<lb break="no" ed="#P" n="7"/>tentiae.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

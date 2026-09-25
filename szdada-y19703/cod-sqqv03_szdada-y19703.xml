@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="800"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y19703"><!-- t3l6c10 -->
+        <head xml:id="szdada-y19703-Hd1e101">Caput 10</head>
+        <head xml:id="szdada-y19703-Hd1e103" type="question-title">Utrum anima separata appetat iterum reuniri corpori</head>
+        <p xml:id="szdada-y19703-d1e106">
+          <lb ed="#P" n="41"/>CAPUT X.
+          <lb ed="#P" n="42"/>UTRUM ANIMA SEPARATA APPETAT ITERUM REUNIRI
+          <lb ed="#P" n="43"/>CORPORI.
+        </p>
+        <p xml:id="szdada-y19703-d1e115">
+          <lb ed="#P" n="44"/>1. Opinio Scoti duplici argumento suadetur.
+          <lb ed="#P" n="45"/>— Opinio D. Thome contraria.— Haec quaestio
+          <lb ed="#P" n="46"/>facile resolvitur ex dictis, Scotus enim supra
+          <lb ed="#P" n="47"/>consequenter negat talem appetitum: tum
+          <lb ed="#P" n="48"/>quia, inquit, anima ex unione nihil perficitur:
+          <lb ed="#P" n="49"/>tum quia illa reunio est impossibilis per 
+          natu<lb break="no" ed="#P" n="50"/>ram, inclinatio vero naturalis non est ad 
+          im<lb break="no" ed="#P" n="51"/>possibile, vel dicendum falso esset 
+          resurrectio<lb break="no" ed="#P" n="52"/>nem esse naturalem, D. Thomas ubique tradit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>contrarium: nominatim 1 p., quaest. 26, art. 1,
+          <lb ed="#P" n="54"/>ad 6, colligiturque ex quaest. 4, art. 5, de 
+          Spi<lb break="no" ed="#P" n="55"/>ritual. creaturis, art. 2, ad 5, de Potentia,
+          <lb ed="#P" n="56"/>quaest. 5, art. 1, ad 5, in 4, dist. 43, quaest. 1,
+          <lb ed="#P" n="57"/>art. 1, quaestiunc. 3, ad 5, dist. 49, quaest. 1,
+          <lb ed="#P" n="58"/>art. 1, quaestiunc. 1. Est autem pro resolutione
+          <lb ed="#P" n="59"/>notandum appetitum duplicem esse, 
+          natura<lb break="no" ed="#P" n="60"/>lem scilicet et elicitum. Notandum item 
+          cor<lb break="no" ed="#P" n="61"/>pus animae posse reuniri, idem quod antea,
+          <lb ed="#P" n="62"/>atque eodem modo, scilicet corruptibiliter, ac
+          <lb ed="#P" n="63"/>miseriis obnoxium, et impediens perfectam
+          <lb ed="#P" n="64"/>cognitionem superiorum: posse denique 
+          per<lb break="no" ed="#P" n="65"/>fectiori modo disponi, libertatum scilicet a
+          <lb ed="#P" n="66"/>corruptione: de anima similhter loqui 
+          possu<lb break="no" ed="#P" n="67"/>mus, vel secundum praecisam cognitionem 
+          na<lb break="no" ed="#P" n="68"/>turalem, vel absolute prout nunc res habet.
+        </p>
+        <p xml:id="szdada-y19703-d1e174">
+          <lb ed="#P" n="69"/>2. Prima assertio. — Ad primum fScoti in
+          <lb ed="#P" n="70"/>in num. precedenti. — Ad secundum. — MHis
+          <lb ed="#P" n="71"/>positis sit prima conclusio. Appetitu naturali
+          <lb ed="#P" n="72"/>anima separata appetit corpus. Probatur, quia
+          <lb ed="#P" n="73"/>appetitus naturalis est solum rei quaedam 
+          apti<lb break="no" ed="#P" n="74"/>tudo naturalis, quae metaphorice nomine 
+          appe<lb break="no" ed="#P" n="75"/>titus explicatur, ut dictum a nobis est 1 phys.,
+          <lb ed="#P" n="76"/>et alibi non semel, sed anima separata semper
+          <lb ed="#P" n="77"/>retinet eamdem aptitudinem ad corpus, 
+          sem<lb break="no" ed="#P" n="78"/>perque est pars ex natura sua ad perficiendum
+          <lb ed="#P" n="79"/>aliud; ergo, etc. Neque vero contra hoc 
+          proce<lb break="no" ed="#P" n="80"/>dunt argun;enta Scoti. Ad primum enim 
+          ne<lb break="no" ed="#P" n="81"/>gatur consequentia. Nam appetitus naturalis
+          <lb ed="#P" n="82"/>partis non semper respicit necessario bonum
+          <lb ed="#P" n="83"/>partis, sed bonum totius: satis ergo est, 
+          ani<lb break="no" ed="#P" n="84"/>mam perficere hominem, ut corpus appetere
+          <lb ed="#P" n="85"/>dicatur. Secundo respondeo in illa etiam unione
+          <lb ed="#P" n="86"/>perfici aliquo modo animam, ut supra 
+          osten<lb break="no" ed="#P" n="87"/>sum jam est. Ad secundum dicito, unionem
+          <lb ed="#P" n="88"/>animae ad corpus absolute esse naturalem, et
+          <lb ed="#P" n="89"/>hanc respici ab appetitu naturali. Quod vero
+          <lb ed="#P" n="90"/>illa sit reunio, et non prima unio nihil referre
+          <lb ed="#P" n="91"/>ad appetitum naturalem, atque hoc est, quod
+          <lb ed="#P" n="92"/>aliter dici solet, licet reunio ad corpus quoad
+          <lb ed="#P" n="93"/>modum sit praeternaturalis, quoad terminum
+          <lb ed="#P" n="94"/>tamen, id est, unionem esse naturalem, 
+          incli<lb break="no" ed="#P" n="95"/>nationem autem ad terminum dirigi, ideoque
+          <lb ed="#P" n="96"/>naturalem esse simpliciter.
+        </p>
+        <p xml:id="szdada-y19703-d1e238">
+          <lb ed="#P" n="97"/>3. Secunda assertio bimembris. — Secunda
+          <lb ed="#P" n="98"/>conclusio. Valde probabile est, animam 
+          sepa<lb break="no" ed="#P" n="99"/>ratam ratione naturali ductam non appetere
+          <lb ed="#P" n="100"/>appetitu elicito reunionem ad corpus, nisi
+          <lb ed="#P" n="101"/>forte velleitate quadam et sub conditione,
+          <lb ed="#P" n="102"/>quam putaret impossibilem per naturam. Hanc
+          <lb ed="#P" n="103"/>conclusionem sic explico. Anima separata 
+          ra<lb break="no" ed="#P" n="104"/>tione naturali ducta judicaret esse impossibile
+          <lb ed="#P" n="105"/>iterum reuuiri per naturam, nisi forte attenta
+          <lb ed="#P" n="106"/>Dei potentia absoluta judicaret, etiamsi unio
+          <lb ed="#P" n="107"/>esset iterum facienda, fore ad corpus ejusdem
+          <pb ed="#P" n="801"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rationis cum priore. Anima ergo separata hoc
+          <lb ed="#P" n="2"/>cognoscens nollet, ut censeo, reunionem ad
+          <lb ed="#P" n="3"/>corpus. Probatur, quoniam recte judicaret hoc
+          <lb ed="#P" n="4"/>illi cedere in malum potius, quam bonum, in
+          <lb ed="#P" n="5"/>eoque magis perdere, quam acquirere, quia
+          <lb ed="#P" n="6"/>licet statum magis naturalem acquireret, 
+          amit<lb break="no" ed="#P" n="7"/>teret tamen statum magis spiritualem et 
+          libe<lb break="no" ed="#P" n="8"/>rum ab omni gravamine corporis: et licet
+          <lb ed="#P" n="9"/>edere posset denuo quasdam operationes: 
+          amit<lb break="no" ed="#P" n="10"/>teret certe perfectissimas alias, et consortium
+          <lb ed="#P" n="11"/>substantiarum separatarum. Confirmatur 
+          pri<lb break="no" ed="#P" n="12"/>mo: nam licet homo naturaliter sit mortalis,
+          <lb ed="#P" n="13"/>si semel a mortalitate liberaretur, non illam
+          <lb ed="#P" n="14"/>appeteret, quia licet magis naturalis sit, non
+          <lb ed="#P" n="15"/>tamen est major perfectio: magis autem 
+          appe<lb break="no" ed="#P" n="16"/>titur, quod perfectius est. Confirmatur secundo,
+          <lb ed="#P" n="17"/>quia vel anima reunionem appeteret propter
+          <lb ed="#P" n="18"/>bonum suum, vel propter perfectionem 
+          uni<lb break="no" ed="#P" n="19"/>versi, ad cujus perfectionem homo spectat.
+          <lb ed="#P" n="20"/>Non primum, ut ostensum est: non secundum,
+          <lb ed="#P" n="21"/>quia licet nulla anima reuniretur corpori, non
+          <lb ed="#P" n="22"/>deesset mundo species humana per continuam
+          <lb ed="#P" n="23"/>hominum generationem. Secunda pars 
+          con<lb break="no" ed="#P" n="24"/>clusionis patet ex dictis in praecedenti 
+          quaes<lb break="no" ed="#P" n="25"/>tione. Nam si animae separatae daretur corpus
+          <lb ed="#P" n="26"/>obnoxium corruptioni, a quo non impediretur
+          <lb ed="#P" n="27"/>in operationibus intellectualibus, tale corpus
+          <lb ed="#P" n="28"/>quidem appeteretur ab anima. Unde anima 
+          se<lb break="no" ed="#P" n="29"/>parata elicere posset ejusmodi actum: $2 mihi
+          <lb ed="#P" n="30"/>daretur immortale corpus, ei uniret: quia tamen
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="31"/>putaret impossibilem informationem, eam non
+          <lb ed="#P" n="32"/>appeteret, efficaciter et absolute. Contra 
+          pri<lb break="no" ed="#P" n="33"/>mam partem conclusionis inferret quispiam :
+          <lb ed="#P" n="34"/>ergo nunc naturaliter desideraret anima exire
+          <lb ed="#P" n="35"/>a mortali corpore, cujus contrarium 
+          experi<lb break="no" ed="#P" n="36"/>mur. Respondeo nunc quidem alligatam esse
+          <lb ed="#P" n="37"/>animam appetitui sensitivo, qui maxime 
+          re<lb break="no" ed="#P" n="38"/>luctatur morti, per quam destruitur. Ad haec
+          <lb ed="#P" n="39"/>cognitio futurae vitae curta est et status dubius:
+          <lb ed="#P" n="40"/>merito igitur formidatur exitus. Denique amor
+          <lb ed="#P" n="41"/>praesentium trahit animam: et futura bona,
+          <lb ed="#P" n="42"/>quia futura, minus aestimantur: non ergo est
+          <lb ed="#P" n="43"/>eadem ratio animae conjunctae et separatae.
+        </p>
+        <p xml:id="szdada-y19703-d1e364">
+          <lb ed="#P" n="44"/>4. Tertia assertio. — Quarta conclusio. Nunc
+          <lb ed="#P" n="45"/>de facto animae separatae, ac justae appetunt
+          <lb ed="#P" n="46"/>reuniri appetitu elicito et absoluto, Apocal. 6:
+          <lb ed="#P" n="47"/>Vidi subtus altare animas, et clamabant, 
+          usque<lb break="no" ed="#P" n="48"/>quo Domine non judicas, etc. Etratioin promptu
+          <lb ed="#P" n="49"/>est, quia cognoscunt fore ut reuniantur 
+          cor<lb break="no" ed="#P" n="50"/>poribus in quibus omnem perfectionem 
+          asse<lb break="no" ed="#P" n="51"/>quentur, et nulla privabuntur, quae quidem
+          <lb ed="#P" n="52"/>cognitio supernaturalis est, et ideo hac ex
+          <lb ed="#P" n="53"/>parte appetitio etiam supernaturalis, licet ex
+          <lb ed="#P" n="54"/>parte termini, ut dixi, absolute sit naturalis,
+          <lb ed="#P" n="55"/>nec tamen ob id nunc violentiam patiuntur,
+          <lb ed="#P" n="56"/>quod illis corpora non tribuuntur, sed libenter
+          <lb ed="#P" n="57"/>obediunt, et certe sciunt suo tempore propria
+          <lb ed="#P" n="58"/>corpora recuperaturas, in quibus perpetuo Deo
+          <lb ed="#P" n="59"/>fruentur: cui soli honor et gloria in saecula
+          <lb ed="#P" n="60"/>saeculorum, Amen.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

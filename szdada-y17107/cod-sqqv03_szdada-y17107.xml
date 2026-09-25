@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 28</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 28</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="696"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y17107"><!-- t3l3c28 -->
+        <head xml:id="szdada-y17107-Hd1e101">Caput 28</head>
+        <head xml:id="szdada-y17107-Hd1e103" type="question-title">De numero externorum sensuum in se, et in ordine ad subjecta in quibus sunt</head>
+        <p xml:id="szdada-y17107-d1e106">
+          <lb ed="#P" n="100"/>CAPUT XXVIII.
+          <lb ed="#P" n="101"/>DE NUMERO EXTERNORUM SENSUUM IN SE, ET IN
+          <lb ed="#P" n="102"/>ORDINE AD SUBJECTA IN QUIBUS SUNT.
+        </p>
+        <p xml:id="szdada-y17107-d1e115">
+          <lb ed="#P" n="103"/>1. Duplex praesentis capitis punctum. — De
+          <lb ed="#P" n="104"/>primo puncto. — Prima conclusio. — Quinque
+          <lb ed="#P" n="105"/>esse externos sensus ostenditur. — Postquam
+          <lb ed="#P" n="106"/>dictum est de sensibus exterioribus, singulatim
+          <lb ed="#P" n="107"/>agendum superest de eorum suflicientia. At
+          <pb ed="#P" n="697"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>primo sint ne plures, vel pauciores, quam
+          <lb ed="#P" n="2"/>quinque: deinde quot eorum singulis 
+          anima<lb break="no" ed="#P" n="3"/>libus insint. Circa primum sit conclusio. 
+          Quin<lb break="no" ed="#P" n="4"/>que tantum sunt exteriores sensus. Probatur
+          <lb ed="#P" n="5"/>experientia et ratione, nam quinque sunt 
+          sen<lb break="no" ed="#P" n="6"/>sibilia, quae per se primo immutant diverso
+          <lb ed="#P" n="7"/>modo sensus: nec eorum aliquod plusquam
+          <lb ed="#P" n="8"/>ab uno sensu externo percipi potest: tot ergo
+          <lb ed="#P" n="9"/>erunt sensus eis correspondentes. Antecedens
+          <lb ed="#P" n="10"/>explicat divus Thomas, 1 part., q. 78, art. 3,
+          <lb ed="#P" n="11"/>hunc in modum. Objectum sensibile per se et
+          <lb ed="#P" n="12"/>proprie esse immutativum sensus: ergo 
+          di<lb break="no" ed="#P" n="13"/>versa ratio sic immutandi diversum sensibile
+          <lb ed="#P" n="14"/>constituet, et ex consequenti diversum 
+          sen<lb break="no" ed="#P" n="15"/>sum postulabit. Porro dicta immutatio quinque
+          <lb ed="#P" n="16"/>modis variatur, quoddam enim objectum 
+          im<lb break="no" ed="#P" n="17"/>mutat sensum pure intentionaliter, ac sine
+          <lb ed="#P" n="18"/>mixtione materialis actionis, et hujusmodi est
+          <lb ed="#P" n="19"/>objectum visibile: aliud immutat 
+          intentiona<lb break="no" ed="#P" n="20"/>hter, facta tamen materiali immutatione in
+          <lb ed="#P" n="21"/>ipso objecto, idque dupliciter, nam vel ea 
+          ma<lb break="no" ed="#P" n="22"/>terialis immutatio est tantum latio, et sic 
+          con<lb break="no" ed="#P" n="23"/>stituit objectum audibile, vel est etiam 
+          altera<lb break="no" ed="#P" n="24"/>tio, et sic constituit odorabile, quod ordinarie
+          <lb ed="#P" n="25"/>prius calefit, quam immutet potentiam. Aliud
+          <lb ed="#P" n="26"/>tandem est objectum intentionaliter etiam 
+          im<lb break="no" ed="#P" n="27"/>mutans admixta simul materiali immutatione
+          <lb ed="#P" n="28"/>subjecti, seu organi, quod adhuc dupliciter
+          <lb ed="#P" n="29"/>potest contingere, nam vel materialis haec 
+          im<lb break="no" ed="#P" n="30"/>mutatio est per eamdem qualitatem sensibilem,
+          <lb ed="#P" n="31"/>et ita constituitur objectum tangibile, vel per
+          <lb ed="#P" n="32"/>diversam aliam, et ita constituitur gustabile:
+          <lb ed="#P" n="33"/>illius enim immutationi intentionali 
+          admisce<lb break="no" ed="#P" n="34"/>tur realis humectatio: hoc ergo modo 
+          distin<lb break="no" ed="#P" n="35"/>guuntur quinque sensibilia, et consequenter
+          <lb ed="#P" n="36"/>sensus quinque. Deductio haec divi Thomae est
+          <lb ed="#P" n="37"/>quidem probabilis, neque in tali materia 
+          suc<lb break="no" ed="#P" n="38"/>currit ratio evidentior, solum advertatur, licet
+          <lb ed="#P" n="39"/>materialis immutatio per accidens 
+          admiscea<lb break="no" ed="#P" n="40"/>tur intentionali: ex conjunctione tamen fere
+          <lb ed="#P" n="41"/>inseparabili ipsius cum intentionali, recte 
+          ar<lb break="no" ed="#P" n="42"/>gui diversitatem ejusdem intentionalis ; nam
+          <lb ed="#P" n="43"/>quo magis talis immutatio admixta est actioni
+          <lb ed="#P" n="44"/>materiali, eo imperfectior deprehenditur, quo
+          <lb ed="#P" n="45"/>vero est purior, eo est perfectior.
+        </p>
+        <p xml:id="szdada-y17107-d1e230">
+          <lb ed="#P" n="46"/>2. Non plures esse probatur. — Porro 
+          dis<lb break="no" ed="#P" n="47"/>cursus hic, sive argumentum probat optime
+          <lb ed="#P" n="48"/>non esse pauciores sensus, quam quinque: jam
+          <lb ed="#P" n="49"/>plures non esse probatur a forma, quia forma,
+          <lb ed="#P" n="50"/>seu modus alius immutandi non invenitur.
+          <lb ed="#P" n="51"/>Item a subjecto, quia praeter quinque organa
+          <lb ed="#P" n="52"/>istorum sensuum nulium experimur aliud.
+          <lb ed="#P" n="53"/>Item a fine, nam quinque sensus suffticiunt
+          <lb ed="#P" n="54"/>animantibus, ut patet experientia: his enim
+          <lb ed="#P" n="55"/>instructi nullam deprehendimus indigentiam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ulterioris sensus: quolibet autem destituti 
+          sen<lb break="no" ed="#P" n="57"/>timus non minimam: ergo signum est hos
+          <lb ed="#P" n="58"/>suflficere, et esse necessarios, quam rationem
+          <lb ed="#P" n="59"/>prosequitur Albertus, libro 2, tractatu quarto,
+          <lb ed="#P" n="60"/>capite quinto. Denique in homine est natura
+          <lb ed="#P" n="61"/>sensitiva in suprema perfectione: habet ergo
+          <lb ed="#P" n="62"/>in ea omnes potentias, quas exigit perfecta
+          <lb ed="#P" n="63"/>natura sensitiva: non ergo plures sunt in 
+          re<lb break="no" ed="#P" n="64"/>rum natura.
+        </p>
+        <p xml:id="szdada-y17107-d1e277">
+          <lb ed="#P" n="65"/>3. Difficultas duples contra primam 
+          assertio<lb break="no" ed="#P" n="66"/>nem.—Adprimam difficultatem communis 
+          solu<lb break="no" ed="#P" n="67"/>tio. —Circa hanc tamen primam conclusionem
+          <lb ed="#P" n="68"/>insurgunt difficultates duae ex Aristotele, l. 2,
+          <lb ed="#P" n="69"/>de Anima. Prima in cap. 10, quod gustus sit
+          <lb ed="#P" n="70"/>quidam tactus, idque etiam repetit 2, de 
+          Par<lb break="no" ed="#P" n="71"/>tibus, cap. 3, non ergo putat Philosophus tot
+          <lb ed="#P" n="72"/>dari sensus. Secunda difficultas sumitur ex
+          <lb ed="#P" n="73"/>cap. 11, ubi asserere videtur duos esse sensus
+          <lb ed="#P" n="74"/>tactus, atque adeo plures omnino, quam 
+          quin<lb break="no" ed="#P" n="75"/>que. Ad primam Venetus fatetur gustum et
+          <lb ed="#P" n="76"/>tactum esse idem realiter, differre vero 
+          con<lb break="no" ed="#P" n="77"/>notatione terminorum. Verum universi 
+          inter<lb break="no" ed="#P" n="78"/>pretes judicant esse realiter distinctos. Divus
+          <lb ed="#P" n="79"/>Thomas, lectione 21, Albertus, supra cap. 27,
+          <lb ed="#P" n="80"/>et in Summa de homine, tractatu de Gustu,
+          <lb ed="#P" n="81"/>quaest. 2, Philoponus, fol. 63, col. 2. /Egidius,
+          <lb ed="#P" n="82"/>text. 101, dub. 2, et uterque Cajetanus et
+          <lb ed="#P" n="83"/>aperte Aristoteles, text. 112, et libro 4, de
+          <lb ed="#P" n="84"/>Histor., cap. 8, et lib. 3, de Anima, cap. 1,ait
+          <lb ed="#P" n="85"/>quinque esse sensus externos, et illorum 
+          suf<lb break="no" ed="#P" n="86"/>ficientiam investigat. Idem patet ex objectis,
+          <lb ed="#P" n="87"/>ei ex diverso modo immutandi eorum, ut 
+          vi<lb break="no" ed="#P" n="88"/>dimus. Item ex diversitate organorum, tactus
+          <lb ed="#P" n="89"/>enim organum per totum corpus distenditur:
+          <lb ed="#P" n="90"/>organum gustus certam et determinatam 
+          se<lb break="no" ed="#P" n="91"/>dem habet. Patet denique ex diversitate 
+          actio<lb break="no" ed="#P" n="92"/>num: sunt ergo sensus diversi. Illud autem
+          <lb ed="#P" n="93"/>Aristotelis dictum varie exponitur. Primo, quia
+          <lb ed="#P" n="94"/>gustus materialiter etiam, sicut tactus, et non
+          <lb ed="#P" n="95"/>solum intentionaliter tangit objectum suum.
+          <lb ed="#P" n="96"/>Juxta quam expositionem tactus dupliciter 
+          su<lb break="no" ed="#P" n="97"/>mi videtur, et stricte pro sensu perceptivo
+          <lb ed="#P" n="98"/>primarum qualitatum, quo pacto gustus, tactus
+          <lb ed="#P" n="99"/>non est, et late ut significat sensum, qui praevio
+          <lb ed="#P" n="100"/>aliquo materiali contactu sentit, et ita gustus
+          <lb ed="#P" n="101"/>dicitur quidam tactus. Haec est expositio divi
+          <lb ed="#P" n="102"/>Thommae, ac vera. Addi potest et altera, quod
+          <lb ed="#P" n="103"/>gustus sit quidam tactus non formaliter, sed
+          <lb ed="#P" n="104"/>suppositive, quatenus semper supponit 
+          tac<lb break="no" ed="#P" n="105"/>tum. Quae certe expositio coincidit cum prima.
+          <lb ed="#P" n="106"/>Alias vero omitto, quia minus ad rem faciunt.
+          <lb ed="#P" n="107"/>Replicabis tamen: organum gustus est etiam
+          <lb ed="#P" n="108"/>organum tactus, lingua enim sentit etiam 
+          ca<lb break="no" ed="#P" n="109"/>lorem, in uno autem organo unus est sensus:
+          <lb ed="#P" n="110"/>coincidunt ergo gustus et tactus in unum sen-
+          <pb ed="#P" n="698"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sum. Respondent nonnulli in organo gustus
+          <lb ed="#P" n="2"/>non dari sensum tactus, qui magis terreum
+          <lb ed="#P" n="3"/>organum, quam gustus postulat: hic enim
+          <lb ed="#P" n="4"/>humido gaudet et aqueo, teste Galeno 7, de
+          <lb ed="#P" n="5"/>Placitis, cap. 13, et lib. de Instrumento 
+          olfac<lb break="no" ed="#P" n="6"/>tus. Probabilius tamen videtur oppositum :
+          <lb ed="#P" n="7"/>namque docet experientia in eadem parte 
+          sa<lb break="no" ed="#P" n="8"/>porem et calorem sentiri. Praeterea quaevis pars
+          <lb ed="#P" n="9"/>corporis non nimium dura est organum 
+          tac<lb break="no" ed="#P" n="10"/>tus, ut supra vidimus, hujusmodi autem est
+          <lb ed="#P" n="11"/>nervus ille in quo sedet gustus: ergo ibi etiam
+          <lb ed="#P" n="12"/>est tactus. Neque verum est tactum ita exigere
+          <lb ed="#P" n="13"/>organum terreum, ut sub alio temperamento
+          <lb ed="#P" n="14"/>non possit conservari. Dicitur ergo terrestre,
+          <lb ed="#P" n="15"/>quia in illo magis, quam in alio organo 
+          quali<lb break="no" ed="#P" n="16"/>tates illius elementi misceantur, nihilominus
+          <lb ed="#P" n="17"/>non semper ibi praedominatur terra, imo ad
+          <lb ed="#P" n="18"/>sui perfectionem requirit temperamentum
+          <lb ed="#P" n="19"/>aequale, licet possit etiam sub temperamento
+          <lb ed="#P" n="20"/>inaequali minus perfecte conservari, ut liquet
+          <lb ed="#P" n="21"/>in membris diversarum complexionum, 
+          quo<lb break="no" ed="#P" n="22"/>rum alia ad has, alia ad illas qualitates 
+          tangi<lb break="no" ed="#P" n="23"/>biles declinant. Sic Galenus 9, de Placitis, c.2,
+          <lb ed="#P" n="24"/>et 1, de Temperament., c. 10, ait in sola manu
+          <lb ed="#P" n="25"/>tactum esse perfectissimum, quod videlicet in
+          <lb ed="#P" n="26"/>ea parte corporis prae aliis ad mediocritatem
+          <lb ed="#P" n="27"/>redacta sit mixtura qualitatum, quam etiam
+          <lb ed="#P" n="28"/>divus Thomas, in 4, d. 23, quaest. 1, art. 3,
+          <lb ed="#P" n="29"/>quaestiunc. 2, vigere maxime in pulpis 
+          digito<lb break="no" ed="#P" n="30"/>rum affirmat. Àd argumentum ergo 
+          respon<lb break="no" ed="#P" n="31"/>detur, nihil repugnare in eodem organo esse
+          <lb ed="#P" n="32"/>sensum tactus et gustus, nam tactus est quasi
+          <lb ed="#P" n="33"/>universalis sensus unde in organis etiam 
+          alio<lb break="no" ed="#P" n="34"/>rum sensuum reperitur.
+        </p>
+        <p xml:id="szdada-y17107-d1e457">
+          <lb ed="#P" n="35"/>4. Circa secundam difficultatem opinio prima.
+          <lb ed="#P" n="36"/>— Circa secundam difticultatem, est varietas
+          <lb ed="#P" n="37"/>opinionum, quidam enim admittunt diversos
+          <lb ed="#P" n="38"/>specie tactus. Ita Avicenna 6, Natural., part.2,
+          <lb ed="#P" n="39"/>de tact., Themistius, cap. 39, Averroes 2, de
+          <lb ed="#P" n="40"/>Anima, textu 108, /Egidius, ibid., D. Thomas,
+          <lb ed="#P" n="41"/>lect. 93, Albertus, Summa de homine, tractatu
+          <lb ed="#P" n="42"/>de tactu, quaest. 2, Apollinaris, in secundo
+          <lb ed="#P" n="43"/>lib. de Anima, quaest. 3, Valles 2 
+          Contro<lb break="no" ed="#P" n="44"/>versiarum. hRatio eorum est, quia unus sensus
+          <lb ed="#P" n="45"/>unius est primae contrarietatis: sed in 
+          tangi<lb break="no" ed="#P" n="46"/>bilibus qualitatibus dantur duae primae 
+          contra<lb break="no" ed="#P" n="47"/>rietates: ergo duo sunt sensus tactus. Juxta
+          <lb ed="#P" n="48"/>quos auctores consequenter dicendum esset
+          <lb ed="#P" n="49"/>divisionem vulgatam sensus externi in quinque
+          <lb ed="#P" n="50"/>sensus, non esse generis in species infimas,
+          <lb ed="#P" n="51"/>sed in subalternas, ita ut tactus, verbi gratia,
+          <lb ed="#P" n="52"/>subdividatur adhuc in duas species, etc., 
+          prae<lb break="no" ed="#P" n="53"/>sertim cum non desint qui humanis sensibus
+          <lb ed="#P" n="54"/>ob conjunctionem cum gradu rationali 
+          diver<lb break="no" ed="#P" n="55"/>sitatem speciticam a sensibus belluarum tri-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>buant, ut lib. seq., cap. primo, numero 
+          septi<lb break="no" ed="#P" n="57"/>mo, attingemus.
+        </p>
+        <p xml:id="szdada-y17107-d1e512">
+          <lb ed="#P" n="58"/>5. Opinio secunda probabilior. — Contraria
+          <lb ed="#P" n="59"/>sententia videtur verior, quam tenet D. 
+          Tho<lb break="no" ed="#P" n="60"/>mas, 1 part. quaest. 78, art. 3, ad 3, ubi aperte
+          <lb ed="#P" n="61"/>ait sensum tactus unicum esse in specie. Idem
+          <lb ed="#P" n="62"/>Fhiloponus 2, de Anima, fol. 69, col. 2, 
+          Sim<lb break="no" ed="#P" n="63"/>plicius, text. 108, Alexander, in paraphrasi de
+          <lb ed="#P" n="64"/>Anima, cap. de contact., Venetus, text. 108,
+          <lb ed="#P" n="65"/>Magnesius, de Sensu particulari, cap. 23, 
+          Fer<lb break="no" ed="#P" n="66"/>nelius 5, Physiologiae, cap. 7, et colligitur ex
+          <lb ed="#P" n="67"/>Aristotele, lib. 3, cap. 1, dicente tantum esse
+          <lb ed="#P" n="68"/>quinque sensus. Quod vere non diceret, si 
+          plu<lb break="no" ed="#P" n="69"/>res essent in specie ultima. Idem colligitur ex
+          <lb ed="#P" n="70"/>2. de Partibus, cap. 1, ubi legimus idem esse
+          <lb ed="#P" n="71"/>sensorium, in quo percipiuntur universae 
+          con<lb break="no" ed="#P" n="72"/>trarietates tangibiles et subditur, unius 
+          sen<lb break="no" ed="#P" n="73"/>sorii, (scilicet adaequati) unum esse sensum,
+          <lb ed="#P" n="74"/>quod etiam repetitur in 2, de Anima, text. 121.
+          <lb ed="#P" n="75"/>Potissima ratio hujus sententiae est hanc 
+          dis<lb break="no" ed="#P" n="76"/>ünctionem tactuum necessariam non esse,
+          <lb ed="#P" n="77"/>cum omnes primae qualitates tangibiles habeant
+          <lb ed="#P" n="78"/>eumdem modum immutandi sensum 
+          organum<lb break="no" ed="#P" n="79"/>que tangendi sit unum, temperamentumque
+          <lb ed="#P" n="80"/>quantum possit fieri, unius rationis requirat:
+          <lb ed="#P" n="81"/>superflue igitur distinctio invehitur. Neque
+          <lb ed="#P" n="82"/>ratio facta urget. Primo, quia nulla causa est,
+          <lb ed="#P" n="83"/>cur unus sensus tantum sit unius 
+          contrarieta<lb break="no" ed="#P" n="84"/>tis, licet enim visus, verbi gratia, unam 
+          per<lb break="no" ed="#P" n="85"/>cipiat contrarietatem, scilicet albedinis et 
+          ni<lb break="no" ed="#P" n="86"/>gredinis, at sensus olfactus tam multos percipit
+          <lb ed="#P" n="87"/>odores bonos et malos, ut non una in eis 
+          con<lb break="no" ed="#P" n="88"/>trarietas, sed plures forte reperiantur: nos
+          <lb ed="#P" n="89"/>enim solum odorem bonum a malo 
+          distingui<lb break="no" ed="#P" n="90"/>mus, ut contraria, cum tamen non omnes 
+          odo<lb break="no" ed="#P" n="91"/>ris boni et mali habeant eamdem rationem
+          <lb ed="#P" n="92"/>bonitatis et mahtiae, ut ipso etiam sensu 
+          no<lb break="no" ed="#P" n="93"/>tum est: in hac ergo diversitate quis audeat
+          <lb ed="#P" n="94"/>affirmare multas contrarietates non inveniri.
+          <lb ed="#P" n="95"/>Hoc enim modo qualitates etiam tangibiles 
+          re<lb break="no" ed="#P" n="96"/>duci possunt ad unam contrarietatem primam,
+          <lb ed="#P" n="97"/>quasi genericam, scilicet qualitatem nocivam
+          <lb ed="#P" n="98"/>et proficuam, sub qua tamen ratione plures
+          <lb ed="#P" n="99"/>dantur contrarietates primae quasi specificae,
+          <lb ed="#P" n="100"/>nimirum calidum et frigidum, humidum et
+          <lb ed="#P" n="101"/>siccum: sic rursus in saporibus fortasse 
+          ali<lb break="no" ed="#P" n="102"/>quot erunt contrarietates specificae, quarum
+          <lb ed="#P" n="103"/>una ad aliam non reducatur sub una generica,
+          <lb ed="#P" n="104"/>quamvis probabilius etiam sit dulce et 
+          ama<lb break="no" ed="#P" n="105"/>rum esse sapores extremos. Secundo 
+          responde<lb break="no" ed="#P" n="106"/>tur, quatuor illas primas qualitates, convenire
+          <lb ed="#P" n="107"/>in uno genere communi, quod sit adaequatum
+          <lb ed="#P" n="108"/>objectum tactus continens sub se duas primas
+          <lb ed="#P" n="109"/>contrarietates, quod nihil obest unitati 
+          ratio<lb break="no" ed="#P" n="110"/>nis sensibilis, quia in omnibus dictis speciebus
+          <pb ed="#P" n="699"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est eadem ratio sensibilis. Ita S. Thomas supr.
+          <lb ed="#P" n="2"/>et quaest. de Anim., art. 13, ad 17, et opusc. 43,
+          <lb ed="#P" n="3"/>cap. 3, alias vero qualtates tangibiles, q. 2
+          <lb ed="#P" n="4"/>de Gener., recensentur, ad has primas reduci
+          <lb ed="#P" n="5"/>ab ipso Aristotele ibid., ac adeo per illas 
+          sen<lb break="no" ed="#P" n="6"/>tiri, fortasseque per illarum species, non per
+          <lb ed="#P" n="7"/>proprias, ad modum sensibilium communium.
+          <lb ed="#P" n="8"/>Ad Aristotelem itaque respondetur loqui solum
+          <lb ed="#P" n="9"/>dubitative, ac disputando, quia tamen sic solet
+          <lb ed="#P" n="10"/>ipse probare suam sententiam, forte ibi 
+          cen<lb break="no" ed="#P" n="11"/>suit esse probabilius, quod non probamus.
+        </p>
+        <p xml:id="szdada-y17107-d1e658">
+          <lb ed="#P" n="12"/>6. De secundo puncto in titulo capitis quoad
+          <lb ed="#P" n="13"/>tactum. — Quoad gustum opinio non 
+          improba<lb break="no" ed="#P" n="14"/>Dilis. — In secunda parte hujus capitis 
+          brevi<lb break="no" ed="#P" n="15"/>ter dicendum est de numero sensuum 
+          singulo<lb break="no" ed="#P" n="16"/>rum animalium, ac dico primo. Nullum est
+          <lb ed="#P" n="17"/>animal tactu cassum, hoc repetit saepe 
+          Aristo<lb break="no" ed="#P" n="18"/>teles, in lib. de Anima, idemque sentiunt 
+          om<lb break="no" ed="#P" n="19"/>nes philosophi. Est siquidem sensus hic quasi
+          <lb ed="#P" n="20"/>fundamentum aliorum, utpote maxime 
+          neces<lb break="no" ed="#P" n="21"/>sarius ad conservationem vitae vegetativae. Est
+          <lb ed="#P" n="22"/>rursum imperfectissimus, atque adeo facile
+          <lb ed="#P" n="23"/>communis. Denique organum illius in 
+          qua<lb break="no" ed="#P" n="24"/>dam consistit mixtione primarum qualitatum
+          <lb ed="#P" n="25"/>per totum corpus diffusa, ac proinde inventu
+          <lb ed="#P" n="26"/>facillima in omni animali. De gustu vero res
+          <lb ed="#P" n="27"/>est dubia, quidam volunt etiam esse 
+          commu<lb break="no" ed="#P" n="28"/>nem omnibus animantibus. Ita Venetus, 
+          Sum<lb break="no" ed="#P" n="29"/>ma de Anima, cap. 34, Apollinaris, lib. 2,
+          <lb ed="#P" n="30"/>text. 29, ubi duplicem distinguit gustum: unum
+          <lb ed="#P" n="31"/>perfectum, qui in determinata parte consistit,
+          <lb ed="#P" n="32"/>discernitque differentias saporum, et hunc non
+          <lb ed="#P" n="33"/>esse omnibus communem: alterum 
+          imperfec<lb break="no" ed="#P" n="34"/>tum, qui deservit sumptioni alimenti, 
+          discer<lb break="no" ed="#P" n="35"/>nendo tantum conveniens a disconvenienti, et
+          <lb ed="#P" n="36"/>hunc esse communem, necessariumque 
+          ani<lb break="no" ed="#P" n="37"/>mantibus, sicut et tactus: tum quia animal
+          <lb ed="#P" n="38"/>potest laedi a noxio cibo, quae fuit ratio 
+          conce<lb break="no" ed="#P" n="39"/>dendi tactum omnibus: tum quia animantia
+          <lb ed="#P" n="40"/>perfectius percipiunt alimentum, quam pure
+          <lb ed="#P" n="41"/>vegetabilia: haec autem perfectio in eo est,
+          <lb ed="#P" n="42"/>quod cum delectatione recipiant, 
+          discretione<lb break="no" ed="#P" n="43"/>que utilis a noxio, quod certe munus pertinet
+          <lb ed="#P" n="44"/>ad gustum. Atque huic opinioni consonat 
+          Aris<lb break="no" ed="#P" n="45"/>toteles 2, de Partib., cap. 17, scribens omnia
+          <lb ed="#P" n="46"/>animalia tam sanguinea, quam exanguia 
+          ha<lb break="no" ed="#P" n="47"/>bere eam partem qua sapores sentire possint.
+          <lb ed="#P" n="48"/>Idem docet 3, de Anima, cap. penult., text. 64.
+          <lb ed="#P" n="49"/>Estque probabile: sed oppositum videtur 
+          pro<lb break="no" ed="#P" n="50"/>babilius.
+        </p>
+        <p xml:id="szdada-y17107-d1e745">
+          <lb ed="#P" n="51"/>7. Secunda assertio qua opinio praecedentis
+          <lb ed="#P" n="52"/>probabilor statuitur. — Unde dico secundo.
+          <lb ed="#P" n="53"/>Quaedam sunt animalia solo tactu donata. Ita
+          <lb ed="#P" n="54"/>Aristoteles, de Sensu et sensibili, capit. 2, ubi
+          <lb ed="#P" n="55"/>sic ait: Tactum autem, et gustum omnia ha-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bent, nisi quod est animalium imper fectorum.
+          <lb ed="#P" n="57"/>Clarius lib. 3, de Anima, cap. ultimo de tactu,
+          <lb ed="#P" n="58"/>Neque si animal est, alium sensum preeter hunc
+          <lb ed="#P" n="59"/>habere necesse est. Et lib. 2, textu 17, sensum
+          <lb ed="#P" n="60"/>tactus a reliquis omnibus ait posse separari:
+          <lb ed="#P" n="61"/>et textu 23, quaedam animalia habere omnes
+          <lb ed="#P" n="62"/>sensus, quaedam aliquos, quadam tantum
+          <lb ed="#P" n="63"/>unum. Consentiunt Commentatores, lib. 2, de
+          <lb ed="#P" n="64"/>Anima, text. 31, S. Thomas, lect. 5, /Egidius,
+          <lb ed="#P" n="65"/>lib. 3, cap. ult., Thienensis, lib. 2, text. 31.
+          <lb ed="#P" n="66"/>hatio vero est, quia sunt etiam animalia 
+          im<lb break="no" ed="#P" n="67"/>perfecta, quae sapidis non nutriuntur, sed 
+          ca<lb break="no" ed="#P" n="68"/>lidis et humidis: atque ita per tactum 
+          de<lb break="no" ed="#P" n="69"/>lectationem cibi percipiunt, discernuntque
+          <lb ed="#P" n="70"/>utilem ab inutili, neque urget ratio, cur alius
+          <lb ed="#P" n="71"/>sensus illis tribuatur.
+        </p>
+        <p xml:id="szdada-y17107-d1e795">
+          <lb ed="#P" n="72"/>8. Tertia assertio. — Dico tertio. Omnia
+          <lb ed="#P" n="73"/>fere animalia perfecta sensibus quinque 
+          do<lb break="no" ed="#P" n="74"/>nantur. Hanc conclusionem prosequitur late
+          <lb ed="#P" n="75"/>Aristoteles 4, de Historia, capit. 8, ubi quae
+          <lb ed="#P" n="76"/>animalia perfecta sint statuit, dicens esse 
+          ter<lb break="no" ed="#P" n="77"/>restria. Idem docet 3, de Anima, capit. 12,
+          <lb ed="#P" n="78"/>talia autem universim habent sensus quinque:
+          <lb ed="#P" n="79"/>ergo, etc. Excipit vero Philosophus talpam,
+          <lb ed="#P" n="80"/>quod visu careat, 1, de Historia, cap. 9, quem
+          <lb ed="#P" n="81"/>Themistius, Avicenna, et divus Thomas secuti
+          <lb ed="#P" n="82"/>sunt. Addit vero Aristoteles supra habere 
+          tal<lb break="no" ed="#P" n="83"/>pam sub cute requisita organa ad visum, 
+          im<lb break="no" ed="#P" n="84"/>pediri autem ne videat ab ipsa cute, utpote
+          <lb ed="#P" n="85"/>corpulenta, obstanteque introductioni 
+          specie<lb break="no" ed="#P" n="86"/>rum. Concinit Galenus 14, de Usu partium,
+          <lb ed="#P" n="87"/>cap. 6. Ratioque a fine desumi potest, quod
+          <lb ed="#P" n="88"/>ex visceribus terrae eruat alimentum, 
+          inutiles<lb break="no" ed="#P" n="89"/>que proinde essent oculi in tam denso 
+          elemen<lb break="no" ed="#P" n="90"/>to, facileque a terra exsiccarentur. At 
+          Sim<lb break="no" ed="#P" n="91"/>plicius et Philoponus, in secundo de Anima,
+          <lb ed="#P" n="92"/>et Albertus, vigesimo secundo de Animalibus,
+          <lb ed="#P" n="93"/>capite ultimo, contendunt videre talpam,
+          <lb ed="#P" n="94"/>probantque, quia si oculos habet, ei certe
+          <lb ed="#P" n="95"/>frustra non sunt concessi, Albertus quoque
+          <lb ed="#P" n="96"/>alias affert experientias. Equidem duo illa quae
+          <lb ed="#P" n="97"/>Aristoteles pronuntiat talpam non videre, at
+          <lb ed="#P" n="98"/>habere organum videndi minime consonant,
+          <lb ed="#P" n="99"/>ut quid enim natura daret organum omnino
+          <lb ed="#P" n="100"/>actum negatura ? Unde Albertus affirmat 
+          ex<lb break="no" ed="#P" n="101"/>pertum se talpas extra cavernas quaeritasse
+          <lb ed="#P" n="102"/>alimentum, sicut ea quae videndo quaeritant.
+        </p>
+        <p xml:id="szdada-y17107-d1e866">
+          <lb ed="#P" n="103"/>9. Quarta assertio. — Dico quarto. Inter
+          <lb ed="#P" n="104"/>animalia imperfecta quaedam habent quinque
+          <lb ed="#P" n="105"/>sensus, quaedam non item. Sic apis solo caret
+          <lb ed="#P" n="106"/>auditu 1, Metaphysicae, capite primo, supra
+          <lb ed="#P" n="107"/>vero dictis locis de Historia probat Philosophus
+          <lb ed="#P" n="108"/>sensus quinque reperiri in piscibus, ac in 
+          for<lb break="no" ed="#P" n="109"/>micis. Est autem notandum primo, praeter
+          <lb ed="#P" n="110"/>tactum omnes alios sensus dari ad melius esse,
+          <pb ed="#P" n="700"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et ideo possunt plura vel pauciora participari
+          <lb ed="#P" n="2"/>juxta diversitatem perfectionis animantis. 
+          No<lb break="no" ed="#P" n="3"/>tandum secundo animalia, quae alimento etiam
+          <lb ed="#P" n="4"/>non conjuncto, sicut vegetabilia utuntur, sed
+          <lb ed="#P" n="5"/>quaerunt, si distet, necessario habere auditum,
+          <lb ed="#P" n="6"/>aut visum, aut olfactum, illis enim percipitur
+          <lb ed="#P" n="7"/>distans sensibile, unde quae animalia habent
+          <lb ed="#P" n="8"/>potentiam de se motivam ad locum distantem,
+          <lb ed="#P" n="9"/>vendicant etiam aliquem istorum sensuum,
+          <lb ed="#P" n="10"/>et e contrario, quae eorum aliquem habent
+          <lb ed="#P" n="11"/>possunt moveri ad distans, nam ex sensu 
+          se<lb break="no" ed="#P" n="12"/>quitur appetitus et ex appetitu motus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

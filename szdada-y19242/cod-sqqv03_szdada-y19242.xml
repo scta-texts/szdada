@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="782"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y19242"><!-- t3l6c1 -->
+        <head xml:id="szdada-y19242-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-y19242-Hd1e103" type="question-title">Utrum anima per separationem aliquid substantiale acquirat, vel amittat</head>
+        <p xml:id="szdada-y19242-d1e106">
+          <lb ed="#P" n="15"/>CAPUT I.
+          <lb ed="#P" n="16"/>UTRUM ANIMA PER SEPARATIONEM ALIQUID 
+          SUB<lb break="no" ed="#P" n="17"/>STANTIALE ACQUIRAT, VEL AMITTAT.
+        </p>
+        <p xml:id="szdada-y19242-d1e115">
+          <lb ed="#P" n="18"/>1. Animae separate et conjuncte eadem
+          <lb ed="#P" n="19"/>existentia. — Quid de substantia sentiat 
+          Caje<lb break="no" ed="#P" n="20"/>tanus. — De substantia animae separatae fere
+          <lb ed="#P" n="21"/>nihil dicendum superest, cum eadem numero
+          <lb ed="#P" n="22"/>sit anima, quae in corpore erat, et separata
+          <lb ed="#P" n="23"/>manet ; ejusdem ergo substantiae erit in 
+          utro<lb break="no" ed="#P" n="24"/>que statu, de se enim ad vivificandum quidem
+          <lb ed="#P" n="25"/>corpus est ordinata, non tamen de essentia
+          <lb ed="#P" n="26"/>ejus est, quod actu vivificet. Sed licet hoc sit
+          <lb ed="#P" n="27"/>verum ad essentiam attinet, dubium tamen
+          <lb ed="#P" n="28"/>superest, utrum quoad aliquid substantiale
+          <lb ed="#P" n="29"/>mutetur per separationem, et difficultas 
+          con<lb break="no" ed="#P" n="30"/>sistere potest in duobus, scilicet in existentia
+          <lb ed="#P" n="31"/>et substantia, seu personalitate saltem 
+          par<lb break="no" ed="#P" n="32"/>tiali. Ac de existentia certum est, quod 
+          con<lb break="no" ed="#P" n="33"/>servet eamdem, quam habebat in corpore, si
+          <lb ed="#P" n="34"/>enim illam amitteret, corrumperetur: tum
+          <lb ed="#P" n="35"/>etiam, quia idem est esse existentiae cum 
+          es<lb break="no" ed="#P" n="36"/>sentia. Utrum vero esse, quod anima separata
+          <lb ed="#P" n="37"/>retinet, sit idem cum esse totius hominis, alia
+          <lb ed="#P" n="38"/>difficultas est supra definita, lib. 1, cap. 12.
+          <lb ed="#P" n="39"/>Tantum ergo restat difficultas de 
+          personali<lb break="no" ed="#P" n="40"/>tate, quam tangit Cajetanus, 3 p., quaest. 6,
+          <lb ed="#P" n="41"/>artic. 3, ac putat animam post separationem
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="42"/>esse semipersonam, quod antea non 
+          vendica<lb break="no" ed="#P" n="43"/>bat: et licet obscure loquatur, mens illius haec
+          <lb ed="#P" n="44"/>videtur esse: ponit scilicet in natura humana
+          <lb ed="#P" n="45"/>praeter corpus et existentiam quamdam aliam
+          <lb ed="#P" n="46"/>entitatem, quae personalitas dicitur, a qua
+          <lb ed="#P" n="47"/>natura habet quod subsistat, et quia duni
+          <lb ed="#P" n="48"/>homo vivit, unicum est subsistens, ideo ait,
+          <lb ed="#P" n="49"/>anima dum est in corpore non subsistit, nec
+          <lb ed="#P" n="50"/>propria personalitate terminatur. At vero;
+          <lb ed="#P" n="51"/>cum primum separatur, incipit subsistere, 
+          re<lb break="no" ed="#P" n="52"/>sultatque propriaentitas per quam terminatur,
+          <lb ed="#P" n="53"/>inde ergo habet quodammodo rationem 
+          per<lb break="no" ed="#P" n="54"/>sonae; quia tamen natura completa non est,
+          <lb ed="#P" n="55"/>sed pars, semipersona, merito dicitur, in 
+          cor<lb break="no" ed="#P" n="56"/>pore vero, quia non subsistebat, semipersona
+          <lb ed="#P" n="57"/>non erat: addit tamen Cajetanus in 
+          resurrec<lb break="no" ed="#P" n="58"/>tione, cum anima reunietur corpori evasuram
+          <lb ed="#P" n="59"/>subsistentem et semipersonam ; sed non 
+          ex<lb break="no" ed="#P" n="60"/>plicat distincte Cajetanus utrum ne entitas,
+          <lb ed="#P" n="61"/>per quam anima subsistit, et semipersonatur,
+          <lb ed="#P" n="62"/>sit distincta a personalitate totius, insinuat
+          <lb ed="#P" n="63"/>tamen distinctam esse.
+        </p>
+        <p xml:id="szdada-y19242-d1e219">
+          <lb ed="#P" n="64"/>2. Notatio pro vera sententia. — Habetur in
+          <lb ed="#P" n="65"/>disp. 34, Metaphysicee, sect. 5, n. 21. —Haec 
+          sen<lb break="no" ed="#P" n="66"/>tentia in multis displicet. Ac suppono primo, 
+          ani<lb break="no" ed="#P" n="67"/>mam nostram etiam in corpore subsistere, 
+          par<lb break="no" ed="#P" n="68"/>tiali subsistentia spirituali, quaeilli identificatur:
+          <lb ed="#P" n="69"/>subsistere etiam materiam partialiter, 
+          utrum<lb break="no" ed="#P" n="70"/>que vero alibi ostendimus. Et ratio obiter est:
+          <lb ed="#P" n="71"/>quia anima etiam dum est in corpore existit
+          <lb ed="#P" n="72"/>per se non sustentata ab alio: haec nimirum est
+          <lb ed="#P" n="73"/>differentia inter homines et reliqua viventia,
+          <lb ed="#P" n="74"/>quod in aliis eorum animae non subsistant, sed
+          <lb ed="#P" n="75"/>affectiones quaedam sint materiae affixae. Unde
+          <lb ed="#P" n="76"/>subsistentia illorum viventium in materia 
+          po<lb break="no" ed="#P" n="77"/>tissime fundatur et inchoatur, completur vero
+          <lb ed="#P" n="78"/>per actuationem formae. At in rationali 
+          com<lb break="no" ed="#P" n="79"/>posito licet quod praeeipue subsistit sit homo,
+          <lb ed="#P" n="80"/>tamen subsistentia haec praecipue obvenit 
+          ra<lb break="no" ed="#P" n="81"/>tione animae, quae unitur corpori, non ut 
+          su<lb break="no" ed="#P" n="82"/>stentetur ab illo, sed potius ut utatur illo, ut
+          <lb ed="#P" n="83"/>instrumento conjuncto: subsistere enim tan-
+          <pb ed="#P" n="783"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tum est per se, et independenter ab alio 
+          su<lb break="no" ed="#P" n="2"/>stentante existere: et hinc fit, ut subsistentia
+          <lb ed="#P" n="3"/>hominis perfectior sit, quam aliorum 
+          compo<lb break="no" ed="#P" n="4"/>sitorum: haec enim completur ex duabus 
+          par<lb break="no" ed="#P" n="5"/>tibus subsistentibus, illorum vero, minime.
+          <lb ed="#P" n="6"/>Hoc supposito, sit conclusio.
+        </p>
+        <p xml:id="szdada-y19242-d1e283">
+          <lb ed="#P" n="7"/>3. Conclusio probatur multipliciter. — In
+          <lb ed="#P" n="8"/>Metaphysica, disp. 31, per totam. — Disp. 34,
+          <lb ed="#P" n="9"/>sect. 4, num. 33. — Disp. 36, sect. 1, de 
+          In<lb break="no" ed="#P" n="10"/>carnat.— Anima separata eamdem habet 
+          sub<lb break="no" ed="#P" n="11"/>sistentiam, quam habebat in corpore, nec per
+          <lb ed="#P" n="12"/>separationem mutat entitatem, sed tantum
+          <lb ed="#P" n="13"/>modum essendi. Probatur primo: quia 
+          super<lb break="no" ed="#P" n="14"/>flua est illa variatio entitatum. Secundo, quia
+          <lb ed="#P" n="15"/>anima etiam in corpore per propriam 
+          entita<lb break="no" ed="#P" n="16"/>tem, licet incompletam, est subsistens, ut 
+          po<lb break="no" ed="#P" n="17"/>suimus, separata vero multo minus 
+          substen<lb break="no" ed="#P" n="18"/>tatur a corpore: ergo in utroque statu manet
+          <lb ed="#P" n="19"/>cum eadem subsistentia. Deinde, quod nullam
+          <lb ed="#P" n="20"/>entitatem amittat, probatur: quia in animae
+          <lb ed="#P" n="21"/>substantia non est alia entitas praeter ipsam
+          <lb ed="#P" n="22"/>animam (corpus enim, et omnia alia pertinent
+          <lb ed="#P" n="23"/>ad modum essendi, nos autem de entitate 
+          sub<lb break="no" ed="#P" n="24"/>stantiali agimus) anima vero non amittit 
+          pro<lb break="no" ed="#P" n="25"/>priam entitatem: quia est incorruptibilis: 
+          er<lb break="no" ed="#P" n="26"/>go, etc. Item anima per separationem non
+          <lb ed="#P" n="27"/>amittit entitatem essentiee, alias 
+          corrumpere<lb break="no" ed="#P" n="28"/>tur: neque existentiae, tum quia haec distincta
+          <lb ed="#P" n="29"/>non est ab essentia, tum quia similiter 
+          corrum<lb break="no" ed="#P" n="30"/>peretur: corrumpi namque idem est, atque
+          <lb ed="#P" n="31"/>existentiam perdere: neque amittit entitatem
+          <lb ed="#P" n="32"/>personalitatis, quia distincta a natura non est
+          <lb ed="#P" n="33"/>realiter: quin etiam licet distincta esset talis
+          <lb ed="#P" n="34"/>entitas, in homine plane spiritualis esset: 
+          si<lb break="no" ed="#P" n="35"/>quidem primo deberet convenire animae, et ab
+          <lb ed="#P" n="36"/>illa communicari corpori, sicut de existentia
+          <lb ed="#P" n="37"/>philosophatur D. Thomas, de quo alibi: esset
+          <lb ed="#P" n="38"/>ergo independens a corpore, sicut anima ipsa:
+          <lb ed="#P" n="39"/>ergo maneret in anima separata: nulla est
+          <lb ed="#P" n="40"/>ergo entitas substantialis, quam anima perdat,
+          <lb ed="#P" n="41"/>cum separatur. Quod vero nullam acquirat,
+          <lb ed="#P" n="42"/>patet eisdem rationibus, neque enim acquirit
+          <lb ed="#P" n="43"/>entitatem essentiae, neque existentiae, neque
+          <lb ed="#P" n="44"/>personahtats: solum ergo variat modum 
+          es<lb break="no" ed="#P" n="45"/>sendi, scilicet informationem: ante enim 
+          in<lb break="no" ed="#P" n="46"/>formabat et communicabat se corpori, cui erat
+          <lb ed="#P" n="47"/>unita, postea vero caret tali modo essendi: 
+          mu<lb break="no" ed="#P" n="48"/>tat ergo modum.
+        </p>
+        <p xml:id="szdada-y19242-d1e377">
+          <lb ed="#P" n="49"/>4. Primum corollarium ea dictis. —Ex quo
+          <lb ed="#P" n="50"/>deducitur primo, dictam mutationem non esse
+          <lb ed="#P" n="51"/>ab uno modo positivo in aliam, sed in 
+          priva<lb break="no" ed="#P" n="52"/>tionem illius. Nam animam esse corpori 
+          uni<lb break="no" ed="#P" n="53"/>tam, positivum modum importat, scilicet 
+          in<lb break="no" ed="#P" n="54"/>formationem, seu unionem: separari vero non
+          <lb ed="#P" n="55"/>est novum modum acquirere, maxime enim
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>acquireretur subsistentia, hanc tamen non 
+          ac<lb break="no" ed="#P" n="57"/>quirit anima, quia jam in corpore illam 
+          habe<lb break="no" ed="#P" n="58"/>bat: separatio ergo tantum privat modo quem
+          <lb ed="#P" n="59"/>anima antea habebat. Et confirmatur, nam si
+          <lb ed="#P" n="60"/>agens impediatur ab actione, non requirit 
+          mo<lb break="no" ed="#P" n="61"/>dum positivum, sed caret causalitate, ita vero
+          <lb ed="#P" n="62"/>est in anima: separari enim nihil est, quam
+          <lb ed="#P" n="63"/>ab illa removeri causalitatem formalem circa
+          <lb ed="#P" n="64"/>corpus. Declaratur amplius: nam anima 
+          separa<lb break="no" ed="#P" n="65"/>tur per corruptionem hominis, corruptio vero
+          <lb ed="#P" n="66"/>nihil affert, sed potius aufert: ergo anima in
+          <lb ed="#P" n="67"/>corruptione hominis positivo aliquo privatur,
+          <lb ed="#P" n="68"/>neque positivum aliud acquirit.
+        </p>
+        <p xml:id="szdada-y19242-d1e425">
+          <lb ed="#P" n="69"/>5. Secundum corollarium, de quo supra l. 4,
+          <lb ed="#P" n="70"/>c. 12. — Habetur jum disp. 38, maxime sect. 4.
+          <lb ed="#P" n="71"/>— Deducitur secundo, animam separatam non
+          <lb ed="#P" n="72"/>magis esse personam, quam unitam, et ideo
+          <lb ed="#P" n="73"/>utrobique dici posse semipersonam. Probatur
+          <lb ed="#P" n="74"/>primo: quia ratio personae tantum per 
+          positi<lb break="no" ed="#P" n="75"/>vum completur, ut tradimus in Metaphysica,
+          <lb ed="#P" n="76"/>sed anima per separationem solum habet 
+          ne<lb break="no" ed="#P" n="77"/>gationem novam: ergo non magis est persona
+          <lb ed="#P" n="78"/>quam antea. Secundo, anima in corpore, et
+          <lb ed="#P" n="79"/>extra illud est subsistens communicabiliter
+          <lb ed="#P" n="80"/>respectu corporis, incommunicabiliter vero
+          <lb ed="#P" n="81"/>respectu inferiorem, hoc tantum differens,
+          <lb ed="#P" n="82"/>quod actu se communicet, vel non 
+          communi<lb break="no" ed="#P" n="83"/>cet, quod non variat rationem semipersonae
+          <lb ed="#P" n="84"/>dicitur autem semipersona, tum quia est 
+          tan<lb break="no" ed="#P" n="85"/>tum pars naturae, cum tamen de ratione 
+          per<lb break="no" ed="#P" n="86"/>sonae sit, ut connaturalis sit terminus naturae
+          <lb ed="#P" n="87"/>integrae, individuae scilicet substantiae: tum
+          <lb ed="#P" n="88"/>quia non est omnino incommunicabilis, quod
+          <lb ed="#P" n="89"/>tamen de ratione personae esse, notissimum
+          <lb ed="#P" n="90"/>est, cum oporteat esse integrum suppositum.
+        </p>
+        <p xml:id="szdada-y19242-d1e475">
+          <lb ed="#P" n="91"/>6. Tertium corollarium.—Ex quo deducitur
+          <lb ed="#P" n="92"/>ultimo. Si anima post separationem corpori
+          <lb ed="#P" n="93"/>uniatur, minime comparaturam alium modum
+          <lb ed="#P" n="94"/>essendi, quum eum quem nunc quoad 
+          sub<lb break="no" ed="#P" n="95"/>stantiam suam habet, reunietur siquidem per
+          <lb ed="#P" n="96"/>veram informationem, et ita acquirit modum
+          <lb ed="#P" n="97"/>essendi, quem nunc unita habet, quemque per
+          <lb ed="#P" n="98"/>separationem amiserat: non ergo est, in quo
+          <lb ed="#P" n="99"/>differre possit, nec contra hoc affert Cajetanus
+          <lb ed="#P" n="100"/>argumenta ulla: solumque arguet quispiam,
+          <lb ed="#P" n="101"/>sequi in morte hominis omnino nihil 
+          corrum<lb break="no" ed="#P" n="102"/>pi, occurrendum vero corrumpi hominem,
+          <lb ed="#P" n="103"/>atque in re tantum destrui realem unionem
+          <lb ed="#P" n="104"/>inter animam et corpus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

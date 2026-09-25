@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="613"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y14966"><!-- t3l3prae -->
+        <head xml:id="szdada-y14966-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-y14966-d1e103">
+          <pb ed="#P" n="613"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER TERTIUS
+          <lb ed="#P" n="2"/>DE
+          <lb ed="#P" n="3"/>POTENTIIS COGNOSCITIVIS
+          <lb ed="#P" n="4"/>IN COMMUNI, AC ETIAM SENSITIVIS.
+        </p>
+        <p xml:id="szdada-y14966-d1e119">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="5"/>Diximus de potentiis animae vegetativae, 
+          su<lb break="no" ed="#P" n="6"/>perest hoc in libro dicendum de sensitivis,
+          <lb ed="#P" n="7"/>quia tamen cum intellectiva in sequenti libro
+          <lb ed="#P" n="8"/>exp'icanda conveniunt in ratione cognoscendi,
+          <lb ed="#P" n="9"/>operae pretium erit rationem hanc utrisque
+          <lb ed="#P" n="10"/>generalem per septem sequentia capita prius
+          <lb ed="#P" n="11"/>enodare: sic namque et repetitionem 
+          multa<lb break="no" ed="#P" n="12"/>rum quaestionum fugiemus, et praeterea, (quod
+          <lb ed="#P" n="13"/>praecipue intendimus) intelligimus ordinem
+          <lb ed="#P" n="14"/>et connexionem, quam hae potentiae habent
+          <lb ed="#P" n="15"/>in homine, in quo reperiuntur omnes 
+          tan<lb break="no" ed="#P" n="16"/>quam in uno principio radicatae.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

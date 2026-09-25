@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="667"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y16351"><!-- t3l3c16 -->
+        <head xml:id="szdada-y16351-Hd1e101">Caput 16</head>
+        <head xml:id="szdada-y16351-Hd1e103" type="question-title">Sitne unum objectum visus, et quid sit illud</head>
+        <p xml:id="szdada-y16351-d1e106">
+          <lb ed="#P" n="42"/>CAPUT XVI.
+          <lb ed="#P" n="43"/>SITNE UNUM OBJECTUM VISUS, ET QUID SIT ILLUD.
+        </p>
+        <p xml:id="szdada-y16351-d1e113">
+          <lb ed="#P" n="44"/>1. Adaequatum potentiae objectum quod ? —
+          <lb ed="#P" n="45"/>In quaestione hac certum est, visum habere
+          <lb ed="#P" n="46"/>aliquod objectum adaequatum, tale autem 
+          di<lb break="no" ed="#P" n="47"/>citur, extra quod ferri neque potentia, ita 
+          ta<lb break="no" ed="#P" n="48"/>men ut nihil intra ejus ambitum sit, in quod
+          <lb ed="#P" n="49"/>ferri non possit: omnis autem potentia 
+          adae<lb break="no" ed="#P" n="50"/>quatum objectum habet necessario, imo et
+          <lb ed="#P" n="51"/>unam rationem formalem objecti sibi 
+          adaequa<lb break="no" ed="#P" n="52"/>tam vendicat, a qua sumat speciem, et ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>quam per se primo ordinetur: hoc ergo posito
+          <lb ed="#P" n="54"/>difficultas estin assignando visus objecto. Nam
+          <lb ed="#P" n="55"/>cum visus tum lumen, tum etiam colores 
+          per<lb break="no" ed="#P" n="56"/>cipiat, non constat, an horum aliquod, an vero
+          <lb ed="#P" n="57"/>aliquid illis commune sit objectum adaequatum
+          <lb ed="#P" n="58"/>visus, itemque an utrumque asequaliter 
+          videa<lb break="no" ed="#P" n="59"/>tur, necne?
+        </p>
+        <p xml:id="szdada-y16351-d1e152">
+          <lb ed="#P" n="60"/>2. Prima assertio ex Aristotele — Avicennee
+          <lb ed="#P" n="61"/>evasio, quae placet D. Thome et Cajetano. —
+          <lb ed="#P" n="62"/>Ad hujus difficultatis decisionem prius 
+          expli<lb break="no" ed="#P" n="63"/>candum est quo modo lumen requiratur ad
+          <lb ed="#P" n="64"/>videndum: dupliciter enim, ut supra 
+          notavi<lb break="no" ed="#P" n="65"/>mus, rem videri contingit, aut tanquam 
+          ter<lb break="no" ed="#P" n="66"/>minum visionis, sicut objectus paries videtur,
+          <lb ed="#P" n="67"/>aut tanquam viam, sicut videtur aerinterjectus
+          <lb ed="#P" n="68"/>quasi in transitu, cum visus non sistat in re
+          <lb ed="#P" n="69"/>diaphana: certum ergo est eorum, qui in 
+          tran<lb break="no" ed="#P" n="70"/>situ videntur, flumen esse videndi rationem,
+          <lb ed="#P" n="71"/>ibi enim lumen primo et per se conspicitur.
+          <lb ed="#P" n="72"/>Difficultas ergo est de iis, quae videntur 
+          utter<lb break="no" ed="#P" n="73"/>mini, ubi rursus notandum, quod terminat
+          <lb ed="#P" n="74"/>visionem esse posse, aut lucidum tantum, ut
+          <lb ed="#P" n="75"/>ignis, vel stella, aut etiam coloratum, ut 
+          pa<lb break="no" ed="#P" n="76"/>ries. Dico jam primo. Objectum lucidum videri
+          <lb ed="#P" n="77"/>potest ratione lucis tantum sibi inhaerentis
+          <lb ed="#P" n="78"/>absque eo quod requirat lumen in medio. 
+          Pro<lb break="no" ed="#P" n="79"/>batur ex Aristotele, lib. 9, de Anima, cap. 7,
+          <lb ed="#P" n="80"/>textu 72, dicente, res quasdam videri in 
+          tene<lb break="no" ed="#P" n="81"/>bris, quod etiam experientia monstrat, cum a
+          <lb ed="#P" n="82"/>longinquo lucernam conspicimus per 
+          densissi<lb break="no" ed="#P" n="83"/>mas noctis tenebras. Respondet tamen 
+          Avi<lb break="no" ed="#P" n="84"/>cenna, lib. 6, Naturalium, p. 3, cap. 3, haec
+          <lb ed="#P" n="85"/>ipsa lucida illuminare medium, quantum 
+          ne<lb break="no" ed="#P" n="86"/>cesse sit, ut videantur, differentiamque ab
+          <lb ed="#P" n="87"/>Aristotele adductam inter ea, quae in tenebris,
+          <lb ed="#P" n="88"/>ant in luce videntur, interpretatur quod 
+          utra<lb break="no" ed="#P" n="89"/>que quidem videantur per medium lucidum,
+          <lb ed="#P" n="90"/>quaedam tamen aliunde lucidum supponere,
+          <lb ed="#P" n="91"/>ut species imprimant, ideoque dici videri in
+          <lb ed="#P" n="92"/>lucido, quaedam vero illud efficere, quae 
+          prop<lb break="no" ed="#P" n="93"/>terea in tenebris videri perhibentur. Quam
+          <lb ed="#P" n="94"/>doctrinam videntur amplecti D. Thomas, et
+          <lb ed="#P" n="95"/>Cajetanus in citato loco Aristotelis. Quod 
+          ta<lb break="no" ed="#P" n="96"/>men non placet aliis asserentibus praefatalucida
+          <lb ed="#P" n="97"/>videri in tenebris, medio nullocollustrato, 
+          con<lb break="no" ed="#P" n="98"/>sonatque experientiae, nam oculi felium in 
+          cu<lb break="no" ed="#P" n="99"/>biculo prorsus obscuro conspiciuntur, qui tamen
+          <lb ed="#P" n="100"/>habere non videntur vim illustrandi totum 
+          cu<lb break="no" ed="#P" n="101"/>biculum. Aristoteles quoque, de Sensu et 
+          sersi<lb break="no" ed="#P" n="102"/>bili, cap. 2. scribit, corpora nonnulla levia,
+          <lb ed="#P" n="103"/>atque polita ad fulgendum in tenebris appostta
+          <lb ed="#P" n="104"/>esse, non tamen ad lumen prebendum.
+        </p>
+        <p xml:id="szdada-y16351-d1e253">
+          <lb ed="#P" n="105"/>3. Auctoris judicium. — Species lucidi aut
+          <lb ed="#P" n="106"/>colorati an pertingant, quo non accedit lua. —
+          <lb ed="#P" n="107"/>De hac disceptatione censeo actionem rei lu-
+          <pb ed="#P" n="668"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cidae duplicem esse, unam productivam 
+          lumi<lb break="no" ed="#P" n="2"/>nis, alteram specierum visualium, quae 
+          actio<lb break="no" ed="#P" n="3"/>nes non videntur subordinari, ita ut 
+          illumina<lb break="no" ed="#P" n="4"/>tiva praecedat natura, ac disponat medium ad
+          <lb ed="#P" n="5"/>specierum productionem, nam sicut ipsa 
+          illu<lb break="no" ed="#P" n="6"/>minativa immediate fit circa subjectum 
+          om<lb break="no" ed="#P" n="7"/>nino tenebrosum, ita et actio specierum 
+          pro<lb break="no" ed="#P" n="8"/>ductiva posset immediate fieri circa medium
+          <lb ed="#P" n="9"/>carens lumine, neque est ratio fingendi 
+          illu<lb break="no" ed="#P" n="10"/>minationem medii praerequiri tanquam 
+          spe<lb break="no" ed="#P" n="11"/>cierum dispositionem, et hoc est quod 
+          praeci<lb break="no" ed="#P" n="12"/>pue intendimus in conclusione. An vero 
+          prae<lb break="no" ed="#P" n="13"/>dictae duae actiones semper sese comitentur, ad
+          <lb ed="#P" n="14"/>rem non pertinet, estque utrinque probabile:
+          <lb ed="#P" n="15"/>cum enim utraque actio fiat sine contrario,
+          <lb ed="#P" n="16"/>procedatque a principio agente naturaliter ,
+          <lb ed="#P" n="17"/>credi potest utramque semper tieri ad 
+          aequa<lb break="no" ed="#P" n="18"/>lem distantiam. Aliunde autem apparet posse
+          <lb ed="#P" n="19"/>ad majorem distantiam rem lucidam 
+          diffun<lb break="no" ed="#P" n="20"/>dere species, quam lumen, cum illa sit lumine
+          <lb ed="#P" n="21"/>impertectior, ac proinde minorem requirens
+          <lb ed="#P" n="22"/>virtutem, ut diffundatur ad majorem 
+          distan<lb break="no" ed="#P" n="23"/>tiam: utraque ergo pars est probabilis, sed haec
+          <lb ed="#P" n="24"/>ultima videtur probabilior, quam etiam 
+          con<lb break="no" ed="#P" n="25"/>ftirmant adductae experientiae.
+        </p>
+        <p xml:id="szdada-y16351-d1e321">
+          <lb ed="#P" n="26"/>4. Secunda assertio tripartita. — Dico 
+          secun<lb break="no" ed="#P" n="27"/>do. Color, ut videri possit, ac imprimere in visu
+          <lb ed="#P" n="28"/>speciem, per se exigit, ut sit illuminatus, ex
+          <lb ed="#P" n="29"/>parte autem medii requirit lumen ex 
+          conse<lb break="no" ed="#P" n="30"/>quenti magis, quam per se, ex parte tandem
+          <lb ed="#P" n="31"/>potentiae simpliciter non est necessarium. Haec
+          <lb ed="#P" n="32"/>conclusio jure tribuitur D. Thomae: licet enim
+          <lb ed="#P" n="33"/>1 p., quaest. 79, art. 3, ad secundum dubie 
+          lo<lb break="no" ed="#P" n="34"/>quatur, attamen, quaest. 67, art. 3, ad tertium,
+          <lb ed="#P" n="35"/>absolute scribit lucem colores actu visibiles
+          <lb ed="#P" n="36"/>efficere. Item in 1, dist. 45, a. 2, ad primum,
+          <lb ed="#P" n="37"/>et dist. 48, art. 2, ait in objecto visus colorem
+          <lb ed="#P" n="38"/>se habere ut materiale, et lucem ut formale.
+          <lb ed="#P" n="39"/>Idem repetit in 2, dist. 20, quaest. 2, art. 2,
+          <lb ed="#P" n="40"/>ad 2, et 1, contra Gentes, cap. 76, et2, 2, q. 1,
+          <lb ed="#P" n="41"/>art. 3. Item docet Albertus, de Sensu et 
+          sensi<lb break="no" ed="#P" n="42"/>bili, tractatu 2, cap. 1 et 2, aliis locis citatis
+          <lb ed="#P" n="43"/>praecedenti capite, asserentes colorem esse
+          <lb ed="#P" n="44"/>qualitatem distinctam a lumine, manereque
+          <lb ed="#P" n="45"/>absente lumine: addit tamen, in ordine ad
+          <lb ed="#P" n="46"/>visum, colorem non esse in actu, sed in 
+          po<lb break="no" ed="#P" n="47"/>tentia tantum: fieri vero in actu a lumine, a
+          <lb ed="#P" n="48"/>quo vim accipit immutandi visum. Idem 
+          opi<lb break="no" ed="#P" n="49"/>nantur Avicenna, Themistius, AEgidius et 
+          Caje<lb break="no" ed="#P" n="50"/>tanus supracitati, consonat Aristoteles, text. 18,
+          <lb ed="#P" n="51"/>tertii de Anima, dicens lumen facere colores
+          <lb ed="#P" n="52"/>actu, utique visibiles, quia antea erant in 
+          po<lb break="no" ed="#P" n="53"/>tentia. Sed exponunt adversarii, actu facere,
+          <lb ed="#P" n="54"/>quatenus absque lumine non possunt videri.
+          <lb ed="#P" n="55"/>Sed non satisfaciunt, nam rem actu facere, est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>proprium formae, dispositio autem requisita ex
+          <lb ed="#P" n="57"/>parte passi nec facit, nec constituit in actu 
+          ip<lb break="no" ed="#P" n="58"/>sum agens. Idem praeterea colligitur ex 
+          defini<lb break="no" ed="#P" n="59"/>tione coloris, dum dicitur extremitas perspicui,
+          <lb ed="#P" n="60"/>etc.,ubi colorem definit Aristoteles in ordine ad
+          <lb ed="#P" n="61"/>visum, atque pronuntiat esse illum tantum in
+          <lb ed="#P" n="62"/>extremitate perspicui, seu illuminati: color
+          <lb ed="#P" n="63"/>ergo per lumen constituitur in esse visibilis,
+          <lb ed="#P" n="64"/>quod etiam, ex toto illo capite tertio, de Sensu
+          <lb ed="#P" n="65"/>et sensibili, licet colligere. Tandem, lib. 2, de
+          <lb ed="#P" n="66"/>Anima, c. 7, scribit oportere omnia visibilia
+          <lb ed="#P" n="67"/>reduci ad unum, in quo conveniant, non 
+          pos<lb break="no" ed="#P" n="68"/>sunt autem reduci, nisi ad lumen. Accedunt
+          <lb ed="#P" n="69"/>quoque experientiae ad hoc confirmandum,
+          <lb ed="#P" n="70"/>nam objectum coloratum nunquam nisi 
+          illumi<lb break="no" ed="#P" n="71"/>natum videtur, eoque perfectius, quo est 
+          illu<lb break="no" ed="#P" n="72"/>minatius: signum ergo est, quod ex se 
+          re<lb break="no" ed="#P" n="73"/>quirat lumen, ut possit videri. Praeterea
+          <lb ed="#P" n="74"/>compertum est res lucidas per se esse 
+          visibi<lb break="no" ed="#P" n="75"/>les, neque indigere aliquo extrinseco, ut 
+          vi<lb break="no" ed="#P" n="76"/>deantur, ut solem, caeteraque astra, ignem,
+          <lb ed="#P" n="77"/>et si quae sunt alia per se lucentia, res autem
+          <lb ed="#P" n="78"/>coloratas omnes indigere ulustratione: ergo
+          <lb ed="#P" n="79"/>Iumen revera complet rationem visibilis etiam
+          <lb ed="#P" n="80"/>in ipsis coloribus. Quocirca arbitror sicut color
+          <lb ed="#P" n="81"/>est, veluti umbra, et participatio lucis, ita ex
+          <lb ed="#P" n="82"/>se habere iuchoationem quamdam visibilitatis,
+          <lb ed="#P" n="83"/>atque ex se aptum esse, ut videatur, deesse
+          <lb ed="#P" n="84"/>tamen illi complementum virtutis, idque a
+          <lb ed="#P" n="85"/>Iumine mutuari, atque adeo cum lumine sibi
+          <lb ed="#P" n="86"/>inherente complere unum perfectum visibile,
+          <lb ed="#P" n="87"/>in quo sane differt color ab ahis qualtatibus,
+          <lb ed="#P" n="88"/>quod nec per se solae, nec cum luce possint 
+          vi<lb break="no" ed="#P" n="89"/>deri: color autem ex se habeat ut possit videri,
+          <lb ed="#P" n="90"/>adjutus scilicet virtute lucis: ita ergo 
+          inter<lb break="no" ed="#P" n="91"/>pretandus venit Aristoteles, et quicumque
+          <lb ed="#P" n="92"/>aiunt colores per se esse visibiles.
+        </p>
+        <p xml:id="szdada-y16351-d1e471">
+          <lb ed="#P" n="93"/>5. Secunda pars assertionis emponitur. —Et
+          <lb ed="#P" n="94"/>hinc liquet secunda pars conclusionis, color
+          <lb ed="#P" n="95"/>enim non nisi per aerem illuminatur, et ideo eo
+          <lb ed="#P" n="96"/>ipso, quod illuminandum est objectum, 
+          conse<lb break="no" ed="#P" n="97"/>quenter medium erit illuminandum, quamvis
+          <lb ed="#P" n="98"/>id per se non postularetur. [taque sicut res
+          <lb ed="#P" n="99"/>Iucida ex se visibilis est, seu medium sit 
+          illumi<lb break="no" ed="#P" n="100"/>natum, seu tenebrosum: ita color 
+          illumina<lb break="no" ed="#P" n="101"/>tus ratione luminis jam sibi adhaerentis evadit
+          <lb ed="#P" n="102"/>per se visibilis, productivusque suarum 
+          specie<lb break="no" ed="#P" n="103"/>rum per quodlibet medium: unde, quod hoc
+          <lb ed="#P" n="104"/>illuminatum sit accidentarium est, quamvis
+          <lb ed="#P" n="105"/>fortasse deserviat illuminatio medii, ut 
+          spe<lb break="no" ed="#P" n="106"/>cies efficaciores prodeant, adjuvando nimirum
+          <lb ed="#P" n="107"/>ipsius coloris activitatem. Atque ex his liquet
+          <lb ed="#P" n="108"/>probatio conclusionis. Nam color illuminatus,
+          <lb ed="#P" n="109"/>constitutus est tanquam quoddam lucidum:
+          <lb ed="#P" n="110"/>eodem ergo modo visibilis erit, ac res lucida:
+          <pb ed="#P" n="669"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quod enim ex se habeat lumen, vel ab alio,
+          <lb ed="#P" n="2"/>nihil refert: luna enim visibilis est per 
+          me<lb break="no" ed="#P" n="3"/>dium etiam non aliunde illuminatum, licet non
+          <lb ed="#P" n="4"/>a se, sed a sole luceat: quare sicut res lucida
+          <lb ed="#P" n="5"/>per se non requirit medium illuminatum, ita
+          <lb ed="#P" n="6"/>nec coloratum lumine perfusum illud 
+          requiri<lb break="no" ed="#P" n="7"/>tur. Et confirmatur experimento, nam res 
+          co<lb break="no" ed="#P" n="8"/>lorata, lumineque affecta sui speciem fundit
+          <lb ed="#P" n="9"/>per interjectum aerem, etiamsi totum non 
+          illus<lb break="no" ed="#P" n="10"/>tretur, cum videatur ab existente in obscuro
+          <lb ed="#P" n="11"/>recessu, ut experientia demonstrat: non ergo
+          <lb ed="#P" n="12"/>medii illustratio per se requiritur. Quod si
+          <lb ed="#P" n="13"/>contendas medium semper illuminari saltem
+          <lb ed="#P" n="14"/>remisse, hinc colhgemus id per se non requiri
+          <lb ed="#P" n="15"/>ad visibilitatem objecti, alioquin diminuta in
+          <lb ed="#P" n="16"/>medio luce visio fieret imperfectior: siquidem
+          <lb ed="#P" n="17"/>stante subjecto imperfecte disposito, forma 
+          de<lb break="no" ed="#P" n="18"/>bilior illi imprimetur: nunc autem licet lumen
+          <lb ed="#P" n="19"/>minuatur in magna medii parte, dum non 
+          re<lb break="no" ed="#P" n="20"/>mittatur in objecto illuminato, aeque perfecte
+          <lb ed="#P" n="21"/>ipsum conspicimus: ergo signum est 
+          illustra<lb break="no" ed="#P" n="22"/>tionem medii per se non requiri, ut color 
+          illus<lb break="no" ed="#P" n="23"/>tratus sit actu, seu in potentia proxima 
+          visibi<lb break="no" ed="#P" n="24"/>lis. Et hinc patet etiam ultima pars 
+          conclusio<lb break="no" ed="#P" n="25"/>nis. Nam si lumen ex parte organi posceretur,
+          <lb ed="#P" n="26"/>id esset maxime, quia in eo recipi deberent
+          <lb ed="#P" n="27"/>species, ac per illud pertingere ad potentiam
+          <lb ed="#P" n="28"/>quasi per medium, sed ex parte medii non 
+          re<lb break="no" ed="#P" n="29"/>quiritur, ut ostendimus: ergo neque ex parte
+          <lb ed="#P" n="30"/>organi, idemque probatur ex aliis argumentis
+          <lb ed="#P" n="31"/>jam positis.
+        </p>
+        <p xml:id="szdada-y16351-d1e584">
+          <lb ed="#P" n="32"/>6. Primum corollarium ex assertionibus
+          <lb ed="#P" n="33"/>colligens resultationem capitis. — Consulatur
+          <lb ed="#P" n="34"/>auctor, tractatu Fide de, disp. 3, sect. 2, n. 1.
+          <lb ed="#P" n="35"/>— Ex dictis colligitur decisio praesentis 
+          capi<lb break="no" ed="#P" n="36"/>tis, nimirum objectum adaequatum visus esse
+          <lb ed="#P" n="37"/>lumen, et quidquid ex vi luminis manifestatur,
+          <lb ed="#P" n="38"/>seu res illuminata, ut sic. Patet ex dictis, quia
+          <lb ed="#P" n="39"/>quidquid est visibile, fit actu tale et complete,
+          <lb ed="#P" n="40"/>mediante lumine: solet vero aliquando color
+          <lb ed="#P" n="41"/>dici objectum visus adaequatum, ut patet in
+          <lb ed="#P" n="42"/>D. Thoma saepe 1, 2, quaestione octava, a. 2,
+          <lb ed="#P" n="43"/>quaest. 10, art. 2, et 1 parte, quaest. 19, art. 3,
+          <lb ed="#P" n="44"/>minus proprie tamen nomine coloris extenso
+          <lb ed="#P" n="45"/>ad lucem, quod praestat etiam Aristoteles, libro
+          <lb ed="#P" n="46"/>de Coloribus, et lib. 2, de Anima, textu 69,
+          <lb ed="#P" n="47"/>et de Sensu et sensibili, c. 3, dum ait lumen
+          <lb ed="#P" n="48"/>esse coiorem perspicui. Alii astruunt visibile
+          <lb ed="#P" n="49"/>esse objectum adaequatum visus intelliigentes
+          <lb ed="#P" n="50"/>per visibile rationem quamdam communem a
+          <lb ed="#P" n="51"/>calore et luce abstrahibilem, sed hoc modo
+          <lb ed="#P" n="52"/>idem fere per idem explicatur, quare ne 
+          cir<lb break="no" ed="#P" n="53"/>culus fiat, ad ea quae, libro secundo, capite
+          <lb ed="#P" n="54"/>secundo, de speciticatione potentiarum per 
+          ob<lb break="no" ed="#P" n="55"/>jecta formalia diximus, recurrendum erit.
+        </p>
+        <p xml:id="szdada-y16351-d1e639">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>7. Secundum corollarium divisionem 
+          visibi<lb break="no" ed="#P" n="57"/>lium continens. — Secundo sequitur 
+          intelli<lb break="no" ed="#P" n="58"/>gentia divisionis, quam Aristoteles attulit
+          <lb ed="#P" n="59"/>visibilium in luce, in tenebris, in utrolibet,
+          <lb ed="#P" n="60"/>quae sane fit secundum ea quae visibilibus 
+          ac<lb break="no" ed="#P" n="61"/>cidunt, per se enim requirunt esse actu 
+          illu<lb break="no" ed="#P" n="62"/>minata, quod vero in hoc, vel illo medio
+          <lb ed="#P" n="63"/>cernantur, conditio est accidentalis quaedam :
+          <lb ed="#P" n="64"/>namque ex se lucent, ideoque per tenebrosum
+          <lb ed="#P" n="65"/>medium videri possunt, alia ab extrinseco
+          <lb ed="#P" n="66"/>illuminantur, ut colores, unde per medium
+          <lb ed="#P" n="67"/>videntur, quod simul cum eis illustratur :
+          <lb ed="#P" n="68"/>quaedam denique quia parum luminis habent,
+          <lb ed="#P" n="69"/>ut quercus putrida, nocticulae, oculi felium,
+          <lb ed="#P" n="70"/>piscium squamae, ac similia perpolita, quae
+          <lb ed="#P" n="71"/>ideo in tenebris solum discernuntur, quia cum
+          <lb ed="#P" n="72"/>medium perfecte illuminatur, absorbentur a
+          <lb ed="#P" n="73"/>majori luce, ut etiam astra fulgente sole:
+          <lb ed="#P" n="74"/>unde quae plenius lucent, ut ignis, noctu, ac
+          <lb ed="#P" n="75"/>interdiu possunt videri, quamvis etiam haec
+          <lb ed="#P" n="76"/>duo membra respectu diversorum confundi
+          <lb ed="#P" n="77"/>possint, ut exemplis est facile videre: credunt
+          <lb ed="#P" n="78"/>tamen alii ea quae solum in tenebris videntur,
+          <lb ed="#P" n="79"/>Iucem non habere, sed qualitatem, lucem et
+          <lb ed="#P" n="80"/>colorem eminenter continentem, quae interdiu
+          <lb ed="#P" n="81"/>apparet color, eo quod a divino lumine 
+          offus<lb break="no" ed="#P" n="82"/>cetur. Ita citatus Themistius. Ea tamen 
+          emi<lb break="no" ed="#P" n="83"/>nentia minime intelligitur: quare dicendum
+          <lb ed="#P" n="84"/>hujusmodi res lucentes participare aliquid
+          <lb ed="#P" n="85"/>lucis secundum partes magis perspicuas, et
+          <lb ed="#P" n="86"/>aliquid coloris secundum magis opacas: 
+          noc<lb break="no" ed="#P" n="87"/>tuque videri secundum priores tantum, eo
+          <lb ed="#P" n="88"/>quod posteriores tunc perfecte non 
+          illuminan<lb break="no" ed="#P" n="89"/>tur, interdiu vero conspici secundum ipsas
+          <lb ed="#P" n="90"/>posteriores tantum, quia jam satis 
+          illuminan<lb break="no" ed="#P" n="91"/>tur, priores vero non conspici, quia a diurna
+          <lb ed="#P" n="92"/>luce absorbentur. Ita S. Thomas 3, de Anima,
+          <lb ed="#P" n="93"/>textu 72, ubi Commentator, Nyphus, Albertus
+          <lb ed="#P" n="94"/>et Thienensis, latiusque idem Albertus, 
+          Sum<lb break="no" ed="#P" n="95"/>ma de homine, fol. 95.
+        </p>
+        <p xml:id="szdada-y16351-d1e730">
+          <lb ed="#P" n="96"/>8. Tertium corollarium de interjecta 
+          dis<lb break="no" ed="#P" n="97"/>tantia ad videndum. — Consule auctorem ,
+          <lb ed="#P" n="98"/>disp. 18, sect. S, n. 19. — De hac difficultate
+          <lb ed="#P" n="99"/>Conimbricenses, lib. 9, de Anima, c. 1, q. ult.
+          <lb ed="#P" n="100"/>— Ultimo sequitur ex dictis: quale debeat
+          <lb ed="#P" n="101"/>esse medium ad videndum: requiritur enim
+          <lb ed="#P" n="102"/>nonnulla inter visibile, et visum distantia,
+          <lb ed="#P" n="103"/>ostendit siquidem experientia, visibile super
+          <lb ed="#P" n="104"/>visum positum non videri, distantia vero cum
+          <lb ed="#P" n="105"/>nunquam sit vacua, occupari debet a corpore
+          <lb ed="#P" n="106"/>solum diaphano: corpus namque opacum
+          <lb ed="#P" n="107"/>productioni specierum obstaret, si tamen 
+          di<lb break="no" ed="#P" n="108"/>stantia inanis esset, objectumque visibile 
+          suffi<lb break="no" ed="#P" n="109"/>cienter illuminatum, et visus etiam specie
+          <lb ed="#P" n="110"/>instructus, ac debite applicatus posset fieri
+          <pb ed="#P" n="670"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>visio, quia nihil est quod ad videndi actum
+          <lb ed="#P" n="2"/>amplius requiratur, medium enim plenum ad
+          <lb ed="#P" n="3"/>speciei productionem, conservationemque in
+          <lb ed="#P" n="4"/>oculo solum requiritur. Circa haec tamen 
+          diffi<lb break="no" ed="#P" n="5"/>cultas restat de iis qui per medium densum et
+          <lb ed="#P" n="6"/>opacum inspicere dicuntur, quod minime 
+          cre<lb break="no" ed="#P" n="7"/>do, aut si verum est, causam ignoro, 
+          consula<lb break="no" ed="#P" n="8"/>tur Veracruz, lib. 2, AEgidius, Theoremate 13,
+          <lb ed="#P" n="9"/>Albertus, lib. 22, de Animalibus, ubi de lynce
+          <lb ed="#P" n="10"/>agens ait fabulosum esse, quod visu pervadat
+          <lb ed="#P" n="11"/>solida et opaca corpora.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

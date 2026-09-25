@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="593"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y14490"><!-- t3l2c7 -->
+        <head xml:id="szdada-y14490-Hd1e101">Caput 7</head>
+        <head xml:id="szdada-y14490-Hd1e103" type="question-title">Utrum generatio sit propria actio viventis</head>
+        <p xml:id="szdada-y14490-d1e106">
+          <lb ed="#P" n="76"/>CAPUT VII.
+          <lb ed="#P" n="77"/>UTRUM GENERATIO SIT PROPRIA ACTIO VIVENTIS.
+        </p>
+        <p xml:id="szdada-y14490-d1e113">
+          <lb ed="#P" n="78"/>1. Arguitur pro negativa parte. — Videtur
+          <lb ed="#P" n="79"/>pars negativa vera, quia talis actio neque 
+          con<lb break="no" ed="#P" n="80"/>venit solis viventibus, cum ignis sibi simile
+          <lb ed="#P" n="81"/>producat, neque etiam omnibus, cum mulia
+          <lb ed="#P" n="82"/>sint viventia, quae vim non habent generandi:
+          <lb ed="#P" n="83"/>ergo non est actio viventium propria. 
+          Confir<lb break="no" ed="#P" n="84"/>matur. Non viventia spiritualia sibisimilia non
+          <lb ed="#P" n="85"/>generant: ergo neque materialia, quae minus
+          <lb ed="#P" n="86"/>perfecta sunt, ex gradu vivendi potentiam 
+          ge<lb break="no" ed="#P" n="87"/>nerandi vendicant, sed fortasse aliunde. Et
+          <lb ed="#P" n="88"/>hinc etiam apparet falsum, quod ait Aristoteles
+          <lb ed="#P" n="89"/>generationem esse naturalissimum opus 
+          viven<lb break="no" ed="#P" n="90"/>tium: nam magis naturale est, quod omnibus
+          <lb ed="#P" n="91"/>inseparabiliter convenit, quae est nutritio.
+        </p>
+        <p xml:id="szdada-y14490-d1e146">
+          <lb ed="#P" n="92"/>2. Prima assertio affirmativa.—bico primo.
+          <lb ed="#P" n="93"/>Licet generatio substantialis significet cujusvis
+          <lb ed="#P" n="94"/>substantiee productionem, attamen peculiari
+          <lb ed="#P" n="95"/>quadam ratione est propria actio viventium.
+          <lb ed="#P" n="96"/>Ad probationem notandum est viventia in 
+          ge<lb break="no" ed="#P" n="97"/>nerando sui similia, speciale quidpiam habere,
+          <lb ed="#P" n="98"/>ex quo heec actio illis specialiter tribuatur, 
+          ge<lb break="no" ed="#P" n="99"/>nerant enim vital quodam modo per 
+          decisio<lb break="no" ed="#P" n="100"/>nem propriae particulae, id est, seminis, nam
+          <lb ed="#P" n="101"/>sicut nutritio a propria, atque impropria 
+          ab<lb break="no" ed="#P" n="102"/>strahens communis est viventibus, ac non 
+          vi<lb break="no" ed="#P" n="103"/>ventibus, ut tamen dicit actum vitae, propria
+          <lb ed="#P" n="104"/>est vegetabilium, ita generare absolute 
+          com<lb break="no" ed="#P" n="105"/>mune est non viventibus, fierique potest per
+          <lb ed="#P" n="106"/>meram actionem transeuntem cum sola 
+          muta<lb break="no" ed="#P" n="107"/>tione extrinseci patientis, quod tamen vitali
+          <pb ed="#P" n="594"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>actioni repugnat: at generatio propria fit, ut
+          <lb ed="#P" n="2"/>dixi, per decisionem alicujus particulae ex 
+          pro<lb break="no" ed="#P" n="3"/>pria substantia generantis, in qua residet modo
+          <lb ed="#P" n="4"/>aliquo virtus illius.
+        </p>
+        <p xml:id="szdada-y14490-d1e197">
+          <lb ed="#P" n="5"/>3. De definitione generationis presse sumptee
+          <lb ed="#P" n="6"/>latius auctor, lib. 9, de Trin., cap. 1, a n. 4.
+          <lb ed="#P" n="7"/>— Unde viventium genera-io (ut rem pro 
+          prae<lb break="no" ed="#P" n="8"/>senti loco breviter attingamus) definitur a
+          <lb ed="#P" n="9"/>S. Thoma, 1 part., q. 21, art. 2, et de Anim.,
+          <lb ed="#P" n="10"/>lect. 7, text 35. Emanatio, seu origo alicujus
+          <lb ed="#P" n="11"/>viventis a principio vivente conjuncto in 
+          simi<lb break="no" ed="#P" n="12"/>litudinem naturae specificaee. Quam 
+          definitio<lb break="no" ed="#P" n="13"/>nem sic fere declarat, 4 cont., cap. 11. Quo res
+          <lb ed="#P" n="14"/>—est perfectior, eo illius productio ei est magis
+          <lb ed="#P" n="15"/>intrinseca, et quo imperfectior, et magis 
+          ex<lb break="no" ed="#P" n="16"/>trinseca. Unde in Deo qui perfectissimus est,
+          <lb ed="#P" n="17"/>productio ad intra cum ipso identificatur, sive
+          <lb ed="#P" n="18"/>active, sive passive ipsam consideremus, atque
+          <lb ed="#P" n="19"/>Filius qui perfectissimo generatiouis modo a
+          <lb ed="#P" n="20"/>Patre producitur, in illo manet, et ejusdem
+          <lb ed="#P" n="21"/>subs:antiae est cum illo (distinctus tamen in
+          <lb ed="#P" n="22"/>persona quod absque tali distinctione non 
+          po<lb break="no" ed="#P" n="23"/>tuerit esse vera generatio), at inanimata circa
+          <lb ed="#P" n="24"/>res mere extrinsecas agunt, viventia vero in
+          <lb ed="#P" n="25"/>generando aliquid distinctum a se pnroducunt
+          <lb ed="#P" n="26"/>in persona, et natura saltem numerica, in quo
+          <lb ed="#P" n="27"/>quidem a perfectione deviant divina, non 
+          pro<lb break="no" ed="#P" n="28"/>ducunt tamen illud ex aliena et omnino 
+          ex<lb break="no" ed="#P" n="29"/>trinseca substantia, sed ex propria, videlicet
+          <lb ed="#P" n="30"/>sanguine, aut humore aliquo simili, ut in
+          <lb ed="#P" n="31"/>plantis, ex quo virtute propria semen 
+          elabo<lb break="no" ed="#P" n="32"/>rant, cui vim imprimunt ad gene-ationem 
+          per<lb break="no" ed="#P" n="33"/>ficiendam, propter quod dicitur emanatio haec
+          <lb ed="#P" n="34"/>esse a principio vitae conjuncto, tum etiam
+          <lb ed="#P" n="35"/>quia fit ex parte aliqua viventis, quae illi fuerat
+          <lb ed="#P" n="36"/>conjuncta: debet autem talis eeneratio esse in
+          <lb ed="#P" n="37"/>similitudine naturae ex vi ipsius actionis ; nam
+          <lb ed="#P" n="38"/>productio vermis, quae fit per accidens ex 
+          pu<lb break="no" ed="#P" n="39"/>tredine, vel superfluitatibus alterius viventis,
+          <lb ed="#P" n="40"/>non est propria generatio, de qua hic 
+          loqui<lb break="no" ed="#P" n="41"/>mur, neque nativitas, quae ut taiis sit, univoca
+          <lb ed="#P" n="42"/>esse debet, atque in eadem natura saltem 
+          spe<lb break="no" ed="#P" n="43"/>cifica, quod si fuerit in eadem natura 
+          nume<lb break="no" ed="#P" n="44"/>rica, multo erit perfectior, sed talis generatio
+          <lb ed="#P" n="45"/>soli Deo convenire poterit, atque ita manet
+          <lb ed="#P" n="46"/>probata conclusio.
+        </p>
+        <p xml:id="szdada-y14490-d1e291">
+          <lb ed="#P" n="47"/>4. Secunda assertio sumpta ex Aristotele.
+          <lb ed="#P" n="48"/>— Tertia assertio ev eodem. — Primus sensus
+          <lb ed="#P" n="49"/>absolutus circa proximam assertionem. — 
+          Se<lb break="no" ed="#P" n="50"/>cundus sensus comparativus.—GQuo pacto aliqui
+          <lb ed="#P" n="51"/>dictam comparationem intelligant. — Dico 
+          se<lb break="no" ed="#P" n="52"/>cundo. Hujusmodi actio non dicitur propria
+          <lb ed="#P" n="53"/>viventium, quod conveniat omnibus, sed ejus
+          <lb ed="#P" n="54"/>solis. Haec est Aristotelis, lib. 9, de Anima, ac
+          <lb ed="#P" n="55"/>patet. quia non omnia virtutem generativam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>habent ut dicetur, cap. 10. Dico tertio 
+          Gene<lb break="no" ed="#P" n="57"/>ratio sui similis est naturalissimum opus 
+          vi<lb break="no" ed="#P" n="58"/>ventium. Haec ponitur ab Aristotele, sed quo
+          <lb ed="#P" n="59"/>sensu, vel qua ratione illam astruat, minime
+          <lb ed="#P" n="60"/>constat. Quidam interpretantur 
+          naturalissi<lb break="no" ed="#P" n="61"/>mwn non comparative, sed quasi dictum sit
+          <lb ed="#P" n="62"/>valde naturale, seu ad quod plurimum natura
+          <lb ed="#P" n="63"/>inclinat. Ita Apollinaris illo loco, text. 55. Quae
+          <lb ed="#P" n="64"/>expositio fortasse vera est, sed quia claraa
+          <lb ed="#P" n="65"/>muttis rejicitur. Alii ergo omnes putant 
+          com<lb break="no" ed="#P" n="66"/>parationem fieri ad alia opera viventium, sed
+          <lb ed="#P" n="67"/>quidam volunt fieri inter sola opera vegetativae
+          <lb ed="#P" n="68"/>partis, inter quae generatio naturalissimum
+          <lb ed="#P" n="69"/>opus dicitur, quia est perfectissimum, cum sit
+          <lb ed="#P" n="70"/>productio substantiae totalis, ac requirens 
+          ge<lb break="no" ed="#P" n="71"/>nerans in statu perfecto, nutritio vero fit 
+          par<lb break="no" ed="#P" n="72"/>tialis aggeneratio, fiatque a vivente etiam 
+          im<lb break="no" ed="#P" n="73"/>perfecto: ordinatur item ad conservationoem
+          <lb ed="#P" n="74"/>individui, quod est bonum particulare: 
+          gene<lb break="no" ed="#P" n="75"/>ratio vero ad conservationem speciei, quod est
+          <lb ed="#P" n="76"/>bonum commune, atque adeo excellentius. 1
+          <lb ed="#P" n="77"/>Ethic., cap. 2. Addunt praeterea, quod 
+          genera<lb break="no" ed="#P" n="78"/>tio finis sit nutritionis et augmenti, nutritur
+          <lb ed="#P" n="79"/>enim animal et augetur, ut ad perfectam 
+          quan<lb break="no" ed="#P" n="80"/>titatem producatur, perfectasque operationes
+          <lb ed="#P" n="81"/>exerceat, inter quas prima est, sui similis 
+          ge<lb break="no" ed="#P" n="82"/>neratio 4, Meteor., c. 3, et 2, de Ani ., text. 49,
+          <lb ed="#P" n="83"/>scribit Aristoteles generationem esse finem
+          <lb ed="#P" n="84"/>animae vegetabilis, quod verum apparet, nam
+          <lb ed="#P" n="85"/>finis arboris, verbi gratia, est procreatio 
+          fruc<lb break="no" ed="#P" n="86"/>tus, atque haec est expositio communis 
+          The<lb break="no" ed="#P" n="87"/>mistii, Philoponi et Simpucii, Averrois, sancti
+          <lb ed="#P" n="88"/>Thomae, lection.,quaest. 2, de Anim., text. 39,
+          <lb ed="#P" n="89"/>et 1 p., q. 72, et q. 38, a. 2, JEgidii 2, de 
+          Ani<lb break="no" ed="#P" n="90"/>ma, text. 34 et aliorum.
+        </p>
+        <p xml:id="szdada-y14490-d1e391">
+          <lb ed="#P" n="91"/>5. Quomodo alii eamdem comparationem
+          <lb ed="#P" n="92"/>accipiant. — Alii vero exponunt opus 
+          genera<lb break="no" ed="#P" n="93"/>tionis esse naturalissimum, quia ad illud prae
+          <lb ed="#P" n="94"/>reliquis natura inclinat non extensive, sed 
+          in<lb break="no" ed="#P" n="95"/>tensive: naturalius extensive appellant quod
+          <lb ed="#P" n="96"/>pluribus conven:t, quo quidem modo generatio
+          <lb ed="#P" n="97"/>(aiunt) non est naturalissima, ut argumentum
+          <lb ed="#P" n="98"/>initio factum probat: intensive vero dicitur
+          <lb ed="#P" n="99"/>naturalius, ad quod natura inclinat 
+          vehemen<lb break="no" ed="#P" n="100"/>tius, et hoc modo accipiunt, naturalissimum,
+          <lb ed="#P" n="101"/>quia ad illud maxime inclinat natura tanquam
+          <lb ed="#P" n="102"/>ad commune bonum, quod naturaliter semper
+          <lb ed="#P" n="103"/>magis appetitur, quam particulare, sicut lapis
+          <lb ed="#P" n="104"/>deserit locum proprium, ut repleat vacuum,
+          <lb ed="#P" n="105"/>ita Paulus Venetus, cit. text. 34, et Cajetanus
+          <lb ed="#P" n="106"/>addens comparatione hoc modo facta inter
+          <lb ed="#P" n="107"/>operationes viventium etiam sentiendi et 
+          in<lb break="no" ed="#P" n="108"/>telligendi generationem est naturalissimum
+          <lb ed="#P" n="109"/>opus.
+        </p>
+        <p xml:id="szdada-y14490-d1e435">
+          <lb ed="#P" n="110"/>6. Allati sensus improbantur. — Sed haec
+          <pb ed="#P" n="595"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>omnia parum satisfaciunt, imprimis enim 
+          mi<lb break="no" ed="#P" n="2"/>nime credo naturam magis inclinari in opus
+          <lb ed="#P" n="3"/>generationis, quam nutritionis, utraque enim
+          <lb ed="#P" n="4"/>actio ordinatur ad conservationem speciei.
+          <lb ed="#P" n="5"/>Quod ita probatur, ideo generatio data est ad
+          <lb ed="#P" n="6"/>conservationem specici, quia tendit ad 
+          pro<lb break="no" ed="#P" n="7"/>ductionem alterius individui in ea specie, sed
+          <lb ed="#P" n="8"/>etiam nutritio est ad conservationem speciei:
+          <lb ed="#P" n="9"/>ergo hac ex parte aequalis est inclinatio 
+          natu<lb break="no" ed="#P" n="10"/>rae: ex alia vero superat nutritio, cum per eam
+          <lb ed="#P" n="11"/>conservetur species in proprio individuo, per
+          <lb ed="#P" n="12"/>generationem vero in alieno: at magis appetit
+          <lb ed="#P" n="13"/>res conservationem speciei in seipsa quam in
+          <lb ed="#P" n="14"/>alia, nam amabile quidem bomum (inquit 
+          Aris<lb break="no" ed="#P" n="15"/>toteles) unicuique autem proprium: unde 
+          bo<lb break="no" ed="#P" n="16"/>num commune solum praefertur particulari,
+          <lb ed="#P" n="17"/>quando non constat simul, quod si particulare
+          <lb ed="#P" n="18"/>bonum includat aequale bonum commune, 
+          pro<lb break="no" ed="#P" n="19"/>fecto magisappetit natura id particulare, quam
+          <lb ed="#P" n="20"/>commune aliud: si enim lapis replere vacuum
+          <lb ed="#P" n="21"/>possit, descendendo potius inclinabitur ad 
+          re<lb break="no" ed="#P" n="22"/>plendum, quam ascendendo. Neque 
+          experien<lb break="no" ed="#P" n="23"/>tia aliud ostendit, secundum quam videri
+          <lb ed="#P" n="24"/>posset delectatio generationis, ut numero 
+          prae<lb break="no" ed="#P" n="25"/>cedenti tangebatur vehementior, et magis 
+          alli<lb break="no" ed="#P" n="26"/>ciens, nam communiter non sunt caetera paria,
+          <lb ed="#P" n="27"/>appetitus enim nutritionis et generationis sunt
+          <lb ed="#P" n="28"/>ita subordinati, ut non sit posterior, nisi 
+          sal<lb break="no" ed="#P" n="29"/>tato priore, quando enim vivens non esurit,
+          <lb ed="#P" n="30"/>non multum appetit cibos, tuncque appetitus
+          <lb ed="#P" n="31"/>alter viget: attamen si vivens indigeat potu et
+          <lb ed="#P" n="32"/>cibo, non multum curaret de generando, sed
+          <lb ed="#P" n="33"/>maxime appeteret nutrimentum, id quod etiam
+          <lb ed="#P" n="34"/>ratio ostendit. Nam materia seminis est 
+          super<lb break="no" ed="#P" n="35"/>fluum alimentum, prius ergo vivens desumit
+          <lb ed="#P" n="36"/>quod sibi est necessarium, tum quod 
+          genera<lb break="no" ed="#P" n="37"/>tioni: ergo appetitus ille propriae 
+          conservatio<lb break="no" ed="#P" n="38"/>nis est prior, ac major. Rursus si generatio et
+          <lb ed="#P" n="39"/>nutritio in perfectione conferantur, non 
+          exce<lb break="no" ed="#P" n="40"/>dit generatio saltem essentialiter: nam sunt
+          <lb ed="#P" n="41"/>actiones ejusdem rationis, ac solum differunt
+          <lb ed="#P" n="42"/>tanquam pars et totum integrale, sicut 
+          pro<lb break="no" ed="#P" n="43"/>ductio ignis et illius actio ejusdem rationis
+          <lb ed="#P" n="44"/>sunt, eo vel maxime quod viventia 
+          communi<lb break="no" ed="#P" n="45"/>ter dispositive tantum concurrunt ad 
+          genera<lb break="no" ed="#P" n="46"/>tionem sui similis, atque ut plurimum efficiunt
+          <lb ed="#P" n="47"/>semen: in nutritione vero effective inducunt
+          <lb ed="#P" n="48"/>in materiam partem formae, vel formam 
+          indi<lb break="no" ed="#P" n="49"/>visibilem in materiam praeexistentem.
+        </p>
+        <p xml:id="szdada-y14490-d1e550">
+          <lb ed="#P" n="50"/>7. Auctoris sensus unusverior.—A lter sensus.
+          <lb ed="#P" n="51"/>— Quocirca placet mih: sententia D. Thomae,
+          <lb ed="#P" n="52"/>citato loco de Anima, generationem dici opus
+          <lb ed="#P" n="53"/>naturalissimum viventium, utpote maxime a
+          <lb ed="#P" n="54"/>natura proveniens, maximeque commune 
+          re<lb break="no" ed="#P" n="55"/>bus naturalibus, est enim generatio absolute
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dicta commune opus totius naturae, et ideo
+          <lb ed="#P" n="57"/>viventia in generando maxime assimilantur
+          <lb ed="#P" n="58"/>rebus mere naturalibus, unde Aristoteles 
+          post<lb break="no" ed="#P" n="59"/>quam dixit generationem esse naturalissimum
+          <lb ed="#P" n="60"/>opus, rationem subdidit: quia omnia appetunt
+          <lb ed="#P" n="61"/>perpetuo conservari, quae sane ratio communis
+          <lb ed="#P" n="62"/>est rebus omnibus naturalibus, ac 
+          corruptibi<lb break="no" ed="#P" n="63"/>libus. Potest etiam dici naturalissimum, quia
+          <lb ed="#P" n="64"/>est maxime necessarium ad conservationem
+          <lb ed="#P" n="65"/>viventium. Nam quia nutritio non erat 
+          suffi<lb break="no" ed="#P" n="66"/>ciens, addita est generatio non tanquam finis
+          <lb ed="#P" n="67"/>nutritionis, sed potius ut supplens defectum
+          <lb ed="#P" n="68"/>illius, et ut plurimum se habet ut extrinsecus
+          <lb ed="#P" n="69"/>finis.
+        </p>
+        <p xml:id="szdada-y14490-d1e598">
+          <lb ed="#P" n="70"/>8. Ad argumentum et confirmationem in mun.
+          <lb ed="#P" n="71"/>1. — Instantia solvitur, de qua latius auctor,
+          <lb ed="#P" n="72"/>lib. 4, de Angelis, cap. 25, n. 25, et disp. 35,
+          <lb ed="#P" n="73"/>Met., sect. 6. — Ad argumentum in principio
+          <lb ed="#P" n="74"/>patet solutio ex dictis. Ad confirmationem
+          <lb ed="#P" n="75"/>respondetur viventia separata non posse 
+          gene<lb break="no" ed="#P" n="76"/>rare sibi similia propter eorum excellentem
+          <lb ed="#P" n="77"/>perfectionem, quae non nisi per creationem
+          <lb ed="#P" n="78"/>esse potest. Neque vero indiguerunt 
+          genera<lb break="no" ed="#P" n="79"/>Uone, quia incorruptibilia sunt. Inferes: ergo
+          <lb ed="#P" n="80"/>viventia materialia habent actionem, aliquam
+          <lb ed="#P" n="81"/>perfectiorem quacumque angelica, substantiae
+          <lb ed="#P" n="82"/>scilicet productionem: ergo habent naturam
+          <lb ed="#P" n="83"/>perfectiorem, siquidem illa est natura 
+          perfec<lb break="no" ed="#P" n="84"/>Uor: quae perfectiorem habet operationem.
+          <lb ed="#P" n="85"/>Respondetur comparationem non recte fieri:
+          <lb ed="#P" n="86"/>eo quod inter res diversarum rationum fiat,
+          <lb ed="#P" n="87"/>veluti, si substantiam corporalem compares
+          <lb ed="#P" n="88"/>accidenti spirituali. Absolute tamen dicendum,
+          <lb ed="#P" n="89"/>sicut forma substantialis perfectior est 
+          acci<lb break="no" ed="#P" n="90"/>dentali, ita et actionem immediate 
+          producti<lb break="no" ed="#P" n="91"/>vam substantiae, quantum ad entitatem suam,
+          <lb ed="#P" n="92"/>esse perfectiorem actione productiva 
+          acciden<lb break="no" ed="#P" n="93"/>tis: ejusmodi vero actionem non arguere
+          <lb ed="#P" n="94"/>magnam perfectionem in operante cum 
+          per<lb break="no" ed="#P" n="95"/>fectio rei attendenda sit ex substantia illius :
+          <lb ed="#P" n="96"/>quod si operationes consideres: tunc 
+          atten<lb break="no" ed="#P" n="97"/>dendae sunt illae, quae ultimate fiunt propter
+          <lb ed="#P" n="98"/>perfectionem rei, quae operatur, ac potissime
+          <lb ed="#P" n="99"/>etiam est attendendus modus operationis: in
+          <lb ed="#P" n="100"/>his autem duobus excellunt masime 
+          opera<lb break="no" ed="#P" n="101"/>Uones viventium separatorum: cuare, etc.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

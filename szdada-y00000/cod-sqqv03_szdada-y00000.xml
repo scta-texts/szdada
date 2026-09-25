@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="f16"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y00000"><!-- t2prae -->
+        <head xml:id="szdada-y00000-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-y00000-d1e103">
+          <pb ed="#P" n="f16"/>
+          <!-- page negative -2 -->
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>TRACTATUS SECUNDUS
+          <lb ed="#P" n="2"/>DE
+          <lb ed="#P" n="3"/>OPERE SEX DIERUM
+          <lb ed="#P" n="4"/>SEU
+          <lb ed="#P" n="5"/>DE UNIVERSI CREATIONE, QUATENUS SEX DIEBUS PERFECTA ESSE, IN LIBRO GENESIS CAP. I,
+          <lb ed="#P" n="6"/>REFERTUR, ET PRJESERTIM DE PRODUCTIONE HOMINIS IN STATU INNOCENTLA.
+        </p>
+        <p xml:id="szdada-y00000-d1e125">
+          <lb ed="#P" n="7"/>PRUESENTIS TRACTATUS CONSEQUENTIA AD PRUECEDENTEM, EJUSQUE PARTITIO.
+        </p>
+        <p xml:id="szdada-y00000-d1e130">
+          <lb ed="#P" n="8"/>Post praecedentem tractationem de Angelis, in qua posteriorem partem summae
+          <lb ed="#P" n="9"/>Theologiae de Deo Creatore auspicati sumus, e vestigio sequitur altera de inferiori
+          <lb ed="#P" n="10"/>ac sensibili mundo. Nam haec etiam contemplatio ad perfectiorem Dei cognitionem,
+          <lb ed="#P" n="11"/>et mysteriorum fidei declarationem, necessaria est, ac sub ea ratione ad Theologiam
+          <lb ed="#P" n="12"/>spectat. Disputantque de illa D. Thomas sua 1 part., a quaest. 65 usque ad 74., et
+          <lb ed="#P" n="13"/>Scholastici cum Magistro, in 2, distinct. 12 et sequentibus, et eorum aliqui, dist. 3
+          <lb ed="#P" n="14"/>et 4, Alensis, part. 2. Fundamentum hujus tractatus est principium libri Genesis,
+          <lb ed="#P" n="15"/>in quo historia creationis mundi continetur, quam exponunt Patres qui super eum
+          <lb ed="#P" n="16"/>librum commentaria, aut exaemeron, aut alios libros vel tractatus scripserunt.
+          <lb ed="#P" n="17"/>Estque argumentum grave ac difficile ; tum propter divinorum operum excellentiam,
+          <lb ed="#P" n="18"/>tum maxime propter historiam Genesis, quae in illo initio adeo obscura est, ut ob
+          <lb ed="#P" n="19"/>eam rem olim in Synagoga, nonnisi hominibus provectae aetatis, et in lege doctis
+          <lb ed="#P" n="20"/>permitteretur, ut referunt Origenes in prologo ad homil. in Cant., et Hieronymus, in
+          <lb ed="#P" n="21"/>proomio ad lib. in Ezech. Sequentes autem Patrum vestigia, quoad fieri possit, 
+          ma<lb break="no" ed="#P" n="22"/>teriam hanc divina gratia adjuti illustrare conabimur. Hunc ergo tractatum trifariam
+          <lb ed="#P" n="23"/>dividemus. Nimirum creationem propriam Universi quatenus uno momento, eta
+          <lb ed="#P" n="24"/>solo Deo ex nihilo facta est, primo libro complectemur, explicabimusque illa verba
+          <lb ed="#P" n="25"/>priora Genesis: In principio creavit Deus caelum et terram, terra autem erat inanis
+          <lb ed="#P" n="26"/>et vacua, et tenebroe erant super faciem abyssi, et Spiritus Dei ferebatur super
+          <lb ed="#P" n="27"/>aquas. Deinde de singulorum sex dierum operibus toto libro secundo agemus, ac fere
+          <lb ed="#P" n="28"/>reliquam primi capitis partem, excepta hominis creatione exponemus. Denique per
+          <lb ed="#P" n="29"/>tres ultimos libros de creatione hominis et statu, quem ante peccatum habuit 
+          ejus<lb break="no" ed="#P" n="30"/>que amissione dicemus, quem etiam habuissent posteri si Adam non peccaret, 
+          obi<lb break="no" ed="#P" n="31"/>terque fere secundum et tertium caput Genesis declarabimus.
+        </p>
+        <p xml:id="szdada-y00000-d1e185">
+          <pb ed="#P" n="f17"/>
+          <!-- page negative 1 -->
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ELENCHUS CAPITUM LIBRI PRIMI
+          <lb ed="#P" n="2"/>DE UNIVERSO, QUATENUS PER VERAM, AC PROPRIAM CREATIONEM A DEO
+          <lb ed="#P" n="3"/>FACTUM EST.
+        </p>
+        <p xml:id="szdada-y00000-d1e202">
+          <lb ed="#P" n="4"/>Cap. I. Utrum mundus per veram 
+          crea<lb break="no" ed="#P" n="5"/>tionem esse coeperit.
+          <lb ed="#P" n="6"/>Car. II. An Deus in principio temporis
+          <lb ed="#P" n="7"/>coelum et terram creaverit.
+        </p>
+        <p xml:id="szdada-y00000-d1e213">
+          <lb ed="#P" n="8"/>Cap. III. An coelum athereum in 
+          prin<lb break="no" ed="#P" n="9"/>cipio temporis creatum fuerit.
+          <lb ed="#P" n="10"/>Capr. IV. An sub coelo in principio creato
+          <lb ed="#P" n="11"/>comprehendatur coelum Empyreum.
+          <lb ed="#P" n="12"/>Cap. V. Dubium incidens de natura coeli
+          <lb ed="#P" n="13"/>Empyret.
+          <lb ed="#P" n="14"/>Cap. VI. An m verbis illis: In principio
+          <lb ed="#P" n="15"/>creavit Deus coelum, creatio etium 
+          An<lb break="no" ed="#P" n="16"/>gelorum comprehensa sit.
+          <lb ed="#P" n="17"/>Car. VII. An aer fuerit simul cum coelo
+          <lb ed="#P" n="18"/>creatus, et sub nomine coeli 
+          compre<lb break="no" ed="#P" n="19"/>hensus.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="20"/>Cap. VIII. An in principio temporis 
+          si<lb break="no" ed="#P" n="21"/>mul cum coelo elementa terree et aque
+          <lb ed="#P" n="22"/>creata sint.
+          <lb ed="#P" n="23"/>Cap. IX. Utrum cum coelo, terra, et alus
+          <lb ed="#P" n="24"/>elementis tempus etiam fuerit 
+          concrea<lb break="no" ed="#P" n="25"/>tum.
+          <lb ed="#P" n="26"/>Cap. X. An omnia corpora, etiam mixta,
+          <lb ed="#P" n="27"/>totaque umwersi dispositio eodem 
+          mo<lb break="no" ed="#P" n="28"/>mento simul cum caelis, et elementis
+          <lb ed="#P" n="29"/>facta sint.
+          <lb ed="#P" n="30"/>CaAp. XI. An sex dies creationis mundi
+          <lb ed="#P" n="31"/>naturales, seu materiales, an 
+          spiritua<lb break="no" ed="#P" n="32"/>les, seu intelligibiles fuerint.
+          <lb ed="#P" n="33"/>Cap. XII. An dies naturales creatioms
+          <lb ed="#P" n="34"/>mundi reipsa sea: fuerint, sicut in 
+          Ge<lb break="no" ed="#P" n="35"/>nesi numerantur.
+        </p>
+        <p xml:id="szdada-y00000-d1e278">
+          <pb ed="#P" n="1"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER PRIMUS.
+          <lb ed="#P" n="2"/>DE UNIVERSO
+          <lb ed="#P" n="3"/>QUATENUS PER VERAM AC PROPRIAM CREATIONEM A DEO FACTUM EST.
+        </p>
+        <p xml:id="szdada-y00000-d1e291">
+          <lb ed="#P" n="4"/>De his auctor in Metaphysica, disput. 20.—
+          <lb ed="#P" n="5"/>Subjectum hujus primi libri. — Supponimus
+          <lb ed="#P" n="6"/>in hoc tractatu generalia de creatione 
+          princi<lb break="no" ed="#P" n="7"/>pia. Qualia sunt imprimis creationem fuisse
+          <lb ed="#P" n="8"/>necessariam, ut hic mundus existeret. Item
+          <lb ed="#P" n="9"/>quid sit, nimirum, esse productionem ex sola
+          <lb ed="#P" n="10"/>omnipotentia facientis absque praesupposito
+          <lb ed="#P" n="11"/>subjecto, seu materia, ac proinde ex nihilo.
+          <lb ed="#P" n="12"/>Item rem, seu essentiam increatam, et ab 
+          in<lb break="no" ed="#P" n="13"/>trinseco ac essentialiter actu existentem, 
+          uni<lb break="no" ed="#P" n="14"/>cam tantum esse, et ab illa omnium aliarum
+          <lb ed="#P" n="15"/>rerum naturas originem duxisse. His autem
+          <lb ed="#P" n="16"/>suppositis, quae post factam rerum creationem
+          <lb ed="#P" n="17"/>ex effectibus, quos experimur, per naturalem
+          <lb ed="#P" n="18"/>discursum colligi possunt, hic praecipue agimus
+          <lb ed="#P" n="19"/>de creatione mundi, prout facta est, et de 
+          mo<lb break="no" ed="#P" n="20"/>do ac circumstantiis ejus, quae quidem cum
+          <lb ed="#P" n="21"/>ex libera voluntate Dei determinatae fuerint,
+          <lb ed="#P" n="22"/>ipsius revelatio nobis necessaria fuit, ut 
+          cer<lb break="no" ed="#P" n="23"/>tam de his rebus notitiam habere possemus.
+          <lb ed="#P" n="24"/>Non enim demonstratione, sed (ut ait Paulus)
+          <lb ed="#P" n="25"/>fide intelligimus, aptata esse seecula verbo Dei,
+          <lb ed="#P" n="26"/>ut ea invisibilibus visibilia fierent. Sciendum
+          <lb ed="#P" n="27"/>est autem ex rebus universi quasdam factas
+          <lb ed="#P" n="28"/>esse ex aliis praeexistentibus rebus tanquam ex
+          <lb ed="#P" n="29"/>materia, ut herba ex terra, pisces ex aqua, 
+          vo<lb break="no" ed="#P" n="30"/>latilia ex aere: alias vero sine praejacente 
+          ma<lb break="no" ed="#P" n="31"/>teria necessario fieri debuisse. Quia cum non
+          <lb ed="#P" n="32"/>sit processus in infinitum, in aliquo genere
+          <lb ed="#P" n="33"/>causarum etiam materiali, si una res facta est
+          <lb ed="#P" n="34"/>ex alia, quaerendum est, an illa, ex qua 
+          poste<lb break="no" ed="#P" n="35"/>rior facta est, ex alia priori facta fuerit, et sic
+          <lb ed="#P" n="36"/>tandem in aliqua sistendum erit ex nulla alia
+          <lb ed="#P" n="37"/>re facta, nec etiam potuit esse improducta, ut
+          <lb ed="#P" n="38"/>convincitur ex illo principio, quod unum 
+          tan<lb break="no" ed="#P" n="39"/>tum esse potest ens improductum. Quia ergo
+          <lb ed="#P" n="40"/>creatio propria est productio ex nulla 
+          praesup<lb break="no" ed="#P" n="41"/>posita materia; ideo universum proprie creari
+          <lb ed="#P" n="42"/>dicitur, quatenus ex illis verbis constat, quae
+          <lb ed="#P" n="43"/>ex nullo subjecto fiunt, et de illo sub hac 
+          ra<lb break="no" ed="#P" n="44"/>tione hic agimus, dicturi postea de ornatu, et
+          <lb ed="#P" n="45"/>quasi complemento creationis ejus, quae per
+          <lb ed="#P" n="46"/>aliam actionem ex subjecto fit.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

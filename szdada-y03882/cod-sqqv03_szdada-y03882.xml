@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="155"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y03882"><!-- t2l2c9 -->
+        <head xml:id="szdada-y03882-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-y03882-Hd1e103" type="question-title">Quomodo per solos motus proprios coelorum sufficienter explicentur omnia, quae hoc die facta narrantur</head>
+        <p xml:id="szdada-y03882-d1e106">
+          <lb ed="#P" n="71"/>CAPUT IX.
+          <lb ed="#P" n="72"/>QUOMODO PER SOLOS MOTUS PROPRIOS COELORUM
+          <lb ed="#P" n="73"/>SUFFICIENTER EXPLICENTUR OMNIA, QUAE HOC
+          <lb ed="#P" n="74"/>DIE FACTA NARRANTUR.
+        </p>
+        <p xml:id="szdada-y03882-d1e117">
+          <lb ed="#P" n="75"/>1. Expenduntur verba Scripture pro 
+          diffi<lb break="no" ed="#P" n="76"/>cultate capitis preecedentis in num. 1, acprimum
+          <lb ed="#P" n="77"/>illa, Dixit Deus,fiant luminaria. — In hoc 
+          ca<lb break="no" ed="#P" n="78"/>pite respondendum est ad difficultatem 
+          praeci<lb break="no" ed="#P" n="79"/>puam in principio praecedentis capitis 
+          propo<lb break="no" ed="#P" n="80"/>sitam, quod distinctius et exactius fiet 
+          discur<lb break="no" ed="#P" n="81"/>rendo per singula Scripturae verba. Prima
+          <lb ed="#P" n="82"/>igitur sunt: Dicit autem Deus, fiant luminaria
+          <lb ed="#P" n="83"/>in firnamento celi, in quibus, si verbum fiat
+          <lb ed="#P" n="84"/>rigorose accipiatur pro fleri simpliciter et
+          <lb ed="#P" n="85"/>substantialiter, verbum dixit per 
+          recapitula<lb break="no" ed="#P" n="86"/>tionem accipiendum est, ac si diceretur, 
+          dire<lb break="no" ed="#P" n="87"/>rat autem Deus, eic., atque ita cxponit 
+          Vata<lb break="no" ed="#P" n="88"/>blus ex sententia Hebraeorum, dicens 
+          praete<lb break="no" ed="#P" n="89"/>ritum ibi accipi pro plusquam perfecto, quae
+          <lb ed="#P" n="90"/>expositio in sensu supra dicto tolerabilis est.
+          <lb ed="#P" n="91"/>Verumtamen ille sensus per recapitulationem
+          <lb ed="#P" n="92"/>etiam in verbis dixit, vel fiant, necessarius
+          <lb ed="#P" n="93"/>non est, nam optime intelligi possunt de 
+          effec<lb break="no" ed="#P" n="94"/>tu, quem Deus in hoc ipso die fieri praecepit ;
+          <lb ed="#P" n="95"/>quia necessarium non est illud intelligere de
+          <lb ed="#P" n="96"/>effectione simpliciter, seu substantiali, quia
+          <lb ed="#P" n="97"/>per sequentia verba determinatur et limitatur
+          <lb ed="#P" n="98"/>ad accidentalem motionem. Additur enim, e
+          <lb ed="#P" n="99"/>dividant diem ac noctem, et sint in signa, et
+          <lb ed="#P" n="100"/>tempora, etc., ubi particula ef, per particulam
+          <lb ed="#P" n="101"/>ut, explicanda est, quod non est novum in
+          <lb ed="#P" n="102"/>Scriptura. Et in hoc loco observavit Oleaster,
+          <lb ed="#P" n="103"/>et idem sentit Cajetanus, et sumunt ex verbis
+          <lb ed="#P" n="104"/>Hebraeis, quae ad litteram ita habent, erunt 
+          lu<lb break="no" ed="#P" n="105"/>minaria in extensione caelorum, ad dividendum
+          <lb ed="#P" n="106"/>diem. et noctem, etc. ; unde uterque notat, non
+          <lb ed="#P" n="107"/>esse hoc quarto die simpliciter facta luminaria,
+          <pb ed="#P" n="156"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ut sint, sed ad alia munera, quae per verba
+          <lb ed="#P" n="2"/>praedicta explicantur ; quae quidcm officia fiunt
+          <lb ed="#P" n="3"/>a luminaribus mediantibus suis motibus, 
+          ne<lb break="no" ed="#P" n="4"/>que ratione illorum munerum alia qualitate,
+          <lb ed="#P" n="5"/>vel perfectione indigebant.
+        </p>
+        <p xml:id="szdada-y03882-d1e206">
+          <lb ed="#P" n="6"/>2. Dices, divisio diei, et noctis non fit per
+          <lb ed="#P" n="7"/>motum proprium Solis, sed per diurnum, et
+          <lb ed="#P" n="8"/>ideo primo die legimus divisisse Deum diem,
+          <lb ed="#P" n="9"/>et noctem: ergo non recte dicitur, sol factus
+          <lb ed="#P" n="10"/>hoc quarto die quoad hoc munus. Respondetur
+          <lb ed="#P" n="11"/>cum D. Thoma, dicta q. 70, art. 2, ad 3, aliter
+          <lb ed="#P" n="12"/>factam esse divisionem dici, et noctis primo,
+          <lb ed="#P" n="13"/>et quarto die Nam in primo facta est 
+          commu<lb break="no" ed="#P" n="14"/>ni modo. secundum distinctionem solam inter
+          <lb ed="#P" n="15"/>lucem et tenebras, et illo modo verum est
+          <lb ed="#P" n="16"/>fieri distinctionem illam per motum diurnum
+          <lb ed="#P" n="17"/>cum quadam eequalitate et uniformitate; alio
+          <lb ed="#P" n="18"/>vero modo specialiori fit distinctio inter diem
+          <lb ed="#P" n="19"/>et noctem cum quadam varietate, et 
+          inaequa<lb break="no" ed="#P" n="20"/>litate, quatenus aliquando dies sunt majores
+          <lb ed="#P" n="21"/>noctibus, aliquando minores, quod ex propriis
+          <lb ed="#P" n="22"/>motibus astrorum provenit. Dici etiam potest,
+          <lb ed="#P" n="23"/>quod indicavit Cajetanus in primo die 
+          distinc<lb break="no" ed="#P" n="24"/>tonem diei et noctis factam esse tanquam 
+          in<lb break="no" ed="#P" n="25"/>ter lucem et tenebras, hoc autem die factam
+          <lb ed="#P" n="26"/>esse tanquam inter lucem et lucem, quia lux
+          <lb ed="#P" n="27"/>diei est Solis immediate. lux autem noctis est
+          <lb ed="#P" n="28"/>Iumen Iunae et stellarum. Unde paulo post
+          <lb ed="#P" n="29"/>subilitur de luminaribus, ut luceant n 
+          firma<lb break="no" ed="#P" n="30"/>inento cael, et illuninent terram, et iterum:
+          <lb ed="#P" n="31"/>Fecit Deus duo luminaria magna, luminare
+          <lb ed="#P" n="32"/>majus ut praeesset diei, et luminare minus ut
+          <lb ed="#P" n="33"/>praeesset noct?, et s'ellas. Nam ilud preeesse
+          <lb ed="#P" n="34"/>optime intelligitur, quoad illuminationem.
+          <lb ed="#P" n="35"/>Recte ergo intelligitur distinctio illa inter
+          <lb ed="#P" n="36"/>diem, et noctem quoad ntriusque lumen 
+          fac<lb break="no" ed="#P" n="37"/>tam esse. Unde consequenter etiam potest dici
+          <lb ed="#P" n="38"/>facta distinctio quoad virtutem influendi, nam
+          <lb ed="#P" n="39"/>in die Solis influentia cfficacior est, in nocte
+          <lb ed="#P" n="40"/>vero lunae, et stellarum actio magis viget.
+          <lb ed="#P" n="41"/>Quia vero paulo post iterum dicitur, posita
+          <lb ed="#P" n="42"/>esse luminaria, ut lucerent super terram, et
+          <lb ed="#P" n="43"/>praeessent diei, ac nocti, et dividerent lucem, ac
+          <lb ed="#P" n="44"/>tenebras: negari non debet, aut potest, quod
+          <lb ed="#P" n="45"/>D. Thomas dixit, factam esse hoc die speciali
+          <lb ed="#P" n="46"/>mod distinctionem inter lucem ettenebras, sed
+          <lb ed="#P" n="47"/>hoc supposito, explicatur amplius illa specialis
+          <lb ed="#P" n="48"/>distinctio, quia non solum facta est secundum
+          <lb ed="#P" n="49"/>durationem dierum ac noctium, sed etiam 
+          se<lb break="no" ed="#P" n="50"/>cundum lucis et aliarum influentiarum 
+          par<lb break="no" ed="#P" n="51"/>ticipationem.
+        </p>
+        <p xml:id="szdada-y03882-d1e309">
+          <lb ed="#P" n="52"/>3. Expenduntur deinde cerla illa ut sint in
+          <lb ed="#P" n="53"/>signa.— Additur vero etiam esse facta 
+          lumina<lb break="no" ed="#P" n="54"/>ria hoc die, u£ sint in signa. Circa quae verba
+          <lb ed="#P" n="55"/>multa dicta sunt a doctoribus propter antiquos
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>errores, qui de signis coelorum inventi sunt,
+          <lb ed="#P" n="57"/>ct ineptissime in his verbis fundati Aliqui vero
+          <lb ed="#P" n="58"/>sgna haec non proprie de signis 
+          significanti<lb break="no" ed="#P" n="59"/>bus, sed de miraculis, et stupendis operibus 
+          in<lb break="no" ed="#P" n="60"/>terpretantur. Haec enim apud Hebraeos, et 
+          fre<lb break="no" ed="#P" n="61"/>quenter in Scriptura signa vocantur, ut in
+          <lb ed="#P" n="62"/>Exodo, cap.3, etseq., et Deut. 4 et 7, unde est
+          <lb ed="#P" n="63"/>illud Psalmi 73: Signa nostra non vidimus, et
+          <lb ed="#P" n="64"/>Ecclesiast. 36: In nova signa et inmuta 
+          mira<lb break="no" ed="#P" n="65"/>lilia, etc. Et sic Judaei saepe a Christo signa
+          <lb ed="#P" n="66"/>petebant, Matth. 12, Joan. 4. Ipse autem
+          <lb ed="#P" n="67"/>discipulos suos ea facturos promisit et 
+          imple<lb break="no" ed="#P" n="68"/>vit, ut Marci 16, refertur, et Act. 2, 3et 4. Haec
+          <lb ed="#P" n="69"/>tamen significatio non recte huic loco 
+          adapta<lb break="no" ed="#P" n="70"/>tur, quia sol et luna non sunt facta, ut faciant
+          <lb ed="#P" n="71"/>opera prodigiosa, seu miraculosa. Quod si 
+          ali<lb break="no" ed="#P" n="72"/>quando aliqua prodigia facta sunt circa ipsum
+          <lb ed="#P" n="73"/>solem et lunam, ut Josue 10, vel fiunt, ut
+          <lb ed="#P" n="74"/>Isaiae 13, dicitur, non sunt facta sol et luna
+          <lb ed="#P" n="75"/>propter talia signa, sed Deus speciali 
+          provi<lb break="no" ed="#P" n="76"/>dentia propter alios fines illa circa solem et
+          <lb ed="#P" n="77"/>Iunam operatur. Praeterquam quod ipsa non
+          <lb ed="#P" n="78"/>vocantur signa, nisi quatenus divinam 
+          reve<lb break="no" ed="#P" n="79"/>lationem, aut jussionem indicant, vel 
+          promis<lb break="no" ed="#P" n="80"/>sionem confirmant, et ideo talis significatio
+          <lb ed="#P" n="81"/>praesenti operi non recte adaptatur. Nisi forte
+          <lb ed="#P" n="82"/>quis dicat, ipsum solem et lunam, et 
+          concen<lb break="no" ed="#P" n="83"/>tum stellarum cum suis ordinatis motibus 
+          vo<lb break="no" ed="#P" n="84"/>cari signa, quia sunt veluti portenta quaedam,
+          <lb ed="#P" n="85"/>et divinam potentiam maxime significant, 
+          si<lb break="no" ed="#P" n="86"/>cut alibi Propheta regius dixit, Caeli enarrant
+          <lb ed="#P" n="87"/>gloriam Dei, et opera manuum ejus annuntiant
+          <lb ed="#P" n="88"/>fir namentum, etc. Sed hic sensus licet ut 
+          se<lb break="no" ed="#P" n="89"/>cundarius, et spiritualis tolerari possit, non est
+          <lb ed="#P" n="90"/>tamen litteralis; sed nimis metaphoricus, ut
+          <lb ed="#P" n="91"/>per se notum est.
+        </p>
+        <p xml:id="szdada-y03882-d1e400">
+          <lb ed="#P" n="92"/>4. Vera expositio de signis significantibus.—
+          <lb ed="#P" n="93"/>Hujus expositionis modus duplex. — Dicuntur
+          <lb ed="#P" n="94"/>ergo astra facta in signa aliquid significantia
+          <lb ed="#P" n="95"/>hominibus, quod ad communem eorum usum
+          <lb ed="#P" n="96"/>et utilitatem pertineat. Puobus autem modis
+          <lb ed="#P" n="97"/>intelligi potest astra esse signa, scilicet, vel
+          <lb ed="#P" n="98"/>pura signa, id est, habentia munus 
+          significan<lb break="no" ed="#P" n="99"/>di, non fundata in causalitate, seu influentia,
+          <lb ed="#P" n="100"/>sed vel in aliqua impositione, vel in aliqua 
+          ra<lb break="no" ed="#P" n="101"/>tione figurae, seu imaginis: vel certe dici 
+          pos<lb break="no" ed="#P" n="102"/>sunt astra facta esse in signa, quia facta sunt
+          <lb ed="#P" n="103"/>ad influendum, ratione cujus influentiae etiam
+          <lb ed="#P" n="104"/>habent, quod significent. Priorem sensum 
+          se<lb break="no" ed="#P" n="105"/>cutus est Origenes, cujus sententia fuisse 
+          di<lb break="no" ed="#P" n="106"/>citur, omnes effectus futuros in astris tanquam
+          <lb ed="#P" n="107"/>in signis cognosci posse, non tanquam in 
+          cau<lb break="no" ed="#P" n="108"/>sis, sed quia in illis tanquam in imaginibus
+          <lb ed="#P" n="109"/>omnia descripta sunt. Quam sententiam fuisse
+          <lb ed="#P" n="110"/>hominum non mediocriter doctorum, disit
+          <pb ed="#P" n="157"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Augustinus, lib. 5, de Civit., cap. 1, 
+          eamdem<lb break="no" ed="#P" n="2"/>que late refert ex Origene super Genesim,
+          <lb ed="#P" n="3"/>Eusebius, lib. 6, de Praeparat. evangelica, 
+          ca<lb break="no" ed="#P" n="4"/>pite ultimo, ubi formalia verbaOrigenis refert,
+          <lb ed="#P" n="5"/>de quibus non videtur per se dubitari, 
+          quam<lb break="no" ed="#P" n="6"/>vis nunc in homiliis super Genesim, non 
+          inve<lb break="no" ed="#P" n="7"/>niantur.Et in homilia 5, super Jeremiam, 
+          repro<lb break="no" ed="#P" n="8"/>bat quidem Origenistarum errorem dicentium
+          <lb ed="#P" n="9"/>stellas esse causas efficientes, quae omnibus 
+          fu<lb break="no" ed="#P" n="10"/>turis necessitatem imponunt: quod vero sint
+          <lb ed="#P" n="11"/>signa sine causalitate neque affirmat, neque
+          <lb ed="#P" n="12"/>negat. Et ipsemet Fusebius approbando 
+          sen<lb break="no" ed="#P" n="13"/>tentiam Origenis quoad priorem partem, in
+          <lb ed="#P" n="14"/>qua stellis praedictam causalitatem negat, de
+          <lb ed="#P" n="15"/>altera, in qua illis significationem tribuit, 
+          ni<lb break="no" ed="#P" n="16"/>hil dicit. Famdem sententiam tribuit Senecae
+          <lb ed="#P" n="17"/>et Plotino Ludovicus Vives, in scholiis ad 
+          Au<lb break="no" ed="#P" n="18"/>gustinum supra.
+        </p>
+        <p xml:id="szdada-y03882-d1e487">
+          <lb ed="#P" n="19"/>5. Judicium de pradicto empositionis modo.
+          <lb ed="#P" n="20"/>— Et impugnatur primo quoad significationem
+          <lb ed="#P" n="21"/>naturalem. — Verumtamen haec sententia,
+          <lb ed="#P" n="22"/>quamvis aperte non incidat in errorem 
+          Stoico<lb break="no" ed="#P" n="23"/>rum, de fati necessitate, non multum ab illa
+          <lb ed="#P" n="24"/>distat, tum quia secundum rectam 
+          consecu<lb break="no" ed="#P" n="25"/>tionem sine illo subsistere non potest, ut 
+          sta<lb break="no" ed="#P" n="26"/>tim dicam, tum etiam quia incidit in alium
+          <lb ed="#P" n="27"/>errorem, quod futura contingentia ab alio
+          <lb ed="#P" n="28"/>quam a Deo certo cognosci possint, quod est
+          <lb ed="#P" n="29"/>erroneum, ut supra de Angelis diximus 
+          Dein<lb break="no" ed="#P" n="30"/>de est omnino vana illa sententia, quia illa
+          <lb ed="#P" n="31"/>significatio syderum vel est naturalis, ved ad
+          <lb ed="#P" n="32"/>placitum. Priori modo cogitari non potest in
+          <lb ed="#P" n="33"/>stellis respectu omnium futurorum sine 
+          cau<lb break="no" ed="#P" n="34"/>salitate circa illa, quia haec significatio non est
+          <lb ed="#P" n="35"/>nisi vel in effectu respectu caus e, vel in causa
+          <lb ed="#P" n="36"/>respectu effectus, sed steliae non sunt effectus
+          <lb ed="#P" n="37"/>futurorum, ut per se patet: ergo si non sunt
+          <lb ed="#P" n="38"/>causae, non possunt illa naturaliter significare.
+          <lb ed="#P" n="39"/>Major, seu sufficentia partitionis p.obatur,
+          <lb ed="#P" n="40"/>quia inter siguum naturale, et signatam, debet
+          <lb ed="#P" n="41"/>esse aliqua naturalis et necessaria connexio,
+          <lb ed="#P" n="42"/>quae nulla esse potest nisi causae, vel effectus.
+          <lb ed="#P" n="43"/>Nam connexio inter relationem et terininum
+          <lb ed="#P" n="44"/>ad rem non pertinet, ut nunc tanquam clarum
+          <lb ed="#P" n="45"/>suppono. Dices relationem imaginis, seu 
+          simi<lb break="no" ed="#P" n="46"/>litudinis ad hoc posse conferre. Respondeo
+          <lb ed="#P" n="47"/>imprimis vanum esse fingere in astris et 
+          stel<lb break="no" ed="#P" n="48"/>lis hanc formalem repraesentationem omnium
+          <lb ed="#P" n="49"/>futurorum, cum revera nullasit, imo nec mente
+          <lb ed="#P" n="50"/>sua cogitari possit; et deinde talis 
+          repraesen<lb break="no" ed="#P" n="51"/>tatio non fit per propriam relationem 
+          praedi<lb break="no" ed="#P" n="52"/>camentalem similitudinis, vel imaginis, sed
+          <lb ed="#P" n="53"/>per ipsam figuram, vel formam, in qua talis
+          <lb ed="#P" n="54"/>relatio fundari potest, et ideo per hujusmoli
+          <lb ed="#P" n="55"/>repraesentationem imaginis, nisi ratio causae,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vel effectus illi adjungatur, cognosci non 
+          po<lb break="no" ed="#P" n="57"/>test an res repraesentata sit, fuerit, vel futura
+          <lb ed="#P" n="58"/>sit: ergo, etiamsi fingendi tales imagines in
+          <lb ed="#P" n="59"/>ccelis licentia detur, non poterunt esse signa
+          <lb ed="#P" n="60"/>naturalia futurorum, ut futura sunt.
+        </p>
+        <p xml:id="szdada-y03882-d1e583">
+          <lb ed="#P" n="61"/>6. Impugnatur deinde quoad significationem
+          <lb ed="#P" n="62"/>ad placitum.—CQuod si haec significatio dicatur
+          <lb ed="#P" n="63"/>esse ad placitum, non minus facile tanquam
+          <lb ed="#P" n="64"/>vana refelletur. Quia illa significatio ad 
+          placi<lb break="no" ed="#P" n="65"/>tum, solum esse posset ex impositione Dei,
+          <lb ed="#P" n="66"/>quia nullus alius cognoscit omnia futura, 
+          prae<lb break="no" ed="#P" n="67"/>sertim contingentia, neque aliqua creatura
+          <lb ed="#P" n="68"/>tantam in universo auctoritatem habet, ut 
+          ta<lb break="no" ed="#P" n="69"/>lia signa instituere potuerit: nullus autem 
+          po<lb break="no" ed="#P" n="70"/>test cum fundamento dicere Deum talia signa
+          <lb ed="#P" n="71"/>imposuisse. Ubi enim Deus hoc revelavit? Aut
+          <lb ed="#P" n="72"/>quis sine revelatione posset talis impositionis
+          <lb ed="#P" n="73"/>habere notitiam? Vel quis erit usus talis 
+          signi<lb break="no" ed="#P" n="74"/>ficationis, si impositio illius nemini revelata
+          <lb ed="#P" n="75"/>est? Cum ergo sit certum Deum hujusmodi
+          <lb ed="#P" n="76"/>significationem, vel impositionem hominibus
+          <lb ed="#P" n="77"/>non revelasse, vana et ridicula est talium 
+          si<lb break="no" ed="#P" n="78"/>guorum assertio. Responderi potest ex Origene
+          <lb ed="#P" n="79"/>apud Eusebium hanc significationem, non 
+          ho<lb break="no" ed="#P" n="80"/>minibus, ced Angelis, notam esse, et per illos
+          <lb ed="#P" n="81"/>hominibus aliquibus non integre, sed ex parte
+          <lb ed="#P" n="82"/>innotuisse. At isti non hoc somniarunt, vel
+          <lb ed="#P" n="83"/>crediderunt, nisi a malis angelis illusi ita 
+          sen<lb break="no" ed="#P" n="84"/>serunt. Unde quantum erroris est in adhibenda
+          <lb ed="#P" n="85"/>fide daemoniis et in utendo eorum consortio et
+          <lb ed="#P" n="86"/>confabulatione, tantum erroris et vanitatis est
+          <lb ed="#P" n="87"/>in illa responsione; et praeterea repugnat ille
+          <lb ed="#P" n="88"/>error Scripturis dicentibus, solum Deum 
+          om<lb break="no" ed="#P" n="89"/>nia futura cognoscere. Dicet fortasse aliquis,
+          <lb ed="#P" n="90"/>per hoc non excludi, quin per divinam 
+          revela<lb break="no" ed="#P" n="91"/>tionem Angeli ea cognoscere potuerint. 
+          Res<lb break="no" ed="#P" n="92"/>pondetur vanum esse et erroneum, hanc 
+          no<lb break="no" ed="#P" n="93"/>titiam per revelationem factam in talibus signis
+          <lb ed="#P" n="94"/>omnibus Anggelis, et de omnibus futuris 
+          ascri<lb break="no" ed="#P" n="95"/>bere, alioqui haec scientia omnibus AngeLs
+          <lb ed="#P" n="96"/>quasi ordinaria lege conveniret, quod plane
+          <lb ed="#P" n="97"/>repugnat modo loquendi Scripturarum Ac 
+          de<lb break="no" ed="#P" n="98"/>nique quod ad verba Genesis attinet, cum ibi
+          <lb ed="#P" n="99"/>dicitur, ut sint in signa, sermo est respectu
+          <lb ed="#P" n="100"/>hominum, non Angelorum, et de sguis 
+          natu<lb break="no" ed="#P" n="101"/>ralibus, non de supernaturalibus. Unde recte
+          <lb ed="#P" n="102"/>dixit Augustinus, lib. 2, Gen. ad litter., c. 14:
+          <lb ed="#P" n="103"/>Cum dicit de sideribus, ut siut in sgna, non
+          <lb ed="#P" n="104"/>illa dicit, quee observeare vanitatis cst, sed 
+          uti<lb break="no" ed="#P" n="105"/>que utilia, et hujus vitee usibus necessaria.
+        </p>
+        <p xml:id="szdada-y03882-d1e683">
+          <lb ed="#P" n="106"/>7. Refellitur preeterea sguificatio astrorum
+          <lb ed="#P" n="107"/>quam fundetur ip ipsorum causulitate, seu 
+          in<lb break="no" ed="#P" n="108"/>fluxu. — Et hinc facile etiam refutatur error
+          <lb ed="#P" n="109"/>antiquorum Gentilium et haereticorum, qui
+          <lb ed="#P" n="110"/>hanc significationem in causalitate fundatam
+          <pb ed="#P" n="158"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>stellis tribuerunt respectu omnium eventuum
+          <lb ed="#P" n="2"/>futurorum, etiam illorum, quae a voluntate
+          <lb ed="#P" n="3"/>humana, vel angelica pendent. Nam hic error,
+          <lb ed="#P" n="4"/>et libertati arbitrii, et immaterialitati humanae
+          <lb ed="#P" n="5"/>voluntatis repugnat, quia non possunt corpora
+          <lb ed="#P" n="6"/>in spiritu agere, nec voluntatem libertate sua
+          <lb ed="#P" n="7"/>privare. De qua re in locis aliis ex professo
+          <lb ed="#P" n="8"/>tractatur, et ideo hic adnotare sufficiat hunc
+          <lb ed="#P" n="9"/>errorem damnatum esse a Leone papa, Ep. 91,
+          <lb ed="#P" n="10"/>alias 93, ad Turivium, cap. 11, et in Concilio
+          <lb ed="#P" n="11"/>Bracharensi 1, cap. 9, et impugnari late ab
+          <lb ed="#P" n="12"/>Origene et Eusebio supra, et Augustino, dicto
+          <lb ed="#P" n="13"/>lib. 4, de Civit, et D. Thoma, in opusc. 26, de
+          <lb ed="#P" n="14"/>Judiciis, seu indiciis astrorum, et multis aliis,
+          <lb ed="#P" n="15"/>qui contra Fatum scripserunt. Quocirca verum
+          <lb ed="#P" n="16"/>quidem est significationem luminarium 
+          fun<lb break="no" ed="#P" n="17"/>datam esse in causalitate, ut tradit D. Thomas,
+          <lb ed="#P" n="18"/>dicta quaest. 70, art. 2, ad 2. Ubi etiam 
+          adver<lb break="no" ed="#P" n="19"/>tit, non ideo esse dicta signa, quia non sint
+          <lb ed="#P" n="20"/>causae, nam significatio non excludit 
+          causalita<lb break="no" ed="#P" n="21"/>tem, sed potius interdum in ea fundatur, Sed
+          <lb ed="#P" n="22"/>dicta (inquit) sunt potius signa, quam causm,
+          <lb ed="#P" n="23"/>ut occasio idololatrieetolleretur. Winc tamen 
+          op<lb break="no" ed="#P" n="24"/>time concluditur astra non esse signa omnium
+          <lb ed="#P" n="25"/>futurorum, sed illorum quos facere possunt,
+          <lb ed="#P" n="26"/>quosque cursu suo naturaliter et ordinarie
+          <lb ed="#P" n="27"/>efficiunt. Et quia istorum effectuum varietas
+          <lb ed="#P" n="28"/>ex propriis motibus ceelorum, et ex diversis
+          <lb ed="#P" n="29"/>aspectibus et conjunctionibus astrorum, quae
+          <lb ed="#P" n="30"/>per eosdem motus fiunt, onuntur: ideo ratione
+          <lb ed="#P" n="31"/>eorumdem motuum dictum est, luminaria 
+          fac<lb break="no" ed="#P" n="32"/>ta esse, ut sint in signa, ut Augustinus et divus
+          <lb ed="#P" n="33"/>Thomas supra notarunt. Et hoc modo 
+          signifi<lb break="no" ed="#P" n="34"/>catio illa ad hominum utilitatem ordinata est,
+          <lb ed="#P" n="35"/>quia per illa discernunt homines 
+          opportunita<lb break="no" ed="#P" n="36"/>tem negotiorum, vel actionum, quam nautae
+          <lb ed="#P" n="37"/>observant ad navigandum, et agricolae ad 
+          se<lb break="no" ed="#P" n="38"/>minandum, et alii ad caetera negotia 
+          praevi<lb break="no" ed="#P" n="39"/>dendo temporum qualitates, ut pluviae, aut
+          <lb ed="#P" n="40"/>serenitatis, frigoris, aut caloris, etc.
+        </p>
+        <p xml:id="szdada-y03882-d1e787">
+          <lb ed="#P" n="41"/>8. Exponitur ter(io loco dictio n tempora.—
+          <lb ed="#P" n="42"/>Exponuntur quarto loco cerba, in dies et 
+          an<lb break="no" ed="#P" n="43"/>nos. — Ex quibus facile exponitur, quo sensu
+          <lb ed="#P" n="44"/>dicantur astra hoc die non solum in signa, sed
+          <lb ed="#P" n="45"/>etiam in tempora. lstae enim duae particulae
+          <lb ed="#P" n="46"/>possunt facile ad idem referri, ita ut posterior
+          <lb ed="#P" n="47"/>priorem exponat, nam astra facta sunt in signa
+          <lb ed="#P" n="48"/>diversorum temporum, non solum quoad 
+          mo<lb break="no" ed="#P" n="49"/>ras, sed etiam quoad qualitates eorum, nam
+          <lb ed="#P" n="50"/>signant tempus aestatis, hiemis, etc. Ita fere
+          <lb ed="#P" n="51"/>exponit Augustinus, dicto lib. 2, de Gen. cont.
+          <lb ed="#P" n="52"/>Manich. cap. 14. Et in Imperfecto, cap. 13, et
+          <lb ed="#P" n="53"/>lib. 1, de Gen. contra Manich. cap. 13 et 14,
+          <lb ed="#P" n="54"/>et idem sensit Chrysostomus, homil. 4, et 
+          Ba<lb break="no" ed="#P" n="55"/>silius, hom. 6, in Gen. et Hugo de S. Victore,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Annotationib. in Gen., cap. 7, et ibi alii, quos
+          <lb ed="#P" n="57"/>Lypomanus, in Caten., refert, nec dissentit
+          <lb ed="#P" n="58"/>D. Thomas supra. Possunt vero illae duae 
+          par<lb break="no" ed="#P" n="59"/>ticulae etiam ad diversa referri, nam astra 
+          si<lb break="no" ed="#P" n="60"/>gnant varios effectus suos, ut dictum est, 
+          con<lb break="no" ed="#P" n="61"/>stituunt autem vicissitudines temporum 
+          aesta<lb break="no" ed="#P" n="62"/>tis, hiemis, etc., et ideo specialiter dicuntur
+          <lb ed="#P" n="63"/>facta, ut sint in tempora. Omitto expositionem
+          <lb ed="#P" n="64"/>dicentium, per tempora intelligi illa, quae 
+          fes<lb break="no" ed="#P" n="65"/>tis et solemnitatibus deputantur, quia alienam
+          <lb ed="#P" n="66"/>ab hoc loco censeo. Additur vero, et dies, et
+          <lb ed="#P" n="67"/>annos, quos usitate novimus (inquit Augnstinus
+          <lb ed="#P" n="68"/>supra) qui non fierent, nisi motibus siderum,
+          <lb ed="#P" n="69"/>utique propriis, sicut de diebus supra 
+          explica<lb break="no" ed="#P" n="70"/>tum est, et de annis constat, quia per proprium
+          <lb ed="#P" n="71"/>Solis motum constituuntur. Omittuntur autem
+          <lb ed="#P" n="72"/>menses, quia sub annis (ut quidam volunt)
+          <lb ed="#P" n="73"/>comprehenduntur: nam annus in quadam 
+          si<lb break="no" ed="#P" n="74"/>gnificatione dicitur integra conversio propria
+          <lb ed="#P" n="75"/>cujuscumque planetae, et quia conversio luna
+          <lb ed="#P" n="76"/>uno mense perficitur, ideo menses sub annis
+          <lb ed="#P" n="77"/>comprehenduntur. Sed hoc non admodum 
+          pla<lb break="no" ed="#P" n="78"/>cet, quia illa acceptio agni, mihi est valde 
+          in<lb break="no" ed="#P" n="79"/>certa, nec in Scriptura ejus fundamentum 
+          in<lb break="no" ed="#P" n="80"/>venio; imo Hebraei menses lunares 
+          computa<lb break="no" ed="#P" n="81"/>bant, juxta conversionem lunae, et ex eis lunares
+          <lb ed="#P" n="82"/>annos conficiebant. Unde facilius dicitur 
+          men<lb break="no" ed="#P" n="83"/>ses fuisse omissos, quia in anno solari ad 
+          pla<lb break="no" ed="#P" n="84"/>citum hominum divisi sunt, ob quam rationem
+          <lb ed="#P" n="85"/>etiam horae sunt praetermissae.
+        </p>
+        <p xml:id="szdada-y03882-d1e890">
+          <lb ed="#P" n="86"/>9. Explanantur quinto loco verba, duo 
+          lu<lb break="no" ed="#P" n="87"/>minaria magna, quae de Sole et luna 
+          proferun<lb break="no" ed="#P" n="88"/>tur.—Ultimo inquiri solet hoc loco, quo sensu
+          <lb ed="#P" n="89"/>sol et luna duo magna luminaria dicantur 
+          in<lb break="no" ed="#P" n="90"/>ter ea, quae fecit Deus, qua occasione de horum
+          <lb ed="#P" n="91"/>et aliorum astrorum magnitudine posset hoc
+          <lb ed="#P" n="92"/>loco disputari. Sed hoc astrologis et 
+          philoso<lb break="no" ed="#P" n="93"/>phis relinquimus, ac hreviter dicimus in re
+          <lb ed="#P" n="94"/>quidem ipsa solem fortasse esse absolute
+          <lb ed="#P" n="95"/>maximum inter astra omnia, ut accurate 
+          decla<lb break="no" ed="#P" n="96"/>rat Pererius, tom. 1, in fine quarta diei, et
+          <lb ed="#P" n="97"/>Conimbricenses, 2 lib., de Coelo, cap. 12, q.1,
+          <lb ed="#P" n="98"/>art. 3. At vero luna absolute non habet 
+          secun<lb break="no" ed="#P" n="99"/>dum magnitudinis locum, ut est constans apud
+          <lb ed="#P" n="100"/>philosophos, et ideo solum res; ectu nostri 
+          di<lb break="no" ed="#P" n="101"/>citur secundum luminare magnum, utique
+          <lb ed="#P" n="102"/>formaliter (ut ita dicam) seu in lucendo. Quia
+          <lb ed="#P" n="103"/>per diem neque luna, neque aliae stellae lucent,
+          <lb ed="#P" n="104"/>propter Solis eminentiam; in nocte vero iuna
+          <lb ed="#P" n="105"/>magis, quam aliae stellae nobis lucet, vel 
+          pro<lb break="no" ed="#P" n="106"/>pter majorem propinquitatem, vel propter 
+          ma<lb break="no" ed="#P" n="107"/>jorem densitatem, et aptitudinem, quam ad
+          <lb ed="#P" n="108"/>Iucendum habet. Et ita sensit Basulius, homil. 6,
+          <lb ed="#P" n="109"/>in Exaemer., et Chiysostomus. homil. 7, in
+          <lb ed="#P" n="110"/>Gen., sicque intelligendus est Augustinus, l. 2,
+          <pb ed="#P" n="159"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>de Gen. ad litter. cap. 16. Addi potest lunam
+          <lb ed="#P" n="2"/>etiam eminere in illis muneribus, ad quae 
+          lu<lb break="no" ed="#P" n="3"/>minaria hoc die facta esse dicuntur. Nam vel
+          <lb ed="#P" n="4"/>propter majorem vim illuminandi terram, vel
+          <lb ed="#P" n="5"/>propter alias etiam qualitates sibi 
+          connatura<lb break="no" ed="#P" n="6"/>les majorem habet influentiam in omnium
+          <lb ed="#P" n="7"/>mixtorum generationem, et in corpora 
+          huma<lb break="no" ed="#P" n="8"/>na, quam caeteri planetae, praeter solem; et
+          <lb ed="#P" n="9"/>ideo inter signa coclestia horum naturalium 
+          ef<lb break="no" ed="#P" n="10"/>fectuum, post solem principatum habet: et ob
+          <lb ed="#P" n="11"/>eamdem rationem magis est in tempora, et
+          <lb ed="#P" n="12"/>dies, et annos, quam reliqui planetae, utique
+          <lb ed="#P" n="13"/>post solem. Unde secundum illum etiam 
+          men<lb break="no" ed="#P" n="14"/>ses, et anni a multis nationibus 
+          connumeran<lb break="no" ed="#P" n="15"/>tur, et ad distinguenda tempora in ordine ad
+          <lb ed="#P" n="16"/>piures actiones humanas, praesertim ad opera
+          <lb ed="#P" n="17"/>medicinae, vel agriculturae, aut navigationis,
+          <lb ed="#P" n="18"/>augmenta, vel diminutiones lunae plurimum
+          <lb ed="#P" n="19"/>considerantur: propter has ergo causas luna
+          <lb ed="#P" n="20"/>dicta est luminare minus, et in secundo gradu
+          <lb ed="#P" n="21"/>post solem collocatur.
+        </p>
+        <p xml:id="szdada-y03882-d1e997">
+          <lb ed="#P" n="22"/>10. In plenilunione, an statu alio sit luna
+          <lb ed="#P" n="23"/>creata.—A uctoris judiciumn.—bHhac denique 
+          oc<lb break="no" ed="#P" n="24"/>casione dubitari hic solet, in quo statu 
+          au<lb break="no" ed="#P" n="25"/>gmenti, vel decrementi luminis luna creata
+          <lb ed="#P" n="26"/>fuerit. Quod attingit D. Thomas, dicta q. 70,
+          <lb ed="#P" n="27"/>art. 2, ad 5, ubi probabile censet factum esse
+          <lb ed="#P" n="28"/>plenam, quia illa est perfecta ejus dispositio,
+          <lb ed="#P" n="29"/>praesertim ad lucendum in nocte. Quae fuit
+          <lb ed="#P" n="30"/>sententia Bedae, in Exaemer., et lib. de Ratione
+          <lb ed="#P" n="31"/>temporum. Procopius, in caput 1 Gen., 
+          Da<lb break="no" ed="#P" n="32"/>mascenus 1, de Fide orthod., cap. 7, et 
+          Abu<lb break="no" ed="#P" n="33"/>lensis, Gen. 1, q. 25. At vero Augustinus, 1. 2,
+          <lb ed="#P" n="34"/>Gen. ad litter., cap. 15, probabile censet, 
+          fac<lb break="no" ed="#P" n="35"/>tam esse initio sui luminis, quia debuit 
+          inci<lb break="no" ed="#P" n="36"/>pere in principio sui mensis, seu conversionis
+          <lb ed="#P" n="37"/>suge, secundum motum proprium et respectu
+          <lb ed="#P" n="38"/>nostri ; alioqui non in prima luna, sed in 
+          de<lb break="no" ed="#P" n="39"/>cima quarta moveri coepisset. Et ad rationem
+          <lb ed="#P" n="40"/>in contrarium virtute respondet, sive primam,
+          <lb ed="#P" n="41"/>sive plenam lunam Deus fecerit, fecisse 
+          perfec<lb break="no" ed="#P" n="42"/>ta. Tandem vero nihil determinat, sed rem
+          <lb ed="#P" n="43"/>indecisam relinquit. Unde non defuerunt, qui
+          <lb ed="#P" n="44"/>mediam viam tenuerint, dicentes lunam 
+          fac<lb break="no" ed="#P" n="45"/>tam esse in quarta parte sui augmenti, id est,
+          <lb ed="#P" n="46"/>in ea dispositione, quam in septimo die 
+          ha<lb break="no" ed="#P" n="47"/>bere solet. Quia tunc oritur supra nostrum
+          <lb ed="#P" n="48"/>horizontem, quando sol occidit, et ita poterat
+          <lb ed="#P" n="49"/>totam noctem illuminare, atque ita statim 
+          exe<lb break="no" ed="#P" n="50"/>qui munus suum per illa verba explicatum,
+          <lb ed="#P" n="51"/>ut praesset nocti, quod facere non potuisset,
+          <lb ed="#P" n="52"/>si in prima luna creata fuisset, et aliunde 
+          con<lb break="no" ed="#P" n="53"/>venientius videtur, ut post illud initium non
+          <lb ed="#P" n="54"/>statim decresceret, ut necessarium fuisset, si
+          <lb ed="#P" n="55"/>plena creatà esset, sed potius, ut per aliquod
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dies continue augeretur. Sed in hacreliberum
+          <lb ed="#P" n="57"/>est unicuique, quod voluerit sentire, quia ex
+          <lb ed="#P" n="58"/>scriptura, vel Patribus nihil habemus, et 
+          ra<lb break="no" ed="#P" n="59"/>tionis non multum cogunt.
+        </p>
+        <p xml:id="szdada-y03882-d1e1084">
+          <lb ed="#P" n="60"/>11. Enodantur ultimo loco verba, Et posuit
+          <lb ed="#P" n="61"/>eas in firmamento.—Supersunt tantum 
+          expli<lb break="no" ed="#P" n="62"/>canda verba illa, quae supra cap. 5, num. 14,
+          <lb ed="#P" n="63"/>in hunc locum remisimus, et posuit eas (scilicet
+          <lb ed="#P" n="64"/>stellas) in firmamento celi. In quibus duae 
+          sta<lb break="no" ed="#P" n="65"/>tim occuriunt difficuliates. Prima est supra
+          <lb ed="#P" n="66"/>posita, quia in opere secundi diei nomine 
+          fir<lb break="no" ed="#P" n="67"/>mamenti aerem exposuimus: quomodo ergo
+          <lb ed="#P" n="68"/>nunc potuerunt stelae in firmamento poni?
+          <lb ed="#P" n="69"/>Sed ad hoc breviter dicendum est nomine 
+          ir<lb break="no" ed="#P" n="70"/>mamenti intelligi totam expansionem 
+          corpo<lb break="no" ed="#P" n="71"/>rum diaphanorum ab octava sphaera usque ad
+          <lb ed="#P" n="72"/>terram: etita juxta lectionem Hebraicam 
+          pro<lb break="no" ed="#P" n="73"/>prie vertitur, posuit ste las in extensione 
+          caelo<lb break="no" ed="#P" n="74"/>rin. Unde quia firmamentum sic sumptum
+          <lb ed="#P" n="75"/>plura corpora comprehendit, interdum aliquid
+          <lb ed="#P" n="76"/>ei tribuitur ratione unius, interdum vero 
+          ra<lb break="no" ed="#P" n="77"/>tione alterius: et ita in praesenti dicuntur
+          <lb ed="#P" n="78"/>stellae positae in firmamento, quia sunt positae
+          <lb ed="#P" n="79"/>in superiori parte ejus, et denotatum est 
+          om<lb break="no" ed="#P" n="80"/>nes stellas esse sub primo mobili. Quae 
+          exposi<lb break="no" ed="#P" n="81"/>tio communiter recepta est, ut videre licet in
+          <lb ed="#P" n="82"/>Lypomano, Cajetano, Pererio et aliis.
+        </p>
+        <p xml:id="szdada-y03882-d1e1136">
+          <lb ed="#P" n="83"/>12. Altera difficultas est circa verba, posuit
+          <lb ed="#P" n="84"/>eas in firnamento, nam videntur significare,
+          <lb ed="#P" n="85"/>prius fuisse firmamentum, et postea Deum
+          <lb ed="#P" n="86"/>stellas in illo posuisse. Respondemus tamen,
+          <lb ed="#P" n="87"/>non esse existimandum posuisse Deum stellas
+          <lb ed="#P" n="88"/>in ceelo, tanquam in subjecto proprio, aut 
+          tan<lb break="no" ed="#P" n="89"/>quam in loco extrinseco, sed tanquam partes
+          <lb ed="#P" n="90"/>in toto, cui uniuntur, et cum quo locum 
+          ha<lb break="no" ed="#P" n="91"/>bent. Sicut ergo partes ponuntur in toto non
+          <lb ed="#P" n="92"/>praeexistente, sed quando ipsum producitur,
+          <lb ed="#P" n="93"/>ita Deus tunc posuit stellas in firmamento,
+          <lb ed="#P" n="94"/>quando coelum illis constans et compositum
+          <lb ed="#P" n="95"/>creavit, et ita in principio sui operis illas 
+          po<lb break="no" ed="#P" n="96"/>suit. Hoc autem quarto die, vel illud per 
+          ca<lb break="no" ed="#P" n="97"/>pitulationem reperitur, ut aliquid addatur, vel
+          <lb ed="#P" n="98"/>dicuntur hodie stellae positae in firmamento,
+          <lb ed="#P" n="99"/>non simphliciter, sed ut lucerent super terram;
+          <lb ed="#P" n="100"/>nam antea super aquas lucebant: hoc autem
+          <lb ed="#P" n="101"/>die, cum jam terra esset aquis discooperta, 
+          su<lb break="no" ed="#P" n="102"/>per illam coeperunt lucere, non utceumque, sed
+          <lb ed="#P" n="103"/>determinato modo, et cum certa varietate, et
+          <lb ed="#P" n="104"/>influentia, ut explicatum est.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

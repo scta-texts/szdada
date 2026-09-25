@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="733"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y18030"><!-- t3l4c5 -->
+        <head xml:id="szdada-y18030-Hd1e101">Caput 5</head>
+        <head xml:id="szdada-y18030-Hd1e103" type="question-title">Quomodo intellectus cognoscat seipsum, animam, et quae in ipsa reperiuntur</head>
+        <p xml:id="szdada-y18030-d1e106">
+          <lb ed="#P" n="95"/>CAPUT V.
+          <lb ed="#P" n="96"/>QUOMODO INTELLECTUS COGNOSCAT SEIPSUM, ANIMAM,
+          <lb ed="#P" n="97"/>ET QUAE IN IPSA REPERIUNTUR.
+        </p>
+        <p xml:id="szdada-y18030-d1e115">
+          <lb ed="#P" n="98"/>1. Arguitur in utramque partem.—Platonis
+          <lb ed="#P" n="99"/>et aliorum opinio in hac quaestione.—
+          Impwgna<lb break="no" ed="#P" n="100"/>tur. — In hac quaestione speciatim loquimur
+          <lb ed="#P" n="101"/>de anima rationali, ac de his, quae illi 
+          inhae<lb break="no" ed="#P" n="102"/>rent: sunt autem potentiae actus et habitus
+          <lb ed="#P" n="103"/>spirituales. Ac ratio dubii est, quia cum 
+          om<lb break="no" ed="#P" n="104"/>nia haec spiritualia sint, atque adeo actu 
+          in<lb break="no" ed="#P" n="105"/>telligibilia, poterunt sane per seipsa cognosci,
+          <lb ed="#P" n="106"/>neqne indigebunt ulla specie, aut extrinseco
+          <lb ed="#P" n="107"/>aliquo, ut cognoscantur: hac enim de causa
+          <pb ed="#P" n="734"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ita rectius sentiunt theologi de Angelis 
+          dispu<lb break="no" ed="#P" n="2"/>tantes. In contrarium vero est, quia si 
+          intel<lb break="no" ed="#P" n="3"/>lectus ita seipsum, animamque cognosceret,
+          <lb ed="#P" n="4"/>aperte omnino, atque perfecte cognosceret,
+          <lb ed="#P" n="5"/>imo et jugiter in actualem cognitionem 
+          in<lb break="no" ed="#P" n="6"/>cumberet: utrumque autem est contra 
+          expe<lb break="no" ed="#P" n="7"/>rientiam: ergo, etc. Propter haec non 
+          defue<lb break="no" ed="#P" n="8"/>runt, qui dicerent, animam seipsam perpetuo
+          <lb ed="#P" n="9"/>cognoscere et intelligere, quod tenuit Plato in
+          <lb ed="#P" n="10"/>Alcibiade, sic explicans illud Delphici 
+          oracu<lb break="no" ed="#P" n="11"/>lum. Nosce teipsum: quod videtur amplecti
+          <lb ed="#P" n="12"/>D. Augustinus 10, de Trinitate, per totum,
+          <lb ed="#P" n="13"/>praecipue cap. 89, et lib. 14 cap. 8et 10. Idem
+          <lb ed="#P" n="14"/>sentit Ariminensis, in 1, dist. 5, q. 2, Picus
+          <lb ed="#P" n="15"/>Mirandula, in suis conclusionibus. Haec tamen
+          <lb ed="#P" n="16"/>opinatio contra experientiam militat, nullus
+          <lb ed="#P" n="17"/>enim in se experitur continuatam animae suae
+          <lb ed="#P" n="18"/>cognitionem, quin etiam ignorant plurimi,
+          <lb ed="#P" n="19"/>animam ne habeant: quod vero occurrunt,
+          <lb ed="#P" n="20"/>minime discerni hanc cognitionem ob illius
+          <lb ed="#P" n="21"/>assiduitatem, quasi in ea mens occaluerit, 
+          ri<lb break="no" ed="#P" n="22"/>diculum plane est, et simile placito 
+          Pythago<lb break="no" ed="#P" n="23"/>rico, coelum longe, lateque sonum edere, non
+          <lb ed="#P" n="24"/>audiri vero ad assuetudinem, quod alibi 
+          refel<lb break="no" ed="#P" n="25"/>lendum est: stabilitum sit ergo, animam 
+          nos<lb break="no" ed="#P" n="26"/>tram non semper seipsam cognoscere.
+        </p>
+        <p xml:id="szdada-y18030-d1e200">
+          <lb ed="#P" n="27"/>2. Primum pronuntiatum pro resolutione
+          <lb ed="#P" n="28"/>hujus capitis. — Secundum. — Tertium. — Ex
+          <lb ed="#P" n="29"/>quo sequitur primo ipsam non cognoscere se
+          <lb ed="#P" n="30"/>per suam substantiam: alioquin plane seipsam
+          <lb ed="#P" n="31"/>perpetuo cognosceret, quemadmodum et 
+          An<lb break="no" ed="#P" n="32"/>geli, utendo videlicet substantia pro specie:
+          <lb ed="#P" n="33"/>quod si ita esset, non a sensibus, non ab 
+          in<lb break="no" ed="#P" n="34"/>trinseco alio penderet in intelligendo: quia
+          <lb ed="#P" n="35"/>apud se haberet omnia necessaria ad 
+          cogno<lb break="no" ed="#P" n="36"/>scendum: semper ergo cognosceret, quod est
+          <lb ed="#P" n="37"/>absurdissimum: non ergo se cognoscit per
+          <lb ed="#P" n="38"/>suam substantiam: atque idem est de potentia
+          <lb ed="#P" n="39"/>intellectiva comparatione sui ipsius propter
+          <lb ed="#P" n="40"/>eamdem rationem philosophandum. Hinc 
+          se<lb break="no" ed="#P" n="41"/>cundo sequitur animam ut se cognoscat egere
+          <lb ed="#P" n="42"/>specie superaddita: si namque ex se 
+          suflicien<lb break="no" ed="#P" n="43"/>ter actuata non est, nec habet sufficiens 
+          princi<lb break="no" ed="#P" n="44"/>pium se cognoscendi, actuari oportet principio
+          <lb ed="#P" n="45"/>cognoscendi, sive specie. Unde tertio sequitur,
+          <lb ed="#P" n="46"/>animam neque seipsam, neque suas potentias
+          <lb ed="#P" n="47"/>per proprias species, sed per alienas cognoscere.
+          <lb ed="#P" n="48"/>Nulla quippe species potest ab intellectu agente
+          <lb ed="#P" n="49"/>formari, quae aut animam, aut potentias, prout
+          <lb ed="#P" n="50"/>in se, referat. Ratio est, quia anima non per
+          <lb ed="#P" n="51"/>seipsam, ut diximus, se cognoscit, sed in 
+          co<lb break="no" ed="#P" n="52"/>gnitionem sui devenit per effectus, seu actus
+          <lb ed="#P" n="53"/>proprios: ergo per alienas species, nempe 
+          ip<lb break="no" ed="#P" n="54"/>sorum actuum se intelligit, potentiasque 
+          pro<lb break="no" ed="#P" n="55"/>prias, atque habitus: alioquin si haec omnia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>per ipsorummet essentias attingeret, distincte
+          <lb ed="#P" n="57"/>omnino, atque intuitive intelligeret, quod 
+          ex<lb break="no" ed="#P" n="58"/>perientiee adversatur. Ratio vero horum 
+          om<lb break="no" ed="#P" n="59"/>nium est, quia anima cum spiritualis sit,
+          <lb ed="#P" n="60"/>intellectiva est, quia vero infima est in eo
+          <lb ed="#P" n="61"/>gradu, infima quoque est in ratione 
+          intellec<lb break="no" ed="#P" n="62"/>tivae, insutficienterque actuata, ut intelligatur,
+          <lb ed="#P" n="63"/>unde actualitate aliqua eget, quam in specie
+          <lb ed="#P" n="64"/>assequitur: hoc autem totum provenit ex 
+          de<lb break="no" ed="#P" n="65"/>pendentia, quam habet a sensibus corporis,
+          <lb ed="#P" n="66"/>cujus, ex natura sua, est actus. Quae doctrina
+          <lb ed="#P" n="67"/>tota est D. Thomae, supra a. 1, ac per se aperta
+          <lb ed="#P" n="68"/>satis, Cajetanus vero ibi prolixa quadam 
+          expo<lb break="no" ed="#P" n="69"/>sitione obscurandam reddit, et falsis nonnullis
+          <lb ed="#P" n="70"/>miscet, quale illud, intellectum nostrum non
+          <lb ed="#P" n="71"/>in genere solum intelligibilium, sed etiam 
+          in<lb break="no" ed="#P" n="72"/>tellectivorum esse puram potentiam: hoc enim
+          <lb ed="#P" n="73"/>posterius stare non potest, cum intellectus
+          <lb ed="#P" n="74"/>noster actualiter et essentialiter sit potentia
+          <lb ed="#P" n="75"/>intellectiva: ergo intrinsece vindicat activam
+          <lb ed="#P" n="76"/>vim ad intelligendum, quod etiam patet ex
+          <lb ed="#P" n="77"/>jam dictis, lib. 3, c. 5, non ergo in hoc genere
+          <lb ed="#P" n="78"/>est pura potentia.
+        </p>
+        <p xml:id="szdada-y18030-d1e318">
+          <lb ed="#P" n="79"/>3. Quartum pronuntiatum. — Quintum 
+          pro<lb break="no" ed="#P" n="80"/>nuntiatum. — Unde consequenter (quod jam
+          <lb ed="#P" n="81"/>tetigimus) constat, quo modo anima 
+          cogno<lb break="no" ed="#P" n="82"/>scat habitus sibi inhaerentes, non enim possidet
+          <lb ed="#P" n="83"/>illorum proprias species, sed sicut potentias,
+          <lb ed="#P" n="84"/>ita et habitus, utpote tenentes se ex parte 
+          ea<lb break="no" ed="#P" n="85"/>rum, per actus ipsos faciliter elicitos 
+          cogno<lb break="no" ed="#P" n="86"/>scit. De actibus vero esto quidam velint 
+          co<lb break="no" ed="#P" n="87"/>gnosci per seipsos, non per species, eo quod
+          <lb ed="#P" n="88"/>sint immediate, ac per se conjuncti potentiae
+          <lb ed="#P" n="89"/>intellectivae: nihilominus alii rectius 
+          pronun<lb break="no" ed="#P" n="90"/>tiant cognosci per species. Primo, quia si 
+          in<lb break="no" ed="#P" n="91"/>tellectus per se ipsum se nequit cognoscere,
+          <lb ed="#P" n="92"/>multo minus eos actus, eo modo cognoscet.
+          <lb ed="#P" n="93"/>Secundo, quia transacto actu recordatur 
+          intel<lb break="no" ed="#P" n="94"/>lectus, se hoc vel illud intellexisse: relicta 
+          er<lb break="no" ed="#P" n="95"/>go est in illo species actus, atque adeo per 
+          il<lb break="no" ed="#P" n="96"/>lam cognoscitur. Tertio, si actus per se 
+          cogno<lb break="no" ed="#P" n="97"/>sceretur, apertius utique cognosceretur, quam
+          <lb ed="#P" n="98"/>solet: juxta hanc vero sententiam eo ipso,
+          <lb ed="#P" n="99"/>quod intellectus operatur, resultat in illo 
+          spe<lb break="no" ed="#P" n="100"/>cies talis actus, imperfecta tamen, ut videtur,
+          <lb ed="#P" n="101"/>unde imperfecte confuseque cognoscitur. Ad
+          <lb ed="#P" n="102"/>hunc forte modum sentiendum de cognitione
+          <lb ed="#P" n="103"/>actus voluntatis: itaque quando voluntas exit
+          <lb ed="#P" n="104"/>in actum, fit in intellectu species aliqua illius.
+          <lb ed="#P" n="105"/>Sunt vero qui dicant, actum voluntatis 
+          cogno<lb break="no" ed="#P" n="106"/>sci ab intellectu per eum actum intellectus per
+          <lb ed="#P" n="107"/>quem objectum fuit voluntati propositum:
+          <lb ed="#P" n="108"/>quod mihi non placet: nam facta etiam 
+          pro<lb break="no" ed="#P" n="109"/>positione illa objecti potest adhuc voluntas
+          <lb ed="#P" n="110"/>proprium actum non elicere: non ergo ex vi
+          <pb ed="#P" n="735"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illius valet intellectus actum voluntatis 
+          co<lb break="no" ed="#P" n="2"/>gnoscere: aliud ergo principium est 
+          necessa<lb break="no" ed="#P" n="3"/>rium, quod aliud fingi nequit, quam species.
+          <lb ed="#P" n="4"/>A. Sextum pronuntiatum. — De ipsis 
+          tan<lb break="no" ed="#P" n="5"/>dem speciebus intelligibilibus quidam similiter
+          <lb ed="#P" n="6"/>volunt per seipsos cognosci, quia cum sint
+          <lb ed="#P" n="7"/>principia cognoscendi, alia possunt esse 
+          prin<lb break="no" ed="#P" n="8"/>cipia se cognoscendi. Oppositum tamen censeo
+          <lb ed="#P" n="9"/>verum, alias evidentissime cognoscerentur :
+          <lb ed="#P" n="10"/>quod tamen non ita esse satis intelligitur ex
+          <lb ed="#P" n="11"/>controversia in lib. superiore, c. 2. Itaque dico
+          <lb ed="#P" n="12"/>cognosci ejusmodi species per effectus suos,
+          <lb ed="#P" n="13"/>hoc est, per actus, in quos influunt: namque
+          <lb ed="#P" n="14"/>ex illis colligimus dari species, et non modo
+          <lb ed="#P" n="15"/>alio. Si autem inquiras, cur haec omnia, per
+          <lb ed="#P" n="16"/>quae discurrimus, per seipsa clare, atque 
+          dis<lb break="no" ed="#P" n="17"/>tincte non cognoscantur, cum sint spiritualia,
+          <lb ed="#P" n="18"/>et animae ipsi satis conjuncta, est in promptu
+          <lb ed="#P" n="19"/>ratio: impedimentum scilicet corporis, et 
+          de<lb break="no" ed="#P" n="20"/>pendentiam, quam pro hoc statu habent vires
+          <lb ed="#P" n="21"/>animae spirituales ab ipsis sensibus, unde cum
+          <lb ed="#P" n="22"/>illorum nihil percipiatur sensibus, intellectus
+          <lb ed="#P" n="23"/>etiam formare nequit clarum, distinctumque
+          <lb ed="#P" n="24"/>conceptum earum. Hinc ultimo colligitur,
+          <lb ed="#P" n="25"/>quod Aristoteles 3, de Anima, text. 15, ait in
+          <lb ed="#P" n="26"/>rebus, quae vacant materia, idem esse quod 
+          in<lb break="no" ed="#P" n="27"/>telligit, et quod intelligitur, exponendum esse
+          <lb ed="#P" n="28"/>de iis, quae adeo vacant materia, ut neque 
+          or<lb break="no" ed="#P" n="29"/>dinem habeant ad illam quales sunt 
+          intelligen<lb break="no" ed="#P" n="30"/>tiae, non vero intellectus noster pro hoc statu,
+          <lb ed="#P" n="31"/>de quo proinde ibidem subdit, intelligere 
+          se<lb break="no" ed="#P" n="32"/>met, sicut alia intelligibilia extra ipsum. De
+          <lb ed="#P" n="33"/>cognitione animae respectu sui in statu 
+          sepa<lb break="no" ed="#P" n="34"/>rato infra lib. 6, capite quinto.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="755"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y18565"><!-- t3l5c2 -->
+        <head xml:id="szdada-y18565-Hd1e101">Caput 2</head>
+        <head xml:id="szdada-y18565-Hd1e103" type="question-title">Utrum objectum appetibile debeat necessario esse bonum aliquod</head>
+        <p xml:id="szdada-y18565-d1e106">
+          <lb ed="#P" n="53"/>CAPUT II.
+          <lb ed="#P" n="54"/>UTRUM OBJECTUM APPETIBILE DEBEAT NECESSARIO
+          <lb ed="#P" n="55"/>ESSE BONUM ALIQUOD.
+        </p>
+        <p xml:id="szdada-y18565-d1e115">
+          <lb ed="#P" n="56"/>1. Negantis partis argumentum cum 
+          proba<lb break="no" ed="#P" n="57"/>tione quintuplici. — Secundum argumentum.—
+          <lb ed="#P" n="58"/>Tertium. — Quartum. — Pro negativa parte 
+          ar<lb break="no" ed="#P" n="59"/>guitur primo. Objectum potentiae est circa
+          <lb ed="#P" n="60"/>quod potentia elicit actus, sed appetitus non
+          <lb ed="#P" n="61"/>tantum elicit actus circa bonum, sed etiam
+          <lb ed="#P" n="62"/>circa malum: ergo non bonum, sed aliquid
+          <lb ed="#P" n="63"/>abstrahens a malo et bono est objectum 
+          appe<lb break="no" ed="#P" n="64"/>titus. Minor patet primo in actu odii, qui 
+          ver<lb break="no" ed="#P" n="65"/>satur circa malum, ut malum est. Secundo in
+          <lb ed="#P" n="66"/>actu desiderii, quo alteri malum, ut malum
+          <lb ed="#P" n="67"/>est, similiter expetitur. Tertio damnati 
+          quae<lb break="no" ed="#P" n="68"/>dam volunt ea solum ratione, quia contra 
+          di<lb break="no" ed="#P" n="69"/>vinam voluntatem militant, quae est summa
+          <lb ed="#P" n="70"/>perversitas, ac ratio mali. Quarto voluntas ad
+          <lb ed="#P" n="71"/>experiendam saltem libertatem suam expetere
+          <lb ed="#P" n="72"/>malum potest sub ratione mali. Quinto 
+          dam<lb break="no" ed="#P" n="73"/>nati maxime vellent non esse, atqui non esse
+          <lb ed="#P" n="74"/>merum malum est: ergo, etc. Secundo 
+          prin<lb break="no" ed="#P" n="75"/>cipaliter arguitur. Appetitus respuere valet
+          <lb ed="#P" n="76"/>bonum sibi propositum, ut patet experientia,
+          <lb ed="#P" n="77"/>maxime in libero appetitu: potest ergo 
+          appe<lb break="no" ed="#P" n="78"/>tere malum oppositum sibi. Tertio: potest
+          <lb ed="#P" n="79"/>quispiam etiam effticaciter appetere non esse,
+          <lb ed="#P" n="80"/>ut patet de homine se occidente, at vero in
+          <lb ed="#P" n="81"/>non esse nulla potest inveniri ratio boni, cum
+          <lb ed="#P" n="82"/>bonum ipsum esse praesupponat. Quarto 
+          appe<lb break="no" ed="#P" n="83"/>titus potest ferri circa impossibilia, sed in 
+          im<lb break="no" ed="#P" n="84"/>possibili nulla est ratio boni: ergo, etc.
+        </p>
+        <p xml:id="szdada-y18565-d1e180">
+          <lb ed="#P" n="85"/>2. Opinatio Ochami et aliorum. — In hac
+          <lb ed="#P" n="86"/>quaestione opinio Nominalium fuit, appetitum
+          <lb ed="#P" n="87"/>posse ferri in malum sub ratione mali 
+          appe<lb break="no" ed="#P" n="88"/>tendo illud, quamvis specialiter loquantur de
+          <lb ed="#P" n="89"/>voluntate. Ita Ocham, in 3, dist. 13, dub. 3,
+          <lb ed="#P" n="90"/>Gabriel, in 2, distinct. 6, q. 1, art. 3, dub. 20,
+          <lb ed="#P" n="91"/>Scotus vero, in 1, distinct. 1, quaest. 4, credit
+          <lb ed="#P" n="92"/>non satis probari a theologis voluntatem non
+          <lb ed="#P" n="93"/>nisi bonum velle posse, et in 2, dist. 5, q. 2,
+          <lb ed="#P" n="94"/>sentit Angelos potuisse appetere aequalitatem
+          <lb ed="#P" n="95"/>divinam, quamvis judicarent eam sibi esse
+          <lb ed="#P" n="96"/>impossibilem, et dist. 43, quaest. 3, opinatur
+          <lb ed="#P" n="97"/>peccare ex malitia, nihil esse aliud, quam
+          <lb ed="#P" n="98"/>velle malum, quia malum.
+        </p>
+        <p xml:id="szdada-y18565-d1e214">
+          <lb ed="#P" n="99"/>3. Prima conclusio probatur em Aristotele.—
+          <lb ed="#P" n="100"/>Probatur idem ratione. — Sit tamen conclusio
+          <lb ed="#P" n="101"/>prima. Objectum adaequatum appetitus est 
+          bo<lb break="no" ed="#P" n="102"/>num, vel aliqua boni ratio. Haec habetur ex
+          <lb ed="#P" n="103"/>Aristotele, in princ. Ethic. Unde in 3 libr.,
+          <lb ed="#P" n="104"/>cap. 1, illud celebre pronuntiat, quod omnis
+          <lb ed="#P" n="105"/>pravus fit ignorans, eo quod malum admittat
+          <pb ed="#P" n="756"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sub ratione boni, et lib. 5, cap. 8, amabile
+          <lb ed="#P" n="2"/>quidem esse bonum, unicuique autem 
+          pro<lb break="no" ed="#P" n="3"/>prium: et Seneca, lib. 4, de Beneficus, c. 17,
+          <lb ed="#P" n="4"/>scribit, neminem uspiam adeo a lege naturah
+          <lb ed="#P" n="5"/>discedere, ut animi causa malus sit. D. etiam
+          <lb ed="#P" n="6"/>Dionysius, de Divin. nomin., cap. 4 et 6,
+          <lb ed="#P" n="7"/>Nemo, inquit, malum aspiciens operatur, 
+          sub<lb break="no" ed="#P" n="8"/>scribit D. Thomas, 1, 2, quaest. 8, art. 1, et
+          <lb ed="#P" n="9"/>videtur communis animi conceptio, ac primum
+          <lb ed="#P" n="10"/>principium in morali philosophia, nam bonum
+          <lb ed="#P" n="11"/>et appetibile idem sunt tantumdemque res 
+          ha<lb break="no" ed="#P" n="12"/>bent de appetibilitate, ac de bonitate. Hinc
+          <lb ed="#P" n="13"/>prima principia practica extant, omne malum
+          <lb ed="#P" n="14"/>esse fugiendwm, et omne bonwm esse 
+          prosequen<lb break="no" ed="#P" n="15"/>dum. hatione arguitur, nam impossibile est
+          <lb ed="#P" n="16"/>appetitum naturalem ad malum dari sub 
+          ra<lb break="no" ed="#P" n="17"/>tione mali, quia semper datur ad perfectionem
+          <lb ed="#P" n="18"/>suppositi, atqui appetitus elicitivus datus est
+          <lb ed="#P" n="19"/>animantibus ad appetendum modo perfectiori:
+          <lb ed="#P" n="20"/>ergo impossibile est, quod feratur in malum
+          <lb ed="#P" n="21"/>sub ratione mali, sed tantum ad perfectionem
+          <lb ed="#P" n="22"/>suppositi: alioquin res cognoscentes essent hac
+          <lb ed="#P" n="23"/>in parte deterioris conditionis, quam 
+          inani<lb break="no" ed="#P" n="24"/>mes, quae suapte natura in bonum feruntur.
+          <lb ed="#P" n="25"/>Secundo arguitur inductione. Namque de 
+          ap<lb break="no" ed="#P" n="26"/>petitu sensitivo notum est semper tendere 
+          im<lb break="no" ed="#P" n="27"/>perfectionem suppositi: ac de eo quidem id
+          <lb ed="#P" n="28"/>omnes admittunt, quia cum naturaliter 
+          opere<lb break="no" ed="#P" n="29"/>tur, semper fertur ex inclinatione naturali,
+          <lb ed="#P" n="30"/>quae cum data sit ab auctore Deo, qui summe
+          <lb ed="#P" n="31"/>bonus est, non ad malum esse potest, sed ad
+          <lb ed="#P" n="32"/>bonum sub ratione boni. De voluntate autem
+          <lb ed="#P" n="33"/>idem probatur, ea enim agit, ex nativa 
+          propen<lb break="no" ed="#P" n="34"/>sione, atque universali ad bonum: quando vero
+          <lb ed="#P" n="35"/>fertur ad malum, ideo fertur, quia rationem
+          <lb ed="#P" n="36"/>boni applicat ad particulare, in quo apparet 
+          ra<lb break="no" ed="#P" n="37"/>tio boni, cum vere ibi non existat: procedit
+          <lb ed="#P" n="38"/>ergo etiam tunc sub ratione boni: unde illud.
+        </p>
+        <p xml:id="szdada-y18565-d1e318">
+          <lb ed="#P" n="39"/>Quisquis amat Thaidem, Thaidem putat esse Dianam.
+        </p>
+        <p xml:id="szdada-y18565-d1e323">
+          <lb ed="#P" n="40"/>Tertio arguitur experientia: experimurenim
+          <lb ed="#P" n="41"/>a nobis semper aliquam rationem boni 
+          quae<lb break="no" ed="#P" n="42"/>ri in opere quovis, imo et in perditis 
+          homi<lb break="no" ed="#P" n="43"/>nibus deprehendimus eos mala patrare 
+          prop<lb break="no" ed="#P" n="44"/>ter bonum aliquod. Quarto quod quis 
+          appe<lb break="no" ed="#P" n="45"/>tit, illud quaerit, et illo invento quiescit, ac
+          <lb ed="#P" n="46"/>delectatur: nemo autem quaerit malum, ut
+          <lb ed="#P" n="47"/>sic, vel acquisito malo conquiescit, aut 
+          delec<lb break="no" ed="#P" n="48"/>tatur: non ergo illud valet appetere sub 
+          ra<lb break="no" ed="#P" n="49"/>tione mali. Confirmatur: quia malum ex se
+          <lb ed="#P" n="50"/>fugat appetitum, nec in se habet, cur 
+          appeta<lb break="no" ed="#P" n="51"/>tur, omniaque naturaliter vitant sibi malum.
+          <lb ed="#P" n="52"/>Denique nemo potest appetere non esse 
+          bea<lb break="no" ed="#P" n="53"/>tum: hoc vero non potest, nisi quia malum
+          <lb ed="#P" n="54"/>est. beatum non esse, quare, etc.
+        </p>
+        <p xml:id="szdada-y18565-d1e358">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>4. Notatio prima pro explicanda 
+          conclusio<lb break="no" ed="#P" n="56"/>ne. — Notatio secunda. — Notandum circa
+          <lb ed="#P" n="57"/>conclusionem, quod non simpliciter dixerimus
+          <lb ed="#P" n="58"/>adaequatum objectum appetitus esse bonum,
+          <lb ed="#P" n="59"/>siquidem potentia appetitiva versari potest
+          <lb ed="#P" n="60"/>circa malum, odio habendo illud, ut primum
+          <lb ed="#P" n="61"/>argumentum probat: potentia tamen 
+          appeti<lb break="no" ed="#P" n="62"/>tiva aliter versatur circa bonum, quam circa
+          <lb ed="#P" n="63"/>malum: circa bonum quidem appetendo et
+          <lb ed="#P" n="64"/>inclinando in illud, circa malum autem 
+          reji<lb break="no" ed="#P" n="65"/>ciendo: quia vero actus posterior fundatur in
+          <lb ed="#P" n="66"/>priore (nam ideo odio habetur malum, quia
+          <lb ed="#P" n="67"/>contrariatur bono, unde actus odii quasi per
+          <lb ed="#P" n="68"/>accidens consequitur), ideo objectum 
+          simplici<lb break="no" ed="#P" n="69"/>ter adaequatum potentiae appetitivae, ut 
+          prose<lb break="no" ed="#P" n="70"/>cutivae censetur bonum. Notandum est secundo
+          <lb ed="#P" n="71"/>non esse sensum conclusionis potentiam 
+          appe<lb break="no" ed="#P" n="72"/>titivam habere pro objecto bonum sub absoluta
+          <lb ed="#P" n="73"/>ratione boni, hoc enim proprium est 
+          volunta<lb break="no" ed="#P" n="74"/>tis, ut infra dicetnr: sensus ergo est omnem
+          <lb ed="#P" n="75"/>potentiam appetitivam habere pro objecto 
+          for<lb break="no" ed="#P" n="76"/>mali rationem boni communis, vel 
+          particula<lb break="no" ed="#P" n="77"/>ris: ad hoc enim tendunt rationes factae si 
+          per<lb break="no" ed="#P" n="78"/>pendantur.
+        </p>
+        <p xml:id="szdada-y18565-d1e415">
+          <lb ed="#P" n="79"/>5. Ad primum in n. 1, ejusque probationes
+          <lb ed="#P" n="80"/>quingue. — Concinit auctor, disp. 13 
+          Meta<lb break="no" ed="#P" n="81"/>physice, sect. 6, num. 19. — Ad argumentum
+          <lb ed="#P" n="82"/>primum initio capitis respondendum negando
+          <lb ed="#P" n="83"/>majorem, prima vero minoris probatio 
+          expe<lb break="no" ed="#P" n="84"/>dita est. Ad secundam dicito impossibile esse
+          <lb ed="#P" n="85"/>velle malum alteri, nisi in objecto, vel in actu
+          <lb ed="#P" n="86"/>reperiatur aliqua ratio boni: sic Deus vult
+          <lb ed="#P" n="87"/>malum poenae in justis, quia in tali actu 
+          repe<lb break="no" ed="#P" n="88"/>ritur bonum justitia, et ita de similibus. Ad
+          <lb ed="#P" n="89"/>tertiam, esse contra voluntatem Dei: ratio
+          <lb ed="#P" n="90"/>quidem formalis est mali inhonesti, id tamen
+          <lb ed="#P" n="91"/>malum appetit damnatus vestitum velamine
+          <lb ed="#P" n="92"/>vindictae, quam sumere conatur de Deo: quia
+          <lb ed="#P" n="93"/>vero in hoc explet appetitum: quem de malo
+          <lb ed="#P" n="94"/>divino elicit, ideo ibi invenit aliquam boni 
+          ra<lb break="no" ed="#P" n="95"/>tionem. Ad quartum respondetur id falsum
+          <lb ed="#P" n="96"/>esse, et impossibile, cum voluntasferri nequeat
+          <lb ed="#P" n="97"/>extra suum objectum, imo in illo actu cernitur
+          <lb ed="#P" n="98"/>quaedam implicatio, cum experientia 
+          liberta<lb break="no" ed="#P" n="99"/>tis quiddam sit bonum: qua ergo ratione in
+          <lb ed="#P" n="100"/>argumento sumitur velle appeti tunc posse
+          <lb ed="#P" n="101"/>malum sub ratione mali? Quinta probatio 
+          pe<lb break="no" ed="#P" n="102"/>tit difficultatem non levem, an scilicet possit
+          <lb ed="#P" n="103"/>quispiam appetere non esse simpliciter, et
+          <lb ed="#P" n="104"/>quoniam quaestio hujus loci non est, dico 
+          bre<lb break="no" ed="#P" n="105"/>viter partem affirmantem videri probabiliorem
+          <lb ed="#P" n="106"/>sic damnati potius vellent non esse, quam tales
+          <lb ed="#P" n="107"/>esse: tunc tamen ipsum non esse sub ratione
+          <lb ed="#P" n="108"/>boni haud dubie appetitur, scilicet tanquam
+          <lb ed="#P" n="109"/>conducens ad partem saltem beatitudinis ha-
+          <pb ed="#P" n="757"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bendam, carentiam videlicet miseriae quando
+          <lb ed="#P" n="2"/>alteram, quae est boni possessio, nequeunt
+          <lb ed="#P" n="3"/>adipisci: carere autem miseria non datur dum
+          <lb ed="#P" n="4"/>existunt, ideoque non esse volunt, ut malum
+          <lb ed="#P" n="5"/>illud fugiant. Urgebit aliquis. Qui vult non
+          <lb ed="#P" n="6"/>esse, vult etiam non esse beatus, nam qui tollit
+          <lb ed="#P" n="7"/>fundamentum, tollit aedificium. Respondetur
+          <lb ed="#P" n="8"/>negando damnatum velle simpliciter non esse,
+          <lb ed="#P" n="9"/>sed supposito statu miseriae, ac item supposito,
+          <lb ed="#P" n="10"/>quod aliter nequeat illum evadere, unde 
+          ne<lb break="no" ed="#P" n="11"/>quaquam appetit non esse beatus, sed 
+          permit<lb break="no" ed="#P" n="12"/>tit tantummodo, cum aliter non possit ultimam
+          <lb ed="#P" n="13"/>effugere miseriam, ac velit, nolit, nunquam
+          <lb ed="#P" n="14"/>beatus evadet.
+        </p>
+        <p xml:id="szdada-y18565-d1e519">
+          <lb ed="#P" n="15"/>6. Ad secundum principale argumentum in
+          <lb ed="#P" n="16"/>eod. num. 1. — Adtertium. — Ad quartum. —
+          <lb ed="#P" n="17"/>Videndus auctor, l. 1. de Augel., cap. 12, a
+          <lb ed="#P" n="18"/>nwm. 1. — Jam ad secundum principale 
+          argu<lb break="no" ed="#P" n="19"/>mentum respondetur voluntatem non posse
+          <lb ed="#P" n="20"/>respicere positive bonum aliquod, nisi in 
+          quan<lb break="no" ed="#P" n="21"/>tum in illo excogitatur aliqua mali ratio. Ad
+          <lb ed="#P" n="22"/>tertium similis datur responsio, non enim 
+          ap<lb break="no" ed="#P" n="23"/>petitur destructio ipsius existentiae, nisi in
+          <lb ed="#P" n="24"/>dicta mali alicujus carentia. Ad quartum dic
+          <lb ed="#P" n="25"/>impossibilia putata possibilia posse appeti,
+          <lb ed="#P" n="26"/>quia apprehenduntur sub ratione boni, 
+          impos<lb break="no" ed="#P" n="27"/>sibilia vero cognita, ut impossibilia appeti non
+          <lb ed="#P" n="28"/>posse, nisi forte voluntate conditionali, si 
+          fie<lb break="no" ed="#P" n="29"/>rent possibilia, tunc autem sicut 
+          conditionali<lb break="no" ed="#P" n="30"/>ter appetuntur, ita etiam illis apponitur aliqua
+          <lb ed="#P" n="31"/>boni conditio.
+        </p>
+        <p xml:id="szdada-y18565-d1e559">
+          <lb ed="#P" n="32"/>7. Quaestiuncula expeditur per duas 
+          conclu<lb break="no" ed="#P" n="33"/>siones. — Quaeres tamen utrum bonum 
+          appeti<lb break="no" ed="#P" n="34"/>bile debeat necessario esse bonum ipsiusmet
+          <lb ed="#P" n="35"/>appetentis, ait namque Aristoteles supra 
+          cita<lb break="no" ed="#P" n="36"/>tus amabile esse bonum, unicuique tamen 
+          pro<lb break="no" ed="#P" n="37"/>prium. Pro quo sit secunda conclusio. 
+          Impos<lb break="no" ed="#P" n="38"/>sibile est appeti, quod non respiciat bonum
+          <lb ed="#P" n="39"/>proprium ipsius appetentis, vel illud includat
+          <lb ed="#P" n="40"/>aliquo modo. Colligitur conclusio ex relato
+          <lb ed="#P" n="41"/>Aristotele. videturque satis experientia nota.
+          <lb ed="#P" n="42"/>Et ratione explicatur in hunc modum. Quod
+          <lb ed="#P" n="43"/>appetimus vel est bonum proprium, vel 
+          alte<lb break="no" ed="#P" n="44"/>rius, si proprium habetur institutum. Alterius
+          <lb ed="#P" n="45"/>autem bonum non appetimus, nisi vel quia in
+          <lb ed="#P" n="46"/>actu appetendi rationem aliquam boni proprii
+          <lb ed="#P" n="47"/>invenimus, vel certe quia, cui tale bonum 
+          ap<lb break="no" ed="#P" n="48"/>petimus, aliquo modo ad nos pertinet, sive
+          <lb ed="#P" n="49"/>unus nobiscum est aliqualiter. Nam aut 
+          crea<lb break="no" ed="#P" n="50"/>tura est, aut creator: si creator, eatenus illi
+          <lb ed="#P" n="51"/>bonum voliumus, quatenus ipse Deus est 
+          uni<lb break="no" ed="#P" n="52"/>versale bonum rerum omnium, atque adeo
+          <lb ed="#P" n="53"/>nostrum. Et hac de causa charitas magis Deum
+          <lb ed="#P" n="54"/>amat, quam amantem, quia in Deo includitur
+          <lb ed="#P" n="55"/>bonum ipsius amantis tanquam in fonte, atque
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>origine: si vero est creatura, volumus illi 
+          bo<lb break="no" ed="#P" n="57"/>num, vel quia amicus est, vel quia 
+          propin<lb break="no" ed="#P" n="58"/>quus, vel quia homo, in quo bonitatem nostrae
+          <lb ed="#P" n="59"/>naturae consideramus, quod si non sit creatura
+          <lb ed="#P" n="60"/>rationalis, bonum ei optamus, vel quia ad nos
+          <lb ed="#P" n="61"/>attinet, vel quia aliqualiter in natura est nobis
+          <lb ed="#P" n="62"/>similis: unde D. Thomas, 1, 2, q. 27, art. 3,
+          <lb ed="#P" n="63"/>resolvit similitudinem causam esse amoris, ut
+          <lb ed="#P" n="64"/>etiam Plato dixerat, et indicatur satis Eccl. 13,
+          <lb ed="#P" n="65"/>quia nimirum similitudo efficit, ut bonum 
+          al<lb break="no" ed="#P" n="66"/>terius mihi similis apprehendatur tanquam
+          <lb ed="#P" n="67"/>meum, et in ead. quaest., art. 1, quaest. 26,
+          <lb ed="#P" n="68"/>docet in tantum esse aliquid bonum, et 
+          appe<lb break="no" ed="#P" n="69"/>tibile, in quantum est proportionatum bonum
+          <lb ed="#P" n="70"/>amantis. Horum causa inde sumitur, quia licet
+          <lb ed="#P" n="71"/>ratio boni non respiciat hunc vel illum, tamen
+          <lb ed="#P" n="72"/>ratio appetibilis ab hoc vel illo includit, quod
+          <lb ed="#P" n="73"/>bonum ejus sit, nam appetitus est inclinatio
+          <lb ed="#P" n="74"/>quaedam ad propriam perfectionem tendens,
+          <lb ed="#P" n="75"/>neque hoc destruit communem divisionem
+          <lb ed="#P" n="76"/>amoris in amicitiam, seu benevolentiam, et
+          <lb ed="#P" n="77"/>concupiscentiam, ut alibi tractatur.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

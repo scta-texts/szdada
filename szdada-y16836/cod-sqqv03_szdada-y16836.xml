@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 23</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 23</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="686"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y16836"><!-- t3l3c23 -->
+        <head xml:id="szdada-y16836-Hd1e101">Caput 23</head>
+        <head xml:id="szdada-y16836-Hd1e103" type="question-title">Quidnam sit odor, et quid sapor, ac de speciebus eorum</head>
+        <p xml:id="szdada-y16836-d1e106">
+          <lb ed="#P" n="32"/>CAPUT XXIII.
+          <lb ed="#P" n="33"/>QUIDNAM SIT ODOR, ET QUID SAPOR, AC DE 
+          SPECIE<lb break="no" ed="#P" n="34"/>BUS EORUM.
+        </p>
+        <p xml:id="szdada-y16836-d1e115">
+          <lb ed="#P" n="35"/>1. De natura odoris opiniones. — Dicendum
+          <lb ed="#P" n="36"/>sequitur de olfactu, cujus objectum est odor,
+          <lb ed="#P" n="37"/>et ideo ejus natura prius explicanda est, quia
+          <lb ed="#P" n="38"/>vero odor et sapor magnam inter se 
+          conve<lb break="no" ed="#P" n="39"/>nientiam habent, simul de utroque agendum.
+          <lb ed="#P" n="40"/>Fuit ergo sententia Heraclyti apud Aristotelem,
+          <lb ed="#P" n="41"/>de Sensu et sensibili, c. 5, dicentis odorem esse
+          <lb ed="#P" n="42"/>vaporem, seu exhalationem: Avicenna 6, 
+          Na<lb break="no" ed="#P" n="43"/>turalium, part. 2, c. de Odore, vult esse 
+          humi<lb break="no" ed="#P" n="44"/>dum spiritum, et Conciliator, different. 155,
+          <lb ed="#P" n="45"/>exprimit spiritum esse medium quid inter 
+          fu<lb break="no" ed="#P" n="46"/>mum et vaporem, quod tamen Aristoteles 
+          im<lb break="no" ed="#P" n="47"/>probat illo loco.
+        </p>
+        <p xml:id="szdada-y16836-d1e146">
+          <lb ed="#P" n="48"/>2. Prima assertio. — Prima conclusio. Odor
+          <lb ed="#P" n="49"/>est qualitas tertiae speciei. Probatur, quoniam
+          <lb ed="#P" n="50"/>est accidens per se primo sensibile, omnia vero
+          <lb ed="#P" n="51"/>ita sensibilia in illa specie collocantur, cum
+          <lb ed="#P" n="52"/>neque aliud praedicamentum detur, neque alia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>species illius praedicamenti in qua ponantur:
+          <lb ed="#P" n="54"/>esse vero odorem accidens patet, quia adest, et
+          <lb ed="#P" n="55"/>abest, etc., quod etiam sit qualitas, notum
+          <lb ed="#P" n="56"/>videtur: quia non habet modum afficiendi
+          <lb ed="#P" n="57"/>substantiam diversum a qualitatibus aliis.
+        </p>
+        <p xml:id="szdada-y16836-d1e173">
+          <lb ed="#P" n="58"/>3. Secunda. — Secunda conclusio. Odor est
+          <lb ed="#P" n="59"/>qualitas secundo consequens ex primarum
+          <lb ed="#P" n="60"/>mixtione, in qua siccum, vincit humidum,
+          <lb ed="#P" n="61"/>calorque absolute dominatur. Ita Aristoteles,
+          <lb ed="#P" n="62"/>de Sensu et sensibili, cap. 5, D. Thomas 2, de
+          <lb ed="#P" n="63"/>Anima, lectione 29, text. 95. Albertus, Summa
+          <lb ed="#P" n="64"/>de homine, tract. de olfactu, quaest. 9, scribit
+          <lb ed="#P" n="65"/>odoris subjectum esse ignem temperatum, 
+          vi<lb break="no" ed="#P" n="66"/>delicet mixtum corpus, in quo praedominantur
+          <lb ed="#P" n="67"/>qualitates ignis, similiter sentiunt Alexander,
+          <lb ed="#P" n="68"/>in libro de Sensibili, c. de odore, et ali, citato
+          <lb ed="#P" n="69"/>loco, de Anima, Theophrastus, lib. 6, de Causis
+          <lb ed="#P" n="70"/>plantarum, cap. 1, idem praeterea indicant,
+          <lb ed="#P" n="71"/>asserentes odorem fumum esse, vel 
+          exhalatio<lb break="no" ed="#P" n="72"/>nem: explicant enim naturam odoris per ejus
+          <lb ed="#P" n="73"/>subjecta, in quibus sane calor et siccitas 
+          prae<lb break="no" ed="#P" n="74"/>dominatur. Probatur deinde conclusio ratione.
+          <lb ed="#P" n="75"/>Nam res odoriferae calefactae melius odorem
+          <lb ed="#P" n="76"/>efflant, unde melius aestate, quam hyeme 
+          per<lb break="no" ed="#P" n="77"/>cipiuntur odores, pleraque etiam vigente 
+          ca<lb break="no" ed="#P" n="78"/>lore odorem emittunt et non alias. Quod aperte
+          <lb ed="#P" n="79"/>demonstrat calorem esse praecipuam odoris
+          <lb ed="#P" n="80"/>dispositionem. Unde etiam experimur rem
+          <lb ed="#P" n="81"/>odoriferam non percipi odoratu, si nimium
+          <lb ed="#P" n="82"/>madefiat, ipsum quoque organum odorandi
+          <lb ed="#P" n="83"/>multa e capite distillatione obtunditur, atque
+          <lb ed="#P" n="84"/>imperfecte odorem percipit: dulcia tandem
+          <lb ed="#P" n="85"/>minus odorifera sunt, quia in eis 
+          praedomina<lb break="no" ed="#P" n="86"/>tur humiditas: requirit ergo odor dominium
+          <lb ed="#P" n="87"/>siccitatis, non tamen omnino aridis gaudet,
+          <lb ed="#P" n="88"/>nonnullamque humoris admixtionem poscit.
+        </p>
+        <p xml:id="szdada-y16836-d1e243">
+          <lb ed="#P" n="89"/>4. Varia Aristotelis loca conciliantur. —Ex
+          <lb ed="#P" n="90"/>quibus patent, cohaerentque diversa Aristotelis
+          <lb ed="#P" n="91"/>loca in hac materia, nam, cap. 5, de Sensu et
+          <lb ed="#P" n="92"/>sensibili, ait odorem non esse vaporem, neque
+          <lb ed="#P" n="93"/>exhalationem, sectione vero 12, Problematum,
+          <lb ed="#P" n="94"/>q. 10, dubitat, an odor sit fumus, vel vapor,
+          <lb ed="#P" n="95"/>et sect. 13, quaest. 5, inquit odoris naturam
+          <lb ed="#P" n="96"/>esse vaporem, et cap. 2, de Sensu et sensibili,
+          <lb ed="#P" n="97"/>in fine, vult odorem esse fumosam 
+          vaporatio<lb break="no" ed="#P" n="98"/>nem, ideoque ab igne esse: cum ergo, cap. 5,
+          <lb ed="#P" n="99"/>negat esse exhalationem, interpretandus est in
+          <lb ed="#P" n="100"/>sensu formali, id est, non esse ipsam 
+          substan<lb break="no" ed="#P" n="101"/>tiam exhalationis: cum vero aliis locis id 
+          affir<lb break="no" ed="#P" n="102"/>mat, intelligitur subjective, id est, subjectari
+          <lb ed="#P" n="103"/>inre simili exhalationi, calida scilicet, et sicea.
+          <lb ed="#P" n="104"/>Urgebis, dicto cap. 5, de Sensu et sensibili
+          <lb ed="#P" n="105"/>impugnat Aristoteles Heraclytum, quod 
+          odo<lb break="no" ed="#P" n="106"/>rem posuerit exhalationem, qui tamen 
+          cre<lb break="no" ed="#P" n="107"/>dendus sit locutus subjective. Respondetur
+          <pb ed="#P" n="687"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>putasse forte Heraclytum esse substantiam,
+          <lb ed="#P" n="2"/>vel certe dicendum saepe Aristotelem 
+          impu<lb break="no" ed="#P" n="3"/>gnare verba magis, quam sensum. Alii 
+          res<lb break="no" ed="#P" n="4"/>pondent Aristotelem eo loco probare odorem
+          <lb ed="#P" n="5"/>non subjectari in vero vapore et exhalatione,
+          <lb ed="#P" n="6"/>quae mixta imperfecta sunt, quod quidem 
+          ve<lb break="no" ed="#P" n="7"/>rum est in se, incertum tamen an id 
+          intende<lb break="no" ed="#P" n="8"/>rit Aristoteles: vapor enim, cum sit humidus
+          <lb ed="#P" n="9"/>nimium, non est capax odoris, neque item
+          <lb ed="#P" n="10"/>exhalatio ob nimiam siccitatem, videndus est
+          <lb ed="#P" n="11"/>Plinius de hac re, 1. 10, c. 70.
+        </p>
+        <p xml:id="szdada-y16836-d1e315">
+          <lb ed="#P" n="12"/>5. Tertia assertio pro sapore.—Sit jam 
+          ter<lb break="no" ed="#P" n="13"/>tia conclusio. Sapor est qualitas secunda 
+          re<lb break="no" ed="#P" n="14"/>sultans ex mixtione, in qua calor cum 
+          humi<lb break="no" ed="#P" n="15"/>ditate vincunt, ita tamen, ut calor sit 
+          princi<lb break="no" ed="#P" n="16"/>palior. Et hoc est, quod Aristoteles ait de Sensu
+          <lb ed="#P" n="17"/>et sensibili, saporem causari ex materia, in
+          <lb ed="#P" n="18"/>qua humiditas, quae comprehendit (id est, 
+          su<lb break="no" ed="#P" n="19"/>perat) siccitatem calore concoquitur: sic enim
+          <lb ed="#P" n="20"/>resultat sapor: quod si calefactio adeo procedat,
+          <lb ed="#P" n="21"/>ut ex illa materia humida resolvat materiam
+          <lb ed="#P" n="22"/>subtilicrem jam plurimum exsiccatam, 
+          causa<lb break="no" ed="#P" n="23"/>bitur odor, quo fit ut omne sapidum humidum
+          <lb ed="#P" n="24"/>sit aliquantulum, atque infra videbimus etiam
+          <lb ed="#P" n="25"/>in organo gustus reperiri humiditatem, ad
+          <lb ed="#P" n="26"/>saporem percipiendum. Quare sapor et odor
+          <lb ed="#P" n="27"/>qualitates vicinae sunt, quamvis hic subtilior
+          <lb ed="#P" n="28"/>sit, ac nobilior.
+        </p>
+        <p xml:id="szdada-y16836-d1e354">
+          <lb ed="#P" n="29"/>6. Pro postrema parte tituli de speciebus
+          <lb ed="#P" n="30"/>saporum et odorum communiter.—De saporibus
+          <lb ed="#P" n="31"/>peculiariter. — Hinc Aristoteles 2, de Anima,
+          <lb ed="#P" n="32"/>cap. 9, ait species saporum et odorum 
+          propor<lb break="no" ed="#P" n="33"/>tione quadam esse sumendas, et de Sensu et
+          <lb ed="#P" n="34"/>sensibili, cap. 5, scribit, sicut saporum quidam
+          <lb ed="#P" n="35"/>dulces sunt, alii amari, ita inter odorum alios
+          <lb ed="#P" n="36"/>delectationem causare, alios tristiuam, qui
+          <lb ed="#P" n="37"/>dulces, atque amari proportionaliter dici 
+          pos<lb break="no" ed="#P" n="38"/>sint. De utrorumque tamen speciebus in 
+          uni<lb break="no" ed="#P" n="39"/>versum dicimus, sicut ex dicta proportione
+          <lb ed="#P" n="40"/>qualitatum primarum resultant, ita ex illius
+          <lb ed="#P" n="41"/>variatione variari, de qua Galenus, lib. 1, de
+          <lb ed="#P" n="42"/>simplicium Medicamentorum facultate, c. 38,
+          <lb ed="#P" n="43"/>ubi plerasque species saporum enumerat, et
+          <lb ed="#P" n="44"/>Theophrastus, lib. 6, de Causis plantarum,
+          <lb ed="#P" n="45"/>cap. 4, Plinius, lib. 15, cap. 27, tredecim 
+          re<lb break="no" ed="#P" n="46"/>censet saporum genera: Aristoteles vero de
+          <lb ed="#P" n="47"/>Sensu et sensibili, cap. 4, et cum ipso alii post
+          <lb ed="#P" n="48"/>Platonem in Timaeo octo proponunt, dulcem et
+          <lb ed="#P" n="49"/>amarum, pinguem, falsum, austerum, acrem,
+          <lb ed="#P" n="50"/>acutum, acerbum. seu ponticum. Dulcis sapor
+          <lb ed="#P" n="51"/>consurgit ex temperatis calido et humido, qua
+          <lb ed="#P" n="52"/>de causa maxime accommodatur nostrae 
+          na<lb break="no" ed="#P" n="53"/>turae, amarus vero ex calido et sicco 
+          vehe<lb break="no" ed="#P" n="54"/>mentibus, atque ponuntur extremi sapores,
+          <lb ed="#P" n="55"/>este Aristotele: imo et sensu ipso, extreme
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>enim afficiunt gustum: ergo et inter se distant
+          <lb ed="#P" n="57"/>extreme. Praeterea licet in calore non maxime
+          <lb ed="#P" n="58"/>distent, maxime tamen in siccitate et humore:
+          <lb ed="#P" n="59"/>unde ex parte subjecti requirunt etiam 
+          tempe<lb break="no" ed="#P" n="60"/>ramenta nimium distantia. heliqui sapores
+          <lb ed="#P" n="61"/>medii sunt, de quibus philosophandum juxta
+          <lb ed="#P" n="62"/>accessum et recessum ad extremos illos. 
+          Gale<lb break="no" ed="#P" n="63"/>nus tamen, lib. 4, de simplicium 
+          Medicamen<lb break="no" ed="#P" n="64"/>torum facultate, cap. 10, vult acutum potius,
+          <lb ed="#P" n="65"/>ac ponticum saporem maxime distare, quem
+          <lb ed="#P" n="66"/>medici sequuntur: sed immerito, ut ex dictis
+          <lb ed="#P" n="67"/>patet, affirmatque Aristoteles, ac peripatetici
+          <lb ed="#P" n="68"/>non pauci, nominatim Commentator 2, de
+          <lb ed="#P" n="69"/>Anima, commento 105, et 5 Collectanearum,
+          <lb ed="#P" n="70"/>cap. 2, divus Thomas, de Sensu et sensibili,
+          <lb ed="#P" n="71"/>lect. 11, Averroes 2, de Anima, text. 105, et
+          <lb ed="#P" n="72"/>5 Collectanearum, c. 27, Garbius, in Summa,
+          <lb ed="#P" n="73"/>lib. 1, tract. 5, quaest. 71, Contarenus, lib. 5,
+          <lb ed="#P" n="74"/>de Elementis, Javellus 2, de Anima, q. 46. Hae
+          <lb ed="#P" n="75"/>itaque sunt saporum species simplices, ex 
+          qui<lb break="no" ed="#P" n="76"/>bus mixti alii congregantur sapores, 
+          quemad<lb break="no" ed="#P" n="77"/>modum de coloribus superius diximus, ac tam
+          <lb ed="#P" n="78"/>multi quidem ut promptius fuerit hominum
+          <lb ed="#P" n="79"/>ventri eos in dies miscere, quam menti 
+          nomi<lb break="no" ed="#P" n="80"/>nibus distinguere.
+        </p>
+        <p xml:id="szdada-y16836-d1e471">
+          <lb ed="#P" n="81"/>7. Item de odoribus. — Sed et ipsae odorum
+          <lb ed="#P" n="82"/>simplices species non sunt nobis adeo notae
+          <lb ed="#P" n="83"/>propter imperfectionem nostri olfactus: unde
+          <lb ed="#P" n="84"/>hoc tantum distinguimus, an res sit odorifera,
+          <lb ed="#P" n="85"/>necne, et an sit odor nobis gratus, an 
+          moles<lb break="no" ed="#P" n="86"/>tus: unde neque illos propriis nominibus 
+          dis<lb break="no" ed="#P" n="87"/>ünguimus, sed ex ipsis rebus odoriferis 
+          deno<lb break="no" ed="#P" n="88"/>minationem sumimus, ut a rosa, a thure, etc.
+          <lb ed="#P" n="89"/>Distinguimus etiam odorem a foetore per illum
+          <lb ed="#P" n="90"/>intelligentes odorem suavem, per hunc 
+          contra<lb break="no" ed="#P" n="91"/>rium, solet etiam distingui odor acutus et 
+          gra<lb break="no" ed="#P" n="92"/>vis: acutus dicitur, quia celeriter movet: 
+          gra<lb break="no" ed="#P" n="93"/>vis, quia tarde, seu remisse: de quibus Plinius,
+          <lb ed="#P" n="94"/>l. 21, cap. 7. Oportet tamen advertere ultimo
+          <lb ed="#P" n="95"/>loco, ex cap. 4, de Sensu et sensibili, et ex
+          <lb ed="#P" n="96"/>Galeno, lib. 4, de simplicium Medicamentorum
+          <lb ed="#P" n="97"/>facultate, cap. 21, odorem quemdam esse, qui
+          <lb ed="#P" n="98"/>ad alimentum ordinatur, et gustum provocat,
+          <lb ed="#P" n="99"/>unde consonantiam habet cum sapore, nam
+          <lb ed="#P" n="100"/>suavis et delectabilis odor conjungitur optimo
+          <lb ed="#P" n="101"/>sapori, et e contrario, ac sensus talium odorum
+          <lb ed="#P" n="102"/>maxime inest brutis, quod fuit necessarium,
+          <lb ed="#P" n="103"/>cum quae ab eis gustanda sunt per solum 
+          odo<lb break="no" ed="#P" n="104"/>rem absque aliis documentis discernant, visui
+          <lb ed="#P" n="105"/>enim saepe alimentum est delectabile, quod
+          <lb ed="#P" n="106"/>tamen gustui esset nocivum, itaque odorandi
+          <lb ed="#P" n="107"/>facultas necessaria fuit maxime brutis, ut 
+          prae<lb break="no" ed="#P" n="108"/>nuntiaret gustui conditionem cibi, fuit item
+          <lb ed="#P" n="109"/>necessaria, ut alimentum distans sentire 
+          pos<lb break="no" ed="#P" n="110"/>sent. Alii sunt odores, qui per se delectant,
+          <pb ed="#P" n="688"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>neque movent appetitum, ut passim experimur
+          <lb ed="#P" n="2"/>in floribus, atque sufftitibus, tales vero 
+          conso<lb break="no" ed="#P" n="3"/>nantiam non vendicant cum sapore, imo saepe
+          <lb ed="#P" n="4"/>suavissimi sunt, sapor autem amarissimus,
+          <lb ed="#P" n="5"/>quod Galenus supra notat, et Aristoteles, 
+          tex<lb break="no" ed="#P" n="6"/>tu 95, Plinius, lib. 15, cap. 18.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

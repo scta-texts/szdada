@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="499"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y12115"><!-- t3l1c5 -->
+        <head xml:id="szdada-y12115-Hd1e101">Caput 5</head>
+        <head xml:id="szdada-y12115-Hd1e103" type="question-title">Quomodo tres animae inter se ordinentur, vel separabiles inter se sint</head>
+        <p xml:id="szdada-y12115-d1e106">
+          <lb ed="#P" n="41"/>CAPUT V.
+          <lb ed="#P" n="42"/>QUOMODO TRES ANIMAE INTER SE ORDINENTUR, VEL
+          <lb ed="#P" n="43"/>SEPARABILES INTER SE SINT.
+        </p>
+        <p xml:id="szdada-y12115-d1e115">
+          <lb ed="#P" n="44"/>1. Prima regula. — Gradus vite 
+          imperfec<lb break="no" ed="#P" n="45"/>tior dari potest sine perfectiori. — Id 
+          ostendi<lb break="no" ed="#P" n="46"/>tur de vegetante. — Hoc punctum secundo loco
+          <lb ed="#P" n="47"/>tractandum supra proposuimus. In quo duae
+          <lb ed="#P" n="48"/>regulae statuuntur. Prima est, gradus animae
+          <lb ed="#P" n="49"/>minus perfectus a magis perfecto separabilis
+          <lb ed="#P" n="50"/>est: ita docet Aristoteles, d. lib. 2, de Anim.,
+          <lb ed="#P" n="51"/>cap. 1, et sequentibus, et alibi saepe, et jam est
+          <lb ed="#P" n="52"/>sine controversia receptum. Nam primo, quod
+          <lb ed="#P" n="53"/>anima vegetativa separetur a sensitiva, et a
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>fortiori a rationali, in plantis notum est: ut
+          <lb ed="#P" n="55"/>docet Aristoteles, d. lib. 1, de Plantis, et alus
+          <lb ed="#P" n="56"/>locis citatis, et lib. 5, de Generat. animal., c. 1,
+          <lb ed="#P" n="57"/>ubi ait, animalia cum dormiunt, vita plantae
+          <lb ed="#P" n="58"/>vivere: at e converso plantas non esse somni
+          <lb ed="#P" n="59"/>capaces, quia expergisci non possunt, nec 
+          sen<lb break="no" ed="#P" n="60"/>tire. Unde Augustinus, Serm. 27, de verb.
+          <lb ed="#P" n="61"/>Apost.: NVobis, ait, vivere cum arboribus, et
+          <lb ed="#P" n="62"/>frutetis commune est. Nam vitis vivit cum 
+          vi<lb break="no" ed="#P" n="63"/>ret, arescit cum amoritur - sed vita ista non 
+          ha<lb break="no" ed="#P" n="64"/>Det sensum. Et lib. 2, de Mor. Manich., c. 17,
+          <lb ed="#P" n="65"/>irridet Manichaeos, qui sensum, et rationem
+          <lb ed="#P" n="66"/>arboribus tribuebant. Idem, hb. de Haeresi,
+          <lb ed="#P" n="67"/>cap. 46, et lib. de vera helig., cap. 55: Non
+          <lb ed="#P" n="68"/>sit, inquit, nobis cultus illius vite, qua 
+          dicun<lb break="no" ed="#P" n="69"/>tur arbores vivere, quoniam nullus sensus in
+          <lb ed="#P" n="70"/>illa est. Et libro de Quantitate animae, cap. 33,
+          <lb ed="#P" n="71"/>contrariam sententiam vocat: mpnetatem 
+          rus<lb break="no" ed="#P" n="72"/>lLicam, et errorem sacrilegum, magis ligneam
+          <lb ed="#P" n="73"/>opinionem, quam sint ipse arbores, quibus 
+          pa<lb break="no" ed="#P" n="74"/>trocinium prabet. Et quidem merito, quia, ut
+          <lb ed="#P" n="75"/>docet sufficienter experientia, nullum signum
+          <lb ed="#P" n="76"/>sensus, aut cognitionis in arboribus, vel plantis
+          <lb ed="#P" n="77"/>reperitur. Nec enim organa sensum habent,
+          <lb ed="#P" n="78"/>nec si pungantur, signum doloris exhibent:
+          <lb ed="#P" n="79"/>sicut animalia etiam imperfectissima ostendere
+          <lb ed="#P" n="80"/>solent. Ratio vero est, quia plantarum corpora
+          <lb ed="#P" n="81"/>nimis terrestria et densa, ac proinde ad 
+          sen<lb break="no" ed="#P" n="82"/>tiendum inepta. Nam omnia organa sensuum,
+          <lb ed="#P" n="83"/>etiam tactus, subtilius corpus, magisque 
+          at<lb break="no" ed="#P" n="84"/>temperatum requirunt ; quia etiam sensitiva
+          <lb ed="#P" n="85"/>cognitio cum abstractione aliqua, et perfectiori
+          <lb ed="#P" n="86"/>modo quam per alterationem mere 
+          materia<lb break="no" ed="#P" n="87"/>lem fit.
+        </p>
+        <p xml:id="szdada-y12115-d1e215">
+          <lb ed="#P" n="88"/>2. Deinde ostenditur de sentiente, respectu
+          <lb ed="#P" n="89"/>rationalis contra duplicem errorem. — Primus
+          <lb ed="#P" n="90"/>error bruta pollere ratione. — Exploditur. —
+          <lb ed="#P" n="91"/>Consulatur auctor, disp. 1, Metaph., sect.6,a
+          <lb ed="#P" n="92"/>mun. 18.— Deinde non minus certum est 
+          ani<lb break="no" ed="#P" n="93"/>mam sensitivam a rationali separari, quod non
+          <lb ed="#P" n="94"/>negant, nisi qui vel censent omnia hbruta 
+          ha<lb break="no" ed="#P" n="95"/>bere rationalem animam, vel qui (in aliud 
+          ex<lb break="no" ed="#P" n="96"/>tremum declinantes) negarunt bruta sentire.
+          <lb ed="#P" n="97"/>Primus fuit error Pythagorae et aliorum, qui
+          <lb ed="#P" n="98"/>putarunt animas omnium animalium ante 
+          cor<lb break="no" ed="#P" n="99"/>pora extitisse, ac subinde esse rationis capaces,
+          <lb ed="#P" n="100"/>et postea uniri corporibus tam brutorum, quam
+          <lb ed="#P" n="101"/>hominum quando generantur, vel prout sors
+          <lb ed="#P" n="102"/>fert, vel ex aliqua providentia auctoris naturae.
+          <lb ed="#P" n="103"/>In quem errorem Origenes, et aliqui haeretici
+          <lb ed="#P" n="104"/>inducti sunt, contra quos infra tractando de
+          <lb ed="#P" n="105"/>creatione Animae rationalis disputamus. Omisso
+          <lb ed="#P" n="106"/>tamen hoc puncto de existentia humanarum
+          <lb ed="#P" n="107"/>animarum ante corpora, quod ad praesens
+          <lb ed="#P" n="108"/>spectat, vanum plane, et ab omni ratione alie-
+          <pb ed="#P" n="500"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>num est, fingere in brutis rationis usum, 
+          alio<lb break="no" ed="#P" n="2"/>qui non specie: sed tantum accidentali 
+          diffe<lb break="no" ed="#P" n="3"/>rentia, seu tanquam magis, vel minus perfectum
+          <lb ed="#P" n="4"/>in eadem specie ab homine distinguerentur,
+          <lb ed="#P" n="5"/>quod nemo dicere potest, nisi qui jumentis
+          <lb ed="#P" n="6"/>insipientibus factus sit similis, vel sicut equus,
+          <lb ed="#P" n="7"/>el mulus, in quibus non est intellectus, ut 
+          Scrip<lb break="no" ed="#P" n="8"/>tura pronuntiat. Sed et Aristoteles, septimo
+          <lb ed="#P" n="9"/>Politicorumcapite 13, in fine, solum hominem
+          <lb ed="#P" n="10"/>rationem habere diserte scribit. Item in brutis
+          <lb ed="#P" n="11"/>non sunt signa, vel effectus, qui rationis usum
+          <lb ed="#P" n="12"/>ostendant. Unde nec propriam locutionem
+          <lb ed="#P" n="13"/>habent, nec libertatem in operando, sed 
+          natu<lb break="no" ed="#P" n="14"/>rali instinctu ducuntur. Et ideo, quae unius
+          <lb ed="#P" n="15"/>speciei sunt, eodem fere modo operantur. Unde
+          <lb ed="#P" n="16"/>constat, quod licet in aliquibus quaedam 
+          vesti<lb break="no" ed="#P" n="17"/>gia, vel apparentia signa discursus appareant,
+          <lb ed="#P" n="18"/>non in ipsis rationis usum, sed in auctore 
+          na<lb break="no" ed="#P" n="19"/>turae summam intelligentiam, et sapientiam
+          <lb ed="#P" n="20"/>ostendunt. Nam opus naturae et opus 
+          intelli<lb break="no" ed="#P" n="21"/>gentiae :ut Aristotelaei, apud Conimbricenses 2,
+          <lb ed="#P" n="22"/>physic., cap. 9, quaest. 2, art. 2, ad finem, 
+          ce<lb break="no" ed="#P" n="23"/>lebrant, et omnes illi effectus, vel signa non
+          <lb ed="#P" n="24"/>excedunt necessarium modum operandi ex 
+          in<lb break="no" ed="#P" n="25"/>stinctu naturae. Et eadem ratione licet aliqua
+          <lb ed="#P" n="26"/>bruta sint aliquo modo disciplinabilia, id non
+          <lb ed="#P" n="27"/>excedit gradum sensitivum, quia per 
+          memo<lb break="no" ed="#P" n="28"/>riam, accedente naturali instinctu potest 
+          suffi<lb break="no" ed="#P" n="29"/>cienter fieri. Denique ex contraria positione
+          <lb ed="#P" n="30"/>plures alii errores in fide sequuntur. Nam 
+          se<lb break="no" ed="#P" n="31"/>quitur, vel animas humanas esse mortales, vel
+          <lb ed="#P" n="32"/>animas brutorum etiam esse immortales, et
+          <lb ed="#P" n="33"/>consequenter esse capaces felicitatis et miseriae,
+          <lb ed="#P" n="34"/>et boni, ac mali, et alia, quae circa 
+          transmigra<lb break="no" ed="#P" n="35"/>tionem animarum afferri solent.
+        </p>
+        <p xml:id="szdada-y12115-d1e344">
+          <lb ed="#P" n="36"/>3. Secundus error bruta non pollere anima
+          <lb ed="#P" n="37"/>sensitiva, confutatur. — Secundum errorem,
+          <lb ed="#P" n="38"/>quod in brutis non sit vera anima sensitiva,
+          <lb ed="#P" n="39"/>nostra etiam aetate aliqui docuerunt: arbitrati
+          <lb ed="#P" n="40"/>enim sunt opera sensuum non esse materialia,
+          <lb ed="#P" n="41"/>nec fieri, aut esse subjective in organo 
+          corpo<lb break="no" ed="#P" n="42"/>reo, sed in ipsamet anima. Unde colligebant
+          <lb ed="#P" n="43"/>animam sensitivam, ut sic, esse subsistentem,
+          <lb ed="#P" n="44"/>ac proinde spiritualem et immortalem, et 
+          con<lb break="no" ed="#P" n="45"/>sequenter, etiam esse rationalem. Ne igitur
+          <lb ed="#P" n="46"/>brutis concederent rationalem animam, etiam
+          <lb ed="#P" n="47"/>sensitivam illis negabant. Verumtamen 
+          sen<lb break="no" ed="#P" n="48"/>tentia est intolerabilis, et grande paradoxum:
+          <lb ed="#P" n="49"/>et quod ad theologiam attinet, repugnat 
+          Scrip<lb break="no" ed="#P" n="50"/>turae dicenti: Cognovit bos possessorem suum,
+          <lb ed="#P" n="51"/>et asinus preesepe domini sui- etsexcenta 
+          si<lb break="no" ed="#P" n="52"/>milia, quae referre supervacaneum est. Quod
+          <lb ed="#P" n="53"/>autem ad philosophiam pertinet, sententia illa
+          <lb ed="#P" n="54"/>est sensui manifeste contraria. Quia in brutis
+          <lb ed="#P" n="55"/>videms esse uorgana sensuum, tam externo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rum, quae oculis patent, quam internorum, ut
+          <lb ed="#P" n="57"/>per incisionem, seu anatomiam ostenditur.
+          <lb ed="#P" n="58"/>Illa autem organa non sunt frustra data a 
+          na<lb break="no" ed="#P" n="59"/>tura, sed propter sensuum facultates et 
+          opera<lb break="no" ed="#P" n="60"/>tiones. Item experimur, haec animalia moveri
+          <lb ed="#P" n="61"/>ab appetitu media cognitione, et in suo motu
+          <lb ed="#P" n="62"/>interdum visu, interdum auditu, aliquando
+          <lb ed="#P" n="63"/>olfactu, vel excitari vel dirigi. Deinde ex 
+          mul<lb break="no" ed="#P" n="64"/>tis effectibus cognoscimus habere memoriam,
+          <lb ed="#P" n="65"/>et per eam vel timore, vel amore moveri, vel
+          <lb ed="#P" n="66"/>aliquid de novo discere. Ut, verbi gratia, viam,
+          <lb ed="#P" n="67"/>vel locum, vel benefactorem, vel dominium,
+          <lb ed="#P" n="68"/>vel cantilenam, vel verborum sonum, et quasi
+          <lb ed="#P" n="69"/>sermonem. Denique fere non minora signa
+          <lb ed="#P" n="70"/>sentiendi in his brutis conspicimus, quam in
+          <lb ed="#P" n="71"/>hominibus infantibus, vel perpetuo amentibus,
+          <lb ed="#P" n="72"/>qui ratione uti non possunt. Est ergo 
+          natura<lb break="no" ed="#P" n="73"/>liter evidens in his brutis animam sentientem
+          <lb ed="#P" n="74"/>a rationali separari. Et ratio reddi potest: quia
+          <lb ed="#P" n="75"/>cum sint diversi ordinis, et gradus sentiendi
+          <lb ed="#P" n="76"/>sit imperfectior, facile fieri potuit, ut multae
+          <lb ed="#P" n="77"/>rerum species illum attingerent, et ad 
+          perfec<lb break="no" ed="#P" n="78"/>tiorem non transcenderent. Unde, ut Patres
+          <lb ed="#P" n="79"/>notant, in ipsa rerum creatione hanc 
+          differen<lb break="no" ed="#P" n="80"/>tiam Deus ostendit. Nam animalia bruta 
+          gene<lb break="no" ed="#P" n="81"/>rali quodam modo, sicut res caeteras creavit,
+          <lb ed="#P" n="82"/>hominem vero speciali modo, ac honore
+          <lb ed="#P" n="83"/>fabricatus est: et rationalem auimam illi 
+          inspi<lb break="no" ed="#P" n="84"/>ravit. Ideoque de illo solo dixit: Faciamus 
+          ho<lb break="no" ed="#P" n="85"/>minem ad imaginem, et similitudinem nostram.
+          <lb ed="#P" n="86"/>Nec est verum operationem sensus esse 
+          imma<lb break="no" ed="#P" n="87"/>terialem, aut recipi in sola anima: et non potius
+          <lb ed="#P" n="88"/>in organo corporeo et quanto. De qua re postea
+          <lb ed="#P" n="89"/>ex professo dicendum est.
+        </p>
+        <p xml:id="szdada-y12115-d1e466">
+          <lb ed="#P" n="90"/>4. Secunda regula bipartita quod e contra
+          <lb ed="#P" n="91"/>gradus perfectior non est sine imperfectione.
+          <lb ed="#P" n="92"/>— Objectio. — Secunda regula est, animam
+          <lb ed="#P" n="93"/>perfectioris gradus semper supponere 
+          inferio<lb break="no" ed="#P" n="94"/>rem, vel inferiores gradus: ita ut nec 
+          rationa<lb break="no" ed="#P" n="95"/>lis a sensitivo, nec sensitivus a vegetativo 
+          se<lb break="no" ed="#P" n="96"/>paretur. Hanc tradit Aristoteles in citatis locis,
+          <lb ed="#P" n="97"/>et est communiter recepta, et per experientiam
+          <lb ed="#P" n="98"/>nota. Nam gradus rationalis animae in solo
+          <lb ed="#P" n="99"/>homine invenitur, in quo a gradu animae 
+          sen<lb break="no" ed="#P" n="100"/>sitivae non separatur, ut est notum experientia.
+          <lb ed="#P" n="101"/>Ergo nunquam separatur rationalis gradus 
+          ani<lb break="no" ed="#P" n="102"/>mae a sensitivo. bDices priorem propositionem
+          <lb ed="#P" n="103"/>exclusivam solum habere locum in anima, quae
+          <lb ed="#P" n="104"/>est actus corporis mortalis: in immoriali 
+          au<lb break="no" ed="#P" n="105"/>tem corpore posse inveniri rationalem gradum
+          <lb ed="#P" n="106"/>sine sensitivo. Unde Aristoteles quasi hoc 
+          prae<lb break="no" ed="#P" n="107"/>videns doctrinam hanc ad mortalia vivenua
+          <lb ed="#P" n="108"/>limitavit, indicans, vel in intelligentiis, vel in
+          <lb ed="#P" n="109"/>coelis animam rationalem sine sensitiva 
+          inve<lb break="no" ed="#P" n="110"/>niri, ut patet ex 1. 2, de Anima, c. 2, text. 15.
+          <pb ed="#P" n="501"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ubi sic dicit: Sed haec quidem cis (id est, 
+          ve<lb break="no" ed="#P" n="2"/>getativa), a ceeteris sejungi, separarique 
+          po<lb break="no" ed="#P" n="3"/>test, ceetere autem in ipsis mortalilus ab ista
+          <lb ed="#P" n="4"/>nequeunt separari: et clarius cap. 3, text. 32:
+          <lb ed="#P" n="5"/>Quibus mortalium inest ratio, his sunt 
+          conti<lb break="no" ed="#P" n="6"/>nuo, et cetera cuncta.
+        </p>
+        <p xml:id="szdada-y12115-d1e531">
+          <lb ed="#P" n="7"/>5. Solvitur objectio quond gradus animarum.
+          <lb ed="#P" n="8"/>— Admüittitur quoad gradus viventium. — 
+          Res<lb break="no" ed="#P" n="9"/>pondemus autem, aliud esse loqui de gradibus
+          <lb ed="#P" n="10"/>propriarum animarum: aliud vero de 
+          gradi<lb break="no" ed="#P" n="11"/>bus viventium absolute. Hic priori modo 
+          loqui<lb break="no" ed="#P" n="12"/>mur: et sic nulla esse potest rationalis anima,
+          <lb ed="#P" n="13"/>quae non sit actus corporis sentientis, seu apti
+          <lb ed="#P" n="14"/>ad opera sensuum. Quia non potest talis anima
+          <lb ed="#P" n="15"/>corpori uniri, ut forma, nisi, ut per illud 
+          pro<lb break="no" ed="#P" n="16"/>priam intellectualem cognitionem aliquo modo
+          <lb ed="#P" n="17"/>acciplat: non potest autem corpus intellectuali
+          <lb ed="#P" n="18"/>cognitioni deservire, nisi medis sensibus: et
+          <lb ed="#P" n="19"/>ideo non potest esse actus corporis, quod 
+          vi<lb break="no" ed="#P" n="20"/>tam sensibilem non participet: quem 
+          discur<lb break="no" ed="#P" n="21"/>sum habet divus Thomas, 1 part., quaest. 51,
+          <lb ed="#P" n="22"/>et alibi, et inlib. 1, de Angelis, cap. 6, illum
+          <lb ed="#P" n="23"/>latius explicummus. Et ex eodem ulterius 
+          con<lb break="no" ed="#P" n="24"/>cluditur veram animam rationalem semper
+          <lb ed="#P" n="25"/>esse actum corporis natura sua mortalis, quia
+          <lb ed="#P" n="26"/>illud solum capax est organi sensuum, ut infra
+          <lb ed="#P" n="27"/>videbimus. Quapropter de propria anima 
+          lo<lb break="no" ed="#P" n="28"/>quendo, limitatio de corpore mortali non erat
+          <lb ed="#P" n="29"/>necessaria, cum nulla sit vera anima rationalis
+          <lb ed="#P" n="30"/>corporis immortalis: quia nec corpora coelestia
+          <lb ed="#P" n="31"/>sunt vere animata, ut nunc supponimus, nec
+          <lb ed="#P" n="32"/>intelligentiae immortales habent corpora sibi
+          <lb ed="#P" n="33"/>substantialiter unita, ut in principio tractatus
+          <lb ed="#P" n="34"/>de Angelis ostensum est: nec anima humana
+          <lb ed="#P" n="35"/>est in aliquo statu actus corporis natura sua
+          <lb ed="#P" n="36"/>immortalis: ideoque simpliciter, et sine 
+          limi<lb break="no" ed="#P" n="37"/>tatione verum est, nullam esse rationalem
+          <lb ed="#P" n="38"/>animam reipsa separabilem a sensitiva et 
+          ve<lb break="no" ed="#P" n="39"/>getativa, nec dari vivens rationale, quod non
+          <lb ed="#P" n="40"/>sit sensitivum et vegetabile. Si vero loquamur
+          <lb ed="#P" n="41"/>de viventibus absolute, ut abstrahunt, a 
+          vi<lb break="no" ed="#P" n="42"/>ventibus simplicibus, vel compositis, seu ab
+          <lb ed="#P" n="43"/>habentibus vitam per animam, vel per suam
+          <lb ed="#P" n="44"/>integram substantiam: sic verum est posse
+          <lb ed="#P" n="45"/>dari vivens intellectuale a sensu et nutritione,
+          <lb ed="#P" n="46"/>separatum. Et fortasse in hoc sensu Aristoteles
+          <lb ed="#P" n="47"/>limitationem adhibuit, quia hujusmodi vivens
+          <lb ed="#P" n="48"/>non est nisi immortale; vel forte illam posuit
+          <lb ed="#P" n="49"/>limitationem, ut intelligentias motrices 
+          coelo<lb break="no" ed="#P" n="50"/>rum excluderet: non quia necessaria esset 
+          ex<lb break="no" ed="#P" n="51"/>ceptio cum illae non sint verae animae, nec sint
+          <lb ed="#P" n="52"/>rationales, eo modo quo humanae animae, sed
+          <lb ed="#P" n="53"/>quia voluit ab illa disputatione abstrahere, et
+          <lb ed="#P" n="54"/>modum animationis coelorum non examinare,
+          <lb ed="#P" n="55"/>ut supra tactum est.
+        </p>
+        <p xml:id="szdada-y12115-d1e640">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>6. Posterior pars regule ostenditur. —Et
+          <lb ed="#P" n="57"/>hinc facile ostendi potest alia pars hujus 
+          re<lb break="no" ed="#P" n="58"/>gulae, nimirum, gradum sensitivum non posse
+          <lb ed="#P" n="59"/>a gradu vegetabilium ita in re separari, ut
+          <lb ed="#P" n="60"/>vivens sentiens, et non se nutriens inveniri
+          <lb ed="#P" n="61"/>possit. Quod etiam tradit Aristoteles in citatis
+          <lb ed="#P" n="62"/>locis, quanquam in priori loco, c. 2, lib. 2, de
+          <lb ed="#P" n="63"/>Anim., videatur eamdem limitationem hic
+          <lb ed="#P" n="64"/>adjungere, scilicet, ut de viventibus 
+          mortali<lb break="no" ed="#P" n="65"/>bus intelligantur, innuens, posse esse viventia,
+          <lb ed="#P" n="66"/>quae in corporibus immortalibus sentiant, et
+          <lb ed="#P" n="67"/>non nutriantur. Sed alienum plane hoc est a
+          <lb ed="#P" n="68"/>doctrina Philosophi, cum ipse infra ex professo
+          <lb ed="#P" n="69"/>ostendat, non posse organa sensuum esse, nisi
+          <lb ed="#P" n="70"/>in corpore mixto ex elementis, ac subinde
+          <lb ed="#P" n="71"/>natura sua mortali. Illa ergo non est limitatio,
+          <lb ed="#P" n="72"/>sed declaratio, vel potius probatio hujus partis.
+          <lb ed="#P" n="73"/>Ideo enim gradus sensitivus necessario 
+          vege<lb break="no" ed="#P" n="74"/>tativum supponit, quia non potest inveniri,
+          <lb ed="#P" n="75"/>nisi in corpore corruptibili, ut pote mixto ex
+          <lb ed="#P" n="76"/>elementis, et temperamento primarum 
+          quali<lb break="no" ed="#P" n="77"/>tatum. Imo necessario esse debet in corpore,
+          <lb ed="#P" n="78"/>quasi ab intrinseco mortali, quia oportet esse
+          <lb ed="#P" n="79"/>organicum, et pavtium dissimilarium, quae ad
+          <lb ed="#P" n="80"/>sensus recipiendos, et eorum actus exercendos
+          <lb ed="#P" n="81"/>aptae, ac cura debita varietate dispositae sint.
+          <lb ed="#P" n="82"/>Ex hac vero partium organicarum 
+          composi<lb break="no" ed="#P" n="83"/>tione intrinseca mortalitas corporis nascitur,
+          <lb ed="#P" n="84"/>et ideo ad conservandum hujusmodi corpus
+          <lb ed="#P" n="85"/>diuturno tempore nutritio, ac vegetatio 
+          ne<lb break="no" ed="#P" n="86"/>cessaria est. Et praeterea vis sentiendi per 
+          spi<lb break="no" ed="#P" n="87"/>ritus communicatur, qui spiritus propter suam
+          <lb ed="#P" n="88"/>subtilitatem, et sequentem agitationem facile
+          <lb ed="#P" n="89"/>evanescunt, et ideo ad eorum restaurationem
+          <lb ed="#P" n="90"/>virtus nutriens necessaria est. Et ideo animam
+          <lb ed="#P" n="91"/>sensitivam conjunctam esse vegetanti 
+          neces<lb break="no" ed="#P" n="92"/>sarium est, quia sine illius ministerio, nec
+          <lb ed="#P" n="93"/>conservari, nec operari in corpore et per 
+          cor<lb break="no" ed="#P" n="94"/>pus potest.
+        </p>
+        <p xml:id="szdada-y12115-d1e729">
+          <lb ed="#P" n="95"/>7. Concluditur generalis ratio pro utraque
+          <lb ed="#P" n="96"/>regula. — Unde colligi potest generalis ratio
+          <lb ed="#P" n="97"/>utriusque regulae, quoad utramque partem
+          <lb ed="#P" n="98"/>ejus: quoniam infimus gradus comparatur ad
+          <lb ed="#P" n="99"/>medium, et hic ad supremum, tanquam 
+          ge<lb break="no" ed="#P" n="100"/>nus ad differentiam altioris ordinis, vel gradus
+          <lb ed="#P" n="101"/>contrahibilis ad contrahentem, et tanquam
+          <lb ed="#P" n="102"/>imperfectum ad perfectum, genus autem 
+          in<lb break="no" ed="#P" n="103"/>veniri potest sine differentia elevante illud ad
+          <lb ed="#P" n="104"/>perfectiorem ordinem: non tamen e contrario:
+          <lb ed="#P" n="105"/>et natura ab imperfectis ad perfectiora sensim
+          <lb ed="#P" n="106"/>progreditur: et ideo inferior gradus separari
+          <lb ed="#P" n="107"/>potest a medio, et medius a supremo: non
+          <lb ed="#P" n="108"/>tamen e contrario. Nec in his assertionibus
+          <lb ed="#P" n="109"/>difficultas alicujus momenti occurrit.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

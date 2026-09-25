@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="777"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y19131"><!-- t3l5c10 -->
+        <head xml:id="szdada-y19131-Hd1e101">Caput 10</head>
+        <head xml:id="szdada-y19131-Hd1e103" type="question-title">De potentia motiva secundum locum, an activa sit, atque ab aliis animae potentiis distincta</head>
+        <p xml:id="szdada-y19131-d1e106">
+          <lb ed="#P" n="77"/>CAPUT X.
+          <lb ed="#P" n="78"/>DE POTENTIA MOTIVA SECUNDUM LOCUM, AN ACTIVA
+          <lb ed="#P" n="79"/>SIT, ATQUE AB ALIIS ANIMAE POTENTIIS DISTINCTA.
+        </p>
+        <p xml:id="szdada-y19131-d1e115">
+          <lb ed="#P" n="80"/>Adl. 3 Physice, q.5, et disp. 543, 
+          Metaphg<lb break="no" ed="#P" n="81"/>sicc, et l. 4, de Angelis.—Motus localis absolute
+          <lb ed="#P" n="82"/>sumptus communis est rebus etiam 
+          inanima<lb break="no" ed="#P" n="83"/>tis: in animalibus tamen artificioso quodam
+          <lb ed="#P" n="84"/>modo editur a principio intrinseco activo per
+          <lb ed="#P" n="85"/>cognitionem et appetitum: in aliis vero non
+          <lb ed="#P" n="86"/>ita. Quae differentia quod attinet ad rationem
+          <lb ed="#P" n="87"/>motus localis, non videtur essentialis, et ideo
+          <lb ed="#P" n="88"/>de ipso motu, qui est actus hujus potentiae
+          <lb ed="#P" n="89"/>nihil superest dicendum praeter ea, quae in
+          <lb ed="#P" n="90"/>physicis dicta sunt, neque etiam de termino
+          <lb ed="#P" n="91"/>hujus motus, nempe de ubi, quod tanquam
+          <lb ed="#P" n="92"/>objectum ad hanc potentiam comparari potest:
+          <lb ed="#P" n="93"/>solum ergo restat dicendum de potentia ipsa,
+          <lb ed="#P" n="94"/>et de instrumentis, quibus hic motus executioni
+          <lb ed="#P" n="95"/>mandatur.
+        </p>
+        <p xml:id="szdada-y19131-d1e152">
+          <lb ed="#P" n="96"/>1. Haec porro quaestio difficultatem habet
+          <lb ed="#P" n="97"/>propter Aristotelem in 3, de Anim., 
+          asseren<lb break="no" ed="#P" n="98"/>tem virtutem movendi esse phantasiam cum
+          <lb ed="#P" n="99"/>appetitu, ex quo sequi videtur, potentiam
+          <lb ed="#P" n="100"/>hanc non esse distinctam ab iis, de quibus
+          <lb ed="#P" n="101"/>hactenus diximus. In contrarium vero est,
+          <lb ed="#P" n="102"/>quia actus, et objectum motivae potentiae 
+          dis<lb break="no" ed="#P" n="103"/>tincta sunt ab actibus, objectisque aliarum
+          <lb ed="#P" n="104"/>potentiarum animae. Pro resolutione 
+          notan<lb break="no" ed="#P" n="105"/>dum primo, motum localem duplicem 
+          inve<lb break="no" ed="#P" n="106"/>niri in animantibus: naturalem scilicet, qui
+          <lb ed="#P" n="107"/>vitalis etiam dicitur et animalem, ex appetitu
+          <pb ed="#P" n="778"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nimirum pendentem. Primus est tum 
+          conti<lb break="no" ed="#P" n="2"/>nuus motus cordis, tum etiam dilatatio, ac
+          <lb ed="#P" n="3"/>compressio pulmonum, ex quibus provenit
+          <lb ed="#P" n="4"/>respiratio, et arteriarum pulsus: hi enim
+          <lb ed="#P" n="5"/>motus omnes naturales dicuntur, quia in 
+          nos<lb break="no" ed="#P" n="6"/>tra potestate non sunt, unde Aristoteles, libr.
+          <lb ed="#P" n="7"/>de Communi animal. motu, ad fin..spirationem
+          <lb ed="#P" n="8"/>inter motus non voluntarios numerat: potest
+          <lb ed="#P" n="9"/>quidem per appetitum aliquantulum detineri,
+          <lb ed="#P" n="10"/>et impediri spiratio: id vero non nisi quantum
+          <lb ed="#P" n="11"/>ad ingressum, vel exitum aeris: attamen 
+          mo<lb break="no" ed="#P" n="12"/>tus ipse cordis interior nequaquam: sicut 
+          ne<lb break="no" ed="#P" n="13"/>que motus partis vegetativae. Jam vero motus
+          <lb ed="#P" n="14"/>alter, animalis nuncupatus, ipse est, quem
+          <lb ed="#P" n="15"/>progressivum appellant, quemque praecipue
+          <lb ed="#P" n="16"/>hoc loco intendimus.
+        </p>
+        <p xml:id="szdada-y19131-d1e221">
+          <lb ed="#P" n="17"/>2. Prima assertio. — De primo ergo motu
+          <lb ed="#P" n="18"/>sit prima conclusio. Potentia al motum 
+          natu<lb break="no" ed="#P" n="19"/>ralem specialis est in anima distinctaque ab
+          <lb ed="#P" n="20"/>appetitu sensitivo, ac residens in corde, et
+          <lb ed="#P" n="21"/>pulmonibus. Probatur, quoniam ille motus ab
+          <lb ed="#P" n="22"/>actione appetitus, vel sensus non pendet: his
+          <lb ed="#P" n="23"/>enim cessantibus exercetur nihilominus 
+          prae<lb break="no" ed="#P" n="24"/>dictus motus: ergo ab speciali alia potentia
+          <lb ed="#P" n="25"/>animae procedit. Antecedens experientia 
+          no<lb break="no" ed="#P" n="26"/>tum est: consequentia vero videtur evidens,
+          <lb ed="#P" n="27"/>nam talis motus a potentia activa animae 
+          de<lb break="no" ed="#P" n="28"/>bet fieri, non a sensu, aut appetitu, siquidem
+          <lb ed="#P" n="29"/>his cessantibus ille non cessat: ergo, etc.
+        </p>
+        <p xml:id="szdada-y19131-d1e252">
+          <lb ed="#P" n="30"/>3. Ad motum progressivum concurrunt 
+          co<lb break="no" ed="#P" n="31"/>gnitio, appetitus et membra externa. — Circa
+          <lb ed="#P" n="32"/>motum progressivum, de quo principahter 
+          in<lb break="no" ed="#P" n="33"/>quiritur, est notandum, ad illum concurrere
+          <lb ed="#P" n="34"/>cognitionem, appetitum, externa membra,
+          <lb ed="#P" n="35"/>eorumque dispositionem. De cognitione res
+          <lb ed="#P" n="36"/>liquet, tum quia progressio determinata esse
+          <lb ed="#P" n="37"/>debet, ad certumve terminum tendens, unde
+          <lb ed="#P" n="38"/>eam oportet dirigi ab aliqua vi cognoscente:
+          <lb ed="#P" n="39"/>tum quia appetitus non est absque cognitione.
+          <lb ed="#P" n="40"/>De appetitu quoque similiter liquet: animal
+          <lb ed="#P" n="41"/>enim seipsum movet, cum appetit, et homo
+          <lb ed="#P" n="42"/>item quando vult: ac praeterea quoniam 
+          mo<lb break="no" ed="#P" n="43"/>tus ille naturalis non est: erit ergo ab 
+          appe<lb break="no" ed="#P" n="44"/>titu. Denique quod membrorum dispositio 
+          ne<lb break="no" ed="#P" n="45"/>cessaria sit, constat, quia si prave disposita
+          <lb ed="#P" n="46"/>sunt, non procedet motus, quantumvis animal
+          <lb ed="#P" n="47"/>appetat: idem amplius constat ex naturali
+          <lb ed="#P" n="48"/>compositione talium membrorum: ideo enim
+          <lb ed="#P" n="49"/>juncturis invicem colligantur convexumque
+          <lb ed="#P" n="50"/>in concavo includitur ut possit unum in altero
+          <lb ed="#P" n="51"/>volvi tanquam in cardine, quod observat 
+          Aris<lb break="no" ed="#P" n="52"/>toteles 3, de Anima, textu 32, et lib. de 
+          Com<lb break="no" ed="#P" n="53"/>muni animalium motu, in principio, et S. 
+          Tho<lb break="no" ed="#P" n="54"/>mas ibidem, lect. 1, ait enim eo loco 
+          Aristo<lb break="no" ed="#P" n="55"/>teles juncturas ad hunc finem fabricatas, ut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quiescente parte una altera moveatur, ac mota
+          <lb ed="#P" n="57"/>nitatur quiescenti. Sic dum manus movetur,
+          <lb ed="#P" n="58"/>quiescit brachium, quod si brachium 
+          torquea<lb break="no" ed="#P" n="59"/>tur, humerus quiescit, ad alia vero munia
+          <lb ed="#P" n="60"/>membrorum, et per illorum extensionem et
+          <lb ed="#P" n="61"/>retractionem membra moventur. Ita patet
+          <lb ed="#P" n="62"/>tria haec ad progressionem esse necessaria :
+          <lb ed="#P" n="63"/>patet ulterius potentiam cognoscentem solum
+          <lb ed="#P" n="64"/>concurrere ad hunc motum tanquam 
+          dirigen<lb break="no" ed="#P" n="65"/>tem appetitum, appetitum vero immediate
+          <lb ed="#P" n="66"/>attingere executionem motus.
+        </p>
+        <p xml:id="szdada-y19131-d1e337">
+          <lb ed="#P" n="67"/>4. Membra externa quomodo concurrant. —
+          <lb ed="#P" n="68"/>Prima opinio. — Quo autem modo externa
+          <lb ed="#P" n="69"/>membra concurrant, dubitari solet. Nonnulli
+          <lb ed="#P" n="70"/>volunt in eis dari tantum dispositionem 
+          passi<lb break="no" ed="#P" n="71"/>vam ad motum localem, obediendo scilicet 
+          ap<lb break="no" ed="#P" n="72"/>petitui moventi, in isto autem residere totam
+          <lb ed="#P" n="73"/>virtutem activam illius motus ad eum motum,
+          <lb ed="#P" n="74"/>quo in motu coelorum alibi diximus ex parte
+          <lb ed="#P" n="75"/>corporis tantum inveniri aptitudinem 
+          passi<lb break="no" ed="#P" n="76"/>vam, ut moveatur, vimque activam totam esse
+          <lb ed="#P" n="77"/>in intelligentia movente. Hanc sententiam 
+          tra<lb break="no" ed="#P" n="78"/>dere videtur Aristoteles, citato libro de Anim.,
+          <lb ed="#P" n="79"/>et lib. deAnimal. motu, ubi abstruit appetitum
+          <lb ed="#P" n="80"/>esse principalem causam ejusmodi motus: si
+          <lb ed="#P" n="81"/>autem immediate non causaret, non magis
+          <lb ed="#P" n="82"/>esset principium motus, quam visionis, verbi
+          <lb ed="#P" n="83"/>gratia, vel intellectionis. Idem sentire videtur
+          <lb ed="#P" n="84"/>S. Thomas, 1 part., quaest. 75, art. 3, ad 3,
+          <lb ed="#P" n="85"/>dum ait vim appetitivam esse effectricem: vim
+          <lb ed="#P" n="86"/>vero motivam existentem in membris, motum
+          <lb ed="#P" n="87"/>exequi: per eamque membra reddi habilia ad
+          <lb ed="#P" n="88"/>obediendum appetitui, cujus actus, inquit, non
+          <lb ed="#P" n="89"/>est movere, sed moveri. ldem docet 2, contra
+          <lb ed="#P" n="90"/>Gent., cap. 82, ubi Ferrarius, in fine, ac late
+          <lb ed="#P" n="91"/>Capreolus, in 2, d. 1, quaest. 2, ad argumenta
+          <lb ed="#P" n="92"/>Aureoli, Cajetanus 3, de Anima, suo cap. 6.
+          <lb ed="#P" n="93"/>Ratione quoque arguitur: quia hic modus 
+          con<lb break="no" ed="#P" n="94"/>currendi ad progressionem suffhiciens est, ac
+          <lb ed="#P" n="95"/>maxime consonus naturae appetitivae, 
+          perfec<lb break="no" ed="#P" n="96"/>tionique amantis: ergo, etc. Assumptum 
+          os<lb break="no" ed="#P" n="97"/>tenditur quoad primam partem. Nam posita
+          <lb ed="#P" n="98"/>efficacia in appetitu ad effliciendum motum,
+          <lb ed="#P" n="99"/>posita item in membris dispositione ad 
+          obedien<lb break="no" ed="#P" n="100"/>dum, nihil aliud apparet necessarium: atque
+          <lb ed="#P" n="101"/>exemplum de Angelo movente coelum idem
+          <lb ed="#P" n="102"/>confirmat. Secunda deinde pars suadetur; quia
+          <lb ed="#P" n="103"/>appetitus potentia est inclinans ad aliud ergo
+          <lb ed="#P" n="104"/>consonum illi est, ut etiam moveatur ad illud
+          <lb ed="#P" n="105"/>consequendum: ejusdem quippe potentiae est
+          <lb ed="#P" n="106"/>in finem tendere, et ad consecutionem illius
+          <lb ed="#P" n="107"/>conari. Tertia denique pars probatur: tum quia
+          <lb ed="#P" n="108"/>quo pauciora principia concurrunt ad actionem
+          <lb ed="#P" n="109"/>aliquam, eo melius est operanti: tum quia
+          <lb ed="#P" n="110"/>operari per potentiam animalem, ac per actio-
+          <pb ed="#P" n="779"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem immanentem multo perfectius est, quam
+          <lb ed="#P" n="2"/>per potentiam extrinsecam. Et confirmatur,
+          <lb ed="#P" n="3"/>quoniam motus variatur pro ratione 
+          appeti<lb break="no" ed="#P" n="4"/>tus, si enim hic vehemens sit, motus quoque
+          <lb ed="#P" n="5"/>velox est, si sit remissus, motus etiam tardius
+          <lb ed="#P" n="6"/>editur: ergo signum est illum ab appetitu 
+          pro<lb break="no" ed="#P" n="7"/>cedere.
+        </p>
+        <p xml:id="szdada-y19131-d1e454">
+          <lb ed="#P" n="8"/>5. Secunda et probabilior opinio. — 
+          Proba<lb break="no" ed="#P" n="9"/>tur primo. — Contrariam sententiam tenet
+          <lb ed="#P" n="10"/>Henricus, quodl. 1, q. 6, Godfredus, quodl. 1,
+          <lb ed="#P" n="11"/>q. 4, Thienensis 3, de Anima, 54, negantes
+          <lb ed="#P" n="12"/>appetitum principium esse immediate 
+          eliciti<lb break="no" ed="#P" n="13"/>vum motus localis, darique putant in ipsis
+          <lb ed="#P" n="14"/>membris animalis virtutem aliam, quae active
+          <lb ed="#P" n="15"/>exequatur motum: quia tamen potentia haec
+          <lb ed="#P" n="16"/>in actione sua omnino ab appetitu pendet,
+          <lb ed="#P" n="17"/>ideo motum ab appetitu provenire. Consonat
+          <lb ed="#P" n="18"/>huic opinioni Aristoteles, in 3, de Anima,
+          <lb ed="#P" n="19"/>textu 54, quatenus ait dari organum quoddam
+          <lb ed="#P" n="20"/>corporeum quo appetitus perficit motum. Idem
+          <lb ed="#P" n="21"/>insinuat D. Thomas, opuscul. 43, cap. 5, 
+          di<lb break="no" ed="#P" n="22"/>cens, appetitum imperare motum, 
+          aestimati<lb break="no" ed="#P" n="23"/>vam dirigere, potentiam motivam exequi, et
+          <lb ed="#P" n="24"/>1 p.. q. 78, art. 1, ad 4, sensum et appetitum
+          <lb ed="#P" n="25"/>non sufficere ad movendum nisi super addatur
+          <lb ed="#P" n="26"/>vis aliqua, motivam enim solum esse in 
+          appe<lb break="no" ed="#P" n="27"/>titu, ut in imperante motum, in ipsis autem
+          <lb ed="#P" n="28"/>partibus corporis est, ut fiant habiles ad 
+          obe<lb break="no" ed="#P" n="29"/>diendum appetitui. Ex quo loco rationes 
+          de<lb break="no" ed="#P" n="30"/>ducuntur pro hac parte. Prima. Virtus motiva
+          <lb ed="#P" n="31"/>potentia est animae ab aliis distincta, in 
+          parti<lb break="no" ed="#P" n="32"/>busque ipsius corporis subjectata: ergo 
+          po<lb break="no" ed="#P" n="33"/>tentia activa est, non passiva tantum. 
+          Conse<lb break="no" ed="#P" n="34"/>quentia valet, eo quod potentiae animae, ut
+          <lb ed="#P" n="35"/>anima est, activae sunt, cum actus earum sint
+          <lb ed="#P" n="36"/>vitales, atque adeo a principio intrinseco 
+          ac<lb break="no" ed="#P" n="37"/>tivo procedentes. Unde confirmatur intentum.
+          <lb ed="#P" n="38"/>Nam actus, quo scribo, verbi gratia, non 
+          so<lb break="no" ed="#P" n="39"/>lum est actus vitae, prout ab ipso appetitu 
+          eli<lb break="no" ed="#P" n="40"/>citur, et appetitur, sed etiam prout ab ipsa
+          <lb ed="#P" n="41"/>manu executioni mandatur, nam ipsemet 
+          mo<lb break="no" ed="#P" n="42"/>tus manus est vere vitalis: ergo respectu illius
+          <lb ed="#P" n="43"/>motus non se habet manus mere passive, sed
+          <lb ed="#P" n="44"/>active etiam: ergo est in manu potentia 
+          ali<lb break="no" ed="#P" n="45"/>qua illius motus ab appetitu distincta.
+        </p>
+        <p xml:id="szdada-y19131-d1e539">
+          <lb ed="#P" n="46"/>6. Probatur secundo. —Secunda ratio. 
+          Ap<lb break="no" ed="#P" n="47"/>petitus non immediate elicit actum localem,
+          <lb ed="#P" n="48"/>sed imperat: concedenda ergo est distincta
+          <lb ed="#P" n="49"/>potentia activa immediate efficiens illum.
+          <lb ed="#P" n="50"/>Consequentia est clara ex illorum sententia,
+          <lb ed="#P" n="51"/>atque ex ratione actus imperati superius
+          <lb ed="#P" n="52"/>explicata. Antecedens vero est S. Thomae,
+          <lb ed="#P" n="53"/>probaturque, quoniam sicut appetitus membra
+          <lb ed="#P" n="54"/>ciet ad motum localem, ita singulas partes
+          <lb ed="#P" n="55"/>impellit ad suas actiones: sed nulla actio alia-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rum partium est elicita ab appetitu, sed 
+          impe<lb break="no" ed="#P" n="57"/>rata tantum: ergo motus localis nonnisi 
+          im<lb break="no" ed="#P" n="58"/>peratus erit, cum nulla particularis ratio
+          <lb ed="#P" n="59"/>detur, cum aliter contingat in illo. 
+          Confirma<lb break="no" ed="#P" n="60"/>tur: nam sicut per motum localem exequitur
+          <lb ed="#P" n="61"/>quisquis proprium appetitum, ita per visum,
+          <lb ed="#P" n="62"/>vel intellectum exequitur quidquid appetit:
+          <lb ed="#P" n="63"/>ergo nulla est ratio, cur unus sit actus elicitus
+          <lb ed="#P" n="64"/>ab appetitu magis quam alius.
+        </p>
+        <p xml:id="szdada-y19131-d1e585">
+          <lb ed="#P" n="65"/>7. Probatur tertio. — Tertia ratio. Si 
+          appe<lb break="no" ed="#P" n="66"/>titus elicit motum, nullaque alia virtus est 
+          ac<lb break="no" ed="#P" n="67"/>tiva illius, per quem actum quaeso edit 
+          appe<lb break="no" ed="#P" n="68"/>titus talem motum, aut enim per actum edit,
+          <lb ed="#P" n="69"/>quo vult ipsum motum fieri, aut fortasse per
+          <lb ed="#P" n="70"/>alium: hoc postremum fingi non potest, omnis
+          <lb ed="#P" n="71"/>siquidem voluntatis actus est volitio, aut 
+          noli<lb break="no" ed="#P" n="72"/>tio, idlemque proportionaliter asserendum in
+          <lb ed="#P" n="73"/>appetitu, atque in Angelo motore constat illo
+          <lb ed="#P" n="74"/>actu coelum movere, quod vult movere, nec
+          <lb ed="#P" n="75"/>cogitari potest actus accommodatior ad hunc
+          <lb ed="#P" n="76"/>movendi effectum: si ergo per actum aliquem
+          <lb ed="#P" n="77"/>appetitus movet, maxime per talem aliquem
+          <lb ed="#P" n="78"/>movet: esse autem hoc falsum ostenditur.
+          <lb ed="#P" n="79"/>Nam experimur saepe in nobis motus non 
+          pau<lb break="no" ed="#P" n="80"/>cos, absque eorum appetitione actuali, quales
+          <lb ed="#P" n="81"/>non raro motus oculorum, et palpebrarum,
+          <lb ed="#P" n="82"/>qui nobis inconsiderantibus fiunt: motus etiam
+          <lb ed="#P" n="83"/>pedis, aut manus indeliberate, et sine 
+          adver<lb break="no" ed="#P" n="84"/>tentia passim fiunt, circa quos evidens est,
+          <lb ed="#P" n="85"/>appetitum non expromere specialem actum :
+          <lb ed="#P" n="86"/>fiunt ergo a potentia motrice activa speciali.
+          <lb ed="#P" n="87"/>Eademque ratio est de motibus aliis. Unde
+          <lb ed="#P" n="88"/>sumitur novum argumentum: nam si motus
+          <lb ed="#P" n="89"/>localis esset actus immediate ab appetitu 
+          edi<lb break="no" ed="#P" n="90"/>tus, non posset talis motus praevenire 
+          appeti<lb break="no" ed="#P" n="91"/>tum et cognitionem: consequens est contra
+          <lb ed="#P" n="92"/>experientiam: ergo, etc.
+        </p>
+        <p xml:id="szdada-y19131-d1e649">
+          <lb ed="#P" n="93"/>8. Probatur quarto. — Hoec opinio 
+          preefer<lb break="no" ed="#P" n="94"/>tur pro qua videndus in simili auctor, lib. 4,
+          <lb ed="#P" n="95"/>de Angelis, cap. 29.—Ultima ratio. Si membra
+          <lb ed="#P" n="96"/>passive tantum se haberent ad motum, 
+          pos<lb break="no" ed="#P" n="97"/>sent semper, et ad nutum moveri ab appetitu,
+          <lb ed="#P" n="98"/>eorum siquidem indispositio suflficiens non
+          <lb ed="#P" n="99"/>esset ad impediendam motionem appetitus,
+          <lb ed="#P" n="100"/>quia cum motus localis imperfectae rationis sit
+          <lb ed="#P" n="101"/>fere nullam dispositionem requirit, ut 
+          recipia<lb break="no" ed="#P" n="102"/>tur in subjecto: ergo si nihilominus 
+          disposi<lb break="no" ed="#P" n="103"/>tio postulatur, non nisi propter vim activam
+          <lb ed="#P" n="104"/>existentem in membris. Atque haec opinio 
+          mi<lb break="no" ed="#P" n="105"/>hi probabilior apparet, quam etiam indicat
+          <lb ed="#P" n="106"/>D. Thomas 2, cont. Gentes, cap. 35, in 
+          solu<lb break="no" ed="#P" n="107"/>tione secundi argumenti, dum ait in locali
+          <lb ed="#P" n="108"/>motu animalis inter actum voluntatis, seu 
+          ap<lb break="no" ed="#P" n="109"/>petitus, et effectum mediare actionem 
+          facien<lb break="no" ed="#P" n="110"/>tem motum: ergo et potentia activa mediabit.
+        </p>
+        <p xml:id="szdada-y19131-d1e691">
+          <pb ed="#P" n="780"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>9. Ad argumentum, in num. 4. — Ad 
+          argu<lb break="no" ed="#P" n="2"/>menta vero in contrarium dices, Aristotelem
+          <lb ed="#P" n="3"/>et sanctum Thomam non negare in membris
+          <lb ed="#P" n="4"/>virtutem motivam activam, sed aperte illam
+          <lb ed="#P" n="5"/>agnoscere: attamen quia inter omnes alias
+          <lb ed="#P" n="6"/>potentias, quae appetitui subordinantur, haec
+          <lb ed="#P" n="7"/>maxime subditur illi (nam est quasi quoddam
+          <lb ed="#P" n="8"/>instrumentum per se ordinatum ad 
+          servien<lb break="no" ed="#P" n="9"/>dum illi), ideo motum localem appetitui 
+          tri<lb break="no" ed="#P" n="10"/>buere duo quippe sunt genera potentiarum
+          <lb ed="#P" n="11"/>animae, quas movet appetitus, cognoscentes
+          <lb ed="#P" n="12"/>videlicet et motrices. Circa priores non se 
+          ge<lb break="no" ed="#P" n="13"/>rit appetitus ut motor tantum, sed ut mobile
+          <lb ed="#P" n="14"/>etiam ab illis, ideoque illarum actio non adeo
+          <lb ed="#P" n="15"/>attribuitur appetitui: at potentia motiva 
+          tan<lb break="no" ed="#P" n="16"/>tum se habet ut mota et subordinata appetitui,
+          <lb ed="#P" n="17"/>quem necessario supponit, si ordinate, ac recte
+          <lb ed="#P" n="18"/>exire debeat in actum. Unde communiter 
+          ap<lb break="no" ed="#P" n="19"/>petitus ponitur tanquam principale principium
+          <lb ed="#P" n="20"/>localis motus, atque ita sunt interpretandi
+          <lb ed="#P" n="21"/>Aristoteles et sanctus Thomas, quando quidem
+          <lb ed="#P" n="22"/>de illorum mente alias constat. Ad rationem
+          <lb ed="#P" n="23"/>vero respondeo appetitum solum minime 
+          suf<lb break="no" ed="#P" n="24"/>ficere, ut ex dictis constare potest.
+        </p>
+        <p xml:id="szdada-y19131-d1e750">
+          <lb ed="#P" n="25"/>10. Dubium primum circa superiorem 
+          doctri<lb break="no" ed="#P" n="26"/>nam quodnam sit subjectum motricis virtutis.
+          <lb ed="#P" n="27"/>Subjectum particularis virtutis. — Sed jam
+          <lb ed="#P" n="28"/>dubia insurgunt circa hanc potentiam. 
+          Pri<lb break="no" ed="#P" n="29"/>mum, in qua parte corporis resideat: Pro quo
+          <lb ed="#P" n="30"/>notandum, sicut in potentiis sensitivis quaedam
+          <lb ed="#P" n="31"/>peculiaris invenitur in particulari organo 
+          re<lb break="no" ed="#P" n="32"/>sidens, quaedam universalis influens in 
+          poten<lb break="no" ed="#P" n="33"/>tias reliquas sensitivas: easque gubernans, ita
+          <lb ed="#P" n="34"/>in praesenti distingui posse, atque dicendum,
+          <lb ed="#P" n="35"/>organum motricis potentiae particulare esse in
+          <lb ed="#P" n="36"/>musculis, seu nervis copulantibus inter se
+          <lb ed="#P" n="37"/>ossa, in quibus est ipse veluti cardo motus.
+          <lb ed="#P" n="38"/>Ratio vero est, quia localis motus illis 
+          parti<lb break="no" ed="#P" n="39"/>bus maxime exercetur: nam dum 
+          contrahun<lb break="no" ed="#P" n="40"/>tur, vel tenduntur musculi, ipse motus 
+          perfi<lb break="no" ed="#P" n="41"/>citur, unde et laesis partibus impeditur 
+          pro<lb break="no" ed="#P" n="42"/>gressio. Ita Aristoteles 5, lib. de Generatione
+          <lb ed="#P" n="43"/>animalium, cap. 6, et lib. de Communi 
+          anima<lb break="no" ed="#P" n="44"/>lium motu, ac S. Thomas, dicto opusculo 43.
+          <lb ed="#P" n="45"/>Est autem vis alia motiva aliarum partium
+          <lb ed="#P" n="46"/>per quamdam contractionem et dilationem ut
+          <lb ed="#P" n="47"/>in palpebris, oculorum superciliis, et carnosa
+          <lb ed="#P" n="48"/>cute frontis, etc. Et haec etiam vim in 
+          muscu<lb break="no" ed="#P" n="49"/>lis residet, quibus dictae partes texuntur et
+          <lb ed="#P" n="50"/>gubernantur: huc etiam pertinet motus 
+          loca<lb break="no" ed="#P" n="51"/>lis quarumdam partium, ut fit in risu, 
+          cujus<lb break="no" ed="#P" n="52"/>vis effectrix in septo transverso haeret, et 
+          mus<lb break="no" ed="#P" n="53"/>culis thoracis, atque oris.
+        </p>
+        <p xml:id="szdada-y19131-d1e815">
+          <lb ed="#P" n="54"/>11. Subjectum virtutis generalis. — De 
+          vir<lb break="no" ed="#P" n="55"/>tute universali Aristoteles ubique testatur esse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in corde, in quo semper collocat principalem
+          <lb ed="#P" n="57"/>virtutem, et est probabile, nam appetitus in
+          <lb ed="#P" n="58"/>corde haeret, motus autem localis appetitum
+          <lb ed="#P" n="59"/>consequitur. Alii volunt esse in cerebro, quia
+          <lb ed="#P" n="60"/>virtus haec motiva, et consequitur sensitivam,
+          <lb ed="#P" n="61"/>et utraque ad eumdem finem ordinatur. Vide
+          <lb ed="#P" n="62"/>Valesium 2, Controversiarum, cap. 20. Quod
+          <lb ed="#P" n="63"/>etiam inde confirmatur, quia quandocumque
+          <lb ed="#P" n="64"/>ex infirmitate aliqua, aut paralysi sensus
+          <lb ed="#P" n="65"/>amittitur, motus etiam membrorum cessat,
+          <lb ed="#P" n="66"/>quod indicio est, motum quoque ex ea radice
+          <lb ed="#P" n="67"/>nasci ex qua sensus oritur, qua vitiata 
+          uter<lb break="no" ed="#P" n="68"/>que perit. Antecedens constat experientia, de
+          <lb ed="#P" n="69"/>qua vide eumdem Valesium, l. 5 
+          Controversia<lb break="no" ed="#P" n="70"/>rum, c. 10, contingit tamen aliquando amitti
+          <lb ed="#P" n="71"/>motum remanente sensu, quia motus plures
+          <lb ed="#P" n="72"/>dispositiones requirit in membris: potentiaque
+          <lb ed="#P" n="73"/>motiva perfectionem addit supra sensum: 
+          pro<lb break="no" ed="#P" n="74"/>babilis quidem haec pars, sed Aristotelis 
+          sen<lb break="no" ed="#P" n="75"/>tentia arridet magis.
+        </p>
+        <p xml:id="szdada-y19131-d1e867">
+          <lb ed="#P" n="76"/>12. Secundum dubium. — Secundum 
+          du<lb break="no" ed="#P" n="77"/>bium est, utrum virtus motiva, de qua 
+          tracta<lb break="no" ed="#P" n="78"/>mus, communis sit omnibus animantibus.
+          <lb ed="#P" n="79"/>Dico breviter eam immediate nasci ex 
+          sensiti<lb break="no" ed="#P" n="80"/>va, ambas quippe ad eumdem finem ordinari,
+          <lb ed="#P" n="81"/>perfectiorem scilicet vitam animalis. Unde
+          <lb ed="#P" n="82"/>sensus, appetitus et potentia motiva 
+          propor<lb break="no" ed="#P" n="83"/>tionaliter se habent in illo, et perfectiorem
+          <lb ed="#P" n="84"/>sensum perfectior virtus motiva comitatur.
+          <lb ed="#P" n="85"/>Quo fit, ut quaedam moveantur ad distantia
+          <lb ed="#P" n="86"/>loca, quia a distantibus sensibilibus immutari
+          <lb ed="#P" n="87"/>possunt, et inter ipsa quaedam moventur per
+          <lb ed="#P" n="88"/>aerem volando, alia per aquam natando, alia
+          <lb ed="#P" n="89"/>vero per terram reptando, vel gradiendo, et
+          <lb ed="#P" n="90"/>quae gradiuntur perfectiora inter omnia 
+          cen<lb break="no" ed="#P" n="91"/>sentur, animalibus autem imperfectissimis et
+          <lb ed="#P" n="92"/>conchyliis, quia fixa etiam moventur 
+          secun<lb break="no" ed="#P" n="93"/>dum partes, non omnino deest motrix potentia,
+          <lb ed="#P" n="94"/>ut S. Thomas notavit, 1. 3, de Anima, cap. 8,
+          <lb ed="#P" n="95"/>et suo cap. 6 Cajetanus. Nam habent potentiam
+          <lb ed="#P" n="96"/>ad dilatandum se et constringendum, quia cum
+          <lb ed="#P" n="97"/>imaginatione et appetitu efficiunt, et ideo 
+          ta<lb break="no" ed="#P" n="98"/>lis potentia motrix animalis etiam est, quia
+          <lb ed="#P" n="99"/>etiam Aristoteles docet 3, de Anima, textu 57,
+          <lb ed="#P" n="100"/>scribens, sicut illis animalculis inest motus, ita
+          <lb ed="#P" n="101"/>inesse imaginationem, quod liquet, quia 
+          punc<lb break="no" ed="#P" n="102"/>ta contrahuntur, et delectatione expandunt
+          <lb ed="#P" n="103"/>sese: cum imaginatione igitur, et appetitu id
+          <lb ed="#P" n="104"/>exequuntur.
+        </p>
+        <p xml:id="szdada-y19131-d1e932">
+          <lb ed="#P" n="105"/>13. Dubium tertium. — Primum 
+          pronuntia<lb break="no" ed="#P" n="106"/>tum. — Tertium dubium est, an in homine
+          <lb ed="#P" n="107"/>possit aliquando voluntas movere localiter 
+          im<lb break="no" ed="#P" n="108"/>mediate absque appetitu sensitivo, vel 
+          appeti<lb break="no" ed="#P" n="109"/>tus sensitivus absque voluntate. S. Thomas, 1
+          <lb ed="#P" n="110"/>p., quaest. 80, art 2, ad 3, sentire videtur vo-
+          <pb ed="#P" n="781"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>luntatem non nisi medio appetitu sensitivo
+          <lb ed="#P" n="2"/>movere, et q. 81, art. 1, ait, appetitum 
+          sensi<lb break="no" ed="#P" n="3"/>tivum absque voluntate non movere. Dico 
+          ta<lb break="no" ed="#P" n="4"/>men primo. Appetitus sensitivus, seclusis 
+          im<lb break="no" ed="#P" n="5"/>pedimentis, movere non potest renuente 
+          vo<lb break="no" ed="#P" n="6"/>Iuntate. Probatur, quia motio localis in nobis
+          <lb ed="#P" n="7"/>libere fit, exceptis quibusdam motionibus, quae
+          <lb ed="#P" n="8"/>naturali quadam alteratione fiunt, et ab 
+          appe<lb break="no" ed="#P" n="9"/>titu etiam sensitivo non pendent, ut supra 
+          no<lb break="no" ed="#P" n="10"/>tavi: ergo talis motus exerceri non potest
+          <lb ed="#P" n="11"/>renuente voluntate. Secundo ita exigit debita
+          <lb ed="#P" n="12"/>hominis compositio, in quo voluntas tanquam
+          <lb ed="#P" n="13"/>primum movens et tanquam primum 
+          princi<lb break="no" ed="#P" n="14"/>pium humanarum operationum se habet.
+        </p>
+        <p xml:id="szdada-y19131-d1e983">
+          <lb ed="#P" n="15"/>14. Secundum pronuntiatum. — Dico 
+          se<lb break="no" ed="#P" n="16"/>cundo. Appetitus sensitivus de se sufficiens est
+          <lb ed="#P" n="17"/>ad movendum si voluntas non contradicat.
+          <lb ed="#P" n="18"/>Pro expositione notandum, voluntatem multis
+          <lb ed="#P" n="19"/>modis posse spectari. Primo, quando impedita
+          <lb ed="#P" n="20"/>est ad perfecte operandum, sicut in pueris
+          <lb ed="#P" n="21"/>ante rationis usum, et in amentibus: tunc vero
+          <lb ed="#P" n="22"/>ipsa nec impedit appetitum, nec impelht,
+          <lb ed="#P" n="23"/>proindeque appetitus valet interim causare
+          <lb ed="#P" n="24"/>motum, ut experientia docet, et ratione patet.
+          <lb ed="#P" n="25"/>Nam in brutis appetitus suflicit ad causandum
+          <lb ed="#P" n="26"/>motum :: ergo etiam in nobis sufliciet, nisi 
+          im<lb break="no" ed="#P" n="27"/>pediatur. Altero modo spectari potest voluntas,
+          <lb ed="#P" n="28"/>ut apta est ad renuendum, vel consentiendum,
+          <lb ed="#P" n="29"/>nec a quoquam impedita, ita tamen ut 
+          indit<lb break="no" ed="#P" n="30"/>ferenter se habeat, nec in actum exeat, in quo
+          <lb ed="#P" n="31"/>etiam statu poterit appetitus movere absque
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="32"/>voluntate: tum propter eamdem causam:
+          <lb ed="#P" n="33"/>tum etiam, quia licet tunc voluntas explicite
+          <lb ed="#P" n="34"/>non consentiat, virtute saltem consentire 
+          sen<lb break="no" ed="#P" n="35"/>setur. RHaro autem, aut nunquam fortasse 
+          po<lb break="no" ed="#P" n="36"/>terit sic se habere voluntas, quando fit actus.
+          <lb ed="#P" n="37"/>Tertio denique modo potest se habere 
+          volun<lb break="no" ed="#P" n="38"/>tas, ut positive moveat, vel impediat, tunc
+          <lb ed="#P" n="39"/>vero constat satis quid dicendum sit in 
+          propo<lb break="no" ed="#P" n="40"/>sito dubio. Atque ita patet universim, 
+          quomo<lb break="no" ed="#P" n="41"/>do appetitus possit movere, vel non movere
+          <lb ed="#P" n="42"/>absque voluntate.
+        </p>
+        <p xml:id="szdada-y19131-d1e1048">
+          <lb ed="#P" n="43"/>15. Tertium pronuntiatum. — Jam dico
+          <lb ed="#P" n="44"/>tertio. Voluntas de se potest movere absque
+          <lb ed="#P" n="45"/>appetitu, imo ipso contradicente movere. 
+          Pro<lb break="no" ed="#P" n="46"/>batur, quia potentia libera est, et principium
+          <lb ed="#P" n="47"/>omnis motus, ut supra diximus. Item, quia
+          <lb ed="#P" n="48"/>nulla se offert ratio, quare hac in parte 
+          pen<lb break="no" ed="#P" n="49"/>deat ab appetitu, id quod satis videtur docere
+          <lb ed="#P" n="50"/>experientia. Crediderim tamen communiter
+          <lb ed="#P" n="51"/>paulatim appetitum trahi ad consensum 
+          volun<lb break="no" ed="#P" n="52"/>tatis, simulque cum illa movere, cum id exigat
+          <lb ed="#P" n="53"/>suavis rerum dispositio, ut superiora regant
+          <lb ed="#P" n="54"/>inferiora per media, si tamen media ipsa non
+          <lb ed="#P" n="55"/>repugnent, sed debite exequantur influxsum
+          <lb ed="#P" n="56"/>superioris: unde potest intelligi localem 
+          mo<lb break="no" ed="#P" n="57"/>tum non elici immediate ab appetitu, sed 
+          im<lb break="no" ed="#P" n="58"/>perari: voluntas enim impedire nequit actum
+          <lb ed="#P" n="59"/>elicitum appetitus, ipso renuente, licet tunc
+          <lb ed="#P" n="60"/>eidem voluntati non imputetur: motum autem
+          <lb ed="#P" n="61"/>localem impedire eflficaciter potest, ut 
+          expe<lb break="no" ed="#P" n="62"/>rientia constat.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

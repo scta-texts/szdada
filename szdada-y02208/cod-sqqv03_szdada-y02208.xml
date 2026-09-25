@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="89"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y02208"><!-- t2l2prae -->
+        <head xml:id="szdada-y02208-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-y02208-d1e103">
+          <pb ed="#P" n="89"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER SECUNDUS.
+          <lb ed="#P" n="2"/>DE OPERIBUS
+          <lb ed="#P" n="3"/>SINGULORUM SEX DIERUM, ET SEPTIMI DIEI REQUIE.
+        </p>
+        <p xml:id="szdada-y02208-d1e116">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>1. Notatio prima de duplici genere corporum,
+          <lb ed="#P" n="5"/>simplicium scilicet et mixtorum et quo ordine de
+          <lb ed="#P" n="6"/>eis agendum. — Duo imprimis notanda sunt.
+          <lb ed="#P" n="7"/>Primum est inter corpora universi quaedam
+          <lb ed="#P" n="8"/>esse simplicia, et alia mixta. Priora sunt coeli
+          <lb ed="#P" n="9"/>et elementa, ex quibus, ut Philosophi censent,
+          <lb ed="#P" n="10"/>universum primario et quasi essentialiter 
+          com<lb break="no" ed="#P" n="11"/>ponitur, quia primarius ordo universi 
+          secun<lb break="no" ed="#P" n="12"/>dum haec corpora attenditur, et quia in illis
+          <lb ed="#P" n="13"/>corporibus prius factum est universum actu et
+          <lb ed="#P" n="14"/>in se, et per propriam creationem. Mixta vero
+          <lb ed="#P" n="15"/>ex elementis constant, et in simplicibus 
+          cor<lb break="no" ed="#P" n="16"/>poribus virtute continentur, et juxta 
+          partici<lb break="no" ed="#P" n="17"/>pationem illorum in universo collocantur,
+          <lb ed="#P" n="18"/>ideoque ad constitutionem universi secundario
+          <lb ed="#P" n="19"/>pertinere dicuntur. Quod quidem secundum
+          <lb ed="#P" n="20"/>ordinem situum, qui ad unitatem universi 
+          in<lb break="no" ed="#P" n="21"/>ter corpora, ex quibus constat, praecipue 
+          con<lb break="no" ed="#P" n="22"/>sideratur: non secundum ordinem perfectionis
+          <lb ed="#P" n="23"/>accipiendum est, nam in hac mixta corpora 
+          re<lb break="no" ed="#P" n="24"/>gulariter, seu ex genere suo superant 
+          simpli<lb break="no" ed="#P" n="25"/>cia. Unde etiam fit, ut licet corpora simplicia
+          <lb ed="#P" n="26"/>productionis, seu executionis ordine fuerint
+          <lb ed="#P" n="27"/>propria, nihilominus ordine intentionis priora
+          <lb ed="#P" n="28"/>sint mixta, nam ad illorum generationem et
+          <lb ed="#P" n="29"/>conservationem simplicia ordinata sunt, et
+          <lb ed="#P" n="30"/>omnia tandem propter hominem, qui 
+          supre<lb break="no" ed="#P" n="31"/>mum gradum inter mixta continet, facta sunt.
+          <lb ed="#P" n="32"/>In praesenti autem materia de his corporibus
+          <lb ed="#P" n="33"/>secundum ordinem executionis tractamus, et
+          <lb ed="#P" n="34"/>ideo in praecedenti libro dictum est de creatione
+          <lb ed="#P" n="35"/>universi prout ex simplicibus corporibus 
+          con<lb break="no" ed="#P" n="36"/>stat, in hoc vero de aliis operibus, quae ad
+          <lb ed="#P" n="37"/>productionem et conservationem mixtorum a
+          <lb ed="#P" n="38"/>creatore universi in ejus exordio facta sunt,
+          <lb ed="#P" n="39"/>dicendum superest. Quia vero haec opera non
+          <lb ed="#P" n="40"/>simul, sed per successionem sex dierum a Deo
+          <lb ed="#P" n="41"/>sunt facta, ideo sigillatim etiam, et per 
+          singu<lb break="no" ed="#P" n="42"/>los dies a nobis sunt explicanda.
+        </p>
+        <p xml:id="szdada-y02208-d1e205">
+          <lb ed="#P" n="43"/>2. Notatio secunda triplicis operis, creationis,
+          <lb ed="#P" n="44"/>distinctionis, et ornatus evr D. Thoma. —
+          Se<lb break="no" ed="#P" n="45"/>cundo advertere oportet, in productione uni-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="46"/>versi tria opera distingui a theologis, scilicet
+          <lb ed="#P" n="47"/>creationis, formationis, seu distinctionis, et
+          <lb ed="#P" n="48"/>ornatus. Hanc operum divisionem tradit divus
+          <lb ed="#P" n="49"/>Thomas, 1 part., quaest. 65, in principio, et 
+          la<lb break="no" ed="#P" n="50"/>tius, explicat quaest. 70, art. 1. Habetque 
+          fun<lb break="no" ed="#P" n="51"/>damentum in verbis Scripturae, nam Gen. 1,
+          <lb ed="#P" n="52"/>de opere creationis dicitur: /a princpio creavit
+          <lb ed="#P" n="53"/>Deus, etc. Et de opere distinctionis: Dicisit
+          <lb ed="#P" n="54"/>lucem a tenebris, etc., Dividat aquas ab aquis,
+          <lb ed="#P" n="55"/>et iterum: Congregentur aquae, que sub caelo
+          <lb ed="#P" n="56"/>sunt, in locum unwn, et appareat arida, quae
+          <lb ed="#P" n="57"/>verba opus cujusdam distinctionis significant.
+          <lb ed="#P" n="58"/>De opere vero ornatus intelligit divus Thomas
+          <lb ed="#P" n="59"/>verba illa quarti diei: Fiant luminaria in 
+          fir<lb break="no" ed="#P" n="60"/>mamento cali, expressius vero in initio capitis
+          <lb ed="#P" n="61"/>secundi, fit mentio ornatus in verbis illis: 2,
+          i<lb break="no" ed="#P" n="62"/>tur perfecti sunt caeli et terra, et omnis ornatus
+          <lb ed="#P" n="63"/>eorum. Adeoque inter opera distinctionis, et
+          <lb ed="#P" n="64"/>ornatus, D. Thomas distinguit, ut tribus 
+          pri<lb break="no" ed="#P" n="65"/>mis diebus opus distinctionis, aliis vero tribus
+          <lb ed="#P" n="66"/>ultimis opus ornatus attribuat, ut ex initis
+          <lb ed="#P" n="67"/>quaest. 61 et 70, manifestum est. Si quis 
+          ta<lb break="no" ed="#P" n="68"/>men consideret Scripturae verba etiam in opere
+          <lb ed="#P" n="69"/>quartae diei, distinctionem indicat, cum dicit:
+          <lb ed="#P" n="70"/>Ft dividant diem, ac noctem, et sint in signa,
+          <lb ed="#P" n="71"/>et tempora, et dies, et annos. Et e converso
+          <lb ed="#P" n="72"/>etiam in opere diei primae opus ornatus per
+          <lb ed="#P" n="73"/>illa verba significari potest, fiat luv. Sicut in
+          <lb ed="#P" n="74"/>quarta significari dicitur per illa verba, fiant
+          <lb ed="#P" n="75"/>luminaria est enim eadem ratio. Idemque est
+          <lb ed="#P" n="76"/>de illis verbis secundae diei, fiat firmamentum,
+          <lb ed="#P" n="77"/>et de illis tertiae diei, Germinet terra herbam
+          <lb ed="#P" n="78"/>virentem, etc. Nam si productio animalium
+          <lb ed="#P" n="79"/>quinta et sexta die facta, pertinet ad 
+          orna<lb break="no" ed="#P" n="80"/>mentum terrae, aquae et aeris: cur productio
+          <lb ed="#P" n="81"/>vegetabilium facta tertia die ad ornamentum
+          <lb ed="#P" n="82"/>terrae non pertinebii? Quod enim animalia 
+          lo<lb break="no" ed="#P" n="83"/>caliter moveantur, et ex ea parte vel major,
+          <lb ed="#P" n="84"/>vel notior sit eorum ornatus, non impedit 
+          quo<lb break="no" ed="#P" n="85"/>minus etiam vegetabilia ornent terram, 
+          pul<lb break="no" ed="#P" n="86"/>chriorem, et delectabiliorem illam reddendo,
+          <lb ed="#P" n="87"/>etiamsi in illa fixa sint, et quiescant. Praeter-
+          <pb ed="#P" n="90"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quam quod etiam vegetabilia suum proprium
+          <lb ed="#P" n="2"/>motum habent, quo secundum augmentum, et
+          <lb ed="#P" n="3"/>diminutionem locum etiam aliquo modo 
+          mu<lb break="no" ed="#P" n="4"/>tant, et varios colores induunt, quae varietas,
+          <lb ed="#P" n="5"/>et ad ornatum pertinet, et illum satis 
+          mani<lb break="no" ed="#P" n="6"/>festat. Accedit, quod illa duo, scilicet, 
+          distinc<lb break="no" ed="#P" n="7"/>tio, et ornatus vix possunt opere sejungi; nam
+          <lb ed="#P" n="8"/>distinctio (ut D. Thomas dicit) fit formando et
+          <lb ed="#P" n="9"/>perficiendo, quod informe erat, et ideo etiam
+          <lb ed="#P" n="10"/>e converso ornatus non fit sine aliqua 
+          distinc<lb break="no" ed="#P" n="11"/>tone inter ea, quae ad ornatum pertinent, vel
+          <lb ed="#P" n="12"/>inter id, quod ornatur, et quo ornatur, et hoc
+          <lb ed="#P" n="13"/>videtur etiam colligi ex citatis verbis 
+          Seriptu<lb break="no" ed="#P" n="14"/>rae, fiat et dividat quae simul conjunguntur.
+          <lb ed="#P" n="15"/>Idemque colligi potest ex verbis citatis in 
+          prin<lb break="no" ed="#P" n="16"/>cipio capitis secundi ubi solus ornatus additur
+          <lb ed="#P" n="17"/>perfectioni, id est, creationi coeli et terrae. Et
+          <lb ed="#P" n="18"/>ita etiam Magister, in 2, dist. 12, in principio,
+          <lb ed="#P" n="19"/>et capite penultimo et ultimo nihil distinguere
+          <lb ed="#P" n="20"/>videtur inter opus distinctionis, et ornatus.
+          <lb ed="#P" n="21"/>Unde dicere possumus, illa duo non tam re,
+          <lb ed="#P" n="22"/>quam ratione, seu habitudine distingui, nam
+          <lb ed="#P" n="23"/>ornatus dicitur per habitudinem ad rem que
+          <lb ed="#P" n="24"/>formatur seu perficitur: distinctio vero est
+          <lb ed="#P" n="25"/>quasi relatio consequens per habitudinem ad
+          <lb ed="#P" n="26"/>alia. Unde licet fortasse per quamdam 
+          accom<lb break="no" ed="#P" n="27"/>modationem ornatus tribus ultimis diebus, et
+          <lb ed="#P" n="28"/>distinctio tribus prioribus attribuatur, quia in
+          <lb ed="#P" n="29"/>eis magis relucet, nihilominus, quia in re ipsa
+          <lb ed="#P" n="30"/>aliquid distinctionis, et ornatus in singulis 
+          die<lb break="no" ed="#P" n="31"/>bus apparet, ideo singulorum dierum opera
+          <lb ed="#P" n="32"/>explicando, simul et indivise de his duobus
+          <lb ed="#P" n="33"/>operibus dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

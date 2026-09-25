@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="467"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y11310"><!-- t3l1c1 -->
+        <head xml:id="szdada-y11310-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-y11310-Hd1e103" type="question-title">Utrum anima sit forma, seu actus primus substantialis</head>
+        <p xml:id="szdada-y11310-d1e106">
+          <lb ed="#P" n="53"/>CAPUT I.
+          <lb ed="#P" n="54"/>UTRUM ANIMA SIT FORMA, SEU ACTUS PRIMUS
+          <lb ed="#P" n="55"/>SUBSTANTIALIS.
+        </p>
+        <p xml:id="szdada-y11310-d1e115">
+          <lb ed="#P" n="56"/>1. Duplex anime definitio adducitur em
+          <lb ed="#P" n="57"/>Aristotele.—Quoniam praeter rationalem 
+          ani<lb break="no" ed="#P" n="58"/>mam, alii sunt animarum gradus: non 
+          possu<lb break="no" ed="#P" n="59"/>mus, quid sit rationalis anima exponere: nisi
+          <lb ed="#P" n="60"/>prius genericam animae rationem et essentiam
+          <lb ed="#P" n="61"/>explicemus. Quam rem tractavit Aristoteles,
+          <lb ed="#P" n="62"/>lib. 2, de Anima, cap. 1 et 2, ubi duas animae
+          <lb ed="#P" n="63"/>definitiones tradidit: una est, Anima est actus
+          <lb ed="#P" n="64"/>primus substantialis corporis physice organict
+          <lb ed="#P" n="65"/>potentia vitam habentis. Alia est, Anàma est id,
+          <lb ed="#P" n="66"/>quo vivimus, sentimus, loco movemur et 
+          intelli<lb break="no" ed="#P" n="67"/>gimus. De quibus definitionibus et de 
+          osten<lb break="no" ed="#P" n="68"/>sione, seu demonstratione unius per aliam,
+          <lb ed="#P" n="69"/>quam etiam Aristoteles, in dict. cap. 2, tradit,
+          <lb ed="#P" n="70"/>expositores ibi, et alii philosophi multa 
+          dispu<lb break="no" ed="#P" n="71"/>tant: sed quae huic loco necessaria sunt 
+          brevi<lb break="no" ed="#P" n="72"/>ter possunt expediri. Circa priorem ergo 
+          defi<lb break="no" ed="#P" n="73"/>nitionem duo explicanda sunt. Primum, an
+          <lb ed="#P" n="74"/>recte constituatur anima sub genere 
+          substan<lb break="no" ed="#P" n="75"/>tialis formae. Secundum, an recte per corpus
+          <lb ed="#P" n="76"/>organicum differentia ejus constitutiva 
+          exph<lb break="no" ed="#P" n="77"/>cetur.
+        </p>
+        <p xml:id="szdada-y11310-d1e165">
+          <lb ed="#P" n="78"/>2. Suppositio prima pro titulo capitis.— Ut
+          <lb ed="#P" n="79"/>prius illud declaremus, supponimus imprimis
+          <lb ed="#P" n="80"/>ex 1 Physic., ex dictis in 1 tom. 
+          Metaphysi<lb break="no" ed="#P" n="81"/>cae, disput. 45, sect. 1. Omnes substantias 
+          cor<lb break="no" ed="#P" n="82"/>poreas ex duabus partibus essentialibus con-
+          <pb ed="#P" n="468"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>stare, materia scilicet et forma: quarum prior,
+          <lb ed="#P" n="2"/>potentia est, posterior vero est actus ejus:
+          <lb ed="#P" n="3"/>quia materia de se indifferens est ad varias
+          <lb ed="#P" n="4"/>formas, et per unamquamque formam 
+          defini<lb break="no" ed="#P" n="5"/>tur, ac determinatur ad existendum in tali
+          <lb ed="#P" n="6"/>supposito, seu completa natura.
+        </p>
+        <p xml:id="szdada-y11310-d1e197">
+          <lb ed="#P" n="7"/>3. Suppositio secunda. — Suppositio tertia.
+          <lb ed="#P" n="8"/>—beinde suppono inter substantias corporeas
+          <lb ed="#P" n="9"/>quasdam esse viventes, alias non viventes:
+          <lb ed="#P" n="10"/>quae divisio communi sensu, quasi per se nota,
+          <lb ed="#P" n="11"/>recepta est, ex his, quae sensibus patent. 
+          Quam<lb break="no" ed="#P" n="12"/>vis in assignanda primaria differentia inter 
+          vi<lb break="no" ed="#P" n="13"/>ventia et non viventia, aliqua sit 
+          controver<lb break="no" ed="#P" n="14"/>sia: sed illam in capite quarto expediemus ;
+          <lb ed="#P" n="15"/>quia in infimo gradu viventium, qui est 
+          vege<lb break="no" ed="#P" n="16"/>tabilium, versatur. Nunc autem ab illa 
+          contro<lb break="no" ed="#P" n="17"/>versia abstrahendo, ex communi 
+          philosopho<lb break="no" ed="#P" n="18"/>rum etiam doctrina, imo ex omnium hominum
+          <lb ed="#P" n="19"/>sensu, supponimus substantias co-poreas 
+          vi<lb break="no" ed="#P" n="20"/>ventes a non viventibus in hoc distingui, quod
+          <lb ed="#P" n="21"/>non viventes per se loquendo, et ex suae 
+          natu<lb break="no" ed="#P" n="22"/>rae institutione, nec ab intrinseco seipsas 
+          mo<lb break="no" ed="#P" n="23"/>vent, nec ad complementum suae perfectionis
+          <lb ed="#P" n="24"/>acquirendum in seipsis operantur: viventia
+          <lb ed="#P" n="25"/>vero sunt, quae hanc vim se movendi, ac 
+          per<lb break="no" ed="#P" n="26"/>ficiendi ab mnirinseco habent. Quod enim inter
+          <lb ed="#P" n="27"/>substantias corporeas, quaedam habeant hanc
+          <lb ed="#P" n="28"/>vim se movendi, ac perficiendi, experimento
+          <lb ed="#P" n="29"/>constat in plantis, animalibus et hominibus:
+          <lb ed="#P" n="30"/>quod autem aliae hac virtute careant, in 
+          omni<lb break="no" ed="#P" n="31"/>bus inferioribus corporibus notum est. Ex his
+          <lb ed="#P" n="32"/>autem distinctis operandi modis differentiam
+          <lb ed="#P" n="33"/>in gradibus substantialibus talium rerum 
+          col<lb break="no" ed="#P" n="34"/>ligimus. quae differentia per nomina viventium,
+          <lb ed="#P" n="35"/>et non viventium significata est. Quae dloctrina
+          <lb ed="#P" n="36"/>sumta est ex Platone in Pheedone, et 
+          Aristo<lb break="no" ed="#P" n="37"/>iies 8 Physic., et lib. 1, de Anima, cap. 2,
+          <lb ed="#P" n="38"/>ct Eb. 2. cap. 1, et aliis locis paulo post 
+          refe<lb break="no" ed="#P" n="39"/>rendis, et ex D. Thoma, 1 part., quaest. 18.
+          <lb ed="#P" n="40"/>Cum autem haec viventia corpora non sint
+          <lb ed="#P" n="41"/>simplicia, sed ex materia et forma constent,
+          <lb ed="#P" n="42"/>cerium est, dictam differentiam non a materia
+          <lb ed="#P" n="43"/>prima, quae communis est omnibus, seda 
+          for<lb break="no" ed="#P" n="44"/>ma provenire, quia forma, ut diximus, est 
+          ac<lb break="no" ed="#P" n="45"/>tus determinans materiam, et principium 
+          ope<lb break="no" ed="#P" n="46"/>rationis totius compositi, ut in eodem loco
+          <lb ed="#P" n="47"/>metaphysice ostensum est. Habent ergo 
+          corpo<lb break="no" ed="#P" n="48"/>ra viventia proprium ac peculiarem modum
+          <lb ed="#P" n="49"/>formae substantialis alterius rationis, et ordinis
+          <lb ed="#P" n="50"/>a forma corporis non viventis.
+        </p>
+        <p xml:id="szdada-y11310-d1e295">
+          <lb ed="#P" n="51"/>4. Suppositio quarta.— Concluditur jam 
+          a<lb break="no" ed="#P" n="52"/>nimam esse formam substantialem, seu actum
+          <lb ed="#P" n="53"/>prinam materie. — Denique supponimus ex
+          <lb ed="#P" n="54"/>usu vocis, et communi etiam consensu, 
+          nomi<lb break="no" ed="#P" n="55"/>ne animae significatam esse illam formam sub-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>stantialem, quae vivens corporeum constituit et
+          <lb ed="#P" n="57"/>componit. Loquimur autem semper de 
+          corpo<lb break="no" ed="#P" n="58"/>ralibus viventibus, quia sunt alia viventia, quae
+          <lb ed="#P" n="59"/>sunt spirituales substantiae, de quibus nunc
+          <lb ed="#P" n="60"/>non est sermo, quia non habent formam 
+          in<lb break="no" ed="#P" n="61"/>formantem: cum nec materiam habeant, ut
+          <lb ed="#P" n="62"/>de Angelis supra diximus, et in Deo 
+          excellen<lb break="no" ed="#P" n="63"/>tori modo invenitur. Anima ergo in reipsa
+          <lb ed="#P" n="64"/>nihil aliud est, quam substantialis forma 
+          con<lb break="no" ed="#P" n="65"/>stituens formaliter substantiam corpoream 
+          vi<lb break="no" ed="#P" n="66"/>ventem, seu in aliquo gradu vitae. Quod non
+          <lb ed="#P" n="67"/>eget alia probatione: nisi quia talis forma 
+          da<lb break="no" ed="#P" n="68"/>tur in rebus, ut declaratum est, et tale nomen
+          <lb ed="#P" n="69"/>ad illam significandam impositum est, ut patet
+          <lb ed="#P" n="70"/>ex usu. Unde talia viventia corpora animata
+          <lb ed="#P" n="71"/>vocamus, et quando talem formam amittunt,
+          <lb ed="#P" n="72"/>mortua vocantur et omnia, quae non vivunt,
+          <lb ed="#P" n="73"/>appellantur inanimata tanquam anima 
+          caren<lb break="no" ed="#P" n="74"/>tia. Ex quibus tandem constat merito 
+          Aristo<lb break="no" ed="#P" n="75"/>telem in definitione animae posuisse, quod sit
+          <lb ed="#P" n="76"/>actus primus substantialis. Nam omnis forma
+          <lb ed="#P" n="77"/>est actus, vel per positivam habitudinem ad
+          <lb ed="#P" n="78"/>materiam, quia ipsam determinat et quasi 
+          re<lb break="no" ed="#P" n="79"/>plet, vel per negationem potentiae, utique 
+          re<lb break="no" ed="#P" n="80"/>ceptivae et substardaLEs: torma enim non 
+          ha<lb break="no" ed="#P" n="81"/>bet hanc potentiaiitaten:. et iia otest dici
+          <lb ed="#P" n="82"/>actus, ut a tali potentia distinguitu: vel etiam
+          <lb ed="#P" n="83"/>quia est tantum actus, et non consiat ex 
+          vo<lb break="no" ed="#P" n="84"/>tentia et actu, sicut ipsum compos tum.
+        </p>
+        <p xml:id="szdada-y11310-d1e373">
+          <lb ed="#P" n="85"/>5. Actum esse primum dupliciter intesigi
+          <lb ed="#P" n="86"/>potest.—Quod autem additur, animam esse 
+          ac<lb break="no" ed="#P" n="87"/>tum primum, duobus modis potest intelligi.
+          <lb ed="#P" n="88"/>Prior est, ut actus primus distinguatur a 
+          se<lb break="no" ed="#P" n="89"/>cundo, qui est operatio, quem sensum indicat
+          <lb ed="#P" n="90"/>Aristoteles, dum animam comparat scientiae
+          <lb ed="#P" n="91"/>et somno, distinguens illam a vigilia et 
+          con<lb break="no" ed="#P" n="92"/>templatione: et ideo communiter ita 
+          intelligi<lb break="no" ed="#P" n="93"/>tur. Quia vero talis actus primus potest esse
+          <lb ed="#P" n="94"/>duplex, vel etiam triplex, ut est forma, 
+          poten<lb break="no" ed="#P" n="95"/>tia et habitus: ideo per antonomasiam dici
+          <lb ed="#P" n="96"/>potest actus primus ille, qui nullum priorem
+          <lb ed="#P" n="97"/>supponit, et ab omni actu quasi intermedio 
+          in<lb break="no" ed="#P" n="98"/>ter illum primum et ultimum, qui per 
+          anto<lb break="no" ed="#P" n="99"/>nomasiam dicitur actus secundus, 
+          distingui<lb break="no" ed="#P" n="100"/>tur. Et hic sensus in re quidem verusest: nam
+          <lb ed="#P" n="101"/>isto modo anima est actus primus: quia 
+          ani<lb break="no" ed="#P" n="102"/>ma, et omnis forma substantialis est actus 
+          pri<lb break="no" ed="#P" n="103"/>mus, id est, principalis et radicalis (ut sic 
+          di<lb break="no" ed="#P" n="104"/>cam) respectu cujuscumque alterius principii,
+          <lb ed="#P" n="105"/>quod ad operationem tanquam actus primus
+          <lb ed="#P" n="106"/>comparatur. Hoc tamen magis explicatur per
+          <lb ed="#P" n="107"/>aliam particulam, in qua anima actus primus
+          <lb ed="#P" n="108"/>substantialis esse dicitur. Haec autem omnia
+          <lb ed="#P" n="109"/>solum explicant genus animae: nam 
+          commu<lb break="no" ed="#P" n="110"/>nia sunt omni formae substantiali. Unde per-
+          <pb ed="#P" n="469"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>inde est, ac si diceretur, anima est forma 
+          sub<lb break="no" ed="#P" n="2"/>stantialis.
+        </p>
+        <p xml:id="szdada-y11310-d1e441">
+          <lb ed="#P" n="3"/>6. Objectio prima contra dicta in n. 4 et b5.
+          <lb ed="#P" n="4"/>—circa hanc vero partem duplex occurrit 
+          ob<lb break="no" ed="#P" n="5"/>jectio. Prior est, quia multi philosophi 
+          sense<lb break="no" ed="#P" n="6"/>runt, animam non esse substantiam, sed 
+          acci<lb break="no" ed="#P" n="7"/>dens, vel accidentium harmoniam, seu 
+          tem<lb break="no" ed="#P" n="8"/>peramentum. Ita refert ex Epicuro et alis
+          <lb ed="#P" n="9"/>Plutarchus, lib. 4, de Placit., cap. 3, et docuit
+          <lb ed="#P" n="10"/>Galenus, libr. de locis Affect., cap. 6. Ita enim
+          <lb ed="#P" n="11"/>refert ejus sententiam D. Thomas, in quaest.
+          <lb ed="#P" n="12"/>disput. de Anima, a. 1, et lib. 2, cont. Gent.,
+          <lb ed="#P" n="13"/>cap. 63, quamvis idem Galenus in aliis locis
+          <lb ed="#P" n="14"/>varius sit. Et in eadem sententia fuerunt 
+          ali<lb break="no" ed="#P" n="15"/>qui doctissimi medici, et antiqui haeretici: ut
+          <lb ed="#P" n="16"/>refert Theodoretus, in Epitome divin. decret.,
+          <lb ed="#P" n="17"/>cap. de homine. Fundamentum est, quia ex
+          <lb ed="#P" n="18"/>temperamento, et usu rationis pendet et vita,
+          <lb ed="#P" n="19"/>et mors viventis, et ab eodem in nobis diversi
+          <lb ed="#P" n="20"/>mores proveniunt: ergo anima nihil est praeter
+          <lb ed="#P" n="21"/>qualitatum temperamentum: ac subinde est
+          <lb ed="#P" n="22"/>accidens.
+        </p>
+        <p xml:id="szdada-y11310-d1e487">
+          <lb ed="#P" n="23"/>7. Objectio secunda ea Platone et aliis 
+          philo<lb break="no" ed="#P" n="24"/>sophis.—Altera ratio dubitandi est, quia Plato,
+          <lb ed="#P" n="25"/>et nonnulli alii antiqui philosophi censuerunt
+          <lb ed="#P" n="26"/>animam non esse formam informantem, sed
+          <lb ed="#P" n="27"/>assistentem: et anima assistens non est forma
+          <lb ed="#P" n="28"/>substantialis, sed extrinsecus motor, et quasi
+          <lb ed="#P" n="29"/>auriga, ut Aristoteles loquitur de anima coeli,
+          <lb ed="#P" n="30"/>in lib. 2, de Coelo, cap. 2 et 12, ubi animam
+          <lb ed="#P" n="31"/>appellat intelligentiam, licet non informantem,
+          <lb ed="#P" n="32"/>sed assistentem illam ponat. Et similiter, d.
+          <lb ed="#P" n="33"/>lib. 2, de Anima, cap. in fine, huic sententiae
+          <lb ed="#P" n="34"/>favet: quatenus ait ex dicta definitione 
+          non<lb break="no" ed="#P" n="35"/>dum constare, utrum anima sit vera forma,
+          <lb ed="#P" n="36"/>vel tanquam auriga: in quo significat, actum
+          <lb ed="#P" n="37"/>primum in illa definitione non sumi pro actu
+          <lb ed="#P" n="38"/>informante, sed vel pro actu movendi, vel 
+          ab<lb break="no" ed="#P" n="39"/>strahendo ab informante, vel assistente. Et 
+          ra<lb break="no" ed="#P" n="40"/>tione potest hoc suaderi: quoniam anima, ut
+          <lb ed="#P" n="41"/>sic, abstrahit ab illis duobus modis actuandi:
+          <lb ed="#P" n="42"/>ergo non potest adaequate anima definiri per
+          <lb ed="#P" n="43"/>actum primum, qui sit propria substantialis
+          <lb ed="#P" n="44"/>forma.
+        </p>
+        <p xml:id="szdada-y11310-d1e537">
+          <lb ed="#P" n="45"/>8. Assertio tertia quod sit vera forma.—
+          <lb ed="#P" n="46"/>Nihilominus assero de essentia animae esse, ut
+          <lb ed="#P" n="47"/>sit vera et substantialis forma. Haec assertio
+          <lb ed="#P" n="48"/>in anima rationali est de fide certa, ut in 
+          se<lb break="no" ed="#P" n="49"/>quentibus ostendemus. Illa autem veritate 
+          sup<lb break="no" ed="#P" n="50"/>posita, in caeteris animabus est evidens: et ita
+          <lb ed="#P" n="51"/>veluti inductione quadam probatur assertio.
+          <lb ed="#P" n="52"/>Nam omnis anima est forma substantialis: 
+          er<lb break="no" ed="#P" n="53"/>go signum est de ipsius ratione essentiali, et
+          <lb ed="#P" n="54"/>gcnerica id esse. Deinde probatur assertio, 
+          re<lb break="no" ed="#P" n="55"/>futando singulos relatos errores: et imprimis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>contra priorem praecipue agendum est 
+          genera<lb break="no" ed="#P" n="57"/>libus rationibus, quibus probatum est in 
+          Meta<lb break="no" ed="#P" n="58"/>physica dari formas substantiales. Nam 
+          inqui<lb break="no" ed="#P" n="59"/>ro.an in equo, verbi gratia, sit 
+          aliquasubstan<lb break="no" ed="#P" n="60"/>tialis forma, necne? hoc posterius dici non
+          <lb ed="#P" n="61"/>potest, alioqui a fortiori idem dicetur de 
+          quo<lb break="no" ed="#P" n="62"/>libet naturali corpore: quod est contra dogma
+          <lb ed="#P" n="63"/>illud de substantialibus formis. Nec enim reddi
+          <lb ed="#P" n="64"/>potest ratio ob quam corpora non viventia
+          <lb ed="#P" n="65"/>formis substantialibus in suis speciebus 
+          con<lb break="no" ed="#P" n="66"/>stituantur, et viventia illis careant, cum 
+          per<lb break="no" ed="#P" n="67"/>fectiora sint, et quo majorem organorum, et
+          <lb ed="#P" n="68"/>potentiarum varietatem habent, eo magis uno
+          <lb ed="#P" n="69"/>principio in quo radicentur indigeant. Si ergo
+          <lb ed="#P" n="70"/>in corporibus rerum viventium nulla est 
+          sub<lb break="no" ed="#P" n="71"/>stantialis forma, multo minus erit in non 
+          vi<lb break="no" ed="#P" n="72"/>ventibus: unde fiet consequenter, ut omnes
+          <lb ed="#P" n="73"/>res corporeae solum differant in accidentalibus
+          <lb ed="#P" n="74"/>formis, et sola materia sit tota substantia 
+          cor<lb break="no" ed="#P" n="75"/>porum omnium: et quod materia existat, 
+          uti<lb break="no" ed="#P" n="76"/>que sine ulla forma substantiali, et similia
+          <lb ed="#P" n="77"/>multa possunt facile inferri in philosophia 
+          val<lb break="no" ed="#P" n="78"/>de incommoda. Et in theologia sequuntur alii
+          <lb ed="#P" n="79"/>errores de anima hominis, nimirum, quodsine
+          <lb ed="#P" n="80"/>materia existente non possit, quia accidentia,
+          <lb ed="#P" n="81"/>quae temperamentum componunt, extra 
+          sub<lb break="no" ed="#P" n="82"/>jectum non permanent: et consequenter erit
+          <lb ed="#P" n="83"/>anima hominis entitas materialis, quia in 
+          sub<lb break="no" ed="#P" n="84"/>jecto materiali non inhaeret accidens spirituale,
+          <lb ed="#P" n="85"/>et similia.
+        </p>
+        <p xml:id="szdada-y11310-d1e632">
+          <lb ed="#P" n="86"/>9. Si autem in viventibus datur forma 
+          sub<lb break="no" ed="#P" n="87"/>stantialis distincta ab accidentibus, illa 
+          perfec<lb break="no" ed="#P" n="88"/>to erit anima uniuscujusque viventis: atque
+          <lb ed="#P" n="89"/>ita omnis anima erit substantialis forma, et
+          <lb ed="#P" n="90"/>haec erit de essentia ejus: nam in entitate 
+          sub<lb break="no" ed="#P" n="91"/>stantiali gradus, seu differentia substantiae non
+          <lb ed="#P" n="92"/>est illi accidentalis, sed essentialis. Probatur
+          <lb ed="#P" n="93"/>autem prima illatio: tum quia praecipua forma
+          <lb ed="#P" n="94"/>uniuscujusque substantiae est, a qua omnes
+          <lb ed="#P" n="95"/>facultates et operationes ejusdem substantiae
+          <lb ed="#P" n="96"/>pendent: hujusmodi autem est anima, ut 
+          po<lb break="no" ed="#P" n="97"/>test fere experimento probari, nam recedente
+          <lb ed="#P" n="98"/>anima omnes operationes, et facultates vitales
+          <lb ed="#P" n="99"/>deficiunt: tum etiam, quia corpus vivum et
+          <lb ed="#P" n="100"/>vivens, est compositum substantiale per se 
+          u<lb break="no" ed="#P" n="101"/>num, sed partes ex quibus componitur, 
+          essen<lb break="no" ed="#P" n="102"/>tialiter sunt corpus et anima: ergo ipsa anima
+          <lb ed="#P" n="103"/>componit unum per se cum materia: ergo est
+          <lb ed="#P" n="104"/>forma substantialis ejus: tum denique, quia
+          <lb ed="#P" n="105"/>anima est primum principium intrinsecum, ac
+          <lb ed="#P" n="106"/>principale operationum vitalium: ergo est 
+          for<lb break="no" ed="#P" n="107"/>ma substantialis ipsius viventis. Et hanc 
+          veri<lb break="no" ed="#P" n="108"/>tatem comprobant omnia, quae de forma 
+          sub<lb break="no" ed="#P" n="109"/>stantiali in genere diximus in citato loco
+          <lb ed="#P" n="110"/>Metaphysicae. Et quoniam ibi praecipue id do-
+          <pb ed="#P" n="470"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cuimus de anima rationali ex illa ad exteras
+          <lb ed="#P" n="2"/>animas argumentum a fortiori sumendo, illa
+          <lb ed="#P" n="3"/>omnia magis confirmabuntur ex his, quae de
+          <lb ed="#P" n="4"/>informatione animae rationalis ostendemus.
+          <lb ed="#P" n="5"/>De qua in particulari hanc veritatem probat
+          <lb ed="#P" n="6"/>Augustinus, libr. de Immortal. animae, nam
+          <lb ed="#P" n="7"/>habet proprietates, quae non solum 
+          tempera<lb break="no" ed="#P" n="8"/>mentum quatuor qualitatum, sed etiam 
+          om<lb break="no" ed="#P" n="9"/>nem materiam superant. De quibus rationibus
+          <lb ed="#P" n="10"/>infra dicturi sumus.
+        </p>
+        <p xml:id="szdada-y11310-d1e715">
+          <lb ed="#P" n="11"/>10. Ad fundamentum primae objectionis in
+          <lb ed="#P" n="12"/>num. 6. — Ad fundamenta ergo prioris erroris
+          <lb ed="#P" n="13"/>respondemus, solum probare temperamentum
+          <lb ed="#P" n="14"/>esse dispositionem necessariam, ut anima in
+          <lb ed="#P" n="15"/>corpus introducatur, vel in eo conservetur:
+          <lb ed="#P" n="16"/>quod suo modo, et cum proportione commune
+          <lb ed="#P" n="17"/>est omni formae substantiali rerum 
+          generabi<lb break="no" ed="#P" n="18"/>lium et corruptibilium. Unde sicut in ligno,
+          <lb ed="#P" n="19"/>vel aliis corporibus in animis, ex eo, quod per
+          <lb ed="#P" n="20"/>ablationem, vel remissionem qualitatum 
+          cor<lb break="no" ed="#P" n="21"/>rumpantur, non sequitur formam 
+          constituen<lb break="no" ed="#P" n="22"/>tem unumquodque illorum, esse aliquod 
+          acci<lb break="no" ed="#P" n="23"/>dens, vel compositionem, aut temperamentum
+          <lb ed="#P" n="24"/>plurium accidentium: ita multo minus 
+          sequi<lb break="no" ed="#P" n="25"/>tur, animam esse temperamentum, eo quod
+          <lb ed="#P" n="26"/>per dissolutionem temperamenti, usque ad
+          <lb ed="#P" n="27"/>certum gradum vita finiatur. Et eodem modo
+          <lb ed="#P" n="28"/>ait D. Thomas 2, contr. Gent., cap. 63, ex eo
+          <lb ed="#P" n="29"/>quod hominum mores ordinarie complexionem
+          <lb ed="#P" n="30"/>sequantur, non sequi complexionem susae
+          <lb ed="#P" n="31"/>temperamentum esse proprium principium
+          <lb ed="#P" n="32"/>talium operationum, sed sequi disponi 
+          mate<lb break="no" ed="#P" n="33"/>riam talibus affectibus deservientem: alioqui
+          <lb ed="#P" n="34"/>enim evidens est, operationes cognoscendi et
+          <lb ed="#P" n="35"/>amandi esse altioris ordinis, excederetque 
+          vir<lb break="no" ed="#P" n="36"/>tutem primarum qualitatum, ex quibus 
+          tem<lb break="no" ed="#P" n="37"/>peramentum constat. Item in homine est 
+          evi<lb break="no" ed="#P" n="38"/>dens esse aliud principium altius complexione,
+          <lb ed="#P" n="39"/>et omni principio alterante corpus, et passiones
+          <lb ed="#P" n="40"/>excitante: nam saepe passionibus et motibus
+          <lb ed="#P" n="41"/>suae complexioni proportionatis per virtutem
+          <lb ed="#P" n="42"/>animae resistit. Est ergo anima aliquid altius
+          <lb ed="#P" n="43"/>complexione.
+        </p>
+        <p xml:id="szdada-y11310-d1e789">
+          <lb ed="#P" n="44"/>11. Progreditur provima responsio.— Unde
+          <lb ed="#P" n="45"/>nihil etiam obstat, quod dissoluto 
+          tempera<lb break="no" ed="#P" n="46"/>mento cessent operationes vitales, et 
+          conse<lb break="no" ed="#P" n="47"/>quenter etiam propria illarum principia: quia
+          <lb ed="#P" n="48"/>etiam temperamentum est necessaria 
+          disposi<lb break="no" ed="#P" n="49"/>tio organi uniuscujusque vitalis facultatis 
+          ma<lb break="no" ed="#P" n="50"/>terialis, ut in ipso conservari possit. Unde 
+          po<lb break="no" ed="#P" n="51"/>tius sumitur argumentum, quod sicut potentiae
+          <lb ed="#P" n="52"/>vitales, licet sint a temperamento distinctae,
+          <lb ed="#P" n="53"/>nihilominus amittuntur dissoluto 
+          temperamen<lb break="no" ed="#P" n="54"/>to: ita etiam anima. Nam si illae facultates 
+          vi<lb break="no" ed="#P" n="55"/>tales non distinguuntur a substantiali forma,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ut multi sentiunt, habemus intentum: si vero
+          <lb ed="#P" n="57"/>distinguuntur, ut est probabilius, inde 
+          conclu<lb break="no" ed="#P" n="58"/>ditur, esse necessarium aliquod principium
+          <lb ed="#P" n="59"/>prius et principalius, in quo omnes illae 
+          facul<lb break="no" ed="#P" n="60"/>tates et operationes illarum radicentur; tum
+          <lb ed="#P" n="61"/>quia in rebus inanimatis, etiam in ipsis 
+          ele<lb break="no" ed="#P" n="62"/>mentis, qualitates, quae sunt principia 
+          proxi<lb break="no" ed="#P" n="63"/>ma naturalium alterationum transeuntium,
+          <lb ed="#P" n="64"/>supponunt substantialem formam, in qua tales
+          <lb ed="#P" n="65"/>proprietates radicentur: ut in dicto loco 
+          Meta<lb break="no" ed="#P" n="66"/>physicae probavimus: ergoa fortiori id 
+          neces<lb break="no" ed="#P" n="67"/>sarium est in viventibus, quae in altiori gradu
+          <lb ed="#P" n="68"/>substantiarum constituuntur ; tum etiam, quia
+          <lb ed="#P" n="69"/>illae facultates propriae viventium sunt inter
+          <lb ed="#P" n="70"/>se naturaliter colligatae et ordinatae, et sibi 
+          in<lb break="no" ed="#P" n="71"/>vicem ministrantes, vel se mutuo excitantes,
+          <lb ed="#P" n="72"/>vel adjuvantes: ergo habere debent unum 
+          ah<lb break="no" ed="#P" n="73"/>quod principium prius, in quo radicentur: ut
+          <lb ed="#P" n="74"/>tam in facultatibus partis nutrientis, quam in
+          <lb ed="#P" n="75"/>sensibus externis et internis intellectu et 
+          vo<lb break="no" ed="#P" n="76"/>luntate, seu potentia cognoscente, ex appetente
+          <lb ed="#P" n="77"/>videre licet. Et ex his, quae de his facultatibus
+          <lb ed="#P" n="78"/>dicemus, evidentius fiet.
+        </p>
+        <p xml:id="szdada-y11310-d1e870">
+          <lb ed="#P" n="79"/>12. Satisfit secundae objectioni in mum. 1,
+          <lb ed="#P" n="80"/>enodando triplicem questiunculam ibi tactam.
+          <lb ed="#P" n="81"/>— Quaestiuncula prima de reipsa, an omnis
+          <lb ed="#P" n="82"/>anima sit forma substantialis. — d de fide
+          <lb ed="#P" n="83"/>est quoad rationalem. — De aliis animabus 
+          pro<lb break="no" ed="#P" n="84"/>butur. — Ad posteriorem objectionem 
+          responde<lb break="no" ed="#P" n="85"/>mus, in ea attingi quamdam quaestionem de re,
+          <lb ed="#P" n="86"/>et aliam de modo loquendi: et potest addi
+          <lb ed="#P" n="87"/>tertia de sensu Aristotelis definientis animam.
+          <lb ed="#P" n="88"/>Prima erit an loquendo de anima corporum
+          <lb ed="#P" n="89"/>vere ac substantialiter viventium, ut sunt
+          <lb ed="#P" n="90"/>omnia viventia natura sua corruptibilia: an,
+          <lb ed="#P" n="91"/>inquam, omnis talis anima sit vera 
+          substantia<lb break="no" ed="#P" n="92"/>lis forma informans: et sic indubitatum est
+          <lb ed="#P" n="93"/>apud Christianos philosophos omnem animam
+          <lb ed="#P" n="94"/>vivificantem corruptibile corpus esse veram
+          <lb ed="#P" n="95"/>formam informantem. Hoc ostendemus infra
+          <lb ed="#P" n="96"/>esse de fide de anima rationali, et ratione
+          <lb ed="#P" n="97"/>etiam probabitur. De aliis autem animabus 
+          in<lb break="no" ed="#P" n="98"/>feriorum viventium est per se satis evidens.
+          <lb ed="#P" n="99"/>Quia imprimis, si anima in his viventibus esset
+          <lb ed="#P" n="100"/>aliqua substantia assistens tantum illi 
+          mate<lb break="no" ed="#P" n="101"/>riali corpori, quod apparet exterius, vel illa
+          <lb ed="#P" n="102"/>esset simplex entitas, et sic esset res 
+          spiri<lb break="no" ed="#P" n="103"/>tualis et subsistens, quia dicitur non esse forma
+          <lb ed="#P" n="104"/>informans et consequenter nec inhaerens 
+          ma<lb break="no" ed="#P" n="105"/>teriae: erit ergo substantia immaterialis, quod
+          <lb ed="#P" n="106"/>est absurdissimum; vel esset composita ex 
+          ma<lb break="no" ed="#P" n="107"/>teria et forma: et sic multo minus posset 
+          ani<lb break="no" ed="#P" n="108"/>ma alterius corporis, et de illa interrogabitur,
+          <lb ed="#P" n="109"/>an sit vivens, necne? Nam si est vivens et
+          <lb ed="#P" n="110"/>composita, ejus forma erit anima informans
+          <pb ed="#P" n="471"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>materiam propriam talis substantiae: tota 
+          au<lb break="no" ed="#P" n="2"/>tem ipsa substantia non poterit esse anima 
+          al<lb break="no" ed="#P" n="3"/>terius corporis. Si vero illa substantia non est
+          <lb ed="#P" n="4"/>vivens, forma ejus etiam respectu illius non
+          <lb ed="#P" n="5"/>erit anima: quomodo ergo poterit aliud 
+          cor<lb break="no" ed="#P" n="6"/>pus distinctum vivificare?
+        </p>
+        <p xml:id="szdada-y11310-d1e959">
+          <lb ed="#P" n="7"/>13. Unde argumentor ulterius, una 
+          substan<lb break="no" ed="#P" n="8"/>tia assistens alteri non potest esse principium
+          <lb ed="#P" n="9"/>intrinsecum operationum, vel motuum ejus,
+          <lb ed="#P" n="10"/>sed erit extrinsecum agens per actionem 
+          trans<lb break="no" ed="#P" n="11"/>euntem aliud immutans: ergo motiones, quae
+          <lb ed="#P" n="12"/>fiunt a substantia assistente in altera, cui
+          <lb ed="#P" n="13"/>assistit, non possunt esse actiones vitales illius
+          <lb ed="#P" n="14"/>substantiae, in qua altera illi assistens 
+          opera<lb break="no" ed="#P" n="15"/>tur: ergo talis substantia assistens non 
+          vivifi<lb break="no" ed="#P" n="16"/>cat tale corpus: non est ergo anima ejus.
+          <lb ed="#P" n="17"/>Sicut motus coeli, non est vitalis coelo, qua in
+          <lb ed="#P" n="18"/>illo fit ab extrinseca substantia assistente.
+          <lb ed="#P" n="19"/>Unde nec dici potest coelum se movere, sed
+          <lb ed="#P" n="20"/>moveri ab alio, quod de propriis viventibus
+          <lb ed="#P" n="21"/>dici non potest. Nam planta vere se nutrit, et
+          <lb ed="#P" n="22"/>equus videt, et sic de aliis. Et ratio est supra
+          <lb ed="#P" n="23"/>tacta, quia de ratione vitae est, ut sit ab 
+          intrin<lb break="no" ed="#P" n="24"/>seco principio ipsius operantis: ideo enim
+          <lb ed="#P" n="25"/>censetur vivere, quia ab intrinseco operari
+          <lb ed="#P" n="26"/>potest: ergo sola assistentia unius substantiae
+          <lb ed="#P" n="27"/>in aliam, non sufficit ad illam vivificandam,
+          <lb ed="#P" n="28"/>id est, ut illa possit vitaliter operari: ergo non
+          <lb ed="#P" n="29"/>potest sufficere ad veram rationem animae:
+          <lb ed="#P" n="30"/>ac subinde de ratione animae est, ut sit forma
+          <lb ed="#P" n="31"/>informans.
+        </p>
+        <p xml:id="szdada-y11310-d1e1016">
+          <lb ed="#P" n="32"/>14. Quaestiuncula secunda de nomine, an 
+          ani<lb break="no" ed="#P" n="33"/>ma tantwm assistens dici queat forma.—
+          Quoees<lb break="no" ed="#P" n="34"/>Liuncula tertia de mente Aristotelis circa 
+          preedic<lb break="no" ed="#P" n="35"/>ta. —Hac ergo veritate in re ipsa supposita,
+          <lb ed="#P" n="36"/>quaestio erit de nomine, an una substantia, quae
+          <lb ed="#P" n="37"/>alteri assistit solum per modum motoris, aut
+          <lb ed="#P" n="38"/>gubernatoris: aut per unionem accidentalem
+          <lb ed="#P" n="39"/>similem illi, qua principalis causa, verbi 
+          gra<lb break="no" ed="#P" n="40"/>tia, unitur instrumento, possit aliquo modo
+          <lb ed="#P" n="41"/>vocari anima. Et hanc dico esse 
+          quaestio<lb break="no" ed="#P" n="42"/>nem de nomine: nam in re constat, talem
+          <lb ed="#P" n="43"/>substantiam non esse veram animam, utique
+          <lb ed="#P" n="44"/>formaliter vivificantem illum, cujus anima
+          <lb ed="#P" n="45"/>esse dicitur. Et ideo si talis significatio vocis
+          <lb ed="#P" n="46"/>admittatur, non erit univoca, sed valde 
+          ana<lb break="no" ed="#P" n="47"/>loga, et potius metaphorica, quam propria.
+          <lb ed="#P" n="48"/>Ad eum modum, quo Deus dicitur esse anima
+          <lb ed="#P" n="49"/>nostrae animae, quando illam movet vel excitat,
+          <lb ed="#P" n="50"/>aut spiritualiter vivificat. Quomodo aliqui 
+          an<lb break="no" ed="#P" n="51"/>tiquorum philosophorum Deum animam 
+          mun<lb break="no" ed="#P" n="52"/>di vocarunt: ut attigit Aristoteles, libro primo
+          <lb ed="#P" n="53"/>de Anima, cap. 3, text. 51, ubi locutionem
+          <lb ed="#P" n="54"/>illam tanquam metaphoricam, et a propria
+          <lb ed="#P" n="55"/>animae considerationem alienam removet:
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quamvis aliis locis ea phrasi locutionis 
+          uten<lb break="no" ed="#P" n="57"/>do coelos vocat animatos, lib. 2, de Coelo, c. 2,
+          <lb ed="#P" n="58"/>text. 13. Hac autem, quae de animatuone
+          <lb ed="#P" n="59"/>mundi, vel coeli dicuntur ab aliquibus, 
+          meta<lb break="no" ed="#P" n="60"/>phorice accipienda esse, ut vera sint, 
+          interpre<lb break="no" ed="#P" n="61"/>tatus est Augustinus, lib. 2 Retract., cap. 7,
+          <lb ed="#P" n="62"/>et ideo proprie, et simpliciter loquendo, qui
+          <lb ed="#P" n="63"/>recte secundum fidem et rationem sentiunt,
+          <lb ed="#P" n="64"/>negant coelos esse animatos: quia nimirum
+          <lb ed="#P" n="65"/>sola intelligentiae motio, vel assistentia ad 
+          ani<lb break="no" ed="#P" n="66"/>mationem veram non suflicit. Ut recte docuit
+          <lb ed="#P" n="67"/>D. Thomas, prima parte, quaest. 70, art. 3. Ubi
+          <lb ed="#P" n="68"/>concludit formam, seu motorem tantum 
+          assis<lb break="no" ed="#P" n="69"/>tentem, non posse dici animam, nisi aequivoce,
+          <lb ed="#P" n="70"/>et ideo non de re, sed de nomine esse 
+          quaes<lb break="no" ed="#P" n="71"/>tionem, an propter illum solum motorem 
+          coe<lb break="no" ed="#P" n="72"/>lum dicendum sit animatum ? Hinc etiam 
+          Aris<lb break="no" ed="#P" n="73"/>toteles, libro secundo de Anima, cap.2, text.15,
+          <lb ed="#P" n="74"/>et cap. 2, text. 32, indicat veram et propriam
+          <lb ed="#P" n="75"/>animam solum esse in corporibus mortalibus.
+          <lb ed="#P" n="76"/>Quod etiam notavit Simplicius, libro secundo,
+          <lb ed="#P" n="77"/>de Anima. Quare dubitandum non est, quin
+          <lb ed="#P" n="78"/>Aristoteles, cum animam definivit et vocavit
+          <lb ed="#P" n="79"/>yce Aeypiay, et actum primum, de propria
+          <lb ed="#P" n="80"/>anima, et de actu informante locutus fuerit.
+          <lb ed="#P" n="81"/>Unde cum in fine illius capitis primi, ait 
+          non<lb break="no" ed="#P" n="82"/>dum constare, an anima (utique quam 
+          defi<lb break="no" ed="#P" n="83"/>nierat) sit actus informans; non ideo dictum
+          <lb ed="#P" n="84"/>ab eo fuit, quia dubitaret, an ita esset, sed
+          <lb ed="#P" n="85"/>quia id nondum probaverat: et ideo ad id
+          <lb ed="#P" n="86"/>probandum in secundo eapite progreditur, ut
+          <lb ed="#P" n="87"/>capite sequenti exponemus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

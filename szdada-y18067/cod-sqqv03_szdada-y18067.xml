@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="735"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y18067"><!-- t3l4c6 -->
+        <head xml:id="szdada-y18067-Hd1e101">Caput 6</head>
+        <head xml:id="szdada-y18067-Hd1e103" type="question-title">Quomodo possimus deum, et substantias separatas pro hoc statu cognoscere</head>
+        <p xml:id="szdada-y18067-d1e106">
+          <lb ed="#P" n="35"/>CAPUT VI.
+          <lb ed="#P" n="36"/>QUOMODO POSSIMUS DEUM, ET SUBSTANTIAS 
+          SEPA<lb break="no" ed="#P" n="37"/>RATAS PRO HOC STATU COGNOSCERE.
+        </p>
+        <p xml:id="szdada-y18067-d1e115">
+          <lb ed="#P" n="38"/>1. Prima assertio. — In hac quaestione sit
+          <lb ed="#P" n="39"/>prima conclusio. Intellectus pro hoc statu 
+          po<lb break="no" ed="#P" n="40"/>test devenire in aliquam cognitionem Dei, 
+          sub<lb break="no" ed="#P" n="41"/>stantiarumque separatarum. Ita Aristoteles 9,
+          <lb ed="#P" n="42"/>Metaphysicae, cap. 12, ubi aperte affirmat non
+          <lb ed="#P" n="43"/>posse cognoscere substantias separatas, (licet
+          <lb ed="#P" n="44"/>illud sub dubio reliquerit, lib. 3, de Anima,
+          <lb ed="#P" n="45"/>cap. 7, in fin.) Inlib. etiam 12, Metaphysicae
+          <lb ed="#P" n="46"/>illas investigat. Idem docet D. Thomas supra,
+          <lb ed="#P" n="47"/>et 3, contra Gentes, a cap. 4M usque ad 45,
+          <lb ed="#P" n="48"/>Albertus 3, de Anima, text. 30, acap. 6 usque
+          <lb ed="#P" n="49"/>ad 29. Commentator, citato loco de Anima. Est
+          <lb ed="#P" n="50"/>denique satis aperta doctrina Pauli Rom. 1,
+          <lb ed="#P" n="51"/>dum Gentiles philosophos arguit, quod Deum,
+          <lb ed="#P" n="52"/>et invisibilia noverint, nec tamen coluerint.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>Est autem primo notandum duplici modo posse
+          <lb ed="#P" n="54"/>rem cognosci. Uno quantum ad an est: altero
+          <lb ed="#P" n="55"/>quantum ad quid est. Ipsum deinde an est 
+          du<lb break="no" ed="#P" n="56"/>pliciter adhuc potest cognosci, aut quoad 
+          ac<lb break="no" ed="#P" n="57"/>tualem existentiam, aut quoad aptitudinem:
+          <lb ed="#P" n="58"/>longe enim differunt nosse rem actu esse, vel
+          <lb ed="#P" n="59"/>tantum posse esse. Denique quidditatem rei
+          <lb ed="#P" n="60"/>cujusvis possumus attingere perfecte, atque
+          <lb ed="#P" n="61"/>adaequate, vel imperfecte, cognoscendo scilicet
+          <lb ed="#P" n="62"/>praedicata aliquot quidditativa, non vero 
+          inte<lb break="no" ed="#P" n="63"/>gram quidditatem. Secundo notandum, 
+          per<lb break="no" ed="#P" n="64"/>fectam cognitionem, aut comprehensivam esse,
+          <lb ed="#P" n="65"/>quando nimirum tota quidditas distinctissime,
+          <lb ed="#P" n="66"/>ac per eam proprietas ejus universae 
+          percipiun<lb break="no" ed="#P" n="67"/>tur. Qui cognoscendi modus angelorum 
+          pro<lb break="no" ed="#P" n="68"/>prius est, non hominis, unde res perfecte 
+          co<lb break="no" ed="#P" n="69"/>gnosci perhibetur, quando propria ejus essentia
+          <lb ed="#P" n="70"/>claro conceptu percipitur, et ex illa affectiones
+          <lb ed="#P" n="71"/>aliquot propriae, et non tantum communes: qui
+          <lb ed="#P" n="72"/>quidem modus perfectae cognitionis haberi 
+          po<lb break="no" ed="#P" n="73"/>test per speciem rei, vel etiam per effectum
+          <lb ed="#P" n="74"/>ejus proprium, seu qui a sola illa causari 
+          po<lb break="no" ed="#P" n="75"/>test. Imperfecte autem res cognoscitur, quando
+          <lb ed="#P" n="76"/>solum secundum communia attingitur. Tertio
+          <lb ed="#P" n="77"/>observandum, in praesenti dubitatione 
+          diver<lb break="no" ed="#P" n="78"/>sam nimium rationem esse de substantia 
+          infi<lb break="no" ed="#P" n="79"/>nita, quae Deus est, ac de aliis substantiis 
+          spi<lb break="no" ed="#P" n="80"/>ritualibus, quae vocantur Angel.
+        </p>
+        <p xml:id="szdada-y18067-d1e213">
+          <lb ed="#P" n="81"/>2. Secunda assertio.—His positis sit secunda
+          <lb ed="#P" n="82"/>conclusio. Nulla substantia spiritualis potest a
+          <lb ed="#P" n="83"/>nobis pro hoc statu mortali cognosci prout in
+          <lb ed="#P" n="84"/>se est, seu per propriam ejus speciem, sed 
+          tan<lb break="no" ed="#P" n="85"/>tum per effectum aliquem. Probatur ; nam
+          <lb ed="#P" n="86"/>intellectus noster species intelligibiles acquirit
+          <lb ed="#P" n="87"/>mediis sensibilibus objectis, ac mediis actibus,
+          <lb ed="#P" n="88"/>qui inde procedunt, sed nulla substantia 
+          spiri<lb break="no" ed="#P" n="89"/>tualis objici potest sensibus: non ergo potest
+          <lb ed="#P" n="90"/>imprimere sui speciem intellectui. 
+          Confirma<lb break="no" ed="#P" n="91"/>tur experientia, nemo enim nunquam de Deo,
+          <lb ed="#P" n="92"/>aut Angelis naturaliter quippiam novit, quam
+          <lb ed="#P" n="93"/>per effectus, neque perfecte assecutus est 
+          il<lb break="no" ed="#P" n="94"/>lorum notitiam, unde D. Dionysius 7, de 
+          divi<lb break="no" ed="#P" n="95"/>nis Nominibus, et de coelesti Hierarchia, c. 1,
+          <lb ed="#P" n="96"/>dixit Deum a nobis cognosci solum ex 
+          sensibi<lb break="no" ed="#P" n="97"/>libus, idemque celebrant Augustinus 15, de
+          <lb ed="#P" n="98"/>Trinitate, c. 8, Damascenus et alii Patres 
+          ex<lb break="no" ed="#P" n="99"/>ponentes illud 1, Corinth., c. 13: VFidemus
+          <lb ed="#P" n="100"/>nunc per speculum in enigmate: nimirum per
+          <lb ed="#P" n="101"/>creaturas.
+        </p>
+        <p xml:id="szdada-y18067-d1e262">
+          <lb ed="#P" n="102"/>3. Tertia assertio. — Fidendus et ipse 
+          auc<lb break="no" ed="#P" n="103"/>tor, tum disp. 30, Metaphysice, praesertim sect.
+          <lb ed="#P" n="104"/>11 et 19, tum lib. 2, de Attributis, a cap. 1.—
+          <lb ed="#P" n="105"/>Tertia conclusio. Deus quantum ad an est,
+          <lb ed="#P" n="106"/>potest evidenter cognosci per creaturas: potest
+          <lb ed="#P" n="107"/>item ejus quidditas, confuse tamen et impei
+          <pb ed="#P" n="736"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fecte: sed de hac conclusione videndus D.
+          <lb ed="#P" n="2"/>Thomas, 1. p. q- 2, 12, 13et 88, ubi de hac
+          <lb ed="#P" n="3"/>re latius agitur, et apud Aristotelem, et in
+          <lb ed="#P" n="4"/>Metaphysica: potest etiam, ac solet hic 
+          tracta<lb break="no" ed="#P" n="5"/>ri, et 8, etiam Physicorum, q. 17, nonnulla
+          <lb ed="#P" n="6"/>diximus. Ratio vero conclusionis est, quia
+          <lb ed="#P" n="7"/>Deus, cum sit prima causa, a qua effectus 
+          om<lb break="no" ed="#P" n="8"/>nes pendent in esse, et fieri, quaeque omnia
+          <lb ed="#P" n="9"/>gubernat, et omnibus providet, habet 
+          neces<lb break="no" ed="#P" n="10"/>sariam quamdam connexionem cum effectibus,
+          <lb ed="#P" n="11"/>et ideo ex illis evidenter cognoscimus dari 
+          ali<lb break="no" ed="#P" n="12"/>quam talem primam causam omnium, quam
+          <lb ed="#P" n="13"/>Deum vocamus. Rursus autem, ex eisdem 
+          ef<lb break="no" ed="#P" n="14"/>fectibus naturam hujus causae investigamus,
+          <lb ed="#P" n="15"/>cognoscimusque illam esse, suum esse per 
+          es<lb break="no" ed="#P" n="16"/>sentiam, quia non potest ab alia causa ipsum
+          <lb ed="#P" n="17"/>recipere: alias non esset prima: cognoscimus
+          <lb ed="#P" n="18"/>etiam esse infinitam, bonam, sapientem, etc.
+          <lb ed="#P" n="19"/>Atque ita formamus quemdam conceptum 
+          pro<lb break="no" ed="#P" n="20"/>prium Dei, quo ejus quidditatem aliquo modo
+          <lb ed="#P" n="21"/>assequimur: nunquam tamen clare et 
+          distinc<lb break="no" ed="#P" n="22"/>te: eo quod effectus ipsi Deum non 
+          repraesen<lb break="no" ed="#P" n="23"/>tant, prout in se est, neque totam virtutem,
+          <lb ed="#P" n="24"/>essentiamque illius explicant.
+        </p>
+        <p xml:id="szdada-y18067-d1e334">
+          <lb ed="#P" n="25"/>4. Objectio contra hanc tertiam conclusionem
+          <lb ed="#P" n="26"/>diluitur. — Objicies tamen contra 
+          conclusio<lb break="no" ed="#P" n="27"/>nem. Intellectus noster finitus est, Deus autem
+          <lb ed="#P" n="28"/>infinitus: non ergo potest ab illo cognosci,
+          <lb ed="#P" n="29"/>cum inter intellectum et intelligibile debeat
+          <lb ed="#P" n="30"/>inveniri proportio: finiti vero ad finitum nulla
+          <lb ed="#P" n="31"/>talis potest cogitari. Et confirmatur ex 3, Phys.,
+          <lb ed="#P" n="32"/>text. 65, ubi Philosophus pronuntiat, 
+          infini<lb break="no" ed="#P" n="33"/>tum, qua infinitum est, ignotum esse. 
+          Respon<lb break="no" ed="#P" n="34"/>deo infinitum duplex esse aut secundum 
+          essen<lb break="no" ed="#P" n="35"/>tiam, aut secundum molem, neutrumque 
+          va<lb break="no" ed="#P" n="36"/>lere a nobis perfecte percipi in hac vita, quia
+          <lb ed="#P" n="37"/>neutrius habemus propriam, adaequatamque
+          <lb ed="#P" n="38"/>speciem, neque infinito modo nobis competit
+          <lb ed="#P" n="39"/>cognoscere, posset tamen intellectum nostrum
+          <lb ed="#P" n="40"/>naturali suo lumine, finito modo, infinitum
+          <lb ed="#P" n="41"/>attingere, cum ad cognitionem non requiratur
+          <lb ed="#P" n="42"/>proportio certa in ratione entis, sed in ratione
+          <lb ed="#P" n="43"/>objecti, et potentiae tantummodo, ut D. 
+          Tho<lb break="no" ed="#P" n="44"/>mas observat, 4 p., q. 12, a. 1, ad quartum.
+          <lb ed="#P" n="45"/>Quidquid autem entitatem habet, 
+          comprehen<lb break="no" ed="#P" n="46"/>ditur adaequate sub objecto intellectus nostri,
+          <lb ed="#P" n="47"/>ut cap. 1, visum est: ideoque est aliquo modo
+          <lb ed="#P" n="48"/>proportionatum cognitioni illius, proindeque
+          <lb ed="#P" n="49"/>potest ab illo utcumque intelligi. Ad 
+          confirma<lb break="no" ed="#P" n="50"/>tionem dic loqui ibi Aristotelem de infinito,
+          <lb ed="#P" n="51"/>ut importat negationem, quae non per se, sed
+          <lb ed="#P" n="52"/>per formam nega:am cognoscitur. Sic ergo
+          <lb ed="#P" n="53"/>non finitum per finitum aliquid intelligitur.
+          <lb ed="#P" n="54"/>Vide D. Thomam, ib., ad 2.
+        </p>
+        <p xml:id="szdada-y18067-d1e402">
+          <lb ed="#P" n="55"/>5. Quarta assertio bipartita, de qua late in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>disp. 35, sect. 1, et lib. 1, de Angelis, c. 1.—
+          <lb ed="#P" n="57"/>Ostenditur prima pars. — Quarta conclusio.
+          <lb ed="#P" n="58"/>Aliae substantiae separatae quantum ad 
+          actua<lb break="no" ed="#P" n="59"/>lem existentiam possunt optimis rationibus
+          <lb ed="#P" n="60"/>cognosci, non tamen demonstrationibus 
+          con<lb break="no" ed="#P" n="61"/>vincentibusintellectum, quidditas etiam earum
+          <lb ed="#P" n="62"/>imperfecte potest cognosci quantum ad 
+          com<lb break="no" ed="#P" n="63"/>munia quaedam praedicata, non vero quantum
+          <lb ed="#P" n="64"/>ad priora In prima conclusionis parte loquor
+          <lb ed="#P" n="65"/>de actuali existentia, nam de possibili tantum
+          <lb ed="#P" n="66"/>demonstrabiles fortasse sunt creaturae aliquae
+          <lb ed="#P" n="67"/>spirituales. Primo quia nos evidenter 
+          cognosci<lb break="no" ed="#P" n="68"/>mus animam nostram spiritualem esse, atque
+          <lb ed="#P" n="69"/>in illo genere incompletam substantiam: 
+          evi<lb break="no" ed="#P" n="70"/>denter quoque Deum esse substantiam 
+          intellec<lb break="no" ed="#P" n="71"/>tualem et spiritualem, summam et primam in
+          <lb ed="#P" n="72"/>illo ordine, ac tandem scimus evidenter 
+          gra<lb break="no" ed="#P" n="73"/>dum substantiarum intellectualium esse 
+          om<lb break="no" ed="#P" n="74"/>nium perfectissimum: ex quibus praemissis
+          <lb ed="#P" n="75"/>evidenter inferri potest possibiles esse 
+          substan<lb break="no" ed="#P" n="76"/>tias spirituales, et intellectuales integras in
+          <lb ed="#P" n="77"/>suo genere, mediasque inter substantiam Dei,
+          <lb ed="#P" n="78"/>atque animae nostra.. Secundo argumentari
+          <lb ed="#P" n="79"/>possumus possibiles esse praedictas substantias,
+          <lb ed="#P" n="80"/>quia nec ex parte rei potest reperiri implicatio,
+          <lb ed="#P" n="81"/>neque ex parte Dei impotentia: ex quo recte
+          <lb ed="#P" n="82"/>etiam colligimus dari actu existentes, cum illae
+          <lb ed="#P" n="83"/>sint, qua maxime assimilantur Deo, et quae
+          <lb ed="#P" n="84"/>complent supremum gradum creaturarum 
+          in<lb break="no" ed="#P" n="85"/>tellectualium, qui in anima nostra inchoatus
+          <lb ed="#P" n="86"/>tantum fuit, atque imperfectus: naturae autem
+          <lb ed="#P" n="87"/>ordo postulat ad complementum universi, ut
+          <lb ed="#P" n="88"/>substantiae completae, et perfectae in illo gradu
+          <lb ed="#P" n="89"/>inveniantur. Tertio effectus plurimi dantur in
+          <lb ed="#P" n="90"/>universo, qui non nisi his substantiis possunt
+          <lb ed="#P" n="91"/>attribui, ut coelorum motus, quos non decet
+          <lb ed="#P" n="92"/>Deo tribui immediate, quidquid Aristoteles
+          <lb ed="#P" n="93"/>hac in re dixerit, de quo alibi. Dixi tamen hoc
+          <lb ed="#P" n="94"/>non posse demonstratione convinci, quia 
+          nul<lb break="no" ed="#P" n="95"/>lus est effectus in universo, qui necessariam
+          <lb ed="#P" n="96"/>omnino counexionem habeat, cum substantis
+          <lb ed="#P" n="97"/>separatis: nam omnes possunt a Deo fieri:
+          <lb ed="#P" n="98"/>unde cum tales substantia non habeant ab
+          <lb ed="#P" n="99"/>intrinseco necessariam existentiam, ut suis
+          <lb ed="#P" n="100"/>etiam locis demonstratur, sed illam debeant
+          <lb ed="#P" n="101"/>recipere ex libera Dei voluntate: effectusque
+          <lb ed="#P" n="102"/>non omnino demonstrent evidenter, Deum illas
+          <lb ed="#P" n="103"/>fecisse, jam sequitur non posse ostendi illas
+          <lb ed="#P" n="104"/>esse actu, demonstratione cogente intellectum:
+          <lb ed="#P" n="105"/>ostenditur tamen evidentia quadam morali,
+          <lb ed="#P" n="106"/>qua homo minime pervicax convincetur.
+        </p>
+        <p xml:id="szdada-y18067-d1e519">
+          <lb ed="#P" n="107"/>6. Ostenditur secunda pars. — Secunda pars
+          <lb ed="#P" n="108"/>conclusionis experientia evidenti patet: 
+          intel<lb break="no" ed="#P" n="109"/>lectus enim neque proprium conceptum 
+          alicu<lb break="no" ed="#P" n="110"/>jus Angeli format, neque unum ab alio per
+          <pb ed="#P" n="737"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>proprias differentias distinguit, sed concipit
+          <lb ed="#P" n="2"/>tantum sub communi ratione substantiae 
+          incor<lb break="no" ed="#P" n="3"/>porae, et cum maxime distinguit per conceptus
+          <lb ed="#P" n="4"/>accidentales in ordine ad effectus, veluti si
+          <lb ed="#P" n="5"/>hunc Angelum distinguas, quia hoc coelum,
+          <lb ed="#P" n="6"/>verbi gratia, lunae movet: sic enim Gabrielem
+          <lb ed="#P" n="7"/>concipimus sub ratione nuntit incarnationis,
+          <lb ed="#P" n="8"/>Michaelem sub ratione ducis, etc., alium sub
+          <lb ed="#P" n="9"/>ratione custodis, etc. Quibus fere modis 
+          dis<lb break="no" ed="#P" n="10"/>tinguunt Patres, ac theologi Angelorum 
+          hierar<lb break="no" ed="#P" n="11"/>chias et choros. At propriis conceptibus ipsos
+          <lb ed="#P" n="12"/>concipere naturaliter est impossibile. Ratio
+          <lb ed="#P" n="13"/>est, quia nullus ejusmodi substantiarum 
+          effec<lb break="no" ed="#P" n="14"/>tus nobis innotescit, qui ostendat proprias 
+          ea<lb break="no" ed="#P" n="15"/>rum proprietates, nec etiam praedicata, quae
+          <lb ed="#P" n="16"/>non sint omnibus communia. In quo late 
+          dif<lb break="no" ed="#P" n="17"/>ferunt a Deo:de illo enim plura cognoscimus,
+          <lb ed="#P" n="18"/>quae soli conveniunt. Ac differentiae causa est,
+          <lb ed="#P" n="19"/>quia licet Deus sit multo altior et perfectior,
+          <lb ed="#P" n="20"/>habet tamen longe plures effectus in universo,
+          <lb ed="#P" n="21"/>majoremque connexionem cum illis; unde
+          <lb ed="#P" n="22"/>magis cognoscibilis evadit ejus substantia,
+          <lb ed="#P" n="23"/>quam Angelorum. Solum ergo in hac vita 
+          sub<lb break="no" ed="#P" n="24"/>stantiarum separatarum quidditatem in 
+          com<lb break="no" ed="#P" n="25"/>muni et confuse cognoscere valemus: porro
+          <lb ed="#P" n="26"/>harum conclusionum doctrina Aristotelica est
+          <lb ed="#P" n="27"/>in 3 lib., de Anima: nam, cap. 4, docet 
+          objec<lb break="no" ed="#P" n="28"/>tum proportionatum intellectui nostro esse
+          <lb ed="#P" n="29"/>quidditatem materialem, et c. 7, atque 8, sine
+          <lb ed="#P" n="30"/>phantasmate nihil nos intelligere. Secundo
+          <lb ed="#P" n="31"/>etiam Metaphysicae comparat intellectum 
+          nos<lb break="no" ed="#P" n="32"/>trum oculis noctuae, quibus sicut intueri solem
+          <lb ed="#P" n="33"/>nequit, ita nos intellectu manifestissima 
+          natu<lb break="no" ed="#P" n="34"/>rae, quales sunt spirituales substantiae. Denique
+          <lb ed="#P" n="35"/>1, de Partibus Animalium, c. 5, Partem illam,
+          <lb ed="#P" n="36"/>inquit, nobilem, atque divinum minus 
+          contempla<lb break="no" ed="#P" n="37"/>ri valemus, quia admodum pauca illius sensibus
+          <lb ed="#P" n="38"/>patent, quorum beneficio, tum de ea ipsa parte
+          <lb ed="#P" n="39"/>divina, tum de aliis, que nosse cupimus, 
+          fa<lb break="no" ed="#P" n="40"/>cultas nobis cogitandi, indagandique 
+          suppedi<lb break="no" ed="#P" n="41"/>tatur. Et infra: Res namque illas superiores
+          <lb ed="#P" n="42"/>tametsi leviter attingere possumus, tamen ob
+          <lb ed="#P" n="43"/>ejus generis cognoscendi excellentiam amplius
+          <lb ed="#P" n="44"/>oblectamur, quam si haec inferiora omnia 
+          te<lb break="no" ed="#P" n="45"/>Aneamnus: constat ergo ex Aristotelis sententia
+          <lb ed="#P" n="46"/>ilas substantias non posse a nobis perfecte
+          <lb ed="#P" n="47"/>cognosci.
+        </p>
+        <p xml:id="szdada-y18067-d1e636">
+          <lb ed="#P" n="48"/>4. Quid aberraverint Platonici circa 
+          praece<lb break="no" ed="#P" n="49"/>dentem conclusionem. — Quid nonnulli 
+          Peripa<lb break="no" ed="#P" n="50"/>telici. — Contra probatam vero conclusionem
+          <lb ed="#P" n="51"/>Plato, Platonicique omnes opinati sunt, 
+          sub<lb break="no" ed="#P" n="52"/>stantias has posse a nobis perfecte intelligi,
+          <lb ed="#P" n="53"/>ponebat enim ipse quidditates rerum 
+          materia<lb break="no" ed="#P" n="54"/>lium separatas dari ab individuis, unde 
+          con<lb break="no" ed="#P" n="55"/>sequenter aiebat, sicut rerum materialium,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quidditas potest a nobis perfecte cognosci, ita,
+          <lb ed="#P" n="57"/>et posse separatas ideas, in quarum 
+          contem<lb break="no" ed="#P" n="58"/>platione beatitudo nostra consisteret, ut videre
+          <lb ed="#P" n="59"/>est, libro primo Ethicorum, cap. 6. Sed 
+          fun<lb break="no" ed="#P" n="60"/>damentum Platonis inane est, et passim ab
+          <lb ed="#P" n="61"/>Aristotele confutatum. Ex Peripateticis etiam
+          <lb ed="#P" n="62"/>multi voluerunt substantias separatas posse a
+          <lb ed="#P" n="63"/>nobis in hac vita perfecte cognosci, ut 
+          Alexan<lb break="no" ed="#P" n="64"/>der Aphrodisius, libro suo de Anima, et 9,
+          <lb ed="#P" n="65"/>Metaphysicae, c. ultimo, et l, 2. Item 
+          Themis<lb break="no" ed="#P" n="66"/>tius, Philoponus et Simplicius, num. 3, de
+          <lb ed="#P" n="67"/>Anima, atque iterum Simmplicius, lib. de 
+          Ani<lb break="no" ed="#P" n="68"/>mae immortalitate, Themistius, paraphrasi in
+          <lb ed="#P" n="69"/>3, de Anima, cap. 3 et 51, Commentator,
+          <lb ed="#P" n="70"/>text. 35 et 36, Avicenna et Avempace quos
+          <lb ed="#P" n="71"/>refert Commentator, ac, quod mirum est, idem
+          <lb ed="#P" n="72"/>tenuit Albertus Magnus 12, Metaphysica,
+          <lb ed="#P" n="73"/>tract. 2. cap. 15, et in libello de Intellectu et
+          <lb ed="#P" n="74"/>intelligibili, qui omnes diversis procedebant
+          <lb ed="#P" n="75"/>viis, quas S. Thomas supra, et 3, contr. 
+          Gen<lb break="no" ed="#P" n="76"/>tes, elegantissime impugnat. Eorum ergo 
+          plu<lb break="no" ed="#P" n="77"/>res hoc nitebantur fundamento, quod 
+          intellec<lb break="no" ed="#P" n="78"/>tus agens non potentia animae nostrae sit, sed
+          <lb ed="#P" n="79"/>substantia quaedam separata, quae discursu
+          <lb ed="#P" n="80"/>temporis efticiat nescio quam unionem cum
+          <lb ed="#P" n="81"/>intellectu possibilh, qua mediante intellectus
+          <lb ed="#P" n="82"/>posset assurgere in cognitionem substantiarum
+          <lb ed="#P" n="83"/>separatarum confirmantque ex Aristotele 9,
+          <lb ed="#P" n="84"/>Metaphysicae, cap. 12, ubi diserte affirmat posse
+          <lb ed="#P" n="85"/>nos cognoscere substantias simplices et 
+          separa<lb break="no" ed="#P" n="86"/>tas, ac intelligendus videtur de perfecta et
+          <lb ed="#P" n="87"/>quidditativa cognitione. Libro item 12, 
+          Meta<lb break="no" ed="#P" n="88"/>physiese, cap. 7 et 9, loquens de Deo, de 
+          intel<lb break="no" ed="#P" n="89"/>lectioneque divina disputans, talem ait inesse
+          <lb ed="#P" n="90"/>illi perpetuo contemplationem, qualis inest 
+          no<lb break="no" ed="#P" n="91"/>bis exiguo tempore, et 12, Ethicorum, cap. 7,
+          <lb ed="#P" n="92"/>felicitatem nostram sitam esse in 
+          contempla<lb break="no" ed="#P" n="93"/>tione divinorum. Etenim fundamentum 
+          alla<lb break="no" ed="#P" n="94"/>tum tam falsum est. quam quod falsissimum ut
+          <lb ed="#P" n="95"/>ex dicendis constabit in octavo capite. Atque
+          <lb ed="#P" n="96"/>positio ipsa manifesta militat contra 
+          experien<lb break="no" ed="#P" n="97"/>tiam, modumque naturalem intelligendi 
+          ani<lb break="no" ed="#P" n="98"/>mae, quem nunc exercemus, contra rationes
+          <lb ed="#P" n="99"/>etiam supra factas, ac denique contra ipsum
+          <lb ed="#P" n="100"/>Aristotelem: in locis autem citatis haud dubie
+          <lb ed="#P" n="101"/>loquitur de cognitione illa, quam humano
+          <lb ed="#P" n="102"/>modo possumus assequi.
+        </p>
+        <p xml:id="szdada-y18067-d1e760">
+          <lb ed="#P" n="103"/>8. Quid denique circa illam dissidii inter
+          <lb ed="#P" n="104"/>Thomistas et Scotistas. —Circa eamdem etiam
+          <lb ed="#P" n="105"/>conclusionem Scoti, ac D. Thomae sectatores
+          <lb ed="#P" n="106"/>dissensionem quaerunt, Scotus quippe, ut 
+          re<lb break="no" ed="#P" n="107"/>fert Antonius Andreas 2, Metaphysicae, q. 3,
+          <lb ed="#P" n="108"/>vult substantias separatas posse a nobis 
+          quid<lb break="no" ed="#P" n="109"/>ditative cognosci, quod etiam habet Joannes
+          <lb ed="#P" n="110"/>de Gandavo 3, de Anima, quaest. 37, Thomis-
+          <pb ed="#P" n="738"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tae vero contendunt hoc impossibile, ut videre
+          <lb ed="#P" n="2"/>est in Cajetano, 1 part., quaest. 12, art. 2, de
+          <lb ed="#P" n="3"/>Ente et essentia, cap. 1, quaest. 14, Capreolo,
+          <lb ed="#P" n="4"/>in 1, d. 2, quaest. 2, Ferrario 3, contra, c. 55,
+          <lb ed="#P" n="5"/>in Janduno 2, Metaphysicae, quaest. 3, /Egidio
+          <lb ed="#P" n="6"/>3, de Anima, text. 36. Quae certe dissensio de
+          <lb ed="#P" n="7"/>nomine tantum est. Nam omnes admittunt
+          <lb ed="#P" n="8"/>haud posse nos propriam et distinctam 
+          quiddi<lb break="no" ed="#P" n="9"/>tatem Angelorum cognoscere, quod, velint,
+          <lb ed="#P" n="10"/>nolint, experientia docet: omnes etiam 
+          faten<lb break="no" ed="#P" n="11"/>tur posse nos attingere quidditates Angelorum
+          <lb ed="#P" n="12"/>confuse, atque in universali: de nomine ergo
+          <lb ed="#P" n="13"/>dissident, nam Scotistae ejusmodi 
+          cognitio<lb break="no" ed="#P" n="14"/>nem licet confusam, quidditativam appellant,
+          <lb ed="#P" n="15"/>Thomistae autem quidditatis. non 
+          quidditati<lb break="no" ed="#P" n="16"/>vam appellandam esse reclamant.
+        </p>
+        <p xml:id="szdada-y18067-d1e820">
+          <lb ed="#P" n="17"/>9. Notatio una pro eadem conclusione.— His
+          <lb ed="#P" n="18"/>vero relictis, in gratiam datae doctrinae, 
+          notan<lb break="no" ed="#P" n="19"/>dum primo, praedictarum substantiarum 
+          intel<lb break="no" ed="#P" n="20"/>ligendi modos varios afferri. Divus enim 
+          Dio<lb break="no" ed="#P" n="21"/>nysius, cap. 2, de mystica Theologia et de 
+          Di<lb break="no" ed="#P" n="22"/>vinis nominib., cap. 7, de Deoloquens assignat
+          <lb ed="#P" n="23"/>triplicem. Primus est per attributionem, 
+          attri<lb break="no" ed="#P" n="24"/>buendo scilicet Deo quidquid in creaturis 
+          per<lb break="no" ed="#P" n="25"/>fectum deprehendimus, quod etiam in Angelis
+          <lb ed="#P" n="26"/>locum habet, illis enim tribuimus, si non 
+          om<lb break="no" ed="#P" n="27"/>nes rerum aliarum perfectiones, certe 
+          supre<lb break="no" ed="#P" n="28"/>mum illarum gradum, aftirmamusque dandas
+          <lb ed="#P" n="29"/>esse substantias, in quibus gradus ille in sua
+          <lb ed="#P" n="30"/>perfectione eluceat. Secundus modus est per
+          <lb ed="#P" n="31"/>negationem earum rerum, quae puram 
+          perfec<lb break="no" ed="#P" n="32"/>tionem non habent. Quo etiam modo de 
+          intel<lb break="no" ed="#P" n="33"/>ligentiis philosophari solemus. Namque 
+          intel<lb break="no" ed="#P" n="34"/>lectus concipiens generalem, rationem entis,
+          <lb ed="#P" n="35"/>ac substantiae, conatur eas contrahere ad genus
+          <lb ed="#P" n="36"/>quoddam entium, superans haec inferiora, et
+          <lb ed="#P" n="37"/>tunc vocibus negantibus utitur, ut immateriali,
+          <lb ed="#P" n="38"/>incorporeo, etc. Tertius modus est per effectus,
+          <lb ed="#P" n="39"/>quo potissime usus fuit Aristoteles 8, 
+          Physico<lb break="no" ed="#P" n="40"/>rum, et 12, Metaphysicae, ac docuit Paulus ad
+          <lb ed="#P" n="41"/>Roman. 1: Znvisibilia enim Dei per ea que
+          <lb ed="#P" n="42"/>facta sunt conspiciuntur. Potest autem addi
+          <lb ed="#P" n="43"/>quartus modus cognoscendi, per intellectum
+          <lb ed="#P" n="44"/>videlicet nostrum, in quo cum superiori illo
+          <lb ed="#P" n="45"/>substantiarum ordine convenimus. Unde S. 
+          Au<lb break="no" ed="#P" n="46"/>gustinus 8, de Civitate Dei, cap. 5 et 6, docet
+          <lb ed="#P" n="47"/>ratione intellectus nostri demonstrari, esse
+          <lb ed="#P" n="48"/>substantias intellectuales: assentiuntque 
+          Com<lb break="no" ed="#P" n="49"/>mentator, S. Thomas et alii. Quintus modus
+          <lb ed="#P" n="50"/>cx perfectione universi: et sic plures alii 
+          pos<lb break="no" ed="#P" n="51"/>scit excogitari. Vide S. Thomam supra, et 1 p.,
+          <lb ed="#P" n="52"/>et quaest. de Spirit. creaturis, et quaest. de
+          <lb ed="#P" n="53"/>Anima, art. 10, opusc. 70, supra Boetium de
+          <lb ed="#P" n="54"/>Trinit., quaest. 4, 2 Metaphysicae, lect. 1. 
+          Po<lb break="no" ed="#P" n="55"/>tissima vero difficultas circa hoc restabat, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>anima separata potest substantias spirituales
+          <lb ed="#P" n="57"/>aperte intelligere: ergo et conjuncta corpori,
+          <lb ed="#P" n="58"/>alias impeditur a nobilissima operatione per
+          <lb ed="#P" n="59"/>existentiam in corpore, proindeque illud 
+          in<lb break="no" ed="#P" n="60"/>formaret praeter naturam suam: haec tamen
+          <lb ed="#P" n="61"/>difficultas tangit modum cognoscendi animae
+          <lb ed="#P" n="62"/>separatae, quod proprium locum habet infra
+          <lb ed="#P" n="63"/>libro sexto.
+        </p>
+        <p xml:id="szdada-y18067-d1e927">
+          <lb ed="#P" n="64"/>10. Notatio altera. — Notandum secundo
+          <lb ed="#P" n="65"/>licet alias substantias spirituales imperfecte
+          <lb ed="#P" n="66"/>cognoscamus, attamen animam nostram a 
+          no<lb break="no" ed="#P" n="67"/>bis attingi quantum fas est humanointelligendi
+          <lb ed="#P" n="68"/>modo. Nam evidentissime scimus illam esse,
+          <lb ed="#P" n="69"/>et quidditatem ejus etiam usque ad ultimam
+          <lb ed="#P" n="70"/>differentiam specificam: proprietates denique
+          <lb ed="#P" n="71"/>et passiones. Ratio est, quia actus animae 
+          nos<lb break="no" ed="#P" n="72"/>trae proprii, potissimi effectus illius sunt, 
+          no<lb break="no" ed="#P" n="73"/>bisque notissimi: illi vero explicant nobis 
+          pro<lb break="no" ed="#P" n="74"/>priam suae causae virtutem, ut ex hactenus
+          <lb ed="#P" n="75"/>dictis constat: at de Angelis nullum talem
+          <lb ed="#P" n="76"/>effectum cognoscimus. Quare, etc.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="651"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y15934"><!-- t3l3c10 -->
+        <head xml:id="szdada-y15934-Hd1e101">Caput 10</head>
+        <head xml:id="szdada-y15934-Hd1e103" type="question-title">An sensus in cognitione sua falli possit</head>
+        <p xml:id="szdada-y15934-d1e106">
+          <lb ed="#P" n="8"/>CAPUT X.
+          <lb ed="#P" n="9"/>AN SENSUS IN COGNITIONE SUA FALLI POSSIT.
+        </p>
+        <p xml:id="szdada-y15934-d1e113">
+          <lb ed="#P" n="10"/>1. Nomen judicii in simplicibus 
+          cognitioni<lb break="no" ed="#P" n="11"/>bus late usurpat auctor, ut patet supra 6, n. 2,
+          <lb ed="#P" n="12"/>et in Metaphysica, disp. 8, sect. 4, n. 6, sicut
+          <lb ed="#P" n="13"/>et nomen falsitatis, im disp. 9, sect. 1, n. 44.
+          <lb ed="#P" n="14"/>—Consulatur etiam auctor, disp. S 
+          Metaphysi<lb break="no" ed="#P" n="15"/>ce. — Prima antiquorum opinio. — Secunda
+          <lb ed="#P" n="16"/>opinio. — Qusestio de veritate et falsitate 
+          ac<lb break="no" ed="#P" n="17"/>tus cognoscendi communis est omnipotentiae
+          <lb ed="#P" n="18"/>cognoscitivae, tamen quia metaphysica, non
+          <lb ed="#P" n="19"/>est exacte de sensibus tractanda: sed solum
+          <lb ed="#P" n="20"/>dicemus de eorum nonnulla cognitione, 
+          quo<lb break="no" ed="#P" n="21"/>niam Aristoteles id etiam tetigit. Est ergo 
+          sup<lb break="no" ed="#P" n="22"/>ponendum veritatem cognitionis consistere in
+          <lb ed="#P" n="23"/>conformitate judicii et rei, de qua fertur. 
+          Du<lb break="no" ed="#P" n="24"/>plex vero est judicium, nempe complexum et
+          <lb ed="#P" n="25"/>simplex, et in utroque potest esse veritas suo
+          <lb ed="#P" n="26"/>modo, scilicet coemplexa et incomplexa, ut 
+          ex<lb break="no" ed="#P" n="27"/>posuimus late in primo perihermen. Hic ergo
+          <lb ed="#P" n="28"/>quaestio solum est de veritate, vel falsitate 
+          in<lb break="no" ed="#P" n="29"/>complexa, cum in sensibus, de quibus 
+          dispu<lb break="no" ed="#P" n="30"/>tamus, cognitio complexa non reperiatur. Hoc
+          <lb ed="#P" n="31"/>posito fuit prima opinio Academicorum, 
+          nul<lb break="no" ed="#P" n="32"/>lum sensum habere posse judicium certum,
+          <lb ed="#P" n="33"/>contra quos disputat Cicero in quaestionibus
+          <lb ed="#P" n="34"/>Academicis, Tertullianus, lib. de Anima, cap.
+          <lb ed="#P" n="35"/>de quinque sensibus. Secunda fuit 
+          Epicureo<lb break="no" ed="#P" n="36"/>rum, nunquam decipi sensus in suo judicio,
+          <lb ed="#P" n="37"/>contra quos etiam arguit ibidem Cicero, et
+          <lb ed="#P" n="38"/>D. Augustinus 8, de Civit., cap. 7, Aristoteles
+          <lb ed="#P" n="39"/>vero 2, de Anima, cap. 7, ex parte tradit hanc
+          <lb ed="#P" n="40"/>opinionem, dum ait sensum circa proprium
+          <lb ed="#P" n="41"/>sensibile nunquam errare, et Albertus 2, de
+          <lb ed="#P" n="42"/>Anima, tract. 3, cap. 1, rationem affert, quia
+          <lb ed="#P" n="43"/>ex natura sua sensus inclinatur ad tale 
+          objec<lb break="no" ed="#P" n="44"/>tum, inclinatio autem naturae semper est ad
+          <lb ed="#P" n="45"/>verum, et nunquam ad falsum, sicut 
+          intellec<lb break="no" ed="#P" n="46"/>tus non potest falli in assensu primorum 
+          prin<lb break="no" ed="#P" n="47"/>cipiorum, quia ad illa habet naturalem 
+          incli<lb break="no" ed="#P" n="48"/>nationem. Et confirmatur, quia si sensus posset
+          <lb ed="#P" n="49"/>falii, nulla esset certitudo in scientiis maxime
+          <lb ed="#P" n="50"/>in philesophia, quae a sensibus ducit originem,
+          <lb ed="#P" n="51"/>primo Posterior., cap. 18, et 1, Ethicorum,
+          <lb ed="#P" n="52"/>cap. 7.
+        </p>
+        <p xml:id="szdada-y15934-d1e209">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>2. Prima conclusio. — Difficultas potissima
+          <lb ed="#P" n="54"/>in praesenti est de sensibus externis, de quibus
+          <lb ed="#P" n="55"/>Aristoteles pronuntiavit circa sensibilia tum
+          <lb ed="#P" n="56"/>communia, tum etiam per accidens, falli posse,
+          <lb ed="#P" n="57"/>circa propria vero minime. OQuae sententa
+          <lb ed="#P" n="58"/>quoad sensibilia per accidens est manifesta,
+          <lb ed="#P" n="59"/>quia ab illis non immutatur sensus, unde 
+          fa<lb break="no" ed="#P" n="60"/>cile hallucinari potest, ut etiam docet 
+          experien<lb break="no" ed="#P" n="61"/>tia. At quoad sensibilia communia, et propria
+          <lb ed="#P" n="62"/>est difficultas, nam sicut potest falli visus 
+          iudi<lb break="no" ed="#P" n="63"/>cans rem esse tantae quantitatis, cum sit 
+          ma<lb break="no" ed="#P" n="64"/>joris, ita potest falli judicans rem esse hujus
+          <lb ed="#P" n="65"/>coloris. cum sit alterius. Sit tamen prima 
+          con<lb break="no" ed="#P" n="66"/>clusio. Circa sensibile proprium adaequatum
+          <lb ed="#P" n="67"/>non potest falli sensus, ut visus non potest falhi
+          <lb ed="#P" n="68"/>judicans rem esse coloratam, neque auditus
+          <lb ed="#P" n="69"/>judicans hunc esse sonum. Rationem indicat
+          <lb ed="#P" n="70"/>divus Thomas, prima part., quaest. 85, art. 6,
+          <lb ed="#P" n="71"/>quod potentia ferri nequeat extra suum 
+          adae<lb break="no" ed="#P" n="72"/>quatum objectum: ergo id, quod cognoscit,
+          <lb ed="#P" n="73"/>necessario debet contineri intra latitudinem
+          <lb ed="#P" n="74"/>ejus: non crgo circa illud falli potest. Solum
+          <lb ed="#P" n="75"/>est advertendum, quale nam sit adaequatum
+          <lb ed="#P" n="76"/>objectum, nam in visu colores etiam 
+          apparen<lb break="no" ed="#P" n="77"/>tes (ut vocant) ad ejus objectum spectant. 
+          At<lb break="no" ed="#P" n="78"/>que praedicto modo explicant multi 
+          differen<lb break="no" ed="#P" n="79"/>tiam constitutam a Philosopho inter sensibile
+          <lb ed="#P" n="80"/>proprium et commune, quod in ordine ad 
+          pro<lb break="no" ed="#P" n="81"/>prium adsequatum falli non possit sensus, 
+          pos<lb break="no" ed="#P" n="82"/>sit tamen in ordine ad commune.
+        </p>
+        <p xml:id="szdada-y15934-d1e280">
+          <lb ed="#P" n="83"/>3. Secunda conclusio. — Quorumdam 
+          placi<lb break="no" ed="#P" n="84"/>tum probabile. — Instantiam patitur. — Sit
+          <lb ed="#P" n="85"/>tamen secunda conclusio. Circa sensibile 
+          com<lb break="no" ed="#P" n="86"/>mune absolute sumptum, non potest falli 
+          sen<lb break="no" ed="#P" n="87"/>sus, quare ex hac parte non videntur differre
+          <lb ed="#P" n="88"/>sensibile proprium et commune. Probatur,
+          <lb ed="#P" n="89"/>nam flicet visus possit decipi judicando rem
+          <lb ed="#P" n="90"/>tantae, vel tantae magnitudinis, falli tamen non
+          <lb ed="#P" n="91"/>potest, judicando habere magnitudinem, nec
+          <lb ed="#P" n="92"/>similiter falli potest judicando habere figuram,
+          <lb ed="#P" n="93"/>licet falli possit, sitne illa triangulus, an 
+          qua<lb break="no" ed="#P" n="94"/>drangulus: at vero in tribus aliis sensibilibus
+          <lb ed="#P" n="95"/>etiamsi in communi sumantur, potest falli
+          <lb ed="#P" n="96"/>sensus, eo quod sunt magis extrinseca, seu 
+          re<lb break="no" ed="#P" n="97"/>mota a propriis objectis. Respondent tamen,
+          <lb ed="#P" n="98"/>qui universaliter assignant dictam 
+          differen<lb break="no" ed="#P" n="99"/>tiam inter sensibile proprium et commune, 
+          po<lb break="no" ed="#P" n="100"/>tentiam ab intrinseco non posse falli circa
+          <lb ed="#P" n="101"/>adaequatum sensibile proprium, quia 
+          intrinse<lb break="no" ed="#P" n="102"/>cum illi est, non posse ferri extra illud, circa
+          <lb ed="#P" n="103"/>sensibile autem commune posse falli, per se
+          <lb ed="#P" n="104"/>loquendo, licet per accidens circa aliquod non
+          <lb ed="#P" n="105"/>fallatur, propter intrinsecam connexionem,
+          <lb ed="#P" n="106"/>quam habet cum aliquo proprio, ut quanttas
+          <lb ed="#P" n="107"/>habet cum re visibile, quae doctrina probabilis
+          <pb ed="#P" n="652"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est, quamvis cavillum etiam pati possit, quia
+          <lb ed="#P" n="2"/>potentia ex propria quoque ratione, ac per se
+          <lb ed="#P" n="3"/>extensionem in objecto postulat, atque adeo
+          <lb ed="#P" n="4"/>ab intrinseco habet, quod circa illud falli non
+          <lb ed="#P" n="5"/>possit.
+        </p>
+        <p xml:id="szdada-y15934-d1e352">
+          <lb ed="#P" n="6"/>4. Tertia conclusio. — Tertia conclusio.
+          <lb ed="#P" n="7"/>Tam circa sensibilia propria, quam circa 
+          com<lb break="no" ed="#P" n="8"/>munia in particulari sumpta, potest falli 
+          sen<lb break="no" ed="#P" n="9"/>sus. Utrumque constat experientia, sed ut 
+          in<lb break="no" ed="#P" n="10"/>telligatur totius conclusionis ratio, recolendum,
+          <lb ed="#P" n="11"/>in sensatione intervenire productionem 
+          spe<lb break="no" ed="#P" n="12"/>ciei, deinde sequi actum sentiendi: quoniam
+          <lb ed="#P" n="13"/>ergo species ipsa principium est cognitionis,
+          <lb ed="#P" n="14"/>ideo cognitio semper conformis prodit speciei,
+          <lb ed="#P" n="15"/>semper enim talis cognoscitur res, qualis 
+          re<lb break="no" ed="#P" n="16"/>praesentatur per speciem, atque ad hanc solam
+          <lb ed="#P" n="17"/>conformitatem attendens citatus Albertus dixit
+          <lb ed="#P" n="18"/>sensum falli non posse: sed ad pauca respexit,
+          <lb ed="#P" n="19"/>est enim ultra recolendum, speciem non 
+          sem<lb break="no" ed="#P" n="20"/>per repraesentare objectum ut repraesentari 
+          de<lb break="no" ed="#P" n="21"/>beret, ideoque per talem speciem non 
+          cogno<lb break="no" ed="#P" n="22"/>sci objectum prout est, eoque modo sensum
+          <lb ed="#P" n="23"/>falli, cum in eo judicio, quo res prout a parte
+          <lb ed="#P" n="24"/>rei habet, vel non habet, non autem prout 
+          re<lb break="no" ed="#P" n="25"/>Iucet in specie, veritas, et falsitas consistit, ut
+          <lb ed="#P" n="26"/>notavit optime divus Thomas, decimo septimo,
+          <lb ed="#P" n="27"/>quaestione decimaseptima, articulo secundo ad
+          <lb ed="#P" n="28"/>primum, et quaestione octogesimaquinta. Cur
+          <lb ed="#P" n="29"/>autem species non repraesentet rem, ut 
+          re<lb break="no" ed="#P" n="30"/>praesentari deberet, una causa est organi 
+          in<lb break="no" ed="#P" n="31"/>dispositio: sic infirmus judicat amaram, rem
+          <lb ed="#P" n="32"/>dulcem, quia lingua suffusa est amarore. Unde
+          <lb ed="#P" n="33"/>Aristoteles quinto, de Generatione animalium,
+          <lb ed="#P" n="34"/>capit. 2, scripsit judicium exquisitum 
+          diffe<lb break="no" ed="#P" n="35"/>rentiarum soni, atque odoris in sinceritate
+          <lb ed="#P" n="36"/>sensorii positum essc. Altera est medium 
+          in<lb break="no" ed="#P" n="37"/>dispositum, quae est similis priori, organum
+          <lb ed="#P" n="38"/>enim quasi medium est quoddam intrinsecum.
+          <lb ed="#P" n="39"/>Tertia causa esse potest situs, et distantia 
+          ob<lb break="no" ed="#P" n="40"/>jecti, sic colores in collo columbae apparent,
+          <lb ed="#P" n="41"/>quia sic positam lux ferit eo modo, ut species
+          <lb ed="#P" n="42"/>illos colores repraesentantes diffundat, cum 
+          ta<lb break="no" ed="#P" n="43"/>men ii colores in collo non existant.
+        </p>
+        <p xml:id="szdada-y15934-d1e437">
+          <lb ed="#P" n="44"/>5. Quarta conclusio bipartita—CQuarta 
+          con<lb break="no" ed="#P" n="45"/>clusio. Facilius decipitur sensus circa 
+          sensi<lb break="no" ed="#P" n="46"/>bilia communia, quam circa propria, quae est
+          <lb ed="#P" n="47"/>differentia ab Aristotele intenta, quare si 
+          im<lb break="no" ed="#P" n="48"/>pedimenta tollantur, omniaque requisita 
+          ad<lb break="no" ed="#P" n="49"/>sint, circa nullum eorum decipietur. Probatur
+          <lb ed="#P" n="50"/>prima pars conclusionis. Nam visus facile 
+          de<lb break="no" ed="#P" n="51"/>cipitur circa quantitatem rei, difficile autem
+          <lb ed="#P" n="52"/>circa colorem: sic a longe rem albam 
+          cogno<lb break="no" ed="#P" n="53"/>scit, decipitur autem circa illius quantitatem,
+          <lb ed="#P" n="54"/>vel distantiam, vel circa alia sensibilia 
+          com<lb break="no" ed="#P" n="55"/>munia multo facilius. Ratio vero est, quia sen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sibile proprium virtute sua immutat sensum,
+          <lb ed="#P" n="57"/>sensibile autem commune non sic: quare, etc.,
+          <lb ed="#P" n="58"/>quam quidem differentiam (ut secundae parti
+          <lb ed="#P" n="59"/>conclusionis satisfaciamus) explicat Aristoteles
+          <lb ed="#P" n="60"/>tertio, de Anima, text. 161, dicens circa 
+          sen<lb break="no" ed="#P" n="61"/>sibilia propria errorem non contingere, aut
+          <lb ed="#P" n="62"/>quam paucissimum, idemque sentit sanctus
+          <lb ed="#P" n="63"/>Thomas, prima part.. loc. cit.,et lect. 
+          decima<lb break="no" ed="#P" n="64"/>tertia, libro de Anima, dum ait sensum falli
+          <lb ed="#P" n="65"/>per se circa sensibile commune, per accidens
+          <lb ed="#P" n="66"/>vero circa proprium. Ultima vero pars 
+          conclu<lb break="no" ed="#P" n="67"/>sionis patet ex dictis. Nam ablatis 
+          impedimen<lb break="no" ed="#P" n="68"/>tis ex parte potentia et medii, atque 
+          ob<lb break="no" ed="#P" n="69"/>Jecto debite applicato, non est unde possit 
+          ir<lb break="no" ed="#P" n="70"/>repere deceptio: objectum enim naturaliter
+          <lb ed="#P" n="71"/>agit, ac proinde si non impediatur perfectam
+          <lb ed="#P" n="72"/>imprimit sui similitudinem: sensus deinde
+          <lb ed="#P" n="73"/>naturaliter conformatur in cognitione speciei,
+          <lb ed="#P" n="74"/>quam recipit: ergo, etc. Et confirmatur 
+          argu<lb break="no" ed="#P" n="75"/>mentis pro Alberto, in fine num. primi, quae
+          <lb ed="#P" n="76"/>non aliud probant unde Alexander 1, de 
+          Ani<lb break="no" ed="#P" n="77"/>ma, cap. 12, Themistius, libro secundo, capite
+          <lb ed="#P" n="78"/>vigesimoprimo, et Commentator, text. 
+          sexage<lb break="no" ed="#P" n="79"/>simoquinto, aiunt sensus non falli, si sensoria,
+          <lb ed="#P" n="80"/>situs et media recte habeant, et haec de 
+          quaes<lb break="no" ed="#P" n="81"/>tione praesenti: nam de modo, quo contingit
+          <lb ed="#P" n="82"/>falli sensum interiorem, melius dicetur c. 31.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

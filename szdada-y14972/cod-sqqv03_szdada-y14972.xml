@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="613"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y14972"><!-- t3l3c1 -->
+        <head xml:id="szdada-y14972-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-y14972-Hd1e103" type="question-title">Utrum ad actum cognoscendi necessaria sit conjunctio objecti cum potentia</head>
+        <p xml:id="szdada-y14972-d1e106">
+          <lb ed="#P" n="17"/>CAPUT I.
+          <lb ed="#P" n="18"/>UTRUM AD ACTUM COGNOSCENDI NECESSARIA SIT
+          <lb ed="#P" n="19"/>CONJUNCTIO OBJECTI CUM POTENTIA.
+        </p>
+        <p xml:id="szdada-y14972-d1e115">
+          <lb ed="#P" n="20"/>1. Partis negativae argumentum primum.—
+          <lb ed="#P" n="21"/>Secundum. — Dicturi ergo de hujusmodi 
+          po<lb break="no" ed="#P" n="22"/>tentiis, ab objecto earum incipimus, de quo
+          <lb ed="#P" n="23"/>in communi sumpto illud solum videtur posse
+          <lb ed="#P" n="24"/>investigari, quomodo ad actum cognoscendi
+          <lb ed="#P" n="25"/>concurrat, hoc enim est ipsum considerare
+          <lb ed="#P" n="26"/>sub ratione communi cognoscibilis, etc. Nam
+          <lb ed="#P" n="27"/>materialiter, quid nimirum sit res 
+          cognosci<lb break="no" ed="#P" n="28"/>bilis non potest tam universaliter disputari,
+          <lb ed="#P" n="29"/>sed de ea re progressu dicemus propriis in 
+          lo<lb break="no" ed="#P" n="30"/>cis. In proposita ergo quaestione pars negativa
+          <lb ed="#P" n="31"/>vera apparet. Primo, quia terminus actionis
+          <lb ed="#P" n="32"/>non praerequiritur ad actionem, ut propter ea
+          <lb ed="#P" n="33"/>debeat esse conjunctus agenti, objectum 
+          au<lb break="no" ed="#P" n="34"/>tem cognoscibile est terminus cognitionis :
+          <lb ed="#P" n="35"/>ergo. Secundo vel necessarium esset objectum
+          <lb ed="#P" n="36"/>conjungi potentiae secundum suum esse reale,
+          <lb ed="#P" n="37"/>vel secundum illius similitudinem: non prius,
+          <lb ed="#P" n="38"/>nam intellectus cognoscit hominem quem 
+          rea<lb break="no" ed="#P" n="39"/>liter intra se non habet, ac de sensibus ait
+          <lb ed="#P" n="40"/>Aristoteles quod super eos positum sensibile
+          <lb ed="#P" n="41"/>non causet sensationem Posterius etiam non
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="42"/>videtur necessarium, cum fictitiae videantur
+          <lb ed="#P" n="43"/>hujusmodi species.
+        </p>
+        <p xml:id="szdada-y14972-d1e172">
+          <lb ed="#P" n="44"/>2. Huic parti universim neganti adherere
+          <lb ed="#P" n="45"/>videntur qui species intentionales non 
+          agno<lb break="no" ed="#P" n="46"/>scunt. — In hac re est opinio asserens 
+          con<lb break="no" ed="#P" n="47"/>junctionem objecti cognoscibilis cum potentia
+          <lb ed="#P" n="48"/>cognoscente non esse necessariam ad 
+          cogno<lb break="no" ed="#P" n="49"/>scendum: quod in virtute asserunt omnes, qui
+          <lb ed="#P" n="50"/>negant species intentionales sensibiles, vel
+          <lb ed="#P" n="51"/>etiam intellectuales, quam opinionem tribuit
+          <lb ed="#P" n="52"/>Galeno Gregorius Nyssenus, libro de Viribus
+          <lb ed="#P" n="53"/>animae, capite secundo. Divus Augustinus,
+          <lb ed="#P" n="54"/>etiam lib. de Quantitate animae, cap. 23, 
+          vide<lb break="no" ed="#P" n="55"/>tur sentire visionem non fieri potentia aliquid
+          <lb ed="#P" n="56"/>recipiente. Idem tenet Seneca, lib. 1, 
+          Natu<lb break="no" ed="#P" n="57"/>ralium quaestionum, ac tribuunt Platoni 
+          Plo<lb break="no" ed="#P" n="58"/>tinus, Enneade 4, et Porphyrius, lib. de Sensu:
+          <lb ed="#P" n="59"/>subscribunt eidem opinioni Ocham, in 2,
+          <lb ed="#P" n="60"/>quaest. 17 et 1S, Gabriel etiam, distinct. 3,
+          <lb ed="#P" n="61"/>quaest. 2, notab. 4, circa primam et 
+          secun<lb break="no" ed="#P" n="62"/>dam conclusionem negat species in sensibus
+          <lb ed="#P" n="63"/>externis, quamvis in tertia conclusione addat
+          <lb ed="#P" n="64"/>in sensu exteriori interdum imprimi quod 
+          tan<lb break="no" ed="#P" n="65"/>quam reale objectum sit partiale principium
+          <lb ed="#P" n="66"/>sensationis. Item Durandus, d. 3, quaest. 6,
+          <lb ed="#P" n="67"/>num. 11, et licet dist. 15, quaest. 2, aliquas
+          <lb ed="#P" n="68"/>species intentionales sensibillium objectorum
+          <lb ed="#P" n="69"/>admittat, non tamen ob earum necessitatem
+          <lb ed="#P" n="70"/>ad cognitionem, sed quod sint participationes
+          <lb ed="#P" n="71"/>quaedam colorum, verbi gratia, et similium
+          <lb ed="#P" n="72"/>qualitatum naturaliter ab eis fluentes, eo 
+          mo<lb break="no" ed="#P" n="73"/>do, quo lumen procedit a luce, nihil tamen
+          <lb ed="#P" n="74"/>ad cognitionem conducentes. Nam dum 
+          ob<lb break="no" ed="#P" n="75"/>Jectum, inquit, visui objicitur, conspicitur
+          <lb ed="#P" n="76"/>quidem non propter species, sed quia hic est
+          <lb ed="#P" n="77"/>visivus, illud vero visibile.
+        </p>
+        <p xml:id="szdada-y14972-d1e249">
+          <lb ed="#P" n="78"/>3. Alii minus universaliter negant. — Alü
+          <lb ed="#P" n="79"/>vero auctores licet concedant in sensibus esse
+          <lb ed="#P" n="80"/>necessarium objectum conjungi potentiae vel
+          <lb ed="#P" n="81"/>per se, vel per aliquam suti similitudinem,
+          <pb ed="#P" n="614"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>attamen in intellectu id negant, et quod 
+          con<lb break="no" ed="#P" n="2"/>junctio videatur solum necessaria, ut objectum
+          <lb ed="#P" n="3"/>excitet potentiam ad operandum, visus enim
+          <lb ed="#P" n="4"/>non poterit videre, nisi excitetur ab objecto
+          <lb ed="#P" n="5"/>visibili, at intellectus, cum sit spiritualis, 
+          exci<lb break="no" ed="#P" n="6"/>tari nequit ad cperandum ab objecto 
+          mate<lb break="no" ed="#P" n="7"/>riali, sed a cognitione sensuum, nam cum
+          <lb ed="#P" n="8"/>eadem anima sit, quae sentit et intelligit, si
+          <lb ed="#P" n="9"/>quid apprehendit per sensum, illico excitatur
+          <lb ed="#P" n="10"/>ad cognoscendum exactius per intellectum.
+          <lb ed="#P" n="11"/>Quae opinio excogitata videtur, ut effugiat
+          <lb ed="#P" n="12"/>difficultates, quae in modo productionis 
+          spe<lb break="no" ed="#P" n="13"/>cierum intelhigibilium occurrunt, quam 
+          ma<lb break="no" ed="#P" n="14"/>xime amplectitur Durandus supra, tenetque
+          <lb ed="#P" n="15"/>Henricus et Joannes Baconius, in 2, 
+          distinc<lb break="no" ed="#P" n="16"/>tion. sexta, quaest. 1.
+        </p>
+        <p xml:id="szdada-y14972-d1e299">
+          <lb ed="#P" n="17"/>4. Prima assertio affirmativa communisque
+          <lb ed="#P" n="18"/>apud auctores, Conimbricenses 3, de Anim.,
+          <lb ed="#P" n="19"/>c. 5, g. 3, et quoad sensibiles, 0. 9, c. 6, q. 2,
+          <lb ed="#P" n="20"/>denique auctor, l. 9, de Angel.,c. 3. — Sit tamen
+          <lb ed="#P" n="21"/>prima conclusio. Unio objecti cognoscibilis
+          <lb ed="#P" n="22"/>cum potentia necessaria est in omni 
+          cogni<lb break="no" ed="#P" n="23"/>tione. Est fere communis omnium 
+          theologo<lb break="no" ed="#P" n="24"/>rum et philosophorum, qui in potentiis
+          <lb ed="#P" n="25"/>cognoscitivis ponunt simihtudines quasdam 
+          ob<lb break="no" ed="#P" n="26"/>jectorum, ut per illas objecta uniantur 
+          poten<lb break="no" ed="#P" n="27"/>tiis, easque vocant species intentionales, species
+          <lb ed="#P" n="28"/>quidem quia sunt formae repraesentantes: 
+          in<lb break="no" ed="#P" n="29"/>tionales vero nop, quia entia realia non sint,
+          <lb ed="#P" n="30"/>sed quia notioni deserviunt, quae intentio dici
+          <lb ed="#P" n="31"/>solet. Tenet hanc sententiam Aristoteles, de
+          <lb ed="#P" n="32"/>Anima, libro 2, cap. 12, et l. 3, cap. 1, alias 4,
+          <lb ed="#P" n="33"/>ait enim intellectum, ut intelligat, fieri debere
+          <lb ed="#P" n="34"/>ipsa intelligibilia, et ad hoc induxit 
+          intellec<lb break="no" ed="#P" n="35"/>tum agentem. Plato etiam possit intellectum
+          <lb ed="#P" n="36"/>nostrum a principio suae creationis habere
+          <lb ed="#P" n="37"/>inditas omnium rerum species, et in libro de
+          <lb ed="#P" n="38"/>Causis (qui Proclo tribuitur), propositione 
+          deci<lb break="no" ed="#P" n="39"/>ma, legitur intelligentias esse plenas formis, id
+          <lb ed="#P" n="40"/>est, speciebus. D. quoque Dionysius 7, cap. de
+          <lb ed="#P" n="41"/>Divinis nominibus, asserit Angelos plenos a
+          <lb ed="#P" n="42"/>principio speciebus rerum omnium. D. 
+          Augus<lb break="no" ed="#P" n="43"/>tinus 2, super Genesim ad litteram, scribit
+          <lb ed="#P" n="44"/>Deum semel produxisse res in seipsis, 
+          iterum<lb break="no" ed="#P" n="45"/>que in intellectibus Angelorum, dando scilicet
+          <lb ed="#P" n="46"/>illis similitudines earum. Idem habet 11, de
+          <lb ed="#P" n="47"/>Trinitate, cap. 2, ubi docet positionem 
+          spe<lb break="no" ed="#P" n="48"/>cierum difficile posse suaderi tardioribus 
+          in<lb break="no" ed="#P" n="49"/>geniis.
+        </p>
+        <p xml:id="szdada-y14972-d1e373">
+          <lb ed="#P" n="50"/>5. Probatur inductione assertio. — Et 
+          pro<lb break="no" ed="#P" n="51"/>batur conclusio inductione, nam inter 
+          poten<lb break="no" ed="#P" n="52"/>tias cognoscentes, quaedam cognoscunt 
+          intui<lb break="no" ed="#P" n="53"/>üve, id est, objecta sibi praesentia, ut sensus
+          <lb ed="#P" n="54"/>externi, aliae cognoscunt abstractive, id est,
+          <lb ed="#P" n="55"/>objecta absentia: in utroque vero genere po-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tentiarum inveniemus esse necessariam 
+          con<lb break="no" ed="#P" n="57"/>junctionem objecti cum potentia ad 
+          cognoscen<lb break="no" ed="#P" n="58"/>dum. Nam inter sensus externos, tactus et
+          <lb ed="#P" n="59"/>gustus requirunt objecta materialiter 
+          conjunc<lb break="no" ed="#P" n="60"/>ta. An veroin illis detur conjunctio per species,
+          <lb ed="#P" n="61"/>necne, infra dicetur. In visu etiam qui inter
+          <lb ed="#P" n="62"/>omnes sensus externos percipit objectum 
+          ma<lb break="no" ed="#P" n="63"/>gis distans multis experimentis cognoscuntur
+          <lb ed="#P" n="64"/>species provenientes ab objecto. Prima est,
+          <lb ed="#P" n="65"/>quia videmus nosipsos in pupilla alterius,
+          <lb ed="#P" n="66"/>quod non potest intelligi ahiter fieri, quam
+          <lb ed="#P" n="67"/>formulaaliqua repraesentante meipsum 
+          impres<lb break="no" ed="#P" n="68"/>sa in alterius pupilla. Similis experientia est
+          <lb ed="#P" n="69"/>de speculo, non enim posset fieri visio 
+          oppo<lb break="no" ed="#P" n="70"/>sito speculo nisi aliquid a reipsa ad speculum
+          <lb ed="#P" n="71"/>manaret, illud autem vocamus speciem, quod
+          <lb ed="#P" n="72"/>amplius explicatur. Nam si quis objectum 
+          vi<lb break="no" ed="#P" n="73"/>sibile a tergo habeat, illud non videt, si 
+          ta<lb break="no" ed="#P" n="74"/>men coram oculis, speculum proponatur,
+          <lb ed="#P" n="75"/>videt, quod signum est objectum visibile,
+          <lb ed="#P" n="76"/>ratione speculi jam praesentis aliter 
+          immit<lb break="no" ed="#P" n="77"/>tere speciem, quam antea immisisset. Nam
+          <lb ed="#P" n="78"/>si objectum visibile aliter non ageret, quam
+          <lb ed="#P" n="79"/>antea, non esset cur nunc potius videatur,
+          <lb ed="#P" n="80"/>quam antea. Nec dicas videri eo quod oculus
+          <lb ed="#P" n="81"/>emittat radios, qui ab speculo regrediantur
+          <lb ed="#P" n="82"/>usque ad rem visam: id enim praeterquam
+          <lb ed="#P" n="83"/>quod facihus (ut res habet) dici posset de 
+          ob<lb break="no" ed="#P" n="84"/>jecto emittente species, quae ab speculo 
+          regre<lb break="no" ed="#P" n="85"/>diantur ad oculum, inferius aperte 
+          impugna<lb break="no" ed="#P" n="86"/>bitur. Nec rursum dicas ideo nunc videri, quia
+          <lb ed="#P" n="87"/>nunc est praesens oculis, et non antea, urget
+          <lb ed="#P" n="88"/>si quidem argumentum, quod illa nova 
+          pra<lb break="no" ed="#P" n="89"/>sentia non potuit fieri sine aliqua nova 
+          muta<lb break="no" ed="#P" n="90"/>tione, vel actione, quae certe alia non est,
+          <lb ed="#P" n="91"/>quam prodnctio specierum. Est et alia 
+          expe<lb break="no" ed="#P" n="92"/>rientia, nam objectum propinquum apparet
+          <lb ed="#P" n="93"/>quantum est, distans vero apparet minus:
+          <lb ed="#P" n="94"/>hoc autem inde procedit, quod ahlter atque
+          <lb ed="#P" n="95"/>aliter emittit species. Simile experimentum
+          <lb ed="#P" n="96"/>est de baculo, qui sub aquis fractus apparet,
+          <lb ed="#P" n="97"/>de denario item majori apparente, de senum
+          <lb ed="#P" n="98"/>denique in specillis nonnullis, per quae minnuta
+          <lb ed="#P" n="99"/>quaeque ac si grandia essent conspiciuntur.
+          <lb ed="#P" n="100"/>similiaque alia deprehendimus ob specierum
+          <lb ed="#P" n="101"/>refractionem, aliasve earum immutationes,
+          <lb ed="#P" n="102"/>sicut perspectivi demonstrant.
+        </p>
+        <p xml:id="szdada-y14972-d1e493">
+          <lb ed="#P" n="103"/>6. Deinde quoad potentias cognoscentes 
+          ab<lb break="no" ed="#P" n="104"/>stractive. — De potentiis autem abstractive
+          <lb ed="#P" n="105"/>cognoscentibus probatur eadem assertio. Nam
+          <lb ed="#P" n="106"/>intra imagmnationem experimur formari 
+          simi<lb break="no" ed="#P" n="107"/>litudines quasdam rerum corporearum. lItem
+          <lb ed="#P" n="108"/>memoria et reminiscentia sine speciebus esse
+          <lb ed="#P" n="109"/>minime possent, ut Aristoteles testatur, in lb.
+          <lb ed="#P" n="110"/>de Memoria et reminiscentia, et lib. de Insa-
+          <pb ed="#P" n="615"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>niis. Ratio est, quia si in absentia rei nihil
+          <lb ed="#P" n="2"/>manet intra potentiam, non posset sane illam
+          <lb ed="#P" n="3"/>cognoscere, utpote per adversarios ita se 
+          ha<lb break="no" ed="#P" n="4"/>bens, ac si nunquam cognovisset: idemque
+          <lb ed="#P" n="5"/>argumentum procedit de intellectu: 
+          concludit<lb break="no" ed="#P" n="6"/>que praeterea dari has species in sensibus 
+          ex<lb break="no" ed="#P" n="7"/>ternis, quia nihil potest ad interiores 
+          pertran<lb break="no" ed="#P" n="8"/>sire, nisi per exteriores sensus: constat ergo
+          <lb ed="#P" n="9"/>dari in omnibus potentiis species rerum 
+          co<lb break="no" ed="#P" n="10"/>gnoscibilium, et hoc non alia ratione, nisi ut
+          <lb ed="#P" n="11"/>objectum cognoscibile uniantur potentiae:
+          <lb ed="#P" n="12"/>ergo haec unio necessaria est.
+        </p>
+        <p xml:id="szdada-y14972-d1e543">
+          <lb ed="#P" n="13"/>1. Ex discursu facto ab emperientia 
+          conclu<lb break="no" ed="#P" n="14"/>ditur assertio. — Ratio autem a priori esse 
+          po<lb break="no" ed="#P" n="15"/>test, quoniam modus cognoscendi est per 
+          assi<lb break="no" ed="#P" n="16"/>milationem cognoscentis ad rem cognitam,
+          <lb ed="#P" n="17"/>ideo dum res cognoscitur: quasi trahitur, ad
+          <lb ed="#P" n="18"/>cognoscentem, ut quisque apud se experitur,
+          <lb ed="#P" n="19"/>dum cognoscit: propter ipsam ergo 
+          assimila<lb break="no" ed="#P" n="20"/>tionem necessarium est, ut ipsum cognoscibile
+          <lb ed="#P" n="21"/>uniatur cognoscenti, ut scilicet apte possit
+          <lb ed="#P" n="22"/>perfici actualis assimilatio, sive cognitio: cum
+          <lb ed="#P" n="23"/>vero realis unio inter potentiam et objectum
+          <lb ed="#P" n="24"/>aliquando impossibilis sit, aliquando 
+          impro<lb break="no" ed="#P" n="25"/>portionata, concedenda erit intentionalis, quae
+          <lb ed="#P" n="26"/>fit per vicariam objecti speciem. Alia ratio
+          <lb ed="#P" n="27"/>reddi potest, quia potentia cognoscitiva est 
+          in<lb break="no" ed="#P" n="28"/>differens ad operandum circa hoc, vel illud
+          <lb ed="#P" n="29"/>objectum. et ideo ut determinetur in 
+          particu<lb break="no" ed="#P" n="30"/>lari ad cognoscendum, indiget conjunctione
+          <lb ed="#P" n="31"/>aliqua ad ipsum objectum. Forte dicetur 
+          de<lb break="no" ed="#P" n="32"/>terminari a praesentia extrinseca objecti, sed
+          <lb ed="#P" n="33"/>hoc imprimis solum habet iocum in externis
+          <lb ed="#P" n="34"/>sensibus. Imo in illis quoque non satisfacit,
+          <lb ed="#P" n="35"/>nam intrinseca indifferentia potentiae non nisi
+          <lb ed="#P" n="36"/>per intrinsecum aliquid tolli potest: quare si
+          <lb ed="#P" n="37"/>nec ipsum objectum extrinsecum ageret in 
+          po<lb break="no" ed="#P" n="38"/>tentiam, neque potentia in objectum, non
+          <lb ed="#P" n="39"/>posset potentia ad objectum ipsum 
+          deter<lb break="no" ed="#P" n="40"/>minari.
+        </p>
+        <p xml:id="szdada-y14972-d1e606">
+          <lb ed="#P" n="41"/>8. Secunda assertio. — Suadetur primo.
+          <lb ed="#P" n="42"/>Suadetur secundo. — Ex his sequitur secunda
+          <lb ed="#P" n="43"/>conclusio. Quando objectum unitur potentiae
+          <lb ed="#P" n="44"/>media specie, necesse est ipsam speciem esse
+          <lb ed="#P" n="45"/>intrinsece in potentia cognoscente. Haec 
+          con<lb break="no" ed="#P" n="46"/>clusio est contra asserentes in intellectu non
+          <lb ed="#P" n="47"/>esse intrinsece species intelligibiles, 
+          sufficere<lb break="no" ed="#P" n="48"/>que phantasmata ipsa, ut numero tertio 
+          retu<lb break="no" ed="#P" n="49"/>Iimus. Est etiam contra Simplicium et 
+          Philo<lb break="no" ed="#P" n="50"/>ponum 2, de Anima, capite quinto, qui volunt
+          <lb ed="#P" n="51"/>species sensibiles non recipi in potentia ipsa
+          <lb ed="#P" n="52"/>sensitiva, sed in organo illius, eo quod 
+          Aristo<lb break="no" ed="#P" n="53"/>teles 7 Physicorum, capit. 2, dicat 
+          sensatio<lb break="no" ed="#P" n="54"/>nem fieri patiente aliquid ipso corpore, id est,
+          <lb ed="#P" n="55"/>organo, ibi tamen non excludit potentiam.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Conclusio itaque nostra est Aristotelis, et D.
+          <lb ed="#P" n="57"/>Thomae, et discipulorum ejus, de qua 
+          Capreo<lb break="no" ed="#P" n="58"/>lus, in 3, d. 14, quaest. 1, et in2, d. 3, q.2.
+          <lb ed="#P" n="59"/>Ferrarius 2, contra, c. 82. Probatur primo ex
+          <lb ed="#P" n="60"/>adductis prima conclusione. Nam omnes 
+          po<lb break="no" ed="#P" n="61"/>nunt in intellectu Angeli species rerum, ibi
+          <lb ed="#P" n="62"/>autem non est organum, in quo sint: sunt 
+          er<lb break="no" ed="#P" n="63"/>go in ipsa potentia: idemque valet de 
+          intel<lb break="no" ed="#P" n="64"/>lectu nostro, cum species ipsius maneant in
+          <lb ed="#P" n="65"/>anima separata, juxta illud Hieronymi, 
+          Dis<lb break="no" ed="#P" n="66"/>camus in terris, quorun scientia nobiscum 
+          per<lb break="no" ed="#P" n="67"/>severet in calis. Ratio conclusionis est. Nam
+          <lb ed="#P" n="68"/>species ponuntur ad actuandam potentiam,
+          <lb ed="#P" n="69"/>non organum, forma autem debet esse in eo
+          <lb ed="#P" n="70"/>quod actuat: species ergo in ipsa potentia 
+          re<lb break="no" ed="#P" n="71"/>cipi debent, ideoque Aristoteles dixit sensum in
+          <lb ed="#P" n="72"/>actu fieri ipsum sensibile in actu, et textu 121,
+          <lb ed="#P" n="73"/>lib. de Anima, sensum recipere species a 
+          sen<lb break="no" ed="#P" n="74"/>sibih, idemque repetit, cap. 6, et lib. 3, cap. 5,
+          <lb ed="#P" n="75"/>de Intellectu et intelligibili, D. Thomas etiam,
+          <lb ed="#P" n="76"/>1 p.. q. 14, art. 1, ait naturam cognoscitivam
+          <lb ed="#P" n="77"/>ut sic non tantum esse perfectibilem per 
+          pro<lb break="no" ed="#P" n="78"/>priam formam, sed etiam per formas aliarum
+          <lb ed="#P" n="79"/>rerum, dum earum species recipit.
+        </p>
+        <p xml:id="szdada-y14972-d1e696">
+          <lb ed="#P" n="80"/>9. Suadetur tertio impugnando dictam
+          <lb ed="#P" n="81"/>sententiam in num. 3 relatam. — Ad primum
+          <lb ed="#P" n="82"/>argumentupm in mum. 1. — Ad secundum. —
+          <lb ed="#P" n="83"/>Ex quibus colligitur falsum esse intellectum
+          <lb ed="#P" n="84"/>sufficienter determinari per phantasma. Primo,
+          <lb ed="#P" n="85"/>quia phantasma cum sit quid materiale, et in
+          <lb ed="#P" n="86"/>inferiori potentia existens, non potest esse
+          <lb ed="#P" n="87"/>sufficiens ad operationem spiritualem potentiae
+          <lb ed="#P" n="88"/>superioris. Item phantasma non potest 
+          deter<lb break="no" ed="#P" n="89"/>minare intellectum, ut forma inhaerens illi,
+          <lb ed="#P" n="90"/>quia est materiale, neque etiam ut objectum,
+          <lb ed="#P" n="91"/>quia intellectus non cognoscit rem in 
+          phan<lb break="no" ed="#P" n="92"/>tasmate, neque denique ut cooperans 
+          intellec<lb break="no" ed="#P" n="93"/>tui, quia cum sit materiale non posset 
+          coope<lb break="no" ed="#P" n="94"/>rari ad actum spiritualem: ergo. Praeterea
+          <lb ed="#P" n="95"/>intellectus est potentia alterius ordinis ab
+          <lb ed="#P" n="96"/>omni potentia sensitiva: ergo in proprio 
+          or<lb break="no" ed="#P" n="97"/>dine habet omnia requisita ad actum 
+          cogni<lb break="no" ed="#P" n="98"/>tionis: haec autem sunt potentia, et objectum
+          <lb ed="#P" n="99"/>illi unitum: ergo in proprio ordine spirituali
+          <lb ed="#P" n="100"/>hoc habet: illa autem unio sit per species:
+          <lb ed="#P" n="101"/>ergo habet proprias species a sensibilibus 
+          dis<lb break="no" ed="#P" n="102"/>tinctas. Item quia qua ratione ponitur 
+          intel<lb break="no" ed="#P" n="103"/>lectum determinari a phantasmatibus, eadem
+          <lb ed="#P" n="104"/>poneretur sensum interiorem determinari 
+          co<lb break="no" ed="#P" n="105"/>gnitione sensuum exteriorum, et ita non
+          <lb ed="#P" n="106"/>haberet proprias species, quod est contra
+          <lb ed="#P" n="107"/>experientiam. Si dicas sensum interiorem 
+          in<lb break="no" ed="#P" n="108"/>digere propriis speciebus, ut illas servet in
+          <lb ed="#P" n="109"/>absentia objecti, idem dicetur de intellectu,
+          <lb ed="#P" n="110"/>habet enim vim ad conservandas proprias
+          <pb ed="#P" n="616"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>species, ut infra videbimus. Ultimo arguitur.
+          <lb ed="#P" n="2"/>Nam vel intellectus noster est capax 
+          specie<lb break="no" ed="#P" n="3"/>rum intelligibilium, vel non: si primum :
+          <lb ed="#P" n="4"/>ergo recipiet illas, ne absurde dicamus dum
+          <lb ed="#P" n="5"/>est in corpore carere semper forma sibi 
+          natu<lb break="no" ed="#P" n="6"/>rali, et perfectione necessaria ad 
+          intelhgen<lb break="no" ed="#P" n="7"/>dum: si non est capax: ergo separatus a
+          <lb ed="#P" n="8"/>corpore non poterit naturaliter recipere species
+          <lb ed="#P" n="9"/>intelligibiles, atque adeo nec intelligere 
+          natu<lb break="no" ed="#P" n="10"/>raliter, cum ibi non sint phantasmata a quibus
+          <lb ed="#P" n="11"/>determinetur. Tandem in eodem subjecto sunt
+          <lb ed="#P" n="12"/>habitus, in quo species: sed habitus 
+          intellec<lb break="no" ed="#P" n="13"/>tuales subjective insunt intellectui: ergo, et
+          <lb ed="#P" n="14"/>species, cum habitus cognoscitivus ponatur
+          <lb ed="#P" n="15"/>ad facilitandam potentiam in usu specierum.
+          <lb ed="#P" n="16"/>Ad argumenta igitur respondetur terminum
+          <lb ed="#P" n="17"/>productum per actionem non posse esse 
+          prin<lb break="no" ed="#P" n="18"/>cipium actionis, objectum autem potentiae
+          <lb ed="#P" n="19"/>cognoscitivae per cognitionem productum non
+          <lb ed="#P" n="20"/>esse, ideoque posse praerequiri ad actionem.
+          <lb ed="#P" n="21"/>Ad secundum negandum species fictitias esse,
+          <lb ed="#P" n="22"/>ut satis probatum est, patefietque amplius
+          <lb ed="#P" n="23"/>sequenti capite.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

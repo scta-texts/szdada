@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="787"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y19373"><!-- t3l6c4 -->
+        <head xml:id="szdada-y19373-Hd1e101">Caput 4</head>
+        <head xml:id="szdada-y19373-Hd1e103" type="question-title">Utrum anima separata habeat solas species, quas in haec vita acquisivit</head>
+        <p xml:id="szdada-y19373-d1e106">
+          <lb ed="#P" n="46"/>CAPUT IV.
+          <lb ed="#P" n="47"/>UTRUM ANIMA SEPARATA HABEAT SOLAS SPECIES,
+          <lb ed="#P" n="48"/>QUAS IN HAEC VITA ACQUISIVIT.
+        </p>
+        <p xml:id="szdada-y19373-d1e115">
+          <lb ed="#P" n="49"/>1. Quorumdam placitum in hoc capite.— 
+          Re<lb break="no" ed="#P" n="50"/>Jicitur. — Videtur quidem non habere alias,
+          <lb ed="#P" n="51"/>quia non apparet modus acquirendi illas,
+          <lb ed="#P" n="52"/>contra vero est, quia si alias non habet, nimis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>imperfecta erit ejus cognitio. In hoc fere 
+          om<lb break="no" ed="#P" n="54"/>nes doctores conveniunt, animam separatam
+          <lb ed="#P" n="55"/>non tantum habere species hic acquisitas, sed
+          <lb ed="#P" n="56"/>etiam quasdam alias: licet aliqui id explicent,
+          <lb ed="#P" n="57"/>non de anima secundum pure naturalia, sed
+          <lb ed="#P" n="58"/>ut de facto elevatur ad aliquid supernaturale.
+          <lb ed="#P" n="59"/>Nam ex natura sua, inquiunt, anima nostra
+          <lb ed="#P" n="60"/>forma est corporis, ideoque ex natura sua 
+          re<lb break="no" ed="#P" n="61"/>cipit species ad intelligendum per corporales
+          <lb ed="#P" n="62"/>sensus, quare si a corpore separetur, statum
+          <lb ed="#P" n="63"/>obtinet praeternaturalem, in quo proinde non
+          <lb ed="#P" n="64"/>potest naturaliter acquirere species: intelliget
+          <lb ed="#P" n="65"/>ergo solum per eas, quas in hac vita habuit.
+          <lb ed="#P" n="66"/>Quod si nunc aliter contingit, supra naturam
+          <lb ed="#P" n="67"/>animae profecto contingit. Haec tamen sententia
+          <lb ed="#P" n="68"/>contra D. Thomam et communem militat.
+          <lb ed="#P" n="69"/>Nam aperte loquitur S. Doctor de anima 
+          se<lb break="no" ed="#P" n="70"/>cundum naturam suam, et non secundum 
+          su<lb break="no" ed="#P" n="71"/>pernaturalem aliquem statum spectata, non
+          <lb ed="#P" n="72"/>videtur praeterea rationalis opinio, ex illa enim
+          <lb ed="#P" n="73"/>sequitur, animam pueri decedentis absque
+          <lb ed="#P" n="74"/>speciebus, debere ex natura perpetuo carere
+          <lb ed="#P" n="75"/>cognitione, ut plurimum posse se cognoscere,
+          <lb ed="#P" n="76"/>et si forte alia intelligeret, non nisi imperfecte
+          <lb ed="#P" n="77"/>et confuse id praestaret, atque adeo de facto
+          <lb ed="#P" n="78"/>anima pueri decedentis in originali, sub ea
+          <lb ed="#P" n="79"/>imperfectissima conditione in perpetuum 
+          re<lb break="no" ed="#P" n="80"/>linqueretur, cum Deus nihil gratuitum illi
+          <lb ed="#P" n="81"/>conferat, sed tantum ea, quae naturalia sunt.
+          <lb ed="#P" n="82"/>Praeterea, licet status ille sit aliquomodo 
+          prae<lb break="no" ed="#P" n="83"/>ter naturam animae, tamen absolute sequitur
+          <lb ed="#P" n="84"/>ex conditione ipsius. Quia enim anima et 
+          for<lb break="no" ed="#P" n="85"/>ma est subsistens, et corporis corruptibilis,
+          <lb ed="#P" n="86"/>necessario manere debet aliquando separata,
+          <lb ed="#P" n="87"/>et cum necesse sit hominem corrumpi, imo
+          <lb ed="#P" n="88"/>diutius manere separata, quam in corpore 
+          na<lb break="no" ed="#P" n="89"/>turaliter loquendo: est autem inconveniens,
+          <lb ed="#P" n="90"/>quia pro statu brevissimo habeat anima 
+          natu<lb break="no" ed="#P" n="91"/>ralem modum acquirendi species, et non pro
+          <lb ed="#P" n="92"/>diuturno statu separationis: ergo, etc.
+        </p>
+        <p xml:id="szdada-y19373-d1e215">
+          <lb ed="#P" n="93"/>2. Quomodo anima separata novas species
+          <lb ed="#P" n="94"/>comparet. — Scoti et Gabrielis opinio et ratio.
+          <lb ed="#P" n="95"/>— Confirmatur. — Impugnatur Scotus. —
+          <lb ed="#P" n="96"/>Quare probabilius videtur, animam separatam
+          <lb ed="#P" n="97"/>habere species rerum praeter eas, quas in hac
+          <lb ed="#P" n="98"/>vita acquisivit, sed difficultas est de modo, quo
+          <lb ed="#P" n="99"/>illa comparet. Scotus, in 4, dist. 45, 46, q. 2,
+          <lb ed="#P" n="100"/>credit animas separatas accipere species a
+          <lb ed="#P" n="101"/>rebus per abstractionem intellectus agentis.
+          <lb ed="#P" n="102"/>Idem Gabriel, in canone, lectione 32. Ratio
+          <lb ed="#P" n="103"/>Scoti est, quia si anima conjuncta corpori 
+          po<lb break="no" ed="#P" n="104"/>test abstrahere species a phantasmatibus, 
+          se<lb break="no" ed="#P" n="105"/>parata poterit abstrahere illas ab objectis, sicut
+          <lb ed="#P" n="106"/>enim in corpore convertit se ad phantasmata,
+          <lb ed="#P" n="107"/>ita separata potest se convertere ad res objec-
+          <pb ed="#P" n="788"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tas. Confirmatur, quia alias, ut dicebamus,
+          <lb ed="#P" n="2"/>anima separata imperfectissima esset, si non
+          <lb ed="#P" n="3"/>posset in actu exire per intrinseca sibi, sed ab
+          <lb ed="#P" n="4"/>extrinseco tantum species ei infunderentur.
+          <lb ed="#P" n="5"/>Haec Scoti sententia procedit ex falsa doctrina
+          <lb ed="#P" n="6"/>circa modum, quo intellectus agens producit
+          <lb ed="#P" n="7"/>species: certum quippe est illum non esse
+          <lb ed="#P" n="8"/>productivum specierum nisi ab aliquo 
+          deter<lb break="no" ed="#P" n="9"/>minetur, dum autem unitur corpori, 
+          determi<lb break="no" ed="#P" n="10"/>natur quidem a phantasmate, separatus vero
+          <lb ed="#P" n="11"/>jam determinari nequit, quia determinatio per
+          <lb ed="#P" n="12"/>hoc perficitur, quod utrumque in eadem anima
+          <lb ed="#P" n="13"/>radicetur, sicque anima operante per 
+          phanta<lb break="no" ed="#P" n="14"/>siam, versanteque circa hoc objectum trahitur
+          <lb ed="#P" n="15"/>intellectus ipse ad efficiendam speciem illius,
+          <lb ed="#P" n="16"/>atque hoc est ad phantasmata converti: nihil
+          <lb ed="#P" n="17"/>autem horum locum habet in anima separata,
+          <lb ed="#P" n="18"/>quia phantasia caret. Nec vero fingi potest
+          <lb ed="#P" n="19"/>modus, quo ab externis objectis intellectus 
+          de<lb break="no" ed="#P" n="20"/>terminetur, ut Scotus autumat. Etenim anima
+          <lb ed="#P" n="21"/>non convertitur ad res, nisi cognoscendo, vel
+          <lb ed="#P" n="22"/>amando illas, haec autem conversio supponit
+          <lb ed="#P" n="23"/>species in intellectu: non ergo per talem 
+          con<lb break="no" ed="#P" n="24"/>versionem determinatur intellectus ad 
+          produ<lb break="no" ed="#P" n="25"/>cendas species. Vide supra in libro 4, cap. 7,
+          <lb ed="#P" n="26"/>unde constabit dari non posse in anima 
+          sepa<lb break="no" ed="#P" n="27"/>rata intellectus agentis operationem, eo quod
+          <lb ed="#P" n="28"/>habeat intrinsecam dependentiam cognitione
+          <lb ed="#P" n="29"/>phantasiae.
+        </p>
+        <p xml:id="szdada-y19373-d1e318">
+          <lb ed="#P" n="30"/>3. Opinio altera D. Thome. — Alhiter ergo,
+          <lb ed="#P" n="31"/>1 part., quaest. 89, art. 1, opinatur D. 
+          Tho<lb break="no" ed="#P" n="32"/>mas: nimirum animam nostram in corpore
+          <lb ed="#P" n="33"/>ideo cognoscere per conversionem ad 
+          phan<lb break="no" ed="#P" n="34"/>tasma sensibile, quia tunc habet modum 
+          es<lb break="no" ed="#P" n="35"/>sendi formarum sensibilium: at extra corpus,
+          <lb ed="#P" n="36"/>cum habeat modum essendi substantiarum
+          <lb ed="#P" n="37"/>spiritualium, intelligere per conversionem ad
+          <lb ed="#P" n="38"/>ea, quae sunt intelligibilia simpliciter, sicut
+          <lb ed="#P" n="39"/>aliae substantiae separatae, nimirum Angeli:
+          <lb ed="#P" n="40"/>tum quia semper (inquit) modus operandi 
+          se<lb break="no" ed="#P" n="41"/>quitur modum essendi: tum quia non est 
+          pos<lb break="no" ed="#P" n="42"/>sibilis alius modus intelligendi, nisi duplex
+          <lb ed="#P" n="43"/>ille: cumque animae separatae non conveniat
+          <lb ed="#P" n="44"/>operari per conversionem ad phantasmata,
+          <lb ed="#P" n="45"/>necessario modus alter convenire debet: 
+          co<lb break="no" ed="#P" n="46"/>gnoscere porro per conversionem ad res actu
+          <lb ed="#P" n="47"/>intelligibiles, idem valet, atque cognoscere
+          <lb ed="#P" n="48"/>recipiendo species per infusionem a substantis
+          <lb ed="#P" n="49"/>separatis, quae sunt intelligibiles actu, et 
+          maxi<lb break="no" ed="#P" n="50"/>me a Deo, qui auctor totius naturae est, ut 
+          ex<lb break="no" ed="#P" n="51"/>ponunt Thomistae, colligiturque ex illo art. 1,
+          <lb ed="#P" n="52"/>et praecipue in solutione ad 3, quare secundum
+          <lb ed="#P" n="53"/>D. Thomam, animae separatae non nisi per 
+          in<lb break="no" ed="#P" n="54"/>fusionem, species conquirunt.
+        </p>
+        <p xml:id="szdada-y19373-d1e375">
+          <lb ed="#P" n="55"/>4. Prima difficultas contra opinionem divi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Thomae. — Secunda. — Tertia. — Quarta. —
+          <lb ed="#P" n="57"/>Sed jam occurrunt difficultates non paucae
+          <lb ed="#P" n="58"/>contra hanc sententiam. Prima est, quia hic
+          <lb ed="#P" n="59"/>loquimur de anima secundum ordinem 
+          natu<lb break="no" ed="#P" n="60"/>ralem, non de his, quae Deus circa ilam potest
+          <lb ed="#P" n="61"/>supernaturaliter operari: haec autem infusio
+          <lb ed="#P" n="62"/>specierum, quae dicitur fieri a Dco, non 
+          vide<lb break="no" ed="#P" n="63"/>tur naturalis esse, sed ex libera voluntate Dei
+          <lb ed="#P" n="64"/>pendens, atque adeo supernaturalis et gratuita.
+          <lb ed="#P" n="65"/>Secunda, quarum nam rerum infundantur 
+          spe<lb break="no" ed="#P" n="66"/>cies animae in puris naturalibus existenti: seu
+          <lb ed="#P" n="67"/>in beatitudine naturali ? Ac de facto habet 
+          lo<lb break="no" ed="#P" n="68"/>cum difficultas in puero decedente in 
+          origina<lb break="no" ed="#P" n="69"/>li: nam licet in poenam sit carentia visionis
+          <lb ed="#P" n="70"/>Dei, attamen aliam non habet poenam, et alias
+          <lb ed="#P" n="71"/>habere potest omnem perfectionem naturae
+          <lb ed="#P" n="72"/>consentaneam. Tertia, an fiant dictae species
+          <lb ed="#P" n="73"/>immediate a Deo, vel mediis Angelis. Quarta,
+          <lb ed="#P" n="74"/>quomodo anima intelligat per illas.
+        </p>
+        <p xml:id="szdada-y19373-d1e423">
+          <lb ed="#P" n="75"/>5. Prima difficultatis enodatio. — Quid de
+          <lb ed="#P" n="76"/>aliis difficultatibus. — Ad primam respondet,
+          <lb ed="#P" n="77"/>ad naturalem Dei providentiam spectare, ut
+          <lb ed="#P" n="78"/>infundat animae separatae necessarias species
+          <lb ed="#P" n="79"/>ad cognoscendum naturaliter, ideoque illam
+          <lb ed="#P" n="80"/>infusionem supernaturalem non esse, sed intra
+          <lb ed="#P" n="81"/>ordinem naturae contineri, sunt ejusdem 
+          ani<lb break="no" ed="#P" n="82"/>mae infusionem in corpus, quia probat illa
+          <lb ed="#P" n="83"/>confirmatio Scoti, quia alias male esset 
+          provi<lb break="no" ed="#P" n="84"/>sum animae nostrae, si nec ab intrinseco esset
+          <lb ed="#P" n="85"/>in actu primo constituta, nec secundum 
+          na<lb break="no" ed="#P" n="86"/>turalem ordinem posset ab aliquo agente in
+          <lb ed="#P" n="87"/>actu primo constitui ad operandum. Adde 
+          na<lb break="no" ed="#P" n="88"/>turalem rerum ordinem esse, ut superiora 
+          ju<lb break="no" ed="#P" n="89"/>vent inferiora, et praecipue quia unaquaeque
+          <lb ed="#P" n="90"/>res juvetur ab auctore suo, et ab illo recipiat
+          <lb ed="#P" n="91"/>complementum necessarium. Dices: si hoc
+          <lb ed="#P" n="92"/>naturale est recipiet etiam anima damnata 
+          in<lb break="no" ed="#P" n="93"/>fluxum specierum, cum Deus non deneget
+          <lb ed="#P" n="94"/>providentiam naturalem. hRespondendum, in
+          <lb ed="#P" n="95"/>poenam peccati, posse Deum illam perfectionem
+          <lb ed="#P" n="96"/>naturalem non tribuere, satis enim esse non
+          <lb ed="#P" n="97"/>auferre naturalia, quae semel contulit. Secundo
+          <lb ed="#P" n="98"/>respondendum, forte recipere species ad 
+          ma<lb break="no" ed="#P" n="99"/>jorem certe poenam. Reliquae difficultates 
+          sol<lb break="no" ed="#P" n="100"/>ventur melius in sequentibus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="753"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y18522"><!-- t3l5c1 -->
+        <head xml:id="szdada-y18522-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-y18522-Hd1e103" type="question-title">Utrum in quolibet cognoscente sit necessaria specialis potentia appetitiva</head>
+        <p xml:id="szdada-y18522-d1e106">
+          <lb ed="#P" n="40"/>CAPUT I.
+          <lb ed="#P" n="41"/>UTRUM IN QUOLIBET COGNOSCENTE SIT NECESSARIA
+          <lb ed="#P" n="42"/>SPECIALIS POTENTIA APPETITIVA.
+        </p>
+        <p xml:id="szdada-y18522-d1e115">
+          <lb ed="#P" n="43"/>1. Dubitandi ratio. — Appetitus naturalis,
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="44"/>et elicitus. — Concinit, disput. 4, Metaphysice,
+          <lb ed="#P" n="45"/>sect. 6, mim. 30.—Materiam hanc aggredimur
+          <lb ed="#P" n="46"/>a quaestione an est, quoniam appetitus 
+          com<lb break="no" ed="#P" n="47"/>mune aliquid esse videtur animatis et 
+          inani<lb break="no" ed="#P" n="48"/>matis; unaquaeque enim res inclinationem 
+          ali<lb break="no" ed="#P" n="49"/>quam vendicat: appetitus autem, et inclinatio
+          <lb ed="#P" n="50"/>non raro confunduntur, et ideo non est cur
+          <lb ed="#P" n="51"/>haec potentia specialiter animantibus tribuatur.
+          <lb ed="#P" n="52"/>Ut ergo diversitatem appetituum breviter 
+          ex<lb break="no" ed="#P" n="53"/>plicemus, est notanda distinctio appetitus in
+          <lb ed="#P" n="54"/>naturalem et elicitum, de quo diximus 1,
+          <lb ed="#P" n="55"/>Physicorum, cap. 8, quaest. 4, circa quartam
+          <lb ed="#P" n="56"/>materiae proprietatem. Appetitus naturalis 
+          di<lb break="no" ed="#P" n="57"/>citur quaelibet propensio cujusvis rei in suum
+          <lb ed="#P" n="58"/>proprium bonum, quae propensio non est 
+          pro<lb break="no" ed="#P" n="59"/>prie appetitus, sed metaphorice, neque est
+          <lb ed="#P" n="60"/>specialis potentia, neque fit per actionem ipsius
+          <pb ed="#P" n="754"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>appetentis, sed est coaptatio naturalis quam
+          <lb ed="#P" n="2"/>quaeque res habet cum ea, ad quam ordinatur,
+          <lb ed="#P" n="3"/>unde talis appetitus non supponit cognitionem,
+          <lb ed="#P" n="4"/>nec fit ab ipso appetente, sed illi datur a 
+          na<lb break="no" ed="#P" n="5"/>tura, et ad proprium commodum tendit: quare
+          <lb ed="#P" n="6"/>appetitus naturales tot multiplicantur, quot
+          <lb ed="#P" n="7"/>sunt diversae inclinationes naturales: de hoc
+          <lb ed="#P" n="8"/>ergoappetitu disputatio hocloco non suscipitur.
+        </p>
+        <p xml:id="szdada-y18522-d1e180">
+          <lb ed="#P" n="9"/>2. Prima assertio ejusque ratio er D. 
+          Tho<lb break="no" ed="#P" n="10"/>ma. — Prima conclusio. Praeter appetitum
+          <lb ed="#P" n="11"/>naturalem est in re qualibet cognoscente 
+          spe<lb break="no" ed="#P" n="12"/>cialis potentia animae, per quam actu sibi
+          <lb ed="#P" n="13"/>proprio vitaliter appetit. Haec constat 
+          expe<lb break="no" ed="#P" n="14"/>rientia, cujus rationem reddit optime D. 
+          Tho<lb break="no" ed="#P" n="15"/>mas, quod appetitus sequatur formam, ideoque
+          <lb ed="#P" n="16"/>juxta diversum modum, rationemque formae,
+          <lb ed="#P" n="17"/>diversa ratio appetitus consequatur. Unde
+          <lb ed="#P" n="18"/>cum inanimatae res informantur solum 
+          natu<lb break="no" ed="#P" n="19"/>rali forma, solam habent inclinationem 
+          na<lb break="no" ed="#P" n="20"/>turalem, consequentem naturalem formam:
+          <lb ed="#P" n="21"/>res autem cognoscentes, cum informentur
+          <lb ed="#P" n="22"/>etiam per cognitionem, etiam aliarum rerum
+          <lb ed="#P" n="23"/>formis intentionaliter superiori quodam modo,
+          <lb ed="#P" n="24"/>fiuntque res ipsae cognitae vitaliter et 
+          intentio<lb break="no" ed="#P" n="25"/>naliter, ideo altiorem nactae sunt appetitum,
+          <lb ed="#P" n="26"/>hoc est, vitalem, qui consequitur cognitionem.
+          <lb ed="#P" n="27"/>Quae ratio aliis etiam modis exponitur: ac
+          <lb ed="#P" n="28"/>probatur secundo. Quia res cognoscentes prius
+          <lb ed="#P" n="29"/>intendunt propria bona, quam quaerant, et
+          <lb ed="#P" n="30"/>exequantur media, quibus illa sunt 
+          conse<lb break="no" ed="#P" n="31"/>cuturae: quo fit, ut in suis operibus 
+          cogni<lb break="no" ed="#P" n="32"/>tione ducantur: necessaria ergo est potentia
+          <lb ed="#P" n="33"/>ad appetenda bona, quae intendunt consequi,
+          <lb ed="#P" n="34"/>parum enim esset bona intenta cognosci nisi
+          <lb ed="#P" n="35"/>etiam appeterentur. Quare si non daretur 
+          ap<lb break="no" ed="#P" n="36"/>petitus, consecutio plane non daretur: 
+          appe<lb break="no" ed="#P" n="37"/>titus enim causa est executionis, mediat 
+          siqui<lb break="no" ed="#P" n="38"/>dem inter cognitionem et executionem, cum
+          <lb ed="#P" n="39"/>illam sequatur et hane praecedat. Tertio 
+          pro<lb break="no" ed="#P" n="40"/>batur. Res cognoscentes apprehendunt quid
+          <lb ed="#P" n="41"/>nocivum sit toti animali, singulisque ejus 
+          par<lb break="no" ed="#P" n="42"/>tibus, ut capiti, pedi, etc.; ergo necessaria est
+          <lb ed="#P" n="43"/>una potentia specialis animae, quae hanc 
+          co<lb break="no" ed="#P" n="44"/>gnitionem sequatur, ordineturque ad 
+          conse<lb break="no" ed="#P" n="45"/>quendum bonum et fugiendum malum totius,
+          <lb ed="#P" n="46"/>ac singularum partium, in quo diflert 
+          appe<lb break="no" ed="#P" n="47"/>titus naturalis ab appetitu elicitivo, nam cum
+          <lb ed="#P" n="48"/>appetitus naturalis nihil aliud sit, quam res
+          <lb ed="#P" n="49"/>ipsa, ut inclinata, per se primo tantummodo
+          <lb ed="#P" n="50"/>ordinatur ad bonum particulare sui: at 
+          appe<lb break="no" ed="#P" n="51"/>titus elicitivus specialis potentia est respiciens
+          <lb ed="#P" n="52"/>bonum totius, et singularium partium: hac
+          <lb ed="#P" n="53"/>enim de causa animantibus communicatur
+          <lb ed="#P" n="54"/>non nisi secundum gradum cognitionis eorum,
+          <lb ed="#P" n="55"/>ut videbimus, appetitus autem naturales tot
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>multiplicantur, quot sunt res appetitae. 
+          Videa<lb break="no" ed="#P" n="57"/>tur Cajetanus, 1 part., quaest. 10, art. 1.
+          <lb ed="#P" n="58"/>Quarto probatur ex differentia inter 
+          cogno<lb break="no" ed="#P" n="59"/>scentes et non cognoscentes, quod hae non se
+          <lb ed="#P" n="60"/>moveant proprie, sed potius moveantur, vel
+          <lb ed="#P" n="61"/>saltem ferantur pondere quodam naturali ad
+          <lb ed="#P" n="62"/>perfectiones suas, quando illis carent: at vero
+          <lb ed="#P" n="63"/>res cognoscentes se movent, non solum ex
+          <lb ed="#P" n="64"/>pondere naturali, sed cognitione. Ex qua 
+          ori<lb break="no" ed="#P" n="65"/>tur in eis pondus aliquod, seu appetitus, 
+          ra<lb break="no" ed="#P" n="66"/>tione cujus ad perfectiones non habitas sponte
+          <lb ed="#P" n="67"/>moventur. Confirmatur ultimo, quia in 
+          ani<lb break="no" ed="#P" n="68"/>mali diversae sunt potentiae, et instrumenta
+          <lb ed="#P" n="69"/>operationum: erit ergo necessaria una 
+          poten<lb break="no" ed="#P" n="70"/>tia applicans reliquas ad operationes suas, et
+          <lb ed="#P" n="71"/>haec est appetitus.
+        </p>
+        <p xml:id="szdada-y18522-d1e322">
+          <lb ed="#P" n="72"/>3. Secunda assertio. — Explicatur et 
+          suade<lb break="no" ed="#P" n="73"/>tur.— Secunda conclusio, quae ex praecedente
+          <lb ed="#P" n="74"/>sequitur, secundum diversos gradus rerum
+          <lb ed="#P" n="75"/>cognoscentium, sunt etiam diversi gradus 
+          ap<lb break="no" ed="#P" n="76"/>petituum: unde sicut est duplex gradus 
+          cogno<lb break="no" ed="#P" n="77"/>scentium, scilicet, sentientium et 
+          intelligen<lb break="no" ed="#P" n="78"/>tium, ita duplex est appetitus, sensitivus 
+          sci<lb break="no" ed="#P" n="79"/>licet et rationalis, materialis et spiritualis.
+          <lb ed="#P" n="80"/>Conclusio est omnium theologorum et 
+          philoso<lb break="no" ed="#P" n="81"/>phorum: etenim si cognitio radix est et origo
+          <lb ed="#P" n="82"/>hujus appetitus, ex diverso genere cognitionis
+          <lb ed="#P" n="83"/>diversum sequitur genus appetitus. Quod 
+          ul<lb break="no" ed="#P" n="84"/>terius ostenditur ; nam appetitus sequens 
+          co<lb break="no" ed="#P" n="85"/>gnitionem sensitivam, nequaquam superat 
+          ta<lb break="no" ed="#P" n="86"/>lem gradum, unde tantum versatur circa res
+          <lb ed="#P" n="87"/>singulares, ac materias concretas: appetitus
+          <lb ed="#P" n="88"/>autem consequens intellectivam cognitionem
+          <lb ed="#P" n="89"/>non debet esse ordinis inferioris, quam sit 
+          co<lb break="no" ed="#P" n="90"/>gnitio, ideoque versari potest circa res 
+          spiri<lb break="no" ed="#P" n="91"/>tuales et universales: sunt ergo isti duo 
+          appe<lb break="no" ed="#P" n="92"/>titus distincti, quorum primus in brutis, 
+          se<lb break="no" ed="#P" n="93"/>cundus in Angelis, et uterque simul in homine
+          <lb ed="#P" n="94"/>reperitur: nam in solo homine invenitur 
+          co<lb break="no" ed="#P" n="95"/>gnitio sensitiva simul atque intellectiva, et in
+          <lb ed="#P" n="96"/>qualibet vendicat complementum ei debitum,
+          <lb ed="#P" n="97"/>seu quidquid ex vi utriusque consequitur. Unde
+          <lb ed="#P" n="98"/>de fide etiam certum est dari in homine hos
+          <lb ed="#P" n="99"/>duos appetitus, quorum repugnantia 
+          describi<lb break="no" ed="#P" n="100"/>tur ad Rom. 7: Video aliam legem in membris
+          <lb ed="#P" n="101"/>meis repugnantem legi mentis mem, et ad
+          <lb ed="#P" n="102"/>Gal. 5: Caro concupiscit adversus spiritum,
+          <lb ed="#P" n="103"/>spiritus autem adversus carnem, lheec enim 
+          in<lb break="no" ed="#P" n="104"/>vicem adversantur. Matt. 17: Qui vult venire
+          <lb ed="#P" n="105"/>post me, abneget semetipsum - alius enim est
+          <lb ed="#P" n="106"/>appetitus, qui abnegat et alius qui abnegatur.
+          <lb ed="#P" n="107"/>Et cap. 26: Spiritus quidem promptus est, caro
+          <lb ed="#P" n="108"/>autem infirma. Eccl. 2: Nec prohibue cor
+          <lb ed="#P" n="109"/>meum, quin omni voluptate frueretur: 
+          prohi<lb break="no" ed="#P" n="110"/>bere enim voluntatis est, voluptas vero appe-
+          <pb ed="#P" n="755"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>titus sensitivi. Et cap. 18: Post 
+          concupiscen<lb break="no" ed="#P" n="2"/>tias tuas ne eas. Experientia quoque docet 
+          ta<lb break="no" ed="#P" n="3"/>lium appetituum distinctionem, nam sensitivo
+          <lb ed="#P" n="4"/>sensibilia prosequimur, rationali 
+          supernatu<lb break="no" ed="#P" n="5"/>ralia et divina. Notandum tamen, de fide non
+          <lb ed="#P" n="6"/>esse hosce appetitus realiter inter se, et ab 
+          ani<lb break="no" ed="#P" n="7"/>ma distingui, hoc enim ad opiniones 
+          philoso<lb break="no" ed="#P" n="8"/>phicas pertinet, sed tantum haberi certum esse
+          <lb ed="#P" n="9"/>in nobis potentias ad efficiendos actus 
+          utrius<lb break="no" ed="#P" n="10"/>que appetitus, sive distinctae sint entitates,
+          <lb ed="#P" n="11"/>sive indistinctae: esse tamen entitates 
+          distinc<lb break="no" ed="#P" n="12"/>tas multo verior est, ac fidei conformior 
+          sen<lb break="no" ed="#P" n="13"/>tentia.
+        </p>
+        <p xml:id="szdada-y18522-d1e442">
+          <lb ed="#P" n="14"/>4. Objectio contra primam assertionem.—
+          <lb ed="#P" n="15"/>Contra secundam. — Ad primum. — Ad 
+          secun<lb break="no" ed="#P" n="16"/>dum.—Sed arguet quis primo contra primnam
+          <lb ed="#P" n="17"/>conclusionem. Si in omni natura cognoscente
+          <lb ed="#P" n="18"/>datur appetitus elicitivus, dabitur etiam in
+          <lb ed="#P" n="19"/>Deo, cumille sit etiam cognoscens. Consequens
+          <lb ed="#P" n="20"/>falsum est, quoniam appetere indigentis est,
+          <lb ed="#P" n="21"/>et carentis bono, quod appetit, unde appetitio
+          <lb ed="#P" n="22"/>imperfectionem süpponit. Circa secundam 
+          con<lb break="no" ed="#P" n="23"/>clusionem etiam arguitur, quoniam superflue
+          <lb ed="#P" n="24"/>ponitur in homine duplex appetitus, cum unus
+          <lb ed="#P" n="25"/>sit satis ad omnia illa, pro quibus diximus,
+          <lb ed="#P" n="26"/>necessarium esse appetitum. Ad primum 
+          res<lb break="no" ed="#P" n="27"/>pondetur appetitum, ut sic, videri quidem 
+          si<lb break="no" ed="#P" n="28"/>gnificare desiderium de bono non possesso,
+          <lb ed="#P" n="29"/>hujusmodique appetitum non esse in Deo,
+          <lb ed="#P" n="30"/>maxime quantum ad proprium sibi bonum,
+          <lb ed="#P" n="31"/>quantum autem ad bona nostra, solere illi
+          <lb ed="#P" n="32"/>tribui desiderium, sed metaphorice magis,
+          <lb ed="#P" n="33"/>quam proprie. Nunc vero appetitum non 
+          su<lb break="no" ed="#P" n="34"/>mimus eo modo, sed ut significat virtutem
+          <lb ed="#P" n="35"/>amandi vitaliter bonum aliquod: talis porro
+          <lb ed="#P" n="36"/>virtus in Deo est, non a sua essentia distincta,
+          <lb ed="#P" n="37"/>sed ipsamet essentia, quatenus seipsam amat,
+          <lb ed="#P" n="38"/>et in propriis gaudet bonis, ex quo etiam 
+          crea<lb break="no" ed="#P" n="39"/>turas amat. Ad secundum negatur esse 
+          super<lb break="no" ed="#P" n="40"/>fluum duplicem astruere appetitum in nobis
+          <lb ed="#P" n="41"/>cum debitus sit naturae nostrae, quae superiora
+          <lb ed="#P" n="42"/>et inferiora in se quodammodo complectitur,
+          <lb ed="#P" n="43"/>sicut etiam superfluum non est habere 
+          dupli<lb break="no" ed="#P" n="44"/>cem cognitionem, intellectivam scilicet et 
+          sen<lb break="no" ed="#P" n="45"/>sitivam, quia sensitiva intellectivae deservit :
+          <lb ed="#P" n="46"/>ac similiter appetitus sensitivus rationali, ut
+          <lb ed="#P" n="47"/>vehementius afficiatur quod si illi 
+          contraria<lb break="no" ed="#P" n="48"/>tur, id quoque usui est, in exercitium 
+          videli<lb break="no" ed="#P" n="49"/>cet et meritum, est quoque utilis, ut prospiciat
+          <lb ed="#P" n="50"/>bonis corporis tanquam illi maxime 
+          connatu<lb break="no" ed="#P" n="51"/>ralibus, voluntas vero quando oportet hunc
+          <lb ed="#P" n="52"/>refraenat et dirigit.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

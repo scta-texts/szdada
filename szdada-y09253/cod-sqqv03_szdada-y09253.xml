@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="368"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y09253"><!-- t2l4c8 -->
+        <head xml:id="szdada-y09253-Hd1e101">Caput 8</head>
+        <head xml:id="szdada-y09253-Hd1e103" type="question-title">Quando fuerit adam e paradiso ejectus, quantoque tempore in illo permanserit</head>
+        <p xml:id="szdada-y09253-d1e106">
+          <lb ed="#P" n="63"/>CAPUT VII.
+          <lb ed="#P" n="64"/>QUANDO FUERIT ADAM E PARADISO EJECTUS, 
+          QUAN<lb break="no" ed="#P" n="65"/>TOQUE TEMPORE IN ILLO PERMANSERIT.
+        </p>
+        <p xml:id="szdada-y09253-d1e115">
+          <lb ed="#P" n="66"/>1. Quot explicanda. — Qua hora conditus
+          <lb ed="#P" n="67"/>Adam opinio nonnullorum.—Auctoris judicium.
+          <lb ed="#P" n="68"/>— Quaestionem hanc usque in hunc locum 
+          dis<lb break="no" ed="#P" n="69"/>tuli, ut simul tempus, in quo primi hcmines
+          <lb ed="#P" n="70"/>peccarunt, et in quo puniti sunt, quantoque
+          <lb ed="#P" n="71"/>tempore Paradisum incoluerint, explicarem.
+          <lb ed="#P" n="72"/>Nam haec tria valde inter se connexa sunt ut
+          <lb ed="#P" n="73"/>est per se manifestum. Ante omnia vero 
+          suppo<lb break="no" ed="#P" n="74"/>nendum est, Adamum fuisse in sexto die extra
+          <lb ed="#P" n="75"/>Paradisum creatum, et postea in Paradisum
+          <lb ed="#P" n="76"/>translatum. Ita dictum est supra, l. 3, c. 5, et
+          <lb ed="#P" n="77"/>colligitur ex narratione Gen., cap. 1 et 2, ibi
+          <lb ed="#P" n="78"/>tamen non explicatur hora creationis ejus,
+          <lb ed="#P" n="79"/>unde certo sciri non potest. Dixerunt vero 
+          ali<lb break="no" ed="#P" n="80"/>qui, fuisse creatum prima hora illius diei post
+          <lb ed="#P" n="81"/>Solis ortum in nostro horizonte, seu in 
+          Para<lb break="no" ed="#P" n="82"/>diso, quae hora dici potest prima diei 
+          artificia<lb break="no" ed="#P" n="83"/>lis, quae fuit septima inchoata, seu decurrens
+          <lb ed="#P" n="84"/>diei naturalis in tempore aequinoctii, in quo
+          <lb ed="#P" n="85"/>mundus creatus est. Sed licet hoc probabiliter
+          <lb ed="#P" n="86"/>dictum sit, non potest esse certum, quia in
+          <lb ed="#P" n="87"/>Scriptura non dicitur, nec alia via est 
+          revela<lb break="no" ed="#P" n="88"/>tum, neque sufficienti conjectura ostendi 
+          po<lb break="no" ed="#P" n="89"/>test. Praesertim, quia eodem die sexto creavit
+          <lb ed="#P" n="90"/>Deus animalia bruta, priusquam hominem:
+          <lb ed="#P" n="91"/>unde fit verisimile, in prima illa hora ea 
+          creas<lb break="no" ed="#P" n="92"/>se: nihilominus tamen, ut l. 3, cap. 4, dixi,
+          <lb ed="#P" n="93"/>inter hominis creationem. caeterorumque 
+          ani<lb break="no" ed="#P" n="94"/>malium. non oportuit multum temporis 
+          inter<lb break="no" ed="#P" n="95"/>cedere ; et ideo potuit creari Adam in prima
+          <lb ed="#P" n="96"/>hora, vel parum post illam, quia bruta prope
+          <lb ed="#P" n="97"/>Solis ortum fieri potuerunt, et homo orto jam
+          <lb ed="#P" n="98"/>sole. Denique satis est, quod homo in principio
+          <lb ed="#P" n="99"/>illius diei creatus fuerit, sivein prima, sive in
+          <lb ed="#P" n="100"/>secunda hora, in hoc enim non est scrupulose
+          <lb ed="#P" n="101"/>immorandum, neque ad id, de quo nunc 
+          agi<lb break="no" ed="#P" n="102"/>mus, est necessarium.
+        </p>
+        <p xml:id="szdada-y09253-d1e198">
+          <lb ed="#P" n="103"/>2. De intervallo temporis iuter Adee 
+          creatio<lb break="no" ed="#P" n="104"/>nem et translationem in paradisum opinio 
+          quo<lb break="no" ed="#P" n="105"/>rumdam .—Probabilior opinio. —Similiter 
+          in<lb break="no" ed="#P" n="106"/>certum est, quantum temporis inter creationem
+          <lb ed="#P" n="107"/>Adae, ejusque translationem in Paradisum, in-
+          <pb ed="#P" n="369"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tercesserit: quia hoc etiam non est revelatum.
+          <lb ed="#P" n="2"/>Unde non defuerunt qui dixerint, 
+          quadragesi<lb break="no" ed="#P" n="3"/>ma die post creationem fuisse Adam ingressum
+          <lb ed="#P" n="4"/>in Paradisum, ut refert Anastasius Synaita,
+          <lb ed="#P" n="5"/>l. 9 Exaem., versus finem. Sed longe 
+          proba<lb break="no" ed="#P" n="6"/>bilius est, eodem die 6, translatum esse. Nam
+          <lb ed="#P" n="7"/>ostendimus, in dic. c. 4, Evam fuisse creatam
+          <lb ed="#P" n="8"/>in illo die: et, in cap. 5, prcbavimus creatam
+          <lb ed="#P" n="9"/>esse in Paradiso: ergo necessarium fuit, ut
+          <lb ed="#P" n="10"/>Adam in illum jam translatus fuisset, cum Eva
+          <lb ed="#P" n="11"/>ex ejus costa formata, et statim ac producta
+          <lb ed="#P" n="12"/>est, ipsi Adae praesentata, et matrimonio 
+          con<lb break="no" ed="#P" n="13"/>juncta fuerit. Unde tandem supponimus, 
+          om<lb break="no" ed="#P" n="14"/>nia, quae Gen. 2, circa plasmationem Adae et
+          <lb ed="#P" n="15"/>Evae, eorumque in Paradiso conversationem,
+          <lb ed="#P" n="16"/>facta narrantur, in sexto die creationis mundi
+          <lb ed="#P" n="17"/>perfecta fuisse. Ita non ex contextu illius 
+          capi<lb break="no" ed="#P" n="18"/>tus manifeste colligitur. Difficultas igitur in
+          <lb ed="#P" n="19"/>praesenti superest, an tentatio serpentis, et 
+          ho<lb break="no" ed="#P" n="20"/>minum lapsus in eodem die sexto contigerit.
+        </p>
+        <p xml:id="szdada-y09253-d1e260">
+          <lb ed="#P" n="21"/>3. Opinio affirmans Adamum ipso seato die
+          <lb ed="#P" n="22"/>peccasse.— Multorum opinio fuit, satisque 
+          an<lb break="no" ed="#P" n="23"/>tiqua, affirmans Adamum in eodem die, in quo
+          <lb ed="#P" n="24"/>creatus est. peccasse. Ita docet Irenaeus, l. 5,
+          <lb ed="#P" n="25"/>cont. haer., cap. 23, dicens: Factum est 
+          ves<lb break="no" ed="#P" n="26"/>pere, et mane dies unus. In hac ipsa die 
+          man<lb break="no" ed="#P" n="27"/>ducaverunt, in ipsa autem et mortui sunt. Et
+          <lb ed="#P" n="28"/>infra dicit, propterea Christum in eadem die,
+          <lb ed="#P" n="29"/>id est, feria sexta mortuum esse. Quam 
+          senten<lb break="no" ed="#P" n="30"/>tiam, et ejus allegoricam rationem late 
+          prose<lb break="no" ed="#P" n="31"/>quitur Anastasius Synaita, Anag. 
+          contempla<lb break="no" ed="#P" n="32"/>uonum in Exaem., l. 7, in princ. Et, quod
+          <lb ed="#P" n="33"/>mirandum est, prius dicit: Fespere sexti diei
+          <lb ed="#P" n="34"/>in horto, et Paradiso factus est Adam, etc., et
+          <lb ed="#P" n="35"/>nihilominus postea subdit: Has vcesperas seati
+          <lb ed="#P" n="36"/>horee fecit Christus propter illum hominem, qui
+          <lb ed="#P" n="37"/>in Paradiso eversus fuerat in illa vespera. In
+          <lb ed="#P" n="38"/>quibus verbis imprimis subsistere non potest,
+          <lb ed="#P" n="39"/>quod ait Adam factum esse in Paradiso ; nam
+          <lb ed="#P" n="40"/>contrarium docet Scriptura, et ipsemet dixerat
+          <lb ed="#P" n="41"/>in l. 4, post medium. Deinde parum verisimile
+          <lb ed="#P" n="42"/>est, in ejusdem diei sexti vespere factum, et
+          <lb ed="#P" n="43"/>lapsum fuisse. Pro illa vero sententia, quod
+          <lb ed="#P" n="44"/>eodem die, quo factus est Adam, peccaverit,
+          <lb ed="#P" n="45"/>refertur in catena Lypomanus, in Gen., circa
+          <lb ed="#P" n="46"/>id, De omni ligno Paradisi vescimur. Diodorus
+          <lb ed="#P" n="47"/>Tarsiensis, citantur etiam Cyrillus et 
+          Epipha<lb break="no" ed="#P" n="48"/>nius, quorum loca non inveni. Denique 
+          Pere<lb break="no" ed="#P" n="49"/>rius, l. 6, in Gen., disp. de hac re, pro eadem
+          <lb ed="#P" n="50"/>refert: Moysen Barcepha, lib. de Paradiso,
+          <lb ed="#P" n="51"/>allegantem etiam pro illa Philor., in oration.
+          <lb ed="#P" n="52"/>de Arbore vitae: et Jacobum quemdam in 
+          ora<lb break="no" ed="#P" n="53"/>tione de Passion. Domini. At ego apud Mosen
+          <lb ed="#P" n="54"/>Barcepha solum inveni hanc opinionem cum
+          <lb ed="#P" n="55"/>aliis relatam, in 1 p., de Parad., c. 28, satis a
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>medio: ipse vero subdit: S'ed nos heec inferius,
+          <lb ed="#P" n="57"/>Deo volente, evplicabimus dilucidius. In 
+          reli<lb break="no" ed="#P" n="58"/>quis vero partibus ejus operis nihil amplius
+          <lb ed="#P" n="59"/>invenio. Atque hanc sententiam secutus est
+          <lb ed="#P" n="60"/>Abulensis, Gen. 3, q. 14.
+        </p>
+        <p xml:id="szdada-y09253-d1e351">
+          <lb ed="#P" n="61"/>4. Prima congruentia pro hac opinione. —
+          <lb ed="#P" n="62"/>Secunda congruentia. — Congruentiae pro hac
+          <lb ed="#P" n="63"/>sententia sunt, imprimis allegorica tacta ab
+          <lb ed="#P" n="64"/>Irenaeo, quod Adam in sexta feria creatus est,
+          <lb ed="#P" n="65"/>et in eadem, vel simili die, seu feria mortuus,
+          <lb ed="#P" n="66"/>vel spiritualiter secundum animam, vel quoad
+          <lb ed="#P" n="67"/>corpus inchoative (ut sic dicam) quia ex illo
+          <lb ed="#P" n="68"/>die coepit mori: sed non est sic mortuus in alia
+          <lb ed="#P" n="69"/>sexta feria: ergo in eadem prima, in qua 
+          con<lb break="no" ed="#P" n="70"/>ditus est. Major solum suadetur, quia ob hanc
+          <lb ed="#P" n="71"/>causam voluit Christus in sexta feria mori.
+          <lb ed="#P" n="72"/>Minor autem probatur: tum quia non est 
+          ve<lb break="no" ed="#P" n="73"/>risimile, fuisse Adamum in Paradiso per dies
+          <lb ed="#P" n="74"/>octo, ut statim ostendetur: tum etiam, quia
+          <lb ed="#P" n="75"/>non haberemus fundamentum historicum, ut
+          <lb ed="#P" n="76"/>sic dicam, ad asserendum inferia sexta peccasse.
+          <lb ed="#P" n="77"/>Unde formari potest secunda conjectura ex
+          <lb ed="#P" n="78"/>historia Gen., nam in cap. 2, narrantur 
+          trans<lb break="no" ed="#P" n="79"/>latio Adae in Paradisum, et nominum 
+          anima<lb break="no" ed="#P" n="80"/>lium impositio, et Evae formatio cum verbis,
+          <lb ed="#P" n="81"/>Adamus ad uxorem locutus est. Et statim, in
+          <lb ed="#P" n="82"/>c. 3, incipit Moses tentationem serpentis 
+          enar<lb break="no" ed="#P" n="83"/>rare. Ergo signum est, brevissimum tempus
+          <lb ed="#P" n="84"/>interpositum, ac subinde eodem die post 
+          pau<lb break="no" ed="#P" n="85"/>cas horas daemonem ad tentandam Evam 
+          ac<lb break="no" ed="#P" n="86"/>cessisse. Fitque hoc verisimile, quia daemon
+          <lb ed="#P" n="87"/>ardebat invidia, et desiderio privandi homines
+          <lb ed="#P" n="88"/>felicitate illius status: et ideo credbile est,
+          <lb ed="#P" n="89"/>quam primum potuit ad tentandum homines
+          <lb ed="#P" n="90"/>accessisse. Praesertim, quia timere potuit, ne
+          <lb ed="#P" n="91"/>homo per temporis moras, vel meditationem
+          <lb ed="#P" n="92"/>divinarum rerum vel divinis illustrationibus
+          <lb ed="#P" n="93"/>cautior factus, ditficilius vinci posset.
+        </p>
+        <p xml:id="szdada-y09253-d1e425">
+          <lb ed="#P" n="94"/>5. Tertia conjectura.—Tertia ratio fit, quia
+          <lb ed="#P" n="95"/>homines ante lapsum de fructibus Paradisi
+          <lb ed="#P" n="96"/>nihil gustarunt, nec comederunt quidquam:
+          <lb ed="#P" n="97"/>ergo non fuerunt per integrum diem in 
+          Para<lb break="no" ed="#P" n="98"/>diso, neque in illo moram aliquam fecerunt;
+          <lb ed="#P" n="99"/>quia non est verisimile per integrum diem, et
+          <lb ed="#P" n="100"/>noctem nihil comedisse. Antecedens colligi 
+          po<lb break="no" ed="#P" n="101"/>test ex verbis illis serpentis. Cur preecepit 
+          vo<lb break="no" ed="#P" n="102"/>bis Deus, ut non comederetis ex omni ligno 
+          Pa<lb break="no" ed="#P" n="103"/>radisi ? Id est, ex nullo ligno, quod non fuisset
+          <lb ed="#P" n="104"/>ausus daemon dicere, si ex aliquo fructus illos
+          <lb ed="#P" n="105"/>comedentes vidisset. Unde Moses Barcepha, in
+          <lb ed="#P" n="106"/>dic. c. 28, ex quodam Theodoro, et aliis refert,
+          <lb ed="#P" n="107"/>daemonem non audivisse praeceptum a Deo 
+          im<lb break="no" ed="#P" n="108"/>positum, quia non voce sensibili, sed interna
+          <lb ed="#P" n="109"/>revelatione fuerat factum: et quia caetera 
+          ani<lb break="no" ed="#P" n="110"/>mantia videbat pabulum ex terra sumere,
+          <pb ed="#P" n="370"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Adamum autem et Evam, licet corpore 
+          consta<lb break="no" ed="#P" n="2"/>rent, nondum vesci, in suspicionem venisse,
+          <lb ed="#P" n="3"/>datam eis fuisse legem, qua certus aliquis 
+          mo<lb break="no" ed="#P" n="4"/>dus vescendi illis esset praescriptus. 
+          Augusti<lb break="no" ed="#P" n="5"/>nus etiam, serm. 65, de temp. de Adam ait:
+          <lb ed="#P" n="6"/>Qua ndiu jejunavit, in Paradiso fuit, 
+          signifi<lb break="no" ed="#P" n="7"/>cans ante peccatum non comedisse. Accedit,
+          <lb ed="#P" n="8"/>quod si de aliqua arbore gustassent, maxime
+          <lb ed="#P" n="9"/>de arbore vitae, quia ejus virtutem non 
+          igno<lb break="no" ed="#P" n="10"/>rabant. At de illa non gustasse constanter 
+          tra<lb break="no" ed="#P" n="11"/>dit Pererius, lib. 3, in Gen., disp. de Arb. vit.,
+          <lb ed="#P" n="12"/>q. 5, et l. 4, circa illa verba: 7n quacumque
+          <lb ed="#P" n="13"/>die. ergo.
+        </p>
+        <p xml:id="szdada-y09253-d1e497">
+          <lb ed="#P" n="14"/>6. Praedicta opinio non repugnat Scriptlura,
+          <lb ed="#P" n="15"/>est tamen incerta et parum verisimalis. — Et
+          <lb ed="#P" n="16"/>haec quidem sententia nihil continet vel in se
+          <lb ed="#P" n="17"/>impossibile, vel narrationi Moysis repugnans.
+          <lb ed="#P" n="18"/>Quia, ut ex dictis supra, l. 3, c. 4 et 5, 
+          intelh<lb break="no" ed="#P" n="19"/>gitur. omna illa, quae de creatione primorum
+          <lb ed="#P" n="20"/>hominum, in c. 1 et 2, Gen., narrantur, 
+          po<lb break="no" ed="#P" n="21"/>tuerunt in sexto die ante meridianum tempus
+          <lb ed="#P" n="22"/>perfici, et sub meridiem per duas, vel tres 
+          ho<lb break="no" ed="#P" n="23"/>ras potuit tentatio serpentis, et lapsus hominis
+          <lb ed="#P" n="24"/>consummari, et sub vesperam hora nona, 
+          pau<lb break="no" ed="#P" n="25"/>lo ante Solis occasum, potuerunt fieri caetera,
+          <lb ed="#P" n="26"/>quae usque ad ejectionem hominum de 
+          Para<lb break="no" ed="#P" n="27"/>diso Moyses narrat. Omnia non colloquia, quae
+          <lb ed="#P" n="28"/>ibi describuntur, brevissimis morulis fieri 
+          po<lb break="no" ed="#P" n="29"/>tuerunt, et actus interni suflicientes ad 
+          con<lb break="no" ed="#P" n="30"/>summandum peccatum, fere in momento fiunt:
+          <lb ed="#P" n="31"/>Deus etiam summa velocitate perficere potuit
+          <lb ed="#P" n="32"/>opus suum, tam inquirendo de dehcto ab 
+          ho<lb break="no" ed="#P" n="33"/>minibus commiso, et quasi de illo juridice 
+          in<lb break="no" ed="#P" n="34"/>terrogando, veritatemque examinando, quam
+          <lb ed="#P" n="35"/>etiam sententiam proferendo ac denique illam
+          <lb ed="#P" n="36"/>exequendo in fine ejusdem sexti diei, homines
+          <lb ed="#P" n="37"/>utique extra Paradisum ejiciendo. Quod autem
+          <lb ed="#P" n="38"/>hoc totum, quod possibile judicamus, ita 
+          fac<lb break="no" ed="#P" n="39"/>tum sit, valde incertum est, et per ea, quae 
+          di<lb break="no" ed="#P" n="40"/>cemus, fit saltem parum verisimile.
+        </p>
+        <p xml:id="szdada-y09253-d1e558">
+          <lb ed="#P" n="41"/>7. Secunda opinio bipartita primos parentes
+          <lb ed="#P" n="42"/>ultra diem naturalem in paradiso fuisse, 
+          incer<lb break="no" ed="#P" n="43"/>tun tamen quantum fuerit tempus. Unde alu
+          <lb ed="#P" n="44"/>doctores tempus habitationis Adae et Evae intra
+          <lb ed="#P" n="45"/>Paradisum, unius diei durationem excessisse
+          <lb ed="#P" n="46"/>opinantur, quamvis in temporis 
+          determinatio<lb break="no" ed="#P" n="47"/>ne nec inter se conveniant, nec aliquid certum
+          <lb ed="#P" n="48"/>definiri posse arbitrentur. Et imprimis hcet
+          <lb ed="#P" n="49"/>illa omnia, quae de primis hominibus 
+          narran<lb break="no" ed="#P" n="50"/>tur Gen. i et 2, fuerint in sexto die facta.
+          <lb ed="#P" n="51"/>Nihilominus, quod caetera omnia, quae in c. 3
+          <lb ed="#P" n="52"/>addantur, eodem die contigerint, nec in 
+          Scrip<lb break="no" ed="#P" n="53"/>tura habet fundamentum, nec illi est multum
+          <lb ed="#P" n="54"/>consentaneum. Nam, quod post narrationem
+          <lb ed="#P" n="55"/>earum rerum, quae in formatione Evae conti-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gerunt, statim fiat transitus ad tentationem
+          <lb ed="#P" n="57"/>serpentis describendam, nullum argumentum
+          <lb ed="#P" n="58"/>est, quod illa tentatio eodem die facta sit, quo
+          <lb ed="#P" n="59"/>Eva est formata. Quia nec Scriptura narrat
+          <lb ed="#P" n="60"/>omnia, quae facta sunt: nec ex ordine 
+          narra<lb break="no" ed="#P" n="61"/>tionis colligi potest, eodem die fuisse facta 
+          cae<lb break="no" ed="#P" n="62"/>tera, quae consequenter narrantur. Aliunde
+          <lb ed="#P" n="63"/>vero Gen. 3, dicitur, Deum deambulasse in
+          <lb ed="#P" n="64"/>Paradiso, Ad aurai post meridiem, quando
+          <lb ed="#P" n="65"/>Adamum interrogavit, ubi es, etc., unde 
+          pro<lb break="no" ed="#P" n="66"/>babiliter colligi potest, Adam peccasse ante
+          <lb ed="#P" n="67"/>meridiem, ac subinde non fuisse Evam 
+          tenta<lb break="no" ed="#P" n="68"/>tam in eodem sexto die, in quo fuit creata.
+          <lb ed="#P" n="69"/>Quia consideratis rebus, quae in antemeridiano
+          <lb ed="#P" n="70"/>tempore illius diei sexti praecesserunt, vix 
+          cre<lb break="no" ed="#P" n="71"/>dibile, potuisse statim Evam ante meridiem
+          <lb ed="#P" n="72"/>ejusdem diei solam, et a marito separatam in
+          <lb ed="#P" n="73"/>Paradiso ambulare usque ad locum, in quo
+          <lb ed="#P" n="74"/>erat arbor scientiae boni et mali, et ibi cum
+          <lb ed="#P" n="75"/>serpente miscere colloquium, consentire, ac
+          <lb ed="#P" n="76"/>comedere de fructu arboris, et postea maritum
+          <lb ed="#P" n="77"/>quaerere, et illum invitare, et ad peccandum
+          <lb ed="#P" n="78"/>trahere: ergo credibilius videtur, altero die
+          <lb ed="#P" n="79"/>ante meridiem illum casum accidisse. Scio
+          <lb ed="#P" n="80"/>Hieronymum, in q. Hebr. in Gen., sic 
+          inter<lb break="no" ed="#P" n="81"/>pretari verba illa: Ad auram post meridiem -
+          <lb ed="#P" n="82"/>id est, ut meridiano transacto, refrigerium
+          <lb ed="#P" n="83"/>aurce spirantis ostenderet. Unde etiam 
+          Augus<lb break="no" ed="#P" n="84"/>tinus, 1. 11, Gen. ad ht., c. 33, legit, Ad 
+          ves<lb break="no" ed="#P" n="85"/>peram, et 1. 1, Gen. ad lit., c. 10, addit, id est,
+          <lb ed="#P" n="86"/>cum jam ab eis sol occideret. Unde potuit in
+          <lb ed="#P" n="87"/>eodem post meridiano tempore, ante vesperam,
+          <lb ed="#P" n="88"/>sed ante auram, durante adhuc meridiano 
+          ca<lb break="no" ed="#P" n="89"/>lore lapsus hominum accidere. Sed non est,
+          <lb ed="#P" n="90"/>cur res tantas et tam graves ad hujusmodi
+          <lb ed="#P" n="91"/>temporis angustias redigamus.
+        </p>
+        <p xml:id="szdada-y09253-d1e673">
+          <lb ed="#P" n="92"/>8. Secundo. — Praeterea conjectura ex 
+          ni<lb break="no" ed="#P" n="93"/>mio affectu daemonis ad ejiciendum hominem
+          <lb ed="#P" n="94"/>sumpta, per se spectata, nihil suadet, nam licet
+          <lb ed="#P" n="95"/>ex parte daemonis non defuerit voluntas, 
+          nihil<lb break="no" ed="#P" n="96"/>ominus non constat, occasionem exequendi
+          <lb ed="#P" n="97"/>illam voluntatem fuisse tam cito daemoni 
+          ob<lb break="no" ed="#P" n="98"/>latam. Unde potest facile conjectura in 
+          contra<lb break="no" ed="#P" n="99"/>rium retorqueri. Nam, quo daemon ardentius
+          <lb ed="#P" n="100"/>cupiebat hominem vincere, eo astutius 
+          oppor<lb break="no" ed="#P" n="101"/>tunitatem expectabat. in qua posset cum 
+          cer<lb break="no" ed="#P" n="102"/>tiori spe victoriae hominem aggredi: ergo non
+          <lb ed="#P" n="103"/>est verisimile subito post formationem Evae,
+          <lb ed="#P" n="104"/>nullis aliis circumstantiis observatis, iliam 
+          ag<lb break="no" ed="#P" n="105"/>gressum fuisse. Unde aliqui Patres 
+          considera<lb break="no" ed="#P" n="106"/>runt, observasse daemonem priusquam in 
+          spe<lb break="no" ed="#P" n="107"/>cie serpentis cum Eva loqueretur, quia inter
+          <lb ed="#P" n="108"/>caetera animantia, serpens frequentius inter
+          <lb ed="#P" n="109"/>primos homines versaretur: indeque sumpsisse
+          <lb ed="#P" n="110"/>occasionem accedendi sub ejus specie ad ten-
+          <pb ed="#P" n="371"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tandum Evam. Ita insinuat Joseph, 1. 1, ante
+          <lb ed="#P" n="2"/>c. 2, alias 3, dicens: Cum per id temporis 
+          nul<lb break="no" ed="#P" n="3"/>lun esset inter animalia dissidium, et serpens
+          <lb ed="#P" n="4"/>familiariter cum Adamo et uvore degeret, 
+          invi<lb break="no" ed="#P" n="5"/>debat eis, etc. Expressius id tradit 
+          Damasce<lb break="no" ed="#P" n="6"/>nus, 1l. 2, de Fide, c. 10, illam familiaritatem
+          <lb ed="#P" n="7"/>et consuetudinem inter homines et serpentem
+          <lb ed="#P" n="8"/>describens: eamque astruit, ante peccatum
+          <lb ed="#P" n="9"/>Evae praecessisse: et inde accepisse daemonem
+          <lb ed="#P" n="10"/>occasionem tentandi Evam per serpentem, in
+          <lb ed="#P" n="11"/>quo manifeste supponit, per aliquod tempus
+          <lb ed="#P" n="12"/>Evam in Paradiso habitasse, priusquam a 
+          dae<lb break="no" ed="#P" n="13"/>mone tentaretur.
+        </p>
+        <p xml:id="szdada-y09253-d1e750">
+          <lb ed="#P" n="14"/>9. Tertio. — Tertia item conjectura inde
+          <lb ed="#P" n="15"/>sumpta, quod primi parentes de cibis paradisi
+          <lb ed="#P" n="16"/>ante lapsum non gustarunt rem incertam 
+          as<lb break="no" ed="#P" n="17"/>sumit, et fortasse falsam. Nam contrarium
+          <lb ed="#P" n="18"/>docet Augustinus, 1l. 11 Gen. ad hlit., c. 31,
+          <lb ed="#P" n="19"/>dicens, primos parentes credidisse, fructum
+          <lb ed="#P" n="20"/>arboris scientiae boni et mali fuisse innoxium,
+          <lb ed="#P" n="21"/>quia tale pomum existimarunt fuisse in illa
+          <lb ed="#P" n="22"/>arbore, cujus generis poma jam in aliis 
+          arbo<lb break="no" ed="#P" n="23"/>ribus innovia senserant, non quidem solo visu:
+          <lb ed="#P" n="24"/>tum quia per solum hunc sensum non 
+          perci<lb break="no" ed="#P" n="25"/>pitur, an fructus noxius vel innoxius sit: tum
+          <lb ed="#P" n="26"/>etiam, quia per visum aeque fructus omnium
+          <lb ed="#P" n="27"/>arborum cognoscebant, nec magis unum, quia
+          <lb ed="#P" n="28"/>alium innoxium esse judicabant. Senserant
+          <lb ed="#P" n="29"/>ergo (ex sententia Augustini) alios fructus esse
+          <lb ed="#P" n="30"/>innoxios ex illis edendo: et nihil mali, sed 
+          po<lb break="no" ed="#P" n="31"/>tius boni ab illis percipiendo. Unde in alio loco
+          <lb ed="#P" n="32"/>non dicit Augustinus Adam abstinuisse ab aliis
+          <lb ed="#P" n="33"/>cibis, quamdiu in Paradiso fuit, sed jejunasse,
+          <lb ed="#P" n="34"/>servans mandatum, abstinendo utique a cibo
+          <lb ed="#P" n="35"/>vetito, nam hoc ad praeceptum jejunii pertinet.
+          <lb ed="#P" n="36"/>Nec etiam conjectura sumpta ex verbis 
+          serpen<lb break="no" ed="#P" n="37"/>tis quidquam juvat, quia non dixit serpens:
+          <lb ed="#P" n="38"/>Cur preecepit volis Deus, ut de nullo ligno 
+          Pa<lb break="no" ed="#P" n="39"/>radisi comederitis ? hoc enim tam apertum erat
+          <lb ed="#P" n="40"/>mendacium, ut non sit verisimile ausum fuisse
+          <lb ed="#P" n="41"/>daemonem malitiam suam tam aperte prodere.
+          <lb ed="#P" n="42"/>Dixit ergo: Cur precepit volis Deus, ut non
+          <lb ed="#P" n="43"/>comederetis de omni ligno Paradisi? Quae 
+          pro<lb break="no" ed="#P" n="44"/>positio juxta dialecticorum regulas particularis
+          <lb ed="#P" n="45"/>est, non universalis: unde potius ex illa 
+          indi<lb break="no" ed="#P" n="46"/>cium sumi potest, solitos fuisse primos 
+          homi<lb break="no" ed="#P" n="47"/>nes edere de aliis arboribus, et a ligno scientiae
+          <lb ed="#P" n="48"/>abstinuisse: et inde sumpsisse daemonem 
+          oc<lb break="no" ed="#P" n="49"/>casionem interrogandi, cur non de omnibus
+          <lb ed="#P" n="50"/>comederent. Et hoc confirmant verba Evae
+          <lb ed="#P" n="51"/>respondentis, De omni ligno Paradisi vescimur,
+          <lb ed="#P" n="52"/>etc., quod non solum propter jus, sed etiam
+          <lb ed="#P" n="53"/>propter usum, quen habebant, dixisse videtur.
+          <lb ed="#P" n="54"/>Et verbum, cescimur ex omni ligno, non unum
+          <lb ed="#P" n="55"/>actum, sed consuetudinem significat: ergo per
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>plures dies ibi extitisse et comedisse, 
+          verisi<lb break="no" ed="#P" n="57"/>milius est. An vero de ligno vitae comederint,
+          <lb ed="#P" n="58"/>magis incertum est, quia non est de illo eadem
+          <lb ed="#P" n="59"/>ratio, eo quod non videtur fuisse in commune
+          <lb ed="#P" n="60"/>et ordinarium alimentum destinatum, sed pro
+          <lb ed="#P" n="61"/>certis temporibus opportunis, quanquam licet
+          <lb ed="#P" n="62"/>id aflirmetur, nullum inde absurdum colligi
+          <lb ed="#P" n="63"/>possit, quia licet semel, aut iterum de illo
+          <lb ed="#P" n="64"/>fructu comederent: non statim immortales
+          <lb ed="#P" n="65"/>fierent, ut supra dictum est.
+        </p>
+        <p xml:id="szdada-y09253-d1e867">
+          <lb ed="#P" n="66"/>10. Quarto. — Accedit tandem alia 
+          conjec<lb break="no" ed="#P" n="67"/>tura: quia conveniens fuit primos homines
+          <lb ed="#P" n="68"/>ante peccatum expertos fuisse amaenitatem,
+          <lb ed="#P" n="69"/>et delicias Paradisi, quod in brevi parte uaius
+          <lb ed="#P" n="70"/>diei facere non poterant: ergo verisimile est,
+          <lb ed="#P" n="71"/>non permisisse Deum, eos tentari et cadere,
+          <lb ed="#P" n="72"/>antequam dictum experimentum caperent,
+          <lb ed="#P" n="73"/>quo magis postea de tanto bono amisso dolere
+          <lb ed="#P" n="74"/>possent. Erat autem duplex illius loci 
+          amaeni<lb break="no" ed="#P" n="75"/>tas: una spiritualis alia vero corporalis. De
+          <lb ed="#P" n="76"/>priori ait Augustinus, l. 14, de Civit., c. 10:
+          <lb ed="#P" n="77"/>Amor erat imperturbatus in Deum atque inter
+          <lb ed="#P" n="78"/>se conjugum fida et sincera societate viventium,
+          <lb ed="#P" n="79"/>et hoc amore grande gaudium, etc. Quae verba
+          <lb ed="#P" n="80"/>diuturnitatem aliquam durationis in illo felici
+          <lb ed="#P" n="81"/>statu indicant. Quod latius prosequitur, c. 26,
+          <lb ed="#P" n="82"/>dicens: Vivebat sine egestate fruens Deo. Et
+          <lb ed="#P" n="83"/>clarius, 1. 20, c. 26, commemorando tempus,
+          <lb ed="#P" n="84"/>in quo primi homines in Paradiso fuerant, 
+          ad<lb break="no" ed="#P" n="85"/>jungit: Tunc puri, atque integri, absque labe
+          <lb ed="#P" n="86"/>peccati, seipsos Deo mundissimas hostias 
+          offe<lb break="no" ed="#P" n="87"/>rebant. Et infra de illo tempore, quo vixerunt
+          <lb ed="#P" n="88"/>homines in Paradiso, exponit verba Isaise 65,
+          <lb ed="#P" n="89"/>Secundum dies ligni vite, erunt dies populi
+          <lb ed="#P" n="90"/>mei, indicans fuisse tempus plurium dierum.
+          <lb ed="#P" n="91"/>Unde Gregorius, I. 4 dial., c. 1, dixit: In 
+          Pa<lb break="no" ed="#P" n="92"/>radiso asseverat homo verbis Dei perfrui 
+          beato<lb break="no" ed="#P" n="93"/>rum Angelorum spiritibus, cordis munditia, et
+          <lb ed="#P" n="94"/>celsitudine visionis interesse. De posteriori vero
+          <lb ed="#P" n="95"/>usu Paradisi ad corporis voluptatem, et 
+          com<lb break="no" ed="#P" n="96"/>moditatem pertinente, etiam idem fit 
+          verisi<lb break="no" ed="#P" n="97"/>mile: tum quia sequitur ex priori, non enim
+          <lb ed="#P" n="98"/>poterat aliquo tempore in deliciis spiritualibus
+          <lb ed="#P" n="99"/>versari, quin corpore etiam aleretur, et 
+          opti<lb break="no" ed="#P" n="100"/>ma illius loci temperie recrearetur, et ad 
+          exer<lb break="no" ed="#P" n="101"/>cenda spiritualia disponeretur, ac juvaretur;
+          <lb ed="#P" n="102"/>tum etiam, ut in ipso sensibili experimento
+          <lb ed="#P" n="103"/>Paradisi, ac felicitatis ejus vel diligentius illum
+          <lb ed="#P" n="104"/>sibi custodiret, vel si negligenter illum 
+          amit<lb break="no" ed="#P" n="105"/>teret, postea vehementius de tanto bono 
+          per<lb break="no" ed="#P" n="106"/>dito doleret.
+        </p>
+        <p xml:id="szdada-y09253-d1e958">
+          <lb ed="#P" n="107"/>11. Concluditur ulterius in gratiam ejusdem
+          <lb ed="#P" n="108"/>prime partis non fuisse Adamum et Ecam
+          <lb ed="#P" n="109"/>ejectos quo die habitare ceperunt Paradisum.
+          <lb ed="#P" n="110"/>— His ergo et similibus conjecturis fit proba.
+          <pb ed="#P" n="372"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bilis prior pars proposita, nimirum non eodem
+          <lb ed="#P" n="2"/>die peccasse Evam, quo formata, seu producta
+          <lb ed="#P" n="3"/>est: nec Adam in eodem die peccasse, in quo
+          <lb ed="#P" n="4"/>vel creatus, vel in Paradisum translatus est.
+          <lb ed="#P" n="5"/>Unde consequenter sequitur, non fuisse primos
+          <lb ed="#P" n="6"/>homines de Paradiso ejectos in eodem die in
+          <lb ed="#P" n="7"/>quo eum incolere coeperunt. Ratio est, quia
+          <lb ed="#P" n="8"/>Adam et Eva in eodem die, in quo peccarunt,
+          <lb ed="#P" n="9"/>de Paradiso ejecti sunt: ergo sicut non 
+          pecca<lb break="no" ed="#P" n="10"/>runt eodem die, quo fuerunt in Paradisum 
+          in<lb break="no" ed="#P" n="11"/>troducu, sed post aliquod tempus, ita nec
+          <lb ed="#P" n="12"/>fuerunt in eodem die inde ejecti, in quo illuc
+          <lb ed="#P" n="13"/>intraverant. Consequentia evidens: et 
+          ante<lb break="no" ed="#P" n="14"/>cedens valde probabiliter colligitur ex 
+          con<lb break="no" ed="#P" n="15"/>textu Gen. 3. Nam post narrationem lapsus
+          <lb ed="#P" n="16"/>utriusque parentis, additur: Ft aperti sunt
+          <lb ed="#P" n="17"/>oculi amborum, et fecerunt sibi perizomata, et
+          <lb ed="#P" n="18"/>cum audissent vocem Domini Dei ambulantis in
+          <lb ed="#P" n="19"/>Paradiso ad auram post meridiem, etc. Ex qua
+          <lb ed="#P" n="20"/>verborum ferie videtur colligi, omnia illa 
+          eo<lb break="no" ed="#P" n="21"/>dem die contigisse: tum quia ipse contextus,
+          <lb ed="#P" n="22"/>et modus loquendi hoc indicant: tum etiam
+          <lb ed="#P" n="23"/>quia sunt illa omnia moraliter valde conjuncta,
+          <lb ed="#P" n="24"/>et facile poterant, quasi continue fieri; tum
+          <lb ed="#P" n="25"/>praterea, quia vox illa, post meridiem, tacite
+          <lb ed="#P" n="26"/>refertur ad eumdem diem, in quo Adam et
+          <lb ed="#P" n="27"/>Eva peccaverant, et videre suam nuditatem ,
+          <lb ed="#P" n="28"/>et erubescere, illamque operire coeperant ; tum
+          <lb ed="#P" n="29"/>etiam, quia haec celeritas divinae admonitionis
+          <lb ed="#P" n="30"/>et castigationis opus fuit magnae misericordiae,
+          <lb ed="#P" n="31"/>justitiae, ac providentiae. Misericordiae, ut illi
+          <lb ed="#P" n="32"/>homines a Deo ipso moniti, ac correcti citius
+          <lb ed="#P" n="33"/>ad gratiam redirent. Justitiae, quia Deus 
+          com<lb break="no" ed="#P" n="34"/>minatus fuerat eis, quod in quacumque die
+          <lb ed="#P" n="35"/>comederent, essent morituri, id est, mortales
+          <lb ed="#P" n="36"/>efficiendi: ac proinde indigni, ac incapaces
+          <lb ed="#P" n="37"/>illius loci: ideoque ratio justitiae postulabat,
+          <lb ed="#P" n="38"/>ut ab esu ligni vitae statim longarentur. Fuit
+          <lb ed="#P" n="39"/>etiam opus convenientis providentiae, ne forte,
+          <lb ed="#P" n="40"/>si in Paradiso post peccatum pernoctarent, ibi
+          <lb ed="#P" n="41"/>coirent cum voluptate, et fortasse cum nova
+          <lb ed="#P" n="42"/>culpa saltem veniali, quod in loco illo non
+          <lb ed="#P" n="43"/>decebat.
+        </p>
+        <p xml:id="szdada-y09253-d1e1067">
+          <lb ed="#P" n="44"/>12. Concluditur tandem prior pars secundee
+          <lb ed="#P" n="45"/>opinionis in n. T. — Unde tandem concluditur,
+          <lb ed="#P" n="46"/>primos parentes, nou tantum per sex, vel 
+          sep<lb break="no" ed="#P" n="47"/>tem horas, ut aliqui dixerunt vel novem, aut
+          <lb ed="#P" n="48"/>decem, ut alit voluerunt, referturque in addit.
+          <lb ed="#P" n="49"/>ad Petr. Com. in hist. sui c. 24, in Gen., de
+          <lb ed="#P" n="50"/>quo plures opiniones refert Abulensis, Gen. 13,
+          <lb ed="#P" n="51"/>q. 106, etsequentibus, sed plusquam per unuum
+          <lb ed="#P" n="52"/>naturalem diem in Paradiso habitasse. 
+          Proba<lb break="no" ed="#P" n="53"/>tur prius de Adam, quia creatus creditur in
+          <lb ed="#P" n="54"/>initio sexti diei circa ortum Solis, et paulo
+          <lb ed="#P" n="55"/>post translatus in Paradisum, ut supra osten-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sum est, et illo die non peccavit, ut diximus,
+          <lb ed="#P" n="57"/>nec in sequenti est ejectus de Paradiso, nisi
+          <lb ed="#P" n="58"/>prope Solis occasum, ut etiam vidimus. Ergo
+          <lb ed="#P" n="59"/>licet demus, peccasse, et ejectum fuisse aitero
+          <lb ed="#P" n="60"/>die post creationem, necessario dicendum est,
+          <lb ed="#P" n="61"/>fuisse in Paradiso, saltem per diem naturalem
+          <lb ed="#P" n="62"/>cum dimidio, vel circiter, et haec ratio cum
+          <lb ed="#P" n="63"/>proportione de Eva procedit, excepta illa mora,
+          <lb ed="#P" n="64"/>quae inter Adami translationem et Evae 
+          pro<lb break="no" ed="#P" n="65"/>ductionem interposita est, nam tanto tempore
+          <lb ed="#P" n="66"/>fuit diutius in Paradiso Adam, quam Exva. Sed,
+          <lb ed="#P" n="67"/>ut supra dixi, brevis fuit illa mora: et sic etiam
+          <lb ed="#P" n="68"/>concluditur Evam plusquam per diem 
+          natu<lb break="no" ed="#P" n="69"/>ralem in Paradiso fuisse. Et in his concordant
+          <lb ed="#P" n="70"/>Abulensis, in c. 13 Gen., q. 107 et 108, et
+          <lb ed="#P" n="71"/>Pererius, l. 6, in Gen., disp. de hac re, q. 2.
+        </p>
+        <p xml:id="szdada-y09253-d1e1132">
+          <lb ed="#P" n="72"/>13. Suadetur etiam prima pars praedicte
+          <lb ed="#P" n="73"/>opinionis de incertitudine temporis. — An vero
+          <lb ed="#P" n="74"/>inhabitatio illa Paradisi per plures integros
+          <lb ed="#P" n="75"/>dies duraverit, incertum est, prout in altera
+          <lb ed="#P" n="76"/>parte nostrae resolutionis proposul, quia non
+          <lb ed="#P" n="77"/>possumus cum fundamento affirmare, an 
+          se<lb break="no" ed="#P" n="78"/>cundo, vel tertio, aut quarto die a creationis
+          <lb ed="#P" n="79"/>suae die primi homines peccaverint. Pererius
+          <lb ed="#P" n="80"/>vero eadem quaestione post quintam 
+          propositio<lb break="no" ed="#P" n="81"/>nem divinat (ut ipse ait) primos homines 
+          pec<lb break="no" ed="#P" n="82"/>casse prima feria sexta sequente post illam, in
+          <lb ed="#P" n="83"/>qua creati sunt, id est, post octo dies, quos
+          <lb ed="#P" n="84"/>fere totos in Paradiso feliciter vixerunt: et
+          <lb ed="#P" n="85"/>ducitur duplici conjectura: Una est, quia 
+          ve<lb break="no" ed="#P" n="86"/>risimile est, Christum fuisse incarnatum, et
+          <lb ed="#P" n="87"/>mortuum in illo die, in quo Adam peccavit, et
+          <lb ed="#P" n="88"/>ejectus est e Paradiso. Altera est, quia hoc
+          <lb ed="#P" n="89"/>modo salvatur sententia Patrum dicentium
+          <lb ed="#P" n="90"/>Adamum peccasse eodem die, quo fuit 
+          condi<lb break="no" ed="#P" n="91"/>tus: intelligi enim potest, de eodem non 
+          nu<lb break="no" ed="#P" n="92"/>mero, sed quasi specie, seu simili in ordine
+          <lb ed="#P" n="93"/>feriarum hebdomadae. Sed neutra conjectura
+          <lb ed="#P" n="94"/>suadet. Quia satis est, quod Christus eodem die
+          <lb ed="#P" n="95"/>conceptus et mortuus fuerit, propter 
+          recrean<lb break="no" ed="#P" n="96"/>dum hominem, quo die ipse fuit conditus. Et
+          <lb ed="#P" n="97"/>si qui sunt Patres, dicentes Adam peccasse 
+          eo<lb break="no" ed="#P" n="98"/>dem die, in quo creatus est, de eodem numero
+          <lb ed="#P" n="99"/>aperte loquuntur, ut patet ex verbis Irenaei 
+          su<lb break="no" ed="#P" n="100"/>pra citatis, et aliis. Aliunde vero obstat ilh
+          <lb ed="#P" n="101"/>existimationi, quo Patres sequenter docent,
+          <lb ed="#P" n="102"/>Adam et Evam in Paradiso virgines 
+          perman<lb break="no" ed="#P" n="103"/>sisse: et specialiter tradit Hieronymus, ep. 22,
+          <lb ed="#P" n="104"/>de Custod. virg. ad Eustoch.. et lib. 1, contra
+          <lb ed="#P" n="105"/>Jovinian., et Augustinus, d. serm. 65, deTemp.
+          <lb ed="#P" n="106"/>et in quaestionibus ex veter. Test. illi 
+          attribu<lb break="no" ed="#P" n="107"/>tis, q. 8, et lib. 9, Gen. ad lit., cap. 4, 
+          ubira<lb break="no" ed="#P" n="108"/>tionem reddit: Quia moa creata muliere, 
+          prius<lb break="no" ed="#P" n="109"/>quam coirent, facta est illa transgressio, cujus
+          <lb ed="#P" n="110"/>merito de loco voluptatis eaierunt. Quae ratio
+          <pb ed="#P" n="373"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non congruit, si octo dies integros in Paradiso
+          <lb ed="#P" n="2"/>innocentes extiterunt. Quod si dicatur: ideo
+          <lb ed="#P" n="3"/>non convenisse, quia expectabant divinam
+          <lb ed="#P" n="4"/>monitionem, ut ibidem objicit Augustinus.
+          <lb ed="#P" n="5"/>Respondemus imprimis cum eodem Augnustino,
+          <lb ed="#P" n="6"/>lib. 11, c. H, id sine ratione fictum esse. VNam
+          <lb ed="#P" n="7"/>illud tunc legitimum esset, cum primum fieri
+          <lb ed="#P" n="8"/>potuisset. Est ergo verisimilius quod Abulensis
+          <lb ed="#P" n="9"/>supra, conjectat, peccasse primos parentes 
+          al<lb break="no" ed="#P" n="10"/>tera die, post creationem, et eodem die fuisse
+          <lb ed="#P" n="11"/>ejectos. Neque obstat quod illa fuerit dies 
+          sab<lb break="no" ed="#P" n="12"/>bati, quia Deus in eo requievit ab opere 
+          crea<lb break="no" ed="#P" n="13"/>tionis, non gubernationis: et ideo merito 
+          po<lb break="no" ed="#P" n="14"/>tuit in eo justum judicium cum misericordia
+          <lb ed="#P" n="15"/>conjunctum exercere.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

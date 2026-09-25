@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="325"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y08151"><!-- t2l4prae -->
+        <head xml:id="szdada-y08151-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-y08151-d1e103">
+          <pb ed="#P" n="325"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER QUARTUS
+          <lb ed="#P" n="2"/>DE AMISSIONE STATUS
+          <lb ed="#P" n="3"/>INNOCENTIAE.
+        </p>
+        <p xml:id="szdada-y08151-d1e116">
+          <lb ed="#P" n="4"/>Cum experimento satis nobis sit notum 
+          ca<lb break="no" ed="#P" n="5"/>rere homines illo felici statu, quem superiori
+          <lb ed="#P" n="6"/>libro descripsimus: et aliquando habuisse,
+          <lb ed="#P" n="7"/>secundum fidei doctrinam ostendimus. Ideo
+          <lb ed="#P" n="8"/>necessarium est inquirere, et quantum status
+          <lb ed="#P" n="9"/>ille duraverit, et quomodo amissus fuerit 
+          ex<lb break="no" ed="#P" n="10"/>plicare. Supponimus autem statum illum non
+          <lb ed="#P" n="11"/>potuisse, nisi per peccatum amitti: quia dona
+          <lb ed="#P" n="12"/>Dei sunt sine poenitentia, et beneficium illud
+          <lb ed="#P" n="13"/>tantum sub conditione servandi divinum 
+          prae<lb break="no" ed="#P" n="14"/>ceptum datum est, ut Gen. 2 et 3, manifeste
+          <lb ed="#P" n="15"/>colligitur. Declarabimus ergo quale fuerit 
+          pec<lb break="no" ed="#P" n="16"/>catum illud, et quando, et quomodo 
+          commis<lb break="no" ed="#P" n="17"/>sum fuerit: et in fine aliquid de illius 
+          remis<lb break="no" ed="#P" n="18"/>sione attingemus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

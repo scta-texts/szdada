@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="753"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y18518"><!-- t3l5prae -->
+        <head xml:id="szdada-y18518-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-y18518-d1e103">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="26"/>LIBER QUINTUS
+          <lb ed="#P" n="27"/>DE POTENTIA APPETENDI
+          <lb ed="#P" n="28"/>TAM IN COMMUNI, QUAM IN SPECIALI, AC LOCO MOVENDI.
+        </p>
+        <p xml:id="szdada-y18518-d1e114">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="29"/>Quinque distinxit Aristoteles, in principio
+          <lb ed="#P" n="30"/>secundi libri, de Anima potentiarum animae
+          <lb ed="#P" n="31"/>genera, ex quibus tria sunt a nobis explicata,
+          <lb ed="#P" n="32"/>scilicet potentiae, vegetativae, sensitivae et 
+          in<lb break="no" ed="#P" n="33"/>tellectivae: superest, ut de potentiis appetitivis
+          <lb ed="#P" n="34"/>dicamus, atque adeo de potentia motiva 
+          se<lb break="no" ed="#P" n="35"/>cundum locum, quae cum appetitivis magnam
+          <lb ed="#P" n="36"/>affinitatem habet, de quibus idem Aristoteles
+          <lb ed="#P" n="37"/>indistincte egit in reliqua parte tertiide Anima,
+          <lb ed="#P" n="38"/>methodice vero D. Thomas, 1 part., aquaest. 80
+          <lb ed="#P" n="39"/>et ultra, aliique Scholastici Christiani.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

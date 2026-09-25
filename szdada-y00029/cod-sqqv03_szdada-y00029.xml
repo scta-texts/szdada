@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y00029"><!-- t2l1c1 -->
+        <head xml:id="szdada-y00029-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-y00029-Hd1e103" type="question-title">Utrum mundus per propriam creationem esse coeperit</head>
+        <p xml:id="szdada-y00029-d1e106">
+          <lb ed="#P" n="47"/>CAPUT I.
+          <lb ed="#P" n="48"/>UTRUM MUNDUS PER PROPRIAM CREATIONEM ESSE
+          <lb ed="#P" n="49"/>COEPERIT.
+        </p>
+        <p xml:id="szdada-y00029-d1e115">
+          <lb ed="#P" n="50"/>1. Partis negantis argumentum primwum.—
+          <lb ed="#P" n="51"/>Secundum. — Ratio dubitandi imprimis est,
+          <lb ed="#P" n="52"/>quia hic praecipue de hoc mundo visibili et
+          <lb ed="#P" n="53"/>corporali tractamus, sive in eo Angeli tanquam
+          <lb ed="#P" n="54"/>partes in toto contineantur, sive non, de quo
+          <lb ed="#P" n="55"/>postea non nihil attingemus. At vero corpora
+          <lb ed="#P" n="56"/>non potuerunt per propriam creationem fieri:
+          <lb ed="#P" n="57"/>ergo nec mundus. Consequentia nota est, qui
+          <lb ed="#P" n="58"/>esto concedamus, res spirituales fieri per pro
+          <lb ed="#P" n="59"/>priam creationem, ut supra visum est, id noi
+          <lb ed="#P" n="60"/>est satis, ut mundus creari dicatur. Sicut lice.
+          <lb ed="#P" n="61"/>anima rationalis per propriam creationem fiat,
+          <lb ed="#P" n="62"/>id non est satis, ut homo creetur, ita enim est
+          <lb ed="#P" n="63"/>visibilis mundus, sicut homo. Probatur ergo
+          <lb ed="#P" n="64"/>minor, quia omnia corpora materia et forma
+          <lb ed="#P" n="65"/>constant, sed ex illis duabus partibus neutra
+          <lb ed="#P" n="66"/>potest fieri per creationem: ergo nec totum.
+          <lb ed="#P" n="67"/>Consequentia videtur nota, quia totum non 
+          dis<lb break="no" ed="#P" n="68"/>tinguitur a partibus: ergo si ambae partes non
+          <lb ed="#P" n="69"/>possunt creari, nec totum poterit. Major ex
+          <lb ed="#P" n="70"/>Philosophia supponitur. Minor autem probatur
+          <lb ed="#P" n="71"/>primo de materia, quia materia secundum se,
+          <lb ed="#P" n="72"/>est pura potentia, et non habet esse, nisi a
+          <lb ed="#P" n="73"/>forma, vel per formam, seu dependenter a
+          <lb ed="#P" n="74"/>forma: ergo secundum se non potest esse 
+          ter<lb break="no" ed="#P" n="75"/>minus creationis, cum creatio per se tendat ad
+          <lb ed="#P" n="76"/>dandum esse, et entitatem actualem 
+          consti<lb break="no" ed="#P" n="77"/>tuendam. De forma vero probatur, quia formae
+          <lb ed="#P" n="78"/>corporales per se pendent in fieri, et esse a
+          <lb ed="#P" n="79"/>materia: ergo non possunt creari, sed educi
+          <lb ed="#P" n="80"/>de potentia materiae. Unde argumentor 
+          secun<lb break="no" ed="#P" n="81"/>do, quia in narratione, Genes. 1, nihil est,
+          <lb ed="#P" n="82"/>quod nos dicere cogat, Deum per propriam
+          <pb ed="#P" n="2"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>creationem mundum hunc visibilem creasse :
+          <lb ed="#P" n="2"/>nam si aliquid esset, maxime illud, 7n 
+          princi<lb break="no" ed="#P" n="3"/>pio creavit Deus caelum et terram. At ibi 
+          ver<lb break="no" ed="#P" n="4"/>bum creavit, non significat propriam et 
+          rigo<lb break="no" ed="#P" n="5"/>rosam productionem ex nihilo: ergo. Probatur
+          <lb ed="#P" n="6"/>minor, tum quia illud verbum de se generale
+          <lb ed="#P" n="7"/>est ad quamcumque productionem alicujus
+          <lb ed="#P" n="8"/>operis, praesertim novi et eximii, ut notavit
+          <lb ed="#P" n="9"/>Hieronymus in id ad Ephes. 4: Induite novum
+          <lb ed="#P" n="10"/>hominem, qui secundum Deum creatus est
+          <lb ed="#P" n="11"/>tum etiam, quia in operibus omnium illorum
+          <lb ed="#P" n="12"/>sex dierum eodem verbo creandi Moyses 
+          uti<lb break="no" ed="#P" n="13"/>tur, cum tamen constet, non omnia illa facta
+          <lb ed="#P" n="14"/>esse per propriam creationem, ut videbimus.
+          <lb ed="#P" n="15"/>Unde etiam indifferenter utitur verbo fecit,
+          <lb ed="#P" n="16"/>et verbo creavit, et Septuaginta in illis locis
+          <lb ed="#P" n="17"/>idem verbum, inocíncsev ponunt, et in versione
+          <lb ed="#P" n="18"/>Latina eorumdem Septuaginta semper verbum
+          <lb ed="#P" n="19"/>fecit tam in illis primis, quam in caeteris 
+          poni<lb break="no" ed="#P" n="20"/>tur: ergo.
+        </p>
+        <p xml:id="szdada-y00029-d1e237">
+          <lb ed="#P" n="21"/>2. Quid Aristoteles circa mundi existentiam
+          <lb ed="#P" n="22"/>sensisse putetur. — Quid item Plato. —In hoc
+          <lb ed="#P" n="23"/>puncto varii errores referri et refutari possunt.
+          <lb ed="#P" n="24"/>Primus est antiquorum philosophorum, qui ex
+          <lb ed="#P" n="25"/>nihilo nihil fieri posse crediderunt. Unde tulit
+          <lb ed="#P" n="26"/>Aristoteles 1, Physic., text. 33 et 3, decoelo,
+          <lb ed="#P" n="27"/>text. 35, mundum esse aeternum, et per 
+          so<lb break="no" ed="#P" n="28"/>lam generationum et corruptionum 
+          succes<lb break="no" ed="#P" n="29"/>sionem conservari ; unde autem esse habuerit
+          <lb ed="#P" n="30"/>in aeternitate, nunquam explicavit. Et ideo
+          <lb ed="#P" n="31"/>multi putant, consequenter sensisse, mindum
+          <lb ed="#P" n="32"/>non fuisse factum, vel productum ab alio, sed
+          <lb ed="#P" n="33"/>ex se sempiternum esse habuisse. Alii vero
+          <lb ed="#P" n="34"/>credunt eum non ignorasse dependentiam
+          <lb ed="#P" n="35"/>aeternam totius universi ab auctore Deo 
+          tan<lb break="no" ed="#P" n="36"/>quam a principio, a quo veluti per naturalem
+          <lb ed="#P" n="37"/>emanationem profluxerit. Plato vero, ut testes
+          <lb ed="#P" n="38"/>sunt Athanasius, lib. de Incarnatione Verbi, in
+          <lb ed="#P" n="39"/>principio, et Epiphanius, haeres 6, dixit, Deum
+          <lb ed="#P" n="40"/>ex materia praejacente, et infecta mundum
+          <lb ed="#P" n="41"/>condidisse, ac subinde non per propriam 
+          crea<lb break="no" ed="#P" n="42"/>tionem, sed per quamdam formationem ( ut
+          <lb ed="#P" n="43"/>sic dicam) mundum produxisse. Quod ex 
+          eo<lb break="no" ed="#P" n="44"/>dem principio quod ex nihilo nihil fit intulisse
+          <lb ed="#P" n="45"/>videtur. Ex quo fit etiam consequens, ut 
+          An<lb break="no" ed="#P" n="46"/>gelos posuerit eodem modo factos, ac subinde
+          <lb ed="#P" n="47"/>materiales et corporeos, vel si immateriales
+          <lb ed="#P" n="48"/>esse credidit, increatos, et a se habentes esse
+          <lb ed="#P" n="49"/>illos cogitasse. Idemque de anima rationali
+          <lb ed="#P" n="50"/>juxta illum errorem dicendum esset.
+        </p>
+        <p xml:id="szdada-y00029-d1e306">
+          <lb ed="#P" n="51"/>3. Auctoris judicium de Aristotelis doctrina
+          <lb ed="#P" n="52"/>in preesenti quaestione. —Sed contra hunc 
+          er<lb break="no" ed="#P" n="53"/>rorem in Metaphyssica satis a nobis dictum est,
+          <lb ed="#P" n="54"/>imprimis disput. zo, sect. 1, ubi necessitatem
+          <lb ed="#P" n="55"/>creationis ostendimus, et num. 23, de Aristo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>telis sententia nonnulla diximus, ostendentes
+          <lb ed="#P" n="57"/>ipsum lubrice, vel etiam inconstanter fuisse
+          <lb ed="#P" n="58"/>locutum. Quia principium illud, Ez nihilo 
+          ni<lb break="no" ed="#P" n="59"/>lil fit, cum vera creatione sive libere, et in
+          <lb ed="#P" n="60"/>tempore facta, sive aeterna, et per quamdam
+          <lb ed="#P" n="61"/>naturalem emanationem cogitata, subsistere
+          <lb ed="#P" n="62"/>non potest. Unde aliqui dicunt retractasse
+          <lb ed="#P" n="63"/>Aristotelem principium illud, Ez nihilo nihil
+          <lb ed="#P" n="64"/>fit, in quodam opusculo de Xenocrate, 
+          Zeno<lb break="no" ed="#P" n="65"/>ne et Gorgia. Sed inter opera Aristotelis, 
+          qui<lb break="no" ed="#P" n="66"/>bus utor, illud non continetur, nec videre
+          <lb ed="#P" n="67"/>illud potui, existimoque Aristotelis non esse.
+          <lb ed="#P" n="68"/>Illo vero admisso fortasse dici posset, vel 
+          du<lb break="no" ed="#P" n="69"/>bitando, et problematice disputando dixisse,
+          <lb ed="#P" n="70"/>posse principium illud negari, vel certe 
+          ne<lb break="no" ed="#P" n="71"/>gasse illud quoad emanationem naturalem,
+          <lb ed="#P" n="72"/>etiamsi in caeteris propriis actionibus illud 
+          ad<lb break="no" ed="#P" n="73"/>miserit ; quod qua consecutione possit dici, vel
+          <lb ed="#P" n="74"/>qua ratione subsistere possit, non video. 
+          Dein<lb break="no" ed="#P" n="75"/>de, disp. 13, sect. 4, num. 15, contra Platonem
+          <lb ed="#P" n="76"/>ostendimus materiam esse factam a Deo. Unde
+          <lb ed="#P" n="77"/>Marsilius Ficinus in Compendio Timaei Platonis,
+          <lb ed="#P" n="78"/>cap. 9, et seq., excusare conatur Platonem ab
+          <lb ed="#P" n="79"/>illo errore, dicens, Platonem docuisse 
+          mate<lb break="no" ed="#P" n="80"/>riam esse factam a Deo immediatius, quam
+          <lb ed="#P" n="81"/>res caeteras. Sed magis credendum est 
+          Atha<lb break="no" ed="#P" n="82"/>nasio, et aliis antiquioribus Patribus quos. dicta
+          <lb ed="#P" n="83"/>disput. 13, et in disp. 20, sect. 1, num. 17,
+          <lb ed="#P" n="84"/>allegavi, qui non solum Platoni, sed etiam aliis
+          <lb ed="#P" n="85"/>Philosophis Platone antiquioribus, et 
+          poste<lb break="no" ed="#P" n="86"/>rioribus sectatoribus errorem illum tribuunt :
+          <lb ed="#P" n="87"/>ibique in numeris sequentibus contrariam 
+          ve<lb break="no" ed="#P" n="88"/>ritatem ratione et auctoritate Patrum 
+          confir<lb break="no" ed="#P" n="89"/>mavimus.
+        </p>
+        <p xml:id="szdada-y00029-d1e395">
+          <lb ed="#P" n="90"/>4. Error alter circa substantiorum 
+          spiri<lb break="no" ed="#P" n="91"/>tualium productionem. — Secundo loco, quia
+          <lb ed="#P" n="92"/>mundus spiritibus et corporibus constat, 
+          re<lb break="no" ed="#P" n="93"/>ferri potest error dicentium res spirituales,
+          <lb ed="#P" n="94"/>quales sunt Angeli, non esse a DEO creatas,
+          <lb ed="#P" n="95"/>quod antiquos Philosophos sensisse probabile
+          <lb ed="#P" n="96"/>est, et praecipue tribuit solet Commentatori.
+          <lb ed="#P" n="97"/>Ex novis autem haereticis errorem docuisse
+          <lb ed="#P" n="98"/>Hermanum, referunt Castro, verbo Angelus
+          <lb ed="#P" n="99"/>et Prateolus, lib. S, de Sect. haeret., cap. 10.
+          <lb ed="#P" n="100"/>Fundabatur hic haereticus solum in hoc, quod
+          <lb ed="#P" n="101"/>in narratione Genesis, vel inScriptura nulla fit
+          <lb ed="#P" n="102"/>mentio creationis Angelorum. Sed 
+          distinguen<lb break="no" ed="#P" n="103"/>da est veritas certa a quaestione dubia. Quod
+          <lb ed="#P" n="104"/>enim Angeli creati a Deo sint, non solum est
+          <lb ed="#P" n="105"/>de fide certum, sed etiam inter articulos fidei
+          <lb ed="#P" n="106"/>in Symbolo fidei Nicaeno omnibus ad 
+          creden<lb break="no" ed="#P" n="107"/>dum propositum in illis verbis, Vasibilium 
+          om<lb break="no" ed="#P" n="108"/>niwn et invisibilium ; nam invisibilium 
+          no<lb break="no" ed="#P" n="109"/>mine substantiae intellectuales praecipue 
+          intel<lb break="no" ed="#P" n="110"/>liguntur, ut recte sensit Sophronius in sua fidei
+          <pb ed="#P" n="3"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>professione, quae in sexta Synodo Constanti 
+          no<lb break="no" ed="#P" n="2"/>politana, actor. 11, habetur, et Concilium 
+          Late<lb break="no" ed="#P" n="3"/>ranense in capite Firmiter expressius dixit:
+          <lb ed="#P" n="4"/>Utrumque spiritualem et corporalem creaturam
+          <lb ed="#P" n="5"/>de nililo condidit. Quod passim etiam omnes
+          <lb ed="#P" n="6"/>Patres docent, quos in superiori tract., l. 1,a
+          <lb ed="#P" n="7"/>c. 2, late retuli. Cum ergo dogma hoc 
+          indubita<lb break="no" ed="#P" n="8"/>tum sit, dubitari potest, an in verbis illis Moysi:
+          <lb ed="#P" n="9"/>In principio creavit Deus colum et terram,
+          <lb ed="#P" n="10"/>comprehensum sit. Et de hoc postea 
+          videbi<lb break="no" ed="#P" n="11"/>mus, interim supponentes, quidquid sit illo
+          <lb ed="#P" n="12"/>Genesis loco, non esse dubium, quin in aliis
+          <lb ed="#P" n="13"/>Scripturae locis expresse illa veritas tradita sit,
+          <lb ed="#P" n="14"/>ut Psalm. 103 et 148, ad Colos. 1, et ad
+          <lb ed="#P" n="15"/>Hebr. 1, et aliis, quae in dicto cap. 2, lib. 1
+          <lb ed="#P" n="16"/>praecedentis tractatus expendimus. Unde satis
+          <lb ed="#P" n="17"/>et dictus error, et fundamentum ejus 
+          impro<lb break="no" ed="#P" n="18"/>bata sunt.
+        </p>
+        <p xml:id="szdada-y00029-d1e486">
+          <lb ed="#P" n="19"/>5. Tertius error principalis varios errandi
+          <lb ed="#P" n="20"/>modos complectens.— Primus errandi modus.—
+          <lb ed="#P" n="21"/>Tertio circa mundi visibilis, seu corporum
+          <lb ed="#P" n="22"/>creationum opportunum erit hic breviter 
+          anti<lb break="no" ed="#P" n="23"/>quos errores, qui in hac materia fuerunt,
+          <lb ed="#P" n="24"/>commemorare, tum quia tractando de 
+          crea<lb break="no" ed="#P" n="25"/>tione in Metaphysica, id in theologiam 
+          remi<lb break="no" ed="#P" n="26"/>simus, tum etiam, quia hujus loci proprium
+          <lb ed="#P" n="27"/>esse videtur, in quo de creatione mundi 
+          visi<lb break="no" ed="#P" n="28"/>bilis praecipue tractamus. Primo ergo 
+          Mani<lb break="no" ed="#P" n="29"/>chaeus duo posuit prima principia improducta,
+          <lb ed="#P" n="30"/>et aeterna, quae bonum et malum Deum 
+          appel<lb break="no" ed="#P" n="31"/>lavit, et malum Deum corporum fecit 
+          aucto<lb break="no" ed="#P" n="32"/>rem. Ita sumunt aliqui ex Augustino, haeres. 46.
+          <lb ed="#P" n="33"/>Ille vero solum dicit, Manichaum dixisse,
+          <lb ed="#P" n="34"/>mundum esse bonis et malis rebus, seu 
+          sub<lb break="no" ed="#P" n="35"/>stantiis commixtum, et bonas esse a bono Deo,
+          <lb ed="#P" n="36"/>malas vero a Deo malo, qui per 
+          adminixtio<lb break="no" ed="#P" n="37"/>nem malarum bonas maculavit. Clarius 
+          Epi<lb break="no" ed="#P" n="38"/>phanius, haeres. 66, ait Manichaeum corpora
+          <lb ed="#P" n="39"/>esse creata a malo Deo tradidisse. Et idem 
+          in<lb break="no" ed="#P" n="40"/>dicat Theodoretus, lib. 1, Haeretic. fabular.,
+          <lb ed="#P" n="41"/>cap. ultim., apertius Theophylactus, in cap. 6
+          <lb ed="#P" n="42"/>Joan., in princ. Et idem significat Concilium
+          <lb ed="#P" n="43"/>Bracharense per plures canones, in quibus 
+          Ma<lb break="no" ed="#P" n="44"/>nichaeo fere semper Priscillianum conjungit.
+          <lb ed="#P" n="45"/>De quo ait Isidorus, lib. 8, Origenes, cap. 5, ex
+          <lb ed="#P" n="46"/>Gnosticis et Manichaeis novum dogma in 
+          His<lb break="no" ed="#P" n="47"/>pania composuisse. Quod etiam sumitur ex
+          <lb ed="#P" n="48"/>Leone papa, Epist. 91, alias 93, ad Toribium,
+          <lb ed="#P" n="49"/>ubi utriusque damnat errorem. Eumdem 
+          erro<lb break="no" ed="#P" n="50"/>rem postea excitarunt. Albanenses, utrefert 
+          An<lb break="no" ed="#P" n="51"/>tonius, 4 part. Theolog., tit. 11, 55, et dubitat
+          <lb ed="#P" n="52"/>an isti sint iidem, qui Albigenses, qui, tempore
+          <lb ed="#P" n="53"/>Innocentii III, orti sunt Tolosae, et a sancto
+          <lb ed="#P" n="54"/>Dominico expugnati, ut idem latius refert 3,
+          <lb ed="#P" n="55"/>part. Histor., tit. 19, cap. 1, eisque hic error
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>communiter tribuitur, ut patet ex Prateolo,
+          <lb ed="#P" n="57"/>Sandero, et aliis, qui referunt, istos distincte
+          <lb ed="#P" n="58"/>dixisse malum Deum creasse omnia corpora,
+          <lb ed="#P" n="59"/>sicut bonum omnes animas. Additque Antonius
+          <lb ed="#P" n="60"/>postea eumdem errorem in Italia repullulasse,
+          <lb ed="#P" n="61"/>ejusque occasione D. Petrum martyrem 
+          occi<lb break="no" ed="#P" n="62"/>sum fuisse.
+        </p>
+        <p xml:id="szdada-y00029-d1e586">
+          <lb ed="#P" n="63"/>6. Secundus modus errandi.— Tertius modus.
+          <lb ed="#P" n="64"/>—Ante hos vero omnes fuit Cerdon, qui etiam
+          <lb ed="#P" n="65"/>duos Deos introducebat, bonum et malum, et
+          <lb ed="#P" n="66"/>hunc non tantum corporum, sed etiam 
+          crea<lb break="no" ed="#P" n="67"/>turarum omnium auctorem faciebat, ut videre
+          <lb ed="#P" n="68"/>licet in lrenaeo, lib. 1, cap. 28, Tertulliano, de
+          <lb ed="#P" n="69"/>Praescript., cap. 51, Eusebio, l. 4, hist., c. 10,
+          <lb ed="#P" n="70"/>Epiphanio, Augustino et aliis. Et idem docuit
+          <lb ed="#P" n="71"/>Apelles, solumque differebat, quia malum
+          <lb ed="#P" n="72"/>Deum a bono esse factum, postea vero malum
+          <lb ed="#P" n="73"/>sine boni cooperatione mundum visibilem 
+          fe<lb break="no" ed="#P" n="74"/>cisse asserebat. Ita referunt Epiphanius, 
+          hae<lb break="no" ed="#P" n="75"/>res. 44, et Augustinus, in 33. Ante hos fuerunt
+          <lb ed="#P" n="76"/>Gnostici, qui licet dicerent Deum creasse
+          <lb ed="#P" n="77"/>Angelos, nihilominus mundum hunc visibilem
+          <lb ed="#P" n="78"/>creatum esse ab Angelis asseruerunt. In quo
+          <lb ed="#P" n="79"/>errore convenerunt Simon Magus, Basilides,
+          <lb ed="#P" n="80"/>Saturninus (alias Saturnilus), Carpocrates, et
+          <lb ed="#P" n="81"/>Cherintus, horumque sectatores, licet illum
+          <lb ed="#P" n="82"/>errorem confinxerint variis modis omnino 
+          fa<lb break="no" ed="#P" n="83"/>bulosis, in quibus enarrandis immorari 
+          super<lb break="no" ed="#P" n="84"/>fluum duco. Legatur lraeneus, lib. 1, cap. 20,
+          <lb ed="#P" n="85"/>et seq., Tertullianus, lib. de Praescrip., haeres.,
+          <lb ed="#P" n="86"/>c. 46, et sequentibus, Epiphanius, haeres. 20,
+          <lb ed="#P" n="87"/>et seq., Theodoretus, lib. Haeret., fabular.,
+          <lb ed="#P" n="88"/>Augustinus, Damascenus, Isidorus, 
+          Philastri<lb break="no" ed="#P" n="89"/>nus et alii, qui catalogos haeresum 
+          scripse<lb break="no" ed="#P" n="90"/>runt, et Eusebius, lib. 2, Histor., cap. 12, et
+          <lb ed="#P" n="91"/>lib. 3, cap. 20.
+        </p>
+        <p xml:id="szdada-y00029-d1e651">
+          <lb ed="#P" n="92"/>7. Primus errandi modus refutatur.—
+          Im<lb break="no" ed="#P" n="93"/>pugnantur reliqui modi errandi.—Contra 
+          prio<lb break="no" ed="#P" n="94"/>rem errandi modum, de duobus principiis bono
+          <lb ed="#P" n="95"/>et malo disputare, aut eum impugnare 
+          super<lb break="no" ed="#P" n="96"/>vacaneum videtur, tum quia est mera fabula,
+          <lb ed="#P" n="97"/>et deliramentum sine ullo fundamento, tum
+          <lb ed="#P" n="98"/>etiam, quia a praedictis Patribus copiosissime
+          <lb ed="#P" n="99"/>refutatur. Videri potest Augustinus, lib. 1,
+          <lb ed="#P" n="100"/>de Gen., contr. Manichaeos, per totum, 
+          praeser<lb break="no" ed="#P" n="101"/>tim, cap. 16 et 21, et lib. de Natura boni, ubi
+          <lb ed="#P" n="102"/>ostendit, quidquid est, quatenus est, aliquid
+          <lb ed="#P" n="103"/>boni esse, et ideo non nisi a summo bono esse
+          <lb ed="#P" n="104"/>posse, ut cap. 24, concludit, et optime, lib. 1,
+          <lb ed="#P" n="105"/>de Civitate, a cap. 16 usque ad 22, et tract. 1,
+          <lb ed="#P" n="106"/>in Joan., exponens illa verba: Omnia per 
+          ip<lb break="no" ed="#P" n="107"/>sum facta sunt, et sine ipso factum est nihil,
+          <lb ed="#P" n="108"/>et optime Ambrosius, lib. 1. Exaem., cap. S,
+          <lb ed="#P" n="109"/>et lib. 3, cap. 9, et Cyrillus Hierosoly mitanus,
+          <lb ed="#P" n="110"/>cateches. 6, illuminatur: ubi recte dicit, in
+          <pb ed="#P" n="4"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>verbis repugnantiam involvere, qui aliquem
+          <lb ed="#P" n="2"/>Deum, et malum dicunt, cum summa bonitas
+          <lb ed="#P" n="3"/>sit de ratione Dei. Contra alios vero errores
+          <lb ed="#P" n="4"/>eorum, qui Angelos faciunt proximam 
+          crea<lb break="no" ed="#P" n="5"/>tionis corporum causam, disputat bene Cyrillus,
+          <lb ed="#P" n="6"/>lib. 2, contr. Julianum, circa finem, et aliquid
+          <lb ed="#P" n="7"/>de hac re dictum est in superiori tract., lib. 4,
+          <lb ed="#P" n="8"/>tractando de potestate Angelorum ad 
+          immu<lb break="no" ed="#P" n="9"/>tandam corporalem creaturam. Et in 
+          Metaphy<lb break="no" ed="#P" n="10"/>sica, disp. 20, sect. 2, ostensum est creaturam
+          <lb ed="#P" n="11"/>non posse habere propriam creandi virtutem.
+          <lb ed="#P" n="12"/>Adde, nullam esse rationem fingendi, 
+          crea<lb break="no" ed="#P" n="13"/>tionem corporum potiusquamspirituum per 
+          An<lb break="no" ed="#P" n="14"/>gelos factam esse, ut in sequentibus dicemus.
+        </p>
+        <p xml:id="szdada-y00029-d1e729">
+          <lb ed="#P" n="15"/>8. Quartus error Origeni attributus et ab
+          <lb ed="#P" n="16"/>Augustino confutatus.—CcCuarto et ultimo 
+          no<lb break="no" ed="#P" n="17"/>tari hic potest error Origenis, quem 
+          Augusti<lb break="no" ed="#P" n="18"/>nus, dicto lib. de Civit., a cap. 23, proxime
+          <lb ed="#P" n="19"/>post praecedentem Manichaei errorem 
+          confuta<lb break="no" ed="#P" n="20"/>vit. Dixit enim Origenes Deum non per se,
+          <lb ed="#P" n="21"/>nec ex primaria intentione corpora, et 
+          visibi<lb break="no" ed="#P" n="22"/>les creaturas produxisse, sed prius creasse 
+          ani<lb break="no" ed="#P" n="23"/>mas et spirituales creaturas, et occasione 
+          pec<lb break="no" ed="#P" n="24"/>cati illarum corpora creasse, quae essent 
+          velu<lb break="no" ed="#P" n="25"/>ti ergastula, carceres, in quibus animae et
+          <lb ed="#P" n="26"/>spiritus peccantes detruderentur, ut ibi 
+          puni<lb break="no" ed="#P" n="27"/>rentur vel purgarentur. Hunc errorem de
+          <lb ed="#P" n="28"/>animabus et aliquibus aliis spiritibus tradit
+          <lb ed="#P" n="29"/>Origenes, lib. 1, Periar., cap. 7 et S, ubi ait
+          <lb ed="#P" n="30"/>animas esse ante corpora, et pro diversitate
+          <lb ed="#P" n="31"/>meritorum diversis corporibus infundi, quod
+          <lb ed="#P" n="32"/>etiam de spiritibus informantibus sidera juxta
+          <lb ed="#P" n="33"/>suam opinionem afhlirmat. Et in lib. 2, cap. 8
+          <lb ed="#P" n="34"/>et 9, juxta merita vitae prioris dicit animas
+          <lb ed="#P" n="35"/>diversis corporibus in praesenti vita mancipari,
+          <lb ed="#P" n="36"/>quod iterum, lib. 3, cap. 1, repetit. Et ita hunc
+          <lb ed="#P" n="37"/>errorem, praeter Augustinum, loco citato, 
+          tri<lb break="no" ed="#P" n="38"/>buunt Origeni Sophronius, in Epistola probata
+          <lb ed="#P" n="39"/>in VI Synodo, actor. 11, Epiphanius, in Epist.,
+          <lb ed="#P" n="40"/>ad Joan. Episcopum Hierosoly mitanum, quae in
+          <lb ed="#P" n="41"/>ejus operibus legitur, et inter Epistolas 
+          Hhero<lb break="no" ed="#P" n="42"/>nymi est 60, et Cyrillus Alexandrinus, in l. 1,
+          <lb ed="#P" n="43"/>in Joan., cap. 9, et Theophylus Alexandrinus,
+          <lb ed="#P" n="44"/>Epistol. 1 Paschali, Anastasius Synaita, l. 11,
+          <lb ed="#P" n="45"/>Exaemer., circa finem, ubi refert Methodium
+          <lb ed="#P" n="46"/>variis Scripturae testimoniis illum errorem 
+          im<lb break="no" ed="#P" n="47"/>pugnasse. Idem Origeni tribuit, et pene 
+          expli<lb break="no" ed="#P" n="48"/>cat Leontinus, lib. de Sextis, actor. 10, tom. 4,
+          <lb ed="#P" n="49"/>Bibliothecae, Hierony mus etiam, licet allis locis,
+          <lb ed="#P" n="50"/>tacito nomine Origenis, hunc errorem referat,
+          <lb ed="#P" n="51"/>ut Epistol. 8, ad Demetriadem, in finem, et
+          <lb ed="#P" n="52"/>Epistol. 27, quae est epitaphium Paublae, circa
+          <lb ed="#P" n="53"/>finem, et Epistol. 139 ad Cyprianum, et 
+          Epis<lb break="no" ed="#P" n="54"/>tol. 150, ad Hedibiam, quaest. 10, ubi ait, hoc
+          <lb ed="#P" n="55"/>esse Pythagorae, Platonis et Gentilium dogma,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quod aliqui sub nomine christiano in 
+          Eccle<lb break="no" ed="#P" n="57"/>siam introducere tentarunt. Et simili modo
+          <lb ed="#P" n="58"/>idem attigit in id ad Galat 1: Cum placuit ei,
+          <lb ed="#P" n="59"/>qui me segregavit ex utero, etc. Nihilominus in
+          <lb ed="#P" n="60"/>Apolog. contra Ruffinum quae est Epist. 66,
+          <lb ed="#P" n="61"/>ad Pammachium, post medium, aperte declarat
+          <lb ed="#P" n="62"/>illud fuisse dogma Origenis, quod aliis locis
+          <lb ed="#P" n="63"/>sine invidia nominis ejus improbavit. Unde
+          <lb ed="#P" n="64"/>Jeremias 28, Origenem intelligit, cum dicit:
+          <lb ed="#P" n="65"/>Delirat hoc loco allegoricus interpres. Et 
+          re<lb break="no" ed="#P" n="66"/>jecto errore, propter calumnias Ruftini, 
+          subjun<lb break="no" ed="#P" n="67"/>git: Compulit me tractator indoctus, et sectator
+          <lb ed="#P" n="68"/>calumnie Gruniane aperte ponere aliena vitia,
+          <lb ed="#P" n="69"/>qua prius cum dissimulatione dicebam.
+        </p>
+        <p xml:id="szdada-y00029-d1e854">
+          <lb ed="#P" n="70"/>9. In praedicto Origenis dogmate falsum 
+          prin<lb break="no" ed="#P" n="71"/>cipium continetur, et quadruplea error.—ln hoc
+          <lb ed="#P" n="72"/>vero Origenis dogmate quoddam falsum 
+          princi<lb break="no" ed="#P" n="73"/>pium, et multierrores ab Ecclesia damnati 
+          con<lb break="no" ed="#P" n="74"/>tinentur. Principium falsum est spirituales
+          <lb ed="#P" n="75"/>creaturas ante corporales fuisse a Deo conditas,
+          <lb ed="#P" n="76"/>quod licet ad dogmata aperte damnata non 
+          per<lb break="no" ed="#P" n="77"/>tineat nihilominus jam est improbabile, et a
+          <lb ed="#P" n="78"/>doctrina communiter ab Ecclesia recepta, et
+          <lb ed="#P" n="79"/>approbata alienum, ut in tractatu praecedenti,
+          <lb ed="#P" n="80"/>lib. 1, cap. 3, late diximus. Primus autem 
+          er<lb break="no" ed="#P" n="81"/>ror est animas hominum esse ejusdem 
+          na<lb break="no" ed="#P" n="82"/>turae cum Angelis, imo non esse nisi quosdam
+          <lb ed="#P" n="83"/>Angelos ex his, qui peccarunt, qui error satis
+          <lb ed="#P" n="84"/>impugnatur ex dictis in eodem lib. 1. 
+          Secun<lb break="no" ed="#P" n="85"/>dus, quod animae hominum ante corporea
+          <lb ed="#P" n="86"/>creatae sunt, quod est damnatum in Concilio
+          <lb ed="#P" n="87"/>Lateranensi, sub Leone X, sess. 8, et in VI
+          <lb ed="#P" n="88"/>Synodo, actor. 11, in Epistola Sophronii, et 
+          re<lb break="no" ed="#P" n="89"/>felletur latius intractatu sequenti. Tertius est,
+          <lb ed="#P" n="90"/>omnes animas, quae corporibus uniuntur, prius
+          <lb ed="#P" n="91"/>peccasse, quod non solum animae Christi, et
+          <lb ed="#P" n="92"/>Virginis sanctissimae injuriosum est, sed etiam
+          <lb ed="#P" n="93"/>est contra innocentiam primorum hominum
+          <lb ed="#P" n="94"/>ante peccatum, et contra generales locutiones
+          <lb ed="#P" n="95"/>Scripturae, Rom9: Cuin nondum quidquam boni,
+          <lb ed="#P" n="96"/>aut naliegissent, etccap. 5: Regnavit mors etiam
+          <lb ed="#P" n="97"/>in eos, qui non peccaverunt in similitudinem
+          <lb ed="#P" n="98"/>praeevaricationis Ade, et Joan. 9: Neque hic
+          <lb ed="#P" n="99"/>peccacit, neque parentes ejus, etc. Quartus est,
+          <lb ed="#P" n="100"/>quem Sophronius in dicta Epistola intulit,
+          <lb ed="#P" n="101"/>quod istorum corporum, quibus nunc sumus
+          <lb ed="#P" n="102"/>amicti, impudenter perimunt resurrectionem,
+          <lb ed="#P" n="103"/>quia potius ad poenam, quam ad praemium
+          <lb ed="#P" n="104"/>etiam in beatis pertineret. Et alia similia 
+          pos<lb break="no" ed="#P" n="105"/>sunt ex dicto errore inferri praeter ipsummet
+          <lb ed="#P" n="106"/>dogma de creatione corporum, quod solum
+          <lb ed="#P" n="107"/>occasione peccati, et in poenam ejus facta 
+          fue<lb break="no" ed="#P" n="108"/>rit, quod somniatum potius quam aliquo 
+          fun<lb break="no" ed="#P" n="109"/>damento assertum est, et contra Scripturam,
+          <lb ed="#P" n="110"/>ut mox videbimus.
+        </p>
+        <p xml:id="szdada-y00029-d1e945">
+          <pb ed="#P" n="5"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>10. Prima assertio d fide contra errores 
+          phi<lb break="no" ed="#P" n="2"/>losophorum. — Probatur primo em Scripturis.
+          <lb ed="#P" n="3"/>—JSecundo ex Concilio Lateranensi. — Omissis
+          <lb ed="#P" n="4"/>ergo erroribus, dicimus primo, Deum per 
+          ve<lb break="no" ed="#P" n="5"/>ram et propriam creationem, id est, 
+          effectio<lb break="no" ed="#P" n="6"/>nem ex nihilo mundum hunc visibilem in ejus
+          <lb ed="#P" n="7"/>principio condidisse. Assertio est de fide, ut
+          <lb ed="#P" n="8"/>communiter docent theologi cum Magistro,
+          <lb ed="#P" n="9"/>n 2, dist. 1, et D. Thomas, 1 part., quaest. 44,
+          <lb ed="#P" n="10"/>art. 1 et 2, et quaest. 45, art. 1 et 9, et quaest.
+          <lb ed="#P" n="11"/>65, art. 1, Hugo Victor, libr. 1, de Sacrament,
+          <lb ed="#P" n="12"/>part. 4, cap. 1. Qui omnes ita intellexerunt
+          <lb ed="#P" n="13"/>verbum creavit, in dictis verbis Genesis. Et
+          <lb ed="#P" n="14"/>probatur primo, quia ita in aliis Scripturae 
+          lo<lb break="no" ed="#P" n="15"/>cis explicatur, praesertim 2, Mach. 7: Peto, nate,
+          <lb ed="#P" n="16"/>ut aspicias ad celum et terram, et ad omnia,
+          <lb ed="#P" n="17"/>qua in eis sunt, et intelligas, quia ex nihilo 
+          fe<lb break="no" ed="#P" n="18"/>cit illa Deus, et hominum genus. Et sic etiam
+          <lb ed="#P" n="19"/>accipiendum est illud Ecclesiast. 18: Qui vivit
+          <lb ed="#P" n="20"/>in eternum, creavit omnia simul: nam creando
+          <lb ed="#P" n="21"/>omnia, non potuit ex aliquo facere, sic etiam
+          <lb ed="#P" n="22"/>dicitur Psalm. 32: 7/pse dixit, et facta sunt,
+          <lb ed="#P" n="23"/>ipse mandavit, et creata sunt, utique virtute
+          <lb ed="#P" n="24"/>solius imperii sui: Quia ita vocat ea, que non
+          <lb ed="#P" n="25"/>sunt, sicut ea, quee sunt, ut ad Roman. 4, 
+          di<lb break="no" ed="#P" n="26"/>citur; et ideo ex non ente, seu ex nihilo res in
+          <lb ed="#P" n="27"/>principio produxit, quod est proprie creare.
+          <lb ed="#P" n="28"/>Secundo ita definivit et declaravit verbum 
+          il<lb break="no" ed="#P" n="29"/>lud Concilium Lateranense sub Innocentio llT,
+          <lb ed="#P" n="30"/>in capite F'irmiter, de Deo dicens: Utramque
+          <lb ed="#P" n="31"/>de nihilo condidit creaturam spiritualem et
+          <lb ed="#P" n="32"/>corporalem: angelicam videlicet et mundanam.
+          <lb ed="#P" n="33"/>Ubi addendo particula de nihilo, verbum 
+          con<lb break="no" ed="#P" n="34"/>didit, de vera et propria creatione quasi per
+          <lb ed="#P" n="35"/>definitionem ejus explicuit. Et conjungendo
+          <lb ed="#P" n="36"/>utramque creaturam, id magis declaravit. Est
+          <lb ed="#P" n="37"/>enim evidens spiritualem creaturam non nisi
+          <lb ed="#P" n="38"/>propriam creationem potuisse produci, cum
+          <lb ed="#P" n="39"/>nihil ejus ante productionem ejus supponatur:
+          <lb ed="#P" n="40"/>et eodem modo dicit Concilium creaturam
+          <lb ed="#P" n="41"/>corporalem ex nihilo fuisse productam.
+        </p>
+        <p xml:id="szdada-y00029-d1e1041">
+          <lb ed="#P" n="42"/>11. Tertio ratione, ac simul responsione ad
+          <lb ed="#P" n="43"/>secundum argumentum in num. 1. — Unde 
+          ar<lb break="no" ed="#P" n="44"/>gumentor tertio, satisfaciendo simul secundae
+          <lb ed="#P" n="45"/>rationi dubitandi in principio positae, quia 
+          li<lb break="no" ed="#P" n="46"/>cet verbum creandi generaliter sumptum 
+          am<lb break="no" ed="#P" n="47"/>biguum sit, vel communem significationem
+          <lb ed="#P" n="48"/>habeat ; nihilominus ex subjecta materia ad
+          <lb ed="#P" n="49"/>determinatum modum effectionis definiri solet
+          <lb ed="#P" n="50"/>et debet. Unde est regula Sanctorum, quoties
+          <lb ed="#P" n="51"/>res, quae omnino non erant, creari dicuntur;
+          <lb ed="#P" n="52"/>verbum creandi significare productionem ex
+          <lb ed="#P" n="53"/>nihilo, quia res carens omni esse reali et 
+          ac<lb break="no" ed="#P" n="54"/>tuali, tam totali, quam partiali, non est capax
+          <lb ed="#P" n="55"/>alterius modi productionis: sed hoc modo 
+          su<lb break="no" ed="#P" n="56"/>mitur, cum dicitur Deus in principio creasse
+          <lb ed="#P" n="57"/>coelum et terram: ergo, Doctrina est Cyrilli
+          <lb ed="#P" n="58"/>Alexandrini, lib. 5 Thesau., cap. 5, ubi inter
+          <lb ed="#P" n="59"/>alia dicit: Quando nondum producta creari 
+          di<lb break="no" ed="#P" n="60"/>cuntur, necessario de nihilo ad esse procedere
+          <lb ed="#P" n="61"/>intelliguntur. Idem optime, lib. 1, in Genes.,
+          <lb ed="#P" n="62"/>in princip., et Chrysostomus, hom. 2, 
+          Ruper<lb break="no" ed="#P" n="63"/>tus et alii. Acdenique Athanasius, de Incarnat.
+          <lb ed="#P" n="64"/>Verbi, in principio: Zz nihilo, ac prorsus 
+          un<lb break="no" ed="#P" n="65"/>quam ectantibus Deum Patrem per Verbum
+          <lb ed="#P" n="66"/>suwm rerun universitatem fecisse agnoscit, cum
+          <lb ed="#P" n="67"/>ad istum modum loquitur per Verbum suum- In
+          <lb ed="#P" n="68"/>principio creavit Deus, etc. Et in Epistola quod
+          <lb ed="#P" n="69"/>Nicaena Synodus decreta sua congruis, et piis
+          <lb ed="#P" n="70"/>verbis contra haeresim Arianorum exposuerit,
+          <lb ed="#P" n="71"/>non longe a principio: 7tane Deus condit, ut
+          <lb ed="#P" n="72"/>homo ? Absit. Deus enim creat, cum vocat ea,
+          <lb ed="#P" n="73"/>qu«e non sunt, sine ullius rei aut opere, aut 
+          ope<lb break="no" ed="#P" n="74"/>ra ; homines autem, etc.
+        </p>
+        <p xml:id="szdada-y00029-d1e1115">
+          <lb ed="#P" n="75"/>12. Ratio altera qua etiam satisfit primo
+          <lb ed="#P" n="76"/>argumento in n. 1.—Quarto probatur ratione,
+          <lb ed="#P" n="77"/>satisfaciendo simul primae rationi dubitandi;
+          <lb ed="#P" n="78"/>nam si res simplices et spirituales subsistentes
+          <lb ed="#P" n="79"/>possunt per creationem fieri, a fortiori res 
+          cor<lb break="no" ed="#P" n="80"/>porales subsistentes. Probatur consequentia,
+          <lb ed="#P" n="81"/>tum quia ante productionem ita supponuntur
+          <lb ed="#P" n="82"/>nihil esse, sicut res spirituales: tum etiam
+          <lb ed="#P" n="83"/>quia ex parte, qua sunt entia per 
+          participatio<lb break="no" ed="#P" n="84"/>nem, non repugnat illis per propriam 
+          creatio<lb break="no" ed="#P" n="85"/>nem fieri. Imo quatenus minus perfecta sunt,
+          <lb ed="#P" n="86"/>facilior videtur eorum creatio. Ex ea vero 
+          par<lb break="no" ed="#P" n="87"/>te, qua sunt entia composita, non repugnat
+          <lb ed="#P" n="88"/>illis creatio ; imo repugnat illas aliter fieri 
+          sal<lb break="no" ed="#P" n="89"/>tem in prima, et totali productione sua. 
+          Pro<lb break="no" ed="#P" n="90"/>batur haec posterior pars, quia ante 
+          productio<lb break="no" ed="#P" n="91"/>nem coeli nihil illius praeexistebat: ergo non
+          <lb ed="#P" n="92"/>potuit, nisi ex nihilo fieri, ac proinde creari.
+          <lb ed="#P" n="93"/>Idemque est de quolibet elemento, cum 
+          pri<lb break="no" ed="#P" n="94"/>mum sit secundum se totum. Altera vero pars
+          <lb ed="#P" n="95"/>non repugnantiae ostenditur, quia licet in 
+          pro<lb break="no" ed="#P" n="96"/>ductione talis compositi ex materia, et forma
+          <lb ed="#P" n="97"/>distingui a nobis possit quasi partialis 
+          produc<lb break="no" ed="#P" n="98"/>tio materiae et formae, ita ut prior sit per 
+          mo<lb break="no" ed="#P" n="99"/>dum creationis ; quia licet materia dicatur 
+          pu<lb break="no" ed="#P" n="100"/>ra potentia respectu formae, nihilominus habet
+          <lb ed="#P" n="101"/>suam entitatem, et partialem existentiam,
+          <lb ed="#P" n="102"/>quam non nisi per creationem habere potest,
+          <lb ed="#P" n="103"/>cum prius subjectum non supponat: posterior
+          <lb ed="#P" n="104"/>autem, scilicet productio formae sit per 
+          mo<lb break="no" ed="#P" n="105"/>dum eductionis ex materia ordine naturae 
+          sup<lb break="no" ed="#P" n="106"/>posita, et tandem productio totius per modum
+          <lb ed="#P" n="107"/>unitionis partium, vel per modum productionis
+          <lb ed="#P" n="108"/>integrae, et compositae ex illis partialibus, quae
+          <lb ed="#P" n="109"/>sit proportionata integro termino composito:
+          <lb ed="#P" n="110"/>licet (inquam) hoc totum detur, nihilominus
+          <pb ed="#P" n="6"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>partiales illae productiones vere non sunt 
+          pro<lb break="no" ed="#P" n="2"/>ductiones, sed dici possunt comproductiones,
+          <lb ed="#P" n="3"/>solaque integra productio est vera productio,
+          <lb ed="#P" n="4"/>et illa est creatio, quia simpliciter est 
+          produc<lb break="no" ed="#P" n="5"/>tio ex nihilo, licet non omnino simplex, sed
+          <lb ed="#P" n="6"/>composita, quod non est contra rationem 
+          crea<lb break="no" ed="#P" n="7"/>tionis, ad quam satis est, quod simpliciter
+          <lb ed="#P" n="8"/>sumpta sit ex nihilo. De qua re, et de modo
+          <lb ed="#P" n="9"/>illius actionis compositae videri possunt, quae
+          <lb ed="#P" n="10"/>in Metaphysica dixi, disput. 15, sect. 3.
+        </p>
+        <p xml:id="szdada-y00029-d1e1222">
+          <lb ed="#P" n="11"/>13. Secunda assertio contra Origenem. —
+          <lb ed="#P" n="12"/>Probatur primo a contrario. — Secundo ex
+          <lb ed="#P" n="13"/>Scriptura. — Dico secundo, Deum non per 
+          oc<lb break="no" ed="#P" n="14"/>casionem peccati, nec in poenam spirituum, qui
+          <lb ed="#P" n="15"/>peccaverunt, sed per se ex primaria voluntate
+          <lb ed="#P" n="16"/>ac intentione sua mundum hunc visibilem et
+          <lb ed="#P" n="17"/>corporalem procreasse. Declaratur distinctione
+          <lb ed="#P" n="18"/>Damasceni, lib. 2, de Fide, cap. 29, dicentis,
+          <lb ed="#P" n="19"/>Deum quaedam velle primario, et ex sua 
+          tan<lb break="no" ed="#P" n="20"/>tum bonitate et liberalitate inductum: 
+          quae<lb break="no" ed="#P" n="21"/>dam vero secundario, et quasi a nobis 
+          compul<lb break="no" ed="#P" n="22"/>sum. Sensus ergo assertionis est creationem
+          <lb ed="#P" n="23"/>mundi visibilis non ad secundariam Dei 
+          vo<lb break="no" ed="#P" n="24"/>luntatem, ut Origenes confinxit, sed ad 
+          prima<lb break="no" ed="#P" n="25"/>riam referendam esse. Quod pertinere censeo
+          <lb ed="#P" n="26"/>ad dogma fidei. Primo quidem, quia contraria
+          <lb ed="#P" n="27"/>assertio necessaria supponit errores contra 
+          fi<lb break="no" ed="#P" n="28"/>dem, et in illis fundatur, ut jam notavi. 
+          Se<lb break="no" ed="#P" n="29"/>cundo, quia per se, et directe repugnat 
+          Scrip<lb break="no" ed="#P" n="30"/>turae, tum in ipsa narratione Genesis. Nam
+          <lb ed="#P" n="31"/>cum dicitur Genes. 1: 7n principio creavit
+          <lb ed="#P" n="32"/>Deus caelum et terram, profecto satis indicatur
+          <lb ed="#P" n="33"/>ex primaria intentione, et ex sua bonitate ac
+          <lb ed="#P" n="34"/>liberalitate haec fecisse. Praesertim, quia 
+          sta<lb break="no" ed="#P" n="35"/>tim in discursu singulorum operum ac 
+          die<lb break="no" ed="#P" n="36"/>rum declarantur singula esse facta propter
+          <lb ed="#P" n="37"/>alios fines ad rectum ordinem universi 
+          perti<lb break="no" ed="#P" n="38"/>nentes; et ideo de singulis subditur, vidit Deus,
+          <lb ed="#P" n="39"/>quod esset bonum, et de universi, vidit Deus
+          <lb ed="#P" n="40"/>cuncta, que fecerat, et erant valde bona. Non
+          <lb ed="#P" n="41"/>ergo respiciens ad malum, nec ad punitionem,
+          <lb ed="#P" n="42"/>sed ad bonitatem et pulchritudinem singula
+          <lb ed="#P" n="43"/>fecit. Unde Deuteronomio A, de coelis, sole,
+          <lb ed="#P" n="44"/>Iuna et astris dicitur: Quee creavit Dominus
+          <lb ed="#P" n="45"/>Deus tuwus in ministerium cunclis gentibus, que
+          <lb ed="#P" n="46"/>sub calo sunt, et cap. 26, in fine, Faciet te 
+          ez<lb break="no" ed="#P" n="47"/>celsiorem cunctis gentibus, quas creavit, in 
+          lau<lb break="no" ed="#P" n="48"/>dem, et nomen, et gloriam suam. Et sic etiam
+          <lb ed="#P" n="49"/>dicitur Proverb. 16, Universa propter 
+          semetip<lb break="no" ed="#P" n="50"/>sum operatus est Dominus, et Paulus ad 
+          Co<lb break="no" ed="#P" n="51"/>los. 1, id satis significat, dicens de unigenito
+          <lb ed="#P" n="52"/>Filio Dei, 7n ipso, et per ipsum condita sunt
+          <lb ed="#P" n="53"/>universa in caelis, et in terra visibilia, et 
+          invi<lb break="no" ed="#P" n="54"/>sibilia, etc.
+        </p>
+        <p xml:id="szdada-y00029-d1e1320">
+          <lb ed="#P" n="55"/>14. Tertio ex Concilio Lateranensi.— Tertio
+          <lb ed="#P" n="56"/>haec veritas in dicto capite Firmiter, aperte
+          <lb ed="#P" n="57"/>supponitur, cum dicitur Deum utramque 
+          si<lb break="no" ed="#P" n="58"/>mul condidisse naturam, spiritualem et 
+          cor<lb break="no" ed="#P" n="59"/>poream specialiter vero quod corpora creata
+          <lb ed="#P" n="60"/>sint in supplicium spirituum, qui peccaverunt,
+          <lb ed="#P" n="61"/>damnatur a Leone I, in dicta Epistola 91, et a
+          <lb ed="#P" n="62"/>Concilio Bracharensi I, can. 6, et in V 
+          Syno<lb break="no" ed="#P" n="63"/>do generali, ut refert Nicephorus, lib. 17 
+          His<lb break="no" ed="#P" n="64"/>tor., cap. 27 et 28, et in VISynodo, actor. 11,
+          <lb ed="#P" n="65"/>quatenus Epistolam Sophronii recipit. Et ita
+          <lb ed="#P" n="66"/>Patres inter errores haereticorum contrarium
+          <lb ed="#P" n="67"/>dogma recensent, Epiphanius, haeres. 64, in
+          <lb ed="#P" n="68"/>princip., et infra in fragmento ex Methodio,
+          <lb ed="#P" n="69"/>et in dict. Epistola, ad Joannem, Episcop. 
+          Hie<lb break="no" ed="#P" n="70"/>rosolymitanum, Augustinus, lib. de Haeresibus,
+          <lb ed="#P" n="71"/>in 43, et ex professo illud impugnat, lib. 11,
+          <lb ed="#P" n="72"/>de Civit., cap. 16, et seq., et praesertim in 23,
+          <lb ed="#P" n="73"/>et Cyrillus late et optime, lib. 1, in Joan., cap.
+          <lb ed="#P" n="74"/>9, Gregorius Nissenus, libr. de Opific. hom.,
+          <lb ed="#P" n="75"/>cap. 28 et 29.
+        </p>
+        <p xml:id="szdada-y00029-d1e1369">
+          <lb ed="#P" n="76"/>15. Probatur quarto a posteriori ex duplici
+          <lb ed="#P" n="77"/>incommodo. — Quarto possumus ex dictis 
+          Pa<lb break="no" ed="#P" n="78"/>tribus ratione ostendere dictam veritatem ,
+          <lb ed="#P" n="79"/>primo ab inconvenienti ex Augustino, quia
+          <lb ed="#P" n="80"/>alias non creasset Deus in hoc mundo unum
+          <lb ed="#P" n="81"/>tantum solem per se consulendo pulchritudini,
+          <lb ed="#P" n="82"/>et utilitati universi, sed per occasionem, quia
+          <lb ed="#P" n="83"/>una tantum anima sic peccavit, ut tali corpore
+          <lb ed="#P" n="84"/>mereretur includi. Quod cum proportione dici
+          <lb ed="#P" n="85"/>potest de luna et de numero coelorum ac 
+          ele<lb break="no" ed="#P" n="86"/>mentorum:: quod profecto, et per se statim 
+          ap<lb break="no" ed="#P" n="87"/>paret absurdissimum, et repugnat Scripturis
+          <lb ed="#P" n="88"/>supra allegatis, quae longe aliter creationem
+          <lb ed="#P" n="89"/>et dispositionem hujus mundi visibilis, et 
+          om<lb break="no" ed="#P" n="90"/>nium partium ejus, et finium, ac utilitatum
+          <lb ed="#P" n="91"/>illarum describunt. Quam cum elegantissime
+          <lb ed="#P" n="92"/>proposuisset David, Ps. 103, concludit: Quam
+          <lb ed="#P" n="93"/>magnificata sunt opera tua Domine, omnia in
+          <lb ed="#P" n="94"/>sapientia fecisti, impleta est terra possessione
+          <lb ed="#P" n="95"/>tua. Et ideo dixit Sapiens, cap. 13, a 
+          magnitu<lb break="no" ed="#P" n="96"/>dine speciei et creaturae cognoscibiliter posse
+          <lb ed="#P" n="97"/>creatorem horum videri, quia ipsa universi
+          <lb ed="#P" n="98"/>ordinatissima constitutio, et pulcherrimus ordo
+          <lb ed="#P" n="99"/>artificis sapientiam, et certam intentionem,
+          <lb ed="#P" n="100"/>qua omnia in numero, pondere, et mensura
+          <lb ed="#P" n="101"/>per se condidit, ostendit. Aliud inconveniens
+          <lb ed="#P" n="102"/>est, quia juxta illum errorem non corporalis
+          <lb ed="#P" n="103"/>mors, sed potius vita esset poena peccati, 
+          con<lb break="no" ed="#P" n="104"/>tra illud Sapient. 1: Deus morlem non fecit, nec
+          <lb ed="#P" n="105"/>delectatur in perditione viventium, creavit enim,
+          <lb ed="#P" n="106"/>ut essent omnia, et contra Paulum, Rom. 5, et 1,
+          <lb ed="#P" n="107"/>Cor. 15. Unde optime argumentatur Cyrillus,
+          <lb ed="#P" n="108"/>si anima corpori unitur in poenam, inepte et
+          <lb ed="#P" n="109"/>injuste malefactores supplicio anortis 
+          afficeren<lb break="no" ed="#P" n="110"/>tur, nam hoc modo non punirentur, sed a poe-
+          <pb ed="#P" n="7"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>na et carcere liberarentur. Et e contrario 
+          de<lb break="no" ed="#P" n="2"/>berent baptizati, qui plenam remissionem 
+          pec<lb break="no" ed="#P" n="3"/>catorum consecuti sunt, statim a corporibus
+          <lb ed="#P" n="4"/>liberari. Nec Christus suscitando Lazarum, illi
+          <lb ed="#P" n="5"/>beneficium contulisset, sed poenam. Quod 
+          ar<lb break="no" ed="#P" n="6"/>gumentum cum aliis ibi late prosequitur.
+        </p>
+        <p xml:id="szdada-y00029-d1e1465">
+          <lb ed="#P" n="7"/>16. Denique a priori. — Confirmatur. — A
+          <lb ed="#P" n="8"/>priori vero ratio sumitur ex illo principio,
+          <lb ed="#P" n="9"/>quod creatura corporalis per se bona est, et
+          <lb ed="#P" n="10"/>Dei etiam bonitatem, sapientiam ac potentiam
+          <lb ed="#P" n="11"/>manifestat: ergo per se, ac primario propter
+          <lb ed="#P" n="12"/>hunc finem facta est vel mediate vel 
+          imme<lb break="no" ed="#P" n="13"/>diate. Universum enim, ut est quoddam totum
+          <lb ed="#P" n="14"/>optime constitutum, ad sapientiam et 
+          bonita<lb break="no" ed="#P" n="15"/>tem divinam manifestandum creatum est: 
+          sin<lb break="no" ed="#P" n="16"/>gula vero corpora ad optimam ejus 
+          constitu<lb break="no" ed="#P" n="17"/>tionem proxime ordinata sunt; et 
+          consequen<lb break="no" ed="#P" n="18"/>ter cum sint partes universi, cum ipso toto
+          <lb ed="#P" n="19"/>propter eumdem finem per se sunt intenta.
+          <lb ed="#P" n="20"/>Unde est iilud Eccles. 39: Opera Domini 
+          uni<lb break="no" ed="#P" n="21"/>versa bona valde, quod de operibus circa 
+          cor<lb break="no" ed="#P" n="22"/>porum conditionem postea explicatur. 
+          Praete<lb break="no" ed="#P" n="23"/>rea homo ut animo et corpore constat, per se
+          <lb ed="#P" n="24"/>creatus est propter DEI gloriam, cujus signum
+          <lb ed="#P" n="25"/>est, tum quod ex Dei intentione factus est, ut
+          <lb ed="#P" n="26"/>semper viveret, et nunquam moreretur, tum
+          <lb ed="#P" n="27"/>etiam quia licet propter peccatum moriatur,
+          <lb ed="#P" n="28"/>postea in aeternum victurus resurget: non
+          <lb ed="#P" n="29"/>ergo sola anima, sed totus homo animo, et
+          <lb ed="#P" n="30"/>corpore constans per se propter gloriam Dei
+          <lb ed="#P" n="31"/>creatus est: ergo corpus hominis non est 
+          crea<lb break="no" ed="#P" n="32"/>tum in poenam animae. Multo ergo minus alia
+          <lb ed="#P" n="33"/>corpora coelestia vel terrestria. Quia nec 
+          in<lb break="no" ed="#P" n="34"/>formantur animabus rationalibus, vel 
+          spiriti<lb break="no" ed="#P" n="35"/>bus intellectualibus, juxta catholicam 
+          senten<lb break="no" ed="#P" n="36"/>tiam, nec etiam facta sunt in supplicium, sed
+          <lb ed="#P" n="37"/>in commodum hominum, sicut de coelis 
+          dici<lb break="no" ed="#P" n="38"/>tur, in loco citato Deuteronomii 4; et de terra
+          <lb ed="#P" n="39"/>dicitur, Isaiae 45: 7pse Deus formans terram,
+          <lb ed="#P" n="40"/>et faciens eam, ipse plastes ejus, non in vamum
+          <lb ed="#P" n="41"/>creavit eam, ut habitaretur formavit eam. Et
+          <lb ed="#P" n="42"/>hac ratione videtur dicere Paulus 2, Corint. 3,
+          <lb ed="#P" n="43"/>totum mundum esse hominum, quia ad eorum
+          <lb ed="#P" n="44"/>usum, et commodum creatus est: ergo de
+          <lb ed="#P" n="45"/>primo ad ultimum, non solum spiritus, sed
+          <lb ed="#P" n="46"/>etiam corpora tam humana, quam reliqua
+          <lb ed="#P" n="47"/>mundana per se propter Dei gloriam facta sunt:
+          <lb ed="#P" n="48"/>non ergo per occasionem peccantium 
+          spiri<lb break="no" ed="#P" n="49"/>tuum, nec ut ergastula eorum condita sunt,
+          <lb ed="#P" n="50"/>sed omnia creata sunt, ut essent, sicut dicitur,
+          <lb ed="#P" n="51"/>Sapient. 1, utique unumquodque in genere
+          <lb ed="#P" n="52"/>suo, et propter bonum unum, seu ministerium
+          <lb ed="#P" n="53"/>suum.
+        </p>
+        <p xml:id="szdada-y00029-d1e1569">
+          <lb ed="#P" n="54"/>17. Objectio pro Origene.—Solvitur primo.
+          <lb ed="#P" n="55"/>— Secundo. — Objici vero potest pro Origene
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illud Eccless. 39: 7gnis, grando, fames et mors,
+          <lb ed="#P" n="57"/>omnia hec ad vindiclam creata sunt, bestiarum
+          <lb ed="#P" n="58"/>dentes scorpii et serpentes, et rompheea in 
+          ea<lb break="no" ed="#P" n="59"/>terminium impiorum. Et huc etiam maxime
+          <lb ed="#P" n="60"/>spectat ignis inferni, qui paratus est diabolo
+          <lb ed="#P" n="61"/>et Angelis, aliisque sociis ejus: ergo si non
+          <lb ed="#P" n="62"/>omnes, saltem plures creaturae occasione 
+          pec<lb break="no" ed="#P" n="63"/>cati creatae sunt. Quo argumento etiam 
+          ute<lb break="no" ed="#P" n="64"/>bantur Manichaei, ut suaderent, creaturas,
+          <lb ed="#P" n="65"/>quae videntur esse nocivae hominibus a malo
+          <lb ed="#P" n="66"/>Deo creatas esse. Sed respondemus ad 
+          argu<lb break="no" ed="#P" n="67"/>mentum imprimis, nunc nos praecipue loqui
+          <lb ed="#P" n="68"/>de creatione mundi visibilis quoad ea corpora,
+          <lb ed="#P" n="69"/>quae principaliter, et quasi per se ad illius 
+          in<lb break="no" ed="#P" n="70"/>tegritatem et perfectionem pertinent. Nam
+          <lb ed="#P" n="71"/>in mixtis aliqua esse possunt adeo imperfecta,
+          <lb ed="#P" n="72"/>ut quasi per accidens resultent, et generentur
+          <lb ed="#P" n="73"/>ex aliis: et eadem ratione potuerunt aliqua in
+          <lb ed="#P" n="74"/>peccatorum vindictam principaliter creati.
+          <lb ed="#P" n="75"/>Nec hoc est a bonitate Dei alienum, cum ad
+          <lb ed="#P" n="76"/>ejus justitiam pertineat. Deinde verbis 
+          Eccle<lb break="no" ed="#P" n="77"/>siastici opponimus alia ejusdem Sapientis in
+          <lb ed="#P" n="78"/>eodem capite: Bona bonis creata sunt ab 
+          ini<lb break="no" ed="#P" n="79"/>Lio, sic uequissimis bona et mala, utique mala
+          <lb ed="#P" n="80"/>illis, id est, nociva. Et additur: Znitium 
+          mne<lb break="no" ed="#P" n="81"/>cessariee rei vitee hominum aqua, ignis, et 
+          fer<lb break="no" ed="#P" n="82"/>rum, sal, lac, panis similagineus, et mel, et 
+          bo<lb break="no" ed="#P" n="83"/>trusuvee, et oleum, et vestinentum. Hec omnia
+          <lb ed="#P" n="84"/>sanctis in bona, sic et impiis in mala 
+          conver<lb break="no" ed="#P" n="85"/>tentur. Quia vel ex illis sument occasionem
+          <lb ed="#P" n="86"/>peccandi, vel desumet illa Deus ut instrumenta
+          <lb ed="#P" n="87"/>in vindictam eorum. Sic ergo ignis grando,
+          <lb ed="#P" n="88"/>etc., dicuntur creata in vindictam, non quia
+          <lb ed="#P" n="89"/>hic fuerit primarius finis creationis eorum,
+          <lb ed="#P" n="90"/>sed quia ex malitia hominum in hunc usum
+          <lb ed="#P" n="91"/>convertuntur, et assumuntur a Deo, et ideo ad
+          <lb ed="#P" n="92"/>iniquorum terrorem dicuntur ad illum 
+          effec<lb break="no" ed="#P" n="93"/>tum creata. Et ita etiam respondent 
+          Mani<lb break="no" ed="#P" n="94"/>chaeis Ambrosius, libr. 3 Exaem., cap. 9, et
+          <lb ed="#P" n="95"/>Augustinus, libr. de Genesi, contra iMlos, c. 16.
+          <lb ed="#P" n="96"/>Unde etiam de igne inferni dicimus a Deo 
+          con<lb break="no" ed="#P" n="97"/>ditum esse propter complementum, et 
+          perfec<lb break="no" ed="#P" n="98"/>tionem universi, et ut de se aptum esset 
+          in<lb break="no" ed="#P" n="99"/>strumentum divinae justitiae, non quidem ad
+          <lb ed="#P" n="100"/>vindictam delictorum, quae ante corporum
+          <lb ed="#P" n="101"/>creationem praecesserant, sed eorum, quae vel
+          <lb ed="#P" n="102"/>esse poterant, vel certe futura esse 
+          praescie<lb break="no" ed="#P" n="103"/>bantur. Neque etiamita est ille ignis ad poenam
+          <lb ed="#P" n="104"/>deputatus, ut aliquis spiritus informando 
+          il<lb break="no" ed="#P" n="105"/>lum, in eo puniretur: sed ut sit 
+          instrumen<lb break="no" ed="#P" n="106"/>tum miro modo efficiens, et ut Dei 
+          instrumen<lb break="no" ed="#P" n="107"/>tum torquens spiritus, tam extra corpus, quam
+          <lb ed="#P" n="108"/>in corpore peccantes.
+        </p>
+        <p xml:id="szdada-y00029-d1e1693">
+          <lb ed="#P" n="109"/>18. Tertia assertio de fide contra varios 
+          er<lb break="no" ed="#P" n="110"/>randi modos positos num. 5 et 6. — Probatur
+          <pb ed="#P" n="8"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>primo ex Scriptura. — Secundo em symbolis
+          <lb ed="#P" n="2"/>et Conciliis. — Tertio ec Patribus. — Dico
+          <lb ed="#P" n="3"/>tertio, Deus solus fuit primum et proximum
+          <lb ed="#P" n="4"/>principium creans hoc universum corporeum,
+          <lb ed="#P" n="5"/>quoad omnia illa, quae per veram creationem
+          <lb ed="#P" n="6"/>fiunt. Loquor tantum de his rebus, quatenus
+          <lb ed="#P" n="7"/>ex nihilo fiunt, quia de his, quae fiunt ex 
+          prae<lb break="no" ed="#P" n="8"/>supposito subjecto, postea dicturi sumus. Sic
+          <lb ed="#P" n="9"/>ergo conclusio est contra omnes antiquos 
+          er<lb break="no" ed="#P" n="10"/>rores supra relatos, estque de fide certa, ut
+          <lb ed="#P" n="11"/>tradit D. Thomas, dict. quaest. 65, 1. part., art.
+          <lb ed="#P" n="12"/>3, et quaest. 44, art. 1, et quaest. 45, art. 5.
+          <lb ed="#P" n="13"/>Et praetermissis Angelis, de quibus est major
+          <lb ed="#P" n="14"/>ratio, et supra dictum est. et animabus 
+          homi<lb break="no" ed="#P" n="15"/>num, de quibus infra suo loco dicturi sumus,
+          <lb ed="#P" n="16"/>de corporibus, de quibus nunc agimus, 
+          proba<lb break="no" ed="#P" n="17"/>tur primo, quia Scriptura soli Deo tribuit coeli
+          <lb ed="#P" n="18"/>et terrae creationem, Genes. 1, Psalm. 8, 145,
+          <lb ed="#P" n="19"/>148, Joan. 1, Actor. 4, ad Hebr. 3, Apoc. 4, et
+          <lb ed="#P" n="20"/>alibi passim. Et optimus locus est lIsaiae 44:
+          <lb ed="#P" n="21"/>Ego sum Dominus faciens omnia eaxtendens 
+          cae<lb break="no" ed="#P" n="22"/>los solus, stabiliens terram, et nullus mecum.
+          <lb ed="#P" n="23"/>Secundo ita profitemur in omnibus symbolis,
+          <lb ed="#P" n="24"/>et fere in omnibus Conciliis, in quibus fidei
+          <lb ed="#P" n="25"/>professio praemittitur, et specialiter in d. cap.
+          <lb ed="#P" n="26"/>Firmiter, et Concilio Bracharensi I, cap. 13.
+          <lb ed="#P" n="27"/>Tertio tradunt omnes Patres scribentes contra
+          <lb ed="#P" n="28"/>praedictos haereticos, quos supra retulimus: et
+          <lb ed="#P" n="29"/>mysterium trium personarum divinarum 
+          con<lb break="no" ed="#P" n="30"/>firmantes. Inde enim (inter alia) probant, 
+          ver<lb break="no" ed="#P" n="31"/>bum divinum esse Deum verum, quia est
+          <lb ed="#P" n="32"/>omnium creator: nam omnia per ipsum facta
+          <lb ed="#P" n="33"/>sunt, Joan. 1, et quia per ipsum facta sunt
+          <lb ed="#P" n="34"/>saecula, portatque omnia verbo virtutis suce, ut
+          <lb ed="#P" n="35"/>dicitur ad Hebr. 1. Atque eodem modo de 
+          Spi<lb break="no" ed="#P" n="36"/>ritu sancto argumentantur lrenaeus, libr. 1,
+          <lb ed="#P" n="37"/>cap. 19, et Ambrosius, libr. 1, de Spir. sanct.,
+          <lb ed="#P" n="38"/>cap. 3, et Basilius, libr. de Spir. sanct., cap.
+          <lb ed="#P" n="39"/>16, de illo Psalm. 32: Verbo Dominà celi 
+          fir<lb break="no" ed="#P" n="40"/>mati sunt, etc. Eodemque modo argumentatur
+          <lb ed="#P" n="41"/>Ambrosius, lib. 2, de Spir. sanct., cap. 5, ex
+          <lb ed="#P" n="42"/>illo Psalm. 103: Awferes spiritum eorum, etc.
+          <lb ed="#P" n="43"/>Et similia habet Cyrillus, Dialog. 7,de Trinit.,
+          <lb ed="#P" n="44"/>circa finem, et in lib. de argum., quod Spir.
+          <lb ed="#P" n="45"/>sanct. sit Deus in principio. Et hoc argumento
+          <lb ed="#P" n="46"/>seepe utuntur Patres contra Arianos et 
+          Sabel<lb break="no" ed="#P" n="47"/>lianos, Athanasius, serm. 3, contra Arianos,
+          <lb ed="#P" n="48"/>Basilius, lib. 4, contra Eunomium et ali.
+        </p>
+        <p xml:id="szdada-y00029-d1e1808">
+          <lb ed="#P" n="49"/>19. Quarto ea ratione. — Quarto possumus
+          <lb ed="#P" n="50"/>ratione argumentari, quia si praeter Deum
+          <lb ed="#P" n="51"/>fuisset alia causa proxima creationis 
+          corpora<lb break="no" ed="#P" n="52"/>lium rerum, vel illa esset causa principalis 
+          pro<lb break="no" ed="#P" n="53"/>pinqua, vel instrumentalis: utrumque autem
+          <lb ed="#P" n="54"/>est falsum. De priori probatur, quia proxima
+          <lb ed="#P" n="55"/>virtus creandi per modum causae principalis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>creaturae capacitatem excedit, et ad 
+          omnipo<lb break="no" ed="#P" n="57"/>tentiam Dei pertinet ; et ideo Eccl. 1, dicitur:
+          <lb ed="#P" n="58"/>Unus est altissimus, creator, omnipotens, et
+          <lb ed="#P" n="59"/>Jer. 32, dicitur, Deum fecisse coelum et 
+          ter<lb break="no" ed="#P" n="60"/>ram in fortitudine sua magna, et brachio 
+          ex<lb break="no" ed="#P" n="61"/>tento, pro quae verba infinita Dei potentia 
+          si<lb break="no" ed="#P" n="62"/>gnificatur, et ad creandum necessaria esse 
+          in<lb break="no" ed="#P" n="63"/>dicatur. An vero hoc possit etiam ratione
+          <lb ed="#P" n="64"/>naturali demonstrari, dixi late in Metaphysica,
+          <lb ed="#P" n="65"/>disput. 10, sect. 2. De altera, seu 
+          instrumen<lb break="no" ed="#P" n="66"/>tali causa dixi quidem in dicto loco, sect. 3,
+          <lb ed="#P" n="67"/>id non repugnare de potentia absoluta, quod
+          <lb ed="#P" n="68"/>nunc etiam probabilius esse credo, idque satis
+          <lb ed="#P" n="69"/>docte disputat et confirmat Daniel Malonius,
+          <lb ed="#P" n="70"/>in 2, d. 1, disput. 3. Nihilominus de facto
+          <lb ed="#P" n="71"/>certissimum est Deum nullo tali usum fuisse
+          <lb ed="#P" n="72"/>instrumento. Tum, quia Scriptura et Patres
+          <lb ed="#P" n="73"/>soli Deo illam actionem tribuunt, et absolute
+          <lb ed="#P" n="74"/>omnem aliam causam excludunt. Tum etiam,
+          <lb ed="#P" n="75"/>quia Deus tali instrumento non indigebat, ut
+          <lb ed="#P" n="76"/>per se notum est: tum denique, quia nulla
+          <lb ed="#P" n="77"/>creatura habet natura sua, quod sit tale 
+          instru<lb break="no" ed="#P" n="78"/>mentum, ut in citato loco ostendi, sed si 
+          assu<lb break="no" ed="#P" n="79"/>mi, aut elevari potest, ut sit tale 
+          instrumen<lb break="no" ed="#P" n="80"/>tum, id est, miraculose et supernaturaliter,
+          <lb ed="#P" n="81"/>Deus autem in rerum creatione modo naturis
+          <lb ed="#P" n="82"/>rerum consentaneo, et sine specialibus 
+          mira<lb break="no" ed="#P" n="83"/>culis operatus est, ut postea etiam dicemus.
+          <lb ed="#P" n="84"/>20. Objectio contra provime dicta. — HEjus
+          <lb ed="#P" n="85"/>dilutio. — Contra hanc veritatem expendi 
+          po<lb break="no" ed="#P" n="86"/>test nomen Elohim, quod in Hebraeo ponitur
+          <lb ed="#P" n="87"/>Genes. 1, ubi nos legimus, in principio creavit
+          <lb ed="#P" n="88"/>Deus, nam FElohim Deos potius significat. Unde
+          <lb ed="#P" n="89"/>sub illo nomine comprehendi videntur Angeli
+          <lb ed="#P" n="90"/>tanquam creationis coeli et terrae 
+          cooperato<lb break="no" ed="#P" n="91"/>res, in hoc enim sensu solet plurale illud 
+          no<lb break="no" ed="#P" n="92"/>men in Scriptura usurpari. Respondetur 
+          nemi<lb break="no" ed="#P" n="93"/>nem vocem illam in dicto loco Genesis in hac
+          <lb ed="#P" n="94"/>significatione accepisse vel exposuisse: nec
+          <lb ed="#P" n="95"/>verbum singulare creacit, illam admittit, quod
+          <lb ed="#P" n="96"/>ostendit aperte unum tantum fuisse rerum
+          <lb ed="#P" n="97"/>omnium creatorem, sicut recte vulgatus 
+          inter<lb break="no" ed="#P" n="98"/>pres vertit. Multi vero ex Catholicis volunt, ibi
+          <lb ed="#P" n="99"/>significatum esse a Moyse Trinitatis 
+          myste<lb break="no" ed="#P" n="100"/>rium: nam plurale Dii positum esse dicunt
+          <lb ed="#P" n="101"/>propter trinitatem personarum, singulare 
+          au<lb break="no" ed="#P" n="102"/>tem verbum creacit, propter unitatem naturae
+          <lb ed="#P" n="103"/>potentiae et voluntatis: interpretem vero non
+          <lb ed="#P" n="104"/>potuisse in Latino idiomate illud mysterium
+          <lb ed="#P" n="105"/>ita significare, quia Latina vox illam Deorum
+          <lb ed="#P" n="106"/>appellationem tribus personis tribuere non
+          <lb ed="#P" n="107"/>permittit. Alii vero nullum putant ibi latere
+          <lb ed="#P" n="108"/>mysterium, sed phrasim illam et modum 
+          usur<lb break="no" ed="#P" n="109"/>pandi plurale pro singulari, esse idiotismum
+          <lb ed="#P" n="110"/>specialem linguae Hebraicae, in multis aliis sa-
+          <pb ed="#P" n="9"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>crae Scripturae locis usitatum, ut late disputat
+          <lb ed="#P" n="2"/>Benedictus Percira circa illa verba Genesis.
+          <lb ed="#P" n="3"/>Quod satis probabile mihi videtur: juxta 
+          utram<lb break="no" ed="#P" n="4"/>que vero dicendi rationem objectio solvitur, et
+          <lb ed="#P" n="5"/>nullius momenti esse perspicitur.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

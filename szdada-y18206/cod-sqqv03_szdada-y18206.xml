@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="740"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y18206"><!-- t3l4c8 -->
+        <head xml:id="szdada-y18206-Hd1e101">Caput 8</head>
+        <head xml:id="szdada-y18206-Hd1e103" type="question-title">Quid sit intellectus agens et possibilis</head>
+        <p xml:id="szdada-y18206-d1e106">
+          <lb ed="#P" n="84"/>CAPUT VIII.
+          <lb ed="#P" n="85"/>QUID SIT INTELLECTUS AGENS ET POSSIBILIS.
+        </p>
+        <p xml:id="szdada-y18206-d1e113">
+          <lb ed="#P" n="86"/>1. Vide l. 9, de Angelis a n. 14. — Diximus
+          <lb ed="#P" n="87"/>de objectis et actibus intellectus agentis et
+          <lb ed="#P" n="88"/>possibilis, dicendum superest de ipsis potentiis.
+          <lb ed="#P" n="89"/>Et quoniam una sine altera perfecte non 
+          co<lb break="no" ed="#P" n="90"/>gnoscitur, de utraque breviter agendum. Est
+          <lb ed="#P" n="91"/>ergo in parte intellectiva animae nostra 
+          du<lb break="no" ed="#P" n="92"/>plex productio, nempe speciei et actus, 
+          du<lb break="no" ed="#P" n="93"/>plexque receptio correspondens, utraque vero
+          <lb ed="#P" n="94"/>debet fieri ab spirituali virtute, et in potentia
+          <lb ed="#P" n="95"/>spirituali, ut ex dictis patet. Est autem potentia
+          <lb ed="#P" n="96"/>eadem receptiva speciei, productivaque act
+          <lb ed="#P" n="97"/>intelligendi, quae intellectus possibilis vocatur,
+          <lb ed="#P" n="98"/>quia ex natura sua est potentia, ut speciebus
+          <lb ed="#P" n="99"/>rerum omnium informetur, et per eas 
+          intelli<lb break="no" ed="#P" n="100"/>gat: at vero virtus productiva specierum, quia
+          <lb ed="#P" n="101"/>recipiendi munus non habet, sedtantum agendi,
+          <lb ed="#P" n="102"/>ideo ab actione denominatur agens, diciturque
+          <lb ed="#P" n="103"/>intellectus, non quia intelligat: cum solum
+          <lb ed="#P" n="104"/>producat species, quae productio intellectio non
+          <lb ed="#P" n="105"/>est (objectum enim sensibile species quoque
+          <lb ed="#P" n="106"/>producit, nec tamen sentit), sed quia res 
+          intel<lb break="no" ed="#P" n="107"/>ligibiles reddit.
+        </p>
+        <p xml:id="szdada-y18206-d1e163">
+          <pb ed="#P" n="741"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>2. Differentia duplem inter intellectum 
+          pos<lb break="no" ed="#P" n="2"/>sibilem et agentem. — Hinc porro duae 
+          colli<lb break="no" ed="#P" n="3"/>guntur differentiae inter has potentias. Prima,
+          <lb ed="#P" n="4"/>quod altera sit cognoscitiva, altera minime.
+          <lb ed="#P" n="5"/>Secunda, quod actio intellectus possibilis 
+          vi<lb break="no" ed="#P" n="6"/>talis sit, atque immanens, cum sit actio 
+          co<lb break="no" ed="#P" n="7"/>gnoscendi: at intellectus agentis operatio ex
+          <lb ed="#P" n="8"/>se, et ex propriis non item: productio quippe
+          <lb ed="#P" n="9"/>speciei ex suo genere posset a re non vivente
+          <lb ed="#P" n="10"/>fieri, ut proxime de objecto sensibili diximus.
+          <lb ed="#P" n="11"/>Actio ergo intellectus possibilis ex propriis
+          <lb ed="#P" n="12"/>vendicat esse a principio intrinseco activo: non
+          <lb ed="#P" n="13"/>vero intellectus agentis actio: et hinc est, quod
+          <lb ed="#P" n="14"/>actio intellectus possibilis de se sit immanens,
+          <lb ed="#P" n="15"/>actio vero agentis ex modo suo transiens esse
+          <lb ed="#P" n="16"/>queat: constat ergo ratio et diversitas 
+          utrius<lb break="no" ed="#P" n="17"/>que potentiae, saltem quantum ad quid 
+          nomi<lb break="no" ed="#P" n="18"/>nis. Ad explicandum autem quid rei earum,
+          <lb ed="#P" n="19"/>alia dubia sunt enodanda.
+        </p>
+        <p xml:id="szdada-y18206-d1e212">
+          <lb ed="#P" n="20"/>3. Primwmn dubiwn in preesenti capite quid
+          <lb ed="#P" n="21"/>Sit uterque intellectum. — Evternorum 
+          philoso<lb break="no" ed="#P" n="22"/>phorum varia placita.—Primum est: an 
+          uter<lb break="no" ed="#P" n="23"/>que istorum intellectuum sit vera aniniae 
+          po<lb break="no" ed="#P" n="24"/>tentia ? In qua re Graeci fere omnes hallucinati
+          <lb ed="#P" n="25"/>sunt, ponentes intellectum agentem et 
+          possibi<lb break="no" ed="#P" n="26"/>lem esse substantias separatas, 
+          concedentes<lb break="no" ed="#P" n="27"/>que animae nostrae tantum cogitativam, quam
+          <lb ed="#P" n="28"/>intellectum passivum vocant. Ita Theophrastus
+          <lb ed="#P" n="29"/>et Themistius, lib. 3, de Anima, Alexander
+          <lb ed="#P" n="30"/>autem, lib. 2, inquit intellectum agentem esse
+          <lb ed="#P" n="31"/>Deum ipsum, ac quod saltem sit substantia
+          <lb ed="#P" n="32"/>aliqua ex separatis, putarunt Arabes, 
+          Avem<lb break="no" ed="#P" n="33"/>pace, et quos refert Albertus 3, de Anima,
+          <lb ed="#P" n="34"/>tract. 9, cap. 4, Averroes 3, de Anim., text. 5
+          <lb ed="#P" n="35"/>et 20, et 12 Metaphysicae, text. 17, Avicenna,
+          <lb ed="#P" n="36"/>quoque 9 Metaphysicae, cap. 4, credit 
+          intelli<lb break="no" ed="#P" n="37"/>gentiam ultimam, quae praesidet sphaerae 
+          acti<lb break="no" ed="#P" n="38"/>vorum et passivorum esse intelligentiam 
+          agen<lb break="no" ed="#P" n="39"/>tem, quae gubernat animas nostras, et 6, 
+          Na<lb break="no" ed="#P" n="40"/>tural., p. 5, c.5et6, addit species intelligibiles
+          <lb ed="#P" n="41"/>esse in ea ipsa intelligentia, ex illaque 
+          deri<lb break="no" ed="#P" n="42"/>vari in easdem animas. Huic sententiae favere
+          <lb ed="#P" n="43"/>videtur Aristoteles 3, de Anima, textu 19 et
+          <lb ed="#P" n="44"/>20. ubi de intellectu agente ait, quod passione
+          <lb ed="#P" n="45"/>vacat, ac separabilis est, cum sit substantiae
+          <lb ed="#P" n="46"/>actus: et infra ait: Non quandoque intelligit,
+          <lb ed="#P" n="47"/>quandoque vero non intelligit, separatus vero,
+          <lb ed="#P" n="48"/>id est, atque id solum est immortale, etc. Et
+          <lb ed="#P" n="49"/>Alexander ex mente Aristotelis ipsius probat
+          <lb ed="#P" n="50"/>intellectum agentem, Deum esse, cum doceat
+          <lb ed="#P" n="51"/>intellectum agentem omnia facere, quod solius
+          <lb ed="#P" n="52"/>Dei est.
+        </p>
+        <p xml:id="szdada-y18206-d1e286">
+          <lb ed="#P" n="53"/>4. Improbatur. — Ratio em Aristotele. —
+          <lb ed="#P" n="54"/>Confirmatio prima. — Confirmatio secunda.—
+          <lb ed="#P" n="55"/>At enim, quod ad intellectum possibilem ar-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tinet, sententia haec erronea est in fide, et in
+          <lb ed="#P" n="57"/>philosophia delirium, quod supra late 
+          proba<lb break="no" ed="#P" n="58"/>vimus, lib. 1, ac. 9, tum absolute, tum etiam
+          <lb ed="#P" n="59"/>in sententia Aristotelis. Quod vero pertinet ad
+          <lb ed="#P" n="60"/>intellectum agentem, certum etiam habetur
+          <lb ed="#P" n="61"/>esse veram animae potentiam. Ita D. Thomas,
+          <lb ed="#P" n="62"/>1 p.. q. 79, art. 4. Colligitur etiam ex eodem in
+          <lb ed="#P" n="63"/>q. S4, art. 4. ubi opinionem Avicennae 
+          imprc<lb break="no" ed="#P" n="64"/>bat, et Platonis species intelligibiles fieri ab
+          <lb ed="#P" n="65"/>ideis: certum autem non dico, quod putem de
+          <lb ed="#P" n="66"/>fide. Nam quod intellectus agens, aut etiam
+          <lb ed="#P" n="67"/>species intelligibiles dentur, de fide non est:
+          <lb ed="#P" n="68"/>nec praeterea ullus error in fide esset sentire
+          <lb ed="#P" n="69"/>illas a Deo, vel intelligentia aliqua produci.
+          <lb ed="#P" n="70"/>Rursus non dico certum quod evidenti 
+          demon<lb break="no" ed="#P" n="71"/>stratione habeatur, nisi quantum res 
+          philoso<lb break="no" ed="#P" n="72"/>phica, eaque tam abdita patitur. Probatur ergo
+          <lb ed="#P" n="73"/>ratione Aristotelis, in 3, de Anima, c. 5, nam
+          <lb ed="#P" n="74"/>cum anima nostra ab intrinsecosit intellectualis,
+          <lb ed="#P" n="75"/>ab intrinseco habere debet necessaria ad 
+          exer<lb break="no" ed="#P" n="76"/>cendas intellectuales operationes, natura enim
+          <lb ed="#P" n="77"/>non deficit in necessariis, nec ordinat rem ad
+          <lb ed="#P" n="78"/>actionem, pro qua exercenda non conferat 
+          re<lb break="no" ed="#P" n="79"/>quisita, unum autem ex requisitisad intellectus
+          <lb ed="#P" n="80"/>opera, est maxime productiva vis specierum 
+          in<lb break="no" ed="#P" n="81"/>telligibilium, cum sine eis intellectio non fiat:
+          <lb ed="#P" n="82"/>habet ergo anima nostra hanc virtutem, sive 
+          po<lb break="no" ed="#P" n="83"/>tentiam. Quam rationem S. Thomas optime
+          <lb ed="#P" n="84"/>prosequitur, confirmaturque primo. Nam si
+          <lb ed="#P" n="85"/>virtus productiva specierum esset substantia
+          <lb ed="#P" n="86"/>separata, non penderet in illarum productione
+          <lb ed="#P" n="87"/>a phantasmate, neque a corpore, quia actio
+          <lb ed="#P" n="88"/>intelligentiae separatae superioris rationis 
+          exi<lb break="no" ed="#P" n="89"/>stit: consequens autem est falsum et contra
+          <lb ed="#P" n="90"/>dicta: ergo, etc. Confirmatur secundo: 
+          quo<lb break="no" ed="#P" n="91"/>niam in sensibus non desideratur aliquod ens
+          <lb ed="#P" n="92"/>separatum, quod perficiat species, sed in 
+          ex<lb break="no" ed="#P" n="93"/>terioribus ipsa externa sensibilia eas efficiunt,
+          <lb ed="#P" n="94"/>in interioribus autem virtus aliqua ipsius 
+          sen<lb break="no" ed="#P" n="95"/>tientis: idem ergo erit in intellectu possibih,
+          <lb ed="#P" n="96"/>probatio tamen Aristotelica potissima est, 
+          at<lb break="no" ed="#P" n="97"/>que a priori.
+        </p>
+        <p xml:id="szdada-y18206-d1e388">
+          <lb ed="#P" n="98"/>5. Instatur Aristotelis ratio. — Sustinetur
+          <lb ed="#P" n="99"/>tamen.—Dictum etiam est in disp. 150, 
+          Meta<lb break="no" ed="#P" n="100"/>physicae, sect. 4, n. 11.—At dices, illa ratione
+          <lb ed="#P" n="101"/>concludi non valet, intellectum agentem esse
+          <lb ed="#P" n="102"/>potentiam animae, sed esse tantum virtutem
+          <lb ed="#P" n="103"/>quamdam necessariam, ideoque a natura 
+          pro<lb break="no" ed="#P" n="104"/>visam pro illa ipsius actione, quemadmodum
+          <lb ed="#P" n="105"/>sensus etiam indigent virtute movente, quae
+          <lb ed="#P" n="106"/>tamen potentia animae non est, sed externum
+          <lb ed="#P" n="107"/>sensibile: coelum quoque indiget movente 
+          ali<lb break="no" ed="#P" n="108"/>quo, qui tamen potentia coelo interna dici
+          <lb ed="#P" n="109"/>non potest. Respondetur vero Aristotelis 
+          ra<lb break="no" ed="#P" n="110"/>tionem concludere propriam animae potentiam
+          <pb ed="#P" n="742"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ex illo principio in philosophia manifesto. 
+          Na<lb break="no" ed="#P" n="2"/>turam perfectam ab intrinseco habere cuncta
+          <lb ed="#P" n="3"/>necessaria ad suas actiones exercendas, quod
+          <lb ed="#P" n="4"/>plane instantiam non habet: adducta vero
+          <lb ed="#P" n="5"/>ad rem non faciunt: coelum enim non indiget
+          <lb ed="#P" n="6"/>motu ad propriam actionem et perfectionem,
+          <lb ed="#P" n="7"/>ut etiam diximus in lib. de Coelo, q. S. Quod si
+          <lb ed="#P" n="8"/>indigeret, argumentum certe concluderet 
+          mo<lb break="no" ed="#P" n="9"/>tum illius a virtute intrinseca proficisci, ut
+          <lb ed="#P" n="10"/>etiam ibi diximus: sensus porro externus cum
+          <lb ed="#P" n="11"/>proprium objectum sibi proportionatum 
+          ven<lb break="no" ed="#P" n="12"/>dicet, non eget activa vi specierum, neque 
+          ob<lb break="no" ed="#P" n="13"/>jectum ipsum censendum est extrinsecum
+          <lb ed="#P" n="14"/>agens, sed potius maxime connaturale 
+          poten<lb break="no" ed="#P" n="15"/>tiae cognoscitivae, unde si possibilis intellectus
+          <lb ed="#P" n="16"/>objectum sibi proportionatum sortiretur, non
+          <lb ed="#P" n="17"/>egeret plane intellectu agente: atque hinc
+          <lb ed="#P" n="18"/>etiam concludi potest hanc esse Aristotelis
+          <lb ed="#P" n="19"/>mentem, cum credendum non sit plus illum
+          <lb ed="#P" n="20"/>sua ratione conficere, quam intenderit: quod
+          <lb ed="#P" n="21"/>patet etiam ex ipsius verbis, quae scite notavit
+          <lb ed="#P" n="22"/>Philoponus primo, quia postquam docuit in
+          <lb ed="#P" n="23"/>omni natura esse agens et patiens, subdidit in
+          <lb ed="#P" n="24"/>citato, cap. 5, text. 17. Necesse esse has 
+          eas<lb break="no" ed="#P" n="25"/>dem differentias anime inesse - aperte igitur
+          <lb ed="#P" n="26"/>significat agentem intellectum in anima 
+          resi<lb break="no" ed="#P" n="27"/>dere, atque adeo potentiam illius esse: 
+          intel<lb break="no" ed="#P" n="28"/>ligentia vero separata in anima non existit.
+          <lb ed="#P" n="29"/>Secundo, quia si intellectus agens intelligentia
+          <lb ed="#P" n="30"/>aliqua foret, actu separata esset: Aristoteles
+          <lb ed="#P" n="31"/>vero solum dixit intellectum agentem esse
+          <lb ed="#P" n="32"/>separabilem: non sentit ergo esse 
+          intelligen<lb break="no" ed="#P" n="33"/>tiam: quare cum infra intellectum agentem
+          <lb ed="#P" n="34"/>separatum vocat, intelligit aperte separatum
+          <lb ed="#P" n="35"/>ab organo corporeo, cum sentiat esse 
+          poten<lb break="no" ed="#P" n="36"/>tiam spiritualem, ac minime organicam, cum
+          <lb ed="#P" n="37"/>vero ait esse separabilem, intelligit omnino
+          <lb ed="#P" n="38"/>a corpore per separationem animae, cui 
+          in<lb break="no" ed="#P" n="39"/>haeret.
+        </p>
+        <p xml:id="szdada-y18206-d1e508">
+          <lb ed="#P" n="40"/>6. Enodatur totus Aristotelis temtus circa
+          <lb ed="#P" n="41"/>utrumque intellectum.—N erba tamen, quae de
+          <lb ed="#P" n="42"/>hoc intellectu agente Aristoteles in textu 19,
+          <lb ed="#P" n="43"/>addit, immiatus est, et impatibilis, cum sit
+          <lb ed="#P" n="44"/>substantia actu ens, dificillima sunt, et ideo
+          <lb ed="#P" n="45"/>diversimode transferuntur et exponuntur 
+          Ar<lb break="no" ed="#P" n="46"/>gyropoli: ergo dicto modo vertit, Philoponus
+          <lb ed="#P" n="47"/>legit, et affectione vacuus cum substantia sit
+          <lb ed="#P" n="48"/>actu. Simplicius ita, em substantia actio 
+          exi<lb break="no" ed="#P" n="49"/>stens. Itaque duo hi posteriores philosophi 
+          ex<lb break="no" ed="#P" n="50"/>ponunt operationem potentiae esse ejus 
+          sub<lb break="no" ed="#P" n="51"/>stantiam, cumque intellectus agens potentia
+          <lb ed="#P" n="52"/>sit activa, ideo substantiam ejus dici actionem,
+          <lb ed="#P" n="53"/>hoc vero falsum est, quia in solo Deo ejus 
+          opera<lb break="no" ed="#P" n="54"/>tio est substantia, ut alibi docetur. S. Thomas,
+          <lb ed="#P" n="55"/>quem plerique sequuntur, exponit, est sub-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>stantia actus, id est, secundum essentiam suam
+          <lb ed="#P" n="57"/>(quae ibi substantia appellatur ) actus est, seu
+          <lb ed="#P" n="58"/>potentia activa. hatio expositionis redditur,
+          <lb ed="#P" n="59"/>quia illis verbis afferatur ab Aristotele causa,
+          <lb ed="#P" n="60"/>cur in illis actibus passione vacet intellectus,
+          <lb ed="#P" n="61"/>nempe quia non concurrit ad intelligendum,
+          <lb ed="#P" n="62"/>ut potentia recipiens, sed ut agens 
+          tantum<lb break="no" ed="#P" n="63"/>modo: unde substantia eo loco non importat
+          <lb ed="#P" n="64"/>rem de praedicamento illo, sed essentiam, vel
+          <lb ed="#P" n="65"/>entitatem, ut sensus sit, est substantia actus,
+          <lb ed="#P" n="66"/>id est, secundum entitatem suam actus est.
+          <lb ed="#P" n="67"/>Quae expositio omnium probabilissima 
+          vide<lb break="no" ed="#P" n="68"/>tur, stante communi illa Argyropoli 
+          transla<lb break="no" ed="#P" n="69"/>tione: possunt vero aliter transferri verba
+          <lb ed="#P" n="70"/>philosophi ut substantia non nominandi, sed
+          <lb ed="#P" n="71"/>gignendi casu legatur, hoc modo, est substantiee
+          <lb ed="#P" n="72"/>actus, id est, animae, qui principium agendi
+          <lb ed="#P" n="73"/>confert, videturque id litterae Graecae 
+          conso<lb break="no" ed="#P" n="74"/>num, nam vox Graeca significans substantiam
+          <lb ed="#P" n="75"/>non absolute ponitur, ut solet, in recto, sed ei
+          <lb ed="#P" n="76"/>additur articulus sequentis casus. Verba 
+          au<lb break="no" ed="#P" n="77"/>tem subjecta, nimirum, non quandoque 
+          intel<lb break="no" ed="#P" n="78"/>ligit, quandoque non intelligit, referenda non
+          <lb ed="#P" n="79"/>sunt ad intellectum agentem, de eo enim jam
+          <lb ed="#P" n="80"/>docuerat philosophus minime intelligere, eo
+          <lb ed="#P" n="81"/>quod non esset, omnia fieri, sed referenda ad
+          <lb ed="#P" n="82"/>scientiam in actu, dixerat enim scientiam in
+          <lb ed="#P" n="83"/>actu posteriorem esse scientia in potentia in
+          <lb ed="#P" n="84"/>eodem subjecto, addidit tamen non simpliciter
+          <lb ed="#P" n="85"/>et absolute, pro qua limitatione probanda 
+          sub<lb break="no" ed="#P" n="86"/>dit scientiam in actu, id est, actu scientem
+          <lb ed="#P" n="87"/>semper intelligere: nam licet unus, et idem
+          <lb ed="#P" n="88"/>non semper intelligat, absolute tamen inter
+          <lb ed="#P" n="89"/>habentes scientiam nunquam deest, qui actu
+          <lb ed="#P" n="90"/>intelligat, atque ita simpliciter loquendo non
+          <lb ed="#P" n="91"/>est prior scientia, quam sciendi actus. Sic 
+          ex<lb break="no" ed="#P" n="92"/>ponunt in citato loco Philoponus, et S. 
+          Tho<lb break="no" ed="#P" n="93"/>mas, ac rursum de Spiritualibus creaturis 10,
+          <lb ed="#P" n="94"/>ad 3, et de Anima, a. 5, ad 1. Aliam quoque
+          <lb ed="#P" n="95"/>expositionem tradit idem S. Doctor, 1 p.. q.79,
+          <lb ed="#P" n="96"/>a. 4, ad 2, q. 10, de Veritate, a. 8, ad 
+          ulti<lb break="no" ed="#P" n="97"/>mum, quae tamen non videtur adeo consona
+          <lb ed="#P" n="98"/>litterae.
+        </p>
+        <p xml:id="szdada-y18206-d1e641">
+          <lb ed="#P" n="99"/>T. Ulterior enodatio.— Phantasia quo sensu
+          <lb ed="#P" n="100"/>appelletur intellectus patibilis. —Sunt et alia,
+          <lb ed="#P" n="101"/>quae Aristoteles in capite subjicit in haec verba,
+          <lb ed="#P" n="102"/>Separatus autem, id est, solum quod est, atque
+          <lb ed="#P" n="103"/>id solum est immortale, perpetuumque, qui 
+          ta<lb break="no" ed="#P" n="104"/>men non recordatur, quia est impassibilis: 
+          in<lb break="no" ed="#P" n="105"/>tellectus aute passibilis corrumpitur, sine quo
+          <lb ed="#P" n="106"/>nihil iutelligit anima: difficilia valde. Etenim
+          <lb ed="#P" n="107"/>non constat, quid intelligat per verbum 
+          sepa<lb break="no" ed="#P" n="108"/>ratus, an ne intellectum agentem, an vero
+          <lb ed="#P" n="109"/>possibilem: unde etiam obscurum est. cui 
+          tri<lb break="no" ed="#P" n="110"/>buat immortalitatem, cui vero mortalitatem :
+          <pb ed="#P" n="743"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>videntur ergo interpretanda citata verba in
+          <lb ed="#P" n="2"/>hunc modum. Sola pars animae, quae 
+          intellec<lb break="no" ed="#P" n="3"/>tiva et separata manet, immortalis est, sub
+          <lb ed="#P" n="4"/>qua certe parte intellectus agens, atque 
+          possi<lb break="no" ed="#P" n="5"/>bilis comprehenduntur: atque adeo dictio 
+          so<lb break="no" ed="#P" n="6"/>lum partes caeteras animae excludit, sensitivam
+          <lb ed="#P" n="7"/>scilicet ac vegetativam: praedictaque pars est
+          <lb ed="#P" n="8"/>id, quod est, seu subsistens et perse intelligens,
+          <lb ed="#P" n="9"/>quae cum superata invenitur, non recordatur,
+          <lb ed="#P" n="10"/>eo scilicet modo quo in corpore: cum non
+          <lb ed="#P" n="11"/>intelligat ministerio phantasiae: siquidem ista
+          <lb ed="#P" n="12"/>in separatione animae corrumpitur. Unde non
+          <lb ed="#P" n="13"/>male dicitur intellectus ille patibilis, qui 
+          cor<lb break="no" ed="#P" n="14"/>rumpitur, intellectus quidem, quia intellectui
+          <lb ed="#P" n="15"/>ministrat, et nonnihil rationis participat, dum
+          <lb ed="#P" n="16"/>rationi subditur, et ab ea dirigitur, ut idem
+          <lb ed="#P" n="17"/>Aristoteles observavit 1, Ethic., c. ult., et l. 6,
+          <lb ed="#P" n="18"/>c. 1, patibilis autem, vel quia proprie pati 
+          po<lb break="no" ed="#P" n="19"/>test, phantasmata impressa, expressaque 
+          reci<lb break="no" ed="#P" n="20"/>piendo, vel quia ejus operatio non sine 
+          passio<lb break="no" ed="#P" n="21"/>nibus, vel odii exercetur, etc., ut 1, de Anima,
+          <lb ed="#P" n="22"/>textu 66, habetur. Atque ita exponunt 
+          Philo<lb break="no" ed="#P" n="23"/>ponus et S. Thomas. In qua tamen expositione
+          <lb ed="#P" n="24"/>unus restat scrupulus, quia ejusdem vocis
+          <lb ed="#P" n="25"/>sequivocationem admittit in uno contextu :
+          <lb ed="#P" n="26"/>nam in principio capitis intellectus possibilis
+          <lb ed="#P" n="27"/>accipitur pro vera potentia intellectiva et 
+          spiri<lb break="no" ed="#P" n="28"/>tuali:in fineautem pro imaginatione, seu 
+          phan<lb break="no" ed="#P" n="29"/>tasiacorruptibili et corporea.Occurrendum vero
+          <lb ed="#P" n="30"/>nunquam intellectum spiritualem dici 
+          patibi<lb break="no" ed="#P" n="31"/>lem, sed absolute intellectum, qui sit omnia
+          <lb ed="#P" n="32"/>fier, postea vero addi vocem patibilis, ad 
+          os<lb break="no" ed="#P" n="33"/>tendendum, non ibi jam sermonem haberi de
+          <lb ed="#P" n="34"/>priori intellectu, sed de phantasia: quia patet
+          <lb ed="#P" n="35"/>etiam ex adjunctis verbis, et sine hoc nihil
+          <lb ed="#P" n="36"/>intelli git anima, quae otiosa essent, si 
+          loque<lb break="no" ed="#P" n="37"/>retur philosophus de potentia vere intellectiva:
+          <lb ed="#P" n="38"/>clarissimum quippe erat sine intellectu 
+          uemi<lb break="no" ed="#P" n="39"/>nem posse intelligere: loquitur ergo de 
+          phan<lb break="no" ed="#P" n="40"/>tasia, sine qua etiam nihil intelligimus in hac
+          <lb ed="#P" n="41"/>vita: alia de hac re adduxi, 1. 1, c. 11, 
+          trac<lb break="no" ed="#P" n="42"/>tando de spiritualitate, immortalitateque 
+          prin<lb break="no" ed="#P" n="43"/>cipii intelligendi hominis: sed nunc data 
+          ex<lb break="no" ed="#P" n="44"/>positio videtur potissima.
+        </p>
+        <p xml:id="szdada-y18206-d1e769">
+          <lb ed="#P" n="45"/>8. Corollarium triplea ea dictis. —Ex 
+          deci<lb break="no" ed="#P" n="46"/>sione hujus dubii sequitur primo intellectum
+          <lb ed="#P" n="47"/>agentem et possibilem non esse unum 
+          eum<lb break="no" ed="#P" n="48"/>demque in omnibus hominibus, sed 
+          multipli<lb break="no" ed="#P" n="49"/>cari pro multiplicatione animarum, de quo
+          <lb ed="#P" n="50"/>etiam superius, citato libro 1, cap. 12, 
+          memi<lb break="no" ed="#P" n="51"/>nimus: nam multiplicata forma, 
+          multiplican<lb break="no" ed="#P" n="52"/>tur consequenter ejus potentiae. Secundo 
+          se<lb break="no" ed="#P" n="53"/>quitur intellectum agentem potentiam 
+          orga<lb break="no" ed="#P" n="54"/>nicam non esse, sicut de intellectu possibili
+          <lb ed="#P" n="55"/>eodem in lib. cap. 9, ostendimus, sunt nimi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rum spirituales, quoniam ad actus spirituales
+          <lb ed="#P" n="57"/>immanenter eliciendos ordinantur. Tertio 
+          se<lb break="no" ed="#P" n="58"/>quitur intellectum agentem ut sic esse tantum
+          <lb ed="#P" n="59"/>potentiam activam: possibilem vero esse 
+          pas<lb break="no" ed="#P" n="60"/>sivam simul, atque activam, ut dictum est,
+          <lb ed="#P" n="61"/>lib. 3, cap. 4.
+        </p>
+        <p xml:id="szdada-y18206-d1e812">
+          <lb ed="#P" n="62"/>9. Secundum dubium hujus capitis. —
+          Du<lb break="no" ed="#P" n="63"/>bium deinde secundum est de iisdem 
+          intellec<lb break="no" ed="#P" n="64"/>tibus, an uterque sit lumen: Aristoteles 
+          qui<lb break="no" ed="#P" n="65"/>dem agentem intellectum lumen vocat, idem
+          <lb ed="#P" n="66"/>vero sentiendum de possibili, licet diversa 
+          ra<lb break="no" ed="#P" n="67"/>üone: notandum est enim ex D. Thoma, 1 p.,
+          <lb ed="#P" n="68"/>q. 71, art. 1, licet lumen primo sit dictum de
+          <lb ed="#P" n="69"/>materiali hoc, atque tangibili, nomen tamen
+          <lb ed="#P" n="70"/>translatum fuisse ad spiritualia, non 
+          metapho<lb break="no" ed="#P" n="71"/>rice, sed proprie, cum lumen proprie sit 
+          quid<lb break="no" ed="#P" n="72"/>quid manifestativum est, juxta illud ad Eph. 5:
+          <lb ed="#P" n="73"/>Omnia,que argwuntur manifestantur a 
+          lumine<lb break="no" ed="#P" n="74"/>manifestatio autem etiam in rebus 
+          spirituali<lb break="no" ed="#P" n="75"/>bus proprie reperitur. Imprimis ergo 
+          intellec<lb break="no" ed="#P" n="76"/>tus agens lumen dicitur manifestans rem 
+          pos<lb break="no" ed="#P" n="77"/>sibili, intellectui nimirum in actu primo, 
+          qua<lb break="no" ed="#P" n="78"/>tenus producit inillo species rerum: quo etiam
+          <lb ed="#P" n="79"/>modo dicitur manifestare, seu illustrare 
+          phan<lb break="no" ed="#P" n="80"/>tasmata, ut c. 2, hujus libri expositum est,
+          <lb ed="#P" n="81"/>neque alia profecto illuminatio procedit ab
+          <lb ed="#P" n="82"/>intellectu agente, quia neque in phantasmate
+          <lb ed="#P" n="83"/>Iumen aliquod producit, neque item medio,
+          <lb ed="#P" n="84"/>cum nullum tale sit, per quod cognitio 
+          intel<lb break="no" ed="#P" n="85"/>lectualis diffundatur: nec vero in intellectu
+          <lb ed="#P" n="86"/>possibili lumen aliud producit, quam species:
+          <lb ed="#P" n="87"/>quia neque ipse possibilis alio indiget, neque
+          <lb ed="#P" n="88"/>illuminatio materialis in rebus spiritualibus
+          <lb ed="#P" n="89"/>fingenda est. Inferes: ergo etiam quodlibet
+          <lb ed="#P" n="90"/>objectum sensibile dici poterit lumen, 
+          quate<lb break="no" ed="#P" n="91"/>nus producendo species sui seipsum sensui 
+          ma<lb break="no" ed="#P" n="92"/>nifestat. Illatio quidem in rigore admittenda
+          <lb ed="#P" n="93"/>esset, si usus ferret. Fortasse tamen lumen
+          <lb ed="#P" n="94"/>magis dicitur de his, quae alia, non quae seipsa
+          <lb ed="#P" n="95"/>manifestant. Deinde intellectus possibilis 
+          lu<lb break="no" ed="#P" n="96"/>men quoddam est manifestans veritatem in
+          <lb ed="#P" n="97"/>rebus, et judicium ferens de illis.
+        </p>
+        <p xml:id="szdada-y18206-d1e893">
+          <lb ed="#P" n="98"/>10. Objectio. — Solutio. — Intellectus agens
+          <lb ed="#P" n="99"/>quomodo dicatur illuminare prima principia.
+          <lb ed="#P" n="100"/>— Dices ergo etiam intellectus agens tale 
+          ali<lb break="no" ed="#P" n="101"/>quod lumen erit: is namque intellectus 
+          com<lb break="no" ed="#P" n="102"/>muniter dicitur illuminare prima principia, et
+          <lb ed="#P" n="103"/>ex consequenti conclusione, illis mediantibus.
+          <lb ed="#P" n="104"/>Hinc S. Thomas, in 3, dist. 14, quaest. 3, art.
+          <lb ed="#P" n="105"/>primo, scribit lumen intellectus agentis et 
+          in<lb break="no" ed="#P" n="106"/>telligibilis in actu efficere, et perficere 
+          intel<lb break="no" ed="#P" n="107"/>lectum possibilem ad cognoscendum: prima
+          <lb ed="#P" n="108"/>etiam parte, q. 97, a. 5, ad 3, ait, cognitionem
+          <lb ed="#P" n="109"/>primorum principiorum esse communem nobis
+          <lb ed="#P" n="110"/>omnibus, quia illius actionis causa, qua est in-
+          <pb ed="#P" n="744"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tellectus agens, omnibus inest, et q. 106, a.1:
+          <lb ed="#P" n="2"/>docet lumen, quodad intellectum pertinet, nihil
+          <lb ed="#P" n="3"/>esse aliud, quam manifestationem quamdam
+          <lb ed="#P" n="4"/>veritatis, et 2, contra Gentes, c. 78, ratione 3,
+          <lb ed="#P" n="5"/>ait habitum principiorum intellectus agentis
+          <lb ed="#P" n="6"/>effectum esse. Occurrendum tamen intellectum
+          <lb ed="#P" n="7"/>agentem circaprincipia primanullam aliam 
+          cau<lb break="no" ed="#P" n="8"/>salitatem vendicare, quam ut producat species
+          <lb ed="#P" n="9"/>repraesentantes eorum terminos, manifestare
+          <lb ed="#P" n="10"/>autem, atque ostendere necessariam 
+          connexio<lb break="no" ed="#P" n="11"/>nem talium extremorum esse munus 
+          intellec<lb break="no" ed="#P" n="12"/>tus possibilis: etenim manifestatio haec, aut
+          <lb ed="#P" n="13"/>actualis est, sicque formaliter efficitur per 
+          ac<lb break="no" ed="#P" n="14"/>tum cognoscendi (ipsa quippe actualis 
+          cogni<lb break="no" ed="#P" n="15"/>tio manifestatio est): aut est habitualis et 
+          ef<lb break="no" ed="#P" n="16"/>fectiva, atque ita a solo fit intellectu possibili
+          <lb ed="#P" n="17"/>specie informato: ipse enim actum cognitionis
+          <lb ed="#P" n="18"/>elicit, intellectus vero agens remote solum
+          <lb ed="#P" n="19"/>concurrit producendo species. Quod etiam 
+          con<lb break="no" ed="#P" n="20"/>firmatur: tum quia intellectus agens, ut sic,
+          <lb ed="#P" n="21"/>potentia non est cognoscitiva: tum quia 
+          prin<lb break="no" ed="#P" n="22"/>cipia cognitis terminis cognoscuntur 1, 
+          Pos<lb break="no" ed="#P" n="23"/>teriorum, cap. secundo, non cognoscuntur 
+          au<lb break="no" ed="#P" n="24"/>tem ab intellectu agente, sed a possibili, posita
+          <lb ed="#P" n="25"/>solum productione specierum per ipsum 
+          agen<lb break="no" ed="#P" n="26"/>tem, ad quam solam exercendam introductus
+          <lb ed="#P" n="27"/>fuit a philosophis, neque aliter cognitioni 
+          de<lb break="no" ed="#P" n="28"/>servire dici potest: tum denique, quia 
+          intel<lb break="no" ed="#P" n="29"/>lectus possibilis sufficiens ad assentiendum
+          <lb ed="#P" n="30"/>primis principiis, sicut voluntas ad amandum
+          <lb ed="#P" n="31"/>finem ultimum ; nec ratio ulla urget in 
+          con<lb break="no" ed="#P" n="32"/>trarium: et S. Thomas interpretandus erit,
+          <lb ed="#P" n="33"/>ut primo loco agat de perfectione in actu 
+          pri<lb break="no" ed="#P" n="34"/>mo, quam intellectus possibilis ab agente 
+          re<lb break="no" ed="#P" n="35"/>cipit. In secundo, ut velit intellectum agentem
+          <lb ed="#P" n="36"/>esse quidem principium illius actionis, 
+          quate<lb break="no" ed="#P" n="37"/>nus tamen ministrat species terminorum, 
+          qui<lb break="no" ed="#P" n="38"/>bus cognitis principia cognoscuntur: 
+          eo<lb break="no" ed="#P" n="39"/>demque modo loquitur in quarto loco, ut seipse
+          <lb ed="#P" n="40"/>exponit, dum ait habitum principiorum 
+          effec<lb break="no" ed="#P" n="41"/>tum esse intellectus agentis, quatenus ab illo
+          <lb ed="#P" n="42"/>phantasmata illuminantur. Jam vero in tertio
+          <lb ed="#P" n="43"/>loco manifeste procedit de lumine intellectus
+          <lb ed="#P" n="44"/>possibilis: quare, etc.
+        </p>
+        <p xml:id="szdada-y18206-d1e1023">
+          <lb ed="#P" n="45"/>11. Tertium dubium hujus capitis. — 
+          Con<lb break="no" ed="#P" n="46"/>sulatur auctor, disp. A8, Metaphysicee, et d. 43,
+          <lb ed="#P" n="47"/>sect. 9. numn. 14. — Tertium dubium est, quis
+          <lb ed="#P" n="48"/>praedictorum intellectuum sit perfectior 
+          poten<lb break="no" ed="#P" n="49"/>tia: nam Aristoteles, citato capite quinto, libri
+          <lb ed="#P" n="50"/>tertii de Anima, agentem praeferre videtur:
+          <lb ed="#P" n="51"/>Agens enim, inquit, in omn natura 
+          prestabi<lb break="no" ed="#P" n="52"/>lius est patiente: quod etiam usurpat D. 
+          Au<lb break="no" ed="#P" n="53"/>gustinus 12, super Gen. ad litter., cap. 16. Et
+          <lb ed="#P" n="54"/>ratione arguitur. Nam potentia, quae ordinatur
+          <lb ed="#P" n="55"/>ad praestandum alteri complementum, perfec-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tior est, intellectus vero agens complementum
+          <lb ed="#P" n="57"/>possibili praestat. Atque ita credunt nonnulli
+          <lb ed="#P" n="58"/>Thomistarum, inter quos est Ferrarius 3, de
+          <lb ed="#P" n="59"/>Anima, quaest. 9, quibus patrocinatur D. 
+          Tho<lb break="no" ed="#P" n="60"/>mas, in 2, d. 20, quaest. 2, art. 2, et quaest. 10,
+          <lb ed="#P" n="61"/>de Verit., art. 8. Resolvendum tamen 
+          possibi<lb break="no" ed="#P" n="62"/>lem simpliciter esse nobiliorem. Primo, quia
+          <lb ed="#P" n="63"/>ejus actio, nimirum intellectio, nobilissima est,
+          <lb ed="#P" n="64"/>nec talis ulla prodit ab intellectu agente. 
+          Se<lb break="no" ed="#P" n="65"/>cundo per intellectum possibilem est noster
+          <lb ed="#P" n="66"/>animus capax divinae visionis, in qua beatitudo
+          <lb ed="#P" n="67"/>hominis consistit. Tertio intellectus agens non
+          <lb ed="#P" n="68"/>nisi ut instrumentum quoddam datum est
+          <lb ed="#P" n="69"/>praeparandis possibili speciebus. Quarto 
+          secun<lb break="no" ed="#P" n="70"/>dum intellectum possibilem maxime Deo et
+          <lb ed="#P" n="71"/>Angelis assimilatur. Et ipse per se loquendo
+          <lb ed="#P" n="72"/>consequitur naturam substantie spiritualis,
+          <lb ed="#P" n="73"/>intellectus vero agens veluti per accidens, ut
+          <lb ed="#P" n="74"/>scilicet defectum objectorum materialium 
+          sup<lb break="no" ed="#P" n="75"/>pleat. Est ergo sine dubio intellectus possibilis
+          <lb ed="#P" n="76"/>absolute perfectior, quanquam prout in 
+          poten<lb break="no" ed="#P" n="77"/>tia est, ad species, quas agens producit, 
+          vendi<lb break="no" ed="#P" n="78"/>cet hic non multum excessum, quod plane
+          <lb ed="#P" n="79"/>sufficit instituto Aristotelis, non enim semper
+          <lb ed="#P" n="80"/>agens simpliciter perfectius est patiente, sed
+          <lb ed="#P" n="81"/>qua agens est tantummodo.
+        </p>
+        <p xml:id="szdada-y18206-d1e1108">
+          <lb ed="#P" n="82"/>12. Quartum dubium hujus capitis, pars 
+          af<lb break="no" ed="#P" n="83"/>firmmans. — Quartum dubium est, an hi duo
+          <lb ed="#P" n="84"/>intellectus realiter distinguantur: nam dicta
+          <lb ed="#P" n="85"/>omnia id supponere videntur, certe Aristoteles,
+          <lb ed="#P" n="86"/>ac S. Thomas de his loquuntur, quasi de rebus
+          <lb ed="#P" n="87"/>distinctis. Ratione probatur: quoniam actus
+          <lb ed="#P" n="88"/>harum potentiarum sunt longe diversi, 
+          prin<lb break="no" ed="#P" n="89"/>cipium enim agendi et patiendi realiter 
+          distin<lb break="no" ed="#P" n="90"/>guuntur, sed intellectus agens est principium
+          <lb ed="#P" n="91"/>agendi, possibilis patiendi: ergo, etc. 
+          Probabi<lb break="no" ed="#P" n="92"/>lis quidem opinio haec quam innuit S. Thomas,
+          <lb ed="#P" n="93"/>quaest. 79, art. 7, in 1 p., et in 2, d. 17, q.2,
+          <lb ed="#P" n="94"/>art. 4, tenentque universa ejus schola, et 
+          Mar<lb break="no" ed="#P" n="95"/>silius Ficinus, lib. 15, de Theologia Platonis.
+          <lb ed="#P" n="96"/>Potest etiam ex dictis explicari et confirmari:
+          <lb ed="#P" n="97"/>nam potentia cognoscitiva solum est receptiva
+          <lb ed="#P" n="98"/>specierum, et operativa per easdem, non autem
+          <lb ed="#P" n="99"/>activa illarum, sed principium agendi illas, est
+          <lb ed="#P" n="100"/>diversum a potentia cognoscente, prout haec
+          <lb ed="#P" n="101"/>omnia patent in sensibus: ergo idem 
+          creden<lb break="no" ed="#P" n="102"/>dum erit in intellectu: nam ex sensibus 
+          in<lb break="no" ed="#P" n="103"/>telligibilia sunt investiganda.
+        </p>
+        <p xml:id="szdada-y18206-d1e1158">
+          <lb ed="#P" n="104"/>13. Pars negans probabilior. — Opposita 
+          ta<lb break="no" ed="#P" n="105"/>men sententia est valde probabilis, quam 
+          te<lb break="no" ed="#P" n="106"/>nent alii non ignobiles scriptores. Major in 2.
+          <lb ed="#P" n="107"/>d. 16, quaest. unic. Abulensis, Exod. 23. q. 70,
+          <lb ed="#P" n="108"/>Niphus, lib. de Intell., tract. 4, cap. 21. Eo
+          <lb ed="#P" n="109"/>fundamento, quod absque distinctione reali
+          <lb ed="#P" n="110"/>facile possit intelligi munus intellectus agentis,
+          <pb ed="#P" n="745"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>eadem enim potentia activa esse valet 
+          specie<lb break="no" ed="#P" n="2"/>rum, et ut sic intellectus agens appellari: et
+          <lb ed="#P" n="3"/>rursum operativa per illas, sicque dici 
+          intel<lb break="no" ed="#P" n="4"/>lectus possibilis, neque in actibus spiritualibus
+          <lb ed="#P" n="5"/>principium agendi et recipiendi oportere 
+          dis<lb break="no" ed="#P" n="6"/>tingui, ut alibi traditur. Secundo, quia 
+          mul<lb break="no" ed="#P" n="7"/>tarum species potest intellectus possibilis sibi
+          <lb ed="#P" n="8"/>formare, ut ex supradictis patet: ergo si vim
+          <lb ed="#P" n="9"/>activam habet specierum quarumdam, omnium
+          <lb ed="#P" n="10"/>plane habere poterit. Tertio intellectus noster
+          <lb ed="#P" n="11"/>quasi medius est inter intellectum angelicum
+          <lb ed="#P" n="12"/>et sensum, ille enim natura sua inditas habet
+          <lb ed="#P" n="13"/>species omnium rerum, ac si ab intellectu 
+          ins<lb break="no" ed="#P" n="14"/>tar passionum dimanarent, potentiae autem
+          <lb ed="#P" n="15"/>sensitivae maxime exteriores et speciebus 
+          ca<lb break="no" ed="#P" n="16"/>rent, et illas ab extrinsecis objectis recipiunt,
+          <lb ed="#P" n="17"/>intellectus vero noster, et speciebus caret a
+          <lb ed="#P" n="18"/>principio, in quo a perfectione Angeli 
+          decli<lb break="no" ed="#P" n="19"/>nat, et quamdam habet convenientiam cum
+          <lb ed="#P" n="20"/>illo: statim enim, ac anima ipsa quippiam 
+          co<lb break="no" ed="#P" n="21"/>gnoscit per phantasiam, ab ipso intellectu 
+          ma<lb break="no" ed="#P" n="22"/>nat species id repraesentans. Quare eflicientia
+          <lb ed="#P" n="23"/>haec quodammodo se habet instar emapationis
+          <lb ed="#P" n="24"/>speciei ab intellectu, atque ita potentia 
+          dis<lb break="no" ed="#P" n="25"/>tincta non procedit talis efficientia. 
+          Confirma<lb break="no" ed="#P" n="26"/>tur, quoniam intellectus agens post hanc vitam
+          <lb ed="#P" n="27"/>semper actione carebit, quod inconveniens
+          <lb ed="#P" n="28"/>censetur si potentia est distincta realiter: erit
+          <lb ed="#P" n="29"/>ergo virtus ejusdem potentiae. Itaque universa,
+          <lb ed="#P" n="30"/>quae de utroque intellectu dicuntur, de duplici
+          <lb ed="#P" n="31"/>ejusdem potentiae vi facile dici possunt, quae
+          <lb ed="#P" n="32"/>certe opinio verior apparet, quamvis nihil 
+          cer<lb break="no" ed="#P" n="33"/>tum se offerat: an autem distinctio formalis
+          <lb ed="#P" n="34"/>saltem sit admittenda, dicetur inferius.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

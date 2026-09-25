@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="170"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y04244"><!-- t2l3c1 -->
+        <head xml:id="szdada-y04244-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-y04244-Hd1e103" type="question-title">Utrum corpus adae fuerit immediate a deo ex limo terrae productum</head>
+        <p xml:id="szdada-y04244-d1e106">
+          <lb ed="#P" n="39"/>CAPUT I.
+          <lb ed="#P" n="40"/>UTRUM CORPUS ADAE FUERIT IMMEDIATE A DEO EX
+          <lb ed="#P" n="41"/>LIMO TERRAE PRODUCTUM.
+        </p>
+        <p xml:id="szdada-y04244-d1e115">
+          <lb ed="#P" n="42"/>1. Delirium Georgii Venati apud Senensem.
+          <lb ed="#P" n="43"/>— Confutatur multipliciter. — Cum Moyses
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="44"/>Genes. 1, solum dixisset, creavit Deus 
+          ho<lb break="no" ed="#P" n="45"/>minem, modum creationis ejus declarat 
+          sta<lb break="no" ed="#P" n="46"/>tim cap. 2, dicens: Formarvit Dominus Deus
+          <lb ed="#P" n="47"/>hominem de limo terre. Ex qua narratione 
+          oc<lb break="no" ed="#P" n="48"/>casionem fortasse sumpsit Franciscus 
+          Geor<lb break="no" ed="#P" n="49"/>gius, tomo 1 Probiematum, capite 27, ut 
+          re<lb break="no" ed="#P" n="50"/>fert Sixtus Senensis, libro 5 Biblioth., 
+          an<lb break="no" ed="#P" n="51"/>not. 29, ut diceret Deum prius creasse 
+          ho<lb break="no" ed="#P" n="52"/>minem communem, et reipsa ab individuis
+          <lb ed="#P" n="53"/>abstractum: et deinde fecisse illum 
+          particula<lb break="no" ed="#P" n="54"/>rem, quando ex limo formavit. Haec tamen
+          <lb ed="#P" n="55"/>sententia erronea est, et rationi etiam naturali
+          <lb ed="#P" n="56"/>repugnat, quia omnis productio et creatio
+          <lb ed="#P" n="57"/>necessario esse debet alicujus rei singularis.
+          <lb ed="#P" n="58"/>Imo omnino repugnat rem existentem in 
+          re<lb break="no" ed="#P" n="59"/>rum natura singularem non esse: creatio 
+          au<lb break="no" ed="#P" n="60"/>tem ad rem existentem terminatur: ergo cum
+          <lb ed="#P" n="61"/>Scriptura dicit DEUM creasse hominem, de
+          <lb ed="#P" n="62"/>individuo aliquo humanae naturae loquitur.
+          <lb ed="#P" n="63"/>Deinde in eodem capite primo, statim subdit
+          <lb ed="#P" n="64"/>masculum et faeminam creavit eos: at vero in
+          <lb ed="#P" n="65"/>homine in communi non distinctio sexuum:
+          <lb ed="#P" n="66"/>ergo intelligit creasse hominem in suis 
+          indivi<lb break="no" ed="#P" n="67"/>duis ad generandum idoneis: nam statim 
+          il<lb break="no" ed="#P" n="68"/>lis dixit: Crescite et multiplicamini: generatio
+          <lb ed="#P" n="69"/>autem non est nisi a singulari supposito. 
+          De<lb break="no" ed="#P" n="70"/>nique etiam in posteriori loco dicitur Deus 
+          for<lb break="no" ed="#P" n="71"/>masse hominem de limo, sub eodem communi
+          <lb ed="#P" n="72"/>nomine, sub quo prius dictum fuerat creasse
+          <lb ed="#P" n="73"/>hominem: ergo frustra fingitur illa distinctio,
+          <lb ed="#P" n="74"/>vel differentia. De eadem igitur productione
+          <lb ed="#P" n="75"/>in utroque loco sermo est, sed quod prius 
+          mi<lb break="no" ed="#P" n="76"/>nus distincte fuerat dictum, postea magis 
+          de<lb break="no" ed="#P" n="77"/>claratur. Unde in prioribus verbis confuse 
+          vide<lb break="no" ed="#P" n="78"/>tur esse sermo de creatione tam Adami, quam
+          <lb ed="#P" n="79"/>Evae; in posteriori vero Adae formatio, deinde
+          <lb ed="#P" n="80"/>productio Evae describitur.
+        </p>
+        <p xml:id="szdada-y04244-d1e204">
+          <lb ed="#P" n="81"/>2. Assertio prima.—Probatur ex Scriptura.
+          <lb ed="#P" n="82"/>—Hinc ergo dicimus primo, Adam quoad 
+          cor<lb break="no" ed="#P" n="83"/>pus non fuisse ex nihilo productum, sed ex
+          <lb ed="#P" n="84"/>limo terrae formatum. Hoc certum est ex 
+          pre<lb break="no" ed="#P" n="85"/>dictis verbis Gen. 2, nam in eis de sola for-
+          <pb ed="#P" n="171"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>matione Adae sermo est, quia productio Evae
+          <lb ed="#P" n="2"/>postea describitur, ut capite sequenti 
+          videbi<lb break="no" ed="#P" n="3"/>mus. Unde Job. 8, dicitur: Tu fecisti Adam
+          <lb ed="#P" n="4"/>de limo terre, dedistique ei adjutorium Evam.
+          <lb ed="#P" n="5"/>Ubi distinguitur Adam ab Eva, et solus Adam
+          <lb ed="#P" n="6"/>dicitur de limo terrae formatus, taciteque 
+          ex<lb break="no" ed="#P" n="7"/>ponitur locis Genes., ut licet de homine 
+          abso<lb break="no" ed="#P" n="8"/>lute loquatur, de solo primo, scilicet viro 
+          in<lb break="no" ed="#P" n="9"/>telligendum sit. Unde m Hebraeo legitur Adam.
+          <lb ed="#P" n="10"/>Nomine autem limi terree significatur pulvis
+          <lb ed="#P" n="11"/>terrae aquae admixtus. Nam licet de pulvere
+          <lb ed="#P" n="12"/>solum mentionem fecerint Septuaginta, 
+          dicen<lb break="no" ed="#P" n="13"/>tes: F'inrit Deus hominem, pulvere de terra
+          <lb ed="#P" n="14"/>sunpto, tamen Augustinus, lib. 13, de Civit.,
+          <lb ed="#P" n="15"/>c. 24, recte notat non esse intelligendum de
+          <lb ed="#P" n="16"/>solo pulvere, et omnino sicco, sed humiditate
+          <lb ed="#P" n="17"/>aquae admixto et concreto, ut esset ad 
+          for<lb break="no" ed="#P" n="18"/>mandum solidum corpus, quale est humanum,
+          <lb ed="#P" n="19"/>accommodatum ; et considerat, ad hoc 
+          signi<lb break="no" ed="#P" n="20"/>ficandum, proxime ante illa verba, formavit,
+          <lb ed="#P" n="21"/>etc., illa fuisse praemissa, Fons ascendebat de
+          <lb ed="#P" n="22"/>terra, irrigans universam faciem terrae, nam
+          <lb ed="#P" n="23"/>per haec indicatur, jam fuisse terram quasi
+          <lb ed="#P" n="24"/>praeparatam et dispositam, ut ex ea corpus
+          <lb ed="#P" n="25"/>hominis commode formari posset, et ipsum 
+          no<lb break="no" ed="#P" n="26"/>men /imi, hoc ipsum declarat, nam proprie
+          <lb ed="#P" n="27"/>lutum molle et humidum, quod ab aquis 
+          dif<lb break="no" ed="#P" n="28"/>ferri solet, significat, ut ex proprictate Latina
+          <lb ed="#P" n="29"/>constat, et ideo Isaia, c. 64, dicebat, Pater
+          <lb ed="#P" n="30"/>noster es tu, et nos lutum, et fictor noster tu,
+          <lb ed="#P" n="31"/>etc. Et eadem comparatione luti, et figuli
+          <lb ed="#P" n="32"/>utitur Jer. c. 18, et Paul. ad Rom. 9, qui in
+          <lb ed="#P" n="33"/>eodem sensu dixit: Primus homo de terra 
+          ier<lb break="no" ed="#P" n="34"/>renus,1, Cor. 15. Denique congruentiam, quasi
+          <lb ed="#P" n="35"/>litteralem hujus materiae ad formandum 
+          pri<lb break="no" ed="#P" n="36"/>mum hominis corpus reddit D. Thomas, quia
+          <lb ed="#P" n="37"/>in substantia corporis humani terra, et aqua
+          <lb ed="#P" n="38"/>praedominantur, ut possint temperare vim 
+          ae<lb break="no" ed="#P" n="39"/>ris et ignis, id est, caloris et humidi, in 
+          qui<lb break="no" ed="#P" n="40"/>bus vita consistit, ideoque limus terrae fuit apta
+          <lb ed="#P" n="41"/>materia ad corpus humanum formandum, ut
+          <lb ed="#P" n="42"/>D. Thomas, ibidem in solutionibus 
+          argumen<lb break="no" ed="#P" n="43"/>torum latius declarat, et Cajetanus, magis 
+          ex<lb break="no" ed="#P" n="44"/>ponit. Morales autem rationes illius materiae
+          <lb ed="#P" n="45"/>legi possunt in Basilio, hom. 11, in Exaemer.,
+          <lb ed="#P" n="46"/>ürysostomo, homil. 12, in Gen., circa fin.,
+          <lb ed="#P" n="47"/>Ambrosio, lib. 6, Exaemer., capit. 8 et 9, et
+          <lb ed="#P" n="48"/>Bonaventura, in 2, dist. 17, art. 2. quaest. 1.
+        </p>
+        <p xml:id="szdada-y04244-d1e327">
+          <lb ed="#P" n="49"/>3. Ea qua telluris gleba formatui sit 
+          cor<lb break="no" ed="#P" n="50"/>pus Ade. —Quorumdam existimatio. — 
+          Rejici<lb break="no" ed="#P" n="51"/>Lur.—J osephi sententza. — Non satisfacit.—
+          <lb ed="#P" n="52"/>Auctoris judicium. — Quae autem fuerit pars
+          <lb ed="#P" n="53"/>illa terrae, ex qua formatum fuit corpus Adae,
+          <lb ed="#P" n="54"/>incertum est. Dicunt vero aliqui sumptam
+          <lb ed="#P" n="55"/>fuisse illam terram ex quatuor extremis parti-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bus terrae, Oriente, Occidente, Meridie, et 
+          Sep<lb break="no" ed="#P" n="57"/>tentrione, quia in quatuor hltteris nominis
+          <lb ed="#P" n="58"/>A dam secundum idioma Graecum, illae quatuor
+          <lb ed="#P" n="59"/>partes orbis significantur, ut notat Augustinus,
+          <lb ed="#P" n="60"/>tractat. 9 et 10, in Joannem, et ita sentit Beda
+          <lb ed="#P" n="61"/>super Joannem, et tribuitur etiam Cypriano in
+          <lb ed="#P" n="62"/>tractatu de Montibus Sina et Sion, non longe
+          <lb ed="#P" n="63"/>a principio. Verumtamen licet dicti Patres 
+          il<lb break="no" ed="#P" n="64"/>lam mysticam etymologiam nominis Adam
+          <lb ed="#P" n="65"/>tradant, non tamen dicunt terram illam ex
+          <lb ed="#P" n="66"/>quatuor illis mundi partibus fuisse assumptam,
+          <lb ed="#P" n="67"/>neque unum ex alio sequitur. Nam Beda, ex
+          <lb ed="#P" n="68"/>expositione Gen., cap. 4, dicit, in quatuor illis
+          <lb ed="#P" n="69"/>litteris nominis Adam significatum esse, quod
+          <lb ed="#P" n="70"/>in quatuor mundi partibus dominaturus esset,
+          <lb ed="#P" n="71"/>et ibi ala mysteria in illis quatuor litteris 
+          con<lb break="no" ed="#P" n="72"/>siderat, quae pie potius excogitata, quam in
+          <lb ed="#P" n="73"/>nominis appellatione fundata esse existimo.
+          <lb ed="#P" n="74"/>Quia, ut dixit Hieronymus, in traditionibus
+          <lb ed="#P" n="75"/>Hebraicis, in principio, et lib. 1, contr. 
+          Jovi<lb break="no" ed="#P" n="76"/>vian., circa medium, et Epiphanius, in 
+          princi<lb break="no" ed="#P" n="77"/>pio, de Haeresibus, et Augustinus, lib. 15, de
+          <lb ed="#P" n="78"/>Civitate, cap. 17. Nomen Adam commune est,
+          <lb ed="#P" n="79"/>idem significans, quod homo, et ita non 
+          vide<lb break="no" ed="#P" n="80"/>tur peculiare mysterium continere, nam virum
+          <lb ed="#P" n="81"/>et foeminam, et omnes homines de se 
+          signifi<lb break="no" ed="#P" n="82"/>cat, juxta illud Genes. 5: Vocavit nomen eorum
+          <lb ed="#P" n="83"/>Adam. Nihilominus tamen addit Josephus, l. 1,
+          <lb ed="#P" n="84"/>Antiq., cap. 2, nomen Adam secundum 
+          He<lb break="no" ed="#P" n="85"/>braicam linguam hRufum significare, et ita
+          <lb ed="#P" n="86"/>fuisse appellatum primum hominem, quia e
+          <lb ed="#P" n="87"/>rufa humno fermenta est factus, talis enim est
+          <lb ed="#P" n="88"/>intacta terra, et vera. Unde etiam Beda supra
+          <lb ed="#P" n="89"/>inter alias illius nominis interpretationes 
+          po<lb break="no" ed="#P" n="90"/>nit, quod significet terram rubeam et 
+          sangui<lb break="no" ed="#P" n="91"/>neam. Sed quidquid sit de nominis ety mologia,
+          <lb ed="#P" n="92"/>aut significatione, de reipsa non video, cur
+          <lb ed="#P" n="93"/>credendum sit, terram illam, ex qua vel 
+          cor<lb break="no" ed="#P" n="94"/>pus Adae formatum est, vel temperatus limus,
+          <lb ed="#P" n="95"/>ex quo formaretur, rufam, aut sanguineam
+          <lb ed="#P" n="96"/>fuisse, quia neque ille color est naturalis 
+          ele<lb break="no" ed="#P" n="97"/>mento terrae in sua puritate sumpto, neque
+          <lb ed="#P" n="98"/>est verisimile, habuisse tunc terram mixtionem,
+          <lb ed="#P" n="99"/>ex qua talis color resultaret. Nihil ergo aliud
+          <lb ed="#P" n="100"/>de illo limo dicere possumus, nisi fuisse partem
+          <lb ed="#P" n="101"/>quamdam terrae ejus loci, in quo creatus est
+          <lb ed="#P" n="102"/>Adam, de quo loco postea dicemus.
+        </p>
+        <p xml:id="szdada-y04244-d1e449">
+          <lb ed="#P" n="103"/>4. Secunda assertio contra quam erravit
+          <lb ed="#P" n="104"/>Philo et alii ex haereticis.— Dictus error 
+          Phlc<lb break="no" ed="#P" n="105"/>nis convincitur. — Secundo dicendum est 
+          cor<lb break="no" ed="#P" n="106"/>pus Adae a solo Deo fuisse immediate 
+          produc<lb break="no" ed="#P" n="107"/>tum, seu formatum. In hoc puncto fuit 
+          sen<lb break="no" ed="#P" n="108"/>tentia Philonis, libro de Opificibus mundi, non
+          <lb ed="#P" n="109"/>solum Deum fecisse hoc opus, sed habuisse
+          <lb ed="#P" n="110"/>Angelos cooperatores, et ad eos locutum fuisse
+          <pb ed="#P" n="172"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Deum, cum dixit, Faciamus hominem ad 
+          ima<lb break="no" ed="#P" n="2"/>ginem et similitudinem nostram. Qui error ex
+          <lb ed="#P" n="3"/>Platone in Timaeo ortus cst, ut sumitur ex
+          <lb ed="#P" n="4"/>Augustino, lib. 12, de Civit., cap. 24, et eum
+          <lb ed="#P" n="5"/>secuti sunt Basihdes, et Cherinti et Manichaei ,
+          <lb ed="#P" n="6"/>ut refert Epiphanius, haeresi 23 et 66, et hanc
+          <lb ed="#P" n="7"/>fuisse sententiam Judaeorum refert 
+          Chrysosto<lb break="no" ed="#P" n="8"/>mus, homil. 8, in Genes. Verumtamen assertio
+          <lb ed="#P" n="9"/>posita catholica doctrina est, quam tradit divus
+          <lb ed="#P" n="10"/>Thomas, 1 part., quaest. 91, art. 2, ubi in 
+          con<lb break="no" ed="#P" n="11"/>firmationem adducit illud Ecclesiast. 17: Deus
+          <lb ed="#P" n="12"/>de terra creavit hominem, et consentiunt caeteri
+          <lb ed="#P" n="13"/>theologi et Patres, praesertim Chrysostomus,
+          <lb ed="#P" n="14"/>loco citato, et Ambrosius, l. 6, Exaemer., c. 7,
+          <lb ed="#P" n="15"/>Basilius, homil. 9, Exaemer. et Theodoretus,
+          <lb ed="#P" n="16"/>quaest. 19, in Gen., et Cyrillus Alexandrinus,
+          <lb ed="#P" n="17"/>lib. 1, contra Julian., S Ad hoc et illud, et 
+          Au<lb break="no" ed="#P" n="18"/>gustinus, dicto libro 12, de Civitat., c. 21,et
+          <lb ed="#P" n="19"/>lib. 9, Gen. ad litter., cap. 15, ubi de 
+          forma<lb break="no" ed="#P" n="20"/>tione corporis Evae specialiter loquitur: sed
+          <lb ed="#P" n="21"/>ratio, quam adducit, communis est, idem 
+          ha<lb break="no" ed="#P" n="22"/>bet de Civit., lib. 16, cap. 6, ubi probat illud
+          <lb ed="#P" n="23"/>verbum, faciamus hominem, non posse de 
+          An<lb break="no" ed="#P" n="24"/>gelis exponi, quia additur, ad imaginem et 
+          si<lb break="no" ed="#P" n="25"/>militudinem nostram. Nefas autem (inquit) est
+          <lb ed="#P" n="26"/>credere ad imaginem angelorum hominem 
+          fac<lb break="no" ed="#P" n="27"/>tum. Denique pro hac veritate adduci possent
+          <lb ed="#P" n="28"/>omnes Patres, qui docent verba illa, faciamus
+          <lb ed="#P" n="29"/>hominem, intelligenda esse de tribus personis
+          <lb ed="#P" n="30"/>inter se colloquentibus, et nullo modo de Deo
+          <lb ed="#P" n="31"/>cum Angelis loquente. Quod praeter 
+          Epipha<lb break="no" ed="#P" n="32"/>nium, Cyrillum et alios citatos, docuerunt 
+          Hila<lb break="no" ed="#P" n="33"/>rius, hb. 4, de Trinit., et Athanasius, orat.
+          <lb ed="#P" n="34"/>contra idola, Ambrosius, l. de Dignit. hominis,
+          <lb ed="#P" n="35"/>et Augustinus, in Imperf. in Gen., cap. ult., et
+          <lb ed="#P" n="36"/>Clemens, lib. 5 Constit. Apost., c. 6. Exclusa
+          <lb ed="#P" n="37"/>enim illa falsa interpretatione, etiam ille 
+          er<lb break="no" ed="#P" n="38"/>ror evertitur, quia nullum fundamentum 
+          ha<lb break="no" ed="#P" n="39"/>bet, et quia statim additur, Creavit Deus 
+          ho<lb break="no" ed="#P" n="40"/>minem ad imaginem. Quod si quis dicat hoc
+          <lb ed="#P" n="41"/>essc dictum de toto homine, non de corpore.
+          <lb ed="#P" n="42"/>Contra hoc est, tum quia non potest unum ab
+          <lb ed="#P" n="43"/>altero sejungi, ut infra declarabo: tum quia
+          <lb ed="#P" n="44"/>statim cap. 2, dicitur, Formavit igitur Deus
+          <lb ed="#P" n="45"/>Lhominem de limo terre, quod de formatione
+          <lb ed="#P" n="46"/>corporis necessario intelligendum est.
+        </p>
+        <p xml:id="szdada-y04244-d1e573">
+          <lb ed="#P" n="47"/>5. Pro praedicto errore arguitur. —
+          Besponde<lb break="no" ed="#P" n="48"/>tur distinctione.— Primum membrum 
+          distinctio<lb break="no" ed="#P" n="49"/>nis datae conceditur.—Ut autem ratione hoc 
+          de<lb break="no" ed="#P" n="50"/>claretur, objicitur prius, quia non repugnabat
+          <lb ed="#P" n="51"/>Angelos cooperari Deo in formatione corporis
+          <lb ed="#P" n="52"/>humani: ergo sine errore, et verisimiliter credi
+          <lb ed="#P" n="53"/>potest, ita factum esse. Antecedens probatur,
+          <lb ed="#P" n="54"/>quia Augustinus et D. Thomas supra docent
+          <lb ed="#P" n="55"/>potuisse Angelos in corporis Adae formatione
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>aliquod ministerium habere. Item quia illa
+          <lb ed="#P" n="57"/>cooperatio non fuisset ad creationem, quia
+          <lb ed="#P" n="58"/>jam supponebatur materia, et ad illam 
+          dispo<lb break="no" ed="#P" n="59"/>nendam poterant Angeli aliquam praestare 
+          co<lb break="no" ed="#P" n="60"/>operationem. Respondetur duo posse in 
+          for<lb break="no" ed="#P" n="61"/>matione illius corporis considerari. Unum est
+          <lb ed="#P" n="62"/>localis congregatio terrae in locum aptum, et
+          <lb ed="#P" n="63"/>convenientem ad disponendum corpus illud:
+          <lb ed="#P" n="64"/>alterum est, organisatio et dispositio illius 
+          ma<lb break="no" ed="#P" n="65"/>teriae formae humanae conveniens. Primum
+          <lb ed="#P" n="66"/>istorum facile potuit Angelorum ministerio
+          <lb ed="#P" n="67"/>fieri, et de illo praecipue loquitur D. Thomas,
+          <lb ed="#P" n="68"/>dicto art. 2. ad 1, in exemplum adducens 
+          mi<lb break="no" ed="#P" n="69"/>nisterium, quod in ultima resurrectione Angeli
+          <lb ed="#P" n="70"/>exhibebunt, cineres humanos colligendo. Illud
+          <lb ed="#P" n="71"/>autem ministerium non sufficit, ut Angeli 
+          di<lb break="no" ed="#P" n="72"/>cantur homines creasse, vel corpus ejus 
+          for<lb break="no" ed="#P" n="73"/>masse, sicut nec in resurrectione sufficeret, ut
+          <lb ed="#P" n="74"/>corpora resurgentium creasse, aut formasse
+          <lb ed="#P" n="75"/>Angeli dicantur, quia illud ministerium est
+          <lb ed="#P" n="76"/>valde remotum per solam applicationem 
+          ma<lb break="no" ed="#P" n="77"/>teriae. Quod variis exemplis declarat 
+          Augusti<lb break="no" ed="#P" n="78"/>nus, lib. 9, Gen. ad lit., cap. 15. Quia neque
+          <lb ed="#P" n="79"/>agricola producit fructus, nec medicus efficit
+          <lb ed="#P" n="80"/>salutem, neque qui cibum praebet dat carnem,
+          <lb ed="#P" n="81"/>sanguimem, aut vires, licet omnes isti 
+          appli<lb break="no" ed="#P" n="82"/>cando activa passivis remote concurrant. Unde
+          <lb ed="#P" n="83"/>quod quidam dicunt ministerio Angelorum
+          <lb ed="#P" n="84"/>factam esse quamdam luteam statuam 
+          haben<lb break="no" ed="#P" n="85"/>tem figuram corporis humani, quam Deus 
+          vi<lb break="no" ed="#P" n="86"/>vificavit, et in corpus humanum transmntavit:
+          <lb ed="#P" n="87"/>hoc (inquam) licet incertum sit, quia nec est
+          <lb ed="#P" n="88"/>simpliciter necessarium, nec Scriptura 
+          proba<lb break="no" ed="#P" n="89"/>tur, non est tamen contra positam assertionem,
+          <lb ed="#P" n="90"/>quia illa statua non esset corpus humanum,
+          <lb ed="#P" n="91"/>nec excederet naturales vires Angelorum, quia
+          <lb ed="#P" n="92"/>per solum motum localem fieri potuisset: an
+          <lb ed="#P" n="93"/>vero ita factum sit. paulo post dicam.
+        </p>
+        <p xml:id="szdada-y04244-d1e680">
+          <lb ed="#P" n="94"/>6. Secundum membrum negatur, ac de illo
+          <lb ed="#P" n="95"/>assertio prolatur. — De altero vero, scilicet
+          <lb ed="#P" n="96"/>organizatione et dispositione hominis 
+          praeser<lb break="no" ed="#P" n="97"/>tim procedit conclusio posita, et in hoc sensu
+          <lb ed="#P" n="98"/>probatur, quia Angeli non possunt organizare
+          <lb ed="#P" n="99"/>corpus, et illud ad recipienlam animam 
+          suffi<lb break="no" ed="#P" n="100"/>cienter disponere: ergo a solo Deo potuit tunc
+          <lb ed="#P" n="101"/>fieri opus illud. Loquor de illo corpore, ut
+          <lb ed="#P" n="102"/>tunc factum est, et ad receptionem anima
+          <lb ed="#P" n="103"/>praeparatum, nam cum homo fit per 
+          natura<lb break="no" ed="#P" n="104"/>lem generationem, illa organizatio et 
+          dispo<lb break="no" ed="#P" n="105"/>sitio corporis naturali virtute a generante fit:
+          <lb ed="#P" n="106"/>sccluso tamen ordine naturalis propagationis
+          <lb ed="#P" n="107"/>non potest illud cpus fieri ab ulla causa creata
+          <lb ed="#P" n="108"/>sive elementari, aut coelesti, sive ab omnibus
+          <lb ed="#P" n="109"/>simul, et multo minus ab Angelis, qui non
+          <lb ed="#P" n="110"/>possunt naturaliter materiam transmutare ,
+          <pb ed="#P" n="173"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aut corpora per se alterare: sed organizatio
+          <lb ed="#P" n="2"/>corporis primi hominis non fuit facta per viam
+          <lb ed="#P" n="3"/>naturalis generationis, ut per se notum est:
+          <lb ed="#P" n="4"/>ergo a solo Deo fieri potuit. Quod si quis dicat,
+          <lb ed="#P" n="5"/>quamvis Angeli non potuerint naturahter 
+          co<lb break="no" ed="#P" n="6"/>operari illi actioni, potuisse nihilominus ut
+          <lb ed="#P" n="7"/>instrumenta Dei illa coefficere. Respondemus,
+          <lb ed="#P" n="8"/>esto id fuerit possibile, nullo modo affirmari
+          <lb ed="#P" n="9"/>posse, ita esse factum, quia fuisset opus 
+          mira<lb break="no" ed="#P" n="10"/>culosum, quod sine fundamento asserendum
+          <lb ed="#P" n="11"/>non est. Praesertim quia inde sequerctur 
+          An<lb break="no" ed="#P" n="12"/>gelos cum Deo hominem procreasse, quia qui
+          <lb ed="#P" n="13"/>sufficienter disponit materiam ad 
+          introductio<lb break="no" ed="#P" n="14"/>nem, et unionem formae, compositum 
+          produ<lb break="no" ed="#P" n="15"/>cit, physice loquendo, hoc enim modo homo
+          <lb ed="#P" n="16"/>generat hominem: hoc autem Anggelis 
+          tri<lb break="no" ed="#P" n="17"/>buere, erroneum est, quia repugnat 
+          Scriptu<lb break="no" ed="#P" n="18"/>ris, ex quibus habemus solum Deum ex terra
+          <lb ed="#P" n="19"/>hominem creasse, ut allegatum est ex Gen. 1,
+          <lb ed="#P" n="20"/>2 et 5, Ecclesiast. 17, 1, ad Corinth. 10, et ad
+          <lb ed="#P" n="21"/>Coloss. 3, et confirmant omnia, quae ex 
+          Patri<lb break="no" ed="#P" n="22"/>bus adduximus. Ac denique confirmatur, quia
+          <lb ed="#P" n="23"/>alias etiam omnia animantia, ut vegetabilia
+          <lb ed="#P" n="24"/>dici possent facta ministerio, et cooperatione
+          <lb ed="#P" n="25"/>Angelorum: imo consequenter, et majori 
+          ra<lb break="no" ed="#P" n="26"/>uone ita dicendum esset. Consequens autem
+          <lb ed="#P" n="27"/>erroneum est, nam hoc esset facere Angelos
+          <lb ed="#P" n="28"/>creatores universi, quamvis minus principales.
+        </p>
+        <p xml:id="szdada-y04244-d1e784">
+          <lb ed="#P" n="29"/>7. Pro assertione amplius stabilienda 
+          du<lb break="no" ed="#P" n="30"/>bium proponitur, sitne corpus Adee in instanti,
+          <lb ed="#P" n="31"/>vel successive formatum. — Ut autem haec 
+          ve<lb break="no" ed="#P" n="32"/>ritas amplius declaretur, interrogari potest, an
+          <lb ed="#P" n="33"/>corpus Adae in instanti fuerit formatum, seu
+          <lb ed="#P" n="34"/>productum, vel per successionem aliquam. Ut
+          <lb ed="#P" n="35"/>autem interrogationis sensus percipiatur, 
+          ad<lb break="no" ed="#P" n="36"/>vertendum est non esse dubium, quin 
+          pro<lb break="no" ed="#P" n="37"/>ductio Adami in uno instanti facta sit, 
+          nimi<lb break="no" ed="#P" n="38"/>rum in illo, in quo anima fuit creata, et corpori
+          <lb ed="#P" n="39"/>unita. Unde consequenter etiam est certum
+          <lb ed="#P" n="40"/>corpus Adae in uno determinato instante 
+          ince<lb break="no" ed="#P" n="41"/>pisse, esse corpus humanum, sive per corpus
+          <lb ed="#P" n="42"/>humanum intelligas corpus jam informatum
+          <lb ed="#P" n="43"/>anima humana, sive intelligas corpus ultimate
+          <lb ed="#P" n="44"/>dispositum ad introductionem animae 
+          huma<lb break="no" ed="#P" n="45"/>nae, ut prius tantum natura, quam informatio
+          <lb ed="#P" n="46"/>ejus: quia utroque modo illa dispositio 
+          cor<lb break="no" ed="#P" n="47"/>poris simul duratione cum anima ejusque
+          <lb ed="#P" n="48"/>unione incipit. Quia vero haec ultima 
+          disposi<lb break="no" ed="#P" n="49"/>tio ante ultimum terminum suum habet 
+          lati<lb break="no" ed="#P" n="50"/>tudinem, vel intentione qualitatum, vel in
+          <lb ed="#P" n="51"/>condensatione, vel rarefactione materiae, ut
+          <lb ed="#P" n="52"/>ex illa possint varia membra duriora, vel
+          <lb ed="#P" n="53"/>meliora sub hac vel illa figura formari: ideo
+          <lb ed="#P" n="54"/>quaerimus, an illud instans, in quo fuit 
+          con<lb break="no" ed="#P" n="55"/>summata ultima dispositio, et organizatio il-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lius corporis, fuerit terminus praecedentis 
+          al<lb break="no" ed="#P" n="57"/>terationis et mutationis successivae, sicut est
+          <lb ed="#P" n="58"/>in humana generatione, vel potius fuerit tota
+          <lb ed="#P" n="59"/>facta in uno instanti, in quo simul inceperit,
+          <lb ed="#P" n="60"/>et totum corpus Adae, et omnia membra ejus,
+          <lb ed="#P" n="61"/>et omnes qualitates, et variae dispositiones, ac
+          <lb ed="#P" n="62"/>figurae membrorum omnium. Ita ut tota illa
+          <lb ed="#P" n="63"/>materia immediate ante illud instans fuerit
+          <lb ed="#P" n="64"/>sub forma terrae, aut luti, et sub uniformi 
+          dis<lb break="no" ed="#P" n="65"/>positione in omnibus partibus suis, in illo vero
+          <lb ed="#P" n="66"/>instanti coeperit tota esse cum integra varietate
+          <lb ed="#P" n="67"/>membrorum, et omnium dispositionum 
+          cor<lb break="no" ed="#P" n="68"/>poris humani, anima rationali in eodem 
+          ins<lb break="no" ed="#P" n="69"/>tanti formati.
+        </p>
+        <p xml:id="szdada-y04244-d1e878">
+          <lb ed="#P" n="70"/>8. Pro formatione instantanea videtur stare
+          <lb ed="#P" n="71"/>D. Thomas al ique theologi. — In hoc dubio
+          <lb ed="#P" n="72"/>nihil invenio expresse dictum a D. Thoma in
+          <lb ed="#P" n="73"/>hac materia, tamen si attente legatur in dicta
+          <lb ed="#P" n="74"/>q. 91, art. 2, et sequentibus insinuare videtur
+          <lb ed="#P" n="75"/>productionem, seu formationem illius corporis
+          <lb ed="#P" n="76"/>subito, et in momento totam factam esse, 
+          su<lb break="no" ed="#P" n="77"/>periori modo supra explicato. Et idem 
+          viden<lb break="no" ed="#P" n="78"/>tur sentire alii theologi ; et videtur posse
+          <lb ed="#P" n="79"/>colligi ex Damasceno, lib. 2, de Fide, c. 12,
+          <lb ed="#P" n="80"/>dicente, Corpus, et anima una creata sunt, non
+          <lb ed="#P" n="81"/>autem ut Origenes deliravit, hec prius, illud
+          <lb ed="#P" n="82"/>posterius. Quod etiam sentit Gregorius 
+          Nysse<lb break="no" ed="#P" n="83"/>nus libro de Opificio homin., c. 28 et 29, ubi
+          <lb ed="#P" n="84"/>ex professo impugnat eos, qui dixerunt 
+          cor<lb break="no" ed="#P" n="85"/>pus Adae fuisse productum prius tempore,
+          <lb ed="#P" n="86"/>quam anima informaretur: quod etiam docet
+          <lb ed="#P" n="87"/>D. Thomas, d. q., art. 4, ad 3. Ergo 
+          conse<lb break="no" ed="#P" n="88"/>quenter sentiunt hi Patres, totam corporis
+          <lb ed="#P" n="89"/>dispositionem in uno instanti fuisse perfectam.
+          <lb ed="#P" n="90"/>Nam si paulatim, et successive facta esset,
+          <lb ed="#P" n="91"/>necessario corpus illud aliquo modo tempore
+          <lb ed="#P" n="92"/>praecessisset animae introductionem.
+        </p>
+        <p xml:id="szdada-y04244-d1e931">
+          <lb ed="#P" n="93"/>9. Suadetur hac sententia. — Et suadetur
+          <lb ed="#P" n="94"/>haec sententia primo ex verbis illis Gen. 2:
+          <lb ed="#P" n="95"/>Formavit Deus hominem de limo terre. Quibus
+          <lb ed="#P" n="96"/>verbis insinuantur duo. Primum est hominem
+          <lb ed="#P" n="97"/>formatum esse immediate ex limo terrae, sine
+          <lb ed="#P" n="98"/>ulla mora intermedia: aliud est, simul fuisse
+          <lb ed="#P" n="99"/>corpus illud formatum et hominem 
+          produc<lb break="no" ed="#P" n="100"/>tum. Unde sicut homo in illo solo instanti 
+          to<lb break="no" ed="#P" n="101"/>tum corpus formatum est. Secundo idem 
+          sua<lb break="no" ed="#P" n="102"/>detur, quia alias illa materia limi, si paulatim,
+          <lb ed="#P" n="103"/>et successive ad formam hominis disposita est,
+          <lb ed="#P" n="104"/>prius extitisset sub forma vegetativa tantum,
+          <lb ed="#P" n="105"/>vel sensitiva, quam perveniret ad rationalem,
+          <lb ed="#P" n="106"/>sicut fit in naturali hominis generatione: nam
+          <lb ed="#P" n="107"/>est eadem ratio, quia id non provenit, nisiex
+          <lb ed="#P" n="108"/>eo quod in successiva mutatione non fit 
+          tran<lb break="no" ed="#P" n="109"/>situs ab extremo ad extremum, nisi per 
+          me<lb break="no" ed="#P" n="110"/>dium. Consequens autem non videtur admit-
+          <pb ed="#P" n="174"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tendum, tum quia alias prius fecisset DEUS
+          <lb ed="#P" n="2"/>embrionem, quam hominem: tum etiam quia
+          <lb ed="#P" n="3"/>eadem ratione dici posset successive fuisse 
+          dis<lb break="no" ed="#P" n="4"/>positas partes organicas corporis Adae, et 
+          con<lb break="no" ed="#P" n="5"/>sequenter principaliores partes, ut sunt cor,
+          <lb ed="#P" n="6"/>cerebrum, et hepar, prius fuissent informatae
+          <lb ed="#P" n="7"/>anima rationali, quam reliquae partes, sicut fit
+          <lb ed="#P" n="8"/>in hominis gencratione. Haec autem absurda
+          <lb ed="#P" n="9"/>sunt, cum tamen eadem sit de omnibus ratio.
+        </p>
+        <p xml:id="szdada-y04244-d1e996">
+          <lb ed="#P" n="10"/>10. Quibus tribui queat successiva formatio.
+          <lb ed="#P" n="11"/>— Probatur ea Genes. 2. — Contraria vero
+          <lb ed="#P" n="12"/>pars, nimirum corpus illud successive 
+          organi<lb break="no" ed="#P" n="13"/>zatum esse, attribui potest auctoribus 
+          dicenti<lb break="no" ed="#P" n="14"/>bus corpus Adami prius fuisse productum,
+          <lb ed="#P" n="15"/>quam anima rationali informatum. Quam 
+          do<lb break="no" ed="#P" n="16"/>cuit Cbrysostomus, homilia duodecima et 
+          de<lb break="no" ed="#P" n="17"/>cima tertia in Genesim, et sequitur Abulensis,
+          <lb ed="#P" n="18"/>Genesis secundo, et Castro contra Haeres., verbo
+          <lb ed="#P" n="19"/>Anima, haeres 3. Nam hi auctores non 
+          intel<lb break="no" ed="#P" n="20"/>lexerunt corpus Adae perfecte humanum, id
+          <lb ed="#P" n="21"/>est, cum ultima dispositione ad animam 
+          tem<lb break="no" ed="#P" n="22"/>pore praecessisse informationem animae: hoc
+          <lb ed="#P" n="23"/>enim contra rationem philosophicam est, et
+          <lb ed="#P" n="24"/>sine ullo fundamento fuisset excogitatum: 
+          in<lb break="no" ed="#P" n="25"/>telligunt ergo corpus hominis delineatum, et
+          <lb ed="#P" n="26"/>externa hominis forma compositum, et 
+          imper<lb break="no" ed="#P" n="27"/>fecte dispositum praecessisse tempore 
+          introduc<lb break="no" ed="#P" n="28"/>tionem animae, ac proinde ab imperfecto ad
+          <lb ed="#P" n="29"/>perfectum successive producendo, tandem ad
+          <lb ed="#P" n="30"/>ultimam dispositionem pervenisse; et sic 
+          pro<lb break="no" ed="#P" n="31"/>batur haec sententia ex illo Genes. 2: 
+          Forma<lb break="no" ed="#P" n="32"/>vit igitur Deus hominem de limo terrae et 
+          inspi<lb break="no" ed="#P" n="33"/>ravit in faciem ejus spiraculum vite. Nam hoc
+          <lb ed="#P" n="34"/>loco sermo est de formatione hominis quoad
+          <lb ed="#P" n="35"/>corpus, utsentit Augustinus, lib. 13, de Civit.,
+          <lb ed="#P" n="36"/>c. 294: Quia Deus non nisi corpori inspiravit
+          <lb ed="#P" n="37"/>spiraculum vitee. At vero corpus illud jam 
+          ha<lb break="no" ed="#P" n="38"/>bebat faciem hominis, quando Deus inspiravit
+          <lb ed="#P" n="39"/>in illud: ergo prius fuit homo formatus de
+          <lb ed="#P" n="40"/>limo terrae, et externam formam hominis 
+          ha<lb break="no" ed="#P" n="41"/>buit, quam informaretur anima, ac proinde
+          <lb ed="#P" n="42"/>successive formatum est.
+        </p>
+        <p xml:id="szdada-y04244-d1e1070">
+          <lb ed="#P" n="43"/>11. Item ratione. — Ratione ostendi hoc 
+          po<lb break="no" ed="#P" n="44"/>test, quia non potest formari corpus hominis
+          <lb ed="#P" n="45"/>ex terra nisi intercedente aliqua mutatione 
+          lo<lb break="no" ed="#P" n="46"/>cali: sed mutatio localis non potest fieri in 
+          in<lb break="no" ed="#P" n="47"/>stanti: ergo nec transitus ille materiae 
+          exis<lb break="no" ed="#P" n="48"/>tentis sub forma terrae in corpus humanum
+          <lb ed="#P" n="49"/>perfectum potuit fieri in instanti, ac subinde
+          <lb ed="#P" n="50"/>necessaria fuit aliqua successio, in qua corpus
+          <lb ed="#P" n="51"/>hominis formaretur. Major probatur, quia 
+          li<lb break="no" ed="#P" n="52"/>mus terrae erat uniformis in figura raritate, vel
+          <lb ed="#P" n="53"/>densitate: ergo ut ex illo fierent varia membra
+          <lb ed="#P" n="54"/>corporis humani distincta in figuris, situ, 
+          con<lb break="no" ed="#P" n="55"/>densatione, vel raritate, necessarium fuit par-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tes illas secundum locum mutari, ut facile
+          <lb ed="#P" n="57"/>consideranti patebit. Minor autem nota est in
+          <lb ed="#P" n="58"/>Philosophia. Et ideo, si portio illa terrae ex
+          <lb ed="#P" n="59"/>variis locis congreganda fuisset, in aliquo 
+          tem<lb break="no" ed="#P" n="60"/>pore saltem brevi id fieri oporteret: ergo 
+          si<lb break="no" ed="#P" n="61"/>militer si pars limi densanda fuit ad 
+          conficien<lb break="no" ed="#P" n="62"/>dum os, verbi gratia, vel caput hominis, in
+          <lb ed="#P" n="63"/>tempore densari debuit, quia licet condensatio
+          <lb ed="#P" n="64"/>non sit proprie motus localis, non tamen fit
+          <lb ed="#P" n="65"/>sine mutatione locali, ac proinde successionem
+          <lb ed="#P" n="66"/>requirit, et sic de caeteris membris: ergo non
+          <lb ed="#P" n="67"/>potuit illud corpus perfecte formari in unico
+          <lb ed="#P" n="68"/>solo instanti.
+        </p>
+        <p xml:id="szdada-y04244-d1e1131">
+          <lb ed="#P" n="69"/>12. Dubium agitatum utrinque difficilem.
+          <lb ed="#P" n="70"/>—Hoc dubium simile est illi, quod de 
+          concep<lb break="no" ed="#P" n="71"/>tione corporis Christi Domini tractavi, in2 t.,
+          <lb ed="#P" n="72"/>3 p., disp. 11, sect. 2, ubi utramque partem
+          <lb ed="#P" n="73"/>esse dixit difficilem. Nam spectando puram
+          <lb ed="#P" n="74"/>rationem philosophicam, videtur facilus dici
+          <lb ed="#P" n="75"/>organizationem illius corporis cum aliqua 
+          suc<lb break="no" ed="#P" n="76"/>cessione factam esse, saltem quoad 
+          mutatio<lb break="no" ed="#P" n="77"/>nem, per quam omnes, et singulae partes 
+          ma<lb break="no" ed="#P" n="78"/>teriae in eo situ et loco constitutae sunt, in quo
+          <lb ed="#P" n="79"/>in instanti productionis et informationis 
+          ani<lb break="no" ed="#P" n="80"/>mae esse oportebat. At vero considerando 
+          tes<lb break="no" ed="#P" n="81"/>timonia, et rationes theclogicas, censui, 
+          proba<lb break="no" ed="#P" n="82"/>bilius simpliciter esse, et omnino verum, corpus
+          <lb ed="#P" n="83"/>Christi in uno momento perfecte formatum
+          <lb ed="#P" n="84"/>esse, et immediate ex sanguine Virginis. Ex
+          <lb ed="#P" n="85"/>qua resolutione in praesenti infero, potuisse
+          <lb ed="#P" n="86"/>Deum eodem modo corpus Adae perfectum in
+          <lb ed="#P" n="87"/>momento, et immediate ex limo formare, quia
+          <lb ed="#P" n="88"/>est eadem ratio. Nam licet corpus Adae fuerit
+          <lb ed="#P" n="89"/>majus, et perfectae aetatis et magnitudinis, ut
+          <lb ed="#P" n="90"/>infra dicemus, nihilominus inde non oritur
+          <lb ed="#P" n="91"/>major repugnantia, ut per se notum est. Àn
+          <lb ed="#P" n="92"/>vero ita factum sit, profecto non est ita certum
+          <lb ed="#P" n="93"/>de corpore Adae, sicut fuit de corpore Christ ;
+          <lb ed="#P" n="94"/>tum quia neque ex aliis principiis fidei ita 
+          col<lb break="no" ed="#P" n="95"/>ligitur, nec ex Patrum doctrina aeque 
+          confir<lb break="no" ed="#P" n="96"/>matur ; tum etiam, quia illud non est factum
+          <lb ed="#P" n="97"/>in conceptione Christi sine magno miraculo,
+          <lb ed="#P" n="98"/>ut ibi declaravi, quod miraculum in summo
+          <lb ed="#P" n="99"/>Dei opere, et maxime miraculoso 
+          convenien<lb break="no" ed="#P" n="100"/>tissimum fuit: in praesenti autem opere, quod
+          <lb ed="#P" n="101"/>tantum ad productionem hominis in esse 
+          na<lb break="no" ed="#P" n="102"/>turae pertinebat, non videtur vel affirmandum,
+          <lb ed="#P" n="103"/>vel exaggerandum miraculum (ut saepe dixi)
+          <lb ed="#P" n="104"/>cum necessarium non sit. Nam sine dubio 
+          po<lb break="no" ed="#P" n="105"/>tuit Deus per mutationem successivam 
+          forma<lb break="no" ed="#P" n="106"/>re corpus illud, ut probat ratio adducta in 
+          pos<lb break="no" ed="#P" n="107"/>teriori sententia. Quae vero in priori 
+          adducun<lb break="no" ed="#P" n="108"/>tur, solum probant corpus ultimate et perfecte
+          <lb ed="#P" n="109"/>dispositum non praecessisse tempore animae
+          <lb ed="#P" n="110"/>creationem. Neque videtur necessarium, ut
+          <pb ed="#P" n="175"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>transitus a limo terrae ad esse hominis 
+          imme<lb break="no" ed="#P" n="2"/>diatus fuerit, et ita Augustinus, lib. 2, de
+          <lb ed="#P" n="3"/>Genes., contr. Manich., cap. S, utramque ex
+          <lb ed="#P" n="4"/>dictis sententiis sub disjunctione, et ut 
+          proba<lb break="no" ed="#P" n="5"/>bilem ponit; licet in lib. 1, Retraction., c. 10,
+          <lb ed="#P" n="6"/>tandem sententiam de antecessione corporis
+          <lb ed="#P" n="7"/>ad animam praeferre videatur.
+        </p>
+        <p xml:id="szdada-y04244-d1e1244">
+          <lb ed="#P" n="8"/>13. Prior tamen sententia in num. S, posita
+          <lb ed="#P" n="9"/>magis probatur. — Nihilominus tamen primae
+          <lb ed="#P" n="10"/>sententiae ut probabiliori adhaereo, asseroque
+          <lb ed="#P" n="11"/>corpus illud in instanti fuisse formatum, ita
+          <lb ed="#P" n="12"/>ut ex terra immediate fuerint facta ossa, caro,
+          <lb ed="#P" n="13"/>nervi, et omnia similia, quae simul etiam inter
+          <lb ed="#P" n="14"/>se facta, et debite ordinata composita fuerunt.
+          <lb ed="#P" n="15"/>Ducor primo, quia hoc est magis consentaneum
+          <lb ed="#P" n="16"/>verbis illis: Faciamnus hominem, et creavit
+          <lb ed="#P" n="17"/>Deus hominem, et formavit Deus hominem.
+          <lb ed="#P" n="18"/>In quibus verbis ultimis vel non est necesse
+          <lb ed="#P" n="19"/>intelligere solum corpus, sed totum hominem,
+          <lb ed="#P" n="20"/>sicut intelliguntur priora (nam totus homo dici
+          <lb ed="#P" n="21"/>potest formatus ex limo terrae, quamvis solum
+          <lb ed="#P" n="22"/>ex parte corporis inde fuerit productus) vel
+          <lb ed="#P" n="23"/>licet de solo corpore verba illa intelligantur,
+          <lb ed="#P" n="24"/>non inde colligitur, fuisse corpus illud prius
+          <lb ed="#P" n="25"/>tempore productum, sed ordine tantum 
+          na<lb break="no" ed="#P" n="26"/>turae, explicatur enim ibi distincte et per 
+          par<lb break="no" ed="#P" n="27"/>tes quod simplicitur in capite primo dictum
+          <lb ed="#P" n="28"/>fuerat, Deum creasse hominem, id enim fecit,
+          <lb ed="#P" n="29"/>partim corpus ex luto configurando, partim
+          <lb ed="#P" n="30"/>spiraculum vitae inspirando: utrumque autem
+          <lb ed="#P" n="31"/>simul fieri potuit cum solo ordine naturae, vel
+          <lb ed="#P" n="32"/>mutuo inter partes illas, in diverso genere
+          <lb ed="#P" n="33"/>causarum: vel certe praecipue ex parte 
+          cor<lb break="no" ed="#P" n="34"/>poris in ordine executionis, licet anima fuerit
+          <lb ed="#P" n="35"/>prior ordine intentionis. Semper tamen 
+          si<lb break="no" ed="#P" n="36"/>gnificatur, utrumque factum esse simul 
+          du<lb break="no" ed="#P" n="37"/>ratione per indivisibilem, et instantaneum 
+          to<lb break="no" ed="#P" n="38"/>tius hominis productionem. Secundo moveor,
+          <lb ed="#P" n="39"/>quia hoc modo credimus produxisse Deum in
+          <lb ed="#P" n="40"/>instanti caetera animalia etiam quoad 
+          corpo<lb break="no" ed="#P" n="41"/>rum accidentalem formationem, 
+          organizatio<lb break="no" ed="#P" n="42"/>nem et dispositionem, scilicet pisces et 
+          vola<lb break="no" ed="#P" n="43"/>tilia ex aqua, et ceetera animantia ex terra,
+          <lb ed="#P" n="44"/>quia omnia produxit simplici, et absoluto 
+          im<lb break="no" ed="#P" n="45"/>perio, ut ex modo loquendi Scripturae 
+          colligi<lb break="no" ed="#P" n="46"/>tur: ergo a fortiori de corpore hominis idem
+          <lb ed="#P" n="47"/>dicendum est. Tertio est optima ratio, quia 
+          li<lb break="no" ed="#P" n="48"/>cet Deus produxerit hominem, et caetera 
+          ani<lb break="no" ed="#P" n="49"/>mantia ex praejacente materia, nihilominus
+          <lb ed="#P" n="50"/>produxit illa altiori modo quam per 
+          natura<lb break="no" ed="#P" n="51"/>lem generationem, ac proinde per quemdam
+          <lb ed="#P" n="52"/>secundarium modum creationis, ut in 
+          supe<lb break="no" ed="#P" n="53"/>rioribus declaravi: et ideo sicut per 
+          creatio<lb break="no" ed="#P" n="54"/>nem ex nihilo fiet corpus humanum simul
+          <lb ed="#P" n="55"/>quoad omnia sua membra, et omnem disposi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tionem, et figurationem eorum: ita non 
+          ob<lb break="no" ed="#P" n="57"/>stante praesuppositione materiae subito creari
+          <lb ed="#P" n="58"/>potuit et debuit. Nam licet ille modus 
+          pro<lb break="no" ed="#P" n="59"/>ductionis altior sit, et in hoc sensu dici possit
+          <lb ed="#P" n="60"/>supernaturalior, nihilominus est magis 
+          ac<lb break="no" ed="#P" n="61"/>commodatus primae productionis 
+          substantia<lb break="no" ed="#P" n="62"/>lium rerum a potentissimo auctore suo.
+        </p>
+        <p xml:id="szdada-y04244-d1e1368">
+          <lb ed="#P" n="63"/>14. Consectarium ad sententiam proaime
+          <lb ed="#P" n="64"/>probatam non concurrisse Angelos ad 
+          forma<lb break="no" ed="#P" n="65"/>tionem predictam. — Quod si haec opinio vera
+          <lb ed="#P" n="66"/>est, certius erit Angelos non solum non fuisse
+          <lb ed="#P" n="67"/>cooperatos ad productionem corporis humani,
+          <lb ed="#P" n="68"/>ut humanum est (quod est certissimum, ut
+          <lb ed="#P" n="69"/>dixi) verum etiam neque ad illud corpus 
+          for<lb break="no" ed="#P" n="70"/>mandum, vel organizandum. Imo neque ad
+          <lb ed="#P" n="71"/>aliquam terram congregandam ministerium
+          <lb ed="#P" n="72"/>aliquod exhibuisse, quia ex illo limo terrae
+          <lb ed="#P" n="73"/>prout immediate antea in limo jacebat, subito
+          <lb ed="#P" n="74"/>creavit Deus hominem juxta praedictam 
+          sen<lb break="no" ed="#P" n="75"/>tentiam. Si autem aliqua successio admittatur
+          <lb ed="#P" n="76"/>in figuratione humani corporis quoad materiae
+          <lb ed="#P" n="77"/>quantae densationem, et figurationem sic 
+          qui<lb break="no" ed="#P" n="78"/>dem facilius admitti potest aliquod 
+          Angelo<lb break="no" ed="#P" n="79"/>rum mihisterium, non vero tale, quod 
+          pertin<lb break="no" ed="#P" n="80"/>geret ad perfectionem corporis humani, non
+          <lb ed="#P" n="81"/>tantum ut humanum est, verum etiam, ut
+          <lb ed="#P" n="82"/>animale prius tempore formatum, in aliquo
+          <lb ed="#P" n="83"/>esse minus perfecto, id est, habens carnem, et
+          <lb ed="#P" n="84"/>ossa, etc., nondum tamen apta et proxime
+          <lb ed="#P" n="85"/>disposita ad animam rationalem, sed ad 
+          ali<lb break="no" ed="#P" n="86"/>quam minus perfectam, et quasi in via ad illius
+          <lb ed="#P" n="87"/>introductum. Nam hoc etiam non potest 
+          tri<lb break="no" ed="#P" n="88"/>bui Angelis, tum quia non est verisimile,
+          <lb ed="#P" n="89"/>hunc ordinem productionis in prima hominis
+          <lb ed="#P" n="90"/>creatione servatum esse; tum etiam quia etiam
+          <lb ed="#P" n="91"/>Angeli neque per se virtutem habent ad 
+          efti<lb break="no" ed="#P" n="92"/>ciendum corpus illud animale in statu illo 
+          im<lb break="no" ed="#P" n="93"/>perfecto, neque etiam applicando activa 
+          pas<lb break="no" ed="#P" n="94"/>sivis illud efficere poterant, quia etiam corpus
+          <lb ed="#P" n="95"/>hominis sub illo statu non fit naturaliter, nisi
+          <lb ed="#P" n="96"/>per virtutem formativam seminis, quae per
+          <lb ed="#P" n="97"/>solam applicationem extrinsecorum agentium
+          <lb ed="#P" n="98"/>suppleri non potest, sed tantum virtute divina,
+          <lb ed="#P" n="99"/>sicut de animalibus perfectis in superioribus
+          <lb ed="#P" n="100"/>diximus.
+        </p>
+        <p xml:id="szdada-y04244-d1e1454">
+          <lb ed="#P" n="101"/>15. Quem ad summum concursum habere 
+          po<lb break="no" ed="#P" n="102"/>tuerunt. — Sed de facto nullum videntur 
+          ha<lb break="no" ed="#P" n="103"/>buisse. — Quapropter ad summum potuerunt
+          <lb ed="#P" n="104"/>Angeli juxta illam sententiam congregare 
+          li<lb break="no" ed="#P" n="105"/>mum, et ex eo quasi statuam similem humano
+          <lb ed="#P" n="106"/>corpori perlocalem motum compingere et 
+          con<lb break="no" ed="#P" n="107"/>figurare, et in eo statu constituere, in quo sine
+          <lb ed="#P" n="108"/>interventu alicujus novae mutationis localis,
+          <lb ed="#P" n="109"/>vel condensationis, aut rarefactionis, quae illam
+          <lb ed="#P" n="110"/>requirat, per subitam alterationem fuert ini
+          <pb ed="#P" n="176"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>instanti corpus illud a solo Deo factum 
+          huma<lb break="no" ed="#P" n="2"/>num, et per inspirationem animae vivificatum.
+          <lb ed="#P" n="3"/>Qui modus facilior quidem est, licet non 
+          ne<lb break="no" ed="#P" n="4"/>cessarius, nec fortasse conveniens, ut dixi. Et
+          <lb ed="#P" n="5"/>similiter illo posito fuit quidem possibile illud
+          <lb ed="#P" n="6"/>angelicum ministerium, tamen hoc etiam 
+          in<lb break="no" ed="#P" n="7"/>certum est. Unde divus Thomas supra de 
+          pos<lb break="no" ed="#P" n="8"/>sibili tantum locutus est, non de facto: imo
+          <lb ed="#P" n="9"/>Augustinus, lib. 9. de Genes. ad litter., c. 15,
+          <lb ed="#P" n="10"/>dixit neminem posse affirmare, quale fuerit,
+          <lb ed="#P" n="11"/>et consequenter neque an fuerit, quia nulla
+          <lb ed="#P" n="12"/>auctoritate, vel sufficienti conjectura id potest
+          <lb ed="#P" n="13"/>affirmari. Unde fortasse etiam juxta hanc 
+          sen<lb break="no" ed="#P" n="14"/>tentiam probabilius creditur Angelos nullum
+          <lb ed="#P" n="15"/>prorsus ministerium in hac productione, seu
+          <lb ed="#P" n="16"/>formatione corporis humani habuisse. Quia
+          <lb ed="#P" n="17"/>licet corpus illud praevia aliqua mutatione 
+          suc<lb break="no" ed="#P" n="18"/>cessiva formatum fuerit: illa tamen cum tanta
+          <lb ed="#P" n="19"/>celeritate, et potentia creatoris facta est, ut
+          <lb ed="#P" n="20"/>nullum locum Angelorum ministerio 
+          conces<lb break="no" ed="#P" n="21"/>serit, quia vel eorum naturalem virtutem 
+          su<lb break="no" ed="#P" n="22"/>perabat, vel certe supervacaneum erat.
+        </p>
+        <p xml:id="szdada-y04244-d1e1530">
+          <lb ed="#P" n="23"/>16. Dubium alterum bipartitum. — 
+          Respon<lb break="no" ed="#P" n="24"/>sio ad priorem partem. — Posterioris partis
+          <lb ed="#P" n="25"/>responsio remittitur. — Tandem inquiri hic
+          <lb ed="#P" n="26"/>potest de illo corpore, an fuerit creatum cum
+          <lb ed="#P" n="27"/>omni perfectione necessaria, ac debita animae
+          <lb ed="#P" n="28"/>rationali, seu corpori consentaneo tali animae,
+          <lb ed="#P" n="29"/>vel (ut ita dicam illa digno. Hoc autem 
+          du<lb break="no" ed="#P" n="30"/>bium tractari potest, vel de perfectione quasi
+          <lb ed="#P" n="31"/>specifica, seu essentiali talis corporis, velde
+          <lb ed="#P" n="32"/>individuali, integrali, seu consummata etiam
+          <lb ed="#P" n="33"/>quoad statum, seu aetatem. In priori sensu non
+          <lb ed="#P" n="34"/>est quaestionis locus: necessarium enim fuit
+          <lb ed="#P" n="35"/>corpus illud habere hujusmodi specificam 
+          per<lb break="no" ed="#P" n="36"/>fectionem, non solum quia proprie loquendo
+          <lb ed="#P" n="37"/>hanc perfectionem specificam et essentialem
+          <lb ed="#P" n="38"/>ab anima formaliter recipit, sed etiam quia
+          <lb ed="#P" n="39"/>necessario habere dehuit illas dispositiones, et
+          <lb ed="#P" n="40"/>in eo gradu, quem anima ipsa rationalis ad
+          <lb ed="#P" n="41"/>informandum corpus ex vi suae essentiae, et
+          <lb ed="#P" n="42"/>speciei requirit. Nam corpus sic proxime 
+          dis<lb break="no" ed="#P" n="43"/>positum potest suo modo dici specificum, et
+          <lb ed="#P" n="44"/>connaturale homini ratione suae speciei: et
+          <lb ed="#P" n="45"/>ideo non est dubium, quin corpus Adae hanc
+          <lb ed="#P" n="46"/>perfectionem habuerit ad tale individuum 
+          de<lb break="no" ed="#P" n="47"/>terminatum. Statim vero succedit quaestio,
+          <lb ed="#P" n="48"/>cum anima rationis sit perfectissima omnium
+          <lb ed="#P" n="49"/>formarum, cur corpus etiam humanum non
+          <lb ed="#P" n="50"/>fuerit factum caeteris omnibus excellentius ,
+          <lb ed="#P" n="51"/>vel in materia ut coelesti, vel meliori, vel 
+          sal<lb break="no" ed="#P" n="52"/>tem in omnibus proprietatibus corporalibus,
+          <lb ed="#P" n="53"/>magnitudine, viribus, perspicacia sensuum et
+          <lb ed="#P" n="54"/>similibus. Sed haec quaestio ad nos non spectat
+          <lb ed="#P" n="55"/>in praesenti. est enim philosophica, et in libris
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>de anima tractari solet, ideoque uno verbo
+          <lb ed="#P" n="57"/>dicimus, animae datum esse corpus, quod esset
+          <lb ed="#P" n="58"/>ad cognoscendum aptissimum, et ad hoc 
+          ne<lb break="no" ed="#P" n="59"/>cessarium fuisse, ut ex tali materia conditum,
+          <lb ed="#P" n="60"/>et tali temperamento esset affectum: ideoque
+          <lb ed="#P" n="61"/>in hac perfectione eminere debuisse, etiamsi
+          <lb ed="#P" n="62"/>in aliis proprietatibus, quae cum hac conjungi
+          <lb ed="#P" n="63"/>non poterant, careret. Ut latius divus Thomas
+          <lb ed="#P" n="64"/>prosequitur, dicta q. 91, art. 3 et 4, et 
+          Grego<lb break="no" ed="#P" n="65"/>rius Nyssenus, de Hominis opific., cap. 30, et
+          <lb ed="#P" n="66"/>Lactantius, lib. de Opific. Dei, a cap. 2, et
+          <lb ed="#P" n="67"/>Ambrosius, lib. 6, Exaem., cap. 9, Basilius,
+          <lb ed="#P" n="68"/>homil. 10 et 11, Exaem., et videri etiam 
+          po<lb break="no" ed="#P" n="69"/>test Galenius, libro 8, de usu partium. De 
+          al<lb break="no" ed="#P" n="70"/>tero vero sensu quaestionis, scilicet, de 
+          indivi<lb break="no" ed="#P" n="71"/>dui perfectione in tertio capite commodius 
+          di<lb break="no" ed="#P" n="72"/>cemus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

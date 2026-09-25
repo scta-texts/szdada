@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="731"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y17957"><!-- t3l4c4 -->
+        <head xml:id="szdada-y17957-Hd1e101">Caput 4</head>
+        <head xml:id="szdada-y17957-Hd1e103" type="question-title">Quo pacto intellectus noster cognoscat substantiam materialem, et alia per accidens tantum sensibilia</head>
+        <p xml:id="szdada-y17957-d1e106">
+          <pb ed="#P" n="731"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT IV.
+          <lb ed="#P" n="2"/>QUO PACTO INTELLECTUS NOSTER COGNOSCAT 
+          SUB<lb break="no" ed="#P" n="3"/>STANTIAM MATERIALEM, ET ALIA PER ACCIDENS
+          <lb ed="#P" n="4"/>TANTUM SENSIBILIA.
+        </p>
+        <p xml:id="szdada-y17957-d1e122">
+          <lb ed="#P" n="5"/>1. Exponitur difficultas. — Prima assertio
+          <lb ed="#P" n="6"/>ejusque probatio. — Est inter alias lata 
+          differen<lb break="no" ed="#P" n="7"/>tia sensuum ac intellectuum, quod illi in 
+          ex<lb break="no" ed="#P" n="8"/>ternorum accidentium sensibilium cognitione
+          <lb ed="#P" n="9"/>sistant: intellectus vero ex accidentium 
+          cogni<lb break="no" ed="#P" n="10"/>tione ad contemplanda ea, quae sub 
+          accidenti<lb break="no" ed="#P" n="11"/>bus cadunt, atque latent, ingreditur: unde
+          <lb ed="#P" n="12"/>intellectus nuncupatur, quasi intus legens: de
+          <lb ed="#P" n="13"/>accidentibus ergo per se sensibilibus nulla 
+          dif<lb break="no" ed="#P" n="14"/>ficultas est, qua ratione ab intellectu 
+          cogno<lb break="no" ed="#P" n="15"/>scantur, nam cum ea species suas sensibus 
+          im<lb break="no" ed="#P" n="16"/>primant, consequenter etiam imprimunt imn
+          <lb ed="#P" n="17"/>intellectu possibili virtute agentis intellectus:
+          <lb ed="#P" n="18"/>de aliis vero rebus, ut de substantia, et de 
+          ac<lb break="no" ed="#P" n="19"/>cidentibus iis, quae per se non cadunt sub 
+          sen<lb break="no" ed="#P" n="20"/>sum, difficultas restat. Pro qua sit prima 
+          con<lb break="no" ed="#P" n="21"/>clusio. Sensibilia per accidens non 
+          cognoscun<lb break="no" ed="#P" n="22"/>tur primo ab intellectu per proprias species.
+          <lb ed="#P" n="23"/>Probatur: nam species, quae primo fit ab 
+          in<lb break="no" ed="#P" n="24"/>tellectu, est omnino similis in repraesentatione
+          <lb ed="#P" n="25"/>phantasmati, sed per phantasma tantum 
+          re<lb break="no" ed="#P" n="26"/>praesentatur res secundum accidentia per se
+          <lb ed="#P" n="27"/>sensibilia: ergo eamdem rem, et eodem modo
+          <lb ed="#P" n="28"/>repraesentat species intelligibilis facta ab 
+          in<lb break="no" ed="#P" n="29"/>tellectu agente. Major patet, quia cognitio
+          <lb ed="#P" n="30"/>sensitiva est principium cognitionis 
+          intellec<lb break="no" ed="#P" n="31"/>tivae, nam determinat intellectum agentem ad
+          <lb ed="#P" n="32"/>productionem talis speciei: ergo talis est 
+          re<lb break="no" ed="#P" n="33"/>praesentata per speciem intelligibilem 
+          produc<lb break="no" ed="#P" n="34"/>tam ab intellectu agente, qualis fuerat per
+          <lb ed="#P" n="35"/>sensuum cognita, repraesentataque in 
+          phantas<lb break="no" ed="#P" n="36"/>mate. Occurretur fortasse phantasma non 
+          re<lb break="no" ed="#P" n="37"/>praesentare tantum accidentia sensibilia, sed
+          <lb ed="#P" n="38"/>etiam aliquo modo subjectum eorum: siquidem
+          <lb ed="#P" n="39"/>illa non abstracte repraesentantur, sed 
+          concre<lb break="no" ed="#P" n="40"/>te, atque adeo devolvendo in tali 
+          repraesenta<lb break="no" ed="#P" n="41"/>tione subjectum, idque esse satis, ut intellectus
+          <lb ed="#P" n="42"/>agens possit inde propriam subjecti speciem,
+          <lb ed="#P" n="43"/>nimirum substantiae eruere. Sed falso 
+          occur<lb break="no" ed="#P" n="44"/>retur. Primo, quia intellectus agens speciem
+          <lb ed="#P" n="45"/>producit determinatus a cognitione phantasiae,
+          <lb ed="#P" n="46"/>quae non nudum subjectum percipit, sed 
+          acci<lb break="no" ed="#P" n="47"/>dentibus affectum, seu hoc album, hoc 
+          quan<lb break="no" ed="#P" n="48"/>tum, etc., hoc ergo ipsum per speciem 
+          intelli<lb break="no" ed="#P" n="49"/>gibilem spiritualiter repraesentatur. Secundo.
+          <lb ed="#P" n="50"/>Si data responsio vera foret, jam sequeretur,
+          <lb ed="#P" n="51"/>apprehenso per proprium phantasma homine,
+          <lb ed="#P" n="52"/>verbi gratia, confestim intellectum agentem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>producere speciem repraesentantem 
+          substan<lb break="no" ed="#P" n="54"/>tiam hominis, atque adeo materiam illius et
+          <lb ed="#P" n="55"/>formam. Consequens, et falsum est, et contra
+          <lb ed="#P" n="56"/>experientiam; ergo, etc. Sequela patet: quia
+          <lb ed="#P" n="57"/>etiam in eo phantasmate confuse 
+          repraesenta<lb break="no" ed="#P" n="58"/>tur hominis substantia. Confirmatur 
+          institu<lb break="no" ed="#P" n="59"/>tum: nam ideo Angelorum, et Dei non potest
+          <lb ed="#P" n="60"/>dari in intellectu nostro species, per quam
+          <lb ed="#P" n="61"/>primo, directeque intelligantur, quia non 
+          ca<lb break="no" ed="#P" n="62"/>dunt sub cognitionem alicujus sensus: ergo
+          <lb ed="#P" n="63"/>eadem ratione res materiales, quae sub 
+          cogni<lb break="no" ed="#P" n="64"/>tionem alicujus sensus non cadunt, non 
+          pote<lb break="no" ed="#P" n="65"/>runt primo cognosci ab intellectu per propriam
+          <lb ed="#P" n="66"/>speciem. Atque haec conclusio magis 
+          expone<lb break="no" ed="#P" n="67"/>tur in sequenti.
+        </p>
+        <p xml:id="szdada-y17957-d1e263">
+          <lb ed="#P" n="68"/>2. Secunda assertio exponitur. — 
+          Confir<lb break="no" ed="#P" n="69"/>matur utraque conclusio. — Secunda conclusio.
+          <lb ed="#P" n="70"/>Intellectus noster non format proprium et
+          <lb ed="#P" n="71"/>distinctum conceptum rerum, quae sensibiles
+          <lb ed="#P" n="72"/>per se non sunt. Explicatur: nam proprius
+          <lb ed="#P" n="73"/>conceptus alicujus rei dupliciter dici potest.
+          <lb ed="#P" n="74"/>Uno modo, si rei conveniat, ut non conveniat
+          <lb ed="#P" n="75"/>aliis, quo sensu conceptus proprius 
+          distingui<lb break="no" ed="#P" n="76"/>tur contra communem, neque de hoc procedit
+          <lb ed="#P" n="77"/>conclusio, sic enim proprium conceptum 
+          for<lb break="no" ed="#P" n="78"/>mare etiam de Deo possumus, cum praedicata
+          <lb ed="#P" n="79"/>quaedam, sive attributa de eo concipiamus,
+          <lb ed="#P" n="80"/>quae nulli alii conveniant. Altero modo dicitur
+          <lb ed="#P" n="81"/>rei conceptus proprius, quando formatur ex
+          <lb ed="#P" n="82"/>propria rei similitudine absque analogia, vel
+          <lb ed="#P" n="83"/>negatione: res ergo, quae sub sensum cadunt,
+          <lb ed="#P" n="84"/>propriis conceptibus secundo modo a nobis
+          <lb ed="#P" n="85"/>concipiuntur, ut experientia constat: quae
+          <lb ed="#P" n="86"/>vero non cadunt, esto materiales sint, non
+          <lb ed="#P" n="87"/>ita a nobis concipi valent pro hoc statu. Sic
+          <lb ed="#P" n="88"/>ergo exphcata conclusio probatur primo. Si
+          <lb ed="#P" n="89"/>rei materialis non sensatae haberemus talem
+          <lb ed="#P" n="90"/>aliquem conceptum proprium, esset maxime
+          <lb ed="#P" n="91"/>substantiae materialis, ejusque autem non 
+          ha<lb break="no" ed="#P" n="92"/>bemus: ergo nullius. Major propositio est
+          <lb ed="#P" n="93"/>manifesta: nam substantia hujusmodi 
+          majo<lb break="no" ed="#P" n="94"/>rem prae omnibus aliis conjunctionem habet
+          <lb ed="#P" n="95"/>cum accidentibus per se sensibilibus, 
+          quo<lb break="no" ed="#P" n="96"/>rum proprios formamus conceptus. Minor vero
+          <lb ed="#P" n="97"/>probatur: quoniam materialis substantia ex
+          <lb ed="#P" n="98"/>materia, et forma constat, neutrius autem
+          <lb ed="#P" n="99"/>habemus conceptum proprium: materiam
+          <lb ed="#P" n="100"/>namque cognoscimus per analogiam ad 
+          arti<lb break="no" ed="#P" n="101"/>ficialium materiam, subjectumque 
+          acciden<lb break="no" ed="#P" n="102"/>tium: formam vero ex effectibus multipliciter
+          <lb ed="#P" n="103"/>discurrendo deprehendimus, ac tandem 
+          expli<lb break="no" ed="#P" n="104"/>camus per similitudinem ad accidentales 
+          for<lb break="no" ed="#P" n="105"/>mas. Confirmatur, quia ex vi conceptus, quem
+          <lb ed="#P" n="106"/>de substantia exprimimus, discernere non 
+          va<lb break="no" ed="#P" n="107"/>lemus, an simplex sit, vel composita: hoc
+          <pb ed="#P" n="732"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>enim explicandum venit per effectus, et 
+          ana<lb break="no" ed="#P" n="2"/>logiam ad composita accidentalia: ergo, etc.
+          <lb ed="#P" n="3"/>Secundo probatur conclusio Par est de 
+          ho<lb break="no" ed="#P" n="4"/>mine, ac de aliis substantiis ratio ad proprium
+          <lb ed="#P" n="5"/>formandum conceptum, atqui de homine non
+          <lb ed="#P" n="6"/>foriamus proprium, cum de ipsius anima
+          <lb ed="#P" n="7"/>nullum talem formemus, sed tantum per 
+          or<lb break="no" ed="#P" n="8"/>dinem et analogiam ad ejus operationem :
+          <lb ed="#P" n="9"/>quare, etc. Denique experientia ipsa 
+          demon<lb break="no" ed="#P" n="10"/>strat nos propriam susbtantiae rationem non
+          <lb ed="#P" n="11"/>concipere: cum non nisi per ordinem ad
+          <lb ed="#P" n="12"/>accidentia illam declaremus, affirmemusque
+          <lb ed="#P" n="13"/>id, quod accidentibus primo substat, esse 
+          sub<lb break="no" ed="#P" n="14"/>stantiam, explicemus similiter res insensibiles
+          <lb ed="#P" n="15"/>per ordinem ad sensibilia, quod apertum 
+          indi<lb break="no" ed="#P" n="16"/>cium est eorum, quae per se sensibilia non
+          <lb ed="#P" n="17"/>sunt, proprios conceptus in nobis non gigni.
+          <lb ed="#P" n="18"/>Atque hinc etiam confirmatur prior conclusio.
+          <lb ed="#P" n="19"/>Etenim si intellectus reciperet propriam 
+          spe<lb break="no" ed="#P" n="20"/>ciem substantiae materialis actione intellectus
+          <lb ed="#P" n="21"/>agentis, posse utique illam proprio conceptu
+          <lb ed="#P" n="22"/>cognoscere: hoc autem non potest: ergo, etc.
+          <lb ed="#P" n="23"/>Major propositio liquet. Nam cum species sit
+          <lb ed="#P" n="24"/>ratio concipiendi rem, cujus est propria dari
+          <lb ed="#P" n="25"/>etiam poterit proprius conceptus. 
+          Confirmatur<lb break="no" ed="#P" n="26"/>que utraque conclusio ex mysterio 
+          Eucha<lb break="no" ed="#P" n="27"/>ristiae, in illo quippe eodem modo subduntur
+          <lb ed="#P" n="28"/>sensui accidentia panis, quo res aliae sensibiles,
+          <lb ed="#P" n="29"/>neque in rebus aliis sentitur magis subjectum
+          <lb ed="#P" n="30"/>accidentium, quam in Eucharistia, ibi autem
+          <lb ed="#P" n="31"/>ex puantasmate panis consecrati non 
+          produci<lb break="no" ed="#P" n="32"/>tur in intellectu species propria substantiae
+          <lb ed="#P" n="33"/>panis, nec proprius illius conceptus, cum ibi
+          <lb ed="#P" n="34"/>vere non sit talis substantia: ergo neque in
+          <lb ed="#P" n="35"/>rebus aliis sensibilibus acquiretur illa species,
+          <lb ed="#P" n="36"/>formabiturve talis conceptus: alias posset 
+          in<lb break="no" ed="#P" n="37"/>tellectus dijudicare, subessetne his 
+          accidenti<lb break="no" ed="#P" n="38"/>bus substantia, an non?
+        </p>
+        <p xml:id="szdada-y17957-d1e440">
+          <lb ed="#P" n="39"/>3. Progressus nostri intellectus in principio
+          <lb ed="#P" n="40"/>cognoscendi. — Quare processus intellectus
+          <lb ed="#P" n="41"/>nostri in cognoscendo esse videtur, ut primo
+          <lb ed="#P" n="42"/>quidem accipiat speciem spiritualem 
+          reprae<lb break="no" ed="#P" n="43"/>sentantem rem sensibilem et materialem
+          <lb ed="#P" n="44"/>eamdem ipsam, quae repraesentatur in 
+          phan<lb break="no" ed="#P" n="45"/>tasmate, atque adeo primo repraesentantem
+          <lb ed="#P" n="46"/>accidentia sensibilia propria substantiae 
+          alicu<lb break="no" ed="#P" n="47"/>jus: tum etiam sensibilia communia, quae
+          <lb ed="#P" n="48"/>propriorum modificant cognitionem, ac 
+          tan<lb break="no" ed="#P" n="49"/>dem in confuso repraesentantem subjectum
+          <lb ed="#P" n="50"/>accidentium, cum accidentia illa repraesentet
+          <lb ed="#P" n="51"/>in concreto. Intellectus ergo tali formatus
+          <lb ed="#P" n="52"/>specie proprio conceptu attingit sensibilia
+          <lb ed="#P" n="53"/>propria, atque etiam communia, quae aliquo
+          <lb ed="#P" n="54"/>modo per se in specie relucent: quia vero 
+          na<lb break="no" ed="#P" n="55"/>tus est adunata dividere, potest talia sensibilia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>propris, et distinctis conceptibus 
+          apprehen<lb break="no" ed="#P" n="57"/>dere: subjectum tamen accidentium, ac 
+          cae<lb break="no" ed="#P" n="58"/>tera, quae per speciem non repraesentantur,
+          <lb ed="#P" n="59"/>discursu colligit, quatenus considerans ipsa
+          <lb ed="#P" n="60"/>accidentia, ac praecipue cognoscens illorum
+          <lb ed="#P" n="61"/>transmutationem, quae fit circa idem 
+          subjec<lb break="no" ed="#P" n="62"/>tum (nunc enim calidum, nunc frigidum 
+          ex<lb break="no" ed="#P" n="63"/>peritur, nunc lucidum, nunc tenebrosum,
+          <lb ed="#P" n="64"/>etc.) discursu colligit aliquid substare illis,
+          <lb ed="#P" n="65"/>sicque concipit substantiam per modum 
+          sub<lb break="no" ed="#P" n="66"/>jecti substantis, et ita de reliquis.
+        </p>
+        <p xml:id="szdada-y17957-d1e505">
+          <lb ed="#P" n="67"/>4. Assertio unde constet. — Porro ex his
+          <lb ed="#P" n="68"/>tertia haec deducitur conclusio. Quando 
+          intel<lb break="no" ed="#P" n="69"/>lectus per discursum pervenit in cognitionem
+          <lb ed="#P" n="70"/>substantia, speciem elicit repraesentantem
+          <lb ed="#P" n="71"/>modo aliquo substantiam ipsam: et idem est
+          <lb ed="#P" n="72"/>de similibus judicium. Ita optime colhgitur
+          <lb ed="#P" n="73"/>ex iis, quae de cognitione universalis dicta
+          <lb ed="#P" n="74"/>sunt, nimirum quod prius concipiatur per
+          <lb ed="#P" n="75"/>speciem singularis. Deinde vero propria illius
+          <lb ed="#P" n="76"/>formetur species, quod etiam de imaginativa
+          <lb ed="#P" n="77"/>verum est: illa enim primo concipit sensibilia
+          <lb ed="#P" n="78"/>composita per species simplicium, posteaque
+          <lb ed="#P" n="79"/>formas eorum species. Ad hune ergo modum
+          <lb ed="#P" n="80"/>intelligendum, in praesenti contingere: nam
+          <lb ed="#P" n="81"/>intellectus res a sensibus non perceptas primo
+          <lb ed="#P" n="82"/>non concipit per proprias earum species, sed
+          <lb ed="#P" n="83"/>per species sensibilium discursu pervenit in
+          <lb ed="#P" n="84"/>illarum cognitionem: tuncque demum intra
+          <lb ed="#P" n="85"/>se earumdem format species tali cognitioni
+          <lb ed="#P" n="86"/>respondentes: id quod persuadetur similibus,
+          <lb ed="#P" n="87"/>argumentis superius adductis, nempe quia 
+          in<lb break="no" ed="#P" n="88"/>tellectus et capax est illarum specierum, quas
+          <lb ed="#P" n="89"/>cum nondum habeat, ex cognitione rerum
+          <lb ed="#P" n="90"/>ipsarum necessario resultabunt, et quia postea
+          <lb ed="#P" n="91"/>facilius easdem cognoscit, quod indicium est
+          <lb ed="#P" n="92"/>relictas fuisse proprias, cum per alienas tam
+          <lb ed="#P" n="93"/>prompte id praestare non posset.
+        </p>
+        <p xml:id="szdada-y17957-d1e566">
+          <lb ed="#P" n="94"/>5. De praecedentia cognitionis inter accidens
+          <lb ed="#P" n="95"/>et substantiam. — Objectio prima. — Secunda.
+          <lb ed="#P" n="96"/>— Toertia. — Quarta. — Ex doctrina hujus
+          <lb ed="#P" n="97"/>capitis quaestio duplex resolvi potest, una illa
+          <lb ed="#P" n="98"/>est, quidnam ab intellectu nostro concipiatur
+          <lb ed="#P" n="99"/>primo via originis, substantia ne, an accidens?
+          <lb ed="#P" n="100"/>Constat ergo prius formari conceptum 
+          acci<lb break="no" ed="#P" n="101"/>dentis, quam substantiae: illius quippe rei
+          <lb ed="#P" n="102"/>prius format conceptum intellectus noster,
+          <lb ed="#P" n="103"/>cujus speciem prius recipit: prius autem 
+          re<lb break="no" ed="#P" n="104"/>cipit speciem accidentis, cum recipiat actione
+          <lb ed="#P" n="105"/>intellectus agentis immediate, et sine discursu
+          <lb ed="#P" n="106"/>aliquo: per illam ergo formare poterit 
+          con<lb break="no" ed="#P" n="107"/>ceptum accidentis, substantiae vero non item.
+          <lb ed="#P" n="108"/>Objicies tamen primo: quia substantia, juxta
+          <lb ed="#P" n="109"/>Aristotelem 7, Metaphysicae, textu 4, est prior
+          <lb ed="#P" n="110"/>cognitione accidenti. Quod ratione etiam pro-
+          <pb ed="#P" n="733"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>batur. Secundo: nam accidens intrinsecum
+          <lb ed="#P" n="2"/>ordinem vendicat ad substantiam: impossibile
+          <lb ed="#P" n="3"/>ergo est formari conceptum accidentis, nisi
+          <lb ed="#P" n="4"/>cum ordine ad substantiam: ergo debet 
+          prae<lb break="no" ed="#P" n="5"/>concipi substantia. Tertio modus ille 
+          cogno<lb break="no" ed="#P" n="6"/>scendi substantiam supra a nobis positus 
+          vide<lb break="no" ed="#P" n="7"/>tur impossibilis: cognitio namque substantiae
+          <lb ed="#P" n="8"/>sub rationem substantis relativa est: supponit
+          <lb ed="#P" n="9"/>ergo absolutam: praecedere ergo debet 
+          abso<lb break="no" ed="#P" n="10"/>luta, ac adeo propria substantia cognitio.
+          <lb ed="#P" n="11"/>Quarto, quia sequeretur substantiam non 
+          co<lb break="no" ed="#P" n="12"/>gnosci a nobis quidditative, quia res ita solum
+          <lb ed="#P" n="13"/>cognoscitur, cum proprio conceptu attingitur.
+          <lb ed="#P" n="14"/>Consequens autem falsum est, homo enim
+          <lb ed="#P" n="15"/>quidditative cognoscitur, cum animal 
+          ratio<lb break="no" ed="#P" n="16"/>nale definitur.
+        </p>
+        <p xml:id="szdada-y17957-d1e644">
+          <lb ed="#P" n="17"/>6. Qui nostram sententiam respuant, qui
+          <lb ed="#P" n="18"/>amplectantur. — Ad primam objectionem. —
+          <lb ed="#P" n="19"/>Ad secundam .— Ad tertium.— Ad quartam.—
+          <lb ed="#P" n="20"/>Propter haec argumenta Thomistae vulgo 
+          se<lb break="no" ed="#P" n="21"/>quuntur oppositum nostrae sententiae, ut videre
+          <lb ed="#P" n="22"/>est in Soncino 7, Metaphysicae, quaest. 13 et
+          <lb ed="#P" n="23"/>14, Javello, q. 3. Ea tamen verior est, quam
+          <lb ed="#P" n="24"/>docuit Scotus, in 1, dist. 3, quaest. 1 et 3, et
+          <lb ed="#P" n="25"/>dist. 8, quaest. 2, Richardus, in 2, dist. 24,
+          <lb ed="#P" n="26"/>quaest. 3, a. 3, Hervaeus, quodlib. 3, quaest. 11,
+          <lb ed="#P" n="27"/>Antonius Andreas 7, Metaphysica, quaest. 4,
+          <lb ed="#P" n="28"/>Jandunus, quaest. 3, ac rationes factae illam
+          <lb ed="#P" n="29"/>vere convincunt. Quapropter ad Aristotelem
+          <lb ed="#P" n="30"/>respondendum, substantiam secundum se esse
+          <lb ed="#P" n="31"/>priorem cognitione, non tamen quoad nos.
+          <lb ed="#P" n="32"/>Secundo dicito, distincta et quidditativa 
+          co<lb break="no" ed="#P" n="33"/>gnitione substantiam esse priorem accidente,
+          <lb ed="#P" n="34"/>cum hoc ab illa pendeat in essendo et 
+          cogno<lb break="no" ed="#P" n="35"/>scendo perfecte, cognitione vero confusa et
+          <lb ed="#P" n="36"/>imperfecta accidens prius esse cognitione:
+          <lb ed="#P" n="37"/>quia primum est, quod sensibus objicitur. Ad
+          <lb ed="#P" n="38"/>secundam objectionem dicendum, primam 
+          co<lb break="no" ed="#P" n="39"/>gnitionem accidentis non terminari ad 
+          abs<lb break="no" ed="#P" n="40"/>tractum, sed ad concretum, quod non dicit
+          <lb ed="#P" n="41"/>ordinem ad subjectum, sed illud potius in
+          <lb ed="#P" n="42"/>confuso includit, sicque substantiam 
+          quodam<lb break="no" ed="#P" n="43"/>modo cognosci simul cum accidenti, hoc est,
+          <lb ed="#P" n="44"/>in confuso, in quantum videlicet pars est talis
+          <lb ed="#P" n="45"/>concreti accidentalis, non tamen proprio 
+          sub<lb break="no" ed="#P" n="46"/>stantiae conceptu: simile videre est in ipsa 
+          co<lb break="no" ed="#P" n="47"/>gnitione phantasiae. Ad tertiam dicitur 
+          sub<lb break="no" ed="#P" n="48"/>stantiam primo concipi, ut substantem, in quo
+          <lb ed="#P" n="49"/>cognoscendi modo includitur, quod ipsa 
+          sub<lb break="no" ed="#P" n="50"/>sistat, atque ita in confuso cerni ibi absolutum
+          <lb ed="#P" n="51"/>conceptum substantiae, tunc tamen non 
+          con<lb break="no" ed="#P" n="52"/>cipi substantiam illo conceptu praeciso et 
+          pro<lb break="no" ed="#P" n="53"/>prio, sed ut subest alteri rationi notiori nobis.
+          <lb ed="#P" n="54"/>Ad quartam dicitur substantiam cognosci a
+          <lb ed="#P" n="55"/>nobis quidditative modo humano, scilicet a
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>posteriori, et per effectus, et hoc modo cognosci
+          <lb ed="#P" n="57"/>materiam, animamque nostram, etc., 
+          nun<lb break="no" ed="#P" n="58"/>quam vero ista concipi propriis et absolutis
+          <lb ed="#P" n="59"/>conceptibus.
+        </p>
+        <p xml:id="szdada-y17957-d1e742">
+          <lb ed="#P" n="60"/>7. De utilitate cognitionis accidentium ad
+          <lb ed="#P" n="61"/>cognitionem substantie, de qua auctor, disp. 38,
+          <lb ed="#P" n="62"/>Metaphysicae, sect. 9.—Altera quaestio est, 
+          quo<lb break="no" ed="#P" n="63"/>nam pacto accidentia conferant ad cognitionem
+          <lb ed="#P" n="64"/>quidditatis subjecti, sicut Aristoteles docuit in
+          <lb ed="#P" n="65"/>Prologo, 1. 1, de Anima, quia enim intellectus
+          <lb ed="#P" n="66"/>noster ab accidentibus incipit, indeque ad 
+          sub<lb break="no" ed="#P" n="67"/>stantiam usque penetrat, ideo cognitio 
+          acci<lb break="no" ed="#P" n="68"/>dentis ad cognitionem quidditatis substantiae
+          <lb ed="#P" n="69"/>magnopere confert: quod maxime verum 
+          ha<lb break="no" ed="#P" n="70"/>bet, ut divus Thomas et Philoponus ibi notant,
+          <lb ed="#P" n="71"/>de cognitione propriorum accidentium, 
+          opera<lb break="no" ed="#P" n="72"/>tionum et potentiarum substantiae. Ex his
+          <lb ed="#P" n="73"/>enim colligimus rerum differentias et 
+          perfec<lb break="no" ed="#P" n="74"/>tionem, quod faciunt saepissime philosophi,
+          <lb ed="#P" n="75"/>praesertim Aristoteles, ut videre est in libris de
+          <lb ed="#P" n="76"/>Anima, et 1 Physic. dum principia rerum 
+          na<lb break="no" ed="#P" n="77"/>turalium inquirit, et in 4, ubi essentiam loci
+          <lb ed="#P" n="78"/>investigat, et 1, de Generatione, cum naturam
+          <lb ed="#P" n="79"/>generationis substantialis explorat. Quod etiam
+          <lb ed="#P" n="80"/>advertit S. Thomas 2, contra Gentes, cap. 56.
+          <lb ed="#P" n="81"/>Oportet autem observare, utilitatem hanc 
+          co<lb break="no" ed="#P" n="82"/>gnitionis accidentium ad rerum quidditates
+          <lb ed="#P" n="83"/>assequendas, in principio tantum habere 
+          lo<lb break="no" ed="#P" n="84"/>cum, quando scilicet via inquisitionis 
+          procedi<lb break="no" ed="#P" n="85"/>tur, ideoque non requiri integram, exactamque
+          <lb ed="#P" n="86"/>ipsorum accidentium cognitionem: talis 
+          nam<lb break="no" ed="#P" n="87"/>que cognitio magna ex parte pendet ex 
+          cogni<lb break="no" ed="#P" n="88"/>tione subjecti et principii, a quo dimanant:
+          <lb ed="#P" n="89"/>requiritur ergo solum aliqualis cognitio 
+          acci<lb break="no" ed="#P" n="90"/>dentium, per quam paretur via ad habendam
+          <lb ed="#P" n="91"/>perfectam cognitionem quidditatis 
+          substantia<lb break="no" ed="#P" n="92"/>lis, ex qua rursus a priori procedendo 
+          perfec<lb break="no" ed="#P" n="93"/>tius cognoscuntur passiones ipsae, ac de 
+          essen<lb break="no" ed="#P" n="94"/>tia ipsa demonstrantur.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

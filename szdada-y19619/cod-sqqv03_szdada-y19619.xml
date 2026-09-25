@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 8</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 8</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="797"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y19619"><!-- t3l6c8 -->
+        <head xml:id="szdada-y19619-Hd1e101">Caput 8</head>
+        <head xml:id="szdada-y19619-Hd1e103" type="question-title">Utrum anima separata perfectius intelligat, quam conjuncta</head>
+        <p xml:id="szdada-y19619-d1e106">
+          <lb ed="#P" n="8"/>CAPUT VIII.
+          <lb ed="#P" n="9"/>UTRUM ANIMA SEPARATA PERFECTIUS INTELLIGAT,
+          <lb ed="#P" n="10"/>QUAM CONJUNCTA.
+        </p>
+        <p xml:id="szdada-y19619-d1e115">
+          <lb ed="#P" n="11"/>1. Quid D. Thomas sentiat in presenti. —
+          <lb ed="#P" n="12"/>Quid Scotus. — Postquam dictum est de 
+          co<lb break="no" ed="#P" n="13"/>gnitione animae separatae, superest 
+          compare<lb break="no" ed="#P" n="14"/>mus modum cognoscendi illius, cum modo 
+          ani<lb break="no" ed="#P" n="15"/>mae conjunctae, ut colligamus quis horum 
+          sta<lb break="no" ed="#P" n="16"/>tuum sit melior. D. Thomas supra respondet,
+          <lb ed="#P" n="17"/>licet modus cognoscendi animae separatae 
+          se<lb break="no" ed="#P" n="18"/>cundum se sit melior, non tamen animae, quia
+          <lb ed="#P" n="19"/>improportionatus. Itaque videtur sentire 
+          ani<lb break="no" ed="#P" n="20"/>mam conjunciam melius cognoscere. Ratio
+          <lb ed="#P" n="21"/>ilius est, quia animae uniuntur corporibus, ut
+          <lb ed="#P" n="22"/>perfectiorem cognitionem rerum habere 
+          pos<lb break="no" ed="#P" n="23"/>sint. Scotus, in4, dist. 45, q.2, vultcognitionem
+          <lb ed="#P" n="24"/>quoque animae conjunctae esse perfectiorem,
+          <lb ed="#P" n="25"/>atque adeo cognitionem sine dependentia a
+          <lb ed="#P" n="26"/>phantasmate non esse simpliciter meliorem
+          <lb ed="#P" n="27"/>cognitione cum dependentia, sed ex dictis 
+          vi<lb break="no" ed="#P" n="28"/>detur aliter dicendum, et primo suppono 
+          con<lb break="no" ed="#P" n="29"/>tra Scotum cognitionem sine dependentia a
+          <lb ed="#P" n="30"/>corpore, et phantasmatibus perfectiorem esse,
+          <lb ed="#P" n="31"/>quam cum dependentia. Quod D. Thomas 
+          po<lb break="no" ed="#P" n="32"/>suit, nec potest negari ab Scoto, quia illa 
+          co<lb break="no" ed="#P" n="33"/>gnitio est perfectior simpliciter, utpote Deo
+          <lb ed="#P" n="34"/>conveniens et Angelis: quare si animae non
+          <lb ed="#P" n="35"/>ideo est, quod non sit melior, sed quod anima
+          <lb ed="#P" n="36"/>minus capax sit illius, quemadmodum 
+          cogni<lb break="no" ed="#P" n="37"/>Uo sine discursu perfectior est, quam cum
+          <lb ed="#P" n="38"/>discursu licet animae non sit melior, quia illi
+          <lb ed="#P" n="39"/>impossibilis. Secundo suppono, dictam 
+          compa<lb break="no" ed="#P" n="40"/>rationem fieri absolute, vel etiam circa res 
+          de<lb break="no" ed="#P" n="41"/>terminatas.
+        </p>
+        <p xml:id="szdada-y19619-d1e185">
+          <lb ed="#P" n="42"/>2. Prima assertio ostenditur multipliciter.—
+          <lb ed="#P" n="43"/>Prima conclusio absolute loquendo, melius 
+          in<lb break="no" ed="#P" n="44"/>telligit anima separata, quam conjuncta. Patet
+          <lb ed="#P" n="45"/>ex dictis, primo, quia intelligit se quidditative,
+          <lb ed="#P" n="46"/>quod in corpore non praestat. Secundo 
+          conci<lb break="no" ed="#P" n="47"/>pit intelligentias propriis conceptibus, et non
+          <lb ed="#P" n="48"/>per negationes, quod non sic in corpore. Tertio
+          <lb ed="#P" n="49"/>Deum melius cognoscit, quia cognoscit melius
+          <lb ed="#P" n="50"/>effectus illius et meliores. Quarto, cum sit 
+          li<lb break="no" ed="#P" n="51"/>bera a corpore, aptior est ad intelligendum, et
+          <lb ed="#P" n="52"/>ad perseverandum in actibus intellectus, ut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>D. Thomas, art. 2, ad 1, docet et colligitur ex
+          <lb ed="#P" n="54"/>illo Sap. 9: Corpus, quod corrumpitur, 
+          aggra<lb break="no" ed="#P" n="55"/>vat animam, et terrena inhabitatio deprimit
+          <lb ed="#P" n="56"/>sensum multa cogitantemn.
+        </p>
+        <p xml:id="szdada-y19619-d1e223">
+          <lb ed="#P" n="57"/>3. Secunda assertio explicans varias 
+          com<lb break="no" ed="#P" n="58"/>parationes circa titulum capitis. — Secunda
+          <lb ed="#P" n="59"/>conclusio. Comparando etiam cognitiones, 
+          me<lb break="no" ed="#P" n="60"/>lius intelligit anima separata res etiam 
+          mate<lb break="no" ed="#P" n="61"/>riales, quam conjuncta. Pro qua observa, in
+          <lb ed="#P" n="62"/>anima separata darispecies materialium rerum,
+          <lb ed="#P" n="63"/>quas hic acquisivit, dari etiam species infusas,
+          <lb ed="#P" n="64"/>utique per se: quae namque infusae sunt per
+          <lb ed="#P" n="65"/>accidens, neutiquam infunderentur de iis 
+          re<lb break="no" ed="#P" n="66"/>bus, quarum jam anima in corpore species 
+          ac<lb break="no" ed="#P" n="67"/>quisierat, sed supplerentur tantum, quae 
+          dees<lb break="no" ed="#P" n="68"/>sent: supponendo ergo per se infusas esse
+          <lb ed="#P" n="69"/>(quod est probabile, neque ad praesens refert)
+          <lb ed="#P" n="70"/>comparatio intenta fieri potest multis modis
+          <lb ed="#P" n="71"/>quibus omnibus anima separata melius 
+          intelli<lb break="no" ed="#P" n="72"/>get, quam conjuncta Prima comparatio. 
+          Ani<lb break="no" ed="#P" n="73"/>ma separata melius intelligit per species 
+          acqui<lb break="no" ed="#P" n="74"/>sitas, quam conjuncta, quia est liberior, et
+          <lb ed="#P" n="75"/>lumen intellectus expeditius. Secunda 
+          compa<lb break="no" ed="#P" n="76"/>ratio. Per infusas melius intelligit, quam per
+          <lb ed="#P" n="77"/>acquisitas, quia infusae sunt perfectiores, atque
+          <lb ed="#P" n="78"/>animae pro illo statu magis proportionatae,
+          <lb ed="#P" n="79"/>quam acquisitae, estque rationabile, ut anima
+          <lb ed="#P" n="80"/>per conversionem ad superiora melius 
+          intelli<lb break="no" ed="#P" n="81"/>gat, quam per conversionem ad inferiora. Unde
+          <lb ed="#P" n="82"/>patet quod separata per infusas melius 
+          intelli<lb break="no" ed="#P" n="83"/>get, quam conjuncta per acquisitas, quae est
+          <lb ed="#P" n="84"/>ultima comparatio. Itaque modis omnibus 
+          me<lb break="no" ed="#P" n="85"/>lius intelliget separata.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

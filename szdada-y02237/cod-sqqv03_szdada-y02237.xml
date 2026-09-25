@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="90"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y02237"><!-- t2l2c1 -->
+        <head xml:id="szdada-y02237-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-y02237-Hd1e103" type="question-title">An lux primo die creata spiritualis, vel sensibilis fuerit</head>
+        <p xml:id="szdada-y02237-d1e106">
+          <lb ed="#P" n="34"/>CAPUT I.
+          <lb ed="#P" n="35"/>AN LUX PRIMO DIE CREATA SPIRITUALIS, VEL
+          <lb ed="#P" n="36"/>SENSIBILIS FUERIT.
+        </p>
+        <p xml:id="szdada-y02237-d1e115">
+          <lb ed="#P" n="37"/>1. Primae diei opus lucis productio.—Primi
+          <lb ed="#P" n="38"/>diei opus fere unicum fuit lucis productio,
+          <lb ed="#P" n="39"/>illis verbis significata, Dicit autem Deus, fiat
+          <lb ed="#P" n="40"/>luc, et facta est luxm, qua ex parte opus hoc ad
+          <lb ed="#P" n="41"/>ornatum mundi pertinet, ut jam tetigi, et 
+          sta<lb break="no" ed="#P" n="42"/>tim amplius ex re ipsa, et ex Patribus 
+          expli<lb break="no" ed="#P" n="43"/>cabo. Dixi autem hoc opus fuisse fere unicum ,
+          <lb ed="#P" n="44"/>et non simpliciter esse unicum, quia statim
+          <lb ed="#P" n="45"/>additur, et divisit lucem a tenebris, quod ad
+          <lb ed="#P" n="46"/>opus distinctionis pertinet: tamen, quia haec
+          <lb ed="#P" n="47"/>divisio non aliter facta est, quam producendo
+          <lb ed="#P" n="48"/>Iucem, ideo solum fuit quasi quid consequens
+          <lb ed="#P" n="49"/>ad illam, et ideo utrumque pro eodem opere
+          <lb ed="#P" n="50"/>computamus. Circa illa autem verba, quibus
+          <lb ed="#P" n="51"/>haec actio Dei describitur, scilicet dixit, fiat,
+          <lb ed="#P" n="52"/>et factum est, multa ab expositoribus Genesis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tractantur, quae nobis necessaria non sunt.
+          <lb ed="#P" n="54"/>Satis enim certum est, illis verbis non 
+          signifi<lb break="no" ed="#P" n="55"/>cari aliquod sensibile Dei verbum, quod 
+          dixe<lb break="no" ed="#P" n="56"/>rit. fiat, quia nec tunc erant creaturae, quae
+          <lb ed="#P" n="57"/>sensibile verbum audire possent, ut ibi 
+          Basi<lb break="no" ed="#P" n="58"/>lius adnotavit, nec sensibile verbum 
+          produc<lb break="no" ed="#P" n="59"/>tioni lucis natura sua inserviebat, neque 
+          opor<lb break="no" ed="#P" n="60"/>tebat tunc illud tanquam instrumentum ad
+          <lb ed="#P" n="61"/>Iucem creandam miraculose sumere. Ait autem
+          <lb ed="#P" n="62"/>Theodoretus, q. 9, in Gen., potuisse Deum
+          <lb ed="#P" n="63"/>uti voce sensibili propter invisibiles virtutes,
+          <lb ed="#P" n="64"/>ut etficaciam divini imperii agnoscerent ; sed
+          <lb ed="#P" n="65"/>profecto Angeli, ut ait Augustinus, lib. 11, de
+          <lb ed="#P" n="66"/>Civit., cap. 29, non addiscunt per sensibilia
+          <lb ed="#P" n="67"/>verba, sed per intelligentiam, vel revelationem
+          <lb ed="#P" n="68"/>mere spiritualem ; unde melius ibidem ait illo
+          <lb ed="#P" n="69"/>verbo solum significari divinum imperium 
+          in<lb break="no" ed="#P" n="70"/>ternum spirituale, quo efficaciter vocat ea, que
+          <lb ed="#P" n="71"/>non sunt, tanquam ea, qua sunt. An vero ille
+          <lb ed="#P" n="72"/>actus imperii immediate sit actus intellectus,
+          <lb ed="#P" n="73"/>ut verbum, dizit, indicat, vel sit actus 
+          volun<lb break="no" ed="#P" n="74"/>tatis, juxta illud Psal. 113 et 134: Omnia 
+          quaee<lb break="no" ed="#P" n="75"/>cumque voluit fecit, et an effectio ad extra sit
+          <lb ed="#P" n="76"/>immcediate ab hoc imperio, vel a potentia 
+          exe<lb break="no" ed="#P" n="77"/>quente, juxta illud Sap. 11: Subest tibi cum
+          <lb ed="#P" n="78"/>colueris posse, quaestiones sunt generales, et
+          <lb ed="#P" n="79"/>alihi tractatae.
+        </p>
+        <p xml:id="szdada-y02237-d1e213">
+          <lb ed="#P" n="80"/>2. Augustini sententia quod lua illa fuerit
+          <lb ed="#P" n="81"/>spiritualis.— Tota ergo diflicultas hujus 
+          ope<lb break="no" ed="#P" n="82"/>ris est in explicanda luce, quae hoc die facta
+          <lb ed="#P" n="83"/>dicitur, quae scilicet, vel quid fuerit, nam si
+          <lb ed="#P" n="84"/>hoc declaretur, qualis etiam fuerit divisio 
+          lu<lb break="no" ed="#P" n="85"/>cis a tenebris, facile intelligetur ; duo autem
+          <lb ed="#P" n="86"/>sunt praecipue tractanda, primum in hoc 
+          ca<lb break="no" ed="#P" n="87"/>pite an lux illa spiritualis fuerit, vel 
+          materia<lb break="no" ed="#P" n="88"/>lis, secundum in sequenti quaenam fuerit in
+          <lb ed="#P" n="89"/>quocumque ordine constituatur. Circa primum
+          <lb ed="#P" n="90"/>est celebris sententia Augustini asserentis 
+          lu<lb break="no" ed="#P" n="91"/>cem illam fuisse spiritualem et angelicam;
+          <lb ed="#P" n="92"/>ita docet lib. 11, de Civit., cap. 7 et 9, ubi
+          <lb ed="#P" n="93"/>cum aliqua dubitatione loquitur: aliis vero
+          <lb ed="#P" n="94"/>locis idem constanter affirmat, ut videre licet
+          <lb ed="#P" n="95"/>lib. 14, Gen. ad lit., cap. 3 et 9, usque ad 
+          fi<lb break="no" ed="#P" n="96"/>nem, et lib. 4, a c. 21, usque ad 28, maxime
+          <lb ed="#P" n="97"/>vero in Imperfect., c. 5, et idem habet, lib. 22,
+          <lb ed="#P" n="98"/>contr. Faust., cap. 10, et lib. 1, contr. 
+          adver<lb break="no" ed="#P" n="99"/>sarium legis et prophetarum, c. 10, 11, ac 12.
+          <lb ed="#P" n="100"/>Fundamentum Augustini in summa est, quia
+          <lb ed="#P" n="101"/>Scriptura potest de spirituali luce proprie, et
+          <lb ed="#P" n="102"/>sine metaphora intelligi, quia lux spiritualis
+          <lb ed="#P" n="103"/>verior, et certior est quam materialis, ut dicit
+          <lb ed="#P" n="104"/>in dicto capite quinto Imperfecti: ergo sine
+          <lb ed="#P" n="105"/>metaphora possunt illa verba de luce spirituali
+          <lb ed="#P" n="106"/>intelligi: ergo ita sunt intelligenda. Hanc 
+          con<lb break="no" ed="#P" n="107"/>sequentiam probat dupliciter, primo in dicto
+          <pb ed="#P" n="91"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>loco de Civitate, quia Angeli creati sunt intra
+          <lb ed="#P" n="2"/>illos sex dies, quia sunt creaturae Dei, et non
+          <lb ed="#P" n="3"/>sunt facti ante illos sex dies, quia initium
+          <lb ed="#P" n="4"/>creandi fuit illorum dierum principium, 
+          ne<lb break="no" ed="#P" n="5"/>que post illos sex dies, imo nec post quartum
+          <lb ed="#P" n="6"/>diem, quando facta sunt astra, quia tunc
+          <lb ed="#P" n="7"/>Angeli jam laudabant Deum, Job 38; neque
+          <lb ed="#P" n="8"/>etiam sub operibus secundi et tertii diei 
+          conti<lb break="no" ed="#P" n="9"/>nentur, ut constat ex verbis Genesis; ergo 
+          fue<lb break="no" ed="#P" n="10"/>runt opus primi diei, et per lucem 
+          significan<lb break="no" ed="#P" n="11"/>tur. Secundo idem probat in alis locis, quia
+          <lb ed="#P" n="12"/>explicaii non potest, quae lux materialis tunc
+          <lb ed="#P" n="13"/>creari potuerit ; quia sol cum sua luce creatus
+          <lb ed="#P" n="14"/>fuit quarto die: ergo lux illa primi diei non
+          <lb ed="#P" n="15"/>fuit lux Solis, neque alia probabiliter cogitari
+          <lb ed="#P" n="16"/>potest ; praesertim, quia si lux illa materialis
+          <lb ed="#P" n="17"/>fuit, etiam divisio inter diem et tenebras de
+          <lb ed="#P" n="18"/>materialibus debet intelligi: nulla autem alia
+          <lb ed="#P" n="19"/>lux fuit causa divisionis inter diem et 
+          tene<lb break="no" ed="#P" n="20"/>bras, nisi lux Solis: ergo non potest opus 
+          hu<lb break="no" ed="#P" n="21"/>jus diei de illa luce, vel divisione materiali
+          <lb ed="#P" n="22"/>intelligi ; et hanc Augustini sententiam 
+          maxi<lb break="no" ed="#P" n="23"/>me defendit Rupertus, lib. 1, in Gen.,c. 10;
+          <lb ed="#P" n="24"/>quia addit conjecturam, quia si lux illa fuisset
+          <lb ed="#P" n="25"/>materialis, et alia a luce Solis tribus tantum
+          <lb ed="#P" n="26"/>diebus durasset, nam creato sole quarto die
+          <lb ed="#P" n="27"/>evanuisset. Hoc autem nec docet, nec est 
+          con<lb break="no" ed="#P" n="28"/>sentaneum intentioni Moysis, qui effectionem
+          <lb ed="#P" n="29"/>mundi permanentis et stabilis describere 
+          vo<lb break="no" ed="#P" n="30"/>Iuit; eamdem sententiam secutus est 
+          Euche<lb break="no" ed="#P" n="31"/>rius, lib. 1. in Gen., cap. 2. Citantur etiam pro
+          <lb ed="#P" n="32"/>hac sententia Isidorus, de Summo bono, c. 10,
+          <lb ed="#P" n="33"/>Beda, in Exaem., et super Gen, et Glossae 
+          ibi<lb break="no" ed="#P" n="34"/>dem, et Magister, D. Thomas, et alii 
+          scholas<lb break="no" ed="#P" n="35"/>tici; verumtamen hi omnes non adhaerent huic
+          <lb ed="#P" n="36"/>sententiae, sed illam tolerant, aliam non 
+          ex<lb break="no" ed="#P" n="37"/>cludendo.
+        </p>
+        <p xml:id="szdada-y02237-d1e362">
+          <lb ed="#P" n="38"/>3. Quid videatur intellemisse Augustinus per
+          <lb ed="#P" n="39"/>spiritualem lucem primo die factam. —Est 
+          au<lb break="no" ed="#P" n="40"/>tem obscurum apud Augustinum, quae fuerit
+          <lb ed="#P" n="41"/>spiritualis lux, quae illo die, et per illa verba
+          <lb ed="#P" n="42"/>fuit facta, an scilicet ipsa substantia 
+          Angelo<lb break="no" ed="#P" n="43"/>rum cum suo lumine natural, et intellectuali,
+          <lb ed="#P" n="44"/>ejusque creatio: an vero fuerit sanctorum 
+          glo<lb break="no" ed="#P" n="45"/>rificatio; nam in multis locis sentit 
+          Augusti<lb break="no" ed="#P" n="46"/>nus, Angelos creatos fuisse in primo instanti
+          <lb ed="#P" n="47"/>creationis mundi, et comprehensos a Moyse
+          <lb ed="#P" n="48"/>sub nomine coeli in verbis illis: 7n principio
+          <lb ed="#P" n="49"/>creavit Deus colum et terram, ut in 
+          superio<lb break="no" ed="#P" n="50"/>ribus retuli ex lib. 9 Confess., cap. 9 et 16,
+          <lb ed="#P" n="51"/>et in Imperfect. Gen., c. 3, et lib. 1, Genesis
+          <lb ed="#P" n="52"/>ad litter., cap. 9, et lib. 4, cap. 32. Ergo 
+          crea<lb break="no" ed="#P" n="53"/>tio Angelorum quoad substantiam et 
+          proprie<lb break="no" ed="#P" n="54"/>tates naturales ejus, non potest ad opus primi
+          <lb ed="#P" n="55"/>diei pertinere, sive isti dies sint naturales, sive
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>intellectuales, ut Augustinus vult, quia opera
+          <lb ed="#P" n="57"/>illorum debent esse distincta tam inter se,
+          <lb ed="#P" n="58"/>quam a creatione mundi, prout in primo 
+          in<lb break="no" ed="#P" n="59"/>stanti facta est ; quapropter probabilius 
+          vide<lb break="no" ed="#P" n="60"/>tur, cum Augustinus dicit lucem hanc primo
+          <lb ed="#P" n="61"/>die factam fuisse spiritualem et angelicam ,
+          <lb ed="#P" n="62"/>hoc intellexisse de illuminatione supernaturali
+          <lb ed="#P" n="63"/>facta in sanctis Angelis per infusionem 
+          lumi<lb break="no" ed="#P" n="64"/>nis gloriae et visionis beatae, quam in ingressu
+          <lb ed="#P" n="65"/>beatitudinis acceperunt; atque ita cum dicit
+          <lb ed="#P" n="66"/>nomine coeli significari Angelos, loqui de 
+          An<lb break="no" ed="#P" n="67"/>gelis quoad naturam, seu de creatione 
+          illo<lb break="no" ed="#P" n="68"/>rum: cum vero dicit significari nomine lueis,
+          <lb ed="#P" n="69"/>loqui de Angelis quoad gloriam: ut aperte
+          <lb ed="#P" n="70"/>significat, dictolib. 11, de Civit., c. 7, dicens:
+          <lb ed="#P" n="71"/>Aut lucis nomine significata est sancta Civitas
+          <lb ed="#P" n="72"/>in sanctis Angelis, et spiritibus beatis de qua
+          <lb ed="#P" n="73"/>dicit Apostolus, que sursum est Jerusalem,
+          <lb ed="#P" n="74"/>etc.; et ita etiam accipiendum est quod in
+          <lb ed="#P" n="75"/>cap. 9, ait Angelos in narratione Genesis 
+          com<lb break="no" ed="#P" n="76"/>prehensos esse vel nomine cali, vel potius 
+          no<lb break="no" ed="#P" n="77"/>mine lucis. Et hoc confirmat quod eisdem 
+          lo<lb break="no" ed="#P" n="78"/>cis ait, illud mane primi diei fuisse 
+          cognitio<lb break="no" ed="#P" n="79"/>nem matutinam Angelorum, quae in visione
+          <lb ed="#P" n="80"/>beata consistit, ut supra ostensum est ; denique
+          <lb ed="#P" n="81"/>idem convincitur, nam divisionem lucis a 
+          te<lb break="no" ed="#P" n="82"/>nebris primo die factam exponit Augustinus
+          <lb ed="#P" n="83"/>de divisione inter bonos et malos Angelos,
+          <lb ed="#P" n="84"/>ut ex eisdem locis constat: ergo nomine lucis
+          <lb ed="#P" n="85"/>non potuit angelicam naturam significare,
+          <lb ed="#P" n="86"/>nam in illa non sunt separati boni a malis
+          <lb ed="#P" n="87"/>Angelis, et ideo segregatio inter illos non est
+          <lb ed="#P" n="88"/>in primo instanti creationis facta, quamvis
+          <lb ed="#P" n="89"/>probabile sit in primo die factam fuisse, ut in
+          <lb ed="#P" n="90"/>superiori tractatu disputatum est.
+        </p>
+        <p xml:id="szdada-y02237-d1e482">
+          <lb ed="#P" n="91"/>3. Vera assertio. — Probatur primo 
+          aucto<lb break="no" ed="#P" n="92"/>ritate. — Nihilominus dicendum est aliquam
+          <lb ed="#P" n="93"/>lucem sensibilem et materialem factam esse
+          <lb ed="#P" n="94"/>in opere primi diei, et ad litteram significari
+          <lb ed="#P" n="95"/>per illa verba, fiat lux, etc. Haec est 
+          commu<lb break="no" ed="#P" n="96"/>nis opinio Basilii, Ambrosii, Chrysostomi,
+          <lb ed="#P" n="97"/>homil. 3, et aliorum Patrum et Doctorum ,
+          <lb ed="#P" n="98"/>quos statim referemus, explicando, quaenam
+          <lb ed="#P" n="99"/>fuerit illa lux. Praeterea omnes Patres, qui 
+          ne<lb break="no" ed="#P" n="100"/>gant Angelos comprehensos esse a Moyse, in
+          <lb ed="#P" n="101"/>primo capite Genesis, manifeste supponunt
+          <lb ed="#P" n="102"/>non fuisse significatos ad litteram nomine lucis,
+          <lb ed="#P" n="103"/>ac proinde lucem illam sensibilem fuisse. Sunt
+          <lb ed="#P" n="104"/>autem illi Patres Athanasius, Chrysostomus,
+          <lb ed="#P" n="105"/>Basilius, Epiphanius, Hieronymus, Cyrillus
+          <lb ed="#P" n="106"/>et Theodoretus citati superiori lib. 6. 
+          Praete<lb break="no" ed="#P" n="107"/>rea sententiam hanc amplectitur Ecclesia in
+          <lb ed="#P" n="108"/>Hymn. Dominic. ad Vesper. dicens:
+          <lb ed="#P" n="109"/>Lucis Creator optime,
+          <pb ed="#P" n="92"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Lucem dierun proferens
+          <lb ed="#P" n="2"/>Primordiis lucis nove
+          <lb ed="#P" n="3"/>Mundi porans originem.
+        </p>
+        <p xml:id="szdada-y02237-d1e537">
+          <lb ed="#P" n="4"/>4. Probat secundo ratione. — Ubi aperte de
+          <lb ed="#P" n="5"/>hac luce sensibili loquitur; ratione item 
+          pro<lb break="no" ed="#P" n="6"/>batur haec sententia ex dictis in ultimo capite
+          <lb ed="#P" n="7"/>praecedentis libri, ubi ostendimus hos sex dies,
+          <lb ed="#P" n="8"/>in quibus ornatus cst mundus, ex his 
+          mate<lb break="no" ed="#P" n="9"/>rialibus et sensibilibus ac naturalibus, quibus
+          <lb ed="#P" n="10"/>utimur, fuisse, sed hi dies conficiuntur ex luce
+          <lb ed="#P" n="11"/>visibili, seu ex praesentia et absentia ejus:
+          <lb ed="#P" n="12"/>ergo talis fuit ille primus dies, in quo facta est
+          <lb ed="#P" n="13"/>lus: ergo lux illa sensibilis et materialis fuit ;
+          <lb ed="#P" n="14"/>nam ex praesentia et absentia ejus factus est ;
+          <lb ed="#P" n="15"/>secundo, quia verba illa, et tenebree erant 
+          su<lb break="no" ed="#P" n="16"/>per faciem abyssi, quee proxime ante opus
+          <lb ed="#P" n="17"/>primi diei ponuntur, de tenebris materialibus
+          <lb ed="#P" n="18"/>ad litteram intelliguntur, ut supra probatum
+          <lb ed="#P" n="19"/>est, et patet manifeste ex subjecto illarum 
+          tc<lb break="no" ed="#P" n="20"/>nebrarum, quod verbisillis, super faciem abyssi,
+          <lb ed="#P" n="21"/>indicatur: nam abyssus aquarum 
+          profundita<lb break="no" ed="#P" n="22"/>tem significat, ut ex omnium sententia supra
+          <lb ed="#P" n="23"/>dictum est, et denotant sequentia verba: 
+          Spi<lb break="no" ed="#P" n="24"/>ritus Domini ferebatur super aquas: facies 
+          au<lb break="no" ed="#P" n="25"/>tem abyssi dicitur extrema pars, vel 
+          superfi<lb break="no" ed="#P" n="26"/>cies aeris, vel aquae: ergo abyssus illa erat
+          <lb ed="#P" n="27"/>subjectum illarum tencbrarum: fuit ergo
+          <lb ed="#P" n="28"/>subjcctum materiale: ergo et tenebrae 
+          mate<lb break="no" ed="#P" n="29"/>riales eraut, sed lux facta est illo primo die ad
+          <lb ed="#P" n="30"/>depellendas tenebras: ergo lux etiam 
+          sensibi<lb break="no" ed="#P" n="31"/>lis et materialis fuit, et ita intelligenda sunt
+          <lb ed="#P" n="32"/>illa verba, et divisit lucem a tenebris, nam de
+          <lb ed="#P" n="33"/>eisdem tenebris in utroque loco sermo est.
+        </p>
+        <p xml:id="szdada-y02237-d1e605">
+          <lb ed="#P" n="34"/>5. Confirmatur. — Contirmatur ex ratione
+          <lb ed="#P" n="35"/>quam sancti Patres reddunt, ob quam Deus a
+          <lb ed="#P" n="36"/>creatione lucis ornatum universi mundi 
+          sen<lb break="no" ed="#P" n="37"/>sibilis inchoavit, nimirum quia lux est quasi
+          <lb ed="#P" n="38"/>universale ornamentum coelorum et 
+          elemen<lb break="no" ed="#P" n="39"/>torum, et universarum rerum sensibilium,
+          <lb ed="#P" n="40"/>quia in tenebris decor et pulchritudo rerum
+          <lb ed="#P" n="41"/>cerni non potest ; unde in lib. 4 Esdrae, c. 6,
+          <lb ed="#P" n="42"/>et erat tunc spiritus et tenebree 
+          circumfereban<lb break="no" ed="#P" n="43"/>Ltur, et silenlium sonus vocis, hominis nondum
+          <lb ed="#P" n="44"/>erat abs te, tunc divisti de thesauris tuis 
+          pro<lb break="no" ed="#P" n="45"/>ferri lumen luminosum, quo appareret opus
+          <lb ed="#P" n="46"/>tuun ; et hac ratione maxime utuntur Basilius
+          <lb ed="#P" n="47"/>et Beda, in Exaemer., et Damascenus, lib. 2,
+          <lb ed="#P" n="48"/>de Fide, cap. 7, et Hugo de sancto Victore,
+          <lb ed="#P" n="49"/>lib. 1, de Sacram, p. 1, c. 8, et sequentibus.
+          <lb ed="#P" n="50"/>Accedit, quod cum decrevisset Deus non simul,
+          <lb ed="#P" n="51"/>sed certo dierum numero mundum componere,
+          <lb ed="#P" n="52"/>et ornare propter rationes, quas in fine 
+          prae<lb break="no" ed="#P" n="53"/>cedentis libri tetigimus, et alias quae in 
+          the<lb break="no" ed="#P" n="54"/>sauris divinae sapientiae latent, et ab initio il-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>lorum dierum duratio totius mundi 
+          compn<lb break="no" ed="#P" n="56"/>tanda esset, necessarium fuit, ut lux sensibilis,
+          <lb ed="#P" n="57"/>quae fundamentum est, et quasi formalis causa
+          <lb ed="#P" n="58"/>simul cum motu suo diem constituens, statime
+          <lb ed="#P" n="59"/>in primo die crearetur: ergo Ilux, quae tunc
+          <lb ed="#P" n="60"/>creata dicitur, materialis, et sensibilis fuit. 
+          Ulti<lb break="no" ed="#P" n="61"/>mo hoc confirmari hoc potest illa generali 
+          re<lb break="no" ed="#P" n="62"/>gula, qua in superioribus saepe usi sumus,
+          <lb ed="#P" n="63"/>quia verba Scripturae quoad fieri possit in 
+          pro<lb break="no" ed="#P" n="64"/>prietate sunt accipienda, praesertim in 
+          histo<lb break="no" ed="#P" n="65"/>rica narratione: sed lux in significatione
+          <lb ed="#P" n="66"/>maxime propria et usitata hanc sensibilem
+          <lb ed="#P" n="67"/>Iucem significat: ergo de hac intelligenda
+          <lb ed="#P" n="68"/>sunt verba Moysis. Neque satisfacit responsio,
+          <lb ed="#P" n="69"/>quam Augustinus in suo fundamento indicat,
+          <lb ed="#P" n="70"/>quod etiam de spirituah lumine lux proprie
+          <lb ed="#P" n="71"/>dicitur, nam licet hoc verum sit secundum
+          <lb ed="#P" n="72"/>quamdam significationem, altiorem quidem
+          <lb ed="#P" n="73"/>ex parte rei significatee, nihilominus absolute
+          <lb ed="#P" n="74"/>illa est secundaria significatio ex sapientum
+          <lb ed="#P" n="75"/>usu derivata, spectata primaeva illius nominis
+          <lb ed="#P" n="76"/>impositione; nam, ut D. Thomas, 1 p., q. 67,
+          <lb ed="#P" n="77"/>art. 1, notavit, haec vox luz primo imposita
+          <lb ed="#P" n="78"/>est, ad significandum id, quod facit 
+          manifes<lb break="no" ed="#P" n="79"/>tationem in sensu visus, postea vero extensa
+          <lb ed="#P" n="80"/>est ad significandam spiritualem lucem; et
+          <lb ed="#P" n="81"/>ideo inquit ibidem D. Thomas, vocem illam
+          <lb ed="#P" n="82"/>spectatam secundum suam primam 
+          impositio<lb break="no" ed="#P" n="83"/>nem metaphorice ad spiritualia transferri, 
+          si<lb break="no" ed="#P" n="84"/>cut etiam dixit Ambrosius, libr. 2, de Fide, in
+          <lb ed="#P" n="85"/>principio. Quod ergo in dicto loco Genesis 
+          su<lb break="no" ed="#P" n="86"/>menda sit illa vox in proprietate primae 
+          signi<lb break="no" ed="#P" n="87"/>ficalionis suae, ratio facta ostendit, quia Moyses
+          <lb ed="#P" n="88"/>expresse describere voluit ornatum hujus
+          <lb ed="#P" n="89"/>mundi visibilis. Juvant etiam omnes aliae 
+          cir<lb break="no" ed="#P" n="90"/>cumstantiae, ut est illa de tenebris quam 
+          pon<lb break="no" ed="#P" n="91"/>deravimus, item quod illa verba, dies, noz,
+          <lb ed="#P" n="92"/>mane, et vespere, non nisi per metaphoram ad
+          <lb ed="#P" n="93"/>spiritualia transferuntur; ergo in illo loco non
+          <lb ed="#P" n="94"/>nisi sensibiliter sumuntur: ergo eodem modo
+          <lb ed="#P" n="95"/>intelligenda est lux, quae illius diei et noctis,
+          <lb ed="#P" n="96"/>etc., initium, et origo fuit.
+        </p>
+        <p xml:id="szdada-y02237-d1e746">
+          <lb ed="#P" n="97"/>6. Ad fundamentum Augustini in n. 2 
+          mul<lb break="no" ed="#P" n="98"/>tipler responsio. — Ad Ruperti conjecturam
+          <lb ed="#P" n="99"/>ibid. — Atque hinc responsum est ad 
+          funda<lb break="no" ed="#P" n="100"/>mentum Augustini, nam hlicet aliquando illa
+          <lb ed="#P" n="101"/>vox proprie significet spiritualem lucem. in 
+          se<lb break="no" ed="#P" n="102"/>cundaria quadam significatione minus usitata,
+          <lb ed="#P" n="103"/>nihilominus nunquam solet ita accipi, nisi ex
+          <lb ed="#P" n="104"/>materia, vel circeumstantiis locutionis usus 
+          vo<lb break="no" ed="#P" n="105"/>cis in tali significatione indicetur; et ideo non
+          <lb ed="#P" n="106"/>potest illa significatio convenienter ad 
+          narra<lb break="no" ed="#P" n="107"/>tionem Moysis accommodari, ut declaratum
+          <lb ed="#P" n="108"/>est; et amplius constabit consideranti, 
+          Moy<lb break="no" ed="#P" n="109"/>sem rudem populum voluisse instruere, et do-
+          <pb ed="#P" n="93"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cere ordinem creationis mundi, ideoque etiam
+          <lb ed="#P" n="2"/>fuisse usum verbis in significatione magis 
+          usi<lb break="no" ed="#P" n="3"/>tata, et quae omnibus statim occurrit: hoc 
+          au<lb break="no" ed="#P" n="4"/>tem modo lux proprie significat lucem 
+          sensi<lb break="no" ed="#P" n="5"/>bilem. Ideoque secundum subjectam materiam
+          <lb ed="#P" n="6"/>simpliciter negari posset antecedens, quod 
+          Au<lb break="no" ed="#P" n="7"/>gustinus assumit: verumtamen illo dato 
+          nega<lb break="no" ed="#P" n="8"/>mus etiam consequentiam, nam licet illa vox
+          <lb ed="#P" n="9"/>plura habeat significata etiam propria, 
+          nihil<lb break="no" ed="#P" n="10"/>ominus ipsa historia, et aliae circumstantiae
+          <lb ed="#P" n="11"/>totius sermonis ostendunt sensibilem lucem
+          <lb ed="#P" n="12"/>esse ibi ad litteram significatam. Ad primam
+          <lb ed="#P" n="13"/>autem Augustini probationem, primo defendi
+          <lb ed="#P" n="14"/>facile posset, quod licet Angeli fuerint creati
+          <lb ed="#P" n="15"/>intia illos sex dies, nihilominus eorum 
+          crea<lb break="no" ed="#P" n="16"/>tio non fuerit in narratione Moysis 
+          compre<lb break="no" ed="#P" n="17"/>hensa, quia potuit narrare visibilia tantum
+          <lb ed="#P" n="18"/>opera, non invisibilia, ut multi Patres 
+          sense<lb break="no" ed="#P" n="19"/>runt. Deinde dici potest creationem 
+          Angelo<lb break="no" ed="#P" n="20"/>rum narratam esse a Moyse in primis verbis,
+          <lb ed="#P" n="21"/>quibus creatio sola, non opera ornatus, 
+          nar<lb break="no" ed="#P" n="22"/>rata est in caeteris operibus sex dierum, nec
+          <lb ed="#P" n="23"/>nobis revelatum est, quando inceperit, vel
+          <lb ed="#P" n="24"/>an intra illos sex dies facta fuerit, quamvis
+          <lb ed="#P" n="25"/>probabihter id conjectemus. Ad secundam vero
+          <lb ed="#P" n="26"/>probationem respondemus imprimis, licet 
+          dif<lb break="no" ed="#P" n="27"/>ficile nobis sit explicare, quae fuerit illa lux,
+          <lb ed="#P" n="28"/>non propterea esse relinquendum proprium,
+          <lb ed="#P" n="29"/>et planum Scripturae sensum. Deinde dicimus
+          <lb ed="#P" n="30"/>difficultatem illam non esse insuperabilem,
+          <lb ed="#P" n="31"/>quomodo autem expedienda sit partim in 
+          se<lb break="no" ed="#P" n="32"/>quenti capite, partim explicando opus quarti
+          <lb ed="#P" n="33"/>diei docebimus, et inde etiam patebit 
+          respon<lb break="no" ed="#P" n="34"/>sio ad Ruperti conjecturam: monstrabimus
+          <lb ed="#P" n="35"/>enim; quomodo lux primo die facta ultra iilos
+          <lb ed="#P" n="36"/>tres dies durare potuerit, et usque nunc etiam
+          <lb ed="#P" n="37"/>fieri non desiit ; et ita etiam constat, quid 
+          di<lb break="no" ed="#P" n="38"/>cendum sit ad alteram partem doctrinae Á
+          u<lb break="no" ed="#P" n="39"/>gustini dicentis Augelos quoad creationem
+          <lb ed="#P" n="40"/>comprehensos esse nomine coeli, quoad 
+          glori<lb break="no" ed="#P" n="41"/>ficationem vero nomine lucis; nam sicut 
+          pri<lb break="no" ed="#P" n="42"/>mum est verum, non excludendo ab illis verbis
+          <lb ed="#P" n="43"/>creationem proprii et materialis coeli; ita
+          <lb ed="#P" n="44"/>etiam secundum admitti posset; non 
+          exclu<lb break="no" ed="#P" n="45"/>dendo productionem sens;bilis lucis, ut sensit
+          <lb ed="#P" n="46"/>Deda in expositione Genes, c. 1. Et eodem
+          <lb ed="#P" n="47"/>modo dixit Hugo de sancto Victore supra
+          <lb ed="#P" n="48"/>cap. 10, in primo die, quando in materiah
+          <lb ed="#P" n="49"/>mundo ;ux sensibilis fiebat, in mundo 
+          spiri<lb break="no" ed="#P" n="50"/>tuali factam esse intelligibilem lucem, quae est
+          <lb ed="#P" n="51"/>mysica quaedam interpretatio, et pulchra 
+          con<lb break="no" ed="#P" n="52"/>jectatio, tamen satis persuaderi non potest.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

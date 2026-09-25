@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 29</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 29</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="700"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y17189"><!-- t3l3c29 -->
+        <head xml:id="szdada-y17189-Hd1e101">Caput 29</head>
+        <head xml:id="szdada-y17189-Hd1e103" type="question-title">De comparatione quinque sensuum inter se, et in ordine ad subjecta in quibus sunt</head>
+        <p xml:id="szdada-y17189-d1e106">
+          <lb ed="#P" n="13"/>CAPUT XXIX.
+          <lb ed="#P" n="14"/>DE COMPARATIONE QUINQUE SENSUUM INTER SE, ET
+          <lb ed="#P" n="15"/>IN ORDINE AD SUBJECTA IN QUIBUS SUNT.
+        </p>
+        <p xml:id="szdada-y17189-d1e115">
+          <lb ed="#P" n="16"/>1. Circa primum punctum in praesenti capite
+          <lb ed="#P" n="17"/>assertio prima. — Videatur auctor, disput. 4,
+          <lb ed="#P" n="18"/>Metaphysicee, sect. 6, num. 19. — Tria in hoc
+          <lb ed="#P" n="19"/>capite sunt videnda: primum de absoluta 
+          com<lb break="no" ed="#P" n="20"/>paratione externorum sensuum inter se: 
+          se<lb break="no" ed="#P" n="21"/>cundum de comparatione sensuum ejusdem
+          <lb ed="#P" n="22"/>speciei in diversis animalibus: tertium de
+          <lb ed="#P" n="23"/>comparatione eorumdem prout sunt in homine.
+          <lb ed="#P" n="24"/>Circa primum sit conclusio. Perfectissimus
+          <lb ed="#P" n="25"/>sensus est visus, deinde auditus, postea 
+          olfac<lb break="no" ed="#P" n="26"/>tus, deinde gustus, ultimo tactus. Probatur
+          <lb ed="#P" n="27"/>primo de visu, qui nobilissimum objectum
+          <lb ed="#P" n="28"/>sortitus est, lux enim est nobilissima qualitas
+          <lb ed="#P" n="29"/>inter sensibiles. Deinde nobilissimo modo ab
+          <lb ed="#P" n="30"/>objecto immutatur, ut ex supra dictis patet,
+          <lb ed="#P" n="31"/>actu etiam suo ad majorem distantiam attingit,
+          <lb ed="#P" n="32"/>quam sensus alii, idque in instanti, quod non
+          <lb ed="#P" n="33"/>praestant caeteri. Considerando quoque 
+          sensibi<lb break="no" ed="#P" n="34"/>lia communia nullus tot, ac tam perfecte 
+          co<lb break="no" ed="#P" n="35"/>gnoscit, sicut visus: similiter quoad sensibilia
+          <lb ed="#P" n="36"/>per accidens, multum excedit, nam extenditur
+          <lb ed="#P" n="37"/>visus, ad coelos, ad motum, magnitudinem,
+          <lb ed="#P" n="38"/>figuramque eorum, quae nullus alius sensus
+          <lb ed="#P" n="39"/>novit. Organum denique visus perfectissimum
+          <lb ed="#P" n="40"/>est, ut patet ex illius subtilitate, ingeniosoque
+          <lb ed="#P" n="41"/>artificio, unde per facile leeditur: haec ergo
+          <lb ed="#P" n="42"/>omnia manifestant perfectionem hujus sensus
+          <lb ed="#P" n="43"/>supra alios. De auditu id etiam patet tum ex
+          <lb ed="#P" n="44"/>objecto, a quo, immaterialius prae reliquis
+          <lb ed="#P" n="45"/>tribus immutatur, atque ex delectatione quam
+          <lb ed="#P" n="46"/>ab eo capite quodammodo spiritualem: tum
+          <lb ed="#P" n="47"/>ex organo, quod subtilius est utpote aereum.
+          <lb ed="#P" n="48"/>De odoratu similiter ostenditur, nam superat
+          <lb ed="#P" n="49"/>duos alios in modo, quo immutatur, minus
+          <lb ed="#P" n="50"/>enim habet de materialitate, qualitas quoque
+          <lb ed="#P" n="51"/>immutans perfectior aliis est, ob easdemque
+          <lb ed="#P" n="52"/>rationes gustus tactum vincit.
+        </p>
+        <p xml:id="szdada-y17189-d1e198">
+          <lb ed="#P" n="53"/>2. Objectioni occurritur. — Objicies primo,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>organum auditus nobilius esse, quam visus,
+          <lb ed="#P" n="55"/>cum illud sit aereum, hoc vero aqueum, ob
+          <lb ed="#P" n="56"/>hanc forte rationem Plato posuit organum 
+          vi<lb break="no" ed="#P" n="57"/>sus igneum esse, quod est probabile. 
+          Occur<lb break="no" ed="#P" n="58"/>rendum tamen non semper mixtum illud in
+          <lb ed="#P" n="59"/>quo praedominatur nobilius elementum esse
+          <lb ed="#P" n="60"/>perfectius, sed illud in quo perfectior existit
+          <lb ed="#P" n="61"/>mixtio: hac ergo ratione organum visus, 
+          or<lb break="no" ed="#P" n="62"/>ganum auditus superat. Secundo oppones,
+          <lb ed="#P" n="63"/>objectum auditus imperfectissimum esse videri,
+          <lb ed="#P" n="64"/>cum sit qualitas facile transiens: ergo et 
+          audi<lb break="no" ed="#P" n="65"/>tum ipsum videri imperfectissimum. 
+          Respon<lb break="no" ed="#P" n="66"/>detur sonum in esse qualitatis imperfectiorem
+          <lb ed="#P" n="67"/>esse. at in esse sensibilis praestare aliis tribus,
+          <lb ed="#P" n="68"/>quod immaterialiori modo immutet ut dictum
+          <lb ed="#P" n="69"/>est, et ideo potentiam ipsam simpliciter esse
+          <lb ed="#P" n="70"/>perfectiorem, ut colligitur etiam ex modo, quo
+          <lb ed="#P" n="71"/>attingit objectum, perfectiori scilicet, quam in
+          <lb ed="#P" n="72"/>aliis sensibus, ut etiam ex dictis constat.
+        </p>
+        <p xml:id="szdada-y17189-d1e247">
+          <lb ed="#P" n="73"/>3. Circa secundum punctum assertio 
+          se<lb break="no" ed="#P" n="74"/>cunda. — De tactu. — De gustu. — De 
+          odo<lb break="no" ed="#P" n="75"/>ratu. — De auditu. — De visu. — Secundo loco
+          <lb ed="#P" n="76"/>occurrit comparatio inter sensum hominis et
+          <lb ed="#P" n="77"/>brutorum, singulas vero horum species inter
+          <lb ed="#P" n="78"/>se conferre nimis prolixum esset. Unde sit 
+          se<lb break="no" ed="#P" n="79"/>cunda conclusio. In omnibus sensibus 
+          exterio<lb break="no" ed="#P" n="80"/>ribus superat homo caetera animalia 
+          simplici<lb break="no" ed="#P" n="81"/>ter, et absolute loquendo, quamvis secundum
+          <lb ed="#P" n="82"/>quid superetur in nonnullis. Probatur 
+          singula<lb break="no" ed="#P" n="83"/>tim. Imprimis enim habet homo 
+          perfectissi<lb break="no" ed="#P" n="84"/>mum tactum simpliciter, et quoad omnes 
+          con<lb break="no" ed="#P" n="85"/>ditiones, ut Aristoteles docet, secundo de 
+          Ani<lb break="no" ed="#P" n="86"/>ma, capite decimo, et experientia testatur,
+          <lb ed="#P" n="87"/>atque etiam ratio, quia tactus ut sit perfectus
+          <lb ed="#P" n="88"/>requirit temperamentum primarum 
+          qualita<lb break="no" ed="#P" n="89"/>tum: ergo tactus temperatissimi corporis, 
+          nem<lb break="no" ed="#P" n="90"/>pe humani, erit perfectissimus, utpote magis
+          <lb ed="#P" n="91"/>denudatus ab objecto, cum propter 
+          modera<lb break="no" ed="#P" n="92"/>tionem ad nullam qualitatem magis accedat,
+          <lb ed="#P" n="93"/>quam ad aliam. Idem est de gustu 
+          philoso<lb break="no" ed="#P" n="94"/>phandum, quoniam proxime convenit cum
+          <lb ed="#P" n="95"/>tactu: et a fine etiam concluditur, nam 
+          homi<lb break="no" ed="#P" n="96"/>nis perfectior complexio perfectiori eget cibo:
+          <lb ed="#P" n="97"/>ergo ef perfectiori gustu. Odoratum ait 
+          Aristo<lb break="no" ed="#P" n="98"/>teles, in capite nono, in homine esse 
+          hebetio<lb break="no" ed="#P" n="99"/>rem, quam in plerisque animalium: sed 
+          intel<lb break="no" ed="#P" n="100"/>ligendum hoc est secundum quid, quoad
+          <lb ed="#P" n="101"/>facilitatem, videlicet percipiendi melius 
+          odo<lb break="no" ed="#P" n="102"/>res, vel a distantia majori, in quo certe multa
+          <lb ed="#P" n="103"/>animalia excedunt hominem, ut superius de
+          <lb ed="#P" n="104"/>vulture notatum est. Canes etiam de nocte mire
+          <lb ed="#P" n="105"/>discernunt inter homines, ut latronem a 
+          do<lb break="no" ed="#P" n="106"/>mestico, et similia pleraque. Ratio vero 
+          reddi<lb break="no" ed="#P" n="107"/>tur optima ab Alberto 1, de Anima, cap. 13,
+          <lb ed="#P" n="108"/>AEgidio, textu 92, ex libro de Sensu et sensi-
+          <pb ed="#P" n="701"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bili, capit. 4, 5, quod cerebrum hominis sit
+          <lb ed="#P" n="2"/>frigidissimum et humidum nimis, unde et
+          <lb ed="#P" n="3"/>somno eget longiore. Ita vero factum est, ut
+          <lb ed="#P" n="4"/>melius deserviret cognitioni: calor enim 
+          con<lb break="no" ed="#P" n="5"/>turbat animales spiritus: quia ergo organum
+          <lb ed="#P" n="6"/>olfactus juxta cerebrum situm est, olfaciendi
+          <lb ed="#P" n="7"/>viae obturantur, continua cerebri distillatione
+          <lb ed="#P" n="8"/>frigida et humida, unde quo plura ejusmodi
+          <lb ed="#P" n="9"/>excrementa per nares defluunt minus 
+          olfaci<lb break="no" ed="#P" n="10"/>mnus: at vero caetera animalia cerebrum habent
+          <lb ed="#P" n="11"/>calidius, unde in hominibus ipsis odoratus
+          <lb ed="#P" n="12"/>acutior caliditatem et siccitatem cerebri 
+          indi<lb break="no" ed="#P" n="13"/>cat, et ex consequenti ruditatem et 
+          obscurita<lb break="no" ed="#P" n="14"/>tem ingenii. At vero his non obstantibus 
+          ol<lb break="no" ed="#P" n="15"/>factus hominis simpliciter perfectior est, quam
+          <lb ed="#P" n="16"/>brutorum, cum se extendat ad nobiliora 
+          ob<lb break="no" ed="#P" n="17"/>jecta, bruta enim, ut plurimum olfaciunt 
+          odo<lb break="no" ed="#P" n="18"/>res, qui sunt conjuncti saporibus, nam ad hoc
+          <lb ed="#P" n="19"/>potissime illis data est vis odorandi, ut 
+          discer<lb break="no" ed="#P" n="20"/>nant alimenta: odores vero reliquos per se
+          <lb ed="#P" n="21"/>delectantes sine conjunctione ad sapores, ut
+          <lb ed="#P" n="22"/>florum, bruta vel nullo modo percipiunt, vel
+          <lb ed="#P" n="23"/>in eis non delectantur cum tamen homo 
+          per<lb break="no" ed="#P" n="24"/>fectissime sentiat ejusmodi odores, in eisque
+          <lb ed="#P" n="25"/>nimium satis delectetur. Cujus rei ratio est apud
+          <lb ed="#P" n="26"/>Aristotelem, de Sensu et sensibili, cap. 3, quod
+          <lb ed="#P" n="27"/>nimium calidi sint, temperentque proinde 
+          fri<lb break="no" ed="#P" n="28"/>giditatem nostri cerebri. Unde jam acute 
+          per<lb break="no" ed="#P" n="29"/>cipl possunt: ac tristare si sint dissentanei, aut
+          <lb ed="#P" n="30"/>delectare, si consentanei. Idem colligitur ex
+          <lb ed="#P" n="31"/>eodem Aristotele, prima de Generatione 
+          ani<lb break="no" ed="#P" n="32"/>malium, cap. 2, et Galeno, octavo libro de Usu
+          <lb ed="#P" n="33"/>partium. Omnibus ergo pensatis perfectior
+          <lb ed="#P" n="34"/>censetur olfactus hominis, cum perfectius sit
+          <lb ed="#P" n="35"/>posse extendi potentiam ad universalius et
+          <lb ed="#P" n="36"/>nobilius objectum, quam intense, vel facile
+          <lb ed="#P" n="37"/>partem objecti cognoscere. De auditu liquet in
+          <lb ed="#P" n="38"/>nobis esse perfectissimum: nimirum percipit
+          <lb ed="#P" n="39"/>perfectissimas sonorum differentias non 
+          tan<lb break="no" ed="#P" n="40"/>tum naturales, sed etiam artificiales, 
+          habet<lb break="no" ed="#P" n="41"/>que perfectissimum et subtilissimum organum.
+          <lb ed="#P" n="42"/>De visu id facile intelligitur ob easdem 
+          ratio<lb break="no" ed="#P" n="43"/>nes. Accedit hos duos sensus disciplinae esse,
+          <lb ed="#P" n="44"/>ac dici: quod est proprium hominis. Ita patet
+          <lb ed="#P" n="45"/>conclusionis probatio, cujus ratio a priori est:
+          <lb ed="#P" n="46"/>quia natura sensitiva in homine conjungitur
+          <lb ed="#P" n="47"/>rationali: est ergo perfectior simphiciter: ergo
+          <lb ed="#P" n="48"/>et talis naturae etiam potentiae simpliciter
+          <lb ed="#P" n="49"/>erunt perfectiores, licet quoad aliqua 
+          supe<lb break="no" ed="#P" n="50"/>rentur ex indigentia corporis, eo quod saepe
+          <lb ed="#P" n="51"/>dispositio necessaria ad operationem unius
+          <lb ed="#P" n="52"/>membri impedit aliquo modo operationem
+          <lb ed="#P" n="53"/>alterius, non enim potuit tanta diversitas
+          <lb ed="#P" n="54"/>membrorum stare, sine ullo prorsus inter se
+          <lb ed="#P" n="55"/>impedimento. Et haec de secundo puncto.
+        </p>
+        <p xml:id="szdada-y17189-d1e451">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>4. Circa tertium punctum comparatio duples.
+          <lb ed="#P" n="57"/>— Doe priori comparatione tertia conclusio
+          <lb ed="#P" n="58"/>in ordine. — Circa tertium punctum notandum
+          <lb ed="#P" n="59"/>est primo in sensibus hominis duplicem 
+          per<lb break="no" ed="#P" n="60"/>fectionem et commoditatem posse considerari.
+          <lb ed="#P" n="61"/>Prima est intrinseca ipsorum in ordine ad
+          <lb ed="#P" n="62"/>proprios actus ac sensibilia propria. Secunda
+          <lb ed="#P" n="63"/>est utilitas acquirendae scientiae. Pro priori
+          <lb ed="#P" n="64"/>consideratione sit tertia conclusio. Quinque
+          <lb ed="#P" n="65"/>sensus eumdem ordinem perfectionis habent
+          <lb ed="#P" n="66"/>in homine, quem ex se habent. Haec facile
+          <lb ed="#P" n="67"/>patet, quia is ordo consistit in specifica 
+          per<lb break="no" ed="#P" n="68"/>fectione, secundum quam unus excedit alium
+          <lb ed="#P" n="69"/>qui profecto ordo in homine non destruitur:
+          <lb ed="#P" n="70"/>ergo, etc. Est tamen conclusio intelligenda,
+          <lb ed="#P" n="71"/>si comparatio absolute fiat, ut intendimus:
+          <lb ed="#P" n="72"/>proportionaliter namque hoc est loquendo de
+          <lb ed="#P" n="73"/>quovis sensu in sua proportione, seu specie,
+          <lb ed="#P" n="74"/>perfectissimus hominis sensus erit tactus. 
+          Si<lb break="no" ed="#P" n="75"/>cut enim considerando hominem ad equum,
+          <lb ed="#P" n="76"/>simpliciter, quilibet homo est perfectior equo,
+          <lb ed="#P" n="77"/>in sua tamen quemque specie comparando,
+          <lb ed="#P" n="78"/>fieri potest, ut aliquis equus in sua specie 
+          in<lb break="no" ed="#P" n="79"/>veniatur perfectior, quam in sua homo ; ita
+          <lb ed="#P" n="80"/>dicetur imperfectissimum hominis sensum esse
+          <lb ed="#P" n="81"/>olfactum, perfectissimum autem esse tactum,
+          <lb ed="#P" n="82"/>nam habet summam perfectionem, quam
+          <lb ed="#P" n="83"/>intra speciem habere potest, et forte idem est
+          <lb ed="#P" n="84"/>de gustu: visus autem et auditus non adeo
+          <lb ed="#P" n="85"/>sunt hoc modo perfecti, a multis enim 
+          anima<lb break="no" ed="#P" n="86"/>libus superatur homo in acumine, aut 
+          firmi<lb break="no" ed="#P" n="87"/>tate horum sensuum, atque ita venit 
+          intelli<lb break="no" ed="#P" n="88"/>gendus Aristoteles, de Sensu et sensibili,
+          <lb ed="#P" n="89"/>capit. 4, divus Thomas ibid., lection. 9, et
+          <lb ed="#P" n="90"/>auctores alii.
+        </p>
+        <p xml:id="szdada-y17189-d1e532">
+          <lb ed="#P" n="91"/>5. De posteriori comparatione quarta 
+          con<lb break="no" ed="#P" n="92"/>clusio tripartita. — Legatur auctor, disp. 1,
+          <lb ed="#P" n="93"/>Metaphysicee, sect. 6, a n. 14. —Si vero 
+          com<lb break="no" ed="#P" n="94"/>parentur hi sensus secundum utilitatem ad
+          <lb ed="#P" n="95"/>scientiam, sit quarta conclusio. In homine
+          <lb ed="#P" n="96"/>imperfectissimus est odoratus, deinde gustus,
+          <lb ed="#P" n="97"/>alii vero tres mutuo se excedunt, simpliciter
+          <lb ed="#P" n="98"/>tamen excedit visus. Prima pars de odoratu et
+          <lb ed="#P" n="99"/>gustu experientia est nota. Circa tres alios
+          <lb ed="#P" n="100"/>sensus, quae est secunda conclusionis pars, 
+          re<lb break="no" ed="#P" n="101"/>colendus duplex modus acquirendi scientiam,
+          <lb ed="#P" n="102"/>per inventionem scilicet et disciplinam: 
+          quan<lb break="no" ed="#P" n="103"/>tum ergo ad hunc posteriorem, utilissimus est
+          <lb ed="#P" n="104"/>auditus, quia percipit voces explicantes 
+          con<lb break="no" ed="#P" n="105"/>ceptus ad vivum: ad priorem vero magis 
+          de<lb break="no" ed="#P" n="106"/>serviunt tactus, atque visus, quia ad plura
+          <lb ed="#P" n="107"/>objecta se extendunt, unde simpliciter, et per
+          <lb ed="#P" n="108"/>se sunt utiliores, tum quia modus acquirendi
+          <lb ed="#P" n="109"/>scientiam per disciplinam est quasi per 
+          acci<lb break="no" ed="#P" n="110"/>dens, et in ipsa inventione fundatus, tum
+          <pb ed="#P" n="702"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>etiam quia quodammodo per accidens est 
+          au<lb break="no" ed="#P" n="2"/>ditui disciplinam fieri mediante illo, 
+          signifi<lb break="no" ed="#P" n="3"/>catio enim vocum accidit objecto auditus,
+          <lb ed="#P" n="4"/>neque auditus ipse significationem capit, sed
+          <lb ed="#P" n="5"/>sonum materialem. Inter tactum autem et 
+          vi<lb break="no" ed="#P" n="6"/>sum observandum est illum hunc excedere,
+          <lb ed="#P" n="7"/>quod sit universalior ex parte subjecti, est
+          <lb ed="#P" n="8"/>enim diffusum per corpus: ideoque perfectior
+          <lb ed="#P" n="9"/>tactus arguit in toto corpore optimum 
+          tempe<lb break="no" ed="#P" n="10"/>ramentum et complexionem. Unde divus
+          <lb ed="#P" n="11"/>Thomas, secundo de Anima, recte dixit 
+          exces<lb break="no" ed="#P" n="12"/>sum in tactu, excessum esse in virtute 
+          sensi<lb break="no" ed="#P" n="13"/>tiva simpliciter, quia sensus est universalis :
+          <lb ed="#P" n="14"/>hac ergo ex parte sensus hic aptissimus est ad
+          <lb ed="#P" n="15"/>scientias, unde etiam Aristoteles ob id scripsit
+          <lb ed="#P" n="16"/>molles carne aptos esse ingenio, et 3, de 
+          Par<lb break="no" ed="#P" n="17"/>tibus, capite quarto, quo sensu hebeti sunt
+          <lb ed="#P" n="18"/>durum habere cor, cujus rationem reddunt
+          <lb ed="#P" n="19"/>sanctus Thomas, lectione 32, et Philoponus,
+          <lb ed="#P" n="20"/>folio sexto, col. tertia, quia mollities corporis
+          <lb ed="#P" n="21"/>arguit corporis temperamentum et optimam
+          <lb ed="#P" n="22"/>compositionem in organis sensuum. Item tale
+          <lb ed="#P" n="23"/>corpus deservit optime ad ministrationem 
+          vir<lb break="no" ed="#P" n="24"/>tutis animalis, nam cum corpus molle est,
+          <lb ed="#P" n="25"/>spiritus animales subtiliores sunt, 
+          discurrunt<lb break="no" ed="#P" n="26"/>que celeriter per corpus: non sic autem 
+          quan<lb break="no" ed="#P" n="27"/>do corpus durum est: hoc tamen est 
+          intelli<lb break="no" ed="#P" n="28"/>gendum, ut ait divus Thomas, et Themistius
+          <lb ed="#P" n="29"/>de mollitie naturali, non de ea, quae cura, et
+          <lb ed="#P" n="30"/>arte adquiritur. Additque Albertus inter ipsas
+          <lb ed="#P" n="31"/>naturales mollities aquosam, ac provenientem
+          <lb ed="#P" n="32"/>ex pituita, ut in foeminis, non arguere aptam
+          <lb ed="#P" n="33"/>complexionem, nec idoneum ingenium, sed
+          <lb ed="#P" n="34"/>quae provenit ex puro sanguine, quia sic 
+          tem<lb break="no" ed="#P" n="35"/>peratiorem complexionem causam habet, ut
+          <lb ed="#P" n="36"/>citato loco de generatione etiam dicitur: hac
+          <lb ed="#P" n="37"/>ergo ex parte tactus superat visum.
+        </p>
+        <p xml:id="szdada-y17189-d1e662">
+          <lb ed="#P" n="38"/>6. Qua e contra superetur a visu. — 
+          Atta<lb break="no" ed="#P" n="39"/>men visus e contra superat tactum in multis.
+          <lb ed="#P" n="40"/>Primo, quia est universalior ex parte objecti,
+          <lb ed="#P" n="41"/>percipit enim coelestia et terrestria sensibilia,
+          <lb ed="#P" n="42"/>propria et communia, multoque faciliori modo,
+          <lb ed="#P" n="43"/>quam tactus. Item est certissimus inter omnes
+          <lb ed="#P" n="44"/>sensus, utpote immaterialior, minusque 
+          pro<lb break="no" ed="#P" n="45"/>inde deceptioni obnoxius, ideoque maxime
+          <lb ed="#P" n="46"/>deserviens inventioni, atque attestationi 
+          veri<lb break="no" ed="#P" n="47"/>tatis. Unde Plato in Timaeo ait rerum 
+          subli<lb break="no" ed="#P" n="48"/>mium notitiam oculos nobis attulisse, et 
+          Aris<lb break="no" ed="#P" n="49"/>toteles 1, Metaphysicae, c. 1, ideo nos visum
+          <lb ed="#P" n="50"/>maxime diligere, quia maxime cognitioni
+          <lb ed="#P" n="51"/>subservit. Ex quibus jam patet tertia 
+          conclu<lb break="no" ed="#P" n="52"/>sionis pars, excessus enim ille tactus non in
+          <lb ed="#P" n="53"/>intrinsecis cernitur, sed in iis, quae tactum
+          <lb ed="#P" n="54"/>comitantur, unde magis tanquam signum 
+          ar<lb break="no" ed="#P" n="55"/>guit perfectionem, quam per se ipse afferat.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>visus vero in intrinsecis, magisque propriis
+          <lb ed="#P" n="57"/>superat tactum, ac reliquos sensus: quare,
+          <lb ed="#P" n="58"/>etc., sic ergo intelligendus Aristoteles 1, de
+          <lb ed="#P" n="59"/>Gener. animalium, cap. 20, scribens non 
+          pro<lb break="no" ed="#P" n="60"/>venire prudentiam ex tactu, nimirum 
+          tan<lb break="no" ed="#P" n="61"/>quam ex proprio instrumento, quamvis 
+          de<lb break="no" ed="#P" n="62"/>serviat non minime ad prudentiam propter
+          <lb ed="#P" n="63"/>complexionem, quam arguit optimam, nisi
+          <lb ed="#P" n="64"/>alioquin natura deerret.
+        </p>
+        <p xml:id="szdada-y17189-d1e725">
+          <lb ed="#P" n="65"/>7. Objectio prima contra proxime resoluta.—
+          <lb ed="#P" n="66"/>Responsio em Aristotele. — Oppones primo, in
+          <lb ed="#P" n="67"/>sectione 30 problematum, narrat Aristoteles
+          <lb ed="#P" n="68"/>quicumque ingenio, vel studiis, vel 
+          Reipubli<lb break="no" ed="#P" n="69"/>cae administratione, vel in carmine pangendo,
+          <lb ed="#P" n="70"/>aliisve partibus claruere, fuisse melancholicos:
+          <lb ed="#P" n="71"/>haec ergo complexio secundum Aristotelem apta
+          <lb ed="#P" n="72"/>est ad ingenium, inepta vero ad tactum, cum
+          <lb ed="#P" n="73"/>humor ille, utpote terrestris, duriores efficiat
+          <lb ed="#P" n="74"/>carnes, ac proinde organum tactus obtundat.
+          <lb ed="#P" n="75"/>Fatetur quidem Aristoteles illa loco 
+          melancho<lb break="no" ed="#P" n="76"/>liam, si dominetur, sua naturali frigiditate et
+          <lb ed="#P" n="77"/>siccitate impedimento esse, talemque 
+          com<lb break="no" ed="#P" n="78"/>plexionem nactos, stolidos fieri et ignaros.
+          <lb ed="#P" n="79"/>Contingere tamen (inquit Aristoteles) atram
+          <lb ed="#P" n="80"/>bilem, si moderata sit, per totum corpus 
+          dis<lb break="no" ed="#P" n="81"/>persam calefieri ab humore alio, vel 
+          com<lb break="no" ed="#P" n="82"/>plexione calida, sicque vehementem 
+          concipien<lb break="no" ed="#P" n="83"/>do calorem calefacere: quemadmodum etiam
+          <lb ed="#P" n="84"/>experimur ferrum et aquam ex se frigida, 
+          se<lb break="no" ed="#P" n="85"/>mel tamen calefacta multum concipere 
+          calo<lb break="no" ed="#P" n="86"/>rem urereque velociter: sic ergo melancholia a
+          <lb ed="#P" n="87"/>propria natura extracta conducit ad ingenium,
+          <lb ed="#P" n="88"/>optime disponendo corpus ad diffusionem 
+          spi<lb break="no" ed="#P" n="89"/>rituum animalium, temperandoque nimiam
+          <lb ed="#P" n="90"/>sapguinis vivacitatem: tandemque hominem
+          <lb ed="#P" n="91"/>studiosum, ac si sit ad mediocritatem redacta,
+          <lb ed="#P" n="92"/>efficit prudentiorem: unde licet melancholici,
+          <lb ed="#P" n="93"/>inquit Aristoteles, in aliquo excedantur ab 
+          a<lb break="no" ed="#P" n="94"/>liis: multis tamen in rebus sunt illis 
+          praestan<lb break="no" ed="#P" n="95"/>tiores, alii quidem in studiis litterarum, alii
+          <lb ed="#P" n="96"/>in artibus, alii in Republica, atque si in 
+          ex<lb break="no" ed="#P" n="97"/>cessu humor hic calefiat, facit hominem 
+          lo<lb break="no" ed="#P" n="98"/>quacem et poetam, aliaque non pauca ibique
+          <lb ed="#P" n="99"/>videre licet.
+        </p>
+        <p xml:id="szdada-y17189-d1e803">
+          <lb ed="#P" n="100"/>8. Objectio secunda.——Ad objectionem.—
+          Op<lb break="no" ed="#P" n="101"/>pones secundo contra resoluta pro visu, nam
+          <lb ed="#P" n="102"/>tactus videtur certior sensus, ut experientia
+          <lb ed="#P" n="103"/>colligitur, et ex Aristotele, libro de Sensu et
+          <lb ed="#P" n="104"/>sensibili, cap. 4, et 2 de Partibus, cap. 16.
+          <lb ed="#P" n="105"/>Certitudo autem maxime ad scientiam 
+          exigi<lb break="no" ed="#P" n="106"/>tur: ergo tactus est utilior. Et confirmatur,
+          <lb ed="#P" n="107"/>quoniam tactus esse videtur magis diligibilis.
+          <lb ed="#P" n="108"/>quia magis necessarius. Respondendum heet
+          <lb ed="#P" n="109"/>tactus certior esset, visum alioquin haberi 
+          uti<lb break="no" ed="#P" n="110"/>liorem, propter universalitatem, sed et certio-
+          <pb ed="#P" n="703"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rem esse negandum est. Etenim si 
+          comparen<lb break="no" ed="#P" n="2"/>tur ad objecta propria non minus certus est
+          <lb ed="#P" n="3"/>visus, quam tactus, ac forte certior, si vero ad
+          <lb ed="#P" n="4"/>objecta communia facilius hallucinatur tactus,
+          <lb ed="#P" n="5"/>applicaus illis in proportione aequali: quod
+          <lb ed="#P" n="6"/>enim aliquando visus decipiatur, ex nimia 
+          di<lb break="no" ed="#P" n="7"/>stantia provenit, id vero non derogat ejus 
+          cer<lb break="no" ed="#P" n="8"/>titudini, quae pensanda est penes objectum
+          <lb ed="#P" n="9"/>debite applicatum. Ad confirmationem dicito
+          <lb ed="#P" n="10"/>amorem tactus, et visus non esse apte 
+          compa<lb break="no" ed="#P" n="11"/>rabiles, quia unius amor alterius amorem 
+          in<lb break="no" ed="#P" n="12"/>cludit: tactus enim est fundamentum aliorum
+          <lb ed="#P" n="13"/>sensuum, atque adeo illo destructo destruentur
+          <lb ed="#P" n="14"/>alii, qua certe consideratione maxime 
+          diligi<lb break="no" ed="#P" n="15"/>tur: si vero praecise considerentur, ac invicem
+          <lb ed="#P" n="16"/>separari, ac separatim conservari possent, sic
+          <lb ed="#P" n="17"/>plane magis diligibilis est visus de se, ac 
+          prae<lb break="no" ed="#P" n="18"/>cipue ad utilitatem scientiae: quamvis alii 
+          sen<lb break="no" ed="#P" n="19"/>sus sint diligibiles ad percipiendam sensibilem
+          <lb ed="#P" n="20"/>delectationem, ut tactus et gustus, qui tamen
+          <lb ed="#P" n="21"/>amor nimium est imperfectus et animalis, prior
+          <lb ed="#P" n="22"/>autem perfectior et conformior homini, ut
+          <lb ed="#P" n="23"/>homo est, sicut locutus fuit Aristoteles 1, 
+          Me<lb break="no" ed="#P" n="24"/>taphysicae, cap. 1.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

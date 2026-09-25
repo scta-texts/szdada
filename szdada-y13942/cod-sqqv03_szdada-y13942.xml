@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="572"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y13942"><!-- t3l2prae -->
+        <head xml:id="szdada-y13942-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-y13942-d1e103">
+          <pb ed="#P" n="572"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER SECUNDUS.
+          <lb ed="#P" n="2"/>DE POTENTIIS ANIMAE
+          <lb ed="#P" n="3"/>IN COMMUNI, AC ETIAM VEGETANTIS.
+        </p>
+        <p xml:id="szdada-y13942-d1e116">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>Quoniam anima principium est operandi,
+          <lb ed="#P" n="5"/>oportet, ut aliquas potentias vendicet, per
+          <lb ed="#P" n="6"/>quas suas operationes exerceat, et ideo 
+          post<lb break="no" ed="#P" n="7"/>quam dictum est de animae substantia, 
+          conse<lb break="no" ed="#P" n="8"/>quenter dicendum est de potentis illius: sed
+          <lb ed="#P" n="9"/>primo ingressu more nostro dicemus in 
+          com<lb break="no" ed="#P" n="10"/>muni per capita tria, in particulari vero toto
+          <lb ed="#P" n="11"/>reliquo libro: de hac autem re pauca 
+          habe<lb break="no" ed="#P" n="12"/>mus ab Aristotele: tetigit vero obiter lib. 2,
+          <lb ed="#P" n="13"/>de Anima, in cap. 3, et principio capitis quarti,
+          <lb ed="#P" n="14"/>sed copiosius disputatur a D. Thoma, 1 p.,
+          <lb ed="#P" n="15"/>q. 71, et aliis in discursu citandis.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="427"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y10741"><!-- t2l5c9 -->
+        <head xml:id="szdada-y10741-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-y10741-Hd1e103" type="question-title">Utrum in statu innocentiae omnes homines in gratia confirmati nascerentur, et consequenter an omnes posteri adami essent praedestinati, solique electi ex illo nascerentur</head>
+        <p xml:id="szdada-y10741-d1e106">
+          <lb ed="#P" n="43"/>CAPUT IX.
+          <lb ed="#P" n="44"/>UTRUM IN STATU INNOCENTIAE OMNES HOMINES IN
+          <lb ed="#P" n="45"/>GRATIA CONFIRMATI NASCERENTUR, ET 
+          CONSE<lb break="no" ed="#P" n="46"/>QUENTER AN OMNES POSTERI ADAMI ESSENT 
+          PRAE<lb break="no" ed="#P" n="47"/>DESTINATI, SOLIQUE ELECTI EX ILLO 
+          NASCEREN<lb break="no" ed="#P" n="48"/>TUR.
+        </p>
+        <p xml:id="szdada-y10741-d1e122">
+          <lb ed="#P" n="49"/>1. Prima. sententia affirmans Anselmi. —
+          <lb ed="#P" n="50"/>Prima sententia affirmat Adamum, si non 
+          pec<lb break="no" ed="#P" n="51"/>caret, sed primam tentationem vinceret, fuisse
+          <lb ed="#P" n="52"/>in gratia confirmandum, non solum in per-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>sona sua, sed etiam in tota posteritate, ac 
+          su<lb break="no" ed="#P" n="54"/>binde non nisi sanctos, et cum perfecta, et 
+          in<lb break="no" ed="#P" n="55"/>iegra innocentia salvandos: ac denique solos
+          <lb ed="#P" n="56"/>praedestinatos, et electos ex illo fuisse 
+          nascitu<lb break="no" ed="#P" n="57"/>ros. Ita videtur sensisse Anselmus, lib. 1. Cur
+          <lb ed="#P" n="58"/>Deus homo, cap. 18, post medium. Videt enim
+          <lb ed="#P" n="59"/>(inquit) quod si vicissent, ita confirmarentur
+          <lb ed="#P" n="60"/>cum tota propagine sua, quod ultra peccare non
+          <lb ed="#P" n="61"/>possent. Quod suadet hac ratione. Quia nemo
+          <lb ed="#P" n="62"/>dicet, plus valere injustitiam ad alligandum in
+          <lb ed="#P" n="63"/>servitutem hominem in prima persuasione sibi
+          <lb ed="#P" n="64"/>consentientem, quam valeat justitia ad 
+          consum<lb break="no" ed="#P" n="65"/>mandam in libertate sibi in eadem tentatione
+          <lb ed="#P" n="66"/>adherentem. Sed per primam injustitiae 
+          per<lb break="no" ed="#P" n="67"/>suasionem tota natura victa est: ergo per 
+          pri<lb break="no" ed="#P" n="68"/>mam victoriam tota etiam natura vicisset, et
+          <lb ed="#P" n="69"/>in libertatem pertectam vindicaretur, 
+          ejus<lb break="no" ed="#P" n="70"/>demque, sententiae videtur fuisse Gregorius,
+          <lb ed="#P" n="71"/>lib. 4, Moral., c. 36, alias 28, in fin., ubi ait,
+          <lb ed="#P" n="72"/>quod si parentem primum mulla peccati putredo
+          <lb ed="#P" n="73"/>corrunperet, nequaquam ex se filios gehennee
+          <lb ed="#P" n="74"/>generaret, sed soli electi ab illo nascerentur.
+          <lb ed="#P" n="75"/>2. Diclam sententiam recipit Scotus cum
+          <lb ed="#P" n="76"/>limitatione. — Ex scholasticis Scotus 2, 
+          dis<lb break="no" ed="#P" n="77"/>tinct. 20, sequitur sententiam Anselmi, 
+          limi<lb break="no" ed="#P" n="78"/>tando illam, nimirum, quod filii Adae 
+          inno<lb break="no" ed="#P" n="79"/>centis, non statim in principio nascerentur
+          <lb ed="#P" n="80"/>confirmati: sicut primus parens confirmatus
+          <lb ed="#P" n="81"/>esset, quia non fuissent filii melioris 
+          conditio<lb break="no" ed="#P" n="82"/>nis, quam pater. Ulterius vero in quaest. 2, in
+          <lb ed="#P" n="83"/>sententiam Gregorii inclinat, quoad eam 
+          par<lb break="no" ed="#P" n="84"/>tem: quod in statu innocentiae, si Adam non
+          <lb ed="#P" n="85"/>peccaret, soli electi nascerentur. Additque
+          <lb ed="#P" n="86"/>illos fuisse futuros eosdem numero homines,
+          <lb ed="#P" n="87"/>qui nunc praedestinati sunt, et non plures, 
+          ne<lb break="no" ed="#P" n="88"/>que pauciores ; nam hoc etiam Gregorii verba
+          <lb ed="#P" n="89"/>sonant. Addit etiam rationem: quia 
+          praedesti<lb break="no" ed="#P" n="90"/>natio electorum facta est ante praevisum 
+          ori<lb break="no" ed="#P" n="91"/>ginale peccatum, et ante praevisas generationes
+          <lb ed="#P" n="92"/>omnium futurorum hominum: ergo rata 
+          per<lb break="no" ed="#P" n="93"/>mansisset, etiamsi Adam non peccasset: quia
+          <lb ed="#P" n="94"/>praedestinatio immutabilis est. Antecedens
+          <lb ed="#P" n="95"/>probat ex illo principio: quod ordinate volens
+          <lb ed="#P" n="96"/>prius vult ea, quee ultimo fini immediatus 
+          con<lb break="no" ed="#P" n="97"/>juncta sunt: et ideo Deus volens primario vult
+          <lb ed="#P" n="98"/>seipsum, proxime praedestinatorum gloriam
+          <lb ed="#P" n="99"/>et gratiam. Cum Scoto in omnibus consentit
+          <lb ed="#P" n="100"/>Gabriel ibi art. 1, solum dubitat, an 
+          perseve<lb break="no" ed="#P" n="101"/>rante statu innocentiae iidem homines fuissent
+          <lb ed="#P" n="102"/>praedestinati, qui nunc sunt. Major etiam ibi
+          <lb ed="#P" n="103"/>in dub. ult. post principalem quaestionem, in
+          <lb ed="#P" n="104"/>eodem puncto a Scoto discrepat: in aliis vero
+          <lb ed="#P" n="105"/>sententiam Anselmi approbat; Bassolius 
+          au<lb break="no" ed="#P" n="106"/>tem ibi art. 3 et 4, Scotum omnino sequitur.
+          <lb ed="#P" n="107"/>Et consentit Pererius, lib. 4, in Gen., quaest.
+          <pb ed="#P" n="428"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>de procre. Mulieris, circa illa verba: non est
+          <lb ed="#P" n="2"/>bonwm hominem esse solum - quatenus ait, in
+          <lb ed="#P" n="3"/>eo statu tantum electos homines fuisse 
+          gene<lb break="no" ed="#P" n="4"/>randos.
+        </p>
+        <p xml:id="szdada-y10741-d1e268">
+          <lb ed="#P" n="5"/>3. Communis sententiae negative pranotatio.
+          <lb ed="#P" n="6"/>— Prima assertio contra sententiam Anselmi
+          <lb ed="#P" n="7"/>in n. 1.—Probatur er Augustino et Hugone.—
+          <lb ed="#P" n="8"/>Contrariam sententiam sicut communiorem,
+          <lb ed="#P" n="9"/>ita et probabiliorem censeo; ut autem illam
+          <lb ed="#P" n="10"/>explicem et confirmem, adverto duas hic 
+          mis<lb break="no" ed="#P" n="11"/>ceri quaestiones. Una est, an omnes geniti ex
+          <lb ed="#P" n="12"/>Adamo innocente a principio reciperent 
+          do<lb break="no" ed="#P" n="13"/>num perseverantiae in gratia, seu 
+          confirmatio<lb break="no" ed="#P" n="14"/>nem in illa: nam in praesenti inter haec non
+          <lb ed="#P" n="15"/>distinguimus. Alia est, an omnes salvarentur,
+          <lb ed="#P" n="16"/>seu essent electi, et praedestinati. Hae namque
+          <lb ed="#P" n="17"/>quaestiones in rigore distinctae sunt, quia illa
+          <lb ed="#P" n="18"/>duo inter se convertibilia non sunt. Nam licet
+          <lb ed="#P" n="19"/>omnis confirmatus in gratia pro toto tempore
+          <lb ed="#P" n="20"/>vitae sit praedestinatus: non tamen e converso
+          <lb ed="#P" n="21"/>omnis praedestinatus est etiam confirmatus ut
+          <lb ed="#P" n="22"/>per se constat. Nihilominus tamen in praesenti
+          <lb ed="#P" n="23"/>materia illa duo tanquam convertibilia 
+          repu<lb break="no" ed="#P" n="24"/>tantur. Et qui putant omnes homines 
+          propa<lb break="no" ed="#P" n="25"/>gandos ab Adamo perseverante in innocentia,
+          <lb ed="#P" n="26"/>futuros fuisse praedestinatos: consequenter 
+          as<lb break="no" ed="#P" n="27"/>serunt, etiam fuisse futuros perpetuo 
+          innocen<lb break="no" ed="#P" n="28"/>tes. Quia si gratiam possent aliquando 
+          amit<lb break="no" ed="#P" n="29"/>tere, nullum relinqueretur fundamentum ad
+          <lb ed="#P" n="30"/>dicendum, non obstante peccato fuisse 
+          infalli<lb break="no" ed="#P" n="31"/>biliter omnes salvandos. Unde enim constare
+          <lb ed="#P" n="32"/>posset omnes fuisse condignam poenitentiam
+          <lb ed="#P" n="33"/>acturos: et post illam fuisse pro aliquo 
+          tem<lb break="no" ed="#P" n="34"/>pore usque ad finem vitae in gratia 
+          persevera<lb break="no" ed="#P" n="35"/>turos: Nulla enim major ratio est ad hoc 
+          asse<lb break="no" ed="#P" n="36"/>rendum generaliter de omnibus pro aliqua
+          <lb ed="#P" n="37"/>temporis parte, quam de toto tempore vitae.
+          <lb ed="#P" n="38"/>Et ideo tota quaestio versatur de dono 
+          perseve<lb break="no" ed="#P" n="39"/>rantiae totius vitae cum impossibilitate quadam
+          <lb ed="#P" n="40"/>peccandi. Dico ergo primo, etiamsi Adam non
+          <lb ed="#P" n="41"/>peccasset, posteri ejus geniti in gratia, et 
+          jus<lb break="no" ed="#P" n="42"/>titia peccare possent, et gratiam amittere.
+          <lb ed="#P" n="43"/>Haec est sententia D. Thomae, 1. p., q. 100,
+          <lb ed="#P" n="44"/>art. 9, et quodl. 5, n. 8, et in 2, d. 20, q. 2,
+          <lb ed="#P" n="45"/>art. 3, ad 5, uhi idem tenet Durandus, q. 5,
+          <lb ed="#P" n="46"/>n. 9. Indicat ZEgidius q. 2, a. 4, S 
+          Adverten<lb break="no" ed="#P" n="47"/>dun, et in solut. ad 2, et Richardus ibi a. 2, q.
+          <lb ed="#P" n="48"/>3, dicit, quod fil Ada innocentis possent
+          <lb ed="#P" n="49"/>peccare, et non peccare: sed addit, quod 
+          for<lb break="no" ed="#P" n="50"/>tasse nullus peccaret: sed in hoc ultimo 
+          divi<lb break="no" ed="#P" n="51"/>nat, ut dicemus. Eamdem sententiam 
+          se<lb break="no" ed="#P" n="52"/>quuntur Caietanus et moderni ad 1. p. D.
+          <lb ed="#P" n="53"/>Thomae, supra: Zumelius, Molina et Valentia
+          <lb ed="#P" n="54"/>qui omnes illam ex Augustino sumunt, lib. 4,
+          <lb ed="#P" n="55"/>de Civit., c. 10, quatenus sub conditione dicit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>futuros fuisse homines felices in illo statu:
+          <lb ed="#P" n="57"/>Si nec primi lomines malum, quod in posteros
+          <lb ed="#P" n="58"/>trajicerent: nec quisquam ex eorum stirpe 
+          ina<lb break="no" ed="#P" n="59"/>quitatem commütteret, quee damnationem 
+          reci<lb break="no" ed="#P" n="60"/>peret. Ubi satis indicat, tam possibile hoc 
+          pos<lb break="no" ed="#P" n="61"/>terius fuisse, sicut fuit prius; unde statim
+          <lb ed="#P" n="62"/>subdit, securitatem non peccandi solum in
+          <lb ed="#P" n="63"/>statu gloriae esse potuisse. Et simili modo 
+          lo<lb break="no" ed="#P" n="64"/>quitur, l. 1, Retract., cap. 13, ad fin., et l. 9,
+          <lb ed="#P" n="65"/>Genes. ad lit., c. 3, dicens, omnes in vitam
+          <lb ed="#P" n="66"/>beatam sine modo transferendos fuisse: si
+          <lb ed="#P" n="67"/>Juste omnes, obedienterque viverent. Unde Hugo
+          <lb ed="#P" n="68"/>de S. Victore, l. 1, de Sacr., p. 6, cap. 24, in
+          <lb ed="#P" n="69"/>eodem sensu dixit: si Adam non peccasset,
+          <lb ed="#P" n="70"/>filios ejus in justitia esse nascituros, sed non
+          <lb ed="#P" n="71"/>perfecta, donec usque in finem servarent 
+          il<lb break="no" ed="#P" n="72"/>lam.
+        </p>
+        <p xml:id="szdada-y10741-d1e421">
+          <lb ed="#P" n="73"/>4. Probatur deinde ex ratione D. Thome.—
+          <lb ed="#P" n="74"/>Evasio. — Ratione probat veritatem hanc D.
+          <lb ed="#P" n="75"/>Thomas. Quia homo viator ab intrinseco est
+          <lb ed="#P" n="76"/>mutabilis ad peccandum, sed filii Adae in illo
+          <lb ed="#P" n="77"/>statu nascerentur viatores: ergo ex vi status
+          <lb ed="#P" n="78"/>possent peccare, et gratiam amittere. Major
+          <lb ed="#P" n="79"/>certa est, quia omnis creata voluntas in 
+          per<lb break="no" ed="#P" n="80"/>sona creata, est mutabilis de se ad peccandum:
+          <lb ed="#P" n="81"/>nec potest ab intrinseco confirmari in bono,
+          <lb ed="#P" n="82"/>nisi per visionem claram Dei, ut supra de
+          <lb ed="#P" n="83"/>Angelis ostensum est. Minor etiam est certa :
+          <lb ed="#P" n="84"/>quia primi homines non sunt creati videntes
+          <lb ed="#P" n="85"/>Deum, imo nec in corpore animali illum 
+          vi<lb break="no" ed="#P" n="86"/>dere possent, licet non peccarent, ut per se
+          <lb ed="#P" n="87"/>notum est. Circa consequentiam vero dubitari
+          <lb ed="#P" n="88"/>potest, quia solum potest inde concludi, filios
+          <lb ed="#P" n="89"/>Adae non fuisse futuros impeccabiles ab 
+          intrin<lb break="no" ed="#P" n="90"/>seco: quod etiam auctores prioris sententiae
+          <lb ed="#P" n="91"/>fatentur. Sed affirmant nihilominus fuisse
+          <lb ed="#P" n="92"/>confirmandos per speciale donum gratiae 
+          ex<lb break="no" ed="#P" n="93"/>trinsecus a Deo collatum, sicut supra diximus,
+          <lb ed="#P" n="94"/>in eodem innocentiae statu omnes fuisse ab
+          <lb ed="#P" n="95"/>omni peccato veniali praeservandos: quamdiu
+          <lb ed="#P" n="96"/>mortaliter non peccarent ; vel sicut Apostoli
+          <lb ed="#P" n="97"/>in gratia confirmati sunt in die Pentecostes ;
+          <lb ed="#P" n="98"/>vel saltem sicut multis justificatis in infantia
+          <lb ed="#P" n="99"/>datur etiam nunc perseverantiae donum usque
+          <lb ed="#P" n="100"/>ad mortem, sive sit diversum a confirmatione,
+          <lb ed="#P" n="101"/>sive non: quia in hoc non est nunc 
+          controver<lb break="no" ed="#P" n="102"/>sia. Et ita prioris sententiae auctores facile
+          <lb ed="#P" n="103"/>concedent, in illo statu homines futuros fuisse
+          <lb ed="#P" n="104"/>potentes peccare, nisi eis concedatur ex dono
+          <lb ed="#P" n="105"/>Dei infallibiliter fuisse perseveraturos ac 
+          pro<lb break="no" ed="#P" n="106"/>inde in sensu composito talis doni, non potuisse
+          <lb ed="#P" n="107"/>peccare.
+        </p>
+        <p xml:id="szdada-y10741-d1e499">
+          <lb ed="#P" n="108"/>5. Excluditur. — Eaponitur D. Thomas.—
+          <lb ed="#P" n="109"/>Sed hanc evasionem tacite exclusit D. Thomas
+          <lb ed="#P" n="110"/>dicens, hoc donum confirmationis esse privi-
+          <pb ed="#P" n="429"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>legium speciale ex Dei voluntate pendens. Hoc
+          <lb ed="#P" n="2"/>enim non solum de lapsa natura, sed etiam de
+          <lb ed="#P" n="3"/>integra verum est. Nam licet homo in natura
+          <lb ed="#P" n="4"/>integra posset per communia gratiae auxilia
+          <lb ed="#P" n="5"/>diu in gratia perseverare: nihilominus donum
+          <lb ed="#P" n="6"/>infaltibiliter perseverandi specialissimum 
+          es<lb break="no" ed="#P" n="7"/>set ; et non debitum illi statui, sed ex libero
+          <lb ed="#P" n="8"/>Dei dono pendens: ergo ex vi illius status
+          <lb ed="#P" n="9"/>originalis justitiae colligi, aut affirmari non
+          <lb ed="#P" n="10"/>potest, quod illo perseverante, omnibus 
+          dare<lb break="no" ed="#P" n="11"/>tur perseverantiae donum, seu confirmatio in
+          <lb ed="#P" n="12"/>gratia et innocentia. Et in hoc sensu 
+          accipien<lb break="no" ed="#P" n="13"/>dum est, quod D. Thomas supra dicit: non 
+          ci<lb break="no" ed="#P" n="14"/>deri possibile, quod pueri in statu innocentie
+          <lb ed="#P" n="15"/>nascerentur in justitia confirmati. Loquitur
+          <lb ed="#P" n="16"/>enim de possibili secundum ordinariam 
+          potes<lb break="no" ed="#P" n="17"/>tatem, et communem legem, ut paulo post
+          <lb ed="#P" n="18"/>explicat. Meritoque supponit, de illo statu 
+          ju<lb break="no" ed="#P" n="19"/>dicandum esse secundum communem legem
+          <lb ed="#P" n="20"/>illi consentaneam, et quasi connaturalem :
+          <lb ed="#P" n="21"/>nam specialia privilegia non sunt omnibus
+          <lb ed="#P" n="22"/>communia ; nec possunt cum fundamento 
+          af<lb break="no" ed="#P" n="23"/>firmari, nisi vel ex aliquo effectu jam cognito,
+          <lb ed="#P" n="24"/>vel ex speciali promissione Dei. In praesenti
+          <lb ed="#P" n="25"/>autem nullum est testimonium, vel auctoritas,
+          <lb ed="#P" n="26"/>ex qua de tali promissione constet ; neque
+          <lb ed="#P" n="27"/>aliud ejus indicium, quin potius ex his, quae
+          <lb ed="#P" n="28"/>in Adamo et Eva contigerunt, evidens est,
+          <lb ed="#P" n="29"/>statui innocentiae, ut sic, non esse debitum,
+          <lb ed="#P" n="30"/>nec consequens donum impeccabilitatis, etiam
+          <lb ed="#P" n="31"/>illo modo, quo per confirmationem in gratia
+          <lb ed="#P" n="32"/>interdum datur. Et inde ulterius infertur,
+          <lb ed="#P" n="33"/>non fuisse dandum omnibus: tum quia non
+          <lb ed="#P" n="34"/>est promissum, tum etiam, quia non est 
+          veri<lb break="no" ed="#P" n="35"/>simile, majora dona gratiae fuisse danda toti
+          <lb ed="#P" n="36"/>posteritati, quam primis parentibus data 
+          fue<lb break="no" ed="#P" n="37"/>rint.
+        </p>
+        <p xml:id="szdada-y10741-d1e593">
+          <lb ed="#P" n="38"/>6. Secunda assertio contra Scotum in n. 2.
+          <lb ed="#P" n="39"/>— Secundo addendum est, quod statu 
+          inno<lb break="no" ed="#P" n="40"/>centiae durante homines ex lege communi non
+          <lb ed="#P" n="41"/>acciperent confirmationem in gratia post 
+          vic<lb break="no" ed="#P" n="42"/>toriam alicujus primae tentationis: imo nec in
+          <lb ed="#P" n="43"/>toto tempore viae, sed in termino ejus. Hanc
+          <lb ed="#P" n="44"/>etiam assertionem interdit D. Thomas. Et
+          <lb ed="#P" n="45"/>probatur, quia ipse Adam, licet vicisset 
+          tenta<lb break="no" ed="#P" n="46"/>tonem serpentis, non statim mansisset in 
+          gra<lb break="no" ed="#P" n="47"/>tia confirmatus, sed posset peccare quamdiu
+          <lb ed="#P" n="48"/>viveret in animali corpore: ergo idem cum
+          <lb ed="#P" n="49"/>proportione de filiis dicendum est. 
+          Consequen<lb break="no" ed="#P" n="50"/>tia probata jam est: quia nec auctoritate 
+          os<lb break="no" ed="#P" n="51"/>tendi potest, nec per se est verisimile, majora
+          <lb ed="#P" n="52"/>dona gratiae fuisse promissa posteris Adae 
+          pri<lb break="no" ed="#P" n="53"/>mam tentationem vincentibus, quam ipsi Adae;
+          <lb ed="#P" n="54"/>quod etiam Scotus et alii supponunt. 
+          Antece<lb break="no" ed="#P" n="55"/>dens ergo probatur, quia talis confirmatio,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>etiam post primam victoriam non sequeretur
+          <lb ed="#P" n="57"/>ab intrinseco ex vi illius actus deliberari, quo
+          <lb ed="#P" n="58"/>voluntas adhaereret Deo, ejusque obedientiam
+          <lb ed="#P" n="59"/>eligeret, quia voluntas hominis etiam in statu
+          <lb ed="#P" n="60"/>innocentiae mutabilis esset ex natura sua,
+          <lb ed="#P" n="61"/>etiam post primum actum plene deliberatum,
+          <lb ed="#P" n="62"/>ut a fortiori constat ex his, quae de Angelis
+          <lb ed="#P" n="63"/>supra diximus. Quia de voluntate humana
+          <lb ed="#P" n="64"/>multo certius est habere hanc mutabilitatem
+          <lb ed="#P" n="65"/>connaturalem, quam gratia, vel justitia 
+          origi<lb break="no" ed="#P" n="66"/>nalis non auferebant, ut jam dictum est. Nec
+          <lb ed="#P" n="67"/>etiam illa confirmatio daretur ab intrinseco,
+          <lb ed="#P" n="68"/>quasi praemium illius primae victoriae, quia
+          <lb ed="#P" n="69"/>neque hoc praemium ex natura rei est debitum,
+          <lb ed="#P" n="70"/>nec ostendi potest, in eo statu fuisse promissum
+          <lb ed="#P" n="71"/>Adae aut Evae: ubi enim talis promissio ostendi
+          <lb ed="#P" n="72"/>potest ?
+        </p>
+        <p xml:id="szdada-y10741-d1e674">
+          <lb ed="#P" n="73"/>7. Confirmatur primo a simili. — Quocirca,
+          <lb ed="#P" n="74"/>sicut nunc non potest justus mereri de 
+          condi<lb break="no" ed="#P" n="75"/>gno confirmationem in gratia, seu infallibile
+          <lb ed="#P" n="76"/>perseverantiae donum, non solum per unius
+          <lb ed="#P" n="77"/>tentationis victoriam, sed etiam per 
+          quotcum<lb break="no" ed="#P" n="78"/>que merita: ita neque in statu innocentiae id
+          <lb ed="#P" n="79"/>posset, quia ex natura rei eadem est ratio: et
+          <lb ed="#P" n="80"/>de alio genere providentiae, vel promissionis
+          <lb ed="#P" n="81"/>divinae pro statu innocentiae nihil cum 
+          funda<lb break="no" ed="#P" n="82"/>mento aflfirmari potest. Si autem Adam sibi
+          <lb ed="#P" n="83"/>hoc donum promereri non potuit, multo 
+          mi<lb break="no" ed="#P" n="84"/>nus suis posteris illud meruit. Et eadem 
+          ra<lb break="no" ed="#P" n="85"/>tione, nec unusquisque filiorum Adae, illud
+          <lb ed="#P" n="86"/>sibi mereri potuisset: neque etiam dici potest,
+          <lb ed="#P" n="87"/>saltem de congruo potuisse illud mereri: tum
+          <lb ed="#P" n="88"/>quia meritum de congruo non sufficit ad 
+          in<lb break="no" ed="#P" n="89"/>fallibilem consecutionem, nisi ostendatur 
+          pro<lb break="no" ed="#P" n="90"/>missio, quae in praesenti non invenitur: tum
+          <lb ed="#P" n="91"/>etiam, quia nunc non datur omnibus 
+          homini<lb break="no" ed="#P" n="92"/>bus hoc donum non obstante infinito merito
+          <lb ed="#P" n="93"/>Christi. Cur ergo credendum est fuisse 
+          dan<lb break="no" ed="#P" n="94"/>dum, vel omnibus propter unum actum 
+          Ada<lb break="no" ed="#P" n="95"/>mi vincendi primam tentationem: vel 
+          unicui<lb break="no" ed="#P" n="96"/>que propter primam victoriam similem? 
+          Tan<lb break="no" ed="#P" n="97"/>dem confirmari hoc potest verbis illis Dei, n
+          <lb ed="#P" n="98"/>quacumque die comederis, etc., Genes. 2. Nam
+          <lb ed="#P" n="99"/>illis significatur, non tantum statim in prima
+          <lb ed="#P" n="100"/>tentatione,sed postea quocumque tempore 
+          po<lb break="no" ed="#P" n="101"/>tuisse hominem ex cibo vetito comedere, et
+          <lb ed="#P" n="102"/>peccare, ac subinde potuisse prius tentationem
+          <lb ed="#P" n="103"/>vincere: et postea ab alia simili, vel majori
+          <lb ed="#P" n="104"/>superari ; nam hoc plane in illa generali 
+          com<lb break="no" ed="#P" n="105"/>minatione, /n quacumque die, etc., indicatum
+          <lb ed="#P" n="106"/>est.
+        </p>
+        <p xml:id="szdada-y10741-d1e750">
+          <lb ed="#P" n="107"/>8. Ad Anselmum ejusque rationem in n. 1.—
+          <lb ed="#P" n="108"/>Ad Anselmum ergo respondet D. Thomas, non
+          <lb ed="#P" n="109"/>omnino asserendo, sed dubitando, locutum
+          <lb ed="#P" n="110"/>fuisse. Nihilominus tamen negari non potest,
+          <pb ed="#P" n="430"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quin in ea partem inclinaverit ; sed ratio ejus,
+          <lb ed="#P" n="2"/>(ut idem D. Thomas notavit) non cogit. Solum
+          <lb ed="#P" n="3"/>enim concludit, quod sicut natura humana per
+          <lb ed="#P" n="4"/>primam inobedientiam primi hominis in 
+          ser<lb break="no" ed="#P" n="5"/>vitutem redacta est, ita per obedientiam in 
+          li<lb break="no" ed="#P" n="6"/>bertate et justitia conservaretur. Verumtamen
+          <lb ed="#P" n="7"/>sicut per culpam Adae non ita sumus omnes in
+          <lb ed="#P" n="8"/>captivitatem redacti, ut non possimus per 
+          li<lb break="no" ed="#P" n="9"/>bertatem arbitrii in libertatem vindicari: ita
+          <lb ed="#P" n="10"/>etiam licet per Adae obedientiam originalem
+          <lb ed="#P" n="11"/>justitiam guasi haereditario jure haberemus,
+          <lb ed="#P" n="12"/>nihilominus illam per liberum arbitrium 
+          amit<lb break="no" ed="#P" n="13"/>tere possemus. Est tamen differentia quod
+          <lb ed="#P" n="14"/>justitiam semel amissam solis viribus liberi
+          <lb ed="#P" n="15"/>arbitrii, nisi nos Deus sua gratia praeveniat
+          <lb ed="#P" n="16"/>et adjuvet, recuperare non possumus: 
+          justi<lb break="no" ed="#P" n="17"/>tiam autem etiam ab Adamo derivatam, modo
+          <lb ed="#P" n="18"/>superius declarato, de nostro et solo libero 
+          ar<lb break="no" ed="#P" n="19"/>bitrio amittere possumus. Hoc autem non est,
+          <lb ed="#P" n="20"/>quia fortior sit culpa ad inducendam 
+          servitu<lb break="no" ed="#P" n="21"/>tem, quam obedientia ad justitiam et 
+          liberta<lb break="no" ed="#P" n="22"/>tem conservandam: sed ex infirmitate et
+          <lb ed="#P" n="23"/>fragilitate nostrae naturae provenit. Est enim
+          <lb ed="#P" n="24"/>potentior de se ad malum, quam ad bonum,
+          <lb ed="#P" n="25"/>et facilius a Deo, quam a creatura avertitur :
+          <lb ed="#P" n="26"/>quia difficilius ad Deum, quam ad creaturam
+          <lb ed="#P" n="27"/>convertitur. Unde fit etiam, ut una 
+          inobedien<lb break="no" ed="#P" n="28"/>tia momentanea (ut sic dicam) totam naturam
+          <lb ed="#P" n="29"/>ita dejecerit, ut a lapsu per se solam resurgere
+          <lb ed="#P" n="30"/>non posset, absque gratia: una autem 
+          obe<lb break="no" ed="#P" n="31"/>dientia non esset sufliciens ad conservandam
+          <lb ed="#P" n="32"/>justitiam pro tota natura: ita ut postea per
+          <lb ed="#P" n="33"/>ejusdem praecepti transgressionem amitti non
+          <lb ed="#P" n="34"/>posset. Reddique potest ratio, tum quia 
+          bo<lb break="no" ed="#P" n="35"/>num ex integra causa, malum autem ex 
+          quo<lb break="no" ed="#P" n="36"/>cumque defectu, ideoque ad destruendam
+          <lb ed="#P" n="37"/>justitiam suflicit semel peccare; ad 
+          conser<lb break="no" ed="#P" n="38"/>vandam autem justitiam non satis est semel
+          <lb ed="#P" n="39"/>obedire, sed etiam in obedientia perseverare:
+          <lb ed="#P" n="40"/>tum etiam, quia potentior est homo de se ad
+          <lb ed="#P" n="41"/>cadendum, quam ad resurgendum, vel in bono
+          <lb ed="#P" n="42"/>perseverandum: et ideo post custoditum 
+          se<lb break="no" ed="#P" n="43"/>mel praeceptum, potuit facile sequi culpa 
+          suf<lb break="no" ed="#P" n="44"/>ficiens ad maculandam totam naturam: post
+          <lb ed="#P" n="45"/>primam autem inobedientiam non potuit 
+          am<lb break="no" ed="#P" n="46"/>plius primus parens totam naturam in 
+          pristi<lb break="no" ed="#P" n="47"/>num statum restituere ; de quo latius in tom.
+          <lb ed="#P" n="48"/>de Incar., in princ.
+        </p>
+        <p xml:id="szdada-y10741-d1e870">
+          <lb ed="#P" n="49"/>9. Ad Gregorium in eodem n. 4 responsio
+          <lb ed="#P" n="50"/>D. Thome.— Ad Gregorium etiam respondet
+          <lb ed="#P" n="51"/>D. Thomas solum voluisse docere, quod si
+          <lb ed="#P" n="52"/>Adam non peccaret, non generaret filios 
+          ge<lb break="no" ed="#P" n="53"/>hennse, id est, peccatores, et dignos gehenna,
+          <lb ed="#P" n="54"/>sicut modo illos generat: nihilominus tamen
+          <lb ed="#P" n="55"/>non negare Gregorium, quin ipsi filii Adae
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>etiam justi geniti possent postea per propria
+          <lb ed="#P" n="57"/>peccata filii gehennae fieri. Quae responsio 
+          sa<lb break="no" ed="#P" n="58"/>tisfaceret, si Gregorius tantum diceret, 
+          Nun<lb break="no" ed="#P" n="59"/>quam ex se filios gehennee generaret: ac non ibi
+          <lb ed="#P" n="60"/>sistit, sed adjungit: S'ed hi, qui nunc per 
+          re<lb break="no" ed="#P" n="61"/>demptionem salvandi sunt, soli ab illo electi
+          <lb ed="#P" n="62"/>nascerentur. Propter quod addit D.Thomas, d.
+          <lb ed="#P" n="63"/>q. 100, a. 2, ad 1, quod si forte, durante statu
+          <lb ed="#P" n="64"/>innocentie, homines non peccarent, non id
+          <lb ed="#P" n="65"/>esset, quia essent in justitia confirmati, sed
+          <lb ed="#P" n="66"/>propter divinam providentium, per quam a 
+          pec<lb break="no" ed="#P" n="67"/>cato conservarentur immunes. Sed hoc 
+          satisfa<lb break="no" ed="#P" n="68"/>cit, quia (ut diximus) hic non est contentio de
+          <lb ed="#P" n="69"/>propria confirmatione ab intrinseco: nec de
+          <lb ed="#P" n="70"/>modo praeservationis a peccato, sed absolute:
+          <lb ed="#P" n="71"/>an ex certa lege omnes praeservarentur a 
+          pec<lb break="no" ed="#P" n="72"/>cato, seu damnatione. Quod si Gregorius 
+          as<lb break="no" ed="#P" n="73"/>serere voluit, ex speciali dono Dei, 
+          quodcum<lb break="no" ed="#P" n="74"/>que illud sit, omnes fuisse in perpetua justitia
+          <lb ed="#P" n="75"/>conservandos, plane contra nostram 
+          senten<lb break="no" ed="#P" n="76"/>tiam docuit. Unde D. Thomas, d. quodlib., a. S,
+          <lb ed="#P" n="77"/>aliter respondet, videlicet, quod Gregorius
+          <lb ed="#P" n="78"/>cum dicit, soli electi nascerentur, non intelligit
+          <lb ed="#P" n="79"/>absolute, sed quantum est ex ratione origimis.
+          <lb ed="#P" n="80"/>Obstant vero sequentia verba Gregorii, Soli
+          <lb ed="#P" n="81"/>ab illo electi nascerentur, eosdem electos 
+          aspi<lb break="no" ed="#P" n="82"/>ciat (utique vir sanctus) atque cum eis quomodo
+          <lb ed="#P" n="83"/>quiescere potuisset, intendat. Quibus 
+          posteriori<lb break="no" ed="#P" n="84"/>bus verbis aperte declarat, in prioribus se 
+          lo<lb break="no" ed="#P" n="85"/>qui de electis, non solum quantum est ex vi
+          <lb ed="#P" n="86"/>originis, quomodo omnes baptizati dici possunt
+          <lb ed="#P" n="87"/>electi quantum est ex vi Baptismi, et omnes
+          <lb ed="#P" n="88"/>fideles solent vocari electi, utique ad fidem:
+          <lb ed="#P" n="89"/>sed loqui de electis simpliciter, ut cum effectu
+          <lb ed="#P" n="90"/>salventur, seu gloriam consequantur. Nam ad
+          <lb ed="#P" n="91"/>hos electos aspicere debemus, ut cum illis
+          <lb ed="#P" n="92"/>quiescere optemus.
+        </p>
+        <p xml:id="szdada-y10741-d1e971">
+          <lb ed="#P" n="93"/>10. Alii ut Valentia aliter respondent ad
+          <lb ed="#P" n="94"/>dictum locum Gregorii.— Non satisfaciunt.—
+          <lb ed="#P" n="95"/>Et ideo dixerunt alii significasse Gregorium 
+          il<lb break="no" ed="#P" n="96"/>lis verbis: si neque Adam, neque posteritas
+          <lb ed="#P" n="97"/>ejus peccasset, futurum esse, ut tales electi
+          <lb ed="#P" n="98"/>tantummodo nascerentur, quales nunc per
+          <lb ed="#P" n="99"/>Christum salvantur: ita Valentia et tribuit
+          <lb ed="#P" n="100"/>D. Thomae in d. quodlib. At D. Thomas nihil
+          <lb ed="#P" n="101"/>aliud, praeter id, quod retuli, dicit; neque
+          <lb ed="#P" n="102"/>Gregorius ponit illam conditionalem, si neque
+          <lb ed="#P" n="103"/>Adam, nec posteritas ejus, peccaret: sed 
+          tan<lb break="no" ed="#P" n="104"/>tum dicit: Si parentem primum nulla peccati
+          <lb ed="#P" n="105"/>putredo corrumperet, soli electi ab eo 
+          nasceren<lb break="no" ed="#P" n="106"/>tur. Quare probabile censeo, quod Molina
+          <lb ed="#P" n="107"/>etiam dixit, Gregorium in ea fuisse sententia,
+          <lb ed="#P" n="108"/>ut crederet, Adamo non peccante omnes ejus
+          <lb ed="#P" n="109"/>filios salvos futuros fuisse ; quod potuit 
+          qui<lb break="no" ed="#P" n="110"/>dem facere Deus. Unde autem sciri possit, ita
+          <pb ed="#P" n="431"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fuisse futurum, ignoramus ; eademque ratio,
+          <lb ed="#P" n="2"/>vel major est, ut dixi, de immunitate ab omni
+          <lb ed="#P" n="3"/>peccato: ideoque solum dicimus, ex vi illius
+          <lb ed="#P" n="4"/>status potuisse filios Adae peccare, quamvis
+          <lb ed="#P" n="5"/>posset Deus, quos vellet, ab omni peccato 
+          prae<lb break="no" ed="#P" n="6"/>servare.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

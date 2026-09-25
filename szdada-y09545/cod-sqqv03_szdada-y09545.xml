@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="380"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y09545"><!-- t2l5c1 -->
+        <head xml:id="szdada-y09545-Hd1e101">Caput 1</head>
+        <head xml:id="szdada-y09545-Hd1e103" type="question-title">Quomodo multiplicarentur, seu propagarentur homines in statu innocentiae, si adam non peccasset</head>
+        <p xml:id="szdada-y09545-d1e106">
+          <lb ed="#P" n="28"/>CAPUT I.
+          <lb ed="#P" n="29"/>QUOMODO MULTIPLICARENTUR, SEU PROPAGARENTUR
+          <lb ed="#P" n="30"/>HOMINES IN STATU INNOCENTIAE, SI ADAM NON
+          <lb ed="#P" n="31"/>PECCASSET.
+        </p>
+        <p xml:id="szdada-y09545-d1e117">
+          <lb ed="#P" n="32"/>1. Suppositio ad questionem expediendam.
+          <lb ed="#P" n="33"/>— Ostenditur primo ea Gen. 1, 2. ex absurdo.
+          <lb ed="#P" n="34"/>— Tertio ex ratione D. Thome. — Supponit
+          <lb ed="#P" n="35"/>haec quaestio, etiamsi Adam non peccasset, 
+          ni<lb break="no" ed="#P" n="36"/>hilominus genus humanum in plura individua
+          <lb ed="#P" n="37"/>multiplicandum fuisse. Quam suppositionem,
+          <lb ed="#P" n="38"/>tanquam rem certam, omnes theologi 
+          admit<lb break="no" ed="#P" n="39"/>tunt, quia sufficienter ostenditur ex divina
+          <lb ed="#P" n="40"/>benedictione. Crescite, et multiplicamim ,
+          <lb ed="#P" n="41"/>Gen. 1. Quia illa benedictio data est homini-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="42"/>bus, non occasione peccati, sed per se (ut sic
+          <lb ed="#P" n="43"/>dicam) propter bonum talis naturae: ergo 
+          du<lb break="no" ed="#P" n="44"/>raret, haberetque effectum non interveniente
+          <lb ed="#P" n="45"/>peccato. Item incredibile est creasse Deum duos
+          <lb ed="#P" n="46"/>homines, ut si non peccarent, illi scli 
+          salva<lb break="no" ed="#P" n="47"/>rentur: si autem peccarent, multiplicarentur:
+          <lb ed="#P" n="48"/>ergo non est verisimile, perseverantibus in
+          <lb ed="#P" n="49"/>innocentia duobus primis hominibus, illos
+          <lb ed="#P" n="50"/>tantum fuisse futuros: essent ergo plures. Et
+          <lb ed="#P" n="51"/>in hoc sensu dicimus fuisse multiplicandos.
+          <lb ed="#P" n="52"/>Denique D. Thomas, 1 p., q. 98, art. 1, addit
+          <lb ed="#P" n="53"/>optimam rationem quia in humana natura
+          <lb ed="#P" n="54"/>propter perfectionem animae rationalis, et 
+          im<lb break="no" ed="#P" n="55"/>mortalis, non tantum species, sed etiam 
+          sin<lb break="no" ed="#P" n="56"/>eula individua sunt per se intenta ab auctore
+          <lb ed="#P" n="57"/>naturae: ac proinde in statu innocentiae plura
+          <lb ed="#P" n="58"/>individua multiplicarentur.
+        </p>
+        <p xml:id="szdada-y09545-d1e180">
+          <lb ed="#P" n="59"/>2. Objectio. — Solutio. — Ex qua ratione
+          <lb ed="#P" n="60"/>solvitur tacita objectio: quia multiplicatio 
+          in<lb break="no" ed="#P" n="61"/>dividuorum solum esse solet in speciebus 
+          re<lb break="no" ed="#P" n="62"/>rum corruptibilium, quia est necessaria ad
+          <lb ed="#P" n="63"/>speciei conservationem: sed in statu 
+          innocen<lb break="no" ed="#P" n="64"/>tiae homines essent immortales: ergo 
+          multi<lb break="no" ed="#P" n="65"/>plicatio plurium individuorum non esset 
+          ne<lb break="no" ed="#P" n="66"/>cessaria ad conservationem speciei: ergo 
+          sim<lb break="no" ed="#P" n="67"/>pliciter non esset, quia ejus necessitas cessaret.
+          <lb ed="#P" n="68"/>Respondetur autem primo, naturam 
+          huma<lb break="no" ed="#P" n="69"/>nam de se esse corruptibilem, et ita ex se 
+          pos<lb break="no" ed="#P" n="70"/>tulare individuorum multiplicationem, ac
+          <lb ed="#P" n="71"/>proinde non fuisse privandam hoc beneficio,
+          <lb ed="#P" n="72"/>etiamsi per donum justitiae singala individua
+          <lb ed="#P" n="73"/>perpetuitatem acciperent. Alioqui ne duo 
+          in<lb break="no" ed="#P" n="74"/>dividua, sed unum tantum procreandum esset.
+          <lb ed="#P" n="75"/>Deinde dicitur, licet homo sit corruptibilis,
+          <lb ed="#P" n="76"/>animam ejus esse immortalem, et ex hac parte
+          <lb ed="#P" n="77"/>singulas animas esse per se, ac principaliter
+          <lb ed="#P" n="78"/>intentas, multo magis quam species singulas
+          <lb ed="#P" n="79"/>rerum, et formarum corruptibilium, et ita 
+          ra<lb break="no" ed="#P" n="80"/>tione animae multiplicationem individuorum
+          <pb ed="#P" n="381"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non tantum propter conservationem speciei,
+          <lb ed="#P" n="2"/>sed etiam per se, et propter singulorum 
+          indi<lb break="no" ed="#P" n="3"/>viduorum perfectionem, et varietatem esse
+          <lb ed="#P" n="4"/>intentam. Unde dico ultimo illam rationem
+          <lb ed="#P" n="5"/>conservationis speciei, non esse adaequatam
+          <lb ed="#P" n="6"/>causam multiplicationis individuorum. In quo
+          <lb ed="#P" n="7"/>est notanda differentia inter res irrationales,
+          <lb ed="#P" n="8"/>ac insensibiles, et res intellectu, aut ratione
+          <lb ed="#P" n="9"/>utentes: quod priores non sunt propter se,
+          <lb ed="#P" n="10"/>sed propter usum et commoditatem hominum
+          <lb ed="#P" n="11"/>et intellectualium rerum: ipsae vero 
+          intellec<lb break="no" ed="#P" n="12"/>tuales res per se, et propter intrinsecam 
+          per<lb break="no" ed="#P" n="13"/>fectionem intenduntur et multiplicantur.
+          <lb ed="#P" n="14"/>Unde fit, ut individua specierum aliquarum
+          <lb ed="#P" n="15"/>rerum homine inferiorum non tantum 
+          multi<lb break="no" ed="#P" n="16"/>plicentur in numero suflicienti ad 
+          conservan<lb break="no" ed="#P" n="17"/>dam speciem, sed in multo etiam majori, quia
+          <lb ed="#P" n="18"/>vel ad sustentationem hominum, vel ad 
+          pul<lb break="no" ed="#P" n="19"/>chritudinem universi, et delectationem 
+          homi<lb break="no" ed="#P" n="20"/>num necessaria sunt. Ideoque quando unum
+          <lb ed="#P" n="21"/>ad omnia sufticit, non multiplicantur per se
+          <lb ed="#P" n="22"/>loquendo, ut in elemento terrae, et aliis videre
+          <lb ed="#P" n="23"/>licet. Et idem fortasse est in coelis, quamvis in
+          <lb ed="#P" n="24"/>eis etiam probabile sit multiplicari individna,
+          <lb ed="#P" n="25"/>licet sint incorruptibilia, si ad usum, vel 
+          com<lb break="no" ed="#P" n="26"/>modum universi illa varietas individuorum,
+          <lb ed="#P" n="27"/>vel melior, vel etiam sufficiens est. At vero in
+          <lb ed="#P" n="28"/>gradu intellectuali singula individua sunt per
+          <lb ed="#P" n="29"/>se intenta, ut Deo fruantur: nam ad ejus 
+          si<lb break="no" ed="#P" n="30"/>militudinem sunt, ideoque multiplicantur ,
+          <lb ed="#P" n="31"/>quantum juxta divinae sapientiae consilium
+          <lb ed="#P" n="32"/>sufficiens judicatur. Unde probabile valde est,
+          <lb ed="#P" n="33"/>(ut supra dixi) etiam in speciebus Angelorum
+          <lb ed="#P" n="34"/>individua multiplicari. Magisque certum id est
+          <lb ed="#P" n="35"/>de specie humana etiam in statu 
+          immortalita<lb break="no" ed="#P" n="36"/>tis, quia illa multiplicatio personarum ad
+          <lb ed="#P" n="37"/>quamdam pulchritudinem, et decorem totius
+          <lb ed="#P" n="38"/>speciei confert, quatenus per diversitatem 
+          plu<lb break="no" ed="#P" n="39"/>rium individualium perfectionum, totius 
+          spe<lb break="no" ed="#P" n="40"/>ciei amplitudo magis relucet. Praeterquam
+          <lb ed="#P" n="41"/>quod ad societatem politicam homini valde
+          <lb ed="#P" n="42"/>naturalem, necessaria est.
+        </p>
+        <p xml:id="szdada-y09545-d1e327">
+          <lb ed="#P" n="43"/>3. Arguit primum a triplici incommodo non
+          <lb ed="#P" n="44"/>fuisse propagandos homines per generationem.
+          <lb ed="#P" n="45"/>— Secundum. — Tertium. — Hoc ergo 
+          suppo<lb break="no" ed="#P" n="46"/>sito, quaestio est, de modo multiplicationis,
+          <lb ed="#P" n="47"/>an esset per viam naturalis generationis ex
+          <lb ed="#P" n="48"/>conjunctione maris cum foemina, necne, ac
+          <lb ed="#P" n="49"/>subinde an esset immediate a Deo, an ab ipsis
+          <lb ed="#P" n="50"/>hominibus. Ratio dubitandi est, quia modus
+          <lb ed="#P" n="51"/>generationis humanae contra decentiam, et
+          <lb ed="#P" n="52"/>perfectionem status innocentiae esse videtur:
+          <lb ed="#P" n="53"/>tum quia commixtio maris et foeminae sine
+          <lb ed="#P" n="54"/>delectatione nimia, quae rationis usum 
+          obtun<lb break="no" ed="#P" n="55"/>dat, esse non potest: tum quia conceptus pro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lis sine ruptione et divisione alicujus partis
+          <lb ed="#P" n="57"/>foeminei corporis, non potest perfici, quia non
+          <lb ed="#P" n="58"/>potest viri semen in uterum uxoris intrare:
+          <lb ed="#P" n="59"/>talis autem divisio incorruptioni corporis 
+          foe<lb break="no" ed="#P" n="60"/>minae repugnabat ; tum etiam, quia partus
+          <lb ed="#P" n="61"/>foeminae non poterat esse sine dolore propter
+          <lb ed="#P" n="62"/>nimiam partium dilatationem, quae ad foetum
+          <lb ed="#P" n="63"/>emittendum necessaria est: ergo non 
+          multi<lb break="no" ed="#P" n="64"/>plicarentur homines in illo statu modo adeo
+          <lb ed="#P" n="65"/>imperfecto. Unde videtur sequi non fuisse tunc
+          <lb ed="#P" n="66"/>homines ab hominibus propagandos, sed 
+          im<lb break="no" ed="#P" n="67"/>mediate a Deo: quia non possunt homines,
+          <lb ed="#P" n="68"/>nisi dicto modo alios homines procreare: nec
+          <lb ed="#P" n="69"/>potest homo ab alio, quam a Deo produci, si
+          <lb ed="#P" n="70"/>ab homine non generatur.
+        </p>
+        <p xml:id="szdada-y09545-d1e392">
+          <lb ed="#P" n="71"/>4. Praedictis incommodis Patres alii 
+          ducun<lb break="no" ed="#P" n="72"/>tur. — Propter has fortasse difficultates aliqui
+          <lb ed="#P" n="73"/>antiqui Patres docuerunt, multiplicationem
+          <lb ed="#P" n="74"/>hominum in statu innocentiae non fuisse 
+          futu<lb break="no" ed="#P" n="75"/>ram per naturalem generationis viam, sed per
+          <lb ed="#P" n="76"/>creationem. Ita docuit Gregorius Nissenus,
+          <lb ed="#P" n="77"/>lib. de Opific. hom., cap. 17, et Chrysostomus,
+          <lb ed="#P" n="78"/>hom. 18, in Gen., circa initium cap. 4, et lib.
+          <lb ed="#P" n="79"/>de Virg., c. 17, in fin. Damascenus, l. 2, c. 30,
+          <lb ed="#P" n="80"/>et lib. 4, cap. 25. Favet Augustinus, lib. 1,
+          <lb ed="#P" n="81"/>Gen. contra Manich., cap. i9. Ubi tractans
+          <lb ed="#P" n="82"/>verba illa, Crescite, et multiplicanini, ait, licet
+          <lb ed="#P" n="83"/>nobis ea ita spiritualiter accipere, ut in 
+          carna<lb break="no" ed="#P" n="84"/>lem fecunditatem post peccatum conversa esse
+          <lb ed="#P" n="85"/>credatur. idem sentit Euthy mius, in Psal. 50,
+          <lb ed="#P" n="86"/>et Procopius, Gen. 4. Atque denique 
+          Hierony<lb break="no" ed="#P" n="87"/>mus, epist. 22, ad Eustochium de Custodia
+          <lb ed="#P" n="88"/>Virginitatis saepe indicat usum conjugii per
+          <lb ed="#P" n="89"/>peccatum fuisse introductum, et in lib. 1 
+          con<lb break="no" ed="#P" n="90"/>tra Jovinian., parum post medium, incertam
+          <lb ed="#P" n="91"/>rem esse existimans, in hanc partem magis
+          <lb ed="#P" n="92"/>inclinat. 5S objeceris (inquit) antequam 
+          pecca<lb break="no" ed="#P" n="93"/>rent, sevum viri, et feminee fuisse divisum, et
+          <lb ed="#P" n="94"/>absque peccato eos potuisse conjungi, quid 
+          futu<lb break="no" ed="#P" n="95"/>run fuerit incertum est. Infra vero addit:
+          <lb ed="#P" n="96"/>Quid nocebat si Paradisus nuptias recipit, et
+          <lb ed="#P" n="97"/>nulla est inter maritatam et virginem 
+          diversi<lb break="no" ed="#P" n="98"/>tas etiam in Paradiso eos sociari. Ex quo 
+          vi<lb break="no" ed="#P" n="99"/>detur conjecturam facere non fuisse futurum
+          <lb ed="#P" n="100"/>usum nuptiarum in Paradiso, cum in illo non
+          <lb ed="#P" n="101"/>inceperit, sed a principio conditionis hunmanaee
+          <lb ed="#P" n="102"/>virginitatem Paradisus, et terra nuptias 
+          dedi<lb break="no" ed="#P" n="103"/>caverit.
+        </p>
+        <p xml:id="szdada-y09545-d1e466">
+          <lb ed="#P" n="104"/>5. Hoc ergo sit aliud hujus sententiae 
+          fun<lb break="no" ed="#P" n="105"/>damentum praeter illud, quod in principio 
+          po<lb break="no" ed="#P" n="106"/>situm est. Tertium sit Gregorii Nisseni, quia
+          <lb ed="#P" n="107"/>in statu post resurrectionem non erunt nuptiae,
+          <lb ed="#P" n="108"/>teste Christo Domino, Matth. 22, quia tunc,
+          <lb ed="#P" n="109"/>homines erunt sicut Angeli Dei in calo, ut
+          <lb ed="#P" n="110"/>idem Dominus ait, sed homines in Paradiso
+          <pb ed="#P" n="382"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>etiam futuri erunt, sicut Angeli: imo per 
+          re<lb break="no" ed="#P" n="2"/>surrectionem recuperabunt statum, quem in
+          <lb ed="#P" n="3"/>Paradiso habituri erant, et peccando 
+          amise<lb break="no" ed="#P" n="4"/>runt: ergo etiam in Paradiso non esset futurus
+          <lb ed="#P" n="5"/>nuptiarum usus. Eamdemque rationem 
+          indi<lb break="no" ed="#P" n="6"/>cat Chrysostomus, dicens: Post Paradisi 
+          a<lb break="no" ed="#P" n="7"/>missionem nunc primum usus rei venered 
+          ince<lb break="no" ed="#P" n="8"/>pit: ante inobedientiam enim angelica vitam
+          <lb ed="#P" n="9"/>imitabantur, et nullus de re venerea sermo erat.
+          <lb ed="#P" n="10"/>Et addit: Quid enim potuit, cum neque 
+          necessi<lb break="no" ed="#P" n="11"/>tatibus corporalibus obnoaii fuerint: n quo
+          <lb ed="#P" n="12"/>quartam rationem indicat. Nam ab illo statu
+          <lb ed="#P" n="13"/>alienum erat necessitatibus corporalibus 
+          inser<lb break="no" ed="#P" n="14"/>vire: sed una ex majoribus, et vilioribus 
+          ne<lb break="no" ed="#P" n="15"/>cessitatibus est, quae ad prolis gencrationem,
+          <lb ed="#P" n="16"/>et procreationem pertinet: ergo illum statum
+          <lb ed="#P" n="17"/>non decebat. Quinto argumentatur 
+          Damasce<lb break="no" ed="#P" n="18"/>nus, d. cap, 25. Quia Adam non cognovit 
+          E<lb break="no" ed="#P" n="19"/>vam, donec audivit: Terra es, et in terram
+          <lb ed="#P" n="20"/>reverteris. Ergo ne mors genus humanum 
+          ob<lb break="no" ed="#P" n="21"/>tereret et absumeret, matrimonium 
+          assump<lb break="no" ed="#P" n="22"/>tum est, ut per liberorum procreationem 
+          ge<lb break="no" ed="#P" n="23"/>nus nostrum procrearetur: ergo hac 
+          necessi<lb break="no" ed="#P" n="24"/>tate cessante per innocentiam, etiam usus 
+          con<lb break="no" ed="#P" n="25"/>jugii non fuisset.
+        </p>
+        <p xml:id="szdada-y09545-d1e542">
+          <lb ed="#P" n="26"/>6. Vera assertio affirmans.—Probatur prima
+          <lb ed="#P" n="27"/>assertio ec Scriptura. — Responsio Nisseni
+          <lb ed="#P" n="28"/>et Damasceni non admittitur. — Dicendum 
+          ni<lb break="no" ed="#P" n="29"/>hilominus est: quamvis primi homines non
+          <lb ed="#P" n="30"/>peccassent, et status innocentige perseverasset,
+          <lb ed="#P" n="31"/>genus bumanum per naturalem generationem,
+          <lb ed="#P" n="32"/>et maris ac foeminae conjunctionem 
+          propagan<lb break="no" ed="#P" n="33"/>dum fuisset. Ita docet D. Thomas, 1. p., q. 98,
+          <lb ed="#P" n="34"/>et reliqui scholastici cum Magistro, in 2, dist.
+          <lb ed="#P" n="35"/>20. Et oppositum tanquam haeresim 
+          Armeno<lb break="no" ed="#P" n="36"/>rum, et Almerici damnat Castro, verb. Adam.,
+          <lb ed="#P" n="37"/>haeres. 3, ex Guidone Carmelita, et Bernardo
+          <lb ed="#P" n="38"/>de Luzenburgo, et Augustino, lib. 31, de 
+          hae<lb break="no" ed="#P" n="39"/>res., in 3, et illam Adamianis tribuit. Probatur
+          <lb ed="#P" n="40"/>autem assertio primo ex verbis illis Gen. 2:
+          <lb ed="#P" n="41"/>Non est bonum hominem esse solum, faciamus
+          <lb ed="#P" n="42"/>ei adjuloriumn simile sibi. De quo adjutorio per
+          <lb ed="#P" n="43"/>anticipationem in cap. 1, dictum fuerat, 
+          Mas<lb break="no" ed="#P" n="44"/>culum et faminam creavit eos. Ex qua 
+          distinc<lb break="no" ed="#P" n="45"/>tione sexuum cum similitudine naturae 
+          mani<lb break="no" ed="#P" n="46"/>festum est illud adjutorium datum esse Adae
+          <lb ed="#P" n="47"/>principaliter ad filios procreandos. Ergo 
+          futu<lb break="no" ed="#P" n="48"/>rum esset hoc naturae oflicium in statu 
+          inno<lb break="no" ed="#P" n="49"/>centiae. Respondent Nissenus et Damascenus
+          <lb ed="#P" n="50"/>Deum praescium futuri peccati creasse homines
+          <lb ed="#P" n="51"/>diversi sexus, ut post peccatum posset genus
+          <lb ed="#P" n="52"/>humanum conservari et propagari. Sed hoc
+          <lb ed="#P" n="53"/>verisimile non est: tum quia Deus dixit, NVon
+          <lb ed="#P" n="54"/>est bonum hominem esse solum, locutusque est
+          <lb ed="#P" n="55"/>de homine in statu innocentiae: ergo etiam in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illo statu non erat bonum hominem carere
+          <lb ed="#P" n="57"/>tali adjutorio: ergo per se, et non occasione
+          <lb ed="#P" n="58"/>peccati factum est. Tum etiam, quia sexuum
+          <lb ed="#P" n="59"/>diversitas naturalis est homini, et per se illam
+          <lb ed="#P" n="60"/>exigit, et non ratione peccati: ergo per se
+          <lb ed="#P" n="61"/>fuisset in innocentiae statu: ergo in eo etiam
+          <lb ed="#P" n="62"/>suum haberet usum.
+        </p>
+        <p xml:id="szdada-y09545-d1e627">
+          <lb ed="#P" n="63"/>7. Item probatur primo ea Gen. 1. — 
+          Damas<lb break="no" ed="#P" n="64"/>ceni evasio. — Non satisfacit. — Secundo 
+          con<lb break="no" ed="#P" n="65"/>tirmatur hoc ex illa benedictione divina:
+          <lb ed="#P" n="66"/>Crescite et multiplicamini, et replete terram,
+          <lb ed="#P" n="67"/>Gen. 1, in illa enim non respexit Deus ad 
+          mor<lb break="no" ed="#P" n="68"/>talem statum, in quem homines per peccatum
+          <lb ed="#P" n="69"/>perventuros esse praeviderat, sed per se, et in
+          <lb ed="#P" n="70"/>omni statu multiplicationem hominum per
+          <lb ed="#P" n="71"/>illam benedictionem intendit: tum quia per
+          <lb ed="#P" n="72"/>se spectabat ad universi complementum: tum
+          <lb ed="#P" n="73"/>etiam quia eodem modo benedixit Deus alis
+          <lb ed="#P" n="74"/>animalibus, similia verba proferens: Crescite
+          <lb ed="#P" n="75"/>et multiplicamini. Unde Damascenus, dicto
+          <lb ed="#P" n="76"/>cap. 25, cum negare non posset banc 
+          bene<lb break="no" ed="#P" n="77"/>dictionem, perseverante innocentia fuisse 
+          com<lb break="no" ed="#P" n="78"/>plendam, tacite respondet per ea verba: 
+          Cres<lb break="no" ed="#P" n="79"/>cite et multiplicamini, non significari illam
+          <lb ed="#P" n="80"/>propagationem, quee per complerum venereum
+          <lb ed="#P" n="81"/>efficitur: nam Deus alio inodo genus nostrum
+          <lb ed="#P" n="82"/>propagare poterat: Sed hoc satisfacere non 
+          po<lb break="no" ed="#P" n="83"/>test: nam verba illa nou solum passive (ut sic
+          <lb ed="#P" n="84"/>dicam) continent praedictionem aut 
+          promis<lb break="no" ed="#P" n="85"/>sionem, quod homines essent multiplicandi,
+          <lb ed="#P" n="86"/>sed active intelligenda sunt, ita ut per illa
+          <lb ed="#P" n="87"/>Deus imperet hominibus activam 
+          productio<lb break="no" ed="#P" n="88"/>nem et multiplicationem sibi similium: sicut
+          <lb ed="#P" n="89"/>quando aliis animalibus imperavit: Crescite
+          <lb ed="#P" n="90"/>et multiplicamini, activam productionem et
+          <lb ed="#P" n="91"/>generationem illis indixit. Nec Deus de modo
+          <lb ed="#P" n="92"/>miraculoso, vel extraordinario, quo posset
+          <lb ed="#P" n="93"/>multiplicare individua, sed de modo naturali
+          <lb ed="#P" n="94"/>locutus est: hanc enim virtutem viventibus
+          <lb ed="#P" n="95"/>naturalem per illa verba significare voluit: illa
+          <lb ed="#P" n="96"/>autem virtus non operatur nisi per ordinarium
+          <lb ed="#P" n="97"/>senerationis modum: ergo de illa 
+          multiphca<lb break="no" ed="#P" n="98"/>tione verba illa intelligenda sunt.
+        </p>
+        <p xml:id="szdada-y09545-d1e708">
+          <lb ed="#P" n="99"/>8. Ulterius probatio ex Gen. 2. — Tertio hoc
+          <lb ed="#P" n="100"/>maxime confirmatur ex verbis illis Ada, quae
+          <lb ed="#P" n="101"/>post formationem Evae de costa sua dixit
+          <lb ed="#P" n="102"/>Gen. 29: Hoc nunc os ec ossibus meis, et caro
+          <lb ed="#P" n="103"/>de carne mea, etc. Quamobrem relinguet homo
+          <lb ed="#P" n="104"/>Patrem et Matrem, et adheerebit uzori suee, et
+          <lb ed="#P" n="105"/>erunt duo in carne una. lla enim unitas inter
+          <lb ed="#P" n="106"/>virum et foeminam per vinculum matrimonii,
+          <lb ed="#P" n="107"/>quasi inchoatur, et per copulam 
+          consumma<lb break="no" ed="#P" n="108"/>tur: quia donec conjuges matrimonium 
+          con<lb break="no" ed="#P" n="109"/>summant, non fiunt una caro, ut docet
+          <lb ed="#P" n="110"/>Alexander III, in capite secundo, de Conver-
+          <pb ed="#P" n="383"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sione conjugator., et specialibus Benedictus,
+          <lb ed="#P" n="2"/>papa in capite Lex divina 21, quaest. 2, et in
+          <lb ed="#P" n="3"/>Concilio Lateranensi, p. 6, cap. 27, 
+          Alexan<lb break="no" ed="#P" n="4"/>der III, postquam verba Adami retulit, 
+          sub<lb break="no" ed="#P" n="5"/>jungit: Quibus verbis innotuit, non aliter 
+          vi<lb break="no" ed="#P" n="6"/>rum, et mulierem fieri posse unam carnem, nisi
+          <lb ed="#P" n="7"/>carnali copula sibi cohereant. Et sumitur ex
+          <lb ed="#P" n="8"/>Paulo 1, Corinth. 6, dicente: Qui adhaeeret 
+          me<lb break="no" ed="#P" n="9"/>retrici, unumn corpus efficitur. Erunt enim
+          <lb ed="#P" n="10"/>(inquit) duo in carne una. Ergo priusquam
+          <lb ed="#P" n="11"/>Adam de futura culpa cogitare posset, 
+          intel<lb break="no" ed="#P" n="12"/>lexit sibi fuisse datam mulierem in adjutorium,
+          <lb ed="#P" n="13"/>ut per materialem copulam una caro fieret:
+          <lb ed="#P" n="14"/>ergo licet Adam non peccasset, Evae 
+          commis<lb break="no" ed="#P" n="15"/>ceretur, fierent una caro, eademque lex sancti
+          <lb ed="#P" n="16"/>connubii in statu illo servanda esset. Nam
+          <lb ed="#P" n="17"/>Adam de obligatione et usu in illo statu 
+          ser<lb break="no" ed="#P" n="18"/>vando locutus est, et in verbo illo, adheerebit
+          <lb ed="#P" n="19"/>ucori sue, praecipue videtur locutus de 
+          adhae<lb break="no" ed="#P" n="20"/>sione per copulam et cohabitationem, ut divus
+          <lb ed="#P" n="21"/>Thomas exposuit 2, 2, q. 26, a. 11, ad. 1.
+        </p>
+        <p xml:id="szdada-y09545-d1e787">
+          <lb ed="#P" n="22"/>9. Probatur etiam assertio es Augustino.—
+          <lb ed="#P" n="23"/>Quarto principaliter probatur conclusio ex
+          <lb ed="#P" n="24"/>Augustino, lib. 9, Gen. ad ht., cap. 3, et 
+          se<lb break="no" ed="#P" n="25"/>quentibus ubi inter alia dicit: IVon video quod
+          <lb ed="#P" n="26"/>prohibere potuerit, ut essent hominibus etiam in
+          <lb ed="#P" n="27"/>Paradiso honorabiles nuptie, et torus 
+          immacu<lb break="no" ed="#P" n="28"/>latus - hoc Deo praestante fideliter, justeque 
+          vi<lb break="no" ed="#P" n="29"/>ventibus, et sine ullo inquieto ardore libidinis,
+          <lb ed="#P" n="30"/>sine ullo labore, doloreque pariend faetus ea 
+          co<lb break="no" ed="#P" n="31"/>rum semine gigneretur. Quod late etiam 
+          pro<lb break="no" ed="#P" n="32"/>sequitur, lib. 14, de Civit., a cap. 21, usque
+          <lb ed="#P" n="33"/>ad 26. Et ita libro primo Htetract., cap. 10,
+          <lb ed="#P" n="34"/>emendat, quod lib. 1, de Genesi contra 
+          Mani<lb break="no" ed="#P" n="35"/>chaeum dixerat. Et eadem ratione cap. 13, 
+          cor<lb break="no" ed="#P" n="36"/>rigit, quod dixerat, libro de ver. Relig., c. 46,
+          <lb ed="#P" n="37"/>si natura nostra in sua integritate 
+          perman<lb break="no" ed="#P" n="38"/>sisset, non fuisse futuras has necessitudines
+          <lb ed="#P" n="39"/>consanguinitatum, afflinitatum, et 
+          cognatio<lb break="no" ed="#P" n="40"/>num. Nam revera essent futurae, cum futura
+          <lb ed="#P" n="41"/>essent conjugia, et filiorum generationes. 
+          Con<lb break="no" ed="#P" n="42"/>sentit Gregorius, in Psalm. 5, Poenitent, circa
+          <lb ed="#P" n="43"/>illa verba: Scribantur heec in generatione 
+          al<lb break="no" ed="#P" n="44"/>tera, Rupertus, Beda, Abulensis in Genesim.
+        </p>
+        <p xml:id="szdada-y09545-d1e839">
+          <lb ed="#P" n="45"/>10. Tandem probatur ratione.—Ad primum
+          <lb ed="#P" n="46"/>incommodum in n. 3, respondet Augustinus.
+          <lb ed="#P" n="47"/>—Ultimo probatur ratione haec sententia. 
+          Pri<lb break="no" ed="#P" n="48"/>mo a priori, quia naturale est hominibus, ut
+          <lb ed="#P" n="49"/>per generationem unius ab alio 
+          multiplicen<lb break="no" ed="#P" n="50"/>tur: sed hic modus servari potuit in statu 
+          inno<lb break="no" ed="#P" n="51"/>centiae, salva perfectione illius status: ergo ita
+          <lb ed="#P" n="52"/>fieret. Consequentia est evidens, quia per 
+          pec<lb break="no" ed="#P" n="53"/>catum non est immutata natura, nisi in his,
+          <lb ed="#P" n="54"/>quae poenalia sunt: vel e contrario ante 
+          pecca<lb break="no" ed="#P" n="55"/>tum non est natura privata suis naturalibus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>actionibus, sed adjuta, ut sine indecentia, vel
+          <lb ed="#P" n="57"/>morali defectu illas exercere posset. Major
+          <lb ed="#P" n="58"/>etiam ex Philosophia nota est. Minorem autem
+          <lb ed="#P" n="59"/>probat Augustinus supra excludendo tres 
+          de<lb break="no" ed="#P" n="60"/>fectus in principio a nobis tactos. Primus erat
+          <lb ed="#P" n="61"/>de nimia delectatione. Respondet autem quod
+          <lb ed="#P" n="62"/>virtute doni innocentise seu originalis justitiae
+          <lb ed="#P" n="63"/>haec imperfectio cohiberetur. Quia ante 
+          copu<lb break="no" ed="#P" n="64"/>lam non antecederet motus involuntarius, aut
+          <lb ed="#P" n="65"/>impudicus membrorum, sed ex motione 
+          volun<lb break="no" ed="#P" n="66"/>tatis honestae, et propter finem optimum, sine
+          <lb ed="#P" n="67"/>ardore libidinis, talis motus fieret. Et similiter
+          <lb ed="#P" n="68"/>in ipsomet actu conjugii Deus excessum 
+          libi<lb break="no" ed="#P" n="69"/>dinis temperaret, et solum delectationem 
+          con<lb break="no" ed="#P" n="70"/>venientem ad perfectionem actus permitteret:
+          <lb ed="#P" n="71"/>unde talis, ac tanta esset, ut mentem non 
+          per<lb break="no" ed="#P" n="72"/>turbaret, nec rationis usum perfectum 
+          impe<lb break="no" ed="#P" n="73"/>diret.
+        </p>
+        <p xml:id="szdada-y09545-d1e907">
+          <lb ed="#P" n="74"/>11. Ad secundum idem Augustini quem divus
+          <lb ed="#P" n="75"/>Thomas sequitur. — Opponitur primo contra
+          <lb ed="#P" n="76"/>proaimam responsionem. — Secundus defectus
+          <lb ed="#P" n="77"/>erat ruptio virginalis claustri in ipsa 
+          concep<lb break="no" ed="#P" n="78"/>tione: de quo etiam ait Augustinus, dicto 
+          ca<lb break="no" ed="#P" n="79"/>pite vigesimo sexto, potuisse semen immitti
+          <lb ed="#P" n="80"/>intra uterum foeminse, et conceptum fieri, 
+          sal<lb break="no" ed="#P" n="81"/>va integritate claustri virginalis. S'icut (inquit)
+          <lb ed="#P" n="82"/>sanguis menstruus emittitur. Nam qua via
+          <lb ed="#P" n="83"/>sanguis egreditur, possetl semen virile ingredi.
+          <lb ed="#P" n="84"/>Et sequitur D. Thomas supra ad 4. Sed haec
+          <lb ed="#P" n="85"/>responsio difficilis est. Primo, quia non est 
+          si<lb break="no" ed="#P" n="86"/>mile de exitu sanguinis menstrui, et de 
+          semi<lb break="no" ed="#P" n="87"/>nis ingressu: quia sanguinis ille egreditur de
+          <lb ed="#P" n="88"/>corpore foeminae per venas proprias ad illam
+          <lb ed="#P" n="89"/>purgationem a natura deputatas, quae in 
+          su<lb break="no" ed="#P" n="90"/>perficie vasis foeminei terminantur, habentque
+          <lb ed="#P" n="91"/>veluti propria orificia, quae cum ordinarie
+          <lb ed="#P" n="92"/>clausa sint et quasi comphcata, debitis 
+          tem<lb break="no" ed="#P" n="93"/>poribus reserantur et quasi dilatantur, ut ille
+          <lb ed="#P" n="94"/>sanguis exeat, quod in virginibus absque ulla
+          <lb ed="#P" n="95"/>laesione, et sine dilatatione ciaustri virginalis
+          <lb ed="#P" n="96"/>optime fieri potest. At vero longe diversa ratio
+          <lb ed="#P" n="97"/>est de ingressu seminis. Nam imprimis in 
+          eor<lb break="no" ed="#P" n="98"/>pore foeminae, ut in sua integritate et naturali
+          <lb ed="#P" n="99"/>compositione nascitur, non est aliqua via 
+          ex<lb break="no" ed="#P" n="100"/>pedita et aperta, per quam ingredi possit: quia
+          <lb ed="#P" n="101"/>partes foeminei corporis in illa via ita sunt
+          <lb ed="#P" n="102"/>compactae vel continuae, ut nihil possit per illas
+          <lb ed="#P" n="103"/>penetrare, nisi inter illas aperiatur via, per
+          <lb ed="#P" n="104"/>quam semen ingredi possit. Accedit quod 
+          se<lb break="no" ed="#P" n="105"/>men non potest, quasi extrinsecus injici, seu
+          <lb ed="#P" n="106"/>immitti in matricem, qui est locus 
+          conceptio<lb break="no" ed="#P" n="107"/>nis, sed necessaria est commixtio membrorum
+          <lb ed="#P" n="108"/>in foemineo vase, ut ipsamet naturalis 
+          mem<lb break="no" ed="#P" n="109"/>brorum forma et compositio ostendit. At vero
+          <lb ed="#P" n="110"/>non potest illa commixtio et penetratio fieri
+          <pb ed="#P" n="384"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>naturaliter, nisi virginale claustrum reseretur,
+          <lb ed="#P" n="2"/>sive per divisionem alicujus membranae, quae
+          <lb ed="#P" n="3"/>ante copulam erat continua, et viam illam
+          <lb ed="#P" n="4"/>claudebat: sive per separationem et 
+          dissolu<lb break="no" ed="#P" n="5"/>tionem partium corporis foeminae, quae antea
+          <lb ed="#P" n="6"/>erant non solum contiguae, sed etiam veluti
+          <lb ed="#P" n="7"/>conglutinatae et inter se copulatae: ut exponit
+          <lb ed="#P" n="8"/>Fernelius, de Part. corp. descript., cap. 7, in
+          <lb ed="#P" n="9"/>fine. Quia sine hujusmodi veluti locali 
+          separa<lb break="no" ed="#P" n="10"/>tione et distantia partium non pateret 
+          natura<lb break="no" ed="#P" n="11"/>liter via ad commixtionem membrorum, quae
+          <lb ed="#P" n="12"/>in copula conjugali fit, et per quam vir et uxor
+          <lb ed="#P" n="13"/>fiunt una caro.
+        </p>
+        <p xml:id="szdada-y09545-d1e1022">
+          <lb ed="#P" n="14"/>12. Secundo augetur vis hujus rationis, quia
+          <lb ed="#P" n="15"/>in partu prolis conceptae multo magis 
+          neces<lb break="no" ed="#P" n="16"/>sarium est claustrum virginale aperiri: nihil
+          <lb ed="#P" n="17"/>ergo obesse posset, quin in conceptione 
+          rum<lb break="no" ed="#P" n="18"/>peretur. Probatur consequentia, quia si propter
+          <lb ed="#P" n="19"/>vitandum dolorem, vel conservandam 
+          virgini<lb break="no" ed="#P" n="20"/>tatem (ut ita dicam) materialem in conceptione,
+          <lb ed="#P" n="21"/>servaretur illa integritas, esset etiam servanda
+          <lb ed="#P" n="22"/>in partu, quia non minus repugnabant illa 
+          in<lb break="no" ed="#P" n="23"/>commoda perfectioni status innocentiae in uno
+          <lb ed="#P" n="24"/>actu vel tempore, quam in alio, vel e contrario,
+          <lb ed="#P" n="25"/>si in partu esse poterat ruptio sine 
+          imperfec<lb break="no" ed="#P" n="26"/>tione contraria statui, etiam in conceptu. Imo
+          <lb ed="#P" n="27"/>si apertio claustri necessaria futura erat, ut
+          <lb ed="#P" n="28"/>proles exiret, profecto suaviori modo, 
+          magis<lb break="no" ed="#P" n="29"/>que naturali pararetur via in ipsa conceptione,
+          <lb ed="#P" n="30"/>ut facilius possent membra in partu laxari, ut
+          <lb ed="#P" n="31"/>sine dolore fieret. Quod vero saltem in partu
+          <lb ed="#P" n="32"/>virginalis claustri apertio fuerit necessaria,
+          <lb ed="#P" n="33"/>probatur, quia exitus pueri ex virgine integra
+          <lb ed="#P" n="34"/>manente matre, sine grandi miraculo fieri non
+          <lb ed="#P" n="35"/>potest utique aut per corporum penetrationem,
+          <lb ed="#P" n="36"/>aut per transitum corporis ab extremo ad 
+          ex<lb break="no" ed="#P" n="37"/>tremum sine praesentia in medio. At vero tale
+          <lb ed="#P" n="38"/>miraculum perpetuum in statu innocentiae 
+          fin<lb break="no" ed="#P" n="39"/>gere, nec fundamentum habet, neque videtur
+          <lb ed="#P" n="40"/>verisimile.
+        </p>
+        <p xml:id="szdada-y09545-d1e1083">
+          <lb ed="#P" n="41"/>13. Durandi effugium evertitur. — 
+          Commo<lb break="no" ed="#P" n="42"/>dior responsio ad dictum secundwmn 
+          incommo<lb break="no" ed="#P" n="43"/>dum.—DbDicunt vero aliqui, potuisse per solam
+          <lb ed="#P" n="44"/>partium et pororum materni corporis 
+          dilata<lb break="no" ed="#P" n="45"/>tionem infantem de utero matris exire sine 
+          in<lb break="no" ed="#P" n="46"/>tegritatis ejus diminutione. Quod tradit 
+          Du<lb break="no" ed="#P" n="47"/>randus, in 2, dist. 20, q. 2, ad 1, et clarius in
+          <lb ed="#P" n="48"/>4, dist. 44, quaest. 6, ad 1, ubi de virginitate
+          <lb ed="#P" n="49"/>Mariae in partu eodem modo sentit. Ibi autem
+          <lb ed="#P" n="50"/>ex falso fundamento movetur, quia putat duo
+          <lb ed="#P" n="51"/>corpora non posse simul se in eodem loco 
+          pe<lb break="no" ed="#P" n="52"/>netrare, quod falsum est. Et ideo sententiam
+          <lb ed="#P" n="53"/>illam quantum ad beatissimae Virginis partum
+          <lb ed="#P" n="54"/>improbavimus in 2 tom., 3 p., disp. 5, sect.2.
+          <lb ed="#P" n="55"/>In praesenti vero alio utitur fundamento, sci-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>licet, quia divisio claustri non posset fieri sine
+          <lb ed="#P" n="57"/>dolore, dolor autem in statu innocentiae esse
+          <lb ed="#P" n="58"/>non potest. Sed hoc parum urget: nam etiam
+          <lb ed="#P" n="59"/>post amissam in conceptione corporalem 
+          vir<lb break="no" ed="#P" n="60"/>ginitatem, quoad carnis integritatem non 
+          po<lb break="no" ed="#P" n="61"/>test partus fieri sine dolore naturaliter: et
+          <lb ed="#P" n="62"/>nihilominus in statu innocentia sine dolore
+          <lb ed="#P" n="63"/>fieret, ut mox dicemus: ergo etiam a tertio
+          <lb ed="#P" n="64"/>claustri sine dolore virtute divina fieri poterat.
+          <lb ed="#P" n="65"/>Praeterea si virginale claustrum per 
+          membra<lb break="no" ed="#P" n="66"/>nam continuam naturaliter clauditur, non 
+          pos<lb break="no" ed="#P" n="67"/>set intelligi exitus prolis per solam 
+          dilatatio<lb break="no" ed="#P" n="68"/>nem sine divisione partium, vel penetratione
+          <lb ed="#P" n="69"/>corporum: quia pori non possent adeo dilatari,
+          <lb ed="#P" n="70"/>ut per eos possit corpus infantis exire sine 
+          pe<lb break="no" ed="#P" n="71"/>netratione partium, vel sui corporis inter se,
+          <lb ed="#P" n="72"/>vel cum partibus materni corporis. Si autem
+          <lb ed="#P" n="73"/>corporalis virginitas consistit in contiguitate
+          <lb ed="#P" n="74"/>et copulatione partium, non minus est 
+          natu<lb break="no" ed="#P" n="75"/>raliter necessaria separatio et distinctio illarum
+          <lb ed="#P" n="76"/>partium, quae sine magno etiam dolore 
+          natu<lb break="no" ed="#P" n="77"/>raliter non fit, non solum in primo partu, 
+          ve<lb break="no" ed="#P" n="78"/>rum etiam neque in caeteris. Ergo et repugnat
+          <lb ed="#P" n="79"/>dicere partum fuisse futurum per dilatationem
+          <lb ed="#P" n="80"/>partium, et sine apertione claustri virginalis.
+          <lb ed="#P" n="81"/>Et praeterea eadem difficultas superest 
+          quomo<lb break="no" ed="#P" n="82"/>do partus sine dolore futurus esset: nullum
+          <lb ed="#P" n="83"/>ergo est inconveniens divisionem, vel 
+          separa<lb break="no" ed="#P" n="84"/>tionem illam in statu innocentiae admittere tam
+          <lb ed="#P" n="85"/>in conceptione, quam in partu. Et ita tenuit
+          <lb ed="#P" n="86"/>D. Thomas, in 2, dist. 20, ubi Bonaventura,
+          <lb ed="#P" n="87"/>Gabriel et alii id sequuntur. Quomodo autem
+          <lb ed="#P" n="88"/>id fieret sine dolore, jam explico.
+        </p>
+        <p xml:id="szdada-y09545-d1e1192">
+          <lb ed="#P" n="89"/>14. Ad tertium incommodum idem quoque
+          <lb ed="#P" n="90"/>Augustinus occurrit. — Quid dicendum ad 
+          re<lb break="no" ed="#P" n="91"/>liqua adducta in n. 4, etc. — Tertium 
+          incom<lb break="no" ed="#P" n="92"/>modum erat, quia partus naturalis sine dolore
+          <lb ed="#P" n="93"/>non fit. Ad hoc autem respondet Augustinus,
+          <lb ed="#P" n="94"/>dicto cap. 26, in Paradiso dolorem partus non
+          <lb ed="#P" n="95"/>fuisse futurum. Quia ad pariendum maturitatis
+          <lb ed="#P" n="96"/>impulsus foeminea viscera relavaret. Explicari
+          <lb ed="#P" n="97"/>autem potest in hunc modum, quia sola 
+          rela<lb break="no" ed="#P" n="98"/>xatio maternorum viscerum, aut viarum 
+          cor<lb break="no" ed="#P" n="99"/>poris dilatatio non causat dolorem, nisi media
+          <lb ed="#P" n="100"/>aliqua alteratione, quae in partibus illis per
+          <lb ed="#P" n="101"/>nimiam compressionem quarumdam, et 
+          alia<lb break="no" ed="#P" n="102"/>rum separationem, vel extensionem fit: hanc
+          <lb ed="#P" n="103"/>autem alterationem posset Deus facile 
+          impe<lb break="no" ed="#P" n="104"/>dire, et consequenter etiam dolorem 
+          praeca<lb break="no" ed="#P" n="105"/>vere ; imo etiam posset suavi modo partes 
+          foe<lb break="no" ed="#P" n="106"/>mineli corporis per convenientes quahtates ita
+          <lb ed="#P" n="107"/>disponere, ut facile relaxarentur sine doloris
+          <lb ed="#P" n="108"/>sensu. Quod licet esset praeter debitum naturae
+          <lb ed="#P" n="109"/>humanae absolute spectatae, esset nihilominus
+          <lb ed="#P" n="110"/>illi statui quasi connaturale, ac debitum, sicut
+          <pb ed="#P" n="385"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>multa alia privilegia, quae in superioribus 
+          ex<lb break="no" ed="#P" n="2"/>plicavimus. Et per haec responsum est 
+          sufti<lb break="no" ed="#P" n="3"/>cienter rationibus dubitandi in principio 
+          posi<lb break="no" ed="#P" n="4"/>tis, ac fundamentis contrariae sententiae. In eis
+          <lb ed="#P" n="5"/>vero peculiaris difficultas attingitur de 
+          virgini<lb break="no" ed="#P" n="6"/>tate, an esset in statu innocentiae conservanda
+          <lb ed="#P" n="7"/>vel amittenda, quam ex parte, et obiter, ac
+          <lb ed="#P" n="8"/>cursim attingimus: quia vero gravis est et scitu
+          <lb ed="#P" n="9"/>digna, illam integre ac ex professo in capite
+          <lb ed="#P" n="10"/>sequenti tractabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

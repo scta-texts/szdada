@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="783"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y19283"><!-- t3l6c2 -->
+        <head xml:id="szdada-y19283-Hd1e101">Caput 2</head>
+        <head xml:id="szdada-y19283-Hd1e103" type="question-title">Quomodo anima separata sit in loco, et moveatur</head>
+        <p xml:id="szdada-y19283-d1e106">
+          <lb ed="#P" n="105"/>CAPUT II.
+          <lb ed="#P" n="106"/>QUOMODO ANIMA SEPARATA SIT IN LOCO, ET
+          <lb ed="#P" n="107"/>MOVEATUR.
+        </p>
+        <p xml:id="szdada-y19283-d1e115">
+          <lb ed="#P" n="108"/>1. Ratio alterutrius partis. — Quando de
+          <pb ed="#P" n="784"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>substantia animae separatae dictum est, 
+          agen<lb break="no" ed="#P" n="2"/>dum sequebatur de conditione illius status, an
+          <lb ed="#P" n="3"/>scilicet naturalis ei sit, vel violentus, quia 
+          ta<lb break="no" ed="#P" n="4"/>men hoc pendet ex multis, quae in sequentibus
+          <lb ed="#P" n="5"/>tractanda sunt, commodius de hoc agetur in
+          <lb ed="#P" n="6"/>fine libri: nunc antequam deveniamus ad 
+          po<lb break="no" ed="#P" n="7"/>tentias, et actus animae separatae, dicendum
+          <lb ed="#P" n="8"/>de motu illius, et existentia in loco, videtur
+          <lb ed="#P" n="9"/>enim non posse in loco existere. Ratio enim
+          <lb ed="#P" n="10"/>essendi in loco est quantitas, anima vero 
+          quan<lb break="no" ed="#P" n="11"/>titate caret: similique ratione videtur non
+          <lb ed="#P" n="12"/>posse moveri localiter, quia motus localis 
+          exi<lb break="no" ed="#P" n="13"/>stentiam in loco supponit, et ad illum tendit:
+          <lb ed="#P" n="14"/>de aliis autem motibus nutritionis, accretionis,
+          <lb ed="#P" n="15"/>etc., certum est eos non convenire animae 
+          se<lb break="no" ed="#P" n="16"/>paratae: ergo, etc. In contrarium est, quia 
+          di<lb break="no" ed="#P" n="17"/>cimus animas esse in coelo, aut inferno, per
+          <lb ed="#P" n="18"/>quod significamus eas in loco existere, et cum
+          <lb ed="#P" n="19"/>separantur a corpore, ad illa loca moveri 
+          cre<lb break="no" ed="#P" n="20"/>dimus, imo fides docet, animam Christi 
+          des<lb break="no" ed="#P" n="21"/>cendisse ad infernos.
+        </p>
+        <p xml:id="szdada-y19283-d1e170">
+          <lb ed="#P" n="22"/>2. Notatio prima pro resolutione. — 
+          Notan<lb break="no" ed="#P" n="23"/>dum primo locum in rigore philosophorum
+          <lb ed="#P" n="24"/>pertinere ad substantias quantitate praeditas,
+          <lb ed="#P" n="25"/>et ideo commune axioma sapientum esse, 
+          in<lb break="no" ed="#P" n="26"/>corporea in loco non esse. At enim quia esse
+          <lb ed="#P" n="27"/>hic, vel alibi tribuitur etiam spiritualibus 
+          sub<lb break="no" ed="#P" n="28"/>stantiis, merito quaeritur, quidnam in illis
+          <lb ed="#P" n="29"/>hoc significet, quod licet non sit ejusdem 
+          ra<lb break="no" ed="#P" n="30"/>tionis cum ubi corporalium, sit tamen aliquid
+          <lb ed="#P" n="31"/>illi proportionale.
+        </p>
+        <p xml:id="szdada-y19283-d1e195">
+          <lb ed="#P" n="32"/>3. Notatio secunda, in Metaphysica, disp. 35,
+          <lb ed="#P" n="33"/>sect. 4, n. 25. — Consule auctorem, in 3. p.,
+          <lb ed="#P" n="34"/>L. 2, disp. 19, sect. 2, S Cum igitur. — 
+          No<lb break="no" ed="#P" n="35"/>tandum est secundo, animam separatam 
+          natu<lb break="no" ed="#P" n="36"/>raliter loquendo sortiri non posse circa corpora
+          <lb ed="#P" n="37"/>actionem, aut passionem ullam, quia cum
+          <lb ed="#P" n="38"/>spiritualis sit a corporibus pati non potest:
+          <lb ed="#P" n="39"/>cum vero sit pars compositi, et imperfectum
+          <lb ed="#P" n="40"/>quippiam, actionem circa corpora exercere
+          <lb ed="#P" n="41"/>non valet, si quam enim, localem maxime 
+          mo<lb break="no" ed="#P" n="42"/>tionem ederet, hanc vero non posse ostenditur,
+          <lb ed="#P" n="43"/>quia spirituahs res non potest movere 
+          corpo<lb break="no" ed="#P" n="44"/>ralem, nisi, aut informando illam, aut quasi
+          <lb ed="#P" n="45"/>exterius impellendo. Primo quidem modo
+          <lb ed="#P" n="46"/>corpus nostrum movet anima, quo certe modo
+          <lb ed="#P" n="47"/>non potest movere quidquam, quando 
+          sepa<lb break="no" ed="#P" n="48"/>rata existit, cum nihil informat. Secundo
+          <lb ed="#P" n="49"/>modo movent plane Angeli corpora, non 
+          ve<lb break="no" ed="#P" n="50"/>ro anima, quia ad actiones mere externas,
+          <lb ed="#P" n="51"/>qualis est motus in rem alteram, non nisi 
+          me<lb break="no" ed="#P" n="52"/>dio corpore, quasi exteriori instrumento potest
+          <lb ed="#P" n="53"/>exire, cum natura sua interna sit forma 
+          cor<lb break="no" ed="#P" n="54"/>poris. Dixi naturaliter, quoniam 
+          supernatura<lb break="no" ed="#P" n="55"/>liter potest anima a corpore pati, ut apud in-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>feros: potest etiam movere corpus, ut anima
+          <lb ed="#P" n="57"/>Moysis, Matth. 17, corpus assumpsit, et in illo
+          <lb ed="#P" n="58"/>loquebatur in transfiguratione, uti docet divus
+          <lb ed="#P" n="59"/>Thomas, 3. p., q. 54, a. 3, ad 2, Abulensis,
+          <lb ed="#P" n="60"/>Matth. 17, q. 54et 55, D. Gregorius 4, 
+          Dialo<lb break="no" ed="#P" n="61"/>gorum, referens plerasque animas apparuisse,
+          <lb ed="#P" n="62"/>locutasque fuisse in corporibus, quod divina
+          <lb ed="#P" n="63"/>virtute fecisse, et non naturaliter, docet D.
+          <lb ed="#P" n="64"/>Thomas supra, et 1 p., q. 110, a.3, et q. 117,
+          <lb ed="#P" n="65"/>art. 4. Unde falsus est /Egidius, quodlibeto 4,
+          <lb ed="#P" n="66"/>q. 7, tribuens animae separatae virtutem 
+          natu<lb break="no" ed="#P" n="67"/>ralem ad movendum corpora.
+        </p>
+        <p xml:id="szdada-y19283-d1e278">
+          <lb ed="#P" n="68"/>4. Assertio pro qua vide auctorem in 3 p.,
+          <lb ed="#P" n="69"/>l. 1, disp. 43, sect. 2. —His positis, sit prima
+          <lb ed="#P" n="70"/>conclusio. Concedendum aliquo modo est 
+          ani<lb break="no" ed="#P" n="71"/>mas separatas esse in loco, licet non eo modo,
+          <lb ed="#P" n="72"/>quo res corporales, nam secundum fidem 
+          par<lb break="no" ed="#P" n="73"/>tim in coelo sunt, partim in inferno et 
+          purga<lb break="no" ed="#P" n="74"/>torio. Nec solum dicendum est esse in coelo,
+          <lb ed="#P" n="75"/>id est, beatas esse: constat quippe in loco illo
+          <lb ed="#P" n="76"/>deputatio praemium bonorum, vel malorum
+          <lb ed="#P" n="77"/>operum a Deo recipere. Item Deus dicitur 
+          ali<lb break="no" ed="#P" n="78"/>quo modo esse in loco, celum et terram ego
+          <lb ed="#P" n="79"/>impleo, Jerem. 23, et Angeli simpliciter: ergo
+          <lb ed="#P" n="80"/>et anima separata in loco esse recte dicetur.
+        </p>
+        <p xml:id="szdada-y19283-d1e309">
+          <lb ed="#P" n="81"/>5. Secunda assertio. — Secunda conclusio.
+          <lb ed="#P" n="82"/>Anima non est in loco per aliquam actionem,
+          <lb ed="#P" n="83"/>vel passioncm, neque per applicationem 
+          vir<lb break="no" ed="#P" n="84"/>tutis ad agendum, vel patiendum. Probatur.
+          <lb ed="#P" n="85"/>Imprimis enim anima in loco non est per 
+          ac<lb break="no" ed="#P" n="86"/>tionem immanentem, intellectionem scilicet,
+          <lb ed="#P" n="87"/>aut volitionem, quia talis actio omnino 
+          inde<lb break="no" ed="#P" n="88"/>pendens est a loco, nec per illam anima 
+          ordi<lb break="no" ed="#P" n="89"/>natur ad locum, cum sit actio mere interior
+          <lb ed="#P" n="90"/>et spiritualis. Deinde neque anima in loco est
+          <lb ed="#P" n="91"/>per actionem transeuntem, ut patet ex 
+          se<lb break="no" ed="#P" n="92"/>cundo notabili in num. 3. Quia naturaliter
+          <lb ed="#P" n="93"/>nullam actionem, vel passionem transeuntem
+          <lb ed="#P" n="94"/>potest habere, et tamen naturaliter potest esse
+          <lb ed="#P" n="95"/>in loco suo modo, et de facto animae, quae
+          <lb ed="#P" n="96"/>sunt in coelo empyreo, nullam actionem 
+          tran<lb break="no" ed="#P" n="97"/>seuntem habent circa illud, cum nec illud 
+          lo<lb break="no" ed="#P" n="98"/>caliter moveant, nec alterent, nec ab eo aliquid
+          <lb ed="#P" n="99"/>patiantur. Similiter, quae in limbo detinentur,
+          <lb ed="#P" n="100"/>nullam actionem transeuntem, vel passionem
+          <lb ed="#P" n="101"/>habent, non enim poena sensus afficiuntur.
+          <lb ed="#P" n="102"/>Ex quibus colligitur neque animas damnatas
+          <lb ed="#P" n="103"/>in loco esse per passionem illam tormentorum,
+          <lb ed="#P" n="104"/>quod etiam probatur, quia licet non 
+          pateren<lb break="no" ed="#P" n="105"/>tur, possent intelligi ibi existere: non ergo
+          <lb ed="#P" n="106"/>per passionem sunt primo, et per se: et 
+          con<lb break="no" ed="#P" n="107"/>firmatur. Quando enim res alicubi patitur,
+          <lb ed="#P" n="108"/>non ideo .5i est, quia ibi patitur, sed potius
+          <lb ed="#P" n="109"/>e contra. Nam, et animae damnatorum ideo
+          <lb ed="#P" n="110"/>in inferno existunt, ut ibi patiantur: non
+          <pb ed="#P" n="785"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ergo est anima per actionem vel passionem in
+          <lb ed="#P" n="2"/>loco, nec per applicationem virtutis, quia si
+          <lb ed="#P" n="3"/>illam virtutem transeunter agendi non habet,
+          <lb ed="#P" n="4"/>applicare illam non potest, de Angelis vero
+          <lb ed="#P" n="5"/>id disputandum suo loco relinquimus.
+        </p>
+        <p xml:id="szdada-y19283-d1e392">
+          <lb ed="#P" n="6"/>6. Tertia assertio. — Habetur jam doctrina
+          <lb ed="#P" n="7"/>haec de praesentia, scu ubi substantie spiritualis,
+          <lb ed="#P" n="8"/>l. 4, de Ang.. a principio.—Tertia conclusio.
+          Ani<lb break="no" ed="#P" n="9"/>ma separata per praesentiam tantum suae 
+          sub<lb break="no" ed="#P" n="10"/>stantiae est in loco. Probatur: quia in 
+          substan<lb break="no" ed="#P" n="11"/>tia spirituali inveniuntur solum substantia,
+          <lb ed="#P" n="12"/>potentia et actiones, sed ostensum est animam
+          <lb ed="#P" n="13"/>separatam non esse in loco per virtutem, nec
+          <lb ed="#P" n="14"/>per actionem: ergo sola restat praesentia suae
+          <lb ed="#P" n="15"/>substantiae, per quam in loco esse possit. 
+          Ex<lb break="no" ed="#P" n="16"/>plicatur conclusio: nam anima parvuli 
+          dece<lb break="no" ed="#P" n="17"/>dentis in originali dicitur in limbo esse, quia
+          <lb ed="#P" n="18"/>substantia animae illius ibidem praesentialiter
+          <lb ed="#P" n="19"/>concluditur, ita ut si videri possit illi spatio
+          <lb ed="#P" n="20"/>praesens, et non alteri videretur, ac per 
+          condi<lb break="no" ed="#P" n="21"/>tionalem ita explicatur, si talis anima esset,
+          <lb ed="#P" n="22"/>quanta repleret sua praesentia illum locum et
+          <lb ed="#P" n="23"/>non alium: si passibilis esset ab agente, ibi
+          <lb ed="#P" n="24"/>praesente pateretur et non ab aliis. Item per
+          <lb ed="#P" n="25"/>relationem, nam anima, quae in limbo est,
+          <lb ed="#P" n="26"/>vere distat ab anima, quae apud nos est, et
+          <lb ed="#P" n="27"/>propinqua est animae alteri in limbo forte 
+          exi<lb break="no" ed="#P" n="28"/>stenti. Denique exemplo explicatur. Si enim
+          <lb ed="#P" n="29"/>Deus ab aqua in vase auferret quantitatem ,
+          <lb ed="#P" n="30"/>neque permitteret illam localiter moveri, ea
+          <lb ed="#P" n="31"/>certe ablata quantitate, non existeret proprie
+          <lb ed="#P" n="32"/>localiter in vase, cum non repleret ulud, 
+          ta<lb break="no" ed="#P" n="33"/>men vere esset ibi per praesentiam substantiae
+          <lb ed="#P" n="34"/>penetrative cum corpore illuc subintrante: per
+          <lb ed="#P" n="35"/>similem ergo suae substantiae praesentiam, 
+          mo<lb break="no" ed="#P" n="36"/>dumve locali mutatione ab ipsa substantia 
+          ac<lb break="no" ed="#P" n="37"/>quisibilem, et amissibilem dicuntur animae 
+          se<lb break="no" ed="#P" n="38"/>paratae in loco esse. Atque haec conclusio, 
+          quo<lb break="no" ed="#P" n="39"/>niam aeque de Angelorum modo essendi in loco
+          <lb ed="#P" n="40"/>procedit, suo loco uberius explicatur.
+        </p>
+        <p xml:id="szdada-y19283-d1e470">
+          <lb ed="#P" n="41"/>7. Quarta assertio. — Hinc vero colligitur
+          <lb ed="#P" n="42"/>jam quarta conclusio. Anima separata etiam
+          <lb ed="#P" n="43"/>aliquo modo localiter movetur, dum 
+          substan<lb break="no" ed="#P" n="44"/>tiae praesentiam mutat. Ita patet ex illo 
+          argu<lb break="no" ed="#P" n="45"/>mento, quod anima Christi descendit ad 
+          infe<lb break="no" ed="#P" n="46"/>ros, et animae sanctae deferuntur ad coelos,
+          <lb ed="#P" n="47"/>damnatae vero ad inferos, quae omnia pertinent
+          <lb ed="#P" n="48"/>ad motum localem. Item, quia esse in loco, et
+          <lb ed="#P" n="49"/>mutare locum se mutuo consequuntur in 
+          sub<lb break="no" ed="#P" n="50"/>stantiis, quae non replent omnia loca, 
+          cujus<lb break="no" ed="#P" n="51"/>modi sunt creatae omnes: quare, etc.
+        </p>
+        <p xml:id="szdada-y19283-d1e496">
+          <lb ed="#P" n="52"/>8. Quaestiunculae subortae pars altera 
+          sua<lb break="no" ed="#P" n="53"/>detur tripliciter.—Verior enodatio. — Dubium
+          <lb ed="#P" n="54"/>tamen est, an anima separata possit se mutare
+          <lb ed="#P" n="55"/>a loco in locum, an necessario debeat, ab alio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>deferri. Quidam affirmant hoc posterius, et
+          <lb ed="#P" n="57"/>confirmant primo ex illo Luc. 16: Quod 
+          men<lb break="no" ed="#P" n="58"/>dicus portatus sit ab Angelo in sinum Abrahae.
+          <lb ed="#P" n="59"/>Secundo, quia alias anima si vellet posset 
+          egre<lb break="no" ed="#P" n="60"/>di a corpore. Tertio, quia animae separatae 
+          li<lb break="no" ed="#P" n="61"/>bere possent ad nos venire. Verius tamen
+          <lb ed="#P" n="62"/>multo est, animam separatam habere virtutem
+          <lb ed="#P" n="63"/>se movendi. Namque in corpore virtutem 
+          mo<lb break="no" ed="#P" n="64"/>tivam possidet, eamque corpori communicat :
+          <lb ed="#P" n="65"/>ergo et separata eam habebit suo modo, cur
+          <lb ed="#P" n="66"/>enim illam amittet: Praeterea animae nostrae
+          <lb ed="#P" n="67"/>separatae possent inter se naturaliter sociatim
+          <lb ed="#P" n="68"/>vivere, hoc enim proprium est creaturae 
+          ratio<lb break="no" ed="#P" n="69"/>nalis: ergo possent mutare locum, alias 
+          per<lb break="no" ed="#P" n="70"/>petuo manerent in certo loco, quod est 
+          imper<lb break="no" ed="#P" n="71"/>fectio conchyliorum, ac similium 
+          imperfectis<lb break="no" ed="#P" n="72"/>simum gradum vitae possidentium: at vita 
+          ani<lb break="no" ed="#P" n="73"/>mae nostraeseparatae perfectissima est: ergo, etc.
+        </p>
+        <p xml:id="szdada-y19283-d1e549">
+          <lb ed="#P" n="74"/>9. Ad primum in n. prec. — Ad secundum.
+          <lb ed="#P" n="75"/>— Ad tertium. — Ad illud Lucae 16, 
+          responde<lb break="no" ed="#P" n="76"/>tur notando, animas in instanti separationis a
+          <lb ed="#P" n="77"/>corpore agnoscere, utrum coelo, vel inferno
+          <lb ed="#P" n="78"/>deputentur vel etiam purgatorio. Unde simul
+          <lb ed="#P" n="79"/>ac id cognoscunt propria virtute, illuc 
+          moven<lb break="no" ed="#P" n="80"/>tur, honoris tamen gratia sociantur animae
+          <lb ed="#P" n="81"/>justae ab Angelis, saltem a custode, quo 
+          qui<lb break="no" ed="#P" n="82"/>dem modo deportata fuit anima Lazari, animae
+          <lb ed="#P" n="83"/>vero deputatae ad infernum vi daemonum illuc
+          <lb ed="#P" n="84"/>deferuntur. Ad primam rationem dic, sicut
+          <lb ed="#P" n="85"/>anima non potest, cum vult, uniri ad corpus,
+          <lb ed="#P" n="86"/>sed per naturalem tantum generationem, ita
+          <lb ed="#P" n="87"/>nec potest ab eo dissolvi, nisi per naturalem
+          <lb ed="#P" n="88"/>corruptionem, quia etsi illa propriam et 
+          spiri<lb break="no" ed="#P" n="89"/>tualem potentiam sui motivam habeat, tamen
+          <lb ed="#P" n="90"/>dum in corpore adsunt dispositiones ad 
+          infor<lb break="no" ed="#P" n="91"/>mandum necessariae, ita est per naturalem
+          <lb ed="#P" n="92"/>unionem veluti religata, ut nequeat aliter sese
+          <lb ed="#P" n="93"/>movere quam moto simul per potentiam 
+          mate<lb break="no" ed="#P" n="94"/>rialem corpore. Unde nec prius deserere 
+          cor<lb break="no" ed="#P" n="95"/>pus poterit quam dissolvantur dispositiones:
+          <lb ed="#P" n="96"/>ex eo tantum quod naturalis ejus forma sit, et
+          <lb ed="#P" n="97"/>consequenter illa unio nullo modo libera. Ad
+          <lb ed="#P" n="98"/>secundam responde, animas separatas 
+          regula<lb break="no" ed="#P" n="99"/>riter ex lege Dei a suis receptaculis non egredi,
+          <lb ed="#P" n="100"/>vel quia invite detinentur, vel quia libere 
+          obe<lb break="no" ed="#P" n="101"/>diunt divinae voluntati: aliquando huc venire,
+          <lb ed="#P" n="102"/>quem eventum D. Thomas, 1 p., q. 89, art. 1,
+          <lb ed="#P" n="103"/>ad 2, cum Augustino, lib. de Cura pro 
+          mor<lb break="no" ed="#P" n="104"/>tuis agenda, docet esse inter miracula 
+          compu<lb break="no" ed="#P" n="105"/>tandum. Alia vero hic restabat quaestio, 
+          quo<lb break="no" ed="#P" n="106"/>modo anima moveatur, transeundone ab 
+          ex<lb break="no" ed="#P" n="107"/>tremo ad extremum sine medio, in instanti
+          <lb ed="#P" n="108"/>ne, an in tempore. Sed quaestio communis est
+          <lb ed="#P" n="109"/>in Angelis, et ideo in suum locum 
+          relin<lb break="no" ed="#P" n="110"/>quenda.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

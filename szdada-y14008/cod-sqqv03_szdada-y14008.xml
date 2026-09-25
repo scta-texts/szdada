@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="574"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y14008"><!-- t3l2c2 -->
+        <head xml:id="szdada-y14008-Hd1e101">Caput 2</head>
+        <head xml:id="szdada-y14008-Hd1e103" type="question-title">Utrum potentiae distinguantur per actus, et objecta</head>
+        <p xml:id="szdada-y14008-d1e106">
+          <lb ed="#P" n="84"/>CAPUT II.
+          <lb ed="#P" n="85"/>UTRUM POTENTIAE DISTINGUANTUR PER ACTUS, ET
+          <lb ed="#P" n="86"/>OBJECTA.
+        </p>
+        <p xml:id="szdada-y14008-d1e115">
+          <lb ed="#P" n="87"/>1. Arguitur pro negativa parte. — Habet
+          <lb ed="#P" n="88"/>anima quaelibet diversitatem magnam 
+          opera<lb break="no" ed="#P" n="89"/>tionum, ut discurrendo per singulas facile
+          <lb ed="#P" n="90"/>constare potest, ad quas exercendas diversis
+          <lb ed="#P" n="91"/>indiget potentiis, et distinctis organis quae in
+          <lb ed="#P" n="92"/>viventibus esse experimur: quare postquam
+          <lb ed="#P" n="93"/>dictum est de entitate potentiarum, dicendum
+          <lb ed="#P" n="94"/>sequitur de earum distinctione, quam quidem
+          <lb ed="#P" n="95"/>ex objectis et actibus sumere non videntur.
+          <lb ed="#P" n="96"/>Primo, quia actus et objecta posteriora sunt
+          <lb ed="#P" n="97"/>potentiis et illis multum extrinseca. Secundo,
+          <lb ed="#P" n="98"/>quia distinctivum et constitutivum rei debet
+          <lb ed="#P" n="99"/>esse quod certum et indivisibile; actus autem
+          <lb ed="#P" n="100"/>et objecta, quae ad unam potentiam pertinent,
+          <lb ed="#P" n="101"/>sunt innumeri et diversi: ergo impossibile est
+          <lb ed="#P" n="102"/>ex his sumi unitatem potentiae, aut 
+          distinctio<lb break="no" ed="#P" n="103"/>nem. Tertio specificativum est unum tantum:
+          <lb ed="#P" n="104"/>erit ergo in praesenti specificans potentiam,
+          <lb ed="#P" n="105"/>vel actus, vel objectum, non utrumque; nulla
+          <lb ed="#P" n="106"/>est autem ratio, cur sit potius unum, quam
+          <lb ed="#P" n="107"/>aliud: ergo neutrum erit. Quarto si potentiae
+          <pb ed="#P" n="575"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>distinguerentur per objecta non esset major
+          <lb ed="#P" n="2"/>distinctio in potentiis, quam in objectis, neque
+          <lb ed="#P" n="3"/>e contrario: oppositum autem constat, nam
+          <lb ed="#P" n="4"/>voluntas et intellectus realiter distinguuntur,
+          <lb ed="#P" n="5"/>et tamen eorum objecta tantum distinguuntur
+          <lb ed="#P" n="6"/>ratione: et e contra albedo et nigredo 
+          dis<lb break="no" ed="#P" n="7"/>tinguuntur realiter, tamen potentia ad illas
+          <lb ed="#P" n="8"/>tendens est eadem. Quinto, si per objecta 
+          po<lb break="no" ed="#P" n="9"/>tentiae distinguantur, omnes potentiae, quae
+          <lb ed="#P" n="10"/>idem objectum habent, ejusdem erunt speciei,
+          <lb ed="#P" n="11"/>ut visus equi et hominis, intellectus hominis et
+          <lb ed="#P" n="12"/>Angeli, quod tamen videtur falsum. Sexto, si
+          <lb ed="#P" n="13"/>potentiae specificarentur ab objectis, etiam 
+          ac<lb break="no" ed="#P" n="14"/>tus specificarentur, quia sicut potentiae 
+          versan<lb break="no" ed="#P" n="15"/>tur circa objecta, ita et actus. Consequens
+          <lb ed="#P" n="16"/>autem est falsum: alias potentiae, et actus
+          <lb ed="#P" n="17"/>circa idem objectum ejusdem speciei essent.
+          <lb ed="#P" n="18"/>Septimo, duae potentiae distinctae versari 
+          pos<lb break="no" ed="#P" n="19"/>sunt circa idem objectum: ergo non 
+          distin<lb break="no" ed="#P" n="20"/>guuntur ex objecto. Consequentia clara est :
+          <lb ed="#P" n="21"/>antecedens vero probatur. Nam voluntas et
+          <lb ed="#P" n="22"/>intellectus versantur circa bonum, illa amando,
+          <lb ed="#P" n="23"/>hic cognoscendo. Visus etiam percipit colorem,
+          <lb ed="#P" n="24"/>et phantasia illum imagina:ur. Octavo habitus
+          <lb ed="#P" n="25"/>distinguuntur a potentia specifice, 
+          distinguun<lb break="no" ed="#P" n="26"/>tur autem inter se per actus et objecta: ergo
+          <lb ed="#P" n="27"/>non potentiae. Propatur consequentia, quia
+          <lb ed="#P" n="28"/>duae res distinctae speciei non possunt habere
+          <lb ed="#P" n="29"/>idem specificans, aut distinctivum.
+        </p>
+        <p xml:id="szdada-y14008-d1e230">
+          <lb ed="#P" n="30"/>2. Prima assertio principalis affirmativa
+          <lb ed="#P" n="31"/>suadetur. — In hac quaestione sermo est de
+          <lb ed="#P" n="32"/>distinctione formali, et specifica. non de 
+          ma<lb break="no" ed="#P" n="33"/>teriali et numerica: illam ergo desumendam
+          <lb ed="#P" n="34"/>esse ex actibus et objectis, Aristoteles 
+          affirma<lb break="no" ed="#P" n="35"/>vit. et cum eo philosophi omnes, id quod negari
+          <lb ed="#P" n="36"/>non potest, visus enim ab auditu ideo 
+          distin<lb break="no" ed="#P" n="37"/>guitur, quia unus ordinatur ad videndum 
+          co<lb break="no" ed="#P" n="38"/>lores, alius vero ad audiendum sonos. [tem.
+          <lb ed="#P" n="39"/>actus sunt effectus potentiarum, ex effectu 
+          au<lb break="no" ed="#P" n="40"/>tem adaequate diverso colligi potest diversitas
+          <lb ed="#P" n="41"/>causae. In artificialibus quoque instrumenta 
+          dis<lb break="no" ed="#P" n="42"/>tinguuntur ex diversis actionibus ad quas 
+          des<lb break="no" ed="#P" n="43"/>tinantur: potentiae autem sunt instrumenta
+          <lb ed="#P" n="44"/>naturae: ex actibus ergo distinguenda sunt.
+        </p>
+        <p xml:id="szdada-y14008-d1e266">
+          <lb ed="#P" n="45"/>3. Opiniones varie de modo explicandi 
+          prosi<lb break="no" ed="#P" n="46"/>mam assertionem. — Quocirca de quaestione,
+          <lb ed="#P" n="47"/>an est, minime certatur: sed de modo est 
+          diffi<lb break="no" ed="#P" n="48"/>cultas. Nam quidem aiunt potentias distingui
+          <lb ed="#P" n="49"/>per actus a posteriori tantum, tanquam per
+          <lb ed="#P" n="50"/>effectus. Ita Philoponus, 1. 2, de Anima, quem
+          <lb ed="#P" n="51"/>sequitur Venetus et Apollinaris, Jandunus,
+          <lb ed="#P" n="52"/>quaest. 8, Cajetanus Thienensis, text. 29 et 33.
+          <lb ed="#P" n="53"/>Ali volunt distingui potentias per actus a
+          <lb ed="#P" n="54"/>priori, ut causam tamen extrinsecam, et non
+          <lb ed="#P" n="55"/>specificantem. Ita Hervaeus, quodlib. 1, q. 12.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Alii tenent distingui potentias per actus 
+          in<lb break="no" ed="#P" n="57"/>trinsece, et essentialiter, non quod ipsi actus
+          <lb ed="#P" n="58"/>et objecta sint differentiae intrinsece 
+          consti<lb break="no" ed="#P" n="59"/>tuentes potentias, sed quod in coaptatione ad
+          <lb ed="#P" n="60"/>actus et objecta consistat intrinseca differentia
+          <lb ed="#P" n="61"/>specifica, et distinguens potentias. Haec est
+          <lb ed="#P" n="62"/>D. Thomae sententia, 1 p., quaest. 77, a. 7, et
+          <lb ed="#P" n="63"/>Alexandri Aphrodisii, citat., text. 33, 
+          sequun<lb break="no" ed="#P" n="64"/>turque Cajetanus, Nimphus, /Egidius et alii.
+          <lb ed="#P" n="65"/>Item Ferrariensis 4, contra Gentes, c. 24, 8 Pro
+          <lb ed="#P" n="66"/>hujus. Estque mens Aristotelis in eo, text. 33,
+          <lb ed="#P" n="67"/>et 2 Ethicorum, text. 16. Veraque sententia,
+          <lb ed="#P" n="68"/>in cujus explicatione prius dicemus de modo,
+          <lb ed="#P" n="69"/>quo specificantur et distinguuntur potentiae,
+          <lb ed="#P" n="70"/>deinde quomodo specificentur actus.
+        </p>
+        <p xml:id="szdada-y14008-d1e327">
+          <lb ed="#P" n="71"/>4. Notatio prima duplicis potentiae, de qua re
+          <lb ed="#P" n="72"/>late in Metaphysica, disp. 43. — Notandum
+          <lb ed="#P" n="73"/>ergo duplicem esse potentiam, activam et 
+          pas<lb break="no" ed="#P" n="74"/>sivam: activa dicitur quae ad agendum 
+          ordi<lb break="no" ed="#P" n="75"/>natur. Haec autem duplex distinguitur. Nam
+          <lb ed="#P" n="76"/>alia est agens actione transeunti, ut calor, alia
+          <lb ed="#P" n="77"/>immanenti, ut intellectus, et conveniunt, quod
+          <lb ed="#P" n="78"/>utraque agit circa aliud: sed differunt, quod
+          <lb ed="#P" n="79"/>prima agat circa aliud, ut subjectum 
+          produ<lb break="no" ed="#P" n="80"/>cendo in illo formam similem ; secunda vero
+          <lb ed="#P" n="81"/>circa illud nihil agat, sed respiciat tantum, ut
+          <lb ed="#P" n="82"/>objectum, quod cognoscit, vel amat, etc., atque
+          <lb ed="#P" n="83"/>haec potentia pure activa non est, sed semper
+          <lb ed="#P" n="84"/>habet aliquid admixtum passivae.
+        </p>
+        <p xml:id="szdada-y14008-d1e360">
+          <lb ed="#P" n="85"/>5. Potentia passiva dicitur illa, quae potest
+          <lb ed="#P" n="86"/>aliquid recipere: aliquando quidem formam
+          <lb ed="#P" n="87"/>physicam proprie dictam, seu terminum 
+          al<lb break="no" ed="#P" n="88"/>terationis physicae, et naturalis, aliquando 
+          ve<lb break="no" ed="#P" n="89"/>ro formam solummodo perfectivam, 
+          nullam<lb break="no" ed="#P" n="90"/>que praejacentem admittendo, ut sensus recipit
+          <lb ed="#P" n="91"/>speciem, atque hujusmodi potentia passiva 
+          ad<lb break="no" ed="#P" n="92"/>miscetur activae immanenter, quia prius 
+          indi<lb break="no" ed="#P" n="93"/>get receptione alicujus formae: ut deinde 
+          eli<lb break="no" ed="#P" n="94"/>ciat actum, quem postea etiam recipit, ut
+          <lb ed="#P" n="95"/>dicemus, libro sequenti, agendo de potentiis
+          <lb ed="#P" n="96"/>cognoscentibus.
+        </p>
+        <p xml:id="szdada-y14008-d1e389">
+          <lb ed="#P" n="97"/>6. Utriusque discrimen. — Ex quibus 
+          colli<lb break="no" ed="#P" n="98"/>gitur differentia inter has potentias, quod 
+          ac<lb break="no" ed="#P" n="99"/>üva transeunter, sit operativa sui objecti, 
+          ac<lb break="no" ed="#P" n="100"/>tiva vero immanenter, minime: habent enim
+          <lb ed="#P" n="101"/>se hujusmodi potentiae instar scientiae 
+          practi<lb break="no" ed="#P" n="102"/>cae et speculativae; practica enim operatur
+          <lb ed="#P" n="103"/>suum objectum, ut ars aedificandi effticit 
+          do<lb break="no" ed="#P" n="104"/>mum: scientia vero speculativa supponit 
+          ob<lb break="no" ed="#P" n="105"/>jectum, et illud contemplatur, sic calor, quia
+          <lb ed="#P" n="106"/>est potentia transeunter agens, calorem facit,
+          <lb ed="#P" n="107"/>quem pro objecto habet, tactus vero calorem
+          <lb ed="#P" n="108"/>non facit, sed illum sentit et cognoscit: omnis
+          <lb ed="#P" n="109"/>igitur potentia activa operatur circa suum 
+          ob<lb break="no" ed="#P" n="110"/>jectum, diverso licet modo. At vero potentia
+          <pb ed="#P" n="576"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>passiva non operatur, sed recipit aliquid, et
+          <lb ed="#P" n="2"/>ab aliquo, ac quod recipit habet proprie 
+          ratio<lb break="no" ed="#P" n="3"/>nem objecti respectu illius: nam ad id primo,
+          <lb ed="#P" n="4"/>et per se ordinatur. Sic potentia materiae 
+          ordi<lb break="no" ed="#P" n="5"/>natur ad receptionem formae, et illam habet
+          <lb ed="#P" n="6"/>pro objecto, quamvis etiam id a quo recipit
+          <lb ed="#P" n="7"/>aliquando dicatur objectum, ut in potentiis 
+          co<lb break="no" ed="#P" n="8"/>gnoscitivis objectum dicitur a quo potentia
+          <lb ed="#P" n="9"/>immutatur.
+        </p>
+        <p xml:id="szdada-y14008-d1e446">
+          <lb ed="#P" n="10"/>7. Notatio secunda. — Secundo est notandum
+          <lb ed="#P" n="11"/>potentiam a natura dari non propter se, sed
+          <lb ed="#P" n="12"/>ut enti jam existenti deserviat, vel ad 
+          agen<lb break="no" ed="#P" n="13"/>dum, vel ad recipiendum aliquid. Unde ex
+          <lb ed="#P" n="14"/>triplici illo genere rerum, quod in capite de
+          <lb ed="#P" n="15"/>relatione in logica distinguebamus, potentiae
+          <lb ed="#P" n="16"/>omnes computandae sunt in medio genere 
+          ea<lb break="no" ed="#P" n="17"/>rum, quae nec omnino absolutae sunt, nec 
+          om<lb break="no" ed="#P" n="18"/>nino respectivae, sed simphiciter absolutae, 
+          or<lb break="no" ed="#P" n="19"/>dinatae tamen ad aliud, ut adfinem. Ex quibus
+          <lb ed="#P" n="20"/>colligitur potentiam habere essentialem 
+          habi<lb break="no" ed="#P" n="21"/>tudinem ad objectum et operationem, diverso
+          <lb ed="#P" n="22"/>tamen modo, nam objectum respicit, ut finem
+          <lb ed="#P" n="23"/>extrinsecum, operationem autem, ut 
+          intrinse<lb break="no" ed="#P" n="24"/>cum, qui tamen duo fines non sunt, sed 
+          inte<lb break="no" ed="#P" n="25"/>grantes unum.
+        </p>
+        <p xml:id="szdada-y14008-d1e483">
+          <lb ed="#P" n="26"/>8. Secunda assertio pro tertia opinione 
+          ad<lb break="no" ed="#P" n="27"/>ducta num. 3. — His suppositis est conclusio:
+          <lb ed="#P" n="28"/>Omnis potentia animae specificatur intrinsece,
+          <lb ed="#P" n="29"/>ex coaptatione, quam habet ad operandum
+          <lb ed="#P" n="30"/>circa suum objectum, et per hanc etiam 
+          dis<lb break="no" ed="#P" n="31"/>tinguitur ab aliis. Haec conclusio satis probata
+          <lb ed="#P" n="32"/>manet ex dictis hic, et ex simili de 
+          specifica<lb break="no" ed="#P" n="33"/>tione animae: nam sicut anima ordinatur ad
+          <lb ed="#P" n="34"/>corpus, et ex coaptatione ad illud specificatur,
+          <lb ed="#P" n="35"/>ita, etc. Idem patet ex iis, quae in logica 
+          dixi<lb break="no" ed="#P" n="36"/>mus de specificatione habituum, et ex dictis in
+          <lb ed="#P" n="37"/>physicis de specificatione motuum, haec enim
+          <lb ed="#P" n="38"/>omnia aequaliter se habent, et ita idem est
+          <lb ed="#P" n="39"/>modo dicendum in praesenti.
+        </p>
+        <p xml:id="szdada-y14008-d1e517">
+          <lb ed="#P" n="40"/>9. Explicatur et suadetur amplius. — Hoc
+          <lb ed="#P" n="41"/>optime explicant instrumenta artis: ars enim
+          <lb ed="#P" n="42"/>imitatur naturam, nam quod in arte sunt 
+          ins<lb break="no" ed="#P" n="43"/>trumenta, sunt potentiae in natura. Unde sicut
+          <lb ed="#P" n="44"/>artifex primo considerat operationem, ad quam
+          <lb ed="#P" n="45"/>ordinat instrumentum et materiam, circa quam
+          <lb ed="#P" n="46"/>debet cum illo operari, et postea ipsum efhicit
+          <lb ed="#P" n="47"/>ex tali materia etforma, qualem requirit finis
+          <lb ed="#P" n="48"/>illius: ita hoc idem intelligendum est de 
+          po<lb break="no" ed="#P" n="49"/>tentiis naturalibus, anima enim quae 
+          princi<lb break="no" ed="#P" n="50"/>pium erat futura multarum operationum circa
+          <lb ed="#P" n="51"/>varia et diversa objecta, exigebat potentias 
+          di<lb break="no" ed="#P" n="52"/>versas pro qualitate et moio operationum et
+          <lb ed="#P" n="53"/>objectorum, et ideo natura tales dedit animae
+          <lb ed="#P" n="54"/>potentias, ut essent talibus actibus et objectis
+          <lb ed="#P" n="55"/>proportionatae, quod est specificari ab illis.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Unde quidquid in eis intrinsece reperitur, 
+          ab<lb break="no" ed="#P" n="57"/>solutum est, sicut quidquid est in instrumento
+          <lb ed="#P" n="58"/>artis, verbi gratia, calamo, est absolutum, 
+          at<lb break="no" ed="#P" n="59"/>tamen quia totum id respicit potentia, ut sit
+          <lb ed="#P" n="60"/>coaptata operationi circa tale objectum, ideo
+          <lb ed="#P" n="61"/>ab objecto dicitur specificari, ejusque essentia
+          <lb ed="#P" n="62"/>consistere in ordine ad illud, quod idem 
+          signi<lb break="no" ed="#P" n="63"/>ficavit Philosophus, nono Metaphysicaee, textu
+          <lb ed="#P" n="64"/>decimo tertio, dicens potentiam definiri per
+          <lb ed="#P" n="65"/>actum, ac denique in hoc fundatur illud 
+          effa<lb break="no" ed="#P" n="66"/>tum: Actus et potentia in eodem sunt genere,
+          <lb ed="#P" n="67"/>quia scilicet inter se proportionari necesse est.
+        </p>
+        <p xml:id="szdada-y14008-d1e582">
+          <lb ed="#P" n="68"/>10. Qualisnam sit unitas objecti, unde 
+          po<lb break="no" ed="#P" n="69"/>tentia unitas petenda est, variis eremplis 
+          dis<lb break="no" ed="#P" n="70"/>cutitur, de quo consule etium auctorem, lib. 9,
+          <lb ed="#P" n="71"/>de Angelis, cap. 1A4, num. 11.—Sed difficultas
+          <lb ed="#P" n="72"/>restat, quodnam sit objectum specificans 
+          po<lb break="no" ed="#P" n="73"/>tentiam, id est, quam unitatem objectum 
+          re<lb break="no" ed="#P" n="74"/>quirat, specificam ne, an genericam? Simile
+          <lb ed="#P" n="75"/>dubium tractavimus de scientiis in fine 
+          Poste<lb break="no" ed="#P" n="76"/>riorum atque ita declaratur. Nam saepe duo
+          <lb ed="#P" n="77"/>actus specie differentes pertinent ad eamdem
+          <lb ed="#P" n="78"/>potentiam, ut scientia et opinio, saepe vero
+          <lb ed="#P" n="79"/>pertinent ad diversas, ut intellectio et volitio.
+          <lb ed="#P" n="80"/>Item idem objectum aliquando pertinet ad
+          <lb ed="#P" n="81"/>diversas potentias, ut inter arguendum 
+          dice<lb break="no" ed="#P" n="82"/>bamus in principio in quarto argumento, 
+          ali<lb break="no" ed="#P" n="83"/>quando vero diversissima objecta pertinent ad
+          <lb ed="#P" n="84"/>eamdem potentiam. Item quae pertinent ad
+          <lb ed="#P" n="85"/>unam potentiam aliquando continentur sub
+          <lb ed="#P" n="86"/>uno genere, ut sapores et odores: aliquando
+          <lb ed="#P" n="87"/>vero ad diversa, ut substantia, et quantitas
+          <lb ed="#P" n="88"/>comprehenduntur ab intellectu.
+        </p>
+        <p xml:id="szdada-y14008-d1e630">
+          <lb ed="#P" n="89"/>11. Quatuor Corollaria. — Tertia assertio
+          <lb ed="#P" n="90"/>satisfaciens difficultati, in num. 10. — Haec
+          <lb ed="#P" n="91"/>ergo et similia, quae difficultatem aperiunt,
+          <lb ed="#P" n="92"/>vitam parant ad inveniendam veritatem: nam
+          <lb ed="#P" n="93"/>ex illis habetur primo, non quamlibet 
+          diversi<lb break="no" ed="#P" n="94"/>tatem actuum diversificare potentias, 
+          siqui<lb break="no" ed="#P" n="95"/>dem potentia una habere potest actus diversos.
+          <lb ed="#P" n="96"/>Habetur secundo, convenientiam specificam,
+          <lb ed="#P" n="97"/>aut genericam rerum non specificare ad 
+          con<lb break="no" ed="#P" n="98"/>ferendam unitatem, vel diversitatem 
+          poten<lb break="no" ed="#P" n="99"/>tse, quia, ut dictum est, res una, atque 
+          ea<lb break="no" ed="#P" n="100"/>dem pertinere potest ad diversas potentias, et
+          <lb ed="#P" n="101"/>diversae ad eamdem aliquando etiam res 
+          com<lb break="no" ed="#P" n="102"/>prehensae sub objecto unius potentia sunt
+          <lb ed="#P" n="103"/>ejusdem speciei, aliquando ejusdem generis:
+          <lb ed="#P" n="104"/>interdum denique analogice tantum 
+          conve<lb break="no" ed="#P" n="105"/>niunt, ut in ente. Et hinc tertio colligitur,
+          <lb ed="#P" n="106"/>cum differentia, vel convenientia in esse reali
+          <lb ed="#P" n="107"/>non sufficiat ad unitatem, vel diversitatem 
+          po<lb break="no" ed="#P" n="108"/>tentiis tribuendam, in rebus iis, quae sub 
+          u<lb break="no" ed="#P" n="109"/>nam potentiam cadunt, quaerendam esse 
+          ali<lb break="no" ed="#P" n="110"/>quam realem convenientiam, ratione cujus
+          <pb ed="#P" n="577"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ad eamdem potentiam pertineant, et similiter,
+          <lb ed="#P" n="2"/>quae pertinent ad diversas potentias, id habere
+          <lb ed="#P" n="3"/>ex aliqua diversitate, quae ex natura rei in
+          <lb ed="#P" n="4"/>ipsis reperiatur, imo si una, et eadem res forte
+          <lb ed="#P" n="5"/>spectet ad diversas potentias, in illamet 
+          quae<lb break="no" ed="#P" n="6"/>rendas esse rationes reales diversas. Quae 
+          om<lb break="no" ed="#P" n="7"/>nia ita patent. Nam unitas et diversitas 
+          po<lb break="no" ed="#P" n="8"/>tentiae, est unitas et diversitas realis, quia ex
+          <lb ed="#P" n="9"/>objectis sumitur, et non ex conceptione 
+          nos<lb break="no" ed="#P" n="10"/>tra; ergo una potentia respicit adaequate 
+          ob<lb break="no" ed="#P" n="11"/>jectum realiter unum: ergo omnia circa quae
+          <lb ed="#P" n="12"/>versantur debent convenire in aliqua ratione
+          <lb ed="#P" n="13"/>reali una: et e contrario in potentiis diversis
+          <lb ed="#P" n="14"/>proportionaliter philosophandum. Et hinc 
+          ul<lb break="no" ed="#P" n="15"/>terius colligitur quarto praeter convenientias
+          <lb ed="#P" n="16"/>et differentias, quas res habent in esse rerum,
+          <lb ed="#P" n="17"/>habere alias in esse objectorum, et has in illis
+          <lb ed="#P" n="18"/>fundari, non in conceptione mentis: quia vero
+          <lb ed="#P" n="19"/>stat, differre duo aliqua in esse rerum, et 
+          con<lb break="no" ed="#P" n="20"/>venire in ratione objectorum, ideo tales 
+          ratio<lb break="no" ed="#P" n="21"/>nes inter se diversas esse concludendum est.
+          <lb ed="#P" n="22"/>Unde habetur ejusmodi tertia conclusio. 
+          Uni<lb break="no" ed="#P" n="23"/>tas, vel diversitas potentiae sumenda est ex
+          <lb ed="#P" n="24"/>unitate et diversitate formalium objectorum,
+          <lb ed="#P" n="25"/>ut objecta sunt. Cujus probatio patet ex dictis.
+        </p>
+        <p xml:id="szdada-y14008-d1e739">
+          <lb ed="#P" n="26"/>12. Quanam putanda sit eadem, vel dwersa
+          <lb ed="#P" n="27"/>ratio formalis unde unitas, vel diversitas 
+          objec<lb break="no" ed="#P" n="28"/>torum sumatur. — Notatio prima. — Sed 
+          ex<lb break="no" ed="#P" n="29"/>plicandum superest, quae sint rationes hae 
+          for<lb break="no" ed="#P" n="30"/>males objectorum, ac sufficientes ad dandam
+          <lb ed="#P" n="31"/>unitatem et diversitatem potentiis. Pro 
+          expo<lb break="no" ed="#P" n="32"/>sitione est notandum primo inter potentias
+          <lb ed="#P" n="33"/>esse alias universaliores aliis, eo quod 
+          respi<lb break="no" ed="#P" n="34"/>ciunt universaliora objecta. eamque 
+          diversita<lb break="no" ed="#P" n="35"/>tem aliquando provenire ex perfectione, 
+          ali<lb break="no" ed="#P" n="36"/>quando ex imperfectione earumdem 
+          potentia<lb break="no" ed="#P" n="37"/>rum: nam in potentiis pure passivis, passione
+          <lb ed="#P" n="38"/>proprie dicta, seu physica, quanto potentia
+          <lb ed="#P" n="39"/>imperfectior est, tanto est universalior, id est,
+          <lb ed="#P" n="40"/>aptior, atque aptior, ad patiendum plura. Unde
+          <lb ed="#P" n="41"/>materia prima, quia est imperfectissima inter
+          <lb ed="#P" n="42"/>potentias passivas physice est indifferens ad
+          <lb ed="#P" n="43"/>omnes formas, et consequenter ad omnes 
+          alte<lb break="no" ed="#P" n="44"/>rationes et passiones physicas: at in potentiis
+          <lb ed="#P" n="45"/>passivis passione perfectiva universalitas 
+          pro<lb break="no" ed="#P" n="46"/>venit ex perfectione: sic intellectus potest
+          <lb ed="#P" n="47"/>plura recipere, quam sensus. In potentiis 
+          au<lb break="no" ed="#P" n="48"/>tem activis, universalitas simpliciter semper
+          <lb ed="#P" n="49"/>provenit ex perfectione: exempla sunt 
+          innu<lb break="no" ed="#P" n="50"/>mera. Et ratio est aperta, quia pari passione
+          <lb ed="#P" n="51"/>proprie dicta imperfectionis est, et ideo posse
+          <lb ed="#P" n="52"/>plura pati majoris imperfectionis: at vero
+          <lb ed="#P" n="53"/>posse perfici per receptionem alicujus formae
+          <lb ed="#P" n="54"/>absque alterius amissione, ac posse operari et
+          <lb ed="#P" n="55"/>efficere, perfectionis est non modicae. Et ideo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>universalitas hac in parte major est perfectio
+          <lb ed="#P" n="57"/>potentiae, ex quo intelligitur non esse eodem
+          <lb ed="#P" n="58"/>modo assignandum objectum formale omnibus
+          <lb ed="#P" n="59"/>potentiis: nam potentiae universaliori 
+          assi<lb break="no" ed="#P" n="60"/>gnandum est universalius objectum, id est,
+          <lb ed="#P" n="61"/>plura comprehendens sub formali ratione sua.
+        </p>
+        <p xml:id="szdada-y14008-d1e822">
+          <lb ed="#P" n="62"/>13. Notatio secunda in qua concinit auctor,
+          <lb ed="#P" n="63"/>l. 9, de Grat., cap. 14, mum. 25. —Ad hoc 
+          ta<lb break="no" ed="#P" n="64"/>men melius intelligendum, notandum est 
+          se<lb break="no" ed="#P" n="65"/>cundo esse potentias universalissimas in suo
+          <lb ed="#P" n="66"/>genere, ut intellectum in genere potentiae 
+          co<lb break="no" ed="#P" n="67"/>gnoscitivae, alias limitatas nimis, ut externos
+          <lb ed="#P" n="68"/>sensus in eodem genere: alias vero esse quasi
+          <lb ed="#P" n="69"/>medias, quia nec adeo sunt universales, neque
+          <lb ed="#P" n="70"/>adeo limitatae, ut interiores sensus, et simile
+          <lb ed="#P" n="71"/>quidpiam reperiri poterit in quovis genere 
+          po<lb break="no" ed="#P" n="72"/>tentiarum: juxta quam diversimode est illis
+          <lb ed="#P" n="73"/>assignandum objectum formale ; ordinarie 
+          ta<lb break="no" ed="#P" n="74"/>men hoc illis commune est, quod formalitas
+          <lb ed="#P" n="75"/>objecti attendenda potissime sit penes modum,
+          <lb ed="#P" n="76"/>quo potentia ipsum attingit, et quo ab eodem
+          <lb ed="#P" n="77"/>immutatur, sed differentia est quod in 
+          poten<lb break="no" ed="#P" n="78"/>tiis particularibus in suo genere modus 
+          attin<lb break="no" ed="#P" n="79"/>gendi, aut immutandi sumendus est secundum
+          <lb ed="#P" n="80"/>particularem, et specificam quamdam 
+          ratio<lb break="no" ed="#P" n="81"/>nem: in potentis vero universalioribus 
+          pro<lb break="no" ed="#P" n="82"/>portionaliter. Exemplum sit in potentiis 
+          acti<lb break="no" ed="#P" n="83"/>vis, nam divina potentia, quae universalissima
+          <lb ed="#P" n="84"/>est inter activas, uniens in se quidquid in aliis
+          <lb ed="#P" n="85"/>est divisum, habet pro objecto adaequato omne
+          <lb ed="#P" n="86"/>possibile: potentia vero activa particularis 
+          ve<lb break="no" ed="#P" n="87"/>luti ignis, quia limitatissima est, determinatur
+          <lb ed="#P" n="88"/>ad producendum ignem: potentia denique Solis,
+          <lb ed="#P" n="89"/>quae est quasi media extenditur ad plura, quam
+          <lb ed="#P" n="90"/>potentia ignis, ad pauciora tamen, quam DEI
+          <lb ed="#P" n="91"/>potentia. Simile est in potentiis passivis, atque
+          <lb ed="#P" n="92"/>etiam in potentiis animae, nam intellectus et
+          <lb ed="#P" n="93"/>voluntas, quae universalissimae potentiae sunt
+          <lb ed="#P" n="94"/>in suo genere, habet unitatem ex 
+          universalis<lb break="no" ed="#P" n="95"/>simis rationibus, scilicet, quia una operatur
+          <lb ed="#P" n="96"/>trahendo objectum ad se, alia tanquam pondus
+          <lb ed="#P" n="97"/>tendendo in bonitatem objecti, et simile est in
+          <lb ed="#P" n="98"/>aliis.
+        </p>
+        <p xml:id="szdada-y14008-d1e905">
+          <lb ed="#P" n="99"/>14. Consectarium ex prorimis notationibus.
+          <lb ed="#P" n="100"/>—Ex quo colligimus id, quod se habet, ut 
+          ob<lb break="no" ed="#P" n="101"/>jectum formale respectu unius potentiae, 
+          com<lb break="no" ed="#P" n="102"/>paratum ad superiorem et universaliorem 
+          po<lb break="no" ed="#P" n="103"/>tentiam, habere se materialiter: quia nimirum
+          <lb ed="#P" n="104"/>respicitur ab ipsa potentia sub universaliori
+          <lb ed="#P" n="105"/>ratione, quae est quasi forma sui objecti 
+          mate<lb break="no" ed="#P" n="106"/>rialisans quodammodo rationes omnes, quas
+          <lb ed="#P" n="107"/>sub se continet, ut in appetitu sensitivo, juxta
+          <lb ed="#P" n="108"/>multorum sententiam, de qua tamen infra
+          <lb ed="#P" n="109"/>libro 5, cap. 4. Bonum arduum et bonum 
+          con<lb break="no" ed="#P" n="110"/>cupiscibile sunt duae rationes formales objec-
+          <pb ed="#P" n="578"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>torum diversificantes duas potentias 
+          particu<lb break="no" ed="#P" n="2"/>lares et materiales ; tamen illae rationes 
+          com<lb break="no" ed="#P" n="3"/>paratae ad voluntatem habent se materialiter,
+          <lb ed="#P" n="4"/>nam comprehenduntur sub universali ratione
+          <lb ed="#P" n="5"/>boni, quam illa potentia in suo genere 
+          univer<lb break="no" ed="#P" n="6"/>salissima respicit, ut adaequatum objectum.
+          <lb ed="#P" n="7"/>Verius exemplum cernitur in externis 
+          sensi<lb break="no" ed="#P" n="8"/>bus, quorum formalia objecta materialiter se
+          <lb ed="#P" n="9"/>habent ad formale objectum sensus interni.
+          <lb ed="#P" n="10"/>Esset item hujus rei simile in artificialibus, si
+          <lb ed="#P" n="11"/>imperfectus artifex ad singulas actiones 
+          indi<lb break="no" ed="#P" n="12"/>geret distinctis instrumentis, perfectior vero
+          <lb ed="#P" n="13"/>posset unico instrumento exequi omnes. Atque
+          <lb ed="#P" n="14"/>hoc est, quod in communi dici potest de modo
+          <lb ed="#P" n="15"/>assignandi objecta formalia potentiarum, in
+          <lb ed="#P" n="16"/>particulari vero dicemus in sequentibus, et
+          <lb ed="#P" n="17"/>per haec satisfactum est priori parti hujus 
+          ca<lb break="no" ed="#P" n="18"/>pitis earum quas in fine numeri tertii 
+          propo<lb break="no" ed="#P" n="19"/>suimus, jam de posteriori.
+        </p>
+        <p xml:id="szdada-y14008-d1e980">
+          <lb ed="#P" n="20"/>De modo specificandi actus.
+        </p>
+        <p xml:id="szdada-y14008-d1e985">
+          <lb ed="#P" n="21"/>15. Quarta assertio. — Actuum nomine hic
+          <lb ed="#P" n="22"/>intelligimus qualitates illas, quibus animae 
+          po<lb break="no" ed="#P" n="23"/>tentiae attingunt extrinsece sua objecta, quales
+          <lb ed="#P" n="24"/>sunt cognitiones et appetitiones in facto esse:
+          <lb ed="#P" n="25"/>nam productiones, seu dependentiae actuales
+          <lb ed="#P" n="26"/>talium qualitatum ab ipsis potentiis, et in 
+          uni<lb break="no" ed="#P" n="27"/>versum actiones proprium constituentes 
+          prae<lb break="no" ed="#P" n="28"/>dicamentum, probabilius videtur per ipsos
+          <lb ed="#P" n="29"/>materiales terminos specificari, ut suo loco
+          <lb ed="#P" n="30"/>disputatur. Circa modum ergo quo 
+          specifican<lb break="no" ed="#P" n="31"/>tur praedicti actus sit quarta assertio hujus
+          <lb ed="#P" n="32"/>capitis. Actus immanens, ut est qualitas, 
+          sor<lb break="no" ed="#P" n="33"/>titur speciem ab objecto, ad quod terminatur.
+          <lb ed="#P" n="34"/>Probatur quia eadem ratio proportionaliter est
+          <lb ed="#P" n="35"/>de actibus, quae de potentiis: ostensum est
+          <lb ed="#P" n="36"/>autem potentias ita sortiri speciem suam: ergo,
+          <lb ed="#P" n="37"/>et caetera. Item ratio actus consistit in quadam
+          <lb ed="#P" n="38"/>coaptatione ad objectum, quoniam vel est 
+          co<lb break="no" ed="#P" n="39"/>gnitio, vel appetitio objecti, vel quid simile.
+          <lb ed="#P" n="40"/>Unde essentialiter sunt tales actus, quales 
+          re<lb break="no" ed="#P" n="41"/>quiruntur ab objecto circa quod versantur;
+          <lb ed="#P" n="42"/>ergo, et caetera. ldem patet in moralibus, sunt
+          <lb ed="#P" n="43"/>enim actus tales honesti, scilicet, aut pravi,
+          <lb ed="#P" n="44"/>qualia sunt eorum objecta, atque fines. Dices,
+          <lb ed="#P" n="45"/>terminare actum nihil in objecto ponit: ergo
+          <lb ed="#P" n="46"/>ut sic non potest veram specificationem 
+          con<lb break="no" ed="#P" n="47"/>ferre. Respondetur, si non terminare, certe
+          <lb ed="#P" n="48"/>terminativum esse, reale aliquid ponere in
+          <lb ed="#P" n="49"/>o»jecto, ratione cujus speciem conferat actui.
+          <lb ed="#P" n="50"/>sunile qu'd diximus alibi de relativis. An vero
+          <lb ed="#P" n="51"/>actus specificetur ab objecto formali, vel 
+          ma<lb break="no" ed="#P" n="52"/>teriali, et quod sit formale objectum illius
+          <lb ed="#P" n="53"/>(non enim id hactenus exposuimus) melius in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>solutionibus argumentorum quarti et sexti 
+          in<lb break="no" ed="#P" n="55"/>telligetur.
+        </p>
+        <p xml:id="szdada-y14008-d1e1066">
+          <lb ed="#P" n="56"/>16. Ad primum argumentum in n. 1. — Ad
+          <lb ed="#P" n="57"/>primum argumentum ex initio positis 
+          com<lb break="no" ed="#P" n="58"/>munis solutio est: licet objectum sit 
+          extrinse<lb break="no" ed="#P" n="59"/>cum, ordinem tamen ad illud esse intrinsecum.
+          <lb ed="#P" n="60"/>Similiter actus esse priores potentiis in ratione
+          <lb ed="#P" n="61"/>finis, licet in executione sint posteriores. Sed
+          <lb ed="#P" n="62"/>utraque pars solutionis difficultatem habet.
+          <lb ed="#P" n="63"/>Prima quidem: nam ex illa sequitur potentias
+          <lb ed="#P" n="64"/>esse propter objecta, et non e conrrario. 
+          Se<lb break="no" ed="#P" n="65"/>cunda item pars difficilis est, nam si actus
+          <lb ed="#P" n="66"/>nondum sunt, quomodospecificant? Ad primam
+          <lb ed="#P" n="67"/>partem respondetur potentias animmae 
+          intrin<lb break="no" ed="#P" n="68"/>sece ordinari ad operandum circa objecta, et
+          <lb ed="#P" n="69"/>hunc esse finem earum proprium, neque esse
+          <lb ed="#P" n="70"/>inconveniens visum, verbi gratia, ordinari ad
+          <lb ed="#P" n="71"/>qualitatem seipso imperfectiorem, non enim
+          <lb ed="#P" n="72"/>ordinatur propter bonum ipsius objecti, sed
+          <lb ed="#P" n="73"/>propter perfectionem viventis, et propriam,
+          <lb ed="#P" n="74"/>visus siquidem percipiendo lucem satis 
+          perfici<lb break="no" ed="#P" n="75"/>tur: hoc ergo modo perfectior res ordinari 
+          va<lb break="no" ed="#P" n="76"/>let ad imperfectiorem; id est, ad operandum
+          <lb ed="#P" n="77"/>circa illam, in qua operatione ipsa potentia,
+          <lb ed="#P" n="78"/>quae ordinatur, perficitur. Ad secundam 
+          par<lb break="no" ed="#P" n="79"/>tem respondetur, actum in existendo esse 
+          pos<lb break="no" ed="#P" n="80"/>teriorem potentia, in essendo vero priorem, et
+          <lb ed="#P" n="81"/>sic specificare per modum finis, quatenus 
+          pos<lb break="no" ed="#P" n="82"/>tulat talem potentiam, quae illum eliciat, unde
+          <lb ed="#P" n="83"/>sicut finalis causa non requirit existentiam ad
+          <lb ed="#P" n="84"/>causandum, ita neque actus ad specificandum,
+          <lb ed="#P" n="85"/>cum non specificet, ut intrinseca forma, sed
+          <lb ed="#P" n="86"/>ordo ad illum.
+        </p>
+        <p xml:id="szdada-y14008-d1e1136">
+          <lb ed="#P" n="87"/>17. Ad secundum ib. — Ad tertium. — Ad
+          <lb ed="#P" n="88"/>secundum negandum specificans non esse quid
+          <lb ed="#P" n="89"/>certum, est enim objectum formale 
+          adaequa<lb break="no" ed="#P" n="90"/>tum potentiae, seu ratio formalis actuum, qui
+          <lb ed="#P" n="91"/>versantur circa tale objectum: petit vero 
+          ar<lb break="no" ed="#P" n="92"/>gumentum, an eadem potentia exercere queat
+          <lb ed="#P" n="93"/>actus specie differentes ? Sunt qui dicant 
+          om<lb break="no" ed="#P" n="94"/>nes actus prout procedentes ab eadem potentia
+          <lb ed="#P" n="95"/>ejusdem speciei esse, quod omnes sint intra
+          <lb ed="#P" n="96"/>latitudinem objecti formalis unius potentiae,
+          <lb ed="#P" n="97"/>quod non videtur verum. Nam actus scientiae
+          <lb ed="#P" n="98"/>et opinionis, amoris et odii, nullatenus 
+          ejus<lb break="no" ed="#P" n="99"/>dem sunt speciei, et tamen ab eadem potentia
+          <lb ed="#P" n="100"/>eliciuntur. Item habitus dantur ad eamdem
+          <lb ed="#P" n="101"/>potentiam spectantes, ut vitium et virtus, 
+          fi<lb break="no" ed="#P" n="102"/>des et error: de quibus nulla ratione affirmari
+          <lb ed="#P" n="103"/>debet etiam prout in eadem potentia 
+          inve<lb break="no" ed="#P" n="104"/>niuntur, ejusdem esse speciei, alias calor et
+          <lb ed="#P" n="105"/>frigiditas, prout sunt in eodem subjecto, 
+          ejus<lb break="no" ed="#P" n="106"/>dem speciei dicerentur. Si ergo habitus 
+          ejus<lb break="no" ed="#P" n="107"/>dem potentiae revera distinguuntur, actus
+          <lb ed="#P" n="108"/>etiam distinguentur. Item calefactio et illu-
+          <pb ed="#P" n="579"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>minatio procedentes a luce Solis sunt distinctae
+          <lb ed="#P" n="2"/>speciei: ergo eadem potentia potest habere
+          <lb ed="#P" n="3"/>actiones distinctas. Idem ergo affirmari 
+          po<lb break="no" ed="#P" n="4"/>terit in praesenti de operationibus animae. 
+          An<lb break="no" ed="#P" n="5"/>tecedens patet ex dictis. Nam per illas actiones
+          <lb ed="#P" n="6"/>diversimode communicat lux suum esse. 
+          Tan<lb break="no" ed="#P" n="7"/>dem potentia cognoscitiva non se sola, sed
+          <lb ed="#P" n="8"/>informata specie elicit actum: ergo per 
+          di<lb break="no" ed="#P" n="9"/>versas species poterit elicere actus diversos.
+          <lb ed="#P" n="10"/>Neque haec diversitas actuum ejusdem 
+          poten<lb break="no" ed="#P" n="11"/>tiae obstat specificationi potentiae ex actibus,
+          <lb ed="#P" n="12"/>quia non speciticatur potentia ex hac specie
+          <lb ed="#P" n="13"/>actuum, sed ex latitudine actuum, qui 
+          ver<lb break="no" ed="#P" n="14"/>santur circa tale objectum formale, est enim
+          <lb ed="#P" n="15"/>potentia universalior, quam actus, vel habitus,
+          <lb ed="#P" n="16"/>et ideo universaliorem rationem respicit, sub
+          <lb ed="#P" n="17"/>qua possunt dari multae rationes diversificantes
+          <lb ed="#P" n="18"/>actus, et habitus. Ad tertium respondetur
+          <lb ed="#P" n="19"/>specificativum potentiae unum esse, nam, ut
+          <lb ed="#P" n="20"/>dixi, actus et objectum integrant unum finem
+          <lb ed="#P" n="21"/>potentiae, qui est consequi ipsum objectum :
+          <lb ed="#P" n="22"/>ab hoc ergo uno fine specificatur.
+        </p>
+        <p xml:id="szdada-y14008-d1e1238">
+          <lb ed="#P" n="23"/>18. Ad quartum in eod. n. 1.—Ad quartum
+          <lb ed="#P" n="24"/>respondet D. Thomas, 1. p.q. 71, a. 3, ad 3,
+          <lb ed="#P" n="25"/>ad distinguendas potentias specie non requiri
+          <lb ed="#P" n="26"/>distinctionem realem objectorum, sufficereque
+          <lb ed="#P" n="27"/>diversitatem rationis. Si opponas hanc 
+          diversi<lb break="no" ed="#P" n="28"/>tatem in reipsa nullam esse, atque adeo neque
+          <lb ed="#P" n="29"/>ullamdistinctionem a parte rei tribuere 
+          poten<lb break="no" ed="#P" n="30"/>tiis. Occurrit Cajetanus licet in renon 
+          distin<lb break="no" ed="#P" n="31"/>guantur objecta actualiter, distingui certe 
+          vir<lb break="no" ed="#P" n="32"/>tualiter, quod ad distinguendas vere potentias
+          <lb ed="#P" n="33"/>sufficit. Nam quod est actu unum, si in virtute
+          <lb ed="#P" n="34"/>plura sit, causare potest pluralitatem. Quae 
+          so<lb break="no" ed="#P" n="35"/>lutio imprimis non explicat illam virtualem
+          <lb ed="#P" n="36"/>distinctionem. Videtur deinde petere 
+          princi<lb break="no" ed="#P" n="37"/>pium. Nam argumentum assumit, non posse
+          <lb ed="#P" n="38"/>habere virtutem ad distinguendum plura, id
+          <lb ed="#P" n="39"/>quod in se unum est.
+        </p>
+        <p xml:id="szdada-y14008-d1e1277">
+          <lb ed="#P" n="40"/>19. Ad quintum. — Respondetur ergo 
+          poten<lb break="no" ed="#P" n="41"/>tias desumere ex objectis distinctionem 
+          specifi<lb break="no" ed="#P" n="42"/>cam, ideoque requirere objecta, formaliter 
+          sal<lb break="no" ed="#P" n="43"/>temdistincta, quam distinctionem saepe D. 
+          Tho<lb break="no" ed="#P" n="44"/>mas vocat secundum rationem, neque plane
+          <lb ed="#P" n="45"/>potest intelligi,quo modo distinctio formalis 
+          po<lb break="no" ed="#P" n="46"/>tentiarum sumatur ex objectis, nisi in illis etiam
+          <lb ed="#P" n="47"/>sint diversae rationes formales: sicut etiam
+          <lb ed="#P" n="48"/>intelligi non potest, quomodo duae species per
+          <lb ed="#P" n="49"/>eamdem differentiam constituantur: objectum
+          <lb ed="#P" n="50"/>enim in praesenti habet se ad modum 
+          diffe<lb break="no" ed="#P" n="51"/>rentiae. Unde ad argumentum concedo 
+          po<lb break="no" ed="#P" n="52"/>tentias ex vi objectorum habere tantum 
+          dis<lb break="no" ed="#P" n="53"/>tinctionem formalem, talemque in objectis
+          <lb ed="#P" n="54"/>solum requiri, de factoque inveniri in bono et
+          <lb ed="#P" n="55"/>vero: porro identitas realis objecti minime
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>arguit identitatem realem in potentia: sicut
+          <lb ed="#P" n="57"/>neque e conirario, quoniam identitates hae
+          <lb ed="#P" n="58"/>impertinentes se habent, neque una aliam
+          <lb ed="#P" n="59"/>causat: ex quo ergo (inquies) distinctio realis
+          <lb ed="#P" n="60"/>potentiarum sumeret? Respondetur sumi ex
+          <lb ed="#P" n="61"/>diversitate magna in modo operandi et 
+          attin<lb break="no" ed="#P" n="62"/>gendi objectum, addita limitatione et 
+          imper<lb break="no" ed="#P" n="63"/>fectione potentiarum creatarum, sicut in 
+          intel<lb break="no" ed="#P" n="64"/>lectu et voluntate videre licet, differunt enim
+          <lb ed="#P" n="65"/>realiter ob longe diversam rationem actuum,
+          <lb ed="#P" n="66"/>nam intellectio quaedam est assimilatio et 
+          pe<lb break="no" ed="#P" n="67"/>netratio objecti, amor vero est quoddam 
+          pon<lb break="no" ed="#P" n="68"/>dus in rem ipsam, unica autem potentia
+          <lb ed="#P" n="69"/>creata, et limitata non potuit amplecti 
+          utrum<lb break="no" ed="#P" n="70"/>que modum operandi, in Deo tamen quamvis
+          <lb ed="#P" n="71"/>sit vera intellectio et verus amor, neque actus,
+          <lb ed="#P" n="72"/>neque potentiae distinguuntur, propter illius
+          <lb ed="#P" n="73"/>infinitatem. Ad quintum respondetur, omnes
+          <lb ed="#P" n="74"/>potentias habentes idem objectum formale
+          <lb ed="#P" n="75"/>ejusdem speciei esse, quae autem sint illae, non
+          <lb ed="#P" n="76"/>est hujus loci definire: quae vero in argumento
+          <lb ed="#P" n="77"/>petuntur de visu hominis et equi, de intellectu
+          <lb ed="#P" n="78"/>Angeli et hominis, l. 4, c. 1, n. 7, 
+          exponen<lb break="no" ed="#P" n="79"/>dum est.
+        </p>
+        <p xml:id="szdada-y14008-d1e1369">
+          <lb ed="#P" n="80"/>20. Ad sextum sunt qui concedant 
+          poten<lb break="no" ed="#P" n="81"/>tiam, actum et habitum esse ejusdem speciei,
+          <lb ed="#P" n="82"/>saltem secundum ordinem quem habent ad
+          <lb ed="#P" n="83"/>objecta: sed hoc sine dubio falsum est, nam
+          <lb ed="#P" n="84"/>intellectus et intellectio secundum omnem 
+          ra<lb break="no" ed="#P" n="85"/>tionem specie distinguuntur. Item habitus et
+          <lb ed="#P" n="86"/>potentia diversas species qualitatis conflant
+          <lb ed="#P" n="87"/>etiam secundum ordinem, quem habent ad
+          <lb ed="#P" n="88"/>objecta, nam hinc potissime specificantur :
+          <lb ed="#P" n="89"/>ergo multo magis potentia et actus. Dico igitur
+          <lb ed="#P" n="90"/>potentiam et actum distingui specie, 
+          conve<lb break="no" ed="#P" n="91"/>niunt namque in objecto solum materialiter
+          <lb ed="#P" n="92"/>et inadaequate. Nam ratio formalis in objecto
+          <lb ed="#P" n="93"/>potentiae, est multo universalior, quam in 
+          ob<lb break="no" ed="#P" n="94"/>jecto actus. Item modus, quo potentia attingit
+          <lb ed="#P" n="95"/>objectum, est longe diversus, potentia enim
+          <lb ed="#P" n="96"/>attingit mediante actu, actus vero immediate:
+          <lb ed="#P" n="97"/>potentia etiam respicit objectum absolute sub
+          <lb ed="#P" n="98"/>ratione possibilis, ut visus visibile, actus vero
+          <lb ed="#P" n="99"/>respicit objectum quasi existens in actu, quia
+          <lb ed="#P" n="100"/>actu terminat, quae omnia ostendunt 
+          diversi<lb break="no" ed="#P" n="101"/>tatem in formali objecto potentiae et actus; 
+          os<lb break="no" ed="#P" n="102"/>tendunt etiam quomodo objectum formale sit
+          <lb ed="#P" n="103"/>assignandum actibus, nempe sub particulari
+          <lb ed="#P" n="104"/>aliqua ratione contenta sub objecto universali
+          <lb ed="#P" n="105"/>potentiae. Ad septimum et octavum patet 
+          so<lb break="no" ed="#P" n="106"/>lutio ex dictis.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

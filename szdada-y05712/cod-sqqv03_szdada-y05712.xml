@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="228"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y05712"><!-- t2l3c9 -->
+        <head xml:id="szdada-y05712-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-y05712-Hd1e103" type="question-title">An primi homines cum perfecta scientia rerum naturalium creati fuerint</head>
+        <p xml:id="szdada-y05712-d1e106">
+          <lb ed="#P" n="41"/>CAPUT IX.
+          <lb ed="#P" n="42"/>AN PRIMI HOMINES CUM PERFECTA SCIENTIA 
+          RE<lb break="no" ed="#P" n="43"/>RUM NATURALIUM CREATI FUERINT.
+        </p>
+        <p xml:id="szdada-y05712-d1e115">
+          <lb ed="#P" n="44"/>4. Partis negantis argumentum. — Praeter
+          <lb ed="#P" n="45"/>substantiam, et potentias, quas homo in prima
+          <lb ed="#P" n="46"/>productione a suo auctore accepit, inveniuntur
+          <lb ed="#P" n="47"/>aliae perfectiones ad ordinem naturae 
+          pertinen<lb break="no" ed="#P" n="48"/>tes, quia naturam perficiunt, et aliquo 
+          natu<lb break="no" ed="#P" n="49"/>rali modo acquiri possunt, ut sunt habitus, et
+          <lb ed="#P" n="50"/>actus, de quibus dicendum est, quomodo 
+          pri<lb break="no" ed="#P" n="51"/>mis hominibus concreati fuerint, et praesertim
+          <lb ed="#P" n="52"/>de habitibus, nam actus non sunt facti a solo
+          <lb ed="#P" n="53"/>auctore naturae, sed ab ipso homine jam pro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>ducto. Hae autem perfectiones partim ad 
+          cogni<lb break="no" ed="#P" n="55"/>tionem pertinent, partim ad voluntatem. De 
+          co<lb break="no" ed="#P" n="56"/>gnitione igitur, quae prior est, seu scientia est
+          <lb ed="#P" n="57"/>dubium, an homini in sua creatione data 
+          fue<lb break="no" ed="#P" n="58"/>rit. Est autem ratio dubitandi, quia naturale
+          <lb ed="#P" n="59"/>est homini acquirere cognitionem, et scientiam
+          <lb ed="#P" n="60"/>per sensus, et habitus per actus: sed Deus ita
+          <lb ed="#P" n="61"/>condidit res omnes, ut proprios motus illis
+          <lb ed="#P" n="62"/>agere sinat: ergo etiam hominem ita creavit,
+          <lb ed="#P" n="63"/>ut conferendo ei totam perfectionem, quam in
+          <lb ed="#P" n="64"/>actu primo natura, per se primo, vel secundo
+          <lb ed="#P" n="65"/>postulat, reliquas perfectiones, ipse sibi 
+          acqui<lb break="no" ed="#P" n="66"/>reret: hujusmodi autem sunt scientia, et 
+          co<lb break="no" ed="#P" n="67"/>gnitio: ergo haec non sunt homini concreata,
+          <lb ed="#P" n="68"/>vel a Deo indita, sed post concreationem sunt
+          <lb ed="#P" n="69"/>ab homine acquisita. Et confirmatur, quia
+          <lb ed="#P" n="70"/>seepe dictum est, in prima rerum creatione,
+          <lb ed="#P" n="71"/>non esse miracula, vel praeternaturalia opera
+          <lb ed="#P" n="72"/>sine evidente necessitate, et auctoritate 
+          asse<lb break="no" ed="#P" n="73"/>renda: sed habere scientiam infusam non est
+          <lb ed="#P" n="74"/>naturale homini, sed miraculosum, vel supra 
+          na<lb break="no" ed="#P" n="75"/>turae ordinem: ergo non est, cur credamus hoc
+          <lb ed="#P" n="76"/>modo esse datam scientiam primis hominibus.
+        </p>
+        <p xml:id="szdada-y05712-d1e191">
+          <lb ed="#P" n="77"/>2. Assertio prima et certa affirmans de scientia
+          <lb ed="#P" n="78"/>naturali Adamo indita. — Nihilominus certum
+          <lb ed="#P" n="79"/>est, habuisse Adam statim ac fuit a Deo creatus
+          <lb ed="#P" n="80"/>naturalem scientiam a DEO sibi inditam. Haec
+          <lb ed="#P" n="81"/>est doctrina S. Thomae, 1, part., quaest. 94
+          <lb ed="#P" n="82"/>art. 3, et est communis scholasticorum cum
+          <lb ed="#P" n="83"/>Magistro, in 2, distinct. 23. Et probatur primo
+          <lb ed="#P" n="84"/>ex Scriptura, nam Genes. 2, dicitur, paulo
+          <lb ed="#P" n="85"/>post creationem Adae adducta esse omnia 
+          ani<lb break="no" ed="#P" n="86"/>malia coram ipso, ut eis nomina imponeret, et
+          <lb ed="#P" n="87"/>additur: Omne quod vocavit Adam anime 
+          viven<lb break="no" ed="#P" n="88"/>tis ipsum est nomen ejus. Ex quo loco omnes
+          <lb ed="#P" n="89"/>scholastici colligunt, habuisse tunc Adam
+          <lb ed="#P" n="90"/>scientiam singulorum animalium, ut 
+          conve<lb break="no" ed="#P" n="91"/>nienter ad naturam uniuscujusque eis nomina
+          <lb ed="#P" n="92"/>imponeret. Ita enim exponit dicta verba 
+          Euse<lb break="no" ed="#P" n="93"/>bius, lib. 11 de Praeparat. Evang., cap. 4, nam
+          <lb ed="#P" n="94"/>quod dicitur: Jpsum est nomen ejus, exponit,
+          <lb ed="#P" n="95"/>hoc est, in ipsa natura, seu convenienter ad
+          <lb ed="#P" n="96"/>naturam rei impositum est. Hoc autem fieri
+          <lb ed="#P" n="97"/>non poterat, nisi et cum perfecta scientia 
+          ipso<lb break="no" ed="#P" n="98"/>rum animantium, et cum magna peritia 
+          alicu<lb break="no" ed="#P" n="99"/>jus linguae, et proprietatis omnium verborum
+          <lb ed="#P" n="100"/>ejus. Unde recte Chyrsostomus, homil. 14, in
+          <lb ed="#P" n="101"/>Genes. inquit: Quod magna sapientia 
+          praedi<lb break="no" ed="#P" n="102"/>tus fuerit, disce ex his, que nunc fiunt. Et 
+          ad<lb break="no" ed="#P" n="103"/>duait illa, etc., fecit hoc Deus demonstraturus
+          <lb ed="#P" n="104"/>nobis magnam illius sapientiam. Et infra: Ne
+          <lb ed="#P" n="105"/>igitur subito preetereas, sed cogita quanta 
+          fue<lb break="no" ed="#P" n="106"/>rit sapientia volatilibus, etc., et omnibus 
+          con<lb break="no" ed="#P" n="107"/>grua, et convenientia swe nature imponit 
+          no<lb break="no" ed="#P" n="108"/>mina. kt iterum infra: qui potest congruis
+          <pb ed="#P" n="229"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nominibus jumenta appellare, et volatilia cali,
+          <lb ed="#P" n="2"/>et alias bestias quomodo non omnis sapientia,
+          <lb ed="#P" n="3"/>et industria pollet?
+        </p>
+        <p xml:id="szdada-y05712-d1e275">
+          <lb ed="#P" n="4"/>3. Secundo veritatem hanc videtur expresse
+          <lb ed="#P" n="5"/>docere Sapiens Eccl. 17, dicens: Creavit Deus
+          <lb ed="#P" n="6"/>de terra hominem. Et infra: Creavit em ipso
+          <lb ed="#P" n="7"/>adjutoriumn simile sibi. Et infra: et disciplina
+          <lb ed="#P" n="8"/>intellectus replevit illos, creavit illis scientiam
+          <lb ed="#P" n="9"/>spiritus, sensu implevit cor illorum, et mala,
+          <lb ed="#P" n="10"/>et bona ostendit eis, posuit oculum suum super
+          <lb ed="#P" n="11"/>corda illorum ostendere illis magnalia operum
+          <lb ed="#P" n="12"/>suorum, ut nomen sanctificationis collaudent, et
+          <lb ed="#P" n="13"/>gloriari in mirabilibus illius, ut magnalia
+          <lb ed="#P" n="14"/>enarrent operum ejus. Quae verba licet 
+          genera<lb break="no" ed="#P" n="15"/>lia videantur, et supernaturalem cognitionem
+          <lb ed="#P" n="16"/>maxime indicent, tamen sine dubio naturalem
+          <lb ed="#P" n="17"/>etiam scientiam comprehendunt: tum quia
+          <lb ed="#P" n="18"/>valde universalia sunt: tum etiam, quia ad
+          <lb ed="#P" n="19"/>perfectam disciplhnam intellectus pertinent,
+          <lb ed="#P" n="20"/>quam perfectionem totam complectitur illud
+          <lb ed="#P" n="21"/>verbum, veplevit illos: tum etiam, quia multa
+          <lb ed="#P" n="22"/>ex operibus Dei per hanc scientiam 
+          cognoscun<lb break="no" ed="#P" n="23"/>tur, unde etiam deseruit, ut in ejus laudem
+          <lb ed="#P" n="24"/>referantur. Denique ibidem ait Sapiens: Dedit
+          <lb ed="#P" n="25"/>illi potestatem eorum, quee sunt super terram:
+          <lb ed="#P" n="26"/>poswit timorem illius super omnem carnem, et
+          <lb ed="#P" n="27"/>domnatus est bestiarum, et volatiliwn. Ad
+          <lb ed="#P" n="28"/>usum autem hujus potestatis, et dominii 
+          ne<lb break="no" ed="#P" n="29"/>cessaria erat hujusmodi scientia, ut discernere
+          <lb ed="#P" n="30"/>posset mansueta animalia a feris, statim ac 
+          il<lb break="no" ed="#P" n="31"/>la videret, et absque alio experimento, et sic
+          <lb ed="#P" n="32"/>de caeteris. Quod recte indicavit Chrysostomus,
+          <lb ed="#P" n="33"/>loco citato, ponderando nominum 
+          expositio<lb break="no" ed="#P" n="34"/>nem scientiae, potestatis, ac dominii signum
+          <lb ed="#P" n="35"/>fuisse, et ad utrumque sine confusione 
+          prae<lb break="no" ed="#P" n="36"/>standum, magnam sapientiam, imo et 
+          indus<lb break="no" ed="#P" n="37"/>triam (ut ait) necessariam fuisse, quod non
+          <lb ed="#P" n="38"/>potest de industria acquisita intelligi, cum
+          <lb ed="#P" n="39"/>nulla experientia praecessisset. Addi etiam 
+          po<lb break="no" ed="#P" n="40"/>test illud Eccles. 7: Deus fecit hominem rectum,
+          <lb ed="#P" n="41"/>nam scientia etiam ad quandam rectitudinem
+          <lb ed="#P" n="42"/>pertinet, quia scientia veritatis, rectitudo 
+          quae<lb break="no" ed="#P" n="43"/>dam intellectus est: intellectus autem 
+          princi<lb break="no" ed="#P" n="44"/>palis potentia hominis est, et ideo recte 
+          po<lb break="no" ed="#P" n="45"/>test haec rectitudo intellectualis (ut sic dicam)
+          <lb ed="#P" n="46"/>sub absoluta rectitudine comprehendi, 
+          quam<lb break="no" ed="#P" n="47"/>vis fortasse Sapiens de morali, vel 
+          supernatu<lb break="no" ed="#P" n="48"/>rali praecipue loquatur, ut postea videbimus.
+        </p>
+        <p xml:id="szdada-y05712-d1e375">
+          <lb ed="#P" n="49"/>4. Probatur tandem ratione sumpta tum ex
+          <lb ed="#P" n="50"/>parte Dei, cujus perfecta sunt opera. — Ultimo
+          <lb ed="#P" n="51"/>confirmatur ratione haec veritas, quia 
+          homi<lb break="no" ed="#P" n="52"/>nem creari cum perfecta scientia fuit imprimis
+          <lb ed="#P" n="53"/>convenientissimum ex parte Dei, cujus opera
+          <lb ed="#P" n="54"/>perfecta sunt: nam hac ratione omnes alias
+          <lb ed="#P" n="55"/>res universi tam corporales, quam spirituales
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in statu perfecto creavit: ergo et hominem ex
+          <lb ed="#P" n="57"/>corpore, etspiritu compositum, nam et ipsum
+          <lb ed="#P" n="58"/>hominem secundum corpus perfectum creavit:
+          <lb ed="#P" n="59"/>ergo multo magis secundum animam. Nec 
+          sa<lb break="no" ed="#P" n="60"/>tisfaciet quis si respondeat, fecisse quidem
+          <lb ed="#P" n="61"/>Deum animam perfectam secundum eas 
+          per<lb break="no" ed="#P" n="62"/>fectiones, quas a solo auctore naturae habere
+          <lb ed="#P" n="63"/>poterat, vel per se primo, vel per naturalem,
+          <lb ed="#P" n="64"/>ac necessariam dimanationem cum essentia:
+          <lb ed="#P" n="65"/>non vero quoad alias perfectiones, quas homo
+          <lb ed="#P" n="66"/>suis actibus potest acquirere. Hoc, inquam,
+          <lb ed="#P" n="67"/>non satifacit, tum quia vix potuisset homo
+          <lb ed="#P" n="68"/>scientiam acquirere, nisi prius daretur a
+          <lb ed="#P" n="69"/>Deo, ut statim declarabo ; tum etiam, quia
+          <lb ed="#P" n="70"/>corporibus etiam eas perfectiones contulit
+          <lb ed="#P" n="71"/>Deus in principio, quas possunt similia 
+          cor<lb break="no" ed="#P" n="72"/>pora discursu temporis suis actibus 
+          compa<lb break="no" ed="#P" n="73"/>rare, ut patet in statura corporis humani,
+          <lb ed="#P" n="74"/>et in arboribus cum suis fructibus 
+          produc<lb break="no" ed="#P" n="75"/>tis: ergo multo magis debuit creare 
+          intel<lb break="no" ed="#P" n="76"/>lectum hominis bene dispositum, et proxime
+          <lb ed="#P" n="77"/>aptum ad fructus mentis producendos. Quod
+          <lb ed="#P" n="78"/>his verbis docuit Moses Barcepha, hbro de
+          <lb ed="#P" n="79"/>Paradiso, secunda parte, capite septimo :
+          <lb ed="#P" n="80"/>Comparavit Deus Ade mentis sensum, ut
+          <lb ed="#P" n="81"/>procrearet, atque ecpullulare faceret ommnis
+          <lb ed="#P" n="82"/>generis probas cogtationes, meditationibusque
+          <lb ed="#P" n="83"/>tam de rebus, quee videndi sensu percipi 
+          pos<lb break="no" ed="#P" n="84"/>sunt, quam dis, quae euwn sensum effugiunt.
+          <lb ed="#P" n="85"/>Unde ibidem dixerat, inductum fuisse Adamum
+          <lb ed="#P" n="86"/>in spiritualem, ac felicem vitam, et mirifica
+          <lb ed="#P" n="87"/>affectuum voluptate per meditationes, 
+          cogi<lb break="no" ed="#P" n="88"/>tationes que nulli perturbationi, aut anxietati
+          <lb ed="#P" n="89"/>obnoxias, in morem angelorum, et 
+          spiritua<lb break="no" ed="#P" n="90"/>lium copiarum, recipientemque radios 
+          divi<lb break="no" ed="#P" n="91"/>narum notionum non aliter atque angeli 
+          ca<lb break="no" ed="#P" n="92"/>piunt. Quae verba majorem quidem 
+          perfectio<lb break="no" ed="#P" n="93"/>nem intellectus indicant, quam per naturales
+          <lb ed="#P" n="94"/>cientias humanas haberi possit, tamen illam
+          <lb ed="#P" n="95"/>etiam sine dubio includunt: quomodo autem
+          <lb ed="#P" n="96"/>in aliis intelligenda sint, vel limitanda, postea
+          <lb ed="#P" n="97"/>videbimus.
+        </p>
+        <p xml:id="szdada-y05712-d1e486">
+          <lb ed="#P" n="98"/>4. Tum ex parte Adami, cui necessaria erat
+          <lb ed="#P" n="99"/>scientia quadruplici ex capite. — Ad 
+          argumen<lb break="no" ed="#P" n="100"/>tun partis negantis mim. 1. — Deinde erat
+          <lb ed="#P" n="101"/>haec perfectio non solum primo homini, ut
+          <lb ed="#P" n="102"/>particularis persona erat, sed etiam toti 
+          gene<lb break="no" ed="#P" n="103"/>ri humano, et Adamo, ut parenti ejus, valde
+          <lb ed="#P" n="104"/>necessaria. Primo ad integritatem, et 
+          felicita<lb break="no" ed="#P" n="105"/>tem illius status, in quo homo ante peccatum
+          <lb ed="#P" n="106"/>constituebatur, quem in discursu sequentium
+          <lb ed="#P" n="107"/>capitum explicabimus. Secundo, quia si homo
+          <lb ed="#P" n="108"/>ignorans crearetur, ut ipse scientiam sibl 
+          ac<lb break="no" ed="#P" n="109"/>quireret, necessarium esset longo tempore in
+          <lb ed="#P" n="110"/>magna ignoratione versari, quia humana
+          <pb ed="#P" n="230"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>scientia longo tempore, et magno labore 
+          ac<lb break="no" ed="#P" n="2"/>quiritur, adeo ut ad unam scientiam perfecte
+          <lb ed="#P" n="3"/>acquirendam vix longum vitae tempus 
+          suffi<lb break="no" ed="#P" n="4"/>ciat, nedum, ad omnes ; praesertim cum esset
+          <lb ed="#P" n="5"/>sola inventione, et sine disciplina addiscenda,
+          <lb ed="#P" n="6"/>et acquirenda, quod longe difficilius est. 
+          Ter<lb break="no" ed="#P" n="7"/>tio, quia impossibile est homini solis naturae
+          <lb ed="#P" n="8"/>suae viribus scientiam veritatum etiam 
+          natu<lb break="no" ed="#P" n="9"/>ralium puram, et sine admixtione multorum
+          <lb ed="#P" n="10"/>errorum inquirendo, invenire. Propter quod
+          <lb ed="#P" n="11"/>ad providentiam auctoris naturae pertinuit 
+          ho<lb break="no" ed="#P" n="12"/>minem creare ita perfectum, ut sine errore
+          <lb ed="#P" n="13"/>posset naturales veritates intelligere. Denique
+          <lb ed="#P" n="14"/>non solum erat futurus Adam Pater 
+          caetero<lb break="no" ed="#P" n="15"/>rum hominum, sed etiam Doctor non solum
+          <lb ed="#P" n="16"/>in rebus fidei, sed etiam in rerum naturalium
+          <lb ed="#P" n="17"/>cognitione; nam etiam illa hominihus 
+          neces<lb break="no" ed="#P" n="18"/>saria est in omni statu, tam innocentiae ad vitae
+          <lb ed="#P" n="19"/>tranquillitatem, et jucunditatem, et ut 
+          habe<lb break="no" ed="#P" n="20"/>ret appetitum sciendi satiatum, et ad quamdam
+          <lb ed="#P" n="21"/>honestae occupationis, seu exercitationis 
+          par<lb break="no" ed="#P" n="22"/>tem: quam naturae lapsee, ad vitee utilitatem,
+          <lb ed="#P" n="23"/>et conservationem: ergo sicut Adam creatus
+          <lb ed="#P" n="24"/>est perfectus ad generandos homines, ita 
+          e<lb break="no" ed="#P" n="25"/>tiam ad illos instruendos et docendos. Atque
+          <lb ed="#P" n="26"/>ita responsum est ad rationem dubitandi in
+          <lb ed="#P" n="27"/>principio positam, et magis ex sequentibus
+          <lb ed="#P" n="28"/>elucidabitur.
+        </p>
+        <p xml:id="szdada-y05712-d1e582">
+          <lb ed="#P" n="29"/>6. Assertio secunda quod scientia rerum 
+          na<lb break="no" ed="#P" n="30"/>turaliwn fuerit in Adam ejusdem speciei cum
+          <lb ed="#P" n="31"/>nostra. — Inquirendum enim superest, qualis,
+          <lb ed="#P" n="32"/>et quanta fuerit haec Adami scientia, vel in
+          <lb ed="#P" n="33"/>specie, vel in individuo. In quo imprimis
+          <lb ed="#P" n="34"/>quoad speciem dicendum est, scientiam rerum
+          <lb ed="#P" n="35"/>naturalium Adae inditam in essentia fuisse
+          <lb ed="#P" n="36"/>ejusdem speciei cum scientia, quae discursu, et
+          <lb ed="#P" n="37"/>inventione humana acquiri potest, quae alio
+          <lb ed="#P" n="38"/>modo dici a theologis solet per accidens, et
+          <lb ed="#P" n="39"/>non per se infusa. Et ita est assertio 
+          commu<lb break="no" ed="#P" n="40"/>niter ab eisdem theologis recepta, docet divus
+          <lb ed="#P" n="41"/>Thomas, 1 part., quaest. 94, art. 2, ad 1, un
+          <lb ed="#P" n="42"/>bene illam explicat Cajetanus. Ratio autem est,
+          <lb ed="#P" n="43"/>quia illa scientia data est Adae ad 
+          perficien<lb break="no" ed="#P" n="44"/>dum intellectum ejus intra naturalem 
+          ordi<lb break="no" ed="#P" n="45"/>nem, et secundum capacitatem, et appetitum
+          <lb ed="#P" n="46"/>naturalem sciendi: ergo debuit esse scientia
+          <lb ed="#P" n="47"/>naturalis in sua substantia, ac proinde talis,
+          <lb ed="#P" n="48"/>qualis naturaliter potest acquiri, quamvis ex
+          <lb ed="#P" n="49"/>dono Dei fuerit infusa. Et hoc etiam confirmat
+          <lb ed="#P" n="50"/>ratio dubitandi in principio posita. Recte
+          <lb ed="#P" n="51"/>enim ostendit non esse sine fundamento 
+          asse<lb break="no" ed="#P" n="52"/>rendum datam fuisse Adae scientiam 
+          superio<lb break="no" ed="#P" n="53"/>ris ordinis, et quasi angelicam, quia illud 
+          fuis<lb break="no" ed="#P" n="54"/>set speciale miraculum ultra naturae debitum,
+          <lb ed="#P" n="55"/>imo et supra naturalem capacitatem, quod
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sine fundamento fingendum non est. At vero
+          <lb ed="#P" n="57"/>naturalis scientia est proportionata naturae,
+          <lb ed="#P" n="58"/>et in illo statu erat satis necessaria, et 
+          quam<lb break="no" ed="#P" n="59"/>vis modus ille habendi scientiam per 
+          infusio<lb break="no" ed="#P" n="60"/>nem absolute supernaturalis est, nihilominus
+          <lb ed="#P" n="61"/>pro illo statu erat quodammodo naturalis, quia
+          <lb ed="#P" n="62"/>tunc non poterat illa perfectio aliter obtineri.
+          <lb ed="#P" n="63"/>Eo vel maxime, quod creabat Deus hominem
+          <lb ed="#P" n="64"/>ad finem supernaturalem, et ideo decrevit illi
+          <lb ed="#P" n="65"/>conferre statum quemdam excellentiorem,
+          <lb ed="#P" n="66"/>quam pura hominis natura postulat, ideoque
+          <lb ed="#P" n="67"/>quodammodo connaturale fuit illi statui, ut
+          <lb ed="#P" n="68"/>natura humana immediate a suo auctore 
+          na<lb break="no" ed="#P" n="69"/>turalem scientiam acciperet.
+        </p>
+        <p xml:id="szdada-y05712-d1e676">
+          <lb ed="#P" n="70"/>7. Primum corollarium em proxime tradita
+          <lb ed="#P" n="71"/>assertione ostenditur. — Secundum corollarium
+          <lb ed="#P" n="72"/>bipartitum. — Tertium corollarium. —Ex quo
+          <lb ed="#P" n="73"/>colligitur primo, talem fuisse illam scientiam;
+          <lb ed="#P" n="74"/>ut in usu ejus habuerit Adam dependentiam a
+          <lb ed="#P" n="75"/>phantasmatibus. Probatur, quia hic modus
+          <lb ed="#P" n="76"/>cognoscendi speculando phantasmata, 
+          natura<lb break="no" ed="#P" n="77"/>lis est animae conjunctae: ergo eamdem 
+          de<lb break="no" ed="#P" n="78"/>pendentiam a phantasmatibus habuit primus
+          <lb ed="#P" n="79"/>homo in suo naturali modo intelligendi, quam
+          <lb ed="#P" n="80"/>nos habemus: ergo eamdem etiam habuit in
+          <lb ed="#P" n="81"/>usu illius scientiae, quae ejusdem ordinis erat
+          <lb ed="#P" n="82"/>cum illa, quae in nobis est, et a phantasia, in
+          <lb ed="#P" n="83"/>suo usu pendet. Unde ulterius infertur, 
+          spe<lb break="no" ed="#P" n="84"/>cies intelligibiles datas Adae cum illa scientia,
+          <lb ed="#P" n="85"/>quamvis non fuerint per sensus acceptae, nec
+          <lb ed="#P" n="86"/>phantasmatatibus abstractae: nihilominus 
+          ta<lb break="no" ed="#P" n="87"/>les fuisse, quales solent per sensus, et 
+          phantas<lb break="no" ed="#P" n="88"/>mata acquiri. Probatur prior pars, quod tales
+          <lb ed="#P" n="89"/>species non fuerint de facto acquisitae, sed 
+          in<lb break="no" ed="#P" n="90"/>ditae, quia qui dat formam, dat consequentia
+          <lb ed="#P" n="91"/>ad formam, et multo magis dat antecedentia,
+          <lb ed="#P" n="92"/>quae ad convenientem statum, et usum talis
+          <lb ed="#P" n="93"/>formae necessaria sunt. Sed habitus scientiae
+          <lb ed="#P" n="94"/>sine speciebus intelligibilibus non posset in
+          <lb ed="#P" n="95"/>actum prodire, nisi post acquisitas species, 
+          at<lb break="no" ed="#P" n="96"/>que ita usus talis habitus imperfectus valde
+          <lb ed="#P" n="97"/>fuisset, quod est et illi fini contrarium, 
+          prop<lb break="no" ed="#P" n="98"/>ter quem infundebatur, et a perfecto modo
+          <lb ed="#P" n="99"/>operandi Dei alienum: ergo sine ulla 
+          dubita<lb break="no" ed="#P" n="100"/>tione cum habitu scientia, infusae sunt Adae
+          <lb ed="#P" n="101"/>species illarum rerum, qualis erat talis 
+          scien<lb break="no" ed="#P" n="102"/>tia. Altera vero pars de qualitate, seu modo
+          <lb ed="#P" n="103"/>talium specierum probatur ex priori assertione,
+          <lb ed="#P" n="104"/>quia species esse debent proportionatae 
+          habi<lb break="no" ed="#P" n="105"/>tui: sed habitus seientiae erat infusus tantum
+          <lb ed="#P" n="106"/>per accidens: ergo et species fuerunt tantum
+          <lb ed="#P" n="107"/>per accidens infusae, ac proinde in substantia
+          <lb ed="#P" n="108"/>naturales, et ejusdem rationis cum illis, quae
+          <lb ed="#P" n="109"/>a phantasmatibus abstrahi possent. Denique
+          <lb ed="#P" n="110"/>illae species dabantur ad usum naturalem ani-
+          <pb ed="#P" n="231"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mae conjunctae, sed hic usus est intelligere
+          <lb ed="#P" n="2"/>cum dependentia a phantasmatibus: ergo 
+          spe<lb break="no" ed="#P" n="3"/>cies ad hunc intelligendi modum 
+          proportio<lb break="no" ed="#P" n="4"/>natae fuerunt. Unde tandem concluditur,
+          <lb ed="#P" n="5"/>etiam fuisse infusa Adae in interno sensu, seu
+          <lb ed="#P" n="6"/>phantasia, vel cogitativa, omnia phantasmata
+          <lb ed="#P" n="7"/>ad usum illius scientiae, et specierum 
+          intelligi<lb break="no" ed="#P" n="8"/>bilium necessaria: quod eisdem rationibus
+          <lb ed="#P" n="9"/>cum proportione applicatis facile ostendi 
+          po<lb break="no" ed="#P" n="10"/>test. An vero praeter hanc scientiam 
+          natura<lb break="no" ed="#P" n="11"/>lem fuerit alia supernaturalis cognitio, vel
+          <lb ed="#P" n="12"/>scientia Adae infusa, postea dicemus.
+        </p>
+        <p xml:id="szdada-y05712-d1e798">
+          <lb ed="#P" n="13"/>8. De objecto ejusdem scientie. Ac primo loco
+          <lb ed="#P" n="14"/>de rebus materialibus. —Tertia assertio contra
+          <lb ed="#P" n="15"/>Cajetanum et communis. —Circa perfectionem
+          <lb ed="#P" n="16"/>autem individualem illius scientiae nonnulla
+          <lb ed="#P" n="17"/>explicanda sunt. Primum est circa objectum,
+          <lb ed="#P" n="18"/>quas res per illam scientiam Adam cognoverit.
+          <lb ed="#P" n="19"/>Sunt autem res naturaliter ab homine 
+          cogno<lb break="no" ed="#P" n="20"/>scihiles triplicis ordinis, scilicet res 
+          materia<lb break="no" ed="#P" n="21"/>les, res summe immateriales, ut est Deus, et
+          <lb ed="#P" n="22"/>res mediae, ut spirituales creaturae, et de singulis
+          <lb ed="#P" n="23"/>dicendum est. De primis enim fuit singularis
+          <lb ed="#P" n="24"/>opinio Cajetani, Genes.2, circa ila verba:
+          <lb ed="#P" n="25"/>Adduait Deus animalia ad Adam, ut videret,
+          <lb ed="#P" n="26"/>quid vocaret ea. Ex quibus colligit Adae fuisse
+          <lb ed="#P" n="27"/>communicatam scientiam rerum omnium 
+          cor<lb break="no" ed="#P" n="28"/>poralium, exceptis coelis, terra, et maribus,
+          <lb ed="#P" n="29"/>quorum notitia (unquit) homini perfecte 
+          com<lb break="no" ed="#P" n="30"/>municata non fuit. Sed contrarium docent
+          <lb ed="#P" n="31"/>communiter doctores, nam D. Thomas, 1p.,
+          <lb ed="#P" n="32"/>quaest. 94, artic. 3, absolute dicit: Adam 
+          ha<lb break="no" ed="#P" n="33"/>buisse omnium scientium, in quibus homo natus
+          <lb ed="#P" n="34"/>est instrui. Et hec sunt omnia illa, quae 
+          vir<lb break="no" ed="#P" n="35"/>tualiter ecistunt in primis principiis per se
+          <lb ed="#P" n="36"/>notis, quecumque scilicet naturaliter homines
+          <lb ed="#P" n="37"/>cognoscere possunt. Unde infert, in solut. ad 3,
+          <lb ed="#P" n="38"/>non potuisse Adam proficere in scientia quoad
+          <lb ed="#P" n="39"/>numerum scitorum, et idem docet 
+          Donaven<lb break="no" ed="#P" n="40"/>tura, in 2, distin. 23, art. 2, quaest. 1, et Hugo
+          <lb ed="#P" n="41"/>de Sancto Victore, lib. 1, de Sacram., part. 6,
+          <lb ed="#P" n="42"/>cap. 12 et in 13, dicit: Rerum omnium 
+          visi<lb break="no" ed="#P" n="43"/>bilium, que cum homine, et propter lhominem
+          <lb ed="#P" n="44"/>facte erant, perfectam cognitionem hominem
+          <lb ed="#P" n="45"/>accepisse, mulli dubium esse debet, quontum 
+          vi<lb break="no" ed="#P" n="46"/>delicet, sive ad eruditionem anime, sive ad
+          <lb ed="#P" n="47"/>corporalis usus necessitudinem pertinere 
+          vide<lb break="no" ed="#P" n="48"/>batur.
+        </p>
+        <p xml:id="szdada-y05712-d1e880">
+          <lb ed="#P" n="49"/>9. Verba Genesis quibus Cajetani nitebatur
+          <lb ed="#P" n="50"/>pro assertione retorquentur. — Qui omnes id
+          <lb ed="#P" n="51"/>colligunt ex verbis Moysis, et quibus Cajetanus
+          <lb ed="#P" n="52"/>suae opinionis occasionem sumpsit. 
+          Possumus<lb break="no" ed="#P" n="53"/>que ad hominem contra illum argumentari.
+          <lb ed="#P" n="54"/>Nam ex eo, quod Adam imposuit nomina 
+          ter<lb break="no" ed="#P" n="55"/>restribus animalibus, et volatilibus, ipse col-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ligit, etiam piscium, et vegetabilium scientiam
+          <lb ed="#P" n="57"/>communicatam esse Adamo, vel quia est 
+          ejus<lb break="no" ed="#P" n="58"/>dem rationis, vel quia in majori clauditur 
+          mi<lb break="no" ed="#P" n="59"/>nus. Unde, a fortiori, videtur idem 
+          concluden<lb break="no" ed="#P" n="60"/>dum de omnibus mixtis inanimatis, ut sunt
+          <lb ed="#P" n="61"/>mineralia, et similia: nam haec etiam minus
+          <lb ed="#P" n="62"/>perfecta sunt, quam vegetabilia. Ergo eadem
+          <lb ed="#P" n="63"/>ratione idem est de elementis concludendum,
+          <lb ed="#P" n="64"/>tum quia etiam sunt minus perfecta, tum
+          <lb ed="#P" n="65"/>etiam, quia scientia de mixtis sine scientia
+          <lb ed="#P" n="66"/>simplicium perfecte haberi non potest. Ergo
+          <lb ed="#P" n="67"/>immerito Cajetanus excipit terram et mare,
+          <lb ed="#P" n="68"/>quae caeteris elementis ignobiliora sunt. De 
+          coe<lb break="no" ed="#P" n="69"/>lis etiam nulla ratio apparet, cur excipiantur,
+          <lb ed="#P" n="70"/>nam etiam illi sunt minus perfecti, quam 
+          ani<lb break="no" ed="#P" n="71"/>malia, et maxime quam ipsemet homo: ergo,
+          <lb ed="#P" n="72"/>si Adam accepit perfectam scientiam 
+          anima<lb break="no" ed="#P" n="73"/>lium, et ipsius humanae naturae, cur non etiam
+          <lb ed="#P" n="74"/>coelorum: Praeterea est optima ratio, quia
+          <lb ed="#P" n="75"/>coeli sunt causae universales mixtorum, et 
+          si<lb break="no" ed="#P" n="76"/>milium effectuum inferiorum: ergo ad 
+          per<lb break="no" ed="#P" n="77"/>fectam harum rerum scientiam, scientia 
+          coe<lb break="no" ed="#P" n="78"/>lorum necessaria fuit. Argumentor praeterea,
+          <lb ed="#P" n="79"/>quia licet inferiorum rerum cognitio ad usum,
+          <lb ed="#P" n="80"/>et conservationem corporalis vitae magis 
+          for<lb break="no" ed="#P" n="81"/>tasse necessaria sit: ad contemplationem, et
+          <lb ed="#P" n="82"/>laudem creatoris ccelorum scientia, et 
+          consi<lb break="no" ed="#P" n="83"/>deratio magis provocare solet. Adae autem
+          <lb ed="#P" n="84"/>magis est data scientia propter Dei 
+          cognitio<lb break="no" ed="#P" n="85"/>nem, et laudem, quam propter corporis 
+          con<lb break="no" ed="#P" n="86"/>servationem, vel gubernationem, quamvis ad
+          <lb ed="#P" n="87"/>hanc etiam coelorum, et astrorum scientiam
+          <lb ed="#P" n="88"/>non parum conducat. Unde confirmatur haec
+          <lb ed="#P" n="89"/>ratio ex verbis Sapientis supra ponderatis :
+          <lb ed="#P" n="90"/>ostendere illis magnalia operum suorum, ut
+          <lb ed="#P" n="91"/>nomen sanctificationis collaudent, et gloriam
+          <lb ed="#P" n="92"/>in mirabilibus illius, ut magnalia enarrent
+          <lb ed="#P" n="93"/>operum ejus. Illa enim, quae in ordine 
+          natu<lb break="no" ed="#P" n="94"/>rali dici possunt, maxime magnalia Dei, sunt
+          <lb ed="#P" n="95"/>profecto illa, quae in coelis Deus operatus est,
+          <lb ed="#P" n="96"/>et illa maxime ad laudem Dei hominem 
+          exci<lb break="no" ed="#P" n="97"/>tant: ergo illa potissimum comprehendunt
+          <lb ed="#P" n="98"/>verba Sapientis.
+        </p>
+        <p xml:id="szdada-y05712-d1e993">
+          <lb ed="#P" n="99"/>10. Nationes tandem pro prima assertione ad
+          <lb ed="#P" n="100"/>hanc accommodatur.— Praeterea rationes 
+          om<lb break="no" ed="#P" n="101"/>nes, quibus principalem conclusionem 
+          proba<lb break="no" ed="#P" n="102"/>vimus, quae ostendunt scientiam inditam Adae
+          <lb ed="#P" n="103"/>debuisse esse perfectam ex parte rerum 
+          natu<lb break="no" ed="#P" n="104"/>raliter ab homine cognoscibilium, tum ex
+          <lb ed="#P" n="105"/>parte Dei infundentis illam scientiam, nam
+          <lb ed="#P" n="106"/>opera ejus perfecta sunt, tum ex parte 
+          appe<lb break="no" ed="#P" n="107"/>titus, et capacitatis naturalis hominis 
+          recipien<lb break="no" ed="#P" n="108"/>tis, nam ex parte hominis est aequalis, vel certe
+          <lb ed="#P" n="109"/>major ad meliora, et coelestia: tum denique
+          <lb ed="#P" n="110"/>ex parte finis tam actionis, quam contempla-
+          <pb ed="#P" n="232"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tionis, nam ad utramque coelorum cognitio
+          <lb ed="#P" n="2"/>inservire potest. Neque aliqua ratio excipiendi
+          <lb ed="#P" n="3"/>coelos, vel aliquid simile, verisimilis afferri
+          <lb ed="#P" n="4"/>potest. Nam quod Cajetanus ponderat, 
+          Ada<lb break="no" ed="#P" n="5"/>mum imposuisse nomina brutis animalibus,
+          <lb ed="#P" n="6"/>non vero astris, quia hoc soli Deo reservatur,
+          <lb ed="#P" n="7"/>juxta illud Psalm. 146. Qui numerat 
+          multitu<lb break="no" ed="#P" n="8"/>dinem stellarum, et omnilus cis nomina vocat,
+          <lb ed="#P" n="9"/>debilissimum argumentum est, tum quia non
+          <lb ed="#P" n="10"/>omnibus rebus, quarum scientiam Adam 
+          ha<lb break="no" ed="#P" n="11"/>buit, nomina imposuit, ut ipse etiam 
+          Cajeta<lb break="no" ed="#P" n="12"/>nus fatetur: tum etiam, quia falsum est 
+          per<lb break="no" ed="#P" n="13"/>fectam notitiam coelorum, et stellarum soltus
+          <lb ed="#P" n="14"/>Dei esse propriam: nam ex parte objecti etiam
+          <lb ed="#P" n="15"/>Angeli illam habent, et maxime connaturalem.
+          <lb ed="#P" n="16"/>Et Salomoni etiam Deus illam communicavit,
+          <lb ed="#P" n="17"/>nam inter alia, quae ipse numerat Sapientiae 7,
+          <lb ed="#P" n="18"/>quorum scientiam veram a Deo accepit, ponit
+          <lb ed="#P" n="19"/>vicissitudinum permutationes, et commutationes
+          <lb ed="#P" n="20"/>temporwn, anni cursus, et stellarum 
+          disposi<lb break="no" ed="#P" n="21"/>tiones. Unde novum argumentum sumi potest,
+          <lb ed="#P" n="22"/>nam si Salomon hanc scientiam recepit, 
+          mul<lb break="no" ed="#P" n="23"/>to certe magis Adam, quia vel majorem, vel
+          <lb ed="#P" n="24"/>certe non inferiorem scientiam accepit.
+        </p>
+        <p xml:id="szdada-y05712-d1e1078">
+          <lb ed="#P" n="25"/>11. Notatio limitans et explicans tertiam
+          <lb ed="#P" n="26"/>assertionem. — Advertendum est autem, hoc
+          <lb ed="#P" n="27"/>totum intelligendum esse de perfecta scientia
+          <lb ed="#P" n="28"/>humana. Nam, ut diximus, scientia illa Adae
+          <lb ed="#P" n="29"/>non fuit per se, sed per accidens infusa, et
+          <lb ed="#P" n="30"/>ideo scientia, quam habuit de coelis (sicut et
+          <lb ed="#P" n="31"/>de aliis rebus) non transcendit in specie, et
+          <lb ed="#P" n="32"/>substantia illam scientiam, quam per sensus,
+          <lb ed="#P" n="33"/>et per effectus, potest humana natura de 
+          stel<lb break="no" ed="#P" n="34"/>lis, seu coelis comparare. Et ex hac parte potuit
+          <lb ed="#P" n="35"/>illa scientia Adae non esse quidditativa 
+          cogni<lb break="no" ed="#P" n="36"/>tio coelorum, nec comprehensiva omnium 
+          vir<lb break="no" ed="#P" n="37"/>tutum stellarum, et respective etiam potuit
+          <lb ed="#P" n="38"/>eadem scientia Adae esse minus perfecta de
+          <lb ed="#P" n="39"/>coelis, quam de aliis rebus propinquioribus
+          <lb ed="#P" n="40"/>sensibus, quia homo perfectius cognoscere 
+          po<lb break="no" ed="#P" n="41"/>test, quae sensibus magis propinqua, et 
+          pro<lb break="no" ed="#P" n="42"/>portionata sunt, quam ea, quae a sensibus 
+          lon<lb break="no" ed="#P" n="43"/>ge distant. In eo tamen gradu, in quo scientia
+          <lb ed="#P" n="44"/>de coelis ab hominibus acquiri potest, Adamus
+          <lb ed="#P" n="45"/>illam perfectam habuit, et quidquid vel unus,
+          <lb ed="#P" n="46"/>vel plures homines longo tempore, et magna
+          <lb ed="#P" n="47"/>industria, ac multiplici observatione de coelis,
+          <lb ed="#P" n="48"/>aut elementis, aut mixtis consequi possunt, id
+          <lb ed="#P" n="49"/>totum per hanc scientiam Adamo inditum est.
+          <lb ed="#P" n="50"/>Et e contrario quod humana diligentia, et 
+          vir<lb break="no" ed="#P" n="51"/>tute sciri non potest inquirendo, sub illa etiam
+          <lb ed="#P" n="52"/>scientia comprehensum non est.
+        </p>
+        <p xml:id="szdada-y05712-d1e1141">
+          <lb ed="#P" n="53"/>12. Primum corollarium scientium illam non
+          <lb ed="#P" n="54"/>se ectendere ad futura libera.—Ad effectus 
+          fa<lb break="no" ed="#P" n="55"/>turos a casu quousque se extenderit.—Et hinc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fit primo, ut per illam scientiam non 
+          cogno<lb break="no" ed="#P" n="57"/>verit Adam omnia futura contingentia, illa
+          <lb ed="#P" n="58"/>praecipue quae ex libero arbitrio pendent, quia
+          <lb ed="#P" n="59"/>nullum est medium, quo possit homo 
+          natura<lb break="no" ed="#P" n="60"/>liter haec certo cognoscere. De his vero futuris
+          <lb ed="#P" n="61"/>contingentibus, quae ex solis causis 
+          naturali<lb break="no" ed="#P" n="62"/>bus sese impedientibus, sine interventu liberi
+          <lb ed="#P" n="63"/>arbitrii proveniunt, quia in tota collectione
+          <lb ed="#P" n="64"/>causarum necessitatem habent, dubitari 
+          po<lb break="no" ed="#P" n="65"/>test, an potuerit Adam per hanc scientiam illa
+          <lb ed="#P" n="66"/>cognoscere, sicut de Angelis in superioribus
+          <lb ed="#P" n="67"/>affirmavimus. Et sine dubio ex parte objecti
+          <lb ed="#P" n="68"/>non est repugnantia: an vero excedat 
+          capaci<lb break="no" ed="#P" n="69"/>tatem humanam, et ideo excedat totam 
+          latitu<lb break="no" ed="#P" n="70"/>dinem scientiae humanse, etiam per accidens
+          <lb ed="#P" n="71"/>infusae, mihi incertum est. Verisimile autem
+          <lb ed="#P" n="72"/>videtur, aliqua hujusmodi futura, quando non
+          <lb ed="#P" n="73"/>pendent ex concursu multarum causarum, 
+          po<lb break="no" ed="#P" n="74"/>tuisse sub hanc scientiam cadere, quia non 
+          ex<lb break="no" ed="#P" n="75"/>cedit capacitatem humanam, posse simul 
+          col<lb break="no" ed="#P" n="76"/>lectionem illarum causarum, et totam vim
+          <lb ed="#P" n="77"/>agendi, et resistendi earum considerare, et ex
+          <lb ed="#P" n="78"/>eis cognoscere, quid ex eis in tali eventu 
+          pro<lb break="no" ed="#P" n="79"/>veniet, quamvis respectu unius, vel alterius
+          <lb ed="#P" n="80"/>causae contingens sit. Secus vero esse potest,
+          <lb ed="#P" n="81"/>si tot causae concurrant, vel concurrere 
+          va<lb break="no" ed="#P" n="82"/>leant, ut omnes illas simul comprehendere, et
+          <lb ed="#P" n="83"/>animadvertere, supra humanum ingenium 
+          na<lb break="no" ed="#P" n="84"/>turaliter sit. Et ideo dicendum videtur, 
+          sim<lb break="no" ed="#P" n="85"/>pliciter non potuisse Adargum haec omnia 
+          con<lb break="no" ed="#P" n="86"/>tingentia per hanc scientiam cognoscere, licet
+          <lb ed="#P" n="87"/>fortasse aliqua faciliora potuerit. Praeterquam,
+          <lb ed="#P" n="88"/>quod in his omnibus semper potest liberum
+          <lb ed="#P" n="89"/>arbitrium vel Dei, vel hominum intervenire,
+          <lb ed="#P" n="90"/>cursumque naturalium causarum aliquo 
+          mo<lb break="no" ed="#P" n="91"/>do impedire, et ex parte nunquam poterit 
+          ta<lb break="no" ed="#P" n="92"/>lis cognitio esse omnino certa. Nam licet 
+          for<lb break="no" ed="#P" n="93"/>tasse aliquando actio liberi arbitrii 
+          interven<lb break="no" ed="#P" n="94"/>tura non sit, hoc ipsum non poterat homo per
+          <lb ed="#P" n="95"/>hanc scientiam certo cognoscere.
+        </p>
+        <p xml:id="szdada-y05712-d1e1239">
+          <lb ed="#P" n="96"/>13. Secundum corollarium quousque se 
+          ez<lb break="no" ed="#P" n="97"/>tenderit ad preeterita. — Secundo colligitur ex
+          <lb ed="#P" n="98"/>dicto principio, non potuisse Adam per hanc
+          <lb ed="#P" n="99"/>scientiam cognoscere praeterita, ut praeterita
+          <lb ed="#P" n="100"/>sunt, nisi quatenus ex praesentibus indicantur,
+          <lb ed="#P" n="101"/>ut verbi gratia videndo coelum per hanc 
+          scien<lb break="no" ed="#P" n="102"/>tiam optime potuit Adam cognoscere, coelum
+          <lb ed="#P" n="103"/>fuisse creatum, quando autem, vel quanto
+          <lb ed="#P" n="104"/>tempore, antequam ipse fieret, coclum esset
+          <lb ed="#P" n="105"/>creatum, cognoscere non potuit, quia illud
+          <lb ed="#P" n="106"/>prius manifestabatur sufficienter in effectu
+          <lb ed="#P" n="107"/>praesenti, non tamen hoc posterius. Et ratio
+          <lb ed="#P" n="108"/>est, quia praeteritum non potest naturaliter 
+          co<lb break="no" ed="#P" n="109"/>gnosci in seipso per humanam scientiam, cum
+          <lb ed="#P" n="110"/>neque per angelicam cognoscatur, et ideo tan-
+          <pb ed="#P" n="233"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tum cognoscitur, vel per effectum praesentem,
+          <lb ed="#P" n="2"/>ut dictum est, vel per memoriam, quae 
+          for<lb break="no" ed="#P" n="3"/>maliter loquendo non potest esse infusa, ut de
+          <lb ed="#P" n="4"/>Angelis, lib. 2, cap. 12, dixi, sed debet esse
+          <lb ed="#P" n="5"/>relicta, ex praecedenti cognitione. Et ita talis
+          <lb ed="#P" n="6"/>cognitio praeteriti reducitur ad aliquid manens
+          <lb ed="#P" n="7"/>in praesenti ex cognitione praeterita, quamvis
+          <lb ed="#P" n="8"/>differat, quia illud, quod in praesenti manet,
+          <lb ed="#P" n="9"/>non est medium cognitum, sed species 
+          intelli<lb break="no" ed="#P" n="10"/>gibilis, per quam rei prius visae recordamur.
+          <lb ed="#P" n="11"/>Possunt etiam praeterita per relationem, seu
+          <lb ed="#P" n="12"/>testimonium cognosci, sed illa cognitio non
+          <lb ed="#P" n="13"/>pertinet ad scientiam, de qua tractamus, sed
+          <lb ed="#P" n="14"/>ad fidem divinam, et humanam.
+        </p>
+        <p xml:id="szdada-y05712-d1e1309">
+          <lb ed="#P" n="15"/>14. Tertium corollarium quousque se 
+          exten<lb break="no" ed="#P" n="16"/>derit ad presentia maierialia in communi.—
+          <lb ed="#P" n="17"/>Quouwsque ad eorum singularia. —Tertio 
+          colli<lb break="no" ed="#P" n="18"/>gitur ex dictis, quid de cognitione rerum 
+          prae<lb break="no" ed="#P" n="19"/>sentium etiam materialium dicendum sit. 
+          Pos<lb break="no" ed="#P" n="20"/>sumus enim loqui vel de speciebus, seu 
+          es<lb break="no" ed="#P" n="21"/>sentiis rerum materialium, vel de individuis
+          <lb ed="#P" n="22"/>existentibus. Priori modo jam dictum est, 
+          co<lb break="no" ed="#P" n="23"/>JAgnovisse Adam per hanc scientiam omnes res
+          <lb ed="#P" n="24"/>de facto creatas, nam humana scientia ultra
+          <lb ed="#P" n="25"/>illas non extenditur, nimirum ad ea, quae
+          <lb ed="#P" n="26"/>Deus creare potest, creata vero non sunt:
+          <lb ed="#P" n="27"/>quia haec naturaliter scibilia non sunt, nec
+          <lb ed="#P" n="28"/>homo de illis species comparare potest: ad
+          <lb ed="#P" n="29"/>creata vero, humana scientia, quantum est ex
+          <lb ed="#P" n="30"/>se, extendi potest aliquo modo. Posteriori 
+          au<lb break="no" ed="#P" n="31"/>tem modo non est necesse, ut per hanc 
+          scien<lb break="no" ed="#P" n="32"/>tiam Adam cognoverit res omnes singulares,
+          <lb ed="#P" n="33"/>ac materiales actu existentes. Ita docent D.
+          <lb ed="#P" n="34"/>Thomas et omnes in hac materia. Et imprimis
+          <lb ed="#P" n="35"/>si verum est, intellectum hominis non habere
+          <lb ed="#P" n="36"/>in hac vita proprias species individuorum,
+          <lb ed="#P" n="37"/>consequenter dicendum erit, nec Adamum 
+          ha<lb break="no" ed="#P" n="38"/>buisse species illorum, et licet habere potuerit
+          <lb ed="#P" n="39"/>phantasmata, tamen verisimile non est, 
+          ha<lb break="no" ed="#P" n="40"/>buisse illa omnium individuorum jam 
+          creato<lb break="no" ed="#P" n="41"/>rum, nedum omnium postea futurorum. 
+          So<lb break="no" ed="#P" n="42"/>lum ergo credendum est, in singulis rerum
+          <lb ed="#P" n="43"/>naturis habuisse species, vel phantasmata 
+          ali<lb break="no" ed="#P" n="44"/>cujus individui, vel aliquorum, quia inde 
+          per<lb break="no" ed="#P" n="45"/>fici solet, et distinctior esse speciei cognitio.
+          <lb ed="#P" n="46"/>Tamen ubi individuorum multitudo magna
+          <lb ed="#P" n="47"/>erat, non fuit necessarium individuorum 
+          om<lb break="no" ed="#P" n="48"/>nium habere proprias species, quia hoc neque
+          <lb ed="#P" n="49"/>ad perfectionem intellectus per se pertinet,
+          <lb ed="#P" n="50"/>neque etiam ad cognoscendam perfecte 
+          speci<lb break="no" ed="#P" n="51"/>ficam essentiam, multum refert, et ideo eorum
+          <lb ed="#P" n="52"/>tantum cognitionem accepit, quae ad usum, et
+          <lb ed="#P" n="53"/>ad instructionem aliorum sufticerent. Reliqua
+          <lb ed="#P" n="54"/>vero vel per propriam experientiam cognovit,
+          <lb ed="#P" n="55"/>vel si nunquam sensibus occurzerunt sine im-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>perfectione privativa (ut vocant) ignorari 
+          sem<lb break="no" ed="#P" n="57"/>per potuerunt.
+        </p>
+        <p xml:id="szdada-y05712-d1e1408">
+          <lb ed="#P" n="58"/>15. Quartum corollarium quod non se 
+          exten<lb break="no" ed="#P" n="59"/>derit ad internas cogitationes. — Quarto 
+          colli<lb break="no" ed="#P" n="60"/>gitur ex dictis non cognovisse Adamum per
+          <lb ed="#P" n="61"/>hanc scientiam aliorum hominum internas
+          <lb ed="#P" n="62"/>cogitationes etiam existentes. Hoc etiam 
+          cer<lb break="no" ed="#P" n="63"/>tum est apud omnes, quia hae cogitationes
+          <lb ed="#P" n="64"/>non cadunt sub humanam scientiam, ut est
+          <lb ed="#P" n="65"/>in Scriptura notum. Et ratione patet, quia 
+          nul<lb break="no" ed="#P" n="66"/>lum est medium quo possit homo naturaliter
+          <lb ed="#P" n="67"/>in hujusmodi actuum cognitionem pervenire.
+          <lb ed="#P" n="68"/>Item, quia etiam Angeli non habuerunt 
+          scien<lb break="no" ed="#P" n="69"/>tiam harum cognitionum per species sibia
+          <lb ed="#P" n="70"/>principio infusas: ergo multo minus homo
+          <lb ed="#P" n="71"/>illam habuit. Imo in hoc inferior invenitur,
+          <lb ed="#P" n="72"/>quod Angelus licet non videat actus 
+          intellec<lb break="no" ed="#P" n="73"/>tus, et voluntatis, videt saltem actus 
+          phanta<lb break="no" ed="#P" n="74"/>siae, et appetitus sensitivi: homo vero neque
+          <lb ed="#P" n="75"/>hoc potest penetrare, et ideo neque Adamus
+          <lb ed="#P" n="76"/>per suam scientiam illos actus cognoscere 
+          va<lb break="no" ed="#P" n="77"/>lebat. Hoc autem totum intelligendum est de
+          <lb ed="#P" n="78"/>scientia evidente, intuitiva, seu 
+          experimen<lb break="no" ed="#P" n="79"/>tali talium actuum, nam cognitio aliqua 
+          ab<lb break="no" ed="#P" n="80"/>stractiva per signa, conjecturas, vel effectus
+          <lb ed="#P" n="81"/>haberi potest, non solum ab Angelo, sed etiam
+          <lb ed="#P" n="82"/>ab homine de his actibus. Et ad hujusmodi
+          <lb ed="#P" n="83"/>cognitionem utilis esse poterat Adae scientia
+          <lb ed="#P" n="84"/>infusa, nam licet sola non sufticeret, quia 
+          ne<lb break="no" ed="#P" n="85"/>cessarium erat experiri signa, vel effectus 
+          ta<lb break="no" ed="#P" n="86"/>lium actuum, nihilominus ad connexionem
+          <lb ed="#P" n="87"/>inter talia externa signa, et tales actus 
+          inter<lb break="no" ed="#P" n="88"/>nos universalis scientia infusa multum 
+          deser<lb break="no" ed="#P" n="89"/>vire poterat. Et haec sufficiunt de objecto illius
+          <lb ed="#P" n="90"/>scientiae, quantum ad res materiales attinet,
+          <lb ed="#P" n="91"/>sub quibus hominem cum suis actibus 
+          com<lb break="no" ed="#P" n="92"/>prehendimus.
+        </p>
+        <p xml:id="szdada-y05712-d1e1486">
+          <lb ed="#P" n="93"/>16. Secundo loco videndum an dicta scientia
+          <lb ed="#P" n="94"/>complectatur in suo objecto rem summe 
+          imma<lb break="no" ed="#P" n="95"/>terialem. — Assertio quarta id affirmans. —
+          <lb ed="#P" n="96"/>Secundo loco dicendum est de Deo, qui est 
+          su<lb break="no" ed="#P" n="97"/>premum intelligibile objectum. Et imprimis
+          <lb ed="#P" n="98"/>dicimus scientiam Adae infusam Deum sub 
+          ob<lb break="no" ed="#P" n="99"/>jecto suo comprehendisse, imo propter illius
+          <lb ed="#P" n="100"/>cognitionem praecipue datam esse. Probatur,
+          <lb ed="#P" n="101"/>quia DEUS potest ab homine naturaliter 
+          co<lb break="no" ed="#P" n="102"/>gnosci, et est praecipuum objectum, et finis 
+          to<lb break="no" ed="#P" n="103"/>tius humanae scientiae, sed scientia Adae fuit
+          <lb ed="#P" n="104"/>perfectissima intra capacitatem scientiae 
+          hu<lb break="no" ed="#P" n="105"/>manae: ergo. Item cum Deus sit universalis
+          <lb ed="#P" n="106"/>causa omnium rerum, nullius rei creatae 
+          po<lb break="no" ed="#P" n="107"/>test esse perfecta cognitio, si ignoretur Deus.
+          <lb ed="#P" n="108"/>Vel e contrario cum res creatae perfecte 
+          cogni<lb break="no" ed="#P" n="109"/>tae ducant in cognitionem Dei, cujus sunt 
+          ves<lb break="no" ed="#P" n="110"/>tigia, non potest esse scientia perfecta de crea-
+          <pb ed="#P" n="234"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>turis quin aliquo modo sub objecto suo Deum
+          <lb ed="#P" n="2"/>comprehendat: ergo de scientia Adae, cum
+          <lb ed="#P" n="3"/>fuerit valde perfecta, idem necessario 
+          dicen<lb break="no" ed="#P" n="4"/>dum est. Consequenter tamen addendum est,
+          <lb ed="#P" n="5"/>Deum non fuisse comprehensum sub hac 
+          scien<lb break="no" ed="#P" n="6"/>tia, nisi quatenus ex creaturis visibilibus 
+          co<lb break="no" ed="#P" n="7"/>gnosci potest. Probatur, quia scientia humana,
+          <lb ed="#P" n="8"/>quae per lumen naturale intellectus comparari
+          <lb ed="#P" n="9"/>potest, non aliter attingit DEUM; sed scientia
+          <lb ed="#P" n="10"/>infusa Adae fuit ejusdem speciei cum acquisita:
+          <lb ed="#P" n="11"/>ergo non albter attingebat Deum. Praeterea
+          <lb ed="#P" n="12"/>dictum est, Adam non cognovisse per hanc
+          <lb ed="#P" n="13"/>scientiam, nisi per conversionem ad 
+          phantas<lb break="no" ed="#P" n="14"/>mata: ergo, cum Adam de Deo cogitabat per
+          <lb ed="#P" n="15"/>hanc scientiam, etiam convertebatur ad 
+          phan<lb break="no" ed="#P" n="16"/>tasmata: ergo non cognoscebat illum, nisi
+          <lb ed="#P" n="17"/>quatenus potest aliquo modo ex rebus 
+          sensi<lb break="no" ed="#P" n="18"/>bilibus cognosci, quia de his tantum rebus
+          <lb ed="#P" n="19"/>dantur in nobis phantasmata. Unde a fortiori
+          <lb ed="#P" n="20"/>concluditur non habuisse Adam in hac scientia
+          <lb ed="#P" n="21"/>speciem intelligibilem, quae Deum ipsum 
+          di<lb break="no" ed="#P" n="22"/>recte repraesentaret, quia talis species licet
+          <lb ed="#P" n="23"/>esset possibilis, non esset per accidens, sed per
+          <lb ed="#P" n="24"/>se infusa: diximus autem totam hanc 
+          scien<lb break="no" ed="#P" n="25"/>tiam Adae fuisse tantum per accidens infusam.
+          <lb ed="#P" n="26"/>Item neque Angelorum, neque ipsius 
+          mate<lb break="no" ed="#P" n="27"/>rialis substantiae proprias species accepit. quia
+          <lb ed="#P" n="28"/>per sensus non abstrahuntur: ergo multo 
+          mi<lb break="no" ed="#P" n="29"/>nus habuit speciem Dei. Contrarium tamen
+          <lb ed="#P" n="30"/>solet tribui Scoto, in 2, distin. 3, quaest. 9, sed
+          <lb ed="#P" n="31"/>ibi tantum de Angelis loquitur. Et licet obiter
+          <lb ed="#P" n="32"/>dicat hominem in statu innocentiae habere 
+          po<lb break="no" ed="#P" n="33"/>tuisse notitiam Dei aliquo modo distinctam,
+          <lb ed="#P" n="34"/>tamen statim addit, Angelum potuisse habere
+          <lb ed="#P" n="35"/>perfectiorem. Sed quidquid ipse senserit supra
+          <lb ed="#P" n="36"/>ostendimus, illam sententiam esse falsam, et
+          <lb ed="#P" n="37"/>impossibilem etiam in Angelis: ergo multo
+          <lb ed="#P" n="38"/>magis in homine.
+        </p>
+        <p xml:id="szdada-y05712-d1e1614">
+          <lb ed="#P" n="39"/>17. D. Thomas objicitur. — Objiciet fortasse
+          <lb ed="#P" n="40"/>aliquis doctrinam D. Thomae, d. quaest. 93,
+          <lb ed="#P" n="41"/>artic. 1, ubi postquam dixit, Adamum in statu
+          <lb ed="#P" n="42"/>innocentiae non vidisse Deum per essentiam,
+          <lb ed="#P" n="43"/>subdit, cognovisse Deum altiori cognitione,
+          <lb ed="#P" n="44"/>quam nos cognoscamus, ac subinde habuisse
+          <lb ed="#P" n="45"/>cognitionem mediam inter cognitionem 
+          nos<lb break="no" ed="#P" n="46"/>tram et beatorum. Unde videtur sentire, 
+          scien<lb break="no" ed="#P" n="47"/>tiam hanc, quam Adam de Deo habuit, fuisse
+          <lb ed="#P" n="48"/>alterius rationis, quam scientia nostra, et ab
+          <lb ed="#P" n="49"/>omni illa, quae de Deo potest ab homine 
+          ratio<lb break="no" ed="#P" n="50"/>naliter acquiri. Et statim differentiam 
+          assi<lb break="no" ed="#P" n="51"/>gnare videtur, quia homo tantum per effectus
+          <lb ed="#P" n="52"/>sensibiles, Adam vero per intelligibiles Deum
+          <lb ed="#P" n="53"/>contemplabatur, quia cum esset creatus rectus,
+          <lb ed="#P" n="54"/>non impediebatur (ait D. Thomas) per res 
+          ea<lb break="no" ed="#P" n="55"/>teriores a clara, et firma contemplatione intel-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ligibilium effectmmn, quos em irradiatione 
+          gri<lb break="no" ed="#P" n="57"/>m ceritatis percipiebat. Considerandum 
+          ta<lb break="no" ed="#P" n="58"/>men est aliud esse loqui absolute de cognitione
+          <lb ed="#P" n="59"/>Adae: aliud vero de cognitione particulari per
+          <lb ed="#P" n="60"/>hanc scientiam per accidens infusam, vel etiam
+          <lb ed="#P" n="61"/>per cognitionem simpliciter naturalem. D.
+          <lb ed="#P" n="62"/>Thomas ergo in illo articulo abstracte 
+          loqui<lb break="no" ed="#P" n="63"/>tur de cognitione sive naturali, sive gratuita,
+          <lb ed="#P" n="64"/>ut in fine corporis aperte declarat. Deinde
+          <lb ed="#P" n="65"/>comparatio inter scientiam Adae, et nostram
+          <lb ed="#P" n="66"/>de Deo fieri potest, vel in perfectione essentiali,
+          <lb ed="#P" n="67"/>vel tantum in accidentali.
+        </p>
+        <p xml:id="szdada-y05712-d1e1682">
+          <lb ed="#P" n="68"/>18. Respondetur jam ad objectionem ex D.
+          <lb ed="#P" n="69"/>Thoma.—bDico ergo cognitionem, quam Adam
+          <lb ed="#P" n="70"/>habuit de Deo scientiam infusam per accidens,
+          <lb ed="#P" n="71"/>non fuisse essentialiter perfectiorem, quam
+          <lb ed="#P" n="72"/>sit nostra cognitio naturalis Dei in praesenti
+          <lb ed="#P" n="73"/>statu. Hoc probant rationes factae. Probabile
+          <lb ed="#P" n="74"/>autem est excessisse in perfectionibus 
+          acci<lb break="no" ed="#P" n="75"/>dentalibus, et praesertim in actuali 
+          considera<lb break="no" ed="#P" n="76"/>tione, quia primus homo in sua creatione non
+          <lb ed="#P" n="77"/>habebat illa impedimenta, quae ad 
+          contem<lb break="no" ed="#P" n="78"/>plandum plane Deum nos habemus. 
+          Differen<lb break="no" ed="#P" n="79"/>tia autem illa de cognitione per effectus 
+          sen<lb break="no" ed="#P" n="80"/>sibiles, vel intelligibiles fortasse magis habet
+          <lb ed="#P" n="81"/>locum in cognitione supernatural, de qua 
+          pos<lb break="no" ed="#P" n="82"/>tea dicemus, nunc enim tantum de naturali
+          <lb ed="#P" n="83"/>tractamus. Et in hac non video, per quos 
+          ef<lb break="no" ed="#P" n="84"/>fectus intelligibiles potuerit Adam, magis
+          <lb ed="#P" n="85"/>quam nos Deum cognoscere, quia vel illi sunt
+          <lb ed="#P" n="86"/>Angeli, et illos fere tam imperfecte 
+          cognosce<lb break="no" ed="#P" n="87"/>bat Adam, sicut nos, ut statim dicam. Vel sunt
+          <lb ed="#P" n="88"/>anima ipsa cum actibus ejus, quos ipsi in 
+          no<lb break="no" ed="#P" n="89"/>bis experimur, et ex iis etiam nos possumus
+          <lb ed="#P" n="90"/>cognoscere Deum, et praeterea quaecumque
+          <lb ed="#P" n="91"/>sint ista intelligibiha, non possumus ad illa
+          <lb ed="#P" n="92"/>pervenire, nisi per sensibilia, nec illa 
+          conci<lb break="no" ed="#P" n="93"/>pere, nisi cum connexione ad phantasmata,
+          <lb ed="#P" n="94"/>quam imperfectionem etiam in primo statu
+          <lb ed="#P" n="95"/>Adam habuit. Igitur solum potuit excedere nos
+          <lb ed="#P" n="96"/>in hac cognitione quoad accidentalem 
+          perfec<lb break="no" ed="#P" n="97"/>tionem, quia et propter animi tranquillitatem
+          <lb ed="#P" n="98"/>magis poterat attendere ad haec intelligibilia
+          <lb ed="#P" n="99"/>naturalia contemplanda, cum ordine ad Deum:
+          <lb ed="#P" n="100"/>et propter habitum, et species infusas valde
+          <lb ed="#P" n="101"/>perfectas etiam ipsos actus, per quos 
+          cogno<lb break="no" ed="#P" n="102"/>scitur Deus, perfectius cognoscebat, quae tota
+          <lb ed="#P" n="103"/>differentia respectu cognitionis Dei 
+          accidenta<lb break="no" ed="#P" n="104"/>lis est.
+        </p>
+        <p xml:id="szdada-y05712-d1e1765">
+          <lb ed="#P" n="105"/>10. Secundo loco videndum an dicta 
+          scien<lb break="no" ed="#P" n="106"/>Ltia complectatur in suo objecto Angelos. -
+          <lb ed="#P" n="107"/>Partis negantis argumentum. — Assertio 
+          quin<lb break="no" ed="#P" n="108"/>ta affirnans probatur. — Tertio loco 
+          posui<lb break="no" ed="#P" n="109"/>mus Angelos in latitudine hujus objecti,
+          <lb ed="#P" n="110"/>quod videri potest dubium, quia licet An-
+          <pb ed="#P" n="235"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>geli in natura propinquiores homini sint,
+          <lb ed="#P" n="2"/>quam Deus, in cognitione magis ab illo 
+          dis<lb break="no" ed="#P" n="3"/>tant, quia tam ipse homo, quam aliae res 
+          uni<lb break="no" ed="#P" n="4"/>versi non ita ab Angelis sicut a Deo pendent.
+          <lb ed="#P" n="5"/>Nihilominus tamen verisimile est etiam 
+          Ange<lb break="no" ed="#P" n="6"/>los fuisse comprehensos sub hac scientia Adae.
+          <lb ed="#P" n="7"/>Probatur primo, quia philosophi Gentiles sine
+          <lb ed="#P" n="8"/>revelatione, aliquam notitiam Angelorum 
+          ha<lb break="no" ed="#P" n="9"/>buerunt per scientiam acquisitam, et 
+          inven<lb break="no" ed="#P" n="10"/>tionem: ergo comprehenduntur Angeli aliquo
+          <lb ed="#P" n="11"/>modo sub adaequato objecto humanae scientiae
+          <lb ed="#P" n="12"/>acquisitae: sed quidquid naturaliter cognosci
+          <lb ed="#P" n="13"/>potest ab homine, perfectius fuit cognitum ab
+          <lb ed="#P" n="14"/>Adamo per scientiam infusam: ergo illa
+          <lb ed="#P" n="15"/>etiam extensa fuit ad Angelos. Dices, 
+          philoso<lb break="no" ed="#P" n="16"/>phos non habuisse notitiam Angelorum per
+          <lb ed="#P" n="17"/>solam inventionem ex effectibus, sed per 
+          tra<lb break="no" ed="#P" n="18"/>ditionem aliquam humanam. Velsi ex 
+          effecti<lb break="no" ed="#P" n="19"/>bus aliquid intellexerunt, illi non fuerunt 
+          ef<lb break="no" ed="#P" n="20"/>fectus mere naturales, sed liberi, et 
+          extraor<lb break="no" ed="#P" n="21"/>dinarii a bonis, vel frequentius a malis Angelis
+          <lb ed="#P" n="22"/>facti, quorum cognitio nec in Adam fuit, nec
+          <lb ed="#P" n="23"/>ad naturalem hominis cognitionem per se 
+          per<lb break="no" ed="#P" n="24"/>tinet. Respondetur, Aristotelem ex motibus
+          <lb ed="#P" n="25"/>coelorum cognovisse intelligentias motrices
+          <lb ed="#P" n="26"/>eorum, et inde etiam in aliquam cognitionem
+          <lb ed="#P" n="27"/>plurium substantiarum separatarum supra
+          <lb ed="#P" n="28"/>coelum habitantium pervenisse, ut ex 8. 
+          Phy<lb break="no" ed="#P" n="29"/>sicor., et ex 12, Metaphysicae, et ex 1, de Coclo
+          <lb ed="#P" n="30"/>colligitur, et notavit Eugubius, libr. 4, de
+          <lb ed="#P" n="31"/>peren. Philos., cap. 2, unde quod de traditione
+          <lb ed="#P" n="32"/>dicitur, magis incertum est: quod si aliqua
+          <lb ed="#P" n="33"/>fuit, videtur quidem emanasse ex praedictis
+          <lb ed="#P" n="34"/>sensibilius effectibus, qui virtute daemonum,
+          <lb ed="#P" n="35"/>vel aliorum spirituum fiunt, et per quamdam
+          <lb ed="#P" n="36"/>experientiam, ubique, et semper innotuisse
+          <lb ed="#P" n="37"/>hominibus videntur. Sed hic etiam modus 
+          co<lb break="no" ed="#P" n="38"/>gnitionis fuit possibilis per scientiam infusam
+          <lb ed="#P" n="39"/>primorum hominum. Unde existimo quando
+          <lb ed="#P" n="40"/>serpens tentavit Evam, per hanc scientiam 
+          in<lb break="no" ed="#P" n="41"/>telligere potuisse eum, qui loquebatur non
+          <lb ed="#P" n="42"/>fuisse verum animal irrationale, sed fuisse
+          <lb ed="#P" n="43"/>aliquem spiritum separatum, qui illo corpore
+          <lb ed="#P" n="44"/>sub illa figura ad secum loquendum 
+          uteba<lb break="no" ed="#P" n="45"/>tur.
+        </p>
+        <p xml:id="szdada-y05712-d1e1882">
+          <lb ed="#P" n="46"/>20. Quomodo dicta scientia attingebat 
+          Ange<lb break="no" ed="#P" n="47"/>los. —Ut autem hoc magis declaretur, addimus,
+          <lb ed="#P" n="48"/>Angelos non ita fuisse sub hac scientia Adae
+          <lb ed="#P" n="49"/>comprehensos, ut directe et per proprias 
+          spe<lb break="no" ed="#P" n="50"/>cies illos potuerit Adam cognoscere, quia 
+          hu<lb break="no" ed="#P" n="51"/>jusmodi species non sunt connaturales homini,
+          <lb ed="#P" n="52"/>quia non possunt per sensus acquiri. Unde licet
+          <lb ed="#P" n="53"/>fortasse anima separata talium specierum 
+          ca<lb break="no" ed="#P" n="54"/>pax sit, et directe ac proprio conceptu Angelos
+          <lb ed="#P" n="55"/>cognoscere possit, nihilominus talis cognitio,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vel species Angeli primo homini communicata
+          <lb ed="#P" n="57"/>non est, quia, ut diximus, cognoscebat cum
+          <lb ed="#P" n="58"/>dependentia a phantasmatibus, quam anima
+          <lb ed="#P" n="59"/>separata non habet. Solum ergo per effectus,
+          <lb ed="#P" n="60"/>et per species rerum materialium, et maxime
+          <lb ed="#P" n="61"/>per cognitionem animae suae, potuit Adam 
+          se<lb break="no" ed="#P" n="62"/>cundum hanc scientiam Angelos cognoscere.
+          <lb ed="#P" n="63"/>Ulterius vero animadverti potest, duo posse de
+          <lb ed="#P" n="64"/>Angelis naturaliter cognosci, scilicet, vel esse
+          <lb ed="#P" n="65"/>possibiles, vel esse factos. Primum istorum 
+          po<lb break="no" ed="#P" n="66"/>terat per hanc scientiam cognosci cum 
+          eviden<lb break="no" ed="#P" n="67"/>tia quadam et certitudine naturalhi, quamvis
+          <lb ed="#P" n="68"/>confuso quodam et imperfecto modo, quantum
+          <lb ed="#P" n="69"/>ad modum concipiendi Angelorum essentiam
+          <lb ed="#P" n="70"/>et naturam possibilem. heclaratur prior pars,
+          <lb ed="#P" n="71"/>quia quod Angelus sit possibilis non pendet ex
+          <lb ed="#P" n="72"/>libera voluntate Dei, sed est necessarium ex vi
+          <lb ed="#P" n="73"/>omnipotentiae ejus cum non repugnantia ex
+          <lb ed="#P" n="74"/>parte talis objecti: sed Adam ex eftectibus Dei
+          <lb ed="#P" n="75"/>cognoscebat evidenter omnipotentiam ejus, ut
+          <lb ed="#P" n="76"/>ex dictis patet, et poterat etiam cognoscere non
+          <lb ed="#P" n="77"/>repugnantiam ex parte spiritualium 
+          substan<lb break="no" ed="#P" n="78"/>tiarum, nam hanc sufficienter ostendit ipsa
+          <lb ed="#P" n="79"/>anima rationalis, ut supra in principio hujus
+          <lb ed="#P" n="80"/>operis deductum est. Imo videtur illa non 
+          re<lb break="no" ed="#P" n="81"/>pugnantia per se nota ex terminis, supposita
+          <lb ed="#P" n="82"/>cognitione Dei, qui est suprema substantia 
+          spi<lb break="no" ed="#P" n="83"/>ritualis completa, quia non est, unde repugnet,
+          <lb ed="#P" n="84"/>dari aliquam participationem ejus, quae in 
+          eo<lb break="no" ed="#P" n="85"/>dem gradu completa substantia sit. Secundum
+          <lb ed="#P" n="86"/>autem, scilicet has substantias esse, pendet ex
+          <lb ed="#P" n="87"/>voluntate Dei libera, et ideo naturaliter minus
+          <lb ed="#P" n="88"/>notum est hominibus, et fuit etiam primo 
+          ho<lb break="no" ed="#P" n="89"/>mini. Nihilominus tamen magna probabilitate,
+          <lb ed="#P" n="90"/>et vehementi conjectura id assequi potuit 
+          mul<lb break="no" ed="#P" n="91"/>to perfectius, quam philosophi naturales id
+          <lb ed="#P" n="92"/>cognoverunt. Utraque tamen cognitio erat per
+          <lb ed="#P" n="93"/>conceptus universales, quia Angeli utroque
+          <lb ed="#P" n="94"/>modo ex vi effectuum solum concipiuntur sub
+          <lb ed="#P" n="95"/>ratione substantiae spiritualis, intellectualis et
+          <lb ed="#P" n="96"/>creatae, ac completae, et independentis a 
+          cor<lb break="no" ed="#P" n="97"/>pore in sua cognitione, sicut etiam in esse, et
+          <lb ed="#P" n="98"/>in eo gradu cognoscitur esse, vel posset esse
+          <lb ed="#P" n="99"/>multitudinem et varietatem, quae omnia 
+          con<lb break="no" ed="#P" n="100"/>fusa et universalia sunt. Neque ex vi hujus
+          <lb ed="#P" n="101"/>scientiae habuit Adam principia, per se, quae in
+          <lb ed="#P" n="102"/>cognitionem magis propriam, aut distinctam
+          <lb ed="#P" n="103"/>Angelorum perveniret.
+        </p>
+        <p xml:id="szdada-y05712-d1e2013">
+          <lb ed="#P" n="104"/>21. Cujus perfectionis esentialis fuerint 
+          ac<lb break="no" ed="#P" n="105"/>tus preedictae scientiae. — Cujus item perfectionis
+          <lb ed="#P" n="106"/>accidentalis.—MAtque ex his, quae de natura et
+          <lb ed="#P" n="107"/>objecto hujus scientiae diximus, facile intelligi
+          <lb ed="#P" n="108"/>potest, quales et cujus perfectionis actus hujus
+          <lb ed="#P" n="109"/>scientiae fuerint: jam enim dictum est, ipsam
+          <lb ed="#P" n="110"/>scientiam fuisse ejusdem speciei cum acquisita
+          <pb ed="#P" n="236"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>humana: inde ergo optime sequitur, actus 
+          in<lb break="no" ed="#P" n="2"/>telligendi, quos Adam per hanc scientiam 
+          ha<lb break="no" ed="#P" n="3"/>bere potuit, ejusdem speciei fuisse cum actibus,
+          <lb ed="#P" n="4"/>quos nos exercemus. Quia actus proportionati
+          <lb ed="#P" n="5"/>sunt habitibus et speciebus, a quibus 
+          proce<lb break="no" ed="#P" n="6"/>dunt: et similiter actus procedentes ab 
+          habiti<lb break="no" ed="#P" n="7"/>bus ejusdem speciei sunt cum actibus 
+          praece<lb break="no" ed="#P" n="8"/>dentibus, qui habitus efficiunt, vel efficere
+          <lb ed="#P" n="9"/>possunt. Nihilominus tamen in modo, seu 
+          per<lb break="no" ed="#P" n="10"/>fectione accidentali usus illius scientiae, et 
+          ac<lb break="no" ed="#P" n="11"/>tus ejus multis rationibus caeterorum hominum
+          <lb ed="#P" n="12"/>actus excedere potuerunt. Primo propter 
+          excel<lb break="no" ed="#P" n="13"/>dentiam ingenii, quamin Adamo fuisse diximus.
+          <lb ed="#P" n="14"/>Secundo propter optimum corporis 
+          tempera<lb break="no" ed="#P" n="15"/>mentum et magnam perfectionem internorum
+          <lb ed="#P" n="16"/>et externorum sensuum, quae ad munus 
+          intelli<lb break="no" ed="#P" n="17"/>gendi multum juvat. Tertio, quia verisimile
+          <lb ed="#P" n="18"/>est, species, et phantasmata a Deo infusa fuisse
+          <lb ed="#P" n="19"/>perfectissima et subtilissima intra naturalem
+          <lb ed="#P" n="20"/>ordinem, et habitum ipsius scientiae fuisse
+          <lb ed="#P" n="21"/>valde intensum. Denique habuit Adam in illo
+          <lb ed="#P" n="22"/>statu, ut infra dicemus, quamdam naturae 
+          in<lb break="no" ed="#P" n="23"/>tegritatem per subordinationem appetitus 
+          in<lb break="no" ed="#P" n="24"/>ferioris ad superiorem, quae omnem animae
+          <lb ed="#P" n="25"/>perturbationem et involuntariam 
+          distractio<lb break="no" ed="#P" n="26"/>nem auferebat: quae animi compositio ad 
+          per<lb break="no" ed="#P" n="27"/>fectam intelligentiam et considerationem 
+          mul<lb break="no" ed="#P" n="28"/>tum juvat. Igitur ex his principiis et 
+          circeum<lb break="no" ed="#P" n="29"/>stantiis facile intelligitur, actus hujus scientiae
+          <lb ed="#P" n="30"/>fuisse longe majoris perfectionis, quam in
+          <lb ed="#P" n="31"/>caeteris hominibus esse soleant.
+        </p>
+        <p xml:id="szdada-y05712-d1e2102">
+          <lb ed="#P" n="32"/>22. Anilla Adami scientia fuerit discursiva.
+          <lb ed="#P" n="33"/>— De discursu per successionem responsio em
+          <lb ed="#P" n="34"/>Ariminensi. — Dubitari vero potest, utrum in
+          <lb ed="#P" n="35"/>cognitione per hanc scientiam Adam fuerit
+          <lb ed="#P" n="36"/>usus discursu, et illo indiguerit. Est autem
+          <lb ed="#P" n="37"/>duplex discursus, unus tantum successivus,
+          <lb ed="#P" n="38"/>alius causalis, seu illativus, ut in lib. 2, de 
+          An<lb break="no" ed="#P" n="39"/>gelis, cap. 33, explicuimus, et de utroque 
+          in<lb break="no" ed="#P" n="40"/>terrogari potest. Nam de primo invenio 
+          Gre<lb break="no" ed="#P" n="41"/>gorium, in 2, d. 11, quaest. 1, art. 1, circa 
+          pri<lb break="no" ed="#P" n="42"/>mam conclusionem dicentem hominem in statu
+          <lb ed="#P" n="43"/>innocentiae et naturalis integritatis simul 
+          po<lb break="no" ed="#P" n="44"/>tuisse uti omnibus speciebus quas in mente
+          <lb ed="#P" n="45"/>habebat, atque ita potuisse simul actu 
+          intelli<lb break="no" ed="#P" n="46"/>gere omnia, quae habitu sciebat. Ex quo recte
+          <lb ed="#P" n="47"/>sequitur non indiguisse discursu successivo, per
+          <lb ed="#P" n="48"/>quem non omnia simul sed successive 
+          cogno<lb break="no" ed="#P" n="49"/>scuntur. Fundamentum Gregorii est, quia nunc
+          <lb ed="#P" n="50"/>tarditas et successio cognitionis nostrae 
+          prove<lb break="no" ed="#P" n="51"/>nit ex corpore corruptibili, quod aggravat
+          <lb ed="#P" n="52"/>animam: sed in Adam non erat hoc 
+          impedi<lb break="no" ed="#P" n="53"/>mentum, nam ex peccato ortum est, ut sentit
+          <lb ed="#P" n="54"/>Augustinus 4, Genes., ad litter., cap. 32 et 15,
+          <lb ed="#P" n="55"/>de Trinitate, cap. 24, ergo potuit Adam absque
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>impedimento corporis omnia simul 
+          contem<lb break="no" ed="#P" n="57"/>plari, quae sciebat.
+        </p>
+        <p xml:id="szdada-y05712-d1e2163">
+          <lb ed="#P" n="58"/>23. Improbatur responsio. — Haec vero 
+          sen<lb break="no" ed="#P" n="59"/>tentia parum vel nihil probabilitatis habet, ut
+          <lb ed="#P" n="60"/>recte notavit Capreolus, in 2, d. 3, quaeest. 2,
+          <lb ed="#P" n="61"/>art. 3, ad 2, cont. 9 concl. et ad 4, Gregorii,
+          <lb ed="#P" n="62"/>cont. eamdem. Idemque habet Major in cadem
+          <lb ed="#P" n="63"/>dict. quaest. 5, S Propter ista, qui tamen addit,
+          <lb ed="#P" n="64"/>potuisse Adam ante peccatum habere plures
+          <lb ed="#P" n="65"/>notitias simul, quam post peccatum quod est
+          <lb ed="#P" n="66"/>verisimile, propter circumstantias illius status
+          <lb ed="#P" n="67"/>supra ponderatas. Quod autem non potuerit
+          <lb ed="#P" n="68"/>simul habere omnes actus, ad quos habebat
+          <lb ed="#P" n="69"/>species, satis evidens est; quia neque Angeli
+          <lb ed="#P" n="70"/>hoc possunt, ut supra ostendimus. Unde 
+          con<lb break="no" ed="#P" n="71"/>stat hanc impotentiam in nobis non provenire
+          <lb ed="#P" n="72"/>ex corporis corruptibilitate et defatigatione,
+          <lb ed="#P" n="73"/>sed ex intrinseca limitatione intellectus 
+          hu<lb break="no" ed="#P" n="74"/>mani, qui pluribus intentus minor est in 
+          sin<lb break="no" ed="#P" n="75"/>gulis. Cujus etiam signum est, quia in initio
+          <lb ed="#P" n="76"/>cogitationis, prius quam sensus defatigentur:
+          <lb ed="#P" n="77"/>experimur eamdem difficultatem in attentione
+          <lb ed="#P" n="78"/>ad res varias simul, et per diversos actus, seu
+          <lb ed="#P" n="79"/>per modum plurium. Et ita possunt 
+          accommo<lb break="no" ed="#P" n="80"/>dari caetera, quae in simili puncto de Angelis
+          <lb ed="#P" n="81"/>diximus in proprio tract., lib. 2, cap. 37.
+        </p>
+        <p xml:id="szdada-y05712-d1e2218">
+          <lb ed="#P" n="82"/>24. Ad Augustinum allatum in fine n. 22.—
+          <lb ed="#P" n="83"/>Ncque contra hoc obstant, quae ex Augustino
+          <lb ed="#P" n="84"/>Gregorius adducit, nam in priori loco Genesis
+          <lb ed="#P" n="85"/>non tractat de scientia Adae, sed de nostra, nec
+          <lb ed="#P" n="86"/>de usu scientiae infusae, sed de illa scientia 
+          re<lb break="no" ed="#P" n="87"/>rum, quam per sensus acquirimus, de qua
+          <lb ed="#P" n="88"/>manifestum est tardius et difficilius, et magna
+          <lb ed="#P" n="89"/>temporis mora fieri propter corpus coruptibile,
+          <lb ed="#P" n="90"/>quod aggravat animam. Unde non fit in statu
+          <lb ed="#P" n="91"/>innocentiae nullam fuisse necessariam temporis
+          <lb ed="#P" n="92"/>moram ad cogitandum de rebus omnibus, et
+          <lb ed="#P" n="93"/>multo magis ad consequendam illarum 
+          scien<lb break="no" ed="#P" n="94"/>tiam, si denuo filis Adae per proprios actus
+          <lb ed="#P" n="95"/>acquirenda esset. Sed hoc labore sic acquirendi
+          <lb ed="#P" n="96"/>scientiam non indiguit Adam, et in hoc sensu
+          <lb ed="#P" n="97"/>videtur loqui Augustinus in alio loco de 
+          Tri<lb break="no" ed="#P" n="98"/>nitate cum dicit: Quod homines non laborarent
+          <lb ed="#P" n="99"/>in intelligendo (utique inquirendo) natusam
+          <lb ed="#P" n="100"/>mentis lhunanee, et via ad certum aliquid 
+          per<lb break="no" ed="#P" n="101"/>venirent, nisi ponalibus tenebris involuti. et
+          <lb ed="#P" n="102"/>onerati corpore corruptibili, quod aggracat 
+          ani<lb break="no" ed="#P" n="103"/>man. Addi etiam potest nunc impediri saepe
+          <lb ed="#P" n="104"/>hominem corpore corruptibili non solum ne
+          <lb ed="#P" n="105"/>simul possit multa cogitare, verum etiam ut
+          <lb ed="#P" n="106"/>nec de una re possit libere considerare, quod
+          <lb ed="#P" n="107"/>impedimentum in statu innocentia non ita
+          <lb ed="#P" n="108"/>pateretur.
+        </p>
+        <p xml:id="szdada-y05712-d1e2279">
+          <lb ed="#P" n="109"/>25. De discursu per causalitatem quid 
+          signi<lb break="no" ed="#P" n="110"/>ficet D. Thomas. — Arguitur tamen contra ci-
+          <pb ed="#P" n="237"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tata verba divi Thoma. — Circa discursum vero
+          <lb ed="#P" n="2"/>proprium et argumentativum invenio D. 
+          Tho<lb break="no" ed="#P" n="3"/>mam, in dict. quaest. 94, art. 1, ad 3, 
+          signifi<lb break="no" ed="#P" n="4"/>cantem, primum hominem non cognovisse
+          <lb ed="#P" n="5"/>Deum naturali scientia per demonstrationem
+          <lb ed="#P" n="6"/>ex aliquo effectu, nec indiguisse discursu, sicut
+          <lb ed="#P" n="7"/>nobis est necessarius. Haec vero sententia 
+          sim<lb break="no" ed="#P" n="8"/>pliciter, et ut sonat intellecta, difficilis est.
+          <lb ed="#P" n="9"/>Quia necessitas discursus non provenit ex 
+          cor<lb break="no" ed="#P" n="10"/>poris corruptibilitate sed vel ex sola intrinseca
+          <lb ed="#P" n="11"/>limitatione intellectus hominis, vel ex 
+          depen<lb break="no" ed="#P" n="12"/>dentia a phantasmatibus: sed Adam in statu
+          <lb ed="#P" n="13"/>innocentiae, et habebat eamdem limitationem
+          <lb ed="#P" n="14"/>intellectus, et dependebat a phantasmatibus:
+          <lb ed="#P" n="15"/>ergo eamdem difticultatem discurrendi 
+          habe<lb break="no" ed="#P" n="16"/>bat. Item Adam intelligebat componendo et
+          <lb ed="#P" n="17"/>dividendo: ergo etiam discurrendo. 
+          Antece<lb break="no" ed="#P" n="18"/>dens probatur, quia necessitas compositionis
+          <lb ed="#P" n="19"/>in nostro intellectu, provenit ex limitatione
+          <lb ed="#P" n="20"/>singularum specierum, sed species Adae erant
+          <lb ed="#P" n="21"/>ejusdem rationis: ut ostendimus: ergo etiam
+          <lb ed="#P" n="22"/>modus cognoscendi componendo et dividendo.
+          <lb ed="#P" n="23"/>Consequentia vero clara est, quia eadem vel
+          <lb ed="#P" n="24"/>major ratio in compositione per discursum 
+          in<lb break="no" ed="#P" n="25"/>venitur. Ad D. Thomam ergo dicimus, ipsum
+          <lb ed="#P" n="26"/>in aliis locis docuisse, ad proprium discursum
+          <lb ed="#P" n="27"/>necessariam esse temporis successionem, ut
+          <lb ed="#P" n="28"/>patet, cap. 1 part., quaest. 58, art. 3 et 4, et
+          <lb ed="#P" n="29"/>supra etiam adnotavimus. In hoc ergo loco 
+          vi<lb break="no" ed="#P" n="30"/>detur excludere ab Adamo discursum in hoc
+          <lb ed="#P" n="31"/>rigore sumptum, praesertim cum Deum ex 
+          ef<lb break="no" ed="#P" n="32"/>fectibus cognoscebat. Quod est probabile, quia
+          <lb ed="#P" n="33"/>cum Adam jam haberet species rerum et 
+          ha<lb break="no" ed="#P" n="34"/>bitum perfectum, et alias contemplari posset
+          <lb ed="#P" n="35"/>effectum, verbi gratia, seipsum, et Deum per
+          <lb ed="#P" n="36"/>modum unius: simul poterat effectum, et Deum
+          <lb ed="#P" n="37"/>ex effectu cognoscere. Nihilominus tamen non
+          <lb ed="#P" n="38"/>erat illa cognitio sine discursu, quatenus in
+          <lb ed="#P" n="39"/>rigore sine temporis successione per illationem
+          <lb ed="#P" n="40"/>et efficaciam unius actus ex alio subsistere 
+          po<lb break="no" ed="#P" n="41"/>test.
+        </p>
+        <p xml:id="szdada-y05712-d1e2379">
+          <lb ed="#P" n="42"/>26. De habituali scientia, quod non fuerit
+          <lb ed="#P" n="43"/>simplex qualitas. — Ultimo dicendum est de
+          <lb ed="#P" n="44"/>perfectione hujus scientiae, quantum ad 
+          habi<lb break="no" ed="#P" n="45"/>tum, de quo interrogari potest, an fuerit adeo
+          <lb ed="#P" n="46"/>perfectus, ut in una simplici qualitate omnes
+          <lb ed="#P" n="47"/>scientias contineret. Sed hoc nihil habet 
+          dubi<lb break="no" ed="#P" n="48"/>tationis, suppositis, quae diximus. Nam cum
+          <lb ed="#P" n="49"/>illa scientia fuerit tantum per accidens infusa,
+          <lb ed="#P" n="50"/>necessarium fuit tot habitus specie distinctos
+          <lb ed="#P" n="51"/>in ea fuisse multiplicatos, quot ab hominibus
+          <lb ed="#P" n="52"/>acquiruntur, seu acquiri possunt, quia non
+          <lb ed="#P" n="53"/>possent plures habitus specie distincti in uno
+          <lb ed="#P" n="54"/>contineri, nisi ille esset altioris ordinis, 
+          infe<lb break="no" ed="#P" n="55"/>riores eminenter potius, quam formaliter com-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>plectens. Fuerunt ergo in illa scientia habitus
+          <lb ed="#P" n="57"/>primorum principiorum (si in nobis acquisitus
+          <lb ed="#P" n="58"/>aliquis est, et ab intellectu distinctus) et 
+          habi<lb break="no" ed="#P" n="59"/>tus Metaphysicae, seu sapientiae, et habitus
+          <lb ed="#P" n="60"/>philosophiaee, ac mathematicae cum omnibus
+          <lb ed="#P" n="61"/>speciebus suis, et praeterea prudentiae, et artis
+          <lb ed="#P" n="62"/>illi statui convenientis, qui fuerunt valde 
+          per<lb break="no" ed="#P" n="63"/>fecti quoad extensionem ut diximus, atque
+          <lb ed="#P" n="64"/>etiam quoad intensionem convenientem illi
+          <lb ed="#P" n="65"/>statui, quamvis certum gradum definire solus
+          <lb ed="#P" n="66"/>Deus potuerit. Quo circa quando de illis 
+          habi<lb break="no" ed="#P" n="67"/>tibus tanquam de una scientia loquimur, et
+          <lb ed="#P" n="68"/>nomine scientic late utimur prout virtutem
+          <lb ed="#P" n="69"/>intellectualem significat, et unitatem non 
+          sim<lb break="no" ed="#P" n="70"/>plicem, sed collectivam plurium habituum 
+          in<lb break="no" ed="#P" n="71"/>telhigimus.
+        </p>
+        <p xml:id="szdada-y05712-d1e2450">
+          <lb ed="#P" n="72"/>27. An primi parentes in hac scientia proficere
+          <lb ed="#P" n="73"/>potuerint quasi extensive. —RHhesponsio D. 
+          Tho<lb break="no" ed="#P" n="74"/>ma eaplicatur.—Undefacile expeditur quaestio,
+          <lb ed="#P" n="75"/>utrum primi homines in hac natural scientia
+          <lb ed="#P" n="76"/>proficere potuerint? Quam etiam attingit divus
+          <lb ed="#P" n="77"/>Thomas, in dict. art. 3, ad 3, et respondet
+          <lb ed="#P" n="78"/>non potuisse proficere quoad numerum 
+          scito<lb break="no" ed="#P" n="79"/>rum, potuisse tamen quoad modum sciendi.
+          <lb ed="#P" n="80"/>Nam quia humana scientia naturas universales
+          <lb ed="#P" n="81"/>contemplatur, et de omnibus illis, quae 
+          natu<lb break="no" ed="#P" n="82"/>raliter ab homine cognosci possunt, Adam 
+          ha<lb break="no" ed="#P" n="83"/>buit infusam scientiam, merito dicit quoad
+          <lb ed="#P" n="84"/>numerum scitorum non potuisse in illa 
+          profi<lb break="no" ed="#P" n="85"/>cere. Quia vero non cognoscebat per species
+          <lb ed="#P" n="86"/>infusas omnia singularia, ideo quoad species
+          <lb ed="#P" n="87"/>illorum crescere in perfectione scientiae potuit.
+          <lb ed="#P" n="88"/>Et ita quoad hoc munus non erat otiosus 
+          in<lb break="no" ed="#P" n="89"/>tellectus agens in illo statu, nam poterat 
+          sin<lb break="no" ed="#P" n="90"/>gularum rerum species intelligibiles efficere,
+          <lb ed="#P" n="91"/>ut nos credimus. Atque hinc etiam potuit
+          <lb ed="#P" n="92"/>Adam experientiam acquirere, seu 
+          experimen<lb break="no" ed="#P" n="93"/>talem scientiam acquirendo proficere, sicut
+          <lb ed="#P" n="94"/>etiam de Christo concedunt, etiam qui 
+          opinan<lb break="no" ed="#P" n="95"/>tur, illum habuisse scientiam per accidens 
+          in<lb break="no" ed="#P" n="96"/>fusam. Atque ita de Adamo sentiunt D. 
+          Tho<lb break="no" ed="#P" n="97"/>mas supra, et Bonaventura, dicta distinct. 23,
+          <lb ed="#P" n="98"/>art. 9. quaest. 1, et ibi Richardus, Egidius et
+          <lb ed="#P" n="99"/>Chartusius, et Alexander Alensis, 2 p.. q. 92,
+          <lb ed="#P" n="100"/>membr. 1, et membr. 2, art. 3, et videri 
+          pos<lb break="no" ed="#P" n="101"/>sunt, quae in simili a nobis dicta sunt in
+          <lb ed="#P" n="102"/>1 tom., 3 part., disputat. 30, sect. 2.
+        </p>
+        <p xml:id="szdada-y05712-d1e2520">
+          <lb ed="#P" n="103"/>28. An proficere potuerint intensive. —WHaec
+          <lb ed="#P" n="104"/>autem omnia procedunt de perfectione quasi
+          <lb ed="#P" n="105"/>extensiva, dubitari autem ulterius potest de
+          <lb ed="#P" n="106"/>intensiva: nam quod in illa proficere potuerit,
+          <lb ed="#P" n="107"/>significant Bonaventura, Alensis et /Egidius
+          <lb ed="#P" n="108"/>dum dicunt, potuisse proficere Adam non
+          <lb ed="#P" n="109"/>quoad novum habitum, sed quantum ad 
+          ma<lb break="no" ed="#P" n="110"/>jorem, seu perfectiorem habitum faciendi,
+          <pb ed="#P" n="238"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nam illa major perfectio non videtur esse 
+          po<lb break="no" ed="#P" n="2"/>tuisse, nisi intensiva. Unde addit Bonaventura
+          <lb ed="#P" n="3"/>quod proficere poterat quantum ad majorem
+          <lb ed="#P" n="4"/>habilitationem, quia ex frequenti 
+          considera<lb break="no" ed="#P" n="5"/>tione fieret promptior, et paratior ad 
+          judican<lb break="no" ed="#P" n="6"/>dum de rebus, quarum cognitionem per 
+          habi<lb break="no" ed="#P" n="7"/>tum innatum habebat. Sed in contrarium est,
+          <lb ed="#P" n="8"/>quia habitus non intenditur nisi per 
+          intensio<lb break="no" ed="#P" n="9"/>nes actus, sed habitus infusi Adae fuerunt valde
+          <lb ed="#P" n="10"/>intensi, ut diximus: ergo difficile, creditu est,
+          <lb ed="#P" n="11"/>habuisse Adam actus intensiores ipsis 
+          habiti<lb break="no" ed="#P" n="12"/>bus: ergo etiam est difficile creditu profecisse
+          <lb ed="#P" n="13"/>inilla scientia quoad habitus intensionem. Haec
+          <lb ed="#P" n="14"/>ergo pars satis probabilis est, quamvis incerta.
+          <lb ed="#P" n="15"/>Unde si aliqua major facilitas adjungebatur
+          <lb ed="#P" n="16"/>Adae ex usu talis scientiae, addi poterat ex 
+          con<lb break="no" ed="#P" n="17"/>junctione, et usu experimentalis cognitionis,
+          <lb ed="#P" n="18"/>sine nova habituum intensione.
+        </p>
+        <p xml:id="szdada-y05712-d1e2583">
+          <lb ed="#P" n="19"/>29. Adami ne an Salomonis scientia major.
+          <lb ed="#P" n="20"/>— Posterius affirmat Abulensis ex 3, Reg.3
+          <lb ed="#P" n="21"/>et 4. — Prius tamen probabilius. — Tandem
+          <lb ed="#P" n="22"/>solet hic fieri comparatio inter hanc scientiam
+          <lb ed="#P" n="23"/>Adae, et similem Salomoni infusam, utra 
+          fue<lb break="no" ed="#P" n="24"/>rit perfectior. Nam Abulensis, lib. 3, Regum.,
+          <lb ed="#P" n="25"/>cap. 3, quaest. 7, praefert scientiam Salomonis
+          <lb ed="#P" n="26"/>propter verba illa cap. 3: Dedi tibi cor 
+          sa<lb break="no" ed="#P" n="27"/>piens et intelligens, in tantum ut nullus ante
+          <lb ed="#P" n="28"/>te similis lui Tuerit, nec post te surrecturus sit.
+          <lb ed="#P" n="29"/>Et illa cap. 4: Preecedebat sapientia Salomonis,
+          <lb ed="#P" n="30"/>sapientiam omnium orientalium et Egyptiorum,
+          <lb ed="#P" n="31"/>et erat sapientior cunctis hominibus. 
+          Nihilomi<lb break="no" ed="#P" n="32"/>nus probabilius est, in hac naturah scientia
+          <lb ed="#P" n="33"/>Adamum majorem perfectionem consecutum
+          <lb ed="#P" n="34"/>fuisse Salomone. Quia in Adamo fuit tanquam
+          <lb ed="#P" n="35"/>in capite et magistro totius posteritatis, 
+          prae<lb break="no" ed="#P" n="36"/>sertim in his, quae ad naturam pertinent.
+          <lb ed="#P" n="37"/>Item, quia illi erat magis necessaria, ut 
+          con<lb break="no" ed="#P" n="38"/>stat. Item quia verisimile est excessisse Adam
+          <lb ed="#P" n="39"/>in perfectione intellectus et ingenii cui scientia
+          <lb ed="#P" n="40"/>proportionatur, et ita in hoc puncto 
+          consen<lb break="no" ed="#P" n="41"/>tiunt ex nostris Benedictus Pereira, lib. 5, in
+          <lb ed="#P" n="42"/>Gen., et Valentius, 1 tom., disp. 7, quaest. 1,
+          <lb ed="#P" n="43"/>puncto 1, et Pineda, lib. 3, de rebus Salom.,
+          <lb ed="#P" n="44"/>cap. 10.
+        </p>
+        <p xml:id="szdada-y05712-d1e2642">
+          <lb ed="#P" n="45"/>30. Ad loca Scripture pro Abulense. — Nec
+          <lb ed="#P" n="46"/>verba Scripturae obstant, quia non fuit in eis
+          <lb ed="#P" n="47"/>comparatio ad omnes omnino homines nec in
+          <lb ed="#P" n="48"/>omni genere sapientiae. Imo in posteriori loco
+          <lb ed="#P" n="49"/>solum videtur fieri comparatio ad omnes 
+          ho<lb break="no" ed="#P" n="50"/>mines, qui tunc erant sapientia illustres: vel
+          <lb ed="#P" n="51"/>quos fama sapientissimos praedicabat. In altero
+          <lb ed="#P" n="52"/>vero fit comparatio ad omnes homines, qui via
+          <lb ed="#P" n="53"/>humana, et ordinaria sapientiam consecuti
+          <lb ed="#P" n="54"/>sunt, et praeterea recte dici potuit, nullum
+          <lb ed="#P" n="55"/>fuisse similem Salomoni in sapientia, quia for-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tasse nullus homo purus habuit tantam 
+          per<lb break="no" ed="#P" n="57"/>fectionem simul in utraque scientia 
+          speculati<lb break="no" ed="#P" n="58"/>ya, et practica naturali, et morali, seu civili,
+          <lb ed="#P" n="59"/>et pertinente ad reipublicae gubernationem.
+          <lb ed="#P" n="60"/>Nam fortasse in hac posteriori parte Salomon
+          <lb ed="#P" n="61"/>superavit Adamum, cujus statui tam 
+          necessa<lb break="no" ed="#P" n="62"/>ria non erat illa practica scientia, seu 
+          pruden<lb break="no" ed="#P" n="63"/>tia civilis, sicut fuit Salomoni, et ideo ipse
+          <lb ed="#P" n="64"/>hanc praecipue a Deo postulasse videtur, 
+          illam<lb break="no" ed="#P" n="65"/>que accepit perfectissimam, et ad majorem 
+          h<lb break="no" ed="#P" n="66"/>berahtatem ostendendam, addidit ei Deus 
+          na<lb break="no" ed="#P" n="67"/>turalem scientiam satis perfectam. In hac vero
+          <lb ed="#P" n="68"/>dicimus excelluisse Adamum, quia ejus statui
+          <lb ed="#P" n="69"/>erat magis opportuna, simulque accepit aliam
+          <lb ed="#P" n="70"/>satis perfectam, suo tamen statui sufficientem
+          <lb ed="#P" n="71"/>et convenientem, ideoque non est 
+          inconve<lb break="no" ed="#P" n="72"/>niens, quod in ea aequalis Salomoni non fuerit.
+          <lb ed="#P" n="73"/>De Christo autem Domino nihil dicere oportet,
+          <lb ed="#P" n="74"/>quia propter dignitatem personae in omni 
+          scien<lb break="no" ed="#P" n="75"/>tia, et perfectione omnes superavit.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

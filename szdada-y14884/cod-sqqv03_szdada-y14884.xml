@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="609"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y14884"><!-- t3l2c12 -->
+        <head xml:id="szdada-y14884-Hd1e101">Caput 12</head>
+        <head xml:id="szdada-y14884-Hd1e103" type="question-title">Quidnam sit subjectum generativae potentiae</head>
+        <p xml:id="szdada-y14884-d1e106">
+          <lb ed="#P" n="9"/>CAPUT XII.
+          <lb ed="#P" n="10"/>QUIDNAM SIT SUBJECTUM GENERATIVAE POTENTIAE.
+        </p>
+        <p xml:id="szdada-y14884-d1e113">
+          <lb ed="#P" n="11"/>1. Primum dubium ejusque resolutio.—Haec
+          <lb ed="#P" n="12"/>quaestio per quaedam dubia melius, et brevius
+          <lb ed="#P" n="13"/>resolvetur, quorum primum est, an haec 
+          po<lb break="no" ed="#P" n="14"/>tentia in omnibus viventibus, an tantum in
+          <lb ed="#P" n="15"/>quibusdam inveniatur. Dicendumque in 
+          qui<lb break="no" ed="#P" n="16"/>busdam tantum dari: quoniam actio 
+          gene<lb break="no" ed="#P" n="17"/>randi a quibusdam tantum potest exerceri :
+          <lb ed="#P" n="18"/>ergo potentia tantum recepitur in illis: 
+          po<lb break="no" ed="#P" n="19"/>tentia vero ibi tantum reperiri potest, ubi et
+          <lb ed="#P" n="20"/>actus. Instabis, omnia viventia habent 
+          calo<lb break="no" ed="#P" n="21"/>rem naturalem, potentia autem seminis 
+          ela<lb break="no" ed="#P" n="22"/>boratrix, ipse est naturalis calor: ergo, etc.
+          <lb ed="#P" n="23"/>Occurrendum non quemlibet naturalem 
+          calo<lb break="no" ed="#P" n="24"/>rem esse productivum seminis, sed 
+          attempe<lb break="no" ed="#P" n="25"/>ratum, qualem non obtinent quaelibet viventia
+          <lb ed="#P" n="26"/>sine discrimine. Ad haec naturalis calor primo
+          <lb ed="#P" n="27"/>decoquit alimentum ad nutritionem viventis
+          <lb ed="#P" n="28"/>requisitum: inter viventia vero sunt, quibus
+          <lb ed="#P" n="29"/>tantum suppetit facultas praeparandi, quod ad
+          <lb ed="#P" n="30"/>propriam sustentationem et conservationem
+          <lb ed="#P" n="31"/>sufficit: ergo, etc.
+        </p>
+        <p xml:id="szdada-y14884-d1e161">
+          <lb ed="#P" n="32"/>2. Secundum dubium pro quo videndus
+          <lb ed="#P" n="33"/>auctor, tom. 29, in 3 p., disp. 10, sect. 2.—
+          Se<lb break="no" ed="#P" n="34"/>cundo dubitari potest, an generandi potentia
+          <lb ed="#P" n="35"/>solis viris insit, an etiam foeminis? Aristoteles 1,
+          <lb ed="#P" n="36"/>de Generatione animalium, cap.2 et 20 et 15,
+          <lb ed="#P" n="37"/>de Animalibus, cap. 25 et 26, sentit solum
+          <lb ed="#P" n="38"/>inesse viris, ait enim virile semen totam 
+          effi<lb break="no" ed="#P" n="39"/>cientiam in generatione sortiri, foeminam
+          <lb ed="#P" n="40"/>vero semen non emittere, sed ministrare 
+          ma<lb break="no" ed="#P" n="41"/>teriam, oppositum docuerat Hippocrates, lib.
+          <lb ed="#P" n="42"/>de Genitura et lib. de Animatione foetus, cui
+          <lb ed="#P" n="43"/>accessit Galenus, lib. de Spermate. Nos hanc
+          <lb ed="#P" n="44"/>quaestionem tetigimus 2 Physicorum, q. 3,
+          <lb ed="#P" n="45"/>ubi Hippocratis opinionem probabiliorem 
+          cen<lb break="no" ed="#P" n="46"/>suimus. Unde addimus potentiam 
+          generati<lb break="no" ed="#P" n="47"/>vam esse ejusdem rationis in maribus et 
+          foe<lb break="no" ed="#P" n="48"/>minis, probaturque ex dictis supra. Nam 
+          po<lb break="no" ed="#P" n="49"/>tentia generativa duo eflicit in semine, crassam
+          <lb ed="#P" n="50"/>scilicet substantiam, et spiritum in ea 
+          com<lb break="no" ed="#P" n="51"/>plantatum: potentiam ad primum consiat
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>communem esse, cum substantia illa non aliud
+          <lb ed="#P" n="53"/>sit praeter sanguinem digestum, et decoctum
+          <lb ed="#P" n="54"/>ad nutritionem quorumdam membrorum; in
+          <lb ed="#P" n="55"/>foeminis autem virtus est ad coquendum 
+          san<lb break="no" ed="#P" n="56"/>guinem illo modo, cum illum interdum 
+          emit<lb break="no" ed="#P" n="57"/>tant: ergo, etc. Quod deinde possint semini
+          <lb ed="#P" n="58"/>vim eftectivam imprimere probatur: quia
+          <lb ed="#P" n="59"/>fortasse non possent ex defectu nativi caloris,
+          <lb ed="#P" n="60"/>quod falsum esse constat, cum foeminae saepe
+          <lb ed="#P" n="61"/>sint calidiores viris: unde citatus Hippocrates
+          <lb ed="#P" n="62"/>scribit foeminas emittere interdum calidius 
+          se<lb break="no" ed="#P" n="63"/>men et efficacius, quam viros, effectusque
+          <lb ed="#P" n="64"/>ipse comprobat, nam seepe filii simillimi 
+          ma<lb break="no" ed="#P" n="65"/>tribus nascuntur, quod non nisi ad virtutem
+          <lb ed="#P" n="66"/>effectivam referri potest. Nam similitudo
+          <lb ed="#P" n="67"/>provenit ex forma inductiva: effectus ergo
+          <lb ed="#P" n="68"/>assimilatur inducenti: ergo mater active 
+          con<lb break="no" ed="#P" n="69"/>currit, et de his satis.
+        </p>
+        <p xml:id="szdada-y14884-d1e249">
+          <lb ed="#P" n="70"/>3. Objectio prima contra superiorem 
+          doctri<lb break="no" ed="#P" n="71"/>nam, de qua vide auctorem, t. 2, in 3 p.,
+          <lb ed="#P" n="72"/>disp. 10. — Objectio secunda. — Supersunt 
+          ta<lb break="no" ed="#P" n="73"/>men argumenta duo, Theologicum unum,
+          <lb ed="#P" n="74"/>Physicum aliud. Theologicum est non videri
+          <lb ed="#P" n="75"/>necessarium, ut mater semen ad prolem 
+          ela<lb break="no" ed="#P" n="76"/>boret, illudque suppeditet generando ne 
+          alio<lb break="no" ed="#P" n="77"/>quin Virgini matri, quae Christum Dominum
+          <lb ed="#P" n="78"/>verissime genuit, praedictas actiones attribuere
+          <lb ed="#P" n="79"/>cogamus, quae tantae integritati videntur 
+          dero<lb break="no" ed="#P" n="80"/>gare. Sed hac de re suo loco. Secundum 
+          argu<lb break="no" ed="#P" n="81"/>mentum physicum, quoniam si foemina habet
+          <lb ed="#P" n="82"/>vim efficiendi semen, de sola posset concipere
+          <lb ed="#P" n="83"/>et generare: nam intra se habet materiam, ex
+          <lb ed="#P" n="84"/>qua habet etiam vim activam: ergo non est
+          <lb ed="#P" n="85"/>necessarium virile semen. hespondetur, licet
+          <lb ed="#P" n="86"/>possit foemina semen procreare, non tamen
+          <lb ed="#P" n="87"/>adeo efficax, ut sufficiat ad formationem foetus
+          <lb ed="#P" n="88"/>sine commixtione virilis seminis. Adde, si
+          <lb ed="#P" n="89"/>complexio foeminae minus calida sit, semen
+          <lb ed="#P" n="90"/>quoque minus erit sufficiens, si vero nimis
+          <lb ed="#P" n="91"/>calida, fortius quidem semen suppeditabit, 
+          ma<lb break="no" ed="#P" n="92"/>teria tamen ad generandam prolem minor erit
+          <lb ed="#P" n="93"/>ob vim caloris nihil superflui ex alimento 
+          re<lb break="no" ed="#P" n="94"/>linquentis.
+        </p>
+        <p xml:id="szdada-y14884-d1e306">
+          <lb ed="#P" n="95"/>4. Tertium dubium.— Tria ad vim generandi
+          <lb ed="#P" n="96"/>necessaria.—Jam tertio dubitavit, aliquis 
+          quae<lb break="no" ed="#P" n="97"/>nam viventia generandi potentia destituantur.
+          <lb ed="#P" n="98"/>Aristoteles 2, de Anima, capite quarto, docet
+          <lb ed="#P" n="99"/>productionem sui similis convenire viventibus
+          <lb ed="#P" n="100"/>perfectis, si membris debitis orbata non sint,
+          <lb ed="#P" n="101"/>quorum est proprium ex semine oriri. Tria
+          <lb ed="#P" n="102"/>ergo videtur postulare in vivente, ut possit
+          <lb ed="#P" n="103"/>generationem exercere: primo ut sit 
+          perfec<lb break="no" ed="#P" n="104"/>tum, id est, in aetate sufliciente ad illum 
+          ac<lb break="no" ed="#P" n="105"/>tum. Secundum est, ne vivens sit orbatum, aut
+          <lb ed="#P" n="106"/>naturaliter impeditum, quales execti, frigidi,
+          <pb ed="#P" n="610"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et similes, de quibus Aristoteles, 8, de 
+          Histo<lb break="no" ed="#P" n="2"/>ria, capit. primo, secundo et quinto, de 
+          Ge<lb break="no" ed="#P" n="3"/>neratione, capit. septimo, et sectione decima
+          <lb ed="#P" n="4"/>problematum, quaestion. vigesima quinta 
+          hu<lb break="no" ed="#P" n="5"/>jusmodi sunt viventia, quae in tota specie 
+          ca<lb break="no" ed="#P" n="6"/>rent hac virtute, recensetque Aristoteles 3, de
+          <lb ed="#P" n="7"/>Gener. animal., capit. sexto. Tertium 
+          requisi<lb break="no" ed="#P" n="8"/>tum est, ut vivens ex semine productum 
+          fue<lb break="no" ed="#P" n="9"/>rit, quod videtur addisse ad differentiam 
+          eo<lb break="no" ed="#P" n="10"/>rum viventium, quae ex putrefactione, vel ex
+          <lb ed="#P" n="11"/>mixtione elementorum absque semine 
+          gene<lb break="no" ed="#P" n="12"/>rantur, de quibus ipse agit quinto de Hist.,
+          <lb ed="#P" n="13"/>cap. 1.
+        </p>
+        <p xml:id="szdada-y14884-d1e367">
+          <lb ed="#P" n="14"/>5. An genita ec puiri materia ejusdem 
+          spe<lb break="no" ed="#P" n="15"/>ciei sint cum genitis ex semine, de qua vide
+          <lb ed="#P" n="16"/>Coniinb. 2, de Caeelo, c. 3, q. 1. — Unde innuit
+          <lb ed="#P" n="17"/>animalia ex putrefactione genita non habere
+          <lb ed="#P" n="18"/>virtutem sibi simile generandi, atque adeo
+          <lb ed="#P" n="19"/>specie distincta esse ab iis, quae fiunt ex 
+          se<lb break="no" ed="#P" n="20"/>mine. Idem insinuat, 2, de Generatione 
+          ani<lb break="no" ed="#P" n="21"/>malium, capite primo, ubi Commentator id
+          <lb ed="#P" n="22"/>affirmat, indicatque divus Thomas, in 1, 
+          dis<lb break="no" ed="#P" n="23"/>tinctione decima, artic. quinto, de Veritate,
+          <lb ed="#P" n="24"/>quaest. duodecima, articul. secundo ad quarto
+          <lb ed="#P" n="25"/>de Potentia, quaest. tertia, articulo undecimo
+          <lb ed="#P" n="26"/>ad primum, et aperte Jandunus 7, 
+          Metaphysi<lb break="no" ed="#P" n="27"/>cae, quaest. decimaquarta. Sed quid in hoc 
+          sen<lb break="no" ed="#P" n="28"/>tiendum sit, diximus in 2, Physicorum, 
+          trac<lb break="no" ed="#P" n="29"/>taturque libro septimo Metaphysicae ubi 
+          Son<lb break="no" ed="#P" n="30"/>cinas, quaest. duodecima, Javellas, quaest.
+          <lb ed="#P" n="31"/>undecima, Antonius Andreas, quaest. octava et
+          <lb ed="#P" n="32"/>undecima, Scotus, in 1, distinct. 2, quaest. 7,
+          <lb ed="#P" n="33"/>Cajetanus, 3 part., quaest. 28, articul. 1, 
+          Fer<lb break="no" ed="#P" n="34"/>rarius 3, contra, cap. 69, qui omnes tradunt
+          <lb ed="#P" n="35"/>opinionem positam a nobis citato loco 
+          Physi<lb break="no" ed="#P" n="36"/>corum. Aristoteles autem loco illo de Anima
+          <lb ed="#P" n="37"/>exponendus est de iis speciebus animalium, in
+          <lb ed="#P" n="38"/>quibus non est distinctio sexuum: nam haec
+          <lb ed="#P" n="39"/>vel proprie non generant, ut de anguillis 
+          re<lb break="no" ed="#P" n="40"/>fertur 6, de Historia, cap. 15 et 16, vel non
+          <lb ed="#P" n="41"/>nisi rem dissimilem in specie, ut de bombyce
+          <lb ed="#P" n="42"/>dicitur, ac de iis, qua ova pariunt absque
+          <lb ed="#P" n="43"/>commixtione maris: atque ita exponit ipse
+          <lb ed="#P" n="44"/>Aristoteles, lib. 1, de Generatione animal.,
+          <lb ed="#P" n="45"/>cap. 1 et 16, et libro 5, cap. 1, 8et 9, et
+          <lb ed="#P" n="46"/>sect. 10, Problematum, quaest. 14, Plinius,
+          <lb ed="#P" n="47"/>lib. 10, Histor., cap. 68.
+        </p>
+        <p xml:id="szdada-y14884-d1e443">
+          <lb ed="#P" n="48"/>6. An omne animal quod ea semine 
+          produci<lb break="no" ed="#P" n="49"/>tur nasci possit ev pulri materia. — Lege, si
+          <lb ed="#P" n="50"/>placet, auctorem, lib., de Angelis, cap. 38, a
+          <lb ed="#P" n="51"/>nwum. 9. — An vero omne animal ex semine
+          <lb ed="#P" n="52"/>genitum possit etiam ex putrefactione 
+          gene<lb break="no" ed="#P" n="53"/>rari, ut putavit Avicenna, libro de Diluvio, et
+          <lb ed="#P" n="54"/>libro 15, de Animalibus, quaestio est alio loco
+          <lb ed="#P" n="55"/>tractata, solum est advertendum Augustinum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>epistola 49, ad Deo gratias, et 3, de Trinitate,
+          <lb ed="#P" n="57"/>cap. 7, videri ex parte consentire opinioni
+          <lb ed="#P" n="58"/>Avicennae, quatenus ait serpentes Magorum
+          <lb ed="#P" n="59"/>opera factos, fuisse veros, cum tamen non 
+          fue<lb break="no" ed="#P" n="60"/>rint ex semine: fortasse vero non erant 
+          ani<lb break="no" ed="#P" n="61"/>malia perfecta, vel certe daemon potuit 
+          sup<lb break="no" ed="#P" n="62"/>plere aliunde semen aliquod serpentium jam
+          <lb ed="#P" n="63"/>dispositum ad generationem.
+        </p>
+        <p xml:id="szdada-y14884-d1e482">
+          <lb ed="#P" n="64"/>7. Quartum principale dubium ut ab 
+          Hippo<lb break="no" ed="#P" n="65"/>crate et Alberto decidatur. — Ultimo dubitari
+          <lb ed="#P" n="66"/>potest, qua in parte animantis subjectetur 
+          po<lb break="no" ed="#P" n="67"/>tentia generativa, sive formativa seminis. 
+          Hip<lb break="no" ed="#P" n="68"/>pocrates, libello de Genitura, et hbro de Locis
+          <lb ed="#P" n="69"/>et aquis, quem sequi videtur Albertus 2, de
+          <lb ed="#P" n="70"/>Anima, capite septimo, tractatu secundo, ait
+          <lb ed="#P" n="71"/>semen decidi ab omnibus membris viventis, ut
+          <lb ed="#P" n="72"/>in illo contineatur figura omnium 
+          membro<lb break="no" ed="#P" n="73"/>rum, juxta quam sententiam potentia factiva
+          <lb ed="#P" n="74"/>seminis erit diffusa per omnia membra. Hanc
+          <lb ed="#P" n="75"/>sententiam improbat multis Aristoteles 1, de
+          <lb ed="#P" n="76"/>Generatione animalium, capite decimoseptimo
+          <lb ed="#P" n="77"/>et decimooctavo, et Galenus sape, ac divus
+          <lb ed="#P" n="78"/>Thomas, prima parte, quaest. 119, articulo 
+          se<lb break="no" ed="#P" n="79"/>cundo, et in secunda distinct. 30, quaest. 2,
+          <lb ed="#P" n="80"/>articulo primo. Primo, quia ideo necessaria
+          <lb ed="#P" n="81"/>foret decisio seminis ex membris omnibus, ut
+          <lb ed="#P" n="82"/>illud posset membra similia efformare: haec
+          <lb ed="#P" n="83"/>autem ratio nulla est, quia hcet generanti
+          <lb ed="#P" n="84"/>unum, vel alterum membrum desit, poterit
+          <lb ed="#P" n="85"/>integrum filium procreare. Secundo semen 
+          de<lb break="no" ed="#P" n="86"/>cisum ab omnibus membris, vel simile 
+          omni<lb break="no" ed="#P" n="87"/>bus est, vel non: non primum, cum ibi non
+          <lb ed="#P" n="88"/>cernantur, aut ossis durities, aut cordis fibrae,
+          <lb ed="#P" n="89"/>variaeque eorum figurae, etc. Si autem non est
+          <lb ed="#P" n="90"/>simile, cessat ratio illa decisionis, fictaque 
+          pro<lb break="no" ed="#P" n="91"/>inde est omnium membrorum effigies in 
+          se<lb break="no" ed="#P" n="92"/>mine. Tertio posita illa membrorum effigie,
+          <lb ed="#P" n="93"/>actio eorum esset confusa, cum ibi nec 
+          supe<lb break="no" ed="#P" n="94"/>riores partes ab inferioribus, neque dextera a
+          <lb ed="#P" n="95"/>sinistris distingui queant. Quarto si ex 
+          omni<lb break="no" ed="#P" n="96"/>bus membris decideretur semen, cum 
+          decida<lb break="no" ed="#P" n="97"/>tur ab utroque parente, deberet semper vim
+          <lb ed="#P" n="98"/>habere ad efficienda membra sexus utriusque,
+          <lb ed="#P" n="99"/>quod est aperte monstrosum: certum ergo est,
+          <lb ed="#P" n="100"/>non in omnibus membris, sed in aliqua certa
+          <lb ed="#P" n="101"/>parte virtutem praedictam subjectari.
+        </p>
+        <p xml:id="szdada-y14884-d1e567">
+          <lb ed="#P" n="102"/>8. Dissidium inter Aristotelem et Galenum
+          <lb ed="#P" n="103"/>circa idem dubium apud Vallesium. — At in
+          <lb ed="#P" n="104"/>quanam subjectetur, dissensio est inter 
+          Gale<lb break="no" ed="#P" n="105"/>num et Aristotelem, quae legi potest in 
+          Valle<lb break="no" ed="#P" n="106"/>sio, libro secundo Controvers.. capite septimo,
+          <lb ed="#P" n="107"/>id solum advertendum, quod in semine 
+          distin<lb break="no" ed="#P" n="108"/>guenda est pars materialis ab spiritu in ea
+          <lb ed="#P" n="109"/>incluso. Et pars quidem materialis a testiculis
+          <lb ed="#P" n="110"/>elaboratur, illaque nutriuntur: de spiritu au-
+          <pb ed="#P" n="611"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tem incluso obscurum est, an ab iisdem, vel
+          <lb ed="#P" n="2"/>ab alio nobiliori membro fiat, ut a corde, vel
+          <lb ed="#P" n="3"/>ab hepate, in quo residet naturalis facultas.
+          <lb ed="#P" n="4"/>De qua re nihil certi habeo: apparet tamen
+          <lb ed="#P" n="5"/>probabile non fieri ab infimo aliquo et ignobili
+          <lb ed="#P" n="6"/>mennbro, sed forte a corde, cujus est procreare
+          <lb ed="#P" n="7"/>vitales spiritus, viventibus etiam aliis partibus
+          <lb ed="#P" n="8"/>principalibus, ut debitum temperamentum et
+          <lb ed="#P" n="9"/>virtutem semen ipsum tandem recipiat, 
+          ap<lb break="no" ed="#P" n="10"/>tumque undique instrumentum evadat 
+          admi<lb break="no" ed="#P" n="11"/>rabilem illam organisationem peragendam.
+        </p>
+        <p xml:id="szdada-y14884-d1e618">
+          <lb ed="#P" n="12"/>9. Pars subtilior seminis vivens est. — 
+          Effu<lb break="no" ed="#P" n="13"/>gium obstruitur de quo disp. 18, sect. 2 
+          Meta<lb break="no" ed="#P" n="14"/>physice.—Ex quibus omnibus licet colligere
+          <lb ed="#P" n="15"/>ex qua materia, atque forma semen fiat, 
+          ma<lb break="no" ed="#P" n="16"/>teria quidem ex sanguine desumitur, fortasse
+          <lb ed="#P" n="17"/>tamen diverso modo, nam rudior illa seminis
+          <lb ed="#P" n="18"/>pars immediate sumi videtur ex ordinario
+          <lb ed="#P" n="19"/>sanguine, at subtilior alia, quam spiritum 
+          ibi<lb break="no" ed="#P" n="20"/>dem inclusum aiunt, non immediate, quia
+          <lb ed="#P" n="21"/>sanguis crassior est, unde credi potest sumi ex
+          <lb ed="#P" n="22"/>spiritu aliquo vitali, quod sentit Vallesius,
+          <lb ed="#P" n="23"/>libro secundo, capite decimo sexto. Similiter
+          <lb ed="#P" n="24"/>de forma seminis distinguendum: nam quae
+          <lb ed="#P" n="25"/>crassam illam partem seminis informat, ad
+          <lb ed="#P" n="26"/>gradum animae non pertingit, sicut et forma
+          <lb ed="#P" n="27"/>sanguinis: forma vero inclusi spiritus 
+          pertin<lb break="no" ed="#P" n="28"/>git, ut in 2 Physicor., docuimus. Quam 
+          sen<lb break="no" ed="#P" n="29"/>tentiam sequitur etiam Germanus, in Epitom.
+          <lb ed="#P" n="30"/>librorum de Anima, et Jacobus de Forlivio,
+          <lb ed="#P" n="31"/>ad 23 Canon. Avicennae, insinuatque Cajetanus,
+          <lb ed="#P" n="32"/>prima parte, quaestion. 118, articulo primo,
+          <lb ed="#P" n="33"/>ait enim habere corpus heterogeneum, et ad
+          <lb ed="#P" n="34"/>hoc citat Albertum, ac suadetur, quoniam
+          <lb ed="#P" n="35"/>forma illa seminis actionem vendicat 
+          superio<lb break="no" ed="#P" n="36"/>ris rationis, organisandi scilicet corpus ad 
+          ge<lb break="no" ed="#P" n="37"/>nerationem viventis, quod opus vitae. Neque
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="38"/>satis dicetur instrumentarie tantum operari.
+          <lb ed="#P" n="39"/>Nam cum semen separatum sit a vivente,
+          <lb ed="#P" n="40"/>proindeque ab illo jam non juvetur, oportuit
+          <lb ed="#P" n="41"/>nancisci formam actioni proportionatam: 
+          po<lb break="no" ed="#P" n="42"/>testque id colligi ex Aristotele 2, de Anim.,
+          <lb ed="#P" n="43"/>capite primo, in fine, ubi ait corpus potentia
+          <lb ed="#P" n="44"/>vivens esse, quod animam actu possidet: 
+          cu<lb break="no" ed="#P" n="45"/>jusmodi, inquit, est semen, et fructus, constat
+          <lb ed="#P" n="46"/>autem fructus vivere, ut patet ex dictis, atque
+          <lb ed="#P" n="47"/>ex principio citati capitis primi.
+        </p>
+        <p xml:id="szdada-y14884-d1e701">
+          <lb ed="#P" n="48"/>10. Negant tamen alii semen vivere. — 
+          Ulti<lb break="no" ed="#P" n="49"/>ma, dubitatio remittitur, de qua in disp. 1
+          <lb ed="#P" n="50"/>Metaphysice, sect. 2, a n. 31. — Contrarium
+          <lb ed="#P" n="51"/>tamen hujus insinuant Themistius, Simplicius,
+          <lb ed="#P" n="52"/>Philoponus, Albertus et 4:gidius 2, de Anima,
+          <lb ed="#P" n="53"/>text. 10, et divus Thomas, 1 p, quaest. 118,
+          <lb ed="#P" n="54"/>articulo secundo ad tertium et quartum, et de
+          <lb ed="#P" n="55"/>potentia, quaest. 3, articulo nono ad nonum, et
+          <lb ed="#P" n="56"/>articulo duodecimo. Verum divus Thomas
+          <lb ed="#P" n="57"/>tantum significat formam illius seminis non
+          <lb ed="#P" n="58"/>esse animam in genito introducendam, id enim
+          <lb ed="#P" n="59"/>tantum probat ejus ratio, quod materia 
+          semi<lb break="no" ed="#P" n="60"/>nis non sit disposita: non negaret vero divus
+          <lb ed="#P" n="61"/>Thomas dictam seminis formam altioris esse
+          <lb ed="#P" n="62"/>rationis a formis inanimatorum, atque adeo
+          <lb ed="#P" n="63"/>attingentem gradum animarum, quia tamen
+          <lb ed="#P" n="64"/>anima imperfecta est, et quasi via ad aliam,
+          <lb ed="#P" n="65"/>ideo fortasse perfectam virtutem nutritivam
+          <lb ed="#P" n="66"/>non est sortita: sed generativam tantummodo,
+          <lb ed="#P" n="67"/>vel si actionem etiam nutritivam exercet, 
+          tar<lb break="no" ed="#P" n="68"/>da est et remissa, ideoque majori tempore
+          <lb ed="#P" n="69"/>conservari absque applicatione alimenti, ut
+          <lb ed="#P" n="70"/>vegetabihum seminibus deprehendimus. 
+          Ulti<lb break="no" ed="#P" n="71"/>ma quaestio hic esse poterat, quid semen
+          <lb ed="#P" n="72"/>efficiat in generatione viventis, et an attingat
+          <lb ed="#P" n="73"/>etiam ejus formae productionem: videri 
+          ta<lb break="no" ed="#P" n="74"/>men potest citatus locus secundi Physicorum.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

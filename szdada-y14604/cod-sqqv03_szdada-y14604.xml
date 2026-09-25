@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="598"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y14604"><!-- t3l2c9 -->
+        <head xml:id="szdada-y14604-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-y14604-Hd1e103" type="question-title">Quae sit potentia nutritiva et augmentativa</head>
+        <p xml:id="szdada-y14604-d1e106">
+          <lb ed="#P" n="12"/>CAPUT IX.
+          <lb ed="#P" n="13"/>QUAE SIT POTENTIA NUTRITIVA ET AUGMENTATIVA.
+        </p>
+        <p xml:id="szdada-y14604-d1e113">
+          <lb ed="#P" n="14"/>1. Discutitur prima pars tituli, quenam
+          <lb ed="#P" n="15"/>sit nutritiva.—Opinio prima.—Post objectum
+          <lb ed="#P" n="16"/>et actiones, dicendum sequitur de potentiis
+          <lb ed="#P" n="17"/>vegetativae animae, quae tres distingui solent,
+          <lb ed="#P" n="18"/>nempe nutritiva, generativa et augmentativa,
+          <lb ed="#P" n="19"/>cujus divisionis rationem S. Thomas reddidit
+          <lb ed="#P" n="20"/>supra, quia vivens indiget principio, ut 
+          pro<lb break="no" ed="#P" n="21"/>ducatur: productum vero necesse est, ut 
+          per<lb break="no" ed="#P" n="22"/>fectum statum quantitatis acquirat, ac demum,
+          <lb ed="#P" n="23"/>ut in acquisito conservetur. Ad primum autem
+          <lb ed="#P" n="24"/>generativa potentia dirigitur, ad secundum
+          <lb ed="#P" n="25"/>augmentativa, ad tertium nutritiva. De prima
+          <lb ed="#P" n="26"/>ergo videamus, quaenam illa sit. tua in re
+          <lb ed="#P" n="27"/>sunt variae sententiae, quidam aiunt virtutem
+          <lb ed="#P" n="28"/>nutritivam esse qualitatem ab anima 
+          distinc<lb break="no" ed="#P" n="29"/>tam realiter, et vocant calorem naturalem re,
+          <lb ed="#P" n="30"/>et specie distinctum ab elementari. Ali vero
+          <lb ed="#P" n="31"/>calorem esse ejusdem speciei, sed hi solo 
+          lo<lb break="no" ed="#P" n="32"/>quendi modo inter se differunt, conveniunt
+          <lb ed="#P" n="33"/>siquidem quod in vegetabilibus praeter quatuor
+          <lb ed="#P" n="34"/>primas qualitates ponant aliam, quae potentia
+          <lb ed="#P" n="35"/>nutritiva dicatur, atque si calor naturalis 
+          vo<lb break="no" ed="#P" n="36"/>cetur, distinctus sit specie ab elementari. 
+          Cu<lb break="no" ed="#P" n="37"/>jussententiae est Themistius 2, de Anima, c. 18,
+          <lb ed="#P" n="38"/>Philoponus ibid., fol. 49, col. 1, et Alexander,
+          <lb ed="#P" n="39"/>Albertus item, tract. 2, cap. 10, a quibus si
+          <lb ed="#P" n="40"/>roges, quisnam sit proprius actus hujus 
+          poten<lb break="no" ed="#P" n="41"/>tiae: respondent esse dirigere calorem 
+          natura<lb break="no" ed="#P" n="42"/>lem ad actum nutritionis.
+        </p>
+        <p xml:id="szdada-y14604-d1e178">
+          <lb ed="#P" n="43"/>2. Arguitur pro eadem. — Secunda opinio
+          <lb ed="#P" n="44"/>priori contraria. — Hanc opinionem insinuat
+          <lb ed="#P" n="45"/>Aristoteles, secundo de Generatione animalium,
+          <lb ed="#P" n="46"/>cap. 4, ubi inquit incrementum provenire a
+          <lb ed="#P" n="47"/>facultate, seu virtute animae, utendo calore
+          <lb ed="#P" n="48"/>tanquam instrumento, et in 2, de Anima,
+          <lb ed="#P" n="49"/>textu 41 et 50, ait animam vegetativam uti
+          <lb ed="#P" n="50"/>duplici instrumento ad suas actiones, quod
+          <lb ed="#P" n="51"/>dicti auctores exponunt de potentia nutritiva
+          <lb ed="#P" n="52"/>et calore. Ratione probatur primo, nam po-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tentia nutritiva est propria passio animae, sed
+          <lb ed="#P" n="54"/>calor mixtorum vel elementaris est accidens
+          <lb ed="#P" n="55"/>commune: ergo distinguuntur. Et 
+          confirma<lb break="no" ed="#P" n="56"/>tur. Nam potentia nutritiva diversorum specie,
+          <lb ed="#P" n="57"/>est diversae speciei, calor autem est ejusdem
+          <lb ed="#P" n="58"/>speciei in omnibus: ergo distinguuntur. 
+          Se<lb break="no" ed="#P" n="59"/>cundo arguitur. Anima est elevatior forma,
+          <lb ed="#P" n="60"/>quam forma elementaris: ergo debet uti 
+          ele<lb break="no" ed="#P" n="61"/>vatiori instrumento ad suam actionem, nam
+          <lb ed="#P" n="62"/>instrumentum debet proportionari principali
+          <lb ed="#P" n="63"/>agenti: ergo praeter calorem communem, 
+          in<lb break="no" ed="#P" n="64"/>diget anima alia potentia. Tertio arguitur.
+          <lb ed="#P" n="65"/>Nam calor elementaris intenditur et 
+          remitti<lb break="no" ed="#P" n="66"/>tur: potentia autem nutritiva minime est
+          <lb ed="#P" n="67"/>enim potentia ab anima fluens et invariabilis,
+          <lb ed="#P" n="68"/>permanens cum ipsa: ergo, etc. Quarto hoc
+          <lb ed="#P" n="69"/>videtur commune ahis potentus animae, ut
+          <lb ed="#P" n="70"/>supponant primas qualitates non vero 
+          inclu<lb break="no" ed="#P" n="71"/>dant. Nam visus indiget humiditate cum 
+          dia<lb break="no" ed="#P" n="72"/>phaneitate ad suum actum, tactus etiam 
+          prae<lb break="no" ed="#P" n="73"/>requirit certum temperamentum primarum
+          <lb ed="#P" n="74"/>qualitatum: ergo similiter de nutritiva 
+          poten<lb break="no" ed="#P" n="75"/>tia sentiendum. Secunda opinio asserit 
+          actio<lb break="no" ed="#P" n="76"/>nem nutritivam fieri a solo calore naturali,
+          <lb ed="#P" n="77"/>qui licet ejusdem speciei sit cum elementari,
+          <lb ed="#P" n="78"/>unius tamen animae, ut instrumentum in
+          <lb ed="#P" n="79"/>virtute illius, potest attingere introductionem
+          <lb ed="#P" n="80"/>illius in materia, nulla alia qualitate 
+          concur<lb break="no" ed="#P" n="81"/>rente, et hanc sententiam videntur sequi 
+          Tho<lb break="no" ed="#P" n="82"/>mistae.
+        </p>
+        <p xml:id="szdada-y14604-d1e270">
+          <lb ed="#P" n="83"/>3. Notatio triplicis generis actionem in
+          <lb ed="#P" n="84"/>mutricatione intervenientium. — Pro 
+          resolu<lb break="no" ed="#P" n="85"/>tione est advertendum, actionem nutriendi
+          <lb ed="#P" n="86"/>essentialiter consistere in perfecta 
+          assimila<lb break="no" ed="#P" n="87"/>tione elementi ad substantiam aliti vitaliter
+          <lb ed="#P" n="88"/>facta, qui modus in eo est ut conversio fiat per
+          <lb ed="#P" n="89"/>applicationem, distributionemque alimenti ad
+          <lb ed="#P" n="90"/>omnes partes viventis cum rejectione 
+          super<lb break="no" ed="#P" n="91"/>flui. Unde triplex genus actionum videtur in
+          <lb ed="#P" n="92"/>nutritione concurrere. Primum est earum 
+          ac<lb break="no" ed="#P" n="93"/>tionum, quae remote concurrunt, ut tractio et
+          <lb ed="#P" n="94"/>retentio alimenti, expulsioque 
+          excremento<lb break="no" ed="#P" n="95"/>rum. Secundum est earum actionum, quae
+          <lb ed="#P" n="96"/>proximius accedunt et disponunt ipsam 
+          mate<lb break="no" ed="#P" n="97"/>riam ad introductionem animae. Tertium est
+          <lb ed="#P" n="98"/>actio ipsa inductiva animae in materiam cibi,
+          <lb ed="#P" n="99"/>in qua plane consistit substantialis nutritio.
+        </p>
+        <p xml:id="szdada-y14604-d1e309">
+          <lb ed="#P" n="100"/>4. Prima assertio pro qua tamen consulatur
+          <lb ed="#P" n="101"/>auctor, disp. 18 Metaph..sect 2., ubi in 
+          contra<lb break="no" ed="#P" n="102"/>riam partem inclinat. — WHoc supposito sit
+          <lb ed="#P" n="103"/>prima conclusio. Virtus a qua procedit actio
+          <lb ed="#P" n="104"/>inductivae animae in materiam cibi, non est
+          <lb ed="#P" n="105"/>aliquod accidens, sed ipsamet anima viventis,
+          <lb ed="#P" n="106"/>quod nutritur, atque in viventibus quae 
+          acqui<lb break="no" ed="#P" n="107"/>runt partem novam formae, pars ea educitur
+          <pb ed="#P" n="599"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>de materia cibi immediate ab anima aliti: in
+          <lb ed="#P" n="2"/>viventibus vero ubi nova non acquiritur forma,
+          <lb ed="#P" n="3"/>veluti in homine, ipsamet anima vim habet
+          <lb ed="#P" n="4"/>uniendi se materiae dispositae et sibi applicatae
+          <lb ed="#P" n="5"/>absque alio agente extrinseco. Haec est 
+          sen<lb break="no" ed="#P" n="6"/>tentia Durandi, citati in cap. 1 hujus libri,
+          <lb ed="#P" n="7"/>et patet ex dictis a nobis 2 Physicorum, quia
+          <lb ed="#P" n="8"/>accidens non potest attingere productionem
+          <lb ed="#P" n="9"/>substantiae, nisi dispositive tantum. Dices: in
+          <lb ed="#P" n="10"/>substantia chyh introducitur forma 
+          substan<lb break="no" ed="#P" n="11"/>tialis, et non anima, a qua ergo virtute 
+          intro<lb break="no" ed="#P" n="12"/>ducitur ? idemque argumentum esto de 
+          san<lb break="no" ed="#P" n="13"/>guine. Respondetur animam habere virtutem
+          <lb ed="#P" n="14"/>inducendi formas imperfectiores, quae viae
+          <lb ed="#P" n="15"/>quaedam sunt ad perfectiorem. Dices ulterius:
+          <lb ed="#P" n="16"/>in viventibus in quibus acquiritur pars formae,
+          <lb ed="#P" n="17"/>si contingat partem acquisitam esse 
+          perfectio<lb break="no" ed="#P" n="18"/>rem praeexistentibus, (veluti si pars, a qua
+          <lb ed="#P" n="19"/>infirmanda est membrum nobilius, denuo per
+          <lb ed="#P" n="20"/>nutritionem accedat ad partem, qua 
+          praein<lb break="no" ed="#P" n="21"/>formabatur minus nobile) a qua, quaeso, 
+          vir<lb break="no" ed="#P" n="22"/>tute introducitur nova illa pars formae? 
+          Res<lb break="no" ed="#P" n="23"/>pondetur id forte nunquam contingere, sed
+          <lb ed="#P" n="24"/>partem, quae actione sua efficit aliam, semper
+          <lb ed="#P" n="25"/>esse perfectiorem, quod si forte aliquando id
+          <lb ed="#P" n="26"/>eveniat, tunc introductio formae in illam 
+          par<lb break="no" ed="#P" n="27"/>tem esse non poterit absque juvamine alicujus
+          <lb ed="#P" n="28"/>causae universalis, perfectioremque virtutem
+          <lb ed="#P" n="29"/>habentis.
+        </p>
+        <p xml:id="szdada-y14604-d1e396">
+          <lb ed="#P" n="30"/>5. Secunda assertio de mente Aristotelis et
+          <lb ed="#P" n="31"/>Galeni. — Probatur primo. — Secunda 
+          con<lb break="no" ed="#P" n="32"/>clusio. Virtus disponens materiam cibi est
+          <lb ed="#P" n="33"/>temperamentum primarum qualitatum et non
+          <lb ed="#P" n="34"/>qualitas aliqua ab illis distincta. Oppositum
+          <lb ed="#P" n="35"/>hujus conclusionis videtur intendere prima
+          <lb ed="#P" n="36"/>opinio, esse tamen videtur ex sententia 
+          Aris<lb break="no" ed="#P" n="37"/>totelis 2, de Partibus animalium, capite primo,
+          <lb ed="#P" n="38"/>et Galeni, libello de differentia morborum 
+          as<lb break="no" ed="#P" n="39"/>serentium viventia exercere actiones suas 
+          me<lb break="no" ed="#P" n="40"/>diis temperamentis. Ratione arguitur primo.
+          <lb ed="#P" n="41"/>Nam in rebus naturalibus temperamentum
+          <lb ed="#P" n="42"/>conservans formam in materia, est virtus ad
+          <lb ed="#P" n="43"/>disponendam aliam materiam ad 
+          introductio<lb break="no" ed="#P" n="44"/>nem similis formae: ergo idem erit in 
+          nutri<lb break="no" ed="#P" n="45"/>tione, quae in aggeneratione quadam et 
+          assi<lb break="no" ed="#P" n="46"/>milatione substantiali consistit: neque adeo
+          <lb ed="#P" n="47"/>aliquid inusitatum in natura ponendum est
+          <lb ed="#P" n="48"/>sine necessitate. Antecedens patet inductione.
+          <lb ed="#P" n="49"/>Nam ignis ad generandum ignem non disponit
+          <lb ed="#P" n="50"/>materiam, nisi propriis dispositionibus, nempe
+          <lb ed="#P" n="51"/>calore et siccitate, idemque est in alis 
+          ele<lb break="no" ed="#P" n="52"/>mentis et in mixtis etiam: vinum enim non
+          <lb ed="#P" n="53"/>convertit aquam nisi medio virtuali calore. Et
+          <lb ed="#P" n="54"/>ratio universalis est, quia ad conversionem
+          <lb ed="#P" n="55"/>unius substantiae in aliam, ideo requiritur alte-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ratio, ut disponatur materia, non potest autem
+          <lb ed="#P" n="57"/>melius disponi, quam per easdem dispositiones
+          <lb ed="#P" n="58"/>agentis: ergo hae sufficiunt, omnia vero alia
+          <lb ed="#P" n="59"/>superflua sunt. Explicatur. Nam in osse, verbi
+          <lb ed="#P" n="60"/>gratia, est forma et materia, ac tale 
+          tempera<lb break="no" ed="#P" n="61"/>mentum qualitatum, ex quo resultat certa
+          <lb ed="#P" n="62"/>densitas, durities, etc.; ergo si os alteret 
+          me<lb break="no" ed="#P" n="63"/>dullam et simili temperamento illam disponat,
+          <lb ed="#P" n="64"/>resultabit eadem densitas et durities, 
+          aggene<lb break="no" ed="#P" n="65"/>rabiturque pars ossis: id ergo sufticit, ac
+          <lb ed="#P" n="66"/>proinde superfluae sunt potentiae aliae.
+        </p>
+        <p xml:id="szdada-y14604-d1e481">
+          <lb ed="#P" n="67"/>6. Probatur secundo. — Secundo arguitur.
+          <lb ed="#P" n="68"/>Nam diversae partes viventis diversam 
+          gene<lb break="no" ed="#P" n="69"/>rant substantiam, ut hepar sanguinem, 
+          ven<lb break="no" ed="#P" n="70"/>triculus chylum, etc., ergo vel illa diversitas
+          <lb ed="#P" n="71"/>provenit ex ratione potentiae nutritivae, vel
+          <lb ed="#P" n="72"/>ratione diversorum temperamentorum. Si 
+          pri<lb break="no" ed="#P" n="73"/>mum, sequitur in singulis membris 
+          heteroge<lb break="no" ed="#P" n="74"/>neis esse ponendam diversam potentiam 
+          nutri<lb break="no" ed="#P" n="75"/>tivam, quod etsi concedant Viguerius in insü-
+          <lb ed="#P" n="76"/>tutionibus theologicis, capite 1, Ferrarius 2,
+          <lb ed="#P" n="77"/>contra Gentes, capite 73; Apollinaris 2,
+          <lb ed="#P" n="78"/>de Anima, articulo 2, quaest. 9, absurdum 
+          ta<lb break="no" ed="#P" n="79"/>men est, ac sine necessitate dictum: debet
+          <lb ed="#P" n="80"/>ergo concedi secundum, quod est verissimum,
+          <lb ed="#P" n="81"/>nulla ergo alia ratione caro adgenerat partem
+          <lb ed="#P" n="82"/>carnis, et os partem ossis, quia habent 
+          diver<lb break="no" ed="#P" n="83"/>sum temperamentum, diversimodeque 
+          dispo<lb break="no" ed="#P" n="84"/>nunt materiam sibi applicatam. Et 
+          confirma<lb break="no" ed="#P" n="85"/>tur experientia. Nam unaquaeque pars generat
+          <lb ed="#P" n="86"/>partem sibi similem: ergo id accidit, quia 
+          in<lb break="no" ed="#P" n="87"/>troducit in illa similes dispositiones: ergo per
+          <lb ed="#P" n="88"/>eas sit dispositive nutritio et non per aliam
+          <lb ed="#P" n="89"/>qualitatem.
+        </p>
+        <p xml:id="szdada-y14604-d1e533">
+          <lb ed="#P" n="90"/>7. Probatur tertio per dilemma. — Tertio
+          <lb ed="#P" n="91"/>arguitur. Nam vel illa potentia nutritiva 
+          ali<lb break="no" ed="#P" n="92"/>quid immediate operatur circa nutrimentum,
+          <lb ed="#P" n="93"/>vel nihil. Primum dici non potest, quia
+          <lb ed="#P" n="94"/>vel erit aliqua potentia sibi similis, vel aliqua
+          <lb ed="#P" n="95"/>primarum qualitatum, vel est ipsa formae 
+          sub<lb break="no" ed="#P" n="96"/>stantialis inductio. Nihil istorum potest dici
+          <lb ed="#P" n="97"/>probabiliter: nam potentia vitalis non est 
+          ac<lb break="no" ed="#P" n="98"/>tiva sibi similis: atque si esset, id certe faceret
+          <lb ed="#P" n="99"/>post conversionem alimenti, ac adeo illa 
+          poten<lb break="no" ed="#P" n="100"/>tia non concurreret ad productionem. Jam ad
+          <lb ed="#P" n="101"/>efficiendas primas qualitates necessarie non
+          <lb ed="#P" n="102"/>sunt aliae praeter ipsas primas. Ad formam 
+          de<lb break="no" ed="#P" n="103"/>nique substantialem vel non potest attngere
+          <lb ed="#P" n="104"/>per se accidentalis potentia: vel si potest,
+          <lb ed="#P" n="105"/>nulla alia est, quam quae materiam disponit.
+          <lb ed="#P" n="106"/>Si vero detur secundum, nempe illam 
+          poten<lb break="no" ed="#P" n="107"/>tiam nihil immediate cflicere, sed uti solum
+          <lb ed="#P" n="108"/>calore, ut instrumento, illumque dirigere,
+          <lb ed="#P" n="109"/>quod prima opinio videbatur asserere, id facile
+          <lb ed="#P" n="110"/>improbatur, quia potentia tribuitur substan-
+          <pb ed="#P" n="600"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tiae, ut operetur, potentiae vero ipsi non 
+          tribui<lb break="no" ed="#P" n="2"/>tur alia potentia, ut inductione patet et 
+          ra<lb break="no" ed="#P" n="3"/>tione, quia alias esset processus in infinitum.
+          <lb ed="#P" n="4"/>Nam qua ratione una potentia uteretur alia,
+          <lb ed="#P" n="5"/>eadem ratione illa potentia postularet aliam ac
+          <lb ed="#P" n="6"/>praeterea modus ille, quo potentia nutritiva
+          <lb ed="#P" n="7"/>dirigeret calorem, eove uteretur, intelligibilis
+          <lb ed="#P" n="8"/>non est et superfluus, nam quidquid fingatur
+          <lb ed="#P" n="9"/>non potest calor nisi calefacere, neque ratione
+          <lb ed="#P" n="10"/>illius directionis potentia unquam perficeret,
+          <lb ed="#P" n="11"/>quod per se ipsa non posset.
+        </p>
+        <p xml:id="szdada-y14604-d1e609">
+          <lb ed="#P" n="12"/>8. Tertia assertio bipartita. — Ex his 
+          sequi<lb break="no" ed="#P" n="13"/>tur tertia conclusio. Calor viventis dispositive
+          <lb ed="#P" n="14"/>tantum effhicit digestionem et decoctionem ,
+          <lb ed="#P" n="15"/>unde ejusdem speciei est cum elementari.
+          <lb ed="#P" n="16"/>Prima pars constat ex dictis, quia accidens
+          <lb ed="#P" n="17"/>tantum dispositive attingit ad generationem
+          <lb ed="#P" n="18"/>substantiae. Secunda vero pars suadetur: nam
+          <lb ed="#P" n="19"/>viventis calor ipsemet est, ex quo conficitur
+          <lb ed="#P" n="20"/>temperamentum mixti, sed talis calor 
+          elemen<lb break="no" ed="#P" n="21"/>taris est: ergo, etc. Confirmatur: nam 
+          super<lb break="no" ed="#P" n="22"/>fluum est multiplicare species calorum absque
+          <lb ed="#P" n="23"/>necessitate. Et haec sane est sententia 
+          Aristo<lb break="no" ed="#P" n="24"/>telis 2, de Anima, textu 41, asserentis ignem
+          <lb ed="#P" n="25"/>esse concausam nutritionis, nimirum ejus 
+          vir<lb break="no" ed="#P" n="26"/>tutem, et textu 50, ait calidum operari 
+          decoc<lb break="no" ed="#P" n="27"/>tionem, neque unquam distinxit Aristoteles
+          <lb ed="#P" n="28"/>duplex calidum, idemque habet de sensu et
+          <lb ed="#P" n="29"/>sensibili, capite quarto, de Juventute et 
+          senec<lb break="no" ed="#P" n="30"/>tute, capite quarto, colligitur etiam ex 2, de
+          <lb ed="#P" n="31"/>Partibus animalium, cap. sexto et septimo,
+          <lb ed="#P" n="32"/>ubi legimus calorem esse facultatem, qua 
+          ani<lb break="no" ed="#P" n="33"/>ma exercet hanc actionem, quod repetit, 
+          e<lb break="no" ed="#P" n="34"/>tiam libro tertio, cap. sexto et nono, item
+          <lb ed="#P" n="35"/>citato loco de Juventute et senectute, expresse
+          <lb ed="#P" n="36"/>docet decoctionem neque sine anima, neque
+          <lb ed="#P" n="37"/>sine caliditate esse, calore enim, ait, concoquunt
+          <lb ed="#P" n="38"/>omnia. lIdem colhgitur ex D. Thoma, 1 parte,
+          <lb ed="#P" n="39"/>quaest. 78, articulo secundo, dicente animam
+          <lb ed="#P" n="40"/>vegetativam esse imperfectiorem aliis, quod
+          <lb ed="#P" n="41"/>suam actionem exerceat media qualitate 
+          ele<lb break="no" ed="#P" n="42"/>mentari. Item tradit, quaest. 10, de Veritate,
+          <lb ed="#P" n="43"/>articulo primo ad secundum, et quaestion. de
+          <lb ed="#P" n="44"/>Anima, artic. 13, et 1, de Anima, lectione 14,
+          <lb ed="#P" n="45"/>et lib. 2, lectione 5, in princ.
+        </p>
+        <p xml:id="szdada-y14604-d1e686">
+          <lb ed="#P" n="46"/>9. Objectio contra secundam partem 
+          assertio<lb break="no" ed="#P" n="47"/>nis. - Confirmatur.- Fernelius et alii objectioni
+          <lb ed="#P" n="48"/>cedunt.—Sed contra. Nam Aristoteles 2, de 
+          Ge<lb break="no" ed="#P" n="49"/>neratione animalium, cap. 3, ait animahs 
+          calo<lb break="no" ed="#P" n="50"/>rem. neque ignem esse, neque ab igne 
+          origi<lb break="no" ed="#P" n="51"/>nem ducere, et D. Thomas, 1 part.. quaest. 18,
+          <lb ed="#P" n="52"/>articuloprimoad tertium, vult calorem 
+          elemen<lb break="no" ed="#P" n="53"/>tarem esse instrumentum virtutis nutritivae,
+          <lb ed="#P" n="54"/>seu caloris naturalis. Confirmatur: nam calor
+          <lb ed="#P" n="55"/>animalis est vivificus, generat, ac nutrit car-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nem, ossa et nervos, etc., elementaris vero non
+          <lb ed="#P" n="57"/>habet ejusmodi virtutem, quin potius de se
+          <lb ed="#P" n="58"/>destructivus est viventis. Propter haec multi
+          <lb ed="#P" n="59"/>distinguunt duplicem calorem, coelestem, et
+          <lb ed="#P" n="60"/>elementarem, coelesteque aiunt esse vivificum,
+          <lb ed="#P" n="61"/>communicatumque viventibus, ac distingui
+          <lb ed="#P" n="62"/>specie ab elementari. Ita Fernelius 4, 
+          Physio<lb break="no" ed="#P" n="63"/>log., capite primo, Nyphus 1, Meteor., com. 35,
+          <lb ed="#P" n="64"/>quaest. 2, Mirandula, libro tertio contr. 
+          Astro<lb break="no" ed="#P" n="65"/>logos, capite tertio, Marcellus, in suo libr. 2,
+          <lb ed="#P" n="66"/>de Anima, cap. 3, et ali: Ferrarius vero 2,
+          <lb ed="#P" n="67"/>contra Gentes, cap. 73, tres distinguit calores
+          <lb ed="#P" n="68"/>essentialiter diversos, coelestem et 
+          elementa<lb break="no" ed="#P" n="69"/>rem, et vitalem.
+        </p>
+        <p xml:id="szdada-y14604-d1e743">
+          <lb ed="#P" n="70"/>10. Rectius Cajetanus, Argenterius et alii.—
+          <lb ed="#P" n="71"/>Besolutio contra priores auctores.—Sed 
+          imme<lb break="no" ed="#P" n="72"/>rito hi calores multiplicantur, cum 
+          accidentali<lb break="no" ed="#P" n="73"/>ter solum distinguantur, ut notavit Cajetanus,
+          <lb ed="#P" n="74"/>optime dicta quaest. 118, et latius Argenterius,
+          <lb ed="#P" n="75"/>lib. primo, de Somno et vigilia, capite quinto,
+          <lb ed="#P" n="76"/>estque sententia D. Thomae ad textum 41, 
+          l<lb break="no" ed="#P" n="77"/>bro secundo de Anima, Alexandri et /Egydi,
+          <lb ed="#P" n="78"/>ibid., Alberti, lib. 2 de Anima, lib. tract. 
+          se<lb break="no" ed="#P" n="79"/>cundo, capite quarto, Bonaventurae, in 2. 
+          dis<lb break="no" ed="#P" n="80"/>tinct. 17, quaest. 2, Averrois7, colliget, capite
+          <lb ed="#P" n="81"/>secundo, Saxoniae, lib. 2, de Anima, quaest. 5,
+          <lb ed="#P" n="82"/>Marsili ibid., quaest. 4, Achilini, libro secundo
+          <lb ed="#P" n="83"/>de Elementis, dub. 10,et aliorum. Ratioautem
+          <lb ed="#P" n="84"/>est, quia effectus horum calorum primarius et
+          <lb ed="#P" n="85"/>proprius idem est, nempe calefacere, neque
+          <lb ed="#P" n="86"/>calor aliquis vivificat modo alio, quam 
+          calefa<lb break="no" ed="#P" n="87"/>ciendo et disponendo. Differentia vero est,
+          <lb ed="#P" n="88"/>quod elementaris dicitur secundum se 
+          specta<lb break="no" ed="#P" n="89"/>tus, ac sine ullo temperamento. Unde 
+          quan<lb break="no" ed="#P" n="90"/>tum est de se corrumpit et disponit ad ignem,
+          <lb ed="#P" n="91"/>calor vero naturalis, seu vitalis est 
+          attempera<lb break="no" ed="#P" n="92"/>tus secundum certum gradum, in quo 
+          intrin<lb break="no" ed="#P" n="93"/>sece consequitur rationem animase, ac distingui
+          <lb ed="#P" n="94"/>solet contra igneum: de hoc ergo dicitur ab
+          <lb ed="#P" n="95"/>Aristotele, quod non ducat originem ab igne,
+          <lb ed="#P" n="96"/>quia non fit actione ignis, sed ab intrinseco
+          <lb ed="#P" n="97"/>consequitur animam: huic autem calori vitali
+          <lb ed="#P" n="98"/>aliquando additur ab extrinseco calor cibi,
+          <lb ed="#P" n="99"/>vel alicujus medicamenti ad decoctionem 
+          faci<lb break="no" ed="#P" n="100"/>lius exequendam, sicque dicitur tunc vitalis
+          <lb ed="#P" n="101"/>calor juvari ab elementari, eoque uti ad 
+          ac<lb break="no" ed="#P" n="102"/>tionem suam: non vero quod in animali ab
+          <lb ed="#P" n="103"/>intrinseco sint duo calores: atque ita est 
+          in<lb break="no" ed="#P" n="104"/>terpretandus D. Thomas, dicta quaest. 118,
+          <lb ed="#P" n="105"/>primae partis, et colligitur interpretatio ex
+          <lb ed="#P" n="106"/>eodem in 2, distinct. 19. quaest. 2, art. 3, ubi
+          <lb ed="#P" n="107"/>ait, in animali dari calorem naturalem, per
+          <lb ed="#P" n="108"/>quem exercet opera vitalia, et addit non quod
+          <lb ed="#P" n="109"/>calor hic non sit quaedam qualitas misti,ratione
+          <lb ed="#P" n="110"/>cujus ignis dicatur mixtum animatum compo-
+          <pb ed="#P" n="601"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nere, sed propterea dicitur non elementaris,
+          <lb ed="#P" n="2"/>quia non est desumptus ab igne, sed ab anima
+          <lb ed="#P" n="3"/>ipsa: quod etiam ipsae experientiae confirmant.
+          <lb ed="#P" n="4"/>Nam hic noster calor naturalis intenditur a
+          <lb ed="#P" n="5"/>calore elementari, et remittitur a frigiditate,
+          <lb ed="#P" n="6"/>etiam elementari: sunt ergo ejusdem 
+          ratio<lb break="no" ed="#P" n="7"/>nis. Hinc intelligitur, quomodo calor vivificet,
+          <lb ed="#P" n="8"/>nempe dispositive in quantum complet 
+          tempe<lb break="no" ed="#P" n="9"/>ramentum requisitum ad introductionem 
+          ani<lb break="no" ed="#P" n="10"/>mae viventis. Quomodo item dicatur producere
+          <lb ed="#P" n="11"/>aurnm, vel argentum. Eodem vero modo calor
+          <lb ed="#P" n="12"/>Solis dicitur vivificans, quia cum sol sit causa
+          <lb ed="#P" n="13"/>universalis, sua actione juvat et complet saepe
+          <lb ed="#P" n="14"/>temperamentum viventis: concludamus ergo
+          <lb ed="#P" n="15"/>divisionem illam caloris esse accidentalem, ac
+          <lb ed="#P" n="16"/>membra solum distingui per respectus ad 
+          di<lb break="no" ed="#P" n="17"/>versas causas efficientes, vel ad diversos 
+          effec<lb break="no" ed="#P" n="18"/>tus secundarios, sicque erit interpretandus
+          <lb ed="#P" n="19"/>Commentator de substantia orbis, cap. 2 et 12
+          <lb ed="#P" n="20"/>Metaphysicae, commento 18, ubi hos calores,
+          <lb ed="#P" n="21"/>etiam distinxit.
+        </p>
+        <p xml:id="szdada-y14604-d1e884">
+          <lb ed="#P" n="22"/>11. Quarta assertio cui resistunt medici
+          <lb ed="#P" n="23"/>plerique. — Ex quibus statuitur quarta 
+          con<lb break="no" ed="#P" n="24"/>clusio. Non solum calor viventis, sed etiam
+          <lb ed="#P" n="25"/>qualitates aliae complentes temperamentum,
+          <lb ed="#P" n="26"/>seu complexiones illius, concurrunt dispositive
+          <lb ed="#P" n="27"/>ad nutritionem. Huic conclusioni contradicunt
+          <lb ed="#P" n="28"/>multi ex medicis, asserentes solum calorem,
+          <lb ed="#P" n="29"/>nulla alia qualitate prima concurrente, 
+          effi<lb break="no" ed="#P" n="30"/>cere nutritionem, et specialiter de frigiditate
+          <lb ed="#P" n="31"/>aiunt, quod per se nihil efficiat, sed per 
+          acci<lb break="no" ed="#P" n="32"/>dens tantum, temperando scilicet calorem.
+          <lb ed="#P" n="33"/>Nam si daretur (inquit) calor temperatus sine
+          <lb ed="#P" n="34"/>frigiditate, idem efficeret. Ita quoque 
+          Alber<lb break="no" ed="#P" n="35"/>tus 2, de Anima, tract. 2, cap. 8, Averroes 4,
+          <lb ed="#P" n="36"/>Meteororum, et 2, de Partibus animalium,
+          <lb ed="#P" n="37"/>capite de cerebro, Zimara, theoremate 72,
+          <lb ed="#P" n="38"/>Valles, libro quinto Controvers., capite
+          <lb ed="#P" n="39"/>undecimo, ex Galeno, libro tertio, de Causis
+          <lb ed="#P" n="40"/>symptomatum, capite tertio, et Avicenus seu
+          <lb ed="#P" n="41"/>prima primi, doctrina 6, capite tertio, qui
+          <lb ed="#P" n="42"/>aiunt frigiditatem non deservire ad 
+          operatio<lb break="no" ed="#P" n="43"/>nes vitales, quin potius illas impedire. Unde
+          <lb ed="#P" n="44"/>experientia constat frigus stupefacere, ut in
+          <lb ed="#P" n="45"/>paralysi, privare animam motu et sensu.
+          <lb ed="#P" n="46"/>Confirmatur, inquit Valles, nam crescente 
+          ca<lb break="no" ed="#P" n="47"/>lore non statim impeditur nntritio, maxime
+          <lb ed="#P" n="48"/>vero crescente frigore, quod signum est, 
+          calo<lb break="no" ed="#P" n="49"/>rem per se cfficere nutritionem, frigus vero
+          <lb ed="#P" n="50"/>non item: temperat ergo solummodo. Unde
+          <lb ed="#P" n="51"/>quando nimium est, plus justo temperat,
+          <lb ed="#P" n="52"/>ideoque impedit: huc accedit communis vox
+          <lb ed="#P" n="53"/>Philosophorum dicentiumcalorem efticere 
+          con<lb break="no" ed="#P" n="54"/>coctionem, nullam autem mentionem faciunt
+          <lb ed="#P" n="55"/>aliarum qualitatum, sic Aristoteles universam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>coctionem calore fieri scribit 3, Meteororum,
+          <lb ed="#P" n="57"/>capite nono, et libro quarto, capite secundo,
+          <lb ed="#P" n="58"/>et libro quarto de Partibus, capite tertio, et
+          <lb ed="#P" n="59"/>libro quarto, de Generatione animalium, capite
+          <lb ed="#P" n="60"/>primo, Galenus quoque, libro secundo, de 
+          Natu<lb break="no" ed="#P" n="61"/>ralibus facultatibus ait coctionem et 
+          nutritio<lb break="no" ed="#P" n="62"/>nem, et omnem succi generationem esse ab
+          <lb ed="#P" n="63"/>innato calido, idem habet, libro primo 
+          Apho<lb break="no" ed="#P" n="64"/>rismorum, capite 15, et libro 5, capite 22, et
+          <lb ed="#P" n="65"/>libro 2, ad Glauconem.
+        </p>
+        <p xml:id="szdada-y14604-d1e984">
+          <lb ed="#P" n="66"/>12. Sustinetur et probatur preecedens 
+          as<lb break="no" ed="#P" n="67"/>sertio. — Nihilominus tamen conclusio posita
+          <lb ed="#P" n="68"/>videtur verissima, et illam confirmant omnia
+          <lb ed="#P" n="69"/>adducta pro secunda conclusione, nam id,
+          <lb ed="#P" n="70"/>quod vivens disponit alimentum, non est solus
+          <lb ed="#P" n="71"/>calor, sed totum temperamentum, quod 
+          pro<lb break="no" ed="#P" n="72"/>batur, quia cum ex materia cibi debeat fieri
+          <lb ed="#P" n="73"/>pars carnis, vel ossis omnino similis 
+          praeexis<lb break="no" ed="#P" n="74"/>tenti, necessario debet habere temperamentum
+          <lb ed="#P" n="75"/>ejusdem rationis: hujusmodi autem 
+          tempe<lb break="no" ed="#P" n="76"/>ramentum neque in solo calore consistit, 
+          ne<lb break="no" ed="#P" n="77"/>que ab illo solo fieri potest: ergo debet fieri a
+          <lb ed="#P" n="78"/>toto temperamento praeexistentis carnis, vel
+          <lb ed="#P" n="79"/>ossis: ergo totum illud denuo factum concurrit
+          <lb ed="#P" n="80"/>dispositive ad nutritionem. Secundo per 
+          nu<lb break="no" ed="#P" n="81"/>tritionem debent membra componi cum eadem
+          <lb ed="#P" n="82"/>organisatione carnis, vel ossis, etc., 
+          hujus<lb break="no" ed="#P" n="83"/>modi autem organisatio non provenit ex solo
+          <lb ed="#P" n="84"/>calore, sed etiam ex aliis qualitatibus primis
+          <lb ed="#P" n="85"/>et saepe ex illis praecipue, ut duritio ossis ex
+          <lb ed="#P" n="86"/>siccitate et frigiditate: ergo requiritur actio
+          <lb ed="#P" n="87"/>aliarum qualitatum, praeter calorem. Tertio
+          <lb ed="#P" n="88"/>qualitates aliae sunt activae naturaliter: ergo
+          <lb ed="#P" n="89"/>simul agent cum calore: quid enim obstabit?
+          <lb ed="#P" n="90"/>Quarto alimentum, quod convertitur in 
+          sub<lb break="no" ed="#P" n="91"/>stantiam aliti cum ejus sit pars, 
+          majoremsorti<lb break="no" ed="#P" n="92"/>turfrigiditatem, quam haberet antea: 
+          ergofrigi<lb break="no" ed="#P" n="93"/>ditas fuit operata in conversione talis alimenti.
+          <lb ed="#P" n="94"/>Atque haec est sententia Aristotelis 2, de 
+          Gene<lb break="no" ed="#P" n="95"/>ratione animalium, capite quarto dicente 
+          in<lb break="no" ed="#P" n="96"/>crementum provenire a virtute animae, utendo
+          <lb ed="#P" n="97"/>caliditate, ac frigiditate, ut instrumento.
+        </p>
+        <p xml:id="szdada-y14604-d1e1056">
+          <lb ed="#P" n="98"/>13. Ad motiva in contrarium adducta n. 11.
+          <lb ed="#P" n="99"/>— Argumenta in contrarium facile solvuntur.
+          <lb ed="#P" n="100"/>Nam frigus et calor, et aliae qualitates 
+          deser<lb break="no" ed="#P" n="101"/>viunt operationibus viventis, si sint in debito
+          <lb ed="#P" n="102"/>temperamento: in excessu vero impediunt et
+          <lb ed="#P" n="103"/>corrumpunt, ut Aristoteles docet loco proxime
+          <lb ed="#P" n="104"/>citato: quia tamen calor magis est secundum
+          <lb ed="#P" n="105"/>naturam animalis, quam frigiditas, ideo hujus
+          <lb ed="#P" n="106"/>immoderatus excessus magis nocet, ac magis
+          <lb ed="#P" n="107"/>impedit concoctionem, cum magis condenset
+          <lb ed="#P" n="108"/>et minus agat. Nimius etiam calor, si asit,
+          <lb ed="#P" n="109"/>impedit concoctionem, et saepe etiam succum
+          <lb ed="#P" n="110"/>convenientem dissolvit. Ad communem vocem
+          <pb ed="#P" n="602"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>respondetur esse desumptum a principali 
+          qua<lb break="no" ed="#P" n="2"/>litate, non vero a totali et integra: sic enim
+          <lb ed="#P" n="3"/>dicimus, et ignem calore agere, eo quod actio
+          <lb ed="#P" n="4"/>siccitatis minor sit multo quam caloris: sic
+          <lb ed="#P" n="5"/>ergo in proposito actio frigiditatis est minima,
+          <lb ed="#P" n="6"/>ac seepe nulla, si forte habeant majorem 
+          frigi<lb break="no" ed="#P" n="7"/>ditatem alimenta, quam sit necessaria 
+          nonnul<lb break="no" ed="#P" n="8"/>lis animantis partibus: respectu tamen earum
+          <lb ed="#P" n="9"/>partium, in quibus praedominatur frigus, certe
+          <lb ed="#P" n="10"/>frigiditas conducit plurimum ad perficiendam
+          <lb ed="#P" n="11"/>nutritionem. Ex dictis intelligitur maxime et
+          <lb ed="#P" n="12"/>facile quomodo ex eodem cibo generetur 
+          ca<lb break="no" ed="#P" n="13"/>lor, os, nervus, etc., ab eadem nutritiva 
+          vir<lb break="no" ed="#P" n="14"/>tute :ratio enim est, quia temperamenta talhium
+          <lb ed="#P" n="15"/>partium sunt diversa: nam una quaeque agic
+          <lb ed="#P" n="16"/>ad sui nutritionem per proprium sibi 
+          tempe<lb break="no" ed="#P" n="17"/>ramentum: facit ergo sibi simile. Porro 
+          quae<lb break="no" ed="#P" n="18"/>dam sunt membra destinata a natura ad 
+          prae<lb break="no" ed="#P" n="19"/>parandum cibum omnibus membris, ut hepar
+          <lb ed="#P" n="20"/>et ventriculus: haec ergo in prima decoctione
+          <lb ed="#P" n="21"/>non faciunt substantias omnino sibi similes,
+          <lb ed="#P" n="22"/>quia temperamentum non provenit ad 
+          omni<lb break="no" ed="#P" n="23"/>modam similitudinem, attamen faciunt 
+          sub<lb break="no" ed="#P" n="24"/>tantias valde similes propter propinquitatem
+          <lb ed="#P" n="25"/>temperamenti.
+        </p>
+        <p xml:id="szdada-y14604-d1e1145">
+          <lb ed="#P" n="26"/>14. Quinta assertio bipartita. — Suadetur
+          <lb ed="#P" n="27"/>prior pars. — Suadetur posterior. — Quinta
+          <lb ed="#P" n="28"/>conclusio. Virtus attractiva, et retentiva 
+          expul<lb break="no" ed="#P" n="29"/>sivaque excrementorum potentia est realiter
+          <lb ed="#P" n="30"/>distincta ab anima, et a qualitatibus primis, in
+          <lb ed="#P" n="31"/>se tamen una videtur realiter. Prima pars 
+          pro<lb break="no" ed="#P" n="32"/>batur ex diversitate agendi, attrahere enim
+          <lb ed="#P" n="33"/>alimentum et illud disponere, actiones sunt
+          <lb ed="#P" n="34"/>omnino diversae ab actionibus primarum 
+          qua<lb break="no" ed="#P" n="35"/>litatum: ergo et potentiae. Item in magnete
+          <lb ed="#P" n="36"/>virtus ad trahendum ferrum non est forma
+          <lb ed="#P" n="37"/>substantialis, nec temperamentum primarum,
+          <lb ed="#P" n="38"/>ut ostendimus in fine librorum de generatione,
+          <lb ed="#P" n="39"/>sed est specialis qualitas, idemque est in 
+          simi<lb break="no" ed="#P" n="40"/>libus aliis: ergo idem erit in vivente dicendum
+          <lb ed="#P" n="41"/>de hac virtute attrahendi alimentum. Tandem
+          <lb ed="#P" n="42"/>qualitates primae, quod sint in animali, non
+          <lb ed="#P" n="43"/>ideo recipiunt novam virtutem et actionem:
+          <lb ed="#P" n="44"/>ergo temperamentum primarum qualitatum
+          <lb ed="#P" n="45"/>tantum potest agere simile temperamentum :
+          <lb ed="#P" n="46"/>ergo ad actiones alterius rationis, ut attrahere,
+          <lb ed="#P" n="47"/>retinere, etc., necessaria est nova virtus. Quod
+          <lb ed="#P" n="48"/>vero haec sit una tantum, probatur: nam illa
+          <lb ed="#P" n="49"/>tria se mutuo consequuntur, retentio enim est
+          <lb ed="#P" n="50"/>quasi terminus attractionis: eadem autem est
+          <lb ed="#P" n="51"/>virtus causans motum et terminum: tunc 
+          ul<lb break="no" ed="#P" n="52"/>terius, retinere conveniens, expellereque 
+          dis<lb break="no" ed="#P" n="53"/>conveniens, habet inter se magnam 
+          vicinita<lb break="no" ed="#P" n="54"/>tem: ergo ad haec sutlicit eadem virtus, quae
+          <lb ed="#P" n="55"/>retinendo unum expellat aliud.
+        </p>
+        <p xml:id="szdada-y14604-d1e1214">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>15. Aliqui posteriori parti assertionis 
+          repu<lb break="no" ed="#P" n="57"/>gnant. — Nonnulli quidem has omnes 
+          poten<lb break="no" ed="#P" n="58"/>tias volunt esse distinctas, ut Viguerius et
+          <lb ed="#P" n="59"/>Apollinaris supra, et ex medicis nonnulli; ahi
+          <lb ed="#P" n="60"/>esse ipsum calorem naturalem, ut Fernelius,
+          <lb ed="#P" n="61"/>lib. 5, Physiologiae, cap. 4, quod tamen 
+          dixi<lb break="no" ed="#P" n="62"/>mus videtur probabihus: ac forte prima 
+          opi<lb break="no" ed="#P" n="63"/>nio posset ad hunc sensum explicari, nempe
+          <lb ed="#P" n="64"/>quod praeter temperamentum disponens 
+          mate<lb break="no" ed="#P" n="65"/>riam cibi necessaria sit specialis virtus animae
+          <lb ed="#P" n="66"/>vegetantis, quae distribuat alimentum, 
+          trahen<lb break="no" ed="#P" n="67"/>do ad singulas partes, ibique retinendo et 
+          ex<lb break="no" ed="#P" n="68"/>pellendo superflua: quo quidem modo dici
+          <lb ed="#P" n="69"/>posset eam potentiam dirigere, moderarique
+          <lb ed="#P" n="70"/>actionem caloris naturalis: attamen quidquid
+          <lb ed="#P" n="71"/>sit de sensu opinantium, quod a nobis 
+          expres<lb break="no" ed="#P" n="72"/>sum est verum videtur: oportet tamen addere
+          <lb ed="#P" n="73"/>virtutem attractivam diversae rationis apparere
+          <lb ed="#P" n="74"/>in membris diversis, diversitatemque magnam
+          <lb ed="#P" n="75"/>in hujusmodi actionibus prae se ferentibus, sic
+          <lb ed="#P" n="76"/>in hepate specialis virtus apparet ad trahendum
+          <lb ed="#P" n="77"/>chylum in renibus, alia distincta ad 
+          trahen<lb break="no" ed="#P" n="78"/>dum serum, et in hene similiter, etc., sicut in
+          <lb ed="#P" n="79"/>diversis herbis diversa est virtus juxta 
+          diversi<lb break="no" ed="#P" n="80"/>tatem tractionum et actionum.
+        </p>
+        <p xml:id="szdada-y14604-d1e1273">
+          <lb ed="#P" n="81"/>16. Ad loca Aristotelis, in num. 9. — Ad
+          <lb ed="#P" n="82"/>argumenta in eodem mum. 2. —Jam ad 
+          argu<lb break="no" ed="#P" n="83"/>menta primae opinionis. Ad primum locum
+          <lb ed="#P" n="84"/>Aristotelis patet expositio ex dictis: vel forte
+          <lb ed="#P" n="85"/>eo loco per facultatem animae intelligit 
+          philo<lb break="no" ed="#P" n="86"/>sophus principalem illius virtutem. Ad 
+          secun<lb break="no" ed="#P" n="87"/>dum locum respondetur Aristotelem per 
+          nu<lb break="no" ed="#P" n="88"/>trimentum intellexisse instrumentum 
+          separa<lb break="no" ed="#P" n="89"/>tum: calorem vero conjunctum, ut exponunt
+          <lb ed="#P" n="90"/>Themistius, Simplicius, Commentator et alii.
+          <lb ed="#P" n="91"/>Ad primam rationem dicito potentiam 
+          nutri<lb break="no" ed="#P" n="92"/>tivam, si sumatur pro virtute assimilatrice
+          <lb ed="#P" n="93"/>esse ipsam animam realiter: si pro virtute 
+          tra<lb break="no" ed="#P" n="94"/>hente alimentum, esse passionem animae a 
+          ca<lb break="no" ed="#P" n="95"/>lore distinctam: si pro virtute disponente,
+          <lb ed="#P" n="96"/>ipsum esse temperamentum viventis, quod in
+          <lb ed="#P" n="97"/>diversis viventibus est diversum. Àc secundam
+          <lb ed="#P" n="98"/>jam tribuimus animae virtutem quamdam 
+          per<lb break="no" ed="#P" n="99"/>fectiorem, ac temperamentum ipsum perfectius
+          <lb ed="#P" n="100"/>est, neque est opus alia virtus, quia nutriendi
+          <lb ed="#P" n="101"/>actio inter vitales infima est. Ad tertiam potius
+          <lb ed="#P" n="102"/>nutritiva virtus remittitur, atque intenditur
+          <lb ed="#P" n="103"/>ad intensionem et remissionem caloris, ut 
+          ex<lb break="no" ed="#P" n="104"/>perientia docet. Ad quartam exempla suntfalsa,
+          <lb ed="#P" n="105"/>nam sensorium sensus non est instrumentum
+          <lb ed="#P" n="106"/>effective concurrens cum sensu ad actionem,
+          <lb ed="#P" n="107"/>sed subjectum est potentiae, quod oportet 
+          com<lb break="no" ed="#P" n="108"/>mode dispositum esse: dicitur autem 
+          orga<lb break="no" ed="#P" n="109"/>num, quod sit instrumentum animalis, non
+          <lb ed="#P" n="110"/>vero potentiae.
+        </p>
+        <p xml:id="szdada-y14604-d1e1341">
+          <pb ed="#P" n="603"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>17. Satisfit jam parti secundee tituli. —Ex
+          <lb ed="#P" n="2"/>his colligitur, quid dicendum sit de potentia
+          <lb ed="#P" n="3"/>augmentativa, cum enim nutritio et auctio
+          <lb ed="#P" n="4"/>eadem actio sint, eadem etiam erit potentia.
+          <lb ed="#P" n="5"/>Primo, quia qua virtute alimentum 
+          converti<lb break="no" ed="#P" n="6"/>tur in substantiam aliti, eadem acquiritur
+          <lb ed="#P" n="7"/>quantitas illius, quae si sit major, quam 
+          deper<lb break="no" ed="#P" n="8"/>dita, dicitur augmentatio. Secundo, quantitas
+          <lb ed="#P" n="9"/>non producitur nisi cum substantia: eadem
+          <lb ed="#P" n="10"/>ergo virtus est acquisitiva substantiae et 
+          quan<lb break="no" ed="#P" n="11"/>titatis. Tertio virtus productiva quantitatis non
+          <lb ed="#P" n="12"/>est alia quantitas: est ergo eadem virtus, quae
+          <lb ed="#P" n="13"/>producit substantiam. Antecedens certum 
+          vi<lb break="no" ed="#P" n="14"/>detur apud omnes, qui profecto nullam 
+          phy<lb break="no" ed="#P" n="15"/>sicam actionem quantitati tribuunt. 
+          Conse<lb break="no" ed="#P" n="16"/>quentia vero inde suadetur, quia quidquid
+          <lb ed="#P" n="17"/>aliud assignetur, posterius est augmentatione,
+          <lb ed="#P" n="18"/>ac proinde principium illius esse non poterit.
+          <lb ed="#P" n="19"/>Confirmatur etiam exemplo ignis, nam eadem
+          <lb ed="#P" n="20"/>virtus nutritur, et augetur suo modo. Atque
+          <lb ed="#P" n="21"/>haec est sententia Aristotelis 1, de Generat.,
+          <lb ed="#P" n="22"/>cap. 5, ubi ait nutritionem et actionem esse
+          <lb ed="#P" n="23"/>eamdem actionem, et alibi saepe, sicut calori
+          <lb ed="#P" n="24"/>natural tribuit nutritionem et 
+          augmentatio<lb break="no" ed="#P" n="25"/>nem, unde cap. 4, de sensu et sensibili ait 
+          ca<lb break="no" ed="#P" n="26"/>lidum augmentare. Idem repetit 3, de 
+          Paru<lb break="no" ed="#P" n="27"/>bus, cap. 6, consentit Philoponus 2, de Anima,
+          <lb ed="#P" n="28"/>fol. 49, col. 3, Themistius, cap. 17, Durandus,
+          <lb ed="#P" n="29"/>in 1, distinct. 3, part. 2, quaest. 2, art. 1, 
+          op<lb break="no" ed="#P" n="30"/>positum quidem insinuat Albertus 2, de 
+          Ani<lb break="no" ed="#P" n="31"/>ma, tract. 2, cap. 9, et tenent aperte Venetus
+          <lb ed="#P" n="32"/>et Thienensis, textu 50, Jandunus, quaest. 3,
+          <lb ed="#P" n="33"/>Apolinaris, quaest. 9, Javellus, quaest. 18.
+          <lb ed="#P" n="34"/>Sed fortasse putarunt hi auctores actionem 
+          nu<lb break="no" ed="#P" n="35"/>tritivam et augmentativam esse distinctas 
+          om<lb break="no" ed="#P" n="36"/>nino, ac minime subordinatas, quod cum 
+          fal<lb break="no" ed="#P" n="37"/>sum sit, constat eamdem virtutem ad eas 
+          or<lb break="no" ed="#P" n="38"/>dine suo exercendas suflficere, cum vulgare sit
+          <lb ed="#P" n="39"/>in philosophia actionem vel effectum 
+          prima<lb break="no" ed="#P" n="40"/>rium et secundarium, virtutes distinctas non
+          <lb ed="#P" n="41"/>arguere.
+        </p>
+        <p xml:id="szdada-y14604-d1e1437">
+          <lb ed="#P" n="42"/>18. Objectio contra paulo ante resoluta. —
+          <lb ed="#P" n="43"/>Responsio er Alberto. — Oppones tamen. Si
+          <lb ed="#P" n="44"/>potentia augmentativa ipse est calor naturalis:
+          <lb ed="#P" n="45"/>ergo quamdin calor ille duraverit, ac viguerit,
+          <lb ed="#P" n="46"/>tamdiu durabit augmentum: consequens vero
+          <lb ed="#P" n="47"/>falsum est: nam pueritia tempus est 
+          aug<lb break="no" ed="#P" n="48"/>menti, teste Galeno et Avicenna, non autem
+          <lb ed="#P" n="49"/>juventus, et tamen non minus viget calor in
+          <lb ed="#P" n="50"/>juventute, quam in pueritia. Respondetur ex
+          <lb ed="#P" n="51"/>Alberto, supra capite 6, discrimen esse ; in 
+          pue<lb break="no" ed="#P" n="52"/>rita enim membra sunt mollia, quod 
+          necessa<lb break="no" ed="#P" n="53"/>rium est, ut alhimentum possit per illa 
+          discur<lb break="no" ed="#P" n="54"/>rere, omniaque augere: at in juventute jam
+          <lb ed="#P" n="55"/>membra duriora sunt propter majorem exsic-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cationem, et hinc est, quod pueri plus, quam
+          <lb ed="#P" n="57"/>dimidium suae quantitatis circa septimum 
+          an<lb break="no" ed="#P" n="58"/>num obtineant, postmodum vero procedit 
+          aug<lb break="no" ed="#P" n="59"/>mentum usque ad vigesimum primum 
+          remis<lb break="no" ed="#P" n="60"/>sius communiter loquendo: post vigesimum
+          <lb ed="#P" n="61"/>primum vero non fit augmentum secundum
+          <lb ed="#P" n="62"/>longitudinem, quod ossa multo duriora sint,
+          <lb ed="#P" n="63"/>procedit tamen secundum latitudinem 
+          cres<lb break="no" ed="#P" n="64"/>cente et pinguescente carne, quae mollior est.
+          <lb ed="#P" n="65"/>Unde colligi potest ratio, quare plus alii, quam
+          <lb ed="#P" n="66"/>alii crescant stante aequali calore naturali, nam
+          <lb ed="#P" n="67"/>quidam exiguam habent humiditatem, 
+          mul<lb break="no" ed="#P" n="68"/>tam vero siccitatem, ideoque a principio ossa
+          <lb ed="#P" n="69"/>habent duriora, difficilius dilatari valent.
+        </p>
+        <p xml:id="szdada-y14604-d1e1502">
+          <lb ed="#P" n="70"/>19. Nutritiva et augmentativa nec 
+          formali<lb break="no" ed="#P" n="71"/>ter distinguuntur .—CQnuaerat fortasse aliquis, an
+          <lb ed="#P" n="72"/>potentia augmentativa et nutritiva saltem 
+          for<lb break="no" ed="#P" n="73"/>maliter distinguantur. Respondemus negative
+          <lb ed="#P" n="74"/>proprie loquendo. Habent ergo se, ut eadem
+          <lb ed="#P" n="75"/>potentia existens in diversis statibus, sicut
+          <lb ed="#P" n="76"/>etiam accretio ipsa et nutritio formaliter non
+          <lb ed="#P" n="77"/>distinguuntur: sed per diversos respectus. 
+          Ur<lb break="no" ed="#P" n="78"/>gebis augmentativam posse auferri manente
+          <lb ed="#P" n="79"/>nutritiva: sed non recte, ut plurimum enim
+          <lb ed="#P" n="80"/>vigor illius potentiae flaccescit, eadem quoad .
+          <lb ed="#P" n="81"/>entitatem suam permanente.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

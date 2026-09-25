@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 26</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 26</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="691"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y16973"><!-- t3l3c26 -->
+        <head xml:id="szdada-y16973-Hd1e101">Caput 26</head>
+        <head xml:id="szdada-y16973-Hd1e103" type="question-title">Utrum objecta gustus et tactus immutent potentias realiter, vel intentionaliter</head>
+        <p xml:id="szdada-y16973-d1e106">
+          <lb ed="#P" n="69"/>CAPUT XXVI.
+          <lb ed="#P" n="70"/>UTRUM OBJECTA GUSTUS ET TACTUS IMMUTENT 
+          PO<lb break="no" ed="#P" n="71"/>TENTIAS REALITER, VEL INTENTIONALITER.
+        </p>
+        <p xml:id="szdada-y16973-d1e115">
+          <lb ed="#P" n="72"/>1. Opinio Vallesii et aliorum hos sensus 
+          a<lb break="no" ed="#P" n="73"/>gere tantum per species reales. —De his duobus
+          <lb ed="#P" n="74"/>sensibus, quoniam inter se magnam 
+          vicinita<lb break="no" ed="#P" n="75"/>tem habent, et ut brevitati etiam consulamus,
+          <lb ed="#P" n="76"/>simul dicendum est. De objectis autem eorum
+          <lb ed="#P" n="77"/>secundum naturam, dictum a nobis est, 
+          objec<lb break="no" ed="#P" n="78"/>tum quippe gustus est sapor, objectum vero
+          <lb ed="#P" n="79"/>tactus sunt qualitates primae, aliaeque 
+          nonnul<lb break="no" ed="#P" n="80"/>ue ex eis profluentes, de quibus in 2, de 
+          Ge<lb break="no" ed="#P" n="81"/>neratione egimus: solum ergo restat explicare
+          <lb ed="#P" n="82"/>modum quo haec objecta immutant sensus:
+          <lb ed="#P" n="83"/>opinantur enim aliqui immutare illos sola
+          <lb ed="#P" n="84"/>materiali alteratione, quam sententiam 
+          defen<lb break="no" ed="#P" n="85"/>dit Valles, lib. 2, cap. 29. Qua probatur
+          <lb ed="#P" n="86"/>primo, nam dicti sensus, quoties sentiunt 
+          ma<lb break="no" ed="#P" n="87"/>terialiter alterantur, ut experientia constat :
+          <lb ed="#P" n="88"/>hoc autem suffkicit, ut objectum sentiri dicatur:
+          <lb ed="#P" n="89"/>ergo. Secundo si tactus sentiret per species 
+          in<lb break="no" ed="#P" n="90"/>tentionales, etiamsi in organo tactus esset 
+          ca<lb break="no" ed="#P" n="91"/>lor, ut quatuor, posset nihilominus tactus 
+          per<lb break="no" ed="#P" n="92"/>cipere calidum aliud, ut quatuor, consequens
+          <lb ed="#P" n="93"/>est falsum: ergo. Patet sequela, quia realis
+          <lb ed="#P" n="94"/>calor, et species caloris non repugnant esse 
+          si<lb break="no" ed="#P" n="95"/>mul: ergo licet habeat calorem, ut quatuor
+          <lb ed="#P" n="96"/>realiter, recipere poterit species alterius 
+          calo<lb break="no" ed="#P" n="97"/>ris, ut quatuor: ergo, etc. Tertio si per 
+          spe<lb break="no" ed="#P" n="98"/>cies intentionales ejusmodi sensus agerent,
+          <lb ed="#P" n="99"/>utique in instanti agerent: nam productio 
+          spe<lb break="no" ed="#P" n="100"/>cierum instantanea esse potest. Consequens est
+          <lb ed="#P" n="101"/>falsum, cum ignis, verbi gratia, applicatus
+          <lb ed="#P" n="102"/>successive, magis ac magis sentiatur: ergo,
+          <lb ed="#P" n="103"/>etc.
+        </p>
+        <p xml:id="szdada-y16973-d1e187">
+          <lb ed="#P" n="104"/>2. Prima assertio ac preambula.— Probatur
+          <lb ed="#P" n="105"/>quoad gustum.— Notatio pro probatione quoad
+          <lb ed="#P" n="106"/>tactum. — Difficultas hujus quaestionis 
+          potissi<lb break="no" ed="#P" n="107"/>me habet locum in tactu, pendetque ejus deci-
+          <pb ed="#P" n="692"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sio ex alio puncto, an quando manus, verbi
+          <lb ed="#P" n="2"/>gratia, sentit calorem, illum sentiat, quem 
+          sub<lb break="no" ed="#P" n="3"/>jectat inhaesive, an eum, qui est in 
+          calefacien<lb break="no" ed="#P" n="4"/>te: nam si calorem percipit inhaerentem sibi,
+          <lb ed="#P" n="5"/>ipse erit sufficiens ad causandam sensationem
+          <lb ed="#P" n="6"/>sui absque specie alia: si vero sentit in altero
+          <lb ed="#P" n="7"/>subjecto existentem, necessaria erit species:
+          <lb ed="#P" n="8"/>hinc ergo incipiendo sit prima conclusio. 
+          Gus<lb break="no" ed="#P" n="9"/>tus et tactus non sentiunt qualitates suis 
+          or<lb break="no" ed="#P" n="10"/>ganis inhaerentes, sed qualitates rerum eos
+          <lb ed="#P" n="11"/>alterantium. Haec conclusio, quod ad gustum
+          <lb ed="#P" n="12"/>attinet, est mihi certa: experientia quippe
+          <lb ed="#P" n="13"/>evidenter docet gustum non percipere saporem
+          <lb ed="#P" n="14"/>sibi inhaerentem: sed rei sapidae, ac distinctae.
+          <lb ed="#P" n="15"/>Et ratio id demonstrat, sapor enim qualtas
+          <lb ed="#P" n="16"/>activa non est, sicut neque odor, solumque
+          <lb ed="#P" n="17"/>resultat ex mixtione primarum, unde quando
+          <lb ed="#P" n="18"/>Aristoteles 2, de Anima, textu 126, ait corpora
+          <lb ed="#P" n="19"/>insensibilia pati non nihil a re gustabili, 
+          ma<lb break="no" ed="#P" n="20"/>terialiter intelligendum venit, id est, non rem
+          <lb ed="#P" n="21"/>gustabilem, ut sic per saporem aliquid agere
+          <lb ed="#P" n="22"/>in rem insensibilem, sed per humorem sapori
+          <lb ed="#P" n="23"/>conjunctum. Quod vero ad tactum attinet, 
+          ad<lb break="no" ed="#P" n="24"/>vertendum, illum per multa membra extendi,
+          <lb ed="#P" n="25"/>quae inaequaliter affecta esse possunt a 
+          qualita<lb break="no" ed="#P" n="26"/>tibus tangibilibus. Est ergo sensus 
+          conclusio<lb break="no" ed="#P" n="27"/>nis quoad hanc tangendi facultatem, nullam
+          <lb ed="#P" n="28"/>partem tactu praeditam sentire calorem, vel
+          <lb ed="#P" n="29"/>alias qualitates sibi inhaerentes: posse tamen
+          <lb ed="#P" n="30"/>sentire calorem partis vicinae, si sit 
+          excellen<lb break="no" ed="#P" n="31"/>tior. Quo certe modo aliquando sentimus 
+          ca<lb break="no" ed="#P" n="32"/>lorem ab intrinseco: semper ergo is qui 
+          senti<lb break="no" ed="#P" n="33"/>tur calor, alterius rei est, vel partis 
+          calefacien<lb break="no" ed="#P" n="34"/>tis, non is qui inhaeret parti sentienti.
+        </p>
+        <p xml:id="szdada-y16973-d1e277">
+          <lb ed="#P" n="35"/>3. Probatur. — Probatur ergo conclusio sic
+          <lb ed="#P" n="36"/>declarata primo a paritate rationis aliorum
+          <lb ed="#P" n="37"/>sensuum, nullus enim eorum sentit sibi 
+          inhae<lb break="no" ed="#P" n="38"/>rentem qualitatem: ergo neque tactus sentiet
+          <lb ed="#P" n="39"/>calorem inhaerentem sibi. Secundo, quia jam
+          <lb ed="#P" n="40"/>tactus continuo sentiret, quia semper aliquae
+          <lb ed="#P" n="41"/>qualitates primae ei inhaerent: consequens
+          <lb ed="#P" n="42"/>vero est contra experientiam. Dicetur forte
+          <lb ed="#P" n="43"/>non sentire qualitates secundum gradus sibi
+          <lb ed="#P" n="44"/>connaturales, sed secundum excessum. Ai hinc
+          <lb ed="#P" n="45"/>saltem sequitur quoties calor, vel frigus 
+          inhae<lb break="no" ed="#P" n="46"/>serint in gradu praeternaturali, continuam
+          <lb ed="#P" n="47"/>sensationem in tactu dari, quod repugnat 
+          ex<lb break="no" ed="#P" n="48"/>perientiae: nam si quis manum igni applicet,
+          <lb ed="#P" n="49"/>sentit calorem, si removeat, non sentit, et
+          <lb ed="#P" n="50"/>tamen aliquandiu durat calor manus intensior,
+          <lb ed="#P" n="51"/>quam sit ipse naturalis. Praeterea arguitur
+          <lb ed="#P" n="52"/>cont-a evasionem. Nam si calor naturalis 
+          re<lb break="no" ed="#P" n="53"/>mittatur, et postea intendatur usque ad 
+          debi<lb break="no" ed="#P" n="54"/>tam intentionem naturalem, talis calefactio
+          <lb ed="#P" n="55"/>sentietur: ergo calor in naturali intensione
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tactu percipitur, atque adeo, si calor 
+          inhae<lb break="no" ed="#P" n="57"/>rens, et connaturalis sentitur, semper plane
+          <lb ed="#P" n="58"/>sentietur. Occurrunt alii tactum non sentire
+          <lb ed="#P" n="59"/>calorem in facto esse, sed in fieri, hoc vero
+          <lb ed="#P" n="60"/>falsum est, nam quod sentitur primo, et per
+          <lb ed="#P" n="61"/>se, qualitas sensibilis est, haec autem calor est
+          <lb ed="#P" n="62"/>ipse in facto esse: nam in fieri motus vocatur,
+          <lb ed="#P" n="63"/>atque inter sensibilia communia ponitur. 
+          Ter<lb break="no" ed="#P" n="64"/>tio arguitur principaliter, nam tactus 
+          majo<lb break="no" ed="#P" n="65"/>rem calorem percipit quam sibi inhaereat: ergo
+          <lb ed="#P" n="66"/>non percipit sibi inhaerentem, sed potius rei
+          <lb ed="#P" n="67"/>calefacientis, si enim proprium sentiret, illum
+          <lb ed="#P" n="68"/>certe, et non majorem sentiret. Antecedens
+          <lb ed="#P" n="69"/>vero ostenditur. Nam cum quis igni applicatur,
+          <lb ed="#P" n="70"/>sentit illico, vehementem, ac molestum 
+          calo<lb break="no" ed="#P" n="71"/>rem: et tamen totum nondum recepit: tum
+          <lb ed="#P" n="72"/>quia longiori egeret mora: tum etiam quia si
+          <lb ed="#P" n="73"/>ab igne moveatur, protinus illam caloris 
+          vehe<lb break="no" ed="#P" n="74"/>mentiam non sentiet. Quarto arguitur, nam
+          <lb ed="#P" n="75"/>tactus sentit duritiem et mollitiem, et 
+          simi<lb break="no" ed="#P" n="76"/>les alias, evidens vero est non sentire eas sibi
+          <lb ed="#P" n="77"/>inhaerentes, sed inhaerentes rei tactae, ut 
+          duri<lb break="no" ed="#P" n="78"/>tiem lapidis: ergo idem modus sentiendi datur
+          <lb ed="#P" n="79"/>respectu qualitatum primarum, nam unius
+          <lb ed="#P" n="80"/>sensus unus est sentiendi modus. Et 
+          confir<lb break="no" ed="#P" n="81"/>matur, quia calor igni inhaerens qualitas 
+          sen<lb break="no" ed="#P" n="82"/>sibilis est: ergo potens immutare tactum 
+          suf<lb break="no" ed="#P" n="83"/>ficienti modo, ut sentiatur, ipse ergo est, qui
+          <lb ed="#P" n="84"/>vere sentitur.
+        </p>
+        <p xml:id="szdada-y16973-d1e390">
+          <lb ed="#P" n="85"/>4. Objectionis cujusdam expeditio. — Vera
+          <lb ed="#P" n="86"/>responsio. — Sed contra. Qui a sole calefit, 
+          ca<lb break="no" ed="#P" n="87"/>lorem sentit, non Solis, quia nullus in illo est:
+          <lb ed="#P" n="88"/>ergo sibi inhaerentem. Negatur tamen 
+          conse<lb break="no" ed="#P" n="89"/>quentia, ac dicendum unamquamque corporis
+          <lb ed="#P" n="90"/>partem sentire calorem sibi proximum, omnes
+          <lb ed="#P" n="91"/>vero calorem tum corporis circumstantis, tum
+          <lb ed="#P" n="92"/>etiam sanguinis, qui intenditur, effunditurque
+          <lb ed="#P" n="93"/>ad partes exteriores. Denique sentiri etiam
+          <lb ed="#P" n="94"/>calorem exhalationum, quae a sole generantur.
+          <lb ed="#P" n="95"/>Verum haec omnia minime satisfaciunt, finge
+          <lb ed="#P" n="96"/>enim nos immediate a sole calefieri, tunc plane
+          <lb ed="#P" n="97"/>ex vi actionis illius calorem sentiremus, non
+          <lb ed="#P" n="98"/>quidem haerentem nobis, tum propter rationes
+          <lb ed="#P" n="99"/>pro conclusione adductas, tum quia ad solem
+          <lb ed="#P" n="100"/>applicari majorem sentimus calorem, quam
+          <lb ed="#P" n="101"/>sit in corpore: nam a sole dimoti minorem
+          <lb ed="#P" n="102"/>sentimus, cum tamen totus persistat, qui 
+          hae<lb break="no" ed="#P" n="103"/>rebat corpori. Ad objectionem igitur dico 
+          sen<lb break="no" ed="#P" n="104"/>tiri ipsammet Solis virtutem calefactivam, ut
+          <lb ed="#P" n="105"/>vicem caloris subit, quod sic explico: nam
+          <lb ed="#P" n="106"/>virtus illa producendo calorem in nobis, 
+          pro<lb break="no" ed="#P" n="107"/>ducit etiam in tactu intentionales species 
+          ejus<lb break="no" ed="#P" n="108"/>dem rationis cum iis, quas ipse calor ignis
+          <lb ed="#P" n="109"/>procuceret: sic ergo a nobis Soli expositis
+          <lb ed="#P" n="110"/>sentitur calor, qua etiam ratione supra osten-
+          <pb ed="#P" n="693"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dimus visum aliquando intueri sub ratione
+          <lb ed="#P" n="2"/>coloris, id quod vere coloratum non est, habet
+          <lb ed="#P" n="3"/>tamen virtutem ad coloris species 
+          producen<lb break="no" ed="#P" n="4"/>das. Unde sicut ea visione fallemur, si non
+          <lb ed="#P" n="5"/>corrigamur intellectu, ita tactu illa labemur
+          <lb ed="#P" n="6"/>judicando solem calefacere, si non succurrat
+          <lb ed="#P" n="7"/>intellectus.
+        </p>
+        <p xml:id="szdada-y16973-d1e468">
+          <lb ed="#P" n="8"/>5. Secunda assertio probatur. —Ex his 
+          se<lb break="no" ed="#P" n="9"/>quitur secunda conclusio. Sensus, tactus et
+          <lb ed="#P" n="10"/>gustus immutantur à suis objectis per species
+          <lb ed="#P" n="11"/>intentionales. Probatur primo: quoniam hi
+          <lb ed="#P" n="12"/>sensus qualitates extrinsecas sensibilium 
+          co<lb break="no" ed="#P" n="13"/>gnoscunt: ergo recipiunt ab illis similitudines
+          <lb ed="#P" n="14"/>ad cognoscendum. Secundo arguitur 
+          specia<lb break="no" ed="#P" n="15"/>tim de gustu, nam ut percipiat saporem, 
+          im<lb break="no" ed="#P" n="16"/>mutari ab illo debet, nam immutatur autem
+          <lb ed="#P" n="17"/>materialiter a sapore ipso, ut ostensum est:
+          <lb ed="#P" n="18"/>ergo immutatur intentionaliter. Tertio 
+          argui<lb break="no" ed="#P" n="19"/>tur similiter de tactu, non enim percipit suum
+          <lb ed="#P" n="20"/>objectum peralterationem realem et physicam,
+          <lb ed="#P" n="21"/>ut hactenus est probatum: ergo per 
+          intentio<lb break="no" ed="#P" n="22"/>nalem. Dicetur forte hactenus tantum esse
+          <lb ed="#P" n="23"/>probatum a tactu non percipi calorem, verbi
+          <lb ed="#P" n="24"/>gratia, sibi inhaerentem, non tamen esse 
+          os<lb break="no" ed="#P" n="25"/>tensum calorem inhaerentem non esse 
+          ratio<lb break="no" ed="#P" n="26"/>nem sentiendi externum: sed hoc eisdem 
+          ra<lb break="no" ed="#P" n="27"/>tionibus probatum manet: tum primo in 
+          qua<lb break="no" ed="#P" n="28"/>Iitatibus aliis a primis, ut duritie et mollitie,
+          <lb ed="#P" n="29"/>etc., quae sibi similes non producunt in tactu:
+          <lb ed="#P" n="30"/>talium ergo sensatio fiet per species, vel certe
+          <lb ed="#P" n="31"/>per earum modificationem: tum secundo, quia
+          <lb ed="#P" n="32"/>calor, qui sentitur, major est, quam qui 
+          in<lb break="no" ed="#P" n="33"/>haeret, unde non potest ille per hunc sentiri.
+          <lb ed="#P" n="34"/>Denique universalis ratio est, quod ejusmodi
+          <lb ed="#P" n="35"/>qualitates reales nimis materiales sunt, ut per
+          <lb ed="#P" n="36"/>illas possint actuari sensus, efficereque 
+          sensa<lb break="no" ed="#P" n="37"/>tiones: ergo per species intentionales id 
+          praes<lb break="no" ed="#P" n="38"/>tatur.
+        </p>
+        <p xml:id="szdada-y16973-d1e538">
+          <lb ed="#P" n="39"/>6. Difficultas suborta em dictis. — Notatio
+          <lb ed="#P" n="40"/>duplicis actionis pro solvenda hac difficultate,
+          <lb ed="#P" n="41"/>ar gumentisque, in n. 1. —Sed hinc difficultas
+          <lb ed="#P" n="42"/>suboritur. Nam si res ita habet, cur calor 
+          tan<lb break="no" ed="#P" n="43"/>gendi non efficit in eo sui species, ac sentitur?
+          <lb ed="#P" n="44"/>Si quidem eas potest efficere in subjecto alio:
+          <lb ed="#P" n="45"/>hujus argumenti solutio, et eorum, quae initio
+          <lb ed="#P" n="46"/>posuimus, pendet ex declaratione modi, quo
+          <lb ed="#P" n="47"/>fit immutatio in his sensibus, praesertim in
+          <lb ed="#P" n="48"/>tactu. Est ergo notandum, qualitates primas,
+          <lb ed="#P" n="49"/>duas vendicare actiones circa organum tactus,
+          <lb ed="#P" n="50"/>aliam naturalem, productionem scilicet sui 
+          si<lb break="no" ed="#P" n="51"/>milis, aliam intentionalem, specierum 
+          videli<lb break="no" ed="#P" n="52"/>cet: inter quas actiones hic naturalis ordo esse
+          <lb ed="#P" n="53"/>videtur, ut intentionalis supponat naturalem,
+          <lb ed="#P" n="54"/>neque fiat solitarie, non enim tactus calorem
+          <lb ed="#P" n="55"/>percipit, nisi quando actu calefit, quod signum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est tunc solum intentionaliter etiam 
+          immu<lb break="no" ed="#P" n="57"/>tari: idque docet experientia, rationem vero
+          <lb ed="#P" n="58"/>a priori non video aliam, quam quod hic est
+          <lb ed="#P" n="59"/>naturalis modus, et ordo istarum qualitatum
+          <lb ed="#P" n="60"/>in agendo, fortasse ortus ex imperfectione tum
+          <lb ed="#P" n="61"/>ipsius tactus, qui pure intentionaliter 
+          immu<lb break="no" ed="#P" n="62"/>tari non valet, tum qualitatum tangibilium,
+          <lb ed="#P" n="63"/>quae species intentionales non nisi per mixtas
+          <lb ed="#P" n="64"/>materiali actioni diffundere possunt: hac 
+          igi<lb break="no" ed="#P" n="65"/>tur de causa calor sui speciem non efficit in
+          <lb ed="#P" n="66"/>subjecto, cui haeret, quia non potest illud 
+          ma<lb break="no" ed="#P" n="67"/>terialiter alterare: hac item de causa non 
+          po<lb break="no" ed="#P" n="68"/>test tactus praecipere qualitates, nisi secundum
+          <lb ed="#P" n="69"/>excessum, quia non potest a minori, vel aequali
+          <lb ed="#P" n="70"/>alterari, et ex consequenti nec intentionaliter
+          <lb ed="#P" n="71"/>immutari. Hac denique de causa productio
+          <lb ed="#P" n="72"/>ejusmodi specierum fit successive, quia 
+          succes<lb break="no" ed="#P" n="73"/>sive intenditur, verbi gratia, in organo calor.
+          <lb ed="#P" n="74"/>Non tamen ita procedit actio, ut nunquam plus
+          <lb ed="#P" n="75"/>repraesentet species, quam alteratum sit 
+          orga<lb break="no" ed="#P" n="76"/>num:: oppositum enim contingere ostendimus
+          <lb ed="#P" n="77"/>supra: procedit ergo actio servata proportione
+          <lb ed="#P" n="78"/>quadam juxta multitudinem et intensionem
+          <lb ed="#P" n="79"/>formae agentis, nam species utrumque 
+          reprae<lb break="no" ed="#P" n="80"/>sentant, ac proinde plus valent repraesentare,
+          <lb ed="#P" n="81"/>quem pro organi ipsius materiali alteratione.
+          <lb ed="#P" n="82"/>Est etiam successiva productio earumdem 
+          spe<lb break="no" ed="#P" n="83"/>cierum secundum partes diversas, ad quas 
+          suc<lb break="no" ed="#P" n="84"/>cessive diffunditur calefactio, et per haec patet
+          <lb ed="#P" n="85"/>solutio ad argumenta initio posita.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

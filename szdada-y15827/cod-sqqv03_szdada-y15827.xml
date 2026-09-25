@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="646"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y15827"><!-- t3l3c9 -->
+        <head xml:id="szdada-y15827-Hd1e101">Caput 9</head>
+        <head xml:id="szdada-y15827-Hd1e103" type="question-title">Utrum ad productionem specierum sensibilium oporteat ponere sensum agentem</head>
+        <p xml:id="szdada-y15827-d1e106">
+          <lb ed="#P" n="96"/>CAPUT IX.
+          <lb ed="#P" n="97"/>UTRUM AD PRODUCTIONEM SPECIERUM SENSIBILIUM
+          <lb ed="#P" n="98"/>OPORTEAT PONERE SENSUM AGENTEM.
+        </p>
+        <p xml:id="szdada-y15827-d1e115">
+          <lb ed="#P" n="99"/>1. Ratio dubitandi. — Ratio difficultatis in
+          <lb ed="#P" n="100"/>hac quaestione est, quoniam species sensibiles
+          <lb ed="#P" n="101"/>habent quemdam modum materialtatis: videtur
+          <lb ed="#P" n="102"/>ergo non posse produci a materialibus objectis
+          <lb ed="#P" n="103"/>sensibilibus: ergo ad earum productionem 
+          vi<lb break="no" ed="#P" n="104"/>detur necessarium, specialem aliquam 
+          virtu<lb break="no" ed="#P" n="105"/>tem assignare. Quaestio haec tractanda 
+          videre<lb break="no" ed="#P" n="106"/>tur de potentiis cognoscentibus absolute, at
+          <lb ed="#P" n="107"/>quia longe aliam decisionem, difficultatemque
+          <pb ed="#P" n="647"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>habet in sensibus, quam in intellectu, hic 
+          par<lb break="no" ed="#P" n="2"/>ticulariter tractanda fuit. Est igitur notandum,
+          <lb ed="#P" n="3"/>in sensu speciem considerari, et actum, ac
+          <lb ed="#P" n="4"/>respectu utriusque dari principium activum et
+          <lb ed="#P" n="5"/>passivum: quantum ergo ad actum 
+          sentien<lb break="no" ed="#P" n="6"/>di fuit opinio unum esse sensum, qui agat, et
+          <lb ed="#P" n="7"/>alium qui recipiat actionem, quod jam supra
+          <lb ed="#P" n="8"/>relatum et improbatum fuit. Quare misso actu
+          <lb ed="#P" n="9"/>difficultas restat circa species, quae in ipso
+          <lb ed="#P" n="10"/>sensu recipiuntur, nimirum a quonam fiant.
+        </p>
+        <p xml:id="szdada-y15827-d1e163">
+          <lb ed="#P" n="11"/>2. Secunda opinio. — Consule auctorem, 
+          dis<lb break="no" ed="#P" n="12"/>pu. 26 Metaphysice, sect. 1. — Due alie
+          <lb ed="#P" n="13"/>opiniones improbabiles etiam .—CQuidam 
+          univer<lb break="no" ed="#P" n="14"/>sim ponunt, nullam speciem sensibilem 
+          cau<lb break="no" ed="#P" n="15"/>sari ab objecto, sed ab aliquo sensu agente,
+          <lb ed="#P" n="16"/>vel ab intelligentia aliqua propter rationem
+          <lb ed="#P" n="17"/>factam. Et confirmant, quia potentia animae
+          <lb ed="#P" n="18"/>res est perfecta valde, objecta vero exteriora
+          <lb ed="#P" n="19"/>nimis materialia sunt et imperfecta: non 
+          pos<lb break="no" ed="#P" n="20"/>sunt ergo agere in sensum, nam agens debet
+          <lb ed="#P" n="21"/>esse nobilius patiente, teste Aristotele 2, de
+          <lb ed="#P" n="22"/>Anima, cap. 2, Augustino, 8 lib. Genesis ad
+          <lb ed="#P" n="23"/>litteram, et lib. 11, cap. 17. Si dicas illud 
+          in<lb break="no" ed="#P" n="24"/>telligi solum, quod ratio agentis, ut sic 
+          nobi<lb break="no" ed="#P" n="25"/>lior sit ratione patientis. ac nihilommus 
+          nobi<lb break="no" ed="#P" n="26"/>liorem rem aliquando pati ab ignobiliori, si in
+          <lb ed="#P" n="27"/>aliquo superetur ab illa. Contra arguitur: quia
+          <lb ed="#P" n="28"/>saltem effectus non potest esse nobilior 
+          prin<lb break="no" ed="#P" n="29"/>cipio agendi, sed species intentionalis est 
+          no<lb break="no" ed="#P" n="30"/>bilior, quam sensibilis qualitas, quia est 
+          im<lb break="no" ed="#P" n="31"/>materialior: ergo non fit ab illa: ergo ab 
+          ali<lb break="no" ed="#P" n="32"/>quo sensu agente fieri oportet. Propter haec
+          <lb ed="#P" n="33"/>Commentator, infra cap. 12, et text. 60, ut illi
+          <lb ed="#P" n="34"/>tribuunt Venetus hic, et Javellus, quaest. 51,
+          <lb ed="#P" n="35"/>art. 1, ad 1, voluit species sensibiles non 
+          pro<lb break="no" ed="#P" n="36"/>duci ab objecto, sed ab intelligentia aliqua
+          <lb ed="#P" n="37"/>spirituali, quae supplet vicem objecti, idem
+          <lb ed="#P" n="38"/>sequitur Nyphus, dict. text. 60, Zimara vero,
+          <lb ed="#P" n="39"/>theorem. 82, ad secundum, Gregorius conatur
+          <lb ed="#P" n="40"/>ostendere Commentatorem non hoc sensisse:
+          <lb ed="#P" n="41"/>juxta hanc tamen opinionem-ad rationem 
+          ob<lb break="no" ed="#P" n="42"/>jectt sensibilis per se non est necesse, quod
+          <lb ed="#P" n="43"/>immutet sensum effective efficiendo speciem,
+          <lb ed="#P" n="44"/>sed satis est formalis immutatio, id est, quod
+          <lb ed="#P" n="45"/>species repraesentans talem rem possit esse in
+          <lb ed="#P" n="46"/>sensu a quocumque producatur. Alii tribuunt
+          <lb ed="#P" n="47"/>hanc specierum sensibilium productionem coelo
+          <lb ed="#P" n="48"/>in virtute intelligentiae. Alii dicunt produci ab
+          <lb ed="#P" n="49"/>objecto, media tamen quadam virtute coelesti.
+          <lb ed="#P" n="50"/>Attamen istae omnes opiniones ad incognitas
+          <lb ed="#P" n="51"/>causas recurrunt sine necessitate, ut 
+          videbi<lb break="no" ed="#P" n="52"/>mus. ftem repugnat experientiis, quas supra
+          <lb ed="#P" n="53"/>adduximus ad probandum, dari species.
+        </p>
+        <p xml:id="szdada-y15827-d1e260">
+          <lb ed="#P" n="54"/>3. Cajetani opinio valde difficilis. — Hoeec
+          <lb ed="#P" n="55"/>etiam opinio inpugnatur. — Quapropter Caje-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tanus 2, de Anima, capite decimo secundo,
+          <lb ed="#P" n="57"/>statuit res duplicem sortiri actionem, aliam ut
+          <lb ed="#P" n="58"/>participant naturam superiorum, 
+          immateria<lb break="no" ed="#P" n="59"/>liumque agentium, aliam vero secundum 
+          pro<lb break="no" ed="#P" n="60"/>priam naturam: objectum ergo sensibile ex
+          <lb ed="#P" n="61"/>propriis activum non esse specierum, maxime
+          <lb ed="#P" n="62"/>tamen ut participat naturam substantiarum
+          <lb ed="#P" n="63"/>separatarum quae doctrina videtur desumpta
+          <lb ed="#P" n="64"/>ex S. Thoma, quaest. quinta, de Potent., 
+          arti<lb break="no" ed="#P" n="65"/>culo octavo, ubi ait, res materiales, in 
+          quan<lb break="no" ed="#P" n="66"/>tum assimilantur immaterialibus, illarumque
+          <lb ed="#P" n="67"/>naturas participant, habere actiones aliquas
+          <lb ed="#P" n="68"/>sine motu, in quibus proinde a motu coeli non
+          <lb ed="#P" n="69"/>pendent, cujusmodi actio, inquit, est 
+          specie<lb break="no" ed="#P" n="70"/>rum diffusio: est tamen opinio perdifficilis :
+          <lb ed="#P" n="71"/>quia non intelligitur quid, qualisve sit parü-
+          <lb ed="#P" n="72"/>cipatio haec naturae superioris. Aut enim est
+          <lb ed="#P" n="73"/>participatio alicujus entitatis et perfectionis,
+          <lb ed="#P" n="74"/>aut nullius: si nuliius: nihil plane deserviet
+          <lb ed="#P" n="75"/>ad actionem, si alicujus: estne major, quam
+          <lb ed="#P" n="76"/>perfeetio speciei productae: an forte minor
+          <lb ed="#P" n="77"/>(aequalis enim non erit, cum vroductio sit
+          <lb ed="#P" n="78"/>aequivoca ): si minor esse ponatur, non 
+          sufti<lb break="no" ed="#P" n="79"/>ciet plane ad speeiei productioncm: si vero
+          <lb ed="#P" n="80"/>major sit, quaero rursus an t lis perfectio sit
+          <lb ed="#P" n="81"/>intrinseca naturae illorum obje: turum, quae 
+          spe<lb break="no" ed="#P" n="82"/>cies diffundunt, an vero sit superaddita tah
+          <lb ed="#P" n="83"/>naturae. Si primum dicatur, cessat quaestio, 
+          inu<lb break="no" ed="#P" n="84"/>tilisque distinctio allata redditur: nam cum
+          <lb ed="#P" n="85"/>illa perfectio pertineat ad constitutionem 
+          na<lb break="no" ed="#P" n="86"/>turae ipsorum objectorum, ipsa per propriam
+          <lb ed="#P" n="87"/>naturam poterunt causare speciem. Secundum
+          <lb ed="#P" n="88"/>autem dicere fictitium esset, cum ostendi 
+          ne<lb break="no" ed="#P" n="89"/>queat, quae sit perfectio illa superaddita: 
+          qua<lb break="no" ed="#P" n="90"/>re, etc.
+        </p>
+        <p xml:id="szdada-y15827-d1e345">
+          <lb ed="#P" n="91"/>4. Prima assertio quoad seusus externos. —
+          <lb ed="#P" n="92"/>Sit ergo prima conclusi». In sensibus 
+          exterio<lb break="no" ed="#P" n="93"/>ribus species imprimurntur ab objectis: nec
+          <lb ed="#P" n="94"/>proinde necessarius in ill's est sensus agens.
+          <lb ed="#P" n="95"/>Ita sumitur ex Aristoetele, libro secundo, de
+          <lb ed="#P" n="96"/>Anima, text. 121, ubi ait sensum pati a 
+          sen<lb break="no" ed="#P" n="97"/>sibili, et ex Augustino 10, de Trinitat., capite
+          <lb ed="#P" n="98"/>secundo, dum scribit objectum ad extra 
+          mo<lb break="no" ed="#P" n="99"/>vere sensum. Idem censet $. Thomas, prima
+          <lb ed="#P" n="100"/>parte, quaestione undecima, articulo quarto,
+          <lb ed="#P" n="101"/>et 1, contr. Gentes, capite sexagesimo quinto,
+          <lb ed="#P" n="102"/>et in quaest. de Anima, articulo quarto ad
+          <lb ed="#P" n="103"/>quintum, Albertus Magnus, Summa de 
+          ho<lb break="no" ed="#P" n="104"/>mine, quaest. 102, et 2, de Anima, tractatu
+          <lb ed="#P" n="105"/>tertio, capite sexto, et expositores communiter
+          <lb ed="#P" n="106"/>citat., libro de Anima, capite decimo secundo.
+          <lb ed="#P" n="107"/>Experientiae quoque adductae hanc 
+          conclusio<lb break="no" ed="#P" n="108"/>nem probant. Ratio vero est, quia species 
+          in<lb break="no" ed="#P" n="109"/>tentionales non sunt perfectiores objectis suis,
+          <lb ed="#P" n="110"/>sed potius vestigia quaedam ipsorum, tenuio-
+          <pb ed="#P" n="648"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>risque entitatis. Sic albedo, verbi gratia, in
+          <lb ed="#P" n="2"/>sua quidem ratione perfecta entitas est: ejus
+          <lb ed="#P" n="3"/>vero species in eadem ratione non illi 
+          aequi<lb break="no" ed="#P" n="4"/>paratur: calor etiam, qui et calorem, et species
+          <lb ed="#P" n="5"/>sensibiles agit, activus dicitur, non ab actione
+          <lb ed="#P" n="6"/>specierum, sed ab actione caloris: quod 
+          si<lb break="no" ed="#P" n="7"/>gnum est calorem perfectiorem esse, quam
+          <lb ed="#P" n="8"/>ipsius speciem, cum denominatio a perfectiori
+          <lb ed="#P" n="9"/>desumatur. Neque obstat speciem minus 
+          cras<lb break="no" ed="#P" n="10"/>sam videri, quam objectum: talis enim 
+          sub<lb break="no" ed="#P" n="11"/>tilitas ad exilitatem potius entitatis, quam ad
+          <lb ed="#P" n="12"/>immaterialitatem, spiritualitatemve refertur,
+          <lb ed="#P" n="13"/>cum non minus materiae adhaerescat, ab 
+          ipsa<lb break="no" ed="#P" n="14"/>que educatur, quam realitas sui objecti. 
+          insta<lb break="no" ed="#P" n="15"/>bis. Quidquid agit ad productionem sui similis,
+          <lb ed="#P" n="16"/>aut propter conservandam suam naturam 
+          spe<lb break="no" ed="#P" n="17"/>cificam, aut propter sui perfectionem operatur,
+          <lb ed="#P" n="18"/>sed objectum in productione speciei nec 
+          seip<lb break="no" ed="#P" n="19"/>sum perficit, nec conservat naturam 
+          specifi<lb break="no" ed="#P" n="20"/>cam: ergo illam non agit. Neganda tamen
+          <lb ed="#P" n="21"/>major, multa enim agunt tantum, ut se 
+          com<lb break="no" ed="#P" n="22"/>municent, aliaque perficiant, sol enim, verbi
+          <lb ed="#P" n="23"/>gratia, illuminando neque seipsum perficit,
+          <lb ed="#P" n="24"/>neque conservat, sed alia perficit diffusione
+          <lb ed="#P" n="25"/>lucis: ita plane colores producunt species sui,
+          <lb ed="#P" n="26"/>ut se aliquo modo communicent, ac sensum
+          <lb ed="#P" n="27"/>perficiant, quia vero proprium est 
+          substantia<lb break="no" ed="#P" n="28"/>rum separatarum, et rerum incorruptibilium
+          <lb ed="#P" n="29"/>hoc modo agere, fortasse divus Thomas 
+          sensi<lb break="no" ed="#P" n="30"/>bilia in diffusione specierum substantiis 
+          se<lb break="no" ed="#P" n="31"/>paratis comparavit, non vero quod ab illis
+          <lb ed="#P" n="32"/>participent aliquam virtutem, ut videtur 
+          exi<lb break="no" ed="#P" n="33"/>stimasse Cajetanus, et de externis sensibus.
+        </p>
+        <p xml:id="szdada-y15827-d1e467">
+          <lb ed="#P" n="34"/>5. Notatio pro discussione quoad sensus
+          <lb ed="#P" n="35"/>internos. — Dicendum superest de sensu 
+          in<lb break="no" ed="#P" n="36"/>terno, in quo distingui solent tria specierum
+          <lb ed="#P" n="37"/>genera, sensatarum: ex sensatis 
+          composita<lb break="no" ed="#P" n="38"/>rum: denique insensatarum. Species sensatas
+          <lb ed="#P" n="39"/>vocant in quibus eodem modo, in quo in
+          <lb ed="#P" n="40"/>externis sensibus objecta repraesentantur ,
+          <lb ed="#P" n="41"/>qualis species parietis, quae ex visu in 
+          imagi<lb break="no" ed="#P" n="42"/>natione imprimitur: species compositae 
+          di<lb break="no" ed="#P" n="43"/>cuntur, quae ex simplicibus sensatis coalescunt,
+          <lb ed="#P" n="44"/>veluti cum imaginatio fingit montem aureum,
+          <lb ed="#P" n="45"/>talis enim species nunquam praecessit in visu,
+          <lb ed="#P" n="46"/>sed montis, et auri seorsum: phantasia vero
+          <lb ed="#P" n="47"/>componit speciem montisauri. Ultimo species
+          <lb ed="#P" n="48"/>insensatae dicuntur, quae repraesentant rem
+          <lb ed="#P" n="49"/>sensibus quidem externis cognitam, attamen
+          <lb ed="#P" n="50"/>sub quadam alia ratione eis ignotam: sic dum
+          <lb ed="#P" n="51"/>ovis apprehendit lupum, ut inimicum, species
+          <lb ed="#P" n="52"/>repraesentans lupum sub ratione inimicitiae
+          <lb ed="#P" n="53"/>dicitur insensata.
+        </p>
+        <p xml:id="szdada-y15827-d1e513">
+          <lb ed="#P" n="54"/>6. De speciebus sensatis quorumdam opinio.
+          <lb ed="#P" n="55"/>— Prima difficultas contra hanc opinionem.—
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Secunda difficultas. — Tertia difficultas. —
+          <lb ed="#P" n="57"/>Hac supposita distinctione magis fortasse 
+          com<lb break="no" ed="#P" n="58"/>muni, quam vera de speciebus sensatis, quas
+          <lb ed="#P" n="59"/>certum est dari, aiunt quidam, produci ab
+          <lb ed="#P" n="60"/>speciebus exterioribus, seu ab objecto 
+          intrin<lb break="no" ed="#P" n="61"/>seco mediantibus illis. Quae opinio non aliter
+          <lb ed="#P" n="62"/>probatur, quam quod haec sit sufliciens, et 
+          fa<lb break="no" ed="#P" n="63"/>cilis causa illarum specierum. Habet tamen
+          <lb ed="#P" n="64"/>haec sententia difficultates, primam, qucd 
+          spe<lb break="no" ed="#P" n="65"/>cies imaginativae sit multo perfectior, quam
+          <lb ed="#P" n="66"/>exterioris sensus, ut patet, tum ex perfectione
+          <lb ed="#P" n="67"/>majori potentiae, in qua recipitur, tum ex 
+          ac<lb break="no" ed="#P" n="68"/>tus perfectione majori, ad quem ordinatur:
+          <lb ed="#P" n="69"/>non ergo potest effici ab imperfectiori tanquam
+          <lb ed="#P" n="70"/>a totali principio immediato. Secunda 
+          diffi<lb break="no" ed="#P" n="71"/>cultas supponit sensum interiorem esse in 
+          ce<lb break="no" ed="#P" n="72"/>rebro: tunc ita urget. Si species oculis, verbi
+          <lb ed="#P" n="73"/>gratia, impressa ab objecto similem aliam 
+          pro<lb break="no" ed="#P" n="74"/>ducit in cerebrum distans: vel per media 
+          in<lb break="no" ed="#P" n="75"/>terjacentia inter pupillam et cerebrum, id
+          <lb ed="#P" n="76"/>praestat vel omniuo immediate, eo quod sit
+          <lb ed="#P" n="77"/>satis interlorem sensum, atque exteriorem in
+          <lb ed="#P" n="78"/>eadem anima radicari, quamvis in disjunctis
+          <lb ed="#P" n="79"/>organis resideant. Non primum, tum quia
+          <lb ed="#P" n="80"/>talia media nec diaphana sunt, nec illustrata,
+          <lb ed="#P" n="81"/>ut oportet ad diffusionem speciei qualis in
+          <lb ed="#P" n="82"/>pupilla fuit impressa, tum quia in tactu id 
+          fa<lb break="no" ed="#P" n="83"/>cile convincitur falsitatis, quoniam cum 
+          ma<lb break="no" ed="#P" n="84"/>nus, verbi gratia, calefit, si species caloris
+          <lb ed="#P" n="85"/>transiret per partes intermedias usque ad 
+          ce<lb break="no" ed="#P" n="86"/>rebrum, omnes illae calorem perciperent, cum
+          <lb ed="#P" n="87"/>omnes tactu polleant. Non secundum, quia
+          <lb ed="#P" n="88"/>illa duarum facultatum in eadem anima 
+          radi<lb break="no" ed="#P" n="89"/>catio concludit solum per modum cujusdam
+          <lb ed="#P" n="90"/>sympathiae, quatenus operantes una facultate
+          <lb ed="#P" n="91"/>anima inde excitatur ad operandum per aliam,
+          <lb ed="#P" n="92"/>cessat autem haec ratio, si externus sensus 
+          re<lb break="no" ed="#P" n="93"/>cipiat tantum ab externo sensibili speciem,
+          <lb ed="#P" n="94"/>neque sensationem eliciat. Tertia difficultas,
+          <lb ed="#P" n="95"/>si species sensus exterioris causaret speciem
+          <lb ed="#P" n="96"/>interioris sensus, sequeretur quoties exterior
+          <lb ed="#P" n="97"/>sensus speciem recipit, easdem recipere 
+          inte<lb break="no" ed="#P" n="98"/>riorem: consequens est falsum: ergo, etc.
+          <lb ed="#P" n="99"/>Sequela patet: quia actio illa naturalis est,
+          <lb ed="#P" n="100"/>ideoque posito principio agendi et passo, 
+          sta<lb break="no" ed="#P" n="101"/>tim sequitur. Probatur ergo minor: nam si
+          <lb ed="#P" n="102"/>sensus exterior recipiendo species illis non
+          <lb ed="#P" n="103"/>utatur, plane interior sensus non 
+          immutabi<lb break="no" ed="#P" n="104"/>tur, ut patet in eo qui patitur apoplexiam, vel
+          <lb ed="#P" n="105"/>deliquium animae, sive extasim, licet enim in
+          <lb ed="#P" n="106"/>apertos oculos objectum externum sui speciem
+          <lb ed="#P" n="107"/>imprimat, nihil tamen vidisse se postea 
+          recor<lb break="no" ed="#P" n="108"/>datur, quod signum est nullam revera, 
+          quam<lb break="no" ed="#P" n="109"/>vis speciem haberet, elicuisse visionem. Ex
+          <lb ed="#P" n="110"/>quo aperte constat interiorem sensum speciem
+          <pb ed="#P" n="649"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non recipere, si exterior non cognoscat. Unde
+          <lb ed="#P" n="2"/>in libro de Memoria et reminiscentia, capite
+          <lb ed="#P" n="3"/>primo, Philosophus merito dixit, qui meminit,
+          <lb ed="#P" n="4"/>recordari se percepisse. Nec satis occurret ,
+          <lb ed="#P" n="5"/>qui dixerit cognitionem, vel attentionem 
+          ex<lb break="no" ed="#P" n="6"/>terni sensus requiri quidem, ut ejus species
+          <lb ed="#P" n="7"/>similem aliam in internum introducat, non
+          <lb ed="#P" n="8"/>tamen ut causam, sed ut conditionem: hoc
+          <lb ed="#P" n="9"/>enim merum videtur effugium, praeterquam
+          <lb ed="#P" n="10"/>quod vitalis attentio requiri jure potest ut 
+          po<lb break="no" ed="#P" n="11"/>tentia per speciem operetur: ut autem 
+          spe<lb break="no" ed="#P" n="12"/>ciem patiatur, nequaquam requiritur, ut in
+          <lb ed="#P" n="13"/>externis sensibus videre licet.
+        </p>
+        <p xml:id="szdada-y15827-d1e674">
+          <lb ed="#P" n="14"/>7. Prima pars unde constet.—sSecunda pars
+          <lb ed="#P" n="15"/>suadetur. — Unde sit secunda conclusio. 
+          Spe<lb break="no" ed="#P" n="16"/>cies sensata interioris sensus non fit ab objecto
+          <lb ed="#P" n="17"/>extrinseco mediante specie, sed ab exteriori
+          <lb ed="#P" n="18"/>sensu, medio actu cognitionis. Haec ut 
+          proba<lb break="no" ed="#P" n="19"/>bilis tantum ponitur, quia in re tam abdita
+          <lb ed="#P" n="20"/>nihil certo definire possumus. Prima ergo pars
+          <lb ed="#P" n="21"/>suadetur ex numero praecedenti: ad 
+          intelli<lb break="no" ed="#P" n="22"/>gendam vero partem secundam, oportet 
+          resu<lb break="no" ed="#P" n="23"/>mere ex capite quinto per actionem 
+          cognoscen<lb break="no" ed="#P" n="24"/>di produci intrinsecum terminum, qualitatem
+          <lb ed="#P" n="25"/>scilicet repraesentativam rei in actu secundo:
+          <lb ed="#P" n="26"/>per hanc ergo qualitatem, quam sensus quoque
+          <lb ed="#P" n="27"/>exterior in seipso format, probabiliter creditur
+          <lb ed="#P" n="28"/>produci in sensu interiori speciem 
+          repraesen<lb break="no" ed="#P" n="29"/>tativam ejusdem objecti, idque propter 
+          coor<lb break="no" ed="#P" n="30"/>dinationem et unionem, quam istae potentiae
+          <lb ed="#P" n="31"/>habent in eadem anima, quod suadetur primo.
+          <lb ed="#P" n="32"/>Sensus interior non recipit species nisi 
+          exte<lb break="no" ed="#P" n="33"/>riori sensu actu cognoscente, ac eorecipit 
+          me<lb break="no" ed="#P" n="34"/>liores, quo ipse exterior melius, et exactius
+          <lb ed="#P" n="35"/>operatur: signum ergo est illas imprimi a
+          <lb ed="#P" n="36"/>sensu externo, mediante illa qualitate, seu 
+          ac<lb break="no" ed="#P" n="37"/>tu secundo, siquidem talis est species interior,
+          <lb ed="#P" n="38"/>qualis est externa sensatio. Secundo non 
+          ap<lb break="no" ed="#P" n="39"/>paret commodior causa productiva specierum,
+          <lb ed="#P" n="40"/>de quibus loquimur: ergo illa credenda est,
+          <lb ed="#P" n="41"/>quam assignamus.
+        </p>
+        <p xml:id="szdada-y15827-d1e737">
+          <lb ed="#P" n="42"/>8. Primum corollarium.— Secundum 
+          corol<lb break="no" ed="#P" n="43"/>larium. — Hinc colligitur primo interni sensus
+          <lb ed="#P" n="44"/>imagines ab imaginibus externi distingui 
+          spe<lb break="no" ed="#P" n="45"/>cifice. Probatur ex dictis. Nam si 
+          ejusdemspe<lb break="no" ed="#P" n="46"/>ciei essent, posset una alteram causare, cujus
+          <lb ed="#P" n="47"/>oppositum ostensum est. Praeterea species 
+          ex<lb break="no" ed="#P" n="48"/>terior pendet in fieri, et esse ab objecto suo,
+          <lb ed="#P" n="49"/>non item interior. Denique ratio supra facta
+          <lb ed="#P" n="50"/>suadet probabiliter. Nam species debet 
+          pro<lb break="no" ed="#P" n="51"/>portionari potentiae: ergo potentia altior 
+          sor<lb break="no" ed="#P" n="52"/>tiri debet species perfectiores. Secundo 
+          sequi<lb break="no" ed="#P" n="53"/>tur species illas interiores differre quoque
+          <lb ed="#P" n="54"/>specie ab externis sensationibus, idque a 
+          for<lb break="no" ed="#P" n="55"/>tiori, cum actus vitalis, et species constituens
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>potentiam in actu primo diversi sint generis.
+          <lb ed="#P" n="57"/>Rursum sensatio externa pendet in fieri et esse
+          <lb ed="#P" n="58"/>a sua potentia: illamque constituit in actu 
+          se<lb break="no" ed="#P" n="59"/>cundo: species vero interior nihil istorum 
+          ven<lb break="no" ed="#P" n="60"/>dicat: quare, etc.
+        </p>
+        <p xml:id="szdada-y15827-d1e784">
+          <lb ed="#P" n="61"/>9. Objectio contra proxime dicta solvitur.—
+          <lb ed="#P" n="62"/>Instantia. — Responsio pro qua vide etiam, in
+          <lb ed="#P" n="63"/>disp. 291 Metaphysica, sect. 4, a num. 3. —
+          <lb ed="#P" n="64"/>Sed dices. Si haec vera essent, sequeretur 
+          spe<lb break="no" ed="#P" n="65"/>ciem internam perfectiorem esse sensatione 
+          ex<lb break="no" ed="#P" n="66"/>terna, quia actus est nobilioris potentiae, atque
+          <lb ed="#P" n="67"/>adeo ab ea non posse produci. Negatur tamen
+          <lb ed="#P" n="68"/>sequela, nam comparatio apposite fieri debet,
+          <lb ed="#P" n="69"/>comparando scilicet actus primos utriusque
+          <lb ed="#P" n="70"/>potentiae inter se, vel etiam inter se secundos:
+          <lb ed="#P" n="71"/>sicque perfectior erit, qui perfectioris fuerit
+          <lb ed="#P" n="72"/>potentiae: comparando vero actum secundum
+          <lb ed="#P" n="73"/>potentiae minus perfectae, ad actum primum
+          <lb ed="#P" n="74"/>perfectioris, ille poterit esse perfectior ratione
+          <lb ed="#P" n="75"/>sui generis. Urgebis, perfectior est sensatio
+          <lb ed="#P" n="76"/>externa, quam interna species: haec ergo jam
+          <lb ed="#P" n="77"/>dependebit ab illa in conservari. Quia quoties
+          <lb ed="#P" n="78"/>effectus est imperfecta participatio suae causae,
+          <lb ed="#P" n="79"/>ab ea pendet in conservari. Ad hoc 
+          respondi<lb break="no" ed="#P" n="80"/>mus 2, Physicorum, quaest. 5, de Causis, 
+          divi<lb break="no" ed="#P" n="81"/>sione 4, dependentiam in conservari saepe
+          <lb ed="#P" n="82"/>provenire magis ex natura formae et subjecti,
+          <lb ed="#P" n="83"/>quam ex causalitate. Ad haec: species externa
+          <lb ed="#P" n="84"/>ideo quidem pendet ab objecto, quia prodit ut
+          <lb ed="#P" n="85"/>quaedam imperfecta participatio illius: at 
+          sen<lb break="no" ed="#P" n="86"/>satio exterior producit in sensu interiori 
+          spe<lb break="no" ed="#P" n="87"/>ciem, tanquam perfectam sui similitudinem,
+          <lb ed="#P" n="88"/>quam interior sensus juxta naturalem suam
+          <lb ed="#P" n="89"/>dispositionem optime conservare potest.
+        </p>
+        <p xml:id="szdada-y15827-d1e849">
+          <lb ed="#P" n="90"/>10. Tertia assertio. — Sit tamen tertia 
+          con<lb break="no" ed="#P" n="91"/>clusio. Probabile est species interiores 
+          resulta<lb break="no" ed="#P" n="92"/>re in interiori sensu ex propria illius 
+          efficien<lb break="no" ed="#P" n="93"/>tia. Hanc conclusionem probabimus, infra
+          <lb ed="#P" n="94"/>l. 4, c. 2, agentes de Speciebus intelligibilibus.
+          <lb ed="#P" n="95"/>Nunc vero declaratur ex supra dicta sympathia,
+          <lb ed="#P" n="96"/>seu consensione potentiarum cognoscentium
+          <lb ed="#P" n="97"/>propter radicationem in anima eadem. Nam
+          <lb ed="#P" n="98"/>eo ipso, quod anima per externum sensum
+          <lb ed="#P" n="99"/>cognoscit, ad praesentiam talis cognitionis
+          <lb ed="#P" n="100"/>absque ulla ejus activitate resultat ab 
+          inter<lb break="no" ed="#P" n="101"/>no sensu effective interna species, hac enim
+          <lb ed="#P" n="102"/>de causa ejusmodi simplices species sensus 
+          in<lb break="no" ed="#P" n="103"/>terior non semper efformat, quia videlicet non
+          <lb ed="#P" n="104"/>semper datur in exteriori praevia aliqua 
+          cogni<lb break="no" ed="#P" n="105"/>tio objecti. Haec conclusio nullam prae se fert
+          <lb ed="#P" n="106"/>absurditatem, redditurque probabilis primo,
+          <lb ed="#P" n="107"/>quod nunquam aatis rationi consonet putare
+          <lb ed="#P" n="108"/>externam sensationem eflicere speciem 
+          inte<lb break="no" ed="#P" n="109"/>riorem, cum cognitio non sit productiva 
+          alte<lb break="no" ed="#P" n="110"/>rius qualitatis a se distinctae realiter: gratis
+          <pb ed="#P" n="650"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ergo confictum videtur id externae sensationi
+          <lb ed="#P" n="2"/>attribuere. Secundo, quia non redditur 
+          suffi<lb break="no" ed="#P" n="3"/>ciensratio, quarespecies interior non pendeatin
+          <lb ed="#P" n="4"/>conservari a sensatione externa, si est 
+          imper<lb break="no" ed="#P" n="5"/>fectior effectus. Tertio, quia similes aliae 
+          con<lb break="no" ed="#P" n="6"/>sensiones reperiuntur in potentiis vitalibus
+          <lb ed="#P" n="7"/>ejusdem animae, nam una operante alia 
+          ope<lb break="no" ed="#P" n="8"/>ratur, et non aliter: ergo similiter in praesenti.
+          <lb ed="#P" n="9"/>Denique hic dicendi modus consonat cum 
+          sta<lb break="no" ed="#P" n="10"/>tuendis infra de intellectu, ideoque placet 
+          ma<lb break="no" ed="#P" n="11"/>gis, quamvis modus alius in secunda 
+          conclu<lb break="no" ed="#P" n="12"/>sione positus non sit improbabilis.
+        </p>
+        <p xml:id="szdada-y15827-d1e927">
+          <lb ed="#P" n="13"/>11. De speciebus compositis ex sensatis.—
+          <lb ed="#P" n="14"/>Ex his constat quid dicendum sit de speciebus
+          <lb ed="#P" n="15"/>compositis ex sensatis, quando scilicet 
+          inter<lb break="no" ed="#P" n="16"/>nus sensus species simplices componit, dum,
+          <lb ed="#P" n="17"/>exempli gratia, montem aurcam imaginatur:
+          <lb ed="#P" n="18"/>de tali enim cognitione est difficultas, an fiat
+          <lb ed="#P" n="19"/>per duas species montis, scilicet, et auri, an
+          <lb ed="#P" n="20"/>per unicam tantum repraesentantem montem
+          <lb ed="#P" n="21"/>aureum. Divus Thomas, locis citandis, infra in
+          <lb ed="#P" n="22"/>c. 18, affirmare videtur hoc secundum, quod
+          <lb ed="#P" n="23"/>probabile fiet, si exponatur, non quidem de
+          <lb ed="#P" n="24"/>primo actu, quem certe simplices tantum 
+          spe<lb break="no" ed="#P" n="25"/>cies antecesserant, ac per modum unius ad 
+          ip<lb break="no" ed="#P" n="26"/>sum eliciendum concurrerant, sed de reliquis
+          <lb ed="#P" n="27"/>in posterum ob relictam jam ex priori illo 
+          ac<lb break="no" ed="#P" n="28"/>tu unicam speciem. Quod ctiam fit credibile
+          <lb ed="#P" n="29"/>ab experientia. Qui enim nunquam cognovit
+          <lb ed="#P" n="30"/>monem aureum, ut illum fingat, prius 
+          conci<lb break="no" ed="#P" n="31"/>pit singulas partes cum quadam successione,
+          <lb ed="#P" n="32"/>quod signum est in ea compositione usum
+          <lb ed="#P" n="33"/>fuisse speciebus utriusque partis: at deinceps
+          <lb ed="#P" n="34"/>absque nova compositione et transcursu 
+          ima<lb break="no" ed="#P" n="35"/>ginatur facile montem aureum ob relictam 
+          sci<lb break="no" ed="#P" n="36"/>licet in potentia speciem unicam illius 
+          reprae<lb break="no" ed="#P" n="37"/>sentatricem.
+        </p>
+        <p xml:id="szdada-y15827-d1e984">
+          <lb ed="#P" n="38"/>12. De speciebus insensatis aliorum 
+          placi<lb break="no" ed="#P" n="39"/>tum. — Denique circa species insensatas, ut
+          <lb ed="#P" n="40"/>in fine numeri quinti dicebamus, notandum
+          <lb ed="#P" n="41"/>dupliciter cognosci a sensu interiori, vel sub
+          <lb ed="#P" n="42"/>extrinseca illa ratione, quae sensibus 
+          exterio<lb break="no" ed="#P" n="43"/>ribus objicitur, vel sub alia magis abdita 
+          ra<lb break="no" ed="#P" n="44"/>tuone. Ex hac ergo duphlici ratione, et 
+          cogni<lb break="no" ed="#P" n="45"/>tione duplex solet induci species in interiori
+          <lb ed="#P" n="46"/>sensu, sensata scilicet et insensata, quod enim
+          <lb ed="#P" n="47"/>ad repraesentandas has rationes duplex 
+          requi<lb break="no" ed="#P" n="48"/>ratur species patet, tum ex earum 
+          diversi<lb break="no" ed="#P" n="49"/>tate, tum quia stat repraesentari unam, altera
+          <lb ed="#P" n="50"/>non repraesentata: lupus enim habet speciem
+          <lb ed="#P" n="51"/>alterius lupi repraesentantem illum tantum sub
+          <lb ed="#P" n="52"/>ratione lupi, ovis vero repraesentantem 
+          prae<lb break="no" ed="#P" n="53"/>terea sub ratione inimici: sunt ergo species
+          <lb ed="#P" n="54"/>distinctae. Porro si verum est species has 
+          in<lb break="no" ed="#P" n="55"/>sensatas dari, non possunt sane fieri ab objecto,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ut constat ex dictis: unde necessario 
+          dicen<lb break="no" ed="#P" n="57"/>dum fieri a potentia interiori, media 
+          cogni<lb break="no" ed="#P" n="58"/>tione rei sensatae, in qua fundatur illa superior
+          <lb ed="#P" n="59"/>ratio non sensata: itaque si ovis, verbi gratia,
+          <lb ed="#P" n="60"/>per speciem sensatam lupum cognoscat, ut
+          <lb ed="#P" n="61"/>sic, resultabit, propter naturarum 
+          contrarie<lb break="no" ed="#P" n="62"/>tatem, in eadem, vel alia potentia species 
+          re<lb break="no" ed="#P" n="63"/>praesentans illum sub ratione inimici, quae in
+          <lb ed="#P" n="64"/>alio lupo non resultabit, cum dictam 
+          contra<lb break="no" ed="#P" n="65"/>rietatem non habeant.
+        </p>
+        <p xml:id="szdada-y15827-d1e1049">
+          <lb ed="#P" n="66"/>13. Verior sententia. -- Mihi tamen 
+          proba<lb break="no" ed="#P" n="67"/>bilius videtur species insensatas non distingui
+          <lb ed="#P" n="68"/>a sensatis, sed per eamdem speciem, quae ovi,
+          <lb ed="#P" n="69"/>verhi gratia, repraesentat lupum cognosei ab
+          <lb ed="#P" n="70"/>illa sub ratione inimici: primo, quia nulla est
+          <lb ed="#P" n="71"/>necessitas distinguendi, nam statim ac sentit
+          <lb ed="#P" n="72"/>ovis lupum, sentit esse inimicum, potest ergo
+          <lb ed="#P" n="73"/>per eamdem speciem utrumque judicare: quod
+          <lb ed="#P" n="74"/>vero in lupo alio possit unum judicium sine
+          <lb ed="#P" n="75"/>alio inveniri, non arguit diversitatem in 
+          spe<lb break="no" ed="#P" n="76"/>ciebus, cum per eamdem valeat una potentia
+          <lb ed="#P" n="77"/>plura, quam altera cognoscere, et judicare
+          <lb ed="#P" n="78"/>propter diversam virtutem, aut diversum 
+          in<lb break="no" ed="#P" n="79"/>stinctum naturae. Et confirmatur primo: nam
+          <lb ed="#P" n="80"/>avis nondum experta pluviam (ut pote forte
+          <lb ed="#P" n="81"/>verno tempore nata) ventum sentiens ad tutum
+          <lb ed="#P" n="82"/>locum se recipit: quis autem credat eam ex
+          <lb ed="#P" n="83"/>cognitione venti elicere speciem 
+          repraesentan<lb break="no" ed="#P" n="84"/>tem pluviam venturam: per eamdem ergo
+          <lb ed="#P" n="85"/>speciem, qua cognovit ventum, naturali 
+          in<lb break="no" ed="#P" n="86"/>stinctu judieat illum esse fugiendum, nec talis
+          <lb ed="#P" n="87"/>fugae rationem quaerit, aut pluviam cognoscit,
+          <lb ed="#P" n="88"/>quam nullam viderat: simile ergo erit in 
+          co<lb break="no" ed="#P" n="89"/>gnitionibus brutorum similibus. Secundo non
+          <lb ed="#P" n="90"/>solum superfluum, sed etiam impossibile 
+          vi<lb break="no" ed="#P" n="91"/>detur rationem inimicitiae repraesentari a 
+          sen<lb break="no" ed="#P" n="92"/>sibili specie abstracto modo: quo enim pacto
+          <lb ed="#P" n="93"/>species sensibilis repraesentare valet lupum
+          <lb ed="#P" n="94"/>sub ratione inimici, nisi repraesentando sub
+          <lb ed="#P" n="95"/>hac figura, hoc colore, odore, etc.; ergo 
+          mm<lb break="no" ed="#P" n="96"/>possibile est, quod species repraesentans sub
+          <lb ed="#P" n="97"/>ratione insensata, distincta sit ab specie 
+          re<lb break="no" ed="#P" n="98"/>praesentante sub sensata: ratio ergo illa 
+          in<lb break="no" ed="#P" n="99"/>sensata non est repraesentabilis ab speciei
+          <lb ed="#P" n="100"/>materiali, ut abstracta a ratione sensata, sed
+          <lb ed="#P" n="101"/>ut modus quidam in illa fundatus, atque adeo
+          <lb ed="#P" n="102"/>non oportet dictas species distinguere.
+        </p>
+        <p xml:id="szdada-y15827-d1e1132">
+          <lb ed="#P" n="103"/>14. Quarta assertio. — Ex quibus omnibus
+          <lb ed="#P" n="104"/>colligitur ultima conclusio, respectu sensuum
+          <lb ed="#P" n="105"/>internorum necessario esse ponendum aliquem
+          <lb ed="#P" n="106"/>sensum agentem intentionales species. Haec
+          <lb ed="#P" n="107"/>patet ex dictis, quod vero Aristoteles hoc 
+          nun<lb break="no" ed="#P" n="108"/>quam dixerit non urget, multa enim alia 
+          prae<lb break="no" ed="#P" n="109"/>terivit, alia exacte non tractavit: fatemur
+          <lb ed="#P" n="110"/>quidem S. Thomam, prima parte, quaesüone
+          <pb ed="#P" n="651"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>septuagesima nona, articulo tertio ad 
+          pri<lb break="no" ed="#P" n="2"/>mum, hanc activitatem specierum videri 
+          de<lb break="no" ed="#P" n="3"/>negare omnibus sensibus, sed fortasse, ut
+          <lb ed="#P" n="4"/>supra diximus, de sensibus loquitur quantum
+          <lb ed="#P" n="5"/>ad primam receptionem specierum, quae fit
+          <lb ed="#P" n="6"/>ab objecto, ex qua originatur cujuscumque
+          <lb ed="#P" n="7"/>alterius speciei productio.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

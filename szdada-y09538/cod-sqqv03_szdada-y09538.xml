@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="380"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y09538"><!-- t2l5prae -->
+        <head xml:id="szdada-y09538-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-y09538-d1e103">
+          <pb ed="#P" n="380"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER QUINTUS
+          <lb ed="#P" n="2"/>DE STATE QUEM HABUISSENT
+          <lb ed="#P" n="3"/>IN HOC MUNDO VIATORES,
+          <lb ed="#P" n="4"/>SI PRIMI PARENTES NON PECCARENT.
+        </p>
+        <p xml:id="szdada-y09538-d1e119">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="5"/>Praesentis libri doctrina non solum curiosa ,
+          <lb ed="#P" n="6"/>sed utilis. — Materia hujus libri curiosa 
+          ma<lb break="no" ed="#P" n="7"/>gis, quam necessaria videri potest, eo quod
+          <lb ed="#P" n="8"/>sit de re incerta, quae nunquam fuit, nec 
+          fu<lb break="no" ed="#P" n="9"/>tura est, nec nobis est revelata. Nihilominus
+          <lb ed="#P" n="10"/>tamen D. Thomas et alii theologi non omnino
+          <lb ed="#P" n="11"/>illam praetermiserunt, quia licet in serevelata
+          <lb ed="#P" n="12"/>non sit, in revelatis magna ex parte 
+          contine<lb break="no" ed="#P" n="13"/>tur, ex illisque deduci potest. Unde etiam fit,
+          <lb ed="#P" n="14"/>ut illius inquisitio magnam lucem ad 
+          cognos<lb break="no" ed="#P" n="15"/>cendas poenas, quas humanum genus, propter
+          <lb ed="#P" n="16"/>peccatum Adae incurrit, afferre possit. Propter
+          <lb ed="#P" n="17"/>has igitur causas diligenter inquirendum est,
+          <lb ed="#P" n="18"/>quomodo status innocentiae communicandus
+          <lb ed="#P" n="19"/>esset hominibus ab Adamo procedentibus ,
+          <lb ed="#P" n="20"/>ipso non peccante: et quem statum, seu 
+          mo<lb break="no" ed="#P" n="21"/>dum vitae in hoc mundo habere possent, vel
+          <lb ed="#P" n="22"/>etiam habituri essent, quantum ex his, quae
+          <lb ed="#P" n="23"/>Deus in primis hominibus operatus est, et ex
+          <lb ed="#P" n="24"/>legibus, quas cum eis statuit, investigari 
+          po<lb break="no" ed="#P" n="25"/>tuerit. Ac denique quomodo ex illo statu, ad
+          <lb ed="#P" n="26"/>alium feliciorem transferrentur, 
+          explicabi<lb break="no" ed="#P" n="27"/>mus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

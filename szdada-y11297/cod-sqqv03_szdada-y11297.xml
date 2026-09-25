@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="467"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y11297"><!-- t3l1prae -->
+        <head xml:id="szdada-y11297-Hd1e101">Praeambulum</head>
+        <p xml:id="szdada-y11297-d1e103">
+          <pb ed="#P" n="467"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER PRIMUS.
+          <lb ed="#P" n="2"/>DE SUBSTANTIA, ESSENT
+          <lb ed="#P" n="3"/>ET INFORMATIONE ANIMAE RATIONALIS.
+        </p>
+        <p xml:id="szdada-y11297-d1e116">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>Quid nomine animae rationalis explicatur.—
+          <lb ed="#P" n="5"/>Priusquam tractemus, quid in re ipsa Anima
+          <lb ed="#P" n="6"/>sit. quid nomine Animae rationalis intelligatur
+          <lb ed="#P" n="7"/>explicare oportet, ut simul quaestionis 
+          resolu<lb break="no" ed="#P" n="8"/>tionem, an sit anima, tanquam per se notum
+          <lb ed="#P" n="9"/>supponere possimus. Igitur nomine animae 
+          ra<lb break="no" ed="#P" n="10"/>Uonalis proprie significamus principium illud
+          <lb ed="#P" n="11"/>intelligendi et discurrendi, quod in nobis 
+          ex<lb break="no" ed="#P" n="12"/>perimur. Abstrahendo enim nunc a modo, quo
+          <lb ed="#P" n="13"/>tale principium nostrum corpus afficit, vel 
+          in<lb break="no" ed="#P" n="14"/>format: evidens nobis est, intra nos ipsos 
+          ali<lb break="no" ed="#P" n="15"/>quid indivisibile esse, quod est principium 
+          in<lb break="no" ed="#P" n="16"/>telligendi et volendi, quidquid illud sit. Nam
+          <lb ed="#P" n="17"/>videmus in corpore mortuo totam hanc 
+          corpo<lb break="no" ed="#P" n="18"/>ris molem manere, et principium intelligendi
+          <lb ed="#P" n="19"/>ab illo recedere, quod esse non posset, nisi
+          <lb ed="#P" n="20"/>principium illud aliquid essetdistinctum a 
+          cor<lb break="no" ed="#P" n="21"/>pore, et intra corpus ipsum existens. Quo 
+          ar<lb break="no" ed="#P" n="22"/>gumento etiam in anmmalibus evidens fit, esse
+          <lb ed="#P" n="23"/>in ipsis aliquid distinctum a mole corporis,
+          <lb ed="#P" n="24"/>quod ipsis est sentiendi principium quod 
+          ani<lb break="no" ed="#P" n="25"/>mam sentientem appellamus. Idemque est 
+          evi<lb break="no" ed="#P" n="26"/>dens de homine: licet non sit evidens an in
+          <lb ed="#P" n="27"/>homine idem sit principium intelligendi et
+          <lb ed="#P" n="28"/>sentiendi, quod postea videbimus. Nunc autem
+          <lb ed="#P" n="29"/>supponimus, illud quod in nobis est 
+          intelligen<lb break="no" ed="#P" n="30"/>di principium, nomine animae rationalis 
+          signi<lb break="no" ed="#P" n="31"/>ficari: et ita manet perfunctorie explicata 
+          il<lb break="no" ed="#P" n="32"/>lius nominis ratio. Relinquitur etiam ut 
+          expe<lb break="no" ed="#P" n="33"/>rientia evidenti notum, animam rationalem
+          <lb ed="#P" n="34"/>esse. Quamvis non sit ita notum, qualis 
+          mo<lb break="no" ed="#P" n="35"/>dus, vel ratio animae in illam conveniat: hoc
+          <lb ed="#P" n="36"/>enim ad quid rei intelligentiam pertinet. His
+          <lb ed="#P" n="37"/>ergo suppositis, quaestio: Quid anima 
+          rationa<lb break="no" ed="#P" n="38"/>lis sit, dihgentius tractanda est, quoniam 
+          ba<lb break="no" ed="#P" n="39"/>sis est et fundamentum, in suo genere, totius
+          <lb ed="#P" n="40"/>catholicae fidei, ac subinde totius theologiae:
+          <lb ed="#P" n="41"/>imo etiam totius vitae Christianae: Quia nemo
+          <lb ed="#P" n="42"/>potest temporalem vitam probe instituere, nisi
+          <lb ed="#P" n="43"/>qui aeternam cognoverit: qui autem se habere
+          <lb ed="#P" n="44"/>immortalem animam sibi persuaserit, facile
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="45"/>intelliget ea bona, quae aeterna sunt, 
+          omnistu<lb break="no" ed="#P" n="46"/>dio esse quaerenda. Non potest autem 
+          aeterni<lb break="no" ed="#P" n="47"/>tas animae cognosci, nisi prius, quid sit anima
+          <lb ed="#P" n="48"/>ipsa, intelligatur: et ideo essentiam animae
+          <lb ed="#P" n="49"/>explicando, plura ejus attributa, quae vel ab
+          <lb ed="#P" n="50"/>illa non distinguuntur, vel solum per 
+          nega<lb break="no" ed="#P" n="51"/>tiones quasdam substantiam ejus nobis 
+          decla<lb break="no" ed="#P" n="52"/>rant, explicabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

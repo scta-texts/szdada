@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 18</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 18</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="673"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y16511"><!-- t3l3c18 -->
+        <head xml:id="szdada-y16511-Hd1e101">Caput 18</head>
+        <head xml:id="szdada-y16511-Hd1e103" type="question-title">Quidnam sit et quale organum visivae potentiae, et potentia ipsa</head>
+        <p xml:id="szdada-y16511-d1e106">
+          <lb ed="#P" n="72"/>CAPUT XVIII.
+          <lb ed="#P" n="73"/>QUIDNAM SIT ET QUALE ORGANUM VISIVAE 
+          POTEN<lb break="no" ed="#P" n="74"/>TIAE, ET POTENTIA IPSA.
+        </p>
+        <p xml:id="szdada-y16511-d1e115">
+          <lb ed="#P" n="75"/>1. Consule Dandinum, lib. 4, de Partilus
+          <lb ed="#P" n="76"/>heterog., a c. 38. — Supererat quaestio altera
+          <lb ed="#P" n="77"/>etiam de actu, sicut praecedens, an cujusque
+          <lb ed="#P" n="78"/>rei visae duplex semper formetur visio ob 
+          du<lb break="no" ed="#P" n="79"/>plicem pupillam, an una tantum, sed cognito
+          <lb ed="#P" n="80"/>prius organo, ac loco ubi visio formatur in
+          <lb ed="#P" n="81"/>fine commodius constabit. In quaestione 
+          er<lb break="no" ed="#P" n="82"/>go praesenti nihil potest certa ratione haberi,
+          <lb ed="#P" n="83"/>sed ex Aristotelis et medicorum fide, ac 
+          prae<lb break="no" ed="#P" n="84"/>cipue ab experimento anatomiae supponenda
+          <lb ed="#P" n="85"/>sunt aliqua circa compositionem oculi, de qua
+          <lb ed="#P" n="86"/>re late Vesalius, de Compositione corporis
+          <lb ed="#P" n="87"/>humani, lib. 2, ubi ponit in oculo tunicas 
+          quin<lb break="no" ed="#P" n="88"/>que, et tres humores et musculos septem, quibus
+          <lb ed="#P" n="89"/>in omnem partem movetur: porro musculi non
+          <lb ed="#P" n="90"/>deserviunt proxime visioni, caeci namque illos
+          <lb ed="#P" n="91"/>habent, movent siquidem oculos sicut videntes.
+          <lb ed="#P" n="92"/>Quare ad praesens institutum non spectant.
+        </p>
+        <p xml:id="szdada-y16511-d1e157">
+          <lb ed="#P" n="93"/>2. Oculi figure circularis sunt. — Diverse
+          <lb ed="#P" n="94"/>oculorum denominationes unde proveniant. —
+          <lb ed="#P" n="95"/>Ad intelligendum ergo instrumentum 
+          pro<lb break="no" ed="#P" n="96"/>prium potentiae visivae, cogitanda est 
+          substan<lb break="no" ed="#P" n="97"/>tia oculi orbicularis instar ovi, in cujus centro
+          <lb ed="#P" n="98"/>est humor crystallinus appellatus, quod sit
+          <lb ed="#P" n="99"/>transparens, licet mollior, et haec est ipsa 
+          pu<lb break="no" ed="#P" n="100"/>pilla, circumscribiturque pellicula, quasi 
+          tuni<lb break="no" ed="#P" n="101"/>ca ad ilius conservationem apta, quae tum
+          <lb ed="#P" n="102"/>aranea vocatur ob similitudinem telarum 
+          ara<lb break="no" ed="#P" n="103"/>nei, tum etiam specularis tunica, quia idonea
+          <lb ed="#P" n="104"/>est ad videndum. Hic porro crystallinus 
+          hu<lb break="no" ed="#P" n="105"/>mor ex parte immergitur humori alteri vitreo
+          <lb ed="#P" n="106"/>utpote molli et splendenti, sicut vitrea massa
+          <lb ed="#P" n="107"/>dum loquitur in fornace,circumdatque 
+          crystal<lb break="no" ed="#P" n="108"/>linum relicta anterius quasi fenestra circulari
+          <pb ed="#P" n="674"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ad recipiendas species. Nonnulli tamen 
+          humo<lb break="no" ed="#P" n="2"/>rem hunc vitreum non distinguunt a 
+          crystalli<lb break="no" ed="#P" n="3"/>no, quod illiusnunquam meminerit Aristoteles,
+          <lb ed="#P" n="4"/>sed major fides est habenda Galeno, qui 10,
+          <lb ed="#P" n="5"/>de Usu partium, capite primo, illum distinguit,
+          <lb ed="#P" n="6"/>datumquea natura ait in nutrimentum pupillae,
+          <lb ed="#P" n="7"/>quae apta non est nutriri sanguine, unde 
+          vi<lb break="no" ed="#P" n="8"/>treum humorem ex interiori parte ambit 
+          tu<lb break="no" ed="#P" n="9"/>nica dicta reticularis, quia intexta est multis
+          <lb ed="#P" n="10"/>venis, et arteriis in modum retis, cujus 
+          mu<lb break="no" ed="#P" n="11"/>nus, ait Galenus supra capite secundo, est 
+          pa<lb break="no" ed="#P" n="12"/>rere, ministrareque alimentum dictis 
+          humori<lb break="no" ed="#P" n="13"/>bus, qui quoniam molles sunt, neque venas
+          <lb ed="#P" n="14"/>habent, neque arterias. Post hanc vero 
+          tuni<lb break="no" ed="#P" n="15"/>cam sequitur alia, quae uvea nuncupatur, quod
+          <lb ed="#P" n="16"/>similis sit uvae folliculo, ambitque ex omni
+          <lb ed="#P" n="17"/>parte pupillam vitreumque humorem relicto
+          <lb ed="#P" n="18"/>solum quasi foramine per quod crystallinus
+          <lb ed="#P" n="19"/>humor apparet: cum enim uvea haec tunica
+          <lb ed="#P" n="20"/>aliquo semper colore sub obscuro affecta sit,
+          <lb ed="#P" n="21"/>ut in crystalloide congregentur perfecte 
+          spe<lb break="no" ed="#P" n="22"/>cies, non potuit esse omnino transparens, 
+          pro<lb break="no" ed="#P" n="23"/>indeque non debuit undique pupillam tegere:
+          <lb ed="#P" n="24"/>atque a diversis talis tunicae coloribus varii 
+          de<lb break="no" ed="#P" n="25"/>nominantur oculi nigri, caesii, caprini, flavidi,
+          <lb ed="#P" n="26"/>etc., huic contigua est alia tunica, quae cornea
+          <lb ed="#P" n="27"/>dicitur dura, et transparens ad modum laminae
+          <lb ed="#P" n="28"/>corneae cingens pupillam omni ex parte, 
+          data<lb break="no" ed="#P" n="29"/>que in propugnaculum. Praeter haec omnia est
+          <lb ed="#P" n="30"/>alius humor replens totam oculi cavitatem,
+          <lb ed="#P" n="31"/>qui albugineus dicitur a calore datus ad 
+          hu<lb break="no" ed="#P" n="32"/>mectandum, fovendumque crystallinum, qui
+          <lb ed="#P" n="33"/>tandem cingitur tunica, quam ordinatam 
+          vo<lb break="no" ed="#P" n="34"/>cant, seu pericranium: est vero fortis et 
+          pin<lb break="no" ed="#P" n="35"/>guis, aptaque ad tuendum memoratos humores
+          <lb ed="#P" n="36"/>omnes, et interiores tunicas, haec desumpta
+          <lb ed="#P" n="37"/>sunt ex Galeno supra, apud quem plura alia
+          <lb ed="#P" n="38"/>videri possunt.
+        </p>
+        <p xml:id="szdada-y16511-d1e282">
+          <lb ed="#P" n="39"/>3. Aristoteles non omnes oculorum partes
+          <lb ed="#P" n="40"/>perspectas habuit. — Aristoteles porro non
+          <lb ed="#P" n="41"/>omnia haec assecutus fuit, nam 1, de Historia,
+          <lb ed="#P" n="42"/>cap. 9, et 4 lib., cap. 8, meminit tunicae uveae
+          <lb ed="#P" n="43"/>et corneae, in libro 5, de Generatione 
+          anima<lb break="no" ed="#P" n="44"/>lium, cap. 1, ad finem, indicans proximas esse
+          <lb ed="#P" n="45"/>pupilla: aliarum vero nunquam meminit, quia
+          <lb ed="#P" n="46"/>multa de partium humani corporis fabrica et
+          <lb ed="#P" n="47"/>dissectione erant per id tempus ignota: quod
+          <lb ed="#P" n="48"/>vitium aetatis illius fuit, non hominis, ut ait
+          <lb ed="#P" n="49"/>Commentator, libro 4, de Partibus animalium,
+          <lb ed="#P" n="50"/>cap. ultimo, et lib. 2, Collectanearum, c. 19,
+          <lb ed="#P" n="51"/>videndus vero est Theophilus, lib. 4, de Fabrica
+          <lb ed="#P" n="52"/>corporis humani, vel alius lib. 14, cap. 7, 
+          Val<lb break="no" ed="#P" n="53"/>verde, lib. T, Simon Portius, libro de Coloribus
+          <lb ed="#P" n="54"/>oculorum, c. 3, Pissanus in perspectiva, 
+          pro<lb break="no" ed="#P" n="55"/>positione 31.
+        </p>
+        <p xml:id="szdada-y16511-d1e321">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>4. Organum potentim visivee est pupilla, seu
+          <lb ed="#P" n="57"/>luunor crystallinus. — His positis communis
+          <lb ed="#P" n="58"/>sententia philosophorum habet, proprium 
+          po<lb break="no" ed="#P" n="59"/>tentiae visivae organum esse pupillam, seu 
+          hu<lb break="no" ed="#P" n="60"/>morem crystallinum. Et haec sit praesentis 
+          ca<lb break="no" ed="#P" n="61"/>pitis conclusio, quam tradit Aristoteles, citatis
+          <lb ed="#P" n="62"/>locis: ait enim in priori: Humor. quo videmus,
+          <lb ed="#P" n="63"/>pupilla est. Idem late ostendit Galenus 8, de
+          <lb ed="#P" n="64"/>Usu partium, cap. 6, et patet tum ex substantia
+          <lb ed="#P" n="65"/>illius humoris, quae est ad videndum aptissima,
+          <lb ed="#P" n="66"/>utpote diaphana, rara, mollis et tenera, atque
+          <lb ed="#P" n="67"/>adeo accommodata, ut illi imprimantur 
+          sub<lb break="no" ed="#P" n="68"/>tiles species: tum praeterea, quia omnia, quae
+          <lb ed="#P" n="69"/>in oculo deprehendimus, illi deserviunt: ab
+          <lb ed="#P" n="70"/>effectu etiam idem confirmatur, laesa enim 
+          pu<lb break="no" ed="#P" n="71"/>pilla visio impeditur, non impeditur autem,
+          <lb ed="#P" n="72"/>vel amittitur aspectus, quod alii humores 
+          lae<lb break="no" ed="#P" n="73"/>dantur, ut docet Galenus, lib. de Morborum
+          <lb ed="#P" n="74"/>differentiis, cap. 6, et de Symptomatum 
+          cau<lb break="no" ed="#P" n="75"/>sis, cap. 2, Philoponus, et expositores alii 2,
+          <lb ed="#P" n="76"/>de Anima, cap. 2, hinc Pissanus supra 
+          propo<lb break="no" ed="#P" n="77"/>sitione 36, scribit, si alii humores, vel tunicae
+          <lb ed="#P" n="78"/>laedantur, salva pupilla, posse visum restitui,
+          <lb ed="#P" n="79"/>non vero si semel pupilla corrumpatur, unde
+          <lb ed="#P" n="80"/>a natura in intimo, quasi in tutissimo loco fuit
+          <lb ed="#P" n="81"/>reposita.
+        </p>
+        <p xml:id="szdada-y16511-d1e382">
+          <lb ed="#P" n="82"/>5. Visionem non fieri in pupilla arguitur.—
+          <lb ed="#P" n="83"/>Sed contra hanc conclusionem sunt 
+          argumen<lb break="no" ed="#P" n="84"/>ta. Primum: pupilla nigra esse conspicitur:
+          <lb ed="#P" n="85"/>ergo non potest esse organum visus, nam per
+          <lb ed="#P" n="86"/>Aristotelem intus existens prohibet extranei
+          <lb ed="#P" n="87"/>perceptionem. Secundum, pupilla aquea est,
+          <lb ed="#P" n="88"/>atque humor quidam: organum autem visus
+          <lb ed="#P" n="89"/>igneum esse oportet, cum sit purissimum, et
+          <lb ed="#P" n="90"/>maxime perspicuum. Tertium, si pupilla 
+          or<lb break="no" ed="#P" n="91"/>ganum esset, cum duae pupillae sint potentiae
+          <lb ed="#P" n="92"/>quoque visivae essent duae, atque etiam 
+          visio<lb break="no" ed="#P" n="93"/>nes, sicque res semper appareret duplex.
+        </p>
+        <p xml:id="szdada-y16511-d1e411">
+          <lb ed="#P" n="94"/>6. Ad primum argumentum.— Pupilla oculi
+          <lb ed="#P" n="95"/>cum nigra non sit, cur talis appareat. — Ad
+          <lb ed="#P" n="96"/>primum negandum, pupillam nigri esse 
+          colo<lb break="no" ed="#P" n="97"/>ris: nigricantem vero apparere, quia propter
+          <lb ed="#P" n="98"/>humoris copiam penetrari non potest visu, ut
+          <lb ed="#P" n="99"/>colligitur ex Philosopho 5, de Generatione 
+          ani<lb break="no" ed="#P" n="100"/>malium, cap. 1, tunica autem uvea, quamvis
+          <lb ed="#P" n="101"/>colorata, non impedit visionem, quia, ut 
+          dixi<lb break="no" ed="#P" n="102"/>mus, non circumdat anterius pupillam, ac
+          <lb ed="#P" n="103"/>proinde species quominus ad pupillam usque
+          <lb ed="#P" n="104"/>perveniant, minime impedit. Unde spatium
+          <lb ed="#P" n="105"/>ipsum, quod ab uvea tunica anterius liberum
+          <lb ed="#P" n="106"/>relinquitur instar foraminis, angustius fit si
+          <lb ed="#P" n="107"/>oculos introrsum reprimatur, dilatatur vero, si
+          <lb ed="#P" n="108"/>emittatur, atque hoc non parum juvat, ut 
+          or<lb break="no" ed="#P" n="109"/>biculus interior niger appareat. Jam tunica
+          <lb ed="#P" n="110"/>interior, et cornea dici solet ab Aristotele alba
+          <pb ed="#P" n="675"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>5, de Generatione animalium, cap. 1 et alibi,
+          <lb ed="#P" n="2"/>non quia colorem habeat, sic enim visioni 
+          ob<lb break="no" ed="#P" n="3"/>staret, sed propter transparentiam: albugineus
+          <lb ed="#P" n="4"/>tandem humor nihil officit visioni, quia neque
+          <lb ed="#P" n="5"/>medium est, neque organum.
+        </p>
+        <p xml:id="szdada-y16511-d1e466">
+          <lb ed="#P" n="6"/>7. Ad secundum argumentum. — Pupilla
+          <lb ed="#P" n="7"/>oculi aquee nature est, non ignea. — Propter
+          <lb ed="#P" n="8"/>secundum argumentum aliqui opinantur 
+          pu<lb break="no" ed="#P" n="9"/>pillam esse de natura ignea cum Platone, quod
+          <lb ed="#P" n="10"/>tenet Valles 2, Controversiarum, cap. 26,. ac
+          <lb ed="#P" n="11"/>praeterea confirmant, quia oculus aliquando
+          <lb ed="#P" n="12"/>scintillare videtur, veluti cum in tenebris 
+          ocu<lb break="no" ed="#P" n="13"/>lus digito comprimitur, aut casu ad corpus
+          <lb ed="#P" n="14"/>aliud durum caputalliditur: Aristoteles tamen,
+          <lb ed="#P" n="15"/>de Sensu et sensibili, cap. 2, vult pupillam esse
+          <lb ed="#P" n="16"/>aqueae naturae, quod probat experientia, nam
+          <lb ed="#P" n="17"/>percusso oculo aqueus humor fluit, ac si forte
+          <lb ed="#P" n="18"/>eruatur apparet humor instar aquae gelatae,
+          <lb ed="#P" n="19"/>atque ideo natura juxta hunc humorem alium
+          <lb ed="#P" n="20"/>adhibuit albugineum, ut illum jugiter 
+          humec<lb break="no" ed="#P" n="21"/>taret, quod haec esset necessaria dispositio 
+          il<lb break="no" ed="#P" n="22"/>lius organi: est ergo potius naturae aqueae.
+          <lb ed="#P" n="23"/>Idem repetit 2, de Partibus, cap. 10, et 5, de
+          <lb ed="#P" n="24"/>Generatione animalium, cap. 1, videturque
+          <lb ed="#P" n="25"/>rationabilius, nam licet ignis sit magis lucidus,
+          <lb ed="#P" n="26"/>aerque magis diaphanus, attamen natura aquae
+          <lb ed="#P" n="27"/>videtur aptior ad suscipiendas species, atque
+          <lb ed="#P" n="28"/>etiam ut organum fixum sit et consistat. Ad
+          <lb ed="#P" n="29"/>experientiam autem illam de scintillatione
+          <lb ed="#P" n="30"/>respondet Aristoteles, causam non esse, quod
+          <lb ed="#P" n="31"/>ignis in oculis existat, sed quia, quod in eis
+          <lb ed="#P" n="32"/>nigricat, politum est, atque tersum, ideo fulget
+          <lb ed="#P" n="33"/>quodammodo, ac dum comprimuntur exilire
+          <lb ed="#P" n="34"/>ab eis videtur fulgor ille: idemque experimur
+          <lb ed="#P" n="35"/>in corporibus aliis bene tersis et politis, fulgent
+          <lb ed="#P" n="36"/>enim, quamvis naturae ignea non sint, ut in
+          <lb ed="#P" n="37"/>fungis et capitibus quorumdam piscium videre
+          <lb ed="#P" n="38"/>licet. Fortasse etiam fulgor ille oculorum 
+          pro<lb break="no" ed="#P" n="39"/>venit ex emissione spirituum vitalium, qui
+          <lb ed="#P" n="40"/>ignei sunt et calidissimi, ideoque splendidi,
+          <lb ed="#P" n="41"/>apparet enim saepe splendor ille, cum oculi
+          <lb ed="#P" n="42"/>vehementer conantur ad videndum: unde et
+          <lb ed="#P" n="43"/>facile etiam lassantur, ut pote spiritibus, qui
+          <lb ed="#P" n="44"/>exiliunt, destituti. Denique felium, oculi tunc
+          <lb ed="#P" n="45"/>maxime splendent, cum illi irascuntur, eo
+          <lb ed="#P" n="46"/>quod tunc spiritus calidissimos, ac fervidos
+          <lb ed="#P" n="47"/>emittant.
+        </p>
+        <p xml:id="szdada-y16511-d1e560">
+          <lb ed="#P" n="48"/>8. Nervi duo visorii a cerebro ad pupillas
+          <lb ed="#P" n="49"/>proficiscuntur. — In eorum congressu visionem
+          <lb ed="#P" n="50"/>fieri qui putent. —Circa tertium argumentum
+          <lb ed="#P" n="51"/>praenotandum, videndi vim dimanare a 
+          cere<lb break="no" ed="#P" n="52"/>bro ad pupillas per nervos duos, qui optici,
+          <lb ed="#P" n="53"/>seu visorii appellantur: quorum unus a parte
+          <lb ed="#P" n="54"/>dextera cerebri oritur, alius a sinistra, 
+          paula<lb break="no" ed="#P" n="55"/>timque procedendo approximantur. Per hos
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ergo nervos purissima substantia, ac 
+          splendi<lb break="no" ed="#P" n="57"/>dus quidam spiritus communicatur a cerebro,
+          <lb ed="#P" n="58"/>organo visus, ut perficiat visionem. Ita 
+          Aris<lb break="no" ed="#P" n="59"/>toteles 2, de Generatione animalium, cap. 4,
+          <lb ed="#P" n="60"/>Galenus supra, et 7, libro de Placitis. Hoc 
+          po<lb break="no" ed="#P" n="61"/>sito Avicenna 6, Naturalium, p. 3, cap. 8,
+          <lb ed="#P" n="62"/>Cyrvellus, libr. 1, Perspect., cap. 9, concl. 6,
+          <lb ed="#P" n="63"/>Vitellius, lib. 3. Theoremate 2, et Albertus 2,
+          <lb ed="#P" n="64"/>de Anima, tractatu 3, cap. 14, aiunt visionem
+          <lb ed="#P" n="65"/>fieri in confinio talium nervorum, ibique
+          <lb ed="#P" n="66"/>residere potissimum videndi organum, unde
+          <lb ed="#P" n="67"/>concludunt unius rei tantum fieri visionem
+          <lb ed="#P" n="68"/>unam.
+        </p>
+        <p xml:id="szdada-y16511-d1e611">
+          <lb ed="#P" n="69"/>9. Refelluntur. — Hanc vero sententiam esse
+          <lb ed="#P" n="70"/>falsam demonstrat Galenus 10, de Usu partium,
+          <lb ed="#P" n="71"/>cap. 12, quod constat ex anatome duos illos
+          <lb ed="#P" n="72"/>nervos, neque in mutuo occursu sistere, neque
+          <lb ed="#P" n="73"/>simul recta procedere, nec se intersecare, sed
+          <lb ed="#P" n="74"/>postquam sibi occurrerunt illum, qui a sinistra
+          <lb ed="#P" n="75"/>parte cerebri procedebat, divertere ad 
+          sinis<lb break="no" ed="#P" n="76"/>trum oculum, qui a dextera divertere ad 
+          dex<lb break="no" ed="#P" n="77"/>terum: quo fit, ut spiritus visorii procedant
+          <lb ed="#P" n="78"/>per eos nervos ad pupillam usque, ibique
+          <lb ed="#P" n="79"/>forment visionem: quare conjunctio illa 
+          ner<lb break="no" ed="#P" n="80"/>vorum opticorum non est propter unicam
+          <lb ed="#P" n="81"/>visionem formandam, sed ob alias causas, quas
+          <lb ed="#P" n="82"/>Galenus prosequitur 10, de Usu partium, c.14,
+          <lb ed="#P" n="83"/>quarum praecipua illa videtur, ut spiritus a
+          <lb ed="#P" n="84"/>cerebro manantes possint in alterum oculum
+          <lb ed="#P" n="85"/>commeare, si alter fuerit impeditus, cui etiam
+          <lb ed="#P" n="86"/>experientia suffragatur, nam si alter oculus
+          <lb ed="#P" n="87"/>claudatur, alter videt acutius, ut etiam 
+          nota<lb break="no" ed="#P" n="88"/>vit Aristoteles, sectione 31, Problematum, q. 4,
+          <lb ed="#P" n="89"/>de qua re late Vesalius, lib. 4, c. 4, et 
+          Valver<lb break="no" ed="#P" n="90"/>dius, lib. 7,c. 3.
+        </p>
+        <p xml:id="szdada-y16511-d1e661">
+          <lb ed="#P" n="91"/>10. Ad tertium argumentum, in n. 5.—Ad
+          <lb ed="#P" n="92"/>argumentum igitur concedimus potentiam
+          <lb ed="#P" n="93"/>visivam aggregari ex duabus, vel potius duas
+          <lb ed="#P" n="94"/>esse potentias, ut duas manus, 
+          consequenter<lb break="no" ed="#P" n="95"/>que duas visiones formari, objectum vero non
+          <lb ed="#P" n="96"/>apparere duplex quod oculi sint in aequali situ,
+          <lb ed="#P" n="97"/>et ordine positi, ac simul, eodemque modo
+          <lb ed="#P" n="98"/>immutentur ab objecto. Ita Aristoteles 2, de
+          <lb ed="#P" n="99"/>Partibus, cap. 9, et Galenus, supra. Unde si
+          <lb ed="#P" n="100"/>contingat inaequalitas aliqua in oculis, veluti
+          <lb ed="#P" n="101"/>si pupilla una sit altior altera, objectum jam
+          <lb ed="#P" n="102"/>apparet duplex, quia nimirum oculi diverso
+          <lb ed="#P" n="103"/>modo immutantur, ideoque diverso modo 
+          vi<lb break="no" ed="#P" n="104"/>dent objeetum, de quo Galenus, supra latissime,
+          <lb ed="#P" n="105"/>et Aristoteles, sect. 21, Problematum, q. 14 et
+          <lb ed="#P" n="106"/>18. Ex dictis vero omnibus constat, quid sit
+          <lb ed="#P" n="107"/>potentia visiva. Est scilicet qualitas in pupilla
+          <lb ed="#P" n="108"/>oculi residens, percipiensque lucida omnia per
+          <lb ed="#P" n="109"/>proprias species eorum, neque aliquid aliud
+          <lb ed="#P" n="110"/>de hac potentia dicendum superest.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

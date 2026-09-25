@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="431"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y10834"><!-- t2l5c10 -->
+        <head xml:id="szdada-y10834-Hd1e101">Caput 10</head>
+        <head xml:id="szdada-y10834-Hd1e103" type="question-title">Dubia nonnulla circa doctrinam superioris capitis expediuntur</head>
+        <p xml:id="szdada-y10834-d1e106">
+          <lb ed="#P" n="7"/>CAPUT X.
+          <lb ed="#P" n="8"/>DUBIA NONNULLA CIRCA DOCTRINAM SUPERIORIS
+          <lb ed="#P" n="9"/>CAPITIS EXPEDIUNTUR.
+        </p>
+        <p xml:id="szdada-y10834-d1e115">
+          <lb ed="#P" n="10"/>1. Prima difficultas.— Praecipua difficultas
+          <lb ed="#P" n="11"/>circa superiorem resolutionem est, quia posito
+          <lb ed="#P" n="12"/>lapsu aliquorum hominum, videtur difficile ad
+          <lb ed="#P" n="13"/>explicandum, quomodo illis fuisset 
+          providen<lb break="no" ed="#P" n="14"/>dum, tam in ordine ad Deum, quam in ordine
+          <lb ed="#P" n="15"/>ad caeteros homines innocentes. Nam imprimis
+          <lb ed="#P" n="16"/>sequitur, eos, qui peccarunt, amissuros fuisse
+          <lb ed="#P" n="17"/>originalem justitiam simul cum gratia: ergo
+          <lb ed="#P" n="18"/>fierent mortales: ergo ejiciendi essent extra
+          <lb ed="#P" n="19"/>Paradisum. Hinc autem aliae perplexitates 
+          ori<lb break="no" ed="#P" n="20"/>rentur ; quid enim, si maritus peccaret, et non
+          <lb ed="#P" n="21"/>uxor: vel mater habens filium innocentem,
+          <lb ed="#P" n="22"/>et infantem, numquid filius ejiciendus esset
+          <lb ed="#P" n="23"/>separandus ? utrumque enim incommodum
+          <lb ed="#P" n="24"/>est. Deinde sequeretur. statum peccati, aut
+          <lb ed="#P" n="25"/>gratioe notum fuisse futurum et ipsis 
+          peccanti<lb break="no" ed="#P" n="26"/>bus et aliis, quia status originalis justitiae per
+          <lb ed="#P" n="27"/>effectus, et signa facile innotescere posset.
+          <lb ed="#P" n="28"/>Consequens autem inconveniens videtur, quia
+          <lb ed="#P" n="29"/>possent peccata esse mere interna, quae non
+          <lb ed="#P" n="30"/>expedit omnibus esse nota: et similiter non
+          <lb ed="#P" n="31"/>expediebat, ut semel peccans, postea de sua
+          <lb ed="#P" n="32"/>ponnitentia, et peccatorum remissione statim
+          <lb ed="#P" n="33"/>certus fieret.
+        </p>
+        <p xml:id="szdada-y10834-d1e170">
+          <lb ed="#P" n="34"/>2. Resolvitur er quadam sententia 
+          Cathe<lb break="no" ed="#P" n="35"/>rini. — In hoc dubio, si vera esset sententia
+          <lb ed="#P" n="36"/>dicentium in illo statu amitti potuisse gratiam,
+          <lb ed="#P" n="37"/>non amissa originali justitia, consequente dici
+          <lb ed="#P" n="38"/>posset, perseverante Adamo in Dei obedientia,
+          <lb ed="#P" n="39"/>filios ejus, qui peccarent, amissuros fuisse
+          <lb ed="#P" n="40"/>gratiam: non vero originalem justitiam. Quod
+          <lb ed="#P" n="41"/>tribui potest Catherino: nam in opusc. de 
+          Pec<lb break="no" ed="#P" n="42"/>cat. Orig., disput. 4, in fin., dicit, quod licet
+          <lb ed="#P" n="43"/>Eva peccasset, et gratiam amisisset, non 
+          pri<lb break="no" ed="#P" n="44"/>varetur originali justitia, si Adamus non 
+          pec<lb break="no" ed="#P" n="45"/>casset: ergo a fortiori idem dicturus fuisset
+          <lb ed="#P" n="46"/>de filiis Adae, si parte non peccante, ipsi 
+          pec<lb break="no" ed="#P" n="47"/>carent: imo fortasse idem diceret de Adamo,
+          <lb ed="#P" n="48"/>si servaret praeceptum non comedendi de 
+          li<lb break="no" ed="#P" n="49"/>gno scientiae, et contra alia peccaret. Potestque
+          <lb ed="#P" n="50"/>hoc suaderi, quia donum justitiae erat in eo
+          <lb ed="#P" n="51"/>statu naturale, sed dona naturalia non 
+          amitte<lb break="no" ed="#P" n="52"/>rentur per peccatum: ergo nec donum justi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tiae per quodlibet peccatum amitteretur: sed
+          <lb ed="#P" n="54"/>solum propter peccatum totius naturae juxta
+          <lb ed="#P" n="55"/>comminationem Dei. Unde supponendo hanc
+          <lb ed="#P" n="56"/>sententiam dicendum esset, homines non
+          <lb ed="#P" n="57"/>fuisse morituros, etiamsi peccarent, et 
+          conse<lb break="no" ed="#P" n="58"/>quenter nec fuisse extra Paradisum 
+          emitten<lb break="no" ed="#P" n="59"/>dos. Et ita cessarent aliae dubitationes, quae ex
+          <lb ed="#P" n="60"/>contraria positione inferebantur.
+        </p>
+        <p xml:id="szdada-y10834-d1e234">
+          <lb ed="#P" n="61"/>3. Dicta resolutio rejicitur multipliciter. —
+          <lb ed="#P" n="62"/>Sed illa sententia supponit falsum 
+          fundamen<lb break="no" ed="#P" n="63"/>tum. In superioribus enim demonstratum
+          <lb ed="#P" n="64"/>est, justitiam originalem nunquam permanere
+          <lb ed="#P" n="65"/>sine gratia, et oppositum divinae institutioni
+          <lb ed="#P" n="66"/>repugnare. Deinde illo fundamento permisso,
+          <lb ed="#P" n="67"/>alia majora incommodata oriuntur. Nam 
+          in<lb break="no" ed="#P" n="68"/>credibile est, homines rebelles Deo per 
+          pecca<lb break="no" ed="#P" n="69"/>tum, habituros fuisse corpora impassibilia et
+          <lb ed="#P" n="70"/>immortalia, et appetitum inferiorem plene
+          <lb ed="#P" n="71"/>subjectum superiori: et similia privilegia, quae
+          <lb ed="#P" n="72"/>originalis justitia secum afferebat. Deinde,
+          <lb ed="#P" n="73"/>vel homines semel peccantes in illo statu agere
+          <lb ed="#P" n="74"/>possent poenitentiam, vel non? Si non possent,
+          <lb ed="#P" n="75"/>consequenter non possent in gratiam redire:
+          <lb ed="#P" n="76"/>quod miserrimum esset. Si autem eam agere
+          <lb ed="#P" n="77"/>possent: quomodo permanente justitia 
+          origi<lb break="no" ed="#P" n="78"/>nali possent pro peccatis satisfacere: cum 
+          do<lb break="no" ed="#P" n="79"/>num illud ab omni poena et dolore hominem
+          <lb ed="#P" n="80"/>praeservaret. Item si homo poterat in ilio statu
+          <lb ed="#P" n="81"/>peccaret, posset etiam saepius id facere, et 
+          con<lb break="no" ed="#P" n="82"/>suetudine peccandi pravos habitus acquirere:
+          <lb ed="#P" n="83"/>talis autem dispositio repugnat cum 
+          rectitu<lb break="no" ed="#P" n="84"/>dine justitiae originalis. Denique licet justitia
+          <lb ed="#P" n="85"/>originalis ex ea parte, qua perficiebat, et quasi
+          <lb ed="#P" n="86"/>integrabat naturam intra suum ordinem, 
+          di<lb break="no" ed="#P" n="87"/>catur quodammodo naturale donum: 
+          nihilo<lb break="no" ed="#P" n="88"/>minus simphiciter non erat naturae debita, nec
+          <lb ed="#P" n="89"/>dabatur, nisi gratis, et in ordine ad 
+          perfectio<lb break="no" ed="#P" n="90"/>nem gratiae: ergo non erat magis inamissibilis
+          <lb ed="#P" n="91"/>per peccatum, quam ipsa gratia.
+        </p>
+        <p xml:id="szdada-y10834-d1e304">
+          <lb ed="#P" n="92"/>4. Verior resolutio bipartita. — Prior pars
+          <lb ed="#P" n="93"/>tractatur. — Dicendum ergo est, si Adamas
+          <lb ed="#P" n="94"/>non peccasset, posteros ejus non magis fuisse
+          <lb ed="#P" n="95"/>nascituros confirmatos in justitia originali,
+          <lb ed="#P" n="96"/>quam in gratia: ae proinde, si peccarent, ut
+          <lb ed="#P" n="97"/>revera potuissent, utrumque amissuros fuisse.
+          <lb ed="#P" n="98"/>Quomodo autem Deus tunc providisset 
+          homi<lb break="no" ed="#P" n="99"/>nibus peccantibus, tam quoad salutem animae
+          <lb ed="#P" n="100"/>et felicitatis consecutionem, quam quoad 
+          re<lb break="no" ed="#P" n="101"/>liquum tempus status viae, incertum nobis est.
+          <lb ed="#P" n="102"/>Priorem partem probant ea, quae hactenus
+          <lb ed="#P" n="103"/>adduximus. Quia vero aliud est loqui de 
+          po<lb break="no" ed="#P" n="104"/>testate, aliud de facto, solum possumus certo
+          <lb ed="#P" n="105"/>affirmare, ex parte status, et donorum gratiae
+          <lb ed="#P" n="106"/>et justitiae, quae in illo data sunt pro tota 
+          po<lb break="no" ed="#P" n="107"/>steritate, potuisse homines gratiam, et con-
+          <pb ed="#P" n="432"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sequenter etiam justitiam peccando amittere :
+          <lb ed="#P" n="2"/>et non fuisse unam sine alia amissuros propter
+          <lb ed="#P" n="3"/>connexionem earum inter se. Quod vero de
+          <lb ed="#P" n="4"/>facto Deus permitteret aliquos peccare, sicut
+          <lb ed="#P" n="5"/>non possumus absolute negare, ita neque cum
+          <lb ed="#P" n="6"/>certitude affirmare possumus. Quia posset 
+          fa<lb break="no" ed="#P" n="7"/>cile Deus nullum aliud peccatum in toto 
+          ge<lb break="no" ed="#P" n="8"/>nere humano permittere, si primus homo 
+          pri<lb break="no" ed="#P" n="9"/>mam peccati occasionem vicisset, et dare
+          <lb ed="#P" n="10"/>omnibus hominibus auxilium efficax ad 
+          vi<lb break="no" ed="#P" n="11"/>tanda omnia, et singula peccata etiamsi tale
+          <lb ed="#P" n="12"/>auxilium non esset debitum, nec promissum
+          <lb ed="#P" n="13"/>pro tali statu, sed solum ex libera 
+          providen<lb break="no" ed="#P" n="14"/>tia datum, sicut supra diximus, et insinuavit
+          <lb ed="#P" n="15"/>D. Thomas, 1 p., q. 100, articul. 2, ad 1, in
+          <lb ed="#P" n="16"/>responsione prima ad testimonium Gregori.
+          <lb ed="#P" n="17"/>Neque est revelatum, vel aliter certum non
+          <lb ed="#P" n="18"/>fuisse id facturum Deum: si autem id fecisset,
+          <lb ed="#P" n="19"/>cessassent difficultates et perplexitates, quae
+          <lb ed="#P" n="20"/>in illo statu oriri viderentur, si aliqui homines
+          <lb ed="#P" n="21"/>in eo peccarent. Et haec videtur esse potissima
+          <lb ed="#P" n="22"/>conjectura ut credibile fiat Deum ita fuisse
+          <lb ed="#P" n="23"/>provisurum in illo statu hominibus, ut in eo
+          <lb ed="#P" n="24"/>nemo peccaret, licet posset.
+        </p>
+        <p xml:id="szdada-y10834-d1e398">
+          <lb ed="#P" n="25"/>5. Nihilominus tamen haec sola conjectura
+          <lb ed="#P" n="26"/>insufficiens est, ut definite asserere possumus,
+          <lb ed="#P" n="27"/>Deum fuisse praedestinaturum omnes homines
+          <lb ed="#P" n="28"/>vel ad gloriam, vel etiam ad perpetuum 
+          in<lb break="no" ed="#P" n="29"/>nocentiam pro statu viae, 3i praevidisset, 
+          Ada<lb break="no" ed="#P" n="30"/>mum non fuisse peccaturum: imo oppositum sit
+          <lb ed="#P" n="31"/>credibilius majoribus conjecturis. Primo, quia
+          <lb ed="#P" n="32"/>in omni statu fuit conveniens, gratiam Dei,
+          <lb ed="#P" n="33"/>ejusque liberalem donationem in hominibus
+          <lb ed="#P" n="34"/>manifestari: sed hoc maxime fit per 
+          gratui<lb break="no" ed="#P" n="35"/>tam electionem quorumdam prae aliis, et per
+          <lb ed="#P" n="36"/>efficaciam vocationis in illis, et non in istis:
+          <lb ed="#P" n="37"/>ergo hoc genus providentiae servaret Deus cum
+          <lb ed="#P" n="38"/>hominibus, etiamsi Adam non peccasset. 
+          Se<lb break="no" ed="#P" n="39"/>cundo, quia hoc modo etiam ostenditur 
+          maxi<lb break="no" ed="#P" n="40"/>ma libertas humani arbitrii, ejusque ab 
+          auxi<lb break="no" ed="#P" n="41"/>liis gratia dependentia. Tertio, quia per
+          <lb ed="#P" n="42"/>eumdem providentiae modum non solum 
+          gra<lb break="no" ed="#P" n="43"/>tia, sed etiam justitia Dei, non distributiva
+          <lb ed="#P" n="44"/>tantum, verum etiam vindicativa declaratur.
+          <lb ed="#P" n="45"/>Quarto, quia propter has rationes non 
+          praedes<lb break="no" ed="#P" n="46"/>tinavit Deus omnes Angelos, nec etiam duobus
+          <lb ed="#P" n="47"/>primis hominibus donum perseverantiae in
+          <lb ed="#P" n="48"/>prima innocentia dedit: ergo, quantum 
+          con<lb break="no" ed="#P" n="49"/>jecturis assequi possumus, idem cum 
+          homini<lb break="no" ed="#P" n="50"/>bus faceret, etiam si primus homo Dei 
+          manda<lb break="no" ed="#P" n="51"/>tum non violasset.
+        </p>
+        <p xml:id="szdada-y10834-d1e459">
+          <lb ed="#P" n="52"/>6. Satisfit difficultati in num. 4, 
+          enplica<lb break="no" ed="#P" n="53"/>turque per varias questiunculas. — Denique
+          <lb ed="#P" n="54"/>non obstat ratio, quae ex difficultatibus 
+          propo<lb break="no" ed="#P" n="55"/>aitis desumitur: quia quod apud homines dif-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ficile apparet, posset Deus facile componere,
+          <lb ed="#P" n="57"/>et convenientem providentiae modum pro illis
+          <lb ed="#P" n="58"/>occasionibus ordinare. Quod declaratur a 
+          si<lb break="no" ed="#P" n="59"/>mili: nam si Eva peccante, Adam illi non
+          <lb ed="#P" n="60"/>consensisset, nec peccaret, etiam est nobis
+          <lb ed="#P" n="61"/>explicatu difficile quid agendum esset, id est,
+          <lb ed="#P" n="62"/>an Eva ejicienda esset de Paradiso, et tunc,
+          <lb ed="#P" n="63"/>an creanda esset alia mulier, ex qua homines
+          <lb ed="#P" n="64"/>innocentes in Paradiso nascerentur. Velsi Eva,
+          <lb ed="#P" n="65"/>non obstante peccato, intra Paradisum propter
+          <lb ed="#P" n="66"/>conjugium cum Adamo relinqueretur, an ibi
+          <lb ed="#P" n="67"/>posset poenitentiam agere, et poenam aliquam
+          <lb ed="#P" n="68"/>saltem voluntarie assumere. Et ad hunc 
+          mo<lb break="no" ed="#P" n="69"/>dum ex simili hypothesi possunt varia dubia
+          <lb ed="#P" n="70"/>excitari, propter quae vitanda, recurrendum
+          <lb ed="#P" n="71"/>non est ad negationem hypothesis: quasi non
+          <lb ed="#P" n="72"/>potuerit Deus, non peccante Adamo in aliis 
+          ho<lb break="no" ed="#P" n="73"/>minibus peccata permittere: et nihilominus
+          <lb ed="#P" n="74"/>modum convenientem providere; quo possent
+          <lb ed="#P" n="75"/>homines in tali statu, et eventu gubernari.
+          <lb ed="#P" n="76"/>Quod per breves interrogationes facile 
+          expli<lb break="no" ed="#P" n="77"/>catur.
+        </p>
+        <p xml:id="szdada-y10834-d1e520">
+          <lb ed="#P" n="78"/>7. Pro posteriori parte resolutionis in n. 4,
+          <lb ed="#P" n="79"/>posite, quaestiuncula prima. — Prima est, an
+          <lb ed="#P" n="80"/>peccans in illo statu posset ad gratiam redire,
+          <lb ed="#P" n="81"/>et veniam peccati consequi, vel statim 
+          repro<lb break="no" ed="#P" n="82"/>bus fieret? Ad quam dicendum omnino 
+          vide<lb break="no" ed="#P" n="83"/>tur, potuisse tunc etiam peccatores in gratiam
+          <lb ed="#P" n="84"/>redire. Probatur, quia non statim 
+          transferen<lb break="no" ed="#P" n="85"/>tur vivi ex hac vita in infernum, et quamdiu
+          <lb ed="#P" n="86"/>in hac vita existerent, haberent liberum 
+          arbi<lb break="no" ed="#P" n="87"/>trium de se flexibile ad bonum: ergo possent
+          <lb ed="#P" n="88"/>in gratiam Dei redire. Major probatur, quia
+          <lb ed="#P" n="89"/>status viae haberet tunc ex Dei ordinatione 
+          cer<lb break="no" ed="#P" n="90"/>tam durationem, quae non finitur propter 
+          su<lb break="no" ed="#P" n="91"/>perveniens peccatum. Item, qui semel, aut
+          <lb ed="#P" n="92"/>iterum bene operaretur, non statim 
+          transfer<lb break="no" ed="#P" n="93"/>retur ad gloriam communi lege: ergo servata
+          <lb ed="#P" n="94"/>proportione, qui semel peccaret, non statim
+          <lb ed="#P" n="95"/>damnaretur, vel extra statum viae 
+          constitue<lb break="no" ed="#P" n="96"/>retur. Minor etiam nota est, et a fortiori 
+          os<lb break="no" ed="#P" n="97"/>tendi potest ex supra dictis, de natura 
+          ange<lb break="no" ed="#P" n="98"/>lica. Nam inter illam et humanam discrimen
+          <lb ed="#P" n="99"/>communiter constituitur, quod angelica 
+          na<lb break="no" ed="#P" n="100"/>tura est quodammodo inflexibilis in electione
+          <lb ed="#P" n="101"/>semel facta: humana vero facile post 
+          electio<lb break="no" ed="#P" n="102"/>nem mutare: quae differentia cum in naturali
+          <lb ed="#P" n="103"/>proprietate fundetur, etiam in natura humana
+          <lb ed="#P" n="104"/>in statu innocentiae spectata locum habet. Et
+          <lb ed="#P" n="105"/>nihilominus diximus, inflexibilitatem illam
+          <lb ed="#P" n="106"/>naturae angelicae, non rigorose, sed moral
+          <lb ed="#P" n="107"/>quodam modo accipiendam: ergo homo in
+          <lb ed="#P" n="108"/>statu naturae integrae non solum physice, sed
+          <lb ed="#P" n="109"/>etiam moraliter convertibilis esset ad bonum,
+          <lb ed="#P" n="110"/>ac subinde ex parte sua capax esset poeniten-
+          <pb ed="#P" n="433"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tiae, et remissionis peccati. Praesertim, quia
+          <lb ed="#P" n="2"/>per peccatum ab illa integritate, et perfectione
+          <lb ed="#P" n="3"/>naturae caderet, atque ita suum errorem, et
+          <lb ed="#P" n="4"/>fragilitatem facile posset agnoscere. Unde 
+          pro<lb break="no" ed="#P" n="5"/>batur tandem prima consequentia: tum quia
+          <lb ed="#P" n="6"/>Deus in illo statu, et ex communi ejus lege
+          <lb ed="#P" n="7"/>homini semel bene operandi non statim daret
+          <lb ed="#P" n="8"/>perseverantiae donum: ergo nec male 
+          operan<lb break="no" ed="#P" n="9"/>tem statim deseret, et quasi desperatum 
+          re<lb break="no" ed="#P" n="10"/>linqueret: tum etiam, quia magis repugnat
+          <lb ed="#P" n="11"/>statui viatoris non posse resurgere, quam non
+          <lb ed="#P" n="12"/>posse cadere: tum denique quia hoc est magis
+          <lb ed="#P" n="13"/>consentaneum divinae misericordiae, bonitati,
+          <lb ed="#P" n="14"/>ac sapientiae.
+        </p>
+        <p xml:id="szdada-y10834-d1e629">
+          <lb ed="#P" n="15"/>8. Secunda quaeestiuncula plures complectens
+          <lb ed="#P" n="16"/>resolvitur.—Hinc nascitur secunda 
+          interroga<lb break="no" ed="#P" n="17"/>tio, quae plures includit, scilicet, quaenam 
+          reme<lb break="no" ed="#P" n="18"/>dia instituerentur tunc a Deo in remedium 
+          pec<lb break="no" ed="#P" n="19"/>cati? In qua re unum videtur certum, scilicet,
+          <lb ed="#P" n="20"/>necessariam fuisse dilectionem Dei ex vera
+          <lb ed="#P" n="21"/>charitate cum detestatione peccati, seu 
+          con<lb break="no" ed="#P" n="22"/>tritione: nam haec dispositio quasi 
+          connatu<lb break="no" ed="#P" n="23"/>ralis est ad infusionem gratiae cum remissione
+          <lb ed="#P" n="24"/>peccati. An vero praeter hoc medium internum
+          <lb ed="#P" n="25"/>provideret Deus aliud externum in illo statu
+          <lb ed="#P" n="26"/>per modum sacramenti, incertum est, ut dixi
+          <lb ed="#P" n="27"/>in 3 tom., 3 part., disp. 3, sect. 3, in fine, ubi
+          <lb ed="#P" n="28"/>partem negantem probabiliorem duxi. 
+          Inter<lb break="no" ed="#P" n="29"/>rogari etiam potest, an tunc remitterentur
+          <lb ed="#P" n="30"/>peccata per Christum Redemptorem? De qua
+          <lb ed="#P" n="31"/>re videri possunt dicta in primo tomo, tertia
+          <lb ed="#P" n="32"/>parte, disp. 5, sect. ultim. Tandem 
+          interroga<lb break="no" ed="#P" n="33"/>tur, an homines tunc peccantes indigerent
+          <lb ed="#P" n="34"/>externis operibus poenitentiae et satisfactionis
+          <lb ed="#P" n="35"/>pro peccatis? Ad quam interrogationem post
+          <lb ed="#P" n="36"/>resolutionem puncti sequentis commodius 
+          res<lb break="no" ed="#P" n="37"/>pondebimus in num. 12.
+        </p>
+        <p xml:id="szdada-y10834-d1e682">
+          <lb ed="#P" n="38"/>9. Tertia questiunculae pars negans 
+          sua<lb break="no" ed="#P" n="39"/>detur.— Tertia ergo interrogari potest: an in
+          <lb ed="#P" n="40"/>eo eventu, recuperata per poenitentiam gratia,
+          <lb ed="#P" n="41"/>etiam originalis justitia restitueretur? Pars
+          <lb ed="#P" n="42"/>etenim negans suaderi potest: quia licet 
+          jus<lb break="no" ed="#P" n="43"/>titia non fuerit unquam sine gratia, quia in ea
+          <lb ed="#P" n="44"/>fundatur: tamen gratia sine originahl justitia
+          <lb ed="#P" n="45"/>esse potest, quia est perfectio extra rationem
+          <lb ed="#P" n="46"/>gratiae, et illa super addita. Et ita videmus
+          <lb ed="#P" n="47"/>restitutam esse Adamo gratiam sine justitia,
+          <lb ed="#P" n="48"/>sicut et nunc in justificatione datur: ergo
+          <lb ed="#P" n="49"/>idem esset in hominibus peccantibus in statu
+          <lb ed="#P" n="50"/>innocentiae. Probatur consequentia, tum quia
+          <lb ed="#P" n="51"/>eadem ratio militat: tum etiam, quia 
+          contri<lb break="no" ed="#P" n="52"/>tio per se solum disponit ad gratiam, et 
+          habi<lb break="no" ed="#P" n="53"/>tus, qui illam consequuntur, non vero ad 
+          ori<lb break="no" ed="#P" n="54"/>ginalem justitiam: ergo non est cur 
+          poeniten<lb break="no" ed="#P" n="55"/>tibus restitueretur. Unde contirmatur primo,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quia illa justitia datur gratis, tanquam 
+          pecu<lb break="no" ed="#P" n="57"/>liare donum innocentium, ideo enim 
+          diceba<lb break="no" ed="#P" n="58"/>tur innocentiae statum constituere: innocentia
+          <lb ed="#P" n="59"/>autem restitui non poterat: ergo non erat, cur
+          <lb ed="#P" n="60"/>originalis justitia restitueretur. Tandem 
+          con<lb break="no" ed="#P" n="61"/>firmatur, quia alias homo poenitens statim de
+          <lb ed="#P" n="62"/>sua justificatione certus fieret, quod videtur
+          <lb ed="#P" n="63"/>inconveniens. Et sequela probatur, quia 
+          do<lb break="no" ed="#P" n="64"/>num jgustitiae originalis tale erat, ut posset
+          <lb ed="#P" n="65"/>experimento cognosci per carentiam fomitis,
+          <lb ed="#P" n="66"/>et alios ejus effectus in superioribus 
+          numera<lb break="no" ed="#P" n="67"/>tos. Sicut Adam et Eva experti sunt 
+          deordina<lb break="no" ed="#P" n="68"/>tionem suam, quando aperti sunt oculi eorum,
+          <lb ed="#P" n="69"/>et erubescere coeperunt: ex quo effectu 
+          evi<lb break="no" ed="#P" n="70"/>denter cognoscere potuerunt peccatum suum,
+          <lb ed="#P" n="71"/>quod quidem in culpa non est inconveniens,
+          <lb ed="#P" n="72"/>quia nos etiam optime scimus, quando 
+          pecca<lb break="no" ed="#P" n="73"/>mus: secus vero est de gratiae certitudine.
+        </p>
+        <p xml:id="szdada-y10834-d1e765">
+          <lb ed="#P" n="74"/>10. Pars affirmans ostenditur. — Pro parte
+          <lb ed="#P" n="75"/>vero affirmante facit primo, quia ordo et
+          <lb ed="#P" n="76"/>rectitudo originalis justitiae esset in illo statu
+          <lb ed="#P" n="77"/>annexa gratiae per modum proprietatis ejus :
+          <lb ed="#P" n="78"/>ergo restitueretur simul cum gratia. Quia per
+          <lb ed="#P" n="79"/>singulorum hominum personalia peccata non
+          <lb ed="#P" n="80"/>fieret mutatio in toto statu innocentiae, sicut
+          <lb ed="#P" n="81"/>per peccatum Adae facta est: sed solum 
+          par<lb break="no" ed="#P" n="82"/>ticularis persona peccans ab illo statu caderet :
+          <lb ed="#P" n="83"/>ergo non est verisimile nocumentum illud,
+          <lb ed="#P" n="84"/>durante viae tempore, in illo statu irreparabile
+          <lb ed="#P" n="85"/>fuisse. Et declaratur. Nam si Eva peccante,
+          <lb ed="#P" n="86"/>Adam non peccasset, verisimilius est, potuisse
+          <lb ed="#P" n="87"/>Evam per conversionem ad Deum, ad 
+          pristi<lb break="no" ed="#P" n="88"/>num statum justitiae et felicitatis Paradisi
+          <lb ed="#P" n="89"/>redire: quia vix posset aliter conjugium illud
+          <lb ed="#P" n="90"/>et socialis vita inter Adamum et Evam cum
+          <lb ed="#P" n="91"/>tanta morum et effectuum dissimilitudine 
+          rec<lb break="no" ed="#P" n="92"/>te subsistere; ergo idem in caeteris servaretur.
+          <lb ed="#P" n="93"/>Denique utrumque possibile fuit, ut est per se
+          <lb ed="#P" n="94"/>notum: et licet sit in certum, quia ex 
+          volun<lb break="no" ed="#P" n="95"/>tate Dei pendet, illud tamen de Deo 
+          creden<lb break="no" ed="#P" n="96"/>dum est, quod lberalitati ejus, et hominum
+          <lb ed="#P" n="97"/>innocentium conditioni, et justo desiderio 
+          ma<lb break="no" ed="#P" n="98"/>gis esset consentaneum.
+        </p>
+        <p xml:id="szdada-y10834-d1e822">
+          <lb ed="#P" n="99"/>11. Utraque pars quaestiunculae probabilis,
+          <lb ed="#P" n="100"/>notatioque pro motivis utriusque partis. —Et
+          <lb ed="#P" n="101"/>ita potest facile utraque pars defendi. Adverti
+          <lb ed="#P" n="102"/>autem potest, sicut nunc contigit consequi 
+          re<lb break="no" ed="#P" n="103"/>missionem culpae, manente aliquo reatu poenae
+          <lb ed="#P" n="104"/>temporalis, ita etiam in illo statu, seu tempore
+          <lb ed="#P" n="105"/>accidere potuisse: quia non omnes homines
+          <lb ed="#P" n="106"/>eeque ferventer de peccato dolerent, cum hoc
+          <lb ed="#P" n="107"/>ex libertate pendeat. S$1 ergo homo integre
+          <lb ed="#P" n="108"/>jusüficaretur a peccato, quoad culpam, 
+          totum<lb break="no" ed="#P" n="109"/>que paenae reatum, credibile est etiam 
+          origi<lb break="no" ed="#P" n="110"/>nalem justitiam fuisse recuperaturum. Nec
+          <pb ed="#P" n="434"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>referret, quod illi non restitueretur 
+          innocen<lb break="no" ed="#P" n="2"/>tia, quatenus negat omnem culpam, etiam
+          <lb ed="#P" n="3"/>praeteritam ; quia illa justitia de se non 
+          pos<lb break="no" ed="#P" n="4"/>tulabat talem innocentiam, licet de facto 
+          so<lb break="no" ed="#P" n="5"/>Ium innocentibus data, et in eis solis inventa
+          <lb ed="#P" n="6"/>fuerit. Neque etiam esset tunc inconveniens,
+          <lb ed="#P" n="7"/>quod peccatores de sua perfecta justificatione
+          <lb ed="#P" n="8"/>possent aliquando esse certi ex effectu 
+          recu<lb break="no" ed="#P" n="9"/>peratae justitiae, quia haec certitudo esset illi
+          <lb ed="#P" n="10"/>statui consentanea: ut patet in innocentibus
+          <lb ed="#P" n="11"/>qui nunquam peccarent, quia certo scire 
+          pos<lb break="no" ed="#P" n="12"/>sent, se nunquam amisisse justitiam, et 
+          con<lb break="no" ed="#P" n="13"/>sequenter neque gratiam. Ergo idem posset
+          <lb ed="#P" n="14"/>conferri peccantibus post perfectam 
+          remissio<lb break="no" ed="#P" n="15"/>nem consecutam.
+        </p>
+        <p xml:id="szdada-y10834-d1e887">
+          <lb ed="#P" n="16"/>12. Progreditur dicta notatio. — At vero, si
+          <lb ed="#P" n="17"/>remissio culpae in aliquo fieret sine perfecta
+          <lb ed="#P" n="18"/>remissione reatus poenae, pro illo tempore 
+          ve<lb break="no" ed="#P" n="19"/>risimilius est, non fuisse originalem justitiam
+          <lb ed="#P" n="20"/>simul cum gratia restituendam: quia tals
+          <lb ed="#P" n="21"/>homo adhuc esset poena dignus: ergo a 
+          for<lb break="no" ed="#P" n="22"/>tiori esset poenae capax secundum praesentem
+          <lb ed="#P" n="23"/>statum: ergo pro tunc erat incapax doni 
+          ori<lb break="no" ed="#P" n="24"/>ginalis justitiae, quae omnem poenalitatem 
+          ex<lb break="no" ed="#P" n="25"/>cludebat. Et juxta hoc facile expeditur ultima
+          <lb ed="#P" n="26"/>interrogatio in praecedenti puncto in fine n. 8
+          <lb ed="#P" n="27"/>relicta. Dicendum est enim, potuisse hominem
+          <lb ed="#P" n="28"/>in illo statu peccantem indigere extremis 
+          poe<lb break="no" ed="#P" n="29"/>nis satisfactoriis, quamdiu pro reatu 
+          tempo<lb break="no" ed="#P" n="30"/>ralis poena non plene satisfaceret, vel per
+          <lb ed="#P" n="31"/>ferventem contritionem plenam illius 
+          remis<lb break="no" ed="#P" n="32"/>sionem consequeretur. Quia cum careret dono
+          <lb ed="#P" n="33"/>justitiae, esset in statu poenalt, et consequenter
+          <lb ed="#P" n="34"/>esset capax hujus modi satisfactionis, quae 
+          sem<lb break="no" ed="#P" n="35"/>per est debita, quamdiu peccatum quoad 
+          om<lb break="no" ed="#P" n="36"/>nem reatum, non est plene remissum.
+        </p>
+        <p xml:id="szdada-y10834-d1e935">
+          <lb ed="#P" n="37"/>13. Quarta quaestiuncula in utramque 
+          par<lb break="no" ed="#P" n="38"/>tem versatur, et utrique satisfit. — Quarta 
+          in<lb break="no" ed="#P" n="39"/>terrogatio est, an homines tunc peccantes 
+          sta<lb break="no" ed="#P" n="40"/>tim de Paradiso ejecti fuissent: utrumque
+          <lb ed="#P" n="41"/>enim potuit Deus ordinare: et incertum est,
+          <lb ed="#P" n="42"/>quid faceret. Nunc enim nullum decretum
+          <lb ed="#P" n="43"/>habuit divina voluntas, quod nobis innotescat,
+          <lb ed="#P" n="44"/>ex quo alterutram partem definire possimus.
+          <lb ed="#P" n="45"/>Quid autem Deus tunc decrevisset, vix potest
+          <lb ed="#P" n="46"/>per conjecturas divinari. Nam si peccantes
+          <lb ed="#P" n="47"/>statim e Paradiso ejicerentur, frequenter 
+          con<lb break="no" ed="#P" n="48"/>jux a conjuge, pater a filiis, et filia a matre
+          <lb ed="#P" n="49"/>separari debuisset: quod sine aliqua 
+          pertur<lb break="no" ed="#P" n="50"/>batione, et incommodo innocentium vix fieri
+          <lb ed="#P" n="51"/>posset. Item talis lex veluti instantis exilii
+          <lb ed="#P" n="52"/>non videtur illi statui necessaria. Nam si intra
+          <lb ed="#P" n="53"/>Paradisum peccata committi poterant, cur non
+          <lb ed="#P" n="54"/>posset etiam contritio de peccatis ibidem 
+          exer<lb break="no" ed="#P" n="55"/>ceri, et aliquae etiam poenalitates sustineri :
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>item possent peccatores ibi manentes ab esu
+          <lb ed="#P" n="57"/>ligni vitae arceri, et unam rempublicam cum
+          <lb ed="#P" n="58"/>innocentibus constituere: in qua legibus suo
+          <lb ed="#P" n="59"/>statu proportionatis gubernarentur: ad hunc
+          <lb ed="#P" n="60"/>ergo modum facile potest haec pars defendi.
+          <lb ed="#P" n="61"/>Quod si contraria lectori placuerit, non 
+          dee<lb break="no" ed="#P" n="62"/>runt congruentiae: quia homo peccando fieret
+          <lb ed="#P" n="63"/>mortalis, cum justitiam originalem amitteret:
+          <lb ed="#P" n="64"/>Paradisus autem erat locus cujusdam 
+          immor<lb break="no" ed="#P" n="65"/>talitatis (ut sic dicam ) ac felicitatis. Homo
+          <lb ed="#P" n="66"/>etiam peccando fieret illo loco indignus, et
+          <lb ed="#P" n="67"/>quasi ad illum ineptus: quia proprietatis loci
+          <lb ed="#P" n="68"/>debent esse accommodatae conditioni locati.
+          <lb ed="#P" n="69"/>At homo peccator poenalitatibus, et aerumnis
+          <lb ed="#P" n="70"/>eo ipso subjicitur: locus autem ille ab his
+          <lb ed="#P" n="71"/>omnibus imperfectionibus, et 
+          incommoditati<lb break="no" ed="#P" n="72"/>bus erat immunis. Igitur, qui peccarent 
+          for<lb break="no" ed="#P" n="73"/>tasse divina vi, vel ministerio Angelorum, 
+          sta<lb break="no" ed="#P" n="74"/>um extra Paradisum fierent: facta autem
+          <lb ed="#P" n="75"/>perfecta poenitentia et justitia recuperata, ad
+          <lb ed="#P" n="76"/>illum restituerentur; et ita possent facile 
+          in<lb break="no" ed="#P" n="77"/>commodata insinuata vitari. Praeterquam quod
+          <lb ed="#P" n="78"/>facile esset divinae providentiae innumeris 
+          mo<lb break="no" ed="#P" n="79"/>dis aliis omnia illa componere, et convenienter
+          <lb ed="#P" n="80"/>ordinare.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

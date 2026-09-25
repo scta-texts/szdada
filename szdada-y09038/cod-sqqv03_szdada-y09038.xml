@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="360"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y09038"><!-- t2l4c6 -->
+        <head xml:id="szdada-y09038-Hd1e101">Caput 6</head>
+        <head xml:id="szdada-y09038-Hd1e103" type="question-title">Utrum peccatum primorum hominum fuerit omnibus gravius</head>
+        <p xml:id="szdada-y09038-d1e106">
+          <lb ed="#P" n="16"/>CAPUT VI.
+          <lb ed="#P" n="17"/>UTRUM PECCATUM PRIMORUM HOMINUM FUERIT
+          <lb ed="#P" n="18"/>OMNIBUS GRAVIUS.
+        </p>
+        <p xml:id="szdada-y09038-d1e115">
+          <lb ed="#P" n="19"/>1. Responsio D. Thome bipartita. — Hanc
+          <lb ed="#P" n="20"/>comparationem proponit divus Thomas 2, 2,
+          <lb ed="#P" n="21"/>quaest. 163, art. 3, et in summa respondet,
+          <lb ed="#P" n="22"/>peccatum primorum parentum simpliciter non
+          <lb ed="#P" n="23"/>fuisse gravissimum: quia in aliis hominibus
+          <lb ed="#P" n="24"/>fuerunt peccata in speciebus suis graviora.
+          <lb ed="#P" n="25"/>Majora enim peccata sunt odium Dei, haeresis
+          <lb ed="#P" n="26"/>desperatio, formalis contemptus Dei, vel 
+          su<lb break="no" ed="#P" n="27"/>perbia (ait D. Thomas) qua quis Deum negat,
+          <lb ed="#P" n="28"/>vel blasphemat, quam superbia, vel 
+          inobedien<lb break="no" ed="#P" n="29"/>tia primorum parentum. Secundum quid 
+          au<lb break="no" ed="#P" n="30"/>tem, seu ex circumstantiis ait D. Thomas,
+          <lb ed="#P" n="31"/>peccatum primorum parentum habuit 
+          maxi<lb break="no" ed="#P" n="32"/>mam gravitatem propter perfectionem status
+          <lb ed="#P" n="33"/>ipsorum. Quae resolutio communiter recepta
+          <lb ed="#P" n="34"/>est ab interpretibus D. Thomae, et ab 
+          scholas<lb break="no" ed="#P" n="35"/>ticis in 2, disp. 21, ubi specialiter Richardus,
+          <lb ed="#P" n="36"/>art. 3, q. 2, illud comparat cum peccato 
+          Luci<lb break="no" ed="#P" n="37"/>feri, et cum peccato Judae, et utrumque 
+          ho<lb break="no" ed="#P" n="38"/>rum putat fuisse gravius simpliciter, licet 
+          se<lb break="no" ed="#P" n="39"/>cundum quid peccatum Adae excesserit, et idem
+          <lb ed="#P" n="40"/>fere habent Bonaventura, art. 3, quaest. 3, et
+          <lb ed="#P" n="41"/>JEgidius, quaest. 9, art. 2, Scotus et Durandus,
+          <lb ed="#P" n="42"/>alique, et Alensis, 2 part., quaestion. 103,
+          <lb ed="#P" n="43"/>membr. 3.
+        </p>
+        <p xml:id="szdada-y09038-d1e172">
+          <lb ed="#P" n="44"/>2. Contra primam partem responsionis 
+          ob<lb break="no" ed="#P" n="45"/>Jicitur.—Verumtamen circa utramque partem
+          <lb ed="#P" n="46"/>aliqua notanda sunt: circa primam de 
+          gravi<lb break="no" ed="#P" n="47"/>tate specifica, seu essentiali, non est dubium
+          <lb ed="#P" n="48"/>quin peccata primorum parentem non 
+          attige<lb break="no" ed="#P" n="49"/>rint supremam speciem malitiae, quae in 
+          acti<lb break="no" ed="#P" n="50"/>bushumanis esse potest, imo plura alia peccata
+          <lb ed="#P" n="51"/>esse in speciebus suis graviora, ut evidenter
+          <lb ed="#P" n="52"/>probant exempla supra posita, supposita doc-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>trina, quam de peccatis primorum parentum
+          <lb ed="#P" n="54"/>tradidimus. Potest tamen hic moveri dubium,
+          <lb ed="#P" n="55"/>quomodo hinc concludat D. TEomas, quod 
+          li<lb break="no" ed="#P" n="56"/>cet peccatum Adae fuerit secundum quid 
+          gra<lb break="no" ed="#P" n="57"/>vissimum, non tamen simpliciter. Nam ad
+          <lb ed="#P" n="58"/>judicandum de gravitate simpliciter alicujus
+          <lb ed="#P" n="59"/>peccati non est tantum species ejus 
+          consi<lb break="no" ed="#P" n="60"/>deranda, sed adjunctis, et ponderatis simul
+          <lb ed="#P" n="61"/>omnibus circumstantiis. Unde fieri potest, ut
+          <lb ed="#P" n="62"/>peccatum levius in malitia specifica simpliciter
+          <lb ed="#P" n="63"/>sit gravius secundum moralem aestimationem,
+          <lb ed="#P" n="64"/>quam peccatum gravioris speciei, propter 
+          va<lb break="no" ed="#P" n="65"/>rias circumstantias, ut adulterium contra 
+          per<lb break="no" ed="#P" n="66"/>sonam regis majus peccatum est, quam 
+          homi<lb break="no" ed="#P" n="67"/>cidium vulgaris hominis: ergo quamvis 
+          pecca<lb break="no" ed="#P" n="68"/>tum Adae in specie non fuerit gravissimum,
+          <lb ed="#P" n="69"/>potuit nihilominus ex circumstantiis ita 
+          cres<lb break="no" ed="#P" n="70"/>cere, ut non tantum secundum quid, sed etiam
+          <lb ed="#P" n="71"/>simpliciter excesserit omnia alia peccata, etiam
+          <lb ed="#P" n="72"/>in suis speciebus graviora.
+        </p>
+        <p xml:id="szdada-y09038-d1e241">
+          <lb ed="#P" n="73"/>3. Occurritur objectioni, justa quamdam
+          <lb ed="#P" n="74"/>doctrinam. — Haec objectio pendet ex alia 
+          quaes<lb break="no" ed="#P" n="75"/>Uone, quae tractatur 1, 2, quaest. 73, et aliquo
+          <lb ed="#P" n="76"/>modo philosophiam attingit, scilicet, an 
+          indi<lb break="no" ed="#P" n="77"/>viduum inferioris speciei, propter differentiam
+          <lb ed="#P" n="78"/>individualem, et accidentia possit esse melius,
+          <lb ed="#P" n="79"/>vel gravius quam individuum perfectioris 
+          spe<lb break="no" ed="#P" n="80"/>ciei: vel etiam utrum possit species contenta
+          <lb ed="#P" n="81"/>sub inferiori genere, et in eo magnam 
+          perfec<lb break="no" ed="#P" n="82"/>tonem habens esse perfectior quam infima
+          <lb ed="#P" n="83"/>species supremi generis. Partem enim 
+          negan<lb break="no" ed="#P" n="84"/>tem aliqui probabiliter defendunt, juxta 
+          quo<lb break="no" ed="#P" n="85"/>rum sententiam objectio expedienda est, 
+          ne<lb break="no" ed="#P" n="86"/>gando assumptum, et consequenter dici potest
+          <lb ed="#P" n="87"/>D. Thomam, in loco citato, praedictae favere
+          <lb ed="#P" n="88"/>sententiae, et secundum illam fuisse locutum.
+          <lb ed="#P" n="89"/>Quia vero nunc nolumus de illa opinioneferre
+          <lb ed="#P" n="90"/>judicium, nec illam quaestionem definire, sed
+          <lb ed="#P" n="91"/>in materiam de peccatis remittere, ideo 
+          res<lb break="no" ed="#P" n="92"/>pondemus ahter D. Thomam interpretando.
+          <lb ed="#P" n="93"/>Nam particula illa, simpliciter, duos potest 
+          ha<lb break="no" ed="#P" n="94"/>bere sensus: unus est, ut significet omnibus
+          <lb ed="#P" n="95"/>pensatis, omne peccatum esse, vel non esse
+          <lb ed="#P" n="96"/>simpliciter gravius. Alius est, ut solum 
+          signi<lb break="no" ed="#P" n="97"/>ficet tale peccatum in potissima malitia sua,
+          <lb ed="#P" n="98"/>eique maxime propria et essentiali, quae veluti
+          <lb ed="#P" n="99"/>per antonomasiam dicitur malitia ejus 
+          simph<lb break="no" ed="#P" n="100"/>citer in ea esse, vel non esse gravissimum.
+          <lb ed="#P" n="101"/>D. Thomas ergo in hoc posteriori sensu dixit
+          <lb ed="#P" n="102"/>peccatum primi hominis non fuisse 
+          gravissi<lb break="no" ed="#P" n="103"/>mum simpliciter, id est, in potissima, et 
+          essen<lb break="no" ed="#P" n="104"/>tiali malitia sua, respectu cujus accidentalis
+          <lb ed="#P" n="105"/>malitia ex circumstantiis sumpta secundum
+          <lb ed="#P" n="106"/>quid dicitur. An vero illud peccatum pensatis
+          <lb ed="#P" n="107"/>omnibus fuerit gravissimum, nec ne, utiquein
+          <pb ed="#P" n="361"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ordine ad demeritum, seu meritum poenae, non
+          <lb ed="#P" n="2"/>videtur D. Thomas tractasse, aut definiisse,
+          <lb ed="#P" n="3"/>quia res valde occulta est, in qua vix potest 
+          e<lb break="no" ed="#P" n="4"/>tiam per conjecturam ferri judicium, ut 
+          se<lb break="no" ed="#P" n="5"/>quenti puncto amplius patebit.
+        </p>
+        <p xml:id="szdada-y09038-d1e335">
+          <lb ed="#P" n="6"/>4. Circa secundam partem responsionis divi
+          <lb ed="#P" n="7"/>Thomee recensentur, imprimis sem 
+          circumstan<lb break="no" ed="#P" n="8"/>liee peccatorum in Adamo et Eva.—Ccirca 
+          alte<lb break="no" ed="#P" n="9"/>ram vero partem de gravitate ex 
+          circumstan<lb break="no" ed="#P" n="10"/>tiis sumpta, non est dubium, quin multae 
+          con<lb break="no" ed="#P" n="11"/>ditiones aggravantes peccatum in persona Adae,
+          <lb ed="#P" n="12"/>(et idem est cum proportione de Eva), 
+          concur<lb break="no" ed="#P" n="13"/>rerint, quas sub perfectione status D. Thomas
+          <lb ed="#P" n="14"/>comprehendit. Distinctius autem magisque in
+          <lb ed="#P" n="15"/>particulari eas considerat Augustinus variis in
+          <lb ed="#P" n="16"/>locis. Primo ex parte intellectus Adae, quia erat
+          <lb ed="#P" n="17"/>sapientissimus, et decipi ante peccatum non
+          <lb ed="#P" n="18"/>poterat, cum tamen considerare, quidquid ad
+          <lb ed="#P" n="19"/>non peccandum necessarium erat, vel utile,
+          <lb ed="#P" n="20"/>facillime posset. Secundo ex parte voluntatis,
+          <lb ed="#P" n="21"/>quia magna libertate, et sine passionum 
+          per<lb break="no" ed="#P" n="22"/>turbatione consensit. Tertio ex parte materie,
+          <lb ed="#P" n="23"/>quia praeceptum Dei erat de re facili, et quae
+          <lb ed="#P" n="24"/>absque ullo incommodo custodiri posset, ut
+          <lb ed="#P" n="25"/>late expedit Augustinus 14, de Civit., cap. 12
+          <lb ed="#P" n="26"/>et sequentibus. Quarto ex divinis beneficiis,
+          <lb ed="#P" n="27"/>quibus homo in eo statu fruebatur. Quanto enim
+          <lb ed="#P" n="28"/>homo magis fruebatur Deo, tanto majori 
+          im<lb break="no" ed="#P" n="29"/>pietate dereliquit Deum, ut dicit Augustinus 21,
+          <lb ed="#P" n="30"/>de Civit., cap. 12. Quinto hinc accessit ilh
+          <lb ed="#P" n="31"/>peccato magna ingratitudo, quam ponderat
+          <lb ed="#P" n="32"/>idem Augustinus, lib. 14, de Civit., cap. 15.
+          <lb ed="#P" n="33"/>Sexto ponderat ibidem temeritatem quamdam
+          <lb ed="#P" n="34"/>et nimiam audaciam in peccando, ubi magna
+          <lb ed="#P" n="35"/>erat inobedientiae poena proposita. Nam quis,
+          <lb ed="#P" n="36"/>inquit, ezplicet quantum malum sit non obedire
+          <lb ed="#P" n="37"/>in re facili, et tantee potestatis imperio, et tanto
+          <lb ed="#P" n="38"/>terrendi supplicio. Quibus omnibus addi solet
+          <lb ed="#P" n="39"/>circumstantia magni nocumenti universo 
+          ge<lb break="no" ed="#P" n="40"/>neri humano illati, de qua in superiori capite
+          <lb ed="#P" n="41"/>satis dictum est.
+        </p>
+        <p xml:id="szdada-y09038-d1e416">
+          <lb ed="#P" n="42"/>5. Dictae circumstantiae non eque 
+          applican<lb break="no" ed="#P" n="43"/>tur illis peccatis. Non est ergo dubium, quin
+          <lb ed="#P" n="44"/>haec omnia adjuncta essentiali malitiae peccati
+          <lb ed="#P" n="45"/>Adae illud longe gravius reddiderint. Sed 
+          con<lb break="no" ed="#P" n="46"/>siderandum est in Adamo plura fuisse peccata
+          <lb ed="#P" n="47"/>specie diversa, praecipue tria, quae supra 
+          de<lb break="no" ed="#P" n="48"/>claravimus, circumstantias autem dictas, non
+          <lb ed="#P" n="49"/>omnibus aequaliter accommodari: nam priores,
+          <lb ed="#P" n="50"/>in quibus perfectio intellectus et immunitas
+          <lb ed="#P" n="51"/>ab omni passione praecipue ponderantur, in
+          <lb ed="#P" n="52"/>primo peccato superbiae considerari debent:
+          <lb ed="#P" n="53"/>nam post illud statim rectitudo justitiae amissa
+          <lb ed="#P" n="54"/>fuit, et inordinata concupiscentia coepit 
+          obs<lb break="no" ed="#P" n="55"/>curare intellectum et inchnare voluntatem, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>inde potuerunt aliquantulum diminui sequen
+          <lb ed="#P" n="57"/>tia peccata: e contrario vero tertia et sexta
+          <lb ed="#P" n="58"/>circumstantia maxime ad transgressionem
+          <lb ed="#P" n="59"/>praecepti non comedendi de ligno prohibito
+          <lb ed="#P" n="60"/>accommodantur, et maxime propria gravitas
+          <lb ed="#P" n="61"/>illius est, quae ultimo loco ex magnitudine 
+          no<lb break="no" ed="#P" n="62"/>cumenti proponitur. Quarta vero et quinta,
+          <lb ed="#P" n="63"/>quae fere in unam ingratitudinem coincidunt,
+          <lb ed="#P" n="64"/>in omnibus peccatis inventa est, et quo plura
+          <lb ed="#P" n="65"/>multiplicabantur peccata, eo magis in 
+          poste<lb break="no" ed="#P" n="66"/>rioribus peccatis ipsa ingratitudo crescebat.
+        </p>
+        <p xml:id="szdada-y09038-d1e475">
+          <lb ed="#P" n="67"/>6. Ex proxime notatis difficilis esse noscitur
+          <lb ed="#P" n="68"/>secund. pars dictae resolutionis. — Unde 
+          intel<lb break="no" ed="#P" n="69"/>ligi potest difficillimum esse in praedicta 
+          com<lb break="no" ed="#P" n="70"/>paratione absolutum juaicium ferre: quia non
+          <lb ed="#P" n="71"/>potest certo sciri, an in omnibus dictis 
+          circum<lb break="no" ed="#P" n="72"/>stantiis, primi parentes omnes alios 
+          superave<lb break="no" ed="#P" n="73"/>rint, neque etiam nobis constat quantum, ex
+          <lb ed="#P" n="74"/>aliis circumstantiis, lapsus ille primorum 
+          pa<lb break="no" ed="#P" n="75"/>rentum diminui potuerit, ut, verbi gratia,
+          <lb ed="#P" n="76"/>quanta fuerit illorum inconsideratio, quae 
+          con<lb break="no" ed="#P" n="77"/>sensum in primum peccatum antecessit, vel
+          <lb ed="#P" n="78"/>quantus fuerit conatus in ipso aectu peccandi;
+          <lb ed="#P" n="79"/>potuit enim esse remissus, quod multum 
+          pec<lb break="no" ed="#P" n="80"/>catum diminuit, vel denique quantum ex 
+          par<lb break="no" ed="#P" n="81"/>vitate materiae intra latitudinem peccati 
+          mor<lb break="no" ed="#P" n="82"/>talis potuerit illud peccatum allevari.
+        </p>
+        <p xml:id="szdada-y09038-d1e512">
+          <lb ed="#P" n="83"/>7. Auctoris resolutio, si peccata primorum
+          <lb ed="#P" n="84"/>parentum cum peccatis Angelorum conferantur.
+          <lb ed="#P" n="85"/>— Nihilominus tamen conjectura utendo 
+          di<lb break="no" ed="#P" n="86"/>cere possumus si comparatio illa fiat inter 
+          pec<lb break="no" ed="#P" n="87"/>catum hominum et Angelorum, simpliciter
+          <lb ed="#P" n="88"/>fuisse gravius Angelorum peccatum quam 
+          ho<lb break="no" ed="#P" n="89"/>minum, quia in specie superbiae convenerunt,
+          <lb ed="#P" n="90"/>et in eo circumstantiae fere omnes fuerunt in
+          <lb ed="#P" n="91"/>Angelo graviores, scilicet, materia ex parte
+          <lb ed="#P" n="92"/>excellentiae concupitae, sapientia et libertas
+          <lb ed="#P" n="93"/>ex parte personae: praesertim in primo Angelo,
+          <lb ed="#P" n="94"/>qui nullo extrinseco suadente peccavit. Item
+          <lb ed="#P" n="95"/>ingratitudo post recepta majora beneficia. 
+          Ma<lb break="no" ed="#P" n="96"/>jor eonatus in peccando, locus dignior, et
+          <lb ed="#P" n="97"/>quodammodo etiam tempus, quia Angelus 
+          ci<lb break="no" ed="#P" n="98"/>tius peccavit: ac denique damnum magis 
+          ir<lb break="no" ed="#P" n="99"/>reparabile. Accessit etiam peccatum invidiae,
+          <lb ed="#P" n="100"/>quod ex suo genere gravissimum est, et in 
+          An<lb break="no" ed="#P" n="101"/>gelis, non vero in primis hominibus inventum
+          <lb ed="#P" n="102"/>fuit. Denique etiam in Anggelis peculiaris 
+          ino<lb break="no" ed="#P" n="103"/>bedientia non defuit, et contra praeceptum
+          <lb ed="#P" n="104"/>longe gravius. Quae omnia ex supradictis de
+          <lb ed="#P" n="105"/>peccato Angelorum clara sunt. Unde sive
+          <lb ed="#P" n="106"/>singula peccata cum singulis similibus, vel
+          <lb ed="#P" n="107"/>equalibus, sive una peccatorum collectio in
+          <lb ed="#P" n="108"/>multitudine et gravitate cum alia conferatur ,
+          <lb ed="#P" n="109"/>semper lapsus Angelorum invenietur 
+          simplici<lb break="no" ed="#P" n="110"/>ter major. At vero conferendo peccatum cum
+          <pb ed="#P" n="362"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>peccatis aliorum solum dicere possumus, illud
+          <lb ed="#P" n="2"/>peccatum parentum fuisse adeo grave, ut 
+          re<lb break="no" ed="#P" n="3"/>gulariter ordinaria peccata hominum superet.
+          <lb ed="#P" n="4"/>Nihilominus tamen addendum est primo 
+          mul<lb break="no" ed="#P" n="5"/>tos alios fuisse majores peccatores saltem
+          <lb ed="#P" n="6"/>propter multitudinem peccatorum. Secundo
+          <lb ed="#P" n="7"/>in aliquibus hominibus aliqua peccata 
+          simpli<lb break="no" ed="#P" n="8"/>citer graviora fuisse, ut praecipue credi potest
+          <lb ed="#P" n="9"/>de Juda, et de peccato principum Judaeorum
+          <lb ed="#P" n="10"/>Christum crucifigentium, ut ex Bernardo 
+          no<lb break="no" ed="#P" n="11"/>tavimus ad 3 par. div. Thomae, quaest. 47,
+          <lb ed="#P" n="12"/>art. 6, in Comment. Et idem aliqui credunt de
+          <lb ed="#P" n="13"/>obstinatissimis haereticis, ut Arrio, Luthero
+          <lb ed="#P" n="14"/>et similibus, quod mihi valde verisimile est.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>

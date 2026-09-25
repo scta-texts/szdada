@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-09-25">September 25, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv03">Paris 1856, v. 03</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-09-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="106"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szdada-y02630"><!-- t2l2c3 -->
+        <head xml:id="szdada-y02630-Hd1e101">Caput 3</head>
+        <head xml:id="szdada-y02630-Hd1e103" type="question-title">Duo dubia de loco et tempore, in quibus lux incepit, expediuntur</head>
+        <p xml:id="szdada-y02630-d1e106">
+          <pb ed="#P" n="106"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT III.
+          <lb ed="#P" n="2"/>DUO DUBIA DE LOCO ET TEMPORE, IN QUIBUS LUX
+          <lb ed="#P" n="3"/>INCEPIT, EXPEDIUNTUR.
+        </p>
+        <p xml:id="szdada-y02630-d1e119">
+          <lb ed="#P" n="4"/>1. Dubitatio prima ac circa illam. Prima 
+          opi<lb break="no" ed="#P" n="5"/>nio apud Bonaventuram. — Prima dubitatio est,
+          <lb ed="#P" n="6"/>quanta mora inter primam rerum creationem
+          <lb ed="#P" n="7"/>et productionem lucis, prout facta narratur per
+          <lb ed="#P" n="8"/>illa verba, fiat lur, intercesserit. Quam 
+          dubi<lb break="no" ed="#P" n="9"/>tationem tractat Donaventura in secunda 
+          quaes<lb break="no" ed="#P" n="10"/>tione, dist. 13, art. 1, quaest. 2, ad ult., et duas
+          <lb ed="#P" n="11"/>refert opiniones. Una est, creationem coelorum
+          <lb ed="#P" n="12"/>productionem lucis ordine tantum naturae, non
+          <lb ed="#P" n="13"/>vere duratione reali praecessisse ; loquitur 
+          au<lb break="no" ed="#P" n="14"/>tem de productione lucis peculiari prout facta
+          <lb ed="#P" n="15"/>significatur per illa verba, fiat lur. Unde quia
+          <lb ed="#P" n="16"/>ipse existimat, illam lucem fuisse nubem 
+          lu<lb break="no" ed="#P" n="17"/>cidam, quae in eodem instanti, in quo facta
+          <lb ed="#P" n="18"/>est, coepit illuminare. Consequenter ait, juxta
+          <lb ed="#P" n="19"/>hanc opinionem creationem orbis, et illius 
+          nu<lb break="no" ed="#P" n="20"/>bis, et illuminationem orbis simul tempore
+          <lb ed="#P" n="21"/>esse factas, ac subinde nullam moram realis
+          <lb ed="#P" n="22"/>durationis inter primam creationem, et opus
+          <lb ed="#P" n="23"/>primi diei intercessisse. Et hanc opinonem
+          <lb ed="#P" n="24"/>tribuit Hugoni de sancto Victore, et ipse 
+          Bona<lb break="no" ed="#P" n="25"/>ventura problematice illam sustinet cum alia
+          <lb ed="#P" n="26"/>statim referenda. Fundamentum hujus 
+          sen<lb break="no" ed="#P" n="27"/>tentiae esse potest, quia mundus in primo die
+          <lb ed="#P" n="28"/>fuit conditus, in quo etiam facta est lux, ut
+          <lb ed="#P" n="29"/>Ecclesia in quodam hymno Dominicae diei in
+          <lb ed="#P" n="30"/>matutino canit, et ex Scriptura sumitur, 
+          qua<lb break="no" ed="#P" n="31"/>tenus dicit mundum sex diebus fuisse factum ,
+          <lb ed="#P" n="32"/>Exod. 20 et 31. Ergo creatio mundi in aliquo
+          <lb ed="#P" n="33"/>illorum dierum est facta, et non nisi in 
+          pri<lb break="no" ed="#P" n="34"/>mo, in quo etiam facta est lux: ergo in 
+          eo<lb break="no" ed="#P" n="35"/>dem die fuit utraque facta: ergo non 
+          opor<lb break="no" ed="#P" n="36"/>tet distantiam temporis inter illas actiones
+          <lb ed="#P" n="37"/>cogitare.
+        </p>
+        <p xml:id="szdada-y02630-d1e195">
+          <lb ed="#P" n="38"/>2. Rejicitur tamen dicta opinio. —Sed haec
+          <lb ed="#P" n="39"/>opinio sustineri non potest, nisi accedendo ex
+          <lb ed="#P" n="40"/>parte sententiam Augustini, nimirum, quod
+          <lb ed="#P" n="41"/>tenebrae, de quibus dicitur, quod erant super
+          <lb ed="#P" n="42"/>faciem abyssi, nunquam in reipsa fuerint, sed
+          <lb ed="#P" n="43"/>tantum cognitione nostra (ut ita dicam) quia
+          <lb ed="#P" n="44"/>essent, si corpus illuminans non adesset. Quod
+          <lb ed="#P" n="45"/>nobis placere nullo modo potest rationes supra
+          <lb ed="#P" n="46"/>tactas, ob quas omnino verum censeo, quod
+          <lb ed="#P" n="47"/>supra dixi, tenebras realiter praecessisse saltem
+          <lb ed="#P" n="48"/>in hoc hemisphaerio, prius quam a sole 
+          illu<lb break="no" ed="#P" n="49"/>minaretur. Quam sententiam docet D. Thomas,
+          <lb ed="#P" n="50"/>1 p., quaest. 66, art. 1, et in 2, distinct. 13,
+          <lb ed="#P" n="51"/>quaest. 1, art. 4, ubi dicit esse magis 
+          consen<lb break="no" ed="#P" n="52"/>tancam Scripturae, eamque tribuit Basilio, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>Chrysostomo, estque omnium Graecerum, et
+          <lb ed="#P" n="54"/>Ambrosii, l. 1 Exaemeron, cap. S, et 
+          Hiero<lb break="no" ed="#P" n="55"/>nymi, Epist. 83, ad Oceanum, et Hugonis de
+          <lb ed="#P" n="56"/>sancto Victore, lib. 1, de Sacr., p. 1, c. 6 et9;
+          <lb ed="#P" n="57"/>Donaventura vero non designat locum 
+          Hugo<lb break="no" ed="#P" n="58"/>nis, ubi contrarium dixerit. Ex hac antem 
+          re<lb break="no" ed="#P" n="59"/>solutione manifeste sequitur aliquem ordinem
+          <lb ed="#P" n="60"/>realis durationis inter creationem et 
+          produc<lb break="no" ed="#P" n="61"/>tionem lucis intercessisse, ratione cujus prius
+          <lb ed="#P" n="62"/>duratione fuerunt tenebrae, quam lucis 
+          pro<lb break="no" ed="#P" n="63"/>ductio. Quanta vero fuerit illa duratio, 
+          expli<lb break="no" ed="#P" n="64"/>candum superest.
+        </p>
+        <p xml:id="szdada-y02630-d1e259">
+          <lb ed="#P" n="65"/>3. Secunda opinio apud eumdem Bonaventuram
+          <lb ed="#P" n="66"/>quam tribuit Bedae.—Est ergo secunda sententia,
+          <lb ed="#P" n="67"/>quam Bonaventura refert, et attribuit Bedae, ac
+          <lb ed="#P" n="68"/>problematice cum praecedenti illam approbat,
+          <lb ed="#P" n="69"/>Iucem factam esse primo die post sex horarum
+          <lb ed="#P" n="70"/>moram. Quamvis enim illam moram tunc 
+          mo<lb break="no" ed="#P" n="71"/>tus Solis non mensuraret, quia motus coeli 
+          non<lb break="no" ed="#P" n="72"/>dum erat, tanta vero fuit, ut si motus diurnus
+          <lb ed="#P" n="73"/>Solis Jam esset, sex horas in illa consumeret ;
+          <lb ed="#P" n="74"/>sicut quando sol quievit Josue 10, quies illa
+          <lb ed="#P" n="75"/>non potuit actu mensurari per motum Solis,
+          <lb ed="#P" n="76"/>et nihilominus certam durationem habuit, 
+          ap<lb break="no" ed="#P" n="77"/>tam mensurari motu Solis, quae tunc potuit
+          <lb ed="#P" n="78"/>per alium proportionatum motum mensurari :
+          <lb ed="#P" n="79"/>illam ergo moram tenebrarum ante 
+          produc<lb break="no" ed="#P" n="80"/>tionem lucis sex horarum fuisse ista opinio
+          <lb ed="#P" n="81"/>affirmat. Fundamentum ejus est, quia illa
+          <lb ed="#P" n="82"/>prima dies non habuit mane, sed a vespere 
+          in<lb break="no" ed="#P" n="83"/>cepit, ut patet ex illis verbis, factum est 
+          ves<lb break="no" ed="#P" n="84"/>pere, et inane dies unus. Ergo lux ihus diei 
+          in<lb break="no" ed="#P" n="85"/>cepit a meridie in hoc hemisphaerio, in quo
+          <lb ed="#P" n="86"/>facta est. Ergo per sex tantum horas duravit,
+          <lb ed="#P" n="87"/>quia verisimile est diem illum aequinoctialem
+          <lb ed="#P" n="88"/>fuisse, in quo sol a meridie usque ad occasum
+          <lb ed="#P" n="89"/>sex horas consumit ; ergo necessarium fuit, ut
+          <lb ed="#P" n="90"/>totidem horis tenebra ante creationem lucis
+          <lb ed="#P" n="91"/>durassent, ut primus ille dies cum sequenti
+          <lb ed="#P" n="92"/>nocte finiri posset in puncto orientali, ut inde
+          <lb ed="#P" n="93"/>secundus dies incipere, et per integram 
+          con<lb break="no" ed="#P" n="94"/>versionem Solis in eodem puncto perfici 
+          pos<lb break="no" ed="#P" n="95"/>set, et ita consequenter omnes dies posteriores
+          <lb ed="#P" n="96"/>fierent. Quod si objicias, quia hinc sequitur
+          <lb ed="#P" n="97"/>primum diem non fuisse integrum, cum sex
+          <lb ed="#P" n="98"/>horae partis matutinae illi defuerint. 
+          Respon<lb break="no" ed="#P" n="99"/>dent illas sex horas tenebrarum in hoc primo
+          <lb ed="#P" n="100"/>die computari, et ita a primo instanti 
+          creatio<lb break="no" ed="#P" n="101"/>nis usque ad finem primi diei plenum 
+          nume<lb break="no" ed="#P" n="102"/>rum viginti quatuor horarum inveniri.
+        </p>
+        <p xml:id="szdada-y02630-d1e344">
+          <lb ed="#P" n="103"/>4. Inpugnatur tamen primo luec secunda
+          <lb ed="#P" n="104"/>opinio.— Haec tamen opinio falso nititur 
+          fun<lb break="no" ed="#P" n="105"/>damento dum asserit, diem illum primum non
+          <lb ed="#P" n="106"/>habuisse mane, nam eisdem verbis, in quibus
+          <lb ed="#P" n="107"/>illud fundamentum nititur, simul dicitur, ha-
+          <pb ed="#P" n="107"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>buisse vesperam et mane: ergo non possumus
+          <lb ed="#P" n="2"/>propter ordinem verborum id negare. quod in
+          <lb ed="#P" n="3"/>eisdem verbis expressum est. Nam quod 
+          ves<lb break="no" ed="#P" n="4"/>pera, quae posterior est, prius nominetur, non
+          <lb ed="#P" n="5"/>potest obstare quominus verum sit fuisse in
+          <lb ed="#P" n="6"/>eodem die cum mane conjunctam, cum Moyses
+          <lb ed="#P" n="7"/>dicat: Factum est vespere, et mane dies unus.
+          <lb ed="#P" n="8"/>Nec quia prius nominavit vesperam, ideo prius
+          <lb ed="#P" n="9"/>in re facta est vespera, quia neque id Moyses
+          <lb ed="#P" n="10"/>in illis verbis affirmavit, nec ex illis colligi 
+          po<lb break="no" ed="#P" n="11"/>test, quia saepe contigit, ordine retrogrado
+          <lb ed="#P" n="12"/>partes rei a posterioribus incipiendo numerari.
+          <lb ed="#P" n="13"/>Et efficax argumentum est, quod etiam de die
+          <lb ed="#P" n="14"/>secundo, et sequentibus eodem modo dicitur,
+          <lb ed="#P" n="15"/>Factum est vespere, et mane dies unus, et non
+          <lb ed="#P" n="16"/>propterea dicendum est caeteros dies caruisse
+          <lb ed="#P" n="17"/>mane. Unde sumitur secundum argumentum
+          <lb ed="#P" n="18"/>contra hanc sententiam, quia dies primus 
+          si<lb break="no" ed="#P" n="19"/>milis fuit sequentibus: ergo incepit mane, et
+          <lb ed="#P" n="20"/>in fine noctis consummatus est, sicut caeteri.
+          <lb ed="#P" n="21"/>Consequentia est clara et antecedens 
+          proba<lb break="no" ed="#P" n="22"/>tur, tum quia eisdem verbis de illo sicut de
+          <lb ed="#P" n="23"/>aliis concluditur, Factum est vespere, et mane
+          <lb ed="#P" n="24"/>dies unus -tum etiam, quia facta luce dicitur,
+          <lb ed="#P" n="25"/>et divisit lucem a tenebris, appellavitque lucem
+          <lb ed="#P" n="26"/>diem, et tenebras noctem, ubi diei nomine 
+          in<lb break="no" ed="#P" n="27"/>tegrum diem artificialem intelligit, ut ex 
+          Au<lb break="no" ed="#P" n="28"/>gustino supra notavimus, et ex distinctione
+          <lb ed="#P" n="29"/>inter ipsum, et integram noctem, satis 
+          colligi<lb break="no" ed="#P" n="30"/>tur: ergo sicut prima nox fuit integra 
+          duode<lb break="no" ed="#P" n="31"/>cim horarum, ita prima lux integrum 
+          artifi<lb break="no" ed="#P" n="32"/>cialem diem totidem horarum confecit.
+        </p>
+        <p xml:id="szdada-y02630-d1e431">
+          <lb ed="#P" n="33"/>5. Tertio displicet nobis haec sententia, quia
+          <lb ed="#P" n="34"/>supponit lucem factam primo die post instans
+          <lb ed="#P" n="35"/>creationis fuisse solem, ipsumque in meridie
+          <lb ed="#P" n="36"/>coepisse illuminare hoc hemisphaerium, ac
+          <lb ed="#P" n="37"/>proinde motum primi mobilis sex horis post
+          <lb ed="#P" n="38"/>creationem mundi incepisse. Nam supra 
+          os<lb break="no" ed="#P" n="39"/>tensum est orbem Solis simul cum aliis coelis
+          <lb ed="#P" n="40"/>in principio creatum esse, et consequenter
+          <lb ed="#P" n="41"/>cum illo fuisse creatum solem, ne miracula,
+          <lb ed="#P" n="42"/>vel nimis extraordinaria opera in illo 
+          princi<lb break="no" ed="#P" n="43"/>pio facta esse dicamus: ergo non potuit sol
+          <lb ed="#P" n="44"/>sex horis post creationem coeli et terrae fieri.
+          <lb ed="#P" n="45"/>Et sane, si Solis productio posterior tempore
+          <lb ed="#P" n="46"/>creatione coeli, et terrae fuisse credatur, 
+          me<lb break="no" ed="#P" n="47"/>lius quarto die, quam primo factus esse 
+          existi<lb break="no" ed="#P" n="48"/>mabitur ; quia Scripturae verba hoc magis 
+          si<lb break="no" ed="#P" n="49"/>gnificant, si juxta verborum corticem 
+          expo<lb break="no" ed="#P" n="50"/>nantur. Quod vero motus primi mobilis non
+          <lb ed="#P" n="51"/>tam tarde inceperit, et quod sol non 
+          inchoa<lb break="no" ed="#P" n="52"/>verit hujus hemisphaerii illuminationem a 
+          me<lb break="no" ed="#P" n="53"/>ridie, statim ostendemus. Denique quamvis
+          <lb ed="#P" n="54"/>Beda in Exaemeron explicans lucem factam
+          <lb ed="#P" n="55"/>hoc die, dicat, incepisse in superioribus ejus-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dem terre partibus, quas et nunc diurna Solis
+          <lb ed="#P" n="57"/>lua illustrare consuevit, et ita tunc emicuisse,
+          <lb ed="#P" n="58"/>non tamen dicit, incepisse a meridiana 
+          illu<lb break="no" ed="#P" n="59"/>minatione, nec per superiores terrae partes 
+          in<lb break="no" ed="#P" n="60"/>telligit, partes coeli altiorcs respectu nostri 
+          su<lb break="no" ed="#P" n="61"/>premas: sed totum hoc hemisphaerium, 
+          res<lb break="no" ed="#P" n="62"/>pectu cujus paulo post aliud hemisphaerium
+          <lb ed="#P" n="63"/>inferiores mundi partes appellat. Et iterum sic
+          <lb ed="#P" n="64"/>ait: Divisit lucem a tenebris non solum 
+          quali<lb break="no" ed="#P" n="65"/>tatis, sed etiam locorum distantia, lucem 
+          vide<lb break="no" ed="#P" n="66"/>licet in superiore orbis parte diffundendo, in
+          <lb ed="#P" n="67"/>qua lunana erat conversatio futura, inferiora
+          <lb ed="#P" n="68"/>cero ejus priscis in tenebris remanere sinendc.
+          <lb ed="#P" n="69"/>Et inferius expresse dicit: Z/lum unum diem
+          <lb ed="#P" n="70"/>primo ecpletum viginta quatuor borarum fuisse.
+          <lb ed="#P" n="71"/>Unde non videtur Beda auctor praecedentis
+          <lb ed="#P" n="72"/>sententiae, sed potius illi repugnare.
+        </p>
+        <p xml:id="szdada-y02630-d1e522">
+          <lb ed="#P" n="73"/>6. Tertia opinio bipartita. —Tertia igitur
+          <lb ed="#P" n="74"/>opinio est lucem factam esse post aliquam 
+          mo<lb break="no" ed="#P" n="75"/>ram, seu durationem temporalem a mundi 
+          ex<lb break="no" ed="#P" n="76"/>ordio, quae mora successiva dici potest actu,
+          <lb ed="#P" n="77"/>vel potentia, quia certo aliquo tempore 
+          succes<lb break="no" ed="#P" n="78"/>sivo potuit mensurari. Addit vero haec opinio,
+          <lb ed="#P" n="79"/>incognitum esse hominibus, quanti temporis
+          <lb ed="#P" n="80"/>illa duratio fuerit. Haec videtur fuisse opinio
+          <lb ed="#P" n="81"/>Hugonis de S. Victore, in c. 6 et 9, supra 
+          ci<lb break="no" ed="#P" n="82"/>tatis, et eamdem significat in c. 29, et 
+          sequi<lb break="no" ed="#P" n="83"/>tur Magister, in 2, d. 13, et Pereira, l. 1, c.1,
+          <lb ed="#P" n="84"/>Gen. Et prior pars probari potest ex verbis
+          <lb ed="#P" n="85"/>illis de tempore ante creationem lucis scriptis:
+          <lb ed="#P" n="86"/>Ft spiritus Domini ferebatur super agntas.
+          <lb ed="#P" n="87"/>Nam per illa, motio aeris, aut venti super
+          <lb ed="#P" n="88"/>aquas facta significatur: ille autem motus non
+          <lb ed="#P" n="89"/>nisi in temporali mora fieri poterat. Ratione
+          <lb ed="#P" n="90"/>item probatur, quia creatio mundi, et lucis
+          <lb ed="#P" n="91"/>productio factae sunt in instanti, et non in uno
+          <lb ed="#P" n="92"/>et eodem, ut probatum est: ergo in duobus.
+          <lb ed="#P" n="93"/>Sed inter quaelibet duo instantia mediat 
+          tem<lb break="no" ed="#P" n="94"/>pus: ergo inter primum instans creationis, ect
+          <lb ed="#P" n="95"/>aliud instans productionis lucis aliquod 
+          tene<lb break="no" ed="#P" n="96"/>brarum tempus intercessit. Altera vero pars
+          <lb ed="#P" n="97"/>de incertitudine, vel potius ignorantia 
+          quanti<lb break="no" ed="#P" n="98"/>tatis illius mora manifeste sequitur ex hac
+          <lb ed="#P" n="99"/>sententia, quia illa mora antecessit primi diei
+          <lb ed="#P" n="100"/>initium. Unde omnes primos sex dies 
+          anteces<lb break="no" ed="#P" n="101"/>sit: sed nullibi revelatum est, quanta fuerit
+          <lb ed="#P" n="102"/>duratio ante sex dies primos si temporalis fuit,
+          <lb ed="#P" n="103"/>nec ex rebus, aut effectibus revelatis colligi
+          <lb ed="#P" n="104"/>potest ; ergo est nobis ignota.
+        </p>
+        <p xml:id="szdada-y02630-d1e594">
+          <lb ed="#P" n="105"/>7. Judicium de promima tertia opinione. —
+          <lb ed="#P" n="106"/>Proxime argumentationis consequentia |que
+          <lb ed="#P" n="107"/>ipsa est proposita resolutio] suadetur primo. —
+          <lb ed="#P" n="108"/>Secundo. — Haec sententia vel supponit lucem
+          <lb ed="#P" n="109"/>primo die creatam fuisse corpus aliquod 
+          luci<lb break="no" ed="#P" n="110"/>dum ad illuminandum mundum denuo tunc
+          <pb ed="#P" n="108"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>productum, et illo fundamento posito magnam
+          <lb ed="#P" n="2"/>habet verisimilitudinem: vel illo fundamento
+          <lb ed="#P" n="3"/>sublato, prout a nobis improbatum est, nulla
+          <lb ed="#P" n="4"/>sufficienti ratione suaderi potest. Unde 
+          simpli<lb break="no" ed="#P" n="5"/>citer verisimilius videtur lucem factam ex vi
+          <lb ed="#P" n="6"/>illius imperii, fiat lur, immediate post 
+          pri<lb break="no" ed="#P" n="7"/>mum instans creationis mundi factam esse,
+          <lb ed="#P" n="8"/>seu intrinsece fieri incepisse. Probatur, quia
+          <lb ed="#P" n="9"/>verisimilius est motum primi mobilis factum
+          <lb ed="#P" n="10"/>esse intrinsece immediate post primum instans
+          <lb ed="#P" n="11"/>creationis, seu, quod perinde est, coepisse 
+          ex<lb break="no" ed="#P" n="12"/>trinsece in ipso instanti creatoris: ergo in 
+          eo<lb break="no" ed="#P" n="13"/>dem instanti coeepit hic mundus quoad hoc 
+          he<lb break="no" ed="#P" n="14"/>misphaerium illuminari a sole. Antecedens 
+          su<lb break="no" ed="#P" n="15"/>mitur ex D. Thoma, 1 p., q. 46, a. 3et 66,
+          <lb ed="#P" n="16"/>a. 4, ad 3, quatenus ibi ait tempus esse 
+          con<lb break="no" ed="#P" n="17"/>creatum cum coelo et terra, et tempus illud
+          <lb ed="#P" n="18"/>fuisse in motu coeli, si supponatur primum
+          <lb ed="#P" n="19"/>mobile in principio creatum, ut nos 
+          supponi<lb break="no" ed="#P" n="20"/>mus, et tanquam probabilius defendimus in
+          <lb ed="#P" n="21"/>superiori libro, c. 9. Consequentia vero 
+          pro<lb break="no" ed="#P" n="22"/>batur, quia lumen post creationem factum,
+          <lb ed="#P" n="23"/>non fuit, nisi hujus hemisphaerii illuminatio,
+          <lb ed="#P" n="24"/>quae per motum Solis fieri incepit. Potuit 
+          au<lb break="no" ed="#P" n="25"/>tem sol in tali dispositione situs creari, ut 
+          im<lb break="no" ed="#P" n="26"/>mediate post motus ejus fieret, et ipse 
+          incipe<lb break="no" ed="#P" n="27"/>ret supra nostrum horisontem ascendere, et
+          <lb ed="#P" n="28"/>totam hanc superiorem partem illuminare:
+          <lb ed="#P" n="29"/>ergo ita factum esse crelendum est. Probatur
+          <lb ed="#P" n="30"/>haec ultima consequentia (caetera enim plaua
+          <lb ed="#P" n="31"/>sunt). Primo, quia hoc modo melius, et magis
+          <lb ed="#P" n="32"/>proprie salvatur, mundum fuisse crcatum in
+          <lb ed="#P" n="33"/>principio temporis, ut habet communis 
+          doc<lb break="no" ed="#P" n="34"/>trina, quae de hoc tempore, quod est 
+          commu<lb break="no" ed="#P" n="35"/>nis, et publica mensura, melius intelligitur.
+          <lb ed="#P" n="36"/>Secundo, quia etiam hoc modo facilius, et 
+          me<lb break="no" ed="#P" n="37"/>lius salvatur commune axioma theologorum ,
+          <lb ed="#P" n="38"/>quod tempus fuerit concreatum cum Angelis,
+          <lb ed="#P" n="39"/>coelo, et terra, ut in dicto capite nono 
+          explica<lb break="no" ed="#P" n="40"/>tum est.
+        </p>
+        <p xml:id="szdada-y02630-d1e701">
+          <lb ed="#P" n="41"/>8. Quarta suasio bipartita. — Ejus prior
+          <lb ed="#P" n="42"/>pars ostenditur. — Tertio, quia etiam hoc modo
+          <lb ed="#P" n="43"/>melius intelliguntur loca Scripturae, in quibus
+          <lb ed="#P" n="44"/>creatio mundi cum ejus ornatu dicitur sex
+          <lb ed="#P" n="45"/>diebus facta et consummata. Nam si prima
+          <lb ed="#P" n="46"/>dies solaris et naturalis incepit intrinsece in
+          <lb ed="#P" n="47"/>ipso instanti creationis, merito illud instans
+          <lb ed="#P" n="48"/>computatur tanquam initium primi diei, ac
+          <lb ed="#P" n="49"/>proiude duratio primi diei aequalis est caeteris
+          <lb ed="#P" n="50"/>diebus, quia indivisibile instans non auget
+          <lb ed="#P" n="51"/>quatitatem ejus, atque ita illi dies sunt 
+          prae<lb break="no" ed="#P" n="52"/>cise sex sine ulla additione. At vero si inter
+          <lb ed="#P" n="53"/>initium creationis et lucis temporalis duratio
+          <lb ed="#P" n="54"/>intercessit, plus temporis quam sex dierum in
+          <lb ed="#P" n="55"/>toto illo opere consummatum est, et creatio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non potest proprie dici facta in initio primi diei.
+          <lb ed="#P" n="57"/>Responderi solet moram illam, quae primum
+          <lb ed="#P" n="58"/>diem antecessit, brevem fuisse, et ideo totam
+          <lb ed="#P" n="59"/>reputari principium primi diei, et numerum
+          <lb ed="#P" n="60"/>dierum non augere. Sed imprimis gratis 
+          dici<lb break="no" ed="#P" n="61"/>tur fuisse brevem, cum sciri non possit, 
+          quan<lb break="no" ed="#P" n="62"/>ta fuerit, si aliqua fuit, ut etiam auctores 
+          alte<lb break="no" ed="#P" n="63"/>rius sententiae fatentur, et bene probatum est.
+          <lb ed="#P" n="64"/>Ae deinde, licet illa mora hrevis fuisset, 
+          nihil<lb break="no" ed="#P" n="65"/>ominus negari non potest quin absque illa
+          <lb ed="#P" n="66"/>locutiones dictae, in majori rigore, et 
+          proprie<lb break="no" ed="#P" n="67"/>tate sustineantur. Accedit quarto, quod nulla
+          <lb ed="#P" n="68"/>est necessitas moram illam excogitandi, quia
+          <lb ed="#P" n="69"/>neque ex Scriptura, neque ex ratione colligi
+          <lb ed="#P" n="70"/>potest. Prior pars probatur, quia. ut verba illa
+          <lb ed="#P" n="71"/>tenebre erant super faciem alyssi, in omni
+          <lb ed="#P" n="72"/>rigore vera sint, satis est, quod in aliqua reali
+          <lb ed="#P" n="73"/>duratione saltem momentanea praecesserint
+          <lb ed="#P" n="74"/>Solis illuminationem, sicut e contrario in 
+          spi<lb break="no" ed="#P" n="75"/>ritualibus Angelis vere dici potest, lumen 
+          ah<lb break="no" ed="#P" n="76"/>quod spiritnuale in eis ante tenebras praecessisse
+          <lb ed="#P" n="77"/>quamvis lumen illud per se solum instans 
+          du<lb break="no" ed="#P" n="78"/>raverit, quod verum erit, etiamsi tale instans
+          <lb ed="#P" n="79"/>per coexistentiam ad nostrum tempus 
+          indivi<lb break="no" ed="#P" n="80"/>sibile cogitetur. Et cadem ratione hoc satis est,
+          <lb ed="#P" n="81"/>ut creatio realiter dicatur antecessisse 
+          effectio<lb break="no" ed="#P" n="82"/>nem lucis, quia instans temporis reale est, et
+          <lb ed="#P" n="83"/>in eo realiter existit aliquid, et est prius illo
+          <lb ed="#P" n="84"/>opere, quod in eodem instanti intrinsece 
+          fac<lb break="no" ed="#P" n="85"/>tum non est. In Scriptura autem nihil aliud
+          <lb ed="#P" n="86"/>invenitur, ex quo illa divisibilis mora colligi
+          <lb ed="#P" n="87"/>possit.
+        </p>
+        <p xml:id="szdada-y02630-d1e809">
+          <lb ed="#P" n="88"/>9. Ostenditur posterior.—Altera vero pars
+          <lb ed="#P" n="89"/>probatur, quia illa sententia solum fundatur
+          <lb ed="#P" n="90"/>in ratione supra facta, quod inter duo 
+          instan<lb break="no" ed="#P" n="91"/>tia intercedit tempus, quam nos ita 
+          retorque<lb break="no" ed="#P" n="92"/>mus, quia inter instans et tempus nulla mora
+          <lb ed="#P" n="93"/>ex necessitate intercedit, sed lux facta primo
+          <lb ed="#P" n="94"/>die non incepit in instanti per primum sui esse,
+          <lb ed="#P" n="95"/>sed incepit in tempore immediate post ultimum
+          <lb ed="#P" n="96"/>non esse; ergo nulla mora necessario 
+          inter<lb break="no" ed="#P" n="97"/>cessit inter creationem, et lucis productionem.
+          <lb ed="#P" n="98"/>Unde opposita sententia supponit, lucem 
+          fac<lb break="no" ed="#P" n="99"/>tam primo die fuisse novum corpus lucidum et
+          <lb ed="#P" n="100"/>illuminans, quod secundum ordinarium 
+          cur<lb break="no" ed="#P" n="101"/>sum naturae in instanti fieri oportebat, et ideo
+          <lb ed="#P" n="102"/>probabiliter colligit intercessisse moram: illo
+          <lb ed="#P" n="103"/>autem fundamento a nobis ablato cessat vis
+          <lb ed="#P" n="104"/>illationis. Lumen autem in aere productum,
+          <lb ed="#P" n="105"/>licet ex se natum sit, fieri in instanti, et ita
+          <lb ed="#P" n="106"/>fiat, quando luminosum in instanti apphicatur:
+          <lb ed="#P" n="107"/>nihilominus quando applicatur per motum, et
+          <lb ed="#P" n="108"/>ad inceptionem motus incipit illuminaüo:
+          <lb ed="#P" n="109"/>tunc etiam ipsum lumen incipit per ultimum
+          <lb ed="#P" n="110"/>non esse, et consequenter non incipit simul in
+          <pb ed="#P" n="109"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>determinata parte aeris, vel in determinata
+          <lb ed="#P" n="2"/>luminis intentione, sed quacumque designata
+          <lb ed="#P" n="3"/>prius incepit in minori, ut est vulgare in 
+          phi<lb break="no" ed="#P" n="4"/>losophia. Ita ergo factum credimus in prima
+          <lb ed="#P" n="5"/>illuminatione Solis supra hoc hemisphaerium,
+          <lb ed="#P" n="6"/>nam potuit facile sol in tali dispositione in 
+          nos<lb break="no" ed="#P" n="7"/>tro hemisphaerio creari, ut in primo instanti
+          <lb ed="#P" n="8"/>suae creationis illuminatio ejus supra nostrum
+          <lb ed="#P" n="9"/>hemisphaerium non ascenderet, sed ad lineam
+          <lb ed="#P" n="10"/>nostri horisontis pertingeret, et ibi 
+          termina<lb break="no" ed="#P" n="11"/>retur intrinsece, et ultra non procederet. Ita
+          <lb ed="#P" n="12"/>ergo creatus est, ut statim dicam, et ita 
+          imme<lb break="no" ed="#P" n="13"/>diate post per motum successive coepit hoc
+          <lb ed="#P" n="14"/>hemisphaerium illuminar;; et ideo non fuit
+          <lb ed="#P" n="15"/>necessarium ut aliqua temporalis mora 
+          inter<lb break="no" ed="#P" n="16"/>cederet. Et hoc ipsum servata proportione 
+          di<lb break="no" ed="#P" n="17"/>cere tenentur auctores contrariae sententiae de
+          <lb ed="#P" n="18"/>nube, seu corpore lucido a solo distincto, quod
+          <lb ed="#P" n="19"/>in hoc die, et in alio instanti post creationem
+          <lb ed="#P" n="20"/>coeli et terrae productum esse existimant, nam
+          <lb ed="#P" n="21"/>inter productionem illius et illuminationem
+          <lb ed="#P" n="22"/>successivam hujus hemisphaerii non ponunt
+          <lb ed="#P" n="23"/>aliquam moram, quia immediate postquam
+          <lb ed="#P" n="24"/>factum est, coepit moveri, ad illuminandum
+          <lb ed="#P" n="25"/>hoc hemisphaerium, ut ex sequenti puncto 
+          pa<lb break="no" ed="#P" n="26"/>tebit. Quod ergo ipsi dicunt de hoc corpore
+          <lb ed="#P" n="27"/>Iucido, nos de sole affirmamus, quia ab illo,
+          <lb ed="#P" n="28"/>primam hujus orbis illuminationem processisse
+          <lb ed="#P" n="29"/>credimus, et illius productionem non ad 
+          ef<lb break="no" ed="#P" n="30"/>fectionem lucis, sed ad creationem coeli 
+          perti<lb break="no" ed="#P" n="31"/>nuisse existimamus.
+        </p>
+        <p xml:id="szdada-y02630-d1e933">
+          <lb ed="#P" n="32"/>10. Dubitatio secuerda principalis. — Atque
+          <lb ed="#P" n="33"/>ex his fere expeditum est aliud dubium, quod
+          <lb ed="#P" n="34"/>hic tractari solet de loco seu situ orbis, in quo
+          <lb ed="#P" n="35"/>sol, vel corpus illud, quod primo illuminavit
+          <lb ed="#P" n="36"/>hoc nostrum hemisphaerium, respectu illius
+          <lb ed="#P" n="37"/>creatum est: et consequenter quale fuerit 
+          lu<lb break="no" ed="#P" n="38"/>men primo productum in hoc hemisphaerio, et
+          <lb ed="#P" n="39"/>cum qua proportione per totum illud fuerit
+          <lb ed="#P" n="40"/>diffusum, nam hoc posterius cum illo priori
+          <lb ed="#P" n="41"/>conjunctum est. In quo puncto tot possunt
+          <lb ed="#P" n="42"/>opinrones, seu modi dicendi excogitari, quot
+          <lb ed="#P" n="43"/>situs Solis respectu hujus hemisphaerii possunt
+          <lb ed="#P" n="44"/>apprehendi, ut sunt, Oriens, Meridies, 
+          Occi<lb break="no" ed="#P" n="45"/>dens, et alii inter hos medii, qui in infinitum
+          <lb ed="#P" n="46"/>multiplicari possunt. Nihilominus tamen de
+          <lb ed="#P" n="47"/>duobus tantum sunt probabiles opiniones, quia
+          <lb ed="#P" n="48"/>de caeteris nulla inventa est ratio probabilis,
+          <lb ed="#P" n="49"/>ad credendum in aliquo illorum situum 
+          fac<lb break="no" ed="#P" n="50"/>tum esse solem, seu illuminantem lucem, 
+          quae<lb break="no" ed="#P" n="51"/>cumque illa fuerit, incepisse.
+        </p>
+        <p xml:id="szdada-y02630-d1e979">
+          <lb ed="#P" n="52"/>11. Prima opinio apud Bonaventuram. —
+          <lb ed="#P" n="53"/>Praecipuum illius fundamentum et congruentia.
+          <lb ed="#P" n="54"/>— Prima opinio est, lucem illam seu nubem
+          <lb ed="#P" n="55"/>creatam fuisse in meridie. Ac proinde statim
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>perfecte illuminasse totum hoc hemisphaerium
+          <lb ed="#P" n="57"/>uniformiter, difformiter omnes ejus partes 
+          il<lb break="no" ed="#P" n="58"/>luminans cum ea proportione, qua id nunc
+          <lb ed="#P" n="59"/>facit meridiano tempore. Hanc refert, et 
+          pro<lb break="no" ed="#P" n="60"/>babilem putat Bonaventura supra, et tribuit
+          <lb ed="#P" n="61"/>illam Bedae, qui certe in Exaemer. illam non
+          <lb ed="#P" n="62"/>docet, si attente legatur, solet etiam tribui
+          <lb ed="#P" n="63"/>Augustino 4, Gen. ad ht., et Chrysostomus,
+          <lb ed="#P" n="64"/>hom. 2 et 3, in Gen. Sed neque apud illos eam
+          <lb ed="#P" n="65"/>invenio. Illam tamen supponit ZEgidius, in
+          <lb ed="#P" n="66"/>suo Exaem., p. 1,c. 16. Fundamentum 
+          praeci<lb break="no" ed="#P" n="67"/>puum hujus sententiae est supra tactum, quod
+          <lb ed="#P" n="68"/>prima dies incepit a vespera. Congruentia vero
+          <lb ed="#P" n="69"/>est, quia opera Dei sunt perfecta, et ideo 
+          con<lb break="no" ed="#P" n="70"/>veniens fuit primum diem incipere a perfecta
+          <lb ed="#P" n="71"/>luce, quae est meridiana. Unde cum fuerit etiam
+          <lb ed="#P" n="72"/>congruum, hanc perfectionem observasse Deum
+          <lb ed="#P" n="73"/>respectu hujus hemisphaerii, in quo paradisus
+          <lb ed="#P" n="74"/>terrenalis futurus erat, verisimile etiam est, in
+          <lb ed="#P" n="75"/>hoc hemisphaerio solem et diem a meridie
+          <lb ed="#P" n="76"/>coepisse. Haec vero sententia a nobis defendi
+          <lb ed="#P" n="77"/>non potest. Primo quia credimus corpus illud
+          <lb ed="#P" n="78"/>luminosum, quod primum diem effecit, non
+          <lb ed="#P" n="79"/>fuisse aliud a sole, et solem fuisse creatum
+          <lb ed="#P" n="80"/>cum sua luce in primo instanti, in quo tenebrae
+          <lb ed="#P" n="81"/>erant in hoc hemisphaerio: ergo non potuit
+          <lb ed="#P" n="82"/>incipere esse in meridiano puncto supra hoc
+          <lb ed="#P" n="83"/>hemisphaerium. Secundo, quia diximus 
+          pri<lb break="no" ed="#P" n="84"/>mum diem incepisse immediate post instans
+          <lb ed="#P" n="85"/>creationis in suo intrinseco esse, seu extrinsece
+          <lb ed="#P" n="86"/>in ipsomet instanti creationis ac proinde fuisse
+          <lb ed="#P" n="87"/>integrum diem naturalem ab ortu Solis usque
+          <lb ed="#P" n="88"/>ad initium alterius diei completum: ergo non
+          <lb ed="#P" n="89"/>potuit sol, vel aliud corpus loco ejus, lucere
+          <lb ed="#P" n="90"/>incipere ab instanti meridiano: ergo neque
+          <lb ed="#P" n="91"/>illo situ creatus est.
+        </p>
+        <p xml:id="szdada-y02630-d1e1070">
+          <lb ed="#P" n="92"/>12. Secunda opinio et verior. — Ad 
+          funda<lb break="no" ed="#P" n="93"/>mentum primae opnionis in numero praecedenti.
+          <lb ed="#P" n="94"/>—Ad congruentiam ibidem.—Est ergo secunda
+          <lb ed="#P" n="95"/>opinio, quae affirmat creatum fuisse solem, in
+          <lb ed="#P" n="96"/>parte orientali hujus hemisphaerii, ut inde 
+          il<lb break="no" ed="#P" n="97"/>lud illuminare inciperet. Quae sententia solet
+          <lb ed="#P" n="98"/>tribui Augustino, qui eam insinuat primo 
+          Ge<lb break="no" ed="#P" n="99"/>nesis ad litteram, capite quarto et sexto, 
+          quam<lb break="no" ed="#P" n="100"/>vis expresse non loquatur; magis eam 
+          signifi<lb break="no" ed="#P" n="101"/>cant Beda in Exaemeron, et Hugo de sancto
+          <lb ed="#P" n="102"/>Victore, libro primo, de Sacrament., parte 1,
+          <lb ed="#P" n="103"/>cap. 6, 9 et 29, et sequitur Pererius, in Gen.,
+          <lb ed="#P" n="104"/>et novissime Augustinus Torniclus, in Annalib.
+          <lb ed="#P" n="105"/>sacris, tom. 1, in expositione primidiei, numero
+          <lb ed="#P" n="106"/>quinto et sexto. Et mihi etiam placet haec 
+          sen<lb break="no" ed="#P" n="107"/>tentia, quae intelligenda est modo in 
+          praece<lb break="no" ed="#P" n="108"/>denti puncto explicato. Et ita ex dictis satis
+          <lb ed="#P" n="109"/>probata est. Neque obstat fundamentum 
+          alte<lb break="no" ed="#P" n="110"/>rius sententiae, quia jam supra dictum est,
+          <pb ed="#P" n="110"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non esse necessarium, ut primus dies a vespera
+          <lb ed="#P" n="2"/>inceperit, quia prius nominata est, in illis 
+          ver<lb break="no" ed="#P" n="3"/>bis, Factum est vespere, et mane dies unus,
+          <lb ed="#P" n="4"/>quia eodem modo caeteri dies referuntur. Unde
+          <lb ed="#P" n="5"/>recte dixit Basilius, homilia secunda, in 
+          Exae<lb break="no" ed="#P" n="6"/>meron, nominatam esse prius vesperam, quia
+          <lb ed="#P" n="7"/>est finis diei, utique artificialis, et postea 
+          ma<lb break="no" ed="#P" n="8"/>ne, quia est finis noctis, ut hinc constaret, in
+          <lb ed="#P" n="9"/>illo primo die naturali artificialem diem 
+          inte<lb break="no" ed="#P" n="10"/>grum praecessisse, et noctem etiam integram
+          <lb ed="#P" n="11"/>subsecutam fuisse. In quo Basilius multum
+          <lb ed="#P" n="12"/>nostrae sententiae favet. Ad congruentiam vero
+          <lb ed="#P" n="13"/>dicimus meliorem ordinem fuisse, ut primus
+          <lb ed="#P" n="14"/>dies ab initio diei inciperet respectu istius 
+          he<lb break="no" ed="#P" n="15"/>misphaerii, in quo et conditus paradisus, et
+          <lb ed="#P" n="16"/>primus homo creatus est: et hoc magis pertinet
+          <lb ed="#P" n="17"/>ad perfectionem operum Dei. Nam sol in 
+          quo<lb break="no" ed="#P" n="18"/>cumque situ fuerit creatus, perfectus factus
+          <lb ed="#P" n="19"/>est. Et primus etiam dies qui fuit veluti 
+          pro<lb break="no" ed="#P" n="20"/>prium opus ejusdem diei, ut supra dixit 
+          Am<lb break="no" ed="#P" n="21"/>brosius, perfectus fuit simul cum divisione diei
+          <lb ed="#P" n="22"/>a nocte, in qua hujus diei opus terminatum
+          <lb ed="#P" n="23"/>est. Et ita obiter constat, quomodo hujus diei
+          <lb ed="#P" n="24"/>opus per totum spatium unius diei paulatim
+          <lb ed="#P" n="25"/>fuerit factum, quia per unam integram 
+          con<lb break="no" ed="#P" n="26"/>versionem solis consummatum cst.
+        </p>
+      </div>
+    </body>
+  </text>
+          </TEI>
